@@ -31,6 +31,7 @@ namespace System::Security::Cryptography {
   }; // System.Security.Cryptography.AsymmetricSignatureFormatter
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Security::Cryptography::AsymmetricSignatureFormatter);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::AsymmetricSignatureFormatter*, "System.Security.Cryptography", "AsymmetricSignatureFormatter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::AsymmetricSignatureFormatter::New_ctor

@@ -69,6 +69,7 @@ namespace TMPro {
   }; // TMPro.TMP_SpriteAsset/TMPro.<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(TMPro::TMP_SpriteAsset::$$c);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_SpriteAsset::$$c*, "TMPro", "TMP_SpriteAsset/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAsset::$$c::_cctor

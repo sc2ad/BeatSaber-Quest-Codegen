@@ -79,6 +79,7 @@ namespace UnityEngine {
   static check_size<sizeof(AssetReferenceUILabelRestriction), 24 + sizeof(::Il2CppString*)> __UnityEngine_AssetReferenceUILabelRestrictionSizeCheck;
   static_assert(sizeof(AssetReferenceUILabelRestriction) == 0x20);
 }
+NEED_NO_BOX(UnityEngine::AssetReferenceUILabelRestriction);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AssetReferenceUILabelRestriction*, "UnityEngine", "AssetReferenceUILabelRestriction");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AssetReferenceUILabelRestriction::New_ctor

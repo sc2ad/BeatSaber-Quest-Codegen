@@ -73,6 +73,7 @@ namespace UnityEngine::Bindings {
   static check_size<sizeof(StaticAccessorAttribute), 24 + sizeof(UnityEngine::Bindings::StaticAccessorType)> __UnityEngine_Bindings_StaticAccessorAttributeSizeCheck;
   static_assert(sizeof(StaticAccessorAttribute) == 0x1C);
 }
+NEED_NO_BOX(UnityEngine::Bindings::StaticAccessorAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::StaticAccessorAttribute*, "UnityEngine.Bindings", "StaticAccessorAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Bindings::StaticAccessorAttribute::set_Name

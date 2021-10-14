@@ -35,6 +35,7 @@ namespace System::Reflection {
   }; // System.Reflection.TypeInfo
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Reflection::TypeInfo);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::TypeInfo*, "System.Reflection", "TypeInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::TypeInfo::New_ctor

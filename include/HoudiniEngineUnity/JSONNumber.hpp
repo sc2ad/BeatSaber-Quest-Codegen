@@ -134,6 +134,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(JSONNumber), 16 + sizeof(double)> __HoudiniEngineUnity_JSONNumberSizeCheck;
   static_assert(sizeof(JSONNumber) == 0x18);
 }
+NEED_NO_BOX(HoudiniEngineUnity::JSONNumber);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::JSONNumber*, "HoudiniEngineUnity", "JSONNumber");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONNumber::New_ctor

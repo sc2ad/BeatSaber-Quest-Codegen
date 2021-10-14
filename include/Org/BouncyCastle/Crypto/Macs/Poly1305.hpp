@@ -259,6 +259,7 @@ namespace Org::BouncyCastle::Crypto::Macs {
   static check_size<sizeof(Poly1305), 116 + sizeof(uint)> __Org_BouncyCastle_Crypto_Macs_Poly1305SizeCheck;
   static_assert(sizeof(Poly1305) == 0x78);
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Macs::Poly1305);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Macs::Poly1305*, "Org.BouncyCastle.Crypto.Macs", "Poly1305");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Macs::Poly1305::Init

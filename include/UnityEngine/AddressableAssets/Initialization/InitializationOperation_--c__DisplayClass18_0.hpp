@@ -102,6 +102,7 @@ namespace UnityEngine::AddressableAssets::Initialization {
   static check_size<sizeof(InitializationOperation::$$c__DisplayClass18_0), 40 + sizeof(int)> __UnityEngine_AddressableAssets_Initialization_InitializationOperation_$$c__DisplayClass18_0SizeCheck;
   static_assert(sizeof(InitializationOperation::$$c__DisplayClass18_0) == 0x2C);
 }
+NEED_NO_BOX(UnityEngine::AddressableAssets::Initialization::InitializationOperation::$$c__DisplayClass18_0);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Initialization::InitializationOperation::$$c__DisplayClass18_0*, "UnityEngine.AddressableAssets.Initialization", "InitializationOperation/<>c__DisplayClass18_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Initialization::InitializationOperation::$$c__DisplayClass18_0::$LoadContentCatalogInternal$b__0

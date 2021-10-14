@@ -350,6 +350,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(TubeBloomPrePassLight), 160 + sizeof(UnityEngine::Transform*)> __GlobalNamespace_TubeBloomPrePassLightSizeCheck;
   static_assert(sizeof(TubeBloomPrePassLight) == 0xA8);
 }
+NEED_NO_BOX(GlobalNamespace::TubeBloomPrePassLight);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TubeBloomPrePassLight*, "", "TubeBloomPrePassLight");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TubeBloomPrePassLight::get_colorAlphaMultiplier

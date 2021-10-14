@@ -55,6 +55,7 @@ namespace Org::BouncyCastle::Utilities::Date {
   static check_size<sizeof(DateTimeObject), 16 + sizeof(System::DateTime)> __Org_BouncyCastle_Utilities_Date_DateTimeObjectSizeCheck;
   static_assert(sizeof(DateTimeObject) == 0x18);
 }
+NEED_NO_BOX(Org::BouncyCastle::Utilities::Date::DateTimeObject);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Date::DateTimeObject*, "Org.BouncyCastle.Utilities.Date", "DateTimeObject");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Date::DateTimeObject::New_ctor

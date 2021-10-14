@@ -126,6 +126,7 @@ namespace UnityEngine::Timeline {
   static check_size<sizeof(DirectorControlPlayable), 32 + sizeof(double)> __UnityEngine_Timeline_DirectorControlPlayableSizeCheck;
   static_assert(sizeof(DirectorControlPlayable) == 0x28);
 }
+NEED_NO_BOX(UnityEngine::Timeline::DirectorControlPlayable);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::DirectorControlPlayable*, "UnityEngine.Timeline", "DirectorControlPlayable");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::DirectorControlPlayable::Create

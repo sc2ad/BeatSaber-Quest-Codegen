@@ -39,6 +39,7 @@ namespace System::Threading::Tasks {
   }; // System.Threading.Tasks.TaskExtensions
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Threading::Tasks::TaskExtensions);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskExtensions*, "System.Threading.Tasks", "TaskExtensions");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::Tasks::TaskExtensions::Unwrap

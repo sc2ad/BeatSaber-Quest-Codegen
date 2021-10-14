@@ -55,6 +55,7 @@ namespace GlobalNamespace {
   }; // OVRRaycaster/<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::OVRRaycaster::$$c);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRRaycaster::$$c*, "", "OVRRaycaster/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRRaycaster::$$c::_cctor

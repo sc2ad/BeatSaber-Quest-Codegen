@@ -52,6 +52,7 @@ namespace GlobalNamespace {
     }
   }; // LocalizedHoverHint
 }
+NEED_NO_BOX(GlobalNamespace::LocalizedHoverHint);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalizedHoverHint*, "", "LocalizedHoverHint");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LocalizedHoverHint::SetText

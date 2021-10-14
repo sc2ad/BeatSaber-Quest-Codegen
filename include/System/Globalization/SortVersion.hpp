@@ -44,5 +44,6 @@ namespace System::Globalization {
   static_assert(sizeof(SortVersion) == 0x24);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Globalization::SortVersion);
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::SortVersion*, "System.Globalization", "SortVersion");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

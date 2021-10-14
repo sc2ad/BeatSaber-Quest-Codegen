@@ -116,6 +116,7 @@ namespace System {
   static check_size<sizeof(ArgumentOutOfRangeException), 144 + sizeof(::Il2CppObject*)> __System_ArgumentOutOfRangeExceptionSizeCheck;
   static_assert(sizeof(ArgumentOutOfRangeException) == 0x98);
 }
+NEED_NO_BOX(System::ArgumentOutOfRangeException);
 DEFINE_IL2CPP_ARG_TYPE(System::ArgumentOutOfRangeException*, "System", "ArgumentOutOfRangeException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ArgumentOutOfRangeException::get_RangeMessage

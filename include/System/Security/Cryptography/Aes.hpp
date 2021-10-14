@@ -53,6 +53,7 @@ namespace System::Security::Cryptography {
   }; // System.Security.Cryptography.Aes
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Security::Cryptography::Aes);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::Aes*, "System.Security.Cryptography", "Aes");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::Aes::_cctor

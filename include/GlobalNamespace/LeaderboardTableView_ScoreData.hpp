@@ -96,6 +96,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LeaderboardTableView::ScoreData), 36 + sizeof(bool)> __GlobalNamespace_LeaderboardTableView_ScoreDataSizeCheck;
   static_assert(sizeof(LeaderboardTableView::ScoreData) == 0x25);
 }
+NEED_NO_BOX(GlobalNamespace::LeaderboardTableView::ScoreData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardTableView::ScoreData*, "", "LeaderboardTableView/ScoreData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LeaderboardTableView::ScoreData::get_score

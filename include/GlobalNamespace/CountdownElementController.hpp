@@ -80,6 +80,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(CountdownElementController), 32 + sizeof(UnityEngine::Animation*)> __GlobalNamespace_CountdownElementControllerSizeCheck;
   static_assert(sizeof(CountdownElementController) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::CountdownElementController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CountdownElementController*, "", "CountdownElementController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CountdownElementController::SetTextAndRunAnimation

@@ -111,6 +111,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerIntroCountdown::$PlayDelayed$d__24), 48 + sizeof(UnityEngine::AudioClip*)> __GlobalNamespace_MultiplayerIntroCountdown_$PlayDelayed$d__24SizeCheck;
   static_assert(sizeof(MultiplayerIntroCountdown::$PlayDelayed$d__24) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerIntroCountdown::$PlayDelayed$d__24);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerIntroCountdown::$PlayDelayed$d__24*, "", "MultiplayerIntroCountdown/<PlayDelayed>d__24");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerIntroCountdown::$PlayDelayed$d__24::System_Collections_Generic_IEnumerator$System_Object$_get_Current

@@ -59,6 +59,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(Test_LayerMask), 16 + sizeof(UnityEngine::LayerMask)> __HoudiniEngineUnity_Test_LayerMaskSizeCheck;
   static_assert(sizeof(Test_LayerMask) == 0x14);
 }
+NEED_NO_BOX(HoudiniEngineUnity::Test_LayerMask);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::Test_LayerMask*, "HoudiniEngineUnity", "Test_LayerMask");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::Test_LayerMask::New_ctor

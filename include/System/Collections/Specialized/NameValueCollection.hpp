@@ -155,6 +155,7 @@ namespace System::Collections::Specialized {
   static check_size<sizeof(NameValueCollection), 80 + sizeof(::ArrayW<::Il2CppString*>)> __System_Collections_Specialized_NameValueCollectionSizeCheck;
   static_assert(sizeof(NameValueCollection) == 0x58);
 }
+NEED_NO_BOX(System::Collections::Specialized::NameValueCollection);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::NameValueCollection*, "System.Collections.Specialized", "NameValueCollection");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::Specialized::NameValueCollection::get_Item

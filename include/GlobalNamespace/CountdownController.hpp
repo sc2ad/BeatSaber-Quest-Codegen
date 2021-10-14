@@ -155,6 +155,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(CountdownController), 64 + sizeof(System::Collections::Generic::Queue_1<GlobalNamespace::CountdownElementController*>*)> __GlobalNamespace_CountdownControllerSizeCheck;
   static_assert(sizeof(CountdownController) == 0x48);
 }
+NEED_NO_BOX(GlobalNamespace::CountdownController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CountdownController*, "", "CountdownController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CountdownController::Awake

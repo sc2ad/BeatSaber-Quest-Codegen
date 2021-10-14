@@ -53,6 +53,7 @@ namespace Zenject {
   }; // Zenject.BindingCondition
   #pragma pack(pop)
 }
+NEED_NO_BOX(Zenject::BindingCondition);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::BindingCondition*, "Zenject", "BindingCondition");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::BindingCondition::New_ctor

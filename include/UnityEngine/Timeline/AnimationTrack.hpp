@@ -553,6 +553,7 @@ namespace UnityEngine::Timeline {
   }; // UnityEngine.Timeline.AnimationTrack
   // WARNING Not writing size check since size may be invalid!
 }
+NEED_NO_BOX(UnityEngine::Timeline::AnimationTrack);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AnimationTrack*, "UnityEngine.Timeline", "AnimationTrack");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::AnimationTrack::get_position

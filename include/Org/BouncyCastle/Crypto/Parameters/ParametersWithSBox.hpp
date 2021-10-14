@@ -65,6 +65,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   static check_size<sizeof(ParametersWithSBox), 24 + sizeof(::ArrayW<uint8_t>)> __Org_BouncyCastle_Crypto_Parameters_ParametersWithSBoxSizeCheck;
   static_assert(sizeof(ParametersWithSBox) == 0x20);
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Parameters::ParametersWithSBox);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::ParametersWithSBox*, "Org.BouncyCastle.Crypto.Parameters", "ParametersWithSBox");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::ParametersWithSBox::get_Parameters

@@ -71,6 +71,7 @@ namespace System {
   }; // System.Tuple
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Tuple);
 DEFINE_IL2CPP_ARG_TYPE(System::Tuple*, "System", "Tuple");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Tuple::Create

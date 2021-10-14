@@ -538,6 +538,7 @@ namespace TMPro {
   }; // TMPro.TextMeshPro
   // WARNING Not writing size check since size may be invalid!
 }
+NEED_NO_BOX(TMPro::TextMeshPro);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TextMeshPro*, "TMPro", "TextMeshPro");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TextMeshPro::get_sortingLayerID

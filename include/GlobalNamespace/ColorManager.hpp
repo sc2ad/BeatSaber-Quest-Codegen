@@ -82,6 +82,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ColorManager), 16 + sizeof(GlobalNamespace::ColorScheme*)> __GlobalNamespace_ColorManagerSizeCheck;
   static_assert(sizeof(ColorManager) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::ColorManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorManager*, "", "ColorManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ColorManager::get_obstaclesColor

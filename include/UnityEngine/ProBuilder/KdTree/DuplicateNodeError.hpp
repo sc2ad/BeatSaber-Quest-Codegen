@@ -33,6 +33,7 @@ namespace UnityEngine::ProBuilder::KdTree {
   }; // UnityEngine.ProBuilder.KdTree.DuplicateNodeError
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::KdTree::DuplicateNodeError);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::KdTree::DuplicateNodeError*, "UnityEngine.ProBuilder.KdTree", "DuplicateNodeError");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::KdTree::DuplicateNodeError::New_ctor

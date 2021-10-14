@@ -78,6 +78,7 @@ namespace Mono::Net::Security {
   static check_size<sizeof(AsyncReadOrWriteRequest), 64 + sizeof(int)> __Mono_Net_Security_AsyncReadOrWriteRequestSizeCheck;
   static_assert(sizeof(AsyncReadOrWriteRequest) == 0x44);
 }
+NEED_NO_BOX(Mono::Net::Security::AsyncReadOrWriteRequest);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::AsyncReadOrWriteRequest*, "Mono.Net.Security", "AsyncReadOrWriteRequest");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Net::Security::AsyncReadOrWriteRequest::get_UserBuffer

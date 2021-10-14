@@ -173,6 +173,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BeatEffect), 96 + sizeof(UnityEngine::Color)> __GlobalNamespace_BeatEffectSizeCheck;
   static_assert(sizeof(BeatEffect) == 0x70);
 }
+NEED_NO_BOX(GlobalNamespace::BeatEffect);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatEffect*, "", "BeatEffect");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatEffect::get_didFinishEvent

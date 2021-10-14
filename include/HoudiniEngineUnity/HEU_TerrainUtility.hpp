@@ -129,6 +129,7 @@ namespace HoudiniEngineUnity {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(HoudiniEngineUnity::HEU_TerrainUtility);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_TerrainUtility*, "HoudiniEngineUnity", "HEU_TerrainUtility");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_TerrainUtility::GenerateTerrainFromVolume

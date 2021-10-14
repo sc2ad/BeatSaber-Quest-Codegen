@@ -268,6 +268,7 @@ namespace System::Reflection {
   static check_size<sizeof(MonoMethod), 32 + sizeof(System::Type*)> __System_Reflection_MonoMethodSizeCheck;
   static_assert(sizeof(MonoMethod) == 0x28);
 }
+NEED_NO_BOX(System::Reflection::MonoMethod);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoMethod*, "System.Reflection", "MonoMethod");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::MonoMethod::get_name

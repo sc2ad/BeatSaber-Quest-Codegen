@@ -35,6 +35,7 @@ namespace GlobalNamespace {
   }; // LiteNetLibConnectionManager/StartServerParams
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::LiteNetLibConnectionManager::StartServerParams);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LiteNetLibConnectionManager::StartServerParams*, "", "LiteNetLibConnectionManager/StartServerParams");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::StartServerParams::New_ctor

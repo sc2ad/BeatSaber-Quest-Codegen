@@ -76,6 +76,7 @@ namespace System {
   }; // System.FormatException
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::FormatException);
 DEFINE_IL2CPP_ARG_TYPE(System::FormatException*, "System", "FormatException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::FormatException::New_ctor

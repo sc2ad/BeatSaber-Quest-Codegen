@@ -62,6 +62,7 @@ namespace System::Reflection {
   }; // System.Reflection.InvalidFilterCriteriaException
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Reflection::InvalidFilterCriteriaException);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::InvalidFilterCriteriaException*, "System.Reflection", "InvalidFilterCriteriaException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::InvalidFilterCriteriaException::New_ctor

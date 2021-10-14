@@ -38,6 +38,7 @@ namespace Org::BouncyCastle::Utilities::Collections {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(Org::BouncyCastle::Utilities::Collections::CollectionUtilities);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Collections::CollectionUtilities*, "Org.BouncyCastle.Utilities.Collections", "CollectionUtilities");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Collections::CollectionUtilities::ReadOnly

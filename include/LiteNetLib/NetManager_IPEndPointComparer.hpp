@@ -51,6 +51,7 @@ namespace LiteNetLib {
   }; // LiteNetLib.NetManager/LiteNetLib.IPEndPointComparer
   #pragma pack(pop)
 }
+NEED_NO_BOX(LiteNetLib::NetManager::IPEndPointComparer);
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetManager::IPEndPointComparer*, "LiteNetLib", "NetManager/IPEndPointComparer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::NetManager::IPEndPointComparer::Equals

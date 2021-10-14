@@ -46,6 +46,7 @@ namespace Oculus::Platform {
     Oculus::Platform::Models::NetSyncVoipAttenuationValueList* GetNetSyncVoipAttenuationValueList();
   }; // Oculus.Platform.MessageWithNetSyncVoipAttenuationValueList
 }
+NEED_NO_BOX(Oculus::Platform::MessageWithNetSyncVoipAttenuationValueList);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithNetSyncVoipAttenuationValueList*, "Oculus.Platform", "MessageWithNetSyncVoipAttenuationValueList");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithNetSyncVoipAttenuationValueList::GetDataFromMessage

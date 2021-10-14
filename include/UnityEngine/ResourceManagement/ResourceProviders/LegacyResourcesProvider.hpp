@@ -58,6 +58,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   }; // UnityEngine.ResourceManagement.ResourceProviders.LegacyResourcesProvider
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::ResourceManagement::ResourceProviders::LegacyResourcesProvider);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::LegacyResourcesProvider*, "UnityEngine.ResourceManagement.ResourceProviders", "LegacyResourcesProvider");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::LegacyResourcesProvider::New_ctor

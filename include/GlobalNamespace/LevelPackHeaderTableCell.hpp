@@ -118,6 +118,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LevelPackHeaderTableCell), 128 + sizeof(UnityEngine::Color)> __GlobalNamespace_LevelPackHeaderTableCellSizeCheck;
   static_assert(sizeof(LevelPackHeaderTableCell) == 0x90);
 }
+NEED_NO_BOX(GlobalNamespace::LevelPackHeaderTableCell);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelPackHeaderTableCell*, "", "LevelPackHeaderTableCell");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LevelPackHeaderTableCell::SetData

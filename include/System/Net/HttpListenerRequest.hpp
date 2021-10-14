@@ -270,6 +270,7 @@ namespace System::Net {
   static check_size<sizeof(HttpListenerRequest), 130 + sizeof(bool)> __System_Net_HttpListenerRequestSizeCheck;
   static_assert(sizeof(HttpListenerRequest) == 0x83);
 }
+NEED_NO_BOX(System::Net::HttpListenerRequest);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpListenerRequest*, "System.Net", "HttpListenerRequest");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::HttpListenerRequest::get_HasEntityBody

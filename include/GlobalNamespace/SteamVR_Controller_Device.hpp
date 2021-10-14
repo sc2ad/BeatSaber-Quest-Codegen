@@ -244,6 +244,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SteamVR_Controller::Device), 245 + sizeof(bool)> __GlobalNamespace_SteamVR_Controller_DeviceSizeCheck;
   static_assert(sizeof(SteamVR_Controller::Device) == 0xF6);
 }
+NEED_NO_BOX(GlobalNamespace::SteamVR_Controller::Device);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Controller::Device*, "", "SteamVR_Controller/Device");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Controller::Device::get_index

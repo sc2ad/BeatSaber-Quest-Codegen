@@ -144,6 +144,7 @@ namespace Zenject {
   static check_size<sizeof(ZenjectSceneLoader), 24 + sizeof(Zenject::DiContainer*)> __Zenject_ZenjectSceneLoaderSizeCheck;
   static_assert(sizeof(ZenjectSceneLoader) == 0x20);
 }
+NEED_NO_BOX(Zenject::ZenjectSceneLoader);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenjectSceneLoader*, "Zenject", "ZenjectSceneLoader");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::New_ctor

@@ -113,6 +113,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(VRIK), 64 + sizeof(RootMotion::FinalIK::IKSolverVR*)> __RootMotion_FinalIK_VRIKSizeCheck;
   static_assert(sizeof(VRIK) == 0x48);
 }
+NEED_NO_BOX(RootMotion::FinalIK::VRIK);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::VRIK*, "RootMotion.FinalIK", "VRIK");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::VRIK::OpenSetupTutorial

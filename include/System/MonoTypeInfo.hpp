@@ -62,6 +62,7 @@ namespace System {
   static check_size<sizeof(MonoTypeInfo), 24 + sizeof(System::Reflection::MonoCMethod*)> __System_MonoTypeInfoSizeCheck;
   static_assert(sizeof(MonoTypeInfo) == 0x20);
 }
+NEED_NO_BOX(System::MonoTypeInfo);
 DEFINE_IL2CPP_ARG_TYPE(System::MonoTypeInfo*, "System", "MonoTypeInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::MonoTypeInfo::New_ctor

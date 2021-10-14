@@ -48,6 +48,7 @@ namespace Il2CppInspector::DLL {
     }
   }; // Il2CppInspector.DLL.StaticFieldOffsetAttribute
 }
+NEED_NO_BOX(Il2CppInspector::DLL::StaticFieldOffsetAttribute);
 DEFINE_IL2CPP_ARG_TYPE(Il2CppInspector::DLL::StaticFieldOffsetAttribute*, "Il2CppInspector.DLL", "StaticFieldOffsetAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Il2CppInspector::DLL::StaticFieldOffsetAttribute::New_ctor

@@ -464,6 +464,7 @@ namespace System::Text::RegularExpressions {
   static check_size<sizeof(RegexParser), 144 + sizeof(bool)> __System_Text_RegularExpressions_RegexParserSizeCheck;
   static_assert(sizeof(RegexParser) == 0x91);
 }
+NEED_NO_BOX(System::Text::RegularExpressions::RegexParser);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexParser*, "System.Text.RegularExpressions", "RegexParser");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexParser::New_ctor

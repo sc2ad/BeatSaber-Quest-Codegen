@@ -51,6 +51,7 @@ namespace Valve::VR {
   }; // Valve.VR.IVRCompositor/Valve.VR._ShowMirrorWindow
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::IVRCompositor::_ShowMirrorWindow);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRCompositor::_ShowMirrorWindow*, "Valve.VR", "IVRCompositor/_ShowMirrorWindow");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRCompositor::_ShowMirrorWindow::New_ctor

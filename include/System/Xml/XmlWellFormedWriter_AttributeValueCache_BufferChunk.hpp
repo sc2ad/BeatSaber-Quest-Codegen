@@ -63,6 +63,7 @@ namespace System::Xml {
   static check_size<sizeof(XmlWellFormedWriter::AttributeValueCache::BufferChunk), 28 + sizeof(int)> __System_Xml_XmlWellFormedWriter_AttributeValueCache_BufferChunkSizeCheck;
   static_assert(sizeof(XmlWellFormedWriter::AttributeValueCache::BufferChunk) == 0x20);
 }
+NEED_NO_BOX(System::Xml::XmlWellFormedWriter::AttributeValueCache::BufferChunk);
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::AttributeValueCache::BufferChunk*, "System.Xml", "XmlWellFormedWriter/AttributeValueCache/BufferChunk");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::AttributeValueCache::BufferChunk::New_ctor

@@ -58,6 +58,7 @@ namespace System {
   static check_size<sizeof(AssemblyLoadEventArgs), 16 + sizeof(System::Reflection::Assembly*)> __System_AssemblyLoadEventArgsSizeCheck;
   static_assert(sizeof(AssemblyLoadEventArgs) == 0x18);
 }
+NEED_NO_BOX(System::AssemblyLoadEventArgs);
 DEFINE_IL2CPP_ARG_TYPE(System::AssemblyLoadEventArgs*, "System", "AssemblyLoadEventArgs");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::AssemblyLoadEventArgs::New_ctor

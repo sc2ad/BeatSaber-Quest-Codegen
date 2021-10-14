@@ -92,6 +92,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(FilteredBeatmapLevel::FilteredBeatmapLevelData), 24 + sizeof(GlobalNamespace::IBeatmapLevelData*)> __GlobalNamespace_FilteredBeatmapLevel_FilteredBeatmapLevelDataSizeCheck;
   static_assert(sizeof(FilteredBeatmapLevel::FilteredBeatmapLevelData) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::FilteredBeatmapLevel::FilteredBeatmapLevelData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FilteredBeatmapLevel::FilteredBeatmapLevelData*, "", "FilteredBeatmapLevel/FilteredBeatmapLevelData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FilteredBeatmapLevel::FilteredBeatmapLevelData::get_audioClip

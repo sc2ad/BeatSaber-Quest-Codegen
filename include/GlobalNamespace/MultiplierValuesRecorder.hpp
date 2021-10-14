@@ -143,6 +143,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplierValuesRecorder), 40 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::MultiplierValuesRecorder::MultiplierValue>*)> __GlobalNamespace_MultiplierValuesRecorderSizeCheck;
   static_assert(sizeof(MultiplierValuesRecorder) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplierValuesRecorder);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplierValuesRecorder*, "", "MultiplierValuesRecorder");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplierValuesRecorder::MultiplierValue, "", "MultiplierValuesRecorder/MultiplierValue");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

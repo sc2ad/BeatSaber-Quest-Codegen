@@ -34,6 +34,7 @@ namespace UnityEngine::UI {
     }
   }; // UnityEngine.UI.Dropdown/UnityEngine.UI.DropdownEvent
 }
+NEED_NO_BOX(UnityEngine::UI::Dropdown::DropdownEvent);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Dropdown::DropdownEvent*, "UnityEngine.UI", "Dropdown/DropdownEvent");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::Dropdown::DropdownEvent::New_ctor

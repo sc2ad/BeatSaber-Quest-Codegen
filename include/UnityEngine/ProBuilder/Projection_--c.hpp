@@ -69,6 +69,7 @@ namespace UnityEngine::ProBuilder {
   }; // UnityEngine.ProBuilder.Projection/UnityEngine.ProBuilder.<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::Projection::$$c);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Projection::$$c*, "UnityEngine.ProBuilder", "Projection/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Projection::$$c::_cctor

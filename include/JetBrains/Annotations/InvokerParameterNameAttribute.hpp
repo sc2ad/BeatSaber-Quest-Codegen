@@ -34,6 +34,7 @@ namespace JetBrains::Annotations {
   }; // JetBrains.Annotations.InvokerParameterNameAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(JetBrains::Annotations::InvokerParameterNameAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::InvokerParameterNameAttribute*, "JetBrains.Annotations", "InvokerParameterNameAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: JetBrains::Annotations::InvokerParameterNameAttribute::New_ctor

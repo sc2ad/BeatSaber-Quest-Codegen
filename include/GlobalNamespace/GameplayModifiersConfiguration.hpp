@@ -29,5 +29,6 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(GlobalNamespace::GameplayModifiersConfiguration);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifiersConfiguration*, "", "GameplayModifiersConfiguration");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

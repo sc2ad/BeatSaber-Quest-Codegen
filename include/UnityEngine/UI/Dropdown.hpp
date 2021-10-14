@@ -414,6 +414,7 @@ namespace UnityEngine::UI {
   static check_size<sizeof(Dropdown), 352 + sizeof(bool)> __UnityEngine_UI_DropdownSizeCheck;
   static_assert(sizeof(Dropdown) == 0x161);
 }
+NEED_NO_BOX(UnityEngine::UI::Dropdown);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Dropdown*, "UnityEngine.UI", "Dropdown");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::Dropdown::get_template

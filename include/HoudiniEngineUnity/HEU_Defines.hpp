@@ -1444,6 +1444,7 @@ namespace HoudiniEngineUnity {
   }; // HoudiniEngineUnity.HEU_Defines
   #pragma pack(pop)
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_Defines);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_Defines*, "HoudiniEngineUnity", "HEU_Defines");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Defines::_cctor

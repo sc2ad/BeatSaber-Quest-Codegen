@@ -56,6 +56,7 @@ namespace Valve::VR {
   }; // Valve.VR.IVRSystem/Valve.VR._GetButtonIdNameFromEnum
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::IVRSystem::_GetButtonIdNameFromEnum);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem::_GetButtonIdNameFromEnum*, "Valve.VR", "IVRSystem/_GetButtonIdNameFromEnum");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRSystem::_GetButtonIdNameFromEnum::New_ctor

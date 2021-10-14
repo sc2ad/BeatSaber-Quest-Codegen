@@ -55,6 +55,7 @@ namespace GlobalNamespace {
   }; // BeatmapCallbackItemDataList/SpawnObstacleCallback
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::BeatmapCallbackItemDataList::SpawnObstacleCallback);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapCallbackItemDataList::SpawnObstacleCallback*, "", "BeatmapCallbackItemDataList/SpawnObstacleCallback");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapCallbackItemDataList::SpawnObstacleCallback::New_ctor

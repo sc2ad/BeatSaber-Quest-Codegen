@@ -35,6 +35,7 @@ namespace GlobalNamespace {
     }
   }; // MirroredBombNoteController/Pool
 }
+NEED_NO_BOX(GlobalNamespace::MirroredBombNoteController::Pool);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MirroredBombNoteController::Pool*, "", "MirroredBombNoteController/Pool");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MirroredBombNoteController::Pool::New_ctor

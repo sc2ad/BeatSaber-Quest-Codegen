@@ -90,6 +90,7 @@ namespace Org::BouncyCastle::Math::EC::Custom::Djb {
   static check_size<sizeof(Curve25519::Curve25519LookupTable), 32 + sizeof(int)> __Org_BouncyCastle_Math_EC_Custom_Djb_Curve25519_Curve25519LookupTableSizeCheck;
   static_assert(sizeof(Curve25519::Curve25519LookupTable) == 0x24);
 }
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519::Curve25519LookupTable);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519::Curve25519LookupTable*, "Org.BouncyCastle.Math.EC.Custom.Djb", "Curve25519/Curve25519LookupTable");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519::Curve25519LookupTable::New_ctor

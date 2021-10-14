@@ -33,6 +33,7 @@ namespace Zenject {
   }; // Zenject.PoolExceededFixedSizeException
   #pragma pack(pop)
 }
+NEED_NO_BOX(Zenject::PoolExceededFixedSizeException);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::PoolExceededFixedSizeException*, "Zenject", "PoolExceededFixedSizeException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::PoolExceededFixedSizeException::New_ctor

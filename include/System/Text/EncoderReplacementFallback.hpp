@@ -90,6 +90,7 @@ namespace System::Text {
   static check_size<sizeof(EncoderReplacementFallback), 24 + sizeof(::Il2CppString*)> __System_Text_EncoderReplacementFallbackSizeCheck;
   static_assert(sizeof(EncoderReplacementFallback) == 0x20);
 }
+NEED_NO_BOX(System::Text::EncoderReplacementFallback);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::EncoderReplacementFallback*, "System.Text", "EncoderReplacementFallback");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::EncoderReplacementFallback::get_DefaultString

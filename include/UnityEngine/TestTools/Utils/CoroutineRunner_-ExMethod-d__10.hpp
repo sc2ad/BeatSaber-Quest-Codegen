@@ -108,6 +108,7 @@ namespace UnityEngine::TestTools::Utils {
   static check_size<sizeof(CoroutineRunner::$ExMethod$d__10), 48 + sizeof(int)> __UnityEngine_TestTools_Utils_CoroutineRunner_$ExMethod$d__10SizeCheck;
   static_assert(sizeof(CoroutineRunner::$ExMethod$d__10) == 0x34);
 }
+NEED_NO_BOX(UnityEngine::TestTools::Utils::CoroutineRunner::$ExMethod$d__10);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Utils::CoroutineRunner::$ExMethod$d__10*, "UnityEngine.TestTools.Utils", "CoroutineRunner/<ExMethod>d__10");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::Utils::CoroutineRunner::$ExMethod$d__10::System_Collections_Generic_IEnumerator$System_Object$_get_Current

@@ -160,6 +160,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BloomFogSO), 40 + sizeof(GlobalNamespace::BloomFogEnvironmentParams*)> __GlobalNamespace_BloomFogSOSizeCheck;
   static_assert(sizeof(BloomFogSO) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::BloomFogSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomFogSO*, "", "BloomFogSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BloomFogSO::get_transition

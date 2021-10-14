@@ -43,6 +43,7 @@ namespace HMUI {
     ::Il2CppString* TextForValue(float value);
   }; // HMUI.PercentSlider
 }
+NEED_NO_BOX(HMUI::PercentSlider);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::PercentSlider*, "HMUI", "PercentSlider");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::PercentSlider::New_ctor

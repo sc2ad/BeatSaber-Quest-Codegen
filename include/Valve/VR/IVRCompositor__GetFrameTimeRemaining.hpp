@@ -51,6 +51,7 @@ namespace Valve::VR {
   }; // Valve.VR.IVRCompositor/Valve.VR._GetFrameTimeRemaining
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::IVRCompositor::_GetFrameTimeRemaining);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRCompositor::_GetFrameTimeRemaining*, "Valve.VR", "IVRCompositor/_GetFrameTimeRemaining");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRCompositor::_GetFrameTimeRemaining::New_ctor

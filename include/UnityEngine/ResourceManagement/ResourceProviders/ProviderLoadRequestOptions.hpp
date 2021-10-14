@@ -56,6 +56,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   static check_size<sizeof(ProviderLoadRequestOptions), 16 + sizeof(bool)> __UnityEngine_ResourceManagement_ResourceProviders_ProviderLoadRequestOptionsSizeCheck;
   static_assert(sizeof(ProviderLoadRequestOptions) == 0x11);
 }
+NEED_NO_BOX(UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions*, "UnityEngine.ResourceManagement.ResourceProviders", "ProviderLoadRequestOptions");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::get_IgnoreFailures

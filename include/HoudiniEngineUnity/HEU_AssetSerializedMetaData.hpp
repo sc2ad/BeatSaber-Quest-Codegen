@@ -96,6 +96,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_AssetSerializedMetaData), 32 + sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::Generic::List_1<HoudiniEngineUnity::CurveNodeData*>*>*)> __HoudiniEngineUnity_HEU_AssetSerializedMetaDataSizeCheck;
   static_assert(sizeof(HEU_AssetSerializedMetaData) == 0x28);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_AssetSerializedMetaData);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_AssetSerializedMetaData*, "HoudiniEngineUnity", "HEU_AssetSerializedMetaData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_AssetSerializedMetaData::get_SoftDeleted

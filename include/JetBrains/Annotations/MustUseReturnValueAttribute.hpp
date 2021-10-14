@@ -67,6 +67,7 @@ namespace JetBrains::Annotations {
   static check_size<sizeof(MustUseReturnValueAttribute), 16 + sizeof(::Il2CppString*)> __JetBrains_Annotations_MustUseReturnValueAttributeSizeCheck;
   static_assert(sizeof(MustUseReturnValueAttribute) == 0x18);
 }
+NEED_NO_BOX(JetBrains::Annotations::MustUseReturnValueAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::MustUseReturnValueAttribute*, "JetBrains.Annotations", "MustUseReturnValueAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: JetBrains::Annotations::MustUseReturnValueAttribute::get_Justification

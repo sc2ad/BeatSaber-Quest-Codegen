@@ -73,6 +73,7 @@ namespace Org::BouncyCastle::Crypto::Paddings {
   static check_size<sizeof(ISO10126d2Padding), 16 + sizeof(Org::BouncyCastle::Security::SecureRandom*)> __Org_BouncyCastle_Crypto_Paddings_ISO10126d2PaddingSizeCheck;
   static_assert(sizeof(ISO10126d2Padding) == 0x18);
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Paddings::ISO10126d2Padding);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Paddings::ISO10126d2Padding*, "Org.BouncyCastle.Crypto.Paddings", "ISO10126d2Padding");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Paddings::ISO10126d2Padding::Init

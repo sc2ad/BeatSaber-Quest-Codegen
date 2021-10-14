@@ -128,6 +128,7 @@ namespace Org::BouncyCastle::Asn1 {
   static check_size<sizeof(Asn1InputStream), 56 + sizeof(::ArrayW<::ArrayW<uint8_t>>)> __Org_BouncyCastle_Asn1_Asn1InputStreamSizeCheck;
   static_assert(sizeof(Asn1InputStream) == 0x40);
 }
+NEED_NO_BOX(Org::BouncyCastle::Asn1::Asn1InputStream);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Asn1InputStream*, "Org.BouncyCastle.Asn1", "Asn1InputStream");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1InputStream::get_Limit

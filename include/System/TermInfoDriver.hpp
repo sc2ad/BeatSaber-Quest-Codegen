@@ -515,6 +515,7 @@ namespace System {
   static check_size<sizeof(TermInfoDriver), 280 + sizeof(int)> __System_TermInfoDriverSizeCheck;
   static_assert(sizeof(TermInfoDriver) == 0x11C);
 }
+NEED_NO_BOX(System::TermInfoDriver);
 DEFINE_IL2CPP_ARG_TYPE(System::TermInfoDriver*, "System", "TermInfoDriver");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::TermInfoDriver::get_Initialized

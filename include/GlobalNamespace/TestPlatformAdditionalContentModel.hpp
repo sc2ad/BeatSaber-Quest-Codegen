@@ -131,6 +131,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(TestPlatformAdditionalContentModel), 56 + sizeof(bool)> __GlobalNamespace_TestPlatformAdditionalContentModelSizeCheck;
   static_assert(sizeof(TestPlatformAdditionalContentModel) == 0x39);
 }
+NEED_NO_BOX(GlobalNamespace::TestPlatformAdditionalContentModel);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TestPlatformAdditionalContentModel*, "", "TestPlatformAdditionalContentModel");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TestPlatformAdditionalContentModel::BuyLevel

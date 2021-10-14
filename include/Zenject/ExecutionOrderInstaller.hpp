@@ -63,6 +63,7 @@ namespace Zenject {
   }; // Zenject.ExecutionOrderInstaller
   // WARNING Not writing size check since size may be invalid!
 }
+NEED_NO_BOX(Zenject::ExecutionOrderInstaller);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ExecutionOrderInstaller*, "Zenject", "ExecutionOrderInstaller");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::ExecutionOrderInstaller::New_ctor

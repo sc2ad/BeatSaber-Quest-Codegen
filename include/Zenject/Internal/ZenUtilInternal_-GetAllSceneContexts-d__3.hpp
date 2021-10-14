@@ -124,6 +124,7 @@ namespace Zenject::Internal {
   static check_size<sizeof(ZenUtilInternal::$GetAllSceneContexts$d__3), 40 + sizeof(System::Collections::Generic::IEnumerator_1<UnityEngine::SceneManagement::Scene>*)> __Zenject_Internal_ZenUtilInternal_$GetAllSceneContexts$d__3SizeCheck;
   static_assert(sizeof(ZenUtilInternal::$GetAllSceneContexts$d__3) == 0x30);
 }
+NEED_NO_BOX(Zenject::Internal::ZenUtilInternal::$GetAllSceneContexts$d__3);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::ZenUtilInternal::$GetAllSceneContexts$d__3*, "Zenject.Internal", "ZenUtilInternal/<GetAllSceneContexts>d__3");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::Internal::ZenUtilInternal::$GetAllSceneContexts$d__3::System_Collections_Generic_IEnumerator$Zenject_SceneContext$_get_Current

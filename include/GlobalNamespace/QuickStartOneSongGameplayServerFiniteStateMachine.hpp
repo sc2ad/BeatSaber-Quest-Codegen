@@ -46,6 +46,7 @@ namespace GlobalNamespace {
   }; // QuickStartOneSongGameplayServerFiniteStateMachine
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::QuickStartOneSongGameplayServerFiniteStateMachine);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::QuickStartOneSongGameplayServerFiniteStateMachine*, "", "QuickStartOneSongGameplayServerFiniteStateMachine");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::QuickStartOneSongGameplayServerFiniteStateMachine::New_ctor

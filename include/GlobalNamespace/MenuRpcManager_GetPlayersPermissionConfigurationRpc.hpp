@@ -35,6 +35,7 @@ namespace GlobalNamespace {
   }; // MenuRpcManager/GetPlayersPermissionConfigurationRpc
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::MenuRpcManager::GetPlayersPermissionConfigurationRpc);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuRpcManager::GetPlayersPermissionConfigurationRpc*, "", "MenuRpcManager/GetPlayersPermissionConfigurationRpc");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::GetPlayersPermissionConfigurationRpc::New_ctor

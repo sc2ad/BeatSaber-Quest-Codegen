@@ -84,6 +84,7 @@ namespace System::Runtime::InteropServices {
   static check_size<sizeof(UnmanagedFunctionPointerAttribute), 26 + sizeof(bool)> __System_Runtime_InteropServices_UnmanagedFunctionPointerAttributeSizeCheck;
   static_assert(sizeof(UnmanagedFunctionPointerAttribute) == 0x1B);
 }
+NEED_NO_BOX(System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute*, "System.Runtime.InteropServices", "UnmanagedFunctionPointerAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute::New_ctor

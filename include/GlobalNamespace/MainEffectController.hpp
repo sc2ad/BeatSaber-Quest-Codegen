@@ -138,6 +138,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MainEffectController), 48 + sizeof(GlobalNamespace::ImageEffectController*)> __GlobalNamespace_MainEffectControllerSizeCheck;
   static_assert(sizeof(MainEffectController) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::MainEffectController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainEffectController*, "", "MainEffectController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MainEffectController::add_afterImageEffectEvent

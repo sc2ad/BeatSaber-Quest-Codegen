@@ -81,6 +81,7 @@ namespace System::Text {
   static check_size<sizeof(UTF8Encoding::UTF8Decoder), 48 + sizeof(int)> __System_Text_UTF8Encoding_UTF8DecoderSizeCheck;
   static_assert(sizeof(UTF8Encoding::UTF8Decoder) == 0x34);
 }
+NEED_NO_BOX(System::Text::UTF8Encoding::UTF8Decoder);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::UTF8Encoding::UTF8Decoder*, "System.Text", "UTF8Encoding/UTF8Decoder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::UTF8Encoding::UTF8Decoder::New_ctor

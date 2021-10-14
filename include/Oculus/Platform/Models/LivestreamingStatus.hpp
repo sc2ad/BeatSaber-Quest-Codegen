@@ -80,6 +80,7 @@ namespace Oculus::Platform::Models {
   static check_size<sizeof(LivestreamingStatus), 24 + sizeof(bool)> __Oculus_Platform_Models_LivestreamingStatusSizeCheck;
   static_assert(sizeof(LivestreamingStatus) == 0x19);
 }
+NEED_NO_BOX(Oculus::Platform::Models::LivestreamingStatus);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::LivestreamingStatus*, "Oculus.Platform.Models", "LivestreamingStatus");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::LivestreamingStatus::New_ctor

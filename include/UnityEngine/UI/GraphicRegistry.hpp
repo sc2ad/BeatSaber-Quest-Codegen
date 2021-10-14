@@ -103,6 +103,7 @@ namespace UnityEngine::UI {
   static check_size<sizeof(GraphicRegistry), 16 + sizeof(System::Collections::Generic::Dictionary_2<UnityEngine::Canvas*, UnityEngine::UI::Collections::IndexedSet_1<UnityEngine::UI::Graphic*>*>*)> __UnityEngine_UI_GraphicRegistrySizeCheck;
   static_assert(sizeof(GraphicRegistry) == 0x18);
 }
+NEED_NO_BOX(UnityEngine::UI::GraphicRegistry);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::GraphicRegistry*, "UnityEngine.UI", "GraphicRegistry");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::GraphicRegistry::get_instance

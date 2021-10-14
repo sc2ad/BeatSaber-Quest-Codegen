@@ -414,6 +414,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   static check_size<sizeof(ParseRecord), 280 + sizeof(int)> __System_Runtime_Serialization_Formatters_Binary_ParseRecordSizeCheck;
   static_assert(sizeof(ParseRecord) == 0x11C);
 }
+NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::ParseRecord);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::ParseRecord*, "System.Runtime.Serialization.Formatters.Binary", "ParseRecord");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::ParseRecord::_cctor

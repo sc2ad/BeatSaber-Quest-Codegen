@@ -151,6 +151,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SafeAreaRectChecker), 80 + sizeof(GlobalNamespace::SafeAreaRectChecker::InitData*)> __GlobalNamespace_SafeAreaRectCheckerSizeCheck;
   static_assert(sizeof(SafeAreaRectChecker) == 0x58);
 }
+NEED_NO_BOX(GlobalNamespace::SafeAreaRectChecker);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SafeAreaRectChecker*, "", "SafeAreaRectChecker");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SafeAreaRectChecker::Start

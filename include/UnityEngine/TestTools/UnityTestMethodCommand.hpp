@@ -48,6 +48,7 @@ namespace UnityEngine::TestTools {
   }; // UnityEngine.TestTools.UnityTestMethodCommand
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::TestTools::UnityTestMethodCommand);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::UnityTestMethodCommand*, "UnityEngine.TestTools", "UnityTestMethodCommand");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::UnityTestMethodCommand::New_ctor

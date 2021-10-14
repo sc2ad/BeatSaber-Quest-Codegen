@@ -54,6 +54,7 @@ namespace System {
   }; // System.TypeNames/System.ATypeName
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::TypeNames::ATypeName);
 DEFINE_IL2CPP_ARG_TYPE(System::TypeNames::ATypeName*, "System", "TypeNames/ATypeName");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::TypeNames::ATypeName::get_DisplayName

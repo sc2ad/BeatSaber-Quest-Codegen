@@ -128,6 +128,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(IKSolver::Bone), 112 + sizeof(bool)> __RootMotion_FinalIK_IKSolver_BoneSizeCheck;
   static_assert(sizeof(IKSolver::Bone) == 0x71);
 }
+NEED_NO_BOX(RootMotion::FinalIK::IKSolver::Bone);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolver::Bone*, "RootMotion.FinalIK", "IKSolver/Bone");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolver::Bone::get_rotationLimit

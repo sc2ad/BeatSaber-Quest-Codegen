@@ -108,6 +108,7 @@ namespace System::Text {
   }; // System.Text.Latin1Encoding
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Text::Latin1Encoding);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::Latin1Encoding*, "System.Text", "Latin1Encoding");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::Latin1Encoding::New_ctor

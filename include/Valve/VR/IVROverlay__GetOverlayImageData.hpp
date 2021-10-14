@@ -56,6 +56,7 @@ namespace Valve::VR {
   }; // Valve.VR.IVROverlay/Valve.VR._GetOverlayImageData
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::IVROverlay::_GetOverlayImageData);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVROverlay::_GetOverlayImageData*, "Valve.VR", "IVROverlay/_GetOverlayImageData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVROverlay::_GetOverlayImageData::New_ctor

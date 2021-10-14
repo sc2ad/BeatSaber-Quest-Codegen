@@ -120,6 +120,7 @@ namespace System::IO {
   static check_size<sizeof(DirectoryInfo), 104 + sizeof(::Il2CppString*)> __System_IO_DirectoryInfoSizeCheck;
   static_assert(sizeof(DirectoryInfo) == 0x70);
 }
+NEED_NO_BOX(System::IO::DirectoryInfo);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::DirectoryInfo*, "System.IO", "DirectoryInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::DirectoryInfo::get_Parent

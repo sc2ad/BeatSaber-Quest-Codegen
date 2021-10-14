@@ -273,6 +273,7 @@ namespace UnityEngine {
   static check_size<sizeof(TextGenerator), 162 + sizeof(bool)> __UnityEngine_TextGeneratorSizeCheck;
   static_assert(sizeof(TextGenerator) == 0xA3);
 }
+NEED_NO_BOX(UnityEngine::TextGenerator);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextGenerator*, "UnityEngine", "TextGenerator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TextGenerator::get_characterCountVisible

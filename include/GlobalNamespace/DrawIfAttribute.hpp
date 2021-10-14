@@ -128,6 +128,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(DrawIfAttribute), 40 + sizeof(GlobalNamespace::DrawIfAttribute::DisablingType)> __GlobalNamespace_DrawIfAttributeSizeCheck;
   static_assert(sizeof(DrawIfAttribute) == 0x2C);
 }
+NEED_NO_BOX(GlobalNamespace::DrawIfAttribute);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DrawIfAttribute*, "", "DrawIfAttribute");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DrawIfAttribute::DisablingType, "", "DrawIfAttribute/DisablingType");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

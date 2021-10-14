@@ -65,6 +65,7 @@ namespace Polyglot {
     }
   }; // Polyglot.LocalizedTextMeshProUGUI
 }
+NEED_NO_BOX(Polyglot::LocalizedTextMeshProUGUI);
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::LocalizedTextMeshProUGUI*, "Polyglot", "LocalizedTextMeshProUGUI");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Polyglot::LocalizedTextMeshProUGUI::SetText

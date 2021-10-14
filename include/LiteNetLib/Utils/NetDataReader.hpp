@@ -347,6 +347,7 @@ namespace LiteNetLib::Utils {
   static check_size<sizeof(NetDataReader), 32 + sizeof(int)> __LiteNetLib_Utils_NetDataReaderSizeCheck;
   static_assert(sizeof(NetDataReader) == 0x24);
 }
+NEED_NO_BOX(LiteNetLib::Utils::NetDataReader);
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::NetDataReader*, "LiteNetLib.Utils", "NetDataReader");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetDataReader::get_RawData

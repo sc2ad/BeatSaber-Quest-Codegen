@@ -56,6 +56,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ClothRandomFluctuation::SineLayer), 20 + sizeof(float)> __GlobalNamespace_ClothRandomFluctuation_SineLayerSizeCheck;
   static_assert(sizeof(ClothRandomFluctuation::SineLayer) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::ClothRandomFluctuation::SineLayer);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ClothRandomFluctuation::SineLayer*, "", "ClothRandomFluctuation/SineLayer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ClothRandomFluctuation::SineLayer::New_ctor

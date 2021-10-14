@@ -256,6 +256,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRHeadsetEmulator), 88 + sizeof(UnityEngine::CursorLockMode)> __GlobalNamespace_OVRHeadsetEmulatorSizeCheck;
   static_assert(sizeof(OVRHeadsetEmulator) == 0x5C);
 }
+NEED_NO_BOX(GlobalNamespace::OVRHeadsetEmulator);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHeadsetEmulator*, "", "OVRHeadsetEmulator");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHeadsetEmulator::OpMode, "", "OVRHeadsetEmulator/OpMode");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

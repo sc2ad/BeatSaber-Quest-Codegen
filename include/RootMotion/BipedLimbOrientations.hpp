@@ -81,6 +81,7 @@ namespace RootMotion {
   static check_size<sizeof(BipedLimbOrientations), 40 + sizeof(RootMotion::BipedLimbOrientations::LimbOrientation*)> __RootMotion_BipedLimbOrientationsSizeCheck;
   static_assert(sizeof(BipedLimbOrientations) == 0x30);
 }
+NEED_NO_BOX(RootMotion::BipedLimbOrientations);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::BipedLimbOrientations*, "RootMotion", "BipedLimbOrientations");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::BipedLimbOrientations::get_UMA

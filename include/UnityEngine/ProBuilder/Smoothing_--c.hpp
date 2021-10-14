@@ -67,6 +67,7 @@ namespace UnityEngine::ProBuilder {
   }; // UnityEngine.ProBuilder.Smoothing/UnityEngine.ProBuilder.<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::Smoothing::$$c);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Smoothing::$$c*, "UnityEngine.ProBuilder", "Smoothing/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Smoothing::$$c::_cctor

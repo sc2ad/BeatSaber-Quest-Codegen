@@ -51,6 +51,7 @@ namespace GlobalNamespace {
   }; // PlatformLeaderboardsModel/GetScoresCompletionHandler
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler*, "", "PlatformLeaderboardsModel/GetScoresCompletionHandler");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler::New_ctor

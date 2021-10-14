@@ -93,6 +93,7 @@ namespace System::IO {
   static check_size<sizeof(CStreamWriter), 104 + sizeof(System::TermInfoDriver*)> __System_IO_CStreamWriterSizeCheck;
   static_assert(sizeof(CStreamWriter) == 0x70);
 }
+NEED_NO_BOX(System::IO::CStreamWriter);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::CStreamWriter*, "System.IO", "CStreamWriter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::CStreamWriter::New_ctor

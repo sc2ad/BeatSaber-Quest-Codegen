@@ -120,6 +120,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(GameServersFilter), 42 + sizeof(bool)> __GlobalNamespace_GameServersFilterSizeCheck;
   static_assert(sizeof(GameServersFilter) == 0x2B);
 }
+NEED_NO_BOX(GlobalNamespace::GameServersFilter);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServersFilter*, "", "GameServersFilter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameServersFilter::New_ctor

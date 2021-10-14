@@ -161,6 +161,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MissionSelectionMapViewController), 160 + sizeof(GlobalNamespace::MissionNode*)> __GlobalNamespace_MissionSelectionMapViewControllerSizeCheck;
   static_assert(sizeof(MissionSelectionMapViewController) == 0xA8);
 }
+NEED_NO_BOX(GlobalNamespace::MissionSelectionMapViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionSelectionMapViewController*, "", "MissionSelectionMapViewController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionSelectionMapViewController::get_animatedUpdateIsRequired

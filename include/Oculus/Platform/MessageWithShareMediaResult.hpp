@@ -46,6 +46,7 @@ namespace Oculus::Platform {
     Oculus::Platform::Models::ShareMediaResult* GetShareMediaResult();
   }; // Oculus.Platform.MessageWithShareMediaResult
 }
+NEED_NO_BOX(Oculus::Platform::MessageWithShareMediaResult);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithShareMediaResult*, "Oculus.Platform", "MessageWithShareMediaResult");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithShareMediaResult::GetDataFromMessage

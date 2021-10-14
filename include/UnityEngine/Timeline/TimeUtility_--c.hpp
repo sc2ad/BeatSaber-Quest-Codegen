@@ -62,6 +62,7 @@ namespace UnityEngine::Timeline {
   }; // UnityEngine.Timeline.TimeUtility/UnityEngine.Timeline.<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::Timeline::TimeUtility::$$c);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimeUtility::$$c*, "UnityEngine.Timeline", "TimeUtility/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimeUtility::$$c::_cctor

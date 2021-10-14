@@ -129,6 +129,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ResultObjectiveListItem), 56 + sizeof(TMPro::TextMeshProUGUI*)> __GlobalNamespace_ResultObjectiveListItemSizeCheck;
   static_assert(sizeof(ResultObjectiveListItem) == 0x40);
 }
+NEED_NO_BOX(GlobalNamespace::ResultObjectiveListItem);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResultObjectiveListItem*, "", "ResultObjectiveListItem");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ResultObjectiveListItem::set_iconColor

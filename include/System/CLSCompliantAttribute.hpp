@@ -52,6 +52,7 @@ namespace System {
   static check_size<sizeof(CLSCompliantAttribute), 16 + sizeof(bool)> __System_CLSCompliantAttributeSizeCheck;
   static_assert(sizeof(CLSCompliantAttribute) == 0x11);
 }
+NEED_NO_BOX(System::CLSCompliantAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::CLSCompliantAttribute*, "System", "CLSCompliantAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::CLSCompliantAttribute::New_ctor

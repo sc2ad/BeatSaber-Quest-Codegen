@@ -63,6 +63,7 @@ namespace UnityEngine::AddressableAssets {
   static check_size<sizeof(AddressablesImpl::$$c__DisplayClass53_0), 16 + sizeof(UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*)> __UnityEngine_AddressableAssets_AddressablesImpl_$$c__DisplayClass53_0SizeCheck;
   static_assert(sizeof(AddressablesImpl::$$c__DisplayClass53_0) == 0x18);
 }
+NEED_NO_BOX(UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass53_0);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass53_0*, "UnityEngine.AddressableAssets", "AddressablesImpl/<>c__DisplayClass53_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass53_0::$RemoveResourceLocator$b__0

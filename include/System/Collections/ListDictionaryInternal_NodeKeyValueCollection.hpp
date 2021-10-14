@@ -83,6 +83,7 @@ namespace System::Collections {
   static check_size<sizeof(ListDictionaryInternal::NodeKeyValueCollection), 24 + sizeof(bool)> __System_Collections_ListDictionaryInternal_NodeKeyValueCollectionSizeCheck;
   static_assert(sizeof(ListDictionaryInternal::NodeKeyValueCollection) == 0x19);
 }
+NEED_NO_BOX(System::Collections::ListDictionaryInternal::NodeKeyValueCollection);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::ListDictionaryInternal::NodeKeyValueCollection*, "System.Collections", "ListDictionaryInternal/NodeKeyValueCollection");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::ListDictionaryInternal::NodeKeyValueCollection::System_Collections_ICollection_get_Count

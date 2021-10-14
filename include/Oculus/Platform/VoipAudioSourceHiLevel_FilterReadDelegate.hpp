@@ -71,6 +71,7 @@ namespace Oculus::Platform {
   static check_size<sizeof(VoipAudioSourceHiLevel::FilterReadDelegate), 32 + sizeof(::ArrayW<float>)> __Oculus_Platform_VoipAudioSourceHiLevel_FilterReadDelegateSizeCheck;
   static_assert(sizeof(VoipAudioSourceHiLevel::FilterReadDelegate) == 0x28);
 }
+NEED_NO_BOX(Oculus::Platform::VoipAudioSourceHiLevel::FilterReadDelegate);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::VoipAudioSourceHiLevel::FilterReadDelegate*, "Oculus.Platform", "VoipAudioSourceHiLevel/FilterReadDelegate");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::VoipAudioSourceHiLevel::FilterReadDelegate::Awake

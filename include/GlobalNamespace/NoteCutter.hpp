@@ -90,6 +90,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(NoteCutter), 32 + sizeof(GlobalNamespace::NoteCutter::CuttableBySaberSortParamsComparer*)> __GlobalNamespace_NoteCutterSizeCheck;
   static_assert(sizeof(NoteCutter) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::NoteCutter);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutter*, "", "NoteCutter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteCutter::Cut

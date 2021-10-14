@@ -129,6 +129,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SongTimeFixedUpdateController), 52 + sizeof(float)> __GlobalNamespace_SongTimeFixedUpdateControllerSizeCheck;
   static_assert(sizeof(SongTimeFixedUpdateController) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::SongTimeFixedUpdateController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongTimeFixedUpdateController*, "", "SongTimeFixedUpdateController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SongTimeFixedUpdateController::get_fixedDeltaTime

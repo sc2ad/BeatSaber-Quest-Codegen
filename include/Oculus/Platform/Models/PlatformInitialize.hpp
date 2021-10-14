@@ -52,6 +52,7 @@ namespace Oculus::Platform::Models {
   static check_size<sizeof(PlatformInitialize), 16 + sizeof(Oculus::Platform::PlatformInitializeResult)> __Oculus_Platform_Models_PlatformInitializeSizeCheck;
   static_assert(sizeof(PlatformInitialize) == 0x14);
 }
+NEED_NO_BOX(Oculus::Platform::Models::PlatformInitialize);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::PlatformInitialize*, "Oculus.Platform.Models", "PlatformInitialize");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::PlatformInitialize::New_ctor

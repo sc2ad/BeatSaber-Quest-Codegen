@@ -59,6 +59,7 @@ namespace Zenject {
   }; // Zenject.ValidationUtil/Zenject.<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(Zenject::ValidationUtil::$$c);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ValidationUtil::$$c*, "Zenject", "ValidationUtil/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::ValidationUtil::$$c::_cctor

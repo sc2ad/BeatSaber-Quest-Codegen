@@ -41,6 +41,7 @@ namespace GlobalNamespace {
     }
   }; // MultiplayerLobbyAvatarController/Factory
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerLobbyAvatarController::Factory);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLobbyAvatarController::Factory*, "", "MultiplayerLobbyAvatarController/Factory");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyAvatarController::Factory::New_ctor

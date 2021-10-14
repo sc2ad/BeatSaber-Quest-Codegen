@@ -262,6 +262,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRGazePointer), 96 + sizeof(GlobalNamespace::OVRProgressIndicator*)> __GlobalNamespace_OVRGazePointerSizeCheck;
   static_assert(sizeof(OVRGazePointer) == 0x68);
 }
+NEED_NO_BOX(GlobalNamespace::OVRGazePointer);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRGazePointer*, "", "OVRGazePointer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRGazePointer::get_hidden

@@ -52,6 +52,7 @@ namespace Mono::Security::Cryptography {
   }; // Mono.Security.Cryptography.RSAManaged/Mono.Security.Cryptography.KeyGeneratedEventHandler
   #pragma pack(pop)
 }
+NEED_NO_BOX(Mono::Security::Cryptography::RSAManaged::KeyGeneratedEventHandler);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::RSAManaged::KeyGeneratedEventHandler*, "Mono.Security.Cryptography", "RSAManaged/KeyGeneratedEventHandler");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Security::Cryptography::RSAManaged::KeyGeneratedEventHandler::New_ctor

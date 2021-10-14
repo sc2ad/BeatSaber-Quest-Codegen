@@ -145,6 +145,7 @@ namespace UnityEngine {
   static check_size<sizeof(AnimationEvent), 108 + sizeof(UnityEngine::AnimatorClipInfo)> __UnityEngine_AnimationEventSizeCheck;
   static_assert(sizeof(AnimationEvent) == 0x74);
 }
+NEED_NO_BOX(UnityEngine::AnimationEvent);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimationEvent*, "UnityEngine", "AnimationEvent");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AnimationEvent::New_ctor

@@ -63,6 +63,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BeatmapLevelsModel::$$c__DisplayClass34_0), 16 + sizeof(::Il2CppString*)> __GlobalNamespace_BeatmapLevelsModel_$$c__DisplayClass34_0SizeCheck;
   static_assert(sizeof(BeatmapLevelsModel::$$c__DisplayClass34_0) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::BeatmapLevelsModel::$$c__DisplayClass34_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelsModel::$$c__DisplayClass34_0*, "", "BeatmapLevelsModel/<>c__DisplayClass34_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsModel::$$c__DisplayClass34_0::$GetLevelPreviewForLevelId$b__1

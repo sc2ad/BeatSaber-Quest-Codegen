@@ -57,6 +57,7 @@ namespace UnityEngine::Experimental::TerrainAPI {
   }; // UnityEngine.Experimental.TerrainAPI.TerrainCallbacks/UnityEngine.Experimental.TerrainAPI.HeightmapChangedCallback
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::Experimental::TerrainAPI::TerrainCallbacks::HeightmapChangedCallback);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::TerrainAPI::TerrainCallbacks::HeightmapChangedCallback*, "UnityEngine.Experimental.TerrainAPI", "TerrainCallbacks/HeightmapChangedCallback");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Experimental::TerrainAPI::TerrainCallbacks::HeightmapChangedCallback::New_ctor

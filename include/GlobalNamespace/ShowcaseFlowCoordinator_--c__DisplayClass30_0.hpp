@@ -67,6 +67,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ShowcaseFlowCoordinator::$$c__DisplayClass30_0), 24 + sizeof(GlobalNamespace::ResultsViewController*)> __GlobalNamespace_ShowcaseFlowCoordinator_$$c__DisplayClass30_0SizeCheck;
   static_assert(sizeof(ShowcaseFlowCoordinator::$$c__DisplayClass30_0) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::ShowcaseFlowCoordinator::$$c__DisplayClass30_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShowcaseFlowCoordinator::$$c__DisplayClass30_0*, "", "ShowcaseFlowCoordinator/<>c__DisplayClass30_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ShowcaseFlowCoordinator::$$c__DisplayClass30_0::$HandleResultsViewControllerRestartButtonPressed$b__0

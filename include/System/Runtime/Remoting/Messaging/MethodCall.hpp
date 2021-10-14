@@ -270,6 +270,7 @@ namespace System::Runtime::Remoting::Messaging {
   static check_size<sizeof(MethodCall), 96 + sizeof(System::Collections::IDictionary*)> __System_Runtime_Remoting_Messaging_MethodCallSizeCheck;
   static_assert(sizeof(MethodCall) == 0x68);
 }
+NEED_NO_BOX(System::Runtime::Remoting::Messaging::MethodCall);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::MethodCall*, "System.Runtime.Remoting.Messaging", "MethodCall");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::MethodCall::get_ArgCount

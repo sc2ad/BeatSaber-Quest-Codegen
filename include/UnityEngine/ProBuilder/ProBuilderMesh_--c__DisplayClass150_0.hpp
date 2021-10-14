@@ -63,6 +63,7 @@ namespace UnityEngine::ProBuilder {
   static check_size<sizeof(ProBuilderMesh::$$c__DisplayClass150_0), 16 + sizeof(int)> __UnityEngine_ProBuilder_ProBuilderMesh_$$c__DisplayClass150_0SizeCheck;
   static_assert(sizeof(ProBuilderMesh::$$c__DisplayClass150_0) == 0x14);
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::ProBuilderMesh::$$c__DisplayClass150_0);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ProBuilderMesh::$$c__DisplayClass150_0*, "UnityEngine.ProBuilder", "ProBuilderMesh/<>c__DisplayClass150_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ProBuilderMesh::$$c__DisplayClass150_0::$GetUnusedTextureGroup$b__0

@@ -84,6 +84,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerLevelSceneSetupData), 40 + sizeof(bool)> __GlobalNamespace_MultiplayerLevelSceneSetupDataSizeCheck;
   static_assert(sizeof(MultiplayerLevelSceneSetupData) == 0x29);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerLevelSceneSetupData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLevelSceneSetupData*, "", "MultiplayerLevelSceneSetupData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLevelSceneSetupData::New_ctor

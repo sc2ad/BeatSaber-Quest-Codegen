@@ -37,6 +37,7 @@ namespace Microsoft::Win32::SafeHandles {
   }; // Microsoft.Win32.SafeHandles.SafeRegistryHandle
   #pragma pack(pop)
 }
+NEED_NO_BOX(Microsoft::Win32::SafeHandles::SafeRegistryHandle);
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::SafeHandles::SafeRegistryHandle*, "Microsoft.Win32.SafeHandles", "SafeRegistryHandle");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Microsoft::Win32::SafeHandles::SafeRegistryHandle::New_ctor

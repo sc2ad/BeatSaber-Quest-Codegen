@@ -168,6 +168,7 @@ namespace HMUI {
   static check_size<sizeof(DropdownWithTableView), 64 + sizeof(int)> __HMUI_DropdownWithTableViewSizeCheck;
   static_assert(sizeof(DropdownWithTableView) == 0x44);
 }
+NEED_NO_BOX(HMUI::DropdownWithTableView);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::DropdownWithTableView*, "HMUI", "DropdownWithTableView");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::DropdownWithTableView::get_tableViewDataSource

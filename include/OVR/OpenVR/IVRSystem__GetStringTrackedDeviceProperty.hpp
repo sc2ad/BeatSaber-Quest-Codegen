@@ -63,6 +63,7 @@ namespace OVR::OpenVR {
   }; // OVR.OpenVR.IVRSystem/OVR.OpenVR._GetStringTrackedDeviceProperty
   #pragma pack(pop)
 }
+NEED_NO_BOX(OVR::OpenVR::IVRSystem::_GetStringTrackedDeviceProperty);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRSystem::_GetStringTrackedDeviceProperty*, "OVR.OpenVR", "IVRSystem/_GetStringTrackedDeviceProperty");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVRSystem::_GetStringTrackedDeviceProperty::New_ctor

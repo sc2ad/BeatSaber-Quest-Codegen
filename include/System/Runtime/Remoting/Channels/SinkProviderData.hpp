@@ -80,6 +80,7 @@ namespace System::Runtime::Remoting::Channels {
   static check_size<sizeof(SinkProviderData), 32 + sizeof(System::Collections::Hashtable*)> __System_Runtime_Remoting_Channels_SinkProviderDataSizeCheck;
   static_assert(sizeof(SinkProviderData) == 0x28);
 }
+NEED_NO_BOX(System::Runtime::Remoting::Channels::SinkProviderData);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Channels::SinkProviderData*, "System.Runtime.Remoting.Channels", "SinkProviderData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Channels::SinkProviderData::get_Children

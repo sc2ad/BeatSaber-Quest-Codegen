@@ -90,6 +90,7 @@ namespace Org::BouncyCastle::Math::EC {
   static check_size<sizeof(ECCurve::Config), 40 + sizeof(Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier*)> __Org_BouncyCastle_Math_EC_ECCurve_ConfigSizeCheck;
   static_assert(sizeof(ECCurve::Config) == 0x30);
 }
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::ECCurve::Config);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::ECCurve::Config*, "Org.BouncyCastle.Math.EC", "ECCurve/Config");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::ECCurve::Config::New_ctor

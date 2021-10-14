@@ -59,6 +59,7 @@ namespace OVR::OpenVR {
   }; // OVR.OpenVR.IVRCompositor/OVR.OpenVR._GetLastPoses
   #pragma pack(pop)
 }
+NEED_NO_BOX(OVR::OpenVR::IVRCompositor::_GetLastPoses);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRCompositor::_GetLastPoses*, "OVR.OpenVR", "IVRCompositor/_GetLastPoses");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVRCompositor::_GetLastPoses::New_ctor

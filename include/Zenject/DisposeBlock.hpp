@@ -290,6 +290,7 @@ namespace Zenject {
   static check_size<sizeof(DisposeBlock), 24 + sizeof(System::Collections::Generic::List_1<Zenject::DisposeBlock::SpawnedObjectPoolPair>*)> __Zenject_DisposeBlockSizeCheck;
   static_assert(sizeof(DisposeBlock) == 0x20);
 }
+NEED_NO_BOX(Zenject::DisposeBlock);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DisposeBlock*, "Zenject", "DisposeBlock");
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DisposeBlock::SpawnedObjectPoolPair, "Zenject", "DisposeBlock/SpawnedObjectPoolPair");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

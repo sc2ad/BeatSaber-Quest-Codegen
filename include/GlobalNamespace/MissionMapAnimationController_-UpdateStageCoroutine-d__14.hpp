@@ -86,6 +86,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MissionMapAnimationController::$UpdateStageCoroutine$d__14), 32 + sizeof(GlobalNamespace::MissionMapAnimationController*)> __GlobalNamespace_MissionMapAnimationController_$UpdateStageCoroutine$d__14SizeCheck;
   static_assert(sizeof(MissionMapAnimationController::$UpdateStageCoroutine$d__14) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::MissionMapAnimationController::$UpdateStageCoroutine$d__14);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionMapAnimationController::$UpdateStageCoroutine$d__14*, "", "MissionMapAnimationController/<UpdateStageCoroutine>d__14");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionMapAnimationController::$UpdateStageCoroutine$d__14::System_Collections_Generic_IEnumerator$System_Object$_get_Current

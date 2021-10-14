@@ -176,6 +176,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(TutorialNoteController), 148 + sizeof(float)> __GlobalNamespace_TutorialNoteControllerSizeCheck;
   static_assert(sizeof(TutorialNoteController) == 0x98);
 }
+NEED_NO_BOX(GlobalNamespace::TutorialNoteController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialNoteController*, "", "TutorialNoteController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TutorialNoteController::get_noteMovement

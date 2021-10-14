@@ -104,6 +104,7 @@ namespace System::Runtime::Remoting::Messaging {
   static check_size<sizeof(CADMethodReturnMessage), 72 + sizeof(::ArrayW<System::Type*>)> __System_Runtime_Remoting_Messaging_CADMethodReturnMessageSizeCheck;
   static_assert(sizeof(CADMethodReturnMessage) == 0x50);
 }
+NEED_NO_BOX(System::Runtime::Remoting::Messaging::CADMethodReturnMessage);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::CADMethodReturnMessage*, "System.Runtime.Remoting.Messaging", "CADMethodReturnMessage");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CADMethodReturnMessage::get_PropertiesCount

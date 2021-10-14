@@ -110,6 +110,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_AssetSync), 136 + sizeof(::Il2CppString*)> __HoudiniEngineUnity_HEU_AssetSyncSizeCheck;
   static_assert(sizeof(HEU_AssetSync) == 0x90);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_AssetSync);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_AssetSync*, "HoudiniEngineUnity", "HEU_AssetSync");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_AssetSync::OnEnable

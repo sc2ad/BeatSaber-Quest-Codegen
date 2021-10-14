@@ -164,6 +164,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(NoteCutCoreEffectsSpawner), 88 + sizeof(GlobalNamespace::AudioTimeSyncController*)> __GlobalNamespace_NoteCutCoreEffectsSpawnerSizeCheck;
   static_assert(sizeof(NoteCutCoreEffectsSpawner) == 0x60);
 }
+NEED_NO_BOX(GlobalNamespace::NoteCutCoreEffectsSpawner);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutCoreEffectsSpawner*, "", "NoteCutCoreEffectsSpawner");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteCutCoreEffectsSpawner::Start

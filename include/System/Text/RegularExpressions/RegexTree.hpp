@@ -107,6 +107,7 @@ namespace System::Text::RegularExpressions {
   static check_size<sizeof(RegexTree), 60 + sizeof(int)> __System_Text_RegularExpressions_RegexTreeSizeCheck;
   static_assert(sizeof(RegexTree) == 0x40);
 }
+NEED_NO_BOX(System::Text::RegularExpressions::RegexTree);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexTree*, "System.Text.RegularExpressions", "RegexTree");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexTree::New_ctor

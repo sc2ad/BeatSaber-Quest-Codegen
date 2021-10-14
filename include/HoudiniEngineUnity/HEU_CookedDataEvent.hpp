@@ -39,6 +39,7 @@ namespace HoudiniEngineUnity {
     }
   }; // HoudiniEngineUnity.HEU_CookedDataEvent
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_CookedDataEvent);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_CookedDataEvent*, "HoudiniEngineUnity", "HEU_CookedDataEvent");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_CookedDataEvent::New_ctor

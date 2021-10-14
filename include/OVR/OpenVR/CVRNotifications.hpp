@@ -71,6 +71,7 @@ namespace OVR::OpenVR {
   static check_size<sizeof(CVRNotifications), 16 + sizeof(OVR::OpenVR::IVRNotifications)> __OVR_OpenVR_CVRNotificationsSizeCheck;
   static_assert(sizeof(CVRNotifications) == 0x20);
 }
+NEED_NO_BOX(OVR::OpenVR::CVRNotifications);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRNotifications*, "OVR.OpenVR", "CVRNotifications");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::CVRNotifications::New_ctor

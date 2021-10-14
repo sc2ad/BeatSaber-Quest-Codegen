@@ -100,6 +100,7 @@ namespace UnityEngine::UI {
   static check_size<sizeof(BaseMeshEffect), 24 + sizeof(UnityEngine::UI::Graphic*)> __UnityEngine_UI_BaseMeshEffectSizeCheck;
   static_assert(sizeof(BaseMeshEffect) == 0x20);
 }
+NEED_NO_BOX(UnityEngine::UI::BaseMeshEffect);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::BaseMeshEffect*, "UnityEngine.UI", "BaseMeshEffect");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::BaseMeshEffect::get_graphic

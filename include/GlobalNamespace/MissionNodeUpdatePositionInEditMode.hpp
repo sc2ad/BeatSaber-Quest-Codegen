@@ -62,6 +62,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MissionNodeUpdatePositionInEditMode), 24 + sizeof(GlobalNamespace::MissionNodeConnection*)> __GlobalNamespace_MissionNodeUpdatePositionInEditModeSizeCheck;
   static_assert(sizeof(MissionNodeUpdatePositionInEditMode) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::MissionNodeUpdatePositionInEditMode);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionNodeUpdatePositionInEditMode*, "", "MissionNodeUpdatePositionInEditMode");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionNodeUpdatePositionInEditMode::New_ctor

@@ -55,6 +55,7 @@ namespace System {
   }; // System.TimeZoneInfo/System.<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::TimeZoneInfo::$$c);
 DEFINE_IL2CPP_ARG_TYPE(System::TimeZoneInfo::$$c*, "System", "TimeZoneInfo/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::TimeZoneInfo::$$c::_cctor

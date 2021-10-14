@@ -84,6 +84,7 @@ namespace System::IO {
   static check_size<sizeof(TextReader::SyncTextReader), 24 + sizeof(System::IO::TextReader*)> __System_IO_TextReader_SyncTextReaderSizeCheck;
   static_assert(sizeof(TextReader::SyncTextReader) == 0x20);
 }
+NEED_NO_BOX(System::IO::TextReader::SyncTextReader);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::TextReader::SyncTextReader*, "System.IO", "TextReader/SyncTextReader");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::TextReader::SyncTextReader::New_ctor

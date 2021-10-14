@@ -53,6 +53,7 @@ namespace System::Runtime::Remoting::Messaging {
   }; // System.Runtime.Remoting.Messaging.ObjRefSurrogate
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Runtime::Remoting::Messaging::ObjRefSurrogate);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::ObjRefSurrogate*, "System.Runtime.Remoting.Messaging", "ObjRefSurrogate");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::ObjRefSurrogate::GetObjectData

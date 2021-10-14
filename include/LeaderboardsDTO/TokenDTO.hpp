@@ -54,6 +54,7 @@ namespace LeaderboardsDTO {
   static check_size<sizeof(TokenDTO), 24 + sizeof(int)> __LeaderboardsDTO_TokenDTOSizeCheck;
   static_assert(sizeof(TokenDTO) == 0x1C);
 }
+NEED_NO_BOX(LeaderboardsDTO::TokenDTO);
 DEFINE_IL2CPP_ARG_TYPE(LeaderboardsDTO::TokenDTO*, "LeaderboardsDTO", "TokenDTO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LeaderboardsDTO::TokenDTO::New_ctor

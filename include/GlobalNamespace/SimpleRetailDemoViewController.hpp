@@ -190,6 +190,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SimpleRetailDemoViewController), 144 + sizeof(System::Action_2<GlobalNamespace::SimpleRetailDemoViewController*, GlobalNamespace::SimpleRetailDemoViewController::MenuButton>*)> __GlobalNamespace_SimpleRetailDemoViewControllerSizeCheck;
   static_assert(sizeof(SimpleRetailDemoViewController) == 0x98);
 }
+NEED_NO_BOX(GlobalNamespace::SimpleRetailDemoViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleRetailDemoViewController*, "", "SimpleRetailDemoViewController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleRetailDemoViewController::MenuButton, "", "SimpleRetailDemoViewController/MenuButton");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

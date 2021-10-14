@@ -129,6 +129,7 @@ namespace UnityEngine::UI {
   static check_size<sizeof(Shadow), 56 + sizeof(bool)> __UnityEngine_UI_ShadowSizeCheck;
   static_assert(sizeof(Shadow) == 0x39);
 }
+NEED_NO_BOX(UnityEngine::UI::Shadow);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Shadow*, "UnityEngine.UI", "Shadow");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::Shadow::get_effectColor

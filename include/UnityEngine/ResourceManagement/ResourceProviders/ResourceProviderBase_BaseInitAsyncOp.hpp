@@ -73,6 +73,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   }; // UnityEngine.ResourceManagement.ResourceProviders.ResourceProviderBase/UnityEngine.ResourceManagement.ResourceProviders.BaseInitAsyncOp
   // WARNING Not writing size check since size may be invalid!
 }
+NEED_NO_BOX(UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase::BaseInitAsyncOp);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase::BaseInitAsyncOp*, "UnityEngine.ResourceManagement.ResourceProviders", "ResourceProviderBase/BaseInitAsyncOp");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase::BaseInitAsyncOp::Init

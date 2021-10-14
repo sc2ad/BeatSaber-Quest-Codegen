@@ -241,6 +241,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(WaypointsTestGameplayManager), 144 + sizeof(float)> __GlobalNamespace_WaypointsTestGameplayManagerSizeCheck;
   static_assert(sizeof(WaypointsTestGameplayManager) == 0x94);
 }
+NEED_NO_BOX(GlobalNamespace::WaypointsTestGameplayManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::WaypointsTestGameplayManager*, "", "WaypointsTestGameplayManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::WaypointsTestGameplayManager::Start

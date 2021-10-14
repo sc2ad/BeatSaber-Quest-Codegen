@@ -81,6 +81,7 @@ namespace UnityEngine::ResourceManagement {
   static check_size<sizeof(WebRequestQueueOperation), 32 + sizeof(UnityEngine::Networking::UnityWebRequest*)> __UnityEngine_ResourceManagement_WebRequestQueueOperationSizeCheck;
   static_assert(sizeof(WebRequestQueueOperation) == 0x28);
 }
+NEED_NO_BOX(UnityEngine::ResourceManagement::WebRequestQueueOperation);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::WebRequestQueueOperation*, "UnityEngine.ResourceManagement", "WebRequestQueueOperation");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::WebRequestQueueOperation::get_IsDone

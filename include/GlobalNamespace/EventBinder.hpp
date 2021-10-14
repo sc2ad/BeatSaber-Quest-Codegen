@@ -69,6 +69,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(EventBinder), 16 + sizeof(System::Collections::Generic::List_1<System::Action*>*)> __GlobalNamespace_EventBinderSizeCheck;
   static_assert(sizeof(EventBinder) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::EventBinder);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EventBinder*, "", "EventBinder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EventBinder::Bind

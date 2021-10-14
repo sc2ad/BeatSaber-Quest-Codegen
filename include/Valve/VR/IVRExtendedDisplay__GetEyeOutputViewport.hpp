@@ -56,6 +56,7 @@ namespace Valve::VR {
   }; // Valve.VR.IVRExtendedDisplay/Valve.VR._GetEyeOutputViewport
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::IVRExtendedDisplay::_GetEyeOutputViewport);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRExtendedDisplay::_GetEyeOutputViewport*, "Valve.VR", "IVRExtendedDisplay/_GetEyeOutputViewport");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRExtendedDisplay::_GetEyeOutputViewport::New_ctor

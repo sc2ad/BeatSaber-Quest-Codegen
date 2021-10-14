@@ -442,6 +442,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(GrounderQuadruped), 312 + sizeof(UnityEngine::Rigidbody*)> __RootMotion_FinalIK_GrounderQuadrupedSizeCheck;
   static_assert(sizeof(GrounderQuadruped) == 0x140);
 }
+NEED_NO_BOX(RootMotion::FinalIK::GrounderQuadruped);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::GrounderQuadruped*, "RootMotion.FinalIK", "GrounderQuadruped");
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::GrounderQuadruped::Foot, "RootMotion.FinalIK", "GrounderQuadruped/Foot");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

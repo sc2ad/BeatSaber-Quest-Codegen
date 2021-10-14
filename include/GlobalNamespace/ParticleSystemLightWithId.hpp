@@ -132,6 +132,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ParticleSystemLightWithId), 80 + sizeof(::ArrayW<UnityEngine::ParticleSystem::Particle>)> __GlobalNamespace_ParticleSystemLightWithIdSizeCheck;
   static_assert(sizeof(ParticleSystemLightWithId) == 0x58);
 }
+NEED_NO_BOX(GlobalNamespace::ParticleSystemLightWithId);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ParticleSystemLightWithId*, "", "ParticleSystemLightWithId");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ParticleSystemLightWithId::get_color

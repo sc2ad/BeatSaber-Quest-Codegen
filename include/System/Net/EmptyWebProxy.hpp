@@ -77,6 +77,7 @@ namespace System::Net {
   static check_size<sizeof(EmptyWebProxy), 16 + sizeof(System::Net::ICredentials*)> __System_Net_EmptyWebProxySizeCheck;
   static_assert(sizeof(EmptyWebProxy) == 0x18);
 }
+NEED_NO_BOX(System::Net::EmptyWebProxy);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::EmptyWebProxy*, "System.Net", "EmptyWebProxy");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::EmptyWebProxy::get_Credentials

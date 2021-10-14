@@ -130,6 +130,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PCAppInit), 104 + sizeof(::Il2CppString*)> __GlobalNamespace_PCAppInitSizeCheck;
   static_assert(sizeof(PCAppInit) == 0x70);
 }
+NEED_NO_BOX(GlobalNamespace::PCAppInit);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PCAppInit*, "", "PCAppInit");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PCAppInit::New_ctor

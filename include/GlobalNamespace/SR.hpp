@@ -24,6 +24,7 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(GlobalNamespace::SR);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SR*, "", "SR");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SR::Format

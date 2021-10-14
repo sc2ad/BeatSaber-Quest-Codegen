@@ -65,6 +65,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   static check_size<sizeof(MeshValidation::$$c__DisplayClass10_0), 16 + sizeof(UnityEngine::ProBuilder::ProBuilderMesh*)> __UnityEngine_ProBuilder_MeshOperations_MeshValidation_$$c__DisplayClass10_0SizeCheck;
   static_assert(sizeof(MeshValidation::$$c__DisplayClass10_0) == 0x18);
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::MeshOperations::MeshValidation::$$c__DisplayClass10_0);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::MeshValidation::$$c__DisplayClass10_0*, "UnityEngine.ProBuilder.MeshOperations", "MeshValidation/<>c__DisplayClass10_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::MeshValidation::$$c__DisplayClass10_0::$RebuildSelectionIndexes$b__0

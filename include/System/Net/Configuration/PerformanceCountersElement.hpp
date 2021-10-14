@@ -44,6 +44,7 @@ namespace System::Net::Configuration {
   }; // System.Net.Configuration.PerformanceCountersElement
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Net::Configuration::PerformanceCountersElement);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Configuration::PerformanceCountersElement*, "System.Net.Configuration", "PerformanceCountersElement");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Configuration::PerformanceCountersElement::get_Properties

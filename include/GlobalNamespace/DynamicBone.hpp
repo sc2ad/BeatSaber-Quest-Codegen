@@ -528,6 +528,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(DynamicBone), 256 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::DynamicBone::Particle*>*)> __GlobalNamespace_DynamicBoneSizeCheck;
   static_assert(sizeof(DynamicBone) == 0x108);
 }
+NEED_NO_BOX(GlobalNamespace::DynamicBone);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DynamicBone*, "", "DynamicBone");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DynamicBone::UpdateMode, "", "DynamicBone/UpdateMode");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DynamicBone::FreezeAxis, "", "DynamicBone/FreezeAxis");

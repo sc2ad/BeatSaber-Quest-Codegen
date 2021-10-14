@@ -164,6 +164,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SongStartHandler), 56 + sizeof(System::Action_1<float>*)> __GlobalNamespace_SongStartHandlerSizeCheck;
   static_assert(sizeof(SongStartHandler) == 0x40);
 }
+NEED_NO_BOX(GlobalNamespace::SongStartHandler);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongStartHandler*, "", "SongStartHandler");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SongStartHandler::get_songStartSyncTime

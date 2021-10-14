@@ -56,6 +56,7 @@ namespace Valve::VR {
   }; // Valve.VR.IVRSettings/Valve.VR._GetInt32
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::IVRSettings::_GetInt32);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSettings::_GetInt32*, "Valve.VR", "IVRSettings/_GetInt32");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRSettings::_GetInt32::New_ctor

@@ -188,6 +188,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SoloFreePlayFlowCoordinator), 320 + sizeof(GlobalNamespace::PlatformLeaderboardsModel*)> __GlobalNamespace_SoloFreePlayFlowCoordinatorSizeCheck;
   static_assert(sizeof(SoloFreePlayFlowCoordinator) == 0x148);
 }
+NEED_NO_BOX(GlobalNamespace::SoloFreePlayFlowCoordinator);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SoloFreePlayFlowCoordinator*, "", "SoloFreePlayFlowCoordinator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SoloFreePlayFlowCoordinator::IsNewHighScore

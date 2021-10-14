@@ -72,6 +72,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BGNetLogger), 16 + sizeof(::ArrayW<Microsoft::Extensions::Logging::ILogger*>)> __GlobalNamespace_BGNetLoggerSizeCheck;
   static_assert(sizeof(BGNetLogger) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::BGNetLogger);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BGNetLogger*, "", "BGNetLogger");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BGNetLogger::New_ctor

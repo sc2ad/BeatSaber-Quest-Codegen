@@ -293,6 +293,7 @@ namespace UnityEngine::ProBuilder {
   static check_size<sizeof(Face), 96 + sizeof(::ArrayW<UnityEngine::ProBuilder::Edge>)> __UnityEngine_ProBuilder_FaceSizeCheck;
   static_assert(sizeof(Face) == 0x68);
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::Face);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Face*, "UnityEngine.ProBuilder", "Face");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::get_manualUV

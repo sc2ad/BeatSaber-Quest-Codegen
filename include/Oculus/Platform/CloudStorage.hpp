@@ -70,6 +70,7 @@ namespace Oculus::Platform {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(Oculus::Platform::CloudStorage);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CloudStorage*, "Oculus.Platform", "CloudStorage");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::CloudStorage::Delete

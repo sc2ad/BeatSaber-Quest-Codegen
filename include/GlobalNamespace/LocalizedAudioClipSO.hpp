@@ -78,6 +78,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LocalizedAudioClipSO), 32 + sizeof(GlobalNamespace::LocalizedAudioClipSO::LocalizedAudioClipInfo*)> __GlobalNamespace_LocalizedAudioClipSOSizeCheck;
   static_assert(sizeof(LocalizedAudioClipSO) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::LocalizedAudioClipSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalizedAudioClipSO*, "", "LocalizedAudioClipSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LocalizedAudioClipSO::get_localizedAudioClip

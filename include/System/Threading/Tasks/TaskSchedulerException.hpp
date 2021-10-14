@@ -56,6 +56,7 @@ namespace System::Threading::Tasks {
   }; // System.Threading.Tasks.TaskSchedulerException
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Threading::Tasks::TaskSchedulerException);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskSchedulerException*, "System.Threading.Tasks", "TaskSchedulerException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::Tasks::TaskSchedulerException::New_ctor

@@ -229,6 +229,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerTimelineMock), 144 + sizeof(UnityEngine::GameObject*)> __GlobalNamespace_MultiplayerTimelineMockSizeCheck;
   static_assert(sizeof(MultiplayerTimelineMock) == 0x98);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerTimelineMock);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerTimelineMock*, "", "MultiplayerTimelineMock");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerTimelineMock::get_connectedPlayerIntroAnimators

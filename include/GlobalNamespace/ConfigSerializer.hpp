@@ -36,6 +36,7 @@ namespace GlobalNamespace {
   }; // ConfigSerializer
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::ConfigSerializer);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConfigSerializer*, "", "ConfigSerializer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ConfigSerializer::SaveConfig

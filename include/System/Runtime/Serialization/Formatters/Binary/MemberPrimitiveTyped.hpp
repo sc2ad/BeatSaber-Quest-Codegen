@@ -79,6 +79,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   static check_size<sizeof(MemberPrimitiveTyped), 24 + sizeof(::Il2CppObject*)> __System_Runtime_Serialization_Formatters_Binary_MemberPrimitiveTypedSizeCheck;
   static_assert(sizeof(MemberPrimitiveTyped) == 0x20);
 }
+NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped*, "System.Runtime.Serialization.Formatters.Binary", "MemberPrimitiveTyped");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped::Set

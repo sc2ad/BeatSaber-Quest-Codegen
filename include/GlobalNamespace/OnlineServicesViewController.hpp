@@ -99,6 +99,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OnlineServicesViewController), 128 + sizeof(System::Action_1<bool>*)> __GlobalNamespace_OnlineServicesViewControllerSizeCheck;
   static_assert(sizeof(OnlineServicesViewController) == 0x88);
 }
+NEED_NO_BOX(GlobalNamespace::OnlineServicesViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OnlineServicesViewController*, "", "OnlineServicesViewController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OnlineServicesViewController::add_didFinishEvent

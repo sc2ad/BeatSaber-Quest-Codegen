@@ -180,6 +180,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OptionsViewController), 144 + sizeof(System::Action_1<GlobalNamespace::OptionsViewController::OptionsButton>*)> __GlobalNamespace_OptionsViewControllerSizeCheck;
   static_assert(sizeof(OptionsViewController) == 0x98);
 }
+NEED_NO_BOX(GlobalNamespace::OptionsViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OptionsViewController*, "", "OptionsViewController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OptionsViewController::OptionsButton, "", "OptionsViewController/OptionsButton");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

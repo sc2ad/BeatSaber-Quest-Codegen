@@ -51,6 +51,7 @@ namespace UnityEngine {
   static check_size<sizeof(MinAttribute), 16 + sizeof(float)> __UnityEngine_MinAttributeSizeCheck;
   static_assert(sizeof(MinAttribute) == 0x14);
 }
+NEED_NO_BOX(UnityEngine::MinAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::MinAttribute*, "UnityEngine", "MinAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::MinAttribute::New_ctor

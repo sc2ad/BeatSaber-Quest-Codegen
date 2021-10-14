@@ -83,6 +83,7 @@ namespace System::Security::Cryptography {
   }; // System.Security.Cryptography.CryptographicException
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Security::Cryptography::CryptographicException);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::CryptographicException*, "System.Security.Cryptography", "CryptographicException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::CryptographicException::New_ctor

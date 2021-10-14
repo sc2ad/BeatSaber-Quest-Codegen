@@ -56,6 +56,7 @@ namespace Valve::VR {
   }; // Valve.VR.IVRChaperone/Valve.VR._SetSceneColor
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::IVRChaperone::_SetSceneColor);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRChaperone::_SetSceneColor*, "Valve.VR", "IVRChaperone/_SetSceneColor");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRChaperone::_SetSceneColor::New_ctor

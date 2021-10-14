@@ -44,6 +44,7 @@ namespace NUnit::Framework::Constraints {
   }; // NUnit.Framework.Constraints.TrueConstraint
   #pragma pack(pop)
 }
+NEED_NO_BOX(NUnit::Framework::Constraints::TrueConstraint);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::TrueConstraint*, "NUnit.Framework.Constraints", "TrueConstraint");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::TrueConstraint::New_ctor

@@ -133,6 +133,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(CreateServerViewController), 144 + sizeof(GlobalNamespace::MultiplayerModeSettings*)> __GlobalNamespace_CreateServerViewControllerSizeCheck;
   static_assert(sizeof(CreateServerViewController) == 0x98);
 }
+NEED_NO_BOX(GlobalNamespace::CreateServerViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CreateServerViewController*, "", "CreateServerViewController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CreateServerViewController::get_multiplayerModeSettings

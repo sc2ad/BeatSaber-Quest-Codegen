@@ -109,6 +109,7 @@ namespace System::Collections {
   static check_size<sizeof(ArrayList::ArrayListEnumeratorSimple), 40 + sizeof(bool)> __System_Collections_ArrayList_ArrayListEnumeratorSimpleSizeCheck;
   static_assert(sizeof(ArrayList::ArrayListEnumeratorSimple) == 0x29);
 }
+NEED_NO_BOX(System::Collections::ArrayList::ArrayListEnumeratorSimple);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::ArrayList::ArrayListEnumeratorSimple*, "System.Collections", "ArrayList/ArrayListEnumeratorSimple");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::ArrayList::ArrayListEnumeratorSimple::get_Current

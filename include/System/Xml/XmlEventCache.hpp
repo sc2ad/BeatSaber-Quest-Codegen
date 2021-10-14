@@ -572,6 +572,7 @@ namespace System::Xml {
   static check_size<sizeof(XmlEventCache), 112 + sizeof(::Il2CppString*)> __System_Xml_XmlEventCacheSizeCheck;
   static_assert(sizeof(XmlEventCache) == 0x78);
 }
+NEED_NO_BOX(System::Xml::XmlEventCache);
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlEventCache*, "System.Xml", "XmlEventCache");
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlEventCache::XmlEventType, "System.Xml", "XmlEventCache/XmlEventType");
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlEventCache::XmlEvent, "System.Xml", "XmlEventCache/XmlEvent");

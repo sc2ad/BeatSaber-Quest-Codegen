@@ -125,6 +125,7 @@ namespace Org::BouncyCastle::OpenSsl {
   static check_size<sizeof(PemReader), 24 + sizeof(Org::BouncyCastle::OpenSsl::IPasswordFinder*)> __Org_BouncyCastle_OpenSsl_PemReaderSizeCheck;
   static_assert(sizeof(PemReader) == 0x20);
 }
+NEED_NO_BOX(Org::BouncyCastle::OpenSsl::PemReader);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::OpenSsl::PemReader*, "Org.BouncyCastle.OpenSsl", "PemReader");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::OpenSsl::PemReader::New_ctor

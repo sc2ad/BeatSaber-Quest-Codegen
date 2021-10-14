@@ -115,6 +115,7 @@ namespace UnityEngine::ProBuilder {
   static check_size<sizeof(FaceRebuildData), 48 + sizeof(int)> __UnityEngine_ProBuilder_FaceRebuildDataSizeCheck;
   static_assert(sizeof(FaceRebuildData) == 0x34);
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::FaceRebuildData);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::FaceRebuildData*, "UnityEngine.ProBuilder", "FaceRebuildData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::FaceRebuildData::Offset

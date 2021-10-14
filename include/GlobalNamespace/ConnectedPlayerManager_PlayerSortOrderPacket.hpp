@@ -98,6 +98,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ConnectedPlayerManager::PlayerSortOrderPacket), 24 + sizeof(int)> __GlobalNamespace_ConnectedPlayerManager_PlayerSortOrderPacketSizeCheck;
   static_assert(sizeof(ConnectedPlayerManager::PlayerSortOrderPacket) == 0x1C);
 }
+NEED_NO_BOX(GlobalNamespace::ConnectedPlayerManager::PlayerSortOrderPacket);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConnectedPlayerManager::PlayerSortOrderPacket*, "", "ConnectedPlayerManager/PlayerSortOrderPacket");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::PlayerSortOrderPacket::get_pool

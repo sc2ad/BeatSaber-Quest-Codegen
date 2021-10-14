@@ -241,6 +241,7 @@ namespace LiteNetLib::Utils {
   static check_size<sizeof(NetDataWriter), 28 + sizeof(bool)> __LiteNetLib_Utils_NetDataWriterSizeCheck;
   static_assert(sizeof(NetDataWriter) == 0x1D);
 }
+NEED_NO_BOX(LiteNetLib::Utils::NetDataWriter);
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::NetDataWriter*, "LiteNetLib.Utils", "NetDataWriter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::get_Capacity

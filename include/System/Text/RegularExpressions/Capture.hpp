@@ -92,6 +92,7 @@ namespace System::Text::RegularExpressions {
   static check_size<sizeof(Capture), 28 + sizeof(int)> __System_Text_RegularExpressions_CaptureSizeCheck;
   static_assert(sizeof(Capture) == 0x20);
 }
+NEED_NO_BOX(System::Text::RegularExpressions::Capture);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::Capture*, "System.Text.RegularExpressions", "Capture");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::RegularExpressions::Capture::get_Index

@@ -35,6 +35,7 @@ namespace System {
   }; // System.NonSerializedAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::NonSerializedAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::NonSerializedAttribute*, "System", "NonSerializedAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::NonSerializedAttribute::New_ctor

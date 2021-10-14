@@ -63,6 +63,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(RelativeSfxVolumePerLevelSO), 24 + sizeof(::ArrayW<GlobalNamespace::RelativeSfxVolumePerLevelSO::RelativeSfxVolumePair*>)> __GlobalNamespace_RelativeSfxVolumePerLevelSOSizeCheck;
   static_assert(sizeof(RelativeSfxVolumePerLevelSO) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::RelativeSfxVolumePerLevelSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RelativeSfxVolumePerLevelSO*, "", "RelativeSfxVolumePerLevelSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::RelativeSfxVolumePerLevelSO::get_relativeSfxVolumePerLevel

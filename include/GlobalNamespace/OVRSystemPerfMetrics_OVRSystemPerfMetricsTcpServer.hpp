@@ -87,6 +87,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer), 32 + sizeof(int)> __GlobalNamespace_OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServerSizeCheck;
   static_assert(sizeof(OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer) == 0x24);
 }
+NEED_NO_BOX(GlobalNamespace::OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer*, "", "OVRSystemPerfMetrics/OVRSystemPerfMetricsTcpServer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer::OnEnable

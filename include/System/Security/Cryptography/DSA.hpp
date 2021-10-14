@@ -64,6 +64,7 @@ namespace System::Security::Cryptography {
   }; // System.Security.Cryptography.DSA
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Security::Cryptography::DSA);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::DSA*, "System.Security.Cryptography", "DSA");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::DSA::Create

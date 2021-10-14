@@ -78,6 +78,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   static check_size<sizeof(InternalFE), 28 + sizeof(System::Runtime::Serialization::Formatters::Binary::InternalSerializerTypeE)> __System_Runtime_Serialization_Formatters_Binary_InternalFESizeCheck;
   static_assert(sizeof(InternalFE) == 0x20);
 }
+NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::InternalFE);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::InternalFE*, "System.Runtime.Serialization.Formatters.Binary", "InternalFE");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::InternalFE::New_ctor

@@ -51,6 +51,7 @@ namespace LiteNetLib {
   }; // LiteNetLib.SimpleChannel
   #pragma pack(pop)
 }
+NEED_NO_BOX(LiteNetLib::SimpleChannel);
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::SimpleChannel*, "LiteNetLib", "SimpleChannel");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::SimpleChannel::New_ctor

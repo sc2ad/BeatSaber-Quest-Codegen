@@ -57,6 +57,7 @@ namespace NUnit::Framework {
   }; // NUnit.Framework.Assert
   #pragma pack(pop)
 }
+NEED_NO_BOX(NUnit::Framework::_Assert);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::_Assert*, "NUnit.Framework", "Assert");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::_Assert::AreEqual

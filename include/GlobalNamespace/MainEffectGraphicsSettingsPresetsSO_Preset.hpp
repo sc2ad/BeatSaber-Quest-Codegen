@@ -60,6 +60,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MainEffectGraphicsSettingsPresetsSO::Preset), 24 + sizeof(GlobalNamespace::MainEffectSO*)> __GlobalNamespace_MainEffectGraphicsSettingsPresetsSO_PresetSizeCheck;
   static_assert(sizeof(MainEffectGraphicsSettingsPresetsSO::Preset) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::Preset);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::Preset*, "", "MainEffectGraphicsSettingsPresetsSO/Preset");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::Preset::New_ctor

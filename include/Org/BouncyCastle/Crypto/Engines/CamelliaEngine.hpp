@@ -182,6 +182,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
   static check_size<sizeof(CamelliaEngine), 48 + sizeof(::ArrayW<uint>)> __Org_BouncyCastle_Crypto_Engines_CamelliaEngineSizeCheck;
   static_assert(sizeof(CamelliaEngine) == 0x38);
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Engines::CamelliaEngine);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::CamelliaEngine*, "Org.BouncyCastle.Crypto.Engines", "CamelliaEngine");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::CamelliaEngine::get_AlgorithmName

@@ -75,6 +75,7 @@ namespace UnityEngine {
   static check_size<sizeof(ResourceRequest), 40 + sizeof(System::Type*)> __UnityEngine_ResourceRequestSizeCheck;
   static_assert(sizeof(ResourceRequest) == 0x30);
 }
+NEED_NO_BOX(UnityEngine::ResourceRequest);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceRequest*, "UnityEngine", "ResourceRequest");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceRequest::get_asset

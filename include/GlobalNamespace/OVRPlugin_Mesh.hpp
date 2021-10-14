@@ -126,6 +126,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRPlugin::Mesh), 72 + sizeof(::ArrayW<GlobalNamespace::OVRPlugin::Vector4f>)> __GlobalNamespace_OVRPlugin_MeshSizeCheck;
   static_assert(sizeof(OVRPlugin::Mesh) == 0x50);
 }
+NEED_NO_BOX(GlobalNamespace::OVRPlugin::Mesh);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Mesh*, "", "OVRPlugin/Mesh");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::Mesh::New_ctor

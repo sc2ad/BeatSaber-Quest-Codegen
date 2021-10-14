@@ -59,6 +59,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(CameraDepthTextureMode), 24 + sizeof(UnityEngine::DepthTextureMode)> __GlobalNamespace_CameraDepthTextureModeSizeCheck;
   static_assert(sizeof(CameraDepthTextureMode) == 0x1C);
 }
+NEED_NO_BOX(GlobalNamespace::CameraDepthTextureMode);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CameraDepthTextureMode*, "", "CameraDepthTextureMode");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CameraDepthTextureMode::Awake

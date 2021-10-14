@@ -61,6 +61,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   static check_size<sizeof(RC2Parameters), 24 + sizeof(int)> __Org_BouncyCastle_Crypto_Parameters_RC2ParametersSizeCheck;
   static_assert(sizeof(RC2Parameters) == 0x1C);
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Parameters::RC2Parameters);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::RC2Parameters*, "Org.BouncyCastle.Crypto.Parameters", "RC2Parameters");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::RC2Parameters::get_EffectiveKeyBits

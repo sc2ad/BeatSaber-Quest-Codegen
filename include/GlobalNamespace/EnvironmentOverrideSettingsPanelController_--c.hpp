@@ -60,6 +60,7 @@ namespace GlobalNamespace {
   }; // EnvironmentOverrideSettingsPanelController/<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::EnvironmentOverrideSettingsPanelController::$$c);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentOverrideSettingsPanelController::$$c*, "", "EnvironmentOverrideSettingsPanelController/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EnvironmentOverrideSettingsPanelController::$$c::_cctor

@@ -54,6 +54,7 @@ namespace UnityEngine::Timeline {
   static check_size<sizeof(TrackMediaType), 16 + sizeof(UnityEngine::Timeline::TimelineAsset::MediaType)> __UnityEngine_Timeline_TrackMediaTypeSizeCheck;
   static_assert(sizeof(TrackMediaType) == 0x14);
 }
+NEED_NO_BOX(UnityEngine::Timeline::TrackMediaType);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TrackMediaType*, "UnityEngine.Timeline", "TrackMediaType");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::TrackMediaType::New_ctor

@@ -76,6 +76,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SignalOnPointerClick), 24 + sizeof(GlobalNamespace::Signal*)> __GlobalNamespace_SignalOnPointerClickSizeCheck;
   static_assert(sizeof(SignalOnPointerClick) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::SignalOnPointerClick);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SignalOnPointerClick*, "", "SignalOnPointerClick");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SignalOnPointerClick::OnPointerClick

@@ -175,6 +175,7 @@ namespace Zenject {
   static check_size<sizeof(DisposableManager), 33 + sizeof(bool)> __Zenject_DisposableManagerSizeCheck;
   static_assert(sizeof(DisposableManager) == 0x22);
 }
+NEED_NO_BOX(Zenject::DisposableManager);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DisposableManager*, "Zenject", "DisposableManager");
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DisposableManager::DisposableInfo, "Zenject", "DisposableManager/DisposableInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

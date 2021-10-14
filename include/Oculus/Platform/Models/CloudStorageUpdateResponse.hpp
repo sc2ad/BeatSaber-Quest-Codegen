@@ -74,6 +74,7 @@ namespace Oculus::Platform::Models {
   static check_size<sizeof(CloudStorageUpdateResponse), 40 + sizeof(::Il2CppString*)> __Oculus_Platform_Models_CloudStorageUpdateResponseSizeCheck;
   static_assert(sizeof(CloudStorageUpdateResponse) == 0x30);
 }
+NEED_NO_BOX(Oculus::Platform::Models::CloudStorageUpdateResponse);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::CloudStorageUpdateResponse*, "Oculus.Platform.Models", "CloudStorageUpdateResponse");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::CloudStorageUpdateResponse::New_ctor

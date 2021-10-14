@@ -86,6 +86,7 @@ namespace HMUI {
   static check_size<sizeof(InputFieldView::$BlinkingCaretCoroutine$d__43), 32 + sizeof(HMUI::InputFieldView*)> __HMUI_InputFieldView_$BlinkingCaretCoroutine$d__43SizeCheck;
   static_assert(sizeof(InputFieldView::$BlinkingCaretCoroutine$d__43) == 0x28);
 }
+NEED_NO_BOX(HMUI::InputFieldView::$BlinkingCaretCoroutine$d__43);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::InputFieldView::$BlinkingCaretCoroutine$d__43*, "HMUI", "InputFieldView/<BlinkingCaretCoroutine>d__43");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::InputFieldView::$BlinkingCaretCoroutine$d__43::System_Collections_Generic_IEnumerator$System_Object$_get_Current

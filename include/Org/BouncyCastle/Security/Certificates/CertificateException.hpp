@@ -60,6 +60,7 @@ namespace Org::BouncyCastle::Security::Certificates {
   }; // Org.BouncyCastle.Security.Certificates.CertificateException
   #pragma pack(pop)
 }
+NEED_NO_BOX(Org::BouncyCastle::Security::Certificates::CertificateException);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Security::Certificates::CertificateException*, "Org.BouncyCastle.Security.Certificates", "CertificateException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Security::Certificates::CertificateException::New_ctor

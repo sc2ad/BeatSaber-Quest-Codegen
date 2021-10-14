@@ -62,6 +62,7 @@ namespace Org::BouncyCastle::Math::EC {
   }; // Org.BouncyCastle.Math.EC.AbstractFpCurve
   #pragma pack(pop)
 }
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::AbstractFpCurve);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::AbstractFpCurve*, "Org.BouncyCastle.Math.EC", "AbstractFpCurve");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::AbstractFpCurve::New_ctor

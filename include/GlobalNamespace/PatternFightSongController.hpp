@@ -247,6 +247,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PatternFightSongController), 80 + sizeof(System::Collections::Generic::HashSet_1<GlobalNamespace::NoteData*>*)> __GlobalNamespace_PatternFightSongControllerSizeCheck;
   static_assert(sizeof(PatternFightSongController) == 0x58);
 }
+NEED_NO_BOX(GlobalNamespace::PatternFightSongController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PatternFightSongController*, "", "PatternFightSongController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PatternFightSongController::GameplayPhase, "", "PatternFightSongController/GameplayPhase");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

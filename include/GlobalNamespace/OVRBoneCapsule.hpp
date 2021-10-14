@@ -98,6 +98,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRBoneCapsule), 32 + sizeof(UnityEngine::CapsuleCollider*)> __GlobalNamespace_OVRBoneCapsuleSizeCheck;
   static_assert(sizeof(OVRBoneCapsule) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::OVRBoneCapsule);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRBoneCapsule*, "", "OVRBoneCapsule");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRBoneCapsule::get_BoneIndex

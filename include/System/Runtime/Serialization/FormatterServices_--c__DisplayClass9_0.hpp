@@ -74,6 +74,7 @@ namespace System::Runtime::Serialization {
   static check_size<sizeof(FormatterServices::$$c__DisplayClass9_0), 16 + sizeof(System::Type*)> __System_Runtime_Serialization_FormatterServices_$$c__DisplayClass9_0SizeCheck;
   static_assert(sizeof(FormatterServices::$$c__DisplayClass9_0) == 0x18);
 }
+NEED_NO_BOX(System::Runtime::Serialization::FormatterServices::$$c__DisplayClass9_0);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::FormatterServices::$$c__DisplayClass9_0*, "System.Runtime.Serialization", "FormatterServices/<>c__DisplayClass9_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::FormatterServices::$$c__DisplayClass9_0::$GetSerializableMembers$b__0

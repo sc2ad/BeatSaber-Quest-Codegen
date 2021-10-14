@@ -46,6 +46,7 @@ namespace Oculus::Platform {
     Oculus::Platform::Models::CloudStorageConflictMetadata* GetCloudStorageConflictMetadata();
   }; // Oculus.Platform.MessageWithCloudStorageConflictMetadata
 }
+NEED_NO_BOX(Oculus::Platform::MessageWithCloudStorageConflictMetadata);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithCloudStorageConflictMetadata*, "Oculus.Platform", "MessageWithCloudStorageConflictMetadata");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithCloudStorageConflictMetadata::GetDataFromMessage

@@ -375,6 +375,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(AudioTimeSyncController), 120 + sizeof(float)> __GlobalNamespace_AudioTimeSyncControllerSizeCheck;
   static_assert(sizeof(AudioTimeSyncController) == 0x7C);
 }
+NEED_NO_BOX(GlobalNamespace::AudioTimeSyncController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioTimeSyncController*, "", "AudioTimeSyncController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioTimeSyncController::State, "", "AudioTimeSyncController/State");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

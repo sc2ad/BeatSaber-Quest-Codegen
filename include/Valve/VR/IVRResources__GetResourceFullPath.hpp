@@ -56,6 +56,7 @@ namespace Valve::VR {
   }; // Valve.VR.IVRResources/Valve.VR._GetResourceFullPath
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::IVRResources::_GetResourceFullPath);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRResources::_GetResourceFullPath*, "Valve.VR", "IVRResources/_GetResourceFullPath");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRResources::_GetResourceFullPath::New_ctor

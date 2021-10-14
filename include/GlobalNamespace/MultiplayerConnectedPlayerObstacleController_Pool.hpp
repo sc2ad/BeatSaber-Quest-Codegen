@@ -35,6 +35,7 @@ namespace GlobalNamespace {
     }
   }; // MultiplayerConnectedPlayerObstacleController/Pool
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerConnectedPlayerObstacleController::Pool);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerObstacleController::Pool*, "", "MultiplayerConnectedPlayerObstacleController/Pool");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerObstacleController::Pool::New_ctor

@@ -121,6 +121,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OculusDeeplinkManager), 32 + sizeof(bool)> __GlobalNamespace_OculusDeeplinkManagerSizeCheck;
   static_assert(sizeof(OculusDeeplinkManager) == 0x21);
 }
+NEED_NO_BOX(GlobalNamespace::OculusDeeplinkManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusDeeplinkManager*, "", "OculusDeeplinkManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OculusDeeplinkManager::get_currentDeeplink

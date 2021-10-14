@@ -91,6 +91,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MenuLightsPresetSO), 40 + sizeof(::ArrayW<GlobalNamespace::MenuLightsPresetSO::LightIdColorPair*>)> __GlobalNamespace_MenuLightsPresetSOSizeCheck;
   static_assert(sizeof(MenuLightsPresetSO) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::MenuLightsPresetSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuLightsPresetSO*, "", "MenuLightsPresetSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MenuLightsPresetSO::get_playersPlaceNeonsColor

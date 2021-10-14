@@ -91,6 +91,7 @@ namespace Zenject {
   static check_size<sizeof(AddToNewGameObjectComponentProvider), 56 + sizeof(Zenject::GameObjectCreationParameters*)> __Zenject_AddToNewGameObjectComponentProviderSizeCheck;
   static_assert(sizeof(AddToNewGameObjectComponentProvider) == 0x40);
 }
+NEED_NO_BOX(Zenject::AddToNewGameObjectComponentProvider);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::AddToNewGameObjectComponentProvider*, "Zenject", "AddToNewGameObjectComponentProvider");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::AddToNewGameObjectComponentProvider::New_ctor

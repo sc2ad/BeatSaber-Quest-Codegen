@@ -37,6 +37,7 @@ namespace Zenject {
   }; // Zenject.DefaultGameObjectKernel
   #pragma pack(pop)
 }
+NEED_NO_BOX(Zenject::DefaultGameObjectKernel);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DefaultGameObjectKernel*, "Zenject", "DefaultGameObjectKernel");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::DefaultGameObjectKernel::New_ctor

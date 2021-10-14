@@ -75,6 +75,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LevelMissionParser), 16 + sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::LevelMissionParser::ParserFunction*>*)> __GlobalNamespace_LevelMissionParserSizeCheck;
   static_assert(sizeof(LevelMissionParser) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::LevelMissionParser);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelMissionParser*, "", "LevelMissionParser");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LevelMissionParser::AddFunction

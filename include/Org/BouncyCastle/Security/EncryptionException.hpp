@@ -34,6 +34,7 @@ namespace Org::BouncyCastle::Security {
   }; // Org.BouncyCastle.Security.EncryptionException
   #pragma pack(pop)
 }
+NEED_NO_BOX(Org::BouncyCastle::Security::EncryptionException);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Security::EncryptionException*, "Org.BouncyCastle.Security", "EncryptionException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Security::EncryptionException::New_ctor

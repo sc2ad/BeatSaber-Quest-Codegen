@@ -68,6 +68,7 @@ namespace UnityEngine::TestRunner::Utils {
   static check_size<sizeof(TestRunCallbackListener::$$c__DisplayClass1_0), 16 + sizeof(NUnit::Framework::Interfaces::ITest*)> __UnityEngine_TestRunner_Utils_TestRunCallbackListener_$$c__DisplayClass1_0SizeCheck;
   static_assert(sizeof(TestRunCallbackListener::$$c__DisplayClass1_0) == 0x18);
 }
+NEED_NO_BOX(UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c__DisplayClass1_0);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c__DisplayClass1_0*, "UnityEngine.TestRunner.Utils", "TestRunCallbackListener/<>c__DisplayClass1_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c__DisplayClass1_0::$RunStarted$b__0

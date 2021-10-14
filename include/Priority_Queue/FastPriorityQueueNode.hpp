@@ -66,6 +66,7 @@ namespace Priority_Queue {
   static check_size<sizeof(FastPriorityQueueNode), 20 + sizeof(int)> __Priority_Queue_FastPriorityQueueNodeSizeCheck;
   static_assert(sizeof(FastPriorityQueueNode) == 0x18);
 }
+NEED_NO_BOX(Priority_Queue::FastPriorityQueueNode);
 DEFINE_IL2CPP_ARG_TYPE(Priority_Queue::FastPriorityQueueNode*, "Priority_Queue", "FastPriorityQueueNode");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Priority_Queue::FastPriorityQueueNode::get_Priority

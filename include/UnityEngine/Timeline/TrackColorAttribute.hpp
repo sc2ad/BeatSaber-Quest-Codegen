@@ -56,6 +56,7 @@ namespace UnityEngine::Timeline {
   static check_size<sizeof(TrackColorAttribute), 16 + sizeof(UnityEngine::Color)> __UnityEngine_Timeline_TrackColorAttributeSizeCheck;
   static_assert(sizeof(TrackColorAttribute) == 0x20);
 }
+NEED_NO_BOX(UnityEngine::Timeline::TrackColorAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TrackColorAttribute*, "UnityEngine.Timeline", "TrackColorAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::TrackColorAttribute::get_color

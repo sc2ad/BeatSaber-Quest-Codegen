@@ -71,6 +71,7 @@ namespace Mono::Security::X509::Extensions {
   static check_size<sizeof(AuthorityKeyIdentifierExtension), 40 + sizeof(::ArrayW<uint8_t>)> __Mono_Security_X509_Extensions_AuthorityKeyIdentifierExtensionSizeCheck;
   static_assert(sizeof(AuthorityKeyIdentifierExtension) == 0x30);
 }
+NEED_NO_BOX(Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension*, "Mono.Security.X509.Extensions", "AuthorityKeyIdentifierExtension");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension::get_Identifier

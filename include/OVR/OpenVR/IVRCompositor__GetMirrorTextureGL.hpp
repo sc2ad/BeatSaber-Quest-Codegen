@@ -58,6 +58,7 @@ namespace OVR::OpenVR {
   }; // OVR.OpenVR.IVRCompositor/OVR.OpenVR._GetMirrorTextureGL
   #pragma pack(pop)
 }
+NEED_NO_BOX(OVR::OpenVR::IVRCompositor::_GetMirrorTextureGL);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRCompositor::_GetMirrorTextureGL*, "OVR.OpenVR", "IVRCompositor/_GetMirrorTextureGL");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVRCompositor::_GetMirrorTextureGL::New_ctor

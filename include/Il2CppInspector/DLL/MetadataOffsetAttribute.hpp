@@ -48,6 +48,7 @@ namespace Il2CppInspector::DLL {
     }
   }; // Il2CppInspector.DLL.MetadataOffsetAttribute
 }
+NEED_NO_BOX(Il2CppInspector::DLL::MetadataOffsetAttribute);
 DEFINE_IL2CPP_ARG_TYPE(Il2CppInspector::DLL::MetadataOffsetAttribute*, "Il2CppInspector.DLL", "MetadataOffsetAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Il2CppInspector::DLL::MetadataOffsetAttribute::New_ctor

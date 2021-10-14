@@ -828,6 +828,7 @@ namespace UnityEngine::UI {
   static check_size<sizeof(ScrollRect), 288 + sizeof(::ArrayW<UnityEngine::Vector3>)> __UnityEngine_UI_ScrollRectSizeCheck;
   static_assert(sizeof(ScrollRect) == 0x128);
 }
+NEED_NO_BOX(UnityEngine::UI::ScrollRect);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ScrollRect*, "UnityEngine.UI", "ScrollRect");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ScrollRect::MovementType, "UnityEngine.UI", "ScrollRect/MovementType");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ScrollRect::ScrollbarVisibility, "UnityEngine.UI", "ScrollRect/ScrollbarVisibility");

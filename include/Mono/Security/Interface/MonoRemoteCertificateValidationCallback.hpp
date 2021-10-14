@@ -60,6 +60,7 @@ namespace Mono::Security::Interface {
   }; // Mono.Security.Interface.MonoRemoteCertificateValidationCallback
   #pragma pack(pop)
 }
+NEED_NO_BOX(Mono::Security::Interface::MonoRemoteCertificateValidationCallback);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::MonoRemoteCertificateValidationCallback*, "Mono.Security.Interface", "MonoRemoteCertificateValidationCallback");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Security::Interface::MonoRemoteCertificateValidationCallback::New_ctor

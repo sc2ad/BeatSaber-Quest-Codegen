@@ -138,6 +138,7 @@ namespace ModestTree::Util {
   static check_size<sizeof(UnityUtil::$GetParents$d__16), 56 + sizeof(System::Collections::Generic::IEnumerator_1<UnityEngine::Transform*>*)> __ModestTree_Util_UnityUtil_$GetParents$d__16SizeCheck;
   static_assert(sizeof(UnityUtil::$GetParents$d__16) == 0x40);
 }
+NEED_NO_BOX(ModestTree::Util::UnityUtil::$GetParents$d__16);
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::Util::UnityUtil::$GetParents$d__16*, "ModestTree.Util", "UnityUtil/<GetParents>d__16");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: ModestTree::Util::UnityUtil::$GetParents$d__16::System_Collections_Generic_IEnumerator$UnityEngine_Transform$_get_Current

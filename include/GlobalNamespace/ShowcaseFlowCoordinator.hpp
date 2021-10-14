@@ -247,6 +247,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ShowcaseFlowCoordinator), 344 + sizeof(GlobalNamespace::MenuTransitionsHelper*)> __GlobalNamespace_ShowcaseFlowCoordinatorSizeCheck;
   static_assert(sizeof(ShowcaseFlowCoordinator) == 0x160);
 }
+NEED_NO_BOX(GlobalNamespace::ShowcaseFlowCoordinator);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShowcaseFlowCoordinator*, "", "ShowcaseFlowCoordinator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ShowcaseFlowCoordinator::WillScoreGoToLeaderboard

@@ -139,6 +139,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(NoteMissInfoNetSerializable), 28 + sizeof(GlobalNamespace::NoteLineLayer)> __GlobalNamespace_NoteMissInfoNetSerializableSizeCheck;
   static_assert(sizeof(NoteMissInfoNetSerializable) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::NoteMissInfoNetSerializable);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteMissInfoNetSerializable*, "", "NoteMissInfoNetSerializable");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteMissInfoNetSerializable::get_colorType

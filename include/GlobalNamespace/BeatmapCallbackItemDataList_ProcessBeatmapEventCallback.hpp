@@ -55,6 +55,7 @@ namespace GlobalNamespace {
   }; // BeatmapCallbackItemDataList/ProcessBeatmapEventCallback
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::BeatmapCallbackItemDataList::ProcessBeatmapEventCallback);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapCallbackItemDataList::ProcessBeatmapEventCallback*, "", "BeatmapCallbackItemDataList/ProcessBeatmapEventCallback");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapCallbackItemDataList::ProcessBeatmapEventCallback::New_ctor

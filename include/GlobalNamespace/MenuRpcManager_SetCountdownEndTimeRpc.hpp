@@ -34,6 +34,7 @@ namespace GlobalNamespace {
     }
   }; // MenuRpcManager/SetCountdownEndTimeRpc
 }
+NEED_NO_BOX(GlobalNamespace::MenuRpcManager::SetCountdownEndTimeRpc);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuRpcManager::SetCountdownEndTimeRpc*, "", "MenuRpcManager/SetCountdownEndTimeRpc");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::SetCountdownEndTimeRpc::New_ctor

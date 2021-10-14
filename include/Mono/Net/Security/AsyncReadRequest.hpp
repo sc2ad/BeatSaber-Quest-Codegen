@@ -47,6 +47,7 @@ namespace Mono::Net::Security {
   }; // Mono.Net.Security.AsyncReadRequest
   #pragma pack(pop)
 }
+NEED_NO_BOX(Mono::Net::Security::AsyncReadRequest);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::AsyncReadRequest*, "Mono.Net.Security", "AsyncReadRequest");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Net::Security::AsyncReadRequest::New_ctor

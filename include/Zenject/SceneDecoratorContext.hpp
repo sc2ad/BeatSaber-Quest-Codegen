@@ -168,6 +168,7 @@ namespace Zenject {
   static check_size<sizeof(SceneDecoratorContext), 104 + sizeof(System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*)> __Zenject_SceneDecoratorContextSizeCheck;
   static_assert(sizeof(SceneDecoratorContext) == 0x70);
 }
+NEED_NO_BOX(Zenject::SceneDecoratorContext);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SceneDecoratorContext*, "Zenject", "SceneDecoratorContext");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::SceneDecoratorContext::get_LateInstallers

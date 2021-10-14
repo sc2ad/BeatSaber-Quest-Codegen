@@ -120,6 +120,7 @@ namespace System::Security::Cryptography {
   static check_size<sizeof(MACTripleDES), 80 + sizeof(System::Security::Cryptography::TripleDES*)> __System_Security_Cryptography_MACTripleDESSizeCheck;
   static_assert(sizeof(MACTripleDES) == 0x58);
 }
+NEED_NO_BOX(System::Security::Cryptography::MACTripleDES);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::MACTripleDES*, "System.Security.Cryptography", "MACTripleDES");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::MACTripleDES::New_ctor

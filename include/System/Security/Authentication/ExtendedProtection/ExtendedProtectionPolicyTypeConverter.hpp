@@ -21,5 +21,6 @@ namespace System::Security::Authentication::ExtendedProtection {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicyTypeConverter);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicyTypeConverter*, "System.Security.Authentication.ExtendedProtection", "ExtendedProtectionPolicyTypeConverter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

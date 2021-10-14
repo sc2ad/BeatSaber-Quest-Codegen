@@ -63,6 +63,7 @@ namespace System::Runtime::Remoting {
   }; // System.Runtime.Remoting.SingleCallIdentity
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Runtime::Remoting::SingleCallIdentity);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::SingleCallIdentity*, "System.Runtime.Remoting", "SingleCallIdentity");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::SingleCallIdentity::New_ctor

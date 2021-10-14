@@ -69,6 +69,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(EnvironmentKeywords), 24 + sizeof(System::Collections::Generic::HashSet_1<::Il2CppString*>*)> __GlobalNamespace_EnvironmentKeywordsSizeCheck;
   static_assert(sizeof(EnvironmentKeywords) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::EnvironmentKeywords);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentKeywords*, "", "EnvironmentKeywords");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EnvironmentKeywords::get_environmentKeywords

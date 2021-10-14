@@ -67,6 +67,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   static check_size<sizeof(UnityLogCheckDelegatingCommand::$$c__DisplayClass3_1), 24 + sizeof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityLogCheckDelegatingCommand::$$c__DisplayClass3_0*)> __UnityEngine_TestRunner_NUnitExtensions_Runner_UnityLogCheckDelegatingCommand_$$c__DisplayClass3_1SizeCheck;
   static_assert(sizeof(UnityLogCheckDelegatingCommand::$$c__DisplayClass3_1) == 0x20);
 }
+NEED_NO_BOX(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityLogCheckDelegatingCommand::$$c__DisplayClass3_1);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityLogCheckDelegatingCommand::$$c__DisplayClass3_1*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "UnityLogCheckDelegatingCommand/<>c__DisplayClass3_1");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityLogCheckDelegatingCommand::$$c__DisplayClass3_1::$ExecuteEnumerable$b__0

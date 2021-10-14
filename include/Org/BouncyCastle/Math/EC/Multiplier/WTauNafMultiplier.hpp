@@ -76,6 +76,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
   }; // Org.BouncyCastle.Math.EC.Multiplier.WTauNafMultiplier
   #pragma pack(pop)
 }
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier*, "Org.BouncyCastle.Math.EC.Multiplier", "WTauNafMultiplier");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier::_cctor

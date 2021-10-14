@@ -112,6 +112,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(DirectionalLight), 44 + sizeof(float)> __GlobalNamespace_DirectionalLightSizeCheck;
   static_assert(sizeof(DirectionalLight) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::DirectionalLight);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DirectionalLight*, "", "DirectionalLight");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DirectionalLight::get_lights

@@ -48,6 +48,7 @@ namespace GlobalNamespace {
   }; // MultiplayerBadgeDataHandMovementSO
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerBadgeDataHandMovementSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerBadgeDataHandMovementSO*, "", "MultiplayerBadgeDataHandMovementSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerBadgeDataHandMovementSO::New_ctor

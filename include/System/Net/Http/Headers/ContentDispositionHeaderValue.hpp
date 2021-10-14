@@ -107,6 +107,7 @@ namespace System::Net::Http::Headers {
   static check_size<sizeof(ContentDispositionHeaderValue), 24 + sizeof(System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue*>*)> __System_Net_Http_Headers_ContentDispositionHeaderValueSizeCheck;
   static_assert(sizeof(ContentDispositionHeaderValue) == 0x20);
 }
+NEED_NO_BOX(System::Net::Http::Headers::ContentDispositionHeaderValue);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::ContentDispositionHeaderValue*, "System.Net.Http.Headers", "ContentDispositionHeaderValue");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Http::Headers::ContentDispositionHeaderValue::get_Parameters

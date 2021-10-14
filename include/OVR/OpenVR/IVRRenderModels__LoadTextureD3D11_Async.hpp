@@ -56,6 +56,7 @@ namespace OVR::OpenVR {
   }; // OVR.OpenVR.IVRRenderModels/OVR.OpenVR._LoadTextureD3D11_Async
   #pragma pack(pop)
 }
+NEED_NO_BOX(OVR::OpenVR::IVRRenderModels::_LoadTextureD3D11_Async);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRRenderModels::_LoadTextureD3D11_Async*, "OVR.OpenVR", "IVRRenderModels/_LoadTextureD3D11_Async");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVRRenderModels::_LoadTextureD3D11_Async::New_ctor

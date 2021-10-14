@@ -67,6 +67,7 @@ namespace System::Net::NetworkInformation {
   static check_size<sizeof(SystemGatewayIPAddressInformation), 16 + sizeof(System::Net::IPAddress*)> __System_Net_NetworkInformation_SystemGatewayIPAddressInformationSizeCheck;
   static_assert(sizeof(SystemGatewayIPAddressInformation) == 0x18);
 }
+NEED_NO_BOX(System::Net::NetworkInformation::SystemGatewayIPAddressInformation);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::SystemGatewayIPAddressInformation*, "System.Net.NetworkInformation", "SystemGatewayIPAddressInformation");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::NetworkInformation::SystemGatewayIPAddressInformation::New_ctor

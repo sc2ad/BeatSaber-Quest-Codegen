@@ -50,6 +50,7 @@ namespace System::Net {
   }; // System.Net.TimerThread/System.Net.Callback
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Net::TimerThread::Callback);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::TimerThread::Callback*, "System.Net", "TimerThread/Callback");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::TimerThread::Callback::New_ctor

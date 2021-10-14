@@ -98,6 +98,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(DefaultScenesTransitionsFromInit), 48 + sizeof(GlobalNamespace::GameScenesManager*)> __GlobalNamespace_DefaultScenesTransitionsFromInitSizeCheck;
   static_assert(sizeof(DefaultScenesTransitionsFromInit) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::DefaultScenesTransitionsFromInit);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DefaultScenesTransitionsFromInit*, "", "DefaultScenesTransitionsFromInit");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DefaultScenesTransitionsFromInit::get_mainMenuScenesTransitionSetupData

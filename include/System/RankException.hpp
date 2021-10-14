@@ -62,6 +62,7 @@ namespace System {
   }; // System.RankException
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::RankException);
 DEFINE_IL2CPP_ARG_TYPE(System::RankException*, "System", "RankException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::RankException::New_ctor

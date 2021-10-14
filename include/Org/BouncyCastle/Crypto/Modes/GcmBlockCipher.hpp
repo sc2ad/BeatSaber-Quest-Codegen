@@ -316,6 +316,7 @@ namespace Org::BouncyCastle::Crypto::Modes {
   static check_size<sizeof(GcmBlockCipher), 176 + sizeof(uint64_t)> __Org_BouncyCastle_Crypto_Modes_GcmBlockCipherSizeCheck;
   static_assert(sizeof(GcmBlockCipher) == 0xB8);
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Modes::GcmBlockCipher);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::GcmBlockCipher*, "Org.BouncyCastle.Crypto.Modes", "GcmBlockCipher");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::New_ctor

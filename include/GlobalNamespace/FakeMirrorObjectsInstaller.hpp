@@ -113,6 +113,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(FakeMirrorObjectsInstaller), 64 + sizeof(GlobalNamespace::MirrorRendererGraphicsSettingsPresets*)> __GlobalNamespace_FakeMirrorObjectsInstallerSizeCheck;
   static_assert(sizeof(FakeMirrorObjectsInstaller) == 0x48);
 }
+NEED_NO_BOX(GlobalNamespace::FakeMirrorObjectsInstaller);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FakeMirrorObjectsInstaller*, "", "FakeMirrorObjectsInstaller");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FakeMirrorObjectsInstaller::get_mirroredGameNoteControllerPrefab

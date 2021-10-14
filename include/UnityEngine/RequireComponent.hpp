@@ -78,6 +78,7 @@ namespace UnityEngine {
   static check_size<sizeof(RequireComponent), 32 + sizeof(System::Type*)> __UnityEngine_RequireComponentSizeCheck;
   static_assert(sizeof(RequireComponent) == 0x28);
 }
+NEED_NO_BOX(UnityEngine::RequireComponent);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RequireComponent*, "UnityEngine", "RequireComponent");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::RequireComponent::New_ctor

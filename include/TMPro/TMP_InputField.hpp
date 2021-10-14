@@ -1895,6 +1895,7 @@ namespace TMPro {
   static check_size<sizeof(TMP_InputField), 680 + sizeof(UnityEngine::Event*)> __TMPro_TMP_InputFieldSizeCheck;
   static_assert(sizeof(TMP_InputField) == 0x2B0);
 }
+NEED_NO_BOX(TMPro::TMP_InputField);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_InputField*, "TMPro", "TMP_InputField");
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_InputField::ContentType, "TMPro", "TMP_InputField/ContentType");
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_InputField::InputType, "TMPro", "TMP_InputField/InputType");

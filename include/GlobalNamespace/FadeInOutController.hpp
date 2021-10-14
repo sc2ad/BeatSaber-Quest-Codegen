@@ -148,6 +148,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(FadeInOutController), 56 + sizeof(float)> __GlobalNamespace_FadeInOutControllerSizeCheck;
   static_assert(sizeof(FadeInOutController) == 0x3C);
 }
+NEED_NO_BOX(GlobalNamespace::FadeInOutController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FadeInOutController*, "", "FadeInOutController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FadeInOutController::FadeOutInstant

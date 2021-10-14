@@ -53,6 +53,7 @@ namespace Mono::Unity {
   }; // Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_x509verify_default_ca_t
   #pragma pack(pop)
 }
+NEED_NO_BOX(Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509verify_default_ca_t);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509verify_default_ca_t*, "Mono.Unity", "UnityTls/unitytls_interface_struct/unitytls_x509verify_default_ca_t");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509verify_default_ca_t::New_ctor

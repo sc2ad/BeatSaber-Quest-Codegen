@@ -84,6 +84,7 @@ namespace LiteNetLib {
   static check_size<sizeof(NetPacketReader), 56 + sizeof(LiteNetLib::NetEvent*)> __LiteNetLib_NetPacketReaderSizeCheck;
   static_assert(sizeof(NetPacketReader) == 0x40);
 }
+NEED_NO_BOX(LiteNetLib::NetPacketReader);
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetPacketReader*, "LiteNetLib", "NetPacketReader");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::NetPacketReader::New_ctor

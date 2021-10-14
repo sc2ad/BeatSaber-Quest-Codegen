@@ -43,6 +43,7 @@ namespace Zenject {
   }; // Zenject.ZenjectException
   #pragma pack(pop)
 }
+NEED_NO_BOX(Zenject::ZenjectException);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenjectException*, "Zenject", "ZenjectException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::ZenjectException::New_ctor

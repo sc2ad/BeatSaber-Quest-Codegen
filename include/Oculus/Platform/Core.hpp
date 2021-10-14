@@ -72,6 +72,7 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.Core
   #pragma pack(pop)
 }
+NEED_NO_BOX(Oculus::Platform::Core);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Core*, "Oculus.Platform", "Core");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Core::_cctor

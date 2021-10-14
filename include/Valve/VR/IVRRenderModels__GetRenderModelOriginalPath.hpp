@@ -61,6 +61,7 @@ namespace Valve::VR {
   }; // Valve.VR.IVRRenderModels/Valve.VR._GetRenderModelOriginalPath
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::IVRRenderModels::_GetRenderModelOriginalPath);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRRenderModels::_GetRenderModelOriginalPath*, "Valve.VR", "IVRRenderModels/_GetRenderModelOriginalPath");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRRenderModels::_GetRenderModelOriginalPath::New_ctor

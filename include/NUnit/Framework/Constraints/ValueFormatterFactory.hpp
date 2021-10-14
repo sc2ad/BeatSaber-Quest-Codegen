@@ -53,6 +53,7 @@ namespace NUnit::Framework::Constraints {
   }; // NUnit.Framework.Constraints.ValueFormatterFactory
   #pragma pack(pop)
 }
+NEED_NO_BOX(NUnit::Framework::Constraints::ValueFormatterFactory);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::ValueFormatterFactory*, "NUnit.Framework.Constraints", "ValueFormatterFactory");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::ValueFormatterFactory::New_ctor

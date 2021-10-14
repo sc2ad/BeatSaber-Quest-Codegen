@@ -90,6 +90,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SwitchSettingsController), 32 + sizeof(bool)> __GlobalNamespace_SwitchSettingsControllerSizeCheck;
   static_assert(sizeof(SwitchSettingsController) == 0x21);
 }
+NEED_NO_BOX(GlobalNamespace::SwitchSettingsController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SwitchSettingsController*, "", "SwitchSettingsController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SwitchSettingsController::GetInitValue

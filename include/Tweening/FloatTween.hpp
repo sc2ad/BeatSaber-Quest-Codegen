@@ -76,6 +76,7 @@ namespace Tweening {
     }
   }; // Tweening.FloatTween
 }
+NEED_NO_BOX(Tweening::FloatTween);
 DEFINE_IL2CPP_ARG_TYPE(Tweening::FloatTween*, "Tweening", "FloatTween");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Tweening::FloatTween::New_ctor

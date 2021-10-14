@@ -96,6 +96,7 @@ namespace Zenject {
   static check_size<sizeof(MethodProviderUntyped), 24 + sizeof(System::Func_2<Zenject::InjectContext*, ::Il2CppObject*>*)> __Zenject_MethodProviderUntypedSizeCheck;
   static_assert(sizeof(MethodProviderUntyped) == 0x20);
 }
+NEED_NO_BOX(Zenject::MethodProviderUntyped);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::MethodProviderUntyped*, "Zenject", "MethodProviderUntyped");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::MethodProviderUntyped::get_IsCached

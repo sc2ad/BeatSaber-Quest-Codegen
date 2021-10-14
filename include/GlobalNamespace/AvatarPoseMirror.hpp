@@ -82,6 +82,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(AvatarPoseMirror), 24 + sizeof(GlobalNamespace::AvatarPoseController*)> __GlobalNamespace_AvatarPoseMirrorSizeCheck;
   static_assert(sizeof(AvatarPoseMirror) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::AvatarPoseMirror);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarPoseMirror*, "", "AvatarPoseMirror");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AvatarPoseMirror::Start

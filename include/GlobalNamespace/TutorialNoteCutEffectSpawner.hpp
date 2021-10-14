@@ -85,6 +85,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(TutorialNoteCutEffectSpawner), 32 + sizeof(GlobalNamespace::BeatmapObjectManager*)> __GlobalNamespace_TutorialNoteCutEffectSpawnerSizeCheck;
   static_assert(sizeof(TutorialNoteCutEffectSpawner) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::TutorialNoteCutEffectSpawner);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialNoteCutEffectSpawner*, "", "TutorialNoteCutEffectSpawner");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TutorialNoteCutEffectSpawner::Start

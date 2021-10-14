@@ -114,6 +114,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(CameraRenderCallbacksManager), 32 + sizeof(UnityEngine::Camera*)> __GlobalNamespace_CameraRenderCallbacksManagerSizeCheck;
   static_assert(sizeof(CameraRenderCallbacksManager) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::CameraRenderCallbacksManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CameraRenderCallbacksManager*, "", "CameraRenderCallbacksManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CameraRenderCallbacksManager::RegisterForCameraCallbacks

@@ -173,6 +173,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   }; // UnityEngine.ProBuilder.MeshOperations.ElementSelection/UnityEngine.ProBuilder.MeshOperations.<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c*, "UnityEngine.ProBuilder.MeshOperations", "ElementSelection/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c::_cctor

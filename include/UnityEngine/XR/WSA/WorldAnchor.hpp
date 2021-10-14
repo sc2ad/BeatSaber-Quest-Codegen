@@ -53,6 +53,7 @@ namespace UnityEngine::XR::WSA {
   static_assert(sizeof(WorldAnchor) == 0x20);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::XR::WSA::WorldAnchor);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::WSA::WorldAnchor*, "UnityEngine.XR.WSA", "WorldAnchor");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::XR::WSA::WorldAnchor::Internal_TriggerEventOnTrackingLost

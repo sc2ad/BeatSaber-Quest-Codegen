@@ -255,6 +255,7 @@ namespace Valve::VR {
   static check_size<sizeof(CVRSystem), 16 + sizeof(Valve::VR::IVRSystem)> __Valve_VR_CVRSystemSizeCheck;
   static_assert(sizeof(CVRSystem) == 0x188);
 }
+NEED_NO_BOX(Valve::VR::CVRSystem);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRSystem*, "Valve.VR", "CVRSystem");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::CVRSystem::New_ctor

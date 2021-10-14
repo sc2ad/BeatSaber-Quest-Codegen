@@ -46,6 +46,7 @@ namespace Oculus::Platform {
     Oculus::Platform::Models::UserAndRoomList* GetUserAndRoomList();
   }; // Oculus.Platform.MessageWithUserAndRoomList
 }
+NEED_NO_BOX(Oculus::Platform::MessageWithUserAndRoomList);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithUserAndRoomList*, "Oculus.Platform", "MessageWithUserAndRoomList");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithUserAndRoomList::GetDataFromMessage

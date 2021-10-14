@@ -160,6 +160,7 @@ namespace HoudiniEngineUnity {
   }; // HoudiniEngineUnity.HEU_Extensions
   #pragma pack(pop)
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_Extensions);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_Extensions*, "HoudiniEngineUnity", "HEU_Extensions");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Extensions::Map

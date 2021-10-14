@@ -50,6 +50,7 @@ namespace UnityEngine {
   }; // UnityEngine.Camera/UnityEngine.CameraCallback
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::Camera::CameraCallback);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Camera::CameraCallback*, "UnityEngine", "Camera/CameraCallback");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Camera::CameraCallback::New_ctor

@@ -48,6 +48,7 @@ namespace System::Net {
   }; // System.Net.WebRequest/System.Net.DesignerWebRequestCreate
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Net::WebRequest::DesignerWebRequestCreate);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebRequest::DesignerWebRequestCreate*, "System.Net", "WebRequest/DesignerWebRequestCreate");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::WebRequest::DesignerWebRequestCreate::Create

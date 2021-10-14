@@ -101,6 +101,7 @@ namespace LeaderboardsDTO {
   static check_size<sizeof(LeaderboardEntryDTO), 56 + sizeof(::ArrayW<LeaderboardsDTO::GameplayModifiersDto>)> __LeaderboardsDTO_LeaderboardEntryDTOSizeCheck;
   static_assert(sizeof(LeaderboardEntryDTO) == 0x40);
 }
+NEED_NO_BOX(LeaderboardsDTO::LeaderboardEntryDTO);
 DEFINE_IL2CPP_ARG_TYPE(LeaderboardsDTO::LeaderboardEntryDTO*, "LeaderboardsDTO", "LeaderboardEntryDTO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LeaderboardsDTO::LeaderboardEntryDTO::New_ctor

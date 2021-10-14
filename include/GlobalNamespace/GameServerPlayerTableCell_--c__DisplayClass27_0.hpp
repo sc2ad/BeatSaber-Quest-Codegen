@@ -71,6 +71,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(GameServerPlayerTableCell::$$c__DisplayClass27_0), 16 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>*)> __GlobalNamespace_GameServerPlayerTableCell_$$c__DisplayClass27_0SizeCheck;
   static_assert(sizeof(GameServerPlayerTableCell::$$c__DisplayClass27_0) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::GameServerPlayerTableCell::$$c__DisplayClass27_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServerPlayerTableCell::$$c__DisplayClass27_0*, "", "GameServerPlayerTableCell/<>c__DisplayClass27_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameServerPlayerTableCell::$$c__DisplayClass27_0::$SetData$b__0

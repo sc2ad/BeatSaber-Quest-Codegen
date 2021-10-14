@@ -93,6 +93,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(FileBrowserModel::$$c__DisplayClass0_0), 40 + sizeof(System::Action_1<::ArrayW<GlobalNamespace::FileBrowserItem*>>*)> __GlobalNamespace_FileBrowserModel_$$c__DisplayClass0_0SizeCheck;
   static_assert(sizeof(FileBrowserModel::$$c__DisplayClass0_0) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::FileBrowserModel::$$c__DisplayClass0_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FileBrowserModel::$$c__DisplayClass0_0*, "", "FileBrowserModel/<>c__DisplayClass0_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FileBrowserModel::$$c__DisplayClass0_0::$GetContentOfDirectory$b__0

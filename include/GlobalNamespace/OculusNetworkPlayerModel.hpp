@@ -455,6 +455,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OculusNetworkPlayerModel), 208 + sizeof(System::Action_1<GlobalNamespace::INetworkPlayer*>*)> __GlobalNamespace_OculusNetworkPlayerModelSizeCheck;
   static_assert(sizeof(OculusNetworkPlayerModel) == 0xD8);
 }
+NEED_NO_BOX(GlobalNamespace::OculusNetworkPlayerModel);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusNetworkPlayerModel*, "", "OculusNetworkPlayerModel");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OculusNetworkPlayerModel::get_localPlayer

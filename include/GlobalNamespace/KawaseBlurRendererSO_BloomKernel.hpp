@@ -58,6 +58,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(KawaseBlurRendererSO::BloomKernel), 20 + sizeof(int)> __GlobalNamespace_KawaseBlurRendererSO_BloomKernelSizeCheck;
   static_assert(sizeof(KawaseBlurRendererSO::BloomKernel) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::KawaseBlurRendererSO::BloomKernel);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::KawaseBlurRendererSO::BloomKernel*, "", "KawaseBlurRendererSO/BloomKernel");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::KawaseBlurRendererSO::BloomKernel::New_ctor

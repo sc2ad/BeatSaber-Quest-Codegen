@@ -758,6 +758,7 @@ namespace System {
   // Offset: 0x1DCFEB0
   bool operator !=(::Il2CppString* a, ::Il2CppString& b);
 }
+NEED_NO_BOX(System::String);
 DEFINE_IL2CPP_ARG_TYPE(System::String*, "System", "String");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::String::get_Chars

@@ -51,6 +51,7 @@ namespace System::IO {
   }; // System.IO.FileStream/System.IO.ReadDelegate
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::IO::FileStream::ReadDelegate);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileStream::ReadDelegate*, "System.IO", "FileStream/ReadDelegate");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::FileStream::ReadDelegate::New_ctor

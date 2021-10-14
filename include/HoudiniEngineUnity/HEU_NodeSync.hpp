@@ -94,6 +94,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_NodeSync), 128 + sizeof(::Il2CppString*)> __HoudiniEngineUnity_HEU_NodeSyncSizeCheck;
   static_assert(sizeof(HEU_NodeSync) == 0x88);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_NodeSync);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_NodeSync*, "HoudiniEngineUnity", "HEU_NodeSync");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_NodeSync::OnEnable

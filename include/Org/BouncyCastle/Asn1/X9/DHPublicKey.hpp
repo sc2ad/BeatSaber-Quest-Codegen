@@ -70,6 +70,7 @@ namespace Org::BouncyCastle::Asn1::X9 {
   static check_size<sizeof(DHPublicKey), 16 + sizeof(Org::BouncyCastle::Asn1::DerInteger*)> __Org_BouncyCastle_Asn1_X9_DHPublicKeySizeCheck;
   static_assert(sizeof(DHPublicKey) == 0x18);
 }
+NEED_NO_BOX(Org::BouncyCastle::Asn1::X9::DHPublicKey);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X9::DHPublicKey*, "Org.BouncyCastle.Asn1.X9", "DHPublicKey");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X9::DHPublicKey::get_Y

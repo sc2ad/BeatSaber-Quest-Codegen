@@ -68,6 +68,7 @@ namespace System {
   }; // System.ApplicationException
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::ApplicationException);
 DEFINE_IL2CPP_ARG_TYPE(System::ApplicationException*, "System", "ApplicationException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ApplicationException::New_ctor

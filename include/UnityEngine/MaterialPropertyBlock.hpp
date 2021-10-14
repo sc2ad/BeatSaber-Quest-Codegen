@@ -149,6 +149,7 @@ namespace UnityEngine {
   static check_size<sizeof(MaterialPropertyBlock), 16 + sizeof(System::IntPtr)> __UnityEngine_MaterialPropertyBlockSizeCheck;
   static_assert(sizeof(MaterialPropertyBlock) == 0x18);
 }
+NEED_NO_BOX(UnityEngine::MaterialPropertyBlock);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::MaterialPropertyBlock*, "UnityEngine", "MaterialPropertyBlock");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::MaterialPropertyBlock::GetColorImpl

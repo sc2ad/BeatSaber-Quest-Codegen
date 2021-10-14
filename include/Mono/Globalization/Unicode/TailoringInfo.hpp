@@ -68,6 +68,7 @@ namespace Mono::Globalization::Unicode {
   static check_size<sizeof(TailoringInfo), 28 + sizeof(bool)> __Mono_Globalization_Unicode_TailoringInfoSizeCheck;
   static_assert(sizeof(TailoringInfo) == 0x1D);
 }
+NEED_NO_BOX(Mono::Globalization::Unicode::TailoringInfo);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::TailoringInfo*, "Mono.Globalization.Unicode", "TailoringInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::TailoringInfo::New_ctor

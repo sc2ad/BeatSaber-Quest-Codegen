@@ -165,6 +165,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PrepareLevelCompletionResults), 96 + sizeof(GlobalNamespace::GameplayModifiers*)> __GlobalNamespace_PrepareLevelCompletionResultsSizeCheck;
   static_assert(sizeof(PrepareLevelCompletionResults) == 0x68);
 }
+NEED_NO_BOX(GlobalNamespace::PrepareLevelCompletionResults);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PrepareLevelCompletionResults*, "", "PrepareLevelCompletionResults");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PrepareLevelCompletionResults::FillLevelCompletionResults

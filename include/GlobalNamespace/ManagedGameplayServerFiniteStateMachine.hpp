@@ -46,6 +46,7 @@ namespace GlobalNamespace {
   }; // ManagedGameplayServerFiniteStateMachine
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::ManagedGameplayServerFiniteStateMachine);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ManagedGameplayServerFiniteStateMachine*, "", "ManagedGameplayServerFiniteStateMachine");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ManagedGameplayServerFiniteStateMachine::New_ctor

@@ -155,6 +155,7 @@ namespace GlobalNamespace {
   }; // IConnectionManager
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::IConnectionManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IConnectionManager*, "", "IConnectionManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::IConnectionManager::get_userId

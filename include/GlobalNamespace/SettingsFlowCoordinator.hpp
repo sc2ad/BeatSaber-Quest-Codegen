@@ -200,6 +200,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SettingsFlowCoordinator), 192 + sizeof(System::Action_2<GlobalNamespace::SettingsFlowCoordinator*, GlobalNamespace::SettingsFlowCoordinator::FinishAction>*)> __GlobalNamespace_SettingsFlowCoordinatorSizeCheck;
   static_assert(sizeof(SettingsFlowCoordinator) == 0xC8);
 }
+NEED_NO_BOX(GlobalNamespace::SettingsFlowCoordinator);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SettingsFlowCoordinator*, "", "SettingsFlowCoordinator");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SettingsFlowCoordinator::FinishAction, "", "SettingsFlowCoordinator/FinishAction");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

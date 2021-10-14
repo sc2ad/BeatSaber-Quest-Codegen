@@ -97,6 +97,7 @@ namespace NUnit::Framework::Internal::Builders {
   static check_size<sizeof(DefaultSuiteBuilder), 16 + sizeof(NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder*)> __NUnit_Framework_Internal_Builders_DefaultSuiteBuilderSizeCheck;
   static_assert(sizeof(DefaultSuiteBuilder) == 0x18);
 }
+NEED_NO_BOX(NUnit::Framework::Internal::Builders::DefaultSuiteBuilder);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Builders::DefaultSuiteBuilder*, "NUnit.Framework.Internal.Builders", "DefaultSuiteBuilder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::DefaultSuiteBuilder::CanBuildFrom

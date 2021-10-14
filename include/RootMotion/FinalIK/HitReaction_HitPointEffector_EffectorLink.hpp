@@ -91,6 +91,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(HitReaction::HitPointEffector::EffectorLink), 36 + sizeof(UnityEngine::Vector3)> __RootMotion_FinalIK_HitReaction_HitPointEffector_EffectorLinkSizeCheck;
   static_assert(sizeof(HitReaction::HitPointEffector::EffectorLink) == 0x30);
 }
+NEED_NO_BOX(RootMotion::FinalIK::HitReaction::HitPointEffector::EffectorLink);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::HitReaction::HitPointEffector::EffectorLink*, "RootMotion.FinalIK", "HitReaction/HitPointEffector/EffectorLink");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::HitReaction::HitPointEffector::EffectorLink::Apply

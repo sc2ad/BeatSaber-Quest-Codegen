@@ -161,6 +161,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(TubeLightBehaviour), 84 + sizeof(UnityEngine::Color)> __GlobalNamespace_TubeLightBehaviourSizeCheck;
   static_assert(sizeof(TubeLightBehaviour) == 0x64);
 }
+NEED_NO_BOX(GlobalNamespace::TubeLightBehaviour);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TubeLightBehaviour*, "", "TubeLightBehaviour");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TubeLightBehaviour::New_ctor

@@ -93,6 +93,7 @@ namespace Oculus::Platform {
   static check_size<sizeof(RoomOptions), 16 + sizeof(System::IntPtr)> __Oculus_Platform_RoomOptionsSizeCheck;
   static_assert(sizeof(RoomOptions) == 0x18);
 }
+NEED_NO_BOX(Oculus::Platform::RoomOptions);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::RoomOptions*, "Oculus.Platform", "RoomOptions");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::RoomOptions::SetDataStore

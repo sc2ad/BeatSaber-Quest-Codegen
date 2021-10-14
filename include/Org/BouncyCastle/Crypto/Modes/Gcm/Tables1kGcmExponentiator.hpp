@@ -73,6 +73,7 @@ namespace Org::BouncyCastle::Crypto::Modes::Gcm {
   static check_size<sizeof(Tables1kGcmExponentiator), 16 + sizeof(System::Collections::IList*)> __Org_BouncyCastle_Crypto_Modes_Gcm_Tables1kGcmExponentiatorSizeCheck;
   static_assert(sizeof(Tables1kGcmExponentiator) == 0x18);
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator*, "Org.BouncyCastle.Crypto.Modes.Gcm", "Tables1kGcmExponentiator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator::Init

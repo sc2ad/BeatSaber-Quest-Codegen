@@ -265,6 +265,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SaberActivityCounter), 160 + sizeof(GlobalNamespace::MovementHistoryRecorder*)> __GlobalNamespace_SaberActivityCounterSizeCheck;
   static_assert(sizeof(SaberActivityCounter) == 0xA8);
 }
+NEED_NO_BOX(GlobalNamespace::SaberActivityCounter);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberActivityCounter*, "", "SaberActivityCounter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SaberActivityCounter::get_leftSaberMovementDistance

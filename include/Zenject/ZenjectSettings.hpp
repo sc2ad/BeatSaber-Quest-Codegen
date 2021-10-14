@@ -124,6 +124,7 @@ namespace Zenject {
   static check_size<sizeof(ZenjectSettings), 32 + sizeof(Zenject::ZenjectSettings::SignalSettings*)> __Zenject_ZenjectSettingsSizeCheck;
   static_assert(sizeof(ZenjectSettings) == 0x28);
 }
+NEED_NO_BOX(Zenject::ZenjectSettings);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenjectSettings*, "Zenject", "ZenjectSettings");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::ZenjectSettings::get_Signals

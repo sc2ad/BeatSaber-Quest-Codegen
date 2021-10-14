@@ -259,6 +259,7 @@ namespace System::Net {
   static check_size<sizeof(MonoChunkStream), 56 + sizeof(System::Collections::ArrayList*)> __System_Net_MonoChunkStreamSizeCheck;
   static_assert(sizeof(MonoChunkStream) == 0x40);
 }
+NEED_NO_BOX(System::Net::MonoChunkStream);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::MonoChunkStream*, "System.Net", "MonoChunkStream");
 DEFINE_IL2CPP_ARG_TYPE(System::Net::MonoChunkStream::State, "System.Net", "MonoChunkStream/State");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

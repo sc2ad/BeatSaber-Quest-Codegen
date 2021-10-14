@@ -41,6 +41,7 @@ namespace GlobalNamespace {
     }
   }; // GameplayRpcManager/LevelFinishedRpc
 }
+NEED_NO_BOX(GlobalNamespace::GameplayRpcManager::LevelFinishedRpc);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayRpcManager::LevelFinishedRpc*, "", "GameplayRpcManager/LevelFinishedRpc");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameplayRpcManager::LevelFinishedRpc::New_ctor

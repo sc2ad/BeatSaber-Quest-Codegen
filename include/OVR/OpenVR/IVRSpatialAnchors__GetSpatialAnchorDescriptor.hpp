@@ -61,6 +61,7 @@ namespace OVR::OpenVR {
   }; // OVR.OpenVR.IVRSpatialAnchors/OVR.OpenVR._GetSpatialAnchorDescriptor
   #pragma pack(pop)
 }
+NEED_NO_BOX(OVR::OpenVR::IVRSpatialAnchors::_GetSpatialAnchorDescriptor);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRSpatialAnchors::_GetSpatialAnchorDescriptor*, "OVR.OpenVR", "IVRSpatialAnchors/_GetSpatialAnchorDescriptor");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVRSpatialAnchors::_GetSpatialAnchorDescriptor::New_ctor

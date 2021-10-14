@@ -39,6 +39,7 @@ namespace GlobalNamespace {
   }; // SteamInit
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::SteamInit);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamInit*, "", "SteamInit");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamInit::Init

@@ -78,6 +78,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BlueNoiseDithering), 24 + sizeof(UnityEngine::Texture2D*)> __GlobalNamespace_BlueNoiseDitheringSizeCheck;
   static_assert(sizeof(BlueNoiseDithering) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::BlueNoiseDithering);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BlueNoiseDithering*, "", "BlueNoiseDithering");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BlueNoiseDithering::SetBlueNoiseShaderParams

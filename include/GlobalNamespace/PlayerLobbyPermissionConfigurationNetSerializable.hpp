@@ -132,6 +132,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PlayerLobbyPermissionConfigurationNetSerializable), 28 + sizeof(bool)> __GlobalNamespace_PlayerLobbyPermissionConfigurationNetSerializableSizeCheck;
   static_assert(sizeof(PlayerLobbyPermissionConfigurationNetSerializable) == 0x1D);
 }
+NEED_NO_BOX(GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable*, "", "PlayerLobbyPermissionConfigurationNetSerializable");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable::get_userId

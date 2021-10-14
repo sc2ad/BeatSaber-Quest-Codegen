@@ -181,6 +181,7 @@ namespace ModestTree {
   }; // ModestTree.ReflectionUtil
   #pragma pack(pop)
 }
+NEED_NO_BOX(ModestTree::ReflectionUtil);
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::ReflectionUtil*, "ModestTree", "ReflectionUtil");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: ModestTree::ReflectionUtil::CreateArray

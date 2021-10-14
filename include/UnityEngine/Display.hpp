@@ -120,6 +120,7 @@ namespace UnityEngine {
   static check_size<sizeof(Display), 16 + sizeof(System::IntPtr)> __UnityEngine_DisplaySizeCheck;
   static_assert(sizeof(Display) == 0x18);
 }
+NEED_NO_BOX(UnityEngine::Display);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Display*, "UnityEngine", "Display");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Display::get_renderingWidth

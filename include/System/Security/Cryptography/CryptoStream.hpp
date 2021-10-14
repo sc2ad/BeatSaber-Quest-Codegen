@@ -257,6 +257,7 @@ namespace System::Security::Cryptography {
   static check_size<sizeof(CryptoStream), 94 + sizeof(bool)> __System_Security_Cryptography_CryptoStreamSizeCheck;
   static_assert(sizeof(CryptoStream) == 0x5F);
 }
+NEED_NO_BOX(System::Security::Cryptography::CryptoStream);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::CryptoStream*, "System.Security.Cryptography", "CryptoStream");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::CryptoStream::get_HasFlushedFinalBlock

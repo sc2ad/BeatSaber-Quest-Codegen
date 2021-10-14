@@ -79,6 +79,7 @@ namespace UnityEngine::EventSystems {
   static check_size<sizeof(AxisEventData), 40 + sizeof(UnityEngine::EventSystems::MoveDirection)> __UnityEngine_EventSystems_AxisEventDataSizeCheck;
   static_assert(sizeof(AxisEventData) == 0x2C);
 }
+NEED_NO_BOX(UnityEngine::EventSystems::AxisEventData);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::AxisEventData*, "UnityEngine.EventSystems", "AxisEventData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::EventSystems::AxisEventData::get_moveVector

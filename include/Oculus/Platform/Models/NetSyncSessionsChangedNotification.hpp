@@ -61,6 +61,7 @@ namespace Oculus::Platform::Models {
   static check_size<sizeof(NetSyncSessionsChangedNotification), 24 + sizeof(Oculus::Platform::Models::NetSyncSessionList*)> __Oculus_Platform_Models_NetSyncSessionsChangedNotificationSizeCheck;
   static_assert(sizeof(NetSyncSessionsChangedNotification) == 0x20);
 }
+NEED_NO_BOX(Oculus::Platform::Models::NetSyncSessionsChangedNotification);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::NetSyncSessionsChangedNotification*, "Oculus.Platform.Models", "NetSyncSessionsChangedNotification");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::NetSyncSessionsChangedNotification::New_ctor

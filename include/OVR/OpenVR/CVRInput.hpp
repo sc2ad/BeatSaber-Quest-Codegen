@@ -139,6 +139,7 @@ namespace OVR::OpenVR {
   static check_size<sizeof(CVRInput), 16 + sizeof(OVR::OpenVR::IVRInput)> __OVR_OpenVR_CVRInputSizeCheck;
   static_assert(sizeof(CVRInput) == 0xA0);
 }
+NEED_NO_BOX(OVR::OpenVR::CVRInput);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRInput*, "OVR.OpenVR", "CVRInput");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::CVRInput::New_ctor

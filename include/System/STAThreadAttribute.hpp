@@ -35,6 +35,7 @@ namespace System {
   }; // System.STAThreadAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::STAThreadAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::STAThreadAttribute*, "System", "STAThreadAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::STAThreadAttribute::New_ctor

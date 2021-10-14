@@ -83,6 +83,7 @@ namespace HMUI {
   static check_size<sizeof(RaycastUITopLevelChecker), 32 + sizeof(UnityEngine::Canvas*)> __HMUI_RaycastUITopLevelCheckerSizeCheck;
   static_assert(sizeof(RaycastUITopLevelChecker) == 0x28);
 }
+NEED_NO_BOX(HMUI::RaycastUITopLevelChecker);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::RaycastUITopLevelChecker*, "HMUI", "RaycastUITopLevelChecker");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::RaycastUITopLevelChecker::get_isOnTop

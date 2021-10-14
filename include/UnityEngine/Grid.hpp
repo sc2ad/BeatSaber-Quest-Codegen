@@ -51,6 +51,7 @@ namespace UnityEngine {
   }; // UnityEngine.Grid
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::Grid);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Grid*, "UnityEngine", "Grid");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Grid::get_cellSize

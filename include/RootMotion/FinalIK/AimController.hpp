@@ -332,6 +332,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(AimController), 180 + sizeof(float)> __RootMotion_FinalIK_AimControllerSizeCheck;
   static_assert(sizeof(AimController) == 0xB8);
 }
+NEED_NO_BOX(RootMotion::FinalIK::AimController);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::AimController*, "RootMotion.FinalIK", "AimController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::AimController::get_pivot

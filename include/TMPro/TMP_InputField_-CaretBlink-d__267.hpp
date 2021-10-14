@@ -86,6 +86,7 @@ namespace TMPro {
   static check_size<sizeof(TMP_InputField::$CaretBlink$d__267), 32 + sizeof(TMPro::TMP_InputField*)> __TMPro_TMP_InputField_$CaretBlink$d__267SizeCheck;
   static_assert(sizeof(TMP_InputField::$CaretBlink$d__267) == 0x28);
 }
+NEED_NO_BOX(TMPro::TMP_InputField::$CaretBlink$d__267);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_InputField::$CaretBlink$d__267*, "TMPro", "TMP_InputField/<CaretBlink>d__267");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_InputField::$CaretBlink$d__267::System_Collections_Generic_IEnumerator$System_Object$_get_Current

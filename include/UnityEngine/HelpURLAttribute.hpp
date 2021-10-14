@@ -52,6 +52,7 @@ namespace UnityEngine {
   static check_size<sizeof(HelpURLAttribute), 16 + sizeof(::Il2CppString*)> __UnityEngine_HelpURLAttributeSizeCheck;
   static_assert(sizeof(HelpURLAttribute) == 0x18);
 }
+NEED_NO_BOX(UnityEngine::HelpURLAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::HelpURLAttribute*, "UnityEngine", "HelpURLAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::HelpURLAttribute::New_ctor

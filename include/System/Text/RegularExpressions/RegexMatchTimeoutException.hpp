@@ -105,6 +105,7 @@ namespace System::Text::RegularExpressions {
   static check_size<sizeof(RegexMatchTimeoutException), 152 + sizeof(System::TimeSpan)> __System_Text_RegularExpressions_RegexMatchTimeoutExceptionSizeCheck;
   static_assert(sizeof(RegexMatchTimeoutException) == 0xA0);
 }
+NEED_NO_BOX(System::Text::RegularExpressions::RegexMatchTimeoutException);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexMatchTimeoutException*, "System.Text.RegularExpressions", "RegexMatchTimeoutException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexMatchTimeoutException::New_ctor

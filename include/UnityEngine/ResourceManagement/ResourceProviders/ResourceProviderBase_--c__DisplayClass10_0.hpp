@@ -68,6 +68,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   static check_size<sizeof(ResourceProviderBase::$$c__DisplayClass10_0), 32 + sizeof(::Il2CppString*)> __UnityEngine_ResourceManagement_ResourceProviders_ResourceProviderBase_$$c__DisplayClass10_0SizeCheck;
   static_assert(sizeof(ResourceProviderBase::$$c__DisplayClass10_0) == 0x28);
 }
+NEED_NO_BOX(UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase::$$c__DisplayClass10_0);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase::$$c__DisplayClass10_0*, "UnityEngine.ResourceManagement.ResourceProviders", "ResourceProviderBase/<>c__DisplayClass10_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase::$$c__DisplayClass10_0::$InitializeAsync$b__0

@@ -34,6 +34,7 @@ namespace TMPro {
     }
   }; // TMPro.TMP_InputField/TMPro.OnChangeEvent
 }
+NEED_NO_BOX(TMPro::TMP_InputField::OnChangeEvent);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_InputField::OnChangeEvent*, "TMPro", "TMP_InputField/OnChangeEvent");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_InputField::OnChangeEvent::New_ctor

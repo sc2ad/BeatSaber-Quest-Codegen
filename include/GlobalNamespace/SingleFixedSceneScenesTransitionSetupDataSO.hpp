@@ -67,6 +67,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SingleFixedSceneScenesTransitionSetupDataSO), 40 + sizeof(GlobalNamespace::SceneInfo*)> __GlobalNamespace_SingleFixedSceneScenesTransitionSetupDataSOSizeCheck;
   static_assert(sizeof(SingleFixedSceneScenesTransitionSetupDataSO) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO*, "", "SingleFixedSceneScenesTransitionSetupDataSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO::get_sceneInfo

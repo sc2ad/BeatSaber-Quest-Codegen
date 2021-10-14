@@ -316,6 +316,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LevelCollectionTableView), 160 + sizeof(GlobalNamespace::IPreviewBeatmapLevel*)> __GlobalNamespace_LevelCollectionTableViewSizeCheck;
   static_assert(sizeof(LevelCollectionTableView) == 0xA8);
 }
+NEED_NO_BOX(GlobalNamespace::LevelCollectionTableView);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelCollectionTableView*, "", "LevelCollectionTableView");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LevelCollectionTableView::add_didSelectLevelEvent

@@ -108,6 +108,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(AvatarEditHistory), 32 + sizeof(int)> __GlobalNamespace_AvatarEditHistorySizeCheck;
   static_assert(sizeof(AvatarEditHistory) == 0x24);
 }
+NEED_NO_BOX(GlobalNamespace::AvatarEditHistory);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarEditHistory*, "", "AvatarEditHistory");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AvatarEditHistory::get_undoAvailable

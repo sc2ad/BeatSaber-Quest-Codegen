@@ -130,6 +130,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MaterialPropertyBlockColorSetter), 68 + sizeof(bool)> __GlobalNamespace_MaterialPropertyBlockColorSetterSizeCheck;
   static_assert(sizeof(MaterialPropertyBlockColorSetter) == 0x45);
 }
+NEED_NO_BOX(GlobalNamespace::MaterialPropertyBlockColorSetter);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialPropertyBlockColorSetter*, "", "MaterialPropertyBlockColorSetter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MaterialPropertyBlockColorSetter::get_color

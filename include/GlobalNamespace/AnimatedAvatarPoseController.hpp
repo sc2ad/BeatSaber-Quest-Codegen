@@ -65,6 +65,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(AnimatedAvatarPoseController), 24 + sizeof(GlobalNamespace::AvatarPoseController*)> __GlobalNamespace_AnimatedAvatarPoseControllerSizeCheck;
   static_assert(sizeof(AnimatedAvatarPoseController) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::AnimatedAvatarPoseController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AnimatedAvatarPoseController*, "", "AnimatedAvatarPoseController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AnimatedAvatarPoseController::LateUpdate

@@ -46,6 +46,7 @@ namespace Oculus::Platform {
     Oculus::Platform::Models::AssetFileDownloadResult* GetAssetFileDownloadResult();
   }; // Oculus.Platform.MessageWithAssetFileDownloadResult
 }
+NEED_NO_BOX(Oculus::Platform::MessageWithAssetFileDownloadResult);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithAssetFileDownloadResult*, "Oculus.Platform", "MessageWithAssetFileDownloadResult");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithAssetFileDownloadResult::GetDataFromMessage

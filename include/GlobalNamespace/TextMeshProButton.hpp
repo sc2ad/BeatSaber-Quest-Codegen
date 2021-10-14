@@ -80,6 +80,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(TextMeshProButton), 32 + sizeof(UnityEngine::UI::Button*)> __GlobalNamespace_TextMeshProButtonSizeCheck;
   static_assert(sizeof(TextMeshProButton) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::TextMeshProButton);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TextMeshProButton*, "", "TextMeshProButton");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TextMeshProButton::get_text

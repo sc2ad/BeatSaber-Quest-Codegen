@@ -63,6 +63,7 @@ namespace HMUI {
   static check_size<sizeof(TitleViewController), 112 + sizeof(TMPro::TextMeshProUGUI*)> __HMUI_TitleViewControllerSizeCheck;
   static_assert(sizeof(TitleViewController) == 0x78);
 }
+NEED_NO_BOX(HMUI::TitleViewController);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TitleViewController*, "HMUI", "TitleViewController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::TitleViewController::SetText

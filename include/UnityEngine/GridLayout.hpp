@@ -55,6 +55,7 @@ namespace UnityEngine {
   }; // UnityEngine.GridLayout
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::GridLayout);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GridLayout*, "UnityEngine", "GridLayout");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::GridLayout::CellToLocal

@@ -174,6 +174,7 @@ namespace NUnit::Framework::Constraints {
   static check_size<sizeof(EqualConstraintResult), 64 + sizeof(System::Collections::Generic::IList_1<NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint*>*)> __NUnit_Framework_Constraints_EqualConstraintResultSizeCheck;
   static_assert(sizeof(EqualConstraintResult) == 0x48);
 }
+NEED_NO_BOX(NUnit::Framework::Constraints::EqualConstraintResult);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::EqualConstraintResult*, "NUnit.Framework.Constraints", "EqualConstraintResult");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::EqualConstraintResult::New_ctor

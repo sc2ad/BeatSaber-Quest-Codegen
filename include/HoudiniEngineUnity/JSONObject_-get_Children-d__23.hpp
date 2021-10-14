@@ -123,6 +123,7 @@ namespace HoudiniEngineUnity {
   }; // HoudiniEngineUnity.JSONObject/HoudiniEngineUnity.<get_Children>d__23
   // WARNING Not writing size check since size may be invalid!
 }
+NEED_NO_BOX(HoudiniEngineUnity::JSONObject::$get_Children$d__23);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::JSONObject::$get_Children$d__23*, "HoudiniEngineUnity", "JSONObject/<get_Children>d__23");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONObject::$get_Children$d__23::System_Collections_Generic_IEnumerator$HoudiniEngineUnity_JSONNode$_get_Current

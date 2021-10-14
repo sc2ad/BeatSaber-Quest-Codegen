@@ -169,6 +169,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(NetEaseLeaderboardViewController), 153 + sizeof(bool)> __GlobalNamespace_NetEaseLeaderboardViewControllerSizeCheck;
   static_assert(sizeof(NetEaseLeaderboardViewController) == 0x9A);
 }
+NEED_NO_BOX(GlobalNamespace::NetEaseLeaderboardViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetEaseLeaderboardViewController*, "", "NetEaseLeaderboardViewController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NetEaseLeaderboardViewController::HandleLoadingControlDidPressRefreshButton

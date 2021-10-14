@@ -109,6 +109,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRSkeletonRenderer::CapsuleVisualization), 64 + sizeof(UnityEngine::Material*)> __GlobalNamespace_OVRSkeletonRenderer_CapsuleVisualizationSizeCheck;
   static_assert(sizeof(OVRSkeletonRenderer::CapsuleVisualization) == 0x48);
 }
+NEED_NO_BOX(GlobalNamespace::OVRSkeletonRenderer::CapsuleVisualization);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSkeletonRenderer::CapsuleVisualization*, "", "OVRSkeletonRenderer/CapsuleVisualization");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRSkeletonRenderer::CapsuleVisualization::New_ctor

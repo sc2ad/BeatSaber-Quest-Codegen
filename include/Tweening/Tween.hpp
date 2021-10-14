@@ -261,6 +261,7 @@ namespace Tweening {
   static check_size<sizeof(Tween), 80 + sizeof(UnityEngine::AnimationCurve*)> __Tweening_TweenSizeCheck;
   static_assert(sizeof(Tween) == 0x58);
 }
+NEED_NO_BOX(Tweening::Tween);
 DEFINE_IL2CPP_ARG_TYPE(Tweening::Tween*, "Tweening", "Tween");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Tweening::Tween::get_progress

@@ -32,6 +32,7 @@ namespace HoudiniEngineUnity {
   }; // HoudiniEngineUnity.HEU_InputNodeUICache/HoudiniEngineUnity.HEU_InputAssetUICache
   #pragma pack(pop)
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_InputNodeUICache::HEU_InputAssetUICache);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_InputNodeUICache::HEU_InputAssetUICache*, "HoudiniEngineUnity", "HEU_InputNodeUICache/HEU_InputAssetUICache");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_InputNodeUICache::HEU_InputAssetUICache::New_ctor

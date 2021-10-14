@@ -95,6 +95,7 @@ namespace Mono::Security {
   static check_size<sizeof(PKCS7::EncryptedData), 40 + sizeof(::ArrayW<uint8_t>)> __Mono_Security_PKCS7_EncryptedDataSizeCheck;
   static_assert(sizeof(PKCS7::EncryptedData) == 0x30);
 }
+NEED_NO_BOX(Mono::Security::PKCS7::EncryptedData);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::PKCS7::EncryptedData*, "Mono.Security", "PKCS7/EncryptedData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Security::PKCS7::EncryptedData::get_EncryptionAlgorithm

@@ -54,6 +54,7 @@ namespace Oculus::Platform::Models {
   static check_size<sizeof(SupplementaryMetric), 24 + sizeof(int64_t)> __Oculus_Platform_Models_SupplementaryMetricSizeCheck;
   static_assert(sizeof(SupplementaryMetric) == 0x20);
 }
+NEED_NO_BOX(Oculus::Platform::Models::SupplementaryMetric);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::SupplementaryMetric*, "Oculus.Platform.Models", "SupplementaryMetric");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::SupplementaryMetric::New_ctor

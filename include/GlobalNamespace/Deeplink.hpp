@@ -102,6 +102,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(Deeplink), 72 + sizeof(uint64_t)> __GlobalNamespace_DeeplinkSizeCheck;
   static_assert(sizeof(Deeplink) == 0x50);
 }
+NEED_NO_BOX(GlobalNamespace::Deeplink);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Deeplink*, "", "Deeplink");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::Deeplink::New_ctor

@@ -63,6 +63,7 @@ namespace System::Net {
   static check_size<sizeof(CookieParser), 16 + sizeof(System::Net::CookieTokenizer*)> __System_Net_CookieParserSizeCheck;
   static_assert(sizeof(CookieParser) == 0x18);
 }
+NEED_NO_BOX(System::Net::CookieParser);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::CookieParser*, "System.Net", "CookieParser");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::CookieParser::New_ctor

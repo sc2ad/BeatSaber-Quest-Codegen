@@ -136,6 +136,7 @@ namespace HMUI {
   static check_size<sizeof(Screen::$TransitionCoroutine$d__5), 68 + sizeof(float)> __HMUI_Screen_$TransitionCoroutine$d__5SizeCheck;
   static_assert(sizeof(Screen::$TransitionCoroutine$d__5) == 0x48);
 }
+NEED_NO_BOX(HMUI::Screen::$TransitionCoroutine$d__5);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::Screen::$TransitionCoroutine$d__5*, "HMUI", "Screen/<TransitionCoroutine>d__5");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::Screen::$TransitionCoroutine$d__5::System_Collections_Generic_IEnumerator$System_Object$_get_Current

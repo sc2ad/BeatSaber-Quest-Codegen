@@ -184,6 +184,7 @@ namespace System::Net {
   static check_size<sizeof(FtpAsyncResult), 72 + sizeof(::Il2CppObject*)> __System_Net_FtpAsyncResultSizeCheck;
   static_assert(sizeof(FtpAsyncResult) == 0x50);
 }
+NEED_NO_BOX(System::Net::FtpAsyncResult);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::FtpAsyncResult*, "System.Net", "FtpAsyncResult");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::FtpAsyncResult::get_AsyncState

@@ -90,6 +90,7 @@ namespace LiteNetLib::Layers {
   static check_size<sizeof(XorEncryptLayer), 24 + sizeof(::ArrayW<uint8_t>)> __LiteNetLib_Layers_XorEncryptLayerSizeCheck;
   static_assert(sizeof(XorEncryptLayer) == 0x20);
 }
+NEED_NO_BOX(LiteNetLib::Layers::XorEncryptLayer);
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Layers::XorEncryptLayer*, "LiteNetLib.Layers", "XorEncryptLayer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::Layers::XorEncryptLayer::New_ctor

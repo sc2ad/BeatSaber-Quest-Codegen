@@ -450,6 +450,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(GameplayModifiers), 43 + sizeof(bool)> __GlobalNamespace_GameplayModifiersSizeCheck;
   static_assert(sizeof(GameplayModifiers) == 0x2C);
 }
+NEED_NO_BOX(GlobalNamespace::GameplayModifiers);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifiers*, "", "GameplayModifiers");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifiers::EnabledObstacleType, "", "GameplayModifiers/EnabledObstacleType");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifiers::EnergyType, "", "GameplayModifiers/EnergyType");

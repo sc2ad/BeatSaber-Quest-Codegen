@@ -54,6 +54,7 @@ namespace System::IO {
   static check_size<sizeof(RenamedEventArgs), 48 + sizeof(::Il2CppString*)> __System_IO_RenamedEventArgsSizeCheck;
   static_assert(sizeof(RenamedEventArgs) == 0x38);
 }
+NEED_NO_BOX(System::IO::RenamedEventArgs);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::RenamedEventArgs*, "System.IO", "RenamedEventArgs");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::RenamedEventArgs::New_ctor

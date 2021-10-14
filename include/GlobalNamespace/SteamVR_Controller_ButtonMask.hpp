@@ -94,6 +94,7 @@ namespace GlobalNamespace {
   }; // SteamVR_Controller/ButtonMask
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::SteamVR_Controller::ButtonMask);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Controller::ButtonMask*, "", "SteamVR_Controller/ButtonMask");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Controller::ButtonMask::New_ctor

@@ -183,6 +183,7 @@ namespace System::Collections {
   static check_size<sizeof(ArrayList::ReadOnlyArrayList), 40 + sizeof(System::Collections::ArrayList*)> __System_Collections_ArrayList_ReadOnlyArrayListSizeCheck;
   static_assert(sizeof(ArrayList::ReadOnlyArrayList) == 0x30);
 }
+NEED_NO_BOX(System::Collections::ArrayList::ReadOnlyArrayList);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::ArrayList::ReadOnlyArrayList*, "System.Collections", "ArrayList/ReadOnlyArrayList");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::ArrayList::ReadOnlyArrayList::New_ctor

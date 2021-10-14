@@ -115,6 +115,7 @@ namespace System::IO {
   static check_size<sizeof(FileLoadException), 152 + sizeof(::Il2CppString*)> __System_IO_FileLoadExceptionSizeCheck;
   static_assert(sizeof(FileLoadException) == 0xA0);
 }
+NEED_NO_BOX(System::IO::FileLoadException);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileLoadException*, "System.IO", "FileLoadException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::FileLoadException::get_FusionLog

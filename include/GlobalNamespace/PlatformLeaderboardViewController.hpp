@@ -289,6 +289,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PlatformLeaderboardViewController), 224 + sizeof(::ArrayW<GlobalNamespace::PlatformLeaderboardsModel::ScoresScope>)> __GlobalNamespace_PlatformLeaderboardViewControllerSizeCheck;
   static_assert(sizeof(PlatformLeaderboardViewController) == 0xE8);
 }
+NEED_NO_BOX(GlobalNamespace::PlatformLeaderboardViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformLeaderboardViewController*, "", "PlatformLeaderboardViewController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlatformLeaderboardViewController::get_leaderboardsModel

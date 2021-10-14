@@ -95,6 +95,7 @@ namespace System::Threading {
   static check_size<sizeof(AbandonedMutexException), 144 + sizeof(System::Threading::Mutex*)> __System_Threading_AbandonedMutexExceptionSizeCheck;
   static_assert(sizeof(AbandonedMutexException) == 0x98);
 }
+NEED_NO_BOX(System::Threading::AbandonedMutexException);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::AbandonedMutexException*, "System.Threading", "AbandonedMutexException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::AbandonedMutexException::New_ctor

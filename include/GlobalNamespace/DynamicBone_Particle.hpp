@@ -155,6 +155,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(DynamicBone::Particle), 100 + sizeof(UnityEngine::Quaternion)> __GlobalNamespace_DynamicBone_ParticleSizeCheck;
   static_assert(sizeof(DynamicBone::Particle) == 0x74);
 }
+NEED_NO_BOX(GlobalNamespace::DynamicBone::Particle);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DynamicBone::Particle*, "", "DynamicBone/Particle");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DynamicBone::Particle::New_ctor

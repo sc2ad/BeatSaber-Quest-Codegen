@@ -57,6 +57,7 @@ namespace ModestTree {
   }; // ModestTree.TypeStringFormatter/ModestTree.<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(ModestTree::TypeStringFormatter::$$c);
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::TypeStringFormatter::$$c*, "ModestTree", "TypeStringFormatter/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: ModestTree::TypeStringFormatter::$$c::_cctor

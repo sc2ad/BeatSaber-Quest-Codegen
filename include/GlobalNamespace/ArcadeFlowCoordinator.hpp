@@ -238,6 +238,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ArcadeFlowCoordinator), 344 + sizeof(GlobalNamespace::MenuTransitionsHelper*)> __GlobalNamespace_ArcadeFlowCoordinatorSizeCheck;
   static_assert(sizeof(ArcadeFlowCoordinator) == 0x160);
 }
+NEED_NO_BOX(GlobalNamespace::ArcadeFlowCoordinator);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ArcadeFlowCoordinator*, "", "ArcadeFlowCoordinator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ArcadeFlowCoordinator::WillScoreGoToLeaderboard

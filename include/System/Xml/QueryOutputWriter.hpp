@@ -301,6 +301,7 @@ namespace System::Xml {
   static check_size<sizeof(QueryOutputWriter), 96 + sizeof(int)> __System_Xml_QueryOutputWriterSizeCheck;
   static_assert(sizeof(QueryOutputWriter) == 0x64);
 }
+NEED_NO_BOX(System::Xml::QueryOutputWriter);
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::QueryOutputWriter*, "System.Xml", "QueryOutputWriter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::QueryOutputWriter::New_ctor

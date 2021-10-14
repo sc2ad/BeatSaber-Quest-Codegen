@@ -56,6 +56,7 @@ namespace OVR::OpenVR {
   }; // OVR.OpenVR.IVRChaperone/OVR.OpenVR._GetPlayAreaRect
   #pragma pack(pop)
 }
+NEED_NO_BOX(OVR::OpenVR::IVRChaperone::_GetPlayAreaRect);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRChaperone::_GetPlayAreaRect*, "OVR.OpenVR", "IVRChaperone/_GetPlayAreaRect");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVRChaperone::_GetPlayAreaRect::New_ctor

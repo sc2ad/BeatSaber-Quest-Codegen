@@ -95,6 +95,7 @@ namespace System::ComponentModel {
   static check_size<sizeof(TypeConverterAttribute), 16 + sizeof(::Il2CppString*)> __System_ComponentModel_TypeConverterAttributeSizeCheck;
   static_assert(sizeof(TypeConverterAttribute) == 0x18);
 }
+NEED_NO_BOX(System::ComponentModel::TypeConverterAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::TypeConverterAttribute*, "System.ComponentModel", "TypeConverterAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ComponentModel::TypeConverterAttribute::get_ConverterTypeName

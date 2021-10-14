@@ -63,6 +63,7 @@ namespace NUnit::Framework::Internal::Commands {
   static check_size<sizeof(OneTimeTearDownCommand::$$c__DisplayClass3_0), 16 + sizeof(System::IDisposable*)> __NUnit_Framework_Internal_Commands_OneTimeTearDownCommand_$$c__DisplayClass3_0SizeCheck;
   static_assert(sizeof(OneTimeTearDownCommand::$$c__DisplayClass3_0) == 0x18);
 }
+NEED_NO_BOX(NUnit::Framework::Internal::Commands::OneTimeTearDownCommand::$$c__DisplayClass3_0);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Commands::OneTimeTearDownCommand::$$c__DisplayClass3_0*, "NUnit.Framework.Internal.Commands", "OneTimeTearDownCommand/<>c__DisplayClass3_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Commands::OneTimeTearDownCommand::$$c__DisplayClass3_0::$Execute$b__0

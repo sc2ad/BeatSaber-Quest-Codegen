@@ -71,6 +71,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   static check_size<sizeof(NameCache), 16 + sizeof(::Il2CppString*)> __System_Runtime_Serialization_Formatters_Binary_NameCacheSizeCheck;
   static_assert(sizeof(NameCache) == 0x18);
 }
+NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::NameCache);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::NameCache*, "System.Runtime.Serialization.Formatters.Binary", "NameCache");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::NameCache::_cctor

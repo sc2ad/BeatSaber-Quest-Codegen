@@ -55,6 +55,7 @@ namespace System::Security::Util {
   static check_size<sizeof(TokenizerStringBlock), 24 + sizeof(System::Security::Util::TokenizerStringBlock*)> __System_Security_Util_TokenizerStringBlockSizeCheck;
   static_assert(sizeof(TokenizerStringBlock) == 0x20);
 }
+NEED_NO_BOX(System::Security::Util::TokenizerStringBlock);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::TokenizerStringBlock*, "System.Security.Util", "TokenizerStringBlock");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Util::TokenizerStringBlock::New_ctor

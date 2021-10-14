@@ -126,6 +126,7 @@ namespace MasterServer {
   static check_size<sizeof(MessageHandler::MultipartMessageWaiter), 49 + sizeof(bool)> __MasterServer_MessageHandler_MultipartMessageWaiterSizeCheck;
   static_assert(sizeof(MessageHandler::MultipartMessageWaiter) == 0x32);
 }
+NEED_NO_BOX(MasterServer::MessageHandler::MultipartMessageWaiter);
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::MultipartMessageWaiter*, "MasterServer", "MessageHandler/MultipartMessageWaiter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: MasterServer::MessageHandler::MultipartMessageWaiter::get_isWaiting

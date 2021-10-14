@@ -163,6 +163,7 @@ namespace System::Net {
   static check_size<sizeof(HttpStreamAsyncResult), 80 + sizeof(System::Exception*)> __System_Net_HttpStreamAsyncResultSizeCheck;
   static_assert(sizeof(HttpStreamAsyncResult) == 0x58);
 }
+NEED_NO_BOX(System::Net::HttpStreamAsyncResult);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpStreamAsyncResult*, "System.Net", "HttpStreamAsyncResult");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::HttpStreamAsyncResult::get_AsyncState

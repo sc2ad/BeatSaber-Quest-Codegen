@@ -177,6 +177,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BeatmapLevelDataLoaderSO), 40 + sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::BeatmapLevelDataLoaderSO::AssetBundleLevelInfo>*)> __GlobalNamespace_BeatmapLevelDataLoaderSOSizeCheck;
   static_assert(sizeof(BeatmapLevelDataLoaderSO) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::BeatmapLevelDataLoaderSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelDataLoaderSO*, "", "BeatmapLevelDataLoaderSO");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelDataLoaderSO::AssetBundleLevelInfo, "", "BeatmapLevelDataLoaderSO/AssetBundleLevelInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

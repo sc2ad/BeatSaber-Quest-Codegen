@@ -59,6 +59,7 @@ namespace System::Runtime::InteropServices {
   static check_size<sizeof(ComDefaultInterfaceAttribute), 16 + sizeof(System::Type*)> __System_Runtime_InteropServices_ComDefaultInterfaceAttributeSizeCheck;
   static_assert(sizeof(ComDefaultInterfaceAttribute) == 0x18);
 }
+NEED_NO_BOX(System::Runtime::InteropServices::ComDefaultInterfaceAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::ComDefaultInterfaceAttribute*, "System.Runtime.InteropServices", "ComDefaultInterfaceAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::InteropServices::ComDefaultInterfaceAttribute::New_ctor

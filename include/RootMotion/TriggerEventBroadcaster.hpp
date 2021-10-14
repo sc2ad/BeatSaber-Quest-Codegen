@@ -72,6 +72,7 @@ namespace RootMotion {
   static check_size<sizeof(TriggerEventBroadcaster), 24 + sizeof(UnityEngine::GameObject*)> __RootMotion_TriggerEventBroadcasterSizeCheck;
   static_assert(sizeof(TriggerEventBroadcaster) == 0x20);
 }
+NEED_NO_BOX(RootMotion::TriggerEventBroadcaster);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::TriggerEventBroadcaster*, "RootMotion", "TriggerEventBroadcaster");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::TriggerEventBroadcaster::OnTriggerEnter

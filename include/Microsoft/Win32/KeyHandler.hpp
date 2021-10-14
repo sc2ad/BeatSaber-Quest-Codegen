@@ -203,6 +203,7 @@ namespace Microsoft::Win32 {
   static check_size<sizeof(KeyHandler), 56 + sizeof(bool)> __Microsoft_Win32_KeyHandlerSizeCheck;
   static_assert(sizeof(KeyHandler) == 0x39);
 }
+NEED_NO_BOX(Microsoft::Win32::KeyHandler);
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::KeyHandler*, "Microsoft.Win32", "KeyHandler");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Microsoft::Win32::KeyHandler::get_IsMarkedForDeletion

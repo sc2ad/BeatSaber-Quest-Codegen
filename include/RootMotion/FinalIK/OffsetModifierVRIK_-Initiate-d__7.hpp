@@ -86,6 +86,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(OffsetModifierVRIK::$Initiate$d__7), 32 + sizeof(RootMotion::FinalIK::OffsetModifierVRIK*)> __RootMotion_FinalIK_OffsetModifierVRIK_$Initiate$d__7SizeCheck;
   static_assert(sizeof(OffsetModifierVRIK::$Initiate$d__7) == 0x28);
 }
+NEED_NO_BOX(RootMotion::FinalIK::OffsetModifierVRIK::$Initiate$d__7);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::OffsetModifierVRIK::$Initiate$d__7*, "RootMotion.FinalIK", "OffsetModifierVRIK/<Initiate>d__7");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::OffsetModifierVRIK::$Initiate$d__7::System_Collections_Generic_IEnumerator$System_Object$_get_Current

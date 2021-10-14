@@ -35,6 +35,7 @@ namespace GlobalNamespace {
   }; // GameplayRpcManager/GetGameplaySongReadyRpc
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::GameplayRpcManager::GetGameplaySongReadyRpc);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayRpcManager::GetGameplaySongReadyRpc*, "", "GameplayRpcManager/GetGameplaySongReadyRpc");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameplayRpcManager::GetGameplaySongReadyRpc::New_ctor

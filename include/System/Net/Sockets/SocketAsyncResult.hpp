@@ -279,6 +279,7 @@ namespace System::Net::Sockets {
   static check_size<sizeof(SocketAsyncResult), 160 + sizeof(int)> __System_Net_Sockets_SocketAsyncResultSizeCheck;
   static_assert(sizeof(SocketAsyncResult) == 0xA4);
 }
+NEED_NO_BOX(System::Net::Sockets::SocketAsyncResult);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::SocketAsyncResult*, "System.Net.Sockets", "SocketAsyncResult");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Sockets::SocketAsyncResult::get_Handle

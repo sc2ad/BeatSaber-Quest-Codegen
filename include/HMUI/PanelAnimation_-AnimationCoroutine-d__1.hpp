@@ -184,6 +184,7 @@ namespace HMUI {
   static check_size<sizeof(PanelAnimation::$AnimationCoroutine$d__1), 112 + sizeof(float)> __HMUI_PanelAnimation_$AnimationCoroutine$d__1SizeCheck;
   static_assert(sizeof(PanelAnimation::$AnimationCoroutine$d__1) == 0x74);
 }
+NEED_NO_BOX(HMUI::PanelAnimation::$AnimationCoroutine$d__1);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::PanelAnimation::$AnimationCoroutine$d__1*, "HMUI", "PanelAnimation/<AnimationCoroutine>d__1");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::PanelAnimation::$AnimationCoroutine$d__1::System_Collections_Generic_IEnumerator$System_Object$_get_Current

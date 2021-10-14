@@ -238,6 +238,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(FullVRControllersRecorder), 88 + sizeof(GlobalNamespace::VRControllersRecorderData*)> __GlobalNamespace_FullVRControllersRecorderSizeCheck;
   static_assert(sizeof(FullVRControllersRecorder) == 0x60);
 }
+NEED_NO_BOX(GlobalNamespace::FullVRControllersRecorder);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FullVRControllersRecorder*, "", "FullVRControllersRecorder");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FullVRControllersRecorder::Mode, "", "FullVRControllersRecorder/Mode");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

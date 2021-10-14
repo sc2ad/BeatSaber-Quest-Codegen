@@ -158,6 +158,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LightWithIdManager), 64 + sizeof(bool)> __GlobalNamespace_LightWithIdManagerSizeCheck;
   static_assert(sizeof(LightWithIdManager) == 0x41);
 }
+NEED_NO_BOX(GlobalNamespace::LightWithIdManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightWithIdManager*, "", "LightWithIdManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LightWithIdManager::get_colors

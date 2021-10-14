@@ -76,6 +76,7 @@ namespace Oculus::Platform::Models {
   static check_size<sizeof(AchievementDefinition), 40 + sizeof(uint64_t)> __Oculus_Platform_Models_AchievementDefinitionSizeCheck;
   static_assert(sizeof(AchievementDefinition) == 0x30);
 }
+NEED_NO_BOX(Oculus::Platform::Models::AchievementDefinition);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::AchievementDefinition*, "Oculus.Platform.Models", "AchievementDefinition");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::AchievementDefinition::New_ctor

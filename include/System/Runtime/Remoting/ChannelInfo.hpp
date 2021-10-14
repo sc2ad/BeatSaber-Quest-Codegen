@@ -67,6 +67,7 @@ namespace System::Runtime::Remoting {
   static check_size<sizeof(ChannelInfo), 16 + sizeof(::ArrayW<::Il2CppObject*>)> __System_Runtime_Remoting_ChannelInfoSizeCheck;
   static_assert(sizeof(ChannelInfo) == 0x18);
 }
+NEED_NO_BOX(System::Runtime::Remoting::ChannelInfo);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::ChannelInfo*, "System.Runtime.Remoting", "ChannelInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::ChannelInfo::get_ChannelData

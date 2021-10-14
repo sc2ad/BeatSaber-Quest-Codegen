@@ -107,6 +107,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(VFXController), 40 + sizeof(bool)> __GlobalNamespace_VFXControllerSizeCheck;
   static_assert(sizeof(VFXController) == 0x29);
 }
+NEED_NO_BOX(GlobalNamespace::VFXController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VFXController*, "", "VFXController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::VFXController::get_animation

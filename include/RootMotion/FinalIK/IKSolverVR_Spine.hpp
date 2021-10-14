@@ -609,6 +609,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(IKSolverVR::Spine), 540 + sizeof(UnityEngine::Vector3)> __RootMotion_FinalIK_IKSolverVR_SpineSizeCheck;
   static_assert(sizeof(IKSolverVR::Spine) == 0x228);
 }
+NEED_NO_BOX(RootMotion::FinalIK::IKSolverVR::Spine);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverVR::Spine*, "RootMotion.FinalIK", "IKSolverVR/Spine");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Spine::get_pelvis

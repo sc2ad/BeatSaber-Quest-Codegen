@@ -58,6 +58,7 @@ namespace GlobalNamespace {
   }; // OVRManager/InstantiateMrcCameraDelegate
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate*, "", "OVRManager/InstantiateMrcCameraDelegate");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate::New_ctor

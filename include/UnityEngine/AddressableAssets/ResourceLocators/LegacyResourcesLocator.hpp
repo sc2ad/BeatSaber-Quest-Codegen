@@ -66,6 +66,7 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
   }; // UnityEngine.AddressableAssets.ResourceLocators.LegacyResourcesLocator
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::AddressableAssets::ResourceLocators::LegacyResourcesLocator);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::ResourceLocators::LegacyResourcesLocator*, "UnityEngine.AddressableAssets.ResourceLocators", "LegacyResourcesLocator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::ResourceLocators::LegacyResourcesLocator::get_Keys

@@ -2659,6 +2659,7 @@ namespace TMPro {
   }; // TMPro.TMP_Text
   // WARNING Not writing size check since size may be invalid!
 }
+NEED_NO_BOX(TMPro::TMP_Text);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Text*, "TMPro", "TMP_Text");
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Text::TextInputSources, "TMPro", "TMP_Text/TextInputSources");
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Text::UnicodeChar, "TMPro", "TMP_Text/UnicodeChar");

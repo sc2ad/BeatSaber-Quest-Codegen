@@ -62,6 +62,7 @@ namespace System::Reflection {
   }; // System.Reflection.TargetParameterCountException
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Reflection::TargetParameterCountException);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::TargetParameterCountException*, "System.Reflection", "TargetParameterCountException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::TargetParameterCountException::New_ctor

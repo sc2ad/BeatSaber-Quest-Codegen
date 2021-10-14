@@ -57,6 +57,7 @@ namespace Zenject {
   }; // Zenject.AnimatorInstaller
   // WARNING Not writing size check since size may be invalid!
 }
+NEED_NO_BOX(Zenject::AnimatorInstaller);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::AnimatorInstaller*, "Zenject", "AnimatorInstaller");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::AnimatorInstaller::New_ctor

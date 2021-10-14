@@ -48,6 +48,7 @@ namespace System::Runtime::Remoting::Messaging {
   static check_size<sizeof(CADArgHolder), 16 + sizeof(int)> __System_Runtime_Remoting_Messaging_CADArgHolderSizeCheck;
   static_assert(sizeof(CADArgHolder) == 0x14);
 }
+NEED_NO_BOX(System::Runtime::Remoting::Messaging::CADArgHolder);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::CADArgHolder*, "System.Runtime.Remoting.Messaging", "CADArgHolder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CADArgHolder::New_ctor

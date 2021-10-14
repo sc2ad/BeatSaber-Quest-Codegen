@@ -674,6 +674,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MainSystemInit), 480 + sizeof(GlobalNamespace::MockPlayersModel*)> __GlobalNamespace_MainSystemInitSizeCheck;
   static_assert(sizeof(MainSystemInit) == 0x1E8);
 }
+NEED_NO_BOX(GlobalNamespace::MainSystemInit);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainSystemInit*, "", "MainSystemInit");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MainSystemInit::Init

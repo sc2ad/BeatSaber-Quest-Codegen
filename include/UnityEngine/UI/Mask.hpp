@@ -157,6 +157,7 @@ namespace UnityEngine::UI {
   static check_size<sizeof(Mask), 56 + sizeof(UnityEngine::Material*)> __UnityEngine_UI_MaskSizeCheck;
   static_assert(sizeof(Mask) == 0x40);
 }
+NEED_NO_BOX(UnityEngine::UI::Mask);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Mask*, "UnityEngine.UI", "Mask");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::Mask::get_rectTransform

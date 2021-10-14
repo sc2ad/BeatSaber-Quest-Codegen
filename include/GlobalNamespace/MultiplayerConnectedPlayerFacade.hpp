@@ -180,6 +180,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerConnectedPlayerFacade), 80 + sizeof(GlobalNamespace::IBeatmapObjectCallbackController*)> __GlobalNamespace_MultiplayerConnectedPlayerFacadeSizeCheck;
   static_assert(sizeof(MultiplayerConnectedPlayerFacade) == 0x58);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerConnectedPlayerFacade);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerFacade*, "", "MultiplayerConnectedPlayerFacade");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerFacade::get_introAnimator

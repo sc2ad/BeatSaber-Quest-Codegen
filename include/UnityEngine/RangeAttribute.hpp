@@ -55,6 +55,7 @@ namespace UnityEngine {
   static check_size<sizeof(RangeAttribute), 20 + sizeof(float)> __UnityEngine_RangeAttributeSizeCheck;
   static_assert(sizeof(RangeAttribute) == 0x18);
 }
+NEED_NO_BOX(UnityEngine::RangeAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RangeAttribute*, "UnityEngine", "RangeAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::RangeAttribute::New_ctor

@@ -32,6 +32,7 @@ namespace UnityEngine {
   }; // UnityEngine.ExitGUIException
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::ExitGUIException);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ExitGUIException*, "UnityEngine", "ExitGUIException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ExitGUIException::New_ctor

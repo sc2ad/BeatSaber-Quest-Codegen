@@ -234,6 +234,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PlatformLeaderboardsModel), 72 + sizeof(::Il2CppString*)> __GlobalNamespace_PlatformLeaderboardsModelSizeCheck;
   static_assert(sizeof(PlatformLeaderboardsModel) == 0x50);
 }
+NEED_NO_BOX(GlobalNamespace::PlatformLeaderboardsModel);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformLeaderboardsModel*, "", "PlatformLeaderboardsModel");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformLeaderboardsModel::State, "", "PlatformLeaderboardsModel/State");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

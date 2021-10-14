@@ -63,6 +63,7 @@ namespace Oculus::Platform::Models {
   static check_size<sizeof(HttpTransferUpdate), 32 + sizeof(bool)> __Oculus_Platform_Models_HttpTransferUpdateSizeCheck;
   static_assert(sizeof(HttpTransferUpdate) == 0x21);
 }
+NEED_NO_BOX(Oculus::Platform::Models::HttpTransferUpdate);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::HttpTransferUpdate*, "Oculus.Platform.Models", "HttpTransferUpdate");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::HttpTransferUpdate::New_ctor

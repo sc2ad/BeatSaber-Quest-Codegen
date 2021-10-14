@@ -238,6 +238,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(CustomTweenBehaviour), 104 + sizeof(::ArrayW<float>)> __GlobalNamespace_CustomTweenBehaviourSizeCheck;
   static_assert(sizeof(CustomTweenBehaviour) == 0x70);
 }
+NEED_NO_BOX(GlobalNamespace::CustomTweenBehaviour);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CustomTweenBehaviour*, "", "CustomTweenBehaviour");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CustomTweenBehaviour::New_ctor

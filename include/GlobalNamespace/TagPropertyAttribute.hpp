@@ -34,6 +34,7 @@ namespace GlobalNamespace {
   }; // TagPropertyAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::TagPropertyAttribute);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TagPropertyAttribute*, "", "TagPropertyAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TagPropertyAttribute::New_ctor

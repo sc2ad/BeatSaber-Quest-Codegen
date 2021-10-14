@@ -57,6 +57,7 @@ namespace JetBrains::Annotations {
   static check_size<sizeof(AspMvcPartialViewLocationFormatAttribute), 16 + sizeof(::Il2CppString*)> __JetBrains_Annotations_AspMvcPartialViewLocationFormatAttributeSizeCheck;
   static_assert(sizeof(AspMvcPartialViewLocationFormatAttribute) == 0x18);
 }
+NEED_NO_BOX(JetBrains::Annotations::AspMvcPartialViewLocationFormatAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::AspMvcPartialViewLocationFormatAttribute*, "JetBrains.Annotations", "AspMvcPartialViewLocationFormatAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: JetBrains::Annotations::AspMvcPartialViewLocationFormatAttribute::get_Format

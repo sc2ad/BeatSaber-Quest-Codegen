@@ -278,6 +278,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PauseMenuManager), 144 + sizeof(float)> __GlobalNamespace_PauseMenuManagerSizeCheck;
   static_assert(sizeof(PauseMenuManager) == 0x94);
 }
+NEED_NO_BOX(GlobalNamespace::PauseMenuManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PauseMenuManager*, "", "PauseMenuManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PauseMenuManager::add_didPressContinueButtonEvent

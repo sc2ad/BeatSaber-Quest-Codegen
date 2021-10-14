@@ -28,6 +28,7 @@ namespace Tweening {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(Tweening::Interpolation);
 DEFINE_IL2CPP_ARG_TYPE(Tweening::Interpolation*, "Tweening", "Interpolation");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Tweening::Interpolation::Interpolate

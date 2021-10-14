@@ -395,6 +395,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(NoteJump), 268 + sizeof(UnityEngine::Quaternion)> __GlobalNamespace_NoteJumpSizeCheck;
   static_assert(sizeof(NoteJump) == 0x11C);
 }
+NEED_NO_BOX(GlobalNamespace::NoteJump);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteJump*, "", "NoteJump");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteJump::get_distanceToPlayer

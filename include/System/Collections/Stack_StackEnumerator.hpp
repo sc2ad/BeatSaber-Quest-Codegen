@@ -94,6 +94,7 @@ namespace System::Collections {
   static check_size<sizeof(Stack::StackEnumerator), 32 + sizeof(::Il2CppObject*)> __System_Collections_Stack_StackEnumeratorSizeCheck;
   static_assert(sizeof(Stack::StackEnumerator) == 0x28);
 }
+NEED_NO_BOX(System::Collections::Stack::StackEnumerator);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Stack::StackEnumerator*, "System.Collections", "Stack/StackEnumerator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::Stack::StackEnumerator::get_Current

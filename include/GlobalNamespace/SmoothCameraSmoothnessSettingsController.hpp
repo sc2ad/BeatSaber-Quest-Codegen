@@ -93,6 +93,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SmoothCameraSmoothnessSettingsController), 56 + sizeof(::ArrayW<float>)> __GlobalNamespace_SmoothCameraSmoothnessSettingsControllerSizeCheck;
   static_assert(sizeof(SmoothCameraSmoothnessSettingsController) == 0x40);
 }
+NEED_NO_BOX(GlobalNamespace::SmoothCameraSmoothnessSettingsController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SmoothCameraSmoothnessSettingsController*, "", "SmoothCameraSmoothnessSettingsController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SmoothCameraSmoothnessSettingsController::New_ctor

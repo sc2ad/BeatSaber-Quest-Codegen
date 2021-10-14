@@ -72,6 +72,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_Parameters::$$c__DisplayClass35_0), 24 + sizeof(System::Predicate_1<HoudiniEngineUnity::HAPI_ParmInfo>*)> __HoudiniEngineUnity_HEU_Parameters_$$c__DisplayClass35_0SizeCheck;
   static_assert(sizeof(HEU_Parameters::$$c__DisplayClass35_0) == 0x20);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_Parameters::$$c__DisplayClass35_0);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_Parameters::$$c__DisplayClass35_0*, "HoudiniEngineUnity", "HEU_Parameters/<>c__DisplayClass35_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Parameters::$$c__DisplayClass35_0::$Initialize$b__0

@@ -66,6 +66,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(NetEaseAppCoreInstaller), 32 + sizeof(GlobalNamespace::NetEaseManager*)> __GlobalNamespace_NetEaseAppCoreInstallerSizeCheck;
   static_assert(sizeof(NetEaseAppCoreInstaller) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::NetEaseAppCoreInstaller);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetEaseAppCoreInstaller*, "", "NetEaseAppCoreInstaller");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NetEaseAppCoreInstaller::New_ctor

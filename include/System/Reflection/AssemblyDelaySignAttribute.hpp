@@ -52,6 +52,7 @@ namespace System::Reflection {
   static check_size<sizeof(AssemblyDelaySignAttribute), 16 + sizeof(bool)> __System_Reflection_AssemblyDelaySignAttributeSizeCheck;
   static_assert(sizeof(AssemblyDelaySignAttribute) == 0x11);
 }
+NEED_NO_BOX(System::Reflection::AssemblyDelaySignAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::AssemblyDelaySignAttribute*, "System.Reflection", "AssemblyDelaySignAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::AssemblyDelaySignAttribute::New_ctor

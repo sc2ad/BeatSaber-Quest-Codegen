@@ -37,6 +37,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   }; // UnityEngine.ProBuilder.Poly2Tri.DTSweepConstraint
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*, "UnityEngine.ProBuilder.Poly2Tri", "DTSweepConstraint");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint::New_ctor

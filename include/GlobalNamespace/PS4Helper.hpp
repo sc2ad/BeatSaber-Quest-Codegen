@@ -90,6 +90,7 @@ namespace GlobalNamespace {
   }; // PS4Helper
   // WARNING Not writing size check since size may be invalid!
 }
+NEED_NO_BOX(GlobalNamespace::PS4Helper);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4Helper*, "", "PS4Helper");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PS4Helper::add_didGoToBackgroundExecutionEvent

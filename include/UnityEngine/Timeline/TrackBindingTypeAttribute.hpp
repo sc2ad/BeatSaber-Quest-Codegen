@@ -71,6 +71,7 @@ namespace UnityEngine::Timeline {
   static check_size<sizeof(TrackBindingTypeAttribute), 24 + sizeof(UnityEngine::Timeline::TrackBindingFlags)> __UnityEngine_Timeline_TrackBindingTypeAttributeSizeCheck;
   static_assert(sizeof(TrackBindingTypeAttribute) == 0x1C);
 }
+NEED_NO_BOX(UnityEngine::Timeline::TrackBindingTypeAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TrackBindingTypeAttribute*, "UnityEngine.Timeline", "TrackBindingTypeAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::TrackBindingTypeAttribute::New_ctor

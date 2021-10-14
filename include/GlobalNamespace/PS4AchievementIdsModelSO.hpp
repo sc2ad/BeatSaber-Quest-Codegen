@@ -99,6 +99,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PS4AchievementIdsModelSO), 40 + sizeof(System::Collections::Generic::Dictionary_2<int, ::Il2CppString*>*)> __GlobalNamespace_PS4AchievementIdsModelSOSizeCheck;
   static_assert(sizeof(PS4AchievementIdsModelSO) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::PS4AchievementIdsModelSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4AchievementIdsModelSO*, "", "PS4AchievementIdsModelSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PS4AchievementIdsModelSO::get_achievementsIds

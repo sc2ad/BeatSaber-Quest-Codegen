@@ -52,6 +52,7 @@ namespace Zenject {
   }; // Zenject.NullBindingFinalizer
   #pragma pack(pop)
 }
+NEED_NO_BOX(Zenject::NullBindingFinalizer);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::NullBindingFinalizer*, "Zenject", "NullBindingFinalizer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::NullBindingFinalizer::get_BindingInheritanceMethod

@@ -109,6 +109,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BitMaskSparse), 24 + sizeof(System::Collections::Generic::SortedSet_1<uint>*)> __GlobalNamespace_BitMaskSparseSizeCheck;
   static_assert(sizeof(BitMaskSparse) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::BitMaskSparse);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BitMaskSparse*, "", "BitMaskSparse");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BitMaskSparse::get_bitCount

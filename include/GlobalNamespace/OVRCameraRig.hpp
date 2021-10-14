@@ -373,6 +373,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRCameraRig), 200 + sizeof(UnityEngine::Camera*)> __GlobalNamespace_OVRCameraRigSizeCheck;
   static_assert(sizeof(OVRCameraRig) == 0xD0);
 }
+NEED_NO_BOX(GlobalNamespace::OVRCameraRig);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRCameraRig*, "", "OVRCameraRig");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRCameraRig::get_leftEyeCamera

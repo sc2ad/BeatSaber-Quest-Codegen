@@ -76,6 +76,7 @@ namespace System {
   }; // System.InvalidOperationException
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::InvalidOperationException);
 DEFINE_IL2CPP_ARG_TYPE(System::InvalidOperationException*, "System", "InvalidOperationException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::InvalidOperationException::New_ctor

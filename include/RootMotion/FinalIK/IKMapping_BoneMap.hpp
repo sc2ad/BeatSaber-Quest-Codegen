@@ -309,6 +309,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(IKMapping::BoneMap), 204 + sizeof(int)> __RootMotion_FinalIK_IKMapping_BoneMapSizeCheck;
   static_assert(sizeof(IKMapping::BoneMap) == 0xD0);
 }
+NEED_NO_BOX(RootMotion::FinalIK::IKMapping::BoneMap);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKMapping::BoneMap*, "RootMotion.FinalIK", "IKMapping/BoneMap");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKMapping::BoneMap::get_swingDirection

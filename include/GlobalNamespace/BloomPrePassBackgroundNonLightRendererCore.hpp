@@ -105,6 +105,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BloomPrePassBackgroundNonLightRendererCore), 40 + sizeof(UnityEngine::Rendering::CommandBuffer*)> __GlobalNamespace_BloomPrePassBackgroundNonLightRendererCoreSizeCheck;
   static_assert(sizeof(BloomPrePassBackgroundNonLightRendererCore) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore*, "", "BloomPrePassBackgroundNonLightRendererCore");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore::get_renderer

@@ -172,6 +172,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(GameEnergyUIPanel), 80 + sizeof(UnityEngine::RectTransform*)> __GlobalNamespace_GameEnergyUIPanelSizeCheck;
   static_assert(sizeof(GameEnergyUIPanel) == 0x58);
 }
+NEED_NO_BOX(GlobalNamespace::GameEnergyUIPanel);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameEnergyUIPanel*, "", "GameEnergyUIPanel");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameEnergyUIPanel::Start

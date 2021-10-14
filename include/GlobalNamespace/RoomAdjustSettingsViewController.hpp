@@ -184,6 +184,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(RoomAdjustSettingsViewController), 160 + sizeof(UnityEngine::UI::Button*)> __GlobalNamespace_RoomAdjustSettingsViewControllerSizeCheck;
   static_assert(sizeof(RoomAdjustSettingsViewController) == 0xA8);
 }
+NEED_NO_BOX(GlobalNamespace::RoomAdjustSettingsViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RoomAdjustSettingsViewController*, "", "RoomAdjustSettingsViewController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::RoomAdjustSettingsViewController::Move

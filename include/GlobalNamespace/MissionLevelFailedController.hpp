@@ -165,6 +165,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MissionLevelFailedController), 88 + sizeof(GlobalNamespace::BeatmapObjectManager*)> __GlobalNamespace_MissionLevelFailedControllerSizeCheck;
   static_assert(sizeof(MissionLevelFailedController) == 0x60);
 }
+NEED_NO_BOX(GlobalNamespace::MissionLevelFailedController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelFailedController*, "", "MissionLevelFailedController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionLevelFailedController::Start

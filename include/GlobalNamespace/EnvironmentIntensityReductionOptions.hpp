@@ -165,6 +165,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(EnvironmentIntensityReductionOptions), 20 + sizeof(GlobalNamespace::EnvironmentIntensityReductionOptions::RotateRingsReductionType)> __GlobalNamespace_EnvironmentIntensityReductionOptionsSizeCheck;
   static_assert(sizeof(EnvironmentIntensityReductionOptions) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::EnvironmentIntensityReductionOptions);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentIntensityReductionOptions*, "", "EnvironmentIntensityReductionOptions");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentIntensityReductionOptions::CompressExpandReductionType, "", "EnvironmentIntensityReductionOptions/CompressExpandReductionType");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentIntensityReductionOptions::RotateRingsReductionType, "", "EnvironmentIntensityReductionOptions/RotateRingsReductionType");

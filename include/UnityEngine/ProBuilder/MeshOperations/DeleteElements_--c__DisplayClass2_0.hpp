@@ -65,6 +65,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   static check_size<sizeof(DeleteElements::$$c__DisplayClass2_0), 16 + sizeof(UnityEngine::ProBuilder::ProBuilderMesh*)> __UnityEngine_ProBuilder_MeshOperations_DeleteElements_$$c__DisplayClass2_0SizeCheck;
   static_assert(sizeof(DeleteElements::$$c__DisplayClass2_0) == 0x18);
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::MeshOperations::DeleteElements::$$c__DisplayClass2_0);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::DeleteElements::$$c__DisplayClass2_0*, "UnityEngine.ProBuilder.MeshOperations", "DeleteElements/<>c__DisplayClass2_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::DeleteElements::$$c__DisplayClass2_0::$DeleteFaces$b__0

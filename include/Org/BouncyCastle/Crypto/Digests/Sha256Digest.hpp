@@ -205,6 +205,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
   static check_size<sizeof(Sha256Digest), 80 + sizeof(int)> __Org_BouncyCastle_Crypto_Digests_Sha256DigestSizeCheck;
   static_assert(sizeof(Sha256Digest) == 0x54);
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Digests::Sha256Digest);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::Sha256Digest*, "Org.BouncyCastle.Crypto.Digests", "Sha256Digest");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::Sha256Digest::New_ctor

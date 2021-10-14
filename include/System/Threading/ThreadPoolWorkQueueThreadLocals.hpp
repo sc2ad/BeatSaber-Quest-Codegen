@@ -81,6 +81,7 @@ namespace System::Threading {
   static check_size<sizeof(ThreadPoolWorkQueueThreadLocals), 32 + sizeof(System::Random*)> __System_Threading_ThreadPoolWorkQueueThreadLocalsSizeCheck;
   static_assert(sizeof(ThreadPoolWorkQueueThreadLocals) == 0x28);
 }
+NEED_NO_BOX(System::Threading::ThreadPoolWorkQueueThreadLocals);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ThreadPoolWorkQueueThreadLocals*, "System.Threading", "ThreadPoolWorkQueueThreadLocals");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::ThreadPoolWorkQueueThreadLocals::New_ctor

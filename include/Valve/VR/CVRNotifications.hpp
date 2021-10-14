@@ -71,6 +71,7 @@ namespace Valve::VR {
   static check_size<sizeof(CVRNotifications), 16 + sizeof(Valve::VR::IVRNotifications)> __Valve_VR_CVRNotificationsSizeCheck;
   static_assert(sizeof(CVRNotifications) == 0x20);
 }
+NEED_NO_BOX(Valve::VR::CVRNotifications);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRNotifications*, "Valve.VR", "CVRNotifications");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::CVRNotifications::New_ctor

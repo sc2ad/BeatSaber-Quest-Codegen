@@ -158,6 +158,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(JSONArray), 24 + sizeof(bool)> __HoudiniEngineUnity_JSONArraySizeCheck;
   static_assert(sizeof(JSONArray) == 0x19);
 }
+NEED_NO_BOX(HoudiniEngineUnity::JSONArray);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::JSONArray*, "HoudiniEngineUnity", "JSONArray");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONArray::get_Inline

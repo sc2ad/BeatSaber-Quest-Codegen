@@ -50,6 +50,7 @@ namespace UnityEngine::UI {
   }; // UnityEngine.UI.InputField/UnityEngine.UI.OnValidateInput
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::UI::InputField::OnValidateInput);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::InputField::OnValidateInput*, "UnityEngine.UI", "InputField/OnValidateInput");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::InputField::OnValidateInput::New_ctor

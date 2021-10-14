@@ -122,6 +122,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_AssetPreset), 72 + sizeof(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VolumeCachePreset*>*)> __HoudiniEngineUnity_HEU_AssetPresetSizeCheck;
   static_assert(sizeof(HEU_AssetPreset) == 0x50);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_AssetPreset);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_AssetPreset*, "HoudiniEngineUnity", "HEU_AssetPreset");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_AssetPreset::New_ctor

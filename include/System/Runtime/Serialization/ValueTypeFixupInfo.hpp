@@ -77,6 +77,7 @@ namespace System::Runtime::Serialization {
   static check_size<sizeof(ValueTypeFixupInfo), 32 + sizeof(::ArrayW<int>)> __System_Runtime_Serialization_ValueTypeFixupInfoSizeCheck;
   static_assert(sizeof(ValueTypeFixupInfo) == 0x28);
 }
+NEED_NO_BOX(System::Runtime::Serialization::ValueTypeFixupInfo);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::ValueTypeFixupInfo*, "System.Runtime.Serialization", "ValueTypeFixupInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::ValueTypeFixupInfo::get_ContainerID

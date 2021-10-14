@@ -131,6 +131,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BeatmapCharacteristicTableCell), 128 + sizeof(UnityEngine::Color)> __GlobalNamespace_BeatmapCharacteristicTableCellSizeCheck;
   static_assert(sizeof(BeatmapCharacteristicTableCell) == 0x90);
 }
+NEED_NO_BOX(GlobalNamespace::BeatmapCharacteristicTableCell);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapCharacteristicTableCell*, "", "BeatmapCharacteristicTableCell");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapCharacteristicTableCell::SetData

@@ -99,6 +99,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(RollingAverage), 44 + sizeof(int)> __GlobalNamespace_RollingAverageSizeCheck;
   static_assert(sizeof(RollingAverage) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::RollingAverage);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RollingAverage*, "", "RollingAverage");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::RollingAverage::get_currentAverage

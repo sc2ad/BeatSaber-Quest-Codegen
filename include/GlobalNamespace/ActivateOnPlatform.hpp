@@ -77,6 +77,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ActivateOnPlatform), 32 + sizeof(GlobalNamespace::IVRPlatformHelper*)> __GlobalNamespace_ActivateOnPlatformSizeCheck;
   static_assert(sizeof(ActivateOnPlatform) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::ActivateOnPlatform);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ActivateOnPlatform*, "", "ActivateOnPlatform");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ActivateOnPlatform::Awake

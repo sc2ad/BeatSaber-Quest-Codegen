@@ -30,6 +30,7 @@ namespace System::Threading {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Threading::IThreadPoolWorkItem);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::IThreadPoolWorkItem*, "System.Threading", "IThreadPoolWorkItem");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::IThreadPoolWorkItem::ExecuteWorkItem

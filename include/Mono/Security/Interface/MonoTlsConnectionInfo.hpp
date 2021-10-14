@@ -88,6 +88,7 @@ namespace Mono::Security::Interface {
   static check_size<sizeof(MonoTlsConnectionInfo), 24 + sizeof(::Il2CppString*)> __Mono_Security_Interface_MonoTlsConnectionInfoSizeCheck;
   static_assert(sizeof(MonoTlsConnectionInfo) == 0x20);
 }
+NEED_NO_BOX(Mono::Security::Interface::MonoTlsConnectionInfo);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::MonoTlsConnectionInfo*, "Mono.Security.Interface", "MonoTlsConnectionInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Security::Interface::MonoTlsConnectionInfo::get_CipherSuiteCode

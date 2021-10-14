@@ -228,6 +228,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PlayerTransforms), 192 + sizeof(bool)> __GlobalNamespace_PlayerTransformsSizeCheck;
   static_assert(sizeof(PlayerTransforms) == 0xC1);
 }
+NEED_NO_BOX(GlobalNamespace::PlayerTransforms);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerTransforms*, "", "PlayerTransforms");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayerTransforms::get_headWorldPos

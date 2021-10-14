@@ -56,6 +56,7 @@ namespace UnityEngine {
   static check_size<sizeof(Motion), 24 + sizeof(bool)> __UnityEngine_MotionSizeCheck;
   static_assert(sizeof(Motion) == 0x19);
 }
+NEED_NO_BOX(UnityEngine::Motion);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Motion*, "UnityEngine", "Motion");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Motion::get_isLooping

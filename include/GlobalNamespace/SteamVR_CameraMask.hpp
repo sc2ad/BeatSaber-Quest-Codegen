@@ -40,6 +40,7 @@ namespace GlobalNamespace {
   }; // SteamVR_CameraMask
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::SteamVR_CameraMask);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_CameraMask*, "", "SteamVR_CameraMask");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_CameraMask::Awake

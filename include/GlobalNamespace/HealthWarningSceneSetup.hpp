@@ -67,6 +67,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(HealthWarningSceneSetup), 32 + sizeof(GlobalNamespace::HealthWarningSceneSetupData*)> __GlobalNamespace_HealthWarningSceneSetupSizeCheck;
   static_assert(sizeof(HealthWarningSceneSetup) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::HealthWarningSceneSetup);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HealthWarningSceneSetup*, "", "HealthWarningSceneSetup");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HealthWarningSceneSetup::New_ctor

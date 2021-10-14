@@ -42,6 +42,7 @@ namespace GlobalNamespace {
     }
   }; // ImageWithHintItemsList
 }
+NEED_NO_BOX(GlobalNamespace::ImageWithHintItemsList);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ImageWithHintItemsList*, "", "ImageWithHintItemsList");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ImageWithHintItemsList::New_ctor

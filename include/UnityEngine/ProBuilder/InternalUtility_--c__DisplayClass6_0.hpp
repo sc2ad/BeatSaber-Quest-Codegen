@@ -56,6 +56,7 @@ namespace UnityEngine::ProBuilder {
   static check_size<sizeof(InternalUtility::$$c__DisplayClass6_0), 16 + sizeof(::Il2CppString*)> __UnityEngine_ProBuilder_InternalUtility_$$c__DisplayClass6_0SizeCheck;
   static_assert(sizeof(InternalUtility::$$c__DisplayClass6_0) == 0x18);
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::InternalUtility::$$c__DisplayClass6_0);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::InternalUtility::$$c__DisplayClass6_0*, "UnityEngine.ProBuilder", "InternalUtility/<>c__DisplayClass6_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::InternalUtility::$$c__DisplayClass6_0::$TryParseColor$b__0

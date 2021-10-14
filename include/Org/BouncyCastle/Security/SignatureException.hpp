@@ -50,6 +50,7 @@ namespace Org::BouncyCastle::Security {
   }; // Org.BouncyCastle.Security.SignatureException
   #pragma pack(pop)
 }
+NEED_NO_BOX(Org::BouncyCastle::Security::SignatureException);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Security::SignatureException*, "Org.BouncyCastle.Security", "SignatureException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Security::SignatureException::New_ctor

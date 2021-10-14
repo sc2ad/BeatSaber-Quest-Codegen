@@ -54,6 +54,7 @@ namespace System::Diagnostics {
   static check_size<sizeof(DebuggerBrowsableAttribute), 16 + sizeof(System::Diagnostics::DebuggerBrowsableState)> __System_Diagnostics_DebuggerBrowsableAttributeSizeCheck;
   static_assert(sizeof(DebuggerBrowsableAttribute) == 0x14);
 }
+NEED_NO_BOX(System::Diagnostics::DebuggerBrowsableAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::DebuggerBrowsableAttribute*, "System.Diagnostics", "DebuggerBrowsableAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Diagnostics::DebuggerBrowsableAttribute::New_ctor

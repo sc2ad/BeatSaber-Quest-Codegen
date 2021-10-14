@@ -174,6 +174,7 @@ namespace MasterServer {
   static check_size<sizeof(AuthenticateUserResponse), 24 + sizeof(MasterServer::AuthenticateUserResponse::Result)> __MasterServer_AuthenticateUserResponseSizeCheck;
   static_assert(sizeof(AuthenticateUserResponse) == 0x1C);
 }
+NEED_NO_BOX(MasterServer::AuthenticateUserResponse);
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::AuthenticateUserResponse*, "MasterServer", "AuthenticateUserResponse");
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::AuthenticateUserResponse::Result, "MasterServer", "AuthenticateUserResponse/Result");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

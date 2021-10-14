@@ -189,6 +189,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PartyFreePlayFlowCoordinator), 320 + sizeof(GlobalNamespace::EnterPlayerGuestNameViewController*)> __GlobalNamespace_PartyFreePlayFlowCoordinatorSizeCheck;
   static_assert(sizeof(PartyFreePlayFlowCoordinator) == 0x148);
 }
+NEED_NO_BOX(GlobalNamespace::PartyFreePlayFlowCoordinator);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PartyFreePlayFlowCoordinator*, "", "PartyFreePlayFlowCoordinator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PartyFreePlayFlowCoordinator::WillScoreGoToLeaderboard

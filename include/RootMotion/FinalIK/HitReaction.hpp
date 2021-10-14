@@ -94,6 +94,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(HitReaction), 56 + sizeof(::ArrayW<RootMotion::FinalIK::HitReaction::HitPointBone*>)> __RootMotion_FinalIK_HitReactionSizeCheck;
   static_assert(sizeof(HitReaction) == 0x40);
 }
+NEED_NO_BOX(RootMotion::FinalIK::HitReaction);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::HitReaction*, "RootMotion.FinalIK", "HitReaction");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::HitReaction::get_inProgress

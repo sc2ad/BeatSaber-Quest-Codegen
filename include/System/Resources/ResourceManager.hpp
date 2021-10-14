@@ -230,6 +230,7 @@ namespace System::Resources {
   static check_size<sizeof(ResourceManager), 80 + sizeof(System::Resources::IResourceGroveler*)> __System_Resources_ResourceManagerSizeCheck;
   static_assert(sizeof(ResourceManager) == 0x58);
 }
+NEED_NO_BOX(System::Resources::ResourceManager);
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::ResourceManager*, "System.Resources", "ResourceManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Resources::ResourceManager::_cctor

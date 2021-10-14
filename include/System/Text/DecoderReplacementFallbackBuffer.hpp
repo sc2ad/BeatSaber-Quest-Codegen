@@ -90,6 +90,7 @@ namespace System::Text {
   static check_size<sizeof(DecoderReplacementFallbackBuffer), 44 + sizeof(int)> __System_Text_DecoderReplacementFallbackBufferSizeCheck;
   static_assert(sizeof(DecoderReplacementFallbackBuffer) == 0x30);
 }
+NEED_NO_BOX(System::Text::DecoderReplacementFallbackBuffer);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::DecoderReplacementFallbackBuffer*, "System.Text", "DecoderReplacementFallbackBuffer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::DecoderReplacementFallbackBuffer::New_ctor

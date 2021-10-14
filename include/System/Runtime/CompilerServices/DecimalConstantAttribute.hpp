@@ -57,6 +57,7 @@ namespace System::Runtime::CompilerServices {
   static check_size<sizeof(DecimalConstantAttribute), 16 + sizeof(System::Decimal)> __System_Runtime_CompilerServices_DecimalConstantAttributeSizeCheck;
   static_assert(sizeof(DecimalConstantAttribute) == 0x20);
 }
+NEED_NO_BOX(System::Runtime::CompilerServices::DecimalConstantAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::DecimalConstantAttribute*, "System.Runtime.CompilerServices", "DecimalConstantAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::DecimalConstantAttribute::get_Value

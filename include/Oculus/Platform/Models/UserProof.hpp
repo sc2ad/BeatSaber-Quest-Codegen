@@ -50,6 +50,7 @@ namespace Oculus::Platform::Models {
   static check_size<sizeof(UserProof), 16 + sizeof(::Il2CppString*)> __Oculus_Platform_Models_UserProofSizeCheck;
   static_assert(sizeof(UserProof) == 0x18);
 }
+NEED_NO_BOX(Oculus::Platform::Models::UserProof);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::UserProof*, "Oculus.Platform.Models", "UserProof");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::UserProof::New_ctor

@@ -177,6 +177,7 @@ namespace Zenject {
   }; // Zenject.BindingUtil
   #pragma pack(pop)
 }
+NEED_NO_BOX(Zenject::BindingUtil);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::BindingUtil*, "Zenject", "BindingUtil");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::BindingUtil::AssertIsValidPrefab

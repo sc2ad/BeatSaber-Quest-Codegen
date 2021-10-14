@@ -101,6 +101,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerSpectatorController::$SwitchToDefaultSpotWithFadeCoroutine$d__17), 40 + sizeof(GlobalNamespace::IMultiplayerSpectatingSpot*)> __GlobalNamespace_MultiplayerSpectatorController_$SwitchToDefaultSpotWithFadeCoroutine$d__17SizeCheck;
   static_assert(sizeof(MultiplayerSpectatorController::$SwitchToDefaultSpotWithFadeCoroutine$d__17) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerSpectatorController::$SwitchToDefaultSpotWithFadeCoroutine$d__17);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerSpectatorController::$SwitchToDefaultSpotWithFadeCoroutine$d__17*, "", "MultiplayerSpectatorController/<SwitchToDefaultSpotWithFadeCoroutine>d__17");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerSpectatorController::$SwitchToDefaultSpotWithFadeCoroutine$d__17::System_Collections_Generic_IEnumerator$System_Object$_get_Current

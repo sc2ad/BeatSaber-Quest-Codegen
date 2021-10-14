@@ -50,6 +50,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BeatEffectSpawner::InitData), 16 + sizeof(bool)> __GlobalNamespace_BeatEffectSpawner_InitDataSizeCheck;
   static_assert(sizeof(BeatEffectSpawner::InitData) == 0x11);
 }
+NEED_NO_BOX(GlobalNamespace::BeatEffectSpawner::InitData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatEffectSpawner::InitData*, "", "BeatEffectSpawner/InitData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatEffectSpawner::InitData::New_ctor

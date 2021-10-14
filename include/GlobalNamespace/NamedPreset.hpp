@@ -54,6 +54,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(NamedPreset), 16 + sizeof(::Il2CppString*)> __GlobalNamespace_NamedPresetSizeCheck;
   static_assert(sizeof(NamedPreset) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::NamedPreset);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NamedPreset*, "", "NamedPreset");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NamedPreset::get_presetNameLocalizationKey

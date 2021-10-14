@@ -166,6 +166,7 @@ namespace MasterServer {
   static check_size<sizeof(CreateDedicatedServerInstanceRequest), 96 + sizeof(GlobalNamespace::GameplayServerConfiguration)> __MasterServer_CreateDedicatedServerInstanceRequestSizeCheck;
   static_assert(sizeof(CreateDedicatedServerInstanceRequest) == 0x78);
 }
+NEED_NO_BOX(MasterServer::CreateDedicatedServerInstanceRequest);
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::CreateDedicatedServerInstanceRequest*, "MasterServer", "CreateDedicatedServerInstanceRequest");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: MasterServer::CreateDedicatedServerInstanceRequest::get_pool

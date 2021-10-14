@@ -80,6 +80,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(EnableEmmisionOnVisible), 32 + sizeof(::ArrayW<UnityEngine::ParticleSystem::EmissionModule>)> __GlobalNamespace_EnableEmmisionOnVisibleSizeCheck;
   static_assert(sizeof(EnableEmmisionOnVisible) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::EnableEmmisionOnVisible);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnableEmmisionOnVisible*, "", "EnableEmmisionOnVisible");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EnableEmmisionOnVisible::Awake

@@ -88,6 +88,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(LookAtIK), 56 + sizeof(RootMotion::FinalIK::IKSolverLookAt*)> __RootMotion_FinalIK_LookAtIKSizeCheck;
   static_assert(sizeof(LookAtIK) == 0x40);
 }
+NEED_NO_BOX(RootMotion::FinalIK::LookAtIK);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::LookAtIK*, "RootMotion.FinalIK", "LookAtIK");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::LookAtIK::SupportGroup

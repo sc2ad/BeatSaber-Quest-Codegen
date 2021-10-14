@@ -38,6 +38,7 @@ namespace System::Configuration {
   }; // System.Configuration.ConfigurationCollectionAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Configuration::ConfigurationCollectionAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Configuration::ConfigurationCollectionAttribute*, "System.Configuration", "ConfigurationCollectionAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Configuration::ConfigurationCollectionAttribute::New_ctor

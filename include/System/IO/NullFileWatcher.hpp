@@ -56,6 +56,7 @@ namespace System::IO {
   }; // System.IO.NullFileWatcher
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::IO::NullFileWatcher);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::NullFileWatcher*, "System.IO", "NullFileWatcher");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::NullFileWatcher::StartDispatching

@@ -44,6 +44,7 @@ namespace Org::BouncyCastle::Security::Certificates {
   }; // Org.BouncyCastle.Security.Certificates.CrlException
   #pragma pack(pop)
 }
+NEED_NO_BOX(Org::BouncyCastle::Security::Certificates::CrlException);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Security::Certificates::CrlException*, "Org.BouncyCastle.Security.Certificates", "CrlException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Security::Certificates::CrlException::New_ctor

@@ -79,6 +79,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(HMAutoincrementedRequestId), 16 + sizeof(uint64_t)> __GlobalNamespace_HMAutoincrementedRequestIdSizeCheck;
   static_assert(sizeof(HMAutoincrementedRequestId) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::HMAutoincrementedRequestId);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HMAutoincrementedRequestId*, "", "HMAutoincrementedRequestId");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HMAutoincrementedRequestId::get_RequestId

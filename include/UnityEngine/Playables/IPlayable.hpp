@@ -27,6 +27,7 @@ namespace UnityEngine::Playables {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::Playables::IPlayable);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::IPlayable*, "UnityEngine.Playables", "IPlayable");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Playables::IPlayable::GetHandle

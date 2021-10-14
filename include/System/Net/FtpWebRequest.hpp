@@ -665,6 +665,7 @@ namespace System::Net {
   static check_size<sizeof(FtpWebRequest), 216 + sizeof(System::Text::Encoding*)> __System_Net_FtpWebRequestSizeCheck;
   static_assert(sizeof(FtpWebRequest) == 0xE0);
 }
+NEED_NO_BOX(System::Net::FtpWebRequest);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::FtpWebRequest*, "System.Net", "FtpWebRequest");
 DEFINE_IL2CPP_ARG_TYPE(System::Net::FtpWebRequest::RequestState, "System.Net", "FtpWebRequest/RequestState");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

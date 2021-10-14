@@ -108,6 +108,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
   static check_size<sizeof(ElGamalEngine), 36 + sizeof(int)> __Org_BouncyCastle_Crypto_Engines_ElGamalEngineSizeCheck;
   static_assert(sizeof(ElGamalEngine) == 0x28);
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Engines::ElGamalEngine);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::ElGamalEngine*, "Org.BouncyCastle.Crypto.Engines", "ElGamalEngine");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::ElGamalEngine::Init

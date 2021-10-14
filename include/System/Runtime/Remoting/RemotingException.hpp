@@ -76,6 +76,7 @@ namespace System::Runtime::Remoting {
   }; // System.Runtime.Remoting.RemotingException
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Runtime::Remoting::RemotingException);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::RemotingException*, "System.Runtime.Remoting", "RemotingException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::RemotingException::New_ctor

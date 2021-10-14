@@ -235,6 +235,7 @@ namespace HoudiniEngineUnity {
   }; // HoudiniEngineUnity.HEU_HAPIUtility
   #pragma pack(pop)
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_HAPIUtility);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_HAPIUtility*, "HoudiniEngineUnity", "HEU_HAPIUtility");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HAPIUtility::GetHoudiniEngineInstallationInfo

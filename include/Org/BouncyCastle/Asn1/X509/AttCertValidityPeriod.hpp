@@ -79,6 +79,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
   static check_size<sizeof(AttCertValidityPeriod), 24 + sizeof(Org::BouncyCastle::Asn1::DerGeneralizedTime*)> __Org_BouncyCastle_Asn1_X509_AttCertValidityPeriodSizeCheck;
   static_assert(sizeof(AttCertValidityPeriod) == 0x20);
 }
+NEED_NO_BOX(Org::BouncyCastle::Asn1::X509::AttCertValidityPeriod);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::AttCertValidityPeriod*, "Org.BouncyCastle.Asn1.X509", "AttCertValidityPeriod");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::AttCertValidityPeriod::get_NotBeforeTime

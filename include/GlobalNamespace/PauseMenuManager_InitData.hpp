@@ -99,6 +99,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PauseMenuManager::InitData), 49 + sizeof(bool)> __GlobalNamespace_PauseMenuManager_InitDataSizeCheck;
   static_assert(sizeof(PauseMenuManager::InitData) == 0x32);
 }
+NEED_NO_BOX(GlobalNamespace::PauseMenuManager::InitData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PauseMenuManager::InitData*, "", "PauseMenuManager/InitData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PauseMenuManager::InitData::New_ctor

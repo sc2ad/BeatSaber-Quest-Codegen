@@ -205,6 +205,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LeaderboardScoreUploader::ScoreData), 72 + sizeof(int)> __GlobalNamespace_LeaderboardScoreUploader_ScoreDataSizeCheck;
   static_assert(sizeof(LeaderboardScoreUploader::ScoreData) == 0x4C);
 }
+NEED_NO_BOX(GlobalNamespace::LeaderboardScoreUploader::ScoreData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardScoreUploader::ScoreData*, "", "LeaderboardScoreUploader/ScoreData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LeaderboardScoreUploader::ScoreData::get_playerId

@@ -108,6 +108,7 @@ namespace MasterServer {
   static check_size<sizeof(DedicatedServerShutDownRequest), 24 + sizeof(int64_t)> __MasterServer_DedicatedServerShutDownRequestSizeCheck;
   static_assert(sizeof(DedicatedServerShutDownRequest) == 0x20);
 }
+NEED_NO_BOX(MasterServer::DedicatedServerShutDownRequest);
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::DedicatedServerShutDownRequest*, "MasterServer", "DedicatedServerShutDownRequest");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: MasterServer::DedicatedServerShutDownRequest::get_pool

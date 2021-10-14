@@ -72,6 +72,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PlayerSaveData::ColorSchemesSettings), 32 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveData::ColorScheme*>*)> __GlobalNamespace_PlayerSaveData_ColorSchemesSettingsSizeCheck;
   static_assert(sizeof(PlayerSaveData::ColorSchemesSettings) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::PlayerSaveData::ColorSchemesSettings);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveData::ColorSchemesSettings*, "", "PlayerSaveData/ColorSchemesSettings");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSaveData::ColorSchemesSettings::New_ctor

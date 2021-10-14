@@ -138,6 +138,7 @@ namespace ModestTree::Util {
   static check_size<sizeof(UnityUtil::$GetDirectChildrenAndSelf$d__20), 56 + sizeof(System::Collections::IEnumerator*)> __ModestTree_Util_UnityUtil_$GetDirectChildrenAndSelf$d__20SizeCheck;
   static_assert(sizeof(UnityUtil::$GetDirectChildrenAndSelf$d__20) == 0x40);
 }
+NEED_NO_BOX(ModestTree::Util::UnityUtil::$GetDirectChildrenAndSelf$d__20);
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::Util::UnityUtil::$GetDirectChildrenAndSelf$d__20*, "ModestTree.Util", "UnityUtil/<GetDirectChildrenAndSelf>d__20");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: ModestTree::Util::UnityUtil::$GetDirectChildrenAndSelf$d__20::System_Collections_Generic_IEnumerator$UnityEngine_GameObject$_get_Current

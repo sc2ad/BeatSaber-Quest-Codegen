@@ -90,6 +90,7 @@ namespace System::ComponentModel {
   static check_size<sizeof(DesignerCategoryAttribute), 16 + sizeof(::Il2CppString*)> __System_ComponentModel_DesignerCategoryAttributeSizeCheck;
   static_assert(sizeof(DesignerCategoryAttribute) == 0x18);
 }
+NEED_NO_BOX(System::ComponentModel::DesignerCategoryAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::DesignerCategoryAttribute*, "System.ComponentModel", "DesignerCategoryAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ComponentModel::DesignerCategoryAttribute::New_ctor

@@ -101,6 +101,7 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
   static check_size<sizeof(TestResultRenderer), 28 + sizeof(UnityEngine::Vector2)> __UnityEngine_TestTools_TestRunner_Callbacks_TestResultRendererSizeCheck;
   static_assert(sizeof(TestResultRenderer) == 0x24);
 }
+NEED_NO_BOX(UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer*, "UnityEngine.TestTools.TestRunner.Callbacks", "TestResultRenderer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer::New_ctor

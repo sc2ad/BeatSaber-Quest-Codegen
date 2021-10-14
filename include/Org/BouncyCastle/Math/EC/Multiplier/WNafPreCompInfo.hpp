@@ -142,6 +142,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
   static check_size<sizeof(WNafPreCompInfo), 48 + sizeof(int)> __Org_BouncyCastle_Math_EC_Multiplier_WNafPreCompInfoSizeCheck;
   static_assert(sizeof(WNafPreCompInfo) == 0x34);
 }
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo*, "Org.BouncyCastle.Math.EC.Multiplier", "WNafPreCompInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::get_PromotionCountdown

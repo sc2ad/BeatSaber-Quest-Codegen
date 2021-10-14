@@ -66,6 +66,7 @@ namespace System::Runtime::Remoting {
   static check_size<sizeof(ActivatedServiceTypeEntry), 32 + sizeof(System::Type*)> __System_Runtime_Remoting_ActivatedServiceTypeEntrySizeCheck;
   static_assert(sizeof(ActivatedServiceTypeEntry) == 0x28);
 }
+NEED_NO_BOX(System::Runtime::Remoting::ActivatedServiceTypeEntry);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::ActivatedServiceTypeEntry*, "System.Runtime.Remoting", "ActivatedServiceTypeEntry");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::ActivatedServiceTypeEntry::get_ObjectType

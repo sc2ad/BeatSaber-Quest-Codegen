@@ -55,6 +55,7 @@ namespace UnityEngine::Analytics {
   }; // UnityEngine.Analytics.AnalyticsSessionInfo/UnityEngine.Analytics.SessionStateChanged
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::Analytics::AnalyticsSessionInfo::SessionStateChanged);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Analytics::AnalyticsSessionInfo::SessionStateChanged*, "UnityEngine.Analytics", "AnalyticsSessionInfo/SessionStateChanged");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Analytics::AnalyticsSessionInfo::SessionStateChanged::New_ctor

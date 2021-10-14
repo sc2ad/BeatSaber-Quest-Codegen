@@ -334,6 +334,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PlayerSettingsPanelController), 169 + sizeof(bool)> __GlobalNamespace_PlayerSettingsPanelControllerSizeCheck;
   static_assert(sizeof(PlayerSettingsPanelController) == 0xAA);
 }
+NEED_NO_BOX(GlobalNamespace::PlayerSettingsPanelController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSettingsPanelController*, "", "PlayerSettingsPanelController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSettingsPanelController::get_playerSpecificSettings

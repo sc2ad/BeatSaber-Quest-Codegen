@@ -122,6 +122,7 @@ namespace UnityEngine::ProBuilder {
   static check_size<sizeof(Submesh), 28 + sizeof(int)> __UnityEngine_ProBuilder_SubmeshSizeCheck;
   static_assert(sizeof(Submesh) == 0x20);
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::Submesh);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Submesh*, "UnityEngine.ProBuilder", "Submesh");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Submesh::get_indexes

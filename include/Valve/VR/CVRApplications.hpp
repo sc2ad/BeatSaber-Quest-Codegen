@@ -164,6 +164,7 @@ namespace Valve::VR {
   static check_size<sizeof(CVRApplications), 16 + sizeof(Valve::VR::IVRApplications)> __Valve_VR_CVRApplicationsSizeCheck;
   static_assert(sizeof(CVRApplications) == 0x108);
 }
+NEED_NO_BOX(Valve::VR::CVRApplications);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRApplications*, "Valve.VR", "CVRApplications");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::CVRApplications::New_ctor

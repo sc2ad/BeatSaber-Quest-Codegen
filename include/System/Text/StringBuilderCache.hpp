@@ -38,6 +38,7 @@ namespace System::Text {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Text::StringBuilderCache);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::StringBuilderCache*, "System.Text", "StringBuilderCache");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::StringBuilderCache::Acquire

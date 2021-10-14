@@ -88,6 +88,7 @@ namespace System::Net {
   static check_size<sizeof(PathList), 16 + sizeof(System::Collections::SortedList*)> __System_Net_PathListSizeCheck;
   static_assert(sizeof(PathList) == 0x18);
 }
+NEED_NO_BOX(System::Net::PathList);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::PathList*, "System.Net", "PathList");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::PathList::get_Count

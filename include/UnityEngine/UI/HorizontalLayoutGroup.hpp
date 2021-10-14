@@ -60,6 +60,7 @@ namespace UnityEngine::UI {
   }; // UnityEngine.UI.HorizontalLayoutGroup
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::UI::HorizontalLayoutGroup);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::HorizontalLayoutGroup*, "UnityEngine.UI", "HorizontalLayoutGroup");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::HorizontalLayoutGroup::New_ctor

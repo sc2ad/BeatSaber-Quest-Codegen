@@ -85,6 +85,7 @@ namespace OnlineServices {
   static check_size<sizeof(PlatformOnlineServicesAvailabilityModel), 16 + sizeof(System::Action_1<OnlineServices::PlatformServicesAvailabilityInfo*>*)> __OnlineServices_PlatformOnlineServicesAvailabilityModelSizeCheck;
   static_assert(sizeof(PlatformOnlineServicesAvailabilityModel) == 0x18);
 }
+NEED_NO_BOX(OnlineServices::PlatformOnlineServicesAvailabilityModel);
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::PlatformOnlineServicesAvailabilityModel*, "OnlineServices", "PlatformOnlineServicesAvailabilityModel");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OnlineServices::PlatformOnlineServicesAvailabilityModel::add_platformServicesAvailabilityInfoChangedEvent

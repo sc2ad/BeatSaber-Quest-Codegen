@@ -91,6 +91,7 @@ namespace System::Runtime::Serialization {
   static check_size<sizeof(ObjectIDGenerator), 32 + sizeof(::ArrayW<::Il2CppObject*>)> __System_Runtime_Serialization_ObjectIDGeneratorSizeCheck;
   static_assert(sizeof(ObjectIDGenerator) == 0x28);
 }
+NEED_NO_BOX(System::Runtime::Serialization::ObjectIDGenerator);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::ObjectIDGenerator*, "System.Runtime.Serialization", "ObjectIDGenerator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::ObjectIDGenerator::_cctor

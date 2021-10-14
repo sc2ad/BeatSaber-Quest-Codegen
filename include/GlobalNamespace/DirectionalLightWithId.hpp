@@ -88,6 +88,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(DirectionalLightWithId), 60 + sizeof(float)> __GlobalNamespace_DirectionalLightWithIdSizeCheck;
   static_assert(sizeof(DirectionalLightWithId) == 0x40);
 }
+NEED_NO_BOX(GlobalNamespace::DirectionalLightWithId);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DirectionalLightWithId*, "", "DirectionalLightWithId");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DirectionalLightWithId::New_ctor

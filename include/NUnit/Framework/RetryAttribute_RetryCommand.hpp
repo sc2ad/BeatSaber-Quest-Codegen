@@ -52,6 +52,7 @@ namespace NUnit::Framework {
   static_assert(sizeof(RetryAttribute::RetryCommand) == 0x24);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(NUnit::Framework::RetryAttribute::RetryCommand);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::RetryAttribute::RetryCommand*, "NUnit.Framework", "RetryAttribute/RetryCommand");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::RetryAttribute::RetryCommand::Execute

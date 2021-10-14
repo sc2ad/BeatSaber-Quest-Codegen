@@ -35,6 +35,7 @@ namespace GlobalNamespace {
     }
   }; // MultiplayerLobbyAvatarPlace/Pool
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerLobbyAvatarPlace::Pool);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLobbyAvatarPlace::Pool*, "", "MultiplayerLobbyAvatarPlace/Pool");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyAvatarPlace::Pool::New_ctor

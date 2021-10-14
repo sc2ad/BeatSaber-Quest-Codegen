@@ -254,6 +254,7 @@ namespace Org::BouncyCastle::Math::EC {
   static check_size<sizeof(ECPoint), 56 + sizeof(System::Collections::IDictionary*)> __Org_BouncyCastle_Math_EC_ECPointSizeCheck;
   static_assert(sizeof(ECPoint) == 0x40);
 }
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::ECPoint);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::ECPoint*, "Org.BouncyCastle.Math.EC", "ECPoint");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::ECPoint::get_Curve

@@ -194,6 +194,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(EncryptionUtility::EncryptionState), 80 + sizeof(System::Collections::Concurrent::ConcurrentQueue_1<Org::BouncyCastle::Crypto::Macs::HMac*>*)> __GlobalNamespace_EncryptionUtility_EncryptionStateSizeCheck;
   static_assert(sizeof(EncryptionUtility::EncryptionState) == 0x58);
 }
+NEED_NO_BOX(GlobalNamespace::EncryptionUtility::EncryptionState);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EncryptionUtility::EncryptionState*, "", "EncryptionUtility/EncryptionState");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EncryptionUtility::EncryptionState::get_isValid

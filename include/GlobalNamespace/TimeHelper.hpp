@@ -103,6 +103,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(TimeHelper), 24 + sizeof(float)> __GlobalNamespace_TimeHelperSizeCheck;
   static_assert(sizeof(TimeHelper) == 0x1C);
 }
+NEED_NO_BOX(GlobalNamespace::TimeHelper);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TimeHelper*, "", "TimeHelper");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TimeHelper::get_time

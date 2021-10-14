@@ -335,6 +335,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_GeoNode), 112 + sizeof(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VolumeCache*>*)> __HoudiniEngineUnity_HEU_GeoNodeSizeCheck;
   static_assert(sizeof(HEU_GeoNode) == 0x78);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_GeoNode);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_GeoNode*, "HoudiniEngineUnity", "HEU_GeoNode");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeoNode::get_GeoID

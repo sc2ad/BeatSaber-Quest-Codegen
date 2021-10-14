@@ -188,6 +188,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(GradientTransitionSO), 120 + sizeof(GlobalNamespace::ColorSO*)> __GlobalNamespace_GradientTransitionSOSizeCheck;
   static_assert(sizeof(GradientTransitionSO) == 0x80);
 }
+NEED_NO_BOX(GlobalNamespace::GradientTransitionSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GradientTransitionSO*, "", "GradientTransitionSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GradientTransitionSO::get_normalColor1

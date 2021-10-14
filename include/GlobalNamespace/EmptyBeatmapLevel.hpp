@@ -258,6 +258,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(EmptyBeatmapLevel), 112 + sizeof(GlobalNamespace::IBeatmapLevelData*)> __GlobalNamespace_EmptyBeatmapLevelSizeCheck;
   static_assert(sizeof(EmptyBeatmapLevel) == 0x78);
 }
+NEED_NO_BOX(GlobalNamespace::EmptyBeatmapLevel);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EmptyBeatmapLevel*, "", "EmptyBeatmapLevel");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EmptyBeatmapLevel::get_levelID

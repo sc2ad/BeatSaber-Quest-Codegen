@@ -65,6 +65,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   static check_size<sizeof(ConnectFaceRebuildData), 24 + sizeof(System::Collections::Generic::List_1<int>*)> __UnityEngine_ProBuilder_MeshOperations_ConnectFaceRebuildDataSizeCheck;
   static_assert(sizeof(ConnectFaceRebuildData) == 0x20);
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*, "UnityEngine.ProBuilder.MeshOperations", "ConnectFaceRebuildData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData::New_ctor

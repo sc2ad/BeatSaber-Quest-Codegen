@@ -83,6 +83,7 @@ namespace System::Runtime::Serialization {
   static check_size<sizeof(SerializationObjectManager), 32 + sizeof(System::Runtime::Serialization::StreamingContext)> __System_Runtime_Serialization_SerializationObjectManagerSizeCheck;
   static_assert(sizeof(SerializationObjectManager) == 0x2C);
 }
+NEED_NO_BOX(System::Runtime::Serialization::SerializationObjectManager);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SerializationObjectManager*, "System.Runtime.Serialization", "SerializationObjectManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationObjectManager::New_ctor

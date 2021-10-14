@@ -93,6 +93,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_GeoGroup), 32 + sizeof(::ArrayW<System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VertexEntry*>*>)> __HoudiniEngineUnity_HEU_GeoGroupSizeCheck;
   static_assert(sizeof(HEU_GeoGroup) == 0x28);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_GeoGroup);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_GeoGroup*, "HoudiniEngineUnity", "HEU_GeoGroup");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeoGroup::CompareTo

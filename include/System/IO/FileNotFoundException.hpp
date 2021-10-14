@@ -119,6 +119,7 @@ namespace System::IO {
   static check_size<sizeof(FileNotFoundException), 152 + sizeof(::Il2CppString*)> __System_IO_FileNotFoundExceptionSizeCheck;
   static_assert(sizeof(FileNotFoundException) == 0xA0);
 }
+NEED_NO_BOX(System::IO::FileNotFoundException);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileNotFoundException*, "System.IO", "FileNotFoundException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::FileNotFoundException::get_FusionLog

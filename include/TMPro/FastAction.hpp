@@ -82,6 +82,7 @@ namespace TMPro {
   static check_size<sizeof(FastAction), 24 + sizeof(System::Collections::Generic::Dictionary_2<System::Action*, System::Collections::Generic::LinkedListNode_1<System::Action*>*>*)> __TMPro_FastActionSizeCheck;
   static_assert(sizeof(FastAction) == 0x20);
 }
+NEED_NO_BOX(TMPro::FastAction);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::FastAction*, "TMPro", "FastAction");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::FastAction::Add

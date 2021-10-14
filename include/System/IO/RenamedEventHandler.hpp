@@ -53,6 +53,7 @@ namespace System::IO {
   }; // System.IO.RenamedEventHandler
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::IO::RenamedEventHandler);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::RenamedEventHandler*, "System.IO", "RenamedEventHandler");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::RenamedEventHandler::New_ctor

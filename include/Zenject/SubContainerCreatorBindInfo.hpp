@@ -90,6 +90,7 @@ namespace Zenject {
   static check_size<sizeof(SubContainerCreatorBindInfo), 32 + sizeof(System::Type*)> __Zenject_SubContainerCreatorBindInfoSizeCheck;
   static_assert(sizeof(SubContainerCreatorBindInfo) == 0x28);
 }
+NEED_NO_BOX(Zenject::SubContainerCreatorBindInfo);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerCreatorBindInfo*, "Zenject", "SubContainerCreatorBindInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::SubContainerCreatorBindInfo::get_DefaultParentName

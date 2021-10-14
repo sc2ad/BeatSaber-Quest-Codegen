@@ -211,6 +211,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(TubeLightIntensityBehaviour), 80 + sizeof(float)> __GlobalNamespace_TubeLightIntensityBehaviourSizeCheck;
   static_assert(sizeof(TubeLightIntensityBehaviour) == 0x54);
 }
+NEED_NO_BOX(GlobalNamespace::TubeLightIntensityBehaviour);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TubeLightIntensityBehaviour*, "", "TubeLightIntensityBehaviour");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TubeLightIntensityBehaviour::EnableObjects

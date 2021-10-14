@@ -179,6 +179,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(NetworkPlayerTableCell), 184 + sizeof(bool)> __GlobalNamespace_NetworkPlayerTableCellSizeCheck;
   static_assert(sizeof(NetworkPlayerTableCell) == 0xB9);
 }
+NEED_NO_BOX(GlobalNamespace::NetworkPlayerTableCell);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetworkPlayerTableCell*, "", "NetworkPlayerTableCell");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NetworkPlayerTableCell::get_showSeparator

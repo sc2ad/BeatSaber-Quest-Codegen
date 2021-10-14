@@ -333,6 +333,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(Grounding::Leg), 264 + sizeof(UnityEngine::Vector3)> __RootMotion_FinalIK_Grounding_LegSizeCheck;
   static_assert(sizeof(Grounding::Leg) == 0x114);
 }
+NEED_NO_BOX(RootMotion::FinalIK::Grounding::Leg);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Grounding::Leg*, "RootMotion.FinalIK", "Grounding/Leg");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::Grounding::Leg::get_isGrounded

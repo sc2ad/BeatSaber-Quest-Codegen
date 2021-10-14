@@ -270,6 +270,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
   static check_size<sizeof(RijndaelEngine), 96 + sizeof(::ArrayW<uint8_t>)> __Org_BouncyCastle_Crypto_Engines_RijndaelEngineSizeCheck;
   static_assert(sizeof(RijndaelEngine) == 0x68);
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Engines::RijndaelEngine);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::RijndaelEngine*, "Org.BouncyCastle.Crypto.Engines", "RijndaelEngine");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::RijndaelEngine::get_AlgorithmName

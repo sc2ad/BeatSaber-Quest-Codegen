@@ -96,6 +96,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(HEU_ScriptParameterExample), 44 + sizeof(float)> __GlobalNamespace_HEU_ScriptParameterExampleSizeCheck;
   static_assert(sizeof(HEU_ScriptParameterExample) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::HEU_ScriptParameterExample);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HEU_ScriptParameterExample*, "", "HEU_ScriptParameterExample");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HEU_ScriptParameterExample::Start

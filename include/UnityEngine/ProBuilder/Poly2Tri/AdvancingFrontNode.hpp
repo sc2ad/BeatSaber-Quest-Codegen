@@ -91,6 +91,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   static check_size<sizeof(AdvancingFrontNode), 48 + sizeof(UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*)> __UnityEngine_ProBuilder_Poly2Tri_AdvancingFrontNodeSizeCheck;
   static_assert(sizeof(AdvancingFrontNode) == 0x38);
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*, "UnityEngine.ProBuilder.Poly2Tri", "AdvancingFrontNode");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode::get_HasNext

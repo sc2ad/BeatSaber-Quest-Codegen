@@ -86,6 +86,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerLobbyAvatarController::$SpawnAnimationCoroutine$d__8), 32 + sizeof(GlobalNamespace::MultiplayerLobbyAvatarController*)> __GlobalNamespace_MultiplayerLobbyAvatarController_$SpawnAnimationCoroutine$d__8SizeCheck;
   static_assert(sizeof(MultiplayerLobbyAvatarController::$SpawnAnimationCoroutine$d__8) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerLobbyAvatarController::$SpawnAnimationCoroutine$d__8);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLobbyAvatarController::$SpawnAnimationCoroutine$d__8*, "", "MultiplayerLobbyAvatarController/<SpawnAnimationCoroutine>d__8");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyAvatarController::$SpawnAnimationCoroutine$d__8::System_Collections_Generic_IEnumerator$System_Object$_get_Current

@@ -231,6 +231,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ObstacleSaberSparkleEffectManager), 128 + sizeof(::ArrayW<UnityEngine::Vector3>)> __GlobalNamespace_ObstacleSaberSparkleEffectManagerSizeCheck;
   static_assert(sizeof(ObstacleSaberSparkleEffectManager) == 0x88);
 }
+NEED_NO_BOX(GlobalNamespace::ObstacleSaberSparkleEffectManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleSaberSparkleEffectManager*, "", "ObstacleSaberSparkleEffectManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ObstacleSaberSparkleEffectManager::add_sparkleEffectDidStartEvent

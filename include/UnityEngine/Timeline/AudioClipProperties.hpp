@@ -55,6 +55,7 @@ namespace UnityEngine::Timeline {
   static check_size<sizeof(AudioClipProperties), 16 + sizeof(float)> __UnityEngine_Timeline_AudioClipPropertiesSizeCheck;
   static_assert(sizeof(AudioClipProperties) == 0x14);
 }
+NEED_NO_BOX(UnityEngine::Timeline::AudioClipProperties);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AudioClipProperties*, "UnityEngine.Timeline", "AudioClipProperties");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::AudioClipProperties::New_ctor

@@ -38,6 +38,7 @@ namespace HoudiniEngineUnity {
     }
   }; // HoudiniEngineUnity.HEU_OutputAttributeDictionary
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_OutputAttributeDictionary);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_OutputAttributeDictionary*, "HoudiniEngineUnity", "HEU_OutputAttributeDictionary");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_OutputAttributeDictionary::New_ctor

@@ -93,6 +93,7 @@ namespace HMUI {
   static check_size<sizeof(TextSegmentedControlCell), 80 + sizeof(UnityEngine::GameObject*)> __HMUI_TextSegmentedControlCellSizeCheck;
   static_assert(sizeof(TextSegmentedControlCell) == 0x58);
 }
+NEED_NO_BOX(HMUI::TextSegmentedControlCell);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TextSegmentedControlCell*, "HMUI", "TextSegmentedControlCell");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::TextSegmentedControlCell::get_text

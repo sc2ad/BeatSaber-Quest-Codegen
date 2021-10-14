@@ -77,6 +77,7 @@ namespace System {
   static check_size<sizeof(PointerSpec), 16 + sizeof(int)> __System_PointerSpecSizeCheck;
   static_assert(sizeof(PointerSpec) == 0x14);
 }
+NEED_NO_BOX(System::PointerSpec);
 DEFINE_IL2CPP_ARG_TYPE(System::PointerSpec*, "System", "PointerSpec");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::PointerSpec::New_ctor

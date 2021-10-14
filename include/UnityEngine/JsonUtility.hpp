@@ -53,6 +53,7 @@ namespace UnityEngine {
   }; // UnityEngine.JsonUtility
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::JsonUtility);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::JsonUtility*, "UnityEngine", "JsonUtility");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::JsonUtility::ToJsonInternal

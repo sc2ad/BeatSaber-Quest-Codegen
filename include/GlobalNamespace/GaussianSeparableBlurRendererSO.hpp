@@ -35,6 +35,7 @@ namespace GlobalNamespace {
   }; // GaussianSeparableBlurRendererSO
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::GaussianSeparableBlurRendererSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GaussianSeparableBlurRendererSO*, "", "GaussianSeparableBlurRendererSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GaussianSeparableBlurRendererSO::New_ctor

@@ -152,6 +152,7 @@ namespace Mono::Security::Protocol::Ntlm {
   static check_size<sizeof(Type3Message), 88 + sizeof(::ArrayW<uint8_t>)> __Mono_Security_Protocol_Ntlm_Type3MessageSizeCheck;
   static_assert(sizeof(Type3Message) == 0x60);
 }
+NEED_NO_BOX(Mono::Security::Protocol::Ntlm::Type3Message);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Protocol::Ntlm::Type3Message*, "Mono.Security.Protocol.Ntlm", "Type3Message");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Security::Protocol::Ntlm::Type3Message::set_Domain

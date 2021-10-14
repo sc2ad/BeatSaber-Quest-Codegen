@@ -39,6 +39,7 @@ namespace HoudiniEngineUnity {
     }
   }; // HoudiniEngineUnity.HEU_ReloadDataEvent
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_ReloadDataEvent);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_ReloadDataEvent*, "HoudiniEngineUnity", "HEU_ReloadDataEvent");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ReloadDataEvent::New_ctor

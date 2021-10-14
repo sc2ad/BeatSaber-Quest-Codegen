@@ -60,6 +60,7 @@ namespace OVR::OpenVR {
   }; // OVR.OpenVR.IVRTrackedCamera/OVR.OpenVR._GetVideoStreamTextureSize
   #pragma pack(pop)
 }
+NEED_NO_BOX(OVR::OpenVR::IVRTrackedCamera::_GetVideoStreamTextureSize);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRTrackedCamera::_GetVideoStreamTextureSize*, "OVR.OpenVR", "IVRTrackedCamera/_GetVideoStreamTextureSize");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVRTrackedCamera::_GetVideoStreamTextureSize::New_ctor

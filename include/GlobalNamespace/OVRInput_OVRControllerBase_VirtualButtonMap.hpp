@@ -309,6 +309,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRInput::OVRControllerBase::VirtualButtonMap), 144 + sizeof(GlobalNamespace::OVRInput::RawButton)> __GlobalNamespace_OVRInput_OVRControllerBase_VirtualButtonMapSizeCheck;
   static_assert(sizeof(OVRInput::OVRControllerBase::VirtualButtonMap) == 0x94);
 }
+NEED_NO_BOX(GlobalNamespace::OVRInput::OVRControllerBase::VirtualButtonMap);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OVRControllerBase::VirtualButtonMap*, "", "OVRInput/OVRControllerBase/VirtualButtonMap");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::OVRControllerBase::VirtualButtonMap::ToRawMask

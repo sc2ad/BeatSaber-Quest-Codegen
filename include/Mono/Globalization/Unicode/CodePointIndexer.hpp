@@ -142,6 +142,7 @@ namespace Mono::Globalization::Unicode {
   static check_size<sizeof(CodePointIndexer), 32 + sizeof(int)> __Mono_Globalization_Unicode_CodePointIndexerSizeCheck;
   static_assert(sizeof(CodePointIndexer) == 0x24);
 }
+NEED_NO_BOX(Mono::Globalization::Unicode::CodePointIndexer);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::CodePointIndexer*, "Mono.Globalization.Unicode", "CodePointIndexer");
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::CodePointIndexer::TableRange, "Mono.Globalization.Unicode", "CodePointIndexer/TableRange");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

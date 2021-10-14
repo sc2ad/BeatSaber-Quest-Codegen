@@ -50,6 +50,7 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::IPlayerEditorConnectionNative);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::IPlayerEditorConnectionNative*, "UnityEngine", "IPlayerEditorConnectionNative");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::IPlayerEditorConnectionNative::Initialize

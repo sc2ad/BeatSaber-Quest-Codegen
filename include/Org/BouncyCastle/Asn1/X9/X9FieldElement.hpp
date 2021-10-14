@@ -67,6 +67,7 @@ namespace Org::BouncyCastle::Asn1::X9 {
   static check_size<sizeof(X9FieldElement), 16 + sizeof(Org::BouncyCastle::Math::EC::ECFieldElement*)> __Org_BouncyCastle_Asn1_X9_X9FieldElementSizeCheck;
   static_assert(sizeof(X9FieldElement) == 0x18);
 }
+NEED_NO_BOX(Org::BouncyCastle::Asn1::X9::X9FieldElement);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X9::X9FieldElement*, "Org.BouncyCastle.Asn1.X9", "X9FieldElement");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X9::X9FieldElement::New_ctor

@@ -144,6 +144,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MasterServerAvailabilityData), 48 + sizeof(GlobalNamespace::MasterServerAvailabilityData::UserMessage*)> __GlobalNamespace_MasterServerAvailabilityDataSizeCheck;
   static_assert(sizeof(MasterServerAvailabilityData) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::MasterServerAvailabilityData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerAvailabilityData*, "", "MasterServerAvailabilityData");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerAvailabilityData::AvailabilityStatus, "", "MasterServerAvailabilityData/AvailabilityStatus");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

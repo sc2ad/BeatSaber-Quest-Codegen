@@ -113,6 +113,7 @@ namespace Org::BouncyCastle::Crypto::Macs {
   static check_size<sizeof(MacCFBBlockCipher), 48 + sizeof(Org::BouncyCastle::Crypto::IBlockCipher*)> __Org_BouncyCastle_Crypto_Macs_MacCFBBlockCipherSizeCheck;
   static_assert(sizeof(MacCFBBlockCipher) == 0x38);
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Macs::MacCFBBlockCipher);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Macs::MacCFBBlockCipher*, "Org.BouncyCastle.Crypto.Macs", "MacCFBBlockCipher");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Macs::MacCFBBlockCipher::get_AlgorithmName

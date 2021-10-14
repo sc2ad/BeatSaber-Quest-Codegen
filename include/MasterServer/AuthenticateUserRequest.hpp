@@ -103,6 +103,7 @@ namespace MasterServer {
   static check_size<sizeof(AuthenticateUserRequest), 24 + sizeof(GlobalNamespace::AuthenticationToken)> __MasterServer_AuthenticateUserRequestSizeCheck;
   static_assert(sizeof(AuthenticateUserRequest) == 0x38);
 }
+NEED_NO_BOX(MasterServer::AuthenticateUserRequest);
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::AuthenticateUserRequest*, "MasterServer", "AuthenticateUserRequest");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: MasterServer::AuthenticateUserRequest::get_pool

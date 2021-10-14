@@ -127,6 +127,7 @@ namespace Mono::Net {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(Mono::Net::CFNetwork);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFNetwork*, "Mono.Net", "CFNetwork");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Net::CFNetwork::_cctor

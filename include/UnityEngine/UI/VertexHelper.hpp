@@ -217,6 +217,7 @@ namespace UnityEngine::UI {
   static check_size<sizeof(VertexHelper), 88 + sizeof(bool)> __UnityEngine_UI_VertexHelperSizeCheck;
   static_assert(sizeof(VertexHelper) == 0x59);
 }
+NEED_NO_BOX(UnityEngine::UI::VertexHelper);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::VertexHelper*, "UnityEngine.UI", "VertexHelper");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::VertexHelper::get_currentVertCount

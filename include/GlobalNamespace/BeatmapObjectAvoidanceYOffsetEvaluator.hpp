@@ -155,6 +155,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BeatmapObjectAvoidanceYOffsetEvaluator), 40 + sizeof(GlobalNamespace::IBeatmapObjectSpawnController*)> __GlobalNamespace_BeatmapObjectAvoidanceYOffsetEvaluatorSizeCheck;
   static_assert(sizeof(BeatmapObjectAvoidanceYOffsetEvaluator) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator*, "", "BeatmapObjectAvoidanceYOffsetEvaluator");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::BufferData, "", "BeatmapObjectAvoidanceYOffsetEvaluator/BufferData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

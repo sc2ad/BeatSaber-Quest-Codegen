@@ -63,6 +63,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BeatmapLevelDataSO::DifficultyBeatmapSet), 24 + sizeof(::ArrayW<GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap*>)> __GlobalNamespace_BeatmapLevelDataSO_DifficultyBeatmapSetSizeCheck;
   static_assert(sizeof(BeatmapLevelDataSO::DifficultyBeatmapSet) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet*, "", "BeatmapLevelDataSO/DifficultyBeatmapSet");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet::get_beatmapCharacteristicSerializedName

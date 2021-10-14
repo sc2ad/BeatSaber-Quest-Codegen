@@ -21,5 +21,6 @@ namespace UnityEngine::TestTools {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::TestTools::UnitySetUpAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::UnitySetUpAttribute*, "UnityEngine.TestTools", "UnitySetUpAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -170,6 +170,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BeatLineManager), 80 + sizeof(float)> __GlobalNamespace_BeatLineManagerSizeCheck;
   static_assert(sizeof(BeatLineManager) == 0x54);
 }
+NEED_NO_BOX(GlobalNamespace::BeatLineManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatLineManager*, "", "BeatLineManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatLineManager::get_isMidRotationValid

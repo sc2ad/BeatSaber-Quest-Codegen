@@ -100,6 +100,7 @@ namespace System::Security::Policy {
   static check_size<sizeof(Evidence), 32 + sizeof(System::Collections::ArrayList*)> __System_Security_Policy_EvidenceSizeCheck;
   static_assert(sizeof(Evidence) == 0x28);
 }
+NEED_NO_BOX(System::Security::Policy::Evidence);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Policy::Evidence*, "System.Security.Policy", "Evidence");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Policy::Evidence::get_Count

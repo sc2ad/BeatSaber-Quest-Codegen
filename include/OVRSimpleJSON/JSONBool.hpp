@@ -121,6 +121,7 @@ namespace OVRSimpleJSON {
   static check_size<sizeof(JSONBool), 16 + sizeof(bool)> __OVRSimpleJSON_JSONBoolSizeCheck;
   static_assert(sizeof(JSONBool) == 0x11);
 }
+NEED_NO_BOX(OVRSimpleJSON::JSONBool);
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONBool*, "OVRSimpleJSON", "JSONBool");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONBool::New_ctor

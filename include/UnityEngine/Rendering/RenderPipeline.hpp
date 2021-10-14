@@ -70,6 +70,7 @@ namespace UnityEngine::Rendering {
   static_assert(sizeof(RenderPipeline) == 0x11);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::Rendering::RenderPipeline);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::RenderPipeline*, "UnityEngine.Rendering", "RenderPipeline");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Rendering::RenderPipeline::get_disposed

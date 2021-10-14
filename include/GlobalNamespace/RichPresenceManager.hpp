@@ -259,6 +259,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(RichPresenceManager), 144 + sizeof(GlobalNamespace::IRichPresenceData*)> __GlobalNamespace_RichPresenceManagerSizeCheck;
   static_assert(sizeof(RichPresenceManager) == 0x98);
 }
+NEED_NO_BOX(GlobalNamespace::RichPresenceManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RichPresenceManager*, "", "RichPresenceManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::RichPresenceManager::Awake

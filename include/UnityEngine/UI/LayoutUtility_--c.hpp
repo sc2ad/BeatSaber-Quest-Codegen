@@ -109,6 +109,7 @@ namespace UnityEngine::UI {
   }; // UnityEngine.UI.LayoutUtility/UnityEngine.UI.<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::UI::LayoutUtility::$$c);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::LayoutUtility::$$c*, "UnityEngine.UI", "LayoutUtility/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutUtility::$$c::_cctor

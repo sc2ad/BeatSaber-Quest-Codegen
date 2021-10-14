@@ -95,6 +95,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(WaypointData), 28 + sizeof(GlobalNamespace::NoteLineLayer)> __GlobalNamespace_WaypointDataSizeCheck;
   static_assert(sizeof(WaypointData) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::WaypointData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::WaypointData*, "", "WaypointData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::WaypointData::get_offsetDirection

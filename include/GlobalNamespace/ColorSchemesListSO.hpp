@@ -63,6 +63,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ColorSchemesListSO), 24 + sizeof(::ArrayW<GlobalNamespace::ColorSchemeSO*>)> __GlobalNamespace_ColorSchemesListSOSizeCheck;
   static_assert(sizeof(ColorSchemesListSO) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::ColorSchemesListSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSchemesListSO*, "", "ColorSchemesListSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ColorSchemesListSO::get_colorSchemes

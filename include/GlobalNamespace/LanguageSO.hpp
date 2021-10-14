@@ -36,6 +36,7 @@ namespace GlobalNamespace {
     }
   }; // LanguageSO
 }
+NEED_NO_BOX(GlobalNamespace::LanguageSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LanguageSO*, "", "LanguageSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LanguageSO::New_ctor

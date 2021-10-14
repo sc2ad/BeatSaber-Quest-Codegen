@@ -60,6 +60,7 @@ namespace GlobalNamespace {
   }; // HEU_ExampleInstanceCustomAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::HEU_ExampleInstanceCustomAttribute);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HEU_ExampleInstanceCustomAttribute*, "", "HEU_ExampleInstanceCustomAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HEU_ExampleInstanceCustomAttribute::InstancerCallback

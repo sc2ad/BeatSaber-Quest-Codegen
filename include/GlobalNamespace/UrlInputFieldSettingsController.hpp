@@ -49,6 +49,7 @@ namespace GlobalNamespace {
   }; // UrlInputFieldSettingsController
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::UrlInputFieldSettingsController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UrlInputFieldSettingsController*, "", "UrlInputFieldSettingsController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::UrlInputFieldSettingsController::New_ctor

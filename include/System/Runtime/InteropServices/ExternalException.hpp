@@ -67,6 +67,7 @@ namespace System::Runtime::InteropServices {
   }; // System.Runtime.InteropServices.ExternalException
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Runtime::InteropServices::ExternalException);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::ExternalException*, "System.Runtime.InteropServices", "ExternalException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::InteropServices::ExternalException::New_ctor

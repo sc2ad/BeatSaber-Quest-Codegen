@@ -181,6 +181,7 @@ namespace UnityEngine::Timeline {
   static check_size<sizeof(TimelinePlayable), 56 + sizeof(System::Collections::Generic::Dictionary_2<UnityEngine::Timeline::TrackAsset*, UnityEngine::Playables::Playable>*)> __UnityEngine_Timeline_TimelinePlayableSizeCheck;
   static_assert(sizeof(TimelinePlayable) == 0x40);
 }
+NEED_NO_BOX(UnityEngine::Timeline::TimelinePlayable);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelinePlayable*, "UnityEngine.Timeline", "TimelinePlayable");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelinePlayable::_cctor

@@ -86,6 +86,7 @@ namespace NUnit::Framework::Internal::Filters {
   static check_size<sizeof(NotFilter), 16 + sizeof(NUnit::Framework::Internal::TestFilter*)> __NUnit_Framework_Internal_Filters_NotFilterSizeCheck;
   static_assert(sizeof(NotFilter) == 0x18);
 }
+NEED_NO_BOX(NUnit::Framework::Internal::Filters::NotFilter);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Filters::NotFilter*, "NUnit.Framework.Internal.Filters", "NotFilter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Filters::NotFilter::get_BaseFilter

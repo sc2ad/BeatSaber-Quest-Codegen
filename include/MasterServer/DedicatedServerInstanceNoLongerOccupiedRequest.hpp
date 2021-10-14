@@ -123,6 +123,7 @@ namespace MasterServer {
   static check_size<sizeof(DedicatedServerInstanceNoLongerOccupiedRequest), 40 + sizeof(::Il2CppString*)> __MasterServer_DedicatedServerInstanceNoLongerOccupiedRequestSizeCheck;
   static_assert(sizeof(DedicatedServerInstanceNoLongerOccupiedRequest) == 0x30);
 }
+NEED_NO_BOX(MasterServer::DedicatedServerInstanceNoLongerOccupiedRequest);
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::DedicatedServerInstanceNoLongerOccupiedRequest*, "MasterServer", "DedicatedServerInstanceNoLongerOccupiedRequest");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: MasterServer::DedicatedServerInstanceNoLongerOccupiedRequest::get_pool

@@ -62,6 +62,7 @@ namespace System {
   }; // System.NotImplementedException
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::NotImplementedException);
 DEFINE_IL2CPP_ARG_TYPE(System::NotImplementedException*, "System", "NotImplementedException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::NotImplementedException::New_ctor

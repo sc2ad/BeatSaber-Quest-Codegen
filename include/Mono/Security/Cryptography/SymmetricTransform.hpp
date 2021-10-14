@@ -219,6 +219,7 @@ namespace Mono::Security::Cryptography {
   static check_size<sizeof(SymmetricTransform), 80 + sizeof(System::Security::Cryptography::RandomNumberGenerator*)> __Mono_Security_Cryptography_SymmetricTransformSizeCheck;
   static_assert(sizeof(SymmetricTransform) == 0x58);
 }
+NEED_NO_BOX(Mono::Security::Cryptography::SymmetricTransform);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::SymmetricTransform*, "Mono.Security.Cryptography", "SymmetricTransform");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Security::Cryptography::SymmetricTransform::get_CanTransformMultipleBlocks

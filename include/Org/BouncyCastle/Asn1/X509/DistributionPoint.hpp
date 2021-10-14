@@ -101,6 +101,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
   static check_size<sizeof(DistributionPoint), 32 + sizeof(Org::BouncyCastle::Asn1::X509::GeneralNames*)> __Org_BouncyCastle_Asn1_X509_DistributionPointSizeCheck;
   static_assert(sizeof(DistributionPoint) == 0x28);
 }
+NEED_NO_BOX(Org::BouncyCastle::Asn1::X509::DistributionPoint);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::DistributionPoint*, "Org.BouncyCastle.Asn1.X509", "DistributionPoint");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::DistributionPoint::New_ctor

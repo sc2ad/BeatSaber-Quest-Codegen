@@ -50,6 +50,7 @@ namespace UnityEngine {
   }; // UnityEngine.Display/UnityEngine.DisplaysUpdatedDelegate
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::Display::DisplaysUpdatedDelegate);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Display::DisplaysUpdatedDelegate*, "UnityEngine", "Display/DisplaysUpdatedDelegate");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Display::DisplaysUpdatedDelegate::New_ctor

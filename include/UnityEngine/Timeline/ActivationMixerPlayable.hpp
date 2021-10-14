@@ -107,6 +107,7 @@ namespace UnityEngine::Timeline {
   static check_size<sizeof(ActivationMixerPlayable), 24 + sizeof(UnityEngine::GameObject*)> __UnityEngine_Timeline_ActivationMixerPlayableSizeCheck;
   static_assert(sizeof(ActivationMixerPlayable) == 0x20);
 }
+NEED_NO_BOX(UnityEngine::Timeline::ActivationMixerPlayable);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ActivationMixerPlayable*, "UnityEngine.Timeline", "ActivationMixerPlayable");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::ActivationMixerPlayable::get_postPlaybackState

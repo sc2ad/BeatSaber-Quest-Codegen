@@ -102,6 +102,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PS4PublisherSKUSettingsSO), 56 + sizeof(int)> __GlobalNamespace_PS4PublisherSKUSettingsSOSizeCheck;
   static_assert(sizeof(PS4PublisherSKUSettingsSO) == 0x3C);
 }
+NEED_NO_BOX(GlobalNamespace::PS4PublisherSKUSettingsSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4PublisherSKUSettingsSO*, "", "PS4PublisherSKUSettingsSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PS4PublisherSKUSettingsSO::get_skuName

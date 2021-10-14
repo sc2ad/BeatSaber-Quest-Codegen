@@ -103,6 +103,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerScoreProvider::RankedPlayer), 24 + sizeof(GlobalNamespace::MultiplayerScoreProvider*)> __GlobalNamespace_MultiplayerScoreProvider_RankedPlayerSizeCheck;
   static_assert(sizeof(MultiplayerScoreProvider::RankedPlayer) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerScoreProvider::RankedPlayer);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*, "", "MultiplayerScoreProvider/RankedPlayer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerScoreProvider::RankedPlayer::get_offsetSyncTime

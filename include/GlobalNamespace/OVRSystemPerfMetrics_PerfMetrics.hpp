@@ -286,6 +286,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRSystemPerfMetrics::PerfMetrics), 120 + sizeof(int)> __GlobalNamespace_OVRSystemPerfMetrics_PerfMetricsSizeCheck;
   static_assert(sizeof(OVRSystemPerfMetrics::PerfMetrics) == 0x7C);
 }
+NEED_NO_BOX(GlobalNamespace::OVRSystemPerfMetrics::PerfMetrics);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSystemPerfMetrics::PerfMetrics*, "", "OVRSystemPerfMetrics/PerfMetrics");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRSystemPerfMetrics::PerfMetrics::ToJSON

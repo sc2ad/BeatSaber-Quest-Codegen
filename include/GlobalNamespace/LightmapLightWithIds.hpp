@@ -133,6 +133,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LightmapLightWithIds), 64 + sizeof(bool)> __GlobalNamespace_LightmapLightWithIdsSizeCheck;
   static_assert(sizeof(LightmapLightWithIds) == 0x41);
 }
+NEED_NO_BOX(GlobalNamespace::LightmapLightWithIds);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightmapLightWithIds*, "", "LightmapLightWithIds");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LightmapLightWithIds::get_lightId

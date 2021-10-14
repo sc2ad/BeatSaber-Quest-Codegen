@@ -53,6 +53,7 @@ namespace HoudiniEngineUnity {
   }; // HoudiniEngineUnity.HEU_Vector2SerializationSurrogate
   #pragma pack(pop)
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_Vector2SerializationSurrogate);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_Vector2SerializationSurrogate*, "HoudiniEngineUnity", "HEU_Vector2SerializationSurrogate");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Vector2SerializationSurrogate::System_Runtime_Serialization_ISerializationSurrogate_GetObjectData

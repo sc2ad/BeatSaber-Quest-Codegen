@@ -155,6 +155,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MulticolorAvatarPartPropertyBlockSetter), 76 + sizeof(int)> __GlobalNamespace_MulticolorAvatarPartPropertyBlockSetterSizeCheck;
   static_assert(sizeof(MulticolorAvatarPartPropertyBlockSetter) == 0x50);
 }
+NEED_NO_BOX(GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter*, "", "MulticolorAvatarPartPropertyBlockSetter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::OnValidate

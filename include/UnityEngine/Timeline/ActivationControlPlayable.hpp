@@ -226,6 +226,7 @@ namespace UnityEngine::Timeline {
   static check_size<sizeof(ActivationControlPlayable), 28 + sizeof(UnityEngine::Timeline::ActivationControlPlayable::InitialState)> __UnityEngine_Timeline_ActivationControlPlayableSizeCheck;
   static_assert(sizeof(ActivationControlPlayable) == 0x20);
 }
+NEED_NO_BOX(UnityEngine::Timeline::ActivationControlPlayable);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ActivationControlPlayable*, "UnityEngine.Timeline", "ActivationControlPlayable");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ActivationControlPlayable::PostPlaybackState, "UnityEngine.Timeline", "ActivationControlPlayable/PostPlaybackState");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ActivationControlPlayable::InitialState, "UnityEngine.Timeline", "ActivationControlPlayable/InitialState");

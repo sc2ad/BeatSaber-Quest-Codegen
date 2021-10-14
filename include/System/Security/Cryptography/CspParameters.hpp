@@ -110,6 +110,7 @@ namespace System::Security::Cryptography {
   static check_size<sizeof(CspParameters), 44 + sizeof(int)> __System_Security_Cryptography_CspParametersSizeCheck;
   static_assert(sizeof(CspParameters) == 0x30);
 }
+NEED_NO_BOX(System::Security::Cryptography::CspParameters);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::CspParameters*, "System.Security.Cryptography", "CspParameters");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::CspParameters::get_Flags

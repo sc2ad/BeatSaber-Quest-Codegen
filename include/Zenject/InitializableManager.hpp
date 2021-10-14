@@ -91,6 +91,7 @@ namespace Zenject {
   static check_size<sizeof(InitializableManager), 24 + sizeof(bool)> __Zenject_InitializableManagerSizeCheck;
   static_assert(sizeof(InitializableManager) == 0x19);
 }
+NEED_NO_BOX(Zenject::InitializableManager);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::InitializableManager*, "Zenject", "InitializableManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::InitializableManager::New_ctor

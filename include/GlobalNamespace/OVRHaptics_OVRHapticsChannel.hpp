@@ -69,6 +69,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRHaptics::OVRHapticsChannel), 16 + sizeof(GlobalNamespace::OVRHaptics::OVRHapticsOutput*)> __GlobalNamespace_OVRHaptics_OVRHapticsChannelSizeCheck;
   static_assert(sizeof(OVRHaptics::OVRHapticsChannel) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::OVRHaptics::OVRHapticsChannel);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHaptics::OVRHapticsChannel*, "", "OVRHaptics/OVRHapticsChannel");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRHaptics::OVRHapticsChannel::New_ctor

@@ -51,6 +51,7 @@ namespace System::IO::Compression {
   }; // System.IO.Compression.DeflateStream/System.IO.Compression.ReadMethod
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::IO::Compression::DeflateStream::ReadMethod);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Compression::DeflateStream::ReadMethod*, "System.IO.Compression", "DeflateStream/ReadMethod");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::Compression::DeflateStream::ReadMethod::New_ctor

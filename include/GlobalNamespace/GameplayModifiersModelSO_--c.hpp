@@ -173,6 +173,7 @@ namespace GlobalNamespace {
   }; // GameplayModifiersModelSO/<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::GameplayModifiersModelSO::$$c);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifiersModelSO::$$c*, "", "GameplayModifiersModelSO/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::$$c::_cctor

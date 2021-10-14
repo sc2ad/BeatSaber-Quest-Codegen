@@ -56,6 +56,7 @@ namespace OVR::OpenVR {
   }; // OVR.OpenVR.IVRIOBuffer/OVR.OpenVR._Close
   #pragma pack(pop)
 }
+NEED_NO_BOX(OVR::OpenVR::IVRIOBuffer::_Close);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRIOBuffer::_Close*, "OVR.OpenVR", "IVRIOBuffer/_Close");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVRIOBuffer::_Close::New_ctor

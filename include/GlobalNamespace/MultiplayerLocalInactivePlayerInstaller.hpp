@@ -99,6 +99,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerLocalInactivePlayerInstaller), 56 + sizeof(GlobalNamespace::RelativeSfxVolumePerLevelModel*)> __GlobalNamespace_MultiplayerLocalInactivePlayerInstallerSizeCheck;
   static_assert(sizeof(MultiplayerLocalInactivePlayerInstaller) == 0x40);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerLocalInactivePlayerInstaller);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalInactivePlayerInstaller*, "", "MultiplayerLocalInactivePlayerInstaller");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalInactivePlayerInstaller::New_ctor

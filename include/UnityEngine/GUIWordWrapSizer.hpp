@@ -84,6 +84,7 @@ namespace UnityEngine {
   static check_size<sizeof(GUIWordWrapSizer), 84 + sizeof(float)> __UnityEngine_GUIWordWrapSizerSizeCheck;
   static_assert(sizeof(GUIWordWrapSizer) == 0x58);
 }
+NEED_NO_BOX(UnityEngine::GUIWordWrapSizer);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUIWordWrapSizer*, "UnityEngine", "GUIWordWrapSizer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::GUIWordWrapSizer::New_ctor

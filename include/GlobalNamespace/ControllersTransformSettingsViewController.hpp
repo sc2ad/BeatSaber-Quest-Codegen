@@ -156,6 +156,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ControllersTransformSettingsViewController), 168 + sizeof(HMUI::RangeValuesTextSlider*)> __GlobalNamespace_ControllersTransformSettingsViewControllerSizeCheck;
   static_assert(sizeof(ControllersTransformSettingsViewController) == 0xB0);
 }
+NEED_NO_BOX(GlobalNamespace::ControllersTransformSettingsViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ControllersTransformSettingsViewController*, "", "ControllersTransformSettingsViewController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ControllersTransformSettingsViewController::HandlePositionSliderValueDidChange

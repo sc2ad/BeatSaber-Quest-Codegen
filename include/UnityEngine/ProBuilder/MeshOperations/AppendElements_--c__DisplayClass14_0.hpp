@@ -65,6 +65,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   static check_size<sizeof(AppendElements::$$c__DisplayClass14_0), 16 + sizeof(int)> __UnityEngine_ProBuilder_MeshOperations_AppendElements_$$c__DisplayClass14_0SizeCheck;
   static_assert(sizeof(AppendElements::$$c__DisplayClass14_0) == 0x14);
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::MeshOperations::AppendElements::$$c__DisplayClass14_0);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::AppendElements::$$c__DisplayClass14_0*, "UnityEngine.ProBuilder.MeshOperations", "AppendElements/<>c__DisplayClass14_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::AppendElements::$$c__DisplayClass14_0::$AppendVerticesToEdge$b__0

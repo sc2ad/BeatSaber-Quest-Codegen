@@ -886,6 +886,7 @@ namespace System::Threading::Tasks {
   static check_size<sizeof(Task), 72 + sizeof(System::Threading::Tasks::Task::ContingentProperties*)> __System_Threading_Tasks_TaskSizeCheck;
   static_assert(sizeof(Task) == 0x50);
 }
+NEED_NO_BOX(System::Threading::Tasks::Task);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::Task*, "System.Threading.Tasks", "Task");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::Tasks::Task::get_Options

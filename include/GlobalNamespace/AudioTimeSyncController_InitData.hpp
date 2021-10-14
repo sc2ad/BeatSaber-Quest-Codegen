@@ -77,6 +77,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(AudioTimeSyncController::InitData), 32 + sizeof(float)> __GlobalNamespace_AudioTimeSyncController_InitDataSizeCheck;
   static_assert(sizeof(AudioTimeSyncController::InitData) == 0x24);
 }
+NEED_NO_BOX(GlobalNamespace::AudioTimeSyncController::InitData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioTimeSyncController::InitData*, "", "AudioTimeSyncController/InitData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AudioTimeSyncController::InitData::New_ctor

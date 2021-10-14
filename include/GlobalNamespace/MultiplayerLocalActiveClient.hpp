@@ -162,6 +162,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerLocalActiveClient), 72 + sizeof(GlobalNamespace::IScoreController*)> __GlobalNamespace_MultiplayerLocalActiveClientSizeCheck;
   static_assert(sizeof(MultiplayerLocalActiveClient) == 0x50);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerLocalActiveClient);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalActiveClient*, "", "MultiplayerLocalActiveClient");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalActiveClient::get_beatmapObjectManager

@@ -70,6 +70,7 @@ namespace VRUIControls {
   static check_size<sizeof(MouseButtonEventData), 24 + sizeof(UnityEngine::EventSystems::PointerEventData*)> __VRUIControls_MouseButtonEventDataSizeCheck;
   static_assert(sizeof(MouseButtonEventData) == 0x20);
 }
+NEED_NO_BOX(VRUIControls::MouseButtonEventData);
 DEFINE_IL2CPP_ARG_TYPE(VRUIControls::MouseButtonEventData*, "VRUIControls", "MouseButtonEventData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: VRUIControls::MouseButtonEventData::PressedThisFrame

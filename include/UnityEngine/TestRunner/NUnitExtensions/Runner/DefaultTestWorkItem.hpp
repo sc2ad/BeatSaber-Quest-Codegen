@@ -82,6 +82,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   static check_size<sizeof(DefaultTestWorkItem), 88 + sizeof(NUnit::Framework::Internal::Commands::TestCommand*)> __UnityEngine_TestRunner_NUnitExtensions_Runner_DefaultTestWorkItemSizeCheck;
   static_assert(sizeof(DefaultTestWorkItem) == 0x60);
 }
+NEED_NO_BOX(UnityEngine::TestRunner::NUnitExtensions::Runner::DefaultTestWorkItem);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::DefaultTestWorkItem*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "DefaultTestWorkItem");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::DefaultTestWorkItem::New_ctor

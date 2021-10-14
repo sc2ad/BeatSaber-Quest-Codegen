@@ -20,5 +20,6 @@ namespace System::Collections {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Collections::Queue::QueueDebugView);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Queue::QueueDebugView*, "System.Collections", "Queue/QueueDebugView");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

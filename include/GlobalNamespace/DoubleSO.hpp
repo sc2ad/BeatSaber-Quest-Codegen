@@ -34,6 +34,7 @@ namespace GlobalNamespace {
     }
   }; // DoubleSO
 }
+NEED_NO_BOX(GlobalNamespace::DoubleSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DoubleSO*, "", "DoubleSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DoubleSO::New_ctor

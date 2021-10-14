@@ -69,6 +69,7 @@ namespace System {
   static check_size<sizeof(DelegateData), 32 + sizeof(bool)> __System_DelegateDataSizeCheck;
   static_assert(sizeof(DelegateData) == 0x21);
 }
+NEED_NO_BOX(System::DelegateData);
 DEFINE_IL2CPP_ARG_TYPE(System::DelegateData*, "System", "DelegateData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::DelegateData::New_ctor

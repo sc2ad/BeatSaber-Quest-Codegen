@@ -44,6 +44,7 @@ namespace System::Net::Configuration {
   }; // System.Net.Configuration.SocketElement
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Net::Configuration::SocketElement);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Configuration::SocketElement*, "System.Net.Configuration", "SocketElement");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Configuration::SocketElement::get_Properties

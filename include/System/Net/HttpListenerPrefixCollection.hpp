@@ -107,6 +107,7 @@ namespace System::Net {
   static check_size<sizeof(HttpListenerPrefixCollection), 24 + sizeof(System::Net::HttpListener*)> __System_Net_HttpListenerPrefixCollectionSizeCheck;
   static_assert(sizeof(HttpListenerPrefixCollection) == 0x20);
 }
+NEED_NO_BOX(System::Net::HttpListenerPrefixCollection);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpListenerPrefixCollection*, "System.Net", "HttpListenerPrefixCollection");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::HttpListenerPrefixCollection::get_Count

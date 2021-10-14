@@ -86,6 +86,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(FlickeringNeonSign::$FlickeringCoroutine$d__16), 32 + sizeof(GlobalNamespace::FlickeringNeonSign*)> __GlobalNamespace_FlickeringNeonSign_$FlickeringCoroutine$d__16SizeCheck;
   static_assert(sizeof(FlickeringNeonSign::$FlickeringCoroutine$d__16) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::FlickeringNeonSign::$FlickeringCoroutine$d__16);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlickeringNeonSign::$FlickeringCoroutine$d__16*, "", "FlickeringNeonSign/<FlickeringCoroutine>d__16");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FlickeringNeonSign::$FlickeringCoroutine$d__16::System_Collections_Generic_IEnumerator$System_Object$_get_Current

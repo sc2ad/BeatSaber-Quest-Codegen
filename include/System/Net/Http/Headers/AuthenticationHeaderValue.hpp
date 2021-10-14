@@ -114,6 +114,7 @@ namespace System::Net::Http::Headers {
   static check_size<sizeof(AuthenticationHeaderValue), 24 + sizeof(::Il2CppString*)> __System_Net_Http_Headers_AuthenticationHeaderValueSizeCheck;
   static_assert(sizeof(AuthenticationHeaderValue) == 0x20);
 }
+NEED_NO_BOX(System::Net::Http::Headers::AuthenticationHeaderValue);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::AuthenticationHeaderValue*, "System.Net.Http.Headers", "AuthenticationHeaderValue");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Http::Headers::AuthenticationHeaderValue::get_Parameter

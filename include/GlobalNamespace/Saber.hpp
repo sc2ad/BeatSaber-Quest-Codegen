@@ -177,6 +177,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(Saber), 108 + sizeof(UnityEngine::Quaternion)> __GlobalNamespace_SaberSizeCheck;
   static_assert(sizeof(Saber) == 0x7C);
 }
+NEED_NO_BOX(GlobalNamespace::Saber);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Saber*, "", "Saber");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::Saber::get_saberType

@@ -91,6 +91,7 @@ namespace UnityEngine {
   }; // UnityEngine.StateMachineBehaviour
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::StateMachineBehaviour);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::StateMachineBehaviour*, "UnityEngine", "StateMachineBehaviour");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::StateMachineBehaviour::OnStateEnter

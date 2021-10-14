@@ -165,6 +165,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(JSONObject), 24 + sizeof(bool)> __HoudiniEngineUnity_JSONObjectSizeCheck;
   static_assert(sizeof(JSONObject) == 0x19);
 }
+NEED_NO_BOX(HoudiniEngineUnity::JSONObject);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::JSONObject*, "HoudiniEngineUnity", "JSONObject");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONObject::get_Inline

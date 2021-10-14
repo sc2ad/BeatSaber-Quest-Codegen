@@ -131,6 +131,7 @@ namespace OVR::OpenVR {
   static check_size<sizeof(CVRRenderModels), 16 + sizeof(OVR::OpenVR::IVRRenderModels)> __OVR_OpenVR_CVRRenderModelsSizeCheck;
   static_assert(sizeof(CVRRenderModels) == 0xA8);
 }
+NEED_NO_BOX(OVR::OpenVR::CVRRenderModels);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRRenderModels*, "OVR.OpenVR", "CVRRenderModels");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::CVRRenderModels::New_ctor

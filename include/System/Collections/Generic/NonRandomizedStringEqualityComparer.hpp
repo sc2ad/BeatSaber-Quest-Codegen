@@ -37,6 +37,7 @@ namespace System::Collections::Generic {
     }
   }; // System.Collections.Generic.NonRandomizedStringEqualityComparer
 }
+NEED_NO_BOX(System::Collections::Generic::NonRandomizedStringEqualityComparer);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Generic::NonRandomizedStringEqualityComparer*, "System.Collections.Generic", "NonRandomizedStringEqualityComparer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::Generic::NonRandomizedStringEqualityComparer::Equals

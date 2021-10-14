@@ -194,6 +194,7 @@ namespace System::Net {
   }; // System.Net.WebAsyncResult
   // WARNING Not writing size check since size may be invalid!
 }
+NEED_NO_BOX(System::Net::WebAsyncResult);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebAsyncResult*, "System.Net", "WebAsyncResult");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::WebAsyncResult::get_NBytes

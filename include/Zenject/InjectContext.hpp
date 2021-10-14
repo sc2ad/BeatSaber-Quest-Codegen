@@ -272,6 +272,7 @@ namespace Zenject {
   static check_size<sizeof(InjectContext), 88 + sizeof(Zenject::DiContainer*)> __Zenject_InjectContextSizeCheck;
   static_assert(sizeof(InjectContext) == 0x60);
 }
+NEED_NO_BOX(Zenject::InjectContext);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::InjectContext*, "Zenject", "InjectContext");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::InjectContext::get_BindingId

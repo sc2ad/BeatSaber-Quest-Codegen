@@ -75,6 +75,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OculusPlatformAchievementHandler), 16 + sizeof(GlobalNamespace::AchievementIdsModelSO*)> __GlobalNamespace_OculusPlatformAchievementHandlerSizeCheck;
   static_assert(sizeof(OculusPlatformAchievementHandler) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::OculusPlatformAchievementHandler);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformAchievementHandler*, "", "OculusPlatformAchievementHandler");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OculusPlatformAchievementHandler::New_ctor

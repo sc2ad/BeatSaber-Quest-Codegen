@@ -93,6 +93,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerDuelConnectedPlayerGameplayAnimator), 112 + sizeof(GlobalNamespace::MultiplayerConnectedPlayerLevelFailController*)> __GlobalNamespace_MultiplayerDuelConnectedPlayerGameplayAnimatorSizeCheck;
   static_assert(sizeof(MultiplayerDuelConnectedPlayerGameplayAnimator) == 0x78);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator*, "", "MultiplayerDuelConnectedPlayerGameplayAnimator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator::TransitionIntoFailedState

@@ -219,6 +219,7 @@ namespace GlobalNamespace {
   // Offset: 0x12C5B60
   GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* operator+(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* a, GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData& b);
 }
+NEED_NO_BOX(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*, "", "PlayerAllOverallStatsData/PlayerOverallStatsData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::get_goodCutsCount

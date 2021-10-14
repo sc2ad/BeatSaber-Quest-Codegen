@@ -68,6 +68,7 @@ namespace Il2CppInspector::DLL {
     }
   }; // Il2CppInspector.DLL.AddressAttribute
 }
+NEED_NO_BOX(Il2CppInspector::DLL::AddressAttribute);
 DEFINE_IL2CPP_ARG_TYPE(Il2CppInspector::DLL::AddressAttribute*, "Il2CppInspector.DLL", "AddressAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Il2CppInspector::DLL::AddressAttribute::New_ctor

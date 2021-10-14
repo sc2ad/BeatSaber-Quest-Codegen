@@ -75,6 +75,7 @@ namespace LiteNetLib {
   static check_size<sizeof(NatPunchModule::NatIntroduceRequestPacket), 24 + sizeof(::Il2CppString*)> __LiteNetLib_NatPunchModule_NatIntroduceRequestPacketSizeCheck;
   static_assert(sizeof(NatPunchModule::NatIntroduceRequestPacket) == 0x20);
 }
+NEED_NO_BOX(LiteNetLib::NatPunchModule::NatIntroduceRequestPacket);
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NatPunchModule::NatIntroduceRequestPacket*, "LiteNetLib", "NatPunchModule/NatIntroduceRequestPacket");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::NatPunchModule::NatIntroduceRequestPacket::get_Internal

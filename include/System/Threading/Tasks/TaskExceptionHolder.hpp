@@ -159,6 +159,7 @@ namespace System::Threading::Tasks {
   static check_size<sizeof(TaskExceptionHolder), 40 + sizeof(bool)> __System_Threading_Tasks_TaskExceptionHolderSizeCheck;
   static_assert(sizeof(TaskExceptionHolder) == 0x29);
 }
+NEED_NO_BOX(System::Threading::Tasks::TaskExceptionHolder);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskExceptionHolder*, "System.Threading.Tasks", "TaskExceptionHolder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::Tasks::TaskExceptionHolder::get_ContainsFaultList

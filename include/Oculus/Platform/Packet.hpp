@@ -88,6 +88,7 @@ namespace Oculus::Platform {
   static check_size<sizeof(Packet), 24 + sizeof(System::IntPtr)> __Oculus_Platform_PacketSizeCheck;
   static_assert(sizeof(Packet) == 0x20);
 }
+NEED_NO_BOX(Oculus::Platform::Packet);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Packet*, "Oculus.Platform", "Packet");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Packet::get_SenderID

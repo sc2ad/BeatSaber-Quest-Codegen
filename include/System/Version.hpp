@@ -225,6 +225,7 @@ namespace System {
   // Offset: 0x251E808
   bool operator >=(System::Version* v1, System::Version& v2);
 }
+NEED_NO_BOX(System::Version);
 DEFINE_IL2CPP_ARG_TYPE(System::Version*, "System", "Version");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Version::get_Major

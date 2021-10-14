@@ -420,6 +420,7 @@ namespace UnityEngine {
   }; // UnityEngine.Texture2D
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::Texture2D);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Texture2D*, "UnityEngine", "Texture2D");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Texture2D::get_format

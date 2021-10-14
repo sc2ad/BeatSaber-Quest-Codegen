@@ -68,6 +68,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SimpleTextTableCell), 80 + sizeof(TMPro::TextMeshProUGUI*)> __GlobalNamespace_SimpleTextTableCellSizeCheck;
   static_assert(sizeof(SimpleTextTableCell) == 0x58);
 }
+NEED_NO_BOX(GlobalNamespace::SimpleTextTableCell);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleTextTableCell*, "", "SimpleTextTableCell");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SimpleTextTableCell::get_text

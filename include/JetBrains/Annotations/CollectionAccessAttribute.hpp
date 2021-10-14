@@ -59,6 +59,7 @@ namespace JetBrains::Annotations {
   static check_size<sizeof(CollectionAccessAttribute), 16 + sizeof(JetBrains::Annotations::CollectionAccessType)> __JetBrains_Annotations_CollectionAccessAttributeSizeCheck;
   static_assert(sizeof(CollectionAccessAttribute) == 0x14);
 }
+NEED_NO_BOX(JetBrains::Annotations::CollectionAccessAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::CollectionAccessAttribute*, "JetBrains.Annotations", "CollectionAccessAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: JetBrains::Annotations::CollectionAccessAttribute::get_CollectionAccessType

@@ -88,6 +88,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(LegIK), 56 + sizeof(RootMotion::FinalIK::IKSolverLeg*)> __RootMotion_FinalIK_LegIKSizeCheck;
   static_assert(sizeof(LegIK) == 0x40);
 }
+NEED_NO_BOX(RootMotion::FinalIK::LegIK);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::LegIK*, "RootMotion.FinalIK", "LegIK");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::LegIK::SupportGroup

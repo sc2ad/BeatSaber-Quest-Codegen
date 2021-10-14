@@ -86,6 +86,7 @@ namespace LeaderboardsDTO {
   static check_size<sizeof(LoginRequestDTO), 56 + sizeof(::Il2CppString*)> __LeaderboardsDTO_LoginRequestDTOSizeCheck;
   static_assert(sizeof(LoginRequestDTO) == 0x40);
 }
+NEED_NO_BOX(LeaderboardsDTO::LoginRequestDTO);
 DEFINE_IL2CPP_ARG_TYPE(LeaderboardsDTO::LoginRequestDTO*, "LeaderboardsDTO", "LoginRequestDTO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LeaderboardsDTO::LoginRequestDTO::New_ctor

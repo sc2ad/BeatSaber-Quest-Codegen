@@ -69,6 +69,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(AudioListenerController), 24 + sizeof(bool)> __GlobalNamespace_AudioListenerControllerSizeCheck;
   static_assert(sizeof(AudioListenerController) == 0x19);
 }
+NEED_NO_BOX(GlobalNamespace::AudioListenerController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioListenerController*, "", "AudioListenerController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AudioListenerController::get_isPaused

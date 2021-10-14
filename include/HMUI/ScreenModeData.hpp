@@ -98,6 +98,7 @@ namespace HMUI {
   static check_size<sizeof(ScreenModeData), 56 + sizeof(float)> __HMUI_ScreenModeDataSizeCheck;
   static_assert(sizeof(ScreenModeData) == 0x3C);
 }
+NEED_NO_BOX(HMUI::ScreenModeData);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScreenModeData*, "HMUI", "ScreenModeData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::ScreenModeData::New_ctor

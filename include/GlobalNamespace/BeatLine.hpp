@@ -203,6 +203,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BeatLine), 104 + sizeof(float)> __GlobalNamespace_BeatLineSizeCheck;
   static_assert(sizeof(BeatLine) == 0x6C);
 }
+NEED_NO_BOX(GlobalNamespace::BeatLine);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatLine*, "", "BeatLine");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatLine::HighlightData, "", "BeatLine/HighlightData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

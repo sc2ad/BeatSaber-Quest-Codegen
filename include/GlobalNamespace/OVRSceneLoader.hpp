@@ -284,6 +284,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRSceneLoader), 96 + sizeof(GlobalNamespace::OVRSceneLoader::SceneInfo)> __GlobalNamespace_OVRSceneLoaderSizeCheck;
   static_assert(sizeof(OVRSceneLoader) == 0x70);
 }
+NEED_NO_BOX(GlobalNamespace::OVRSceneLoader);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSceneLoader*, "", "OVRSceneLoader");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSceneLoader::SceneInfo, "", "OVRSceneLoader/SceneInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

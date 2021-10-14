@@ -114,6 +114,7 @@ namespace System::Runtime::Serialization {
   static check_size<sizeof(SerializationEvents), 40 + sizeof(System::Collections::Generic::List_1<System::Reflection::MethodInfo*>*)> __System_Runtime_Serialization_SerializationEventsSizeCheck;
   static_assert(sizeof(SerializationEvents) == 0x30);
 }
+NEED_NO_BOX(System::Runtime::Serialization::SerializationEvents);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SerializationEvents*, "System.Runtime.Serialization", "SerializationEvents");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationEvents::get_HasOnSerializingEvents

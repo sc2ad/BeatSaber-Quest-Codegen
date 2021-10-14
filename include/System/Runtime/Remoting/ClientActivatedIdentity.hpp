@@ -89,6 +89,7 @@ namespace System::Runtime::Remoting {
   static check_size<sizeof(ClientActivatedIdentity), 112 + sizeof(System::MarshalByRefObject*)> __System_Runtime_Remoting_ClientActivatedIdentitySizeCheck;
   static_assert(sizeof(ClientActivatedIdentity) == 0x78);
 }
+NEED_NO_BOX(System::Runtime::Remoting::ClientActivatedIdentity);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::ClientActivatedIdentity*, "System.Runtime.Remoting", "ClientActivatedIdentity");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::ClientActivatedIdentity::New_ctor

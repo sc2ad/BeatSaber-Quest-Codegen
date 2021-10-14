@@ -143,6 +143,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerMockSettings), 64 + sizeof(GlobalNamespace::MasterServerQuickPlaySetupData*)> __GlobalNamespace_MultiplayerMockSettingsSizeCheck;
   static_assert(sizeof(MultiplayerMockSettings) == 0x48);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerMockSettings);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerMockSettings*, "", "MultiplayerMockSettings");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerMockSettings::get_quickplayServer

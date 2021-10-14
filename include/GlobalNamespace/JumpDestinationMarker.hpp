@@ -36,6 +36,7 @@ namespace GlobalNamespace {
   }; // JumpDestinationMarker
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::JumpDestinationMarker);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::JumpDestinationMarker*, "", "JumpDestinationMarker");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::JumpDestinationMarker::New_ctor

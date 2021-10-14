@@ -71,6 +71,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   static check_size<sizeof(ECGost3410Parameters), 88 + sizeof(Org::BouncyCastle::Asn1::DerObjectIdentifier*)> __Org_BouncyCastle_Crypto_Parameters_ECGost3410ParametersSizeCheck;
   static_assert(sizeof(ECGost3410Parameters) == 0x60);
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Parameters::ECGost3410Parameters);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::ECGost3410Parameters*, "Org.BouncyCastle.Crypto.Parameters", "ECGost3410Parameters");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::ECGost3410Parameters::New_ctor

@@ -96,6 +96,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(GhostDuplicationEffect::$HideRedundantWithDelay$d__8), 40 + sizeof(GlobalNamespace::GhostDuplicationEffect*)> __GlobalNamespace_GhostDuplicationEffect_$HideRedundantWithDelay$d__8SizeCheck;
   static_assert(sizeof(GhostDuplicationEffect::$HideRedundantWithDelay$d__8) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::GhostDuplicationEffect::$HideRedundantWithDelay$d__8);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GhostDuplicationEffect::$HideRedundantWithDelay$d__8*, "", "GhostDuplicationEffect/<HideRedundantWithDelay>d__8");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GhostDuplicationEffect::$HideRedundantWithDelay$d__8::System_Collections_Generic_IEnumerator$System_Object$_get_Current

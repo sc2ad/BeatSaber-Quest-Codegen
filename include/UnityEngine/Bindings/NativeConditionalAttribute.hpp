@@ -64,6 +64,7 @@ namespace UnityEngine::Bindings {
   static check_size<sizeof(NativeConditionalAttribute), 24 + sizeof(bool)> __UnityEngine_Bindings_NativeConditionalAttributeSizeCheck;
   static_assert(sizeof(NativeConditionalAttribute) == 0x19);
 }
+NEED_NO_BOX(UnityEngine::Bindings::NativeConditionalAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::NativeConditionalAttribute*, "UnityEngine.Bindings", "NativeConditionalAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Bindings::NativeConditionalAttribute::set_Condition

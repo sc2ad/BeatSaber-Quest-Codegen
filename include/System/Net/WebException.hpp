@@ -175,6 +175,7 @@ namespace System::Net {
   static check_size<sizeof(WebException), 152 + sizeof(System::Net::WebExceptionInternalStatus)> __System_Net_WebExceptionSizeCheck;
   static_assert(sizeof(WebException) == 0x9C);
 }
+NEED_NO_BOX(System::Net::WebException);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebException*, "System.Net", "WebException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::WebException::get_Status

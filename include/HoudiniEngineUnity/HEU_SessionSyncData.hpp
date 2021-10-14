@@ -143,6 +143,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_SessionSyncData), 97 + sizeof(HoudiniEngineUnity::HAPI_SessionSyncInfo)> __HoudiniEngineUnity_HEU_SessionSyncDataSizeCheck;
   static_assert(sizeof(HEU_SessionSyncData) == 0x63);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_SessionSyncData);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_SessionSyncData*, "HoudiniEngineUnity", "HEU_SessionSyncData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionSyncData::get_SyncStatus

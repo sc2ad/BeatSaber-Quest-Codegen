@@ -262,6 +262,7 @@ namespace UnityEngine::UI {
   static check_size<sizeof(RectMask2D), 128 + sizeof(::ArrayW<UnityEngine::Vector3>)> __UnityEngine_UI_RectMask2DSizeCheck;
   static_assert(sizeof(RectMask2D) == 0x88);
 }
+NEED_NO_BOX(UnityEngine::UI::RectMask2D);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::RectMask2D*, "UnityEngine.UI", "RectMask2D");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::RectMask2D::get_padding

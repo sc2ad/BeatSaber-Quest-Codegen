@@ -174,6 +174,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BTSCharacterSpawnController), 80 + sizeof(UnityEngine::Coroutine*)> __GlobalNamespace_BTSCharacterSpawnControllerSizeCheck;
   static_assert(sizeof(BTSCharacterSpawnController) == 0x58);
 }
+NEED_NO_BOX(GlobalNamespace::BTSCharacterSpawnController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterSpawnController*, "", "BTSCharacterSpawnController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacterSpawnController::get_isCharacterVisible

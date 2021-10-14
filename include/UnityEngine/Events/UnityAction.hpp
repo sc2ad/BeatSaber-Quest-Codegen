@@ -48,6 +48,7 @@ namespace UnityEngine::Events {
   }; // UnityEngine.Events.UnityAction
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::Events::UnityAction);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Events::UnityAction*, "UnityEngine.Events", "UnityAction");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Events::UnityAction::New_ctor

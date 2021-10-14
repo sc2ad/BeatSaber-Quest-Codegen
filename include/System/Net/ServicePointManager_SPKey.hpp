@@ -82,6 +82,7 @@ namespace System::Net {
   static check_size<sizeof(ServicePointManager::SPKey), 32 + sizeof(bool)> __System_Net_ServicePointManager_SPKeySizeCheck;
   static_assert(sizeof(ServicePointManager::SPKey) == 0x21);
 }
+NEED_NO_BOX(System::Net::ServicePointManager::SPKey);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::ServicePointManager::SPKey*, "System.Net", "ServicePointManager/SPKey");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::ServicePointManager::SPKey::get_UsesProxy

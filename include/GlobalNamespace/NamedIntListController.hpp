@@ -119,6 +119,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(NamedIntListController), 56 + sizeof(System::Action_1<int>*)> __GlobalNamespace_NamedIntListControllerSizeCheck;
   static_assert(sizeof(NamedIntListController) == 0x40);
 }
+NEED_NO_BOX(GlobalNamespace::NamedIntListController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NamedIntListController*, "", "NamedIntListController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NamedIntListController::add_valueChangedEvent

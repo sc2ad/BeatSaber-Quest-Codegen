@@ -217,6 +217,7 @@ namespace System::Security::Cryptography {
   static check_size<sizeof(RSACryptoServiceProvider), 48 + sizeof(Mono::Security::Cryptography::RSAManaged*)> __System_Security_Cryptography_RSACryptoServiceProviderSizeCheck;
   static_assert(sizeof(RSACryptoServiceProvider) == 0x38);
 }
+NEED_NO_BOX(System::Security::Cryptography::RSACryptoServiceProvider);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RSACryptoServiceProvider*, "System.Security.Cryptography", "RSACryptoServiceProvider");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::RSACryptoServiceProvider::get_UseMachineKeyStore

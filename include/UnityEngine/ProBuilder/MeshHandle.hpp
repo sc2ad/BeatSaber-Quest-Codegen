@@ -67,6 +67,7 @@ namespace UnityEngine::ProBuilder {
   static check_size<sizeof(MeshHandle), 24 + sizeof(UnityEngine::Mesh*)> __UnityEngine_ProBuilder_MeshHandleSizeCheck;
   static_assert(sizeof(MeshHandle) == 0x20);
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::MeshHandle);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshHandle*, "UnityEngine.ProBuilder", "MeshHandle");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshHandle::get_mesh

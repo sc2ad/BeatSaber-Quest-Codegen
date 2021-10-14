@@ -176,6 +176,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(AudioLatencyViewController), 176 + sizeof(HMUI::ToggleBinder*)> __GlobalNamespace_AudioLatencyViewControllerSizeCheck;
   static_assert(sizeof(AudioLatencyViewController) == 0xB8);
 }
+NEED_NO_BOX(GlobalNamespace::AudioLatencyViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioLatencyViewController*, "", "AudioLatencyViewController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AudioLatencyViewController::SliderValueDidChange

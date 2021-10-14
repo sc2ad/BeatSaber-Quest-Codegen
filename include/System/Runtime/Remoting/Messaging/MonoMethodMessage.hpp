@@ -295,6 +295,7 @@ namespace System::Runtime::Remoting::Messaging {
   static check_size<sizeof(MonoMethodMessage), 112 + sizeof(System::Runtime::Remoting::Identity*)> __System_Runtime_Remoting_Messaging_MonoMethodMessageSizeCheck;
   static_assert(sizeof(MonoMethodMessage) == 0x78);
 }
+NEED_NO_BOX(System::Runtime::Remoting::Messaging::MonoMethodMessage);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::MonoMethodMessage*, "System.Runtime.Remoting.Messaging", "MonoMethodMessage");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::MonoMethodMessage::get_Properties

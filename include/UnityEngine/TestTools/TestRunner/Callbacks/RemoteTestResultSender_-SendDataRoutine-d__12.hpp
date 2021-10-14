@@ -105,6 +105,7 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
   static check_size<sizeof(RemoteTestResultSender::$SendDataRoutine$d__12), 48 + sizeof(bool)> __UnityEngine_TestTools_TestRunner_Callbacks_RemoteTestResultSender_$SendDataRoutine$d__12SizeCheck;
   static_assert(sizeof(RemoteTestResultSender::$SendDataRoutine$d__12) == 0x31);
 }
+NEED_NO_BOX(UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender::$SendDataRoutine$d__12);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender::$SendDataRoutine$d__12*, "UnityEngine.TestTools.TestRunner.Callbacks", "RemoteTestResultSender/<SendDataRoutine>d__12");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender::$SendDataRoutine$d__12::System_Collections_Generic_IEnumerator$System_Object$_get_Current

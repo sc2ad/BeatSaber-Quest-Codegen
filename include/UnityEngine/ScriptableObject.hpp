@@ -64,6 +64,7 @@ namespace UnityEngine {
   }; // UnityEngine.ScriptableObject
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::ScriptableObject);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ScriptableObject*, "UnityEngine", "ScriptableObject");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ScriptableObject::CreateInstance

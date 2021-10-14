@@ -58,6 +58,7 @@ namespace Oculus::Platform::Models {
   static check_size<sizeof(SystemVoipState), 20 + sizeof(Oculus::Platform::SystemVoipStatus)> __Oculus_Platform_Models_SystemVoipStateSizeCheck;
   static_assert(sizeof(SystemVoipState) == 0x18);
 }
+NEED_NO_BOX(Oculus::Platform::Models::SystemVoipState);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::SystemVoipState*, "Oculus.Platform.Models", "SystemVoipState");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::SystemVoipState::New_ctor

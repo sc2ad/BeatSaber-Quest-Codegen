@@ -47,6 +47,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
   }; // Org.BouncyCastle.Asn1.X509.CrlNumber
   #pragma pack(pop)
 }
+NEED_NO_BOX(Org::BouncyCastle::Asn1::X509::CrlNumber);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::CrlNumber*, "Org.BouncyCastle.Asn1.X509", "CrlNumber");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::CrlNumber::get_Number

@@ -53,6 +53,7 @@ namespace Org::BouncyCastle::Crypto::Paddings {
   }; // Org.BouncyCastle.Crypto.Paddings.TbcPadding
   #pragma pack(pop)
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Paddings::TbcPadding);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Paddings::TbcPadding*, "Org.BouncyCastle.Crypto.Paddings", "TbcPadding");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Paddings::TbcPadding::Init

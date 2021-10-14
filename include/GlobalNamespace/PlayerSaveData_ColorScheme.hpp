@@ -88,6 +88,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PlayerSaveData::ColorScheme), 88 + sizeof(UnityEngine::Color)> __GlobalNamespace_PlayerSaveData_ColorSchemeSizeCheck;
   static_assert(sizeof(PlayerSaveData::ColorScheme) == 0x68);
 }
+NEED_NO_BOX(GlobalNamespace::PlayerSaveData::ColorScheme);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveData::ColorScheme*, "", "PlayerSaveData/ColorScheme");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSaveData::ColorScheme::New_ctor

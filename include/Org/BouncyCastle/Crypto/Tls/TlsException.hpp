@@ -40,6 +40,7 @@ namespace Org::BouncyCastle::Crypto::Tls {
   }; // Org.BouncyCastle.Crypto.Tls.TlsException
   #pragma pack(pop)
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Tls::TlsException);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::TlsException*, "Org.BouncyCastle.Crypto.Tls", "TlsException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Tls::TlsException::New_ctor

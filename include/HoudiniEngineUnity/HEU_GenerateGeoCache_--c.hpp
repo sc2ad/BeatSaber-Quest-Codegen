@@ -70,6 +70,7 @@ namespace HoudiniEngineUnity {
   }; // HoudiniEngineUnity.HEU_GenerateGeoCache/HoudiniEngineUnity.<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_GenerateGeoCache::$$c);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_GenerateGeoCache::$$c*, "HoudiniEngineUnity", "HEU_GenerateGeoCache/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GenerateGeoCache::$$c::_cctor

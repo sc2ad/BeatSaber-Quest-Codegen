@@ -57,6 +57,7 @@ namespace Oculus::Platform::Models {
   static check_size<sizeof(LaunchInvitePanelFlowResult), 16 + sizeof(Oculus::Platform::Models::UserList*)> __Oculus_Platform_Models_LaunchInvitePanelFlowResultSizeCheck;
   static_assert(sizeof(LaunchInvitePanelFlowResult) == 0x18);
 }
+NEED_NO_BOX(Oculus::Platform::Models::LaunchInvitePanelFlowResult);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::LaunchInvitePanelFlowResult*, "Oculus.Platform.Models", "LaunchInvitePanelFlowResult");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::LaunchInvitePanelFlowResult::New_ctor

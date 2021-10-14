@@ -222,6 +222,7 @@ namespace UnityEngine::ResourceManagement::Util {
   }; // UnityEngine.ResourceManagement.Util.DelayedActionManager
   // WARNING Not writing size check since size may be invalid!
 }
+NEED_NO_BOX(UnityEngine::ResourceManagement::Util::DelayedActionManager);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Util::DelayedActionManager*, "UnityEngine.ResourceManagement.Util", "DelayedActionManager");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Util::DelayedActionManager::DelegateInfo, "UnityEngine.ResourceManagement.Util", "DelayedActionManager/DelegateInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -30,6 +30,7 @@ namespace System::Net::NetworkInformation {
   }; // System.Net.NetworkInformation.IPv4InterfaceStatistics
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Net::NetworkInformation::IPv4InterfaceStatistics);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::IPv4InterfaceStatistics*, "System.Net.NetworkInformation", "IPv4InterfaceStatistics");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::NetworkInformation::IPv4InterfaceStatistics::New_ctor

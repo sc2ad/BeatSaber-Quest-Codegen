@@ -33,6 +33,7 @@ namespace System::Security::Cryptography {
   }; // System.Security.Cryptography.RSAPKCS1SHA512SignatureDescription
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Security::Cryptography::RSAPKCS1SHA512SignatureDescription);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RSAPKCS1SHA512SignatureDescription*, "System.Security.Cryptography", "RSAPKCS1SHA512SignatureDescription");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::RSAPKCS1SHA512SignatureDescription::New_ctor

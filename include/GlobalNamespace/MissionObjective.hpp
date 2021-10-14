@@ -157,6 +157,7 @@ namespace GlobalNamespace {
   // Offset: 0x120F9CC
   bool operator !=(GlobalNamespace::MissionObjective* obj1, GlobalNamespace::MissionObjective& obj2);
 }
+NEED_NO_BOX(GlobalNamespace::MissionObjective);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjective*, "", "MissionObjective");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjective::ReferenceValueComparisonType, "", "MissionObjective/ReferenceValueComparisonType");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

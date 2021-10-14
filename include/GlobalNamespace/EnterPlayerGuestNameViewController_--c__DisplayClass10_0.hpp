@@ -73,6 +73,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(EnterPlayerGuestNameViewController::$$c__DisplayClass10_0), 24 + sizeof(GlobalNamespace::EnterPlayerGuestNameViewController*)> __GlobalNamespace_EnterPlayerGuestNameViewController_$$c__DisplayClass10_0SizeCheck;
   static_assert(sizeof(EnterPlayerGuestNameViewController::$$c__DisplayClass10_0) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::EnterPlayerGuestNameViewController::$$c__DisplayClass10_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnterPlayerGuestNameViewController::$$c__DisplayClass10_0*, "", "EnterPlayerGuestNameViewController/<>c__DisplayClass10_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EnterPlayerGuestNameViewController::$$c__DisplayClass10_0::$DidActivate$b__0

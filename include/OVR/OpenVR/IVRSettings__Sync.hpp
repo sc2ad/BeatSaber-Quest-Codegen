@@ -56,6 +56,7 @@ namespace OVR::OpenVR {
   }; // OVR.OpenVR.IVRSettings/OVR.OpenVR._Sync
   #pragma pack(pop)
 }
+NEED_NO_BOX(OVR::OpenVR::IVRSettings::_Sync);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRSettings::_Sync*, "OVR.OpenVR", "IVRSettings/_Sync");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVRSettings::_Sync::New_ctor

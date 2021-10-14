@@ -238,6 +238,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(IKConstraintBend), 133 + sizeof(bool)> __RootMotion_FinalIK_IKConstraintBendSizeCheck;
   static_assert(sizeof(IKConstraintBend) == 0x86);
 }
+NEED_NO_BOX(RootMotion::FinalIK::IKConstraintBend);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKConstraintBend*, "RootMotion.FinalIK", "IKConstraintBend");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKConstraintBend::get_initiated

@@ -86,6 +86,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BTSCharacterSpawnController::$TimelineStoppedDelayed$d__19), 32 + sizeof(GlobalNamespace::BTSCharacterSpawnController*)> __GlobalNamespace_BTSCharacterSpawnController_$TimelineStoppedDelayed$d__19SizeCheck;
   static_assert(sizeof(BTSCharacterSpawnController::$TimelineStoppedDelayed$d__19) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::BTSCharacterSpawnController::$TimelineStoppedDelayed$d__19);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterSpawnController::$TimelineStoppedDelayed$d__19*, "", "BTSCharacterSpawnController/<TimelineStoppedDelayed>d__19");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacterSpawnController::$TimelineStoppedDelayed$d__19::System_Collections_Generic_IEnumerator$System_Object$_get_Current

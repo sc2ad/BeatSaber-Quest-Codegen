@@ -271,6 +271,7 @@ namespace RootMotion::Demos {
   static check_size<sizeof(Navigator), 104 + sizeof(float)> __RootMotion_Demos_NavigatorSizeCheck;
   static_assert(sizeof(Navigator) == 0x6C);
 }
+NEED_NO_BOX(RootMotion::Demos::Navigator);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::Demos::Navigator*, "RootMotion.Demos", "Navigator");
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::Demos::Navigator::State, "RootMotion.Demos", "Navigator/State");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

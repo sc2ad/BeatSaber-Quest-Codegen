@@ -475,6 +475,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRMixedRealityCaptureSettings), 168 + sizeof(GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate*)> __GlobalNamespace_OVRMixedRealityCaptureSettingsSizeCheck;
   static_assert(sizeof(OVRMixedRealityCaptureSettings) == 0xB0);
 }
+NEED_NO_BOX(GlobalNamespace::OVRMixedRealityCaptureSettings);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMixedRealityCaptureSettings*, "", "OVRMixedRealityCaptureSettings");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_get_enableMixedReality

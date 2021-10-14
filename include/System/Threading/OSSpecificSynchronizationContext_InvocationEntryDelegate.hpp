@@ -50,6 +50,7 @@ namespace System::Threading {
   }; // System.Threading.OSSpecificSynchronizationContext/System.Threading.InvocationEntryDelegate
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Threading::OSSpecificSynchronizationContext::InvocationEntryDelegate);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::OSSpecificSynchronizationContext::InvocationEntryDelegate*, "System.Threading", "OSSpecificSynchronizationContext/InvocationEntryDelegate");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::OSSpecificSynchronizationContext::InvocationEntryDelegate::New_ctor

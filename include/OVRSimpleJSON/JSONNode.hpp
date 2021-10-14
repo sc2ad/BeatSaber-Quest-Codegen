@@ -340,6 +340,7 @@ namespace OVRSimpleJSON {
   // Offset: 0x17F581C
   bool operator !=(OVRSimpleJSON::JSONNode* a, ::Il2CppObject& b);
 }
+NEED_NO_BOX(OVRSimpleJSON::JSONNode);
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONNode*, "OVRSimpleJSON", "JSONNode");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONNode::get_Tag

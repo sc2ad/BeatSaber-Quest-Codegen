@@ -43,6 +43,7 @@ namespace System::Net::Http::Headers {
   }; // System.Net.Http.Headers.Parser/System.Net.Http.Headers.DateTime/System.Net.Http.Headers.<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Net::Http::Headers::Parser::DateTime::$$c);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::Parser::DateTime::$$c*, "System.Net.Http.Headers", "Parser/DateTime/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Http::Headers::Parser::DateTime::$$c::_cctor

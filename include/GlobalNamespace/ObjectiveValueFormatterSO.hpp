@@ -38,6 +38,7 @@ namespace GlobalNamespace {
   }; // ObjectiveValueFormatterSO
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::ObjectiveValueFormatterSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObjectiveValueFormatterSO*, "", "ObjectiveValueFormatterSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ObjectiveValueFormatterSO::FormatValue

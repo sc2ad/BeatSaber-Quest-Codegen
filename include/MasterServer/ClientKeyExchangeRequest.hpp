@@ -98,6 +98,7 @@ namespace MasterServer {
   static check_size<sizeof(ClientKeyExchangeRequest), 24 + sizeof(GlobalNamespace::ByteArrayNetSerializable*)> __MasterServer_ClientKeyExchangeRequestSizeCheck;
   static_assert(sizeof(ClientKeyExchangeRequest) == 0x20);
 }
+NEED_NO_BOX(MasterServer::ClientKeyExchangeRequest);
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::ClientKeyExchangeRequest*, "MasterServer", "ClientKeyExchangeRequest");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: MasterServer::ClientKeyExchangeRequest::get_pool

@@ -55,6 +55,7 @@ namespace UnityEngine {
   static check_size<sizeof(MultilineAttribute), 16 + sizeof(int)> __UnityEngine_MultilineAttributeSizeCheck;
   static_assert(sizeof(MultilineAttribute) == 0x14);
 }
+NEED_NO_BOX(UnityEngine::MultilineAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::MultilineAttribute*, "UnityEngine", "MultilineAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::MultilineAttribute::New_ctor

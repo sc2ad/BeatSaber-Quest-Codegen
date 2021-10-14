@@ -34,6 +34,7 @@ namespace JetBrains::Annotations {
   }; // JetBrains.Annotations.InstantHandleAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(JetBrains::Annotations::InstantHandleAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::InstantHandleAttribute*, "JetBrains.Annotations", "InstantHandleAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: JetBrains::Annotations::InstantHandleAttribute::New_ctor

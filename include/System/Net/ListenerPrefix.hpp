@@ -128,6 +128,7 @@ namespace System::Net {
   static check_size<sizeof(ListenerPrefix), 56 + sizeof(System::Net::HttpListener*)> __System_Net_ListenerPrefixSizeCheck;
   static_assert(sizeof(ListenerPrefix) == 0x40);
 }
+NEED_NO_BOX(System::Net::ListenerPrefix);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::ListenerPrefix*, "System.Net", "ListenerPrefix");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::ListenerPrefix::get_Secure

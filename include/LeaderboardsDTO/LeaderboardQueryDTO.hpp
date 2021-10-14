@@ -139,6 +139,7 @@ namespace LeaderboardsDTO {
   static check_size<sizeof(LeaderboardQueryDTO), 48 + sizeof(bool)> __LeaderboardsDTO_LeaderboardQueryDTOSizeCheck;
   static_assert(sizeof(LeaderboardQueryDTO) == 0x31);
 }
+NEED_NO_BOX(LeaderboardsDTO::LeaderboardQueryDTO);
 DEFINE_IL2CPP_ARG_TYPE(LeaderboardsDTO::LeaderboardQueryDTO*, "LeaderboardsDTO", "LeaderboardQueryDTO");
 DEFINE_IL2CPP_ARG_TYPE(LeaderboardsDTO::LeaderboardQueryDTO::ScoresScope, "LeaderboardsDTO", "LeaderboardQueryDTO/ScoresScope");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

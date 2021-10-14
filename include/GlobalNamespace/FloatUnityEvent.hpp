@@ -32,6 +32,7 @@ namespace GlobalNamespace {
     }
   }; // FloatUnityEvent
 }
+NEED_NO_BOX(GlobalNamespace::FloatUnityEvent);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FloatUnityEvent*, "", "FloatUnityEvent");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FloatUnityEvent::New_ctor

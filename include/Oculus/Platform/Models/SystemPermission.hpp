@@ -58,6 +58,7 @@ namespace Oculus::Platform::Models {
   static check_size<sizeof(SystemPermission), 20 + sizeof(Oculus::Platform::PermissionGrantStatus)> __Oculus_Platform_Models_SystemPermissionSizeCheck;
   static_assert(sizeof(SystemPermission) == 0x18);
 }
+NEED_NO_BOX(Oculus::Platform::Models::SystemPermission);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::SystemPermission*, "Oculus.Platform.Models", "SystemPermission");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::SystemPermission::New_ctor

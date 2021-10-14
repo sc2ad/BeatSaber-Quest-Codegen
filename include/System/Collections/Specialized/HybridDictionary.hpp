@@ -127,6 +127,7 @@ namespace System::Collections::Specialized {
   static check_size<sizeof(HybridDictionary), 32 + sizeof(bool)> __System_Collections_Specialized_HybridDictionarySizeCheck;
   static_assert(sizeof(HybridDictionary) == 0x21);
 }
+NEED_NO_BOX(System::Collections::Specialized::HybridDictionary);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::HybridDictionary*, "System.Collections.Specialized", "HybridDictionary");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::Specialized::HybridDictionary::get_Item

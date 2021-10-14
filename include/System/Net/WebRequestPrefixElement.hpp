@@ -78,6 +78,7 @@ namespace System::Net {
   static check_size<sizeof(WebRequestPrefixElement), 32 + sizeof(System::Type*)> __System_Net_WebRequestPrefixElementSizeCheck;
   static_assert(sizeof(WebRequestPrefixElement) == 0x28);
 }
+NEED_NO_BOX(System::Net::WebRequestPrefixElement);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebRequestPrefixElement*, "System.Net", "WebRequestPrefixElement");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::WebRequestPrefixElement::get_Creator

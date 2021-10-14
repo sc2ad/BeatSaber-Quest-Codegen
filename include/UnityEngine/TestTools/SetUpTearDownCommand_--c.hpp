@@ -60,6 +60,7 @@ namespace UnityEngine::TestTools {
   }; // UnityEngine.TestTools.SetUpTearDownCommand/UnityEngine.TestTools.<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::TestTools::SetUpTearDownCommand::$$c);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::SetUpTearDownCommand::$$c*, "UnityEngine.TestTools", "SetUpTearDownCommand/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::SetUpTearDownCommand::$$c::_cctor

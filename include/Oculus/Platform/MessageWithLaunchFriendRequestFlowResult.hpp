@@ -46,6 +46,7 @@ namespace Oculus::Platform {
     Oculus::Platform::Models::LaunchFriendRequestFlowResult* GetLaunchFriendRequestFlowResult();
   }; // Oculus.Platform.MessageWithLaunchFriendRequestFlowResult
 }
+NEED_NO_BOX(Oculus::Platform::MessageWithLaunchFriendRequestFlowResult);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithLaunchFriendRequestFlowResult*, "Oculus.Platform", "MessageWithLaunchFriendRequestFlowResult");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithLaunchFriendRequestFlowResult::GetDataFromMessage

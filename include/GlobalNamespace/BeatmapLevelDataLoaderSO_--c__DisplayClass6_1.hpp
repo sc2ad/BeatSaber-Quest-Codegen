@@ -64,6 +64,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BeatmapLevelDataLoaderSO::$$c__DisplayClass6_1), 24 + sizeof(GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_0*)> __GlobalNamespace_BeatmapLevelDataLoaderSO_$$c__DisplayClass6_1SizeCheck;
   static_assert(sizeof(BeatmapLevelDataLoaderSO::$$c__DisplayClass6_1) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_1);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_1*, "", "BeatmapLevelDataLoaderSO/<>c__DisplayClass6_1");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_1::New_ctor

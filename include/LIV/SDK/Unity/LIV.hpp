@@ -96,6 +96,7 @@ namespace LIV::SDK::Unity {
   static check_size<sizeof(LIV), 44 + sizeof(UnityEngine::LayerMask)> __LIV_SDK_Unity_LIVSizeCheck;
   static_assert(sizeof(LIV) == 0x30);
 }
+NEED_NO_BOX(LIV::SDK::Unity::LIV);
 DEFINE_IL2CPP_ARG_TYPE(LIV::SDK::Unity::LIV*, "LIV.SDK.Unity", "LIV");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LIV::SDK::Unity::LIV::New_ctor

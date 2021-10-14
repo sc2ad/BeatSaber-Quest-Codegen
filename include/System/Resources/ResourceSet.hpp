@@ -134,6 +134,7 @@ namespace System::Resources {
   static check_size<sizeof(ResourceSet), 32 + sizeof(System::Collections::Hashtable*)> __System_Resources_ResourceSetSizeCheck;
   static_assert(sizeof(ResourceSet) == 0x28);
 }
+NEED_NO_BOX(System::Resources::ResourceSet);
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::ResourceSet*, "System.Resources", "ResourceSet");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Resources::ResourceSet::New_ctor

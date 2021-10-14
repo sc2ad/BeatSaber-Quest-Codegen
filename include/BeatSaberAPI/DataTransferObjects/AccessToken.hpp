@@ -54,6 +54,7 @@ namespace BeatSaberAPI::DataTransferObjects {
   static check_size<sizeof(AccessToken), 24 + sizeof(::Il2CppString*)> __BeatSaberAPI_DataTransferObjects_AccessTokenSizeCheck;
   static_assert(sizeof(AccessToken) == 0x20);
 }
+NEED_NO_BOX(BeatSaberAPI::DataTransferObjects::AccessToken);
 DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::AccessToken*, "BeatSaberAPI.DataTransferObjects", "AccessToken");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: BeatSaberAPI::DataTransferObjects::AccessToken::New_ctor

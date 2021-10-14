@@ -39,6 +39,7 @@ namespace NUnit::Framework::Interfaces {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(NUnit::Framework::Interfaces::ICombiningStrategy);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::ICombiningStrategy*, "NUnit.Framework.Interfaces", "ICombiningStrategy");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::ICombiningStrategy::GetTestCases

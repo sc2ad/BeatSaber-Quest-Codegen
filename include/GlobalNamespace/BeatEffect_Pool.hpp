@@ -35,6 +35,7 @@ namespace GlobalNamespace {
     }
   }; // BeatEffect/Pool
 }
+NEED_NO_BOX(GlobalNamespace::BeatEffect::Pool);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatEffect::Pool*, "", "BeatEffect/Pool");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatEffect::Pool::New_ctor

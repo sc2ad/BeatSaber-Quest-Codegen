@@ -97,6 +97,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_ThreadedTaskLoadGeo::HEU_LoadObject), 40 + sizeof(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_LoadBufferInstancer*>*)> __HoudiniEngineUnity_HEU_ThreadedTaskLoadGeo_HEU_LoadObjectSizeCheck;
   static_assert(sizeof(HEU_ThreadedTaskLoadGeo::HEU_LoadObject) == 0x30);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::HEU_LoadObject);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::HEU_LoadObject*, "HoudiniEngineUnity", "HEU_ThreadedTaskLoadGeo/HEU_LoadObject");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::HEU_LoadObject::New_ctor

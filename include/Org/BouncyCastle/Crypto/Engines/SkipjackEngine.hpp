@@ -129,6 +129,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
   static check_size<sizeof(SkipjackEngine), 48 + sizeof(bool)> __Org_BouncyCastle_Crypto_Engines_SkipjackEngineSizeCheck;
   static_assert(sizeof(SkipjackEngine) == 0x31);
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Engines::SkipjackEngine);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::SkipjackEngine*, "Org.BouncyCastle.Crypto.Engines", "SkipjackEngine");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::SkipjackEngine::get_AlgorithmName

@@ -74,6 +74,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   static check_size<sizeof(LegacyResourcesProvider::InternalOp), 24 + sizeof(UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle)> __UnityEngine_ResourceManagement_ResourceProviders_LegacyResourcesProvider_InternalOpSizeCheck;
   static_assert(sizeof(LegacyResourcesProvider::InternalOp) == 0x30);
 }
+NEED_NO_BOX(UnityEngine::ResourceManagement::ResourceProviders::LegacyResourcesProvider::InternalOp);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::LegacyResourcesProvider::InternalOp*, "UnityEngine.ResourceManagement.ResourceProviders", "LegacyResourcesProvider/InternalOp");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::LegacyResourcesProvider::InternalOp::Start

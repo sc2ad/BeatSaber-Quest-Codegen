@@ -103,6 +103,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BakedLightDataLoader), 32 + sizeof(UnityEngine::Texture2D*)> __GlobalNamespace_BakedLightDataLoaderSizeCheck;
   static_assert(sizeof(BakedLightDataLoader) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::BakedLightDataLoader);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BakedLightDataLoader*, "", "BakedLightDataLoader");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BakedLightDataLoader::get_lightmapData

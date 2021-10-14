@@ -61,6 +61,7 @@ namespace UnityEngine {
   static check_size<sizeof(AddComponentMenu), 24 + sizeof(int)> __UnityEngine_AddComponentMenuSizeCheck;
   static_assert(sizeof(AddComponentMenu) == 0x1C);
 }
+NEED_NO_BOX(UnityEngine::AddComponentMenu);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddComponentMenu*, "UnityEngine", "AddComponentMenu");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddComponentMenu::New_ctor

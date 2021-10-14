@@ -109,6 +109,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
   static check_size<sizeof(RsaCoreEngine), 28 + sizeof(int)> __Org_BouncyCastle_Crypto_Engines_RsaCoreEngineSizeCheck;
   static_assert(sizeof(RsaCoreEngine) == 0x20);
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Engines::RsaCoreEngine);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::RsaCoreEngine*, "Org.BouncyCastle.Crypto.Engines", "RsaCoreEngine");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::RsaCoreEngine::CheckInitialised

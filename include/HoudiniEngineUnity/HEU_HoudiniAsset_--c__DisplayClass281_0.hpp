@@ -71,6 +71,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_HoudiniAsset::$$c__DisplayClass281_0), 16 + sizeof(System::Collections::Generic::List_1<HoudiniEngineUnity::TransformData>*)> __HoudiniEngineUnity_HEU_HoudiniAsset_$$c__DisplayClass281_0SizeCheck;
   static_assert(sizeof(HEU_HoudiniAsset::$$c__DisplayClass281_0) == 0x18);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_HoudiniAsset::$$c__DisplayClass281_0);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_HoudiniAsset::$$c__DisplayClass281_0*, "HoudiniEngineUnity", "HEU_HoudiniAsset/<>c__DisplayClass281_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HoudiniAsset::$$c__DisplayClass281_0::$BakeToExistingPrefab$b__0

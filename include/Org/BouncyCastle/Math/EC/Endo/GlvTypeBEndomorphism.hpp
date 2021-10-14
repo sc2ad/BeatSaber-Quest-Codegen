@@ -87,6 +87,7 @@ namespace Org::BouncyCastle::Math::EC::Endo {
   static check_size<sizeof(GlvTypeBEndomorphism), 24 + sizeof(Org::BouncyCastle::Math::EC::ECPointMap*)> __Org_BouncyCastle_Math_EC_Endo_GlvTypeBEndomorphismSizeCheck;
   static_assert(sizeof(GlvTypeBEndomorphism) == 0x20);
 }
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism*, "Org.BouncyCastle.Math.EC.Endo", "GlvTypeBEndomorphism");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism::get_PointMap

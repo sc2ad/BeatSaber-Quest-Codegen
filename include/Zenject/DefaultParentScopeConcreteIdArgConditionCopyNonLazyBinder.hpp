@@ -65,6 +65,7 @@ namespace Zenject {
   static check_size<sizeof(DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder), 32 + sizeof(Zenject::SubContainerCreatorBindInfo*)> __Zenject_DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinderSizeCheck;
   static_assert(sizeof(DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder) == 0x28);
 }
+NEED_NO_BOX(Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder*, "Zenject", "DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder::get_SubContainerCreatorBindInfo

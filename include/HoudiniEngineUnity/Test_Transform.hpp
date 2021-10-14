@@ -67,6 +67,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(Test_Transform), 16 + sizeof(UnityEngine::Transform*)> __HoudiniEngineUnity_Test_TransformSizeCheck;
   static_assert(sizeof(Test_Transform) == 0x18);
 }
+NEED_NO_BOX(HoudiniEngineUnity::Test_Transform);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::Test_Transform*, "HoudiniEngineUnity", "Test_Transform");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::Test_Transform::New_ctor

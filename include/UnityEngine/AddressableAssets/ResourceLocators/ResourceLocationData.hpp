@@ -129,6 +129,7 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
   static check_size<sizeof(ResourceLocationData), 88 + sizeof(::Il2CppObject*)> __UnityEngine_AddressableAssets_ResourceLocators_ResourceLocationDataSizeCheck;
   static_assert(sizeof(ResourceLocationData) == 0x60);
 }
+NEED_NO_BOX(UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData*, "UnityEngine.AddressableAssets.ResourceLocators", "ResourceLocationData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData::get_Keys

@@ -121,6 +121,7 @@ namespace Zenject {
   static check_size<sizeof(ConventionBindInfo), 24 + sizeof(System::Collections::Generic::List_1<System::Func_2<System::Reflection::Assembly*, bool>*>*)> __Zenject_ConventionBindInfoSizeCheck;
   static_assert(sizeof(ConventionBindInfo) == 0x20);
 }
+NEED_NO_BOX(Zenject::ConventionBindInfo);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ConventionBindInfo*, "Zenject", "ConventionBindInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::ConventionBindInfo::_cctor

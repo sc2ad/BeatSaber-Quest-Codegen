@@ -104,6 +104,7 @@ namespace Zenject {
   static check_size<sizeof(CachedOpenTypeProvider), 24 + sizeof(System::Collections::Generic::Dictionary_2<System::Type*, Zenject::CachedProvider*>*)> __Zenject_CachedOpenTypeProviderSizeCheck;
   static_assert(sizeof(CachedOpenTypeProvider) == 0x20);
 }
+NEED_NO_BOX(Zenject::CachedOpenTypeProvider);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::CachedOpenTypeProvider*, "Zenject", "CachedOpenTypeProvider");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::CachedOpenTypeProvider::get_IsCached

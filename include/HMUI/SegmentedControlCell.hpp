@@ -86,6 +86,7 @@ namespace HMUI {
   static check_size<sizeof(SegmentedControlCell), 64 + sizeof(HMUI::SegmentedControl*)> __HMUI_SegmentedControlCellSizeCheck;
   static_assert(sizeof(SegmentedControlCell) == 0x48);
 }
+NEED_NO_BOX(HMUI::SegmentedControlCell);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SegmentedControlCell*, "HMUI", "SegmentedControlCell");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::SegmentedControlCell::get_cellNumber

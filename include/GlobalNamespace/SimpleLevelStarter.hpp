@@ -218,6 +218,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SimpleLevelStarter), 104 + sizeof(GlobalNamespace::GameplayModifiers*)> __GlobalNamespace_SimpleLevelStarterSizeCheck;
   static_assert(sizeof(SimpleLevelStarter) == 0x70);
 }
+NEED_NO_BOX(GlobalNamespace::SimpleLevelStarter);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleLevelStarter*, "", "SimpleLevelStarter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SimpleLevelStarter::Awake

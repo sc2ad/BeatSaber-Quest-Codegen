@@ -131,6 +131,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BeatmapDifficultySegmentedControlController), 48 + sizeof(GlobalNamespace::BeatmapDifficulty)> __GlobalNamespace_BeatmapDifficultySegmentedControlControllerSizeCheck;
   static_assert(sizeof(BeatmapDifficultySegmentedControlController) == 0x34);
 }
+NEED_NO_BOX(GlobalNamespace::BeatmapDifficultySegmentedControlController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDifficultySegmentedControlController*, "", "BeatmapDifficultySegmentedControlController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapDifficultySegmentedControlController::get_selectedDifficulty

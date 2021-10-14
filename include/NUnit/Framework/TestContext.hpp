@@ -57,6 +57,7 @@ namespace NUnit::Framework {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(NUnit::Framework::TestContext);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::TestContext*, "NUnit.Framework", "TestContext");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::TestContext::get_Out

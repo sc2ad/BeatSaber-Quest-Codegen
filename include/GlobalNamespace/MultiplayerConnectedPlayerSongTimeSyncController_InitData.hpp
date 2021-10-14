@@ -62,6 +62,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerConnectedPlayerSongTimeSyncController::InitData), 24 + sizeof(float)> __GlobalNamespace_MultiplayerConnectedPlayerSongTimeSyncController_InitDataSizeCheck;
   static_assert(sizeof(MultiplayerConnectedPlayerSongTimeSyncController::InitData) == 0x1C);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::InitData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::InitData*, "", "MultiplayerConnectedPlayerSongTimeSyncController/InitData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::InitData::New_ctor

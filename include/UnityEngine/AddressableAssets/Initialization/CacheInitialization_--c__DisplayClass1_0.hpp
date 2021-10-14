@@ -68,6 +68,7 @@ namespace UnityEngine::AddressableAssets::Initialization {
   static check_size<sizeof(CacheInitialization::$$c__DisplayClass1_0), 32 + sizeof(::Il2CppString*)> __UnityEngine_AddressableAssets_Initialization_CacheInitialization_$$c__DisplayClass1_0SizeCheck;
   static_assert(sizeof(CacheInitialization::$$c__DisplayClass1_0) == 0x28);
 }
+NEED_NO_BOX(UnityEngine::AddressableAssets::Initialization::CacheInitialization::$$c__DisplayClass1_0);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Initialization::CacheInitialization::$$c__DisplayClass1_0*, "UnityEngine.AddressableAssets.Initialization", "CacheInitialization/<>c__DisplayClass1_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Initialization::CacheInitialization::$$c__DisplayClass1_0::$InitializeAsync$b__0

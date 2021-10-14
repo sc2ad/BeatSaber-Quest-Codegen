@@ -63,6 +63,7 @@ namespace System::Net {
   }; // System.Net.BasicClient
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Net::BasicClient);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::BasicClient*, "System.Net", "BasicClient");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::BasicClient::get_AuthenticationType

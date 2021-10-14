@@ -53,6 +53,7 @@ namespace System::Runtime::CompilerServices {
   static check_size<sizeof(DefaultDependencyAttribute), 16 + sizeof(System::Runtime::CompilerServices::LoadHint)> __System_Runtime_CompilerServices_DefaultDependencyAttributeSizeCheck;
   static_assert(sizeof(DefaultDependencyAttribute) == 0x14);
 }
+NEED_NO_BOX(System::Runtime::CompilerServices::DefaultDependencyAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::DefaultDependencyAttribute*, "System.Runtime.CompilerServices", "DefaultDependencyAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::DefaultDependencyAttribute::New_ctor

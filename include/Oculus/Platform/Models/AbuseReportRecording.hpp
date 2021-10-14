@@ -50,6 +50,7 @@ namespace Oculus::Platform::Models {
   static check_size<sizeof(AbuseReportRecording), 16 + sizeof(::Il2CppString*)> __Oculus_Platform_Models_AbuseReportRecordingSizeCheck;
   static_assert(sizeof(AbuseReportRecording) == 0x18);
 }
+NEED_NO_BOX(Oculus::Platform::Models::AbuseReportRecording);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::AbuseReportRecording*, "Oculus.Platform.Models", "AbuseReportRecording");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::AbuseReportRecording::New_ctor

@@ -88,6 +88,7 @@ namespace System::Text {
   static check_size<sizeof(InternalEncoderBestFitFallback), 32 + sizeof(::ArrayW<::Il2CppChar>)> __System_Text_InternalEncoderBestFitFallbackSizeCheck;
   static_assert(sizeof(InternalEncoderBestFitFallback) == 0x28);
 }
+NEED_NO_BOX(System::Text::InternalEncoderBestFitFallback);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::InternalEncoderBestFitFallback*, "System.Text", "InternalEncoderBestFitFallback");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::InternalEncoderBestFitFallback::New_ctor

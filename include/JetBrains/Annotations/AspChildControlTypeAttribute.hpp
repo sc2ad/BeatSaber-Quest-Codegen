@@ -74,6 +74,7 @@ namespace JetBrains::Annotations {
   static check_size<sizeof(AspChildControlTypeAttribute), 24 + sizeof(System::Type*)> __JetBrains_Annotations_AspChildControlTypeAttributeSizeCheck;
   static_assert(sizeof(AspChildControlTypeAttribute) == 0x20);
 }
+NEED_NO_BOX(JetBrains::Annotations::AspChildControlTypeAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::AspChildControlTypeAttribute*, "JetBrains.Annotations", "AspChildControlTypeAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: JetBrains::Annotations::AspChildControlTypeAttribute::get_TagName

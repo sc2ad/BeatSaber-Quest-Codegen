@@ -62,6 +62,7 @@ namespace TMPro::SpriteAssetUtilities {
   static check_size<sizeof(TexturePacker::SpriteDataObject), 16 + sizeof(System::Collections::Generic::List_1<TMPro::SpriteAssetUtilities::TexturePacker::SpriteData>*)> __TMPro_SpriteAssetUtilities_TexturePacker_SpriteDataObjectSizeCheck;
   static_assert(sizeof(TexturePacker::SpriteDataObject) == 0x18);
 }
+NEED_NO_BOX(TMPro::SpriteAssetUtilities::TexturePacker::SpriteDataObject);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::SpriteAssetUtilities::TexturePacker::SpriteDataObject*, "TMPro.SpriteAssetUtilities", "TexturePacker/SpriteDataObject");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::SpriteAssetUtilities::TexturePacker::SpriteDataObject::New_ctor

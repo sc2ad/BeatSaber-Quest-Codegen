@@ -45,6 +45,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
   }; // Org.BouncyCastle.Crypto.Engines.ThreefishEngine/Org.BouncyCastle.Crypto.Engines.Threefish256Cipher
   #pragma pack(pop)
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Engines::ThreefishEngine::Threefish256Cipher);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::ThreefishEngine::Threefish256Cipher*, "Org.BouncyCastle.Crypto.Engines", "ThreefishEngine/Threefish256Cipher");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::ThreefishEngine::Threefish256Cipher::New_ctor

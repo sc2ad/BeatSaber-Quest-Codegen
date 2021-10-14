@@ -37,6 +37,7 @@ namespace UnityEngine::TestRunner::TestLaunchers {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::TestRunner::TestLaunchers::IRemoteTestResultDataFactory);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::TestLaunchers::IRemoteTestResultDataFactory*, "UnityEngine.TestRunner.TestLaunchers", "IRemoteTestResultDataFactory");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestRunner::TestLaunchers::IRemoteTestResultDataFactory::CreateFromTestResult

@@ -117,6 +117,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(HealthCheckService), 48 + sizeof(System::Net::HttpListener*)> __GlobalNamespace_HealthCheckServiceSizeCheck;
   static_assert(sizeof(HealthCheckService) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::HealthCheckService);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HealthCheckService*, "", "HealthCheckService");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HealthCheckService::New_ctor

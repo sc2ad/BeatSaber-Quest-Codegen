@@ -65,6 +65,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(TextMeshProAutosizeGroup), 24 + sizeof(::ArrayW<TMPro::TMP_Text*>)> __GlobalNamespace_TextMeshProAutosizeGroupSizeCheck;
   static_assert(sizeof(TextMeshProAutosizeGroup) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::TextMeshProAutosizeGroup);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TextMeshProAutosizeGroup*, "", "TextMeshProAutosizeGroup");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TextMeshProAutosizeGroup::Start

@@ -96,6 +96,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LobbyGameStateModel), 32 + sizeof(GlobalNamespace::MultiplayerGameState)> __GlobalNamespace_LobbyGameStateModelSizeCheck;
   static_assert(sizeof(LobbyGameStateModel) == 0x24);
 }
+NEED_NO_BOX(GlobalNamespace::LobbyGameStateModel);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LobbyGameStateModel*, "", "LobbyGameStateModel");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LobbyGameStateModel::get_gameState

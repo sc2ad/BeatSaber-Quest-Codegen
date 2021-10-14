@@ -51,6 +51,7 @@ namespace System::Net {
   }; // System.Net.FileWebRequestCreator
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Net::FileWebRequestCreator);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::FileWebRequestCreator*, "System.Net", "FileWebRequestCreator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::FileWebRequestCreator::Create

@@ -232,6 +232,7 @@ namespace RootMotion {
   static check_size<sizeof(HumanoidBaker), 264 + sizeof(UnityEngine::Quaternion)> __RootMotion_HumanoidBakerSizeCheck;
   static_assert(sizeof(HumanoidBaker) == 0x118);
 }
+NEED_NO_BOX(RootMotion::HumanoidBaker);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::HumanoidBaker*, "RootMotion", "HumanoidBaker");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::HumanoidBaker::Awake

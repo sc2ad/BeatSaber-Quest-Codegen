@@ -32,6 +32,7 @@ namespace LiteNetLib::Utils {
   }; // LiteNetLib.Utils.ParseException
   #pragma pack(pop)
 }
+NEED_NO_BOX(LiteNetLib::Utils::ParseException);
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::ParseException*, "LiteNetLib.Utils", "ParseException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::Utils::ParseException::New_ctor

@@ -107,6 +107,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(UserLoginDtoDataSource), 16 + sizeof(GlobalNamespace::IPlatformUserModel*)> __GlobalNamespace_UserLoginDtoDataSourceSizeCheck;
   static_assert(sizeof(UserLoginDtoDataSource) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::UserLoginDtoDataSource);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UserLoginDtoDataSource*, "", "UserLoginDtoDataSource");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::UserLoginDtoDataSource::GetPlatformUserIdAsync

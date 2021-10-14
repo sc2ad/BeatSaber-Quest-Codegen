@@ -46,6 +46,7 @@ namespace System::Net::NetworkInformation {
   }; // System.Net.NetworkInformation.IPGlobalProperties
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Net::NetworkInformation::IPGlobalProperties);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::IPGlobalProperties*, "System.Net.NetworkInformation", "IPGlobalProperties");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::NetworkInformation::IPGlobalProperties::get_PlatformNeedsLibCWorkaround

@@ -90,6 +90,7 @@ namespace System {
   static check_size<sizeof(Uri::UriInfo), 64 + sizeof(System::Uri::MoreInfo*)> __System_Uri_UriInfoSizeCheck;
   static_assert(sizeof(Uri::UriInfo) == 0x48);
 }
+NEED_NO_BOX(System::Uri::UriInfo);
 DEFINE_IL2CPP_ARG_TYPE(System::Uri::UriInfo*, "System", "Uri/UriInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Uri::UriInfo::New_ctor

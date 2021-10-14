@@ -55,6 +55,7 @@ namespace System::Runtime::Remoting::Messaging {
   }; // System.Runtime.Remoting.Messaging.HeaderHandler
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Runtime::Remoting::Messaging::HeaderHandler);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::HeaderHandler*, "System.Runtime.Remoting.Messaging", "HeaderHandler");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::HeaderHandler::New_ctor

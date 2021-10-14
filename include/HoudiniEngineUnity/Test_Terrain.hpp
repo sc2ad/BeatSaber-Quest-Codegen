@@ -67,6 +67,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(Test_Terrain), 16 + sizeof(UnityEngine::Terrain*)> __HoudiniEngineUnity_Test_TerrainSizeCheck;
   static_assert(sizeof(Test_Terrain) == 0x18);
 }
+NEED_NO_BOX(HoudiniEngineUnity::Test_Terrain);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::Test_Terrain*, "HoudiniEngineUnity", "Test_Terrain");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::Test_Terrain::New_ctor

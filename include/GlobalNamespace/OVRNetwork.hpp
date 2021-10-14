@@ -63,6 +63,7 @@ namespace GlobalNamespace {
   }; // OVRNetwork
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::OVRNetwork);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRNetwork*, "", "OVRNetwork");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRNetwork::New_ctor

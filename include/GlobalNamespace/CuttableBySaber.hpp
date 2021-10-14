@@ -89,6 +89,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(CuttableBySaber), 24 + sizeof(GlobalNamespace::CuttableBySaber::WasCutBySaberDelegate*)> __GlobalNamespace_CuttableBySaberSizeCheck;
   static_assert(sizeof(CuttableBySaber) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::CuttableBySaber);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CuttableBySaber*, "", "CuttableBySaber");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CuttableBySaber::get_canBeCut

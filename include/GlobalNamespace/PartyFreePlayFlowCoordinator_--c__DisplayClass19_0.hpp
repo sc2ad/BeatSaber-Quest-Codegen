@@ -95,6 +95,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PartyFreePlayFlowCoordinator::$$c__DisplayClass19_0), 48 + sizeof(bool)> __GlobalNamespace_PartyFreePlayFlowCoordinator_$$c__DisplayClass19_0SizeCheck;
   static_assert(sizeof(PartyFreePlayFlowCoordinator::$$c__DisplayClass19_0) == 0x31);
 }
+NEED_NO_BOX(GlobalNamespace::PartyFreePlayFlowCoordinator::$$c__DisplayClass19_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PartyFreePlayFlowCoordinator::$$c__DisplayClass19_0*, "", "PartyFreePlayFlowCoordinator/<>c__DisplayClass19_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PartyFreePlayFlowCoordinator::$$c__DisplayClass19_0::$ProcessLevelCompletionResultsAfterLevelDidFinish$b__0

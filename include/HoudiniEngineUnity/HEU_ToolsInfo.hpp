@@ -346,6 +346,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_ToolsInfo), 164 + sizeof(HoudiniEngineUnity::HEU_ToolsInfo::PaintMeshVisibility)> __HoudiniEngineUnity_HEU_ToolsInfoSizeCheck;
   static_assert(sizeof(HEU_ToolsInfo) == 0xA8);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_ToolsInfo);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_ToolsInfo*, "HoudiniEngineUnity", "HEU_ToolsInfo");
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_ToolsInfo::PaintMergeMode, "HoudiniEngineUnity", "HEU_ToolsInfo/PaintMergeMode");
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_ToolsInfo::PaintMeshVisibility, "HoudiniEngineUnity", "HEU_ToolsInfo/PaintMeshVisibility");

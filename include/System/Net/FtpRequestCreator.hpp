@@ -51,6 +51,7 @@ namespace System::Net {
   }; // System.Net.FtpRequestCreator
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Net::FtpRequestCreator);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::FtpRequestCreator*, "System.Net", "FtpRequestCreator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::FtpRequestCreator::Create

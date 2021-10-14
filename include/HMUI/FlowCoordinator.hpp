@@ -404,6 +404,7 @@ namespace HMUI {
   static check_size<sizeof(FlowCoordinator), 160 + sizeof(UnityEngine::EventSystems::EventSystem*)> __HMUI_FlowCoordinatorSizeCheck;
   static_assert(sizeof(FlowCoordinator) == 0xA8);
 }
+NEED_NO_BOX(HMUI::FlowCoordinator);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::FlowCoordinator*, "HMUI", "FlowCoordinator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::FlowCoordinator::get_topViewController

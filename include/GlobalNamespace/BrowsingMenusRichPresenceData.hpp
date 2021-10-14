@@ -79,6 +79,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BrowsingMenusRichPresenceData), 16 + sizeof(::Il2CppString*)> __GlobalNamespace_BrowsingMenusRichPresenceDataSizeCheck;
   static_assert(sizeof(BrowsingMenusRichPresenceData) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::BrowsingMenusRichPresenceData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BrowsingMenusRichPresenceData*, "", "BrowsingMenusRichPresenceData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BrowsingMenusRichPresenceData::get_apiName

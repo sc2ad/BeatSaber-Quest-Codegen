@@ -103,6 +103,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0), 40 + sizeof(System::Action*)> __GlobalNamespace_CoroutineHelpers_$ExecuteAfterDelayCoroutine$d__0SizeCheck;
   static_assert(sizeof(CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0*, "", "CoroutineHelpers/<ExecuteAfterDelayCoroutine>d__0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0::System_Collections_Generic_IEnumerator$System_Object$_get_Current

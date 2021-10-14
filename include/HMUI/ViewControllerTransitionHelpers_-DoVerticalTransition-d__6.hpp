@@ -119,6 +119,7 @@ namespace HMUI {
   static check_size<sizeof(ViewControllerTransitionHelpers::$DoVerticalTransition$d__6), 56 + sizeof(HMUI::ViewControllerTransitionHelpers::$$c__DisplayClass6_0*)> __HMUI_ViewControllerTransitionHelpers_$DoVerticalTransition$d__6SizeCheck;
   static_assert(sizeof(ViewControllerTransitionHelpers::$DoVerticalTransition$d__6) == 0x40);
 }
+NEED_NO_BOX(HMUI::ViewControllerTransitionHelpers::$DoVerticalTransition$d__6);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ViewControllerTransitionHelpers::$DoVerticalTransition$d__6*, "HMUI", "ViewControllerTransitionHelpers/<DoVerticalTransition>d__6");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::ViewControllerTransitionHelpers::$DoVerticalTransition$d__6::System_Collections_Generic_IEnumerator$System_Object$_get_Current

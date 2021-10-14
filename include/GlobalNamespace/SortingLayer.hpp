@@ -67,6 +67,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SortingLayer), 24 + sizeof(UnityEngine::Renderer*)> __GlobalNamespace_SortingLayerSizeCheck;
   static_assert(sizeof(SortingLayer) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::SortingLayer);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SortingLayer*, "", "SortingLayer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SortingLayer::get_renderer

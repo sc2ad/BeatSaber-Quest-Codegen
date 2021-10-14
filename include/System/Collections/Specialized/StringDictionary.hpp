@@ -73,6 +73,7 @@ namespace System::Collections::Specialized {
   static check_size<sizeof(StringDictionary), 16 + sizeof(System::Collections::Hashtable*)> __System_Collections_Specialized_StringDictionarySizeCheck;
   static_assert(sizeof(StringDictionary) == 0x18);
 }
+NEED_NO_BOX(System::Collections::Specialized::StringDictionary);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::StringDictionary*, "System.Collections.Specialized", "StringDictionary");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::Specialized::StringDictionary::Add

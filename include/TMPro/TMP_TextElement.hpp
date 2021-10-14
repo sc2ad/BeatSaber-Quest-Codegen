@@ -116,6 +116,7 @@ namespace TMPro {
   static check_size<sizeof(TMP_TextElement), 36 + sizeof(float)> __TMPro_TMP_TextElementSizeCheck;
   static_assert(sizeof(TMP_TextElement) == 0x28);
 }
+NEED_NO_BOX(TMPro::TMP_TextElement);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_TextElement*, "TMPro", "TMP_TextElement");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_TextElement::get_elementType

@@ -85,6 +85,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
   static check_size<sizeof(NullDigest), 16 + sizeof(System::IO::MemoryStream*)> __Org_BouncyCastle_Crypto_Digests_NullDigestSizeCheck;
   static_assert(sizeof(NullDigest) == 0x18);
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Digests::NullDigest);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::NullDigest*, "Org.BouncyCastle.Crypto.Digests", "NullDigest");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::NullDigest::get_AlgorithmName

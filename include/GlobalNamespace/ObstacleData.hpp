@@ -107,6 +107,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ObstacleData), 32 + sizeof(int)> __GlobalNamespace_ObstacleDataSizeCheck;
   static_assert(sizeof(ObstacleData) == 0x24);
 }
+NEED_NO_BOX(GlobalNamespace::ObstacleData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleData*, "", "ObstacleData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ObstacleData::get_obstacleType

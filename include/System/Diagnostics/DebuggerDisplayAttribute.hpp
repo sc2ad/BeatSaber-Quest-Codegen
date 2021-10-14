@@ -64,6 +64,7 @@ namespace System::Diagnostics {
   static check_size<sizeof(DebuggerDisplayAttribute), 32 + sizeof(::Il2CppString*)> __System_Diagnostics_DebuggerDisplayAttributeSizeCheck;
   static_assert(sizeof(DebuggerDisplayAttribute) == 0x28);
 }
+NEED_NO_BOX(System::Diagnostics::DebuggerDisplayAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::DebuggerDisplayAttribute*, "System.Diagnostics", "DebuggerDisplayAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Diagnostics::DebuggerDisplayAttribute::New_ctor

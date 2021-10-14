@@ -100,6 +100,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SceneCameraBloomPrePass), 40 + sizeof(UnityEngine::RenderTexture*)> __GlobalNamespace_SceneCameraBloomPrePassSizeCheck;
   static_assert(sizeof(SceneCameraBloomPrePass) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::SceneCameraBloomPrePass);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SceneCameraBloomPrePass*, "", "SceneCameraBloomPrePass");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SceneCameraBloomPrePass::OnCameraPreRender

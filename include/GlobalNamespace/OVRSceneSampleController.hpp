@@ -152,6 +152,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRSceneSampleController), 80 + sizeof(GlobalNamespace::OVRGridCube*)> __GlobalNamespace_OVRSceneSampleControllerSizeCheck;
   static_assert(sizeof(OVRSceneSampleController) == 0x58);
 }
+NEED_NO_BOX(GlobalNamespace::OVRSceneSampleController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSceneSampleController*, "", "OVRSceneSampleController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRSceneSampleController::Awake

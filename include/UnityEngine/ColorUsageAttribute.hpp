@@ -100,6 +100,7 @@ namespace UnityEngine {
   static check_size<sizeof(ColorUsageAttribute), 32 + sizeof(float)> __UnityEngine_ColorUsageAttributeSizeCheck;
   static_assert(sizeof(ColorUsageAttribute) == 0x24);
 }
+NEED_NO_BOX(UnityEngine::ColorUsageAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ColorUsageAttribute*, "UnityEngine", "ColorUsageAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ColorUsageAttribute::New_ctor

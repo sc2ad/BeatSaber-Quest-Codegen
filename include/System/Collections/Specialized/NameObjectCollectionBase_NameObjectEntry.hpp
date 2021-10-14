@@ -54,6 +54,7 @@ namespace System::Collections::Specialized {
   static check_size<sizeof(NameObjectCollectionBase::NameObjectEntry), 24 + sizeof(::Il2CppObject*)> __System_Collections_Specialized_NameObjectCollectionBase_NameObjectEntrySizeCheck;
   static_assert(sizeof(NameObjectCollectionBase::NameObjectEntry) == 0x20);
 }
+NEED_NO_BOX(System::Collections::Specialized::NameObjectCollectionBase::NameObjectEntry);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::NameObjectCollectionBase::NameObjectEntry*, "System.Collections.Specialized", "NameObjectCollectionBase/NameObjectEntry");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::Specialized::NameObjectCollectionBase::NameObjectEntry::New_ctor

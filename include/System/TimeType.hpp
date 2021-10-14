@@ -67,6 +67,7 @@ namespace System {
   static check_size<sizeof(TimeType), 24 + sizeof(::Il2CppString*)> __System_TimeTypeSizeCheck;
   static_assert(sizeof(TimeType) == 0x20);
 }
+NEED_NO_BOX(System::TimeType);
 DEFINE_IL2CPP_ARG_TYPE(System::TimeType*, "System", "TimeType");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::TimeType::New_ctor

@@ -89,6 +89,7 @@ namespace UnityEngine::AddressableAssets::Utility {
   static check_size<sizeof(ResourceManagerDiagnostics), 24 + sizeof(System::Collections::Generic::Dictionary_2<int, UnityEngine::AddressableAssets::Utility::DiagnosticInfo*>*)> __UnityEngine_AddressableAssets_Utility_ResourceManagerDiagnosticsSizeCheck;
   static_assert(sizeof(ResourceManagerDiagnostics) == 0x20);
 }
+NEED_NO_BOX(UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics*, "UnityEngine.AddressableAssets.Utility", "ResourceManagerDiagnostics");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics::New_ctor

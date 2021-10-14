@@ -62,6 +62,7 @@ namespace GlobalNamespace {
   }; // OculusAnalyticsModel
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::OculusAnalyticsModel);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusAnalyticsModel*, "", "OculusAnalyticsModel");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OculusAnalyticsModel::get_supportsOpenDataPrivacyPage

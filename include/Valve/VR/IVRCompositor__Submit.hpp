@@ -64,6 +64,7 @@ namespace Valve::VR {
   }; // Valve.VR.IVRCompositor/Valve.VR._Submit
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::IVRCompositor::_Submit);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRCompositor::_Submit*, "Valve.VR", "IVRCompositor/_Submit");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRCompositor::_Submit::New_ctor

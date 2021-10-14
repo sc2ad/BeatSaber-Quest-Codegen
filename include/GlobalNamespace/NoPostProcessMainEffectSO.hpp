@@ -115,6 +115,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(NoPostProcessMainEffectSO), 40 + sizeof(UnityEngine::Material*)> __GlobalNamespace_NoPostProcessMainEffectSOSizeCheck;
   static_assert(sizeof(NoPostProcessMainEffectSO) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::NoPostProcessMainEffectSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoPostProcessMainEffectSO*, "", "NoPostProcessMainEffectSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoPostProcessMainEffectSO::OnDisable

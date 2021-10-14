@@ -60,6 +60,7 @@ namespace OVR::OpenVR {
   }; // OVR.OpenVR.IVRRenderModels/OVR.OpenVR._GetComponentState
   #pragma pack(pop)
 }
+NEED_NO_BOX(OVR::OpenVR::IVRRenderModels::_GetComponentState);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRRenderModels::_GetComponentState*, "OVR.OpenVR", "IVRRenderModels/_GetComponentState");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVRRenderModels::_GetComponentState::New_ctor

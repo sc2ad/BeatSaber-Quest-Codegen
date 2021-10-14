@@ -61,6 +61,7 @@ namespace RootMotion {
   static check_size<sizeof(LargeHeader), 24 + sizeof(::Il2CppString*)> __RootMotion_LargeHeaderSizeCheck;
   static_assert(sizeof(LargeHeader) == 0x20);
 }
+NEED_NO_BOX(RootMotion::LargeHeader);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::LargeHeader*, "RootMotion", "LargeHeader");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::LargeHeader::New_ctor

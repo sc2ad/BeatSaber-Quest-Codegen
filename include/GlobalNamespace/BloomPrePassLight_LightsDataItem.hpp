@@ -67,6 +67,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BloomPrePassLight::LightsDataItem), 24 + sizeof(System::Collections::Generic::HashSet_1<GlobalNamespace::BloomPrePassLight*>*)> __GlobalNamespace_BloomPrePassLight_LightsDataItemSizeCheck;
   static_assert(sizeof(BloomPrePassLight::LightsDataItem) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::BloomPrePassLight::LightsDataItem);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassLight::LightsDataItem*, "", "BloomPrePassLight/LightsDataItem");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePassLight::LightsDataItem::New_ctor

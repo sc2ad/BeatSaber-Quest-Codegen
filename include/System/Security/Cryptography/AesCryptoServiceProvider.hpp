@@ -134,6 +134,7 @@ namespace System::Security::Cryptography {
   }; // System.Security.Cryptography.AesCryptoServiceProvider
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Security::Cryptography::AesCryptoServiceProvider);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::AesCryptoServiceProvider*, "System.Security.Cryptography", "AesCryptoServiceProvider");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::AesCryptoServiceProvider::get_IV

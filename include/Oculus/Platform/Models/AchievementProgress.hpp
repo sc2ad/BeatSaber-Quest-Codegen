@@ -82,6 +82,7 @@ namespace Oculus::Platform::Models {
   static check_size<sizeof(AchievementProgress), 48 + sizeof(System::DateTime)> __Oculus_Platform_Models_AchievementProgressSizeCheck;
   static_assert(sizeof(AchievementProgress) == 0x38);
 }
+NEED_NO_BOX(Oculus::Platform::Models::AchievementProgress);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::AchievementProgress*, "Oculus.Platform.Models", "AchievementProgress");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::AchievementProgress::New_ctor

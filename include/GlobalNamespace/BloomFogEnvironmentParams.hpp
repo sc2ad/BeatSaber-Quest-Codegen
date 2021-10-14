@@ -77,6 +77,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BloomFogEnvironmentParams), 36 + sizeof(float)> __GlobalNamespace_BloomFogEnvironmentParamsSizeCheck;
   static_assert(sizeof(BloomFogEnvironmentParams) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::BloomFogEnvironmentParams);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomFogEnvironmentParams*, "", "BloomFogEnvironmentParams");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BloomFogEnvironmentParams::New_ctor

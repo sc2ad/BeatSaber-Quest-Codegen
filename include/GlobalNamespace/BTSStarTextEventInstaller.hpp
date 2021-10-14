@@ -66,6 +66,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BTSStarTextEventInstaller), 32 + sizeof(GlobalNamespace::BTSStarTextEffectController*)> __GlobalNamespace_BTSStarTextEventInstallerSizeCheck;
   static_assert(sizeof(BTSStarTextEventInstaller) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::BTSStarTextEventInstaller);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSStarTextEventInstaller*, "", "BTSStarTextEventInstaller");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BTSStarTextEventInstaller::New_ctor

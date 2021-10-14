@@ -692,6 +692,7 @@ namespace System {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Convert);
 DEFINE_IL2CPP_ARG_TYPE(System::Convert*, "System", "Convert");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Convert::_cctor

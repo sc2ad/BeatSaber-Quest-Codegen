@@ -32,6 +32,7 @@ namespace System::Xml {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Xml::BinHexEncoder);
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::BinHexEncoder*, "System.Xml", "BinHexEncoder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::BinHexEncoder::Encode

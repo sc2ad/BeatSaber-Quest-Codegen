@@ -58,6 +58,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LocalizedAudioClipSO::$$c__DisplayClass4_0), 16 + sizeof(Polyglot::Language)> __GlobalNamespace_LocalizedAudioClipSO_$$c__DisplayClass4_0SizeCheck;
   static_assert(sizeof(LocalizedAudioClipSO::$$c__DisplayClass4_0) == 0x14);
 }
+NEED_NO_BOX(GlobalNamespace::LocalizedAudioClipSO::$$c__DisplayClass4_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalizedAudioClipSO::$$c__DisplayClass4_0*, "", "LocalizedAudioClipSO/<>c__DisplayClass4_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LocalizedAudioClipSO::$$c__DisplayClass4_0::$get_localizedAudioClip$b__0

@@ -65,6 +65,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   static check_size<sizeof(ObjectReader::TopLevelAssemblyTypeResolver), 16 + sizeof(System::Reflection::Assembly*)> __System_Runtime_Serialization_Formatters_Binary_ObjectReader_TopLevelAssemblyTypeResolverSizeCheck;
   static_assert(sizeof(ObjectReader::TopLevelAssemblyTypeResolver) == 0x18);
 }
+NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::ObjectReader::TopLevelAssemblyTypeResolver);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::ObjectReader::TopLevelAssemblyTypeResolver*, "System.Runtime.Serialization.Formatters.Binary", "ObjectReader/TopLevelAssemblyTypeResolver");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::ObjectReader::TopLevelAssemblyTypeResolver::New_ctor

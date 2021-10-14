@@ -305,6 +305,7 @@ namespace Org::BouncyCastle::Crypto::Modes {
   static check_size<sizeof(ChaCha20Poly1305), 92 + sizeof(int)> __Org_BouncyCastle_Crypto_Modes_ChaCha20Poly1305SizeCheck;
   static_assert(sizeof(ChaCha20Poly1305) == 0x60);
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305*, "Org.BouncyCastle.Crypto.Modes", "ChaCha20Poly1305");
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::State, "Org.BouncyCastle.Crypto.Modes", "ChaCha20Poly1305/State");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

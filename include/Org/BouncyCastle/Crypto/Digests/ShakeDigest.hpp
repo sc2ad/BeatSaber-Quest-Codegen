@@ -76,6 +76,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
   }; // Org.BouncyCastle.Crypto.Digests.ShakeDigest
   #pragma pack(pop)
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Digests::ShakeDigest);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::ShakeDigest*, "Org.BouncyCastle.Crypto.Digests", "ShakeDigest");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::ShakeDigest::New_ctor

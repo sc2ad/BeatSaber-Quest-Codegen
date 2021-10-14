@@ -118,6 +118,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(IKSolver::Point), 68 + sizeof(UnityEngine::Quaternion)> __RootMotion_FinalIK_IKSolver_PointSizeCheck;
   static_assert(sizeof(IKSolver::Point) == 0x54);
 }
+NEED_NO_BOX(RootMotion::FinalIK::IKSolver::Point);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolver::Point*, "RootMotion.FinalIK", "IKSolver/Point");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolver::Point::StoreDefaultLocalState

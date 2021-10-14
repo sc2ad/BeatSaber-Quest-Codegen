@@ -89,6 +89,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ListSettingsController), 36 + sizeof(int)> __GlobalNamespace_ListSettingsControllerSizeCheck;
   static_assert(sizeof(ListSettingsController) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::ListSettingsController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ListSettingsController*, "", "ListSettingsController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ListSettingsController::GetInitValues

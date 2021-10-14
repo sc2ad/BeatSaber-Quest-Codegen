@@ -46,6 +46,7 @@ namespace Oculus::Platform {
     Oculus::Platform::Models::RoomInviteNotification* GetRoomInviteNotification();
   }; // Oculus.Platform.MessageWithRoomInviteNotification
 }
+NEED_NO_BOX(Oculus::Platform::MessageWithRoomInviteNotification);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithRoomInviteNotification*, "Oculus.Platform", "MessageWithRoomInviteNotification");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithRoomInviteNotification::GetDataFromMessage

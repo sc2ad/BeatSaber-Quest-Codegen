@@ -57,6 +57,7 @@ namespace JetBrains::Annotations {
   static check_size<sizeof(AspTypePropertyAttribute), 16 + sizeof(bool)> __JetBrains_Annotations_AspTypePropertyAttributeSizeCheck;
   static_assert(sizeof(AspTypePropertyAttribute) == 0x11);
 }
+NEED_NO_BOX(JetBrains::Annotations::AspTypePropertyAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::AspTypePropertyAttribute*, "JetBrains.Annotations", "AspTypePropertyAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: JetBrains::Annotations::AspTypePropertyAttribute::get_CreateConstructorReferences

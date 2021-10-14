@@ -175,6 +175,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SettingsNavigationController), 176 + sizeof(System::Action_1<GlobalNamespace::SettingsNavigationController::FinishAction>*)> __GlobalNamespace_SettingsNavigationControllerSizeCheck;
   static_assert(sizeof(SettingsNavigationController) == 0xB8);
 }
+NEED_NO_BOX(GlobalNamespace::SettingsNavigationController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SettingsNavigationController*, "", "SettingsNavigationController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SettingsNavigationController::FinishAction, "", "SettingsNavigationController/FinishAction");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

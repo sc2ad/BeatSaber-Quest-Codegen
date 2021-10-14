@@ -72,6 +72,7 @@ namespace HoudiniEngineUnity {
   }; // HoudiniEngineUnity.Test_Gradient_Extensions/HoudiniEngineUnity.<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(HoudiniEngineUnity::Test_Gradient_Extensions::$$c);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::Test_Gradient_Extensions::$$c*, "HoudiniEngineUnity", "Test_Gradient_Extensions/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::Test_Gradient_Extensions::$$c::_cctor

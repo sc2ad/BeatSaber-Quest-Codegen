@@ -64,6 +64,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SteamLevelProductsModelSO::LevelProductData), 24 + sizeof(::Il2CppString*)> __GlobalNamespace_SteamLevelProductsModelSO_LevelProductDataSizeCheck;
   static_assert(sizeof(SteamLevelProductsModelSO::LevelProductData) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::SteamLevelProductsModelSO::LevelProductData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamLevelProductsModelSO::LevelProductData*, "", "SteamLevelProductsModelSO/LevelProductData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamLevelProductsModelSO::LevelProductData::get_appId

@@ -60,6 +60,7 @@ namespace Org::BouncyCastle::Crypto::Signers {
   }; // Org.BouncyCastle.Crypto.Signers.PlainDsaEncoding
   #pragma pack(pop)
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Signers::PlainDsaEncoding);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Signers::PlainDsaEncoding*, "Org.BouncyCastle.Crypto.Signers", "PlainDsaEncoding");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::PlainDsaEncoding::_cctor

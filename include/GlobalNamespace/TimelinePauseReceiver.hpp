@@ -83,6 +83,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(TimelinePauseReceiver), 24 + sizeof(System::Action*)> __GlobalNamespace_TimelinePauseReceiverSizeCheck;
   static_assert(sizeof(TimelinePauseReceiver) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::TimelinePauseReceiver);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TimelinePauseReceiver*, "", "TimelinePauseReceiver");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TimelinePauseReceiver::add_timelinePauseEvent

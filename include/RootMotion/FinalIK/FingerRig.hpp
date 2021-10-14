@@ -131,6 +131,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(FingerRig), 64 + sizeof(bool)> __RootMotion_FinalIK_FingerRigSizeCheck;
   static_assert(sizeof(FingerRig) == 0x41);
 }
+NEED_NO_BOX(RootMotion::FinalIK::FingerRig);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FingerRig*, "RootMotion.FinalIK", "FingerRig");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::FingerRig::get_initiated

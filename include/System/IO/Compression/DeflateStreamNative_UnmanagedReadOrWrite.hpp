@@ -51,6 +51,7 @@ namespace System::IO::Compression {
   }; // System.IO.Compression.DeflateStreamNative/System.IO.Compression.UnmanagedReadOrWrite
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::IO::Compression::DeflateStreamNative::UnmanagedReadOrWrite);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Compression::DeflateStreamNative::UnmanagedReadOrWrite*, "System.IO.Compression", "DeflateStreamNative/UnmanagedReadOrWrite");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::Compression::DeflateStreamNative::UnmanagedReadOrWrite::New_ctor

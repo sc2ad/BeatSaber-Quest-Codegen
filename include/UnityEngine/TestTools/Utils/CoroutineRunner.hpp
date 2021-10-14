@@ -137,6 +137,7 @@ namespace UnityEngine::TestTools::Utils {
   static check_size<sizeof(CoroutineRunner), 48 + sizeof(System::Collections::IEnumerator*)> __UnityEngine_TestTools_Utils_CoroutineRunnerSizeCheck;
   static_assert(sizeof(CoroutineRunner) == 0x38);
 }
+NEED_NO_BOX(UnityEngine::TestTools::Utils::CoroutineRunner);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Utils::CoroutineRunner*, "UnityEngine.TestTools.Utils", "CoroutineRunner");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::Utils::CoroutineRunner::New_ctor

@@ -60,6 +60,7 @@ namespace Valve::VR {
   }; // Valve.VR.IVRTrackedCamera/Valve.VR._GetVideoStreamFrameBuffer
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::IVRTrackedCamera::_GetVideoStreamFrameBuffer);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRTrackedCamera::_GetVideoStreamFrameBuffer*, "Valve.VR", "IVRTrackedCamera/_GetVideoStreamFrameBuffer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRTrackedCamera::_GetVideoStreamFrameBuffer::New_ctor

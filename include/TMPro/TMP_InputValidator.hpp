@@ -37,6 +37,7 @@ namespace TMPro {
   }; // TMPro.TMP_InputValidator
   #pragma pack(pop)
 }
+NEED_NO_BOX(TMPro::TMP_InputValidator);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_InputValidator*, "TMPro", "TMP_InputValidator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_InputValidator::Validate

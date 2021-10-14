@@ -79,6 +79,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerResultsAvatarController), 32 + sizeof(GlobalNamespace::MultiplayerAvatarPoseController*)> __GlobalNamespace_MultiplayerResultsAvatarControllerSizeCheck;
   static_assert(sizeof(MultiplayerResultsAvatarController) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerResultsAvatarController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerResultsAvatarController*, "", "MultiplayerResultsAvatarController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerResultsAvatarController::SetScale

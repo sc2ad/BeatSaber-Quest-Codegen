@@ -35,6 +35,7 @@ namespace UnityEngine {
   }; // UnityEngine.ExcludeFromPresetAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::ExcludeFromPresetAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ExcludeFromPresetAttribute*, "UnityEngine", "ExcludeFromPresetAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ExcludeFromPresetAttribute::New_ctor

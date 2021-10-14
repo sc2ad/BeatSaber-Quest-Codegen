@@ -75,6 +75,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LanguageSettingsController), 48 + sizeof(GlobalNamespace::LanguageSO*)> __GlobalNamespace_LanguageSettingsControllerSizeCheck;
   static_assert(sizeof(LanguageSettingsController) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::LanguageSettingsController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LanguageSettingsController*, "", "LanguageSettingsController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LanguageSettingsController::New_ctor

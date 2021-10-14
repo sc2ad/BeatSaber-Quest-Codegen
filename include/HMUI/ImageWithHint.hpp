@@ -88,6 +88,7 @@ namespace HMUI {
   static check_size<sizeof(ImageWithHint), 32 + sizeof(HMUI::HoverHint*)> __HMUI_ImageWithHintSizeCheck;
   static_assert(sizeof(ImageWithHint) == 0x28);
 }
+NEED_NO_BOX(HMUI::ImageWithHint);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ImageWithHint*, "HMUI", "ImageWithHint");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::ImageWithHint::get_sprite

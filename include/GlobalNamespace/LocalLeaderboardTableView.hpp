@@ -50,6 +50,7 @@ namespace GlobalNamespace {
   }; // LocalLeaderboardTableView
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::LocalLeaderboardTableView);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalLeaderboardTableView*, "", "LocalLeaderboardTableView");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LocalLeaderboardTableView::SetScores

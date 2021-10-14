@@ -98,6 +98,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRBone), 24 + sizeof(UnityEngine::Transform*)> __GlobalNamespace_OVRBoneSizeCheck;
   static_assert(sizeof(OVRBone) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::OVRBone);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRBone*, "", "OVRBone");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRBone::get_Id

@@ -34,6 +34,7 @@ namespace GlobalNamespace {
   }; // CreateSOAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::CreateSOAttribute);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CreateSOAttribute*, "", "CreateSOAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CreateSOAttribute::New_ctor

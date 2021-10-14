@@ -71,6 +71,7 @@ namespace System::Runtime::Serialization {
   static check_size<sizeof(MemberHolder), 24 + sizeof(System::Runtime::Serialization::StreamingContext)> __System_Runtime_Serialization_MemberHolderSizeCheck;
   static_assert(sizeof(MemberHolder) == 0x24);
 }
+NEED_NO_BOX(System::Runtime::Serialization::MemberHolder);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::MemberHolder*, "System.Runtime.Serialization", "MemberHolder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::MemberHolder::New_ctor

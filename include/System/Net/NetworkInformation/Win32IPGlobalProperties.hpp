@@ -38,6 +38,7 @@ namespace System::Net::NetworkInformation {
   }; // System.Net.NetworkInformation.Win32IPGlobalProperties
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Net::NetworkInformation::Win32IPGlobalProperties);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32IPGlobalProperties*, "System.Net.NetworkInformation", "Win32IPGlobalProperties");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::NetworkInformation::Win32IPGlobalProperties::get_DomainName

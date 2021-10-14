@@ -51,6 +51,7 @@ namespace OVR::OpenVR {
   }; // OVR.OpenVR.IVRCompositor/OVR.OpenVR._IsFullscreen
   #pragma pack(pop)
 }
+NEED_NO_BOX(OVR::OpenVR::IVRCompositor::_IsFullscreen);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRCompositor::_IsFullscreen*, "OVR.OpenVR", "IVRCompositor/_IsFullscreen");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVRCompositor::_IsFullscreen::New_ctor

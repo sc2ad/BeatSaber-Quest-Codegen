@@ -121,6 +121,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PatternFightSceneSetup), 72 + sizeof(GlobalNamespace::PatternFightSceneSetupData*)> __GlobalNamespace_PatternFightSceneSetupSizeCheck;
   static_assert(sizeof(PatternFightSceneSetup) == 0x50);
 }
+NEED_NO_BOX(GlobalNamespace::PatternFightSceneSetup);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PatternFightSceneSetup*, "", "PatternFightSceneSetup");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PatternFightSceneSetup::New_ctor

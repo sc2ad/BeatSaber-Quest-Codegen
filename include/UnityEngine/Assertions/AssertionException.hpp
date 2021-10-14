@@ -55,6 +55,7 @@ namespace UnityEngine::Assertions {
   static check_size<sizeof(AssertionException), 136 + sizeof(::Il2CppString*)> __UnityEngine_Assertions_AssertionExceptionSizeCheck;
   static_assert(sizeof(AssertionException) == 0x90);
 }
+NEED_NO_BOX(UnityEngine::Assertions::AssertionException);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Assertions::AssertionException*, "UnityEngine.Assertions", "AssertionException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Assertions::AssertionException::New_ctor

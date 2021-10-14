@@ -295,6 +295,7 @@ namespace Org::BouncyCastle::Crypto::Modes {
   static check_size<sizeof(OcbBlockCipher), 168 + sizeof(::ArrayW<uint8_t>)> __Org_BouncyCastle_Crypto_Modes_OcbBlockCipherSizeCheck;
   static_assert(sizeof(OcbBlockCipher) == 0xB0);
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Modes::OcbBlockCipher);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::OcbBlockCipher*, "Org.BouncyCastle.Crypto.Modes", "OcbBlockCipher");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Modes::OcbBlockCipher::New_ctor

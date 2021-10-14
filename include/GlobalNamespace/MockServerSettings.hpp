@@ -33,6 +33,7 @@ namespace GlobalNamespace {
   }; // MockServerSettings
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::MockServerSettings);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockServerSettings*, "", "MockServerSettings");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MockServerSettings::New_ctor

@@ -50,6 +50,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(EulaViewController::InitData), 16 + sizeof(bool)> __GlobalNamespace_EulaViewController_InitDataSizeCheck;
   static_assert(sizeof(EulaViewController::InitData) == 0x11);
 }
+NEED_NO_BOX(GlobalNamespace::EulaViewController::InitData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EulaViewController::InitData*, "", "EulaViewController/InitData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EulaViewController::InitData::New_ctor

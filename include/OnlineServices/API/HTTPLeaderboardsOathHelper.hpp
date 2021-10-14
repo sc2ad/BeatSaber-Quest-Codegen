@@ -152,6 +152,7 @@ namespace OnlineServices::API {
   static check_size<sizeof(HTTPLeaderboardsOathHelper), 32 + sizeof(BeatSaberAPI::DataTransferObjects::AccessToken*)> __OnlineServices_API_HTTPLeaderboardsOathHelperSizeCheck;
   static_assert(sizeof(HTTPLeaderboardsOathHelper) == 0x28);
 }
+NEED_NO_BOX(OnlineServices::API::HTTPLeaderboardsOathHelper);
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPLeaderboardsOathHelper*, "OnlineServices.API", "HTTPLeaderboardsOathHelper");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OnlineServices::API::HTTPLeaderboardsOathHelper::SendWebRequestWithOathAsync

@@ -42,6 +42,7 @@ namespace GlobalNamespace {
     }
   }; // ObjectiveListItemsList
 }
+NEED_NO_BOX(GlobalNamespace::ObjectiveListItemsList);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObjectiveListItemsList*, "", "ObjectiveListItemsList");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ObjectiveListItemsList::New_ctor

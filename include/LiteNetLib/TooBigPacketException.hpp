@@ -66,6 +66,7 @@ namespace LiteNetLib {
   }; // LiteNetLib.TooBigPacketException
   #pragma pack(pop)
 }
+NEED_NO_BOX(LiteNetLib::TooBigPacketException);
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::TooBigPacketException*, "LiteNetLib", "TooBigPacketException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::TooBigPacketException::New_ctor

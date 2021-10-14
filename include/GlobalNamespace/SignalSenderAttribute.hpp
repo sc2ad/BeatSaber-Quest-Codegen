@@ -34,6 +34,7 @@ namespace GlobalNamespace {
   }; // SignalSenderAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::SignalSenderAttribute);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SignalSenderAttribute*, "", "SignalSenderAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SignalSenderAttribute::New_ctor

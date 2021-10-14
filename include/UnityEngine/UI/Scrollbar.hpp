@@ -425,6 +425,7 @@ namespace UnityEngine::UI {
   static check_size<sizeof(Scrollbar), 313 + sizeof(bool)> __UnityEngine_UI_ScrollbarSizeCheck;
   static_assert(sizeof(Scrollbar) == 0x13A);
 }
+NEED_NO_BOX(UnityEngine::UI::Scrollbar);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Scrollbar*, "UnityEngine.UI", "Scrollbar");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Scrollbar::Direction, "UnityEngine.UI", "Scrollbar/Direction");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

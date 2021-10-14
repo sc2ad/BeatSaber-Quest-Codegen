@@ -85,6 +85,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRInput::OVRControllerBase::VirtualAxis1DMap), 32 + sizeof(GlobalNamespace::OVRInput::RawAxis1D)> __GlobalNamespace_OVRInput_OVRControllerBase_VirtualAxis1DMapSizeCheck;
   static_assert(sizeof(OVRInput::OVRControllerBase::VirtualAxis1DMap) == 0x24);
 }
+NEED_NO_BOX(GlobalNamespace::OVRInput::OVRControllerBase::VirtualAxis1DMap);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OVRControllerBase::VirtualAxis1DMap*, "", "OVRInput/OVRControllerBase/VirtualAxis1DMap");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::OVRControllerBase::VirtualAxis1DMap::ToRawMask

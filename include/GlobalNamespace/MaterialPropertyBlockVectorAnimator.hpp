@@ -64,6 +64,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MaterialPropertyBlockVectorAnimator), 48 + sizeof(UnityEngine::Vector4)> __GlobalNamespace_MaterialPropertyBlockVectorAnimatorSizeCheck;
   static_assert(sizeof(MaterialPropertyBlockVectorAnimator) == 0x40);
 }
+NEED_NO_BOX(GlobalNamespace::MaterialPropertyBlockVectorAnimator);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialPropertyBlockVectorAnimator*, "", "MaterialPropertyBlockVectorAnimator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MaterialPropertyBlockVectorAnimator::New_ctor

@@ -174,6 +174,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerLeaderboardPanelItem), 144 + sizeof(int)> __GlobalNamespace_MultiplayerLeaderboardPanelItemSizeCheck;
   static_assert(sizeof(MultiplayerLeaderboardPanelItem) == 0x94);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerLeaderboardPanelItem);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLeaderboardPanelItem*, "", "MultiplayerLeaderboardPanelItem");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLeaderboardPanelItem::set_hide

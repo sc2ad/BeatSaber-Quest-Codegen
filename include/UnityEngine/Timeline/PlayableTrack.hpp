@@ -46,6 +46,7 @@ namespace UnityEngine::Timeline {
     void OnCreateClip(UnityEngine::Timeline::TimelineClip* clip);
   }; // UnityEngine.Timeline.PlayableTrack
 }
+NEED_NO_BOX(UnityEngine::Timeline::PlayableTrack);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::PlayableTrack*, "UnityEngine.Timeline", "PlayableTrack");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::PlayableTrack::New_ctor

@@ -89,6 +89,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(FileCompressionHelper::$$c__DisplayClass0_0), 40 + sizeof(System::Action_1<bool>*)> __GlobalNamespace_FileCompressionHelper_$$c__DisplayClass0_0SizeCheck;
   static_assert(sizeof(FileCompressionHelper::$$c__DisplayClass0_0) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::FileCompressionHelper::$$c__DisplayClass0_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FileCompressionHelper::$$c__DisplayClass0_0*, "", "FileCompressionHelper/<>c__DisplayClass0_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FileCompressionHelper::$$c__DisplayClass0_0::$CreateZipFromDirectoryAsync$b__0

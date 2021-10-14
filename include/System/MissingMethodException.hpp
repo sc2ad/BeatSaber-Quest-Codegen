@@ -107,6 +107,7 @@ namespace System {
   static check_size<sizeof(MissingMethodException), 160 + sizeof(::Il2CppString*)> __System_MissingMethodExceptionSizeCheck;
   static_assert(sizeof(MissingMethodException) == 0xA8);
 }
+NEED_NO_BOX(System::MissingMethodException);
 DEFINE_IL2CPP_ARG_TYPE(System::MissingMethodException*, "System", "MissingMethodException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::MissingMethodException::New_ctor

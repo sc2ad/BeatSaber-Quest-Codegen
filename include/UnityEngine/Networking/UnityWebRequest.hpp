@@ -320,6 +320,7 @@ namespace UnityEngine::Networking {
   static check_size<sizeof(UnityWebRequest), 58 + sizeof(bool)> __UnityEngine_Networking_UnityWebRequestSizeCheck;
   static_assert(sizeof(UnityWebRequest) == 0x3B);
 }
+NEED_NO_BOX(UnityEngine::Networking::UnityWebRequest);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::UnityWebRequest*, "UnityEngine.Networking", "UnityWebRequest");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::get_disposeCertificateHandlerOnDispose

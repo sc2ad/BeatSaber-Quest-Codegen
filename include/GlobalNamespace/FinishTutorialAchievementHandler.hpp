@@ -91,6 +91,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(FinishTutorialAchievementHandler), 40 + sizeof(GlobalNamespace::AchievementSO*)> __GlobalNamespace_FinishTutorialAchievementHandlerSizeCheck;
   static_assert(sizeof(FinishTutorialAchievementHandler) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::FinishTutorialAchievementHandler);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FinishTutorialAchievementHandler*, "", "FinishTutorialAchievementHandler");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FinishTutorialAchievementHandler::Start

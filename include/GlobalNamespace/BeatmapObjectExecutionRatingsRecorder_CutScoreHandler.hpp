@@ -111,6 +111,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BeatmapObjectExecutionRatingsRecorder_CutScoreHandler), 40 + sizeof(GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::ICutScoreHandlerDidFinishEvent*>*)> __GlobalNamespace_BeatmapObjectExecutionRatingsRecorder_CutScoreHandlerSizeCheck;
   static_assert(sizeof(BeatmapObjectExecutionRatingsRecorder_CutScoreHandler) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder_CutScoreHandler);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder_CutScoreHandler*, "", "BeatmapObjectExecutionRatingsRecorder/CutScoreHandler");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectExecutionRatingsRecorder_CutScoreHandler::get_didFinishEvent

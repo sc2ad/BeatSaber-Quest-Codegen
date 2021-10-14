@@ -86,6 +86,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BlueNoiseDitheringUpdater), 32 + sizeof(GlobalNamespace::RandomValueToShader*)> __GlobalNamespace_BlueNoiseDitheringUpdaterSizeCheck;
   static_assert(sizeof(BlueNoiseDitheringUpdater) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::BlueNoiseDitheringUpdater);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BlueNoiseDitheringUpdater*, "", "BlueNoiseDitheringUpdater");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BlueNoiseDitheringUpdater::OnEnable

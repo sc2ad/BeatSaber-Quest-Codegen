@@ -129,6 +129,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(NetworkPlayerOptionsTableCell), 104 + sizeof(GlobalNamespace::INetworkPlayer*)> __GlobalNamespace_NetworkPlayerOptionsTableCellSizeCheck;
   static_assert(sizeof(NetworkPlayerOptionsTableCell) == 0x70);
 }
+NEED_NO_BOX(GlobalNamespace::NetworkPlayerOptionsTableCell);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetworkPlayerOptionsTableCell*, "", "NetworkPlayerOptionsTableCell");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NetworkPlayerOptionsTableCell::get_player

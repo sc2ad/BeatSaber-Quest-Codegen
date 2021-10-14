@@ -34,6 +34,7 @@ namespace HMUI {
     }
   }; // HMUI.InputFieldView/HMUI.InputFieldChanged
 }
+NEED_NO_BOX(HMUI::InputFieldView::InputFieldChanged);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::InputFieldView::InputFieldChanged*, "HMUI", "InputFieldView/InputFieldChanged");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::InputFieldView::InputFieldChanged::New_ctor

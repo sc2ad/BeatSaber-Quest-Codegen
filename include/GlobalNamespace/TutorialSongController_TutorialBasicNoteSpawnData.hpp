@@ -69,6 +69,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(TutorialSongController::TutorialBasicNoteSpawnData), 44 + sizeof(GlobalNamespace::ColorType)> __GlobalNamespace_TutorialSongController_TutorialBasicNoteSpawnDataSizeCheck;
   static_assert(sizeof(TutorialSongController::TutorialBasicNoteSpawnData) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::TutorialSongController::TutorialBasicNoteSpawnData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialSongController::TutorialBasicNoteSpawnData*, "", "TutorialSongController/TutorialBasicNoteSpawnData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TutorialSongController::TutorialBasicNoteSpawnData::New_ctor

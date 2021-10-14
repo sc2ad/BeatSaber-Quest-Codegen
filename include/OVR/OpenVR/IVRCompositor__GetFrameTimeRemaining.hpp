@@ -51,6 +51,7 @@ namespace OVR::OpenVR {
   }; // OVR.OpenVR.IVRCompositor/OVR.OpenVR._GetFrameTimeRemaining
   #pragma pack(pop)
 }
+NEED_NO_BOX(OVR::OpenVR::IVRCompositor::_GetFrameTimeRemaining);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRCompositor::_GetFrameTimeRemaining*, "OVR.OpenVR", "IVRCompositor/_GetFrameTimeRemaining");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVRCompositor::_GetFrameTimeRemaining::New_ctor

@@ -75,6 +75,7 @@ namespace System::Security::Cryptography {
   }; // System.Security.Cryptography.TripleDES
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Security::Cryptography::TripleDES);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::TripleDES*, "System.Security.Cryptography", "TripleDES");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::TripleDES::_cctor

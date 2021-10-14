@@ -54,6 +54,7 @@ namespace Oculus::Platform::Models {
   static check_size<sizeof(NetSyncVoipAttenuationValue), 20 + sizeof(float)> __Oculus_Platform_Models_NetSyncVoipAttenuationValueSizeCheck;
   static_assert(sizeof(NetSyncVoipAttenuationValue) == 0x18);
 }
+NEED_NO_BOX(Oculus::Platform::Models::NetSyncVoipAttenuationValue);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::NetSyncVoipAttenuationValue*, "Oculus.Platform.Models", "NetSyncVoipAttenuationValue");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::NetSyncVoipAttenuationValue::New_ctor

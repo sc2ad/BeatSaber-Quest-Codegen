@@ -252,6 +252,7 @@ namespace Mono::Globalization::Unicode {
   static check_size<sizeof(SortKeyBuffer), 130 + sizeof(bool)> __Mono_Globalization_Unicode_SortKeyBufferSizeCheck;
   static_assert(sizeof(SortKeyBuffer) == 0x83);
 }
+NEED_NO_BOX(Mono::Globalization::Unicode::SortKeyBuffer);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::SortKeyBuffer*, "Mono.Globalization.Unicode", "SortKeyBuffer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SortKeyBuffer::New_ctor

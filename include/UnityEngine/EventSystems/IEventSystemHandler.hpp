@@ -17,5 +17,6 @@ namespace UnityEngine::EventSystems {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::EventSystems::IEventSystemHandler);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::IEventSystemHandler*, "UnityEngine.EventSystems", "IEventSystemHandler");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

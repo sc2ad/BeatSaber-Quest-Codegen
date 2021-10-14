@@ -50,6 +50,7 @@ namespace GlobalNamespace {
   }; // OVROverlay/ExternalSurfaceObjectCreated
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::OVROverlay::ExternalSurfaceObjectCreated);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVROverlay::ExternalSurfaceObjectCreated*, "", "OVROverlay/ExternalSurfaceObjectCreated");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVROverlay::ExternalSurfaceObjectCreated::New_ctor

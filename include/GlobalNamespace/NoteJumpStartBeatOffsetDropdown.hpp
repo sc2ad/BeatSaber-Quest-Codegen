@@ -126,6 +126,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(NoteJumpStartBeatOffsetDropdown), 40 + sizeof(System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<float, ::Il2CppString*>*>*)> __GlobalNamespace_NoteJumpStartBeatOffsetDropdownSizeCheck;
   static_assert(sizeof(NoteJumpStartBeatOffsetDropdown) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::NoteJumpStartBeatOffsetDropdown);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteJumpStartBeatOffsetDropdown*, "", "NoteJumpStartBeatOffsetDropdown");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteJumpStartBeatOffsetDropdown::get_noteJumpStartBeatOffsetData

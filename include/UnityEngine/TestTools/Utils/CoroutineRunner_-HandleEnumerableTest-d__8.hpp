@@ -100,6 +100,7 @@ namespace UnityEngine::TestTools::Utils {
   static check_size<sizeof(CoroutineRunner::$HandleEnumerableTest$d__8), 40 + sizeof(System::Collections::IEnumerator*)> __UnityEngine_TestTools_Utils_CoroutineRunner_$HandleEnumerableTest$d__8SizeCheck;
   static_assert(sizeof(CoroutineRunner::$HandleEnumerableTest$d__8) == 0x30);
 }
+NEED_NO_BOX(UnityEngine::TestTools::Utils::CoroutineRunner::$HandleEnumerableTest$d__8);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Utils::CoroutineRunner::$HandleEnumerableTest$d__8*, "UnityEngine.TestTools.Utils", "CoroutineRunner/<HandleEnumerableTest>d__8");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::Utils::CoroutineRunner::$HandleEnumerableTest$d__8::System_Collections_Generic_IEnumerator$System_Object$_get_Current

@@ -56,6 +56,7 @@ namespace OVR::OpenVR {
   }; // OVR.OpenVR.IVRCompositor/OVR.OpenVR._GetTrackingSpace
   #pragma pack(pop)
 }
+NEED_NO_BOX(OVR::OpenVR::IVRCompositor::_GetTrackingSpace);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRCompositor::_GetTrackingSpace*, "OVR.OpenVR", "IVRCompositor/_GetTrackingSpace");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVRCompositor::_GetTrackingSpace::New_ctor

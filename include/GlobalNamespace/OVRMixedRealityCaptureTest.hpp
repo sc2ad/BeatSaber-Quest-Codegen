@@ -157,6 +157,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRMixedRealityCaptureTest), 40 + sizeof(GlobalNamespace::OVRPlugin::Fovf)> __GlobalNamespace_OVRMixedRealityCaptureTestSizeCheck;
   static_assert(sizeof(OVRMixedRealityCaptureTest) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::OVRMixedRealityCaptureTest);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMixedRealityCaptureTest*, "", "OVRMixedRealityCaptureTest");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMixedRealityCaptureTest::CameraMode, "", "OVRMixedRealityCaptureTest/CameraMode");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

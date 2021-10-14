@@ -593,6 +593,7 @@ namespace UnityEngine {
   }; // UnityEngine.Material
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::Material);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Material*, "UnityEngine", "Material");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Material::get_shader

@@ -197,6 +197,7 @@ namespace UnityEngine::ProBuilder {
   static check_size<sizeof(WingedEdge), 56 + sizeof(UnityEngine::ProBuilder::WingedEdge*)> __UnityEngine_ProBuilder_WingedEdgeSizeCheck;
   static_assert(sizeof(WingedEdge) == 0x40);
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::WingedEdge);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::WingedEdge*, "UnityEngine.ProBuilder", "WingedEdge");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::WingedEdge::get_edge

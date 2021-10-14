@@ -134,6 +134,7 @@ namespace System::IO {
   }; // System.IO.Stream/System.IO.ReadWriteTask
   // WARNING Not writing size check since size may be invalid!
 }
+NEED_NO_BOX(System::IO::Stream::ReadWriteTask);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Stream::ReadWriteTask*, "System.IO", "Stream/ReadWriteTask");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::Stream::ReadWriteTask::New_ctor

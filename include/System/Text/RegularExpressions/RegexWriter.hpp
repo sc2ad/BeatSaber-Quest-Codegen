@@ -199,6 +199,7 @@ namespace System::Text::RegularExpressions {
   static check_size<sizeof(RegexWriter), 80 + sizeof(System::Collections::Hashtable*)> __System_Text_RegularExpressions_RegexWriterSizeCheck;
   static_assert(sizeof(RegexWriter) == 0x58);
 }
+NEED_NO_BOX(System::Text::RegularExpressions::RegexWriter);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexWriter*, "System.Text.RegularExpressions", "RegexWriter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexWriter::Write

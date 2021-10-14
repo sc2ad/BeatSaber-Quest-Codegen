@@ -56,6 +56,7 @@ namespace OVR::OpenVR {
   }; // OVR.OpenVR.IVROverlay/OVR.OpenVR._CreateDashboardOverlay
   #pragma pack(pop)
 }
+NEED_NO_BOX(OVR::OpenVR::IVROverlay::_CreateDashboardOverlay);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVROverlay::_CreateDashboardOverlay*, "OVR.OpenVR", "IVROverlay/_CreateDashboardOverlay");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVROverlay::_CreateDashboardOverlay::New_ctor

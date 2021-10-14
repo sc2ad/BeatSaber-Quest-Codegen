@@ -234,6 +234,7 @@ namespace System::Net {
   static check_size<sizeof(CookieTokenizer), 64 + sizeof(::Il2CppString*)> __System_Net_CookieTokenizerSizeCheck;
   static_assert(sizeof(CookieTokenizer) == 0x48);
 }
+NEED_NO_BOX(System::Net::CookieTokenizer);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::CookieTokenizer*, "System.Net", "CookieTokenizer");
 DEFINE_IL2CPP_ARG_TYPE(System::Net::CookieTokenizer::RecognizedAttribute, "System.Net", "CookieTokenizer/RecognizedAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

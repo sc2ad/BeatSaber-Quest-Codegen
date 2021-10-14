@@ -50,6 +50,7 @@ namespace System::Security::Cryptography {
   static check_size<sizeof(RSAPKCS1SignatureDescription), 48 + sizeof(::Il2CppString*)> __System_Security_Cryptography_RSAPKCS1SignatureDescriptionSizeCheck;
   static_assert(sizeof(RSAPKCS1SignatureDescription) == 0x38);
 }
+NEED_NO_BOX(System::Security::Cryptography::RSAPKCS1SignatureDescription);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RSAPKCS1SignatureDescription*, "System.Security.Cryptography", "RSAPKCS1SignatureDescription");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::RSAPKCS1SignatureDescription::New_ctor

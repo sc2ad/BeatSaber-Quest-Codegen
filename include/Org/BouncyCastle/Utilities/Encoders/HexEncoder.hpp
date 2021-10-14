@@ -80,6 +80,7 @@ namespace Org::BouncyCastle::Utilities::Encoders {
   static check_size<sizeof(HexEncoder), 24 + sizeof(::ArrayW<uint8_t>)> __Org_BouncyCastle_Utilities_Encoders_HexEncoderSizeCheck;
   static_assert(sizeof(HexEncoder) == 0x20);
 }
+NEED_NO_BOX(Org::BouncyCastle::Utilities::Encoders::HexEncoder);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Encoders::HexEncoder*, "Org.BouncyCastle.Utilities.Encoders", "HexEncoder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Encoders::HexEncoder::InitialiseDecodingTable

@@ -49,6 +49,7 @@ namespace GlobalNamespace {
   }; // MockPlayerLobbyPoseGeneratorRecording
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording*, "", "MockPlayerLobbyPoseGeneratorRecording");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording::New_ctor

@@ -41,6 +41,7 @@ namespace GlobalNamespace {
     }
   }; // GameplayRpcManager/NoteCutRpc
 }
+NEED_NO_BOX(GlobalNamespace::GameplayRpcManager::NoteCutRpc);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayRpcManager::NoteCutRpc*, "", "GameplayRpcManager/NoteCutRpc");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameplayRpcManager::NoteCutRpc::New_ctor

@@ -90,6 +90,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LevelStatsView), 40 + sizeof(TMPro::TextMeshProUGUI*)> __GlobalNamespace_LevelStatsViewSizeCheck;
   static_assert(sizeof(LevelStatsView) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::LevelStatsView);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelStatsView*, "", "LevelStatsView");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LevelStatsView::Hide

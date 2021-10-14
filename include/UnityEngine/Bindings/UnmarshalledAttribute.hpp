@@ -35,6 +35,7 @@ namespace UnityEngine::Bindings {
   }; // UnityEngine.Bindings.UnmarshalledAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::Bindings::UnmarshalledAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::UnmarshalledAttribute*, "UnityEngine.Bindings", "UnmarshalledAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Bindings::UnmarshalledAttribute::New_ctor

@@ -75,6 +75,7 @@ namespace UnityEngine {
   static check_size<sizeof(IntegratedSubsystem), 24 + sizeof(UnityEngine::ISubsystemDescriptor*)> __UnityEngine_IntegratedSubsystemSizeCheck;
   static_assert(sizeof(IntegratedSubsystem) == 0x20);
 }
+NEED_NO_BOX(UnityEngine::IntegratedSubsystem);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::IntegratedSubsystem*, "UnityEngine", "IntegratedSubsystem");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::IntegratedSubsystem::SetHandle

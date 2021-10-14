@@ -98,6 +98,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   static check_size<sizeof(TriangulationPoint), 40 + sizeof(int)> __UnityEngine_ProBuilder_Poly2Tri_TriangulationPointSizeCheck;
   static_assert(sizeof(TriangulationPoint) == 0x2C);
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, "UnityEngine.ProBuilder.Poly2Tri", "TriangulationPoint");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::get_Edges

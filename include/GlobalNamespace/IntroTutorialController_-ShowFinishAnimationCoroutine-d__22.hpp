@@ -102,6 +102,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(IntroTutorialController::$ShowFinishAnimationCoroutine$d__22), 44 + sizeof(float)> __GlobalNamespace_IntroTutorialController_$ShowFinishAnimationCoroutine$d__22SizeCheck;
   static_assert(sizeof(IntroTutorialController::$ShowFinishAnimationCoroutine$d__22) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::IntroTutorialController::$ShowFinishAnimationCoroutine$d__22);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IntroTutorialController::$ShowFinishAnimationCoroutine$d__22*, "", "IntroTutorialController/<ShowFinishAnimationCoroutine>d__22");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::IntroTutorialController::$ShowFinishAnimationCoroutine$d__22::System_Collections_Generic_IEnumerator$System_Object$_get_Current

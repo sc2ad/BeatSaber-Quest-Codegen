@@ -67,6 +67,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(X509CertificateUtility::PasswordFinder), 16 + sizeof(::ArrayW<::Il2CppChar>)> __GlobalNamespace_X509CertificateUtility_PasswordFinderSizeCheck;
   static_assert(sizeof(X509CertificateUtility::PasswordFinder) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::X509CertificateUtility::PasswordFinder);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::X509CertificateUtility::PasswordFinder*, "", "X509CertificateUtility/PasswordFinder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::X509CertificateUtility::PasswordFinder::New_ctor

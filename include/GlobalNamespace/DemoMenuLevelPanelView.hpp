@@ -161,6 +161,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(DemoMenuLevelPanelView), 72 + sizeof(HMUI::ButtonBinder*)> __GlobalNamespace_DemoMenuLevelPanelViewSizeCheck;
   static_assert(sizeof(DemoMenuLevelPanelView) == 0x50);
 }
+NEED_NO_BOX(GlobalNamespace::DemoMenuLevelPanelView);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DemoMenuLevelPanelView*, "", "DemoMenuLevelPanelView");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DemoMenuLevelPanelView::add_playButtonWasPressedEvent

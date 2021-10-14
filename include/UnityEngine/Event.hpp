@@ -207,6 +207,7 @@ namespace UnityEngine {
   static check_size<sizeof(Event), 16 + sizeof(System::IntPtr)> __UnityEngine_EventSizeCheck;
   static_assert(sizeof(Event) == 0x18);
 }
+NEED_NO_BOX(UnityEngine::Event);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Event*, "UnityEngine", "Event");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Event::get_rawType

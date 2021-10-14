@@ -85,6 +85,7 @@ namespace System {
   static check_size<sizeof(AttributeUsageAttribute), 21 + sizeof(bool)> __System_AttributeUsageAttributeSizeCheck;
   static_assert(sizeof(AttributeUsageAttribute) == 0x16);
 }
+NEED_NO_BOX(System::AttributeUsageAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::AttributeUsageAttribute*, "System", "AttributeUsageAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::AttributeUsageAttribute::get_AllowMultiple

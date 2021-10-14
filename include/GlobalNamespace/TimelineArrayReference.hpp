@@ -186,6 +186,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(TimelineArrayReference), 64 + sizeof(::ArrayW<GlobalNamespace::DirectionalLight*>)> __GlobalNamespace_TimelineArrayReferenceSizeCheck;
   static_assert(sizeof(TimelineArrayReference) == 0x48);
 }
+NEED_NO_BOX(GlobalNamespace::TimelineArrayReference);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TimelineArrayReference*, "", "TimelineArrayReference");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TimelineArrayReference::ArrayTypes, "", "TimelineArrayReference/ArrayTypes");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

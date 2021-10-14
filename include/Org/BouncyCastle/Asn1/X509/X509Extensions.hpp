@@ -224,6 +224,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
   static check_size<sizeof(X509Extensions), 24 + sizeof(System::Collections::IList*)> __Org_BouncyCastle_Asn1_X509_X509ExtensionsSizeCheck;
   static_assert(sizeof(X509Extensions) == 0x20);
 }
+NEED_NO_BOX(Org::BouncyCastle::Asn1::X509::X509Extensions);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::X509Extensions*, "Org.BouncyCastle.Asn1.X509", "X509Extensions");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::X509Extensions::get_ExtensionOids

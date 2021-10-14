@@ -74,6 +74,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(FullComboMissionObjectiveChecker), 72 + sizeof(GlobalNamespace::IScoreController*)> __GlobalNamespace_FullComboMissionObjectiveCheckerSizeCheck;
   static_assert(sizeof(FullComboMissionObjectiveChecker) == 0x50);
 }
+NEED_NO_BOX(GlobalNamespace::FullComboMissionObjectiveChecker);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FullComboMissionObjectiveChecker*, "", "FullComboMissionObjectiveChecker");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FullComboMissionObjectiveChecker::OnDestroy

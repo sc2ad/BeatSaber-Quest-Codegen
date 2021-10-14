@@ -105,6 +105,7 @@ namespace Mono::Net {
   static check_size<sizeof(CFNetwork::CFWebProxy), 24 + sizeof(bool)> __Mono_Net_CFNetwork_CFWebProxySizeCheck;
   static_assert(sizeof(CFNetwork::CFWebProxy) == 0x19);
 }
+NEED_NO_BOX(Mono::Net::CFNetwork::CFWebProxy);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFNetwork::CFWebProxy*, "Mono.Net", "CFNetwork/CFWebProxy");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Net::CFNetwork::CFWebProxy::get_Credentials

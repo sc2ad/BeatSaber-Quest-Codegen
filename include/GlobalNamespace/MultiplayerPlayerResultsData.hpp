@@ -80,6 +80,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerPlayerResultsData), 32 + sizeof(GlobalNamespace::MultiplayerBadgeAwardData*)> __GlobalNamespace_MultiplayerPlayerResultsDataSizeCheck;
   static_assert(sizeof(MultiplayerPlayerResultsData) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerPlayerResultsData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerPlayerResultsData*, "", "MultiplayerPlayerResultsData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerPlayerResultsData::New_ctor

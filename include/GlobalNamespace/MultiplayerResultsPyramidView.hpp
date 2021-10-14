@@ -163,6 +163,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerResultsPyramidView), 88 + sizeof(GlobalNamespace::MultiplayerResultsPyramidViewAvatar*)> __GlobalNamespace_MultiplayerResultsPyramidViewSizeCheck;
   static_assert(sizeof(MultiplayerResultsPyramidView) == 0x60);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerResultsPyramidView);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerResultsPyramidView*, "", "MultiplayerResultsPyramidView");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerResultsPyramidView::get_resultAvatarDirectors

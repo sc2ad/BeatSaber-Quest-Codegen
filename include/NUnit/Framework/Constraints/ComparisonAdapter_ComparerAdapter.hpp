@@ -62,6 +62,7 @@ namespace NUnit::Framework::Constraints {
   static check_size<sizeof(ComparisonAdapter::ComparerAdapter), 16 + sizeof(System::Collections::IComparer*)> __NUnit_Framework_Constraints_ComparisonAdapter_ComparerAdapterSizeCheck;
   static_assert(sizeof(ComparisonAdapter::ComparerAdapter) == 0x18);
 }
+NEED_NO_BOX(NUnit::Framework::Constraints::ComparisonAdapter::ComparerAdapter);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::ComparisonAdapter::ComparerAdapter*, "NUnit.Framework.Constraints", "ComparisonAdapter/ComparerAdapter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::ComparisonAdapter::ComparerAdapter::New_ctor

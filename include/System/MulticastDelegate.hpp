@@ -102,6 +102,7 @@ namespace System {
   static_assert(sizeof(MulticastDelegate) == 0x70);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::MulticastDelegate);
 DEFINE_IL2CPP_ARG_TYPE(System::MulticastDelegate*, "System", "MulticastDelegate");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::MulticastDelegate::LastIndexOf

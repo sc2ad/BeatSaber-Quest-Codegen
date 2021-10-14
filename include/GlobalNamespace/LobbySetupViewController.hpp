@@ -379,6 +379,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LobbySetupViewController), 265 + sizeof(bool)> __GlobalNamespace_LobbySetupViewControllerSizeCheck;
   static_assert(sizeof(LobbySetupViewController) == 0x10A);
 }
+NEED_NO_BOX(GlobalNamespace::LobbySetupViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LobbySetupViewController*, "", "LobbySetupViewController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LobbySetupViewController::add_selectBeatmapEvent

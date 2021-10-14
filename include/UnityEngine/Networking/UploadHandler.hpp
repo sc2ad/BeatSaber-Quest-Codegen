@@ -71,6 +71,7 @@ namespace UnityEngine::Networking {
   static check_size<sizeof(UploadHandler), 16 + sizeof(System::IntPtr)> __UnityEngine_Networking_UploadHandlerSizeCheck;
   static_assert(sizeof(UploadHandler) == 0x18);
 }
+NEED_NO_BOX(UnityEngine::Networking::UploadHandler);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::UploadHandler*, "UnityEngine.Networking", "UploadHandler");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Networking::UploadHandler::Release

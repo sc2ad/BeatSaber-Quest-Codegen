@@ -49,6 +49,7 @@ namespace NUnit::Framework::Internal {
   }; // NUnit.Framework.Internal.InvalidDataSourceException
   #pragma pack(pop)
 }
+NEED_NO_BOX(NUnit::Framework::Internal::InvalidDataSourceException);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::InvalidDataSourceException*, "NUnit.Framework.Internal", "InvalidDataSourceException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::InvalidDataSourceException::New_ctor

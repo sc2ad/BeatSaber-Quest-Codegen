@@ -188,6 +188,7 @@ namespace UnityEngine {
   static check_size<sizeof(GUILayoutEntry), 64 + sizeof(UnityEngine::GUIStyle*)> __UnityEngine_GUILayoutEntrySizeCheck;
   static_assert(sizeof(GUILayoutEntry) == 0x48);
 }
+NEED_NO_BOX(UnityEngine::GUILayoutEntry);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUILayoutEntry*, "UnityEngine", "GUILayoutEntry");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::GUILayoutEntry::get_style

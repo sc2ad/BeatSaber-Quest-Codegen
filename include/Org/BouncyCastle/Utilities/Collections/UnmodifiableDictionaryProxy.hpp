@@ -94,6 +94,7 @@ namespace Org::BouncyCastle::Utilities::Collections {
   static check_size<sizeof(UnmodifiableDictionaryProxy), 16 + sizeof(System::Collections::IDictionary*)> __Org_BouncyCastle_Utilities_Collections_UnmodifiableDictionaryProxySizeCheck;
   static_assert(sizeof(UnmodifiableDictionaryProxy) == 0x18);
 }
+NEED_NO_BOX(Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy*, "Org.BouncyCastle.Utilities.Collections", "UnmodifiableDictionaryProxy");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::New_ctor

@@ -88,6 +88,7 @@ namespace System::Runtime::Remoting::Contexts {
   static check_size<sizeof(CrossContextChannel::ContextRestoreSink), 32 + sizeof(System::Runtime::Remoting::Messaging::IMessage*)> __System_Runtime_Remoting_Contexts_CrossContextChannel_ContextRestoreSinkSizeCheck;
   static_assert(sizeof(CrossContextChannel::ContextRestoreSink) == 0x28);
 }
+NEED_NO_BOX(System::Runtime::Remoting::Contexts::CrossContextChannel::ContextRestoreSink);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::CrossContextChannel::ContextRestoreSink*, "System.Runtime.Remoting.Contexts", "CrossContextChannel/ContextRestoreSink");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::CrossContextChannel::ContextRestoreSink::New_ctor

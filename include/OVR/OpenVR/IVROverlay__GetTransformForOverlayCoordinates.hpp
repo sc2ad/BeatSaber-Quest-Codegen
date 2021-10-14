@@ -62,6 +62,7 @@ namespace OVR::OpenVR {
   }; // OVR.OpenVR.IVROverlay/OVR.OpenVR._GetTransformForOverlayCoordinates
   #pragma pack(pop)
 }
+NEED_NO_BOX(OVR::OpenVR::IVROverlay::_GetTransformForOverlayCoordinates);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVROverlay::_GetTransformForOverlayCoordinates*, "OVR.OpenVR", "IVROverlay/_GetTransformForOverlayCoordinates");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVROverlay::_GetTransformForOverlayCoordinates::New_ctor

@@ -71,6 +71,7 @@ namespace System::ComponentModel {
   static check_size<sizeof(DefaultPropertyAttribute), 16 + sizeof(::Il2CppString*)> __System_ComponentModel_DefaultPropertyAttributeSizeCheck;
   static_assert(sizeof(DefaultPropertyAttribute) == 0x18);
 }
+NEED_NO_BOX(System::ComponentModel::DefaultPropertyAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::DefaultPropertyAttribute*, "System.ComponentModel", "DefaultPropertyAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ComponentModel::DefaultPropertyAttribute::get_Name

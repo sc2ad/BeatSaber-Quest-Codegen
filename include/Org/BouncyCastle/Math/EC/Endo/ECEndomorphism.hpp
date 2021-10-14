@@ -30,6 +30,7 @@ namespace Org::BouncyCastle::Math::EC::Endo {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::Endo::ECEndomorphism);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*, "Org.BouncyCastle.Math.EC.Endo", "ECEndomorphism");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Endo::ECEndomorphism::get_PointMap

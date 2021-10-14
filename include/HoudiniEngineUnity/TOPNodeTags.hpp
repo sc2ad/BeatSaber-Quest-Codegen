@@ -54,6 +54,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(TOPNodeTags), 17 + sizeof(bool)> __HoudiniEngineUnity_TOPNodeTagsSizeCheck;
   static_assert(sizeof(TOPNodeTags) == 0x12);
 }
+NEED_NO_BOX(HoudiniEngineUnity::TOPNodeTags);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::TOPNodeTags*, "HoudiniEngineUnity", "TOPNodeTags");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::TOPNodeTags::New_ctor

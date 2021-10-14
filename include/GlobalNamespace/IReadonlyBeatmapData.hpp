@@ -84,6 +84,7 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(GlobalNamespace::IReadonlyBeatmapData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IReadonlyBeatmapData*, "", "IReadonlyBeatmapData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::IReadonlyBeatmapData::get_beatmapLinesData

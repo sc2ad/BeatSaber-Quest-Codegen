@@ -224,6 +224,7 @@ namespace TMPro {
   static check_size<sizeof(TMP_SpriteAsset), 120 + sizeof(bool)> __TMPro_TMP_SpriteAssetSizeCheck;
   static_assert(sizeof(TMP_SpriteAsset) == 0x79);
 }
+NEED_NO_BOX(TMPro::TMP_SpriteAsset);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_SpriteAsset*, "TMPro", "TMP_SpriteAsset");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAsset::get_version

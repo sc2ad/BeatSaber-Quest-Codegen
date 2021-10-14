@@ -73,6 +73,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SelectModifiersViewController), 112 + sizeof(GlobalNamespace::GameplayModifiersPanelController*)> __GlobalNamespace_SelectModifiersViewControllerSizeCheck;
   static_assert(sizeof(SelectModifiersViewController) == 0x78);
 }
+NEED_NO_BOX(GlobalNamespace::SelectModifiersViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectModifiersViewController*, "", "SelectModifiersViewController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SelectModifiersViewController::get_gameplayModifiers

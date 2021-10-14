@@ -114,6 +114,7 @@ namespace Zenject {
   static check_size<sizeof(AddToGameObjectComponentProviderBase::$$c__DisplayClass17_0), 56 + sizeof(UnityEngine::GameObject*)> __Zenject_AddToGameObjectComponentProviderBase_$$c__DisplayClass17_0SizeCheck;
   static_assert(sizeof(AddToGameObjectComponentProviderBase::$$c__DisplayClass17_0) == 0x40);
 }
+NEED_NO_BOX(Zenject::AddToGameObjectComponentProviderBase::$$c__DisplayClass17_0);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::AddToGameObjectComponentProviderBase::$$c__DisplayClass17_0*, "Zenject", "AddToGameObjectComponentProviderBase/<>c__DisplayClass17_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::AddToGameObjectComponentProviderBase::$$c__DisplayClass17_0::$GetAllInstancesWithInjectSplit$b__0

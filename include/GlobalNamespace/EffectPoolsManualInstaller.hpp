@@ -158,6 +158,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(EffectPoolsManualInstaller), 96 + sizeof(GlobalNamespace::NoteDebris*)> __GlobalNamespace_EffectPoolsManualInstallerSizeCheck;
   static_assert(sizeof(EffectPoolsManualInstaller) == 0x68);
 }
+NEED_NO_BOX(GlobalNamespace::EffectPoolsManualInstaller);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EffectPoolsManualInstaller*, "", "EffectPoolsManualInstaller");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EffectPoolsManualInstaller::ManualInstallBindings

@@ -50,6 +50,7 @@ namespace UnityEngine {
   }; // UnityEngine.Application/UnityEngine.LowMemoryCallback
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::Application::LowMemoryCallback);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Application::LowMemoryCallback*, "UnityEngine", "Application/LowMemoryCallback");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Application::LowMemoryCallback::New_ctor

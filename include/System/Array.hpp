@@ -907,6 +907,7 @@ namespace System {
   }; // System.Array
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Array);
 DEFINE_IL2CPP_ARG_TYPE(System::Array*, "System", "Array");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Array::System_Collections_ICollection_get_Count

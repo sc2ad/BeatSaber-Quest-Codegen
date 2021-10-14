@@ -71,6 +71,7 @@ namespace System::Net::Configuration {
   static check_size<sizeof(SettingsSectionInternal), 20 + sizeof(System::Net::Sockets::IPProtectionLevel)> __System_Net_Configuration_SettingsSectionInternalSizeCheck;
   static_assert(sizeof(SettingsSectionInternal) == 0x18);
 }
+NEED_NO_BOX(System::Net::Configuration::SettingsSectionInternal);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Configuration::SettingsSectionInternal*, "System.Net.Configuration", "SettingsSectionInternal");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Configuration::SettingsSectionInternal::get_Section

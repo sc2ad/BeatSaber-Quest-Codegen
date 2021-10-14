@@ -71,6 +71,7 @@ namespace System::Runtime::ExceptionServices {
   static check_size<sizeof(ExceptionDispatchInfo), 24 + sizeof(::Il2CppObject*)> __System_Runtime_ExceptionServices_ExceptionDispatchInfoSizeCheck;
   static_assert(sizeof(ExceptionDispatchInfo) == 0x20);
 }
+NEED_NO_BOX(System::Runtime::ExceptionServices::ExceptionDispatchInfo);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::ExceptionServices::ExceptionDispatchInfo*, "System.Runtime.ExceptionServices", "ExceptionDispatchInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::ExceptionServices::ExceptionDispatchInfo::get_BinaryStackTraceArray

@@ -104,6 +104,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(CentralLeaderboardViewController::$RefreshDelayed$d__36), 48 + sizeof(bool)> __GlobalNamespace_CentralLeaderboardViewController_$RefreshDelayed$d__36SizeCheck;
   static_assert(sizeof(CentralLeaderboardViewController::$RefreshDelayed$d__36) == 0x31);
 }
+NEED_NO_BOX(GlobalNamespace::CentralLeaderboardViewController::$RefreshDelayed$d__36);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CentralLeaderboardViewController::$RefreshDelayed$d__36*, "", "CentralLeaderboardViewController/<RefreshDelayed>d__36");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CentralLeaderboardViewController::$RefreshDelayed$d__36::System_Collections_Generic_IEnumerator$System_Object$_get_Current

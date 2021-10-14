@@ -51,6 +51,7 @@ namespace OVR::OpenVR {
   }; // OVR.OpenVR.IVRRenderModels/OVR.OpenVR._GetRenderModelCount
   #pragma pack(pop)
 }
+NEED_NO_BOX(OVR::OpenVR::IVRRenderModels::_GetRenderModelCount);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRRenderModels::_GetRenderModelCount*, "OVR.OpenVR", "IVRRenderModels/_GetRenderModelCount");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVRRenderModels::_GetRenderModelCount::New_ctor

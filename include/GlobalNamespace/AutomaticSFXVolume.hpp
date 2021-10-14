@@ -173,6 +173,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(AutomaticSFXVolume), 76 + sizeof(float)> __GlobalNamespace_AutomaticSFXVolumeSizeCheck;
   static_assert(sizeof(AutomaticSFXVolume) == 0x50);
 }
+NEED_NO_BOX(GlobalNamespace::AutomaticSFXVolume);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AutomaticSFXVolume*, "", "AutomaticSFXVolume");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AutomaticSFXVolume::Start

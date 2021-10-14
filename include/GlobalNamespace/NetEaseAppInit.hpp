@@ -102,6 +102,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(NetEaseAppInit), 80 + sizeof(GlobalNamespace::MainSettingsModelSO*)> __GlobalNamespace_NetEaseAppInitSizeCheck;
   static_assert(sizeof(NetEaseAppInit) == 0x58);
 }
+NEED_NO_BOX(GlobalNamespace::NetEaseAppInit);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetEaseAppInit*, "", "NetEaseAppInit");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NetEaseAppInit::New_ctor

@@ -97,6 +97,7 @@ namespace Mono::Security::Cryptography {
   static check_size<sizeof(PKCS8::EncryptedPrivateKeyInfo), 40 + sizeof(::ArrayW<uint8_t>)> __Mono_Security_Cryptography_PKCS8_EncryptedPrivateKeyInfoSizeCheck;
   static_assert(sizeof(PKCS8::EncryptedPrivateKeyInfo) == 0x30);
 }
+NEED_NO_BOX(Mono::Security::Cryptography::PKCS8::EncryptedPrivateKeyInfo);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::PKCS8::EncryptedPrivateKeyInfo*, "Mono.Security.Cryptography", "PKCS8/EncryptedPrivateKeyInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Security::Cryptography::PKCS8::EncryptedPrivateKeyInfo::get_Algorithm

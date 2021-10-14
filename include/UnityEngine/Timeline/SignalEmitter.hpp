@@ -121,6 +121,7 @@ namespace UnityEngine::Timeline {
   static check_size<sizeof(SignalEmitter), 48 + sizeof(UnityEngine::Timeline::SignalAsset*)> __UnityEngine_Timeline_SignalEmitterSizeCheck;
   static_assert(sizeof(SignalEmitter) == 0x38);
 }
+NEED_NO_BOX(UnityEngine::Timeline::SignalEmitter);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::SignalEmitter*, "UnityEngine.Timeline", "SignalEmitter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::SignalEmitter::get_retroactive

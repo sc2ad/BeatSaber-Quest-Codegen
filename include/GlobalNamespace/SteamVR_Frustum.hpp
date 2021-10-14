@@ -118,6 +118,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SteamVR_Frustum), 48 + sizeof(float)> __GlobalNamespace_SteamVR_FrustumSizeCheck;
   static_assert(sizeof(SteamVR_Frustum) == 0x34);
 }
+NEED_NO_BOX(GlobalNamespace::SteamVR_Frustum);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Frustum*, "", "SteamVR_Frustum");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Frustum::UpdateModel

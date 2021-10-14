@@ -49,6 +49,7 @@ namespace System::Runtime::Remoting::Messaging {
   }; // System.Runtime.Remoting.Messaging.MethodReturnDictionary
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Runtime::Remoting::Messaging::MethodReturnDictionary);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::MethodReturnDictionary*, "System.Runtime.Remoting.Messaging", "MethodReturnDictionary");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::MethodReturnDictionary::New_ctor

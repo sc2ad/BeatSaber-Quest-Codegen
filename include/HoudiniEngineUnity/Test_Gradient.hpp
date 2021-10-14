@@ -67,6 +67,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(Test_Gradient), 16 + sizeof(UnityEngine::Gradient*)> __HoudiniEngineUnity_Test_GradientSizeCheck;
   static_assert(sizeof(Test_Gradient) == 0x18);
 }
+NEED_NO_BOX(HoudiniEngineUnity::Test_Gradient);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::Test_Gradient*, "HoudiniEngineUnity", "Test_Gradient");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::Test_Gradient::New_ctor

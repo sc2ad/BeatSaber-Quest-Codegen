@@ -273,6 +273,7 @@ namespace System::Net {
   static check_size<sizeof(WebRequest), 28 + sizeof(System::Security::Principal::TokenImpersonationLevel)> __System_Net_WebRequestSizeCheck;
   static_assert(sizeof(WebRequest) == 0x20);
 }
+NEED_NO_BOX(System::Net::WebRequest);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebRequest*, "System.Net", "WebRequest");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::WebRequest::get_InternalSyncObject

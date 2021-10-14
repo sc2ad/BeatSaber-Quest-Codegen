@@ -82,6 +82,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ColorPickerButtonController), 32 + sizeof(UnityEngine::UI::Image*)> __GlobalNamespace_ColorPickerButtonControllerSizeCheck;
   static_assert(sizeof(ColorPickerButtonController) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::ColorPickerButtonController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorPickerButtonController*, "", "ColorPickerButtonController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ColorPickerButtonController::get_button

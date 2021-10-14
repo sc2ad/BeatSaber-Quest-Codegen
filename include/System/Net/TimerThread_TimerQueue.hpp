@@ -54,6 +54,7 @@ namespace System::Net {
   static check_size<sizeof(TimerThread::TimerQueue), 24 + sizeof(System::Net::TimerThread::TimerNode*)> __System_Net_TimerThread_TimerQueueSizeCheck;
   static_assert(sizeof(TimerThread::TimerQueue) == 0x20);
 }
+NEED_NO_BOX(System::Net::TimerThread::TimerQueue);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::TimerThread::TimerQueue*, "System.Net", "TimerThread/TimerQueue");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::TimerThread::TimerQueue::New_ctor

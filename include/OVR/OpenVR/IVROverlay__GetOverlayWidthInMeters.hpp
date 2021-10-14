@@ -56,6 +56,7 @@ namespace OVR::OpenVR {
   }; // OVR.OpenVR.IVROverlay/OVR.OpenVR._GetOverlayWidthInMeters
   #pragma pack(pop)
 }
+NEED_NO_BOX(OVR::OpenVR::IVROverlay::_GetOverlayWidthInMeters);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVROverlay::_GetOverlayWidthInMeters*, "OVR.OpenVR", "IVROverlay/_GetOverlayWidthInMeters");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVROverlay::_GetOverlayWidthInMeters::New_ctor

@@ -71,6 +71,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   static check_size<sizeof(MemberReference), 16 + sizeof(int)> __System_Runtime_Serialization_Formatters_Binary_MemberReferenceSizeCheck;
   static_assert(sizeof(MemberReference) == 0x14);
 }
+NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::MemberReference);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::MemberReference*, "System.Runtime.Serialization.Formatters.Binary", "MemberReference");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::MemberReference::Set

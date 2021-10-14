@@ -115,6 +115,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BeatmapCharacteristicsDropdown), 40 + sizeof(System::Action_1<GlobalNamespace::BeatmapCharacteristicSO*>*)> __GlobalNamespace_BeatmapCharacteristicsDropdownSizeCheck;
   static_assert(sizeof(BeatmapCharacteristicsDropdown) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::BeatmapCharacteristicsDropdown);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapCharacteristicsDropdown*, "", "BeatmapCharacteristicsDropdown");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapCharacteristicsDropdown::add_didSelectCellWithIdxEvent

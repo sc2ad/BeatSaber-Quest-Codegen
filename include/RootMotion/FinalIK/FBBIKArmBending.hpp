@@ -126,6 +126,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(FBBIKArmBending), 112 + sizeof(bool)> __RootMotion_FinalIK_FBBIKArmBendingSizeCheck;
   static_assert(sizeof(FBBIKArmBending) == 0x71);
 }
+NEED_NO_BOX(RootMotion::FinalIK::FBBIKArmBending);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FBBIKArmBending*, "RootMotion.FinalIK", "FBBIKArmBending");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::FBBIKArmBending::LateUpdate

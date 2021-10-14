@@ -56,6 +56,7 @@ namespace Valve::VR {
   }; // Valve.VR.IVRChaperoneSetup/Valve.VR._GetWorkingSeatedZeroPoseToRawTrackingPose
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::IVRChaperoneSetup::_GetWorkingSeatedZeroPoseToRawTrackingPose);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRChaperoneSetup::_GetWorkingSeatedZeroPoseToRawTrackingPose*, "Valve.VR", "IVRChaperoneSetup/_GetWorkingSeatedZeroPoseToRawTrackingPose");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRChaperoneSetup::_GetWorkingSeatedZeroPoseToRawTrackingPose::New_ctor

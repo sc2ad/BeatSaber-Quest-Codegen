@@ -797,6 +797,7 @@ namespace System::Net::Sockets {
   static check_size<sizeof(Socket), 80 + sizeof(bool)> __System_Net_Sockets_SocketSizeCheck;
   static_assert(sizeof(Socket) == 0x51);
 }
+NEED_NO_BOX(System::Net::Sockets::Socket);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::Socket*, "System.Net.Sockets", "Socket");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Sockets::Socket::get_SupportsIPv4

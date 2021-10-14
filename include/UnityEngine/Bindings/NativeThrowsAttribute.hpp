@@ -59,6 +59,7 @@ namespace UnityEngine::Bindings {
   static check_size<sizeof(NativeThrowsAttribute), 16 + sizeof(bool)> __UnityEngine_Bindings_NativeThrowsAttributeSizeCheck;
   static_assert(sizeof(NativeThrowsAttribute) == 0x11);
 }
+NEED_NO_BOX(UnityEngine::Bindings::NativeThrowsAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::NativeThrowsAttribute*, "UnityEngine.Bindings", "NativeThrowsAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Bindings::NativeThrowsAttribute::set_ThrowsException

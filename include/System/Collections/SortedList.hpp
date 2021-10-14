@@ -262,6 +262,7 @@ namespace System::Collections {
   static check_size<sizeof(SortedList), 64 + sizeof(::Il2CppObject*)> __System_Collections_SortedListSizeCheck;
   static_assert(sizeof(SortedList) == 0x48);
 }
+NEED_NO_BOX(System::Collections::SortedList);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::SortedList*, "System.Collections", "SortedList");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::SortedList::get_Capacity

@@ -70,6 +70,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BaseNetworkPlayerModel::PartyConfig), 64 + sizeof(GlobalNamespace::INetworkPlayerModel*)> __GlobalNamespace_BaseNetworkPlayerModel_PartyConfigSizeCheck;
   static_assert(sizeof(BaseNetworkPlayerModel::PartyConfig) == 0x48);
 }
+NEED_NO_BOX(GlobalNamespace::BaseNetworkPlayerModel::PartyConfig);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BaseNetworkPlayerModel::PartyConfig*, "", "BaseNetworkPlayerModel/PartyConfig");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BaseNetworkPlayerModel::PartyConfig::New_ctor

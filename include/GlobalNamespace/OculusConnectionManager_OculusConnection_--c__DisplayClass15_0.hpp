@@ -79,6 +79,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OculusConnectionManager::OculusConnection::$$c__DisplayClass15_0), 24 + sizeof(GlobalNamespace::OculusConnectionManager::OculusConnection*)> __GlobalNamespace_OculusConnectionManager_OculusConnection_$$c__DisplayClass15_0SizeCheck;
   static_assert(sizeof(OculusConnectionManager::OculusConnection::$$c__DisplayClass15_0) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::OculusConnectionManager::OculusConnection::$$c__DisplayClass15_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusConnectionManager::OculusConnection::$$c__DisplayClass15_0*, "", "OculusConnectionManager/OculusConnection/<>c__DisplayClass15_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::OculusConnection::$$c__DisplayClass15_0::$Ping$b__0

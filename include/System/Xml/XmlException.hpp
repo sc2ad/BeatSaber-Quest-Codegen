@@ -194,6 +194,7 @@ namespace System::Xml {
   static check_size<sizeof(XmlException), 168 + sizeof(::Il2CppString*)> __System_Xml_XmlExceptionSizeCheck;
   static_assert(sizeof(XmlException) == 0xB0);
 }
+NEED_NO_BOX(System::Xml::XmlException);
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlException*, "System.Xml", "XmlException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::XmlException::New_ctor

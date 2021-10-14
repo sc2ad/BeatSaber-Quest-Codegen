@@ -78,6 +78,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ObjectiveListItem), 32 + sizeof(TMPro::TextMeshProUGUI*)> __GlobalNamespace_ObjectiveListItemSizeCheck;
   static_assert(sizeof(ObjectiveListItem) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::ObjectiveListItem);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObjectiveListItem*, "", "ObjectiveListItem");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ObjectiveListItem::set_title

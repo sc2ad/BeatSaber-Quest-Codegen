@@ -329,6 +329,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(GameServerPlayerTableCell), 256 + sizeof(System::Threading::CancellationTokenSource*)> __GlobalNamespace_GameServerPlayerTableCellSizeCheck;
   static_assert(sizeof(GameServerPlayerTableCell) == 0x108);
 }
+NEED_NO_BOX(GlobalNamespace::GameServerPlayerTableCell);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServerPlayerTableCell*, "", "GameServerPlayerTableCell");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameServerPlayerTableCell::add_kickPlayerEvent

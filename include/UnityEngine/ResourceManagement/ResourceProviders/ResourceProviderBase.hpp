@@ -129,6 +129,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   static check_size<sizeof(ResourceProviderBase), 24 + sizeof(UnityEngine::ResourceManagement::ResourceProviders::ProviderBehaviourFlags)> __UnityEngine_ResourceManagement_ResourceProviders_ResourceProviderBaseSizeCheck;
   static_assert(sizeof(ResourceProviderBase) == 0x1C);
 }
+NEED_NO_BOX(UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase*, "UnityEngine.ResourceManagement.ResourceProviders", "ResourceProviderBase");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase::get_ProviderId

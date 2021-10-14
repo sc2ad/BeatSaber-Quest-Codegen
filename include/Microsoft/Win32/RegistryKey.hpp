@@ -200,6 +200,7 @@ namespace Microsoft::Win32 {
   static check_size<sizeof(RegistryKey), 57 + sizeof(bool)> __Microsoft_Win32_RegistryKeySizeCheck;
   static_assert(sizeof(RegistryKey) == 0x3A);
 }
+NEED_NO_BOX(Microsoft::Win32::RegistryKey);
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::RegistryKey*, "Microsoft.Win32", "RegistryKey");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Microsoft::Win32::RegistryKey::get_Name

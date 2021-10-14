@@ -58,6 +58,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SetSaberGlowColor::PropertyTintColorPair), 32 + sizeof(::Il2CppString*)> __GlobalNamespace_SetSaberGlowColor_PropertyTintColorPairSizeCheck;
   static_assert(sizeof(SetSaberGlowColor::PropertyTintColorPair) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::SetSaberGlowColor::PropertyTintColorPair);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SetSaberGlowColor::PropertyTintColorPair*, "", "SetSaberGlowColor/PropertyTintColorPair");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SetSaberGlowColor::PropertyTintColorPair::New_ctor

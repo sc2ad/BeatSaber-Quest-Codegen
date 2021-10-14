@@ -20,6 +20,7 @@ namespace UnityEngine::UI {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::UI::IMaskable);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::IMaskable*, "UnityEngine.UI", "IMaskable");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::IMaskable::RecalculateMasking

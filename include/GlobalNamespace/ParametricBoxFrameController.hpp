@@ -150,6 +150,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ParametricBoxFrameController), 64 + sizeof(GlobalNamespace::MaterialPropertyBlockController*)> __GlobalNamespace_ParametricBoxFrameControllerSizeCheck;
   static_assert(sizeof(ParametricBoxFrameController) == 0x48);
 }
+NEED_NO_BOX(GlobalNamespace::ParametricBoxFrameController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ParametricBoxFrameController*, "", "ParametricBoxFrameController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ParametricBoxFrameController::set_localPosition

@@ -46,6 +46,7 @@ namespace System::Net::NetworkInformation {
   }; // System.Net.NetworkInformation.NetworkInterfaceFactory/System.Net.NetworkInformation.UnixNetworkInterfaceAPI
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Net::NetworkInformation::NetworkInterfaceFactory::UnixNetworkInterfaceAPI);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::NetworkInterfaceFactory::UnixNetworkInterfaceAPI*, "System.Net.NetworkInformation", "NetworkInterfaceFactory/UnixNetworkInterfaceAPI");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::NetworkInformation::NetworkInterfaceFactory::UnixNetworkInterfaceAPI::getifaddrs

@@ -133,6 +133,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRInput::OVRControllerGamepadMac), 257 + sizeof(bool)> __GlobalNamespace_OVRInput_OVRControllerGamepadMacSizeCheck;
   static_assert(sizeof(OVRInput::OVRControllerGamepadMac) == 0x102);
 }
+NEED_NO_BOX(GlobalNamespace::OVRInput::OVRControllerGamepadMac);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OVRControllerGamepadMac*, "", "OVRInput/OVRControllerGamepadMac");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::OVRControllerGamepadMac::OVR_GamepadController_Initialize

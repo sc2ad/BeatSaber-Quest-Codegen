@@ -57,6 +57,7 @@ namespace UnityEngine::Experimental::TerrainAPI {
   }; // UnityEngine.Experimental.TerrainAPI.TerrainCallbacks/UnityEngine.Experimental.TerrainAPI.TextureChangedCallback
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::Experimental::TerrainAPI::TerrainCallbacks::TextureChangedCallback);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::TerrainAPI::TerrainCallbacks::TextureChangedCallback*, "UnityEngine.Experimental.TerrainAPI", "TerrainCallbacks/TextureChangedCallback");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Experimental::TerrainAPI::TerrainCallbacks::TextureChangedCallback::New_ctor

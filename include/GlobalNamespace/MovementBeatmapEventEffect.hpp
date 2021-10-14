@@ -160,6 +160,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MovementBeatmapEventEffect), 88 + sizeof(::ArrayW<UnityEngine::Vector3>)> __GlobalNamespace_MovementBeatmapEventEffectSizeCheck;
   static_assert(sizeof(MovementBeatmapEventEffect) == 0x60);
 }
+NEED_NO_BOX(GlobalNamespace::MovementBeatmapEventEffect);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MovementBeatmapEventEffect*, "", "MovementBeatmapEventEffect");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MovementBeatmapEventEffect::Start

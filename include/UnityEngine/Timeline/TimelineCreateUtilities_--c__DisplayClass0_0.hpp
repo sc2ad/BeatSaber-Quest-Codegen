@@ -63,6 +63,7 @@ namespace UnityEngine::Timeline {
   static check_size<sizeof(TimelineCreateUtilities::$$c__DisplayClass0_0), 16 + sizeof(::Il2CppString*)> __UnityEngine_Timeline_TimelineCreateUtilities_$$c__DisplayClass0_0SizeCheck;
   static_assert(sizeof(TimelineCreateUtilities::$$c__DisplayClass0_0) == 0x18);
 }
+NEED_NO_BOX(UnityEngine::Timeline::TimelineCreateUtilities::$$c__DisplayClass0_0);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineCreateUtilities::$$c__DisplayClass0_0*, "UnityEngine.Timeline", "TimelineCreateUtilities/<>c__DisplayClass0_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineCreateUtilities::$$c__DisplayClass0_0::$GenerateUniqueActorName$b__0

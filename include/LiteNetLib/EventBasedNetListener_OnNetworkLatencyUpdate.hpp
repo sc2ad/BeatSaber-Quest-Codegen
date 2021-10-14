@@ -55,6 +55,7 @@ namespace LiteNetLib {
   }; // LiteNetLib.EventBasedNetListener/LiteNetLib.OnNetworkLatencyUpdate
   #pragma pack(pop)
 }
+NEED_NO_BOX(LiteNetLib::EventBasedNetListener::OnNetworkLatencyUpdate);
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::EventBasedNetListener::OnNetworkLatencyUpdate*, "LiteNetLib", "EventBasedNetListener/OnNetworkLatencyUpdate");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::EventBasedNetListener::OnNetworkLatencyUpdate::New_ctor

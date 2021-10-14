@@ -91,6 +91,7 @@ namespace VRUIControls {
   static check_size<sizeof(ButtonState), 32 + sizeof(float)> __VRUIControls_ButtonStateSizeCheck;
   static_assert(sizeof(ButtonState) == 0x24);
 }
+NEED_NO_BOX(VRUIControls::ButtonState);
 DEFINE_IL2CPP_ARG_TYPE(VRUIControls::ButtonState*, "VRUIControls", "ButtonState");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: VRUIControls::ButtonState::get_eventData

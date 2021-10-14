@@ -245,6 +245,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_ObjectNode), 80 + sizeof(HoudiniEngineUnity::HAPI_Transform)> __HoudiniEngineUnity_HEU_ObjectNodeSizeCheck;
   static_assert(sizeof(HEU_ObjectNode) == 0x74);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_ObjectNode);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_ObjectNode*, "HoudiniEngineUnity", "HEU_ObjectNode");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ObjectNode::get_ObjectID

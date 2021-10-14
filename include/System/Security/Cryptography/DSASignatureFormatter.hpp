@@ -54,6 +54,7 @@ namespace System::Security::Cryptography {
   static check_size<sizeof(DSASignatureFormatter), 16 + sizeof(::Il2CppString*)> __System_Security_Cryptography_DSASignatureFormatterSizeCheck;
   static_assert(sizeof(DSASignatureFormatter) == 0x18);
 }
+NEED_NO_BOX(System::Security::Cryptography::DSASignatureFormatter);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::DSASignatureFormatter*, "System.Security.Cryptography", "DSASignatureFormatter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::DSASignatureFormatter::New_ctor

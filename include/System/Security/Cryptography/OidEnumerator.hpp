@@ -74,6 +74,7 @@ namespace System::Security::Cryptography {
   static check_size<sizeof(OidEnumerator), 24 + sizeof(int)> __System_Security_Cryptography_OidEnumeratorSizeCheck;
   static_assert(sizeof(OidEnumerator) == 0x1C);
 }
+NEED_NO_BOX(System::Security::Cryptography::OidEnumerator);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::OidEnumerator*, "System.Security.Cryptography", "OidEnumerator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::OidEnumerator::System_Collections_IEnumerator_get_Current

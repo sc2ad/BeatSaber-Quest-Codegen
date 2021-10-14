@@ -305,6 +305,7 @@ namespace System::Runtime::Serialization {
   static check_size<sizeof(ObjectHolder), 104 + sizeof(bool)> __System_Runtime_Serialization_ObjectHolderSizeCheck;
   static_assert(sizeof(ObjectHolder) == 0x69);
 }
+NEED_NO_BOX(System::Runtime::Serialization::ObjectHolder);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::ObjectHolder*, "System.Runtime.Serialization", "ObjectHolder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::ObjectHolder::get_IsIncompleteObjectReference

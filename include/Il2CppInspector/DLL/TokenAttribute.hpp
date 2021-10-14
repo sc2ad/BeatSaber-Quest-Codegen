@@ -48,6 +48,7 @@ namespace Il2CppInspector::DLL {
     }
   }; // Il2CppInspector.DLL.TokenAttribute
 }
+NEED_NO_BOX(Il2CppInspector::DLL::TokenAttribute);
 DEFINE_IL2CPP_ARG_TYPE(Il2CppInspector::DLL::TokenAttribute*, "Il2CppInspector.DLL", "TokenAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Il2CppInspector::DLL::TokenAttribute::New_ctor

@@ -71,6 +71,7 @@ namespace UnityEngine::Tilemaps {
   }; // UnityEngine.Tilemaps.TileBase
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::Tilemaps::TileBase);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Tilemaps::TileBase*, "UnityEngine.Tilemaps", "TileBase");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Tilemaps::TileBase::RefreshTile

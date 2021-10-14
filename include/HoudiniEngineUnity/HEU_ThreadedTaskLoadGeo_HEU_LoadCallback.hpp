@@ -55,6 +55,7 @@ namespace HoudiniEngineUnity {
   }; // HoudiniEngineUnity.HEU_ThreadedTaskLoadGeo/HoudiniEngineUnity.HEU_LoadCallback
   #pragma pack(pop)
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::HEU_LoadCallback);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::HEU_LoadCallback*, "HoudiniEngineUnity", "HEU_ThreadedTaskLoadGeo/HEU_LoadCallback");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::HEU_LoadCallback::New_ctor

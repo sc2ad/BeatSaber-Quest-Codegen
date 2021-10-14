@@ -351,6 +351,7 @@ namespace System::IO {
   static check_size<sizeof(StreamReader), 96 + sizeof(System::Threading::Tasks::Task*)> __System_IO_StreamReaderSizeCheck;
   static_assert(sizeof(StreamReader) == 0x68);
 }
+NEED_NO_BOX(System::IO::StreamReader);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::StreamReader*, "System.IO", "StreamReader");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::StreamReader::get_DefaultBufferSize

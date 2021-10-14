@@ -454,6 +454,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MainSettingsModelSO::Config), 208 + sizeof(::Il2CppString*)> __GlobalNamespace_MainSettingsModelSO_ConfigSizeCheck;
   static_assert(sizeof(MainSettingsModelSO::Config) == 0xD8);
 }
+NEED_NO_BOX(GlobalNamespace::MainSettingsModelSO::Config);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainSettingsModelSO::Config*, "", "MainSettingsModelSO/Config");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MainSettingsModelSO::Config::New_ctor

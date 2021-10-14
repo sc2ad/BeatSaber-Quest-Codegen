@@ -96,6 +96,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRNativeBuffer), 24 + sizeof(System::IntPtr)> __GlobalNamespace_OVRNativeBufferSizeCheck;
   static_assert(sizeof(OVRNativeBuffer) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::OVRNativeBuffer);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRNativeBuffer*, "", "OVRNativeBuffer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRNativeBuffer::New_ctor

@@ -162,6 +162,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_InputInterfaceTerrain::HEU_InputDataTerrain), 120 + sizeof(int)> __HoudiniEngineUnity_HEU_InputInterfaceTerrain_HEU_InputDataTerrainSizeCheck;
   static_assert(sizeof(HEU_InputInterfaceTerrain::HEU_InputDataTerrain) == 0x7C);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_InputInterfaceTerrain::HEU_InputDataTerrain);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_InputInterfaceTerrain::HEU_InputDataTerrain*, "HoudiniEngineUnity", "HEU_InputInterfaceTerrain/HEU_InputDataTerrain");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_InputInterfaceTerrain::HEU_InputDataTerrain::New_ctor

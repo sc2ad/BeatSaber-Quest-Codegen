@@ -58,6 +58,7 @@ namespace NUnit::Framework::Internal::Builders {
   }; // NUnit.Framework.Internal.Builders.CombinatorialStrategy
   #pragma pack(pop)
 }
+NEED_NO_BOX(NUnit::Framework::Internal::Builders::CombinatorialStrategy);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Builders::CombinatorialStrategy*, "NUnit.Framework.Internal.Builders", "CombinatorialStrategy");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::CombinatorialStrategy::GetTestCases

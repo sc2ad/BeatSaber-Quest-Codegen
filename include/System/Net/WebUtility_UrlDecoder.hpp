@@ -108,6 +108,7 @@ namespace System::Net {
   static check_size<sizeof(WebUtility::UrlDecoder), 48 + sizeof(System::Text::Encoding*)> __System_Net_WebUtility_UrlDecoderSizeCheck;
   static_assert(sizeof(WebUtility::UrlDecoder) == 0x38);
 }
+NEED_NO_BOX(System::Net::WebUtility::UrlDecoder);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebUtility::UrlDecoder*, "System.Net", "WebUtility/UrlDecoder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::WebUtility::UrlDecoder::New_ctor

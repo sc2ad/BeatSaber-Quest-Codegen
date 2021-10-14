@@ -55,6 +55,7 @@ namespace GlobalNamespace {
   }; // NoteWasCutDelegate
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::NoteWasCutDelegate);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteWasCutDelegate*, "", "NoteWasCutDelegate");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteWasCutDelegate::New_ctor

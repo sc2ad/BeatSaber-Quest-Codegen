@@ -107,6 +107,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MissionStageLockView), 48 + sizeof(float)> __GlobalNamespace_MissionStageLockViewSizeCheck;
   static_assert(sizeof(MissionStageLockView) == 0x34);
 }
+NEED_NO_BOX(GlobalNamespace::MissionStageLockView);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionStageLockView*, "", "MissionStageLockView");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionStageLockView::UpdateLocalPositionY

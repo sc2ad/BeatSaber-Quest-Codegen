@@ -184,6 +184,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ColorNoteVisuals), 72 + sizeof(UnityEngine::Color)> __GlobalNamespace_ColorNoteVisualsSizeCheck;
   static_assert(sizeof(ColorNoteVisuals) == 0x58);
 }
+NEED_NO_BOX(GlobalNamespace::ColorNoteVisuals);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorNoteVisuals*, "", "ColorNoteVisuals");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ColorNoteVisuals::set_showArrow

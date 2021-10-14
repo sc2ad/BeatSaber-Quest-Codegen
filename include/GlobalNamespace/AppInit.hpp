@@ -141,6 +141,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(AppInit), 56 + sizeof(GlobalNamespace::GameScenesManager*)> __GlobalNamespace_AppInitSizeCheck;
   static_assert(sizeof(AppInit) == 0x40);
 }
+NEED_NO_BOX(GlobalNamespace::AppInit);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AppInit*, "", "AppInit");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AppInit::get_gameScenesManager

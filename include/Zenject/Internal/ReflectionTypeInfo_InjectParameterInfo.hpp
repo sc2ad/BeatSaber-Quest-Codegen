@@ -67,6 +67,7 @@ namespace Zenject::Internal {
   static check_size<sizeof(ReflectionTypeInfo::InjectParameterInfo), 24 + sizeof(Zenject::InjectableInfo*)> __Zenject_Internal_ReflectionTypeInfo_InjectParameterInfoSizeCheck;
   static_assert(sizeof(ReflectionTypeInfo::InjectParameterInfo) == 0x20);
 }
+NEED_NO_BOX(Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo*, "Zenject.Internal", "ReflectionTypeInfo/InjectParameterInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo::New_ctor

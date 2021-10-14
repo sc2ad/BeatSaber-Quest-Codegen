@@ -67,6 +67,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRMonoscopic), 28 + sizeof(bool)> __GlobalNamespace_OVRMonoscopicSizeCheck;
   static_assert(sizeof(OVRMonoscopic) == 0x1D);
 }
+NEED_NO_BOX(GlobalNamespace::OVRMonoscopic);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMonoscopic*, "", "OVRMonoscopic");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRMonoscopic::Update

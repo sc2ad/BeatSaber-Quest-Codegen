@@ -51,6 +51,7 @@ namespace Valve::VR {
   }; // Valve.VR.IVRSystem/Valve.VR._AcknowledgeQuit_UserPrompt
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::IVRSystem::_AcknowledgeQuit_UserPrompt);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem::_AcknowledgeQuit_UserPrompt*, "Valve.VR", "IVRSystem/_AcknowledgeQuit_UserPrompt");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRSystem::_AcknowledgeQuit_UserPrompt::New_ctor

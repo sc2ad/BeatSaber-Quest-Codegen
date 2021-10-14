@@ -61,6 +61,7 @@ namespace Zenject {
   static check_size<sizeof(DisposableManager::LateDisposableInfo), 24 + sizeof(int)> __Zenject_DisposableManager_LateDisposableInfoSizeCheck;
   static_assert(sizeof(DisposableManager::LateDisposableInfo) == 0x1C);
 }
+NEED_NO_BOX(Zenject::DisposableManager::LateDisposableInfo);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DisposableManager::LateDisposableInfo*, "Zenject", "DisposableManager/LateDisposableInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::DisposableManager::LateDisposableInfo::New_ctor

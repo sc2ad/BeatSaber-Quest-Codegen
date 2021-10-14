@@ -299,6 +299,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRMeshRenderer), 83 + sizeof(bool)> __GlobalNamespace_OVRMeshRendererSizeCheck;
   static_assert(sizeof(OVRMeshRenderer) == 0x54);
 }
+NEED_NO_BOX(GlobalNamespace::OVRMeshRenderer);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMeshRenderer*, "", "OVRMeshRenderer");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMeshRenderer::ConfidenceBehavior, "", "OVRMeshRenderer/ConfidenceBehavior");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMeshRenderer::SystemGestureBehavior, "", "OVRMeshRenderer/SystemGestureBehavior");

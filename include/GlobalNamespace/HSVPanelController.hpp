@@ -132,6 +132,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(HSVPanelController), 48 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_HSVPanelControllerSizeCheck;
   static_assert(sizeof(HSVPanelController) == 0x3C);
 }
+NEED_NO_BOX(GlobalNamespace::HSVPanelController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HSVPanelController*, "", "HSVPanelController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HSVPanelController::get_color

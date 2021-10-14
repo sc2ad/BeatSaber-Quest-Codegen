@@ -461,6 +461,7 @@ namespace UnityEngine::UI {
   static check_size<sizeof(Graphic), 136 + sizeof(bool)> __UnityEngine_UI_GraphicSizeCheck;
   static_assert(sizeof(Graphic) == 0x89);
 }
+NEED_NO_BOX(UnityEngine::UI::Graphic);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Graphic*, "UnityEngine.UI", "Graphic");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::Graphic::get_defaultGraphicMaterial

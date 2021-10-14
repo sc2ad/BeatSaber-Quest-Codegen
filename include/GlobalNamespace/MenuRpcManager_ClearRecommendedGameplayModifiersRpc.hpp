@@ -35,6 +35,7 @@ namespace GlobalNamespace {
   }; // MenuRpcManager/ClearRecommendedGameplayModifiersRpc
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::MenuRpcManager::ClearRecommendedGameplayModifiersRpc);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuRpcManager::ClearRecommendedGameplayModifiersRpc*, "", "MenuRpcManager/ClearRecommendedGameplayModifiersRpc");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::ClearRecommendedGameplayModifiersRpc::New_ctor

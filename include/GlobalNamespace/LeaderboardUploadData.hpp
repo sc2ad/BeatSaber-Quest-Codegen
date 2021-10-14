@@ -132,6 +132,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LeaderboardUploadData), 96 + sizeof(System::Collections::Generic::List_1<::Il2CppString*>*)> __GlobalNamespace_LeaderboardUploadDataSizeCheck;
   static_assert(sizeof(LeaderboardUploadData) == 0x68);
 }
+NEED_NO_BOX(GlobalNamespace::LeaderboardUploadData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardUploadData*, "", "LeaderboardUploadData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LeaderboardUploadData::New_ctor

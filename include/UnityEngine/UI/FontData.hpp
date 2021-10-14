@@ -245,6 +245,7 @@ namespace UnityEngine::UI {
   static check_size<sizeof(FontData), 60 + sizeof(float)> __UnityEngine_UI_FontDataSizeCheck;
   static_assert(sizeof(FontData) == 0x40);
 }
+NEED_NO_BOX(UnityEngine::UI::FontData);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::FontData*, "UnityEngine.UI", "FontData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::FontData::get_defaultFontData

@@ -124,6 +124,7 @@ namespace GlobalNamespace {
   }; // INetworkPlayerModel
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::INetworkPlayerModel);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::INetworkPlayerModel*, "", "INetworkPlayerModel");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::INetworkPlayerModel::get_discoveryEnabled

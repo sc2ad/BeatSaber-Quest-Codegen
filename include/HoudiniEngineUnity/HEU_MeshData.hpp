@@ -130,6 +130,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_MeshData), 80 + sizeof(UnityEngine::MeshTopology)> __HoudiniEngineUnity_HEU_MeshDataSizeCheck;
   static_assert(sizeof(HEU_MeshData) == 0x54);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_MeshData);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_MeshData*, "HoudiniEngineUnity", "HEU_MeshData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_MeshData::New_ctor

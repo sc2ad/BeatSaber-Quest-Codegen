@@ -160,6 +160,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(TutorialScenesTransitionSetupDataSO), 64 + sizeof(System::Action_2<GlobalNamespace::TutorialScenesTransitionSetupDataSO*, GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType>*)> __GlobalNamespace_TutorialScenesTransitionSetupDataSOSizeCheck;
   static_assert(sizeof(TutorialScenesTransitionSetupDataSO) == 0x48);
 }
+NEED_NO_BOX(GlobalNamespace::TutorialScenesTransitionSetupDataSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialScenesTransitionSetupDataSO*, "", "TutorialScenesTransitionSetupDataSO");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType, "", "TutorialScenesTransitionSetupDataSO/TutorialEndStateType");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

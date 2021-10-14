@@ -53,6 +53,7 @@ namespace System::Runtime::Serialization {
   }; // System.Runtime.Serialization.SerializationEventHandler
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Runtime::Serialization::SerializationEventHandler);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SerializationEventHandler*, "System.Runtime.Serialization", "SerializationEventHandler");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationEventHandler::New_ctor

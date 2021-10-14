@@ -135,6 +135,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(FlexyFollow), 64 + sizeof(UnityEngine::Transform*)> __GlobalNamespace_FlexyFollowSizeCheck;
   static_assert(sizeof(FlexyFollow) == 0x48);
 }
+NEED_NO_BOX(GlobalNamespace::FlexyFollow);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlexyFollow*, "", "FlexyFollow");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FlexyFollow::Start

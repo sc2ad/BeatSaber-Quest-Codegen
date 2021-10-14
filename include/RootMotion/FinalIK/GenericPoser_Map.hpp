@@ -90,6 +90,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(GenericPoser::Map), 44 + sizeof(UnityEngine::Quaternion)> __RootMotion_FinalIK_GenericPoser_MapSizeCheck;
   static_assert(sizeof(GenericPoser::Map) == 0x3C);
 }
+NEED_NO_BOX(RootMotion::FinalIK::GenericPoser::Map);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::GenericPoser::Map*, "RootMotion.FinalIK", "GenericPoser/Map");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::GenericPoser::Map::New_ctor

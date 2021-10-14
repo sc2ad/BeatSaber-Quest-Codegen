@@ -56,6 +56,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerLocalActivePlayerInGameMenuController::$$c__DisplayClass18_0), 16 + sizeof(bool)> __GlobalNamespace_MultiplayerLocalActivePlayerInGameMenuController_$$c__DisplayClass18_0SizeCheck;
   static_assert(sizeof(MultiplayerLocalActivePlayerInGameMenuController::$$c__DisplayClass18_0) == 0x11);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController::$$c__DisplayClass18_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController::$$c__DisplayClass18_0*, "", "MultiplayerLocalActivePlayerInGameMenuController/<>c__DisplayClass18_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController::$$c__DisplayClass18_0::$get_canShowInGameMenu$b__0

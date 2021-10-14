@@ -110,6 +110,7 @@ namespace System {
   }; // System.Attribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Attribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Attribute*, "System", "Attribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Attribute::InternalGetCustomAttributes

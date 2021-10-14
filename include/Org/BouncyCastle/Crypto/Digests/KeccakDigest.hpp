@@ -171,6 +171,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
   static check_size<sizeof(KeccakDigest), 44 + sizeof(bool)> __Org_BouncyCastle_Crypto_Digests_KeccakDigestSizeCheck;
   static_assert(sizeof(KeccakDigest) == 0x2D);
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Digests::KeccakDigest);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::KeccakDigest*, "Org.BouncyCastle.Crypto.Digests", "KeccakDigest");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::KeccakDigest::get_AlgorithmName

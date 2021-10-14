@@ -36,6 +36,7 @@ namespace GlobalNamespace {
   }; // IgnoreForReflectionProbeBaking
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::IgnoreForReflectionProbeBaking);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IgnoreForReflectionProbeBaking*, "", "IgnoreForReflectionProbeBaking");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::IgnoreForReflectionProbeBaking::New_ctor

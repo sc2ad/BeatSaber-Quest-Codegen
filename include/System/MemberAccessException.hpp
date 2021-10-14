@@ -62,6 +62,7 @@ namespace System {
   }; // System.MemberAccessException
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::MemberAccessException);
 DEFINE_IL2CPP_ARG_TYPE(System::MemberAccessException*, "System", "MemberAccessException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::MemberAccessException::New_ctor

@@ -102,6 +102,7 @@ namespace HMUI {
   static check_size<sizeof(ViewControllerTransitionHelpers::$AnimationCoroutine$d__8), 40 + sizeof(float)> __HMUI_ViewControllerTransitionHelpers_$AnimationCoroutine$d__8SizeCheck;
   static_assert(sizeof(ViewControllerTransitionHelpers::$AnimationCoroutine$d__8) == 0x2C);
 }
+NEED_NO_BOX(HMUI::ViewControllerTransitionHelpers::$AnimationCoroutine$d__8);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ViewControllerTransitionHelpers::$AnimationCoroutine$d__8*, "HMUI", "ViewControllerTransitionHelpers/<AnimationCoroutine>d__8");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::ViewControllerTransitionHelpers::$AnimationCoroutine$d__8::System_Collections_Generic_IEnumerator$System_Object$_get_Current

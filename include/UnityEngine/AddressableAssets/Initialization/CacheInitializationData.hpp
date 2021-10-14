@@ -117,6 +117,7 @@ namespace UnityEngine::AddressableAssets::Initialization {
   static check_size<sizeof(CacheInitializationData), 40 + sizeof(int64_t)> __UnityEngine_AddressableAssets_Initialization_CacheInitializationDataSizeCheck;
   static_assert(sizeof(CacheInitializationData) == 0x30);
 }
+NEED_NO_BOX(UnityEngine::AddressableAssets::Initialization::CacheInitializationData);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Initialization::CacheInitializationData*, "UnityEngine.AddressableAssets.Initialization", "CacheInitializationData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Initialization::CacheInitializationData::get_CompressionEnabled

@@ -446,6 +446,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRVignette), 185 + sizeof(bool)> __GlobalNamespace_OVRVignetteSizeCheck;
   static_assert(sizeof(OVRVignette) == 0xBA);
 }
+NEED_NO_BOX(GlobalNamespace::OVRVignette);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRVignette*, "", "OVRVignette");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRVignette::MeshComplexityLevel, "", "OVRVignette/MeshComplexityLevel");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRVignette::FalloffType, "", "OVRVignette/FalloffType");

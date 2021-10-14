@@ -52,6 +52,7 @@ namespace Org::BouncyCastle::Asn1::Ntt {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(Org::BouncyCastle::Asn1::Ntt::NttObjectIdentifiers);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Ntt::NttObjectIdentifiers*, "Org.BouncyCastle.Asn1.Ntt", "NttObjectIdentifiers");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Ntt::NttObjectIdentifiers::_cctor

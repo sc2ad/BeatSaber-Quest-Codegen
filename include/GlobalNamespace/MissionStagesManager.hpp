@@ -100,6 +100,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MissionStagesManager), 40 + sizeof(GlobalNamespace::MissionStage*)> __GlobalNamespace_MissionStagesManagerSizeCheck;
   static_assert(sizeof(MissionStagesManager) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::MissionStagesManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionStagesManager*, "", "MissionStagesManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionStagesManager::get_firstLockedMissionStage

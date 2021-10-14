@@ -132,6 +132,7 @@ namespace UnityEngine::Events {
   static check_size<sizeof(PersistentCall), 48 + sizeof(UnityEngine::Events::UnityEventCallState)> __UnityEngine_Events_PersistentCallSizeCheck;
   static_assert(sizeof(PersistentCall) == 0x34);
 }
+NEED_NO_BOX(UnityEngine::Events::PersistentCall);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Events::PersistentCall*, "UnityEngine.Events", "PersistentCall");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Events::PersistentCall::get_target

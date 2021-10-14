@@ -56,6 +56,7 @@ namespace Valve::VR {
   }; // Valve.VR.IVRSettings/Valve.VR._GetFloat
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::IVRSettings::_GetFloat);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSettings::_GetFloat*, "Valve.VR", "IVRSettings/_GetFloat");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRSettings::_GetFloat::New_ctor

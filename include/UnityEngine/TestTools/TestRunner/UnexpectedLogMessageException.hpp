@@ -75,6 +75,7 @@ namespace UnityEngine::TestTools::TestRunner {
   static check_size<sizeof(UnexpectedLogMessageException), 136 + sizeof(UnityEngine::TestTools::Logging::LogMatch*)> __UnityEngine_TestTools_TestRunner_UnexpectedLogMessageExceptionSizeCheck;
   static_assert(sizeof(UnexpectedLogMessageException) == 0x90);
 }
+NEED_NO_BOX(UnityEngine::TestTools::TestRunner::UnexpectedLogMessageException);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::UnexpectedLogMessageException*, "UnityEngine.TestTools.TestRunner", "UnexpectedLogMessageException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::UnexpectedLogMessageException::New_ctor

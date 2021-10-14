@@ -68,6 +68,7 @@ namespace Valve::VR {
   static check_size<sizeof(CVRExtendedDisplay), 16 + sizeof(Valve::VR::IVRExtendedDisplay)> __Valve_VR_CVRExtendedDisplaySizeCheck;
   static_assert(sizeof(CVRExtendedDisplay) == 0x28);
 }
+NEED_NO_BOX(Valve::VR::CVRExtendedDisplay);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRExtendedDisplay*, "Valve.VR", "CVRExtendedDisplay");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::CVRExtendedDisplay::New_ctor

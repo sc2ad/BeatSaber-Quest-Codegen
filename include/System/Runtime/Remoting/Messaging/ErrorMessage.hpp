@@ -104,6 +104,7 @@ namespace System::Runtime::Remoting::Messaging {
   static check_size<sizeof(ErrorMessage), 16 + sizeof(::Il2CppString*)> __System_Runtime_Remoting_Messaging_ErrorMessageSizeCheck;
   static_assert(sizeof(ErrorMessage) == 0x18);
 }
+NEED_NO_BOX(System::Runtime::Remoting::Messaging::ErrorMessage);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::ErrorMessage*, "System.Runtime.Remoting.Messaging", "ErrorMessage");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::ErrorMessage::get_ArgCount

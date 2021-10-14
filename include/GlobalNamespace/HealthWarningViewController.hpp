@@ -175,6 +175,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(HealthWarningViewController), 176 + sizeof(System::Action*)> __GlobalNamespace_HealthWarningViewControllerSizeCheck;
   static_assert(sizeof(HealthWarningViewController) == 0xB8);
 }
+NEED_NO_BOX(GlobalNamespace::HealthWarningViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HealthWarningViewController*, "", "HealthWarningViewController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HealthWarningViewController::add_privacyPolicyButtonPressedEvent

@@ -146,6 +146,7 @@ namespace System::Net {
   static check_size<sizeof(CookieCollection), 41 + sizeof(bool)> __System_Net_CookieCollectionSizeCheck;
   static_assert(sizeof(CookieCollection) == 0x2A);
 }
+NEED_NO_BOX(System::Net::CookieCollection);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::CookieCollection*, "System.Net", "CookieCollection");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::CookieCollection::get_Item

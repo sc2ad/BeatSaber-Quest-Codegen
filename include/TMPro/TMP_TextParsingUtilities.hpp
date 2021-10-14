@@ -83,6 +83,7 @@ namespace TMPro {
   }; // TMPro.TMP_TextParsingUtilities
   #pragma pack(pop)
 }
+NEED_NO_BOX(TMPro::TMP_TextParsingUtilities);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_TextParsingUtilities*, "TMPro", "TMP_TextParsingUtilities");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_TextParsingUtilities::get_instance

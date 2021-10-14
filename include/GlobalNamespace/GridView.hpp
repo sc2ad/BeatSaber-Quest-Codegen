@@ -162,6 +162,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(GridView), 64 + sizeof(System::Collections::Generic::Dictionary_2<UnityEngine::MonoBehaviour*, System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*>*)> __GlobalNamespace_GridViewSizeCheck;
   static_assert(sizeof(GridView) == 0x48);
 }
+NEED_NO_BOX(GlobalNamespace::GridView);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GridView*, "", "GridView");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GridView::get_dataSource

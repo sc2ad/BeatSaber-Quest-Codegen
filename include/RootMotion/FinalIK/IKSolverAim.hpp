@@ -199,6 +199,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(IKSolverAim), 232 + sizeof(UnityEngine::Transform*)> __RootMotion_FinalIK_IKSolverAimSizeCheck;
   static_assert(sizeof(IKSolverAim) == 0xF0);
 }
+NEED_NO_BOX(RootMotion::FinalIK::IKSolverAim);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverAim*, "RootMotion.FinalIK", "IKSolverAim");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverAim::get_transformAxis

@@ -103,6 +103,7 @@ namespace UnityEngine {
   static check_size<sizeof(Font), 24 + sizeof(UnityEngine::Font::FontTextureRebuildCallback*)> __UnityEngine_FontSizeCheck;
   static_assert(sizeof(Font) == 0x20);
 }
+NEED_NO_BOX(UnityEngine::Font);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Font*, "UnityEngine", "Font");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Font::get_material

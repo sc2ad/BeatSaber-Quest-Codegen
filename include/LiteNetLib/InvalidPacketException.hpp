@@ -63,6 +63,7 @@ namespace LiteNetLib {
   }; // LiteNetLib.InvalidPacketException
   #pragma pack(pop)
 }
+NEED_NO_BOX(LiteNetLib::InvalidPacketException);
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::InvalidPacketException*, "LiteNetLib", "InvalidPacketException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::InvalidPacketException::New_ctor

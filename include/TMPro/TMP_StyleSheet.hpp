@@ -104,6 +104,7 @@ namespace TMPro {
   static check_size<sizeof(TMP_StyleSheet), 32 + sizeof(System::Collections::Generic::Dictionary_2<int, TMPro::TMP_Style*>*)> __TMPro_TMP_StyleSheetSizeCheck;
   static_assert(sizeof(TMP_StyleSheet) == 0x28);
 }
+NEED_NO_BOX(TMPro::TMP_StyleSheet);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_StyleSheet*, "TMPro", "TMP_StyleSheet");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_StyleSheet::get_instance

@@ -137,6 +137,7 @@ namespace Org::BouncyCastle::Crypto::Macs {
   static check_size<sizeof(CfbBlockCipherMac), 56 + sizeof(int)> __Org_BouncyCastle_Crypto_Macs_CfbBlockCipherMacSizeCheck;
   static_assert(sizeof(CfbBlockCipherMac) == 0x3C);
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac*, "Org.BouncyCastle.Crypto.Macs", "CfbBlockCipherMac");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac::New_ctor

@@ -53,6 +53,7 @@ namespace OnlineServices::API {
   static check_size<sizeof(HTTPAdminLeaderboardsHelper::LeaderboardsInfoResultDto), 16 + sizeof(::ArrayW<OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto*>)> __OnlineServices_API_HTTPAdminLeaderboardsHelper_LeaderboardsInfoResultDtoSizeCheck;
   static_assert(sizeof(HTTPAdminLeaderboardsHelper::LeaderboardsInfoResultDto) == 0x18);
 }
+NEED_NO_BOX(OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsInfoResultDto);
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsInfoResultDto*, "OnlineServices.API", "HTTPAdminLeaderboardsHelper/LeaderboardsInfoResultDto");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsInfoResultDto::New_ctor

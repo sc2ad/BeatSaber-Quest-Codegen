@@ -219,6 +219,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BeatmapObjectsAvoidance), 120 + sizeof(UnityEngine::Transform*)> __GlobalNamespace_BeatmapObjectsAvoidanceSizeCheck;
   static_assert(sizeof(BeatmapObjectsAvoidance) == 0x80);
 }
+NEED_NO_BOX(GlobalNamespace::BeatmapObjectsAvoidance);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectsAvoidance*, "", "BeatmapObjectsAvoidance");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectsAvoidance::Awake

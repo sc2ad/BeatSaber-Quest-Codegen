@@ -101,6 +101,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerEnvironmentResizeController::ResizeData), 32 + sizeof(::ArrayW<UnityEngine::Transform*>)> __GlobalNamespace_MultiplayerEnvironmentResizeController_ResizeDataSizeCheck;
   static_assert(sizeof(MultiplayerEnvironmentResizeController::ResizeData) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData*, "", "MultiplayerEnvironmentResizeController/ResizeData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData::get_resizeType

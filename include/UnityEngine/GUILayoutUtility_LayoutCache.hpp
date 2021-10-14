@@ -77,6 +77,7 @@ namespace UnityEngine {
   static check_size<sizeof(GUILayoutUtility::LayoutCache), 32 + sizeof(UnityEngine::GUILayoutGroup*)> __UnityEngine_GUILayoutUtility_LayoutCacheSizeCheck;
   static_assert(sizeof(GUILayoutUtility::LayoutCache) == 0x28);
 }
+NEED_NO_BOX(UnityEngine::GUILayoutUtility::LayoutCache);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUILayoutUtility::LayoutCache*, "UnityEngine", "GUILayoutUtility/LayoutCache");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::GUILayoutUtility::LayoutCache::New_ctor

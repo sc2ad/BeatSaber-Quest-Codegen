@@ -135,6 +135,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(QuestShowcaseAppInit), 104 + sizeof(GlobalNamespace::PlayerDataModel*)> __GlobalNamespace_QuestShowcaseAppInitSizeCheck;
   static_assert(sizeof(QuestShowcaseAppInit) == 0x70);
 }
+NEED_NO_BOX(GlobalNamespace::QuestShowcaseAppInit);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::QuestShowcaseAppInit*, "", "QuestShowcaseAppInit");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::QuestShowcaseAppInit::New_ctor

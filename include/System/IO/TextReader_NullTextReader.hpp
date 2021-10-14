@@ -45,6 +45,7 @@ namespace System::IO {
   }; // System.IO.TextReader/System.IO.NullTextReader
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::IO::TextReader::NullTextReader);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::TextReader::NullTextReader*, "System.IO", "TextReader/NullTextReader");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::TextReader::NullTextReader::New_ctor

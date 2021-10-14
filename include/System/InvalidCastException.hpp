@@ -62,6 +62,7 @@ namespace System {
   }; // System.InvalidCastException
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::InvalidCastException);
 DEFINE_IL2CPP_ARG_TYPE(System::InvalidCastException*, "System", "InvalidCastException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::InvalidCastException::New_ctor

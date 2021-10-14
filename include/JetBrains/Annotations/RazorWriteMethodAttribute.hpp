@@ -34,6 +34,7 @@ namespace JetBrains::Annotations {
   }; // JetBrains.Annotations.RazorWriteMethodAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(JetBrains::Annotations::RazorWriteMethodAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::RazorWriteMethodAttribute*, "JetBrains.Annotations", "RazorWriteMethodAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: JetBrains::Annotations::RazorWriteMethodAttribute::New_ctor

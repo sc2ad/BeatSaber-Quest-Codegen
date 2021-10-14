@@ -34,6 +34,7 @@ namespace UnityEngine::Scripting {
   }; // UnityEngine.Scripting.GeneratedByOldBindingsGeneratorAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::Scripting::GeneratedByOldBindingsGeneratorAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Scripting::GeneratedByOldBindingsGeneratorAttribute*, "UnityEngine.Scripting", "GeneratedByOldBindingsGeneratorAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Scripting::GeneratedByOldBindingsGeneratorAttribute::New_ctor

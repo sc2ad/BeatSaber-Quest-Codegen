@@ -107,6 +107,7 @@ namespace HMUI {
   static check_size<sizeof(HierarchyManager), 40 + sizeof(HMUI::FlowCoordinator*)> __HMUI_HierarchyManagerSizeCheck;
   static_assert(sizeof(HierarchyManager) == 0x30);
 }
+NEED_NO_BOX(HMUI::HierarchyManager);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::HierarchyManager*, "HMUI", "HierarchyManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::HierarchyManager::Start

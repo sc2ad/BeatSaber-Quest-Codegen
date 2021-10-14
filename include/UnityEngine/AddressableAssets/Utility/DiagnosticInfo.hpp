@@ -77,6 +77,7 @@ namespace UnityEngine::AddressableAssets::Utility {
   static check_size<sizeof(DiagnosticInfo), 32 + sizeof(::ArrayW<int>)> __UnityEngine_AddressableAssets_Utility_DiagnosticInfoSizeCheck;
   static_assert(sizeof(DiagnosticInfo) == 0x28);
 }
+NEED_NO_BOX(UnityEngine::AddressableAssets::Utility::DiagnosticInfo);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Utility::DiagnosticInfo*, "UnityEngine.AddressableAssets.Utility", "DiagnosticInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Utility::DiagnosticInfo::CreateEvent

@@ -120,6 +120,7 @@ namespace System::ComponentModel {
   static check_size<sizeof(Component), 32 + sizeof(System::ComponentModel::EventHandlerList*)> __System_ComponentModel_ComponentSizeCheck;
   static_assert(sizeof(Component) == 0x28);
 }
+NEED_NO_BOX(System::ComponentModel::Component);
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::Component*, "System.ComponentModel", "Component");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ComponentModel::Component::get_CanRaiseEvents

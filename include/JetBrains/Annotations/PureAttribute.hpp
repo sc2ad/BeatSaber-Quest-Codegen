@@ -34,6 +34,7 @@ namespace JetBrains::Annotations {
   }; // JetBrains.Annotations.PureAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(JetBrains::Annotations::PureAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::PureAttribute*, "JetBrains.Annotations", "PureAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: JetBrains::Annotations::PureAttribute::New_ctor

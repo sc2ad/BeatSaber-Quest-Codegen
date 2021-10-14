@@ -309,6 +309,7 @@ namespace TMPro {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(TMPro::ShaderUtilities);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::ShaderUtilities*, "TMPro", "ShaderUtilities");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::ShaderUtilities::get_ShaderRef_MobileSDF

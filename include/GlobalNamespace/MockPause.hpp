@@ -102,6 +102,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MockPause), 32 + sizeof(System::Action*)> __GlobalNamespace_MockPauseSizeCheck;
   static_assert(sizeof(MockPause) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::MockPause);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockPause*, "", "MockPause");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MockPause::add_didPauseEvent

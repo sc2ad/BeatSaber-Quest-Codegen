@@ -56,6 +56,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerScoreProvider::$$c__DisplayClass18_0), 16 + sizeof(::Il2CppString*)> __GlobalNamespace_MultiplayerScoreProvider_$$c__DisplayClass18_0SizeCheck;
   static_assert(sizeof(MultiplayerScoreProvider::$$c__DisplayClass18_0) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerScoreProvider::$$c__DisplayClass18_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerScoreProvider::$$c__DisplayClass18_0*, "", "MultiplayerScoreProvider/<>c__DisplayClass18_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerScoreProvider::$$c__DisplayClass18_0::$GetPositionOfPlayer$b__0

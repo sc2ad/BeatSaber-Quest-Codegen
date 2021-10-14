@@ -74,6 +74,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BookmarksFoldersModel), 32 + sizeof(::ArrayW<GlobalNamespace::FileBrowserItem*>)> __GlobalNamespace_BookmarksFoldersModelSizeCheck;
   static_assert(sizeof(BookmarksFoldersModel) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::BookmarksFoldersModel);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BookmarksFoldersModel*, "", "BookmarksFoldersModel");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BookmarksFoldersModel::get_bookmarksFolders

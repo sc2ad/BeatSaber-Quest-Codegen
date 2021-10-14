@@ -96,6 +96,7 @@ namespace UnityEngine::ProBuilder {
   // Offset: 0x1C586DC
   bool operator !=(UnityEngine::ProBuilder::HandleConstraint2D* a, UnityEngine::ProBuilder::HandleConstraint2D& b);
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::HandleConstraint2D);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::HandleConstraint2D*, "UnityEngine.ProBuilder", "HandleConstraint2D");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::HandleConstraint2D::New_ctor

@@ -98,6 +98,7 @@ namespace Oculus::Platform::Models {
   static check_size<sizeof(ChallengeEntry), 56 + sizeof(Oculus::Platform::Models::User*)> __Oculus_Platform_Models_ChallengeEntrySizeCheck;
   static_assert(sizeof(ChallengeEntry) == 0x40);
 }
+NEED_NO_BOX(Oculus::Platform::Models::ChallengeEntry);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::ChallengeEntry*, "Oculus.Platform.Models", "ChallengeEntry");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::ChallengeEntry::New_ctor

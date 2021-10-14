@@ -317,6 +317,7 @@ namespace UnityEngine::ProBuilder {
   static check_size<sizeof(PreferenceDictionary), 160 + sizeof(System::Collections::Generic::List_1<UnityEngine::Material*>*)> __UnityEngine_ProBuilder_PreferenceDictionarySizeCheck;
   static_assert(sizeof(PreferenceDictionary) == 0xA8);
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::PreferenceDictionary);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::PreferenceDictionary*, "UnityEngine.ProBuilder", "PreferenceDictionary");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::PreferenceDictionary::OnBeforeSerialize

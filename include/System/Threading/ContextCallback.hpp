@@ -49,6 +49,7 @@ namespace System::Threading {
   }; // System.Threading.ContextCallback
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Threading::ContextCallback);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ContextCallback*, "System.Threading", "ContextCallback");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::ContextCallback::New_ctor

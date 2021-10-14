@@ -87,6 +87,7 @@ namespace System::Security::Util {
   static check_size<sizeof(Parser), 24 + sizeof(System::Security::Util::Tokenizer*)> __System_Security_Util_ParserSizeCheck;
   static_assert(sizeof(Parser) == 0x20);
 }
+NEED_NO_BOX(System::Security::Util::Parser);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::Parser*, "System.Security.Util", "Parser");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Util::Parser::New_ctor

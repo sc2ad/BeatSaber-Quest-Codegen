@@ -51,6 +51,7 @@ namespace Mono::Unity {
   }; // Mono.Unity.UnityTls/Mono.Unity.unitytls_tlsctx_certificate_callback
   #pragma pack(pop)
 }
+NEED_NO_BOX(Mono::Unity::UnityTls::unitytls_tlsctx_certificate_callback);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTls::unitytls_tlsctx_certificate_callback*, "Mono.Unity", "UnityTls/unitytls_tlsctx_certificate_callback");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Unity::UnityTls::unitytls_tlsctx_certificate_callback::New_ctor

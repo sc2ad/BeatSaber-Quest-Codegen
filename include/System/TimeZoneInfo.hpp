@@ -476,6 +476,7 @@ namespace System {
   static check_size<sizeof(TimeZoneInfo), 72 + sizeof(::ArrayW<System::TimeZoneInfo::AdjustmentRule*>)> __System_TimeZoneInfoSizeCheck;
   static_assert(sizeof(TimeZoneInfo) == 0x50);
 }
+NEED_NO_BOX(System::TimeZoneInfo);
 DEFINE_IL2CPP_ARG_TYPE(System::TimeZoneInfo*, "System", "TimeZoneInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::TimeZoneInfo::get_BaseUtcOffset

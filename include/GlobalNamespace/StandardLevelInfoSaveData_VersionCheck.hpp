@@ -55,6 +55,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(StandardLevelInfoSaveData::VersionCheck), 16 + sizeof(::Il2CppString*)> __GlobalNamespace_StandardLevelInfoSaveData_VersionCheckSizeCheck;
   static_assert(sizeof(StandardLevelInfoSaveData::VersionCheck) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::StandardLevelInfoSaveData::VersionCheck);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelInfoSaveData::VersionCheck*, "", "StandardLevelInfoSaveData/VersionCheck");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelInfoSaveData::VersionCheck::get_version

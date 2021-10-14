@@ -162,6 +162,7 @@ namespace Org::BouncyCastle::X509 {
   static check_size<sizeof(X509Crl), 44 + sizeof(int)> __Org_BouncyCastle_X509_X509CrlSizeCheck;
   static_assert(sizeof(X509Crl) == 0x30);
 }
+NEED_NO_BOX(Org::BouncyCastle::X509::X509Crl);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::X509Crl*, "Org.BouncyCastle.X509", "X509Crl");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::X509::X509Crl::get_Version

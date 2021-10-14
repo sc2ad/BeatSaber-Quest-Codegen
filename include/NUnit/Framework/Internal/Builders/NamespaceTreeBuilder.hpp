@@ -88,6 +88,7 @@ namespace NUnit::Framework::Internal::Builders {
   static check_size<sizeof(NamespaceTreeBuilder), 24 + sizeof(NUnit::Framework::Internal::TestSuite*)> __NUnit_Framework_Internal_Builders_NamespaceTreeBuilderSizeCheck;
   static_assert(sizeof(NamespaceTreeBuilder) == 0x20);
 }
+NEED_NO_BOX(NUnit::Framework::Internal::Builders::NamespaceTreeBuilder);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Builders::NamespaceTreeBuilder*, "NUnit.Framework.Internal.Builders", "NamespaceTreeBuilder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::get_RootSuite

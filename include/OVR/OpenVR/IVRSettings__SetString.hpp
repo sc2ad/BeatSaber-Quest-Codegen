@@ -56,6 +56,7 @@ namespace OVR::OpenVR {
   }; // OVR.OpenVR.IVRSettings/OVR.OpenVR._SetString
   #pragma pack(pop)
 }
+NEED_NO_BOX(OVR::OpenVR::IVRSettings::_SetString);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRSettings::_SetString*, "OVR.OpenVR", "IVRSettings/_SetString");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVRSettings::_SetString::New_ctor

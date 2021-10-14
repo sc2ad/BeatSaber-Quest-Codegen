@@ -112,6 +112,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MeshRendererSwitchEventEffect), 48 + sizeof(GlobalNamespace::IBeatmapObjectCallbackController*)> __GlobalNamespace_MeshRendererSwitchEventEffectSizeCheck;
   static_assert(sizeof(MeshRendererSwitchEventEffect) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::MeshRendererSwitchEventEffect);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MeshRendererSwitchEventEffect*, "", "MeshRendererSwitchEventEffect");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MeshRendererSwitchEventEffect::Start

@@ -54,6 +54,7 @@ namespace System::Collections::Generic {
     int GetHashCode();
   }; // System.Collections.Generic.ByteEqualityComparer
 }
+NEED_NO_BOX(System::Collections::Generic::ByteEqualityComparer);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Generic::ByteEqualityComparer*, "System.Collections.Generic", "ByteEqualityComparer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::Generic::ByteEqualityComparer::Equals

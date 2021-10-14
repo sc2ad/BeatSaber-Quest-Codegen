@@ -86,6 +86,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(RagdollUtility::$DisableRagdollSmooth$d__21), 32 + sizeof(RootMotion::FinalIK::RagdollUtility*)> __RootMotion_FinalIK_RagdollUtility_$DisableRagdollSmooth$d__21SizeCheck;
   static_assert(sizeof(RagdollUtility::$DisableRagdollSmooth$d__21) == 0x28);
 }
+NEED_NO_BOX(RootMotion::FinalIK::RagdollUtility::$DisableRagdollSmooth$d__21);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RagdollUtility::$DisableRagdollSmooth$d__21*, "RootMotion.FinalIK", "RagdollUtility/<DisableRagdollSmooth>d__21");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::RagdollUtility::$DisableRagdollSmooth$d__21::System_Collections_Generic_IEnumerator$System_Object$_get_Current

@@ -106,6 +106,7 @@ namespace System::Security {
   static check_size<sizeof(SecurityException), 136 + sizeof(::Il2CppString*)> __System_Security_SecurityExceptionSizeCheck;
   static_assert(sizeof(SecurityException) == 0x90);
 }
+NEED_NO_BOX(System::Security::SecurityException);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::SecurityException*, "System.Security", "SecurityException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::SecurityException::New_ctor

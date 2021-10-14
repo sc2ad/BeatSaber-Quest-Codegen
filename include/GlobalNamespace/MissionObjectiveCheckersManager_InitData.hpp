@@ -58,6 +58,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MissionObjectiveCheckersManager::InitData), 16 + sizeof(::ArrayW<GlobalNamespace::MissionObjective*>)> __GlobalNamespace_MissionObjectiveCheckersManager_InitDataSizeCheck;
   static_assert(sizeof(MissionObjectiveCheckersManager::InitData) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::MissionObjectiveCheckersManager::InitData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjectiveCheckersManager::InitData*, "", "MissionObjectiveCheckersManager/InitData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionObjectiveCheckersManager::InitData::New_ctor

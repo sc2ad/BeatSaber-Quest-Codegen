@@ -35,6 +35,7 @@ namespace System::Diagnostics {
   }; // System.Diagnostics.DebuggerNonUserCodeAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Diagnostics::DebuggerNonUserCodeAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::DebuggerNonUserCodeAttribute*, "System.Diagnostics", "DebuggerNonUserCodeAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Diagnostics::DebuggerNonUserCodeAttribute::New_ctor

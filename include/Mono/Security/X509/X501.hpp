@@ -103,6 +103,7 @@ namespace Mono::Security::X509 {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(Mono::Security::X509::X501);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::X501*, "Mono.Security.X509", "X501");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Security::X509::X501::_cctor

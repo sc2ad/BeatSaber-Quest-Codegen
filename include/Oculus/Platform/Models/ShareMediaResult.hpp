@@ -52,6 +52,7 @@ namespace Oculus::Platform::Models {
   static check_size<sizeof(ShareMediaResult), 16 + sizeof(Oculus::Platform::ShareMediaStatus)> __Oculus_Platform_Models_ShareMediaResultSizeCheck;
   static_assert(sizeof(ShareMediaResult) == 0x14);
 }
+NEED_NO_BOX(Oculus::Platform::Models::ShareMediaResult);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::ShareMediaResult*, "Oculus.Platform.Models", "ShareMediaResult");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::ShareMediaResult::New_ctor

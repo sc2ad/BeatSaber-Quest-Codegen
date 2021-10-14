@@ -34,6 +34,7 @@ namespace GlobalNamespace {
     }
   }; // MenuRpcManager/SetStartGameTimeRpc
 }
+NEED_NO_BOX(GlobalNamespace::MenuRpcManager::SetStartGameTimeRpc);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuRpcManager::SetStartGameTimeRpc*, "", "MenuRpcManager/SetStartGameTimeRpc");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::SetStartGameTimeRpc::New_ctor

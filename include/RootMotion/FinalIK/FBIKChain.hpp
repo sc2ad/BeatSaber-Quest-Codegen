@@ -367,6 +367,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(FBIKChain), 128 + sizeof(float)> __RootMotion_FinalIK_FBIKChainSizeCheck;
   static_assert(sizeof(FBIKChain) == 0x84);
 }
+NEED_NO_BOX(RootMotion::FinalIK::FBIKChain);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FBIKChain*, "RootMotion.FinalIK", "FBIKChain");
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FBIKChain::Smoothing, "RootMotion.FinalIK", "FBIKChain/Smoothing");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

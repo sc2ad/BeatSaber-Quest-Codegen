@@ -89,6 +89,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_GeneratedOutputData), 32 + sizeof(System::Collections::Generic::List_1<UnityEngine::Collider*>*)> __HoudiniEngineUnity_HEU_GeneratedOutputDataSizeCheck;
   static_assert(sizeof(HEU_GeneratedOutputData) == 0x28);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_GeneratedOutputData);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_GeneratedOutputData*, "HoudiniEngineUnity", "HEU_GeneratedOutputData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneratedOutputData::IsEquivalentTo

@@ -73,6 +73,7 @@ namespace UnityEngine::Tilemaps {
   static check_size<sizeof(ITilemap), 16 + sizeof(UnityEngine::Tilemaps::Tilemap*)> __UnityEngine_Tilemaps_ITilemapSizeCheck;
   static_assert(sizeof(ITilemap) == 0x18);
 }
+NEED_NO_BOX(UnityEngine::Tilemaps::ITilemap);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Tilemaps::ITilemap*, "UnityEngine.Tilemaps", "ITilemap");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Tilemaps::ITilemap::RefreshTile

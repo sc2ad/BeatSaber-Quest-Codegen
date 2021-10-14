@@ -36,6 +36,7 @@ namespace Zenject {
   }; // Zenject.InjectOptionalAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(Zenject::InjectOptionalAttribute);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::InjectOptionalAttribute*, "Zenject", "InjectOptionalAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::InjectOptionalAttribute::New_ctor

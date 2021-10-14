@@ -93,6 +93,7 @@ namespace System::Collections::Specialized {
   static check_size<sizeof(CompatibleComparer), 24 + sizeof(System::Collections::IHashCodeProvider*)> __System_Collections_Specialized_CompatibleComparerSizeCheck;
   static_assert(sizeof(CompatibleComparer) == 0x20);
 }
+NEED_NO_BOX(System::Collections::Specialized::CompatibleComparer);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::CompatibleComparer*, "System.Collections.Specialized", "CompatibleComparer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::Specialized::CompatibleComparer::get_Comparer

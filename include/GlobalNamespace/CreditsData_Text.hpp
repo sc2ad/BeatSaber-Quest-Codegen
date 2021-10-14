@@ -76,6 +76,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(CreditsData::Text), 28 + sizeof(GlobalNamespace::CreditsData::TextStyle)> __GlobalNamespace_CreditsData_TextSizeCheck;
   static_assert(sizeof(CreditsData::Text) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::CreditsData::Text);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CreditsData::Text*, "", "CreditsData/Text");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CreditsData::Text::IsEmpty

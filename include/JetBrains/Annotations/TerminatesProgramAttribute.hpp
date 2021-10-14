@@ -35,6 +35,7 @@ namespace JetBrains::Annotations {
   }; // JetBrains.Annotations.TerminatesProgramAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(JetBrains::Annotations::TerminatesProgramAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::TerminatesProgramAttribute*, "JetBrains.Annotations", "TerminatesProgramAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: JetBrains::Annotations::TerminatesProgramAttribute::New_ctor

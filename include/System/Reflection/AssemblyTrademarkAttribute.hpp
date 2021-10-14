@@ -52,6 +52,7 @@ namespace System::Reflection {
   static check_size<sizeof(AssemblyTrademarkAttribute), 16 + sizeof(::Il2CppString*)> __System_Reflection_AssemblyTrademarkAttributeSizeCheck;
   static_assert(sizeof(AssemblyTrademarkAttribute) == 0x18);
 }
+NEED_NO_BOX(System::Reflection::AssemblyTrademarkAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::AssemblyTrademarkAttribute*, "System.Reflection", "AssemblyTrademarkAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::AssemblyTrademarkAttribute::New_ctor

@@ -96,6 +96,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MenuSceneSetup), 40 + sizeof(HMUI::HierarchyManager*)> __GlobalNamespace_MenuSceneSetupSizeCheck;
   static_assert(sizeof(MenuSceneSetup) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::MenuSceneSetup);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuSceneSetup*, "", "MenuSceneSetup");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MenuSceneSetup::Start

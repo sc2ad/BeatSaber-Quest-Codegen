@@ -204,6 +204,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerLevelCompletionResults), 24 + sizeof(GlobalNamespace::LevelCompletionResults*)> __GlobalNamespace_MultiplayerLevelCompletionResultsSizeCheck;
   static_assert(sizeof(MultiplayerLevelCompletionResults) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerLevelCompletionResults);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLevelCompletionResults*, "", "MultiplayerLevelCompletionResults");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLevelCompletionResults::MultiplayerLevelEndState, "", "MultiplayerLevelCompletionResults/MultiplayerLevelEndState");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

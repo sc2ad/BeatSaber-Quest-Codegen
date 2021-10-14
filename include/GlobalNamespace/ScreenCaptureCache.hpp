@@ -129,6 +129,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ScreenCaptureCache), 16 + sizeof(System::Collections::Generic::Dictionary_2<GlobalNamespace::ScreenCaptureCache::ScreenshotType, UnityEngine::Texture2D*>*)> __GlobalNamespace_ScreenCaptureCacheSizeCheck;
   static_assert(sizeof(ScreenCaptureCache) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::ScreenCaptureCache);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScreenCaptureCache*, "", "ScreenCaptureCache");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScreenCaptureCache::ScreenshotType, "", "ScreenCaptureCache/ScreenshotType");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

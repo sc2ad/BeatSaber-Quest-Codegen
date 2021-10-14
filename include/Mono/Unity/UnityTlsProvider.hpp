@@ -123,6 +123,7 @@ namespace Mono::Unity {
   }; // Mono.Unity.UnityTlsProvider
   #pragma pack(pop)
 }
+NEED_NO_BOX(Mono::Unity::UnityTlsProvider);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTlsProvider*, "Mono.Unity", "UnityTlsProvider");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Unity::UnityTlsProvider::get_Name

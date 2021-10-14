@@ -58,6 +58,7 @@ namespace System::Runtime::Versioning {
   static check_size<sizeof(TargetFrameworkAttribute), 24 + sizeof(::Il2CppString*)> __System_Runtime_Versioning_TargetFrameworkAttributeSizeCheck;
   static_assert(sizeof(TargetFrameworkAttribute) == 0x20);
 }
+NEED_NO_BOX(System::Runtime::Versioning::TargetFrameworkAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Versioning::TargetFrameworkAttribute*, "System.Runtime.Versioning", "TargetFrameworkAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Versioning::TargetFrameworkAttribute::set_FrameworkDisplayName

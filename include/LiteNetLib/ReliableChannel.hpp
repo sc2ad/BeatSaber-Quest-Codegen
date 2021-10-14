@@ -240,6 +240,7 @@ namespace LiteNetLib {
   static check_size<sizeof(ReliableChannel), 96 + sizeof(uint8_t)> __LiteNetLib_ReliableChannelSizeCheck;
   static_assert(sizeof(ReliableChannel) == 0x61);
 }
+NEED_NO_BOX(LiteNetLib::ReliableChannel);
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::ReliableChannel*, "LiteNetLib", "ReliableChannel");
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::ReliableChannel::PendingPacket, "LiteNetLib", "ReliableChannel/PendingPacket");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

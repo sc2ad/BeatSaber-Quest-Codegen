@@ -84,6 +84,7 @@ namespace Zenject {
   static check_size<sizeof(TransformScopeConcreteIdArgConditionCopyNonLazyBinder), 32 + sizeof(Zenject::GameObjectCreationParameters*)> __Zenject_TransformScopeConcreteIdArgConditionCopyNonLazyBinderSizeCheck;
   static_assert(sizeof(TransformScopeConcreteIdArgConditionCopyNonLazyBinder) == 0x28);
 }
+NEED_NO_BOX(Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder*, "Zenject", "TransformScopeConcreteIdArgConditionCopyNonLazyBinder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder::get_GameObjectInfo

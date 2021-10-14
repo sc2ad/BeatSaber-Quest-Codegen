@@ -62,6 +62,7 @@ namespace GlobalNamespace {
   }; // LocalNetworkDiscoveryManager/InviteRequestedDelegate
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::LocalNetworkDiscoveryManager::InviteRequestedDelegate);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalNetworkDiscoveryManager::InviteRequestedDelegate*, "", "LocalNetworkDiscoveryManager/InviteRequestedDelegate");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::InviteRequestedDelegate::New_ctor

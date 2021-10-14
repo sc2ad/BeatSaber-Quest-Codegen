@@ -135,6 +135,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BeatmapIdentifierNetSerializable), 32 + sizeof(GlobalNamespace::BeatmapDifficulty)> __GlobalNamespace_BeatmapIdentifierNetSerializableSizeCheck;
   static_assert(sizeof(BeatmapIdentifierNetSerializable) == 0x24);
 }
+NEED_NO_BOX(GlobalNamespace::BeatmapIdentifierNetSerializable);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapIdentifierNetSerializable*, "", "BeatmapIdentifierNetSerializable");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapIdentifierNetSerializable::get_levelID

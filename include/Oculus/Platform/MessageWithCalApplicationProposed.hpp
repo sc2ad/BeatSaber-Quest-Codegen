@@ -46,6 +46,7 @@ namespace Oculus::Platform {
     Oculus::Platform::Models::CalApplicationProposed* GetCalApplicationProposed();
   }; // Oculus.Platform.MessageWithCalApplicationProposed
 }
+NEED_NO_BOX(Oculus::Platform::MessageWithCalApplicationProposed);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithCalApplicationProposed*, "Oculus.Platform", "MessageWithCalApplicationProposed");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithCalApplicationProposed::GetDataFromMessage

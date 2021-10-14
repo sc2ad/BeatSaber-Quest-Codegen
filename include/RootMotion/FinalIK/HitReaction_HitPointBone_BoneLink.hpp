@@ -95,6 +95,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(HitReaction::HitPointBone::BoneLink), 44 + sizeof(UnityEngine::Quaternion)> __RootMotion_FinalIK_HitReaction_HitPointBone_BoneLinkSizeCheck;
   static_assert(sizeof(HitReaction::HitPointBone::BoneLink) == 0x3C);
 }
+NEED_NO_BOX(RootMotion::FinalIK::HitReaction::HitPointBone::BoneLink);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::HitReaction::HitPointBone::BoneLink*, "RootMotion.FinalIK", "HitReaction/HitPointBone/BoneLink");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::HitReaction::HitPointBone::BoneLink::Apply

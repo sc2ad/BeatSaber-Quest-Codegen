@@ -67,6 +67,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(NetEaseArcadeFlowCoordinator::$$c__DisplayClass27_0), 24 + sizeof(GlobalNamespace::ResultsViewController*)> __GlobalNamespace_NetEaseArcadeFlowCoordinator_$$c__DisplayClass27_0SizeCheck;
   static_assert(sizeof(NetEaseArcadeFlowCoordinator::$$c__DisplayClass27_0) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::NetEaseArcadeFlowCoordinator::$$c__DisplayClass27_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetEaseArcadeFlowCoordinator::$$c__DisplayClass27_0*, "", "NetEaseArcadeFlowCoordinator/<>c__DisplayClass27_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NetEaseArcadeFlowCoordinator::$$c__DisplayClass27_0::$HandleResultsViewControllerRestartButtonPressed$b__0

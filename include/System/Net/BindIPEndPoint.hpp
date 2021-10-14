@@ -55,6 +55,7 @@ namespace System::Net {
   }; // System.Net.BindIPEndPoint
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Net::BindIPEndPoint);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::BindIPEndPoint*, "System.Net", "BindIPEndPoint");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::BindIPEndPoint::New_ctor

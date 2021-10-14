@@ -73,6 +73,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_VolumeLayerPreset), 32 + sizeof(int)> __HoudiniEngineUnity_HEU_VolumeLayerPresetSizeCheck;
   static_assert(sizeof(HEU_VolumeLayerPreset) == 0x24);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_VolumeLayerPreset);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_VolumeLayerPreset*, "HoudiniEngineUnity", "HEU_VolumeLayerPreset");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_VolumeLayerPreset::New_ctor

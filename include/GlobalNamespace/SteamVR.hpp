@@ -337,6 +337,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SteamVR), 80 + sizeof(Valve::VR::ETextureType)> __GlobalNamespace_SteamVRSizeCheck;
   static_assert(sizeof(SteamVR) == 0x54);
 }
+NEED_NO_BOX(GlobalNamespace::SteamVR);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR*, "", "SteamVR");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR::get_active

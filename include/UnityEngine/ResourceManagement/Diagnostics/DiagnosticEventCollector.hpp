@@ -67,6 +67,7 @@ namespace UnityEngine::ResourceManagement::Diagnostics {
   }; // UnityEngine.ResourceManagement.Diagnostics.DiagnosticEventCollector
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollector);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollector*, "UnityEngine.ResourceManagement.Diagnostics", "DiagnosticEventCollector");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollector::get_PlayerConnectionGuid

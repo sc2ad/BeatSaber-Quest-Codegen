@@ -123,6 +123,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ServerPasswordEntryViewController), 136 + sizeof(GlobalNamespace::INetworkPlayer*)> __GlobalNamespace_ServerPasswordEntryViewControllerSizeCheck;
   static_assert(sizeof(ServerPasswordEntryViewController) == 0x90);
 }
+NEED_NO_BOX(GlobalNamespace::ServerPasswordEntryViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ServerPasswordEntryViewController*, "", "ServerPasswordEntryViewController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ServerPasswordEntryViewController::add_didFinishEvent

@@ -130,6 +130,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(RGBPanelController), 56 + sizeof(UnityEngine::Color)> __GlobalNamespace_RGBPanelControllerSizeCheck;
   static_assert(sizeof(RGBPanelController) == 0x48);
 }
+NEED_NO_BOX(GlobalNamespace::RGBPanelController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RGBPanelController*, "", "RGBPanelController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::RGBPanelController::get_color

@@ -173,6 +173,7 @@ namespace UnityEngine::ResourceManagement::ResourceLocations {
   static check_size<sizeof(ResourceLocationBase), 72 + sizeof(::Il2CppString*)> __UnityEngine_ResourceManagement_ResourceLocations_ResourceLocationBaseSizeCheck;
   static_assert(sizeof(ResourceLocationBase) == 0x50);
 }
+NEED_NO_BOX(UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*, "UnityEngine.ResourceManagement.ResourceLocations", "ResourceLocationBase");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::get_InternalId

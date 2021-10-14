@@ -116,6 +116,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MissionConnectionsGenerator), 48 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::MissionNode*>*)> __GlobalNamespace_MissionConnectionsGeneratorSizeCheck;
   static_assert(sizeof(MissionConnectionsGenerator) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::MissionConnectionsGenerator);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionConnectionsGenerator*, "", "MissionConnectionsGenerator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionConnectionsGenerator::get__rootMissionNode

@@ -35,6 +35,7 @@ namespace System {
   }; // System.ParamArrayAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::ParamArrayAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::ParamArrayAttribute*, "System", "ParamArrayAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ParamArrayAttribute::New_ctor

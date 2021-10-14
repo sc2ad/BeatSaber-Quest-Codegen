@@ -74,6 +74,7 @@ namespace System::Xml {
   static check_size<sizeof(Base64Encoder), 32 + sizeof(::ArrayW<::Il2CppChar>)> __System_Xml_Base64EncoderSizeCheck;
   static_assert(sizeof(Base64Encoder) == 0x28);
 }
+NEED_NO_BOX(System::Xml::Base64Encoder);
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::Base64Encoder*, "System.Xml", "Base64Encoder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::Base64Encoder::WriteChars

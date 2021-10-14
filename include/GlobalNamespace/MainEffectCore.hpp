@@ -46,6 +46,7 @@ namespace GlobalNamespace {
   }; // MainEffectCore
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::MainEffectCore);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainEffectCore*, "", "MainEffectCore");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MainEffectCore::_cctor

@@ -120,6 +120,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(DeeplinkManagerToDestinationRequestManagerAdapter), 40 + sizeof(GlobalNamespace::MenuDestination*)> __GlobalNamespace_DeeplinkManagerToDestinationRequestManagerAdapterSizeCheck;
   static_assert(sizeof(DeeplinkManagerToDestinationRequestManagerAdapter) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter*, "", "DeeplinkManagerToDestinationRequestManagerAdapter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::get_currentMenuDestinationRequest

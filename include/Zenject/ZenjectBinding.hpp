@@ -202,6 +202,7 @@ namespace Zenject {
   static check_size<sizeof(ZenjectBinding), 56 + sizeof(Zenject::ZenjectBinding::BindTypes)> __Zenject_ZenjectBindingSizeCheck;
   static_assert(sizeof(ZenjectBinding) == 0x3C);
 }
+NEED_NO_BOX(Zenject::ZenjectBinding);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenjectBinding*, "Zenject", "ZenjectBinding");
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenjectBinding::BindTypes, "Zenject", "ZenjectBinding/BindTypes");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

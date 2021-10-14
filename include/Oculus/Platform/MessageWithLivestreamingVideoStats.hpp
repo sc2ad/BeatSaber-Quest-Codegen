@@ -46,6 +46,7 @@ namespace Oculus::Platform {
     Oculus::Platform::Models::LivestreamingVideoStats* GetLivestreamingVideoStats();
   }; // Oculus.Platform.MessageWithLivestreamingVideoStats
 }
+NEED_NO_BOX(Oculus::Platform::MessageWithLivestreamingVideoStats);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithLivestreamingVideoStats*, "Oculus.Platform", "MessageWithLivestreamingVideoStats");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithLivestreamingVideoStats::GetDataFromMessage

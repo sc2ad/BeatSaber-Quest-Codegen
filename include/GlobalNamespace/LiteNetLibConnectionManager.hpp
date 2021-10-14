@@ -752,6 +752,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LiteNetLibConnectionManager), 208 + sizeof(GlobalNamespace::LiteNetLibConnectionManager::StatisticsUpdated*)> __GlobalNamespace_LiteNetLibConnectionManagerSizeCheck;
   static_assert(sizeof(LiteNetLibConnectionManager) == 0xD8);
 }
+NEED_NO_BOX(GlobalNamespace::LiteNetLibConnectionManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LiteNetLibConnectionManager*, "", "LiteNetLibConnectionManager");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LiteNetLibConnectionManager::NetworkMode, "", "LiteNetLibConnectionManager/NetworkMode");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LiteNetLibConnectionManager::ConnectionState, "", "LiteNetLibConnectionManager/ConnectionState");

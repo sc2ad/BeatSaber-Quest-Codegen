@@ -124,6 +124,7 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
   static check_size<sizeof(RuntimeTestRunnerFilter), 48 + sizeof(bool)> __UnityEngine_TestTools_TestRunner_GUI_RuntimeTestRunnerFilterSizeCheck;
   static_assert(sizeof(RuntimeTestRunnerFilter) == 0x31);
 }
+NEED_NO_BOX(UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter*, "UnityEngine.TestTools.TestRunner.GUI", "RuntimeTestRunnerFilter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::BuildNUnitFilter

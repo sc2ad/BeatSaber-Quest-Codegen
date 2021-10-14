@@ -62,6 +62,7 @@ namespace UnityEngine::Timeline {
   static check_size<sizeof(SupportsChildTracksAttribute), 24 + sizeof(int)> __UnityEngine_Timeline_SupportsChildTracksAttributeSizeCheck;
   static_assert(sizeof(SupportsChildTracksAttribute) == 0x1C);
 }
+NEED_NO_BOX(UnityEngine::Timeline::SupportsChildTracksAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::SupportsChildTracksAttribute*, "UnityEngine.Timeline", "SupportsChildTracksAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::SupportsChildTracksAttribute::New_ctor

@@ -299,6 +299,7 @@ namespace System {
   static check_size<sizeof(UriParser), 32 + sizeof(::Il2CppString*)> __System_UriParserSizeCheck;
   static_assert(sizeof(UriParser) == 0x28);
 }
+NEED_NO_BOX(System::UriParser);
 DEFINE_IL2CPP_ARG_TYPE(System::UriParser*, "System", "UriParser");
 DEFINE_IL2CPP_ARG_TYPE(System::UriParser::UriQuirksVersion, "System", "UriParser/UriQuirksVersion");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

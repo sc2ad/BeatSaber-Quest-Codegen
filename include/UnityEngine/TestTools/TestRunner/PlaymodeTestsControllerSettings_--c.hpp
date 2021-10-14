@@ -65,6 +65,7 @@ namespace UnityEngine::TestTools::TestRunner {
   }; // UnityEngine.TestTools.TestRunner.PlaymodeTestsControllerSettings/UnityEngine.TestTools.TestRunner.<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::TestTools::TestRunner::PlaymodeTestsControllerSettings::$$c);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::PlaymodeTestsControllerSettings::$$c*, "UnityEngine.TestTools.TestRunner", "PlaymodeTestsControllerSettings/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::PlaymodeTestsControllerSettings::$$c::_cctor

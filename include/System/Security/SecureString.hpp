@@ -97,6 +97,7 @@ namespace System::Security {
   static check_size<sizeof(SecureString), 24 + sizeof(::ArrayW<uint8_t>)> __System_Security_SecureStringSizeCheck;
   static_assert(sizeof(SecureString) == 0x20);
 }
+NEED_NO_BOX(System::Security::SecureString);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::SecureString*, "System.Security", "SecureString");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::SecureString::get_Length

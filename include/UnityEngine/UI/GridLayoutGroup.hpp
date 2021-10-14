@@ -324,6 +324,7 @@ namespace UnityEngine::UI {
   static check_size<sizeof(GridLayoutGroup), 116 + sizeof(int)> __UnityEngine_UI_GridLayoutGroupSizeCheck;
   static_assert(sizeof(GridLayoutGroup) == 0x78);
 }
+NEED_NO_BOX(UnityEngine::UI::GridLayoutGroup);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::GridLayoutGroup*, "UnityEngine.UI", "GridLayoutGroup");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::GridLayoutGroup::Corner, "UnityEngine.UI", "GridLayoutGroup/Corner");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::GridLayoutGroup::Axis, "UnityEngine.UI", "GridLayoutGroup/Axis");

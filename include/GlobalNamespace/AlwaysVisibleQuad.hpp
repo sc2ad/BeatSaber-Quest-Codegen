@@ -68,6 +68,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(AlwaysVisibleQuad), 24 + sizeof(UnityEngine::Mesh*)> __GlobalNamespace_AlwaysVisibleQuadSizeCheck;
   static_assert(sizeof(AlwaysVisibleQuad) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::AlwaysVisibleQuad);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AlwaysVisibleQuad*, "", "AlwaysVisibleQuad");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AlwaysVisibleQuad::OnEnable

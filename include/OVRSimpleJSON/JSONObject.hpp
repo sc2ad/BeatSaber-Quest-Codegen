@@ -165,6 +165,7 @@ namespace OVRSimpleJSON {
   static check_size<sizeof(JSONObject), 24 + sizeof(bool)> __OVRSimpleJSON_JSONObjectSizeCheck;
   static_assert(sizeof(JSONObject) == 0x19);
 }
+NEED_NO_BOX(OVRSimpleJSON::JSONObject);
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONObject*, "OVRSimpleJSON", "JSONObject");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONObject::get_Inline

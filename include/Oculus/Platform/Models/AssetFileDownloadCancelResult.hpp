@@ -70,6 +70,7 @@ namespace Oculus::Platform::Models {
   static check_size<sizeof(AssetFileDownloadCancelResult), 40 + sizeof(bool)> __Oculus_Platform_Models_AssetFileDownloadCancelResultSizeCheck;
   static_assert(sizeof(AssetFileDownloadCancelResult) == 0x29);
 }
+NEED_NO_BOX(Oculus::Platform::Models::AssetFileDownloadCancelResult);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::AssetFileDownloadCancelResult*, "Oculus.Platform.Models", "AssetFileDownloadCancelResult");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::AssetFileDownloadCancelResult::New_ctor

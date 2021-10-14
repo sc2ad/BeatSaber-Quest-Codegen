@@ -124,6 +124,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(Grounding::Pelvis), 60 + sizeof(float)> __RootMotion_FinalIK_Grounding_PelvisSizeCheck;
   static_assert(sizeof(Grounding::Pelvis) == 0x40);
 }
+NEED_NO_BOX(RootMotion::FinalIK::Grounding::Pelvis);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Grounding::Pelvis*, "RootMotion.FinalIK", "Grounding/Pelvis");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::Grounding::Pelvis::get_IKOffset

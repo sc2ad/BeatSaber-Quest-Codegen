@@ -148,6 +148,7 @@ namespace System::Text {
   }; // System.Text.ASCIIEncoding
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Text::ASCIIEncoding);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::ASCIIEncoding*, "System.Text", "ASCIIEncoding");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::ASCIIEncoding::New_ctor

@@ -30,6 +30,7 @@ namespace GlobalNamespace {
   }; // ManualUpdateManager
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::ManualUpdateManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ManualUpdateManager*, "", "ManualUpdateManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ManualUpdateManager::New_ctor

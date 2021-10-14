@@ -54,6 +54,7 @@ namespace System {
   }; // System.DivideByZeroException
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::DivideByZeroException);
 DEFINE_IL2CPP_ARG_TYPE(System::DivideByZeroException*, "System", "DivideByZeroException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::DivideByZeroException::New_ctor

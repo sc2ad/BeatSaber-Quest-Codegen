@@ -86,6 +86,7 @@ namespace Zenject {
   }; // Zenject.PoolableManager/Zenject.<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(Zenject::PoolableManager::$$c);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::PoolableManager::$$c*, "Zenject", "PoolableManager/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::PoolableManager::$$c::_cctor

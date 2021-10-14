@@ -69,6 +69,7 @@ namespace Oculus::Platform {
   static check_size<sizeof(CallbackRunner), 24 + sizeof(bool)> __Oculus_Platform_CallbackRunnerSizeCheck;
   static_assert(sizeof(CallbackRunner) == 0x19);
 }
+NEED_NO_BOX(Oculus::Platform::CallbackRunner);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CallbackRunner*, "Oculus.Platform", "CallbackRunner");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::CallbackRunner::ovr_UnityResetTestPlatform

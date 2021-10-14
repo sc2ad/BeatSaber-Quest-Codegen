@@ -127,6 +127,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(Poser), 76 + sizeof(bool)> __RootMotion_FinalIK_PoserSizeCheck;
   static_assert(sizeof(Poser) == 0x4D);
 }
+NEED_NO_BOX(RootMotion::FinalIK::Poser);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Poser*, "RootMotion.FinalIK", "Poser");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::Poser::AutoMapping

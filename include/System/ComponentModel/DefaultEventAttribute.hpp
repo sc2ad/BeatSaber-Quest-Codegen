@@ -71,6 +71,7 @@ namespace System::ComponentModel {
   static check_size<sizeof(DefaultEventAttribute), 16 + sizeof(::Il2CppString*)> __System_ComponentModel_DefaultEventAttributeSizeCheck;
   static_assert(sizeof(DefaultEventAttribute) == 0x18);
 }
+NEED_NO_BOX(System::ComponentModel::DefaultEventAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::DefaultEventAttribute*, "System.ComponentModel", "DefaultEventAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ComponentModel::DefaultEventAttribute::get_Name

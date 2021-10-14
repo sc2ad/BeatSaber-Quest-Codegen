@@ -196,6 +196,7 @@ namespace UnityEngine::UI {
   }; // UnityEngine.UI.ContentSizeFitter
   // WARNING Not writing size check since size may be invalid!
 }
+NEED_NO_BOX(UnityEngine::UI::ContentSizeFitter);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ContentSizeFitter*, "UnityEngine.UI", "ContentSizeFitter");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ContentSizeFitter::FitMode, "UnityEngine.UI", "ContentSizeFitter/FitMode");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

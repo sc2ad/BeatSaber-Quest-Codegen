@@ -91,6 +91,7 @@ namespace System::Net::NetworkInformation {
   static check_size<sizeof(LinuxNetworkInterface), 72 + sizeof(::Il2CppString*)> __System_Net_NetworkInformation_LinuxNetworkInterfaceSizeCheck;
   static_assert(sizeof(LinuxNetworkInterface) == 0x50);
 }
+NEED_NO_BOX(System::Net::NetworkInformation::LinuxNetworkInterface);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::LinuxNetworkInterface*, "System.Net.NetworkInformation", "LinuxNetworkInterface");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::NetworkInformation::LinuxNetworkInterface::get_IfacePath

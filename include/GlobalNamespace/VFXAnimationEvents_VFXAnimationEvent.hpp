@@ -70,6 +70,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(VFXAnimationEvents::VFXAnimationEvent), 24 + sizeof(::ArrayW<UnityEngine::ParticleSystem*>)> __GlobalNamespace_VFXAnimationEvents_VFXAnimationEventSizeCheck;
   static_assert(sizeof(VFXAnimationEvents::VFXAnimationEvent) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::VFXAnimationEvents::VFXAnimationEvent);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VFXAnimationEvents::VFXAnimationEvent*, "", "VFXAnimationEvents/VFXAnimationEvent");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::VFXAnimationEvents::VFXAnimationEvent::get_name

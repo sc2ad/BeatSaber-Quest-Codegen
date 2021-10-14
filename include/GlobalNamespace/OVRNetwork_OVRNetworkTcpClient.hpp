@@ -145,6 +145,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRNetwork::OVRNetworkTcpClient), 56 + sizeof(System::Threading::ManualResetEvent*)> __GlobalNamespace_OVRNetwork_OVRNetworkTcpClientSizeCheck;
   static_assert(sizeof(OVRNetwork::OVRNetworkTcpClient) == 0x40);
 }
+NEED_NO_BOX(GlobalNamespace::OVRNetwork::OVRNetworkTcpClient);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRNetwork::OVRNetworkTcpClient*, "", "OVRNetwork/OVRNetworkTcpClient");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRNetwork::OVRNetworkTcpClient::get_connectionState

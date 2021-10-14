@@ -125,6 +125,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LocalNetworkDiscoveryManager::BroadcastPacket), 72 + sizeof(GlobalNamespace::GameplayServerConfiguration)> __GlobalNamespace_LocalNetworkDiscoveryManager_BroadcastPacketSizeCheck;
   static_assert(sizeof(LocalNetworkDiscoveryManager::BroadcastPacket) == 0x60);
 }
+NEED_NO_BOX(GlobalNamespace::LocalNetworkDiscoveryManager::BroadcastPacket);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalNetworkDiscoveryManager::BroadcastPacket*, "", "LocalNetworkDiscoveryManager/BroadcastPacket");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::BroadcastPacket::Serialize

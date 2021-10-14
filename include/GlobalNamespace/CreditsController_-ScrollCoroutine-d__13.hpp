@@ -118,6 +118,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(CreditsController::$ScrollCoroutine$d__13), 52 + sizeof(float)> __GlobalNamespace_CreditsController_$ScrollCoroutine$d__13SizeCheck;
   static_assert(sizeof(CreditsController::$ScrollCoroutine$d__13) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::CreditsController::$ScrollCoroutine$d__13);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CreditsController::$ScrollCoroutine$d__13*, "", "CreditsController/<ScrollCoroutine>d__13");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CreditsController::$ScrollCoroutine$d__13::System_Collections_Generic_IEnumerator$System_Object$_get_Current

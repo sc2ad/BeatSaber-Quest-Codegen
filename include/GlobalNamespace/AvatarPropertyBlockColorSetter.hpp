@@ -155,6 +155,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(AvatarPropertyBlockColorSetter), 112 + sizeof(bool)> __GlobalNamespace_AvatarPropertyBlockColorSetterSizeCheck;
   static_assert(sizeof(AvatarPropertyBlockColorSetter) == 0x71);
 }
+NEED_NO_BOX(GlobalNamespace::AvatarPropertyBlockColorSetter);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarPropertyBlockColorSetter*, "", "AvatarPropertyBlockColorSetter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AvatarPropertyBlockColorSetter::Awake

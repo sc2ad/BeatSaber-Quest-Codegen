@@ -66,6 +66,7 @@ namespace Zenject {
   static check_size<sizeof(DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer), 16 + sizeof(UnityEngine::GameObject*)> __Zenject_DefaultGameObjectParentInstaller_DefaultParentObjectDestroyerSizeCheck;
   static_assert(sizeof(DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer) == 0x18);
 }
+NEED_NO_BOX(Zenject::DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer*, "Zenject", "DefaultGameObjectParentInstaller/DefaultParentObjectDestroyer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer::New_ctor

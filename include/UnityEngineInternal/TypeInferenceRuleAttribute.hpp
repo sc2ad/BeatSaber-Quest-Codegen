@@ -65,6 +65,7 @@ namespace UnityEngineInternal {
   static check_size<sizeof(TypeInferenceRuleAttribute), 16 + sizeof(::Il2CppString*)> __UnityEngineInternal_TypeInferenceRuleAttributeSizeCheck;
   static_assert(sizeof(TypeInferenceRuleAttribute) == 0x18);
 }
+NEED_NO_BOX(UnityEngineInternal::TypeInferenceRuleAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngineInternal::TypeInferenceRuleAttribute*, "UnityEngineInternal", "TypeInferenceRuleAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngineInternal::TypeInferenceRuleAttribute::New_ctor

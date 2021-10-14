@@ -69,6 +69,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(JSONObject::$$c__DisplayClass21_0), 16 + sizeof(HoudiniEngineUnity::JSONNode*)> __HoudiniEngineUnity_JSONObject_$$c__DisplayClass21_0SizeCheck;
   static_assert(sizeof(JSONObject::$$c__DisplayClass21_0) == 0x18);
 }
+NEED_NO_BOX(HoudiniEngineUnity::JSONObject::$$c__DisplayClass21_0);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::JSONObject::$$c__DisplayClass21_0*, "HoudiniEngineUnity", "JSONObject/<>c__DisplayClass21_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONObject::$$c__DisplayClass21_0::$Remove$b__0

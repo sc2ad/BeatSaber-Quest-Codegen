@@ -34,6 +34,7 @@ namespace GlobalNamespace {
     }
   }; // MenuRpcManager/RequestKickPlayerRpc
 }
+NEED_NO_BOX(GlobalNamespace::MenuRpcManager::RequestKickPlayerRpc);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuRpcManager::RequestKickPlayerRpc*, "", "MenuRpcManager/RequestKickPlayerRpc");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::RequestKickPlayerRpc::New_ctor

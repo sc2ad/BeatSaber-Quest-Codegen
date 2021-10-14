@@ -56,6 +56,7 @@ namespace System::Net::Security {
   }; // System.Net.Security.LocalCertSelectionCallback
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Net::Security::LocalCertSelectionCallback);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Security::LocalCertSelectionCallback*, "System.Net.Security", "LocalCertSelectionCallback");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Security::LocalCertSelectionCallback::New_ctor

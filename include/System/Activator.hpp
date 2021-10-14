@@ -68,6 +68,7 @@ namespace System {
   }; // System.Activator
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Activator);
 DEFINE_IL2CPP_ARG_TYPE(System::Activator*, "System", "Activator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Activator::CreateInstance

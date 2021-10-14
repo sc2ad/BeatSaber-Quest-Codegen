@@ -80,6 +80,7 @@ namespace NUnit::Framework::Constraints {
   static check_size<sizeof(NUnitEqualityComparer::FailurePoint), 41 + sizeof(bool)> __NUnit_Framework_Constraints_NUnitEqualityComparer_FailurePointSizeCheck;
   static_assert(sizeof(NUnitEqualityComparer::FailurePoint) == 0x2A);
 }
+NEED_NO_BOX(NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint*, "NUnit.Framework.Constraints", "NUnitEqualityComparer/FailurePoint");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint::New_ctor

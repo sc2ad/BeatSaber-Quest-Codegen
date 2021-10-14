@@ -137,6 +137,7 @@ namespace GlobalNamespace {
   }; // UnifiedNetworkPlayerModel/<GetOtherPlayers>d__78
   // WARNING Not writing size check since size may be invalid!
 }
+NEED_NO_BOX(GlobalNamespace::UnifiedNetworkPlayerModel::$GetOtherPlayers$d__78);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UnifiedNetworkPlayerModel::$GetOtherPlayers$d__78*, "", "UnifiedNetworkPlayerModel/<GetOtherPlayers>d__78");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::UnifiedNetworkPlayerModel::$GetOtherPlayers$d__78::System_Collections_Generic_IEnumerator$INetworkPlayer$_get_Current

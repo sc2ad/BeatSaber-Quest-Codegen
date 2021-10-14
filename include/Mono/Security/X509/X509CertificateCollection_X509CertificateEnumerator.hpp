@@ -78,6 +78,7 @@ namespace Mono::Security::X509 {
   static check_size<sizeof(X509CertificateCollection::X509CertificateEnumerator), 16 + sizeof(System::Collections::IEnumerator*)> __Mono_Security_X509_X509CertificateCollection_X509CertificateEnumeratorSizeCheck;
   static_assert(sizeof(X509CertificateCollection::X509CertificateEnumerator) == 0x18);
 }
+NEED_NO_BOX(Mono::Security::X509::X509CertificateCollection::X509CertificateEnumerator);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::X509CertificateCollection::X509CertificateEnumerator*, "Mono.Security.X509", "X509CertificateCollection/X509CertificateEnumerator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Security::X509::X509CertificateCollection::X509CertificateEnumerator::get_Current

@@ -453,6 +453,7 @@ namespace UnityEngine::UI {
   static check_size<sizeof(Slider), 345 + sizeof(bool)> __UnityEngine_UI_SliderSizeCheck;
   static_assert(sizeof(Slider) == 0x15A);
 }
+NEED_NO_BOX(UnityEngine::UI::Slider);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Slider*, "UnityEngine.UI", "Slider");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Slider::Direction, "UnityEngine.UI", "Slider/Direction");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

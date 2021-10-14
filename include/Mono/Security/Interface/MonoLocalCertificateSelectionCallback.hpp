@@ -56,6 +56,7 @@ namespace Mono::Security::Interface {
   }; // Mono.Security.Interface.MonoLocalCertificateSelectionCallback
   #pragma pack(pop)
 }
+NEED_NO_BOX(Mono::Security::Interface::MonoLocalCertificateSelectionCallback);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::MonoLocalCertificateSelectionCallback*, "Mono.Security.Interface", "MonoLocalCertificateSelectionCallback");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Security::Interface::MonoLocalCertificateSelectionCallback::New_ctor

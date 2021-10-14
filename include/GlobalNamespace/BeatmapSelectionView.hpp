@@ -83,6 +83,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BeatmapSelectionView), 32 + sizeof(TMPro::TextMeshProUGUI*)> __GlobalNamespace_BeatmapSelectionViewSizeCheck;
   static_assert(sizeof(BeatmapSelectionView) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::BeatmapSelectionView);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapSelectionView*, "", "BeatmapSelectionView");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapSelectionView::SetBeatmap

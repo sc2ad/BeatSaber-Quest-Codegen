@@ -132,6 +132,7 @@ namespace Zenject {
   static check_size<sizeof(ResolveProvider), 48 + sizeof(bool)> __Zenject_ResolveProviderSizeCheck;
   static_assert(sizeof(ResolveProvider) == 0x31);
 }
+NEED_NO_BOX(Zenject::ResolveProvider);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ResolveProvider*, "Zenject", "ResolveProvider");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::ResolveProvider::get_IsCached

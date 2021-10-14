@@ -91,6 +91,7 @@ namespace UnityEngine::Timeline {
   static check_size<sizeof(InfiniteRuntimeClip), 24 + sizeof(UnityEngine::Playables::Playable)> __UnityEngine_Timeline_InfiniteRuntimeClipSizeCheck;
   static_assert(sizeof(InfiniteRuntimeClip) == 0x24);
 }
+NEED_NO_BOX(UnityEngine::Timeline::InfiniteRuntimeClip);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::InfiniteRuntimeClip*, "UnityEngine.Timeline", "InfiniteRuntimeClip");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::InfiniteRuntimeClip::New_ctor

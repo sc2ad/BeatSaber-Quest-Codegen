@@ -34,6 +34,7 @@ namespace JetBrains::Annotations {
   }; // JetBrains.Annotations.ProvidesContextAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(JetBrains::Annotations::ProvidesContextAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::ProvidesContextAttribute*, "JetBrains.Annotations", "ProvidesContextAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: JetBrains::Annotations::ProvidesContextAttribute::New_ctor

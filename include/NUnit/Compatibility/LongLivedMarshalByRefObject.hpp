@@ -38,6 +38,7 @@ namespace NUnit::Compatibility {
   }; // NUnit.Compatibility.LongLivedMarshalByRefObject
   #pragma pack(pop)
 }
+NEED_NO_BOX(NUnit::Compatibility::LongLivedMarshalByRefObject);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Compatibility::LongLivedMarshalByRefObject*, "NUnit.Compatibility", "LongLivedMarshalByRefObject");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Compatibility::LongLivedMarshalByRefObject::New_ctor

@@ -108,6 +108,7 @@ namespace NUnit::Framework::Internal::Filters {
   static check_size<sizeof(CompositeFilter), 16 + sizeof(System::Collections::Generic::IList_1<NUnit::Framework::Interfaces::ITestFilter*>*)> __NUnit_Framework_Internal_Filters_CompositeFilterSizeCheck;
   static_assert(sizeof(CompositeFilter) == 0x18);
 }
+NEED_NO_BOX(NUnit::Framework::Internal::Filters::CompositeFilter);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Filters::CompositeFilter*, "NUnit.Framework.Internal.Filters", "CompositeFilter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Filters::CompositeFilter::get_Filters

@@ -52,6 +52,7 @@ namespace GlobalNamespace {
   }; // DifficultyBeatmapSetExtensions
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::DifficultyBeatmapSetExtensions);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DifficultyBeatmapSetExtensions*, "", "DifficultyBeatmapSetExtensions");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DifficultyBeatmapSetExtensions::GetDifficultyBeatmapSetsWithout360Movement

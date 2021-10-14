@@ -242,6 +242,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_AttributeData), 96 + sizeof(HoudiniEngineUnity::HEU_AttributeData::AttributeState)> __HoudiniEngineUnity_HEU_AttributeDataSizeCheck;
   static_assert(sizeof(HEU_AttributeData) == 0x64);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_AttributeData);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_AttributeData*, "HoudiniEngineUnity", "HEU_AttributeData");
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_AttributeData::AttributeType, "HoudiniEngineUnity", "HEU_AttributeData/AttributeType");
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_AttributeData::AttributeState, "HoudiniEngineUnity", "HEU_AttributeData/AttributeState");

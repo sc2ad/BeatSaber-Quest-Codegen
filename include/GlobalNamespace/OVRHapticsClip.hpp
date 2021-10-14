@@ -125,6 +125,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRHapticsClip), 24 + sizeof(::ArrayW<uint8_t>)> __GlobalNamespace_OVRHapticsClipSizeCheck;
   static_assert(sizeof(OVRHapticsClip) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::OVRHapticsClip);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHapticsClip*, "", "OVRHapticsClip");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRHapticsClip::get_Count

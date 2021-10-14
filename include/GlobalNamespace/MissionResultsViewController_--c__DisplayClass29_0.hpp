@@ -90,6 +90,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MissionResultsViewController::$$c__DisplayClass29_0), 40 + sizeof(::ArrayW<GlobalNamespace::MissionObjectiveResult*>)> __GlobalNamespace_MissionResultsViewController_$$c__DisplayClass29_0SizeCheck;
   static_assert(sizeof(MissionResultsViewController::$$c__DisplayClass29_0) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::MissionResultsViewController::$$c__DisplayClass29_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionResultsViewController::$$c__DisplayClass29_0*, "", "MissionResultsViewController/<>c__DisplayClass29_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionResultsViewController::$$c__DisplayClass29_0::$SetDataToUI$b__0

@@ -41,6 +41,7 @@ namespace UnityEngine::EventSystems {
     }
   }; // UnityEngine.EventSystems.EventTrigger/UnityEngine.EventSystems.TriggerEvent
 }
+NEED_NO_BOX(UnityEngine::EventSystems::EventTrigger::TriggerEvent);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::EventTrigger::TriggerEvent*, "UnityEngine.EventSystems", "EventTrigger/TriggerEvent");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::EventSystems::EventTrigger::TriggerEvent::New_ctor

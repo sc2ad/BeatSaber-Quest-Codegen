@@ -78,6 +78,7 @@ namespace System::Runtime::CompilerServices {
   static check_size<sizeof(AsyncMethodBuilderCore::MoveNextRunner), 24 + sizeof(System::Runtime::CompilerServices::IAsyncStateMachine*)> __System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunnerSizeCheck;
   static_assert(sizeof(AsyncMethodBuilderCore::MoveNextRunner) == 0x20);
 }
+NEED_NO_BOX(System::Runtime::CompilerServices::AsyncMethodBuilderCore::MoveNextRunner);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::AsyncMethodBuilderCore::MoveNextRunner*, "System.Runtime.CompilerServices", "AsyncMethodBuilderCore/MoveNextRunner");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::AsyncMethodBuilderCore::MoveNextRunner::New_ctor

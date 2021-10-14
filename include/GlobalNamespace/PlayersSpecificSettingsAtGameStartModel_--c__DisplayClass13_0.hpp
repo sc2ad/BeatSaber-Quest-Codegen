@@ -63,6 +63,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PlayersSpecificSettingsAtGameStartModel::$$c__DisplayClass13_0), 16 + sizeof(GlobalNamespace::IConnectedPlayer*)> __GlobalNamespace_PlayersSpecificSettingsAtGameStartModel_$$c__DisplayClass13_0SizeCheck;
   static_assert(sizeof(PlayersSpecificSettingsAtGameStartModel::$$c__DisplayClass13_0) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::$$c__DisplayClass13_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::$$c__DisplayClass13_0*, "", "PlayersSpecificSettingsAtGameStartModel/<>c__DisplayClass13_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::$$c__DisplayClass13_0::$SaveFromNetSerializable$b__0

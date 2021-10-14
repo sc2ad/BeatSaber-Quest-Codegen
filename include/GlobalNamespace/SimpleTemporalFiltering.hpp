@@ -88,6 +88,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SimpleTemporalFiltering), 40 + sizeof(int)> __GlobalNamespace_SimpleTemporalFilteringSizeCheck;
   static_assert(sizeof(SimpleTemporalFiltering) == 0x2C);
 }
+NEED_NO_BOX(GlobalNamespace::SimpleTemporalFiltering);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleTemporalFiltering*, "", "SimpleTemporalFiltering");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SimpleTemporalFiltering::FilterTexture

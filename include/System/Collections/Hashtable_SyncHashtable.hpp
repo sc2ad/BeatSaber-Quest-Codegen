@@ -166,6 +166,7 @@ namespace System::Collections {
   static check_size<sizeof(Hashtable::SyncHashtable), 80 + sizeof(System::Collections::Hashtable*)> __System_Collections_Hashtable_SyncHashtableSizeCheck;
   static_assert(sizeof(Hashtable::SyncHashtable) == 0x58);
 }
+NEED_NO_BOX(System::Collections::Hashtable::SyncHashtable);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Hashtable::SyncHashtable*, "System.Collections", "Hashtable/SyncHashtable");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::Hashtable::SyncHashtable::New_ctor

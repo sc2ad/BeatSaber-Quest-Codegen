@@ -114,6 +114,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRHandTest::BoolMonitor), 40 + sizeof(float)> __GlobalNamespace_OVRHandTest_BoolMonitorSizeCheck;
   static_assert(sizeof(OVRHandTest::BoolMonitor) == 0x2C);
 }
+NEED_NO_BOX(GlobalNamespace::OVRHandTest::BoolMonitor);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHandTest::BoolMonitor*, "", "OVRHandTest/BoolMonitor");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRHandTest::BoolMonitor::New_ctor

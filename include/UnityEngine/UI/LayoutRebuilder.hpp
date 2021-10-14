@@ -160,6 +160,7 @@ namespace UnityEngine::UI {
   static check_size<sizeof(LayoutRebuilder), 24 + sizeof(int)> __UnityEngine_UI_LayoutRebuilderSizeCheck;
   static_assert(sizeof(LayoutRebuilder) == 0x1C);
 }
+NEED_NO_BOX(UnityEngine::UI::LayoutRebuilder);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::LayoutRebuilder*, "UnityEngine.UI", "LayoutRebuilder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutRebuilder::get_transform

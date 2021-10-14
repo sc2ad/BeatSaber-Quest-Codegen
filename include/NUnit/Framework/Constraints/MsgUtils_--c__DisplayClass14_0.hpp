@@ -63,6 +63,7 @@ namespace NUnit::Framework::Constraints {
   static check_size<sizeof(MsgUtils::$$c__DisplayClass14_0), 16 + sizeof(NUnit::Framework::Constraints::ValueFormatter*)> __NUnit_Framework_Constraints_MsgUtils_$$c__DisplayClass14_0SizeCheck;
   static_assert(sizeof(MsgUtils::$$c__DisplayClass14_0) == 0x18);
 }
+NEED_NO_BOX(NUnit::Framework::Constraints::MsgUtils::$$c__DisplayClass14_0);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::MsgUtils::$$c__DisplayClass14_0*, "NUnit.Framework.Constraints", "MsgUtils/<>c__DisplayClass14_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::MsgUtils::$$c__DisplayClass14_0::$_cctor$b__11

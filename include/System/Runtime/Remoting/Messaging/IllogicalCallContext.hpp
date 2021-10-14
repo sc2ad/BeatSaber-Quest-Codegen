@@ -90,6 +90,7 @@ namespace System::Runtime::Remoting::Messaging {
   static check_size<sizeof(IllogicalCallContext), 24 + sizeof(::Il2CppObject*)> __System_Runtime_Remoting_Messaging_IllogicalCallContextSizeCheck;
   static_assert(sizeof(IllogicalCallContext) == 0x20);
 }
+NEED_NO_BOX(System::Runtime::Remoting::Messaging::IllogicalCallContext);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::IllogicalCallContext*, "System.Runtime.Remoting.Messaging", "IllogicalCallContext");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::IllogicalCallContext::get_Datastore

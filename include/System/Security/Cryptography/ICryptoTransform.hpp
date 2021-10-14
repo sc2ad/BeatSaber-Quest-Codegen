@@ -41,6 +41,7 @@ namespace System::Security::Cryptography {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Security::Cryptography::ICryptoTransform);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::ICryptoTransform*, "System.Security.Cryptography", "ICryptoTransform");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::ICryptoTransform::get_InputBlockSize

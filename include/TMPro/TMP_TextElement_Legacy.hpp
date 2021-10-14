@@ -110,6 +110,7 @@ namespace TMPro {
   static check_size<sizeof(TMP_TextElement_Legacy), 48 + sizeof(float)> __TMPro_TMP_TextElement_LegacySizeCheck;
   static_assert(sizeof(TMP_TextElement_Legacy) == 0x34);
 }
+NEED_NO_BOX(TMPro::TMP_TextElement_Legacy);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_TextElement_Legacy*, "TMPro", "TMP_TextElement_Legacy");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_TextElement_Legacy::New_ctor

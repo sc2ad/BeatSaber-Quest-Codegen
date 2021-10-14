@@ -68,6 +68,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(GameServerPlayerTableItem), 40 + sizeof(bool)> __GlobalNamespace_GameServerPlayerTableItemSizeCheck;
   static_assert(sizeof(GameServerPlayerTableItem) == 0x29);
 }
+NEED_NO_BOX(GlobalNamespace::GameServerPlayerTableItem);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServerPlayerTableItem*, "", "GameServerPlayerTableItem");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameServerPlayerTableItem::New_ctor

@@ -56,6 +56,7 @@ namespace Mono::Math::Prime::Generator {
   }; // Mono.Math.Prime.Generator.PrimeGeneratorBase
   #pragma pack(pop)
 }
+NEED_NO_BOX(Mono::Math::Prime::Generator::PrimeGeneratorBase);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Math::Prime::Generator::PrimeGeneratorBase*, "Mono.Math.Prime.Generator", "PrimeGeneratorBase");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Math::Prime::Generator::PrimeGeneratorBase::get_Confidence

@@ -67,6 +67,7 @@ namespace GlobalNamespace {
   }; // MissionMapAnimationController/<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::MissionMapAnimationController::$$c);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionMapAnimationController::$$c*, "", "MissionMapAnimationController/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionMapAnimationController::$$c::_cctor

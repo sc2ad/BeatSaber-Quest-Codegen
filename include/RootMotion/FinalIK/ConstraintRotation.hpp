@@ -74,6 +74,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(ConstraintRotation), 28 + sizeof(UnityEngine::Quaternion)> __RootMotion_FinalIK_ConstraintRotationSizeCheck;
   static_assert(sizeof(ConstraintRotation) == 0x2C);
 }
+NEED_NO_BOX(RootMotion::FinalIK::ConstraintRotation);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::ConstraintRotation*, "RootMotion.FinalIK", "ConstraintRotation");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::ConstraintRotation::New_ctor

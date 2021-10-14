@@ -123,6 +123,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ScreenCaptureAfterDelay), 56 + sizeof(UnityEngine::RenderTexture*)> __GlobalNamespace_ScreenCaptureAfterDelaySizeCheck;
   static_assert(sizeof(ScreenCaptureAfterDelay) == 0x40);
 }
+NEED_NO_BOX(GlobalNamespace::ScreenCaptureAfterDelay);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScreenCaptureAfterDelay*, "", "ScreenCaptureAfterDelay");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ScreenCaptureAfterDelay::Start

@@ -108,6 +108,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BeatmapSaveData::NoteData), 32 + sizeof(GlobalNamespace::NoteCutDirection)> __GlobalNamespace_BeatmapSaveData_NoteDataSizeCheck;
   static_assert(sizeof(BeatmapSaveData::NoteData) == 0x24);
 }
+NEED_NO_BOX(GlobalNamespace::BeatmapSaveData::NoteData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapSaveData::NoteData*, "", "BeatmapSaveData/NoteData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapSaveData::NoteData::get_time

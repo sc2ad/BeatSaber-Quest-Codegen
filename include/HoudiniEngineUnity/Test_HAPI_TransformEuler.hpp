@@ -59,6 +59,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(Test_HAPI_TransformEuler), 16 + sizeof(HoudiniEngineUnity::HAPI_TransformEuler)> __HoudiniEngineUnity_Test_HAPI_TransformEulerSizeCheck;
   static_assert(sizeof(Test_HAPI_TransformEuler) == 0x38);
 }
+NEED_NO_BOX(HoudiniEngineUnity::Test_HAPI_TransformEuler);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::Test_HAPI_TransformEuler*, "HoudiniEngineUnity", "Test_HAPI_TransformEuler");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::Test_HAPI_TransformEuler::New_ctor

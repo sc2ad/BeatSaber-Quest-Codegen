@@ -128,6 +128,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BeatmapObjectExecutionRating), 20 + sizeof(float)> __GlobalNamespace_BeatmapObjectExecutionRatingSizeCheck;
   static_assert(sizeof(BeatmapObjectExecutionRating) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::BeatmapObjectExecutionRating);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectExecutionRating*, "", "BeatmapObjectExecutionRating");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType, "", "BeatmapObjectExecutionRating/BeatmapObjectExecutionRatingType");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

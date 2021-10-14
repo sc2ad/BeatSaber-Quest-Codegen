@@ -196,6 +196,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRHandTest), 371 + sizeof(bool)> __GlobalNamespace_OVRHandTestSizeCheck;
   static_assert(sizeof(OVRHandTest) == 0x174);
 }
+NEED_NO_BOX(GlobalNamespace::OVRHandTest);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHandTest*, "", "OVRHandTest");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRHandTest::Start

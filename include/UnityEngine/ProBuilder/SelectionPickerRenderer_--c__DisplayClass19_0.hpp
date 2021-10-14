@@ -70,6 +70,7 @@ namespace UnityEngine::ProBuilder {
   static check_size<sizeof(SelectionPickerRenderer::$$c__DisplayClass19_0), 24 + sizeof(::ArrayW<UnityEngine::ProBuilder::SharedVertex*>)> __UnityEngine_ProBuilder_SelectionPickerRenderer_$$c__DisplayClass19_0SizeCheck;
   static_assert(sizeof(SelectionPickerRenderer::$$c__DisplayClass19_0) == 0x20);
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::SelectionPickerRenderer::$$c__DisplayClass19_0);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::SelectionPickerRenderer::$$c__DisplayClass19_0*, "UnityEngine.ProBuilder", "SelectionPickerRenderer/<>c__DisplayClass19_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SelectionPickerRenderer::$$c__DisplayClass19_0::$PickVerticesInRect$b__0

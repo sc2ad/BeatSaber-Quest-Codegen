@@ -90,6 +90,7 @@ namespace TMPro {
   static check_size<sizeof(TMP_ScrollbarEventHandler), 24 + sizeof(bool)> __TMPro_TMP_ScrollbarEventHandlerSizeCheck;
   static_assert(sizeof(TMP_ScrollbarEventHandler) == 0x19);
 }
+NEED_NO_BOX(TMPro::TMP_ScrollbarEventHandler);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_ScrollbarEventHandler*, "TMPro", "TMP_ScrollbarEventHandler");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_ScrollbarEventHandler::OnPointerClick

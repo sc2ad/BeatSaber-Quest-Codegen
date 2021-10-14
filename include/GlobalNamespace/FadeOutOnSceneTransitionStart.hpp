@@ -82,6 +82,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(FadeOutOnSceneTransitionStart), 32 + sizeof(GlobalNamespace::GameScenesManager*)> __GlobalNamespace_FadeOutOnSceneTransitionStartSizeCheck;
   static_assert(sizeof(FadeOutOnSceneTransitionStart) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::FadeOutOnSceneTransitionStart);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FadeOutOnSceneTransitionStart*, "", "FadeOutOnSceneTransitionStart");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FadeOutOnSceneTransitionStart::Start

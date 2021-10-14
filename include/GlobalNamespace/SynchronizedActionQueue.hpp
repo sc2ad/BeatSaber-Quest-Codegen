@@ -121,6 +121,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SynchronizedActionQueue), 16 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::SynchronizedActionQueue::SynchronizedAction>*)> __GlobalNamespace_SynchronizedActionQueueSizeCheck;
   static_assert(sizeof(SynchronizedActionQueue) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::SynchronizedActionQueue);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SynchronizedActionQueue*, "", "SynchronizedActionQueue");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SynchronizedActionQueue::SynchronizedAction, "", "SynchronizedActionQueue/SynchronizedAction");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

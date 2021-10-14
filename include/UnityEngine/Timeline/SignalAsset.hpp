@@ -56,6 +56,7 @@ namespace UnityEngine::Timeline {
   }; // UnityEngine.Timeline.SignalAsset
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::Timeline::SignalAsset);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::SignalAsset*, "UnityEngine.Timeline", "SignalAsset");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::SignalAsset::add_OnEnableCallback

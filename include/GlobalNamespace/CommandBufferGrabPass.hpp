@@ -111,6 +111,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(CommandBufferGrabPass), 48 + sizeof(UnityEngine::Rendering::CameraEvent)> __GlobalNamespace_CommandBufferGrabPassSizeCheck;
   static_assert(sizeof(CommandBufferGrabPass) == 0x34);
 }
+NEED_NO_BOX(GlobalNamespace::CommandBufferGrabPass);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CommandBufferGrabPass*, "", "CommandBufferGrabPass");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CommandBufferGrabPass::New_ctor

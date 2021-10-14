@@ -327,6 +327,7 @@ namespace UnityEngine {
   static check_size<sizeof(AndroidJavaObject), 24 + sizeof(UnityEngine::GlobalJavaObjectRef*)> __UnityEngine_AndroidJavaObjectSizeCheck;
   static_assert(sizeof(AndroidJavaObject) == 0x20);
 }
+NEED_NO_BOX(UnityEngine::AndroidJavaObject);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AndroidJavaObject*, "UnityEngine", "AndroidJavaObject");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AndroidJavaObject::New_ctor

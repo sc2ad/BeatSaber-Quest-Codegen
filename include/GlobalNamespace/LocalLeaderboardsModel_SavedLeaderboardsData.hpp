@@ -60,6 +60,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LocalLeaderboardsModel::SavedLeaderboardsData), 16 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::LeaderboardData*>*)> __GlobalNamespace_LocalLeaderboardsModel_SavedLeaderboardsDataSizeCheck;
   static_assert(sizeof(LocalLeaderboardsModel::SavedLeaderboardsData) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::LocalLeaderboardsModel::SavedLeaderboardsData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalLeaderboardsModel::SavedLeaderboardsData*, "", "LocalLeaderboardsModel/SavedLeaderboardsData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LocalLeaderboardsModel::SavedLeaderboardsData::New_ctor

@@ -119,6 +119,7 @@ namespace System::Diagnostics {
   static check_size<sizeof(TraceListener), 40 + sizeof(::Il2CppString*)> __System_Diagnostics_TraceListenerSizeCheck;
   static_assert(sizeof(TraceListener) == 0x30);
 }
+NEED_NO_BOX(System::Diagnostics::TraceListener);
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::TraceListener*, "System.Diagnostics", "TraceListener");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Diagnostics::TraceListener::get_IsThreadSafe

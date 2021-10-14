@@ -112,6 +112,7 @@ namespace Mono::Xml {
   static check_size<sizeof(SecurityParser), 120 + sizeof(System::Collections::Stack*)> __Mono_Xml_SecurityParserSizeCheck;
   static_assert(sizeof(SecurityParser) == 0x80);
 }
+NEED_NO_BOX(Mono::Xml::SecurityParser);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Xml::SecurityParser*, "Mono.Xml", "SecurityParser");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Xml::SecurityParser::LoadXml

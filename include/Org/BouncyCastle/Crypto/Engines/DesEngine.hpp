@@ -143,6 +143,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
   static check_size<sizeof(DesEngine), 16 + sizeof(::ArrayW<int>)> __Org_BouncyCastle_Crypto_Engines_DesEngineSizeCheck;
   static_assert(sizeof(DesEngine) == 0x18);
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Engines::DesEngine);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::DesEngine*, "Org.BouncyCastle.Crypto.Engines", "DesEngine");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::DesEngine::get_AlgorithmName

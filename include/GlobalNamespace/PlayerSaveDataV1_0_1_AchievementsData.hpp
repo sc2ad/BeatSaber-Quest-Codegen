@@ -57,6 +57,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PlayerSaveDataV1_0_1::AchievementsData), 24 + sizeof(::ArrayW<::Il2CppString*>)> __GlobalNamespace_PlayerSaveDataV1_0_1_AchievementsDataSizeCheck;
   static_assert(sizeof(PlayerSaveDataV1_0_1::AchievementsData) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::PlayerSaveDataV1_0_1::AchievementsData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveDataV1_0_1::AchievementsData*, "", "PlayerSaveDataV1_0_1/AchievementsData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSaveDataV1_0_1::AchievementsData::New_ctor

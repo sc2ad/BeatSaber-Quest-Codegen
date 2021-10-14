@@ -101,6 +101,7 @@ namespace System {
   static check_size<sizeof(CultureAwareComparer), 28 + sizeof(System::Globalization::CompareOptions)> __System_CultureAwareComparerSizeCheck;
   static_assert(sizeof(CultureAwareComparer) == 0x20);
 }
+NEED_NO_BOX(System::CultureAwareComparer);
 DEFINE_IL2CPP_ARG_TYPE(System::CultureAwareComparer*, "System", "CultureAwareComparer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::CultureAwareComparer::New_ctor

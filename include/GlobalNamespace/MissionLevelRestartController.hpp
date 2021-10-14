@@ -90,6 +90,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MissionLevelRestartController), 40 + sizeof(GlobalNamespace::MissionObjectiveCheckersManager*)> __GlobalNamespace_MissionLevelRestartControllerSizeCheck;
   static_assert(sizeof(MissionLevelRestartController) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::MissionLevelRestartController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelRestartController*, "", "MissionLevelRestartController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionLevelRestartController::RestartLevel

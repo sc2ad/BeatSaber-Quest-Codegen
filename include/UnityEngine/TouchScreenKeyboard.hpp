@@ -131,6 +131,7 @@ namespace UnityEngine {
   static check_size<sizeof(TouchScreenKeyboard), 16 + sizeof(System::IntPtr)> __UnityEngine_TouchScreenKeyboardSizeCheck;
   static_assert(sizeof(TouchScreenKeyboard) == 0x18);
 }
+NEED_NO_BOX(UnityEngine::TouchScreenKeyboard);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TouchScreenKeyboard*, "UnityEngine", "TouchScreenKeyboard");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TouchScreenKeyboard::get_isSupported

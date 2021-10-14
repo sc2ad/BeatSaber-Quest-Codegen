@@ -67,6 +67,7 @@ namespace System::Net {
   static check_size<sizeof(WebConnectionStream::$$c__DisplayClass75_0), 24 + sizeof(bool)> __System_Net_WebConnectionStream_$$c__DisplayClass75_0SizeCheck;
   static_assert(sizeof(WebConnectionStream::$$c__DisplayClass75_0) == 0x19);
 }
+NEED_NO_BOX(System::Net::WebConnectionStream::$$c__DisplayClass75_0);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebConnectionStream::$$c__DisplayClass75_0*, "System.Net", "WebConnectionStream/<>c__DisplayClass75_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::WebConnectionStream::$$c__DisplayClass75_0::$SetHeadersAsync$b__0

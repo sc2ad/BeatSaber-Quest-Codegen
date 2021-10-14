@@ -58,6 +58,7 @@ namespace OVR::OpenVR {
   }; // OVR.OpenVR.IVROverlay/OVR.OpenVR._GetOverlayFlag
   #pragma pack(pop)
 }
+NEED_NO_BOX(OVR::OpenVR::IVROverlay::_GetOverlayFlag);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVROverlay::_GetOverlayFlag*, "OVR.OpenVR", "IVROverlay/_GetOverlayFlag");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVROverlay::_GetOverlayFlag::New_ctor

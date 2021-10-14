@@ -231,6 +231,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRRaycaster), 88 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::OVRRaycaster::RaycastHit>*)> __GlobalNamespace_OVRRaycasterSizeCheck;
   static_assert(sizeof(OVRRaycaster) == 0x60);
 }
+NEED_NO_BOX(GlobalNamespace::OVRRaycaster);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRRaycaster*, "", "OVRRaycaster");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRRaycaster::RaycastHit, "", "OVRRaycaster/RaycastHit");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

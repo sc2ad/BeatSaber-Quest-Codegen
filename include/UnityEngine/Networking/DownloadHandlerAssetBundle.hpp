@@ -82,6 +82,7 @@ namespace UnityEngine::Networking {
   }; // UnityEngine.Networking.DownloadHandlerAssetBundle
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::Networking::DownloadHandlerAssetBundle);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::DownloadHandlerAssetBundle*, "UnityEngine.Networking", "DownloadHandlerAssetBundle");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandlerAssetBundle::get_assetBundle

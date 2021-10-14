@@ -461,6 +461,7 @@ namespace System::Collections {
   static check_size<sizeof(Hashtable), 72 + sizeof(::Il2CppObject*)> __System_Collections_HashtableSizeCheck;
   static_assert(sizeof(Hashtable) == 0x50);
 }
+NEED_NO_BOX(System::Collections::Hashtable);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Hashtable*, "System.Collections", "Hashtable");
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Hashtable::bucket, "System.Collections", "Hashtable/bucket");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

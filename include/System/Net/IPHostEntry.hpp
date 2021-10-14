@@ -93,6 +93,7 @@ namespace System::Net {
   static check_size<sizeof(IPHostEntry), 40 + sizeof(bool)> __System_Net_IPHostEntrySizeCheck;
   static_assert(sizeof(IPHostEntry) == 0x29);
 }
+NEED_NO_BOX(System::Net::IPHostEntry);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::IPHostEntry*, "System.Net", "IPHostEntry");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::IPHostEntry::get_HostName

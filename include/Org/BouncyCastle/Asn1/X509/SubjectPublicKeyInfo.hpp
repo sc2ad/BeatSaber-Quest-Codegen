@@ -95,6 +95,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
   static check_size<sizeof(SubjectPublicKeyInfo), 24 + sizeof(Org::BouncyCastle::Asn1::DerBitString*)> __Org_BouncyCastle_Asn1_X509_SubjectPublicKeyInfoSizeCheck;
   static_assert(sizeof(SubjectPublicKeyInfo) == 0x20);
 }
+NEED_NO_BOX(Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo*, "Org.BouncyCastle.Asn1.X509", "SubjectPublicKeyInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo::get_AlgorithmID

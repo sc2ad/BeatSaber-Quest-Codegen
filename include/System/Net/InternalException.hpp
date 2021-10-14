@@ -34,6 +34,7 @@ namespace System::Net {
   }; // System.Net.InternalException
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Net::InternalException);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::InternalException*, "System.Net", "InternalException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::InternalException::New_ctor

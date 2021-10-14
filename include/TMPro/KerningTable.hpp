@@ -91,6 +91,7 @@ namespace TMPro {
   static check_size<sizeof(KerningTable), 16 + sizeof(System::Collections::Generic::List_1<TMPro::KerningPair*>*)> __TMPro_KerningTableSizeCheck;
   static_assert(sizeof(KerningTable) == 0x18);
 }
+NEED_NO_BOX(TMPro::KerningTable);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::KerningTable*, "TMPro", "KerningTable");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::KerningTable::AddKerningPair

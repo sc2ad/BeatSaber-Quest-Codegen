@@ -135,6 +135,7 @@ namespace System::Threading {
   static check_size<sizeof(RegisteredWaitHandle), 77 + sizeof(bool)> __System_Threading_RegisteredWaitHandleSizeCheck;
   static_assert(sizeof(RegisteredWaitHandle) == 0x4E);
 }
+NEED_NO_BOX(System::Threading::RegisteredWaitHandle);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::RegisteredWaitHandle*, "System.Threading", "RegisteredWaitHandle");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::RegisteredWaitHandle::New_ctor

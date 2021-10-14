@@ -41,6 +41,7 @@ namespace Zenject {
     }
   }; // Zenject.LateTickablesTaskUpdater
 }
+NEED_NO_BOX(Zenject::LateTickablesTaskUpdater);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::LateTickablesTaskUpdater*, "Zenject", "LateTickablesTaskUpdater");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::LateTickablesTaskUpdater::UpdateItem

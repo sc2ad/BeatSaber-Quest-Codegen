@@ -36,6 +36,7 @@ namespace GlobalNamespace {
   }; // IPAPluginsDirDeleter
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::IPAPluginsDirDeleter);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IPAPluginsDirDeleter*, "", "IPAPluginsDirDeleter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::IPAPluginsDirDeleter::New_ctor

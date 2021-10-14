@@ -62,6 +62,7 @@ namespace Mono::Net::Security {
   static check_size<sizeof(BufferOffsetSize2), 40 + sizeof(int)> __Mono_Net_Security_BufferOffsetSize2SizeCheck;
   static_assert(sizeof(BufferOffsetSize2) == 0x2C);
 }
+NEED_NO_BOX(Mono::Net::Security::BufferOffsetSize2);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::BufferOffsetSize2*, "Mono.Net.Security", "BufferOffsetSize2");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Net::Security::BufferOffsetSize2::New_ctor

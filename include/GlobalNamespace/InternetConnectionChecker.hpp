@@ -51,6 +51,7 @@ namespace GlobalNamespace {
   }; // InternetConnectionChecker
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::InternetConnectionChecker);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::InternetConnectionChecker*, "", "InternetConnectionChecker");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::InternetConnectionChecker::IsConnectedToInternetAsync

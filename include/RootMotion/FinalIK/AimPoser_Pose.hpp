@@ -98,6 +98,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(AimPoser::Pose), 52 + sizeof(float)> __RootMotion_FinalIK_AimPoser_PoseSizeCheck;
   static_assert(sizeof(AimPoser::Pose) == 0x38);
 }
+NEED_NO_BOX(RootMotion::FinalIK::AimPoser::Pose);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::AimPoser::Pose*, "RootMotion.FinalIK", "AimPoser/Pose");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::AimPoser::Pose::IsInDirection

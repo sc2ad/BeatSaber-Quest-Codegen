@@ -451,8 +451,10 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_ThreadedTaskLoadGeo), 104 + sizeof(HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::HEU_LoadCallback*)> __HoudiniEngineUnity_HEU_ThreadedTaskLoadGeoSizeCheck;
   static_assert(sizeof(HEU_ThreadedTaskLoadGeo) == 0x70);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo*, "HoudiniEngineUnity", "HEU_ThreadedTaskLoadGeo");
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::LoadType, "HoudiniEngineUnity", "HEU_ThreadedTaskLoadGeo/LoadType");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::HEU_LoadData);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::HEU_LoadData*, "HoudiniEngineUnity", "HEU_ThreadedTaskLoadGeo/HEU_LoadData");
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::HEU_LoadData::LoadStatus, "HoudiniEngineUnity", "HEU_ThreadedTaskLoadGeo/HEU_LoadData/LoadStatus");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

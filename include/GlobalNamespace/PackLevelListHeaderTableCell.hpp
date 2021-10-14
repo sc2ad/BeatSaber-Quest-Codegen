@@ -133,6 +133,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PackLevelListHeaderTableCell), 128 + sizeof(System::Threading::CancellationTokenSource*)> __GlobalNamespace_PackLevelListHeaderTableCellSizeCheck;
   static_assert(sizeof(PackLevelListHeaderTableCell) == 0x88);
 }
+NEED_NO_BOX(GlobalNamespace::PackLevelListHeaderTableCell);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PackLevelListHeaderTableCell*, "", "PackLevelListHeaderTableCell");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PackLevelListHeaderTableCell::get_text

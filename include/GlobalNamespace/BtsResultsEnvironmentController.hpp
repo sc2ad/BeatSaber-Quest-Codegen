@@ -156,6 +156,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BtsResultsEnvironmentController), 56 + sizeof(System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*)> __GlobalNamespace_BtsResultsEnvironmentControllerSizeCheck;
   static_assert(sizeof(BtsResultsEnvironmentController) == 0x40);
 }
+NEED_NO_BOX(GlobalNamespace::BtsResultsEnvironmentController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BtsResultsEnvironmentController*, "", "BtsResultsEnvironmentController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BtsResultsEnvironmentController::SpawnBtsCharacters

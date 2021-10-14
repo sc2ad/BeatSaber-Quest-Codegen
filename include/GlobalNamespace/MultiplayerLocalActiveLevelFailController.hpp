@@ -137,6 +137,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerLocalActiveLevelFailController), 64 + sizeof(GlobalNamespace::MultiplayerPlayersManager*)> __GlobalNamespace_MultiplayerLocalActiveLevelFailControllerSizeCheck;
   static_assert(sizeof(MultiplayerLocalActiveLevelFailController) == 0x48);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerLocalActiveLevelFailController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalActiveLevelFailController*, "", "MultiplayerLocalActiveLevelFailController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalActiveLevelFailController::Start

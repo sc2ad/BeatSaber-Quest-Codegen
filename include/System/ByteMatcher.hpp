@@ -79,6 +79,7 @@ namespace System {
   static check_size<sizeof(ByteMatcher), 24 + sizeof(System::Collections::Hashtable*)> __System_ByteMatcherSizeCheck;
   static_assert(sizeof(ByteMatcher) == 0x20);
 }
+NEED_NO_BOX(System::ByteMatcher);
 DEFINE_IL2CPP_ARG_TYPE(System::ByteMatcher*, "System", "ByteMatcher");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ByteMatcher::AddMapping

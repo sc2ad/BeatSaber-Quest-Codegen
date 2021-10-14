@@ -36,6 +36,7 @@ namespace GlobalNamespace {
     }
   }; // Vector2IntSO
 }
+NEED_NO_BOX(GlobalNamespace::Vector2IntSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Vector2IntSO*, "", "Vector2IntSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::Vector2IntSO::New_ctor

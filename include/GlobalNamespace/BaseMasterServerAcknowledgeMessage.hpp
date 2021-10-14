@@ -95,6 +95,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BaseMasterServerAcknowledgeMessage), 20 + sizeof(bool)> __GlobalNamespace_BaseMasterServerAcknowledgeMessageSizeCheck;
   static_assert(sizeof(BaseMasterServerAcknowledgeMessage) == 0x15);
 }
+NEED_NO_BOX(GlobalNamespace::BaseMasterServerAcknowledgeMessage);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BaseMasterServerAcknowledgeMessage*, "", "BaseMasterServerAcknowledgeMessage");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BaseMasterServerAcknowledgeMessage::get_messageHandled

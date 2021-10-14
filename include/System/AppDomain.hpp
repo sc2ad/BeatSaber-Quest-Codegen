@@ -391,6 +391,7 @@ namespace System {
   static check_size<sizeof(AppDomain), 152 + sizeof(System::Collections::Generic::List_1<::Il2CppString*>*)> __System_AppDomainSizeCheck;
   static_assert(sizeof(AppDomain) == 0xA0);
 }
+NEED_NO_BOX(System::AppDomain);
 DEFINE_IL2CPP_ARG_TYPE(System::AppDomain*, "System", "AppDomain");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::AppDomain::get_FriendlyName

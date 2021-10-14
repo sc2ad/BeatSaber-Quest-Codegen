@@ -50,6 +50,7 @@ namespace System::Resources {
   static check_size<sizeof(ResourceManager::ResourceManagerMediator), 16 + sizeof(System::Resources::ResourceManager*)> __System_Resources_ResourceManager_ResourceManagerMediatorSizeCheck;
   static_assert(sizeof(ResourceManager::ResourceManagerMediator) == 0x18);
 }
+NEED_NO_BOX(System::Resources::ResourceManager::ResourceManagerMediator);
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::ResourceManager::ResourceManagerMediator*, "System.Resources", "ResourceManager/ResourceManagerMediator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Resources::ResourceManager::ResourceManagerMediator::New_ctor

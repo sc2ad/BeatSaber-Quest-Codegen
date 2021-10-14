@@ -176,6 +176,7 @@ namespace System::Security::Cryptography::X509Certificates {
   static check_size<sizeof(X509ChainPolicy), 72 + sizeof(System::DateTime)> __System_Security_Cryptography_X509Certificates_X509ChainPolicySizeCheck;
   static_assert(sizeof(X509ChainPolicy) == 0x50);
 }
+NEED_NO_BOX(System::Security::Cryptography::X509Certificates::X509ChainPolicy);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509ChainPolicy*, "System.Security.Cryptography.X509Certificates", "X509ChainPolicy");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509ChainPolicy::get_ExtraStore

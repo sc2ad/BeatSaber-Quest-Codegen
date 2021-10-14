@@ -313,6 +313,7 @@ namespace System::Reflection {
   static check_size<sizeof(AssemblyName), 108 + sizeof(System::Reflection::AssemblyContentType)> __System_Reflection_AssemblyNameSizeCheck;
   static_assert(sizeof(AssemblyName) == 0x70);
 }
+NEED_NO_BOX(System::Reflection::AssemblyName);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::AssemblyName*, "System.Reflection", "AssemblyName");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::AssemblyName::get_Name

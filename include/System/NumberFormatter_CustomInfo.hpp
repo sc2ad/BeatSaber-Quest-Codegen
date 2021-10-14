@@ -179,6 +179,7 @@ namespace System {
   static check_size<sizeof(NumberFormatter::CustomInfo), 68 + sizeof(int)> __System_NumberFormatter_CustomInfoSizeCheck;
   static_assert(sizeof(NumberFormatter::CustomInfo) == 0x48);
 }
+NEED_NO_BOX(System::NumberFormatter::CustomInfo);
 DEFINE_IL2CPP_ARG_TYPE(System::NumberFormatter::CustomInfo*, "System", "NumberFormatter/CustomInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::NumberFormatter::CustomInfo::GetActiveSection

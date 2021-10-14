@@ -372,6 +372,7 @@ namespace Mono::Unity {
   static check_size<sizeof(UnityTls::unitytls_interface_struct), 272 + sizeof(Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_random_generate_bytes_t*)> __Mono_Unity_UnityTls_unitytls_interface_structSizeCheck;
   static_assert(sizeof(UnityTls::unitytls_interface_struct) == 0x118);
 }
+NEED_NO_BOX(Mono::Unity::UnityTls::unitytls_interface_struct);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTls::unitytls_interface_struct*, "Mono.Unity", "UnityTls/unitytls_interface_struct");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Unity::UnityTls::unitytls_interface_struct::New_ctor

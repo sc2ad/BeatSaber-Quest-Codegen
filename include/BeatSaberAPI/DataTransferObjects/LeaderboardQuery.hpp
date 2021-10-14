@@ -103,6 +103,7 @@ namespace BeatSaberAPI::DataTransferObjects {
   static check_size<sizeof(LeaderboardQuery), 56 + sizeof(::ArrayW<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>)> __BeatSaberAPI_DataTransferObjects_LeaderboardQuerySizeCheck;
   static_assert(sizeof(LeaderboardQuery) == 0x40);
 }
+NEED_NO_BOX(BeatSaberAPI::DataTransferObjects::LeaderboardQuery);
 DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::LeaderboardQuery*, "BeatSaberAPI.DataTransferObjects", "LeaderboardQuery");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: BeatSaberAPI::DataTransferObjects::LeaderboardQuery::New_ctor

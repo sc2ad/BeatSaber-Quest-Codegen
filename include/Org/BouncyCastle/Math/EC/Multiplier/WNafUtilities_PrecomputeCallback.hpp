@@ -92,6 +92,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
   static check_size<sizeof(WNafUtilities::PrecomputeCallback), 28 + sizeof(bool)> __Org_BouncyCastle_Math_EC_Multiplier_WNafUtilities_PrecomputeCallbackSizeCheck;
   static_assert(sizeof(WNafUtilities::PrecomputeCallback) == 0x1D);
 }
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::PrecomputeCallback);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::PrecomputeCallback*, "Org.BouncyCastle.Math.EC.Multiplier", "WNafUtilities/PrecomputeCallback");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::PrecomputeCallback::New_ctor

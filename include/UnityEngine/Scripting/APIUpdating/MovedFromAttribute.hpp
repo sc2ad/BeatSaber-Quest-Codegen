@@ -60,6 +60,7 @@ namespace UnityEngine::Scripting::APIUpdating {
   static check_size<sizeof(MovedFromAttribute), 16 + sizeof(UnityEngine::Scripting::APIUpdating::MovedFromAttributeData)> __UnityEngine_Scripting_APIUpdating_MovedFromAttributeSizeCheck;
   static_assert(sizeof(MovedFromAttribute) == 0x2C);
 }
+NEED_NO_BOX(UnityEngine::Scripting::APIUpdating::MovedFromAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Scripting::APIUpdating::MovedFromAttribute*, "UnityEngine.Scripting.APIUpdating", "MovedFromAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Scripting::APIUpdating::MovedFromAttribute::New_ctor

@@ -62,6 +62,7 @@ namespace System::Runtime::Serialization {
   }; // System.Runtime.Serialization.FormatterConverter
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Runtime::Serialization::FormatterConverter);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::FormatterConverter*, "System.Runtime.Serialization", "FormatterConverter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::FormatterConverter::Convert

@@ -51,6 +51,7 @@ namespace GlobalNamespace {
   }; // DeactivateAfterFirstFrame
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::DeactivateAfterFirstFrame);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DeactivateAfterFirstFrame*, "", "DeactivateAfterFirstFrame");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DeactivateAfterFirstFrame::Start

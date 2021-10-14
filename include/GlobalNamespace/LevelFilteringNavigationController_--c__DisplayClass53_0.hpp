@@ -63,6 +63,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LevelFilteringNavigationController::$$c__DisplayClass53_0), 16 + sizeof(GlobalNamespace::IBeatmapLevelPack*)> __GlobalNamespace_LevelFilteringNavigationController_$$c__DisplayClass53_0SizeCheck;
   static_assert(sizeof(LevelFilteringNavigationController::$$c__DisplayClass53_0) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::LevelFilteringNavigationController::$$c__DisplayClass53_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelFilteringNavigationController::$$c__DisplayClass53_0*, "", "LevelFilteringNavigationController/<>c__DisplayClass53_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LevelFilteringNavigationController::$$c__DisplayClass53_0::$SelectAnnotatedBeatmapLevelCollection$b__1

@@ -55,6 +55,7 @@ namespace UnityEngine::Experimental::TerrainAPI {
   }; // UnityEngine.Experimental.TerrainAPI.TerrainUtility/UnityEngine.Experimental.TerrainAPI.TerrainMap/UnityEngine.Experimental.TerrainAPI.TerrainFilter
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap::TerrainFilter);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap::TerrainFilter*, "UnityEngine.Experimental.TerrainAPI", "TerrainUtility/TerrainMap/TerrainFilter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap::TerrainFilter::New_ctor

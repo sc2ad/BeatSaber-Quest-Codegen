@@ -77,6 +77,7 @@ namespace System::Configuration {
   }; // System.Configuration.IgnoreSection
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Configuration::IgnoreSection);
 DEFINE_IL2CPP_ARG_TYPE(System::Configuration::IgnoreSection*, "System.Configuration", "IgnoreSection");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Configuration::IgnoreSection::get_Properties

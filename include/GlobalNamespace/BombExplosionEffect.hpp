@@ -111,6 +111,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BombExplosionEffect), 192 + sizeof(UnityEngine::ParticleSystem::EmitParams)> __GlobalNamespace_BombExplosionEffectSizeCheck;
   static_assert(sizeof(BombExplosionEffect) == 0x14F);
 }
+NEED_NO_BOX(GlobalNamespace::BombExplosionEffect);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BombExplosionEffect*, "", "BombExplosionEffect");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BombExplosionEffect::Awake

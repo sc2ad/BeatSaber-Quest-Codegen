@@ -50,6 +50,7 @@ namespace GlobalNamespace {
   }; // HMAsyncRequest/CancelHander
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::HMAsyncRequest::CancelHander);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HMAsyncRequest::CancelHander*, "", "HMAsyncRequest/CancelHander");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HMAsyncRequest::CancelHander::New_ctor

@@ -146,6 +146,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_HandleParamBinding), 40 + sizeof(::ArrayW<bool>)> __HoudiniEngineUnity_HEU_HandleParamBindingSizeCheck;
   static_assert(sizeof(HEU_HandleParamBinding) == 0x30);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_HandleParamBinding);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_HandleParamBinding*, "HoudiniEngineUnity", "HEU_HandleParamBinding");
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_HandleParamBinding::HEU_HandleParamType, "HoudiniEngineUnity", "HEU_HandleParamBinding/HEU_HandleParamType");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

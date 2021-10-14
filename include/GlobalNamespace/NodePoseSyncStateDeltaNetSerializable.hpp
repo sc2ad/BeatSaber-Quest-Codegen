@@ -133,6 +133,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(NodePoseSyncStateDeltaNetSerializable), 92 + sizeof(int)> __GlobalNamespace_NodePoseSyncStateDeltaNetSerializableSizeCheck;
   static_assert(sizeof(NodePoseSyncStateDeltaNetSerializable) == 0x60);
 }
+NEED_NO_BOX(GlobalNamespace::NodePoseSyncStateDeltaNetSerializable);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*, "", "NodePoseSyncStateDeltaNetSerializable");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::get_baseId

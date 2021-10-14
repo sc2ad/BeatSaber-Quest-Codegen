@@ -128,6 +128,7 @@ namespace NetEase::Docker {
   static check_size<sizeof(BaseDock), 40 + sizeof(System::Action_1<NetEase::Docker::ReceivedHighscoreData>*)> __NetEase_Docker_BaseDockSizeCheck;
   static_assert(sizeof(BaseDock) == 0x30);
 }
+NEED_NO_BOX(NetEase::Docker::BaseDock);
 DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::BaseDock*, "NetEase.Docker", "BaseDock");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NetEase::Docker::BaseDock::SetInitializeCallback

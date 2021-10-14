@@ -114,6 +114,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MissionGameplaySceneSetupData), 64 + sizeof(::Il2CppString*)> __GlobalNamespace_MissionGameplaySceneSetupDataSizeCheck;
   static_assert(sizeof(MissionGameplaySceneSetupData) == 0x48);
 }
+NEED_NO_BOX(GlobalNamespace::MissionGameplaySceneSetupData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionGameplaySceneSetupData*, "", "MissionGameplaySceneSetupData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionGameplaySceneSetupData::New_ctor

@@ -61,6 +61,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(DisableSpatializerOnOldWindows), 24 + sizeof(UnityEngine::AudioSource*)> __GlobalNamespace_DisableSpatializerOnOldWindowsSizeCheck;
   static_assert(sizeof(DisableSpatializerOnOldWindows) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::DisableSpatializerOnOldWindows);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DisableSpatializerOnOldWindows*, "", "DisableSpatializerOnOldWindows");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DisableSpatializerOnOldWindows::New_ctor

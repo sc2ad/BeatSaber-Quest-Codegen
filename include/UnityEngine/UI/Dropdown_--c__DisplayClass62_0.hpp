@@ -60,6 +60,7 @@ namespace UnityEngine::UI {
   static check_size<sizeof(Dropdown::$$c__DisplayClass62_0), 24 + sizeof(UnityEngine::UI::Dropdown*)> __UnityEngine_UI_Dropdown_$$c__DisplayClass62_0SizeCheck;
   static_assert(sizeof(Dropdown::$$c__DisplayClass62_0) == 0x20);
 }
+NEED_NO_BOX(UnityEngine::UI::Dropdown::$$c__DisplayClass62_0);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Dropdown::$$c__DisplayClass62_0*, "UnityEngine.UI", "Dropdown/<>c__DisplayClass62_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::Dropdown::$$c__DisplayClass62_0::$Show$b__0

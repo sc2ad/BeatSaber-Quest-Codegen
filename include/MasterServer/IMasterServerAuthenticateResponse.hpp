@@ -26,6 +26,7 @@ namespace MasterServer {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(MasterServer::IMasterServerAuthenticateResponse);
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::IMasterServerAuthenticateResponse*, "MasterServer", "IMasterServerAuthenticateResponse");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: MasterServer::IMasterServerAuthenticateResponse::get_isAuthenticated

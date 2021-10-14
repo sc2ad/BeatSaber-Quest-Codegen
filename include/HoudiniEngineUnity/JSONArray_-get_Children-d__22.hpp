@@ -123,6 +123,7 @@ namespace HoudiniEngineUnity {
   }; // HoudiniEngineUnity.JSONArray/HoudiniEngineUnity.<get_Children>d__22
   // WARNING Not writing size check since size may be invalid!
 }
+NEED_NO_BOX(HoudiniEngineUnity::JSONArray::$get_Children$d__22);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::JSONArray::$get_Children$d__22*, "HoudiniEngineUnity", "JSONArray/<get_Children>d__22");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONArray::$get_Children$d__22::System_Collections_Generic_IEnumerator$HoudiniEngineUnity_JSONNode$_get_Current

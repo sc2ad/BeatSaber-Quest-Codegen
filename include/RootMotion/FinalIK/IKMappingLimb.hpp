@@ -189,6 +189,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(IKMappingLimb), 88 + sizeof(RootMotion::FinalIK::IKMapping::BoneMap*)> __RootMotion_FinalIK_IKMappingLimbSizeCheck;
   static_assert(sizeof(IKMappingLimb) == 0x60);
 }
+NEED_NO_BOX(RootMotion::FinalIK::IKMappingLimb);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKMappingLimb*, "RootMotion.FinalIK", "IKMappingLimb");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKMappingLimb::New_ctor

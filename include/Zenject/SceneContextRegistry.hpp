@@ -97,6 +97,7 @@ namespace Zenject {
   static check_size<sizeof(SceneContextRegistry), 16 + sizeof(System::Collections::Generic::Dictionary_2<UnityEngine::SceneManagement::Scene, Zenject::SceneContext*>*)> __Zenject_SceneContextRegistrySizeCheck;
   static_assert(sizeof(SceneContextRegistry) == 0x18);
 }
+NEED_NO_BOX(Zenject::SceneContextRegistry);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SceneContextRegistry*, "Zenject", "SceneContextRegistry");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::SceneContextRegistry::get_SceneContexts

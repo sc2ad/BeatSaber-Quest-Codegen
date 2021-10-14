@@ -65,6 +65,7 @@ namespace Mono::Security::X509 {
   }; // Mono.Security.X509.X509CertificateCollection
   #pragma pack(pop)
 }
+NEED_NO_BOX(Mono::Security::X509::X509CertificateCollection);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::X509CertificateCollection*, "Mono.Security.X509", "X509CertificateCollection");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Security::X509::X509CertificateCollection::get_Item

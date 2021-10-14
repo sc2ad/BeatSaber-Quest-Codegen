@@ -155,6 +155,7 @@ namespace MasterServer {
   static check_size<sizeof(BaseMasterServerMultipartMessage), 40 + sizeof(::ArrayW<uint8_t>)> __MasterServer_BaseMasterServerMultipartMessageSizeCheck;
   static_assert(sizeof(BaseMasterServerMultipartMessage) == 0x30);
 }
+NEED_NO_BOX(MasterServer::BaseMasterServerMultipartMessage);
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::BaseMasterServerMultipartMessage*, "MasterServer", "BaseMasterServerMultipartMessage");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: MasterServer::BaseMasterServerMultipartMessage::get_multipartMessageId

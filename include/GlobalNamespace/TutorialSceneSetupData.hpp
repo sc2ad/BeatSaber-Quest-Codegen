@@ -58,6 +58,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(TutorialSceneSetupData), 16 + sizeof(GlobalNamespace::ColorScheme*)> __GlobalNamespace_TutorialSceneSetupDataSizeCheck;
   static_assert(sizeof(TutorialSceneSetupData) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::TutorialSceneSetupData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialSceneSetupData*, "", "TutorialSceneSetupData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TutorialSceneSetupData::New_ctor

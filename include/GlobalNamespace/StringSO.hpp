@@ -34,6 +34,7 @@ namespace GlobalNamespace {
     }
   }; // StringSO
 }
+NEED_NO_BOX(GlobalNamespace::StringSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StringSO*, "", "StringSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::StringSO::New_ctor

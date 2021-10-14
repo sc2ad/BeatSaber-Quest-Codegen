@@ -71,6 +71,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BTSCharacterDataModel::PrefabWithId), 24 + sizeof(UnityEngine::AddressableAssets::AssetReference*)> __GlobalNamespace_BTSCharacterDataModel_PrefabWithIdSizeCheck;
   static_assert(sizeof(BTSCharacterDataModel::PrefabWithId) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::BTSCharacterDataModel::PrefabWithId);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterDataModel::PrefabWithId*, "", "BTSCharacterDataModel/PrefabWithId");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacterDataModel::PrefabWithId::get_id

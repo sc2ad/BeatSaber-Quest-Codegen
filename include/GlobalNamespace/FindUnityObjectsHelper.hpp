@@ -63,6 +63,7 @@ namespace GlobalNamespace {
   }; // FindUnityObjectsHelper
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::FindUnityObjectsHelper);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FindUnityObjectsHelper*, "", "FindUnityObjectsHelper");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FindUnityObjectsHelper::GetMonoBehavioursInLoadedScenes

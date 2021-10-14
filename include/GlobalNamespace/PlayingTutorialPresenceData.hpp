@@ -79,6 +79,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PlayingTutorialPresenceData), 16 + sizeof(::Il2CppString*)> __GlobalNamespace_PlayingTutorialPresenceDataSizeCheck;
   static_assert(sizeof(PlayingTutorialPresenceData) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::PlayingTutorialPresenceData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayingTutorialPresenceData*, "", "PlayingTutorialPresenceData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayingTutorialPresenceData::get_apiName

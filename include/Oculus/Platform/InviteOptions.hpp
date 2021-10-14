@@ -66,6 +66,7 @@ namespace Oculus::Platform {
   static check_size<sizeof(InviteOptions), 16 + sizeof(System::IntPtr)> __Oculus_Platform_InviteOptionsSizeCheck;
   static_assert(sizeof(InviteOptions) == 0x18);
 }
+NEED_NO_BOX(Oculus::Platform::InviteOptions);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::InviteOptions*, "Oculus.Platform", "InviteOptions");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::InviteOptions::AddSuggestedUser

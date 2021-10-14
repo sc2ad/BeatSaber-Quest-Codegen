@@ -285,6 +285,7 @@ namespace UnityEngine::UI {
   static check_size<sizeof(LayoutGroup), 80 + sizeof(System::Collections::Generic::List_1<UnityEngine::RectTransform*>*)> __UnityEngine_UI_LayoutGroupSizeCheck;
   static_assert(sizeof(LayoutGroup) == 0x58);
 }
+NEED_NO_BOX(UnityEngine::UI::LayoutGroup);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::LayoutGroup*, "UnityEngine.UI", "LayoutGroup");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::get_padding

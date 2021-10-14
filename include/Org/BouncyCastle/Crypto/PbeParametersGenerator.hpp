@@ -88,6 +88,7 @@ namespace Org::BouncyCastle::Crypto {
   static check_size<sizeof(PbeParametersGenerator), 32 + sizeof(int)> __Org_BouncyCastle_Crypto_PbeParametersGeneratorSizeCheck;
   static_assert(sizeof(PbeParametersGenerator) == 0x24);
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::PbeParametersGenerator);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::PbeParametersGenerator*, "Org.BouncyCastle.Crypto", "PbeParametersGenerator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::PbeParametersGenerator::Init

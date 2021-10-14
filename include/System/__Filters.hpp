@@ -53,6 +53,7 @@ namespace System {
   }; // System.__Filters
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::__Filters);
 DEFINE_IL2CPP_ARG_TYPE(System::__Filters*, "System", "__Filters");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::__Filters::_cctor

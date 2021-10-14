@@ -164,6 +164,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BeatEffectSpawner), 88 + sizeof(GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::BeatEffect*>*)> __GlobalNamespace_BeatEffectSpawnerSizeCheck;
   static_assert(sizeof(BeatEffectSpawner) == 0x60);
 }
+NEED_NO_BOX(GlobalNamespace::BeatEffectSpawner);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatEffectSpawner*, "", "BeatEffectSpawner");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatEffectSpawner::Init

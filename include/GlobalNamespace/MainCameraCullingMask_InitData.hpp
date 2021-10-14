@@ -50,6 +50,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MainCameraCullingMask::InitData), 16 + sizeof(bool)> __GlobalNamespace_MainCameraCullingMask_InitDataSizeCheck;
   static_assert(sizeof(MainCameraCullingMask::InitData) == 0x11);
 }
+NEED_NO_BOX(GlobalNamespace::MainCameraCullingMask::InitData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainCameraCullingMask::InitData*, "", "MainCameraCullingMask/InitData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MainCameraCullingMask::InitData::New_ctor

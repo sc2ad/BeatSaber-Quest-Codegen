@@ -72,6 +72,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_OutputAttributesStore), 24 + sizeof(HoudiniEngineUnity::HEU_OutputAttributeDictionary*)> __HoudiniEngineUnity_HEU_OutputAttributesStoreSizeCheck;
   static_assert(sizeof(HEU_OutputAttributesStore) == 0x20);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_OutputAttributesStore);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_OutputAttributesStore*, "HoudiniEngineUnity", "HEU_OutputAttributesStore");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_OutputAttributesStore::SetAttribute

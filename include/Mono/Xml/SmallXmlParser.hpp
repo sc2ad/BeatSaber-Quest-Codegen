@@ -234,6 +234,7 @@ namespace Mono::Xml {
   static check_size<sizeof(SmallXmlParser), 96 + sizeof(bool)> __Mono_Xml_SmallXmlParserSizeCheck;
   static_assert(sizeof(SmallXmlParser) == 0x61);
 }
+NEED_NO_BOX(Mono::Xml::SmallXmlParser);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Xml::SmallXmlParser*, "Mono.Xml", "SmallXmlParser");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Xml::SmallXmlParser::Error

@@ -68,6 +68,7 @@ namespace System {
   }; // System.InvalidTimeZoneException
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::InvalidTimeZoneException);
 DEFINE_IL2CPP_ARG_TYPE(System::InvalidTimeZoneException*, "System", "InvalidTimeZoneException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::InvalidTimeZoneException::New_ctor

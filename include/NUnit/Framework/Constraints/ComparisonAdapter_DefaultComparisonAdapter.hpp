@@ -35,6 +35,7 @@ namespace NUnit::Framework::Constraints {
   }; // NUnit.Framework.Constraints.ComparisonAdapter/NUnit.Framework.Constraints.DefaultComparisonAdapter
   #pragma pack(pop)
 }
+NEED_NO_BOX(NUnit::Framework::Constraints::ComparisonAdapter::DefaultComparisonAdapter);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::ComparisonAdapter::DefaultComparisonAdapter*, "NUnit.Framework.Constraints", "ComparisonAdapter/DefaultComparisonAdapter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::ComparisonAdapter::DefaultComparisonAdapter::New_ctor

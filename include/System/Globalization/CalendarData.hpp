@@ -235,6 +235,7 @@ namespace System::Globalization {
   static check_size<sizeof(CalendarData), 152 + sizeof(bool)> __System_Globalization_CalendarDataSizeCheck;
   static_assert(sizeof(CalendarData) == 0x99);
 }
+NEED_NO_BOX(System::Globalization::CalendarData);
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CalendarData*, "System.Globalization", "CalendarData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Globalization::CalendarData::_cctor

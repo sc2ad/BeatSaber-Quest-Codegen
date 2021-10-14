@@ -46,6 +46,7 @@ namespace GlobalNamespace {
   }; // CountdownGameplayServerFiniteStateMachine
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::CountdownGameplayServerFiniteStateMachine);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CountdownGameplayServerFiniteStateMachine*, "", "CountdownGameplayServerFiniteStateMachine");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CountdownGameplayServerFiniteStateMachine::New_ctor

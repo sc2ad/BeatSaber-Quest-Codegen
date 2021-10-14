@@ -322,6 +322,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PlayerSaveData::GameplayModifiers), 44 + sizeof(bool)> __GlobalNamespace_PlayerSaveData_GameplayModifiersSizeCheck;
   static_assert(sizeof(PlayerSaveData::GameplayModifiers) == 0x2D);
 }
+NEED_NO_BOX(GlobalNamespace::PlayerSaveData::GameplayModifiers);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveData::GameplayModifiers*, "", "PlayerSaveData/GameplayModifiers");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveData::GameplayModifiers::EnabledObstacleType, "", "PlayerSaveData/GameplayModifiers/EnabledObstacleType");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveData::GameplayModifiers::EnergyType, "", "PlayerSaveData/GameplayModifiers/EnergyType");

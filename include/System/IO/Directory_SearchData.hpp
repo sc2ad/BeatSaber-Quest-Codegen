@@ -64,6 +64,7 @@ namespace System::IO {
   static check_size<sizeof(Directory::SearchData), 32 + sizeof(System::IO::SearchOption)> __System_IO_Directory_SearchDataSizeCheck;
   static_assert(sizeof(Directory::SearchData) == 0x24);
 }
+NEED_NO_BOX(System::IO::Directory::SearchData);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Directory::SearchData*, "System.IO", "Directory/SearchData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::Directory::SearchData::New_ctor

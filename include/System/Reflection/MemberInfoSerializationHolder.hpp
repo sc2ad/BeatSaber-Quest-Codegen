@@ -129,6 +129,7 @@ namespace System::Reflection {
   static check_size<sizeof(MemberInfoSerializationHolder), 56 + sizeof(System::Runtime::Serialization::SerializationInfo*)> __System_Reflection_MemberInfoSerializationHolderSizeCheck;
   static_assert(sizeof(MemberInfoSerializationHolder) == 0x40);
 }
+NEED_NO_BOX(System::Reflection::MemberInfoSerializationHolder);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MemberInfoSerializationHolder*, "System.Reflection", "MemberInfoSerializationHolder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::MemberInfoSerializationHolder::New_ctor

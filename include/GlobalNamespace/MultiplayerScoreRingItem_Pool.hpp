@@ -35,6 +35,7 @@ namespace GlobalNamespace {
     }
   }; // MultiplayerScoreRingItem/Pool
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerScoreRingItem::Pool);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerScoreRingItem::Pool*, "", "MultiplayerScoreRingItem/Pool");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerScoreRingItem::Pool::New_ctor

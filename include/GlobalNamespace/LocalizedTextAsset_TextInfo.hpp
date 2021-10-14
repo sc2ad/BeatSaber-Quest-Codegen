@@ -67,6 +67,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LocalizedTextAsset::TextInfo), 24 + sizeof(UnityEngine::TextAsset*)> __GlobalNamespace_LocalizedTextAsset_TextInfoSizeCheck;
   static_assert(sizeof(LocalizedTextAsset::TextInfo) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::LocalizedTextAsset::TextInfo);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalizedTextAsset::TextInfo*, "", "LocalizedTextAsset/TextInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LocalizedTextAsset::TextInfo::New_ctor

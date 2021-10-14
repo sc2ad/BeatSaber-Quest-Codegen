@@ -133,6 +133,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SimpleTextureLoader::$LoadTextureCoroutine$d__2), 56 + sizeof(UnityEngine::Networking::UnityWebRequest*)> __GlobalNamespace_SimpleTextureLoader_$LoadTextureCoroutine$d__2SizeCheck;
   static_assert(sizeof(SimpleTextureLoader::$LoadTextureCoroutine$d__2) == 0x40);
 }
+NEED_NO_BOX(GlobalNamespace::SimpleTextureLoader::$LoadTextureCoroutine$d__2);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleTextureLoader::$LoadTextureCoroutine$d__2*, "", "SimpleTextureLoader/<LoadTextureCoroutine>d__2");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SimpleTextureLoader::$LoadTextureCoroutine$d__2::System_Collections_Generic_IEnumerator$System_Object$_get_Current

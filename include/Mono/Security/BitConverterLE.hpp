@@ -46,6 +46,7 @@ namespace Mono::Security {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(Mono::Security::BitConverterLE);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::BitConverterLE*, "Mono.Security", "BitConverterLE");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Security::BitConverterLE::GetUIntBytes

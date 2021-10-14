@@ -71,6 +71,7 @@ namespace System::Text::RegularExpressions {
   static check_size<sizeof(MatchSparse), 112 + sizeof(System::Collections::Hashtable*)> __System_Text_RegularExpressions_MatchSparseSizeCheck;
   static_assert(sizeof(MatchSparse) == 0x78);
 }
+NEED_NO_BOX(System::Text::RegularExpressions::MatchSparse);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::MatchSparse*, "System.Text.RegularExpressions", "MatchSparse");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::RegularExpressions::MatchSparse::New_ctor

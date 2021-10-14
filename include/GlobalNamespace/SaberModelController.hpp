@@ -125,6 +125,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SaberModelController), 64 + sizeof(GlobalNamespace::ColorManager*)> __GlobalNamespace_SaberModelControllerSizeCheck;
   static_assert(sizeof(SaberModelController) == 0x48);
 }
+NEED_NO_BOX(GlobalNamespace::SaberModelController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberModelController*, "", "SaberModelController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SaberModelController::Init

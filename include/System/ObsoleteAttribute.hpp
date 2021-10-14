@@ -76,6 +76,7 @@ namespace System {
   static check_size<sizeof(ObsoleteAttribute), 24 + sizeof(bool)> __System_ObsoleteAttributeSizeCheck;
   static_assert(sizeof(ObsoleteAttribute) == 0x19);
 }
+NEED_NO_BOX(System::ObsoleteAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::ObsoleteAttribute*, "System", "ObsoleteAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ObsoleteAttribute::get_Message

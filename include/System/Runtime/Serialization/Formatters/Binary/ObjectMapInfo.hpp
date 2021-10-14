@@ -79,6 +79,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   static check_size<sizeof(ObjectMapInfo), 32 + sizeof(::ArrayW<System::Type*>)> __System_Runtime_Serialization_Formatters_Binary_ObjectMapInfoSizeCheck;
   static_assert(sizeof(ObjectMapInfo) == 0x28);
 }
+NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::ObjectMapInfo);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::ObjectMapInfo*, "System.Runtime.Serialization.Formatters.Binary", "ObjectMapInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::ObjectMapInfo::New_ctor

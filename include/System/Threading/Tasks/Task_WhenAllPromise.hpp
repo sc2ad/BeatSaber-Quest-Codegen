@@ -70,6 +70,7 @@ namespace System::Threading::Tasks {
   }; // System.Threading.Tasks.Task/System.Threading.Tasks.WhenAllPromise
   // WARNING Not writing size check since size may be invalid!
 }
+NEED_NO_BOX(System::Threading::Tasks::Task::WhenAllPromise);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::Task::WhenAllPromise*, "System.Threading.Tasks", "Task/WhenAllPromise");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::Tasks::Task::WhenAllPromise::New_ctor

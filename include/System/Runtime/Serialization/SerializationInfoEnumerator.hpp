@@ -125,6 +125,7 @@ namespace System::Runtime::Serialization {
   static check_size<sizeof(SerializationInfoEnumerator), 48 + sizeof(bool)> __System_Runtime_Serialization_SerializationInfoEnumeratorSizeCheck;
   static_assert(sizeof(SerializationInfoEnumerator) == 0x31);
 }
+NEED_NO_BOX(System::Runtime::Serialization::SerializationInfoEnumerator);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SerializationInfoEnumerator*, "System.Runtime.Serialization", "SerializationInfoEnumerator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationInfoEnumerator::System_Collections_IEnumerator_get_Current

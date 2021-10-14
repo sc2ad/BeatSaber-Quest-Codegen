@@ -60,6 +60,7 @@ namespace UnityEngine::Timeline {
   }; // UnityEngine.Timeline.TrackAsset/UnityEngine.Timeline.<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::Timeline::TrackAsset::$$c);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TrackAsset::$$c*, "UnityEngine.Timeline", "TrackAsset/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::$$c::_cctor

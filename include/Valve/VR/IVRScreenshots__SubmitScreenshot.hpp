@@ -58,6 +58,7 @@ namespace Valve::VR {
   }; // Valve.VR.IVRScreenshots/Valve.VR._SubmitScreenshot
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::IVRScreenshots::_SubmitScreenshot);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRScreenshots::_SubmitScreenshot*, "Valve.VR", "IVRScreenshots/_SubmitScreenshot");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRScreenshots::_SubmitScreenshot::New_ctor

@@ -318,6 +318,7 @@ namespace System::Net {
   static check_size<sizeof(HttpListener), 128 + sizeof(System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy*)> __System_Net_HttpListenerSizeCheck;
   static_assert(sizeof(HttpListener) == 0x88);
 }
+NEED_NO_BOX(System::Net::HttpListener);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpListener*, "System.Net", "HttpListener");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::HttpListener::get_AuthenticationSchemes

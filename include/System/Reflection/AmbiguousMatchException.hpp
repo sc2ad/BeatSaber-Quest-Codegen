@@ -62,6 +62,7 @@ namespace System::Reflection {
   }; // System.Reflection.AmbiguousMatchException
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Reflection::AmbiguousMatchException);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::AmbiguousMatchException*, "System.Reflection", "AmbiguousMatchException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::AmbiguousMatchException::New_ctor

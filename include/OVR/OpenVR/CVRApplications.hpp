@@ -164,6 +164,7 @@ namespace OVR::OpenVR {
   static check_size<sizeof(CVRApplications), 16 + sizeof(OVR::OpenVR::IVRApplications)> __OVR_OpenVR_CVRApplicationsSizeCheck;
   static_assert(sizeof(CVRApplications) == 0x108);
 }
+NEED_NO_BOX(OVR::OpenVR::CVRApplications);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRApplications*, "OVR.OpenVR", "CVRApplications");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::CVRApplications::New_ctor

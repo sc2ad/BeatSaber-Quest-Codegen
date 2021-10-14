@@ -60,6 +60,7 @@ namespace OVR::OpenVR {
   }; // OVR.OpenVR.IVRTrackedCamera/OVR.OpenVR._GetVideoStreamFrameBuffer
   #pragma pack(pop)
 }
+NEED_NO_BOX(OVR::OpenVR::IVRTrackedCamera::_GetVideoStreamFrameBuffer);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRTrackedCamera::_GetVideoStreamFrameBuffer*, "OVR.OpenVR", "IVRTrackedCamera/_GetVideoStreamFrameBuffer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVRTrackedCamera::_GetVideoStreamFrameBuffer::New_ctor

@@ -158,6 +158,7 @@ namespace System::IO {
   static check_size<sizeof(FileSystemInfo), 88 + sizeof(::Il2CppString*)> __System_IO_FileSystemInfoSizeCheck;
   static_assert(sizeof(FileSystemInfo) == 0x60);
 }
+NEED_NO_BOX(System::IO::FileSystemInfo);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileSystemInfo*, "System.IO", "FileSystemInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::FileSystemInfo::get_FullName

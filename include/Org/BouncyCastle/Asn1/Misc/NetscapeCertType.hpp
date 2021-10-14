@@ -35,6 +35,7 @@ namespace Org::BouncyCastle::Asn1::Misc {
   }; // Org.BouncyCastle.Asn1.Misc.NetscapeCertType
   #pragma pack(pop)
 }
+NEED_NO_BOX(Org::BouncyCastle::Asn1::Misc::NetscapeCertType);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Misc::NetscapeCertType*, "Org.BouncyCastle.Asn1.Misc", "NetscapeCertType");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Misc::NetscapeCertType::New_ctor

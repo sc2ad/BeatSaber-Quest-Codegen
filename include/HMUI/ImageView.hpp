@@ -312,6 +312,7 @@ namespace HMUI {
   static check_size<sizeof(ImageView), 296 + sizeof(HMUI::CurvedCanvasSettingsHelper*)> __HMUI_ImageViewSizeCheck;
   static_assert(sizeof(ImageView) == 0x130);
 }
+NEED_NO_BOX(HMUI::ImageView);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ImageView*, "HMUI", "ImageView");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ImageView::GradientDirection, "HMUI", "ImageView/GradientDirection");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

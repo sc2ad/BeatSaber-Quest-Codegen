@@ -75,6 +75,7 @@ namespace Oculus::Platform {
   static check_size<sizeof(VoipOptions), 16 + sizeof(System::IntPtr)> __Oculus_Platform_VoipOptionsSizeCheck;
   static_assert(sizeof(VoipOptions) == 0x18);
 }
+NEED_NO_BOX(Oculus::Platform::VoipOptions);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::VoipOptions*, "Oculus.Platform", "VoipOptions");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::VoipOptions::SetBitrateForNewConnections

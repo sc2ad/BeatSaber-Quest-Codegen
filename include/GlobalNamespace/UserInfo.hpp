@@ -124,6 +124,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(UserInfo), 32 + sizeof(::Il2CppString*)> __GlobalNamespace_UserInfoSizeCheck;
   static_assert(sizeof(UserInfo) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::UserInfo);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UserInfo*, "", "UserInfo");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UserInfo::Platform, "", "UserInfo/Platform");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

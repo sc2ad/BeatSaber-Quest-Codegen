@@ -83,6 +83,7 @@ namespace System::Security {
   static check_size<sizeof(SecurityDocument), 16 + sizeof(::ArrayW<uint8_t>)> __System_Security_SecurityDocumentSizeCheck;
   static_assert(sizeof(SecurityDocument) == 0x18);
 }
+NEED_NO_BOX(System::Security::SecurityDocument);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::SecurityDocument*, "System.Security", "SecurityDocument");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::SecurityDocument::New_ctor

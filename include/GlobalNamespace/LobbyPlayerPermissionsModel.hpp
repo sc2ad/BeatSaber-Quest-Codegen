@@ -170,6 +170,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LobbyPlayerPermissionsModel), 40 + sizeof(System::Action*)> __GlobalNamespace_LobbyPlayerPermissionsModelSizeCheck;
   static_assert(sizeof(LobbyPlayerPermissionsModel) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::LobbyPlayerPermissionsModel);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LobbyPlayerPermissionsModel*, "", "LobbyPlayerPermissionsModel");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LobbyPlayerPermissionsModel::get_isPartyOwner

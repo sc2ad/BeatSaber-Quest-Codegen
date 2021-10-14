@@ -127,6 +127,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BufferedAudioStream), 40 + sizeof(float)> __GlobalNamespace_BufferedAudioStreamSizeCheck;
   static_assert(sizeof(BufferedAudioStream) == 0x2C);
 }
+NEED_NO_BOX(GlobalNamespace::BufferedAudioStream);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BufferedAudioStream*, "", "BufferedAudioStream");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BufferedAudioStream::New_ctor

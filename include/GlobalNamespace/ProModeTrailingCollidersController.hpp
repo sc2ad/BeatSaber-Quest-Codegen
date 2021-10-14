@@ -102,6 +102,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ProModeTrailingCollidersController), 48 + sizeof(UnityEngine::Transform*)> __GlobalNamespace_ProModeTrailingCollidersControllerSizeCheck;
   static_assert(sizeof(ProModeTrailingCollidersController) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::ProModeTrailingCollidersController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ProModeTrailingCollidersController*, "", "ProModeTrailingCollidersController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ProModeTrailingCollidersController::Start

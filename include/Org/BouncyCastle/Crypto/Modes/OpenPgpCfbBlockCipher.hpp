@@ -133,6 +133,7 @@ namespace Org::BouncyCastle::Crypto::Modes {
   static check_size<sizeof(OpenPgpCfbBlockCipher), 56 + sizeof(bool)> __Org_BouncyCastle_Crypto_Modes_OpenPgpCfbBlockCipherSizeCheck;
   static_assert(sizeof(OpenPgpCfbBlockCipher) == 0x39);
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Modes::OpenPgpCfbBlockCipher);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::OpenPgpCfbBlockCipher*, "Org.BouncyCastle.Crypto.Modes", "OpenPgpCfbBlockCipher");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Modes::OpenPgpCfbBlockCipher::get_AlgorithmName

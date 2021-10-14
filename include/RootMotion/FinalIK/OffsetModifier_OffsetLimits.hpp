@@ -164,6 +164,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(OffsetModifier::OffsetLimits), 48 + sizeof(float)> __RootMotion_FinalIK_OffsetModifier_OffsetLimitsSizeCheck;
   static_assert(sizeof(OffsetModifier::OffsetLimits) == 0x34);
 }
+NEED_NO_BOX(RootMotion::FinalIK::OffsetModifier::OffsetLimits);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::OffsetModifier::OffsetLimits*, "RootMotion.FinalIK", "OffsetModifier/OffsetLimits");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::OffsetModifier::OffsetLimits::Apply

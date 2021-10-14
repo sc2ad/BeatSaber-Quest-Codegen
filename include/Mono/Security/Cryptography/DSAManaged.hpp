@@ -224,6 +224,7 @@ namespace Mono::Security::Cryptography {
   static check_size<sizeof(DSAManaged), 112 + sizeof(Mono::Security::Cryptography::DSAManaged::KeyGeneratedEventHandler*)> __Mono_Security_Cryptography_DSAManagedSizeCheck;
   static_assert(sizeof(DSAManaged) == 0x78);
 }
+NEED_NO_BOX(Mono::Security::Cryptography::DSAManaged);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::DSAManaged*, "Mono.Security.Cryptography", "DSAManaged");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Security::Cryptography::DSAManaged::get_Random

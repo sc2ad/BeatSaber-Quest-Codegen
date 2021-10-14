@@ -72,6 +72,7 @@ namespace TMPro {
   static check_size<sizeof(Compute_DT_EventArgs), 24 + sizeof(::ArrayW<UnityEngine::Color>)> __TMPro_Compute_DT_EventArgsSizeCheck;
   static_assert(sizeof(Compute_DT_EventArgs) == 0x20);
 }
+NEED_NO_BOX(TMPro::Compute_DT_EventArgs);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::Compute_DT_EventArgs*, "TMPro", "Compute_DT_EventArgs");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::Compute_DT_EventArgs::New_ctor

@@ -116,6 +116,7 @@ namespace UnityEngine::Timeline {
   static check_size<sizeof(AudioPlayableAsset::$get_outputs$d__16), 64 + sizeof(UnityEngine::Timeline::AudioPlayableAsset*)> __UnityEngine_Timeline_AudioPlayableAsset_$get_outputs$d__16SizeCheck;
   static_assert(sizeof(AudioPlayableAsset::$get_outputs$d__16) == 0x48);
 }
+NEED_NO_BOX(UnityEngine::Timeline::AudioPlayableAsset::$get_outputs$d__16);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AudioPlayableAsset::$get_outputs$d__16*, "UnityEngine.Timeline", "AudioPlayableAsset/<get_outputs>d__16");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::AudioPlayableAsset::$get_outputs$d__16::System_Collections_Generic_IEnumerator$UnityEngine_Playables_PlayableBinding$_get_Current

@@ -204,6 +204,7 @@ namespace System::Reflection {
   static check_size<sizeof(ParameterInfo), 56 + sizeof(System::Runtime::InteropServices::MarshalAsAttribute*)> __System_Reflection_ParameterInfoSizeCheck;
   static_assert(sizeof(ParameterInfo) == 0x40);
 }
+NEED_NO_BOX(System::Reflection::ParameterInfo);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::ParameterInfo*, "System.Reflection", "ParameterInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::ParameterInfo::get_ParameterType

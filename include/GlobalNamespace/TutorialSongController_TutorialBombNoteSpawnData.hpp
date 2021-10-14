@@ -41,6 +41,7 @@ namespace GlobalNamespace {
   }; // TutorialSongController/TutorialBombNoteSpawnData
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::TutorialSongController::TutorialBombNoteSpawnData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialSongController::TutorialBombNoteSpawnData*, "", "TutorialSongController/TutorialBombNoteSpawnData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TutorialSongController::TutorialBombNoteSpawnData::New_ctor

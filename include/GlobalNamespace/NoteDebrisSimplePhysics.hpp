@@ -115,6 +115,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(NoteDebrisSimplePhysics), 68 + sizeof(bool)> __GlobalNamespace_NoteDebrisSimplePhysicsSizeCheck;
   static_assert(sizeof(NoteDebrisSimplePhysics) == 0x45);
 }
+NEED_NO_BOX(GlobalNamespace::NoteDebrisSimplePhysics);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteDebrisSimplePhysics*, "", "NoteDebrisSimplePhysics");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteDebrisSimplePhysics::Start

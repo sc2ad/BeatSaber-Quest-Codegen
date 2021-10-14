@@ -22,6 +22,7 @@ namespace System {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::CLRConfig);
 DEFINE_IL2CPP_ARG_TYPE(System::CLRConfig*, "System", "CLRConfig");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::CLRConfig::CheckThrowUnobservedTaskExceptions

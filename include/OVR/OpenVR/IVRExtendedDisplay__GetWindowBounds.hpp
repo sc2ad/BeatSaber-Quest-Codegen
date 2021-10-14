@@ -51,6 +51,7 @@ namespace OVR::OpenVR {
   }; // OVR.OpenVR.IVRExtendedDisplay/OVR.OpenVR._GetWindowBounds
   #pragma pack(pop)
 }
+NEED_NO_BOX(OVR::OpenVR::IVRExtendedDisplay::_GetWindowBounds);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRExtendedDisplay::_GetWindowBounds*, "OVR.OpenVR", "IVRExtendedDisplay/_GetWindowBounds");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVRExtendedDisplay::_GetWindowBounds::New_ctor

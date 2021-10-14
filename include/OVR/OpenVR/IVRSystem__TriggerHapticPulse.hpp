@@ -51,6 +51,7 @@ namespace OVR::OpenVR {
   }; // OVR.OpenVR.IVRSystem/OVR.OpenVR._TriggerHapticPulse
   #pragma pack(pop)
 }
+NEED_NO_BOX(OVR::OpenVR::IVRSystem::_TriggerHapticPulse);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRSystem::_TriggerHapticPulse*, "OVR.OpenVR", "IVRSystem/_TriggerHapticPulse");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVRSystem::_TriggerHapticPulse::New_ctor

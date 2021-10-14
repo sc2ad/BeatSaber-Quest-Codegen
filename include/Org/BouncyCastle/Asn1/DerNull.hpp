@@ -81,6 +81,7 @@ namespace Org::BouncyCastle::Asn1 {
   static check_size<sizeof(DerNull), 16 + sizeof(::ArrayW<uint8_t>)> __Org_BouncyCastle_Asn1_DerNullSizeCheck;
   static_assert(sizeof(DerNull) == 0x18);
 }
+NEED_NO_BOX(Org::BouncyCastle::Asn1::DerNull);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerNull*, "Org.BouncyCastle.Asn1", "DerNull");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerNull::New_ctor

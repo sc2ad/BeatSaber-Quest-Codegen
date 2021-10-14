@@ -18,5 +18,6 @@ namespace Oculus::Platform {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(Oculus::Platform::Colocation);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Colocation*, "Oculus.Platform", "Colocation");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

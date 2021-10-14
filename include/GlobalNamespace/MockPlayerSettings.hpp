@@ -229,6 +229,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MockPlayerSettings), 96 + sizeof(UnityEngine::Color)> __GlobalNamespace_MockPlayerSettingsSizeCheck;
   static_assert(sizeof(MockPlayerSettings) == 0x70);
 }
+NEED_NO_BOX(GlobalNamespace::MockPlayerSettings);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockPlayerSettings*, "", "MockPlayerSettings");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayerSettings::get_userName

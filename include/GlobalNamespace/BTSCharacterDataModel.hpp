@@ -78,6 +78,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BTSCharacterDataModel), 32 + sizeof(::ArrayW<GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId*>)> __GlobalNamespace_BTSCharacterDataModelSizeCheck;
   static_assert(sizeof(BTSCharacterDataModel) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::BTSCharacterDataModel);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterDataModel*, "", "BTSCharacterDataModel");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacterDataModel::get_prefabsWithIds

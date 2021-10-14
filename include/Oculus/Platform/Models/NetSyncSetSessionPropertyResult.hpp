@@ -57,6 +57,7 @@ namespace Oculus::Platform::Models {
   static check_size<sizeof(NetSyncSetSessionPropertyResult), 16 + sizeof(Oculus::Platform::Models::NetSyncSession*)> __Oculus_Platform_Models_NetSyncSetSessionPropertyResultSizeCheck;
   static_assert(sizeof(NetSyncSetSessionPropertyResult) == 0x18);
 }
+NEED_NO_BOX(Oculus::Platform::Models::NetSyncSetSessionPropertyResult);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::NetSyncSetSessionPropertyResult*, "Oculus.Platform.Models", "NetSyncSetSessionPropertyResult");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::NetSyncSetSessionPropertyResult::New_ctor

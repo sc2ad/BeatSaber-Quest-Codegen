@@ -935,6 +935,7 @@ namespace UnityEngine {
   static check_size<sizeof(TextEditor), 140 + sizeof(int)> __UnityEngine_TextEditorSizeCheck;
   static_assert(sizeof(TextEditor) == 0x90);
 }
+NEED_NO_BOX(UnityEngine::TextEditor);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextEditor*, "UnityEngine", "TextEditor");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextEditor::DblClickSnapping, "UnityEngine", "TextEditor/DblClickSnapping");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextEditor::TextEditOp, "UnityEngine", "TextEditor/TextEditOp");

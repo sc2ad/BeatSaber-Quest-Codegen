@@ -125,6 +125,7 @@ namespace Zenject {
   static check_size<sizeof(InjectContext::$get_ParentContextsAndSelf$d__54), 48 + sizeof(System::Collections::Generic::IEnumerator_1<Zenject::InjectContext*>*)> __Zenject_InjectContext_$get_ParentContextsAndSelf$d__54SizeCheck;
   static_assert(sizeof(InjectContext::$get_ParentContextsAndSelf$d__54) == 0x38);
 }
+NEED_NO_BOX(Zenject::InjectContext::$get_ParentContextsAndSelf$d__54);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::InjectContext::$get_ParentContextsAndSelf$d__54*, "Zenject", "InjectContext/<get_ParentContextsAndSelf>d__54");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::InjectContext::$get_ParentContextsAndSelf$d__54::System_Collections_Generic_IEnumerator$Zenject_InjectContext$_get_Current

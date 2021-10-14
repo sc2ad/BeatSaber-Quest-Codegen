@@ -58,6 +58,7 @@ namespace UnityEngine::Timeline {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::Timeline::ICurvesOwner);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ICurvesOwner*, "UnityEngine.Timeline", "ICurvesOwner");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::ICurvesOwner::get_curves

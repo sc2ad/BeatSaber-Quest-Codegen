@@ -40,6 +40,7 @@ namespace GlobalNamespace {
   }; // MainSettingsBestGraphicsValues
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::MainSettingsBestGraphicsValues);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainSettingsBestGraphicsValues*, "", "MainSettingsBestGraphicsValues");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MainSettingsBestGraphicsValues::ApplyValues

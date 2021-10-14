@@ -178,6 +178,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(TextFadeTransitions), 56 + sizeof(float)> __GlobalNamespace_TextFadeTransitionsSizeCheck;
   static_assert(sizeof(TextFadeTransitions) == 0x3C);
 }
+NEED_NO_BOX(GlobalNamespace::TextFadeTransitions);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TextFadeTransitions*, "", "TextFadeTransitions");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TextFadeTransitions::State, "", "TextFadeTransitions/State");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

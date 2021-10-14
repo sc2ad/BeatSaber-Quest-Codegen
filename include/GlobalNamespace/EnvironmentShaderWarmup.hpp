@@ -121,6 +121,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(EnvironmentShaderWarmup), 48 + sizeof(UnityEngine::Transform*)> __GlobalNamespace_EnvironmentShaderWarmupSizeCheck;
   static_assert(sizeof(EnvironmentShaderWarmup) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::EnvironmentShaderWarmup);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentShaderWarmup*, "", "EnvironmentShaderWarmup");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EnvironmentShaderWarmup::Start

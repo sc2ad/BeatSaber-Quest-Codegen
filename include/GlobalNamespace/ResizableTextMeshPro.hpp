@@ -96,6 +96,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ResizableTextMeshPro), 40 + sizeof(float)> __GlobalNamespace_ResizableTextMeshProSizeCheck;
   static_assert(sizeof(ResizableTextMeshPro) == 0x2C);
 }
+NEED_NO_BOX(GlobalNamespace::ResizableTextMeshPro);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResizableTextMeshPro*, "", "ResizableTextMeshPro");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ResizableTextMeshPro::Start

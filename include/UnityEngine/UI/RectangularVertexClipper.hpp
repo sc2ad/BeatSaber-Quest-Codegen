@@ -71,6 +71,7 @@ namespace UnityEngine::UI {
   static check_size<sizeof(RectangularVertexClipper), 24 + sizeof(::ArrayW<UnityEngine::Vector3>)> __UnityEngine_UI_RectangularVertexClipperSizeCheck;
   static_assert(sizeof(RectangularVertexClipper) == 0x20);
 }
+NEED_NO_BOX(UnityEngine::UI::RectangularVertexClipper);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::RectangularVertexClipper*, "UnityEngine.UI", "RectangularVertexClipper");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::RectangularVertexClipper::GetCanvasRect

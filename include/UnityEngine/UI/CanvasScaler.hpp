@@ -459,6 +459,7 @@ namespace UnityEngine::UI {
   static check_size<sizeof(CanvasScaler), 84 + sizeof(float)> __UnityEngine_UI_CanvasScalerSizeCheck;
   static_assert(sizeof(CanvasScaler) == 0x58);
 }
+NEED_NO_BOX(UnityEngine::UI::CanvasScaler);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CanvasScaler*, "UnityEngine.UI", "CanvasScaler");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CanvasScaler::ScaleMode, "UnityEngine.UI", "CanvasScaler/ScaleMode");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CanvasScaler::ScreenMatchMode, "UnityEngine.UI", "CanvasScaler/ScreenMatchMode");

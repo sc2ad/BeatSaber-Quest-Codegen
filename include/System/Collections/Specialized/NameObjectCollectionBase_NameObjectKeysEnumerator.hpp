@@ -79,6 +79,7 @@ namespace System::Collections::Specialized {
   static check_size<sizeof(NameObjectCollectionBase::NameObjectKeysEnumerator), 32 + sizeof(int)> __System_Collections_Specialized_NameObjectCollectionBase_NameObjectKeysEnumeratorSizeCheck;
   static_assert(sizeof(NameObjectCollectionBase::NameObjectKeysEnumerator) == 0x24);
 }
+NEED_NO_BOX(System::Collections::Specialized::NameObjectCollectionBase::NameObjectKeysEnumerator);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::NameObjectCollectionBase::NameObjectKeysEnumerator*, "System.Collections.Specialized", "NameObjectCollectionBase/NameObjectKeysEnumerator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::Specialized::NameObjectCollectionBase::NameObjectKeysEnumerator::get_Current

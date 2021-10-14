@@ -35,6 +35,7 @@ namespace System {
   }; // System.SerializableAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::SerializableAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::SerializableAttribute*, "System", "SerializableAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::SerializableAttribute::New_ctor

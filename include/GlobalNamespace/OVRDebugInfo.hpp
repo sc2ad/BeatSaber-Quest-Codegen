@@ -330,6 +330,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRDebugInfo), 204 + sizeof(bool)> __GlobalNamespace_OVRDebugInfoSizeCheck;
   static_assert(sizeof(OVRDebugInfo) == 0xCD);
 }
+NEED_NO_BOX(GlobalNamespace::OVRDebugInfo);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRDebugInfo*, "", "OVRDebugInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRDebugInfo::Awake

@@ -190,6 +190,7 @@ namespace System::Globalization {
   static check_size<sizeof(DateTimeFormatInfoScanner), 24 + sizeof(System::Globalization::DateTimeFormatInfoScanner::FoundDatePattern)> __System_Globalization_DateTimeFormatInfoScannerSizeCheck;
   static_assert(sizeof(DateTimeFormatInfoScanner) == 0x1C);
 }
+NEED_NO_BOX(System::Globalization::DateTimeFormatInfoScanner);
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::DateTimeFormatInfoScanner*, "System.Globalization", "DateTimeFormatInfoScanner");
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::DateTimeFormatInfoScanner::FoundDatePattern, "System.Globalization", "DateTimeFormatInfoScanner/FoundDatePattern");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

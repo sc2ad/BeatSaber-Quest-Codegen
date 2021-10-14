@@ -35,6 +35,7 @@ namespace Zenject {
   }; // Zenject.ScriptableObjectInstaller
   #pragma pack(pop)
 }
+NEED_NO_BOX(Zenject::ScriptableObjectInstaller);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ScriptableObjectInstaller*, "Zenject", "ScriptableObjectInstaller");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::ScriptableObjectInstaller::New_ctor

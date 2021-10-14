@@ -188,6 +188,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(GameplayServerFiniteStateMachine), 120 + sizeof(bool)> __GlobalNamespace_GameplayServerFiniteStateMachineSizeCheck;
   static_assert(sizeof(GameplayServerFiniteStateMachine) == 0x79);
 }
+NEED_NO_BOX(GlobalNamespace::GameplayServerFiniteStateMachine);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayServerFiniteStateMachine*, "", "GameplayServerFiniteStateMachine");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameplayServerFiniteStateMachine::get_timeProvider

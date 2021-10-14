@@ -96,6 +96,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MissionResultsViewController::$StartFireworksAfterDelay$d__28), 40 + sizeof(GlobalNamespace::MissionResultsViewController*)> __GlobalNamespace_MissionResultsViewController_$StartFireworksAfterDelay$d__28SizeCheck;
   static_assert(sizeof(MissionResultsViewController::$StartFireworksAfterDelay$d__28) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::MissionResultsViewController::$StartFireworksAfterDelay$d__28);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionResultsViewController::$StartFireworksAfterDelay$d__28*, "", "MissionResultsViewController/<StartFireworksAfterDelay>d__28");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionResultsViewController::$StartFireworksAfterDelay$d__28::System_Collections_Generic_IEnumerator$System_Object$_get_Current

@@ -194,6 +194,7 @@ namespace MasterServer {
   static check_size<sizeof(DedicatedServerPrepareForConnectionResponse), 40 + sizeof(int64_t)> __MasterServer_DedicatedServerPrepareForConnectionResponseSizeCheck;
   static_assert(sizeof(DedicatedServerPrepareForConnectionResponse) == 0x30);
 }
+NEED_NO_BOX(MasterServer::DedicatedServerPrepareForConnectionResponse);
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::DedicatedServerPrepareForConnectionResponse*, "MasterServer", "DedicatedServerPrepareForConnectionResponse");
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::DedicatedServerPrepareForConnectionResponse::Result, "MasterServer", "DedicatedServerPrepareForConnectionResponse/Result");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

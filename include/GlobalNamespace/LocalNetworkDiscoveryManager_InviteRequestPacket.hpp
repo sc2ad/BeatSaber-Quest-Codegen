@@ -123,6 +123,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LocalNetworkDiscoveryManager::InviteRequestPacket), 72 + sizeof(GlobalNamespace::GameplayServerConfiguration)> __GlobalNamespace_LocalNetworkDiscoveryManager_InviteRequestPacketSizeCheck;
   static_assert(sizeof(LocalNetworkDiscoveryManager::InviteRequestPacket) == 0x60);
 }
+NEED_NO_BOX(GlobalNamespace::LocalNetworkDiscoveryManager::InviteRequestPacket);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalNetworkDiscoveryManager::InviteRequestPacket*, "", "LocalNetworkDiscoveryManager/InviteRequestPacket");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::InviteRequestPacket::Serialize

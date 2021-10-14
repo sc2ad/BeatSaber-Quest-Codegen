@@ -60,6 +60,7 @@ namespace HMUI {
   static check_size<sizeof(ModalView::$$c__DisplayClass21_0), 24 + sizeof(bool)> __HMUI_ModalView_$$c__DisplayClass21_0SizeCheck;
   static_assert(sizeof(ModalView::$$c__DisplayClass21_0) == 0x19);
 }
+NEED_NO_BOX(HMUI::ModalView::$$c__DisplayClass21_0);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ModalView::$$c__DisplayClass21_0*, "HMUI", "ModalView/<>c__DisplayClass21_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::ModalView::$$c__DisplayClass21_0::$HandleParentViewControllerDidDeactivate$b__0

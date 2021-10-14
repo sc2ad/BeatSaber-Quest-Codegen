@@ -131,6 +131,7 @@ namespace Zenject {
   static check_size<sizeof(AddToCurrentGameObjectComponentProvider), 48 + sizeof(System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>*)> __Zenject_AddToCurrentGameObjectComponentProviderSizeCheck;
   static_assert(sizeof(AddToCurrentGameObjectComponentProvider) == 0x38);
 }
+NEED_NO_BOX(Zenject::AddToCurrentGameObjectComponentProvider);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::AddToCurrentGameObjectComponentProvider*, "Zenject", "AddToCurrentGameObjectComponentProvider");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::AddToCurrentGameObjectComponentProvider::get_IsCached

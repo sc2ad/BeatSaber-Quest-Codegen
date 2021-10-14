@@ -85,6 +85,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(EnableRendererWithLightId), 60 + sizeof(float)> __GlobalNamespace_EnableRendererWithLightIdSizeCheck;
   static_assert(sizeof(EnableRendererWithLightId) == 0x40);
 }
+NEED_NO_BOX(GlobalNamespace::EnableRendererWithLightId);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnableRendererWithLightId*, "", "EnableRendererWithLightId");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EnableRendererWithLightId::New_ctor

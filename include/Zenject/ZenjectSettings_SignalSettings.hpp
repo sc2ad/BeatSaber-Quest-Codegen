@@ -104,6 +104,7 @@ namespace Zenject {
   static check_size<sizeof(ZenjectSettings::SignalSettings), 28 + sizeof(int)> __Zenject_ZenjectSettings_SignalSettingsSizeCheck;
   static_assert(sizeof(ZenjectSettings::SignalSettings) == 0x20);
 }
+NEED_NO_BOX(Zenject::ZenjectSettings::SignalSettings);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenjectSettings::SignalSettings*, "Zenject", "ZenjectSettings/SignalSettings");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::ZenjectSettings::SignalSettings::get_DefaultAsyncTickPriority

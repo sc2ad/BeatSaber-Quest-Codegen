@@ -36,6 +36,7 @@ namespace UnityEngine::UI {
   }; // UnityEngine.UI.Button/UnityEngine.UI.ButtonClickedEvent
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::UI::Button::ButtonClickedEvent);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Button::ButtonClickedEvent*, "UnityEngine.UI", "Button/ButtonClickedEvent");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::Button::ButtonClickedEvent::New_ctor

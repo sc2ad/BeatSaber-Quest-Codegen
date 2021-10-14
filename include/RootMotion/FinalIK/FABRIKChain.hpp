@@ -100,6 +100,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(FABRIKChain), 32 + sizeof(::ArrayW<int>)> __RootMotion_FinalIK_FABRIKChainSizeCheck;
   static_assert(sizeof(FABRIKChain) == 0x28);
 }
+NEED_NO_BOX(RootMotion::FinalIK::FABRIKChain);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FABRIKChain*, "RootMotion.FinalIK", "FABRIKChain");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::FABRIKChain::IsValid

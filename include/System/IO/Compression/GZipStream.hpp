@@ -194,6 +194,7 @@ namespace System::IO::Compression {
   static check_size<sizeof(GZipStream), 40 + sizeof(System::IO::Compression::DeflateStream*)> __System_IO_Compression_GZipStreamSizeCheck;
   static_assert(sizeof(GZipStream) == 0x30);
 }
+NEED_NO_BOX(System::IO::Compression::GZipStream);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Compression::GZipStream*, "System.IO.Compression", "GZipStream");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::Compression::GZipStream::New_ctor

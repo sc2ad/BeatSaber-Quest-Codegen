@@ -198,6 +198,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   static check_size<sizeof(AssetBundleResource), 104 + sizeof(bool)> __UnityEngine_ResourceManagement_ResourceProviders_AssetBundleResourceSizeCheck;
   static_assert(sizeof(AssetBundleResource) == 0x69);
 }
+NEED_NO_BOX(UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource*, "UnityEngine.ResourceManagement.ResourceProviders", "AssetBundleResource");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource::CreateWebRequest

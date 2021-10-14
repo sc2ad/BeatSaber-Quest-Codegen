@@ -87,6 +87,7 @@ namespace TMPro {
   }; // TMPro.TMP_FontAssetUtilities
   #pragma pack(pop)
 }
+NEED_NO_BOX(TMPro::TMP_FontAssetUtilities);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_FontAssetUtilities*, "TMPro", "TMP_FontAssetUtilities");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_FontAssetUtilities::get_instance

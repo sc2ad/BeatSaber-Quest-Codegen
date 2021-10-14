@@ -75,6 +75,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerBadgeDataFullComboSO), 48 + sizeof(float)> __GlobalNamespace_MultiplayerBadgeDataFullComboSOSizeCheck;
   static_assert(sizeof(MultiplayerBadgeDataFullComboSO) == 0x34);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerBadgeDataFullComboSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerBadgeDataFullComboSO*, "", "MultiplayerBadgeDataFullComboSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerBadgeDataFullComboSO::New_ctor

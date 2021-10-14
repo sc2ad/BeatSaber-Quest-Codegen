@@ -65,6 +65,7 @@ namespace System::ComponentModel {
   static check_size<sizeof(EditorAttribute), 24 + sizeof(::Il2CppString*)> __System_ComponentModel_EditorAttributeSizeCheck;
   static_assert(sizeof(EditorAttribute) == 0x20);
 }
+NEED_NO_BOX(System::ComponentModel::EditorAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::EditorAttribute*, "System.ComponentModel", "EditorAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ComponentModel::EditorAttribute::New_ctor

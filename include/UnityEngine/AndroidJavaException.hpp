@@ -55,6 +55,7 @@ namespace UnityEngine {
   static check_size<sizeof(AndroidJavaException), 136 + sizeof(::Il2CppString*)> __UnityEngine_AndroidJavaExceptionSizeCheck;
   static_assert(sizeof(AndroidJavaException) == 0x90);
 }
+NEED_NO_BOX(UnityEngine::AndroidJavaException);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AndroidJavaException*, "UnityEngine", "AndroidJavaException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AndroidJavaException::New_ctor

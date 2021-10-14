@@ -74,6 +74,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(ConstraintPosition), 28 + sizeof(UnityEngine::Vector3)> __RootMotion_FinalIK_ConstraintPositionSizeCheck;
   static_assert(sizeof(ConstraintPosition) == 0x28);
 }
+NEED_NO_BOX(RootMotion::FinalIK::ConstraintPosition);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::ConstraintPosition*, "RootMotion.FinalIK", "ConstraintPosition");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::ConstraintPosition::New_ctor

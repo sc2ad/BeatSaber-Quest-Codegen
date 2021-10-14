@@ -70,6 +70,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MaterialPropertyBlockColorAnimator), 48 + sizeof(UnityEngine::Color)> __GlobalNamespace_MaterialPropertyBlockColorAnimatorSizeCheck;
   static_assert(sizeof(MaterialPropertyBlockColorAnimator) == 0x40);
 }
+NEED_NO_BOX(GlobalNamespace::MaterialPropertyBlockColorAnimator);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialPropertyBlockColorAnimator*, "", "MaterialPropertyBlockColorAnimator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MaterialPropertyBlockColorAnimator::get_color

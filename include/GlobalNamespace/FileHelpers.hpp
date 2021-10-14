@@ -66,6 +66,7 @@ namespace GlobalNamespace {
   }; // FileHelpers
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::FileHelpers);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FileHelpers*, "", "FileHelpers");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FileHelpers::GetEscapedURLForFilePath

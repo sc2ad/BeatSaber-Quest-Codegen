@@ -298,6 +298,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PreviewBeatmapLevelSO), 144 + sizeof(::ArrayW<GlobalNamespace::PreviewDifficultyBeatmapSet*>)> __GlobalNamespace_PreviewBeatmapLevelSOSizeCheck;
   static_assert(sizeof(PreviewBeatmapLevelSO) == 0x98);
 }
+NEED_NO_BOX(GlobalNamespace::PreviewBeatmapLevelSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PreviewBeatmapLevelSO*, "", "PreviewBeatmapLevelSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PreviewBeatmapLevelSO::get_levelID

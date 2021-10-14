@@ -197,6 +197,7 @@ namespace TMPro {
   static check_size<sizeof(TMP_SpriteAnimator::$DoSpriteAnimationInternal$d__7), 500 + sizeof(float)> __TMPro_TMP_SpriteAnimator_$DoSpriteAnimationInternal$d__7SizeCheck;
   static_assert(sizeof(TMP_SpriteAnimator::$DoSpriteAnimationInternal$d__7) == 0x1F8);
 }
+NEED_NO_BOX(TMPro::TMP_SpriteAnimator::$DoSpriteAnimationInternal$d__7);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_SpriteAnimator::$DoSpriteAnimationInternal$d__7*, "TMPro", "TMP_SpriteAnimator/<DoSpriteAnimationInternal>d__7");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAnimator::$DoSpriteAnimationInternal$d__7::System_Collections_Generic_IEnumerator$System_Object$_get_Current

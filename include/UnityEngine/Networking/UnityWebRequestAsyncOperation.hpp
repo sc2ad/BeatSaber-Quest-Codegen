@@ -72,6 +72,7 @@ namespace UnityEngine::Networking {
   static check_size<sizeof(UnityWebRequestAsyncOperation), 32 + sizeof(UnityEngine::Networking::UnityWebRequest*)> __UnityEngine_Networking_UnityWebRequestAsyncOperationSizeCheck;
   static_assert(sizeof(UnityWebRequestAsyncOperation) == 0x28);
 }
+NEED_NO_BOX(UnityEngine::Networking::UnityWebRequestAsyncOperation);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::UnityWebRequestAsyncOperation*, "UnityEngine.Networking", "UnityWebRequestAsyncOperation");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequestAsyncOperation::get_webRequest

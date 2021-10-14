@@ -56,6 +56,7 @@ namespace OVR::OpenVR {
   }; // OVR.OpenVR.IVROverlay/OVR.OpenVR._GetOverlayTexelAspect
   #pragma pack(pop)
 }
+NEED_NO_BOX(OVR::OpenVR::IVROverlay::_GetOverlayTexelAspect);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVROverlay::_GetOverlayTexelAspect*, "OVR.OpenVR", "IVROverlay/_GetOverlayTexelAspect");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVROverlay::_GetOverlayTexelAspect::New_ctor

@@ -360,6 +360,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(GhostEffectBehaviour), 164 + sizeof(bool)> __GlobalNamespace_GhostEffectBehaviourSizeCheck;
   static_assert(sizeof(GhostEffectBehaviour) == 0xA5);
 }
+NEED_NO_BOX(GlobalNamespace::GhostEffectBehaviour);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GhostEffectBehaviour*, "", "GhostEffectBehaviour");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GhostEffectBehaviour::EndBehavior, "", "GhostEffectBehaviour/EndBehavior");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GhostEffectBehaviour::GhostEffectType, "", "GhostEffectBehaviour/GhostEffectType");

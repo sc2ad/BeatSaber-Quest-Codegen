@@ -87,6 +87,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(AudioClipLoaderSO), 24 + sizeof(bool)> __GlobalNamespace_AudioClipLoaderSOSizeCheck;
   static_assert(sizeof(AudioClipLoaderSO) == 0x19);
 }
+NEED_NO_BOX(GlobalNamespace::AudioClipLoaderSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioClipLoaderSO*, "", "AudioClipLoaderSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AudioClipLoaderSO::LoadAudioFile

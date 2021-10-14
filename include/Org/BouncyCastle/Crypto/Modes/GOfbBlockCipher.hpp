@@ -142,6 +142,7 @@ namespace Org::BouncyCastle::Crypto::Modes {
   static check_size<sizeof(GOfbBlockCipher), 64 + sizeof(int)> __Org_BouncyCastle_Crypto_Modes_GOfbBlockCipherSizeCheck;
   static_assert(sizeof(GOfbBlockCipher) == 0x44);
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Modes::GOfbBlockCipher);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::GOfbBlockCipher*, "Org.BouncyCastle.Crypto.Modes", "GOfbBlockCipher");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Modes::GOfbBlockCipher::get_AlgorithmName

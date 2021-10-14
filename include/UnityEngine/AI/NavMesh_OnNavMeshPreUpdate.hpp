@@ -50,6 +50,7 @@ namespace UnityEngine::AI {
   }; // UnityEngine.AI.NavMesh/UnityEngine.AI.OnNavMeshPreUpdate
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::AI::NavMesh::OnNavMeshPreUpdate);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AI::NavMesh::OnNavMeshPreUpdate*, "UnityEngine.AI", "NavMesh/OnNavMeshPreUpdate");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AI::NavMesh::OnNavMeshPreUpdate::New_ctor

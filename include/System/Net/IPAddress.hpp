@@ -221,6 +221,7 @@ namespace System::Net {
   static check_size<sizeof(IPAddress), 56 + sizeof(int)> __System_Net_IPAddressSizeCheck;
   static_assert(sizeof(IPAddress) == 0x3C);
 }
+NEED_NO_BOX(System::Net::IPAddress);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::IPAddress*, "System.Net", "IPAddress");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::IPAddress::get_AddressFamily

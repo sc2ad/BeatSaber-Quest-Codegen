@@ -33,6 +33,7 @@ namespace UnityEngine::Experimental::TerrainAPI {
     }
   }; // UnityEngine.Experimental.TerrainAPI.TerrainUtility/UnityEngine.Experimental.TerrainAPI.TerrainGroups
 }
+NEED_NO_BOX(UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainGroups);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainGroups*, "UnityEngine.Experimental.TerrainAPI", "TerrainUtility/TerrainGroups");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainGroups::New_ctor

@@ -49,6 +49,7 @@ namespace System::Threading {
   }; // System.Threading.ThreadStart
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Threading::ThreadStart);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ThreadStart*, "System.Threading", "ThreadStart");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::ThreadStart::New_ctor

@@ -40,6 +40,7 @@ namespace System::Runtime::CompilerServices {
   }; // System.Runtime.CompilerServices.IteratorStateMachineAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Runtime::CompilerServices::IteratorStateMachineAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::IteratorStateMachineAttribute*, "System.Runtime.CompilerServices", "IteratorStateMachineAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::IteratorStateMachineAttribute::New_ctor

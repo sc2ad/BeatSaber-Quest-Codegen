@@ -74,6 +74,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MockScoreSyncStateSender), 16 + sizeof(GlobalNamespace::IMultiplayerSessionManager*)> __GlobalNamespace_MockScoreSyncStateSenderSizeCheck;
   static_assert(sizeof(MockScoreSyncStateSender) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::MockScoreSyncStateSender);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockScoreSyncStateSender*, "", "MockScoreSyncStateSender");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MockScoreSyncStateSender::New_ctor

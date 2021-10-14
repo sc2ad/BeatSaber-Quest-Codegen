@@ -64,6 +64,7 @@ namespace UnityEngine::Internal {
   static check_size<sizeof(DefaultValueAttribute), 16 + sizeof(::Il2CppObject*)> __UnityEngine_Internal_DefaultValueAttributeSizeCheck;
   static_assert(sizeof(DefaultValueAttribute) == 0x18);
 }
+NEED_NO_BOX(UnityEngine::Internal::DefaultValueAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Internal::DefaultValueAttribute*, "UnityEngine.Internal", "DefaultValueAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Internal::DefaultValueAttribute::get_Value

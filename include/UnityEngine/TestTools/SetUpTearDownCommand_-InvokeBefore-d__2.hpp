@@ -119,6 +119,7 @@ namespace UnityEngine::TestTools {
   static check_size<sizeof(SetUpTearDownCommand::$InvokeBefore$d__2), 48 + sizeof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*)> __UnityEngine_TestTools_SetUpTearDownCommand_$InvokeBefore$d__2SizeCheck;
   static_assert(sizeof(SetUpTearDownCommand::$InvokeBefore$d__2) == 0x38);
 }
+NEED_NO_BOX(UnityEngine::TestTools::SetUpTearDownCommand::$InvokeBefore$d__2);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::SetUpTearDownCommand::$InvokeBefore$d__2*, "UnityEngine.TestTools", "SetUpTearDownCommand/<InvokeBefore>d__2");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::SetUpTearDownCommand::$InvokeBefore$d__2::System_Collections_Generic_IEnumerator$System_Object$_get_Current

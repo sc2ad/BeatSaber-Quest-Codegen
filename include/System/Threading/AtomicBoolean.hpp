@@ -69,6 +69,7 @@ namespace System::Threading {
   static check_size<sizeof(AtomicBoolean), 16 + sizeof(int)> __System_Threading_AtomicBooleanSizeCheck;
   static_assert(sizeof(AtomicBoolean) == 0x14);
 }
+NEED_NO_BOX(System::Threading::AtomicBoolean);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::AtomicBoolean*, "System.Threading", "AtomicBoolean");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::AtomicBoolean::TryRelaxedSet

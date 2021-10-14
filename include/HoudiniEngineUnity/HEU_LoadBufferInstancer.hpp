@@ -84,6 +84,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_LoadBufferInstancer), 80 + sizeof(::ArrayW<::Il2CppString*>)> __HoudiniEngineUnity_HEU_LoadBufferInstancerSizeCheck;
   static_assert(sizeof(HEU_LoadBufferInstancer) == 0x58);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_LoadBufferInstancer);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_LoadBufferInstancer*, "HoudiniEngineUnity", "HEU_LoadBufferInstancer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_LoadBufferInstancer::New_ctor

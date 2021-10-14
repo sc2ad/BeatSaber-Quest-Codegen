@@ -35,6 +35,7 @@ namespace Unity::Collections::LowLevel::Unsafe {
   }; // Unity.Collections.LowLevel.Unsafe.NativeContainerAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(Unity::Collections::LowLevel::Unsafe::NativeContainerAttribute);
 DEFINE_IL2CPP_ARG_TYPE(Unity::Collections::LowLevel::Unsafe::NativeContainerAttribute*, "Unity.Collections.LowLevel.Unsafe", "NativeContainerAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Unity::Collections::LowLevel::Unsafe::NativeContainerAttribute::New_ctor

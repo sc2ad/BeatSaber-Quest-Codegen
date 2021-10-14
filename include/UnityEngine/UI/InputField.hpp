@@ -1369,6 +1369,7 @@ namespace UnityEngine::UI {
   static check_size<sizeof(InputField), 520 + sizeof(UnityEngine::Event*)> __UnityEngine_UI_InputFieldSizeCheck;
   static_assert(sizeof(InputField) == 0x210);
 }
+NEED_NO_BOX(UnityEngine::UI::InputField);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::InputField*, "UnityEngine.UI", "InputField");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::InputField::ContentType, "UnityEngine.UI", "InputField/ContentType");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::InputField::InputType, "UnityEngine.UI", "InputField/InputType");

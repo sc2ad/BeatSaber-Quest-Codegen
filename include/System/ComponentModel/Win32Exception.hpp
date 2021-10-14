@@ -120,6 +120,7 @@ namespace System::ComponentModel {
   static check_size<sizeof(Win32Exception), 136 + sizeof(int)> __System_ComponentModel_Win32ExceptionSizeCheck;
   static_assert(sizeof(Win32Exception) == 0x8C);
 }
+NEED_NO_BOX(System::ComponentModel::Win32Exception);
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::Win32Exception*, "System.ComponentModel", "Win32Exception");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ComponentModel::Win32Exception::get_NativeErrorCode

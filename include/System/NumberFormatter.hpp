@@ -483,6 +483,7 @@ namespace System {
   static check_size<sizeof(NumberFormatter), 76 + sizeof(int)> __System_NumberFormatterSizeCheck;
   static_assert(sizeof(NumberFormatter) == 0x50);
 }
+NEED_NO_BOX(System::NumberFormatter);
 DEFINE_IL2CPP_ARG_TYPE(System::NumberFormatter*, "System", "NumberFormatter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::NumberFormatter::set_CurrentCulture

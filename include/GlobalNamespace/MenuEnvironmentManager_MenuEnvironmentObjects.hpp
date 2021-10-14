@@ -71,6 +71,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MenuEnvironmentManager::MenuEnvironmentObjects), 24 + sizeof(UnityEngine::GameObject*)> __GlobalNamespace_MenuEnvironmentManager_MenuEnvironmentObjectsSizeCheck;
   static_assert(sizeof(MenuEnvironmentManager::MenuEnvironmentObjects) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentObjects);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentObjects*, "", "MenuEnvironmentManager/MenuEnvironmentObjects");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentObjects::get_menuEnvironmentType

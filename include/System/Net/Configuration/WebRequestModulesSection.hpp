@@ -44,6 +44,7 @@ namespace System::Net::Configuration {
   }; // System.Net.Configuration.WebRequestModulesSection
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Net::Configuration::WebRequestModulesSection);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Configuration::WebRequestModulesSection*, "System.Net.Configuration", "WebRequestModulesSection");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Configuration::WebRequestModulesSection::get_Properties

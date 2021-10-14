@@ -79,6 +79,7 @@ namespace UnityEngine::UI {
   static check_size<sizeof(ClipperRegistry), 16 + sizeof(UnityEngine::UI::Collections::IndexedSet_1<UnityEngine::UI::IClipper*>*)> __UnityEngine_UI_ClipperRegistrySizeCheck;
   static_assert(sizeof(ClipperRegistry) == 0x18);
 }
+NEED_NO_BOX(UnityEngine::UI::ClipperRegistry);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ClipperRegistry*, "UnityEngine.UI", "ClipperRegistry");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::ClipperRegistry::get_instance

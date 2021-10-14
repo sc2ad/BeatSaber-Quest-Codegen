@@ -269,6 +269,7 @@ namespace System {
   bool operator ==(System::Delegate* d1, System::Delegate& d2);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Delegate);
 DEFINE_IL2CPP_ARG_TYPE(System::Delegate*, "System", "Delegate");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Delegate::get_Method

@@ -361,6 +361,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(NoteMovement), 144 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_NoteMovementSizeCheck;
   static_assert(sizeof(NoteMovement) == 0x9C);
 }
+NEED_NO_BOX(GlobalNamespace::NoteMovement);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteMovement*, "", "NoteMovement");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteMovement::MovementPhase, "", "NoteMovement/MovementPhase");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

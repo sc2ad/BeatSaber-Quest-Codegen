@@ -69,6 +69,7 @@ namespace System::Runtime::Remoting::Messaging {
   static check_size<sizeof(CallContextSecurityData), 16 + sizeof(System::Security::Principal::IPrincipal*)> __System_Runtime_Remoting_Messaging_CallContextSecurityDataSizeCheck;
   static_assert(sizeof(CallContextSecurityData) == 0x18);
 }
+NEED_NO_BOX(System::Runtime::Remoting::Messaging::CallContextSecurityData);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::CallContextSecurityData*, "System.Runtime.Remoting.Messaging", "CallContextSecurityData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CallContextSecurityData::get_HasInfo

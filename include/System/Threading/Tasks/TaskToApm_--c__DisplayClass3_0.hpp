@@ -69,6 +69,7 @@ namespace System::Threading::Tasks {
   static check_size<sizeof(TaskToApm::$$c__DisplayClass3_0), 24 + sizeof(System::IAsyncResult*)> __System_Threading_Tasks_TaskToApm_$$c__DisplayClass3_0SizeCheck;
   static_assert(sizeof(TaskToApm::$$c__DisplayClass3_0) == 0x20);
 }
+NEED_NO_BOX(System::Threading::Tasks::TaskToApm::$$c__DisplayClass3_0);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskToApm::$$c__DisplayClass3_0*, "System.Threading.Tasks", "TaskToApm/<>c__DisplayClass3_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::Tasks::TaskToApm::$$c__DisplayClass3_0::$InvokeCallbackWhenTaskCompletes$b__0

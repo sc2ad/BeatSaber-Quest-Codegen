@@ -97,6 +97,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SecureRandomProvider::SecureRandomState), 40 + sizeof(int)> __GlobalNamespace_SecureRandomProvider_SecureRandomStateSizeCheck;
   static_assert(sizeof(SecureRandomProvider::SecureRandomState) == 0x2C);
 }
+NEED_NO_BOX(GlobalNamespace::SecureRandomProvider::SecureRandomState);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SecureRandomProvider::SecureRandomState*, "", "SecureRandomProvider/SecureRandomState");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SecureRandomProvider::SecureRandomState::GetBytes

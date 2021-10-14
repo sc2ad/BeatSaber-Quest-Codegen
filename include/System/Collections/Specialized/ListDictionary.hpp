@@ -140,6 +140,7 @@ namespace System::Collections::Specialized {
   static check_size<sizeof(ListDictionary), 32 + sizeof(System::Collections::IComparer*)> __System_Collections_Specialized_ListDictionarySizeCheck;
   static_assert(sizeof(ListDictionary) == 0x28);
 }
+NEED_NO_BOX(System::Collections::Specialized::ListDictionary);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::ListDictionary*, "System.Collections.Specialized", "ListDictionary");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::Specialized::ListDictionary::get_Item

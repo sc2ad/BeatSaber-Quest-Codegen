@@ -41,6 +41,7 @@ namespace Mono::Util {
   }; // Mono.Util.MonoPInvokeCallbackAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(Mono::Util::MonoPInvokeCallbackAttribute);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Util::MonoPInvokeCallbackAttribute*, "Mono.Util", "MonoPInvokeCallbackAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Util::MonoPInvokeCallbackAttribute::New_ctor

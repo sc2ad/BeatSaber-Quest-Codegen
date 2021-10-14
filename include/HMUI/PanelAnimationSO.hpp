@@ -114,6 +114,7 @@ namespace HMUI {
   static check_size<sizeof(PanelAnimationSO), 56 + sizeof(UnityEngine::AnimationCurve*)> __HMUI_PanelAnimationSOSizeCheck;
   static_assert(sizeof(PanelAnimationSO) == 0x40);
 }
+NEED_NO_BOX(HMUI::PanelAnimationSO);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::PanelAnimationSO*, "HMUI", "PanelAnimationSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::PanelAnimationSO::ExecuteAnimation

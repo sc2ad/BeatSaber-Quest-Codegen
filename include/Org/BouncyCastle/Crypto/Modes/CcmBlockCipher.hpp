@@ -176,6 +176,7 @@ namespace Org::BouncyCastle::Crypto::Modes {
   static check_size<sizeof(CcmBlockCipher), 80 + sizeof(System::IO::MemoryStream*)> __Org_BouncyCastle_Crypto_Modes_CcmBlockCipherSizeCheck;
   static_assert(sizeof(CcmBlockCipher) == 0x58);
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Modes::CcmBlockCipher);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::CcmBlockCipher*, "Org.BouncyCastle.Crypto.Modes", "CcmBlockCipher");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Modes::CcmBlockCipher::New_ctor

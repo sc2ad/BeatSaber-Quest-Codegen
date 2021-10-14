@@ -63,6 +63,7 @@ namespace UnityEngine {
   static_assert(sizeof(Cloth) == 0x1D);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::Cloth);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Cloth*, "UnityEngine", "Cloth");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Cloth::set_externalAcceleration

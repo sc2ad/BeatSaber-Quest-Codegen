@@ -100,6 +100,7 @@ namespace System::Reflection {
   static check_size<sizeof(MethodBody), 48 + sizeof(int)> __System_Reflection_MethodBodySizeCheck;
   static_assert(sizeof(MethodBody) == 0x34);
 }
+NEED_NO_BOX(System::Reflection::MethodBody);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MethodBody*, "System.Reflection", "MethodBody");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::MethodBody::New_ctor

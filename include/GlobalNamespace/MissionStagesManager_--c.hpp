@@ -60,6 +60,7 @@ namespace GlobalNamespace {
   }; // MissionStagesManager/<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::MissionStagesManager::$$c);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionStagesManager::$$c*, "", "MissionStagesManager/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionStagesManager::$$c::_cctor

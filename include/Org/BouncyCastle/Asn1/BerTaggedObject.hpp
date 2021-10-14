@@ -56,6 +56,7 @@ namespace Org::BouncyCastle::Asn1 {
   }; // Org.BouncyCastle.Asn1.BerTaggedObject
   #pragma pack(pop)
 }
+NEED_NO_BOX(Org::BouncyCastle::Asn1::BerTaggedObject);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::BerTaggedObject*, "Org.BouncyCastle.Asn1", "BerTaggedObject");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::BerTaggedObject::New_ctor

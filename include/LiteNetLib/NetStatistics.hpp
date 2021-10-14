@@ -122,6 +122,7 @@ namespace LiteNetLib {
   static check_size<sizeof(NetStatistics), 48 + sizeof(int64_t)> __LiteNetLib_NetStatisticsSizeCheck;
   static_assert(sizeof(NetStatistics) == 0x38);
 }
+NEED_NO_BOX(LiteNetLib::NetStatistics);
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetStatistics*, "LiteNetLib", "NetStatistics");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::NetStatistics::get_PacketsSent

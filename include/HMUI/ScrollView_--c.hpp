@@ -62,6 +62,7 @@ namespace HMUI {
   }; // HMUI.ScrollView/HMUI.<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(HMUI::ScrollView::$$c);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollView::$$c*, "HMUI", "ScrollView/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::ScrollView::$$c::_cctor

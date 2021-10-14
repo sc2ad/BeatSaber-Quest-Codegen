@@ -31,6 +31,7 @@ namespace HoudiniEngineUnity {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(HoudiniEngineUnity::Test_HAPI_Transform_Extensions);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::Test_HAPI_Transform_Extensions*, "HoudiniEngineUnity", "Test_HAPI_Transform_Extensions");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::Test_HAPI_Transform_Extensions::ToTestObject

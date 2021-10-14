@@ -339,6 +339,7 @@ namespace UnityEngine {
   }; // UnityEngine.ParticleSystem
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::ParticleSystem);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem*, "UnityEngine", "ParticleSystem");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::Particle, "UnityEngine", "ParticleSystem/Particle");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -80,6 +80,7 @@ namespace NUnit::Framework::Internal {
   static check_size<sizeof(TestCaseParameters), 64 + sizeof(bool)> __NUnit_Framework_Internal_TestCaseParametersSizeCheck;
   static_assert(sizeof(TestCaseParameters) == 0x41);
 }
+NEED_NO_BOX(NUnit::Framework::Internal::TestCaseParameters);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestCaseParameters*, "NUnit.Framework.Internal", "TestCaseParameters");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestCaseParameters::get_ExpectedResult

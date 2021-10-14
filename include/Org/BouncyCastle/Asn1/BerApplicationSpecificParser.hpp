@@ -72,6 +72,7 @@ namespace Org::BouncyCastle::Asn1 {
   static check_size<sizeof(BerApplicationSpecificParser), 24 + sizeof(Org::BouncyCastle::Asn1::Asn1StreamParser*)> __Org_BouncyCastle_Asn1_BerApplicationSpecificParserSizeCheck;
   static_assert(sizeof(BerApplicationSpecificParser) == 0x20);
 }
+NEED_NO_BOX(Org::BouncyCastle::Asn1::BerApplicationSpecificParser);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::BerApplicationSpecificParser*, "Org.BouncyCastle.Asn1", "BerApplicationSpecificParser");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::BerApplicationSpecificParser::New_ctor

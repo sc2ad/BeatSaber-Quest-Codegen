@@ -77,6 +77,7 @@ namespace Zenject {
   static check_size<sizeof(FromBinder::$$c__DisplayClass60_2), 24 + sizeof(UnityEngine::MonoBehaviour*)> __Zenject_FromBinder_$$c__DisplayClass60_2SizeCheck;
   static_assert(sizeof(FromBinder::$$c__DisplayClass60_2) == 0x20);
 }
+NEED_NO_BOX(Zenject::FromBinder::$$c__DisplayClass60_2);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::FromBinder::$$c__DisplayClass60_2*, "Zenject", "FromBinder/<>c__DisplayClass60_2");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::FromBinder::$$c__DisplayClass60_2::$FromComponentsInChildrenBase$b__2

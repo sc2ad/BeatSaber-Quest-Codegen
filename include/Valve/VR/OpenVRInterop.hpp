@@ -68,6 +68,7 @@ namespace Valve::VR {
   }; // Valve.VR.OpenVRInterop
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::OpenVRInterop);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::OpenVRInterop*, "Valve.VR", "OpenVRInterop");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::OpenVRInterop::InitInternal

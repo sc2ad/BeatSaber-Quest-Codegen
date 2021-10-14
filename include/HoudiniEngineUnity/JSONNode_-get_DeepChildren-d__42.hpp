@@ -136,6 +136,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(JSONNode::$get_DeepChildren$d__42), 56 + sizeof(System::Collections::Generic::IEnumerator_1<HoudiniEngineUnity::JSONNode*>*)> __HoudiniEngineUnity_JSONNode_$get_DeepChildren$d__42SizeCheck;
   static_assert(sizeof(JSONNode::$get_DeepChildren$d__42) == 0x40);
 }
+NEED_NO_BOX(HoudiniEngineUnity::JSONNode::$get_DeepChildren$d__42);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::JSONNode::$get_DeepChildren$d__42*, "HoudiniEngineUnity", "JSONNode/<get_DeepChildren>d__42");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONNode::$get_DeepChildren$d__42::System_Collections_Generic_IEnumerator$HoudiniEngineUnity_JSONNode$_get_Current

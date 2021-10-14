@@ -94,6 +94,7 @@ namespace System::Threading::Tasks {
   static check_size<sizeof(TaskCanceledException), 144 + sizeof(System::Threading::Tasks::Task*)> __System_Threading_Tasks_TaskCanceledExceptionSizeCheck;
   static_assert(sizeof(TaskCanceledException) == 0x98);
 }
+NEED_NO_BOX(System::Threading::Tasks::TaskCanceledException);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskCanceledException*, "System.Threading.Tasks", "TaskCanceledException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::Tasks::TaskCanceledException::New_ctor

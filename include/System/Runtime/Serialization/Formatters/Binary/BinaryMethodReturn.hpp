@@ -124,6 +124,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   static check_size<sizeof(BinaryMethodReturn), 56 + sizeof(System::Type*)> __System_Runtime_Serialization_Formatters_Binary_BinaryMethodReturnSizeCheck;
   static_assert(sizeof(BinaryMethodReturn) == 0x40);
 }
+NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn*, "System.Runtime.Serialization.Formatters.Binary", "BinaryMethodReturn");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn::_cctor

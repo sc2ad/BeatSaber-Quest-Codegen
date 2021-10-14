@@ -129,6 +129,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(StandardScoreSyncStateNetSerializable), 40 + sizeof(float)> __GlobalNamespace_StandardScoreSyncStateNetSerializableSizeCheck;
   static_assert(sizeof(StandardScoreSyncStateNetSerializable) == 0x2C);
 }
+NEED_NO_BOX(GlobalNamespace::StandardScoreSyncStateNetSerializable);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardScoreSyncStateNetSerializable*, "", "StandardScoreSyncStateNetSerializable");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::StandardScoreSyncStateNetSerializable::get_pool

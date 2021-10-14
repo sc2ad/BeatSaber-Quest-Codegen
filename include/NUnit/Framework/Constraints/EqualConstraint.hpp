@@ -122,6 +122,7 @@ namespace NUnit::Framework::Constraints {
   static check_size<sizeof(EqualConstraint), 72 + sizeof(bool)> __NUnit_Framework_Constraints_EqualConstraintSizeCheck;
   static_assert(sizeof(EqualConstraint) == 0x49);
 }
+NEED_NO_BOX(NUnit::Framework::Constraints::EqualConstraint);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::EqualConstraint*, "NUnit.Framework.Constraints", "EqualConstraint");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::EqualConstraint::get_Tolerance

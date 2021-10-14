@@ -395,6 +395,7 @@ namespace System::Globalization {
   static check_size<sizeof(Calendar), 24 + sizeof(int)> __System_Globalization_CalendarSizeCheck;
   static_assert(sizeof(Calendar) == 0x1C);
 }
+NEED_NO_BOX(System::Globalization::Calendar);
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::Calendar*, "System.Globalization", "Calendar");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Globalization::Calendar::get_MinSupportedDateTime

@@ -110,6 +110,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BombExecutionRating), 24 + sizeof(GlobalNamespace::BombExecutionRating::Rating)> __GlobalNamespace_BombExecutionRatingSizeCheck;
   static_assert(sizeof(BombExecutionRating) == 0x1C);
 }
+NEED_NO_BOX(GlobalNamespace::BombExecutionRating);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BombExecutionRating*, "", "BombExecutionRating");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BombExecutionRating::Rating, "", "BombExecutionRating/Rating");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -27,6 +27,7 @@ namespace UnityEngine::Experimental::Animations {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::Experimental::Animations::IAnimationWindowPreview);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Animations::IAnimationWindowPreview*, "UnityEngine.Experimental.Animations", "IAnimationWindowPreview");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Experimental::Animations::IAnimationWindowPreview::UpdatePreviewGraph

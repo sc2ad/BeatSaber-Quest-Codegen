@@ -395,7 +395,9 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(InteractionObject), 88 + sizeof(::ArrayW<RootMotion::FinalIK::InteractionTarget*>)> __RootMotion_FinalIK_InteractionObjectSizeCheck;
   static_assert(sizeof(InteractionObject) == 0x60);
 }
+NEED_NO_BOX(RootMotion::FinalIK::InteractionObject);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionObject*, "RootMotion.FinalIK", "InteractionObject");
+NEED_NO_BOX(RootMotion::FinalIK::InteractionObject::WeightCurve);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionObject::WeightCurve*, "RootMotion.FinalIK", "InteractionObject/WeightCurve");
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionObject::WeightCurve::Type, "RootMotion.FinalIK", "InteractionObject/WeightCurve/Type");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

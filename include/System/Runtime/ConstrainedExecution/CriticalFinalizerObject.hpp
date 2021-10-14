@@ -36,6 +36,7 @@ namespace System::Runtime::ConstrainedExecution {
   }; // System.Runtime.ConstrainedExecution.CriticalFinalizerObject
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Runtime::ConstrainedExecution::CriticalFinalizerObject);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::ConstrainedExecution::CriticalFinalizerObject*, "System.Runtime.ConstrainedExecution", "CriticalFinalizerObject");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::ConstrainedExecution::CriticalFinalizerObject::New_ctor

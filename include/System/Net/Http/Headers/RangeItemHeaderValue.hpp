@@ -83,6 +83,7 @@ namespace System::Net::Http::Headers {
   }; // System.Net.Http.Headers.RangeItemHeaderValue
   // WARNING Not writing size check since size may be invalid!
 }
+NEED_NO_BOX(System::Net::Http::Headers::RangeItemHeaderValue);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::RangeItemHeaderValue*, "System.Net.Http.Headers", "RangeItemHeaderValue");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Http::Headers::RangeItemHeaderValue::get_From

@@ -100,6 +100,7 @@ namespace HMUI {
   static check_size<sizeof(StackLayoutGroup), 89 + sizeof(bool)> __HMUI_StackLayoutGroupSizeCheck;
   static_assert(sizeof(StackLayoutGroup) == 0x5A);
 }
+NEED_NO_BOX(HMUI::StackLayoutGroup);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::StackLayoutGroup*, "HMUI", "StackLayoutGroup");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::StackLayoutGroup::get_childForceExpandWidth

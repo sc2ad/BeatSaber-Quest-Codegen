@@ -74,6 +74,7 @@ namespace System::Net {
   }; // System.Net.HeaderInfoTable
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Net::HeaderInfoTable);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HeaderInfoTable*, "System.Net", "HeaderInfoTable");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::HeaderInfoTable::get_Item

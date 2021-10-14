@@ -127,6 +127,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PlayerSpecificSettingsNetSerializable), 44 + sizeof(GlobalNamespace::ColorSchemeNetSerializable)> __GlobalNamespace_PlayerSpecificSettingsNetSerializableSizeCheck;
   static_assert(sizeof(PlayerSpecificSettingsNetSerializable) == 0x9C);
 }
+NEED_NO_BOX(GlobalNamespace::PlayerSpecificSettingsNetSerializable);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSpecificSettingsNetSerializable*, "", "PlayerSpecificSettingsNetSerializable");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSpecificSettingsNetSerializable::New_ctor

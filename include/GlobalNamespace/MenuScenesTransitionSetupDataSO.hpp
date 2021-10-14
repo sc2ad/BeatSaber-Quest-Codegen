@@ -38,6 +38,7 @@ namespace GlobalNamespace {
   }; // MenuScenesTransitionSetupDataSO
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::MenuScenesTransitionSetupDataSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuScenesTransitionSetupDataSO*, "", "MenuScenesTransitionSetupDataSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MenuScenesTransitionSetupDataSO::New_ctor

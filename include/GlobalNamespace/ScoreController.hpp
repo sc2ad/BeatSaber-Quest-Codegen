@@ -525,6 +525,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ScoreController), 240 + sizeof(GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::CutScoreBuffer*>*)> __GlobalNamespace_ScoreControllerSizeCheck;
   static_assert(sizeof(ScoreController) == 0xF8);
 }
+NEED_NO_BOX(GlobalNamespace::ScoreController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScoreController*, "", "ScoreController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ScoreController::get_prevFrameRawScore

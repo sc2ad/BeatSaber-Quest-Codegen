@@ -113,6 +113,7 @@ namespace System {
   static check_size<sizeof(ArgumentException), 136 + sizeof(::Il2CppString*)> __System_ArgumentExceptionSizeCheck;
   static_assert(sizeof(ArgumentException) == 0x90);
 }
+NEED_NO_BOX(System::ArgumentException);
 DEFINE_IL2CPP_ARG_TYPE(System::ArgumentException*, "System", "ArgumentException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ArgumentException::New_ctor

@@ -87,6 +87,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(IncDecColorController), 24 + sizeof(GlobalNamespace::ColorStepValuePicker*)> __GlobalNamespace_IncDecColorControllerSizeCheck;
   static_assert(sizeof(IncDecColorController) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::IncDecColorController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IncDecColorController*, "", "IncDecColorController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::IncDecColorController::set_enableDec

@@ -83,6 +83,7 @@ namespace System::Security::Cryptography::X509Certificates {
   static check_size<sizeof(X500DistinguishedName), 40 + sizeof(::ArrayW<uint8_t>)> __System_Security_Cryptography_X509Certificates_X500DistinguishedNameSizeCheck;
   static_assert(sizeof(X500DistinguishedName) == 0x30);
 }
+NEED_NO_BOX(System::Security::Cryptography::X509Certificates::X500DistinguishedName);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X500DistinguishedName*, "System.Security.Cryptography.X509Certificates", "X500DistinguishedName");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X500DistinguishedName::New_ctor

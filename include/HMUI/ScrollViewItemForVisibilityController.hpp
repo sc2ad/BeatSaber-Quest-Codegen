@@ -41,6 +41,7 @@ namespace HMUI {
   }; // HMUI.ScrollViewItemForVisibilityController
   #pragma pack(pop)
 }
+NEED_NO_BOX(HMUI::ScrollViewItemForVisibilityController);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollViewItemForVisibilityController*, "HMUI", "ScrollViewItemForVisibilityController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::ScrollViewItemForVisibilityController::GetWorldCorners

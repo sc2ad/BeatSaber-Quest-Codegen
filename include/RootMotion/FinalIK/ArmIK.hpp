@@ -88,6 +88,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(ArmIK), 56 + sizeof(RootMotion::FinalIK::IKSolverArm*)> __RootMotion_FinalIK_ArmIKSizeCheck;
   static_assert(sizeof(ArmIK) == 0x40);
 }
+NEED_NO_BOX(RootMotion::FinalIK::ArmIK);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::ArmIK*, "RootMotion.FinalIK", "ArmIK");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::ArmIK::SupportGroup

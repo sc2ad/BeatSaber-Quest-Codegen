@@ -65,6 +65,7 @@ namespace Zenject {
   static check_size<sizeof(IfNotBoundBinder), 16 + sizeof(Zenject::BindInfo*)> __Zenject_IfNotBoundBinderSizeCheck;
   static_assert(sizeof(IfNotBoundBinder) == 0x18);
 }
+NEED_NO_BOX(Zenject::IfNotBoundBinder);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::IfNotBoundBinder*, "Zenject", "IfNotBoundBinder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::IfNotBoundBinder::get_BindInfo

@@ -106,6 +106,7 @@ namespace System::IO {
   static check_size<sizeof(FileInfo), 96 + sizeof(::Il2CppString*)> __System_IO_FileInfoSizeCheck;
   static_assert(sizeof(FileInfo) == 0x68);
 }
+NEED_NO_BOX(System::IO::FileInfo);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileInfo*, "System.IO", "FileInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::FileInfo::get_Length

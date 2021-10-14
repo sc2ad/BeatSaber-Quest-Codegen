@@ -108,6 +108,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PlaylistSO), 48 + sizeof(GlobalNamespace::BeatmapLevelCollectionSO*)> __GlobalNamespace_PlaylistSOSizeCheck;
   static_assert(sizeof(PlaylistSO) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::PlaylistSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlaylistSO*, "", "PlaylistSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlaylistSO::get_collectionName

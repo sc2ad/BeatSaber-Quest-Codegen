@@ -166,6 +166,7 @@ namespace System::Globalization {
   static check_size<sizeof(TaiwanCalendar), 32 + sizeof(System::Globalization::GregorianCalendarHelper*)> __System_Globalization_TaiwanCalendarSizeCheck;
   static_assert(sizeof(TaiwanCalendar) == 0x28);
 }
+NEED_NO_BOX(System::Globalization::TaiwanCalendar);
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::TaiwanCalendar*, "System.Globalization", "TaiwanCalendar");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Globalization::TaiwanCalendar::_cctor

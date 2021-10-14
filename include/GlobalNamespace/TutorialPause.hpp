@@ -146,6 +146,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(TutorialPause), 64 + sizeof(bool)> __GlobalNamespace_TutorialPauseSizeCheck;
   static_assert(sizeof(TutorialPause) == 0x41);
 }
+NEED_NO_BOX(GlobalNamespace::TutorialPause);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialPause*, "", "TutorialPause");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TutorialPause::add_didPauseEvent

@@ -60,6 +60,7 @@ namespace TMPro {
   static check_size<sizeof(TMP_Dropdown::$$c__DisplayClass60_0), 24 + sizeof(TMPro::TMP_Dropdown*)> __TMPro_TMP_Dropdown_$$c__DisplayClass60_0SizeCheck;
   static_assert(sizeof(TMP_Dropdown::$$c__DisplayClass60_0) == 0x20);
 }
+NEED_NO_BOX(TMPro::TMP_Dropdown::$$c__DisplayClass60_0);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Dropdown::$$c__DisplayClass60_0*, "TMPro", "TMP_Dropdown/<>c__DisplayClass60_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::$$c__DisplayClass60_0::$Show$b__0

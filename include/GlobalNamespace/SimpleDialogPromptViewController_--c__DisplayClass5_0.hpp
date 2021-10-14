@@ -62,6 +62,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SimpleDialogPromptViewController::$$c__DisplayClass5_0), 24 + sizeof(GlobalNamespace::SimpleDialogPromptViewController*)> __GlobalNamespace_SimpleDialogPromptViewController_$$c__DisplayClass5_0SizeCheck;
   static_assert(sizeof(SimpleDialogPromptViewController::$$c__DisplayClass5_0) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::SimpleDialogPromptViewController::$$c__DisplayClass5_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleDialogPromptViewController::$$c__DisplayClass5_0*, "", "SimpleDialogPromptViewController/<>c__DisplayClass5_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SimpleDialogPromptViewController::$$c__DisplayClass5_0::$DidActivate$b__0

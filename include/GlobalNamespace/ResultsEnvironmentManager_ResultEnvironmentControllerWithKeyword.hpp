@@ -69,6 +69,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword), 24 + sizeof(GlobalNamespace::BaseResultsEnvironmentController*)> __GlobalNamespace_ResultsEnvironmentManager_ResultEnvironmentControllerWithKeywordSizeCheck;
   static_assert(sizeof(ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword*, "", "ResultsEnvironmentManager/ResultEnvironmentControllerWithKeyword");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword::get_keyword

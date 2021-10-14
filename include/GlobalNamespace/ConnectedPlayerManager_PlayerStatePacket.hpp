@@ -96,6 +96,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ConnectedPlayerManager::PlayerStatePacket), 16 + sizeof(GlobalNamespace::PlayerStateHash)> __GlobalNamespace_ConnectedPlayerManager_PlayerStatePacketSizeCheck;
   static_assert(sizeof(ConnectedPlayerManager::PlayerStatePacket) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::ConnectedPlayerManager::PlayerStatePacket);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConnectedPlayerManager::PlayerStatePacket*, "", "ConnectedPlayerManager/PlayerStatePacket");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::PlayerStatePacket::get_pool

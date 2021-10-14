@@ -108,6 +108,7 @@ namespace System::Security::Cryptography {
   static check_size<sizeof(SHA1Managed), 64 + sizeof(::ArrayW<uint>)> __System_Security_Cryptography_SHA1ManagedSizeCheck;
   static_assert(sizeof(SHA1Managed) == 0x48);
 }
+NEED_NO_BOX(System::Security::Cryptography::SHA1Managed);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::SHA1Managed*, "System.Security.Cryptography", "SHA1Managed");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::SHA1Managed::InitializeState

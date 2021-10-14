@@ -58,6 +58,7 @@ namespace UnityEngine::UI {
   }; // UnityEngine.UI.ReflectionMethodsCache/UnityEngine.UI.GetRaycastNonAllocCallback
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::UI::ReflectionMethodsCache::GetRaycastNonAllocCallback);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ReflectionMethodsCache::GetRaycastNonAllocCallback*, "UnityEngine.UI", "ReflectionMethodsCache/GetRaycastNonAllocCallback");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::ReflectionMethodsCache::GetRaycastNonAllocCallback::New_ctor

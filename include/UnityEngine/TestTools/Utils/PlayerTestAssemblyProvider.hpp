@@ -77,6 +77,7 @@ namespace UnityEngine::TestTools::Utils {
   static check_size<sizeof(PlayerTestAssemblyProvider), 24 + sizeof(System::Collections::Generic::List_1<::Il2CppString*>*)> __UnityEngine_TestTools_Utils_PlayerTestAssemblyProviderSizeCheck;
   static_assert(sizeof(PlayerTestAssemblyProvider) == 0x20);
 }
+NEED_NO_BOX(UnityEngine::TestTools::Utils::PlayerTestAssemblyProvider);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Utils::PlayerTestAssemblyProvider*, "UnityEngine.TestTools.Utils", "PlayerTestAssemblyProvider");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::Utils::PlayerTestAssemblyProvider::New_ctor

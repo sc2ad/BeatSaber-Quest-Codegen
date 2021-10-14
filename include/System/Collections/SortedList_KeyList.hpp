@@ -108,6 +108,7 @@ namespace System::Collections {
   static check_size<sizeof(SortedList::KeyList), 16 + sizeof(System::Collections::SortedList*)> __System_Collections_SortedList_KeyListSizeCheck;
   static_assert(sizeof(SortedList::KeyList) == 0x18);
 }
+NEED_NO_BOX(System::Collections::SortedList::KeyList);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::SortedList::KeyList*, "System.Collections", "SortedList/KeyList");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::SortedList::KeyList::get_Count

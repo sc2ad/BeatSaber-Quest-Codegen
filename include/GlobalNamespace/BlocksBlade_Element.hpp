@@ -56,6 +56,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BlocksBlade::Element), 20 + sizeof(float)> __GlobalNamespace_BlocksBlade_ElementSizeCheck;
   static_assert(sizeof(BlocksBlade::Element) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::BlocksBlade::Element);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BlocksBlade::Element*, "", "BlocksBlade/Element");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BlocksBlade::Element::New_ctor

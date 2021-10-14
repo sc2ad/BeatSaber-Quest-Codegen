@@ -85,6 +85,7 @@ namespace System::Net {
   static check_size<sizeof(CookieCollection::CookieCollectionEnumerator), 32 + sizeof(int)> __System_Net_CookieCollection_CookieCollectionEnumeratorSizeCheck;
   static_assert(sizeof(CookieCollection::CookieCollectionEnumerator) == 0x24);
 }
+NEED_NO_BOX(System::Net::CookieCollection::CookieCollectionEnumerator);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::CookieCollection::CookieCollectionEnumerator*, "System.Net", "CookieCollection/CookieCollectionEnumerator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::CookieCollection::CookieCollectionEnumerator::System_Collections_IEnumerator_get_Current

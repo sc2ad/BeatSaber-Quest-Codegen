@@ -114,6 +114,7 @@ namespace System::Reflection {
   // Offset: 0x1E905A8
   bool operator !=(System::Reflection::MemberInfo* left, System::Reflection::MemberInfo& right);
 }
+NEED_NO_BOX(System::Reflection::MemberInfo);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MemberInfo*, "System.Reflection", "MemberInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::MemberInfo::get_MemberType

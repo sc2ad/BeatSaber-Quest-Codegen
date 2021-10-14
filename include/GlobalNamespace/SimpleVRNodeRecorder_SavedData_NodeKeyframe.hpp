@@ -112,6 +112,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SimpleVRNodeRecorder::SavedData::NodeKeyframe), 44 + sizeof(float)> __GlobalNamespace_SimpleVRNodeRecorder_SavedData_NodeKeyframeSizeCheck;
   static_assert(sizeof(SimpleVRNodeRecorder::SavedData::NodeKeyframe) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe*, "", "SimpleVRNodeRecorder/SavedData/NodeKeyframe");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe::get_pos

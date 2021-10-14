@@ -229,6 +229,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerLevelSelectionFlowCoordinator), 280 + sizeof(GlobalNamespace::LevelSelectionFlowCoordinator::State*)> __GlobalNamespace_MultiplayerLevelSelectionFlowCoordinatorSizeCheck;
   static_assert(sizeof(MultiplayerLevelSelectionFlowCoordinator) == 0x120);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerLevelSelectionFlowCoordinator);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLevelSelectionFlowCoordinator*, "", "MultiplayerLevelSelectionFlowCoordinator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLevelSelectionFlowCoordinator::add_didSelectLevelEvent

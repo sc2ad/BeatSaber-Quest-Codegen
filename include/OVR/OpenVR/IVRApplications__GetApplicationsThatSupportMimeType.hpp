@@ -56,6 +56,7 @@ namespace OVR::OpenVR {
   }; // OVR.OpenVR.IVRApplications/OVR.OpenVR._GetApplicationsThatSupportMimeType
   #pragma pack(pop)
 }
+NEED_NO_BOX(OVR::OpenVR::IVRApplications::_GetApplicationsThatSupportMimeType);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRApplications::_GetApplicationsThatSupportMimeType*, "OVR.OpenVR", "IVRApplications/_GetApplicationsThatSupportMimeType");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVRApplications::_GetApplicationsThatSupportMimeType::New_ctor

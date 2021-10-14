@@ -67,6 +67,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(CampaignFlowCoordinator::$$c__DisplayClass22_0), 24 + sizeof(GlobalNamespace::MissionResultsViewController*)> __GlobalNamespace_CampaignFlowCoordinator_$$c__DisplayClass22_0SizeCheck;
   static_assert(sizeof(CampaignFlowCoordinator::$$c__DisplayClass22_0) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::CampaignFlowCoordinator::$$c__DisplayClass22_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CampaignFlowCoordinator::$$c__DisplayClass22_0*, "", "CampaignFlowCoordinator/<>c__DisplayClass22_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CampaignFlowCoordinator::$$c__DisplayClass22_0::$HandleMissionResultsViewControllerRetryButtonPressed$b__0

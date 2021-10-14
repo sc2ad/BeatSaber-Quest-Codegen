@@ -649,6 +649,7 @@ namespace TMPro {
   static check_size<sizeof(TMP_FontAsset), 480 + sizeof(System::Collections::Generic::List_1<TMPro::TMP_Character*>*)> __TMPro_TMP_FontAssetSizeCheck;
   static_assert(sizeof(TMP_FontAsset) == 0x1E8);
 }
+NEED_NO_BOX(TMPro::TMP_FontAsset);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_FontAsset*, "TMPro", "TMP_FontAsset");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::get_version

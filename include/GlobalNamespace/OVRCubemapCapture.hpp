@@ -120,6 +120,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRCubemapCapture), 48 + sizeof(int)> __GlobalNamespace_OVRCubemapCaptureSizeCheck;
   static_assert(sizeof(OVRCubemapCapture) == 0x34);
 }
+NEED_NO_BOX(GlobalNamespace::OVRCubemapCapture);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRCubemapCapture*, "", "OVRCubemapCapture");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRCubemapCapture::Update

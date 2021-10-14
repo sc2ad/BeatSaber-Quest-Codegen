@@ -17,5 +17,6 @@ namespace Org::BouncyCastle::Asn1 {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(Org::BouncyCastle::Asn1::IAsn1Choice);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::IAsn1Choice*, "Org.BouncyCastle.Asn1", "IAsn1Choice");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

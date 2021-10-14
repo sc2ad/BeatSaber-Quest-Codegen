@@ -135,6 +135,7 @@ namespace System::Collections::Specialized {
   static check_size<sizeof(StringCollection), 16 + sizeof(System::Collections::ArrayList*)> __System_Collections_Specialized_StringCollectionSizeCheck;
   static_assert(sizeof(StringCollection) == 0x18);
 }
+NEED_NO_BOX(System::Collections::Specialized::StringCollection);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::StringCollection*, "System.Collections.Specialized", "StringCollection");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::Specialized::StringCollection::get_Item

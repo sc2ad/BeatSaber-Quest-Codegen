@@ -34,6 +34,7 @@ namespace System::Runtime::CompilerServices {
   }; // System.Runtime.CompilerServices.UnsafeValueTypeAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Runtime::CompilerServices::UnsafeValueTypeAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::UnsafeValueTypeAttribute*, "System.Runtime.CompilerServices", "UnsafeValueTypeAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::UnsafeValueTypeAttribute::New_ctor

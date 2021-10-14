@@ -116,6 +116,7 @@ namespace System::Net {
   static check_size<sizeof(WebConnectionGroup::ConnectionState), 40 + sizeof(System::DateTime)> __System_Net_WebConnectionGroup_ConnectionStateSizeCheck;
   static_assert(sizeof(WebConnectionGroup::ConnectionState) == 0x30);
 }
+NEED_NO_BOX(System::Net::WebConnectionGroup::ConnectionState);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebConnectionGroup::ConnectionState*, "System.Net", "WebConnectionGroup/ConnectionState");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::WebConnectionGroup::ConnectionState::get_Connection

@@ -90,6 +90,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LeaderboardEntry), 48 + sizeof(UnityEngine::Color)> __GlobalNamespace_LeaderboardEntrySizeCheck;
   static_assert(sizeof(LeaderboardEntry) == 0x40);
 }
+NEED_NO_BOX(GlobalNamespace::LeaderboardEntry);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardEntry*, "", "LeaderboardEntry");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LeaderboardEntry::SetScore

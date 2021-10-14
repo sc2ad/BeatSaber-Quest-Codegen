@@ -68,6 +68,7 @@ namespace OVR::OpenVR {
   static check_size<sizeof(CVRExtendedDisplay), 16 + sizeof(OVR::OpenVR::IVRExtendedDisplay)> __OVR_OpenVR_CVRExtendedDisplaySizeCheck;
   static_assert(sizeof(CVRExtendedDisplay) == 0x28);
 }
+NEED_NO_BOX(OVR::OpenVR::CVRExtendedDisplay);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRExtendedDisplay*, "OVR.OpenVR", "CVRExtendedDisplay");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::CVRExtendedDisplay::New_ctor

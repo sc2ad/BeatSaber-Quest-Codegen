@@ -540,6 +540,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PlayerData), 176 + sizeof(System::Action*)> __GlobalNamespace_PlayerDataSizeCheck;
   static_assert(sizeof(PlayerData) == 0xB8);
 }
+NEED_NO_BOX(GlobalNamespace::PlayerData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerData*, "", "PlayerData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::get_playerId

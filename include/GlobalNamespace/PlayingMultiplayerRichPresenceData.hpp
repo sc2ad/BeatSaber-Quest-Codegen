@@ -49,6 +49,7 @@ namespace GlobalNamespace {
   }; // PlayingMultiplayerRichPresenceData
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::PlayingMultiplayerRichPresenceData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayingMultiplayerRichPresenceData*, "", "PlayingMultiplayerRichPresenceData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayingMultiplayerRichPresenceData::New_ctor

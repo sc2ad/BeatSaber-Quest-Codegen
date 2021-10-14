@@ -415,6 +415,7 @@ namespace UnityEngine::Timeline {
   static check_size<sizeof(TimelineAsset), 88 + sizeof(UnityEngine::Timeline::MarkerTrack*)> __UnityEngine_Timeline_TimelineAssetSizeCheck;
   static_assert(sizeof(TimelineAsset) == 0x60);
 }
+NEED_NO_BOX(UnityEngine::Timeline::TimelineAsset);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineAsset*, "UnityEngine.Timeline", "TimelineAsset");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineAsset::DurationMode, "UnityEngine.Timeline", "TimelineAsset/DurationMode");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

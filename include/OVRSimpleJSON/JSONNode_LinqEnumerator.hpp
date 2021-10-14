@@ -92,6 +92,7 @@ namespace OVRSimpleJSON {
   }; // OVRSimpleJSON.JSONNode/OVRSimpleJSON.LinqEnumerator
   // WARNING Not writing size check since size may be invalid!
 }
+NEED_NO_BOX(OVRSimpleJSON::JSONNode::LinqEnumerator);
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONNode::LinqEnumerator*, "OVRSimpleJSON", "JSONNode/LinqEnumerator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONNode::LinqEnumerator::get_Current

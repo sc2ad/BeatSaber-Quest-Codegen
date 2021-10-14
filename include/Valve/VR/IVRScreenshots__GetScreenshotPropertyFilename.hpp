@@ -63,6 +63,7 @@ namespace Valve::VR {
   }; // Valve.VR.IVRScreenshots/Valve.VR._GetScreenshotPropertyFilename
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::IVRScreenshots::_GetScreenshotPropertyFilename);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRScreenshots::_GetScreenshotPropertyFilename*, "Valve.VR", "IVRScreenshots/_GetScreenshotPropertyFilename");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRScreenshots::_GetScreenshotPropertyFilename::New_ctor

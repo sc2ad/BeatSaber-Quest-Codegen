@@ -285,6 +285,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PlayerStatisticsViewController), 224 + sizeof(::ArrayW<GlobalNamespace::PlayerStatisticsViewController::StatsScopeData>)> __GlobalNamespace_PlayerStatisticsViewControllerSizeCheck;
   static_assert(sizeof(PlayerStatisticsViewController) == 0xE8);
 }
+NEED_NO_BOX(GlobalNamespace::PlayerStatisticsViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerStatisticsViewController*, "", "PlayerStatisticsViewController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerStatisticsViewController::StatsScopeData, "", "PlayerStatisticsViewController/StatsScopeData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

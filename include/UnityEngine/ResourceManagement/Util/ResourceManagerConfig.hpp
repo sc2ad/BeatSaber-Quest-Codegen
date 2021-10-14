@@ -83,6 +83,7 @@ namespace UnityEngine::ResourceManagement::Util {
   }; // UnityEngine.ResourceManagement.Util.ResourceManagerConfig
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::ResourceManagement::Util::ResourceManagerConfig);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Util::ResourceManagerConfig*, "UnityEngine.ResourceManagement.Util", "ResourceManagerConfig");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::ResourceManagerConfig::ExtractKeyAndSubKey

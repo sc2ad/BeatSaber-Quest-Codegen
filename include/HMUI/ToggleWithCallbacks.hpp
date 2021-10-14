@@ -149,6 +149,7 @@ namespace HMUI {
   static check_size<sizeof(ToggleWithCallbacks), 288 + sizeof(System::Action_1<HMUI::ToggleWithCallbacks::SelectionState>*)> __HMUI_ToggleWithCallbacksSizeCheck;
   static_assert(sizeof(ToggleWithCallbacks) == 0x128);
 }
+NEED_NO_BOX(HMUI::ToggleWithCallbacks);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ToggleWithCallbacks*, "HMUI", "ToggleWithCallbacks");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ToggleWithCallbacks::SelectionState, "HMUI", "ToggleWithCallbacks/SelectionState");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

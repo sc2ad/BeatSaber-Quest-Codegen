@@ -104,6 +104,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MissionLevelFinishedController), 48 + sizeof(GlobalNamespace::ILevelEndActions*)> __GlobalNamespace_MissionLevelFinishedControllerSizeCheck;
   static_assert(sizeof(MissionLevelFinishedController) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::MissionLevelFinishedController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelFinishedController*, "", "MissionLevelFinishedController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionLevelFinishedController::Start

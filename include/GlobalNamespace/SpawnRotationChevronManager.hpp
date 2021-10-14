@@ -254,6 +254,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SpawnRotationChevronManager), 140 + sizeof(float)> __GlobalNamespace_SpawnRotationChevronManagerSizeCheck;
   static_assert(sizeof(SpawnRotationChevronManager) == 0x90);
 }
+NEED_NO_BOX(GlobalNamespace::SpawnRotationChevronManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SpawnRotationChevronManager*, "", "SpawnRotationChevronManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SpawnRotationChevronManager::Start

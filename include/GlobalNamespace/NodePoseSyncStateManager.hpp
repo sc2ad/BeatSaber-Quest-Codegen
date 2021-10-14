@@ -98,6 +98,7 @@ namespace GlobalNamespace {
     }
   }; // NodePoseSyncStateManager
 }
+NEED_NO_BOX(GlobalNamespace::NodePoseSyncStateManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NodePoseSyncStateManager*, "", "NodePoseSyncStateManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NodePoseSyncStateManager::get_serializablePool

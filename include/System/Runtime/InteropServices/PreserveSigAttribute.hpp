@@ -35,6 +35,7 @@ namespace System::Runtime::InteropServices {
   }; // System.Runtime.InteropServices.PreserveSigAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Runtime::InteropServices::PreserveSigAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::PreserveSigAttribute*, "System.Runtime.InteropServices", "PreserveSigAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::InteropServices::PreserveSigAttribute::New_ctor

@@ -198,6 +198,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(VRTextEntryController), 80 + sizeof(bool)> __GlobalNamespace_VRTextEntryControllerSizeCheck;
   static_assert(sizeof(VRTextEntryController) == 0x51);
 }
+NEED_NO_BOX(GlobalNamespace::VRTextEntryController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRTextEntryController*, "", "VRTextEntryController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::VRTextEntryController::set_hideCancelButton

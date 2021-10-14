@@ -85,6 +85,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SteamVR_RenderModel::RenderModelInterfaceHolder), 24 + sizeof(Valve::VR::CVRRenderModels*)> __GlobalNamespace_SteamVR_RenderModel_RenderModelInterfaceHolderSizeCheck;
   static_assert(sizeof(SteamVR_RenderModel::RenderModelInterfaceHolder) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::SteamVR_RenderModel::RenderModelInterfaceHolder);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_RenderModel::RenderModelInterfaceHolder*, "", "SteamVR_RenderModel/RenderModelInterfaceHolder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_RenderModel::RenderModelInterfaceHolder::get_instance

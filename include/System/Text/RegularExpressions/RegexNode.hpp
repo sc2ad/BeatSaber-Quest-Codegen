@@ -187,6 +187,7 @@ namespace System::Text::RegularExpressions {
   static check_size<sizeof(RegexNode), 56 + sizeof(System::Text::RegularExpressions::RegexNode*)> __System_Text_RegularExpressions_RegexNodeSizeCheck;
   static_assert(sizeof(RegexNode) == 0x40);
 }
+NEED_NO_BOX(System::Text::RegularExpressions::RegexNode);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexNode*, "System.Text.RegularExpressions", "RegexNode");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexNode::New_ctor

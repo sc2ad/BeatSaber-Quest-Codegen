@@ -54,6 +54,7 @@ namespace Org::BouncyCastle::Crypto::EC {
   }; // Org.BouncyCastle.Crypto.EC.CustomNamedCurves/Org.BouncyCastle.Crypto.EC.Curve25519Holder
   #pragma pack(pop)
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::EC::CustomNamedCurves::Curve25519Holder);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::EC::CustomNamedCurves::Curve25519Holder*, "Org.BouncyCastle.Crypto.EC", "CustomNamedCurves/Curve25519Holder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::EC::CustomNamedCurves::Curve25519Holder::_cctor

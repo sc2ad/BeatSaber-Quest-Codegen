@@ -69,6 +69,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   static check_size<sizeof(PointOnEdgeException), 152 + sizeof(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)> __UnityEngine_ProBuilder_Poly2Tri_PointOnEdgeExceptionSizeCheck;
   static_assert(sizeof(PointOnEdgeException) == 0xA0);
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::Poly2Tri::PointOnEdgeException);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::PointOnEdgeException*, "UnityEngine.ProBuilder.Poly2Tri", "PointOnEdgeException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::PointOnEdgeException::New_ctor

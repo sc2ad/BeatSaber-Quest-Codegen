@@ -208,6 +208,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(WaypointsTestMenuViewController), 97 + sizeof(bool)> __GlobalNamespace_WaypointsTestMenuViewControllerSizeCheck;
   static_assert(sizeof(WaypointsTestMenuViewController) == 0x62);
 }
+NEED_NO_BOX(GlobalNamespace::WaypointsTestMenuViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::WaypointsTestMenuViewController*, "", "WaypointsTestMenuViewController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::WaypointsTestMenuViewController::Start

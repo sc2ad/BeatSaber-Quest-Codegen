@@ -77,6 +77,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SongTimeAnimationPlayer), 32 + sizeof(UnityEngine::AnimationClip*)> __GlobalNamespace_SongTimeAnimationPlayerSizeCheck;
   static_assert(sizeof(SongTimeAnimationPlayer) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::SongTimeAnimationPlayer);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongTimeAnimationPlayer*, "", "SongTimeAnimationPlayer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SongTimeAnimationPlayer::Update

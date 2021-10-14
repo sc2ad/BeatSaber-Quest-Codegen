@@ -184,6 +184,7 @@ namespace System::Net::Http {
   static check_size<sizeof(HttpClient), 72 + sizeof(System::TimeSpan)> __System_Net_Http_HttpClientSizeCheck;
   static_assert(sizeof(HttpClient) == 0x50);
 }
+NEED_NO_BOX(System::Net::Http::HttpClient);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::HttpClient*, "System.Net.Http", "HttpClient");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Http::HttpClient::get_MaxResponseContentBufferSize

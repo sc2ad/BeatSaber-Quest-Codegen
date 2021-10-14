@@ -180,6 +180,7 @@ namespace RootMotion {
   static check_size<sizeof(BakerTransform), 108 + sizeof(UnityEngine::Quaternion)> __RootMotion_BakerTransformSizeCheck;
   static_assert(sizeof(BakerTransform) == 0x7C);
 }
+NEED_NO_BOX(RootMotion::BakerTransform);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::BakerTransform*, "RootMotion", "BakerTransform");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::BakerTransform::New_ctor

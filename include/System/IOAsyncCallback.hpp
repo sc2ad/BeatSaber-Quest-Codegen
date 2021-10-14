@@ -50,6 +50,7 @@ namespace System {
   }; // System.IOAsyncCallback
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::IOAsyncCallback);
 DEFINE_IL2CPP_ARG_TYPE(System::IOAsyncCallback*, "System", "IOAsyncCallback");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IOAsyncCallback::New_ctor

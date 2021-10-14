@@ -57,6 +57,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MovementBeatmapEventEffect::MovementData), 16 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_MovementBeatmapEventEffect_MovementDataSizeCheck;
   static_assert(sizeof(MovementBeatmapEventEffect::MovementData) == 0x1C);
 }
+NEED_NO_BOX(GlobalNamespace::MovementBeatmapEventEffect::MovementData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MovementBeatmapEventEffect::MovementData*, "", "MovementBeatmapEventEffect/MovementData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MovementBeatmapEventEffect::MovementData::get_localPositionOffset

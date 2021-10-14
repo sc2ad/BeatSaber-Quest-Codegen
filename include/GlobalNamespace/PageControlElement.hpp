@@ -99,6 +99,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PageControlElement), 56 + sizeof(UnityEngine::Color)> __GlobalNamespace_PageControlElementSizeCheck;
   static_assert(sizeof(PageControlElement) == 0x48);
 }
+NEED_NO_BOX(GlobalNamespace::PageControlElement);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PageControlElement*, "", "PageControlElement");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PageControlElement::get_rectTransform

@@ -122,6 +122,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(GrounderVRIK), 72 + sizeof(::ArrayW<UnityEngine::Transform*>)> __RootMotion_FinalIK_GrounderVRIKSizeCheck;
   static_assert(sizeof(GrounderVRIK) == 0x50);
 }
+NEED_NO_BOX(RootMotion::FinalIK::GrounderVRIK);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::GrounderVRIK*, "RootMotion.FinalIK", "GrounderVRIK");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::GrounderVRIK::OpenTutorial

@@ -55,6 +55,7 @@ namespace GlobalNamespace {
   }; // BitMaskSparse/<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::BitMaskSparse::$$c);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BitMaskSparse::$$c*, "", "BitMaskSparse/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BitMaskSparse::$$c::_cctor

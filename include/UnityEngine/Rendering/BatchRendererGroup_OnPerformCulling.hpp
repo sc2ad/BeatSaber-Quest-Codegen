@@ -60,6 +60,7 @@ namespace UnityEngine::Rendering {
   }; // UnityEngine.Rendering.BatchRendererGroup/UnityEngine.Rendering.OnPerformCulling
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling*, "UnityEngine.Rendering", "BatchRendererGroup/OnPerformCulling");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling::New_ctor

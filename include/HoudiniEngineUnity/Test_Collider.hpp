@@ -67,6 +67,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(Test_Collider), 16 + sizeof(UnityEngine::Collider*)> __HoudiniEngineUnity_Test_ColliderSizeCheck;
   static_assert(sizeof(Test_Collider) == 0x18);
 }
+NEED_NO_BOX(HoudiniEngineUnity::Test_Collider);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::Test_Collider*, "HoudiniEngineUnity", "Test_Collider");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::Test_Collider::New_ctor

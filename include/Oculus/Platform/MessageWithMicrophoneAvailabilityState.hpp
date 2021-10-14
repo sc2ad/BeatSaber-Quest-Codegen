@@ -46,6 +46,7 @@ namespace Oculus::Platform {
     Oculus::Platform::Models::MicrophoneAvailabilityState* GetMicrophoneAvailabilityState();
   }; // Oculus.Platform.MessageWithMicrophoneAvailabilityState
 }
+NEED_NO_BOX(Oculus::Platform::MessageWithMicrophoneAvailabilityState);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithMicrophoneAvailabilityState*, "Oculus.Platform", "MessageWithMicrophoneAvailabilityState");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithMicrophoneAvailabilityState::GetDataFromMessage

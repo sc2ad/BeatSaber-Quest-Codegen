@@ -34,6 +34,7 @@ namespace System {
   }; // System.ContextBoundObject
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::ContextBoundObject);
 DEFINE_IL2CPP_ARG_TYPE(System::ContextBoundObject*, "System", "ContextBoundObject");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ContextBoundObject::New_ctor

@@ -129,6 +129,7 @@ namespace System {
   static check_size<sizeof(TypeLoadException), 160 + sizeof(int)> __System_TypeLoadExceptionSizeCheck;
   static_assert(sizeof(TypeLoadException) == 0xA4);
 }
+NEED_NO_BOX(System::TypeLoadException);
 DEFINE_IL2CPP_ARG_TYPE(System::TypeLoadException*, "System", "TypeLoadException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::TypeLoadException::New_ctor

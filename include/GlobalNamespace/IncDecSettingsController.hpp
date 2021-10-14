@@ -82,6 +82,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(IncDecSettingsController), 24 + sizeof(GlobalNamespace::StepValuePicker*)> __GlobalNamespace_IncDecSettingsControllerSizeCheck;
   static_assert(sizeof(IncDecSettingsController) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::IncDecSettingsController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IncDecSettingsController*, "", "IncDecSettingsController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::IncDecSettingsController::set_enableDec

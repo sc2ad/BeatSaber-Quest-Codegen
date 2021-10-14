@@ -88,6 +88,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SaberModelContainer), 40 + sizeof(Zenject::DiContainer*)> __GlobalNamespace_SaberModelContainerSizeCheck;
   static_assert(sizeof(SaberModelContainer) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::SaberModelContainer);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberModelContainer*, "", "SaberModelContainer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SaberModelContainer::Start

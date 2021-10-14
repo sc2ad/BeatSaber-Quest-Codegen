@@ -51,6 +51,7 @@ namespace OVR::OpenVR {
   }; // OVR.OpenVR.IVRIOBuffer/OVR.OpenVR._PropertyContainer
   #pragma pack(pop)
 }
+NEED_NO_BOX(OVR::OpenVR::IVRIOBuffer::_PropertyContainer);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRIOBuffer::_PropertyContainer*, "OVR.OpenVR", "IVRIOBuffer/_PropertyContainer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVRIOBuffer::_PropertyContainer::New_ctor

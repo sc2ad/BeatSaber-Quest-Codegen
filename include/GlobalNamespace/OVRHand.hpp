@@ -388,6 +388,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRHand), 192 + sizeof(bool)> __GlobalNamespace_OVRHandSizeCheck;
   static_assert(sizeof(OVRHand) == 0xC1);
 }
+NEED_NO_BOX(GlobalNamespace::OVRHand);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHand*, "", "OVRHand");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHand::Hand, "", "OVRHand/Hand");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHand::TrackingConfidence, "", "OVRHand/TrackingConfidence");

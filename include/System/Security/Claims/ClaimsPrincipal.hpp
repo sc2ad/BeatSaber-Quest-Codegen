@@ -142,6 +142,7 @@ namespace System::Security::Claims {
   static check_size<sizeof(ClaimsPrincipal), 32 + sizeof(System::Collections::Generic::List_1<System::Security::Claims::ClaimsIdentity*>*)> __System_Security_Claims_ClaimsPrincipalSizeCheck;
   static_assert(sizeof(ClaimsPrincipal) == 0x28);
 }
+NEED_NO_BOX(System::Security::Claims::ClaimsPrincipal);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Claims::ClaimsPrincipal*, "System.Security.Claims", "ClaimsPrincipal");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Claims::ClaimsPrincipal::get_ClaimsPrincipalSelector

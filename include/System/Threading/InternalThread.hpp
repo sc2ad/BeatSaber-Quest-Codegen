@@ -385,6 +385,7 @@ namespace System::Threading {
   static check_size<sizeof(InternalThread), 280 + sizeof(System::IntPtr)> __System_Threading_InternalThreadSizeCheck;
   static_assert(sizeof(InternalThread) == 0x120);
 }
+NEED_NO_BOX(System::Threading::InternalThread);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::InternalThread*, "System.Threading", "InternalThread");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::InternalThread::Thread_free_internal

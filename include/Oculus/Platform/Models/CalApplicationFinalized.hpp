@@ -64,6 +64,7 @@ namespace Oculus::Platform::Models {
   static check_size<sizeof(CalApplicationFinalized), 32 + sizeof(::Il2CppString*)> __Oculus_Platform_Models_CalApplicationFinalizedSizeCheck;
   static_assert(sizeof(CalApplicationFinalized) == 0x28);
 }
+NEED_NO_BOX(Oculus::Platform::Models::CalApplicationFinalized);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::CalApplicationFinalized*, "Oculus.Platform.Models", "CalApplicationFinalized");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::CalApplicationFinalized::New_ctor

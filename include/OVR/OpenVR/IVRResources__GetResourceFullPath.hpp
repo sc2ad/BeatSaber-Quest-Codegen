@@ -56,6 +56,7 @@ namespace OVR::OpenVR {
   }; // OVR.OpenVR.IVRResources/OVR.OpenVR._GetResourceFullPath
   #pragma pack(pop)
 }
+NEED_NO_BOX(OVR::OpenVR::IVRResources::_GetResourceFullPath);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRResources::_GetResourceFullPath*, "OVR.OpenVR", "IVRResources/_GetResourceFullPath");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVRResources::_GetResourceFullPath::New_ctor

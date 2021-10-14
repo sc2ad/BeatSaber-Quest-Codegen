@@ -157,6 +157,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_VolumeLayer), 72 + sizeof(HoudiniEngineUnity::HEU_DetailPrototype*)> __HoudiniEngineUnity_HEU_VolumeLayerSizeCheck;
   static_assert(sizeof(HEU_VolumeLayer) == 0x50);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_VolumeLayer);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_VolumeLayer*, "HoudiniEngineUnity", "HEU_VolumeLayer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_VolumeLayer::IsEquivalentTo

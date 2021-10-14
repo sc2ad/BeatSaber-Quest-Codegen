@@ -96,6 +96,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(RandomizedPitch::$PlayDelayedCoroutine$d__9), 40 + sizeof(GlobalNamespace::RandomizedPitch*)> __GlobalNamespace_RandomizedPitch_$PlayDelayedCoroutine$d__9SizeCheck;
   static_assert(sizeof(RandomizedPitch::$PlayDelayedCoroutine$d__9) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::RandomizedPitch::$PlayDelayedCoroutine$d__9);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RandomizedPitch::$PlayDelayedCoroutine$d__9*, "", "RandomizedPitch/<PlayDelayedCoroutine>d__9");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::RandomizedPitch::$PlayDelayedCoroutine$d__9::System_Collections_Generic_IEnumerator$System_Object$_get_Current

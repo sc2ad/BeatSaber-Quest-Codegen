@@ -186,6 +186,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SaberBurnMarkSparkles), 120 + sizeof(UnityEngine::ParticleSystem::EmitParams)> __GlobalNamespace_SaberBurnMarkSparklesSizeCheck;
   static_assert(sizeof(SaberBurnMarkSparkles) == 0x107);
 }
+NEED_NO_BOX(GlobalNamespace::SaberBurnMarkSparkles);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberBurnMarkSparkles*, "", "SaberBurnMarkSparkles");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SaberBurnMarkSparkles::Start

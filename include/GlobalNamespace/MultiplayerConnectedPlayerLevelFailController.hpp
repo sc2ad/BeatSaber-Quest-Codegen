@@ -147,6 +147,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerConnectedPlayerLevelFailController), 72 + sizeof(bool)> __GlobalNamespace_MultiplayerConnectedPlayerLevelFailControllerSizeCheck;
   static_assert(sizeof(MultiplayerConnectedPlayerLevelFailController) == 0x49);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerConnectedPlayerLevelFailController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerLevelFailController*, "", "MultiplayerConnectedPlayerLevelFailController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerLevelFailController::add_playerDidFailEvent

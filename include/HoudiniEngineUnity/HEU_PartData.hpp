@@ -605,6 +605,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_PartData), 152 + sizeof(::Il2CppString*)> __HoudiniEngineUnity_HEU_PartDataSizeCheck;
   static_assert(sizeof(HEU_PartData) == 0xA0);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_PartData);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_PartData*, "HoudiniEngineUnity", "HEU_PartData");
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_PartData::PartOutputType, "HoudiniEngineUnity", "HEU_PartData/PartOutputType");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

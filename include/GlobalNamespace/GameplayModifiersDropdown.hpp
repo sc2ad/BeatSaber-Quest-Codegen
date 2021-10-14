@@ -141,6 +141,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(GameplayModifiersDropdown), 48 + sizeof(System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<GlobalNamespace::GameplayModifierMask, ::Il2CppString*>*>*)> __GlobalNamespace_GameplayModifiersDropdownSizeCheck;
   static_assert(sizeof(GameplayModifiersDropdown) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::GameplayModifiersDropdown);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifiersDropdown*, "", "GameplayModifiersDropdown");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersDropdown::get_gameplayModifiersData

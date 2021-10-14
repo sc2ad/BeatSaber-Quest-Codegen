@@ -64,6 +64,7 @@ namespace UnityEngine::ProBuilder {
   }; // UnityEngine.ProBuilder.WingedEdge/UnityEngine.ProBuilder.<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::WingedEdge::$$c);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::WingedEdge::$$c*, "UnityEngine.ProBuilder", "WingedEdge/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::WingedEdge::$$c::_cctor

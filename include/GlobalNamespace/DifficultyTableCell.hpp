@@ -115,6 +115,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(DifficultyTableCell), 104 + sizeof(GlobalNamespace::FillIndicator*)> __GlobalNamespace_DifficultyTableCellSizeCheck;
   static_assert(sizeof(DifficultyTableCell) == 0x70);
 }
+NEED_NO_BOX(GlobalNamespace::DifficultyTableCell);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DifficultyTableCell*, "", "DifficultyTableCell");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DifficultyTableCell::get_difficultyText

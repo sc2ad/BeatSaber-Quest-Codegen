@@ -81,6 +81,7 @@ namespace System {
   static check_size<sizeof(ArraySpec), 20 + sizeof(bool)> __System_ArraySpecSizeCheck;
   static_assert(sizeof(ArraySpec) == 0x15);
 }
+NEED_NO_BOX(System::ArraySpec);
 DEFINE_IL2CPP_ARG_TYPE(System::ArraySpec*, "System", "ArraySpec");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ArraySpec::New_ctor

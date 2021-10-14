@@ -133,6 +133,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PS4AppInit), 104 + sizeof(GlobalNamespace::GameScenesManager*)> __GlobalNamespace_PS4AppInitSizeCheck;
   static_assert(sizeof(PS4AppInit) == 0x70);
 }
+NEED_NO_BOX(GlobalNamespace::PS4AppInit);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4AppInit*, "", "PS4AppInit");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PS4AppInit::New_ctor

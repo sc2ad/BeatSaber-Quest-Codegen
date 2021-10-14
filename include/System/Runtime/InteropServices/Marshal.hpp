@@ -233,6 +233,7 @@ namespace System::Runtime::InteropServices {
   }; // System.Runtime.InteropServices.Marshal
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Runtime::InteropServices::Marshal);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::Marshal*, "System.Runtime.InteropServices", "Marshal");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::InteropServices::Marshal::_cctor

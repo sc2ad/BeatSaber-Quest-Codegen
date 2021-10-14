@@ -97,6 +97,7 @@ namespace UnityEngine {
   }; // UnityEngine.Texture3D
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::Texture3D);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Texture3D*, "UnityEngine", "Texture3D");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Texture3D::New_ctor

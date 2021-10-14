@@ -57,6 +57,7 @@ namespace JetBrains::Annotations {
   static check_size<sizeof(HtmlAttributeValueAttribute), 16 + sizeof(::Il2CppString*)> __JetBrains_Annotations_HtmlAttributeValueAttributeSizeCheck;
   static_assert(sizeof(HtmlAttributeValueAttribute) == 0x18);
 }
+NEED_NO_BOX(JetBrains::Annotations::HtmlAttributeValueAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::HtmlAttributeValueAttribute*, "JetBrains.Annotations", "HtmlAttributeValueAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: JetBrains::Annotations::HtmlAttributeValueAttribute::get_Name

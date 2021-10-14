@@ -61,6 +61,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   static check_size<sizeof(TriangulationConstraint), 24 + sizeof(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)> __UnityEngine_ProBuilder_Poly2Tri_TriangulationConstraintSizeCheck;
   static_assert(sizeof(TriangulationConstraint) == 0x20);
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint*, "UnityEngine.ProBuilder.Poly2Tri", "TriangulationConstraint");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint::New_ctor

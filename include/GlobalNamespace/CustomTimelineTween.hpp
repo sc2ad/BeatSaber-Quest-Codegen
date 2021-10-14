@@ -73,6 +73,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(CustomTimelineTween), 32 + sizeof(::ArrayW<UnityEngine::Vector3>)> __GlobalNamespace_CustomTimelineTweenSizeCheck;
   static_assert(sizeof(CustomTimelineTween) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::CustomTimelineTween);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CustomTimelineTween*, "", "CustomTimelineTween");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CustomTimelineTween::OnValidate

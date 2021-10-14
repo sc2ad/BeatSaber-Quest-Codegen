@@ -296,6 +296,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MissionToggle), 155 + sizeof(bool)> __GlobalNamespace_MissionToggleSizeCheck;
   static_assert(sizeof(MissionToggle) == 0x9C);
 }
+NEED_NO_BOX(GlobalNamespace::MissionToggle);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionToggle*, "", "MissionToggle");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionToggle::set_missionCleared

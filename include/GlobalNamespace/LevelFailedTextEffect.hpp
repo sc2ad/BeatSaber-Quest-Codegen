@@ -64,6 +64,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LevelFailedTextEffect), 24 + sizeof(UnityEngine::Animator*)> __GlobalNamespace_LevelFailedTextEffectSizeCheck;
   static_assert(sizeof(LevelFailedTextEffect) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::LevelFailedTextEffect);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelFailedTextEffect*, "", "LevelFailedTextEffect");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LevelFailedTextEffect::ShowEffect

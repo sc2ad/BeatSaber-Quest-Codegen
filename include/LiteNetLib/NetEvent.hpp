@@ -236,6 +236,7 @@ namespace LiteNetLib {
   static check_size<sizeof(NetEvent), 80 + sizeof(LiteNetLib::NetPacketReader*)> __LiteNetLib_NetEventSizeCheck;
   static_assert(sizeof(NetEvent) == 0x58);
 }
+NEED_NO_BOX(LiteNetLib::NetEvent);
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetEvent*, "LiteNetLib", "NetEvent");
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetEvent::EType, "LiteNetLib", "NetEvent/EType");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

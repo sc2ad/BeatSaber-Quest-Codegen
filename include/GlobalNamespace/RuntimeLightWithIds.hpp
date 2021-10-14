@@ -115,6 +115,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(RuntimeLightWithIds), 56 + sizeof(bool)> __GlobalNamespace_RuntimeLightWithIdsSizeCheck;
   static_assert(sizeof(RuntimeLightWithIds) == 0x39);
 }
+NEED_NO_BOX(GlobalNamespace::RuntimeLightWithIds);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RuntimeLightWithIds*, "", "RuntimeLightWithIds");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::RuntimeLightWithIds::ColorWasSet

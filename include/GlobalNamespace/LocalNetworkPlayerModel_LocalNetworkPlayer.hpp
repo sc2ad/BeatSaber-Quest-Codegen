@@ -395,6 +395,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LocalNetworkPlayerModel::LocalNetworkPlayer), 150 + sizeof(bool)> __GlobalNamespace_LocalNetworkPlayerModel_LocalNetworkPlayerSizeCheck;
   static_assert(sizeof(LocalNetworkPlayerModel::LocalNetworkPlayer) == 0x97);
 }
+NEED_NO_BOX(GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkPlayer);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkPlayer*, "", "LocalNetworkPlayerModel/LocalNetworkPlayer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkPlayer::get_userId

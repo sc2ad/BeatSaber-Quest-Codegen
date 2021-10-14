@@ -50,6 +50,7 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.Message/Oculus.Platform.ExtraMessageTypesHandler
   #pragma pack(pop)
 }
+NEED_NO_BOX(Oculus::Platform::Message::ExtraMessageTypesHandler);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Message::ExtraMessageTypesHandler*, "Oculus.Platform", "Message/ExtraMessageTypesHandler");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Message::ExtraMessageTypesHandler::New_ctor

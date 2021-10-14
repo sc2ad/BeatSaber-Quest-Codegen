@@ -76,6 +76,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(AppStaticSettingsSO), 27 + sizeof(bool)> __GlobalNamespace_AppStaticSettingsSOSizeCheck;
   static_assert(sizeof(AppStaticSettingsSO) == 0x1C);
 }
+NEED_NO_BOX(GlobalNamespace::AppStaticSettingsSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AppStaticSettingsSO*, "", "AppStaticSettingsSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AppStaticSettingsSO::New_ctor

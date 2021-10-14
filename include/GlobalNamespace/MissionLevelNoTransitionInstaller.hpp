@@ -154,6 +154,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MissionLevelNoTransitionInstaller), 88 + sizeof(GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*)> __GlobalNamespace_MissionLevelNoTransitionInstallerSizeCheck;
   static_assert(sizeof(MissionLevelNoTransitionInstaller) == 0x60);
 }
+NEED_NO_BOX(GlobalNamespace::MissionLevelNoTransitionInstaller);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelNoTransitionInstaller*, "", "MissionLevelNoTransitionInstaller");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionLevelNoTransitionInstaller::New_ctor

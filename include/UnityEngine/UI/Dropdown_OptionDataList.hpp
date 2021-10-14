@@ -66,6 +66,7 @@ namespace UnityEngine::UI {
   static check_size<sizeof(Dropdown::OptionDataList), 16 + sizeof(System::Collections::Generic::List_1<UnityEngine::UI::Dropdown::OptionData*>*)> __UnityEngine_UI_Dropdown_OptionDataListSizeCheck;
   static_assert(sizeof(Dropdown::OptionDataList) == 0x18);
 }
+NEED_NO_BOX(UnityEngine::UI::Dropdown::OptionDataList);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Dropdown::OptionDataList*, "UnityEngine.UI", "Dropdown/OptionDataList");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::Dropdown::OptionDataList::get_options

@@ -56,6 +56,7 @@ namespace OVR::OpenVR {
   }; // OVR.OpenVR.IVRNotifications/OVR.OpenVR._RemoveNotification
   #pragma pack(pop)
 }
+NEED_NO_BOX(OVR::OpenVR::IVRNotifications::_RemoveNotification);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRNotifications::_RemoveNotification*, "OVR.OpenVR", "IVRNotifications/_RemoveNotification");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVRNotifications::_RemoveNotification::New_ctor

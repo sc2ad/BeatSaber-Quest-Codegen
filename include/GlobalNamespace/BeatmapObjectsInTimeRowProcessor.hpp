@@ -108,6 +108,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BeatmapObjectsInTimeRowProcessor), 40 + sizeof(float)> __GlobalNamespace_BeatmapObjectsInTimeRowProcessorSizeCheck;
   static_assert(sizeof(BeatmapObjectsInTimeRowProcessor) == 0x2C);
 }
+NEED_NO_BOX(GlobalNamespace::BeatmapObjectsInTimeRowProcessor);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectsInTimeRowProcessor*, "", "BeatmapObjectsInTimeRowProcessor");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectsInTimeRowProcessor::New_ctor

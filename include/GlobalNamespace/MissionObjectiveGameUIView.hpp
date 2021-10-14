@@ -202,6 +202,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MissionObjectiveGameUIView), 152 + sizeof(GlobalNamespace::MissionObjectiveChecker*)> __GlobalNamespace_MissionObjectiveGameUIViewSizeCheck;
   static_assert(sizeof(MissionObjectiveGameUIView) == 0xA0);
 }
+NEED_NO_BOX(GlobalNamespace::MissionObjectiveGameUIView);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjectiveGameUIView*, "", "MissionObjectiveGameUIView");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionObjectiveGameUIView::SetMissionObjectiveChecker

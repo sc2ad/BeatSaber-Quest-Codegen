@@ -313,6 +313,7 @@ namespace MasterServer {
   static check_size<sizeof(ConnectToServerResponse), 144 + sizeof(::Il2CppString*)> __MasterServer_ConnectToServerResponseSizeCheck;
   static_assert(sizeof(ConnectToServerResponse) == 0x98);
 }
+NEED_NO_BOX(MasterServer::ConnectToServerResponse);
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::ConnectToServerResponse*, "MasterServer", "ConnectToServerResponse");
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::ConnectToServerResponse::Result, "MasterServer", "ConnectToServerResponse/Result");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

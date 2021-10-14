@@ -94,6 +94,7 @@ namespace System::Net::NetworkInformation {
   static check_size<sizeof(MibIPGlobalProperties), 56 + sizeof(::Il2CppString*)> __System_Net_NetworkInformation_MibIPGlobalPropertiesSizeCheck;
   static_assert(sizeof(MibIPGlobalProperties) == 0x40);
 }
+NEED_NO_BOX(System::Net::NetworkInformation::MibIPGlobalProperties);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::MibIPGlobalProperties*, "System.Net.NetworkInformation", "MibIPGlobalProperties");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::NetworkInformation::MibIPGlobalProperties::New_ctor

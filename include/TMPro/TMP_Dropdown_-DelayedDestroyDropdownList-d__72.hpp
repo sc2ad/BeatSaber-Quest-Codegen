@@ -96,6 +96,7 @@ namespace TMPro {
   static check_size<sizeof(TMP_Dropdown::$DelayedDestroyDropdownList$d__72), 40 + sizeof(TMPro::TMP_Dropdown*)> __TMPro_TMP_Dropdown_$DelayedDestroyDropdownList$d__72SizeCheck;
   static_assert(sizeof(TMP_Dropdown::$DelayedDestroyDropdownList$d__72) == 0x30);
 }
+NEED_NO_BOX(TMPro::TMP_Dropdown::$DelayedDestroyDropdownList$d__72);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Dropdown::$DelayedDestroyDropdownList$d__72*, "TMPro", "TMP_Dropdown/<DelayedDestroyDropdownList>d__72");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::$DelayedDestroyDropdownList$d__72::System_Collections_Generic_IEnumerator$System_Object$_get_Current

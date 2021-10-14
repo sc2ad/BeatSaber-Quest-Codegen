@@ -117,6 +117,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SpriteSwapTransitionSO), 72 + sizeof(UnityEngine::Sprite*)> __GlobalNamespace_SpriteSwapTransitionSOSizeCheck;
   static_assert(sizeof(SpriteSwapTransitionSO) == 0x50);
 }
+NEED_NO_BOX(GlobalNamespace::SpriteSwapTransitionSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SpriteSwapTransitionSO*, "", "SpriteSwapTransitionSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SpriteSwapTransitionSO::get_normalSprite

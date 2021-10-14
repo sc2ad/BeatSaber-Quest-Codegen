@@ -114,6 +114,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_TOPNetworkData), 64 + sizeof(HoudiniEngineUnity::TOPNodeTags*)> __HoudiniEngineUnity_HEU_TOPNetworkDataSizeCheck;
   static_assert(sizeof(HEU_TOPNetworkData) == 0x48);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_TOPNetworkData);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_TOPNetworkData*, "HoudiniEngineUnity", "HEU_TOPNetworkData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_TOPNetworkData::New_ctor

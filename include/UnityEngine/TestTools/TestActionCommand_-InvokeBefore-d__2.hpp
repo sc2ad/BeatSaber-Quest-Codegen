@@ -106,6 +106,7 @@ namespace UnityEngine::TestTools {
   static check_size<sizeof(TestActionCommand::$InvokeBefore$d__2), 40 + sizeof(NUnit::Framework::Internal::Test*)> __UnityEngine_TestTools_TestActionCommand_$InvokeBefore$d__2SizeCheck;
   static_assert(sizeof(TestActionCommand::$InvokeBefore$d__2) == 0x30);
 }
+NEED_NO_BOX(UnityEngine::TestTools::TestActionCommand::$InvokeBefore$d__2);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestActionCommand::$InvokeBefore$d__2*, "UnityEngine.TestTools", "TestActionCommand/<InvokeBefore>d__2");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestActionCommand::$InvokeBefore$d__2::System_Collections_Generic_IEnumerator$System_Object$_get_Current

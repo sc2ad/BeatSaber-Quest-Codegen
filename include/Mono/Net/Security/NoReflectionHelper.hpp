@@ -24,6 +24,7 @@ namespace Mono::Net::Security {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(Mono::Net::Security::NoReflectionHelper);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::NoReflectionHelper*, "Mono.Net.Security", "NoReflectionHelper");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Net::Security::NoReflectionHelper::GetInternalValidator

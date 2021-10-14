@@ -178,6 +178,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(GrounderBipedIK), 132 + sizeof(float)> __RootMotion_FinalIK_GrounderBipedIKSizeCheck;
   static_assert(sizeof(GrounderBipedIK) == 0x88);
 }
+NEED_NO_BOX(RootMotion::FinalIK::GrounderBipedIK);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::GrounderBipedIK*, "RootMotion.FinalIK", "GrounderBipedIK");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::GrounderBipedIK::IsReadyToInitiate

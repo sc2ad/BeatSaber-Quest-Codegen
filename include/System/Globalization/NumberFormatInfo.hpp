@@ -493,6 +493,7 @@ namespace System::Globalization {
   static check_size<sizeof(NumberFormatInfo), 212 + sizeof(bool)> __System_Globalization_NumberFormatInfoSizeCheck;
   static_assert(sizeof(NumberFormatInfo) == 0xD5);
 }
+NEED_NO_BOX(System::Globalization::NumberFormatInfo);
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::NumberFormatInfo*, "System.Globalization", "NumberFormatInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::get_InvariantInfo

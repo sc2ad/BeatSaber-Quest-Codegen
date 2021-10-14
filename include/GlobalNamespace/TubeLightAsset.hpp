@@ -91,6 +91,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(TubeLightAsset), 24 + sizeof(GlobalNamespace::TubeLightBehaviour*)> __GlobalNamespace_TubeLightAssetSizeCheck;
   static_assert(sizeof(TubeLightAsset) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::TubeLightAsset);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TubeLightAsset*, "", "TubeLightAsset");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TubeLightAsset::get_clipCaps

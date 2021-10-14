@@ -170,6 +170,7 @@ namespace System::Security::Claims {
   static check_size<sizeof(Claim), 80 + sizeof(System::Security::Claims::ClaimsIdentity*)> __System_Security_Claims_ClaimSizeCheck;
   static_assert(sizeof(Claim) == 0x58);
 }
+NEED_NO_BOX(System::Security::Claims::Claim);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Claims::Claim*, "System.Security.Claims", "Claim");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Claims::Claim::get_Properties

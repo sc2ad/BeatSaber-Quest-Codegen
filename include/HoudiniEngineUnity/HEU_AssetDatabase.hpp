@@ -250,6 +250,7 @@ namespace HoudiniEngineUnity {
   }; // HoudiniEngineUnity.HEU_AssetDatabase
   #pragma pack(pop)
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_AssetDatabase);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_AssetDatabase*, "HoudiniEngineUnity", "HEU_AssetDatabase");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_AssetDatabase::GetAssetCachePath

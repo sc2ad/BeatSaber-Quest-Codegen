@@ -56,6 +56,7 @@ namespace Valve::VR {
   }; // Valve.VR.IVRScreenshots/Valve.VR._UpdateScreenshotProgress
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::IVRScreenshots::_UpdateScreenshotProgress);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRScreenshots::_UpdateScreenshotProgress*, "Valve.VR", "IVRScreenshots/_UpdateScreenshotProgress");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRScreenshots::_UpdateScreenshotProgress::New_ctor

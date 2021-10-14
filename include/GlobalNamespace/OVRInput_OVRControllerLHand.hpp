@@ -65,6 +65,7 @@ namespace GlobalNamespace {
   }; // OVRInput/OVRControllerLHand
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::OVRInput::OVRControllerLHand);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OVRControllerLHand*, "", "OVRInput/OVRControllerLHand");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::OVRControllerLHand::New_ctor

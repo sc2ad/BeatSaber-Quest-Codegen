@@ -135,6 +135,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(CampaignProgressModel), 52 + sizeof(int)> __GlobalNamespace_CampaignProgressModelSizeCheck;
   static_assert(sizeof(CampaignProgressModel) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::CampaignProgressModel);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CampaignProgressModel*, "", "CampaignProgressModel");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CampaignProgressModel::get_numberOfClearedMissions

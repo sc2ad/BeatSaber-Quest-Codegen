@@ -94,6 +94,7 @@ namespace System {
   static check_size<sizeof(TypeInitializationException), 136 + sizeof(::Il2CppString*)> __System_TypeInitializationExceptionSizeCheck;
   static_assert(sizeof(TypeInitializationException) == 0x90);
 }
+NEED_NO_BOX(System::TypeInitializationException);
 DEFINE_IL2CPP_ARG_TYPE(System::TypeInitializationException*, "System", "TypeInitializationException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::TypeInitializationException::get_TypeName

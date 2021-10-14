@@ -86,6 +86,7 @@ namespace UnityEngine::UI {
   static check_size<sizeof(InputField::$CaretBlink$d__161), 32 + sizeof(UnityEngine::UI::InputField*)> __UnityEngine_UI_InputField_$CaretBlink$d__161SizeCheck;
   static_assert(sizeof(InputField::$CaretBlink$d__161) == 0x28);
 }
+NEED_NO_BOX(UnityEngine::UI::InputField::$CaretBlink$d__161);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::InputField::$CaretBlink$d__161*, "UnityEngine.UI", "InputField/<CaretBlink>d__161");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::InputField::$CaretBlink$d__161::System_Collections_Generic_IEnumerator$System_Object$_get_Current

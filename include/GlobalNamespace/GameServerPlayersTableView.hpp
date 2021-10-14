@@ -331,6 +331,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(GameServerPlayersTableView), 136 + sizeof(GlobalNamespace::ILobbyPlayersDataModel*)> __GlobalNamespace_GameServerPlayersTableViewSizeCheck;
   static_assert(sizeof(GameServerPlayersTableView) == 0x90);
 }
+NEED_NO_BOX(GlobalNamespace::GameServerPlayersTableView);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServerPlayersTableView*, "", "GameServerPlayersTableView");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameServerPlayersTableView::get_currentCellId

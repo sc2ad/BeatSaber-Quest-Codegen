@@ -74,6 +74,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(DlcPromoExperimentDataSO::MusicPackPromoInfo), 24 + sizeof(UnityEngine::Sprite*)> __GlobalNamespace_DlcPromoExperimentDataSO_MusicPackPromoInfoSizeCheck;
   static_assert(sizeof(DlcPromoExperimentDataSO::MusicPackPromoInfo) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*, "", "DlcPromoExperimentDataSO/MusicPackPromoInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo::get_previewBeatmapLevelPack

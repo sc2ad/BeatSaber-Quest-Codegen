@@ -217,6 +217,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SelectLevelCategoryViewController), 152 + sizeof(::ArrayW<GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo*>)> __GlobalNamespace_SelectLevelCategoryViewControllerSizeCheck;
   static_assert(sizeof(SelectLevelCategoryViewController) == 0xA0);
 }
+NEED_NO_BOX(GlobalNamespace::SelectLevelCategoryViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectLevelCategoryViewController*, "", "SelectLevelCategoryViewController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectLevelCategoryViewController::LevelCategory, "", "SelectLevelCategoryViewController/LevelCategory");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

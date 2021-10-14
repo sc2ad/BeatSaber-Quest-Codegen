@@ -138,6 +138,7 @@ namespace System::Threading::Tasks {
   static check_size<sizeof(TaskFactory), 36 + sizeof(System::Threading::Tasks::TaskContinuationOptions)> __System_Threading_Tasks_TaskFactorySizeCheck;
   static_assert(sizeof(TaskFactory) == 0x28);
 }
+NEED_NO_BOX(System::Threading::Tasks::TaskFactory);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskFactory*, "System.Threading.Tasks", "TaskFactory");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::Tasks::TaskFactory::New_ctor

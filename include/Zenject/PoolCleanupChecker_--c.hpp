@@ -57,6 +57,7 @@ namespace Zenject {
   }; // Zenject.PoolCleanupChecker/Zenject.<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(Zenject::PoolCleanupChecker::$$c);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::PoolCleanupChecker::$$c*, "Zenject", "PoolCleanupChecker/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::PoolCleanupChecker::$$c::_cctor

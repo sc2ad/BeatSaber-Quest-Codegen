@@ -44,6 +44,7 @@ namespace System::Net::Configuration {
   }; // System.Net.Configuration.SettingsSection
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Net::Configuration::SettingsSection);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Configuration::SettingsSection*, "System.Net.Configuration", "SettingsSection");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Configuration::SettingsSection::get_Properties

@@ -77,6 +77,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LocalNetworkDiscoveryManager::JoinRequestPacket), 24 + sizeof(::Il2CppString*)> __GlobalNamespace_LocalNetworkDiscoveryManager_JoinRequestPacketSizeCheck;
   static_assert(sizeof(LocalNetworkDiscoveryManager::JoinRequestPacket) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::LocalNetworkDiscoveryManager::JoinRequestPacket);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalNetworkDiscoveryManager::JoinRequestPacket*, "", "LocalNetworkDiscoveryManager/JoinRequestPacket");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::JoinRequestPacket::Serialize

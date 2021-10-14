@@ -185,6 +185,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(EditColorController), 184 + sizeof(bool)> __GlobalNamespace_EditColorControllerSizeCheck;
   static_assert(sizeof(EditColorController) == 0xB9);
 }
+NEED_NO_BOX(GlobalNamespace::EditColorController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EditColorController*, "", "EditColorController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EditColorController::add_didChangeColorEvent

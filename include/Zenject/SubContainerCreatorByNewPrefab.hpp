@@ -89,6 +89,7 @@ namespace Zenject {
   static check_size<sizeof(SubContainerCreatorByNewPrefab), 32 + sizeof(Zenject::DiContainer*)> __Zenject_SubContainerCreatorByNewPrefabSizeCheck;
   static_assert(sizeof(SubContainerCreatorByNewPrefab) == 0x28);
 }
+NEED_NO_BOX(Zenject::SubContainerCreatorByNewPrefab);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerCreatorByNewPrefab*, "Zenject", "SubContainerCreatorByNewPrefab");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::SubContainerCreatorByNewPrefab::New_ctor

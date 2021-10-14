@@ -114,6 +114,7 @@ namespace Oculus::Platform::Models {
   static check_size<sizeof(LaunchDetails), 72 + sizeof(Oculus::Platform::Models::UserList*)> __Oculus_Platform_Models_LaunchDetailsSizeCheck;
   static_assert(sizeof(LaunchDetails) == 0x50);
 }
+NEED_NO_BOX(Oculus::Platform::Models::LaunchDetails);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::LaunchDetails*, "Oculus.Platform.Models", "LaunchDetails");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::LaunchDetails::New_ctor

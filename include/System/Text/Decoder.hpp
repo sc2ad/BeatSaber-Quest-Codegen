@@ -103,6 +103,7 @@ namespace System::Text {
   static check_size<sizeof(Decoder), 24 + sizeof(System::Text::DecoderFallbackBuffer*)> __System_Text_DecoderSizeCheck;
   static_assert(sizeof(Decoder) == 0x20);
 }
+NEED_NO_BOX(System::Text::Decoder);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::Decoder*, "System.Text", "Decoder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::Decoder::get_Fallback

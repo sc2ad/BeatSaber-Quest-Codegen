@@ -78,6 +78,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PlayableDirectorTimer), 32 + sizeof(GlobalNamespace::AudioTimeSyncController*)> __GlobalNamespace_PlayableDirectorTimerSizeCheck;
   static_assert(sizeof(PlayableDirectorTimer) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::PlayableDirectorTimer);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayableDirectorTimer*, "", "PlayableDirectorTimer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayableDirectorTimer::Update

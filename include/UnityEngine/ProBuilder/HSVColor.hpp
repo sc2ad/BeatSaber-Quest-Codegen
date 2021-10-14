@@ -85,6 +85,7 @@ namespace UnityEngine::ProBuilder {
   static check_size<sizeof(HSVColor), 24 + sizeof(float)> __UnityEngine_ProBuilder_HSVColorSizeCheck;
   static_assert(sizeof(HSVColor) == 0x1C);
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::HSVColor);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::HSVColor*, "UnityEngine.ProBuilder", "HSVColor");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::HSVColor::New_ctor

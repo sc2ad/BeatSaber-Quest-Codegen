@@ -57,6 +57,7 @@ namespace Zenject {
   }; // Zenject.InjectUtil/Zenject.<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(Zenject::InjectUtil::$$c);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::InjectUtil::$$c*, "Zenject", "InjectUtil/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::InjectUtil::$$c::_cctor

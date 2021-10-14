@@ -24,6 +24,7 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(GlobalNamespace::MissionDataExtensions);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionDataExtensions*, "", "MissionDataExtensions");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionDataExtensions::Name

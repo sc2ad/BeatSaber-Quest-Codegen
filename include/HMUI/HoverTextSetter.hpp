@@ -101,6 +101,7 @@ namespace HMUI {
   static check_size<sizeof(HoverTextSetter), 32 + sizeof(::Il2CppString*)> __HMUI_HoverTextSetterSizeCheck;
   static_assert(sizeof(HoverTextSetter) == 0x28);
 }
+NEED_NO_BOX(HMUI::HoverTextSetter);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::HoverTextSetter*, "HMUI", "HoverTextSetter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::HoverTextSetter::get_text

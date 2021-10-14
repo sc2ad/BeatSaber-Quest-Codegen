@@ -62,6 +62,7 @@ namespace System {
   }; // System.IndexOutOfRangeException
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::IndexOutOfRangeException);
 DEFINE_IL2CPP_ARG_TYPE(System::IndexOutOfRangeException*, "System", "IndexOutOfRangeException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IndexOutOfRangeException::New_ctor

@@ -100,6 +100,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SetSaberBladeParams), 48 + sizeof(GlobalNamespace::ColorManager*)> __GlobalNamespace_SetSaberBladeParamsSizeCheck;
   static_assert(sizeof(SetSaberBladeParams) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::SetSaberBladeParams);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SetSaberBladeParams*, "", "SetSaberBladeParams");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SetSaberBladeParams::Start

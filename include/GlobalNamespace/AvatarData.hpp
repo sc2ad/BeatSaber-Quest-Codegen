@@ -274,6 +274,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(AvatarData), 200 + sizeof(::Il2CppString*)> __GlobalNamespace_AvatarDataSizeCheck;
   static_assert(sizeof(AvatarData) == 0xD0);
 }
+NEED_NO_BOX(GlobalNamespace::AvatarData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarData*, "", "AvatarData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AvatarData::get_headTopId

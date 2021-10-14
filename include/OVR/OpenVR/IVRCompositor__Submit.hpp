@@ -64,6 +64,7 @@ namespace OVR::OpenVR {
   }; // OVR.OpenVR.IVRCompositor/OVR.OpenVR._Submit
   #pragma pack(pop)
 }
+NEED_NO_BOX(OVR::OpenVR::IVRCompositor::_Submit);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRCompositor::_Submit*, "OVR.OpenVR", "IVRCompositor/_Submit");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVRCompositor::_Submit::New_ctor

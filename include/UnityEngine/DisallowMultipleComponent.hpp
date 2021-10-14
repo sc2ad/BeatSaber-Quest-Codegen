@@ -35,6 +35,7 @@ namespace UnityEngine {
   }; // UnityEngine.DisallowMultipleComponent
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::DisallowMultipleComponent);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::DisallowMultipleComponent*, "UnityEngine", "DisallowMultipleComponent");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::DisallowMultipleComponent::New_ctor

@@ -86,6 +86,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(AimController::$TurnToTarget$d__33), 32 + sizeof(RootMotion::FinalIK::AimController*)> __RootMotion_FinalIK_AimController_$TurnToTarget$d__33SizeCheck;
   static_assert(sizeof(AimController::$TurnToTarget$d__33) == 0x28);
 }
+NEED_NO_BOX(RootMotion::FinalIK::AimController::$TurnToTarget$d__33);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::AimController::$TurnToTarget$d__33*, "RootMotion.FinalIK", "AimController/<TurnToTarget>d__33");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::AimController::$TurnToTarget$d__33::System_Collections_Generic_IEnumerator$System_Object$_get_Current

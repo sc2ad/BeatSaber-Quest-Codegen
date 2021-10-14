@@ -103,6 +103,7 @@ namespace Mono::Security {
   static check_size<sizeof(PKCS7::ContentInfo), 24 + sizeof(Mono::Security::ASN1*)> __Mono_Security_PKCS7_ContentInfoSizeCheck;
   static_assert(sizeof(PKCS7::ContentInfo) == 0x20);
 }
+NEED_NO_BOX(Mono::Security::PKCS7::ContentInfo);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::PKCS7::ContentInfo*, "Mono.Security", "PKCS7/ContentInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Security::PKCS7::ContentInfo::get_ASN1

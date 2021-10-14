@@ -60,6 +60,7 @@ namespace System::Net::Sockets {
   static check_size<sizeof(LingerOption), 20 + sizeof(int)> __System_Net_Sockets_LingerOptionSizeCheck;
   static_assert(sizeof(LingerOption) == 0x18);
 }
+NEED_NO_BOX(System::Net::Sockets::LingerOption);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::LingerOption*, "System.Net.Sockets", "LingerOption");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Sockets::LingerOption::set_Enabled

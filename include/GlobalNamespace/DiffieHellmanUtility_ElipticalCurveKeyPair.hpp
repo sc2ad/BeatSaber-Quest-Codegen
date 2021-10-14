@@ -93,6 +93,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(DiffieHellmanUtility::ElipticalCurveKeyPair), 24 + sizeof(::ArrayW<uint8_t>)> __GlobalNamespace_DiffieHellmanUtility_ElipticalCurveKeyPairSizeCheck;
   static_assert(sizeof(DiffieHellmanUtility::ElipticalCurveKeyPair) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::DiffieHellmanUtility::ElipticalCurveKeyPair);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DiffieHellmanUtility::ElipticalCurveKeyPair*, "", "DiffieHellmanUtility/ElipticalCurveKeyPair");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DiffieHellmanUtility::ElipticalCurveKeyPair::get_publicKey

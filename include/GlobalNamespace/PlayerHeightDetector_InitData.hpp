@@ -50,6 +50,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PlayerHeightDetector::InitData), 16 + sizeof(float)> __GlobalNamespace_PlayerHeightDetector_InitDataSizeCheck;
   static_assert(sizeof(PlayerHeightDetector::InitData) == 0x14);
 }
+NEED_NO_BOX(GlobalNamespace::PlayerHeightDetector::InitData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerHeightDetector::InitData*, "", "PlayerHeightDetector/InitData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayerHeightDetector::InitData::New_ctor

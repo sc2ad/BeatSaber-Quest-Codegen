@@ -65,6 +65,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(TutorialSongController::TutorialObstacleSpawnData), 40 + sizeof(GlobalNamespace::ObstacleType)> __GlobalNamespace_TutorialSongController_TutorialObstacleSpawnDataSizeCheck;
   static_assert(sizeof(TutorialSongController::TutorialObstacleSpawnData) == 0x2C);
 }
+NEED_NO_BOX(GlobalNamespace::TutorialSongController::TutorialObstacleSpawnData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialSongController::TutorialObstacleSpawnData*, "", "TutorialSongController/TutorialObstacleSpawnData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TutorialSongController::TutorialObstacleSpawnData::New_ctor

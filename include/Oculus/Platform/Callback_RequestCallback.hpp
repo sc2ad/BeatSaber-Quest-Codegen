@@ -64,6 +64,7 @@ namespace Oculus::Platform {
   static check_size<sizeof(Callback::RequestCallback), 16 + sizeof(Oculus::Platform::Message::Callback*)> __Oculus_Platform_Callback_RequestCallbackSizeCheck;
   static_assert(sizeof(Callback::RequestCallback) == 0x18);
 }
+NEED_NO_BOX(Oculus::Platform::Callback::RequestCallback);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Callback::RequestCallback*, "Oculus.Platform", "Callback/RequestCallback");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Callback::RequestCallback::New_ctor

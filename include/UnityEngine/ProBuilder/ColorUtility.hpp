@@ -82,6 +82,7 @@ namespace UnityEngine::ProBuilder {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::ProBuilder::ColorUtility);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ColorUtility*, "UnityEngine.ProBuilder", "ColorUtility");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ColorUtility::_cctor

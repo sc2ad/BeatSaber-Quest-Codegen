@@ -46,6 +46,7 @@ namespace HoudiniEngineUnity {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(HoudiniEngineUnity::Test_TreeInstance_Extensions);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::Test_TreeInstance_Extensions*, "HoudiniEngineUnity", "Test_TreeInstance_Extensions");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::Test_TreeInstance_Extensions::ToTestObject

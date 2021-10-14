@@ -54,6 +54,7 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.CAPI/Oculus.Platform.FilterCallback
   #pragma pack(pop)
 }
+NEED_NO_BOX(Oculus::Platform::CAPI::FilterCallback);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CAPI::FilterCallback*, "Oculus.Platform", "CAPI/FilterCallback");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::FilterCallback::New_ctor

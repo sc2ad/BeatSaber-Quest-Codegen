@@ -1099,6 +1099,7 @@ namespace System::Net {
   static check_size<sizeof(HttpWebRequest), 416 + sizeof(System::Net::WebConnection*)> __System_Net_HttpWebRequestSizeCheck;
   static_assert(sizeof(HttpWebRequest) == 0x1A8);
 }
+NEED_NO_BOX(System::Net::HttpWebRequest);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpWebRequest*, "System.Net", "HttpWebRequest");
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpWebRequest::NtlmAuthState, "System.Net", "HttpWebRequest/NtlmAuthState");
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpWebRequest::AuthorizationState, "System.Net", "HttpWebRequest/AuthorizationState");

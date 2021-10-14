@@ -113,6 +113,7 @@ namespace System::Globalization {
   static check_size<sizeof(SortKey), 36 + sizeof(int)> __System_Globalization_SortKeySizeCheck;
   static_assert(sizeof(SortKey) == 0x28);
 }
+NEED_NO_BOX(System::Globalization::SortKey);
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::SortKey*, "System.Globalization", "SortKey");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Globalization::SortKey::get_OriginalString

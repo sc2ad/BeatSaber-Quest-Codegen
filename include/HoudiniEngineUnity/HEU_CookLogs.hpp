@@ -123,6 +123,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_CookLogs), 40 + sizeof(bool)> __HoudiniEngineUnity_HEU_CookLogsSizeCheck;
   static_assert(sizeof(HEU_CookLogs) == 0x29);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_CookLogs);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_CookLogs*, "HoudiniEngineUnity", "HEU_CookLogs");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_CookLogs::get_Instance

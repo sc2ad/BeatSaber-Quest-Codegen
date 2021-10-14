@@ -80,6 +80,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   static check_size<sizeof(Triangulation::$$c__DisplayClass8_0), 24 + sizeof(System::Func_2<UnityEngine::Vector2, UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*>*)> __UnityEngine_ProBuilder_MeshOperations_Triangulation_$$c__DisplayClass8_0SizeCheck;
   static_assert(sizeof(Triangulation::$$c__DisplayClass8_0) == 0x20);
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::MeshOperations::Triangulation::$$c__DisplayClass8_0);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::Triangulation::$$c__DisplayClass8_0*, "UnityEngine.ProBuilder.MeshOperations", "Triangulation/<>c__DisplayClass8_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::Triangulation::$$c__DisplayClass8_0::$Triangulate$b__0

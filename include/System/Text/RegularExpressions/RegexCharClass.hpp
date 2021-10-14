@@ -347,6 +347,7 @@ namespace System::Text::RegularExpressions {
   static check_size<sizeof(RegexCharClass), 40 + sizeof(System::Text::RegularExpressions::RegexCharClass*)> __System_Text_RegularExpressions_RegexCharClassSizeCheck;
   static_assert(sizeof(RegexCharClass) == 0x30);
 }
+NEED_NO_BOX(System::Text::RegularExpressions::RegexCharClass);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexCharClass*, "System.Text.RegularExpressions", "RegexCharClass");
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexCharClass::LowerCaseMapping, "System.Text.RegularExpressions", "RegexCharClass/LowerCaseMapping");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

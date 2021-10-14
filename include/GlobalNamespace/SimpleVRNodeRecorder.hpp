@@ -278,7 +278,9 @@ namespace GlobalNamespace {
   static check_size<sizeof(SimpleVRNodeRecorder), 96 + sizeof(UnityEngine::Quaternion)> __GlobalNamespace_SimpleVRNodeRecorderSizeCheck;
   static_assert(sizeof(SimpleVRNodeRecorder) == 0x70);
 }
+NEED_NO_BOX(GlobalNamespace::SimpleVRNodeRecorder);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleVRNodeRecorder*, "", "SimpleVRNodeRecorder");
+NEED_NO_BOX(GlobalNamespace::SimpleVRNodeRecorder::SavedData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleVRNodeRecorder::SavedData*, "", "SimpleVRNodeRecorder/SavedData");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleVRNodeRecorder::RecordMode, "", "SimpleVRNodeRecorder/RecordMode");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

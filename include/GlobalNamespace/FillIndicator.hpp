@@ -75,6 +75,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(FillIndicator), 32 + sizeof(UnityEngine::UI::Image*)> __GlobalNamespace_FillIndicatorSizeCheck;
   static_assert(sizeof(FillIndicator) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::FillIndicator);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FillIndicator*, "", "FillIndicator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FillIndicator::get_fillAmount

@@ -110,6 +110,7 @@ namespace MasterServer {
   static check_size<sizeof(ServerHelloRequest), 40 + sizeof(GlobalNamespace::ByteArrayNetSerializable*)> __MasterServer_ServerHelloRequestSizeCheck;
   static_assert(sizeof(ServerHelloRequest) == 0x30);
 }
+NEED_NO_BOX(MasterServer::ServerHelloRequest);
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::ServerHelloRequest*, "MasterServer", "ServerHelloRequest");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: MasterServer::ServerHelloRequest::get_pool

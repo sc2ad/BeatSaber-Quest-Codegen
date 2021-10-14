@@ -48,6 +48,7 @@ namespace GlobalNamespace {
   }; // BatchExtensions
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::BatchExtensions);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BatchExtensions*, "", "BatchExtensions");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BatchExtensions::Batch

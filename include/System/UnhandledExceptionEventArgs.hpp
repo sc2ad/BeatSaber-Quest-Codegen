@@ -61,6 +61,7 @@ namespace System {
   static check_size<sizeof(UnhandledExceptionEventArgs), 24 + sizeof(bool)> __System_UnhandledExceptionEventArgsSizeCheck;
   static_assert(sizeof(UnhandledExceptionEventArgs) == 0x19);
 }
+NEED_NO_BOX(System::UnhandledExceptionEventArgs);
 DEFINE_IL2CPP_ARG_TYPE(System::UnhandledExceptionEventArgs*, "System", "UnhandledExceptionEventArgs");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::UnhandledExceptionEventArgs::get_ExceptionObject

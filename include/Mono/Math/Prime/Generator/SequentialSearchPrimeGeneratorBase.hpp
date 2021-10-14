@@ -54,6 +54,7 @@ namespace Mono::Math::Prime::Generator {
   }; // Mono.Math.Prime.Generator.SequentialSearchPrimeGeneratorBase
   #pragma pack(pop)
 }
+NEED_NO_BOX(Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase*, "Mono.Math.Prime.Generator", "SequentialSearchPrimeGeneratorBase");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase::GenerateSearchBase

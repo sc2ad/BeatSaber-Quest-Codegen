@@ -427,6 +427,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LevelCompletionResults), 132 + sizeof(float)> __GlobalNamespace_LevelCompletionResultsSizeCheck;
   static_assert(sizeof(LevelCompletionResults) == 0x88);
 }
+NEED_NO_BOX(GlobalNamespace::LevelCompletionResults);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelCompletionResults*, "", "LevelCompletionResults");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelCompletionResults::LevelEndStateType, "", "LevelCompletionResults/LevelEndStateType");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelCompletionResults::LevelEndAction, "", "LevelCompletionResults/LevelEndAction");

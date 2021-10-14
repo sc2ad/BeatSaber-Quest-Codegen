@@ -137,6 +137,7 @@ namespace System::Threading::Tasks {
   static check_size<sizeof(TaskScheduler), 16 + sizeof(int)> __System_Threading_Tasks_TaskSchedulerSizeCheck;
   static_assert(sizeof(TaskScheduler) == 0x14);
 }
+NEED_NO_BOX(System::Threading::Tasks::TaskScheduler);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskScheduler*, "System.Threading.Tasks", "TaskScheduler");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::Tasks::TaskScheduler::get_RequiresAtomicStartTransition

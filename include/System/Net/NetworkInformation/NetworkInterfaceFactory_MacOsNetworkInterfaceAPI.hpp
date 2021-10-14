@@ -49,6 +49,7 @@ namespace System::Net::NetworkInformation {
   }; // System.Net.NetworkInformation.NetworkInterfaceFactory/System.Net.NetworkInformation.MacOsNetworkInterfaceAPI
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Net::NetworkInformation::NetworkInterfaceFactory::MacOsNetworkInterfaceAPI);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::NetworkInterfaceFactory::MacOsNetworkInterfaceAPI*, "System.Net.NetworkInformation", "NetworkInterfaceFactory/MacOsNetworkInterfaceAPI");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::NetworkInformation::NetworkInterfaceFactory::MacOsNetworkInterfaceAPI::New_ctor

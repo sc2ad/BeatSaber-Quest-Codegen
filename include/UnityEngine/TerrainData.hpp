@@ -260,6 +260,7 @@ namespace UnityEngine {
   }; // UnityEngine.TerrainData
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::TerrainData);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TerrainData*, "UnityEngine", "TerrainData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TerrainData::get_heightmapResolution

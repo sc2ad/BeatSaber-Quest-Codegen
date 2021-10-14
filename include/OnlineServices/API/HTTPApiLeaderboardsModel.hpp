@@ -116,6 +116,7 @@ namespace OnlineServices::API {
   static check_size<sizeof(HTTPApiLeaderboardsModel), 16 + sizeof(OnlineServices::API::HTTPLeaderboardsOathHelper*)> __OnlineServices_API_HTTPApiLeaderboardsModelSizeCheck;
   static_assert(sizeof(HTTPApiLeaderboardsModel) == 0x18);
 }
+NEED_NO_BOX(OnlineServices::API::HTTPApiLeaderboardsModel);
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPApiLeaderboardsModel*, "OnlineServices.API", "HTTPApiLeaderboardsModel");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OnlineServices::API::HTTPApiLeaderboardsModel::LogoutAsync

@@ -98,6 +98,7 @@ namespace System::Threading::Tasks {
   static check_size<sizeof(Task::$$c__DisplayClass178_0), 44 + sizeof(System::Threading::Tasks::InternalTaskOptions)> __System_Threading_Tasks_Task_$$c__DisplayClass178_0SizeCheck;
   static_assert(sizeof(Task::$$c__DisplayClass178_0) == 0x30);
 }
+NEED_NO_BOX(System::Threading::Tasks::Task::$$c__DisplayClass178_0);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::Task::$$c__DisplayClass178_0*, "System.Threading.Tasks", "Task/<>c__DisplayClass178_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::Tasks::Task::$$c__DisplayClass178_0::$ExecuteSelfReplicating$b__0

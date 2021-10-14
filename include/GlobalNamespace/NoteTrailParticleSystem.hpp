@@ -77,6 +77,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(NoteTrailParticleSystem), 32 + sizeof(UnityEngine::ParticleSystem::EmitParams)> __GlobalNamespace_NoteTrailParticleSystemSizeCheck;
   static_assert(sizeof(NoteTrailParticleSystem) == 0xAF);
 }
+NEED_NO_BOX(GlobalNamespace::NoteTrailParticleSystem);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteTrailParticleSystem*, "", "NoteTrailParticleSystem");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteTrailParticleSystem::Awake

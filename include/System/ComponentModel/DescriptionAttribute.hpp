@@ -84,6 +84,7 @@ namespace System::ComponentModel {
   static check_size<sizeof(DescriptionAttribute), 16 + sizeof(::Il2CppString*)> __System_ComponentModel_DescriptionAttributeSizeCheck;
   static_assert(sizeof(DescriptionAttribute) == 0x18);
 }
+NEED_NO_BOX(System::ComponentModel::DescriptionAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::DescriptionAttribute*, "System.ComponentModel", "DescriptionAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ComponentModel::DescriptionAttribute::get_Description

@@ -60,6 +60,7 @@ namespace UnityEngine {
   static check_size<sizeof(AndroidJavaRunnableProxy), 32 + sizeof(UnityEngine::AndroidJavaRunnable*)> __UnityEngine_AndroidJavaRunnableProxySizeCheck;
   static_assert(sizeof(AndroidJavaRunnableProxy) == 0x28);
 }
+NEED_NO_BOX(UnityEngine::AndroidJavaRunnableProxy);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AndroidJavaRunnableProxy*, "UnityEngine", "AndroidJavaRunnableProxy");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AndroidJavaRunnableProxy::New_ctor

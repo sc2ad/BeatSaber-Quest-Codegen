@@ -377,6 +377,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MainFlowCoordinator), 328 + sizeof(HMUI::FlowCoordinator*)> __GlobalNamespace_MainFlowCoordinatorSizeCheck;
   static_assert(sizeof(MainFlowCoordinator) == 0x150);
 }
+NEED_NO_BOX(GlobalNamespace::MainFlowCoordinator);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainFlowCoordinator*, "", "MainFlowCoordinator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MainFlowCoordinator::PresentFlowCoordinatorOrAskForTutorial

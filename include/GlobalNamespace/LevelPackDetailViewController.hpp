@@ -246,6 +246,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LevelPackDetailViewController), 216 + sizeof(UnityEngine::Sprite*)> __GlobalNamespace_LevelPackDetailViewControllerSizeCheck;
   static_assert(sizeof(LevelPackDetailViewController) == 0xE0);
 }
+NEED_NO_BOX(GlobalNamespace::LevelPackDetailViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelPackDetailViewController*, "", "LevelPackDetailViewController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LevelPackDetailViewController::SetData

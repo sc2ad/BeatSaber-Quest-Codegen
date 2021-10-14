@@ -34,6 +34,7 @@ namespace GlobalNamespace {
     }
   }; // MenuRpcManager/LevelLoadSuccessRpc
 }
+NEED_NO_BOX(GlobalNamespace::MenuRpcManager::LevelLoadSuccessRpc);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuRpcManager::LevelLoadSuccessRpc*, "", "MenuRpcManager/LevelLoadSuccessRpc");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::LevelLoadSuccessRpc::New_ctor

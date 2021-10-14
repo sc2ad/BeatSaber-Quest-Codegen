@@ -121,6 +121,7 @@ namespace System::Text {
   static check_size<sizeof(Encoding::DefaultEncoder), 42 + sizeof(::Il2CppChar)> __System_Text_Encoding_DefaultEncoderSizeCheck;
   static_assert(sizeof(Encoding::DefaultEncoder) == 0x2C);
 }
+NEED_NO_BOX(System::Text::Encoding::DefaultEncoder);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::Encoding::DefaultEncoder*, "System.Text", "Encoding/DefaultEncoder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::Encoding::DefaultEncoder::New_ctor

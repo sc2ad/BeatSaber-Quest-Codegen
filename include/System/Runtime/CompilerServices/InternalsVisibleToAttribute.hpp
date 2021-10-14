@@ -64,6 +64,7 @@ namespace System::Runtime::CompilerServices {
   static check_size<sizeof(InternalsVisibleToAttribute), 24 + sizeof(bool)> __System_Runtime_CompilerServices_InternalsVisibleToAttributeSizeCheck;
   static_assert(sizeof(InternalsVisibleToAttribute) == 0x19);
 }
+NEED_NO_BOX(System::Runtime::CompilerServices::InternalsVisibleToAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::InternalsVisibleToAttribute*, "System.Runtime.CompilerServices", "InternalsVisibleToAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::InternalsVisibleToAttribute::get_AssemblyName

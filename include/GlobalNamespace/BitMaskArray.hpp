@@ -99,6 +99,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BitMaskArray), 24 + sizeof(::ArrayW<uint64_t>)> __GlobalNamespace_BitMaskArraySizeCheck;
   static_assert(sizeof(BitMaskArray) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::BitMaskArray);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BitMaskArray*, "", "BitMaskArray");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BitMaskArray::get_bitCount

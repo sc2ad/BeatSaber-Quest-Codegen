@@ -51,6 +51,7 @@ namespace UnityEngine::UI {
   }; // UnityEngine.UI.PositionAsUV1
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::UI::PositionAsUV1);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::PositionAsUV1*, "UnityEngine.UI", "PositionAsUV1");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::PositionAsUV1::New_ctor

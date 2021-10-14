@@ -76,6 +76,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   static check_size<sizeof(ConnectElements::$$c__DisplayClass2_0), 24 + sizeof(UnityEngine::ProBuilder::ProBuilderMesh*)> __UnityEngine_ProBuilder_MeshOperations_ConnectElements_$$c__DisplayClass2_0SizeCheck;
   static_assert(sizeof(ConnectElements::$$c__DisplayClass2_0) == 0x20);
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c__DisplayClass2_0);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c__DisplayClass2_0*, "UnityEngine.ProBuilder.MeshOperations", "ConnectElements/<>c__DisplayClass2_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c__DisplayClass2_0::$Connect$b__0

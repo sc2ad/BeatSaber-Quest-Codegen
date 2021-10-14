@@ -148,6 +148,7 @@ namespace Zenject {
   static check_size<sizeof(ScriptableObjectInstanceProvider), 64 + sizeof(UnityEngine::Object*)> __Zenject_ScriptableObjectInstanceProviderSizeCheck;
   static_assert(sizeof(ScriptableObjectInstanceProvider) == 0x48);
 }
+NEED_NO_BOX(Zenject::ScriptableObjectInstanceProvider);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ScriptableObjectInstanceProvider*, "Zenject", "ScriptableObjectInstanceProvider");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::ScriptableObjectInstanceProvider::get_IsCached

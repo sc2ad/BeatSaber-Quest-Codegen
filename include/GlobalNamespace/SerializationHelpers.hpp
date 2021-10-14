@@ -85,6 +85,7 @@ namespace GlobalNamespace {
   }; // SerializationHelpers
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::SerializationHelpers);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SerializationHelpers*, "", "SerializationHelpers");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SerializationHelpers::DeserializeData

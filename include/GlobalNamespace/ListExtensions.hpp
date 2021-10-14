@@ -64,6 +64,7 @@ namespace GlobalNamespace {
   }; // ListExtensions
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::ListExtensions);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ListExtensions*, "", "ListExtensions");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ListExtensions::_cctor

@@ -169,6 +169,7 @@ namespace LiteNetLib {
   static check_size<sizeof(ConnectionRequest), 64 + sizeof(System::Net::IPEndPoint*)> __LiteNetLib_ConnectionRequestSizeCheck;
   static_assert(sizeof(ConnectionRequest) == 0x48);
 }
+NEED_NO_BOX(LiteNetLib::ConnectionRequest);
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::ConnectionRequest*, "LiteNetLib", "ConnectionRequest");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::ConnectionRequest::get_Result

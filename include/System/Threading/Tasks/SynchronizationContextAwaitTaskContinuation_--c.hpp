@@ -43,6 +43,7 @@ namespace System::Threading::Tasks {
   }; // System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation/System.Threading.Tasks.<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation::$$c);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation::$$c*, "System.Threading.Tasks", "SynchronizationContextAwaitTaskContinuation/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation::$$c::_cctor

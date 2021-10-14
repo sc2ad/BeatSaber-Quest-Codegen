@@ -69,6 +69,7 @@ namespace System::Runtime::Remoting::Activation {
   static check_size<sizeof(ContextLevelActivator), 16 + sizeof(System::Runtime::Remoting::Activation::IActivator*)> __System_Runtime_Remoting_Activation_ContextLevelActivatorSizeCheck;
   static_assert(sizeof(ContextLevelActivator) == 0x18);
 }
+NEED_NO_BOX(System::Runtime::Remoting::Activation::ContextLevelActivator);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Activation::ContextLevelActivator*, "System.Runtime.Remoting.Activation", "ContextLevelActivator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Activation::ContextLevelActivator::get_NextActivator

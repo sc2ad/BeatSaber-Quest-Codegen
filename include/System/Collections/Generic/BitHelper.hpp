@@ -87,6 +87,7 @@ namespace System::Collections::Generic {
   static check_size<sizeof(BitHelper), 40 + sizeof(bool)> __System_Collections_Generic_BitHelperSizeCheck;
   static_assert(sizeof(BitHelper) == 0x29);
 }
+NEED_NO_BOX(System::Collections::Generic::BitHelper);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Generic::BitHelper*, "System.Collections.Generic", "BitHelper");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::Generic::BitHelper::New_ctor

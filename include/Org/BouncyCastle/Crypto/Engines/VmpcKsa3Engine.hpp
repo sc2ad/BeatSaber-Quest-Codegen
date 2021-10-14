@@ -39,6 +39,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
   }; // Org.BouncyCastle.Crypto.Engines.VmpcKsa3Engine
   #pragma pack(pop)
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Engines::VmpcKsa3Engine);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::VmpcKsa3Engine*, "Org.BouncyCastle.Crypto.Engines", "VmpcKsa3Engine");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::VmpcKsa3Engine::New_ctor

@@ -176,6 +176,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(TutorialController), 81 + sizeof(bool)> __GlobalNamespace_TutorialControllerSizeCheck;
   static_assert(sizeof(TutorialController) == 0x52);
 }
+NEED_NO_BOX(GlobalNamespace::TutorialController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialController*, "", "TutorialController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TutorialController::Start

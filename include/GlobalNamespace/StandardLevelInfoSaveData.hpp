@@ -256,6 +256,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(StandardLevelInfoSaveData), 112 + sizeof(::ArrayW<GlobalNamespace::StandardLevelInfoSaveData::DifficultyBeatmapSet*>)> __GlobalNamespace_StandardLevelInfoSaveDataSizeCheck;
   static_assert(sizeof(StandardLevelInfoSaveData) == 0x78);
 }
+NEED_NO_BOX(GlobalNamespace::StandardLevelInfoSaveData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelInfoSaveData*, "", "StandardLevelInfoSaveData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelInfoSaveData::get_version

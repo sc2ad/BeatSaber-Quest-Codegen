@@ -127,6 +127,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(InteractionTrigger::CharacterPosition), 41 + sizeof(bool)> __RootMotion_FinalIK_InteractionTrigger_CharacterPositionSizeCheck;
   static_assert(sizeof(InteractionTrigger::CharacterPosition) == 0x2A);
 }
+NEED_NO_BOX(RootMotion::FinalIK::InteractionTrigger::CharacterPosition);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionTrigger::CharacterPosition*, "RootMotion.FinalIK", "InteractionTrigger/CharacterPosition");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionTrigger::CharacterPosition::get_offset3D

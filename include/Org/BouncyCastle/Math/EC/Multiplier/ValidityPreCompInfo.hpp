@@ -93,6 +93,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
   static check_size<sizeof(ValidityPreCompInfo), 18 + sizeof(bool)> __Org_BouncyCastle_Math_EC_Multiplier_ValidityPreCompInfoSizeCheck;
   static_assert(sizeof(ValidityPreCompInfo) == 0x13);
 }
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo*, "Org.BouncyCastle.Math.EC.Multiplier", "ValidityPreCompInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::_cctor

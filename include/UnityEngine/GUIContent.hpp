@@ -136,6 +136,7 @@ namespace UnityEngine {
   static check_size<sizeof(GUIContent), 32 + sizeof(::Il2CppString*)> __UnityEngine_GUIContentSizeCheck;
   static_assert(sizeof(GUIContent) == 0x28);
 }
+NEED_NO_BOX(UnityEngine::GUIContent);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUIContent*, "UnityEngine", "GUIContent");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::GUIContent::get_text

@@ -89,6 +89,7 @@ namespace HMUI {
   static check_size<sizeof(Screen), 32 + sizeof(bool)> __HMUI_ScreenSizeCheck;
   static_assert(sizeof(Screen) == 0x21);
 }
+NEED_NO_BOX(HMUI::Screen);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::Screen*, "HMUI", "Screen");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::Screen::get_isBeingDestroyed

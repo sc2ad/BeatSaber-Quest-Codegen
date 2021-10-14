@@ -61,6 +61,7 @@ namespace System::Net {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Net::Dns);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Dns*, "System.Net", "Dns");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Dns::GetHostByName_internal

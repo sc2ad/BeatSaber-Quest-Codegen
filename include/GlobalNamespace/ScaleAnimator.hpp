@@ -146,6 +146,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ScaleAnimator), 64 + sizeof(bool)> __GlobalNamespace_ScaleAnimatorSizeCheck;
   static_assert(sizeof(ScaleAnimator) == 0x41);
 }
+NEED_NO_BOX(GlobalNamespace::ScaleAnimator);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScaleAnimator*, "", "ScaleAnimator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ScaleAnimator::OnDestroy

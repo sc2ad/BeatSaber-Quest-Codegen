@@ -138,6 +138,7 @@ namespace Mono::Net {
   static check_size<sizeof(CFProxy), 16 + sizeof(Mono::Net::CFDictionary*)> __Mono_Net_CFProxySizeCheck;
   static_assert(sizeof(CFProxy) == 0x18);
 }
+NEED_NO_BOX(Mono::Net::CFProxy);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFProxy*, "Mono.Net", "CFProxy");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Net::CFProxy::get_AutoConfigurationJavaScript

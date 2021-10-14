@@ -120,6 +120,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
   static check_size<sizeof(Cast6Engine), 88 + sizeof(::ArrayW<uint>)> __Org_BouncyCastle_Crypto_Engines_Cast6EngineSizeCheck;
   static_assert(sizeof(Cast6Engine) == 0x60);
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Engines::Cast6Engine);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::Cast6Engine*, "Org.BouncyCastle.Crypto.Engines", "Cast6Engine");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::Cast6Engine::CAST_Encipher

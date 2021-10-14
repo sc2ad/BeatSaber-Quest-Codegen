@@ -189,6 +189,7 @@ namespace System::Net {
   static check_size<sizeof(ListenerAsyncResult), 81 + sizeof(bool)> __System_Net_ListenerAsyncResultSizeCheck;
   static_assert(sizeof(ListenerAsyncResult) == 0x52);
 }
+NEED_NO_BOX(System::Net::ListenerAsyncResult);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::ListenerAsyncResult*, "System.Net", "ListenerAsyncResult");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::ListenerAsyncResult::get_AsyncState

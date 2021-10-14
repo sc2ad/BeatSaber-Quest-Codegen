@@ -331,6 +331,7 @@ namespace UnityEngine::ProBuilder {
   // Offset: 0x24DBC5C
   UnityEngine::ProBuilder::Vertex* operator/(UnityEngine::ProBuilder::Vertex& a, const float& value);
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::Vertex);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Vertex*, "UnityEngine.ProBuilder", "Vertex");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Vertex::get_position

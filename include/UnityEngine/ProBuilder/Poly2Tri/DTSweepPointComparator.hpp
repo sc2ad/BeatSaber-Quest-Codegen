@@ -46,6 +46,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   }; // UnityEngine.ProBuilder.Poly2Tri.DTSweepPointComparator
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::Poly2Tri::DTSweepPointComparator);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::DTSweepPointComparator*, "UnityEngine.ProBuilder.Poly2Tri", "DTSweepPointComparator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::DTSweepPointComparator::Compare

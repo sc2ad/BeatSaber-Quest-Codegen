@@ -69,6 +69,7 @@ namespace Org::BouncyCastle::Math::EC {
   }; // Org.BouncyCastle.Math.EC.AbstractFpPoint
   #pragma pack(pop)
 }
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::AbstractFpPoint);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::AbstractFpPoint*, "Org.BouncyCastle.Math.EC", "AbstractFpPoint");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::AbstractFpPoint::get_CompressionYTilde

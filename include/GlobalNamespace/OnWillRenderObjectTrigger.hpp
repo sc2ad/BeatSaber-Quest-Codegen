@@ -119,6 +119,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OnWillRenderObjectTrigger), 64 + sizeof(UnityEngine::MeshRenderer*)> __GlobalNamespace_OnWillRenderObjectTriggerSizeCheck;
   static_assert(sizeof(OnWillRenderObjectTrigger) == 0x48);
 }
+NEED_NO_BOX(GlobalNamespace::OnWillRenderObjectTrigger);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OnWillRenderObjectTrigger*, "", "OnWillRenderObjectTrigger");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OnWillRenderObjectTrigger::OnEnable

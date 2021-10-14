@@ -80,6 +80,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(TrackLaneRingsRotationEffect::RingRotationEffect), 32 + sizeof(int)> __GlobalNamespace_TrackLaneRingsRotationEffect_RingRotationEffectSizeCheck;
   static_assert(sizeof(TrackLaneRingsRotationEffect::RingRotationEffect) == 0x24);
 }
+NEED_NO_BOX(GlobalNamespace::TrackLaneRingsRotationEffect::RingRotationEffect);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrackLaneRingsRotationEffect::RingRotationEffect*, "", "TrackLaneRingsRotationEffect/RingRotationEffect");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TrackLaneRingsRotationEffect::RingRotationEffect::New_ctor

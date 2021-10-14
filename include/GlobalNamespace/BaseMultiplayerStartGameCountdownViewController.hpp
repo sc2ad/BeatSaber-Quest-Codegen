@@ -144,6 +144,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BaseMultiplayerStartGameCountdownViewController), 144 + sizeof(HMUI::ToggleBinder*)> __GlobalNamespace_BaseMultiplayerStartGameCountdownViewControllerSizeCheck;
   static_assert(sizeof(BaseMultiplayerStartGameCountdownViewController) == 0x98);
 }
+NEED_NO_BOX(GlobalNamespace::BaseMultiplayerStartGameCountdownViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BaseMultiplayerStartGameCountdownViewController*, "", "BaseMultiplayerStartGameCountdownViewController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::add_playerActiveStateChangedEvent

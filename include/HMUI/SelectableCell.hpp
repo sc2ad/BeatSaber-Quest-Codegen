@@ -247,6 +247,7 @@ namespace HMUI {
   static check_size<sizeof(SelectableCell), 57 + sizeof(bool)> __HMUI_SelectableCellSizeCheck;
   static_assert(sizeof(SelectableCell) == 0x3A);
 }
+NEED_NO_BOX(HMUI::SelectableCell);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SelectableCell*, "HMUI", "SelectableCell");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SelectableCell::TransitionType, "HMUI", "SelectableCell/TransitionType");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

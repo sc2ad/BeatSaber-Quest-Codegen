@@ -103,6 +103,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BackgroundTextureGradientSwitchEventEffect), 48 + sizeof(GlobalNamespace::IBeatmapObjectCallbackController*)> __GlobalNamespace_BackgroundTextureGradientSwitchEventEffectSizeCheck;
   static_assert(sizeof(BackgroundTextureGradientSwitchEventEffect) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::BackgroundTextureGradientSwitchEventEffect);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BackgroundTextureGradientSwitchEventEffect*, "", "BackgroundTextureGradientSwitchEventEffect");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::Start

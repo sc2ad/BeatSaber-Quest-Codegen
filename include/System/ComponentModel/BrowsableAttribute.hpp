@@ -79,6 +79,7 @@ namespace System::ComponentModel {
   static check_size<sizeof(BrowsableAttribute), 16 + sizeof(bool)> __System_ComponentModel_BrowsableAttributeSizeCheck;
   static_assert(sizeof(BrowsableAttribute) == 0x11);
 }
+NEED_NO_BOX(System::ComponentModel::BrowsableAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::BrowsableAttribute*, "System.ComponentModel", "BrowsableAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ComponentModel::BrowsableAttribute::get_Browsable

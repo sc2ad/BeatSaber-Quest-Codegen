@@ -35,6 +35,7 @@ namespace NUnit::Framework {
   }; // NUnit.Framework.CombinatorialAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(NUnit::Framework::CombinatorialAttribute);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::CombinatorialAttribute*, "NUnit.Framework", "CombinatorialAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::CombinatorialAttribute::New_ctor

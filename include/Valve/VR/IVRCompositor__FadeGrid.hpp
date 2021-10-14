@@ -51,6 +51,7 @@ namespace Valve::VR {
   }; // Valve.VR.IVRCompositor/Valve.VR._FadeGrid
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::IVRCompositor::_FadeGrid);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRCompositor::_FadeGrid*, "Valve.VR", "IVRCompositor/_FadeGrid");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRCompositor::_FadeGrid::New_ctor

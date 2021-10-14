@@ -688,6 +688,7 @@ namespace LiteNetLib {
   static check_size<sizeof(NetManager), 236 + sizeof(System::Threading::ThreadPriority)> __LiteNetLib_NetManagerSizeCheck;
   static_assert(sizeof(NetManager) == 0xF0);
 }
+NEED_NO_BOX(LiteNetLib::NetManager);
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetManager*, "LiteNetLib", "NetManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::NetManager::get_IsRunning

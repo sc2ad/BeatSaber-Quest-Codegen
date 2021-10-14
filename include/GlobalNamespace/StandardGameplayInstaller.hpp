@@ -67,6 +67,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(StandardGameplayInstaller), 32 + sizeof(GlobalNamespace::StandardGameplaySceneSetupData*)> __GlobalNamespace_StandardGameplayInstallerSizeCheck;
   static_assert(sizeof(StandardGameplayInstaller) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::StandardGameplayInstaller);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardGameplayInstaller*, "", "StandardGameplayInstaller");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::StandardGameplayInstaller::New_ctor

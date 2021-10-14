@@ -79,6 +79,7 @@ namespace TMPro {
   static check_size<sizeof(TMP_MaterialManager::MaskingMaterial), 36 + sizeof(int)> __TMPro_TMP_MaterialManager_MaskingMaterialSizeCheck;
   static_assert(sizeof(TMP_MaterialManager::MaskingMaterial) == 0x28);
 }
+NEED_NO_BOX(TMPro::TMP_MaterialManager::MaskingMaterial);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_MaterialManager::MaskingMaterial*, "TMPro", "TMP_MaterialManager/MaskingMaterial");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_MaterialManager::MaskingMaterial::New_ctor

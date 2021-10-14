@@ -275,6 +275,7 @@ namespace System::Text::RegularExpressions {
   static check_size<sizeof(RegexInterpreter), 192 + sizeof(System::Globalization::CultureInfo*)> __System_Text_RegularExpressions_RegexInterpreterSizeCheck;
   static_assert(sizeof(RegexInterpreter) == 0xC8);
 }
+NEED_NO_BOX(System::Text::RegularExpressions::RegexInterpreter);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexInterpreter*, "System.Text.RegularExpressions", "RegexInterpreter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::New_ctor

@@ -71,6 +71,7 @@ namespace UnityEngine::EventSystems {
   static check_size<sizeof(OVRPointerEventData), 328 + sizeof(UnityEngine::Vector2)> __UnityEngine_EventSystems_OVRPointerEventDataSizeCheck;
   static_assert(sizeof(OVRPointerEventData) == 0x150);
 }
+NEED_NO_BOX(UnityEngine::EventSystems::OVRPointerEventData);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::OVRPointerEventData*, "UnityEngine.EventSystems", "OVRPointerEventData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRPointerEventData::New_ctor

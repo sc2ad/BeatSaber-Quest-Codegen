@@ -242,6 +242,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(HealthWarningFlowCoordinator), 264 + sizeof(System::Collections::Generic::Dictionary_2<HMUI::ViewController*, ::Il2CppString*>*)> __GlobalNamespace_HealthWarningFlowCoordinatorSizeCheck;
   static_assert(sizeof(HealthWarningFlowCoordinator) == 0x110);
 }
+NEED_NO_BOX(GlobalNamespace::HealthWarningFlowCoordinator);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HealthWarningFlowCoordinator*, "", "HealthWarningFlowCoordinator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HealthWarningFlowCoordinator::GetEulaOrHealthWarningViewController

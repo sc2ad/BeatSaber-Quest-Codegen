@@ -182,6 +182,7 @@ namespace NUnit::Framework::Interfaces {
   static check_size<sizeof(TNode), 48 + sizeof(NUnit::Framework::Interfaces::NodeList*)> __NUnit_Framework_Interfaces_TNodeSizeCheck;
   static_assert(sizeof(TNode) == 0x38);
 }
+NEED_NO_BOX(NUnit::Framework::Interfaces::TNode);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::TNode*, "NUnit.Framework.Interfaces", "TNode");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::TNode::get_Name

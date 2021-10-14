@@ -300,6 +300,7 @@ namespace System::Runtime::Remoting::Messaging {
   static check_size<sizeof(MethodResponse), 128 + sizeof(System::Collections::IDictionary*)> __System_Runtime_Remoting_Messaging_MethodResponseSizeCheck;
   static_assert(sizeof(MethodResponse) == 0x88);
 }
+NEED_NO_BOX(System::Runtime::Remoting::Messaging::MethodResponse);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::MethodResponse*, "System.Runtime.Remoting.Messaging", "MethodResponse");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::MethodResponse::get_ArgCount

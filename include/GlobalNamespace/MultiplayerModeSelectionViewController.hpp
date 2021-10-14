@@ -228,6 +228,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerModeSelectionViewController), 168 + sizeof(System::Action_2<GlobalNamespace::MultiplayerModeSelectionViewController*, GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton>*)> __GlobalNamespace_MultiplayerModeSelectionViewControllerSizeCheck;
   static_assert(sizeof(MultiplayerModeSelectionViewController) == 0xB0);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerModeSelectionViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerModeSelectionViewController*, "", "MultiplayerModeSelectionViewController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton, "", "MultiplayerModeSelectionViewController/MenuButton");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

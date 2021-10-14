@@ -74,6 +74,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(KeyboardShortcutsManager::KeyboardShortcut), 24 + sizeof(UnityEngine::KeyCode)> __GlobalNamespace_KeyboardShortcutsManager_KeyboardShortcutSizeCheck;
   static_assert(sizeof(KeyboardShortcutsManager::KeyboardShortcut) == 0x1C);
 }
+NEED_NO_BOX(GlobalNamespace::KeyboardShortcutsManager::KeyboardShortcut);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::KeyboardShortcutsManager::KeyboardShortcut*, "", "KeyboardShortcutsManager/KeyboardShortcut");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::KeyboardShortcutsManager::KeyboardShortcut::New_ctor

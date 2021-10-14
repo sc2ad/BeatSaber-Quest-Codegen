@@ -386,6 +386,7 @@ namespace System::Text {
   static check_size<sizeof(Encoding), 48 + sizeof(System::Text::DecoderFallback*)> __System_Text_EncodingSizeCheck;
   static_assert(sizeof(Encoding) == 0x38);
 }
+NEED_NO_BOX(System::Text::Encoding);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::Encoding*, "System.Text", "Encoding");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::Encoding::get_InternalSyncObject

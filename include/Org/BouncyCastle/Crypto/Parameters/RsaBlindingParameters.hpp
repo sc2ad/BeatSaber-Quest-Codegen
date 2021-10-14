@@ -48,6 +48,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   static_assert(sizeof(RsaBlindingParameters) == 0x18);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters*, "Org.BouncyCastle.Crypto.Parameters", "RsaBlindingParameters");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters::get_PublicKey

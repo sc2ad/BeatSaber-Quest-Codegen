@@ -124,6 +124,7 @@ namespace Org::BouncyCastle::Math::EC::Endo {
   static check_size<sizeof(ScalarSplitParameters), 64 + sizeof(int)> __Org_BouncyCastle_Math_EC_Endo_ScalarSplitParametersSizeCheck;
   static_assert(sizeof(ScalarSplitParameters) == 0x44);
 }
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters*, "Org.BouncyCastle.Math.EC.Endo", "ScalarSplitParameters");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::get_V1A

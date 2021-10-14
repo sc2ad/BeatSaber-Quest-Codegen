@@ -104,6 +104,7 @@ namespace UnityEngine::TestRunner::Utils {
   static check_size<sizeof(TestRunCallbackListener), 24 + sizeof(::ArrayW<UnityEngine::TestRunner::ITestRunCallback*>)> __UnityEngine_TestRunner_Utils_TestRunCallbackListenerSizeCheck;
   static_assert(sizeof(TestRunCallbackListener) == 0x20);
 }
+NEED_NO_BOX(UnityEngine::TestRunner::Utils::TestRunCallbackListener);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::Utils::TestRunCallbackListener*, "UnityEngine.TestRunner.Utils", "TestRunCallbackListener");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestRunner::Utils::TestRunCallbackListener::RunStarted

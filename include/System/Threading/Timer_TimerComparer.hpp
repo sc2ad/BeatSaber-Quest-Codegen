@@ -41,6 +41,7 @@ namespace System::Threading {
   }; // System.Threading.Timer/System.Threading.TimerComparer
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Threading::Timer::TimerComparer);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Timer::TimerComparer*, "System.Threading", "Timer/TimerComparer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::Timer::TimerComparer::Compare

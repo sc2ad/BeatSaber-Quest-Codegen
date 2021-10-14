@@ -377,6 +377,7 @@ namespace System::Net {
   static check_size<sizeof(Cookie), 153 + sizeof(bool)> __System_Net_CookieSizeCheck;
   static_assert(sizeof(Cookie) == 0x9A);
 }
+NEED_NO_BOX(System::Net::Cookie);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Cookie*, "System.Net", "Cookie");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Cookie::get_Comment

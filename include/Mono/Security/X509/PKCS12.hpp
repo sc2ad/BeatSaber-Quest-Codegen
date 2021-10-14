@@ -264,6 +264,7 @@ namespace Mono::Security::X509 {
   static check_size<sizeof(PKCS12), 64 + sizeof(System::Security::Cryptography::RandomNumberGenerator*)> __Mono_Security_X509_PKCS12SizeCheck;
   static_assert(sizeof(PKCS12) == 0x48);
 }
+NEED_NO_BOX(Mono::Security::X509::PKCS12);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::PKCS12*, "Mono.Security.X509", "PKCS12");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Security::X509::PKCS12::set_Password

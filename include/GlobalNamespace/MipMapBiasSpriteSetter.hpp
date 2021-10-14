@@ -73,6 +73,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MipMapBiasSpriteSetter), 32 + sizeof(float)> __GlobalNamespace_MipMapBiasSpriteSetterSizeCheck;
   static_assert(sizeof(MipMapBiasSpriteSetter) == 0x24);
 }
+NEED_NO_BOX(GlobalNamespace::MipMapBiasSpriteSetter);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MipMapBiasSpriteSetter*, "", "MipMapBiasSpriteSetter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MipMapBiasSpriteSetter::Start

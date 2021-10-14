@@ -74,6 +74,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ResetLocalLeaderboardOnKey), 32 + sizeof(UnityEngine::KeyCode)> __GlobalNamespace_ResetLocalLeaderboardOnKeySizeCheck;
   static_assert(sizeof(ResetLocalLeaderboardOnKey) == 0x24);
 }
+NEED_NO_BOX(GlobalNamespace::ResetLocalLeaderboardOnKey);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResetLocalLeaderboardOnKey*, "", "ResetLocalLeaderboardOnKey");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ResetLocalLeaderboardOnKey::Update

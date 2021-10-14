@@ -57,6 +57,7 @@ namespace LiteNetLib {
   }; // LiteNetLib.EventBasedNetListener/LiteNetLib.OnPeerDisconnected
   #pragma pack(pop)
 }
+NEED_NO_BOX(LiteNetLib::EventBasedNetListener::OnPeerDisconnected);
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::EventBasedNetListener::OnPeerDisconnected*, "LiteNetLib", "EventBasedNetListener/OnPeerDisconnected");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::EventBasedNetListener::OnPeerDisconnected::New_ctor

@@ -76,6 +76,7 @@ namespace NUnit::Framework::Internal {
   static check_size<sizeof(Reflect::$$c__DisplayClass9_0), 32 + sizeof(::ArrayW<::Il2CppObject*>)> __NUnit_Framework_Internal_Reflect_$$c__DisplayClass9_0SizeCheck;
   static_assert(sizeof(Reflect::$$c__DisplayClass9_0) == 0x28);
 }
+NEED_NO_BOX(NUnit::Framework::Internal::Reflect::$$c__DisplayClass9_0);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Reflect::$$c__DisplayClass9_0*, "NUnit.Framework.Internal", "Reflect/<>c__DisplayClass9_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Reflect::$$c__DisplayClass9_0::$InvokeMethod$b__0

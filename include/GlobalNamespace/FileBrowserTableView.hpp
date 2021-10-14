@@ -157,6 +157,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(FileBrowserTableView), 56 + sizeof(::ArrayW<GlobalNamespace::FileBrowserItem*>)> __GlobalNamespace_FileBrowserTableViewSizeCheck;
   static_assert(sizeof(FileBrowserTableView) == 0x40);
 }
+NEED_NO_BOX(GlobalNamespace::FileBrowserTableView);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FileBrowserTableView*, "", "FileBrowserTableView");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FileBrowserTableView::add_didSelectRow

@@ -52,6 +52,7 @@ namespace UnityEngine::Serialization {
   static check_size<sizeof(FormerlySerializedAsAttribute), 16 + sizeof(::Il2CppString*)> __UnityEngine_Serialization_FormerlySerializedAsAttributeSizeCheck;
   static_assert(sizeof(FormerlySerializedAsAttribute) == 0x18);
 }
+NEED_NO_BOX(UnityEngine::Serialization::FormerlySerializedAsAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Serialization::FormerlySerializedAsAttribute*, "UnityEngine.Serialization", "FormerlySerializedAsAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Serialization::FormerlySerializedAsAttribute::New_ctor

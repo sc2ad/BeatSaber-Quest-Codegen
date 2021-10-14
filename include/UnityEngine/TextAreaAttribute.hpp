@@ -55,6 +55,7 @@ namespace UnityEngine {
   static check_size<sizeof(TextAreaAttribute), 20 + sizeof(int)> __UnityEngine_TextAreaAttributeSizeCheck;
   static_assert(sizeof(TextAreaAttribute) == 0x18);
 }
+NEED_NO_BOX(UnityEngine::TextAreaAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextAreaAttribute*, "UnityEngine", "TextAreaAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TextAreaAttribute::New_ctor

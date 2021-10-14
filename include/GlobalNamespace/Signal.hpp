@@ -74,6 +74,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(Signal), 24 + sizeof(System::Action*)> __GlobalNamespace_SignalSizeCheck;
   static_assert(sizeof(Signal) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::Signal);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Signal*, "", "Signal");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::Signal::add__event

@@ -184,6 +184,7 @@ namespace Zenject {
   static check_size<sizeof(Context), 56 + sizeof(System::Collections::Generic::List_1<System::Type*>*)> __Zenject_ContextSizeCheck;
   static_assert(sizeof(Context) == 0x40);
 }
+NEED_NO_BOX(Zenject::Context);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Context*, "Zenject", "Context");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::Context::get_Installers

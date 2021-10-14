@@ -776,6 +776,7 @@ namespace UnityEngine::ResourceManagement {
   static check_size<sizeof(ResourceManager), 176 + sizeof(System::Collections::Generic::Dictionary_2<System::Type*, System::Type*>*)> __UnityEngine_ResourceManagement_ResourceManagerSizeCheck;
   static_assert(sizeof(ResourceManager) == 0xB8);
 }
+NEED_NO_BOX(UnityEngine::ResourceManagement::ResourceManager);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceManager*, "UnityEngine.ResourceManagement", "ResourceManager");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType, "UnityEngine.ResourceManagement", "ResourceManager/DiagnosticEventType");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventContext, "UnityEngine.ResourceManagement", "ResourceManager/DiagnosticEventContext");

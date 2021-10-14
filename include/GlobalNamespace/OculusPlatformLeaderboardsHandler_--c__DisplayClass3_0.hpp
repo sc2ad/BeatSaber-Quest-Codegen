@@ -72,6 +72,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OculusPlatformLeaderboardsHandler::$$c__DisplayClass3_0), 24 + sizeof(Oculus::Platform::Request*)> __GlobalNamespace_OculusPlatformLeaderboardsHandler_$$c__DisplayClass3_0SizeCheck;
   static_assert(sizeof(OculusPlatformLeaderboardsHandler::$$c__DisplayClass3_0) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::OculusPlatformLeaderboardsHandler::$$c__DisplayClass3_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformLeaderboardsHandler::$$c__DisplayClass3_0*, "", "OculusPlatformLeaderboardsHandler/<>c__DisplayClass3_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OculusPlatformLeaderboardsHandler::$$c__DisplayClass3_0::$AddOculusRequest$b__0

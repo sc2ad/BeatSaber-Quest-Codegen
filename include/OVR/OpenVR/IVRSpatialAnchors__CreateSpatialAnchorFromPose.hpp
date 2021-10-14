@@ -60,6 +60,7 @@ namespace OVR::OpenVR {
   }; // OVR.OpenVR.IVRSpatialAnchors/OVR.OpenVR._CreateSpatialAnchorFromPose
   #pragma pack(pop)
 }
+NEED_NO_BOX(OVR::OpenVR::IVRSpatialAnchors::_CreateSpatialAnchorFromPose);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRSpatialAnchors::_CreateSpatialAnchorFromPose*, "OVR.OpenVR", "IVRSpatialAnchors/_CreateSpatialAnchorFromPose");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVRSpatialAnchors::_CreateSpatialAnchorFromPose::New_ctor

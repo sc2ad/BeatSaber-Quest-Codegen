@@ -77,6 +77,7 @@ namespace VRUIControls {
   static check_size<sizeof(MouseState), 16 + sizeof(System::Collections::Generic::List_1<VRUIControls::ButtonState*>*)> __VRUIControls_MouseStateSizeCheck;
   static_assert(sizeof(MouseState) == 0x18);
 }
+NEED_NO_BOX(VRUIControls::MouseState);
 DEFINE_IL2CPP_ARG_TYPE(VRUIControls::MouseState*, "VRUIControls", "MouseState");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: VRUIControls::MouseState::AnyPressesThisFrame

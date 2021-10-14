@@ -35,6 +35,7 @@ namespace GlobalNamespace {
   }; // GameplayRpcManager/ReturnToMenuRpc
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::GameplayRpcManager::ReturnToMenuRpc);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayRpcManager::ReturnToMenuRpc*, "", "GameplayRpcManager/ReturnToMenuRpc");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameplayRpcManager::ReturnToMenuRpc::New_ctor

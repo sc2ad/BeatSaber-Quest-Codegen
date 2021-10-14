@@ -62,6 +62,7 @@ namespace System {
   }; // System.OutOfMemoryException
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::OutOfMemoryException);
 DEFINE_IL2CPP_ARG_TYPE(System::OutOfMemoryException*, "System", "OutOfMemoryException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::OutOfMemoryException::New_ctor

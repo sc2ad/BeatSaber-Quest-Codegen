@@ -48,6 +48,7 @@ namespace Zenject {
   }; // Zenject.ZenMemberSetterMethod
   #pragma pack(pop)
 }
+NEED_NO_BOX(Zenject::ZenMemberSetterMethod);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenMemberSetterMethod*, "Zenject", "ZenMemberSetterMethod");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::ZenMemberSetterMethod::New_ctor

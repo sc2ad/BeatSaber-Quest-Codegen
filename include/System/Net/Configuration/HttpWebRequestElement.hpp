@@ -44,6 +44,7 @@ namespace System::Net::Configuration {
   }; // System.Net.Configuration.HttpWebRequestElement
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Net::Configuration::HttpWebRequestElement);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Configuration::HttpWebRequestElement*, "System.Net.Configuration", "HttpWebRequestElement");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Configuration::HttpWebRequestElement::get_Properties

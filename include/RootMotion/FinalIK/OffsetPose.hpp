@@ -74,6 +74,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(OffsetPose), 24 + sizeof(::ArrayW<RootMotion::FinalIK::OffsetPose::EffectorLink*>)> __RootMotion_FinalIK_OffsetPoseSizeCheck;
   static_assert(sizeof(OffsetPose) == 0x20);
 }
+NEED_NO_BOX(RootMotion::FinalIK::OffsetPose);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::OffsetPose*, "RootMotion.FinalIK", "OffsetPose");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::OffsetPose::Apply

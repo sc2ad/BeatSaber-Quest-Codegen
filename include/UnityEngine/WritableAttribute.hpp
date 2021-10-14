@@ -35,6 +35,7 @@ namespace UnityEngine {
   }; // UnityEngine.WritableAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::WritableAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::WritableAttribute*, "UnityEngine", "WritableAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::WritableAttribute::New_ctor

@@ -55,6 +55,7 @@ namespace GlobalNamespace {
   }; // LocalizedTextAsset/<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::LocalizedTextAsset::$$c);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalizedTextAsset::$$c*, "", "LocalizedTextAsset/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LocalizedTextAsset::$$c::_cctor

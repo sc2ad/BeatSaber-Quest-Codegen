@@ -179,6 +179,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(AudioManagerSO), 52 + sizeof(bool)> __GlobalNamespace_AudioManagerSOSizeCheck;
   static_assert(sizeof(AudioManagerSO) == 0x35);
 }
+NEED_NO_BOX(GlobalNamespace::AudioManagerSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioManagerSO*, "", "AudioManagerSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AudioManagerSO::get_sfxLatency

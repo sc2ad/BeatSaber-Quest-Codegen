@@ -81,6 +81,7 @@ namespace System::Collections {
   }; // System.Collections.EmptyReadOnlyDictionaryInternal
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Collections::EmptyReadOnlyDictionaryInternal);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::EmptyReadOnlyDictionaryInternal*, "System.Collections", "EmptyReadOnlyDictionaryInternal");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::EmptyReadOnlyDictionaryInternal::get_Count

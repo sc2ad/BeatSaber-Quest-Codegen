@@ -225,6 +225,7 @@ namespace UnityEngine {
   static check_size<sizeof(DetailPrototype), 92 + sizeof(int)> __UnityEngine_DetailPrototypeSizeCheck;
   static_assert(sizeof(DetailPrototype) == 0x60);
 }
+NEED_NO_BOX(UnityEngine::DetailPrototype);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::DetailPrototype*, "UnityEngine", "DetailPrototype");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::DetailPrototype::set_prototype

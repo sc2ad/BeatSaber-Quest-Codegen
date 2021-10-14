@@ -340,6 +340,7 @@ namespace HoudiniEngineUnity {
   // Offset: 0x16E7CF0
   bool operator !=(HoudiniEngineUnity::JSONNode* a, ::Il2CppObject& b);
 }
+NEED_NO_BOX(HoudiniEngineUnity::JSONNode);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::JSONNode*, "HoudiniEngineUnity", "JSONNode");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONNode::get_Tag

@@ -111,6 +111,7 @@ namespace System::Text {
   static check_size<sizeof(EncoderFallbackException), 152 + sizeof(int)> __System_Text_EncoderFallbackExceptionSizeCheck;
   static_assert(sizeof(EncoderFallbackException) == 0x9C);
 }
+NEED_NO_BOX(System::Text::EncoderFallbackException);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::EncoderFallbackException*, "System.Text", "EncoderFallbackException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::EncoderFallbackException::New_ctor

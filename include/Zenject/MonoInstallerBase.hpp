@@ -83,6 +83,7 @@ namespace Zenject {
   static check_size<sizeof(MonoInstallerBase), 24 + sizeof(Zenject::DiContainer*)> __Zenject_MonoInstallerBaseSizeCheck;
   static_assert(sizeof(MonoInstallerBase) == 0x20);
 }
+NEED_NO_BOX(Zenject::MonoInstallerBase);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::MonoInstallerBase*, "Zenject", "MonoInstallerBase");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::MonoInstallerBase::get_Container

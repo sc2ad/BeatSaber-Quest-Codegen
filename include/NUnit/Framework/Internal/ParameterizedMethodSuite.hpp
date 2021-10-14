@@ -64,6 +64,7 @@ namespace NUnit::Framework::Internal {
   static check_size<sizeof(ParameterizedMethodSuite), 137 + sizeof(bool)> __NUnit_Framework_Internal_ParameterizedMethodSuiteSizeCheck;
   static_assert(sizeof(ParameterizedMethodSuite) == 0x8A);
 }
+NEED_NO_BOX(NUnit::Framework::Internal::ParameterizedMethodSuite);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::ParameterizedMethodSuite*, "NUnit.Framework.Internal", "ParameterizedMethodSuite");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::ParameterizedMethodSuite::get_TestType

@@ -176,6 +176,7 @@ namespace UnityEngine::Timeline {
   }; // UnityEngine.Timeline.ActivationTrack
   // WARNING Not writing size check since size may be invalid!
 }
+NEED_NO_BOX(UnityEngine::Timeline::ActivationTrack);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ActivationTrack*, "UnityEngine.Timeline", "ActivationTrack");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ActivationTrack::PostPlaybackState, "UnityEngine.Timeline", "ActivationTrack/PostPlaybackState");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

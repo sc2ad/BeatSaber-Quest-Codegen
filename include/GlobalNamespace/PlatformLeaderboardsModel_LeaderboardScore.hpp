@@ -83,6 +83,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PlatformLeaderboardsModel::LeaderboardScore), 32 + sizeof(::Il2CppString*)> __GlobalNamespace_PlatformLeaderboardsModel_LeaderboardScoreSizeCheck;
   static_assert(sizeof(PlatformLeaderboardsModel::LeaderboardScore) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::PlatformLeaderboardsModel::LeaderboardScore);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformLeaderboardsModel::LeaderboardScore*, "", "PlatformLeaderboardsModel/LeaderboardScore");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlatformLeaderboardsModel::LeaderboardScore::New_ctor

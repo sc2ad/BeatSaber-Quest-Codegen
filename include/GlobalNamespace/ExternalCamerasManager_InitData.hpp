@@ -50,6 +50,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ExternalCamerasManager::InitData), 16 + sizeof(bool)> __GlobalNamespace_ExternalCamerasManager_InitDataSizeCheck;
   static_assert(sizeof(ExternalCamerasManager::InitData) == 0x11);
 }
+NEED_NO_BOX(GlobalNamespace::ExternalCamerasManager::InitData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ExternalCamerasManager::InitData*, "", "ExternalCamerasManager/InitData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ExternalCamerasManager::InitData::New_ctor

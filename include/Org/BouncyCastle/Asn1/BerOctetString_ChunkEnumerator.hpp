@@ -95,6 +95,7 @@ namespace Org::BouncyCastle::Asn1 {
   static check_size<sizeof(BerOctetString::ChunkEnumerator), 40 + sizeof(int)> __Org_BouncyCastle_Asn1_BerOctetString_ChunkEnumeratorSizeCheck;
   static_assert(sizeof(BerOctetString::ChunkEnumerator) == 0x2C);
 }
+NEED_NO_BOX(Org::BouncyCastle::Asn1::BerOctetString::ChunkEnumerator);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::BerOctetString::ChunkEnumerator*, "Org.BouncyCastle.Asn1", "BerOctetString/ChunkEnumerator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::BerOctetString::ChunkEnumerator::get_Current

@@ -95,6 +95,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
   static check_size<sizeof(FixedPointPreCompInfo), 32 + sizeof(int)> __Org_BouncyCastle_Math_EC_Multiplier_FixedPointPreCompInfoSizeCheck;
   static_assert(sizeof(FixedPointPreCompInfo) == 0x24);
 }
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo*, "Org.BouncyCastle.Math.EC.Multiplier", "FixedPointPreCompInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo::get_LookupTable

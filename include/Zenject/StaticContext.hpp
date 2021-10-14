@@ -38,6 +38,7 @@ namespace Zenject {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(Zenject::StaticContext);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::StaticContext*, "Zenject", "StaticContext");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::StaticContext::get_HasContainer

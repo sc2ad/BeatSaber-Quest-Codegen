@@ -59,6 +59,7 @@ namespace LiteNetLib {
   }; // LiteNetLib.EventBasedNetListener/LiteNetLib.OnNetworkReceive
   #pragma pack(pop)
 }
+NEED_NO_BOX(LiteNetLib::EventBasedNetListener::OnNetworkReceive);
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::EventBasedNetListener::OnNetworkReceive*, "LiteNetLib", "EventBasedNetListener/OnNetworkReceive");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::EventBasedNetListener::OnNetworkReceive::New_ctor

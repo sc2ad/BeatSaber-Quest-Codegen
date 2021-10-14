@@ -78,6 +78,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LocalizedTextAsset), 32 + sizeof(GlobalNamespace::LocalizedTextAsset::TextInfo*)> __GlobalNamespace_LocalizedTextAssetSizeCheck;
   static_assert(sizeof(LocalizedTextAsset) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::LocalizedTextAsset);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalizedTextAsset*, "", "LocalizedTextAsset");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LocalizedTextAsset::get_textInfos

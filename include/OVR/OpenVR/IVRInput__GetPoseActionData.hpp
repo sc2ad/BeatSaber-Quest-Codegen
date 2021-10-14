@@ -60,6 +60,7 @@ namespace OVR::OpenVR {
   }; // OVR.OpenVR.IVRInput/OVR.OpenVR._GetPoseActionData
   #pragma pack(pop)
 }
+NEED_NO_BOX(OVR::OpenVR::IVRInput::_GetPoseActionData);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRInput::_GetPoseActionData*, "OVR.OpenVR", "IVRInput/_GetPoseActionData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVRInput::_GetPoseActionData::New_ctor

@@ -341,6 +341,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LightBakingPersistentSettingsSO), 160 + sizeof(UnityEngine::Material*)> __GlobalNamespace_LightBakingPersistentSettingsSOSizeCheck;
   static_assert(sizeof(LightBakingPersistentSettingsSO) == 0xA8);
 }
+NEED_NO_BOX(GlobalNamespace::LightBakingPersistentSettingsSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightBakingPersistentSettingsSO*, "", "LightBakingPersistentSettingsSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LightBakingPersistentSettingsSO::get_reflectionsCount

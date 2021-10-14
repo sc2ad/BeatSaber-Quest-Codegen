@@ -51,6 +51,7 @@ namespace System {
   }; // System.AssemblyLoadEventHandler
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::AssemblyLoadEventHandler);
 DEFINE_IL2CPP_ARG_TYPE(System::AssemblyLoadEventHandler*, "System", "AssemblyLoadEventHandler");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::AssemblyLoadEventHandler::New_ctor

@@ -66,6 +66,7 @@ namespace Oculus::Platform::Models {
   static check_size<sizeof(NetworkingPeer), 24 + sizeof(Oculus::Platform::PeerConnectionState)> __Oculus_Platform_Models_NetworkingPeerSizeCheck;
   static_assert(sizeof(NetworkingPeer) == 0x1C);
 }
+NEED_NO_BOX(Oculus::Platform::Models::NetworkingPeer);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::NetworkingPeer*, "Oculus.Platform.Models", "NetworkingPeer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::NetworkingPeer::get_ID

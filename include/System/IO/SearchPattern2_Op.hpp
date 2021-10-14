@@ -66,6 +66,7 @@ namespace System::IO {
   static check_size<sizeof(SearchPattern2::Op), 32 + sizeof(System::IO::SearchPattern2::Op*)> __System_IO_SearchPattern2_OpSizeCheck;
   static_assert(sizeof(SearchPattern2::Op) == 0x28);
 }
+NEED_NO_BOX(System::IO::SearchPattern2::Op);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::SearchPattern2::Op*, "System.IO", "SearchPattern2/Op");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::SearchPattern2::Op::New_ctor

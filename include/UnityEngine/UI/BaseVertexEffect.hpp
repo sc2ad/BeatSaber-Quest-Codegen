@@ -44,6 +44,7 @@ namespace UnityEngine::UI {
   }; // UnityEngine.UI.BaseVertexEffect
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::UI::BaseVertexEffect);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::BaseVertexEffect*, "UnityEngine.UI", "BaseVertexEffect");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::BaseVertexEffect::ModifyVertices

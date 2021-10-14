@@ -56,6 +56,7 @@ namespace OVR::OpenVR {
   }; // OVR.OpenVR.IVRSystem/OVR.OpenVR._DriverDebugRequest
   #pragma pack(pop)
 }
+NEED_NO_BOX(OVR::OpenVR::IVRSystem::_DriverDebugRequest);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRSystem::_DriverDebugRequest*, "OVR.OpenVR", "IVRSystem/_DriverDebugRequest");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVRSystem::_DriverDebugRequest::New_ctor

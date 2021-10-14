@@ -177,6 +177,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(DynamicBoneColliderBase), 40 + sizeof(GlobalNamespace::DynamicBoneColliderBase::Bound)> __GlobalNamespace_DynamicBoneColliderBaseSizeCheck;
   static_assert(sizeof(DynamicBoneColliderBase) == 0x2C);
 }
+NEED_NO_BOX(GlobalNamespace::DynamicBoneColliderBase);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DynamicBoneColliderBase*, "", "DynamicBoneColliderBase");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DynamicBoneColliderBase::Direction, "", "DynamicBoneColliderBase/Direction");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DynamicBoneColliderBase::Bound, "", "DynamicBoneColliderBase/Bound");

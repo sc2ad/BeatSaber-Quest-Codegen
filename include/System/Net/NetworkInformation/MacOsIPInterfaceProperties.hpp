@@ -59,6 +59,7 @@ namespace System::Net::NetworkInformation {
   }; // System.Net.NetworkInformation.MacOsIPInterfaceProperties
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Net::NetworkInformation::MacOsIPInterfaceProperties);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::MacOsIPInterfaceProperties*, "System.Net.NetworkInformation", "MacOsIPInterfaceProperties");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::NetworkInformation::MacOsIPInterfaceProperties::New_ctor

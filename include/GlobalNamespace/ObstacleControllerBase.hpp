@@ -91,6 +91,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ObstacleControllerBase), 32 + sizeof(System::Action_2<GlobalNamespace::ObstacleControllerBase*, float>*)> __GlobalNamespace_ObstacleControllerBaseSizeCheck;
   static_assert(sizeof(ObstacleControllerBase) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::ObstacleControllerBase);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleControllerBase*, "", "ObstacleControllerBase");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ObstacleControllerBase::add_didInitEvent

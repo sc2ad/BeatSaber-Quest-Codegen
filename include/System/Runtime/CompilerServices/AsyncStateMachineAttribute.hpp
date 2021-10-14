@@ -40,6 +40,7 @@ namespace System::Runtime::CompilerServices {
   }; // System.Runtime.CompilerServices.AsyncStateMachineAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Runtime::CompilerServices::AsyncStateMachineAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::AsyncStateMachineAttribute*, "System.Runtime.CompilerServices", "AsyncStateMachineAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::AsyncStateMachineAttribute::New_ctor

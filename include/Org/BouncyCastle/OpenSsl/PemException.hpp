@@ -34,6 +34,7 @@ namespace Org::BouncyCastle::OpenSsl {
   }; // Org.BouncyCastle.OpenSsl.PemException
   #pragma pack(pop)
 }
+NEED_NO_BOX(Org::BouncyCastle::OpenSsl::PemException);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::OpenSsl::PemException*, "Org.BouncyCastle.OpenSsl", "PemException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::OpenSsl::PemException::New_ctor

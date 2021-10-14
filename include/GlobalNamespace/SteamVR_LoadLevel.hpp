@@ -380,6 +380,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SteamVR_LoadLevel), 240 + sizeof(bool)> __GlobalNamespace_SteamVR_LoadLevelSizeCheck;
   static_assert(sizeof(SteamVR_LoadLevel) == 0xF1);
 }
+NEED_NO_BOX(GlobalNamespace::SteamVR_LoadLevel);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_LoadLevel*, "", "SteamVR_LoadLevel");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_LoadLevel::get_loading

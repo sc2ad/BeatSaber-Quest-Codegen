@@ -66,6 +66,7 @@ namespace System::Text {
   static check_size<sizeof(UTF32Encoding::UTF32Decoder), 52 + sizeof(int)> __System_Text_UTF32Encoding_UTF32DecoderSizeCheck;
   static_assert(sizeof(UTF32Encoding::UTF32Decoder) == 0x38);
 }
+NEED_NO_BOX(System::Text::UTF32Encoding::UTF32Decoder);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::UTF32Encoding::UTF32Decoder*, "System.Text", "UTF32Encoding/UTF32Decoder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::UTF32Encoding::UTF32Decoder::New_ctor

@@ -79,6 +79,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PlayingCampaignRichPresenceData), 16 + sizeof(::Il2CppString*)> __GlobalNamespace_PlayingCampaignRichPresenceDataSizeCheck;
   static_assert(sizeof(PlayingCampaignRichPresenceData) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::PlayingCampaignRichPresenceData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayingCampaignRichPresenceData*, "", "PlayingCampaignRichPresenceData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayingCampaignRichPresenceData::get_apiName

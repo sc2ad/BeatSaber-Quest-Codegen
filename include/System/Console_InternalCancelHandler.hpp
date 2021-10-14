@@ -50,6 +50,7 @@ namespace System {
   }; // System.Console/System.InternalCancelHandler
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Console::InternalCancelHandler);
 DEFINE_IL2CPP_ARG_TYPE(System::Console::InternalCancelHandler*, "System", "Console/InternalCancelHandler");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Console::InternalCancelHandler::New_ctor

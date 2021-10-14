@@ -82,6 +82,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(HealthWarningNoTransitionInstaller), 32 + sizeof(GlobalNamespace::HealthWarningScenesTransitionSetupDataSO*)> __GlobalNamespace_HealthWarningNoTransitionInstallerSizeCheck;
   static_assert(sizeof(HealthWarningNoTransitionInstaller) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::HealthWarningNoTransitionInstaller);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HealthWarningNoTransitionInstaller*, "", "HealthWarningNoTransitionInstaller");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HealthWarningNoTransitionInstaller::New_ctor

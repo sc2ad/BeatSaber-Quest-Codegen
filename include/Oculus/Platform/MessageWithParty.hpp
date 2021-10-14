@@ -46,6 +46,7 @@ namespace Oculus::Platform {
     Oculus::Platform::Models::Party* GetParty();
   }; // Oculus.Platform.MessageWithParty
 }
+NEED_NO_BOX(Oculus::Platform::MessageWithParty);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithParty*, "Oculus.Platform", "MessageWithParty");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithParty::GetDataFromMessage

@@ -72,6 +72,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(TableCellWithSeparator), 80 + sizeof(UnityEngine::GameObject*)> __GlobalNamespace_TableCellWithSeparatorSizeCheck;
   static_assert(sizeof(TableCellWithSeparator) == 0x58);
 }
+NEED_NO_BOX(GlobalNamespace::TableCellWithSeparator);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TableCellWithSeparator*, "", "TableCellWithSeparator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TableCellWithSeparator::New_ctor

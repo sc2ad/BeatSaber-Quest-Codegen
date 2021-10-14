@@ -60,6 +60,7 @@ namespace GlobalNamespace {
   }; // BeatmapCallbackItemDataList/GetRelativeNoteOffsetCallback
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::BeatmapCallbackItemDataList::GetRelativeNoteOffsetCallback);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapCallbackItemDataList::GetRelativeNoteOffsetCallback*, "", "BeatmapCallbackItemDataList/GetRelativeNoteOffsetCallback");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapCallbackItemDataList::GetRelativeNoteOffsetCallback::New_ctor

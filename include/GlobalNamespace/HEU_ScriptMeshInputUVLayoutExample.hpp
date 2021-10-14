@@ -46,6 +46,7 @@ namespace GlobalNamespace {
   }; // HEU_ScriptMeshInputUVLayoutExample
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::HEU_ScriptMeshInputUVLayoutExample);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HEU_ScriptMeshInputUVLayoutExample*, "", "HEU_ScriptMeshInputUVLayoutExample");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HEU_ScriptMeshInputUVLayoutExample::ApplyUVLayoutTo

@@ -59,6 +59,7 @@ namespace UnityEngine::EventSystems {
   static check_size<sizeof(AbstractEventData), 16 + sizeof(bool)> __UnityEngine_EventSystems_AbstractEventDataSizeCheck;
   static_assert(sizeof(AbstractEventData) == 0x11);
 }
+NEED_NO_BOX(UnityEngine::EventSystems::AbstractEventData);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::AbstractEventData*, "UnityEngine.EventSystems", "AbstractEventData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::EventSystems::AbstractEventData::get_used

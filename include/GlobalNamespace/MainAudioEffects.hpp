@@ -103,6 +103,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MainAudioEffects), 36 + sizeof(float)> __GlobalNamespace_MainAudioEffectsSizeCheck;
   static_assert(sizeof(MainAudioEffects) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::MainAudioEffects);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainAudioEffects*, "", "MainAudioEffects");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MainAudioEffects::Start

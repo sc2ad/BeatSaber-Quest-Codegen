@@ -77,6 +77,7 @@ namespace System::Runtime::CompilerServices {
   static check_size<sizeof(AsyncMethodBuilderCore::ContinuationWrapper), 32 + sizeof(System::Threading::Tasks::Task*)> __System_Runtime_CompilerServices_AsyncMethodBuilderCore_ContinuationWrapperSizeCheck;
   static_assert(sizeof(AsyncMethodBuilderCore::ContinuationWrapper) == 0x28);
 }
+NEED_NO_BOX(System::Runtime::CompilerServices::AsyncMethodBuilderCore::ContinuationWrapper);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::AsyncMethodBuilderCore::ContinuationWrapper*, "System.Runtime.CompilerServices", "AsyncMethodBuilderCore/ContinuationWrapper");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::AsyncMethodBuilderCore::ContinuationWrapper::New_ctor

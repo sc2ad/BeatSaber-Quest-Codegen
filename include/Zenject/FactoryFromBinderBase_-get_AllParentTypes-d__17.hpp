@@ -123,6 +123,7 @@ namespace Zenject {
   }; // Zenject.FactoryFromBinderBase/Zenject.<get_AllParentTypes>d__17
   // WARNING Not writing size check since size may be invalid!
 }
+NEED_NO_BOX(Zenject::FactoryFromBinderBase::$get_AllParentTypes$d__17);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::FactoryFromBinderBase::$get_AllParentTypes$d__17*, "Zenject", "FactoryFromBinderBase/<get_AllParentTypes>d__17");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::FactoryFromBinderBase::$get_AllParentTypes$d__17::System_Collections_Generic_IEnumerator$System_Type$_get_Current

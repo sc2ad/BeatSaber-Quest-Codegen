@@ -66,6 +66,7 @@ namespace System {
   static check_size<sizeof(ParameterizedStrings::LowLevelStack), 24 + sizeof(int)> __System_ParameterizedStrings_LowLevelStackSizeCheck;
   static_assert(sizeof(ParameterizedStrings::LowLevelStack) == 0x1C);
 }
+NEED_NO_BOX(System::ParameterizedStrings::LowLevelStack);
 DEFINE_IL2CPP_ARG_TYPE(System::ParameterizedStrings::LowLevelStack*, "System", "ParameterizedStrings/LowLevelStack");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ParameterizedStrings::LowLevelStack::Pop

@@ -156,6 +156,7 @@ namespace System::Xml {
   }; // System.Xml.TextUtf8RawTextWriter
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Xml::TextUtf8RawTextWriter);
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::TextUtf8RawTextWriter*, "System.Xml", "TextUtf8RawTextWriter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::TextUtf8RawTextWriter::get_SupportsNamespaceDeclarationInChunks

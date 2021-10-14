@@ -76,6 +76,7 @@ namespace OVR::OpenVR {
   static check_size<sizeof(CVRIOBuffer), 16 + sizeof(OVR::OpenVR::IVRIOBuffer)> __OVR_OpenVR_CVRIOBufferSizeCheck;
   static_assert(sizeof(CVRIOBuffer) == 0x38);
 }
+NEED_NO_BOX(OVR::OpenVR::CVRIOBuffer);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRIOBuffer*, "OVR.OpenVR", "CVRIOBuffer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::CVRIOBuffer::New_ctor

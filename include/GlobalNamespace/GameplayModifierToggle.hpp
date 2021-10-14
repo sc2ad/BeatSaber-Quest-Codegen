@@ -138,6 +138,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(GameplayModifierToggle), 72 + sizeof(UnityEngine::Color)> __GlobalNamespace_GameplayModifierToggleSizeCheck;
   static_assert(sizeof(GameplayModifierToggle) == 0x58);
 }
+NEED_NO_BOX(GlobalNamespace::GameplayModifierToggle);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifierToggle*, "", "GameplayModifierToggle");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameplayModifierToggle::get_toggle

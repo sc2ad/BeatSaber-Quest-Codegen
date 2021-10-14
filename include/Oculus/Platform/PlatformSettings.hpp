@@ -96,6 +96,7 @@ namespace Oculus::Platform {
   static check_size<sizeof(PlatformSettings), 40 + sizeof(bool)> __Oculus_Platform_PlatformSettingsSizeCheck;
   static_assert(sizeof(PlatformSettings) == 0x29);
 }
+NEED_NO_BOX(Oculus::Platform::PlatformSettings);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::PlatformSettings*, "Oculus.Platform", "PlatformSettings");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::PlatformSettings::get_AppID

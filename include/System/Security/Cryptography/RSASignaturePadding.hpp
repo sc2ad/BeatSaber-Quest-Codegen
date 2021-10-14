@@ -94,6 +94,7 @@ namespace System::Security::Cryptography {
   // Offset: 0x1CA5AB4
   bool operator !=(System::Security::Cryptography::RSASignaturePadding* left, System::Security::Cryptography::RSASignaturePadding& right);
 }
+NEED_NO_BOX(System::Security::Cryptography::RSASignaturePadding);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RSASignaturePadding*, "System.Security.Cryptography", "RSASignaturePadding");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::RSASignaturePadding::get_Pkcs1

@@ -82,6 +82,7 @@ namespace UnityEngine::Timeline {
   static check_size<sizeof(AudioMixerProperties), 24 + sizeof(float)> __UnityEngine_Timeline_AudioMixerPropertiesSizeCheck;
   static_assert(sizeof(AudioMixerProperties) == 0x1C);
 }
+NEED_NO_BOX(UnityEngine::Timeline::AudioMixerProperties);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AudioMixerProperties*, "UnityEngine.Timeline", "AudioMixerProperties");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::AudioMixerProperties::New_ctor

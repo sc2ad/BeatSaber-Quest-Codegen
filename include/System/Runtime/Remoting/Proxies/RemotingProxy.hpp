@@ -143,6 +143,7 @@ namespace System::Runtime::Remoting::Proxies {
   static check_size<sizeof(RemotingProxy), 96 + sizeof(System::Runtime::Remoting::Messaging::ConstructionCall*)> __System_Runtime_Remoting_Proxies_RemotingProxySizeCheck;
   static_assert(sizeof(RemotingProxy) == 0x68);
 }
+NEED_NO_BOX(System::Runtime::Remoting::Proxies::RemotingProxy);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Proxies::RemotingProxy*, "System.Runtime.Remoting.Proxies", "RemotingProxy");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Proxies::RemotingProxy::get_TypeName

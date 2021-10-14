@@ -52,6 +52,7 @@ namespace System::Net::NetworkInformation {
   static check_size<sizeof(Win32IPv4InterfaceStatistics), 16 + sizeof(System::Net::NetworkInformation::Win32_MIB_IFROW)> __System_Net_NetworkInformation_Win32IPv4InterfaceStatisticsSizeCheck;
   static_assert(sizeof(Win32IPv4InterfaceStatistics) == 0x80);
 }
+NEED_NO_BOX(System::Net::NetworkInformation::Win32IPv4InterfaceStatistics);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32IPv4InterfaceStatistics*, "System.Net.NetworkInformation", "Win32IPv4InterfaceStatistics");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::NetworkInformation::Win32IPv4InterfaceStatistics::New_ctor

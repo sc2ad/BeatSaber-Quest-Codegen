@@ -516,6 +516,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(FBBIKHeadEffector), 364 + sizeof(int)> __RootMotion_FinalIK_FBBIKHeadEffectorSizeCheck;
   static_assert(sizeof(FBBIKHeadEffector) == 0x170);
 }
+NEED_NO_BOX(RootMotion::FinalIK::FBBIKHeadEffector);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FBBIKHeadEffector*, "RootMotion.FinalIK", "FBBIKHeadEffector");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::FBBIKHeadEffector::Start

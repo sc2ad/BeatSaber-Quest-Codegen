@@ -201,6 +201,7 @@ namespace UnityEngine::TestRunner::TestLaunchers {
   static check_size<sizeof(RemoteTestData), 128 + sizeof(::Il2CppString*)> __UnityEngine_TestRunner_TestLaunchers_RemoteTestDataSizeCheck;
   static_assert(sizeof(RemoteTestData) == 0x88);
 }
+NEED_NO_BOX(UnityEngine::TestRunner::TestLaunchers::RemoteTestData);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::TestLaunchers::RemoteTestData*, "UnityEngine.TestRunner.TestLaunchers", "RemoteTestData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestRunner::TestLaunchers::RemoteTestData::New_ctor

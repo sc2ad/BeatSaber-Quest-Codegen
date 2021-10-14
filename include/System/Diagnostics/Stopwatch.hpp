@@ -104,6 +104,7 @@ namespace System::Diagnostics {
   static check_size<sizeof(Stopwatch), 32 + sizeof(bool)> __System_Diagnostics_StopwatchSizeCheck;
   static_assert(sizeof(Stopwatch) == 0x21);
 }
+NEED_NO_BOX(System::Diagnostics::Stopwatch);
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Stopwatch*, "System.Diagnostics", "Stopwatch");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Diagnostics::Stopwatch::get_Elapsed

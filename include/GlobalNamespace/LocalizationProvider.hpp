@@ -75,6 +75,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LocalizationProvider), 24 + sizeof(Polyglot::Localization*)> __GlobalNamespace_LocalizationProviderSizeCheck;
   static_assert(sizeof(LocalizationProvider) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::LocalizationProvider);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalizationProvider*, "", "LocalizationProvider");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LocalizationProvider::get_localization

@@ -60,6 +60,7 @@ namespace GlobalNamespace {
   }; // OVRInput/OVRControllerGamepadAndroid
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::OVRInput::OVRControllerGamepadAndroid);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OVRControllerGamepadAndroid*, "", "OVRInput/OVRControllerGamepadAndroid");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::OVRControllerGamepadAndroid::New_ctor

@@ -159,6 +159,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(DisconnectPromptView), 72 + sizeof(HMUI::ButtonBinder*)> __GlobalNamespace_DisconnectPromptViewSizeCheck;
   static_assert(sizeof(DisconnectPromptView) == 0x50);
 }
+NEED_NO_BOX(GlobalNamespace::DisconnectPromptView);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DisconnectPromptView*, "", "DisconnectPromptView");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DisconnectPromptView::add_didViewFinishEvent

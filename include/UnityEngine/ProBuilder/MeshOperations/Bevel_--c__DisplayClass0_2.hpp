@@ -69,6 +69,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   static check_size<sizeof(Bevel::$$c__DisplayClass0_2), 24 + sizeof(UnityEngine::ProBuilder::MeshOperations::Bevel::$$c__DisplayClass0_0*)> __UnityEngine_ProBuilder_MeshOperations_Bevel_$$c__DisplayClass0_2SizeCheck;
   static_assert(sizeof(Bevel::$$c__DisplayClass0_2) == 0x20);
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::MeshOperations::Bevel::$$c__DisplayClass0_2);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::Bevel::$$c__DisplayClass0_2*, "UnityEngine.ProBuilder.MeshOperations", "Bevel/<>c__DisplayClass0_2");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::Bevel::$$c__DisplayClass0_2::$BevelEdges$b__5

@@ -56,6 +56,7 @@ namespace Valve::VR {
   }; // Valve.VR.IVRSettings/Valve.VR._RemoveSection
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::IVRSettings::_RemoveSection);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSettings::_RemoveSection*, "Valve.VR", "IVRSettings/_RemoveSection");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRSettings::_RemoveSection::New_ctor

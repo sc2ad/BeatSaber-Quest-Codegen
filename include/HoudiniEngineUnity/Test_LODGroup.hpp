@@ -67,6 +67,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(Test_LODGroup), 16 + sizeof(UnityEngine::LODGroup*)> __HoudiniEngineUnity_Test_LODGroupSizeCheck;
   static_assert(sizeof(Test_LODGroup) == 0x18);
 }
+NEED_NO_BOX(HoudiniEngineUnity::Test_LODGroup);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::Test_LODGroup*, "HoudiniEngineUnity", "Test_LODGroup");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::Test_LODGroup::New_ctor

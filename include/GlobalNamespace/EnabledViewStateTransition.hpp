@@ -130,6 +130,7 @@ namespace GlobalNamespace {
   }; // EnabledViewStateTransition
   // WARNING Not writing size check since size may be invalid!
 }
+NEED_NO_BOX(GlobalNamespace::EnabledViewStateTransition);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnabledViewStateTransition*, "", "EnabledViewStateTransition");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EnabledViewStateTransition::get_transition

@@ -32,6 +32,7 @@ namespace LiteNetLib::Utils {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(LiteNetLib::Utils::INetSerializable);
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::INetSerializable*, "LiteNetLib.Utils", "INetSerializable");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::Utils::INetSerializable::Serialize

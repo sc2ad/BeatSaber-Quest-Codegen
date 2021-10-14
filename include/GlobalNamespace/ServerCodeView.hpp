@@ -118,6 +118,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ServerCodeView), 56 + sizeof(bool)> __GlobalNamespace_ServerCodeViewSizeCheck;
   static_assert(sizeof(ServerCodeView) == 0x39);
 }
+NEED_NO_BOX(GlobalNamespace::ServerCodeView);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ServerCodeView*, "", "ServerCodeView");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ServerCodeView::SetCode

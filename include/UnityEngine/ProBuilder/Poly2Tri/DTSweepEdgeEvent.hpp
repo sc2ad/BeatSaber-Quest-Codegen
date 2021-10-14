@@ -61,6 +61,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   static check_size<sizeof(DTSweepEdgeEvent), 24 + sizeof(bool)> __UnityEngine_ProBuilder_Poly2Tri_DTSweepEdgeEventSizeCheck;
   static_assert(sizeof(DTSweepEdgeEvent) == 0x19);
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent*, "UnityEngine.ProBuilder.Poly2Tri", "DTSweepEdgeEvent");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent::New_ctor

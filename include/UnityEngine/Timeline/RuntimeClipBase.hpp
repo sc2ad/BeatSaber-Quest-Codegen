@@ -49,6 +49,7 @@ namespace UnityEngine::Timeline {
   }; // UnityEngine.Timeline.RuntimeClipBase
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::Timeline::RuntimeClipBase);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::RuntimeClipBase*, "UnityEngine.Timeline", "RuntimeClipBase");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::RuntimeClipBase::get_start

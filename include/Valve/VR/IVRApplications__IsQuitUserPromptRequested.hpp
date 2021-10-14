@@ -51,6 +51,7 @@ namespace Valve::VR {
   }; // Valve.VR.IVRApplications/Valve.VR._IsQuitUserPromptRequested
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::IVRApplications::_IsQuitUserPromptRequested);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRApplications::_IsQuitUserPromptRequested*, "Valve.VR", "IVRApplications/_IsQuitUserPromptRequested");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRApplications::_IsQuitUserPromptRequested::New_ctor

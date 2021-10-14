@@ -203,6 +203,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SteamVR_Skybox), 76 + sizeof(float)> __GlobalNamespace_SteamVR_SkyboxSizeCheck;
   static_assert(sizeof(SteamVR_Skybox) == 0x50);
 }
+NEED_NO_BOX(GlobalNamespace::SteamVR_Skybox);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Skybox*, "", "SteamVR_Skybox");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Skybox::CellSize, "", "SteamVR_Skybox/CellSize");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

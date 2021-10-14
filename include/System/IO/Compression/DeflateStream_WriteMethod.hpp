@@ -51,6 +51,7 @@ namespace System::IO::Compression {
   }; // System.IO.Compression.DeflateStream/System.IO.Compression.WriteMethod
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::IO::Compression::DeflateStream::WriteMethod);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Compression::DeflateStream::WriteMethod*, "System.IO.Compression", "DeflateStream/WriteMethod");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::Compression::DeflateStream::WriteMethod::New_ctor

@@ -152,6 +152,7 @@ namespace Org::BouncyCastle::Asn1::X9 {
   static check_size<sizeof(X9ECParameters), 56 + sizeof(::ArrayW<uint8_t>)> __Org_BouncyCastle_Asn1_X9_X9ECParametersSizeCheck;
   static_assert(sizeof(X9ECParameters) == 0x40);
 }
+NEED_NO_BOX(Org::BouncyCastle::Asn1::X9::X9ECParameters);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X9::X9ECParameters*, "Org.BouncyCastle.Asn1.X9", "X9ECParameters");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X9::X9ECParameters::get_Curve

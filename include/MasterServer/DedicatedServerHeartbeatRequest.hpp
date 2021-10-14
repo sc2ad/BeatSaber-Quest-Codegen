@@ -132,6 +132,7 @@ namespace MasterServer {
   static check_size<sizeof(DedicatedServerHeartbeatRequest), 40 + sizeof(int)> __MasterServer_DedicatedServerHeartbeatRequestSizeCheck;
   static_assert(sizeof(DedicatedServerHeartbeatRequest) == 0x2C);
 }
+NEED_NO_BOX(MasterServer::DedicatedServerHeartbeatRequest);
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::DedicatedServerHeartbeatRequest*, "MasterServer", "DedicatedServerHeartbeatRequest");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: MasterServer::DedicatedServerHeartbeatRequest::get_pool

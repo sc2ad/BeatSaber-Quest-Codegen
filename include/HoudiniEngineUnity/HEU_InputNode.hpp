@@ -581,6 +581,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_InputNode), 144 + sizeof(HoudiniEngineUnity::HEU_InputNodeUICache*)> __HoudiniEngineUnity_HEU_InputNodeSizeCheck;
   static_assert(sizeof(HEU_InputNode) == 0x98);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_InputNode);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_InputNode*, "HoudiniEngineUnity", "HEU_InputNode");
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_InputNode::InputNodeType, "HoudiniEngineUnity", "HEU_InputNode/InputNodeType");
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_InputNode::InputObjectType, "HoudiniEngineUnity", "HEU_InputNode/InputObjectType");

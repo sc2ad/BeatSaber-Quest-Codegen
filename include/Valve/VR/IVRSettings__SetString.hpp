@@ -56,6 +56,7 @@ namespace Valve::VR {
   }; // Valve.VR.IVRSettings/Valve.VR._SetString
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::IVRSettings::_SetString);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSettings::_SetString*, "Valve.VR", "IVRSettings/_SetString");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRSettings::_SetString::New_ctor

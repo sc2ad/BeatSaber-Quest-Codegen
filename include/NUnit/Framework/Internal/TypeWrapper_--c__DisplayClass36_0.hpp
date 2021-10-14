@@ -69,6 +69,7 @@ namespace NUnit::Framework::Internal {
   static check_size<sizeof(TypeWrapper::$$c__DisplayClass36_0), 16 + sizeof(::ArrayW<System::Type*>)> __NUnit_Framework_Internal_TypeWrapper_$$c__DisplayClass36_0SizeCheck;
   static_assert(sizeof(TypeWrapper::$$c__DisplayClass36_0) == 0x18);
 }
+NEED_NO_BOX(NUnit::Framework::Internal::TypeWrapper::$$c__DisplayClass36_0);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TypeWrapper::$$c__DisplayClass36_0*, "NUnit.Framework.Internal", "TypeWrapper/<>c__DisplayClass36_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TypeWrapper::$$c__DisplayClass36_0::$GetConstructor$b__0

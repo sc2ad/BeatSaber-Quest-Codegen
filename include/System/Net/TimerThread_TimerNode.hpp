@@ -171,6 +171,7 @@ namespace System::Net {
   static check_size<sizeof(TimerThread::TimerNode), 64 + sizeof(System::Net::TimerThread::TimerNode*)> __System_Net_TimerThread_TimerNodeSizeCheck;
   static_assert(sizeof(TimerThread::TimerNode) == 0x48);
 }
+NEED_NO_BOX(System::Net::TimerThread::TimerNode);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::TimerThread::TimerNode*, "System.Net", "TimerThread/TimerNode");
 DEFINE_IL2CPP_ARG_TYPE(System::Net::TimerThread::TimerNode::TimerState, "System.Net", "TimerThread/TimerNode/TimerState");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

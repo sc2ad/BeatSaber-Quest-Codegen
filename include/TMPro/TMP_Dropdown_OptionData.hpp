@@ -96,6 +96,7 @@ namespace TMPro {
   static check_size<sizeof(TMP_Dropdown::OptionData), 24 + sizeof(UnityEngine::Sprite*)> __TMPro_TMP_Dropdown_OptionDataSizeCheck;
   static_assert(sizeof(TMP_Dropdown::OptionData) == 0x20);
 }
+NEED_NO_BOX(TMPro::TMP_Dropdown::OptionData);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Dropdown::OptionData*, "TMPro", "TMP_Dropdown/OptionData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::OptionData::get_text

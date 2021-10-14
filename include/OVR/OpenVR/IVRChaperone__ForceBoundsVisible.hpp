@@ -51,6 +51,7 @@ namespace OVR::OpenVR {
   }; // OVR.OpenVR.IVRChaperone/OVR.OpenVR._ForceBoundsVisible
   #pragma pack(pop)
 }
+NEED_NO_BOX(OVR::OpenVR::IVRChaperone::_ForceBoundsVisible);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRChaperone::_ForceBoundsVisible*, "OVR.OpenVR", "IVRChaperone/_ForceBoundsVisible");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVRChaperone::_ForceBoundsVisible::New_ctor

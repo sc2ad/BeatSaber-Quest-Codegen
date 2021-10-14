@@ -30,6 +30,7 @@ namespace NUnit::Framework::Constraints {
   }; // NUnit.Framework.Constraints.GreaterThanOrEqualConstraint
   #pragma pack(pop)
 }
+NEED_NO_BOX(NUnit::Framework::Constraints::GreaterThanOrEqualConstraint);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::GreaterThanOrEqualConstraint*, "NUnit.Framework.Constraints", "GreaterThanOrEqualConstraint");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::GreaterThanOrEqualConstraint::New_ctor

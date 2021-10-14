@@ -127,6 +127,7 @@ namespace UnityEngine {
   }; // UnityEngine.Cubemap
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::Cubemap);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Cubemap*, "UnityEngine", "Cubemap");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Cubemap::get_format

@@ -433,6 +433,7 @@ namespace UnityEngine {
   }; // UnityEngine.Transform
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::Transform);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Transform*, "UnityEngine", "Transform");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Transform::get_position

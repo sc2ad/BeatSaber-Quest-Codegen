@@ -106,6 +106,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(CurveNodeData), 40 + sizeof(UnityEngine::Vector3)> __HoudiniEngineUnity_CurveNodeDataSizeCheck;
   static_assert(sizeof(CurveNodeData) == 0x34);
 }
+NEED_NO_BOX(HoudiniEngineUnity::CurveNodeData);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::CurveNodeData*, "HoudiniEngineUnity", "CurveNodeData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::CurveNodeData::New_ctor

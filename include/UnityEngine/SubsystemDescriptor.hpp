@@ -60,6 +60,7 @@ namespace UnityEngine {
   static check_size<sizeof(SubsystemDescriptor), 16 + sizeof(::Il2CppString*)> __UnityEngine_SubsystemDescriptorSizeCheck;
   static_assert(sizeof(SubsystemDescriptor) == 0x18);
 }
+NEED_NO_BOX(UnityEngine::SubsystemDescriptor);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SubsystemDescriptor*, "UnityEngine", "SubsystemDescriptor");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::SubsystemDescriptor::get_id

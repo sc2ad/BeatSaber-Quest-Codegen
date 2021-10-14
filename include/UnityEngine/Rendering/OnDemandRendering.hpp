@@ -32,6 +32,7 @@ namespace UnityEngine::Rendering {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::Rendering::OnDemandRendering);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::OnDemandRendering*, "UnityEngine.Rendering", "OnDemandRendering");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Rendering::OnDemandRendering::get_renderFrameInterval

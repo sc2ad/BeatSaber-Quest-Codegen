@@ -62,6 +62,7 @@ namespace ModestTree::Util {
   }; // ModestTree.Util.ValuePair
   #pragma pack(pop)
 }
+NEED_NO_BOX(ModestTree::Util::ValuePair);
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::Util::ValuePair*, "ModestTree.Util", "ValuePair");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: ModestTree::Util::ValuePair::New

@@ -176,6 +176,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerResultsViewController), 176 + sizeof(System::Action_1<GlobalNamespace::MultiplayerResultsViewController*>*)> __GlobalNamespace_MultiplayerResultsViewControllerSizeCheck;
   static_assert(sizeof(MultiplayerResultsViewController) == 0xB8);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerResultsViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerResultsViewController*, "", "MultiplayerResultsViewController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerResultsViewController::add_backToLobbyPressedEvent

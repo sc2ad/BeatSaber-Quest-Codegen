@@ -212,6 +212,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BeatmapCallbackItemDataList), 128 + sizeof(float)> __GlobalNamespace_BeatmapCallbackItemDataListSizeCheck;
   static_assert(sizeof(BeatmapCallbackItemDataList) == 0x84);
 }
+NEED_NO_BOX(GlobalNamespace::BeatmapCallbackItemDataList);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapCallbackItemDataList*, "", "BeatmapCallbackItemDataList");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapCallbackItemDataList::New_ctor

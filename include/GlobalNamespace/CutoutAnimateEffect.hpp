@@ -111,6 +111,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(CutoutAnimateEffect), 40 + sizeof(bool)> __GlobalNamespace_CutoutAnimateEffectSizeCheck;
   static_assert(sizeof(CutoutAnimateEffect) == 0x29);
 }
+NEED_NO_BOX(GlobalNamespace::CutoutAnimateEffect);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CutoutAnimateEffect*, "", "CutoutAnimateEffect");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CutoutAnimateEffect::get_animating

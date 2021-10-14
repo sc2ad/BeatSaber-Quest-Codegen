@@ -131,6 +131,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MockNoteData), 36 + sizeof(float)> __GlobalNamespace_MockNoteDataSizeCheck;
   static_assert(sizeof(MockNoteData) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::MockNoteData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockNoteData*, "", "MockNoteData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MockNoteData::get_time

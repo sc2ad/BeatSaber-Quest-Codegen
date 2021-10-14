@@ -101,6 +101,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(StandaloneMonobehavior::$AfterOneFrame$d__18), 40 + sizeof(System::Action*)> __GlobalNamespace_StandaloneMonobehavior_$AfterOneFrame$d__18SizeCheck;
   static_assert(sizeof(StandaloneMonobehavior::$AfterOneFrame$d__18) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::StandaloneMonobehavior::$AfterOneFrame$d__18);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandaloneMonobehavior::$AfterOneFrame$d__18*, "", "StandaloneMonobehavior/<AfterOneFrame>d__18");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::StandaloneMonobehavior::$AfterOneFrame$d__18::System_Collections_Generic_IEnumerator$System_Object$_get_Current

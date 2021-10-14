@@ -248,6 +248,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(VRIK::References), 184 + sizeof(UnityEngine::Transform*)> __RootMotion_FinalIK_VRIK_ReferencesSizeCheck;
   static_assert(sizeof(VRIK::References) == 0xC0);
 }
+NEED_NO_BOX(RootMotion::FinalIK::VRIK::References);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::VRIK::References*, "RootMotion.FinalIK", "VRIK/References");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::VRIK::References::get_isFilled

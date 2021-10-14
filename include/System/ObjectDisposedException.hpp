@@ -105,6 +105,7 @@ namespace System {
   static check_size<sizeof(ObjectDisposedException), 136 + sizeof(::Il2CppString*)> __System_ObjectDisposedExceptionSizeCheck;
   static_assert(sizeof(ObjectDisposedException) == 0x90);
 }
+NEED_NO_BOX(System::ObjectDisposedException);
 DEFINE_IL2CPP_ARG_TYPE(System::ObjectDisposedException*, "System", "ObjectDisposedException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ObjectDisposedException::get_ObjectName

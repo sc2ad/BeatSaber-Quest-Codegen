@@ -80,6 +80,7 @@ namespace System::Diagnostics {
   static check_size<sizeof(ProcessThreadTimes), 40 + sizeof(int64_t)> __System_Diagnostics_ProcessThreadTimesSizeCheck;
   static_assert(sizeof(ProcessThreadTimes) == 0x30);
 }
+NEED_NO_BOX(System::Diagnostics::ProcessThreadTimes);
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::ProcessThreadTimes*, "System.Diagnostics", "ProcessThreadTimes");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Diagnostics::ProcessThreadTimes::get_TotalProcessorTime

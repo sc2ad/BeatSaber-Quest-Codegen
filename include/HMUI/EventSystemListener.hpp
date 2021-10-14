@@ -106,6 +106,7 @@ namespace HMUI {
   static check_size<sizeof(EventSystemListener), 32 + sizeof(System::Action_1<UnityEngine::EventSystems::PointerEventData*>*)> __HMUI_EventSystemListenerSizeCheck;
   static_assert(sizeof(EventSystemListener) == 0x28);
 }
+NEED_NO_BOX(HMUI::EventSystemListener);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::EventSystemListener*, "HMUI", "EventSystemListener");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::EventSystemListener::add_pointerDidEnterEvent

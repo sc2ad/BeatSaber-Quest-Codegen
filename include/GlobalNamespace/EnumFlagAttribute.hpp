@@ -61,6 +61,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(EnumFlagAttribute), 16 + sizeof(::Il2CppString*)> __GlobalNamespace_EnumFlagAttributeSizeCheck;
   static_assert(sizeof(EnumFlagAttribute) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::EnumFlagAttribute);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnumFlagAttribute*, "", "EnumFlagAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EnumFlagAttribute::New_ctor

@@ -35,6 +35,7 @@ namespace GlobalNamespace {
     }
   }; // NoteDebris/Pool
 }
+NEED_NO_BOX(GlobalNamespace::NoteDebris::Pool);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteDebris::Pool*, "", "NoteDebris/Pool");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteDebris::Pool::New_ctor

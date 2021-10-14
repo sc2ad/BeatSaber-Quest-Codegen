@@ -443,6 +443,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   static check_size<sizeof(UnityTestExecutionContext), 216 + sizeof(UnityEngine::TestTools::EnumerableTestState*)> __UnityEngine_TestRunner_NUnitExtensions_Runner_UnityTestExecutionContextSizeCheck;
   static_assert(sizeof(UnityTestExecutionContext) == 0xE0);
 }
+NEED_NO_BOX(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "UnityTestExecutionContext");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::get_CurrentContext

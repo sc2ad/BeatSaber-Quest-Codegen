@@ -86,6 +86,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(FireworksController::$SpawningCoroutine$d__8), 32 + sizeof(GlobalNamespace::FireworksController*)> __GlobalNamespace_FireworksController_$SpawningCoroutine$d__8SizeCheck;
   static_assert(sizeof(FireworksController::$SpawningCoroutine$d__8) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::FireworksController::$SpawningCoroutine$d__8);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FireworksController::$SpawningCoroutine$d__8*, "", "FireworksController/<SpawningCoroutine>d__8");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FireworksController::$SpawningCoroutine$d__8::System_Collections_Generic_IEnumerator$System_Object$_get_Current

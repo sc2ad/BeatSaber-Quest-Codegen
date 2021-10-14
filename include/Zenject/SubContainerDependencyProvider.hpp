@@ -114,6 +114,7 @@ namespace Zenject {
   static check_size<sizeof(SubContainerDependencyProvider), 40 + sizeof(bool)> __Zenject_SubContainerDependencyProviderSizeCheck;
   static_assert(sizeof(SubContainerDependencyProvider) == 0x29);
 }
+NEED_NO_BOX(Zenject::SubContainerDependencyProvider);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerDependencyProvider*, "Zenject", "SubContainerDependencyProvider");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::SubContainerDependencyProvider::get_IsCached

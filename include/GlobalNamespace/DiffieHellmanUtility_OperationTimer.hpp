@@ -73,6 +73,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(DiffieHellmanUtility::OperationTimer), 24 + sizeof(::Il2CppString*)> __GlobalNamespace_DiffieHellmanUtility_OperationTimerSizeCheck;
   static_assert(sizeof(DiffieHellmanUtility::OperationTimer) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::DiffieHellmanUtility::OperationTimer);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DiffieHellmanUtility::OperationTimer*, "", "DiffieHellmanUtility/OperationTimer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DiffieHellmanUtility::OperationTimer::New_ctor

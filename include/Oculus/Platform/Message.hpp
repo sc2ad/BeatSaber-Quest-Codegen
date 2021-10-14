@@ -1643,6 +1643,7 @@ namespace Oculus::Platform {
   static check_size<sizeof(Message), 32 + sizeof(Oculus::Platform::Models::Error*)> __Oculus_Platform_MessageSizeCheck;
   static_assert(sizeof(Message) == 0x28);
 }
+NEED_NO_BOX(Oculus::Platform::Message);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Message*, "Oculus.Platform", "Message");
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Message::MessageType, "Oculus.Platform", "Message/MessageType");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

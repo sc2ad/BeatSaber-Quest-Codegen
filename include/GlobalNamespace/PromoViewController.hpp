@@ -92,6 +92,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PromoViewController), 120 + sizeof(System::Action_3<GlobalNamespace::PromoViewController*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*, GlobalNamespace::IPreviewBeatmapLevel*>*)> __GlobalNamespace_PromoViewControllerSizeCheck;
   static_assert(sizeof(PromoViewController) == 0x80);
 }
+NEED_NO_BOX(GlobalNamespace::PromoViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PromoViewController*, "", "PromoViewController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PromoViewController::add_promoButtonWasPressedEvent

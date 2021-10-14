@@ -57,6 +57,7 @@ namespace System::Runtime::Remoting::Lifetime {
   }; // System.Runtime.Remoting.Lifetime.Lease/System.Runtime.Remoting.Lifetime.RenewalDelegate
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Runtime::Remoting::Lifetime::Lease::RenewalDelegate);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Lifetime::Lease::RenewalDelegate*, "System.Runtime.Remoting.Lifetime", "Lease/RenewalDelegate");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Lifetime::Lease::RenewalDelegate::New_ctor

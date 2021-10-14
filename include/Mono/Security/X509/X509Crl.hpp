@@ -180,6 +180,7 @@ namespace Mono::Security::X509 {
   static check_size<sizeof(X509Crl), 88 + sizeof(::ArrayW<uint8_t>)> __Mono_Security_X509_X509CrlSizeCheck;
   static_assert(sizeof(X509Crl) == 0x60);
 }
+NEED_NO_BOX(Mono::Security::X509::X509Crl);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::X509Crl*, "Mono.Security.X509", "X509Crl");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Security::X509::X509Crl::get_Extensions

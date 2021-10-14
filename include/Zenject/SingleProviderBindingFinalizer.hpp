@@ -73,6 +73,7 @@ namespace Zenject {
   static check_size<sizeof(SingleProviderBindingFinalizer), 24 + sizeof(System::Func_3<Zenject::DiContainer*, System::Type*, Zenject::IProvider*>*)> __Zenject_SingleProviderBindingFinalizerSizeCheck;
   static_assert(sizeof(SingleProviderBindingFinalizer) == 0x20);
 }
+NEED_NO_BOX(Zenject::SingleProviderBindingFinalizer);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SingleProviderBindingFinalizer*, "Zenject", "SingleProviderBindingFinalizer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::SingleProviderBindingFinalizer::New_ctor

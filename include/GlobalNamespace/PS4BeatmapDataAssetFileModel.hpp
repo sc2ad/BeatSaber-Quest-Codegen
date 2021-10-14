@@ -96,6 +96,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PS4BeatmapDataAssetFileModel), 16 + sizeof(System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate>*)> __GlobalNamespace_PS4BeatmapDataAssetFileModelSizeCheck;
   static_assert(sizeof(PS4BeatmapDataAssetFileModel) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::PS4BeatmapDataAssetFileModel);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4BeatmapDataAssetFileModel*, "", "PS4BeatmapDataAssetFileModel");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PS4BeatmapDataAssetFileModel::add_levelDataAssetDownloadUpdateEvent

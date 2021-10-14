@@ -81,6 +81,7 @@ namespace NUnit::Framework::Internal {
   static check_size<sizeof(TestAssembly), 144 + sizeof(System::Reflection::Assembly*)> __NUnit_Framework_Internal_TestAssemblySizeCheck;
   static_assert(sizeof(TestAssembly) == 0x98);
 }
+NEED_NO_BOX(NUnit::Framework::Internal::TestAssembly);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestAssembly*, "NUnit.Framework.Internal", "TestAssembly");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestAssembly::get_Assembly

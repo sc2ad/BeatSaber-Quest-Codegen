@@ -66,6 +66,7 @@ namespace Oculus::Platform {
   static check_size<sizeof(RosterOptions), 16 + sizeof(System::IntPtr)> __Oculus_Platform_RosterOptionsSizeCheck;
   static_assert(sizeof(RosterOptions) == 0x18);
 }
+NEED_NO_BOX(Oculus::Platform::RosterOptions);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::RosterOptions*, "Oculus.Platform", "RosterOptions");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::RosterOptions::AddSuggestedUser

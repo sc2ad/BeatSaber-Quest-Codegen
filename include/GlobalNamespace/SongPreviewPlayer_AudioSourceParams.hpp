@@ -89,6 +89,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SongPreviewPlayer::AudioSourceParams), 36 + sizeof(float)> __GlobalNamespace_SongPreviewPlayer_AudioSourceParamsSizeCheck;
   static_assert(sizeof(SongPreviewPlayer::AudioSourceParams) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::SongPreviewPlayer::AudioSourceParams);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPreviewPlayer::AudioSourceParams*, "", "SongPreviewPlayer/AudioSourceParams");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SongPreviewPlayer::AudioSourceParams::get_position

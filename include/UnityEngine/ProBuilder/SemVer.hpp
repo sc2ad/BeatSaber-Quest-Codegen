@@ -220,6 +220,7 @@ namespace UnityEngine::ProBuilder {
   // Offset: 0x168250C
   bool operator >=(UnityEngine::ProBuilder::SemVer* left, UnityEngine::ProBuilder::SemVer& right);
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::SemVer);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::SemVer*, "UnityEngine.ProBuilder", "SemVer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SemVer::get_major

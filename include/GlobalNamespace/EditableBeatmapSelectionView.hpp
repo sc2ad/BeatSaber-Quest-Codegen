@@ -136,6 +136,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(EditableBeatmapSelectionView), 65 + sizeof(bool)> __GlobalNamespace_EditableBeatmapSelectionViewSizeCheck;
   static_assert(sizeof(EditableBeatmapSelectionView) == 0x42);
 }
+NEED_NO_BOX(GlobalNamespace::EditableBeatmapSelectionView);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EditableBeatmapSelectionView*, "", "EditableBeatmapSelectionView");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EditableBeatmapSelectionView::get_editButton

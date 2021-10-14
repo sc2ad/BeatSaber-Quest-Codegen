@@ -144,6 +144,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(FPSCounterUIController), 80 + sizeof(float)> __GlobalNamespace_FPSCounterUIControllerSizeCheck;
   static_assert(sizeof(FPSCounterUIController) == 0x54);
 }
+NEED_NO_BOX(GlobalNamespace::FPSCounterUIController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FPSCounterUIController*, "", "FPSCounterUIController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FPSCounterUIController::Awake

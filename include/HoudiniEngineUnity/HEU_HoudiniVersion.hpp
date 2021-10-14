@@ -129,6 +129,7 @@ namespace HoudiniEngineUnity {
   }; // HoudiniEngineUnity.HEU_HoudiniVersion
   #pragma pack(pop)
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_HoudiniVersion);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_HoudiniVersion*, "HoudiniEngineUnity", "HEU_HoudiniVersion");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HoudiniVersion::New_ctor

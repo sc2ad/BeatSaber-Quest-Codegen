@@ -151,6 +151,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerOtherPlayersScoreDiffTextManager), 72 + sizeof(float)> __GlobalNamespace_MultiplayerOtherPlayersScoreDiffTextManagerSizeCheck;
   static_assert(sizeof(MultiplayerOtherPlayersScoreDiffTextManager) == 0x4C);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager*, "", "MultiplayerOtherPlayersScoreDiffTextManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::Start

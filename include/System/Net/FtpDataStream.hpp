@@ -206,6 +206,7 @@ namespace System::Net {
   static check_size<sizeof(FtpDataStream), 60 + sizeof(int)> __System_Net_FtpDataStreamSizeCheck;
   static_assert(sizeof(FtpDataStream) == 0x40);
 }
+NEED_NO_BOX(System::Net::FtpDataStream);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::FtpDataStream*, "System.Net", "FtpDataStream");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::FtpDataStream::New_ctor

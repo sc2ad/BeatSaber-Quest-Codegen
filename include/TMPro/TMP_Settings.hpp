@@ -417,6 +417,7 @@ namespace TMPro {
   static check_size<sizeof(TMP_Settings), 160 + sizeof(TMPro::TMP_Settings::LineBreakingTable*)> __TMPro_TMP_SettingsSizeCheck;
   static_assert(sizeof(TMP_Settings) == 0xA8);
 }
+NEED_NO_BOX(TMPro::TMP_Settings);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Settings*, "TMPro", "TMP_Settings");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_Settings::get_version

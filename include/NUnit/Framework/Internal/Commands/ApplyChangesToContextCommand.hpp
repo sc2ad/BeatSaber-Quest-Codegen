@@ -78,6 +78,7 @@ namespace NUnit::Framework::Internal::Commands {
   static check_size<sizeof(ApplyChangesToContextCommand), 32 + sizeof(System::Collections::Generic::IEnumerable_1<NUnit::Framework::Interfaces::IApplyToContext*>*)> __NUnit_Framework_Internal_Commands_ApplyChangesToContextCommandSizeCheck;
   static_assert(sizeof(ApplyChangesToContextCommand) == 0x28);
 }
+NEED_NO_BOX(NUnit::Framework::Internal::Commands::ApplyChangesToContextCommand);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Commands::ApplyChangesToContextCommand*, "NUnit.Framework.Internal.Commands", "ApplyChangesToContextCommand");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Commands::ApplyChangesToContextCommand::New_ctor

@@ -50,6 +50,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(EnvironmentBrandingManager::InitData), 16 + sizeof(bool)> __GlobalNamespace_EnvironmentBrandingManager_InitDataSizeCheck;
   static_assert(sizeof(EnvironmentBrandingManager::InitData) == 0x11);
 }
+NEED_NO_BOX(GlobalNamespace::EnvironmentBrandingManager::InitData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentBrandingManager::InitData*, "", "EnvironmentBrandingManager/InitData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EnvironmentBrandingManager::InitData::New_ctor

@@ -104,6 +104,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(CPUMonitor), 48 + sizeof(int64_t)> __GlobalNamespace_CPUMonitorSizeCheck;
   static_assert(sizeof(CPUMonitor) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::CPUMonitor);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CPUMonitor*, "", "CPUMonitor");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CPUMonitor::get_utilization

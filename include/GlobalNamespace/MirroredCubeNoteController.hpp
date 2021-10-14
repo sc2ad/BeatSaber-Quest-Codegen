@@ -134,6 +134,7 @@ namespace GlobalNamespace {
   }; // MirroredCubeNoteController
   // WARNING Not writing size check since size may be invalid!
 }
+NEED_NO_BOX(GlobalNamespace::MirroredCubeNoteController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MirroredCubeNoteController*, "", "MirroredCubeNoteController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MirroredCubeNoteController::get_noteMovement

@@ -85,6 +85,7 @@ namespace System::Text {
   static check_size<sizeof(UnicodeEncoding::Decoder), 52 + sizeof(::Il2CppChar)> __System_Text_UnicodeEncoding_DecoderSizeCheck;
   static_assert(sizeof(UnicodeEncoding::Decoder) == 0x36);
 }
+NEED_NO_BOX(System::Text::UnicodeEncoding::Decoder);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::UnicodeEncoding::Decoder*, "System.Text", "UnicodeEncoding/Decoder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::UnicodeEncoding::Decoder::New_ctor

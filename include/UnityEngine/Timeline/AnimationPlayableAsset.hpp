@@ -373,6 +373,7 @@ namespace UnityEngine::Timeline {
   static check_size<sizeof(AnimationPlayableAsset), 80 + sizeof(UnityEngine::Quaternion)> __UnityEngine_Timeline_AnimationPlayableAssetSizeCheck;
   static_assert(sizeof(AnimationPlayableAsset) == 0x60);
 }
+NEED_NO_BOX(UnityEngine::Timeline::AnimationPlayableAsset);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AnimationPlayableAsset*, "UnityEngine.Timeline", "AnimationPlayableAsset");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AnimationPlayableAsset::LoopMode, "UnityEngine.Timeline", "AnimationPlayableAsset/LoopMode");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

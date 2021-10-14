@@ -79,6 +79,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData), 24 + sizeof(GlobalNamespace::MockPlayersModel*)> __GlobalNamespace_AppInitScenesTransitionSetupDataSO_AppInitSceneSetupDataSizeCheck;
   static_assert(sizeof(AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData*, "", "AppInitScenesTransitionSetupDataSO/AppInitSceneSetupData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData::get_appInitOverrideStartType

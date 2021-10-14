@@ -36,6 +36,7 @@ namespace GlobalNamespace {
     }
   }; // MenuRpcManager/SetMultiplayerGameStateRpc
 }
+NEED_NO_BOX(GlobalNamespace::MenuRpcManager::SetMultiplayerGameStateRpc);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuRpcManager::SetMultiplayerGameStateRpc*, "", "MenuRpcManager/SetMultiplayerGameStateRpc");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::SetMultiplayerGameStateRpc::New_ctor

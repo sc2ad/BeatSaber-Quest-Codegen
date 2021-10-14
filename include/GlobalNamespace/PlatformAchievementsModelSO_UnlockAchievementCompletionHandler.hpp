@@ -50,6 +50,7 @@ namespace GlobalNamespace {
   }; // PlatformAchievementsModelSO/UnlockAchievementCompletionHandler
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementCompletionHandler);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementCompletionHandler*, "", "PlatformAchievementsModelSO/UnlockAchievementCompletionHandler");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementCompletionHandler::New_ctor

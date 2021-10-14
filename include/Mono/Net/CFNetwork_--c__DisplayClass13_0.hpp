@@ -75,6 +75,7 @@ namespace Mono::Net {
   static check_size<sizeof(CFNetwork::$$c__DisplayClass13_0), 24 + sizeof(Mono::Net::CFRunLoop*)> __Mono_Net_CFNetwork_$$c__DisplayClass13_0SizeCheck;
   static_assert(sizeof(CFNetwork::$$c__DisplayClass13_0) == 0x20);
 }
+NEED_NO_BOX(Mono::Net::CFNetwork::$$c__DisplayClass13_0);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFNetwork::$$c__DisplayClass13_0*, "Mono.Net", "CFNetwork/<>c__DisplayClass13_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Net::CFNetwork::$$c__DisplayClass13_0::$ExecuteProxyAutoConfigurationURL$b__0

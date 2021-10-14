@@ -194,6 +194,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(AnnotatedBeatmapLevelCollectionsViewController), 168 + sizeof(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IAnnotatedBeatmapLevelCollection*>*)> __GlobalNamespace_AnnotatedBeatmapLevelCollectionsViewControllerSizeCheck;
   static_assert(sizeof(AnnotatedBeatmapLevelCollectionsViewController) == 0xB0);
 }
+NEED_NO_BOX(GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController*, "", "AnnotatedBeatmapLevelCollectionsViewController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::get_selectedAnnotatedBeatmapLevelCollection

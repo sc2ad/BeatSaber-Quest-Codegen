@@ -76,6 +76,7 @@ namespace OnlineServices::API {
   }; // OnlineServices.API.TestApiLeaderboardsModel
   #pragma pack(pop)
 }
+NEED_NO_BOX(OnlineServices::API::TestApiLeaderboardsModel);
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::TestApiLeaderboardsModel*, "OnlineServices.API", "TestApiLeaderboardsModel");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OnlineServices::API::TestApiLeaderboardsModel::LogoutAsync

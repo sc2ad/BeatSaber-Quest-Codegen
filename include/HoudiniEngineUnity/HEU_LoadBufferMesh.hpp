@@ -112,6 +112,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_LoadBufferMesh), 71 + sizeof(bool)> __HoudiniEngineUnity_HEU_LoadBufferMeshSizeCheck;
   static_assert(sizeof(HEU_LoadBufferMesh) == 0x48);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_LoadBufferMesh);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_LoadBufferMesh*, "HoudiniEngineUnity", "HEU_LoadBufferMesh");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_LoadBufferMesh::New_ctor

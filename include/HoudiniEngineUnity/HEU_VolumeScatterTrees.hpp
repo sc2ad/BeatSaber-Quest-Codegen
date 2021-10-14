@@ -137,6 +137,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_VolumeScatterTrees), 80 + sizeof(::ArrayW<int>)> __HoudiniEngineUnity_HEU_VolumeScatterTreesSizeCheck;
   static_assert(sizeof(HEU_VolumeScatterTrees) == 0x58);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_VolumeScatterTrees);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_VolumeScatterTrees*, "HoudiniEngineUnity", "HEU_VolumeScatterTrees");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_VolumeScatterTrees::IsEquivalentTo

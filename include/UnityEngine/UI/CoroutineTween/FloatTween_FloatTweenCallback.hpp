@@ -34,6 +34,7 @@ namespace UnityEngine::UI::CoroutineTween {
     }
   }; // UnityEngine.UI.CoroutineTween.FloatTween/UnityEngine.UI.CoroutineTween.FloatTweenCallback
 }
+NEED_NO_BOX(UnityEngine::UI::CoroutineTween::FloatTween::FloatTweenCallback);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CoroutineTween::FloatTween::FloatTweenCallback*, "UnityEngine.UI.CoroutineTween", "FloatTween/FloatTweenCallback");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::CoroutineTween::FloatTween::FloatTweenCallback::New_ctor

@@ -34,6 +34,7 @@ namespace System::Net {
   }; // System.Net.TimerThread/System.Net.InfiniteTimerQueue
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Net::TimerThread::InfiniteTimerQueue);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::TimerThread::InfiniteTimerQueue*, "System.Net", "TimerThread/InfiniteTimerQueue");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::TimerThread::InfiniteTimerQueue::New_ctor

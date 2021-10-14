@@ -60,6 +60,7 @@ namespace UnityEngine::AddressableAssets {
   }; // UnityEngine.AddressableAssets.UpdateCatalogsOperation/UnityEngine.AddressableAssets.<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::AddressableAssets::UpdateCatalogsOperation::$$c);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::UpdateCatalogsOperation::$$c*, "UnityEngine.AddressableAssets", "UpdateCatalogsOperation/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::UpdateCatalogsOperation::$$c::_cctor

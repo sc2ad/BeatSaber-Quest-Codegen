@@ -63,6 +63,7 @@ namespace Zenject {
   static check_size<sizeof(ConditionCopyNonLazyBinder::$$c__DisplayClass2_0), 16 + sizeof(::Il2CppObject*)> __Zenject_ConditionCopyNonLazyBinder_$$c__DisplayClass2_0SizeCheck;
   static_assert(sizeof(ConditionCopyNonLazyBinder::$$c__DisplayClass2_0) == 0x18);
 }
+NEED_NO_BOX(Zenject::ConditionCopyNonLazyBinder::$$c__DisplayClass2_0);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ConditionCopyNonLazyBinder::$$c__DisplayClass2_0*, "Zenject", "ConditionCopyNonLazyBinder/<>c__DisplayClass2_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::ConditionCopyNonLazyBinder::$$c__DisplayClass2_0::$WhenInjectedIntoInstance$b__0

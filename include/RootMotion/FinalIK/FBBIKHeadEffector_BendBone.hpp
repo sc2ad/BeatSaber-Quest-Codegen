@@ -89,6 +89,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(FBBIKHeadEffector::BendBone), 28 + sizeof(UnityEngine::Quaternion)> __RootMotion_FinalIK_FBBIKHeadEffector_BendBoneSizeCheck;
   static_assert(sizeof(FBBIKHeadEffector::BendBone) == 0x2C);
 }
+NEED_NO_BOX(RootMotion::FinalIK::FBBIKHeadEffector::BendBone);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FBBIKHeadEffector::BendBone*, "RootMotion.FinalIK", "FBBIKHeadEffector/BendBone");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::FBBIKHeadEffector::BendBone::New_ctor

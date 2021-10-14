@@ -78,6 +78,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
   static check_size<sizeof(GlvMultiplier), 24 + sizeof(Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism*)> __Org_BouncyCastle_Math_EC_Multiplier_GlvMultiplierSizeCheck;
   static_assert(sizeof(GlvMultiplier) == 0x20);
 }
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier*, "Org.BouncyCastle.Math.EC.Multiplier", "GlvMultiplier");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier::New_ctor

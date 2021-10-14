@@ -241,6 +241,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ParticleSystemEventEffect), 176 + sizeof(float)> __GlobalNamespace_ParticleSystemEventEffectSizeCheck;
   static_assert(sizeof(ParticleSystemEventEffect) == 0xB4);
 }
+NEED_NO_BOX(GlobalNamespace::ParticleSystemEventEffect);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ParticleSystemEventEffect*, "", "ParticleSystemEventEffect");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ParticleSystemEventEffect::Start

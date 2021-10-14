@@ -37,6 +37,7 @@ namespace System::Runtime::Serialization {
   }; // System.Runtime.Serialization.SurrogateHashtable
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Runtime::Serialization::SurrogateHashtable);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SurrogateHashtable*, "System.Runtime.Serialization", "SurrogateHashtable");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::SurrogateHashtable::New_ctor

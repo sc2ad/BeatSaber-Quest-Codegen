@@ -56,6 +56,7 @@ namespace MasterServer {
   }; // MasterServer.UserMultipartMessage
   #pragma pack(pop)
 }
+NEED_NO_BOX(MasterServer::UserMultipartMessage);
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::UserMultipartMessage*, "MasterServer", "UserMultipartMessage");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: MasterServer::UserMultipartMessage::get_pool

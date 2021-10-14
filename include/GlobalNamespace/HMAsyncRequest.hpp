@@ -80,6 +80,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(HMAsyncRequest), 32 + sizeof(GlobalNamespace::HMAsyncRequest::CancelHander*)> __GlobalNamespace_HMAsyncRequestSizeCheck;
   static_assert(sizeof(HMAsyncRequest) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::HMAsyncRequest);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HMAsyncRequest*, "", "HMAsyncRequest");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HMAsyncRequest::get_CancelHandler

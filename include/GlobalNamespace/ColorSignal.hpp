@@ -36,6 +36,7 @@ namespace GlobalNamespace {
     }
   }; // ColorSignal
 }
+NEED_NO_BOX(GlobalNamespace::ColorSignal);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSignal*, "", "ColorSignal");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ColorSignal::New_ctor

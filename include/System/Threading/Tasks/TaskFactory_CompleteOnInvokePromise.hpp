@@ -74,6 +74,7 @@ namespace System::Threading::Tasks {
   }; // System.Threading.Tasks.TaskFactory/System.Threading.Tasks.CompleteOnInvokePromise
   // WARNING Not writing size check since size may be invalid!
 }
+NEED_NO_BOX(System::Threading::Tasks::TaskFactory::CompleteOnInvokePromise);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskFactory::CompleteOnInvokePromise*, "System.Threading.Tasks", "TaskFactory/CompleteOnInvokePromise");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::Tasks::TaskFactory::CompleteOnInvokePromise::New_ctor

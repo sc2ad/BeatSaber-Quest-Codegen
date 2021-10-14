@@ -117,6 +117,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SteamVR_TestController), 56 + sizeof(UnityEngine::Transform*)> __GlobalNamespace_SteamVR_TestControllerSizeCheck;
   static_assert(sizeof(SteamVR_TestController) == 0x40);
 }
+NEED_NO_BOX(GlobalNamespace::SteamVR_TestController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_TestController*, "", "SteamVR_TestController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_TestController::OnDeviceConnected

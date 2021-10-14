@@ -146,6 +146,7 @@ namespace UnityEngine::ProBuilder {
   static check_size<sizeof(UnwrapParameters), 28 + sizeof(float)> __UnityEngine_ProBuilder_UnwrapParametersSizeCheck;
   static_assert(sizeof(UnwrapParameters) == 0x20);
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::UnwrapParameters);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::UnwrapParameters*, "UnityEngine.ProBuilder", "UnwrapParameters");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::UnwrapParameters::get_hardAngle

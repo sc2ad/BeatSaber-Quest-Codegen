@@ -100,6 +100,7 @@ namespace System::Net::Http::Headers {
   }; // System.Net.Http.Headers.HttpHeaders/System.Net.Http.Headers.<GetEnumerator>d__19
   // WARNING Not writing size check since size may be invalid!
 }
+NEED_NO_BOX(System::Net::Http::Headers::HttpHeaders::$GetEnumerator$d__19);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::HttpHeaders::$GetEnumerator$d__19*, "System.Net.Http.Headers", "HttpHeaders/<GetEnumerator>d__19");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Http::Headers::HttpHeaders::$GetEnumerator$d__19::System_Collections_Generic_IEnumerator$System_Collections_Generic_KeyValuePair$System_String_System_Collections_Generic_IEnumerable$System_String$$$_get_Current

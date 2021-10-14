@@ -260,6 +260,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SaberTrail), 136 + sizeof(bool)> __GlobalNamespace_SaberTrailSizeCheck;
   static_assert(sizeof(SaberTrail) == 0x89);
 }
+NEED_NO_BOX(GlobalNamespace::SaberTrail);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberTrail*, "", "SaberTrail");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SaberTrail::Awake

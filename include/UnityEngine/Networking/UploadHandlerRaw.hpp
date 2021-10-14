@@ -42,6 +42,7 @@ namespace UnityEngine::Networking {
   }; // UnityEngine.Networking.UploadHandlerRaw
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::Networking::UploadHandlerRaw);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::UploadHandlerRaw*, "UnityEngine.Networking", "UploadHandlerRaw");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Networking::UploadHandlerRaw::New_ctor

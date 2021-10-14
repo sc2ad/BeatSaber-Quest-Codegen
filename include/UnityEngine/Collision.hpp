@@ -100,5 +100,6 @@ namespace UnityEngine {
   static_assert(sizeof(Collision) == 0x50);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::Collision);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Collision*, "UnityEngine", "Collision");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

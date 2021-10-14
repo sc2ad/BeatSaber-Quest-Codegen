@@ -50,6 +50,7 @@ namespace HoudiniEngineUnity {
   }; // HoudiniEngineUnity.HEU_PDGAssetLink/HoudiniEngineUnity.UpdateUIDelegate
   #pragma pack(pop)
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_PDGAssetLink::UpdateUIDelegate);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_PDGAssetLink::UpdateUIDelegate*, "HoudiniEngineUnity", "HEU_PDGAssetLink/UpdateUIDelegate");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PDGAssetLink::UpdateUIDelegate::New_ctor

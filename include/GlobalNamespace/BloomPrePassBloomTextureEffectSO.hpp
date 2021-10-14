@@ -170,6 +170,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BloomPrePassBloomTextureEffectSO), 88 + sizeof(GlobalNamespace::PyramidBloomRendererSO*)> __GlobalNamespace_BloomPrePassBloomTextureEffectSOSizeCheck;
   static_assert(sizeof(BloomPrePassBloomTextureEffectSO) == 0x60);
 }
+NEED_NO_BOX(GlobalNamespace::BloomPrePassBloomTextureEffectSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassBloomTextureEffectSO*, "", "BloomPrePassBloomTextureEffectSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePassBloomTextureEffectSO::get_toneMapping

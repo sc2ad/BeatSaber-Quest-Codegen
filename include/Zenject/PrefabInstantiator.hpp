@@ -155,6 +155,7 @@ namespace Zenject {
   static check_size<sizeof(PrefabInstantiator), 64 + sizeof(System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>*)> __Zenject_PrefabInstantiatorSizeCheck;
   static_assert(sizeof(PrefabInstantiator) == 0x48);
 }
+NEED_NO_BOX(Zenject::PrefabInstantiator);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::PrefabInstantiator*, "Zenject", "PrefabInstantiator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::PrefabInstantiator::get_GameObjectCreationParameters

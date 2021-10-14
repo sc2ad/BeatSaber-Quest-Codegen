@@ -352,6 +352,7 @@ namespace OVR::OpenVR {
   static check_size<sizeof(CVROverlay), 16 + sizeof(OVR::OpenVR::IVROverlay)> __OVR_OpenVR_CVROverlaySizeCheck;
   static_assert(sizeof(CVROverlay) == 0x2A0);
 }
+NEED_NO_BOX(OVR::OpenVR::CVROverlay);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVROverlay*, "OVR.OpenVR", "CVROverlay");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::New_ctor

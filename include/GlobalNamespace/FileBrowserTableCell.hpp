@@ -99,6 +99,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(FileBrowserTableCell), 96 + sizeof(UnityEngine::UI::Image*)> __GlobalNamespace_FileBrowserTableCellSizeCheck;
   static_assert(sizeof(FileBrowserTableCell) == 0x68);
 }
+NEED_NO_BOX(GlobalNamespace::FileBrowserTableCell);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FileBrowserTableCell*, "", "FileBrowserTableCell");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FileBrowserTableCell::get_text

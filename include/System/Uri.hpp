@@ -978,6 +978,7 @@ namespace System {
   // Offset: 0x1A2985C
   bool operator !=(System::Uri* uri1, System::Uri& uri2);
 }
+NEED_NO_BOX(System::Uri);
 DEFINE_IL2CPP_ARG_TYPE(System::Uri*, "System", "Uri");
 DEFINE_IL2CPP_ARG_TYPE(System::Uri::Flags, "System", "Uri/Flags");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -207,6 +207,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SteamVR_ControllerManager), 96 + sizeof(GlobalNamespace::SteamVR_Events::Action*)> __GlobalNamespace_SteamVR_ControllerManagerSizeCheck;
   static_assert(sizeof(SteamVR_ControllerManager) == 0x68);
 }
+NEED_NO_BOX(GlobalNamespace::SteamVR_ControllerManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_ControllerManager*, "", "SteamVR_ControllerManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_ControllerManager::SetUniqueObject

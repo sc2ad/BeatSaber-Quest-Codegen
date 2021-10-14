@@ -132,6 +132,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(AvatarPartsModelSO), 72 + sizeof(::ArrayW<GlobalNamespace::AvatarMeshPartSO*>)> __GlobalNamespace_AvatarPartsModelSOSizeCheck;
   static_assert(sizeof(AvatarPartsModelSO) == 0x50);
 }
+NEED_NO_BOX(GlobalNamespace::AvatarPartsModelSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarPartsModelSO*, "", "AvatarPartsModelSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AvatarPartsModelSO::get_headTops

@@ -48,6 +48,7 @@ namespace UnityEngine::UI {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::UI::IClippable);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::IClippable*, "UnityEngine.UI", "IClippable");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::IClippable::get_gameObject

@@ -105,6 +105,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ColorSchemeTableCell), 96 + sizeof(UnityEngine::UI::Image*)> __GlobalNamespace_ColorSchemeTableCellSizeCheck;
   static_assert(sizeof(ColorSchemeTableCell) == 0x68);
 }
+NEED_NO_BOX(GlobalNamespace::ColorSchemeTableCell);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSchemeTableCell*, "", "ColorSchemeTableCell");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ColorSchemeTableCell::get_text

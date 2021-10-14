@@ -35,6 +35,7 @@ namespace UnityEngine::Bindings {
   }; // UnityEngine.Bindings.NativeAsStructAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::Bindings::NativeAsStructAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::NativeAsStructAttribute*, "UnityEngine.Bindings", "NativeAsStructAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Bindings::NativeAsStructAttribute::New_ctor

@@ -163,6 +163,7 @@ namespace Mono::Security::Cryptography {
   static_assert(sizeof(RSAManaged) == 0x70);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(Mono::Security::Cryptography::RSAManaged);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::RSAManaged*, "Mono.Security.Cryptography", "RSAManaged");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Security::Cryptography::RSAManaged::get_PublicOnly

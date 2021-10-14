@@ -79,6 +79,7 @@ namespace UnityEngine::Playables {
   }; // UnityEngine.Playables.PlayableBehaviour
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::Playables::PlayableBehaviour);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableBehaviour*, "UnityEngine.Playables", "PlayableBehaviour");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableBehaviour::OnGraphStart

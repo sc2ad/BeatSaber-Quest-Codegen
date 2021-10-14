@@ -77,6 +77,7 @@ namespace NUnit::Framework {
   static check_size<sizeof(TestParameters), 16 + sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*)> __NUnit_Framework_TestParametersSizeCheck;
   static_assert(sizeof(TestParameters) == 0x18);
 }
+NEED_NO_BOX(NUnit::Framework::TestParameters);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::TestParameters*, "NUnit.Framework", "TestParameters");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::TestParameters::_cctor

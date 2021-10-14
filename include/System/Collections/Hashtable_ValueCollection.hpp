@@ -77,6 +77,7 @@ namespace System::Collections {
   static check_size<sizeof(Hashtable::ValueCollection), 16 + sizeof(System::Collections::Hashtable*)> __System_Collections_Hashtable_ValueCollectionSizeCheck;
   static_assert(sizeof(Hashtable::ValueCollection) == 0x18);
 }
+NEED_NO_BOX(System::Collections::Hashtable::ValueCollection);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Hashtable::ValueCollection*, "System.Collections", "Hashtable/ValueCollection");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::Hashtable::ValueCollection::get_Count

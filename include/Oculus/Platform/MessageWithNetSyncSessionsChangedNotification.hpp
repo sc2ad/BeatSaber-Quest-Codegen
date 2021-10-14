@@ -46,6 +46,7 @@ namespace Oculus::Platform {
     Oculus::Platform::Models::NetSyncSessionsChangedNotification* GetNetSyncSessionsChangedNotification();
   }; // Oculus.Platform.MessageWithNetSyncSessionsChangedNotification
 }
+NEED_NO_BOX(Oculus::Platform::MessageWithNetSyncSessionsChangedNotification);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithNetSyncSessionsChangedNotification*, "Oculus.Platform", "MessageWithNetSyncSessionsChangedNotification");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithNetSyncSessionsChangedNotification::GetDataFromMessage

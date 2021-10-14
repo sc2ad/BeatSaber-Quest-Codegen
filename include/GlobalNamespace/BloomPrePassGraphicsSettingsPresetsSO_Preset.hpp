@@ -60,6 +60,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BloomPrePassGraphicsSettingsPresetsSO::Preset), 24 + sizeof(GlobalNamespace::BloomPrePassEffectSO*)> __GlobalNamespace_BloomPrePassGraphicsSettingsPresetsSO_PresetSizeCheck;
   static_assert(sizeof(BloomPrePassGraphicsSettingsPresetsSO::Preset) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::Preset);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::Preset*, "", "BloomPrePassGraphicsSettingsPresetsSO/Preset");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::Preset::New_ctor

@@ -80,6 +80,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(EventsTestScenesTransitionSetupDataSO), 56 + sizeof(GlobalNamespace::SceneInfo*)> __GlobalNamespace_EventsTestScenesTransitionSetupDataSOSizeCheck;
   static_assert(sizeof(EventsTestScenesTransitionSetupDataSO) == 0x40);
 }
+NEED_NO_BOX(GlobalNamespace::EventsTestScenesTransitionSetupDataSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EventsTestScenesTransitionSetupDataSO*, "", "EventsTestScenesTransitionSetupDataSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EventsTestScenesTransitionSetupDataSO::Init

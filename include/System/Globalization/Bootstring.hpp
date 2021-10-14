@@ -117,6 +117,7 @@ namespace System::Globalization {
   static check_size<sizeof(Bootstring), 44 + sizeof(int)> __System_Globalization_BootstringSizeCheck;
   static_assert(sizeof(Bootstring) == 0x30);
 }
+NEED_NO_BOX(System::Globalization::Bootstring);
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::Bootstring*, "System.Globalization", "Bootstring");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Globalization::Bootstring::New_ctor

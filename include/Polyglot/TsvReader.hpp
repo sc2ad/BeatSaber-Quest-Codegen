@@ -41,6 +41,7 @@ namespace Polyglot {
   }; // Polyglot.TsvReader
   #pragma pack(pop)
 }
+NEED_NO_BOX(Polyglot::TsvReader);
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::TsvReader*, "Polyglot", "TsvReader");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Polyglot::TsvReader::Parse

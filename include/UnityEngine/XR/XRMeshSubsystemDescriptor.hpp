@@ -42,6 +42,7 @@ namespace UnityEngine::XR {
     }
   }; // UnityEngine.XR.XRMeshSubsystemDescriptor
 }
+NEED_NO_BOX(UnityEngine::XR::XRMeshSubsystemDescriptor);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::XRMeshSubsystemDescriptor*, "UnityEngine.XR", "XRMeshSubsystemDescriptor");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::XR::XRMeshSubsystemDescriptor::New_ctor

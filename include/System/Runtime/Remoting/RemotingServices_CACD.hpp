@@ -56,6 +56,7 @@ namespace System::Runtime::Remoting {
   static check_size<sizeof(RemotingServices::CACD), 24 + sizeof(::Il2CppObject*)> __System_Runtime_Remoting_RemotingServices_CACDSizeCheck;
   static_assert(sizeof(RemotingServices::CACD) == 0x20);
 }
+NEED_NO_BOX(System::Runtime::Remoting::RemotingServices::CACD);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::RemotingServices::CACD*, "System.Runtime.Remoting", "RemotingServices/CACD");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::RemotingServices::CACD::New_ctor

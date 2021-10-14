@@ -59,6 +59,7 @@ namespace JetBrains::Annotations {
   static check_size<sizeof(AssertionConditionAttribute), 16 + sizeof(JetBrains::Annotations::AssertionConditionType)> __JetBrains_Annotations_AssertionConditionAttributeSizeCheck;
   static_assert(sizeof(AssertionConditionAttribute) == 0x14);
 }
+NEED_NO_BOX(JetBrains::Annotations::AssertionConditionAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::AssertionConditionAttribute*, "JetBrains.Annotations", "AssertionConditionAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: JetBrains::Annotations::AssertionConditionAttribute::get_ConditionType

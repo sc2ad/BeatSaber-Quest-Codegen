@@ -33,6 +33,7 @@ namespace System::Runtime::Remoting {
   }; // System.Runtime.Remoting.FormatterData
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Runtime::Remoting::FormatterData);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::FormatterData*, "System.Runtime.Remoting", "FormatterData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::FormatterData::New_ctor

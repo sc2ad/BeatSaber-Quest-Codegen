@@ -99,6 +99,7 @@ namespace UnityEngine::AddressableAssets {
   static check_size<sizeof(DynamicResourceLocator), 24 + sizeof(::Il2CppString*)> __UnityEngine_AddressableAssets_DynamicResourceLocatorSizeCheck;
   static_assert(sizeof(DynamicResourceLocator) == 0x20);
 }
+NEED_NO_BOX(UnityEngine::AddressableAssets::DynamicResourceLocator);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::DynamicResourceLocator*, "UnityEngine.AddressableAssets", "DynamicResourceLocator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::DynamicResourceLocator::get_LocatorId

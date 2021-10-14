@@ -60,6 +60,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(Amplifier::Body::EffectorLink), 20 + sizeof(float)> __RootMotion_FinalIK_Amplifier_Body_EffectorLinkSizeCheck;
   static_assert(sizeof(Amplifier::Body::EffectorLink) == 0x18);
 }
+NEED_NO_BOX(RootMotion::FinalIK::Amplifier::Body::EffectorLink);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Amplifier::Body::EffectorLink*, "RootMotion.FinalIK", "Amplifier/Body/EffectorLink");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::Amplifier::Body::EffectorLink::New_ctor

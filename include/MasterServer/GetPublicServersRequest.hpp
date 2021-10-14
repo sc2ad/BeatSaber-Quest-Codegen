@@ -151,6 +151,7 @@ namespace MasterServer {
   static check_size<sizeof(GetPublicServersRequest), 72 + sizeof(GlobalNamespace::GameplayServerConfiguration)> __MasterServer_GetPublicServersRequestSizeCheck;
   static_assert(sizeof(GetPublicServersRequest) == 0x60);
 }
+NEED_NO_BOX(MasterServer::GetPublicServersRequest);
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::GetPublicServersRequest*, "MasterServer", "GetPublicServersRequest");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: MasterServer::GetPublicServersRequest::get_pool

@@ -56,6 +56,7 @@ namespace MasterServer {
   }; // MasterServer.UserMessageReceivedAcknowledge
   #pragma pack(pop)
 }
+NEED_NO_BOX(MasterServer::UserMessageReceivedAcknowledge);
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::UserMessageReceivedAcknowledge*, "MasterServer", "UserMessageReceivedAcknowledge");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: MasterServer::UserMessageReceivedAcknowledge::get_pool

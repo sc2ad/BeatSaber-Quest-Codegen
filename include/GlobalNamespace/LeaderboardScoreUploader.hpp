@@ -160,6 +160,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LeaderboardScoreUploader), 64 + sizeof(bool)> __GlobalNamespace_LeaderboardScoreUploaderSizeCheck;
   static_assert(sizeof(LeaderboardScoreUploader) == 0x41);
 }
+NEED_NO_BOX(GlobalNamespace::LeaderboardScoreUploader);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardScoreUploader*, "", "LeaderboardScoreUploader");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LeaderboardScoreUploader::add_allScoresDidUploadEvent

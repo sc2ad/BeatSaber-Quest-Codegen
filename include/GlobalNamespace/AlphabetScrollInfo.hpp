@@ -37,6 +37,7 @@ namespace GlobalNamespace {
   }; // AlphabetScrollInfo
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::AlphabetScrollInfo);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AlphabetScrollInfo*, "", "AlphabetScrollInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AlphabetScrollInfo::New_ctor

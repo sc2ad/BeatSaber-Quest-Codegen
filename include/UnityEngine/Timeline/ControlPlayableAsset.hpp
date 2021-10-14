@@ -336,6 +336,7 @@ namespace UnityEngine::Timeline {
   }; // UnityEngine.Timeline.ControlPlayableAsset
   // WARNING Not writing size check since size may be invalid!
 }
+NEED_NO_BOX(UnityEngine::Timeline::ControlPlayableAsset);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ControlPlayableAsset*, "UnityEngine.Timeline", "ControlPlayableAsset");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::ControlPlayableAsset::get_controllingDirectors

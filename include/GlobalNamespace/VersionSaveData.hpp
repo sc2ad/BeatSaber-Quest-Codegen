@@ -50,6 +50,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(VersionSaveData), 16 + sizeof(::Il2CppString*)> __GlobalNamespace_VersionSaveDataSizeCheck;
   static_assert(sizeof(VersionSaveData) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::VersionSaveData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VersionSaveData*, "", "VersionSaveData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::VersionSaveData::New_ctor

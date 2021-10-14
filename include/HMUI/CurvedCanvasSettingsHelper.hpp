@@ -106,6 +106,7 @@ namespace HMUI {
   static check_size<sizeof(CurvedCanvasSettingsHelper), 40 + sizeof(bool)> __HMUI_CurvedCanvasSettingsHelperSizeCheck;
   static_assert(sizeof(CurvedCanvasSettingsHelper) == 0x29);
 }
+NEED_NO_BOX(HMUI::CurvedCanvasSettingsHelper);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::CurvedCanvasSettingsHelper*, "HMUI", "CurvedCanvasSettingsHelper");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::CurvedCanvasSettingsHelper::_cctor

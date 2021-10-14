@@ -44,6 +44,7 @@ namespace System::Net::Configuration {
   }; // System.Net.Configuration.Ipv6Element
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Net::Configuration::Ipv6Element);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Configuration::Ipv6Element*, "System.Net.Configuration", "Ipv6Element");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Configuration::Ipv6Element::get_Properties

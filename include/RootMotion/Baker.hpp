@@ -310,6 +310,7 @@ namespace RootMotion {
   static check_size<sizeof(Baker), 112 + sizeof(float)> __RootMotion_BakerSizeCheck;
   static_assert(sizeof(Baker) == 0x74);
 }
+NEED_NO_BOX(RootMotion::Baker);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::Baker*, "RootMotion", "Baker");
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::Baker::Mode, "RootMotion", "Baker/Mode");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

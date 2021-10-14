@@ -97,6 +97,7 @@ namespace UnityEngine::Timeline {
   static check_size<sizeof(TimeControlPlayable), 24 + sizeof(bool)> __UnityEngine_Timeline_TimeControlPlayableSizeCheck;
   static_assert(sizeof(TimeControlPlayable) == 0x19);
 }
+NEED_NO_BOX(UnityEngine::Timeline::TimeControlPlayable);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimeControlPlayable*, "UnityEngine.Timeline", "TimeControlPlayable");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimeControlPlayable::Create

@@ -114,6 +114,7 @@ namespace Mono::Security::X509 {
   static check_size<sizeof(X509Extension), 32 + sizeof(Mono::Security::ASN1*)> __Mono_Security_X509_X509ExtensionSizeCheck;
   static_assert(sizeof(X509Extension) == 0x28);
 }
+NEED_NO_BOX(Mono::Security::X509::X509Extension);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::X509Extension*, "Mono.Security.X509", "X509Extension");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Security::X509::X509Extension::get_Oid

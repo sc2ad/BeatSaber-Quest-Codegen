@@ -96,6 +96,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerSpectatingSpotManager), 24 + sizeof(System::Collections::Generic::Dictionary_2<GlobalNamespace::IMultiplayerSpectatingSpot*, int>*)> __GlobalNamespace_MultiplayerSpectatingSpotManagerSizeCheck;
   static_assert(sizeof(MultiplayerSpectatingSpotManager) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerSpectatingSpotManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerSpectatingSpotManager*, "", "MultiplayerSpectatingSpotManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerSpectatingSpotManager::get_spectatingSpots

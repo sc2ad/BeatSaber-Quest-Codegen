@@ -57,6 +57,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SelectLevelCategoryViewController::$$c__DisplayClass12_0), 16 + sizeof(::ArrayW<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>)> __GlobalNamespace_SelectLevelCategoryViewController_$$c__DisplayClass12_0SizeCheck;
   static_assert(sizeof(SelectLevelCategoryViewController::$$c__DisplayClass12_0) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::SelectLevelCategoryViewController::$$c__DisplayClass12_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectLevelCategoryViewController::$$c__DisplayClass12_0*, "", "SelectLevelCategoryViewController/<>c__DisplayClass12_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SelectLevelCategoryViewController::$$c__DisplayClass12_0::$Setup$b__0

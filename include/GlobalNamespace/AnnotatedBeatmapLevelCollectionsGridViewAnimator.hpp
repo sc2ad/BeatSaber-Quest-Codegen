@@ -193,6 +193,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(AnnotatedBeatmapLevelCollectionsGridViewAnimator), 80 + sizeof(Tweening::Vector2Tween*)> __GlobalNamespace_AnnotatedBeatmapLevelCollectionsGridViewAnimatorSizeCheck;
   static_assert(sizeof(AnnotatedBeatmapLevelCollectionsGridViewAnimator) == 0x58);
 }
+NEED_NO_BOX(GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator*, "", "AnnotatedBeatmapLevelCollectionsGridViewAnimator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::Init

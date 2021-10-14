@@ -144,6 +144,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OculusConnectionManager::OculusConnection), 40 + sizeof(bool)> __GlobalNamespace_OculusConnectionManager_OculusConnectionSizeCheck;
   static_assert(sizeof(OculusConnectionManager::OculusConnection) == 0x29);
 }
+NEED_NO_BOX(GlobalNamespace::OculusConnectionManager::OculusConnection);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusConnectionManager::OculusConnection*, "", "OculusConnectionManager/OculusConnection");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::OculusConnection::get_id

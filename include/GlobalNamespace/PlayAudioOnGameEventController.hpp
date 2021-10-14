@@ -78,6 +78,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PlayAudioOnGameEventController), 32 + sizeof(::ArrayW<GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding*>)> __GlobalNamespace_PlayAudioOnGameEventControllerSizeCheck;
   static_assert(sizeof(PlayAudioOnGameEventController) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::PlayAudioOnGameEventController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayAudioOnGameEventController*, "", "PlayAudioOnGameEventController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayAudioOnGameEventController::Awake

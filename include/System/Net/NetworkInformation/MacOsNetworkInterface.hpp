@@ -69,6 +69,7 @@ namespace System::Net::NetworkInformation {
   static check_size<sizeof(MacOsNetworkInterface), 52 + sizeof(uint)> __System_Net_NetworkInformation_MacOsNetworkInterfaceSizeCheck;
   static_assert(sizeof(MacOsNetworkInterface) == 0x38);
 }
+NEED_NO_BOX(System::Net::NetworkInformation::MacOsNetworkInterface);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::MacOsNetworkInterface*, "System.Net.NetworkInformation", "MacOsNetworkInterface");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::NetworkInformation::MacOsNetworkInterface::New_ctor

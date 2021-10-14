@@ -95,5 +95,6 @@ namespace UnityEngine {
   static_assert(sizeof(ControllerColliderHit) == 0x4C);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::ControllerColliderHit);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ControllerColliderHit*, "UnityEngine", "ControllerColliderHit");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

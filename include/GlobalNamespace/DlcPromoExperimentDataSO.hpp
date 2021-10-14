@@ -133,6 +133,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(DlcPromoExperimentDataSO), 64 + sizeof(int)> __GlobalNamespace_DlcPromoExperimentDataSOSizeCheck;
   static_assert(sizeof(DlcPromoExperimentDataSO) == 0x44);
 }
+NEED_NO_BOX(GlobalNamespace::DlcPromoExperimentDataSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DlcPromoExperimentDataSO*, "", "DlcPromoExperimentDataSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DlcPromoExperimentDataSO::get_cutOffTest1

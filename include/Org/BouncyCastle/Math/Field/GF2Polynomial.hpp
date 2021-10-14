@@ -71,6 +71,7 @@ namespace Org::BouncyCastle::Math::Field {
   static check_size<sizeof(GF2Polynomial), 16 + sizeof(::ArrayW<int>)> __Org_BouncyCastle_Math_Field_GF2PolynomialSizeCheck;
   static_assert(sizeof(GF2Polynomial) == 0x18);
 }
+NEED_NO_BOX(Org::BouncyCastle::Math::Field::GF2Polynomial);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::Field::GF2Polynomial*, "Org.BouncyCastle.Math.Field", "GF2Polynomial");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::Field::GF2Polynomial::get_Degree

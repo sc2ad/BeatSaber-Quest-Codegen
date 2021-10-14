@@ -630,6 +630,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(EditAvatarViewController), 320 + sizeof(GlobalNamespace::EditAvatarViewController::AvatarEditPart)> __GlobalNamespace_EditAvatarViewControllerSizeCheck;
   static_assert(sizeof(EditAvatarViewController) == 0x144);
 }
+NEED_NO_BOX(GlobalNamespace::EditAvatarViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EditAvatarViewController*, "", "EditAvatarViewController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EditAvatarViewController::AvatarEditPart, "", "EditAvatarViewController/AvatarEditPart");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

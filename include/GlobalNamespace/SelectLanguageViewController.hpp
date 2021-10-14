@@ -122,6 +122,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SelectLanguageViewController), 136 + sizeof(System::Action*)> __GlobalNamespace_SelectLanguageViewControllerSizeCheck;
   static_assert(sizeof(SelectLanguageViewController) == 0x90);
 }
+NEED_NO_BOX(GlobalNamespace::SelectLanguageViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectLanguageViewController*, "", "SelectLanguageViewController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SelectLanguageViewController::add_didChangeLanguageEvent

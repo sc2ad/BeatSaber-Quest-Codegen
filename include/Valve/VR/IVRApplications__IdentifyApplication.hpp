@@ -56,6 +56,7 @@ namespace Valve::VR {
   }; // Valve.VR.IVRApplications/Valve.VR._IdentifyApplication
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::IVRApplications::_IdentifyApplication);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRApplications::_IdentifyApplication*, "Valve.VR", "IVRApplications/_IdentifyApplication");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRApplications::_IdentifyApplication::New_ctor

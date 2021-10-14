@@ -58,6 +58,7 @@ namespace Valve::VR {
   }; // Valve.VR.IVRCompositor/Valve.VR._GetMirrorTextureD3D11
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::IVRCompositor::_GetMirrorTextureD3D11);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRCompositor::_GetMirrorTextureD3D11*, "Valve.VR", "IVRCompositor/_GetMirrorTextureD3D11");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRCompositor::_GetMirrorTextureD3D11::New_ctor

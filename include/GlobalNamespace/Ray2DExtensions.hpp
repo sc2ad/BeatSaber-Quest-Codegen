@@ -32,6 +32,7 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(GlobalNamespace::Ray2DExtensions);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Ray2DExtensions*, "", "Ray2DExtensions");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::Ray2DExtensions::CircleIntersections

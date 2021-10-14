@@ -211,6 +211,7 @@ namespace HoudiniEngineUnity {
   // Offset: 0x16E6414
   bool operator !=(HoudiniEngineUnity::JSONLazyCreator* a, ::Il2CppObject& b);
 }
+NEED_NO_BOX(HoudiniEngineUnity::JSONLazyCreator);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::JSONLazyCreator*, "HoudiniEngineUnity", "JSONLazyCreator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONLazyCreator::New_ctor

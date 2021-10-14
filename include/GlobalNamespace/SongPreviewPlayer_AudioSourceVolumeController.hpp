@@ -81,6 +81,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SongPreviewPlayer::AudioSourceVolumeController), 28 + sizeof(float)> __GlobalNamespace_SongPreviewPlayer_AudioSourceVolumeControllerSizeCheck;
   static_assert(sizeof(SongPreviewPlayer::AudioSourceVolumeController) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController*, "", "SongPreviewPlayer/AudioSourceVolumeController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController::get_volume

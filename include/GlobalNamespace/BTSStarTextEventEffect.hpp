@@ -162,6 +162,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BTSStarTextEventEffect), 72 + sizeof(System::Collections::Generic::Dictionary_2<int, UnityEngine::Transform*>*)> __GlobalNamespace_BTSStarTextEventEffectSizeCheck;
   static_assert(sizeof(BTSStarTextEventEffect) == 0x50);
 }
+NEED_NO_BOX(GlobalNamespace::BTSStarTextEventEffect);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSStarTextEventEffect*, "", "BTSStarTextEventEffect");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BTSStarTextEventEffect::add_startStarTextAnimationEvent

@@ -71,6 +71,7 @@ namespace Mono::Net::Security::Private {
   static check_size<sizeof(CallbackHelpers::$$c__DisplayClass8_0), 16 + sizeof(Mono::Security::Interface::MonoLocalCertificateSelectionCallback*)> __Mono_Net_Security_Private_CallbackHelpers_$$c__DisplayClass8_0SizeCheck;
   static_assert(sizeof(CallbackHelpers::$$c__DisplayClass8_0) == 0x18);
 }
+NEED_NO_BOX(Mono::Net::Security::Private::CallbackHelpers::$$c__DisplayClass8_0);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::Private::CallbackHelpers::$$c__DisplayClass8_0*, "Mono.Net.Security.Private", "CallbackHelpers/<>c__DisplayClass8_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Net::Security::Private::CallbackHelpers::$$c__DisplayClass8_0::$MonoToInternal$b__0

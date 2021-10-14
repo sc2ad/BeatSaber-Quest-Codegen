@@ -70,6 +70,7 @@ namespace Zenject {
   }; // Zenject.InitializableManager/Zenject.<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(Zenject::InitializableManager::$$c);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::InitializableManager::$$c*, "Zenject", "InitializableManager/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::InitializableManager::$$c::_cctor

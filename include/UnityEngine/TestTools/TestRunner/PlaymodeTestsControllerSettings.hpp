@@ -93,6 +93,7 @@ namespace UnityEngine::TestTools::TestRunner {
   static check_size<sizeof(PlaymodeTestsControllerSettings), 40 + sizeof(::Il2CppString*)> __UnityEngine_TestTools_TestRunner_PlaymodeTestsControllerSettingsSizeCheck;
   static_assert(sizeof(PlaymodeTestsControllerSettings) == 0x30);
 }
+NEED_NO_BOX(UnityEngine::TestTools::TestRunner::PlaymodeTestsControllerSettings);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::PlaymodeTestsControllerSettings*, "UnityEngine.TestTools.TestRunner", "PlaymodeTestsControllerSettings");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::PlaymodeTestsControllerSettings::BuildNUnitFilter

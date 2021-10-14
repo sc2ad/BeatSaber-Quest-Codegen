@@ -241,6 +241,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PauseController), 112 + sizeof(bool)> __GlobalNamespace_PauseControllerSizeCheck;
   static_assert(sizeof(PauseController) == 0x71);
 }
+NEED_NO_BOX(GlobalNamespace::PauseController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PauseController*, "", "PauseController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PauseController::get_canPause

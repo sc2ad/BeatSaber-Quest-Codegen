@@ -146,6 +146,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(FloorAdjustViewController), 152 + sizeof(float)> __GlobalNamespace_FloorAdjustViewControllerSizeCheck;
   static_assert(sizeof(FloorAdjustViewController) == 0x9C);
 }
+NEED_NO_BOX(GlobalNamespace::FloorAdjustViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FloorAdjustViewController*, "", "FloorAdjustViewController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FloorAdjustViewController::Update

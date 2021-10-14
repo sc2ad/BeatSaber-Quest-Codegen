@@ -81,6 +81,7 @@ namespace UnityEngine {
   }; // UnityEngine.NoAllocHelpers
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::NoAllocHelpers);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::NoAllocHelpers*, "UnityEngine", "NoAllocHelpers");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::NoAllocHelpers::ResizeList

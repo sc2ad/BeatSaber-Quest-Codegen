@@ -179,6 +179,7 @@ namespace System::Reflection {
   // Offset: 0x1E902D4
   bool operator !=(System::Reflection::MethodBase* left, System::Reflection::MethodBase& right);
 }
+NEED_NO_BOX(System::Reflection::MethodBase);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MethodBase*, "System.Reflection", "MethodBase");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::MethodBase::get_MethodHandle

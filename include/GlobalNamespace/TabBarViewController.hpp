@@ -136,6 +136,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(TabBarViewController), 144 + sizeof(bool)> __GlobalNamespace_TabBarViewControllerSizeCheck;
   static_assert(sizeof(TabBarViewController) == 0x91);
 }
+NEED_NO_BOX(GlobalNamespace::TabBarViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TabBarViewController*, "", "TabBarViewController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TabBarViewController::get_sizeToFit

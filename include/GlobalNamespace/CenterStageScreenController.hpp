@@ -206,6 +206,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(CenterStageScreenController), 100 + sizeof(float)> __GlobalNamespace_CenterStageScreenControllerSizeCheck;
   static_assert(sizeof(CenterStageScreenController) == 0x68);
 }
+NEED_NO_BOX(GlobalNamespace::CenterStageScreenController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CenterStageScreenController*, "", "CenterStageScreenController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CenterStageScreenController::get_countdownShown

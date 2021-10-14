@@ -109,6 +109,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerLobbyAvatarManager::$RemovePlayerAndDestroy$d__13), 48 + sizeof(GlobalNamespace::MultiplayerLobbyAvatarController*)> __GlobalNamespace_MultiplayerLobbyAvatarManager_$RemovePlayerAndDestroy$d__13SizeCheck;
   static_assert(sizeof(MultiplayerLobbyAvatarManager::$RemovePlayerAndDestroy$d__13) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerLobbyAvatarManager::$RemovePlayerAndDestroy$d__13);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLobbyAvatarManager::$RemovePlayerAndDestroy$d__13*, "", "MultiplayerLobbyAvatarManager/<RemovePlayerAndDestroy>d__13");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyAvatarManager::$RemovePlayerAndDestroy$d__13::System_Collections_Generic_IEnumerator$System_Object$_get_Current

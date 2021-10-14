@@ -24,6 +24,7 @@ namespace Org::BouncyCastle::Crypto::Tls {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Tls::AlertDescription);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::AlertDescription*, "Org.BouncyCastle.Crypto.Tls", "AlertDescription");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Tls::AlertDescription::GetName

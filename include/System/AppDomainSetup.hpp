@@ -233,6 +233,7 @@ namespace System {
   static check_size<sizeof(AppDomainSetup), 168 + sizeof(::Il2CppString*)> __System_AppDomainSetupSizeCheck;
   static_assert(sizeof(AppDomainSetup) == 0xB0);
 }
+NEED_NO_BOX(System::AppDomainSetup);
 DEFINE_IL2CPP_ARG_TYPE(System::AppDomainSetup*, "System", "AppDomainSetup");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::AppDomainSetup::New_ctor

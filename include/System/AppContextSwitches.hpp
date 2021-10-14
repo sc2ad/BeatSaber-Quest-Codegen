@@ -30,5 +30,6 @@ namespace System {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::AppContextSwitches);
 DEFINE_IL2CPP_ARG_TYPE(System::AppContextSwitches*, "System", "AppContextSwitches");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

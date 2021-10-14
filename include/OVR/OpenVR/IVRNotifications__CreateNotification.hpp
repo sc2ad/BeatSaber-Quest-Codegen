@@ -62,6 +62,7 @@ namespace OVR::OpenVR {
   }; // OVR.OpenVR.IVRNotifications/OVR.OpenVR._CreateNotification
   #pragma pack(pop)
 }
+NEED_NO_BOX(OVR::OpenVR::IVRNotifications::_CreateNotification);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRNotifications::_CreateNotification*, "OVR.OpenVR", "IVRNotifications/_CreateNotification");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVRNotifications::_CreateNotification::New_ctor

@@ -48,6 +48,7 @@ namespace GlobalNamespace {
   }; // MultiplayerBadgeDataGoodCutsSO
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerBadgeDataGoodCutsSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerBadgeDataGoodCutsSO*, "", "MultiplayerBadgeDataGoodCutsSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerBadgeDataGoodCutsSO::New_ctor

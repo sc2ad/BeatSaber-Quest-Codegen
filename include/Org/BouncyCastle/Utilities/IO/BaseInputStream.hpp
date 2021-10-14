@@ -118,6 +118,7 @@ namespace Org::BouncyCastle::Utilities::IO {
   static check_size<sizeof(BaseInputStream), 40 + sizeof(bool)> __Org_BouncyCastle_Utilities_IO_BaseInputStreamSizeCheck;
   static_assert(sizeof(BaseInputStream) == 0x29);
 }
+NEED_NO_BOX(Org::BouncyCastle::Utilities::IO::BaseInputStream);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::IO::BaseInputStream*, "Org.BouncyCastle.Utilities.IO", "BaseInputStream");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::IO::BaseInputStream::get_CanRead

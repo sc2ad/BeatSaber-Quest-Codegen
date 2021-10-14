@@ -65,6 +65,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(UnifiedNetworkPlayerModel::JoinMatchmakingPartyConfig), 80 + sizeof(::Il2CppString*)> __GlobalNamespace_UnifiedNetworkPlayerModel_JoinMatchmakingPartyConfigSizeCheck;
   static_assert(sizeof(UnifiedNetworkPlayerModel::JoinMatchmakingPartyConfig) == 0x58);
 }
+NEED_NO_BOX(GlobalNamespace::UnifiedNetworkPlayerModel::JoinMatchmakingPartyConfig);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UnifiedNetworkPlayerModel::JoinMatchmakingPartyConfig*, "", "UnifiedNetworkPlayerModel/JoinMatchmakingPartyConfig");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::UnifiedNetworkPlayerModel::JoinMatchmakingPartyConfig::New_ctor

@@ -60,6 +60,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(GameServerLobbyFlowCoordinator::$$c__DisplayClass75_0), 24 + sizeof(::Il2CppString*)> __GlobalNamespace_GameServerLobbyFlowCoordinator_$$c__DisplayClass75_0SizeCheck;
   static_assert(sizeof(GameServerLobbyFlowCoordinator::$$c__DisplayClass75_0) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::GameServerLobbyFlowCoordinator::$$c__DisplayClass75_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServerLobbyFlowCoordinator::$$c__DisplayClass75_0*, "", "GameServerLobbyFlowCoordinator/<>c__DisplayClass75_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameServerLobbyFlowCoordinator::$$c__DisplayClass75_0::$HandleServerPlayerListViewControllerKickPlayer$b__0

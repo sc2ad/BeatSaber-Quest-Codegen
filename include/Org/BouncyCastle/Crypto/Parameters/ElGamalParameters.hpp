@@ -99,6 +99,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   static check_size<sizeof(ElGamalParameters), 32 + sizeof(int)> __Org_BouncyCastle_Crypto_Parameters_ElGamalParametersSizeCheck;
   static_assert(sizeof(ElGamalParameters) == 0x24);
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Parameters::ElGamalParameters);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::ElGamalParameters*, "Org.BouncyCastle.Crypto.Parameters", "ElGamalParameters");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::ElGamalParameters::get_P

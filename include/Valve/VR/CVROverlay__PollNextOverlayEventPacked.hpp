@@ -56,6 +56,7 @@ namespace Valve::VR {
   }; // Valve.VR.CVROverlay/Valve.VR._PollNextOverlayEventPacked
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::CVROverlay::_PollNextOverlayEventPacked);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVROverlay::_PollNextOverlayEventPacked*, "Valve.VR", "CVROverlay/_PollNextOverlayEventPacked");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::_PollNextOverlayEventPacked::New_ctor

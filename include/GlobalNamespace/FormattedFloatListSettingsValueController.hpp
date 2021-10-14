@@ -173,6 +173,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(FormattedFloatListSettingsValueController), 72 + sizeof(float)> __GlobalNamespace_FormattedFloatListSettingsValueControllerSizeCheck;
   static_assert(sizeof(FormattedFloatListSettingsValueController) == 0x4C);
 }
+NEED_NO_BOX(GlobalNamespace::FormattedFloatListSettingsValueController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FormattedFloatListSettingsValueController*, "", "FormattedFloatListSettingsValueController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FormattedFloatListSettingsValueController::ValueType, "", "FormattedFloatListSettingsValueController/ValueType");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

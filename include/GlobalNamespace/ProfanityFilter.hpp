@@ -72,6 +72,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ProfanityFilter), 16 + sizeof(GlobalNamespace::ProfanityFilter::TrieNode*)> __GlobalNamespace_ProfanityFilterSizeCheck;
   static_assert(sizeof(ProfanityFilter) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::ProfanityFilter);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ProfanityFilter*, "", "ProfanityFilter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ProfanityFilter::New_ctor

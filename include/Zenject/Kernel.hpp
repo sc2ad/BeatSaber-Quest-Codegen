@@ -131,6 +131,7 @@ namespace Zenject {
   static check_size<sizeof(Kernel), 32 + sizeof(Zenject::DisposableManager*)> __Zenject_KernelSizeCheck;
   static_assert(sizeof(Kernel) == 0x28);
 }
+NEED_NO_BOX(Zenject::Kernel);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Kernel*, "Zenject", "Kernel");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::Kernel::Initialize

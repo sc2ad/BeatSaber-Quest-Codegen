@@ -95,6 +95,7 @@ namespace OnlineServices {
   static check_size<sizeof(LeaderboardEntriesResult), 40 + sizeof(int)> __OnlineServices_LeaderboardEntriesResultSizeCheck;
   static_assert(sizeof(LeaderboardEntriesResult) == 0x2C);
 }
+NEED_NO_BOX(OnlineServices::LeaderboardEntriesResult);
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::LeaderboardEntriesResult*, "OnlineServices", "LeaderboardEntriesResult");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OnlineServices::LeaderboardEntriesResult::get_notInicializedError

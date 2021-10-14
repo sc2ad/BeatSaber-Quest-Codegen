@@ -146,6 +146,7 @@ namespace UnityEngine::TestTools {
   static check_size<sizeof(EnumerableApplyChangesToContextCommand::$ExecuteEnumerable$d__1), 64 + sizeof(System::Collections::IEnumerator*)> __UnityEngine_TestTools_EnumerableApplyChangesToContextCommand_$ExecuteEnumerable$d__1SizeCheck;
   static_assert(sizeof(EnumerableApplyChangesToContextCommand::$ExecuteEnumerable$d__1) == 0x48);
 }
+NEED_NO_BOX(UnityEngine::TestTools::EnumerableApplyChangesToContextCommand::$ExecuteEnumerable$d__1);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::EnumerableApplyChangesToContextCommand::$ExecuteEnumerable$d__1*, "UnityEngine.TestTools", "EnumerableApplyChangesToContextCommand/<ExecuteEnumerable>d__1");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::EnumerableApplyChangesToContextCommand::$ExecuteEnumerable$d__1::System_Collections_Generic_IEnumerator$System_Object$_get_Current

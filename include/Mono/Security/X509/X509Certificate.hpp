@@ -342,6 +342,7 @@ namespace Mono::Security::X509 {
   static check_size<sizeof(X509Certificate), 184 + sizeof(Mono::Security::X509::X509ExtensionCollection*)> __Mono_Security_X509_X509CertificateSizeCheck;
   static_assert(sizeof(X509Certificate) == 0xC0);
 }
+NEED_NO_BOX(Mono::Security::X509::X509Certificate);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::X509Certificate*, "Mono.Security.X509", "X509Certificate");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Security::X509::X509Certificate::get_DSA

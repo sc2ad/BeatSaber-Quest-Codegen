@@ -91,6 +91,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_Curve::$$c__DisplayClass38_0), 32 + sizeof(System::Collections::Generic::List_1<UnityEngine::Vector3>*)> __HoudiniEngineUnity_HEU_Curve_$$c__DisplayClass38_0SizeCheck;
   static_assert(sizeof(HEU_Curve::$$c__DisplayClass38_0) == 0x28);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_Curve::$$c__DisplayClass38_0);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_Curve::$$c__DisplayClass38_0*, "HoudiniEngineUnity", "HEU_Curve/<>c__DisplayClass38_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Curve::$$c__DisplayClass38_0::$UpdateCurveInputForCustomAttributes$b__0

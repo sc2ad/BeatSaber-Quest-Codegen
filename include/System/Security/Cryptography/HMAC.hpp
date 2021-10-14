@@ -155,6 +155,7 @@ namespace System::Security::Cryptography {
   static check_size<sizeof(HMAC), 96 + sizeof(bool)> __System_Security_Cryptography_HMACSizeCheck;
   static_assert(sizeof(HMAC) == 0x61);
 }
+NEED_NO_BOX(System::Security::Cryptography::HMAC);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::HMAC*, "System.Security.Cryptography", "HMAC");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::HMAC::get_BlockSizeValue

@@ -212,6 +212,7 @@ namespace System::Threading {
   static check_size<sizeof(WaitHandle), 40 + sizeof(bool)> __System_Threading_WaitHandleSizeCheck;
   static_assert(sizeof(WaitHandle) == 0x29);
 }
+NEED_NO_BOX(System::Threading::WaitHandle);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::WaitHandle*, "System.Threading", "WaitHandle");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::WaitHandle::set_Handle

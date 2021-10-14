@@ -124,6 +124,7 @@ namespace Org::BouncyCastle::Crypto::Modes {
   static check_size<sizeof(CfbBlockCipher), 48 + sizeof(Org::BouncyCastle::Crypto::IBlockCipher*)> __Org_BouncyCastle_Crypto_Modes_CfbBlockCipherSizeCheck;
   static_assert(sizeof(CfbBlockCipher) == 0x38);
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Modes::CfbBlockCipher);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::CfbBlockCipher*, "Org.BouncyCastle.Crypto.Modes", "CfbBlockCipher");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Modes::CfbBlockCipher::get_AlgorithmName

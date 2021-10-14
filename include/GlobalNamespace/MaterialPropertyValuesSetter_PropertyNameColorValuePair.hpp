@@ -57,6 +57,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MaterialPropertyValuesSetter::PropertyNameColorValuePair), 28 + sizeof(UnityEngine::Color)> __GlobalNamespace_MaterialPropertyValuesSetter_PropertyNameColorValuePairSizeCheck;
   static_assert(sizeof(MaterialPropertyValuesSetter::PropertyNameColorValuePair) == 0x2C);
 }
+NEED_NO_BOX(GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameColorValuePair);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameColorValuePair*, "", "MaterialPropertyValuesSetter/PropertyNameColorValuePair");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameColorValuePair::New_ctor

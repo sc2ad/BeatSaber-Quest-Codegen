@@ -51,6 +51,7 @@ namespace Valve::VR {
   }; // Valve.VR.IVRSystem/Valve.VR._ShouldApplicationReduceRenderingWork
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::IVRSystem::_ShouldApplicationReduceRenderingWork);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem::_ShouldApplicationReduceRenderingWork*, "Valve.VR", "IVRSystem/_ShouldApplicationReduceRenderingWork");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRSystem::_ShouldApplicationReduceRenderingWork::New_ctor

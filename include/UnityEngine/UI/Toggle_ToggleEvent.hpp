@@ -34,6 +34,7 @@ namespace UnityEngine::UI {
     }
   }; // UnityEngine.UI.Toggle/UnityEngine.UI.ToggleEvent
 }
+NEED_NO_BOX(UnityEngine::UI::Toggle::ToggleEvent);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Toggle::ToggleEvent*, "UnityEngine.UI", "Toggle/ToggleEvent");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::Toggle::ToggleEvent::New_ctor

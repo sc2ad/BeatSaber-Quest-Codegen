@@ -75,6 +75,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
   static check_size<sizeof(WTauNafMultiplier::WTauNafCallback), 24 + sizeof(int8_t)> __Org_BouncyCastle_Math_EC_Multiplier_WTauNafMultiplier_WTauNafCallbackSizeCheck;
   static_assert(sizeof(WTauNafMultiplier::WTauNafCallback) == 0x19);
 }
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier::WTauNafCallback);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier::WTauNafCallback*, "Org.BouncyCastle.Math.EC.Multiplier", "WTauNafMultiplier/WTauNafCallback");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier::WTauNafCallback::New_ctor

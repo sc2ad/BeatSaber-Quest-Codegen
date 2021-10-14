@@ -202,6 +202,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(NetworkPlayersTableView), 88 + sizeof(bool)> __GlobalNamespace_NetworkPlayersTableViewSizeCheck;
   static_assert(sizeof(NetworkPlayersTableView) == 0x59);
 }
+NEED_NO_BOX(GlobalNamespace::NetworkPlayersTableView);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetworkPlayersTableView*, "", "NetworkPlayersTableView");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NetworkPlayersTableView::CellSize

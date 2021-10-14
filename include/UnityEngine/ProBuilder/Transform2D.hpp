@@ -70,6 +70,7 @@ namespace UnityEngine::ProBuilder {
   static check_size<sizeof(Transform2D), 28 + sizeof(UnityEngine::Vector2)> __UnityEngine_ProBuilder_Transform2DSizeCheck;
   static_assert(sizeof(Transform2D) == 0x24);
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::Transform2D);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Transform2D*, "UnityEngine.ProBuilder", "Transform2D");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Transform2D::New_ctor

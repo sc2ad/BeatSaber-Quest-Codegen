@@ -204,6 +204,7 @@ namespace System::IO {
   static check_size<sizeof(BinaryWriter), 64 + sizeof(int)> __System_IO_BinaryWriterSizeCheck;
   static_assert(sizeof(BinaryWriter) == 0x44);
 }
+NEED_NO_BOX(System::IO::BinaryWriter);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::BinaryWriter*, "System.IO", "BinaryWriter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::BinaryWriter::New_ctor

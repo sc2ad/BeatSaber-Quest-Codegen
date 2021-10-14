@@ -290,6 +290,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MenuTransitionsHelper), 128 + sizeof(System::Action*)> __GlobalNamespace_MenuTransitionsHelperSizeCheck;
   static_assert(sizeof(MenuTransitionsHelper) == 0x88);
 }
+NEED_NO_BOX(GlobalNamespace::MenuTransitionsHelper);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuTransitionsHelper*, "", "MenuTransitionsHelper");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MenuTransitionsHelper::StartStandardLevel

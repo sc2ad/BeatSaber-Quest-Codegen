@@ -113,6 +113,7 @@ namespace Zenject {
   }; // Zenject.ArgConditionCopyNonLazyBinder
   #pragma pack(pop)
 }
+NEED_NO_BOX(Zenject::ArgConditionCopyNonLazyBinder);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ArgConditionCopyNonLazyBinder*, "Zenject", "ArgConditionCopyNonLazyBinder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::ArgConditionCopyNonLazyBinder::WithArguments

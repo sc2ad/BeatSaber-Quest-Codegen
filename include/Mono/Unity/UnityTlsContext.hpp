@@ -286,6 +286,7 @@ namespace Mono::Unity {
   static check_size<sizeof(UnityTlsContext), 200 + sizeof(System::Exception*)> __Mono_Unity_UnityTlsContextSizeCheck;
   static_assert(sizeof(UnityTlsContext) == 0xD0);
 }
+NEED_NO_BOX(Mono::Unity::UnityTlsContext);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTlsContext*, "Mono.Unity", "UnityTlsContext");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Unity::UnityTlsContext::ExtractNativeKeyAndChainFromManagedCertificate

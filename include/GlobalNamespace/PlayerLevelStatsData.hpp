@@ -165,6 +165,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PlayerLevelStatsData), 56 + sizeof(GlobalNamespace::BeatmapCharacteristicSO*)> __GlobalNamespace_PlayerLevelStatsDataSizeCheck;
   static_assert(sizeof(PlayerLevelStatsData) == 0x40);
 }
+NEED_NO_BOX(GlobalNamespace::PlayerLevelStatsData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerLevelStatsData*, "", "PlayerLevelStatsData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayerLevelStatsData::get_levelID

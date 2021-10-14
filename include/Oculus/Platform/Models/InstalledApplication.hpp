@@ -80,6 +80,7 @@ namespace Oculus::Platform::Models {
   static check_size<sizeof(InstalledApplication), 48 + sizeof(::Il2CppString*)> __Oculus_Platform_Models_InstalledApplicationSizeCheck;
   static_assert(sizeof(InstalledApplication) == 0x38);
 }
+NEED_NO_BOX(Oculus::Platform::Models::InstalledApplication);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::InstalledApplication*, "Oculus.Platform.Models", "InstalledApplication");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::InstalledApplication::New_ctor

@@ -46,6 +46,7 @@ namespace Oculus::Platform {
     Oculus::Platform::Models::Room* GetRoom();
   }; // Oculus.Platform.MessageWithRoomUnderViewerRoom
 }
+NEED_NO_BOX(Oculus::Platform::MessageWithRoomUnderViewerRoom);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithRoomUnderViewerRoom*, "Oculus.Platform", "MessageWithRoomUnderViewerRoom");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithRoomUnderViewerRoom::GetDataFromMessage

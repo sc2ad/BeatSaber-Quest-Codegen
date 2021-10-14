@@ -65,6 +65,7 @@ namespace System::IO {
   }; // System.IO.DriveNotFoundException
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::IO::DriveNotFoundException);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::DriveNotFoundException*, "System.IO", "DriveNotFoundException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::DriveNotFoundException::New_ctor

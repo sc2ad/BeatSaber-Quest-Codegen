@@ -376,6 +376,7 @@ namespace TMPro {
   static check_size<sizeof(TMP_SubMeshUI), 276 + sizeof(int)> __TMPro_TMP_SubMeshUISizeCheck;
   static_assert(sizeof(TMP_SubMeshUI) == 0x118);
 }
+NEED_NO_BOX(TMPro::TMP_SubMeshUI);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_SubMeshUI*, "TMPro", "TMP_SubMeshUI");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::get_fontAsset

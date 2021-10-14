@@ -35,6 +35,7 @@ namespace Unity::Collections::LowLevel::Unsafe {
   }; // Unity.Collections.LowLevel.Unsafe.NativeContainerSupportsDeferredConvertListToArray
   #pragma pack(pop)
 }
+NEED_NO_BOX(Unity::Collections::LowLevel::Unsafe::NativeContainerSupportsDeferredConvertListToArray);
 DEFINE_IL2CPP_ARG_TYPE(Unity::Collections::LowLevel::Unsafe::NativeContainerSupportsDeferredConvertListToArray*, "Unity.Collections.LowLevel.Unsafe", "NativeContainerSupportsDeferredConvertListToArray");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Unity::Collections::LowLevel::Unsafe::NativeContainerSupportsDeferredConvertListToArray::New_ctor

@@ -124,6 +124,7 @@ namespace System::Security::Cryptography::X509Certificates {
   static check_size<sizeof(X509Store), 48 + sizeof(Mono::Security::X509::X509Store*)> __System_Security_Cryptography_X509Certificates_X509StoreSizeCheck;
   static_assert(sizeof(X509Store) == 0x38);
 }
+NEED_NO_BOX(System::Security::Cryptography::X509Certificates::X509Store);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509Store*, "System.Security.Cryptography.X509Certificates", "X509Store");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509Store::get_Certificates

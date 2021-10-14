@@ -50,6 +50,7 @@ namespace Org::BouncyCastle::X509 {
   }; // Org.BouncyCastle.X509.X509ExtensionBase
   #pragma pack(pop)
 }
+NEED_NO_BOX(Org::BouncyCastle::X509::X509ExtensionBase);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::X509ExtensionBase*, "Org.BouncyCastle.X509", "X509ExtensionBase");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::X509::X509ExtensionBase::GetX509Extensions

@@ -72,5 +72,6 @@ namespace System::Reflection::Emit {
   static_assert(sizeof(LocalBuilder) == 0x38);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Reflection::Emit::LocalBuilder);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Emit::LocalBuilder*, "System.Reflection.Emit", "LocalBuilder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

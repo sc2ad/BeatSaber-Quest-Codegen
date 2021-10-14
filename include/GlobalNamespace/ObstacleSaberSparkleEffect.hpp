@@ -105,6 +105,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ObstacleSaberSparkleEffect), 48 + sizeof(UnityEngine::ParticleSystem::EmissionModule)> __GlobalNamespace_ObstacleSaberSparkleEffectSizeCheck;
   static_assert(sizeof(ObstacleSaberSparkleEffect) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::ObstacleSaberSparkleEffect);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleSaberSparkleEffect*, "", "ObstacleSaberSparkleEffect");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ObstacleSaberSparkleEffect::set_color

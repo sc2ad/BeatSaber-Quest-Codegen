@@ -56,6 +56,7 @@ namespace OVR::OpenVR {
   }; // OVR.OpenVR.IVRTrackedCamera/OVR.OpenVR._AcquireVideoStreamingService
   #pragma pack(pop)
 }
+NEED_NO_BOX(OVR::OpenVR::IVRTrackedCamera::_AcquireVideoStreamingService);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRTrackedCamera::_AcquireVideoStreamingService*, "OVR.OpenVR", "IVRTrackedCamera/_AcquireVideoStreamingService");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVRTrackedCamera::_AcquireVideoStreamingService::New_ctor

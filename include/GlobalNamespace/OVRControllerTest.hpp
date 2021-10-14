@@ -114,6 +114,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRControllerTest), 40 + sizeof(System::Text::StringBuilder*)> __GlobalNamespace_OVRControllerTestSizeCheck;
   static_assert(sizeof(OVRControllerTest) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::OVRControllerTest);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRControllerTest*, "", "OVRControllerTest");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRControllerTest::Start

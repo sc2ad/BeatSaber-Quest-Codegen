@@ -88,6 +88,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(CCDIK), 56 + sizeof(RootMotion::FinalIK::IKSolverCCD*)> __RootMotion_FinalIK_CCDIKSizeCheck;
   static_assert(sizeof(CCDIK) == 0x40);
 }
+NEED_NO_BOX(RootMotion::FinalIK::CCDIK);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::CCDIK*, "RootMotion.FinalIK", "CCDIK");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::CCDIK::SupportGroup

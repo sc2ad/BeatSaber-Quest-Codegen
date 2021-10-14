@@ -37,6 +37,7 @@ namespace Oculus::Platform::Models {
     }
   }; // Oculus.Platform.Models.DestinationList
 }
+NEED_NO_BOX(Oculus::Platform::Models::DestinationList);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::DestinationList*, "Oculus.Platform.Models", "DestinationList");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::DestinationList::New_ctor

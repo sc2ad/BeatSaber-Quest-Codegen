@@ -58,6 +58,7 @@ namespace Valve::VR {
   }; // Valve.VR.IVRSystem/Valve.VR._GetInt32TrackedDeviceProperty
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::IVRSystem::_GetInt32TrackedDeviceProperty);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem::_GetInt32TrackedDeviceProperty*, "Valve.VR", "IVRSystem/_GetInt32TrackedDeviceProperty");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRSystem::_GetInt32TrackedDeviceProperty::New_ctor

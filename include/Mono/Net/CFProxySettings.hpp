@@ -87,6 +87,7 @@ namespace Mono::Net {
   static check_size<sizeof(CFProxySettings), 16 + sizeof(Mono::Net::CFDictionary*)> __Mono_Net_CFProxySettingsSizeCheck;
   static_assert(sizeof(CFProxySettings) == 0x18);
 }
+NEED_NO_BOX(Mono::Net::CFProxySettings);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFProxySettings*, "Mono.Net", "CFProxySettings");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Net::CFProxySettings::get_Dictionary

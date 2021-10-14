@@ -96,6 +96,7 @@ namespace NUnit::Framework::Internal::Builders {
   static check_size<sizeof(DefaultTestCaseBuilder), 16 + sizeof(NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder*)> __NUnit_Framework_Internal_Builders_DefaultTestCaseBuilderSizeCheck;
   static_assert(sizeof(DefaultTestCaseBuilder) == 0x18);
 }
+NEED_NO_BOX(NUnit::Framework::Internal::Builders::DefaultTestCaseBuilder);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Builders::DefaultTestCaseBuilder*, "NUnit.Framework.Internal.Builders", "DefaultTestCaseBuilder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::DefaultTestCaseBuilder::CanBuildFrom

@@ -186,6 +186,7 @@ namespace HMUI {
   static check_size<sizeof(UIKeyboard), 72 + sizeof(System::Collections::Generic::List_1<TMPro::TextMeshProUGUI*>*)> __HMUI_UIKeyboardSizeCheck;
   static_assert(sizeof(UIKeyboard) == 0x50);
 }
+NEED_NO_BOX(HMUI::UIKeyboard);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::UIKeyboard*, "HMUI", "UIKeyboard");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::UIKeyboard::add_okButtonWasPressedEvent

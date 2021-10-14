@@ -35,6 +35,7 @@ namespace GlobalNamespace {
   }; // MenuRpcManager/GetIsStartButtonEnabledRpc
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::MenuRpcManager::GetIsStartButtonEnabledRpc);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuRpcManager::GetIsStartButtonEnabledRpc*, "", "MenuRpcManager/GetIsStartButtonEnabledRpc");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::GetIsStartButtonEnabledRpc::New_ctor

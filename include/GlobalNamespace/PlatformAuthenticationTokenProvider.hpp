@@ -110,6 +110,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PlatformAuthenticationTokenProvider), 48 + sizeof(GlobalNamespace::AuthenticationToken::Platform)> __GlobalNamespace_PlatformAuthenticationTokenProviderSizeCheck;
   static_assert(sizeof(PlatformAuthenticationTokenProvider) == 0x31);
 }
+NEED_NO_BOX(GlobalNamespace::PlatformAuthenticationTokenProvider);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformAuthenticationTokenProvider*, "", "PlatformAuthenticationTokenProvider");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlatformAuthenticationTokenProvider::get_hashedUserId

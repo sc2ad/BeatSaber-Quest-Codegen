@@ -65,6 +65,7 @@ namespace System {
   }; // System.DllNotFoundException
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::DllNotFoundException);
 DEFINE_IL2CPP_ARG_TYPE(System::DllNotFoundException*, "System", "DllNotFoundException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::DllNotFoundException::New_ctor

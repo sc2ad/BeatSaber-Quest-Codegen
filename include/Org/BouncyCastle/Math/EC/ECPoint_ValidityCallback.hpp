@@ -78,6 +78,7 @@ namespace Org::BouncyCastle::Math::EC {
   static check_size<sizeof(ECPoint::ValidityCallback), 25 + sizeof(bool)> __Org_BouncyCastle_Math_EC_ECPoint_ValidityCallbackSizeCheck;
   static_assert(sizeof(ECPoint::ValidityCallback) == 0x1A);
 }
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::ECPoint::ValidityCallback);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::ECPoint::ValidityCallback*, "Org.BouncyCastle.Math.EC", "ECPoint/ValidityCallback");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::ECPoint::ValidityCallback::New_ctor

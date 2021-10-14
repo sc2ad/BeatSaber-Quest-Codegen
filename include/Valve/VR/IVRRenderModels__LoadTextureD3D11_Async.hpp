@@ -56,6 +56,7 @@ namespace Valve::VR {
   }; // Valve.VR.IVRRenderModels/Valve.VR._LoadTextureD3D11_Async
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::IVRRenderModels::_LoadTextureD3D11_Async);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRRenderModels::_LoadTextureD3D11_Async*, "Valve.VR", "IVRRenderModels/_LoadTextureD3D11_Async");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRRenderModels::_LoadTextureD3D11_Async::New_ctor

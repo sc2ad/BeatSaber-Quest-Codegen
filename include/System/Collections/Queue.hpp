@@ -172,6 +172,7 @@ namespace System::Collections {
   static check_size<sizeof(Queue), 40 + sizeof(int)> __System_Collections_QueueSizeCheck;
   static_assert(sizeof(Queue) == 0x2C);
 }
+NEED_NO_BOX(System::Collections::Queue);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Queue*, "System.Collections", "Queue");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::Queue::get_Count

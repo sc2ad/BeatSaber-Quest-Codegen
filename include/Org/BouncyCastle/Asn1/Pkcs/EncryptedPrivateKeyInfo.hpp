@@ -85,6 +85,7 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
   static check_size<sizeof(EncryptedPrivateKeyInfo), 24 + sizeof(Org::BouncyCastle::Asn1::Asn1OctetString*)> __Org_BouncyCastle_Asn1_Pkcs_EncryptedPrivateKeyInfoSizeCheck;
   static_assert(sizeof(EncryptedPrivateKeyInfo) == 0x20);
 }
+NEED_NO_BOX(Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo*, "Org.BouncyCastle.Asn1.Pkcs", "EncryptedPrivateKeyInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo::get_EncryptionAlgorithm

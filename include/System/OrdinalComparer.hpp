@@ -75,6 +75,7 @@ namespace System {
   static check_size<sizeof(OrdinalComparer), 16 + sizeof(bool)> __System_OrdinalComparerSizeCheck;
   static_assert(sizeof(OrdinalComparer) == 0x11);
 }
+NEED_NO_BOX(System::OrdinalComparer);
 DEFINE_IL2CPP_ARG_TYPE(System::OrdinalComparer*, "System", "OrdinalComparer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::OrdinalComparer::New_ctor

@@ -47,6 +47,7 @@ namespace System {
   }; // System.AsyncCallback
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::AsyncCallback);
 DEFINE_IL2CPP_ARG_TYPE(System::AsyncCallback*, "System", "AsyncCallback");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::AsyncCallback::New_ctor

@@ -23,5 +23,6 @@ namespace Unity::Collections::LowLevel::Unsafe {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(Unity::Collections::LowLevel::Unsafe::NativeContainerNeedsThreadIndexAttribute);
 DEFINE_IL2CPP_ARG_TYPE(Unity::Collections::LowLevel::Unsafe::NativeContainerNeedsThreadIndexAttribute*, "Unity.Collections.LowLevel.Unsafe", "NativeContainerNeedsThreadIndexAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

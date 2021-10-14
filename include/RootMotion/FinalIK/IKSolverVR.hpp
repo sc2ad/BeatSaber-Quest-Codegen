@@ -478,6 +478,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(IKSolverVR), 364 + sizeof(UnityEngine::Vector3)> __RootMotion_FinalIK_IKSolverVRSizeCheck;
   static_assert(sizeof(IKSolverVR) == 0x178);
 }
+NEED_NO_BOX(RootMotion::FinalIK::IKSolverVR);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverVR*, "RootMotion.FinalIK", "IKSolverVR");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::get_rootBone

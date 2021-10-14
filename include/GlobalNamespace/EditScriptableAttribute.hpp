@@ -34,6 +34,7 @@ namespace GlobalNamespace {
   }; // EditScriptableAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::EditScriptableAttribute);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EditScriptableAttribute*, "", "EditScriptableAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EditScriptableAttribute::New_ctor

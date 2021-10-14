@@ -117,6 +117,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(VRsenalLogger), 56 + sizeof(GlobalNamespace::GameScenesManager*)> __GlobalNamespace_VRsenalLoggerSizeCheck;
   static_assert(sizeof(VRsenalLogger) == 0x40);
 }
+NEED_NO_BOX(GlobalNamespace::VRsenalLogger);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRsenalLogger*, "", "VRsenalLogger");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::VRsenalLogger::Awake

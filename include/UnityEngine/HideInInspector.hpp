@@ -34,6 +34,7 @@ namespace UnityEngine {
   }; // UnityEngine.HideInInspector
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::HideInInspector);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::HideInInspector*, "UnityEngine", "HideInInspector");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::HideInInspector::New_ctor

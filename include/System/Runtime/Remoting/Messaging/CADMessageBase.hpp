@@ -140,6 +140,7 @@ namespace System::Runtime::Remoting::Messaging {
   static check_size<sizeof(CADMessageBase), 48 + sizeof(::ArrayW<uint8_t>)> __System_Runtime_Remoting_Messaging_CADMessageBaseSizeCheck;
   static_assert(sizeof(CADMessageBase) == 0x38);
 }
+NEED_NO_BOX(System::Runtime::Remoting::Messaging::CADMessageBase);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::CADMessageBase*, "System.Runtime.Remoting.Messaging", "CADMessageBase");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CADMessageBase::New_ctor

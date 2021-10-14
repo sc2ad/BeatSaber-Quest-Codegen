@@ -121,6 +121,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(CubemapTest), 64 + sizeof(UnityEngine::RenderTexture*)> __GlobalNamespace_CubemapTestSizeCheck;
   static_assert(sizeof(CubemapTest) == 0x48);
 }
+NEED_NO_BOX(GlobalNamespace::CubemapTest);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CubemapTest*, "", "CubemapTest");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CubemapTest::Start

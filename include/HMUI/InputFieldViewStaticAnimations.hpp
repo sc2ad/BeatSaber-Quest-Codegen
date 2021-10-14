@@ -127,6 +127,7 @@ namespace HMUI {
   static check_size<sizeof(InputFieldViewStaticAnimations), 72 + sizeof(bool)> __HMUI_InputFieldViewStaticAnimationsSizeCheck;
   static_assert(sizeof(InputFieldViewStaticAnimations) == 0x49);
 }
+NEED_NO_BOX(HMUI::InputFieldViewStaticAnimations);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::InputFieldViewStaticAnimations*, "HMUI", "InputFieldViewStaticAnimations");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::InputFieldViewStaticAnimations::Awake

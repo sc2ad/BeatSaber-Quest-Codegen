@@ -33,6 +33,7 @@ namespace UnityEngineInternal {
   }; // UnityEngineInternal.GenericStack
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngineInternal::GenericStack);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngineInternal::GenericStack*, "UnityEngineInternal", "GenericStack");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngineInternal::GenericStack::New_ctor

@@ -106,6 +106,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerBadgeDataSO), 40 + sizeof(UnityEngine::Sprite*)> __GlobalNamespace_MultiplayerBadgeDataSOSizeCheck;
   static_assert(sizeof(MultiplayerBadgeDataSO) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerBadgeDataSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerBadgeDataSO*, "", "MultiplayerBadgeDataSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerBadgeDataSO::get_icon

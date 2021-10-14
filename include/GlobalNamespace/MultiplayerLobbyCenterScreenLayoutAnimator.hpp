@@ -116,6 +116,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerLobbyCenterScreenLayoutAnimator), 56 + sizeof(Tweening::TimeTweeningManager*)> __GlobalNamespace_MultiplayerLobbyCenterScreenLayoutAnimatorSizeCheck;
   static_assert(sizeof(MultiplayerLobbyCenterScreenLayoutAnimator) == 0x40);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator*, "", "MultiplayerLobbyCenterScreenLayoutAnimator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator::StartCountdown

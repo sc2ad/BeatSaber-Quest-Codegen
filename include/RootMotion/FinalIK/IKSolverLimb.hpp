@@ -343,6 +343,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(IKSolverLimb), 312 + sizeof(::ArrayW<RootMotion::FinalIK::IKSolverLimb::AxisDirection>)> __RootMotion_FinalIK_IKSolverLimbSizeCheck;
   static_assert(sizeof(IKSolverLimb) == 0x140);
 }
+NEED_NO_BOX(RootMotion::FinalIK::IKSolverLimb);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverLimb*, "RootMotion.FinalIK", "IKSolverLimb");
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverLimb::BendModifier, "RootMotion.FinalIK", "IKSolverLimb/BendModifier");
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverLimb::AxisDirection, "RootMotion.FinalIK", "IKSolverLimb/AxisDirection");

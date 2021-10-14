@@ -144,6 +144,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SaberSound), 84 + sizeof(float)> __GlobalNamespace_SaberSoundSizeCheck;
   static_assert(sizeof(SaberSound) == 0x58);
 }
+NEED_NO_BOX(GlobalNamespace::SaberSound);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberSound*, "", "SaberSound");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SaberSound::Start

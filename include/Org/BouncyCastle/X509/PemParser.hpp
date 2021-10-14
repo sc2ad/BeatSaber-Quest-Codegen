@@ -86,6 +86,7 @@ namespace Org::BouncyCastle::X509 {
   static check_size<sizeof(PemParser), 40 + sizeof(::Il2CppString*)> __Org_BouncyCastle_X509_PemParserSizeCheck;
   static_assert(sizeof(PemParser) == 0x30);
 }
+NEED_NO_BOX(Org::BouncyCastle::X509::PemParser);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::PemParser*, "Org.BouncyCastle.X509", "PemParser");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::X509::PemParser::New_ctor

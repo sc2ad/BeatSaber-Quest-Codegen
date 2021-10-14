@@ -52,6 +52,7 @@ namespace Mono::Security::Cryptography {
   }; // Mono.Security.Cryptography.DSAManaged/Mono.Security.Cryptography.KeyGeneratedEventHandler
   #pragma pack(pop)
 }
+NEED_NO_BOX(Mono::Security::Cryptography::DSAManaged::KeyGeneratedEventHandler);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::DSAManaged::KeyGeneratedEventHandler*, "Mono.Security.Cryptography", "DSAManaged/KeyGeneratedEventHandler");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Security::Cryptography::DSAManaged::KeyGeneratedEventHandler::New_ctor

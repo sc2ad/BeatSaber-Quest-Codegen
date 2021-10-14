@@ -114,6 +114,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerLobbyCenterStageManager), 52 + sizeof(float)> __GlobalNamespace_MultiplayerLobbyCenterStageManagerSizeCheck;
   static_assert(sizeof(MultiplayerLobbyCenterStageManager) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerLobbyCenterStageManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLobbyCenterStageManager*, "", "MultiplayerLobbyCenterStageManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyCenterStageManager::Init

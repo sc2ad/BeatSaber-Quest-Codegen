@@ -56,6 +56,7 @@ namespace OVR::OpenVR {
   }; // OVR.OpenVR.IVRCompositor/OVR.OpenVR._GetFrameTimings
   #pragma pack(pop)
 }
+NEED_NO_BOX(OVR::OpenVR::IVRCompositor::_GetFrameTimings);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRCompositor::_GetFrameTimings*, "OVR.OpenVR", "IVRCompositor/_GetFrameTimings");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVRCompositor::_GetFrameTimings::New_ctor

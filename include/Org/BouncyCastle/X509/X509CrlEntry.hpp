@@ -143,6 +143,7 @@ namespace Org::BouncyCastle::X509 {
   static check_size<sizeof(X509CrlEntry), 52 + sizeof(int)> __Org_BouncyCastle_X509_X509CrlEntrySizeCheck;
   static_assert(sizeof(X509CrlEntry) == 0x38);
 }
+NEED_NO_BOX(Org::BouncyCastle::X509::X509CrlEntry);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::X509CrlEntry*, "Org.BouncyCastle.X509", "X509CrlEntry");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::X509::X509CrlEntry::get_SerialNumber

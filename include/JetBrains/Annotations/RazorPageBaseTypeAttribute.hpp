@@ -74,6 +74,7 @@ namespace JetBrains::Annotations {
   static check_size<sizeof(RazorPageBaseTypeAttribute), 24 + sizeof(::Il2CppString*)> __JetBrains_Annotations_RazorPageBaseTypeAttributeSizeCheck;
   static_assert(sizeof(RazorPageBaseTypeAttribute) == 0x20);
 }
+NEED_NO_BOX(JetBrains::Annotations::RazorPageBaseTypeAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::RazorPageBaseTypeAttribute*, "JetBrains.Annotations", "RazorPageBaseTypeAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: JetBrains::Annotations::RazorPageBaseTypeAttribute::get_BaseType

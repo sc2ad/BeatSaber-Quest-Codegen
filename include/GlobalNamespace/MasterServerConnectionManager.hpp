@@ -473,6 +473,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MasterServerConnectionManager), 168 + sizeof(System::Action_3<GlobalNamespace::IConnection*, LiteNetLib::Utils::NetDataReader*, LiteNetLib::DeliveryMethod>*)> __GlobalNamespace_MasterServerConnectionManagerSizeCheck;
   static_assert(sizeof(MasterServerConnectionManager) == 0xB0);
 }
+NEED_NO_BOX(GlobalNamespace::MasterServerConnectionManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerConnectionManager*, "", "MasterServerConnectionManager");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerConnectionManager::ConnectionState, "", "MasterServerConnectionManager/ConnectionState");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

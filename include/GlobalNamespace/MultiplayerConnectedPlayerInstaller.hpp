@@ -185,6 +185,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerConnectedPlayerInstaller), 120 + sizeof(GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*)> __GlobalNamespace_MultiplayerConnectedPlayerInstallerSizeCheck;
   static_assert(sizeof(MultiplayerConnectedPlayerInstaller) == 0x80);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerConnectedPlayerInstaller);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerInstaller*, "", "MultiplayerConnectedPlayerInstaller");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerInstaller::New_ctor

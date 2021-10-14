@@ -66,6 +66,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   }; // UnityEngine.ProBuilder.MeshOperations.DeleteElements/UnityEngine.ProBuilder.MeshOperations.<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::MeshOperations::DeleteElements::$$c);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::DeleteElements::$$c*, "UnityEngine.ProBuilder.MeshOperations", "DeleteElements/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::DeleteElements::$$c::_cctor

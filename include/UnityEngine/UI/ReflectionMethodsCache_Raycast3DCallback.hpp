@@ -57,6 +57,7 @@ namespace UnityEngine::UI {
   }; // UnityEngine.UI.ReflectionMethodsCache/UnityEngine.UI.Raycast3DCallback
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::UI::ReflectionMethodsCache::Raycast3DCallback);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ReflectionMethodsCache::Raycast3DCallback*, "UnityEngine.UI", "ReflectionMethodsCache/Raycast3DCallback");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::ReflectionMethodsCache::Raycast3DCallback::New_ctor

@@ -83,6 +83,7 @@ namespace NetEase::Docker {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(NetEase::Docker::VivaDocker);
 DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::VivaDocker*, "NetEase.Docker", "VivaDocker");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NetEase::Docker::VivaDocker::_cctor

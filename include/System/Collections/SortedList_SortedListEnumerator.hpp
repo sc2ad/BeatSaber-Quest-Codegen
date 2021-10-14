@@ -152,6 +152,7 @@ namespace System::Collections {
   static check_size<sizeof(SortedList::SortedListEnumerator), 60 + sizeof(int)> __System_Collections_SortedList_SortedListEnumeratorSizeCheck;
   static_assert(sizeof(SortedList::SortedListEnumerator) == 0x40);
 }
+NEED_NO_BOX(System::Collections::SortedList::SortedListEnumerator);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::SortedList::SortedListEnumerator*, "System.Collections", "SortedList/SortedListEnumerator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::SortedList::SortedListEnumerator::get_Key

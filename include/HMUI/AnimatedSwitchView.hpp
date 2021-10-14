@@ -365,6 +365,7 @@ namespace HMUI {
   static check_size<sizeof(AnimatedSwitchView), 152 + sizeof(HMUI::ToggleWithCallbacks*)> __HMUI_AnimatedSwitchViewSizeCheck;
   static_assert(sizeof(AnimatedSwitchView) == 0xA0);
 }
+NEED_NO_BOX(HMUI::AnimatedSwitchView);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::AnimatedSwitchView*, "HMUI", "AnimatedSwitchView");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::AnimatedSwitchView::AnimationState, "HMUI", "AnimatedSwitchView/AnimationState");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

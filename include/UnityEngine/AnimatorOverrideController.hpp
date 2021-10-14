@@ -84,6 +84,7 @@ namespace UnityEngine {
   static check_size<sizeof(AnimatorOverrideController), 24 + sizeof(UnityEngine::AnimatorOverrideController::OnOverrideControllerDirtyCallback*)> __UnityEngine_AnimatorOverrideControllerSizeCheck;
   static_assert(sizeof(AnimatorOverrideController) == 0x20);
 }
+NEED_NO_BOX(UnityEngine::AnimatorOverrideController);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimatorOverrideController*, "UnityEngine", "AnimatorOverrideController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AnimatorOverrideController::New_ctor

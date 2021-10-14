@@ -101,6 +101,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BTSStarTextEffectsManager::$DespawnEffectDelayed$d__5), 40 + sizeof(GlobalNamespace::BTSStarTextEffectsManager*)> __GlobalNamespace_BTSStarTextEffectsManager_$DespawnEffectDelayed$d__5SizeCheck;
   static_assert(sizeof(BTSStarTextEffectsManager::$DespawnEffectDelayed$d__5) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::BTSStarTextEffectsManager::$DespawnEffectDelayed$d__5);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSStarTextEffectsManager::$DespawnEffectDelayed$d__5*, "", "BTSStarTextEffectsManager/<DespawnEffectDelayed>d__5");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BTSStarTextEffectsManager::$DespawnEffectDelayed$d__5::System_Collections_Generic_IEnumerator$System_Object$_get_Current

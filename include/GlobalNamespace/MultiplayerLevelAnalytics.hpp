@@ -83,6 +83,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerLevelAnalytics), 32 + sizeof(GlobalNamespace::IAnalyticsModel*)> __GlobalNamespace_MultiplayerLevelAnalyticsSizeCheck;
   static_assert(sizeof(MultiplayerLevelAnalytics) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerLevelAnalytics);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLevelAnalytics*, "", "MultiplayerLevelAnalytics");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLevelAnalytics::Start

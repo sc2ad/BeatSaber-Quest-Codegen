@@ -96,6 +96,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SongPreviewPlayer::$CrossFadeAfterDelayCoroutine$d__27), 40 + sizeof(GlobalNamespace::SongPreviewPlayer*)> __GlobalNamespace_SongPreviewPlayer_$CrossFadeAfterDelayCoroutine$d__27SizeCheck;
   static_assert(sizeof(SongPreviewPlayer::$CrossFadeAfterDelayCoroutine$d__27) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::SongPreviewPlayer::$CrossFadeAfterDelayCoroutine$d__27);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPreviewPlayer::$CrossFadeAfterDelayCoroutine$d__27*, "", "SongPreviewPlayer/<CrossFadeAfterDelayCoroutine>d__27");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SongPreviewPlayer::$CrossFadeAfterDelayCoroutine$d__27::System_Collections_Generic_IEnumerator$System_Object$_get_Current

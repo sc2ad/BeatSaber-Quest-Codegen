@@ -59,6 +59,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(Test_HAPI_GeoInfo), 16 + sizeof(HoudiniEngineUnity::HAPI_GeoInfo)> __HoudiniEngineUnity_Test_HAPI_GeoInfoSizeCheck;
   static_assert(sizeof(Test_HAPI_GeoInfo) == 0x34);
 }
+NEED_NO_BOX(HoudiniEngineUnity::Test_HAPI_GeoInfo);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::Test_HAPI_GeoInfo*, "HoudiniEngineUnity", "Test_HAPI_GeoInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::Test_HAPI_GeoInfo::New_ctor

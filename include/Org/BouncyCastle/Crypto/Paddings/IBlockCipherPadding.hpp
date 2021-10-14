@@ -35,6 +35,7 @@ namespace Org::BouncyCastle::Crypto::Paddings {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*, "Org.BouncyCastle.Crypto.Paddings", "IBlockCipherPadding");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding::Init

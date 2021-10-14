@@ -68,6 +68,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SteamVR_Events::ActionNoArgs), 24 + sizeof(UnityEngine::Events::UnityAction*)> __GlobalNamespace_SteamVR_Events_ActionNoArgsSizeCheck;
   static_assert(sizeof(SteamVR_Events::ActionNoArgs) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::SteamVR_Events::ActionNoArgs);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Events::ActionNoArgs*, "", "SteamVR_Events/ActionNoArgs");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Events::ActionNoArgs::New_ctor

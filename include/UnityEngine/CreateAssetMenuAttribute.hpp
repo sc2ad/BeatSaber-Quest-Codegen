@@ -66,6 +66,7 @@ namespace UnityEngine {
   static check_size<sizeof(CreateAssetMenuAttribute), 24 + sizeof(::Il2CppString*)> __UnityEngine_CreateAssetMenuAttributeSizeCheck;
   static_assert(sizeof(CreateAssetMenuAttribute) == 0x20);
 }
+NEED_NO_BOX(UnityEngine::CreateAssetMenuAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CreateAssetMenuAttribute*, "UnityEngine", "CreateAssetMenuAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::CreateAssetMenuAttribute::set_menuName

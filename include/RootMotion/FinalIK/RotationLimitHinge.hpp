@@ -117,6 +117,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(RotationLimitHinge), 88 + sizeof(float)> __RootMotion_FinalIK_RotationLimitHingeSizeCheck;
   static_assert(sizeof(RotationLimitHinge) == 0x5C);
 }
+NEED_NO_BOX(RootMotion::FinalIK::RotationLimitHinge);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RotationLimitHinge*, "RootMotion.FinalIK", "RotationLimitHinge");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::RotationLimitHinge::OpenUserManual

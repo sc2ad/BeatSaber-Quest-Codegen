@@ -106,6 +106,7 @@ namespace UnityEngine::AddressableAssets {
   }; // UnityEngine.AddressableAssets.CheckCatalogsOperation
   // WARNING Not writing size check since size may be invalid!
 }
+NEED_NO_BOX(UnityEngine::AddressableAssets::CheckCatalogsOperation);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::CheckCatalogsOperation*, "UnityEngine.AddressableAssets", "CheckCatalogsOperation");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::CheckCatalogsOperation::New_ctor

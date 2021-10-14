@@ -73,6 +73,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SelectLevelCategoryViewController::LevelCategoryInfo), 32 + sizeof(UnityEngine::Sprite*)> __GlobalNamespace_SelectLevelCategoryViewController_LevelCategoryInfoSizeCheck;
   static_assert(sizeof(SelectLevelCategoryViewController::LevelCategoryInfo) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo*, "", "SelectLevelCategoryViewController/LevelCategoryInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo::New_ctor

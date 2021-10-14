@@ -54,6 +54,7 @@ namespace Valve::VR {
   }; // Valve.VR.IVRChaperoneSetup/Valve.VR._GetLiveCollisionBoundsInfo
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::IVRChaperoneSetup::_GetLiveCollisionBoundsInfo);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRChaperoneSetup::_GetLiveCollisionBoundsInfo*, "Valve.VR", "IVRChaperoneSetup/_GetLiveCollisionBoundsInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRChaperoneSetup::_GetLiveCollisionBoundsInfo::New_ctor

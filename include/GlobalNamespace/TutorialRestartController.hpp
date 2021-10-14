@@ -70,6 +70,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(TutorialRestartController), 24 + sizeof(GlobalNamespace::TutorialScenesTransitionSetupDataSO*)> __GlobalNamespace_TutorialRestartControllerSizeCheck;
   static_assert(sizeof(TutorialRestartController) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::TutorialRestartController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialRestartController*, "", "TutorialRestartController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TutorialRestartController::RestartLevel

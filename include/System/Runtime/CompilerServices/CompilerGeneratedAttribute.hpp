@@ -34,6 +34,7 @@ namespace System::Runtime::CompilerServices {
   }; // System.Runtime.CompilerServices.CompilerGeneratedAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Runtime::CompilerServices::CompilerGeneratedAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::CompilerGeneratedAttribute*, "System.Runtime.CompilerServices", "CompilerGeneratedAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::CompilerGeneratedAttribute::New_ctor

@@ -89,6 +89,7 @@ namespace UnityEngine {
   }; // UnityEngine.Terrain
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::Terrain);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Terrain*, "UnityEngine", "Terrain");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Terrain::get_terrainData

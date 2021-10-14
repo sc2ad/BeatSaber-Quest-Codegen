@@ -80,6 +80,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(NoteCutHapticEffect), 32 + sizeof(GlobalNamespace::HapticFeedbackController*)> __GlobalNamespace_NoteCutHapticEffectSizeCheck;
   static_assert(sizeof(NoteCutHapticEffect) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::NoteCutHapticEffect);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutHapticEffect*, "", "NoteCutHapticEffect");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteCutHapticEffect::HitNote

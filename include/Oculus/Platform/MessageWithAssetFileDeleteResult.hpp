@@ -46,6 +46,7 @@ namespace Oculus::Platform {
     Oculus::Platform::Models::AssetFileDeleteResult* GetAssetFileDeleteResult();
   }; // Oculus.Platform.MessageWithAssetFileDeleteResult
 }
+NEED_NO_BOX(Oculus::Platform::MessageWithAssetFileDeleteResult);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithAssetFileDeleteResult*, "Oculus.Platform", "MessageWithAssetFileDeleteResult");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithAssetFileDeleteResult::GetDataFromMessage

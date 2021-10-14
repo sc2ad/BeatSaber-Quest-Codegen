@@ -124,6 +124,7 @@ namespace UnityEngine::Bindings {
   static check_size<sizeof(NativeMethodAttribute), 27 + sizeof(bool)> __UnityEngine_Bindings_NativeMethodAttributeSizeCheck;
   static_assert(sizeof(NativeMethodAttribute) == 0x1C);
 }
+NEED_NO_BOX(UnityEngine::Bindings::NativeMethodAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::NativeMethodAttribute*, "UnityEngine.Bindings", "NativeMethodAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Bindings::NativeMethodAttribute::set_Name

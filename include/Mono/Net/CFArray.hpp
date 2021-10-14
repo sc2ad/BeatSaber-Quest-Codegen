@@ -52,6 +52,7 @@ namespace Mono::Net {
   }; // Mono.Net.CFArray
   #pragma pack(pop)
 }
+NEED_NO_BOX(Mono::Net::CFArray);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFArray*, "Mono.Net", "CFArray");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Net::CFArray::get_Count

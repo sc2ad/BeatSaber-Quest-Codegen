@@ -103,6 +103,7 @@ namespace Zenject {
   static check_size<sizeof(RunnableContext), 65 + sizeof(bool)> __Zenject_RunnableContextSizeCheck;
   static_assert(sizeof(RunnableContext) == 0x42);
 }
+NEED_NO_BOX(Zenject::RunnableContext);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::RunnableContext*, "Zenject", "RunnableContext");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::RunnableContext::get_Initialized

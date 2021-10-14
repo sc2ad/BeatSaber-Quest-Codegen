@@ -50,6 +50,7 @@ namespace RootMotion::FinalIK {
   }; // RootMotion.FinalIK.Grounder/RootMotion.FinalIK.GrounderDelegate
   #pragma pack(pop)
 }
+NEED_NO_BOX(RootMotion::FinalIK::Grounder::GrounderDelegate);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Grounder::GrounderDelegate*, "RootMotion.FinalIK", "Grounder/GrounderDelegate");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::Grounder::GrounderDelegate::New_ctor

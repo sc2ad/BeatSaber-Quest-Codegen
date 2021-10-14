@@ -41,6 +41,7 @@ namespace System::Collections::Generic {
     }
   }; // System.Collections.Generic.InternalStringComparer
 }
+NEED_NO_BOX(System::Collections::Generic::InternalStringComparer);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Generic::InternalStringComparer*, "System.Collections.Generic", "InternalStringComparer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::Generic::InternalStringComparer::GetHashCode

@@ -112,6 +112,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(EditAvatarViewController::$$c__DisplayClass56_0), 56 + sizeof(System::Action_1<UnityEngine::Color>*)> __GlobalNamespace_EditAvatarViewController_$$c__DisplayClass56_0SizeCheck;
   static_assert(sizeof(EditAvatarViewController::$$c__DisplayClass56_0) == 0x40);
 }
+NEED_NO_BOX(GlobalNamespace::EditAvatarViewController::$$c__DisplayClass56_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EditAvatarViewController::$$c__DisplayClass56_0*, "", "EditAvatarViewController/<>c__DisplayClass56_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EditAvatarViewController::$$c__DisplayClass56_0::$SetupColorButton$b__0

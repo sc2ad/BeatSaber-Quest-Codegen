@@ -286,6 +286,7 @@ namespace TMPro {
   static check_size<sizeof(TextContainer), 104 + sizeof(TMPro::TextMeshPro*)> __TMPro_TextContainerSizeCheck;
   static_assert(sizeof(TextContainer) == 0x70);
 }
+NEED_NO_BOX(TMPro::TextContainer);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TextContainer*, "TMPro", "TextContainer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TextContainer::get_hasChanged

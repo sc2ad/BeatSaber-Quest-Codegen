@@ -101,6 +101,7 @@ namespace System::Security::Cryptography {
   static check_size<sizeof(Oid), 32 + sizeof(System::Security::Cryptography::OidGroup)> __System_Security_Cryptography_OidSizeCheck;
   static_assert(sizeof(Oid) == 0x24);
 }
+NEED_NO_BOX(System::Security::Cryptography::Oid);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::Oid*, "System.Security.Cryptography", "Oid");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::Oid::get_Value

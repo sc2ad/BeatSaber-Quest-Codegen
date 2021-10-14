@@ -134,6 +134,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerConditionalActiveByLayout), 32 + sizeof(GlobalNamespace::MultiplayerLayoutProvider*)> __GlobalNamespace_MultiplayerConditionalActiveByLayoutSizeCheck;
   static_assert(sizeof(MultiplayerConditionalActiveByLayout) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerConditionalActiveByLayout);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConditionalActiveByLayout*, "", "MultiplayerConditionalActiveByLayout");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConditionalActiveByLayout::Condition, "", "MultiplayerConditionalActiveByLayout/Condition");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

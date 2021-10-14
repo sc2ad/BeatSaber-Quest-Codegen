@@ -68,6 +68,7 @@ namespace Zenject {
   static check_size<sizeof(DiContainer::$$c__DisplayClass86_0), 16 + sizeof(Zenject::InjectContext*)> __Zenject_DiContainer_$$c__DisplayClass86_0SizeCheck;
   static_assert(sizeof(DiContainer::$$c__DisplayClass86_0) == 0x18);
 }
+NEED_NO_BOX(Zenject::DiContainer::$$c__DisplayClass86_0);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DiContainer::$$c__DisplayClass86_0*, "Zenject", "DiContainer/<>c__DisplayClass86_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::DiContainer::$$c__DisplayClass86_0::$ResolveTypeAll$b__0

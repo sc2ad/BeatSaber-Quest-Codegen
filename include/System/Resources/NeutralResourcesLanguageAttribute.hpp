@@ -64,6 +64,7 @@ namespace System::Resources {
   static check_size<sizeof(NeutralResourcesLanguageAttribute), 24 + sizeof(System::Resources::UltimateResourceFallbackLocation)> __System_Resources_NeutralResourcesLanguageAttributeSizeCheck;
   static_assert(sizeof(NeutralResourcesLanguageAttribute) == 0x1C);
 }
+NEED_NO_BOX(System::Resources::NeutralResourcesLanguageAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::NeutralResourcesLanguageAttribute*, "System.Resources", "NeutralResourcesLanguageAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Resources::NeutralResourcesLanguageAttribute::get_CultureName

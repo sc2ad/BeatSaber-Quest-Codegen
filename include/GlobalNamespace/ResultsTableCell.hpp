@@ -110,6 +110,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ResultsTableCell), 120 + sizeof(TMPro::TextMeshProUGUI*)> __GlobalNamespace_ResultsTableCellSizeCheck;
   static_assert(sizeof(ResultsTableCell) == 0x80);
 }
+NEED_NO_BOX(GlobalNamespace::ResultsTableCell);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResultsTableCell*, "", "ResultsTableCell");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ResultsTableCell::SetData

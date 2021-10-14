@@ -98,6 +98,7 @@ namespace Mono::Net {
   static check_size<sizeof(CFNetwork::GetProxyData), 48 + sizeof(System::Threading::ManualResetEvent*)> __Mono_Net_CFNetwork_GetProxyDataSizeCheck;
   static_assert(sizeof(CFNetwork::GetProxyData) == 0x38);
 }
+NEED_NO_BOX(Mono::Net::CFNetwork::GetProxyData);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFNetwork::GetProxyData*, "Mono.Net", "CFNetwork/GetProxyData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Net::CFNetwork::GetProxyData::Dispose

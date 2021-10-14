@@ -136,6 +136,7 @@ namespace LiteNetLib {
   static check_size<sizeof(NetPacket), 32 + sizeof(::Il2CppObject*)> __LiteNetLib_NetPacketSizeCheck;
   static_assert(sizeof(NetPacket) == 0x28);
 }
+NEED_NO_BOX(LiteNetLib::NetPacket);
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetPacket*, "LiteNetLib", "NetPacket");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::NetPacket::get_Property

@@ -62,6 +62,7 @@ namespace System::Threading {
   }; // System.Threading.WaitHandleCannotBeOpenedException
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Threading::WaitHandleCannotBeOpenedException);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::WaitHandleCannotBeOpenedException*, "System.Threading", "WaitHandleCannotBeOpenedException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::WaitHandleCannotBeOpenedException::New_ctor

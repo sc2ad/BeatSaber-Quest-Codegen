@@ -102,6 +102,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PlayersSpecificSettingsAtGameStartModel), 32 + sizeof(GlobalNamespace::IMultiplayerSessionManager*)> __GlobalNamespace_PlayersSpecificSettingsAtGameStartModelSizeCheck;
   static_assert(sizeof(PlayersSpecificSettingsAtGameStartModel) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::PlayersSpecificSettingsAtGameStartModel);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*, "", "PlayersSpecificSettingsAtGameStartModel");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::get_playersAtGameStart

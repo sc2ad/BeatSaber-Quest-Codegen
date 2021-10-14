@@ -71,6 +71,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BaseTransitionSO), 24 + sizeof(GlobalNamespace::TransitionTimingSO*)> __GlobalNamespace_BaseTransitionSOSizeCheck;
   static_assert(sizeof(BaseTransitionSO) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::BaseTransitionSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BaseTransitionSO*, "", "BaseTransitionSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BaseTransitionSO::get_easeType

@@ -50,6 +50,7 @@ namespace System::Xml {
   }; // System.Xml.XmlQualifiedName/System.Xml.HashCodeOfStringDelegate
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Xml::XmlQualifiedName::HashCodeOfStringDelegate);
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlQualifiedName::HashCodeOfStringDelegate*, "System.Xml", "XmlQualifiedName/HashCodeOfStringDelegate");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::XmlQualifiedName::HashCodeOfStringDelegate::New_ctor

@@ -242,6 +242,7 @@ namespace System::Net {
   static check_size<sizeof(WebProxy), 64 + sizeof(System::Net::AutoWebProxyScriptEngine*)> __System_Net_WebProxySizeCheck;
   static_assert(sizeof(WebProxy) == 0x48);
 }
+NEED_NO_BOX(System::Net::WebProxy);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebProxy*, "System.Net", "WebProxy");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::WebProxy::get_Credentials

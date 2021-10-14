@@ -83,6 +83,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PatternFightNoTransitionInstaller), 32 + sizeof(GlobalNamespace::PatternFightScenesTransitionSetupDataSO*)> __GlobalNamespace_PatternFightNoTransitionInstallerSizeCheck;
   static_assert(sizeof(PatternFightNoTransitionInstaller) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::PatternFightNoTransitionInstaller);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PatternFightNoTransitionInstaller*, "", "PatternFightNoTransitionInstaller");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PatternFightNoTransitionInstaller::New_ctor

@@ -83,6 +83,7 @@ namespace NUnit::Framework::Internal {
   }; // NUnit.Framework.Internal.Randomizer
   #pragma pack(pop)
 }
+NEED_NO_BOX(NUnit::Framework::Internal::Randomizer);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Randomizer*, "NUnit.Framework.Internal", "Randomizer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Randomizer::set_InitialSeed

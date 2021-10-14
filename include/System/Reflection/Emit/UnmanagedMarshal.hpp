@@ -32,6 +32,7 @@ namespace System::Reflection::Emit {
   }; // System.Reflection.Emit.UnmanagedMarshal
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Reflection::Emit::UnmanagedMarshal);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Emit::UnmanagedMarshal*, "System.Reflection.Emit", "UnmanagedMarshal");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::Emit::UnmanagedMarshal::New_ctor

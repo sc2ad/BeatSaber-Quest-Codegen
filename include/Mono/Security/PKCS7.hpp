@@ -27,5 +27,6 @@ namespace Mono::Security {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(Mono::Security::PKCS7);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::PKCS7*, "Mono.Security", "PKCS7");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

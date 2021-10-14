@@ -35,6 +35,7 @@ namespace GlobalNamespace {
     }
   }; // NoteCutSoundEffect/Pool
 }
+NEED_NO_BOX(GlobalNamespace::NoteCutSoundEffect::Pool);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutSoundEffect::Pool*, "", "NoteCutSoundEffect/Pool");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteCutSoundEffect::Pool::New_ctor

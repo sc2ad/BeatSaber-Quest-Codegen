@@ -214,6 +214,7 @@ namespace OVR::OpenVR {
   static check_size<sizeof(CVRCompositor), 16 + sizeof(OVR::OpenVR::IVRCompositor)> __OVR_OpenVR_CVRCompositorSizeCheck;
   static_assert(sizeof(CVRCompositor) == 0x168);
 }
+NEED_NO_BOX(OVR::OpenVR::CVRCompositor);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRCompositor*, "OVR.OpenVR", "CVRCompositor");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::CVRCompositor::New_ctor

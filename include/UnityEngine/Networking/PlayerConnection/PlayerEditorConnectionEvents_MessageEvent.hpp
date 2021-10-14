@@ -41,6 +41,7 @@ namespace UnityEngine::Networking::PlayerConnection {
     }
   }; // UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/UnityEngine.Networking.PlayerConnection.MessageEvent
 }
+NEED_NO_BOX(UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::MessageEvent);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::MessageEvent*, "UnityEngine.Networking.PlayerConnection", "PlayerEditorConnectionEvents/MessageEvent");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::MessageEvent::New_ctor

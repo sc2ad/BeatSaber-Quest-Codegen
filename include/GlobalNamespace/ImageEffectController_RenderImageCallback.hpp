@@ -55,6 +55,7 @@ namespace GlobalNamespace {
   }; // ImageEffectController/RenderImageCallback
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::ImageEffectController::RenderImageCallback);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ImageEffectController::RenderImageCallback*, "", "ImageEffectController/RenderImageCallback");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ImageEffectController::RenderImageCallback::New_ctor

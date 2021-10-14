@@ -34,6 +34,7 @@ namespace System::ComponentModel {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::ComponentModel::IContainer);
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::IContainer*, "System.ComponentModel", "IContainer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ComponentModel::IContainer::Remove

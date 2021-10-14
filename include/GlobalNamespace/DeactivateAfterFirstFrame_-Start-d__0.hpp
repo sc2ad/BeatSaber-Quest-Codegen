@@ -86,6 +86,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(DeactivateAfterFirstFrame::$Start$d__0), 32 + sizeof(GlobalNamespace::DeactivateAfterFirstFrame*)> __GlobalNamespace_DeactivateAfterFirstFrame_$Start$d__0SizeCheck;
   static_assert(sizeof(DeactivateAfterFirstFrame::$Start$d__0) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::DeactivateAfterFirstFrame::$Start$d__0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DeactivateAfterFirstFrame::$Start$d__0*, "", "DeactivateAfterFirstFrame/<Start>d__0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DeactivateAfterFirstFrame::$Start$d__0::System_Collections_Generic_IEnumerator$System_Object$_get_Current

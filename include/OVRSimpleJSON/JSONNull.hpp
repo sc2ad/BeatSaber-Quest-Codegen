@@ -113,6 +113,7 @@ namespace OVRSimpleJSON {
   }; // OVRSimpleJSON.JSONNull
   #pragma pack(pop)
 }
+NEED_NO_BOX(OVRSimpleJSON::JSONNull);
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONNull*, "OVRSimpleJSON", "JSONNull");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONNull::CreateOrGet

@@ -87,6 +87,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(AnniversaryManager), 32 + sizeof(GlobalNamespace::MainMenuViewController*)> __GlobalNamespace_AnniversaryManagerSizeCheck;
   static_assert(sizeof(AnniversaryManager) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::AnniversaryManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AnniversaryManager*, "", "AnniversaryManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AnniversaryManager::Start

@@ -88,6 +88,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BeatmapLevelDataSO), 40 + sizeof(::ArrayW<GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet*>)> __GlobalNamespace_BeatmapLevelDataSOSizeCheck;
   static_assert(sizeof(BeatmapLevelDataSO) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::BeatmapLevelDataSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelDataSO*, "", "BeatmapLevelDataSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelDataSO::get_audioClip

@@ -36,6 +36,7 @@ namespace TMPro {
     }
   }; // TMPro.TMP_InputField/TMPro.TouchScreenKeyboardEvent
 }
+NEED_NO_BOX(TMPro::TMP_InputField::TouchScreenKeyboardEvent);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_InputField::TouchScreenKeyboardEvent*, "TMPro", "TMP_InputField/TouchScreenKeyboardEvent");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_InputField::TouchScreenKeyboardEvent::New_ctor

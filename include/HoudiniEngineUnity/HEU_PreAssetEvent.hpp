@@ -39,6 +39,7 @@ namespace HoudiniEngineUnity {
     }
   }; // HoudiniEngineUnity.HEU_PreAssetEvent
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_PreAssetEvent);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_PreAssetEvent*, "HoudiniEngineUnity", "HEU_PreAssetEvent");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PreAssetEvent::New_ctor

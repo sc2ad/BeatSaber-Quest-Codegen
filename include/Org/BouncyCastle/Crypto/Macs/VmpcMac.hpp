@@ -165,6 +165,7 @@ namespace Org::BouncyCastle::Crypto::Macs {
   static check_size<sizeof(VmpcMac), 67 + sizeof(uint8_t)> __Org_BouncyCastle_Crypto_Macs_VmpcMacSizeCheck;
   static_assert(sizeof(VmpcMac) == 0x44);
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Macs::VmpcMac);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Macs::VmpcMac*, "Org.BouncyCastle.Crypto.Macs", "VmpcMac");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Macs::VmpcMac::DoFinal

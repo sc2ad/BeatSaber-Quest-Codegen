@@ -94,6 +94,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LeaderboardsModelLegacyWrapper), 16 + sizeof(OnlineServices::ILeaderboardsModel*)> __GlobalNamespace_LeaderboardsModelLegacyWrapperSizeCheck;
   static_assert(sizeof(LeaderboardsModelLegacyWrapper) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::LeaderboardsModelLegacyWrapper);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardsModelLegacyWrapper*, "", "LeaderboardsModelLegacyWrapper");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LeaderboardsModelLegacyWrapper::GetLeaderboardEntriesAsync

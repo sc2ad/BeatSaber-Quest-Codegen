@@ -90,6 +90,7 @@ namespace System::Security::Cryptography {
   static check_size<sizeof(SHA1CryptoServiceProvider), 40 + sizeof(System::Security::Cryptography::SHA1Internal*)> __System_Security_Cryptography_SHA1CryptoServiceProviderSizeCheck;
   static_assert(sizeof(SHA1CryptoServiceProvider) == 0x30);
 }
+NEED_NO_BOX(System::Security::Cryptography::SHA1CryptoServiceProvider);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::SHA1CryptoServiceProvider*, "System.Security.Cryptography", "SHA1CryptoServiceProvider");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::SHA1CryptoServiceProvider::New_ctor

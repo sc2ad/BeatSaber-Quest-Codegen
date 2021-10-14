@@ -130,6 +130,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
   static check_size<sizeof(X509CertificateStructure), 32 + sizeof(Org::BouncyCastle::Asn1::DerBitString*)> __Org_BouncyCastle_Asn1_X509_X509CertificateStructureSizeCheck;
   static_assert(sizeof(X509CertificateStructure) == 0x28);
 }
+NEED_NO_BOX(Org::BouncyCastle::Asn1::X509::X509CertificateStructure);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::X509CertificateStructure*, "Org.BouncyCastle.Asn1.X509", "X509CertificateStructure");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::X509CertificateStructure::get_TbsCertificate

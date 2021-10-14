@@ -166,6 +166,7 @@ namespace UnityEngine {
   static check_size<sizeof(GUIScrollGroup), 184 + sizeof(UnityEngine::GUIStyle*)> __UnityEngine_GUIScrollGroupSizeCheck;
   static_assert(sizeof(GUIScrollGroup) == 0xC0);
 }
+NEED_NO_BOX(UnityEngine::GUIScrollGroup);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUIScrollGroup*, "UnityEngine", "GUIScrollGroup");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::GUIScrollGroup::New_ctor

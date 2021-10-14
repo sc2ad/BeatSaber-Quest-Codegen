@@ -93,6 +93,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OculusPlatformUserModel::$$c__DisplayClass5_0), 32 + sizeof(System::Threading::Tasks::TaskCompletionSource_1<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*>*)> __GlobalNamespace_OculusPlatformUserModel_$$c__DisplayClass5_0SizeCheck;
   static_assert(sizeof(OculusPlatformUserModel::$$c__DisplayClass5_0) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::OculusPlatformUserModel::$$c__DisplayClass5_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformUserModel::$$c__DisplayClass5_0*, "", "OculusPlatformUserModel/<>c__DisplayClass5_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OculusPlatformUserModel::$$c__DisplayClass5_0::$GetUserNamesForUserIds$g__Fetch_0

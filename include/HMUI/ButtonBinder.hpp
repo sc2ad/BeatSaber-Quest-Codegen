@@ -102,6 +102,7 @@ namespace HMUI {
   static check_size<sizeof(ButtonBinder), 16 + sizeof(System::Collections::Generic::List_1<System::Tuple_2<UnityEngine::UI::Button*, UnityEngine::Events::UnityAction*>*>*)> __HMUI_ButtonBinderSizeCheck;
   static_assert(sizeof(ButtonBinder) == 0x18);
 }
+NEED_NO_BOX(HMUI::ButtonBinder);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ButtonBinder*, "HMUI", "ButtonBinder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::ButtonBinder::New_ctor

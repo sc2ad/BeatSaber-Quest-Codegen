@@ -57,6 +57,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MaterialPropertyValuesSetter::PropertyNameVectorValuePair), 28 + sizeof(UnityEngine::Vector4)> __GlobalNamespace_MaterialPropertyValuesSetter_PropertyNameVectorValuePairSizeCheck;
   static_assert(sizeof(MaterialPropertyValuesSetter::PropertyNameVectorValuePair) == 0x2C);
 }
+NEED_NO_BOX(GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameVectorValuePair);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameVectorValuePair*, "", "MaterialPropertyValuesSetter/PropertyNameVectorValuePair");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameVectorValuePair::New_ctor

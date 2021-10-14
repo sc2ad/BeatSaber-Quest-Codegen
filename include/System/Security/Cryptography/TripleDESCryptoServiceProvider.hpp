@@ -63,6 +63,7 @@ namespace System::Security::Cryptography {
   }; // System.Security.Cryptography.TripleDESCryptoServiceProvider
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Security::Cryptography::TripleDESCryptoServiceProvider);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::TripleDESCryptoServiceProvider*, "System.Security.Cryptography", "TripleDESCryptoServiceProvider");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::TripleDESCryptoServiceProvider::New_ctor

@@ -72,6 +72,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MirrorRendererGraphicsSettingsPresets), 24 + sizeof(::ArrayW<GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset*>)> __GlobalNamespace_MirrorRendererGraphicsSettingsPresetsSizeCheck;
   static_assert(sizeof(MirrorRendererGraphicsSettingsPresets) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::MirrorRendererGraphicsSettingsPresets);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MirrorRendererGraphicsSettingsPresets*, "", "MirrorRendererGraphicsSettingsPresets");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MirrorRendererGraphicsSettingsPresets::get_presets

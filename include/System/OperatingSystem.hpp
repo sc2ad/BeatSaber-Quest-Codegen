@@ -118,6 +118,7 @@ namespace System {
   static check_size<sizeof(OperatingSystem), 32 + sizeof(::Il2CppString*)> __System_OperatingSystemSizeCheck;
   static_assert(sizeof(OperatingSystem) == 0x28);
 }
+NEED_NO_BOX(System::OperatingSystem);
 DEFINE_IL2CPP_ARG_TYPE(System::OperatingSystem*, "System", "OperatingSystem");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::OperatingSystem::get_Platform

@@ -102,6 +102,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRSkeletonRenderer::BoneVisualization), 56 + sizeof(UnityEngine::Material*)> __GlobalNamespace_OVRSkeletonRenderer_BoneVisualizationSizeCheck;
   static_assert(sizeof(OVRSkeletonRenderer::BoneVisualization) == 0x40);
 }
+NEED_NO_BOX(GlobalNamespace::OVRSkeletonRenderer::BoneVisualization);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSkeletonRenderer::BoneVisualization*, "", "OVRSkeletonRenderer/BoneVisualization");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRSkeletonRenderer::BoneVisualization::New_ctor

@@ -36,6 +36,7 @@ namespace TMPro {
     }
   }; // TMPro.ColorTween/TMPro.ColorTweenCallback
 }
+NEED_NO_BOX(TMPro::ColorTween::ColorTweenCallback);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::ColorTween::ColorTweenCallback*, "TMPro", "ColorTween/ColorTweenCallback");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::ColorTween::ColorTweenCallback::New_ctor

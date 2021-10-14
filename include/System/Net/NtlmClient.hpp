@@ -76,6 +76,7 @@ namespace System::Net {
   static check_size<sizeof(NtlmClient), 16 + sizeof(System::Net::IAuthenticationModule*)> __System_Net_NtlmClientSizeCheck;
   static_assert(sizeof(NtlmClient) == 0x18);
 }
+NEED_NO_BOX(System::Net::NtlmClient);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NtlmClient*, "System.Net", "NtlmClient");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::NtlmClient::get_AuthenticationType

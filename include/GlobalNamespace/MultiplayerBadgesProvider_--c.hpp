@@ -67,6 +67,7 @@ namespace GlobalNamespace {
   }; // MultiplayerBadgesProvider/<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerBadgesProvider::$$c);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerBadgesProvider::$$c*, "", "MultiplayerBadgesProvider/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerBadgesProvider::$$c::_cctor

@@ -52,6 +52,7 @@ namespace System::Reflection {
   static check_size<sizeof(AssemblyDefaultAliasAttribute), 16 + sizeof(::Il2CppString*)> __System_Reflection_AssemblyDefaultAliasAttributeSizeCheck;
   static_assert(sizeof(AssemblyDefaultAliasAttribute) == 0x18);
 }
+NEED_NO_BOX(System::Reflection::AssemblyDefaultAliasAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::AssemblyDefaultAliasAttribute*, "System.Reflection", "AssemblyDefaultAliasAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::AssemblyDefaultAliasAttribute::New_ctor

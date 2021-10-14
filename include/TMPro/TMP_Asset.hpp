@@ -77,6 +77,7 @@ namespace TMPro {
   static check_size<sizeof(TMP_Asset), 40 + sizeof(int)> __TMPro_TMP_AssetSizeCheck;
   static_assert(sizeof(TMP_Asset) == 0x2C);
 }
+NEED_NO_BOX(TMPro::TMP_Asset);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Asset*, "TMPro", "TMP_Asset");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_Asset::New_ctor

@@ -101,6 +101,7 @@ namespace Zenject::Internal {
   }; // Zenject.Internal.ReflectionTypeAnalyzer/Zenject.Internal.<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(Zenject::Internal::ReflectionTypeAnalyzer::$$c);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::ReflectionTypeAnalyzer::$$c*, "Zenject.Internal", "ReflectionTypeAnalyzer/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::Internal::ReflectionTypeAnalyzer::$$c::_cctor

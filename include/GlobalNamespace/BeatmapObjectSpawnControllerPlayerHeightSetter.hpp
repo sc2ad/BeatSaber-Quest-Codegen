@@ -85,6 +85,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BeatmapObjectSpawnControllerPlayerHeightSetter), 32 + sizeof(GlobalNamespace::PlayerHeightDetector*)> __GlobalNamespace_BeatmapObjectSpawnControllerPlayerHeightSetterSizeCheck;
   static_assert(sizeof(BeatmapObjectSpawnControllerPlayerHeightSetter) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter*, "", "BeatmapObjectSpawnControllerPlayerHeightSetter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter::Start

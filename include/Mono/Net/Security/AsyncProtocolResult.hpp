@@ -74,6 +74,7 @@ namespace Mono::Net::Security {
   static check_size<sizeof(AsyncProtocolResult), 24 + sizeof(System::Runtime::ExceptionServices::ExceptionDispatchInfo*)> __Mono_Net_Security_AsyncProtocolResultSizeCheck;
   static_assert(sizeof(AsyncProtocolResult) == 0x20);
 }
+NEED_NO_BOX(Mono::Net::Security::AsyncProtocolResult);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::AsyncProtocolResult*, "Mono.Net.Security", "AsyncProtocolResult");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Net::Security::AsyncProtocolResult::get_UserResult

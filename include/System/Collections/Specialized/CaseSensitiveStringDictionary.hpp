@@ -39,6 +39,7 @@ namespace System::Collections::Specialized {
   }; // System.Collections.Specialized.CaseSensitiveStringDictionary
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Collections::Specialized::CaseSensitiveStringDictionary);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::CaseSensitiveStringDictionary*, "System.Collections.Specialized", "CaseSensitiveStringDictionary");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::Specialized::CaseSensitiveStringDictionary::New_ctor

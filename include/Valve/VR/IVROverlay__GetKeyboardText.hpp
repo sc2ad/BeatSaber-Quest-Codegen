@@ -56,6 +56,7 @@ namespace Valve::VR {
   }; // Valve.VR.IVROverlay/Valve.VR._GetKeyboardText
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::IVROverlay::_GetKeyboardText);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVROverlay::_GetKeyboardText*, "Valve.VR", "IVROverlay/_GetKeyboardText");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVROverlay::_GetKeyboardText::New_ctor

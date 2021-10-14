@@ -128,6 +128,7 @@ namespace Org::BouncyCastle::Security {
   static check_size<sizeof(SecureRandom), 32 + sizeof(Org::BouncyCastle::Crypto::Prng::IRandomGenerator*)> __Org_BouncyCastle_Security_SecureRandomSizeCheck;
   static_assert(sizeof(SecureRandom) == 0x28);
 }
+NEED_NO_BOX(Org::BouncyCastle::Security::SecureRandom);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Security::SecureRandom*, "Org.BouncyCastle.Security", "SecureRandom");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Security::SecureRandom::get_Master

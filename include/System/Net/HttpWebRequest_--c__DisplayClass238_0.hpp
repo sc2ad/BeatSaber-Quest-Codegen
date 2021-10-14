@@ -69,6 +69,7 @@ namespace System::Net {
   static check_size<sizeof(HttpWebRequest::$$c__DisplayClass238_0), 24 + sizeof(System::Net::HttpWebRequest*)> __System_Net_HttpWebRequest_$$c__DisplayClass238_0SizeCheck;
   static_assert(sizeof(HttpWebRequest::$$c__DisplayClass238_0) == 0x20);
 }
+NEED_NO_BOX(System::Net::HttpWebRequest::$$c__DisplayClass238_0);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpWebRequest::$$c__DisplayClass238_0*, "System.Net", "HttpWebRequest/<>c__DisplayClass238_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::HttpWebRequest::$$c__DisplayClass238_0::$BeginGetResponse$b__0

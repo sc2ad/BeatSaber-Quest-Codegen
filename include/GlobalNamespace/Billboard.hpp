@@ -148,6 +148,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(Billboard), 32 + sizeof(UnityEngine::Transform*)> __GlobalNamespace_BillboardSizeCheck;
   static_assert(sizeof(Billboard) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::Billboard);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Billboard*, "", "Billboard");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Billboard::RotationMode, "", "Billboard/RotationMode");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

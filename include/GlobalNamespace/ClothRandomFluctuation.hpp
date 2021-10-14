@@ -145,6 +145,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ClothRandomFluctuation), 88 + sizeof(float)> __GlobalNamespace_ClothRandomFluctuationSizeCheck;
   static_assert(sizeof(ClothRandomFluctuation) == 0x5C);
 }
+NEED_NO_BOX(GlobalNamespace::ClothRandomFluctuation);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ClothRandomFluctuation*, "", "ClothRandomFluctuation");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ClothRandomFluctuation::Update

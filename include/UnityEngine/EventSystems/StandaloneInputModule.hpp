@@ -294,6 +294,7 @@ namespace UnityEngine::EventSystems {
   static check_size<sizeof(StandaloneInputModule), 176 + sizeof(bool)> __UnityEngine_EventSystems_StandaloneInputModuleSizeCheck;
   static_assert(sizeof(StandaloneInputModule) == 0xB1);
 }
+NEED_NO_BOX(UnityEngine::EventSystems::StandaloneInputModule);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::StandaloneInputModule*, "UnityEngine.EventSystems", "StandaloneInputModule");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::EventSystems::StandaloneInputModule::get_inputMode

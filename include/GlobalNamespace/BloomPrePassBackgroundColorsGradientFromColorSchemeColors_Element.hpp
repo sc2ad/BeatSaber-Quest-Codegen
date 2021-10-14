@@ -81,6 +81,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BloomPrePassBackgroundColorsGradientFromColorSchemeColors::Element), 28 + sizeof(UnityEngine::Color)> __GlobalNamespace_BloomPrePassBackgroundColorsGradientFromColorSchemeColors_ElementSizeCheck;
   static_assert(sizeof(BloomPrePassBackgroundColorsGradientFromColorSchemeColors::Element) == 0x2C);
 }
+NEED_NO_BOX(GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::Element);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::Element*, "", "BloomPrePassBackgroundColorsGradientFromColorSchemeColors/Element");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::Element::New_ctor

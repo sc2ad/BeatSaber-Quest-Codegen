@@ -41,6 +41,7 @@ namespace GlobalNamespace {
     }
   }; // GameplayRpcManager/SetGameplaySceneReadyRpc
 }
+NEED_NO_BOX(GlobalNamespace::GameplayRpcManager::SetGameplaySceneReadyRpc);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayRpcManager::SetGameplaySceneReadyRpc*, "", "GameplayRpcManager/SetGameplaySceneReadyRpc");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameplayRpcManager::SetGameplaySceneReadyRpc::New_ctor

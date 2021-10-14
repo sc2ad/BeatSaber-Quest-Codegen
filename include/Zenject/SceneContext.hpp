@@ -336,6 +336,7 @@ namespace Zenject {
   static check_size<sizeof(SceneContext), 177 + sizeof(bool)> __Zenject_SceneContextSizeCheck;
   static_assert(sizeof(SceneContext) == 0xB2);
 }
+NEED_NO_BOX(Zenject::SceneContext);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SceneContext*, "Zenject", "SceneContext");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::SceneContext::get_HasResolved

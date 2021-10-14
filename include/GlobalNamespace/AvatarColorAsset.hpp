@@ -91,6 +91,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(AvatarColorAsset), 24 + sizeof(GlobalNamespace::AvatarColorBehaviour*)> __GlobalNamespace_AvatarColorAssetSizeCheck;
   static_assert(sizeof(AvatarColorAsset) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::AvatarColorAsset);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarColorAsset*, "", "AvatarColorAsset");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AvatarColorAsset::get_clipCaps

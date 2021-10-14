@@ -68,6 +68,7 @@ namespace UnityEngine::ProBuilder {
   static check_size<sizeof(Entity), 24 + sizeof(UnityEngine::ProBuilder::EntityType)> __UnityEngine_ProBuilder_EntitySizeCheck;
   static_assert(sizeof(Entity) == 0x1C);
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::Entity);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Entity*, "UnityEngine.ProBuilder", "Entity");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Entity::get_entityType

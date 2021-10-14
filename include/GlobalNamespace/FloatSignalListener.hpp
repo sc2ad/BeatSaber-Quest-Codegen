@@ -80,6 +80,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(FloatSignalListener), 32 + sizeof(GlobalNamespace::FloatUnityEvent*)> __GlobalNamespace_FloatSignalListenerSizeCheck;
   static_assert(sizeof(FloatSignalListener) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::FloatSignalListener);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FloatSignalListener*, "", "FloatSignalListener");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FloatSignalListener::OnEnable

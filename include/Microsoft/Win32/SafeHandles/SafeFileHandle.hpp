@@ -37,6 +37,7 @@ namespace Microsoft::Win32::SafeHandles {
   }; // Microsoft.Win32.SafeHandles.SafeFileHandle
   #pragma pack(pop)
 }
+NEED_NO_BOX(Microsoft::Win32::SafeHandles::SafeFileHandle);
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::SafeHandles::SafeFileHandle*, "Microsoft.Win32.SafeHandles", "SafeFileHandle");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Microsoft::Win32::SafeHandles::SafeFileHandle::New_ctor

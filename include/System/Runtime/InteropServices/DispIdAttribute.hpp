@@ -52,6 +52,7 @@ namespace System::Runtime::InteropServices {
   static check_size<sizeof(DispIdAttribute), 16 + sizeof(int)> __System_Runtime_InteropServices_DispIdAttributeSizeCheck;
   static_assert(sizeof(DispIdAttribute) == 0x14);
 }
+NEED_NO_BOX(System::Runtime::InteropServices::DispIdAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::DispIdAttribute*, "System.Runtime.InteropServices", "DispIdAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::InteropServices::DispIdAttribute::New_ctor

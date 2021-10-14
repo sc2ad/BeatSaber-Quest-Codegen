@@ -75,6 +75,7 @@ namespace System::Xml {
   static check_size<sizeof(ByteStack), 32 + sizeof(int)> __System_Xml_ByteStackSizeCheck;
   static_assert(sizeof(ByteStack) == 0x24);
 }
+NEED_NO_BOX(System::Xml::ByteStack);
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::ByteStack*, "System.Xml", "ByteStack");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::ByteStack::New_ctor

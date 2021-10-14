@@ -139,6 +139,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(StepValuePicker), 56 + sizeof(System::Action*)> __GlobalNamespace_StepValuePickerSizeCheck;
   static_assert(sizeof(StepValuePicker) == 0x40);
 }
+NEED_NO_BOX(GlobalNamespace::StepValuePicker);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StepValuePicker*, "", "StepValuePicker");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::StepValuePicker::get_text

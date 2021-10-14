@@ -81,6 +81,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(FadeOutSongPreviewPlayerOnSceneTransitionStart), 32 + sizeof(GlobalNamespace::GameScenesManager*)> __GlobalNamespace_FadeOutSongPreviewPlayerOnSceneTransitionStartSizeCheck;
   static_assert(sizeof(FadeOutSongPreviewPlayerOnSceneTransitionStart) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart*, "", "FadeOutSongPreviewPlayerOnSceneTransitionStart");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart::Start

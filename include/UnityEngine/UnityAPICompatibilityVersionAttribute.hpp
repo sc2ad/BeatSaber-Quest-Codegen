@@ -56,6 +56,7 @@ namespace UnityEngine {
   static check_size<sizeof(UnityAPICompatibilityVersionAttribute), 24 + sizeof(::ArrayW<::Il2CppString*>)> __UnityEngine_UnityAPICompatibilityVersionAttributeSizeCheck;
   static_assert(sizeof(UnityAPICompatibilityVersionAttribute) == 0x20);
 }
+NEED_NO_BOX(UnityEngine::UnityAPICompatibilityVersionAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UnityAPICompatibilityVersionAttribute*, "UnityEngine", "UnityAPICompatibilityVersionAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UnityAPICompatibilityVersionAttribute::New_ctor

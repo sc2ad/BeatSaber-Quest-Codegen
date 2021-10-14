@@ -50,6 +50,7 @@ namespace GlobalNamespace {
   }; // PartyMessageHandler/ConnectToMasterServerDelegate
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate*, "", "PartyMessageHandler/ConnectToMasterServerDelegate");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate::New_ctor

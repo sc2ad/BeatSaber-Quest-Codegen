@@ -325,6 +325,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(NoteCutSoundEffect), 152 + sizeof(GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteCutSoundEffectDidFinishEvent*>*)> __GlobalNamespace_NoteCutSoundEffectSizeCheck;
   static_assert(sizeof(NoteCutSoundEffect) == 0xA0);
 }
+NEED_NO_BOX(GlobalNamespace::NoteCutSoundEffect);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutSoundEffect*, "", "NoteCutSoundEffect");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteCutSoundEffect::get_didFinishEvent

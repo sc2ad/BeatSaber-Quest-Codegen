@@ -52,6 +52,7 @@ namespace System::Threading {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Threading::ThreadPoolGlobals);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ThreadPoolGlobals*, "System.Threading", "ThreadPoolGlobals");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::ThreadPoolGlobals::_cctor

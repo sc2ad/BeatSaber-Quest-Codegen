@@ -69,6 +69,7 @@ namespace Oculus::Platform {
   static check_size<sizeof(Request), 24 + sizeof(uint64_t)> __Oculus_Platform_RequestSizeCheck;
   static_assert(sizeof(Request) == 0x20);
 }
+NEED_NO_BOX(Oculus::Platform::Request);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Request*, "Oculus.Platform", "Request");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Request::get_RequestID

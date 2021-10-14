@@ -73,6 +73,7 @@ namespace System {
   }; // System.ThrowHelper
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::ThrowHelper);
 DEFINE_IL2CPP_ARG_TYPE(System::ThrowHelper*, "System", "ThrowHelper");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ThrowHelper::ThrowArgumentNullException

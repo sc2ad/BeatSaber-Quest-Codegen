@@ -91,6 +91,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(RotationLimitPolygonal::ReachCone), 40 + sizeof(UnityEngine::Vector3)> __RootMotion_FinalIK_RotationLimitPolygonal_ReachConeSizeCheck;
   static_assert(sizeof(RotationLimitPolygonal::ReachCone) == 0x34);
 }
+NEED_NO_BOX(RootMotion::FinalIK::RotationLimitPolygonal::ReachCone);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RotationLimitPolygonal::ReachCone*, "RootMotion.FinalIK", "RotationLimitPolygonal/ReachCone");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::RotationLimitPolygonal::ReachCone::get_o

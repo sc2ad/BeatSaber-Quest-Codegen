@@ -62,6 +62,7 @@ namespace System {
   }; // System.InvalidProgramException
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::InvalidProgramException);
 DEFINE_IL2CPP_ARG_TYPE(System::InvalidProgramException*, "System", "InvalidProgramException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::InvalidProgramException::New_ctor

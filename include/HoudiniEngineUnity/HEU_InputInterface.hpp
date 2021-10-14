@@ -80,6 +80,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_InputInterface), 16 + sizeof(int)> __HoudiniEngineUnity_HEU_InputInterfaceSizeCheck;
   static_assert(sizeof(HEU_InputInterface) == 0x14);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_InputInterface);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_InputInterface*, "HoudiniEngineUnity", "HEU_InputInterface");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_InputInterface::get_Priority

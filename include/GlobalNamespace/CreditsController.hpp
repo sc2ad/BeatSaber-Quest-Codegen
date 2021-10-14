@@ -180,6 +180,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(CreditsController), 89 + sizeof(bool)> __GlobalNamespace_CreditsControllerSizeCheck;
   static_assert(sizeof(CreditsController) == 0x5A);
 }
+NEED_NO_BOX(GlobalNamespace::CreditsController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CreditsController*, "", "CreditsController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CreditsController::Start

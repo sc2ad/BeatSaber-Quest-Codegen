@@ -62,6 +62,7 @@ namespace System::Threading {
   }; // System.Threading.ThreadStateException
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Threading::ThreadStateException);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ThreadStateException*, "System.Threading", "ThreadStateException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::ThreadStateException::New_ctor

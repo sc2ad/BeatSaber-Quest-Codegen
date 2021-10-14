@@ -136,6 +136,7 @@ namespace TMPro {
   static check_size<sizeof(KerningPair), 60 + sizeof(bool)> __TMPro_KerningPairSizeCheck;
   static_assert(sizeof(KerningPair) == 0x3D);
 }
+NEED_NO_BOX(TMPro::KerningPair);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::KerningPair*, "TMPro", "KerningPair");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::KerningPair::get_firstGlyph

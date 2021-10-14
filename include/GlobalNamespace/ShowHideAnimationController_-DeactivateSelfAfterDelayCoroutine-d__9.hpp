@@ -96,6 +96,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ShowHideAnimationController::$DeactivateSelfAfterDelayCoroutine$d__9), 40 + sizeof(GlobalNamespace::ShowHideAnimationController*)> __GlobalNamespace_ShowHideAnimationController_$DeactivateSelfAfterDelayCoroutine$d__9SizeCheck;
   static_assert(sizeof(ShowHideAnimationController::$DeactivateSelfAfterDelayCoroutine$d__9) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::ShowHideAnimationController::$DeactivateSelfAfterDelayCoroutine$d__9);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShowHideAnimationController::$DeactivateSelfAfterDelayCoroutine$d__9*, "", "ShowHideAnimationController/<DeactivateSelfAfterDelayCoroutine>d__9");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ShowHideAnimationController::$DeactivateSelfAfterDelayCoroutine$d__9::System_Collections_Generic_IEnumerator$System_Object$_get_Current

@@ -104,6 +104,7 @@ namespace Oculus::Platform {
   static check_size<sizeof(ChallengeOptions), 16 + sizeof(System::IntPtr)> __Oculus_Platform_ChallengeOptionsSizeCheck;
   static_assert(sizeof(ChallengeOptions) == 0x18);
 }
+NEED_NO_BOX(Oculus::Platform::ChallengeOptions);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::ChallengeOptions*, "Oculus.Platform", "ChallengeOptions");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::ChallengeOptions::SetDescription

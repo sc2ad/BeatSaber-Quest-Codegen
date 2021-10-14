@@ -92,6 +92,7 @@ namespace UnityEngine::Events {
   static check_size<sizeof(InvokableCall), 16 + sizeof(UnityEngine::Events::UnityAction*)> __UnityEngine_Events_InvokableCallSizeCheck;
   static_assert(sizeof(InvokableCall) == 0x18);
 }
+NEED_NO_BOX(UnityEngine::Events::InvokableCall);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Events::InvokableCall*, "UnityEngine.Events", "InvokableCall");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Events::InvokableCall::add_Delegate

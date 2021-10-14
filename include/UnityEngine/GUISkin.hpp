@@ -466,6 +466,7 @@ namespace UnityEngine {
   static check_size<sizeof(GUISkin), 224 + sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, UnityEngine::GUIStyle*>*)> __UnityEngine_GUISkinSizeCheck;
   static_assert(sizeof(GUISkin) == 0xE8);
 }
+NEED_NO_BOX(UnityEngine::GUISkin);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUISkin*, "UnityEngine", "GUISkin");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::GUISkin::get_font

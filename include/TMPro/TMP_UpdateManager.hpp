@@ -162,6 +162,7 @@ namespace TMPro {
   static check_size<sizeof(TMP_UpdateManager), 56 + sizeof(System::Collections::Generic::Dictionary_2<int, int>*)> __TMPro_TMP_UpdateManagerSizeCheck;
   static_assert(sizeof(TMP_UpdateManager) == 0x40);
 }
+NEED_NO_BOX(TMPro::TMP_UpdateManager);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_UpdateManager*, "TMPro", "TMP_UpdateManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_UpdateManager::get_instance

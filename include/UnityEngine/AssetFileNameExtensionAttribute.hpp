@@ -68,6 +68,7 @@ namespace UnityEngine {
   static check_size<sizeof(AssetFileNameExtensionAttribute), 24 + sizeof(System::Collections::Generic::IEnumerable_1<::Il2CppString*>*)> __UnityEngine_AssetFileNameExtensionAttributeSizeCheck;
   static_assert(sizeof(AssetFileNameExtensionAttribute) == 0x20);
 }
+NEED_NO_BOX(UnityEngine::AssetFileNameExtensionAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AssetFileNameExtensionAttribute*, "UnityEngine", "AssetFileNameExtensionAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AssetFileNameExtensionAttribute::New_ctor

@@ -115,6 +115,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_ObjectInstanceInfo), 56 + sizeof(System::Collections::Generic::List_1<UnityEngine::GameObject*>*)> __HoudiniEngineUnity_HEU_ObjectInstanceInfoSizeCheck;
   static_assert(sizeof(HEU_ObjectInstanceInfo) == 0x40);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_ObjectInstanceInfo);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_ObjectInstanceInfo*, "HoudiniEngineUnity", "HEU_ObjectInstanceInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ObjectInstanceInfo::IsEquivalentTo

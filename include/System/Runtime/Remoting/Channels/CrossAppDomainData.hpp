@@ -68,6 +68,7 @@ namespace System::Runtime::Remoting::Channels {
   static check_size<sizeof(CrossAppDomainData), 32 + sizeof(::Il2CppString*)> __System_Runtime_Remoting_Channels_CrossAppDomainDataSizeCheck;
   static_assert(sizeof(CrossAppDomainData) == 0x28);
 }
+NEED_NO_BOX(System::Runtime::Remoting::Channels::CrossAppDomainData);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Channels::CrossAppDomainData*, "System.Runtime.Remoting.Channels", "CrossAppDomainData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Channels::CrossAppDomainData::get_DomainID

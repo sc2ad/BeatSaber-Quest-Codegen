@@ -116,6 +116,7 @@ namespace UnityEngine::Timeline {
   static check_size<sizeof(AnimationPlayableAsset::$get_outputs$d__45), 64 + sizeof(UnityEngine::Timeline::AnimationPlayableAsset*)> __UnityEngine_Timeline_AnimationPlayableAsset_$get_outputs$d__45SizeCheck;
   static_assert(sizeof(AnimationPlayableAsset::$get_outputs$d__45) == 0x48);
 }
+NEED_NO_BOX(UnityEngine::Timeline::AnimationPlayableAsset::$get_outputs$d__45);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AnimationPlayableAsset::$get_outputs$d__45*, "UnityEngine.Timeline", "AnimationPlayableAsset/<get_outputs>d__45");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::AnimationPlayableAsset::$get_outputs$d__45::System_Collections_Generic_IEnumerator$UnityEngine_Playables_PlayableBinding$_get_Current

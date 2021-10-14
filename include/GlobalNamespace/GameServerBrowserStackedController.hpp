@@ -49,6 +49,7 @@ namespace GlobalNamespace {
   }; // GameServerBrowserStackedController
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::GameServerBrowserStackedController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServerBrowserStackedController*, "", "GameServerBrowserStackedController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameServerBrowserStackedController::New_ctor

@@ -100,6 +100,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(RotationLimitSpline), 64 + sizeof(UnityEngine::AnimationCurve*)> __RootMotion_FinalIK_RotationLimitSplineSizeCheck;
   static_assert(sizeof(RotationLimitSpline) == 0x48);
 }
+NEED_NO_BOX(RootMotion::FinalIK::RotationLimitSpline);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RotationLimitSpline*, "RootMotion.FinalIK", "RotationLimitSpline");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::RotationLimitSpline::OpenUserManual

@@ -68,6 +68,7 @@ namespace System::Text::RegularExpressions {
   static check_size<sizeof(RegexPrefix), 24 + sizeof(bool)> __System_Text_RegularExpressions_RegexPrefixSizeCheck;
   static_assert(sizeof(RegexPrefix) == 0x19);
 }
+NEED_NO_BOX(System::Text::RegularExpressions::RegexPrefix);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexPrefix*, "System.Text.RegularExpressions", "RegexPrefix");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexPrefix::get_Prefix

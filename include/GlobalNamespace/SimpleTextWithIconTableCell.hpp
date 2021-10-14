@@ -87,6 +87,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SimpleTextWithIconTableCell), 88 + sizeof(UnityEngine::UI::Image*)> __GlobalNamespace_SimpleTextWithIconTableCellSizeCheck;
   static_assert(sizeof(SimpleTextWithIconTableCell) == 0x60);
 }
+NEED_NO_BOX(GlobalNamespace::SimpleTextWithIconTableCell);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleTextWithIconTableCell*, "", "SimpleTextWithIconTableCell");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SimpleTextWithIconTableCell::get_icon

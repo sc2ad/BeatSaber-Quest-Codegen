@@ -663,6 +663,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(GameServerLobbyFlowCoordinator), 432 + sizeof(bool)> __GlobalNamespace_GameServerLobbyFlowCoordinatorSizeCheck;
   static_assert(sizeof(GameServerLobbyFlowCoordinator) == 0x1B1);
 }
+NEED_NO_BOX(GlobalNamespace::GameServerLobbyFlowCoordinator);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServerLobbyFlowCoordinator*, "", "GameServerLobbyFlowCoordinator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameServerLobbyFlowCoordinator::get_isPartyOwner

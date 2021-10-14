@@ -202,6 +202,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SteamVR_Overlay), 88 + sizeof(uint64_t)> __GlobalNamespace_SteamVR_OverlaySizeCheck;
   static_assert(sizeof(SteamVR_Overlay) == 0x60);
 }
+NEED_NO_BOX(GlobalNamespace::SteamVR_Overlay);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Overlay*, "", "SteamVR_Overlay");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Overlay::get_instance

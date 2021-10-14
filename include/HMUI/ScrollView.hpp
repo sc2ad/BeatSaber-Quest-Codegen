@@ -547,6 +547,7 @@ namespace HMUI {
   static check_size<sizeof(ScrollView), 156 + sizeof(float)> __HMUI_ScrollViewSizeCheck;
   static_assert(sizeof(ScrollView) == 0xA0);
 }
+NEED_NO_BOX(HMUI::ScrollView);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollView*, "HMUI", "ScrollView");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollView::ScrollType, "HMUI", "ScrollView/ScrollType");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollView::ScrollDirection, "HMUI", "ScrollView/ScrollDirection");

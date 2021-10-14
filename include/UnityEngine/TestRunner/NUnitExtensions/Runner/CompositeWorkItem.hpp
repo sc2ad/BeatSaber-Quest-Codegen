@@ -204,6 +204,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   static check_size<sizeof(CompositeWorkItem), 144 + sizeof(NUnit::Framework::Internal::Execution::CountdownEvent*)> __UnityEngine_TestRunner_NUnitExtensions_Runner_CompositeWorkItemSizeCheck;
   static_assert(sizeof(CompositeWorkItem) == 0x98);
 }
+NEED_NO_BOX(UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "CompositeWorkItem");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::get_Children

@@ -125,6 +125,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BeatmapObjectsInstaller), 80 + sizeof(GlobalNamespace::GameplayCoreSceneSetupData*)> __GlobalNamespace_BeatmapObjectsInstallerSizeCheck;
   static_assert(sizeof(BeatmapObjectsInstaller) == 0x58);
 }
+NEED_NO_BOX(GlobalNamespace::BeatmapObjectsInstaller);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectsInstaller*, "", "BeatmapObjectsInstaller");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectsInstaller::New_ctor

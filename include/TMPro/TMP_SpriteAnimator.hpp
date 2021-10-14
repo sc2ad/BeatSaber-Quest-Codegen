@@ -103,6 +103,7 @@ namespace TMPro {
   static check_size<sizeof(TMP_SpriteAnimator), 32 + sizeof(TMPro::TMP_Text*)> __TMPro_TMP_SpriteAnimatorSizeCheck;
   static_assert(sizeof(TMP_SpriteAnimator) == 0x28);
 }
+NEED_NO_BOX(TMPro::TMP_SpriteAnimator);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_SpriteAnimator*, "TMPro", "TMP_SpriteAnimator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAnimator::Awake

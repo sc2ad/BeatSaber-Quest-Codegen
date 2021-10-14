@@ -91,6 +91,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(CreateServerFormController), 32 + sizeof(bool)> __GlobalNamespace_CreateServerFormControllerSizeCheck;
   static_assert(sizeof(CreateServerFormController) == 0x21);
 }
+NEED_NO_BOX(GlobalNamespace::CreateServerFormController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CreateServerFormController*, "", "CreateServerFormController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CreateServerFormController::get_formData

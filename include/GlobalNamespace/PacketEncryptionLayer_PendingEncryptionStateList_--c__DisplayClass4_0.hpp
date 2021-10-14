@@ -66,6 +66,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PacketEncryptionLayer::PendingEncryptionStateList::$$c__DisplayClass4_0), 16 + sizeof(int)> __GlobalNamespace_PacketEncryptionLayer_PendingEncryptionStateList_$$c__DisplayClass4_0SizeCheck;
   static_assert(sizeof(PacketEncryptionLayer::PendingEncryptionStateList::$$c__DisplayClass4_0) == 0x14);
 }
+NEED_NO_BOX(GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList::$$c__DisplayClass4_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList::$$c__DisplayClass4_0*, "", "PacketEncryptionLayer/PendingEncryptionStateList/<>c__DisplayClass4_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList::$$c__DisplayClass4_0::$GetSortedEncryptionStates$b__0

@@ -412,6 +412,7 @@ namespace UnityEngine::Rendering {
   static check_size<sizeof(SupportedRenderingFeatures), 50 + sizeof(bool)> __UnityEngine_Rendering_SupportedRenderingFeaturesSizeCheck;
   static_assert(sizeof(SupportedRenderingFeatures) == 0x33);
 }
+NEED_NO_BOX(UnityEngine::Rendering::SupportedRenderingFeatures);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::SupportedRenderingFeatures*, "UnityEngine.Rendering", "SupportedRenderingFeatures");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::SupportedRenderingFeatures::ReflectionProbeModes, "UnityEngine.Rendering", "SupportedRenderingFeatures/ReflectionProbeModes");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::SupportedRenderingFeatures::LightmapMixedBakeModes, "UnityEngine.Rendering", "SupportedRenderingFeatures/LightmapMixedBakeModes");

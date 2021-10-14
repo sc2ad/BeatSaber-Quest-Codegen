@@ -93,6 +93,7 @@ namespace System::Threading {
   static check_size<sizeof(ThreadHelper), 32 + sizeof(System::Threading::ExecutionContext*)> __System_Threading_ThreadHelperSizeCheck;
   static_assert(sizeof(ThreadHelper) == 0x28);
 }
+NEED_NO_BOX(System::Threading::ThreadHelper);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ThreadHelper*, "System.Threading", "ThreadHelper");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::ThreadHelper::_cctor

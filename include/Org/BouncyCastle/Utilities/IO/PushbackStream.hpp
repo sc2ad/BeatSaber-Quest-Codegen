@@ -68,6 +68,7 @@ namespace Org::BouncyCastle::Utilities::IO {
   static check_size<sizeof(PushbackStream), 48 + sizeof(int)> __Org_BouncyCastle_Utilities_IO_PushbackStreamSizeCheck;
   static_assert(sizeof(PushbackStream) == 0x34);
 }
+NEED_NO_BOX(Org::BouncyCastle::Utilities::IO::PushbackStream);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::IO::PushbackStream*, "Org.BouncyCastle.Utilities.IO", "PushbackStream");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::IO::PushbackStream::Unread

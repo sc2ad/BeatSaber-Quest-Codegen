@@ -225,6 +225,7 @@ namespace UnityEngine::Rendering {
   static check_size<sizeof(CommandBuffer), 16 + sizeof(System::IntPtr)> __UnityEngine_Rendering_CommandBufferSizeCheck;
   static_assert(sizeof(CommandBuffer) == 0x18);
 }
+NEED_NO_BOX(UnityEngine::Rendering::CommandBuffer);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::CommandBuffer*, "UnityEngine.Rendering", "CommandBuffer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Rendering::CommandBuffer::set_name

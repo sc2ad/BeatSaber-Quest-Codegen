@@ -168,6 +168,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(AvatarSaveData), 192 + sizeof(UnityEngine::Color)> __GlobalNamespace_AvatarSaveDataSizeCheck;
   static_assert(sizeof(AvatarSaveData) == 0xD0);
 }
+NEED_NO_BOX(GlobalNamespace::AvatarSaveData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarSaveData*, "", "AvatarSaveData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AvatarSaveData::New_ctor

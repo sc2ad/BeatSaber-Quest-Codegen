@@ -108,6 +108,7 @@ namespace HMUI {
   static check_size<sizeof(ScreenModeController), 48 + sizeof(UnityEngine::Transform*)> __HMUI_ScreenModeControllerSizeCheck;
   static_assert(sizeof(ScreenModeController) == 0x38);
 }
+NEED_NO_BOX(HMUI::ScreenModeController);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScreenModeController*, "HMUI", "ScreenModeController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::ScreenModeController::Awake

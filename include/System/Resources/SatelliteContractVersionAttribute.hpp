@@ -52,6 +52,7 @@ namespace System::Resources {
   static check_size<sizeof(SatelliteContractVersionAttribute), 16 + sizeof(::Il2CppString*)> __System_Resources_SatelliteContractVersionAttributeSizeCheck;
   static_assert(sizeof(SatelliteContractVersionAttribute) == 0x18);
 }
+NEED_NO_BOX(System::Resources::SatelliteContractVersionAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::SatelliteContractVersionAttribute*, "System.Resources", "SatelliteContractVersionAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Resources::SatelliteContractVersionAttribute::New_ctor

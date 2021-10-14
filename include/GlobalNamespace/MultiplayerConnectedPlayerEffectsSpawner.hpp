@@ -93,6 +93,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerConnectedPlayerEffectsSpawner), 40 + sizeof(GlobalNamespace::IConnectedPlayerNoteEventManager*)> __GlobalNamespace_MultiplayerConnectedPlayerEffectsSpawnerSizeCheck;
   static_assert(sizeof(MultiplayerConnectedPlayerEffectsSpawner) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerConnectedPlayerEffectsSpawner);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerEffectsSpawner*, "", "MultiplayerConnectedPlayerEffectsSpawner");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerEffectsSpawner::Start

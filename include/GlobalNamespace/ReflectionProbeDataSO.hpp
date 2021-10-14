@@ -80,6 +80,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ReflectionProbeDataSO), 32 + sizeof(UnityEngine::Cubemap*)> __GlobalNamespace_ReflectionProbeDataSOSizeCheck;
   static_assert(sizeof(ReflectionProbeDataSO) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::ReflectionProbeDataSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ReflectionProbeDataSO*, "", "ReflectionProbeDataSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ReflectionProbeDataSO::get_reflectionProbeCubemap1

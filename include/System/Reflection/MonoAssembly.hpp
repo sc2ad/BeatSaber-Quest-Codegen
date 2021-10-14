@@ -72,6 +72,7 @@ namespace System::Reflection {
   }; // System.Reflection.MonoAssembly
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Reflection::MonoAssembly);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoAssembly*, "System.Reflection", "MonoAssembly");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::MonoAssembly::New_ctor

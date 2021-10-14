@@ -98,6 +98,7 @@ namespace System {
   static check_size<sizeof(WindowsConsoleDriver), 32 + sizeof(int16_t)> __System_WindowsConsoleDriverSizeCheck;
   static_assert(sizeof(WindowsConsoleDriver) == 0x22);
 }
+NEED_NO_BOX(System::WindowsConsoleDriver);
 DEFINE_IL2CPP_ARG_TYPE(System::WindowsConsoleDriver*, "System", "WindowsConsoleDriver");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::WindowsConsoleDriver::ReadKey

@@ -53,6 +53,7 @@ namespace Org::BouncyCastle::Crypto::Paddings {
   }; // Org.BouncyCastle.Crypto.Paddings.ZeroBytePadding
   #pragma pack(pop)
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Paddings::ZeroBytePadding);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Paddings::ZeroBytePadding*, "Org.BouncyCastle.Crypto.Paddings", "ZeroBytePadding");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Paddings::ZeroBytePadding::Init

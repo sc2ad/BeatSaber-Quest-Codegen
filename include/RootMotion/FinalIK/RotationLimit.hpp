@@ -142,6 +142,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(RotationLimit), 55 + sizeof(bool)> __RootMotion_FinalIK_RotationLimitSizeCheck;
   static_assert(sizeof(RotationLimit) == 0x38);
 }
+NEED_NO_BOX(RootMotion::FinalIK::RotationLimit);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RotationLimit*, "RootMotion.FinalIK", "RotationLimit");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::RotationLimit::get_secondaryAxis

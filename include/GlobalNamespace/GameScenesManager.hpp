@@ -288,6 +288,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(GameScenesManager), 88 + sizeof(System::Collections::Generic::HashSet_1<::Il2CppString*>*)> __GlobalNamespace_GameScenesManagerSizeCheck;
   static_assert(sizeof(GameScenesManager) == 0x60);
 }
+NEED_NO_BOX(GlobalNamespace::GameScenesManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameScenesManager*, "", "GameScenesManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameScenesManager::get_currentScenesContainer

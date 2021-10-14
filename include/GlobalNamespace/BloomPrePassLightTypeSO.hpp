@@ -76,6 +76,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BloomPrePassLightTypeSO), 32 + sizeof(UnityEngine::Material*)> __GlobalNamespace_BloomPrePassLightTypeSOSizeCheck;
   static_assert(sizeof(BloomPrePassLightTypeSO) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::BloomPrePassLightTypeSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassLightTypeSO*, "", "BloomPrePassLightTypeSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePassLightTypeSO::get_renderingPriority

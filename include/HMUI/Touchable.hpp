@@ -71,6 +71,7 @@ namespace HMUI {
   static check_size<sizeof(Touchable), 140 + sizeof(float)> __HMUI_TouchableSizeCheck;
   static_assert(sizeof(Touchable) == 0x90);
 }
+NEED_NO_BOX(HMUI::Touchable);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::Touchable*, "HMUI", "Touchable");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::Touchable::get_skew

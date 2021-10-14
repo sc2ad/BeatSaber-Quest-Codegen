@@ -278,6 +278,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRDisplay), 48 + sizeof(System::Action*)> __GlobalNamespace_OVRDisplaySizeCheck;
   static_assert(sizeof(OVRDisplay) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::OVRDisplay);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRDisplay*, "", "OVRDisplay");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRDisplay::EyeFov, "", "OVRDisplay/EyeFov");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRDisplay::EyeRenderDesc, "", "OVRDisplay/EyeRenderDesc");

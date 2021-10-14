@@ -34,6 +34,7 @@ namespace JetBrains::Annotations {
   }; // JetBrains.Annotations.RazorHelperCommonAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(JetBrains::Annotations::RazorHelperCommonAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::RazorHelperCommonAttribute*, "JetBrains.Annotations", "RazorHelperCommonAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: JetBrains::Annotations::RazorHelperCommonAttribute::New_ctor

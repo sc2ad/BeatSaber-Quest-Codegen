@@ -51,6 +51,7 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.WindowsPlatform/Oculus.Platform.UnityLogDelegate
   #pragma pack(pop)
 }
+NEED_NO_BOX(Oculus::Platform::WindowsPlatform::UnityLogDelegate);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::WindowsPlatform::UnityLogDelegate*, "Oculus.Platform", "WindowsPlatform/UnityLogDelegate");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::WindowsPlatform::UnityLogDelegate::New_ctor

@@ -166,6 +166,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(AvatarPartsModel), 80 + sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, int>*)> __GlobalNamespace_AvatarPartsModelSizeCheck;
   static_assert(sizeof(AvatarPartsModel) == 0x58);
 }
+NEED_NO_BOX(GlobalNamespace::AvatarPartsModel);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarPartsModel*, "", "AvatarPartsModel");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AvatarPartsModel::get_headTopCollection

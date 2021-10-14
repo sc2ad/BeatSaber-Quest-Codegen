@@ -46,6 +46,7 @@ namespace Oculus::Platform {
     Oculus::Platform::Models::PlatformInitialize* GetPlatformInitialize();
   }; // Oculus.Platform.MessageWithPlatformInitialize
 }
+NEED_NO_BOX(Oculus::Platform::MessageWithPlatformInitialize);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithPlatformInitialize*, "Oculus.Platform", "MessageWithPlatformInitialize");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithPlatformInitialize::GetDataFromMessage

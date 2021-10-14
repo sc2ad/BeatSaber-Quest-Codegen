@@ -103,6 +103,7 @@ namespace Zenject {
   }; // Zenject.SceneContext/Zenject.<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(Zenject::SceneContext::$$c);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SceneContext::$$c*, "Zenject", "SceneContext/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::SceneContext::$$c::_cctor

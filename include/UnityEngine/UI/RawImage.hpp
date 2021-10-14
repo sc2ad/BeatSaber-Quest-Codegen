@@ -111,6 +111,7 @@ namespace UnityEngine::UI {
   static check_size<sizeof(RawImage), 200 + sizeof(UnityEngine::Rect)> __UnityEngine_UI_RawImageSizeCheck;
   static_assert(sizeof(RawImage) == 0xD8);
 }
+NEED_NO_BOX(UnityEngine::UI::RawImage);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::RawImage*, "UnityEngine.UI", "RawImage");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::RawImage::get_texture

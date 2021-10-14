@@ -118,6 +118,7 @@ namespace System::Net::Sockets {
   static check_size<sizeof(SocketException), 144 + sizeof(System::Net::EndPoint*)> __System_Net_Sockets_SocketExceptionSizeCheck;
   static_assert(sizeof(SocketException) == 0x98);
 }
+NEED_NO_BOX(System::Net::Sockets::SocketException);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::SocketException*, "System.Net.Sockets", "SocketException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Sockets::SocketException::get_SocketErrorCode

@@ -50,6 +50,7 @@ namespace UnityEngine {
   }; // UnityEngine.RectTransform/UnityEngine.ReapplyDrivenProperties
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::RectTransform::ReapplyDrivenProperties);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RectTransform::ReapplyDrivenProperties*, "UnityEngine", "RectTransform/ReapplyDrivenProperties");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::RectTransform::ReapplyDrivenProperties::New_ctor

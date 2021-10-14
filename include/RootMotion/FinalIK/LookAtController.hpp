@@ -252,6 +252,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(LookAtController), 148 + sizeof(bool)> __RootMotion_FinalIK_LookAtControllerSizeCheck;
   static_assert(sizeof(LookAtController) == 0x95);
 }
+NEED_NO_BOX(RootMotion::FinalIK::LookAtController);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::LookAtController*, "RootMotion.FinalIK", "LookAtController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::LookAtController::get_pivot

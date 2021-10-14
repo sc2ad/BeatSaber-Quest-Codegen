@@ -268,6 +268,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MissionLevelGameplayManager), 88 + sizeof(GlobalNamespace::MissionLevelGameplayManager::GameState)> __GlobalNamespace_MissionLevelGameplayManagerSizeCheck;
   static_assert(sizeof(MissionLevelGameplayManager) == 0x5C);
 }
+NEED_NO_BOX(GlobalNamespace::MissionLevelGameplayManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelGameplayManager*, "", "MissionLevelGameplayManager");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelGameplayManager::GameState, "", "MissionLevelGameplayManager/GameState");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

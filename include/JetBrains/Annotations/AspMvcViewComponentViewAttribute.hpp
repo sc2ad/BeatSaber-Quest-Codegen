@@ -34,6 +34,7 @@ namespace JetBrains::Annotations {
   }; // JetBrains.Annotations.AspMvcViewComponentViewAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(JetBrains::Annotations::AspMvcViewComponentViewAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::AspMvcViewComponentViewAttribute*, "JetBrains.Annotations", "AspMvcViewComponentViewAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: JetBrains::Annotations::AspMvcViewComponentViewAttribute::New_ctor

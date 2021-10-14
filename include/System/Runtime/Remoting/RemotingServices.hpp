@@ -254,6 +254,7 @@ namespace System::Runtime::Remoting {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Runtime::Remoting::RemotingServices);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::RemotingServices*, "System.Runtime.Remoting", "RemotingServices");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::RemotingServices::_cctor

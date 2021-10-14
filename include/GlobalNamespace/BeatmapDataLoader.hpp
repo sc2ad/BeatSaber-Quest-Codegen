@@ -133,6 +133,7 @@ namespace GlobalNamespace {
   }; // BeatmapDataLoader
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::BeatmapDataLoader);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDataLoader*, "", "BeatmapDataLoader");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDataLoader::BpmChangeData, "", "BeatmapDataLoader/BpmChangeData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

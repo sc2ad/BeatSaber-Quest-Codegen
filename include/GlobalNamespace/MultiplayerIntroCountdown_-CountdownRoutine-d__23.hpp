@@ -118,6 +118,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerIntroCountdown::$CountdownRoutine$d__23), 52 + sizeof(float)> __GlobalNamespace_MultiplayerIntroCountdown_$CountdownRoutine$d__23SizeCheck;
   static_assert(sizeof(MultiplayerIntroCountdown::$CountdownRoutine$d__23) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerIntroCountdown::$CountdownRoutine$d__23);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerIntroCountdown::$CountdownRoutine$d__23*, "", "MultiplayerIntroCountdown/<CountdownRoutine>d__23");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerIntroCountdown::$CountdownRoutine$d__23::System_Collections_Generic_IEnumerator$System_Object$_get_Current

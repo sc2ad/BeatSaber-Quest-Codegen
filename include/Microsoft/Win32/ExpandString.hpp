@@ -56,6 +56,7 @@ namespace Microsoft::Win32 {
   static check_size<sizeof(ExpandString), 16 + sizeof(::Il2CppString*)> __Microsoft_Win32_ExpandStringSizeCheck;
   static_assert(sizeof(ExpandString) == 0x18);
 }
+NEED_NO_BOX(Microsoft::Win32::ExpandString);
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::ExpandString*, "Microsoft.Win32", "ExpandString");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Microsoft::Win32::ExpandString::New_ctor

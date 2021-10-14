@@ -156,6 +156,7 @@ namespace System::Text {
   static check_size<sizeof(Encoding::EncodingByteBuffer), 88 + sizeof(System::Text::EncoderFallbackBuffer*)> __System_Text_Encoding_EncodingByteBufferSizeCheck;
   static_assert(sizeof(Encoding::EncodingByteBuffer) == 0x60);
 }
+NEED_NO_BOX(System::Text::Encoding::EncodingByteBuffer);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::Encoding::EncodingByteBuffer*, "System.Text", "Encoding/EncodingByteBuffer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::Encoding::EncodingByteBuffer::get_MoreData

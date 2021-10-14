@@ -76,6 +76,7 @@ namespace System {
   }; // System.NotSupportedException
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::NotSupportedException);
 DEFINE_IL2CPP_ARG_TYPE(System::NotSupportedException*, "System", "NotSupportedException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::NotSupportedException::New_ctor

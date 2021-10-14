@@ -57,6 +57,7 @@ namespace OVR::OpenVR {
   }; // OVR.OpenVR.IVRInput/OVR.OpenVR._GetActionOrigins
   #pragma pack(pop)
 }
+NEED_NO_BOX(OVR::OpenVR::IVRInput::_GetActionOrigins);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRInput::_GetActionOrigins*, "OVR.OpenVR", "IVRInput/_GetActionOrigins");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVRInput::_GetActionOrigins::New_ctor

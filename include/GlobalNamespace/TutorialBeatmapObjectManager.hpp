@@ -150,6 +150,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(TutorialBeatmapObjectManager), 128 + sizeof(GlobalNamespace::TutorialBeatmapObjectManager::InitData*)> __GlobalNamespace_TutorialBeatmapObjectManagerSizeCheck;
   static_assert(sizeof(TutorialBeatmapObjectManager) == 0x88);
 }
+NEED_NO_BOX(GlobalNamespace::TutorialBeatmapObjectManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialBeatmapObjectManager*, "", "TutorialBeatmapObjectManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TutorialBeatmapObjectManager::Init

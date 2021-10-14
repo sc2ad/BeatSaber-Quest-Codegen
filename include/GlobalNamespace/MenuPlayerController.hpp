@@ -96,6 +96,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MenuPlayerController), 40 + sizeof(UnityEngine::Transform*)> __GlobalNamespace_MenuPlayerControllerSizeCheck;
   static_assert(sizeof(MenuPlayerController) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::MenuPlayerController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuPlayerController*, "", "MenuPlayerController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MenuPlayerController::get_leftController

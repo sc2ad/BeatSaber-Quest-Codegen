@@ -196,6 +196,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(NoteLineConnectionController), 124 + sizeof(bool)> __GlobalNamespace_NoteLineConnectionControllerSizeCheck;
   static_assert(sizeof(NoteLineConnectionController) == 0x7D);
 }
+NEED_NO_BOX(GlobalNamespace::NoteLineConnectionController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteLineConnectionController*, "", "NoteLineConnectionController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteLineConnectionController::add_didFinishEvent

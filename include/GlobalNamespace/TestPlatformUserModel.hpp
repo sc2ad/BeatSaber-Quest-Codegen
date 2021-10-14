@@ -77,6 +77,7 @@ namespace GlobalNamespace {
   }; // TestPlatformUserModel
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::TestPlatformUserModel);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TestPlatformUserModel*, "", "TestPlatformUserModel");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TestPlatformUserModel::GetUserInfo

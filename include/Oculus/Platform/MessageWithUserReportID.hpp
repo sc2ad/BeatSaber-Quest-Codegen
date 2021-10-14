@@ -46,6 +46,7 @@ namespace Oculus::Platform {
     Oculus::Platform::Models::UserReportID* GetUserReportID();
   }; // Oculus.Platform.MessageWithUserReportID
 }
+NEED_NO_BOX(Oculus::Platform::MessageWithUserReportID);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithUserReportID*, "Oculus.Platform", "MessageWithUserReportID");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithUserReportID::GetDataFromMessage

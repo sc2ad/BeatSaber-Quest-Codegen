@@ -57,6 +57,7 @@ namespace System::Runtime::CompilerServices {
   static check_size<sizeof(RuntimeCompatibilityAttribute), 16 + sizeof(bool)> __System_Runtime_CompilerServices_RuntimeCompatibilityAttributeSizeCheck;
   static_assert(sizeof(RuntimeCompatibilityAttribute) == 0x11);
 }
+NEED_NO_BOX(System::Runtime::CompilerServices::RuntimeCompatibilityAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::RuntimeCompatibilityAttribute*, "System.Runtime.CompilerServices", "RuntimeCompatibilityAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::RuntimeCompatibilityAttribute::set_WrapNonExceptionThrows

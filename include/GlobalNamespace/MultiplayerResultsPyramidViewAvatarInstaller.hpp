@@ -67,6 +67,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerResultsPyramidViewAvatarInstaller), 32 + sizeof(GlobalNamespace::IConnectedPlayer*)> __GlobalNamespace_MultiplayerResultsPyramidViewAvatarInstallerSizeCheck;
   static_assert(sizeof(MultiplayerResultsPyramidViewAvatarInstaller) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerResultsPyramidViewAvatarInstaller);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerResultsPyramidViewAvatarInstaller*, "", "MultiplayerResultsPyramidViewAvatarInstaller");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerResultsPyramidViewAvatarInstaller::New_ctor

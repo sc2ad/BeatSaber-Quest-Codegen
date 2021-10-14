@@ -59,6 +59,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(NamedIntListController::TextValuePair), 24 + sizeof(int)> __GlobalNamespace_NamedIntListController_TextValuePairSizeCheck;
   static_assert(sizeof(NamedIntListController::TextValuePair) == 0x1C);
 }
+NEED_NO_BOX(GlobalNamespace::NamedIntListController::TextValuePair);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NamedIntListController::TextValuePair*, "", "NamedIntListController/TextValuePair");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NamedIntListController::TextValuePair::get_localizedText

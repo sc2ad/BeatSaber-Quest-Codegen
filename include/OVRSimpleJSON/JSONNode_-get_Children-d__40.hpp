@@ -104,6 +104,7 @@ namespace OVRSimpleJSON {
   static check_size<sizeof(JSONNode::$get_Children$d__40), 32 + sizeof(int)> __OVRSimpleJSON_JSONNode_$get_Children$d__40SizeCheck;
   static_assert(sizeof(JSONNode::$get_Children$d__40) == 0x24);
 }
+NEED_NO_BOX(OVRSimpleJSON::JSONNode::$get_Children$d__40);
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONNode::$get_Children$d__40*, "OVRSimpleJSON", "JSONNode/<get_Children>d__40");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONNode::$get_Children$d__40::System_Collections_Generic_IEnumerator$OVRSimpleJSON_JSONNode$_get_Current

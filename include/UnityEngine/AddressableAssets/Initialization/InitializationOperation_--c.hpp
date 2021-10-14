@@ -60,6 +60,7 @@ namespace UnityEngine::AddressableAssets::Initialization {
   }; // UnityEngine.AddressableAssets.Initialization.InitializationOperation/UnityEngine.AddressableAssets.Initialization.<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::AddressableAssets::Initialization::InitializationOperation::$$c);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Initialization::InitializationOperation::$$c*, "UnityEngine.AddressableAssets.Initialization", "InitializationOperation/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Initialization::InitializationOperation::$$c::_cctor

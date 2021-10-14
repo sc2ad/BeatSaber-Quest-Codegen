@@ -158,6 +158,7 @@ namespace GlobalNamespace {
   }; // BasicBeatmapObjectManager
   // WARNING Not writing size check since size may be invalid!
 }
+NEED_NO_BOX(GlobalNamespace::BasicBeatmapObjectManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BasicBeatmapObjectManager*, "", "BasicBeatmapObjectManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BasicBeatmapObjectManager::Init

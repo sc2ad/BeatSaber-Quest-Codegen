@@ -90,6 +90,7 @@ namespace System::Security::Cryptography {
   static check_size<sizeof(RSAPKCS1SignatureDeformatter), 24 + sizeof(::Il2CppString*)> __System_Security_Cryptography_RSAPKCS1SignatureDeformatterSizeCheck;
   static_assert(sizeof(RSAPKCS1SignatureDeformatter) == 0x20);
 }
+NEED_NO_BOX(System::Security::Cryptography::RSAPKCS1SignatureDeformatter);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RSAPKCS1SignatureDeformatter*, "System.Security.Cryptography", "RSAPKCS1SignatureDeformatter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::RSAPKCS1SignatureDeformatter::New_ctor

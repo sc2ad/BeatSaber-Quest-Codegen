@@ -60,6 +60,7 @@ namespace HMUI {
   static check_size<sizeof(Interactable), 24 + sizeof(bool)> __HMUI_InteractableSizeCheck;
   static_assert(sizeof(Interactable) == 0x19);
 }
+NEED_NO_BOX(HMUI::Interactable);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::Interactable*, "HMUI", "Interactable");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::Interactable::get_interactable

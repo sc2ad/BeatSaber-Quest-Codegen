@@ -114,6 +114,7 @@ namespace System::Globalization {
   static check_size<sizeof(EraInfo), 64 + sizeof(::Il2CppString*)> __System_Globalization_EraInfoSizeCheck;
   static_assert(sizeof(EraInfo) == 0x48);
 }
+NEED_NO_BOX(System::Globalization::EraInfo);
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::EraInfo*, "System.Globalization", "EraInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Globalization::EraInfo::New_ctor

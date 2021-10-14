@@ -50,6 +50,7 @@ namespace LiteNetLib::Layers {
   }; // LiteNetLib.Layers.Crc32cLayer
   #pragma pack(pop)
 }
+NEED_NO_BOX(LiteNetLib::Layers::Crc32cLayer);
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Layers::Crc32cLayer*, "LiteNetLib.Layers", "Crc32cLayer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::Layers::Crc32cLayer::New_ctor

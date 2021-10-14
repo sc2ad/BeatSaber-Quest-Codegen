@@ -219,6 +219,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ColorScheme), 152 + sizeof(UnityEngine::Color)> __GlobalNamespace_ColorSchemeSizeCheck;
   static_assert(sizeof(ColorScheme) == 0xA8);
 }
+NEED_NO_BOX(GlobalNamespace::ColorScheme);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorScheme*, "", "ColorScheme");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ColorScheme::get_colorSchemeId

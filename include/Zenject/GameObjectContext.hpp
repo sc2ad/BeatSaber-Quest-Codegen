@@ -178,6 +178,7 @@ namespace Zenject {
   static check_size<sizeof(GameObjectContext), 112 + sizeof(Zenject::DiContainer*)> __Zenject_GameObjectContextSizeCheck;
   static_assert(sizeof(GameObjectContext) == 0x78);
 }
+NEED_NO_BOX(Zenject::GameObjectContext);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::GameObjectContext*, "Zenject", "GameObjectContext");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::GameObjectContext::add_PreInstall

@@ -80,6 +80,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PlayingDifficultyBeatmapRichPresenceData), 24 + sizeof(::Il2CppString*)> __GlobalNamespace_PlayingDifficultyBeatmapRichPresenceDataSizeCheck;
   static_assert(sizeof(PlayingDifficultyBeatmapRichPresenceData) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData*, "", "PlayingDifficultyBeatmapRichPresenceData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData::get_apiName

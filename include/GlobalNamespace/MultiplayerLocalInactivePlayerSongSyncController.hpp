@@ -209,6 +209,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerLocalInactivePlayerSongSyncController), 88 + sizeof(float)> __GlobalNamespace_MultiplayerLocalInactivePlayerSongSyncControllerSizeCheck;
   static_assert(sizeof(MultiplayerLocalInactivePlayerSongSyncController) == 0x5C);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController*, "", "MultiplayerLocalInactivePlayerSongSyncController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::get_waitUntilIsReadyToStartTheSong

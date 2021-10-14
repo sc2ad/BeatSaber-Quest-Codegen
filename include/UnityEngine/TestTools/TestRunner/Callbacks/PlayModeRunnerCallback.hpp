@@ -92,6 +92,7 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
   static check_size<sizeof(PlayModeRunnerCallback), 24 + sizeof(UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer*)> __UnityEngine_TestTools_TestRunner_Callbacks_PlayModeRunnerCallbackSizeCheck;
   static_assert(sizeof(PlayModeRunnerCallback) == 0x20);
 }
+NEED_NO_BOX(UnityEngine::TestTools::TestRunner::Callbacks::PlayModeRunnerCallback);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::Callbacks::PlayModeRunnerCallback*, "UnityEngine.TestTools.TestRunner.Callbacks", "PlayModeRunnerCallback");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::Callbacks::PlayModeRunnerCallback::RunFinished

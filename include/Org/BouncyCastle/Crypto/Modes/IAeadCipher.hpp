@@ -44,6 +44,7 @@ namespace Org::BouncyCastle::Crypto::Modes {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Modes::IAeadCipher);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::IAeadCipher*, "Org.BouncyCastle.Crypto.Modes", "IAeadCipher");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Modes::IAeadCipher::Init

@@ -90,6 +90,7 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
   static check_size<sizeof(SecT113R2Curve::SecT113R2LookupTable), 32 + sizeof(int)> __Org_BouncyCastle_Math_EC_Custom_Sec_SecT113R2Curve_SecT113R2LookupTableSizeCheck;
   static_assert(sizeof(SecT113R2Curve::SecT113R2LookupTable) == 0x24);
 }
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::Custom::Sec::SecT113R2Curve::SecT113R2LookupTable);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Custom::Sec::SecT113R2Curve::SecT113R2LookupTable*, "Org.BouncyCastle.Math.EC.Custom.Sec", "SecT113R2Curve/SecT113R2LookupTable");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::Sec::SecT113R2Curve::SecT113R2LookupTable::New_ctor

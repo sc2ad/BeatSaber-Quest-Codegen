@@ -80,6 +80,7 @@ namespace OVR::OpenVR {
   static check_size<sizeof(CVRSpatialAnchors), 16 + sizeof(OVR::OpenVR::IVRSpatialAnchors)> __OVR_OpenVR_CVRSpatialAnchorsSizeCheck;
   static_assert(sizeof(CVRSpatialAnchors) == 0x30);
 }
+NEED_NO_BOX(OVR::OpenVR::CVRSpatialAnchors);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRSpatialAnchors*, "OVR.OpenVR", "CVRSpatialAnchors");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::CVRSpatialAnchors::New_ctor

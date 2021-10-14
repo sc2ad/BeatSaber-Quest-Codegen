@@ -58,6 +58,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(StringListSO), 24 + sizeof(::ArrayW<::Il2CppString*>)> __GlobalNamespace_StringListSOSizeCheck;
   static_assert(sizeof(StringListSO) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::StringListSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StringListSO*, "", "StringListSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::StringListSO::get_strings

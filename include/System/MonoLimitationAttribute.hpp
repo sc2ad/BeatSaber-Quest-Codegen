@@ -33,6 +33,7 @@ namespace System {
   }; // System.MonoLimitationAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::MonoLimitationAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::MonoLimitationAttribute*, "System", "MonoLimitationAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::MonoLimitationAttribute::New_ctor

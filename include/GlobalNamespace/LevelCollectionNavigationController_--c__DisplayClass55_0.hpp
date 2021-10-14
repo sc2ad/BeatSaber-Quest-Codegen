@@ -67,6 +67,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LevelCollectionNavigationController::$$c__DisplayClass55_0), 24 + sizeof(HMUI::ViewController*)> __GlobalNamespace_LevelCollectionNavigationController_$$c__DisplayClass55_0SizeCheck;
   static_assert(sizeof(LevelCollectionNavigationController::$$c__DisplayClass55_0) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::LevelCollectionNavigationController::$$c__DisplayClass55_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelCollectionNavigationController::$$c__DisplayClass55_0*, "", "LevelCollectionNavigationController/<>c__DisplayClass55_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LevelCollectionNavigationController::$$c__DisplayClass55_0::$PresentDetailViewController$b__0

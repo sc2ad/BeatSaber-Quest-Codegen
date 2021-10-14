@@ -65,6 +65,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MissionCompletionResults), 24 + sizeof(::ArrayW<GlobalNamespace::MissionObjectiveResult*>)> __GlobalNamespace_MissionCompletionResultsSizeCheck;
   static_assert(sizeof(MissionCompletionResults) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::MissionCompletionResults);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionCompletionResults*, "", "MissionCompletionResults");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionCompletionResults::get_IsMissionComplete

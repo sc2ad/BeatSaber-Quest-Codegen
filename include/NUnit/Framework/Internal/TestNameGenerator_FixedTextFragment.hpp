@@ -65,6 +65,7 @@ namespace NUnit::Framework::Internal {
   static check_size<sizeof(TestNameGenerator::FixedTextFragment), 16 + sizeof(::Il2CppString*)> __NUnit_Framework_Internal_TestNameGenerator_FixedTextFragmentSizeCheck;
   static_assert(sizeof(TestNameGenerator::FixedTextFragment) == 0x18);
 }
+NEED_NO_BOX(NUnit::Framework::Internal::TestNameGenerator::FixedTextFragment);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestNameGenerator::FixedTextFragment*, "NUnit.Framework.Internal", "TestNameGenerator/FixedTextFragment");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestNameGenerator::FixedTextFragment::New_ctor

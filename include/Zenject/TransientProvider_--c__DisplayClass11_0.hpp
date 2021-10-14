@@ -104,6 +104,7 @@ namespace Zenject {
   static check_size<sizeof(TransientProvider::$$c__DisplayClass11_0), 48 + sizeof(Zenject::InjectContext*)> __Zenject_TransientProvider_$$c__DisplayClass11_0SizeCheck;
   static_assert(sizeof(TransientProvider::$$c__DisplayClass11_0) == 0x38);
 }
+NEED_NO_BOX(Zenject::TransientProvider::$$c__DisplayClass11_0);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::TransientProvider::$$c__DisplayClass11_0*, "Zenject", "TransientProvider/<>c__DisplayClass11_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::TransientProvider::$$c__DisplayClass11_0::$GetAllInstancesWithInjectSplit$b__0

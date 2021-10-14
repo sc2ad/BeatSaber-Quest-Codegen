@@ -93,6 +93,7 @@ namespace System::Runtime::Remoting::Messaging {
   static check_size<sizeof(MessageDictionary::DictionaryEnumerator), 32 + sizeof(int)> __System_Runtime_Remoting_Messaging_MessageDictionary_DictionaryEnumeratorSizeCheck;
   static_assert(sizeof(MessageDictionary::DictionaryEnumerator) == 0x24);
 }
+NEED_NO_BOX(System::Runtime::Remoting::Messaging::MessageDictionary::DictionaryEnumerator);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::MessageDictionary::DictionaryEnumerator*, "System.Runtime.Remoting.Messaging", "MessageDictionary/DictionaryEnumerator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::MessageDictionary::DictionaryEnumerator::get_Current

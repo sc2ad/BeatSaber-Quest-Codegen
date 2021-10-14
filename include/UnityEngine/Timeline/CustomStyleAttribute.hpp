@@ -51,6 +51,7 @@ namespace UnityEngine::Timeline {
   static check_size<sizeof(CustomStyleAttribute), 16 + sizeof(::Il2CppString*)> __UnityEngine_Timeline_CustomStyleAttributeSizeCheck;
   static_assert(sizeof(CustomStyleAttribute) == 0x18);
 }
+NEED_NO_BOX(UnityEngine::Timeline::CustomStyleAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::CustomStyleAttribute*, "UnityEngine.Timeline", "CustomStyleAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::CustomStyleAttribute::New_ctor

@@ -72,6 +72,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
   static check_size<sizeof(DigestInfo), 24 + sizeof(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*)> __Org_BouncyCastle_Asn1_X509_DigestInfoSizeCheck;
   static_assert(sizeof(DigestInfo) == 0x20);
 }
+NEED_NO_BOX(Org::BouncyCastle::Asn1::X509::DigestInfo);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::DigestInfo*, "Org.BouncyCastle.Asn1.X509", "DigestInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::DigestInfo::New_ctor

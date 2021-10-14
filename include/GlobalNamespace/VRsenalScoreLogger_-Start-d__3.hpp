@@ -101,6 +101,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(VRsenalScoreLogger::$Start$d__3), 40 + sizeof(UnityEngine::YieldInstruction*)> __GlobalNamespace_VRsenalScoreLogger_$Start$d__3SizeCheck;
   static_assert(sizeof(VRsenalScoreLogger::$Start$d__3) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::VRsenalScoreLogger::$Start$d__3);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRsenalScoreLogger::$Start$d__3*, "", "VRsenalScoreLogger/<Start>d__3");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::VRsenalScoreLogger::$Start$d__3::System_Collections_Generic_IEnumerator$System_Object$_get_Current

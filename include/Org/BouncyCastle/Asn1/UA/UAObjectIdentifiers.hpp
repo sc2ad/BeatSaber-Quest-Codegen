@@ -184,6 +184,7 @@ namespace Org::BouncyCastle::Asn1::UA {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(Org::BouncyCastle::Asn1::UA::UAObjectIdentifiers);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::UA::UAObjectIdentifiers*, "Org.BouncyCastle.Asn1.UA", "UAObjectIdentifiers");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::UA::UAObjectIdentifiers::_cctor

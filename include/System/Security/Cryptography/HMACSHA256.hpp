@@ -44,6 +44,7 @@ namespace System::Security::Cryptography {
   }; // System.Security.Cryptography.HMACSHA256
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Security::Cryptography::HMACSHA256);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::HMACSHA256*, "System.Security.Cryptography", "HMACSHA256");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::HMACSHA256::New_ctor

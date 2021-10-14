@@ -73,6 +73,7 @@ namespace Oculus::Platform {
   static check_size<sizeof(AbuseReportOptions), 16 + sizeof(System::IntPtr)> __Oculus_Platform_AbuseReportOptionsSizeCheck;
   static_assert(sizeof(AbuseReportOptions) == 0x18);
 }
+NEED_NO_BOX(Oculus::Platform::AbuseReportOptions);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::AbuseReportOptions*, "Oculus.Platform", "AbuseReportOptions");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::AbuseReportOptions::SetPreventPeopleChooser

@@ -87,6 +87,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   static check_size<sizeof(InstanceProvider), 16 + sizeof(System::Collections::Generic::Dictionary_2<UnityEngine::GameObject*, UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*>>*)> __UnityEngine_ResourceManagement_ResourceProviders_InstanceProviderSizeCheck;
   static_assert(sizeof(InstanceProvider) == 0x18);
 }
+NEED_NO_BOX(UnityEngine::ResourceManagement::ResourceProviders::InstanceProvider);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::InstanceProvider*, "UnityEngine.ResourceManagement.ResourceProviders", "InstanceProvider");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::InstanceProvider::ProvideInstance

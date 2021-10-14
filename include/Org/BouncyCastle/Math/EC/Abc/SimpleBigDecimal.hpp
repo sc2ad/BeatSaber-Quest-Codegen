@@ -104,6 +104,7 @@ namespace Org::BouncyCastle::Math::EC::Abc {
   static check_size<sizeof(SimpleBigDecimal), 24 + sizeof(int)> __Org_BouncyCastle_Math_EC_Abc_SimpleBigDecimalSizeCheck;
   static_assert(sizeof(SimpleBigDecimal) == 0x1C);
 }
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*, "Org.BouncyCastle.Math.EC.Abc", "SimpleBigDecimal");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::get_Scale

@@ -105,6 +105,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
   static check_size<sizeof(Holder), 40 + sizeof(int)> __Org_BouncyCastle_Asn1_X509_HolderSizeCheck;
   static_assert(sizeof(Holder) == 0x2C);
 }
+NEED_NO_BOX(Org::BouncyCastle::Asn1::X509::Holder);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::Holder*, "Org.BouncyCastle.Asn1.X509", "Holder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::Holder::New_ctor

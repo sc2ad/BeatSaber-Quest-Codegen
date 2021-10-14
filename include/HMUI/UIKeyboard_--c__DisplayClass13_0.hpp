@@ -67,6 +67,7 @@ namespace HMUI {
   static check_size<sizeof(UIKeyboard::$$c__DisplayClass13_0), 24 + sizeof(HMUI::UIKeyboard*)> __HMUI_UIKeyboard_$$c__DisplayClass13_0SizeCheck;
   static_assert(sizeof(UIKeyboard::$$c__DisplayClass13_0) == 0x20);
 }
+NEED_NO_BOX(HMUI::UIKeyboard::$$c__DisplayClass13_0);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::UIKeyboard::$$c__DisplayClass13_0*, "HMUI", "UIKeyboard/<>c__DisplayClass13_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::UIKeyboard::$$c__DisplayClass13_0::$Awake$b__2

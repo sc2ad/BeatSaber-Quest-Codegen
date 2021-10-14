@@ -129,6 +129,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRPlugin::GUID), 31 + sizeof(uint8_t)> __GlobalNamespace_OVRPlugin_GUIDSizeCheck;
   static_assert(sizeof(OVRPlugin::GUID) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::OVRPlugin::GUID);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::GUID*, "", "OVRPlugin/GUID");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::GUID::New_ctor

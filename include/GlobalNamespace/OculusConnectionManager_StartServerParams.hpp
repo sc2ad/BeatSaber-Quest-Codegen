@@ -65,6 +65,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OculusConnectionManager::StartServerParams), 16 + sizeof(GlobalNamespace::OculusNetworkPlayerModel*)> __GlobalNamespace_OculusConnectionManager_StartServerParamsSizeCheck;
   static_assert(sizeof(OculusConnectionManager::StartServerParams) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::OculusConnectionManager::StartServerParams);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusConnectionManager::StartServerParams*, "", "OculusConnectionManager/StartServerParams");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::StartServerParams::New_ctor

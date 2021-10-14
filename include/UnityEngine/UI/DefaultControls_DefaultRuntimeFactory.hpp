@@ -62,6 +62,7 @@ namespace UnityEngine::UI {
   }; // UnityEngine.UI.DefaultControls/UnityEngine.UI.DefaultRuntimeFactory
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::UI::DefaultControls::DefaultRuntimeFactory);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::DefaultControls::DefaultRuntimeFactory*, "UnityEngine.UI", "DefaultControls/DefaultRuntimeFactory");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::DefaultRuntimeFactory::_cctor

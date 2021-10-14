@@ -50,6 +50,7 @@ namespace NUnit::Framework {
   }; // NUnit.Framework.IgnoreException
   #pragma pack(pop)
 }
+NEED_NO_BOX(NUnit::Framework::IgnoreException);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::IgnoreException*, "NUnit.Framework", "IgnoreException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::IgnoreException::get_ResultState

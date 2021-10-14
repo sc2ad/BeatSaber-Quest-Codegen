@@ -68,6 +68,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ReflectionProbeBakingEffect), 24 + sizeof(UnityEngine::Material*)> __GlobalNamespace_ReflectionProbeBakingEffectSizeCheck;
   static_assert(sizeof(ReflectionProbeBakingEffect) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::ReflectionProbeBakingEffect);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ReflectionProbeBakingEffect*, "", "ReflectionProbeBakingEffect");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ReflectionProbeBakingEffect::OnRenderImage

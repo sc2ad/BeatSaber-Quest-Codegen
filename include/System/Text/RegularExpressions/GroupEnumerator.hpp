@@ -79,6 +79,7 @@ namespace System::Text::RegularExpressions {
   static check_size<sizeof(GroupEnumerator), 24 + sizeof(int)> __System_Text_RegularExpressions_GroupEnumeratorSizeCheck;
   static_assert(sizeof(GroupEnumerator) == 0x1C);
 }
+NEED_NO_BOX(System::Text::RegularExpressions::GroupEnumerator);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::GroupEnumerator*, "System.Text.RegularExpressions", "GroupEnumerator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::RegularExpressions::GroupEnumerator::get_Current

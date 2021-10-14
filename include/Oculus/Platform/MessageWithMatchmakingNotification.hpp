@@ -46,6 +46,7 @@ namespace Oculus::Platform {
     Oculus::Platform::Models::Room* GetRoom();
   }; // Oculus.Platform.MessageWithMatchmakingNotification
 }
+NEED_NO_BOX(Oculus::Platform::MessageWithMatchmakingNotification);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithMatchmakingNotification*, "Oculus.Platform", "MessageWithMatchmakingNotification");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithMatchmakingNotification::GetDataFromMessage

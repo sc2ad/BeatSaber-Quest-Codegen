@@ -20,5 +20,6 @@ namespace System::Threading::Tasks {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Threading::Tasks::TaskScheduler::SystemThreadingTasks_TaskSchedulerDebugView);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskScheduler::SystemThreadingTasks_TaskSchedulerDebugView*, "System.Threading.Tasks", "TaskScheduler/SystemThreadingTasks_TaskSchedulerDebugView");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

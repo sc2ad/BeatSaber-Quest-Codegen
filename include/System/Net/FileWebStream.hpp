@@ -117,6 +117,7 @@ namespace System::Net {
   static check_size<sizeof(FileWebStream), 112 + sizeof(System::Net::FileWebRequest*)> __System_Net_FileWebStreamSizeCheck;
   static_assert(sizeof(FileWebStream) == 0x78);
 }
+NEED_NO_BOX(System::Net::FileWebStream);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::FileWebStream*, "System.Net", "FileWebStream");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::FileWebStream::New_ctor

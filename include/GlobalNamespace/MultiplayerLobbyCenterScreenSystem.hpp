@@ -36,6 +36,7 @@ namespace GlobalNamespace {
   }; // MultiplayerLobbyCenterScreenSystem
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerLobbyCenterScreenSystem);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLobbyCenterScreenSystem*, "", "MultiplayerLobbyCenterScreenSystem");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyCenterScreenSystem::New_ctor

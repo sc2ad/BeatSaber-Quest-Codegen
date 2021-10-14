@@ -46,6 +46,7 @@ namespace Oculus::Platform {
     Oculus::Platform::Models::PingResult* GetPingResult();
   }; // Oculus.Platform.MessageWithPingResult
 }
+NEED_NO_BOX(Oculus::Platform::MessageWithPingResult);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithPingResult*, "Oculus.Platform", "MessageWithPingResult");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithPingResult::GetDataFromMessage

@@ -248,6 +248,7 @@ namespace Org::BouncyCastle::Math::EC {
   static check_size<sizeof(LongArray), 16 + sizeof(::ArrayW<int64_t>)> __Org_BouncyCastle_Math_EC_LongArraySizeCheck;
   static_assert(sizeof(LongArray) == 0x18);
 }
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::LongArray);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::LongArray*, "Org.BouncyCastle.Math.EC", "LongArray");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::New_ctor

@@ -60,6 +60,7 @@ namespace GlobalNamespace {
   }; // LevelFilteringNavigationController/<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::LevelFilteringNavigationController::$$c);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelFilteringNavigationController::$$c*, "", "LevelFilteringNavigationController/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LevelFilteringNavigationController::$$c::_cctor

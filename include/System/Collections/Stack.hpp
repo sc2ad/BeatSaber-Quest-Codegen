@@ -125,6 +125,7 @@ namespace System::Collections {
   static check_size<sizeof(Stack), 28 + sizeof(int)> __System_Collections_StackSizeCheck;
   static_assert(sizeof(Stack) == 0x20);
 }
+NEED_NO_BOX(System::Collections::Stack);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Stack*, "System.Collections", "Stack");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::Stack::get_Count

@@ -61,6 +61,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BeatmapSaveData::SpecialEventKeywordFiltersData), 16 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::SpecialEventsForKeyword*>*)> __GlobalNamespace_BeatmapSaveData_SpecialEventKeywordFiltersDataSizeCheck;
   static_assert(sizeof(BeatmapSaveData::SpecialEventKeywordFiltersData) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::BeatmapSaveData::SpecialEventKeywordFiltersData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapSaveData::SpecialEventKeywordFiltersData*, "", "BeatmapSaveData/SpecialEventKeywordFiltersData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapSaveData::SpecialEventKeywordFiltersData::get_keywords

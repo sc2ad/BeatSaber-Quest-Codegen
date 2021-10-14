@@ -35,6 +35,7 @@ namespace GlobalNamespace {
     }
   }; // NoteLineConnectionController/Pool
 }
+NEED_NO_BOX(GlobalNamespace::NoteLineConnectionController::Pool);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteLineConnectionController::Pool*, "", "NoteLineConnectionController/Pool");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteLineConnectionController::Pool::New_ctor

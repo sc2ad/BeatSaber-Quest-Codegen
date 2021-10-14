@@ -217,6 +217,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(GameplayModifiersPanelController), 120 + sizeof(System::Collections::Generic::Dictionary_2<GlobalNamespace::GameplayModifierParamsSO*, UnityEngine::UI::Toggle*>*)> __GlobalNamespace_GameplayModifiersPanelControllerSizeCheck;
   static_assert(sizeof(GameplayModifiersPanelController) == 0x80);
 }
+NEED_NO_BOX(GlobalNamespace::GameplayModifiersPanelController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifiersPanelController*, "", "GameplayModifiersPanelController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersPanelController::get_gameplayModifiers

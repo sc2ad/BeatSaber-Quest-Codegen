@@ -84,6 +84,7 @@ namespace UnityEngine::Timeline {
   static check_size<sizeof(RuntimeElement), 16 + sizeof(int)> __UnityEngine_Timeline_RuntimeElementSizeCheck;
   static_assert(sizeof(RuntimeElement) == 0x14);
 }
+NEED_NO_BOX(UnityEngine::Timeline::RuntimeElement);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::RuntimeElement*, "UnityEngine.Timeline", "RuntimeElement");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::RuntimeElement::get_intervalStart

@@ -74,6 +74,7 @@ namespace UnityEngine::EventSystems {
   static check_size<sizeof(PointerInputModule::MouseState), 16 + sizeof(System::Collections::Generic::List_1<UnityEngine::EventSystems::PointerInputModule::ButtonState*>*)> __UnityEngine_EventSystems_PointerInputModule_MouseStateSizeCheck;
   static_assert(sizeof(PointerInputModule::MouseState) == 0x18);
 }
+NEED_NO_BOX(UnityEngine::EventSystems::PointerInputModule::MouseState);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::PointerInputModule::MouseState*, "UnityEngine.EventSystems", "PointerInputModule/MouseState");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::EventSystems::PointerInputModule::MouseState::AnyPressesThisFrame

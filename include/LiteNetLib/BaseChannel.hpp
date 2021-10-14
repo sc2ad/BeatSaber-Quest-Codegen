@@ -87,6 +87,7 @@ namespace LiteNetLib {
   static check_size<sizeof(BaseChannel), 32 + sizeof(System::Collections::Generic::Queue_1<LiteNetLib::NetPacket*>*)> __LiteNetLib_BaseChannelSizeCheck;
   static_assert(sizeof(BaseChannel) == 0x28);
 }
+NEED_NO_BOX(LiteNetLib::BaseChannel);
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::BaseChannel*, "LiteNetLib", "BaseChannel");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::BaseChannel::get_PacketsInQueue

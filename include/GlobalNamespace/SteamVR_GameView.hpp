@@ -40,6 +40,7 @@ namespace GlobalNamespace {
   }; // SteamVR_GameView
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::SteamVR_GameView);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_GameView*, "", "SteamVR_GameView");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_GameView::Awake

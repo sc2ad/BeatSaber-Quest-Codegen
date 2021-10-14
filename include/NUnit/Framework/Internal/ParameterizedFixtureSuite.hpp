@@ -65,6 +65,7 @@ namespace NUnit::Framework::Internal {
   static check_size<sizeof(ParameterizedFixtureSuite), 137 + sizeof(bool)> __NUnit_Framework_Internal_ParameterizedFixtureSuiteSizeCheck;
   static_assert(sizeof(ParameterizedFixtureSuite) == 0x8A);
 }
+NEED_NO_BOX(NUnit::Framework::Internal::ParameterizedFixtureSuite);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::ParameterizedFixtureSuite*, "NUnit.Framework.Internal", "ParameterizedFixtureSuite");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::ParameterizedFixtureSuite::get_TestType

@@ -81,6 +81,7 @@ namespace NUnit::Framework::Interfaces {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(NUnit::Framework::Interfaces::IMethodInfo);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::IMethodInfo*, "NUnit.Framework.Interfaces", "IMethodInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::IMethodInfo::get_TypeInfo

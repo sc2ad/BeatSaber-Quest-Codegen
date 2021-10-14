@@ -82,6 +82,7 @@ namespace UnityEngine {
   static check_size<sizeof(ScrollViewState), 72 + sizeof(bool)> __UnityEngine_ScrollViewStateSizeCheck;
   static_assert(sizeof(ScrollViewState) == 0x49);
 }
+NEED_NO_BOX(UnityEngine::ScrollViewState);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ScrollViewState*, "UnityEngine", "ScrollViewState");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ScrollViewState::New_ctor

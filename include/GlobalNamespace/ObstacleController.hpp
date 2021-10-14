@@ -433,6 +433,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ObstacleController), 272 + sizeof(UnityEngine::Quaternion)> __GlobalNamespace_ObstacleControllerSizeCheck;
   static_assert(sizeof(ObstacleController) == 0x120);
 }
+NEED_NO_BOX(GlobalNamespace::ObstacleController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleController*, "", "ObstacleController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ObstacleController::set_hide

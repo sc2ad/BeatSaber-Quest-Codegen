@@ -60,6 +60,7 @@ namespace NUnit::Framework {
   }; // NUnit.Framework.AssertionException
   #pragma pack(pop)
 }
+NEED_NO_BOX(NUnit::Framework::AssertionException);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::AssertionException*, "NUnit.Framework", "AssertionException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::AssertionException::get_ResultState

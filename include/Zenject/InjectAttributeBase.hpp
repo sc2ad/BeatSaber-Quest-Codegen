@@ -88,6 +88,7 @@ namespace Zenject {
   static check_size<sizeof(InjectAttributeBase), 32 + sizeof(Zenject::InjectSources)> __Zenject_InjectAttributeBaseSizeCheck;
   static_assert(sizeof(InjectAttributeBase) == 0x24);
 }
+NEED_NO_BOX(Zenject::InjectAttributeBase);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::InjectAttributeBase*, "Zenject", "InjectAttributeBase");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::InjectAttributeBase::get_Optional

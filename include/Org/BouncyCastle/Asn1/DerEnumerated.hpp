@@ -108,6 +108,7 @@ namespace Org::BouncyCastle::Asn1 {
   static check_size<sizeof(DerEnumerated), 24 + sizeof(int)> __Org_BouncyCastle_Asn1_DerEnumeratedSizeCheck;
   static_assert(sizeof(DerEnumerated) == 0x1C);
 }
+NEED_NO_BOX(Org::BouncyCastle::Asn1::DerEnumerated);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerEnumerated*, "Org.BouncyCastle.Asn1", "DerEnumerated");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerEnumerated::get_Value

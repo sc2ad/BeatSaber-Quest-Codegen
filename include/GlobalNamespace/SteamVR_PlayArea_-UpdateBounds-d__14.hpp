@@ -101,6 +101,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SteamVR_PlayArea::$UpdateBounds$d__14), 40 + sizeof(Valve::VR::CVRChaperone*)> __GlobalNamespace_SteamVR_PlayArea_$UpdateBounds$d__14SizeCheck;
   static_assert(sizeof(SteamVR_PlayArea::$UpdateBounds$d__14) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::SteamVR_PlayArea::$UpdateBounds$d__14);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_PlayArea::$UpdateBounds$d__14*, "", "SteamVR_PlayArea/<UpdateBounds>d__14");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_PlayArea::$UpdateBounds$d__14::System_Collections_Generic_IEnumerator$System_Object$_get_Current

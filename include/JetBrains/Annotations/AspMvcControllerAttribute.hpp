@@ -67,6 +67,7 @@ namespace JetBrains::Annotations {
   static check_size<sizeof(AspMvcControllerAttribute), 16 + sizeof(::Il2CppString*)> __JetBrains_Annotations_AspMvcControllerAttributeSizeCheck;
   static_assert(sizeof(AspMvcControllerAttribute) == 0x18);
 }
+NEED_NO_BOX(JetBrains::Annotations::AspMvcControllerAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::AspMvcControllerAttribute*, "JetBrains.Annotations", "AspMvcControllerAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: JetBrains::Annotations::AspMvcControllerAttribute::get_AnonymousProperty

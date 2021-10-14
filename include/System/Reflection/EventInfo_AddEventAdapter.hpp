@@ -51,6 +51,7 @@ namespace System::Reflection {
   }; // System.Reflection.EventInfo/System.Reflection.AddEventAdapter
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Reflection::EventInfo::AddEventAdapter);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::EventInfo::AddEventAdapter*, "System.Reflection", "EventInfo/AddEventAdapter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::EventInfo::AddEventAdapter::New_ctor

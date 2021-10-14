@@ -92,6 +92,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   static check_size<sizeof(AdvancingFront), 32 + sizeof(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*)> __UnityEngine_ProBuilder_Poly2Tri_AdvancingFrontSizeCheck;
   static_assert(sizeof(AdvancingFront) == 0x28);
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::Poly2Tri::AdvancingFront);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::AdvancingFront*, "UnityEngine.ProBuilder.Poly2Tri", "AdvancingFront");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::AdvancingFront::New_ctor

@@ -60,6 +60,7 @@ namespace System::Net::NetworkInformation {
   }; // System.Net.NetworkInformation.LinuxIPInterfaceProperties
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Net::NetworkInformation::LinuxIPInterfaceProperties);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::LinuxIPInterfaceProperties*, "System.Net.NetworkInformation", "LinuxIPInterfaceProperties");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::NetworkInformation::LinuxIPInterfaceProperties::New_ctor

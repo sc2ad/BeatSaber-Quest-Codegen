@@ -86,6 +86,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(StandardLevelGameplayManager::$Start$d__15), 32 + sizeof(GlobalNamespace::StandardLevelGameplayManager*)> __GlobalNamespace_StandardLevelGameplayManager_$Start$d__15SizeCheck;
   static_assert(sizeof(StandardLevelGameplayManager::$Start$d__15) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::StandardLevelGameplayManager::$Start$d__15);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelGameplayManager::$Start$d__15*, "", "StandardLevelGameplayManager/<Start>d__15");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelGameplayManager::$Start$d__15::System_Collections_Generic_IEnumerator$System_Object$_get_Current

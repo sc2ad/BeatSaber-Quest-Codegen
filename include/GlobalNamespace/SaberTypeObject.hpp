@@ -59,6 +59,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SaberTypeObject), 24 + sizeof(GlobalNamespace::SaberType)> __GlobalNamespace_SaberTypeObjectSizeCheck;
   static_assert(sizeof(SaberTypeObject) == 0x1C);
 }
+NEED_NO_BOX(GlobalNamespace::SaberTypeObject);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberTypeObject*, "", "SaberTypeObject");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SaberTypeObject::get_saberType

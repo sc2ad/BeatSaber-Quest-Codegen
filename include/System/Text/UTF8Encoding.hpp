@@ -225,6 +225,7 @@ namespace System::Text {
   static check_size<sizeof(UTF8Encoding), 57 + sizeof(bool)> __System_Text_UTF8EncodingSizeCheck;
   static_assert(sizeof(UTF8Encoding) == 0x3A);
 }
+NEED_NO_BOX(System::Text::UTF8Encoding);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::UTF8Encoding*, "System.Text", "UTF8Encoding");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::UTF8Encoding::New_ctor

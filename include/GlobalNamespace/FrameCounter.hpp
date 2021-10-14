@@ -60,6 +60,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(FrameCounter), 24 + sizeof(int)> __GlobalNamespace_FrameCounterSizeCheck;
   static_assert(sizeof(FrameCounter) == 0x1C);
 }
+NEED_NO_BOX(GlobalNamespace::FrameCounter);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FrameCounter*, "", "FrameCounter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FrameCounter::Update

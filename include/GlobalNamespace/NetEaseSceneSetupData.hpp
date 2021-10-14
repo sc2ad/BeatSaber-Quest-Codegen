@@ -60,6 +60,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(NetEaseSceneSetupData), 16 + sizeof(GlobalNamespace::ScenesTransitionSetupDataSO*)> __GlobalNamespace_NetEaseSceneSetupDataSizeCheck;
   static_assert(sizeof(NetEaseSceneSetupData) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::NetEaseSceneSetupData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetEaseSceneSetupData*, "", "NetEaseSceneSetupData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NetEaseSceneSetupData::get_nextScenesTransitionSetupData

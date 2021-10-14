@@ -100,6 +100,7 @@ namespace System::IO {
   }; // System.IO.TextReader
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::IO::TextReader);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::TextReader*, "System.IO", "TextReader");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::TextReader::_cctor

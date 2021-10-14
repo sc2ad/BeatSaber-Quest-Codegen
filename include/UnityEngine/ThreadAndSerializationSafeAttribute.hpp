@@ -35,6 +35,7 @@ namespace UnityEngine {
   }; // UnityEngine.ThreadAndSerializationSafeAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::ThreadAndSerializationSafeAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ThreadAndSerializationSafeAttribute*, "UnityEngine", "ThreadAndSerializationSafeAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ThreadAndSerializationSafeAttribute::New_ctor

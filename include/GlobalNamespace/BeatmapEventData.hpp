@@ -84,6 +84,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BeatmapEventData), 36 + sizeof(float)> __GlobalNamespace_BeatmapEventDataSizeCheck;
   static_assert(sizeof(BeatmapEventData) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::BeatmapEventData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapEventData*, "", "BeatmapEventData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapEventData::get_nextSameTypeEvent

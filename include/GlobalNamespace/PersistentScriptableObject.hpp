@@ -37,6 +37,7 @@ namespace GlobalNamespace {
   }; // PersistentScriptableObject
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::PersistentScriptableObject);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PersistentScriptableObject*, "", "PersistentScriptableObject");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PersistentScriptableObject::OnEnable

@@ -101,6 +101,7 @@ namespace HMUI {
   static check_size<sizeof(AlphabetScrollbar::$PointerMoveInsideCoroutine$d__18), 40 + sizeof(UnityEngine::EventSystems::PointerEventData*)> __HMUI_AlphabetScrollbar_$PointerMoveInsideCoroutine$d__18SizeCheck;
   static_assert(sizeof(AlphabetScrollbar::$PointerMoveInsideCoroutine$d__18) == 0x30);
 }
+NEED_NO_BOX(HMUI::AlphabetScrollbar::$PointerMoveInsideCoroutine$d__18);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::AlphabetScrollbar::$PointerMoveInsideCoroutine$d__18*, "HMUI", "AlphabetScrollbar/<PointerMoveInsideCoroutine>d__18");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::AlphabetScrollbar::$PointerMoveInsideCoroutine$d__18::System_Collections_Generic_IEnumerator$System_Object$_get_Current

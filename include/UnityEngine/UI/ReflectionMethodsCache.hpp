@@ -113,6 +113,7 @@ namespace UnityEngine::UI {
   static check_size<sizeof(ReflectionMethodsCache), 56 + sizeof(UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback*)> __UnityEngine_UI_ReflectionMethodsCacheSizeCheck;
   static_assert(sizeof(ReflectionMethodsCache) == 0x40);
 }
+NEED_NO_BOX(UnityEngine::UI::ReflectionMethodsCache);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ReflectionMethodsCache*, "UnityEngine.UI", "ReflectionMethodsCache");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::ReflectionMethodsCache::get_Singleton

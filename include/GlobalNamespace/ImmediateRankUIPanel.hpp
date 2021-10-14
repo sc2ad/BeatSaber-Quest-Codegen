@@ -123,6 +123,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ImmediateRankUIPanel), 60 + sizeof(GlobalNamespace::RankModel::Rank)> __GlobalNamespace_ImmediateRankUIPanelSizeCheck;
   static_assert(sizeof(ImmediateRankUIPanel) == 0x40);
 }
+NEED_NO_BOX(GlobalNamespace::ImmediateRankUIPanel);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ImmediateRankUIPanel*, "", "ImmediateRankUIPanel");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ImmediateRankUIPanel::Start

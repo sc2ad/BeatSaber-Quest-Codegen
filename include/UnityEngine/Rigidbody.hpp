@@ -131,6 +131,7 @@ namespace UnityEngine {
   }; // UnityEngine.Rigidbody
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::Rigidbody);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rigidbody*, "UnityEngine", "Rigidbody");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Rigidbody::set_velocity

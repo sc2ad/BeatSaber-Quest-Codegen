@@ -123,6 +123,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(InteractionObject::AnimatorEvent), 48 + sizeof(bool)> __RootMotion_FinalIK_InteractionObject_AnimatorEventSizeCheck;
   static_assert(sizeof(InteractionObject::AnimatorEvent) == 0x31);
 }
+NEED_NO_BOX(RootMotion::FinalIK::InteractionObject::AnimatorEvent);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionObject::AnimatorEvent*, "RootMotion.FinalIK", "InteractionObject/AnimatorEvent");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionObject::AnimatorEvent::Activate

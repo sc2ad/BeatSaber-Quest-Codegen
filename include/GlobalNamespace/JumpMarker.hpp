@@ -81,6 +81,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(JumpMarker), 48 + sizeof(UnityEngine::PropertyName)> __GlobalNamespace_JumpMarkerSizeCheck;
   static_assert(sizeof(JumpMarker) == 0x34);
 }
+NEED_NO_BOX(GlobalNamespace::JumpMarker);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::JumpMarker*, "", "JumpMarker");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::JumpMarker::get_id

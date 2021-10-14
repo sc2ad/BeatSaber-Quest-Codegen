@@ -484,6 +484,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(GameplayRpcManager), 120 + sizeof(System::Action_1<::Il2CppString*>*)> __GlobalNamespace_GameplayRpcManagerSizeCheck;
   static_assert(sizeof(GameplayRpcManager) == 0x80);
 }
+NEED_NO_BOX(GlobalNamespace::GameplayRpcManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayRpcManager*, "", "GameplayRpcManager");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayRpcManager::RpcType, "", "GameplayRpcManager/RpcType");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

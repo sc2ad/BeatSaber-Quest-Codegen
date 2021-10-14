@@ -115,6 +115,7 @@ namespace System::Runtime::Remoting {
   static check_size<sizeof(ChannelData), 64 + sizeof(System::Collections::Hashtable*)> __System_Runtime_Remoting_ChannelDataSizeCheck;
   static_assert(sizeof(ChannelData) == 0x48);
 }
+NEED_NO_BOX(System::Runtime::Remoting::ChannelData);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::ChannelData*, "System.Runtime.Remoting", "ChannelData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::ChannelData::get_ServerProviders

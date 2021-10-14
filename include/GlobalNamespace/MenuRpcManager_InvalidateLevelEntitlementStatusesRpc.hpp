@@ -35,6 +35,7 @@ namespace GlobalNamespace {
   }; // MenuRpcManager/InvalidateLevelEntitlementStatusesRpc
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::MenuRpcManager::InvalidateLevelEntitlementStatusesRpc);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuRpcManager::InvalidateLevelEntitlementStatusesRpc*, "", "MenuRpcManager/InvalidateLevelEntitlementStatusesRpc");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::InvalidateLevelEntitlementStatusesRpc::New_ctor

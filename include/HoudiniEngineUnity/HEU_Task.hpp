@@ -235,6 +235,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_Task), 40 + sizeof(HoudiniEngineUnity::HEU_Task::TaskCallback*)> __HoudiniEngineUnity_HEU_TaskSizeCheck;
   static_assert(sizeof(HEU_Task) == 0x30);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_Task);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_Task*, "HoudiniEngineUnity", "HEU_Task");
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_Task::TaskStatus, "HoudiniEngineUnity", "HEU_Task/TaskStatus");
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_Task::TaskResult, "HoudiniEngineUnity", "HEU_Task/TaskResult");

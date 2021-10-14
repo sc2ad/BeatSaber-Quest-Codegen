@@ -79,6 +79,7 @@ namespace NUnit::Framework::Internal::Commands {
   static check_size<sizeof(TestMethodCommand), 32 + sizeof(::ArrayW<::Il2CppObject*>)> __NUnit_Framework_Internal_Commands_TestMethodCommandSizeCheck;
   static_assert(sizeof(TestMethodCommand) == 0x28);
 }
+NEED_NO_BOX(NUnit::Framework::Internal::Commands::TestMethodCommand);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Commands::TestMethodCommand*, "NUnit.Framework.Internal.Commands", "TestMethodCommand");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Commands::TestMethodCommand::New_ctor

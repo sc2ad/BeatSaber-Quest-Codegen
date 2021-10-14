@@ -96,6 +96,7 @@ namespace Org::BouncyCastle::Asn1 {
   static check_size<sizeof(Asn1OctetString), 16 + sizeof(::ArrayW<uint8_t>)> __Org_BouncyCastle_Asn1_Asn1OctetStringSizeCheck;
   static_assert(sizeof(Asn1OctetString) == 0x18);
 }
+NEED_NO_BOX(Org::BouncyCastle::Asn1::Asn1OctetString);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Asn1OctetString*, "Org.BouncyCastle.Asn1", "Asn1OctetString");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1OctetString::New_ctor

@@ -265,6 +265,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SaberBurnMarkArea), 304 + sizeof(UnityEngine::Material*)> __GlobalNamespace_SaberBurnMarkAreaSizeCheck;
   static_assert(sizeof(SaberBurnMarkArea) == 0x138);
 }
+NEED_NO_BOX(GlobalNamespace::SaberBurnMarkArea);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberBurnMarkArea*, "", "SaberBurnMarkArea");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SaberBurnMarkArea::Start

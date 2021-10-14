@@ -67,6 +67,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(Test_MeshRenderer), 16 + sizeof(UnityEngine::MeshRenderer*)> __HoudiniEngineUnity_Test_MeshRendererSizeCheck;
   static_assert(sizeof(Test_MeshRenderer) == 0x18);
 }
+NEED_NO_BOX(HoudiniEngineUnity::Test_MeshRenderer);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::Test_MeshRenderer*, "HoudiniEngineUnity", "Test_MeshRenderer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::Test_MeshRenderer::New_ctor

@@ -176,6 +176,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(AutoSetupController), 88 + sizeof(GlobalNamespace::AutoSetupData*)> __GlobalNamespace_AutoSetupControllerSizeCheck;
   static_assert(sizeof(AutoSetupController) == 0x60);
 }
+NEED_NO_BOX(GlobalNamespace::AutoSetupController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AutoSetupController*, "", "AutoSetupController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AutoSetupController::add_didFinishEvent

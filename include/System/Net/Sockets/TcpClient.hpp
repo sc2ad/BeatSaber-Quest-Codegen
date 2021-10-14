@@ -144,6 +144,7 @@ namespace System::Net::Sockets {
   static check_size<sizeof(TcpClient), 44 + sizeof(bool)> __System_Net_Sockets_TcpClientSizeCheck;
   static_assert(sizeof(TcpClient) == 0x2D);
 }
+NEED_NO_BOX(System::Net::Sockets::TcpClient);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::TcpClient*, "System.Net.Sockets", "TcpClient");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Sockets::TcpClient::get_Client

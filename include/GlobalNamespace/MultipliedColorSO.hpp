@@ -76,6 +76,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultipliedColorSO), 32 + sizeof(UnityEngine::Color)> __GlobalNamespace_MultipliedColorSOSizeCheck;
   static_assert(sizeof(MultipliedColorSO) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::MultipliedColorSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultipliedColorSO*, "", "MultipliedColorSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultipliedColorSO::get_color

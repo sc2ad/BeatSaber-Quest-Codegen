@@ -82,6 +82,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(HapticFeedbackController::RumbleData), 28 + sizeof(float)> __GlobalNamespace_HapticFeedbackController_RumbleDataSizeCheck;
   static_assert(sizeof(HapticFeedbackController::RumbleData) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::HapticFeedbackController::RumbleData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HapticFeedbackController::RumbleData*, "", "HapticFeedbackController/RumbleData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HapticFeedbackController::RumbleData::New_ctor

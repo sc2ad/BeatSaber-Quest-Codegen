@@ -46,6 +46,7 @@ namespace Oculus::Platform {
     Oculus::Platform::Models::UserDataStoreUpdateResponse* GetUserDataStoreUpdateResponse();
   }; // Oculus.Platform.MessageWithUserDataStoreUpdateResponse
 }
+NEED_NO_BOX(Oculus::Platform::MessageWithUserDataStoreUpdateResponse);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithUserDataStoreUpdateResponse*, "Oculus.Platform", "MessageWithUserDataStoreUpdateResponse");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithUserDataStoreUpdateResponse::GetDataFromMessage

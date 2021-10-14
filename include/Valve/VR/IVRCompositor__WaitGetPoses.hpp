@@ -59,6 +59,7 @@ namespace Valve::VR {
   }; // Valve.VR.IVRCompositor/Valve.VR._WaitGetPoses
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::IVRCompositor::_WaitGetPoses);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRCompositor::_WaitGetPoses*, "Valve.VR", "IVRCompositor/_WaitGetPoses");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRCompositor::_WaitGetPoses::New_ctor

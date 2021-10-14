@@ -182,6 +182,7 @@ namespace HMUI {
   static check_size<sizeof(IconSegmentedControl), 152 + sizeof(bool)> __HMUI_IconSegmentedControlSizeCheck;
   static_assert(sizeof(IconSegmentedControl) == 0x99);
 }
+NEED_NO_BOX(HMUI::IconSegmentedControl);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::IconSegmentedControl*, "HMUI", "IconSegmentedControl");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::IconSegmentedControl::Init

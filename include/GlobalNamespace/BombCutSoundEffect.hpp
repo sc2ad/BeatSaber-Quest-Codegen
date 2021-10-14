@@ -107,6 +107,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BombCutSoundEffect), 40 + sizeof(GlobalNamespace::Saber*)> __GlobalNamespace_BombCutSoundEffectSizeCheck;
   static_assert(sizeof(BombCutSoundEffect) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::BombCutSoundEffect);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BombCutSoundEffect*, "", "BombCutSoundEffect");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BombCutSoundEffect::add_didFinishEvent

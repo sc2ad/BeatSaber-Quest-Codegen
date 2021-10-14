@@ -210,6 +210,7 @@ namespace UnityEngine::AddressableAssets {
   static check_size<sizeof(AssetReference), 40 + sizeof(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle)> __UnityEngine_AddressableAssets_AssetReferenceSizeCheck;
   static_assert(sizeof(AssetReference) == 0x40);
 }
+NEED_NO_BOX(UnityEngine::AddressableAssets::AssetReference);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::AssetReference*, "UnityEngine.AddressableAssets", "AssetReference");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AssetReference::get_OperationHandle

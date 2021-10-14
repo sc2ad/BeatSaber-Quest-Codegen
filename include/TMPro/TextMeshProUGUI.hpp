@@ -549,6 +549,7 @@ namespace TMPro {
   }; // TMPro.TextMeshProUGUI
   // WARNING Not writing size check since size may be invalid!
 }
+NEED_NO_BOX(TMPro::TextMeshProUGUI);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TextMeshProUGUI*, "TMPro", "TextMeshProUGUI");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::get_maskOffset

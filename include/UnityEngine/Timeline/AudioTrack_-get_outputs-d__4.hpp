@@ -116,6 +116,7 @@ namespace UnityEngine::Timeline {
   static check_size<sizeof(AudioTrack::$get_outputs$d__4), 64 + sizeof(UnityEngine::Timeline::AudioTrack*)> __UnityEngine_Timeline_AudioTrack_$get_outputs$d__4SizeCheck;
   static_assert(sizeof(AudioTrack::$get_outputs$d__4) == 0x48);
 }
+NEED_NO_BOX(UnityEngine::Timeline::AudioTrack::$get_outputs$d__4);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AudioTrack::$get_outputs$d__4*, "UnityEngine.Timeline", "AudioTrack/<get_outputs>d__4");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::AudioTrack::$get_outputs$d__4::System_Collections_Generic_IEnumerator$UnityEngine_Playables_PlayableBinding$_get_Current

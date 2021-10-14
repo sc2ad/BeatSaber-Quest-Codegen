@@ -128,6 +128,7 @@ namespace System::Security::Cryptography {
   static check_size<sizeof(HashAlgorithm), 36 + sizeof(bool)> __System_Security_Cryptography_HashAlgorithmSizeCheck;
   static_assert(sizeof(HashAlgorithm) == 0x25);
 }
+NEED_NO_BOX(System::Security::Cryptography::HashAlgorithm);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::HashAlgorithm*, "System.Security.Cryptography", "HashAlgorithm");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::HashAlgorithm::get_HashSize

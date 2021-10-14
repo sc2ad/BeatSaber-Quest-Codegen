@@ -181,6 +181,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerLocalInactivePlayerFacade), 64 + sizeof(System::Action_1<GlobalNamespace::PlayerNetworkFailReason>*)> __GlobalNamespace_MultiplayerLocalInactivePlayerFacadeSizeCheck;
   static_assert(sizeof(MultiplayerLocalInactivePlayerFacade) == 0x48);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerLocalInactivePlayerFacade);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalInactivePlayerFacade*, "", "MultiplayerLocalInactivePlayerFacade");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalInactivePlayerFacade::get_songController

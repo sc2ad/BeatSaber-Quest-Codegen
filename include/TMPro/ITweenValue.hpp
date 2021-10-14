@@ -29,6 +29,7 @@ namespace TMPro {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(TMPro::ITweenValue);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::ITweenValue*, "TMPro", "ITweenValue");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::ITweenValue::get_ignoreTimeScale

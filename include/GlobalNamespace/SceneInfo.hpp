@@ -67,6 +67,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SceneInfo), 32 + sizeof(bool)> __GlobalNamespace_SceneInfoSizeCheck;
   static_assert(sizeof(SceneInfo) == 0x21);
 }
+NEED_NO_BOX(GlobalNamespace::SceneInfo);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SceneInfo*, "", "SceneInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SceneInfo::get_sceneName

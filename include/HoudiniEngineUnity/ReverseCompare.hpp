@@ -39,6 +39,7 @@ namespace HoudiniEngineUnity {
   }; // HoudiniEngineUnity.ReverseCompare
   #pragma pack(pop)
 }
+NEED_NO_BOX(HoudiniEngineUnity::ReverseCompare);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::ReverseCompare*, "HoudiniEngineUnity", "ReverseCompare");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::ReverseCompare::Compare

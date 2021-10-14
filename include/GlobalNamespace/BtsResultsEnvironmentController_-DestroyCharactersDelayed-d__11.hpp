@@ -86,6 +86,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BtsResultsEnvironmentController::$DestroyCharactersDelayed$d__11), 32 + sizeof(GlobalNamespace::BtsResultsEnvironmentController*)> __GlobalNamespace_BtsResultsEnvironmentController_$DestroyCharactersDelayed$d__11SizeCheck;
   static_assert(sizeof(BtsResultsEnvironmentController::$DestroyCharactersDelayed$d__11) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::BtsResultsEnvironmentController::$DestroyCharactersDelayed$d__11);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BtsResultsEnvironmentController::$DestroyCharactersDelayed$d__11*, "", "BtsResultsEnvironmentController/<DestroyCharactersDelayed>d__11");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BtsResultsEnvironmentController::$DestroyCharactersDelayed$d__11::System_Collections_Generic_IEnumerator$System_Object$_get_Current

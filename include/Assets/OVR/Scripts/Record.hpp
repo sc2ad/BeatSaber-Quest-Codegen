@@ -52,6 +52,7 @@ namespace Assets::OVR::Scripts {
   static check_size<sizeof(Record), 24 + sizeof(::Il2CppString*)> __Assets_OVR_Scripts_RecordSizeCheck;
   static_assert(sizeof(Record) == 0x20);
 }
+NEED_NO_BOX(Assets::OVR::Scripts::Record);
 DEFINE_IL2CPP_ARG_TYPE(Assets::OVR::Scripts::Record*, "Assets.OVR.Scripts", "Record");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Assets::OVR::Scripts::Record::New_ctor

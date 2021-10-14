@@ -178,6 +178,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BloomPrePassNonLightPass), 28 + sizeof(GlobalNamespace::BloomPrePassNonLightPass::ExecutionTimeType)> __GlobalNamespace_BloomPrePassNonLightPassSizeCheck;
   static_assert(sizeof(BloomPrePassNonLightPass) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::BloomPrePassNonLightPass);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassNonLightPass*, "", "BloomPrePassNonLightPass");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassNonLightPass::ExecutionTimeType, "", "BloomPrePassNonLightPass/ExecutionTimeType");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

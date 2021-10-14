@@ -60,6 +60,7 @@ namespace Valve::VR {
   }; // Valve.VR.IVRTrackedCamera/Valve.VR._GetVideoStreamTextureD3D11
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::IVRTrackedCamera::_GetVideoStreamTextureD3D11);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRTrackedCamera::_GetVideoStreamTextureD3D11*, "Valve.VR", "IVRTrackedCamera/_GetVideoStreamTextureD3D11");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRTrackedCamera::_GetVideoStreamTextureD3D11::New_ctor

@@ -202,6 +202,7 @@ namespace Org::BouncyCastle::Math::EC {
   static check_size<sizeof(F2mFieldElement), 32 + sizeof(Org::BouncyCastle::Math::EC::LongArray*)> __Org_BouncyCastle_Math_EC_F2mFieldElementSizeCheck;
   static_assert(sizeof(F2mFieldElement) == 0x28);
 }
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::F2mFieldElement);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::F2mFieldElement*, "Org.BouncyCastle.Math.EC", "F2mFieldElement");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::F2mFieldElement::New_ctor

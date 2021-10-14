@@ -244,6 +244,7 @@ namespace Oculus::Platform::Models {
   static check_size<sizeof(Room), 168 + sizeof(uint)> __Oculus_Platform_Models_RoomSizeCheck;
   static_assert(sizeof(Room) == 0xAC);
 }
+NEED_NO_BOX(Oculus::Platform::Models::Room);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::Room*, "Oculus.Platform.Models", "Room");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::Room::New_ctor

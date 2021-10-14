@@ -142,6 +142,7 @@ namespace VRUIControls {
   static check_size<sizeof(PhysicsRaycasterWithCache), 24 + sizeof(int)> __VRUIControls_PhysicsRaycasterWithCacheSizeCheck;
   static_assert(sizeof(PhysicsRaycasterWithCache) == 0x1C);
 }
+NEED_NO_BOX(VRUIControls::PhysicsRaycasterWithCache);
 DEFINE_IL2CPP_ARG_TYPE(VRUIControls::PhysicsRaycasterWithCache*, "VRUIControls", "PhysicsRaycasterWithCache");
 DEFINE_IL2CPP_ARG_TYPE(VRUIControls::PhysicsRaycasterWithCache::CachedRaycast, "VRUIControls", "PhysicsRaycasterWithCache/CachedRaycast");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

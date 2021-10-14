@@ -36,6 +36,7 @@ namespace Org::BouncyCastle::Asn1::X9 {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(Org::BouncyCastle::Asn1::X9::ECNamedCurveTable);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X9::ECNamedCurveTable*, "Org.BouncyCastle.Asn1.X9", "ECNamedCurveTable");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X9::ECNamedCurveTable::GetByName

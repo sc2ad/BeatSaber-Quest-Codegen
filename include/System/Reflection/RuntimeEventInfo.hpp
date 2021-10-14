@@ -83,6 +83,7 @@ namespace System::Reflection {
   }; // System.Reflection.RuntimeEventInfo
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Reflection::RuntimeEventInfo);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::RuntimeEventInfo*, "System.Reflection", "RuntimeEventInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::RuntimeEventInfo::get_BindingFlags

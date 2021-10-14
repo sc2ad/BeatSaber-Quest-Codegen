@@ -46,6 +46,7 @@ namespace Org::BouncyCastle::Security {
   }; // Org.BouncyCastle.Security.InvalidKeyException
   #pragma pack(pop)
 }
+NEED_NO_BOX(Org::BouncyCastle::Security::InvalidKeyException);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Security::InvalidKeyException*, "Org.BouncyCastle.Security", "InvalidKeyException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Security::InvalidKeyException::New_ctor

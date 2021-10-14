@@ -43,6 +43,7 @@ namespace TMPro::SpriteAssetUtilities {
   }; // TMPro.SpriteAssetUtilities.TexturePacker
   #pragma pack(pop)
 }
+NEED_NO_BOX(TMPro::SpriteAssetUtilities::TexturePacker);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::SpriteAssetUtilities::TexturePacker*, "TMPro.SpriteAssetUtilities", "TexturePacker");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::SpriteAssetUtilities::TexturePacker::New_ctor

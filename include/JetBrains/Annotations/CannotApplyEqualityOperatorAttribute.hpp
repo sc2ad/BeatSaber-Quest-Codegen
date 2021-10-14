@@ -34,6 +34,7 @@ namespace JetBrains::Annotations {
   }; // JetBrains.Annotations.CannotApplyEqualityOperatorAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(JetBrains::Annotations::CannotApplyEqualityOperatorAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::CannotApplyEqualityOperatorAttribute*, "JetBrains.Annotations", "CannotApplyEqualityOperatorAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: JetBrains::Annotations::CannotApplyEqualityOperatorAttribute::New_ctor

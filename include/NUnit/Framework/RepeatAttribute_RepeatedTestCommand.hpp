@@ -52,6 +52,7 @@ namespace NUnit::Framework {
   static_assert(sizeof(RepeatAttribute::RepeatedTestCommand) == 0x24);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(NUnit::Framework::RepeatAttribute::RepeatedTestCommand);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::RepeatAttribute::RepeatedTestCommand*, "NUnit.Framework", "RepeatAttribute/RepeatedTestCommand");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::RepeatAttribute::RepeatedTestCommand::Execute

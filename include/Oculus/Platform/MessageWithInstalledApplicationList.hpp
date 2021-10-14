@@ -46,6 +46,7 @@ namespace Oculus::Platform {
     Oculus::Platform::Models::InstalledApplicationList* GetInstalledApplicationList();
   }; // Oculus.Platform.MessageWithInstalledApplicationList
 }
+NEED_NO_BOX(Oculus::Platform::MessageWithInstalledApplicationList);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithInstalledApplicationList*, "Oculus.Platform", "MessageWithInstalledApplicationList");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithInstalledApplicationList::GetDataFromMessage

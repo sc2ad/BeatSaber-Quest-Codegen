@@ -93,6 +93,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PerceivedLoudnessPerLevelModel), 16 + sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, float>*)> __GlobalNamespace_PerceivedLoudnessPerLevelModelSizeCheck;
   static_assert(sizeof(PerceivedLoudnessPerLevelModel) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::PerceivedLoudnessPerLevelModel);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PerceivedLoudnessPerLevelModel*, "", "PerceivedLoudnessPerLevelModel");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PerceivedLoudnessPerLevelModel::New_ctor

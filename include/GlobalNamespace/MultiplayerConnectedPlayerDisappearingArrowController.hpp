@@ -60,6 +60,7 @@ namespace GlobalNamespace {
   }; // MultiplayerConnectedPlayerDisappearingArrowController
   // WARNING Not writing size check since size may be invalid!
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerConnectedPlayerDisappearingArrowController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerDisappearingArrowController*, "", "MultiplayerConnectedPlayerDisappearingArrowController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerDisappearingArrowController::get_gameNoteController

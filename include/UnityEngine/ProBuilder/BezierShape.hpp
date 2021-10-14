@@ -152,6 +152,7 @@ namespace UnityEngine::ProBuilder {
   static check_size<sizeof(BezierShape), 56 + sizeof(UnityEngine::ProBuilder::ProBuilderMesh*)> __UnityEngine_ProBuilder_BezierShapeSizeCheck;
   static_assert(sizeof(BezierShape) == 0x40);
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::BezierShape);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::BezierShape*, "UnityEngine.ProBuilder", "BezierShape");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::BezierShape::get_isEditing

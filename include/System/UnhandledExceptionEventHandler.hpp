@@ -51,6 +51,7 @@ namespace System {
   }; // System.UnhandledExceptionEventHandler
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::UnhandledExceptionEventHandler);
 DEFINE_IL2CPP_ARG_TYPE(System::UnhandledExceptionEventHandler*, "System", "UnhandledExceptionEventHandler");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::UnhandledExceptionEventHandler::New_ctor

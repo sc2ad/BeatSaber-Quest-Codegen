@@ -68,6 +68,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OculusPlatformAchievementHandler::$$c__DisplayClass3_1), 16 + sizeof(Oculus::Platform::Models::AchievementProgress*)> __GlobalNamespace_OculusPlatformAchievementHandler_$$c__DisplayClass3_1SizeCheck;
   static_assert(sizeof(OculusPlatformAchievementHandler::$$c__DisplayClass3_1) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::OculusPlatformAchievementHandler::$$c__DisplayClass3_1);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformAchievementHandler::$$c__DisplayClass3_1*, "", "OculusPlatformAchievementHandler/<>c__DisplayClass3_1");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OculusPlatformAchievementHandler::$$c__DisplayClass3_1::$GetUnlockedAchievements$b__1

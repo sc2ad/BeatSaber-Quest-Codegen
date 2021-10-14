@@ -34,6 +34,7 @@ namespace JetBrains::Annotations {
   }; // JetBrains.Annotations.AspMvcActionSelectorAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(JetBrains::Annotations::AspMvcActionSelectorAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::AspMvcActionSelectorAttribute*, "JetBrains.Annotations", "AspMvcActionSelectorAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: JetBrains::Annotations::AspMvcActionSelectorAttribute::New_ctor

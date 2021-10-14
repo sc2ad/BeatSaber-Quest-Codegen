@@ -319,6 +319,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LevelFilterParams), 100 + sizeof(float)> __GlobalNamespace_LevelFilterParamsSizeCheck;
   static_assert(sizeof(LevelFilterParams) == 0x68);
 }
+NEED_NO_BOX(GlobalNamespace::LevelFilterParams);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelFilterParams*, "", "LevelFilterParams");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LevelFilterParams::get_filterByLevelIds

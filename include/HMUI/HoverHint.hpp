@@ -122,6 +122,7 @@ namespace HMUI {
   static check_size<sizeof(HoverHint), 40 + sizeof(::ArrayW<UnityEngine::Vector3>)> __HMUI_HoverHintSizeCheck;
   static_assert(sizeof(HoverHint) == 0x30);
 }
+NEED_NO_BOX(HMUI::HoverHint);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::HoverHint*, "HMUI", "HoverHint");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::HoverHint::get_text

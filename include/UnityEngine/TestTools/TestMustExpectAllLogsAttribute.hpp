@@ -44,6 +44,7 @@ namespace UnityEngine::TestTools {
   static_assert(sizeof(TestMustExpectAllLogsAttribute) == 0x11);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::TestTools::TestMustExpectAllLogsAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestMustExpectAllLogsAttribute*, "UnityEngine.TestTools", "TestMustExpectAllLogsAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestMustExpectAllLogsAttribute::get_MustExpect

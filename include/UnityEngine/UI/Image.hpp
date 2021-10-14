@@ -625,6 +625,7 @@ namespace UnityEngine::UI {
   static check_size<sizeof(Image), 244 + sizeof(float)> __UnityEngine_UI_ImageSizeCheck;
   static_assert(sizeof(Image) == 0xF8);
 }
+NEED_NO_BOX(UnityEngine::UI::Image);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Image*, "UnityEngine.UI", "Image");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Image::Type, "UnityEngine.UI", "Image/Type");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Image::FillMethod, "UnityEngine.UI", "Image/FillMethod");

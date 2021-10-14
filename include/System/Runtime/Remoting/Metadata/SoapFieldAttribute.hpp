@@ -71,6 +71,7 @@ namespace System::Runtime::Remoting::Metadata {
   static check_size<sizeof(SoapFieldAttribute), 48 + sizeof(bool)> __System_Runtime_Remoting_Metadata_SoapFieldAttributeSizeCheck;
   static_assert(sizeof(SoapFieldAttribute) == 0x31);
 }
+NEED_NO_BOX(System::Runtime::Remoting::Metadata::SoapFieldAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Metadata::SoapFieldAttribute*, "System.Runtime.Remoting.Metadata", "SoapFieldAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Metadata::SoapFieldAttribute::get_XmlElementName

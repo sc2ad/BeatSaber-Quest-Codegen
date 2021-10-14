@@ -53,6 +53,7 @@ namespace System::Collections {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Collections::IDictionary);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::IDictionary*, "System.Collections", "IDictionary");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::IDictionary::get_Item

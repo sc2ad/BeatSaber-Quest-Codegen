@@ -90,6 +90,7 @@ namespace OVR::OpenVR {
   static check_size<sizeof(CVRScreenshots), 16 + sizeof(OVR::OpenVR::IVRScreenshots)> __OVR_OpenVR_CVRScreenshotsSizeCheck;
   static_assert(sizeof(CVRScreenshots) == 0x48);
 }
+NEED_NO_BOX(OVR::OpenVR::CVRScreenshots);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRScreenshots*, "OVR.OpenVR", "CVRScreenshots");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::CVRScreenshots::New_ctor

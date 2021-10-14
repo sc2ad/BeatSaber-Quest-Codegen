@@ -257,6 +257,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LocalLeaderboardsModel), 64 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::LeaderboardData*>*)> __GlobalNamespace_LocalLeaderboardsModelSizeCheck;
   static_assert(sizeof(LocalLeaderboardsModel) == 0x48);
 }
+NEED_NO_BOX(GlobalNamespace::LocalLeaderboardsModel);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalLeaderboardsModel*, "", "LocalLeaderboardsModel");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalLeaderboardsModel::LeaderboardType, "", "LocalLeaderboardsModel/LeaderboardType");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -53,6 +53,7 @@ namespace Assets::OVR::Scripts {
   }; // Assets.OVR.Scripts.FixMethodDelegate
   #pragma pack(pop)
 }
+NEED_NO_BOX(Assets::OVR::Scripts::FixMethodDelegate);
 DEFINE_IL2CPP_ARG_TYPE(Assets::OVR::Scripts::FixMethodDelegate*, "Assets.OVR.Scripts", "FixMethodDelegate");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Assets::OVR::Scripts::FixMethodDelegate::New_ctor

@@ -91,6 +91,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PS4OnGoingToBackgroundSaveHandler), 40 + sizeof(GlobalNamespace::PlayerDataModel*)> __GlobalNamespace_PS4OnGoingToBackgroundSaveHandlerSizeCheck;
   static_assert(sizeof(PS4OnGoingToBackgroundSaveHandler) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::PS4OnGoingToBackgroundSaveHandler);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4OnGoingToBackgroundSaveHandler*, "", "PS4OnGoingToBackgroundSaveHandler");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PS4OnGoingToBackgroundSaveHandler::OnEnable

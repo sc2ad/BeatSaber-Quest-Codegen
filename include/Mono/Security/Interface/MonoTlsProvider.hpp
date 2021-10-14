@@ -100,6 +100,7 @@ namespace Mono::Security::Interface {
   }; // Mono.Security.Interface.MonoTlsProvider
   #pragma pack(pop)
 }
+NEED_NO_BOX(Mono::Security::Interface::MonoTlsProvider);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::MonoTlsProvider*, "Mono.Security.Interface", "MonoTlsProvider");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Security::Interface::MonoTlsProvider::get_ID

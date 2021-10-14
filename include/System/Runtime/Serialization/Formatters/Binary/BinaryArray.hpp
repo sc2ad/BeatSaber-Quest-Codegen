@@ -144,6 +144,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   static check_size<sizeof(BinaryArray), 64 + sizeof(System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum)> __System_Runtime_Serialization_Formatters_Binary_BinaryArraySizeCheck;
   static_assert(sizeof(BinaryArray) == 0x44);
 }
+NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::BinaryArray);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::BinaryArray*, "System.Runtime.Serialization.Formatters.Binary", "BinaryArray");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::BinaryArray::New_ctor

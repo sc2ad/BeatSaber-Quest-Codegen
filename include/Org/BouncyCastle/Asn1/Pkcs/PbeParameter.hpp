@@ -87,6 +87,7 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
   static check_size<sizeof(PbeParameter), 24 + sizeof(Org::BouncyCastle::Asn1::DerInteger*)> __Org_BouncyCastle_Asn1_Pkcs_PbeParameterSizeCheck;
   static_assert(sizeof(PbeParameter) == 0x20);
 }
+NEED_NO_BOX(Org::BouncyCastle::Asn1::Pkcs::PbeParameter);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Pkcs::PbeParameter*, "Org.BouncyCastle.Asn1.Pkcs", "PbeParameter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::PbeParameter::get_IterationCount

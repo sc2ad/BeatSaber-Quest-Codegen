@@ -81,6 +81,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MissionSelectionNavigationController::$$c__DisplayClass11_0), 32 + sizeof(System::Action*)> __GlobalNamespace_MissionSelectionNavigationController_$$c__DisplayClass11_0SizeCheck;
   static_assert(sizeof(MissionSelectionNavigationController::$$c__DisplayClass11_0) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::MissionSelectionNavigationController::$$c__DisplayClass11_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionSelectionNavigationController::$$c__DisplayClass11_0*, "", "MissionSelectionNavigationController/<>c__DisplayClass11_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionSelectionNavigationController::$$c__DisplayClass11_0::$PresentMissionClearedIfNeeded$b__0

@@ -286,6 +286,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(AdditionalContentModel), 32 + sizeof(System::Action*)> __GlobalNamespace_AdditionalContentModelSizeCheck;
   static_assert(sizeof(AdditionalContentModel) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::AdditionalContentModel);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AdditionalContentModel*, "", "AdditionalContentModel");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AdditionalContentModel::EntitlementStatus, "", "AdditionalContentModel/EntitlementStatus");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AdditionalContentModel::OpenProductStoreResult, "", "AdditionalContentModel/OpenProductStoreResult");

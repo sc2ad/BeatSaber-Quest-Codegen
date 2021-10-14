@@ -69,6 +69,7 @@ namespace Mono::Net {
   }; // Mono.Net.CFRunLoop
   #pragma pack(pop)
 }
+NEED_NO_BOX(Mono::Net::CFRunLoop);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFRunLoop*, "Mono.Net", "CFRunLoop");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Net::CFRunLoop::get_CurrentRunLoop

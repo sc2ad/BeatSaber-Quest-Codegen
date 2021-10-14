@@ -44,6 +44,7 @@ namespace System::Net::Configuration {
   }; // System.Net.Configuration.ServicePointManagerElement
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Net::Configuration::ServicePointManagerElement);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Configuration::ServicePointManagerElement*, "System.Net.Configuration", "ServicePointManagerElement");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Configuration::ServicePointManagerElement::get_Properties

@@ -82,6 +82,7 @@ namespace System::Runtime::Remoting {
   static check_size<sizeof(ClientIdentity), 72 + sizeof(System::WeakReference*)> __System_Runtime_Remoting_ClientIdentitySizeCheck;
   static_assert(sizeof(ClientIdentity) == 0x50);
 }
+NEED_NO_BOX(System::Runtime::Remoting::ClientIdentity);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::ClientIdentity*, "System.Runtime.Remoting", "ClientIdentity");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::ClientIdentity::get_ClientProxy

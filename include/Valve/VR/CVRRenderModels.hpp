@@ -128,6 +128,7 @@ namespace Valve::VR {
   static check_size<sizeof(CVRRenderModels), 16 + sizeof(Valve::VR::IVRRenderModels)> __Valve_VR_CVRRenderModelsSizeCheck;
   static_assert(sizeof(CVRRenderModels) == 0xA0);
 }
+NEED_NO_BOX(Valve::VR::CVRRenderModels);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRRenderModels*, "Valve.VR", "CVRRenderModels");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::CVRRenderModels::New_ctor

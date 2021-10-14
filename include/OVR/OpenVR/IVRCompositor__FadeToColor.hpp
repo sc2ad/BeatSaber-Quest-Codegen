@@ -51,6 +51,7 @@ namespace OVR::OpenVR {
   }; // OVR.OpenVR.IVRCompositor/OVR.OpenVR._FadeToColor
   #pragma pack(pop)
 }
+NEED_NO_BOX(OVR::OpenVR::IVRCompositor::_FadeToColor);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRCompositor::_FadeToColor*, "OVR.OpenVR", "IVRCompositor/_FadeToColor");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVRCompositor::_FadeToColor::New_ctor

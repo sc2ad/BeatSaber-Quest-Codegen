@@ -33,6 +33,7 @@ namespace System::Reflection {
   }; // System.Reflection.RuntimeModule
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Reflection::RuntimeModule);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::RuntimeModule*, "System.Reflection", "RuntimeModule");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::RuntimeModule::New_ctor

@@ -57,6 +57,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRWaitCursor), 24 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_OVRWaitCursorSizeCheck;
   static_assert(sizeof(OVRWaitCursor) == 0x24);
 }
+NEED_NO_BOX(GlobalNamespace::OVRWaitCursor);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRWaitCursor*, "", "OVRWaitCursor");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRWaitCursor::Update

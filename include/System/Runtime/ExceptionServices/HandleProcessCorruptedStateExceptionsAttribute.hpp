@@ -34,6 +34,7 @@ namespace System::Runtime::ExceptionServices {
   }; // System.Runtime.ExceptionServices.HandleProcessCorruptedStateExceptionsAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Runtime::ExceptionServices::HandleProcessCorruptedStateExceptionsAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::ExceptionServices::HandleProcessCorruptedStateExceptionsAttribute*, "System.Runtime.ExceptionServices", "HandleProcessCorruptedStateExceptionsAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::ExceptionServices::HandleProcessCorruptedStateExceptionsAttribute::New_ctor

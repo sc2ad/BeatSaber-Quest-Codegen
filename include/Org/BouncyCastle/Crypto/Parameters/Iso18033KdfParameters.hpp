@@ -48,6 +48,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   static_assert(sizeof(Iso18033KdfParameters) == 0x18);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Parameters::Iso18033KdfParameters);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::Iso18033KdfParameters*, "Org.BouncyCastle.Crypto.Parameters", "Iso18033KdfParameters");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::Iso18033KdfParameters::GetSeed

@@ -72,6 +72,7 @@ namespace Org::BouncyCastle::Asn1 {
   }; // Org.BouncyCastle.Asn1.Asn1Object
   #pragma pack(pop)
 }
+NEED_NO_BOX(Org::BouncyCastle::Asn1::Asn1Object);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Asn1Object*, "Org.BouncyCastle.Asn1", "Asn1Object");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1Object::FromByteArray

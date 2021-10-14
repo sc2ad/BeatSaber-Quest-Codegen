@@ -54,6 +54,7 @@ namespace OVR::OpenVR {
   }; // OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._SetWorkingCollisionBoundsInfo
   #pragma pack(pop)
 }
+NEED_NO_BOX(OVR::OpenVR::IVRChaperoneSetup::_SetWorkingCollisionBoundsInfo);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRChaperoneSetup::_SetWorkingCollisionBoundsInfo*, "OVR.OpenVR", "IVRChaperoneSetup/_SetWorkingCollisionBoundsInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVRChaperoneSetup::_SetWorkingCollisionBoundsInfo::New_ctor

@@ -123,6 +123,7 @@ namespace System::Net::Http::Headers {
   static check_size<sizeof(EntityTagHeaderValue), 24 + sizeof(::Il2CppString*)> __System_Net_Http_Headers_EntityTagHeaderValueSizeCheck;
   static_assert(sizeof(EntityTagHeaderValue) == 0x20);
 }
+NEED_NO_BOX(System::Net::Http::Headers::EntityTagHeaderValue);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::EntityTagHeaderValue*, "System.Net.Http.Headers", "EntityTagHeaderValue");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Http::Headers::EntityTagHeaderValue::get_IsWeak

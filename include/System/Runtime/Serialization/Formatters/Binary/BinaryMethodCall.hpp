@@ -117,6 +117,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   static check_size<sizeof(BinaryMethodCall), 60 + sizeof(System::Runtime::Serialization::Formatters::Binary::MessageEnum)> __System_Runtime_Serialization_Formatters_Binary_BinaryMethodCallSizeCheck;
   static_assert(sizeof(BinaryMethodCall) == 0x40);
 }
+NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall*, "System.Runtime.Serialization.Formatters.Binary", "BinaryMethodCall");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall::Write

@@ -46,6 +46,7 @@ namespace Oculus::Platform {
     Oculus::Platform::Models::LaunchInvitePanelFlowResult* GetLaunchInvitePanelFlowResult();
   }; // Oculus.Platform.MessageWithLaunchInvitePanelFlowResult
 }
+NEED_NO_BOX(Oculus::Platform::MessageWithLaunchInvitePanelFlowResult);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithLaunchInvitePanelFlowResult*, "Oculus.Platform", "MessageWithLaunchInvitePanelFlowResult");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithLaunchInvitePanelFlowResult::GetDataFromMessage

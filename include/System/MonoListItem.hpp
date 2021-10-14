@@ -54,6 +54,7 @@ namespace System {
   static check_size<sizeof(MonoListItem), 24 + sizeof(::Il2CppObject*)> __System_MonoListItemSizeCheck;
   static_assert(sizeof(MonoListItem) == 0x20);
 }
+NEED_NO_BOX(System::MonoListItem);
 DEFINE_IL2CPP_ARG_TYPE(System::MonoListItem*, "System", "MonoListItem");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::MonoListItem::New_ctor

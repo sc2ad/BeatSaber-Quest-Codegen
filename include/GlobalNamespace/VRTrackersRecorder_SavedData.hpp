@@ -60,6 +60,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(VRTrackersRecorder::SavedData), 16 + sizeof(::ArrayW<GlobalNamespace::VRTrackersRecorder::SavedData::KeyframeSerializable*>)> __GlobalNamespace_VRTrackersRecorder_SavedDataSizeCheck;
   static_assert(sizeof(VRTrackersRecorder::SavedData) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::VRTrackersRecorder::SavedData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRTrackersRecorder::SavedData*, "", "VRTrackersRecorder/SavedData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::VRTrackersRecorder::SavedData::New_ctor

@@ -64,6 +64,7 @@ namespace Zenject {
   static check_size<sizeof(InjectTypeInfo::InjectMemberInfo), 24 + sizeof(Zenject::InjectableInfo*)> __Zenject_InjectTypeInfo_InjectMemberInfoSizeCheck;
   static_assert(sizeof(InjectTypeInfo::InjectMemberInfo) == 0x20);
 }
+NEED_NO_BOX(Zenject::InjectTypeInfo::InjectMemberInfo);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::InjectTypeInfo::InjectMemberInfo*, "Zenject", "InjectTypeInfo/InjectMemberInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::InjectTypeInfo::InjectMemberInfo::New_ctor

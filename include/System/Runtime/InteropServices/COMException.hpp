@@ -59,6 +59,7 @@ namespace System::Runtime::InteropServices {
   }; // System.Runtime.InteropServices.COMException
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Runtime::InteropServices::COMException);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::COMException*, "System.Runtime.InteropServices", "COMException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::InteropServices::COMException::New_ctor

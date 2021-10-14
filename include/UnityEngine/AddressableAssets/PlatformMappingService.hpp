@@ -61,6 +61,7 @@ namespace UnityEngine::AddressableAssets {
   }; // UnityEngine.AddressableAssets.PlatformMappingService
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::AddressableAssets::PlatformMappingService);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::PlatformMappingService*, "UnityEngine.AddressableAssets", "PlatformMappingService");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::PlatformMappingService::_cctor

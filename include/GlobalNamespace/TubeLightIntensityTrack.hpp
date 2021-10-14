@@ -37,6 +37,7 @@ namespace GlobalNamespace {
     }
   }; // TubeLightIntensityTrack
 }
+NEED_NO_BOX(GlobalNamespace::TubeLightIntensityTrack);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TubeLightIntensityTrack*, "", "TubeLightIntensityTrack");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TubeLightIntensityTrack::New_ctor

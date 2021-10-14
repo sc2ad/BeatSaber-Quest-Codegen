@@ -134,6 +134,7 @@ namespace Org::BouncyCastle::Crypto::Macs {
   static check_size<sizeof(HMac), 56 + sizeof(::ArrayW<uint8_t>)> __Org_BouncyCastle_Crypto_Macs_HMacSizeCheck;
   static_assert(sizeof(HMac) == 0x40);
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Macs::HMac);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Macs::HMac*, "Org.BouncyCastle.Crypto.Macs", "HMac");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Macs::HMac::New_ctor

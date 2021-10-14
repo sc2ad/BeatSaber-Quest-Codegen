@@ -96,6 +96,7 @@ namespace UnityEngine::EventSystems {
   }; // UnityEngine.EventSystems.BaseInput
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::EventSystems::BaseInput);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::BaseInput*, "UnityEngine.EventSystems", "BaseInput");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::EventSystems::BaseInput::get_compositionString

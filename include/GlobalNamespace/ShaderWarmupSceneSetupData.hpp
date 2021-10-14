@@ -63,6 +63,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ShaderWarmupSceneSetupData), 16 + sizeof(GlobalNamespace::ScenesTransitionSetupDataSO*)> __GlobalNamespace_ShaderWarmupSceneSetupDataSizeCheck;
   static_assert(sizeof(ShaderWarmupSceneSetupData) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::ShaderWarmupSceneSetupData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShaderWarmupSceneSetupData*, "", "ShaderWarmupSceneSetupData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ShaderWarmupSceneSetupData::get_nextScenesTransitionSetupData

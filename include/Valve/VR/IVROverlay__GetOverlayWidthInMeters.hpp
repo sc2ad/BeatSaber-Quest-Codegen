@@ -56,6 +56,7 @@ namespace Valve::VR {
   }; // Valve.VR.IVROverlay/Valve.VR._GetOverlayWidthInMeters
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::IVROverlay::_GetOverlayWidthInMeters);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVROverlay::_GetOverlayWidthInMeters*, "Valve.VR", "IVROverlay/_GetOverlayWidthInMeters");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVROverlay::_GetOverlayWidthInMeters::New_ctor

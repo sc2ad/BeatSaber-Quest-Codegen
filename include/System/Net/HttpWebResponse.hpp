@@ -243,6 +243,7 @@ namespace System::Net {
   static check_size<sizeof(HttpWebResponse), 112 + sizeof(System::IO::Stream*)> __System_Net_HttpWebResponseSizeCheck;
   static_assert(sizeof(HttpWebResponse) == 0x78);
 }
+NEED_NO_BOX(System::Net::HttpWebResponse);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpWebResponse*, "System.Net", "HttpWebResponse");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::HttpWebResponse::get_StatusCode

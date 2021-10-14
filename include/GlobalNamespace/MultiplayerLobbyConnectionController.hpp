@@ -324,6 +324,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerLobbyConnectionController), 72 + sizeof(int)> __GlobalNamespace_MultiplayerLobbyConnectionControllerSizeCheck;
   static_assert(sizeof(MultiplayerLobbyConnectionController) == 0x4C);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerLobbyConnectionController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLobbyConnectionController*, "", "MultiplayerLobbyConnectionController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionState, "", "MultiplayerLobbyConnectionController/LobbyConnectionState");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType, "", "MultiplayerLobbyConnectionController/LobbyConnectionType");

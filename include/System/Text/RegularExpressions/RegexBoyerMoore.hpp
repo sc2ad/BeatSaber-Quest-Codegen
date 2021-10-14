@@ -132,6 +132,7 @@ namespace System::Text::RegularExpressions {
   static check_size<sizeof(RegexBoyerMoore), 64 + sizeof(System::Globalization::CultureInfo*)> __System_Text_RegularExpressions_RegexBoyerMooreSizeCheck;
   static_assert(sizeof(RegexBoyerMoore) == 0x48);
 }
+NEED_NO_BOX(System::Text::RegularExpressions::RegexBoyerMoore);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexBoyerMoore*, "System.Text.RegularExpressions", "RegexBoyerMoore");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexBoyerMoore::New_ctor

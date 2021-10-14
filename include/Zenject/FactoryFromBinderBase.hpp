@@ -225,6 +225,7 @@ namespace Zenject {
   static check_size<sizeof(FactoryFromBinderBase), 48 + sizeof(System::Type*)> __Zenject_FactoryFromBinderBaseSizeCheck;
   static_assert(sizeof(FactoryFromBinderBase) == 0x38);
 }
+NEED_NO_BOX(Zenject::FactoryFromBinderBase);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::FactoryFromBinderBase*, "Zenject", "FactoryFromBinderBase");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::FactoryFromBinderBase::get_BindContainer

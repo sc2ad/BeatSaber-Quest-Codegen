@@ -631,6 +631,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerSessionManager), 176 + sizeof(GlobalNamespace::ConnectedPlayerManager*)> __GlobalNamespace_MultiplayerSessionManagerSizeCheck;
   static_assert(sizeof(MultiplayerSessionManager) == 0xB8);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerSessionManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerSessionManager*, "", "MultiplayerSessionManager");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerSessionManager::SessionType, "", "MultiplayerSessionManager/SessionType");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerSessionManager::ConnectionState, "", "MultiplayerSessionManager/ConnectionState");

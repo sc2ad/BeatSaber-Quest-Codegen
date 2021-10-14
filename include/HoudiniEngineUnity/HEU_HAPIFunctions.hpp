@@ -18,5 +18,6 @@ namespace HoudiniEngineUnity {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(HoudiniEngineUnity::HEU_HAPIFunctions);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_HAPIFunctions*, "HoudiniEngineUnity", "HEU_HAPIFunctions");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

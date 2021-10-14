@@ -34,6 +34,7 @@ namespace UnityEngine {
   }; // UnityEngine.SerializeField
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::SerializeField);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SerializeField*, "UnityEngine", "SerializeField");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::SerializeField::New_ctor

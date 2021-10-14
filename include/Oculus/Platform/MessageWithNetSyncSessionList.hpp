@@ -46,6 +46,7 @@ namespace Oculus::Platform {
     Oculus::Platform::Models::NetSyncSessionList* GetNetSyncSessionList();
   }; // Oculus.Platform.MessageWithNetSyncSessionList
 }
+NEED_NO_BOX(Oculus::Platform::MessageWithNetSyncSessionList);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithNetSyncSessionList*, "Oculus.Platform", "MessageWithNetSyncSessionList");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithNetSyncSessionList::GetDataFromMessage

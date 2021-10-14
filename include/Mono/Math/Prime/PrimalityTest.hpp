@@ -58,6 +58,7 @@ namespace Mono::Math::Prime {
   }; // Mono.Math.Prime.PrimalityTest
   #pragma pack(pop)
 }
+NEED_NO_BOX(Mono::Math::Prime::PrimalityTest);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Math::Prime::PrimalityTest*, "Mono.Math.Prime", "PrimalityTest");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Math::Prime::PrimalityTest::New_ctor

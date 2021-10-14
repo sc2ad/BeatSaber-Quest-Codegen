@@ -87,6 +87,7 @@ namespace NUnit::Framework::Internal::Commands {
   static check_size<sizeof(OneTimeTearDownCommand), 32 + sizeof(System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::TestActionItem*>*)> __NUnit_Framework_Internal_Commands_OneTimeTearDownCommandSizeCheck;
   static_assert(sizeof(OneTimeTearDownCommand) == 0x28);
 }
+NEED_NO_BOX(NUnit::Framework::Internal::Commands::OneTimeTearDownCommand);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Commands::OneTimeTearDownCommand*, "NUnit.Framework.Internal.Commands", "OneTimeTearDownCommand");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Commands::OneTimeTearDownCommand::New_ctor

@@ -51,6 +51,7 @@ namespace LIV::SDK::Unity {
   static check_size<sizeof(HelpAttribute), 16 + sizeof(::Il2CppString*)> __LIV_SDK_Unity_HelpAttributeSizeCheck;
   static_assert(sizeof(HelpAttribute) == 0x18);
 }
+NEED_NO_BOX(LIV::SDK::Unity::HelpAttribute);
 DEFINE_IL2CPP_ARG_TYPE(LIV::SDK::Unity::HelpAttribute*, "LIV.SDK.Unity", "HelpAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LIV::SDK::Unity::HelpAttribute::New_ctor

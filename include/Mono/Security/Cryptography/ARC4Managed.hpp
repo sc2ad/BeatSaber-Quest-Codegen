@@ -155,6 +155,7 @@ namespace Mono::Security::Cryptography {
   static check_size<sizeof(ARC4Managed), 90 + sizeof(bool)> __Mono_Security_Cryptography_ARC4ManagedSizeCheck;
   static_assert(sizeof(ARC4Managed) == 0x5B);
 }
+NEED_NO_BOX(Mono::Security::Cryptography::ARC4Managed);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::ARC4Managed*, "Mono.Security.Cryptography", "ARC4Managed");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Security::Cryptography::ARC4Managed::get_CanTransformMultipleBlocks

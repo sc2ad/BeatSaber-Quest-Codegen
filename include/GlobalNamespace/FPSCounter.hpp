@@ -132,6 +132,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(FPSCounter), 48 + sizeof(float)> __GlobalNamespace_FPSCounterSizeCheck;
   static_assert(sizeof(FPSCounter) == 0x34);
 }
+NEED_NO_BOX(GlobalNamespace::FPSCounter);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FPSCounter*, "", "FPSCounter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FPSCounter::get_currentFPS

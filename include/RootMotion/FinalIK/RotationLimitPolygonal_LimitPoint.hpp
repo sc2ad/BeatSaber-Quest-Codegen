@@ -58,6 +58,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(RotationLimitPolygonal::LimitPoint), 28 + sizeof(float)> __RootMotion_FinalIK_RotationLimitPolygonal_LimitPointSizeCheck;
   static_assert(sizeof(RotationLimitPolygonal::LimitPoint) == 0x20);
 }
+NEED_NO_BOX(RootMotion::FinalIK::RotationLimitPolygonal::LimitPoint);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RotationLimitPolygonal::LimitPoint*, "RootMotion.FinalIK", "RotationLimitPolygonal/LimitPoint");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::RotationLimitPolygonal::LimitPoint::New_ctor

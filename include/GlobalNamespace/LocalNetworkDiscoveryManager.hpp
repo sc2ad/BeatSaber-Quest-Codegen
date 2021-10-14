@@ -444,6 +444,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LocalNetworkDiscoveryManager), 104 + sizeof(float)> __GlobalNamespace_LocalNetworkDiscoveryManagerSizeCheck;
   static_assert(sizeof(LocalNetworkDiscoveryManager) == 0x6C);
 }
+NEED_NO_BOX(GlobalNamespace::LocalNetworkDiscoveryManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalNetworkDiscoveryManager*, "", "LocalNetworkDiscoveryManager");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalNetworkDiscoveryManager::PacketType, "", "LocalNetworkDiscoveryManager/PacketType");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -75,6 +75,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(StaticEnvironmentLights), 32 + sizeof(::ArrayW<UnityEngine::Material*>)> __GlobalNamespace_StaticEnvironmentLightsSizeCheck;
   static_assert(sizeof(StaticEnvironmentLights) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::StaticEnvironmentLights);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StaticEnvironmentLights*, "", "StaticEnvironmentLights");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::StaticEnvironmentLights::Awake

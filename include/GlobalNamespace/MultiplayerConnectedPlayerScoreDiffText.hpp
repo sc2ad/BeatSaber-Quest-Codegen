@@ -259,6 +259,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerConnectedPlayerScoreDiffText), 136 + sizeof(Tweening::FloatTween*)> __GlobalNamespace_MultiplayerConnectedPlayerScoreDiffTextSizeCheck;
   static_assert(sizeof(MultiplayerConnectedPlayerScoreDiffText) == 0x90);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText*, "", "MultiplayerConnectedPlayerScoreDiffText");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText::State, "", "MultiplayerConnectedPlayerScoreDiffText/State");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -55,6 +55,7 @@ namespace GlobalNamespace {
   }; // PlatformAuthenticationTokenProvider/<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::PlatformAuthenticationTokenProvider::$$c);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformAuthenticationTokenProvider::$$c*, "", "PlatformAuthenticationTokenProvider/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlatformAuthenticationTokenProvider::$$c::_cctor

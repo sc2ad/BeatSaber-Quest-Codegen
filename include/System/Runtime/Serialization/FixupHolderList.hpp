@@ -75,6 +75,7 @@ namespace System::Runtime::Serialization {
   static check_size<sizeof(FixupHolderList), 24 + sizeof(int)> __System_Runtime_Serialization_FixupHolderListSizeCheck;
   static_assert(sizeof(FixupHolderList) == 0x1C);
 }
+NEED_NO_BOX(System::Runtime::Serialization::FixupHolderList);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::FixupHolderList*, "System.Runtime.Serialization", "FixupHolderList");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::FixupHolderList::New_ctor

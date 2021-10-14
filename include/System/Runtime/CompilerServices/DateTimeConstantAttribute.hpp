@@ -49,6 +49,7 @@ namespace System::Runtime::CompilerServices {
   static_assert(sizeof(DateTimeConstantAttribute) == 0x18);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Runtime::CompilerServices::DateTimeConstantAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::DateTimeConstantAttribute*, "System.Runtime.CompilerServices", "DateTimeConstantAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::DateTimeConstantAttribute::get_Value

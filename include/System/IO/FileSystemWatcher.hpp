@@ -325,6 +325,7 @@ namespace System::IO {
   static check_size<sizeof(FileSystemWatcher), 192 + sizeof(System::IO::RenamedEventHandler*)> __System_IO_FileSystemWatcherSizeCheck;
   static_assert(sizeof(FileSystemWatcher) == 0xC8);
 }
+NEED_NO_BOX(System::IO::FileSystemWatcher);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileSystemWatcher*, "System.IO", "FileSystemWatcher");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::FileSystemWatcher::get_Waiting

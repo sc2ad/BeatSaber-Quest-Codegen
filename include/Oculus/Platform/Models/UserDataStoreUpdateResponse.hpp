@@ -50,6 +50,7 @@ namespace Oculus::Platform::Models {
   static check_size<sizeof(UserDataStoreUpdateResponse), 16 + sizeof(bool)> __Oculus_Platform_Models_UserDataStoreUpdateResponseSizeCheck;
   static_assert(sizeof(UserDataStoreUpdateResponse) == 0x11);
 }
+NEED_NO_BOX(Oculus::Platform::Models::UserDataStoreUpdateResponse);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::UserDataStoreUpdateResponse*, "Oculus.Platform.Models", "UserDataStoreUpdateResponse");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::UserDataStoreUpdateResponse::New_ctor

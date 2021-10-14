@@ -121,6 +121,7 @@ namespace NUnit::Framework::Internal {
   static check_size<sizeof(GenericMethodHelper), 40 + sizeof(::ArrayW<System::Type*>)> __NUnit_Framework_Internal_GenericMethodHelperSizeCheck;
   static_assert(sizeof(GenericMethodHelper) == 0x30);
 }
+NEED_NO_BOX(NUnit::Framework::Internal::GenericMethodHelper);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::GenericMethodHelper*, "NUnit.Framework.Internal", "GenericMethodHelper");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::GenericMethodHelper::get_Method

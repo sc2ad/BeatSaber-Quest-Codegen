@@ -103,6 +103,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(InteractionTrigger::Range), 48 + sizeof(::ArrayW<RootMotion::FinalIK::InteractionTrigger::Range::Interaction*>)> __RootMotion_FinalIK_InteractionTrigger_RangeSizeCheck;
   static_assert(sizeof(InteractionTrigger::Range) == 0x38);
 }
+NEED_NO_BOX(RootMotion::FinalIK::InteractionTrigger::Range);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionTrigger::Range*, "RootMotion.FinalIK", "InteractionTrigger/Range");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionTrigger::Range::IsInRange

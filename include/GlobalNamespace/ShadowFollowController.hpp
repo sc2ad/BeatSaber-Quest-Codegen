@@ -113,6 +113,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ShadowFollowController), 64 + sizeof(UnityEngine::Vector2)> __GlobalNamespace_ShadowFollowControllerSizeCheck;
   static_assert(sizeof(ShadowFollowController) == 0x48);
 }
+NEED_NO_BOX(GlobalNamespace::ShadowFollowController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShadowFollowController*, "", "ShadowFollowController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ShadowFollowController::SetTargetTransform

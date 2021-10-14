@@ -57,6 +57,7 @@ namespace HoudiniEngineUnity {
   }; // HoudiniEngineUnity.HEU_SessionManager/HoudiniEngineUnity.CreateSessionFromTypeDelegate
   #pragma pack(pop)
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_SessionManager::CreateSessionFromTypeDelegate);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_SessionManager::CreateSessionFromTypeDelegate*, "HoudiniEngineUnity", "HEU_SessionManager/CreateSessionFromTypeDelegate");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionManager::CreateSessionFromTypeDelegate::New_ctor

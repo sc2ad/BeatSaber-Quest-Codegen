@@ -55,6 +55,7 @@ namespace LiteNetLib {
   }; // LiteNetLib.EventBasedNatPunchListener/LiteNetLib.OnNatIntroductionRequest
   #pragma pack(pop)
 }
+NEED_NO_BOX(LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionRequest);
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionRequest*, "LiteNetLib", "EventBasedNatPunchListener/OnNatIntroductionRequest");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionRequest::New_ctor

@@ -67,6 +67,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(CreditsData), 16 + sizeof(::ArrayW<GlobalNamespace::CreditsData::RootCreditsItem*>)> __GlobalNamespace_CreditsDataSizeCheck;
   static_assert(sizeof(CreditsData) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::CreditsData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CreditsData*, "", "CreditsData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CreditsData::Deserialize

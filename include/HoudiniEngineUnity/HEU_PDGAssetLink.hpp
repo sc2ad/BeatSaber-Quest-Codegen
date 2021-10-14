@@ -436,6 +436,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_PDGAssetLink), 128 + sizeof(::Il2CppString*)> __HoudiniEngineUnity_HEU_PDGAssetLinkSizeCheck;
   static_assert(sizeof(HEU_PDGAssetLink) == 0x88);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_PDGAssetLink);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_PDGAssetLink*, "HoudiniEngineUnity", "HEU_PDGAssetLink");
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_PDGAssetLink::LinkState, "HoudiniEngineUnity", "HEU_PDGAssetLink/LinkState");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

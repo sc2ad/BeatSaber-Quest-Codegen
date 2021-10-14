@@ -63,6 +63,7 @@ namespace System::Collections {
   }; // System.Collections.EmptyReadOnlyDictionaryInternal/System.Collections.NodeEnumerator
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Collections::EmptyReadOnlyDictionaryInternal::NodeEnumerator);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::EmptyReadOnlyDictionaryInternal::NodeEnumerator*, "System.Collections", "EmptyReadOnlyDictionaryInternal/NodeEnumerator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::EmptyReadOnlyDictionaryInternal::NodeEnumerator::get_Current

@@ -171,6 +171,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(DifficultyTableView), 64 + sizeof(::ArrayW<GlobalNamespace::IDifficultyBeatmap*>)> __GlobalNamespace_DifficultyTableViewSizeCheck;
   static_assert(sizeof(DifficultyTableView) == 0x48);
 }
+NEED_NO_BOX(GlobalNamespace::DifficultyTableView);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DifficultyTableView*, "", "DifficultyTableView");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DifficultyTableView::add_didSelectRow

@@ -161,6 +161,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(TwistRelaxer), 96 + sizeof(UnityEngine::Vector3)> __RootMotion_FinalIK_TwistRelaxerSizeCheck;
   static_assert(sizeof(TwistRelaxer) == 0x6C);
 }
+NEED_NO_BOX(RootMotion::FinalIK::TwistRelaxer);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::TwistRelaxer*, "RootMotion.FinalIK", "TwistRelaxer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::TwistRelaxer::Relax

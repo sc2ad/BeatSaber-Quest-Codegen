@@ -129,6 +129,7 @@ namespace Valve::VR {
   static check_size<sizeof(CVRChaperoneSetup), 16 + sizeof(Valve::VR::IVRChaperoneSetup)> __Valve_VR_CVRChaperoneSetupSizeCheck;
   static_assert(sizeof(CVRChaperoneSetup) == 0xB0);
 }
+NEED_NO_BOX(Valve::VR::CVRChaperoneSetup);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRChaperoneSetup*, "Valve.VR", "CVRChaperoneSetup");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::CVRChaperoneSetup::New_ctor

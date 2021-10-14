@@ -172,6 +172,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   static check_size<sizeof(UnityTestAssemblyRunner), 56 + sizeof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*)> __UnityEngine_TestRunner_NUnitExtensions_Runner_UnityTestAssemblyRunnerSizeCheck;
   static_assert(sizeof(UnityTestAssemblyRunner) == 0x40);
 }
+NEED_NO_BOX(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "UnityTestAssemblyRunner");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::get_Context

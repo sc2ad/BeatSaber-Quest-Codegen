@@ -60,6 +60,7 @@ namespace Zenject {
   }; // Zenject.CachedOpenTypeProvider/Zenject.<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(Zenject::CachedOpenTypeProvider::$$c);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::CachedOpenTypeProvider::$$c*, "Zenject", "CachedOpenTypeProvider/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::CachedOpenTypeProvider::$$c::_cctor

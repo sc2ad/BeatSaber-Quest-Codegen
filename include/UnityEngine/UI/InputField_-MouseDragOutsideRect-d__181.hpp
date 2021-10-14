@@ -101,6 +101,7 @@ namespace UnityEngine::UI {
   static check_size<sizeof(InputField::$MouseDragOutsideRect$d__181), 40 + sizeof(UnityEngine::UI::InputField*)> __UnityEngine_UI_InputField_$MouseDragOutsideRect$d__181SizeCheck;
   static_assert(sizeof(InputField::$MouseDragOutsideRect$d__181) == 0x30);
 }
+NEED_NO_BOX(UnityEngine::UI::InputField::$MouseDragOutsideRect$d__181);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::InputField::$MouseDragOutsideRect$d__181*, "UnityEngine.UI", "InputField/<MouseDragOutsideRect>d__181");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::InputField::$MouseDragOutsideRect$d__181::System_Collections_Generic_IEnumerator$System_Object$_get_Current

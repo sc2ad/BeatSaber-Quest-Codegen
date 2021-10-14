@@ -153,6 +153,7 @@ namespace Oculus::Platform::Models {
   static check_size<sizeof(Challenge), 104 + sizeof(Oculus::Platform::ChallengeVisibility)> __Oculus_Platform_Models_ChallengeSizeCheck;
   static_assert(sizeof(Challenge) == 0x6C);
 }
+NEED_NO_BOX(Oculus::Platform::Models::Challenge);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::Challenge*, "Oculus.Platform.Models", "Challenge");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::Challenge::New_ctor

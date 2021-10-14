@@ -138,6 +138,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LeaderboardTableView), 56 + sizeof(int)> __GlobalNamespace_LeaderboardTableViewSizeCheck;
   static_assert(sizeof(LeaderboardTableView) == 0x3C);
 }
+NEED_NO_BOX(GlobalNamespace::LeaderboardTableView);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardTableView*, "", "LeaderboardTableView");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LeaderboardTableView::CellSize

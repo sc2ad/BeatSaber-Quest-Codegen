@@ -165,6 +165,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(HydraulicCarJumpEffect), 96 + sizeof(System::Collections::Generic::HashSet_1<int>*)> __GlobalNamespace_HydraulicCarJumpEffectSizeCheck;
   static_assert(sizeof(HydraulicCarJumpEffect) == 0x68);
 }
+NEED_NO_BOX(GlobalNamespace::HydraulicCarJumpEffect);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HydraulicCarJumpEffect*, "", "HydraulicCarJumpEffect");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HydraulicCarJumpEffect::Start

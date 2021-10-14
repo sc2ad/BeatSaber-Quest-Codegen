@@ -62,6 +62,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(CoreGameHUDController::InitData), 18 + sizeof(bool)> __GlobalNamespace_CoreGameHUDController_InitDataSizeCheck;
   static_assert(sizeof(CoreGameHUDController::InitData) == 0x13);
 }
+NEED_NO_BOX(GlobalNamespace::CoreGameHUDController::InitData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CoreGameHUDController::InitData*, "", "CoreGameHUDController/InitData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CoreGameHUDController::InitData::New_ctor

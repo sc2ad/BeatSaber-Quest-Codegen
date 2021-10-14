@@ -51,6 +51,7 @@ namespace TMPro {
   }; // TMPro.TMP_SelectionCaret
   #pragma pack(pop)
 }
+NEED_NO_BOX(TMPro::TMP_SelectionCaret);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_SelectionCaret*, "TMPro", "TMP_SelectionCaret");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_SelectionCaret::New_ctor

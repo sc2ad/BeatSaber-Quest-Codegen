@@ -159,6 +159,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(VRRenderingParamsSetup), 56 + sizeof(GlobalNamespace::IVRPlatformHelper*)> __GlobalNamespace_VRRenderingParamsSetupSizeCheck;
   static_assert(sizeof(VRRenderingParamsSetup) == 0x40);
 }
+NEED_NO_BOX(GlobalNamespace::VRRenderingParamsSetup);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRRenderingParamsSetup*, "", "VRRenderingParamsSetup");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRRenderingParamsSetup::SceneType, "", "VRRenderingParamsSetup/SceneType");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

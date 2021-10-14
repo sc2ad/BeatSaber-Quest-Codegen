@@ -64,6 +64,7 @@ namespace System::Runtime::CompilerServices {
   static check_size<sizeof(CompilationRelaxationsAttribute), 16 + sizeof(int)> __System_Runtime_CompilerServices_CompilationRelaxationsAttributeSizeCheck;
   static_assert(sizeof(CompilationRelaxationsAttribute) == 0x14);
 }
+NEED_NO_BOX(System::Runtime::CompilerServices::CompilationRelaxationsAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::CompilationRelaxationsAttribute*, "System.Runtime.CompilerServices", "CompilationRelaxationsAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::CompilationRelaxationsAttribute::get_CompilationRelaxations

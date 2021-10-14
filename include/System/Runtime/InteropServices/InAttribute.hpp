@@ -35,6 +35,7 @@ namespace System::Runtime::InteropServices {
   }; // System.Runtime.InteropServices.InAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Runtime::InteropServices::InAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::InAttribute*, "System.Runtime.InteropServices", "InAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::InteropServices::InAttribute::New_ctor

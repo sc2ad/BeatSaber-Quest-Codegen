@@ -148,6 +148,7 @@ namespace UnityEngine::Timeline {
   static check_size<sizeof(ScheduleRuntimeClip), 80 + sizeof(bool)> __UnityEngine_Timeline_ScheduleRuntimeClipSizeCheck;
   static_assert(sizeof(ScheduleRuntimeClip) == 0x51);
 }
+NEED_NO_BOX(UnityEngine::Timeline::ScheduleRuntimeClip);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ScheduleRuntimeClip*, "UnityEngine.Timeline", "ScheduleRuntimeClip");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::ScheduleRuntimeClip::get_clip

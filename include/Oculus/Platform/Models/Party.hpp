@@ -125,6 +125,7 @@ namespace Oculus::Platform::Models {
   static check_size<sizeof(Party), 80 + sizeof(Oculus::Platform::Models::UserList*)> __Oculus_Platform_Models_PartySizeCheck;
   static_assert(sizeof(Party) == 0x58);
 }
+NEED_NO_BOX(Oculus::Platform::Models::Party);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::Party*, "Oculus.Platform.Models", "Party");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::Party::New_ctor

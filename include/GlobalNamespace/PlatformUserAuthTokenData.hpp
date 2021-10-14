@@ -126,6 +126,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PlatformUserAuthTokenData), 24 + sizeof(GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment)> __GlobalNamespace_PlatformUserAuthTokenDataSizeCheck;
   static_assert(sizeof(PlatformUserAuthTokenData) == 0x19);
 }
+NEED_NO_BOX(GlobalNamespace::PlatformUserAuthTokenData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformUserAuthTokenData*, "", "PlatformUserAuthTokenData");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment, "", "PlatformUserAuthTokenData/PlatformEnviroment");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

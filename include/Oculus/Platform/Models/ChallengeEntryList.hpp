@@ -56,6 +56,7 @@ namespace Oculus::Platform::Models {
   }; // Oculus.Platform.Models.ChallengeEntryList
   // WARNING Not writing size check since size may be invalid!
 }
+NEED_NO_BOX(Oculus::Platform::Models::ChallengeEntryList);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::ChallengeEntryList*, "Oculus.Platform.Models", "ChallengeEntryList");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::ChallengeEntryList::New_ctor

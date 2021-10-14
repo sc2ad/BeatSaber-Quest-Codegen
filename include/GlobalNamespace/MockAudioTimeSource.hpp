@@ -89,6 +89,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MockAudioTimeSource), 28 + sizeof(float)> __GlobalNamespace_MockAudioTimeSourceSizeCheck;
   static_assert(sizeof(MockAudioTimeSource) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::MockAudioTimeSource);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockAudioTimeSource*, "", "MockAudioTimeSource");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MockAudioTimeSource::get_songTime

@@ -90,6 +90,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MissionLevelReturnToMenuController), 40 + sizeof(GlobalNamespace::MissionObjectiveCheckersManager*)> __GlobalNamespace_MissionLevelReturnToMenuControllerSizeCheck;
   static_assert(sizeof(MissionLevelReturnToMenuController) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::MissionLevelReturnToMenuController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelReturnToMenuController*, "", "MissionLevelReturnToMenuController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionLevelReturnToMenuController::ReturnToMenu

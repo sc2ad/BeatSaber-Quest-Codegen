@@ -118,6 +118,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MissionHelpViewController), 136 + sizeof(GlobalNamespace::MissionHelpSO*)> __GlobalNamespace_MissionHelpViewControllerSizeCheck;
   static_assert(sizeof(MissionHelpViewController) == 0x90);
 }
+NEED_NO_BOX(GlobalNamespace::MissionHelpViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionHelpViewController*, "", "MissionHelpViewController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionHelpViewController::add_didFinishEvent

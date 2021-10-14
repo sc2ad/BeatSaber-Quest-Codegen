@@ -76,6 +76,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerMenuClient), 32 + sizeof(GlobalNamespace::INodePoseSyncStateManager*)> __GlobalNamespace_MultiplayerMenuClientSizeCheck;
   static_assert(sizeof(MultiplayerMenuClient) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerMenuClient);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerMenuClient*, "", "MultiplayerMenuClient");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerMenuClient::LateUpdate

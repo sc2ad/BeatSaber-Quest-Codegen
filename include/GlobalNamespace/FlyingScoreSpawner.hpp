@@ -96,6 +96,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(FlyingScoreSpawner), 32 + sizeof(GlobalNamespace::FlyingScoreSpawner::InitData*)> __GlobalNamespace_FlyingScoreSpawnerSizeCheck;
   static_assert(sizeof(FlyingScoreSpawner) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::FlyingScoreSpawner);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlyingScoreSpawner*, "", "FlyingScoreSpawner");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FlyingScoreSpawner::SpawnFlyingScore

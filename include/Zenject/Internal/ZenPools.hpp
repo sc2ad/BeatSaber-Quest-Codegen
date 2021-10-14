@@ -184,6 +184,7 @@ namespace Zenject::Internal {
   }; // Zenject.Internal.ZenPools
   #pragma pack(pop)
 }
+NEED_NO_BOX(Zenject::Internal::ZenPools);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::ZenPools*, "Zenject.Internal", "ZenPools");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::Internal::ZenPools::_cctor

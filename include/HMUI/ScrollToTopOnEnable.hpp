@@ -64,6 +64,7 @@ namespace HMUI {
   static check_size<sizeof(ScrollToTopOnEnable), 24 + sizeof(HMUI::ScrollView*)> __HMUI_ScrollToTopOnEnableSizeCheck;
   static_assert(sizeof(ScrollToTopOnEnable) == 0x20);
 }
+NEED_NO_BOX(HMUI::ScrollToTopOnEnable);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollToTopOnEnable*, "HMUI", "ScrollToTopOnEnable");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::ScrollToTopOnEnable::OnEnable

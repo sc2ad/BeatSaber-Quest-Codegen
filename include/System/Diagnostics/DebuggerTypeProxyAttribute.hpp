@@ -59,6 +59,7 @@ namespace System::Diagnostics {
   static check_size<sizeof(DebuggerTypeProxyAttribute), 16 + sizeof(::Il2CppString*)> __System_Diagnostics_DebuggerTypeProxyAttributeSizeCheck;
   static_assert(sizeof(DebuggerTypeProxyAttribute) == 0x18);
 }
+NEED_NO_BOX(System::Diagnostics::DebuggerTypeProxyAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::DebuggerTypeProxyAttribute*, "System.Diagnostics", "DebuggerTypeProxyAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Diagnostics::DebuggerTypeProxyAttribute::New_ctor

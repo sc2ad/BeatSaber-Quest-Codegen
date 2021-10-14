@@ -196,6 +196,7 @@ namespace System::Runtime::Remoting::Messaging {
   static check_size<sizeof(ConstructionCall), 152 + sizeof(System::Runtime::Remoting::Proxies::RemotingProxy*)> __System_Runtime_Remoting_Messaging_ConstructionCallSizeCheck;
   static_assert(sizeof(ConstructionCall) == 0xA0);
 }
+NEED_NO_BOX(System::Runtime::Remoting::Messaging::ConstructionCall);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::ConstructionCall*, "System.Runtime.Remoting.Messaging", "ConstructionCall");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::ConstructionCall::get_IsContextOk

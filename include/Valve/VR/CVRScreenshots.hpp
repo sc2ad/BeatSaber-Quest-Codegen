@@ -90,6 +90,7 @@ namespace Valve::VR {
   static check_size<sizeof(CVRScreenshots), 16 + sizeof(Valve::VR::IVRScreenshots)> __Valve_VR_CVRScreenshotsSizeCheck;
   static_assert(sizeof(CVRScreenshots) == 0x48);
 }
+NEED_NO_BOX(Valve::VR::CVRScreenshots);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRScreenshots*, "Valve.VR", "CVRScreenshots");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::CVRScreenshots::New_ctor

@@ -197,6 +197,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerResultsTableCell), 212 + sizeof(UnityEngine::Color)> __GlobalNamespace_MultiplayerResultsTableCellSizeCheck;
   static_assert(sizeof(MultiplayerResultsTableCell) == 0xE4);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerResultsTableCell);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerResultsTableCell*, "", "MultiplayerResultsTableCell");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerResultsTableCell::set_alpha

@@ -86,6 +86,7 @@ namespace Mono::Security::X509 {
   static check_size<sizeof(X509Crl::X509CrlEntry), 32 + sizeof(Mono::Security::X509::X509ExtensionCollection*)> __Mono_Security_X509_X509Crl_X509CrlEntrySizeCheck;
   static_assert(sizeof(X509Crl::X509CrlEntry) == 0x28);
 }
+NEED_NO_BOX(Mono::Security::X509::X509Crl::X509CrlEntry);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::X509Crl::X509CrlEntry*, "Mono.Security.X509", "X509Crl/X509CrlEntry");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Security::X509::X509Crl::X509CrlEntry::get_SerialNumber

@@ -75,6 +75,7 @@ namespace System::Security::Authentication {
   }; // System.Security.Authentication.AuthenticationException
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Security::Authentication::AuthenticationException);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Authentication::AuthenticationException*, "System.Security.Authentication", "AuthenticationException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Authentication::AuthenticationException::New_ctor

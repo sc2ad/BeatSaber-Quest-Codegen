@@ -84,6 +84,7 @@ namespace UnityEngine::AddressableAssets {
   static check_size<sizeof(AddressablesImpl::$$c__DisplayClass124_0), 24 + sizeof(bool)> __UnityEngine_AddressableAssets_AddressablesImpl_$$c__DisplayClass124_0SizeCheck;
   static_assert(sizeof(AddressablesImpl::$$c__DisplayClass124_0) == 0x19);
 }
+NEED_NO_BOX(UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass124_0);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass124_0*, "UnityEngine.AddressableAssets", "AddressablesImpl/<>c__DisplayClass124_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass124_0::$UpdateCatalogs$b__0

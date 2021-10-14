@@ -60,6 +60,7 @@ namespace GlobalNamespace {
   }; // BeatmapCharacteristicsDropdown/<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::BeatmapCharacteristicsDropdown::$$c);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapCharacteristicsDropdown::$$c*, "", "BeatmapCharacteristicsDropdown/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapCharacteristicsDropdown::$$c::_cctor

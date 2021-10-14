@@ -91,6 +91,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(TriggerChecker), 40 + sizeof(System::Action*)> __GlobalNamespace_TriggerCheckerSizeCheck;
   static_assert(sizeof(TriggerChecker) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::TriggerChecker);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TriggerChecker*, "", "TriggerChecker");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TriggerChecker::OnTriggerEnter

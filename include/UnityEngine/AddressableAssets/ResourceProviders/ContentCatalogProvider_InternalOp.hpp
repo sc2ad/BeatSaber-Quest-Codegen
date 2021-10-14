@@ -145,6 +145,7 @@ namespace UnityEngine::AddressableAssets::ResourceProviders {
   }; // UnityEngine.AddressableAssets.ResourceProviders.ContentCatalogProvider/UnityEngine.AddressableAssets.ResourceProviders.InternalOp
   // WARNING Not writing size check since size may be invalid!
 }
+NEED_NO_BOX(UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp*, "UnityEngine.AddressableAssets.ResourceProviders", "ContentCatalogProvider/InternalOp");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::Start

@@ -281,6 +281,7 @@ namespace System::Security::Claims {
   static check_size<sizeof(ClaimsIdentity), 112 + sizeof(::Il2CppString*)> __System_Security_Claims_ClaimsIdentitySizeCheck;
   static_assert(sizeof(ClaimsIdentity) == 0x78);
 }
+NEED_NO_BOX(System::Security::Claims::ClaimsIdentity);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Claims::ClaimsIdentity*, "System.Security.Claims", "ClaimsIdentity");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Claims::ClaimsIdentity::get_AuthenticationType

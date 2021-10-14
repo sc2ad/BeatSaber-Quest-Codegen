@@ -55,6 +55,7 @@ namespace UnityEngine {
   }; // UnityEngine.Application/UnityEngine.LogCallback
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::Application::LogCallback);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Application::LogCallback*, "UnityEngine", "Application/LogCallback");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Application::LogCallback::New_ctor

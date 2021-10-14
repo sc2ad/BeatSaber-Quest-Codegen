@@ -250,6 +250,7 @@ namespace Zenject {
   static check_size<sizeof(ProjectContext), 120 + sizeof(Zenject::DiContainer*)> __Zenject_ProjectContextSizeCheck;
   static_assert(sizeof(ProjectContext) == 0x80);
 }
+NEED_NO_BOX(Zenject::ProjectContext);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ProjectContext*, "Zenject", "ProjectContext");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::ProjectContext::get_HasInstance

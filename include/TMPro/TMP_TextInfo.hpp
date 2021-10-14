@@ -245,6 +245,7 @@ namespace TMPro {
   static check_size<sizeof(TMP_TextInfo), 104 + sizeof(::ArrayW<TMPro::TMP_MeshInfo>)> __TMPro_TMP_TextInfoSizeCheck;
   static_assert(sizeof(TMP_TextInfo) == 0x70);
 }
+NEED_NO_BOX(TMPro::TMP_TextInfo);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_TextInfo*, "TMPro", "TMP_TextInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_TextInfo::New_ctor

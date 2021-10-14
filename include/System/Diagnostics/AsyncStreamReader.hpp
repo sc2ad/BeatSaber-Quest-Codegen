@@ -121,6 +121,7 @@ namespace System::Diagnostics {
   static_assert(sizeof(AsyncStreamReader) == 0x50);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Diagnostics::AsyncStreamReader);
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::AsyncStreamReader*, "System.Diagnostics", "AsyncStreamReader");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Diagnostics::AsyncStreamReader::Close

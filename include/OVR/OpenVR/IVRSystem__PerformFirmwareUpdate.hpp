@@ -56,6 +56,7 @@ namespace OVR::OpenVR {
   }; // OVR.OpenVR.IVRSystem/OVR.OpenVR._PerformFirmwareUpdate
   #pragma pack(pop)
 }
+NEED_NO_BOX(OVR::OpenVR::IVRSystem::_PerformFirmwareUpdate);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRSystem::_PerformFirmwareUpdate*, "OVR.OpenVR", "IVRSystem/_PerformFirmwareUpdate");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVRSystem::_PerformFirmwareUpdate::New_ctor

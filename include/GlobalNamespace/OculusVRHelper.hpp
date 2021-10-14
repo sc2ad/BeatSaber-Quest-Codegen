@@ -282,6 +282,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OculusVRHelper), 96 + sizeof(UnityEngine::EventSystems::EventSystem*)> __GlobalNamespace_OculusVRHelperSizeCheck;
   static_assert(sizeof(OculusVRHelper) == 0x68);
 }
+NEED_NO_BOX(GlobalNamespace::OculusVRHelper);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusVRHelper*, "", "OculusVRHelper");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OculusVRHelper::get_hasInputFocus

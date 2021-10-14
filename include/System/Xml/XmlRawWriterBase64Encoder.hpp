@@ -63,6 +63,7 @@ namespace System::Xml {
   static check_size<sizeof(XmlRawWriterBase64Encoder), 40 + sizeof(System::Xml::XmlRawWriter*)> __System_Xml_XmlRawWriterBase64EncoderSizeCheck;
   static_assert(sizeof(XmlRawWriterBase64Encoder) == 0x30);
 }
+NEED_NO_BOX(System::Xml::XmlRawWriterBase64Encoder);
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlRawWriterBase64Encoder*, "System.Xml", "XmlRawWriterBase64Encoder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::XmlRawWriterBase64Encoder::New_ctor

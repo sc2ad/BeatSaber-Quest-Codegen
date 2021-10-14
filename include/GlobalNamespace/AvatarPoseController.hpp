@@ -173,6 +173,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(AvatarPoseController), 88 + sizeof(System::Action_1<UnityEngine::Vector3>*)> __GlobalNamespace_AvatarPoseControllerSizeCheck;
   static_assert(sizeof(AvatarPoseController) == 0x60);
 }
+NEED_NO_BOX(GlobalNamespace::AvatarPoseController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarPoseController*, "", "AvatarPoseController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AvatarPoseController::get_earlyPositionsWillBeSetCallback

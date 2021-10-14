@@ -92,6 +92,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PlayerDataModel), 32 + sizeof(GlobalNamespace::PlayerData*)> __GlobalNamespace_PlayerDataModelSizeCheck;
   static_assert(sizeof(PlayerDataModel) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::PlayerDataModel);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerDataModel*, "", "PlayerDataModel");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayerDataModel::get_playerData

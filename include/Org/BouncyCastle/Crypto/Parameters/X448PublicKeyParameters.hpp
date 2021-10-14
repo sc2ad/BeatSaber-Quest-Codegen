@@ -58,6 +58,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   static check_size<sizeof(X448PublicKeyParameters), 24 + sizeof(::ArrayW<uint8_t>)> __Org_BouncyCastle_Crypto_Parameters_X448PublicKeyParametersSizeCheck;
   static_assert(sizeof(X448PublicKeyParameters) == 0x20);
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Parameters::X448PublicKeyParameters);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::X448PublicKeyParameters*, "Org.BouncyCastle.Crypto.Parameters", "X448PublicKeyParameters");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::X448PublicKeyParameters::New_ctor

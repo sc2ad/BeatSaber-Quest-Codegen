@@ -98,6 +98,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BTSStarTextEffectsManager), 32 + sizeof(GlobalNamespace::BTSStarTextEffectController::Pool*)> __GlobalNamespace_BTSStarTextEffectsManagerSizeCheck;
   static_assert(sizeof(BTSStarTextEffectsManager) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::BTSStarTextEffectsManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSStarTextEffectsManager*, "", "BTSStarTextEffectsManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BTSStarTextEffectsManager::Start

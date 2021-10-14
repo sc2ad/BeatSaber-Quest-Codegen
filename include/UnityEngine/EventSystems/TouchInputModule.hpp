@@ -142,6 +142,7 @@ namespace UnityEngine::EventSystems {
   static check_size<sizeof(TouchInputModule), 112 + sizeof(bool)> __UnityEngine_EventSystems_TouchInputModuleSizeCheck;
   static_assert(sizeof(TouchInputModule) == 0x71);
 }
+NEED_NO_BOX(UnityEngine::EventSystems::TouchInputModule);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::TouchInputModule*, "UnityEngine.EventSystems", "TouchInputModule");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::EventSystems::TouchInputModule::get_allowActivationOnStandalone

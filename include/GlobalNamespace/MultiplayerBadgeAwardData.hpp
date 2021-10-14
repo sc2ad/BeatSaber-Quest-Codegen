@@ -124,6 +124,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerBadgeAwardData), 56 + sizeof(GlobalNamespace::MultiplayerBadgeDataSO*)> __GlobalNamespace_MultiplayerBadgeAwardDataSizeCheck;
   static_assert(sizeof(MultiplayerBadgeAwardData) == 0x40);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerBadgeAwardData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerBadgeAwardData*, "", "MultiplayerBadgeAwardData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerBadgeAwardData::get_awardedPlayer

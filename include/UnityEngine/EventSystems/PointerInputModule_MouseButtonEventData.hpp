@@ -72,6 +72,7 @@ namespace UnityEngine::EventSystems {
   static check_size<sizeof(PointerInputModule::MouseButtonEventData), 24 + sizeof(UnityEngine::EventSystems::PointerEventData*)> __UnityEngine_EventSystems_PointerInputModule_MouseButtonEventDataSizeCheck;
   static_assert(sizeof(PointerInputModule::MouseButtonEventData) == 0x20);
 }
+NEED_NO_BOX(UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData*, "UnityEngine.EventSystems", "PointerInputModule/MouseButtonEventData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData::PressedThisFrame

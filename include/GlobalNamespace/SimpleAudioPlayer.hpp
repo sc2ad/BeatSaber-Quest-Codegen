@@ -135,6 +135,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SimpleAudioPlayer), 52 + sizeof(bool)> __GlobalNamespace_SimpleAudioPlayerSizeCheck;
   static_assert(sizeof(SimpleAudioPlayer) == 0x35);
 }
+NEED_NO_BOX(GlobalNamespace::SimpleAudioPlayer);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleAudioPlayer*, "", "SimpleAudioPlayer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SimpleAudioPlayer::Start

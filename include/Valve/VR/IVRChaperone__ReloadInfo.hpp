@@ -51,6 +51,7 @@ namespace Valve::VR {
   }; // Valve.VR.IVRChaperone/Valve.VR._ReloadInfo
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::IVRChaperone::_ReloadInfo);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRChaperone::_ReloadInfo*, "Valve.VR", "IVRChaperone/_ReloadInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRChaperone::_ReloadInfo::New_ctor

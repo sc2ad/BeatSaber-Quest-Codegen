@@ -218,6 +218,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(IKMappingSpine), 112 + sizeof(bool)> __RootMotion_FinalIK_IKMappingSpineSizeCheck;
   static_assert(sizeof(IKMappingSpine) == 0x71);
 }
+NEED_NO_BOX(RootMotion::FinalIK::IKMappingSpine);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKMappingSpine*, "RootMotion.FinalIK", "IKMappingSpine");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKMappingSpine::New_ctor

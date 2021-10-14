@@ -303,6 +303,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ScreenshotRecorder), 112 + sizeof(UnityEngine::RenderTexture*)> __GlobalNamespace_ScreenshotRecorderSizeCheck;
   static_assert(sizeof(ScreenshotRecorder) == 0x78);
 }
+NEED_NO_BOX(GlobalNamespace::ScreenshotRecorder);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScreenshotRecorder*, "", "ScreenshotRecorder");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScreenshotRecorder::RecordingType, "", "ScreenshotRecorder/RecordingType");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

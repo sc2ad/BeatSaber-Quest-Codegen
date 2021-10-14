@@ -61,6 +61,7 @@ namespace Oculus::Platform::Models {
   }; // Oculus.Platform.Models.PingResult
   // WARNING Not writing size check since size may be invalid!
 }
+NEED_NO_BOX(Oculus::Platform::Models::PingResult);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::PingResult*, "Oculus.Platform.Models", "PingResult");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::PingResult::get_ID

@@ -162,6 +162,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
   static check_size<sizeof(SM3Digest), 64 + sizeof(::ArrayW<uint>)> __Org_BouncyCastle_Crypto_Digests_SM3DigestSizeCheck;
   static_assert(sizeof(SM3Digest) == 0x48);
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Digests::SM3Digest);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::SM3Digest*, "Org.BouncyCastle.Crypto.Digests", "SM3Digest");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::SM3Digest::_cctor

@@ -140,6 +140,7 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*, "UnityEngine.ResourceManagement.AsyncOperations", "IAsyncOperation");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::get_ResultType

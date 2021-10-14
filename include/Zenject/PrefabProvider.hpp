@@ -65,6 +65,7 @@ namespace Zenject {
   static check_size<sizeof(PrefabProvider), 16 + sizeof(UnityEngine::Object*)> __Zenject_PrefabProviderSizeCheck;
   static_assert(sizeof(PrefabProvider) == 0x18);
 }
+NEED_NO_BOX(Zenject::PrefabProvider);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::PrefabProvider*, "Zenject", "PrefabProvider");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::PrefabProvider::New_ctor

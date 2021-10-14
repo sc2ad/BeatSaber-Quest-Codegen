@@ -54,6 +54,7 @@ namespace System::Runtime::InteropServices {
   static check_size<sizeof(DefaultDllImportSearchPathsAttribute), 16 + sizeof(System::Runtime::InteropServices::DllImportSearchPath)> __System_Runtime_InteropServices_DefaultDllImportSearchPathsAttributeSizeCheck;
   static_assert(sizeof(DefaultDllImportSearchPathsAttribute) == 0x14);
 }
+NEED_NO_BOX(System::Runtime::InteropServices::DefaultDllImportSearchPathsAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::DefaultDllImportSearchPathsAttribute*, "System.Runtime.InteropServices", "DefaultDllImportSearchPathsAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::InteropServices::DefaultDllImportSearchPathsAttribute::New_ctor

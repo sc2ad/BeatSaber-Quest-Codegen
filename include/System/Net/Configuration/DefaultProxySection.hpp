@@ -50,6 +50,7 @@ namespace System::Net::Configuration {
   }; // System.Net.Configuration.DefaultProxySection
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Net::Configuration::DefaultProxySection);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Configuration::DefaultProxySection*, "System.Net.Configuration", "DefaultProxySection");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Configuration::DefaultProxySection::get_Properties

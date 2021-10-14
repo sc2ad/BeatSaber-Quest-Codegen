@@ -69,6 +69,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_RecookPreset), 24 + sizeof(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputPreset*>*)> __HoudiniEngineUnity_HEU_RecookPresetSizeCheck;
   static_assert(sizeof(HEU_RecookPreset) == 0x20);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_RecookPreset);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_RecookPreset*, "HoudiniEngineUnity", "HEU_RecookPreset");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_RecookPreset::New_ctor

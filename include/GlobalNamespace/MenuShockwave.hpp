@@ -113,6 +113,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MenuShockwave), 48 + sizeof(UnityEngine::ParticleSystem::EmitParams)> __GlobalNamespace_MenuShockwaveSizeCheck;
   static_assert(sizeof(MenuShockwave) == 0xBF);
 }
+NEED_NO_BOX(GlobalNamespace::MenuShockwave);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuShockwave*, "", "MenuShockwave");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MenuShockwave::Awake

@@ -172,6 +172,7 @@ namespace System::Reflection {
   static check_size<sizeof(CustomAttributeData), 40 + sizeof(System::Reflection::CustomAttributeData::LazyCAttrData*)> __System_Reflection_CustomAttributeDataSizeCheck;
   static_assert(sizeof(CustomAttributeData) == 0x30);
 }
+NEED_NO_BOX(System::Reflection::CustomAttributeData);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::CustomAttributeData*, "System.Reflection", "CustomAttributeData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::CustomAttributeData::get_Constructor

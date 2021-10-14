@@ -144,6 +144,7 @@ namespace System::Xml {
   static check_size<sizeof(XmlWellFormedWriter::AttributeValueCache), 44 + sizeof(int)> __System_Xml_XmlWellFormedWriter_AttributeValueCacheSizeCheck;
   static_assert(sizeof(XmlWellFormedWriter::AttributeValueCache) == 0x30);
 }
+NEED_NO_BOX(System::Xml::XmlWellFormedWriter::AttributeValueCache);
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::AttributeValueCache*, "System.Xml", "XmlWellFormedWriter/AttributeValueCache");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::AttributeValueCache::get_StringValue

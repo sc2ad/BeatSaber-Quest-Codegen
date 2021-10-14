@@ -81,6 +81,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MissionClearedEnvironmentEffect), 32 + sizeof(GlobalNamespace::BeatmapObjectCallbackController*)> __GlobalNamespace_MissionClearedEnvironmentEffectSizeCheck;
   static_assert(sizeof(MissionClearedEnvironmentEffect) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::MissionClearedEnvironmentEffect);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionClearedEnvironmentEffect*, "", "MissionClearedEnvironmentEffect");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionClearedEnvironmentEffect::Awake

@@ -82,6 +82,7 @@ namespace GlobalNamespace {
     static void _cctor();
   }; // HMMainThreadDispatcher
 }
+NEED_NO_BOX(GlobalNamespace::HMMainThreadDispatcher);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HMMainThreadDispatcher*, "", "HMMainThreadDispatcher");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HMMainThreadDispatcher::Update

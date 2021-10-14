@@ -65,6 +65,7 @@ namespace System {
   }; // System.EntryPointNotFoundException
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::EntryPointNotFoundException);
 DEFINE_IL2CPP_ARG_TYPE(System::EntryPointNotFoundException*, "System", "EntryPointNotFoundException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::EntryPointNotFoundException::New_ctor

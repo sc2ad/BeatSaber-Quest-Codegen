@@ -141,6 +141,7 @@ namespace System::Threading::Tasks {
   static check_size<sizeof(AwaitTaskContinuation), 24 + sizeof(System::Action*)> __System_Threading_Tasks_AwaitTaskContinuationSizeCheck;
   static_assert(sizeof(AwaitTaskContinuation) == 0x20);
 }
+NEED_NO_BOX(System::Threading::Tasks::AwaitTaskContinuation);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::AwaitTaskContinuation*, "System.Threading.Tasks", "AwaitTaskContinuation");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::Tasks::AwaitTaskContinuation::get_IsValidLocationForInlining

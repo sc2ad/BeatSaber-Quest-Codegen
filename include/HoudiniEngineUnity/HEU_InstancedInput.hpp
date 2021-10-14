@@ -80,6 +80,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_InstancedInput), 36 + sizeof(UnityEngine::Vector3)> __HoudiniEngineUnity_HEU_InstancedInputSizeCheck;
   static_assert(sizeof(HEU_InstancedInput) == 0x30);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_InstancedInput);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_InstancedInput*, "HoudiniEngineUnity", "HEU_InstancedInput");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_InstancedInput::IsEquivalentTo

@@ -56,6 +56,7 @@ namespace Valve::VR {
   }; // Valve.VR.IVRRenderModels/Valve.VR._GetComponentName
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::IVRRenderModels::_GetComponentName);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRRenderModels::_GetComponentName*, "Valve.VR", "IVRRenderModels/_GetComponentName");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRRenderModels::_GetComponentName::New_ctor

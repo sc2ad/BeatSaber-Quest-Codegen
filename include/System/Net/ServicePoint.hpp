@@ -350,6 +350,7 @@ namespace System::Net {
   static check_size<sizeof(ServicePoint), 152 + sizeof(::Il2CppObject*)> __System_Net_ServicePointSizeCheck;
   static_assert(sizeof(ServicePoint) == 0xA0);
 }
+NEED_NO_BOX(System::Net::ServicePoint);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::ServicePoint*, "System.Net", "ServicePoint");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::ServicePoint::get_Address

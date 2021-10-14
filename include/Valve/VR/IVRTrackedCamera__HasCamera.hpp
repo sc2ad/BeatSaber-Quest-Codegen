@@ -56,6 +56,7 @@ namespace Valve::VR {
   }; // Valve.VR.IVRTrackedCamera/Valve.VR._HasCamera
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::IVRTrackedCamera::_HasCamera);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRTrackedCamera::_HasCamera*, "Valve.VR", "IVRTrackedCamera/_HasCamera");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRTrackedCamera::_HasCamera::New_ctor

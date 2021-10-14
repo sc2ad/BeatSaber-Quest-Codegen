@@ -61,6 +61,7 @@ namespace System {
   }; // System.TimeZone
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::TimeZone);
 DEFINE_IL2CPP_ARG_TYPE(System::TimeZone*, "System", "TimeZone");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::TimeZone::get_CurrentTimeZone

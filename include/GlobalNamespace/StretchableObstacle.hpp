@@ -171,6 +171,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(StretchableObstacle), 72 + sizeof(UnityEngine::Bounds)> __GlobalNamespace_StretchableObstacleSizeCheck;
   static_assert(sizeof(StretchableObstacle) == 0x60);
 }
+NEED_NO_BOX(GlobalNamespace::StretchableObstacle);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StretchableObstacle*, "", "StretchableObstacle");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::StretchableObstacle::get_bounds

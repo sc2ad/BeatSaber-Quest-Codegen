@@ -124,6 +124,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(NamedColorListController), 56 + sizeof(System::Action_1<int>*)> __GlobalNamespace_NamedColorListControllerSizeCheck;
   static_assert(sizeof(NamedColorListController) == 0x40);
 }
+NEED_NO_BOX(GlobalNamespace::NamedColorListController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NamedColorListController*, "", "NamedColorListController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NamedColorListController::add_valueChangedEvent

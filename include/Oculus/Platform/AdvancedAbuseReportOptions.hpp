@@ -78,6 +78,7 @@ namespace Oculus::Platform {
   static check_size<sizeof(AdvancedAbuseReportOptions), 16 + sizeof(System::IntPtr)> __Oculus_Platform_AdvancedAbuseReportOptionsSizeCheck;
   static_assert(sizeof(AdvancedAbuseReportOptions) == 0x18);
 }
+NEED_NO_BOX(Oculus::Platform::AdvancedAbuseReportOptions);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::AdvancedAbuseReportOptions*, "Oculus.Platform", "AdvancedAbuseReportOptions");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::AdvancedAbuseReportOptions::SetObjectType

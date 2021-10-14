@@ -177,6 +177,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SteamPlatformAdditionalContentModel), 72 + sizeof(bool)> __GlobalNamespace_SteamPlatformAdditionalContentModelSizeCheck;
   static_assert(sizeof(SteamPlatformAdditionalContentModel) == 0x49);
 }
+NEED_NO_BOX(GlobalNamespace::SteamPlatformAdditionalContentModel);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamPlatformAdditionalContentModel*, "", "SteamPlatformAdditionalContentModel");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamPlatformAdditionalContentModel::DataIsValidAsync

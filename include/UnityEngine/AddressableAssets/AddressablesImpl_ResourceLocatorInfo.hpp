@@ -115,6 +115,7 @@ namespace UnityEngine::AddressableAssets {
   static check_size<sizeof(AddressablesImpl::ResourceLocatorInfo), 40 + sizeof(bool)> __UnityEngine_AddressableAssets_AddressablesImpl_ResourceLocatorInfoSizeCheck;
   static_assert(sizeof(AddressablesImpl::ResourceLocatorInfo) == 0x29);
 }
+NEED_NO_BOX(UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*, "UnityEngine.AddressableAssets", "AddressablesImpl/ResourceLocatorInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::get_Locator

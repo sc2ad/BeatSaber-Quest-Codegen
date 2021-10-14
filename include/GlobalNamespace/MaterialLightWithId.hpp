@@ -185,6 +185,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MaterialLightWithId), 104 + sizeof(int)> __GlobalNamespace_MaterialLightWithIdSizeCheck;
   static_assert(sizeof(MaterialLightWithId) == 0x6C);
 }
+NEED_NO_BOX(GlobalNamespace::MaterialLightWithId);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialLightWithId*, "", "MaterialLightWithId");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MaterialLightWithId::get_color

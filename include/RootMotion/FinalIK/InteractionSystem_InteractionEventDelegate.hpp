@@ -57,6 +57,7 @@ namespace RootMotion::FinalIK {
   }; // RootMotion.FinalIK.InteractionSystem/RootMotion.FinalIK.InteractionEventDelegate
   #pragma pack(pop)
 }
+NEED_NO_BOX(RootMotion::FinalIK::InteractionSystem::InteractionEventDelegate);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionSystem::InteractionEventDelegate*, "RootMotion.FinalIK", "InteractionSystem/InteractionEventDelegate");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionSystem::InteractionEventDelegate::New_ctor

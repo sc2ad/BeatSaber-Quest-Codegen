@@ -61,6 +61,7 @@ namespace Oculus::Platform::Models {
   static check_size<sizeof(MatchmakingAdminSnapshot), 24 + sizeof(double)> __Oculus_Platform_Models_MatchmakingAdminSnapshotSizeCheck;
   static_assert(sizeof(MatchmakingAdminSnapshot) == 0x20);
 }
+NEED_NO_BOX(Oculus::Platform::Models::MatchmakingAdminSnapshot);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::MatchmakingAdminSnapshot*, "Oculus.Platform.Models", "MatchmakingAdminSnapshot");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::MatchmakingAdminSnapshot::New_ctor

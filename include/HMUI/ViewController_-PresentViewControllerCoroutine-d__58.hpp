@@ -129,6 +129,7 @@ namespace HMUI {
   static check_size<sizeof(ViewController::$PresentViewControllerCoroutine$d__58), 56 + sizeof(System::Action*)> __HMUI_ViewController_$PresentViewControllerCoroutine$d__58SizeCheck;
   static_assert(sizeof(ViewController::$PresentViewControllerCoroutine$d__58) == 0x40);
 }
+NEED_NO_BOX(HMUI::ViewController::$PresentViewControllerCoroutine$d__58);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ViewController::$PresentViewControllerCoroutine$d__58*, "HMUI", "ViewController/<PresentViewControllerCoroutine>d__58");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::ViewController::$PresentViewControllerCoroutine$d__58::System_Collections_Generic_IEnumerator$System_Object$_get_Current

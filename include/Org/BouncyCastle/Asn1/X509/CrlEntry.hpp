@@ -102,6 +102,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
   static check_size<sizeof(CrlEntry), 40 + sizeof(Org::BouncyCastle::Asn1::X509::X509Extensions*)> __Org_BouncyCastle_Asn1_X509_CrlEntrySizeCheck;
   static_assert(sizeof(CrlEntry) == 0x30);
 }
+NEED_NO_BOX(Org::BouncyCastle::Asn1::X509::CrlEntry);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::CrlEntry*, "Org.BouncyCastle.Asn1.X509", "CrlEntry");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::CrlEntry::get_UserCertificate

@@ -123,6 +123,7 @@ namespace UnityEngine::TestTools::Utils {
   static check_size<sizeof(CoroutineRunner::$StartTimer$d__11), 56 + sizeof(System::Action*)> __UnityEngine_TestTools_Utils_CoroutineRunner_$StartTimer$d__11SizeCheck;
   static_assert(sizeof(CoroutineRunner::$StartTimer$d__11) == 0x40);
 }
+NEED_NO_BOX(UnityEngine::TestTools::Utils::CoroutineRunner::$StartTimer$d__11);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Utils::CoroutineRunner::$StartTimer$d__11*, "UnityEngine.TestTools.Utils", "CoroutineRunner/<StartTimer>d__11");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::Utils::CoroutineRunner::$StartTimer$d__11::System_Collections_Generic_IEnumerator$System_Object$_get_Current

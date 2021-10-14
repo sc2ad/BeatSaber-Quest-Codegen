@@ -155,6 +155,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   static check_size<sizeof(ECDomainParameters), 56 + sizeof(Org::BouncyCastle::Math::BigInteger*)> __Org_BouncyCastle_Crypto_Parameters_ECDomainParametersSizeCheck;
   static_assert(sizeof(ECDomainParameters) == 0x40);
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Parameters::ECDomainParameters);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*, "Org.BouncyCastle.Crypto.Parameters", "ECDomainParameters");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::get_Curve

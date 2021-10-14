@@ -36,6 +36,7 @@ namespace UnityEngine::UI::CoroutineTween {
     }
   }; // UnityEngine.UI.CoroutineTween.ColorTween/UnityEngine.UI.CoroutineTween.ColorTweenCallback
 }
+NEED_NO_BOX(UnityEngine::UI::CoroutineTween::ColorTween::ColorTweenCallback);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CoroutineTween::ColorTween::ColorTweenCallback*, "UnityEngine.UI.CoroutineTween", "ColorTween/ColorTweenCallback");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::CoroutineTween::ColorTween::ColorTweenCallback::New_ctor

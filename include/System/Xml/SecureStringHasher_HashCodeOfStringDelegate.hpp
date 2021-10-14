@@ -50,6 +50,7 @@ namespace System::Xml {
   }; // System.Xml.SecureStringHasher/System.Xml.HashCodeOfStringDelegate
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Xml::SecureStringHasher::HashCodeOfStringDelegate);
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::SecureStringHasher::HashCodeOfStringDelegate*, "System.Xml", "SecureStringHasher/HashCodeOfStringDelegate");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::SecureStringHasher::HashCodeOfStringDelegate::New_ctor

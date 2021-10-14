@@ -234,6 +234,7 @@ namespace UnityEngine {
   }; // UnityEngine.Component
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::Component);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Component*, "UnityEngine", "Component");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Component::get_transform

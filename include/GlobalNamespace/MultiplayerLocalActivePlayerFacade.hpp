@@ -214,6 +214,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerLocalActivePlayerFacade), 88 + sizeof(System::Action_1<GlobalNamespace::PlayerNetworkFailReason>*)> __GlobalNamespace_MultiplayerLocalActivePlayerFacadeSizeCheck;
   static_assert(sizeof(MultiplayerLocalActivePlayerFacade) == 0x60);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerLocalActivePlayerFacade);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalActivePlayerFacade*, "", "MultiplayerLocalActivePlayerFacade");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalActivePlayerFacade::get_introAnimator

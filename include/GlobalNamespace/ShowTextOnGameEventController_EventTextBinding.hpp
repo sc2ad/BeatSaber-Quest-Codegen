@@ -83,6 +83,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ShowTextOnGameEventController::EventTextBinding), 32 + sizeof(GlobalNamespace::TextFadeTransitions*)> __GlobalNamespace_ShowTextOnGameEventController_EventTextBindingSizeCheck;
   static_assert(sizeof(ShowTextOnGameEventController::EventTextBinding) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::ShowTextOnGameEventController::EventTextBinding);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShowTextOnGameEventController::EventTextBinding*, "", "ShowTextOnGameEventController/EventTextBinding");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ShowTextOnGameEventController::EventTextBinding::Init

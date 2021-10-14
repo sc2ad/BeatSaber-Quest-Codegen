@@ -55,6 +55,7 @@ namespace GlobalNamespace {
   }; // GameplayModifiersModelSO/GameplayModifierBoolGetter
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter*, "", "GameplayModifiersModelSO/GameplayModifierBoolGetter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter::New_ctor

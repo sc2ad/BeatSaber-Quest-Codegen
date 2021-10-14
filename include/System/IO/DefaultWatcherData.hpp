@@ -126,6 +126,7 @@ namespace System::IO {
   static check_size<sizeof(DefaultWatcherData), 64 + sizeof(System::Collections::Hashtable*)> __System_IO_DefaultWatcherDataSizeCheck;
   static_assert(sizeof(DefaultWatcherData) == 0x48);
 }
+NEED_NO_BOX(System::IO::DefaultWatcherData);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::DefaultWatcherData*, "System.IO", "DefaultWatcherData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::DefaultWatcherData::New_ctor

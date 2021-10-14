@@ -108,6 +108,7 @@ namespace MasterServer {
   static check_size<sizeof(UserMessageHandler::$$c__DisplayClass12_0), 48 + sizeof(System::Action_1<GlobalNamespace::ConnectionFailedReason>*)> __MasterServer_UserMessageHandler_$$c__DisplayClass12_0SizeCheck;
   static_assert(sizeof(UserMessageHandler::$$c__DisplayClass12_0) == 0x38);
 }
+NEED_NO_BOX(MasterServer::UserMessageHandler::$$c__DisplayClass12_0);
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::UserMessageHandler::$$c__DisplayClass12_0*, "MasterServer", "UserMessageHandler/<>c__DisplayClass12_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: MasterServer::UserMessageHandler::$$c__DisplayClass12_0::$SendConnectToServerRequest$b__0

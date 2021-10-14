@@ -123,6 +123,7 @@ namespace HMUI {
   static check_size<sizeof(InputFieldDataBinder), 16 + sizeof(System::Collections::Generic::List_1<System::Tuple_4<UnityEngine::UI::InputField*, GlobalNamespace::IObservableChange*, UnityEngine::Events::UnityAction_1<::Il2CppString*>*, System::Action*>*>*)> __HMUI_InputFieldDataBinderSizeCheck;
   static_assert(sizeof(InputFieldDataBinder) == 0x18);
 }
+NEED_NO_BOX(HMUI::InputFieldDataBinder);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::InputFieldDataBinder*, "HMUI", "InputFieldDataBinder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::InputFieldDataBinder::AddBindings

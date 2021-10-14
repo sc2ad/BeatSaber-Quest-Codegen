@@ -35,6 +35,7 @@ namespace GlobalNamespace {
     }
   }; // BombCutSoundEffect/Pool
 }
+NEED_NO_BOX(GlobalNamespace::BombCutSoundEffect::Pool);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BombCutSoundEffect::Pool*, "", "BombCutSoundEffect/Pool");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BombCutSoundEffect::Pool::New_ctor

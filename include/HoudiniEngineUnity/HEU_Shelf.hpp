@@ -85,6 +85,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_Shelf), 40 + sizeof(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_ShelfToolData*>*)> __HoudiniEngineUnity_HEU_ShelfSizeCheck;
   static_assert(sizeof(HEU_Shelf) == 0x30);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_Shelf);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_Shelf*, "HoudiniEngineUnity", "HEU_Shelf");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Shelf::New_ctor

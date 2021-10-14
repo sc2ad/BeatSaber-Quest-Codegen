@@ -74,6 +74,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(DeactivateOnInputFocusCapture), 24 + sizeof(GlobalNamespace::IVRPlatformHelper*)> __GlobalNamespace_DeactivateOnInputFocusCaptureSizeCheck;
   static_assert(sizeof(DeactivateOnInputFocusCapture) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::DeactivateOnInputFocusCapture);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DeactivateOnInputFocusCapture*, "", "DeactivateOnInputFocusCapture");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DeactivateOnInputFocusCapture::OnEnable

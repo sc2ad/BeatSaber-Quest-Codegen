@@ -22,6 +22,7 @@ namespace Org::BouncyCastle::OpenSsl {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(Org::BouncyCastle::OpenSsl::IPasswordFinder);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::OpenSsl::IPasswordFinder*, "Org.BouncyCastle.OpenSsl", "IPasswordFinder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::OpenSsl::IPasswordFinder::GetPassword

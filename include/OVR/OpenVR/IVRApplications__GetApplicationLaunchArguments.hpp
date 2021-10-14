@@ -56,6 +56,7 @@ namespace OVR::OpenVR {
   }; // OVR.OpenVR.IVRApplications/OVR.OpenVR._GetApplicationLaunchArguments
   #pragma pack(pop)
 }
+NEED_NO_BOX(OVR::OpenVR::IVRApplications::_GetApplicationLaunchArguments);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRApplications::_GetApplicationLaunchArguments*, "OVR.OpenVR", "IVRApplications/_GetApplicationLaunchArguments");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVRApplications::_GetApplicationLaunchArguments::New_ctor

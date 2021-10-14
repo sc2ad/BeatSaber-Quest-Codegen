@@ -51,6 +51,7 @@ namespace System::Net {
   }; // System.Net.HttpRequestCreator
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Net::HttpRequestCreator);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpRequestCreator*, "System.Net", "HttpRequestCreator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::HttpRequestCreator::Create

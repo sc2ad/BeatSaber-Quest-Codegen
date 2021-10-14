@@ -73,6 +73,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BeatmapEditorScenesTransitionSetupDataSO), 48 + sizeof(System::Action_1<GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*>*)> __GlobalNamespace_BeatmapEditorScenesTransitionSetupDataSOSizeCheck;
   static_assert(sizeof(BeatmapEditorScenesTransitionSetupDataSO) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*, "", "BeatmapEditorScenesTransitionSetupDataSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO::add_didFinishEvent

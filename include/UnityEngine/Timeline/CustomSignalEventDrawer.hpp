@@ -34,6 +34,7 @@ namespace UnityEngine::Timeline {
   }; // UnityEngine.Timeline.CustomSignalEventDrawer
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::Timeline::CustomSignalEventDrawer);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::CustomSignalEventDrawer*, "UnityEngine.Timeline", "CustomSignalEventDrawer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::CustomSignalEventDrawer::New_ctor

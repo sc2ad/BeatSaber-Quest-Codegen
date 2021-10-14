@@ -182,6 +182,7 @@ namespace System::Globalization {
   static check_size<sizeof(GregorianCalendar), 28 + sizeof(System::Globalization::GregorianCalendarTypes)> __System_Globalization_GregorianCalendarSizeCheck;
   static_assert(sizeof(GregorianCalendar) == 0x20);
 }
+NEED_NO_BOX(System::Globalization::GregorianCalendar);
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::GregorianCalendar*, "System.Globalization", "GregorianCalendar");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Globalization::GregorianCalendar::New_ctor

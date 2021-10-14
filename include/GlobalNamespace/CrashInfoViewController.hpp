@@ -77,6 +77,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(CrashInfoViewController), 32 + sizeof(TMPro::TextMeshProUGUI*)> __GlobalNamespace_CrashInfoViewControllerSizeCheck;
   static_assert(sizeof(CrashInfoViewController) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::CrashInfoViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CrashInfoViewController*, "", "CrashInfoViewController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CrashInfoViewController::Start

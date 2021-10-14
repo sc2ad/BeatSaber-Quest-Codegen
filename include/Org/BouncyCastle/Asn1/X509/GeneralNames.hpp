@@ -89,6 +89,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
   static check_size<sizeof(GeneralNames), 16 + sizeof(::ArrayW<Org::BouncyCastle::Asn1::X509::GeneralName*>)> __Org_BouncyCastle_Asn1_X509_GeneralNamesSizeCheck;
   static_assert(sizeof(GeneralNames) == 0x18);
 }
+NEED_NO_BOX(Org::BouncyCastle::Asn1::X509::GeneralNames);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::GeneralNames*, "Org.BouncyCastle.Asn1.X509", "GeneralNames");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::GeneralNames::New_ctor

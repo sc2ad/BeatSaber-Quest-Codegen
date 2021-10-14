@@ -128,6 +128,7 @@ namespace MasterServer {
   static check_size<sizeof(BaseConnectToServerRequest), 48 + sizeof(GlobalNamespace::ByteArrayNetSerializable*)> __MasterServer_BaseConnectToServerRequestSizeCheck;
   static_assert(sizeof(BaseConnectToServerRequest) == 0x38);
 }
+NEED_NO_BOX(MasterServer::BaseConnectToServerRequest);
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::BaseConnectToServerRequest*, "MasterServer", "BaseConnectToServerRequest");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: MasterServer::BaseConnectToServerRequest::get_userId

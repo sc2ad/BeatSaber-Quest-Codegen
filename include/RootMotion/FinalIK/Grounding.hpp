@@ -402,6 +402,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(Grounding), 164 + sizeof(bool)> __RootMotion_FinalIK_GroundingSizeCheck;
   static_assert(sizeof(Grounding) == 0xA5);
 }
+NEED_NO_BOX(RootMotion::FinalIK::Grounding);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Grounding*, "RootMotion.FinalIK", "Grounding");
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Grounding::Quality, "RootMotion.FinalIK", "Grounding/Quality");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

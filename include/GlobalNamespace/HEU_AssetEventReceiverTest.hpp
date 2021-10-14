@@ -63,6 +63,7 @@ namespace GlobalNamespace {
   }; // HEU_AssetEventReceiverTest
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::HEU_AssetEventReceiverTest);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HEU_AssetEventReceiverTest*, "", "HEU_AssetEventReceiverTest");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HEU_AssetEventReceiverTest::ReloadCallback

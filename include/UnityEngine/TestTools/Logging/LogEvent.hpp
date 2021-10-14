@@ -101,6 +101,7 @@ namespace UnityEngine::TestTools::Logging {
   static check_size<sizeof(LogEvent), 36 + sizeof(bool)> __UnityEngine_TestTools_Logging_LogEventSizeCheck;
   static_assert(sizeof(LogEvent) == 0x25);
 }
+NEED_NO_BOX(UnityEngine::TestTools::Logging::LogEvent);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Logging::LogEvent*, "UnityEngine.TestTools.Logging", "LogEvent");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogEvent::get_Message

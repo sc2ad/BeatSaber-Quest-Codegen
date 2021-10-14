@@ -35,6 +35,7 @@ namespace NUnit::Framework::Interfaces {
     }
   }; // NUnit.Framework.Interfaces.AttributeDictionary
 }
+NEED_NO_BOX(NUnit::Framework::Interfaces::AttributeDictionary);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::AttributeDictionary*, "NUnit.Framework.Interfaces", "AttributeDictionary");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::AttributeDictionary::get_Item

@@ -50,6 +50,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
   }; // Org.BouncyCastle.Math.EC.Multiplier.FixedPointCombMultiplier
   #pragma pack(pop)
 }
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::Multiplier::FixedPointCombMultiplier);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::FixedPointCombMultiplier*, "Org.BouncyCastle.Math.EC.Multiplier", "FixedPointCombMultiplier");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Multiplier::FixedPointCombMultiplier::New_ctor

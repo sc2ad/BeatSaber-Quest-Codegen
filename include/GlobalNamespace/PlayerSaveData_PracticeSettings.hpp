@@ -56,6 +56,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PlayerSaveData::PracticeSettings), 20 + sizeof(float)> __GlobalNamespace_PlayerSaveData_PracticeSettingsSizeCheck;
   static_assert(sizeof(PlayerSaveData::PracticeSettings) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::PlayerSaveData::PracticeSettings);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveData::PracticeSettings*, "", "PlayerSaveData/PracticeSettings");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSaveData::PracticeSettings::New_ctor

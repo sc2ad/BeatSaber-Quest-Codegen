@@ -47,6 +47,7 @@ namespace GlobalNamespace {
     }
   }; // NoTransitionButtonSelectableStateController
 }
+NEED_NO_BOX(GlobalNamespace::NoTransitionButtonSelectableStateController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoTransitionButtonSelectableStateController*, "", "NoTransitionButtonSelectableStateController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoTransitionButtonSelectableStateController::OnEnable

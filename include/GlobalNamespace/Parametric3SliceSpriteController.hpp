@@ -236,6 +236,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(Parametric3SliceSpriteController), 88 + sizeof(bool)> __GlobalNamespace_Parametric3SliceSpriteControllerSizeCheck;
   static_assert(sizeof(Parametric3SliceSpriteController) == 0x59);
 }
+NEED_NO_BOX(GlobalNamespace::Parametric3SliceSpriteController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Parametric3SliceSpriteController*, "", "Parametric3SliceSpriteController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::Parametric3SliceSpriteController::Awake

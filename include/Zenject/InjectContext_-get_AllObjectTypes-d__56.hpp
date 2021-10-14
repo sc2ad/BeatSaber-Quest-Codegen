@@ -130,6 +130,7 @@ namespace Zenject {
   static check_size<sizeof(InjectContext::$get_AllObjectTypes$d__56), 48 + sizeof(System::Collections::Generic::IEnumerator_1<Zenject::InjectContext*>*)> __Zenject_InjectContext_$get_AllObjectTypes$d__56SizeCheck;
   static_assert(sizeof(InjectContext::$get_AllObjectTypes$d__56) == 0x38);
 }
+NEED_NO_BOX(Zenject::InjectContext::$get_AllObjectTypes$d__56);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::InjectContext::$get_AllObjectTypes$d__56*, "Zenject", "InjectContext/<get_AllObjectTypes>d__56");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::InjectContext::$get_AllObjectTypes$d__56::System_Collections_Generic_IEnumerator$System_Type$_get_Current

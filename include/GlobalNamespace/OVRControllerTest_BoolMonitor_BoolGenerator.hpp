@@ -50,6 +50,7 @@ namespace GlobalNamespace {
   }; // OVRControllerTest/BoolMonitor/BoolGenerator
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator*, "", "OVRControllerTest/BoolMonitor/BoolGenerator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator::New_ctor

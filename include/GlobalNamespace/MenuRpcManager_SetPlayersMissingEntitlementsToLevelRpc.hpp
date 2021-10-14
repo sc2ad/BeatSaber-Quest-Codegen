@@ -41,6 +41,7 @@ namespace GlobalNamespace {
     }
   }; // MenuRpcManager/SetPlayersMissingEntitlementsToLevelRpc
 }
+NEED_NO_BOX(GlobalNamespace::MenuRpcManager::SetPlayersMissingEntitlementsToLevelRpc);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuRpcManager::SetPlayersMissingEntitlementsToLevelRpc*, "", "MenuRpcManager/SetPlayersMissingEntitlementsToLevelRpc");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::SetPlayersMissingEntitlementsToLevelRpc::New_ctor

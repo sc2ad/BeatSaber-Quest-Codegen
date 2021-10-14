@@ -78,6 +78,7 @@ namespace Zenject {
   static check_size<sizeof(MemoryPoolSettings), 24 + sizeof(Zenject::PoolExpandMethods)> __Zenject_MemoryPoolSettingsSizeCheck;
   static_assert(sizeof(MemoryPoolSettings) == 0x1C);
 }
+NEED_NO_BOX(Zenject::MemoryPoolSettings);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::MemoryPoolSettings*, "Zenject", "MemoryPoolSettings");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::MemoryPoolSettings::New_ctor

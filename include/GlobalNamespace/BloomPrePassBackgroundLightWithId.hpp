@@ -75,6 +75,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BloomPrePassBackgroundLightWithId), 48 + sizeof(GlobalNamespace::BloomPrePassBackgroundColor*)> __GlobalNamespace_BloomPrePassBackgroundLightWithIdSizeCheck;
   static_assert(sizeof(BloomPrePassBackgroundLightWithId) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::BloomPrePassBackgroundLightWithId);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassBackgroundLightWithId*, "", "BloomPrePassBackgroundLightWithId");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePassBackgroundLightWithId::get_color

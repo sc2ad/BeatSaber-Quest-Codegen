@@ -64,6 +64,7 @@ namespace System::Threading {
   static check_size<sizeof(OSSpecificSynchronizationContext::InvocationContext), 24 + sizeof(::Il2CppObject*)> __System_Threading_OSSpecificSynchronizationContext_InvocationContextSizeCheck;
   static_assert(sizeof(OSSpecificSynchronizationContext::InvocationContext) == 0x20);
 }
+NEED_NO_BOX(System::Threading::OSSpecificSynchronizationContext::InvocationContext);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::OSSpecificSynchronizationContext::InvocationContext*, "System.Threading", "OSSpecificSynchronizationContext/InvocationContext");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::OSSpecificSynchronizationContext::InvocationContext::New_ctor

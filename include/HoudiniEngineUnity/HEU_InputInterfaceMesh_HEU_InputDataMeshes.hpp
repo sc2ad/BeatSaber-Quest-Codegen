@@ -69,6 +69,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_InputInterfaceMesh::HEU_InputDataMeshes), 32 + sizeof(bool)> __HoudiniEngineUnity_HEU_InputInterfaceMesh_HEU_InputDataMeshesSizeCheck;
   static_assert(sizeof(HEU_InputInterfaceMesh::HEU_InputDataMeshes) == 0x21);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_InputInterfaceMesh::HEU_InputDataMeshes);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_InputInterfaceMesh::HEU_InputDataMeshes*, "HoudiniEngineUnity", "HEU_InputInterfaceMesh/HEU_InputDataMeshes");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_InputInterfaceMesh::HEU_InputDataMeshes::New_ctor

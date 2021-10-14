@@ -101,6 +101,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MissionLevelFailedController::$LevelFailedCoroutine$d__13), 40 + sizeof(GlobalNamespace::MissionCompletionResults*)> __GlobalNamespace_MissionLevelFailedController_$LevelFailedCoroutine$d__13SizeCheck;
   static_assert(sizeof(MissionLevelFailedController::$LevelFailedCoroutine$d__13) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::MissionLevelFailedController::$LevelFailedCoroutine$d__13);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelFailedController::$LevelFailedCoroutine$d__13*, "", "MissionLevelFailedController/<LevelFailedCoroutine>d__13");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionLevelFailedController::$LevelFailedCoroutine$d__13::System_Collections_Generic_IEnumerator$System_Object$_get_Current

@@ -68,6 +68,7 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
   }; // UnityEngine.TestTools.TestRunner.Callbacks.PlayerQuitHandler
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::TestTools::TestRunner::Callbacks::PlayerQuitHandler);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::Callbacks::PlayerQuitHandler*, "UnityEngine.TestTools.TestRunner.Callbacks", "PlayerQuitHandler");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::Callbacks::PlayerQuitHandler::Start

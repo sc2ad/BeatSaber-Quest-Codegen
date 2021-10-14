@@ -45,6 +45,7 @@ namespace UnityEngine::TestTools::TestRunner {
   }; // UnityEngine.TestTools.TestRunner.InvalidSignatureException
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::TestTools::TestRunner::InvalidSignatureException);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::InvalidSignatureException*, "UnityEngine.TestTools.TestRunner", "InvalidSignatureException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::InvalidSignatureException::get_ResultState

@@ -202,6 +202,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LobbyStateDataModel), 64 + sizeof(System::Action_1<GlobalNamespace::IConnectedPlayer*>*)> __GlobalNamespace_LobbyStateDataModelSizeCheck;
   static_assert(sizeof(LobbyStateDataModel) == 0x48);
 }
+NEED_NO_BOX(GlobalNamespace::LobbyStateDataModel);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LobbyStateDataModel*, "", "LobbyStateDataModel");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LobbyStateDataModel::get_isConnected

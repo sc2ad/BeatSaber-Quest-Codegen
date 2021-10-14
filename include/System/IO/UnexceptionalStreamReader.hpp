@@ -87,6 +87,7 @@ namespace System::IO {
   }; // System.IO.UnexceptionalStreamReader
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::IO::UnexceptionalStreamReader);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::UnexceptionalStreamReader*, "System.IO", "UnexceptionalStreamReader");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::UnexceptionalStreamReader::CheckEOL

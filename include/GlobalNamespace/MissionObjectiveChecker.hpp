@@ -228,6 +228,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MissionObjectiveChecker), 64 + sizeof(bool)> __GlobalNamespace_MissionObjectiveCheckerSizeCheck;
   static_assert(sizeof(MissionObjectiveChecker) == 0x41);
 }
+NEED_NO_BOX(GlobalNamespace::MissionObjectiveChecker);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjectiveChecker*, "", "MissionObjectiveChecker");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjectiveChecker::Status, "", "MissionObjectiveChecker/Status");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

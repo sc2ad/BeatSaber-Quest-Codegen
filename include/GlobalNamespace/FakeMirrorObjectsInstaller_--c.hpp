@@ -57,6 +57,7 @@ namespace GlobalNamespace {
   }; // FakeMirrorObjectsInstaller/<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::FakeMirrorObjectsInstaller::$$c);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FakeMirrorObjectsInstaller::$$c*, "", "FakeMirrorObjectsInstaller/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FakeMirrorObjectsInstaller::$$c::_cctor

@@ -118,6 +118,7 @@ namespace System {
   static check_size<sizeof(WeakReference), 20 + sizeof(System::Runtime::InteropServices::GCHandle)> __System_WeakReferenceSizeCheck;
   static_assert(sizeof(WeakReference) == 0x18);
 }
+NEED_NO_BOX(System::WeakReference);
 DEFINE_IL2CPP_ARG_TYPE(System::WeakReference*, "System", "WeakReference");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::WeakReference::get_IsAlive

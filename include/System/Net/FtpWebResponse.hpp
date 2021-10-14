@@ -223,6 +223,7 @@ namespace System::Net {
   static check_size<sizeof(FtpWebResponse), 112 + sizeof(int64_t)> __System_Net_FtpWebResponseSizeCheck;
   static_assert(sizeof(FtpWebResponse) == 0x78);
 }
+NEED_NO_BOX(System::Net::FtpWebResponse);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::FtpWebResponse*, "System.Net", "FtpWebResponse");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::FtpWebResponse::set_LastModified

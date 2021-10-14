@@ -205,6 +205,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(NoteCutInfoNetSerializable), 116 + sizeof(GlobalNamespace::Vector3Serializable)> __GlobalNamespace_NoteCutInfoNetSerializableSizeCheck;
   static_assert(sizeof(NoteCutInfoNetSerializable) == 0x80);
 }
+NEED_NO_BOX(GlobalNamespace::NoteCutInfoNetSerializable);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutInfoNetSerializable*, "", "NoteCutInfoNetSerializable");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteCutInfoNetSerializable::New_ctor

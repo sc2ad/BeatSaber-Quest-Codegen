@@ -81,6 +81,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(Inertia), 56 + sizeof(::ArrayW<RootMotion::FinalIK::OffsetModifier::OffsetLimits*>)> __RootMotion_FinalIK_InertiaSizeCheck;
   static_assert(sizeof(Inertia) == 0x40);
 }
+NEED_NO_BOX(RootMotion::FinalIK::Inertia);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Inertia*, "RootMotion.FinalIK", "Inertia");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::Inertia::ResetBodies

@@ -52,6 +52,7 @@ namespace System::Xml {
   static check_size<sizeof(TernaryTreeReadOnly), 16 + sizeof(::ArrayW<uint8_t>)> __System_Xml_TernaryTreeReadOnlySizeCheck;
   static_assert(sizeof(TernaryTreeReadOnly) == 0x18);
 }
+NEED_NO_BOX(System::Xml::TernaryTreeReadOnly);
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::TernaryTreeReadOnly*, "System.Xml", "TernaryTreeReadOnly");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::TernaryTreeReadOnly::New_ctor

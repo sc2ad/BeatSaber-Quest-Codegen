@@ -111,6 +111,7 @@ namespace System {
   static check_size<sizeof(MissingMemberException), 152 + sizeof(::ArrayW<uint8_t>)> __System_MissingMemberExceptionSizeCheck;
   static_assert(sizeof(MissingMemberException) == 0xA0);
 }
+NEED_NO_BOX(System::MissingMemberException);
 DEFINE_IL2CPP_ARG_TYPE(System::MissingMemberException*, "System", "MissingMemberException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::MissingMemberException::FormatSignature

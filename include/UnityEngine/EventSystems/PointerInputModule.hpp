@@ -165,6 +165,7 @@ namespace UnityEngine::EventSystems {
   static check_size<sizeof(PointerInputModule), 80 + sizeof(UnityEngine::EventSystems::PointerInputModule::MouseState*)> __UnityEngine_EventSystems_PointerInputModuleSizeCheck;
   static_assert(sizeof(PointerInputModule) == 0x58);
 }
+NEED_NO_BOX(UnityEngine::EventSystems::PointerInputModule);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::PointerInputModule*, "UnityEngine.EventSystems", "PointerInputModule");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::EventSystems::PointerInputModule::GetPointerData

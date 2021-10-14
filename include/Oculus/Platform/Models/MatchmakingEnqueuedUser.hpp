@@ -76,6 +76,7 @@ namespace Oculus::Platform::Models {
   static check_size<sizeof(MatchmakingEnqueuedUser), 32 + sizeof(Oculus::Platform::Models::User*)> __Oculus_Platform_Models_MatchmakingEnqueuedUserSizeCheck;
   static_assert(sizeof(MatchmakingEnqueuedUser) == 0x28);
 }
+NEED_NO_BOX(Oculus::Platform::Models::MatchmakingEnqueuedUser);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::MatchmakingEnqueuedUser*, "Oculus.Platform.Models", "MatchmakingEnqueuedUser");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::MatchmakingEnqueuedUser::New_ctor

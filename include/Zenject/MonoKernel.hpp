@@ -121,6 +121,7 @@ namespace Zenject {
   static check_size<sizeof(MonoKernel), 49 + sizeof(bool)> __Zenject_MonoKernelSizeCheck;
   static_assert(sizeof(MonoKernel) == 0x32);
 }
+NEED_NO_BOX(Zenject::MonoKernel);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::MonoKernel*, "Zenject", "MonoKernel");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::MonoKernel::get_IsDestroyed

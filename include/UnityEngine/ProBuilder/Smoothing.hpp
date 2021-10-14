@@ -98,6 +98,7 @@ namespace UnityEngine::ProBuilder {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::ProBuilder::Smoothing);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Smoothing*, "UnityEngine.ProBuilder", "Smoothing");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Smoothing::GetUnusedSmoothingGroup

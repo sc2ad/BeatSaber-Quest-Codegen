@@ -34,6 +34,7 @@ namespace JetBrains::Annotations {
   }; // JetBrains.Annotations.AspDataFieldAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(JetBrains::Annotations::AspDataFieldAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::AspDataFieldAttribute*, "JetBrains.Annotations", "AspDataFieldAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: JetBrains::Annotations::AspDataFieldAttribute::New_ctor

@@ -38,6 +38,7 @@ namespace UnityEngine::AddressableAssets {
     }
   }; // UnityEngine.AddressableAssets.AssetReferenceTexture
 }
+NEED_NO_BOX(UnityEngine::AddressableAssets::AssetReferenceTexture);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::AssetReferenceTexture*, "UnityEngine.AddressableAssets", "AssetReferenceTexture");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AssetReferenceTexture::New_ctor

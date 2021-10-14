@@ -79,6 +79,7 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
   static check_size<sizeof(RC2CbcParameter), 24 + sizeof(Org::BouncyCastle::Asn1::Asn1OctetString*)> __Org_BouncyCastle_Asn1_Pkcs_RC2CbcParameterSizeCheck;
   static_assert(sizeof(RC2CbcParameter) == 0x20);
 }
+NEED_NO_BOX(Org::BouncyCastle::Asn1::Pkcs::RC2CbcParameter);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Pkcs::RC2CbcParameter*, "Org.BouncyCastle.Asn1.Pkcs", "RC2CbcParameter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::RC2CbcParameter::New_ctor

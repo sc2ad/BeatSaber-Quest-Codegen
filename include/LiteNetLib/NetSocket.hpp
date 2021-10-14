@@ -179,6 +179,7 @@ namespace LiteNetLib {
   static check_size<sizeof(NetSocket), 60 + sizeof(bool)> __LiteNetLib_NetSocketSizeCheck;
   static_assert(sizeof(NetSocket) == 0x3D);
 }
+NEED_NO_BOX(LiteNetLib::NetSocket);
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetSocket*, "LiteNetLib", "NetSocket");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::NetSocket::get_LocalPort

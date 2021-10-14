@@ -45,6 +45,7 @@ namespace System::Collections::Concurrent {
   }; // System.Collections.Concurrent.CDSCollectionETWBCLProvider
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Collections::Concurrent::CDSCollectionETWBCLProvider);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Concurrent::CDSCollectionETWBCLProvider*, "System.Collections.Concurrent", "CDSCollectionETWBCLProvider");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::Concurrent::CDSCollectionETWBCLProvider::ConcurrentDictionary_AcquiringAllLocks

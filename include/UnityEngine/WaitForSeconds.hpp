@@ -52,6 +52,7 @@ namespace UnityEngine {
   static check_size<sizeof(WaitForSeconds), 16 + sizeof(float)> __UnityEngine_WaitForSecondsSizeCheck;
   static_assert(sizeof(WaitForSeconds) == 0x14);
 }
+NEED_NO_BOX(UnityEngine::WaitForSeconds);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::WaitForSeconds*, "UnityEngine", "WaitForSeconds");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::WaitForSeconds::New_ctor

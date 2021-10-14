@@ -275,6 +275,7 @@ namespace LiteNetLib {
   static check_size<sizeof(NatPunchModule), 64 + sizeof(LiteNetLib::INatPunchListener*)> __LiteNetLib_NatPunchModuleSizeCheck;
   static_assert(sizeof(NatPunchModule) == 0x48);
 }
+NEED_NO_BOX(LiteNetLib::NatPunchModule);
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NatPunchModule*, "LiteNetLib", "NatPunchModule");
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NatPunchModule::RequestEventData, "LiteNetLib", "NatPunchModule/RequestEventData");
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NatPunchModule::SuccessEventData, "LiteNetLib", "NatPunchModule/SuccessEventData");

@@ -44,6 +44,7 @@ namespace System::Security::Cryptography {
   }; // System.Security.Cryptography.HMACMD5
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Security::Cryptography::HMACMD5);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::HMACMD5*, "System.Security.Cryptography", "HMACMD5");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::HMACMD5::New_ctor

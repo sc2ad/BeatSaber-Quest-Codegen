@@ -56,6 +56,7 @@ namespace MasterServer {
   }; // MasterServer.DedicatedServerMessageReceivedAcknowledge
   #pragma pack(pop)
 }
+NEED_NO_BOX(MasterServer::DedicatedServerMessageReceivedAcknowledge);
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::DedicatedServerMessageReceivedAcknowledge*, "MasterServer", "DedicatedServerMessageReceivedAcknowledge");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: MasterServer::DedicatedServerMessageReceivedAcknowledge::get_pool

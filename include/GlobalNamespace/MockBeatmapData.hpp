@@ -132,6 +132,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MockBeatmapData), 48 + sizeof(::ArrayW<GlobalNamespace::MockObstacleData*>)> __GlobalNamespace_MockBeatmapDataSizeCheck;
   static_assert(sizeof(MockBeatmapData) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::MockBeatmapData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockBeatmapData*, "", "MockBeatmapData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MockBeatmapData::get_numberOfLines

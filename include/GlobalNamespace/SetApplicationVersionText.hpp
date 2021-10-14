@@ -64,6 +64,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SetApplicationVersionText), 24 + sizeof(TMPro::TextMeshPro*)> __GlobalNamespace_SetApplicationVersionTextSizeCheck;
   static_assert(sizeof(SetApplicationVersionText) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::SetApplicationVersionText);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SetApplicationVersionText*, "", "SetApplicationVersionText");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SetApplicationVersionText::Start

@@ -69,6 +69,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   static check_size<sizeof(UVEditing::$$c__DisplayClass9_0), 24 + sizeof(UnityEngine::ProBuilder::Face*)> __UnityEngine_ProBuilder_MeshOperations_UVEditing_$$c__DisplayClass9_0SizeCheck;
   static_assert(sizeof(UVEditing::$$c__DisplayClass9_0) == 0x20);
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c__DisplayClass9_0);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c__DisplayClass9_0*, "UnityEngine.ProBuilder.MeshOperations", "UVEditing/<>c__DisplayClass9_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c__DisplayClass9_0::$AutoStitch$b__0

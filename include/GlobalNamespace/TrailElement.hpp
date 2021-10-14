@@ -102,6 +102,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(TrailElement), 44 + sizeof(float)> __GlobalNamespace_TrailElementSizeCheck;
   static_assert(sizeof(TrailElement) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::TrailElement);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrailElement*, "", "TrailElement");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TrailElement::get_position

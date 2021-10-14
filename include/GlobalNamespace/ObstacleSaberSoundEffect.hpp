@@ -123,6 +123,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ObstacleSaberSoundEffect), 52 + sizeof(float)> __GlobalNamespace_ObstacleSaberSoundEffectSizeCheck;
   static_assert(sizeof(ObstacleSaberSoundEffect) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::ObstacleSaberSoundEffect);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleSaberSoundEffect*, "", "ObstacleSaberSoundEffect");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ObstacleSaberSoundEffect::Awake

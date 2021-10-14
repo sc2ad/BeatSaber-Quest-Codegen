@@ -33,6 +33,7 @@ namespace System::ComponentModel {
   }; // System.ComponentModel.TimeSpanConverter
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::ComponentModel::TimeSpanConverter);
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::TimeSpanConverter*, "System.ComponentModel", "TimeSpanConverter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ComponentModel::TimeSpanConverter::New_ctor

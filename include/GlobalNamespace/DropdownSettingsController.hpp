@@ -122,6 +122,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(DropdownSettingsController), 44 + sizeof(int)> __GlobalNamespace_DropdownSettingsControllerSizeCheck;
   static_assert(sizeof(DropdownSettingsController) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::DropdownSettingsController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DropdownSettingsController*, "", "DropdownSettingsController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DropdownSettingsController::add_dropDownValueDidChangeEvent

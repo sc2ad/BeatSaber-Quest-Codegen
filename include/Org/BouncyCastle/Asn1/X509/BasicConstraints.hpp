@@ -83,6 +83,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
   static check_size<sizeof(BasicConstraints), 24 + sizeof(Org::BouncyCastle::Asn1::DerInteger*)> __Org_BouncyCastle_Asn1_X509_BasicConstraintsSizeCheck;
   static_assert(sizeof(BasicConstraints) == 0x20);
 }
+NEED_NO_BOX(Org::BouncyCastle::Asn1::X509::BasicConstraints);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::BasicConstraints*, "Org.BouncyCastle.Asn1.X509", "BasicConstraints");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::BasicConstraints::New_ctor

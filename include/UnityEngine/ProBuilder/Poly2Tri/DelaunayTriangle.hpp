@@ -163,6 +163,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   }; // UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle
   // WARNING Not writing size check since size may be invalid!
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*, "UnityEngine.ProBuilder.Poly2Tri", "DelaunayTriangle");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::get_IsInterior

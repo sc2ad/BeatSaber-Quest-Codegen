@@ -132,6 +132,7 @@ namespace ModestTree {
   }; // ModestTree.LinqExtensions
   #pragma pack(pop)
 }
+NEED_NO_BOX(ModestTree::LinqExtensions);
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::LinqExtensions*, "ModestTree", "LinqExtensions");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: ModestTree::LinqExtensions::Yield

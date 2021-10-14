@@ -73,6 +73,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(NoteCutter::CuttableBySaberSortParams), 28 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_NoteCutter_CuttableBySaberSortParamsSizeCheck;
   static_assert(sizeof(NoteCutter::CuttableBySaberSortParams) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::NoteCutter::CuttableBySaberSortParams);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutter::CuttableBySaberSortParams*, "", "NoteCutter/CuttableBySaberSortParams");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteCutter::CuttableBySaberSortParams::New_ctor

@@ -153,6 +153,7 @@ namespace Org::BouncyCastle::Asn1 {
   static check_size<sizeof(DerObjectIdentifier), 24 + sizeof(::ArrayW<uint8_t>)> __Org_BouncyCastle_Asn1_DerObjectIdentifierSizeCheck;
   static_assert(sizeof(DerObjectIdentifier) == 0x20);
 }
+NEED_NO_BOX(Org::BouncyCastle::Asn1::DerObjectIdentifier);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerObjectIdentifier*, "Org.BouncyCastle.Asn1", "DerObjectIdentifier");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerObjectIdentifier::get_Id

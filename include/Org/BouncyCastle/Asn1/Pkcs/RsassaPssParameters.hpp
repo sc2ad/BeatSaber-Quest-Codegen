@@ -123,6 +123,7 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
   static check_size<sizeof(RsassaPssParameters), 40 + sizeof(Org::BouncyCastle::Asn1::DerInteger*)> __Org_BouncyCastle_Asn1_Pkcs_RsassaPssParametersSizeCheck;
   static_assert(sizeof(RsassaPssParameters) == 0x30);
 }
+NEED_NO_BOX(Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters*, "Org.BouncyCastle.Asn1.Pkcs", "RsassaPssParameters");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters::get_HashAlgorithm

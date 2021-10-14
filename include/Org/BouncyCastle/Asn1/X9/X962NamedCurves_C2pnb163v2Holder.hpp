@@ -54,6 +54,7 @@ namespace Org::BouncyCastle::Asn1::X9 {
   }; // Org.BouncyCastle.Asn1.X9.X962NamedCurves/Org.BouncyCastle.Asn1.X9.C2pnb163v2Holder
   #pragma pack(pop)
 }
+NEED_NO_BOX(Org::BouncyCastle::Asn1::X9::X962NamedCurves::C2pnb163v2Holder);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X9::X962NamedCurves::C2pnb163v2Holder*, "Org.BouncyCastle.Asn1.X9", "X962NamedCurves/C2pnb163v2Holder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X9::X962NamedCurves::C2pnb163v2Holder::_cctor

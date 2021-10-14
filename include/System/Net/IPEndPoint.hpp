@@ -135,6 +135,7 @@ namespace System::Net {
   static check_size<sizeof(IPEndPoint), 24 + sizeof(int)> __System_Net_IPEndPointSizeCheck;
   static_assert(sizeof(IPEndPoint) == 0x1C);
 }
+NEED_NO_BOX(System::Net::IPEndPoint);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::IPEndPoint*, "System.Net", "IPEndPoint");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::IPEndPoint::get_Address

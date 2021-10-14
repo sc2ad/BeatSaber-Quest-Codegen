@@ -308,6 +308,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LevelSearchViewController), 240 + sizeof(::ArrayW<GlobalNamespace::IBeatmapLevelPack*>)> __GlobalNamespace_LevelSearchViewControllerSizeCheck;
   static_assert(sizeof(LevelSearchViewController) == 0xF8);
 }
+NEED_NO_BOX(GlobalNamespace::LevelSearchViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelSearchViewController*, "", "LevelSearchViewController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LevelSearchViewController::add_didPressSearchButtonEvent

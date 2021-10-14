@@ -38,6 +38,7 @@ namespace System::IO {
   }; // System.IO.IODescriptionAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::IO::IODescriptionAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::IODescriptionAttribute*, "System.IO", "IODescriptionAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::IODescriptionAttribute::get_Description

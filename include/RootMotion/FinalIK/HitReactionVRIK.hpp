@@ -101,6 +101,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(HitReactionVRIK), 64 + sizeof(::ArrayW<RootMotion::FinalIK::HitReactionVRIK::RotationOffset*>)> __RootMotion_FinalIK_HitReactionVRIKSizeCheck;
   static_assert(sizeof(HitReactionVRIK) == 0x48);
 }
+NEED_NO_BOX(RootMotion::FinalIK::HitReactionVRIK);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::HitReactionVRIK*, "RootMotion.FinalIK", "HitReactionVRIK");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::HitReactionVRIK::Hit

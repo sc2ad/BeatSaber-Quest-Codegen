@@ -36,6 +36,7 @@ namespace UnityEngine::Animations {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::Animations::AnimationPlayableGraphExtensions);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationPlayableGraphExtensions*, "UnityEngine.Animations", "AnimationPlayableGraphExtensions");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Animations::AnimationPlayableGraphExtensions::InternalCreateAnimationOutput

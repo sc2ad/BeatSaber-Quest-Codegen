@@ -200,6 +200,7 @@ namespace System::Net {
   static check_size<sizeof(HttpListenerRequestUriBuilder), 80 + sizeof(System::Uri*)> __System_Net_HttpListenerRequestUriBuilderSizeCheck;
   static_assert(sizeof(HttpListenerRequestUriBuilder) == 0x58);
 }
+NEED_NO_BOX(System::Net::HttpListenerRequestUriBuilder);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpListenerRequestUriBuilder*, "System.Net", "HttpListenerRequestUriBuilder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::HttpListenerRequestUriBuilder::_cctor

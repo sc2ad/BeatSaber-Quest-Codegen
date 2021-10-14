@@ -39,6 +39,7 @@ namespace UnityEngine::TestTools::TestRunner {
     }
   }; // UnityEngine.TestTools.TestRunner.RunFinishedEvent
 }
+NEED_NO_BOX(UnityEngine::TestTools::TestRunner::RunFinishedEvent);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::RunFinishedEvent*, "UnityEngine.TestTools.TestRunner", "RunFinishedEvent");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::RunFinishedEvent::New_ctor

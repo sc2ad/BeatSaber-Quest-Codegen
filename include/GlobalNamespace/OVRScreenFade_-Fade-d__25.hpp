@@ -110,6 +110,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRScreenFade::$Fade$d__25), 48 + sizeof(float)> __GlobalNamespace_OVRScreenFade_$Fade$d__25SizeCheck;
   static_assert(sizeof(OVRScreenFade::$Fade$d__25) == 0x34);
 }
+NEED_NO_BOX(GlobalNamespace::OVRScreenFade::$Fade$d__25);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRScreenFade::$Fade$d__25*, "", "OVRScreenFade/<Fade>d__25");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRScreenFade::$Fade$d__25::System_Collections_Generic_IEnumerator$System_Object$_get_Current

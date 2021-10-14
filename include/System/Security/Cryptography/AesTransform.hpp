@@ -131,6 +131,7 @@ namespace System::Security::Cryptography {
   static check_size<sizeof(AesTransform), 100 + sizeof(int)> __System_Security_Cryptography_AesTransformSizeCheck;
   static_assert(sizeof(AesTransform) == 0x68);
 }
+NEED_NO_BOX(System::Security::Cryptography::AesTransform);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::AesTransform*, "System.Security.Cryptography", "AesTransform");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::AesTransform::New_ctor

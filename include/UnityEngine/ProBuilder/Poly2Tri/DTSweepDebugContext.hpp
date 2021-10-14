@@ -103,6 +103,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   static_assert(sizeof(DTSweepDebugContext) == 0x40);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext*, "UnityEngine.ProBuilder.Poly2Tri", "DTSweepDebugContext");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext::set_PrimaryTriangle

@@ -86,6 +86,7 @@ namespace HoudiniEngineUnity {
   }; // HoudiniEngineUnity.HEU_TaskManager
   #pragma pack(pop)
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_TaskManager);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_TaskManager*, "HoudiniEngineUnity", "HEU_TaskManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_TaskManager::_cctor

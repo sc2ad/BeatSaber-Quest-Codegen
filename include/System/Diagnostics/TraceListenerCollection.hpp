@@ -121,6 +121,7 @@ namespace System::Diagnostics {
   static check_size<sizeof(TraceListenerCollection), 16 + sizeof(System::Collections::ArrayList*)> __System_Diagnostics_TraceListenerCollectionSizeCheck;
   static_assert(sizeof(TraceListenerCollection) == 0x18);
 }
+NEED_NO_BOX(System::Diagnostics::TraceListenerCollection);
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::TraceListenerCollection*, "System.Diagnostics", "TraceListenerCollection");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Diagnostics::TraceListenerCollection::get_Count

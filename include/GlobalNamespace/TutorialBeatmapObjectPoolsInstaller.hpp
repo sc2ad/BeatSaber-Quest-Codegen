@@ -96,6 +96,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(TutorialBeatmapObjectPoolsInstaller), 56 + sizeof(GlobalNamespace::NoteLineConnectionController*)> __GlobalNamespace_TutorialBeatmapObjectPoolsInstallerSizeCheck;
   static_assert(sizeof(TutorialBeatmapObjectPoolsInstaller) == 0x40);
 }
+NEED_NO_BOX(GlobalNamespace::TutorialBeatmapObjectPoolsInstaller);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialBeatmapObjectPoolsInstaller*, "", "TutorialBeatmapObjectPoolsInstaller");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TutorialBeatmapObjectPoolsInstaller::New_ctor

@@ -206,6 +206,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_AssetTask), 88 + sizeof(int64_t)> __HoudiniEngineUnity_HEU_AssetTaskSizeCheck;
   static_assert(sizeof(HEU_AssetTask) == 0x60);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_AssetTask);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_AssetTask*, "HoudiniEngineUnity", "HEU_AssetTask");
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_AssetTask::BuildType, "HoudiniEngineUnity", "HEU_AssetTask/BuildType");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

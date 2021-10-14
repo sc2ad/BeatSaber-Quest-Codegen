@@ -80,6 +80,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LightmapDataSO), 32 + sizeof(UnityEngine::Texture2D*)> __GlobalNamespace_LightmapDataSOSizeCheck;
   static_assert(sizeof(LightmapDataSO) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::LightmapDataSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightmapDataSO*, "", "LightmapDataSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LightmapDataSO::get_lightmap1

@@ -126,6 +126,7 @@ namespace Org::BouncyCastle::Crypto::Signers {
   static check_size<sizeof(ECDsaSigner), 32 + sizeof(Org::BouncyCastle::Security::SecureRandom*)> __Org_BouncyCastle_Crypto_Signers_ECDsaSignerSizeCheck;
   static_assert(sizeof(ECDsaSigner) == 0x28);
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Signers::ECDsaSigner);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Signers::ECDsaSigner*, "Org.BouncyCastle.Crypto.Signers", "ECDsaSigner");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::ECDsaSigner::get_Order

@@ -181,6 +181,7 @@ namespace HMUI {
   static check_size<sizeof(SegmentedControl), 80 + sizeof(System::Collections::Generic::Dictionary_2<int, System::Action_1<int>*>*)> __HMUI_SegmentedControlSizeCheck;
   static_assert(sizeof(SegmentedControl) == 0x58);
 }
+NEED_NO_BOX(HMUI::SegmentedControl);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SegmentedControl*, "HMUI", "SegmentedControl");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::SegmentedControl::get_dataSource

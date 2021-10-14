@@ -88,6 +88,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PS4LeaderboardIdsModelSO), 32 + sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, uint>*)> __GlobalNamespace_PS4LeaderboardIdsModelSOSizeCheck;
   static_assert(sizeof(PS4LeaderboardIdsModelSO) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::PS4LeaderboardIdsModelSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4LeaderboardIdsModelSO*, "", "PS4LeaderboardIdsModelSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PS4LeaderboardIdsModelSO::get_leaderboardIds

@@ -95,6 +95,7 @@ namespace JetBrains::Annotations {
   static check_size<sizeof(MeansImplicitUseAttribute), 20 + sizeof(JetBrains::Annotations::ImplicitUseTargetFlags)> __JetBrains_Annotations_MeansImplicitUseAttributeSizeCheck;
   static_assert(sizeof(MeansImplicitUseAttribute) == 0x18);
 }
+NEED_NO_BOX(JetBrains::Annotations::MeansImplicitUseAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::MeansImplicitUseAttribute*, "JetBrains.Annotations", "MeansImplicitUseAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: JetBrains::Annotations::MeansImplicitUseAttribute::get_UseKindFlags

@@ -70,6 +70,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(AsyncComputeOperation), 24 + sizeof(System::Diagnostics::Stopwatch*)> __GlobalNamespace_AsyncComputeOperationSizeCheck;
   static_assert(sizeof(AsyncComputeOperation) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::AsyncComputeOperation);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AsyncComputeOperation*, "", "AsyncComputeOperation");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AsyncComputeOperation::get_elapsedTime

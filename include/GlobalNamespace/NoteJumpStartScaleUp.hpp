@@ -118,6 +118,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(NoteJumpStartScaleUp), 48 + sizeof(GlobalNamespace::NoteJump*)> __GlobalNamespace_NoteJumpStartScaleUpSizeCheck;
   static_assert(sizeof(NoteJumpStartScaleUp) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::NoteJumpStartScaleUp);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteJumpStartScaleUp*, "", "NoteJumpStartScaleUp");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteJumpStartScaleUp::Awake

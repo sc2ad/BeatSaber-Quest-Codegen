@@ -46,6 +46,7 @@ namespace Oculus::Platform {
     Oculus::Platform::Models::PurchaseList* GetPurchaseList();
   }; // Oculus.Platform.MessageWithPurchaseList
 }
+NEED_NO_BOX(Oculus::Platform::MessageWithPurchaseList);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithPurchaseList*, "Oculus.Platform", "MessageWithPurchaseList");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithPurchaseList::GetDataFromMessage

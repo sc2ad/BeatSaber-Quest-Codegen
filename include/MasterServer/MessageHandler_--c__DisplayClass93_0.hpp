@@ -97,6 +97,7 @@ namespace MasterServer {
   static check_size<sizeof(MessageHandler::$$c__DisplayClass93_0), 40 + sizeof(System::Threading::CancellationToken)> __MasterServer_MessageHandler_$$c__DisplayClass93_0SizeCheck;
   static_assert(sizeof(MessageHandler::$$c__DisplayClass93_0) == 0x30);
 }
+NEED_NO_BOX(MasterServer::MessageHandler::$$c__DisplayClass93_0);
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::$$c__DisplayClass93_0*, "MasterServer", "MessageHandler/<>c__DisplayClass93_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: MasterServer::MessageHandler::$$c__DisplayClass93_0::$SendMultipartMessageWithRetryAsync$b__0

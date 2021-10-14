@@ -168,6 +168,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(Noise3DTexturesGenerator), 24 + sizeof(::ArrayW<GlobalNamespace::Noise3DTexturesGenerator::MaterialTextureParamsCouple>)> __GlobalNamespace_Noise3DTexturesGeneratorSizeCheck;
   static_assert(sizeof(Noise3DTexturesGenerator) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::Noise3DTexturesGenerator);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Noise3DTexturesGenerator*, "", "Noise3DTexturesGenerator");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Noise3DTexturesGenerator::MaterialTextureParamsCouple, "", "Noise3DTexturesGenerator/MaterialTextureParamsCouple");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Noise3DTexturesGenerator::MaterialPropertyNameCouple, "", "Noise3DTexturesGenerator/MaterialPropertyNameCouple");

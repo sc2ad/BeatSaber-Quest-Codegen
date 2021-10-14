@@ -95,6 +95,7 @@ namespace Org::BouncyCastle::Crypto::Generators {
   static check_size<sizeof(Pkcs12ParametersGenerator), 52 + sizeof(int)> __Org_BouncyCastle_Crypto_Generators_Pkcs12ParametersGeneratorSizeCheck;
   static_assert(sizeof(Pkcs12ParametersGenerator) == 0x38);
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Generators::Pkcs12ParametersGenerator);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Generators::Pkcs12ParametersGenerator*, "Org.BouncyCastle.Crypto.Generators", "Pkcs12ParametersGenerator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Generators::Pkcs12ParametersGenerator::New_ctor

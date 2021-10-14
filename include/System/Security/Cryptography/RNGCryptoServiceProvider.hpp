@@ -93,6 +93,7 @@ namespace System::Security::Cryptography {
   static check_size<sizeof(RNGCryptoServiceProvider), 16 + sizeof(System::IntPtr)> __System_Security_Cryptography_RNGCryptoServiceProviderSizeCheck;
   static_assert(sizeof(RNGCryptoServiceProvider) == 0x18);
 }
+NEED_NO_BOX(System::Security::Cryptography::RNGCryptoServiceProvider);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RNGCryptoServiceProvider*, "System.Security.Cryptography", "RNGCryptoServiceProvider");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::RNGCryptoServiceProvider::_cctor

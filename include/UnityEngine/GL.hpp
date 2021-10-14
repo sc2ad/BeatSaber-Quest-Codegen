@@ -91,6 +91,7 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::GL);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GL*, "UnityEngine", "GL");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::GL::get_invertCulling

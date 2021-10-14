@@ -39,6 +39,7 @@ namespace GlobalNamespace {
   }; // PS4NetworkPlayerModel
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::PS4NetworkPlayerModel);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4NetworkPlayerModel*, "", "PS4NetworkPlayerModel");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PS4NetworkPlayerModel::New_ctor

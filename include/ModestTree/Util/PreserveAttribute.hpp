@@ -34,6 +34,7 @@ namespace ModestTree::Util {
   }; // ModestTree.Util.PreserveAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(ModestTree::Util::PreserveAttribute);
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::Util::PreserveAttribute*, "ModestTree.Util", "PreserveAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: ModestTree::Util::PreserveAttribute::New_ctor

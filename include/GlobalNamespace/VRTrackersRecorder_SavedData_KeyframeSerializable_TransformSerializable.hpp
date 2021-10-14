@@ -104,6 +104,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(VRTrackersRecorder::SavedData::KeyframeSerializable::TransformSerializable), 44 + sizeof(bool)> __GlobalNamespace_VRTrackersRecorder_SavedData_KeyframeSerializable_TransformSerializableSizeCheck;
   static_assert(sizeof(VRTrackersRecorder::SavedData::KeyframeSerializable::TransformSerializable) == 0x2D);
 }
+NEED_NO_BOX(GlobalNamespace::VRTrackersRecorder::SavedData::KeyframeSerializable::TransformSerializable);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRTrackersRecorder::SavedData::KeyframeSerializable::TransformSerializable*, "", "VRTrackersRecorder/SavedData/KeyframeSerializable/TransformSerializable");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::VRTrackersRecorder::SavedData::KeyframeSerializable::TransformSerializable::New_ctor

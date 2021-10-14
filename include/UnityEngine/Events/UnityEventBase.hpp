@@ -146,6 +146,7 @@ namespace UnityEngine::Events {
   static check_size<sizeof(UnityEventBase), 32 + sizeof(bool)> __UnityEngine_Events_UnityEventBaseSizeCheck;
   static_assert(sizeof(UnityEventBase) == 0x21);
 }
+NEED_NO_BOX(UnityEngine::Events::UnityEventBase);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Events::UnityEventBase*, "UnityEngine.Events", "UnityEventBase");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Events::UnityEventBase::UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize

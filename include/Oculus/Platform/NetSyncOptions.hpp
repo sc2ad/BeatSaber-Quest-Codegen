@@ -76,6 +76,7 @@ namespace Oculus::Platform {
   static check_size<sizeof(NetSyncOptions), 16 + sizeof(System::IntPtr)> __Oculus_Platform_NetSyncOptionsSizeCheck;
   static_assert(sizeof(NetSyncOptions) == 0x18);
 }
+NEED_NO_BOX(Oculus::Platform::NetSyncOptions);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::NetSyncOptions*, "Oculus.Platform", "NetSyncOptions");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::NetSyncOptions::SetVoipGroup

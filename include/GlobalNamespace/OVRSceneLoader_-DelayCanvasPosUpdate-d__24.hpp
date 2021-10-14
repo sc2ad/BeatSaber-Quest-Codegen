@@ -86,6 +86,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRSceneLoader::$DelayCanvasPosUpdate$d__24), 32 + sizeof(GlobalNamespace::OVRSceneLoader*)> __GlobalNamespace_OVRSceneLoader_$DelayCanvasPosUpdate$d__24SizeCheck;
   static_assert(sizeof(OVRSceneLoader::$DelayCanvasPosUpdate$d__24) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::OVRSceneLoader::$DelayCanvasPosUpdate$d__24);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSceneLoader::$DelayCanvasPosUpdate$d__24*, "", "OVRSceneLoader/<DelayCanvasPosUpdate>d__24");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRSceneLoader::$DelayCanvasPosUpdate$d__24::System_Collections_Generic_IEnumerator$System_Object$_get_Current

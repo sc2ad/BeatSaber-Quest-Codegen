@@ -166,6 +166,7 @@ namespace Zenject {
   // Offset: 0x1816C2C
   bool operator !=(Zenject::GameObjectCreationParameters* left, Zenject::GameObjectCreationParameters& right);
 }
+NEED_NO_BOX(Zenject::GameObjectCreationParameters);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::GameObjectCreationParameters*, "Zenject", "GameObjectCreationParameters");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::GameObjectCreationParameters::get_Name

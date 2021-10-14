@@ -39,6 +39,7 @@ namespace System::Net {
   }; // System.Net.SystemNetworkCredential
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Net::SystemNetworkCredential);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::SystemNetworkCredential*, "System.Net", "SystemNetworkCredential");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::SystemNetworkCredential::_cctor

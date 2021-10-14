@@ -108,6 +108,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PracticeSettings), 24 + sizeof(bool)> __GlobalNamespace_PracticeSettingsSizeCheck;
   static_assert(sizeof(PracticeSettings) == 0x19);
 }
+NEED_NO_BOX(GlobalNamespace::PracticeSettings);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PracticeSettings*, "", "PracticeSettings");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PracticeSettings::get_startSongTime

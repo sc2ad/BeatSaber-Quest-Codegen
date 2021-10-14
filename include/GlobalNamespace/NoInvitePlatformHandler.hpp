@@ -42,6 +42,7 @@ namespace GlobalNamespace {
   }; // NoInvitePlatformHandler
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::NoInvitePlatformHandler);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoInvitePlatformHandler*, "", "NoInvitePlatformHandler");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoInvitePlatformHandler::get_isSupported

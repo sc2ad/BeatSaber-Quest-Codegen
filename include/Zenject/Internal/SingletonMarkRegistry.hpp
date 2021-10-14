@@ -74,6 +74,7 @@ namespace Zenject::Internal {
   static check_size<sizeof(SingletonMarkRegistry), 24 + sizeof(System::Collections::Generic::HashSet_1<System::Type*>*)> __Zenject_Internal_SingletonMarkRegistrySizeCheck;
   static_assert(sizeof(SingletonMarkRegistry) == 0x20);
 }
+NEED_NO_BOX(Zenject::Internal::SingletonMarkRegistry);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::SingletonMarkRegistry*, "Zenject.Internal", "SingletonMarkRegistry");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::Internal::SingletonMarkRegistry::MarkNonSingleton

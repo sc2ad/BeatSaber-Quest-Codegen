@@ -63,6 +63,7 @@ namespace System::Runtime::Remoting {
   static check_size<sizeof(SoapServices::TypeInfo), 24 + sizeof(System::Collections::Hashtable*)> __System_Runtime_Remoting_SoapServices_TypeInfoSizeCheck;
   static_assert(sizeof(SoapServices::TypeInfo) == 0x20);
 }
+NEED_NO_BOX(System::Runtime::Remoting::SoapServices::TypeInfo);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::SoapServices::TypeInfo*, "System.Runtime.Remoting", "SoapServices/TypeInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::SoapServices::TypeInfo::New_ctor

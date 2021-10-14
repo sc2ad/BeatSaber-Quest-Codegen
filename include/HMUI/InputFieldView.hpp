@@ -388,6 +388,7 @@ namespace HMUI {
   static check_size<sizeof(InputFieldView), 368 + sizeof(UnityEngine::YieldInstruction*)> __HMUI_InputFieldViewSizeCheck;
   static_assert(sizeof(InputFieldView) == 0x178);
 }
+NEED_NO_BOX(HMUI::InputFieldView);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::InputFieldView*, "HMUI", "InputFieldView");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::InputFieldView::SelectionState, "HMUI", "InputFieldView/SelectionState");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -454,6 +454,7 @@ namespace System::Net {
   static check_size<sizeof(WebConnection), 168 + sizeof(Mono::Net::Security::MonoTlsStream*)> __System_Net_WebConnectionSizeCheck;
   static_assert(sizeof(WebConnection) == 0xB0);
 }
+NEED_NO_BOX(System::Net::WebConnection);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebConnection*, "System.Net", "WebConnection");
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebConnection::NtlmAuthState, "System.Net", "WebConnection/NtlmAuthState");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

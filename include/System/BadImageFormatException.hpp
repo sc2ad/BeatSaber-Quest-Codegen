@@ -128,6 +128,7 @@ namespace System {
   static check_size<sizeof(BadImageFormatException), 144 + sizeof(::Il2CppString*)> __System_BadImageFormatExceptionSizeCheck;
   static_assert(sizeof(BadImageFormatException) == 0x98);
 }
+NEED_NO_BOX(System::BadImageFormatException);
 DEFINE_IL2CPP_ARG_TYPE(System::BadImageFormatException*, "System", "BadImageFormatException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::BadImageFormatException::get_FusionLog

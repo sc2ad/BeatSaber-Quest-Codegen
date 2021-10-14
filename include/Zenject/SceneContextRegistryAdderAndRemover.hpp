@@ -79,6 +79,7 @@ namespace Zenject {
   static check_size<sizeof(SceneContextRegistryAdderAndRemover), 24 + sizeof(Zenject::SceneContext*)> __Zenject_SceneContextRegistryAdderAndRemoverSizeCheck;
   static_assert(sizeof(SceneContextRegistryAdderAndRemover) == 0x20);
 }
+NEED_NO_BOX(Zenject::SceneContextRegistryAdderAndRemover);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SceneContextRegistryAdderAndRemover*, "Zenject", "SceneContextRegistryAdderAndRemover");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::SceneContextRegistryAdderAndRemover::New_ctor

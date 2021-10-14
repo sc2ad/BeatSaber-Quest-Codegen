@@ -217,6 +217,7 @@ namespace Mono::Net::Security {
   static check_size<sizeof(MobileTlsContext), 80 + sizeof(Mono::Security::Interface::ICertificateValidator2*)> __Mono_Net_Security_MobileTlsContextSizeCheck;
   static_assert(sizeof(MobileTlsContext) == 0x58);
 }
+NEED_NO_BOX(Mono::Net::Security::MobileTlsContext);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::MobileTlsContext*, "Mono.Net.Security", "MobileTlsContext");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Net::Security::MobileTlsContext::get_Parent

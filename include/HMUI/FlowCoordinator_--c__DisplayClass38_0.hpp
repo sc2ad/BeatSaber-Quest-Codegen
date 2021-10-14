@@ -74,6 +74,7 @@ namespace HMUI {
   static check_size<sizeof(FlowCoordinator::$$c__DisplayClass38_0), 32 + sizeof(System::Action*)> __HMUI_FlowCoordinator_$$c__DisplayClass38_0SizeCheck;
   static_assert(sizeof(FlowCoordinator::$$c__DisplayClass38_0) == 0x28);
 }
+NEED_NO_BOX(HMUI::FlowCoordinator::$$c__DisplayClass38_0);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::FlowCoordinator::$$c__DisplayClass38_0*, "HMUI", "FlowCoordinator/<>c__DisplayClass38_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::FlowCoordinator::$$c__DisplayClass38_0::New_ctor

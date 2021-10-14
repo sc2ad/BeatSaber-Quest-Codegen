@@ -1004,6 +1004,7 @@ namespace System::Globalization {
   static check_size<sizeof(DateTimeFormatInfo), 368 + sizeof(::ArrayW<System::Globalization::TokenHashValue*>)> __System_Globalization_DateTimeFormatInfoSizeCheck;
   static_assert(sizeof(DateTimeFormatInfo) == 0x178);
 }
+NEED_NO_BOX(System::Globalization::DateTimeFormatInfo);
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::DateTimeFormatInfo*, "System.Globalization", "DateTimeFormatInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::get_CultureName

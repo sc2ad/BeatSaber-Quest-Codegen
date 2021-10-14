@@ -112,6 +112,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(OffsetModifier), 40 + sizeof(float)> __RootMotion_FinalIK_OffsetModifierSizeCheck;
   static_assert(sizeof(OffsetModifier) == 0x2C);
 }
+NEED_NO_BOX(RootMotion::FinalIK::OffsetModifier);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::OffsetModifier*, "RootMotion.FinalIK", "OffsetModifier");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::OffsetModifier::get_deltaTime

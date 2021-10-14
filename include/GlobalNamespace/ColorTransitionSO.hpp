@@ -122,6 +122,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ColorTransitionSO), 72 + sizeof(GlobalNamespace::ColorSO*)> __GlobalNamespace_ColorTransitionSOSizeCheck;
   static_assert(sizeof(ColorTransitionSO) == 0x50);
 }
+NEED_NO_BOX(GlobalNamespace::ColorTransitionSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorTransitionSO*, "", "ColorTransitionSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ColorTransitionSO::get_normalColor

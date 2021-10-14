@@ -113,6 +113,7 @@ namespace ModestTree {
   }; // ModestTree.MiscExtensions
   #pragma pack(pop)
 }
+NEED_NO_BOX(ModestTree::MiscExtensions);
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::MiscExtensions*, "ModestTree", "MiscExtensions");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: ModestTree::MiscExtensions::Fmt

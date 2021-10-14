@@ -41,6 +41,7 @@ namespace GlobalNamespace {
   }; // LocalNetworkPlayerModel/CreatePartyConfig
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::LocalNetworkPlayerModel::CreatePartyConfig);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalNetworkPlayerModel::CreatePartyConfig*, "", "LocalNetworkPlayerModel/CreatePartyConfig");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkPlayerModel::CreatePartyConfig::New_ctor

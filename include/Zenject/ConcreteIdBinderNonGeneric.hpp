@@ -49,6 +49,7 @@ namespace Zenject {
   }; // Zenject.ConcreteIdBinderNonGeneric
   #pragma pack(pop)
 }
+NEED_NO_BOX(Zenject::ConcreteIdBinderNonGeneric);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ConcreteIdBinderNonGeneric*, "Zenject", "ConcreteIdBinderNonGeneric");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::ConcreteIdBinderNonGeneric::WithId

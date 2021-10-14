@@ -87,6 +87,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SetPSSaberGlowColor), 40 + sizeof(UnityEngine::ParticleSystem*)> __GlobalNamespace_SetPSSaberGlowColorSizeCheck;
   static_assert(sizeof(SetPSSaberGlowColor) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::SetPSSaberGlowColor);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SetPSSaberGlowColor*, "", "SetPSSaberGlowColor");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SetPSSaberGlowColor::Start

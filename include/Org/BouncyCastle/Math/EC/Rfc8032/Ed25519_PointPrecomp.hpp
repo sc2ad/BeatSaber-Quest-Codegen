@@ -65,6 +65,7 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
   static check_size<sizeof(Ed25519::PointPrecomp), 32 + sizeof(::ArrayW<int>)> __Org_BouncyCastle_Math_EC_Rfc8032_Ed25519_PointPrecompSizeCheck;
   static_assert(sizeof(Ed25519::PointPrecomp) == 0x28);
 }
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointPrecomp);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointPrecomp*, "Org.BouncyCastle.Math.EC.Rfc8032", "Ed25519/PointPrecomp");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointPrecomp::New_ctor

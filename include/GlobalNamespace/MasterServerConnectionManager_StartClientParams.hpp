@@ -35,6 +35,7 @@ namespace GlobalNamespace {
   }; // MasterServerConnectionManager/StartClientParams
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::MasterServerConnectionManager::StartClientParams);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerConnectionManager::StartClientParams*, "", "MasterServerConnectionManager/StartClientParams");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::StartClientParams::New_ctor

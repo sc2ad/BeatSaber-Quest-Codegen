@@ -54,6 +54,7 @@ namespace GlobalNamespace {
   }; // MainEffectSO
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::MainEffectSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainEffectSO*, "", "MainEffectSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MainEffectSO::get_hasPostProcessEffect

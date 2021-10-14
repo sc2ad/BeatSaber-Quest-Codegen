@@ -128,6 +128,7 @@ namespace System::Net::Http {
   static check_size<sizeof(StreamContent), 72 + sizeof(bool)> __System_Net_Http_StreamContentSizeCheck;
   static_assert(sizeof(StreamContent) == 0x49);
 }
+NEED_NO_BOX(System::Net::Http::StreamContent);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::StreamContent*, "System.Net.Http", "StreamContent");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Http::StreamContent::New_ctor

@@ -55,6 +55,7 @@ namespace GlobalNamespace {
   }; // BeatmapCallbackItemDataList/SpawnBasicNoteCallback
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::BeatmapCallbackItemDataList::SpawnBasicNoteCallback);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapCallbackItemDataList::SpawnBasicNoteCallback*, "", "BeatmapCallbackItemDataList/SpawnBasicNoteCallback");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapCallbackItemDataList::SpawnBasicNoteCallback::New_ctor

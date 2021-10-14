@@ -101,6 +101,7 @@ namespace Zenject {
   static check_size<sizeof(GetFromPrefabComponentProvider), 32 + sizeof(bool)> __Zenject_GetFromPrefabComponentProviderSizeCheck;
   static_assert(sizeof(GetFromPrefabComponentProvider) == 0x21);
 }
+NEED_NO_BOX(Zenject::GetFromPrefabComponentProvider);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::GetFromPrefabComponentProvider*, "Zenject", "GetFromPrefabComponentProvider");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::GetFromPrefabComponentProvider::get_IsCached

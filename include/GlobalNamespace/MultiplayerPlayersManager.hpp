@@ -393,6 +393,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerPlayersManager), 216 + sizeof(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IConnectedPlayer*>*)> __GlobalNamespace_MultiplayerPlayersManagerSizeCheck;
   static_assert(sizeof(MultiplayerPlayersManager) == 0xE0);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerPlayersManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerPlayersManager*, "", "MultiplayerPlayersManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerPlayersManager::get_playerSpawningFinished

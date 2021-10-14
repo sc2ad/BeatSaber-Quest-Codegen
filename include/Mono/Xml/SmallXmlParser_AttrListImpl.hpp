@@ -95,6 +95,7 @@ namespace Mono::Xml {
   static check_size<sizeof(SmallXmlParser::AttrListImpl), 24 + sizeof(System::Collections::Generic::List_1<::Il2CppString*>*)> __Mono_Xml_SmallXmlParser_AttrListImplSizeCheck;
   static_assert(sizeof(SmallXmlParser::AttrListImpl) == 0x20);
 }
+NEED_NO_BOX(Mono::Xml::SmallXmlParser::AttrListImpl);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Xml::SmallXmlParser::AttrListImpl*, "Mono.Xml", "SmallXmlParser/AttrListImpl");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Xml::SmallXmlParser::AttrListImpl::get_Length

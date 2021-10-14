@@ -83,6 +83,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(CuttingManager), 32 + sizeof(GlobalNamespace::NoteCutter*)> __GlobalNamespace_CuttingManagerSizeCheck;
   static_assert(sizeof(CuttingManager) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::CuttingManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CuttingManager*, "", "CuttingManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CuttingManager::OnEnable

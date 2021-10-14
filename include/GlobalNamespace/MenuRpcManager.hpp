@@ -1222,6 +1222,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MenuRpcManager), 328 + sizeof(System::Action_2<::Il2CppString*, ::Il2CppString*>*)> __GlobalNamespace_MenuRpcManagerSizeCheck;
   static_assert(sizeof(MenuRpcManager) == 0x150);
 }
+NEED_NO_BOX(GlobalNamespace::MenuRpcManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuRpcManager*, "", "MenuRpcManager");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuRpcManager::RpcType, "", "MenuRpcManager/RpcType");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

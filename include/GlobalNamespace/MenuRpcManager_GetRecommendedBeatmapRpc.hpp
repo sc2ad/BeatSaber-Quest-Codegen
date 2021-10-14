@@ -35,6 +35,7 @@ namespace GlobalNamespace {
   }; // MenuRpcManager/GetRecommendedBeatmapRpc
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::MenuRpcManager::GetRecommendedBeatmapRpc);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuRpcManager::GetRecommendedBeatmapRpc*, "", "MenuRpcManager/GetRecommendedBeatmapRpc");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::GetRecommendedBeatmapRpc::New_ctor

@@ -189,6 +189,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SceneStartSyncController), 84 + sizeof(bool)> __GlobalNamespace_SceneStartSyncControllerSizeCheck;
   static_assert(sizeof(SceneStartSyncController) == 0x55);
 }
+NEED_NO_BOX(GlobalNamespace::SceneStartSyncController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SceneStartSyncController*, "", "SceneStartSyncController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SceneStartSyncController::add_syncStartDidSuccessEvent

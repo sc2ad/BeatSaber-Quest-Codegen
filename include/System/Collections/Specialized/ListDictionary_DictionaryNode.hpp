@@ -64,6 +64,7 @@ namespace System::Collections::Specialized {
   static check_size<sizeof(ListDictionary::DictionaryNode), 32 + sizeof(System::Collections::Specialized::ListDictionary::DictionaryNode*)> __System_Collections_Specialized_ListDictionary_DictionaryNodeSizeCheck;
   static_assert(sizeof(ListDictionary::DictionaryNode) == 0x28);
 }
+NEED_NO_BOX(System::Collections::Specialized::ListDictionary::DictionaryNode);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::ListDictionary::DictionaryNode*, "System.Collections.Specialized", "ListDictionary/DictionaryNode");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::Specialized::ListDictionary::DictionaryNode::New_ctor

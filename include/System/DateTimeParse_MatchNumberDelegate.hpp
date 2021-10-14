@@ -52,6 +52,7 @@ namespace System {
   }; // System.DateTimeParse/System.MatchNumberDelegate
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::DateTimeParse::MatchNumberDelegate);
 DEFINE_IL2CPP_ARG_TYPE(System::DateTimeParse::MatchNumberDelegate*, "System", "DateTimeParse/MatchNumberDelegate");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::DateTimeParse::MatchNumberDelegate::New_ctor

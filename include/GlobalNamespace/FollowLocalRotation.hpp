@@ -75,6 +75,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(FollowLocalRotation), 32 + sizeof(UnityEngine::Transform*)> __GlobalNamespace_FollowLocalRotationSizeCheck;
   static_assert(sizeof(FollowLocalRotation) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::FollowLocalRotation);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FollowLocalRotation*, "", "FollowLocalRotation");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FollowLocalRotation::Awake

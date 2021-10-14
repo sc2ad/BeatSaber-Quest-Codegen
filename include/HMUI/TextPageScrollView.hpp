@@ -63,6 +63,7 @@ namespace HMUI {
   static check_size<sizeof(TextPageScrollView), 160 + sizeof(TMPro::TextMeshProUGUI*)> __HMUI_TextPageScrollViewSizeCheck;
   static_assert(sizeof(TextPageScrollView) == 0xA8);
 }
+NEED_NO_BOX(HMUI::TextPageScrollView);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TextPageScrollView*, "HMUI", "TextPageScrollView");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::TextPageScrollView::SetText

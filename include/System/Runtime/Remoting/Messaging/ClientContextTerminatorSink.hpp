@@ -74,6 +74,7 @@ namespace System::Runtime::Remoting::Messaging {
   static check_size<sizeof(ClientContextTerminatorSink), 16 + sizeof(System::Runtime::Remoting::Contexts::Context*)> __System_Runtime_Remoting_Messaging_ClientContextTerminatorSinkSizeCheck;
   static_assert(sizeof(ClientContextTerminatorSink) == 0x18);
 }
+NEED_NO_BOX(System::Runtime::Remoting::Messaging::ClientContextTerminatorSink);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::ClientContextTerminatorSink*, "System.Runtime.Remoting.Messaging", "ClientContextTerminatorSink");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::ClientContextTerminatorSink::New_ctor

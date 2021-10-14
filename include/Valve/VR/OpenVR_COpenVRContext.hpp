@@ -194,6 +194,7 @@ namespace Valve::VR {
   static check_size<sizeof(OpenVR::COpenVRContext), 96 + sizeof(Valve::VR::CVRTrackedCamera*)> __Valve_VR_OpenVR_COpenVRContextSizeCheck;
   static_assert(sizeof(OpenVR::COpenVRContext) == 0x68);
 }
+NEED_NO_BOX(Valve::VR::OpenVR::COpenVRContext);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::OpenVR::COpenVRContext*, "Valve.VR", "OpenVR/COpenVRContext");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::OpenVR::COpenVRContext::Clear

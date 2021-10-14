@@ -145,6 +145,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(FriendsViewController), 176 + sizeof(bool)> __GlobalNamespace_FriendsViewControllerSizeCheck;
   static_assert(sizeof(FriendsViewController) == 0xB1);
 }
+NEED_NO_BOX(GlobalNamespace::FriendsViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FriendsViewController*, "", "FriendsViewController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FriendsViewController::HandleOpenPartyToggleChanged

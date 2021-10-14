@@ -190,6 +190,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SoloModeSelectionViewController), 144 + sizeof(System::Action_2<GlobalNamespace::SoloModeSelectionViewController*, GlobalNamespace::SoloModeSelectionViewController::MenuType>*)> __GlobalNamespace_SoloModeSelectionViewControllerSizeCheck;
   static_assert(sizeof(SoloModeSelectionViewController) == 0x98);
 }
+NEED_NO_BOX(GlobalNamespace::SoloModeSelectionViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SoloModeSelectionViewController*, "", "SoloModeSelectionViewController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SoloModeSelectionViewController::MenuType, "", "SoloModeSelectionViewController/MenuType");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

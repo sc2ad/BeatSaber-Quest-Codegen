@@ -114,6 +114,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PackedPlayModeBuildLogs), 16 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::PackedPlayModeBuildLogs::RuntimeBuildLog>*)> __GlobalNamespace_PackedPlayModeBuildLogsSizeCheck;
   static_assert(sizeof(PackedPlayModeBuildLogs) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::PackedPlayModeBuildLogs);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PackedPlayModeBuildLogs*, "", "PackedPlayModeBuildLogs");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PackedPlayModeBuildLogs::RuntimeBuildLog, "", "PackedPlayModeBuildLogs/RuntimeBuildLog");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

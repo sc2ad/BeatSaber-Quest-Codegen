@@ -84,6 +84,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerEffectPoolsInstaller), 48 + sizeof(GlobalNamespace::NoteDebris*)> __GlobalNamespace_MultiplayerEffectPoolsInstallerSizeCheck;
   static_assert(sizeof(MultiplayerEffectPoolsInstaller) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerEffectPoolsInstaller);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerEffectPoolsInstaller*, "", "MultiplayerEffectPoolsInstaller");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerEffectPoolsInstaller::New_ctor

@@ -73,6 +73,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_InputInterfaceTilemap::HEU_InputDataTilemap), 32 + sizeof(UnityEngine::Transform*)> __HoudiniEngineUnity_HEU_InputInterfaceTilemap_HEU_InputDataTilemapSizeCheck;
   static_assert(sizeof(HEU_InputInterfaceTilemap::HEU_InputDataTilemap) == 0x28);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_InputInterfaceTilemap::HEU_InputDataTilemap);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_InputInterfaceTilemap::HEU_InputDataTilemap*, "HoudiniEngineUnity", "HEU_InputInterfaceTilemap/HEU_InputDataTilemap");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_InputInterfaceTilemap::HEU_InputDataTilemap::New_ctor

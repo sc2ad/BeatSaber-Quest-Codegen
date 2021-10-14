@@ -245,6 +245,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(EditAvatarFlowCoordinator), 232 + sizeof(System::Action_2<GlobalNamespace::EditAvatarFlowCoordinator*, GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType>*)> __GlobalNamespace_EditAvatarFlowCoordinatorSizeCheck;
   static_assert(sizeof(EditAvatarFlowCoordinator) == 0xF0);
 }
+NEED_NO_BOX(GlobalNamespace::EditAvatarFlowCoordinator);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EditAvatarFlowCoordinator*, "", "EditAvatarFlowCoordinator");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType, "", "EditAvatarFlowCoordinator/EditAvatarType");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

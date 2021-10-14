@@ -37,6 +37,7 @@ namespace Oculus::Platform::Models {
     }
   }; // Oculus.Platform.Models.LinkedAccountList
 }
+NEED_NO_BOX(Oculus::Platform::Models::LinkedAccountList);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::LinkedAccountList*, "Oculus.Platform.Models", "LinkedAccountList");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::LinkedAccountList::New_ctor

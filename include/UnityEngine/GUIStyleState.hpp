@@ -94,6 +94,7 @@ namespace UnityEngine {
   static check_size<sizeof(GUIStyleState), 24 + sizeof(UnityEngine::GUIStyle*)> __UnityEngine_GUIStyleStateSizeCheck;
   static_assert(sizeof(GUIStyleState) == 0x20);
 }
+NEED_NO_BOX(UnityEngine::GUIStyleState);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUIStyleState*, "UnityEngine", "GUIStyleState");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::GUIStyleState::set_textColor

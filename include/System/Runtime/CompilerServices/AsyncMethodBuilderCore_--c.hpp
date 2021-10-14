@@ -63,6 +63,7 @@ namespace System::Runtime::CompilerServices {
   }; // System.Runtime.CompilerServices.AsyncMethodBuilderCore/System.Runtime.CompilerServices.<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Runtime::CompilerServices::AsyncMethodBuilderCore::$$c);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::AsyncMethodBuilderCore::$$c*, "System.Runtime.CompilerServices", "AsyncMethodBuilderCore/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::AsyncMethodBuilderCore::$$c::_cctor

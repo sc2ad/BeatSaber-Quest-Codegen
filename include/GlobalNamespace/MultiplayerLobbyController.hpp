@@ -131,6 +131,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerLobbyController), 64 + sizeof(bool)> __GlobalNamespace_MultiplayerLobbyControllerSizeCheck;
   static_assert(sizeof(MultiplayerLobbyController) == 0x41);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerLobbyController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLobbyController*, "", "MultiplayerLobbyController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyController::get_lobbyActivated

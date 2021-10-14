@@ -66,6 +66,7 @@ namespace System::IO {
   }; // System.IO.StringResultHandler
   // WARNING Not writing size check since size may be invalid!
 }
+NEED_NO_BOX(System::IO::StringResultHandler);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::StringResultHandler*, "System.IO", "StringResultHandler");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::StringResultHandler::New_ctor

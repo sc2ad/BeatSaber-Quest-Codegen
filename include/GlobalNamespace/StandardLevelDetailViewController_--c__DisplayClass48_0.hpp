@@ -107,6 +107,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(StandardLevelDetailViewController::$$c__DisplayClass48_0), 40 + sizeof(GlobalNamespace::StandardLevelDetailViewController*)> __GlobalNamespace_StandardLevelDetailViewController_$$c__DisplayClass48_0SizeCheck;
   static_assert(sizeof(StandardLevelDetailViewController::$$c__DisplayClass48_0) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::StandardLevelDetailViewController::$$c__DisplayClass48_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelDetailViewController::$$c__DisplayClass48_0*, "", "StandardLevelDetailViewController/<>c__DisplayClass48_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelDetailViewController::$$c__DisplayClass48_0::$DidActivate$b__2

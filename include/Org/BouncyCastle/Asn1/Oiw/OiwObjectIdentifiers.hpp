@@ -76,6 +76,7 @@ namespace Org::BouncyCastle::Asn1::Oiw {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(Org::BouncyCastle::Asn1::Oiw::OiwObjectIdentifiers);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Oiw::OiwObjectIdentifiers*, "Org.BouncyCastle.Asn1.Oiw", "OiwObjectIdentifiers");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Oiw::OiwObjectIdentifiers::_cctor

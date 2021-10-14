@@ -136,6 +136,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(GameSongController), 56 + sizeof(bool)> __GlobalNamespace_GameSongControllerSizeCheck;
   static_assert(sizeof(GameSongController) == 0x39);
 }
+NEED_NO_BOX(GlobalNamespace::GameSongController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameSongController*, "", "GameSongController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameSongController::get_songLength

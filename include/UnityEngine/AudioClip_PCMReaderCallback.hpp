@@ -51,6 +51,7 @@ namespace UnityEngine {
   }; // UnityEngine.AudioClip/UnityEngine.PCMReaderCallback
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::AudioClip::PCMReaderCallback);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AudioClip::PCMReaderCallback*, "UnityEngine", "AudioClip/PCMReaderCallback");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AudioClip::PCMReaderCallback::New_ctor

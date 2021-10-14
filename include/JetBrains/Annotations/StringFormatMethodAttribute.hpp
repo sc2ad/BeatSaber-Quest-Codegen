@@ -57,6 +57,7 @@ namespace JetBrains::Annotations {
   static check_size<sizeof(StringFormatMethodAttribute), 16 + sizeof(::Il2CppString*)> __JetBrains_Annotations_StringFormatMethodAttributeSizeCheck;
   static_assert(sizeof(StringFormatMethodAttribute) == 0x18);
 }
+NEED_NO_BOX(JetBrains::Annotations::StringFormatMethodAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::StringFormatMethodAttribute*, "JetBrains.Annotations", "StringFormatMethodAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: JetBrains::Annotations::StringFormatMethodAttribute::get_FormatParameterName

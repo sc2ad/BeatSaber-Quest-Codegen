@@ -59,6 +59,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ResetPlayerPrefsOnButton), 24 + sizeof(UnityEngine::KeyCode)> __GlobalNamespace_ResetPlayerPrefsOnButtonSizeCheck;
   static_assert(sizeof(ResetPlayerPrefsOnButton) == 0x1C);
 }
+NEED_NO_BOX(GlobalNamespace::ResetPlayerPrefsOnButton);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResetPlayerPrefsOnButton*, "", "ResetPlayerPrefsOnButton");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ResetPlayerPrefsOnButton::Update

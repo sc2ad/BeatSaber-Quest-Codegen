@@ -77,6 +77,7 @@ namespace Org::BouncyCastle::Math::Field {
   static check_size<sizeof(PrimeField), 16 + sizeof(Org::BouncyCastle::Math::BigInteger*)> __Org_BouncyCastle_Math_Field_PrimeFieldSizeCheck;
   static_assert(sizeof(PrimeField) == 0x18);
 }
+NEED_NO_BOX(Org::BouncyCastle::Math::Field::PrimeField);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::Field::PrimeField*, "Org.BouncyCastle.Math.Field", "PrimeField");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::Field::PrimeField::get_Characteristic

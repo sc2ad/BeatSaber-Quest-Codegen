@@ -287,6 +287,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_LoadBufferVolumeLayer), 212 + sizeof(HoudiniEngineUnity::HFLayerType)> __HoudiniEngineUnity_HEU_LoadBufferVolumeLayerSizeCheck;
   static_assert(sizeof(HEU_LoadBufferVolumeLayer) == 0xD8);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_LoadBufferVolumeLayer);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_LoadBufferVolumeLayer*, "HoudiniEngineUnity", "HEU_LoadBufferVolumeLayer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_LoadBufferVolumeLayer::New_ctor

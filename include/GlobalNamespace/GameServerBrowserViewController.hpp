@@ -123,6 +123,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(GameServerBrowserViewController), 160 + sizeof(GlobalNamespace::LoadingControl*)> __GlobalNamespace_GameServerBrowserViewControllerSizeCheck;
   static_assert(sizeof(GameServerBrowserViewController) == 0xA8);
 }
+NEED_NO_BOX(GlobalNamespace::GameServerBrowserViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServerBrowserViewController*, "", "GameServerBrowserViewController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameServerBrowserViewController::New_ctor

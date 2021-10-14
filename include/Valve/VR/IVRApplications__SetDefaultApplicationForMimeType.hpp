@@ -56,6 +56,7 @@ namespace Valve::VR {
   }; // Valve.VR.IVRApplications/Valve.VR._SetDefaultApplicationForMimeType
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::IVRApplications::_SetDefaultApplicationForMimeType);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRApplications::_SetDefaultApplicationForMimeType*, "Valve.VR", "IVRApplications/_SetDefaultApplicationForMimeType");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRApplications::_SetDefaultApplicationForMimeType::New_ctor

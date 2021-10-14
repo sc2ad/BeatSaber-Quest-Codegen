@@ -106,6 +106,7 @@ namespace System::Resources {
   static check_size<sizeof(ResourceReader::ResourceEnumerator), 32 + sizeof(int)> __System_Resources_ResourceReader_ResourceEnumeratorSizeCheck;
   static_assert(sizeof(ResourceReader::ResourceEnumerator) == 0x24);
 }
+NEED_NO_BOX(System::Resources::ResourceReader::ResourceEnumerator);
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::ResourceReader::ResourceEnumerator*, "System.Resources", "ResourceReader/ResourceEnumerator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Resources::ResourceReader::ResourceEnumerator::get_Key

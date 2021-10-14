@@ -41,6 +41,7 @@ namespace GlobalNamespace {
     }
   }; // GameplayRpcManager/SetPlayerDidConnectLateRpc
 }
+NEED_NO_BOX(GlobalNamespace::GameplayRpcManager::SetPlayerDidConnectLateRpc);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayRpcManager::SetPlayerDidConnectLateRpc*, "", "GameplayRpcManager/SetPlayerDidConnectLateRpc");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameplayRpcManager::SetPlayerDidConnectLateRpc::New_ctor

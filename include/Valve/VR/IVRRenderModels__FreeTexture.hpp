@@ -51,6 +51,7 @@ namespace Valve::VR {
   }; // Valve.VR.IVRRenderModels/Valve.VR._FreeTexture
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::IVRRenderModels::_FreeTexture);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRRenderModels::_FreeTexture*, "Valve.VR", "IVRRenderModels/_FreeTexture");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRRenderModels::_FreeTexture::New_ctor

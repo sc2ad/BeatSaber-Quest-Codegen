@@ -75,6 +75,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SetTubeBloomPrePassLightColor), 32 + sizeof(::ArrayW<GlobalNamespace::TubeBloomPrePassLight*>)> __GlobalNamespace_SetTubeBloomPrePassLightColorSizeCheck;
   static_assert(sizeof(SetTubeBloomPrePassLightColor) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::SetTubeBloomPrePassLightColor);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SetTubeBloomPrePassLightColor*, "", "SetTubeBloomPrePassLightColor");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SetTubeBloomPrePassLightColor::Start

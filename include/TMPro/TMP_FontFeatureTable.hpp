@@ -81,6 +81,7 @@ namespace TMPro {
   static check_size<sizeof(TMP_FontFeatureTable), 24 + sizeof(System::Collections::Generic::Dictionary_2<int64_t, TMPro::TMP_GlyphPairAdjustmentRecord*>*)> __TMPro_TMP_FontFeatureTableSizeCheck;
   static_assert(sizeof(TMP_FontFeatureTable) == 0x20);
 }
+NEED_NO_BOX(TMPro::TMP_FontFeatureTable);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_FontFeatureTable*, "TMPro", "TMP_FontFeatureTable");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_FontFeatureTable::get_glyphPairAdjustmentRecords

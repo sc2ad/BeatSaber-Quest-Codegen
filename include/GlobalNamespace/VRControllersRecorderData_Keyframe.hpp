@@ -55,6 +55,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(VRControllersRecorderData::Keyframe), 24 + sizeof(float)> __GlobalNamespace_VRControllersRecorderData_KeyframeSizeCheck;
   static_assert(sizeof(VRControllersRecorderData::Keyframe) == 0x1C);
 }
+NEED_NO_BOX(GlobalNamespace::VRControllersRecorderData::Keyframe);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorderData::Keyframe*, "", "VRControllersRecorderData/Keyframe");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::VRControllersRecorderData::Keyframe::New_ctor

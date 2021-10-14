@@ -61,6 +61,7 @@ namespace OVR::OpenVR {
   }; // OVR.OpenVR.IVRInput/OVR.OpenVR._DecompressSkeletalBoneData
   #pragma pack(pop)
 }
+NEED_NO_BOX(OVR::OpenVR::IVRInput::_DecompressSkeletalBoneData);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRInput::_DecompressSkeletalBoneData*, "OVR.OpenVR", "IVRInput/_DecompressSkeletalBoneData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVRInput::_DecompressSkeletalBoneData::New_ctor

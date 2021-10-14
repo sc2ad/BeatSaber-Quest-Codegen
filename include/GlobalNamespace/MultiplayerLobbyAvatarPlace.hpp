@@ -51,6 +51,7 @@ namespace GlobalNamespace {
   }; // MultiplayerLobbyAvatarPlace
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerLobbyAvatarPlace);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLobbyAvatarPlace*, "", "MultiplayerLobbyAvatarPlace");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyAvatarPlace::SetPositionAndRotation

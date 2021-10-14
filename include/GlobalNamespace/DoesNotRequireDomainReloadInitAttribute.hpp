@@ -34,6 +34,7 @@ namespace GlobalNamespace {
   }; // DoesNotRequireDomainReloadInitAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::DoesNotRequireDomainReloadInitAttribute);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DoesNotRequireDomainReloadInitAttribute*, "", "DoesNotRequireDomainReloadInitAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DoesNotRequireDomainReloadInitAttribute::New_ctor

@@ -181,6 +181,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(AbTestExperimentDefinitionSO), 56 + sizeof(GlobalNamespace::AbTestExperimentDefinitionSO::Group)> __GlobalNamespace_AbTestExperimentDefinitionSOSizeCheck;
   static_assert(sizeof(AbTestExperimentDefinitionSO) == 0x3C);
 }
+NEED_NO_BOX(GlobalNamespace::AbTestExperimentDefinitionSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AbTestExperimentDefinitionSO*, "", "AbTestExperimentDefinitionSO");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AbTestExperimentDefinitionSO::Group, "", "AbTestExperimentDefinitionSO/Group");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

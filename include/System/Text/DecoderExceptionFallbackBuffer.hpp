@@ -47,6 +47,7 @@ namespace System::Text {
   }; // System.Text.DecoderExceptionFallbackBuffer
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Text::DecoderExceptionFallbackBuffer);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::DecoderExceptionFallbackBuffer*, "System.Text", "DecoderExceptionFallbackBuffer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::DecoderExceptionFallbackBuffer::Throw

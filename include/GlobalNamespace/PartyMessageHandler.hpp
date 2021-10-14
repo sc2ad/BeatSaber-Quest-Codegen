@@ -143,6 +143,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PartyMessageHandler), 32 + sizeof(GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate*)> __GlobalNamespace_PartyMessageHandlerSizeCheck;
   static_assert(sizeof(PartyMessageHandler) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::PartyMessageHandler);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PartyMessageHandler*, "", "PartyMessageHandler");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PartyMessageHandler::MessageType, "", "PartyMessageHandler/MessageType");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

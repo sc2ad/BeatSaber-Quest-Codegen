@@ -75,6 +75,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_TOPWorkResult), 24 + sizeof(System::Collections::Generic::List_1<UnityEngine::GameObject*>*)> __HoudiniEngineUnity_HEU_TOPWorkResultSizeCheck;
   static_assert(sizeof(HEU_TOPWorkResult) == 0x20);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_TOPWorkResult);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_TOPWorkResult*, "HoudiniEngineUnity", "HEU_TOPWorkResult");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_TOPWorkResult::New_ctor

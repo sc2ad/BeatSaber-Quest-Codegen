@@ -102,6 +102,7 @@ namespace MasterServer {
   }; // MasterServer.MessageHandler/MasterServer.RequestResponseWaiter
   // WARNING Not writing size check since size may be invalid!
 }
+NEED_NO_BOX(MasterServer::MessageHandler::RequestResponseWaiter);
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::RequestResponseWaiter*, "MasterServer", "MessageHandler/RequestResponseWaiter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: MasterServer::MessageHandler::RequestResponseWaiter::get_task

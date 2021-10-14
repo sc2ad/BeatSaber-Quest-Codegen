@@ -172,6 +172,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_ParameterModifier), 36 + sizeof(int)> __HoudiniEngineUnity_HEU_ParameterModifierSizeCheck;
   static_assert(sizeof(HEU_ParameterModifier) == 0x28);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_ParameterModifier);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_ParameterModifier*, "HoudiniEngineUnity", "HEU_ParameterModifier");
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_ParameterModifier::ModifierAction, "HoudiniEngineUnity", "HEU_ParameterModifier/ModifierAction");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

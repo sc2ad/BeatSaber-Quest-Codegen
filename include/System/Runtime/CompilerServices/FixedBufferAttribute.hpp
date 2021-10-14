@@ -68,6 +68,7 @@ namespace System::Runtime::CompilerServices {
   static check_size<sizeof(FixedBufferAttribute), 24 + sizeof(int)> __System_Runtime_CompilerServices_FixedBufferAttributeSizeCheck;
   static_assert(sizeof(FixedBufferAttribute) == 0x1C);
 }
+NEED_NO_BOX(System::Runtime::CompilerServices::FixedBufferAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::FixedBufferAttribute*, "System.Runtime.CompilerServices", "FixedBufferAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::FixedBufferAttribute::get_ElementType

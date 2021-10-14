@@ -133,6 +133,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ScoreUIController), 48 + sizeof(System::Text::StringBuilder*)> __GlobalNamespace_ScoreUIControllerSizeCheck;
   static_assert(sizeof(ScoreUIController) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::ScoreUIController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScoreUIController*, "", "ScoreUIController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ScoreUIController::Start

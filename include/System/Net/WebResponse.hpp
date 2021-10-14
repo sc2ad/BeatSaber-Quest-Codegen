@@ -100,6 +100,7 @@ namespace System::Net {
   }; // System.Net.WebResponse
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Net::WebResponse);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebResponse*, "System.Net", "WebResponse");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::WebResponse::get_ResponseUri

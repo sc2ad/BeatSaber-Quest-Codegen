@@ -536,6 +536,7 @@ namespace UnityEngine::UI {
   static check_size<sizeof(Selectable), 240 + sizeof(System::Collections::Generic::List_1<UnityEngine::CanvasGroup*>*)> __UnityEngine_UI_SelectableSizeCheck;
   static_assert(sizeof(Selectable) == 0xF8);
 }
+NEED_NO_BOX(UnityEngine::UI::Selectable);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Selectable*, "UnityEngine.UI", "Selectable");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Selectable::Transition, "UnityEngine.UI", "Selectable/Transition");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -3619,6 +3619,7 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.CAPI
   #pragma pack(pop)
 }
+NEED_NO_BOX(Oculus::Platform::CAPI);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CAPI*, "Oculus.Platform", "CAPI");
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CAPI::ovrKeyValuePair, "Oculus.Platform", "CAPI/ovrKeyValuePair");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

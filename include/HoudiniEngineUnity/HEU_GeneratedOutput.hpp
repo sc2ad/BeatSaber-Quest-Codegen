@@ -143,6 +143,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_GeneratedOutput), 32 + sizeof(bool)> __HoudiniEngineUnity_HEU_GeneratedOutputSizeCheck;
   static_assert(sizeof(HEU_GeneratedOutput) == 0x21);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_GeneratedOutput);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_GeneratedOutput*, "HoudiniEngineUnity", "HEU_GeneratedOutput");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneratedOutput::get_IsInstancer

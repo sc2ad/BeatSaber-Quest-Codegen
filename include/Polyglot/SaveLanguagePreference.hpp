@@ -66,6 +66,7 @@ namespace Polyglot {
   static check_size<sizeof(SaveLanguagePreference), 24 + sizeof(::Il2CppString*)> __Polyglot_SaveLanguagePreferenceSizeCheck;
   static_assert(sizeof(SaveLanguagePreference) == 0x20);
 }
+NEED_NO_BOX(Polyglot::SaveLanguagePreference);
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::SaveLanguagePreference*, "Polyglot", "SaveLanguagePreference");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Polyglot::SaveLanguagePreference::Start

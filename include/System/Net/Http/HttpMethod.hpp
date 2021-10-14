@@ -112,6 +112,7 @@ namespace System::Net::Http {
   // Offset: 0x17416EC
   bool operator ==(System::Net::Http::HttpMethod* left, System::Net::Http::HttpMethod& right);
 }
+NEED_NO_BOX(System::Net::Http::HttpMethod);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::HttpMethod*, "System.Net.Http", "HttpMethod");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Http::HttpMethod::get_Get

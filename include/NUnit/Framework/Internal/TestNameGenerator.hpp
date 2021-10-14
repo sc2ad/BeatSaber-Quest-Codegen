@@ -108,6 +108,7 @@ namespace NUnit::Framework::Internal {
   static check_size<sizeof(TestNameGenerator), 24 + sizeof(System::Collections::Generic::List_1<NUnit::Framework::Internal::TestNameGenerator::NameFragment*>*)> __NUnit_Framework_Internal_TestNameGeneratorSizeCheck;
   static_assert(sizeof(TestNameGenerator) == 0x20);
 }
+NEED_NO_BOX(NUnit::Framework::Internal::TestNameGenerator);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestNameGenerator*, "NUnit.Framework.Internal", "TestNameGenerator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestNameGenerator::New_ctor

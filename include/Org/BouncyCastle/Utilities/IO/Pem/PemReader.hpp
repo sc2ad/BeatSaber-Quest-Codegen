@@ -66,6 +66,7 @@ namespace Org::BouncyCastle::Utilities::IO::Pem {
   static check_size<sizeof(PemReader), 16 + sizeof(System::IO::TextReader*)> __Org_BouncyCastle_Utilities_IO_Pem_PemReaderSizeCheck;
   static_assert(sizeof(PemReader) == 0x18);
 }
+NEED_NO_BOX(Org::BouncyCastle::Utilities::IO::Pem::PemReader);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::IO::Pem::PemReader*, "Org.BouncyCastle.Utilities.IO.Pem", "PemReader");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::IO::Pem::PemReader::New_ctor

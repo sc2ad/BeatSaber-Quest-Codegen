@@ -199,6 +199,7 @@ namespace System::Runtime::Remoting {
   static check_size<sizeof(ObjRef), 56 + sizeof(System::Type*)> __System_Runtime_Remoting_ObjRefSizeCheck;
   static_assert(sizeof(ObjRef) == 0x40);
 }
+NEED_NO_BOX(System::Runtime::Remoting::ObjRef);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::ObjRef*, "System.Runtime.Remoting", "ObjRef");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::ObjRef::get_IsReferenceToWellKnow

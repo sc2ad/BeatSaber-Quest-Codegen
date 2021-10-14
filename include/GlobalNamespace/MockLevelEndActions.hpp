@@ -79,6 +79,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MockLevelEndActions), 24 + sizeof(System::Action*)> __GlobalNamespace_MockLevelEndActionsSizeCheck;
   static_assert(sizeof(MockLevelEndActions) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::MockLevelEndActions);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockLevelEndActions*, "", "MockLevelEndActions");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MockLevelEndActions::add_levelFailedEvent

@@ -86,6 +86,7 @@ namespace Oculus::Platform::Models {
   static check_size<sizeof(NetSyncConnection), 48 + sizeof(::Il2CppString*)> __Oculus_Platform_Models_NetSyncConnectionSizeCheck;
   static_assert(sizeof(NetSyncConnection) == 0x38);
 }
+NEED_NO_BOX(Oculus::Platform::Models::NetSyncConnection);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::NetSyncConnection*, "Oculus.Platform.Models", "NetSyncConnection");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::NetSyncConnection::New_ctor

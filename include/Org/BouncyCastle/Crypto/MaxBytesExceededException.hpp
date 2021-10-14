@@ -44,6 +44,7 @@ namespace Org::BouncyCastle::Crypto {
   }; // Org.BouncyCastle.Crypto.MaxBytesExceededException
   #pragma pack(pop)
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::MaxBytesExceededException);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::MaxBytesExceededException*, "Org.BouncyCastle.Crypto", "MaxBytesExceededException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::MaxBytesExceededException::New_ctor

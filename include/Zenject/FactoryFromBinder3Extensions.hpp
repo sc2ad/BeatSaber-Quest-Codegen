@@ -146,6 +146,7 @@ namespace Zenject {
   }; // Zenject.FactoryFromBinder3Extensions
   #pragma pack(pop)
 }
+NEED_NO_BOX(Zenject::FactoryFromBinder3Extensions);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::FactoryFromBinder3Extensions*, "Zenject", "FactoryFromBinder3Extensions");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::FactoryFromBinder3Extensions::FromIFactory

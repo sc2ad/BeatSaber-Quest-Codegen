@@ -59,6 +59,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(Test_HAPI_AttributeInfo), 16 + sizeof(HoudiniEngineUnity::HAPI_AttributeInfo)> __HoudiniEngineUnity_Test_HAPI_AttributeInfoSizeCheck;
   static_assert(sizeof(Test_HAPI_AttributeInfo) == 0x34);
 }
+NEED_NO_BOX(HoudiniEngineUnity::Test_HAPI_AttributeInfo);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::Test_HAPI_AttributeInfo*, "HoudiniEngineUnity", "Test_HAPI_AttributeInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::Test_HAPI_AttributeInfo::New_ctor

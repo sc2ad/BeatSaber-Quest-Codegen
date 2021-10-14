@@ -93,6 +93,7 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
   }; // Org.BouncyCastle.Math.EC.Custom.Sec.SecT163R2Point
   #pragma pack(pop)
 }
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::Custom::Sec::SecT163R2Point);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Custom::Sec::SecT163R2Point*, "Org.BouncyCastle.Math.EC.Custom.Sec", "SecT163R2Point");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::Sec::SecT163R2Point::New_ctor

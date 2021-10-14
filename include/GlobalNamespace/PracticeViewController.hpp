@@ -250,6 +250,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PracticeViewController), 208 + sizeof(GlobalNamespace::BeatmapDifficulty)> __GlobalNamespace_PracticeViewControllerSizeCheck;
   static_assert(sizeof(PracticeViewController) == 0xD4);
 }
+NEED_NO_BOX(GlobalNamespace::PracticeViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PracticeViewController*, "", "PracticeViewController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PracticeViewController::get_practiceSettings

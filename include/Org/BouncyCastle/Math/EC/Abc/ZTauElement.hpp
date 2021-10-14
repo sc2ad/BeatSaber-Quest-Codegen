@@ -59,6 +59,7 @@ namespace Org::BouncyCastle::Math::EC::Abc {
   static check_size<sizeof(ZTauElement), 24 + sizeof(Org::BouncyCastle::Math::BigInteger*)> __Org_BouncyCastle_Math_EC_Abc_ZTauElementSizeCheck;
   static_assert(sizeof(ZTauElement) == 0x20);
 }
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::Abc::ZTauElement);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Abc::ZTauElement*, "Org.BouncyCastle.Math.EC.Abc", "ZTauElement");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Abc::ZTauElement::New_ctor

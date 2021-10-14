@@ -348,6 +348,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerResultsTableView), 192 + sizeof(UnityEngine::Quaternion)> __GlobalNamespace_MultiplayerResultsTableViewSizeCheck;
   static_assert(sizeof(MultiplayerResultsTableView) == 0xD0);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerResultsTableView);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerResultsTableView*, "", "MultiplayerResultsTableView");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerResultsTableView::CellSize

@@ -79,6 +79,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MissionStage), 32 + sizeof(UnityEngine::RectTransform*)> __GlobalNamespace_MissionStageSizeCheck;
   static_assert(sizeof(MissionStage) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::MissionStage);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionStage*, "", "MissionStage");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionStage::get_minimumMissionsToUnlock

@@ -138,6 +138,7 @@ namespace System {
   }; // System.DBNull
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::DBNull);
 DEFINE_IL2CPP_ARG_TYPE(System::DBNull*, "System", "DBNull");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::DBNull::New_ctor

@@ -73,6 +73,7 @@ namespace Mono::Security::Interface {
   }; // Mono.Security.Interface.ValidationResult
   // WARNING Not writing size check since size may be invalid!
 }
+NEED_NO_BOX(Mono::Security::Interface::ValidationResult);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::ValidationResult*, "Mono.Security.Interface", "ValidationResult");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Security::Interface::ValidationResult::get_Trusted

@@ -252,6 +252,7 @@ namespace System::Net::Sockets {
   static check_size<sizeof(SocketAsyncEventArgs), 96 + sizeof(System::EventHandler_1<System::Net::Sockets::SocketAsyncEventArgs*>*)> __System_Net_Sockets_SocketAsyncEventArgsSizeCheck;
   static_assert(sizeof(SocketAsyncEventArgs) == 0x68);
 }
+NEED_NO_BOX(System::Net::Sockets::SocketAsyncEventArgs);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::SocketAsyncEventArgs*, "System.Net.Sockets", "SocketAsyncEventArgs");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Sockets::SocketAsyncEventArgs::get_AcceptSocket

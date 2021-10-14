@@ -162,6 +162,7 @@ namespace System::IO::Compression {
   static check_size<sizeof(DeflateStreamNative), 48 + sizeof(::ArrayW<uint8_t>)> __System_IO_Compression_DeflateStreamNativeSizeCheck;
   static_assert(sizeof(DeflateStreamNative) == 0x38);
 }
+NEED_NO_BOX(System::IO::Compression::DeflateStreamNative);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Compression::DeflateStreamNative*, "System.IO.Compression", "DeflateStreamNative");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::Compression::DeflateStreamNative::Create

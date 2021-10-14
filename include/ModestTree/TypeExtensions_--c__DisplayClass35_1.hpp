@@ -65,6 +65,7 @@ namespace ModestTree {
   static check_size<sizeof(TypeExtensions::$$c__DisplayClass35_1), 16 + sizeof(System::Attribute*)> __ModestTree_TypeExtensions_$$c__DisplayClass35_1SizeCheck;
   static_assert(sizeof(TypeExtensions::$$c__DisplayClass35_1) == 0x18);
 }
+NEED_NO_BOX(ModestTree::TypeExtensions::$$c__DisplayClass35_1);
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::TypeExtensions::$$c__DisplayClass35_1*, "ModestTree", "TypeExtensions/<>c__DisplayClass35_1");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: ModestTree::TypeExtensions::$$c__DisplayClass35_1::$AllAttributes$b__1

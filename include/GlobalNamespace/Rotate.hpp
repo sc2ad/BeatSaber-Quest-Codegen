@@ -138,6 +138,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(Rotate), 92 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_RotateSizeCheck;
   static_assert(sizeof(Rotate) == 0x68);
 }
+NEED_NO_BOX(GlobalNamespace::Rotate);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Rotate*, "", "Rotate");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::Rotate::Awake

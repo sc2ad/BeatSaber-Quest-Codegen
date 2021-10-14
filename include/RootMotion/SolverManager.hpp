@@ -150,6 +150,7 @@ namespace RootMotion {
   static check_size<sizeof(SolverManager), 50 + sizeof(bool)> __RootMotion_SolverManagerSizeCheck;
   static_assert(sizeof(SolverManager) == 0x33);
 }
+NEED_NO_BOX(RootMotion::SolverManager);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::SolverManager*, "RootMotion", "SolverManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::SolverManager::get_animatePhysics

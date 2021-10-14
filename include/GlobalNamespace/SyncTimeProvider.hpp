@@ -67,6 +67,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SyncTimeProvider), 16 + sizeof(GlobalNamespace::IMultiplayerSessionManager*)> __GlobalNamespace_SyncTimeProviderSizeCheck;
   static_assert(sizeof(SyncTimeProvider) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::SyncTimeProvider);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SyncTimeProvider*, "", "SyncTimeProvider");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SyncTimeProvider::get_time

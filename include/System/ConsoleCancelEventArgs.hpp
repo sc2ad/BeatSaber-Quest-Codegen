@@ -69,6 +69,7 @@ namespace System {
   static check_size<sizeof(ConsoleCancelEventArgs), 20 + sizeof(bool)> __System_ConsoleCancelEventArgsSizeCheck;
   static_assert(sizeof(ConsoleCancelEventArgs) == 0x15);
 }
+NEED_NO_BOX(System::ConsoleCancelEventArgs);
 DEFINE_IL2CPP_ARG_TYPE(System::ConsoleCancelEventArgs*, "System", "ConsoleCancelEventArgs");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ConsoleCancelEventArgs::get_Cancel

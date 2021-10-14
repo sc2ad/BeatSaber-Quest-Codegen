@@ -61,6 +61,7 @@ namespace Zenject {
   static check_size<sizeof(GuiRenderableManager::RenderableInfo), 24 + sizeof(int)> __Zenject_GuiRenderableManager_RenderableInfoSizeCheck;
   static_assert(sizeof(GuiRenderableManager::RenderableInfo) == 0x1C);
 }
+NEED_NO_BOX(Zenject::GuiRenderableManager::RenderableInfo);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::GuiRenderableManager::RenderableInfo*, "Zenject", "GuiRenderableManager/RenderableInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::GuiRenderableManager::RenderableInfo::New_ctor

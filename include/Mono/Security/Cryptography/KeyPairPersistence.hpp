@@ -180,6 +180,7 @@ namespace Mono::Security::Cryptography {
   static check_size<sizeof(KeyPairPersistence), 40 + sizeof(::Il2CppString*)> __Mono_Security_Cryptography_KeyPairPersistenceSizeCheck;
   static_assert(sizeof(KeyPairPersistence) == 0x30);
 }
+NEED_NO_BOX(Mono::Security::Cryptography::KeyPairPersistence);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::KeyPairPersistence*, "Mono.Security.Cryptography", "KeyPairPersistence");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Security::Cryptography::KeyPairPersistence::get_Filename

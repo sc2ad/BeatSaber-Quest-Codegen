@@ -64,6 +64,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(AssetObjectListSO), 24 + sizeof(::ArrayW<UnityEngine::Object*>)> __GlobalNamespace_AssetObjectListSOSizeCheck;
   static_assert(sizeof(AssetObjectListSO) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::AssetObjectListSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AssetObjectListSO*, "", "AssetObjectListSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AssetObjectListSO::get_objects

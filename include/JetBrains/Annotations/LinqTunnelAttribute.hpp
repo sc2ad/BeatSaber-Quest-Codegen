@@ -34,6 +34,7 @@ namespace JetBrains::Annotations {
   }; // JetBrains.Annotations.LinqTunnelAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(JetBrains::Annotations::LinqTunnelAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::LinqTunnelAttribute*, "JetBrains.Annotations", "LinqTunnelAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: JetBrains::Annotations::LinqTunnelAttribute::New_ctor

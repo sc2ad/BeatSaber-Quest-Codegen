@@ -88,6 +88,7 @@ namespace UnityEngine {
   }; // UnityEngine.Texture2DArray
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::Texture2DArray);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Texture2DArray*, "UnityEngine", "Texture2DArray");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Texture2DArray::get_allSlices

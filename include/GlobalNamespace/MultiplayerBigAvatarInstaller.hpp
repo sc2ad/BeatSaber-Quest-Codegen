@@ -89,6 +89,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerBigAvatarInstaller), 48 + sizeof(GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*)> __GlobalNamespace_MultiplayerBigAvatarInstallerSizeCheck;
   static_assert(sizeof(MultiplayerBigAvatarInstaller) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerBigAvatarInstaller);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerBigAvatarInstaller*, "", "MultiplayerBigAvatarInstaller");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerBigAvatarInstaller::New_ctor

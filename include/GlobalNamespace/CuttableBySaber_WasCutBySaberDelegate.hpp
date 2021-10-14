@@ -62,6 +62,7 @@ namespace GlobalNamespace {
   }; // CuttableBySaber/WasCutBySaberDelegate
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::CuttableBySaber::WasCutBySaberDelegate);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CuttableBySaber::WasCutBySaberDelegate*, "", "CuttableBySaber/WasCutBySaberDelegate");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CuttableBySaber::WasCutBySaberDelegate::New_ctor

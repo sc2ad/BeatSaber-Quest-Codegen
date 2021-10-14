@@ -87,6 +87,7 @@ namespace System::Net {
   }; // System.Net.CookieException
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Net::CookieException);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::CookieException*, "System.Net", "CookieException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::CookieException::System_Runtime_Serialization_ISerializable_GetObjectData

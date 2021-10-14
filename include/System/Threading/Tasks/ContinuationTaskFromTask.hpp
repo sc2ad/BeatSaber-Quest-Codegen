@@ -64,6 +64,7 @@ namespace System::Threading::Tasks {
   static check_size<sizeof(ContinuationTaskFromTask), 80 + sizeof(System::Threading::Tasks::Task*)> __System_Threading_Tasks_ContinuationTaskFromTaskSizeCheck;
   static_assert(sizeof(ContinuationTaskFromTask) == 0x58);
 }
+NEED_NO_BOX(System::Threading::Tasks::ContinuationTaskFromTask);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::ContinuationTaskFromTask*, "System.Threading.Tasks", "ContinuationTaskFromTask");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::Tasks::ContinuationTaskFromTask::New_ctor

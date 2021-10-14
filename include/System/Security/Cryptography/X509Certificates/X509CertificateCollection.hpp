@@ -67,6 +67,7 @@ namespace System::Security::Cryptography::X509Certificates {
   }; // System.Security.Cryptography.X509Certificates.X509CertificateCollection
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Security::Cryptography::X509Certificates::X509CertificateCollection);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509CertificateCollection*, "System.Security.Cryptography.X509Certificates", "X509CertificateCollection");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509CertificateCollection::get_Item

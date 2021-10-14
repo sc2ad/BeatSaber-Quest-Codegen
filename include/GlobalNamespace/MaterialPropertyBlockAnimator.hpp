@@ -104,6 +104,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MaterialPropertyBlockAnimator), 44 + sizeof(bool)> __GlobalNamespace_MaterialPropertyBlockAnimatorSizeCheck;
   static_assert(sizeof(MaterialPropertyBlockAnimator) == 0x2D);
 }
+NEED_NO_BOX(GlobalNamespace::MaterialPropertyBlockAnimator);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialPropertyBlockAnimator*, "", "MaterialPropertyBlockAnimator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MaterialPropertyBlockAnimator::get_materialPropertyBlockController

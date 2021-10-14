@@ -90,6 +90,7 @@ namespace System::Runtime::Remoting {
   static check_size<sizeof(ProviderData), 48 + sizeof(System::Collections::IList*)> __System_Runtime_Remoting_ProviderDataSizeCheck;
   static_assert(sizeof(ProviderData) == 0x38);
 }
+NEED_NO_BOX(System::Runtime::Remoting::ProviderData);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::ProviderData*, "System.Runtime.Remoting", "ProviderData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::ProviderData::CopyFrom

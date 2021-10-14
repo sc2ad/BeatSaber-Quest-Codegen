@@ -323,6 +323,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ResultsViewController), 273 + sizeof(bool)> __GlobalNamespace_ResultsViewControllerSizeCheck;
   static_assert(sizeof(ResultsViewController) == 0x112);
 }
+NEED_NO_BOX(GlobalNamespace::ResultsViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResultsViewController*, "", "ResultsViewController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ResultsViewController::get_practice

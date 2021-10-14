@@ -140,6 +140,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerLocalActiveCenterRingLightsController), 65 + sizeof(bool)> __GlobalNamespace_MultiplayerLocalActiveCenterRingLightsControllerSizeCheck;
   static_assert(sizeof(MultiplayerLocalActiveCenterRingLightsController) == 0x42);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController*, "", "MultiplayerLocalActiveCenterRingLightsController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::Start

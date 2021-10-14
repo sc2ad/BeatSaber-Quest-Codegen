@@ -90,6 +90,7 @@ namespace Org::BouncyCastle::Math::EC {
   static check_size<sizeof(F2mCurve::DefaultF2mLookupTable), 32 + sizeof(int)> __Org_BouncyCastle_Math_EC_F2mCurve_DefaultF2mLookupTableSizeCheck;
   static_assert(sizeof(F2mCurve::DefaultF2mLookupTable) == 0x24);
 }
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::F2mCurve::DefaultF2mLookupTable);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::F2mCurve::DefaultF2mLookupTable*, "Org.BouncyCastle.Math.EC", "F2mCurve/DefaultF2mLookupTable");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::F2mCurve::DefaultF2mLookupTable::New_ctor

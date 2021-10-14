@@ -84,6 +84,7 @@ namespace Org::BouncyCastle::Asn1 {
   static check_size<sizeof(DerT61String), 16 + sizeof(::Il2CppString*)> __Org_BouncyCastle_Asn1_DerT61StringSizeCheck;
   static_assert(sizeof(DerT61String) == 0x18);
 }
+NEED_NO_BOX(Org::BouncyCastle::Asn1::DerT61String);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerT61String*, "Org.BouncyCastle.Asn1", "DerT61String");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerT61String::New_ctor

@@ -100,6 +100,7 @@ namespace HMUI {
   static check_size<sizeof(InputFieldViewChangeBinder), 24 + sizeof(bool)> __HMUI_InputFieldViewChangeBinderSizeCheck;
   static_assert(sizeof(InputFieldViewChangeBinder) == 0x19);
 }
+NEED_NO_BOX(HMUI::InputFieldViewChangeBinder);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::InputFieldViewChangeBinder*, "HMUI", "InputFieldViewChangeBinder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::InputFieldViewChangeBinder::Init

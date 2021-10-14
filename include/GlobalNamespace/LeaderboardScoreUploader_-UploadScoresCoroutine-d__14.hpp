@@ -86,6 +86,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LeaderboardScoreUploader::$UploadScoresCoroutine$d__14), 32 + sizeof(GlobalNamespace::LeaderboardScoreUploader*)> __GlobalNamespace_LeaderboardScoreUploader_$UploadScoresCoroutine$d__14SizeCheck;
   static_assert(sizeof(LeaderboardScoreUploader::$UploadScoresCoroutine$d__14) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::LeaderboardScoreUploader::$UploadScoresCoroutine$d__14);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardScoreUploader::$UploadScoresCoroutine$d__14*, "", "LeaderboardScoreUploader/<UploadScoresCoroutine>d__14");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LeaderboardScoreUploader::$UploadScoresCoroutine$d__14::System_Collections_Generic_IEnumerator$System_Object$_get_Current

@@ -104,6 +104,7 @@ namespace Zenject {
   static check_size<sizeof(PrefabInstantiator::$$c__DisplayClass15_0), 48 + sizeof(bool)> __Zenject_PrefabInstantiator_$$c__DisplayClass15_0SizeCheck;
   static_assert(sizeof(PrefabInstantiator::$$c__DisplayClass15_0) == 0x31);
 }
+NEED_NO_BOX(Zenject::PrefabInstantiator::$$c__DisplayClass15_0);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::PrefabInstantiator::$$c__DisplayClass15_0*, "Zenject", "PrefabInstantiator/<>c__DisplayClass15_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::PrefabInstantiator::$$c__DisplayClass15_0::$Instantiate$b__0

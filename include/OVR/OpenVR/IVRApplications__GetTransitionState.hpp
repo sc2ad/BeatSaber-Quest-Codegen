@@ -56,6 +56,7 @@ namespace OVR::OpenVR {
   }; // OVR.OpenVR.IVRApplications/OVR.OpenVR._GetTransitionState
   #pragma pack(pop)
 }
+NEED_NO_BOX(OVR::OpenVR::IVRApplications::_GetTransitionState);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRApplications::_GetTransitionState*, "OVR.OpenVR", "IVRApplications/_GetTransitionState");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVRApplications::_GetTransitionState::New_ctor

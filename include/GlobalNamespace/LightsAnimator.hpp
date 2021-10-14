@@ -134,6 +134,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LightsAnimator), 48 + sizeof(Tweening::ColorTween*)> __GlobalNamespace_LightsAnimatorSizeCheck;
   static_assert(sizeof(LightsAnimator) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::LightsAnimator);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightsAnimator*, "", "LightsAnimator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LightsAnimator::Awake

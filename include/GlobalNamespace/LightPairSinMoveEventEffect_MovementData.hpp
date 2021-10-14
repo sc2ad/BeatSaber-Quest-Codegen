@@ -109,6 +109,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LightPairSinMoveEventEffect::MovementData), 56 + sizeof(float)> __GlobalNamespace_LightPairSinMoveEventEffect_MovementDataSizeCheck;
   static_assert(sizeof(LightPairSinMoveEventEffect::MovementData) == 0x3C);
 }
+NEED_NO_BOX(GlobalNamespace::LightPairSinMoveEventEffect::MovementData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightPairSinMoveEventEffect::MovementData*, "", "LightPairSinMoveEventEffect/MovementData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LightPairSinMoveEventEffect::MovementData::New_ctor

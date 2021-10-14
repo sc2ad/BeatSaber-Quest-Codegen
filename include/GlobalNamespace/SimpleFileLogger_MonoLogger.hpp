@@ -73,6 +73,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SimpleFileLogger::MonoLogger), 24 + sizeof(System::Collections::Generic::List_1<::Il2CppString*>*)> __GlobalNamespace_SimpleFileLogger_MonoLoggerSizeCheck;
   static_assert(sizeof(SimpleFileLogger::MonoLogger) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::SimpleFileLogger::MonoLogger);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleFileLogger::MonoLogger*, "", "SimpleFileLogger/MonoLogger");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SimpleFileLogger::MonoLogger::OnDestroy

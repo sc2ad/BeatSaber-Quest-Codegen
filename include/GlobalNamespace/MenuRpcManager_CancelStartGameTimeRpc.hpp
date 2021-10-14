@@ -35,6 +35,7 @@ namespace GlobalNamespace {
   }; // MenuRpcManager/CancelStartGameTimeRpc
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::MenuRpcManager::CancelStartGameTimeRpc);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuRpcManager::CancelStartGameTimeRpc*, "", "MenuRpcManager/CancelStartGameTimeRpc");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::CancelStartGameTimeRpc::New_ctor

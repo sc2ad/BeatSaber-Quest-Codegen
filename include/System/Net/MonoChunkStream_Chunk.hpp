@@ -58,6 +58,7 @@ namespace System::Net {
   static check_size<sizeof(MonoChunkStream::Chunk), 24 + sizeof(int)> __System_Net_MonoChunkStream_ChunkSizeCheck;
   static_assert(sizeof(MonoChunkStream::Chunk) == 0x1C);
 }
+NEED_NO_BOX(System::Net::MonoChunkStream::Chunk);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::MonoChunkStream::Chunk*, "System.Net", "MonoChunkStream/Chunk");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::MonoChunkStream::Chunk::New_ctor

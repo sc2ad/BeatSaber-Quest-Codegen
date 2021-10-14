@@ -105,6 +105,7 @@ namespace System::Security::Cryptography {
   static check_size<sizeof(SHA1Internal), 48 + sizeof(::ArrayW<uint>)> __System_Security_Cryptography_SHA1InternalSizeCheck;
   static_assert(sizeof(SHA1Internal) == 0x38);
 }
+NEED_NO_BOX(System::Security::Cryptography::SHA1Internal);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::SHA1Internal*, "System.Security.Cryptography", "SHA1Internal");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::SHA1Internal::HashCore

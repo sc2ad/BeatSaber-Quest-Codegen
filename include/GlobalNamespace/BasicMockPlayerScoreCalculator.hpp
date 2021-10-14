@@ -91,6 +91,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BasicMockPlayerScoreCalculator), 32 + sizeof(System::Random*)> __GlobalNamespace_BasicMockPlayerScoreCalculatorSizeCheck;
   static_assert(sizeof(BasicMockPlayerScoreCalculator) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::BasicMockPlayerScoreCalculator);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BasicMockPlayerScoreCalculator*, "", "BasicMockPlayerScoreCalculator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BasicMockPlayerScoreCalculator::New_ctor

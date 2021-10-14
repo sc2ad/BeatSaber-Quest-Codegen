@@ -78,6 +78,7 @@ namespace Mono::Http {
   }; // Mono.Http.NtlmClient
   #pragma pack(pop)
 }
+NEED_NO_BOX(Mono::Http::NtlmClient);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Http::NtlmClient*, "Mono.Http", "NtlmClient");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Http::NtlmClient::get_AuthenticationType

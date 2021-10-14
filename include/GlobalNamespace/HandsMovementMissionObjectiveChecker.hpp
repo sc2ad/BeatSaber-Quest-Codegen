@@ -75,6 +75,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(HandsMovementMissionObjectiveChecker), 72 + sizeof(GlobalNamespace::SaberActivityCounter*)> __GlobalNamespace_HandsMovementMissionObjectiveCheckerSizeCheck;
   static_assert(sizeof(HandsMovementMissionObjectiveChecker) == 0x50);
 }
+NEED_NO_BOX(GlobalNamespace::HandsMovementMissionObjectiveChecker);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HandsMovementMissionObjectiveChecker*, "", "HandsMovementMissionObjectiveChecker");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HandsMovementMissionObjectiveChecker::OnDestroy

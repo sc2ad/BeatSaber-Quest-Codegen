@@ -119,6 +119,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BlurredCoverImageView), 56 + sizeof(UnityEngine::Texture2D*)> __GlobalNamespace_BlurredCoverImageViewSizeCheck;
   static_assert(sizeof(BlurredCoverImageView) == 0x40);
 }
+NEED_NO_BOX(GlobalNamespace::BlurredCoverImageView);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BlurredCoverImageView*, "", "BlurredCoverImageView");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BlurredCoverImageView::OnDestroy

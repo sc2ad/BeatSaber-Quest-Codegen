@@ -51,6 +51,7 @@ namespace System::Runtime::CompilerServices {
   static check_size<sizeof(TypeDependencyAttribute), 16 + sizeof(::Il2CppString*)> __System_Runtime_CompilerServices_TypeDependencyAttributeSizeCheck;
   static_assert(sizeof(TypeDependencyAttribute) == 0x18);
 }
+NEED_NO_BOX(System::Runtime::CompilerServices::TypeDependencyAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::TypeDependencyAttribute*, "System.Runtime.CompilerServices", "TypeDependencyAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::TypeDependencyAttribute::New_ctor

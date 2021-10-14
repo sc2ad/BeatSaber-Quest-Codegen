@@ -71,6 +71,7 @@ namespace JetBrains::Annotations {
   static check_size<sizeof(UsedImplicitlyAttribute), 20 + sizeof(JetBrains::Annotations::ImplicitUseTargetFlags)> __JetBrains_Annotations_UsedImplicitlyAttributeSizeCheck;
   static_assert(sizeof(UsedImplicitlyAttribute) == 0x18);
 }
+NEED_NO_BOX(JetBrains::Annotations::UsedImplicitlyAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::UsedImplicitlyAttribute*, "JetBrains.Annotations", "UsedImplicitlyAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: JetBrains::Annotations::UsedImplicitlyAttribute::New_ctor

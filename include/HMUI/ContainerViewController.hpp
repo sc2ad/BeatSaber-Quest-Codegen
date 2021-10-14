@@ -158,6 +158,7 @@ namespace HMUI {
   static check_size<sizeof(ContainerViewController), 120 + sizeof(System::Collections::Generic::List_1<HMUI::ViewController*>*)> __HMUI_ContainerViewControllerSizeCheck;
   static_assert(sizeof(ContainerViewController) == 0x80);
 }
+NEED_NO_BOX(HMUI::ContainerViewController);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ContainerViewController*, "HMUI", "ContainerViewController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::ContainerViewController::get_controllersContainer

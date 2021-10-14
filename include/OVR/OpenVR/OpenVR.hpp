@@ -1490,6 +1490,7 @@ namespace OVR::OpenVR {
   }; // OVR.OpenVR.OpenVR
   #pragma pack(pop)
 }
+NEED_NO_BOX(OVR::OpenVR::OpenVR);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::OpenVR*, "OVR.OpenVR", "OpenVR");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::OpenVR::get_VRToken

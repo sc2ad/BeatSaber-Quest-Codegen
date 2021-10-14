@@ -233,6 +233,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(VRTrackersRecorder), 100 + sizeof(UnityEngine::Quaternion)> __GlobalNamespace_VRTrackersRecorderSizeCheck;
   static_assert(sizeof(VRTrackersRecorder) == 0x74);
 }
+NEED_NO_BOX(GlobalNamespace::VRTrackersRecorder);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRTrackersRecorder*, "", "VRTrackersRecorder");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRTrackersRecorder::RecordMode, "", "VRTrackersRecorder/RecordMode");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

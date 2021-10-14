@@ -46,6 +46,7 @@ namespace Oculus::Platform {
     Oculus::Platform::Models::GroupPresenceJoinIntent* GetGroupPresenceJoinIntent();
   }; // Oculus.Platform.MessageWithGroupPresenceJoinIntent
 }
+NEED_NO_BOX(Oculus::Platform::MessageWithGroupPresenceJoinIntent);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithGroupPresenceJoinIntent*, "Oculus.Platform", "MessageWithGroupPresenceJoinIntent");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithGroupPresenceJoinIntent::GetDataFromMessage

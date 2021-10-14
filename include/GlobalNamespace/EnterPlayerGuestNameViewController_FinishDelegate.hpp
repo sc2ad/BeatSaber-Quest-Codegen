@@ -50,6 +50,7 @@ namespace GlobalNamespace {
   }; // EnterPlayerGuestNameViewController/FinishDelegate
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::EnterPlayerGuestNameViewController::FinishDelegate);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnterPlayerGuestNameViewController::FinishDelegate*, "", "EnterPlayerGuestNameViewController/FinishDelegate");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EnterPlayerGuestNameViewController::FinishDelegate::New_ctor

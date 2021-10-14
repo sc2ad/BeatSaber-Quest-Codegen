@@ -51,6 +51,7 @@ namespace Valve::VR {
   }; // Valve.VR.IVRCompositor/Valve.VR._ForceReconnectProcess
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::IVRCompositor::_ForceReconnectProcess);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRCompositor::_ForceReconnectProcess*, "Valve.VR", "IVRCompositor/_ForceReconnectProcess");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRCompositor::_ForceReconnectProcess::New_ctor

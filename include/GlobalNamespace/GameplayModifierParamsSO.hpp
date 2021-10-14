@@ -156,6 +156,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(GameplayModifierParamsSO), 80 + sizeof(bool)> __GlobalNamespace_GameplayModifierParamsSOSizeCheck;
   static_assert(sizeof(GameplayModifierParamsSO) == 0x51);
 }
+NEED_NO_BOX(GlobalNamespace::GameplayModifierParamsSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifierParamsSO*, "", "GameplayModifierParamsSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameplayModifierParamsSO::get_modifierNameLocalizationKey

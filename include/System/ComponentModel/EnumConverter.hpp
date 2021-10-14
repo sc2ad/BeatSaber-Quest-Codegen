@@ -61,6 +61,7 @@ namespace System::ComponentModel {
   static check_size<sizeof(EnumConverter), 24 + sizeof(System::Type*)> __System_ComponentModel_EnumConverterSizeCheck;
   static_assert(sizeof(EnumConverter) == 0x20);
 }
+NEED_NO_BOX(System::ComponentModel::EnumConverter);
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::EnumConverter*, "System.ComponentModel", "EnumConverter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ComponentModel::EnumConverter::New_ctor

@@ -411,6 +411,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   static check_size<sizeof(__BinaryWriter), 168 + sizeof(System::Runtime::Serialization::Formatters::Binary::BinaryAssembly*)> __System_Runtime_Serialization_Formatters_Binary___BinaryWriterSizeCheck;
   static_assert(sizeof(__BinaryWriter) == 0xB0);
 }
+NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*, "System.Runtime.Serialization.Formatters.Binary", "__BinaryWriter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::New_ctor

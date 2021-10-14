@@ -48,6 +48,7 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.StandalonePlatformSettings
   #pragma pack(pop)
 }
+NEED_NO_BOX(Oculus::Platform::StandalonePlatformSettings);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::StandalonePlatformSettings*, "Oculus.Platform", "StandalonePlatformSettings");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::StandalonePlatformSettings::get_OculusPlatformTestUserEmail

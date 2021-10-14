@@ -99,6 +99,7 @@ namespace UnityEngine::AddressableAssets {
   static check_size<sizeof(AddressablesImpl::$$c__DisplayClass94_0), 32 + sizeof(UnityEngine::AddressableAssets::Addressables::MergeMode)> __UnityEngine_AddressableAssets_AddressablesImpl_$$c__DisplayClass94_0SizeCheck;
   static_assert(sizeof(AddressablesImpl::$$c__DisplayClass94_0) == 0x24);
 }
+NEED_NO_BOX(UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass94_0);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass94_0*, "UnityEngine.AddressableAssets", "AddressablesImpl/<>c__DisplayClass94_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass94_0::$DownloadDependenciesAsyncWithChain$b__0

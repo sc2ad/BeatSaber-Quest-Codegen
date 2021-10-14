@@ -163,6 +163,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   static check_size<sizeof(TriangulationContext), 60 + sizeof(bool)> __UnityEngine_ProBuilder_Poly2Tri_TriangulationContextSizeCheck;
   static_assert(sizeof(TriangulationContext) == 0x3D);
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*, "UnityEngine.ProBuilder.Poly2Tri", "TriangulationContext");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::get_DebugContext

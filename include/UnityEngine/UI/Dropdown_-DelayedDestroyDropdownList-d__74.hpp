@@ -96,6 +96,7 @@ namespace UnityEngine::UI {
   static check_size<sizeof(Dropdown::$DelayedDestroyDropdownList$d__74), 40 + sizeof(UnityEngine::UI::Dropdown*)> __UnityEngine_UI_Dropdown_$DelayedDestroyDropdownList$d__74SizeCheck;
   static_assert(sizeof(Dropdown::$DelayedDestroyDropdownList$d__74) == 0x30);
 }
+NEED_NO_BOX(UnityEngine::UI::Dropdown::$DelayedDestroyDropdownList$d__74);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Dropdown::$DelayedDestroyDropdownList$d__74*, "UnityEngine.UI", "Dropdown/<DelayedDestroyDropdownList>d__74");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::Dropdown::$DelayedDestroyDropdownList$d__74::System_Collections_Generic_IEnumerator$System_Object$_get_Current

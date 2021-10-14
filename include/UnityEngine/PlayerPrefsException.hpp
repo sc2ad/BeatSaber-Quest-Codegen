@@ -32,6 +32,7 @@ namespace UnityEngine {
   }; // UnityEngine.PlayerPrefsException
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::PlayerPrefsException);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PlayerPrefsException*, "UnityEngine", "PlayerPrefsException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::PlayerPrefsException::New_ctor

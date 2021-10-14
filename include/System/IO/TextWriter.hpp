@@ -200,6 +200,7 @@ namespace System::IO {
   static check_size<sizeof(TextWriter), 32 + sizeof(System::IFormatProvider*)> __System_IO_TextWriterSizeCheck;
   static_assert(sizeof(TextWriter) == 0x28);
 }
+NEED_NO_BOX(System::IO::TextWriter);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::TextWriter*, "System.IO", "TextWriter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::TextWriter::get_InitialNewLine

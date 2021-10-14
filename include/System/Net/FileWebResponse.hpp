@@ -169,6 +169,7 @@ namespace System::Net {
   static check_size<sizeof(FileWebResponse), 64 + sizeof(System::Uri*)> __System_Net_FileWebResponseSizeCheck;
   static_assert(sizeof(FileWebResponse) == 0x48);
 }
+NEED_NO_BOX(System::Net::FileWebResponse);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::FileWebResponse*, "System.Net", "FileWebResponse");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::FileWebResponse::New_ctor

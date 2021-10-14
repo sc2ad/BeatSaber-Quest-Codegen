@@ -38,6 +38,7 @@ namespace System::Diagnostics {
   }; // System.Diagnostics.MonitoringDescriptionAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Diagnostics::MonitoringDescriptionAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::MonitoringDescriptionAttribute*, "System.Diagnostics", "MonitoringDescriptionAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Diagnostics::MonitoringDescriptionAttribute::get_Description

@@ -42,6 +42,7 @@ namespace GlobalNamespace {
     }
   }; // DIContainerSignal
 }
+NEED_NO_BOX(GlobalNamespace::DIContainerSignal);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DIContainerSignal*, "", "DIContainerSignal");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DIContainerSignal::New_ctor

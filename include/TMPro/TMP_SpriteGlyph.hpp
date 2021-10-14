@@ -76,6 +76,7 @@ namespace TMPro {
   static check_size<sizeof(TMP_SpriteGlyph), 64 + sizeof(UnityEngine::Sprite*)> __TMPro_TMP_SpriteGlyphSizeCheck;
   static_assert(sizeof(TMP_SpriteGlyph) == 0x48);
 }
+NEED_NO_BOX(TMPro::TMP_SpriteGlyph);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_SpriteGlyph*, "TMPro", "TMP_SpriteGlyph");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_SpriteGlyph::New_ctor

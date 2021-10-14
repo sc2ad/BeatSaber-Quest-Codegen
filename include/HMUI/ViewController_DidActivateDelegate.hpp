@@ -50,6 +50,7 @@ namespace HMUI {
   }; // HMUI.ViewController/HMUI.DidActivateDelegate
   #pragma pack(pop)
 }
+NEED_NO_BOX(HMUI::ViewController::DidActivateDelegate);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ViewController::DidActivateDelegate*, "HMUI", "ViewController/DidActivateDelegate");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::ViewController::DidActivateDelegate::New_ctor

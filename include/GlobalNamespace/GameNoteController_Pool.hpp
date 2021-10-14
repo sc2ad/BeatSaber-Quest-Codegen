@@ -35,6 +35,7 @@ namespace GlobalNamespace {
     }
   }; // GameNoteController/Pool
 }
+NEED_NO_BOX(GlobalNamespace::GameNoteController::Pool);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameNoteController::Pool*, "", "GameNoteController/Pool");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameNoteController::Pool::New_ctor

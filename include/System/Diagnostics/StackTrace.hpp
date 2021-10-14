@@ -162,6 +162,7 @@ namespace System::Diagnostics {
   static check_size<sizeof(StackTrace), 32 + sizeof(bool)> __System_Diagnostics_StackTraceSizeCheck;
   static_assert(sizeof(StackTrace) == 0x21);
 }
+NEED_NO_BOX(System::Diagnostics::StackTrace);
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::StackTrace*, "System.Diagnostics", "StackTrace");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Diagnostics::StackTrace::get_FrameCount

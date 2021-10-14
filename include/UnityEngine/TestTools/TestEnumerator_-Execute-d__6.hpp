@@ -86,6 +86,7 @@ namespace UnityEngine::TestTools {
   static check_size<sizeof(TestEnumerator::$Execute$d__6), 32 + sizeof(UnityEngine::TestTools::TestEnumerator*)> __UnityEngine_TestTools_TestEnumerator_$Execute$d__6SizeCheck;
   static_assert(sizeof(TestEnumerator::$Execute$d__6) == 0x28);
 }
+NEED_NO_BOX(UnityEngine::TestTools::TestEnumerator::$Execute$d__6);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestEnumerator::$Execute$d__6*, "UnityEngine.TestTools", "TestEnumerator/<Execute>d__6");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestEnumerator::$Execute$d__6::System_Collections_Generic_IEnumerator$System_Object$_get_Current

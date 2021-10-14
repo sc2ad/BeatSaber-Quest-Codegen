@@ -47,6 +47,7 @@ namespace Oculus::Platform {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(Oculus::Platform::RichPresence);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::RichPresence*, "Oculus.Platform", "RichPresence");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::RichPresence::Clear

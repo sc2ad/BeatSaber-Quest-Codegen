@@ -177,6 +177,7 @@ namespace Org::BouncyCastle::Crypto::Macs {
   static check_size<sizeof(SipHash), 84 + sizeof(int)> __Org_BouncyCastle_Crypto_Macs_SipHashSizeCheck;
   static_assert(sizeof(SipHash) == 0x58);
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Macs::SipHash);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Macs::SipHash*, "Org.BouncyCastle.Crypto.Macs", "SipHash");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Macs::SipHash::New_ctor

@@ -56,6 +56,7 @@ namespace Valve::VR {
   }; // Valve.VR.IVRCompositor/Valve.VR._GetVulkanDeviceExtensionsRequired
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::IVRCompositor::_GetVulkanDeviceExtensionsRequired);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRCompositor::_GetVulkanDeviceExtensionsRequired*, "Valve.VR", "IVRCompositor/_GetVulkanDeviceExtensionsRequired");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRCompositor::_GetVulkanDeviceExtensionsRequired::New_ctor

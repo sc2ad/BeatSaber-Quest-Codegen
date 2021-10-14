@@ -166,6 +166,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MissionLevelDetailViewController), 168 + sizeof(GlobalNamespace::MissionNode*)> __GlobalNamespace_MissionLevelDetailViewControllerSizeCheck;
   static_assert(sizeof(MissionLevelDetailViewController) == 0xB0);
 }
+NEED_NO_BOX(GlobalNamespace::MissionLevelDetailViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelDetailViewController*, "", "MissionLevelDetailViewController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionLevelDetailViewController::get_missionNode

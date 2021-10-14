@@ -154,6 +154,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerEnvironmentSpectatingSpot), 48 + sizeof(System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>*)> __GlobalNamespace_MultiplayerEnvironmentSpectatingSpotSizeCheck;
   static_assert(sizeof(MultiplayerEnvironmentSpectatingSpot) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerEnvironmentSpectatingSpot);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerEnvironmentSpectatingSpot*, "", "MultiplayerEnvironmentSpectatingSpot");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::get_observable

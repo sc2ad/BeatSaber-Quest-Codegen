@@ -164,6 +164,7 @@ namespace Org::BouncyCastle::Math::EC::Custom::GM {
   static check_size<sizeof(SM2P256V1FieldElement), 16 + sizeof(::ArrayW<uint>)> __Org_BouncyCastle_Math_EC_Custom_GM_SM2P256V1FieldElementSizeCheck;
   static_assert(sizeof(SM2P256V1FieldElement) == 0x18);
 }
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1FieldElement);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1FieldElement*, "Org.BouncyCastle.Math.EC.Custom.GM", "SM2P256V1FieldElement");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1FieldElement::New_ctor

@@ -51,6 +51,7 @@ namespace Org::BouncyCastle::Crypto {
   }; // Org.BouncyCastle.Crypto.CryptoException
   #pragma pack(pop)
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::CryptoException);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::CryptoException*, "Org.BouncyCastle.Crypto", "CryptoException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::CryptoException::New_ctor

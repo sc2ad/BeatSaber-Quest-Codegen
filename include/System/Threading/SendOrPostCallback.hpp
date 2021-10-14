@@ -48,6 +48,7 @@ namespace System::Threading {
   }; // System.Threading.SendOrPostCallback
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Threading::SendOrPostCallback);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::SendOrPostCallback*, "System.Threading", "SendOrPostCallback");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::SendOrPostCallback::New_ctor

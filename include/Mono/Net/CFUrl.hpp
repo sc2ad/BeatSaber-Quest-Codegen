@@ -38,6 +38,7 @@ namespace Mono::Net {
   }; // Mono.Net.CFUrl
   #pragma pack(pop)
 }
+NEED_NO_BOX(Mono::Net::CFUrl);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFUrl*, "Mono.Net", "CFUrl");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Net::CFUrl::CFURLCreateWithString

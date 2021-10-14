@@ -60,6 +60,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(PenetrationAvoidance::Avoider::EffectorLink), 20 + sizeof(float)> __RootMotion_FinalIK_PenetrationAvoidance_Avoider_EffectorLinkSizeCheck;
   static_assert(sizeof(PenetrationAvoidance::Avoider::EffectorLink) == 0x18);
 }
+NEED_NO_BOX(RootMotion::FinalIK::PenetrationAvoidance::Avoider::EffectorLink);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::PenetrationAvoidance::Avoider::EffectorLink*, "RootMotion.FinalIK", "PenetrationAvoidance/Avoider/EffectorLink");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::PenetrationAvoidance::Avoider::EffectorLink::New_ctor

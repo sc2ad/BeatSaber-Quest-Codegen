@@ -126,6 +126,7 @@ namespace UnityEngine::Playables {
   }; // UnityEngine.Playables.PlayableOutputExtensions
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::Playables::PlayableOutputExtensions);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableOutputExtensions*, "UnityEngine.Playables", "PlayableOutputExtensions");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableOutputExtensions::SetReferenceObject

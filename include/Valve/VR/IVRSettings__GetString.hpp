@@ -61,6 +61,7 @@ namespace Valve::VR {
   }; // Valve.VR.IVRSettings/Valve.VR._GetString
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::IVRSettings::_GetString);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSettings::_GetString*, "Valve.VR", "IVRSettings/_GetString");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRSettings::_GetString::New_ctor

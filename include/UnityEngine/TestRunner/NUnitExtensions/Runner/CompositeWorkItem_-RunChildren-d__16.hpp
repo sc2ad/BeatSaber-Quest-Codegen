@@ -147,6 +147,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.CompositeWorkItem/UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>d__16
   // WARNING Not writing size check since size may be invalid!
 }
+NEED_NO_BOX(UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::$RunChildren$d__16);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::$RunChildren$d__16*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "CompositeWorkItem/<RunChildren>d__16");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::$RunChildren$d__16::System_Collections_Generic_IEnumerator$System_Object$_get_Current

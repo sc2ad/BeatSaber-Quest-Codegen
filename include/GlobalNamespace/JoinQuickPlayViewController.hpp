@@ -153,6 +153,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(JoinQuickPlayViewController), 160 + sizeof(GlobalNamespace::MultiplayerModeSettings*)> __GlobalNamespace_JoinQuickPlayViewControllerSizeCheck;
   static_assert(sizeof(JoinQuickPlayViewController) == 0xA8);
 }
+NEED_NO_BOX(GlobalNamespace::JoinQuickPlayViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::JoinQuickPlayViewController*, "", "JoinQuickPlayViewController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::JoinQuickPlayViewController::get_multiplayerModeSettings

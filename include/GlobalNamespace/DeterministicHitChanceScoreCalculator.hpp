@@ -76,6 +76,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(DeterministicHitChanceScoreCalculator), 20 + sizeof(float)> __GlobalNamespace_DeterministicHitChanceScoreCalculatorSizeCheck;
   static_assert(sizeof(DeterministicHitChanceScoreCalculator) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::DeterministicHitChanceScoreCalculator);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DeterministicHitChanceScoreCalculator*, "", "DeterministicHitChanceScoreCalculator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DeterministicHitChanceScoreCalculator::New_ctor

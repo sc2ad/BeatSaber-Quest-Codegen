@@ -109,6 +109,7 @@ namespace UnityEngine::TestTools::Logging {
   static check_size<sizeof(LogMatch), 40 + sizeof(::Il2CppString*)> __UnityEngine_TestTools_Logging_LogMatchSizeCheck;
   static_assert(sizeof(LogMatch) == 0x30);
 }
+NEED_NO_BOX(UnityEngine::TestTools::Logging::LogMatch);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Logging::LogMatch*, "UnityEngine.TestTools.Logging", "LogMatch");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogMatch::get_Message

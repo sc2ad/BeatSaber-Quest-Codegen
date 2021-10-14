@@ -155,6 +155,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BeatmapCharacteristicSO), 72 + sizeof(int)> __GlobalNamespace_BeatmapCharacteristicSOSizeCheck;
   static_assert(sizeof(BeatmapCharacteristicSO) == 0x4C);
 }
+NEED_NO_BOX(GlobalNamespace::BeatmapCharacteristicSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapCharacteristicSO*, "", "BeatmapCharacteristicSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapCharacteristicSO::get_icon

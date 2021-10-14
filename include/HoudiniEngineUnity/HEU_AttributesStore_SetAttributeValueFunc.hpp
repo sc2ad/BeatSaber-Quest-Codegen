@@ -57,6 +57,7 @@ namespace HoudiniEngineUnity {
   }; // HoudiniEngineUnity.HEU_AttributesStore/HoudiniEngineUnity.SetAttributeValueFunc
   #pragma pack(pop)
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_AttributesStore::SetAttributeValueFunc);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_AttributesStore::SetAttributeValueFunc*, "HoudiniEngineUnity", "HEU_AttributesStore/SetAttributeValueFunc");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_AttributesStore::SetAttributeValueFunc::New_ctor

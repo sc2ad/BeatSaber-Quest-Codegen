@@ -51,6 +51,7 @@ namespace System::Runtime::Remoting::Activation {
   }; // System.Runtime.Remoting.Activation.ConstructionLevelActivator
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Runtime::Remoting::Activation::ConstructionLevelActivator);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Activation::ConstructionLevelActivator*, "System.Runtime.Remoting.Activation", "ConstructionLevelActivator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Activation::ConstructionLevelActivator::get_NextActivator

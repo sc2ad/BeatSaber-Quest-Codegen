@@ -66,6 +66,7 @@ namespace System::ComponentModel::Design::Serialization {
   static check_size<sizeof(RootDesignerSerializerAttribute), 32 + sizeof(::Il2CppString*)> __System_ComponentModel_Design_Serialization_RootDesignerSerializerAttributeSizeCheck;
   static_assert(sizeof(RootDesignerSerializerAttribute) == 0x28);
 }
+NEED_NO_BOX(System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute*, "System.ComponentModel.Design.Serialization", "RootDesignerSerializerAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute::New_ctor

@@ -65,6 +65,7 @@ namespace System::Net::Http {
   }; // System.Net.Http.HttpMessageHandler
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Net::Http::HttpMessageHandler);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::HttpMessageHandler*, "System.Net.Http", "HttpMessageHandler");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Http::HttpMessageHandler::Dispose

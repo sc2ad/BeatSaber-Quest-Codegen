@@ -30,6 +30,7 @@ namespace HoudiniEngineUnity {
   }; // HoudiniEngineUnity.HEU_HARCImports
   #pragma pack(pop)
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_HARCImports);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_HARCImports*, "HoudiniEngineUnity", "HEU_HARCImports");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HARCImports::New_ctor

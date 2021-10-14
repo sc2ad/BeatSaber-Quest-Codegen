@@ -185,6 +185,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(UIKeyboard), 81 + sizeof(bool)> __GlobalNamespace_UIKeyboardSizeCheck;
   static_assert(sizeof(UIKeyboard) == 0x52);
 }
+NEED_NO_BOX(GlobalNamespace::UIKeyboard);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UIKeyboard*, "", "UIKeyboard");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::UIKeyboard::set_enableOkButtonInteractivity

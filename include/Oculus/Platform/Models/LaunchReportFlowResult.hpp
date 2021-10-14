@@ -56,6 +56,7 @@ namespace Oculus::Platform::Models {
   static check_size<sizeof(LaunchReportFlowResult), 24 + sizeof(uint64_t)> __Oculus_Platform_Models_LaunchReportFlowResultSizeCheck;
   static_assert(sizeof(LaunchReportFlowResult) == 0x20);
 }
+NEED_NO_BOX(Oculus::Platform::Models::LaunchReportFlowResult);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::LaunchReportFlowResult*, "Oculus.Platform.Models", "LaunchReportFlowResult");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::LaunchReportFlowResult::New_ctor

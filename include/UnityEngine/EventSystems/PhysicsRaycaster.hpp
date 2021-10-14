@@ -156,6 +156,7 @@ namespace UnityEngine::EventSystems {
   static check_size<sizeof(PhysicsRaycaster), 56 + sizeof(::ArrayW<UnityEngine::RaycastHit>)> __UnityEngine_EventSystems_PhysicsRaycasterSizeCheck;
   static_assert(sizeof(PhysicsRaycaster) == 0x40);
 }
+NEED_NO_BOX(UnityEngine::EventSystems::PhysicsRaycaster);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::PhysicsRaycaster*, "UnityEngine.EventSystems", "PhysicsRaycaster");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::EventSystems::PhysicsRaycaster::get_depth

@@ -129,6 +129,7 @@ namespace Mono::Security {
   static check_size<sizeof(ASN1), 32 + sizeof(System::Collections::ArrayList*)> __Mono_Security_ASN1SizeCheck;
   static_assert(sizeof(ASN1) == 0x28);
 }
+NEED_NO_BOX(Mono::Security::ASN1);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::ASN1*, "Mono.Security", "ASN1");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Security::ASN1::get_Count

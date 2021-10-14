@@ -77,6 +77,7 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
   static check_size<sizeof(RuntimeTestRunnerFilter::$$c__DisplayClass7_0), 16 + sizeof(System::Func_2<::Il2CppString*, NUnit::Framework::Internal::TestFilter*>*)> __UnityEngine_TestTools_TestRunner_GUI_RuntimeTestRunnerFilter_$$c__DisplayClass7_0SizeCheck;
   static_assert(sizeof(RuntimeTestRunnerFilter::$$c__DisplayClass7_0) == 0x18);
 }
+NEED_NO_BOX(UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c__DisplayClass7_0);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c__DisplayClass7_0*, "UnityEngine.TestTools.TestRunner.GUI", "RuntimeTestRunnerFilter/<>c__DisplayClass7_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c__DisplayClass7_0::$AddFilters$b__1

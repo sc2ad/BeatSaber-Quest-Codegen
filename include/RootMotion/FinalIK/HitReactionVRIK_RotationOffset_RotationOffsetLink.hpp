@@ -92,6 +92,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(HitReactionVRIK::RotationOffset::RotationOffsetLink), 40 + sizeof(UnityEngine::Quaternion)> __RootMotion_FinalIK_HitReactionVRIK_RotationOffset_RotationOffsetLinkSizeCheck;
   static_assert(sizeof(HitReactionVRIK::RotationOffset::RotationOffsetLink) == 0x38);
 }
+NEED_NO_BOX(RootMotion::FinalIK::HitReactionVRIK::RotationOffset::RotationOffsetLink);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::HitReactionVRIK::RotationOffset::RotationOffsetLink*, "RootMotion.FinalIK", "HitReactionVRIK/RotationOffset/RotationOffsetLink");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::HitReactionVRIK::RotationOffset::RotationOffsetLink::Apply

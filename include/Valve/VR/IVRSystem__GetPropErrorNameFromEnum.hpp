@@ -56,6 +56,7 @@ namespace Valve::VR {
   }; // Valve.VR.IVRSystem/Valve.VR._GetPropErrorNameFromEnum
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::IVRSystem::_GetPropErrorNameFromEnum);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem::_GetPropErrorNameFromEnum*, "Valve.VR", "IVRSystem/_GetPropErrorNameFromEnum");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRSystem::_GetPropErrorNameFromEnum::New_ctor

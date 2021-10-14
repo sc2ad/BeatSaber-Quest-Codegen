@@ -221,6 +221,7 @@ namespace UnityEngine::ProBuilder {
   static check_size<sizeof(PolyShape), 49 + sizeof(bool)> __UnityEngine_ProBuilder_PolyShapeSizeCheck;
   static_assert(sizeof(PolyShape) == 0x32);
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::PolyShape);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::PolyShape*, "UnityEngine.ProBuilder", "PolyShape");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::PolyShape::PolyEditMode, "UnityEngine.ProBuilder", "PolyShape/PolyEditMode");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

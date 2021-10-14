@@ -37,6 +37,7 @@ namespace Oculus::Platform::Models {
     }
   }; // Oculus.Platform.Models.RoomInviteNotificationList
 }
+NEED_NO_BOX(Oculus::Platform::Models::RoomInviteNotificationList);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::RoomInviteNotificationList*, "Oculus.Platform.Models", "RoomInviteNotificationList");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::RoomInviteNotificationList::New_ctor

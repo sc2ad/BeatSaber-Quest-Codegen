@@ -186,6 +186,7 @@ namespace System::Globalization {
   static check_size<sizeof(JapaneseCalendar), 32 + sizeof(System::Globalization::GregorianCalendarHelper*)> __System_Globalization_JapaneseCalendarSizeCheck;
   static_assert(sizeof(JapaneseCalendar) == 0x28);
 }
+NEED_NO_BOX(System::Globalization::JapaneseCalendar);
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::JapaneseCalendar*, "System.Globalization", "JapaneseCalendar");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Globalization::JapaneseCalendar::_cctor

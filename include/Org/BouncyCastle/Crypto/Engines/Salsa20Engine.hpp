@@ -193,6 +193,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
   static check_size<sizeof(Salsa20Engine), 60 + sizeof(uint)> __Org_BouncyCastle_Crypto_Engines_Salsa20EngineSizeCheck;
   static_assert(sizeof(Salsa20Engine) == 0x40);
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Engines::Salsa20Engine);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::Salsa20Engine*, "Org.BouncyCastle.Crypto.Engines", "Salsa20Engine");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::Salsa20Engine::get_NonceSize

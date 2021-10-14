@@ -204,6 +204,7 @@ namespace HMUI {
   static check_size<sizeof(GradientImage), 280 + sizeof(HMUI::CurvedCanvasSettingsHelper*)> __HMUI_GradientImageSizeCheck;
   static_assert(sizeof(GradientImage) == 0x120);
 }
+NEED_NO_BOX(HMUI::GradientImage);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::GradientImage*, "HMUI", "GradientImage");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::GradientImage::get_color0

@@ -356,6 +356,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(Recoil), 228 + sizeof(UnityEngine::Vector3)> __RootMotion_FinalIK_RecoilSizeCheck;
   static_assert(sizeof(Recoil) == 0xF0);
 }
+NEED_NO_BOX(RootMotion::FinalIK::Recoil);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Recoil*, "RootMotion.FinalIK", "Recoil");
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Recoil::Handedness, "RootMotion.FinalIK", "Recoil/Handedness");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

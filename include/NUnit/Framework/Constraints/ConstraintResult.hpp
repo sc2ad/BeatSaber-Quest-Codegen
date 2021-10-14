@@ -104,6 +104,7 @@ namespace NUnit::Framework::Constraints {
   static check_size<sizeof(ConstraintResult), 32 + sizeof(NUnit::Framework::Constraints::ConstraintStatus)> __NUnit_Framework_Constraints_ConstraintResultSizeCheck;
   static_assert(sizeof(ConstraintResult) == 0x24);
 }
+NEED_NO_BOX(NUnit::Framework::Constraints::ConstraintResult);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::ConstraintResult*, "NUnit.Framework.Constraints", "ConstraintResult");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::ConstraintResult::get_ActualValue

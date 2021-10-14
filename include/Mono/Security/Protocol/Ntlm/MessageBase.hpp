@@ -83,6 +83,7 @@ namespace Mono::Security::Protocol::Ntlm {
   static check_size<sizeof(MessageBase), 20 + sizeof(Mono::Security::Protocol::Ntlm::NtlmFlags)> __Mono_Security_Protocol_Ntlm_MessageBaseSizeCheck;
   static_assert(sizeof(MessageBase) == 0x18);
 }
+NEED_NO_BOX(Mono::Security::Protocol::Ntlm::MessageBase);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Protocol::Ntlm::MessageBase*, "Mono.Security.Protocol.Ntlm", "MessageBase");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Security::Protocol::Ntlm::MessageBase::get_Flags

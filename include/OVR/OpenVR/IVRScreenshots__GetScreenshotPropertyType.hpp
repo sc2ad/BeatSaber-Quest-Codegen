@@ -58,6 +58,7 @@ namespace OVR::OpenVR {
   }; // OVR.OpenVR.IVRScreenshots/OVR.OpenVR._GetScreenshotPropertyType
   #pragma pack(pop)
 }
+NEED_NO_BOX(OVR::OpenVR::IVRScreenshots::_GetScreenshotPropertyType);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRScreenshots::_GetScreenshotPropertyType*, "OVR.OpenVR", "IVRScreenshots/_GetScreenshotPropertyType");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVRScreenshots::_GetScreenshotPropertyType::New_ctor

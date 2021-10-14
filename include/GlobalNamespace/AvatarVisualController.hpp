@@ -264,6 +264,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(AvatarVisualController), 184 + sizeof(GlobalNamespace::AvatarVisualController::HighlighterDelegate*)> __GlobalNamespace_AvatarVisualControllerSizeCheck;
   static_assert(sizeof(AvatarVisualController) == 0xC0);
 }
+NEED_NO_BOX(GlobalNamespace::AvatarVisualController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarVisualController*, "", "AvatarVisualController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AvatarVisualController::get_lightColor

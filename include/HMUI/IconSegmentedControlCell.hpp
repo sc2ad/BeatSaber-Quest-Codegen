@@ -106,6 +106,7 @@ namespace HMUI {
   static check_size<sizeof(IconSegmentedControlCell), 88 + sizeof(UnityEngine::GameObject*)> __HMUI_IconSegmentedControlCellSizeCheck;
   static_assert(sizeof(IconSegmentedControlCell) == 0x60);
 }
+NEED_NO_BOX(HMUI::IconSegmentedControlCell);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::IconSegmentedControlCell*, "HMUI", "IconSegmentedControlCell");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::IconSegmentedControlCell::get_sprite

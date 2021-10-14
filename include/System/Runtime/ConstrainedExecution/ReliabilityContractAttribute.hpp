@@ -59,6 +59,7 @@ namespace System::Runtime::ConstrainedExecution {
   static check_size<sizeof(ReliabilityContractAttribute), 20 + sizeof(System::Runtime::ConstrainedExecution::Cer)> __System_Runtime_ConstrainedExecution_ReliabilityContractAttributeSizeCheck;
   static_assert(sizeof(ReliabilityContractAttribute) == 0x18);
 }
+NEED_NO_BOX(System::Runtime::ConstrainedExecution::ReliabilityContractAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::ConstrainedExecution::ReliabilityContractAttribute*, "System.Runtime.ConstrainedExecution", "ReliabilityContractAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::ConstrainedExecution::ReliabilityContractAttribute::New_ctor

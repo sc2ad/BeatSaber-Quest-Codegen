@@ -129,6 +129,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SmoothCamera), 72 + sizeof(float)> __GlobalNamespace_SmoothCameraSizeCheck;
   static_assert(sizeof(SmoothCamera) == 0x4C);
 }
+NEED_NO_BOX(GlobalNamespace::SmoothCamera);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SmoothCamera*, "", "SmoothCamera");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SmoothCamera::Init

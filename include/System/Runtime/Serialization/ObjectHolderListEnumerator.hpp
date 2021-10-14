@@ -85,6 +85,7 @@ namespace System::Runtime::Serialization {
   static check_size<sizeof(ObjectHolderListEnumerator), 36 + sizeof(int)> __System_Runtime_Serialization_ObjectHolderListEnumeratorSizeCheck;
   static_assert(sizeof(ObjectHolderListEnumerator) == 0x28);
 }
+NEED_NO_BOX(System::Runtime::Serialization::ObjectHolderListEnumerator);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::ObjectHolderListEnumerator*, "System.Runtime.Serialization", "ObjectHolderListEnumerator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::ObjectHolderListEnumerator::get_Current

@@ -34,6 +34,7 @@ namespace System::Security {
   }; // System.Security.SecurityCriticalAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Security::SecurityCriticalAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::SecurityCriticalAttribute*, "System.Security", "SecurityCriticalAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::SecurityCriticalAttribute::New_ctor

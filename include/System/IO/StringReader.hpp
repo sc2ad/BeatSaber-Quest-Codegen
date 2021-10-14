@@ -101,6 +101,7 @@ namespace System::IO {
   static check_size<sizeof(StringReader), 36 + sizeof(int)> __System_IO_StringReaderSizeCheck;
   static_assert(sizeof(StringReader) == 0x28);
 }
+NEED_NO_BOX(System::IO::StringReader);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::StringReader*, "System.IO", "StringReader");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::StringReader::New_ctor

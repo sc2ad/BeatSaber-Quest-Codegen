@@ -268,6 +268,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   static check_size<sizeof(WriteObjectInfo), 128 + sizeof(::Il2CppString*)> __System_Runtime_Serialization_Formatters_Binary_WriteObjectInfoSizeCheck;
   static_assert(sizeof(WriteObjectInfo) == 0x88);
 }
+NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*, "System.Runtime.Serialization.Formatters.Binary", "WriteObjectInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo::ObjectEnd

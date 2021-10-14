@@ -26,6 +26,7 @@ namespace UnityEngine::AddressableAssets {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::AddressableAssets::IKeyEvaluator);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::IKeyEvaluator*, "UnityEngine.AddressableAssets", "IKeyEvaluator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::IKeyEvaluator::get_RuntimeKey

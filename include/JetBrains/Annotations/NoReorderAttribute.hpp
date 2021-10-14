@@ -34,6 +34,7 @@ namespace JetBrains::Annotations {
   }; // JetBrains.Annotations.NoReorderAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(JetBrains::Annotations::NoReorderAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::NoReorderAttribute*, "JetBrains.Annotations", "NoReorderAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: JetBrains::Annotations::NoReorderAttribute::New_ctor

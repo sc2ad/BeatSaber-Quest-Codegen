@@ -62,6 +62,7 @@ namespace System {
   }; // System.StackOverflowException
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::StackOverflowException);
 DEFINE_IL2CPP_ARG_TYPE(System::StackOverflowException*, "System", "StackOverflowException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::StackOverflowException::New_ctor

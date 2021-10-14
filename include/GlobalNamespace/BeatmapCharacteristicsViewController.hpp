@@ -122,6 +122,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BeatmapCharacteristicsViewController), 136 + sizeof(int)> __GlobalNamespace_BeatmapCharacteristicsViewControllerSizeCheck;
   static_assert(sizeof(BeatmapCharacteristicsViewController) == 0x8C);
 }
+NEED_NO_BOX(GlobalNamespace::BeatmapCharacteristicsViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapCharacteristicsViewController*, "", "BeatmapCharacteristicsViewController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapCharacteristicsViewController::get_beatmapCharacteristicCollection

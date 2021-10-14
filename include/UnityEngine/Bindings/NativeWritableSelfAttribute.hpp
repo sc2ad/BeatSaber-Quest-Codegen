@@ -59,6 +59,7 @@ namespace UnityEngine::Bindings {
   static check_size<sizeof(NativeWritableSelfAttribute), 16 + sizeof(bool)> __UnityEngine_Bindings_NativeWritableSelfAttributeSizeCheck;
   static_assert(sizeof(NativeWritableSelfAttribute) == 0x11);
 }
+NEED_NO_BOX(UnityEngine::Bindings::NativeWritableSelfAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::NativeWritableSelfAttribute*, "UnityEngine.Bindings", "NativeWritableSelfAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Bindings::NativeWritableSelfAttribute::set_WritableSelf

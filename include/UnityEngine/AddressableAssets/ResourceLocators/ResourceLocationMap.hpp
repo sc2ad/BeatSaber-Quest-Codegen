@@ -118,6 +118,7 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
   static check_size<sizeof(ResourceLocationMap), 24 + sizeof(System::Collections::Generic::Dictionary_2<::Il2CppObject*, System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>*)> __UnityEngine_AddressableAssets_ResourceLocators_ResourceLocationMapSizeCheck;
   static_assert(sizeof(ResourceLocationMap) == 0x20);
 }
+NEED_NO_BOX(UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap*, "UnityEngine.AddressableAssets.ResourceLocators", "ResourceLocationMap");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap::get_LocatorId

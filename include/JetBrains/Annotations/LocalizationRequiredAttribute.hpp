@@ -67,6 +67,7 @@ namespace JetBrains::Annotations {
   static check_size<sizeof(LocalizationRequiredAttribute), 16 + sizeof(bool)> __JetBrains_Annotations_LocalizationRequiredAttributeSizeCheck;
   static_assert(sizeof(LocalizationRequiredAttribute) == 0x11);
 }
+NEED_NO_BOX(JetBrains::Annotations::LocalizationRequiredAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::LocalizationRequiredAttribute*, "JetBrains.Annotations", "LocalizationRequiredAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: JetBrains::Annotations::LocalizationRequiredAttribute::get_Required

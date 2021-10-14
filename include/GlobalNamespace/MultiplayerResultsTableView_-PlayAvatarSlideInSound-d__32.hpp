@@ -96,6 +96,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerResultsTableView::$PlayAvatarSlideInSound$d__32), 40 + sizeof(GlobalNamespace::MultiplayerResultsTableView*)> __GlobalNamespace_MultiplayerResultsTableView_$PlayAvatarSlideInSound$d__32SizeCheck;
   static_assert(sizeof(MultiplayerResultsTableView::$PlayAvatarSlideInSound$d__32) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerResultsTableView::$PlayAvatarSlideInSound$d__32);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerResultsTableView::$PlayAvatarSlideInSound$d__32*, "", "MultiplayerResultsTableView/<PlayAvatarSlideInSound>d__32");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerResultsTableView::$PlayAvatarSlideInSound$d__32::System_Collections_Generic_IEnumerator$System_Object$_get_Current

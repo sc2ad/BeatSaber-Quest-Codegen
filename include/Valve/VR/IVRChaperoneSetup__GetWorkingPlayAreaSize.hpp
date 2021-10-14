@@ -51,6 +51,7 @@ namespace Valve::VR {
   }; // Valve.VR.IVRChaperoneSetup/Valve.VR._GetWorkingPlayAreaSize
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::IVRChaperoneSetup::_GetWorkingPlayAreaSize);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRChaperoneSetup::_GetWorkingPlayAreaSize*, "Valve.VR", "IVRChaperoneSetup/_GetWorkingPlayAreaSize");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRChaperoneSetup::_GetWorkingPlayAreaSize::New_ctor

@@ -88,6 +88,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MockBeatmapLoader), 16 + sizeof(GlobalNamespace::BeatmapLevelsModel*)> __GlobalNamespace_MockBeatmapLoaderSizeCheck;
   static_assert(sizeof(MockBeatmapLoader) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::MockBeatmapLoader);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockBeatmapLoader*, "", "MockBeatmapLoader");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MockBeatmapLoader::New_ctor

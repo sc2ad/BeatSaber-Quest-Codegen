@@ -58,6 +58,7 @@ namespace UnityEngine::Playables {
   }; // UnityEngine.Playables.PlayableBinding/UnityEngine.Playables.CreateOutputMethod
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::Playables::PlayableBinding::CreateOutputMethod);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableBinding::CreateOutputMethod*, "UnityEngine.Playables", "PlayableBinding/CreateOutputMethod");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableBinding::CreateOutputMethod::New_ctor

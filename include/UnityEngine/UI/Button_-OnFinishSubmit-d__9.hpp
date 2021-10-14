@@ -102,6 +102,7 @@ namespace UnityEngine::UI {
   static check_size<sizeof(Button::$OnFinishSubmit$d__9), 44 + sizeof(float)> __UnityEngine_UI_Button_$OnFinishSubmit$d__9SizeCheck;
   static_assert(sizeof(Button::$OnFinishSubmit$d__9) == 0x30);
 }
+NEED_NO_BOX(UnityEngine::UI::Button::$OnFinishSubmit$d__9);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Button::$OnFinishSubmit$d__9*, "UnityEngine.UI", "Button/<OnFinishSubmit>d__9");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::Button::$OnFinishSubmit$d__9::System_Collections_Generic_IEnumerator$System_Object$_get_Current

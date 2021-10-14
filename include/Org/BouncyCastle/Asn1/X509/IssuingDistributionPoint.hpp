@@ -138,6 +138,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
   static check_size<sizeof(IssuingDistributionPoint), 48 + sizeof(Org::BouncyCastle::Asn1::Asn1Sequence*)> __Org_BouncyCastle_Asn1_X509_IssuingDistributionPointSizeCheck;
   static_assert(sizeof(IssuingDistributionPoint) == 0x38);
 }
+NEED_NO_BOX(Org::BouncyCastle::Asn1::X509::IssuingDistributionPoint);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::IssuingDistributionPoint*, "Org.BouncyCastle.Asn1.X509", "IssuingDistributionPoint");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::IssuingDistributionPoint::get_IsIndirectCrl

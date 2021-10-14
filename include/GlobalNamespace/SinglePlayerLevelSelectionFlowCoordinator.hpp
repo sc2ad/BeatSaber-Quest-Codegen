@@ -263,6 +263,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SinglePlayerLevelSelectionFlowCoordinator), 264 + sizeof(System::Action_1<GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>*)> __GlobalNamespace_SinglePlayerLevelSelectionFlowCoordinatorSizeCheck;
   static_assert(sizeof(SinglePlayerLevelSelectionFlowCoordinator) == 0x110);
 }
+NEED_NO_BOX(GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*, "", "SinglePlayerLevelSelectionFlowCoordinator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::get_gameMode

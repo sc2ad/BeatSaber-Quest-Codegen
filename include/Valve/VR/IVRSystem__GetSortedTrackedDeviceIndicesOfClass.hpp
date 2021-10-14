@@ -57,6 +57,7 @@ namespace Valve::VR {
   }; // Valve.VR.IVRSystem/Valve.VR._GetSortedTrackedDeviceIndicesOfClass
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::IVRSystem::_GetSortedTrackedDeviceIndicesOfClass);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem::_GetSortedTrackedDeviceIndicesOfClass*, "Valve.VR", "IVRSystem/_GetSortedTrackedDeviceIndicesOfClass");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRSystem::_GetSortedTrackedDeviceIndicesOfClass::New_ctor

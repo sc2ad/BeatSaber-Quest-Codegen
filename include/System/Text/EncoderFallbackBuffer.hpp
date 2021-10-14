@@ -136,6 +136,7 @@ namespace System::Text {
   static check_size<sizeof(EncoderFallbackBuffer), 44 + sizeof(int)> __System_Text_EncoderFallbackBufferSizeCheck;
   static_assert(sizeof(EncoderFallbackBuffer) == 0x30);
 }
+NEED_NO_BOX(System::Text::EncoderFallbackBuffer);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::EncoderFallbackBuffer*, "System.Text", "EncoderFallbackBuffer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::EncoderFallbackBuffer::get_Remaining

@@ -126,6 +126,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(DroppedFramesLabel), 56 + sizeof(int)> __GlobalNamespace_DroppedFramesLabelSizeCheck;
   static_assert(sizeof(DroppedFramesLabel) == 0x3C);
 }
+NEED_NO_BOX(GlobalNamespace::DroppedFramesLabel);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DroppedFramesLabel*, "", "DroppedFramesLabel");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DroppedFramesLabel::Start

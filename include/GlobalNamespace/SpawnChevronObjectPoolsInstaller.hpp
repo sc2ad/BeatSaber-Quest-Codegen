@@ -66,6 +66,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SpawnChevronObjectPoolsInstaller), 32 + sizeof(GlobalNamespace::SpawnRotationChevron*)> __GlobalNamespace_SpawnChevronObjectPoolsInstallerSizeCheck;
   static_assert(sizeof(SpawnChevronObjectPoolsInstaller) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::SpawnChevronObjectPoolsInstaller);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SpawnChevronObjectPoolsInstaller*, "", "SpawnChevronObjectPoolsInstaller");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SpawnChevronObjectPoolsInstaller::New_ctor

@@ -33,6 +33,7 @@ namespace System::Security::Cryptography {
   }; // System.Security.Cryptography.DSASignatureDescription
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Security::Cryptography::DSASignatureDescription);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::DSASignatureDescription*, "System.Security.Cryptography", "DSASignatureDescription");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::DSASignatureDescription::New_ctor

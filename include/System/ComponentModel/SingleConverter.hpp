@@ -34,6 +34,7 @@ namespace System::ComponentModel {
   }; // System.ComponentModel.SingleConverter
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::ComponentModel::SingleConverter);
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::SingleConverter*, "System.ComponentModel", "SingleConverter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ComponentModel::SingleConverter::New_ctor

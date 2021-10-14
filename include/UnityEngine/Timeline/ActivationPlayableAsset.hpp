@@ -68,6 +68,7 @@ namespace UnityEngine::Timeline {
   }; // UnityEngine.Timeline.ActivationPlayableAsset
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::Timeline::ActivationPlayableAsset);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ActivationPlayableAsset*, "UnityEngine.Timeline", "ActivationPlayableAsset");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::ActivationPlayableAsset::get_clipCaps

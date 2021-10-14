@@ -162,6 +162,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BeatmapSaveData), 56 + sizeof(GlobalNamespace::BeatmapSaveData::SpecialEventKeywordFiltersData*)> __GlobalNamespace_BeatmapSaveDataSizeCheck;
   static_assert(sizeof(BeatmapSaveData) == 0x40);
 }
+NEED_NO_BOX(GlobalNamespace::BeatmapSaveData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapSaveData*, "", "BeatmapSaveData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapSaveData::get_version

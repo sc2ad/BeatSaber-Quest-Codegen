@@ -159,6 +159,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ScreenBackButtonAnimationController), 32 + sizeof(System::Collections::Generic::Dictionary_2<GlobalNamespace::ScreenBackButtonAnimationController::AnimationType, int>*)> __GlobalNamespace_ScreenBackButtonAnimationControllerSizeCheck;
   static_assert(sizeof(ScreenBackButtonAnimationController) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::ScreenBackButtonAnimationController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScreenBackButtonAnimationController*, "", "ScreenBackButtonAnimationController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScreenBackButtonAnimationController::AnimationType, "", "ScreenBackButtonAnimationController/AnimationType");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

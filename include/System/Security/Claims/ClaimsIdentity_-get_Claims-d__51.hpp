@@ -146,6 +146,7 @@ namespace System::Security::Claims {
   static check_size<sizeof(ClaimsIdentity::$get_Claims$d__51), 56 + sizeof(System::Collections::Generic::IEnumerator_1<System::Security::Claims::Claim*>*)> __System_Security_Claims_ClaimsIdentity_$get_Claims$d__51SizeCheck;
   static_assert(sizeof(ClaimsIdentity::$get_Claims$d__51) == 0x40);
 }
+NEED_NO_BOX(System::Security::Claims::ClaimsIdentity::$get_Claims$d__51);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Claims::ClaimsIdentity::$get_Claims$d__51*, "System.Security.Claims", "ClaimsIdentity/<get_Claims>d__51");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Claims::ClaimsIdentity::$get_Claims$d__51::System_Collections_Generic_IEnumerator$System_Security_Claims_Claim$_get_Current

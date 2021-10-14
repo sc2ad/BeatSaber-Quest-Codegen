@@ -114,6 +114,7 @@ namespace NUnit::Framework::Api {
   static check_size<sizeof(DefaultTestAssemblyBuilder), 16 + sizeof(NUnit::Framework::Interfaces::ISuiteBuilder*)> __NUnit_Framework_Api_DefaultTestAssemblyBuilderSizeCheck;
   static_assert(sizeof(DefaultTestAssemblyBuilder) == 0x18);
 }
+NEED_NO_BOX(NUnit::Framework::Api::DefaultTestAssemblyBuilder);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Api::DefaultTestAssemblyBuilder*, "NUnit.Framework.Api", "DefaultTestAssemblyBuilder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Api::DefaultTestAssemblyBuilder::_cctor

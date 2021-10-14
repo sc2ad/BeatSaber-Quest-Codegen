@@ -86,6 +86,7 @@ namespace System {
   static check_size<sizeof(Array::ArrayEnumerator), 28 + sizeof(int)> __System_Array_ArrayEnumeratorSizeCheck;
   static_assert(sizeof(Array::ArrayEnumerator) == 0x20);
 }
+NEED_NO_BOX(System::Array::ArrayEnumerator);
 DEFINE_IL2CPP_ARG_TYPE(System::Array::ArrayEnumerator*, "System", "Array/ArrayEnumerator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Array::ArrayEnumerator::get_Current

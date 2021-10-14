@@ -95,6 +95,7 @@ namespace GlobalNamespace {
     }
   }; // ScoreSyncStateManager
 }
+NEED_NO_BOX(GlobalNamespace::ScoreSyncStateManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScoreSyncStateManager*, "", "ScoreSyncStateManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ScoreSyncStateManager::get_serializablePool

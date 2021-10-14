@@ -245,6 +245,7 @@ namespace UnityEngine::UI {
   static check_size<sizeof(GraphicRaycaster), 56 + sizeof(System::Collections::Generic::List_1<UnityEngine::UI::Graphic*>*)> __UnityEngine_UI_GraphicRaycasterSizeCheck;
   static_assert(sizeof(GraphicRaycaster) == 0x40);
 }
+NEED_NO_BOX(UnityEngine::UI::GraphicRaycaster);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::GraphicRaycaster*, "UnityEngine.UI", "GraphicRaycaster");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::GraphicRaycaster::BlockingObjects, "UnityEngine.UI", "GraphicRaycaster/BlockingObjects");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

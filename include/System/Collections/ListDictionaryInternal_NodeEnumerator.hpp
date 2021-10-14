@@ -101,6 +101,7 @@ namespace System::Collections {
   static check_size<sizeof(ListDictionaryInternal::NodeEnumerator), 36 + sizeof(bool)> __System_Collections_ListDictionaryInternal_NodeEnumeratorSizeCheck;
   static_assert(sizeof(ListDictionaryInternal::NodeEnumerator) == 0x25);
 }
+NEED_NO_BOX(System::Collections::ListDictionaryInternal::NodeEnumerator);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::ListDictionaryInternal::NodeEnumerator*, "System.Collections", "ListDictionaryInternal/NodeEnumerator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::ListDictionaryInternal::NodeEnumerator::get_Current

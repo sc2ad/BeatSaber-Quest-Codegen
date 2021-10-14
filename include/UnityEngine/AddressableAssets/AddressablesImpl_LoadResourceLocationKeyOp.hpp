@@ -108,6 +108,7 @@ namespace UnityEngine::AddressableAssets {
   }; // UnityEngine.AddressableAssets.AddressablesImpl/UnityEngine.AddressableAssets.LoadResourceLocationKeyOp
   // WARNING Not writing size check since size may be invalid!
 }
+NEED_NO_BOX(UnityEngine::AddressableAssets::AddressablesImpl::LoadResourceLocationKeyOp);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::AddressablesImpl::LoadResourceLocationKeyOp*, "UnityEngine.AddressableAssets", "AddressablesImpl/LoadResourceLocationKeyOp");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::LoadResourceLocationKeyOp::Init

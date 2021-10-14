@@ -77,6 +77,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(EncryptionUtility::$$c__DisplayClass18_0), 40 + sizeof(bool)> __GlobalNamespace_EncryptionUtility_$$c__DisplayClass18_0SizeCheck;
   static_assert(sizeof(EncryptionUtility::$$c__DisplayClass18_0) == 0x29);
 }
+NEED_NO_BOX(GlobalNamespace::EncryptionUtility::$$c__DisplayClass18_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EncryptionUtility::$$c__DisplayClass18_0*, "", "EncryptionUtility/<>c__DisplayClass18_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EncryptionUtility::$$c__DisplayClass18_0::$CreateEncryptionStateAsync$b__0

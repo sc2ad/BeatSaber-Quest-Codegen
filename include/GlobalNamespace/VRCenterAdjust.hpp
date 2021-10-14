@@ -105,6 +105,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(VRCenterAdjust), 40 + sizeof(GlobalNamespace::MainSettingsModelSO*)> __GlobalNamespace_VRCenterAdjustSizeCheck;
   static_assert(sizeof(VRCenterAdjust) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::VRCenterAdjust);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRCenterAdjust*, "", "VRCenterAdjust");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::VRCenterAdjust::Awake

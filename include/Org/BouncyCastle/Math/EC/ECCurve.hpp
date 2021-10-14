@@ -247,6 +247,7 @@ namespace Org::BouncyCastle::Math::EC {
   static check_size<sizeof(ECCurve), 72 + sizeof(Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier*)> __Org_BouncyCastle_Math_EC_ECCurveSizeCheck;
   static_assert(sizeof(ECCurve) == 0x50);
 }
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::ECCurve);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::ECCurve*, "Org.BouncyCastle.Math.EC", "ECCurve");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::ECCurve::get_FieldSize

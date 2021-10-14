@@ -159,6 +159,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(UIKeyboardManager), 64 + sizeof(HMUI::InputFieldView*)> __GlobalNamespace_UIKeyboardManagerSizeCheck;
   static_assert(sizeof(UIKeyboardManager) == 0x48);
 }
+NEED_NO_BOX(GlobalNamespace::UIKeyboardManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UIKeyboardManager*, "", "UIKeyboardManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::UIKeyboardManager::get_keyboard

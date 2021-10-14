@@ -66,6 +66,7 @@ namespace UnityEngine {
   static check_size<sizeof(WaitForSecondsRealtime), 20 + sizeof(float)> __UnityEngine_WaitForSecondsRealtimeSizeCheck;
   static_assert(sizeof(WaitForSecondsRealtime) == 0x18);
 }
+NEED_NO_BOX(UnityEngine::WaitForSecondsRealtime);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::WaitForSecondsRealtime*, "UnityEngine", "WaitForSecondsRealtime");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::WaitForSecondsRealtime::get_waitTime

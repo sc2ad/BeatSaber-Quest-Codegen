@@ -88,6 +88,7 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
   static check_size<sizeof(CertificationRequest), 32 + sizeof(Org::BouncyCastle::Asn1::DerBitString*)> __Org_BouncyCastle_Asn1_Pkcs_CertificationRequestSizeCheck;
   static_assert(sizeof(CertificationRequest) == 0x28);
 }
+NEED_NO_BOX(Org::BouncyCastle::Asn1::Pkcs::CertificationRequest);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Pkcs::CertificationRequest*, "Org.BouncyCastle.Asn1.Pkcs", "CertificationRequest");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::CertificationRequest::New_ctor

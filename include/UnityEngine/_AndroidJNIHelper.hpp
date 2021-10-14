@@ -137,6 +137,7 @@ namespace UnityEngine {
   }; // UnityEngine._AndroidJNIHelper
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::_AndroidJNIHelper);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::_AndroidJNIHelper*, "UnityEngine", "_AndroidJNIHelper");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::_AndroidJNIHelper::CreateJavaProxy

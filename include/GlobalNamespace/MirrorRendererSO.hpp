@@ -342,6 +342,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MirrorRendererSO), 144 + sizeof(UnityEngine::Rect)> __GlobalNamespace_MirrorRendererSOSizeCheck;
   static_assert(sizeof(MirrorRendererSO) == 0xA0);
 }
+NEED_NO_BOX(GlobalNamespace::MirrorRendererSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MirrorRendererSO*, "", "MirrorRendererSO");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MirrorRendererSO::CameraTransformData, "", "MirrorRendererSO/CameraTransformData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

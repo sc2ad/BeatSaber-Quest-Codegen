@@ -74,6 +74,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(GameplaySetupViewController::Panel), 32 + sizeof(UnityEngine::GameObject*)> __GlobalNamespace_GameplaySetupViewController_PanelSizeCheck;
   static_assert(sizeof(GameplaySetupViewController::Panel) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::GameplaySetupViewController::Panel);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplaySetupViewController::Panel*, "", "GameplaySetupViewController/Panel");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameplaySetupViewController::Panel::New_ctor

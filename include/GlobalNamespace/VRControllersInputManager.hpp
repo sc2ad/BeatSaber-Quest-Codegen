@@ -149,6 +149,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(VRControllersInputManager), 16 + sizeof(GlobalNamespace::IVRPlatformHelper*)> __GlobalNamespace_VRControllersInputManagerSizeCheck;
   static_assert(sizeof(VRControllersInputManager) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::VRControllersInputManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersInputManager*, "", "VRControllersInputManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::VRControllersInputManager::TriggerValue

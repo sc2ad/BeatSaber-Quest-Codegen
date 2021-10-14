@@ -112,6 +112,7 @@ namespace UnityEngine::ResourceManagement::Util {
   static check_size<sizeof(LRUCacheAllocationStrategy), 40 + sizeof(System::Collections::Generic::Dictionary_2<int, System::Collections::Generic::List_1<::Il2CppObject*>*>*)> __UnityEngine_ResourceManagement_Util_LRUCacheAllocationStrategySizeCheck;
   static_assert(sizeof(LRUCacheAllocationStrategy) == 0x30);
 }
+NEED_NO_BOX(UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy*, "UnityEngine.ResourceManagement.Util", "LRUCacheAllocationStrategy");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::New_ctor

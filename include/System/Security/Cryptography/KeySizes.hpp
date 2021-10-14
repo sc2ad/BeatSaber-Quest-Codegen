@@ -77,6 +77,7 @@ namespace System::Security::Cryptography {
   static check_size<sizeof(KeySizes), 24 + sizeof(int)> __System_Security_Cryptography_KeySizesSizeCheck;
   static_assert(sizeof(KeySizes) == 0x1C);
 }
+NEED_NO_BOX(System::Security::Cryptography::KeySizes);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::KeySizes*, "System.Security.Cryptography", "KeySizes");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::KeySizes::get_MinSize

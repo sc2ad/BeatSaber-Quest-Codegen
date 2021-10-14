@@ -130,6 +130,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(CommandBufferBlurryScreenGrab), 56 + sizeof(int)> __GlobalNamespace_CommandBufferBlurryScreenGrabSizeCheck;
   static_assert(sizeof(CommandBufferBlurryScreenGrab) == 0x3C);
 }
+NEED_NO_BOX(GlobalNamespace::CommandBufferBlurryScreenGrab);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CommandBufferBlurryScreenGrab*, "", "CommandBufferBlurryScreenGrab");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CommandBufferBlurryScreenGrab::New_ctor

@@ -78,6 +78,7 @@ namespace GlobalNamespace {
   }; // MediaAsyncLoader
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::MediaAsyncLoader);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MediaAsyncLoader*, "", "MediaAsyncLoader");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MediaAsyncLoader::LoadWebpage

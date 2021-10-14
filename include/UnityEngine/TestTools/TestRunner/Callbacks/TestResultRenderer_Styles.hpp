@@ -42,6 +42,7 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer::Styles);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer::Styles*, "UnityEngine.TestTools.TestRunner.Callbacks", "TestResultRenderer/Styles");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer::Styles::_cctor

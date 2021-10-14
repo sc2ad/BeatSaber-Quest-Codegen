@@ -94,6 +94,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(NoteController::$DissolveCoroutine$d__74), 40 + sizeof(float)> __GlobalNamespace_NoteController_$DissolveCoroutine$d__74SizeCheck;
   static_assert(sizeof(NoteController::$DissolveCoroutine$d__74) == 0x2C);
 }
+NEED_NO_BOX(GlobalNamespace::NoteController::$DissolveCoroutine$d__74);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteController::$DissolveCoroutine$d__74*, "", "NoteController/<DissolveCoroutine>d__74");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteController::$DissolveCoroutine$d__74::System_Collections_Generic_IEnumerator$System_Object$_get_Current

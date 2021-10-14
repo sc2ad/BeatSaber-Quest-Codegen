@@ -53,6 +53,7 @@ namespace System::Runtime::CompilerServices {
   static check_size<sizeof(TupleElementNamesAttribute), 16 + sizeof(::ArrayW<::Il2CppString*>)> __System_Runtime_CompilerServices_TupleElementNamesAttributeSizeCheck;
   static_assert(sizeof(TupleElementNamesAttribute) == 0x18);
 }
+NEED_NO_BOX(System::Runtime::CompilerServices::TupleElementNamesAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::TupleElementNamesAttribute*, "System.Runtime.CompilerServices", "TupleElementNamesAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::TupleElementNamesAttribute::New_ctor

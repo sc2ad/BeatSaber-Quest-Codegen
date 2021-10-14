@@ -61,6 +61,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
   static check_size<sizeof(ThreefishEngine::ThreefishCipher), 24 + sizeof(::ArrayW<uint64_t>)> __Org_BouncyCastle_Crypto_Engines_ThreefishEngine_ThreefishCipherSizeCheck;
   static_assert(sizeof(ThreefishEngine::ThreefishCipher) == 0x20);
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Engines::ThreefishEngine::ThreefishCipher);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::ThreefishEngine::ThreefishCipher*, "Org.BouncyCastle.Crypto.Engines", "ThreefishEngine/ThreefishCipher");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::ThreefishEngine::ThreefishCipher::New_ctor

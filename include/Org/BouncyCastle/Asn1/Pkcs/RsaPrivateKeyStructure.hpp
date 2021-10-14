@@ -148,6 +148,7 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
   static check_size<sizeof(RsaPrivateKeyStructure), 72 + sizeof(Org::BouncyCastle::Math::BigInteger*)> __Org_BouncyCastle_Asn1_Pkcs_RsaPrivateKeyStructureSizeCheck;
   static_assert(sizeof(RsaPrivateKeyStructure) == 0x50);
 }
+NEED_NO_BOX(Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure*, "Org.BouncyCastle.Asn1.Pkcs", "RsaPrivateKeyStructure");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure::get_Modulus

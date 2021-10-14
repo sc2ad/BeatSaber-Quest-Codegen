@@ -86,6 +86,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MenuLightsManager::$Start$d__4), 32 + sizeof(GlobalNamespace::MenuLightsManager*)> __GlobalNamespace_MenuLightsManager_$Start$d__4SizeCheck;
   static_assert(sizeof(MenuLightsManager::$Start$d__4) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::MenuLightsManager::$Start$d__4);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuLightsManager::$Start$d__4*, "", "MenuLightsManager/<Start>d__4");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MenuLightsManager::$Start$d__4::System_Collections_Generic_IEnumerator$System_Object$_get_Current

@@ -34,6 +34,7 @@ namespace UnityEngine::Timeline {
   }; // UnityEngine.Timeline.IgnoreOnPlayableTrackAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::Timeline::IgnoreOnPlayableTrackAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::IgnoreOnPlayableTrackAttribute*, "UnityEngine.Timeline", "IgnoreOnPlayableTrackAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::IgnoreOnPlayableTrackAttribute::New_ctor

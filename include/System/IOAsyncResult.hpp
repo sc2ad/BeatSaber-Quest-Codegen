@@ -133,6 +133,7 @@ namespace System {
   static check_size<sizeof(IOAsyncResult), 41 + sizeof(bool)> __System_IOAsyncResultSizeCheck;
   static_assert(sizeof(IOAsyncResult) == 0x2A);
 }
+NEED_NO_BOX(System::IOAsyncResult);
 DEFINE_IL2CPP_ARG_TYPE(System::IOAsyncResult*, "System", "IOAsyncResult");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IOAsyncResult::get_AsyncCallback

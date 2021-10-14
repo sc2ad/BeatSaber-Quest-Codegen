@@ -136,6 +136,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MissionDataSO), 64 + sizeof(GlobalNamespace::MissionHelpSO*)> __GlobalNamespace_MissionDataSOSizeCheck;
   static_assert(sizeof(MissionDataSO) == 0x48);
 }
+NEED_NO_BOX(GlobalNamespace::MissionDataSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionDataSO*, "", "MissionDataSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionDataSO::get_missionObjectives

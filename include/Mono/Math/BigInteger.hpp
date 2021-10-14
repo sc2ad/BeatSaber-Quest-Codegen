@@ -269,6 +269,7 @@ namespace Mono::Math {
   // Offset: 0x1F7D5E4
   bool operator <=(Mono::Math::BigInteger* bi1, Mono::Math::BigInteger& bi2);
 }
+NEED_NO_BOX(Mono::Math::BigInteger);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Math::BigInteger*, "Mono.Math", "BigInteger");
 DEFINE_IL2CPP_ARG_TYPE(Mono::Math::BigInteger::Sign, "Mono.Math", "BigInteger/Sign");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

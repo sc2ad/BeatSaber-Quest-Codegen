@@ -93,6 +93,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
   static check_size<sizeof(IssuerSerial), 32 + sizeof(Org::BouncyCastle::Asn1::DerBitString*)> __Org_BouncyCastle_Asn1_X509_IssuerSerialSizeCheck;
   static_assert(sizeof(IssuerSerial) == 0x28);
 }
+NEED_NO_BOX(Org::BouncyCastle::Asn1::X509::IssuerSerial);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::IssuerSerial*, "Org.BouncyCastle.Asn1.X509", "IssuerSerial");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::IssuerSerial::New_ctor

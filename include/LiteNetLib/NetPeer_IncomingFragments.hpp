@@ -80,6 +80,7 @@ namespace LiteNetLib {
   static check_size<sizeof(NetPeer::IncomingFragments), 32 + sizeof(uint8_t)> __LiteNetLib_NetPeer_IncomingFragmentsSizeCheck;
   static_assert(sizeof(NetPeer::IncomingFragments) == 0x21);
 }
+NEED_NO_BOX(LiteNetLib::NetPeer::IncomingFragments);
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetPeer::IncomingFragments*, "LiteNetLib", "NetPeer/IncomingFragments");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::NetPeer::IncomingFragments::New_ctor

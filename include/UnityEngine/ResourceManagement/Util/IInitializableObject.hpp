@@ -39,6 +39,7 @@ namespace UnityEngine::ResourceManagement::Util {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::ResourceManagement::Util::IInitializableObject);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Util::IInitializableObject*, "UnityEngine.ResourceManagement.Util", "IInitializableObject");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::IInitializableObject::Initialize

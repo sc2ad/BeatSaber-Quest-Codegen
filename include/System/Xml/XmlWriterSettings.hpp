@@ -374,6 +374,7 @@ namespace System::Xml {
   static check_size<sizeof(XmlWriterSettings), 133 + sizeof(bool)> __System_Xml_XmlWriterSettingsSizeCheck;
   static_assert(sizeof(XmlWriterSettings) == 0x86);
 }
+NEED_NO_BOX(System::Xml::XmlWriterSettings);
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWriterSettings*, "System.Xml", "XmlWriterSettings");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::XmlWriterSettings::get_Async

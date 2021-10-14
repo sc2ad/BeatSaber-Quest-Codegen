@@ -85,6 +85,7 @@ namespace System::Text {
   static check_size<sizeof(UTF7Encoding::Encoder), 60 + sizeof(int)> __System_Text_UTF7Encoding_EncoderSizeCheck;
   static_assert(sizeof(UTF7Encoding::Encoder) == 0x40);
 }
+NEED_NO_BOX(System::Text::UTF7Encoding::Encoder);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::UTF7Encoding::Encoder*, "System.Text", "UTF7Encoding/Encoder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::UTF7Encoding::Encoder::New_ctor

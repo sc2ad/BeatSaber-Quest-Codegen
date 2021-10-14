@@ -98,6 +98,7 @@ namespace MasterServer {
   static check_size<sizeof(HelloVerifyRequest), 24 + sizeof(GlobalNamespace::ByteArrayNetSerializable*)> __MasterServer_HelloVerifyRequestSizeCheck;
   static_assert(sizeof(HelloVerifyRequest) == 0x20);
 }
+NEED_NO_BOX(MasterServer::HelloVerifyRequest);
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::HelloVerifyRequest*, "MasterServer", "HelloVerifyRequest");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: MasterServer::HelloVerifyRequest::get_pool

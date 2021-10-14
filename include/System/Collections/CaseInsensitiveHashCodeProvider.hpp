@@ -80,6 +80,7 @@ namespace System::Collections {
   static check_size<sizeof(CaseInsensitiveHashCodeProvider), 16 + sizeof(System::Globalization::TextInfo*)> __System_Collections_CaseInsensitiveHashCodeProviderSizeCheck;
   static_assert(sizeof(CaseInsensitiveHashCodeProvider) == 0x18);
 }
+NEED_NO_BOX(System::Collections::CaseInsensitiveHashCodeProvider);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::CaseInsensitiveHashCodeProvider*, "System.Collections", "CaseInsensitiveHashCodeProvider");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::CaseInsensitiveHashCodeProvider::get_Default

@@ -48,6 +48,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   }; // UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider*, "UnityEngine.ResourceManagement.ResourceProviders", "BundledAssetProvider");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::New_ctor

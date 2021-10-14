@@ -162,6 +162,7 @@ namespace Org::BouncyCastle::Crypto::Macs {
   static check_size<sizeof(ISO9797Alg3Mac), 72 + sizeof(Org::BouncyCastle::Crypto::Parameters::KeyParameter*)> __Org_BouncyCastle_Crypto_Macs_ISO9797Alg3MacSizeCheck;
   static_assert(sizeof(ISO9797Alg3Mac) == 0x50);
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac*, "Org.BouncyCastle.Crypto.Macs", "ISO9797Alg3Mac");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac::New_ctor

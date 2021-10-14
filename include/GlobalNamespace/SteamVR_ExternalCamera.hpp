@@ -376,6 +376,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SteamVR_ExternalCamera), 184 + sizeof(float)> __GlobalNamespace_SteamVR_ExternalCameraSizeCheck;
   static_assert(sizeof(SteamVR_ExternalCamera) == 0xBC);
 }
+NEED_NO_BOX(GlobalNamespace::SteamVR_ExternalCamera);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_ExternalCamera*, "", "SteamVR_ExternalCamera");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_ExternalCamera::Config, "", "SteamVR_ExternalCamera/Config");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

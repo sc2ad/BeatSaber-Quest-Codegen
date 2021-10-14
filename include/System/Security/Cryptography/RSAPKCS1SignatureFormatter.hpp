@@ -34,6 +34,7 @@ namespace System::Security::Cryptography {
   }; // System.Security.Cryptography.RSAPKCS1SignatureFormatter
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Security::Cryptography::RSAPKCS1SignatureFormatter);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RSAPKCS1SignatureFormatter*, "System.Security.Cryptography", "RSAPKCS1SignatureFormatter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::RSAPKCS1SignatureFormatter::New_ctor

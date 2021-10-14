@@ -72,6 +72,7 @@ namespace HoudiniEngineUnity {
   }; // HoudiniEngineUnity.Test_Texture2D_Extensions/HoudiniEngineUnity.<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(HoudiniEngineUnity::Test_Texture2D_Extensions::$$c);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::Test_Texture2D_Extensions::$$c*, "HoudiniEngineUnity", "Test_Texture2D_Extensions/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::Test_Texture2D_Extensions::$$c::_cctor

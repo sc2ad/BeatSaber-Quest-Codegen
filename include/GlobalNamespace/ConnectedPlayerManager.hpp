@@ -764,6 +764,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ConnectedPlayerManager), 304 + sizeof(GlobalNamespace::NetworkPacketSerializer_2<GlobalNamespace::ConnectedPlayerManager::InternalMessageType, GlobalNamespace::IConnectedPlayer*>*)> __GlobalNamespace_ConnectedPlayerManagerSizeCheck;
   static_assert(sizeof(ConnectedPlayerManager) == 0x138);
 }
+NEED_NO_BOX(GlobalNamespace::ConnectedPlayerManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConnectedPlayerManager*, "", "ConnectedPlayerManager");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConnectedPlayerManager::InternalMessageType, "", "ConnectedPlayerManager/InternalMessageType");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

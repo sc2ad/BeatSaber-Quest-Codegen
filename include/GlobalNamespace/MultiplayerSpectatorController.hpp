@@ -180,6 +180,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerSpectatorController), 72 + sizeof(GlobalNamespace::IMultiplayerSpectatingSpot*)> __GlobalNamespace_MultiplayerSpectatorControllerSizeCheck;
   static_assert(sizeof(MultiplayerSpectatorController) == 0x50);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerSpectatorController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerSpectatorController*, "", "MultiplayerSpectatorController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerSpectatorController::get_currentSpot

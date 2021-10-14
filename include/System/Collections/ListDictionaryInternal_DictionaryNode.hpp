@@ -64,6 +64,7 @@ namespace System::Collections {
   static check_size<sizeof(ListDictionaryInternal::DictionaryNode), 32 + sizeof(System::Collections::ListDictionaryInternal::DictionaryNode*)> __System_Collections_ListDictionaryInternal_DictionaryNodeSizeCheck;
   static_assert(sizeof(ListDictionaryInternal::DictionaryNode) == 0x28);
 }
+NEED_NO_BOX(System::Collections::ListDictionaryInternal::DictionaryNode);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::ListDictionaryInternal::DictionaryNode*, "System.Collections", "ListDictionaryInternal/DictionaryNode");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::ListDictionaryInternal::DictionaryNode::New_ctor

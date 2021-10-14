@@ -56,6 +56,7 @@ namespace Oculus::Platform::Models {
   static check_size<sizeof(UserReportID), 24 + sizeof(uint64_t)> __Oculus_Platform_Models_UserReportIDSizeCheck;
   static_assert(sizeof(UserReportID) == 0x20);
 }
+NEED_NO_BOX(Oculus::Platform::Models::UserReportID);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::UserReportID*, "Oculus.Platform.Models", "UserReportID");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::UserReportID::New_ctor

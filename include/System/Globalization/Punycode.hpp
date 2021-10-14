@@ -32,6 +32,7 @@ namespace System::Globalization {
   }; // System.Globalization.Punycode
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Globalization::Punycode);
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::Punycode*, "System.Globalization", "Punycode");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Globalization::Punycode::New_ctor

@@ -62,6 +62,7 @@ namespace UnityEngine::ProBuilder {
   }; // UnityEngine.ProBuilder.TriggerBehaviour
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::TriggerBehaviour);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::TriggerBehaviour*, "UnityEngine.ProBuilder", "TriggerBehaviour");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::TriggerBehaviour::New_ctor

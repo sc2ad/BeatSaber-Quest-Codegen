@@ -86,6 +86,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(AvatarTweenController::$DisappearAnimation$d__58), 32 + sizeof(GlobalNamespace::AvatarTweenController*)> __GlobalNamespace_AvatarTweenController_$DisappearAnimation$d__58SizeCheck;
   static_assert(sizeof(AvatarTweenController::$DisappearAnimation$d__58) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::AvatarTweenController::$DisappearAnimation$d__58);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarTweenController::$DisappearAnimation$d__58*, "", "AvatarTweenController/<DisappearAnimation>d__58");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AvatarTweenController::$DisappearAnimation$d__58::System_Collections_Generic_IEnumerator$System_Object$_get_Current

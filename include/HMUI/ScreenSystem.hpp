@@ -185,6 +185,7 @@ namespace HMUI {
   static check_size<sizeof(ScreenSystem), 96 + sizeof(HMUI::ButtonBinder*)> __HMUI_ScreenSystemSizeCheck;
   static_assert(sizeof(ScreenSystem) == 0x68);
 }
+NEED_NO_BOX(HMUI::ScreenSystem);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScreenSystem*, "HMUI", "ScreenSystem");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::ScreenSystem::get_titleViewController

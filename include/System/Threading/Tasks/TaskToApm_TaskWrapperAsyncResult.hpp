@@ -92,6 +92,7 @@ namespace System::Threading::Tasks {
   static check_size<sizeof(TaskToApm::TaskWrapperAsyncResult), 32 + sizeof(bool)> __System_Threading_Tasks_TaskToApm_TaskWrapperAsyncResultSizeCheck;
   static_assert(sizeof(TaskToApm::TaskWrapperAsyncResult) == 0x21);
 }
+NEED_NO_BOX(System::Threading::Tasks::TaskToApm::TaskWrapperAsyncResult);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskToApm::TaskWrapperAsyncResult*, "System.Threading.Tasks", "TaskToApm/TaskWrapperAsyncResult");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::Tasks::TaskToApm::TaskWrapperAsyncResult::System_IAsyncResult_get_AsyncState

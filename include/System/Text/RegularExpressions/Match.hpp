@@ -179,6 +179,7 @@ namespace System::Text::RegularExpressions {
   static check_size<sizeof(Match), 104 + sizeof(bool)> __System_Text_RegularExpressions_MatchSizeCheck;
   static_assert(sizeof(Match) == 0x69);
 }
+NEED_NO_BOX(System::Text::RegularExpressions::Match);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::Match*, "System.Text.RegularExpressions", "Match");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::RegularExpressions::Match::get_Empty

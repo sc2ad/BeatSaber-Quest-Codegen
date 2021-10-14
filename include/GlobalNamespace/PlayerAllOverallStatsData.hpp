@@ -179,6 +179,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PlayerAllOverallStatsData), 64 + sizeof(System::Action_2<GlobalNamespace::MissionCompletionResults*, GlobalNamespace::MissionNode*>*)> __GlobalNamespace_PlayerAllOverallStatsDataSizeCheck;
   static_assert(sizeof(PlayerAllOverallStatsData) == 0x48);
 }
+NEED_NO_BOX(GlobalNamespace::PlayerAllOverallStatsData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerAllOverallStatsData*, "", "PlayerAllOverallStatsData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayerAllOverallStatsData::get_allOverallStatsData

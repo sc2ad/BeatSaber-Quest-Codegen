@@ -141,6 +141,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SongPackMaskModelSO::SongPackMaskItem), 72 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::BeatmapLevelPackCollectionSO*>*)> __GlobalNamespace_SongPackMaskModelSO_SongPackMaskItemSizeCheck;
   static_assert(sizeof(SongPackMaskModelSO::SongPackMaskItem) == 0x50);
 }
+NEED_NO_BOX(GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem*, "", "SongPackMaskModelSO/SongPackMaskItem");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::get_serializedName

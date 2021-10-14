@@ -74,6 +74,7 @@ namespace JetBrains::Annotations {
   static check_size<sizeof(ContractAnnotationAttribute), 24 + sizeof(bool)> __JetBrains_Annotations_ContractAnnotationAttributeSizeCheck;
   static_assert(sizeof(ContractAnnotationAttribute) == 0x19);
 }
+NEED_NO_BOX(JetBrains::Annotations::ContractAnnotationAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::ContractAnnotationAttribute*, "JetBrains.Annotations", "ContractAnnotationAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: JetBrains::Annotations::ContractAnnotationAttribute::get_Contract

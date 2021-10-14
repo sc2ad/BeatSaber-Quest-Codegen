@@ -157,6 +157,7 @@ namespace LeaderboardsDTO {
   static check_size<sizeof(LevelScoreResultDTO), 96 + sizeof(::Il2CppString*)> __LeaderboardsDTO_LevelScoreResultDTOSizeCheck;
   static_assert(sizeof(LevelScoreResultDTO) == 0x68);
 }
+NEED_NO_BOX(LeaderboardsDTO::LevelScoreResultDTO);
 DEFINE_IL2CPP_ARG_TYPE(LeaderboardsDTO::LevelScoreResultDTO*, "LeaderboardsDTO", "LevelScoreResultDTO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LeaderboardsDTO::LevelScoreResultDTO::New_ctor

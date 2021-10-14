@@ -54,6 +54,7 @@ namespace Oculus::Platform::Models {
   static check_size<sizeof(LaunchFriendRequestFlowResult), 17 + sizeof(bool)> __Oculus_Platform_Models_LaunchFriendRequestFlowResultSizeCheck;
   static_assert(sizeof(LaunchFriendRequestFlowResult) == 0x12);
 }
+NEED_NO_BOX(Oculus::Platform::Models::LaunchFriendRequestFlowResult);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::LaunchFriendRequestFlowResult*, "Oculus.Platform.Models", "LaunchFriendRequestFlowResult");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::LaunchFriendRequestFlowResult::New_ctor

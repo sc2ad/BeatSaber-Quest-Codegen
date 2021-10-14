@@ -34,6 +34,7 @@ namespace UnityEngine {
   }; // UnityEngine.SelectionBaseAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::SelectionBaseAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SelectionBaseAttribute*, "UnityEngine", "SelectionBaseAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::SelectionBaseAttribute::New_ctor

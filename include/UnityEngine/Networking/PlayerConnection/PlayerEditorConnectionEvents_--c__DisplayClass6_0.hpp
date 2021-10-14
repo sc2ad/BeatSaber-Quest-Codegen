@@ -58,6 +58,7 @@ namespace UnityEngine::Networking::PlayerConnection {
   static check_size<sizeof(PlayerEditorConnectionEvents::$$c__DisplayClass6_0), 16 + sizeof(System::Guid)> __UnityEngine_Networking_PlayerConnection_PlayerEditorConnectionEvents_$$c__DisplayClass6_0SizeCheck;
   static_assert(sizeof(PlayerEditorConnectionEvents::$$c__DisplayClass6_0) == 0x20);
 }
+NEED_NO_BOX(UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::$$c__DisplayClass6_0);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::$$c__DisplayClass6_0*, "UnityEngine.Networking.PlayerConnection", "PlayerEditorConnectionEvents/<>c__DisplayClass6_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::$$c__DisplayClass6_0::$InvokeMessageIdSubscribers$b__0

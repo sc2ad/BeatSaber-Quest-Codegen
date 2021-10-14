@@ -82,6 +82,7 @@ namespace Org::BouncyCastle::Crypto::Agreement {
   static check_size<sizeof(ECDHBasicAgreement), 16 + sizeof(Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*)> __Org_BouncyCastle_Crypto_Agreement_ECDHBasicAgreementSizeCheck;
   static_assert(sizeof(ECDHBasicAgreement) == 0x18);
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement*, "Org.BouncyCastle.Crypto.Agreement", "ECDHBasicAgreement");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement::Init

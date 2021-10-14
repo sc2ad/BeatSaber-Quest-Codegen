@@ -67,6 +67,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(Test_MeshFilter), 16 + sizeof(UnityEngine::MeshFilter*)> __HoudiniEngineUnity_Test_MeshFilterSizeCheck;
   static_assert(sizeof(Test_MeshFilter) == 0x18);
 }
+NEED_NO_BOX(HoudiniEngineUnity::Test_MeshFilter);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::Test_MeshFilter*, "HoudiniEngineUnity", "Test_MeshFilter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::Test_MeshFilter::New_ctor

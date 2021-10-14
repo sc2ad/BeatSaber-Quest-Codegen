@@ -37,6 +37,7 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(GlobalNamespace::IAuthenticationTokenProvider);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IAuthenticationTokenProvider*, "", "IAuthenticationTokenProvider");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::IAuthenticationTokenProvider::get_hashedUserId

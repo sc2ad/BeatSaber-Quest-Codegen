@@ -37,6 +37,7 @@ namespace Zenject {
   }; // Zenject.SceneKernel
   #pragma pack(pop)
 }
+NEED_NO_BOX(Zenject::SceneKernel);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SceneKernel*, "Zenject", "SceneKernel");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::SceneKernel::New_ctor

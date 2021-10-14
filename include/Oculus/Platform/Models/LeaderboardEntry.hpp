@@ -117,6 +117,7 @@ namespace Oculus::Platform::Models {
   static check_size<sizeof(LeaderboardEntry), 72 + sizeof(Oculus::Platform::Models::User*)> __Oculus_Platform_Models_LeaderboardEntrySizeCheck;
   static_assert(sizeof(LeaderboardEntry) == 0x50);
 }
+NEED_NO_BOX(Oculus::Platform::Models::LeaderboardEntry);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::LeaderboardEntry*, "Oculus.Platform.Models", "LeaderboardEntry");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::LeaderboardEntry::New_ctor

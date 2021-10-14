@@ -61,6 +61,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MasterServerQuickPlaySetupData), 16 + sizeof(GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride*)> __GlobalNamespace_MasterServerQuickPlaySetupDataSizeCheck;
   static_assert(sizeof(MasterServerQuickPlaySetupData) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::MasterServerQuickPlaySetupData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerQuickPlaySetupData*, "", "MasterServerQuickPlaySetupData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerQuickPlaySetupData::get_hasOverride

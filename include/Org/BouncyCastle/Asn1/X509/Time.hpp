@@ -87,6 +87,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
   static check_size<sizeof(Time), 16 + sizeof(Org::BouncyCastle::Asn1::Asn1Object*)> __Org_BouncyCastle_Asn1_X509_TimeSizeCheck;
   static_assert(sizeof(Time) == 0x18);
 }
+NEED_NO_BOX(Org::BouncyCastle::Asn1::X509::Time);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::Time*, "Org.BouncyCastle.Asn1.X509", "Time");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::Time::New_ctor

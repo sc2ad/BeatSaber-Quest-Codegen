@@ -182,6 +182,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ColorSchemeColorsToggleGroup), 88 + sizeof(GlobalNamespace::ColorScheme*)> __GlobalNamespace_ColorSchemeColorsToggleGroupSizeCheck;
   static_assert(sizeof(ColorSchemeColorsToggleGroup) == 0x60);
 }
+NEED_NO_BOX(GlobalNamespace::ColorSchemeColorsToggleGroup);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSchemeColorsToggleGroup*, "", "ColorSchemeColorsToggleGroup");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ColorSchemeColorsToggleGroup::get_color

@@ -39,6 +39,7 @@ namespace NUnit::Framework::Interfaces {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(NUnit::Framework::Interfaces::ITestData);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::ITestData*, "NUnit.Framework.Interfaces", "ITestData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::ITestData::get_RunState

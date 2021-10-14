@@ -68,6 +68,7 @@ namespace GlobalNamespace {
   }; // OVRManager/<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::OVRManager_$$c);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRManager_$$c*, "", "OVRManager/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRManager_$$c::_cctor

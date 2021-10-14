@@ -34,6 +34,7 @@ namespace GlobalNamespace {
     }
   }; // SaberSwingRatingCounter/Pool
 }
+NEED_NO_BOX(GlobalNamespace::SaberSwingRatingCounter::Pool);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberSwingRatingCounter::Pool*, "", "SaberSwingRatingCounter/Pool");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SaberSwingRatingCounter::Pool::New_ctor

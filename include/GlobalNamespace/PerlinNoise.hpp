@@ -62,6 +62,7 @@ namespace GlobalNamespace {
   }; // PerlinNoise
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::PerlinNoise);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PerlinNoise*, "", "PerlinNoise");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PerlinNoise::_cctor

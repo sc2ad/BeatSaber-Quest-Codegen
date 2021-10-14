@@ -70,6 +70,7 @@ namespace HMUI {
   static check_size<sizeof(StackedController::$$c__DisplayClass5_0), 16 + sizeof(int)> __HMUI_StackedController_$$c__DisplayClass5_0SizeCheck;
   static_assert(sizeof(StackedController::$$c__DisplayClass5_0) == 0x14);
 }
+NEED_NO_BOX(HMUI::StackedController::$$c__DisplayClass5_0);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::StackedController::$$c__DisplayClass5_0*, "HMUI", "StackedController/<>c__DisplayClass5_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::StackedController::$$c__DisplayClass5_0::$PopViewControllers$g__AnimationLayouter_0

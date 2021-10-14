@@ -50,6 +50,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(StandardLevelFailedController::InitData), 16 + sizeof(bool)> __GlobalNamespace_StandardLevelFailedController_InitDataSizeCheck;
   static_assert(sizeof(StandardLevelFailedController::InitData) == 0x11);
 }
+NEED_NO_BOX(GlobalNamespace::StandardLevelFailedController::InitData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelFailedController::InitData*, "", "StandardLevelFailedController/InitData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelFailedController::InitData::New_ctor

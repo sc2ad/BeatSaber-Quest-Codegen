@@ -72,6 +72,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BoolSettingsController), 40 + sizeof(GlobalNamespace::BoolSO*)> __GlobalNamespace_BoolSettingsControllerSizeCheck;
   static_assert(sizeof(BoolSettingsController) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::BoolSettingsController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BoolSettingsController*, "", "BoolSettingsController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BoolSettingsController::New_ctor

@@ -51,6 +51,7 @@ namespace Valve::VR {
   }; // Valve.VR.IVRExtendedDisplay/Valve.VR._GetWindowBounds
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::IVRExtendedDisplay::_GetWindowBounds);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRExtendedDisplay::_GetWindowBounds*, "Valve.VR", "IVRExtendedDisplay/_GetWindowBounds");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRExtendedDisplay::_GetWindowBounds::New_ctor

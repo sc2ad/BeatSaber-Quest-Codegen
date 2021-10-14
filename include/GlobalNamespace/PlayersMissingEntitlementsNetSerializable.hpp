@@ -87,6 +87,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PlayersMissingEntitlementsNetSerializable), 16 + sizeof(System::Collections::Generic::List_1<::Il2CppString*>*)> __GlobalNamespace_PlayersMissingEntitlementsNetSerializableSizeCheck;
   static_assert(sizeof(PlayersMissingEntitlementsNetSerializable) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::PlayersMissingEntitlementsNetSerializable);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayersMissingEntitlementsNetSerializable*, "", "PlayersMissingEntitlementsNetSerializable");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayersMissingEntitlementsNetSerializable::get_playersWithoutEntitlements

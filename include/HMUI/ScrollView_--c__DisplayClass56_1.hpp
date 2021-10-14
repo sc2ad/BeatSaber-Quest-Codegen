@@ -56,6 +56,7 @@ namespace HMUI {
   static check_size<sizeof(ScrollView::$$c__DisplayClass56_1), 16 + sizeof(float)> __HMUI_ScrollView_$$c__DisplayClass56_1SizeCheck;
   static_assert(sizeof(ScrollView::$$c__DisplayClass56_1) == 0x14);
 }
+NEED_NO_BOX(HMUI::ScrollView::$$c__DisplayClass56_1);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollView::$$c__DisplayClass56_1*, "HMUI", "ScrollView/<>c__DisplayClass56_1");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::ScrollView::$$c__DisplayClass56_1::$HandleJoystickWasCenteredThisFrame$b__1

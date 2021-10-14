@@ -67,6 +67,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SleepRigidbody2DWhenInvisible), 24 + sizeof(UnityEngine::Rigidbody2D*)> __GlobalNamespace_SleepRigidbody2DWhenInvisibleSizeCheck;
   static_assert(sizeof(SleepRigidbody2DWhenInvisible) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::SleepRigidbody2DWhenInvisible);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SleepRigidbody2DWhenInvisible*, "", "SleepRigidbody2DWhenInvisible");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SleepRigidbody2DWhenInvisible::Awake

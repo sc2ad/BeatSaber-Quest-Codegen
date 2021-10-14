@@ -67,6 +67,7 @@ namespace JetBrains::Annotations {
   static check_size<sizeof(PublicAPIAttribute), 16 + sizeof(::Il2CppString*)> __JetBrains_Annotations_PublicAPIAttributeSizeCheck;
   static_assert(sizeof(PublicAPIAttribute) == 0x18);
 }
+NEED_NO_BOX(JetBrains::Annotations::PublicAPIAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::PublicAPIAttribute*, "JetBrains.Annotations", "PublicAPIAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: JetBrains::Annotations::PublicAPIAttribute::get_Comment

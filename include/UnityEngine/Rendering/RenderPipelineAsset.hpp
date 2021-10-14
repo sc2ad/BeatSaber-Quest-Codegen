@@ -115,6 +115,7 @@ namespace UnityEngine::Rendering {
   }; // UnityEngine.Rendering.RenderPipelineAsset
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::Rendering::RenderPipelineAsset);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::RenderPipelineAsset*, "UnityEngine.Rendering", "RenderPipelineAsset");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Rendering::RenderPipelineAsset::get_renderingLayerMaskNames

@@ -311,6 +311,7 @@ namespace Mono::Globalization::Unicode {
   static check_size<sizeof(SimpleCollator), 92 + sizeof(bool)> __Mono_Globalization_Unicode_SimpleCollatorSizeCheck;
   static_assert(sizeof(SimpleCollator) == 0x5D);
 }
+NEED_NO_BOX(Mono::Globalization::Unicode::SimpleCollator);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::SimpleCollator*, "Mono.Globalization.Unicode", "SimpleCollator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::New_ctor

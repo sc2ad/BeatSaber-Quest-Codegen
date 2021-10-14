@@ -117,6 +117,7 @@ namespace System::Xml {
   static check_size<sizeof(CharEntityEncoderFallback), 48 + sizeof(int)> __System_Xml_CharEntityEncoderFallbackSizeCheck;
   static_assert(sizeof(CharEntityEncoderFallback) == 0x34);
 }
+NEED_NO_BOX(System::Xml::CharEntityEncoderFallback);
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::CharEntityEncoderFallback*, "System.Xml", "CharEntityEncoderFallback");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::CharEntityEncoderFallback::set_StartOffset

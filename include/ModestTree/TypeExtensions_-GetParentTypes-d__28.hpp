@@ -138,6 +138,7 @@ namespace ModestTree {
   static check_size<sizeof(TypeExtensions::$GetParentTypes$d__28), 56 + sizeof(System::Collections::Generic::IEnumerator_1<System::Type*>*)> __ModestTree_TypeExtensions_$GetParentTypes$d__28SizeCheck;
   static_assert(sizeof(TypeExtensions::$GetParentTypes$d__28) == 0x40);
 }
+NEED_NO_BOX(ModestTree::TypeExtensions::$GetParentTypes$d__28);
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::TypeExtensions::$GetParentTypes$d__28*, "ModestTree", "TypeExtensions/<GetParentTypes>d__28");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: ModestTree::TypeExtensions::$GetParentTypes$d__28::System_Collections_Generic_IEnumerator$System_Type$_get_Current

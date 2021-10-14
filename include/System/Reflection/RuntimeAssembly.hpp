@@ -73,6 +73,7 @@ namespace System::Reflection {
   }; // System.Reflection.RuntimeAssembly
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Reflection::RuntimeAssembly);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::RuntimeAssembly*, "System.Reflection", "RuntimeAssembly");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::RuntimeAssembly::LoadWithPartialNameInternal

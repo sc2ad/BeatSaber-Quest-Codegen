@@ -61,6 +61,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MissionNodeNameGenerator), 24 + sizeof(GlobalNamespace::MissionNodesManager*)> __GlobalNamespace_MissionNodeNameGeneratorSizeCheck;
   static_assert(sizeof(MissionNodeNameGenerator) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::MissionNodeNameGenerator);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionNodeNameGenerator*, "", "MissionNodeNameGenerator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionNodeNameGenerator::New_ctor

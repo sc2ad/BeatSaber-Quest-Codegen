@@ -62,6 +62,7 @@ namespace System::Runtime::InteropServices {
   }; // System.Runtime.InteropServices.MarshalDirectiveException
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Runtime::InteropServices::MarshalDirectiveException);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::MarshalDirectiveException*, "System.Runtime.InteropServices", "MarshalDirectiveException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::InteropServices::MarshalDirectiveException::New_ctor

@@ -75,6 +75,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ScoreMissionObjectiveChecker), 72 + sizeof(GlobalNamespace::IScoreController*)> __GlobalNamespace_ScoreMissionObjectiveCheckerSizeCheck;
   static_assert(sizeof(ScoreMissionObjectiveChecker) == 0x50);
 }
+NEED_NO_BOX(GlobalNamespace::ScoreMissionObjectiveChecker);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScoreMissionObjectiveChecker*, "", "ScoreMissionObjectiveChecker");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ScoreMissionObjectiveChecker::OnDestroy

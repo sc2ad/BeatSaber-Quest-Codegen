@@ -118,6 +118,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SteamVR_Fade), 72 + sizeof(bool)> __GlobalNamespace_SteamVR_FadeSizeCheck;
   static_assert(sizeof(SteamVR_Fade) == 0x49);
 }
+NEED_NO_BOX(GlobalNamespace::SteamVR_Fade);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Fade*, "", "SteamVR_Fade");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Fade::Start

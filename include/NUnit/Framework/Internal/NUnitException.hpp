@@ -58,6 +58,7 @@ namespace NUnit::Framework::Internal {
   }; // NUnit.Framework.Internal.NUnitException
   #pragma pack(pop)
 }
+NEED_NO_BOX(NUnit::Framework::Internal::NUnitException);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::NUnitException*, "NUnit.Framework.Internal", "NUnitException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::NUnitException::New_ctor

@@ -58,6 +58,7 @@ namespace System::Collections {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Collections::IList);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::IList*, "System.Collections", "IList");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::IList::get_Item

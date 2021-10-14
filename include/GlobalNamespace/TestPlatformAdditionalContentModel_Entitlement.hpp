@@ -58,6 +58,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(TestPlatformAdditionalContentModel::Entitlement), 24 + sizeof(GlobalNamespace::AdditionalContentModel::EntitlementStatus)> __GlobalNamespace_TestPlatformAdditionalContentModel_EntitlementSizeCheck;
   static_assert(sizeof(TestPlatformAdditionalContentModel::Entitlement) == 0x1C);
 }
+NEED_NO_BOX(GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*, "", "TestPlatformAdditionalContentModel/Entitlement");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement::New_ctor

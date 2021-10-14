@@ -249,6 +249,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ServerPlayerListViewController), 200 + sizeof(HMUI::ButtonBinder*)> __GlobalNamespace_ServerPlayerListViewControllerSizeCheck;
   static_assert(sizeof(ServerPlayerListViewController) == 0xD0);
 }
+NEED_NO_BOX(GlobalNamespace::ServerPlayerListViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ServerPlayerListViewController*, "", "ServerPlayerListViewController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ServerPlayerListViewController::add_selectSuggestedBeatmapEvent

@@ -67,6 +67,7 @@ namespace TMPro {
   }; // TMPro.TMP_FontFeatureTable/TMPro.<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(TMPro::TMP_FontFeatureTable::$$c);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_FontFeatureTable::$$c*, "TMPro", "TMP_FontFeatureTable/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_FontFeatureTable::$$c::_cctor

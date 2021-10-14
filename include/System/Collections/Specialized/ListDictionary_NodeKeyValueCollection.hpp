@@ -86,6 +86,7 @@ namespace System::Collections::Specialized {
   static check_size<sizeof(ListDictionary::NodeKeyValueCollection), 24 + sizeof(bool)> __System_Collections_Specialized_ListDictionary_NodeKeyValueCollectionSizeCheck;
   static_assert(sizeof(ListDictionary::NodeKeyValueCollection) == 0x19);
 }
+NEED_NO_BOX(System::Collections::Specialized::ListDictionary::NodeKeyValueCollection);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::ListDictionary::NodeKeyValueCollection*, "System.Collections.Specialized", "ListDictionary/NodeKeyValueCollection");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::Specialized::ListDictionary::NodeKeyValueCollection::System_Collections_ICollection_get_Count

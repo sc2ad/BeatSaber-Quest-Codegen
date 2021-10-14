@@ -103,6 +103,7 @@ namespace UnityEngine {
   static check_size<sizeof(AsyncOperation), 24 + sizeof(System::Action_1<UnityEngine::AsyncOperation*>*)> __UnityEngine_AsyncOperationSizeCheck;
   static_assert(sizeof(AsyncOperation) == 0x20);
 }
+NEED_NO_BOX(UnityEngine::AsyncOperation);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AsyncOperation*, "UnityEngine", "AsyncOperation");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AsyncOperation::get_isDone

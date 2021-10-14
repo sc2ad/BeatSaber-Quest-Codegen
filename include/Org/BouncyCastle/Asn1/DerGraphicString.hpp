@@ -79,6 +79,7 @@ namespace Org::BouncyCastle::Asn1 {
   static check_size<sizeof(DerGraphicString), 16 + sizeof(::ArrayW<uint8_t>)> __Org_BouncyCastle_Asn1_DerGraphicStringSizeCheck;
   static_assert(sizeof(DerGraphicString) == 0x18);
 }
+NEED_NO_BOX(Org::BouncyCastle::Asn1::DerGraphicString);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerGraphicString*, "Org.BouncyCastle.Asn1", "DerGraphicString");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerGraphicString::New_ctor

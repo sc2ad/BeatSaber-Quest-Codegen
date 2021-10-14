@@ -37,6 +37,7 @@ namespace Oculus::Platform::Models {
     }
   }; // Oculus.Platform.Models.AchievementDefinitionList
 }
+NEED_NO_BOX(Oculus::Platform::Models::AchievementDefinitionList);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::AchievementDefinitionList*, "Oculus.Platform.Models", "AchievementDefinitionList");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::AchievementDefinitionList::New_ctor

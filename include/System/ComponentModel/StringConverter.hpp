@@ -33,6 +33,7 @@ namespace System::ComponentModel {
   }; // System.ComponentModel.StringConverter
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::ComponentModel::StringConverter);
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::StringConverter*, "System.ComponentModel", "StringConverter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ComponentModel::StringConverter::New_ctor

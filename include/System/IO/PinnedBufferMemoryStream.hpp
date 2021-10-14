@@ -67,6 +67,7 @@ namespace System::IO {
   static check_size<sizeof(PinnedBufferMemoryStream), 112 + sizeof(System::Runtime::InteropServices::GCHandle)> __System_IO_PinnedBufferMemoryStreamSizeCheck;
   static_assert(sizeof(PinnedBufferMemoryStream) == 0x74);
 }
+NEED_NO_BOX(System::IO::PinnedBufferMemoryStream);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::PinnedBufferMemoryStream*, "System.IO", "PinnedBufferMemoryStream");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::PinnedBufferMemoryStream::New_ctor

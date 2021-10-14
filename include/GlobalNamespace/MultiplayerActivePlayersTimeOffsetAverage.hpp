@@ -82,6 +82,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerActivePlayersTimeOffsetAverage), 28 + sizeof(float)> __GlobalNamespace_MultiplayerActivePlayersTimeOffsetAverageSizeCheck;
   static_assert(sizeof(MultiplayerActivePlayersTimeOffsetAverage) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage*, "", "MultiplayerActivePlayersTimeOffsetAverage");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage::get_offsetSyncTime

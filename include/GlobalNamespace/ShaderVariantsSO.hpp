@@ -68,6 +68,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ShaderVariantsSO), 24 + sizeof(::ArrayW<GlobalNamespace::ShaderVariantsSO::ShaderVariant*>)> __GlobalNamespace_ShaderVariantsSOSizeCheck;
   static_assert(sizeof(ShaderVariantsSO) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::ShaderVariantsSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShaderVariantsSO*, "", "ShaderVariantsSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ShaderVariantsSO::get_shaderVariants

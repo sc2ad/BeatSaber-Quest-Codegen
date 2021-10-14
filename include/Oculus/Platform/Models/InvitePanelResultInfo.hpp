@@ -50,6 +50,7 @@ namespace Oculus::Platform::Models {
   static check_size<sizeof(InvitePanelResultInfo), 16 + sizeof(bool)> __Oculus_Platform_Models_InvitePanelResultInfoSizeCheck;
   static_assert(sizeof(InvitePanelResultInfo) == 0x11);
 }
+NEED_NO_BOX(Oculus::Platform::Models::InvitePanelResultInfo);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::InvitePanelResultInfo*, "Oculus.Platform.Models", "InvitePanelResultInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::InvitePanelResultInfo::New_ctor

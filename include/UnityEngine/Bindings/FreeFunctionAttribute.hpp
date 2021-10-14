@@ -54,6 +54,7 @@ namespace UnityEngine::Bindings {
   }; // UnityEngine.Bindings.FreeFunctionAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::Bindings::FreeFunctionAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::FreeFunctionAttribute*, "UnityEngine.Bindings", "FreeFunctionAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Bindings::FreeFunctionAttribute::New_ctor

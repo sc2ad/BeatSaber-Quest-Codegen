@@ -268,6 +268,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(StandardLevelDetailView), 136 + sizeof(HMUI::ToggleBinder*)> __GlobalNamespace_StandardLevelDetailViewSizeCheck;
   static_assert(sizeof(StandardLevelDetailView) == 0x90);
 }
+NEED_NO_BOX(GlobalNamespace::StandardLevelDetailView);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelDetailView*, "", "StandardLevelDetailView");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelDetailView::get_selectedDifficultyBeatmap

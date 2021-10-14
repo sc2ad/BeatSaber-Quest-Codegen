@@ -58,6 +58,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(NamedColorListController::ColorValuePair), 32 + sizeof(int)> __GlobalNamespace_NamedColorListController_ColorValuePairSizeCheck;
   static_assert(sizeof(NamedColorListController::ColorValuePair) == 0x24);
 }
+NEED_NO_BOX(GlobalNamespace::NamedColorListController::ColorValuePair);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NamedColorListController::ColorValuePair*, "", "NamedColorListController/ColorValuePair");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NamedColorListController::ColorValuePair::New_ctor

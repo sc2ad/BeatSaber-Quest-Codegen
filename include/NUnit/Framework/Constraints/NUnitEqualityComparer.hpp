@@ -199,6 +199,7 @@ namespace NUnit::Framework::Constraints {
   static check_size<sizeof(NUnitEqualityComparer), 40 + sizeof(bool)> __NUnit_Framework_Constraints_NUnitEqualityComparerSizeCheck;
   static_assert(sizeof(NUnitEqualityComparer) == 0x29);
 }
+NEED_NO_BOX(NUnit::Framework::Constraints::NUnitEqualityComparer);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::NUnitEqualityComparer*, "NUnit.Framework.Constraints", "NUnitEqualityComparer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::NUnitEqualityComparer::get_IgnoreCase

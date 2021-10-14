@@ -72,6 +72,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(RandomAnimatorStartTime), 32 + sizeof(::Il2CppString*)> __GlobalNamespace_RandomAnimatorStartTimeSizeCheck;
   static_assert(sizeof(RandomAnimatorStartTime) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::RandomAnimatorStartTime);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RandomAnimatorStartTime*, "", "RandomAnimatorStartTime");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::RandomAnimatorStartTime::Start

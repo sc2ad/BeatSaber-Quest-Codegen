@@ -72,6 +72,7 @@ namespace System::Runtime::CompilerServices {
   static check_size<sizeof(AsyncMethodBuilderCore::$$c__DisplayClass4_0), 24 + sizeof(System::Action*)> __System_Runtime_CompilerServices_AsyncMethodBuilderCore_$$c__DisplayClass4_0SizeCheck;
   static_assert(sizeof(AsyncMethodBuilderCore::$$c__DisplayClass4_0) == 0x20);
 }
+NEED_NO_BOX(System::Runtime::CompilerServices::AsyncMethodBuilderCore::$$c__DisplayClass4_0);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::AsyncMethodBuilderCore::$$c__DisplayClass4_0*, "System.Runtime.CompilerServices", "AsyncMethodBuilderCore/<>c__DisplayClass4_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::AsyncMethodBuilderCore::$$c__DisplayClass4_0::$OutputAsyncCausalityEvents$b__0

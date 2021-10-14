@@ -280,6 +280,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PlayerSaveDataV1_0_1::GameplayModifiers), 32 + sizeof(GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::SongSpeed)> __GlobalNamespace_PlayerSaveDataV1_0_1_GameplayModifiersSizeCheck;
   static_assert(sizeof(PlayerSaveDataV1_0_1::GameplayModifiers) == 0x24);
 }
+NEED_NO_BOX(GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers*, "", "PlayerSaveDataV1_0_1/GameplayModifiers");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::EnabledObstacleType, "", "PlayerSaveDataV1_0_1/GameplayModifiers/EnabledObstacleType");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::EnergyType, "", "PlayerSaveDataV1_0_1/GameplayModifiers/EnergyType");

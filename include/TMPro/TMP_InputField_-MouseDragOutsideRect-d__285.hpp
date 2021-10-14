@@ -101,6 +101,7 @@ namespace TMPro {
   static check_size<sizeof(TMP_InputField::$MouseDragOutsideRect$d__285), 40 + sizeof(UnityEngine::EventSystems::PointerEventData*)> __TMPro_TMP_InputField_$MouseDragOutsideRect$d__285SizeCheck;
   static_assert(sizeof(TMP_InputField::$MouseDragOutsideRect$d__285) == 0x30);
 }
+NEED_NO_BOX(TMPro::TMP_InputField::$MouseDragOutsideRect$d__285);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_InputField::$MouseDragOutsideRect$d__285*, "TMPro", "TMP_InputField/<MouseDragOutsideRect>d__285");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_InputField::$MouseDragOutsideRect$d__285::System_Collections_Generic_IEnumerator$System_Object$_get_Current

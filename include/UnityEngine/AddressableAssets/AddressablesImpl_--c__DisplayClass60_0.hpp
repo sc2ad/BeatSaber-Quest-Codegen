@@ -95,6 +95,7 @@ namespace UnityEngine::AddressableAssets {
   }; // UnityEngine.AddressableAssets.AddressablesImpl/UnityEngine.AddressableAssets.<>c__DisplayClass60_0
   // WARNING Not writing size check since size may be invalid!
 }
+NEED_NO_BOX(UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass60_0);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass60_0*, "UnityEngine.AddressableAssets", "AddressablesImpl/<>c__DisplayClass60_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass60_0::$LoadContentCatalogAsync$b__0

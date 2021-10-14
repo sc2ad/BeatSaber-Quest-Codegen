@@ -127,6 +127,7 @@ namespace UnityEngine {
   static check_size<sizeof(AnimationCurve), 16 + sizeof(System::IntPtr)> __UnityEngine_AnimationCurveSizeCheck;
   static_assert(sizeof(AnimationCurve) == 0x18);
 }
+NEED_NO_BOX(UnityEngine::AnimationCurve);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimationCurve*, "UnityEngine", "AnimationCurve");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AnimationCurve::get_keys

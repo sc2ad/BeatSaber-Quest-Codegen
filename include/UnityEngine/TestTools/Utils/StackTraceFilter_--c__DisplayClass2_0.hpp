@@ -56,6 +56,7 @@ namespace UnityEngine::TestTools::Utils {
   static check_size<sizeof(StackTraceFilter::$$c__DisplayClass2_0), 16 + sizeof(::Il2CppString*)> __UnityEngine_TestTools_Utils_StackTraceFilter_$$c__DisplayClass2_0SizeCheck;
   static_assert(sizeof(StackTraceFilter::$$c__DisplayClass2_0) == 0x18);
 }
+NEED_NO_BOX(UnityEngine::TestTools::Utils::StackTraceFilter::$$c__DisplayClass2_0);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Utils::StackTraceFilter::$$c__DisplayClass2_0*, "UnityEngine.TestTools.Utils", "StackTraceFilter/<>c__DisplayClass2_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::Utils::StackTraceFilter::$$c__DisplayClass2_0::$Filter$b__0

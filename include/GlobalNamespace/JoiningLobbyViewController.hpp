@@ -114,6 +114,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(JoiningLobbyViewController), 136 + sizeof(System::Action*)> __GlobalNamespace_JoiningLobbyViewControllerSizeCheck;
   static_assert(sizeof(JoiningLobbyViewController) == 0x90);
 }
+NEED_NO_BOX(GlobalNamespace::JoiningLobbyViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::JoiningLobbyViewController*, "", "JoiningLobbyViewController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::JoiningLobbyViewController::add_didCancelEvent

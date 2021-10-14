@@ -472,6 +472,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(InteractionSystem), 232 + sizeof(UnityEngine::Collider*)> __RootMotion_FinalIK_InteractionSystemSizeCheck;
   static_assert(sizeof(InteractionSystem) == 0xF0);
 }
+NEED_NO_BOX(RootMotion::FinalIK::InteractionSystem);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionSystem*, "RootMotion.FinalIK", "InteractionSystem");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionSystem::get_inInteraction

@@ -88,6 +88,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(UnityLightWithId), 60 + sizeof(float)> __GlobalNamespace_UnityLightWithIdSizeCheck;
   static_assert(sizeof(UnityLightWithId) == 0x40);
 }
+NEED_NO_BOX(GlobalNamespace::UnityLightWithId);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UnityLightWithId*, "", "UnityLightWithId");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::UnityLightWithId::get_color

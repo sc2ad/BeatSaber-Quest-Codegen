@@ -99,6 +99,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ReleaseInfoViewController), 136 + sizeof(UnityEngine::TextAsset*)> __GlobalNamespace_ReleaseInfoViewControllerSizeCheck;
   static_assert(sizeof(ReleaseInfoViewController) == 0x90);
 }
+NEED_NO_BOX(GlobalNamespace::ReleaseInfoViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ReleaseInfoViewController*, "", "ReleaseInfoViewController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ReleaseInfoViewController::New_ctor

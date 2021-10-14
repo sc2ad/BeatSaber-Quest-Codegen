@@ -227,6 +227,7 @@ namespace System::Threading {
   static check_size<sizeof(ManualResetEventSlim), 32 + sizeof(int)> __System_Threading_ManualResetEventSlimSizeCheck;
   static_assert(sizeof(ManualResetEventSlim) == 0x24);
 }
+NEED_NO_BOX(System::Threading::ManualResetEventSlim);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ManualResetEventSlim*, "System.Threading", "ManualResetEventSlim");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::ManualResetEventSlim::get_WaitHandle

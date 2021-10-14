@@ -92,6 +92,7 @@ namespace System::Runtime::Remoting::Messaging {
   static check_size<sizeof(StackBuilderSink), 24 + sizeof(System::Runtime::Remoting::Proxies::RealProxy*)> __System_Runtime_Remoting_Messaging_StackBuilderSinkSizeCheck;
   static_assert(sizeof(StackBuilderSink) == 0x20);
 }
+NEED_NO_BOX(System::Runtime::Remoting::Messaging::StackBuilderSink);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::StackBuilderSink*, "System.Runtime.Remoting.Messaging", "StackBuilderSink");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::StackBuilderSink::New_ctor

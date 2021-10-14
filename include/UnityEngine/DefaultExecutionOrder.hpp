@@ -55,6 +55,7 @@ namespace UnityEngine {
   static check_size<sizeof(DefaultExecutionOrder), 16 + sizeof(int)> __UnityEngine_DefaultExecutionOrderSizeCheck;
   static_assert(sizeof(DefaultExecutionOrder) == 0x14);
 }
+NEED_NO_BOX(UnityEngine::DefaultExecutionOrder);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::DefaultExecutionOrder*, "UnityEngine", "DefaultExecutionOrder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::DefaultExecutionOrder::get_order

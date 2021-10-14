@@ -70,6 +70,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRChromaticAberration), 28 + sizeof(bool)> __GlobalNamespace_OVRChromaticAberrationSizeCheck;
   static_assert(sizeof(OVRChromaticAberration) == 0x1D);
 }
+NEED_NO_BOX(GlobalNamespace::OVRChromaticAberration);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRChromaticAberration*, "", "OVRChromaticAberration");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRChromaticAberration::Start

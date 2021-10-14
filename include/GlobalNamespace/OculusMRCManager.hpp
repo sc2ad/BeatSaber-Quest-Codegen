@@ -78,6 +78,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OculusMRCManager), 24 + sizeof(GlobalNamespace::IVRPlatformHelper*)> __GlobalNamespace_OculusMRCManagerSizeCheck;
   static_assert(sizeof(OculusMRCManager) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::OculusMRCManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusMRCManager*, "", "OculusMRCManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OculusMRCManager::Init

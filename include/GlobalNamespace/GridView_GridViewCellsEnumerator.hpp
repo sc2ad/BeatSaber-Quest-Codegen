@@ -85,6 +85,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(GridView::GridViewCellsEnumerator), 16 + sizeof(GlobalNamespace::GridView*)> __GlobalNamespace_GridView_GridViewCellsEnumeratorSizeCheck;
   static_assert(sizeof(GridView::GridViewCellsEnumerator) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::GridView::GridViewCellsEnumerator);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GridView::GridViewCellsEnumerator*, "", "GridView/GridViewCellsEnumerator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GridView::GridViewCellsEnumerator::New_ctor

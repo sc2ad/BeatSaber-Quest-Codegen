@@ -287,6 +287,7 @@ namespace System::Xml {
   static check_size<sizeof(XmlAutoDetectWriter), 72 + sizeof(System::IO::Stream*)> __System_Xml_XmlAutoDetectWriterSizeCheck;
   static_assert(sizeof(XmlAutoDetectWriter) == 0x50);
 }
+NEED_NO_BOX(System::Xml::XmlAutoDetectWriter);
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlAutoDetectWriter*, "System.Xml", "XmlAutoDetectWriter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::XmlAutoDetectWriter::New_ctor

@@ -78,6 +78,7 @@ namespace Oculus::Platform::Models {
   static check_size<sizeof(AssetFileDownloadUpdate), 48 + sizeof(bool)> __Oculus_Platform_Models_AssetFileDownloadUpdateSizeCheck;
   static_assert(sizeof(AssetFileDownloadUpdate) == 0x31);
 }
+NEED_NO_BOX(Oculus::Platform::Models::AssetFileDownloadUpdate);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::AssetFileDownloadUpdate*, "Oculus.Platform.Models", "AssetFileDownloadUpdate");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::AssetFileDownloadUpdate::New_ctor

@@ -230,6 +230,7 @@ namespace RootMotion {
   static check_size<sizeof(BakerHumanoidQT), 156 + sizeof(bool)> __RootMotion_BakerHumanoidQTSizeCheck;
   static_assert(sizeof(BakerHumanoidQT) == 0x9D);
 }
+NEED_NO_BOX(RootMotion::BakerHumanoidQT);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::BakerHumanoidQT*, "RootMotion", "BakerHumanoidQT");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::BakerHumanoidQT::New_ctor

@@ -195,6 +195,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(CreditsContent), 104 + sizeof(UnityEngine::TextAsset*)> __GlobalNamespace_CreditsContentSizeCheck;
   static_assert(sizeof(CreditsContent) == 0x70);
 }
+NEED_NO_BOX(GlobalNamespace::CreditsContent);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CreditsContent*, "", "CreditsContent");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CreditsContent::get_normalTextPrefab

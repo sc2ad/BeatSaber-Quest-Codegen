@@ -28,6 +28,7 @@ namespace UnityEngine::Timeline {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::Timeline::WeightUtility);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::WeightUtility*, "UnityEngine.Timeline", "WeightUtility");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::WeightUtility::NormalizeMixer

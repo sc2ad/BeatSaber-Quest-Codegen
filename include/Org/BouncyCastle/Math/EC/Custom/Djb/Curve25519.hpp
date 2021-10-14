@@ -146,6 +146,7 @@ namespace Org::BouncyCastle::Math::EC::Custom::Djb {
   static check_size<sizeof(Curve25519), 80 + sizeof(Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Point*)> __Org_BouncyCastle_Math_EC_Custom_Djb_Curve25519SizeCheck;
   static_assert(sizeof(Curve25519) == 0x58);
 }
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519*, "Org.BouncyCastle.Math.EC.Custom.Djb", "Curve25519");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519::_cctor

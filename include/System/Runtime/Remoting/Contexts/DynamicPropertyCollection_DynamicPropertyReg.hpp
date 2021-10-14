@@ -65,6 +65,7 @@ namespace System::Runtime::Remoting::Contexts {
   static check_size<sizeof(DynamicPropertyCollection::DynamicPropertyReg), 24 + sizeof(System::Runtime::Remoting::Contexts::IDynamicMessageSink*)> __System_Runtime_Remoting_Contexts_DynamicPropertyCollection_DynamicPropertyRegSizeCheck;
   static_assert(sizeof(DynamicPropertyCollection::DynamicPropertyReg) == 0x20);
 }
+NEED_NO_BOX(System::Runtime::Remoting::Contexts::DynamicPropertyCollection::DynamicPropertyReg);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::DynamicPropertyCollection::DynamicPropertyReg*, "System.Runtime.Remoting.Contexts", "DynamicPropertyCollection/DynamicPropertyReg");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::DynamicPropertyCollection::DynamicPropertyReg::New_ctor

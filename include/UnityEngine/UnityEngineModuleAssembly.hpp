@@ -35,6 +35,7 @@ namespace UnityEngine {
   }; // UnityEngine.UnityEngineModuleAssembly
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::UnityEngineModuleAssembly);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UnityEngineModuleAssembly*, "UnityEngine", "UnityEngineModuleAssembly");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UnityEngineModuleAssembly::New_ctor

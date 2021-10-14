@@ -68,6 +68,7 @@ namespace TMPro {
   }; // TMPro.SetPropertyUtility
   #pragma pack(pop)
 }
+NEED_NO_BOX(TMPro::SetPropertyUtility);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::SetPropertyUtility*, "TMPro", "SetPropertyUtility");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::SetPropertyUtility::SetColor

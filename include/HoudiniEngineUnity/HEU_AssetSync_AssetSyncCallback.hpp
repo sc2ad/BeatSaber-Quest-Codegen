@@ -50,6 +50,7 @@ namespace HoudiniEngineUnity {
   }; // HoudiniEngineUnity.HEU_AssetSync/HoudiniEngineUnity.AssetSyncCallback
   #pragma pack(pop)
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_AssetSync::AssetSyncCallback);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_AssetSync::AssetSyncCallback*, "HoudiniEngineUnity", "HEU_AssetSync/AssetSyncCallback");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_AssetSync::AssetSyncCallback::New_ctor

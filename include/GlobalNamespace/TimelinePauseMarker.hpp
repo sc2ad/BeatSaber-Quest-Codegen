@@ -62,6 +62,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(TimelinePauseMarker), 40 + sizeof(UnityEngine::PropertyName)> __GlobalNamespace_TimelinePauseMarkerSizeCheck;
   static_assert(sizeof(TimelinePauseMarker) == 0x2C);
 }
+NEED_NO_BOX(GlobalNamespace::TimelinePauseMarker);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TimelinePauseMarker*, "", "TimelinePauseMarker");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TimelinePauseMarker::get_id

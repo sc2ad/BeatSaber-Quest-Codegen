@@ -52,6 +52,7 @@ namespace Mono::Globalization::Unicode {
   static check_size<sizeof(Level2Map), 17 + sizeof(uint8_t)> __Mono_Globalization_Unicode_Level2MapSizeCheck;
   static_assert(sizeof(Level2Map) == 0x12);
 }
+NEED_NO_BOX(Mono::Globalization::Unicode::Level2Map);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::Level2Map*, "Mono.Globalization.Unicode", "Level2Map");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::Level2Map::New_ctor

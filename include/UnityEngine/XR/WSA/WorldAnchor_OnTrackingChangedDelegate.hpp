@@ -50,6 +50,7 @@ namespace UnityEngine::XR::WSA {
   }; // UnityEngine.XR.WSA.WorldAnchor/UnityEngine.XR.WSA.OnTrackingChangedDelegate
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::XR::WSA::WorldAnchor::OnTrackingChangedDelegate);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::WSA::WorldAnchor::OnTrackingChangedDelegate*, "UnityEngine.XR.WSA", "WorldAnchor/OnTrackingChangedDelegate");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::XR::WSA::WorldAnchor::OnTrackingChangedDelegate::New_ctor

@@ -89,6 +89,7 @@ namespace Zenject {
   static check_size<sizeof(ScopableBindingFinalizer), 24 + sizeof(System::Func_3<Zenject::DiContainer*, System::Type*, Zenject::IProvider*>*)> __Zenject_ScopableBindingFinalizerSizeCheck;
   static_assert(sizeof(ScopableBindingFinalizer) == 0x20);
 }
+NEED_NO_BOX(Zenject::ScopableBindingFinalizer);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ScopableBindingFinalizer*, "Zenject", "ScopableBindingFinalizer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::ScopableBindingFinalizer::New_ctor

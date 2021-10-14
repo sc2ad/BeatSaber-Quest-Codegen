@@ -132,6 +132,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(NullAllowed), 32 + sizeof(::Il2CppObject*)> __GlobalNamespace_NullAllowedSizeCheck;
   static_assert(sizeof(NullAllowed) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::NullAllowed);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NullAllowed*, "", "NullAllowed");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NullAllowed::Context, "", "NullAllowed/Context");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

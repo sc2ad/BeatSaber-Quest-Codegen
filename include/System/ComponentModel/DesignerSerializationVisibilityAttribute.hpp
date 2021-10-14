@@ -85,6 +85,7 @@ namespace System::ComponentModel {
   static check_size<sizeof(DesignerSerializationVisibilityAttribute), 16 + sizeof(System::ComponentModel::DesignerSerializationVisibility)> __System_ComponentModel_DesignerSerializationVisibilityAttributeSizeCheck;
   static_assert(sizeof(DesignerSerializationVisibilityAttribute) == 0x14);
 }
+NEED_NO_BOX(System::ComponentModel::DesignerSerializationVisibilityAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::DesignerSerializationVisibilityAttribute*, "System.ComponentModel", "DesignerSerializationVisibilityAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ComponentModel::DesignerSerializationVisibilityAttribute::get_Visibility

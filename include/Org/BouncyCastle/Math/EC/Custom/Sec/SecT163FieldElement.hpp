@@ -192,6 +192,7 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
   static check_size<sizeof(SecT163FieldElement), 16 + sizeof(::ArrayW<uint64_t>)> __Org_BouncyCastle_Math_EC_Custom_Sec_SecT163FieldElementSizeCheck;
   static_assert(sizeof(SecT163FieldElement) == 0x18);
 }
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::Custom::Sec::SecT163FieldElement);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Custom::Sec::SecT163FieldElement*, "Org.BouncyCastle.Math.EC.Custom.Sec", "SecT163FieldElement");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::Sec::SecT163FieldElement::New_ctor

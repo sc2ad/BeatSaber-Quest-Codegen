@@ -207,6 +207,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(NoteDebris), 88 + sizeof(GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteDebrisDidFinishEvent*>*)> __GlobalNamespace_NoteDebrisSizeCheck;
   static_assert(sizeof(NoteDebris) == 0x60);
 }
+NEED_NO_BOX(GlobalNamespace::NoteDebris);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteDebris*, "", "NoteDebris");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteDebris::get_didFinishEvent

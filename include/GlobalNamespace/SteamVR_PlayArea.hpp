@@ -210,6 +210,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SteamVR_PlayArea), 56 + sizeof(::ArrayW<UnityEngine::Vector3>)> __GlobalNamespace_SteamVR_PlayAreaSizeCheck;
   static_assert(sizeof(SteamVR_PlayArea) == 0x40);
 }
+NEED_NO_BOX(GlobalNamespace::SteamVR_PlayArea);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_PlayArea*, "", "SteamVR_PlayArea");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_PlayArea::Size, "", "SteamVR_PlayArea/Size");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

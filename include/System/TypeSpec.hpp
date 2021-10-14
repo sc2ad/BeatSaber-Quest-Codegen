@@ -172,6 +172,7 @@ namespace System {
   static check_size<sizeof(TypeSpec), 64 + sizeof(::Il2CppString*)> __System_TypeSpecSizeCheck;
   static_assert(sizeof(TypeSpec) == 0x48);
 }
+NEED_NO_BOX(System::TypeSpec);
 DEFINE_IL2CPP_ARG_TYPE(System::TypeSpec*, "System", "TypeSpec");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::TypeSpec::get_HasModifiers

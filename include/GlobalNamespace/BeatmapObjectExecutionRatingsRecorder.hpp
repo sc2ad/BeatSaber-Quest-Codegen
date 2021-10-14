@@ -179,6 +179,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BeatmapObjectExecutionRatingsRecorder), 80 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>*)> __GlobalNamespace_BeatmapObjectExecutionRatingsRecorderSizeCheck;
   static_assert(sizeof(BeatmapObjectExecutionRatingsRecorder) == 0x58);
 }
+NEED_NO_BOX(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder*, "", "BeatmapObjectExecutionRatingsRecorder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::get_beatmapObjectExecutionRatings

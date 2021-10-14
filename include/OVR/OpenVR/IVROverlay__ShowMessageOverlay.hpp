@@ -56,6 +56,7 @@ namespace OVR::OpenVR {
   }; // OVR.OpenVR.IVROverlay/OVR.OpenVR._ShowMessageOverlay
   #pragma pack(pop)
 }
+NEED_NO_BOX(OVR::OpenVR::IVROverlay::_ShowMessageOverlay);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVROverlay::_ShowMessageOverlay*, "OVR.OpenVR", "IVROverlay/_ShowMessageOverlay");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVROverlay::_ShowMessageOverlay::New_ctor

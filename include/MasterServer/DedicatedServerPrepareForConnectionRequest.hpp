@@ -143,6 +143,7 @@ namespace MasterServer {
   static check_size<sizeof(DedicatedServerPrepareForConnectionRequest), 64 + sizeof(GlobalNamespace::ByteArrayNetSerializable*)> __MasterServer_DedicatedServerPrepareForConnectionRequestSizeCheck;
   static_assert(sizeof(DedicatedServerPrepareForConnectionRequest) == 0x48);
 }
+NEED_NO_BOX(MasterServer::DedicatedServerPrepareForConnectionRequest);
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::DedicatedServerPrepareForConnectionRequest*, "MasterServer", "DedicatedServerPrepareForConnectionRequest");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: MasterServer::DedicatedServerPrepareForConnectionRequest::get_pool

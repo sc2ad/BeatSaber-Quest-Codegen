@@ -118,6 +118,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerLobbyAvatarPlaceManager), 52 + sizeof(float)> __GlobalNamespace_MultiplayerLobbyAvatarPlaceManagerSizeCheck;
   static_assert(sizeof(MultiplayerLobbyAvatarPlaceManager) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerLobbyAvatarPlaceManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLobbyAvatarPlaceManager*, "", "MultiplayerLobbyAvatarPlaceManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyAvatarPlaceManager::Activate

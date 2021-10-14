@@ -65,6 +65,7 @@ namespace Org::BouncyCastle::Crypto {
   static check_size<sizeof(KeyGenerationParameters), 24 + sizeof(int)> __Org_BouncyCastle_Crypto_KeyGenerationParametersSizeCheck;
   static_assert(sizeof(KeyGenerationParameters) == 0x1C);
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::KeyGenerationParameters);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::KeyGenerationParameters*, "Org.BouncyCastle.Crypto", "KeyGenerationParameters");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::KeyGenerationParameters::get_Random

@@ -34,6 +34,7 @@ namespace GlobalNamespace {
     }
   }; // BoolSignal
 }
+NEED_NO_BOX(GlobalNamespace::BoolSignal);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BoolSignal*, "", "BoolSignal");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BoolSignal::New_ctor

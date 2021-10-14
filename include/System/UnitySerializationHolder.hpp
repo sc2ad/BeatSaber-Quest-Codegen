@@ -164,6 +164,7 @@ namespace System {
   static check_size<sizeof(UnitySerializationHolder), 72 + sizeof(int)> __System_UnitySerializationHolderSizeCheck;
   static_assert(sizeof(UnitySerializationHolder) == 0x4C);
 }
+NEED_NO_BOX(System::UnitySerializationHolder);
 DEFINE_IL2CPP_ARG_TYPE(System::UnitySerializationHolder*, "System", "UnitySerializationHolder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::UnitySerializationHolder::New_ctor

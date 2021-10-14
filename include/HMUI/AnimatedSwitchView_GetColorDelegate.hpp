@@ -55,6 +55,7 @@ namespace HMUI {
   }; // HMUI.AnimatedSwitchView/HMUI.GetColorDelegate
   #pragma pack(pop)
 }
+NEED_NO_BOX(HMUI::AnimatedSwitchView::GetColorDelegate);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::AnimatedSwitchView::GetColorDelegate*, "HMUI", "AnimatedSwitchView/GetColorDelegate");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::AnimatedSwitchView::GetColorDelegate::New_ctor

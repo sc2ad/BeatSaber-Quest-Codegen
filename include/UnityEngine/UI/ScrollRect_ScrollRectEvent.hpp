@@ -36,6 +36,7 @@ namespace UnityEngine::UI {
     }
   }; // UnityEngine.UI.ScrollRect/UnityEngine.UI.ScrollRectEvent
 }
+NEED_NO_BOX(UnityEngine::UI::ScrollRect::ScrollRectEvent);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ScrollRect::ScrollRectEvent*, "UnityEngine.UI", "ScrollRect/ScrollRectEvent");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::ScrollRectEvent::New_ctor

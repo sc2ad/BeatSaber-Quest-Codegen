@@ -178,6 +178,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_ThreadedTask), 48 + sizeof(::Il2CppString*)> __HoudiniEngineUnity_HEU_ThreadedTaskSizeCheck;
   static_assert(sizeof(HEU_ThreadedTask) == 0x38);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_ThreadedTask);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_ThreadedTask*, "HoudiniEngineUnity", "HEU_ThreadedTask");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ThreadedTask::get_TaskName

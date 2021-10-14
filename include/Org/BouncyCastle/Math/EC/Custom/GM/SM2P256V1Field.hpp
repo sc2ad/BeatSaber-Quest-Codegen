@@ -96,6 +96,7 @@ namespace Org::BouncyCastle::Math::EC::Custom::GM {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Field);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Field*, "Org.BouncyCastle.Math.EC.Custom.GM", "SM2P256V1Field");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Field::_cctor

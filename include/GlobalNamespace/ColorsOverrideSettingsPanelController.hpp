@@ -223,6 +223,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ColorsOverrideSettingsPanelController), 112 + sizeof(HMUI::ButtonBinder*)> __GlobalNamespace_ColorsOverrideSettingsPanelControllerSizeCheck;
   static_assert(sizeof(ColorsOverrideSettingsPanelController) == 0x78);
 }
+NEED_NO_BOX(GlobalNamespace::ColorsOverrideSettingsPanelController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorsOverrideSettingsPanelController*, "", "ColorsOverrideSettingsPanelController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ColorsOverrideSettingsPanelController::get_colorSchemesSettings

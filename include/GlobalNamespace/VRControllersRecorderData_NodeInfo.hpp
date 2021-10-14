@@ -56,6 +56,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(VRControllersRecorderData::NodeInfo), 20 + sizeof(int)> __GlobalNamespace_VRControllersRecorderData_NodeInfoSizeCheck;
   static_assert(sizeof(VRControllersRecorderData::NodeInfo) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::VRControllersRecorderData::NodeInfo);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorderData::NodeInfo*, "", "VRControllersRecorderData/NodeInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::VRControllersRecorderData::NodeInfo::New_ctor

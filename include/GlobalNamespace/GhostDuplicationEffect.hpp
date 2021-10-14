@@ -134,6 +134,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(GhostDuplicationEffect), 40 + sizeof(Tweening::TimeTweeningManager*)> __GlobalNamespace_GhostDuplicationEffectSizeCheck;
   static_assert(sizeof(GhostDuplicationEffect) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::GhostDuplicationEffect);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GhostDuplicationEffect*, "", "GhostDuplicationEffect");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GhostDuplicationEffect::set_hide

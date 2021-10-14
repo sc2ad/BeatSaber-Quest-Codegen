@@ -135,6 +135,7 @@ namespace UnityEngine {
   static check_size<sizeof(RectOffset), 24 + sizeof(::Il2CppObject*)> __UnityEngine_RectOffsetSizeCheck;
   static_assert(sizeof(RectOffset) == 0x20);
 }
+NEED_NO_BOX(UnityEngine::RectOffset);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RectOffset*, "UnityEngine", "RectOffset");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::RectOffset::get_left

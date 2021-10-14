@@ -191,6 +191,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MissionNodeVisualController), 59 + sizeof(bool)> __GlobalNamespace_MissionNodeVisualControllerSizeCheck;
   static_assert(sizeof(MissionNodeVisualController) == 0x3C);
 }
+NEED_NO_BOX(GlobalNamespace::MissionNodeVisualController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionNodeVisualController*, "", "MissionNodeVisualController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionNodeVisualController::get_missionNode

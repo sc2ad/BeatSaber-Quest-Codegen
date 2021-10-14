@@ -91,6 +91,7 @@ namespace System::Reflection {
   static check_size<sizeof(Pointer), 24 + sizeof(System::RuntimeType*)> __System_Reflection_PointerSizeCheck;
   static_assert(sizeof(Pointer) == 0x20);
 }
+NEED_NO_BOX(System::Reflection::Pointer);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Pointer*, "System.Reflection", "Pointer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::Pointer::New_ctor

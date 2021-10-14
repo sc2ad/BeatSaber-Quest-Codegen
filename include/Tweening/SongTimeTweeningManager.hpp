@@ -66,6 +66,7 @@ namespace Tweening {
   static check_size<sizeof(SongTimeTweeningManager), 56 + sizeof(GlobalNamespace::IAudioTimeSource*)> __Tweening_SongTimeTweeningManagerSizeCheck;
   static_assert(sizeof(SongTimeTweeningManager) == 0x40);
 }
+NEED_NO_BOX(Tweening::SongTimeTweeningManager);
 DEFINE_IL2CPP_ARG_TYPE(Tweening::SongTimeTweeningManager*, "Tweening", "SongTimeTweeningManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Tweening::SongTimeTweeningManager::New_ctor

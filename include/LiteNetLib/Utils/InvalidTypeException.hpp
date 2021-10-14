@@ -34,6 +34,7 @@ namespace LiteNetLib::Utils {
   }; // LiteNetLib.Utils.InvalidTypeException
   #pragma pack(pop)
 }
+NEED_NO_BOX(LiteNetLib::Utils::InvalidTypeException);
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::InvalidTypeException*, "LiteNetLib.Utils", "InvalidTypeException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::Utils::InvalidTypeException::New_ctor

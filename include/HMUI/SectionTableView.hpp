@@ -224,6 +224,7 @@ namespace HMUI {
   static check_size<sizeof(SectionTableView), 192 + sizeof(::ArrayW<HMUI::SectionTableView::Section>)> __HMUI_SectionTableViewSizeCheck;
   static_assert(sizeof(SectionTableView) == 0xC8);
 }
+NEED_NO_BOX(HMUI::SectionTableView);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SectionTableView*, "HMUI", "SectionTableView");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SectionTableView::Section, "HMUI", "SectionTableView/Section");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

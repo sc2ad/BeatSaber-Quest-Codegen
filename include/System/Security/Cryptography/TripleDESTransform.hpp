@@ -104,6 +104,7 @@ namespace System::Security::Cryptography {
   static check_size<sizeof(TripleDESTransform), 128 + sizeof(System::Security::Cryptography::DESTransform*)> __System_Security_Cryptography_TripleDESTransformSizeCheck;
   static_assert(sizeof(TripleDESTransform) == 0x88);
 }
+NEED_NO_BOX(System::Security::Cryptography::TripleDESTransform);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::TripleDESTransform*, "System.Security.Cryptography", "TripleDESTransform");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::TripleDESTransform::New_ctor

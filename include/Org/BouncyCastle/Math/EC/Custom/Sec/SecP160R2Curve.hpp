@@ -138,6 +138,7 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
   static check_size<sizeof(SecP160R2Curve), 80 + sizeof(Org::BouncyCastle::Math::EC::Custom::Sec::SecP160R2Point*)> __Org_BouncyCastle_Math_EC_Custom_Sec_SecP160R2CurveSizeCheck;
   static_assert(sizeof(SecP160R2Curve) == 0x58);
 }
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::Custom::Sec::SecP160R2Curve);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Custom::Sec::SecP160R2Curve*, "Org.BouncyCastle.Math.EC.Custom.Sec", "SecP160R2Curve");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::Sec::SecP160R2Curve::_cctor

@@ -111,6 +111,7 @@ namespace System::Net::Sockets {
   static check_size<sizeof(TcpListener), 33 + sizeof(bool)> __System_Net_Sockets_TcpListenerSizeCheck;
   static_assert(sizeof(TcpListener) == 0x22);
 }
+NEED_NO_BOX(System::Net::Sockets::TcpListener);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::TcpListener*, "System.Net.Sockets", "TcpListener");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Sockets::TcpListener::get_LocalEndpoint

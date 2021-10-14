@@ -20,5 +20,6 @@ namespace System::Net::Configuration {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Net::Configuration::BypassElement);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Configuration::BypassElement*, "System.Net.Configuration", "BypassElement");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

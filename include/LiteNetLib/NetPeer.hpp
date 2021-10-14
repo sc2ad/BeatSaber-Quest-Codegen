@@ -644,6 +644,7 @@ namespace LiteNetLib {
   static check_size<sizeof(NetPeer), 320 + sizeof(LiteNetLib::NetStatistics*)> __LiteNetLib_NetPeerSizeCheck;
   static_assert(sizeof(NetPeer) == 0x148);
 }
+NEED_NO_BOX(LiteNetLib::NetPeer);
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetPeer*, "LiteNetLib", "NetPeer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::NetPeer::get_ConnectionNum

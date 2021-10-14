@@ -53,6 +53,7 @@ namespace System::IO {
   }; // System.IO.FileSystemEventHandler
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::IO::FileSystemEventHandler);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileSystemEventHandler*, "System.IO", "FileSystemEventHandler");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::FileSystemEventHandler::New_ctor

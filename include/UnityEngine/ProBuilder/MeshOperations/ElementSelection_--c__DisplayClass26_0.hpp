@@ -90,6 +90,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   static check_size<sizeof(ElementSelection::$$c__DisplayClass26_0), 32 + sizeof(System::Func_2<UnityEngine::ProBuilder::WingedEdge*, bool>*)> __UnityEngine_ProBuilder_MeshOperations_ElementSelection_$$c__DisplayClass26_0SizeCheck;
   static_assert(sizeof(ElementSelection::$$c__DisplayClass26_0) == 0x28);
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c__DisplayClass26_0);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c__DisplayClass26_0*, "UnityEngine.ProBuilder.MeshOperations", "ElementSelection/<>c__DisplayClass26_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c__DisplayClass26_0::$FindHoles$b__1

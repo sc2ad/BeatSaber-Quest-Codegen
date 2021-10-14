@@ -142,6 +142,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MirroredBeatmapObjectManager), 64 + sizeof(System::Collections::Generic::Dictionary_2<GlobalNamespace::ObstacleController*, GlobalNamespace::MirroredObstacleController*>*)> __GlobalNamespace_MirroredBeatmapObjectManagerSizeCheck;
   static_assert(sizeof(MirroredBeatmapObjectManager) == 0x48);
 }
+NEED_NO_BOX(GlobalNamespace::MirroredBeatmapObjectManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MirroredBeatmapObjectManager*, "", "MirroredBeatmapObjectManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MirroredBeatmapObjectManager::New_ctor

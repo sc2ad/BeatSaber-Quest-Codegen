@@ -125,6 +125,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ComboUIController), 52 + sizeof(bool)> __GlobalNamespace_ComboUIControllerSizeCheck;
   static_assert(sizeof(ComboUIController) == 0x35);
 }
+NEED_NO_BOX(GlobalNamespace::ComboUIController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ComboUIController*, "", "ComboUIController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ComboUIController::Start

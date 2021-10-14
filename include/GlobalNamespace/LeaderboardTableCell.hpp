@@ -135,6 +135,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LeaderboardTableCell), 144 + sizeof(UnityEngine::UI::Image*)> __GlobalNamespace_LeaderboardTableCellSizeCheck;
   static_assert(sizeof(LeaderboardTableCell) == 0x98);
 }
+NEED_NO_BOX(GlobalNamespace::LeaderboardTableCell);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardTableCell*, "", "LeaderboardTableCell");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LeaderboardTableCell::set_rank

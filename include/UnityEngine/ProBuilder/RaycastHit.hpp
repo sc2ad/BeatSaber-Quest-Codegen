@@ -70,6 +70,7 @@ namespace UnityEngine::ProBuilder {
   static check_size<sizeof(RaycastHit), 44 + sizeof(int)> __UnityEngine_ProBuilder_RaycastHitSizeCheck;
   static_assert(sizeof(RaycastHit) == 0x30);
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::RaycastHit);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::RaycastHit*, "UnityEngine.ProBuilder", "RaycastHit");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::RaycastHit::New_ctor

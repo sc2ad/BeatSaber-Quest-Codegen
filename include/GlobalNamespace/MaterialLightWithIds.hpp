@@ -145,6 +145,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MaterialLightWithIds), 108 + sizeof(int)> __GlobalNamespace_MaterialLightWithIdsSizeCheck;
   static_assert(sizeof(MaterialLightWithIds) == 0x70);
 }
+NEED_NO_BOX(GlobalNamespace::MaterialLightWithIds);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialLightWithIds*, "", "MaterialLightWithIds");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MaterialLightWithIds::Awake

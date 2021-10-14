@@ -51,6 +51,7 @@ namespace System::Net {
   }; // System.Net.FtpDataStream/System.Net.WriteDelegate
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Net::FtpDataStream::WriteDelegate);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::FtpDataStream::WriteDelegate*, "System.Net", "FtpDataStream/WriteDelegate");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::FtpDataStream::WriteDelegate::New_ctor

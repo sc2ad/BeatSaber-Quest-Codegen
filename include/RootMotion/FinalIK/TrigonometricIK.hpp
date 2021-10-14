@@ -88,6 +88,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(TrigonometricIK), 56 + sizeof(RootMotion::FinalIK::IKSolverTrigonometric*)> __RootMotion_FinalIK_TrigonometricIKSizeCheck;
   static_assert(sizeof(TrigonometricIK) == 0x40);
 }
+NEED_NO_BOX(RootMotion::FinalIK::TrigonometricIK);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::TrigonometricIK*, "RootMotion.FinalIK", "TrigonometricIK");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::TrigonometricIK::SupportGroup

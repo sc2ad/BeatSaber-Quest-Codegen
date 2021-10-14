@@ -70,6 +70,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(InteractionObject::Multiplier), 24 + sizeof(RootMotion::FinalIK::InteractionObject::WeightCurve::Type)> __RootMotion_FinalIK_InteractionObject_MultiplierSizeCheck;
   static_assert(sizeof(InteractionObject::Multiplier) == 0x1C);
 }
+NEED_NO_BOX(RootMotion::FinalIK::InteractionObject::Multiplier);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionObject::Multiplier*, "RootMotion.FinalIK", "InteractionObject/Multiplier");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionObject::Multiplier::GetValue

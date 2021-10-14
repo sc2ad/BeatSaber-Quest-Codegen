@@ -111,6 +111,7 @@ namespace System::Threading {
   static check_size<sizeof(SynchronizationContext), 16 + sizeof(System::Threading::SynchronizationContextProperties)> __System_Threading_SynchronizationContextSizeCheck;
   static_assert(sizeof(SynchronizationContext) == 0x14);
 }
+NEED_NO_BOX(System::Threading::SynchronizationContext);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::SynchronizationContext*, "System.Threading", "SynchronizationContext");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::SynchronizationContext::get_Current

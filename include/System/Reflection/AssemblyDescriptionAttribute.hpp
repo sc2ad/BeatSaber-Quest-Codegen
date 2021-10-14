@@ -52,6 +52,7 @@ namespace System::Reflection {
   static check_size<sizeof(AssemblyDescriptionAttribute), 16 + sizeof(::Il2CppString*)> __System_Reflection_AssemblyDescriptionAttributeSizeCheck;
   static_assert(sizeof(AssemblyDescriptionAttribute) == 0x18);
 }
+NEED_NO_BOX(System::Reflection::AssemblyDescriptionAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::AssemblyDescriptionAttribute*, "System.Reflection", "AssemblyDescriptionAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::AssemblyDescriptionAttribute::New_ctor

@@ -84,6 +84,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRInput::HapticInfo), 32 + sizeof(UnityEngine::XR::XRNode)> __GlobalNamespace_OVRInput_HapticInfoSizeCheck;
   static_assert(sizeof(OVRInput::HapticInfo) == 0x24);
 }
+NEED_NO_BOX(GlobalNamespace::OVRInput::HapticInfo);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::HapticInfo*, "", "OVRInput/HapticInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::HapticInfo::New_ctor

@@ -83,6 +83,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MissionLevelAnalytics), 32 + sizeof(GlobalNamespace::IAnalyticsModel*)> __GlobalNamespace_MissionLevelAnalyticsSizeCheck;
   static_assert(sizeof(MissionLevelAnalytics) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::MissionLevelAnalytics);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelAnalytics*, "", "MissionLevelAnalytics");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionLevelAnalytics::Start

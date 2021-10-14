@@ -70,6 +70,7 @@ namespace Zenject {
   static check_size<sizeof(TypeAnalyzer::$$c__DisplayClass23_0), 16 + sizeof(System::Type*)> __Zenject_TypeAnalyzer_$$c__DisplayClass23_0SizeCheck;
   static_assert(sizeof(TypeAnalyzer::$$c__DisplayClass23_0) == 0x18);
 }
+NEED_NO_BOX(Zenject::TypeAnalyzer::$$c__DisplayClass23_0);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::TypeAnalyzer::$$c__DisplayClass23_0*, "Zenject", "TypeAnalyzer/<>c__DisplayClass23_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::TypeAnalyzer::$$c__DisplayClass23_0::$CreateTypeInfoFromReflection$b__0

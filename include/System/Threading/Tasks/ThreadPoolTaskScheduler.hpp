@@ -82,6 +82,7 @@ namespace System::Threading::Tasks {
   }; // System.Threading.Tasks.ThreadPoolTaskScheduler
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Threading::Tasks::ThreadPoolTaskScheduler);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::ThreadPoolTaskScheduler*, "System.Threading.Tasks", "ThreadPoolTaskScheduler");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::Tasks::ThreadPoolTaskScheduler::LongRunningThreadWork

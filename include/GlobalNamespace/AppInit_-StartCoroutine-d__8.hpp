@@ -96,6 +96,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(AppInit::$StartCoroutine$d__8), 40 + sizeof(GlobalNamespace::AppInit::AppStartType)> __GlobalNamespace_AppInit_$StartCoroutine$d__8SizeCheck;
   static_assert(sizeof(AppInit::$StartCoroutine$d__8) == 0x2C);
 }
+NEED_NO_BOX(GlobalNamespace::AppInit::$StartCoroutine$d__8);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AppInit::$StartCoroutine$d__8*, "", "AppInit/<StartCoroutine>d__8");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AppInit::$StartCoroutine$d__8::System_Collections_Generic_IEnumerator$System_Object$_get_Current

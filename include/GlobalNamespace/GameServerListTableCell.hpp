@@ -118,6 +118,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(GameServerListTableCell), 120 + sizeof(GlobalNamespace::SongPackMasksModel*)> __GlobalNamespace_GameServerListTableCellSizeCheck;
   static_assert(sizeof(GameServerListTableCell) == 0x80);
 }
+NEED_NO_BOX(GlobalNamespace::GameServerListTableCell);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServerListTableCell*, "", "GameServerListTableCell");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameServerListTableCell::SetData

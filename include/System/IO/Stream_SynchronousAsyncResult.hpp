@@ -155,6 +155,7 @@ namespace System::IO {
   static check_size<sizeof(Stream::SynchronousAsyncResult), 52 + sizeof(int)> __System_IO_Stream_SynchronousAsyncResultSizeCheck;
   static_assert(sizeof(Stream::SynchronousAsyncResult) == 0x38);
 }
+NEED_NO_BOX(System::IO::Stream::SynchronousAsyncResult);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Stream::SynchronousAsyncResult*, "System.IO", "Stream/SynchronousAsyncResult");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::Stream::SynchronousAsyncResult::get_IsCompleted

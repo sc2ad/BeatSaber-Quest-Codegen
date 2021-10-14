@@ -46,6 +46,7 @@ namespace Oculus::Platform {
     Oculus::Platform::Models::AssetDetails* GetAssetDetails();
   }; // Oculus.Platform.MessageWithAssetDetails
 }
+NEED_NO_BOX(Oculus::Platform::MessageWithAssetDetails);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithAssetDetails*, "Oculus.Platform", "MessageWithAssetDetails");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithAssetDetails::GetDataFromMessage

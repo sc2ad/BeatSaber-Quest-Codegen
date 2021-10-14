@@ -34,6 +34,7 @@ namespace Unity::Collections::LowLevel::Unsafe {
   }; // Unity.Collections.LowLevel.Unsafe.WriteAccessRequiredAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(Unity::Collections::LowLevel::Unsafe::WriteAccessRequiredAttribute);
 DEFINE_IL2CPP_ARG_TYPE(Unity::Collections::LowLevel::Unsafe::WriteAccessRequiredAttribute*, "Unity.Collections.LowLevel.Unsafe", "WriteAccessRequiredAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Unity::Collections::LowLevel::Unsafe::WriteAccessRequiredAttribute::New_ctor

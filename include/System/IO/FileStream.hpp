@@ -451,6 +451,7 @@ namespace System::IO {
   static check_size<sizeof(FileStream), 104 + sizeof(int64_t)> __System_IO_FileStreamSizeCheck;
   static_assert(sizeof(FileStream) == 0x70);
 }
+NEED_NO_BOX(System::IO::FileStream);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileStream*, "System.IO", "FileStream");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::FileStream::get_SafeFileHandle

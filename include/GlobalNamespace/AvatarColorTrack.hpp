@@ -37,6 +37,7 @@ namespace GlobalNamespace {
     }
   }; // AvatarColorTrack
 }
+NEED_NO_BOX(GlobalNamespace::AvatarColorTrack);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarColorTrack*, "", "AvatarColorTrack");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AvatarColorTrack::New_ctor

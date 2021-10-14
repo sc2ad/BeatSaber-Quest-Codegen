@@ -119,6 +119,7 @@ namespace Polyglot {
   static check_size<sizeof(LocalizationDocument), 48 + sizeof(bool)> __Polyglot_LocalizationDocumentSizeCheck;
   static_assert(sizeof(LocalizationDocument) == 0x31);
 }
+NEED_NO_BOX(Polyglot::LocalizationDocument);
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::LocalizationDocument*, "Polyglot", "LocalizationDocument");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Polyglot::LocalizationDocument::get_TextAsset

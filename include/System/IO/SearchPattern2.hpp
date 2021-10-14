@@ -104,6 +104,7 @@ namespace System::IO {
   static check_size<sizeof(SearchPattern2), 32 + sizeof(::Il2CppString*)> __System_IO_SearchPattern2SizeCheck;
   static_assert(sizeof(SearchPattern2) == 0x28);
 }
+NEED_NO_BOX(System::IO::SearchPattern2);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::SearchPattern2*, "System.IO", "SearchPattern2");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::SearchPattern2::get_HasWildcard

@@ -46,6 +46,7 @@ namespace Oculus::Platform {
     Oculus::Platform::Models::SystemPermission* GetSystemPermission();
   }; // Oculus.Platform.MessageWithSystemPermission
 }
+NEED_NO_BOX(Oculus::Platform::MessageWithSystemPermission);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithSystemPermission*, "Oculus.Platform", "MessageWithSystemPermission");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithSystemPermission::GetDataFromMessage

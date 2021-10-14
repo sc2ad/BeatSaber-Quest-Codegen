@@ -84,6 +84,7 @@ namespace NUnit::Framework::Constraints {
   static check_size<sizeof(StringConstraint), 64 + sizeof(::Il2CppString*)> __NUnit_Framework_Constraints_StringConstraintSizeCheck;
   static_assert(sizeof(StringConstraint) == 0x48);
 }
+NEED_NO_BOX(NUnit::Framework::Constraints::StringConstraint);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::StringConstraint*, "NUnit.Framework.Constraints", "StringConstraint");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::StringConstraint::New_ctor

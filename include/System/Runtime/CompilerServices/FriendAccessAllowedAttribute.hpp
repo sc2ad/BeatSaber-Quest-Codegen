@@ -35,6 +35,7 @@ namespace System::Runtime::CompilerServices {
   }; // System.Runtime.CompilerServices.FriendAccessAllowedAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Runtime::CompilerServices::FriendAccessAllowedAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::FriendAccessAllowedAttribute*, "System.Runtime.CompilerServices", "FriendAccessAllowedAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::FriendAccessAllowedAttribute::New_ctor

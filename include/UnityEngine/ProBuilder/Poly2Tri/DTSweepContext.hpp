@@ -183,6 +183,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   static check_size<sizeof(DTSweepContext), 112 + sizeof(UnityEngine::ProBuilder::Poly2Tri::DTSweepPointComparator*)> __UnityEngine_ProBuilder_Poly2Tri_DTSweepContextSizeCheck;
   static_assert(sizeof(DTSweepContext) == 0x78);
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*, "UnityEngine.ProBuilder.Poly2Tri", "DTSweepContext");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::get_Head

@@ -88,6 +88,7 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
   }; // UnityEngine.TestTools.TestRunner.GUI.RuntimeTestRunnerFilter/UnityEngine.TestTools.TestRunner.GUI.<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c*, "UnityEngine.TestTools.TestRunner.GUI", "RuntimeTestRunnerFilter/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c::_cctor

@@ -62,6 +62,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BeatmapObjectSpawnCenter::PlayerCountToDistance), 20 + sizeof(float)> __GlobalNamespace_BeatmapObjectSpawnCenter_PlayerCountToDistanceSizeCheck;
   static_assert(sizeof(BeatmapObjectSpawnCenter::PlayerCountToDistance) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::BeatmapObjectSpawnCenter::PlayerCountToDistance);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectSpawnCenter::PlayerCountToDistance*, "", "BeatmapObjectSpawnCenter/PlayerCountToDistance");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnCenter::PlayerCountToDistance::get_playerCount

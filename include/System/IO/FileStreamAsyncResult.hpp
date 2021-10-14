@@ -147,6 +147,7 @@ namespace System::IO {
   static check_size<sizeof(FileStreamAsyncResult), 64 + sizeof(System::AsyncCallback*)> __System_IO_FileStreamAsyncResultSizeCheck;
   static_assert(sizeof(FileStreamAsyncResult) == 0x48);
 }
+NEED_NO_BOX(System::IO::FileStreamAsyncResult);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileStreamAsyncResult*, "System.IO", "FileStreamAsyncResult");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::FileStreamAsyncResult::get_AsyncState

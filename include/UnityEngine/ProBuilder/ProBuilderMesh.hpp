@@ -944,6 +944,7 @@ namespace UnityEngine::ProBuilder {
   static check_size<sizeof(ProBuilderMesh), 248 + sizeof(System::Collections::Generic::List_1<int>*)> __UnityEngine_ProBuilder_ProBuilderMeshSizeCheck;
   static_assert(sizeof(ProBuilderMesh) == 0x100);
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::ProBuilderMesh);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ProBuilderMesh*, "UnityEngine.ProBuilder", "ProBuilderMesh");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ProBuilderMesh::CacheValidState, "UnityEngine.ProBuilder", "ProBuilderMesh/CacheValidState");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

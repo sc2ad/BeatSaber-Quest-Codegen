@@ -127,6 +127,7 @@ namespace System::Runtime::InteropServices {
   static_assert(sizeof(MarshalAsAttribute) == 0x46);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Runtime::InteropServices::MarshalAsAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::MarshalAsAttribute*, "System.Runtime.InteropServices", "MarshalAsAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::InteropServices::MarshalAsAttribute::Copy

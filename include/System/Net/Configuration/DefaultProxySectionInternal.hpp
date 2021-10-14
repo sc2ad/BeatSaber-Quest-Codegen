@@ -76,6 +76,7 @@ namespace System::Net::Configuration {
   static check_size<sizeof(DefaultProxySectionInternal), 16 + sizeof(System::Net::IWebProxy*)> __System_Net_Configuration_DefaultProxySectionInternalSizeCheck;
   static_assert(sizeof(DefaultProxySectionInternal) == 0x18);
 }
+NEED_NO_BOX(System::Net::Configuration::DefaultProxySectionInternal);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Configuration::DefaultProxySectionInternal*, "System.Net.Configuration", "DefaultProxySectionInternal");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Configuration::DefaultProxySectionInternal::get_ClassSyncObject

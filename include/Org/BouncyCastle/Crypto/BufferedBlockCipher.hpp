@@ -142,6 +142,7 @@ namespace Org::BouncyCastle::Crypto {
   static check_size<sizeof(BufferedBlockCipher), 32 + sizeof(Org::BouncyCastle::Crypto::IBlockCipher*)> __Org_BouncyCastle_Crypto_BufferedBlockCipherSizeCheck;
   static_assert(sizeof(BufferedBlockCipher) == 0x28);
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::BufferedBlockCipher);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::BufferedBlockCipher*, "Org.BouncyCastle.Crypto", "BufferedBlockCipher");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::BufferedBlockCipher::New_ctor

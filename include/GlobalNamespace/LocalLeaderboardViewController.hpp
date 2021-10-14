@@ -242,6 +242,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LocalLeaderboardViewController), 201 + sizeof(bool)> __GlobalNamespace_LocalLeaderboardViewControllerSizeCheck;
   static_assert(sizeof(LocalLeaderboardViewController) == 0xCA);
 }
+NEED_NO_BOX(GlobalNamespace::LocalLeaderboardViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalLeaderboardViewController*, "", "LocalLeaderboardViewController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LocalLeaderboardViewController::get_leaderboardsModel

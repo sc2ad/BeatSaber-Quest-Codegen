@@ -71,6 +71,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_PartData::$$c__DisplayClass88_1), 16 + sizeof(System::Collections::Generic::List_1<HoudiniEngineUnity::TransformData>*)> __HoudiniEngineUnity_HEU_PartData_$$c__DisplayClass88_1SizeCheck;
   static_assert(sizeof(HEU_PartData::$$c__DisplayClass88_1) == 0x18);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_PartData::$$c__DisplayClass88_1);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_PartData::$$c__DisplayClass88_1*, "HoudiniEngineUnity", "HEU_PartData/<>c__DisplayClass88_1");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PartData::$$c__DisplayClass88_1::$BakePartToGameObject$b__1

@@ -173,6 +173,7 @@ namespace OnlineServices {
   static check_size<sizeof(ServerManager), 64 + sizeof(OnlineServices::PlatformOnlineServicesAvailabilityModel*)> __OnlineServices_ServerManagerSizeCheck;
   static_assert(sizeof(ServerManager) == 0x48);
 }
+NEED_NO_BOX(OnlineServices::ServerManager);
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::ServerManager*, "OnlineServices", "ServerManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OnlineServices::ServerManager::get_initialized

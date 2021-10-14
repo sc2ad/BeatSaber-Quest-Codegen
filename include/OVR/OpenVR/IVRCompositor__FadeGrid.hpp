@@ -51,6 +51,7 @@ namespace OVR::OpenVR {
   }; // OVR.OpenVR.IVRCompositor/OVR.OpenVR._FadeGrid
   #pragma pack(pop)
 }
+NEED_NO_BOX(OVR::OpenVR::IVRCompositor::_FadeGrid);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRCompositor::_FadeGrid*, "OVR.OpenVR", "IVRCompositor/_FadeGrid");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVRCompositor::_FadeGrid::New_ctor

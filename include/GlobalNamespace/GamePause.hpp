@@ -179,6 +179,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(GamePause), 88 + sizeof(bool)> __GlobalNamespace_GamePauseSizeCheck;
   static_assert(sizeof(GamePause) == 0x59);
 }
+NEED_NO_BOX(GlobalNamespace::GamePause);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GamePause*, "", "GamePause");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GamePause::add_didPauseEvent

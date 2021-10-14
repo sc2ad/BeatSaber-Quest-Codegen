@@ -54,6 +54,7 @@ namespace Org::BouncyCastle::Asn1::TeleTrust {
   }; // Org.BouncyCastle.Asn1.TeleTrust.TeleTrusTNamedCurves/Org.BouncyCastle.Asn1.TeleTrust.BrainpoolP256t1Holder
   #pragma pack(pop)
 }
+NEED_NO_BOX(Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves::BrainpoolP256t1Holder);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves::BrainpoolP256t1Holder*, "Org.BouncyCastle.Asn1.TeleTrust", "TeleTrusTNamedCurves/BrainpoolP256t1Holder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves::BrainpoolP256t1Holder::_cctor

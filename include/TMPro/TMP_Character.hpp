@@ -54,6 +54,7 @@ namespace TMPro {
   }; // TMPro.TMP_Character
   #pragma pack(pop)
 }
+NEED_NO_BOX(TMPro::TMP_Character);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Character*, "TMPro", "TMP_Character");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_Character::New_ctor

@@ -136,6 +136,7 @@ namespace System::Text::RegularExpressions {
   static check_size<sizeof(RegexCode), 76 + sizeof(bool)> __System_Text_RegularExpressions_RegexCodeSizeCheck;
   static_assert(sizeof(RegexCode) == 0x4D);
 }
+NEED_NO_BOX(System::Text::RegularExpressions::RegexCode);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexCode*, "System.Text.RegularExpressions", "RegexCode");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexCode::New_ctor

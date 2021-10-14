@@ -88,6 +88,7 @@ namespace System::Net {
   static check_size<sizeof(ChunkedInputStream::ReadBufferState), 40 + sizeof(System::Net::HttpStreamAsyncResult*)> __System_Net_ChunkedInputStream_ReadBufferStateSizeCheck;
   static_assert(sizeof(ChunkedInputStream::ReadBufferState) == 0x30);
 }
+NEED_NO_BOX(System::Net::ChunkedInputStream::ReadBufferState);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::ChunkedInputStream::ReadBufferState*, "System.Net", "ChunkedInputStream/ReadBufferState");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::ChunkedInputStream::ReadBufferState::New_ctor

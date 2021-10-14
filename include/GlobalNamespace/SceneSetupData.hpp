@@ -30,6 +30,7 @@ namespace GlobalNamespace {
   }; // SceneSetupData
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::SceneSetupData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SceneSetupData*, "", "SceneSetupData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SceneSetupData::New_ctor

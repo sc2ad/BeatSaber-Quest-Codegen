@@ -218,6 +218,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(CrossFadeAudioSource), 112 + sizeof(GlobalNamespace::AudioPitchGainEffect*)> __GlobalNamespace_CrossFadeAudioSourceSizeCheck;
   static_assert(sizeof(CrossFadeAudioSource) == 0x78);
 }
+NEED_NO_BOX(GlobalNamespace::CrossFadeAudioSource);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CrossFadeAudioSource*, "", "CrossFadeAudioSource");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CrossFadeAudioSource::get_clip

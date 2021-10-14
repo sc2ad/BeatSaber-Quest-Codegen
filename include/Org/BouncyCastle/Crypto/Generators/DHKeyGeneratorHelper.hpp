@@ -60,6 +60,7 @@ namespace Org::BouncyCastle::Crypto::Generators {
   }; // Org.BouncyCastle.Crypto.Generators.DHKeyGeneratorHelper
   #pragma pack(pop)
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper*, "Org.BouncyCastle.Crypto.Generators", "DHKeyGeneratorHelper");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper::_cctor

@@ -104,6 +104,7 @@ namespace System {
   }; // System.StringComparer
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::StringComparer);
 DEFINE_IL2CPP_ARG_TYPE(System::StringComparer*, "System", "StringComparer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::StringComparer::get_InvariantCultureIgnoreCase

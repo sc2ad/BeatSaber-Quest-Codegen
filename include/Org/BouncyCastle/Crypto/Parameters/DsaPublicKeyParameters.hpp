@@ -74,6 +74,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   static check_size<sizeof(DsaPublicKeyParameters), 32 + sizeof(Org::BouncyCastle::Math::BigInteger*)> __Org_BouncyCastle_Crypto_Parameters_DsaPublicKeyParametersSizeCheck;
   static_assert(sizeof(DsaPublicKeyParameters) == 0x28);
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Parameters::DsaPublicKeyParameters);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::DsaPublicKeyParameters*, "Org.BouncyCastle.Crypto.Parameters", "DsaPublicKeyParameters");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::DsaPublicKeyParameters::New_ctor

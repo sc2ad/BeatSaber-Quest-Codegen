@@ -86,6 +86,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ClickButtonWithCommandArgument::$Start$d__2), 32 + sizeof(GlobalNamespace::ClickButtonWithCommandArgument*)> __GlobalNamespace_ClickButtonWithCommandArgument_$Start$d__2SizeCheck;
   static_assert(sizeof(ClickButtonWithCommandArgument::$Start$d__2) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::ClickButtonWithCommandArgument::$Start$d__2);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ClickButtonWithCommandArgument::$Start$d__2*, "", "ClickButtonWithCommandArgument/<Start>d__2");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ClickButtonWithCommandArgument::$Start$d__2::System_Collections_Generic_IEnumerator$System_Object$_get_Current

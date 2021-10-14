@@ -114,6 +114,7 @@ namespace System::Globalization {
   static check_size<sizeof(IdnMapping), 24 + sizeof(System::Globalization::Punycode*)> __System_Globalization_IdnMappingSizeCheck;
   static_assert(sizeof(IdnMapping) == 0x20);
 }
+NEED_NO_BOX(System::Globalization::IdnMapping);
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::IdnMapping*, "System.Globalization", "IdnMapping");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Globalization::IdnMapping::GetAscii

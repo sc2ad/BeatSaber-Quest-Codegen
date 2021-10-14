@@ -106,6 +106,7 @@ namespace HMUI {
   }; // HMUI.TimeSlider
   // WARNING Not writing size check since size may be invalid!
 }
+NEED_NO_BOX(HMUI::TimeSlider);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TimeSlider*, "HMUI", "TimeSlider");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TimeSlider::TimeType, "HMUI", "TimeSlider/TimeType");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

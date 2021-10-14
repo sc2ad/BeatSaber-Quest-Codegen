@@ -76,6 +76,7 @@ namespace System::Threading::Tasks {
   }; // System.Threading.Tasks.Task/System.Threading.Tasks.<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Threading::Tasks::Task::$$c);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::Task::$$c*, "System.Threading.Tasks", "Task/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::Tasks::Task::$$c::_cctor

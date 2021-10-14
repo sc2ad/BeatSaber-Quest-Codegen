@@ -71,6 +71,7 @@ namespace Mono::Globalization::Unicode {
   static check_size<sizeof(Contraction), 40 + sizeof(::ArrayW<uint8_t>)> __Mono_Globalization_Unicode_ContractionSizeCheck;
   static_assert(sizeof(Contraction) == 0x30);
 }
+NEED_NO_BOX(Mono::Globalization::Unicode::Contraction);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::Contraction*, "Mono.Globalization.Unicode", "Contraction");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::Contraction::New_ctor

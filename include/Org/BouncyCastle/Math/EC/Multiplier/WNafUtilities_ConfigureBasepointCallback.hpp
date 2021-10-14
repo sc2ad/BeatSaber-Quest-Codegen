@@ -75,6 +75,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
   static check_size<sizeof(WNafUtilities::ConfigureBasepointCallback), 24 + sizeof(int)> __Org_BouncyCastle_Math_EC_Multiplier_WNafUtilities_ConfigureBasepointCallbackSizeCheck;
   static_assert(sizeof(WNafUtilities::ConfigureBasepointCallback) == 0x1C);
 }
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::ConfigureBasepointCallback);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::ConfigureBasepointCallback*, "Org.BouncyCastle.Math.EC.Multiplier", "WNafUtilities/ConfigureBasepointCallback");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::ConfigureBasepointCallback::New_ctor

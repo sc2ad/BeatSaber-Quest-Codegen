@@ -36,6 +36,7 @@ namespace GlobalNamespace {
     }
   }; // MultiplayerLocalActivePlayerFacade/Factory
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerLocalActivePlayerFacade::Factory);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalActivePlayerFacade::Factory*, "", "MultiplayerLocalActivePlayerFacade/Factory");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalActivePlayerFacade::Factory::New_ctor

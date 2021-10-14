@@ -143,6 +143,7 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::AudioSource);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AudioSource*, "UnityEngine", "AudioSource");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AudioSource::get_volume

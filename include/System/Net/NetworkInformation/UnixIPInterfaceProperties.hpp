@@ -95,6 +95,7 @@ namespace System::Net::NetworkInformation {
   static check_size<sizeof(UnixIPInterfaceProperties), 24 + sizeof(System::Collections::Generic::List_1<System::Net::IPAddress*>*)> __System_Net_NetworkInformation_UnixIPInterfacePropertiesSizeCheck;
   static_assert(sizeof(UnixIPInterfaceProperties) == 0x20);
 }
+NEED_NO_BOX(System::Net::NetworkInformation::UnixIPInterfaceProperties);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::UnixIPInterfaceProperties*, "System.Net.NetworkInformation", "UnixIPInterfaceProperties");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::NetworkInformation::UnixIPInterfaceProperties::New_ctor

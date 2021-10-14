@@ -58,6 +58,7 @@ namespace Valve::VR {
   }; // Valve.VR.IVROverlay/Valve.VR._SetOverlayTransformOverlayRelative
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::IVROverlay::_SetOverlayTransformOverlayRelative);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVROverlay::_SetOverlayTransformOverlayRelative*, "Valve.VR", "IVROverlay/_SetOverlayTransformOverlayRelative");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVROverlay::_SetOverlayTransformOverlayRelative::New_ctor

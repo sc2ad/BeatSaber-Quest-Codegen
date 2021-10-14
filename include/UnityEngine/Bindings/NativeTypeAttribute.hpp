@@ -102,6 +102,7 @@ namespace UnityEngine::Bindings {
   static check_size<sizeof(NativeTypeAttribute), 32 + sizeof(UnityEngine::Bindings::CodegenOptions)> __UnityEngine_Bindings_NativeTypeAttributeSizeCheck;
   static_assert(sizeof(NativeTypeAttribute) == 0x24);
 }
+NEED_NO_BOX(UnityEngine::Bindings::NativeTypeAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::NativeTypeAttribute*, "UnityEngine.Bindings", "NativeTypeAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Bindings::NativeTypeAttribute::set_Header

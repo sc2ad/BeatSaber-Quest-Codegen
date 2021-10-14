@@ -57,6 +57,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(DisableComponentOnNonSteam), 24 + sizeof(UnityEngine::MonoBehaviour*)> __GlobalNamespace_DisableComponentOnNonSteamSizeCheck;
   static_assert(sizeof(DisableComponentOnNonSteam) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::DisableComponentOnNonSteam);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DisableComponentOnNonSteam*, "", "DisableComponentOnNonSteam");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DisableComponentOnNonSteam::Awake

@@ -198,6 +198,7 @@ namespace System::Runtime::Remoting {
   static check_size<sizeof(ConfigHandler), 72 + sizeof(bool)> __System_Runtime_Remoting_ConfigHandlerSizeCheck;
   static_assert(sizeof(ConfigHandler) == 0x49);
 }
+NEED_NO_BOX(System::Runtime::Remoting::ConfigHandler);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::ConfigHandler*, "System.Runtime.Remoting", "ConfigHandler");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::ConfigHandler::New_ctor

@@ -194,6 +194,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(NoteFloorMovement), 120 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_NoteFloorMovementSizeCheck;
   static_assert(sizeof(NoteFloorMovement) == 0x84);
 }
+NEED_NO_BOX(GlobalNamespace::NoteFloorMovement);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteFloorMovement*, "", "NoteFloorMovement");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteFloorMovement::get_distanceToPlayer

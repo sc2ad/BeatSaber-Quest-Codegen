@@ -130,6 +130,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BeatmapCharacteristicSegmentedControlController), 48 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::BeatmapCharacteristicSO*>*)> __GlobalNamespace_BeatmapCharacteristicSegmentedControlControllerSizeCheck;
   static_assert(sizeof(BeatmapCharacteristicSegmentedControlController) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::BeatmapCharacteristicSegmentedControlController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapCharacteristicSegmentedControlController*, "", "BeatmapCharacteristicSegmentedControlController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapCharacteristicSegmentedControlController::get_selectedBeatmapCharacteristic

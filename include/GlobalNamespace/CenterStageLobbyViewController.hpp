@@ -75,6 +75,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(CenterStageLobbyViewController), 120 + sizeof(GlobalNamespace::ModifiersSelectionView*)> __GlobalNamespace_CenterStageLobbyViewControllerSizeCheck;
   static_assert(sizeof(CenterStageLobbyViewController) == 0x80);
 }
+NEED_NO_BOX(GlobalNamespace::CenterStageLobbyViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CenterStageLobbyViewController*, "", "CenterStageLobbyViewController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CenterStageLobbyViewController::SetLevelGameplaySetupData

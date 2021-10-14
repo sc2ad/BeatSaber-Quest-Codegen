@@ -119,6 +119,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
   static check_size<sizeof(XteaEngine), 41 + sizeof(bool)> __Org_BouncyCastle_Crypto_Engines_XteaEngineSizeCheck;
   static_assert(sizeof(XteaEngine) == 0x2A);
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Engines::XteaEngine);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::XteaEngine*, "Org.BouncyCastle.Crypto.Engines", "XteaEngine");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::XteaEngine::get_AlgorithmName

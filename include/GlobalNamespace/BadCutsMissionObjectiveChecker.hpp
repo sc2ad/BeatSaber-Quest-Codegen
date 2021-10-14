@@ -79,6 +79,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BadCutsMissionObjectiveChecker), 72 + sizeof(GlobalNamespace::BeatmapObjectManager*)> __GlobalNamespace_BadCutsMissionObjectiveCheckerSizeCheck;
   static_assert(sizeof(BadCutsMissionObjectiveChecker) == 0x50);
 }
+NEED_NO_BOX(GlobalNamespace::BadCutsMissionObjectiveChecker);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BadCutsMissionObjectiveChecker*, "", "BadCutsMissionObjectiveChecker");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BadCutsMissionObjectiveChecker::OnDestroy

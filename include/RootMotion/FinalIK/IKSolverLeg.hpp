@@ -193,6 +193,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(IKSolverLeg), 184 + sizeof(::ArrayW<UnityEngine::Quaternion>)> __RootMotion_FinalIK_IKSolverLegSizeCheck;
   static_assert(sizeof(IKSolverLeg) == 0xC0);
 }
+NEED_NO_BOX(RootMotion::FinalIK::IKSolverLeg);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverLeg*, "RootMotion.FinalIK", "IKSolverLeg");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverLeg::SetChain

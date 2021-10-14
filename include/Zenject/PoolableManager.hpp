@@ -93,6 +93,7 @@ namespace Zenject {
   static check_size<sizeof(PoolableManager), 24 + sizeof(bool)> __Zenject_PoolableManagerSizeCheck;
   static_assert(sizeof(PoolableManager) == 0x19);
 }
+NEED_NO_BOX(Zenject::PoolableManager);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::PoolableManager*, "Zenject", "PoolableManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::PoolableManager::New_ctor

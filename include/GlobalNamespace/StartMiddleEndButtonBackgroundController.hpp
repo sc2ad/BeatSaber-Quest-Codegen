@@ -99,6 +99,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(StartMiddleEndButtonBackgroundController), 48 + sizeof(HMUI::ImageView*)> __GlobalNamespace_StartMiddleEndButtonBackgroundControllerSizeCheck;
   static_assert(sizeof(StartMiddleEndButtonBackgroundController) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::StartMiddleEndButtonBackgroundController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StartMiddleEndButtonBackgroundController*, "", "StartMiddleEndButtonBackgroundController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::StartMiddleEndButtonBackgroundController::SetStartSprite

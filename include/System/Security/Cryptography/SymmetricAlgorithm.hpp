@@ -206,6 +206,7 @@ namespace System::Security::Cryptography {
   static check_size<sizeof(SymmetricAlgorithm), 64 + sizeof(System::Security::Cryptography::PaddingMode)> __System_Security_Cryptography_SymmetricAlgorithmSizeCheck;
   static_assert(sizeof(SymmetricAlgorithm) == 0x44);
 }
+NEED_NO_BOX(System::Security::Cryptography::SymmetricAlgorithm);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::SymmetricAlgorithm*, "System.Security.Cryptography", "SymmetricAlgorithm");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::SymmetricAlgorithm::get_BlockSize

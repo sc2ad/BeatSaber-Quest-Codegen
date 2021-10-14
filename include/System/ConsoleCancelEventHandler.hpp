@@ -50,6 +50,7 @@ namespace System {
   }; // System.ConsoleCancelEventHandler
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::ConsoleCancelEventHandler);
 DEFINE_IL2CPP_ARG_TYPE(System::ConsoleCancelEventHandler*, "System", "ConsoleCancelEventHandler");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ConsoleCancelEventHandler::New_ctor

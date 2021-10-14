@@ -47,6 +47,7 @@ namespace System {
   }; // System.ReflectionOnlyType
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::ReflectionOnlyType);
 DEFINE_IL2CPP_ARG_TYPE(System::ReflectionOnlyType*, "System", "ReflectionOnlyType");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ReflectionOnlyType::get_TypeHandle

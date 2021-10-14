@@ -110,6 +110,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(EnabledTransitionSO), 37 + sizeof(bool)> __GlobalNamespace_EnabledTransitionSOSizeCheck;
   static_assert(sizeof(EnabledTransitionSO) == 0x26);
 }
+NEED_NO_BOX(GlobalNamespace::EnabledTransitionSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnabledTransitionSO*, "", "EnabledTransitionSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EnabledTransitionSO::get_normalState

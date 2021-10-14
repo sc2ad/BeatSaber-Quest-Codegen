@@ -202,6 +202,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerConnectedPlayerSongTimeSyncController), 81 + sizeof(bool)> __GlobalNamespace_MultiplayerConnectedPlayerSongTimeSyncControllerSizeCheck;
   static_assert(sizeof(MultiplayerConnectedPlayerSongTimeSyncController) == 0x52);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController*, "", "MultiplayerConnectedPlayerSongTimeSyncController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::get_songTime

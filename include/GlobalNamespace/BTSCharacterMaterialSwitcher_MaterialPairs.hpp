@@ -73,6 +73,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BTSCharacterMaterialSwitcher::MaterialPairs), 32 + sizeof(UnityEngine::Material*)> __GlobalNamespace_BTSCharacterMaterialSwitcher_MaterialPairsSizeCheck;
   static_assert(sizeof(BTSCharacterMaterialSwitcher::MaterialPairs) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::BTSCharacterMaterialSwitcher::MaterialPairs);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterMaterialSwitcher::MaterialPairs*, "", "BTSCharacterMaterialSwitcher/MaterialPairs");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacterMaterialSwitcher::MaterialPairs::New_ctor

@@ -107,6 +107,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BadNoteCutEffectSpawner), 48 + sizeof(GlobalNamespace::CoreGameHUDController::InitData*)> __GlobalNamespace_BadNoteCutEffectSpawnerSizeCheck;
   static_assert(sizeof(BadNoteCutEffectSpawner) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::BadNoteCutEffectSpawner);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BadNoteCutEffectSpawner*, "", "BadNoteCutEffectSpawner");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BadNoteCutEffectSpawner::Start

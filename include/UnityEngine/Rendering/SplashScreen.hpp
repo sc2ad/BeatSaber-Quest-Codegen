@@ -22,6 +22,7 @@ namespace UnityEngine::Rendering {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::Rendering::SplashScreen);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::SplashScreen*, "UnityEngine.Rendering", "SplashScreen");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Rendering::SplashScreen::get_isFinished

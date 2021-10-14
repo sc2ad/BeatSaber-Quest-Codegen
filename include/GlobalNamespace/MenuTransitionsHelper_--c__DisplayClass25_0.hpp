@@ -69,6 +69,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MenuTransitionsHelper::$$c__DisplayClass25_0), 24 + sizeof(GlobalNamespace::DisconnectedReason)> __GlobalNamespace_MenuTransitionsHelper_$$c__DisplayClass25_0SizeCheck;
   static_assert(sizeof(MenuTransitionsHelper::$$c__DisplayClass25_0) == 0x1C);
 }
+NEED_NO_BOX(GlobalNamespace::MenuTransitionsHelper::$$c__DisplayClass25_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuTransitionsHelper::$$c__DisplayClass25_0*, "", "MenuTransitionsHelper/<>c__DisplayClass25_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MenuTransitionsHelper::$$c__DisplayClass25_0::$HandleMultiplayerLevelDidDisconnect$b__0

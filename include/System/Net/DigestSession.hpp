@@ -150,6 +150,7 @@ namespace System::Net {
   static check_size<sizeof(DigestSession), 48 + sizeof(::Il2CppString*)> __System_Net_DigestSessionSizeCheck;
   static_assert(sizeof(DigestSession) == 0x38);
 }
+NEED_NO_BOX(System::Net::DigestSession);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::DigestSession*, "System.Net", "DigestSession");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::DigestSession::get_Algorithm

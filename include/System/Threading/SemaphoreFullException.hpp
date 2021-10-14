@@ -53,6 +53,7 @@ namespace System::Threading {
   }; // System.Threading.SemaphoreFullException
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Threading::SemaphoreFullException);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::SemaphoreFullException*, "System.Threading", "SemaphoreFullException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::SemaphoreFullException::New_ctor

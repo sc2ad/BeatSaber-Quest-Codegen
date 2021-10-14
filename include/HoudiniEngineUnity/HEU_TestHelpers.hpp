@@ -223,6 +223,7 @@ namespace HoudiniEngineUnity {
   }; // HoudiniEngineUnity.HEU_TestHelpers
   #pragma pack(pop)
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_TestHelpers);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_TestHelpers*, "HoudiniEngineUnity", "HEU_TestHelpers");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_TestHelpers::AssertTrueLogEquivalent

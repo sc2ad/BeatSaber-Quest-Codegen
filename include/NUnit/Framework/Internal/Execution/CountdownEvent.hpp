@@ -81,6 +81,7 @@ namespace NUnit::Framework::Internal::Execution {
   static check_size<sizeof(CountdownEvent), 32 + sizeof(System::Threading::ManualResetEvent*)> __NUnit_Framework_Internal_Execution_CountdownEventSizeCheck;
   static_assert(sizeof(CountdownEvent) == 0x28);
 }
+NEED_NO_BOX(NUnit::Framework::Internal::Execution::CountdownEvent);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Execution::CountdownEvent*, "NUnit.Framework.Internal.Execution", "CountdownEvent");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Execution::CountdownEvent::get_CurrentCount

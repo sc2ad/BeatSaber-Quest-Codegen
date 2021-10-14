@@ -53,6 +53,7 @@ namespace Mono::Net {
   }; // Mono.Net.CFDictionary
   #pragma pack(pop)
 }
+NEED_NO_BOX(Mono::Net::CFDictionary);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFDictionary*, "Mono.Net", "CFDictionary");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Net::CFDictionary::get_Item

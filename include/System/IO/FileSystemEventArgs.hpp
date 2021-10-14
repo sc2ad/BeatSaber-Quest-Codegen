@@ -66,6 +66,7 @@ namespace System::IO {
   static check_size<sizeof(FileSystemEventArgs), 32 + sizeof(::Il2CppString*)> __System_IO_FileSystemEventArgsSizeCheck;
   static_assert(sizeof(FileSystemEventArgs) == 0x28);
 }
+NEED_NO_BOX(System::IO::FileSystemEventArgs);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileSystemEventArgs*, "System.IO", "FileSystemEventArgs");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::FileSystemEventArgs::New_ctor

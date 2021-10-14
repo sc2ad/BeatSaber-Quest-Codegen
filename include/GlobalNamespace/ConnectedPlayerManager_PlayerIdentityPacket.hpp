@@ -102,6 +102,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ConnectedPlayerManager::PlayerIdentityPacket), 32 + sizeof(GlobalNamespace::MultiplayerAvatarData)> __GlobalNamespace_ConnectedPlayerManager_PlayerIdentityPacketSizeCheck;
   static_assert(sizeof(ConnectedPlayerManager::PlayerIdentityPacket) == 0x90);
 }
+NEED_NO_BOX(GlobalNamespace::ConnectedPlayerManager::PlayerIdentityPacket);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConnectedPlayerManager::PlayerIdentityPacket*, "", "ConnectedPlayerManager/PlayerIdentityPacket");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::PlayerIdentityPacket::get_pool

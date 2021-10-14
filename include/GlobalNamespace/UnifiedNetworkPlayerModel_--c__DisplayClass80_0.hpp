@@ -100,6 +100,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(UnifiedNetworkPlayerModel::$$c__DisplayClass80_0), 56 + sizeof(GlobalNamespace::GameplayServerConfiguration)> __GlobalNamespace_UnifiedNetworkPlayerModel_$$c__DisplayClass80_0SizeCheck;
   static_assert(sizeof(UnifiedNetworkPlayerModel::$$c__DisplayClass80_0) == 0x50);
 }
+NEED_NO_BOX(GlobalNamespace::UnifiedNetworkPlayerModel::$$c__DisplayClass80_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UnifiedNetworkPlayerModel::$$c__DisplayClass80_0*, "", "UnifiedNetworkPlayerModel/<>c__DisplayClass80_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::UnifiedNetworkPlayerModel::$$c__DisplayClass80_0::$Refresh$b__0

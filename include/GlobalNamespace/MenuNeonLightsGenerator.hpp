@@ -163,6 +163,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MenuNeonLightsGenerator), 96 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_MenuNeonLightsGeneratorSizeCheck;
   static_assert(sizeof(MenuNeonLightsGenerator) == 0x6C);
 }
+NEED_NO_BOX(GlobalNamespace::MenuNeonLightsGenerator);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuNeonLightsGenerator*, "", "MenuNeonLightsGenerator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MenuNeonLightsGenerator::New_ctor

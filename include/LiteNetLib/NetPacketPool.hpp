@@ -92,6 +92,7 @@ namespace LiteNetLib {
   static check_size<sizeof(NetPacketPool), 32 + sizeof(int)> __LiteNetLib_NetPacketPoolSizeCheck;
   static_assert(sizeof(NetPacketPool) == 0x24);
 }
+NEED_NO_BOX(LiteNetLib::NetPacketPool);
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetPacketPool*, "LiteNetLib", "NetPacketPool");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::NetPacketPool::GetWithData

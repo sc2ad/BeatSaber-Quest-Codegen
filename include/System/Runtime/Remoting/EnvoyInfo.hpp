@@ -64,6 +64,7 @@ namespace System::Runtime::Remoting {
   static check_size<sizeof(EnvoyInfo), 16 + sizeof(System::Runtime::Remoting::Messaging::IMessageSink*)> __System_Runtime_Remoting_EnvoyInfoSizeCheck;
   static_assert(sizeof(EnvoyInfo) == 0x18);
 }
+NEED_NO_BOX(System::Runtime::Remoting::EnvoyInfo);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::EnvoyInfo*, "System.Runtime.Remoting", "EnvoyInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::EnvoyInfo::get_EnvoySinks

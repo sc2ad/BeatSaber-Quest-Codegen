@@ -129,6 +129,7 @@ namespace System::Net {
   static check_size<sizeof(SocketAddress), 36 + sizeof(int)> __System_Net_SocketAddressSizeCheck;
   static_assert(sizeof(SocketAddress) == 0x28);
 }
+NEED_NO_BOX(System::Net::SocketAddress);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::SocketAddress*, "System.Net", "SocketAddress");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::SocketAddress::get_Family

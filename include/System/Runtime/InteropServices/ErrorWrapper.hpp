@@ -39,5 +39,6 @@ namespace System::Runtime::InteropServices {
   static_assert(sizeof(ErrorWrapper) == 0x14);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Runtime::InteropServices::ErrorWrapper);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::ErrorWrapper*, "System.Runtime.InteropServices", "ErrorWrapper");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

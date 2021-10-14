@@ -55,6 +55,7 @@ namespace UnityEngine {
   static check_size<sizeof(ContextMenuItemAttribute), 24 + sizeof(::Il2CppString*)> __UnityEngine_ContextMenuItemAttributeSizeCheck;
   static_assert(sizeof(ContextMenuItemAttribute) == 0x20);
 }
+NEED_NO_BOX(UnityEngine::ContextMenuItemAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ContextMenuItemAttribute*, "UnityEngine", "ContextMenuItemAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ContextMenuItemAttribute::New_ctor

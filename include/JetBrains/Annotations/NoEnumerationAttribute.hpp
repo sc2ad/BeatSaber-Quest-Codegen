@@ -34,6 +34,7 @@ namespace JetBrains::Annotations {
   }; // JetBrains.Annotations.NoEnumerationAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(JetBrains::Annotations::NoEnumerationAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::NoEnumerationAttribute*, "JetBrains.Annotations", "NoEnumerationAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: JetBrains::Annotations::NoEnumerationAttribute::New_ctor

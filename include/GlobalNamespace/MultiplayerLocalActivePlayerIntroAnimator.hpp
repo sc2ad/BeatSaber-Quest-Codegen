@@ -67,6 +67,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerLocalActivePlayerIntroAnimator), 24 + sizeof(UnityEngine::Playables::PlayableDirector*)> __GlobalNamespace_MultiplayerLocalActivePlayerIntroAnimatorSizeCheck;
   static_assert(sizeof(MultiplayerLocalActivePlayerIntroAnimator) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator*, "", "MultiplayerLocalActivePlayerIntroAnimator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator::SetBeforeIntroValues

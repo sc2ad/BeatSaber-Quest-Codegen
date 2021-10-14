@@ -34,6 +34,7 @@ namespace JetBrains::Annotations {
   }; // JetBrains.Annotations.RazorLayoutAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(JetBrains::Annotations::RazorLayoutAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::RazorLayoutAttribute*, "JetBrains.Annotations", "RazorLayoutAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: JetBrains::Annotations::RazorLayoutAttribute::New_ctor

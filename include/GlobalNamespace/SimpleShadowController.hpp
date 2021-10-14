@@ -130,6 +130,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SimpleShadowController), 64 + sizeof(UnityEngine::Transform*)> __GlobalNamespace_SimpleShadowControllerSizeCheck;
   static_assert(sizeof(SimpleShadowController) == 0x48);
 }
+NEED_NO_BOX(GlobalNamespace::SimpleShadowController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleShadowController*, "", "SimpleShadowController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SimpleShadowController::Start

@@ -229,6 +229,7 @@ namespace HMUI {
   static check_size<sizeof(AlphabetScrollbar), 108 + sizeof(bool)> __HMUI_AlphabetScrollbarSizeCheck;
   static_assert(sizeof(AlphabetScrollbar) == 0x6D);
 }
+NEED_NO_BOX(HMUI::AlphabetScrollbar);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::AlphabetScrollbar*, "HMUI", "AlphabetScrollbar");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::AlphabetScrollbar::Awake

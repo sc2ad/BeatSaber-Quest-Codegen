@@ -69,6 +69,7 @@ namespace Zenject {
   static check_size<sizeof(SceneContext::$$c__DisplayClass51_0), 16 + sizeof(System::Collections::Generic::IEnumerable_1<Zenject::DiContainer*>*)> __Zenject_SceneContext_$$c__DisplayClass51_0SizeCheck;
   static_assert(sizeof(SceneContext::$$c__DisplayClass51_0) == 0x18);
 }
+NEED_NO_BOX(Zenject::SceneContext::$$c__DisplayClass51_0);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SceneContext::$$c__DisplayClass51_0*, "Zenject", "SceneContext/<>c__DisplayClass51_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::SceneContext::$$c__DisplayClass51_0::$Install$b__0

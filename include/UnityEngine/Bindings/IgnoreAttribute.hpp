@@ -59,6 +59,7 @@ namespace UnityEngine::Bindings {
   static check_size<sizeof(IgnoreAttribute), 16 + sizeof(bool)> __UnityEngine_Bindings_IgnoreAttributeSizeCheck;
   static_assert(sizeof(IgnoreAttribute) == 0x11);
 }
+NEED_NO_BOX(UnityEngine::Bindings::IgnoreAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::IgnoreAttribute*, "UnityEngine.Bindings", "IgnoreAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Bindings::IgnoreAttribute::set_DoesNotContributeToSize

@@ -260,6 +260,7 @@ namespace MasterServer {
   static check_size<sizeof(BaseClientMessageHandler), 168 + sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Threading::Tasks::Task*>*)> __MasterServer_BaseClientMessageHandlerSizeCheck;
   static_assert(sizeof(BaseClientMessageHandler) == 0xB0);
 }
+NEED_NO_BOX(MasterServer::BaseClientMessageHandler);
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::BaseClientMessageHandler*, "MasterServer", "BaseClientMessageHandler");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: MasterServer::BaseClientMessageHandler::get_endPoint

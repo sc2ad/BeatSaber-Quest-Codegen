@@ -69,6 +69,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_HoudiniAsset::$$c__DisplayClass365_1), 24 + sizeof(HoudiniEngineUnity::HEU_HoudiniAsset::$$c__DisplayClass365_0*)> __HoudiniEngineUnity_HEU_HoudiniAsset_$$c__DisplayClass365_1SizeCheck;
   static_assert(sizeof(HEU_HoudiniAsset::$$c__DisplayClass365_1) == 0x20);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_HoudiniAsset::$$c__DisplayClass365_1);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_HoudiniAsset::$$c__DisplayClass365_1*, "HoudiniEngineUnity", "HEU_HoudiniAsset/<>c__DisplayClass365_1");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HoudiniAsset::$$c__DisplayClass365_1::$CopyPropertiesTo$b__0

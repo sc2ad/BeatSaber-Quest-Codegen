@@ -126,6 +126,7 @@ namespace LiteNetLib::Utils {
   static check_size<sizeof(NtpRequest), 32 + sizeof(System::Net::IPEndPoint*)> __LiteNetLib_Utils_NtpRequestSizeCheck;
   static_assert(sizeof(NtpRequest) == 0x28);
 }
+NEED_NO_BOX(LiteNetLib::Utils::NtpRequest);
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::NtpRequest*, "LiteNetLib.Utils", "NtpRequest");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpRequest::New_ctor

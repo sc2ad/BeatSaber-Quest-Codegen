@@ -223,6 +223,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(AnnotatedBeatmapLevelCollectionCell), 184 + sizeof(System::Threading::CancellationTokenSource*)> __GlobalNamespace_AnnotatedBeatmapLevelCollectionCellSizeCheck;
   static_assert(sizeof(AnnotatedBeatmapLevelCollectionCell) == 0xC0);
 }
+NEED_NO_BOX(GlobalNamespace::AnnotatedBeatmapLevelCollectionCell);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AnnotatedBeatmapLevelCollectionCell*, "", "AnnotatedBeatmapLevelCollectionCell");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::get_cellIndex

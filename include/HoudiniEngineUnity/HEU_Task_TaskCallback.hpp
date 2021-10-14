@@ -50,6 +50,7 @@ namespace HoudiniEngineUnity {
   }; // HoudiniEngineUnity.HEU_Task/HoudiniEngineUnity.TaskCallback
   #pragma pack(pop)
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_Task::TaskCallback);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_Task::TaskCallback*, "HoudiniEngineUnity", "HEU_Task/TaskCallback");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Task::TaskCallback::New_ctor

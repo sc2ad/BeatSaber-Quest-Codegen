@@ -170,6 +170,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
   static check_size<sizeof(Sha1Digest), 72 + sizeof(int)> __Org_BouncyCastle_Crypto_Digests_Sha1DigestSizeCheck;
   static_assert(sizeof(Sha1Digest) == 0x4C);
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Digests::Sha1Digest);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::Sha1Digest*, "Org.BouncyCastle.Crypto.Digests", "Sha1Digest");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::Sha1Digest::New_ctor

@@ -62,6 +62,7 @@ namespace Valve::VR {
   }; // Valve.VR.IVROverlay/Valve.VR._GetTransformForOverlayCoordinates
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::IVROverlay::_GetTransformForOverlayCoordinates);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVROverlay::_GetTransformForOverlayCoordinates*, "Valve.VR", "IVROverlay/_GetTransformForOverlayCoordinates");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVROverlay::_GetTransformForOverlayCoordinates::New_ctor

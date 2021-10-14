@@ -249,6 +249,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SteamVR_TrackedObject), 48 + sizeof(GlobalNamespace::SteamVR_Events::Action*)> __GlobalNamespace_SteamVR_TrackedObjectSizeCheck;
   static_assert(sizeof(SteamVR_TrackedObject) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::SteamVR_TrackedObject);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_TrackedObject*, "", "SteamVR_TrackedObject");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_TrackedObject::EIndex, "", "SteamVR_TrackedObject/EIndex");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

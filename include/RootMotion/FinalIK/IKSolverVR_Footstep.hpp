@@ -192,6 +192,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(IKSolverVR::Footstep), 160 + sizeof(float)> __RootMotion_FinalIK_IKSolverVR_FootstepSizeCheck;
   static_assert(sizeof(IKSolverVR::Footstep) == 0xA4);
 }
+NEED_NO_BOX(RootMotion::FinalIK::IKSolverVR::Footstep);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverVR::Footstep*, "RootMotion.FinalIK", "IKSolverVR/Footstep");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Footstep::get_isStepping

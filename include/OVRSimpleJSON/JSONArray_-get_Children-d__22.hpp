@@ -123,6 +123,7 @@ namespace OVRSimpleJSON {
   }; // OVRSimpleJSON.JSONArray/OVRSimpleJSON.<get_Children>d__22
   // WARNING Not writing size check since size may be invalid!
 }
+NEED_NO_BOX(OVRSimpleJSON::JSONArray::$get_Children$d__22);
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONArray::$get_Children$d__22*, "OVRSimpleJSON", "JSONArray/<get_Children>d__22");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONArray::$get_Children$d__22::System_Collections_Generic_IEnumerator$OVRSimpleJSON_JSONNode$_get_Current

@@ -58,6 +58,7 @@ namespace Valve::VR {
   }; // Valve.VR.IVRCompositor/Valve.VR._GetLastPoseForTrackedDeviceIndex
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::IVRCompositor::_GetLastPoseForTrackedDeviceIndex);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRCompositor::_GetLastPoseForTrackedDeviceIndex*, "Valve.VR", "IVRCompositor/_GetLastPoseForTrackedDeviceIndex");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRCompositor::_GetLastPoseForTrackedDeviceIndex::New_ctor

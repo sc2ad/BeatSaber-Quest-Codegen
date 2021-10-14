@@ -56,6 +56,7 @@ namespace Valve::VR {
   }; // Valve.VR.IVRCompositor/Valve.VR._GetTrackingSpace
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::IVRCompositor::_GetTrackingSpace);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRCompositor::_GetTrackingSpace*, "Valve.VR", "IVRCompositor/_GetTrackingSpace");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRCompositor::_GetTrackingSpace::New_ctor

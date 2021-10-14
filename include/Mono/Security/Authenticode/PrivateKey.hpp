@@ -95,6 +95,7 @@ namespace Mono::Security::Authenticode {
   static check_size<sizeof(PrivateKey), 36 + sizeof(int)> __Mono_Security_Authenticode_PrivateKeySizeCheck;
   static_assert(sizeof(PrivateKey) == 0x28);
 }
+NEED_NO_BOX(Mono::Security::Authenticode::PrivateKey);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Authenticode::PrivateKey*, "Mono.Security.Authenticode", "PrivateKey");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Security::Authenticode::PrivateKey::get_RSA

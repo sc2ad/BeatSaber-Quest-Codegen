@@ -130,6 +130,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(DisconnectedPlayer), 40 + sizeof(GlobalNamespace::MultiplayerAvatarData)> __GlobalNamespace_DisconnectedPlayerSizeCheck;
   static_assert(sizeof(DisconnectedPlayer) == 0x98);
 }
+NEED_NO_BOX(GlobalNamespace::DisconnectedPlayer);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DisconnectedPlayer*, "", "DisconnectedPlayer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DisconnectedPlayer::get_offsetSyncTime

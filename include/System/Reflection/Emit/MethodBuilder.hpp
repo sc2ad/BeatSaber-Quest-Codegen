@@ -108,6 +108,7 @@ namespace System::Reflection::Emit {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Reflection::Emit::MethodBuilder);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Emit::MethodBuilder*, "System.Reflection.Emit", "MethodBuilder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::Emit::MethodBuilder::get_Attributes

@@ -84,6 +84,7 @@ namespace System::Net {
   static check_size<sizeof(SimpleAsyncResult::$$c__DisplayClass11_0), 32 + sizeof(System::Net::SimpleAsyncCallback*)> __System_Net_SimpleAsyncResult_$$c__DisplayClass11_0SizeCheck;
   static_assert(sizeof(SimpleAsyncResult::$$c__DisplayClass11_0) == 0x28);
 }
+NEED_NO_BOX(System::Net::SimpleAsyncResult::$$c__DisplayClass11_0);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::SimpleAsyncResult::$$c__DisplayClass11_0*, "System.Net", "SimpleAsyncResult/<>c__DisplayClass11_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::SimpleAsyncResult::$$c__DisplayClass11_0::$RunWithLock$b__0

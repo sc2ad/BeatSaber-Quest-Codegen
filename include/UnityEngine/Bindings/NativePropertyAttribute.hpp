@@ -78,6 +78,7 @@ namespace UnityEngine::Bindings {
   static check_size<sizeof(NativePropertyAttribute), 28 + sizeof(UnityEngine::Bindings::TargetType)> __UnityEngine_Bindings_NativePropertyAttributeSizeCheck;
   static_assert(sizeof(NativePropertyAttribute) == 0x20);
 }
+NEED_NO_BOX(UnityEngine::Bindings::NativePropertyAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::NativePropertyAttribute*, "UnityEngine.Bindings", "NativePropertyAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Bindings::NativePropertyAttribute::set_TargetType

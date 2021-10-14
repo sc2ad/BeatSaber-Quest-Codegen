@@ -165,6 +165,7 @@ namespace UnityEngine {
   }; // UnityEngine.Canvas
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::Canvas);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Canvas*, "UnityEngine", "Canvas");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Canvas::get_renderMode

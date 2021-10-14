@@ -130,6 +130,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(UnifiedNetworkPlayerModel::$get_friends$d__66), 48 + sizeof(System::Collections::Generic::IEnumerator_1<GlobalNamespace::INetworkPlayer*>*)> __GlobalNamespace_UnifiedNetworkPlayerModel_$get_friends$d__66SizeCheck;
   static_assert(sizeof(UnifiedNetworkPlayerModel::$get_friends$d__66) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::UnifiedNetworkPlayerModel::$get_friends$d__66);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UnifiedNetworkPlayerModel::$get_friends$d__66*, "", "UnifiedNetworkPlayerModel/<get_friends>d__66");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::UnifiedNetworkPlayerModel::$get_friends$d__66::System_Collections_Generic_IEnumerator$INetworkPlayer$_get_Current

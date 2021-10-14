@@ -61,6 +61,7 @@ namespace Valve::VR {
   }; // Valve.VR.IVROverlay/Valve.VR._GetOverlayTransformTrackedDeviceComponent
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::IVROverlay::_GetOverlayTransformTrackedDeviceComponent);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVROverlay::_GetOverlayTransformTrackedDeviceComponent*, "Valve.VR", "IVROverlay/_GetOverlayTransformTrackedDeviceComponent");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVROverlay::_GetOverlayTransformTrackedDeviceComponent::New_ctor

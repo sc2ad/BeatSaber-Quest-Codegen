@@ -210,6 +210,7 @@ namespace UnityEngine::UI {
   static check_size<sizeof(LayoutElement), 52 + sizeof(int)> __UnityEngine_UI_LayoutElementSizeCheck;
   static_assert(sizeof(LayoutElement) == 0x38);
 }
+NEED_NO_BOX(UnityEngine::UI::LayoutElement);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::LayoutElement*, "UnityEngine.UI", "LayoutElement");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutElement::get_ignoreLayout

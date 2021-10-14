@@ -82,6 +82,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BloomPrePassBackgroundParticleSystemRenderer), 56 + sizeof(UnityEngine::Renderer*)> __GlobalNamespace_BloomPrePassBackgroundParticleSystemRendererSizeCheck;
   static_assert(sizeof(BloomPrePassBackgroundParticleSystemRenderer) == 0x40);
 }
+NEED_NO_BOX(GlobalNamespace::BloomPrePassBackgroundParticleSystemRenderer);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassBackgroundParticleSystemRenderer*, "", "BloomPrePassBackgroundParticleSystemRenderer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePassBackgroundParticleSystemRenderer::get_renderer

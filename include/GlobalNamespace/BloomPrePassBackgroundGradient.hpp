@@ -72,6 +72,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BloomPrePassBackgroundGradient), 64 + sizeof(UnityEngine::Gradient*)> __GlobalNamespace_BloomPrePassBackgroundGradientSizeCheck;
   static_assert(sizeof(BloomPrePassBackgroundGradient) == 0x48);
 }
+NEED_NO_BOX(GlobalNamespace::BloomPrePassBackgroundGradient);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassBackgroundGradient*, "", "BloomPrePassBackgroundGradient");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePassBackgroundGradient::New_ctor

@@ -55,6 +55,7 @@ namespace UnityEngine::Networking {
   static_assert(sizeof(CertificateHandler) == 0x18);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::Networking::CertificateHandler);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::CertificateHandler*, "UnityEngine.Networking", "CertificateHandler");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Networking::CertificateHandler::Release

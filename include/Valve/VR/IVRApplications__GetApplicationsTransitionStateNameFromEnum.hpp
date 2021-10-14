@@ -56,6 +56,7 @@ namespace Valve::VR {
   }; // Valve.VR.IVRApplications/Valve.VR._GetApplicationsTransitionStateNameFromEnum
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::IVRApplications::_GetApplicationsTransitionStateNameFromEnum);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRApplications::_GetApplicationsTransitionStateNameFromEnum*, "Valve.VR", "IVRApplications/_GetApplicationsTransitionStateNameFromEnum");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRApplications::_GetApplicationsTransitionStateNameFromEnum::New_ctor

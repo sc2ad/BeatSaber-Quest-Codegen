@@ -67,6 +67,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(Constraint), 24 + sizeof(float)> __RootMotion_FinalIK_ConstraintSizeCheck;
   static_assert(sizeof(Constraint) == 0x1C);
 }
+NEED_NO_BOX(RootMotion::FinalIK::Constraint);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Constraint*, "RootMotion.FinalIK", "Constraint");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::Constraint::get_isValid

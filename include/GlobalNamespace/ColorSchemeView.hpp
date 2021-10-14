@@ -101,6 +101,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ColorSchemeView), 56 + sizeof(UnityEngine::UI::Image*)> __GlobalNamespace_ColorSchemeViewSizeCheck;
   static_assert(sizeof(ColorSchemeView) == 0x40);
 }
+NEED_NO_BOX(GlobalNamespace::ColorSchemeView);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSchemeView*, "", "ColorSchemeView");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ColorSchemeView::SetColors

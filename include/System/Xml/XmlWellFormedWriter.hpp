@@ -1093,6 +1093,7 @@ namespace System::Xml {
   static check_size<sizeof(XmlWellFormedWriter), 168 + sizeof(System::Xml::SecureStringHasher*)> __System_Xml_XmlWellFormedWriterSizeCheck;
   static_assert(sizeof(XmlWellFormedWriter) == 0xB0);
 }
+NEED_NO_BOX(System::Xml::XmlWellFormedWriter);
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter*, "System.Xml", "XmlWellFormedWriter");
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::State, "System.Xml", "XmlWellFormedWriter/State");
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::ElementScope, "System.Xml", "XmlWellFormedWriter/ElementScope");

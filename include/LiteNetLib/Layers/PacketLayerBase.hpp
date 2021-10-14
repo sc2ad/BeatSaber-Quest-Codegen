@@ -62,6 +62,7 @@ namespace LiteNetLib::Layers {
   static check_size<sizeof(PacketLayerBase), 16 + sizeof(int)> __LiteNetLib_Layers_PacketLayerBaseSizeCheck;
   static_assert(sizeof(PacketLayerBase) == 0x14);
 }
+NEED_NO_BOX(LiteNetLib::Layers::PacketLayerBase);
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Layers::PacketLayerBase*, "LiteNetLib.Layers", "PacketLayerBase");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::Layers::PacketLayerBase::New_ctor

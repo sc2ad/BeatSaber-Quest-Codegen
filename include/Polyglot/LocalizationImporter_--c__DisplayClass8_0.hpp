@@ -63,6 +63,7 @@ namespace Polyglot {
   static check_size<sizeof(LocalizationImporter::$$c__DisplayClass8_0), 16 + sizeof(Polyglot::Localization*)> __Polyglot_LocalizationImporter_$$c__DisplayClass8_0SizeCheck;
   static_assert(sizeof(LocalizationImporter::$$c__DisplayClass8_0) == 0x18);
 }
+NEED_NO_BOX(Polyglot::LocalizationImporter::$$c__DisplayClass8_0);
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::LocalizationImporter::$$c__DisplayClass8_0*, "Polyglot", "LocalizationImporter/<>c__DisplayClass8_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Polyglot::LocalizationImporter::$$c__DisplayClass8_0::$DownloadCustomSheet$b__0

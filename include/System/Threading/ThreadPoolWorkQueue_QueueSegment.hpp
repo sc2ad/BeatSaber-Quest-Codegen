@@ -89,6 +89,7 @@ namespace System::Threading {
   static check_size<sizeof(ThreadPoolWorkQueue::QueueSegment), 32 + sizeof(System::Threading::ThreadPoolWorkQueue::QueueSegment*)> __System_Threading_ThreadPoolWorkQueue_QueueSegmentSizeCheck;
   static_assert(sizeof(ThreadPoolWorkQueue::QueueSegment) == 0x28);
 }
+NEED_NO_BOX(System::Threading::ThreadPoolWorkQueue::QueueSegment);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ThreadPoolWorkQueue::QueueSegment*, "System.Threading", "ThreadPoolWorkQueue/QueueSegment");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::ThreadPoolWorkQueue::QueueSegment::GetIndexes

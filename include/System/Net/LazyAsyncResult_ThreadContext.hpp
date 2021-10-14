@@ -52,6 +52,7 @@ namespace System::Net {
   static check_size<sizeof(LazyAsyncResult::ThreadContext), 16 + sizeof(int)> __System_Net_LazyAsyncResult_ThreadContextSizeCheck;
   static_assert(sizeof(LazyAsyncResult::ThreadContext) == 0x14);
 }
+NEED_NO_BOX(System::Net::LazyAsyncResult::ThreadContext);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::LazyAsyncResult::ThreadContext*, "System.Net", "LazyAsyncResult/ThreadContext");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::LazyAsyncResult::ThreadContext::New_ctor

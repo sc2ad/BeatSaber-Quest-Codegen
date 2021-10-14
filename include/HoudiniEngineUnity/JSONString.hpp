@@ -104,6 +104,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(JSONString), 16 + sizeof(::Il2CppString*)> __HoudiniEngineUnity_JSONStringSizeCheck;
   static_assert(sizeof(JSONString) == 0x18);
 }
+NEED_NO_BOX(HoudiniEngineUnity::JSONString);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::JSONString*, "HoudiniEngineUnity", "JSONString");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONString::New_ctor

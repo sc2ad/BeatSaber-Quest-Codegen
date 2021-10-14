@@ -52,6 +52,7 @@ namespace UnityEngine::Experimental::Rendering {
   }; // UnityEngine.Experimental.Rendering.BuiltinRuntimeReflectionSystem
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem*, "UnityEngine.Experimental.Rendering", "BuiltinRuntimeReflectionSystem");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::TickRealtimeProbes

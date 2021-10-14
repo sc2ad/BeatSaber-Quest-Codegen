@@ -40,6 +40,7 @@ namespace System::Net::NetworkInformation {
   }; // System.Net.NetworkInformation.UnixNoLibCIPGlobalProperties
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Net::NetworkInformation::UnixNoLibCIPGlobalProperties);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::UnixNoLibCIPGlobalProperties*, "System.Net.NetworkInformation", "UnixNoLibCIPGlobalProperties");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::NetworkInformation::UnixNoLibCIPGlobalProperties::get_DomainName

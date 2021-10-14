@@ -579,6 +579,7 @@ namespace System::Diagnostics {
   static check_size<sizeof(Process), 232 + sizeof(::Il2CppString*)> __System_Diagnostics_ProcessSizeCheck;
   static_assert(sizeof(Process) == 0xF0);
 }
+NEED_NO_BOX(System::Diagnostics::Process);
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Process*, "System.Diagnostics", "Process");
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Process::StreamReadMode, "System.Diagnostics", "Process/StreamReadMode");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -112,6 +112,7 @@ namespace HMUI {
   static check_size<sizeof(TableCell), 72 + sizeof(HMUI::ITableCellOwner*)> __HMUI_TableCellSizeCheck;
   static_assert(sizeof(TableCell) == 0x50);
 }
+NEED_NO_BOX(HMUI::TableCell);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TableCell*, "HMUI", "TableCell");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::TableCell::get_reuseIdentifier

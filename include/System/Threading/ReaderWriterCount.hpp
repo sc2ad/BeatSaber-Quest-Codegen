@@ -80,6 +80,7 @@ namespace System::Threading {
   static check_size<sizeof(ReaderWriterCount), 40 + sizeof(System::Threading::ReaderWriterCount*)> __System_Threading_ReaderWriterCountSizeCheck;
   static_assert(sizeof(ReaderWriterCount) == 0x30);
 }
+NEED_NO_BOX(System::Threading::ReaderWriterCount);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ReaderWriterCount*, "System.Threading", "ReaderWriterCount");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::ReaderWriterCount::New_ctor

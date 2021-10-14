@@ -41,6 +41,7 @@ namespace GlobalNamespace {
   }; // DistanceObjectiveValueFormatterSO
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::DistanceObjectiveValueFormatterSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DistanceObjectiveValueFormatterSO*, "", "DistanceObjectiveValueFormatterSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DistanceObjectiveValueFormatterSO::New_ctor

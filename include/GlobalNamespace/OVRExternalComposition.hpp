@@ -245,6 +245,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRExternalComposition), 184 + sizeof(int)> __GlobalNamespace_OVRExternalCompositionSizeCheck;
   static_assert(sizeof(OVRExternalComposition) == 0xBC);
 }
+NEED_NO_BOX(GlobalNamespace::OVRExternalComposition);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRExternalComposition*, "", "OVRExternalComposition");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRExternalComposition::RefreshCameraObjects

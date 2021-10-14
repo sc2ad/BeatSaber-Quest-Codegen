@@ -125,6 +125,7 @@ namespace UnityEngine::ProBuilder {
   }; // UnityEngine.ProBuilder.InternalUtility
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::InternalUtility);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::InternalUtility*, "UnityEngine.ProBuilder", "InternalUtility");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::InternalUtility::GetComponents

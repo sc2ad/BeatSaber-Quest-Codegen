@@ -82,6 +82,7 @@ namespace Org::BouncyCastle::Utilities::Collections {
   }; // Org.BouncyCastle.Utilities.Collections.UnmodifiableDictionary
   #pragma pack(pop)
 }
+NEED_NO_BOX(Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionary);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionary*, "Org.BouncyCastle.Utilities.Collections", "UnmodifiableDictionary");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionary::get_Count

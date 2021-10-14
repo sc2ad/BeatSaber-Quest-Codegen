@@ -133,6 +133,7 @@ namespace Mono::Security::Cryptography {
   static check_size<sizeof(MD4Managed), 72 + sizeof(::ArrayW<uint8_t>)> __Mono_Security_Cryptography_MD4ManagedSizeCheck;
   static_assert(sizeof(MD4Managed) == 0x50);
 }
+NEED_NO_BOX(Mono::Security::Cryptography::MD4Managed);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::MD4Managed*, "Mono.Security.Cryptography", "MD4Managed");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Security::Cryptography::MD4Managed::Padding

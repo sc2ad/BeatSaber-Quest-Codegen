@@ -138,6 +138,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRDebugHeadController), 48 + sizeof(GlobalNamespace::OVRCameraRig*)> __GlobalNamespace_OVRDebugHeadControllerSizeCheck;
   static_assert(sizeof(OVRDebugHeadController) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::OVRDebugHeadController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRDebugHeadController*, "", "OVRDebugHeadController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRDebugHeadController::Awake

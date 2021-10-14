@@ -62,6 +62,7 @@ namespace Zenject {
   }; // Zenject.ConventionAssemblySelectionBinder/Zenject.<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(Zenject::ConventionAssemblySelectionBinder::$$c);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ConventionAssemblySelectionBinder::$$c*, "Zenject", "ConventionAssemblySelectionBinder/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::ConventionAssemblySelectionBinder::$$c::_cctor

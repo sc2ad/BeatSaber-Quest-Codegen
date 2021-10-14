@@ -54,6 +54,7 @@ namespace Valve::VR {
   }; // Valve.VR.IVRChaperoneSetup/Valve.VR._GetLivePhysicalBoundsInfo
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::IVRChaperoneSetup::_GetLivePhysicalBoundsInfo);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRChaperoneSetup::_GetLivePhysicalBoundsInfo*, "Valve.VR", "IVRChaperoneSetup/_GetLivePhysicalBoundsInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRChaperoneSetup::_GetLivePhysicalBoundsInfo::New_ctor

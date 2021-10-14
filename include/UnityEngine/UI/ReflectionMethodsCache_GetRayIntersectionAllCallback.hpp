@@ -58,6 +58,7 @@ namespace UnityEngine::UI {
   }; // UnityEngine.UI.ReflectionMethodsCache/UnityEngine.UI.GetRayIntersectionAllCallback
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllCallback);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllCallback*, "UnityEngine.UI", "ReflectionMethodsCache/GetRayIntersectionAllCallback");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllCallback::New_ctor

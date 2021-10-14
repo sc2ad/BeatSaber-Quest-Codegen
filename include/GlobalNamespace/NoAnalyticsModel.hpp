@@ -62,6 +62,7 @@ namespace GlobalNamespace {
   }; // NoAnalyticsModel
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::NoAnalyticsModel);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoAnalyticsModel*, "", "NoAnalyticsModel");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoAnalyticsModel::get_supportsOpenDataPrivacyPage

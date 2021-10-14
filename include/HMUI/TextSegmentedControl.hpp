@@ -174,6 +174,7 @@ namespace HMUI {
   static check_size<sizeof(TextSegmentedControl), 144 + sizeof(System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*)> __HMUI_TextSegmentedControlSizeCheck;
   static_assert(sizeof(TextSegmentedControl) == 0x98);
 }
+NEED_NO_BOX(HMUI::TextSegmentedControl);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TextSegmentedControl*, "HMUI", "TextSegmentedControl");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::TextSegmentedControl::SetTexts

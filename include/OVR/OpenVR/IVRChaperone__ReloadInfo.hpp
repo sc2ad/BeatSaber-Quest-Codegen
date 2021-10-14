@@ -51,6 +51,7 @@ namespace OVR::OpenVR {
   }; // OVR.OpenVR.IVRChaperone/OVR.OpenVR._ReloadInfo
   #pragma pack(pop)
 }
+NEED_NO_BOX(OVR::OpenVR::IVRChaperone::_ReloadInfo);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRChaperone::_ReloadInfo*, "OVR.OpenVR", "IVRChaperone/_ReloadInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVRChaperone::_ReloadInfo::New_ctor

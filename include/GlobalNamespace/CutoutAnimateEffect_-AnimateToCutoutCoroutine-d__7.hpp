@@ -118,6 +118,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(CutoutAnimateEffect::$AnimateToCutoutCoroutine$d__7), 52 + sizeof(float)> __GlobalNamespace_CutoutAnimateEffect_$AnimateToCutoutCoroutine$d__7SizeCheck;
   static_assert(sizeof(CutoutAnimateEffect::$AnimateToCutoutCoroutine$d__7) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::CutoutAnimateEffect::$AnimateToCutoutCoroutine$d__7);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CutoutAnimateEffect::$AnimateToCutoutCoroutine$d__7*, "", "CutoutAnimateEffect/<AnimateToCutoutCoroutine>d__7");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CutoutAnimateEffect::$AnimateToCutoutCoroutine$d__7::System_Collections_Generic_IEnumerator$System_Object$_get_Current

@@ -127,6 +127,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(FullBodyBipedIK), 64 + sizeof(RootMotion::FinalIK::IKSolverFullBodyBiped*)> __RootMotion_FinalIK_FullBodyBipedIKSizeCheck;
   static_assert(sizeof(FullBodyBipedIK) == 0x48);
 }
+NEED_NO_BOX(RootMotion::FinalIK::FullBodyBipedIK);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FullBodyBipedIK*, "RootMotion.FinalIK", "FullBodyBipedIK");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::FullBodyBipedIK::OpenSetupTutorial

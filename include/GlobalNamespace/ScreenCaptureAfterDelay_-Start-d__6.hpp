@@ -86,6 +86,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ScreenCaptureAfterDelay::$Start$d__6), 32 + sizeof(GlobalNamespace::ScreenCaptureAfterDelay*)> __GlobalNamespace_ScreenCaptureAfterDelay_$Start$d__6SizeCheck;
   static_assert(sizeof(ScreenCaptureAfterDelay::$Start$d__6) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::ScreenCaptureAfterDelay::$Start$d__6);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScreenCaptureAfterDelay::$Start$d__6*, "", "ScreenCaptureAfterDelay/<Start>d__6");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ScreenCaptureAfterDelay::$Start$d__6::System_Collections_Generic_IEnumerator$System_Object$_get_Current

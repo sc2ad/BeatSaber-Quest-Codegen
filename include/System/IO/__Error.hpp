@@ -57,6 +57,7 @@ namespace System::IO {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::IO::__Error);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::__Error*, "System.IO", "__Error");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::__Error::EndOfFile

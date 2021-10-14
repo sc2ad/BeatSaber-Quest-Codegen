@@ -60,6 +60,7 @@ namespace System::Text {
   }; // System.Text.EncoderExceptionFallback
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Text::EncoderExceptionFallback);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::EncoderExceptionFallback*, "System.Text", "EncoderExceptionFallback");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::EncoderExceptionFallback::get_MaxCharCount

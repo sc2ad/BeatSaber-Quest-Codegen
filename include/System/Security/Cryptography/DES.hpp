@@ -78,6 +78,7 @@ namespace System::Security::Cryptography {
   }; // System.Security.Cryptography.DES
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Security::Cryptography::DES);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::DES*, "System.Security.Cryptography", "DES");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::DES::_cctor

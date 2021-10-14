@@ -79,6 +79,7 @@ namespace HMUI {
   static check_size<sizeof(ButtonSpriteSwapToggle), 75 + sizeof(bool)> __HMUI_ButtonSpriteSwapToggleSizeCheck;
   static_assert(sizeof(ButtonSpriteSwapToggle) == 0x4C);
 }
+NEED_NO_BOX(HMUI::ButtonSpriteSwapToggle);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ButtonSpriteSwapToggle*, "HMUI", "ButtonSpriteSwapToggle");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::ButtonSpriteSwapToggle::New_ctor

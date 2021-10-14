@@ -69,6 +69,7 @@ namespace UnityEngine::Timeline {
   static check_size<sizeof(TrackClipTypeAttribute), 24 + sizeof(bool)> __UnityEngine_Timeline_TrackClipTypeAttributeSizeCheck;
   static_assert(sizeof(TrackClipTypeAttribute) == 0x19);
 }
+NEED_NO_BOX(UnityEngine::Timeline::TrackClipTypeAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TrackClipTypeAttribute*, "UnityEngine.Timeline", "TrackClipTypeAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::TrackClipTypeAttribute::New_ctor

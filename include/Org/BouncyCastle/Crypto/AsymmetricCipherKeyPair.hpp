@@ -65,6 +65,7 @@ namespace Org::BouncyCastle::Crypto {
   static check_size<sizeof(AsymmetricCipherKeyPair), 24 + sizeof(Org::BouncyCastle::Crypto::AsymmetricKeyParameter*)> __Org_BouncyCastle_Crypto_AsymmetricCipherKeyPairSizeCheck;
   static_assert(sizeof(AsymmetricCipherKeyPair) == 0x20);
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair*, "Org.BouncyCastle.Crypto", "AsymmetricCipherKeyPair");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair::get_Public

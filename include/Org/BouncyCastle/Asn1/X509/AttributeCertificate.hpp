@@ -91,6 +91,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
   static check_size<sizeof(AttributeCertificate), 32 + sizeof(Org::BouncyCastle::Asn1::DerBitString*)> __Org_BouncyCastle_Asn1_X509_AttributeCertificateSizeCheck;
   static_assert(sizeof(AttributeCertificate) == 0x28);
 }
+NEED_NO_BOX(Org::BouncyCastle::Asn1::X509::AttributeCertificate);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::AttributeCertificate*, "Org.BouncyCastle.Asn1.X509", "AttributeCertificate");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::AttributeCertificate::get_ACInfo

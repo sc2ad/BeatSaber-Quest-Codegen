@@ -103,6 +103,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(NoteTrailEffect), 40 + sizeof(GlobalNamespace::NoteTrailParticleSystem*)> __GlobalNamespace_NoteTrailEffectSizeCheck;
   static_assert(sizeof(NoteTrailEffect) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::NoteTrailEffect);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteTrailEffect*, "", "NoteTrailEffect");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteTrailEffect::Awake

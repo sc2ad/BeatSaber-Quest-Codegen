@@ -51,6 +51,7 @@ namespace GlobalNamespace {
   }; // LevelMissionParser/ParserFunction
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::LevelMissionParser::ParserFunction);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelMissionParser::ParserFunction*, "", "LevelMissionParser/ParserFunction");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LevelMissionParser::ParserFunction::New_ctor

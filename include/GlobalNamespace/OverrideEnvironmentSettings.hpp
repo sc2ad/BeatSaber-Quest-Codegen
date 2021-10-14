@@ -77,6 +77,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OverrideEnvironmentSettings), 24 + sizeof(System::Collections::Generic::Dictionary_2<GlobalNamespace::EnvironmentTypeSO*, GlobalNamespace::EnvironmentInfoSO*>*)> __GlobalNamespace_OverrideEnvironmentSettingsSizeCheck;
   static_assert(sizeof(OverrideEnvironmentSettings) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::OverrideEnvironmentSettings);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OverrideEnvironmentSettings*, "", "OverrideEnvironmentSettings");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OverrideEnvironmentSettings::SetEnvironmentInfoForType

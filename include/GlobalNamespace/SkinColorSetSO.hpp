@@ -64,6 +64,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SkinColorSetSO), 24 + sizeof(::ArrayW<GlobalNamespace::SkinColorSO*>)> __GlobalNamespace_SkinColorSetSOSizeCheck;
   static_assert(sizeof(SkinColorSetSO) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::SkinColorSetSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SkinColorSetSO*, "", "SkinColorSetSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SkinColorSetSO::get_colors

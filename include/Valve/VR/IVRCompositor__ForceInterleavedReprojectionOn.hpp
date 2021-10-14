@@ -51,6 +51,7 @@ namespace Valve::VR {
   }; // Valve.VR.IVRCompositor/Valve.VR._ForceInterleavedReprojectionOn
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::IVRCompositor::_ForceInterleavedReprojectionOn);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRCompositor::_ForceInterleavedReprojectionOn*, "Valve.VR", "IVRCompositor/_ForceInterleavedReprojectionOn");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRCompositor::_ForceInterleavedReprojectionOn::New_ctor

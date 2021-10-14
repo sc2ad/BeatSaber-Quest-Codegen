@@ -75,6 +75,7 @@ namespace System::Security::Cryptography::X509Certificates {
   static check_size<sizeof(X509Extension), 32 + sizeof(bool)> __System_Security_Cryptography_X509Certificates_X509ExtensionSizeCheck;
   static_assert(sizeof(X509Extension) == 0x21);
 }
+NEED_NO_BOX(System::Security::Cryptography::X509Certificates::X509Extension);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509Extension*, "System.Security.Cryptography.X509Certificates", "X509Extension");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509Extension::get_Critical

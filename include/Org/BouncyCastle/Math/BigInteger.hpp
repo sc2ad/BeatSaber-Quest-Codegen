@@ -494,6 +494,7 @@ namespace Org::BouncyCastle::Math {
   static check_size<sizeof(BigInteger), 36 + sizeof(int)> __Org_BouncyCastle_Math_BigIntegerSizeCheck;
   static_assert(sizeof(BigInteger) == 0x28);
 }
+NEED_NO_BOX(Org::BouncyCastle::Math::BigInteger);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::BigInteger*, "Org.BouncyCastle.Math", "BigInteger");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::BigInteger::get_BitCount

@@ -37,6 +37,7 @@ namespace Org::BouncyCastle::Crypto::Generators {
   }; // Org.BouncyCastle.Crypto.Generators.Kdf2BytesGenerator
   #pragma pack(pop)
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Generators::Kdf2BytesGenerator);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Generators::Kdf2BytesGenerator*, "Org.BouncyCastle.Crypto.Generators", "Kdf2BytesGenerator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Generators::Kdf2BytesGenerator::New_ctor

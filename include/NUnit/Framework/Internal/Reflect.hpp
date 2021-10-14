@@ -98,6 +98,7 @@ namespace NUnit::Framework::Internal {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(NUnit::Framework::Internal::Reflect);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Reflect*, "NUnit.Framework.Internal", "Reflect");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Reflect::get_MethodCallWrapper

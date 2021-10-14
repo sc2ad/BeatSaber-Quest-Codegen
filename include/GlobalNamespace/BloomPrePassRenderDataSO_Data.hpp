@@ -101,6 +101,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BloomPrePassRenderDataSO::Data), 164 + sizeof(GlobalNamespace::ToneMapping)> __GlobalNamespace_BloomPrePassRenderDataSO_DataSizeCheck;
   static_assert(sizeof(BloomPrePassRenderDataSO::Data) == 0xA8);
 }
+NEED_NO_BOX(GlobalNamespace::BloomPrePassRenderDataSO::Data);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassRenderDataSO::Data*, "", "BloomPrePassRenderDataSO/Data");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePassRenderDataSO::Data::New_ctor

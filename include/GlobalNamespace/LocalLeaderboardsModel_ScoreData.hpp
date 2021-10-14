@@ -76,6 +76,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LocalLeaderboardsModel::ScoreData), 40 + sizeof(int64_t)> __GlobalNamespace_LocalLeaderboardsModel_ScoreDataSizeCheck;
   static_assert(sizeof(LocalLeaderboardsModel::ScoreData) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::LocalLeaderboardsModel::ScoreData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalLeaderboardsModel::ScoreData*, "", "LocalLeaderboardsModel/ScoreData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LocalLeaderboardsModel::ScoreData::New_ctor

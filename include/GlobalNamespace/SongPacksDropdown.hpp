@@ -149,6 +149,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SongPacksDropdown), 56 + sizeof(System::Collections::Generic::List_1<::Il2CppString*>*)> __GlobalNamespace_SongPacksDropdownSizeCheck;
   static_assert(sizeof(SongPacksDropdown) == 0x40);
 }
+NEED_NO_BOX(GlobalNamespace::SongPacksDropdown);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPacksDropdown*, "", "SongPacksDropdown");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SongPacksDropdown::add_didSelectCellWithIdxEvent

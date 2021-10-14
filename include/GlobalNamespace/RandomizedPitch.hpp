@@ -132,6 +132,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(RandomizedPitch), 48 + sizeof(UnityEngine::Coroutine*)> __GlobalNamespace_RandomizedPitchSizeCheck;
   static_assert(sizeof(RandomizedPitch) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::RandomizedPitch);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RandomizedPitch*, "", "RandomizedPitch");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::RandomizedPitch::OnEnable

@@ -308,6 +308,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LevelSelectionNavigationController), 240 + sizeof(::ArrayW<GlobalNamespace::BeatmapCharacteristicSO*>)> __GlobalNamespace_LevelSelectionNavigationControllerSizeCheck;
   static_assert(sizeof(LevelSelectionNavigationController) == 0xF8);
 }
+NEED_NO_BOX(GlobalNamespace::LevelSelectionNavigationController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelSelectionNavigationController*, "", "LevelSelectionNavigationController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LevelSelectionNavigationController::get_selectedDifficultyBeatmap

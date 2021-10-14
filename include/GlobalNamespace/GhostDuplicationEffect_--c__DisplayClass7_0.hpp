@@ -71,6 +71,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(GhostDuplicationEffect::$$c__DisplayClass7_0), 24 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_GhostDuplicationEffect_$$c__DisplayClass7_0SizeCheck;
   static_assert(sizeof(GhostDuplicationEffect::$$c__DisplayClass7_0) == 0x24);
 }
+NEED_NO_BOX(GlobalNamespace::GhostDuplicationEffect::$$c__DisplayClass7_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GhostDuplicationEffect::$$c__DisplayClass7_0*, "", "GhostDuplicationEffect/<>c__DisplayClass7_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GhostDuplicationEffect::$$c__DisplayClass7_0::$Animate$b__0

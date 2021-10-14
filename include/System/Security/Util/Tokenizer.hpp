@@ -278,6 +278,7 @@ namespace System::Security::Util {
   static check_size<sizeof(Tokenizer), 104 + sizeof(::Il2CppString*)> __System_Security_Util_TokenizerSizeCheck;
   static_assert(sizeof(Tokenizer) == 0x70);
 }
+NEED_NO_BOX(System::Security::Util::Tokenizer);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::Tokenizer*, "System.Security.Util", "Tokenizer");
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::Tokenizer::TokenSource, "System.Security.Util", "Tokenizer/TokenSource");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -66,6 +66,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BloomPrePassEffectContainerSO), 24 + sizeof(GlobalNamespace::BloomPrePassEffectSO*)> __GlobalNamespace_BloomPrePassEffectContainerSOSizeCheck;
   static_assert(sizeof(BloomPrePassEffectContainerSO) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::BloomPrePassEffectContainerSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassEffectContainerSO*, "", "BloomPrePassEffectContainerSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePassEffectContainerSO::get_bloomPrePassEffect

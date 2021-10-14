@@ -47,6 +47,7 @@ namespace System::Diagnostics {
   }; // System.Diagnostics.DiagnosticsConfigurationHandler
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Diagnostics::DiagnosticsConfigurationHandler);
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::DiagnosticsConfigurationHandler*, "System.Diagnostics", "DiagnosticsConfigurationHandler");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Diagnostics::DiagnosticsConfigurationHandler::Create

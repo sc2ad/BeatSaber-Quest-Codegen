@@ -65,6 +65,7 @@ namespace System {
   static check_size<sizeof(SharedStatics), 16 + sizeof(System::Security::Util::Tokenizer::StringMaker*)> __System_SharedStaticsSizeCheck;
   static_assert(sizeof(SharedStatics) == 0x18);
 }
+NEED_NO_BOX(System::SharedStatics);
 DEFINE_IL2CPP_ARG_TYPE(System::SharedStatics*, "System", "SharedStatics");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::SharedStatics::_cctor

@@ -426,6 +426,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OpenVRHelper), 140 + sizeof(bool)> __GlobalNamespace_OpenVRHelperSizeCheck;
   static_assert(sizeof(OpenVRHelper) == 0x8D);
 }
+NEED_NO_BOX(GlobalNamespace::OpenVRHelper);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OpenVRHelper*, "", "OpenVRHelper");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OpenVRHelper::VRControllerManufacturerName, "", "OpenVRHelper/VRControllerManufacturerName");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

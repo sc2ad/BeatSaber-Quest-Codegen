@@ -63,6 +63,7 @@ namespace System::Security::Cryptography {
   static check_size<sizeof(HMACSHA384), 97 + sizeof(bool)> __System_Security_Cryptography_HMACSHA384SizeCheck;
   static_assert(sizeof(HMACSHA384) == 0x62);
 }
+NEED_NO_BOX(System::Security::Cryptography::HMACSHA384);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::HMACSHA384*, "System.Security.Cryptography", "HMACSHA384");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::HMACSHA384::get_BlockSize

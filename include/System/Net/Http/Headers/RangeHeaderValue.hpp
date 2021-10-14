@@ -110,6 +110,7 @@ namespace System::Net::Http::Headers {
   static check_size<sizeof(RangeHeaderValue), 24 + sizeof(::Il2CppString*)> __System_Net_Http_Headers_RangeHeaderValueSizeCheck;
   static_assert(sizeof(RangeHeaderValue) == 0x20);
 }
+NEED_NO_BOX(System::Net::Http::Headers::RangeHeaderValue);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::RangeHeaderValue*, "System.Net.Http.Headers", "RangeHeaderValue");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Http::Headers::RangeHeaderValue::get_Ranges

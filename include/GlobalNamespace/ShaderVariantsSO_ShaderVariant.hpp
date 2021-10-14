@@ -73,6 +73,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ShaderVariantsSO::ShaderVariant), 24 + sizeof(UnityEngine::Shader*)> __GlobalNamespace_ShaderVariantsSO_ShaderVariantSizeCheck;
   static_assert(sizeof(ShaderVariantsSO::ShaderVariant) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::ShaderVariantsSO::ShaderVariant);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShaderVariantsSO::ShaderVariant*, "", "ShaderVariantsSO/ShaderVariant");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ShaderVariantsSO::ShaderVariant::get_variants

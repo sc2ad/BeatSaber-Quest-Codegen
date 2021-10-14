@@ -87,6 +87,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ArcadeFlowCoordinator::$$c__DisplayClass22_0), 40 + sizeof(bool)> __GlobalNamespace_ArcadeFlowCoordinator_$$c__DisplayClass22_0SizeCheck;
   static_assert(sizeof(ArcadeFlowCoordinator::$$c__DisplayClass22_0) == 0x29);
 }
+NEED_NO_BOX(GlobalNamespace::ArcadeFlowCoordinator::$$c__DisplayClass22_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ArcadeFlowCoordinator::$$c__DisplayClass22_0*, "", "ArcadeFlowCoordinator/<>c__DisplayClass22_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ArcadeFlowCoordinator::$$c__DisplayClass22_0::$ProcessLevelCompletionResultsAfterLevelDidFinish$b__0

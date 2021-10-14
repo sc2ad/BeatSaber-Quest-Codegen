@@ -63,6 +63,7 @@ namespace System::Reflection {
   }; // System.Reflection.MonoParameterInfo
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Reflection::MonoParameterInfo);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoParameterInfo*, "System.Reflection", "MonoParameterInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::MonoParameterInfo::New_ctor

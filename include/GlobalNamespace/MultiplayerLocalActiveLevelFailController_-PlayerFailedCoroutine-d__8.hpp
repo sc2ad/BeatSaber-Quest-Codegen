@@ -86,6 +86,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerLocalActiveLevelFailController::$PlayerFailedCoroutine$d__8), 32 + sizeof(GlobalNamespace::MultiplayerLocalActiveLevelFailController*)> __GlobalNamespace_MultiplayerLocalActiveLevelFailController_$PlayerFailedCoroutine$d__8SizeCheck;
   static_assert(sizeof(MultiplayerLocalActiveLevelFailController::$PlayerFailedCoroutine$d__8) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerLocalActiveLevelFailController::$PlayerFailedCoroutine$d__8);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalActiveLevelFailController::$PlayerFailedCoroutine$d__8*, "", "MultiplayerLocalActiveLevelFailController/<PlayerFailedCoroutine>d__8");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalActiveLevelFailController::$PlayerFailedCoroutine$d__8::System_Collections_Generic_IEnumerator$System_Object$_get_Current

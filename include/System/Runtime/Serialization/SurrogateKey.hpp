@@ -66,6 +66,7 @@ namespace System::Runtime::Serialization {
   static check_size<sizeof(SurrogateKey), 24 + sizeof(System::Runtime::Serialization::StreamingContext)> __System_Runtime_Serialization_SurrogateKeySizeCheck;
   static_assert(sizeof(SurrogateKey) == 0x24);
 }
+NEED_NO_BOX(System::Runtime::Serialization::SurrogateKey);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SurrogateKey*, "System.Runtime.Serialization", "SurrogateKey");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::SurrogateKey::New_ctor

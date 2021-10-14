@@ -140,6 +140,7 @@ namespace System::Collections {
   static check_size<sizeof(CollectionBase), 16 + sizeof(System::Collections::ArrayList*)> __System_Collections_CollectionBaseSizeCheck;
   static_assert(sizeof(CollectionBase) == 0x18);
 }
+NEED_NO_BOX(System::Collections::CollectionBase);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::CollectionBase*, "System.Collections", "CollectionBase");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::CollectionBase::get_InnerList

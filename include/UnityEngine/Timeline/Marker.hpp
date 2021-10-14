@@ -93,6 +93,7 @@ namespace UnityEngine::Timeline {
   static check_size<sizeof(Marker), 32 + sizeof(UnityEngine::Timeline::TrackAsset*)> __UnityEngine_Timeline_MarkerSizeCheck;
   static_assert(sizeof(Marker) == 0x28);
 }
+NEED_NO_BOX(UnityEngine::Timeline::Marker);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::Marker*, "UnityEngine.Timeline", "Marker");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::Marker::get_parent

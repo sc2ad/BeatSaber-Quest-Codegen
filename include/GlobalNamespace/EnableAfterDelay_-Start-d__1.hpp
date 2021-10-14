@@ -86,6 +86,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(EnableAfterDelay::$Start$d__1), 32 + sizeof(GlobalNamespace::EnableAfterDelay*)> __GlobalNamespace_EnableAfterDelay_$Start$d__1SizeCheck;
   static_assert(sizeof(EnableAfterDelay::$Start$d__1) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::EnableAfterDelay::$Start$d__1);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnableAfterDelay::$Start$d__1*, "", "EnableAfterDelay/<Start>d__1");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EnableAfterDelay::$Start$d__1::System_Collections_Generic_IEnumerator$System_Object$_get_Current

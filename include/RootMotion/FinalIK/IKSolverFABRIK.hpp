@@ -154,6 +154,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(IKSolverFABRIK), 152 + sizeof(::ArrayW<UnityEngine::Vector3>)> __RootMotion_FinalIK_IKSolverFABRIKSizeCheck;
   static_assert(sizeof(IKSolverFABRIK) == 0xA0);
 }
+NEED_NO_BOX(RootMotion::FinalIK::IKSolverFABRIK);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverFABRIK*, "RootMotion.FinalIK", "IKSolverFABRIK");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverFABRIK::SolveForward

@@ -34,6 +34,7 @@ namespace System::Net::Configuration {
   }; // System.Net.Configuration.BypassElementCollection
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Net::Configuration::BypassElementCollection);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Configuration::BypassElementCollection*, "System.Net.Configuration", "BypassElementCollection");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Configuration::BypassElementCollection::New_ctor

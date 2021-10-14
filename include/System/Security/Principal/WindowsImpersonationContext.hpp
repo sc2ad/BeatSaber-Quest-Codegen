@@ -79,6 +79,7 @@ namespace System::Security::Principal {
   static check_size<sizeof(WindowsImpersonationContext), 24 + sizeof(bool)> __System_Security_Principal_WindowsImpersonationContextSizeCheck;
   static_assert(sizeof(WindowsImpersonationContext) == 0x19);
 }
+NEED_NO_BOX(System::Security::Principal::WindowsImpersonationContext);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Principal::WindowsImpersonationContext*, "System.Security.Principal", "WindowsImpersonationContext");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Principal::WindowsImpersonationContext::New_ctor

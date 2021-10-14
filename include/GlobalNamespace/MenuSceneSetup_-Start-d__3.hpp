@@ -86,6 +86,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MenuSceneSetup::$Start$d__3), 32 + sizeof(GlobalNamespace::MenuSceneSetup*)> __GlobalNamespace_MenuSceneSetup_$Start$d__3SizeCheck;
   static_assert(sizeof(MenuSceneSetup::$Start$d__3) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::MenuSceneSetup::$Start$d__3);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuSceneSetup::$Start$d__3*, "", "MenuSceneSetup/<Start>d__3");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MenuSceneSetup::$Start$d__3::System_Collections_Generic_IEnumerator$System_Object$_get_Current

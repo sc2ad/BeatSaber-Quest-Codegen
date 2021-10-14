@@ -60,6 +60,7 @@ namespace GlobalNamespace {
   }; // BeatmapCharacteristicSegmentedControlController/<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::BeatmapCharacteristicSegmentedControlController::$$c);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapCharacteristicSegmentedControlController::$$c*, "", "BeatmapCharacteristicSegmentedControlController/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapCharacteristicSegmentedControlController::$$c::_cctor

@@ -73,6 +73,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OculusLevelProductsModelSO::LevelProductData), 32 + sizeof(::Il2CppString*)> __GlobalNamespace_OculusLevelProductsModelSO_LevelProductDataSizeCheck;
   static_assert(sizeof(OculusLevelProductsModelSO::LevelProductData) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::OculusLevelProductsModelSO::LevelProductData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusLevelProductsModelSO::LevelProductData*, "", "OculusLevelProductsModelSO/LevelProductData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OculusLevelProductsModelSO::LevelProductData::get_sku

@@ -145,6 +145,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerPositionHUDController), 80 + sizeof(int)> __GlobalNamespace_MultiplayerPositionHUDControllerSizeCheck;
   static_assert(sizeof(MultiplayerPositionHUDController) == 0x54);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerPositionHUDController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerPositionHUDController*, "", "MultiplayerPositionHUDController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerPositionHUDController::set_alpha

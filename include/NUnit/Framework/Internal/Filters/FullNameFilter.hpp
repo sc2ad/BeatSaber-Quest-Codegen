@@ -49,6 +49,7 @@ namespace NUnit::Framework::Internal::Filters {
   }; // NUnit.Framework.Internal.Filters.FullNameFilter
   #pragma pack(pop)
 }
+NEED_NO_BOX(NUnit::Framework::Internal::Filters::FullNameFilter);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Filters::FullNameFilter*, "NUnit.Framework.Internal.Filters", "FullNameFilter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Filters::FullNameFilter::get_ElementName

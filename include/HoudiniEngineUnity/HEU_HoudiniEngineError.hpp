@@ -67,6 +67,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_HoudiniEngineError), 136 + sizeof(::Il2CppString*)> __HoudiniEngineUnity_HEU_HoudiniEngineErrorSizeCheck;
   static_assert(sizeof(HEU_HoudiniEngineError) == 0x90);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_HoudiniEngineError);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_HoudiniEngineError*, "HoudiniEngineUnity", "HEU_HoudiniEngineError");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HoudiniEngineError::New_ctor

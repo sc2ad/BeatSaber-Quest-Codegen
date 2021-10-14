@@ -60,6 +60,7 @@ namespace UnityEngine::TestRunner::TestLaunchers {
   }; // UnityEngine.TestRunner.TestLaunchers.RemoteTestData/UnityEngine.TestRunner.TestLaunchers.<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::TestRunner::TestLaunchers::RemoteTestData::$$c);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::TestLaunchers::RemoteTestData::$$c*, "UnityEngine.TestRunner.TestLaunchers", "RemoteTestData/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestRunner::TestLaunchers::RemoteTestData::$$c::_cctor

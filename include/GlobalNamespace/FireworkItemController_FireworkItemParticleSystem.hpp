@@ -101,6 +101,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(FireworkItemController::FireworkItemParticleSystem), 40 + sizeof(bool)> __GlobalNamespace_FireworkItemController_FireworkItemParticleSystemSizeCheck;
   static_assert(sizeof(FireworkItemController::FireworkItemParticleSystem) == 0x29);
 }
+NEED_NO_BOX(GlobalNamespace::FireworkItemController::FireworkItemParticleSystem);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FireworkItemController::FireworkItemParticleSystem*, "", "FireworkItemController/FireworkItemParticleSystem");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FireworkItemController::FireworkItemParticleSystem::New_ctor

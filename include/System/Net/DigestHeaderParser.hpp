@@ -103,6 +103,7 @@ namespace System::Net {
   static check_size<sizeof(DigestHeaderParser), 32 + sizeof(::ArrayW<::Il2CppString*>)> __System_Net_DigestHeaderParserSizeCheck;
   static_assert(sizeof(DigestHeaderParser) == 0x28);
 }
+NEED_NO_BOX(System::Net::DigestHeaderParser);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::DigestHeaderParser*, "System.Net", "DigestHeaderParser");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::DigestHeaderParser::get_Realm

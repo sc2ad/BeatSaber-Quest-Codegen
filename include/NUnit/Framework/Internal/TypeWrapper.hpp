@@ -171,6 +171,7 @@ namespace NUnit::Framework::Internal {
   static check_size<sizeof(TypeWrapper), 16 + sizeof(System::Type*)> __NUnit_Framework_Internal_TypeWrapperSizeCheck;
   static_assert(sizeof(TypeWrapper) == 0x18);
 }
+NEED_NO_BOX(NUnit::Framework::Internal::TypeWrapper);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TypeWrapper*, "NUnit.Framework.Internal", "TypeWrapper");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TypeWrapper::get_Type

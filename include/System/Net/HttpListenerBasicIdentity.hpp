@@ -52,6 +52,7 @@ namespace System::Net {
   static check_size<sizeof(HttpListenerBasicIdentity), 136 + sizeof(::Il2CppString*)> __System_Net_HttpListenerBasicIdentitySizeCheck;
   static_assert(sizeof(HttpListenerBasicIdentity) == 0x90);
 }
+NEED_NO_BOX(System::Net::HttpListenerBasicIdentity);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpListenerBasicIdentity*, "System.Net", "HttpListenerBasicIdentity");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::HttpListenerBasicIdentity::New_ctor

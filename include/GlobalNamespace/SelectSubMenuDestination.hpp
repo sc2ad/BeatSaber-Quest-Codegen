@@ -130,6 +130,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SelectSubMenuDestination), 16 + sizeof(GlobalNamespace::SelectSubMenuDestination::Destination)> __GlobalNamespace_SelectSubMenuDestinationSizeCheck;
   static_assert(sizeof(SelectSubMenuDestination) == 0x14);
 }
+NEED_NO_BOX(GlobalNamespace::SelectSubMenuDestination);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectSubMenuDestination*, "", "SelectSubMenuDestination");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectSubMenuDestination::Destination, "", "SelectSubMenuDestination/Destination");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

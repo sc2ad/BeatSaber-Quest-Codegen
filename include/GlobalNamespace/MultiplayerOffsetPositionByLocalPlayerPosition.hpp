@@ -106,6 +106,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerOffsetPositionByLocalPlayerPosition), 72 + sizeof(UnityEngine::Quaternion)> __GlobalNamespace_MultiplayerOffsetPositionByLocalPlayerPositionSizeCheck;
   static_assert(sizeof(MultiplayerOffsetPositionByLocalPlayerPosition) == 0x58);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*, "", "MultiplayerOffsetPositionByLocalPlayerPosition");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::Awake

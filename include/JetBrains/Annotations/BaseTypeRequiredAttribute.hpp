@@ -65,6 +65,7 @@ namespace JetBrains::Annotations {
   static check_size<sizeof(BaseTypeRequiredAttribute), 16 + sizeof(System::Type*)> __JetBrains_Annotations_BaseTypeRequiredAttributeSizeCheck;
   static_assert(sizeof(BaseTypeRequiredAttribute) == 0x18);
 }
+NEED_NO_BOX(JetBrains::Annotations::BaseTypeRequiredAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::BaseTypeRequiredAttribute*, "JetBrains.Annotations", "BaseTypeRequiredAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: JetBrains::Annotations::BaseTypeRequiredAttribute::get_BaseType

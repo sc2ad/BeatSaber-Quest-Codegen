@@ -37,6 +37,7 @@ namespace Oculus::Platform::Models {
     }
   }; // Oculus.Platform.Models.UserAndRoomList
 }
+NEED_NO_BOX(Oculus::Platform::Models::UserAndRoomList);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::UserAndRoomList*, "Oculus.Platform.Models", "UserAndRoomList");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::UserAndRoomList::New_ctor

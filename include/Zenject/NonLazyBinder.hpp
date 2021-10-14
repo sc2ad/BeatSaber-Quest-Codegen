@@ -46,6 +46,7 @@ namespace Zenject {
   }; // Zenject.NonLazyBinder
   #pragma pack(pop)
 }
+NEED_NO_BOX(Zenject::NonLazyBinder);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::NonLazyBinder*, "Zenject", "NonLazyBinder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::NonLazyBinder::NonLazy

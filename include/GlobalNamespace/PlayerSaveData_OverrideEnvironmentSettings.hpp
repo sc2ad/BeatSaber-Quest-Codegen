@@ -66,6 +66,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PlayerSaveData::OverrideEnvironmentSettings), 32 + sizeof(::Il2CppString*)> __GlobalNamespace_PlayerSaveData_OverrideEnvironmentSettingsSizeCheck;
   static_assert(sizeof(PlayerSaveData::OverrideEnvironmentSettings) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::PlayerSaveData::OverrideEnvironmentSettings);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveData::OverrideEnvironmentSettings*, "", "PlayerSaveData/OverrideEnvironmentSettings");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSaveData::OverrideEnvironmentSettings::New_ctor

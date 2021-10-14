@@ -336,6 +336,7 @@ namespace System::Net {
   static check_size<sizeof(WebHeaderCollection), 112 + sizeof(System::Net::WebHeaderCollectionType)> __System_Net_WebHeaderCollectionSizeCheck;
   static_assert(sizeof(WebHeaderCollection) == 0x72);
 }
+NEED_NO_BOX(System::Net::WebHeaderCollection);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebHeaderCollection*, "System.Net", "WebHeaderCollection");
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebHeaderCollection::RfcChar, "System.Net", "WebHeaderCollection/RfcChar");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

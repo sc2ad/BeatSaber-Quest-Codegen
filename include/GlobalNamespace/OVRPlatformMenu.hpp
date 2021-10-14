@@ -163,6 +163,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRPlatformMenu), 32 + sizeof(System::Func_1<bool>*)> __GlobalNamespace_OVRPlatformMenuSizeCheck;
   static_assert(sizeof(OVRPlatformMenu) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::OVRPlatformMenu);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlatformMenu*, "", "OVRPlatformMenu");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlatformMenu::eHandler, "", "OVRPlatformMenu/eHandler");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

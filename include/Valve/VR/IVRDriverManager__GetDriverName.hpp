@@ -56,6 +56,7 @@ namespace Valve::VR {
   }; // Valve.VR.IVRDriverManager/Valve.VR._GetDriverName
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::IVRDriverManager::_GetDriverName);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRDriverManager::_GetDriverName*, "Valve.VR", "IVRDriverManager/_GetDriverName");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRDriverManager::_GetDriverName::New_ctor

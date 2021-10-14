@@ -124,6 +124,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   static check_size<sizeof(RsaPrivateCrtKeyParameters), 80 + sizeof(Org::BouncyCastle::Math::BigInteger*)> __Org_BouncyCastle_Crypto_Parameters_RsaPrivateCrtKeyParametersSizeCheck;
   static_assert(sizeof(RsaPrivateCrtKeyParameters) == 0x58);
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters*, "Org.BouncyCastle.Crypto.Parameters", "RsaPrivateCrtKeyParameters");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters::get_PublicExponent

@@ -72,6 +72,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(TutorialNoTransitionInstaller), 24 + sizeof(GlobalNamespace::TutorialScenesTransitionSetupDataSO*)> __GlobalNamespace_TutorialNoTransitionInstallerSizeCheck;
   static_assert(sizeof(TutorialNoTransitionInstaller) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::TutorialNoTransitionInstaller);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialNoTransitionInstaller*, "", "TutorialNoTransitionInstaller");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TutorialNoTransitionInstaller::New_ctor

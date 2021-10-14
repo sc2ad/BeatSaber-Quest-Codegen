@@ -56,6 +56,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(QuickPlaySongPacksDropdown::$$c__DisplayClass13_0), 16 + sizeof(::Il2CppString*)> __GlobalNamespace_QuickPlaySongPacksDropdown_$$c__DisplayClass13_0SizeCheck;
   static_assert(sizeof(QuickPlaySongPacksDropdown::$$c__DisplayClass13_0) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::QuickPlaySongPacksDropdown::$$c__DisplayClass13_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::QuickPlaySongPacksDropdown::$$c__DisplayClass13_0*, "", "QuickPlaySongPacksDropdown/<>c__DisplayClass13_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::QuickPlaySongPacksDropdown::$$c__DisplayClass13_0::$SelectCellWithSerializedName$b__0

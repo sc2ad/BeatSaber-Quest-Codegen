@@ -64,6 +64,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SimpleColorSO), 24 + sizeof(UnityEngine::Color)> __GlobalNamespace_SimpleColorSOSizeCheck;
   static_assert(sizeof(SimpleColorSO) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::SimpleColorSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleColorSO*, "", "SimpleColorSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SimpleColorSO::SetColor

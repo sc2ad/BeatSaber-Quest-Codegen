@@ -83,6 +83,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(IKSolverLookAt::LookAtBone), 116 + sizeof(UnityEngine::Vector3)> __RootMotion_FinalIK_IKSolverLookAt_LookAtBoneSizeCheck;
   static_assert(sizeof(IKSolverLookAt::LookAtBone) == 0x80);
 }
+NEED_NO_BOX(RootMotion::FinalIK::IKSolverLookAt::LookAtBone);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverLookAt::LookAtBone*, "RootMotion.FinalIK", "IKSolverLookAt/LookAtBone");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverLookAt::LookAtBone::get_forward

@@ -68,6 +68,7 @@ namespace System::Security::Cryptography {
   static check_size<sizeof(KeyedHashAlgorithm), 40 + sizeof(::ArrayW<uint8_t>)> __System_Security_Cryptography_KeyedHashAlgorithmSizeCheck;
   static_assert(sizeof(KeyedHashAlgorithm) == 0x30);
 }
+NEED_NO_BOX(System::Security::Cryptography::KeyedHashAlgorithm);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::KeyedHashAlgorithm*, "System.Security.Cryptography", "KeyedHashAlgorithm");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::KeyedHashAlgorithm::get_Key

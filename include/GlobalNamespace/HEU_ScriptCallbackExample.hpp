@@ -61,6 +61,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(HEU_ScriptCallbackExample), 24 + sizeof(::Il2CppString*)> __GlobalNamespace_HEU_ScriptCallbackExampleSizeCheck;
   static_assert(sizeof(HEU_ScriptCallbackExample) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::HEU_ScriptCallbackExample);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HEU_ScriptCallbackExample*, "", "HEU_ScriptCallbackExample");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HEU_ScriptCallbackExample::AssetCallbackWithMsg

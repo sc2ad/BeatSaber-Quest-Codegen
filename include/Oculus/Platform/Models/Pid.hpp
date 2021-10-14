@@ -50,6 +50,7 @@ namespace Oculus::Platform::Models {
   static check_size<sizeof(Pid), 16 + sizeof(::Il2CppString*)> __Oculus_Platform_Models_PidSizeCheck;
   static_assert(sizeof(Pid) == 0x18);
 }
+NEED_NO_BOX(Oculus::Platform::Models::Pid);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::Pid*, "Oculus.Platform.Models", "Pid");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::Pid::New_ctor

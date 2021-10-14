@@ -59,6 +59,7 @@ namespace OVR::OpenVR {
   }; // OVR.OpenVR.IVRScreenshots/OVR.OpenVR._HookScreenshot
   #pragma pack(pop)
 }
+NEED_NO_BOX(OVR::OpenVR::IVRScreenshots::_HookScreenshot);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRScreenshots::_HookScreenshot*, "OVR.OpenVR", "IVRScreenshots/_HookScreenshot");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVRScreenshots::_HookScreenshot::New_ctor

@@ -62,6 +62,7 @@ namespace System::Security::Authentication::ExtendedProtection {
   }; // System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy*, "System.Security.Authentication.ExtendedProtection", "ExtendedProtectionPolicy");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy::New_ctor

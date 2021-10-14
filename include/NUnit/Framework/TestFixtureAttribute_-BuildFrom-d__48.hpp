@@ -140,6 +140,7 @@ namespace NUnit::Framework {
   static check_size<sizeof(TestFixtureAttribute::$BuildFrom$d__48), 56 + sizeof(NUnit::Framework::TestFixtureAttribute*)> __NUnit_Framework_TestFixtureAttribute_$BuildFrom$d__48SizeCheck;
   static_assert(sizeof(TestFixtureAttribute::$BuildFrom$d__48) == 0x40);
 }
+NEED_NO_BOX(NUnit::Framework::TestFixtureAttribute::$BuildFrom$d__48);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::TestFixtureAttribute::$BuildFrom$d__48*, "NUnit.Framework", "TestFixtureAttribute/<BuildFrom>d__48");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::TestFixtureAttribute::$BuildFrom$d__48::System_Collections_Generic_IEnumerator$NUnit_Framework_Internal_TestSuite$_get_Current

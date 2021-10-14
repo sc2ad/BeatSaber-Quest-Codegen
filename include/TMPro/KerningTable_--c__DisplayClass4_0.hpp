@@ -67,6 +67,7 @@ namespace TMPro {
   static check_size<sizeof(KerningTable::$$c__DisplayClass4_0), 20 + sizeof(uint)> __TMPro_KerningTable_$$c__DisplayClass4_0SizeCheck;
   static_assert(sizeof(KerningTable::$$c__DisplayClass4_0) == 0x18);
 }
+NEED_NO_BOX(TMPro::KerningTable::$$c__DisplayClass4_0);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::KerningTable::$$c__DisplayClass4_0*, "TMPro", "KerningTable/<>c__DisplayClass4_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::KerningTable::$$c__DisplayClass4_0::$AddGlyphPairAdjustmentRecord$b__0

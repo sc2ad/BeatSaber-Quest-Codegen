@@ -48,6 +48,7 @@ namespace System::Collections::Generic {
   }; // System.Collections.Generic.CollectionExtensions
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Collections::Generic::CollectionExtensions);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Generic::CollectionExtensions*, "System.Collections.Generic", "CollectionExtensions");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::Generic::CollectionExtensions::GetValueOrDefault

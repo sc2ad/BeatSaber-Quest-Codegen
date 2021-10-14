@@ -83,6 +83,7 @@ namespace Zenject {
   static check_size<sizeof(MemoryPoolBindInfo), 24 + sizeof(int)> __Zenject_MemoryPoolBindInfoSizeCheck;
   static_assert(sizeof(MemoryPoolBindInfo) == 0x1C);
 }
+NEED_NO_BOX(Zenject::MemoryPoolBindInfo);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::MemoryPoolBindInfo*, "Zenject", "MemoryPoolBindInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::MemoryPoolBindInfo::get_ExpandMethod

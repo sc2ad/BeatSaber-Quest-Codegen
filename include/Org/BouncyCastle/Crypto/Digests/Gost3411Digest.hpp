@@ -275,6 +275,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
   static check_size<sizeof(Gost3411Digest), 152 + sizeof(::ArrayW<uint8_t>)> __Org_BouncyCastle_Crypto_Digests_Gost3411DigestSizeCheck;
   static_assert(sizeof(Gost3411Digest) == 0xA0);
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Digests::Gost3411Digest);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::Gost3411Digest*, "Org.BouncyCastle.Crypto.Digests", "Gost3411Digest");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::Gost3411Digest::get_AlgorithmName

@@ -95,6 +95,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PauseAnimationController), 32 + sizeof(System::Action*)> __GlobalNamespace_PauseAnimationControllerSizeCheck;
   static_assert(sizeof(PauseAnimationController) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::PauseAnimationController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PauseAnimationController*, "", "PauseAnimationController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PauseAnimationController::add_resumeFromPauseAnimationDidFinishEvent

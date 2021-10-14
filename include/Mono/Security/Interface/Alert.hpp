@@ -70,6 +70,7 @@ namespace Mono::Security::Interface {
   static check_size<sizeof(Alert), 17 + sizeof(Mono::Security::Interface::AlertDescription)> __Mono_Security_Interface_AlertSizeCheck;
   static_assert(sizeof(Alert) == 0x12);
 }
+NEED_NO_BOX(Mono::Security::Interface::Alert);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::Alert*, "Mono.Security.Interface", "Alert");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Security::Interface::Alert::get_Level

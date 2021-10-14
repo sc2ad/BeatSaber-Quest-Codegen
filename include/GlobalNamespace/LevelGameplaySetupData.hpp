@@ -113,6 +113,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LevelGameplaySetupData), 40 + sizeof(GlobalNamespace::BeatmapDifficulty)> __GlobalNamespace_LevelGameplaySetupDataSizeCheck;
   static_assert(sizeof(LevelGameplaySetupData) == 0x2C);
 }
+NEED_NO_BOX(GlobalNamespace::LevelGameplaySetupData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelGameplaySetupData*, "", "LevelGameplaySetupData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LevelGameplaySetupData::get_beatmapLevel

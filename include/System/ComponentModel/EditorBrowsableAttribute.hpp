@@ -63,6 +63,7 @@ namespace System::ComponentModel {
   static check_size<sizeof(EditorBrowsableAttribute), 16 + sizeof(System::ComponentModel::EditorBrowsableState)> __System_ComponentModel_EditorBrowsableAttributeSizeCheck;
   static_assert(sizeof(EditorBrowsableAttribute) == 0x14);
 }
+NEED_NO_BOX(System::ComponentModel::EditorBrowsableAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::EditorBrowsableAttribute*, "System.ComponentModel", "EditorBrowsableAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ComponentModel::EditorBrowsableAttribute::New_ctor

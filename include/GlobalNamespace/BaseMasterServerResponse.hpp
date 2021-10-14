@@ -89,6 +89,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BaseMasterServerResponse), 16 + sizeof(uint)> __GlobalNamespace_BaseMasterServerResponseSizeCheck;
   static_assert(sizeof(BaseMasterServerResponse) == 0x14);
 }
+NEED_NO_BOX(GlobalNamespace::BaseMasterServerResponse);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BaseMasterServerResponse*, "", "BaseMasterServerResponse");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BaseMasterServerResponse::get_responseId

@@ -95,6 +95,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(FlyingCar), 40 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_FlyingCarSizeCheck;
   static_assert(sizeof(FlyingCar) == 0x34);
 }
+NEED_NO_BOX(GlobalNamespace::FlyingCar);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlyingCar*, "", "FlyingCar");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FlyingCar::Start

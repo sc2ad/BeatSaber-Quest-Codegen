@@ -80,6 +80,7 @@ namespace System::Runtime::Remoting {
   static check_size<sizeof(TypeInfo), 32 + sizeof(::ArrayW<::Il2CppString*>)> __System_Runtime_Remoting_TypeInfoSizeCheck;
   static_assert(sizeof(TypeInfo) == 0x28);
 }
+NEED_NO_BOX(System::Runtime::Remoting::TypeInfo);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::TypeInfo*, "System.Runtime.Remoting", "TypeInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::TypeInfo::get_TypeName

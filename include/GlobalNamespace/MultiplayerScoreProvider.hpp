@@ -155,6 +155,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerScoreProvider), 64 + sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>*)> __GlobalNamespace_MultiplayerScoreProviderSizeCheck;
   static_assert(sizeof(MultiplayerScoreProvider) == 0x48);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerScoreProvider);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerScoreProvider*, "", "MultiplayerScoreProvider");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerScoreProvider::get_scoresAvailable

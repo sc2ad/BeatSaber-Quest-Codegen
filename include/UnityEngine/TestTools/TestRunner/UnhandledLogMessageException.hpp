@@ -79,6 +79,7 @@ namespace UnityEngine::TestTools::TestRunner {
   static check_size<sizeof(UnhandledLogMessageException), 144 + sizeof(::Il2CppString*)> __UnityEngine_TestTools_TestRunner_UnhandledLogMessageExceptionSizeCheck;
   static_assert(sizeof(UnhandledLogMessageException) == 0x98);
 }
+NEED_NO_BOX(UnityEngine::TestTools::TestRunner::UnhandledLogMessageException);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::UnhandledLogMessageException*, "UnityEngine.TestTools.TestRunner", "UnhandledLogMessageException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::UnhandledLogMessageException::New_ctor

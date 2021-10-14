@@ -179,6 +179,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(NoteCutParticlesEffect), 552 + sizeof(UnityEngine::ParticleSystem::ShapeModule)> __GlobalNamespace_NoteCutParticlesEffectSizeCheck;
   static_assert(sizeof(NoteCutParticlesEffect) == 0x230);
 }
+NEED_NO_BOX(GlobalNamespace::NoteCutParticlesEffect);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutParticlesEffect*, "", "NoteCutParticlesEffect");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteCutParticlesEffect::Awake

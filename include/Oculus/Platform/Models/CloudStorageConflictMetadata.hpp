@@ -61,6 +61,7 @@ namespace Oculus::Platform::Models {
   static check_size<sizeof(CloudStorageConflictMetadata), 24 + sizeof(Oculus::Platform::Models::CloudStorageMetadata*)> __Oculus_Platform_Models_CloudStorageConflictMetadataSizeCheck;
   static_assert(sizeof(CloudStorageConflictMetadata) == 0x20);
 }
+NEED_NO_BOX(Oculus::Platform::Models::CloudStorageConflictMetadata);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::CloudStorageConflictMetadata*, "Oculus.Platform.Models", "CloudStorageConflictMetadata");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::CloudStorageConflictMetadata::New_ctor

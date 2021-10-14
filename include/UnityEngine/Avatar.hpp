@@ -113,6 +113,7 @@ namespace UnityEngine {
   }; // UnityEngine.Avatar
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::Avatar);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Avatar*, "UnityEngine", "Avatar");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Avatar::get_isValid

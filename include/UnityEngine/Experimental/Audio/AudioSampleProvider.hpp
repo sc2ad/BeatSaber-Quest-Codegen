@@ -59,6 +59,7 @@ namespace UnityEngine::Experimental::Audio {
   static_assert(sizeof(AudioSampleProvider) == 0x20);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::Experimental::Audio::AudioSampleProvider);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Audio::AudioSampleProvider*, "UnityEngine.Experimental.Audio", "AudioSampleProvider");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Experimental::Audio::AudioSampleProvider::InvokeSampleFramesAvailable

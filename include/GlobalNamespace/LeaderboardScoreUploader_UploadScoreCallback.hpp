@@ -57,6 +57,7 @@ namespace GlobalNamespace {
   }; // LeaderboardScoreUploader/UploadScoreCallback
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::LeaderboardScoreUploader::UploadScoreCallback);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardScoreUploader::UploadScoreCallback*, "", "LeaderboardScoreUploader/UploadScoreCallback");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LeaderboardScoreUploader::UploadScoreCallback::New_ctor

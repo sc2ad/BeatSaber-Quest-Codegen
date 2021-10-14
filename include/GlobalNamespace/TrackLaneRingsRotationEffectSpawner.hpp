@@ -189,6 +189,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(TrackLaneRingsRotationEffectSpawner), 56 + sizeof(GlobalNamespace::IBeatmapObjectCallbackController*)> __GlobalNamespace_TrackLaneRingsRotationEffectSpawnerSizeCheck;
   static_assert(sizeof(TrackLaneRingsRotationEffectSpawner) == 0x40);
 }
+NEED_NO_BOX(GlobalNamespace::TrackLaneRingsRotationEffectSpawner);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrackLaneRingsRotationEffectSpawner*, "", "TrackLaneRingsRotationEffectSpawner");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrackLaneRingsRotationEffectSpawner::RotationStepType, "", "TrackLaneRingsRotationEffectSpawner/RotationStepType");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

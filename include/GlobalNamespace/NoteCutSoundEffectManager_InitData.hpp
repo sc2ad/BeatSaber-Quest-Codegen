@@ -54,6 +54,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(NoteCutSoundEffectManager::InitData), 17 + sizeof(bool)> __GlobalNamespace_NoteCutSoundEffectManager_InitDataSizeCheck;
   static_assert(sizeof(NoteCutSoundEffectManager::InitData) == 0x12);
 }
+NEED_NO_BOX(GlobalNamespace::NoteCutSoundEffectManager::InitData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutSoundEffectManager::InitData*, "", "NoteCutSoundEffectManager/InitData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteCutSoundEffectManager::InitData::New_ctor

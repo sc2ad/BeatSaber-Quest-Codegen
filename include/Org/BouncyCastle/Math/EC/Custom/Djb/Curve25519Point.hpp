@@ -107,6 +107,7 @@ namespace Org::BouncyCastle::Math::EC::Custom::Djb {
   }; // Org.BouncyCastle.Math.EC.Custom.Djb.Curve25519Point
   #pragma pack(pop)
 }
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Point);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Point*, "Org.BouncyCastle.Math.EC.Custom.Djb", "Curve25519Point");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Point::New_ctor

@@ -74,6 +74,7 @@ namespace System::Runtime::Remoting::Channels {
   }; // System.Runtime.Remoting.Channels.CrossAppDomainChannel
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Runtime::Remoting::Channels::CrossAppDomainChannel);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Channels::CrossAppDomainChannel*, "System.Runtime.Remoting.Channels", "CrossAppDomainChannel");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Channels::CrossAppDomainChannel::get_ChannelName

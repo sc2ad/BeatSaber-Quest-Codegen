@@ -101,6 +101,7 @@ namespace System::Collections::Specialized {
   static check_size<sizeof(ListDictionary::NodeEnumerator), 36 + sizeof(bool)> __System_Collections_Specialized_ListDictionary_NodeEnumeratorSizeCheck;
   static_assert(sizeof(ListDictionary::NodeEnumerator) == 0x25);
 }
+NEED_NO_BOX(System::Collections::Specialized::ListDictionary::NodeEnumerator);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::ListDictionary::NodeEnumerator*, "System.Collections.Specialized", "ListDictionary/NodeEnumerator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::Specialized::ListDictionary::NodeEnumerator::get_Current

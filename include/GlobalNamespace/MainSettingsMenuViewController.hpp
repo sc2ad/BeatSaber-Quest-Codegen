@@ -129,6 +129,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MainSettingsMenuViewController), 144 + sizeof(int)> __GlobalNamespace_MainSettingsMenuViewControllerSizeCheck;
   static_assert(sizeof(MainSettingsMenuViewController) == 0x94);
 }
+NEED_NO_BOX(GlobalNamespace::MainSettingsMenuViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainSettingsMenuViewController*, "", "MainSettingsMenuViewController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MainSettingsMenuViewController::get_numberOfSubMenus

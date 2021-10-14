@@ -65,6 +65,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LightmappingGameplayManager), 24 + sizeof(GlobalNamespace::IBeatmapObjectCallbackController*)> __GlobalNamespace_LightmappingGameplayManagerSizeCheck;
   static_assert(sizeof(LightmappingGameplayManager) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::LightmappingGameplayManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightmappingGameplayManager*, "", "LightmappingGameplayManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LightmappingGameplayManager::Start

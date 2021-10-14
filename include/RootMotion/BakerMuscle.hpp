@@ -90,6 +90,7 @@ namespace RootMotion {
   static check_size<sizeof(BakerMuscle), 32 + sizeof(::Il2CppString*)> __RootMotion_BakerMuscleSizeCheck;
   static_assert(sizeof(BakerMuscle) == 0x28);
 }
+NEED_NO_BOX(RootMotion::BakerMuscle);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::BakerMuscle*, "RootMotion", "BakerMuscle");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::BakerMuscle::New_ctor

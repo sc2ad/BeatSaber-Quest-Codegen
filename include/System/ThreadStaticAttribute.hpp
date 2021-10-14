@@ -35,6 +35,7 @@ namespace System {
   }; // System.ThreadStaticAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::ThreadStaticAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::ThreadStaticAttribute*, "System", "ThreadStaticAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ThreadStaticAttribute::New_ctor

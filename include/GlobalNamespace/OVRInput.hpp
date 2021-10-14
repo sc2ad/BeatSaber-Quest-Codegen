@@ -607,6 +607,7 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(GlobalNamespace::OVRInput);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput*, "", "OVRInput");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::Controller, "", "OVRInput/Controller");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OpenVRController, "", "OVRInput/OpenVRController");

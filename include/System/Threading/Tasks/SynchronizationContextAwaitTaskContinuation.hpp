@@ -95,6 +95,7 @@ namespace System::Threading::Tasks {
   static check_size<sizeof(SynchronizationContextAwaitTaskContinuation), 32 + sizeof(System::Threading::SynchronizationContext*)> __System_Threading_Tasks_SynchronizationContextAwaitTaskContinuationSizeCheck;
   static_assert(sizeof(SynchronizationContextAwaitTaskContinuation) == 0x28);
 }
+NEED_NO_BOX(System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation*, "System.Threading.Tasks", "SynchronizationContextAwaitTaskContinuation");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation::New_ctor

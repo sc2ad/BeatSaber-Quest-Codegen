@@ -136,6 +136,7 @@ namespace System::Collections {
   static check_size<sizeof(Hashtable::HashtableEnumerator), 48 + sizeof(::Il2CppObject*)> __System_Collections_Hashtable_HashtableEnumeratorSizeCheck;
   static_assert(sizeof(Hashtable::HashtableEnumerator) == 0x38);
 }
+NEED_NO_BOX(System::Collections::Hashtable::HashtableEnumerator);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Hashtable::HashtableEnumerator*, "System.Collections", "Hashtable/HashtableEnumerator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::Hashtable::HashtableEnumerator::get_Key

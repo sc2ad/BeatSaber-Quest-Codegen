@@ -104,6 +104,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PhysicsFollow), 56 + sizeof(UnityEngine::Rigidbody2D*)> __GlobalNamespace_PhysicsFollowSizeCheck;
   static_assert(sizeof(PhysicsFollow) == 0x40);
 }
+NEED_NO_BOX(GlobalNamespace::PhysicsFollow);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PhysicsFollow*, "", "PhysicsFollow");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PhysicsFollow::Start

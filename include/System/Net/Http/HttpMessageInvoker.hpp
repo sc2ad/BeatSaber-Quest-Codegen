@@ -89,6 +89,7 @@ namespace System::Net::Http {
   static check_size<sizeof(HttpMessageInvoker), 24 + sizeof(bool)> __System_Net_Http_HttpMessageInvokerSizeCheck;
   static_assert(sizeof(HttpMessageInvoker) == 0x19);
 }
+NEED_NO_BOX(System::Net::Http::HttpMessageInvoker);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::HttpMessageInvoker*, "System.Net.Http", "HttpMessageInvoker");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Http::HttpMessageInvoker::New_ctor

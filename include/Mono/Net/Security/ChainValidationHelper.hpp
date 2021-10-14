@@ -176,6 +176,7 @@ namespace Mono::Net::Security {
   static check_size<sizeof(ChainValidationHelper), 72 + sizeof(System::Net::HttpWebRequest*)> __Mono_Net_Security_ChainValidationHelperSizeCheck;
   static_assert(sizeof(ChainValidationHelper) == 0x50);
 }
+NEED_NO_BOX(Mono::Net::Security::ChainValidationHelper);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::ChainValidationHelper*, "Mono.Net.Security", "ChainValidationHelper");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Net::Security::ChainValidationHelper::get_Settings

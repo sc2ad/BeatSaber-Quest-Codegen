@@ -36,6 +36,7 @@ namespace TMPro {
   }; // TMPro.TMP_Glyph
   #pragma pack(pop)
 }
+NEED_NO_BOX(TMPro::TMP_Glyph);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Glyph*, "TMPro", "TMP_Glyph");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_Glyph::Clone

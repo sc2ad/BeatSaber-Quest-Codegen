@@ -137,6 +137,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SpawnLaserAnimation), 72 + sizeof(bool)> __GlobalNamespace_SpawnLaserAnimationSizeCheck;
   static_assert(sizeof(SpawnLaserAnimation) == 0x49);
 }
+NEED_NO_BOX(GlobalNamespace::SpawnLaserAnimation);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SpawnLaserAnimation*, "", "SpawnLaserAnimation");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SpawnLaserAnimation::InitIfNeeded

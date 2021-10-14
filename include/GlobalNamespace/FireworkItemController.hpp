@@ -286,6 +286,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(FireworkItemController), 144 + sizeof(System::Action_1<GlobalNamespace::FireworkItemController*>*)> __GlobalNamespace_FireworkItemControllerSizeCheck;
   static_assert(sizeof(FireworkItemController) == 0x98);
 }
+NEED_NO_BOX(GlobalNamespace::FireworkItemController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FireworkItemController*, "", "FireworkItemController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FireworkItemController::set_directionalLight

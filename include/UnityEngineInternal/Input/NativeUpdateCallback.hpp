@@ -55,6 +55,7 @@ namespace UnityEngineInternal::Input {
   }; // UnityEngineInternal.Input.NativeUpdateCallback
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngineInternal::Input::NativeUpdateCallback);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngineInternal::Input::NativeUpdateCallback*, "UnityEngineInternal.Input", "NativeUpdateCallback");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngineInternal::Input::NativeUpdateCallback::New_ctor

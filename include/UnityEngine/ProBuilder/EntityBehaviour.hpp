@@ -81,6 +81,7 @@ namespace UnityEngine::ProBuilder {
   static check_size<sizeof(EntityBehaviour), 24 + sizeof(bool)> __UnityEngine_ProBuilder_EntityBehaviourSizeCheck;
   static_assert(sizeof(EntityBehaviour) == 0x19);
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::EntityBehaviour);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::EntityBehaviour*, "UnityEngine.ProBuilder", "EntityBehaviour");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::EntityBehaviour::Initialize

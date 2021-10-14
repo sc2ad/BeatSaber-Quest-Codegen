@@ -117,6 +117,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MirroredObstacleController), 64 + sizeof(UnityEngine::Transform*)> __GlobalNamespace_MirroredObstacleControllerSizeCheck;
   static_assert(sizeof(MirroredObstacleController) == 0x48);
 }
+NEED_NO_BOX(GlobalNamespace::MirroredObstacleController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MirroredObstacleController*, "", "MirroredObstacleController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MirroredObstacleController::set_hide

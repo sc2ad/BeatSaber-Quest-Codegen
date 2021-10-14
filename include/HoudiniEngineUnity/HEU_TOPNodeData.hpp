@@ -222,6 +222,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_TOPNodeData), 72 + sizeof(HoudiniEngineUnity::HEU_WorkItemTally*)> __HoudiniEngineUnity_HEU_TOPNodeDataSizeCheck;
   static_assert(sizeof(HEU_TOPNodeData) == 0x50);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_TOPNodeData);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_TOPNodeData*, "HoudiniEngineUnity", "HEU_TOPNodeData");
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_TOPNodeData::PDGState, "HoudiniEngineUnity", "HEU_TOPNodeData/PDGState");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

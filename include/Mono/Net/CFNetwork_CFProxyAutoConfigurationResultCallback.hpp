@@ -50,6 +50,7 @@ namespace Mono::Net {
   }; // Mono.Net.CFNetwork/Mono.Net.CFProxyAutoConfigurationResultCallback
   #pragma pack(pop)
 }
+NEED_NO_BOX(Mono::Net::CFNetwork::CFProxyAutoConfigurationResultCallback);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFNetwork::CFProxyAutoConfigurationResultCallback*, "Mono.Net", "CFNetwork/CFProxyAutoConfigurationResultCallback");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Net::CFNetwork::CFProxyAutoConfigurationResultCallback::New_ctor

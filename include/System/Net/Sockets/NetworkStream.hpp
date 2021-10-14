@@ -236,6 +236,7 @@ namespace System::Net::Sockets {
   static check_size<sizeof(NetworkStream), 64 + sizeof(int)> __System_Net_Sockets_NetworkStreamSizeCheck;
   static_assert(sizeof(NetworkStream) == 0x44);
 }
+NEED_NO_BOX(System::Net::Sockets::NetworkStream);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::NetworkStream*, "System.Net.Sockets", "NetworkStream");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Sockets::NetworkStream::get_DataAvailable

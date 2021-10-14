@@ -35,6 +35,7 @@ namespace System::Diagnostics {
   }; // System.Diagnostics.DebuggerHiddenAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Diagnostics::DebuggerHiddenAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::DebuggerHiddenAttribute*, "System.Diagnostics", "DebuggerHiddenAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Diagnostics::DebuggerHiddenAttribute::New_ctor

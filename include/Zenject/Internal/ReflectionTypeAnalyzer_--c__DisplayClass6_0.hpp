@@ -70,6 +70,7 @@ namespace Zenject::Internal {
   static check_size<sizeof(ReflectionTypeAnalyzer::$$c__DisplayClass6_0), 16 + sizeof(System::Type*)> __Zenject_Internal_ReflectionTypeAnalyzer_$$c__DisplayClass6_0SizeCheck;
   static_assert(sizeof(ReflectionTypeAnalyzer::$$c__DisplayClass6_0) == 0x18);
 }
+NEED_NO_BOX(Zenject::Internal::ReflectionTypeAnalyzer::$$c__DisplayClass6_0);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::ReflectionTypeAnalyzer::$$c__DisplayClass6_0*, "Zenject.Internal", "ReflectionTypeAnalyzer/<>c__DisplayClass6_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::Internal::ReflectionTypeAnalyzer::$$c__DisplayClass6_0::$GetFieldInfos$b__1

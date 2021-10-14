@@ -71,6 +71,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(IKSolverTrigonometric::TrigonometricBone), 132 + sizeof(UnityEngine::Vector3)> __RootMotion_FinalIK_IKSolverTrigonometric_TrigonometricBoneSizeCheck;
   static_assert(sizeof(IKSolverTrigonometric::TrigonometricBone) == 0x90);
 }
+NEED_NO_BOX(RootMotion::FinalIK::IKSolverTrigonometric::TrigonometricBone);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverTrigonometric::TrigonometricBone*, "RootMotion.FinalIK", "IKSolverTrigonometric/TrigonometricBone");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverTrigonometric::TrigonometricBone::Initiate

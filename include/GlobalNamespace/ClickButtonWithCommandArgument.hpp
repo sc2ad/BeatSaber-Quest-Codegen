@@ -82,6 +82,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ClickButtonWithCommandArgument), 32 + sizeof(UnityEngine::UI::Button*)> __GlobalNamespace_ClickButtonWithCommandArgumentSizeCheck;
   static_assert(sizeof(ClickButtonWithCommandArgument) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::ClickButtonWithCommandArgument);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ClickButtonWithCommandArgument*, "", "ClickButtonWithCommandArgument");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ClickButtonWithCommandArgument::Start

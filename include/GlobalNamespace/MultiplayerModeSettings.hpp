@@ -74,6 +74,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerModeSettings), 32 + sizeof(bool)> __GlobalNamespace_MultiplayerModeSettingsSizeCheck;
   static_assert(sizeof(MultiplayerModeSettings) == 0x21);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerModeSettings);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerModeSettings*, "", "MultiplayerModeSettings");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerModeSettings::New_ctor

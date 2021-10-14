@@ -74,6 +74,7 @@ namespace GlobalNamespace {
   }; // OVRCompositionUtil
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::OVRCompositionUtil);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRCompositionUtil*, "", "OVRCompositionUtil");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRCompositionUtil::SafeDestroy

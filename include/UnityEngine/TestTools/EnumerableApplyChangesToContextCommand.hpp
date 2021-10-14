@@ -73,6 +73,7 @@ namespace UnityEngine::TestTools {
   }; // UnityEngine.TestTools.EnumerableApplyChangesToContextCommand
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::TestTools::EnumerableApplyChangesToContextCommand);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::EnumerableApplyChangesToContextCommand*, "UnityEngine.TestTools", "EnumerableApplyChangesToContextCommand");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::EnumerableApplyChangesToContextCommand::ExecuteEnumerable

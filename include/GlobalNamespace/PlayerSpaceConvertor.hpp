@@ -60,6 +60,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PlayerSpaceConvertor), 24 + sizeof(UnityEngine::Quaternion)> __GlobalNamespace_PlayerSpaceConvertorSizeCheck;
   static_assert(sizeof(PlayerSpaceConvertor) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::PlayerSpaceConvertor);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSpaceConvertor*, "", "PlayerSpaceConvertor");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSpaceConvertor::get_worldToPlayerSpaceRotation

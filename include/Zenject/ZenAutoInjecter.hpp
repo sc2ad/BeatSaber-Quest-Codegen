@@ -144,6 +144,7 @@ namespace Zenject {
   static check_size<sizeof(ZenAutoInjecter), 28 + sizeof(bool)> __Zenject_ZenAutoInjecterSizeCheck;
   static_assert(sizeof(ZenAutoInjecter) == 0x1D);
 }
+NEED_NO_BOX(Zenject::ZenAutoInjecter);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenAutoInjecter*, "Zenject", "ZenAutoInjecter");
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenAutoInjecter::ContainerSources, "Zenject", "ZenAutoInjecter/ContainerSources");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -94,6 +94,7 @@ namespace NUnit::Framework::Internal::Builders {
   static check_size<sizeof(NUnitTestFixtureBuilder), 16 + sizeof(NUnit::Framework::Interfaces::ITestCaseBuilder*)> __NUnit_Framework_Internal_Builders_NUnitTestFixtureBuilderSizeCheck;
   static_assert(sizeof(NUnitTestFixtureBuilder) == 0x18);
 }
+NEED_NO_BOX(NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder*, "NUnit.Framework.Internal.Builders", "NUnitTestFixtureBuilder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder::_cctor

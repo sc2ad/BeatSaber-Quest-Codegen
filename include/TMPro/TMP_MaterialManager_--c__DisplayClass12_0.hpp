@@ -63,6 +63,7 @@ namespace TMPro {
   static check_size<sizeof(TMP_MaterialManager::$$c__DisplayClass12_0), 16 + sizeof(UnityEngine::Material*)> __TMPro_TMP_MaterialManager_$$c__DisplayClass12_0SizeCheck;
   static_assert(sizeof(TMP_MaterialManager::$$c__DisplayClass12_0) == 0x18);
 }
+NEED_NO_BOX(TMPro::TMP_MaterialManager::$$c__DisplayClass12_0);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_MaterialManager::$$c__DisplayClass12_0*, "TMPro", "TMP_MaterialManager/<>c__DisplayClass12_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_MaterialManager::$$c__DisplayClass12_0::$AddMaskingMaterial$b__0

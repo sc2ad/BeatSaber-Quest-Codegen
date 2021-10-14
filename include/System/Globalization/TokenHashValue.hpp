@@ -62,6 +62,7 @@ namespace System::Globalization {
   static check_size<sizeof(TokenHashValue), 28 + sizeof(int)> __System_Globalization_TokenHashValueSizeCheck;
   static_assert(sizeof(TokenHashValue) == 0x20);
 }
+NEED_NO_BOX(System::Globalization::TokenHashValue);
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::TokenHashValue*, "System.Globalization", "TokenHashValue");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Globalization::TokenHashValue::New_ctor

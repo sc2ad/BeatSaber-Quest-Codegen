@@ -131,6 +131,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ConditionalSpriteSwitcher), 64 + sizeof(UnityEngine::SpriteRenderer*)> __GlobalNamespace_ConditionalSpriteSwitcherSizeCheck;
   static_assert(sizeof(ConditionalSpriteSwitcher) == 0x48);
 }
+NEED_NO_BOX(GlobalNamespace::ConditionalSpriteSwitcher);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConditionalSpriteSwitcher*, "", "ConditionalSpriteSwitcher");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ConditionalSpriteSwitcher::get_falseSprite

@@ -60,6 +60,7 @@ namespace GlobalNamespace {
   }; // MultiplayerSpectatingSpotManager/<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerSpectatingSpotManager::$$c);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerSpectatingSpotManager::$$c*, "", "MultiplayerSpectatingSpotManager/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerSpectatingSpotManager::$$c::_cctor

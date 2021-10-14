@@ -119,6 +119,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MoveBackWall), 56 + sizeof(UnityEngine::Material*)> __GlobalNamespace_MoveBackWallSizeCheck;
   static_assert(sizeof(MoveBackWall) == 0x40);
 }
+NEED_NO_BOX(GlobalNamespace::MoveBackWall);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MoveBackWall*, "", "MoveBackWall");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MoveBackWall::Start

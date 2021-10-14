@@ -185,6 +185,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(DlcPromoExperimentModel), 72 + sizeof(System::Random*)> __GlobalNamespace_DlcPromoExperimentModelSizeCheck;
   static_assert(sizeof(DlcPromoExperimentModel) == 0x50);
 }
+NEED_NO_BOX(GlobalNamespace::DlcPromoExperimentModel);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DlcPromoExperimentModel*, "", "DlcPromoExperimentModel");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DlcPromoExperimentModel::InitAfterPlatformWasInitializedAsync

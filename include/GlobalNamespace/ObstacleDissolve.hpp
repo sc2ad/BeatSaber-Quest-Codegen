@@ -83,6 +83,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ObstacleDissolve), 32 + sizeof(GlobalNamespace::CutoutAnimateEffect*)> __GlobalNamespace_ObstacleDissolveSizeCheck;
   static_assert(sizeof(ObstacleDissolve) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::ObstacleDissolve);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleDissolve*, "", "ObstacleDissolve");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ObstacleDissolve::Awake

@@ -31,6 +31,7 @@ namespace System::Net::Http::Headers {
     }
   }; // System.Net.Http.Headers.HttpResponseHeaders
 }
+NEED_NO_BOX(System::Net::Http::Headers::HttpResponseHeaders);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::HttpResponseHeaders*, "System.Net.Http.Headers", "HttpResponseHeaders");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Http::Headers::HttpResponseHeaders::New_ctor

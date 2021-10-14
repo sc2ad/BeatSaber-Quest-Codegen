@@ -68,6 +68,7 @@ namespace UnityEngine {
   static check_size<sizeof(RuntimeInitializeOnLoadMethodAttribute), 16 + sizeof(UnityEngine::RuntimeInitializeLoadType)> __UnityEngine_RuntimeInitializeOnLoadMethodAttributeSizeCheck;
   static_assert(sizeof(RuntimeInitializeOnLoadMethodAttribute) == 0x14);
 }
+NEED_NO_BOX(UnityEngine::RuntimeInitializeOnLoadMethodAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RuntimeInitializeOnLoadMethodAttribute*, "UnityEngine", "RuntimeInitializeOnLoadMethodAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::RuntimeInitializeOnLoadMethodAttribute::set_loadType

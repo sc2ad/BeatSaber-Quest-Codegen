@@ -113,6 +113,7 @@ namespace Org::BouncyCastle::Crypto {
   static check_size<sizeof(BufferedAeadCipher), 16 + sizeof(Org::BouncyCastle::Crypto::Modes::IAeadCipher*)> __Org_BouncyCastle_Crypto_BufferedAeadCipherSizeCheck;
   static_assert(sizeof(BufferedAeadCipher) == 0x18);
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::BufferedAeadCipher);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::BufferedAeadCipher*, "Org.BouncyCastle.Crypto", "BufferedAeadCipher");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::BufferedAeadCipher::New_ctor

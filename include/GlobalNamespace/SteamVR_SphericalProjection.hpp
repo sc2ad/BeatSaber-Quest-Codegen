@@ -57,6 +57,7 @@ namespace GlobalNamespace {
   }; // SteamVR_SphericalProjection
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::SteamVR_SphericalProjection);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_SphericalProjection*, "", "SteamVR_SphericalProjection");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_SphericalProjection::Set

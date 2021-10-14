@@ -127,6 +127,7 @@ namespace Org::BouncyCastle::Math::EC {
   static check_size<sizeof(FpCurve), 96 + sizeof(Org::BouncyCastle::Math::EC::FpPoint*)> __Org_BouncyCastle_Math_EC_FpCurveSizeCheck;
   static_assert(sizeof(FpCurve) == 0x68);
 }
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::FpCurve);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::FpCurve*, "Org.BouncyCastle.Math.EC", "FpCurve");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::FpCurve::New_ctor

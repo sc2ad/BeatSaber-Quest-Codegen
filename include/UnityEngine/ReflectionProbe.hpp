@@ -104,6 +104,7 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::ReflectionProbe);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ReflectionProbe*, "UnityEngine", "ReflectionProbe");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ReflectionProbe::ReflectionProbeEvent, "UnityEngine", "ReflectionProbe/ReflectionProbeEvent");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

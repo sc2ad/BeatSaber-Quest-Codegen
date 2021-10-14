@@ -93,6 +93,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerLayoutProvider), 24 + sizeof(System::Action_2<GlobalNamespace::MultiplayerPlayerLayout, int>*)> __GlobalNamespace_MultiplayerLayoutProviderSizeCheck;
   static_assert(sizeof(MultiplayerLayoutProvider) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerLayoutProvider);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLayoutProvider*, "", "MultiplayerLayoutProvider");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLayoutProvider::get_layout

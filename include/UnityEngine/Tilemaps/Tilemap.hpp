@@ -124,6 +124,7 @@ namespace UnityEngine::Tilemaps {
   }; // UnityEngine.Tilemaps.Tilemap
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::Tilemaps::Tilemap);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Tilemaps::Tilemap*, "UnityEngine.Tilemaps", "Tilemap");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Tilemaps::Tilemap::get_layoutGrid

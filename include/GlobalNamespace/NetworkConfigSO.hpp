@@ -134,6 +134,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(NetworkConfigSO), 56 + sizeof(::Il2CppString*)> __GlobalNamespace_NetworkConfigSOSizeCheck;
   static_assert(sizeof(NetworkConfigSO) == 0x40);
 }
+NEED_NO_BOX(GlobalNamespace::NetworkConfigSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetworkConfigSO*, "", "NetworkConfigSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NetworkConfigSO::get_maxPartySize

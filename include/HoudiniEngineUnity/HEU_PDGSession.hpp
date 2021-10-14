@@ -254,6 +254,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_PDGSession), 88 + sizeof(::ArrayW<::Il2CppString*>)> __HoudiniEngineUnity_HEU_PDGSessionSizeCheck;
   static_assert(sizeof(HEU_PDGSession) == 0x60);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_PDGSession);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_PDGSession*, "HoudiniEngineUnity", "HEU_PDGSession");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PDGSession::GetPDGSession

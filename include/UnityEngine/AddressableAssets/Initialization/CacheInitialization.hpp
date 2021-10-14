@@ -65,6 +65,7 @@ namespace UnityEngine::AddressableAssets::Initialization {
   }; // UnityEngine.AddressableAssets.Initialization.CacheInitialization
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::AddressableAssets::Initialization::CacheInitialization);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Initialization::CacheInitialization*, "UnityEngine.AddressableAssets.Initialization", "CacheInitialization");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Initialization::CacheInitialization::get_RootPath

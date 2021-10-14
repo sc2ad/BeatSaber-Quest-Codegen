@@ -139,6 +139,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SaberManager), 56 + sizeof(System::Action_2<GlobalNamespace::Saber*, GlobalNamespace::Saber*>*)> __GlobalNamespace_SaberManagerSizeCheck;
   static_assert(sizeof(SaberManager) == 0x40);
 }
+NEED_NO_BOX(GlobalNamespace::SaberManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberManager*, "", "SaberManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SaberManager::get_leftSaber

@@ -51,6 +51,7 @@ namespace Org::BouncyCastle::Crypto::Signers {
   }; // Org.BouncyCastle.Crypto.Signers.Ed448Signer/Org.BouncyCastle.Crypto.Signers.Buffer
   #pragma pack(pop)
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Signers::Ed448Signer::Buffer);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Signers::Ed448Signer::Buffer*, "Org.BouncyCastle.Crypto.Signers", "Ed448Signer/Buffer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::Ed448Signer::Buffer::GenerateSignature

@@ -59,6 +59,7 @@ namespace Valve::VR {
   }; // Valve.VR.IVRSystem/Valve.VR._GetDeviceToAbsoluteTrackingPose
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::IVRSystem::_GetDeviceToAbsoluteTrackingPose);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem::_GetDeviceToAbsoluteTrackingPose*, "Valve.VR", "IVRSystem/_GetDeviceToAbsoluteTrackingPose");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRSystem::_GetDeviceToAbsoluteTrackingPose::New_ctor

@@ -41,6 +41,7 @@ namespace LiteNetLib::Utils {
   }; // LiteNetLib.Utils.NetSerializer/LiteNetLib.Utils.CustomType
   #pragma pack(pop)
 }
+NEED_NO_BOX(LiteNetLib::Utils::NetSerializer::CustomType);
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::NetSerializer::CustomType*, "LiteNetLib.Utils", "NetSerializer/CustomType");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetSerializer::CustomType::Get

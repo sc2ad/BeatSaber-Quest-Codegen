@@ -153,6 +153,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerLeadPlayerProvider), 72 + sizeof(GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*)> __GlobalNamespace_MultiplayerLeadPlayerProviderSizeCheck;
   static_assert(sizeof(MultiplayerLeadPlayerProvider) == 0x50);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerLeadPlayerProvider);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLeadPlayerProvider*, "", "MultiplayerLeadPlayerProvider");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLeadPlayerProvider::add_newLeaderWasSelectedEvent

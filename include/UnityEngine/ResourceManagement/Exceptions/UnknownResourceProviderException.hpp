@@ -123,6 +123,7 @@ namespace UnityEngine::ResourceManagement::Exceptions {
   static check_size<sizeof(UnknownResourceProviderException), 136 + sizeof(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)> __UnityEngine_ResourceManagement_Exceptions_UnknownResourceProviderExceptionSizeCheck;
   static_assert(sizeof(UnknownResourceProviderException) == 0x90);
 }
+NEED_NO_BOX(UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException*, "UnityEngine.ResourceManagement.Exceptions", "UnknownResourceProviderException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::get_Location

@@ -34,6 +34,7 @@ namespace UnityEngine::UI {
     }
   }; // UnityEngine.UI.MaskableGraphic/UnityEngine.UI.CullStateChangedEvent
 }
+NEED_NO_BOX(UnityEngine::UI::MaskableGraphic::CullStateChangedEvent);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::MaskableGraphic::CullStateChangedEvent*, "UnityEngine.UI", "MaskableGraphic/CullStateChangedEvent");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::MaskableGraphic::CullStateChangedEvent::New_ctor

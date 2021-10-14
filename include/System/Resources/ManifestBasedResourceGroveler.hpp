@@ -78,6 +78,7 @@ namespace System::Resources {
   static check_size<sizeof(ManifestBasedResourceGroveler), 16 + sizeof(System::Resources::ResourceManager::ResourceManagerMediator*)> __System_Resources_ManifestBasedResourceGrovelerSizeCheck;
   static_assert(sizeof(ManifestBasedResourceGroveler) == 0x18);
 }
+NEED_NO_BOX(System::Resources::ManifestBasedResourceGroveler);
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::ManifestBasedResourceGroveler*, "System.Resources", "ManifestBasedResourceGroveler");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Resources::ManifestBasedResourceGroveler::New_ctor

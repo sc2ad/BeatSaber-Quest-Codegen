@@ -55,6 +55,7 @@ namespace GlobalNamespace {
   }; // CustomTweenBehaviour/<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::CustomTweenBehaviour::$$c);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CustomTweenBehaviour::$$c*, "", "CustomTweenBehaviour/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CustomTweenBehaviour::$$c::_cctor

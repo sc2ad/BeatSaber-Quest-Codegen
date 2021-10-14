@@ -68,6 +68,7 @@ namespace System::IO {
   static check_size<sizeof(SearchResult), 32 + sizeof(Microsoft::Win32::Win32Native::WIN32_FIND_DATA*)> __System_IO_SearchResultSizeCheck;
   static_assert(sizeof(SearchResult) == 0x28);
 }
+NEED_NO_BOX(System::IO::SearchResult);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::SearchResult*, "System.IO", "SearchResult");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::SearchResult::get_UserPath

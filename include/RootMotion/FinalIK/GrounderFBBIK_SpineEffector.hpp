@@ -76,6 +76,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(GrounderFBBIK::SpineEffector), 24 + sizeof(float)> __RootMotion_FinalIK_GrounderFBBIK_SpineEffectorSizeCheck;
   static_assert(sizeof(GrounderFBBIK::SpineEffector) == 0x1C);
 }
+NEED_NO_BOX(RootMotion::FinalIK::GrounderFBBIK::SpineEffector);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::GrounderFBBIK::SpineEffector*, "RootMotion.FinalIK", "GrounderFBBIK/SpineEffector");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::GrounderFBBIK::SpineEffector::New_ctor

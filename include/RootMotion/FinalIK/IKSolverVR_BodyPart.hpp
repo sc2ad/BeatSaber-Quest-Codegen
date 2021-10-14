@@ -172,6 +172,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(IKSolverVR::BodyPart), 68 + sizeof(int)> __RootMotion_FinalIK_IKSolverVR_BodyPartSizeCheck;
   static_assert(sizeof(IKSolverVR::BodyPart) == 0x48);
 }
+NEED_NO_BOX(RootMotion::FinalIK::IKSolverVR::BodyPart);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverVR::BodyPart*, "RootMotion.FinalIK", "IKSolverVR/BodyPart");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::BodyPart::get_sqrMag

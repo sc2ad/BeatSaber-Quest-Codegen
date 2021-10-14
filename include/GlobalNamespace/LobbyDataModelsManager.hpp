@@ -104,6 +104,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LobbyDataModelsManager), 48 + sizeof(GlobalNamespace::LobbyPlayerPermissionsModel*)> __GlobalNamespace_LobbyDataModelsManagerSizeCheck;
   static_assert(sizeof(LobbyDataModelsManager) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::LobbyDataModelsManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LobbyDataModelsManager*, "", "LobbyDataModelsManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LobbyDataModelsManager::Activate

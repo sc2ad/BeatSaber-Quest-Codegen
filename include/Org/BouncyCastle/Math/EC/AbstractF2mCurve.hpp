@@ -105,6 +105,7 @@ namespace Org::BouncyCastle::Math::EC {
   static check_size<sizeof(AbstractF2mCurve), 80 + sizeof(::ArrayW<Org::BouncyCastle::Math::BigInteger*>)> __Org_BouncyCastle_Math_EC_AbstractF2mCurveSizeCheck;
   static_assert(sizeof(AbstractF2mCurve) == 0x58);
 }
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::AbstractF2mCurve);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::AbstractF2mCurve*, "Org.BouncyCastle.Math.EC", "AbstractF2mCurve");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::AbstractF2mCurve::get_IsKoblitz

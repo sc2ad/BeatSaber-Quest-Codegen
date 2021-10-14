@@ -50,6 +50,7 @@ namespace GlobalNamespace {
   }; // AvatarVisualController/HighlighterDelegate
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::AvatarVisualController::HighlighterDelegate);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarVisualController::HighlighterDelegate*, "", "AvatarVisualController/HighlighterDelegate");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AvatarVisualController::HighlighterDelegate::New_ctor

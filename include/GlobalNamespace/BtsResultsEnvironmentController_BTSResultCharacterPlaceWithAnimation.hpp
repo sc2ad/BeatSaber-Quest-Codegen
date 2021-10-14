@@ -118,6 +118,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation), 56 + sizeof(UnityEngine::AddressableAssets::AssetReference*)> __GlobalNamespace_BtsResultsEnvironmentController_BTSResultCharacterPlaceWithAnimationSizeCheck;
   static_assert(sizeof(BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation) == 0x40);
 }
+NEED_NO_BOX(GlobalNamespace::BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation*, "", "BtsResultsEnvironmentController/BTSResultCharacterPlaceWithAnimation");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation::get_name

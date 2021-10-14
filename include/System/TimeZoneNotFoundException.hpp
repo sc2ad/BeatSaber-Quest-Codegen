@@ -59,6 +59,7 @@ namespace System {
   }; // System.TimeZoneNotFoundException
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::TimeZoneNotFoundException);
 DEFINE_IL2CPP_ARG_TYPE(System::TimeZoneNotFoundException*, "System", "TimeZoneNotFoundException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::TimeZoneNotFoundException::New_ctor

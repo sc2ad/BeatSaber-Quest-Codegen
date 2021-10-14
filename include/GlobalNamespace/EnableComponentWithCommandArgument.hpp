@@ -71,6 +71,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(EnableComponentWithCommandArgument), 32 + sizeof(UnityEngine::Behaviour*)> __GlobalNamespace_EnableComponentWithCommandArgumentSizeCheck;
   static_assert(sizeof(EnableComponentWithCommandArgument) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::EnableComponentWithCommandArgument);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnableComponentWithCommandArgument*, "", "EnableComponentWithCommandArgument");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EnableComponentWithCommandArgument::Awake

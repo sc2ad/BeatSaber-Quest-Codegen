@@ -67,6 +67,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(Test_Material), 16 + sizeof(UnityEngine::Material*)> __HoudiniEngineUnity_Test_MaterialSizeCheck;
   static_assert(sizeof(Test_Material) == 0x18);
 }
+NEED_NO_BOX(HoudiniEngineUnity::Test_Material);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::Test_Material*, "HoudiniEngineUnity", "Test_Material");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::Test_Material::New_ctor

@@ -42,6 +42,7 @@ namespace GlobalNamespace {
   }; // OculusInvitePlatformHandler
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::OculusInvitePlatformHandler);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusInvitePlatformHandler*, "", "OculusInvitePlatformHandler");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OculusInvitePlatformHandler::get_isSupported

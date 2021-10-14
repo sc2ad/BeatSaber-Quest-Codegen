@@ -57,6 +57,7 @@ namespace UnityEngine::Networking::PlayerConnection {
   static check_size<sizeof(MessageEventArgs), 24 + sizeof(::ArrayW<uint8_t>)> __UnityEngine_Networking_PlayerConnection_MessageEventArgsSizeCheck;
   static_assert(sizeof(MessageEventArgs) == 0x20);
 }
+NEED_NO_BOX(UnityEngine::Networking::PlayerConnection::MessageEventArgs);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::PlayerConnection::MessageEventArgs*, "UnityEngine.Networking.PlayerConnection", "MessageEventArgs");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Networking::PlayerConnection::MessageEventArgs::New_ctor

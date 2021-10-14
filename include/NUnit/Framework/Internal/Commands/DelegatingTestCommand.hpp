@@ -51,6 +51,7 @@ namespace NUnit::Framework::Internal::Commands {
   static check_size<sizeof(DelegatingTestCommand), 24 + sizeof(NUnit::Framework::Internal::Commands::TestCommand*)> __NUnit_Framework_Internal_Commands_DelegatingTestCommandSizeCheck;
   static_assert(sizeof(DelegatingTestCommand) == 0x20);
 }
+NEED_NO_BOX(NUnit::Framework::Internal::Commands::DelegatingTestCommand);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Commands::DelegatingTestCommand*, "NUnit.Framework.Internal.Commands", "DelegatingTestCommand");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Commands::DelegatingTestCommand::New_ctor

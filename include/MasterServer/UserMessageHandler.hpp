@@ -167,6 +167,7 @@ namespace MasterServer {
   static check_size<sizeof(UserMessageHandler), 184 + sizeof(GlobalNamespace::IAuthenticationTokenProvider*)> __MasterServer_UserMessageHandlerSizeCheck;
   static_assert(sizeof(UserMessageHandler) == 0xC0);
 }
+NEED_NO_BOX(MasterServer::UserMessageHandler);
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::UserMessageHandler*, "MasterServer", "UserMessageHandler");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: MasterServer::UserMessageHandler::get_authenticationTokenProvider

@@ -67,6 +67,7 @@ namespace System::Runtime::Remoting {
   static check_size<sizeof(TypeEntry), 24 + sizeof(::Il2CppString*)> __System_Runtime_Remoting_TypeEntrySizeCheck;
   static_assert(sizeof(TypeEntry) == 0x20);
 }
+NEED_NO_BOX(System::Runtime::Remoting::TypeEntry);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::TypeEntry*, "System.Runtime.Remoting", "TypeEntry");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::TypeEntry::get_AssemblyName

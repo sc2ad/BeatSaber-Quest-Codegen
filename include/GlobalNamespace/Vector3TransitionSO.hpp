@@ -110,6 +110,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(Vector3TransitionSO), 92 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_Vector3TransitionSOSizeCheck;
   static_assert(sizeof(Vector3TransitionSO) == 0x68);
 }
+NEED_NO_BOX(GlobalNamespace::Vector3TransitionSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Vector3TransitionSO*, "", "Vector3TransitionSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::Vector3TransitionSO::get_normalState

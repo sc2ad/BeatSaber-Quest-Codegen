@@ -158,6 +158,7 @@ namespace Org::BouncyCastle::Crypto::Encodings {
   static check_size<sizeof(Pkcs1Encoding), 48 + sizeof(::ArrayW<uint8_t>)> __Org_BouncyCastle_Crypto_Encodings_Pkcs1EncodingSizeCheck;
   static_assert(sizeof(Pkcs1Encoding) == 0x38);
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding*, "Org.BouncyCastle.Crypto.Encodings", "Pkcs1Encoding");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::get_StrictLengthEnabled

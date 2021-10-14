@@ -165,6 +165,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(EnvironmentSizeData), 20 + sizeof(GlobalNamespace::EnvironmentSizeData::CeilingType)> __GlobalNamespace_EnvironmentSizeDataSizeCheck;
   static_assert(sizeof(EnvironmentSizeData) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::EnvironmentSizeData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentSizeData*, "", "EnvironmentSizeData");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentSizeData::FloorType, "", "EnvironmentSizeData/FloorType");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentSizeData::CeilingType, "", "EnvironmentSizeData/CeilingType");

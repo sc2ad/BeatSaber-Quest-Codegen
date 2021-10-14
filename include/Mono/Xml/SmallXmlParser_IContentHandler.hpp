@@ -41,6 +41,7 @@ namespace Mono::Xml {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(Mono::Xml::SmallXmlParser::IContentHandler);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Xml::SmallXmlParser::IContentHandler*, "Mono.Xml", "SmallXmlParser/IContentHandler");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Xml::SmallXmlParser::IContentHandler::OnStartParsing

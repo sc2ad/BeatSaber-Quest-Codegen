@@ -98,6 +98,7 @@ namespace UnityEngine::AI {
   static check_size<sizeof(NavMeshPath), 24 + sizeof(::ArrayW<UnityEngine::Vector3>)> __UnityEngine_AI_NavMeshPathSizeCheck;
   static_assert(sizeof(NavMeshPath) == 0x20);
 }
+NEED_NO_BOX(UnityEngine::AI::NavMeshPath);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AI::NavMeshPath*, "UnityEngine.AI", "NavMeshPath");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AI::NavMeshPath::get_corners

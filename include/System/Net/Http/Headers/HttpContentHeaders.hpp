@@ -69,6 +69,7 @@ namespace System::Net::Http::Headers {
   }; // System.Net.Http.Headers.HttpContentHeaders
   // WARNING Not writing size check since size may be invalid!
 }
+NEED_NO_BOX(System::Net::Http::Headers::HttpContentHeaders);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::HttpContentHeaders*, "System.Net.Http.Headers", "HttpContentHeaders");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Http::Headers::HttpContentHeaders::get_ContentLength

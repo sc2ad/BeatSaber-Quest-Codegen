@@ -103,6 +103,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(IKExecutionOrder), 40 + sizeof(bool)> __RootMotion_FinalIK_IKExecutionOrderSizeCheck;
   static_assert(sizeof(IKExecutionOrder) == 0x29);
 }
+NEED_NO_BOX(RootMotion::FinalIK::IKExecutionOrder);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKExecutionOrder*, "RootMotion.FinalIK", "IKExecutionOrder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKExecutionOrder::get_animatePhysics

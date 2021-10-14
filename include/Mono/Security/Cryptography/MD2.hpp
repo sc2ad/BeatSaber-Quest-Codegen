@@ -36,6 +36,7 @@ namespace Mono::Security::Cryptography {
   }; // Mono.Security.Cryptography.MD2
   #pragma pack(pop)
 }
+NEED_NO_BOX(Mono::Security::Cryptography::MD2);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::MD2*, "Mono.Security.Cryptography", "MD2");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Security::Cryptography::MD2::Create

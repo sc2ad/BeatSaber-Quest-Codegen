@@ -95,6 +95,7 @@ namespace GlobalNamespace {
   }; // MockPlayerFiniteStateMachine
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::MockPlayerFiniteStateMachine);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockPlayerFiniteStateMachine*, "", "MockPlayerFiniteStateMachine");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayerFiniteStateMachine::get_saberAColor

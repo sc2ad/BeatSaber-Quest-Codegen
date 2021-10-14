@@ -103,6 +103,7 @@ namespace System::Text {
   static check_size<sizeof(Encoder), 24 + sizeof(System::Text::EncoderFallbackBuffer*)> __System_Text_EncoderSizeCheck;
   static_assert(sizeof(Encoder) == 0x20);
 }
+NEED_NO_BOX(System::Text::Encoder);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::Encoder*, "System.Text", "Encoder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::Encoder::get_Fallback

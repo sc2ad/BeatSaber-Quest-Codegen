@@ -143,6 +143,7 @@ namespace NUnit::Framework::Internal {
   static check_size<sizeof(MethodWrapper), 24 + sizeof(System::Reflection::MethodInfo*)> __NUnit_Framework_Internal_MethodWrapperSizeCheck;
   static_assert(sizeof(MethodWrapper) == 0x20);
 }
+NEED_NO_BOX(NUnit::Framework::Internal::MethodWrapper);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::MethodWrapper*, "NUnit.Framework.Internal", "MethodWrapper");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::MethodWrapper::get_TypeInfo

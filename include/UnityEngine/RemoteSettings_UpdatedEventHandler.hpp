@@ -50,6 +50,7 @@ namespace UnityEngine {
   }; // UnityEngine.RemoteSettings/UnityEngine.UpdatedEventHandler
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::RemoteSettings::UpdatedEventHandler);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RemoteSettings::UpdatedEventHandler*, "UnityEngine", "RemoteSettings/UpdatedEventHandler");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::RemoteSettings::UpdatedEventHandler::New_ctor

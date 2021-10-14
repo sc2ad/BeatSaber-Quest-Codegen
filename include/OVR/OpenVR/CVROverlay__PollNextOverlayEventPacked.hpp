@@ -56,6 +56,7 @@ namespace OVR::OpenVR {
   }; // OVR.OpenVR.CVROverlay/OVR.OpenVR._PollNextOverlayEventPacked
   #pragma pack(pop)
 }
+NEED_NO_BOX(OVR::OpenVR::CVROverlay::_PollNextOverlayEventPacked);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVROverlay::_PollNextOverlayEventPacked*, "OVR.OpenVR", "CVROverlay/_PollNextOverlayEventPacked");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::_PollNextOverlayEventPacked::New_ctor

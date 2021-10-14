@@ -60,6 +60,7 @@ namespace Mono::Net::Security {
   static check_size<sizeof(MobileAuthenticatedStream::$$c__DisplayClass66_0), 24 + sizeof(int)> __Mono_Net_Security_MobileAuthenticatedStream_$$c__DisplayClass66_0SizeCheck;
   static_assert(sizeof(MobileAuthenticatedStream::$$c__DisplayClass66_0) == 0x1C);
 }
+NEED_NO_BOX(Mono::Net::Security::MobileAuthenticatedStream::$$c__DisplayClass66_0);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::MobileAuthenticatedStream::$$c__DisplayClass66_0*, "Mono.Net.Security", "MobileAuthenticatedStream/<>c__DisplayClass66_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::$$c__DisplayClass66_0::$InnerRead$b__0

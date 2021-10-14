@@ -56,6 +56,7 @@ namespace UnityEngine {
   }; // UnityEngine.UnhandledExceptionHandler/UnityEngine.<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::UnhandledExceptionHandler::$$c);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UnhandledExceptionHandler::$$c*, "UnityEngine", "UnhandledExceptionHandler/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UnhandledExceptionHandler::$$c::_cctor

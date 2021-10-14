@@ -73,6 +73,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LightmapLightWithIds::LightIntensitiesData), 44 + sizeof(float)> __GlobalNamespace_LightmapLightWithIds_LightIntensitiesDataSizeCheck;
   static_assert(sizeof(LightmapLightWithIds::LightIntensitiesData) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::LightmapLightWithIds::LightIntensitiesData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightmapLightWithIds::LightIntensitiesData*, "", "LightmapLightWithIds/LightIntensitiesData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LightmapLightWithIds::LightIntensitiesData::get_intensity

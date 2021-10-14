@@ -66,6 +66,7 @@ namespace Mono::Security::Interface {
   static check_size<sizeof(TlsException), 136 + sizeof(Mono::Security::Interface::Alert*)> __Mono_Security_Interface_TlsExceptionSizeCheck;
   static_assert(sizeof(TlsException) == 0x90);
 }
+NEED_NO_BOX(Mono::Security::Interface::TlsException);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::TlsException*, "Mono.Security.Interface", "TlsException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Security::Interface::TlsException::New_ctor

@@ -58,6 +58,7 @@ namespace Oculus::Platform::Models {
   static check_size<sizeof(SdkAccount), 24 + sizeof(uint64_t)> __Oculus_Platform_Models_SdkAccountSizeCheck;
   static_assert(sizeof(SdkAccount) == 0x20);
 }
+NEED_NO_BOX(Oculus::Platform::Models::SdkAccount);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::SdkAccount*, "Oculus.Platform.Models", "SdkAccount");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::SdkAccount::New_ctor

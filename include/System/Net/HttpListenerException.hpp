@@ -64,6 +64,7 @@ namespace System::Net {
   }; // System.Net.HttpListenerException
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Net::HttpListenerException);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpListenerException*, "System.Net", "HttpListenerException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::HttpListenerException::New_ctor

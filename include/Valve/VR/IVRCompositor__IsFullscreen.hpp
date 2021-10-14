@@ -51,6 +51,7 @@ namespace Valve::VR {
   }; // Valve.VR.IVRCompositor/Valve.VR._IsFullscreen
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::IVRCompositor::_IsFullscreen);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRCompositor::_IsFullscreen*, "Valve.VR", "IVRCompositor/_IsFullscreen");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRCompositor::_IsFullscreen::New_ctor

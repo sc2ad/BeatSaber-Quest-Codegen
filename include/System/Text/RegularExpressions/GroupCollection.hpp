@@ -116,6 +116,7 @@ namespace System::Text::RegularExpressions {
   static check_size<sizeof(GroupCollection), 32 + sizeof(::ArrayW<System::Text::RegularExpressions::Group*>)> __System_Text_RegularExpressions_GroupCollectionSizeCheck;
   static_assert(sizeof(GroupCollection) == 0x28);
 }
+NEED_NO_BOX(System::Text::RegularExpressions::GroupCollection);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::GroupCollection*, "System.Text.RegularExpressions", "GroupCollection");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::RegularExpressions::GroupCollection::get_Count

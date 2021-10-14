@@ -430,6 +430,7 @@ namespace UnityEngine {
   static check_size<sizeof(GUIStyle), 120 + sizeof(::Il2CppString*)> __UnityEngine_GUIStyleSizeCheck;
   static_assert(sizeof(GUIStyle) == 0x80);
 }
+NEED_NO_BOX(UnityEngine::GUIStyle);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUIStyle*, "UnityEngine", "GUIStyle");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::get_rawName

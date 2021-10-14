@@ -276,6 +276,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SimpleRetailDemoFlowCoordinator), 304 + sizeof(GlobalNamespace::GameplayModifiers*)> __GlobalNamespace_SimpleRetailDemoFlowCoordinatorSizeCheck;
   static_assert(sizeof(SimpleRetailDemoFlowCoordinator) == 0x138);
 }
+NEED_NO_BOX(GlobalNamespace::SimpleRetailDemoFlowCoordinator);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleRetailDemoFlowCoordinator*, "", "SimpleRetailDemoFlowCoordinator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SimpleRetailDemoFlowCoordinator::HandleSimpleDemoViewControllerDidFinish

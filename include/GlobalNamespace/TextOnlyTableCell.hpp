@@ -112,6 +112,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(TextOnlyTableCell), 112 + sizeof(HMUI::ImageView*)> __GlobalNamespace_TextOnlyTableCellSizeCheck;
   static_assert(sizeof(TextOnlyTableCell) == 0x78);
 }
+NEED_NO_BOX(GlobalNamespace::TextOnlyTableCell);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TextOnlyTableCell*, "", "TextOnlyTableCell");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TextOnlyTableCell::get_text

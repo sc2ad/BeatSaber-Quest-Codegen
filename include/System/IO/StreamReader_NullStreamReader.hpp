@@ -93,6 +93,7 @@ namespace System::IO {
   }; // System.IO.StreamReader/System.IO.NullStreamReader
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::IO::StreamReader::NullStreamReader);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::StreamReader::NullStreamReader*, "System.IO", "StreamReader/NullStreamReader");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::StreamReader::NullStreamReader::get_BaseStream

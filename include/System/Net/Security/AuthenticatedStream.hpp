@@ -65,6 +65,7 @@ namespace System::Net::Security {
   static check_size<sizeof(AuthenticatedStream), 48 + sizeof(bool)> __System_Net_Security_AuthenticatedStreamSizeCheck;
   static_assert(sizeof(AuthenticatedStream) == 0x31);
 }
+NEED_NO_BOX(System::Net::Security::AuthenticatedStream);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Security::AuthenticatedStream*, "System.Net.Security", "AuthenticatedStream");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Security::AuthenticatedStream::get_InnerStream

@@ -52,6 +52,7 @@ namespace UnityEngine::UI {
   }; // UnityEngine.UI.Outline
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::UI::Outline);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Outline*, "UnityEngine.UI", "Outline");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::Outline::New_ctor

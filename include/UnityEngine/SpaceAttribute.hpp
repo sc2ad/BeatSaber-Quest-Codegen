@@ -62,6 +62,7 @@ namespace UnityEngine {
   static check_size<sizeof(SpaceAttribute), 16 + sizeof(float)> __UnityEngine_SpaceAttributeSizeCheck;
   static_assert(sizeof(SpaceAttribute) == 0x14);
 }
+NEED_NO_BOX(UnityEngine::SpaceAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SpaceAttribute*, "UnityEngine", "SpaceAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::SpaceAttribute::New_ctor

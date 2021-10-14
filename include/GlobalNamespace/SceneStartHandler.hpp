@@ -185,6 +185,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SceneStartHandler), 80 + sizeof(System::Action_1<::Il2CppString*>*)> __GlobalNamespace_SceneStartHandlerSizeCheck;
   static_assert(sizeof(SceneStartHandler) == 0x58);
 }
+NEED_NO_BOX(GlobalNamespace::SceneStartHandler);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SceneStartHandler*, "", "SceneStartHandler");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SceneStartHandler::add_sceneSetupDidFinishEvent

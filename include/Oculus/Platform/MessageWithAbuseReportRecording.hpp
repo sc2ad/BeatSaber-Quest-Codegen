@@ -46,6 +46,7 @@ namespace Oculus::Platform {
     Oculus::Platform::Models::AbuseReportRecording* GetAbuseReportRecording();
   }; // Oculus.Platform.MessageWithAbuseReportRecording
 }
+NEED_NO_BOX(Oculus::Platform::MessageWithAbuseReportRecording);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithAbuseReportRecording*, "Oculus.Platform", "MessageWithAbuseReportRecording");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithAbuseReportRecording::GetDataFromMessage

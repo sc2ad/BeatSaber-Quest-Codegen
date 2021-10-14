@@ -341,6 +341,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_Parameters), 122 + sizeof(bool)> __HoudiniEngineUnity_HEU_ParametersSizeCheck;
   static_assert(sizeof(HEU_Parameters) == 0x7B);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_Parameters);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_Parameters*, "HoudiniEngineUnity", "HEU_Parameters");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Parameters::get_RootParameters

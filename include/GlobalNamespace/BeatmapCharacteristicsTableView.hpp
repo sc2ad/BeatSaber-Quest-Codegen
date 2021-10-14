@@ -176,6 +176,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BeatmapCharacteristicsTableView), 76 + sizeof(int)> __GlobalNamespace_BeatmapCharacteristicsTableViewSizeCheck;
   static_assert(sizeof(BeatmapCharacteristicsTableView) == 0x50);
 }
+NEED_NO_BOX(GlobalNamespace::BeatmapCharacteristicsTableView);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapCharacteristicsTableView*, "", "BeatmapCharacteristicsTableView");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapCharacteristicsTableView::add_didSelectCharacteristic

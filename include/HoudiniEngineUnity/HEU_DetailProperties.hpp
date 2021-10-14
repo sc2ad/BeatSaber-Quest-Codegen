@@ -79,6 +79,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_DetailProperties), 28 + sizeof(int)> __HoudiniEngineUnity_HEU_DetailPropertiesSizeCheck;
   static_assert(sizeof(HEU_DetailProperties) == 0x20);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_DetailProperties);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_DetailProperties*, "HoudiniEngineUnity", "HEU_DetailProperties");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_DetailProperties::IsEquivalentTo

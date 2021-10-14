@@ -60,6 +60,7 @@ namespace UnityEngine::ResourceManagement::Util {
   static check_size<sizeof(SerializedTypeRestrictionAttribute), 16 + sizeof(System::Type*)> __UnityEngine_ResourceManagement_Util_SerializedTypeRestrictionAttributeSizeCheck;
   static_assert(sizeof(SerializedTypeRestrictionAttribute) == 0x18);
 }
+NEED_NO_BOX(UnityEngine::ResourceManagement::Util::SerializedTypeRestrictionAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Util::SerializedTypeRestrictionAttribute*, "UnityEngine.ResourceManagement.Util", "SerializedTypeRestrictionAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::SerializedTypeRestrictionAttribute::New_ctor

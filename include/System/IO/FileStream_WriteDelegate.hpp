@@ -51,6 +51,7 @@ namespace System::IO {
   }; // System.IO.FileStream/System.IO.WriteDelegate
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::IO::FileStream::WriteDelegate);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileStream::WriteDelegate*, "System.IO", "FileStream/WriteDelegate");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::FileStream::WriteDelegate::New_ctor

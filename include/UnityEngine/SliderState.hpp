@@ -62,6 +62,7 @@ namespace UnityEngine {
   static check_size<sizeof(SliderState), 24 + sizeof(bool)> __UnityEngine_SliderStateSizeCheck;
   static_assert(sizeof(SliderState) == 0x19);
 }
+NEED_NO_BOX(UnityEngine::SliderState);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SliderState*, "UnityEngine", "SliderState");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::SliderState::New_ctor

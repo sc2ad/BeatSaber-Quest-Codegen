@@ -223,6 +223,7 @@ namespace System::Xml {
   static check_size<sizeof(XmlEncodedRawTextWriterIndent), 216 + sizeof(System::Xml::ConformanceLevel)> __System_Xml_XmlEncodedRawTextWriterIndentSizeCheck;
   static_assert(sizeof(XmlEncodedRawTextWriterIndent) == 0xDC);
 }
+NEED_NO_BOX(System::Xml::XmlEncodedRawTextWriterIndent);
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlEncodedRawTextWriterIndent*, "System.Xml", "XmlEncodedRawTextWriterIndent");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::XmlEncodedRawTextWriterIndent::Init

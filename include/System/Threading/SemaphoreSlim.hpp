@@ -212,6 +212,7 @@ namespace System::Threading {
   static check_size<sizeof(SemaphoreSlim), 56 + sizeof(System::Threading::SemaphoreSlim::TaskNode*)> __System_Threading_SemaphoreSlimSizeCheck;
   static_assert(sizeof(SemaphoreSlim) == 0x40);
 }
+NEED_NO_BOX(System::Threading::SemaphoreSlim);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::SemaphoreSlim*, "System.Threading", "SemaphoreSlim");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::SemaphoreSlim::get_CurrentCount

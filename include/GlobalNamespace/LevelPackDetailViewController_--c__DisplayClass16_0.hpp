@@ -70,6 +70,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LevelPackDetailViewController::$$c__DisplayClass16_0), 24 + sizeof(GlobalNamespace::LevelPackDetailViewController*)> __GlobalNamespace_LevelPackDetailViewController_$$c__DisplayClass16_0SizeCheck;
   static_assert(sizeof(LevelPackDetailViewController::$$c__DisplayClass16_0) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::LevelPackDetailViewController::$$c__DisplayClass16_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelPackDetailViewController::$$c__DisplayClass16_0*, "", "LevelPackDetailViewController/<>c__DisplayClass16_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LevelPackDetailViewController::$$c__DisplayClass16_0::$DidActivate$b__1

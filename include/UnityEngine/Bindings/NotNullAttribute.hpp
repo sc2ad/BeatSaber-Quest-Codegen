@@ -35,6 +35,7 @@ namespace UnityEngine::Bindings {
   }; // UnityEngine.Bindings.NotNullAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::Bindings::NotNullAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::NotNullAttribute*, "UnityEngine.Bindings", "NotNullAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Bindings::NotNullAttribute::New_ctor

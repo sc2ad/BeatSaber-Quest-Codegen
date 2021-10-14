@@ -79,6 +79,7 @@ namespace System::ComponentModel {
   static check_size<sizeof(NotifyParentPropertyAttribute), 16 + sizeof(bool)> __System_ComponentModel_NotifyParentPropertyAttributeSizeCheck;
   static_assert(sizeof(NotifyParentPropertyAttribute) == 0x11);
 }
+NEED_NO_BOX(System::ComponentModel::NotifyParentPropertyAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::NotifyParentPropertyAttribute*, "System.ComponentModel", "NotifyParentPropertyAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ComponentModel::NotifyParentPropertyAttribute::get_NotifyParent

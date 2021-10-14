@@ -97,6 +97,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LevelParamsPanel), 48 + sizeof(TMPro::TextMeshProUGUI*)> __GlobalNamespace_LevelParamsPanelSizeCheck;
   static_assert(sizeof(LevelParamsPanel) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::LevelParamsPanel);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelParamsPanel*, "", "LevelParamsPanel");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LevelParamsPanel::set_notesPerSecond

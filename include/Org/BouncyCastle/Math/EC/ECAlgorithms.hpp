@@ -84,6 +84,7 @@ namespace Org::BouncyCastle::Math::EC {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::ECAlgorithms);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::ECAlgorithms*, "Org.BouncyCastle.Math.EC", "ECAlgorithms");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::ECAlgorithms::IsF2mCurve

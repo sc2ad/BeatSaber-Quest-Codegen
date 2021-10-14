@@ -127,6 +127,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PresentServerSettingsAfterNClicks), 64 + sizeof(HMUI::ButtonBinder*)> __GlobalNamespace_PresentServerSettingsAfterNClicksSizeCheck;
   static_assert(sizeof(PresentServerSettingsAfterNClicks) == 0x48);
 }
+NEED_NO_BOX(GlobalNamespace::PresentServerSettingsAfterNClicks);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PresentServerSettingsAfterNClicks*, "", "PresentServerSettingsAfterNClicks");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PresentServerSettingsAfterNClicks::OnEnable

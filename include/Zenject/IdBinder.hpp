@@ -59,6 +59,7 @@ namespace Zenject {
   static check_size<sizeof(IdBinder), 16 + sizeof(Zenject::BindInfo*)> __Zenject_IdBinderSizeCheck;
   static_assert(sizeof(IdBinder) == 0x18);
 }
+NEED_NO_BOX(Zenject::IdBinder);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::IdBinder*, "Zenject", "IdBinder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::IdBinder::New_ctor

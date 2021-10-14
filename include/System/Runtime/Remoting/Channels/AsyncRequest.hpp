@@ -61,6 +61,7 @@ namespace System::Runtime::Remoting::Channels {
   static check_size<sizeof(AsyncRequest), 24 + sizeof(System::Runtime::Remoting::Messaging::IMessage*)> __System_Runtime_Remoting_Channels_AsyncRequestSizeCheck;
   static_assert(sizeof(AsyncRequest) == 0x20);
 }
+NEED_NO_BOX(System::Runtime::Remoting::Channels::AsyncRequest);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Channels::AsyncRequest*, "System.Runtime.Remoting.Channels", "AsyncRequest");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Channels::AsyncRequest::New_ctor

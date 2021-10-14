@@ -90,6 +90,7 @@ namespace HMUI {
   static check_size<sizeof(NavigationController::$$c__DisplayClass10_0), 40 + sizeof(float)> __HMUI_NavigationController_$$c__DisplayClass10_0SizeCheck;
   static_assert(sizeof(NavigationController::$$c__DisplayClass10_0) == 0x2C);
 }
+NEED_NO_BOX(HMUI::NavigationController::$$c__DisplayClass10_0);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::NavigationController::$$c__DisplayClass10_0*, "HMUI", "NavigationController/<>c__DisplayClass10_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::NavigationController::$$c__DisplayClass10_0::$PopViewControllers$g__AnimationLayouter_0

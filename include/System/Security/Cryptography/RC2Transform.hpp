@@ -106,6 +106,7 @@ namespace System::Security::Cryptography {
   static check_size<sizeof(RC2Transform), 104 + sizeof(int)> __System_Security_Cryptography_RC2TransformSizeCheck;
   static_assert(sizeof(RC2Transform) == 0x6C);
 }
+NEED_NO_BOX(System::Security::Cryptography::RC2Transform);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RC2Transform*, "System.Security.Cryptography", "RC2Transform");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::RC2Transform::New_ctor

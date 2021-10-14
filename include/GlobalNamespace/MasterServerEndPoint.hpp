@@ -118,6 +118,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MasterServerEndPoint), 32 + sizeof(System::Threading::Tasks::Task_1<System::Net::IPEndPoint*>*)> __GlobalNamespace_MasterServerEndPointSizeCheck;
   static_assert(sizeof(MasterServerEndPoint) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::MasterServerEndPoint);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerEndPoint*, "", "MasterServerEndPoint");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerEndPoint::get_endPoint

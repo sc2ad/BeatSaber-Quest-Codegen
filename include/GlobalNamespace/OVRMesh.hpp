@@ -168,6 +168,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRMesh), 48 + sizeof(bool)> __GlobalNamespace_OVRMeshSizeCheck;
   static_assert(sizeof(OVRMesh) == 0x31);
 }
+NEED_NO_BOX(GlobalNamespace::OVRMesh);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMesh*, "", "OVRMesh");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMesh::MeshType, "", "OVRMesh/MeshType");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -171,6 +171,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(FirstPersonFlyingController), 96 + sizeof(UnityEngine::Transform*)> __GlobalNamespace_FirstPersonFlyingControllerSizeCheck;
   static_assert(sizeof(FirstPersonFlyingController) == 0x68);
 }
+NEED_NO_BOX(GlobalNamespace::FirstPersonFlyingController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FirstPersonFlyingController*, "", "FirstPersonFlyingController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FirstPersonFlyingController::Awake

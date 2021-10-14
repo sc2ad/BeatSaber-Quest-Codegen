@@ -67,6 +67,7 @@ namespace JetBrains::Annotations {
   static check_size<sizeof(NotifyPropertyChangedInvocatorAttribute), 16 + sizeof(::Il2CppString*)> __JetBrains_Annotations_NotifyPropertyChangedInvocatorAttributeSizeCheck;
   static_assert(sizeof(NotifyPropertyChangedInvocatorAttribute) == 0x18);
 }
+NEED_NO_BOX(JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute*, "JetBrains.Annotations", "NotifyPropertyChangedInvocatorAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::get_ParameterName

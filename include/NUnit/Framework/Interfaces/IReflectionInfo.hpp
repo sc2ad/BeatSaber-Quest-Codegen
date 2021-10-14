@@ -39,6 +39,7 @@ namespace NUnit::Framework::Interfaces {
   }; // NUnit.Framework.Interfaces.IReflectionInfo
   #pragma pack(pop)
 }
+NEED_NO_BOX(NUnit::Framework::Interfaces::IReflectionInfo);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::IReflectionInfo*, "NUnit.Framework.Interfaces", "IReflectionInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::IReflectionInfo::GetCustomAttributes

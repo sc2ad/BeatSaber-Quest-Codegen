@@ -67,6 +67,7 @@ namespace System::Text::RegularExpressions {
   static check_size<sizeof(SharedReference), 24 + sizeof(int)> __System_Text_RegularExpressions_SharedReferenceSizeCheck;
   static_assert(sizeof(SharedReference) == 0x1C);
 }
+NEED_NO_BOX(System::Text::RegularExpressions::SharedReference);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::SharedReference*, "System.Text.RegularExpressions", "SharedReference");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::RegularExpressions::SharedReference::Get

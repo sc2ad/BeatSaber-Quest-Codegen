@@ -133,6 +133,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MenuEnvironmentManager), 32 + sizeof(GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType)> __GlobalNamespace_MenuEnvironmentManagerSizeCheck;
   static_assert(sizeof(MenuEnvironmentManager) == 0x24);
 }
+NEED_NO_BOX(GlobalNamespace::MenuEnvironmentManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuEnvironmentManager*, "", "MenuEnvironmentManager");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType, "", "MenuEnvironmentManager/MenuEnvironmentType");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

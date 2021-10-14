@@ -76,6 +76,7 @@ namespace GlobalNamespace {
   }; // AvatarDataFileManagerSO
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::AvatarDataFileManagerSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarDataFileManagerSO*, "", "AvatarDataFileManagerSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AvatarDataFileManagerSO::Save

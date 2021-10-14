@@ -97,6 +97,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(ConstraintPositionOffset), 64 + sizeof(bool)> __RootMotion_FinalIK_ConstraintPositionOffsetSizeCheck;
   static_assert(sizeof(ConstraintPositionOffset) == 0x41);
 }
+NEED_NO_BOX(RootMotion::FinalIK::ConstraintPositionOffset);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::ConstraintPositionOffset*, "RootMotion.FinalIK", "ConstraintPositionOffset");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::ConstraintPositionOffset::get_positionChanged

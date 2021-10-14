@@ -146,6 +146,7 @@ namespace UnityEngine::Timeline {
   static check_size<sizeof(AnimationOutputWeightProcessor), 48 + sizeof(System::Collections::Generic::List_1<UnityEngine::Timeline::AnimationOutputWeightProcessor::WeightInfo>*)> __UnityEngine_Timeline_AnimationOutputWeightProcessorSizeCheck;
   static_assert(sizeof(AnimationOutputWeightProcessor) == 0x38);
 }
+NEED_NO_BOX(UnityEngine::Timeline::AnimationOutputWeightProcessor);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AnimationOutputWeightProcessor*, "UnityEngine.Timeline", "AnimationOutputWeightProcessor");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AnimationOutputWeightProcessor::WeightInfo, "UnityEngine.Timeline", "AnimationOutputWeightProcessor/WeightInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

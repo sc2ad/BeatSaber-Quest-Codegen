@@ -84,6 +84,7 @@ namespace System::Net {
   static check_size<sizeof(ServerCertValidationCallback), 24 + sizeof(System::Threading::ExecutionContext*)> __System_Net_ServerCertValidationCallbackSizeCheck;
   static_assert(sizeof(ServerCertValidationCallback) == 0x20);
 }
+NEED_NO_BOX(System::Net::ServerCertValidationCallback);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::ServerCertValidationCallback*, "System.Net", "ServerCertValidationCallback");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::ServerCertValidationCallback::New_ctor

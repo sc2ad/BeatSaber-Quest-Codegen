@@ -94,6 +94,7 @@ namespace System {
   static check_size<sizeof(IOSelectorJob), 32 + sizeof(System::IOAsyncResult*)> __System_IOSelectorJobSizeCheck;
   static_assert(sizeof(IOSelectorJob) == 0x28);
 }
+NEED_NO_BOX(System::IOSelectorJob);
 DEFINE_IL2CPP_ARG_TYPE(System::IOSelectorJob*, "System", "IOSelectorJob");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IOSelectorJob::New_ctor

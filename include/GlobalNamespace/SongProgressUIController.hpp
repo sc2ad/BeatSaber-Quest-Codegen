@@ -170,6 +170,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SongProgressUIController), 96 + sizeof(UnityEngine::RectTransform*)> __GlobalNamespace_SongProgressUIControllerSizeCheck;
   static_assert(sizeof(SongProgressUIController) == 0x68);
 }
+NEED_NO_BOX(GlobalNamespace::SongProgressUIController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongProgressUIController*, "", "SongProgressUIController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SongProgressUIController::Start

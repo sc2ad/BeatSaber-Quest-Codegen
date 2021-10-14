@@ -83,6 +83,7 @@ namespace System::Runtime::Serialization {
   static check_size<sizeof(SurrogateSelector), 24 + sizeof(System::Runtime::Serialization::ISurrogateSelector*)> __System_Runtime_Serialization_SurrogateSelectorSizeCheck;
   static_assert(sizeof(SurrogateSelector) == 0x20);
 }
+NEED_NO_BOX(System::Runtime::Serialization::SurrogateSelector);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SurrogateSelector*, "System.Runtime.Serialization", "SurrogateSelector");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::SurrogateSelector::AddSurrogate

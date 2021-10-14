@@ -67,6 +67,7 @@ namespace Org::BouncyCastle::Crypto::Modes::Gcm {
   static check_size<sizeof(Tables8kGcmMultiplier), 24 + sizeof(::ArrayW<::ArrayW<::ArrayW<uint>>>)> __Org_BouncyCastle_Crypto_Modes_Gcm_Tables8kGcmMultiplierSizeCheck;
   static_assert(sizeof(Tables8kGcmMultiplier) == 0x20);
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Modes::Gcm::Tables8kGcmMultiplier);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::Gcm::Tables8kGcmMultiplier*, "Org.BouncyCastle.Crypto.Modes.Gcm", "Tables8kGcmMultiplier");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Modes::Gcm::Tables8kGcmMultiplier::Init

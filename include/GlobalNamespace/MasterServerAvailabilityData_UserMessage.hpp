@@ -60,6 +60,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MasterServerAvailabilityData::UserMessage), 16 + sizeof(::ArrayW<GlobalNamespace::MasterServerAvailabilityData::UserMessage::LocalizedMessage*>)> __GlobalNamespace_MasterServerAvailabilityData_UserMessageSizeCheck;
   static_assert(sizeof(MasterServerAvailabilityData::UserMessage) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::MasterServerAvailabilityData::UserMessage);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerAvailabilityData::UserMessage*, "", "MasterServerAvailabilityData/UserMessage");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerAvailabilityData::UserMessage::New_ctor

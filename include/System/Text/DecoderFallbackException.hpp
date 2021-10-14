@@ -87,6 +87,7 @@ namespace System::Text {
   static check_size<sizeof(DecoderFallbackException), 152 + sizeof(int)> __System_Text_DecoderFallbackExceptionSizeCheck;
   static_assert(sizeof(DecoderFallbackException) == 0x9C);
 }
+NEED_NO_BOX(System::Text::DecoderFallbackException);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::DecoderFallbackException*, "System.Text", "DecoderFallbackException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::DecoderFallbackException::New_ctor

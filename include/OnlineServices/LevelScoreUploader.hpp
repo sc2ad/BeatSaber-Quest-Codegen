@@ -148,6 +148,7 @@ namespace OnlineServices {
   static check_size<sizeof(LevelScoreUploader), 56 + sizeof(OnlineServices::PlatformOnlineServicesAvailabilityModel*)> __OnlineServices_LevelScoreUploaderSizeCheck;
   static_assert(sizeof(LevelScoreUploader) == 0x40);
 }
+NEED_NO_BOX(OnlineServices::LevelScoreUploader);
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::LevelScoreUploader*, "OnlineServices", "LevelScoreUploader");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OnlineServices::LevelScoreUploader::add_scoreForLeaderboardDidUploadEvent

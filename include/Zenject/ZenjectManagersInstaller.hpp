@@ -37,6 +37,7 @@ namespace Zenject {
     void InstallBindings();
   }; // Zenject.ZenjectManagersInstaller
 }
+NEED_NO_BOX(Zenject::ZenjectManagersInstaller);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenjectManagersInstaller*, "Zenject", "ZenjectManagersInstaller");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::ZenjectManagersInstaller::New_ctor

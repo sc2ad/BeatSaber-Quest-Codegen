@@ -136,6 +136,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(FireworksController), 64 + sizeof(GlobalNamespace::FireworkItemController::Pool*)> __GlobalNamespace_FireworksControllerSizeCheck;
   static_assert(sizeof(FireworksController) == 0x48);
 }
+NEED_NO_BOX(GlobalNamespace::FireworksController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FireworksController*, "", "FireworksController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FireworksController::OnEnable

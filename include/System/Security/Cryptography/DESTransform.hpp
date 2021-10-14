@@ -136,6 +136,7 @@ namespace System::Security::Cryptography {
   static check_size<sizeof(DESTransform), 104 + sizeof(::ArrayW<uint>)> __System_Security_Cryptography_DESTransformSizeCheck;
   static_assert(sizeof(DESTransform) == 0x70);
 }
+NEED_NO_BOX(System::Security::Cryptography::DESTransform);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::DESTransform*, "System.Security.Cryptography", "DESTransform");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::DESTransform::New_ctor

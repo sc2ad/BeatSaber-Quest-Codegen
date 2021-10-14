@@ -89,6 +89,7 @@ namespace TMPro {
   static check_size<sizeof(TMP_MaterialManager::FallbackMaterial), 48 + sizeof(int)> __TMPro_TMP_MaterialManager_FallbackMaterialSizeCheck;
   static_assert(sizeof(TMP_MaterialManager::FallbackMaterial) == 0x34);
 }
+NEED_NO_BOX(TMPro::TMP_MaterialManager::FallbackMaterial);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_MaterialManager::FallbackMaterial*, "TMPro", "TMP_MaterialManager/FallbackMaterial");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_MaterialManager::FallbackMaterial::New_ctor

@@ -123,6 +123,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PCArcadeAppInit), 96 + sizeof(GlobalNamespace::VRsenalLogger*)> __GlobalNamespace_PCArcadeAppInitSizeCheck;
   static_assert(sizeof(PCArcadeAppInit) == 0x68);
 }
+NEED_NO_BOX(GlobalNamespace::PCArcadeAppInit);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PCArcadeAppInit*, "", "PCArcadeAppInit");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PCArcadeAppInit::New_ctor

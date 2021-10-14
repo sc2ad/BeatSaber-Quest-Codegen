@@ -106,6 +106,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   static check_size<sizeof(SerObjectInfoCache), 56 + sizeof(::ArrayW<System::Type*>)> __System_Runtime_Serialization_Formatters_Binary_SerObjectInfoCacheSizeCheck;
   static_assert(sizeof(SerObjectInfoCache) == 0x40);
 }
+NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache*, "System.Runtime.Serialization.Formatters.Binary", "SerObjectInfoCache");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache::New_ctor

@@ -74,6 +74,7 @@ namespace Zenject {
   static check_size<sizeof(PrefabBindingFinalizer::$$c__DisplayClass6_0), 24 + sizeof(Zenject::DiContainer*)> __Zenject_PrefabBindingFinalizer_$$c__DisplayClass6_0SizeCheck;
   static_assert(sizeof(PrefabBindingFinalizer::$$c__DisplayClass6_0) == 0x20);
 }
+NEED_NO_BOX(Zenject::PrefabBindingFinalizer::$$c__DisplayClass6_0);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::PrefabBindingFinalizer::$$c__DisplayClass6_0*, "Zenject", "PrefabBindingFinalizer/<>c__DisplayClass6_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::PrefabBindingFinalizer::$$c__DisplayClass6_0::$FinalizeBindingSelf$b__0

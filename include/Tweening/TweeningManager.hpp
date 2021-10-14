@@ -131,6 +131,7 @@ namespace Tweening {
   static check_size<sizeof(TweeningManager), 48 + sizeof(System::Collections::Generic::Queue_1<System::Collections::Generic::HashSet_1<Tweening::Tween*>*>*)> __Tweening_TweeningManagerSizeCheck;
   static_assert(sizeof(TweeningManager) == 0x38);
 }
+NEED_NO_BOX(Tweening::TweeningManager);
 DEFINE_IL2CPP_ARG_TYPE(Tweening::TweeningManager*, "Tweening", "TweeningManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Tweening::TweeningManager::Start

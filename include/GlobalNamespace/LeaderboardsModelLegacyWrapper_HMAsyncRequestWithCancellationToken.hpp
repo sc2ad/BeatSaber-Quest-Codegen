@@ -67,6 +67,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken), 40 + sizeof(System::Threading::CancellationTokenSource*)> __GlobalNamespace_LeaderboardsModelLegacyWrapper_HMAsyncRequestWithCancellationTokenSizeCheck;
   static_assert(sizeof(LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken*, "", "LeaderboardsModelLegacyWrapper/HMAsyncRequestWithCancellationToken");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken::get_cancellationTokenSource

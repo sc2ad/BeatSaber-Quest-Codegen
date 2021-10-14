@@ -63,6 +63,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerSessionManager::$$c__DisplayClass97_0), 16 + sizeof(::Il2CppString*)> __GlobalNamespace_MultiplayerSessionManager_$$c__DisplayClass97_0SizeCheck;
   static_assert(sizeof(MultiplayerSessionManager::$$c__DisplayClass97_0) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerSessionManager::$$c__DisplayClass97_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerSessionManager::$$c__DisplayClass97_0*, "", "MultiplayerSessionManager/<>c__DisplayClass97_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerSessionManager::$$c__DisplayClass97_0::$GetPlayerByUserId$b__0

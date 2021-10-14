@@ -187,6 +187,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LoadingControl), 96 + sizeof(HMUI::ButtonBinder*)> __GlobalNamespace_LoadingControlSizeCheck;
   static_assert(sizeof(LoadingControl) == 0x68);
 }
+NEED_NO_BOX(GlobalNamespace::LoadingControl);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LoadingControl*, "", "LoadingControl");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LoadingControl::get_isLoading

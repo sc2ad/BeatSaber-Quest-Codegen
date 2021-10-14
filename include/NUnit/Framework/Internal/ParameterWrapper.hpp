@@ -111,6 +111,7 @@ namespace NUnit::Framework::Internal {
   static check_size<sizeof(ParameterWrapper), 24 + sizeof(System::Reflection::ParameterInfo*)> __NUnit_Framework_Internal_ParameterWrapperSizeCheck;
   static_assert(sizeof(ParameterWrapper) == 0x20);
 }
+NEED_NO_BOX(NUnit::Framework::Internal::ParameterWrapper);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::ParameterWrapper*, "NUnit.Framework.Internal", "ParameterWrapper");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::ParameterWrapper::get_IsOptional

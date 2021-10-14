@@ -65,6 +65,7 @@ namespace Mono::Net::Security {
   }; // Mono.Net.Security.ServerCertValidationCallbackWrapper
   #pragma pack(pop)
 }
+NEED_NO_BOX(Mono::Net::Security::ServerCertValidationCallbackWrapper);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::ServerCertValidationCallbackWrapper*, "Mono.Net.Security", "ServerCertValidationCallbackWrapper");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Net::Security::ServerCertValidationCallbackWrapper::New_ctor

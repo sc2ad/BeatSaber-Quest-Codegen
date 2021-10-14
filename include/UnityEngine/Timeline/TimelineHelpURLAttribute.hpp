@@ -38,6 +38,7 @@ namespace UnityEngine::Timeline {
   }; // UnityEngine.Timeline.TimelineHelpURLAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::Timeline::TimelineHelpURLAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineHelpURLAttribute*, "UnityEngine.Timeline", "TimelineHelpURLAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineHelpURLAttribute::New_ctor

@@ -45,6 +45,7 @@ namespace UnityEngine {
   }; // UnityEngine.Behaviour
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::Behaviour);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Behaviour*, "UnityEngine", "Behaviour");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Behaviour::get_enabled

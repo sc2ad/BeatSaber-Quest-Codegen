@@ -64,6 +64,7 @@ namespace UnityEngine::EventSystems {
   }; // UnityEngine.EventSystems.OVRPhysicsRaycaster/UnityEngine.EventSystems.<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::EventSystems::OVRPhysicsRaycaster::$$c);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::OVRPhysicsRaycaster::$$c*, "UnityEngine.EventSystems", "OVRPhysicsRaycaster/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRPhysicsRaycaster::$$c::_cctor

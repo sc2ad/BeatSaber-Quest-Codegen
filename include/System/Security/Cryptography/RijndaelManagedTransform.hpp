@@ -279,6 +279,7 @@ namespace System::Security::Cryptography {
   static check_size<sizeof(RijndaelManagedTransform), 120 + sizeof(::ArrayW<uint8_t>)> __System_Security_Cryptography_RijndaelManagedTransformSizeCheck;
   static_assert(sizeof(RijndaelManagedTransform) == 0x80);
 }
+NEED_NO_BOX(System::Security::Cryptography::RijndaelManagedTransform);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RijndaelManagedTransform*, "System.Security.Cryptography", "RijndaelManagedTransform");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::RijndaelManagedTransform::get_InputBlockSize

@@ -132,6 +132,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(EditableModifiersSelectionView), 73 + sizeof(bool)> __GlobalNamespace_EditableModifiersSelectionViewSizeCheck;
   static_assert(sizeof(EditableModifiersSelectionView) == 0x4A);
 }
+NEED_NO_BOX(GlobalNamespace::EditableModifiersSelectionView);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EditableModifiersSelectionView*, "", "EditableModifiersSelectionView");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EditableModifiersSelectionView::get_editButton

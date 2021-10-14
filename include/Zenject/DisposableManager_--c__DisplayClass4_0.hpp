@@ -71,6 +71,7 @@ namespace Zenject {
   static check_size<sizeof(DisposableManager::$$c__DisplayClass4_0), 16 + sizeof(System::IDisposable*)> __Zenject_DisposableManager_$$c__DisplayClass4_0SizeCheck;
   static_assert(sizeof(DisposableManager::$$c__DisplayClass4_0) == 0x18);
 }
+NEED_NO_BOX(Zenject::DisposableManager::$$c__DisplayClass4_0);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DisposableManager::$$c__DisplayClass4_0*, "Zenject", "DisposableManager/<>c__DisplayClass4_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::DisposableManager::$$c__DisplayClass4_0::$_ctor$b__0

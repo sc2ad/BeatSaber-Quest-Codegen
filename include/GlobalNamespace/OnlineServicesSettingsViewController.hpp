@@ -95,6 +95,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OnlineServicesSettingsViewController), 128 + sizeof(HMUI::ToggleBinder*)> __GlobalNamespace_OnlineServicesSettingsViewControllerSizeCheck;
   static_assert(sizeof(OnlineServicesSettingsViewController) == 0x88);
 }
+NEED_NO_BOX(GlobalNamespace::OnlineServicesSettingsViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OnlineServicesSettingsViewController*, "", "OnlineServicesSettingsViewController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OnlineServicesSettingsViewController::HandleEnableOnlineServicesToggleValueChanged

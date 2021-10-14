@@ -72,6 +72,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PlayerVRControllersManager), 32 + sizeof(GlobalNamespace::VRController*)> __GlobalNamespace_PlayerVRControllersManagerSizeCheck;
   static_assert(sizeof(PlayerVRControllersManager) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::PlayerVRControllersManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerVRControllersManager*, "", "PlayerVRControllersManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayerVRControllersManager::DisableAllVRControllers

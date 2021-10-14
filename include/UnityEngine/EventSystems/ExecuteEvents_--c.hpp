@@ -56,6 +56,7 @@ namespace UnityEngine::EventSystems {
   }; // UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::EventSystems::ExecuteEvents::$$c);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::ExecuteEvents::$$c*, "UnityEngine.EventSystems", "ExecuteEvents/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::EventSystems::ExecuteEvents::$$c::_cctor

@@ -97,6 +97,7 @@ namespace System::Xml {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Xml::XmlConvert);
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlConvert*, "System.Xml", "XmlConvert");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::XmlConvert::_cctor

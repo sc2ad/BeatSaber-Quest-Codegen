@@ -104,6 +104,7 @@ namespace System::Text::RegularExpressions {
   static check_size<sizeof(RegexReplacement), 32 + sizeof(System::Collections::Generic::List_1<int>*)> __System_Text_RegularExpressions_RegexReplacementSizeCheck;
   static_assert(sizeof(RegexReplacement) == 0x28);
 }
+NEED_NO_BOX(System::Text::RegularExpressions::RegexReplacement);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexReplacement*, "System.Text.RegularExpressions", "RegexReplacement");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexReplacement::get_Pattern

@@ -125,6 +125,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   static check_size<sizeof(TextDataProvider::InternalOp), 65 + sizeof(bool)> __UnityEngine_ResourceManagement_ResourceProviders_TextDataProvider_InternalOpSizeCheck;
   static_assert(sizeof(TextDataProvider::InternalOp) == 0x42);
 }
+NEED_NO_BOX(UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::InternalOp);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::InternalOp*, "UnityEngine.ResourceManagement.ResourceProviders", "TextDataProvider/InternalOp");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::InternalOp::GetPercentComplete

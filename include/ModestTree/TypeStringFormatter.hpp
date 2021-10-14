@@ -53,6 +53,7 @@ namespace ModestTree {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(ModestTree::TypeStringFormatter);
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::TypeStringFormatter*, "ModestTree", "TypeStringFormatter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: ModestTree::TypeStringFormatter::_cctor

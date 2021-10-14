@@ -119,6 +119,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BloomFogParamsAnimator::$AnimationCoroutine$d__2), 56 + sizeof(float)> __GlobalNamespace_BloomFogParamsAnimator_$AnimationCoroutine$d__2SizeCheck;
   static_assert(sizeof(BloomFogParamsAnimator::$AnimationCoroutine$d__2) == 0x3C);
 }
+NEED_NO_BOX(GlobalNamespace::BloomFogParamsAnimator::$AnimationCoroutine$d__2);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomFogParamsAnimator::$AnimationCoroutine$d__2*, "", "BloomFogParamsAnimator/<AnimationCoroutine>d__2");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BloomFogParamsAnimator::$AnimationCoroutine$d__2::System_Collections_Generic_IEnumerator$System_Object$_get_Current

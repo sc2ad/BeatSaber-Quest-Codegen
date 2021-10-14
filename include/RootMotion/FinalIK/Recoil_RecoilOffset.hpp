@@ -118,6 +118,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(Recoil::RecoilOffset), 60 + sizeof(UnityEngine::Vector3)> __RootMotion_FinalIK_Recoil_RecoilOffsetSizeCheck;
   static_assert(sizeof(Recoil::RecoilOffset) == 0x48);
 }
+NEED_NO_BOX(RootMotion::FinalIK::Recoil::RecoilOffset);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Recoil::RecoilOffset*, "RootMotion.FinalIK", "Recoil/RecoilOffset");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::Recoil::RecoilOffset::Start

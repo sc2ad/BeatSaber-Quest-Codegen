@@ -174,6 +174,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRGrabbable), 64 + sizeof(GlobalNamespace::OVRGrabber*)> __GlobalNamespace_OVRGrabbableSizeCheck;
   static_assert(sizeof(OVRGrabbable) == 0x48);
 }
+NEED_NO_BOX(GlobalNamespace::OVRGrabbable);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRGrabbable*, "", "OVRGrabbable");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRGrabbable::get_allowOffhandGrab

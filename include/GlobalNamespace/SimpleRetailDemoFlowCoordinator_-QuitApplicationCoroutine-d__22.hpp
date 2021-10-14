@@ -86,6 +86,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SimpleRetailDemoFlowCoordinator::$QuitApplicationCoroutine$d__22), 32 + sizeof(GlobalNamespace::SimpleRetailDemoFlowCoordinator*)> __GlobalNamespace_SimpleRetailDemoFlowCoordinator_$QuitApplicationCoroutine$d__22SizeCheck;
   static_assert(sizeof(SimpleRetailDemoFlowCoordinator::$QuitApplicationCoroutine$d__22) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::SimpleRetailDemoFlowCoordinator::$QuitApplicationCoroutine$d__22);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleRetailDemoFlowCoordinator::$QuitApplicationCoroutine$d__22*, "", "SimpleRetailDemoFlowCoordinator/<QuitApplicationCoroutine>d__22");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SimpleRetailDemoFlowCoordinator::$QuitApplicationCoroutine$d__22::System_Collections_Generic_IEnumerator$System_Object$_get_Current

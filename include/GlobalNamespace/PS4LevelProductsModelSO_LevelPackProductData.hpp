@@ -98,6 +98,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PS4LevelProductsModelSO::LevelPackProductData), 48 + sizeof(::ArrayW<GlobalNamespace::PS4LevelProductsModelSO::LevelProductData*>)> __GlobalNamespace_PS4LevelProductsModelSO_LevelPackProductDataSizeCheck;
   static_assert(sizeof(PS4LevelProductsModelSO::LevelPackProductData) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData*, "", "PS4LevelProductsModelSO/LevelPackProductData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData::get_productLabel

@@ -56,6 +56,7 @@ namespace Mono::Globalization::Unicode {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(Mono::Globalization::Unicode::MSCompatUnicodeTableUtil);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::MSCompatUnicodeTableUtil*, "Mono.Globalization.Unicode", "MSCompatUnicodeTableUtil");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::MSCompatUnicodeTableUtil::_cctor

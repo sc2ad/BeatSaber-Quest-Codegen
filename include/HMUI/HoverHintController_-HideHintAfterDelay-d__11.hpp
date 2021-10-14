@@ -94,6 +94,7 @@ namespace HMUI {
   static check_size<sizeof(HoverHintController::$HideHintAfterDelay$d__11), 40 + sizeof(float)> __HMUI_HoverHintController_$HideHintAfterDelay$d__11SizeCheck;
   static_assert(sizeof(HoverHintController::$HideHintAfterDelay$d__11) == 0x2C);
 }
+NEED_NO_BOX(HMUI::HoverHintController::$HideHintAfterDelay$d__11);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::HoverHintController::$HideHintAfterDelay$d__11*, "HMUI", "HoverHintController/<HideHintAfterDelay>d__11");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::HoverHintController::$HideHintAfterDelay$d__11::System_Collections_Generic_IEnumerator$System_Object$_get_Current

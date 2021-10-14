@@ -84,6 +84,7 @@ namespace System::Runtime::Remoting {
   static check_size<sizeof(WellKnownClientTypeEntry), 48 + sizeof(::Il2CppString*)> __System_Runtime_Remoting_WellKnownClientTypeEntrySizeCheck;
   static_assert(sizeof(WellKnownClientTypeEntry) == 0x38);
 }
+NEED_NO_BOX(System::Runtime::Remoting::WellKnownClientTypeEntry);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::WellKnownClientTypeEntry*, "System.Runtime.Remoting", "WellKnownClientTypeEntry");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::WellKnownClientTypeEntry::get_ApplicationUrl

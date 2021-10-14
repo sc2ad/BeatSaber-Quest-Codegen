@@ -86,6 +86,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRSceneLoader::$onCheckSceneCoroutine$d__25), 32 + sizeof(GlobalNamespace::OVRSceneLoader*)> __GlobalNamespace_OVRSceneLoader_$onCheckSceneCoroutine$d__25SizeCheck;
   static_assert(sizeof(OVRSceneLoader::$onCheckSceneCoroutine$d__25) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::OVRSceneLoader::$onCheckSceneCoroutine$d__25);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSceneLoader::$onCheckSceneCoroutine$d__25*, "", "OVRSceneLoader/<onCheckSceneCoroutine>d__25");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRSceneLoader::$onCheckSceneCoroutine$d__25::System_Collections_Generic_IEnumerator$System_Object$_get_Current

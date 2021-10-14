@@ -71,6 +71,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BTSStarTextEventEffect::StartTextPosition), 24 + sizeof(UnityEngine::Transform*)> __GlobalNamespace_BTSStarTextEventEffect_StartTextPositionSizeCheck;
   static_assert(sizeof(BTSStarTextEventEffect::StartTextPosition) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::BTSStarTextEventEffect::StartTextPosition);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSStarTextEventEffect::StartTextPosition*, "", "BTSStarTextEventEffect/StartTextPosition");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BTSStarTextEventEffect::StartTextPosition::get_id

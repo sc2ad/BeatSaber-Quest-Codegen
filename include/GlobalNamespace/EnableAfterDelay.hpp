@@ -69,6 +69,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(EnableAfterDelay), 24 + sizeof(UnityEngine::MonoBehaviour*)> __GlobalNamespace_EnableAfterDelaySizeCheck;
   static_assert(sizeof(EnableAfterDelay) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::EnableAfterDelay);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnableAfterDelay*, "", "EnableAfterDelay");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EnableAfterDelay::Start

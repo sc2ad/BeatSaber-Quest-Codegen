@@ -60,6 +60,7 @@ namespace Valve::VR {
   }; // Valve.VR.CVRSystem/Valve.VR._GetControllerStateWithPosePacked
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::CVRSystem::_GetControllerStateWithPosePacked);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRSystem::_GetControllerStateWithPosePacked*, "Valve.VR", "CVRSystem/_GetControllerStateWithPosePacked");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::CVRSystem::_GetControllerStateWithPosePacked::New_ctor

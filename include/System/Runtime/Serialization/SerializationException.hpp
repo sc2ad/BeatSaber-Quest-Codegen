@@ -85,6 +85,7 @@ namespace System::Runtime::Serialization {
   }; // System.Runtime.Serialization.SerializationException
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Runtime::Serialization::SerializationException);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SerializationException*, "System.Runtime.Serialization", "SerializationException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationException::New_ctor

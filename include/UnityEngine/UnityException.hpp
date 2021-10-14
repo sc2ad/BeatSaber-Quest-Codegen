@@ -59,6 +59,7 @@ namespace UnityEngine {
   }; // UnityEngine.UnityException
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::UnityException);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UnityException*, "UnityEngine", "UnityException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UnityException::New_ctor

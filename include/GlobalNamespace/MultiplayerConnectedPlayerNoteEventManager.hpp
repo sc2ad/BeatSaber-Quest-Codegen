@@ -259,6 +259,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerConnectedPlayerNoteEventManager), 72 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager::NoteMissEvent>*)> __GlobalNamespace_MultiplayerConnectedPlayerNoteEventManagerSizeCheck;
   static_assert(sizeof(MultiplayerConnectedPlayerNoteEventManager) == 0x50);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager*, "", "MultiplayerConnectedPlayerNoteEventManager");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager::NoteCutEvent, "", "MultiplayerConnectedPlayerNoteEventManager/NoteCutEvent");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager::NoteMissEvent, "", "MultiplayerConnectedPlayerNoteEventManager/NoteMissEvent");

@@ -110,6 +110,7 @@ namespace System::Collections {
   static check_size<sizeof(Comparer), 16 + sizeof(System::Globalization::CompareInfo*)> __System_Collections_ComparerSizeCheck;
   static_assert(sizeof(Comparer) == 0x18);
 }
+NEED_NO_BOX(System::Collections::Comparer);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Comparer*, "System.Collections", "Comparer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::Comparer::New_ctor

@@ -254,6 +254,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(CampaignFlowCoordinator), 272 + sizeof(bool)> __GlobalNamespace_CampaignFlowCoordinatorSizeCheck;
   static_assert(sizeof(CampaignFlowCoordinator) == 0x111);
 }
+NEED_NO_BOX(GlobalNamespace::CampaignFlowCoordinator);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CampaignFlowCoordinator*, "", "CampaignFlowCoordinator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CampaignFlowCoordinator::add_didFinishEvent

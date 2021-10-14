@@ -92,6 +92,7 @@ namespace System::Security::Cryptography {
   static check_size<sizeof(AsymmetricAlgorithm), 24 + sizeof(::ArrayW<System::Security::Cryptography::KeySizes*>)> __System_Security_Cryptography_AsymmetricAlgorithmSizeCheck;
   static_assert(sizeof(AsymmetricAlgorithm) == 0x20);
 }
+NEED_NO_BOX(System::Security::Cryptography::AsymmetricAlgorithm);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::AsymmetricAlgorithm*, "System.Security.Cryptography", "AsymmetricAlgorithm");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::AsymmetricAlgorithm::get_KeySize

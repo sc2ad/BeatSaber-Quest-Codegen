@@ -85,6 +85,7 @@ namespace Zenject {
   static check_size<sizeof(CopyNonLazyBinder), 24 + sizeof(System::Collections::Generic::List_1<Zenject::BindInfo*>*)> __Zenject_CopyNonLazyBinderSizeCheck;
   static_assert(sizeof(CopyNonLazyBinder) == 0x20);
 }
+NEED_NO_BOX(Zenject::CopyNonLazyBinder);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::CopyNonLazyBinder*, "Zenject", "CopyNonLazyBinder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::CopyNonLazyBinder::AddSecondaryCopyBindInfo

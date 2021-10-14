@@ -126,6 +126,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(RectangleFakeGlow), 56 + sizeof(GlobalNamespace::MaterialPropertyBlockController*)> __GlobalNamespace_RectangleFakeGlowSizeCheck;
   static_assert(sizeof(RectangleFakeGlow) == 0x40);
 }
+NEED_NO_BOX(GlobalNamespace::RectangleFakeGlow);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RectangleFakeGlow*, "", "RectangleFakeGlow");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::RectangleFakeGlow::get_color

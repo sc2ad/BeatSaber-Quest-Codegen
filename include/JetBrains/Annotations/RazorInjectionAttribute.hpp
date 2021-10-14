@@ -67,6 +67,7 @@ namespace JetBrains::Annotations {
   static check_size<sizeof(RazorInjectionAttribute), 24 + sizeof(::Il2CppString*)> __JetBrains_Annotations_RazorInjectionAttributeSizeCheck;
   static_assert(sizeof(RazorInjectionAttribute) == 0x20);
 }
+NEED_NO_BOX(JetBrains::Annotations::RazorInjectionAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::RazorInjectionAttribute*, "JetBrains.Annotations", "RazorInjectionAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: JetBrains::Annotations::RazorInjectionAttribute::get_Type

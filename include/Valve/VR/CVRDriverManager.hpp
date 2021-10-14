@@ -65,6 +65,7 @@ namespace Valve::VR {
   static check_size<sizeof(CVRDriverManager), 16 + sizeof(Valve::VR::IVRDriverManager)> __Valve_VR_CVRDriverManagerSizeCheck;
   static_assert(sizeof(CVRDriverManager) == 0x20);
 }
+NEED_NO_BOX(Valve::VR::CVRDriverManager);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRDriverManager*, "Valve.VR", "CVRDriverManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::CVRDriverManager::New_ctor

@@ -43,5 +43,6 @@ namespace UnityEngine {
   static_assert(sizeof(ComputeBuffer) == 0x18);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::ComputeBuffer);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ComputeBuffer*, "UnityEngine", "ComputeBuffer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

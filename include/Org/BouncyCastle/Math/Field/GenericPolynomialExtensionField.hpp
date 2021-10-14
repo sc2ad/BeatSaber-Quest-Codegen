@@ -90,6 +90,7 @@ namespace Org::BouncyCastle::Math::Field {
   static check_size<sizeof(GenericPolynomialExtensionField), 24 + sizeof(Org::BouncyCastle::Math::Field::IPolynomial*)> __Org_BouncyCastle_Math_Field_GenericPolynomialExtensionFieldSizeCheck;
   static_assert(sizeof(GenericPolynomialExtensionField) == 0x20);
 }
+NEED_NO_BOX(Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField*, "Org.BouncyCastle.Math.Field", "GenericPolynomialExtensionField");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::get_Characteristic

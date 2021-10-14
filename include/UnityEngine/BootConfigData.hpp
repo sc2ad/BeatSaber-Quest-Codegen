@@ -54,6 +54,7 @@ namespace UnityEngine {
   static check_size<sizeof(BootConfigData), 16 + sizeof(System::IntPtr)> __UnityEngine_BootConfigDataSizeCheck;
   static_assert(sizeof(BootConfigData) == 0x18);
 }
+NEED_NO_BOX(UnityEngine::BootConfigData);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::BootConfigData*, "UnityEngine", "BootConfigData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::BootConfigData::New_ctor

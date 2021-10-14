@@ -36,6 +36,7 @@ namespace GlobalNamespace {
   }; // DisableOnNonQuest
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::DisableOnNonQuest);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DisableOnNonQuest*, "", "DisableOnNonQuest");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DisableOnNonQuest::New_ctor

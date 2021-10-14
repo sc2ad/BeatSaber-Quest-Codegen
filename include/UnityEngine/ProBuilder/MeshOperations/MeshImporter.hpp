@@ -139,6 +139,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   static check_size<sizeof(MeshImporter), 40 + sizeof(::ArrayW<UnityEngine::ProBuilder::Vertex*>)> __UnityEngine_ProBuilder_MeshOperations_MeshImporterSizeCheck;
   static_assert(sizeof(MeshImporter) == 0x30);
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::MeshOperations::MeshImporter);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::MeshImporter*, "UnityEngine.ProBuilder.MeshOperations", "MeshImporter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::MeshImporter::New_ctor

@@ -95,6 +95,7 @@ namespace System::Collections::Specialized {
   static check_size<sizeof(ListDictionary::NodeKeyValueCollection::NodeKeyValueEnumerator), 37 + sizeof(bool)> __System_Collections_Specialized_ListDictionary_NodeKeyValueCollection_NodeKeyValueEnumeratorSizeCheck;
   static_assert(sizeof(ListDictionary::NodeKeyValueCollection::NodeKeyValueEnumerator) == 0x26);
 }
+NEED_NO_BOX(System::Collections::Specialized::ListDictionary::NodeKeyValueCollection::NodeKeyValueEnumerator);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::ListDictionary::NodeKeyValueCollection::NodeKeyValueEnumerator*, "System.Collections.Specialized", "ListDictionary/NodeKeyValueCollection/NodeKeyValueEnumerator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::Specialized::ListDictionary::NodeKeyValueCollection::NodeKeyValueEnumerator::get_Current

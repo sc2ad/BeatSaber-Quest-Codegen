@@ -150,6 +150,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(NetworkPlayersViewController), 136 + sizeof(System::Action_1<GlobalNamespace::INetworkPlayer*>*)> __GlobalNamespace_NetworkPlayersViewControllerSizeCheck;
   static_assert(sizeof(NetworkPlayersViewController) == 0x90);
 }
+NEED_NO_BOX(GlobalNamespace::NetworkPlayersViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetworkPlayersViewController*, "", "NetworkPlayersViewController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NetworkPlayersViewController::get_myPartyTitle

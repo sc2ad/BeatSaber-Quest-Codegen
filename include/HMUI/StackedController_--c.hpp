@@ -51,6 +51,7 @@ namespace HMUI {
   }; // HMUI.StackedController/HMUI.<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(HMUI::StackedController::$$c);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::StackedController::$$c*, "HMUI", "StackedController/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::StackedController::$$c::_cctor

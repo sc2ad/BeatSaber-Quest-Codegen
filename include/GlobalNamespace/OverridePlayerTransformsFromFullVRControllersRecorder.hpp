@@ -105,6 +105,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OverridePlayerTransformsFromFullVRControllersRecorder), 48 + sizeof(GlobalNamespace::PlayerVRControllersManager*)> __GlobalNamespace_OverridePlayerTransformsFromFullVRControllersRecorderSizeCheck;
   static_assert(sizeof(OverridePlayerTransformsFromFullVRControllersRecorder) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::OverridePlayerTransformsFromFullVRControllersRecorder);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OverridePlayerTransformsFromFullVRControllersRecorder*, "", "OverridePlayerTransformsFromFullVRControllersRecorder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OverridePlayerTransformsFromFullVRControllersRecorder::Start

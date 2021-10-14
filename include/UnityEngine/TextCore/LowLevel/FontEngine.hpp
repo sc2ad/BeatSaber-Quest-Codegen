@@ -176,6 +176,7 @@ namespace UnityEngine::TextCore::LowLevel {
   }; // UnityEngine.TextCore.LowLevel.FontEngine
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::TextCore::LowLevel::FontEngine);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::LowLevel::FontEngine*, "UnityEngine.TextCore.LowLevel", "FontEngine");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TextCore::LowLevel::FontEngine::_cctor

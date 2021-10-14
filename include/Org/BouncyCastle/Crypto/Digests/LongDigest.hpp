@@ -252,6 +252,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
   static check_size<sizeof(LongDigest), 128 + sizeof(int)> __Org_BouncyCastle_Crypto_Digests_LongDigestSizeCheck;
   static_assert(sizeof(LongDigest) == 0x84);
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Digests::LongDigest);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::LongDigest*, "Org.BouncyCastle.Crypto.Digests", "LongDigest");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::LongDigest::get_AlgorithmName

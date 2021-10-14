@@ -235,6 +235,7 @@ namespace System::IO {
   static check_size<sizeof(BinaryReader), 70 + sizeof(bool)> __System_IO_BinaryReaderSizeCheck;
   static_assert(sizeof(BinaryReader) == 0x47);
 }
+NEED_NO_BOX(System::IO::BinaryReader);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::BinaryReader*, "System.IO", "BinaryReader");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::BinaryReader::get_BaseStream

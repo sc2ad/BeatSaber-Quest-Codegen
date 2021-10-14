@@ -163,6 +163,7 @@ namespace HMUI {
   static check_size<sizeof(SimpleTextDropdown), 104 + sizeof(bool)> __HMUI_SimpleTextDropdownSizeCheck;
   static_assert(sizeof(SimpleTextDropdown) == 0x69);
 }
+NEED_NO_BOX(HMUI::SimpleTextDropdown);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SimpleTextDropdown*, "HMUI", "SimpleTextDropdown");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::SimpleTextDropdown::LazyInit

@@ -34,6 +34,7 @@ namespace UnityEngine::Timeline {
   }; // UnityEngine.Timeline.NotKeyableAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::Timeline::NotKeyableAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::NotKeyableAttribute*, "UnityEngine.Timeline", "NotKeyableAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::NotKeyableAttribute::New_ctor

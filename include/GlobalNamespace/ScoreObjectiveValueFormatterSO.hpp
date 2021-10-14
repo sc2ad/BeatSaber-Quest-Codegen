@@ -41,6 +41,7 @@ namespace GlobalNamespace {
   }; // ScoreObjectiveValueFormatterSO
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::ScoreObjectiveValueFormatterSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScoreObjectiveValueFormatterSO*, "", "ScoreObjectiveValueFormatterSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ScoreObjectiveValueFormatterSO::New_ctor

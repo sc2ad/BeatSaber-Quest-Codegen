@@ -119,6 +119,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(HandPoser), 112 + sizeof(::ArrayW<UnityEngine::Quaternion>)> __RootMotion_FinalIK_HandPoserSizeCheck;
   static_assert(sizeof(HandPoser) == 0x78);
 }
+NEED_NO_BOX(RootMotion::FinalIK::HandPoser);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::HandPoser*, "RootMotion.FinalIK", "HandPoser");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::HandPoser::StoreDefaultState

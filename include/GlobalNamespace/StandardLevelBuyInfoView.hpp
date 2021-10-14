@@ -102,6 +102,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(StandardLevelBuyInfoView), 48 + sizeof(UnityEngine::UI::Button*)> __GlobalNamespace_StandardLevelBuyInfoViewSizeCheck;
   static_assert(sizeof(StandardLevelBuyInfoView) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::StandardLevelBuyInfoView);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelBuyInfoView*, "", "StandardLevelBuyInfoView");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelBuyInfoView::get_buyLevelButton

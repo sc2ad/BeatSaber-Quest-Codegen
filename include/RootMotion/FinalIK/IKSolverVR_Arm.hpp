@@ -419,6 +419,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(IKSolverVR::Arm), 316 + sizeof(UnityEngine::Vector3)> __RootMotion_FinalIK_IKSolverVR_ArmSizeCheck;
   static_assert(sizeof(IKSolverVR::Arm) == 0x148);
 }
+NEED_NO_BOX(RootMotion::FinalIK::IKSolverVR::Arm);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverVR::Arm*, "RootMotion.FinalIK", "IKSolverVR/Arm");
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverVR::Arm::ShoulderRotationMode, "RootMotion.FinalIK", "IKSolverVR/Arm/ShoulderRotationMode");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

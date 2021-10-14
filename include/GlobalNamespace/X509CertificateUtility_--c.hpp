@@ -64,6 +64,7 @@ namespace GlobalNamespace {
   }; // X509CertificateUtility/<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::X509CertificateUtility::$$c);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::X509CertificateUtility::$$c*, "", "X509CertificateUtility/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::X509CertificateUtility::$$c::_cctor

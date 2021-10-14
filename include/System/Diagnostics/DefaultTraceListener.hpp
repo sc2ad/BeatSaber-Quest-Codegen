@@ -108,6 +108,7 @@ namespace System::Diagnostics {
   static check_size<sizeof(DefaultTraceListener), 48 + sizeof(::Il2CppString*)> __System_Diagnostics_DefaultTraceListenerSizeCheck;
   static_assert(sizeof(DefaultTraceListener) == 0x38);
 }
+NEED_NO_BOX(System::Diagnostics::DefaultTraceListener);
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::DefaultTraceListener*, "System.Diagnostics", "DefaultTraceListener");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Diagnostics::DefaultTraceListener::get_LogFileName

@@ -237,6 +237,7 @@ namespace System::Collections::Specialized {
   static check_size<sizeof(NameObjectCollectionBase), 64 + sizeof(int)> __System_Collections_Specialized_NameObjectCollectionBaseSizeCheck;
   static_assert(sizeof(NameObjectCollectionBase) == 0x44);
 }
+NEED_NO_BOX(System::Collections::Specialized::NameObjectCollectionBase);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::NameObjectCollectionBase*, "System.Collections.Specialized", "NameObjectCollectionBase");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::Specialized::NameObjectCollectionBase::get_IsReadOnly

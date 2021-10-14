@@ -96,6 +96,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(TwoLeaderboardsHandlerWrapper), 40 + sizeof(GlobalNamespace::HMAsyncRequest*)> __GlobalNamespace_TwoLeaderboardsHandlerWrapperSizeCheck;
   static_assert(sizeof(TwoLeaderboardsHandlerWrapper) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::TwoLeaderboardsHandlerWrapper);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TwoLeaderboardsHandlerWrapper*, "", "TwoLeaderboardsHandlerWrapper");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TwoLeaderboardsHandlerWrapper::New_ctor

@@ -57,6 +57,7 @@ namespace JetBrains::Annotations {
   static check_size<sizeof(RazorDirectiveAttribute), 16 + sizeof(::Il2CppString*)> __JetBrains_Annotations_RazorDirectiveAttributeSizeCheck;
   static_assert(sizeof(RazorDirectiveAttribute) == 0x18);
 }
+NEED_NO_BOX(JetBrains::Annotations::RazorDirectiveAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::RazorDirectiveAttribute*, "JetBrains.Annotations", "RazorDirectiveAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: JetBrains::Annotations::RazorDirectiveAttribute::get_Directive

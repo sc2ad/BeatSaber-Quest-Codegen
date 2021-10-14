@@ -435,6 +435,7 @@ namespace Mono::Net::Security {
   static check_size<sizeof(MobileAuthenticatedStream), 152 + sizeof(int)> __Mono_Net_Security_MobileAuthenticatedStreamSizeCheck;
   static_assert(sizeof(MobileAuthenticatedStream) == 0x9C);
 }
+NEED_NO_BOX(Mono::Net::Security::MobileAuthenticatedStream);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::MobileAuthenticatedStream*, "Mono.Net.Security", "MobileAuthenticatedStream");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::get_Settings

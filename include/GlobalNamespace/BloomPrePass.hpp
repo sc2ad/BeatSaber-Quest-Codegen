@@ -172,6 +172,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BloomPrePass), 56 + sizeof(GlobalNamespace::BloomPrePassRenderDataSO::Data*)> __GlobalNamespace_BloomPrePassSizeCheck;
   static_assert(sizeof(BloomPrePass) == 0x40);
 }
+NEED_NO_BOX(GlobalNamespace::BloomPrePass);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePass*, "", "BloomPrePass");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePass::Mode, "", "BloomPrePass/Mode");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

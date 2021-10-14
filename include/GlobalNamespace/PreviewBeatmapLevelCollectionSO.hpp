@@ -72,6 +72,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PreviewBeatmapLevelCollectionSO), 24 + sizeof(::ArrayW<GlobalNamespace::PreviewBeatmapLevelSO*>)> __GlobalNamespace_PreviewBeatmapLevelCollectionSOSizeCheck;
   static_assert(sizeof(PreviewBeatmapLevelCollectionSO) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::PreviewBeatmapLevelCollectionSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PreviewBeatmapLevelCollectionSO*, "", "PreviewBeatmapLevelCollectionSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PreviewBeatmapLevelCollectionSO::get_beatmapLevels

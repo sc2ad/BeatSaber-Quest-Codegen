@@ -133,6 +133,7 @@ namespace Org::BouncyCastle::X509 {
   static check_size<sizeof(X509CrlParser), 40 + sizeof(System::IO::Stream*)> __Org_BouncyCastle_X509_X509CrlParserSizeCheck;
   static_assert(sizeof(X509CrlParser) == 0x30);
 }
+NEED_NO_BOX(Org::BouncyCastle::X509::X509CrlParser);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::X509CrlParser*, "Org.BouncyCastle.X509", "X509CrlParser");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::X509::X509CrlParser::New_ctor

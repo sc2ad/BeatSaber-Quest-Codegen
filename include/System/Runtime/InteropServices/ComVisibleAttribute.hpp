@@ -52,6 +52,7 @@ namespace System::Runtime::InteropServices {
   static check_size<sizeof(ComVisibleAttribute), 16 + sizeof(bool)> __System_Runtime_InteropServices_ComVisibleAttributeSizeCheck;
   static_assert(sizeof(ComVisibleAttribute) == 0x11);
 }
+NEED_NO_BOX(System::Runtime::InteropServices::ComVisibleAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::ComVisibleAttribute*, "System.Runtime.InteropServices", "ComVisibleAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::InteropServices::ComVisibleAttribute::New_ctor

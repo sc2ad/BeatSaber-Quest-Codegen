@@ -91,6 +91,7 @@ namespace System::Runtime::Remoting::Lifetime {
   static check_size<sizeof(LeaseManager), 24 + sizeof(System::Threading::Timer*)> __System_Runtime_Remoting_Lifetime_LeaseManagerSizeCheck;
   static_assert(sizeof(LeaseManager) == 0x20);
 }
+NEED_NO_BOX(System::Runtime::Remoting::Lifetime::LeaseManager);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Lifetime::LeaseManager*, "System.Runtime.Remoting.Lifetime", "LeaseManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Lifetime::LeaseManager::SetPollTime

@@ -533,6 +533,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MainSettingsModelSO), 339 + sizeof(bool)> __GlobalNamespace_MainSettingsModelSOSizeCheck;
   static_assert(sizeof(MainSettingsModelSO) == 0x154);
 }
+NEED_NO_BOX(GlobalNamespace::MainSettingsModelSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainSettingsModelSO*, "", "MainSettingsModelSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MainSettingsModelSO::get_createScreenshotDuringTheGame

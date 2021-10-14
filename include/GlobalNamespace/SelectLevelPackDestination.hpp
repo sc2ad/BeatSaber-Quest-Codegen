@@ -57,6 +57,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SelectLevelPackDestination), 16 + sizeof(GlobalNamespace::IBeatmapLevelPack*)> __GlobalNamespace_SelectLevelPackDestinationSizeCheck;
   static_assert(sizeof(SelectLevelPackDestination) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::SelectLevelPackDestination);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectLevelPackDestination*, "", "SelectLevelPackDestination");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SelectLevelPackDestination::New_ctor

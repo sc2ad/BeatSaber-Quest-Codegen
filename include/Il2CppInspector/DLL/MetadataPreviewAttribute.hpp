@@ -48,6 +48,7 @@ namespace Il2CppInspector::DLL {
     }
   }; // Il2CppInspector.DLL.MetadataPreviewAttribute
 }
+NEED_NO_BOX(Il2CppInspector::DLL::MetadataPreviewAttribute);
 DEFINE_IL2CPP_ARG_TYPE(Il2CppInspector::DLL::MetadataPreviewAttribute*, "Il2CppInspector.DLL", "MetadataPreviewAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Il2CppInspector::DLL::MetadataPreviewAttribute::New_ctor

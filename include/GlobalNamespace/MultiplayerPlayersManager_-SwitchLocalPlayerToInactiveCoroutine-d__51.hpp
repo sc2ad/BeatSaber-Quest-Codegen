@@ -86,6 +86,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerPlayersManager::$SwitchLocalPlayerToInactiveCoroutine$d__51), 32 + sizeof(GlobalNamespace::MultiplayerPlayersManager*)> __GlobalNamespace_MultiplayerPlayersManager_$SwitchLocalPlayerToInactiveCoroutine$d__51SizeCheck;
   static_assert(sizeof(MultiplayerPlayersManager::$SwitchLocalPlayerToInactiveCoroutine$d__51) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerPlayersManager::$SwitchLocalPlayerToInactiveCoroutine$d__51);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerPlayersManager::$SwitchLocalPlayerToInactiveCoroutine$d__51*, "", "MultiplayerPlayersManager/<SwitchLocalPlayerToInactiveCoroutine>d__51");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerPlayersManager::$SwitchLocalPlayerToInactiveCoroutine$d__51::System_Collections_Generic_IEnumerator$System_Object$_get_Current

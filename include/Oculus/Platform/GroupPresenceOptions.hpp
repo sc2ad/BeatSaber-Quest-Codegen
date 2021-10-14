@@ -72,6 +72,7 @@ namespace Oculus::Platform {
   static check_size<sizeof(GroupPresenceOptions), 16 + sizeof(System::IntPtr)> __Oculus_Platform_GroupPresenceOptionsSizeCheck;
   static_assert(sizeof(GroupPresenceOptions) == 0x18);
 }
+NEED_NO_BOX(Oculus::Platform::GroupPresenceOptions);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::GroupPresenceOptions*, "Oculus.Platform", "GroupPresenceOptions");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::GroupPresenceOptions::SetDestinationApiName

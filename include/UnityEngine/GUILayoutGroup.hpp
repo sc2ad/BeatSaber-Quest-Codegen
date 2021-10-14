@@ -287,6 +287,7 @@ namespace UnityEngine {
   static check_size<sizeof(GUILayoutGroup), 140 + sizeof(int)> __UnityEngine_GUILayoutGroupSizeCheck;
   static_assert(sizeof(GUILayoutGroup) == 0x90);
 }
+NEED_NO_BOX(UnityEngine::GUILayoutGroup);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUILayoutGroup*, "UnityEngine", "GUILayoutGroup");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::GUILayoutGroup::ResetCursor

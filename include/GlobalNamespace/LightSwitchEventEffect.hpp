@@ -285,6 +285,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LightSwitchEventEffect), 176 + sizeof(bool)> __GlobalNamespace_LightSwitchEventEffectSizeCheck;
   static_assert(sizeof(LightSwitchEventEffect) == 0xB1);
 }
+NEED_NO_BOX(GlobalNamespace::LightSwitchEventEffect);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightSwitchEventEffect*, "", "LightSwitchEventEffect");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LightSwitchEventEffect::get_lightsId

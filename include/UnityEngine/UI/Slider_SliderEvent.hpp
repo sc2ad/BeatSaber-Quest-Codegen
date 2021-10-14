@@ -34,6 +34,7 @@ namespace UnityEngine::UI {
     }
   }; // UnityEngine.UI.Slider/UnityEngine.UI.SliderEvent
 }
+NEED_NO_BOX(UnityEngine::UI::Slider::SliderEvent);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Slider::SliderEvent*, "UnityEngine.UI", "Slider/SliderEvent");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::Slider::SliderEvent::New_ctor

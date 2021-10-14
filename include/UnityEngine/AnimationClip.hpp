@@ -155,6 +155,7 @@ namespace UnityEngine {
   }; // UnityEngine.AnimationClip
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::AnimationClip);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimationClip*, "UnityEngine", "AnimationClip");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AnimationClip::get_length

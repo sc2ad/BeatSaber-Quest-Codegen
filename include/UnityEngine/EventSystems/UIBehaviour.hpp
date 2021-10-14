@@ -75,6 +75,7 @@ namespace UnityEngine::EventSystems {
   }; // UnityEngine.EventSystems.UIBehaviour
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::EventSystems::UIBehaviour);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::UIBehaviour*, "UnityEngine.EventSystems", "UIBehaviour");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::EventSystems::UIBehaviour::Awake

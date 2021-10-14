@@ -138,6 +138,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(GameScenesManager::$$c__DisplayClass32_0), 72 + sizeof(System::Action_1<Zenject::DiContainer*>*)> __GlobalNamespace_GameScenesManager_$$c__DisplayClass32_0SizeCheck;
   static_assert(sizeof(GameScenesManager::$$c__DisplayClass32_0) == 0x50);
 }
+NEED_NO_BOX(GlobalNamespace::GameScenesManager::$$c__DisplayClass32_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameScenesManager::$$c__DisplayClass32_0*, "", "GameScenesManager/<>c__DisplayClass32_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameScenesManager::$$c__DisplayClass32_0::$ReplaceScenes$b__0

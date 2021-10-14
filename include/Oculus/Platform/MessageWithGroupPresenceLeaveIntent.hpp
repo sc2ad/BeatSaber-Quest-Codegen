@@ -46,6 +46,7 @@ namespace Oculus::Platform {
     Oculus::Platform::Models::GroupPresenceLeaveIntent* GetGroupPresenceLeaveIntent();
   }; // Oculus.Platform.MessageWithGroupPresenceLeaveIntent
 }
+NEED_NO_BOX(Oculus::Platform::MessageWithGroupPresenceLeaveIntent);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithGroupPresenceLeaveIntent*, "Oculus.Platform", "MessageWithGroupPresenceLeaveIntent");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithGroupPresenceLeaveIntent::GetDataFromMessage

@@ -1273,6 +1273,7 @@ namespace Valve::VR {
   }; // Valve.VR.OpenVR
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::OpenVR);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::OpenVR*, "Valve.VR", "OpenVR");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::OpenVR::get_VRToken

@@ -58,6 +58,7 @@ namespace Valve::VR {
   }; // Valve.VR.IVRApplications/Valve.VR._GetApplicationPropertyBool
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::IVRApplications::_GetApplicationPropertyBool);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRApplications::_GetApplicationPropertyBool*, "Valve.VR", "IVRApplications/_GetApplicationPropertyBool");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRApplications::_GetApplicationPropertyBool::New_ctor

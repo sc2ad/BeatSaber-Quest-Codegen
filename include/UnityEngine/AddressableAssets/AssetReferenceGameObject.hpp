@@ -38,6 +38,7 @@ namespace UnityEngine::AddressableAssets {
     }
   }; // UnityEngine.AddressableAssets.AssetReferenceGameObject
 }
+NEED_NO_BOX(UnityEngine::AddressableAssets::AssetReferenceGameObject);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::AssetReferenceGameObject*, "UnityEngine.AddressableAssets", "AssetReferenceGameObject");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AssetReferenceGameObject::New_ctor

@@ -55,6 +55,7 @@ namespace UnityEngine {
   }; // UnityEngine.CullingGroup/UnityEngine.StateChanged
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::CullingGroup::StateChanged);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CullingGroup::StateChanged*, "UnityEngine", "CullingGroup/StateChanged");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::CullingGroup::StateChanged::New_ctor

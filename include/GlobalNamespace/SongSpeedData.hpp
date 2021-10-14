@@ -48,6 +48,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SongSpeedData), 16 + sizeof(float)> __GlobalNamespace_SongSpeedDataSizeCheck;
   static_assert(sizeof(SongSpeedData) == 0x14);
 }
+NEED_NO_BOX(GlobalNamespace::SongSpeedData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongSpeedData*, "", "SongSpeedData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SongSpeedData::New_ctor

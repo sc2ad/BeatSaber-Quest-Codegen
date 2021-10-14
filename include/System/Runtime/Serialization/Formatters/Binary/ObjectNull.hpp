@@ -73,6 +73,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   static check_size<sizeof(ObjectNull), 16 + sizeof(int)> __System_Runtime_Serialization_Formatters_Binary_ObjectNullSizeCheck;
   static_assert(sizeof(ObjectNull) == 0x14);
 }
+NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::ObjectNull);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::ObjectNull*, "System.Runtime.Serialization.Formatters.Binary", "ObjectNull");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::ObjectNull::SetNullCount

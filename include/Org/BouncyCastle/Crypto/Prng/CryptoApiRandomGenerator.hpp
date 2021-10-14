@@ -74,6 +74,7 @@ namespace Org::BouncyCastle::Crypto::Prng {
   static check_size<sizeof(CryptoApiRandomGenerator), 16 + sizeof(System::Security::Cryptography::RandomNumberGenerator*)> __Org_BouncyCastle_Crypto_Prng_CryptoApiRandomGeneratorSizeCheck;
   static_assert(sizeof(CryptoApiRandomGenerator) == 0x18);
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator*, "Org.BouncyCastle.Crypto.Prng", "CryptoApiRandomGenerator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator::New_ctor

@@ -71,6 +71,7 @@ namespace Org::BouncyCastle::Utilities::IO::Pem {
   static check_size<sizeof(PemHeader), 24 + sizeof(::Il2CppString*)> __Org_BouncyCastle_Utilities_IO_Pem_PemHeaderSizeCheck;
   static_assert(sizeof(PemHeader) == 0x20);
 }
+NEED_NO_BOX(Org::BouncyCastle::Utilities::IO::Pem::PemHeader);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::IO::Pem::PemHeader*, "Org.BouncyCastle.Utilities.IO.Pem", "PemHeader");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::IO::Pem::PemHeader::get_Name

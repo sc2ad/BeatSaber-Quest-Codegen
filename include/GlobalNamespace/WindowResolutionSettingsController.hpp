@@ -87,6 +87,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(WindowResolutionSettingsController), 48 + sizeof(::ArrayW<UnityEngine::Vector2Int>)> __GlobalNamespace_WindowResolutionSettingsControllerSizeCheck;
   static_assert(sizeof(WindowResolutionSettingsController) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::WindowResolutionSettingsController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::WindowResolutionSettingsController*, "", "WindowResolutionSettingsController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::WindowResolutionSettingsController::New_ctor

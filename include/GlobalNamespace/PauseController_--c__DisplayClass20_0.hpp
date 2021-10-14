@@ -56,6 +56,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PauseController::$$c__DisplayClass20_0), 16 + sizeof(bool)> __GlobalNamespace_PauseController_$$c__DisplayClass20_0SizeCheck;
   static_assert(sizeof(PauseController::$$c__DisplayClass20_0) == 0x11);
 }
+NEED_NO_BOX(GlobalNamespace::PauseController::$$c__DisplayClass20_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PauseController::$$c__DisplayClass20_0*, "", "PauseController/<>c__DisplayClass20_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PauseController::$$c__DisplayClass20_0::$get_canPause$b__0

@@ -27,6 +27,7 @@ namespace System::ComponentModel {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::ComponentModel::ReferenceConverter);
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::ReferenceConverter*, "System.ComponentModel", "ReferenceConverter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ComponentModel::ReferenceConverter::_cctor

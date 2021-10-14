@@ -241,6 +241,7 @@ namespace Zenject {
   static check_size<sizeof(BindInfo), 120 + sizeof(System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>*)> __Zenject_BindInfoSizeCheck;
   static_assert(sizeof(BindInfo) == 0x80);
 }
+NEED_NO_BOX(Zenject::BindInfo);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::BindInfo*, "Zenject", "BindInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::BindInfo::Dispose

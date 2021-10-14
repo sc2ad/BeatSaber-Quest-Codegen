@@ -54,6 +54,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(NumberTag), 24 + sizeof(int)> __GlobalNamespace_NumberTagSizeCheck;
   static_assert(sizeof(NumberTag) == 0x1C);
 }
+NEED_NO_BOX(GlobalNamespace::NumberTag);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NumberTag*, "", "NumberTag");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NumberTag::New_ctor

@@ -161,6 +161,7 @@ namespace UnityEngine::UI {
   static check_size<sizeof(HorizontalOrVerticalLayoutGroup), 97 + sizeof(bool)> __UnityEngine_UI_HorizontalOrVerticalLayoutGroupSizeCheck;
   static_assert(sizeof(HorizontalOrVerticalLayoutGroup) == 0x62);
 }
+NEED_NO_BOX(UnityEngine::UI::HorizontalOrVerticalLayoutGroup);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::HorizontalOrVerticalLayoutGroup*, "UnityEngine.UI", "HorizontalOrVerticalLayoutGroup");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::HorizontalOrVerticalLayoutGroup::get_spacing

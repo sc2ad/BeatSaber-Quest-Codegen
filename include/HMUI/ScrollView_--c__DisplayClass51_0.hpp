@@ -56,6 +56,7 @@ namespace HMUI {
   static check_size<sizeof(ScrollView::$$c__DisplayClass51_0), 16 + sizeof(float)> __HMUI_ScrollView_$$c__DisplayClass51_0SizeCheck;
   static_assert(sizeof(ScrollView::$$c__DisplayClass51_0) == 0x14);
 }
+NEED_NO_BOX(HMUI::ScrollView::$$c__DisplayClass51_0);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollView::$$c__DisplayClass51_0*, "HMUI", "ScrollView/<>c__DisplayClass51_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::ScrollView::$$c__DisplayClass51_0::$PageDownButtonPressed$b__0

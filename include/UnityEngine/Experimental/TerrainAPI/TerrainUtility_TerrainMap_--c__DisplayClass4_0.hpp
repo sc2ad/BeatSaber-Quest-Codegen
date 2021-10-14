@@ -63,6 +63,7 @@ namespace UnityEngine::Experimental::TerrainAPI {
   static check_size<sizeof(TerrainUtility::TerrainMap::$$c__DisplayClass4_0), 16 + sizeof(int)> __UnityEngine_Experimental_TerrainAPI_TerrainUtility_TerrainMap_$$c__DisplayClass4_0SizeCheck;
   static_assert(sizeof(TerrainUtility::TerrainMap::$$c__DisplayClass4_0) == 0x14);
 }
+NEED_NO_BOX(UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap::$$c__DisplayClass4_0);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap::$$c__DisplayClass4_0*, "UnityEngine.Experimental.TerrainAPI", "TerrainUtility/TerrainMap/<>c__DisplayClass4_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap::$$c__DisplayClass4_0::$CreateFromPlacement$b__0

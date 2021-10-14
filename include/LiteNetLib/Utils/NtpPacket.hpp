@@ -187,6 +187,7 @@ namespace LiteNetLib::Utils {
   }; // LiteNetLib.Utils.NtpPacket
   // WARNING Not writing size check since size may be invalid!
 }
+NEED_NO_BOX(LiteNetLib::Utils::NtpPacket);
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::NtpPacket*, "LiteNetLib.Utils", "NtpPacket");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpPacket::get_Bytes

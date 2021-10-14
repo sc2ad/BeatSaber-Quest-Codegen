@@ -46,6 +46,7 @@ namespace Oculus::Platform {
     Oculus::Platform::Models::ApplicationVersion* GetApplicationVersion();
   }; // Oculus.Platform.MessageWithApplicationVersion
 }
+NEED_NO_BOX(Oculus::Platform::MessageWithApplicationVersion);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithApplicationVersion*, "Oculus.Platform", "MessageWithApplicationVersion");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithApplicationVersion::GetDataFromMessage

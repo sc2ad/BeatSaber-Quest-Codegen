@@ -116,6 +116,7 @@ namespace UnityEngine::Timeline {
   static check_size<sizeof(AnimationTrack::$get_outputs$d__49), 64 + sizeof(UnityEngine::Timeline::AnimationTrack*)> __UnityEngine_Timeline_AnimationTrack_$get_outputs$d__49SizeCheck;
   static_assert(sizeof(AnimationTrack::$get_outputs$d__49) == 0x48);
 }
+NEED_NO_BOX(UnityEngine::Timeline::AnimationTrack::$get_outputs$d__49);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AnimationTrack::$get_outputs$d__49*, "UnityEngine.Timeline", "AnimationTrack/<get_outputs>d__49");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::AnimationTrack::$get_outputs$d__49::System_Collections_Generic_IEnumerator$UnityEngine_Playables_PlayableBinding$_get_Current

@@ -37,6 +37,7 @@ namespace Oculus::Platform::Models {
     }
   }; // Oculus.Platform.Models.SdkAccountList
 }
+NEED_NO_BOX(Oculus::Platform::Models::SdkAccountList);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::SdkAccountList*, "Oculus.Platform.Models", "SdkAccountList");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::SdkAccountList::New_ctor

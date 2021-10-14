@@ -82,6 +82,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(GameplayModifierInfoListItem), 32 + sizeof(UnityEngine::UI::Image*)> __GlobalNamespace_GameplayModifierInfoListItemSizeCheck;
   static_assert(sizeof(GameplayModifierInfoListItem) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::GameplayModifierInfoListItem);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifierInfoListItem*, "", "GameplayModifierInfoListItem");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameplayModifierInfoListItem::SetModifier

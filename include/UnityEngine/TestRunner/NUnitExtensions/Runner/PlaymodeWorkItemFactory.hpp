@@ -57,6 +57,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.PlaymodeWorkItemFactory
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::TestRunner::NUnitExtensions::Runner::PlaymodeWorkItemFactory);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::PlaymodeWorkItemFactory*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "PlaymodeWorkItemFactory");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::PlaymodeWorkItemFactory::New_ctor

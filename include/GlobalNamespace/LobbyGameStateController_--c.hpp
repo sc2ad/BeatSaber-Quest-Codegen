@@ -62,6 +62,7 @@ namespace GlobalNamespace {
   }; // LobbyGameStateController/<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::LobbyGameStateController::$$c);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LobbyGameStateController::$$c*, "", "LobbyGameStateController/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LobbyGameStateController::$$c::_cctor

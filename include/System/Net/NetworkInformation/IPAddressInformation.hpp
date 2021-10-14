@@ -40,6 +40,7 @@ namespace System::Net::NetworkInformation {
   }; // System.Net.NetworkInformation.IPAddressInformation
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Net::NetworkInformation::IPAddressInformation);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::IPAddressInformation*, "System.Net.NetworkInformation", "IPAddressInformation");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::NetworkInformation::IPAddressInformation::get_Address

@@ -99,6 +99,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MoveAndRotateWithMainCamera), 64 + sizeof(UnityEngine::Transform*)> __GlobalNamespace_MoveAndRotateWithMainCameraSizeCheck;
   static_assert(sizeof(MoveAndRotateWithMainCamera) == 0x48);
 }
+NEED_NO_BOX(GlobalNamespace::MoveAndRotateWithMainCamera);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MoveAndRotateWithMainCamera*, "", "MoveAndRotateWithMainCamera");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MoveAndRotateWithMainCamera::Awake

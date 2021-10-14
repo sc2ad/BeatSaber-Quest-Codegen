@@ -41,6 +41,7 @@ namespace System::Text::RegularExpressions {
   }; // System.Text.RegularExpressions.RegexCharClass/System.Text.RegularExpressions.SingleRangeComparer
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Text::RegularExpressions::RegexCharClass::SingleRangeComparer);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexCharClass::SingleRangeComparer*, "System.Text.RegularExpressions", "RegexCharClass/SingleRangeComparer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexCharClass::SingleRangeComparer::Compare

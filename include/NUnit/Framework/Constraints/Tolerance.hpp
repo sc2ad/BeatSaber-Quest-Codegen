@@ -78,6 +78,7 @@ namespace NUnit::Framework::Constraints {
   static check_size<sizeof(Tolerance), 24 + sizeof(::Il2CppObject*)> __NUnit_Framework_Constraints_ToleranceSizeCheck;
   static_assert(sizeof(Tolerance) == 0x20);
 }
+NEED_NO_BOX(NUnit::Framework::Constraints::Tolerance);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::Tolerance*, "NUnit.Framework.Constraints", "Tolerance");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::Tolerance::get_Default

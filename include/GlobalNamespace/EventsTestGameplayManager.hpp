@@ -123,6 +123,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(EventsTestGameplayManager), 64 + sizeof(bool)> __GlobalNamespace_EventsTestGameplayManagerSizeCheck;
   static_assert(sizeof(EventsTestGameplayManager) == 0x41);
 }
+NEED_NO_BOX(GlobalNamespace::EventsTestGameplayManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EventsTestGameplayManager*, "", "EventsTestGameplayManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EventsTestGameplayManager::Update

@@ -20,5 +20,6 @@ namespace NUnit::Framework::Constraints {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(NUnit::Framework::Constraints::SelfResolvingOperator);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::SelfResolvingOperator*, "NUnit.Framework.Constraints", "SelfResolvingOperator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

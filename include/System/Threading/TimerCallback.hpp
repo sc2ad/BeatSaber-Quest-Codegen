@@ -49,6 +49,7 @@ namespace System::Threading {
   }; // System.Threading.TimerCallback
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Threading::TimerCallback);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::TimerCallback*, "System.Threading", "TimerCallback");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::TimerCallback::New_ctor

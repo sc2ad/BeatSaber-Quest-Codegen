@@ -38,6 +38,7 @@ namespace NUnit::Framework::Interfaces {
     }
   }; // NUnit.Framework.Interfaces.NodeList
 }
+NEED_NO_BOX(NUnit::Framework::Interfaces::NodeList);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::NodeList*, "NUnit.Framework.Interfaces", "NodeList");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::NodeList::New_ctor

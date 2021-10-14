@@ -50,6 +50,7 @@ namespace UnityEngine {
   }; // UnityEngine.AnimatorOverrideController/UnityEngine.OnOverrideControllerDirtyCallback
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::AnimatorOverrideController::OnOverrideControllerDirtyCallback);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimatorOverrideController::OnOverrideControllerDirtyCallback*, "UnityEngine", "AnimatorOverrideController/OnOverrideControllerDirtyCallback");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AnimatorOverrideController::OnOverrideControllerDirtyCallback::New_ctor

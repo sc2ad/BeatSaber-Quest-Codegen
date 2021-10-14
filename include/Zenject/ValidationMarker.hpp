@@ -81,6 +81,7 @@ namespace Zenject {
   static check_size<sizeof(ValidationMarker), 24 + sizeof(System::Type*)> __Zenject_ValidationMarkerSizeCheck;
   static_assert(sizeof(ValidationMarker) == 0x20);
 }
+NEED_NO_BOX(Zenject::ValidationMarker);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ValidationMarker*, "Zenject", "ValidationMarker");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::ValidationMarker::get_InstantiateFailed

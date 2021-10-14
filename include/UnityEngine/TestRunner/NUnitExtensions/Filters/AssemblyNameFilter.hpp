@@ -49,6 +49,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Filters {
   }; // UnityEngine.TestRunner.NUnitExtensions.Filters.AssemblyNameFilter
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::TestRunner::NUnitExtensions::Filters::AssemblyNameFilter);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Filters::AssemblyNameFilter*, "UnityEngine.TestRunner.NUnitExtensions.Filters", "AssemblyNameFilter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Filters::AssemblyNameFilter::get_ElementName

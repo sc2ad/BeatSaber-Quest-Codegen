@@ -67,6 +67,7 @@ namespace UnityEngine::ResourceManagement::Diagnostics {
   }; // UnityEngine.ResourceManagement.Diagnostics.DiagnosticEventCollectorSingleton/UnityEngine.ResourceManagement.Diagnostics.<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::$$c);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::$$c*, "UnityEngine.ResourceManagement.Diagnostics", "DiagnosticEventCollectorSingleton/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::$$c::_cctor

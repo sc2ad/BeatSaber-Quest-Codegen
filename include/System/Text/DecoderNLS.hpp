@@ -157,6 +157,7 @@ namespace System::Text {
   static check_size<sizeof(DecoderNLS), 44 + sizeof(int)> __System_Text_DecoderNLSSizeCheck;
   static_assert(sizeof(DecoderNLS) == 0x30);
 }
+NEED_NO_BOX(System::Text::DecoderNLS);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::DecoderNLS*, "System.Text", "DecoderNLS");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::DecoderNLS::get_MustFlush

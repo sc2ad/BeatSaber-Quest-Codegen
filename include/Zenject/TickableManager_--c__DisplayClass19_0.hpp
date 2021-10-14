@@ -74,6 +74,7 @@ namespace Zenject {
   static check_size<sizeof(TickableManager::$$c__DisplayClass19_0), 16 + sizeof(Zenject::ILateTickable*)> __Zenject_TickableManager_$$c__DisplayClass19_0SizeCheck;
   static_assert(sizeof(TickableManager::$$c__DisplayClass19_0) == 0x18);
 }
+NEED_NO_BOX(Zenject::TickableManager::$$c__DisplayClass19_0);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::TickableManager::$$c__DisplayClass19_0*, "Zenject", "TickableManager/<>c__DisplayClass19_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::TickableManager::$$c__DisplayClass19_0::$InitLateTickables$b__1

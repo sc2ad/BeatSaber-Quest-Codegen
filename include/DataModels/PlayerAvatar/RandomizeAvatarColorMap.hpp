@@ -61,6 +61,7 @@ namespace DataModels::PlayerAvatar {
   static check_size<sizeof(RandomizeAvatarColorMap), 24 + sizeof(::ArrayW<int>)> __DataModels_PlayerAvatar_RandomizeAvatarColorMapSizeCheck;
   static_assert(sizeof(RandomizeAvatarColorMap) == 0x20);
 }
+NEED_NO_BOX(DataModels::PlayerAvatar::RandomizeAvatarColorMap);
 DEFINE_IL2CPP_ARG_TYPE(DataModels::PlayerAvatar::RandomizeAvatarColorMap*, "DataModels.PlayerAvatar", "RandomizeAvatarColorMap");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: DataModels::PlayerAvatar::RandomizeAvatarColorMap::get_totalIndices

@@ -48,6 +48,7 @@ namespace NUnit::Framework::Internal {
   static_assert(sizeof(InternalTraceWriter) == 0x30);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(NUnit::Framework::Internal::InternalTraceWriter);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::InternalTraceWriter*, "NUnit.Framework.Internal", "InternalTraceWriter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::InternalTraceWriter::get_Encoding

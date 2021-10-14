@@ -187,6 +187,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PyramidBloomRendererSO), 48 + sizeof(bool)> __GlobalNamespace_PyramidBloomRendererSOSizeCheck;
   static_assert(sizeof(PyramidBloomRendererSO) == 0x31);
 }
+NEED_NO_BOX(GlobalNamespace::PyramidBloomRendererSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PyramidBloomRendererSO*, "", "PyramidBloomRendererSO");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PyramidBloomRendererSO::Level, "", "PyramidBloomRendererSO/Level");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -140,6 +140,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(TunnelSmokeEventEffect), 64 + sizeof(::ArrayW<UnityEngine::ParticleSystem::Particle>)> __GlobalNamespace_TunnelSmokeEventEffectSizeCheck;
   static_assert(sizeof(TunnelSmokeEventEffect) == 0x48);
 }
+NEED_NO_BOX(GlobalNamespace::TunnelSmokeEventEffect);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TunnelSmokeEventEffect*, "", "TunnelSmokeEventEffect");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TunnelSmokeEventEffect::Start

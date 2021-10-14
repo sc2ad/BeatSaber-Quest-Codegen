@@ -152,6 +152,7 @@ namespace NUnit::Framework::Internal {
   static check_size<sizeof(TestParameters), 48 + sizeof(::ArrayW<::Il2CppObject*>)> __NUnit_Framework_Internal_TestParametersSizeCheck;
   static_assert(sizeof(TestParameters) == 0x38);
 }
+NEED_NO_BOX(NUnit::Framework::Internal::TestParameters);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestParameters*, "NUnit.Framework.Internal", "TestParameters");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestParameters::get_RunState

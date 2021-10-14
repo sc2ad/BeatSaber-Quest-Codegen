@@ -111,6 +111,7 @@ namespace UnityEngine::UI {
   static check_size<sizeof(Scrollbar::$ClickRepeat$d__58), 48 + sizeof(UnityEngine::Camera*)> __UnityEngine_UI_Scrollbar_$ClickRepeat$d__58SizeCheck;
   static_assert(sizeof(Scrollbar::$ClickRepeat$d__58) == 0x38);
 }
+NEED_NO_BOX(UnityEngine::UI::Scrollbar::$ClickRepeat$d__58);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Scrollbar::$ClickRepeat$d__58*, "UnityEngine.UI", "Scrollbar/<ClickRepeat>d__58");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::Scrollbar::$ClickRepeat$d__58::System_Collections_Generic_IEnumerator$System_Object$_get_Current

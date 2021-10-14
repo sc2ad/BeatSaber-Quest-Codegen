@@ -35,6 +35,7 @@ namespace GlobalNamespace {
   }; // MenuRpcManager/CancelLevelStartRpc
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::MenuRpcManager::CancelLevelStartRpc);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuRpcManager::CancelLevelStartRpc*, "", "MenuRpcManager/CancelLevelStartRpc");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::CancelLevelStartRpc::New_ctor

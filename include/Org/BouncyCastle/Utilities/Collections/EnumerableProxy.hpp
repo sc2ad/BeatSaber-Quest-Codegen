@@ -64,6 +64,7 @@ namespace Org::BouncyCastle::Utilities::Collections {
   static check_size<sizeof(EnumerableProxy), 16 + sizeof(System::Collections::IEnumerable*)> __Org_BouncyCastle_Utilities_Collections_EnumerableProxySizeCheck;
   static_assert(sizeof(EnumerableProxy) == 0x18);
 }
+NEED_NO_BOX(Org::BouncyCastle::Utilities::Collections::EnumerableProxy);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Collections::EnumerableProxy*, "Org.BouncyCastle.Utilities.Collections", "EnumerableProxy");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Collections::EnumerableProxy::New_ctor

@@ -138,6 +138,7 @@ namespace UnityEngine {
   static check_size<sizeof(AudioClip), 32 + sizeof(UnityEngine::AudioClip::PCMSetPositionCallback*)> __UnityEngine_AudioClipSizeCheck;
   static_assert(sizeof(AudioClip) == 0x28);
 }
+NEED_NO_BOX(UnityEngine::AudioClip);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AudioClip*, "UnityEngine", "AudioClip");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AudioClip::get_length

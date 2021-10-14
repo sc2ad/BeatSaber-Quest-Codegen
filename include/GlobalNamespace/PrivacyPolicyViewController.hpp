@@ -78,6 +78,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PrivacyPolicyViewController), 120 + sizeof(GlobalNamespace::LocalizedTextAsset*)> __GlobalNamespace_PrivacyPolicyViewControllerSizeCheck;
   static_assert(sizeof(PrivacyPolicyViewController) == 0x80);
 }
+NEED_NO_BOX(GlobalNamespace::PrivacyPolicyViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PrivacyPolicyViewController*, "", "PrivacyPolicyViewController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PrivacyPolicyViewController::New_ctor

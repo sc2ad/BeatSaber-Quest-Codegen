@@ -80,6 +80,7 @@ namespace System {
   }; // System.OverflowException
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::OverflowException);
 DEFINE_IL2CPP_ARG_TYPE(System::OverflowException*, "System", "OverflowException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::OverflowException::New_ctor

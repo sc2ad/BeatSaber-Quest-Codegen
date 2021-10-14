@@ -288,6 +288,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_Handle), 112 + sizeof(HoudiniEngineUnity::HAPI_TransformEuler)> __HoudiniEngineUnity_HEU_HandleSizeCheck;
   static_assert(sizeof(HEU_Handle) == 0x98);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_Handle);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_Handle*, "HoudiniEngineUnity", "HEU_Handle");
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_Handle::HEU_HandleType, "HoudiniEngineUnity", "HEU_Handle/HEU_HandleType");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

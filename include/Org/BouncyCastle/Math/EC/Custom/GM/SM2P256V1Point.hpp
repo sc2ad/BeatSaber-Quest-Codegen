@@ -88,6 +88,7 @@ namespace Org::BouncyCastle::Math::EC::Custom::GM {
   }; // Org.BouncyCastle.Math.EC.Custom.GM.SM2P256V1Point
   #pragma pack(pop)
 }
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Point);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Point*, "Org.BouncyCastle.Math.EC.Custom.GM", "SM2P256V1Point");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Point::New_ctor

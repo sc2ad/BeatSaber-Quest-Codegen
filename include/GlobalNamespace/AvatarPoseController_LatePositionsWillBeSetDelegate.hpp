@@ -57,6 +57,7 @@ namespace GlobalNamespace {
   }; // AvatarPoseController/LatePositionsWillBeSetDelegate
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::AvatarPoseController::LatePositionsWillBeSetDelegate);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarPoseController::LatePositionsWillBeSetDelegate*, "", "AvatarPoseController/LatePositionsWillBeSetDelegate");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AvatarPoseController::LatePositionsWillBeSetDelegate::New_ctor

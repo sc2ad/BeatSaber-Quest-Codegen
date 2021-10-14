@@ -305,6 +305,7 @@ namespace RootMotion {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(RootMotion::BipedNaming);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::BipedNaming*, "RootMotion", "BipedNaming");
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::BipedNaming::BoneType, "RootMotion", "BipedNaming/BoneType");
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::BipedNaming::BoneSide, "RootMotion", "BipedNaming/BoneSide");

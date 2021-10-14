@@ -110,6 +110,7 @@ namespace UnityEngine {
   static check_size<sizeof(AndroidJavaProxy), 24 + sizeof(System::IntPtr)> __UnityEngine_AndroidJavaProxySizeCheck;
   static_assert(sizeof(AndroidJavaProxy) == 0x20);
 }
+NEED_NO_BOX(UnityEngine::AndroidJavaProxy);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AndroidJavaProxy*, "UnityEngine", "AndroidJavaProxy");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AndroidJavaProxy::New_ctor

@@ -71,6 +71,7 @@ namespace GlobalNamespace {
   }; // QuickPlaySongPacksDropdown/<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::QuickPlaySongPacksDropdown::$$c);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::QuickPlaySongPacksDropdown::$$c*, "", "QuickPlaySongPacksDropdown/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::QuickPlaySongPacksDropdown::$$c::_cctor

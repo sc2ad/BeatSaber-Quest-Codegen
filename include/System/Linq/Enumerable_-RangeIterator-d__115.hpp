@@ -142,6 +142,7 @@ namespace System::Linq {
   static check_size<sizeof(Enumerable::$RangeIterator$d__115), 44 + sizeof(int)> __System_Linq_Enumerable_$RangeIterator$d__115SizeCheck;
   static_assert(sizeof(Enumerable::$RangeIterator$d__115) == 0x30);
 }
+NEED_NO_BOX(System::Linq::Enumerable::$RangeIterator$d__115);
 DEFINE_IL2CPP_ARG_TYPE(System::Linq::Enumerable::$RangeIterator$d__115*, "System.Linq", "Enumerable/<RangeIterator>d__115");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Linq::Enumerable::$RangeIterator$d__115::System_Collections_Generic_IEnumerator$System_Int32$_get_Current

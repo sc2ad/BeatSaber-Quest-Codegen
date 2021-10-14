@@ -69,6 +69,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_InputNodeUICache), 24 + sizeof(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputNodeUICache::HEU_InputAssetUICache*>*)> __HoudiniEngineUnity_HEU_InputNodeUICacheSizeCheck;
   static_assert(sizeof(HEU_InputNodeUICache) == 0x20);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_InputNodeUICache);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_InputNodeUICache*, "HoudiniEngineUnity", "HEU_InputNodeUICache");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_InputNodeUICache::New_ctor

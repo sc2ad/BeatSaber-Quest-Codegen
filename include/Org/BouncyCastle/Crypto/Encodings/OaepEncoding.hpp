@@ -142,6 +142,7 @@ namespace Org::BouncyCastle::Crypto::Encodings {
   static check_size<sizeof(OaepEncoding), 48 + sizeof(bool)> __Org_BouncyCastle_Crypto_Encodings_OaepEncodingSizeCheck;
   static_assert(sizeof(OaepEncoding) == 0x31);
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Encodings::OaepEncoding);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Encodings::OaepEncoding*, "Org.BouncyCastle.Crypto.Encodings", "OaepEncoding");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Encodings::OaepEncoding::New_ctor

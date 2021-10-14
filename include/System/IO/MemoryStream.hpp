@@ -306,6 +306,7 @@ namespace System::IO {
   static check_size<sizeof(MemoryStream), 72 + sizeof(System::Threading::Tasks::Task_1<int>*)> __System_IO_MemoryStreamSizeCheck;
   static_assert(sizeof(MemoryStream) == 0x50);
 }
+NEED_NO_BOX(System::IO::MemoryStream);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::MemoryStream*, "System.IO", "MemoryStream");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::MemoryStream::get_Capacity

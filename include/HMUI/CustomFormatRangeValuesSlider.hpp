@@ -58,6 +58,7 @@ namespace HMUI {
   }; // HMUI.CustomFormatRangeValuesSlider
   // WARNING Not writing size check since size may be invalid!
 }
+NEED_NO_BOX(HMUI::CustomFormatRangeValuesSlider);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::CustomFormatRangeValuesSlider*, "HMUI", "CustomFormatRangeValuesSlider");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::CustomFormatRangeValuesSlider::New_ctor

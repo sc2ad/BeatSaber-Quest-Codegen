@@ -46,6 +46,7 @@ namespace Mono::Net::Security {
   }; // Mono.Net.Security.AsyncHandshakeRequest
   #pragma pack(pop)
 }
+NEED_NO_BOX(Mono::Net::Security::AsyncHandshakeRequest);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::AsyncHandshakeRequest*, "Mono.Net.Security", "AsyncHandshakeRequest");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Net::Security::AsyncHandshakeRequest::New_ctor

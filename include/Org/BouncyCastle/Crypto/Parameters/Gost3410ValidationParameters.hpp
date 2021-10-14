@@ -18,5 +18,6 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters*, "Org.BouncyCastle.Crypto.Parameters", "Gost3410ValidationParameters");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

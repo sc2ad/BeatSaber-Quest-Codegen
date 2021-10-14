@@ -92,6 +92,7 @@ namespace HoudiniEngineUnity {
   }; // HoudiniEngineUnity.JSONNode/HoudiniEngineUnity.LinqEnumerator
   // WARNING Not writing size check since size may be invalid!
 }
+NEED_NO_BOX(HoudiniEngineUnity::JSONNode::LinqEnumerator);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::JSONNode::LinqEnumerator*, "HoudiniEngineUnity", "JSONNode/LinqEnumerator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONNode::LinqEnumerator::get_Current

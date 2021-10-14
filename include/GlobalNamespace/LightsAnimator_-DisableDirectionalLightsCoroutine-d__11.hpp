@@ -96,6 +96,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LightsAnimator::$DisableDirectionalLightsCoroutine$d__11), 40 + sizeof(GlobalNamespace::LightsAnimator*)> __GlobalNamespace_LightsAnimator_$DisableDirectionalLightsCoroutine$d__11SizeCheck;
   static_assert(sizeof(LightsAnimator::$DisableDirectionalLightsCoroutine$d__11) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::LightsAnimator::$DisableDirectionalLightsCoroutine$d__11);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightsAnimator::$DisableDirectionalLightsCoroutine$d__11*, "", "LightsAnimator/<DisableDirectionalLightsCoroutine>d__11");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LightsAnimator::$DisableDirectionalLightsCoroutine$d__11::System_Collections_Generic_IEnumerator$System_Object$_get_Current

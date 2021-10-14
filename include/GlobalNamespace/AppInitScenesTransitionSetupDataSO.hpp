@@ -57,6 +57,7 @@ namespace GlobalNamespace {
   }; // AppInitScenesTransitionSetupDataSO
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::AppInitScenesTransitionSetupDataSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AppInitScenesTransitionSetupDataSO*, "", "AppInitScenesTransitionSetupDataSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AppInitScenesTransitionSetupDataSO::Init

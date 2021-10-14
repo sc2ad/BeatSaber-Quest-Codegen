@@ -93,6 +93,7 @@ namespace UnityEngine::Timeline {
   static check_size<sizeof(AnimationPreviewUpdateCallback), 48 + sizeof(System::Collections::Generic::List_1<UnityEngine::Experimental::Animations::IAnimationWindowPreview*>*)> __UnityEngine_Timeline_AnimationPreviewUpdateCallbackSizeCheck;
   static_assert(sizeof(AnimationPreviewUpdateCallback) == 0x38);
 }
+NEED_NO_BOX(UnityEngine::Timeline::AnimationPreviewUpdateCallback);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AnimationPreviewUpdateCallback*, "UnityEngine.Timeline", "AnimationPreviewUpdateCallback");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::AnimationPreviewUpdateCallback::New_ctor

@@ -84,6 +84,7 @@ namespace Microsoft::Win32 {
   }; // Microsoft.Win32.UnixRegistryApi
   #pragma pack(pop)
 }
+NEED_NO_BOX(Microsoft::Win32::UnixRegistryApi);
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::UnixRegistryApi*, "Microsoft.Win32", "UnixRegistryApi");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Microsoft::Win32::UnixRegistryApi::ToUnix

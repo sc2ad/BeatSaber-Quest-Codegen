@@ -110,6 +110,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LightmappingSceneSetup), 56 + sizeof(GlobalNamespace::ColorSchemeSO*)> __GlobalNamespace_LightmappingSceneSetupSizeCheck;
   static_assert(sizeof(LightmappingSceneSetup) == 0x40);
 }
+NEED_NO_BOX(GlobalNamespace::LightmappingSceneSetup);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightmappingSceneSetup*, "", "LightmappingSceneSetup");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LightmappingSceneSetup::get_colorScheme

@@ -51,6 +51,7 @@ namespace UnityEngine {
   static check_size<sizeof(HeaderAttribute), 16 + sizeof(::Il2CppString*)> __UnityEngine_HeaderAttributeSizeCheck;
   static_assert(sizeof(HeaderAttribute) == 0x18);
 }
+NEED_NO_BOX(UnityEngine::HeaderAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::HeaderAttribute*, "UnityEngine", "HeaderAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::HeaderAttribute::New_ctor

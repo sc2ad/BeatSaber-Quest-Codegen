@@ -50,6 +50,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(TutorialSongController::InitData), 16 + sizeof(float)> __GlobalNamespace_TutorialSongController_InitDataSizeCheck;
   static_assert(sizeof(TutorialSongController::InitData) == 0x14);
 }
+NEED_NO_BOX(GlobalNamespace::TutorialSongController::InitData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialSongController::InitData*, "", "TutorialSongController/InitData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TutorialSongController::InitData::New_ctor

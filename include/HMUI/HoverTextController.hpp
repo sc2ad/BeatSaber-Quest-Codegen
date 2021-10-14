@@ -134,6 +134,7 @@ namespace HMUI {
   static check_size<sizeof(HoverTextController), 45 + sizeof(bool)> __HMUI_HoverTextControllerSizeCheck;
   static_assert(sizeof(HoverTextController) == 0x2E);
 }
+NEED_NO_BOX(HMUI::HoverTextController);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::HoverTextController*, "HMUI", "HoverTextController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::HoverTextController::Awake

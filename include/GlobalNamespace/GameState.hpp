@@ -67,6 +67,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(GameState), 16 + sizeof(GlobalNamespace::GameplayServerFiniteStateMachine*)> __GlobalNamespace_GameStateSizeCheck;
   static_assert(sizeof(GameState) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::GameState);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameState*, "", "GameState");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameState::New_ctor

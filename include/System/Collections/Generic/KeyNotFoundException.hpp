@@ -62,6 +62,7 @@ namespace System::Collections::Generic {
   }; // System.Collections.Generic.KeyNotFoundException
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Collections::Generic::KeyNotFoundException);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Generic::KeyNotFoundException*, "System.Collections.Generic", "KeyNotFoundException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::Generic::KeyNotFoundException::New_ctor

@@ -75,6 +75,7 @@ namespace System::Runtime::Remoting::Messaging {
   static check_size<sizeof(ArgInfo), 32 + sizeof(System::Reflection::MethodBase*)> __System_Runtime_Remoting_Messaging_ArgInfoSizeCheck;
   static_assert(sizeof(ArgInfo) == 0x28);
 }
+NEED_NO_BOX(System::Runtime::Remoting::Messaging::ArgInfo);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::ArgInfo*, "System.Runtime.Remoting.Messaging", "ArgInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::ArgInfo::New_ctor

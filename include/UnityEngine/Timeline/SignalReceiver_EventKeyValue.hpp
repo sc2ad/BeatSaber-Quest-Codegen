@@ -93,6 +93,7 @@ namespace UnityEngine::Timeline {
   static check_size<sizeof(SignalReceiver::EventKeyValue), 24 + sizeof(System::Collections::Generic::List_1<UnityEngine::Events::UnityEvent*>*)> __UnityEngine_Timeline_SignalReceiver_EventKeyValueSizeCheck;
   static_assert(sizeof(SignalReceiver::EventKeyValue) == 0x20);
 }
+NEED_NO_BOX(UnityEngine::Timeline::SignalReceiver::EventKeyValue);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::SignalReceiver::EventKeyValue*, "UnityEngine.Timeline", "SignalReceiver/EventKeyValue");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::SignalReceiver::EventKeyValue::get_signals

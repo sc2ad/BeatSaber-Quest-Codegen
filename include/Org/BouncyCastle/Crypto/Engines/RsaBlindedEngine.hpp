@@ -107,6 +107,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
   static check_size<sizeof(RsaBlindedEngine), 32 + sizeof(Org::BouncyCastle::Security::SecureRandom*)> __Org_BouncyCastle_Crypto_Engines_RsaBlindedEngineSizeCheck;
   static_assert(sizeof(RsaBlindedEngine) == 0x28);
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Engines::RsaBlindedEngine);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::RsaBlindedEngine*, "Org.BouncyCastle.Crypto.Engines", "RsaBlindedEngine");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::RsaBlindedEngine::New_ctor

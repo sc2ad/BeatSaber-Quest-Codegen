@@ -62,6 +62,7 @@ namespace System::Reflection {
   }; // System.Reflection.TargetException
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Reflection::TargetException);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::TargetException*, "System.Reflection", "TargetException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::TargetException::New_ctor

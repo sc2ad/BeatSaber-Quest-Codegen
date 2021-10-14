@@ -97,6 +97,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_HoudiniAssetRoot), 32 + sizeof(System::Collections::Generic::List_1<UnityEngine::GameObject*>*)> __HoudiniEngineUnity_HEU_HoudiniAssetRootSizeCheck;
   static_assert(sizeof(HEU_HoudiniAssetRoot) == 0x28);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_HoudiniAssetRoot);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_HoudiniAssetRoot*, "HoudiniEngineUnity", "HEU_HoudiniAssetRoot");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HoudiniAssetRoot::OnDestroy

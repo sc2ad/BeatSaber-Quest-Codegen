@@ -67,6 +67,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(HMMainThreadDispatcher::$$c__DisplayClass2_0), 24 + sizeof(System::Collections::IEnumerator*)> __GlobalNamespace_HMMainThreadDispatcher_$$c__DisplayClass2_0SizeCheck;
   static_assert(sizeof(HMMainThreadDispatcher::$$c__DisplayClass2_0) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::HMMainThreadDispatcher::$$c__DisplayClass2_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HMMainThreadDispatcher::$$c__DisplayClass2_0*, "", "HMMainThreadDispatcher/<>c__DisplayClass2_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HMMainThreadDispatcher::$$c__DisplayClass2_0::$Enqueue$b__0

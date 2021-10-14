@@ -87,6 +87,7 @@ namespace OVR::OpenVR {
   static check_size<sizeof(CVRChaperone), 16 + sizeof(OVR::OpenVR::IVRChaperone)> __OVR_OpenVR_CVRChaperoneSizeCheck;
   static_assert(sizeof(CVRChaperone) == 0x50);
 }
+NEED_NO_BOX(OVR::OpenVR::CVRChaperone);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRChaperone*, "OVR.OpenVR", "CVRChaperone");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::CVRChaperone::New_ctor

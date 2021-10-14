@@ -60,6 +60,7 @@ namespace UnityEngine {
   static_assert(sizeof(RemoteConfigSettings) == 0x20);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::RemoteConfigSettings);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RemoteConfigSettings*, "UnityEngine", "RemoteConfigSettings");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::RemoteConfigSettings::RemoteConfigSettingsUpdated

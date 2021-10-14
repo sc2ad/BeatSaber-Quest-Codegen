@@ -58,6 +58,7 @@ namespace NUnit::Framework::Internal {
   }; // NUnit.Framework.Internal.InvalidTestFixtureException
   #pragma pack(pop)
 }
+NEED_NO_BOX(NUnit::Framework::Internal::InvalidTestFixtureException);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::InvalidTestFixtureException*, "NUnit.Framework.Internal", "InvalidTestFixtureException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::InvalidTestFixtureException::New_ctor

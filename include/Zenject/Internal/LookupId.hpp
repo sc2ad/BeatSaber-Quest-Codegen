@@ -76,6 +76,7 @@ namespace Zenject::Internal {
   static check_size<sizeof(LookupId), 24 + sizeof(Zenject::BindingId)> __Zenject_Internal_LookupIdSizeCheck;
   static_assert(sizeof(LookupId) == 0x28);
 }
+NEED_NO_BOX(Zenject::Internal::LookupId);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::LookupId*, "Zenject.Internal", "LookupId");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::Internal::LookupId::New_ctor

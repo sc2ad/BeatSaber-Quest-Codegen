@@ -137,6 +137,7 @@ namespace Org::BouncyCastle::Asn1 {
   static check_size<sizeof(DerInteger), 24 + sizeof(int)> __Org_BouncyCastle_Asn1_DerIntegerSizeCheck;
   static_assert(sizeof(DerInteger) == 0x1C);
 }
+NEED_NO_BOX(Org::BouncyCastle::Asn1::DerInteger);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerInteger*, "Org.BouncyCastle.Asn1", "DerInteger");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerInteger::get_PositiveValue

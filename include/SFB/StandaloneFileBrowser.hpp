@@ -84,6 +84,7 @@ namespace SFB {
   }; // SFB.StandaloneFileBrowser
   #pragma pack(pop)
 }
+NEED_NO_BOX(SFB::StandaloneFileBrowser);
 DEFINE_IL2CPP_ARG_TYPE(SFB::StandaloneFileBrowser*, "SFB", "StandaloneFileBrowser");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: SFB::StandaloneFileBrowser::_cctor

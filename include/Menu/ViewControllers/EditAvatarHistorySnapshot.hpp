@@ -69,6 +69,7 @@ namespace Menu::ViewControllers {
   static check_size<sizeof(EditAvatarHistorySnapshot), 24 + sizeof(GlobalNamespace::AvatarData*)> __Menu_ViewControllers_EditAvatarHistorySnapshotSizeCheck;
   static_assert(sizeof(EditAvatarHistorySnapshot) == 0x20);
 }
+NEED_NO_BOX(Menu::ViewControllers::EditAvatarHistorySnapshot);
 DEFINE_IL2CPP_ARG_TYPE(Menu::ViewControllers::EditAvatarHistorySnapshot*, "Menu.ViewControllers", "EditAvatarHistorySnapshot");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Menu::ViewControllers::EditAvatarHistorySnapshot::get_avatarEditPart

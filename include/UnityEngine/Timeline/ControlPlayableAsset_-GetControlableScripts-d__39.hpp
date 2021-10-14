@@ -146,6 +146,7 @@ namespace UnityEngine::Timeline {
   static check_size<sizeof(ControlPlayableAsset::$GetControlableScripts$d__39), 64 + sizeof(int)> __UnityEngine_Timeline_ControlPlayableAsset_$GetControlableScripts$d__39SizeCheck;
   static_assert(sizeof(ControlPlayableAsset::$GetControlableScripts$d__39) == 0x44);
 }
+NEED_NO_BOX(UnityEngine::Timeline::ControlPlayableAsset::$GetControlableScripts$d__39);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ControlPlayableAsset::$GetControlableScripts$d__39*, "UnityEngine.Timeline", "ControlPlayableAsset/<GetControlableScripts>d__39");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::ControlPlayableAsset::$GetControlableScripts$d__39::System_Collections_Generic_IEnumerator$UnityEngine_MonoBehaviour$_get_Current

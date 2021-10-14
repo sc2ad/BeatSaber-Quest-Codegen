@@ -157,6 +157,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(HTTPLeaderboardsModel), 56 + sizeof(::Il2CppString*)> __GlobalNamespace_HTTPLeaderboardsModelSizeCheck;
   static_assert(sizeof(HTTPLeaderboardsModel) == 0x40);
 }
+NEED_NO_BOX(GlobalNamespace::HTTPLeaderboardsModel);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HTTPLeaderboardsModel*, "", "HTTPLeaderboardsModel");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HTTPLeaderboardsModel::add_scoreForLeaderboardDidUploadEvent

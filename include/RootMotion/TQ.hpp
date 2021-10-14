@@ -56,6 +56,7 @@ namespace RootMotion {
   static check_size<sizeof(TQ), 28 + sizeof(UnityEngine::Quaternion)> __RootMotion_TQSizeCheck;
   static_assert(sizeof(TQ) == 0x2C);
 }
+NEED_NO_BOX(RootMotion::TQ);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::TQ*, "RootMotion", "TQ");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::TQ::New_ctor

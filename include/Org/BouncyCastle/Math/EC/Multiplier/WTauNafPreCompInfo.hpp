@@ -70,6 +70,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
   static check_size<sizeof(WTauNafPreCompInfo), 16 + sizeof(::ArrayW<Org::BouncyCastle::Math::EC::AbstractF2mPoint*>)> __Org_BouncyCastle_Math_EC_Multiplier_WTauNafPreCompInfoSizeCheck;
   static_assert(sizeof(WTauNafPreCompInfo) == 0x18);
 }
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::Multiplier::WTauNafPreCompInfo);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::WTauNafPreCompInfo*, "Org.BouncyCastle.Math.EC.Multiplier", "WTauNafPreCompInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Multiplier::WTauNafPreCompInfo::get_PreComp

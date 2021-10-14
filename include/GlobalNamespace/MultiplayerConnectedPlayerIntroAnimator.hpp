@@ -64,6 +64,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerConnectedPlayerIntroAnimator), 24 + sizeof(UnityEngine::Playables::PlayableDirector*)> __GlobalNamespace_MultiplayerConnectedPlayerIntroAnimatorSizeCheck;
   static_assert(sizeof(MultiplayerConnectedPlayerIntroAnimator) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator*, "", "MultiplayerConnectedPlayerIntroAnimator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator::SetBeforeIntroValues

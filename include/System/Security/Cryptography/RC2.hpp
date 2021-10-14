@@ -89,6 +89,7 @@ namespace System::Security::Cryptography {
   static check_size<sizeof(RC2), 68 + sizeof(int)> __System_Security_Cryptography_RC2SizeCheck;
   static_assert(sizeof(RC2) == 0x48);
 }
+NEED_NO_BOX(System::Security::Cryptography::RC2);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RC2*, "System.Security.Cryptography", "RC2");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::RC2::get_EffectiveKeySize

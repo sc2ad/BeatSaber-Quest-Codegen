@@ -61,6 +61,7 @@ namespace OVR::OpenVR {
   }; // OVR.OpenVR.IVRSettings/OVR.OpenVR._GetString
   #pragma pack(pop)
 }
+NEED_NO_BOX(OVR::OpenVR::IVRSettings::_GetString);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRSettings::_GetString*, "OVR.OpenVR", "IVRSettings/_GetString");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVRSettings::_GetString::New_ctor

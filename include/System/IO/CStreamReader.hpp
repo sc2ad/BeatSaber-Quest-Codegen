@@ -91,6 +91,7 @@ namespace System::IO {
   static check_size<sizeof(CStreamReader), 104 + sizeof(System::TermInfoDriver*)> __System_IO_CStreamReaderSizeCheck;
   static_assert(sizeof(CStreamReader) == 0x70);
 }
+NEED_NO_BOX(System::IO::CStreamReader);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::CStreamReader*, "System.IO", "CStreamReader");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::CStreamReader::New_ctor

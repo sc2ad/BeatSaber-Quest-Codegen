@@ -35,6 +35,7 @@ namespace GlobalNamespace {
     }
   }; // FireworkItemController/Pool
 }
+NEED_NO_BOX(GlobalNamespace::FireworkItemController::Pool);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FireworkItemController::Pool*, "", "FireworkItemController/Pool");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FireworkItemController::Pool::New_ctor

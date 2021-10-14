@@ -120,6 +120,7 @@ namespace System::Security::Cryptography {
   static check_size<sizeof(RIPEMD160Managed), 64 + sizeof(::ArrayW<uint>)> __System_Security_Cryptography_RIPEMD160ManagedSizeCheck;
   static_assert(sizeof(RIPEMD160Managed) == 0x48);
 }
+NEED_NO_BOX(System::Security::Cryptography::RIPEMD160Managed);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RIPEMD160Managed*, "System.Security.Cryptography", "RIPEMD160Managed");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::RIPEMD160Managed::InitializeState

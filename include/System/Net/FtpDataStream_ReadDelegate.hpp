@@ -51,6 +51,7 @@ namespace System::Net {
   }; // System.Net.FtpDataStream/System.Net.ReadDelegate
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Net::FtpDataStream::ReadDelegate);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::FtpDataStream::ReadDelegate*, "System.Net", "FtpDataStream/ReadDelegate");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::FtpDataStream::ReadDelegate::New_ctor

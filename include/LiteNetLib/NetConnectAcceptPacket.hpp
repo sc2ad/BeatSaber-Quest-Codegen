@@ -81,6 +81,7 @@ namespace LiteNetLib {
   static check_size<sizeof(NetConnectAcceptPacket), 25 + sizeof(bool)> __LiteNetLib_NetConnectAcceptPacketSizeCheck;
   static_assert(sizeof(NetConnectAcceptPacket) == 0x1A);
 }
+NEED_NO_BOX(LiteNetLib::NetConnectAcceptPacket);
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetConnectAcceptPacket*, "LiteNetLib", "NetConnectAcceptPacket");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::NetConnectAcceptPacket::New_ctor

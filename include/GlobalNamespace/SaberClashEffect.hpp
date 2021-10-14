@@ -152,6 +152,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SaberClashEffect), 88 + sizeof(bool)> __GlobalNamespace_SaberClashEffectSizeCheck;
   static_assert(sizeof(SaberClashEffect) == 0x59);
 }
+NEED_NO_BOX(GlobalNamespace::SaberClashEffect);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberClashEffect*, "", "SaberClashEffect");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SaberClashEffect::Start

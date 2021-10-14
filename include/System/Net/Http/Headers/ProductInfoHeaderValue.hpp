@@ -118,6 +118,7 @@ namespace System::Net::Http::Headers {
   static check_size<sizeof(ProductInfoHeaderValue), 24 + sizeof(System::Net::Http::Headers::ProductHeaderValue*)> __System_Net_Http_Headers_ProductInfoHeaderValueSizeCheck;
   static_assert(sizeof(ProductInfoHeaderValue) == 0x20);
 }
+NEED_NO_BOX(System::Net::Http::Headers::ProductInfoHeaderValue);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::ProductInfoHeaderValue*, "System.Net.Http.Headers", "ProductInfoHeaderValue");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Http::Headers::ProductInfoHeaderValue::get_Comment

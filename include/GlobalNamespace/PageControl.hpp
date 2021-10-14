@@ -136,6 +136,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PageControl), 68 + sizeof(int)> __GlobalNamespace_PageControlSizeCheck;
   static_assert(sizeof(PageControl) == 0x48);
 }
+NEED_NO_BOX(GlobalNamespace::PageControl);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PageControl*, "", "PageControl");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PageControl::SetPagesCount

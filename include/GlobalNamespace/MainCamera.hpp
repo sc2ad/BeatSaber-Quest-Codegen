@@ -99,6 +99,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MainCamera), 32 + sizeof(UnityEngine::Transform*)> __GlobalNamespace_MainCameraSizeCheck;
   static_assert(sizeof(MainCamera) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::MainCamera);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainCamera*, "", "MainCamera");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MainCamera::get_camera

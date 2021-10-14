@@ -31,6 +31,7 @@ namespace System::Threading {
   }; // System.Threading.ManualResetEvent
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Threading::ManualResetEvent);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ManualResetEvent*, "System.Threading", "ManualResetEvent");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::ManualResetEvent::New_ctor

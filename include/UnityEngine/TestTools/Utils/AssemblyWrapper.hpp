@@ -70,6 +70,7 @@ namespace UnityEngine::TestTools::Utils {
   static check_size<sizeof(AssemblyWrapper), 24 + sizeof(System::Reflection::AssemblyName*)> __UnityEngine_TestTools_Utils_AssemblyWrapperSizeCheck;
   static_assert(sizeof(AssemblyWrapper) == 0x20);
 }
+NEED_NO_BOX(UnityEngine::TestTools::Utils::AssemblyWrapper);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Utils::AssemblyWrapper*, "UnityEngine.TestTools.Utils", "AssemblyWrapper");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::Utils::AssemblyWrapper::get_Assembly

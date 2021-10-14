@@ -50,6 +50,7 @@ namespace UnityEngine {
   }; // UnityEngine.Canvas/UnityEngine.WillRenderCanvases
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::Canvas::WillRenderCanvases);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Canvas::WillRenderCanvases*, "UnityEngine", "Canvas/WillRenderCanvases");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Canvas::WillRenderCanvases::New_ctor

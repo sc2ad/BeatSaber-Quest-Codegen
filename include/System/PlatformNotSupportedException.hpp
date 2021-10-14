@@ -65,6 +65,7 @@ namespace System {
   }; // System.PlatformNotSupportedException
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::PlatformNotSupportedException);
 DEFINE_IL2CPP_ARG_TYPE(System::PlatformNotSupportedException*, "System", "PlatformNotSupportedException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::PlatformNotSupportedException::New_ctor

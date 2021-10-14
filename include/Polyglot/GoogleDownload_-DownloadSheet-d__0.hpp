@@ -154,6 +154,7 @@ namespace Polyglot {
   static check_size<sizeof(GoogleDownload::$DownloadSheet$d__0), 80 + sizeof(UnityEngine::Networking::UnityWebRequest*)> __Polyglot_GoogleDownload_$DownloadSheet$d__0SizeCheck;
   static_assert(sizeof(GoogleDownload::$DownloadSheet$d__0) == 0x58);
 }
+NEED_NO_BOX(Polyglot::GoogleDownload::$DownloadSheet$d__0);
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::GoogleDownload::$DownloadSheet$d__0*, "Polyglot", "GoogleDownload/<DownloadSheet>d__0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Polyglot::GoogleDownload::$DownloadSheet$d__0::System_Collections_Generic_IEnumerator$System_Object$_get_Current

@@ -169,6 +169,7 @@ namespace UnityEngine::Networking::PlayerConnection {
   static check_size<sizeof(PlayerConnection), 40 + sizeof(bool)> __UnityEngine_Networking_PlayerConnection_PlayerConnectionSizeCheck;
   static_assert(sizeof(PlayerConnection) == 0x29);
 }
+NEED_NO_BOX(UnityEngine::Networking::PlayerConnection::PlayerConnection);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::PlayerConnection::PlayerConnection*, "UnityEngine.Networking.PlayerConnection", "PlayerConnection");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Networking::PlayerConnection::PlayerConnection::get_instance

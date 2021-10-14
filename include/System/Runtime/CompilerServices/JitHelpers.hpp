@@ -58,6 +58,7 @@ namespace System::Runtime::CompilerServices {
   }; // System.Runtime.CompilerServices.JitHelpers
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Runtime::CompilerServices::JitHelpers);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::JitHelpers*, "System.Runtime.CompilerServices", "JitHelpers");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::JitHelpers::UnsafeCast

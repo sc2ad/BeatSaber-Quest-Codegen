@@ -113,6 +113,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(AsyncComputeManager), 32 + sizeof(bool)> __GlobalNamespace_AsyncComputeManagerSizeCheck;
   static_assert(sizeof(AsyncComputeManager) == 0x21);
 }
+NEED_NO_BOX(GlobalNamespace::AsyncComputeManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AsyncComputeManager*, "", "AsyncComputeManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AsyncComputeManager::Dispose

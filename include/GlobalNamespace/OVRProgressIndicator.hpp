@@ -76,6 +76,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRProgressIndicator), 32 + sizeof(float)> __GlobalNamespace_OVRProgressIndicatorSizeCheck;
   static_assert(sizeof(OVRProgressIndicator) == 0x24);
 }
+NEED_NO_BOX(GlobalNamespace::OVRProgressIndicator);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRProgressIndicator*, "", "OVRProgressIndicator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRProgressIndicator::Awake

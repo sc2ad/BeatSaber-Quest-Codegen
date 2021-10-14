@@ -34,6 +34,7 @@ namespace Org::BouncyCastle::Security {
   }; // Org.BouncyCastle.Security.PasswordException
   #pragma pack(pop)
 }
+NEED_NO_BOX(Org::BouncyCastle::Security::PasswordException);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Security::PasswordException*, "Org.BouncyCastle.Security", "PasswordException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Security::PasswordException::New_ctor

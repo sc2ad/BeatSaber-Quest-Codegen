@@ -42,6 +42,7 @@ namespace GlobalNamespace {
   }; // BakedLightWithIdBase
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::BakedLightWithIdBase);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BakedLightWithIdBase*, "", "BakedLightWithIdBase");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BakedLightWithIdBase::get_id

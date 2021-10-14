@@ -48,6 +48,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.CompositeWorkItem/UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItemOrderComparer
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::UnityWorkItemOrderComparer);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::UnityWorkItemOrderComparer*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "CompositeWorkItem/UnityWorkItemOrderComparer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::UnityWorkItemOrderComparer::Compare

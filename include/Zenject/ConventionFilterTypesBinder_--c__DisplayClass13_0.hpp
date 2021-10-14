@@ -69,6 +69,7 @@ namespace Zenject {
   static check_size<sizeof(ConventionFilterTypesBinder::$$c__DisplayClass13_0), 16 + sizeof(System::Collections::Generic::IEnumerable_1<::Il2CppString*>*)> __Zenject_ConventionFilterTypesBinder_$$c__DisplayClass13_0SizeCheck;
   static_assert(sizeof(ConventionFilterTypesBinder::$$c__DisplayClass13_0) == 0x18);
 }
+NEED_NO_BOX(Zenject::ConventionFilterTypesBinder::$$c__DisplayClass13_0);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ConventionFilterTypesBinder::$$c__DisplayClass13_0*, "Zenject", "ConventionFilterTypesBinder/<>c__DisplayClass13_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::ConventionFilterTypesBinder::$$c__DisplayClass13_0::$InNamespaces$b__0

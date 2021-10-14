@@ -210,6 +210,7 @@ namespace System::Reflection {
   static check_size<sizeof(MonoField), 48 + sizeof(System::Reflection::FieldAttributes)> __System_Reflection_MonoFieldSizeCheck;
   static_assert(sizeof(MonoField) == 0x34);
 }
+NEED_NO_BOX(System::Reflection::MonoField);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoField*, "System.Reflection", "MonoField");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::MonoField::ResolveType

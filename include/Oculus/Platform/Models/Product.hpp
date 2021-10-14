@@ -70,6 +70,7 @@ namespace Oculus::Platform::Models {
   static check_size<sizeof(Product), 40 + sizeof(::Il2CppString*)> __Oculus_Platform_Models_ProductSizeCheck;
   static_assert(sizeof(Product) == 0x30);
 }
+NEED_NO_BOX(Oculus::Platform::Models::Product);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::Product*, "Oculus.Platform.Models", "Product");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::Product::New_ctor

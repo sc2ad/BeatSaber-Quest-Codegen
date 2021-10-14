@@ -62,6 +62,7 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.WindowsPlatform
   #pragma pack(pop)
 }
+NEED_NO_BOX(Oculus::Platform::WindowsPlatform);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::WindowsPlatform*, "Oculus.Platform", "WindowsPlatform");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::WindowsPlatform::CPPLogCallback

@@ -34,6 +34,7 @@ namespace System::ComponentModel {
   }; // System.ComponentModel.ArrayConverter
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::ComponentModel::ArrayConverter);
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::ArrayConverter*, "System.ComponentModel", "ArrayConverter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ComponentModel::ArrayConverter::New_ctor

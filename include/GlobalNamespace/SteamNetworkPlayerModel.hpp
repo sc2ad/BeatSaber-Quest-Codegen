@@ -39,6 +39,7 @@ namespace GlobalNamespace {
   }; // SteamNetworkPlayerModel
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::SteamNetworkPlayerModel);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamNetworkPlayerModel*, "", "SteamNetworkPlayerModel");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamNetworkPlayerModel::New_ctor

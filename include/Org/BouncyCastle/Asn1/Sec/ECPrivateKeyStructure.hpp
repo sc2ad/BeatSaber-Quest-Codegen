@@ -107,6 +107,7 @@ namespace Org::BouncyCastle::Asn1::Sec {
   static check_size<sizeof(ECPrivateKeyStructure), 16 + sizeof(Org::BouncyCastle::Asn1::Asn1Sequence*)> __Org_BouncyCastle_Asn1_Sec_ECPrivateKeyStructureSizeCheck;
   static_assert(sizeof(ECPrivateKeyStructure) == 0x18);
 }
+NEED_NO_BOX(Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure*, "Org.BouncyCastle.Asn1.Sec", "ECPrivateKeyStructure");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::New_ctor

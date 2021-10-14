@@ -336,6 +336,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_BaseSync), 124 + sizeof(bool)> __HoudiniEngineUnity_HEU_BaseSyncSizeCheck;
   static_assert(sizeof(HEU_BaseSync) == 0x7D);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_BaseSync);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_BaseSync*, "HoudiniEngineUnity", "HEU_BaseSync");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_BaseSync::Awake

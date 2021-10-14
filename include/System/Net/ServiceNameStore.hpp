@@ -67,6 +67,7 @@ namespace System::Net {
   static check_size<sizeof(ServiceNameStore), 24 + sizeof(System::Security::Authentication::ExtendedProtection::ServiceNameCollection*)> __System_Net_ServiceNameStoreSizeCheck;
   static_assert(sizeof(ServiceNameStore) == 0x20);
 }
+NEED_NO_BOX(System::Net::ServiceNameStore);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::ServiceNameStore*, "System.Net", "ServiceNameStore");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::ServiceNameStore::New_ctor

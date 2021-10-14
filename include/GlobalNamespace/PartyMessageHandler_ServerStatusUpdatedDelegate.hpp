@@ -57,6 +57,7 @@ namespace GlobalNamespace {
   }; // PartyMessageHandler/ServerStatusUpdatedDelegate
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::PartyMessageHandler::ServerStatusUpdatedDelegate);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PartyMessageHandler::ServerStatusUpdatedDelegate*, "", "PartyMessageHandler/ServerStatusUpdatedDelegate");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PartyMessageHandler::ServerStatusUpdatedDelegate::New_ctor

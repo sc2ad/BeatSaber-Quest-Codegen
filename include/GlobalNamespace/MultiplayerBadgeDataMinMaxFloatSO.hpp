@@ -95,6 +95,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerBadgeDataMinMaxFloatSO), 52 + sizeof(float)> __GlobalNamespace_MultiplayerBadgeDataMinMaxFloatSOSizeCheck;
   static_assert(sizeof(MultiplayerBadgeDataMinMaxFloatSO) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerBadgeDataMinMaxFloatSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerBadgeDataMinMaxFloatSO*, "", "MultiplayerBadgeDataMinMaxFloatSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerBadgeDataMinMaxFloatSO::GetValue

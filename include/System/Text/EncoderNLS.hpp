@@ -170,6 +170,7 @@ namespace System::Text {
   static check_size<sizeof(EncoderNLS), 52 + sizeof(int)> __System_Text_EncoderNLSSizeCheck;
   static_assert(sizeof(EncoderNLS) == 0x38);
 }
+NEED_NO_BOX(System::Text::EncoderNLS);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::EncoderNLS*, "System.Text", "EncoderNLS");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::EncoderNLS::get_Encoding

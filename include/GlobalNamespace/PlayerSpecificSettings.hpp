@@ -231,6 +231,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PlayerSpecificSettings), 56 + sizeof(GlobalNamespace::EnvironmentEffectsFilterPreset)> __GlobalNamespace_PlayerSpecificSettingsSizeCheck;
   static_assert(sizeof(PlayerSpecificSettings) == 0x3C);
 }
+NEED_NO_BOX(GlobalNamespace::PlayerSpecificSettings);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSpecificSettings*, "", "PlayerSpecificSettings");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSpecificSettings::get_leftHanded

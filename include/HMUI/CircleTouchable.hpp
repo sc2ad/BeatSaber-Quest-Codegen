@@ -101,6 +101,7 @@ namespace HMUI {
   static check_size<sizeof(CircleTouchable), 152 + sizeof(UnityEngine::RectTransform*)> __HMUI_CircleTouchableSizeCheck;
   static_assert(sizeof(CircleTouchable) == 0xA0);
 }
+NEED_NO_BOX(HMUI::CircleTouchable);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::CircleTouchable*, "HMUI", "CircleTouchable");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::CircleTouchable::UpdateCachedReferences

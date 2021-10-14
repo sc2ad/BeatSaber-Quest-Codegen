@@ -326,6 +326,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(CustomPreviewBeatmapLevel), 160 + sizeof(::ArrayW<GlobalNamespace::PreviewDifficultyBeatmapSet*>)> __GlobalNamespace_CustomPreviewBeatmapLevelSizeCheck;
   static_assert(sizeof(CustomPreviewBeatmapLevel) == 0xA8);
 }
+NEED_NO_BOX(GlobalNamespace::CustomPreviewBeatmapLevel);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CustomPreviewBeatmapLevel*, "", "CustomPreviewBeatmapLevel");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CustomPreviewBeatmapLevel::get_audioClipAsyncLoader

@@ -83,6 +83,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerIntroCountdownTextController), 24 + sizeof(::ArrayW<TMPro::TextMeshPro*>)> __GlobalNamespace_MultiplayerIntroCountdownTextControllerSizeCheck;
   static_assert(sizeof(MultiplayerIntroCountdownTextController) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerIntroCountdownTextController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerIntroCountdownTextController*, "", "MultiplayerIntroCountdownTextController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerIntroCountdownTextController::set_hide

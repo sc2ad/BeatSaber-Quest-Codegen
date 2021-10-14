@@ -153,6 +153,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(AvatarPoseRestrictions), 72 + sizeof(GlobalNamespace::AvatarPoseController*)> __GlobalNamespace_AvatarPoseRestrictionsSizeCheck;
   static_assert(sizeof(AvatarPoseRestrictions) == 0x50);
 }
+NEED_NO_BOX(GlobalNamespace::AvatarPoseRestrictions);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarPoseRestrictions*, "", "AvatarPoseRestrictions");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AvatarPoseRestrictions::Start

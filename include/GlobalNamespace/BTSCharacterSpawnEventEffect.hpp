@@ -239,6 +239,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BTSCharacterSpawnEventEffect), 120 + sizeof(System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*)> __GlobalNamespace_BTSCharacterSpawnEventEffectSizeCheck;
   static_assert(sizeof(BTSCharacterSpawnEventEffect) == 0x80);
 }
+NEED_NO_BOX(GlobalNamespace::BTSCharacterSpawnEventEffect);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterSpawnEventEffect*, "", "BTSCharacterSpawnEventEffect");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacterSpawnEventEffect::get_isInitialized

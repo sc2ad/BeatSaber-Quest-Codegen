@@ -58,6 +58,7 @@ namespace Valve::VR {
   }; // Valve.VR.IVROverlay/Valve.VR._SetOverlayTextureColorSpace
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::IVROverlay::_SetOverlayTextureColorSpace);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVROverlay::_SetOverlayTextureColorSpace*, "Valve.VR", "IVROverlay/_SetOverlayTextureColorSpace");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVROverlay::_SetOverlayTextureColorSpace::New_ctor

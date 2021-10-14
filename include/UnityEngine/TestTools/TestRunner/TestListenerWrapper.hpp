@@ -85,6 +85,7 @@ namespace UnityEngine::TestTools::TestRunner {
   static check_size<sizeof(TestListenerWrapper), 24 + sizeof(UnityEngine::TestTools::TestRunner::TestStartedEvent*)> __UnityEngine_TestTools_TestRunner_TestListenerWrapperSizeCheck;
   static_assert(sizeof(TestListenerWrapper) == 0x20);
 }
+NEED_NO_BOX(UnityEngine::TestTools::TestRunner::TestListenerWrapper);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::TestListenerWrapper*, "UnityEngine.TestTools.TestRunner", "TestListenerWrapper");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::TestListenerWrapper::New_ctor

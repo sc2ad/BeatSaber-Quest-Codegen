@@ -191,6 +191,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerVerticalPlayerMovementManager), 96 + sizeof(float)> __GlobalNamespace_MultiplayerVerticalPlayerMovementManagerSizeCheck;
   static_assert(sizeof(MultiplayerVerticalPlayerMovementManager) == 0x64);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerVerticalPlayerMovementManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerVerticalPlayerMovementManager*, "", "MultiplayerVerticalPlayerMovementManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerVerticalPlayerMovementManager::Start

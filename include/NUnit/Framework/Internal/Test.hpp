@@ -350,6 +350,7 @@ namespace NUnit::Framework::Internal {
   static check_size<sizeof(Test), 116 + sizeof(bool)> __NUnit_Framework_Internal_TestSizeCheck;
   static_assert(sizeof(Test) == 0x75);
 }
+NEED_NO_BOX(NUnit::Framework::Internal::Test);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Test*, "NUnit.Framework.Internal", "Test");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Test::get_Id

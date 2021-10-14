@@ -129,6 +129,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(NodePoseSyncStateNetSerializable), 92 + sizeof(float)> __GlobalNamespace_NodePoseSyncStateNetSerializableSizeCheck;
   static_assert(sizeof(NodePoseSyncStateNetSerializable) == 0x60);
 }
+NEED_NO_BOX(GlobalNamespace::NodePoseSyncStateNetSerializable);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NodePoseSyncStateNetSerializable*, "", "NodePoseSyncStateNetSerializable");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NodePoseSyncStateNetSerializable::get_pool

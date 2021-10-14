@@ -115,6 +115,7 @@ namespace System {
   static check_size<sizeof(Random), 24 + sizeof(::ArrayW<int>)> __System_RandomSizeCheck;
   static_assert(sizeof(Random) == 0x20);
 }
+NEED_NO_BOX(System::Random);
 DEFINE_IL2CPP_ARG_TYPE(System::Random*, "System", "Random");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Random::New_ctor

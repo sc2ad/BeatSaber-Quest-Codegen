@@ -97,6 +97,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BezierSpline), 24 + sizeof(System::Collections::Generic::List_1<UnityEngine::Vector3>*)> __GlobalNamespace_BezierSplineSizeCheck;
   static_assert(sizeof(BezierSpline) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::BezierSpline);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BezierSpline*, "", "BezierSpline");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BezierSpline::get_segments

@@ -24,6 +24,7 @@ namespace NUnit::Framework::Internal {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(NUnit::Framework::Internal::StringUtil);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::StringUtil*, "NUnit.Framework.Internal", "StringUtil");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::StringUtil::Compare

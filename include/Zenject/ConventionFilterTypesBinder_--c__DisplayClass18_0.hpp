@@ -68,6 +68,7 @@ namespace Zenject {
   static check_size<sizeof(ConventionFilterTypesBinder::$$c__DisplayClass18_0), 16 + sizeof(System::Text::RegularExpressions::Regex*)> __Zenject_ConventionFilterTypesBinder_$$c__DisplayClass18_0SizeCheck;
   static_assert(sizeof(ConventionFilterTypesBinder::$$c__DisplayClass18_0) == 0x18);
 }
+NEED_NO_BOX(Zenject::ConventionFilterTypesBinder::$$c__DisplayClass18_0);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ConventionFilterTypesBinder::$$c__DisplayClass18_0*, "Zenject", "ConventionFilterTypesBinder/<>c__DisplayClass18_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::ConventionFilterTypesBinder::$$c__DisplayClass18_0::$MatchingRegex$b__0

@@ -121,6 +121,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LightWithIdMonoBehaviour), 40 + sizeof(bool)> __GlobalNamespace_LightWithIdMonoBehaviourSizeCheck;
   static_assert(sizeof(LightWithIdMonoBehaviour) == 0x29);
 }
+NEED_NO_BOX(GlobalNamespace::LightWithIdMonoBehaviour);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightWithIdMonoBehaviour*, "", "LightWithIdMonoBehaviour");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LightWithIdMonoBehaviour::get_lightId

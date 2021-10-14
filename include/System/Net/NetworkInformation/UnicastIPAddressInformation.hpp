@@ -33,6 +33,7 @@ namespace System::Net::NetworkInformation {
   }; // System.Net.NetworkInformation.UnicastIPAddressInformation
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Net::NetworkInformation::UnicastIPAddressInformation);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::UnicastIPAddressInformation*, "System.Net.NetworkInformation", "UnicastIPAddressInformation");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::NetworkInformation::UnicastIPAddressInformation::New_ctor

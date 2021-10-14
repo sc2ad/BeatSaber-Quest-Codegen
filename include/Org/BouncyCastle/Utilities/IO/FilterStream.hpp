@@ -124,6 +124,7 @@ namespace Org::BouncyCastle::Utilities::IO {
   static check_size<sizeof(FilterStream), 40 + sizeof(System::IO::Stream*)> __Org_BouncyCastle_Utilities_IO_FilterStreamSizeCheck;
   static_assert(sizeof(FilterStream) == 0x30);
 }
+NEED_NO_BOX(Org::BouncyCastle::Utilities::IO::FilterStream);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::IO::FilterStream*, "Org.BouncyCastle.Utilities.IO", "FilterStream");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::IO::FilterStream::New_ctor

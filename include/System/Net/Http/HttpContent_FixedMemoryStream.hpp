@@ -62,6 +62,7 @@ namespace System::Net::Http {
   static check_size<sizeof(HttpContent::FixedMemoryStream), 80 + sizeof(int64_t)> __System_Net_Http_HttpContent_FixedMemoryStreamSizeCheck;
   static_assert(sizeof(HttpContent::FixedMemoryStream) == 0x58);
 }
+NEED_NO_BOX(System::Net::Http::HttpContent::FixedMemoryStream);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::HttpContent::FixedMemoryStream*, "System.Net.Http", "HttpContent/FixedMemoryStream");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Http::HttpContent::FixedMemoryStream::New_ctor

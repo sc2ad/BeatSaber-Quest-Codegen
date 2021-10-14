@@ -69,6 +69,7 @@ namespace Mono::Http {
   static check_size<sizeof(NtlmSession), 16 + sizeof(Mono::Security::Protocol::Ntlm::MessageBase*)> __Mono_Http_NtlmSessionSizeCheck;
   static_assert(sizeof(NtlmSession) == 0x18);
 }
+NEED_NO_BOX(Mono::Http::NtlmSession);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Http::NtlmSession*, "Mono.Http", "NtlmSession");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Http::NtlmSession::Authenticate

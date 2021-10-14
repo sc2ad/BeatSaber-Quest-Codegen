@@ -86,6 +86,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(InputFieldSettingsController), 32 + sizeof(GlobalNamespace::StringSO*)> __GlobalNamespace_InputFieldSettingsControllerSizeCheck;
   static_assert(sizeof(InputFieldSettingsController) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::InputFieldSettingsController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::InputFieldSettingsController*, "", "InputFieldSettingsController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::InputFieldSettingsController::Awake

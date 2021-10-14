@@ -68,6 +68,7 @@ namespace RootMotion::FinalIK {
   }; // RootMotion.FinalIK.IK
   #pragma pack(pop)
 }
+NEED_NO_BOX(RootMotion::FinalIK::IK);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IK*, "RootMotion.FinalIK", "IK");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::IK::GetIKSolver

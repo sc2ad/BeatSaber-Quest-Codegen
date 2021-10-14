@@ -69,6 +69,7 @@ namespace UnityEngine {
   static check_size<sizeof(Animation::Enumerator), 24 + sizeof(int)> __UnityEngine_Animation_EnumeratorSizeCheck;
   static_assert(sizeof(Animation::Enumerator) == 0x1C);
 }
+NEED_NO_BOX(UnityEngine::Animation::Enumerator);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animation::Enumerator*, "UnityEngine", "Animation/Enumerator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Animation::Enumerator::get_Current

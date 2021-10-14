@@ -52,6 +52,7 @@ namespace Mono::Net::Security::Private {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(Mono::Net::Security::Private::CallbackHelpers);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::Private::CallbackHelpers*, "Mono.Net.Security.Private", "CallbackHelpers");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Net::Security::Private::CallbackHelpers::PublicToMono

@@ -161,6 +161,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(CutScoreBuffer), 56 + sizeof(GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::ICutScoreBufferDidFinishEvent*>*)> __GlobalNamespace_CutScoreBufferSizeCheck;
   static_assert(sizeof(CutScoreBuffer) == 0x40);
 }
+NEED_NO_BOX(GlobalNamespace::CutScoreBuffer);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CutScoreBuffer*, "", "CutScoreBuffer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CutScoreBuffer::get_scoreWithMultiplier

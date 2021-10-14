@@ -100,6 +100,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ShockwaveEffect), 184 + sizeof(float)> __GlobalNamespace_ShockwaveEffectSizeCheck;
   static_assert(sizeof(ShockwaveEffect) == 0xBC);
 }
+NEED_NO_BOX(GlobalNamespace::ShockwaveEffect);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShockwaveEffect*, "", "ShockwaveEffect");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ShockwaveEffect::Start

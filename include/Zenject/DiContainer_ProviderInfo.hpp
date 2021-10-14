@@ -81,6 +81,7 @@ namespace Zenject {
   static check_size<sizeof(DiContainer::ProviderInfo), 40 + sizeof(Zenject::BindingCondition*)> __Zenject_DiContainer_ProviderInfoSizeCheck;
   static_assert(sizeof(DiContainer::ProviderInfo) == 0x30);
 }
+NEED_NO_BOX(Zenject::DiContainer::ProviderInfo);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DiContainer::ProviderInfo*, "Zenject", "DiContainer/ProviderInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::DiContainer::ProviderInfo::New_ctor

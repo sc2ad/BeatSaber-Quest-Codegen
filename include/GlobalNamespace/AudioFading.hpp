@@ -99,6 +99,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(AudioFading), 40 + sizeof(float)> __GlobalNamespace_AudioFadingSizeCheck;
   static_assert(sizeof(AudioFading) == 0x2C);
 }
+NEED_NO_BOX(GlobalNamespace::AudioFading);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioFading*, "", "AudioFading");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AudioFading::Start

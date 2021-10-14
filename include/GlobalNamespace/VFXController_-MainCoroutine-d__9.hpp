@@ -104,6 +104,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(VFXController::$MainCoroutine$d__9), 44 + sizeof(float)> __GlobalNamespace_VFXController_$MainCoroutine$d__9SizeCheck;
   static_assert(sizeof(VFXController::$MainCoroutine$d__9) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::VFXController::$MainCoroutine$d__9);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VFXController::$MainCoroutine$d__9*, "", "VFXController/<MainCoroutine>d__9");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::VFXController::$MainCoroutine$d__9::System_Collections_Generic_IEnumerator$System_Object$_get_Current

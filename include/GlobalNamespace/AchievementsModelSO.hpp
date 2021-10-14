@@ -96,6 +96,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(AchievementsModelSO), 40 + sizeof(bool)> __GlobalNamespace_AchievementsModelSOSizeCheck;
   static_assert(sizeof(AchievementsModelSO) == 0x29);
 }
+NEED_NO_BOX(GlobalNamespace::AchievementsModelSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AchievementsModelSO*, "", "AchievementsModelSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AchievementsModelSO::Initialize

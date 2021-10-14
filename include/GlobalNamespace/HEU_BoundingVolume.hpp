@@ -57,6 +57,7 @@ namespace GlobalNamespace {
   }; // HEU_BoundingVolume
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::HEU_BoundingVolume);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HEU_BoundingVolume*, "", "HEU_BoundingVolume");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HEU_BoundingVolume::get_BoundingCollider

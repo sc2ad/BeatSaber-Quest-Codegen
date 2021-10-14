@@ -82,6 +82,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(AimPoser), 32 + sizeof(::ArrayW<RootMotion::FinalIK::AimPoser::Pose*>)> __RootMotion_FinalIK_AimPoserSizeCheck;
   static_assert(sizeof(AimPoser) == 0x28);
 }
+NEED_NO_BOX(RootMotion::FinalIK::AimPoser);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::AimPoser*, "RootMotion.FinalIK", "AimPoser");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::AimPoser::GetPose

@@ -47,6 +47,7 @@ namespace System::Threading {
   }; // System.Threading.LazyInitializer
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Threading::LazyInitializer);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::LazyInitializer*, "System.Threading", "LazyInitializer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::LazyInitializer::EnsureInitialized

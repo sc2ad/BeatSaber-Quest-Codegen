@@ -50,6 +50,7 @@ namespace System::Security::Cryptography {
   }; // System.Security.Cryptography.RandomNumberGenerator
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Security::Cryptography::RandomNumberGenerator);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RandomNumberGenerator*, "System.Security.Cryptography", "RandomNumberGenerator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::RandomNumberGenerator::Create

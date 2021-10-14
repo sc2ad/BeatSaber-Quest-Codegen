@@ -34,6 +34,7 @@ namespace System::ComponentModel {
   }; // System.ComponentModel.Int32Converter
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::ComponentModel::Int32Converter);
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::Int32Converter*, "System.ComponentModel", "Int32Converter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ComponentModel::Int32Converter::New_ctor

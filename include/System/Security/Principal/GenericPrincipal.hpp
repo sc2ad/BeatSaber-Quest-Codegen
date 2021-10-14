@@ -63,6 +63,7 @@ namespace System::Security::Principal {
   static check_size<sizeof(GenericPrincipal), 48 + sizeof(::ArrayW<::Il2CppString*>)> __System_Security_Principal_GenericPrincipalSizeCheck;
   static_assert(sizeof(GenericPrincipal) == 0x38);
 }
+NEED_NO_BOX(System::Security::Principal::GenericPrincipal);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Principal::GenericPrincipal*, "System.Security.Principal", "GenericPrincipal");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Principal::GenericPrincipal::New_ctor

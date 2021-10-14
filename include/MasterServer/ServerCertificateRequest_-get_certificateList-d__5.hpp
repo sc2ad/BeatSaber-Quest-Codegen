@@ -123,6 +123,7 @@ namespace MasterServer {
   static check_size<sizeof(ServerCertificateRequest::$get_certificateList$d__5), 48 + sizeof(int)> __MasterServer_ServerCertificateRequest_$get_certificateList$d__5SizeCheck;
   static_assert(sizeof(ServerCertificateRequest::$get_certificateList$d__5) == 0x34);
 }
+NEED_NO_BOX(MasterServer::ServerCertificateRequest::$get_certificateList$d__5);
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::ServerCertificateRequest::$get_certificateList$d__5*, "MasterServer", "ServerCertificateRequest/<get_certificateList>d__5");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: MasterServer::ServerCertificateRequest::$get_certificateList$d__5::System_Collections_Generic_IEnumerator$System_Byte$$$_get_Current

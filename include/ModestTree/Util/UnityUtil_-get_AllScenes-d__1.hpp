@@ -112,6 +112,7 @@ namespace ModestTree::Util {
   static check_size<sizeof(UnityUtil::$get_AllScenes$d__1), 28 + sizeof(int)> __ModestTree_Util_UnityUtil_$get_AllScenes$d__1SizeCheck;
   static_assert(sizeof(UnityUtil::$get_AllScenes$d__1) == 0x20);
 }
+NEED_NO_BOX(ModestTree::Util::UnityUtil::$get_AllScenes$d__1);
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::Util::UnityUtil::$get_AllScenes$d__1*, "ModestTree.Util", "UnityUtil/<get_AllScenes>d__1");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: ModestTree::Util::UnityUtil::$get_AllScenes$d__1::System_Collections_Generic_IEnumerator$UnityEngine_SceneManagement_Scene$_get_Current

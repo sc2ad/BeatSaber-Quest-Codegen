@@ -89,6 +89,7 @@ namespace System {
   static check_size<sizeof(MonoAsyncCall), 56 + sizeof(::Il2CppObject*)> __System_MonoAsyncCallSizeCheck;
   static_assert(sizeof(MonoAsyncCall) == 0x40);
 }
+NEED_NO_BOX(System::MonoAsyncCall);
 DEFINE_IL2CPP_ARG_TYPE(System::MonoAsyncCall*, "System", "MonoAsyncCall");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::MonoAsyncCall::New_ctor

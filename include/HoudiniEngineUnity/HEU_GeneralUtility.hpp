@@ -470,6 +470,7 @@ namespace HoudiniEngineUnity {
   }; // HoudiniEngineUnity.HEU_GeneralUtility
   #pragma pack(pop)
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_GeneralUtility);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_GeneralUtility*, "HoudiniEngineUnity", "HEU_GeneralUtility");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::GetArray1Arg

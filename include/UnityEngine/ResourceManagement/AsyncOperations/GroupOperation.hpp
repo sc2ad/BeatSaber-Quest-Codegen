@@ -244,6 +244,7 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
   }; // UnityEngine.ResourceManagement.AsyncOperations.GroupOperation
   // WARNING Not writing size check since size may be invalid!
 }
+NEED_NO_BOX(UnityEngine::ResourceManagement::AsyncOperations::GroupOperation);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::AsyncOperations::GroupOperation*, "UnityEngine.ResourceManagement.AsyncOperations", "GroupOperation");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::GroupOperationSettings, "UnityEngine.ResourceManagement.AsyncOperations", "GroupOperation/GroupOperationSettings");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -76,6 +76,7 @@ namespace System::Globalization {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Globalization::EncodingTable);
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::EncodingTable*, "System.Globalization", "EncodingTable");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Globalization::EncodingTable::_cctor

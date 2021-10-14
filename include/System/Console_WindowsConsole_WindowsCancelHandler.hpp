@@ -50,6 +50,7 @@ namespace System {
   }; // System.Console/System.WindowsConsole/System.WindowsCancelHandler
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Console::WindowsConsole::WindowsCancelHandler);
 DEFINE_IL2CPP_ARG_TYPE(System::Console::WindowsConsole::WindowsCancelHandler*, "System", "Console/WindowsConsole/WindowsCancelHandler");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Console::WindowsConsole::WindowsCancelHandler::New_ctor

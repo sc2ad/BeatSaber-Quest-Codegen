@@ -63,6 +63,7 @@ namespace System {
   static check_size<sizeof(DefaultBinder::BinderState), 28 + sizeof(bool)> __System_DefaultBinder_BinderStateSizeCheck;
   static_assert(sizeof(DefaultBinder::BinderState) == 0x1D);
 }
+NEED_NO_BOX(System::DefaultBinder::BinderState);
 DEFINE_IL2CPP_ARG_TYPE(System::DefaultBinder::BinderState*, "System", "DefaultBinder/BinderState");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::DefaultBinder::BinderState::New_ctor

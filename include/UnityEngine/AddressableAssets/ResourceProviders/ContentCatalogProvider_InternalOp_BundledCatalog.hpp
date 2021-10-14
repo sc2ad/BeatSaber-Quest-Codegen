@@ -152,6 +152,7 @@ namespace UnityEngine::AddressableAssets::ResourceProviders {
   static check_size<sizeof(ContentCatalogProvider::InternalOp::BundledCatalog), 64 + sizeof(System::Action_1<UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>*)> __UnityEngine_AddressableAssets_ResourceProviders_ContentCatalogProvider_InternalOp_BundledCatalogSizeCheck;
   static_assert(sizeof(ContentCatalogProvider::InternalOp::BundledCatalog) == 0x48);
 }
+NEED_NO_BOX(UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog*, "UnityEngine.AddressableAssets.ResourceProviders", "ContentCatalogProvider/InternalOp/BundledCatalog");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog::get_OpInProgress

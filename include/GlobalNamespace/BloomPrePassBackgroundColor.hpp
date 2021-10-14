@@ -141,6 +141,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BloomPrePassBackgroundColor), 56 + sizeof(UnityEngine::Color)> __GlobalNamespace_BloomPrePassBackgroundColorSizeCheck;
   static_assert(sizeof(BloomPrePassBackgroundColor) == 0x48);
 }
+NEED_NO_BOX(GlobalNamespace::BloomPrePassBackgroundColor);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassBackgroundColor*, "", "BloomPrePassBackgroundColor");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePassBackgroundColor::get_color

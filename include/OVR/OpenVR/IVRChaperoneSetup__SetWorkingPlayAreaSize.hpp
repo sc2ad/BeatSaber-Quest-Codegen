@@ -51,6 +51,7 @@ namespace OVR::OpenVR {
   }; // OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._SetWorkingPlayAreaSize
   #pragma pack(pop)
 }
+NEED_NO_BOX(OVR::OpenVR::IVRChaperoneSetup::_SetWorkingPlayAreaSize);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRChaperoneSetup::_SetWorkingPlayAreaSize*, "OVR.OpenVR", "IVRChaperoneSetup/_SetWorkingPlayAreaSize");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVRChaperoneSetup::_SetWorkingPlayAreaSize::New_ctor

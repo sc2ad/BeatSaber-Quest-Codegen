@@ -53,6 +53,7 @@ namespace GlobalNamespace {
   }; // BeatmapObjectCallback
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::BeatmapObjectCallback);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectCallback*, "", "BeatmapObjectCallback");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectCallback::New_ctor

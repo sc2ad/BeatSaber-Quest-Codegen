@@ -46,6 +46,7 @@ namespace UnityEngine::TestTools::Utils {
   }; // UnityEngine.TestTools.Utils.AssemblyLoadProxy
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::TestTools::Utils::AssemblyLoadProxy);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Utils::AssemblyLoadProxy*, "UnityEngine.TestTools.Utils", "AssemblyLoadProxy");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::Utils::AssemblyLoadProxy::Load

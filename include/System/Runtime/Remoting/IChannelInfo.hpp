@@ -25,6 +25,7 @@ namespace System::Runtime::Remoting {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Runtime::Remoting::IChannelInfo);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::IChannelInfo*, "System.Runtime.Remoting", "IChannelInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::IChannelInfo::get_ChannelData

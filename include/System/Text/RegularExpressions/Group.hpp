@@ -86,6 +86,7 @@ namespace System::Text::RegularExpressions {
   static check_size<sizeof(Group), 48 + sizeof(::Il2CppString*)> __System_Text_RegularExpressions_GroupSizeCheck;
   static_assert(sizeof(Group) == 0x38);
 }
+NEED_NO_BOX(System::Text::RegularExpressions::Group);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::Group*, "System.Text.RegularExpressions", "Group");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::RegularExpressions::Group::get_Success

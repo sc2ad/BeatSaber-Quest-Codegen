@@ -152,6 +152,7 @@ namespace System::Runtime::Remoting::Messaging {
   static check_size<sizeof(MessageDictionary), 40 + sizeof(bool)> __System_Runtime_Remoting_Messaging_MessageDictionarySizeCheck;
   static_assert(sizeof(MessageDictionary) == 0x29);
 }
+NEED_NO_BOX(System::Runtime::Remoting::Messaging::MessageDictionary);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::MessageDictionary*, "System.Runtime.Remoting.Messaging", "MessageDictionary");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::MessageDictionary::get_InternalDictionary

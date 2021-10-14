@@ -264,6 +264,7 @@ namespace RootMotion {
   static check_size<sizeof(BipedReferences), 144 + sizeof(::ArrayW<UnityEngine::Transform*>)> __RootMotion_BipedReferencesSizeCheck;
   static_assert(sizeof(BipedReferences) == 0x98);
 }
+NEED_NO_BOX(RootMotion::BipedReferences);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::BipedReferences*, "RootMotion", "BipedReferences");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::BipedReferences::get_isFilled

@@ -83,6 +83,7 @@ namespace System::Collections {
   static check_size<sizeof(ReadOnlyCollectionBase), 16 + sizeof(System::Collections::ArrayList*)> __System_Collections_ReadOnlyCollectionBaseSizeCheck;
   static_assert(sizeof(ReadOnlyCollectionBase) == 0x18);
 }
+NEED_NO_BOX(System::Collections::ReadOnlyCollectionBase);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::ReadOnlyCollectionBase*, "System.Collections", "ReadOnlyCollectionBase");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::ReadOnlyCollectionBase::get_InnerList

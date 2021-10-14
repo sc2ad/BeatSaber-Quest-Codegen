@@ -168,6 +168,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(NoteExecutionRating), 40 + sizeof(float)> __GlobalNamespace_NoteExecutionRatingSizeCheck;
   static_assert(sizeof(NoteExecutionRating) == 0x2C);
 }
+NEED_NO_BOX(GlobalNamespace::NoteExecutionRating);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteExecutionRating*, "", "NoteExecutionRating");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteExecutionRating::Rating, "", "NoteExecutionRating/Rating");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

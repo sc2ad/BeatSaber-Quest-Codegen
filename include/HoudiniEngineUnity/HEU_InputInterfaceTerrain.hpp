@@ -93,6 +93,7 @@ namespace HoudiniEngineUnity {
   }; // HoudiniEngineUnity.HEU_InputInterfaceTerrain
   #pragma pack(pop)
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_InputInterfaceTerrain);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_InputInterfaceTerrain*, "HoudiniEngineUnity", "HEU_InputInterfaceTerrain");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_InputInterfaceTerrain::SetMaskLayer

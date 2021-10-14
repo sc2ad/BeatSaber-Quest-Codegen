@@ -73,6 +73,7 @@ namespace HMUI {
   static check_size<sizeof(IconSegmentedControl::DataItem), 24 + sizeof(::Il2CppString*)> __HMUI_IconSegmentedControl_DataItemSizeCheck;
   static_assert(sizeof(IconSegmentedControl::DataItem) == 0x20);
 }
+NEED_NO_BOX(HMUI::IconSegmentedControl::DataItem);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::IconSegmentedControl::DataItem*, "HMUI", "IconSegmentedControl/DataItem");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::IconSegmentedControl::DataItem::get_icon

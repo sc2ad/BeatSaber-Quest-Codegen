@@ -228,6 +228,7 @@ namespace UnityEngine::UI {
   }; // UnityEngine.UI.AspectRatioFitter
   // WARNING Not writing size check since size may be invalid!
 }
+NEED_NO_BOX(UnityEngine::UI::AspectRatioFitter);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::AspectRatioFitter*, "UnityEngine.UI", "AspectRatioFitter");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::AspectRatioFitter::AspectMode, "UnityEngine.UI", "AspectRatioFitter/AspectMode");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

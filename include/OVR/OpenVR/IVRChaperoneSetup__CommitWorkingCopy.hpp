@@ -56,6 +56,7 @@ namespace OVR::OpenVR {
   }; // OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._CommitWorkingCopy
   #pragma pack(pop)
 }
+NEED_NO_BOX(OVR::OpenVR::IVRChaperoneSetup::_CommitWorkingCopy);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRChaperoneSetup::_CommitWorkingCopy*, "OVR.OpenVR", "IVRChaperoneSetup/_CommitWorkingCopy");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVRChaperoneSetup::_CommitWorkingCopy::New_ctor

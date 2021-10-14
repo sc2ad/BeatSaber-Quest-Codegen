@@ -121,6 +121,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(JSONBool), 16 + sizeof(bool)> __HoudiniEngineUnity_JSONBoolSizeCheck;
   static_assert(sizeof(JSONBool) == 0x11);
 }
+NEED_NO_BOX(HoudiniEngineUnity::JSONBool);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::JSONBool*, "HoudiniEngineUnity", "JSONBool");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONBool::New_ctor

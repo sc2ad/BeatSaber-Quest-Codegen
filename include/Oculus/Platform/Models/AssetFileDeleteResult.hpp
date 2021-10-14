@@ -70,6 +70,7 @@ namespace Oculus::Platform::Models {
   static check_size<sizeof(AssetFileDeleteResult), 40 + sizeof(bool)> __Oculus_Platform_Models_AssetFileDeleteResultSizeCheck;
   static_assert(sizeof(AssetFileDeleteResult) == 0x29);
 }
+NEED_NO_BOX(Oculus::Platform::Models::AssetFileDeleteResult);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::AssetFileDeleteResult*, "Oculus.Platform.Models", "AssetFileDeleteResult");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::AssetFileDeleteResult::New_ctor

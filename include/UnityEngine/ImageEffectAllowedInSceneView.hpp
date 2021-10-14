@@ -33,6 +33,7 @@ namespace UnityEngine {
   }; // UnityEngine.ImageEffectAllowedInSceneView
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::ImageEffectAllowedInSceneView);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ImageEffectAllowedInSceneView*, "UnityEngine", "ImageEffectAllowedInSceneView");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ImageEffectAllowedInSceneView::New_ctor

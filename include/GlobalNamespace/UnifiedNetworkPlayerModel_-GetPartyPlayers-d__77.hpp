@@ -127,6 +127,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(UnifiedNetworkPlayerModel::$GetPartyPlayers$d__77), 48 + sizeof(int)> __GlobalNamespace_UnifiedNetworkPlayerModel_$GetPartyPlayers$d__77SizeCheck;
   static_assert(sizeof(UnifiedNetworkPlayerModel::$GetPartyPlayers$d__77) == 0x34);
 }
+NEED_NO_BOX(GlobalNamespace::UnifiedNetworkPlayerModel::$GetPartyPlayers$d__77);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UnifiedNetworkPlayerModel::$GetPartyPlayers$d__77*, "", "UnifiedNetworkPlayerModel/<GetPartyPlayers>d__77");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::UnifiedNetworkPlayerModel::$GetPartyPlayers$d__77::System_Collections_Generic_IEnumerator$INetworkPlayer$_get_Current

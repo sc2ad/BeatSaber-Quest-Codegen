@@ -131,6 +131,7 @@ namespace UnityEngine::Events {
   static check_size<sizeof(ArgumentCache), 48 + sizeof(bool)> __UnityEngine_Events_ArgumentCacheSizeCheck;
   static_assert(sizeof(ArgumentCache) == 0x31);
 }
+NEED_NO_BOX(UnityEngine::Events::ArgumentCache);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Events::ArgumentCache*, "UnityEngine.Events", "ArgumentCache");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Events::ArgumentCache::get_unityObjectArgument

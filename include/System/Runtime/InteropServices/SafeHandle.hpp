@@ -140,6 +140,7 @@ namespace System::Runtime::InteropServices {
   static check_size<sizeof(SafeHandle), 29 + sizeof(bool)> __System_Runtime_InteropServices_SafeHandleSizeCheck;
   static_assert(sizeof(SafeHandle) == 0x1E);
 }
+NEED_NO_BOX(System::Runtime::InteropServices::SafeHandle);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::SafeHandle*, "System.Runtime.InteropServices", "SafeHandle");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::InteropServices::SafeHandle::get_IsClosed

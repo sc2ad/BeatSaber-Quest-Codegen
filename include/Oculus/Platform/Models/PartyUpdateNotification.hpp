@@ -98,6 +98,7 @@ namespace Oculus::Platform::Models {
   static check_size<sizeof(PartyUpdateNotification), 64 + sizeof(::Il2CppString*)> __Oculus_Platform_Models_PartyUpdateNotificationSizeCheck;
   static_assert(sizeof(PartyUpdateNotification) == 0x48);
 }
+NEED_NO_BOX(Oculus::Platform::Models::PartyUpdateNotification);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::PartyUpdateNotification*, "Oculus.Platform.Models", "PartyUpdateNotification");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::PartyUpdateNotification::New_ctor

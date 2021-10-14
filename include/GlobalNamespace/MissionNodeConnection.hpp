@@ -170,6 +170,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MissionNodeConnection), 88 + sizeof(bool)> __GlobalNamespace_MissionNodeConnectionSizeCheck;
   static_assert(sizeof(MissionNodeConnection) == 0x59);
 }
+NEED_NO_BOX(GlobalNamespace::MissionNodeConnection);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionNodeConnection*, "", "MissionNodeConnection");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionNodeConnection::get_parentMissionNode

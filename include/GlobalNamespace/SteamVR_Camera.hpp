@@ -176,6 +176,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SteamVR_Camera), 48 + sizeof(bool)> __GlobalNamespace_SteamVR_CameraSizeCheck;
   static_assert(sizeof(SteamVR_Camera) == 0x31);
 }
+NEED_NO_BOX(GlobalNamespace::SteamVR_Camera);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Camera*, "", "SteamVR_Camera");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Camera::get_head

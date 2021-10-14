@@ -63,6 +63,7 @@ namespace MasterServer {
   }; // MasterServer.UserMessageHandler/MasterServer.ConnectToServerDelegate
   #pragma pack(pop)
 }
+NEED_NO_BOX(MasterServer::UserMessageHandler::ConnectToServerDelegate);
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::UserMessageHandler::ConnectToServerDelegate*, "MasterServer", "UserMessageHandler/ConnectToServerDelegate");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: MasterServer::UserMessageHandler::ConnectToServerDelegate::New_ctor

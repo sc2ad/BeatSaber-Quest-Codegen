@@ -65,6 +65,7 @@ namespace System::Reflection {
   }; // System.Reflection.CustomAttributeFormatException
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Reflection::CustomAttributeFormatException);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::CustomAttributeFormatException*, "System.Reflection", "CustomAttributeFormatException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::CustomAttributeFormatException::New_ctor

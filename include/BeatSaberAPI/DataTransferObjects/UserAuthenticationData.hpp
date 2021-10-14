@@ -100,6 +100,7 @@ namespace BeatSaberAPI::DataTransferObjects {
   static check_size<sizeof(UserAuthenticationData), 56 + sizeof(::Il2CppString*)> __BeatSaberAPI_DataTransferObjects_UserAuthenticationDataSizeCheck;
   static_assert(sizeof(UserAuthenticationData) == 0x40);
 }
+NEED_NO_BOX(BeatSaberAPI::DataTransferObjects::UserAuthenticationData);
 DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::UserAuthenticationData*, "BeatSaberAPI.DataTransferObjects", "UserAuthenticationData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: BeatSaberAPI::DataTransferObjects::UserAuthenticationData::New_ctor

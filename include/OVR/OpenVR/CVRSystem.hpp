@@ -255,6 +255,7 @@ namespace OVR::OpenVR {
   static check_size<sizeof(CVRSystem), 16 + sizeof(OVR::OpenVR::IVRSystem)> __OVR_OpenVR_CVRSystemSizeCheck;
   static_assert(sizeof(CVRSystem) == 0x188);
 }
+NEED_NO_BOX(OVR::OpenVR::CVRSystem);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRSystem*, "OVR.OpenVR", "CVRSystem");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::CVRSystem::New_ctor

@@ -75,6 +75,7 @@ namespace Zenject {
   static check_size<sizeof(SubContainerCreatorByNewPrefabInstaller::$$c__DisplayClass3_0), 24 + sizeof(System::Collections::Generic::List_1<Zenject::TypeValuePair>*)> __Zenject_SubContainerCreatorByNewPrefabInstaller_$$c__DisplayClass3_0SizeCheck;
   static_assert(sizeof(SubContainerCreatorByNewPrefabInstaller::$$c__DisplayClass3_0) == 0x20);
 }
+NEED_NO_BOX(Zenject::SubContainerCreatorByNewPrefabInstaller::$$c__DisplayClass3_0);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerCreatorByNewPrefabInstaller::$$c__DisplayClass3_0*, "Zenject", "SubContainerCreatorByNewPrefabInstaller/<>c__DisplayClass3_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::SubContainerCreatorByNewPrefabInstaller::$$c__DisplayClass3_0::$AddInstallers$b__0

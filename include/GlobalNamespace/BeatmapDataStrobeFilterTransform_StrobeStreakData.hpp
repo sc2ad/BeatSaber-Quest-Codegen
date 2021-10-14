@@ -141,6 +141,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BeatmapDataStrobeFilterTransform::StrobeStreakData), 60 + sizeof(bool)> __GlobalNamespace_BeatmapDataStrobeFilterTransform_StrobeStreakDataSizeCheck;
   static_assert(sizeof(BeatmapDataStrobeFilterTransform::StrobeStreakData) == 0x3D);
 }
+NEED_NO_BOX(GlobalNamespace::BeatmapDataStrobeFilterTransform::StrobeStreakData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDataStrobeFilterTransform::StrobeStreakData*, "", "BeatmapDataStrobeFilterTransform/StrobeStreakData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapDataStrobeFilterTransform::StrobeStreakData::StartPotentialStrobe

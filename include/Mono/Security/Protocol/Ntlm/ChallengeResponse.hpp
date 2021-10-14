@@ -130,6 +130,7 @@ namespace Mono::Security::Protocol::Ntlm {
   static check_size<sizeof(ChallengeResponse), 40 + sizeof(::ArrayW<uint8_t>)> __Mono_Security_Protocol_Ntlm_ChallengeResponseSizeCheck;
   static_assert(sizeof(ChallengeResponse) == 0x30);
 }
+NEED_NO_BOX(Mono::Security::Protocol::Ntlm::ChallengeResponse);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Protocol::Ntlm::ChallengeResponse*, "Mono.Security.Protocol.Ntlm", "ChallengeResponse");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Security::Protocol::Ntlm::ChallengeResponse::set_Password

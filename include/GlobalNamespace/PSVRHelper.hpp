@@ -251,6 +251,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PSVRHelper), 96 + sizeof(System::Collections::Generic::List_1<UnityEngine::XR::XRNodeState>*)> __GlobalNamespace_PSVRHelperSizeCheck;
   static_assert(sizeof(PSVRHelper) == 0x68);
 }
+NEED_NO_BOX(GlobalNamespace::PSVRHelper);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PSVRHelper*, "", "PSVRHelper");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PSVRHelper::get_hasInputFocus

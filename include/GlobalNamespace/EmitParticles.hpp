@@ -64,6 +64,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(EmitParticles), 24 + sizeof(UnityEngine::ParticleSystem*)> __GlobalNamespace_EmitParticlesSizeCheck;
   static_assert(sizeof(EmitParticles) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::EmitParticles);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EmitParticles*, "", "EmitParticles");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EmitParticles::Emit

@@ -54,6 +54,7 @@ namespace System::Text::RegularExpressions {
   static check_size<sizeof(RegexCharClass::SingleRange), 18 + sizeof(::Il2CppChar)> __System_Text_RegularExpressions_RegexCharClass_SingleRangeSizeCheck;
   static_assert(sizeof(RegexCharClass::SingleRange) == 0x14);
 }
+NEED_NO_BOX(System::Text::RegularExpressions::RegexCharClass::SingleRange);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexCharClass::SingleRange*, "System.Text.RegularExpressions", "RegexCharClass/SingleRange");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexCharClass::SingleRange::New_ctor

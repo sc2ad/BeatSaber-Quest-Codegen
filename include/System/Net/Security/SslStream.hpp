@@ -198,6 +198,7 @@ namespace System::Net::Security {
   static check_size<sizeof(SslStream), 64 + sizeof(Mono::Security::Interface::IMonoSslStream*)> __System_Net_Security_SslStreamSizeCheck;
   static_assert(sizeof(SslStream) == 0x48);
 }
+NEED_NO_BOX(System::Net::Security::SslStream);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Security::SslStream*, "System.Net.Security", "SslStream");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Security::SslStream::get_Impl

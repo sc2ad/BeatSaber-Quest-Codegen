@@ -88,6 +88,7 @@ namespace UnityEngine {
   static check_size<sizeof(TreePrototype), 24 + sizeof(float)> __UnityEngine_TreePrototypeSizeCheck;
   static_assert(sizeof(TreePrototype) == 0x1C);
 }
+NEED_NO_BOX(UnityEngine::TreePrototype);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TreePrototype*, "UnityEngine", "TreePrototype");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TreePrototype::get_prefab

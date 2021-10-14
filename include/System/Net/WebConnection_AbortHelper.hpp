@@ -62,6 +62,7 @@ namespace System::Net {
   static check_size<sizeof(WebConnection::AbortHelper), 16 + sizeof(System::Net::WebConnection*)> __System_Net_WebConnection_AbortHelperSizeCheck;
   static_assert(sizeof(WebConnection::AbortHelper) == 0x18);
 }
+NEED_NO_BOX(System::Net::WebConnection::AbortHelper);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebConnection::AbortHelper*, "System.Net", "WebConnection/AbortHelper");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::WebConnection::AbortHelper::Abort

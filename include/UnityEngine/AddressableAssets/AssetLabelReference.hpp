@@ -74,6 +74,7 @@ namespace UnityEngine::AddressableAssets {
   static check_size<sizeof(AssetLabelReference), 16 + sizeof(::Il2CppString*)> __UnityEngine_AddressableAssets_AssetLabelReferenceSizeCheck;
   static_assert(sizeof(AssetLabelReference) == 0x18);
 }
+NEED_NO_BOX(UnityEngine::AddressableAssets::AssetLabelReference);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::AssetLabelReference*, "UnityEngine.AddressableAssets", "AssetLabelReference");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AssetLabelReference::get_labelString

@@ -288,6 +288,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(Finger), 156 + sizeof(UnityEngine::Vector3)> __RootMotion_FinalIK_FingerSizeCheck;
   static_assert(sizeof(Finger) == 0xA8);
 }
+NEED_NO_BOX(RootMotion::FinalIK::Finger);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Finger*, "RootMotion.FinalIK", "Finger");
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Finger::DOF, "RootMotion.FinalIK", "Finger/DOF");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

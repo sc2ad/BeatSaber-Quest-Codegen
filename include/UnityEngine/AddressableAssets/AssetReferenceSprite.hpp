@@ -43,6 +43,7 @@ namespace UnityEngine::AddressableAssets {
     bool ValidateAsset(::Il2CppString* path);
   }; // UnityEngine.AddressableAssets.AssetReferenceSprite
 }
+NEED_NO_BOX(UnityEngine::AddressableAssets::AssetReferenceSprite);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::AssetReferenceSprite*, "UnityEngine.AddressableAssets", "AssetReferenceSprite");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AssetReferenceSprite::New_ctor

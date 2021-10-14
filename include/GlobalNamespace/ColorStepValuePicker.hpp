@@ -144,6 +144,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ColorStepValuePicker), 56 + sizeof(System::Action*)> __GlobalNamespace_ColorStepValuePickerSizeCheck;
   static_assert(sizeof(ColorStepValuePicker) == 0x40);
 }
+NEED_NO_BOX(GlobalNamespace::ColorStepValuePicker);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorStepValuePicker*, "", "ColorStepValuePicker");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ColorStepValuePicker::get_color

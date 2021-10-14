@@ -62,6 +62,7 @@ namespace System::Net::NetworkInformation {
   static check_size<sizeof(LinuxUnicastIPAddressInformation), 16 + sizeof(System::Net::IPAddress*)> __System_Net_NetworkInformation_LinuxUnicastIPAddressInformationSizeCheck;
   static_assert(sizeof(LinuxUnicastIPAddressInformation) == 0x18);
 }
+NEED_NO_BOX(System::Net::NetworkInformation::LinuxUnicastIPAddressInformation);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::LinuxUnicastIPAddressInformation*, "System.Net.NetworkInformation", "LinuxUnicastIPAddressInformation");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::NetworkInformation::LinuxUnicastIPAddressInformation::New_ctor

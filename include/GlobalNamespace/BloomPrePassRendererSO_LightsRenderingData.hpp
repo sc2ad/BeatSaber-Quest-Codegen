@@ -86,6 +86,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BloomPrePassRendererSO::LightsRenderingData), 40 + sizeof(::ArrayW<UnityEngine::Vector4>)> __GlobalNamespace_BloomPrePassRendererSO_LightsRenderingDataSizeCheck;
   static_assert(sizeof(BloomPrePassRendererSO::LightsRenderingData) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::BloomPrePassRendererSO::LightsRenderingData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassRendererSO::LightsRenderingData*, "", "BloomPrePassRendererSO/LightsRenderingData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePassRendererSO::LightsRenderingData::New_ctor

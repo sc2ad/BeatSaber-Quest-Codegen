@@ -71,6 +71,7 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
   static check_size<sizeof(RemoteTestResultSender::QueueData), 32 + sizeof(::ArrayW<uint8_t>)> __UnityEngine_TestTools_TestRunner_Callbacks_RemoteTestResultSender_QueueDataSizeCheck;
   static_assert(sizeof(RemoteTestResultSender::QueueData) == 0x28);
 }
+NEED_NO_BOX(UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender::QueueData);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender::QueueData*, "UnityEngine.TestTools.TestRunner.Callbacks", "RemoteTestResultSender/QueueData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender::QueueData::get_id

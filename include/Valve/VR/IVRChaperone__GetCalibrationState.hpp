@@ -56,6 +56,7 @@ namespace Valve::VR {
   }; // Valve.VR.IVRChaperone/Valve.VR._GetCalibrationState
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::IVRChaperone::_GetCalibrationState);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRChaperone::_GetCalibrationState*, "Valve.VR", "IVRChaperone/_GetCalibrationState");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRChaperone::_GetCalibrationState::New_ctor

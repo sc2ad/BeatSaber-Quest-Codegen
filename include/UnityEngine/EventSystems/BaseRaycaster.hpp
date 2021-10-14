@@ -118,6 +118,7 @@ namespace UnityEngine::EventSystems {
   static check_size<sizeof(BaseRaycaster), 24 + sizeof(UnityEngine::EventSystems::BaseRaycaster*)> __UnityEngine_EventSystems_BaseRaycasterSizeCheck;
   static_assert(sizeof(BaseRaycaster) == 0x20);
 }
+NEED_NO_BOX(UnityEngine::EventSystems::BaseRaycaster);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::BaseRaycaster*, "UnityEngine.EventSystems", "BaseRaycaster");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::EventSystems::BaseRaycaster::get_eventCamera

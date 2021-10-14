@@ -72,6 +72,7 @@ namespace Oculus::Platform::Models {
   static check_size<sizeof(Purchase), 40 + sizeof(::Il2CppString*)> __Oculus_Platform_Models_PurchaseSizeCheck;
   static_assert(sizeof(Purchase) == 0x30);
 }
+NEED_NO_BOX(Oculus::Platform::Models::Purchase);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::Purchase*, "Oculus.Platform.Models", "Purchase");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::Purchase::New_ctor

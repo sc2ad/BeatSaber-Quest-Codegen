@@ -68,6 +68,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_BakedEventData), 44 + sizeof(bool)> __HoudiniEngineUnity_HEU_BakedEventDataSizeCheck;
   static_assert(sizeof(HEU_BakedEventData) == 0x2D);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_BakedEventData);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_BakedEventData*, "HoudiniEngineUnity", "HEU_BakedEventData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_BakedEventData::New_ctor

@@ -53,6 +53,7 @@ namespace System::IO {
   }; // System.IO.ErrorEventHandler
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::IO::ErrorEventHandler);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::ErrorEventHandler*, "System.IO", "ErrorEventHandler");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::ErrorEventHandler::New_ctor

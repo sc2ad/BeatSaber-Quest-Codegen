@@ -290,6 +290,7 @@ namespace System::IO {
   static check_size<sizeof(StreamWriter), 96 + sizeof(System::Threading::Tasks::Task*)> __System_IO_StreamWriterSizeCheck;
   static_assert(sizeof(StreamWriter) == 0x68);
 }
+NEED_NO_BOX(System::IO::StreamWriter);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::StreamWriter*, "System.IO", "StreamWriter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::StreamWriter::get_UTF8NoBOM

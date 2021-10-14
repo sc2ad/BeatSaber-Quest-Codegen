@@ -82,6 +82,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
   static check_size<sizeof(RsaPublicKeyStructure), 24 + sizeof(Org::BouncyCastle::Math::BigInteger*)> __Org_BouncyCastle_Asn1_X509_RsaPublicKeyStructureSizeCheck;
   static_assert(sizeof(RsaPublicKeyStructure) == 0x20);
 }
+NEED_NO_BOX(Org::BouncyCastle::Asn1::X509::RsaPublicKeyStructure);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::RsaPublicKeyStructure*, "Org.BouncyCastle.Asn1.X509", "RsaPublicKeyStructure");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::RsaPublicKeyStructure::get_Modulus

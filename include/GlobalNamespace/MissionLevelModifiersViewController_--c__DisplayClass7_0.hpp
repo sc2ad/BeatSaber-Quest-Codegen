@@ -71,6 +71,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MissionLevelModifiersViewController::$$c__DisplayClass7_0), 16 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>*)> __GlobalNamespace_MissionLevelModifiersViewController_$$c__DisplayClass7_0SizeCheck;
   static_assert(sizeof(MissionLevelModifiersViewController::$$c__DisplayClass7_0) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::MissionLevelModifiersViewController::$$c__DisplayClass7_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelModifiersViewController::$$c__DisplayClass7_0*, "", "MissionLevelModifiersViewController/<>c__DisplayClass7_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionLevelModifiersViewController::$$c__DisplayClass7_0::$RefreshContent$b__0

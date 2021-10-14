@@ -52,6 +52,7 @@ namespace System::Diagnostics {
   static check_size<sizeof(ConditionalAttribute), 16 + sizeof(::Il2CppString*)> __System_Diagnostics_ConditionalAttributeSizeCheck;
   static_assert(sizeof(ConditionalAttribute) == 0x18);
 }
+NEED_NO_BOX(System::Diagnostics::ConditionalAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::ConditionalAttribute*, "System.Diagnostics", "ConditionalAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Diagnostics::ConditionalAttribute::New_ctor

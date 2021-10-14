@@ -60,6 +60,7 @@ namespace GlobalNamespace {
   }; // OVRInput/OVRControllerRemote
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::OVRInput::OVRControllerRemote);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OVRControllerRemote*, "", "OVRInput/OVRControllerRemote");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::OVRControllerRemote::New_ctor

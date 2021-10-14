@@ -169,6 +169,7 @@ namespace HMUI {
   }; // HMUI.RangeValuesTextSlider
   // WARNING Not writing size check since size may be invalid!
 }
+NEED_NO_BOX(HMUI::RangeValuesTextSlider);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::RangeValuesTextSlider*, "HMUI", "RangeValuesTextSlider");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::RangeValuesTextSlider::get_minValue

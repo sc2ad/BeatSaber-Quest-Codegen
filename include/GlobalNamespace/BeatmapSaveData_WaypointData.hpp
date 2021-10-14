@@ -95,6 +95,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BeatmapSaveData::WaypointData), 28 + sizeof(GlobalNamespace::OffsetDirection)> __GlobalNamespace_BeatmapSaveData_WaypointDataSizeCheck;
   static_assert(sizeof(BeatmapSaveData::WaypointData) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::BeatmapSaveData::WaypointData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapSaveData::WaypointData*, "", "BeatmapSaveData/WaypointData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapSaveData::WaypointData::get_time

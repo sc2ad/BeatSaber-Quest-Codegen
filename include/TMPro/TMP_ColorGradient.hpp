@@ -117,6 +117,7 @@ namespace TMPro {
   static check_size<sizeof(TMP_ColorGradient), 76 + sizeof(UnityEngine::Color)> __TMPro_TMP_ColorGradientSizeCheck;
   static_assert(sizeof(TMP_ColorGradient) == 0x5C);
 }
+NEED_NO_BOX(TMPro::TMP_ColorGradient);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_ColorGradient*, "TMPro", "TMP_ColorGradient");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_ColorGradient::New_ctor

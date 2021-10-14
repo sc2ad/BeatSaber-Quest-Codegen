@@ -35,6 +35,7 @@ namespace System::Runtime::Serialization {
   }; // System.Runtime.Serialization.OnDeserializedAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Runtime::Serialization::OnDeserializedAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::OnDeserializedAttribute*, "System.Runtime.Serialization", "OnDeserializedAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::OnDeserializedAttribute::New_ctor

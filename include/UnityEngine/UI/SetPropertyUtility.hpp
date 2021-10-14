@@ -55,6 +55,7 @@ namespace UnityEngine::UI {
   }; // UnityEngine.UI.SetPropertyUtility
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::UI::SetPropertyUtility);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::SetPropertyUtility*, "UnityEngine.UI", "SetPropertyUtility");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::SetPropertyUtility::SetColor

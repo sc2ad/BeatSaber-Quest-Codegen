@@ -92,6 +92,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(VRControllersValueSOOffsets), 40 + sizeof(bool)> __GlobalNamespace_VRControllersValueSOOffsetsSizeCheck;
   static_assert(sizeof(VRControllersValueSOOffsets) == 0x29);
 }
+NEED_NO_BOX(GlobalNamespace::VRControllersValueSOOffsets);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersValueSOOffsets*, "", "VRControllersValueSOOffsets");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::VRControllersValueSOOffsets::get_positionOffset

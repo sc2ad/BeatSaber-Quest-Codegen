@@ -34,6 +34,7 @@ namespace GlobalNamespace {
   }; // OVRLayerAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::OVRLayerAttribute);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRLayerAttribute*, "", "OVRLayerAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRLayerAttribute::New_ctor

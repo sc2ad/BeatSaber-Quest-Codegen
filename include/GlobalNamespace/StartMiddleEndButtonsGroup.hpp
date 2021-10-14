@@ -48,6 +48,7 @@ namespace GlobalNamespace {
   }; // StartMiddleEndButtonsGroup
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::StartMiddleEndButtonsGroup);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StartMiddleEndButtonsGroup*, "", "StartMiddleEndButtonsGroup");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::StartMiddleEndButtonsGroup::SetLayoutHorizontal

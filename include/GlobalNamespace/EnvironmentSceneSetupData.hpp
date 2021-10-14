@@ -50,6 +50,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(EnvironmentSceneSetupData), 16 + sizeof(bool)> __GlobalNamespace_EnvironmentSceneSetupDataSizeCheck;
   static_assert(sizeof(EnvironmentSceneSetupData) == 0x11);
 }
+NEED_NO_BOX(GlobalNamespace::EnvironmentSceneSetupData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentSceneSetupData*, "", "EnvironmentSceneSetupData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EnvironmentSceneSetupData::New_ctor

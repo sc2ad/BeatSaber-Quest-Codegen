@@ -107,6 +107,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MasterServerConnectionManager::MasterServerConnectionManagerParamsBase), 72 + sizeof(GlobalNamespace::GameplayServerConfiguration)> __GlobalNamespace_MasterServerConnectionManager_MasterServerConnectionManagerParamsBaseSizeCheck;
   static_assert(sizeof(MasterServerConnectionManager::MasterServerConnectionManagerParamsBase) == 0x60);
 }
+NEED_NO_BOX(GlobalNamespace::MasterServerConnectionManager::MasterServerConnectionManagerParamsBase);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerConnectionManager::MasterServerConnectionManagerParamsBase*, "", "MasterServerConnectionManager/MasterServerConnectionManagerParamsBase");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::MasterServerConnectionManagerParamsBase::New_ctor

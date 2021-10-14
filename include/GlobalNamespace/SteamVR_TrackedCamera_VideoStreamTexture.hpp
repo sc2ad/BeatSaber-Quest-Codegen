@@ -169,6 +169,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SteamVR_TrackedCamera::VideoStreamTexture), 64 + sizeof(Valve::VR::CameraVideoStreamFrameHeader_t)> __GlobalNamespace_SteamVR_TrackedCamera_VideoStreamTextureSizeCheck;
   static_assert(sizeof(SteamVR_TrackedCamera::VideoStreamTexture) == 0xA2);
 }
+NEED_NO_BOX(GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture*, "", "SteamVR_TrackedCamera/VideoStreamTexture");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture::get_undistorted

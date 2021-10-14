@@ -62,6 +62,7 @@ namespace System::Xml {
   static check_size<sizeof(XmlWellFormedWriter::NamespaceResolverProxy), 16 + sizeof(System::Xml::XmlWellFormedWriter*)> __System_Xml_XmlWellFormedWriter_NamespaceResolverProxySizeCheck;
   static_assert(sizeof(XmlWellFormedWriter::NamespaceResolverProxy) == 0x18);
 }
+NEED_NO_BOX(System::Xml::XmlWellFormedWriter::NamespaceResolverProxy);
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::NamespaceResolverProxy*, "System.Xml", "XmlWellFormedWriter/NamespaceResolverProxy");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::NamespaceResolverProxy::New_ctor

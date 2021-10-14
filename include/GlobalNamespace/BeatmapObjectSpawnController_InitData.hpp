@@ -78,6 +78,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BeatmapObjectSpawnController::InitData), 32 + sizeof(float)> __GlobalNamespace_BeatmapObjectSpawnController_InitDataSizeCheck;
   static_assert(sizeof(BeatmapObjectSpawnController::InitData) == 0x24);
 }
+NEED_NO_BOX(GlobalNamespace::BeatmapObjectSpawnController::InitData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectSpawnController::InitData*, "", "BeatmapObjectSpawnController/InitData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnController::InitData::New_ctor

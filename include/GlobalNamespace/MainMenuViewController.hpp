@@ -337,6 +337,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MainMenuViewController), 224 + sizeof(System::Action_1<GlobalNamespace::IBeatmapLevelPack*>*)> __GlobalNamespace_MainMenuViewControllerSizeCheck;
   static_assert(sizeof(MainMenuViewController) == 0xE8);
 }
+NEED_NO_BOX(GlobalNamespace::MainMenuViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainMenuViewController*, "", "MainMenuViewController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainMenuViewController::MenuButton, "", "MainMenuViewController/MenuButton");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

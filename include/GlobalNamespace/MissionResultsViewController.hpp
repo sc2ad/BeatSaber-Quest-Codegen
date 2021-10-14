@@ -306,6 +306,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MissionResultsViewController), 288 + sizeof(UnityEngine::Coroutine*)> __GlobalNamespace_MissionResultsViewControllerSizeCheck;
   static_assert(sizeof(MissionResultsViewController) == 0x128);
 }
+NEED_NO_BOX(GlobalNamespace::MissionResultsViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionResultsViewController*, "", "MissionResultsViewController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionResultsViewController::add_continueButtonPressedEvent

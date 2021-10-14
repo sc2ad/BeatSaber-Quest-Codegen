@@ -196,6 +196,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(FlickeringNeonSign), 120 + sizeof(GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>*)> __GlobalNamespace_FlickeringNeonSignSizeCheck;
   static_assert(sizeof(FlickeringNeonSign) == 0x80);
 }
+NEED_NO_BOX(GlobalNamespace::FlickeringNeonSign);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlickeringNeonSign*, "", "FlickeringNeonSign");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FlickeringNeonSign::Awake

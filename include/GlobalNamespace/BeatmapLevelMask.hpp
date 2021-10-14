@@ -163,6 +163,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BeatmapLevelMask), 16 + sizeof(GlobalNamespace::BitMaskSparse*)> __GlobalNamespace_BeatmapLevelMaskSizeCheck;
   static_assert(sizeof(BeatmapLevelMask) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::BeatmapLevelMask);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelMask*, "", "BeatmapLevelMask");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelMask::New_ctor

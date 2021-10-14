@@ -70,6 +70,7 @@ namespace Org::BouncyCastle::Crypto::Generators {
   static check_size<sizeof(DHBasicKeyPairGenerator), 16 + sizeof(Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters*)> __Org_BouncyCastle_Crypto_Generators_DHBasicKeyPairGeneratorSizeCheck;
   static_assert(sizeof(DHBasicKeyPairGenerator) == 0x18);
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Generators::DHBasicKeyPairGenerator);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Generators::DHBasicKeyPairGenerator*, "Org.BouncyCastle.Crypto.Generators", "DHBasicKeyPairGenerator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Generators::DHBasicKeyPairGenerator::Init

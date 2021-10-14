@@ -181,6 +181,7 @@ namespace System::Security {
   static check_size<sizeof(SecurityElement), 40 + sizeof(System::Collections::ArrayList*)> __System_Security_SecurityElementSizeCheck;
   static_assert(sizeof(SecurityElement) == 0x30);
 }
+NEED_NO_BOX(System::Security::SecurityElement);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::SecurityElement*, "System.Security", "SecurityElement");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::SecurityElement::get_Attributes

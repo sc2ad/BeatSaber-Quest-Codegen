@@ -54,6 +54,7 @@ namespace System::Reflection {
   }; // System.Reflection.MemberFilter
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Reflection::MemberFilter);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MemberFilter*, "System.Reflection", "MemberFilter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::MemberFilter::New_ctor

@@ -52,6 +52,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::ProBuilder::Poly2Tri::Triangulatable);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::Triangulatable*, "UnityEngine.ProBuilder.Poly2Tri", "Triangulatable");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::Triangulatable::get_Triangles

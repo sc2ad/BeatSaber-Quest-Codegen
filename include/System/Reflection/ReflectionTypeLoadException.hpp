@@ -95,6 +95,7 @@ namespace System::Reflection {
   static check_size<sizeof(ReflectionTypeLoadException), 144 + sizeof(::ArrayW<System::Exception*>)> __System_Reflection_ReflectionTypeLoadExceptionSizeCheck;
   static_assert(sizeof(ReflectionTypeLoadException) == 0x98);
 }
+NEED_NO_BOX(System::Reflection::ReflectionTypeLoadException);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::ReflectionTypeLoadException*, "System.Reflection", "ReflectionTypeLoadException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::ReflectionTypeLoadException::New_ctor

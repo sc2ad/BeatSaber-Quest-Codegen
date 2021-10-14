@@ -62,6 +62,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(CentralLeaderboardViewController::LeaderboardPanel), 32 + sizeof(bool)> __GlobalNamespace_CentralLeaderboardViewController_LeaderboardPanelSizeCheck;
   static_assert(sizeof(CentralLeaderboardViewController::LeaderboardPanel) == 0x21);
 }
+NEED_NO_BOX(GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel*, "", "CentralLeaderboardViewController/LeaderboardPanel");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel::New_ctor

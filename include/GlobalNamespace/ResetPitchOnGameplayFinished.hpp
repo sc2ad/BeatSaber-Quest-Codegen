@@ -69,6 +69,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ResetPitchOnGameplayFinished), 24 + sizeof(GlobalNamespace::AudioManagerSO*)> __GlobalNamespace_ResetPitchOnGameplayFinishedSizeCheck;
   static_assert(sizeof(ResetPitchOnGameplayFinished) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::ResetPitchOnGameplayFinished);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResetPitchOnGameplayFinished*, "", "ResetPitchOnGameplayFinished");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ResetPitchOnGameplayFinished::New_ctor

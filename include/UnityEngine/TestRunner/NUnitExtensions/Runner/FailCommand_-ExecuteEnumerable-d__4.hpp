@@ -135,6 +135,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   static check_size<sizeof(FailCommand::$ExecuteEnumerable$d__4), 56 + sizeof(UnityEngine::TestRunner::NUnitExtensions::Runner::FailCommand*)> __UnityEngine_TestRunner_NUnitExtensions_Runner_FailCommand_$ExecuteEnumerable$d__4SizeCheck;
   static_assert(sizeof(FailCommand::$ExecuteEnumerable$d__4) == 0x40);
 }
+NEED_NO_BOX(UnityEngine::TestRunner::NUnitExtensions::Runner::FailCommand::$ExecuteEnumerable$d__4);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::FailCommand::$ExecuteEnumerable$d__4*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "FailCommand/<ExecuteEnumerable>d__4");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::FailCommand::$ExecuteEnumerable$d__4::System_Collections_Generic_IEnumerator$System_Object$_get_Current

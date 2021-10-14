@@ -158,6 +158,7 @@ namespace System::Security::Cryptography {
   static check_size<sizeof(AesManaged), 72 + sizeof(System::Security::Cryptography::RijndaelManaged*)> __System_Security_Cryptography_AesManagedSizeCheck;
   static_assert(sizeof(AesManaged) == 0x50);
 }
+NEED_NO_BOX(System::Security::Cryptography::AesManaged);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::AesManaged*, "System.Security.Cryptography", "AesManaged");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::AesManaged::get_FeedbackSize

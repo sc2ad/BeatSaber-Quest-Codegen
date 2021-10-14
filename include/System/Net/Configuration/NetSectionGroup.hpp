@@ -32,6 +32,7 @@ namespace System::Net::Configuration {
   }; // System.Net.Configuration.NetSectionGroup
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Net::Configuration::NetSectionGroup);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Configuration::NetSectionGroup*, "System.Net.Configuration", "NetSectionGroup");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Configuration::NetSectionGroup::New_ctor

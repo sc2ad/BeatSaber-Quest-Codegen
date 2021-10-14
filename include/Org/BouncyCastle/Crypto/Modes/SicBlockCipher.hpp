@@ -110,6 +110,7 @@ namespace Org::BouncyCastle::Crypto::Modes {
   static check_size<sizeof(SicBlockCipher), 48 + sizeof(::ArrayW<uint8_t>)> __Org_BouncyCastle_Crypto_Modes_SicBlockCipherSizeCheck;
   static_assert(sizeof(SicBlockCipher) == 0x38);
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Modes::SicBlockCipher);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::SicBlockCipher*, "Org.BouncyCastle.Crypto.Modes", "SicBlockCipher");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Modes::SicBlockCipher::get_AlgorithmName

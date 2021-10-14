@@ -128,6 +128,7 @@ namespace UnityEngine {
   static check_size<sizeof(Logger), 28 + sizeof(UnityEngine::LogType)> __UnityEngine_LoggerSizeCheck;
   static_assert(sizeof(Logger) == 0x20);
 }
+NEED_NO_BOX(UnityEngine::Logger);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Logger*, "UnityEngine", "Logger");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Logger::get_logHandler

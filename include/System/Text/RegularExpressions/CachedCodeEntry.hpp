@@ -129,6 +129,7 @@ namespace System::Text::RegularExpressions {
   static check_size<sizeof(CachedCodeEntry), 80 + sizeof(System::Text::RegularExpressions::SharedReference*)> __System_Text_RegularExpressions_CachedCodeEntrySizeCheck;
   static_assert(sizeof(CachedCodeEntry) == 0x58);
 }
+NEED_NO_BOX(System::Text::RegularExpressions::CachedCodeEntry);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::CachedCodeEntry*, "System.Text.RegularExpressions", "CachedCodeEntry");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::RegularExpressions::CachedCodeEntry::New_ctor

@@ -34,6 +34,7 @@ namespace GlobalNamespace {
     }
   }; // GameplayRpcManager/SetSongStartTimeRpc
 }
+NEED_NO_BOX(GlobalNamespace::GameplayRpcManager::SetSongStartTimeRpc);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayRpcManager::SetSongStartTimeRpc*, "", "GameplayRpcManager/SetSongStartTimeRpc");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameplayRpcManager::SetSongStartTimeRpc::New_ctor

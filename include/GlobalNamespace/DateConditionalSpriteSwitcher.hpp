@@ -103,6 +103,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(DateConditionalSpriteSwitcher), 48 + sizeof(GlobalNamespace::ConditionalSpriteSwitcher*)> __GlobalNamespace_DateConditionalSpriteSwitcherSizeCheck;
   static_assert(sizeof(DateConditionalSpriteSwitcher) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::DateConditionalSpriteSwitcher);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DateConditionalSpriteSwitcher*, "", "DateConditionalSpriteSwitcher");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DateConditionalSpriteSwitcher::Awake

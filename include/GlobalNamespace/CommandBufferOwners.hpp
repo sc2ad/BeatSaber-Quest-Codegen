@@ -84,6 +84,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(CommandBufferOwners), 24 + sizeof(UnityEngine::Rendering::CommandBuffer*)> __GlobalNamespace_CommandBufferOwnersSizeCheck;
   static_assert(sizeof(CommandBufferOwners) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::CommandBufferOwners);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CommandBufferOwners*, "", "CommandBufferOwners");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CommandBufferOwners::get_NumberOfOwners

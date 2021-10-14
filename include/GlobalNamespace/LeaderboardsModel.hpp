@@ -40,6 +40,7 @@ namespace GlobalNamespace {
   }; // LeaderboardsModel
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::LeaderboardsModel);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardsModel*, "", "LeaderboardsModel");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LeaderboardsModel::GetLeaderboardID

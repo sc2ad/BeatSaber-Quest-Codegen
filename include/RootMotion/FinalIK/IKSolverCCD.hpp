@@ -76,6 +76,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(IKSolverCCD), 136 + sizeof(RootMotion::FinalIK::IKSolver::IterationDelegate*)> __RootMotion_FinalIK_IKSolverCCDSizeCheck;
   static_assert(sizeof(IKSolverCCD) == 0x90);
 }
+NEED_NO_BOX(RootMotion::FinalIK::IKSolverCCD);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverCCD*, "RootMotion.FinalIK", "IKSolverCCD");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverCCD::FadeOutBoneWeights

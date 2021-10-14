@@ -210,6 +210,7 @@ namespace System::Collections {
   static check_size<sizeof(ArrayList), 32 + sizeof(::Il2CppObject*)> __System_Collections_ArrayListSizeCheck;
   static_assert(sizeof(ArrayList) == 0x28);
 }
+NEED_NO_BOX(System::Collections::ArrayList);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::ArrayList*, "System.Collections", "ArrayList");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::ArrayList::set_Capacity

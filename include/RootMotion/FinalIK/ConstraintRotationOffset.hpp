@@ -113,6 +113,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(ConstraintRotationOffset), 108 + sizeof(bool)> __RootMotion_FinalIK_ConstraintRotationOffsetSizeCheck;
   static_assert(sizeof(ConstraintRotationOffset) == 0x6D);
 }
+NEED_NO_BOX(RootMotion::FinalIK::ConstraintRotationOffset);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::ConstraintRotationOffset*, "RootMotion.FinalIK", "ConstraintRotationOffset");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::ConstraintRotationOffset::get_rotationChanged

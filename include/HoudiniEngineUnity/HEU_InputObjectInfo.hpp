@@ -167,6 +167,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_InputObjectInfo), 152 + sizeof(System::Type*)> __HoudiniEngineUnity_HEU_InputObjectInfoSizeCheck;
   static_assert(sizeof(HEU_InputObjectInfo) == 0xA0);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_InputObjectInfo);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_InputObjectInfo*, "HoudiniEngineUnity", "HEU_InputObjectInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_InputObjectInfo::CopyTo

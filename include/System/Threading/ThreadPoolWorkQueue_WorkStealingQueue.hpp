@@ -105,6 +105,7 @@ namespace System::Threading {
   static check_size<sizeof(ThreadPoolWorkQueue::WorkStealingQueue), 36 + sizeof(System::Threading::SpinLock)> __System_Threading_ThreadPoolWorkQueue_WorkStealingQueueSizeCheck;
   static_assert(sizeof(ThreadPoolWorkQueue::WorkStealingQueue) == 0x28);
 }
+NEED_NO_BOX(System::Threading::ThreadPoolWorkQueue::WorkStealingQueue);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ThreadPoolWorkQueue::WorkStealingQueue*, "System.Threading", "ThreadPoolWorkQueue/WorkStealingQueue");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::ThreadPoolWorkQueue::WorkStealingQueue::LocalPush

@@ -115,6 +115,7 @@ namespace System::Net {
   static check_size<sizeof(NetworkCredential), 32 + sizeof(System::Security::SecureString*)> __System_Net_NetworkCredentialSizeCheck;
   static_assert(sizeof(NetworkCredential) == 0x28);
 }
+NEED_NO_BOX(System::Net::NetworkCredential);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkCredential*, "System.Net", "NetworkCredential");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::NetworkCredential::get_UserName

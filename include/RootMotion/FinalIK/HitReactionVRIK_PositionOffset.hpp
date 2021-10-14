@@ -100,6 +100,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(HitReactionVRIK::PositionOffset), 88 + sizeof(::ArrayW<RootMotion::FinalIK::HitReactionVRIK::PositionOffset::PositionOffsetLink*>)> __RootMotion_FinalIK_HitReactionVRIK_PositionOffsetSizeCheck;
   static_assert(sizeof(HitReactionVRIK::PositionOffset) == 0x60);
 }
+NEED_NO_BOX(RootMotion::FinalIK::HitReactionVRIK::PositionOffset);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::HitReactionVRIK::PositionOffset*, "RootMotion.FinalIK", "HitReactionVRIK/PositionOffset");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::HitReactionVRIK::PositionOffset::New_ctor

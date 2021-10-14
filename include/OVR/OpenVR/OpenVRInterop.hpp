@@ -71,6 +71,7 @@ namespace OVR::OpenVR {
   }; // OVR.OpenVR.OpenVRInterop
   #pragma pack(pop)
 }
+NEED_NO_BOX(OVR::OpenVR::OpenVRInterop);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::OpenVRInterop*, "OVR.OpenVR", "OpenVRInterop");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::OpenVRInterop::InitInternal

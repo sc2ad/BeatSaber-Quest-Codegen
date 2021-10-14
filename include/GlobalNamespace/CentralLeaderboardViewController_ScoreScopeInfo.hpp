@@ -81,6 +81,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(CentralLeaderboardViewController::ScoreScopeInfo), 40 + sizeof(int)> __GlobalNamespace_CentralLeaderboardViewController_ScoreScopeInfoSizeCheck;
   static_assert(sizeof(CentralLeaderboardViewController::ScoreScopeInfo) == 0x2C);
 }
+NEED_NO_BOX(GlobalNamespace::CentralLeaderboardViewController::ScoreScopeInfo);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CentralLeaderboardViewController::ScoreScopeInfo*, "", "CentralLeaderboardViewController/ScoreScopeInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CentralLeaderboardViewController::ScoreScopeInfo::New_ctor

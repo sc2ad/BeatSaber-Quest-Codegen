@@ -57,6 +57,7 @@ namespace UnityEngine::Animations {
   }; // UnityEngine.Animations.AnimationPlayableExtensions
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::Animations::AnimationPlayableExtensions);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationPlayableExtensions*, "UnityEngine.Animations", "AnimationPlayableExtensions");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Animations::AnimationPlayableExtensions::SetAnimatedProperties

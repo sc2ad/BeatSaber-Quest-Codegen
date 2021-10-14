@@ -55,6 +55,7 @@ namespace System::Runtime::InteropServices {
   static check_size<sizeof(GuidAttribute), 16 + sizeof(::Il2CppString*)> __System_Runtime_InteropServices_GuidAttributeSizeCheck;
   static_assert(sizeof(GuidAttribute) == 0x18);
 }
+NEED_NO_BOX(System::Runtime::InteropServices::GuidAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::GuidAttribute*, "System.Runtime.InteropServices", "GuidAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::InteropServices::GuidAttribute::get_Value

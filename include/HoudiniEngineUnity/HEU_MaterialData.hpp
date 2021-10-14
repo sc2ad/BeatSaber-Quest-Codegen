@@ -179,6 +179,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_MaterialData), 36 + sizeof(int)> __HoudiniEngineUnity_HEU_MaterialDataSizeCheck;
   static_assert(sizeof(HEU_MaterialData) == 0x28);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_MaterialData);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_MaterialData*, "HoudiniEngineUnity", "HEU_MaterialData");
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_MaterialData::Source, "HoudiniEngineUnity", "HEU_MaterialData/Source");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

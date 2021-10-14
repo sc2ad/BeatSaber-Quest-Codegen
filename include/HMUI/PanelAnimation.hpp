@@ -66,6 +66,7 @@ namespace HMUI {
   }; // HMUI.PanelAnimation
   #pragma pack(pop)
 }
+NEED_NO_BOX(HMUI::PanelAnimation);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::PanelAnimation*, "HMUI", "PanelAnimation");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::PanelAnimation::StartAnimation

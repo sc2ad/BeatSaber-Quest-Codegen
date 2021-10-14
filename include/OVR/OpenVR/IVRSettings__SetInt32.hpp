@@ -56,6 +56,7 @@ namespace OVR::OpenVR {
   }; // OVR.OpenVR.IVRSettings/OVR.OpenVR._SetInt32
   #pragma pack(pop)
 }
+NEED_NO_BOX(OVR::OpenVR::IVRSettings::_SetInt32);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRSettings::_SetInt32*, "OVR.OpenVR", "IVRSettings/_SetInt32");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVRSettings::_SetInt32::New_ctor

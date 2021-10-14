@@ -138,6 +138,7 @@ namespace System::IO {
   static check_size<sizeof(StringWriter), 48 + sizeof(bool)> __System_IO_StringWriterSizeCheck;
   static_assert(sizeof(StringWriter) == 0x31);
 }
+NEED_NO_BOX(System::IO::StringWriter);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::StringWriter*, "System.IO", "StringWriter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::StringWriter::New_ctor

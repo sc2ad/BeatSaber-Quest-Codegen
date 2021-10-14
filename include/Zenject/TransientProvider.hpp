@@ -128,6 +128,7 @@ namespace Zenject {
   static check_size<sizeof(TransientProvider), 48 + sizeof(System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>*)> __Zenject_TransientProviderSizeCheck;
   static_assert(sizeof(TransientProvider) == 0x38);
 }
+NEED_NO_BOX(Zenject::TransientProvider);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::TransientProvider*, "Zenject", "TransientProvider");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::TransientProvider::get_IsCached

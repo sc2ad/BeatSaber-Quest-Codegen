@@ -84,6 +84,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SongPreviewPlayerPauseOnInputFocusLost), 32 + sizeof(GlobalNamespace::IVRPlatformHelper*)> __GlobalNamespace_SongPreviewPlayerPauseOnInputFocusLostSizeCheck;
   static_assert(sizeof(SongPreviewPlayerPauseOnInputFocusLost) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost*, "", "SongPreviewPlayerPauseOnInputFocusLost");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::Start

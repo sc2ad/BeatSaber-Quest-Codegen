@@ -62,6 +62,7 @@ namespace System::Text {
   }; // System.Text.UTF7Encoding/System.Text.DecoderUTF7Fallback
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Text::UTF7Encoding::DecoderUTF7Fallback);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::UTF7Encoding::DecoderUTF7Fallback*, "System.Text", "UTF7Encoding/DecoderUTF7Fallback");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::UTF7Encoding::DecoderUTF7Fallback::get_MaxCharCount

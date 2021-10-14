@@ -163,6 +163,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerEnvironmentResizeController), 66 + sizeof(bool)> __GlobalNamespace_MultiplayerEnvironmentResizeControllerSizeCheck;
   static_assert(sizeof(MultiplayerEnvironmentResizeController) == 0x43);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerEnvironmentResizeController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerEnvironmentResizeController*, "", "MultiplayerEnvironmentResizeController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerEnvironmentResizeController::get_isResizingFinished

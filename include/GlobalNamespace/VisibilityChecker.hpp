@@ -88,6 +88,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(VisibilityChecker), 32 + sizeof(System::Action*)> __GlobalNamespace_VisibilityCheckerSizeCheck;
   static_assert(sizeof(VisibilityChecker) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::VisibilityChecker);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VisibilityChecker*, "", "VisibilityChecker");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::VisibilityChecker::add_OnBecameVisibleEvent

@@ -61,6 +61,7 @@ namespace System {
   static check_size<sizeof(MonoTODOAttribute), 16 + sizeof(::Il2CppString*)> __System_MonoTODOAttributeSizeCheck;
   static_assert(sizeof(MonoTODOAttribute) == 0x18);
 }
+NEED_NO_BOX(System::MonoTODOAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::MonoTODOAttribute*, "System", "MonoTODOAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::MonoTODOAttribute::New_ctor

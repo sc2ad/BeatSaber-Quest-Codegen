@@ -156,6 +156,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PatternFightScenesTransitionSetupDataSO), 64 + sizeof(System::Action_2<GlobalNamespace::PatternFightScenesTransitionSetupDataSO*, GlobalNamespace::PatternFightScenesTransitionSetupDataSO::PatternFightEndStateType>*)> __GlobalNamespace_PatternFightScenesTransitionSetupDataSOSizeCheck;
   static_assert(sizeof(PatternFightScenesTransitionSetupDataSO) == 0x48);
 }
+NEED_NO_BOX(GlobalNamespace::PatternFightScenesTransitionSetupDataSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PatternFightScenesTransitionSetupDataSO*, "", "PatternFightScenesTransitionSetupDataSO");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PatternFightScenesTransitionSetupDataSO::PatternFightEndStateType, "", "PatternFightScenesTransitionSetupDataSO/PatternFightEndStateType");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

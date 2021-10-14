@@ -78,6 +78,7 @@ namespace UnityEngine::ProBuilder {
   static check_size<sizeof(XYZColor), 24 + sizeof(float)> __UnityEngine_ProBuilder_XYZColorSizeCheck;
   static_assert(sizeof(XYZColor) == 0x1C);
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::XYZColor);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::XYZColor*, "UnityEngine.ProBuilder", "XYZColor");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::XYZColor::New_ctor

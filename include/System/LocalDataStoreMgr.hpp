@@ -148,6 +148,7 @@ namespace System {
   static check_size<sizeof(LocalDataStoreMgr), 48 + sizeof(int64_t)> __System_LocalDataStoreMgrSizeCheck;
   static_assert(sizeof(LocalDataStoreMgr) == 0x38);
 }
+NEED_NO_BOX(System::LocalDataStoreMgr);
 DEFINE_IL2CPP_ARG_TYPE(System::LocalDataStoreMgr*, "System", "LocalDataStoreMgr");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::LocalDataStoreMgr::CreateLocalDataStore

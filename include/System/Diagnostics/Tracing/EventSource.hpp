@@ -70,6 +70,7 @@ namespace System::Diagnostics::Tracing {
   }; // System.Diagnostics.Tracing.EventSource
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Diagnostics::Tracing::EventSource);
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventSource*, "System.Diagnostics.Tracing", "EventSource");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Diagnostics::Tracing::EventSource::_cctor

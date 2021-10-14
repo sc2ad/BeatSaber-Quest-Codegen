@@ -33,6 +33,7 @@ namespace UnityEngine::UI {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::UI::IVertexModifier);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::IVertexModifier*, "UnityEngine.UI", "IVertexModifier");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::IVertexModifier::ModifyVertices

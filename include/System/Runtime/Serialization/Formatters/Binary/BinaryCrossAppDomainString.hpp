@@ -67,6 +67,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   static check_size<sizeof(BinaryCrossAppDomainString), 20 + sizeof(int)> __System_Runtime_Serialization_Formatters_Binary_BinaryCrossAppDomainStringSizeCheck;
   static_assert(sizeof(BinaryCrossAppDomainString) == 0x18);
 }
+NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainString);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainString*, "System.Runtime.Serialization.Formatters.Binary", "BinaryCrossAppDomainString");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainString::Read

@@ -88,6 +88,7 @@ namespace OnlineServices {
   static check_size<sizeof(LeaderboardEntryData), 40 + sizeof(GlobalNamespace::GameplayModifiers*)> __OnlineServices_LeaderboardEntryDataSizeCheck;
   static_assert(sizeof(LeaderboardEntryData) == 0x30);
 }
+NEED_NO_BOX(OnlineServices::LeaderboardEntryData);
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::LeaderboardEntryData*, "OnlineServices", "LeaderboardEntryData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OnlineServices::LeaderboardEntryData::New_ctor

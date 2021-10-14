@@ -111,6 +111,7 @@ namespace UnityEngine::AddressableAssets {
   static check_size<sizeof(AddressablesImpl::$$c__DisplayClass70_0), 40 + sizeof(System::Type*)> __UnityEngine_AddressableAssets_AddressablesImpl_$$c__DisplayClass70_0SizeCheck;
   static_assert(sizeof(AddressablesImpl::$$c__DisplayClass70_0) == 0x30);
 }
+NEED_NO_BOX(UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass70_0);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass70_0*, "UnityEngine.AddressableAssets", "AddressablesImpl/<>c__DisplayClass70_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass70_0::$LoadResourceLocationsWithChain$b__0

@@ -180,6 +180,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PlayerSaveData::PlayerSpecificSettings), 56 + sizeof(GlobalNamespace::EnvironmentEffectsFilterPreset)> __GlobalNamespace_PlayerSaveData_PlayerSpecificSettingsSizeCheck;
   static_assert(sizeof(PlayerSaveData::PlayerSpecificSettings) == 0x3C);
 }
+NEED_NO_BOX(GlobalNamespace::PlayerSaveData::PlayerSpecificSettings);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveData::PlayerSpecificSettings*, "", "PlayerSaveData/PlayerSpecificSettings");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSaveData::PlayerSpecificSettings::New_ctor

@@ -49,6 +49,7 @@ namespace System::Collections::Generic {
   }; // System.Collections.Generic.ObjectEqualityComparer
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Collections::Generic::ObjectEqualityComparer);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Generic::ObjectEqualityComparer*, "System.Collections.Generic", "ObjectEqualityComparer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::Generic::ObjectEqualityComparer::_cctor

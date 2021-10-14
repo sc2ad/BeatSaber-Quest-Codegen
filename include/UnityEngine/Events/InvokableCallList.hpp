@@ -103,6 +103,7 @@ namespace UnityEngine::Events {
   static check_size<sizeof(InvokableCallList), 40 + sizeof(bool)> __UnityEngine_Events_InvokableCallListSizeCheck;
   static_assert(sizeof(InvokableCallList) == 0x29);
 }
+NEED_NO_BOX(UnityEngine::Events::InvokableCallList);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Events::InvokableCallList*, "UnityEngine.Events", "InvokableCallList");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Events::InvokableCallList::AddPersistentInvokableCall

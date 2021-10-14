@@ -156,6 +156,7 @@ namespace System::Resources {
   static check_size<sizeof(RuntimeResourceSet), 64 + sizeof(bool)> __System_Resources_RuntimeResourceSetSizeCheck;
   static_assert(sizeof(RuntimeResourceSet) == 0x41);
 }
+NEED_NO_BOX(System::Resources::RuntimeResourceSet);
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::RuntimeResourceSet*, "System.Resources", "RuntimeResourceSet");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Resources::RuntimeResourceSet::New_ctor

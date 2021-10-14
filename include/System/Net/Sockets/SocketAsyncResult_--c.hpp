@@ -54,6 +54,7 @@ namespace System::Net::Sockets {
   }; // System.Net.Sockets.SocketAsyncResult/System.Net.Sockets.<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Net::Sockets::SocketAsyncResult::$$c);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::SocketAsyncResult::$$c*, "System.Net.Sockets", "SocketAsyncResult/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Sockets::SocketAsyncResult::$$c::_cctor

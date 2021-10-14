@@ -1783,6 +1783,7 @@ namespace Zenject {
   static check_size<sizeof(DiContainer), 156 + sizeof(bool)> __Zenject_DiContainerSizeCheck;
   static_assert(sizeof(DiContainer) == 0x9D);
 }
+NEED_NO_BOX(Zenject::DiContainer);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DiContainer*, "Zenject", "DiContainer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::DiContainer::get_Settings

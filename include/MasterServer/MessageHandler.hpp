@@ -1153,6 +1153,7 @@ namespace MasterServer {
   static check_size<sizeof(MessageHandler), 120 + sizeof(System::Threading::CancellationTokenSource*)> __MasterServer_MessageHandlerSizeCheck;
   static_assert(sizeof(MessageHandler) == 0x80);
 }
+NEED_NO_BOX(MasterServer::MessageHandler);
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler*, "MasterServer", "MessageHandler");
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::RequestWaiterId, "MasterServer", "MessageHandler/RequestWaiterId");
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::MessageOrigin, "MasterServer", "MessageHandler/MessageOrigin");

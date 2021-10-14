@@ -112,6 +112,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(GameObjectSwitchEventEffect), 48 + sizeof(GlobalNamespace::IBeatmapObjectCallbackController*)> __GlobalNamespace_GameObjectSwitchEventEffectSizeCheck;
   static_assert(sizeof(GameObjectSwitchEventEffect) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::GameObjectSwitchEventEffect);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameObjectSwitchEventEffect*, "", "GameObjectSwitchEventEffect");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameObjectSwitchEventEffect::Start

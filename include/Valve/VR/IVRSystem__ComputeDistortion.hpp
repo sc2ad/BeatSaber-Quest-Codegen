@@ -58,6 +58,7 @@ namespace Valve::VR {
   }; // Valve.VR.IVRSystem/Valve.VR._ComputeDistortion
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::IVRSystem::_ComputeDistortion);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem::_ComputeDistortion*, "Valve.VR", "IVRSystem/_ComputeDistortion");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRSystem::_ComputeDistortion::New_ctor

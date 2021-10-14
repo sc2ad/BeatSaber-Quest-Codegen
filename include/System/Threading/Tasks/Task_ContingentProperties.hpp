@@ -137,6 +137,7 @@ namespace System::Threading::Tasks {
   static check_size<sizeof(Task::ContingentProperties), 64 + sizeof(System::Collections::Generic::List_1<System::Threading::Tasks::Task*>*)> __System_Threading_Tasks_Task_ContingentPropertiesSizeCheck;
   static_assert(sizeof(Task::ContingentProperties) == 0x48);
 }
+NEED_NO_BOX(System::Threading::Tasks::Task::ContingentProperties);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::Task::ContingentProperties*, "System.Threading.Tasks", "Task/ContingentProperties");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::Tasks::Task::ContingentProperties::SetCompleted

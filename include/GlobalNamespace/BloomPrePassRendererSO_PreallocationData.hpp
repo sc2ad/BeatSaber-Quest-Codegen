@@ -63,6 +63,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BloomPrePassRendererSO::PreallocationData), 24 + sizeof(int)> __GlobalNamespace_BloomPrePassRendererSO_PreallocationDataSizeCheck;
   static_assert(sizeof(BloomPrePassRendererSO::PreallocationData) == 0x1C);
 }
+NEED_NO_BOX(GlobalNamespace::BloomPrePassRendererSO::PreallocationData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassRendererSO::PreallocationData*, "", "BloomPrePassRendererSO/PreallocationData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePassRendererSO::PreallocationData::New_ctor

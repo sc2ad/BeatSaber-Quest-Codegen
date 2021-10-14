@@ -55,6 +55,7 @@ namespace RootMotion {
   static check_size<sizeof(Comments), 24 + sizeof(::Il2CppString*)> __RootMotion_CommentsSizeCheck;
   static_assert(sizeof(Comments) == 0x20);
 }
+NEED_NO_BOX(RootMotion::Comments);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::Comments*, "RootMotion", "Comments");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::Comments::New_ctor

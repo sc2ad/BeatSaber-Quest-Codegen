@@ -85,6 +85,7 @@ namespace System {
   static check_size<sizeof(DelegateSerializationHolder), 16 + sizeof(System::Delegate*)> __System_DelegateSerializationHolderSizeCheck;
   static_assert(sizeof(DelegateSerializationHolder) == 0x18);
 }
+NEED_NO_BOX(System::DelegateSerializationHolder);
 DEFINE_IL2CPP_ARG_TYPE(System::DelegateSerializationHolder*, "System", "DelegateSerializationHolder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::DelegateSerializationHolder::New_ctor

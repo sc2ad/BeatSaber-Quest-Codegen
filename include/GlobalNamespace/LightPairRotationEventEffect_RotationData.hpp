@@ -99,6 +99,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LightPairRotationEventEffect::RotationData), 52 + sizeof(float)> __GlobalNamespace_LightPairRotationEventEffect_RotationDataSizeCheck;
   static_assert(sizeof(LightPairRotationEventEffect::RotationData) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::LightPairRotationEventEffect::RotationData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightPairRotationEventEffect::RotationData*, "", "LightPairRotationEventEffect/RotationData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LightPairRotationEventEffect::RotationData::New_ctor

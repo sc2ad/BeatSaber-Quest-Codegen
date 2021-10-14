@@ -90,6 +90,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(EnableOnVisible), 32 + sizeof(::ArrayW<UnityEngine::Behaviour*>)> __GlobalNamespace_EnableOnVisibleSizeCheck;
   static_assert(sizeof(EnableOnVisible) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::EnableOnVisible);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnableOnVisible*, "", "EnableOnVisible");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EnableOnVisible::add_VisibilityChangedEvent

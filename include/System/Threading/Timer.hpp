@@ -151,6 +151,7 @@ namespace System::Threading {
   static check_size<sizeof(Timer), 64 + sizeof(bool)> __System_Threading_TimerSizeCheck;
   static_assert(sizeof(Timer) == 0x41);
 }
+NEED_NO_BOX(System::Threading::Timer);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Timer*, "System.Threading", "Timer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::Timer::New_ctor

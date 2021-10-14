@@ -214,6 +214,7 @@ namespace UnityEngine::Tilemaps {
   static check_size<sizeof(Tile), 124 + sizeof(UnityEngine::Tilemaps::Tile::ColliderType)> __UnityEngine_Tilemaps_TileSizeCheck;
   static_assert(sizeof(Tile) == 0x80);
 }
+NEED_NO_BOX(UnityEngine::Tilemaps::Tile);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Tilemaps::Tile*, "UnityEngine.Tilemaps", "Tile");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Tilemaps::Tile::ColliderType, "UnityEngine.Tilemaps", "Tile/ColliderType");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -65,6 +65,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MarkSceneAsPersistent), 24 + sizeof(GlobalNamespace::GameScenesManager*)> __GlobalNamespace_MarkSceneAsPersistentSizeCheck;
   static_assert(sizeof(MarkSceneAsPersistent) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::MarkSceneAsPersistent);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MarkSceneAsPersistent*, "", "MarkSceneAsPersistent");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MarkSceneAsPersistent::Awake

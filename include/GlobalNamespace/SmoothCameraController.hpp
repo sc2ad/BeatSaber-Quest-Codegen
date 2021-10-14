@@ -99,6 +99,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SmoothCameraController), 40 + sizeof(LIV::SDK::Unity::LIV*)> __GlobalNamespace_SmoothCameraControllerSizeCheck;
   static_assert(sizeof(SmoothCameraController) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::SmoothCameraController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SmoothCameraController*, "", "SmoothCameraController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SmoothCameraController::Start

@@ -284,6 +284,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerLevelLoader), 116 + sizeof(bool)> __GlobalNamespace_MultiplayerLevelLoaderSizeCheck;
   static_assert(sizeof(MultiplayerLevelLoader) == 0x75);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerLevelLoader);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLevelLoader*, "", "MultiplayerLevelLoader");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLevelLoader::MultiplayerBeatmapLoaderState, "", "MultiplayerLevelLoader/MultiplayerBeatmapLoaderState");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

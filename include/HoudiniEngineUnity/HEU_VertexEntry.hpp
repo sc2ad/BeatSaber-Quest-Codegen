@@ -60,6 +60,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_VertexEntry), 24 + sizeof(int)> __HoudiniEngineUnity_HEU_VertexEntrySizeCheck;
   static_assert(sizeof(HEU_VertexEntry) == 0x1C);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_VertexEntry);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_VertexEntry*, "HoudiniEngineUnity", "HEU_VertexEntry");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_VertexEntry::New_ctor

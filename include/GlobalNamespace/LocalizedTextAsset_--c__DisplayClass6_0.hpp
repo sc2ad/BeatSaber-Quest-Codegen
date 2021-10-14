@@ -58,6 +58,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LocalizedTextAsset::$$c__DisplayClass6_0), 16 + sizeof(Polyglot::Language)> __GlobalNamespace_LocalizedTextAsset_$$c__DisplayClass6_0SizeCheck;
   static_assert(sizeof(LocalizedTextAsset::$$c__DisplayClass6_0) == 0x14);
 }
+NEED_NO_BOX(GlobalNamespace::LocalizedTextAsset::$$c__DisplayClass6_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalizedTextAsset::$$c__DisplayClass6_0*, "", "LocalizedTextAsset/<>c__DisplayClass6_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LocalizedTextAsset::$$c__DisplayClass6_0::$get_localizedText$b__1

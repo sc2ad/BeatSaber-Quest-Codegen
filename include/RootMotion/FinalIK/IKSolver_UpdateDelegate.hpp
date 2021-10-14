@@ -50,6 +50,7 @@ namespace RootMotion::FinalIK {
   }; // RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.UpdateDelegate
   #pragma pack(pop)
 }
+NEED_NO_BOX(RootMotion::FinalIK::IKSolver::UpdateDelegate);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolver::UpdateDelegate*, "RootMotion.FinalIK", "IKSolver/UpdateDelegate");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolver::UpdateDelegate::New_ctor

@@ -110,6 +110,7 @@ namespace Org::BouncyCastle::Asn1 {
   static check_size<sizeof(DerBoolean), 16 + sizeof(uint8_t)> __Org_BouncyCastle_Asn1_DerBooleanSizeCheck;
   static_assert(sizeof(DerBoolean) == 0x11);
 }
+NEED_NO_BOX(Org::BouncyCastle::Asn1::DerBoolean);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerBoolean*, "Org.BouncyCastle.Asn1", "DerBoolean");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerBoolean::get_IsTrue

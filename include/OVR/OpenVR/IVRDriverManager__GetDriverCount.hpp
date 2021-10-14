@@ -51,6 +51,7 @@ namespace OVR::OpenVR {
   }; // OVR.OpenVR.IVRDriverManager/OVR.OpenVR._GetDriverCount
   #pragma pack(pop)
 }
+NEED_NO_BOX(OVR::OpenVR::IVRDriverManager::_GetDriverCount);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRDriverManager::_GetDriverCount*, "OVR.OpenVR", "IVRDriverManager/_GetDriverCount");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVRDriverManager::_GetDriverCount::New_ctor

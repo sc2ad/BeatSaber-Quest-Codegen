@@ -50,6 +50,7 @@ namespace UnityEngine::EventSystems {
   }; // UnityEngine.EventSystems.PhysicsRaycaster/UnityEngine.EventSystems.RaycastHitComparer
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::EventSystems::PhysicsRaycaster::RaycastHitComparer);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::PhysicsRaycaster::RaycastHitComparer*, "UnityEngine.EventSystems", "PhysicsRaycaster/RaycastHitComparer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::EventSystems::PhysicsRaycaster::RaycastHitComparer::_cctor

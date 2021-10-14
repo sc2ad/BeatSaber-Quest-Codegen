@@ -99,6 +99,7 @@ namespace System::Reflection {
   static check_size<sizeof(StrongNameKeyPair), 40 + sizeof(::ArrayW<uint8_t>)> __System_Reflection_StrongNameKeyPairSizeCheck;
   static_assert(sizeof(StrongNameKeyPair) == 0x30);
 }
+NEED_NO_BOX(System::Reflection::StrongNameKeyPair);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::StrongNameKeyPair*, "System.Reflection", "StrongNameKeyPair");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::StrongNameKeyPair::New_ctor

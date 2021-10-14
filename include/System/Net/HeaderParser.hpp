@@ -49,6 +49,7 @@ namespace System::Net {
   }; // System.Net.HeaderParser
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Net::HeaderParser);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HeaderParser*, "System.Net", "HeaderParser");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::HeaderParser::New_ctor

@@ -81,6 +81,7 @@ namespace System::Runtime::CompilerServices {
   static check_size<sizeof(RuntimeWrappedException), 136 + sizeof(::Il2CppObject*)> __System_Runtime_CompilerServices_RuntimeWrappedExceptionSizeCheck;
   static_assert(sizeof(RuntimeWrappedException) == 0x90);
 }
+NEED_NO_BOX(System::Runtime::CompilerServices::RuntimeWrappedException);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::RuntimeWrappedException*, "System.Runtime.CompilerServices", "RuntimeWrappedException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::RuntimeWrappedException::New_ctor

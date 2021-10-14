@@ -108,6 +108,7 @@ namespace HMUI {
   static check_size<sizeof(CurvedCanvasSettings), 144 + sizeof(bool)> __HMUI_CurvedCanvasSettingsSizeCheck;
   static_assert(sizeof(CurvedCanvasSettings) == 0x91);
 }
+NEED_NO_BOX(HMUI::CurvedCanvasSettings);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::CurvedCanvasSettings*, "HMUI", "CurvedCanvasSettings");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::CurvedCanvasSettings::get_radius

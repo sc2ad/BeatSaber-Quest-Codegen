@@ -84,6 +84,7 @@ namespace System::Text {
   static check_size<sizeof(DecoderFallback), 16 + sizeof(bool)> __System_Text_DecoderFallbackSizeCheck;
   static_assert(sizeof(DecoderFallback) == 0x11);
 }
+NEED_NO_BOX(System::Text::DecoderFallback);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::DecoderFallback*, "System.Text", "DecoderFallback");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::DecoderFallback::get_InternalSyncObject

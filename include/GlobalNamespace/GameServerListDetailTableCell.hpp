@@ -102,6 +102,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(GameServerListDetailTableCell), 96 + sizeof(HMUI::ButtonBinder*)> __GlobalNamespace_GameServerListDetailTableCellSizeCheck;
   static_assert(sizeof(GameServerListDetailTableCell) == 0x68);
 }
+NEED_NO_BOX(GlobalNamespace::GameServerListDetailTableCell);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServerListDetailTableCell*, "", "GameServerListDetailTableCell");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameServerListDetailTableCell::add_joinServerButtonWasPressedEvent

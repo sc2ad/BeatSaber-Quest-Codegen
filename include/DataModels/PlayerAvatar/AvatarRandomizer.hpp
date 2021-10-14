@@ -50,6 +50,7 @@ namespace DataModels::PlayerAvatar {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(DataModels::PlayerAvatar::AvatarRandomizer);
 DEFINE_IL2CPP_ARG_TYPE(DataModels::PlayerAvatar::AvatarRandomizer*, "DataModels.PlayerAvatar", "AvatarRandomizer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: DataModels::PlayerAvatar::AvatarRandomizer::_cctor

@@ -117,6 +117,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PlayerOptionsViewController), 136 + sizeof(System::Action_1<HMUI::ViewController*>*)> __GlobalNamespace_PlayerOptionsViewControllerSizeCheck;
   static_assert(sizeof(PlayerOptionsViewController) == 0x90);
 }
+NEED_NO_BOX(GlobalNamespace::PlayerOptionsViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerOptionsViewController*, "", "PlayerOptionsViewController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayerOptionsViewController::add_didFinishEvent

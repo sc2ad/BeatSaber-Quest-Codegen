@@ -84,6 +84,7 @@ namespace Zenject {
   static check_size<sizeof(SubContainerCreatorByNewGameObjectInstaller), 40 + sizeof(System::Collections::Generic::List_1<Zenject::TypeValuePair>*)> __Zenject_SubContainerCreatorByNewGameObjectInstallerSizeCheck;
   static_assert(sizeof(SubContainerCreatorByNewGameObjectInstaller) == 0x30);
 }
+NEED_NO_BOX(Zenject::SubContainerCreatorByNewGameObjectInstaller);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerCreatorByNewGameObjectInstaller*, "Zenject", "SubContainerCreatorByNewGameObjectInstaller");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::SubContainerCreatorByNewGameObjectInstaller::New_ctor

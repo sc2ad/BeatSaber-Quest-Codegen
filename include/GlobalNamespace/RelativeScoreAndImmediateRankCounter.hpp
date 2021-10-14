@@ -144,6 +144,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(RelativeScoreAndImmediateRankCounter), 60 + sizeof(GlobalNamespace::RankModel::Rank)> __GlobalNamespace_RelativeScoreAndImmediateRankCounterSizeCheck;
   static_assert(sizeof(RelativeScoreAndImmediateRankCounter) == 0x40);
 }
+NEED_NO_BOX(GlobalNamespace::RelativeScoreAndImmediateRankCounter);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RelativeScoreAndImmediateRankCounter*, "", "RelativeScoreAndImmediateRankCounter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::RelativeScoreAndImmediateRankCounter::get_relativeScore

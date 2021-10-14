@@ -91,6 +91,7 @@ namespace Zenject {
   static check_size<sizeof(ScriptableObjectResourceProvider::$$c__DisplayClass13_0), 40 + sizeof(Zenject::InjectContext*)> __Zenject_ScriptableObjectResourceProvider_$$c__DisplayClass13_0SizeCheck;
   static_assert(sizeof(ScriptableObjectResourceProvider::$$c__DisplayClass13_0) == 0x30);
 }
+NEED_NO_BOX(Zenject::ScriptableObjectResourceProvider::$$c__DisplayClass13_0);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ScriptableObjectResourceProvider::$$c__DisplayClass13_0*, "Zenject", "ScriptableObjectResourceProvider/<>c__DisplayClass13_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::ScriptableObjectResourceProvider::$$c__DisplayClass13_0::$GetAllInstancesWithInjectSplit$b__0

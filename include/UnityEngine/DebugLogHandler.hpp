@@ -65,6 +65,7 @@ namespace UnityEngine {
   }; // UnityEngine.DebugLogHandler
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::DebugLogHandler);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::DebugLogHandler*, "UnityEngine", "DebugLogHandler");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::DebugLogHandler::Internal_Log

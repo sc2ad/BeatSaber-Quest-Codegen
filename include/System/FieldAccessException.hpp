@@ -65,6 +65,7 @@ namespace System {
   }; // System.FieldAccessException
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::FieldAccessException);
 DEFINE_IL2CPP_ARG_TYPE(System::FieldAccessException*, "System", "FieldAccessException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::FieldAccessException::New_ctor

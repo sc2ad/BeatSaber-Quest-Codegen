@@ -69,6 +69,7 @@ namespace UnityEngine::ProBuilder {
   static check_size<sizeof(EdgeLookup::$$c__DisplayClass16_0), 16 + sizeof(System::Collections::Generic::Dictionary_2<int, int>*)> __UnityEngine_ProBuilder_EdgeLookup_$$c__DisplayClass16_0SizeCheck;
   static_assert(sizeof(EdgeLookup::$$c__DisplayClass16_0) == 0x18);
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::EdgeLookup::$$c__DisplayClass16_0);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::EdgeLookup::$$c__DisplayClass16_0*, "UnityEngine.ProBuilder", "EdgeLookup/<>c__DisplayClass16_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::EdgeLookup::$$c__DisplayClass16_0::$GetEdgeLookup$b__0

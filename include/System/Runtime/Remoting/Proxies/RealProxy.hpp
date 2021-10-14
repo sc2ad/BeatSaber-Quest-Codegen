@@ -208,6 +208,7 @@ namespace System::Runtime::Remoting::Proxies {
   static check_size<sizeof(RealProxy), 72 + sizeof(::Il2CppObject*)> __System_Runtime_Remoting_Proxies_RealProxySizeCheck;
   static_assert(sizeof(RealProxy) == 0x50);
 }
+NEED_NO_BOX(System::Runtime::Remoting::Proxies::RealProxy);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Proxies::RealProxy*, "System.Runtime.Remoting.Proxies", "RealProxy");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Proxies::RealProxy::get_ObjectIdentity

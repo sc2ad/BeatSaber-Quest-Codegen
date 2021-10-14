@@ -60,6 +60,7 @@ namespace System::Text {
   }; // System.Text.DecoderExceptionFallback
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Text::DecoderExceptionFallback);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::DecoderExceptionFallback*, "System.Text", "DecoderExceptionFallback");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::DecoderExceptionFallback::get_MaxCharCount

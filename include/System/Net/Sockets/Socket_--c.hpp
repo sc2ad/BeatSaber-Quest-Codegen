@@ -103,6 +103,7 @@ namespace System::Net::Sockets {
   }; // System.Net.Sockets.Socket/System.Net.Sockets.<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Net::Sockets::Socket::$$c);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::Socket::$$c*, "System.Net.Sockets", "Socket/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Sockets::Socket::$$c::_cctor

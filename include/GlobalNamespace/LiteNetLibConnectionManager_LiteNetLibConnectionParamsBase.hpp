@@ -118,6 +118,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LiteNetLibConnectionManager::LiteNetLibConnectionParamsBase), 48 + sizeof(int)> __GlobalNamespace_LiteNetLibConnectionManager_LiteNetLibConnectionParamsBaseSizeCheck;
   static_assert(sizeof(LiteNetLibConnectionManager::LiteNetLibConnectionParamsBase) == 0x34);
 }
+NEED_NO_BOX(GlobalNamespace::LiteNetLibConnectionManager::LiteNetLibConnectionParamsBase);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LiteNetLibConnectionManager::LiteNetLibConnectionParamsBase*, "", "LiteNetLibConnectionManager/LiteNetLibConnectionParamsBase");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::LiteNetLibConnectionParamsBase::New_ctor

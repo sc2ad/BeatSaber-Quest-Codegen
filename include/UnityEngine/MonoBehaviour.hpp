@@ -136,6 +136,7 @@ namespace UnityEngine {
   }; // UnityEngine.MonoBehaviour
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::MonoBehaviour);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::MonoBehaviour*, "UnityEngine", "MonoBehaviour");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::MonoBehaviour::get_useGUILayout

@@ -66,6 +66,7 @@ namespace UnityEngine {
   static check_size<sizeof(Coroutine), 16 + sizeof(System::IntPtr)> __UnityEngine_CoroutineSizeCheck;
   static_assert(sizeof(Coroutine) == 0x18);
 }
+NEED_NO_BOX(UnityEngine::Coroutine);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Coroutine*, "UnityEngine", "Coroutine");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Coroutine::ReleaseCoroutine

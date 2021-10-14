@@ -86,6 +86,7 @@ namespace UnityEngine::Scripting {
   static check_size<sizeof(RequiredByNativeCodeAttribute), 25 + sizeof(bool)> __UnityEngine_Scripting_RequiredByNativeCodeAttributeSizeCheck;
   static_assert(sizeof(RequiredByNativeCodeAttribute) == 0x1A);
 }
+NEED_NO_BOX(UnityEngine::Scripting::RequiredByNativeCodeAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Scripting::RequiredByNativeCodeAttribute*, "UnityEngine.Scripting", "RequiredByNativeCodeAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Scripting::RequiredByNativeCodeAttribute::set_Name

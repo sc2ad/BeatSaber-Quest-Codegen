@@ -68,6 +68,7 @@ namespace UnityEngine::Events {
   }; // UnityEngine.Events.BaseInvokableCall
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::Events::BaseInvokableCall);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Events::BaseInvokableCall*, "UnityEngine.Events", "BaseInvokableCall");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Events::BaseInvokableCall::New_ctor

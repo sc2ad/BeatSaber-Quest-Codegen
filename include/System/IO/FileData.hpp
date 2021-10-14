@@ -84,6 +84,7 @@ namespace System::IO {
   static check_size<sizeof(FileData), 40 + sizeof(System::DateTime)> __System_IO_FileDataSizeCheck;
   static_assert(sizeof(FileData) == 0x30);
 }
+NEED_NO_BOX(System::IO::FileData);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileData*, "System.IO", "FileData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::FileData::New_ctor

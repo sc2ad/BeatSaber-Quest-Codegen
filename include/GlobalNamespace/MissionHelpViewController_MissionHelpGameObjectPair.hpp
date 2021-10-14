@@ -68,6 +68,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MissionHelpViewController::MissionHelpGameObjectPair), 24 + sizeof(UnityEngine::GameObject*)> __GlobalNamespace_MissionHelpViewController_MissionHelpGameObjectPairSizeCheck;
   static_assert(sizeof(MissionHelpViewController::MissionHelpGameObjectPair) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::MissionHelpViewController::MissionHelpGameObjectPair);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionHelpViewController::MissionHelpGameObjectPair*, "", "MissionHelpViewController/MissionHelpGameObjectPair");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionHelpViewController::MissionHelpGameObjectPair::New_ctor

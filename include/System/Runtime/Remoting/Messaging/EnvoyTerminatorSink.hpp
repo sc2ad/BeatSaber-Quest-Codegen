@@ -58,6 +58,7 @@ namespace System::Runtime::Remoting::Messaging {
   }; // System.Runtime.Remoting.Messaging.EnvoyTerminatorSink
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Runtime::Remoting::Messaging::EnvoyTerminatorSink);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::EnvoyTerminatorSink*, "System.Runtime.Remoting.Messaging", "EnvoyTerminatorSink");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::EnvoyTerminatorSink::_cctor

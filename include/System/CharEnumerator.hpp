@@ -100,6 +100,7 @@ namespace System {
   static check_size<sizeof(CharEnumerator), 28 + sizeof(::Il2CppChar)> __System_CharEnumeratorSizeCheck;
   static_assert(sizeof(CharEnumerator) == 0x1E);
 }
+NEED_NO_BOX(System::CharEnumerator);
 DEFINE_IL2CPP_ARG_TYPE(System::CharEnumerator*, "System", "CharEnumerator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::CharEnumerator::System_Collections_IEnumerator_get_Current

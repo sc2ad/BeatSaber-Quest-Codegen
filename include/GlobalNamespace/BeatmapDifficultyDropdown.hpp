@@ -142,6 +142,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BeatmapDifficultyDropdown), 48 + sizeof(bool)> __GlobalNamespace_BeatmapDifficultyDropdownSizeCheck;
   static_assert(sizeof(BeatmapDifficultyDropdown) == 0x31);
 }
+NEED_NO_BOX(GlobalNamespace::BeatmapDifficultyDropdown);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDifficultyDropdown*, "", "BeatmapDifficultyDropdown");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapDifficultyDropdown::get_beatmapDifficultyData

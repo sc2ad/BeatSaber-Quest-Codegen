@@ -103,6 +103,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(AvatarDataModel), 40 + sizeof(GlobalNamespace::AvatarData*)> __GlobalNamespace_AvatarDataModelSizeCheck;
   static_assert(sizeof(AvatarDataModel) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::AvatarDataModel);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarDataModel*, "", "AvatarDataModel");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AvatarDataModel::get_avatarData

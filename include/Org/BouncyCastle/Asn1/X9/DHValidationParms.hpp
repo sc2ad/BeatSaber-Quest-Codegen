@@ -81,6 +81,7 @@ namespace Org::BouncyCastle::Asn1::X9 {
   static check_size<sizeof(DHValidationParms), 24 + sizeof(Org::BouncyCastle::Asn1::DerInteger*)> __Org_BouncyCastle_Asn1_X9_DHValidationParmsSizeCheck;
   static_assert(sizeof(DHValidationParms) == 0x20);
 }
+NEED_NO_BOX(Org::BouncyCastle::Asn1::X9::DHValidationParms);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X9::DHValidationParms*, "Org.BouncyCastle.Asn1.X9", "DHValidationParms");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X9::DHValidationParms::get_Seed

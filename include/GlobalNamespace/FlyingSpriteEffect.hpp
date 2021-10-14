@@ -99,6 +99,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(FlyingSpriteEffect), 144 + sizeof(UnityEngine::Color)> __GlobalNamespace_FlyingSpriteEffectSizeCheck;
   static_assert(sizeof(FlyingSpriteEffect) == 0xA0);
 }
+NEED_NO_BOX(GlobalNamespace::FlyingSpriteEffect);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlyingSpriteEffect*, "", "FlyingSpriteEffect");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FlyingSpriteEffect::InitAndPresent

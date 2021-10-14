@@ -407,6 +407,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LevelFilteringNavigationController), 336 + sizeof(::ArrayW<GlobalNamespace::IBeatmapLevelPack*>)> __GlobalNamespace_LevelFilteringNavigationControllerSizeCheck;
   static_assert(sizeof(LevelFilteringNavigationController) == 0x158);
 }
+NEED_NO_BOX(GlobalNamespace::LevelFilteringNavigationController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelFilteringNavigationController*, "", "LevelFilteringNavigationController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LevelFilteringNavigationController::get_selectedBeatmapLevelPack

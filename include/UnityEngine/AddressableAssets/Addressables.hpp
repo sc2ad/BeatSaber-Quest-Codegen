@@ -606,6 +606,7 @@ namespace UnityEngine::AddressableAssets {
   }; // UnityEngine.AddressableAssets.Addressables
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::AddressableAssets::Addressables);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Addressables*, "UnityEngine.AddressableAssets", "Addressables");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Addressables::MergeMode, "UnityEngine.AddressableAssets", "Addressables/MergeMode");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

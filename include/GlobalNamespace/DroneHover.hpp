@@ -166,6 +166,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(DroneHover), 88 + sizeof(UnityEngine::Cloth*)> __GlobalNamespace_DroneHoverSizeCheck;
   static_assert(sizeof(DroneHover) == 0x60);
 }
+NEED_NO_BOX(GlobalNamespace::DroneHover);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DroneHover*, "", "DroneHover");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DroneHover::Start

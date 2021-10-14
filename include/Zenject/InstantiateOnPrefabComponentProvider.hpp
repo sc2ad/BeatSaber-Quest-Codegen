@@ -93,6 +93,7 @@ namespace Zenject {
   static check_size<sizeof(InstantiateOnPrefabComponentProvider), 24 + sizeof(System::Type*)> __Zenject_InstantiateOnPrefabComponentProviderSizeCheck;
   static_assert(sizeof(InstantiateOnPrefabComponentProvider) == 0x20);
 }
+NEED_NO_BOX(Zenject::InstantiateOnPrefabComponentProvider);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::InstantiateOnPrefabComponentProvider*, "Zenject", "InstantiateOnPrefabComponentProvider");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::InstantiateOnPrefabComponentProvider::get_IsCached

@@ -282,6 +282,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerOutroAnimationController), 176 + sizeof(System::Action*)> __GlobalNamespace_MultiplayerOutroAnimationControllerSizeCheck;
   static_assert(sizeof(MultiplayerOutroAnimationController) == 0xB8);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerOutroAnimationController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerOutroAnimationController*, "", "MultiplayerOutroAnimationController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerOutroAnimationController::Start

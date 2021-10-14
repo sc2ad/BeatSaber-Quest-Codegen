@@ -233,6 +233,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   static check_size<sizeof(ObjectProgress), 128 + sizeof(System::Runtime::Serialization::Formatters::Binary::ParseRecord*)> __System_Runtime_Serialization_Formatters_Binary_ObjectProgressSizeCheck;
   static_assert(sizeof(ObjectProgress) == 0x88);
 }
+NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::ObjectProgress);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::ObjectProgress*, "System.Runtime.Serialization.Formatters.Binary", "ObjectProgress");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::ObjectProgress::_cctor

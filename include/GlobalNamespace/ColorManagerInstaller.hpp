@@ -66,6 +66,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ColorManagerInstaller), 32 + sizeof(GlobalNamespace::ColorSchemeSO*)> __GlobalNamespace_ColorManagerInstallerSizeCheck;
   static_assert(sizeof(ColorManagerInstaller) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::ColorManagerInstaller);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorManagerInstaller*, "", "ColorManagerInstaller");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ColorManagerInstaller::New_ctor

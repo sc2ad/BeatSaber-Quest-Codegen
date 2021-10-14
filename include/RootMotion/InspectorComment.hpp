@@ -61,6 +61,7 @@ namespace RootMotion {
   static check_size<sizeof(InspectorComment), 24 + sizeof(::Il2CppString*)> __RootMotion_InspectorCommentSizeCheck;
   static_assert(sizeof(InspectorComment) == 0x20);
 }
+NEED_NO_BOX(RootMotion::InspectorComment);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::InspectorComment*, "RootMotion", "InspectorComment");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::InspectorComment::New_ctor

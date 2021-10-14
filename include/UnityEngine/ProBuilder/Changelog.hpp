@@ -96,6 +96,7 @@ namespace UnityEngine::ProBuilder {
   static check_size<sizeof(Changelog), 16 + sizeof(System::Collections::Generic::List_1<UnityEngine::ProBuilder::ChangelogEntry*>*)> __UnityEngine_ProBuilder_ChangelogSizeCheck;
   static_assert(sizeof(Changelog) == 0x18);
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::Changelog);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Changelog*, "UnityEngine.ProBuilder", "Changelog");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Changelog::get_entries

@@ -57,6 +57,7 @@ namespace JetBrains::Annotations {
   static check_size<sizeof(RazorImportNamespaceAttribute), 16 + sizeof(::Il2CppString*)> __JetBrains_Annotations_RazorImportNamespaceAttributeSizeCheck;
   static_assert(sizeof(RazorImportNamespaceAttribute) == 0x18);
 }
+NEED_NO_BOX(JetBrains::Annotations::RazorImportNamespaceAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::RazorImportNamespaceAttribute*, "JetBrains.Annotations", "RazorImportNamespaceAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: JetBrains::Annotations::RazorImportNamespaceAttribute::get_Name

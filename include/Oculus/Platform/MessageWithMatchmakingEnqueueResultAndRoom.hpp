@@ -46,6 +46,7 @@ namespace Oculus::Platform {
     Oculus::Platform::Models::MatchmakingEnqueueResultAndRoom* GetMatchmakingEnqueueResultAndRoom();
   }; // Oculus.Platform.MessageWithMatchmakingEnqueueResultAndRoom
 }
+NEED_NO_BOX(Oculus::Platform::MessageWithMatchmakingEnqueueResultAndRoom);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithMatchmakingEnqueueResultAndRoom*, "Oculus.Platform", "MessageWithMatchmakingEnqueueResultAndRoom");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithMatchmakingEnqueueResultAndRoom::GetDataFromMessage

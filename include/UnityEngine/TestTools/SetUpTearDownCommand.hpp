@@ -86,6 +86,7 @@ namespace UnityEngine::TestTools {
     UnityEngine::TestTools::BeforeAfterTestCommandState* GetState(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* context);
   }; // UnityEngine.TestTools.SetUpTearDownCommand
 }
+NEED_NO_BOX(UnityEngine::TestTools::SetUpTearDownCommand);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::SetUpTearDownCommand*, "UnityEngine.TestTools", "SetUpTearDownCommand");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::SetUpTearDownCommand::GetMethodsWithAttributeFromFixture

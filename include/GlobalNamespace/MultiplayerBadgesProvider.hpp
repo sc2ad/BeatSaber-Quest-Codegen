@@ -117,6 +117,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerBadgesProvider), 32 + sizeof(GlobalNamespace::MultiplayerBadgesModelSO*)> __GlobalNamespace_MultiplayerBadgesProviderSizeCheck;
   static_assert(sizeof(MultiplayerBadgesProvider) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerBadgesProvider);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerBadgesProvider*, "", "MultiplayerBadgesProvider");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerBadgesProvider::SelectBadgesAndPutThemIntoResults

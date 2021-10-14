@@ -67,6 +67,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_GeoSync), 128 + sizeof(::Il2CppString*)> __HoudiniEngineUnity_HEU_GeoSyncSizeCheck;
   static_assert(sizeof(HEU_GeoSync) == 0x88);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_GeoSync);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_GeoSync*, "HoudiniEngineUnity", "HEU_GeoSync");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeoSync::New_ctor

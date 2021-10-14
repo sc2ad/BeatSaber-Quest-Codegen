@@ -45,6 +45,7 @@ namespace GlobalNamespace {
     }
   }; // MirroredBombNoteController
 }
+NEED_NO_BOX(GlobalNamespace::MirroredBombNoteController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MirroredBombNoteController*, "", "MirroredBombNoteController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MirroredBombNoteController::New_ctor

@@ -46,6 +46,7 @@ namespace Oculus::Platform {
     Oculus::Platform::Models::AchievementDefinitionList* GetAchievementDefinitions();
   }; // Oculus.Platform.MessageWithAchievementDefinitions
 }
+NEED_NO_BOX(Oculus::Platform::MessageWithAchievementDefinitions);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithAchievementDefinitions*, "Oculus.Platform", "MessageWithAchievementDefinitions");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithAchievementDefinitions::GetDataFromMessage

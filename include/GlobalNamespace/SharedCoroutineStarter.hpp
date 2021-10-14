@@ -35,6 +35,7 @@ namespace GlobalNamespace {
     }
   }; // SharedCoroutineStarter
 }
+NEED_NO_BOX(GlobalNamespace::SharedCoroutineStarter);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SharedCoroutineStarter*, "", "SharedCoroutineStarter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SharedCoroutineStarter::New_ctor

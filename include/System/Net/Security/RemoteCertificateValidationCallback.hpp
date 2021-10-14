@@ -60,6 +60,7 @@ namespace System::Net::Security {
   }; // System.Net.Security.RemoteCertificateValidationCallback
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Net::Security::RemoteCertificateValidationCallback);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Security::RemoteCertificateValidationCallback*, "System.Net.Security", "RemoteCertificateValidationCallback");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Security::RemoteCertificateValidationCallback::New_ctor

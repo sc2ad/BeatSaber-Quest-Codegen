@@ -250,6 +250,7 @@ namespace System::Runtime::Remoting::Messaging {
   static check_size<sizeof(ReturnMessage), 112 + sizeof(System::Runtime::Remoting::Messaging::ArgInfo*)> __System_Runtime_Remoting_Messaging_ReturnMessageSizeCheck;
   static_assert(sizeof(ReturnMessage) == 0x78);
 }
+NEED_NO_BOX(System::Runtime::Remoting::Messaging::ReturnMessage);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::ReturnMessage*, "System.Runtime.Remoting.Messaging", "ReturnMessage");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::ReturnMessage::get_ArgCount

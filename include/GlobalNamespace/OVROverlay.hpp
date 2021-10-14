@@ -781,6 +781,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVROverlay), 452 + sizeof(bool)> __GlobalNamespace_OVROverlaySizeCheck;
   static_assert(sizeof(OVROverlay) == 0x1C5);
 }
+NEED_NO_BOX(GlobalNamespace::OVROverlay);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVROverlay*, "", "OVROverlay");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVROverlay::OverlayShape, "", "OVROverlay/OverlayShape");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVROverlay::OverlayType, "", "OVROverlay/OverlayType");

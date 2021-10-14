@@ -132,6 +132,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(AutomaticSFXVolumeParamsSO), 52 + sizeof(float)> __GlobalNamespace_AutomaticSFXVolumeParamsSOSizeCheck;
   static_assert(sizeof(AutomaticSFXVolumeParamsSO) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::AutomaticSFXVolumeParamsSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AutomaticSFXVolumeParamsSO*, "", "AutomaticSFXVolumeParamsSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AutomaticSFXVolumeParamsSO::get_musicVolumeMultiplier

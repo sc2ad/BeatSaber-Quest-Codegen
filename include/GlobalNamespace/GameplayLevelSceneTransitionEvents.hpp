@@ -113,6 +113,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(GameplayLevelSceneTransitionEvents), 40 + sizeof(System::Action*)> __GlobalNamespace_GameplayLevelSceneTransitionEventsSizeCheck;
   static_assert(sizeof(GameplayLevelSceneTransitionEvents) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::GameplayLevelSceneTransitionEvents);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayLevelSceneTransitionEvents*, "", "GameplayLevelSceneTransitionEvents");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameplayLevelSceneTransitionEvents::add_anyGameplayLevelDidFinishEvent

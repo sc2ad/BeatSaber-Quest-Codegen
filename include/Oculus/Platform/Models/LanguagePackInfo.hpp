@@ -62,6 +62,7 @@ namespace Oculus::Platform::Models {
   static check_size<sizeof(LanguagePackInfo), 32 + sizeof(::Il2CppString*)> __Oculus_Platform_Models_LanguagePackInfoSizeCheck;
   static_assert(sizeof(LanguagePackInfo) == 0x28);
 }
+NEED_NO_BOX(Oculus::Platform::Models::LanguagePackInfo);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::LanguagePackInfo*, "Oculus.Platform.Models", "LanguagePackInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::LanguagePackInfo::New_ctor

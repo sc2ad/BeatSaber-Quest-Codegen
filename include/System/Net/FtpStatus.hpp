@@ -62,6 +62,7 @@ namespace System::Net {
   static check_size<sizeof(FtpStatus), 24 + sizeof(::Il2CppString*)> __System_Net_FtpStatusSizeCheck;
   static_assert(sizeof(FtpStatus) == 0x20);
 }
+NEED_NO_BOX(System::Net::FtpStatus);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::FtpStatus*, "System.Net", "FtpStatus");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::FtpStatus::get_StatusCode

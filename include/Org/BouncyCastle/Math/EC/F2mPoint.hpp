@@ -86,6 +86,7 @@ namespace Org::BouncyCastle::Math::EC {
   }; // Org.BouncyCastle.Math.EC.F2mPoint
   #pragma pack(pop)
 }
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::F2mPoint);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::F2mPoint*, "Org.BouncyCastle.Math.EC", "F2mPoint");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::F2mPoint::get_YCoord

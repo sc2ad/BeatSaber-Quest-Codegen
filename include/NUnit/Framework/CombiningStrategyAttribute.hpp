@@ -110,6 +110,7 @@ namespace NUnit::Framework {
   static check_size<sizeof(CombiningStrategyAttribute), 32 + sizeof(NUnit::Framework::Interfaces::IParameterDataProvider*)> __NUnit_Framework_CombiningStrategyAttributeSizeCheck;
   static_assert(sizeof(CombiningStrategyAttribute) == 0x28);
 }
+NEED_NO_BOX(NUnit::Framework::CombiningStrategyAttribute);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::CombiningStrategyAttribute*, "NUnit.Framework", "CombiningStrategyAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::CombiningStrategyAttribute::New_ctor

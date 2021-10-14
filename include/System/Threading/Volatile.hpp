@@ -51,6 +51,7 @@ namespace System::Threading {
   }; // System.Threading.Volatile
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Threading::Volatile);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Volatile*, "System.Threading", "Volatile");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::Volatile::Read

@@ -72,6 +72,7 @@ namespace System::Runtime::InteropServices {
   static check_size<sizeof(ComCompatibleVersionAttribute), 28 + sizeof(int)> __System_Runtime_InteropServices_ComCompatibleVersionAttributeSizeCheck;
   static_assert(sizeof(ComCompatibleVersionAttribute) == 0x20);
 }
+NEED_NO_BOX(System::Runtime::InteropServices::ComCompatibleVersionAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::ComCompatibleVersionAttribute*, "System.Runtime.InteropServices", "ComCompatibleVersionAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::InteropServices::ComCompatibleVersionAttribute::New_ctor

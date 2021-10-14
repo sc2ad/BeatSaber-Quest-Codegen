@@ -46,6 +46,7 @@ namespace Oculus::Platform {
     Oculus::Platform::Models::PidList* GetPidList();
   }; // Oculus.Platform.MessageWithPidList
 }
+NEED_NO_BOX(Oculus::Platform::MessageWithPidList);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithPidList*, "Oculus.Platform", "MessageWithPidList");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithPidList::GetDataFromMessage

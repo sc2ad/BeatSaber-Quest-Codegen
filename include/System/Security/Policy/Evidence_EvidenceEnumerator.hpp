@@ -77,6 +77,7 @@ namespace System::Security::Policy {
   static check_size<sizeof(Evidence::EvidenceEnumerator), 32 + sizeof(System::Collections::IEnumerator*)> __System_Security_Policy_Evidence_EvidenceEnumeratorSizeCheck;
   static_assert(sizeof(Evidence::EvidenceEnumerator) == 0x28);
 }
+NEED_NO_BOX(System::Security::Policy::Evidence::EvidenceEnumerator);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Policy::Evidence::EvidenceEnumerator*, "System.Security.Policy", "Evidence/EvidenceEnumerator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Policy::Evidence::EvidenceEnumerator::get_Current

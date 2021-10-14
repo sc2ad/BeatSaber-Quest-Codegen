@@ -82,6 +82,7 @@ namespace System::Globalization {
   static check_size<sizeof(CodePageDataItem), 32 + sizeof(uint)> __System_Globalization_CodePageDataItemSizeCheck;
   static_assert(sizeof(CodePageDataItem) == 0x24);
 }
+NEED_NO_BOX(System::Globalization::CodePageDataItem);
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CodePageDataItem*, "System.Globalization", "CodePageDataItem");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Globalization::CodePageDataItem::get_WebName

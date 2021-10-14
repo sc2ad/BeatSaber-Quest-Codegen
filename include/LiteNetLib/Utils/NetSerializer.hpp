@@ -268,6 +268,7 @@ namespace LiteNetLib::Utils {
   static check_size<sizeof(NetSerializer), 32 + sizeof(System::Collections::Generic::Dictionary_2<System::Type*, LiteNetLib::Utils::NetSerializer::CustomType*>*)> __LiteNetLib_Utils_NetSerializerSizeCheck;
   static_assert(sizeof(NetSerializer) == 0x28);
 }
+NEED_NO_BOX(LiteNetLib::Utils::NetSerializer);
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::NetSerializer*, "LiteNetLib.Utils", "NetSerializer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetSerializer::New_ctor

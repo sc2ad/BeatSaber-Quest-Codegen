@@ -167,6 +167,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_ShelfToolData), 72 + sizeof(::Il2CppString*)> __HoudiniEngineUnity_HEU_ShelfToolDataSizeCheck;
   static_assert(sizeof(HEU_ShelfToolData) == 0x50);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_ShelfToolData);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_ShelfToolData*, "HoudiniEngineUnity", "HEU_ShelfToolData");
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_ShelfToolData::ToolType, "HoudiniEngineUnity", "HEU_ShelfToolData/ToolType");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

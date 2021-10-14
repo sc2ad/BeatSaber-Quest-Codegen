@@ -178,6 +178,7 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::Graphics);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Graphics*, "UnityEngine", "Graphics");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Graphics::get_activeTier

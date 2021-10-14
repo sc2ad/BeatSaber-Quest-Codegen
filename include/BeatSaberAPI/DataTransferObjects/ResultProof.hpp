@@ -56,6 +56,7 @@ namespace BeatSaberAPI::DataTransferObjects {
   static check_size<sizeof(ResultProof), 16 + sizeof(::Il2CppString*)> __BeatSaberAPI_DataTransferObjects_ResultProofSizeCheck;
   static_assert(sizeof(ResultProof) == 0x18);
 }
+NEED_NO_BOX(BeatSaberAPI::DataTransferObjects::ResultProof);
 DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::ResultProof*, "BeatSaberAPI.DataTransferObjects", "ResultProof");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: BeatSaberAPI::DataTransferObjects::ResultProof::get_proof

@@ -118,6 +118,7 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
   static check_size<sizeof(SignedData), 56 + sizeof(Org::BouncyCastle::Asn1::Asn1Set*)> __Org_BouncyCastle_Asn1_Pkcs_SignedDataSizeCheck;
   static_assert(sizeof(SignedData) == 0x40);
 }
+NEED_NO_BOX(Org::BouncyCastle::Asn1::Pkcs::SignedData);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Pkcs::SignedData*, "Org.BouncyCastle.Asn1.Pkcs", "SignedData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::SignedData::get_Certificates

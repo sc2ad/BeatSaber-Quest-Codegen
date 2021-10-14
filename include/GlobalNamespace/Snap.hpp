@@ -65,6 +65,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(Snap), 36 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_SnapSizeCheck;
   static_assert(sizeof(Snap) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::Snap);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Snap*, "", "Snap");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::Snap::SnapPosition

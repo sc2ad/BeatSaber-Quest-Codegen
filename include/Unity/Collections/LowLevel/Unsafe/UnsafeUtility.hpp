@@ -115,6 +115,7 @@ namespace Unity::Collections::LowLevel::Unsafe {
   }; // Unity.Collections.LowLevel.Unsafe.UnsafeUtility
   #pragma pack(pop)
 }
+NEED_NO_BOX(Unity::Collections::LowLevel::Unsafe::UnsafeUtility);
 DEFINE_IL2CPP_ARG_TYPE(Unity::Collections::LowLevel::Unsafe::UnsafeUtility*, "Unity.Collections.LowLevel.Unsafe", "UnsafeUtility");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Unity::Collections::LowLevel::Unsafe::UnsafeUtility::IsBlittable

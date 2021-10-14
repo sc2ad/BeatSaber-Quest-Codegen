@@ -108,6 +108,7 @@ namespace System::Text {
   }; // System.Text.EncodingNLS
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Text::EncodingNLS);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::EncodingNLS*, "System.Text", "EncodingNLS");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::EncodingNLS::New_ctor

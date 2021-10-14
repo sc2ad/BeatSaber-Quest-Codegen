@@ -150,6 +150,7 @@ namespace System::Runtime::Remoting {
   static check_size<sizeof(ServerIdentity), 104 + sizeof(System::Runtime::Remoting::Lifetime::Lease*)> __System_Runtime_Remoting_ServerIdentitySizeCheck;
   static_assert(sizeof(ServerIdentity) == 0x70);
 }
+NEED_NO_BOX(System::Runtime::Remoting::ServerIdentity);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::ServerIdentity*, "System.Runtime.Remoting", "ServerIdentity");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::ServerIdentity::get_ObjectType

@@ -129,6 +129,7 @@ namespace System::Net::Mail {
   static check_size<sizeof(MailAddress), 48 + sizeof(::Il2CppString*)> __System_Net_Mail_MailAddressSizeCheck;
   static_assert(sizeof(MailAddress) == 0x38);
 }
+NEED_NO_BOX(System::Net::Mail::MailAddress);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Mail::MailAddress*, "System.Net.Mail", "MailAddress");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Mail::MailAddress::get_Address

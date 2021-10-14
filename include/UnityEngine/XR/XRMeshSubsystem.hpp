@@ -54,6 +54,7 @@ namespace UnityEngine::XR {
     }
   }; // UnityEngine.XR.XRMeshSubsystem
 }
+NEED_NO_BOX(UnityEngine::XR::XRMeshSubsystem);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::XRMeshSubsystem*, "UnityEngine.XR", "XRMeshSubsystem");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::XR::XRMeshSubsystem::InvokeMeshReadyDelegate

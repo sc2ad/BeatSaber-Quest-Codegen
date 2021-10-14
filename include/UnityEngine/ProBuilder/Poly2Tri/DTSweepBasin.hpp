@@ -85,6 +85,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   static check_size<sizeof(DTSweepBasin), 48 + sizeof(bool)> __UnityEngine_ProBuilder_Poly2Tri_DTSweepBasinSizeCheck;
   static_assert(sizeof(DTSweepBasin) == 0x31);
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin*, "UnityEngine.ProBuilder.Poly2Tri", "DTSweepBasin");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin::New_ctor

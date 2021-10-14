@@ -286,6 +286,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SongPreviewPlayer), 128 + sizeof(bool)> __GlobalNamespace_SongPreviewPlayerSizeCheck;
   static_assert(sizeof(SongPreviewPlayer) == 0x81);
 }
+NEED_NO_BOX(GlobalNamespace::SongPreviewPlayer);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPreviewPlayer*, "", "SongPreviewPlayer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SongPreviewPlayer::Awake

@@ -113,6 +113,7 @@ namespace HoudiniEngineUnity {
   }; // HoudiniEngineUnity.JSONNull
   #pragma pack(pop)
 }
+NEED_NO_BOX(HoudiniEngineUnity::JSONNull);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::JSONNull*, "HoudiniEngineUnity", "JSONNull");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONNull::CreateOrGet

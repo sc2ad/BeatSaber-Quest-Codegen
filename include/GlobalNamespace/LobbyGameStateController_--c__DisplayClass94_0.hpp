@@ -91,6 +91,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LobbyGameStateController::$$c__DisplayClass94_0), 32 + sizeof(System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>*)> __GlobalNamespace_LobbyGameStateController_$$c__DisplayClass94_0SizeCheck;
   static_assert(sizeof(LobbyGameStateController::$$c__DisplayClass94_0) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::LobbyGameStateController::$$c__DisplayClass94_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LobbyGameStateController::$$c__DisplayClass94_0*, "", "LobbyGameStateController/<>c__DisplayClass94_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LobbyGameStateController::$$c__DisplayClass94_0::$GetGameStateAndConfigurationAsync$g__HandleSetMultiplayerGameState_0

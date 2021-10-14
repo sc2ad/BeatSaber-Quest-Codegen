@@ -114,6 +114,7 @@ namespace GlobalNamespace {
   }; // GridView/GridViewCellsEnumerator/<GetEnumerator>d__1
   // WARNING Not writing size check since size may be invalid!
 }
+NEED_NO_BOX(GlobalNamespace::GridView::GridViewCellsEnumerator::$GetEnumerator$d__1);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GridView::GridViewCellsEnumerator::$GetEnumerator$d__1*, "", "GridView/GridViewCellsEnumerator/<GetEnumerator>d__1");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GridView::GridViewCellsEnumerator::$GetEnumerator$d__1::System_Collections_Generic_IEnumerator$UnityEngine_MonoBehaviour$_get_Current

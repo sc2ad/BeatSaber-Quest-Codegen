@@ -86,6 +86,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(FadeInOnSceneTransitionFinished::$FadeInAfterSceneTransitionCoroutine$d__3), 32 + sizeof(GlobalNamespace::FadeInOnSceneTransitionFinished*)> __GlobalNamespace_FadeInOnSceneTransitionFinished_$FadeInAfterSceneTransitionCoroutine$d__3SizeCheck;
   static_assert(sizeof(FadeInOnSceneTransitionFinished::$FadeInAfterSceneTransitionCoroutine$d__3) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::FadeInOnSceneTransitionFinished::$FadeInAfterSceneTransitionCoroutine$d__3);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FadeInOnSceneTransitionFinished::$FadeInAfterSceneTransitionCoroutine$d__3*, "", "FadeInOnSceneTransitionFinished/<FadeInAfterSceneTransitionCoroutine>d__3");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FadeInOnSceneTransitionFinished::$FadeInAfterSceneTransitionCoroutine$d__3::System_Collections_Generic_IEnumerator$System_Object$_get_Current

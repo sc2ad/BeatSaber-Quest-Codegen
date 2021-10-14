@@ -117,6 +117,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MissionNodeSelectionManager), 48 + sizeof(GlobalNamespace::MissionNodeVisualController*)> __GlobalNamespace_MissionNodeSelectionManagerSizeCheck;
   static_assert(sizeof(MissionNodeSelectionManager) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::MissionNodeSelectionManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionNodeSelectionManager*, "", "MissionNodeSelectionManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionNodeSelectionManager::add_didSelectMissionNodeEvent

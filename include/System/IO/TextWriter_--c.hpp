@@ -61,6 +61,7 @@ namespace System::IO {
   }; // System.IO.TextWriter/System.IO.<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::IO::TextWriter::$$c);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::TextWriter::$$c*, "System.IO", "TextWriter/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::TextWriter::$$c::_cctor

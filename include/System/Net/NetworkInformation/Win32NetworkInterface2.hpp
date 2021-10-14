@@ -116,6 +116,7 @@ namespace System::Net::NetworkInformation {
   static check_size<sizeof(Win32NetworkInterface2), 512 + sizeof(System::Net::NetworkInformation::IPInterfaceProperties*)> __System_Net_NetworkInformation_Win32NetworkInterface2SizeCheck;
   static_assert(sizeof(Win32NetworkInterface2) == 0x208);
 }
+NEED_NO_BOX(System::Net::NetworkInformation::Win32NetworkInterface2);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32NetworkInterface2*, "System.Net.NetworkInformation", "Win32NetworkInterface2");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::NetworkInformation::Win32NetworkInterface2::New_ctor

@@ -142,6 +142,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(VRControllersRecorderData), 24 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::VRControllersRecorderData::Keyframe*>*)> __GlobalNamespace_VRControllersRecorderDataSizeCheck;
   static_assert(sizeof(VRControllersRecorderData) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::VRControllersRecorderData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorderData*, "", "VRControllersRecorderData");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorderData::PositionAndRotation, "", "VRControllersRecorderData/PositionAndRotation");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

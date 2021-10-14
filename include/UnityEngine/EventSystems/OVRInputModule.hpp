@@ -445,6 +445,7 @@ namespace UnityEngine::EventSystems {
   static check_size<sizeof(OVRInputModule), 224 + sizeof(UnityEngine::EventSystems::PointerInputModule::MouseState*)> __UnityEngine_EventSystems_OVRInputModuleSizeCheck;
   static_assert(sizeof(OVRInputModule) == 0xE8);
 }
+NEED_NO_BOX(UnityEngine::EventSystems::OVRInputModule);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::OVRInputModule*, "UnityEngine.EventSystems", "OVRInputModule");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::get_inputMode

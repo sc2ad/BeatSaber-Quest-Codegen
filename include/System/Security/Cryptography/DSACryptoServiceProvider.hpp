@@ -163,6 +163,7 @@ namespace System::Security::Cryptography {
   static check_size<sizeof(DSACryptoServiceProvider), 48 + sizeof(Mono::Security::Cryptography::DSAManaged*)> __System_Security_Cryptography_DSACryptoServiceProviderSizeCheck;
   static_assert(sizeof(DSACryptoServiceProvider) == 0x38);
 }
+NEED_NO_BOX(System::Security::Cryptography::DSACryptoServiceProvider);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::DSACryptoServiceProvider*, "System.Security.Cryptography", "DSACryptoServiceProvider");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::DSACryptoServiceProvider::get_PublicOnly

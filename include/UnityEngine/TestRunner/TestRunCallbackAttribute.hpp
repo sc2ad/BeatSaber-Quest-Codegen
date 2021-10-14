@@ -56,6 +56,7 @@ namespace UnityEngine::TestRunner {
   static_assert(sizeof(TestRunCallbackAttribute) == 0x18);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::TestRunner::TestRunCallbackAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::TestRunCallbackAttribute*, "UnityEngine.TestRunner", "TestRunCallbackAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestRunner::TestRunCallbackAttribute::ConstructCallback

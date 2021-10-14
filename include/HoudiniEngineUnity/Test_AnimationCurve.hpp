@@ -67,6 +67,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(Test_AnimationCurve), 16 + sizeof(UnityEngine::AnimationCurve*)> __HoudiniEngineUnity_Test_AnimationCurveSizeCheck;
   static_assert(sizeof(Test_AnimationCurve) == 0x18);
 }
+NEED_NO_BOX(HoudiniEngineUnity::Test_AnimationCurve);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::Test_AnimationCurve*, "HoudiniEngineUnity", "Test_AnimationCurve");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::Test_AnimationCurve::New_ctor

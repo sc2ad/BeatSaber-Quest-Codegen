@@ -83,6 +83,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPack), 40 + sizeof(System::Collections::Generic::List_1<::Il2CppString*>*)> __GlobalNamespace_MasterServerQuickPlaySetupData_QuickPlaySongPacksOverride_LocalizedCustomPackSizeCheck;
   static_assert(sizeof(MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPack) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPack);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPack*, "", "MasterServerQuickPlaySetupData/QuickPlaySongPacksOverride/LocalizedCustomPack");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPack::New_ctor

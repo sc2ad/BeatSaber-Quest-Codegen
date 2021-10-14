@@ -4,6 +4,9 @@
 #pragma once
 // Begin includes
 #include <stdint.h>
+#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Completed includes
 // Type namespace: System.Net.NetworkInformation
 namespace System::Net::NetworkInformation {

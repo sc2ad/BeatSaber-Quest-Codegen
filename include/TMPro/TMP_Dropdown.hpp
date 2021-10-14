@@ -401,6 +401,7 @@ namespace TMPro {
   static check_size<sizeof(TMP_Dropdown), 344 + sizeof(bool)> __TMPro_TMP_DropdownSizeCheck;
   static_assert(sizeof(TMP_Dropdown) == 0x159);
 }
+NEED_NO_BOX(TMPro::TMP_Dropdown);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Dropdown*, "TMPro", "TMP_Dropdown");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::get_template

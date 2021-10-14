@@ -213,6 +213,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(StandardLevelScenesTransitionSetupDataSO), 112 + sizeof(GlobalNamespace::EnvironmentInfoSO*)> __GlobalNamespace_StandardLevelScenesTransitionSetupDataSOSizeCheck;
   static_assert(sizeof(StandardLevelScenesTransitionSetupDataSO) == 0x78);
 }
+NEED_NO_BOX(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, "", "StandardLevelScenesTransitionSetupDataSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::get_gameMode

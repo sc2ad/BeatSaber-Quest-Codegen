@@ -55,6 +55,7 @@ namespace System {
   static check_size<sizeof(Enum::ValuesAndNames), 24 + sizeof(::ArrayW<::Il2CppString*>)> __System_Enum_ValuesAndNamesSizeCheck;
   static_assert(sizeof(Enum::ValuesAndNames) == 0x20);
 }
+NEED_NO_BOX(System::Enum::ValuesAndNames);
 DEFINE_IL2CPP_ARG_TYPE(System::Enum::ValuesAndNames*, "System", "Enum/ValuesAndNames");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Enum::ValuesAndNames::New_ctor

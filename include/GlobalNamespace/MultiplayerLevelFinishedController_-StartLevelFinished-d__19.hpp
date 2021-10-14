@@ -127,6 +127,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerLevelFinishedController::$StartLevelFinished$d__19), 56 + sizeof(float)> __GlobalNamespace_MultiplayerLevelFinishedController_$StartLevelFinished$d__19SizeCheck;
   static_assert(sizeof(MultiplayerLevelFinishedController::$StartLevelFinished$d__19) == 0x3C);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerLevelFinishedController::$StartLevelFinished$d__19);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLevelFinishedController::$StartLevelFinished$d__19*, "", "MultiplayerLevelFinishedController/<StartLevelFinished>d__19");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLevelFinishedController::$StartLevelFinished$d__19::System_Collections_Generic_IEnumerator$System_Object$_get_Current

@@ -60,6 +60,7 @@ namespace OVR::OpenVR {
   }; // OVR.OpenVR.CVRSystem/OVR.OpenVR._GetControllerStateWithPosePacked
   #pragma pack(pop)
 }
+NEED_NO_BOX(OVR::OpenVR::CVRSystem::_GetControllerStateWithPosePacked);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRSystem::_GetControllerStateWithPosePacked*, "OVR.OpenVR", "CVRSystem/_GetControllerStateWithPosePacked");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::CVRSystem::_GetControllerStateWithPosePacked::New_ctor

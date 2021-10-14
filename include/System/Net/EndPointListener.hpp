@@ -202,6 +202,7 @@ namespace System::Net {
   static check_size<sizeof(EndPointListener), 80 + sizeof(System::Collections::Generic::Dictionary_2<System::Net::HttpConnection*, System::Net::HttpConnection*>*)> __System_Net_EndPointListenerSizeCheck;
   static_assert(sizeof(EndPointListener) == 0x58);
 }
+NEED_NO_BOX(System::Net::EndPointListener);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::EndPointListener*, "System.Net", "EndPointListener");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::EndPointListener::get_Listener

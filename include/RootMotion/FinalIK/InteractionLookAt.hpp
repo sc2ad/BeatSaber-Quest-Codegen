@@ -134,6 +134,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(InteractionLookAt), 56 + sizeof(bool)> __RootMotion_FinalIK_InteractionLookAtSizeCheck;
   static_assert(sizeof(InteractionLookAt) == 0x39);
 }
+NEED_NO_BOX(RootMotion::FinalIK::InteractionLookAt);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionLookAt*, "RootMotion.FinalIK", "InteractionLookAt");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionLookAt::Look

@@ -85,6 +85,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(EnvironmentLightSimpleController), 48 + sizeof(GlobalNamespace::LightWithIdManager*)> __GlobalNamespace_EnvironmentLightSimpleControllerSizeCheck;
   static_assert(sizeof(EnvironmentLightSimpleController) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::EnvironmentLightSimpleController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentLightSimpleController*, "", "EnvironmentLightSimpleController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EnvironmentLightSimpleController::LateUpdate

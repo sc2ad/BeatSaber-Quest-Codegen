@@ -188,6 +188,7 @@ namespace UnityEngine::TestTools::TestRunner {
   static check_size<sizeof(PlaymodeTestsController), 80 + sizeof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner*)> __UnityEngine_TestTools_TestRunner_PlaymodeTestsControllerSizeCheck;
   static_assert(sizeof(PlaymodeTestsController) == 0x58);
 }
+NEED_NO_BOX(UnityEngine::TestTools::TestRunner::PlaymodeTestsController);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::PlaymodeTestsController*, "UnityEngine.TestTools.TestRunner", "PlaymodeTestsController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::PlaymodeTestsController::get_AssembliesWithTests

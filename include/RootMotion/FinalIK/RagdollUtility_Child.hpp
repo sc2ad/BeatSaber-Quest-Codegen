@@ -79,6 +79,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(RagdollUtility::Child), 36 + sizeof(UnityEngine::Quaternion)> __RootMotion_FinalIK_RagdollUtility_ChildSizeCheck;
   static_assert(sizeof(RagdollUtility::Child) == 0x34);
 }
+NEED_NO_BOX(RootMotion::FinalIK::RagdollUtility::Child);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RagdollUtility::Child*, "RootMotion.FinalIK", "RagdollUtility/Child");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::RagdollUtility::Child::New_ctor

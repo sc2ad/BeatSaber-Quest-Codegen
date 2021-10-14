@@ -271,6 +271,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerScoreRingManager), 121 + sizeof(bool)> __GlobalNamespace_MultiplayerScoreRingManagerSizeCheck;
   static_assert(sizeof(MultiplayerScoreRingManager) == 0x7A);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerScoreRingManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerScoreRingManager*, "", "MultiplayerScoreRingManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerScoreRingManager::Start

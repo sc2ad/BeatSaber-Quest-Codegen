@@ -284,6 +284,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(IKSolverLookAt), 192 + sizeof(::ArrayW<UnityEngine::Vector3>)> __RootMotion_FinalIK_IKSolverLookAtSizeCheck;
   static_assert(sizeof(IKSolverLookAt) == 0xC8);
 }
+NEED_NO_BOX(RootMotion::FinalIK::IKSolverLookAt);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverLookAt*, "RootMotion.FinalIK", "IKSolverLookAt");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverLookAt::get_spineIsValid

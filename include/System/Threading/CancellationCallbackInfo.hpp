@@ -105,6 +105,7 @@ namespace System::Threading {
   static check_size<sizeof(CancellationCallbackInfo), 48 + sizeof(System::Threading::CancellationTokenSource*)> __System_Threading_CancellationCallbackInfoSizeCheck;
   static_assert(sizeof(CancellationCallbackInfo) == 0x38);
 }
+NEED_NO_BOX(System::Threading::CancellationCallbackInfo);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::CancellationCallbackInfo*, "System.Threading", "CancellationCallbackInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::CancellationCallbackInfo::New_ctor

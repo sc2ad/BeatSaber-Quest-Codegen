@@ -88,6 +88,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(FABRIKRoot), 56 + sizeof(RootMotion::FinalIK::IKSolverFABRIKRoot*)> __RootMotion_FinalIK_FABRIKRootSizeCheck;
   static_assert(sizeof(FABRIKRoot) == 0x40);
 }
+NEED_NO_BOX(RootMotion::FinalIK::FABRIKRoot);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FABRIKRoot*, "RootMotion.FinalIK", "FABRIKRoot");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::FABRIKRoot::SupportGroup

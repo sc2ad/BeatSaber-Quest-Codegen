@@ -147,6 +147,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(VRIKCalibrator::CalibrationData), 104 + sizeof(float)> __RootMotion_FinalIK_VRIKCalibrator_CalibrationDataSizeCheck;
   static_assert(sizeof(VRIKCalibrator::CalibrationData) == 0x6C);
 }
+NEED_NO_BOX(RootMotion::FinalIK::VRIKCalibrator::CalibrationData);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::VRIKCalibrator::CalibrationData*, "RootMotion.FinalIK", "VRIKCalibrator/CalibrationData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::VRIKCalibrator::CalibrationData::New_ctor

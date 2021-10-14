@@ -45,6 +45,7 @@ namespace NUnit::Framework::Constraints {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(NUnit::Framework::Constraints::IConstraint);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::IConstraint*, "NUnit.Framework.Constraints", "IConstraint");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::IConstraint::get_Description

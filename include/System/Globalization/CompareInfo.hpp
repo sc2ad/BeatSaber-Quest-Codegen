@@ -347,6 +347,7 @@ namespace System::Globalization {
   static check_size<sizeof(CompareInfo), 48 + sizeof(Mono::Globalization::Unicode::SimpleCollator*)> __System_Globalization_CompareInfoSizeCheck;
   static_assert(sizeof(CompareInfo) == 0x38);
 }
+NEED_NO_BOX(System::Globalization::CompareInfo);
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CompareInfo*, "System.Globalization", "CompareInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Globalization::CompareInfo::get_Name

@@ -163,6 +163,7 @@ namespace UnityEngine::Playables {
   static_assert(sizeof(PlayableDirector) == 0x30);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::Playables::PlayableDirector);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableDirector*, "UnityEngine.Playables", "PlayableDirector");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableDirector::get_extrapolationMode

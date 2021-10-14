@@ -67,6 +67,7 @@ namespace JetBrains::Annotations {
   static check_size<sizeof(HtmlElementAttributesAttribute), 16 + sizeof(::Il2CppString*)> __JetBrains_Annotations_HtmlElementAttributesAttributeSizeCheck;
   static_assert(sizeof(HtmlElementAttributesAttribute) == 0x18);
 }
+NEED_NO_BOX(JetBrains::Annotations::HtmlElementAttributesAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::HtmlElementAttributesAttribute*, "JetBrains.Annotations", "HtmlElementAttributesAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: JetBrains::Annotations::HtmlElementAttributesAttribute::get_Name

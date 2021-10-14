@@ -120,6 +120,7 @@ namespace Zenject {
   static check_size<sizeof(ConventionAssemblySelectionBinder), 16 + sizeof(Zenject::ConventionBindInfo*)> __Zenject_ConventionAssemblySelectionBinderSizeCheck;
   static_assert(sizeof(ConventionAssemblySelectionBinder) == 0x18);
 }
+NEED_NO_BOX(Zenject::ConventionAssemblySelectionBinder);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ConventionAssemblySelectionBinder*, "Zenject", "ConventionAssemblySelectionBinder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::ConventionAssemblySelectionBinder::get_BindInfo

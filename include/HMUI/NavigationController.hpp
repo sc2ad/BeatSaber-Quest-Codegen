@@ -244,6 +244,7 @@ namespace HMUI {
   static check_size<sizeof(NavigationController), 144 + sizeof(float)> __HMUI_NavigationControllerSizeCheck;
   static_assert(sizeof(NavigationController) == 0x94);
 }
+NEED_NO_BOX(HMUI::NavigationController);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::NavigationController*, "HMUI", "NavigationController");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::NavigationController::Orientation, "HMUI", "NavigationController/Orientation");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::NavigationController::Alignment, "HMUI", "NavigationController/Alignment");

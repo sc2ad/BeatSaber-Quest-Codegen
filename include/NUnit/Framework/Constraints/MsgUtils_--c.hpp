@@ -80,6 +80,7 @@ namespace NUnit::Framework::Constraints {
   }; // NUnit.Framework.Constraints.MsgUtils/NUnit.Framework.Constraints.<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(NUnit::Framework::Constraints::MsgUtils::$$c);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::MsgUtils::$$c*, "NUnit.Framework.Constraints", "MsgUtils/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::MsgUtils::$$c::_cctor

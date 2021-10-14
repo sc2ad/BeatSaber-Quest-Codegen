@@ -82,6 +82,7 @@ namespace System::Net::Sockets {
   static check_size<sizeof(Socket::$$c__DisplayClass298_0), 32 + sizeof(System::IntPtr)> __System_Net_Sockets_Socket_$$c__DisplayClass298_0SizeCheck;
   static_assert(sizeof(Socket::$$c__DisplayClass298_0) == 0x28);
 }
+NEED_NO_BOX(System::Net::Sockets::Socket::$$c__DisplayClass298_0);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::Socket::$$c__DisplayClass298_0*, "System.Net.Sockets", "Socket/<>c__DisplayClass298_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Sockets::Socket::$$c__DisplayClass298_0::$QueueIOSelectorJob$b__0

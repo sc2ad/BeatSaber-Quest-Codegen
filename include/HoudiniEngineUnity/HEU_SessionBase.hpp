@@ -774,6 +774,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_SessionBase), 44 + sizeof(HoudiniEngineUnity::HAPI_Result)> __HoudiniEngineUnity_HEU_SessionBaseSizeCheck;
   static_assert(sizeof(HEU_SessionBase) == 0x30);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_SessionBase);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_SessionBase*, "HoudiniEngineUnity", "HEU_SessionBase");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionBase::get_UserNotifiedSessionInvalid

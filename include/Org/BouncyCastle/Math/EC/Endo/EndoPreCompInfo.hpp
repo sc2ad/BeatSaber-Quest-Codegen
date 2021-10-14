@@ -84,6 +84,7 @@ namespace Org::BouncyCastle::Math::EC::Endo {
   static check_size<sizeof(EndoPreCompInfo), 24 + sizeof(Org::BouncyCastle::Math::EC::ECPoint*)> __Org_BouncyCastle_Math_EC_Endo_EndoPreCompInfoSizeCheck;
   static_assert(sizeof(EndoPreCompInfo) == 0x20);
 }
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::Endo::EndoPreCompInfo);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Endo::EndoPreCompInfo*, "Org.BouncyCastle.Math.EC.Endo", "EndoPreCompInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Endo::EndoPreCompInfo::get_Endomorphism

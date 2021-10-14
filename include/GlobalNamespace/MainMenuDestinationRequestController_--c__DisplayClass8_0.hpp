@@ -68,6 +68,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MainMenuDestinationRequestController::$$c__DisplayClass8_0), 16 + sizeof(GlobalNamespace::MenuDestination*)> __GlobalNamespace_MainMenuDestinationRequestController_$$c__DisplayClass8_0SizeCheck;
   static_assert(sizeof(MainMenuDestinationRequestController::$$c__DisplayClass8_0) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::MainMenuDestinationRequestController::$$c__DisplayClass8_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainMenuDestinationRequestController::$$c__DisplayClass8_0*, "", "MainMenuDestinationRequestController/<>c__DisplayClass8_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MainMenuDestinationRequestController::$$c__DisplayClass8_0::$ProcessDestinationRequest$b__0

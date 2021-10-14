@@ -118,6 +118,7 @@ namespace System::Net {
   static check_size<sizeof(ChunkedInputStream), 104 + sizeof(bool)> __System_Net_ChunkedInputStreamSizeCheck;
   static_assert(sizeof(ChunkedInputStream) == 0x69);
 }
+NEED_NO_BOX(System::Net::ChunkedInputStream);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::ChunkedInputStream*, "System.Net", "ChunkedInputStream");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::ChunkedInputStream::New_ctor

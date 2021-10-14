@@ -96,6 +96,7 @@ namespace System::Runtime::Remoting::Messaging {
   static check_size<sizeof(RemotingSurrogateSelector), 16 + sizeof(System::Runtime::Serialization::ISurrogateSelector*)> __System_Runtime_Remoting_Messaging_RemotingSurrogateSelectorSizeCheck;
   static_assert(sizeof(RemotingSurrogateSelector) == 0x18);
 }
+NEED_NO_BOX(System::Runtime::Remoting::Messaging::RemotingSurrogateSelector);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::RemotingSurrogateSelector*, "System.Runtime.Remoting.Messaging", "RemotingSurrogateSelector");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::RemotingSurrogateSelector::_cctor

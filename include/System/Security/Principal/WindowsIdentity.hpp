@@ -186,6 +186,7 @@ namespace System::Security::Principal {
   static check_size<sizeof(WindowsIdentity), 152 + sizeof(System::Runtime::Serialization::SerializationInfo*)> __System_Security_Principal_WindowsIdentitySizeCheck;
   static_assert(sizeof(WindowsIdentity) == 0xA0);
 }
+NEED_NO_BOX(System::Security::Principal::WindowsIdentity);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Principal::WindowsIdentity*, "System.Security.Principal", "WindowsIdentity");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Principal::WindowsIdentity::New_ctor

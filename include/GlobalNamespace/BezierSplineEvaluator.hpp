@@ -115,6 +115,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BezierSplineEvaluator), 24 + sizeof(int)> __GlobalNamespace_BezierSplineEvaluatorSizeCheck;
   static_assert(sizeof(BezierSplineEvaluator) == 0x1C);
 }
+NEED_NO_BOX(GlobalNamespace::BezierSplineEvaluator);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BezierSplineEvaluator*, "", "BezierSplineEvaluator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BezierSplineEvaluator::New_ctor

@@ -108,6 +108,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(FlyingGameHUDRotation), 52 + sizeof(float)> __GlobalNamespace_FlyingGameHUDRotationSizeCheck;
   static_assert(sizeof(FlyingGameHUDRotation) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::FlyingGameHUDRotation);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlyingGameHUDRotation*, "", "FlyingGameHUDRotation");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FlyingGameHUDRotation::Start

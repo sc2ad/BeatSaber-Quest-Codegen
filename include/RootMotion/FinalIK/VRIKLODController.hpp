@@ -101,6 +101,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(VRIKLODController), 40 + sizeof(RootMotion::FinalIK::VRIK*)> __RootMotion_FinalIK_VRIKLODControllerSizeCheck;
   static_assert(sizeof(VRIKLODController) == 0x30);
 }
+NEED_NO_BOX(RootMotion::FinalIK::VRIKLODController);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::VRIKLODController*, "RootMotion.FinalIK", "VRIKLODController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::VRIKLODController::Start

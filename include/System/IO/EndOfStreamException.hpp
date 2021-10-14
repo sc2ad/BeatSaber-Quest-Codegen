@@ -65,6 +65,7 @@ namespace System::IO {
   }; // System.IO.EndOfStreamException
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::IO::EndOfStreamException);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::EndOfStreamException*, "System.IO", "EndOfStreamException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::EndOfStreamException::New_ctor

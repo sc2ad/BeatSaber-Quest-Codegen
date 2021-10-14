@@ -249,6 +249,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerIntroCountdown), 148 + sizeof(float)> __GlobalNamespace_MultiplayerIntroCountdownSizeCheck;
   static_assert(sizeof(MultiplayerIntroCountdown) == 0x98);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerIntroCountdown);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerIntroCountdown*, "", "MultiplayerIntroCountdown");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerIntroCountdown::get_textAppearDuration

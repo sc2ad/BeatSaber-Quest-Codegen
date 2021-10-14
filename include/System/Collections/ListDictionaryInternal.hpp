@@ -117,6 +117,7 @@ namespace System::Collections {
   static check_size<sizeof(ListDictionaryInternal), 28 + sizeof(int)> __System_Collections_ListDictionaryInternalSizeCheck;
   static_assert(sizeof(ListDictionaryInternal) == 0x20);
 }
+NEED_NO_BOX(System::Collections::ListDictionaryInternal);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::ListDictionaryInternal*, "System.Collections", "ListDictionaryInternal");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::ListDictionaryInternal::get_Item

@@ -52,6 +52,7 @@ namespace System::Resources {
   }; // System.Resources.MissingManifestResourceException
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Resources::MissingManifestResourceException);
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::MissingManifestResourceException*, "System.Resources", "MissingManifestResourceException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Resources::MissingManifestResourceException::New_ctor

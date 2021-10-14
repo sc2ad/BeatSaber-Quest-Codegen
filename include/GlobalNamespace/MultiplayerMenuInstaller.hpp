@@ -43,6 +43,7 @@ namespace GlobalNamespace {
   }; // MultiplayerMenuInstaller
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerMenuInstaller);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerMenuInstaller*, "", "MultiplayerMenuInstaller");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerMenuInstaller::New_ctor

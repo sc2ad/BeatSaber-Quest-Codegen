@@ -358,6 +358,7 @@ namespace System::Text {
   static check_size<sizeof(StringBuilder), 40 + sizeof(int)> __System_Text_StringBuilderSizeCheck;
   static_assert(sizeof(StringBuilder) == 0x2C);
 }
+NEED_NO_BOX(System::Text::StringBuilder);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::StringBuilder*, "System.Text", "StringBuilder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::StringBuilder::get_Capacity

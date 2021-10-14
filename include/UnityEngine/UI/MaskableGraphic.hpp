@@ -245,6 +245,7 @@ namespace UnityEngine::UI {
   static check_size<sizeof(MaskableGraphic), 184 + sizeof(::ArrayW<UnityEngine::Vector3>)> __UnityEngine_UI_MaskableGraphicSizeCheck;
   static_assert(sizeof(MaskableGraphic) == 0xC0);
 }
+NEED_NO_BOX(UnityEngine::UI::MaskableGraphic);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::MaskableGraphic*, "UnityEngine.UI", "MaskableGraphic");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::MaskableGraphic::get_onCullStateChanged

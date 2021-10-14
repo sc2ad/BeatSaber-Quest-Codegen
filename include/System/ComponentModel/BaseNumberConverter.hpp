@@ -33,6 +33,7 @@ namespace System::ComponentModel {
   }; // System.ComponentModel.BaseNumberConverter
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::ComponentModel::BaseNumberConverter);
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::BaseNumberConverter*, "System.ComponentModel", "BaseNumberConverter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ComponentModel::BaseNumberConverter::New_ctor

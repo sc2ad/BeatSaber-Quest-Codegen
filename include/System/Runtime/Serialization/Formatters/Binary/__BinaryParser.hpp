@@ -433,6 +433,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   static check_size<sizeof(__BinaryParser), 192 + sizeof(System::Runtime::Serialization::Formatters::Binary::ObjectNull*)> __System_Runtime_Serialization_Formatters_Binary___BinaryParserSizeCheck;
   static_assert(sizeof(__BinaryParser) == 0xC8);
 }
+NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::__BinaryParser);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::__BinaryParser*, "System.Runtime.Serialization.Formatters.Binary", "__BinaryParser");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::__BinaryParser::get_SystemAssemblyInfo

@@ -131,6 +131,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(AudioClipLoaderSO::$LoadAudioFileCoroutine$d__3), 56 + sizeof(UnityEngine::Networking::UnityWebRequest*)> __GlobalNamespace_AudioClipLoaderSO_$LoadAudioFileCoroutine$d__3SizeCheck;
   static_assert(sizeof(AudioClipLoaderSO::$LoadAudioFileCoroutine$d__3) == 0x40);
 }
+NEED_NO_BOX(GlobalNamespace::AudioClipLoaderSO::$LoadAudioFileCoroutine$d__3);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioClipLoaderSO::$LoadAudioFileCoroutine$d__3*, "", "AudioClipLoaderSO/<LoadAudioFileCoroutine>d__3");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AudioClipLoaderSO::$LoadAudioFileCoroutine$d__3::System_Collections_Generic_IEnumerator$System_Object$_get_Current

@@ -81,6 +81,7 @@ namespace UnityEngine::TestTools {
   static check_size<sizeof(EnumerableRetryTestCommand), 32 + sizeof(int)> __UnityEngine_TestTools_EnumerableRetryTestCommandSizeCheck;
   static_assert(sizeof(EnumerableRetryTestCommand) == 0x24);
 }
+NEED_NO_BOX(UnityEngine::TestTools::EnumerableRetryTestCommand);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::EnumerableRetryTestCommand*, "UnityEngine.TestTools", "EnumerableRetryTestCommand");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::EnumerableRetryTestCommand::New_ctor

@@ -298,6 +298,7 @@ namespace UnityEngine::UI {
   static check_size<sizeof(Text), 232 + sizeof(::ArrayW<UnityEngine::UIVertex>)> __UnityEngine_UI_TextSizeCheck;
   static_assert(sizeof(Text) == 0xF0);
 }
+NEED_NO_BOX(UnityEngine::UI::Text);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Text*, "UnityEngine.UI", "Text");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::Text::get_cachedTextGenerator

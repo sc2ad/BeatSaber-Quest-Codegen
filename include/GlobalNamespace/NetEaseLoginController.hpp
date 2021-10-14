@@ -98,6 +98,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(NetEaseLoginController), 40 + sizeof(GlobalNamespace::NetEaseManager*)> __GlobalNamespace_NetEaseLoginControllerSizeCheck;
   static_assert(sizeof(NetEaseLoginController) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::NetEaseLoginController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetEaseLoginController*, "", "NetEaseLoginController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NetEaseLoginController::Start

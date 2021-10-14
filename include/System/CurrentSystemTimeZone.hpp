@@ -73,6 +73,7 @@ namespace System {
   static check_size<sizeof(CurrentSystemTimeZone), 16 + sizeof(System::TimeZoneInfo*)> __System_CurrentSystemTimeZoneSizeCheck;
   static_assert(sizeof(CurrentSystemTimeZone) == 0x18);
 }
+NEED_NO_BOX(System::CurrentSystemTimeZone);
 DEFINE_IL2CPP_ARG_TYPE(System::CurrentSystemTimeZone*, "System", "CurrentSystemTimeZone");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::CurrentSystemTimeZone::GetTimeZoneData

@@ -82,6 +82,7 @@ namespace Zenject {
   static check_size<sizeof(FactoryFromBinderBase::$$c__DisplayClass27_0), 24 + sizeof(Zenject::FactoryFromBinderBase*)> __Zenject_FactoryFromBinderBase_$$c__DisplayClass27_0SizeCheck;
   static_assert(sizeof(FactoryFromBinderBase::$$c__DisplayClass27_0) == 0x20);
 }
+NEED_NO_BOX(Zenject::FactoryFromBinderBase::$$c__DisplayClass27_0);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::FactoryFromBinderBase::$$c__DisplayClass27_0*, "Zenject", "FactoryFromBinderBase/<>c__DisplayClass27_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::FactoryFromBinderBase::$$c__DisplayClass27_0::$FromNewComponentOn$b__0

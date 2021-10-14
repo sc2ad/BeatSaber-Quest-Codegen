@@ -77,6 +77,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   static check_size<sizeof(BinaryObjectString), 24 + sizeof(::Il2CppString*)> __System_Runtime_Serialization_Formatters_Binary_BinaryObjectStringSizeCheck;
   static_assert(sizeof(BinaryObjectString) == 0x20);
 }
+NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::BinaryObjectString);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::BinaryObjectString*, "System.Runtime.Serialization.Formatters.Binary", "BinaryObjectString");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::BinaryObjectString::Set

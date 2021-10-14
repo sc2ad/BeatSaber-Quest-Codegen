@@ -116,6 +116,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(AvatarColorBehaviour), 64 + sizeof(float)> __GlobalNamespace_AvatarColorBehaviourSizeCheck;
   static_assert(sizeof(AvatarColorBehaviour) == 0x44);
 }
+NEED_NO_BOX(GlobalNamespace::AvatarColorBehaviour);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarColorBehaviour*, "", "AvatarColorBehaviour");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AvatarColorBehaviour::New_ctor

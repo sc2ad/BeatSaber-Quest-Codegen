@@ -107,6 +107,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(InteractionTrigger::CameraPosition), 44 + sizeof(bool)> __RootMotion_FinalIK_InteractionTrigger_CameraPositionSizeCheck;
   static_assert(sizeof(InteractionTrigger::CameraPosition) == 0x2D);
 }
+NEED_NO_BOX(RootMotion::FinalIK::InteractionTrigger::CameraPosition);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionTrigger::CameraPosition*, "RootMotion.FinalIK", "InteractionTrigger/CameraPosition");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionTrigger::CameraPosition::GetRotation

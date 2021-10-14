@@ -101,6 +101,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MainFlowCoordinator::$ProcessMenuDestinationRequestAfterFrameCoroutine$d__40), 40 + sizeof(GlobalNamespace::MenuDestination*)> __GlobalNamespace_MainFlowCoordinator_$ProcessMenuDestinationRequestAfterFrameCoroutine$d__40SizeCheck;
   static_assert(sizeof(MainFlowCoordinator::$ProcessMenuDestinationRequestAfterFrameCoroutine$d__40) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::MainFlowCoordinator::$ProcessMenuDestinationRequestAfterFrameCoroutine$d__40);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainFlowCoordinator::$ProcessMenuDestinationRequestAfterFrameCoroutine$d__40*, "", "MainFlowCoordinator/<ProcessMenuDestinationRequestAfterFrameCoroutine>d__40");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MainFlowCoordinator::$ProcessMenuDestinationRequestAfterFrameCoroutine$d__40::System_Collections_Generic_IEnumerator$System_Object$_get_Current

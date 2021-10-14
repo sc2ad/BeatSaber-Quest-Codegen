@@ -401,6 +401,7 @@ namespace System::Net {
   static check_size<sizeof(FileWebRequest), 168 + sizeof(int)> __System_Net_FileWebRequestSizeCheck;
   static_assert(sizeof(FileWebRequest) == 0xAC);
 }
+NEED_NO_BOX(System::Net::FileWebRequest);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::FileWebRequest*, "System.Net", "FileWebRequest");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::FileWebRequest::get_Aborted

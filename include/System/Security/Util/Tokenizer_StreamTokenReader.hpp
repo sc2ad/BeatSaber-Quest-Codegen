@@ -73,6 +73,7 @@ namespace System::Security::Util {
   static check_size<sizeof(Tokenizer::StreamTokenReader), 24 + sizeof(int)> __System_Security_Util_Tokenizer_StreamTokenReaderSizeCheck;
   static_assert(sizeof(Tokenizer::StreamTokenReader) == 0x1C);
 }
+NEED_NO_BOX(System::Security::Util::Tokenizer::StreamTokenReader);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::Tokenizer::StreamTokenReader*, "System.Security.Util", "Tokenizer/StreamTokenReader");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Util::Tokenizer::StreamTokenReader::get_NumCharEncountered

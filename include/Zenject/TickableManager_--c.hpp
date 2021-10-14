@@ -98,6 +98,7 @@ namespace Zenject {
   }; // Zenject.TickableManager/Zenject.<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(Zenject::TickableManager::$$c);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::TickableManager::$$c*, "Zenject", "TickableManager/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::TickableManager::$$c::_cctor

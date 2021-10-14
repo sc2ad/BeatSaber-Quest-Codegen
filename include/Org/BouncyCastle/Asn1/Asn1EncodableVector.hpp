@@ -137,6 +137,7 @@ namespace Org::BouncyCastle::Asn1 {
   static check_size<sizeof(Asn1EncodableVector), 28 + sizeof(bool)> __Org_BouncyCastle_Asn1_Asn1EncodableVectorSizeCheck;
   static_assert(sizeof(Asn1EncodableVector) == 0x1D);
 }
+NEED_NO_BOX(Org::BouncyCastle::Asn1::Asn1EncodableVector);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Asn1EncodableVector*, "Org.BouncyCastle.Asn1", "Asn1EncodableVector");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1EncodableVector::get_Item

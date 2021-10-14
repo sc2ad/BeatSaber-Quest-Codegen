@@ -50,6 +50,7 @@ namespace UnityEngine {
   }; // UnityEngine.AudioClip/UnityEngine.PCMSetPositionCallback
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::AudioClip::PCMSetPositionCallback);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AudioClip::PCMSetPositionCallback*, "UnityEngine", "AudioClip/PCMSetPositionCallback");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AudioClip::PCMSetPositionCallback::New_ctor

@@ -55,6 +55,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MaterialPropertyValuesSetter::PropertyNameIntValuePair), 28 + sizeof(int)> __GlobalNamespace_MaterialPropertyValuesSetter_PropertyNameIntValuePairSizeCheck;
   static_assert(sizeof(MaterialPropertyValuesSetter::PropertyNameIntValuePair) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameIntValuePair);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameIntValuePair*, "", "MaterialPropertyValuesSetter/PropertyNameIntValuePair");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameIntValuePair::New_ctor

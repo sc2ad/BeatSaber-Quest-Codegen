@@ -117,6 +117,7 @@ namespace System::Net::Sockets {
   static check_size<sizeof(SafeSocketHandle), 48 + sizeof(bool)> __System_Net_Sockets_SafeSocketHandleSizeCheck;
   static_assert(sizeof(SafeSocketHandle) == 0x31);
 }
+NEED_NO_BOX(System::Net::Sockets::SafeSocketHandle);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::SafeSocketHandle*, "System.Net.Sockets", "SafeSocketHandle");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Sockets::SafeSocketHandle::_cctor

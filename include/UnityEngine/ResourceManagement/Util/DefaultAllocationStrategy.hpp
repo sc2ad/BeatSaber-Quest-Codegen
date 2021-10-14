@@ -49,6 +49,7 @@ namespace UnityEngine::ResourceManagement::Util {
   }; // UnityEngine.ResourceManagement.Util.DefaultAllocationStrategy
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::ResourceManagement::Util::DefaultAllocationStrategy);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Util::DefaultAllocationStrategy*, "UnityEngine.ResourceManagement.Util", "DefaultAllocationStrategy");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::DefaultAllocationStrategy::New

@@ -65,6 +65,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_MeshIndexFormat), 16 + sizeof(UnityEngine::Rendering::IndexFormat)> __HoudiniEngineUnity_HEU_MeshIndexFormatSizeCheck;
   static_assert(sizeof(HEU_MeshIndexFormat) == 0x14);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_MeshIndexFormat);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_MeshIndexFormat*, "HoudiniEngineUnity", "HEU_MeshIndexFormat");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_MeshIndexFormat::CalculateIndexFormat

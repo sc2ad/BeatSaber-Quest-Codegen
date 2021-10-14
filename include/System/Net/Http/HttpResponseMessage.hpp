@@ -167,6 +167,7 @@ namespace System::Net::Http {
   static check_size<sizeof(HttpResponseMessage), 64 + sizeof(System::Net::Http::HttpRequestMessage*)> __System_Net_Http_HttpResponseMessageSizeCheck;
   static_assert(sizeof(HttpResponseMessage) == 0x48);
 }
+NEED_NO_BOX(System::Net::Http::HttpResponseMessage);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::HttpResponseMessage*, "System.Net.Http", "HttpResponseMessage");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Http::HttpResponseMessage::get_Content

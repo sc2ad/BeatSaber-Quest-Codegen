@@ -161,6 +161,7 @@ namespace System::Net::Http {
   static check_size<sizeof(HttpContent), 32 + sizeof(System::Net::Http::Headers::HttpContentHeaders*)> __System_Net_Http_HttpContentSizeCheck;
   static_assert(sizeof(HttpContent) == 0x28);
 }
+NEED_NO_BOX(System::Net::Http::HttpContent);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::HttpContent*, "System.Net.Http", "HttpContent");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Http::HttpContent::get_Headers

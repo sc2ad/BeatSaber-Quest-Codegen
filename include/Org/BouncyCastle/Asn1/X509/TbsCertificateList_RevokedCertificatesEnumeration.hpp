@@ -71,6 +71,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
   static check_size<sizeof(TbsCertificateList::RevokedCertificatesEnumeration), 16 + sizeof(System::Collections::IEnumerable*)> __Org_BouncyCastle_Asn1_X509_TbsCertificateList_RevokedCertificatesEnumerationSizeCheck;
   static_assert(sizeof(TbsCertificateList::RevokedCertificatesEnumeration) == 0x18);
 }
+NEED_NO_BOX(Org::BouncyCastle::Asn1::X509::TbsCertificateList::RevokedCertificatesEnumeration);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::TbsCertificateList::RevokedCertificatesEnumeration*, "Org.BouncyCastle.Asn1.X509", "TbsCertificateList/RevokedCertificatesEnumeration");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::TbsCertificateList::RevokedCertificatesEnumeration::New_ctor

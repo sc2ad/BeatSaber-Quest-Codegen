@@ -121,6 +121,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(TutorialInstaller), 72 + sizeof(GlobalNamespace::TutorialSceneSetupData*)> __GlobalNamespace_TutorialInstallerSizeCheck;
   static_assert(sizeof(TutorialInstaller) == 0x50);
 }
+NEED_NO_BOX(GlobalNamespace::TutorialInstaller);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialInstaller*, "", "TutorialInstaller");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TutorialInstaller::New_ctor

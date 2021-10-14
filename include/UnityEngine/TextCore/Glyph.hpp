@@ -135,6 +135,7 @@ namespace UnityEngine::TextCore {
   static check_size<sizeof(Glyph), 60 + sizeof(int)> __UnityEngine_TextCore_GlyphSizeCheck;
   static_assert(sizeof(Glyph) == 0x40);
 }
+NEED_NO_BOX(UnityEngine::TextCore::Glyph);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::Glyph*, "UnityEngine.TextCore", "Glyph");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TextCore::Glyph::get_index

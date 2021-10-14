@@ -35,6 +35,7 @@ namespace Microsoft::Win32::SafeHandles {
   }; // Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid
   #pragma pack(pop)
 }
+NEED_NO_BOX(Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid);
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid*, "Microsoft.Win32.SafeHandles", "SafeHandleZeroOrMinusOneIsInvalid");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid::New_ctor

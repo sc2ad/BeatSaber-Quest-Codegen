@@ -358,6 +358,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LobbyPlayersDataModel), 88 + sizeof(System::Action_1<::Il2CppString*>*)> __GlobalNamespace_LobbyPlayersDataModelSizeCheck;
   static_assert(sizeof(LobbyPlayersDataModel) == 0x60);
 }
+NEED_NO_BOX(GlobalNamespace::LobbyPlayersDataModel);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LobbyPlayersDataModel*, "", "LobbyPlayersDataModel");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LobbyPlayersDataModel::get_localUserId

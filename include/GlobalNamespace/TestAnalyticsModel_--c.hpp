@@ -57,6 +57,7 @@ namespace GlobalNamespace {
   }; // TestAnalyticsModel/<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::TestAnalyticsModel::$$c);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TestAnalyticsModel::$$c*, "", "TestAnalyticsModel/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TestAnalyticsModel::$$c::_cctor

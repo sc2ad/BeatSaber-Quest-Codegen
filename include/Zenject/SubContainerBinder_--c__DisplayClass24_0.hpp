@@ -71,6 +71,7 @@ namespace Zenject {
   static check_size<sizeof(SubContainerBinder::$$c__DisplayClass24_0), 24 + sizeof(Zenject::GameObjectCreationParameters*)> __Zenject_SubContainerBinder_$$c__DisplayClass24_0SizeCheck;
   static_assert(sizeof(SubContainerBinder::$$c__DisplayClass24_0) == 0x20);
 }
+NEED_NO_BOX(Zenject::SubContainerBinder::$$c__DisplayClass24_0);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerBinder::$$c__DisplayClass24_0*, "Zenject", "SubContainerBinder/<>c__DisplayClass24_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::SubContainerBinder::$$c__DisplayClass24_0::$ByNewContextPrefabResource$b__0

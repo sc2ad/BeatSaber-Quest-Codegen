@@ -200,6 +200,7 @@ namespace System::Net {
   static check_size<sizeof(ResponseStream), 56 + sizeof(System::IO::Stream*)> __System_Net_ResponseStreamSizeCheck;
   static_assert(sizeof(ResponseStream) == 0x40);
 }
+NEED_NO_BOX(System::Net::ResponseStream);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::ResponseStream*, "System.Net", "ResponseStream");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::ResponseStream::New_ctor

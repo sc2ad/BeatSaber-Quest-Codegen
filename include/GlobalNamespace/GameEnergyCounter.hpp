@@ -326,6 +326,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(GameEnergyCounter), 120 + sizeof(float)> __GlobalNamespace_GameEnergyCounterSizeCheck;
   static_assert(sizeof(GameEnergyCounter) == 0x7C);
 }
+NEED_NO_BOX(GlobalNamespace::GameEnergyCounter);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameEnergyCounter*, "", "GameEnergyCounter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameEnergyCounter::get_isInitialized

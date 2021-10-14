@@ -173,6 +173,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRInput::OVRControllerBase), 256 + sizeof(bool)> __GlobalNamespace_OVRInput_OVRControllerBaseSizeCheck;
   static_assert(sizeof(OVRInput::OVRControllerBase) == 0x101);
 }
+NEED_NO_BOX(GlobalNamespace::OVRInput::OVRControllerBase);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OVRControllerBase*, "", "OVRInput/OVRControllerBase");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::OVRControllerBase::Update

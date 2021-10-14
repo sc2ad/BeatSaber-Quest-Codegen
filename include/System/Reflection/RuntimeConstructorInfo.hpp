@@ -87,6 +87,7 @@ namespace System::Reflection {
   }; // System.Reflection.RuntimeConstructorInfo
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Reflection::RuntimeConstructorInfo);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::RuntimeConstructorInfo*, "System.Reflection", "RuntimeConstructorInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::RuntimeConstructorInfo::get_BindingFlags

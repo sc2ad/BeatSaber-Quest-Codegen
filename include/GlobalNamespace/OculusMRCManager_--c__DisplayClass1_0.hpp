@@ -78,6 +78,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OculusMRCManager::$$c__DisplayClass1_0), 24 + sizeof(System::Func_2<UnityEngine::GameObject*, UnityEngine::GameObject*>*)> __GlobalNamespace_OculusMRCManager_$$c__DisplayClass1_0SizeCheck;
   static_assert(sizeof(OculusMRCManager::$$c__DisplayClass1_0) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::OculusMRCManager::$$c__DisplayClass1_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusMRCManager::$$c__DisplayClass1_0*, "", "OculusMRCManager/<>c__DisplayClass1_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OculusMRCManager::$$c__DisplayClass1_0::$Init$b__0

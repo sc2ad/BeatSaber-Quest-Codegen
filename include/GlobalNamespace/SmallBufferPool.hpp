@@ -135,6 +135,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SmallBufferPool), 40 + sizeof(System::Collections::Generic::List_1<::ArrayW<uint8_t>>*)> __GlobalNamespace_SmallBufferPoolSizeCheck;
   static_assert(sizeof(SmallBufferPool) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::SmallBufferPool);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SmallBufferPool*, "", "SmallBufferPool");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SmallBufferPool::GetBuffer

@@ -50,6 +50,7 @@ namespace UnityEngine::LowLevel {
   }; // UnityEngine.LowLevel.PlayerLoopSystem/UnityEngine.LowLevel.UpdateFunction
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::LowLevel::PlayerLoopSystem::UpdateFunction);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::LowLevel::PlayerLoopSystem::UpdateFunction*, "UnityEngine.LowLevel", "PlayerLoopSystem/UpdateFunction");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::LowLevel::PlayerLoopSystem::UpdateFunction::New_ctor

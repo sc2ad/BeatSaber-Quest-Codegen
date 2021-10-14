@@ -219,6 +219,7 @@ namespace UnityEngine::Timeline {
   static check_size<sizeof(TimeNotificationBehaviour), 40 + sizeof(UnityEngine::Playables::Playable)> __UnityEngine_Timeline_TimeNotificationBehaviourSizeCheck;
   static_assert(sizeof(TimeNotificationBehaviour) == 0x34);
 }
+NEED_NO_BOX(UnityEngine::Timeline::TimeNotificationBehaviour);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimeNotificationBehaviour*, "UnityEngine.Timeline", "TimeNotificationBehaviour");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry, "UnityEngine.Timeline", "TimeNotificationBehaviour/NotificationEntry");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

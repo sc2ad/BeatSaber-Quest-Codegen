@@ -32,6 +32,7 @@ namespace System::Reflection {
   }; // System.Reflection.Assembly/System.Reflection.ResolveEventHolder
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Reflection::Assembly::ResolveEventHolder);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Assembly::ResolveEventHolder*, "System.Reflection", "Assembly/ResolveEventHolder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::Assembly::ResolveEventHolder::New_ctor

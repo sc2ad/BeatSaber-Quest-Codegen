@@ -79,6 +79,7 @@ namespace Libraries::HM::HMLib::VR {
   static check_size<sizeof(HapticPresetSO), 36 + sizeof(bool)> __Libraries_HM_HMLib_VR_HapticPresetSOSizeCheck;
   static_assert(sizeof(HapticPresetSO) == 0x25);
 }
+NEED_NO_BOX(Libraries::HM::HMLib::VR::HapticPresetSO);
 DEFINE_IL2CPP_ARG_TYPE(Libraries::HM::HMLib::VR::HapticPresetSO*, "Libraries.HM.HMLib.VR", "HapticPresetSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Libraries::HM::HMLib::VR::HapticPresetSO::CopyFrom

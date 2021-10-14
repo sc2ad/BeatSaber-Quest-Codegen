@@ -40,6 +40,7 @@ namespace GlobalNamespace {
   }; // SteamVR_UpdatePoses
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::SteamVR_UpdatePoses);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_UpdatePoses*, "", "SteamVR_UpdatePoses");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_UpdatePoses::Awake

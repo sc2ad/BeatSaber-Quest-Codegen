@@ -144,6 +144,7 @@ namespace System::Security::Cryptography {
   static check_size<sizeof(TailStream), 56 + sizeof(bool)> __System_Security_Cryptography_TailStreamSizeCheck;
   static_assert(sizeof(TailStream) == 0x39);
 }
+NEED_NO_BOX(System::Security::Cryptography::TailStream);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::TailStream*, "System.Security.Cryptography", "TailStream");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::TailStream::get_Buffer

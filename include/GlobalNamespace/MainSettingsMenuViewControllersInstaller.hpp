@@ -100,6 +100,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MainSettingsMenuViewControllersInstaller), 64 + sizeof(GlobalNamespace::TabBarViewController*)> __GlobalNamespace_MainSettingsMenuViewControllersInstallerSizeCheck;
   static_assert(sizeof(MainSettingsMenuViewControllersInstaller) == 0x48);
 }
+NEED_NO_BOX(GlobalNamespace::MainSettingsMenuViewControllersInstaller);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainSettingsMenuViewControllersInstaller*, "", "MainSettingsMenuViewControllersInstaller");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MainSettingsMenuViewControllersInstaller::New_ctor

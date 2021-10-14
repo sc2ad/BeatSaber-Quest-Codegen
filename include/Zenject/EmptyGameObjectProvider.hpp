@@ -95,6 +95,7 @@ namespace Zenject {
   static check_size<sizeof(EmptyGameObjectProvider), 24 + sizeof(Zenject::GameObjectCreationParameters*)> __Zenject_EmptyGameObjectProviderSizeCheck;
   static_assert(sizeof(EmptyGameObjectProvider) == 0x20);
 }
+NEED_NO_BOX(Zenject::EmptyGameObjectProvider);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::EmptyGameObjectProvider*, "Zenject", "EmptyGameObjectProvider");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::EmptyGameObjectProvider::get_IsCached

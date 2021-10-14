@@ -80,6 +80,7 @@ namespace Zenject {
   static check_size<sizeof(ZenjectStateMachineBehaviourAutoInjecter), 32 + sizeof(UnityEngine::Animator*)> __Zenject_ZenjectStateMachineBehaviourAutoInjecterSizeCheck;
   static_assert(sizeof(ZenjectStateMachineBehaviourAutoInjecter) == 0x28);
 }
+NEED_NO_BOX(Zenject::ZenjectStateMachineBehaviourAutoInjecter);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenjectStateMachineBehaviourAutoInjecter*, "Zenject", "ZenjectStateMachineBehaviourAutoInjecter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::ZenjectStateMachineBehaviourAutoInjecter::Construct

@@ -82,6 +82,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(GameScenesManager::ScenesStackData), 24 + sizeof(Zenject::DiContainer*)> __GlobalNamespace_GameScenesManager_ScenesStackDataSizeCheck;
   static_assert(sizeof(GameScenesManager::ScenesStackData) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::GameScenesManager::ScenesStackData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameScenesManager::ScenesStackData*, "", "GameScenesManager/ScenesStackData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameScenesManager::ScenesStackData::get_sceneNames

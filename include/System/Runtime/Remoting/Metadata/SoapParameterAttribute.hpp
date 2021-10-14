@@ -36,6 +36,7 @@ namespace System::Runtime::Remoting::Metadata {
   }; // System.Runtime.Remoting.Metadata.SoapParameterAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Runtime::Remoting::Metadata::SoapParameterAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Metadata::SoapParameterAttribute*, "System.Runtime.Remoting.Metadata", "SoapParameterAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Metadata::SoapParameterAttribute::New_ctor

@@ -131,6 +131,7 @@ namespace Oculus::Platform {
   static check_size<sizeof(Matchmaking::CustomQuery), 24 + sizeof(::ArrayW<Oculus::Platform::Matchmaking::CustomQuery::Criterion>)> __Oculus_Platform_Matchmaking_CustomQuerySizeCheck;
   static_assert(sizeof(Matchmaking::CustomQuery) == 0x20);
 }
+NEED_NO_BOX(Oculus::Platform::Matchmaking::CustomQuery);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Matchmaking::CustomQuery*, "Oculus.Platform", "Matchmaking/CustomQuery");
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Matchmaking::CustomQuery::Criterion, "Oculus.Platform", "Matchmaking/CustomQuery/Criterion");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

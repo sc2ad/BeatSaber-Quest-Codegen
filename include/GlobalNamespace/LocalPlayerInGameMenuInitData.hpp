@@ -81,6 +81,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LocalPlayerInGameMenuInitData), 40 + sizeof(bool)> __GlobalNamespace_LocalPlayerInGameMenuInitDataSizeCheck;
   static_assert(sizeof(LocalPlayerInGameMenuInitData) == 0x29);
 }
+NEED_NO_BOX(GlobalNamespace::LocalPlayerInGameMenuInitData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalPlayerInGameMenuInitData*, "", "LocalPlayerInGameMenuInitData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LocalPlayerInGameMenuInitData::New_ctor

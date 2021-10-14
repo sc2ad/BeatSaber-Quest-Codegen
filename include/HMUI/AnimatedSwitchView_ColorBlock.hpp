@@ -91,6 +91,7 @@ namespace HMUI {
   static check_size<sizeof(AnimatedSwitchView::ColorBlock), 96 + sizeof(UnityEngine::Color)> __HMUI_AnimatedSwitchView_ColorBlockSizeCheck;
   static_assert(sizeof(AnimatedSwitchView::ColorBlock) == 0x70);
 }
+NEED_NO_BOX(HMUI::AnimatedSwitchView::ColorBlock);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::AnimatedSwitchView::ColorBlock*, "HMUI", "AnimatedSwitchView/ColorBlock");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::AnimatedSwitchView::ColorBlock::New_ctor

@@ -108,6 +108,7 @@ namespace GlobalNamespace {
   }; // GhostEffectAsset
   // WARNING Not writing size check since size may be invalid!
 }
+NEED_NO_BOX(GlobalNamespace::GhostEffectAsset);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GhostEffectAsset*, "", "GhostEffectAsset");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GhostEffectAsset::get_clipCaps

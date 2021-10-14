@@ -135,6 +135,7 @@ namespace UnityEngine::Timeline {
   static check_size<sizeof(ParticleControlPlayable), 32 + sizeof(UnityEngine::ParticleSystem*)> __UnityEngine_Timeline_ParticleControlPlayableSizeCheck;
   static_assert(sizeof(ParticleControlPlayable) == 0x28);
 }
+NEED_NO_BOX(UnityEngine::Timeline::ParticleControlPlayable);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ParticleControlPlayable*, "UnityEngine.Timeline", "ParticleControlPlayable");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::ParticleControlPlayable::get_particleSystem

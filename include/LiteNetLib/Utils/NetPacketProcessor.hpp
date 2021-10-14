@@ -366,6 +366,7 @@ namespace LiteNetLib::Utils {
   static check_size<sizeof(NetPacketProcessor), 32 + sizeof(LiteNetLib::Utils::NetDataWriter*)> __LiteNetLib_Utils_NetPacketProcessorSizeCheck;
   static_assert(sizeof(NetPacketProcessor) == 0x28);
 }
+NEED_NO_BOX(LiteNetLib::Utils::NetPacketProcessor);
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::NetPacketProcessor*, "LiteNetLib.Utils", "NetPacketProcessor");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetPacketProcessor::New_ctor

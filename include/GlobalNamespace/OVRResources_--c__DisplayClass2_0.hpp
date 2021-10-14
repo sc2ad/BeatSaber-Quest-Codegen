@@ -56,6 +56,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRResources::$$c__DisplayClass2_0), 16 + sizeof(::Il2CppString*)> __GlobalNamespace_OVRResources_$$c__DisplayClass2_0SizeCheck;
   static_assert(sizeof(OVRResources::$$c__DisplayClass2_0) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::OVRResources::$$c__DisplayClass2_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRResources::$$c__DisplayClass2_0*, "", "OVRResources/<>c__DisplayClass2_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRResources::$$c__DisplayClass2_0::$Load$b__0

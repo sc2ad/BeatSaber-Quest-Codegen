@@ -60,6 +60,7 @@ namespace UnityEngine::TestTools::Logging {
   }; // UnityEngine.TestTools.Logging.LogScope/UnityEngine.TestTools.Logging.<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::TestTools::Logging::LogScope::$$c);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Logging::LogScope::$$c*, "UnityEngine.TestTools.Logging", "LogScope/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogScope::$$c::_cctor

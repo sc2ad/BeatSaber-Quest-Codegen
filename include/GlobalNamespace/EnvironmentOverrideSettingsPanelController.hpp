@@ -181,6 +181,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(EnvironmentOverrideSettingsPanelController), 88 + sizeof(bool)> __GlobalNamespace_EnvironmentOverrideSettingsPanelControllerSizeCheck;
   static_assert(sizeof(EnvironmentOverrideSettingsPanelController) == 0x59);
 }
+NEED_NO_BOX(GlobalNamespace::EnvironmentOverrideSettingsPanelController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentOverrideSettingsPanelController*, "", "EnvironmentOverrideSettingsPanelController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EnvironmentOverrideSettingsPanelController::get_overrideEnvironmentSettings

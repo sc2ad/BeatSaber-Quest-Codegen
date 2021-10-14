@@ -207,6 +207,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ParametricBoxController), 80 + sizeof(UnityEngine::MeshRenderer*)> __GlobalNamespace_ParametricBoxControllerSizeCheck;
   static_assert(sizeof(ParametricBoxController) == 0x58);
 }
+NEED_NO_BOX(GlobalNamespace::ParametricBoxController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ParametricBoxController*, "", "ParametricBoxController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ParametricBoxController::Awake

@@ -32,6 +32,7 @@ namespace System::Resources {
   }; // System.Resources.ResourceManager/System.Resources.CultureNameResourceSetPair
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Resources::ResourceManager::CultureNameResourceSetPair);
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::ResourceManager::CultureNameResourceSetPair*, "System.Resources", "ResourceManager/CultureNameResourceSetPair");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Resources::ResourceManager::CultureNameResourceSetPair::New_ctor

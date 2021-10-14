@@ -209,6 +209,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   static check_size<sizeof(AssetBundleRequestOptions), 65 + sizeof(bool)> __UnityEngine_ResourceManagement_ResourceProviders_AssetBundleRequestOptionsSizeCheck;
   static_assert(sizeof(AssetBundleRequestOptions) == 0x42);
 }
+NEED_NO_BOX(UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions*, "UnityEngine.ResourceManagement.ResourceProviders", "AssetBundleRequestOptions");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::get_Hash

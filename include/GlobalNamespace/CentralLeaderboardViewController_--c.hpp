@@ -76,6 +76,7 @@ namespace GlobalNamespace {
   }; // CentralLeaderboardViewController/<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::CentralLeaderboardViewController::$$c);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CentralLeaderboardViewController::$$c*, "", "CentralLeaderboardViewController/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CentralLeaderboardViewController::$$c::_cctor

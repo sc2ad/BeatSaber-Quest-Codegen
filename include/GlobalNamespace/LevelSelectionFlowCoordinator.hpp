@@ -249,6 +249,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LevelSelectionFlowCoordinator), 200 + sizeof(GlobalNamespace::LevelSelectionFlowCoordinator::State*)> __GlobalNamespace_LevelSelectionFlowCoordinatorSizeCheck;
   static_assert(sizeof(LevelSelectionFlowCoordinator) == 0xD0);
 }
+NEED_NO_BOX(GlobalNamespace::LevelSelectionFlowCoordinator);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelSelectionFlowCoordinator*, "", "LevelSelectionFlowCoordinator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LevelSelectionFlowCoordinator::get_isInRootViewController

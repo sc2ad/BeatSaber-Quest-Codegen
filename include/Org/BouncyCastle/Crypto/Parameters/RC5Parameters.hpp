@@ -41,6 +41,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   static_assert(sizeof(RC5Parameters) == 0x1C);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Parameters::RC5Parameters);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::RC5Parameters*, "Org.BouncyCastle.Crypto.Parameters", "RC5Parameters");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::RC5Parameters::get_Rounds

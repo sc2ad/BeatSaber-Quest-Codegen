@@ -125,6 +125,7 @@ namespace System::Net::Http::Headers {
   static check_size<sizeof(MediaTypeHeaderValue), 24 + sizeof(::Il2CppString*)> __System_Net_Http_Headers_MediaTypeHeaderValueSizeCheck;
   static_assert(sizeof(MediaTypeHeaderValue) == 0x20);
 }
+NEED_NO_BOX(System::Net::Http::Headers::MediaTypeHeaderValue);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::MediaTypeHeaderValue*, "System.Net.Http.Headers", "MediaTypeHeaderValue");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Http::Headers::MediaTypeHeaderValue::get_CharSet

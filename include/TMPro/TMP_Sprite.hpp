@@ -92,6 +92,7 @@ namespace TMPro {
   static check_size<sizeof(TMP_Sprite), 80 + sizeof(UnityEngine::Sprite*)> __TMPro_TMP_SpriteSizeCheck;
   static_assert(sizeof(TMP_Sprite) == 0x58);
 }
+NEED_NO_BOX(TMPro::TMP_Sprite);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Sprite*, "TMPro", "TMP_Sprite");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_Sprite::New_ctor

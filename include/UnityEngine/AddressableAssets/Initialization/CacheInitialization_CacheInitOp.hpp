@@ -86,6 +86,7 @@ namespace UnityEngine::AddressableAssets::Initialization {
   }; // UnityEngine.AddressableAssets.Initialization.CacheInitialization/UnityEngine.AddressableAssets.Initialization.CacheInitOp
   // WARNING Not writing size check since size may be invalid!
 }
+NEED_NO_BOX(UnityEngine::AddressableAssets::Initialization::CacheInitialization::CacheInitOp);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Initialization::CacheInitialization::CacheInitOp*, "UnityEngine.AddressableAssets.Initialization", "CacheInitialization/CacheInitOp");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Initialization::CacheInitialization::CacheInitOp::Init

@@ -63,6 +63,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ConnectionErrorDialogViewController::$$c__DisplayClass0_0), 16 + sizeof(System::Action*)> __GlobalNamespace_ConnectionErrorDialogViewController_$$c__DisplayClass0_0SizeCheck;
   static_assert(sizeof(ConnectionErrorDialogViewController::$$c__DisplayClass0_0) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::ConnectionErrorDialogViewController::$$c__DisplayClass0_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConnectionErrorDialogViewController::$$c__DisplayClass0_0*, "", "ConnectionErrorDialogViewController/<>c__DisplayClass0_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ConnectionErrorDialogViewController::$$c__DisplayClass0_0::$Init$b__0

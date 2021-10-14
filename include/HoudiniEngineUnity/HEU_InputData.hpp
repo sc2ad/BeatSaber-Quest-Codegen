@@ -57,6 +57,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_InputData), 16 + sizeof(UnityEngine::GameObject*)> __HoudiniEngineUnity_HEU_InputDataSizeCheck;
   static_assert(sizeof(HEU_InputData) == 0x18);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_InputData);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_InputData*, "HoudiniEngineUnity", "HEU_InputData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_InputData::New_ctor

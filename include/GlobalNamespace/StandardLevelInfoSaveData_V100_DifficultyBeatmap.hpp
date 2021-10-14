@@ -95,6 +95,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(StandardLevelInfoSaveData_V100::DifficultyBeatmap), 44 + sizeof(int)> __GlobalNamespace_StandardLevelInfoSaveData_V100_DifficultyBeatmapSizeCheck;
   static_assert(sizeof(StandardLevelInfoSaveData_V100::DifficultyBeatmap) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap*, "", "StandardLevelInfoSaveData_V100/DifficultyBeatmap");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap::get_difficulty

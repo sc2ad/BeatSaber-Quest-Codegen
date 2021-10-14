@@ -175,6 +175,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerCenterTextAnimator), 80 + sizeof(Tweening::Tween_1<UnityEngine::Vector3>*)> __GlobalNamespace_MultiplayerCenterTextAnimatorSizeCheck;
   static_assert(sizeof(MultiplayerCenterTextAnimator) == 0x58);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerCenterTextAnimator);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerCenterTextAnimator*, "", "MultiplayerCenterTextAnimator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerCenterTextAnimator::Awake

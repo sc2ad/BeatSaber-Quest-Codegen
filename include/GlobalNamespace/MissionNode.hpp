@@ -142,6 +142,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MissionNode), 64 + sizeof(::ArrayW<GlobalNamespace::MissionNode*>)> __GlobalNamespace_MissionNodeSizeCheck;
   static_assert(sizeof(MissionNode) == 0x48);
 }
+NEED_NO_BOX(GlobalNamespace::MissionNode);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionNode*, "", "MissionNode");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionNode::get_missionData

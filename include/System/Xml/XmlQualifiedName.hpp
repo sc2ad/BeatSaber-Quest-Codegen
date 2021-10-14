@@ -133,6 +133,7 @@ namespace System::Xml {
   // Offset: 0x1AEA2B0
   bool operator !=(System::Xml::XmlQualifiedName* a, System::Xml::XmlQualifiedName& b);
 }
+NEED_NO_BOX(System::Xml::XmlQualifiedName);
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlQualifiedName*, "System.Xml", "XmlQualifiedName");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::XmlQualifiedName::get_Namespace

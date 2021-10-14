@@ -1847,6 +1847,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_HoudiniAsset), 624 + sizeof(bool)> __HoudiniEngineUnity_HEU_HoudiniAssetSizeCheck;
   static_assert(sizeof(HEU_HoudiniAsset) == 0x271);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_HoudiniAsset);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_HoudiniAsset*, "HoudiniEngineUnity", "HEU_HoudiniAsset");
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_HoudiniAsset::HEU_AssetType, "HoudiniEngineUnity", "HEU_HoudiniAsset/HEU_AssetType");
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_HoudiniAsset::AssetBuildAction, "HoudiniEngineUnity", "HEU_HoudiniAsset/AssetBuildAction");

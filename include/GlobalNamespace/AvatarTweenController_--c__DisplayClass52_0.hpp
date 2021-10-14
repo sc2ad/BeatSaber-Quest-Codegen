@@ -69,6 +69,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(AvatarTweenController::$$c__DisplayClass52_0), 24 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_AvatarTweenController_$$c__DisplayClass52_0SizeCheck;
   static_assert(sizeof(AvatarTweenController::$$c__DisplayClass52_0) == 0x24);
 }
+NEED_NO_BOX(GlobalNamespace::AvatarTweenController::$$c__DisplayClass52_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarTweenController::$$c__DisplayClass52_0*, "", "AvatarTweenController/<>c__DisplayClass52_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AvatarTweenController::$$c__DisplayClass52_0::$CreatePopTween$b__0

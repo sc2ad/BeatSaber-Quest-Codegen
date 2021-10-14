@@ -173,6 +173,7 @@ namespace GlobalNamespace {
   }; // WaypointsTestMenuViewController/<CheckBeatmaps>d__13
   // WARNING Not writing size check since size may be invalid!
 }
+NEED_NO_BOX(GlobalNamespace::WaypointsTestMenuViewController::$CheckBeatmaps$d__13);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::WaypointsTestMenuViewController::$CheckBeatmaps$d__13*, "", "WaypointsTestMenuViewController/<CheckBeatmaps>d__13");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::WaypointsTestMenuViewController::$CheckBeatmaps$d__13::System_Collections_Generic_IEnumerator$System_Object$_get_Current

@@ -74,6 +74,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerConnectedPlayerObstacleController), 288 + sizeof(GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController*)> __GlobalNamespace_MultiplayerConnectedPlayerObstacleControllerSizeCheck;
   static_assert(sizeof(MultiplayerConnectedPlayerObstacleController) == 0x128);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerConnectedPlayerObstacleController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerObstacleController*, "", "MultiplayerConnectedPlayerObstacleController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerObstacleController::New_ctor

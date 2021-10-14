@@ -144,6 +144,7 @@ namespace System::Net {
   static check_size<sizeof(HttpListenerContext), 64 + sizeof(System::Net::HttpListener*)> __System_Net_HttpListenerContextSizeCheck;
   static_assert(sizeof(HttpListenerContext) == 0x48);
 }
+NEED_NO_BOX(System::Net::HttpListenerContext);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpListenerContext*, "System.Net", "HttpListenerContext");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::HttpListenerContext::get_ErrorStatus

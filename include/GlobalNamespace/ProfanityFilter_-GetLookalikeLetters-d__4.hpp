@@ -120,6 +120,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ProfanityFilter::$GetLookalikeLetters$d__4), 30 + sizeof(::Il2CppChar)> __GlobalNamespace_ProfanityFilter_$GetLookalikeLetters$d__4SizeCheck;
   static_assert(sizeof(ProfanityFilter::$GetLookalikeLetters$d__4) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::ProfanityFilter::$GetLookalikeLetters$d__4);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ProfanityFilter::$GetLookalikeLetters$d__4*, "", "ProfanityFilter/<GetLookalikeLetters>d__4");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ProfanityFilter::$GetLookalikeLetters$d__4::System_Collections_Generic_IEnumerator$System_Char$_get_Current

@@ -324,6 +324,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(AchievementsEvaluationHandler), 240 + sizeof(GlobalNamespace::MissionNodesManager*)> __GlobalNamespace_AchievementsEvaluationHandlerSizeCheck;
   static_assert(sizeof(AchievementsEvaluationHandler) == 0xF8);
 }
+NEED_NO_BOX(GlobalNamespace::AchievementsEvaluationHandler);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AchievementsEvaluationHandler*, "", "AchievementsEvaluationHandler");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AchievementsEvaluationHandler::Start

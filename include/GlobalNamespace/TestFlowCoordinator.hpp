@@ -101,6 +101,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(TestFlowCoordinator), 200 + sizeof(HMUI::ViewController*)> __GlobalNamespace_TestFlowCoordinatorSizeCheck;
   static_assert(sizeof(TestFlowCoordinator) == 0xD0);
 }
+NEED_NO_BOX(GlobalNamespace::TestFlowCoordinator);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TestFlowCoordinator*, "", "TestFlowCoordinator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TestFlowCoordinator::New_ctor

@@ -112,6 +112,7 @@ namespace UnityEngine::Networking {
   static check_size<sizeof(DownloadHandler), 16 + sizeof(System::IntPtr)> __UnityEngine_Networking_DownloadHandlerSizeCheck;
   static_assert(sizeof(DownloadHandler) == 0x18);
 }
+NEED_NO_BOX(UnityEngine::Networking::DownloadHandler);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::DownloadHandler*, "UnityEngine.Networking", "DownloadHandler");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandler::get_text

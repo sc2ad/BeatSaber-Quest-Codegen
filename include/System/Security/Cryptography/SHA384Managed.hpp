@@ -136,6 +136,7 @@ namespace System::Security::Cryptography {
   static check_size<sizeof(SHA384Managed), 64 + sizeof(::ArrayW<uint64_t>)> __System_Security_Cryptography_SHA384ManagedSizeCheck;
   static_assert(sizeof(SHA384Managed) == 0x48);
 }
+NEED_NO_BOX(System::Security::Cryptography::SHA384Managed);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::SHA384Managed*, "System.Security.Cryptography", "SHA384Managed");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::SHA384Managed::_cctor

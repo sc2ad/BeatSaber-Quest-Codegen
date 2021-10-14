@@ -78,6 +78,7 @@ namespace Org::BouncyCastle::Math::EC::Endo {
   static check_size<sizeof(GlvTypeBParameters), 32 + sizeof(Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters*)> __Org_BouncyCastle_Math_EC_Endo_GlvTypeBParametersSizeCheck;
   static_assert(sizeof(GlvTypeBParameters) == 0x28);
 }
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters*, "Org.BouncyCastle.Math.EC.Endo", "GlvTypeBParameters");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::get_Beta

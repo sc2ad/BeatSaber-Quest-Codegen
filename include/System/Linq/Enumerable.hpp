@@ -686,6 +686,7 @@ namespace System::Linq {
   }; // System.Linq.Enumerable
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Linq::Enumerable);
 DEFINE_IL2CPP_ARG_TYPE(System::Linq::Enumerable*, "System.Linq", "Enumerable");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Linq::Enumerable::Where

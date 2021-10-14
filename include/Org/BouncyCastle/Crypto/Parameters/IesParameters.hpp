@@ -66,6 +66,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   static_assert(sizeof(IesParameters) == 0x24);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Parameters::IesParameters);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::IesParameters*, "Org.BouncyCastle.Crypto.Parameters", "IesParameters");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::IesParameters::get_MacKeySize

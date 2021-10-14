@@ -112,6 +112,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(StandaloneMonobehavior::$RunAsyncCoroutine$d__21), 48 + sizeof(System::Threading::Tasks::TaskCompletionSource_1<bool>*)> __GlobalNamespace_StandaloneMonobehavior_$RunAsyncCoroutine$d__21SizeCheck;
   static_assert(sizeof(StandaloneMonobehavior::$RunAsyncCoroutine$d__21) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::StandaloneMonobehavior::$RunAsyncCoroutine$d__21);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandaloneMonobehavior::$RunAsyncCoroutine$d__21*, "", "StandaloneMonobehavior/<RunAsyncCoroutine>d__21");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::StandaloneMonobehavior::$RunAsyncCoroutine$d__21::System_Collections_Generic_IEnumerator$System_Object$_get_Current

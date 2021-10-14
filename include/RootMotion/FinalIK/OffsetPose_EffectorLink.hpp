@@ -91,6 +91,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(OffsetPose::EffectorLink), 44 + sizeof(UnityEngine::Vector3)> __RootMotion_FinalIK_OffsetPose_EffectorLinkSizeCheck;
   static_assert(sizeof(OffsetPose::EffectorLink) == 0x38);
 }
+NEED_NO_BOX(RootMotion::FinalIK::OffsetPose::EffectorLink);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::OffsetPose::EffectorLink*, "RootMotion.FinalIK", "OffsetPose/EffectorLink");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::OffsetPose::EffectorLink::Apply

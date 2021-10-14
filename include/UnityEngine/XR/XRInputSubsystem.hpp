@@ -80,6 +80,7 @@ namespace UnityEngine::XR {
   }; // UnityEngine.XR.XRInputSubsystem
   // WARNING Not writing size check since size may be invalid!
 }
+NEED_NO_BOX(UnityEngine::XR::XRInputSubsystem);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::XRInputSubsystem*, "UnityEngine.XR", "XRInputSubsystem");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::XR::XRInputSubsystem::InvokeTrackingOriginUpdatedEvent

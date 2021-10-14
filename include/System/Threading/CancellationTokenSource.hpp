@@ -280,6 +280,7 @@ namespace System::Threading {
   static check_size<sizeof(CancellationTokenSource), 64 + sizeof(System::Threading::Timer*)> __System_Threading_CancellationTokenSourceSizeCheck;
   static_assert(sizeof(CancellationTokenSource) == 0x48);
 }
+NEED_NO_BOX(System::Threading::CancellationTokenSource);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::CancellationTokenSource*, "System.Threading", "CancellationTokenSource");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::CancellationTokenSource::get_IsCancellationRequested

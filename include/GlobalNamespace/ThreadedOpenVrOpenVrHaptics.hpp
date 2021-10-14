@@ -149,6 +149,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ThreadedOpenVrOpenVrHaptics), 40 + sizeof(GlobalNamespace::ThreadedOpenVrOpenVrHaptics::OpenVrHapticData)> __GlobalNamespace_ThreadedOpenVrOpenVrHapticsSizeCheck;
   static_assert(sizeof(ThreadedOpenVrOpenVrHaptics) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::ThreadedOpenVrOpenVrHaptics);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ThreadedOpenVrOpenVrHaptics*, "", "ThreadedOpenVrOpenVrHaptics");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ThreadedOpenVrOpenVrHaptics::OpenVrHapticData, "", "ThreadedOpenVrOpenVrHaptics/OpenVrHapticData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -149,6 +149,7 @@ namespace System::Runtime::Serialization {
   static check_size<sizeof(SafeSerializationManager), 48 + sizeof(System::EventHandler_1<System::Runtime::Serialization::SafeSerializationEventArgs*>*)> __System_Runtime_Serialization_SafeSerializationManagerSizeCheck;
   static_assert(sizeof(SafeSerializationManager) == 0x38);
 }
+NEED_NO_BOX(System::Runtime::Serialization::SafeSerializationManager);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SafeSerializationManager*, "System.Runtime.Serialization", "SafeSerializationManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::SafeSerializationManager::get_IsActive

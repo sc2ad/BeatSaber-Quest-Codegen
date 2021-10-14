@@ -122,6 +122,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BTSCharacter), 56 + sizeof(UnityEngine::Transform*)> __GlobalNamespace_BTSCharacterSizeCheck;
   static_assert(sizeof(BTSCharacter) == 0x40);
 }
+NEED_NO_BOX(GlobalNamespace::BTSCharacter);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacter*, "", "BTSCharacter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacter::get_characterName

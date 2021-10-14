@@ -622,6 +622,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(CloudsMeshGenerator), 224 + sizeof(::ArrayW<GlobalNamespace::CloudsMeshGenerator::ProhibitedRadius>)> __GlobalNamespace_CloudsMeshGeneratorSizeCheck;
   static_assert(sizeof(CloudsMeshGenerator) == 0xE8);
 }
+NEED_NO_BOX(GlobalNamespace::CloudsMeshGenerator);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CloudsMeshGenerator*, "", "CloudsMeshGenerator");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CloudsMeshGenerator::Cloud, "", "CloudsMeshGenerator/Cloud");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CloudsMeshGenerator::Ring, "", "CloudsMeshGenerator/Ring");

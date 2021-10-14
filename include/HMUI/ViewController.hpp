@@ -322,6 +322,7 @@ namespace HMUI {
   static check_size<sizeof(ViewController), 104 + sizeof(UnityEngine::EventSystems::BaseRaycaster*)> __HMUI_ViewControllerSizeCheck;
   static_assert(sizeof(ViewController) == 0x70);
 }
+NEED_NO_BOX(HMUI::ViewController);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ViewController*, "HMUI", "ViewController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::ViewController::get_containerViewController

@@ -190,6 +190,7 @@ namespace UnityEngine::EventSystems {
   static check_size<sizeof(BaseInputModule), 64 + sizeof(UnityEngine::EventSystems::BaseInput*)> __UnityEngine_EventSystems_BaseInputModuleSizeCheck;
   static_assert(sizeof(BaseInputModule) == 0x48);
 }
+NEED_NO_BOX(UnityEngine::EventSystems::BaseInputModule);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::BaseInputModule*, "UnityEngine.EventSystems", "BaseInputModule");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::EventSystems::BaseInputModule::get_input

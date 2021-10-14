@@ -68,6 +68,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SelectMultiplayerLobbyDestination), 24 + sizeof(::Il2CppString*)> __GlobalNamespace_SelectMultiplayerLobbyDestinationSizeCheck;
   static_assert(sizeof(SelectMultiplayerLobbyDestination) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::SelectMultiplayerLobbyDestination);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectMultiplayerLobbyDestination*, "", "SelectMultiplayerLobbyDestination");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SelectMultiplayerLobbyDestination::New_ctor

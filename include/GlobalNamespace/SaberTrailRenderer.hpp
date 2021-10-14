@@ -214,6 +214,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SaberTrailRenderer), 96 + sizeof(float)> __GlobalNamespace_SaberTrailRendererSizeCheck;
   static_assert(sizeof(SaberTrailRenderer) == 0x64);
 }
+NEED_NO_BOX(GlobalNamespace::SaberTrailRenderer);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberTrailRenderer*, "", "SaberTrailRenderer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SaberTrailRenderer::Init

@@ -113,6 +113,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(InstancedMaterialLightWithId), 84 + sizeof(bool)> __GlobalNamespace_InstancedMaterialLightWithIdSizeCheck;
   static_assert(sizeof(InstancedMaterialLightWithId) == 0x55);
 }
+NEED_NO_BOX(GlobalNamespace::InstancedMaterialLightWithId);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::InstancedMaterialLightWithId*, "", "InstancedMaterialLightWithId");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::InstancedMaterialLightWithId::New_ctor

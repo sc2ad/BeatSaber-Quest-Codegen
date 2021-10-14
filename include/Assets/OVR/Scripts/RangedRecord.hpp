@@ -62,6 +62,7 @@ namespace Assets::OVR::Scripts {
   static check_size<sizeof(RangedRecord), 40 + sizeof(float)> __Assets_OVR_Scripts_RangedRecordSizeCheck;
   static_assert(sizeof(RangedRecord) == 0x2C);
 }
+NEED_NO_BOX(Assets::OVR::Scripts::RangedRecord);
 DEFINE_IL2CPP_ARG_TYPE(Assets::OVR::Scripts::RangedRecord*, "Assets.OVR.Scripts", "RangedRecord");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Assets::OVR::Scripts::RangedRecord::New_ctor

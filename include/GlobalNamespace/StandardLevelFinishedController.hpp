@@ -95,6 +95,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(StandardLevelFinishedController), 40 + sizeof(GlobalNamespace::ILevelEndActions*)> __GlobalNamespace_StandardLevelFinishedControllerSizeCheck;
   static_assert(sizeof(StandardLevelFinishedController) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::StandardLevelFinishedController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelFinishedController*, "", "StandardLevelFinishedController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelFinishedController::Start

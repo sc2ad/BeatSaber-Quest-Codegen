@@ -72,6 +72,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(AnchorIntoParent), 32 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_AnchorIntoParentSizeCheck;
   static_assert(sizeof(AnchorIntoParent) == 0x2C);
 }
+NEED_NO_BOX(GlobalNamespace::AnchorIntoParent);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AnchorIntoParent*, "", "AnchorIntoParent");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AnchorIntoParent::Start

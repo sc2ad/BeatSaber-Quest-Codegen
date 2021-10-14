@@ -71,6 +71,7 @@ namespace HMUI {
   static check_size<sizeof(EmptyBoxGraphic), 140 + sizeof(float)> __HMUI_EmptyBoxGraphicSizeCheck;
   static_assert(sizeof(EmptyBoxGraphic) == 0x90);
 }
+NEED_NO_BOX(HMUI::EmptyBoxGraphic);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::EmptyBoxGraphic*, "HMUI", "EmptyBoxGraphic");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::EmptyBoxGraphic::OnDrawGizmosSelected

@@ -224,6 +224,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SearchFilterParamsViewController), 224 + sizeof(System::Action_2<GlobalNamespace::SearchFilterParamsViewController*, GlobalNamespace::LevelFilterParams*>*)> __GlobalNamespace_SearchFilterParamsViewControllerSizeCheck;
   static_assert(sizeof(SearchFilterParamsViewController) == 0xE8);
 }
+NEED_NO_BOX(GlobalNamespace::SearchFilterParamsViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SearchFilterParamsViewController*, "", "SearchFilterParamsViewController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SearchFilterParamsViewController::add_didFinishEvent

@@ -60,6 +60,7 @@ namespace UnityEngine::EventSystems {
   static check_size<sizeof(EventTrigger::Entry), 24 + sizeof(UnityEngine::EventSystems::EventTrigger::TriggerEvent*)> __UnityEngine_EventSystems_EventTrigger_EntrySizeCheck;
   static_assert(sizeof(EventTrigger::Entry) == 0x20);
 }
+NEED_NO_BOX(UnityEngine::EventSystems::EventTrigger::Entry);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::EventTrigger::Entry*, "UnityEngine.EventSystems", "EventTrigger/Entry");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::EventSystems::EventTrigger::Entry::New_ctor

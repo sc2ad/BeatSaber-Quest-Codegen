@@ -92,6 +92,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OculusInit), 32 + sizeof(GlobalNamespace::DlcPromoExperimentModel*)> __GlobalNamespace_OculusInitSizeCheck;
   static_assert(sizeof(OculusInit) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::OculusInit);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusInit*, "", "OculusInit");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OculusInit::Init

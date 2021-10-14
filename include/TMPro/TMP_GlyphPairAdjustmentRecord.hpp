@@ -91,6 +91,7 @@ namespace TMPro {
   static check_size<sizeof(TMP_GlyphPairAdjustmentRecord), 56 + sizeof(TMPro::FontFeatureLookupFlags)> __TMPro_TMP_GlyphPairAdjustmentRecordSizeCheck;
   static_assert(sizeof(TMP_GlyphPairAdjustmentRecord) == 0x3C);
 }
+NEED_NO_BOX(TMPro::TMP_GlyphPairAdjustmentRecord);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_GlyphPairAdjustmentRecord*, "TMPro", "TMP_GlyphPairAdjustmentRecord");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_GlyphPairAdjustmentRecord::get_firstAdjustmentRecord

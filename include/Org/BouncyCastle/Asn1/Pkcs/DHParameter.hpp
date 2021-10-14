@@ -92,6 +92,7 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
   static check_size<sizeof(DHParameter), 32 + sizeof(Org::BouncyCastle::Asn1::DerInteger*)> __Org_BouncyCastle_Asn1_Pkcs_DHParameterSizeCheck;
   static_assert(sizeof(DHParameter) == 0x28);
 }
+NEED_NO_BOX(Org::BouncyCastle::Asn1::Pkcs::DHParameter);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Pkcs::DHParameter*, "Org.BouncyCastle.Asn1.Pkcs", "DHParameter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::DHParameter::get_P

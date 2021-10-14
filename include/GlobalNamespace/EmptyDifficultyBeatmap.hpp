@@ -134,6 +134,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(EmptyDifficultyBeatmap), 48 + sizeof(GlobalNamespace::BeatmapData*)> __GlobalNamespace_EmptyDifficultyBeatmapSizeCheck;
   static_assert(sizeof(EmptyDifficultyBeatmap) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::EmptyDifficultyBeatmap);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EmptyDifficultyBeatmap*, "", "EmptyDifficultyBeatmap");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EmptyDifficultyBeatmap::get_level

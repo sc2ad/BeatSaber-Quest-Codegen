@@ -115,6 +115,7 @@ namespace Mono::Security::Cryptography {
   static check_size<sizeof(MD2Managed), 72 + sizeof(::ArrayW<uint8_t>)> __Mono_Security_Cryptography_MD2ManagedSizeCheck;
   static_assert(sizeof(MD2Managed) == 0x50);
 }
+NEED_NO_BOX(Mono::Security::Cryptography::MD2Managed);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::MD2Managed*, "Mono.Security.Cryptography", "MD2Managed");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Security::Cryptography::MD2Managed::_cctor

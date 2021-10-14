@@ -85,6 +85,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRCustomSkeleton), 184 + sizeof(System::Collections::Generic::List_1<UnityEngine::Transform*>*)> __GlobalNamespace_OVRCustomSkeletonSizeCheck;
   static_assert(sizeof(OVRCustomSkeleton) == 0xC0);
 }
+NEED_NO_BOX(GlobalNamespace::OVRCustomSkeleton);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRCustomSkeleton*, "", "OVRCustomSkeleton");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRCustomSkeleton::get_CustomBones

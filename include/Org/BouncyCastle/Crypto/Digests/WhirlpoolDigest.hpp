@@ -229,6 +229,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
   static check_size<sizeof(WhirlpoolDigest), 80 + sizeof(::ArrayW<int64_t>)> __Org_BouncyCastle_Crypto_Digests_WhirlpoolDigestSizeCheck;
   static_assert(sizeof(WhirlpoolDigest) == 0x58);
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest*, "Org.BouncyCastle.Crypto.Digests", "WhirlpoolDigest");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::get_AlgorithmName

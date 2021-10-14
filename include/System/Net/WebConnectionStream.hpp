@@ -518,6 +518,7 @@ namespace System::Net {
   static check_size<sizeof(WebConnectionStream), 209 + sizeof(bool)> __System_Net_WebConnectionStreamSizeCheck;
   static_assert(sizeof(WebConnectionStream) == 0xD2);
 }
+NEED_NO_BOX(System::Net::WebConnectionStream);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebConnectionStream*, "System.Net", "WebConnectionStream");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::WebConnectionStream::get_Connection

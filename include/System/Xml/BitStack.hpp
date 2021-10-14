@@ -78,6 +78,7 @@ namespace System::Xml {
   static check_size<sizeof(BitStack), 28 + sizeof(uint)> __System_Xml_BitStackSizeCheck;
   static_assert(sizeof(BitStack) == 0x20);
 }
+NEED_NO_BOX(System::Xml::BitStack);
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::BitStack*, "System.Xml", "BitStack");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::BitStack::PushBit

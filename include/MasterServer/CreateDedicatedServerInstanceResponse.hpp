@@ -237,6 +237,7 @@ namespace MasterServer {
   static check_size<sizeof(CreateDedicatedServerInstanceResponse), 72 + sizeof(GlobalNamespace::ByteArrayNetSerializable*)> __MasterServer_CreateDedicatedServerInstanceResponseSizeCheck;
   static_assert(sizeof(CreateDedicatedServerInstanceResponse) == 0x50);
 }
+NEED_NO_BOX(MasterServer::CreateDedicatedServerInstanceResponse);
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::CreateDedicatedServerInstanceResponse*, "MasterServer", "CreateDedicatedServerInstanceResponse");
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::CreateDedicatedServerInstanceResponse::Result, "MasterServer", "CreateDedicatedServerInstanceResponse/Result");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

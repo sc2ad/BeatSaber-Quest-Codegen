@@ -561,6 +561,7 @@ namespace System::Xml {
   static check_size<sizeof(XmlEncodedRawTextWriter), 181 + sizeof(bool)> __System_Xml_XmlEncodedRawTextWriterSizeCheck;
   static_assert(sizeof(XmlEncodedRawTextWriter) == 0xB6);
 }
+NEED_NO_BOX(System::Xml::XmlEncodedRawTextWriter);
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlEncodedRawTextWriter*, "System.Xml", "XmlEncodedRawTextWriter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::XmlEncodedRawTextWriter::New_ctor

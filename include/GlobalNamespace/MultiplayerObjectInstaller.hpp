@@ -86,6 +86,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerObjectInstaller), 48 + sizeof(GlobalNamespace::MultiplayerResultsPyramidViewAvatar*)> __GlobalNamespace_MultiplayerObjectInstallerSizeCheck;
   static_assert(sizeof(MultiplayerObjectInstaller) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerObjectInstaller);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerObjectInstaller*, "", "MultiplayerObjectInstaller");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerObjectInstaller::New_ctor

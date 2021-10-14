@@ -186,6 +186,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(EditColorSchemeController), 80 + sizeof(HMUI::ButtonBinder*)> __GlobalNamespace_EditColorSchemeControllerSizeCheck;
   static_assert(sizeof(EditColorSchemeController) == 0x58);
 }
+NEED_NO_BOX(GlobalNamespace::EditColorSchemeController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EditColorSchemeController*, "", "EditColorSchemeController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EditColorSchemeController::add_didFinishEvent

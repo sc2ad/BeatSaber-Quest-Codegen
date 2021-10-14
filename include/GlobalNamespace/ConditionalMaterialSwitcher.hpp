@@ -98,6 +98,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ConditionalMaterialSwitcher), 48 + sizeof(UnityEngine::Renderer*)> __GlobalNamespace_ConditionalMaterialSwitcherSizeCheck;
   static_assert(sizeof(ConditionalMaterialSwitcher) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::ConditionalMaterialSwitcher);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConditionalMaterialSwitcher*, "", "ConditionalMaterialSwitcher");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ConditionalMaterialSwitcher::Awake

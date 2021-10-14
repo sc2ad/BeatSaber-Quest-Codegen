@@ -220,6 +220,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_PluginStorage), 32 + sizeof(bool)> __HoudiniEngineUnity_HEU_PluginStorageSizeCheck;
   static_assert(sizeof(HEU_PluginStorage) == 0x21);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_PluginStorage);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_PluginStorage*, "HoudiniEngineUnity", "HEU_PluginStorage");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginStorage::get_RequiresSave

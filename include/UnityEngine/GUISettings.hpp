@@ -101,6 +101,7 @@ namespace UnityEngine {
   static check_size<sizeof(GUISettings), 40 + sizeof(UnityEngine::Color)> __UnityEngine_GUISettingsSizeCheck;
   static_assert(sizeof(GUISettings) == 0x38);
 }
+NEED_NO_BOX(UnityEngine::GUISettings);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUISettings*, "UnityEngine", "GUISettings");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::GUISettings::get_doubleClickSelectsWord

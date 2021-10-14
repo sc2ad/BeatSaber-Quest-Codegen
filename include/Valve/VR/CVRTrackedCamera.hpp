@@ -105,6 +105,7 @@ namespace Valve::VR {
   static check_size<sizeof(CVRTrackedCamera), 16 + sizeof(Valve::VR::IVRTrackedCamera)> __Valve_VR_CVRTrackedCameraSizeCheck;
   static_assert(sizeof(CVRTrackedCamera) == 0x70);
 }
+NEED_NO_BOX(Valve::VR::CVRTrackedCamera);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRTrackedCamera*, "Valve.VR", "CVRTrackedCamera");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::CVRTrackedCamera::New_ctor

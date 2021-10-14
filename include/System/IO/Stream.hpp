@@ -243,6 +243,7 @@ namespace System::IO {
   static check_size<sizeof(Stream), 32 + sizeof(System::Threading::SemaphoreSlim*)> __System_IO_StreamSizeCheck;
   static_assert(sizeof(Stream) == 0x28);
 }
+NEED_NO_BOX(System::IO::Stream);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Stream*, "System.IO", "Stream");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::Stream::get_CanRead

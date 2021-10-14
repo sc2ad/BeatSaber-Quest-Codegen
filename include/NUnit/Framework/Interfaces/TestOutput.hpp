@@ -83,6 +83,7 @@ namespace NUnit::Framework::Interfaces {
   static check_size<sizeof(TestOutput), 32 + sizeof(::Il2CppString*)> __NUnit_Framework_Interfaces_TestOutputSizeCheck;
   static_assert(sizeof(TestOutput) == 0x28);
 }
+NEED_NO_BOX(NUnit::Framework::Interfaces::TestOutput);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::TestOutput*, "NUnit.Framework.Interfaces", "TestOutput");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::TestOutput::get_Text

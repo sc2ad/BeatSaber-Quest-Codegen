@@ -81,6 +81,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(StandardLevelReturnToMenuController), 32 + sizeof(GlobalNamespace::PrepareLevelCompletionResults*)> __GlobalNamespace_StandardLevelReturnToMenuControllerSizeCheck;
   static_assert(sizeof(StandardLevelReturnToMenuController) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::StandardLevelReturnToMenuController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelReturnToMenuController*, "", "StandardLevelReturnToMenuController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelReturnToMenuController::ReturnToMenu

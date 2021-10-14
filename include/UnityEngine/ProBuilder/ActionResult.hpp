@@ -149,6 +149,7 @@ namespace UnityEngine::ProBuilder {
   static check_size<sizeof(ActionResult), 24 + sizeof(::Il2CppString*)> __UnityEngine_ProBuilder_ActionResultSizeCheck;
   static_assert(sizeof(ActionResult) == 0x20);
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::ActionResult);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ActionResult*, "UnityEngine.ProBuilder", "ActionResult");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ActionResult::Status, "UnityEngine.ProBuilder", "ActionResult/Status");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

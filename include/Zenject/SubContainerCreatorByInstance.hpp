@@ -73,6 +73,7 @@ namespace Zenject {
   static check_size<sizeof(SubContainerCreatorByInstance), 16 + sizeof(Zenject::DiContainer*)> __Zenject_SubContainerCreatorByInstanceSizeCheck;
   static_assert(sizeof(SubContainerCreatorByInstance) == 0x18);
 }
+NEED_NO_BOX(Zenject::SubContainerCreatorByInstance);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerCreatorByInstance*, "Zenject", "SubContainerCreatorByInstance");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::SubContainerCreatorByInstance::New_ctor

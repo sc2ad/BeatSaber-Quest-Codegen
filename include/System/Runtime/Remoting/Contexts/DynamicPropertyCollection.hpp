@@ -84,6 +84,7 @@ namespace System::Runtime::Remoting::Contexts {
   static check_size<sizeof(DynamicPropertyCollection), 16 + sizeof(System::Collections::ArrayList*)> __System_Runtime_Remoting_Contexts_DynamicPropertyCollectionSizeCheck;
   static_assert(sizeof(DynamicPropertyCollection) == 0x18);
 }
+NEED_NO_BOX(System::Runtime::Remoting::Contexts::DynamicPropertyCollection);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::DynamicPropertyCollection*, "System.Runtime.Remoting.Contexts", "DynamicPropertyCollection");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::DynamicPropertyCollection::get_HasProperties

@@ -150,6 +150,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(VRController), 56 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_VRControllerSizeCheck;
   static_assert(sizeof(VRController) == 0x44);
 }
+NEED_NO_BOX(GlobalNamespace::VRController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRController*, "", "VRController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::VRController::get_node

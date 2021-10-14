@@ -160,6 +160,7 @@ namespace UnityEngine {
   static_assert(sizeof(CanvasRenderer) == 0x19);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::CanvasRenderer);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CanvasRenderer*, "UnityEngine", "CanvasRenderer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::CanvasRenderer::set_hasPopInstruction

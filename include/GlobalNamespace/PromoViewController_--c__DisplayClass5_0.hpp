@@ -60,6 +60,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PromoViewController::$$c__DisplayClass5_0), 24 + sizeof(GlobalNamespace::PromoViewController*)> __GlobalNamespace_PromoViewController_$$c__DisplayClass5_0SizeCheck;
   static_assert(sizeof(PromoViewController::$$c__DisplayClass5_0) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::PromoViewController::$$c__DisplayClass5_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PromoViewController::$$c__DisplayClass5_0*, "", "PromoViewController/<>c__DisplayClass5_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PromoViewController::$$c__DisplayClass5_0::$DidActivate$b__0

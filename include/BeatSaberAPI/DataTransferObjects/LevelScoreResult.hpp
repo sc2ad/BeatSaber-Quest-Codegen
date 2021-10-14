@@ -283,6 +283,7 @@ namespace BeatSaberAPI::DataTransferObjects {
   static check_size<sizeof(LevelScoreResult), 72 + sizeof(::Il2CppString*)> __BeatSaberAPI_DataTransferObjects_LevelScoreResultSizeCheck;
   static_assert(sizeof(LevelScoreResult) == 0x50);
 }
+NEED_NO_BOX(BeatSaberAPI::DataTransferObjects::LevelScoreResult);
 DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::LevelScoreResult*, "BeatSaberAPI.DataTransferObjects", "LevelScoreResult");
 DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers, "BeatSaberAPI.DataTransferObjects", "LevelScoreResult/GameplayModifiers");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

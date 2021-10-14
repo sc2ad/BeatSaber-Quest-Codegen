@@ -43,6 +43,7 @@ namespace GlobalNamespace {
   }; // LobbyDataModelInstaller
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::LobbyDataModelInstaller);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LobbyDataModelInstaller*, "", "LobbyDataModelInstaller");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LobbyDataModelInstaller::New_ctor

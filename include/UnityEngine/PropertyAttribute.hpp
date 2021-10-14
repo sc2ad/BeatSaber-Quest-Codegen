@@ -34,6 +34,7 @@ namespace UnityEngine {
   }; // UnityEngine.PropertyAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::PropertyAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PropertyAttribute*, "UnityEngine", "PropertyAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::PropertyAttribute::New_ctor

@@ -196,6 +196,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(AveragingValueRecorder), 64 + sizeof(float)> __GlobalNamespace_AveragingValueRecorderSizeCheck;
   static_assert(sizeof(AveragingValueRecorder) == 0x44);
 }
+NEED_NO_BOX(GlobalNamespace::AveragingValueRecorder);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AveragingValueRecorder*, "", "AveragingValueRecorder");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AveragingValueRecorder::AverageValueData, "", "AveragingValueRecorder/AverageValueData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

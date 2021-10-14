@@ -65,6 +65,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRModeParms), 24 + sizeof(GlobalNamespace::OVRInput::RawButton)> __GlobalNamespace_OVRModeParmsSizeCheck;
   static_assert(sizeof(OVRModeParms) == 0x1C);
 }
+NEED_NO_BOX(GlobalNamespace::OVRModeParms);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRModeParms*, "", "OVRModeParms");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRModeParms::Start

@@ -82,6 +82,7 @@ namespace Polyglot {
   static check_size<sizeof(LanguageDropdown), 24 + sizeof(UnityEngine::UI::Dropdown*)> __Polyglot_LanguageDropdownSizeCheck;
   static_assert(sizeof(LanguageDropdown) == 0x20);
 }
+NEED_NO_BOX(Polyglot::LanguageDropdown);
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::LanguageDropdown*, "Polyglot", "LanguageDropdown");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Polyglot::LanguageDropdown::Reset

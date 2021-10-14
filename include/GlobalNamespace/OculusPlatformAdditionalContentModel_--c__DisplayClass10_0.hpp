@@ -75,6 +75,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OculusPlatformAdditionalContentModel::$$c__DisplayClass10_0), 16 + sizeof(System::Threading::Tasks::TaskCompletionSource_1<Oculus::Platform::Message_1<Oculus::Platform::Models::Purchase*>*>*)> __GlobalNamespace_OculusPlatformAdditionalContentModel_$$c__DisplayClass10_0SizeCheck;
   static_assert(sizeof(OculusPlatformAdditionalContentModel::$$c__DisplayClass10_0) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::OculusPlatformAdditionalContentModel::$$c__DisplayClass10_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformAdditionalContentModel::$$c__DisplayClass10_0*, "", "OculusPlatformAdditionalContentModel/<>c__DisplayClass10_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OculusPlatformAdditionalContentModel::$$c__DisplayClass10_0::$LaunchCheckoutFlow$b__0

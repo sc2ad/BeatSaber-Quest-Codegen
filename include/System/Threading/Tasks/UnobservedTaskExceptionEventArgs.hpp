@@ -61,6 +61,7 @@ namespace System::Threading::Tasks {
   static check_size<sizeof(UnobservedTaskExceptionEventArgs), 24 + sizeof(bool)> __System_Threading_Tasks_UnobservedTaskExceptionEventArgsSizeCheck;
   static_assert(sizeof(UnobservedTaskExceptionEventArgs) == 0x19);
 }
+NEED_NO_BOX(System::Threading::Tasks::UnobservedTaskExceptionEventArgs);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::UnobservedTaskExceptionEventArgs*, "System.Threading.Tasks", "UnobservedTaskExceptionEventArgs");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::Tasks::UnobservedTaskExceptionEventArgs::New_ctor

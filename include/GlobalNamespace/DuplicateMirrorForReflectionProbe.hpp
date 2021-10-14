@@ -36,6 +36,7 @@ namespace GlobalNamespace {
   }; // DuplicateMirrorForReflectionProbe
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::DuplicateMirrorForReflectionProbe);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DuplicateMirrorForReflectionProbe*, "", "DuplicateMirrorForReflectionProbe");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DuplicateMirrorForReflectionProbe::New_ctor

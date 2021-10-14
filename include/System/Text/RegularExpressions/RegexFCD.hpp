@@ -152,6 +152,7 @@ namespace System::Text::RegularExpressions {
   static check_size<sizeof(RegexFCD), 46 + sizeof(bool)> __System_Text_RegularExpressions_RegexFCDSizeCheck;
   static_assert(sizeof(RegexFCD) == 0x2F);
 }
+NEED_NO_BOX(System::Text::RegularExpressions::RegexFCD);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexFCD*, "System.Text.RegularExpressions", "RegexFCD");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexFCD::FirstChars

@@ -100,6 +100,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(NetworkPlayerEntitlementChecker), 32 + sizeof(GlobalNamespace::AdditionalContentModel*)> __GlobalNamespace_NetworkPlayerEntitlementCheckerSizeCheck;
   static_assert(sizeof(NetworkPlayerEntitlementChecker) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::NetworkPlayerEntitlementChecker);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetworkPlayerEntitlementChecker*, "", "NetworkPlayerEntitlementChecker");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NetworkPlayerEntitlementChecker::Start

@@ -211,6 +211,7 @@ namespace OVRSimpleJSON {
   // Offset: 0x17F40B4
   bool operator !=(OVRSimpleJSON::JSONLazyCreator* a, ::Il2CppObject& b);
 }
+NEED_NO_BOX(OVRSimpleJSON::JSONLazyCreator);
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONLazyCreator*, "OVRSimpleJSON", "JSONLazyCreator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONLazyCreator::New_ctor

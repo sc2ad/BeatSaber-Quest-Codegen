@@ -184,6 +184,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(FlyingObjectEffect), 120 + sizeof(GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::IFlyingObjectEffectDidFinishEvent*>*)> __GlobalNamespace_FlyingObjectEffectSizeCheck;
   static_assert(sizeof(FlyingObjectEffect) == 0x80);
 }
+NEED_NO_BOX(GlobalNamespace::FlyingObjectEffect);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlyingObjectEffect*, "", "FlyingObjectEffect");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FlyingObjectEffect::get_didFinishEvent

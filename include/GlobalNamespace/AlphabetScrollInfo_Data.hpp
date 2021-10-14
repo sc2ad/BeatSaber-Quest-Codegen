@@ -56,6 +56,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(AlphabetScrollInfo::Data), 20 + sizeof(int)> __GlobalNamespace_AlphabetScrollInfo_DataSizeCheck;
   static_assert(sizeof(AlphabetScrollInfo::Data) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::AlphabetScrollInfo::Data);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AlphabetScrollInfo::Data*, "", "AlphabetScrollInfo/Data");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AlphabetScrollInfo::Data::New_ctor

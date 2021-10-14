@@ -134,6 +134,7 @@ namespace System::IO {
   }; // System.IO.Stream/System.IO.<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::IO::Stream::$$c);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Stream::$$c*, "System.IO", "Stream/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::Stream::$$c::_cctor

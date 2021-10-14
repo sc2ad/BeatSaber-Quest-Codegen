@@ -52,6 +52,7 @@ namespace System::Runtime::InteropServices {
   static check_size<sizeof(FieldOffsetAttribute), 16 + sizeof(int)> __System_Runtime_InteropServices_FieldOffsetAttributeSizeCheck;
   static_assert(sizeof(FieldOffsetAttribute) == 0x14);
 }
+NEED_NO_BOX(System::Runtime::InteropServices::FieldOffsetAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::FieldOffsetAttribute*, "System.Runtime.InteropServices", "FieldOffsetAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::InteropServices::FieldOffsetAttribute::New_ctor

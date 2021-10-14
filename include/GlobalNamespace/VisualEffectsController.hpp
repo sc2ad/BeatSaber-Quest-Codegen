@@ -82,6 +82,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(VisualEffectsController), 24 + sizeof(GlobalNamespace::BoolSO*)> __GlobalNamespace_VisualEffectsControllerSizeCheck;
   static_assert(sizeof(VisualEffectsController) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::VisualEffectsController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VisualEffectsController*, "", "VisualEffectsController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::VisualEffectsController::Awake

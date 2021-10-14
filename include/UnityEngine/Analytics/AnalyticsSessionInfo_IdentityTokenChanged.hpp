@@ -50,6 +50,7 @@ namespace UnityEngine::Analytics {
   }; // UnityEngine.Analytics.AnalyticsSessionInfo/UnityEngine.Analytics.IdentityTokenChanged
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::Analytics::AnalyticsSessionInfo::IdentityTokenChanged);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Analytics::AnalyticsSessionInfo::IdentityTokenChanged*, "UnityEngine.Analytics", "AnalyticsSessionInfo/IdentityTokenChanged");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Analytics::AnalyticsSessionInfo::IdentityTokenChanged::New_ctor

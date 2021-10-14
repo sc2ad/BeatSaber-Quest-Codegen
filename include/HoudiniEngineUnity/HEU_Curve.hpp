@@ -428,6 +428,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_Curve), 96 + sizeof(HoudiniEngineUnity::HEU_HoudiniAsset*)> __HoudiniEngineUnity_HEU_CurveSizeCheck;
   static_assert(sizeof(HEU_Curve) == 0x68);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_Curve);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_Curve*, "HoudiniEngineUnity", "HEU_Curve");
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_Curve::CurveEditState, "HoudiniEngineUnity", "HEU_Curve/CurveEditState");
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_Curve::Interaction, "HoudiniEngineUnity", "HEU_Curve/Interaction");

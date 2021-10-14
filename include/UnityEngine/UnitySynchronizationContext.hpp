@@ -191,6 +191,7 @@ namespace UnityEngine {
   static check_size<sizeof(UnitySynchronizationContext), 44 + sizeof(int)> __UnityEngine_UnitySynchronizationContextSizeCheck;
   static_assert(sizeof(UnitySynchronizationContext) == 0x30);
 }
+NEED_NO_BOX(UnityEngine::UnitySynchronizationContext);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UnitySynchronizationContext*, "UnityEngine", "UnitySynchronizationContext");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UnitySynchronizationContext::WorkRequest, "UnityEngine", "UnitySynchronizationContext/WorkRequest");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -72,6 +72,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OculusBeatmapDataAssetFileModel::LevelDownloadingData), 32 + sizeof(System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::GetAssetBundleFileResult>*)> __GlobalNamespace_OculusBeatmapDataAssetFileModel_LevelDownloadingDataSizeCheck;
   static_assert(sizeof(OculusBeatmapDataAssetFileModel::LevelDownloadingData) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::OculusBeatmapDataAssetFileModel::LevelDownloadingData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusBeatmapDataAssetFileModel::LevelDownloadingData*, "", "OculusBeatmapDataAssetFileModel/LevelDownloadingData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OculusBeatmapDataAssetFileModel::LevelDownloadingData::New_ctor

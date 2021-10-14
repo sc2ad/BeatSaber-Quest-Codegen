@@ -88,6 +88,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SteamVR_RenderModel::$FreeRenderModel$d__24), 32 + sizeof(System::IntPtr)> __GlobalNamespace_SteamVR_RenderModel_$FreeRenderModel$d__24SizeCheck;
   static_assert(sizeof(SteamVR_RenderModel::$FreeRenderModel$d__24) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::SteamVR_RenderModel::$FreeRenderModel$d__24);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_RenderModel::$FreeRenderModel$d__24*, "", "SteamVR_RenderModel/<FreeRenderModel>d__24");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_RenderModel::$FreeRenderModel$d__24::System_Collections_Generic_IEnumerator$System_Object$_get_Current

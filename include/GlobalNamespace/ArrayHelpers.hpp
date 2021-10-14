@@ -31,6 +31,7 @@ namespace GlobalNamespace {
   }; // ArrayHelpers
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::ArrayHelpers);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ArrayHelpers*, "", "ArrayHelpers");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ArrayHelpers::CreateOrEnlargeArray

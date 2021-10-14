@@ -61,6 +61,7 @@ namespace Valve::VR {
   }; // Valve.VR.IVRApplications/Valve.VR._GetApplicationKeyByIndex
   #pragma pack(pop)
 }
+NEED_NO_BOX(Valve::VR::IVRApplications::_GetApplicationKeyByIndex);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRApplications::_GetApplicationKeyByIndex*, "Valve.VR", "IVRApplications/_GetApplicationKeyByIndex");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRApplications::_GetApplicationKeyByIndex::New_ctor

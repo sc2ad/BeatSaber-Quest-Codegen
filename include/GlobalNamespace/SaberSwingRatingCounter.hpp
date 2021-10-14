@@ -279,6 +279,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SaberSwingRatingCounter), 200 + sizeof(bool)> __GlobalNamespace_SaberSwingRatingCounterSizeCheck;
   static_assert(sizeof(SaberSwingRatingCounter) == 0xC9);
 }
+NEED_NO_BOX(GlobalNamespace::SaberSwingRatingCounter);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberSwingRatingCounter*, "", "SaberSwingRatingCounter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SaberSwingRatingCounter::get_beforeCutRating

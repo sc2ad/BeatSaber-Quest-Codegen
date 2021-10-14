@@ -84,6 +84,7 @@ namespace Zenject {
   static check_size<sizeof(LazyInstanceInjector), 24 + sizeof(System::Collections::Generic::HashSet_1<::Il2CppObject*>*)> __Zenject_LazyInstanceInjectorSizeCheck;
   static_assert(sizeof(LazyInstanceInjector) == 0x20);
 }
+NEED_NO_BOX(Zenject::LazyInstanceInjector);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::LazyInstanceInjector*, "Zenject", "LazyInstanceInjector");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::LazyInstanceInjector::get_Instances

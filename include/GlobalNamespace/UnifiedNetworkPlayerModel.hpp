@@ -574,6 +574,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(UnifiedNetworkPlayerModel), 288 + sizeof(GlobalNamespace::MasterServerConnectionManager::ConnectToServerParams*)> __GlobalNamespace_UnifiedNetworkPlayerModelSizeCheck;
   static_assert(sizeof(UnifiedNetworkPlayerModel) == 0x128);
 }
+NEED_NO_BOX(GlobalNamespace::UnifiedNetworkPlayerModel);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UnifiedNetworkPlayerModel*, "", "UnifiedNetworkPlayerModel");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::UnifiedNetworkPlayerModel::get_hasNetworkingFailed

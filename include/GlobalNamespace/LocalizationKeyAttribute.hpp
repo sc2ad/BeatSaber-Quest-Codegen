@@ -34,6 +34,7 @@ namespace GlobalNamespace {
   }; // LocalizationKeyAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::LocalizationKeyAttribute);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalizationKeyAttribute*, "", "LocalizationKeyAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LocalizationKeyAttribute::New_ctor

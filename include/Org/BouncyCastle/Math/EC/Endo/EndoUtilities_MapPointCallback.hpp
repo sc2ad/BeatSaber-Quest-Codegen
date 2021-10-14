@@ -85,6 +85,7 @@ namespace Org::BouncyCastle::Math::EC::Endo {
   static check_size<sizeof(EndoUtilities::MapPointCallback), 24 + sizeof(Org::BouncyCastle::Math::EC::ECPoint*)> __Org_BouncyCastle_Math_EC_Endo_EndoUtilities_MapPointCallbackSizeCheck;
   static_assert(sizeof(EndoUtilities::MapPointCallback) == 0x20);
 }
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::Endo::EndoUtilities::MapPointCallback);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Endo::EndoUtilities::MapPointCallback*, "Org.BouncyCastle.Math.EC.Endo", "EndoUtilities/MapPointCallback");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Endo::EndoUtilities::MapPointCallback::New_ctor

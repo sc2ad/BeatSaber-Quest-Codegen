@@ -69,6 +69,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(Amplifier), 48 + sizeof(::ArrayW<RootMotion::FinalIK::Amplifier::Body*>)> __RootMotion_FinalIK_AmplifierSizeCheck;
   static_assert(sizeof(Amplifier) == 0x38);
 }
+NEED_NO_BOX(RootMotion::FinalIK::Amplifier);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Amplifier*, "RootMotion.FinalIK", "Amplifier");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::Amplifier::New_ctor

@@ -38,6 +38,7 @@ namespace System {
   }; // System.EventArgs
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::EventArgs);
 DEFINE_IL2CPP_ARG_TYPE(System::EventArgs*, "System", "EventArgs");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::EventArgs::_cctor

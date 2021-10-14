@@ -69,6 +69,7 @@ namespace System {
   static check_size<sizeof(ResolveEventArgs), 24 + sizeof(System::Reflection::Assembly*)> __System_ResolveEventArgsSizeCheck;
   static_assert(sizeof(ResolveEventArgs) == 0x20);
 }
+NEED_NO_BOX(System::ResolveEventArgs);
 DEFINE_IL2CPP_ARG_TYPE(System::ResolveEventArgs*, "System", "ResolveEventArgs");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ResolveEventArgs::New_ctor

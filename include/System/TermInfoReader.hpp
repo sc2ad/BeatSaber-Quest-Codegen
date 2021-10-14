@@ -119,6 +119,7 @@ namespace System {
   static check_size<sizeof(TermInfoReader), 32 + sizeof(int)> __System_TermInfoReaderSizeCheck;
   static_assert(sizeof(TermInfoReader) == 0x24);
 }
+NEED_NO_BOX(System::TermInfoReader);
 DEFINE_IL2CPP_ARG_TYPE(System::TermInfoReader*, "System", "TermInfoReader");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::TermInfoReader::New_ctor

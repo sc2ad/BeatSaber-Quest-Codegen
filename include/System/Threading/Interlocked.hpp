@@ -103,6 +103,7 @@ namespace System::Threading {
   }; // System.Threading.Interlocked
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Threading::Interlocked);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Interlocked*, "System.Threading", "Interlocked");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::Interlocked::CompareExchange

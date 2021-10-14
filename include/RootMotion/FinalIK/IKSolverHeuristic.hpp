@@ -180,6 +180,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(IKSolverHeuristic), 132 + sizeof(float)> __RootMotion_FinalIK_IKSolverHeuristicSizeCheck;
   static_assert(sizeof(IKSolverHeuristic) == 0x88);
 }
+NEED_NO_BOX(RootMotion::FinalIK::IKSolverHeuristic);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverHeuristic*, "RootMotion.FinalIK", "IKSolverHeuristic");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverHeuristic::get_minBones

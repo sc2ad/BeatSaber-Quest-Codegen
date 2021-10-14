@@ -147,6 +147,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerLobbyAvatarController), 56 + sizeof(::ArrayW<UnityEngine::GameObject*>)> __GlobalNamespace_MultiplayerLobbyAvatarControllerSizeCheck;
   static_assert(sizeof(MultiplayerLobbyAvatarController) == 0x40);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerLobbyAvatarController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLobbyAvatarController*, "", "MultiplayerLobbyAvatarController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyAvatarController::ShowSpawnAnimation

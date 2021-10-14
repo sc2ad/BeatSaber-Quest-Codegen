@@ -66,6 +66,7 @@ namespace Org::BouncyCastle::Math::EC {
   static check_size<sizeof(ScaleXPointMap), 16 + sizeof(Org::BouncyCastle::Math::EC::ECFieldElement*)> __Org_BouncyCastle_Math_EC_ScaleXPointMapSizeCheck;
   static_assert(sizeof(ScaleXPointMap) == 0x18);
 }
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::ScaleXPointMap);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::ScaleXPointMap*, "Org.BouncyCastle.Math.EC", "ScaleXPointMap");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::ScaleXPointMap::New_ctor

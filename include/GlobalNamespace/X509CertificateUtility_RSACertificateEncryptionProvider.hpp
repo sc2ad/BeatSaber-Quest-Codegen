@@ -75,6 +75,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(X509CertificateUtility::RSACertificateEncryptionProvider), 16 + sizeof(Org::BouncyCastle::Crypto::ISigner*)> __GlobalNamespace_X509CertificateUtility_RSACertificateEncryptionProviderSizeCheck;
   static_assert(sizeof(X509CertificateUtility::RSACertificateEncryptionProvider) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::X509CertificateUtility::RSACertificateEncryptionProvider);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::X509CertificateUtility::RSACertificateEncryptionProvider*, "", "X509CertificateUtility/RSACertificateEncryptionProvider");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::X509CertificateUtility::RSACertificateEncryptionProvider::New_ctor

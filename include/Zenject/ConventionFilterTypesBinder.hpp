@@ -176,6 +176,7 @@ namespace Zenject {
   }; // Zenject.ConventionFilterTypesBinder
   #pragma pack(pop)
 }
+NEED_NO_BOX(Zenject::ConventionFilterTypesBinder);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ConventionFilterTypesBinder*, "Zenject", "ConventionFilterTypesBinder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::ConventionFilterTypesBinder::DerivingFromOrEqual

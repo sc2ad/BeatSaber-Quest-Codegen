@@ -34,6 +34,7 @@ namespace JetBrains::Annotations {
   }; // JetBrains.Annotations.CanBeNullAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(JetBrains::Annotations::CanBeNullAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::CanBeNullAttribute*, "JetBrains.Annotations", "CanBeNullAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: JetBrains::Annotations::CanBeNullAttribute::New_ctor

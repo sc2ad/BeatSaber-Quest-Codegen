@@ -139,6 +139,7 @@ namespace System::Net::Http::Headers {
   static check_size<sizeof(ViaHeaderValue), 40 + sizeof(::Il2CppString*)> __System_Net_Http_Headers_ViaHeaderValueSizeCheck;
   static_assert(sizeof(ViaHeaderValue) == 0x30);
 }
+NEED_NO_BOX(System::Net::Http::Headers::ViaHeaderValue);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::ViaHeaderValue*, "System.Net.Http.Headers", "ViaHeaderValue");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Http::Headers::ViaHeaderValue::get_Comment

@@ -39,6 +39,7 @@ namespace Oculus::Platform {
     ::Il2CppString* GetString();
   }; // Oculus.Platform.MessageWithString
 }
+NEED_NO_BOX(Oculus::Platform::MessageWithString);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithString*, "Oculus.Platform", "MessageWithString");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithString::GetDataFromMessage

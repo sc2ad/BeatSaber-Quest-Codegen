@@ -63,6 +63,7 @@ namespace UnityEngine {
   static check_size<sizeof(WaitUntil), 16 + sizeof(System::Func_1<bool>*)> __UnityEngine_WaitUntilSizeCheck;
   static_assert(sizeof(WaitUntil) == 0x18);
 }
+NEED_NO_BOX(UnityEngine::WaitUntil);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::WaitUntil*, "UnityEngine", "WaitUntil");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::WaitUntil::New_ctor

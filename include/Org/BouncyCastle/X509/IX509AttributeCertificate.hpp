@@ -17,5 +17,6 @@ namespace Org::BouncyCastle::X509 {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(Org::BouncyCastle::X509::IX509AttributeCertificate);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::IX509AttributeCertificate*, "Org.BouncyCastle.X509", "IX509AttributeCertificate");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

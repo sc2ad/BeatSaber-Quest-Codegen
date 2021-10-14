@@ -77,6 +77,7 @@ namespace UnityEngine::TestTools {
     UnityEngine::TestTools::BeforeAfterTestCommandState* GetState(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* context);
   }; // UnityEngine.TestTools.OuterUnityTestActionCommand
 }
+NEED_NO_BOX(UnityEngine::TestTools::OuterUnityTestActionCommand);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::OuterUnityTestActionCommand*, "UnityEngine.TestTools", "OuterUnityTestActionCommand");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::OuterUnityTestActionCommand::GetUnityTestActionsFromMethod

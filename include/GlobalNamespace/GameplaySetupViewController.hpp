@@ -269,6 +269,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(GameplaySetupViewController), 193 + sizeof(bool)> __GlobalNamespace_GameplaySetupViewControllerSizeCheck;
   static_assert(sizeof(GameplaySetupViewController) == 0xC2);
 }
+NEED_NO_BOX(GlobalNamespace::GameplaySetupViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplaySetupViewController*, "", "GameplaySetupViewController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameplaySetupViewController::get_playerSettings

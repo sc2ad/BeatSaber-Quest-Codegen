@@ -105,6 +105,7 @@ namespace UnityEngine::TestTools {
   static check_size<sizeof(EnumerableTestMethodCommand::$ExecuteEnumerableAndRecordExceptions$d__4), 40 + sizeof(NUnit::Framework::Internal::ITestExecutionContext*)> __UnityEngine_TestTools_EnumerableTestMethodCommand_$ExecuteEnumerableAndRecordExceptions$d__4SizeCheck;
   static_assert(sizeof(EnumerableTestMethodCommand::$ExecuteEnumerableAndRecordExceptions$d__4) == 0x30);
 }
+NEED_NO_BOX(UnityEngine::TestTools::EnumerableTestMethodCommand::$ExecuteEnumerableAndRecordExceptions$d__4);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::EnumerableTestMethodCommand::$ExecuteEnumerableAndRecordExceptions$d__4*, "UnityEngine.TestTools", "EnumerableTestMethodCommand/<ExecuteEnumerableAndRecordExceptions>d__4");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::EnumerableTestMethodCommand::$ExecuteEnumerableAndRecordExceptions$d__4::System_Collections_Generic_IEnumerator$System_Object$_get_Current

@@ -152,6 +152,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(Mirror), 64 + sizeof(System::Action_1<bool>*)> __GlobalNamespace_MirrorSizeCheck;
   static_assert(sizeof(Mirror) == 0x48);
 }
+NEED_NO_BOX(GlobalNamespace::Mirror);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Mirror*, "", "Mirror");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::Mirror::get_noMirrorMaterial

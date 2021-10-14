@@ -57,6 +57,7 @@ namespace JetBrains::Annotations {
   static check_size<sizeof(AspRequiredAttributeAttribute), 16 + sizeof(::Il2CppString*)> __JetBrains_Annotations_AspRequiredAttributeAttributeSizeCheck;
   static_assert(sizeof(AspRequiredAttributeAttribute) == 0x18);
 }
+NEED_NO_BOX(JetBrains::Annotations::AspRequiredAttributeAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::AspRequiredAttributeAttribute*, "JetBrains.Annotations", "AspRequiredAttributeAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: JetBrains::Annotations::AspRequiredAttributeAttribute::get_Attribute

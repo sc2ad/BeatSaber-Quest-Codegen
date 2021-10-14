@@ -39,6 +39,7 @@ namespace System {
   }; // System.TupleExtensions
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::TupleExtensions);
 DEFINE_IL2CPP_ARG_TYPE(System::TupleExtensions*, "System", "TupleExtensions");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::TupleExtensions::Deconstruct

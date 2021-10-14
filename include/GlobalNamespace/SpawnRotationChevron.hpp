@@ -94,6 +94,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SpawnRotationChevron), 72 + sizeof(float)> __GlobalNamespace_SpawnRotationChevronSizeCheck;
   static_assert(sizeof(SpawnRotationChevron) == 0x4C);
 }
+NEED_NO_BOX(GlobalNamespace::SpawnRotationChevron);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SpawnRotationChevron*, "", "SpawnRotationChevron");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SpawnRotationChevron::SetLightAmount

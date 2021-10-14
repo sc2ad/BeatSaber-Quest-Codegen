@@ -263,6 +263,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerLocalInactivePlayerInGameMenuViewController), 144 + sizeof(Tweening::Tween*)> __GlobalNamespace_MultiplayerLocalInactivePlayerInGameMenuViewControllerSizeCheck;
   static_assert(sizeof(MultiplayerLocalInactivePlayerInGameMenuViewController) == 0x98);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController*, "", "MultiplayerLocalInactivePlayerInGameMenuViewController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::OnEnable

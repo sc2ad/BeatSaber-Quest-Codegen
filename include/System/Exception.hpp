@@ -323,6 +323,7 @@ namespace System {
   static check_size<sizeof(Exception), 128 + sizeof(::ArrayW<System::IntPtr>)> __System_ExceptionSizeCheck;
   static_assert(sizeof(Exception) == 0x88);
 }
+NEED_NO_BOX(System::Exception);
 DEFINE_IL2CPP_ARG_TYPE(System::Exception*, "System", "Exception");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Exception::get_Message

@@ -96,6 +96,7 @@ namespace UnityEngine::TestRunner::Utils {
   }; // UnityEngine.TestRunner.Utils.TestRunCallbackListener/UnityEngine.TestRunner.Utils.<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c*, "UnityEngine.TestRunner.Utils", "TestRunCallbackListener/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c::_cctor

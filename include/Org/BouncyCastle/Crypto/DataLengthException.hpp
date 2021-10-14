@@ -44,6 +44,7 @@ namespace Org::BouncyCastle::Crypto {
   }; // Org.BouncyCastle.Crypto.DataLengthException
   #pragma pack(pop)
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::DataLengthException);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::DataLengthException*, "Org.BouncyCastle.Crypto", "DataLengthException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::DataLengthException::New_ctor

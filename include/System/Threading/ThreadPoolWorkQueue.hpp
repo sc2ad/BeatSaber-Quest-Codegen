@@ -106,6 +106,7 @@ namespace System::Threading {
   static check_size<sizeof(ThreadPoolWorkQueue), 32 + sizeof(int)> __System_Threading_ThreadPoolWorkQueueSizeCheck;
   static_assert(sizeof(ThreadPoolWorkQueue) == 0x24);
 }
+NEED_NO_BOX(System::Threading::ThreadPoolWorkQueue);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ThreadPoolWorkQueue*, "System.Threading", "ThreadPoolWorkQueue");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::ThreadPoolWorkQueue::_cctor

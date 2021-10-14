@@ -102,6 +102,7 @@ namespace NUnit::Framework::Internal {
   static check_size<sizeof(PropertyBag), 16 + sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::IList*>*)> __NUnit_Framework_Internal_PropertyBagSizeCheck;
   static_assert(sizeof(PropertyBag) == 0x18);
 }
+NEED_NO_BOX(NUnit::Framework::Internal::PropertyBag);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::PropertyBag*, "NUnit.Framework.Internal", "PropertyBag");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::PropertyBag::get_Keys

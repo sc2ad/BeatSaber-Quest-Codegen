@@ -181,6 +181,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   }; // UnityEngine.ResourceManagement.ResourceProviders.SceneProvider/UnityEngine.ResourceManagement.ResourceProviders.SceneOp
   // WARNING Not writing size check since size may be invalid!
 }
+NEED_NO_BOX(UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::SceneOp);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::SceneOp*, "UnityEngine.ResourceManagement.ResourceProviders", "SceneProvider/SceneOp");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::SceneOp::New_ctor

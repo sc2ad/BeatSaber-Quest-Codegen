@@ -73,6 +73,7 @@ namespace Zenject {
   static check_size<sizeof(AnimatorIkHandlerManager), 24 + sizeof(System::Collections::Generic::List_1<Zenject::IAnimatorIkHandler*>*)> __Zenject_AnimatorIkHandlerManagerSizeCheck;
   static_assert(sizeof(AnimatorIkHandlerManager) == 0x20);
 }
+NEED_NO_BOX(Zenject::AnimatorIkHandlerManager);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::AnimatorIkHandlerManager*, "Zenject", "AnimatorIkHandlerManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::AnimatorIkHandlerManager::Construct

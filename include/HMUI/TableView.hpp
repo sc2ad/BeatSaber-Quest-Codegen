@@ -492,6 +492,7 @@ namespace HMUI {
   static check_size<sizeof(TableView), 161 + sizeof(bool)> __HMUI_TableViewSizeCheck;
   static_assert(sizeof(TableView) == 0xA2);
 }
+NEED_NO_BOX(HMUI::TableView);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TableView*, "HMUI", "TableView");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TableView::TableType, "HMUI", "TableView/TableType");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

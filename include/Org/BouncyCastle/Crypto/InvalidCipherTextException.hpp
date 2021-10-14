@@ -44,6 +44,7 @@ namespace Org::BouncyCastle::Crypto {
   }; // Org.BouncyCastle.Crypto.InvalidCipherTextException
   #pragma pack(pop)
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::InvalidCipherTextException);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::InvalidCipherTextException*, "Org.BouncyCastle.Crypto", "InvalidCipherTextException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::InvalidCipherTextException::New_ctor

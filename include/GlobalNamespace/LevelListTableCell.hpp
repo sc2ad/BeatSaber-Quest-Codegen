@@ -251,6 +251,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LevelListTableCell), 232 + sizeof(::Il2CppString*)> __GlobalNamespace_LevelListTableCellSizeCheck;
   static_assert(sizeof(LevelListTableCell) == 0xF0);
 }
+NEED_NO_BOX(GlobalNamespace::LevelListTableCell);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelListTableCell*, "", "LevelListTableCell");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LevelListTableCell::SetDataFromLevelAsync

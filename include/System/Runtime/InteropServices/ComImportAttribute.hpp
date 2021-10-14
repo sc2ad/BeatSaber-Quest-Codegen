@@ -35,6 +35,7 @@ namespace System::Runtime::InteropServices {
   }; // System.Runtime.InteropServices.ComImportAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Runtime::InteropServices::ComImportAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::ComImportAttribute*, "System.Runtime.InteropServices", "ComImportAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::InteropServices::ComImportAttribute::New_ctor

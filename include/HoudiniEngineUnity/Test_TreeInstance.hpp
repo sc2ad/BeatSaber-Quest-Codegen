@@ -59,6 +59,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(Test_TreeInstance), 16 + sizeof(UnityEngine::TreeInstance)> __HoudiniEngineUnity_Test_TreeInstanceSizeCheck;
   static_assert(sizeof(Test_TreeInstance) == 0x38);
 }
+NEED_NO_BOX(HoudiniEngineUnity::Test_TreeInstance);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::Test_TreeInstance*, "HoudiniEngineUnity", "Test_TreeInstance");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::Test_TreeInstance::New_ctor

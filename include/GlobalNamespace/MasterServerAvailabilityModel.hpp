@@ -135,6 +135,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MasterServerAvailabilityModel), 40 + sizeof(System::DateTime)> __GlobalNamespace_MasterServerAvailabilityModelSizeCheck;
   static_assert(sizeof(MasterServerAvailabilityModel) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::MasterServerAvailabilityModel);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerAvailabilityModel*, "", "MasterServerAvailabilityModel");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerAvailabilityModel::Init

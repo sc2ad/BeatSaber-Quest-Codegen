@@ -55,6 +55,7 @@ namespace System::Reflection {
   static check_size<sizeof(DefaultMemberAttribute), 16 + sizeof(::Il2CppString*)> __System_Reflection_DefaultMemberAttributeSizeCheck;
   static_assert(sizeof(DefaultMemberAttribute) == 0x18);
 }
+NEED_NO_BOX(System::Reflection::DefaultMemberAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::DefaultMemberAttribute*, "System.Reflection", "DefaultMemberAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::DefaultMemberAttribute::get_MemberName

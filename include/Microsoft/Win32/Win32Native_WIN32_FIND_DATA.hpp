@@ -58,6 +58,7 @@ namespace Microsoft::Win32 {
   static check_size<sizeof(Win32Native::WIN32_FIND_DATA), 24 + sizeof(::Il2CppString*)> __Microsoft_Win32_Win32Native_WIN32_FIND_DATASizeCheck;
   static_assert(sizeof(Win32Native::WIN32_FIND_DATA) == 0x20);
 }
+NEED_NO_BOX(Microsoft::Win32::Win32Native::WIN32_FIND_DATA);
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::Win32Native::WIN32_FIND_DATA*, "Microsoft.Win32", "Win32Native/WIN32_FIND_DATA");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Microsoft::Win32::Win32Native::WIN32_FIND_DATA::New_ctor

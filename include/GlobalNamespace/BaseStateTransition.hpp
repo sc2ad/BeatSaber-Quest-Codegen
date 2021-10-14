@@ -122,6 +122,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BaseStateTransition), 24 + sizeof(GlobalNamespace::SelectableStateController*)> __GlobalNamespace_BaseStateTransitionSizeCheck;
   static_assert(sizeof(BaseStateTransition) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::BaseStateTransition);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BaseStateTransition*, "", "BaseStateTransition");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BaseStateTransition::get_tweeningManager

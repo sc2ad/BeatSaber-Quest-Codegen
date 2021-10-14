@@ -48,6 +48,7 @@ namespace NUnit::Framework::Internal {
   }; // NUnit.Framework.Internal.TestNameGenerator/NUnit.Framework.Internal.ClassNameFragment
   #pragma pack(pop)
 }
+NEED_NO_BOX(NUnit::Framework::Internal::TestNameGenerator::ClassNameFragment);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestNameGenerator::ClassNameFragment*, "NUnit.Framework.Internal", "TestNameGenerator/ClassNameFragment");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestNameGenerator::ClassNameFragment::New_ctor

@@ -159,6 +159,7 @@ namespace System::Collections {
   static check_size<sizeof(SortedList::SyncSortedList), 80 + sizeof(::Il2CppObject*)> __System_Collections_SortedList_SyncSortedListSizeCheck;
   static_assert(sizeof(SortedList::SyncSortedList) == 0x58);
 }
+NEED_NO_BOX(System::Collections::SortedList::SyncSortedList);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::SortedList::SyncSortedList*, "System.Collections", "SortedList/SyncSortedList");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::SortedList::SyncSortedList::New_ctor

@@ -116,6 +116,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(BodyTilt), 76 + sizeof(UnityEngine::Vector3)> __RootMotion_FinalIK_BodyTiltSizeCheck;
   static_assert(sizeof(BodyTilt) == 0x58);
 }
+NEED_NO_BOX(RootMotion::FinalIK::BodyTilt);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::BodyTilt*, "RootMotion.FinalIK", "BodyTilt");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::BodyTilt::New_ctor

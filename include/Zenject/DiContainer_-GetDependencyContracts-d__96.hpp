@@ -151,6 +151,7 @@ namespace Zenject {
   static check_size<sizeof(DiContainer::$GetDependencyContracts$d__96), 64 + sizeof(System::Collections::Generic::IEnumerator_1<Zenject::InjectableInfo*>*)> __Zenject_DiContainer_$GetDependencyContracts$d__96SizeCheck;
   static_assert(sizeof(DiContainer::$GetDependencyContracts$d__96) == 0x48);
 }
+NEED_NO_BOX(Zenject::DiContainer::$GetDependencyContracts$d__96);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DiContainer::$GetDependencyContracts$d__96*, "Zenject", "DiContainer/<GetDependencyContracts>d__96");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::DiContainer::$GetDependencyContracts$d__96::System_Collections_Generic_IEnumerator$System_Type$_get_Current

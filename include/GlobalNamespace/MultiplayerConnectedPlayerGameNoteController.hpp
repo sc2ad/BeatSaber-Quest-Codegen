@@ -121,6 +121,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerConnectedPlayerGameNoteController), 144 + sizeof(GlobalNamespace::GameNoteController_GameNoteType)> __GlobalNamespace_MultiplayerConnectedPlayerGameNoteControllerSizeCheck;
   static_assert(sizeof(MultiplayerConnectedPlayerGameNoteController) == 0x94);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerConnectedPlayerGameNoteController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*, "", "MultiplayerConnectedPlayerGameNoteController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::get_noteMovement

@@ -174,6 +174,7 @@ namespace HMUI {
   static check_size<sizeof(ContainerViewController::$RemoveViewControllersCoroutine$d__17), 92 + sizeof(float)> __HMUI_ContainerViewController_$RemoveViewControllersCoroutine$d__17SizeCheck;
   static_assert(sizeof(ContainerViewController::$RemoveViewControllersCoroutine$d__17) == 0x60);
 }
+NEED_NO_BOX(HMUI::ContainerViewController::$RemoveViewControllersCoroutine$d__17);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ContainerViewController::$RemoveViewControllersCoroutine$d__17*, "HMUI", "ContainerViewController/<RemoveViewControllersCoroutine>d__17");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::ContainerViewController::$RemoveViewControllersCoroutine$d__17::System_Collections_Generic_IEnumerator$System_Object$_get_Current

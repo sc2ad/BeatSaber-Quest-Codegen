@@ -74,6 +74,7 @@ namespace System {
   }; // System.ArgumentNullException
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::ArgumentNullException);
 DEFINE_IL2CPP_ARG_TYPE(System::ArgumentNullException*, "System", "ArgumentNullException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ArgumentNullException::New_ctor

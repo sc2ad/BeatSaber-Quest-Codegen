@@ -147,6 +147,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OnlineServicesInfoViewController), 160 + sizeof(System::Text::StringBuilder*)> __GlobalNamespace_OnlineServicesInfoViewControllerSizeCheck;
   static_assert(sizeof(OnlineServicesInfoViewController) == 0xA8);
 }
+NEED_NO_BOX(GlobalNamespace::OnlineServicesInfoViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OnlineServicesInfoViewController*, "", "OnlineServicesInfoViewController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OnlineServicesInfoViewController::GetServerStatus

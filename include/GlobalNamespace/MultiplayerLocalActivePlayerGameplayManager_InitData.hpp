@@ -50,6 +50,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerLocalActivePlayerGameplayManager::InitData), 16 + sizeof(bool)> __GlobalNamespace_MultiplayerLocalActivePlayerGameplayManager_InitDataSizeCheck;
   static_assert(sizeof(MultiplayerLocalActivePlayerGameplayManager::InitData) == 0x11);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerLocalActivePlayerGameplayManager::InitData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalActivePlayerGameplayManager::InitData*, "", "MultiplayerLocalActivePlayerGameplayManager/InitData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalActivePlayerGameplayManager::InitData::New_ctor

@@ -73,6 +73,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   }; // UnityEngine.ProBuilder.MeshOperations.SurfaceTopology/UnityEngine.ProBuilder.MeshOperations.<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::$$c);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::$$c*, "UnityEngine.ProBuilder.MeshOperations", "SurfaceTopology/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::$$c::_cctor

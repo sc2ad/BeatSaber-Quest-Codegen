@@ -95,6 +95,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ExternalCamerasManager), 40 + sizeof(UnityEngine::Camera*)> __GlobalNamespace_ExternalCamerasManagerSizeCheck;
   static_assert(sizeof(ExternalCamerasManager) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::ExternalCamerasManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ExternalCamerasManager*, "", "ExternalCamerasManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ExternalCamerasManager::Init

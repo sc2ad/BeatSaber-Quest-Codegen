@@ -98,6 +98,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(Spectrogram), 32 + sizeof(GlobalNamespace::BasicSpectrogramData*)> __GlobalNamespace_SpectrogramSizeCheck;
   static_assert(sizeof(Spectrogram) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::Spectrogram);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Spectrogram*, "", "Spectrogram");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::Spectrogram::Awake

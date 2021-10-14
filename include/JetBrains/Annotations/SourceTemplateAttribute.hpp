@@ -34,6 +34,7 @@ namespace JetBrains::Annotations {
   }; // JetBrains.Annotations.SourceTemplateAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(JetBrains::Annotations::SourceTemplateAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::SourceTemplateAttribute*, "JetBrains.Annotations", "SourceTemplateAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: JetBrains::Annotations::SourceTemplateAttribute::New_ctor

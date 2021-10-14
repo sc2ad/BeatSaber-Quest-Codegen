@@ -114,6 +114,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   }; // UnityEngine.ProBuilder.MeshOperations.UVEditing/UnityEngine.ProBuilder.MeshOperations.<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c*, "UnityEngine.ProBuilder.MeshOperations", "UVEditing/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c::_cctor

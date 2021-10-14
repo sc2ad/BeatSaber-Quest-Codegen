@@ -52,6 +52,7 @@ namespace System {
   }; // System.ArrayTypeMismatchException
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::ArrayTypeMismatchException);
 DEFINE_IL2CPP_ARG_TYPE(System::ArrayTypeMismatchException*, "System", "ArrayTypeMismatchException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ArrayTypeMismatchException::New_ctor

@@ -72,6 +72,7 @@ namespace HoudiniEngineUnity {
   }; // HoudiniEngineUnity.HEU_Logger
   #pragma pack(pop)
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_Logger);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_Logger*, "HoudiniEngineUnity", "HEU_Logger");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Logger::Log

@@ -38,6 +38,7 @@ namespace GlobalNamespace {
   }; // OVROnCompleteListener
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::OVROnCompleteListener);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVROnCompleteListener*, "", "OVROnCompleteListener");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVROnCompleteListener::onSuccess

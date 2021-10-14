@@ -67,6 +67,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(HeadBodyOffsetSO), 36 + sizeof(float)> __GlobalNamespace_HeadBodyOffsetSOSizeCheck;
   static_assert(sizeof(HeadBodyOffsetSO) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::HeadBodyOffsetSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HeadBodyOffsetSO*, "", "HeadBodyOffsetSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HeadBodyOffsetSO::get_headNeckOffset

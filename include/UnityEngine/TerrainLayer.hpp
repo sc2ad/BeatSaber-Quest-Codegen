@@ -146,6 +146,7 @@ namespace UnityEngine {
   }; // UnityEngine.TerrainLayer
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::TerrainLayer);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TerrainLayer*, "UnityEngine", "TerrainLayer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TerrainLayer::get_diffuseTexture

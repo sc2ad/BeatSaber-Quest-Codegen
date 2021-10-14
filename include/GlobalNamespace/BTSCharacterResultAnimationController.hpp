@@ -101,6 +101,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BTSCharacterResultAnimationController), 48 + sizeof(UnityEngine::GameObject*)> __GlobalNamespace_BTSCharacterResultAnimationControllerSizeCheck;
   static_assert(sizeof(BTSCharacterResultAnimationController) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::BTSCharacterResultAnimationController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterResultAnimationController*, "", "BTSCharacterResultAnimationController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacterResultAnimationController::SetCharacter

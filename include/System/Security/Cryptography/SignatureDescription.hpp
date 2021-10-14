@@ -83,6 +83,7 @@ namespace System::Security::Cryptography {
   static check_size<sizeof(SignatureDescription), 40 + sizeof(::Il2CppString*)> __System_Security_Cryptography_SignatureDescriptionSizeCheck;
   static_assert(sizeof(SignatureDescription) == 0x30);
 }
+NEED_NO_BOX(System::Security::Cryptography::SignatureDescription);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::SignatureDescription*, "System.Security.Cryptography", "SignatureDescription");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::SignatureDescription::set_KeyAlgorithm

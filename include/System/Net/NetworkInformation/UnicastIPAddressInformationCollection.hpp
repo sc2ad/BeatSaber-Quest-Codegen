@@ -112,6 +112,7 @@ namespace System::Net::NetworkInformation {
   static check_size<sizeof(UnicastIPAddressInformationCollection), 16 + sizeof(System::Collections::ObjectModel::Collection_1<System::Net::NetworkInformation::UnicastIPAddressInformation*>*)> __System_Net_NetworkInformation_UnicastIPAddressInformationCollectionSizeCheck;
   static_assert(sizeof(UnicastIPAddressInformationCollection) == 0x18);
 }
+NEED_NO_BOX(System::Net::NetworkInformation::UnicastIPAddressInformationCollection);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::UnicastIPAddressInformationCollection*, "System.Net.NetworkInformation", "UnicastIPAddressInformationCollection");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::NetworkInformation::UnicastIPAddressInformationCollection::get_Count

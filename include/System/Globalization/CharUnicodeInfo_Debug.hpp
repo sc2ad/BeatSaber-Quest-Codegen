@@ -23,6 +23,7 @@ namespace System::Globalization {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Globalization::CharUnicodeInfo::Debug);
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CharUnicodeInfo::Debug*, "System.Globalization", "CharUnicodeInfo/Debug");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Globalization::CharUnicodeInfo::Debug::Assert_

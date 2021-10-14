@@ -230,6 +230,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(NetEaseArcadeFlowCoordinator), 336 + sizeof(GlobalNamespace::MenuTransitionsHelper*)> __GlobalNamespace_NetEaseArcadeFlowCoordinatorSizeCheck;
   static_assert(sizeof(NetEaseArcadeFlowCoordinator) == 0x158);
 }
+NEED_NO_BOX(GlobalNamespace::NetEaseArcadeFlowCoordinator);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetEaseArcadeFlowCoordinator*, "", "NetEaseArcadeFlowCoordinator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NetEaseArcadeFlowCoordinator::ProcessScore

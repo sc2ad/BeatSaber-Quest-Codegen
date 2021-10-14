@@ -174,6 +174,7 @@ namespace NUnit::Framework::Interfaces {
   static check_size<sizeof(ResultState), 32 + sizeof(NUnit::Framework::Interfaces::FailureSite)> __NUnit_Framework_Interfaces_ResultStateSizeCheck;
   static_assert(sizeof(ResultState) == 0x24);
 }
+NEED_NO_BOX(NUnit::Framework::Interfaces::ResultState);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::ResultState*, "NUnit.Framework.Interfaces", "ResultState");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::ResultState::get_Status

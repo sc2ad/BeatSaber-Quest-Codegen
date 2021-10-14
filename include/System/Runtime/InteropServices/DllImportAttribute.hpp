@@ -141,6 +141,7 @@ namespace System::Runtime::InteropServices {
   static check_size<sizeof(DllImportAttribute), 45 + sizeof(bool)> __System_Runtime_InteropServices_DllImportAttributeSizeCheck;
   static_assert(sizeof(DllImportAttribute) == 0x2E);
 }
+NEED_NO_BOX(System::Runtime::InteropServices::DllImportAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::DllImportAttribute*, "System.Runtime.InteropServices", "DllImportAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::InteropServices::DllImportAttribute::get_Value

@@ -612,6 +612,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LobbyGameStateController), 232 + sizeof(GlobalNamespace::CannotStartGameReason)> __GlobalNamespace_LobbyGameStateControllerSizeCheck;
   static_assert(sizeof(LobbyGameStateController) == 0xEC);
 }
+NEED_NO_BOX(GlobalNamespace::LobbyGameStateController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LobbyGameStateController*, "", "LobbyGameStateController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LobbyGameStateController::get_predictedCountdownEndTime

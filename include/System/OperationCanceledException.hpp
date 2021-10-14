@@ -104,6 +104,7 @@ namespace System {
   static check_size<sizeof(OperationCanceledException), 136 + sizeof(System::Threading::CancellationToken)> __System_OperationCanceledExceptionSizeCheck;
   static_assert(sizeof(OperationCanceledException) == 0x90);
 }
+NEED_NO_BOX(System::OperationCanceledException);
 DEFINE_IL2CPP_ARG_TYPE(System::OperationCanceledException*, "System", "OperationCanceledException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::OperationCanceledException::get_CancellationToken

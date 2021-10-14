@@ -121,6 +121,7 @@ namespace System::Text {
   static check_size<sizeof(Encoding::DefaultDecoder), 40 + sizeof(bool)> __System_Text_Encoding_DefaultDecoderSizeCheck;
   static_assert(sizeof(Encoding::DefaultDecoder) == 0x29);
 }
+NEED_NO_BOX(System::Text::Encoding::DefaultDecoder);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::Encoding::DefaultDecoder*, "System.Text", "Encoding/DefaultDecoder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::Encoding::DefaultDecoder::New_ctor

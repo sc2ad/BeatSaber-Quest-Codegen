@@ -387,6 +387,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_AttributesStore), 145 + sizeof(bool)> __HoudiniEngineUnity_HEU_AttributesStoreSizeCheck;
   static_assert(sizeof(HEU_AttributesStore) == 0x92);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_AttributesStore);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_AttributesStore*, "HoudiniEngineUnity", "HEU_AttributesStore");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_AttributesStore::get_GeoID

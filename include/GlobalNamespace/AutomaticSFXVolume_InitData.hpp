@@ -62,6 +62,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(AutomaticSFXVolume::InitData), 24 + sizeof(bool)> __GlobalNamespace_AutomaticSFXVolume_InitDataSizeCheck;
   static_assert(sizeof(AutomaticSFXVolume::InitData) == 0x19);
 }
+NEED_NO_BOX(GlobalNamespace::AutomaticSFXVolume::InitData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AutomaticSFXVolume::InitData*, "", "AutomaticSFXVolume/InitData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AutomaticSFXVolume::InitData::New_ctor

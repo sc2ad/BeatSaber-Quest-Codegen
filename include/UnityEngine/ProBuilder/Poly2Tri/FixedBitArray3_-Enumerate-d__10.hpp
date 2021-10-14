@@ -130,6 +130,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   static check_size<sizeof(FixedBitArray3::$Enumerate$d__10), 36 + sizeof(int)> __UnityEngine_ProBuilder_Poly2Tri_FixedBitArray3_$Enumerate$d__10SizeCheck;
   static_assert(sizeof(FixedBitArray3::$Enumerate$d__10) == 0x28);
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3::$Enumerate$d__10);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3::$Enumerate$d__10*, "UnityEngine.ProBuilder.Poly2Tri", "FixedBitArray3/<Enumerate>d__10");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3::$Enumerate$d__10::System_Collections_Generic_IEnumerator$System_Boolean$_get_Current

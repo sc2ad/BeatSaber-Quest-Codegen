@@ -71,6 +71,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BTSCharacterDataModel::AnimationClipWithId), 24 + sizeof(UnityEngine::AddressableAssets::AssetReference*)> __GlobalNamespace_BTSCharacterDataModel_AnimationClipWithIdSizeCheck;
   static_assert(sizeof(BTSCharacterDataModel::AnimationClipWithId) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId*, "", "BTSCharacterDataModel/AnimationClipWithId");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId::get_id

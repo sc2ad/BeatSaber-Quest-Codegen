@@ -253,6 +253,7 @@ namespace LiteNetLib {
   static check_size<sizeof(EventBasedNetListener), 72 + sizeof(LiteNetLib::EventBasedNetListener::OnDeliveryEvent*)> __LiteNetLib_EventBasedNetListenerSizeCheck;
   static_assert(sizeof(EventBasedNetListener) == 0x50);
 }
+NEED_NO_BOX(LiteNetLib::EventBasedNetListener);
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::EventBasedNetListener*, "LiteNetLib", "EventBasedNetListener");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::EventBasedNetListener::add_PeerConnectedEvent

@@ -55,6 +55,7 @@ namespace GlobalNamespace {
   }; // AppInit/<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::AppInit::$$c);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AppInit::$$c*, "", "AppInit/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AppInit::$$c::_cctor

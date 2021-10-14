@@ -90,6 +90,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_AssetEventData), 40 + sizeof(HoudiniEngineUnity::HEU_AssetEventType)> __HoudiniEngineUnity_HEU_AssetEventDataSizeCheck;
   static_assert(sizeof(HEU_AssetEventData) == 0x2C);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_AssetEventData);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_AssetEventData*, "HoudiniEngineUnity", "HEU_AssetEventData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_AssetEventData::New_ctor

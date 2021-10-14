@@ -58,6 +58,7 @@ namespace System::Threading {
   }; // System.Threading.LockRecursionException
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Threading::LockRecursionException);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::LockRecursionException*, "System.Threading", "LockRecursionException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::LockRecursionException::New_ctor

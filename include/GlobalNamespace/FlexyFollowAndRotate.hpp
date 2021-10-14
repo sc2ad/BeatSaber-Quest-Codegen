@@ -72,6 +72,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(FlexyFollowAndRotate), 32 + sizeof(float)> __GlobalNamespace_FlexyFollowAndRotateSizeCheck;
   static_assert(sizeof(FlexyFollowAndRotate) == 0x24);
 }
+NEED_NO_BOX(GlobalNamespace::FlexyFollowAndRotate);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlexyFollowAndRotate*, "", "FlexyFollowAndRotate");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FlexyFollowAndRotate::Update

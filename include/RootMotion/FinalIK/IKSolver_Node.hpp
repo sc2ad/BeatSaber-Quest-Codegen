@@ -96,6 +96,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(IKSolver::Node), 96 + sizeof(UnityEngine::Vector3)> __RootMotion_FinalIK_IKSolver_NodeSizeCheck;
   static_assert(sizeof(IKSolver::Node) == 0x6C);
 }
+NEED_NO_BOX(RootMotion::FinalIK::IKSolver::Node);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolver::Node*, "RootMotion.FinalIK", "IKSolver/Node");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolver::Node::New_ctor

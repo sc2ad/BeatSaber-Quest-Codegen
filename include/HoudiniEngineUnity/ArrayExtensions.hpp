@@ -76,6 +76,7 @@ namespace HoudiniEngineUnity {
   }; // HoudiniEngineUnity.ArrayExtensions
   #pragma pack(pop)
 }
+NEED_NO_BOX(HoudiniEngineUnity::ArrayExtensions);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::ArrayExtensions*, "HoudiniEngineUnity", "ArrayExtensions");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::ArrayExtensions::Init

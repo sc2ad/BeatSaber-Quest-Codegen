@@ -280,6 +280,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_VolumeCache), 96 + sizeof(HoudiniEngineUnity::HEU_DetailProperties*)> __HoudiniEngineUnity_HEU_VolumeCacheSizeCheck;
   static_assert(sizeof(HEU_VolumeCache) == 0x68);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_VolumeCache);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_VolumeCache*, "HoudiniEngineUnity", "HEU_VolumeCache");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_VolumeCache::get_IsDirty

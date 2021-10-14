@@ -128,6 +128,7 @@ namespace HMUI {
   static check_size<sizeof(HoverHintPanel), 56 + sizeof(bool)> __HMUI_HoverHintPanelSizeCheck;
   static_assert(sizeof(HoverHintPanel) == 0x39);
 }
+NEED_NO_BOX(HMUI::HoverHintPanel);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::HoverHintPanel*, "HMUI", "HoverHintPanel");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::HoverHintPanel::get_isShown

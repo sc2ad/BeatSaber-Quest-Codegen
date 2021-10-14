@@ -50,6 +50,7 @@ namespace GlobalNamespace {
   }; // LiteNetLibConnectionManager/StatisticsUpdated
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::LiteNetLibConnectionManager::StatisticsUpdated);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LiteNetLibConnectionManager::StatisticsUpdated*, "", "LiteNetLibConnectionManager/StatisticsUpdated");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::StatisticsUpdated::New_ctor

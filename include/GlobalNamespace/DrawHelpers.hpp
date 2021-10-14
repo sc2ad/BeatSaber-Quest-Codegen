@@ -42,6 +42,7 @@ namespace GlobalNamespace {
   }; // DrawHelpers
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::DrawHelpers);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DrawHelpers*, "", "DrawHelpers");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DrawHelpers::DrawTexture

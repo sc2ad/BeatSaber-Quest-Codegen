@@ -44,6 +44,7 @@ namespace Mono::Security::Cryptography {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(Mono::Security::Cryptography::CryptoConvert);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::CryptoConvert*, "Mono.Security.Cryptography", "CryptoConvert");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Security::Cryptography::CryptoConvert::ToInt32LE

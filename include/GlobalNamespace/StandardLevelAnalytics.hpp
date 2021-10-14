@@ -83,6 +83,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(StandardLevelAnalytics), 32 + sizeof(GlobalNamespace::IAnalyticsModel*)> __GlobalNamespace_StandardLevelAnalyticsSizeCheck;
   static_assert(sizeof(StandardLevelAnalytics) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::StandardLevelAnalytics);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelAnalytics*, "", "StandardLevelAnalytics");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelAnalytics::Start

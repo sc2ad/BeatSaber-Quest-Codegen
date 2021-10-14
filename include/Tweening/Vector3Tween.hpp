@@ -78,6 +78,7 @@ namespace Tweening {
     }
   }; // Tweening.Vector3Tween
 }
+NEED_NO_BOX(Tweening::Vector3Tween);
 DEFINE_IL2CPP_ARG_TYPE(Tweening::Vector3Tween*, "Tweening", "Vector3Tween");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Tweening::Vector3Tween::New_ctor

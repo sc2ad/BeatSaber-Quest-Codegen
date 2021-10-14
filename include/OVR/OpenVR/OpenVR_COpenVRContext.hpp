@@ -220,6 +220,7 @@ namespace OVR::OpenVR {
   static check_size<sizeof(OpenVR::COpenVRContext), 112 + sizeof(OVR::OpenVR::CVRSpatialAnchors*)> __OVR_OpenVR_OpenVR_COpenVRContextSizeCheck;
   static_assert(sizeof(OpenVR::COpenVRContext) == 0x78);
 }
+NEED_NO_BOX(OVR::OpenVR::OpenVR::COpenVRContext);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::OpenVR::COpenVRContext*, "OVR.OpenVR", "OpenVR/COpenVRContext");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::OpenVR::COpenVRContext::Clear

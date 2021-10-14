@@ -21,6 +21,7 @@ namespace UnityEngine::XR {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::XR::HashCodeHelper);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::HashCodeHelper*, "UnityEngine.XR", "HashCodeHelper");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::XR::HashCodeHelper::Combine

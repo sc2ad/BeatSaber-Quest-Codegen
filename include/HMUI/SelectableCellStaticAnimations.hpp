@@ -114,6 +114,7 @@ namespace HMUI {
   static check_size<sizeof(SelectableCellStaticAnimations), 56 + sizeof(UnityEngine::AnimationClip*)> __HMUI_SelectableCellStaticAnimationsSizeCheck;
   static_assert(sizeof(SelectableCellStaticAnimations) == 0x40);
 }
+NEED_NO_BOX(HMUI::SelectableCellStaticAnimations);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SelectableCellStaticAnimations*, "HMUI", "SelectableCellStaticAnimations");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::SelectableCellStaticAnimations::Awake

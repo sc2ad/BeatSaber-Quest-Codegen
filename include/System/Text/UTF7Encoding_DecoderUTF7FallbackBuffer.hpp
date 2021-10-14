@@ -87,6 +87,7 @@ namespace System::Text {
   static check_size<sizeof(UTF7Encoding::DecoderUTF7FallbackBuffer), 40 + sizeof(int)> __System_Text_UTF7Encoding_DecoderUTF7FallbackBufferSizeCheck;
   static_assert(sizeof(UTF7Encoding::DecoderUTF7FallbackBuffer) == 0x2C);
 }
+NEED_NO_BOX(System::Text::UTF7Encoding::DecoderUTF7FallbackBuffer);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::UTF7Encoding::DecoderUTF7FallbackBuffer*, "System.Text", "UTF7Encoding/DecoderUTF7FallbackBuffer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::UTF7Encoding::DecoderUTF7FallbackBuffer::New_ctor

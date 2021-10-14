@@ -200,6 +200,7 @@ namespace System::Xml {
   static check_size<sizeof(XmlAsyncCheckWriter), 24 + sizeof(System::Threading::Tasks::Task*)> __System_Xml_XmlAsyncCheckWriterSizeCheck;
   static_assert(sizeof(XmlAsyncCheckWriter) == 0x20);
 }
+NEED_NO_BOX(System::Xml::XmlAsyncCheckWriter);
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlAsyncCheckWriter*, "System.Xml", "XmlAsyncCheckWriter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::XmlAsyncCheckWriter::New_ctor

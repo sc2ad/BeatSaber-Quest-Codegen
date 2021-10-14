@@ -50,6 +50,7 @@ namespace NUnit::Framework::Internal::Commands {
   }; // NUnit.Framework.Internal.Commands.TheoryResultCommand
   #pragma pack(pop)
 }
+NEED_NO_BOX(NUnit::Framework::Internal::Commands::TheoryResultCommand);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Commands::TheoryResultCommand*, "NUnit.Framework.Internal.Commands", "TheoryResultCommand");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Commands::TheoryResultCommand::New_ctor

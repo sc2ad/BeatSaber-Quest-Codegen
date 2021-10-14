@@ -56,6 +56,7 @@ namespace GlobalNamespace {
   }; // OculusPlatformLeaderboardsHandler/<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::OculusPlatformLeaderboardsHandler::$$c);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformLeaderboardsHandler::$$c*, "", "OculusPlatformLeaderboardsHandler/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OculusPlatformLeaderboardsHandler::$$c::_cctor

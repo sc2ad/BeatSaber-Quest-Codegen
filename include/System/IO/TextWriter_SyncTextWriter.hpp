@@ -155,6 +155,7 @@ namespace System::IO {
   static check_size<sizeof(TextWriter::SyncTextWriter), 40 + sizeof(System::IO::TextWriter*)> __System_IO_TextWriter_SyncTextWriterSizeCheck;
   static_assert(sizeof(TextWriter::SyncTextWriter) == 0x30);
 }
+NEED_NO_BOX(System::IO::TextWriter::SyncTextWriter);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::TextWriter::SyncTextWriter*, "System.IO", "TextWriter/SyncTextWriter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::TextWriter::SyncTextWriter::New_ctor

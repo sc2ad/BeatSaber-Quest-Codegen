@@ -281,6 +281,7 @@ namespace UnityEngine {
   // Offset: 0x1D97910
   bool operator !=(UnityEngine::Object* x, UnityEngine::Object& y);
 }
+NEED_NO_BOX(UnityEngine::Object);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Object*, "UnityEngine", "Object");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Object::get_name

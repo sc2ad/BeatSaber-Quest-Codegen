@@ -93,6 +93,7 @@ namespace UnityEngine::UI {
   static check_size<sizeof(LayoutGroup::$DelayedSetDirty$d__56), 32 + sizeof(UnityEngine::RectTransform*)> __UnityEngine_UI_LayoutGroup_$DelayedSetDirty$d__56SizeCheck;
   static_assert(sizeof(LayoutGroup::$DelayedSetDirty$d__56) == 0x28);
 }
+NEED_NO_BOX(UnityEngine::UI::LayoutGroup::$DelayedSetDirty$d__56);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::LayoutGroup::$DelayedSetDirty$d__56*, "UnityEngine.UI", "LayoutGroup/<DelayedSetDirty>d__56");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::$DelayedSetDirty$d__56::System_Collections_Generic_IEnumerator$System_Object$_get_Current

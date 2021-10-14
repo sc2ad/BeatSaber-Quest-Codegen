@@ -160,6 +160,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ParametricBoxFakeGlowController), 72 + sizeof(GlobalNamespace::MaterialPropertyBlockController*)> __GlobalNamespace_ParametricBoxFakeGlowControllerSizeCheck;
   static_assert(sizeof(ParametricBoxFakeGlowController) == 0x50);
 }
+NEED_NO_BOX(GlobalNamespace::ParametricBoxFakeGlowController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ParametricBoxFakeGlowController*, "", "ParametricBoxFakeGlowController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ParametricBoxFakeGlowController::set_localPosition

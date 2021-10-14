@@ -79,6 +79,7 @@ namespace System::Collections {
   static check_size<sizeof(CaseInsensitiveComparer), 16 + sizeof(System::Globalization::CompareInfo*)> __System_Collections_CaseInsensitiveComparerSizeCheck;
   static_assert(sizeof(CaseInsensitiveComparer) == 0x18);
 }
+NEED_NO_BOX(System::Collections::CaseInsensitiveComparer);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::CaseInsensitiveComparer*, "System.Collections", "CaseInsensitiveComparer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::CaseInsensitiveComparer::get_Default

@@ -257,6 +257,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LevelCollectionViewController), 216 + sizeof(GlobalNamespace::IPreviewBeatmapLevel*)> __GlobalNamespace_LevelCollectionViewControllerSizeCheck;
   static_assert(sizeof(LevelCollectionViewController) == 0xE0);
 }
+NEED_NO_BOX(GlobalNamespace::LevelCollectionViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelCollectionViewController*, "", "LevelCollectionViewController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LevelCollectionViewController::add_didSelectLevelEvent

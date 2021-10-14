@@ -70,6 +70,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(AutoSetupData), 19 + sizeof(bool)> __GlobalNamespace_AutoSetupDataSizeCheck;
   static_assert(sizeof(AutoSetupData) == 0x14);
 }
+NEED_NO_BOX(GlobalNamespace::AutoSetupData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AutoSetupData*, "", "AutoSetupData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AutoSetupData::New_ctor

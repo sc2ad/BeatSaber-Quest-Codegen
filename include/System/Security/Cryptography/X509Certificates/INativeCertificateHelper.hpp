@@ -29,6 +29,7 @@ namespace System::Security::Cryptography::X509Certificates {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Security::Cryptography::X509Certificates::INativeCertificateHelper);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::INativeCertificateHelper*, "System.Security.Cryptography.X509Certificates", "INativeCertificateHelper");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::INativeCertificateHelper::Import

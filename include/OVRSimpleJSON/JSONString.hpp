@@ -104,6 +104,7 @@ namespace OVRSimpleJSON {
   static check_size<sizeof(JSONString), 16 + sizeof(::Il2CppString*)> __OVRSimpleJSON_JSONStringSizeCheck;
   static_assert(sizeof(JSONString) == 0x18);
 }
+NEED_NO_BOX(OVRSimpleJSON::JSONString);
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONString*, "OVRSimpleJSON", "JSONString");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONString::New_ctor

@@ -54,6 +54,7 @@ namespace NUnit::Framework::Internal::Commands {
   }; // NUnit.Framework.Internal.Commands.SkipCommand
   #pragma pack(pop)
 }
+NEED_NO_BOX(NUnit::Framework::Internal::Commands::SkipCommand);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Commands::SkipCommand*, "NUnit.Framework.Internal.Commands", "SkipCommand");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Commands::SkipCommand::GetSkipReason

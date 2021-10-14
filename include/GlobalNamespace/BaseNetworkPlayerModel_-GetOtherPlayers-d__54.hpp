@@ -109,6 +109,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BaseNetworkPlayerModel::$GetOtherPlayers$d__54), 32 + sizeof(int)> __GlobalNamespace_BaseNetworkPlayerModel_$GetOtherPlayers$d__54SizeCheck;
   static_assert(sizeof(BaseNetworkPlayerModel::$GetOtherPlayers$d__54) == 0x24);
 }
+NEED_NO_BOX(GlobalNamespace::BaseNetworkPlayerModel::$GetOtherPlayers$d__54);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BaseNetworkPlayerModel::$GetOtherPlayers$d__54*, "", "BaseNetworkPlayerModel/<GetOtherPlayers>d__54");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BaseNetworkPlayerModel::$GetOtherPlayers$d__54::System_Collections_Generic_IEnumerator$INetworkPlayer$_get_Current

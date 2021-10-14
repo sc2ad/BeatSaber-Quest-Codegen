@@ -67,6 +67,7 @@ namespace System {
   static check_size<sizeof(MonoCustomAttrs::AttributeInfo), 24 + sizeof(int)> __System_MonoCustomAttrs_AttributeInfoSizeCheck;
   static_assert(sizeof(MonoCustomAttrs::AttributeInfo) == 0x1C);
 }
+NEED_NO_BOX(System::MonoCustomAttrs::AttributeInfo);
 DEFINE_IL2CPP_ARG_TYPE(System::MonoCustomAttrs::AttributeInfo*, "System", "MonoCustomAttrs/AttributeInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::MonoCustomAttrs::AttributeInfo::get_Usage

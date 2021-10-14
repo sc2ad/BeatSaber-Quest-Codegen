@@ -156,6 +156,7 @@ namespace System::Net {
   static check_size<sizeof(CookieContainer), 40 + sizeof(::Il2CppString*)> __System_Net_CookieContainerSizeCheck;
   static_assert(sizeof(CookieContainer) == 0x30);
 }
+NEED_NO_BOX(System::Net::CookieContainer);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::CookieContainer*, "System.Net", "CookieContainer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::CookieContainer::_cctor

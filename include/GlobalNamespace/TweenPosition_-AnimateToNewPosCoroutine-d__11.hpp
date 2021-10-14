@@ -104,6 +104,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(TweenPosition::$AnimateToNewPosCoroutine$d__11), 52 + sizeof(float)> __GlobalNamespace_TweenPosition_$AnimateToNewPosCoroutine$d__11SizeCheck;
   static_assert(sizeof(TweenPosition::$AnimateToNewPosCoroutine$d__11) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::TweenPosition::$AnimateToNewPosCoroutine$d__11);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TweenPosition::$AnimateToNewPosCoroutine$d__11*, "", "TweenPosition/<AnimateToNewPosCoroutine>d__11");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TweenPosition::$AnimateToNewPosCoroutine$d__11::System_Collections_Generic_IEnumerator$System_Object$_get_Current

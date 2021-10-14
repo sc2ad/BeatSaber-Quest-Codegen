@@ -105,6 +105,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_ThreadManager), 32 + sizeof(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_ThreadedTask*>*)> __HoudiniEngineUnity_HEU_ThreadManagerSizeCheck;
   static_assert(sizeof(HEU_ThreadManager) == 0x28);
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_ThreadManager);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_ThreadManager*, "HoudiniEngineUnity", "HEU_ThreadManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ThreadManager::get_Instance

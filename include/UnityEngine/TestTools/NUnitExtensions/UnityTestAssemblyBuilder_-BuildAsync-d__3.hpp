@@ -152,6 +152,7 @@ namespace UnityEngine::TestTools::NUnitExtensions {
   static check_size<sizeof(UnityTestAssemblyBuilder::$BuildAsync$d__3), 72 + sizeof(int)> __UnityEngine_TestTools_NUnitExtensions_UnityTestAssemblyBuilder_$BuildAsync$d__3SizeCheck;
   static_assert(sizeof(UnityTestAssemblyBuilder::$BuildAsync$d__3) == 0x4C);
 }
+NEED_NO_BOX(UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder::$BuildAsync$d__3);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder::$BuildAsync$d__3*, "UnityEngine.TestTools.NUnitExtensions", "UnityTestAssemblyBuilder/<BuildAsync>d__3");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder::$BuildAsync$d__3::System_Collections_Generic_IEnumerator$NUnit_Framework_Interfaces_ITest$_get_Current

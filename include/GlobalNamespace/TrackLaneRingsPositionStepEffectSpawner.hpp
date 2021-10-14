@@ -127,6 +127,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(TrackLaneRingsPositionStepEffectSpawner), 56 + sizeof(bool)> __GlobalNamespace_TrackLaneRingsPositionStepEffectSpawnerSizeCheck;
   static_assert(sizeof(TrackLaneRingsPositionStepEffectSpawner) == 0x39);
 }
+NEED_NO_BOX(GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner*, "", "TrackLaneRingsPositionStepEffectSpawner");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner::Start

@@ -49,6 +49,7 @@ namespace System::Threading {
   }; // System.Threading.OSSpecificSynchronizationContext/System.Threading.<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Threading::OSSpecificSynchronizationContext::$$c);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::OSSpecificSynchronizationContext::$$c*, "System.Threading", "OSSpecificSynchronizationContext/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::OSSpecificSynchronizationContext::$$c::_cctor

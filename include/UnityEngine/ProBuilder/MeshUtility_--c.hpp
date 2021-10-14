@@ -69,6 +69,7 @@ namespace UnityEngine::ProBuilder {
   }; // UnityEngine.ProBuilder.MeshUtility/UnityEngine.ProBuilder.<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::MeshUtility::$$c);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshUtility::$$c*, "UnityEngine.ProBuilder", "MeshUtility/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshUtility::$$c::_cctor

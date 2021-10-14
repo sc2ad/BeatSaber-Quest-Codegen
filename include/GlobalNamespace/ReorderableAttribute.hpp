@@ -91,6 +91,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ReorderableAttribute), 25 + sizeof(bool)> __GlobalNamespace_ReorderableAttributeSizeCheck;
   static_assert(sizeof(ReorderableAttribute) == 0x1A);
 }
+NEED_NO_BOX(GlobalNamespace::ReorderableAttribute);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ReorderableAttribute*, "", "ReorderableAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ReorderableAttribute::get_ElementHeader

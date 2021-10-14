@@ -143,6 +143,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(TableViewWithDetailCell), 192 + sizeof(int)> __GlobalNamespace_TableViewWithDetailCellSizeCheck;
   static_assert(sizeof(TableViewWithDetailCell) == 0xC4);
 }
+NEED_NO_BOX(GlobalNamespace::TableViewWithDetailCell);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TableViewWithDetailCell*, "", "TableViewWithDetailCell");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TableViewWithDetailCell::get_dataSource

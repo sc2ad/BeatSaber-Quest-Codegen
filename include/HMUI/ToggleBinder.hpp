@@ -107,6 +107,7 @@ namespace HMUI {
   static check_size<sizeof(ToggleBinder), 24 + sizeof(bool)> __HMUI_ToggleBinderSizeCheck;
   static_assert(sizeof(ToggleBinder) == 0x19);
 }
+NEED_NO_BOX(HMUI::ToggleBinder);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ToggleBinder*, "HMUI", "ToggleBinder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::ToggleBinder::New_ctor

@@ -124,6 +124,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MockPlayerGamePoseGeneratorMirror), 72 + sizeof(System::Action*)> __GlobalNamespace_MockPlayerGamePoseGeneratorMirrorSizeCheck;
   static_assert(sizeof(MockPlayerGamePoseGeneratorMirror) == 0x50);
 }
+NEED_NO_BOX(GlobalNamespace::MockPlayerGamePoseGeneratorMirror);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockPlayerGamePoseGeneratorMirror*, "", "MockPlayerGamePoseGeneratorMirror");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayerGamePoseGeneratorMirror::New_ctor

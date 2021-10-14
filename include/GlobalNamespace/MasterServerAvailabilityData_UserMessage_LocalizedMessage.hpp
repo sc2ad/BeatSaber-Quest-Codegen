@@ -56,6 +56,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MasterServerAvailabilityData::UserMessage::LocalizedMessage), 24 + sizeof(::Il2CppString*)> __GlobalNamespace_MasterServerAvailabilityData_UserMessage_LocalizedMessageSizeCheck;
   static_assert(sizeof(MasterServerAvailabilityData::UserMessage::LocalizedMessage) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::MasterServerAvailabilityData::UserMessage::LocalizedMessage);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerAvailabilityData::UserMessage::LocalizedMessage*, "", "MasterServerAvailabilityData/UserMessage/LocalizedMessage");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerAvailabilityData::UserMessage::LocalizedMessage::New_ctor

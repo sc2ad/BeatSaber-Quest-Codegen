@@ -93,6 +93,7 @@ namespace Org::BouncyCastle::Asn1 {
   static check_size<sizeof(ConstructedOctetStream), 64 + sizeof(System::IO::Stream*)> __Org_BouncyCastle_Asn1_ConstructedOctetStreamSizeCheck;
   static_assert(sizeof(ConstructedOctetStream) == 0x48);
 }
+NEED_NO_BOX(Org::BouncyCastle::Asn1::ConstructedOctetStream);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::ConstructedOctetStream*, "Org.BouncyCastle.Asn1", "ConstructedOctetStream");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::ConstructedOctetStream::New_ctor

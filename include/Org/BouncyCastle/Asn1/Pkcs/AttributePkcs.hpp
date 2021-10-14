@@ -81,6 +81,7 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
   static check_size<sizeof(AttributePkcs), 24 + sizeof(Org::BouncyCastle::Asn1::Asn1Set*)> __Org_BouncyCastle_Asn1_Pkcs_AttributePkcsSizeCheck;
   static_assert(sizeof(AttributePkcs) == 0x20);
 }
+NEED_NO_BOX(Org::BouncyCastle::Asn1::Pkcs::AttributePkcs);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Pkcs::AttributePkcs*, "Org.BouncyCastle.Asn1.Pkcs", "AttributePkcs");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::AttributePkcs::get_AttrType

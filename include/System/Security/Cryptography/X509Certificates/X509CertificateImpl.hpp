@@ -124,6 +124,7 @@ namespace System::Security::Cryptography::X509Certificates {
   static check_size<sizeof(X509CertificateImpl), 16 + sizeof(::ArrayW<uint8_t>)> __System_Security_Cryptography_X509Certificates_X509CertificateImplSizeCheck;
   static_assert(sizeof(X509CertificateImpl) == 0x18);
 }
+NEED_NO_BOX(System::Security::Cryptography::X509Certificates::X509CertificateImpl);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509CertificateImpl*, "System.Security.Cryptography.X509Certificates", "X509CertificateImpl");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509CertificateImpl::get_IsValid

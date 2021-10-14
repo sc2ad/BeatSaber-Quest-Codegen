@@ -76,6 +76,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerLocalInactiveClient), 32 + sizeof(GlobalNamespace::INodePoseSyncStateManager*)> __GlobalNamespace_MultiplayerLocalInactiveClientSizeCheck;
   static_assert(sizeof(MultiplayerLocalInactiveClient) == 0x28);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerLocalInactiveClient);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalInactiveClient*, "", "MultiplayerLocalInactiveClient");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalInactiveClient::LateUpdate

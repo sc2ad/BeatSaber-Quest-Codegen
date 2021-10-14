@@ -48,6 +48,7 @@ namespace System::Net {
   }; // System.Net.PathList/System.Net.PathListComparer
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Net::PathList::PathListComparer);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::PathList::PathListComparer*, "System.Net", "PathList/PathListComparer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::PathList::PathListComparer::_cctor

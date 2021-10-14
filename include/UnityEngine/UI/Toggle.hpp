@@ -252,6 +252,7 @@ namespace UnityEngine::UI {
   static check_size<sizeof(Toggle), 280 + sizeof(bool)> __UnityEngine_UI_ToggleSizeCheck;
   static_assert(sizeof(Toggle) == 0x119);
 }
+NEED_NO_BOX(UnityEngine::UI::Toggle);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Toggle*, "UnityEngine.UI", "Toggle");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Toggle::ToggleTransition, "UnityEngine.UI", "Toggle/ToggleTransition");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

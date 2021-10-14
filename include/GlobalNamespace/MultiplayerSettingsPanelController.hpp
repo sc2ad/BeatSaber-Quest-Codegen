@@ -181,6 +181,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerSettingsPanelController), 80 + sizeof(System::Action_1<bool>*)> __GlobalNamespace_MultiplayerSettingsPanelControllerSizeCheck;
   static_assert(sizeof(MultiplayerSettingsPanelController) == 0x58);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerSettingsPanelController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerSettingsPanelController*, "", "MultiplayerSettingsPanelController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerSettingsPanelController::add_playerActiveStateChangedEvent

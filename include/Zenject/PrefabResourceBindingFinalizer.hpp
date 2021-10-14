@@ -113,6 +113,7 @@ namespace Zenject {
   static check_size<sizeof(PrefabResourceBindingFinalizer), 40 + sizeof(System::Func_3<System::Type*, Zenject::IPrefabInstantiator*, Zenject::IProvider*>*)> __Zenject_PrefabResourceBindingFinalizerSizeCheck;
   static_assert(sizeof(PrefabResourceBindingFinalizer) == 0x30);
 }
+NEED_NO_BOX(Zenject::PrefabResourceBindingFinalizer);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::PrefabResourceBindingFinalizer*, "Zenject", "PrefabResourceBindingFinalizer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::PrefabResourceBindingFinalizer::New_ctor

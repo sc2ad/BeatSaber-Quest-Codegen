@@ -162,6 +162,7 @@ namespace UnityEngine::ProBuilder {
   static check_size<sizeof(SharedVertex), 16 + sizeof(::ArrayW<int>)> __UnityEngine_ProBuilder_SharedVertexSizeCheck;
   static_assert(sizeof(SharedVertex) == 0x18);
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::SharedVertex);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::SharedVertex*, "UnityEngine.ProBuilder", "SharedVertex");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SharedVertex::get_arrayInternal

@@ -62,6 +62,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(CreditsData::ChildCreditsItem), 24 + sizeof(GlobalNamespace::CreditsData::Text*)> __GlobalNamespace_CreditsData_ChildCreditsItemSizeCheck;
   static_assert(sizeof(CreditsData::ChildCreditsItem) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::CreditsData::ChildCreditsItem);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CreditsData::ChildCreditsItem*, "", "CreditsData/ChildCreditsItem");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CreditsData::ChildCreditsItem::HasTitle

@@ -110,6 +110,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(CustomLevelLoader), 64 + sizeof(UnityEngine::Sprite*)> __GlobalNamespace_CustomLevelLoaderSizeCheck;
   static_assert(sizeof(CustomLevelLoader) == 0x48);
 }
+NEED_NO_BOX(GlobalNamespace::CustomLevelLoader);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CustomLevelLoader*, "", "CustomLevelLoader");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CustomLevelLoader::New_ctor

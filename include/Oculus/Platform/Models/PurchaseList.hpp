@@ -37,6 +37,7 @@ namespace Oculus::Platform::Models {
     }
   }; // Oculus.Platform.Models.PurchaseList
 }
+NEED_NO_BOX(Oculus::Platform::Models::PurchaseList);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::PurchaseList*, "Oculus.Platform.Models", "PurchaseList");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::PurchaseList::New_ctor

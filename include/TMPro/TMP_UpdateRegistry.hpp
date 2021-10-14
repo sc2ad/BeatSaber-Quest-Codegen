@@ -120,6 +120,7 @@ namespace TMPro {
   static check_size<sizeof(TMP_UpdateRegistry), 40 + sizeof(System::Collections::Generic::Dictionary_2<int, int>*)> __TMPro_TMP_UpdateRegistrySizeCheck;
   static_assert(sizeof(TMP_UpdateRegistry) == 0x30);
 }
+NEED_NO_BOX(TMPro::TMP_UpdateRegistry);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_UpdateRegistry*, "TMPro", "TMP_UpdateRegistry");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_UpdateRegistry::get_instance

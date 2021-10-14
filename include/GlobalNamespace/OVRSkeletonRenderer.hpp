@@ -384,6 +384,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRSkeletonRenderer), 135 + sizeof(bool)> __GlobalNamespace_OVRSkeletonRendererSizeCheck;
   static_assert(sizeof(OVRSkeletonRenderer) == 0x88);
 }
+NEED_NO_BOX(GlobalNamespace::OVRSkeletonRenderer);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSkeletonRenderer*, "", "OVRSkeletonRenderer");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSkeletonRenderer::ConfidenceBehavior, "", "OVRSkeletonRenderer/ConfidenceBehavior");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSkeletonRenderer::SystemGestureBehavior, "", "OVRSkeletonRenderer/SystemGestureBehavior");

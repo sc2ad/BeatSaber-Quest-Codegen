@@ -33,6 +33,7 @@ namespace UnityEngine::Internal {
   }; // UnityEngine.Internal.ExcludeFromDocsAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::Internal::ExcludeFromDocsAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Internal::ExcludeFromDocsAttribute*, "UnityEngine.Internal", "ExcludeFromDocsAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Internal::ExcludeFromDocsAttribute::New_ctor

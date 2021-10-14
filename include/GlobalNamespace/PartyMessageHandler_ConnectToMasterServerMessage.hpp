@@ -94,6 +94,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PartyMessageHandler::ConnectToMasterServerMessage), 16 + sizeof(::Il2CppString*)> __GlobalNamespace_PartyMessageHandler_ConnectToMasterServerMessageSizeCheck;
   static_assert(sizeof(PartyMessageHandler::ConnectToMasterServerMessage) == 0x18);
 }
+NEED_NO_BOX(GlobalNamespace::PartyMessageHandler::ConnectToMasterServerMessage);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PartyMessageHandler::ConnectToMasterServerMessage*, "", "PartyMessageHandler/ConnectToMasterServerMessage");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PartyMessageHandler::ConnectToMasterServerMessage::get_pool

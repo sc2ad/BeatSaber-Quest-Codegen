@@ -46,6 +46,7 @@ namespace Oculus::Platform {
     Oculus::Platform::Models::HttpTransferUpdate* GetHttpTransferUpdate();
   }; // Oculus.Platform.MessageWithHttpTransferUpdate
 }
+NEED_NO_BOX(Oculus::Platform::MessageWithHttpTransferUpdate);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithHttpTransferUpdate*, "Oculus.Platform", "MessageWithHttpTransferUpdate");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithHttpTransferUpdate::GetDataFromMessage

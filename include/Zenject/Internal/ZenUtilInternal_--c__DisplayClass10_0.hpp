@@ -65,6 +65,7 @@ namespace Zenject::Internal {
   static check_size<sizeof(ZenUtilInternal::$$c__DisplayClass10_0), 16 + sizeof(UnityEngine::SceneManagement::Scene)> __Zenject_Internal_ZenUtilInternal_$$c__DisplayClass10_0SizeCheck;
   static_assert(sizeof(ZenUtilInternal::$$c__DisplayClass10_0) == 0x14);
 }
+NEED_NO_BOX(Zenject::Internal::ZenUtilInternal::$$c__DisplayClass10_0);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::ZenUtilInternal::$$c__DisplayClass10_0*, "Zenject.Internal", "ZenUtilInternal/<>c__DisplayClass10_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::Internal::ZenUtilInternal::$$c__DisplayClass10_0::$GetRootGameObjects$b__1

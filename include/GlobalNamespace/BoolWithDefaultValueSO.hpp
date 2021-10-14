@@ -55,6 +55,7 @@ namespace GlobalNamespace {
   }; // BoolWithDefaultValueSO
   // WARNING Not writing size check since size may be invalid!
 }
+NEED_NO_BOX(GlobalNamespace::BoolWithDefaultValueSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BoolWithDefaultValueSO*, "", "BoolWithDefaultValueSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BoolWithDefaultValueSO::New_ctor

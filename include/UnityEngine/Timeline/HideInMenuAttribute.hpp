@@ -34,6 +34,7 @@ namespace UnityEngine::Timeline {
   }; // UnityEngine.Timeline.HideInMenuAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::Timeline::HideInMenuAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::HideInMenuAttribute*, "UnityEngine.Timeline", "HideInMenuAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::HideInMenuAttribute::New_ctor

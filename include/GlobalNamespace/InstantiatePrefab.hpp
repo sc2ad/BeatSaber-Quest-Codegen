@@ -64,6 +64,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(InstantiatePrefab), 24 + sizeof(UnityEngine::GameObject*)> __GlobalNamespace_InstantiatePrefabSizeCheck;
   static_assert(sizeof(InstantiatePrefab) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::InstantiatePrefab);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::InstantiatePrefab*, "", "InstantiatePrefab");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::InstantiatePrefab::Awake

@@ -85,6 +85,7 @@ namespace Zenject {
   static check_size<sizeof(ProjectKernel), 64 + sizeof(Zenject::SceneContextRegistry*)> __Zenject_ProjectKernelSizeCheck;
   static_assert(sizeof(ProjectKernel) == 0x48);
 }
+NEED_NO_BOX(Zenject::ProjectKernel);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ProjectKernel*, "Zenject", "ProjectKernel");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::ProjectKernel::OnApplicationQuit

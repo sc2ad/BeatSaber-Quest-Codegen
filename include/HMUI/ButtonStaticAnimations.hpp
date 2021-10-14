@@ -119,6 +119,7 @@ namespace HMUI {
   static check_size<sizeof(ButtonStaticAnimations), 64 + sizeof(bool)> __HMUI_ButtonStaticAnimationsSizeCheck;
   static_assert(sizeof(ButtonStaticAnimations) == 0x41);
 }
+NEED_NO_BOX(HMUI::ButtonStaticAnimations);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ButtonStaticAnimations*, "HMUI", "ButtonStaticAnimations");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::ButtonStaticAnimations::Awake

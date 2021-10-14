@@ -141,6 +141,7 @@ namespace Microsoft::Win32 {
   static check_size<sizeof(Win32RegistryApi), 16 + sizeof(int)> __Microsoft_Win32_Win32RegistryApiSizeCheck;
   static_assert(sizeof(Win32RegistryApi) == 0x14);
 }
+NEED_NO_BOX(Microsoft::Win32::Win32RegistryApi);
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::Win32RegistryApi*, "Microsoft.Win32", "Win32RegistryApi");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Microsoft::Win32::Win32RegistryApi::RegCloseKey

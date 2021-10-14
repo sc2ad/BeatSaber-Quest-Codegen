@@ -65,6 +65,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   static check_size<sizeof(ElementSelection::$$c__DisplayClass24_0), 16 + sizeof(UnityEngine::ProBuilder::Face*)> __UnityEngine_ProBuilder_MeshOperations_ElementSelection_$$c__DisplayClass24_0SizeCheck;
   static_assert(sizeof(ElementSelection::$$c__DisplayClass24_0) == 0x18);
 }
+NEED_NO_BOX(UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c__DisplayClass24_0);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c__DisplayClass24_0*, "UnityEngine.ProBuilder.MeshOperations", "ElementSelection/<>c__DisplayClass24_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c__DisplayClass24_0::$GetFaceLoop$b__0

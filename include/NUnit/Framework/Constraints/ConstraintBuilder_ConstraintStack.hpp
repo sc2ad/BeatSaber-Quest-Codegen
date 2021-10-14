@@ -56,6 +56,7 @@ namespace NUnit::Framework::Constraints {
   static_assert(sizeof(ConstraintBuilder::ConstraintStack) == 0x18);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(NUnit::Framework::Constraints::ConstraintBuilder::ConstraintStack);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::ConstraintBuilder::ConstraintStack*, "NUnit.Framework.Constraints", "ConstraintBuilder/ConstraintStack");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::ConstraintBuilder::ConstraintStack::Pop

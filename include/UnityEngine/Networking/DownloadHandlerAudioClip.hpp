@@ -76,6 +76,7 @@ namespace UnityEngine::Networking {
   }; // UnityEngine.Networking.DownloadHandlerAudioClip
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::Networking::DownloadHandlerAudioClip);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::DownloadHandlerAudioClip*, "UnityEngine.Networking", "DownloadHandlerAudioClip");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandlerAudioClip::get_audioClip

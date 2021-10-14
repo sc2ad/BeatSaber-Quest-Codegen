@@ -117,6 +117,7 @@ namespace Org::BouncyCastle::X509 {
   static check_size<sizeof(X509V2AttributeCertificate), 32 + sizeof(System::DateTime)> __Org_BouncyCastle_X509_X509V2AttributeCertificateSizeCheck;
   static_assert(sizeof(X509V2AttributeCertificate) == 0x28);
 }
+NEED_NO_BOX(Org::BouncyCastle::X509::X509V2AttributeCertificate);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::X509V2AttributeCertificate*, "Org.BouncyCastle.X509", "X509V2AttributeCertificate");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::X509::X509V2AttributeCertificate::New_ctor

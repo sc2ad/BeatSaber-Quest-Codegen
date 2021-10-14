@@ -37,6 +37,7 @@ namespace Oculus::Platform::Models {
     }
   }; // Oculus.Platform.Models.ProductList
 }
+NEED_NO_BOX(Oculus::Platform::Models::ProductList);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::ProductList*, "Oculus.Platform.Models", "ProductList");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::ProductList::New_ctor

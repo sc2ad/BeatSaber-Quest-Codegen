@@ -64,6 +64,7 @@ namespace TMPro {
   static check_size<sizeof(TMP_Settings::LineBreakingTable), 24 + sizeof(System::Collections::Generic::Dictionary_2<int, ::Il2CppChar>*)> __TMPro_TMP_Settings_LineBreakingTableSizeCheck;
   static_assert(sizeof(TMP_Settings::LineBreakingTable) == 0x20);
 }
+NEED_NO_BOX(TMPro::TMP_Settings::LineBreakingTable);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Settings::LineBreakingTable*, "TMPro", "TMP_Settings/LineBreakingTable");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_Settings::LineBreakingTable::New_ctor

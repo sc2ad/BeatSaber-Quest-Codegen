@@ -33,6 +33,7 @@ namespace NUnit::Framework {
   }; // NUnit.Framework.NUnitAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(NUnit::Framework::NUnitAttribute);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::NUnitAttribute*, "NUnit.Framework", "NUnitAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::NUnitAttribute::New_ctor

@@ -440,6 +440,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BeatmapLevelsModel), 120 + sizeof(GlobalNamespace::BeatmapLevelLoader*)> __GlobalNamespace_BeatmapLevelsModelSizeCheck;
   static_assert(sizeof(BeatmapLevelsModel) == 0x80);
 }
+NEED_NO_BOX(GlobalNamespace::BeatmapLevelsModel);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelsModel*, "", "BeatmapLevelsModel");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelsModel::GetBeatmapLevelResult, "", "BeatmapLevelsModel/GetBeatmapLevelResult");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpdate, "", "BeatmapLevelsModel/LevelDownloadingUpdate");

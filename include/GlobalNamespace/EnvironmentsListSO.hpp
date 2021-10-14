@@ -81,6 +81,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(EnvironmentsListSO), 24 + sizeof(::ArrayW<GlobalNamespace::EnvironmentInfoSO*>)> __GlobalNamespace_EnvironmentsListSOSizeCheck;
   static_assert(sizeof(EnvironmentsListSO) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::EnvironmentsListSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentsListSO*, "", "EnvironmentsListSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EnvironmentsListSO::get_environmentInfos

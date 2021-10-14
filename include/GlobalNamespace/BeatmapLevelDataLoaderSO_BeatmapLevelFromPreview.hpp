@@ -158,6 +158,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview), 24 + sizeof(GlobalNamespace::BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview::BeatmapLevelData*)> __GlobalNamespace_BeatmapLevelDataLoaderSO_BeatmapLevelFromPreviewSizeCheck;
   static_assert(sizeof(BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview*, "", "BeatmapLevelDataLoaderSO/BeatmapLevelFromPreview");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview::get_levelID

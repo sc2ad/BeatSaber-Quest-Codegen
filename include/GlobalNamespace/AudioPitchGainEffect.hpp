@@ -145,6 +145,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(AudioPitchGainEffect), 68 + sizeof(float)> __GlobalNamespace_AudioPitchGainEffectSizeCheck;
   static_assert(sizeof(AudioPitchGainEffect) == 0x48);
 }
+NEED_NO_BOX(GlobalNamespace::AudioPitchGainEffect);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioPitchGainEffect*, "", "AudioPitchGainEffect");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AudioPitchGainEffect::Start

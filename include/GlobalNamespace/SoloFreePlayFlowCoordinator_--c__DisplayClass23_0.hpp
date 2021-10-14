@@ -67,6 +67,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SoloFreePlayFlowCoordinator::$$c__DisplayClass23_0), 24 + sizeof(GlobalNamespace::ResultsViewController*)> __GlobalNamespace_SoloFreePlayFlowCoordinator_$$c__DisplayClass23_0SizeCheck;
   static_assert(sizeof(SoloFreePlayFlowCoordinator::$$c__DisplayClass23_0) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::SoloFreePlayFlowCoordinator::$$c__DisplayClass23_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SoloFreePlayFlowCoordinator::$$c__DisplayClass23_0*, "", "SoloFreePlayFlowCoordinator/<>c__DisplayClass23_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SoloFreePlayFlowCoordinator::$$c__DisplayClass23_0::$HandleResultsViewControllerRestartButtonPressed$b__0

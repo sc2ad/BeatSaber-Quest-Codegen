@@ -105,6 +105,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PresetsSettingsController), 60 + sizeof(int)> __GlobalNamespace_PresetsSettingsControllerSizeCheck;
   static_assert(sizeof(PresetsSettingsController) == 0x40);
 }
+NEED_NO_BOX(GlobalNamespace::PresetsSettingsController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PresetsSettingsController*, "", "PresetsSettingsController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PresetsSettingsController::New_ctor

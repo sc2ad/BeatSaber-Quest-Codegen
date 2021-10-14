@@ -138,6 +138,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(VFXAnimationEvents), 56 + sizeof(System::Action*)> __GlobalNamespace_VFXAnimationEventsSizeCheck;
   static_assert(sizeof(VFXAnimationEvents) == 0x40);
 }
+NEED_NO_BOX(GlobalNamespace::VFXAnimationEvents);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VFXAnimationEvents*, "", "VFXAnimationEvents");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::VFXAnimationEvents::add_animationDidPauseEvent

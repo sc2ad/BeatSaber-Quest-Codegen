@@ -88,6 +88,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(InstantMenuButtonTrigger), 24 + sizeof(System::Action*)> __GlobalNamespace_InstantMenuButtonTriggerSizeCheck;
   static_assert(sizeof(InstantMenuButtonTrigger) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::InstantMenuButtonTrigger);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::InstantMenuButtonTrigger*, "", "InstantMenuButtonTrigger");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::InstantMenuButtonTrigger::add_menuButtonTriggeredEvent

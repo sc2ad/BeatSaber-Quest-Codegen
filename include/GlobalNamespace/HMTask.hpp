@@ -124,6 +124,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(HMTask), 42 + sizeof(bool)> __GlobalNamespace_HMTaskSizeCheck;
   static_assert(sizeof(HMTask) == 0x2B);
 }
+NEED_NO_BOX(GlobalNamespace::HMTask);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HMTask*, "", "HMTask");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HMTask::New_ctor

@@ -40,6 +40,7 @@ namespace System::Threading {
   }; // System.Threading.OSSpecificSynchronizationContext/System.Threading.MonoPInvokeCallbackAttribute
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Threading::OSSpecificSynchronizationContext::MonoPInvokeCallbackAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::OSSpecificSynchronizationContext::MonoPInvokeCallbackAttribute*, "System.Threading", "OSSpecificSynchronizationContext/MonoPInvokeCallbackAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::OSSpecificSynchronizationContext::MonoPInvokeCallbackAttribute::New_ctor

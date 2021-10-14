@@ -50,6 +50,7 @@ namespace UnityEngine::Timeline {
     }
   }; // UnityEngine.Timeline.MarkerTrack
 }
+NEED_NO_BOX(UnityEngine::Timeline::MarkerTrack);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::MarkerTrack*, "UnityEngine.Timeline", "MarkerTrack");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::MarkerTrack::get_outputs

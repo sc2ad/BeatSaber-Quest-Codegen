@@ -51,6 +51,7 @@ namespace OVR::OpenVR {
   }; // OVR.OpenVR.IVROverlay/OVR.OpenVR._IsDashboardVisible
   #pragma pack(pop)
 }
+NEED_NO_BOX(OVR::OpenVR::IVROverlay::_IsDashboardVisible);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVROverlay::_IsDashboardVisible*, "OVR.OpenVR", "IVROverlay/_IsDashboardVisible");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVROverlay::_IsDashboardVisible::New_ctor

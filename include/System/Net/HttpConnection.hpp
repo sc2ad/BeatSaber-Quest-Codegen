@@ -478,6 +478,7 @@ namespace System::Net {
   static check_size<sizeof(HttpConnection), 184 + sizeof(int)> __System_Net_HttpConnectionSizeCheck;
   static_assert(sizeof(HttpConnection) == 0xBC);
 }
+NEED_NO_BOX(System::Net::HttpConnection);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpConnection*, "System.Net", "HttpConnection");
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpConnection::InputState, "System.Net", "HttpConnection/InputState");
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpConnection::LineState, "System.Net", "HttpConnection/LineState");

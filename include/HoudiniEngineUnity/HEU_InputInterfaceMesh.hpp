@@ -88,6 +88,7 @@ namespace HoudiniEngineUnity {
   }; // HoudiniEngineUnity.HEU_InputInterfaceMesh
   #pragma pack(pop)
 }
+NEED_NO_BOX(HoudiniEngineUnity::HEU_InputInterfaceMesh);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_InputInterfaceMesh*, "HoudiniEngineUnity", "HEU_InputInterfaceMesh");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_InputInterfaceMesh::GetUVsFromMesh

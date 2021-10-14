@@ -81,6 +81,7 @@ namespace Oculus::Platform {
   static check_size<sizeof(UserOptions), 16 + sizeof(System::IntPtr)> __Oculus_Platform_UserOptionsSizeCheck;
   static_assert(sizeof(UserOptions) == 0x18);
 }
+NEED_NO_BOX(Oculus::Platform::UserOptions);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::UserOptions*, "Oculus.Platform", "UserOptions");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::UserOptions::SetMaxUsers

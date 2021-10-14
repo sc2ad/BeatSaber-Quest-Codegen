@@ -51,6 +51,7 @@ namespace System::Reflection {
   }; // System.Reflection.TypeFilter
   #pragma pack(pop)
 }
+NEED_NO_BOX(System::Reflection::TypeFilter);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::TypeFilter*, "System.Reflection", "TypeFilter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::TypeFilter::New_ctor

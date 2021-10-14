@@ -340,6 +340,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(NoteController), 116 + sizeof(float)> __GlobalNamespace_NoteControllerSizeCheck;
   static_assert(sizeof(NoteController) == 0x78);
 }
+NEED_NO_BOX(GlobalNamespace::NoteController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteController*, "", "NoteController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteController::get_noteDidStartJumpEvent

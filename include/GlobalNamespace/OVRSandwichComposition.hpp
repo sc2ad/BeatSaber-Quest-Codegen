@@ -30,6 +30,7 @@ namespace GlobalNamespace {
   }; // OVRSandwichComposition
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::OVRSandwichComposition);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSandwichComposition*, "", "OVRSandwichComposition");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRSandwichComposition::New_ctor

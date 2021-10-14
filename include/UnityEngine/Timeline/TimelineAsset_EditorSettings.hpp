@@ -83,6 +83,7 @@ namespace UnityEngine::Timeline {
   static check_size<sizeof(TimelineAsset::EditorSettings), 20 + sizeof(bool)> __UnityEngine_Timeline_TimelineAsset_EditorSettingsSizeCheck;
   static_assert(sizeof(TimelineAsset::EditorSettings) == 0x15);
 }
+NEED_NO_BOX(UnityEngine::Timeline::TimelineAsset::EditorSettings);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineAsset::EditorSettings*, "UnityEngine.Timeline", "TimelineAsset/EditorSettings");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineAsset::EditorSettings::get_fps

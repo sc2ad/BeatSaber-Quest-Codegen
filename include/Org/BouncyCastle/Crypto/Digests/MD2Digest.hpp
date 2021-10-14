@@ -153,6 +153,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
   static check_size<sizeof(MD2Digest), 56 + sizeof(int)> __Org_BouncyCastle_Crypto_Digests_MD2DigestSizeCheck;
   static_assert(sizeof(MD2Digest) == 0x3C);
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Digests::MD2Digest);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::MD2Digest*, "Org.BouncyCastle.Crypto.Digests", "MD2Digest");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::MD2Digest::get_AlgorithmName

@@ -176,6 +176,7 @@ namespace UnityEngine::SceneManagement {
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::SceneManagement::SceneManager);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SceneManagement::SceneManager*, "UnityEngine.SceneManagement", "SceneManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::SceneManagement::SceneManager::get_sceneCount

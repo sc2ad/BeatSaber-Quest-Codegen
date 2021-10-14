@@ -133,6 +133,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerCenterResizeController), 52 + sizeof(float)> __GlobalNamespace_MultiplayerCenterResizeControllerSizeCheck;
   static_assert(sizeof(MultiplayerCenterResizeController) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerCenterResizeController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerCenterResizeController*, "", "MultiplayerCenterResizeController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerCenterResizeController::get_isEdgeDistanceFromCenterCalculated

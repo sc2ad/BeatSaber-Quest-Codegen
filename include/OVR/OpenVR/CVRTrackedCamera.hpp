@@ -105,6 +105,7 @@ namespace OVR::OpenVR {
   static check_size<sizeof(CVRTrackedCamera), 16 + sizeof(OVR::OpenVR::IVRTrackedCamera)> __OVR_OpenVR_CVRTrackedCameraSizeCheck;
   static_assert(sizeof(CVRTrackedCamera) == 0x70);
 }
+NEED_NO_BOX(OVR::OpenVR::CVRTrackedCamera);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRTrackedCamera*, "OVR.OpenVR", "CVRTrackedCamera");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::CVRTrackedCamera::New_ctor

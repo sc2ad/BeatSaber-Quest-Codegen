@@ -125,6 +125,7 @@ namespace LiteNetLib {
   static check_size<sizeof(SequencedChannel), 72 + sizeof(int64_t)> __LiteNetLib_SequencedChannelSizeCheck;
   static_assert(sizeof(SequencedChannel) == 0x50);
 }
+NEED_NO_BOX(LiteNetLib::SequencedChannel);
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::SequencedChannel*, "LiteNetLib", "SequencedChannel");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::SequencedChannel::New_ctor

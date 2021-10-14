@@ -125,6 +125,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   static check_size<sizeof(SerializationHeaderRecord), 40 + sizeof(int)> __System_Runtime_Serialization_Formatters_Binary_SerializationHeaderRecordSizeCheck;
   static_assert(sizeof(SerializationHeaderRecord) == 0x2C);
 }
+NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord*, "System.Runtime.Serialization.Formatters.Binary", "SerializationHeaderRecord");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord::New_ctor

@@ -59,6 +59,7 @@ namespace OVR::OpenVR {
   }; // OVR.OpenVR.IVRInput/OVR.OpenVR._ShowBindingsForActionSet
   #pragma pack(pop)
 }
+NEED_NO_BOX(OVR::OpenVR::IVRInput::_ShowBindingsForActionSet);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRInput::_ShowBindingsForActionSet*, "OVR.OpenVR", "IVRInput/_ShowBindingsForActionSet");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVRInput::_ShowBindingsForActionSet::New_ctor

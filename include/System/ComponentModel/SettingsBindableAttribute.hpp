@@ -75,6 +75,7 @@ namespace System::ComponentModel {
   static check_size<sizeof(SettingsBindableAttribute), 16 + sizeof(bool)> __System_ComponentModel_SettingsBindableAttributeSizeCheck;
   static_assert(sizeof(SettingsBindableAttribute) == 0x11);
 }
+NEED_NO_BOX(System::ComponentModel::SettingsBindableAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::SettingsBindableAttribute*, "System.ComponentModel", "SettingsBindableAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ComponentModel::SettingsBindableAttribute::get_Bindable

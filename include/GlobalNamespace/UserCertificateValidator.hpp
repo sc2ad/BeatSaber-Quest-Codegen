@@ -55,6 +55,7 @@ namespace GlobalNamespace {
   }; // UserCertificateValidator
   #pragma pack(pop)
 }
+NEED_NO_BOX(GlobalNamespace::UserCertificateValidator);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UserCertificateValidator*, "", "UserCertificateValidator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::UserCertificateValidator::ValidateCertificateChain

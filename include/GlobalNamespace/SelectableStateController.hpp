@@ -180,6 +180,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SelectableStateController), 40 + sizeof(GlobalNamespace::SelectableStateController::ViewState)> __GlobalNamespace_SelectableStateControllerSizeCheck;
   static_assert(sizeof(SelectableStateController) == 0x2C);
 }
+NEED_NO_BOX(GlobalNamespace::SelectableStateController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectableStateController*, "", "SelectableStateController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectableStateController::ViewState, "", "SelectableStateController/ViewState");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

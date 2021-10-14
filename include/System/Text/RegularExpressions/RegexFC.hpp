@@ -95,6 +95,7 @@ namespace System::Text::RegularExpressions {
   static check_size<sizeof(RegexFC), 25 + sizeof(bool)> __System_Text_RegularExpressions_RegexFCSizeCheck;
   static_assert(sizeof(RegexFC) == 0x1A);
 }
+NEED_NO_BOX(System::Text::RegularExpressions::RegexFC);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexFC*, "System.Text.RegularExpressions", "RegexFC");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexFC::New_ctor

@@ -117,6 +117,7 @@ namespace System::Net::Http::Headers {
   static check_size<sizeof(TransferCodingHeaderValue), 24 + sizeof(System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue*>*)> __System_Net_Http_Headers_TransferCodingHeaderValueSizeCheck;
   static_assert(sizeof(TransferCodingHeaderValue) == 0x20);
 }
+NEED_NO_BOX(System::Net::Http::Headers::TransferCodingHeaderValue);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::TransferCodingHeaderValue*, "System.Net.Http.Headers", "TransferCodingHeaderValue");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Http::Headers::TransferCodingHeaderValue::get_Parameters

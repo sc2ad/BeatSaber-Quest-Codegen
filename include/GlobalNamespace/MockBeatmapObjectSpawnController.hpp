@@ -188,6 +188,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MockBeatmapObjectSpawnController), 56 + sizeof(System::Action*)> __GlobalNamespace_MockBeatmapObjectSpawnControllerSizeCheck;
   static_assert(sizeof(MockBeatmapObjectSpawnController) == 0x40);
 }
+NEED_NO_BOX(GlobalNamespace::MockBeatmapObjectSpawnController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockBeatmapObjectSpawnController*, "", "MockBeatmapObjectSpawnController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MockBeatmapObjectSpawnController::get_jumpOffsetY

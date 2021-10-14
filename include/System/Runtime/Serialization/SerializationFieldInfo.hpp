@@ -156,6 +156,7 @@ namespace System::Runtime::Serialization {
   static check_size<sizeof(SerializationFieldInfo), 24 + sizeof(::Il2CppString*)> __System_Runtime_Serialization_SerializationFieldInfoSizeCheck;
   static_assert(sizeof(SerializationFieldInfo) == 0x20);
 }
+NEED_NO_BOX(System::Runtime::Serialization::SerializationFieldInfo);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SerializationFieldInfo*, "System.Runtime.Serialization", "SerializationFieldInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationFieldInfo::get_FieldInfo

@@ -84,6 +84,7 @@ namespace Org::BouncyCastle::Crypto {
   }; // Org.BouncyCastle.Crypto.BufferedCipherBase
   #pragma pack(pop)
 }
+NEED_NO_BOX(Org::BouncyCastle::Crypto::BufferedCipherBase);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::BufferedCipherBase*, "Org.BouncyCastle.Crypto", "BufferedCipherBase");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::BufferedCipherBase::_cctor

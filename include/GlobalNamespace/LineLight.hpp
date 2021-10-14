@@ -111,6 +111,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LineLight), 48 + sizeof(UnityEngine::Color)> __GlobalNamespace_LineLightSizeCheck;
   static_assert(sizeof(LineLight) == 0x40);
 }
+NEED_NO_BOX(GlobalNamespace::LineLight);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LineLight*, "", "LineLight");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LineLight::get_p0

@@ -140,6 +140,7 @@ namespace System::Reflection {
   static check_size<sizeof(MonoEvent), 32 + sizeof(System::IntPtr)> __System_Reflection_MonoEventSizeCheck;
   static_assert(sizeof(MonoEvent) == 0x28);
 }
+NEED_NO_BOX(System::Reflection::MonoEvent);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoEvent*, "System.Reflection", "MonoEvent");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::MonoEvent::get_DeclaringType

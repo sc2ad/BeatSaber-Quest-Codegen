@@ -140,6 +140,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerScoreRingItem), 56 + sizeof(Tweening::Tween_1<UnityEngine::Color>*)> __GlobalNamespace_MultiplayerScoreRingItemSizeCheck;
   static_assert(sizeof(MultiplayerScoreRingItem) == 0x40);
 }
+NEED_NO_BOX(GlobalNamespace::MultiplayerScoreRingItem);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerScoreRingItem*, "", "MultiplayerScoreRingItem");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerScoreRingItem::Awake

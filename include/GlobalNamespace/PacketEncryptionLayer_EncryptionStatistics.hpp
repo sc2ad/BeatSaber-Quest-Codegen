@@ -152,6 +152,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PacketEncryptionLayer::EncryptionStatistics), 72 + sizeof(int64_t)> __GlobalNamespace_PacketEncryptionLayer_EncryptionStatisticsSizeCheck;
   static_assert(sizeof(PacketEncryptionLayer::EncryptionStatistics) == 0x50);
 }
+NEED_NO_BOX(GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics*, "", "PacketEncryptionLayer/EncryptionStatistics");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics::get_packetsReceivedPlaintext

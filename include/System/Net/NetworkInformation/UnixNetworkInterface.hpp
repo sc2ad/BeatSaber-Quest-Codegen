@@ -115,6 +115,7 @@ namespace System::Net::NetworkInformation {
   static check_size<sizeof(UnixNetworkInterface), 48 + sizeof(System::Net::NetworkInformation::NetworkInterfaceType)> __System_Net_NetworkInformation_UnixNetworkInterfaceSizeCheck;
   static_assert(sizeof(UnixNetworkInterface) == 0x34);
 }
+NEED_NO_BOX(System::Net::NetworkInformation::UnixNetworkInterface);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::UnixNetworkInterface*, "System.Net.NetworkInformation", "UnixNetworkInterface");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::NetworkInformation::UnixNetworkInterface::New_ctor

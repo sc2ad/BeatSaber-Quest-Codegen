@@ -89,6 +89,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SteamVR_Ears), 36 + sizeof(UnityEngine::Quaternion)> __GlobalNamespace_SteamVR_EarsSizeCheck;
   static_assert(sizeof(SteamVR_Ears) == 0x34);
 }
+NEED_NO_BOX(GlobalNamespace::SteamVR_Ears);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Ears*, "", "SteamVR_Ears");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Ears::OnNewPosesApplied

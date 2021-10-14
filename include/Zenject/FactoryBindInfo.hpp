@@ -104,6 +104,7 @@ namespace Zenject {
   static check_size<sizeof(FactoryBindInfo), 32 + sizeof(System::Collections::Generic::List_1<Zenject::TypeValuePair>*)> __Zenject_FactoryBindInfoSizeCheck;
   static_assert(sizeof(FactoryBindInfo) == 0x28);
 }
+NEED_NO_BOX(Zenject::FactoryBindInfo);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::FactoryBindInfo*, "Zenject", "FactoryBindInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::FactoryBindInfo::get_FactoryType

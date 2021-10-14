@@ -50,6 +50,7 @@ namespace UnityEngine {
   }; // UnityEngine.GUI/UnityEngine.WindowFunction
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::GUI::WindowFunction);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUI::WindowFunction*, "UnityEngine", "GUI/WindowFunction");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::GUI::WindowFunction::New_ctor

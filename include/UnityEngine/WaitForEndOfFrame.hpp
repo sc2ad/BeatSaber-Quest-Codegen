@@ -34,6 +34,7 @@ namespace UnityEngine {
   }; // UnityEngine.WaitForEndOfFrame
   #pragma pack(pop)
 }
+NEED_NO_BOX(UnityEngine::WaitForEndOfFrame);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::WaitForEndOfFrame*, "UnityEngine", "WaitForEndOfFrame");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::WaitForEndOfFrame::New_ctor

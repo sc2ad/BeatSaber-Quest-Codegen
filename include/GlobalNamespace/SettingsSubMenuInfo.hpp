@@ -68,6 +68,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SettingsSubMenuInfo), 24 + sizeof(::Il2CppString*)> __GlobalNamespace_SettingsSubMenuInfoSizeCheck;
   static_assert(sizeof(SettingsSubMenuInfo) == 0x20);
 }
+NEED_NO_BOX(GlobalNamespace::SettingsSubMenuInfo);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SettingsSubMenuInfo*, "", "SettingsSubMenuInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SettingsSubMenuInfo::get_viewController

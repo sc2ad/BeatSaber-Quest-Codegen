@@ -50,6 +50,7 @@ namespace NUnit::Framework::Internal {
   }; // NUnit.Framework.Internal.ExceptionHelper/NUnit.Framework.Internal.<>c
   #pragma pack(pop)
 }
+NEED_NO_BOX(NUnit::Framework::Internal::ExceptionHelper::$$c);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::ExceptionHelper::$$c*, "NUnit.Framework.Internal", "ExceptionHelper/<>c");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::ExceptionHelper::$$c::_cctor

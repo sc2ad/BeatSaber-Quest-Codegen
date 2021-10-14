@@ -96,6 +96,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(AlwaysOwnedContentContainerSO), 40 + sizeof(System::Collections::Generic::HashSet_1<::Il2CppString*>*)> __GlobalNamespace_AlwaysOwnedContentContainerSOSizeCheck;
   static_assert(sizeof(AlwaysOwnedContentContainerSO) == 0x30);
 }
+NEED_NO_BOX(GlobalNamespace::AlwaysOwnedContentContainerSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AlwaysOwnedContentContainerSO*, "", "AlwaysOwnedContentContainerSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AlwaysOwnedContentContainerSO::get_alwaysOwnedBeatmapLevelIds

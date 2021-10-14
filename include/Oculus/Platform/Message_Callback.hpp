@@ -50,6 +50,7 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.Message/Oculus.Platform.Callback
   #pragma pack(pop)
 }
+NEED_NO_BOX(Oculus::Platform::Message::Callback);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Message::Callback*, "Oculus.Platform", "Message/Callback");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Message::Callback::New_ctor

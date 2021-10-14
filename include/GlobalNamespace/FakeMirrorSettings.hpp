@@ -151,6 +151,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(FakeMirrorSettings), 52 + sizeof(float)> __GlobalNamespace_FakeMirrorSettingsSizeCheck;
   static_assert(sizeof(FakeMirrorSettings) == 0x38);
 }
+NEED_NO_BOX(GlobalNamespace::FakeMirrorSettings);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FakeMirrorSettings*, "", "FakeMirrorSettings");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FakeMirrorSettings::get_fakeMirrorTransparency

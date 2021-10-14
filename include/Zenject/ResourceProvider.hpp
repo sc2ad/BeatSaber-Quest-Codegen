@@ -99,6 +99,7 @@ namespace Zenject {
   static check_size<sizeof(ResourceProvider), 32 + sizeof(bool)> __Zenject_ResourceProviderSizeCheck;
   static_assert(sizeof(ResourceProvider) == 0x21);
 }
+NEED_NO_BOX(Zenject::ResourceProvider);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ResourceProvider*, "Zenject", "ResourceProvider");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::ResourceProvider::get_IsCached

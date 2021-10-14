@@ -169,6 +169,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   static check_size<sizeof(NameInfo), 68 + sizeof(bool)> __System_Runtime_Serialization_Formatters_Binary_NameInfoSizeCheck;
   static_assert(sizeof(NameInfo) == 0x45);
 }
+NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::NameInfo);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::NameInfo*, "System.Runtime.Serialization.Formatters.Binary", "NameInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::NameInfo::get_IsSealed

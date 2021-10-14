@@ -52,6 +52,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ScoreUIController::InitData), 16 + sizeof(GlobalNamespace::ScoreUIController::ScoreDisplayType)> __GlobalNamespace_ScoreUIController_InitDataSizeCheck;
   static_assert(sizeof(ScoreUIController::InitData) == 0x14);
 }
+NEED_NO_BOX(GlobalNamespace::ScoreUIController::InitData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScoreUIController::InitData*, "", "ScoreUIController/InitData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ScoreUIController::InitData::New_ctor
