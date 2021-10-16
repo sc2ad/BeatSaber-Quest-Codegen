@@ -19,11 +19,11 @@ LOCAL_PATH := $(call my-dir)
 TARGET_ARCH_ABI := $(APP_ABI)
 rwildcard=$(wildcard $1$2) $(foreach d,$(wildcard $1*),$(call rwildcard,$d/,$2))
 
-# Creating prebuilt for dependency: beatsaber-hook - version: 2.2.0
+# Creating prebuilt for dependency: beatsaber-hook - version: 3.3.2
 include $(CLEAR_VARS)
-LOCAL_MODULE := beatsaber-hook_2_2_0
+LOCAL_MODULE := beatsaber-hook_3_3_2
 LOCAL_EXPORT_C_INCLUDES := extern/beatsaber-hook
-LOCAL_SRC_FILES := extern/libbeatsaber-hook_2_2_0.so
+LOCAL_SRC_FILES := extern/libbeatsaber-hook_3_3_2.so
 LOCAL_CPP_FEATURES += exceptions
 include $(PREBUILT_SHARED_LIBRARY)
 # Creating prebuilt for dependency: modloader - version: 1.2.3
@@ -35,12 +35,12 @@ include $(PREBUILT_SHARED_LIBRARY)
 
 # Writing single library: il2cpp_codegen
 include $(CLEAR_VARS)
-LOCAL_MODULE := il2cpp_codegen
+LOCAL_MODULE := codegen
 LOCAL_SRC_FILES := $(call rwildcard,./src,*.cpp)
-LOCAL_SHARED_LIBRARIES += beatsaber-hook_2_2_0
+LOCAL_SHARED_LIBRARIES += beatsaber-hook_3_3_2
 LOCAL_SHARED_LIBRARIES += modloader
 LOCAL_LDLIBS += -llog
-LOCAL_CFLAGS += -DMOD_ID='"il2cpp_codegen"' -DVERSION='"0.7.0"' -DNEED_UNSAFE_CSHARP -DNO_CODEGEN_USE -isystem'./extern' -Wall -Wextra -Werror -Wno-unused-private-field -Wno-unused-function -isystem'extern/libil2cpp/il2cpp/libil2cpp' -Os -O3
+LOCAL_CFLAGS += -DMOD_ID='"il2cpp_codegen"' -DVERSION='"0.17.4"' -DNEED_UNSAFE_CSHARP -DNO_CODEGEN_USE -isystem'./extern' -Wall -Wextra -Werror -Wno-unused-private-field -Wno-unused-function -isystem'extern/libil2cpp/il2cpp/libil2cpp' -Os -O3
 LOCAL_C_INCLUDES += ./include ./extern
 LOCAL_CPP_FEATURES += exceptions
 include $(BUILD_SHARED_LIBRARY)
