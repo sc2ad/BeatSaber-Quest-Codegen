@@ -14,6 +14,13 @@ struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Runtime.InteropServices
 namespace System::Runtime::InteropServices {
+  // Forward declaring type: HandleRef
+  struct HandleRef;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::HandleRef, "System.Runtime.InteropServices", "HandleRef");
+// Type namespace: System.Runtime.InteropServices
+namespace System::Runtime::InteropServices {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -61,8 +68,6 @@ namespace System::Runtime::InteropServices {
   static check_size<sizeof(HandleRef), 8 + sizeof(System::IntPtr)> __System_Runtime_InteropServices_HandleRefSizeCheck;
   static_assert(sizeof(HandleRef) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::HandleRef, "System.Runtime.InteropServices", "HandleRef");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::InteropServices::HandleRef::get_Handle
 // Il2CppName: get_Handle

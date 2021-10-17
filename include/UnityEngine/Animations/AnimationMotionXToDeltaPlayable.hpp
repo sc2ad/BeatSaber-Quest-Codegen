@@ -24,6 +24,13 @@ namespace UnityEngine::Playables {
 // Completed forward declares
 // Type namespace: UnityEngine.Animations
 namespace UnityEngine::Animations {
+  // Forward declaring type: AnimationMotionXToDeltaPlayable
+  struct AnimationMotionXToDeltaPlayable;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationMotionXToDeltaPlayable, "UnityEngine.Animations", "AnimationMotionXToDeltaPlayable");
+// Type namespace: UnityEngine.Animations
+namespace UnityEngine::Animations {
   // Size: 0xC
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -105,8 +112,6 @@ namespace UnityEngine::Animations {
   static check_size<sizeof(AnimationMotionXToDeltaPlayable), 0 + sizeof(UnityEngine::Playables::PlayableHandle)> __UnityEngine_Animations_AnimationMotionXToDeltaPlayableSizeCheck;
   static_assert(sizeof(AnimationMotionXToDeltaPlayable) == 0xC);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationMotionXToDeltaPlayable, "UnityEngine.Animations", "AnimationMotionXToDeltaPlayable");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Animations::AnimationMotionXToDeltaPlayable::AnimationMotionXToDeltaPlayable
 // Il2CppName: .ctor

@@ -9,6 +9,13 @@
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: RangeInt
+  struct RangeInt;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RangeInt, "UnityEngine", "RangeInt");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -55,8 +62,6 @@ namespace UnityEngine {
   static check_size<sizeof(RangeInt), 4 + sizeof(int)> __UnityEngine_RangeIntSizeCheck;
   static_assert(sizeof(RangeInt) == 0x8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RangeInt, "UnityEngine", "RangeInt");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::RangeInt::get_end
 // Il2CppName: get_end

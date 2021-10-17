@@ -19,6 +19,13 @@ struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: Zenject
 namespace Zenject {
+  // Forward declaring type: TypeValuePair
+  struct TypeValuePair;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Zenject::TypeValuePair, "Zenject", "TypeValuePair");
+// Type namespace: Zenject
+namespace Zenject {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -63,8 +70,6 @@ namespace Zenject {
   static check_size<sizeof(TypeValuePair), 8 + sizeof(::Il2CppObject*)> __Zenject_TypeValuePairSizeCheck;
   static_assert(sizeof(TypeValuePair) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Zenject::TypeValuePair, "Zenject", "TypeValuePair");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::TypeValuePair::TypeValuePair
 // Il2CppName: .ctor

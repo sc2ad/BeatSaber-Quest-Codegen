@@ -27,6 +27,15 @@ namespace System {
 // Completed forward declares
 // Type namespace: System.Runtime.CompilerServices
 namespace System::Runtime::CompilerServices {
+  // Forward declaring type: ConfiguredTaskAwaitable
+  struct ConfiguredTaskAwaitable;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::ConfiguredTaskAwaitable, "System.Runtime.CompilerServices", "ConfiguredTaskAwaitable");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter, "System.Runtime.CompilerServices", "ConfiguredTaskAwaitable/ConfiguredTaskAwaiter");
+// Type namespace: System.Runtime.CompilerServices
+namespace System::Runtime::CompilerServices {
   // Size: 0x9
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -36,6 +45,13 @@ namespace System::Runtime::CompilerServices {
     public:
     // Nested type: System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter
     struct ConfiguredTaskAwaiter;
+    // Type namespace: System.Runtime.CompilerServices
+    namespace System::Runtime::CompilerServices {
+      // Forward declaring type: ConfiguredTaskAwaiter
+      struct ConfiguredTaskAwaiter;
+    }
+    #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+    DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter, "System.Runtime.CompilerServices", "ConfiguredTaskAwaitable/ConfiguredTaskAwaiter");
     // Size: 0x9
     #pragma pack(push, 1)
     // WARNING Layout: Sequential may not be correctly taken into account!
@@ -129,9 +145,6 @@ namespace System::Runtime::CompilerServices {
   static check_size<sizeof(ConfiguredTaskAwaitable), 0 + sizeof(System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter)> __System_Runtime_CompilerServices_ConfiguredTaskAwaitableSizeCheck;
   static_assert(sizeof(ConfiguredTaskAwaitable) == 0x9);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::ConfiguredTaskAwaitable, "System.Runtime.CompilerServices", "ConfiguredTaskAwaitable");
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter, "System.Runtime.CompilerServices", "ConfiguredTaskAwaitable/ConfiguredTaskAwaiter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaitable
 // Il2CppName: .ctor

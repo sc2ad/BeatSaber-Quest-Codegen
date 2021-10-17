@@ -17,6 +17,13 @@ namespace LeaderboardsDTO {
 // Completed forward declares
 // Type namespace: LeaderboardsDTO
 namespace LeaderboardsDTO {
+  // Forward declaring type: LeaderboardEntriesDTO
+  struct LeaderboardEntriesDTO;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(LeaderboardsDTO::LeaderboardEntriesDTO, "LeaderboardsDTO", "LeaderboardEntriesDTO");
+// Type namespace: LeaderboardsDTO
+namespace LeaderboardsDTO {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -53,6 +60,4 @@ namespace LeaderboardsDTO {
   static check_size<sizeof(LeaderboardEntriesDTO), 0 + sizeof(::ArrayW<LeaderboardsDTO::LeaderboardEntryDTO*>)> __LeaderboardsDTO_LeaderboardEntriesDTOSizeCheck;
   static_assert(sizeof(LeaderboardEntriesDTO) == 0x8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(LeaderboardsDTO::LeaderboardEntriesDTO, "LeaderboardsDTO", "LeaderboardEntriesDTO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

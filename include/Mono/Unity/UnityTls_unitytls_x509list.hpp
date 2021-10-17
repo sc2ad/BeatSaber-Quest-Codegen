@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: Mono.Unity
 namespace Mono::Unity {
+  // Forward declaring type: unitytls_x509list
+  struct unitytls_x509list;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTls::unitytls_x509list, "Mono.Unity", "UnityTls/unitytls_x509list");
+// Type namespace: Mono.Unity
+namespace Mono::Unity {
   // Size: 0x0
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -28,6 +35,4 @@ namespace Mono::Unity {
   }; // Mono.Unity.UnityTls/Mono.Unity.unitytls_x509list
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTls::unitytls_x509list, "Mono.Unity", "UnityTls/unitytls_x509list");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

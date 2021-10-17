@@ -21,6 +21,13 @@ namespace System {
 // Completed forward declares
 // Type namespace: System
 namespace System {
+  // Forward declaring type: VersionResult
+  struct VersionResult;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Version::VersionResult, "System", "Version/VersionResult");
+// Type namespace: System
+namespace System {
   // Size: 0x21
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -99,8 +106,6 @@ namespace System {
   static check_size<sizeof(Version::VersionResult), 32 + sizeof(bool)> __System_Version_VersionResultSizeCheck;
   static_assert(sizeof(Version::VersionResult) == 0x21);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Version::VersionResult, "System", "Version/VersionResult");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Version::VersionResult::Init
 // Il2CppName: Init

@@ -11,6 +11,13 @@
 // Completed includes
 // Type namespace: Mono.Net
 namespace Mono::Net {
+  // Forward declaring type: CFRange
+  struct CFRange;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFRange, "Mono.Net", "CFRange");
+// Type namespace: Mono.Net
+namespace Mono::Net {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -54,8 +61,6 @@ namespace Mono::Net {
   static check_size<sizeof(CFRange), 8 + sizeof(System::IntPtr)> __Mono_Net_CFRangeSizeCheck;
   static_assert(sizeof(CFRange) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFRange, "Mono.Net", "CFRange");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Net::CFRange::CFRange
 // Il2CppName: .ctor

@@ -14,6 +14,13 @@ struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.TextCore.LowLevel
 namespace UnityEngine::TextCore::LowLevel {
+  // Forward declaring type: GlyphValueRecord
+  struct GlyphValueRecord;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::LowLevel::GlyphValueRecord, "UnityEngine.TextCore.LowLevel", "GlyphValueRecord");
+// Type namespace: UnityEngine.TextCore.LowLevel
+namespace UnityEngine::TextCore::LowLevel {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -104,8 +111,6 @@ namespace UnityEngine::TextCore::LowLevel {
   static check_size<sizeof(GlyphValueRecord), 12 + sizeof(float)> __UnityEngine_TextCore_LowLevel_GlyphValueRecordSizeCheck;
   static_assert(sizeof(GlyphValueRecord) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::LowLevel::GlyphValueRecord, "UnityEngine.TextCore.LowLevel", "GlyphValueRecord");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TextCore::LowLevel::GlyphValueRecord::get_xPlacement
 // Il2CppName: get_xPlacement

@@ -19,6 +19,13 @@ namespace System::Threading {
 // Completed forward declares
 // Type namespace: System.Threading
 namespace System::Threading {
+  // Forward declaring type: CancellationCallbackCoreWorkArguments
+  struct CancellationCallbackCoreWorkArguments;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::CancellationCallbackCoreWorkArguments, "System.Threading", "CancellationCallbackCoreWorkArguments");
+// Type namespace: System.Threading
+namespace System::Threading {
   // Size: 0xC
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -62,8 +69,6 @@ namespace System::Threading {
   static check_size<sizeof(CancellationCallbackCoreWorkArguments), 8 + sizeof(int)> __System_Threading_CancellationCallbackCoreWorkArgumentsSizeCheck;
   static_assert(sizeof(CancellationCallbackCoreWorkArguments) == 0xC);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::CancellationCallbackCoreWorkArguments, "System.Threading", "CancellationCallbackCoreWorkArguments");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::CancellationCallbackCoreWorkArguments::CancellationCallbackCoreWorkArguments
 // Il2CppName: .ctor

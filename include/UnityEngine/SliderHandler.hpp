@@ -24,6 +24,13 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: SliderHandler
+  struct SliderHandler;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SliderHandler, "UnityEngine", "SliderHandler");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x40
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -214,8 +221,6 @@ namespace UnityEngine {
   static check_size<sizeof(SliderHandler), 60 + sizeof(int)> __UnityEngine_SliderHandlerSizeCheck;
   static_assert(sizeof(SliderHandler) == 0x40);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SliderHandler, "UnityEngine", "SliderHandler");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::SliderHandler::SliderHandler
 // Il2CppName: .ctor

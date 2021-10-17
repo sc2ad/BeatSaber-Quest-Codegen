@@ -10,6 +10,13 @@
 // Completed includes
 // Type namespace: System.Reflection
 namespace System::Reflection {
+  // Forward declaring type: ParameterModifier
+  struct ParameterModifier;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::ParameterModifier, "System.Reflection", "ParameterModifier");
+// Type namespace: System.Reflection
+namespace System::Reflection {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -48,6 +55,4 @@ namespace System::Reflection {
   static check_size<sizeof(ParameterModifier), 0 + sizeof(::ArrayW<bool>)> __System_Reflection_ParameterModifierSizeCheck;
   static_assert(sizeof(ParameterModifier) == 0x8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::ParameterModifier, "System.Reflection", "ParameterModifier");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

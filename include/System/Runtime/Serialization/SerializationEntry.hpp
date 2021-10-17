@@ -20,6 +20,13 @@ struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Runtime.Serialization
 namespace System::Runtime::Serialization {
+  // Forward declaring type: SerializationEntry
+  struct SerializationEntry;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SerializationEntry, "System.Runtime.Serialization", "SerializationEntry");
+// Type namespace: System.Runtime.Serialization
+namespace System::Runtime::Serialization {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -78,8 +85,6 @@ namespace System::Runtime::Serialization {
   static check_size<sizeof(SerializationEntry), 16 + sizeof(::Il2CppString*)> __System_Runtime_Serialization_SerializationEntrySizeCheck;
   static_assert(sizeof(SerializationEntry) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SerializationEntry, "System.Runtime.Serialization", "SerializationEntry");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationEntry::get_Value
 // Il2CppName: get_Value

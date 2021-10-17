@@ -22,6 +22,13 @@
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
+  // Forward declaring type: CreateServerFormData
+  struct CreateServerFormData;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CreateServerFormData, "", "CreateServerFormData");
+// Type namespace: 
+namespace GlobalNamespace {
   // Size: 0x3C
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -140,6 +147,4 @@ namespace GlobalNamespace {
   static check_size<sizeof(CreateServerFormData), 56 + sizeof(GlobalNamespace::GameplayServerControlSettings)> __GlobalNamespace_CreateServerFormDataSizeCheck;
   static_assert(sizeof(CreateServerFormData) == 0x3C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CreateServerFormData, "", "CreateServerFormData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

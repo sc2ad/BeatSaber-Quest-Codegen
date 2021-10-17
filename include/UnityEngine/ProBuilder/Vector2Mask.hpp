@@ -21,6 +21,13 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {
+  // Forward declaring type: Vector2Mask
+  struct Vector2Mask;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Vector2Mask, "UnityEngine.ProBuilder", "Vector2Mask");
+// Type namespace: UnityEngine.ProBuilder
+namespace UnityEngine::ProBuilder {
   // Size: 0x1
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -100,8 +107,6 @@ namespace UnityEngine::ProBuilder {
   // Offset: 0x24DA0D4
   UnityEngine::Vector2 operator*(const UnityEngine::ProBuilder::Vector2Mask& mask, const float& value);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Vector2Mask, "UnityEngine.ProBuilder", "Vector2Mask");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Vector2Mask::get_x
 // Il2CppName: get_x

@@ -21,6 +21,13 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: Bounds
+  struct Bounds;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bounds, "UnityEngine", "Bounds");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -148,8 +155,6 @@ namespace UnityEngine {
   // Offset: 0x1C91718
   bool operator !=(const UnityEngine::Bounds& lhs, const UnityEngine::Bounds& rhs);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bounds, "UnityEngine", "Bounds");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Bounds::get_center
 // Il2CppName: get_center

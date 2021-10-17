@@ -23,6 +23,14 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: GUIStyleState
+  class GUIStyleState;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::GUIStyleState);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUIStyleState*, "UnityEngine", "GUIStyleState");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x20
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -94,8 +102,6 @@ namespace UnityEngine {
   static check_size<sizeof(GUIStyleState), 24 + sizeof(UnityEngine::GUIStyle*)> __UnityEngine_GUIStyleStateSizeCheck;
   static_assert(sizeof(GUIStyleState) == 0x20);
 }
-NEED_NO_BOX(UnityEngine::GUIStyleState);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUIStyleState*, "UnityEngine", "GUIStyleState");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::GUIStyleState::set_textColor
 // Il2CppName: set_textColor

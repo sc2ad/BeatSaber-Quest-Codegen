@@ -14,6 +14,13 @@ struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Net.NetworkInformation.MacOsStructs
 namespace System::Net::NetworkInformation::MacOsStructs {
+  // Forward declaring type: ifaddrs
+  struct ifaddrs;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::MacOsStructs::ifaddrs, "System.Net.NetworkInformation.MacOsStructs", "ifaddrs");
+// Type namespace: System.Net.NetworkInformation.MacOsStructs
+namespace System::Net::NetworkInformation::MacOsStructs {
   // Size: 0x38
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -96,6 +103,4 @@ namespace System::Net::NetworkInformation::MacOsStructs {
   static check_size<sizeof(ifaddrs), 48 + sizeof(System::IntPtr)> __System_Net_NetworkInformation_MacOsStructs_ifaddrsSizeCheck;
   static_assert(sizeof(ifaddrs) == 0x38);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::MacOsStructs::ifaddrs, "System.Net.NetworkInformation.MacOsStructs", "ifaddrs");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -14,6 +14,13 @@
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: TreeInstance
+  struct TreeInstance;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TreeInstance, "UnityEngine", "TreeInstance");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x28
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -103,6 +110,4 @@ namespace UnityEngine {
   static check_size<sizeof(TreeInstance), 36 + sizeof(float)> __UnityEngine_TreeInstanceSizeCheck;
   static_assert(sizeof(TreeInstance) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TreeInstance, "UnityEngine", "TreeInstance");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

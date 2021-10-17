@@ -21,6 +21,13 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: MinMaxCurve
+  struct MinMaxCurve;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::MinMaxCurve, "UnityEngine", "ParticleSystem/MinMaxCurve");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x20
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -109,8 +116,6 @@ namespace UnityEngine {
   static check_size<sizeof(ParticleSystem::MinMaxCurve), 28 + sizeof(float)> __UnityEngine_ParticleSystem_MinMaxCurveSizeCheck;
   static_assert(sizeof(ParticleSystem::MinMaxCurve) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::MinMaxCurve, "UnityEngine", "ParticleSystem/MinMaxCurve");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::MinMaxCurve::set_constantMax
 // Il2CppName: set_constantMax

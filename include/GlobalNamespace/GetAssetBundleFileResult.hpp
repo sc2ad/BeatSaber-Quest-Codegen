@@ -12,6 +12,13 @@ struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: 
 namespace GlobalNamespace {
+  // Forward declaring type: GetAssetBundleFileResult
+  struct GetAssetBundleFileResult;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GetAssetBundleFileResult, "", "GetAssetBundleFileResult");
+// Type namespace: 
+namespace GlobalNamespace {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -57,8 +64,6 @@ namespace GlobalNamespace {
   static check_size<sizeof(GetAssetBundleFileResult), 8 + sizeof(::Il2CppString*)> __GlobalNamespace_GetAssetBundleFileResultSizeCheck;
   static_assert(sizeof(GetAssetBundleFileResult) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GetAssetBundleFileResult, "", "GetAssetBundleFileResult");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GetAssetBundleFileResult::GetAssetBundleFileResult
 // Il2CppName: .ctor

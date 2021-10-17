@@ -15,6 +15,14 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: CullingGroup
+  class CullingGroup;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::CullingGroup);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CullingGroup*, "UnityEngine", "CullingGroup");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x20
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -55,9 +63,6 @@ namespace UnityEngine {
   static check_size<sizeof(CullingGroup), 24 + sizeof(UnityEngine::CullingGroup::StateChanged*)> __UnityEngine_CullingGroupSizeCheck;
   static_assert(sizeof(CullingGroup) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::CullingGroup);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CullingGroup*, "UnityEngine", "CullingGroup");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::CullingGroup::SendEvents
 // Il2CppName: SendEvents

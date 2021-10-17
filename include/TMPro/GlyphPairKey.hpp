@@ -17,6 +17,13 @@ namespace TMPro {
 // Completed forward declares
 // Type namespace: TMPro
 namespace TMPro {
+  // Forward declaring type: GlyphPairKey
+  struct GlyphPairKey;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::GlyphPairKey, "TMPro", "GlyphPairKey");
+// Type namespace: TMPro
+namespace TMPro {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -71,8 +78,6 @@ namespace TMPro {
   static check_size<sizeof(GlyphPairKey), 8 + sizeof(int64_t)> __TMPro_GlyphPairKeySizeCheck;
   static_assert(sizeof(GlyphPairKey) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(TMPro::GlyphPairKey, "TMPro", "GlyphPairKey");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::GlyphPairKey::GlyphPairKey
 // Il2CppName: .ctor

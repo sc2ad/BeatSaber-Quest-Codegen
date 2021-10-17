@@ -24,6 +24,13 @@ struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: Rect
+  struct Rect;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rect, "UnityEngine", "Rect");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -217,8 +224,6 @@ namespace UnityEngine {
   // Offset: 0x1DE8054
   bool operator ==(const UnityEngine::Rect& lhs, const UnityEngine::Rect& rhs);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rect, "UnityEngine", "Rect");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Rect::get_zero
 // Il2CppName: get_zero

@@ -16,6 +16,13 @@
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: Pose
+  struct Pose;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Pose, "UnityEngine", "Pose");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x1C
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -91,8 +98,6 @@ namespace UnityEngine {
   static check_size<sizeof(Pose), 12 + sizeof(UnityEngine::Quaternion)> __UnityEngine_PoseSizeCheck;
   static_assert(sizeof(Pose) == 0x1C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Pose, "UnityEngine", "Pose");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Pose::get_forward
 // Il2CppName: get_forward

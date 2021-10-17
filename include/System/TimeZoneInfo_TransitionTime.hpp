@@ -31,6 +31,13 @@ namespace System::Runtime::Serialization {
 // Completed forward declares
 // Type namespace: System
 namespace System {
+  // Forward declaring type: TransitionTime
+  struct TransitionTime;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::TimeZoneInfo::TransitionTime, "System", "TimeZoneInfo/TransitionTime");
+// Type namespace: System
+namespace System {
   // Size: 0x11
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -173,8 +180,6 @@ namespace System {
   // Offset: 0x19B2F20
   bool operator !=(const System::TimeZoneInfo::TransitionTime& t1, const System::TimeZoneInfo::TransitionTime& t2);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::TimeZoneInfo::TransitionTime, "System", "TimeZoneInfo/TransitionTime");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::TimeZoneInfo::TransitionTime::get_TimeOfDay
 // Il2CppName: get_TimeOfDay

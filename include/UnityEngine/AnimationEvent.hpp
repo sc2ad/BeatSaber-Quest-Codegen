@@ -27,6 +27,14 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: AnimationEvent
+  class AnimationEvent;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::AnimationEvent);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimationEvent*, "UnityEngine", "AnimationEvent");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x74
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -145,8 +153,6 @@ namespace UnityEngine {
   static check_size<sizeof(AnimationEvent), 108 + sizeof(UnityEngine::AnimatorClipInfo)> __UnityEngine_AnimationEventSizeCheck;
   static_assert(sizeof(AnimationEvent) == 0x74);
 }
-NEED_NO_BOX(UnityEngine::AnimationEvent);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimationEvent*, "UnityEngine", "AnimationEvent");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AnimationEvent::New_ctor
 // Il2CppName: .ctor

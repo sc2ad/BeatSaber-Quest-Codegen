@@ -11,6 +11,13 @@
 // Completed includes
 // Type namespace: UnityEngine.PlayerLoop
 namespace UnityEngine::PlayerLoop {
+  // Forward declaring type: PresentAfterDraw
+  struct PresentAfterDraw;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PlayerLoop::PostLateUpdate::PresentAfterDraw, "UnityEngine.PlayerLoop", "PostLateUpdate/PresentAfterDraw");
+// Type namespace: UnityEngine.PlayerLoop
+namespace UnityEngine::PlayerLoop {
   // Size: 0x0
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -28,6 +35,4 @@ namespace UnityEngine::PlayerLoop {
   }; // UnityEngine.PlayerLoop.PostLateUpdate/UnityEngine.PlayerLoop.PresentAfterDraw
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PlayerLoop::PostLateUpdate::PresentAfterDraw, "UnityEngine.PlayerLoop", "PostLateUpdate/PresentAfterDraw");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

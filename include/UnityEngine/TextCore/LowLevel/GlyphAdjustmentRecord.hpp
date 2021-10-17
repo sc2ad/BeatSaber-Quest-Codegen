@@ -11,6 +11,13 @@
 // Completed includes
 // Type namespace: UnityEngine.TextCore.LowLevel
 namespace UnityEngine::TextCore::LowLevel {
+  // Forward declaring type: GlyphAdjustmentRecord
+  struct GlyphAdjustmentRecord;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord, "UnityEngine.TextCore.LowLevel", "GlyphAdjustmentRecord");
+// Type namespace: UnityEngine.TextCore.LowLevel
+namespace UnityEngine::TextCore::LowLevel {
   // Size: 0x14
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -60,8 +67,6 @@ namespace UnityEngine::TextCore::LowLevel {
   static check_size<sizeof(GlyphAdjustmentRecord), 4 + sizeof(UnityEngine::TextCore::LowLevel::GlyphValueRecord)> __UnityEngine_TextCore_LowLevel_GlyphAdjustmentRecordSizeCheck;
   static_assert(sizeof(GlyphAdjustmentRecord) == 0x14);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord, "UnityEngine.TextCore.LowLevel", "GlyphAdjustmentRecord");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord::get_glyphIndex
 // Il2CppName: get_glyphIndex

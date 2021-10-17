@@ -27,6 +27,13 @@ struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {
+  // Forward declaring type: Triangle
+  struct Triangle;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Triangle, "UnityEngine.ProBuilder", "Triangle");
+// Type namespace: UnityEngine.ProBuilder
+namespace UnityEngine::ProBuilder {
   // Size: 0xC
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -113,8 +120,6 @@ namespace UnityEngine::ProBuilder {
   static check_size<sizeof(Triangle), 8 + sizeof(int)> __UnityEngine_ProBuilder_TriangleSizeCheck;
   static_assert(sizeof(Triangle) == 0xC);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Triangle, "UnityEngine.ProBuilder", "Triangle");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Triangle::get_a
 // Il2CppName: get_a

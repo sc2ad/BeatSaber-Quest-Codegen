@@ -14,6 +14,13 @@
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
+  // Forward declaring type: Frustum
+  struct Frustum;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRTracker::Frustum, "", "OVRTracker/Frustum");
+// Type namespace: 
+namespace GlobalNamespace {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -62,6 +69,4 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRTracker::Frustum), 8 + sizeof(UnityEngine::Vector2)> __GlobalNamespace_OVRTracker_FrustumSizeCheck;
   static_assert(sizeof(OVRTracker::Frustum) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRTracker::Frustum, "", "OVRTracker/Frustum");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -8,6 +8,12 @@
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
+namespace System::Net::NetworkInformation {
+  // Forward declaring type: AlignmentUnion
+  struct AlignmentUnion;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::AlignmentUnion, "System.Net.NetworkInformation", "AlignmentUnion");
 // Type namespace: System.Net.NetworkInformation
 namespace System::Net::NetworkInformation {
   // Size: 0x8
@@ -66,6 +72,4 @@ namespace System::Net::NetworkInformation {
   static check_size<sizeof(AlignmentUnion), 4 + sizeof(int)> __System_Net_NetworkInformation_AlignmentUnionSizeCheck;
   static_assert(sizeof(AlignmentUnion) == 0x8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::AlignmentUnion, "System.Net.NetworkInformation", "AlignmentUnion");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -30,6 +30,13 @@ namespace Valve::VR {
 // Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
+  // Forward declaring type: RigidTransform
+  struct RigidTransform;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Utils::RigidTransform, "", "SteamVR_Utils/RigidTransform");
+// Type namespace: 
+namespace GlobalNamespace {
   // Size: 0x1C
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -140,8 +147,6 @@ namespace GlobalNamespace {
   // Offset: 0x1869720
   UnityEngine::Vector3 operator*(const GlobalNamespace::SteamVR_Utils::RigidTransform& t, const UnityEngine::Vector3& v);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Utils::RigidTransform, "", "SteamVR_Utils/RigidTransform");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Utils::RigidTransform::get_identity
 // Il2CppName: get_identity

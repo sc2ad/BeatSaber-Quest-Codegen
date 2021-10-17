@@ -14,6 +14,13 @@
 // Completed includes
 // Type namespace: UnityEngine.TextCore.LowLevel
 namespace UnityEngine::TextCore::LowLevel {
+  // Forward declaring type: GlyphPairAdjustmentRecord
+  struct GlyphPairAdjustmentRecord;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord, "UnityEngine.TextCore.LowLevel", "GlyphPairAdjustmentRecord");
+// Type namespace: UnityEngine.TextCore.LowLevel
+namespace UnityEngine::TextCore::LowLevel {
   // Size: 0x2C
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -72,8 +79,6 @@ namespace UnityEngine::TextCore::LowLevel {
   static check_size<sizeof(GlyphPairAdjustmentRecord), 40 + sizeof(UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags)> __UnityEngine_TextCore_LowLevel_GlyphPairAdjustmentRecordSizeCheck;
   static_assert(sizeof(GlyphPairAdjustmentRecord) == 0x2C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord, "UnityEngine.TextCore.LowLevel", "GlyphPairAdjustmentRecord");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::get_firstAdjustmentRecord
 // Il2CppName: get_firstAdjustmentRecord

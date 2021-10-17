@@ -14,6 +14,13 @@ namespace Valve::VR {
 // Completed forward declares
 // Type namespace: Valve.VR
 namespace Valve::VR {
+  // Forward declaring type: IVRScreenshots
+  struct IVRScreenshots;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRScreenshots, "Valve.VR", "IVRScreenshots");
+// Type namespace: Valve.VR
+namespace Valve::VR {
   // Size: 0x38
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -108,6 +115,4 @@ namespace Valve::VR {
   static check_size<sizeof(IVRScreenshots), 48 + sizeof(Valve::VR::IVRScreenshots::_SubmitScreenshot*)> __Valve_VR_IVRScreenshotsSizeCheck;
   static_assert(sizeof(IVRScreenshots) == 0x38);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRScreenshots, "Valve.VR", "IVRScreenshots");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

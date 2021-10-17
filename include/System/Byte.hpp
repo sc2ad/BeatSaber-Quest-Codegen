@@ -42,6 +42,13 @@ namespace System {
 // Completed forward declares
 // Type namespace: System
 namespace System {
+  // Forward declaring type: Byte
+  struct Byte;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Byte, "System", "Byte");
+// Type namespace: System
+namespace System {
   // Size: 0x1
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -210,8 +217,6 @@ namespace System {
   static check_size<sizeof(Byte), 0 + sizeof(uint8_t)> __System_ByteSizeCheck;
   static_assert(sizeof(Byte) == 0x1);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Byte, "System", "Byte");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Byte::CompareTo
 // Il2CppName: CompareTo

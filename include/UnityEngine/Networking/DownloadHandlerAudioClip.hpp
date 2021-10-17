@@ -33,6 +33,14 @@ namespace UnityEngine::Networking {
 // Completed forward declares
 // Type namespace: UnityEngine.Networking
 namespace UnityEngine::Networking {
+  // Forward declaring type: DownloadHandlerAudioClip
+  class DownloadHandlerAudioClip;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::Networking::DownloadHandlerAudioClip);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::DownloadHandlerAudioClip*, "UnityEngine.Networking", "DownloadHandlerAudioClip");
+// Type namespace: UnityEngine.Networking
+namespace UnityEngine::Networking {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -76,8 +84,6 @@ namespace UnityEngine::Networking {
   }; // UnityEngine.Networking.DownloadHandlerAudioClip
   #pragma pack(pop)
 }
-NEED_NO_BOX(UnityEngine::Networking::DownloadHandlerAudioClip);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::DownloadHandlerAudioClip*, "UnityEngine.Networking", "DownloadHandlerAudioClip");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandlerAudioClip::get_audioClip
 // Il2CppName: get_audioClip

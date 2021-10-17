@@ -30,6 +30,14 @@ namespace System::Threading {
 // Completed forward declares
 // Type namespace: System
 namespace System {
+  // Forward declaring type: IOSelectorJob
+  class IOSelectorJob;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::IOSelectorJob);
+DEFINE_IL2CPP_ARG_TYPE(System::IOSelectorJob*, "System", "IOSelectorJob");
+// Type namespace: System
+namespace System {
   // Size: 0x28
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -94,8 +102,6 @@ namespace System {
   static check_size<sizeof(IOSelectorJob), 32 + sizeof(System::IOAsyncResult*)> __System_IOSelectorJobSizeCheck;
   static_assert(sizeof(IOSelectorJob) == 0x28);
 }
-NEED_NO_BOX(System::IOSelectorJob);
-DEFINE_IL2CPP_ARG_TYPE(System::IOSelectorJob*, "System", "IOSelectorJob");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IOSelectorJob::New_ctor
 // Il2CppName: .ctor

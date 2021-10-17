@@ -16,6 +16,13 @@
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
+  // Forward declaring type: BoundaryTestResult
+  struct BoundaryTestResult;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::BoundaryTestResult, "", "OVRPlugin/BoundaryTestResult");
+// Type namespace: 
+namespace GlobalNamespace {
   // Size: 0x20
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -72,6 +79,4 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRPlugin::BoundaryTestResult), 20 + sizeof(GlobalNamespace::OVRPlugin::Vector3f)> __GlobalNamespace_OVRPlugin_BoundaryTestResultSizeCheck;
   static_assert(sizeof(OVRPlugin::BoundaryTestResult) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::BoundaryTestResult, "", "OVRPlugin/BoundaryTestResult");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

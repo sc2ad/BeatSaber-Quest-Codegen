@@ -14,6 +14,13 @@
 // Completed includes
 // Type namespace: System
 namespace System {
+  // Forward declaring type: ConsoleScreenBufferInfo
+  struct ConsoleScreenBufferInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::ConsoleScreenBufferInfo, "System", "ConsoleScreenBufferInfo");
+// Type namespace: System
+namespace System {
   // Size: 0x16
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -78,6 +85,4 @@ namespace System {
   static check_size<sizeof(ConsoleScreenBufferInfo), 18 + sizeof(System::Coord)> __System_ConsoleScreenBufferInfoSizeCheck;
   static_assert(sizeof(ConsoleScreenBufferInfo) == 0x16);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::ConsoleScreenBufferInfo, "System", "ConsoleScreenBufferInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

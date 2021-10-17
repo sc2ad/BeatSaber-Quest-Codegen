@@ -16,6 +16,13 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine.Experimental.GlobalIllumination
 namespace UnityEngine::Experimental::GlobalIllumination {
+  // Forward declaring type: LinearColor
+  struct LinearColor;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::LinearColor, "UnityEngine.Experimental.GlobalIllumination", "LinearColor");
+// Type namespace: UnityEngine.Experimental.GlobalIllumination
+namespace UnityEngine::Experimental::GlobalIllumination {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -78,8 +85,6 @@ namespace UnityEngine::Experimental::GlobalIllumination {
   static check_size<sizeof(LinearColor), 12 + sizeof(float)> __UnityEngine_Experimental_GlobalIllumination_LinearColorSizeCheck;
   static_assert(sizeof(LinearColor) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::LinearColor, "UnityEngine.Experimental.GlobalIllumination", "LinearColor");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Experimental::GlobalIllumination::LinearColor::Convert
 // Il2CppName: Convert

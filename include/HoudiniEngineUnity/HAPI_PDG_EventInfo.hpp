@@ -9,6 +9,13 @@
 // Completed includes
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
+  // Forward declaring type: HAPI_PDG_EventInfo
+  struct HAPI_PDG_EventInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_PDG_EventInfo, "HoudiniEngineUnity", "HAPI_PDG_EventInfo");
+// Type namespace: HoudiniEngineUnity
+namespace HoudiniEngineUnity {
   // Size: 0x1C
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -89,6 +96,4 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HAPI_PDG_EventInfo), 24 + sizeof(int)> __HoudiniEngineUnity_HAPI_PDG_EventInfoSizeCheck;
   static_assert(sizeof(HAPI_PDG_EventInfo) == 0x1C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_PDG_EventInfo, "HoudiniEngineUnity", "HAPI_PDG_EventInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

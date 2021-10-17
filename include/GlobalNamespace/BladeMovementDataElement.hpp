@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
+  // Forward declaring type: BladeMovementDataElement
+  struct BladeMovementDataElement;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BladeMovementDataElement, "", "BladeMovementDataElement");
+// Type namespace: 
+namespace GlobalNamespace {
   // Size: 0x2C
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -76,6 +83,4 @@ namespace GlobalNamespace {
   static check_size<sizeof(BladeMovementDataElement), 32 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_BladeMovementDataElementSizeCheck;
   static_assert(sizeof(BladeMovementDataElement) == 0x2C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BladeMovementDataElement, "", "BladeMovementDataElement");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

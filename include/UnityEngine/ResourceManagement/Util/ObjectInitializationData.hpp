@@ -30,6 +30,13 @@ struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.ResourceManagement.Util
 namespace UnityEngine::ResourceManagement::Util {
+  // Forward declaring type: ObjectInitializationData
+  struct ObjectInitializationData;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Util::ObjectInitializationData, "UnityEngine.ResourceManagement.Util", "ObjectInitializationData");
+// Type namespace: UnityEngine.ResourceManagement.Util
+namespace UnityEngine::ResourceManagement::Util {
   // Size: 0x30
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -109,7 +116,6 @@ namespace UnityEngine::ResourceManagement::Util {
   static check_size<sizeof(ObjectInitializationData), 40 + sizeof(::Il2CppString*)> __UnityEngine_ResourceManagement_Util_ObjectInitializationDataSizeCheck;
   static_assert(sizeof(ObjectInitializationData) == 0x30);
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Util::ObjectInitializationData, "UnityEngine.ResourceManagement.Util", "ObjectInitializationData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::ObjectInitializationData::get_Id
 // Il2CppName: get_Id

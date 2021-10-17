@@ -13,6 +13,13 @@
 // Completed includes
 // Type namespace: System.Net.NetworkInformation
 namespace System::Net::NetworkInformation {
+  // Forward declaring type: Win32_MIB_IFROW
+  struct Win32_MIB_IFROW;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32_MIB_IFROW, "System.Net.NetworkInformation", "Win32_MIB_IFROW");
+// Type namespace: System.Net.NetworkInformation
+namespace System::Net::NetworkInformation {
   // Size: 0x70
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -231,6 +238,4 @@ namespace System::Net::NetworkInformation {
   static check_size<sizeof(Win32_MIB_IFROW), 104 + sizeof(::ArrayW<uint8_t>)> __System_Net_NetworkInformation_Win32_MIB_IFROWSizeCheck;
   static_assert(sizeof(Win32_MIB_IFROW) == 0x70);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32_MIB_IFROW, "System.Net.NetworkInformation", "Win32_MIB_IFROW");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

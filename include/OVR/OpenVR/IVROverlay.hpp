@@ -14,6 +14,13 @@ namespace OVR::OpenVR {
 // Completed forward declares
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
+  // Forward declaring type: IVROverlay
+  struct IVROverlay;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVROverlay, "OVR.OpenVR", "IVROverlay");
+// Type namespace: OVR.OpenVR
+namespace OVR::OpenVR {
   // Size: 0x290
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -858,6 +865,4 @@ namespace OVR::OpenVR {
   static check_size<sizeof(IVROverlay), 648 + sizeof(OVR::OpenVR::IVROverlay::_CloseMessageOverlay*)> __OVR_OpenVR_IVROverlaySizeCheck;
   static_assert(sizeof(IVROverlay) == 0x290);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVROverlay, "OVR.OpenVR", "IVROverlay");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

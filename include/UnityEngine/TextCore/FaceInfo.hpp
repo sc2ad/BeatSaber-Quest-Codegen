@@ -12,6 +12,13 @@ struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.TextCore
 namespace UnityEngine::TextCore {
+  // Forward declaring type: FaceInfo
+  struct FaceInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::FaceInfo, "UnityEngine.TextCore", "FaceInfo");
+// Type namespace: UnityEngine.TextCore
+namespace UnityEngine::TextCore {
   // Size: 0x5C
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -321,8 +328,6 @@ namespace UnityEngine::TextCore {
   static check_size<sizeof(FaceInfo), 88 + sizeof(float)> __UnityEngine_TextCore_FaceInfoSizeCheck;
   static_assert(sizeof(FaceInfo) == 0x5C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::FaceInfo, "UnityEngine.TextCore", "FaceInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TextCore::FaceInfo::set_familyName
 // Il2CppName: set_familyName

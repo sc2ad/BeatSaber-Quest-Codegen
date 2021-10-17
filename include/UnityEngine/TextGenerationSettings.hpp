@@ -29,6 +29,13 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: TextGenerationSettings
+  struct TextGenerationSettings;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextGenerationSettings, "UnityEngine", "TextGenerationSettings");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x59
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -212,8 +219,6 @@ namespace UnityEngine {
   static check_size<sizeof(TextGenerationSettings), 88 + sizeof(bool)> __UnityEngine_TextGenerationSettingsSizeCheck;
   static_assert(sizeof(TextGenerationSettings) == 0x59);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextGenerationSettings, "UnityEngine", "TextGenerationSettings");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TextGenerationSettings::CompareColors
 // Il2CppName: CompareColors

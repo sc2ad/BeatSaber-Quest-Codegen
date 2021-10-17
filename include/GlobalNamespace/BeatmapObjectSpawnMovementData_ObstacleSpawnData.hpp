@@ -14,6 +14,13 @@
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
+  // Forward declaring type: ObstacleSpawnData
+  struct ObstacleSpawnData;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectSpawnMovementData::ObstacleSpawnData, "", "BeatmapObjectSpawnMovementData/ObstacleSpawnData");
+// Type namespace: 
+namespace GlobalNamespace {
   // Size: 0x34
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -97,8 +104,6 @@ namespace GlobalNamespace {
   static check_size<sizeof(BeatmapObjectSpawnMovementData::ObstacleSpawnData), 48 + sizeof(float)> __GlobalNamespace_BeatmapObjectSpawnMovementData_ObstacleSpawnDataSizeCheck;
   static_assert(sizeof(BeatmapObjectSpawnMovementData::ObstacleSpawnData) == 0x34);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectSpawnMovementData::ObstacleSpawnData, "", "BeatmapObjectSpawnMovementData/ObstacleSpawnData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnMovementData::ObstacleSpawnData::ObstacleSpawnData
 // Il2CppName: .ctor

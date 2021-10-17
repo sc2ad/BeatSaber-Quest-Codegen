@@ -19,6 +19,14 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: GUIContent
+  class GUIContent;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::GUIContent);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUIContent*, "UnityEngine", "GUIContent");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x28
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -136,8 +144,6 @@ namespace UnityEngine {
   static check_size<sizeof(GUIContent), 32 + sizeof(::Il2CppString*)> __UnityEngine_GUIContentSizeCheck;
   static_assert(sizeof(GUIContent) == 0x28);
 }
-NEED_NO_BOX(UnityEngine::GUIContent);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUIContent*, "UnityEngine", "GUIContent");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::GUIContent::get_text
 // Il2CppName: get_text

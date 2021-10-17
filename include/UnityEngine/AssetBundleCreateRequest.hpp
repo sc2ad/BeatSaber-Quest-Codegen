@@ -21,6 +21,14 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: AssetBundleCreateRequest
+  class AssetBundleCreateRequest;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::AssetBundleCreateRequest);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AssetBundleCreateRequest*, "UnityEngine", "AssetBundleCreateRequest");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x20
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -47,8 +55,6 @@ namespace UnityEngine {
   }; // UnityEngine.AssetBundleCreateRequest
   #pragma pack(pop)
 }
-NEED_NO_BOX(UnityEngine::AssetBundleCreateRequest);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AssetBundleCreateRequest*, "UnityEngine", "AssetBundleCreateRequest");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AssetBundleCreateRequest::get_assetBundle
 // Il2CppName: get_assetBundle

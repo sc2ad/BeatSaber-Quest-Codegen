@@ -11,6 +11,13 @@
 // Completed includes
 // Type namespace: Valve.VR
 namespace Valve::VR {
+  // Forward declaring type: D3D12TextureData_t
+  struct D3D12TextureData_t;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::D3D12TextureData_t, "Valve.VR", "D3D12TextureData_t");
+// Type namespace: Valve.VR
+namespace Valve::VR {
   // Size: 0x14
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -59,6 +66,4 @@ namespace Valve::VR {
   static check_size<sizeof(D3D12TextureData_t), 16 + sizeof(uint)> __Valve_VR_D3D12TextureData_tSizeCheck;
   static_assert(sizeof(D3D12TextureData_t) == 0x14);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::D3D12TextureData_t, "Valve.VR", "D3D12TextureData_t");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

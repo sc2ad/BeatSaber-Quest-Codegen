@@ -32,6 +32,13 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
+  // Forward declaring type: PoseSerializable
+  struct PoseSerializable;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PoseSerializable, "", "PoseSerializable");
+// Type namespace: 
+namespace GlobalNamespace {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -119,8 +126,6 @@ namespace GlobalNamespace {
   // Offset: 0x2557E68
   GlobalNamespace::PoseSerializable operator-(const GlobalNamespace::PoseSerializable& a, const GlobalNamespace::PoseSerializable& b);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PoseSerializable, "", "PoseSerializable");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PoseSerializable::get_identity
 // Il2CppName: get_identity

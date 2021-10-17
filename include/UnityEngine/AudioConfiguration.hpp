@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: AudioConfiguration
+  struct AudioConfiguration;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AudioConfiguration, "UnityEngine", "AudioConfiguration");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x14
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -76,6 +83,4 @@ namespace UnityEngine {
   static check_size<sizeof(AudioConfiguration), 16 + sizeof(int)> __UnityEngine_AudioConfigurationSizeCheck;
   static_assert(sizeof(AudioConfiguration) == 0x14);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AudioConfiguration, "UnityEngine", "AudioConfiguration");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

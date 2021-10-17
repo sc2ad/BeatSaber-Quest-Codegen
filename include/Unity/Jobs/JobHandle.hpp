@@ -11,6 +11,13 @@
 // Completed includes
 // Type namespace: Unity.Jobs
 namespace Unity::Jobs {
+  // Forward declaring type: JobHandle
+  struct JobHandle;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Unity::Jobs::JobHandle, "Unity.Jobs", "JobHandle");
+// Type namespace: Unity.Jobs
+namespace Unity::Jobs {
   // Size: 0xC
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -55,8 +62,6 @@ namespace Unity::Jobs {
   static check_size<sizeof(JobHandle), 8 + sizeof(int)> __Unity_Jobs_JobHandleSizeCheck;
   static_assert(sizeof(JobHandle) == 0xC);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Unity::Jobs::JobHandle, "Unity.Jobs", "JobHandle");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Unity::Jobs::JobHandle::ScheduleBatchedJobs
 // Il2CppName: ScheduleBatchedJobs

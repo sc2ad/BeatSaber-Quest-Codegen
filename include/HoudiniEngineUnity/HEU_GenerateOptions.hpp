@@ -9,6 +9,13 @@
 // Completed includes
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
+  // Forward declaring type: HEU_GenerateOptions
+  struct HEU_GenerateOptions;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_GenerateOptions, "HoudiniEngineUnity", "HEU_GenerateOptions");
+// Type namespace: HoudiniEngineUnity
+namespace HoudiniEngineUnity {
   // Size: 0x5
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -73,6 +80,4 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_GenerateOptions), 4 + sizeof(bool)> __HoudiniEngineUnity_HEU_GenerateOptionsSizeCheck;
   static_assert(sizeof(HEU_GenerateOptions) == 0x5);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_GenerateOptions, "HoudiniEngineUnity", "HEU_GenerateOptions");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

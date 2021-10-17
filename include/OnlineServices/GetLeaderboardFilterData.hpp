@@ -21,6 +21,13 @@ namespace GlobalNamespace {
 // Completed forward declares
 // Type namespace: OnlineServices
 namespace OnlineServices {
+  // Forward declaring type: GetLeaderboardFilterData
+  struct GetLeaderboardFilterData;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OnlineServices::GetLeaderboardFilterData, "OnlineServices", "GetLeaderboardFilterData");
+// Type namespace: OnlineServices
+namespace OnlineServices {
   // Size: 0x20
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -91,8 +98,6 @@ namespace OnlineServices {
   static check_size<sizeof(GetLeaderboardFilterData), 24 + sizeof(GlobalNamespace::GameplayModifiers*)> __OnlineServices_GetLeaderboardFilterDataSizeCheck;
   static_assert(sizeof(GetLeaderboardFilterData) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OnlineServices::GetLeaderboardFilterData, "OnlineServices", "GetLeaderboardFilterData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OnlineServices::GetLeaderboardFilterData::GetLeaderboardFilterData
 // Il2CppName: .ctor

@@ -21,6 +21,13 @@ namespace UnityEngine::TextCore::LowLevel {
 // Completed forward declares
 // Type namespace: TMPro
 namespace TMPro {
+  // Forward declaring type: TMP_GlyphValueRecord
+  struct TMP_GlyphValueRecord;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_GlyphValueRecord, "TMPro", "TMP_GlyphValueRecord");
+// Type namespace: TMPro
+namespace TMPro {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -113,8 +120,6 @@ namespace TMPro {
   // Offset: 0x11F7BEC
   TMPro::TMP_GlyphValueRecord operator+(const TMPro::TMP_GlyphValueRecord& a, const TMPro::TMP_GlyphValueRecord& b);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_GlyphValueRecord, "TMPro", "TMP_GlyphValueRecord");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_GlyphValueRecord::get_xPlacement
 // Il2CppName: get_xPlacement

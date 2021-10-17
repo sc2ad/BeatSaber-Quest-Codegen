@@ -38,6 +38,14 @@ namespace System::Runtime::InteropServices {
 // Completed forward declares
 // Type namespace: System.Threading
 namespace System::Threading {
+  // Forward declaring type: WaitHandle
+  class WaitHandle;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Threading::WaitHandle);
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::WaitHandle*, "System.Threading", "WaitHandle");
+// Type namespace: System.Threading
+namespace System::Threading {
   // Size: 0x29
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -212,8 +220,6 @@ namespace System::Threading {
   static check_size<sizeof(WaitHandle), 40 + sizeof(bool)> __System_Threading_WaitHandleSizeCheck;
   static_assert(sizeof(WaitHandle) == 0x29);
 }
-NEED_NO_BOX(System::Threading::WaitHandle);
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::WaitHandle*, "System.Threading", "WaitHandle");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::WaitHandle::set_Handle
 // Il2CppName: set_Handle

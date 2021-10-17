@@ -50,6 +50,13 @@ namespace System::Globalization {
 // Completed forward declares
 // Type namespace: System
 namespace System {
+  // Forward declaring type: Decimal
+  struct Decimal;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Decimal, "System", "Decimal");
+// Type namespace: System
+namespace System {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -413,8 +420,6 @@ namespace System {
   // Offset: 0x1CDB2B8
   bool operator >(const System::Decimal& d1, const System::Decimal& d2);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Decimal, "System", "Decimal");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Decimal::Decimal
 // Il2CppName: .ctor

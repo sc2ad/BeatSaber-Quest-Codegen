@@ -20,6 +20,13 @@ struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: Color32
+  struct Color32;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Color32, "UnityEngine", "Color32");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x4
   #pragma pack(push, 1)
   // WARNING Layout: Explicit may not be correctly taken into account!
@@ -94,8 +101,6 @@ namespace UnityEngine {
   static check_size<sizeof(Color32), 3 + sizeof(uint8_t)> __UnityEngine_Color32SizeCheck;
   static_assert(sizeof(Color32) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Color32, "UnityEngine", "Color32");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Color32::Color32
 // Il2CppName: .ctor

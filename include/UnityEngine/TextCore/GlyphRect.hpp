@@ -14,6 +14,13 @@ struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.TextCore
 namespace UnityEngine::TextCore {
+  // Forward declaring type: GlyphRect
+  struct GlyphRect;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::GlyphRect, "UnityEngine.TextCore", "GlyphRect");
+// Type namespace: UnityEngine.TextCore
+namespace UnityEngine::TextCore {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -117,8 +124,6 @@ namespace UnityEngine::TextCore {
   static check_size<sizeof(GlyphRect), 12 + sizeof(int)> __UnityEngine_TextCore_GlyphRectSizeCheck;
   static_assert(sizeof(GlyphRect) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::GlyphRect, "UnityEngine.TextCore", "GlyphRect");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TextCore::GlyphRect::get_x
 // Il2CppName: get_x

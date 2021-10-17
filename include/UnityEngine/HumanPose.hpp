@@ -15,6 +15,13 @@
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: HumanPose
+  struct HumanPose;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::HumanPose, "UnityEngine", "HumanPose");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x28
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -68,8 +75,6 @@ namespace UnityEngine {
   static check_size<sizeof(HumanPose), 32 + sizeof(::ArrayW<float>)> __UnityEngine_HumanPoseSizeCheck;
   static_assert(sizeof(HumanPose) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::HumanPose, "UnityEngine", "HumanPose");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::HumanPose::Init
 // Il2CppName: Init

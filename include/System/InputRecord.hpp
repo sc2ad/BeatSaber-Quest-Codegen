@@ -10,6 +10,13 @@
 // Completed includes
 // Type namespace: System
 namespace System {
+  // Forward declaring type: InputRecord
+  struct InputRecord;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::InputRecord, "System", "InputRecord");
+// Type namespace: System
+namespace System {
   // Size: 0x15
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -108,6 +115,4 @@ namespace System {
   static check_size<sizeof(InputRecord), 20 + sizeof(bool)> __System_InputRecordSizeCheck;
   static_assert(sizeof(InputRecord) == 0x15);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::InputRecord, "System", "InputRecord");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: Mono.Globalization.Unicode
 namespace Mono::Globalization::Unicode {
+  // Forward declaring type: Escape
+  struct Escape;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::SimpleCollator::Escape, "Mono.Globalization.Unicode", "SimpleCollator/Escape");
+// Type namespace: Mono.Globalization.Unicode
+namespace Mono::Globalization::Unicode {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -76,6 +83,4 @@ namespace Mono::Globalization::Unicode {
   static check_size<sizeof(SimpleCollator::Escape), 20 + sizeof(int)> __Mono_Globalization_Unicode_SimpleCollator_EscapeSizeCheck;
   static_assert(sizeof(SimpleCollator::Escape) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::SimpleCollator::Escape, "Mono.Globalization.Unicode", "SimpleCollator/Escape");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

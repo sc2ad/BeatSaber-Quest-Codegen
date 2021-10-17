@@ -18,6 +18,13 @@ namespace UnityEngine::TextCore::LowLevel {
 // Completed forward declares
 // Type namespace: TMPro
 namespace TMPro {
+  // Forward declaring type: TMP_GlyphAdjustmentRecord
+  struct TMP_GlyphAdjustmentRecord;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_GlyphAdjustmentRecord, "TMPro", "TMP_GlyphAdjustmentRecord");
+// Type namespace: TMPro
+namespace TMPro {
   // Size: 0x14
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -76,8 +83,6 @@ namespace TMPro {
   static check_size<sizeof(TMP_GlyphAdjustmentRecord), 4 + sizeof(TMPro::TMP_GlyphValueRecord)> __TMPro_TMP_GlyphAdjustmentRecordSizeCheck;
   static_assert(sizeof(TMP_GlyphAdjustmentRecord) == 0x14);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_GlyphAdjustmentRecord, "TMPro", "TMP_GlyphAdjustmentRecord");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_GlyphAdjustmentRecord::get_glyphIndex
 // Il2CppName: get_glyphIndex

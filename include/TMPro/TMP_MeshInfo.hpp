@@ -39,6 +39,13 @@ namespace System::Collections::Generic {
 // Completed forward declares
 // Type namespace: TMPro
 namespace TMPro {
+  // Forward declaring type: TMP_MeshInfo
+  struct TMP_MeshInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_MeshInfo, "TMPro", "TMP_MeshInfo");
+// Type namespace: TMPro
+namespace TMPro {
   // Size: 0x48
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -192,8 +199,6 @@ namespace TMPro {
   static check_size<sizeof(TMP_MeshInfo), 64 + sizeof(::ArrayW<int>)> __TMPro_TMP_MeshInfoSizeCheck;
   static_assert(sizeof(TMP_MeshInfo) == 0x48);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_MeshInfo, "TMPro", "TMP_MeshInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_MeshInfo::TMP_MeshInfo
 // Il2CppName: .ctor

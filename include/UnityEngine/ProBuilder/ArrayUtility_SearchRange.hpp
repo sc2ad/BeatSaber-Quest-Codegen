@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {
+  // Forward declaring type: SearchRange
+  struct SearchRange;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ArrayUtility::SearchRange, "UnityEngine.ProBuilder", "ArrayUtility/SearchRange");
+// Type namespace: UnityEngine.ProBuilder
+namespace UnityEngine::ProBuilder {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -66,8 +73,6 @@ namespace UnityEngine::ProBuilder {
   static check_size<sizeof(ArrayUtility::SearchRange), 4 + sizeof(int)> __UnityEngine_ProBuilder_ArrayUtility_SearchRangeSizeCheck;
   static_assert(sizeof(ArrayUtility::SearchRange) == 0x8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ArrayUtility::SearchRange, "UnityEngine.ProBuilder", "ArrayUtility/SearchRange");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ArrayUtility::SearchRange::SearchRange
 // Il2CppName: .ctor

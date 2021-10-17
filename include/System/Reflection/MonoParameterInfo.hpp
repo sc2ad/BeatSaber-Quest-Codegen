@@ -28,6 +28,14 @@ namespace System {
 // Completed forward declares
 // Type namespace: System.Reflection
 namespace System::Reflection {
+  // Forward declaring type: MonoParameterInfo
+  class MonoParameterInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Reflection::MonoParameterInfo);
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoParameterInfo*, "System.Reflection", "MonoParameterInfo");
+// Type namespace: System.Reflection
+namespace System::Reflection {
   // Size: 0x40
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -63,8 +71,6 @@ namespace System::Reflection {
   }; // System.Reflection.MonoParameterInfo
   #pragma pack(pop)
 }
-NEED_NO_BOX(System::Reflection::MonoParameterInfo);
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoParameterInfo*, "System.Reflection", "MonoParameterInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::MonoParameterInfo::New_ctor
 // Il2CppName: .ctor

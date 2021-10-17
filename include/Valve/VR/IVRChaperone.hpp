@@ -14,6 +14,13 @@ namespace Valve::VR {
 // Completed forward declares
 // Type namespace: Valve.VR
 namespace Valve::VR {
+  // Forward declaring type: IVRChaperone
+  struct IVRChaperone;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRChaperone, "Valve.VR", "IVRChaperone");
+// Type namespace: Valve.VR
+namespace Valve::VR {
   // Size: 0x40
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -118,6 +125,4 @@ namespace Valve::VR {
   static check_size<sizeof(IVRChaperone), 56 + sizeof(Valve::VR::IVRChaperone::_ForceBoundsVisible*)> __Valve_VR_IVRChaperoneSizeCheck;
   static_assert(sizeof(IVRChaperone) == 0x40);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRChaperone, "Valve.VR", "IVRChaperone");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

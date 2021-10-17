@@ -14,6 +14,13 @@ namespace OVR::OpenVR {
 // Completed forward declares
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
+  // Forward declaring type: IVRResources
+  struct IVRResources;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRResources, "OVR.OpenVR", "IVRResources");
+// Type namespace: OVR.OpenVR
+namespace OVR::OpenVR {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -58,6 +65,4 @@ namespace OVR::OpenVR {
   static check_size<sizeof(IVRResources), 8 + sizeof(OVR::OpenVR::IVRResources::_GetResourceFullPath*)> __OVR_OpenVR_IVRResourcesSizeCheck;
   static_assert(sizeof(IVRResources) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRResources, "OVR.OpenVR", "IVRResources");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

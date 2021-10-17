@@ -9,6 +9,13 @@
 // Completed includes
 // Type namespace: Valve.VR
 namespace Valve::VR {
+  // Forward declaring type: DistortionCoordinates_t
+  struct DistortionCoordinates_t;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::DistortionCoordinates_t, "Valve.VR", "DistortionCoordinates_t");
+// Type namespace: Valve.VR
+namespace Valve::VR {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -81,6 +88,4 @@ namespace Valve::VR {
   static check_size<sizeof(DistortionCoordinates_t), 20 + sizeof(float)> __Valve_VR_DistortionCoordinates_tSizeCheck;
   static_assert(sizeof(DistortionCoordinates_t) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::DistortionCoordinates_t, "Valve.VR", "DistortionCoordinates_t");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

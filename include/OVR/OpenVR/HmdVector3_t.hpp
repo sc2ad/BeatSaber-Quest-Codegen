@@ -9,6 +9,13 @@
 // Completed includes
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
+  // Forward declaring type: HmdVector3_t
+  struct HmdVector3_t;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::HmdVector3_t, "OVR.OpenVR", "HmdVector3_t");
+// Type namespace: OVR.OpenVR
+namespace OVR::OpenVR {
   // Size: 0xC
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -57,6 +64,4 @@ namespace OVR::OpenVR {
   static check_size<sizeof(HmdVector3_t), 8 + sizeof(float)> __OVR_OpenVR_HmdVector3_tSizeCheck;
   static_assert(sizeof(HmdVector3_t) == 0xC);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::HmdVector3_t, "OVR.OpenVR", "HmdVector3_t");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

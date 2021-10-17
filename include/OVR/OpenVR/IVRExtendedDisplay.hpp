@@ -14,6 +14,13 @@ namespace OVR::OpenVR {
 // Completed forward declares
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
+  // Forward declaring type: IVRExtendedDisplay
+  struct IVRExtendedDisplay;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRExtendedDisplay, "OVR.OpenVR", "IVRExtendedDisplay");
+// Type namespace: OVR.OpenVR
+namespace OVR::OpenVR {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -68,6 +75,4 @@ namespace OVR::OpenVR {
   static check_size<sizeof(IVRExtendedDisplay), 16 + sizeof(OVR::OpenVR::IVRExtendedDisplay::_GetDXGIOutputInfo*)> __OVR_OpenVR_IVRExtendedDisplaySizeCheck;
   static_assert(sizeof(IVRExtendedDisplay) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRExtendedDisplay, "OVR.OpenVR", "IVRExtendedDisplay");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

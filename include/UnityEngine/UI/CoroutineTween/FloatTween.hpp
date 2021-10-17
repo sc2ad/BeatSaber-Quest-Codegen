@@ -22,6 +22,13 @@ namespace UnityEngine::Events {
 // Completed forward declares
 // Type namespace: UnityEngine.UI.CoroutineTween
 namespace UnityEngine::UI::CoroutineTween {
+  // Forward declaring type: FloatTween
+  struct FloatTween;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CoroutineTween::FloatTween, "UnityEngine.UI.CoroutineTween", "FloatTween");
+// Type namespace: UnityEngine.UI.CoroutineTween
+namespace UnityEngine::UI::CoroutineTween {
   // Size: 0x15
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -131,8 +138,6 @@ namespace UnityEngine::UI::CoroutineTween {
   static check_size<sizeof(FloatTween), 20 + sizeof(bool)> __UnityEngine_UI_CoroutineTween_FloatTweenSizeCheck;
   static_assert(sizeof(FloatTween) == 0x15);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CoroutineTween::FloatTween, "UnityEngine.UI.CoroutineTween", "FloatTween");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::CoroutineTween::FloatTween::get_startValue
 // Il2CppName: get_startValue

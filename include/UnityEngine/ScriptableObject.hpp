@@ -21,6 +21,14 @@ namespace System {
 // Completed forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: ScriptableObject
+  class ScriptableObject;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::ScriptableObject);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ScriptableObject*, "UnityEngine", "ScriptableObject");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -64,8 +72,6 @@ namespace UnityEngine {
   }; // UnityEngine.ScriptableObject
   #pragma pack(pop)
 }
-NEED_NO_BOX(UnityEngine::ScriptableObject);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ScriptableObject*, "UnityEngine", "ScriptableObject");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ScriptableObject::CreateInstance
 // Il2CppName: CreateInstance

@@ -22,6 +22,13 @@ struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: System
 namespace System {
+  // Forward declaring type: TypedReference
+  struct TypedReference;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::TypedReference, "System", "TypedReference");
+// Type namespace: System
+namespace System {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -94,8 +101,6 @@ namespace System {
   static check_size<sizeof(TypedReference), 16 + sizeof(System::IntPtr)> __System_TypedReferenceSizeCheck;
   static_assert(sizeof(TypedReference) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::TypedReference, "System", "TypedReference");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::TypedReference::get_IsNull
 // Il2CppName: get_IsNull

@@ -19,6 +19,13 @@ namespace UnityEngine::ProBuilder {
 // Completed forward declares
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {
+  // Forward declaring type: VertexPickerEntry
+  struct VertexPickerEntry;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::VertexPickerEntry, "UnityEngine.ProBuilder", "VertexPickerEntry");
+// Type namespace: UnityEngine.ProBuilder
+namespace UnityEngine::ProBuilder {
   // Size: 0x1C
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -75,6 +82,4 @@ namespace UnityEngine::ProBuilder {
   static check_size<sizeof(VertexPickerEntry), 16 + sizeof(UnityEngine::Vector3)> __UnityEngine_ProBuilder_VertexPickerEntrySizeCheck;
   static_assert(sizeof(VertexPickerEntry) == 0x1C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::VertexPickerEntry, "UnityEngine.ProBuilder", "VertexPickerEntry");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -16,6 +16,13 @@ struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.XR
 namespace UnityEngine::XR {
+  // Forward declaring type: MeshId
+  struct MeshId;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::MeshId, "UnityEngine.XR", "MeshId");
+// Type namespace: UnityEngine.XR
+namespace UnityEngine::XR {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -87,8 +94,6 @@ namespace UnityEngine::XR {
   static check_size<sizeof(MeshId), 8 + sizeof(uint64_t)> __UnityEngine_XR_MeshIdSizeCheck;
   static_assert(sizeof(MeshId) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::MeshId, "UnityEngine.XR", "MeshId");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::XR::MeshId::_cctor
 // Il2CppName: .cctor

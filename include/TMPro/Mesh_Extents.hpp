@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: TMPro
 namespace TMPro {
+  // Forward declaring type: Mesh_Extents
+  struct Mesh_Extents;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::Mesh_Extents, "TMPro", "Mesh_Extents");
+// Type namespace: TMPro
+namespace TMPro {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -60,8 +67,6 @@ namespace TMPro {
   static check_size<sizeof(Mesh_Extents), 8 + sizeof(UnityEngine::Vector2)> __TMPro_Mesh_ExtentsSizeCheck;
   static_assert(sizeof(Mesh_Extents) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(TMPro::Mesh_Extents, "TMPro", "Mesh_Extents");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::Mesh_Extents::Mesh_Extents
 // Il2CppName: .ctor

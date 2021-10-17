@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: Mono.Globalization.Unicode
 namespace Mono::Globalization::Unicode {
+  // Forward declaring type: PreviousInfo
+  struct PreviousInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::SimpleCollator::PreviousInfo, "Mono.Globalization.Unicode", "SimpleCollator/PreviousInfo");
+// Type namespace: Mono.Globalization.Unicode
+namespace Mono::Globalization::Unicode {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -57,8 +64,6 @@ namespace Mono::Globalization::Unicode {
   static check_size<sizeof(SimpleCollator::PreviousInfo), 8 + sizeof(uint8_t*)> __Mono_Globalization_Unicode_SimpleCollator_PreviousInfoSizeCheck;
   static_assert(sizeof(SimpleCollator::PreviousInfo) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::SimpleCollator::PreviousInfo, "Mono.Globalization.Unicode", "SimpleCollator/PreviousInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::PreviousInfo::PreviousInfo
 // Il2CppName: .ctor

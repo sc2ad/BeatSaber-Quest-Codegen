@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
+  // Forward declaring type: LatencyData
+  struct LatencyData;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRDisplay::LatencyData, "", "OVRDisplay/LatencyData");
+// Type namespace: 
+namespace GlobalNamespace {
   // Size: 0x14
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -76,6 +83,4 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRDisplay::LatencyData), 16 + sizeof(float)> __GlobalNamespace_OVRDisplay_LatencyDataSizeCheck;
   static_assert(sizeof(OVRDisplay::LatencyData) == 0x14);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRDisplay::LatencyData, "", "OVRDisplay/LatencyData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

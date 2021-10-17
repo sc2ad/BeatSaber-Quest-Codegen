@@ -29,6 +29,13 @@ namespace LiteNetLib::Utils {
 // Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
+  // Forward declaring type: NodePoseSyncState
+  struct NodePoseSyncState;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NodePoseSyncState, "", "NodePoseSyncState");
+// Type namespace: 
+namespace GlobalNamespace {
   // Size: 0x48
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -122,8 +129,6 @@ namespace GlobalNamespace {
   static check_size<sizeof(NodePoseSyncState), 48 + sizeof(GlobalNamespace::PoseSerializable)> __GlobalNamespace_NodePoseSyncStateSizeCheck;
   static_assert(sizeof(NodePoseSyncState) == 0x48);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NodePoseSyncState, "", "NodePoseSyncState");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NodePoseSyncState::Serialize
 // Il2CppName: Serialize

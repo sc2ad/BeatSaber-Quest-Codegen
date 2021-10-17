@@ -9,6 +9,13 @@
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: AnimatorStateInfo
+  struct AnimatorStateInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimatorStateInfo, "UnityEngine", "AnimatorStateInfo");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x24
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -110,8 +117,6 @@ namespace UnityEngine {
   static check_size<sizeof(AnimatorStateInfo), 32 + sizeof(int)> __UnityEngine_AnimatorStateInfoSizeCheck;
   static_assert(sizeof(AnimatorStateInfo) == 0x24);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimatorStateInfo, "UnityEngine", "AnimatorStateInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AnimatorStateInfo::get_normalizedTime
 // Il2CppName: get_normalizedTime

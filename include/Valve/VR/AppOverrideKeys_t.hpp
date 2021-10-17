@@ -11,6 +11,13 @@
 // Completed includes
 // Type namespace: Valve.VR
 namespace Valve::VR {
+  // Forward declaring type: AppOverrideKeys_t
+  struct AppOverrideKeys_t;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::AppOverrideKeys_t, "Valve.VR", "AppOverrideKeys_t");
+// Type namespace: Valve.VR
+namespace Valve::VR {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -51,6 +58,4 @@ namespace Valve::VR {
   static check_size<sizeof(AppOverrideKeys_t), 8 + sizeof(System::IntPtr)> __Valve_VR_AppOverrideKeys_tSizeCheck;
   static_assert(sizeof(AppOverrideKeys_t) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::AppOverrideKeys_t, "Valve.VR", "AppOverrideKeys_t");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

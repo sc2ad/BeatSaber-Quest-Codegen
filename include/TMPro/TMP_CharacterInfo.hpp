@@ -32,6 +32,13 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: TMPro
 namespace TMPro {
+  // Forward declaring type: TMP_CharacterInfo
+  struct TMP_CharacterInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_CharacterInfo, "TMPro", "TMP_CharacterInfo");
+// Type namespace: TMPro
+namespace TMPro {
   // Size: 0x151
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -350,6 +357,4 @@ namespace TMPro {
   static check_size<sizeof(TMP_CharacterInfo), 336 + sizeof(bool)> __TMPro_TMP_CharacterInfoSizeCheck;
   static_assert(sizeof(TMP_CharacterInfo) == 0x151);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_CharacterInfo, "TMPro", "TMP_CharacterInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

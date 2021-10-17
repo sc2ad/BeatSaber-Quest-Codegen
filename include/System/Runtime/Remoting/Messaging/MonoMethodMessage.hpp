@@ -58,6 +58,14 @@ namespace System::Collections {
 // Completed forward declares
 // Type namespace: System.Runtime.Remoting.Messaging
 namespace System::Runtime::Remoting::Messaging {
+  // Forward declaring type: MonoMethodMessage
+  class MonoMethodMessage;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Runtime::Remoting::Messaging::MonoMethodMessage);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::MonoMethodMessage*, "System.Runtime.Remoting.Messaging", "MonoMethodMessage");
+// Type namespace: System.Runtime.Remoting.Messaging
+namespace System::Runtime::Remoting::Messaging {
   // Size: 0x78
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -295,8 +303,6 @@ namespace System::Runtime::Remoting::Messaging {
   static check_size<sizeof(MonoMethodMessage), 112 + sizeof(System::Runtime::Remoting::Identity*)> __System_Runtime_Remoting_Messaging_MonoMethodMessageSizeCheck;
   static_assert(sizeof(MonoMethodMessage) == 0x78);
 }
-NEED_NO_BOX(System::Runtime::Remoting::Messaging::MonoMethodMessage);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::MonoMethodMessage*, "System.Runtime.Remoting.Messaging", "MonoMethodMessage");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::MonoMethodMessage::get_Properties
 // Il2CppName: get_Properties

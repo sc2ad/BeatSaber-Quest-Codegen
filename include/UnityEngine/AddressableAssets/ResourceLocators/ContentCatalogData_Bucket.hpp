@@ -13,6 +13,13 @@
 // Completed includes
 // Type namespace: UnityEngine.AddressableAssets.ResourceLocators
 namespace UnityEngine::AddressableAssets::ResourceLocators {
+  // Forward declaring type: Bucket
+  struct Bucket;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::Bucket, "UnityEngine.AddressableAssets.ResourceLocators", "ContentCatalogData/Bucket");
+// Type namespace: UnityEngine.AddressableAssets.ResourceLocators
+namespace UnityEngine::AddressableAssets::ResourceLocators {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -55,6 +62,4 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
   static check_size<sizeof(ContentCatalogData::Bucket), 8 + sizeof(::ArrayW<int>)> __UnityEngine_AddressableAssets_ResourceLocators_ContentCatalogData_BucketSizeCheck;
   static_assert(sizeof(ContentCatalogData::Bucket) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::Bucket, "UnityEngine.AddressableAssets.ResourceLocators", "ContentCatalogData/Bucket");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

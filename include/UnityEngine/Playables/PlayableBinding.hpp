@@ -32,6 +32,13 @@ struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.Playables
 namespace UnityEngine::Playables {
+  // Forward declaring type: PlayableBinding
+  struct PlayableBinding;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableBinding, "UnityEngine.Playables", "PlayableBinding");
+// Type namespace: UnityEngine.Playables
+namespace UnityEngine::Playables {
   // Size: 0x20
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -113,8 +120,6 @@ namespace UnityEngine::Playables {
   static check_size<sizeof(PlayableBinding), 24 + sizeof(UnityEngine::Playables::PlayableBinding::CreateOutputMethod*)> __UnityEngine_Playables_PlayableBindingSizeCheck;
   static_assert(sizeof(PlayableBinding) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableBinding, "UnityEngine.Playables", "PlayableBinding");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableBinding::get_streamName
 // Il2CppName: get_streamName

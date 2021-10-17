@@ -20,6 +20,14 @@
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: AnimationCurve
+  class AnimationCurve;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::AnimationCurve);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimationCurve*, "UnityEngine", "AnimationCurve");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -127,8 +135,6 @@ namespace UnityEngine {
   static check_size<sizeof(AnimationCurve), 16 + sizeof(System::IntPtr)> __UnityEngine_AnimationCurveSizeCheck;
   static_assert(sizeof(AnimationCurve) == 0x18);
 }
-NEED_NO_BOX(UnityEngine::AnimationCurve);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimationCurve*, "UnityEngine", "AnimationCurve");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AnimationCurve::get_keys
 // Il2CppName: get_keys

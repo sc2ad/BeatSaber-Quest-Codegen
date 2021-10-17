@@ -21,6 +21,13 @@ namespace GlobalNamespace {
 // Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
+  // Forward declaring type: NoteCutInfo
+  struct NoteCutInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutInfo, "", "NoteCutInfo");
+// Type namespace: 
+namespace GlobalNamespace {
   // Size: 0x48
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -172,8 +179,6 @@ namespace GlobalNamespace {
   static check_size<sizeof(NoteCutInfo), 64 + sizeof(GlobalNamespace::ISaberSwingRatingCounter*)> __GlobalNamespace_NoteCutInfoSizeCheck;
   static_assert(sizeof(NoteCutInfo) == 0x48);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutInfo, "", "NoteCutInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteCutInfo::get_allIsOK
 // Il2CppName: get_allIsOK

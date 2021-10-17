@@ -9,6 +9,13 @@
 // Completed includes
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
+  // Forward declaring type: HAPI_Keyframe
+  struct HAPI_Keyframe;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_Keyframe, "HoudiniEngineUnity", "HAPI_Keyframe");
+// Type namespace: HoudiniEngineUnity
+namespace HoudiniEngineUnity {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -68,8 +75,6 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HAPI_Keyframe), 12 + sizeof(float)> __HoudiniEngineUnity_HAPI_KeyframeSizeCheck;
   static_assert(sizeof(HAPI_Keyframe) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_Keyframe, "HoudiniEngineUnity", "HAPI_Keyframe");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HAPI_Keyframe::HAPI_Keyframe
 // Il2CppName: .ctor

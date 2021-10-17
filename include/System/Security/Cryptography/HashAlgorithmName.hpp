@@ -15,6 +15,13 @@ struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Security.Cryptography
 namespace System::Security::Cryptography {
+  // Forward declaring type: HashAlgorithmName
+  struct HashAlgorithmName;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::HashAlgorithmName, "System.Security.Cryptography", "HashAlgorithmName");
+// Type namespace: System.Security.Cryptography
+namespace System::Security::Cryptography {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -82,8 +89,6 @@ namespace System::Security::Cryptography {
   static check_size<sizeof(HashAlgorithmName), 0 + sizeof(::Il2CppString*)> __System_Security_Cryptography_HashAlgorithmNameSizeCheck;
   static_assert(sizeof(HashAlgorithmName) == 0x8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::HashAlgorithmName, "System.Security.Cryptography", "HashAlgorithmName");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::HashAlgorithmName::get_SHA256
 // Il2CppName: get_SHA256

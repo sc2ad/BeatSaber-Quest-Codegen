@@ -14,6 +14,13 @@ struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.Rendering
 namespace UnityEngine::Rendering {
+  // Forward declaring type: ShaderTagId
+  struct ShaderTagId;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::ShaderTagId, "UnityEngine.Rendering", "ShaderTagId");
+// Type namespace: UnityEngine.Rendering
+namespace UnityEngine::Rendering {
   // Size: 0x4
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -80,8 +87,6 @@ namespace UnityEngine::Rendering {
   static check_size<sizeof(ShaderTagId), 0 + sizeof(int)> __UnityEngine_Rendering_ShaderTagIdSizeCheck;
   static_assert(sizeof(ShaderTagId) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::ShaderTagId, "UnityEngine.Rendering", "ShaderTagId");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Rendering::ShaderTagId::get_id
 // Il2CppName: get_id

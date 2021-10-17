@@ -37,6 +37,13 @@ namespace System {
 // Completed forward declares
 // Type namespace: System
 namespace System {
+  // Forward declaring type: Boolean
+  struct Boolean;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Boolean, "System", "Boolean");
+// Type namespace: System
+namespace System {
   // Size: 0x1
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -209,8 +216,6 @@ namespace System {
   static check_size<sizeof(Boolean), 0 + sizeof(bool)> __System_BooleanSizeCheck;
   static_assert(sizeof(Boolean) == 0x1);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Boolean, "System", "Boolean");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Boolean::_cctor
 // Il2CppName: .cctor

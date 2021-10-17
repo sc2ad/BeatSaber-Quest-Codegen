@@ -11,6 +11,13 @@
 // Completed includes
 // Type namespace: System
 namespace System {
+  // Forward declaring type: RuntimeArgumentHandle
+  struct RuntimeArgumentHandle;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::RuntimeArgumentHandle, "System", "RuntimeArgumentHandle");
+// Type namespace: System
+namespace System {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -48,6 +55,4 @@ namespace System {
   static check_size<sizeof(RuntimeArgumentHandle), 0 + sizeof(System::IntPtr)> __System_RuntimeArgumentHandleSizeCheck;
   static_assert(sizeof(RuntimeArgumentHandle) == 0x8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::RuntimeArgumentHandle, "System", "RuntimeArgumentHandle");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

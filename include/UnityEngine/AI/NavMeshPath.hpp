@@ -24,6 +24,14 @@ namespace UnityEngine::AI {
 // Completed forward declares
 // Type namespace: UnityEngine.AI
 namespace UnityEngine::AI {
+  // Forward declaring type: NavMeshPath
+  class NavMeshPath;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::AI::NavMeshPath);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AI::NavMeshPath*, "UnityEngine.AI", "NavMeshPath");
+// Type namespace: UnityEngine.AI
+namespace UnityEngine::AI {
   // Size: 0x20
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -98,8 +106,6 @@ namespace UnityEngine::AI {
   static check_size<sizeof(NavMeshPath), 24 + sizeof(::ArrayW<UnityEngine::Vector3>)> __UnityEngine_AI_NavMeshPathSizeCheck;
   static_assert(sizeof(NavMeshPath) == 0x20);
 }
-NEED_NO_BOX(UnityEngine::AI::NavMeshPath);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AI::NavMeshPath*, "UnityEngine.AI", "NavMeshPath");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AI::NavMeshPath::get_corners
 // Il2CppName: get_corners

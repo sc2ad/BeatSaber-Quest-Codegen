@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: MatchTargetWeightMask
+  struct MatchTargetWeightMask;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::MatchTargetWeightMask, "UnityEngine", "MatchTargetWeightMask");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -53,6 +60,4 @@ namespace UnityEngine {
   static check_size<sizeof(MatchTargetWeightMask), 12 + sizeof(float)> __UnityEngine_MatchTargetWeightMaskSizeCheck;
   static_assert(sizeof(MatchTargetWeightMask) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::MatchTargetWeightMask, "UnityEngine", "MatchTargetWeightMask");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

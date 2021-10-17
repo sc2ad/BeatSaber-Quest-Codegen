@@ -9,6 +9,13 @@
 // Completed includes
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
+  // Forward declaring type: HAPI_MaterialInfo
+  struct HAPI_MaterialInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_MaterialInfo, "HoudiniEngineUnity", "HAPI_MaterialInfo");
+// Type namespace: HoudiniEngineUnity
+namespace HoudiniEngineUnity {
   // Size: 0x6
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -57,6 +64,4 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HAPI_MaterialInfo), 5 + sizeof(bool)> __HoudiniEngineUnity_HAPI_MaterialInfoSizeCheck;
   static_assert(sizeof(HAPI_MaterialInfo) == 0x6);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_MaterialInfo, "HoudiniEngineUnity", "HAPI_MaterialInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -30,6 +30,13 @@ struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.Audio
 namespace UnityEngine::Audio {
+  // Forward declaring type: AudioPlayableOutput
+  struct AudioPlayableOutput;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Audio::AudioPlayableOutput, "UnityEngine.Audio", "AudioPlayableOutput");
+// Type namespace: UnityEngine.Audio
+namespace UnityEngine::Audio {
   // Size: 0xC
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -102,8 +109,6 @@ namespace UnityEngine::Audio {
   static check_size<sizeof(AudioPlayableOutput), 0 + sizeof(UnityEngine::Playables::PlayableOutputHandle)> __UnityEngine_Audio_AudioPlayableOutputSizeCheck;
   static_assert(sizeof(AudioPlayableOutput) == 0xC);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Audio::AudioPlayableOutput, "UnityEngine.Audio", "AudioPlayableOutput");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Audio::AudioPlayableOutput::get_Null
 // Il2CppName: get_Null

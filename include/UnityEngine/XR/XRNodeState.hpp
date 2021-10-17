@@ -18,6 +18,13 @@
 // Completed includes
 // Type namespace: UnityEngine.XR
 namespace UnityEngine::XR {
+  // Forward declaring type: XRNodeState
+  struct XRNodeState;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::XRNodeState, "UnityEngine.XR", "XRNodeState");
+// Type namespace: UnityEngine.XR
+namespace UnityEngine::XR {
   // Size: 0x60
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -159,8 +166,6 @@ namespace UnityEngine::XR {
   static check_size<sizeof(XRNodeState), 88 + sizeof(uint64_t)> __UnityEngine_XR_XRNodeStateSizeCheck;
   static_assert(sizeof(XRNodeState) == 0x60);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::XRNodeState, "UnityEngine.XR", "XRNodeState");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::XR::XRNodeState::set_uniqueID
 // Il2CppName: set_uniqueID

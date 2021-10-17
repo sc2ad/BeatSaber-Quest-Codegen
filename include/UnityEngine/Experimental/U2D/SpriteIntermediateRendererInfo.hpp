@@ -18,6 +18,13 @@
 // Completed includes
 // Type namespace: UnityEngine.Experimental.U2D
 namespace UnityEngine::Experimental::U2D {
+  // Forward declaring type: SpriteIntermediateRendererInfo
+  struct SpriteIntermediateRendererInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::U2D::SpriteIntermediateRendererInfo, "UnityEngine.Experimental.U2D", "SpriteIntermediateRendererInfo");
+// Type namespace: UnityEngine.Experimental.U2D
+namespace UnityEngine::Experimental::U2D {
   // Size: 0xA4
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -164,6 +171,4 @@ namespace UnityEngine::Experimental::U2D {
   static check_size<sizeof(SpriteIntermediateRendererInfo), 160 + sizeof(int)> __UnityEngine_Experimental_U2D_SpriteIntermediateRendererInfoSizeCheck;
   static_assert(sizeof(SpriteIntermediateRendererInfo) == 0xA4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::U2D::SpriteIntermediateRendererInfo, "UnityEngine.Experimental.U2D", "SpriteIntermediateRendererInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

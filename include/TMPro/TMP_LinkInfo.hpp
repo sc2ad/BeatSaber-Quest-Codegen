@@ -18,6 +18,13 @@ namespace TMPro {
 // Completed forward declares
 // Type namespace: TMPro
 namespace TMPro {
+  // Forward declaring type: TMP_LinkInfo
+  struct TMP_LinkInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_LinkInfo, "TMPro", "TMP_LinkInfo");
+// Type namespace: TMPro
+namespace TMPro {
   // Size: 0x28
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -109,8 +116,6 @@ namespace TMPro {
   static check_size<sizeof(TMP_LinkInfo), 32 + sizeof(::ArrayW<::Il2CppChar>)> __TMPro_TMP_LinkInfoSizeCheck;
   static_assert(sizeof(TMP_LinkInfo) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_LinkInfo, "TMPro", "TMP_LinkInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_LinkInfo::SetLinkID
 // Il2CppName: SetLinkID

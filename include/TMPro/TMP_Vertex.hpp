@@ -16,6 +16,13 @@
 // Completed includes
 // Type namespace: TMPro
 namespace TMPro {
+  // Forward declaring type: TMP_Vertex
+  struct TMP_Vertex;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Vertex, "TMPro", "TMP_Vertex");
+// Type namespace: TMPro
+namespace TMPro {
   // Size: 0x28
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -80,6 +87,4 @@ namespace TMPro {
   static check_size<sizeof(TMP_Vertex), 36 + sizeof(UnityEngine::Color32)> __TMPro_TMP_VertexSizeCheck;
   static_assert(sizeof(TMP_Vertex) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Vertex, "TMPro", "TMP_Vertex");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

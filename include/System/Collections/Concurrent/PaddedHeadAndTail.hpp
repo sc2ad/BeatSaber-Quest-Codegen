@@ -9,6 +9,13 @@
 // Completed includes
 // Type namespace: System.Collections.Concurrent
 namespace System::Collections::Concurrent {
+  // Forward declaring type: PaddedHeadAndTail
+  struct PaddedHeadAndTail;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Collections::Concurrent::PaddedHeadAndTail, "System.Collections.Concurrent", "PaddedHeadAndTail");
+// Type namespace: System.Collections.Concurrent
+namespace System::Collections::Concurrent {
   // Size: 0x104
   #pragma pack(push, 1)
   // WARNING Layout: Explicit may not be correctly taken into account!
@@ -54,6 +61,4 @@ namespace System::Collections::Concurrent {
   static check_size<sizeof(PaddedHeadAndTail), 256 + sizeof(int)> __System_Collections_Concurrent_PaddedHeadAndTailSizeCheck;
   static_assert(sizeof(PaddedHeadAndTail) == 0x104);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Collections::Concurrent::PaddedHeadAndTail, "System.Collections.Concurrent", "PaddedHeadAndTail");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

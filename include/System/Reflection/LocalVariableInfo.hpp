@@ -19,6 +19,14 @@ namespace System {
 // Completed forward declares
 // Type namespace: System.Reflection
 namespace System::Reflection {
+  // Forward declaring type: LocalVariableInfo
+  class LocalVariableInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Reflection::LocalVariableInfo);
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::LocalVariableInfo*, "System.Reflection", "LocalVariableInfo");
+// Type namespace: System.Reflection
+namespace System::Reflection {
   // Size: 0x1C
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -78,8 +86,6 @@ namespace System::Reflection {
   static check_size<sizeof(LocalVariableInfo), 26 + sizeof(uint16_t)> __System_Reflection_LocalVariableInfoSizeCheck;
   static_assert(sizeof(LocalVariableInfo) == 0x1C);
 }
-NEED_NO_BOX(System::Reflection::LocalVariableInfo);
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::LocalVariableInfo*, "System.Reflection", "LocalVariableInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::LocalVariableInfo::New_ctor
 // Il2CppName: .ctor

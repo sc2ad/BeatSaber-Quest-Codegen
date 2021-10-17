@@ -15,6 +15,13 @@ struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.XR
 namespace UnityEngine::XR {
+  // Forward declaring type: InputDevice
+  struct InputDevice;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::InputDevice, "UnityEngine.XR", "InputDevice");
+// Type namespace: UnityEngine.XR
+namespace UnityEngine::XR {
   // Size: 0x9
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -80,8 +87,6 @@ namespace UnityEngine::XR {
   static check_size<sizeof(InputDevice), 8 + sizeof(bool)> __UnityEngine_XR_InputDeviceSizeCheck;
   static_assert(sizeof(InputDevice) == 0x9);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::InputDevice, "UnityEngine.XR", "InputDevice");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::XR::InputDevice::get_deviceId
 // Il2CppName: get_deviceId

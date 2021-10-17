@@ -14,6 +14,13 @@
 // Completed includes
 // Type namespace: UnityEngine.XR
 namespace UnityEngine::XR {
+  // Forward declaring type: InputFeatureUsage
+  struct InputFeatureUsage;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::InputFeatureUsage, "UnityEngine.XR", "InputFeatureUsage");
+// Type namespace: UnityEngine.XR
+namespace UnityEngine::XR {
   // Size: 0xC
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -81,8 +88,6 @@ namespace UnityEngine::XR {
   static check_size<sizeof(InputFeatureUsage), 8 + sizeof(UnityEngine::XR::InputFeatureType)> __UnityEngine_XR_InputFeatureUsageSizeCheck;
   static_assert(sizeof(InputFeatureUsage) == 0xC);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::InputFeatureUsage, "UnityEngine.XR", "InputFeatureUsage");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::XR::InputFeatureUsage::get_name
 // Il2CppName: get_name

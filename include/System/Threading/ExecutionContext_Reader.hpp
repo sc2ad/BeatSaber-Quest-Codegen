@@ -21,6 +21,13 @@ namespace System::Threading {
 // Completed forward declares
 // Type namespace: System.Threading
 namespace System::Threading {
+  // Forward declaring type: Reader
+  struct Reader;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::ExecutionContext::Reader, "System.Threading", "ExecutionContext/Reader");
+// Type namespace: System.Threading
+namespace System::Threading {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -87,8 +94,6 @@ namespace System::Threading {
   static check_size<sizeof(ExecutionContext::Reader), 0 + sizeof(System::Threading::ExecutionContext*)> __System_Threading_ExecutionContext_ReaderSizeCheck;
   static_assert(sizeof(ExecutionContext::Reader) == 0x8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::ExecutionContext::Reader, "System.Threading", "ExecutionContext/Reader");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::ExecutionContext::Reader::get_IsNull
 // Il2CppName: get_IsNull

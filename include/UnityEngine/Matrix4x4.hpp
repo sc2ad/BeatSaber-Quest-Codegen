@@ -26,6 +26,13 @@ struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: Matrix4x4
+  struct Matrix4x4;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Matrix4x4, "UnityEngine", "Matrix4x4");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x40
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -331,8 +338,6 @@ namespace UnityEngine {
   // Offset: 0x1D8C244
   bool operator !=(const UnityEngine::Matrix4x4& lhs, const UnityEngine::Matrix4x4& rhs);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Matrix4x4, "UnityEngine", "Matrix4x4");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Matrix4x4::get_rotation
 // Il2CppName: get_rotation

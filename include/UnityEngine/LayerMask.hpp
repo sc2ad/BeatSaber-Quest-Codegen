@@ -12,6 +12,13 @@ struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: LayerMask
+  struct LayerMask;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::LayerMask, "UnityEngine", "LayerMask");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x4
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -65,8 +72,6 @@ namespace UnityEngine {
   static check_size<sizeof(LayerMask), 0 + sizeof(int)> __UnityEngine_LayerMaskSizeCheck;
   static_assert(sizeof(LayerMask) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::LayerMask, "UnityEngine", "LayerMask");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::LayerMask::get_value
 // Il2CppName: get_value

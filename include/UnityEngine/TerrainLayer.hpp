@@ -27,6 +27,14 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: TerrainLayer
+  class TerrainLayer;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::TerrainLayer);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TerrainLayer*, "UnityEngine", "TerrainLayer");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -146,8 +154,6 @@ namespace UnityEngine {
   }; // UnityEngine.TerrainLayer
   #pragma pack(pop)
 }
-NEED_NO_BOX(UnityEngine::TerrainLayer);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TerrainLayer*, "UnityEngine", "TerrainLayer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TerrainLayer::get_diffuseTexture
 // Il2CppName: get_diffuseTexture

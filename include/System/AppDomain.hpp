@@ -76,6 +76,14 @@ namespace System::Runtime::Remoting::Messaging {
 // Completed forward declares
 // Type namespace: System
 namespace System {
+  // Forward declaring type: AppDomain
+  class AppDomain;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::AppDomain);
+DEFINE_IL2CPP_ARG_TYPE(System::AppDomain*, "System", "AppDomain");
+// Type namespace: System
+namespace System {
   // Size: 0xA0
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -391,8 +399,6 @@ namespace System {
   static check_size<sizeof(AppDomain), 152 + sizeof(System::Collections::Generic::List_1<::Il2CppString*>*)> __System_AppDomainSizeCheck;
   static_assert(sizeof(AppDomain) == 0xA0);
 }
-NEED_NO_BOX(System::AppDomain);
-DEFINE_IL2CPP_ARG_TYPE(System::AppDomain*, "System", "AppDomain");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::AppDomain::get_FriendlyName
 // Il2CppName: get_FriendlyName

@@ -11,6 +11,13 @@
 // Completed includes
 // Type namespace: System.Security.Cryptography
 namespace System::Security::Cryptography {
+  // Forward declaring type: DSAParameters
+  struct DSAParameters;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::DSAParameters, "System.Security.Cryptography", "DSAParameters");
+// Type namespace: System.Security.Cryptography
+namespace System::Security::Cryptography {
   // Size: 0x3C
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -100,6 +107,4 @@ namespace System::Security::Cryptography {
   static check_size<sizeof(DSAParameters), 56 + sizeof(int)> __System_Security_Cryptography_DSAParametersSizeCheck;
   static_assert(sizeof(DSAParameters) == 0x3C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::DSAParameters, "System.Security.Cryptography", "DSAParameters");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -11,6 +11,13 @@
 // Completed includes
 // Type namespace: Valve.VR
 namespace Valve::VR {
+  // Forward declaring type: RenderModel_Vertex_t
+  struct RenderModel_Vertex_t;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::RenderModel_Vertex_t, "Valve.VR", "RenderModel_Vertex_t");
+// Type namespace: Valve.VR
+namespace Valve::VR {
   // Size: 0x20
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -67,6 +74,4 @@ namespace Valve::VR {
   static check_size<sizeof(RenderModel_Vertex_t), 28 + sizeof(float)> __Valve_VR_RenderModel_Vertex_tSizeCheck;
   static_assert(sizeof(RenderModel_Vertex_t) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::RenderModel_Vertex_t, "Valve.VR", "RenderModel_Vertex_t");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

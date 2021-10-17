@@ -11,6 +11,13 @@
 // Completed includes
 // Type namespace: Valve.VR
 namespace Valve::VR {
+  // Forward declaring type: HmdQuad_t
+  struct HmdQuad_t;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::HmdQuad_t, "Valve.VR", "HmdQuad_t");
+// Type namespace: Valve.VR
+namespace Valve::VR {
   // Size: 0x30
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -67,6 +74,4 @@ namespace Valve::VR {
   static check_size<sizeof(HmdQuad_t), 36 + sizeof(Valve::VR::HmdVector3_t)> __Valve_VR_HmdQuad_tSizeCheck;
   static_assert(sizeof(HmdQuad_t) == 0x30);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::HmdQuad_t, "Valve.VR", "HmdQuad_t");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

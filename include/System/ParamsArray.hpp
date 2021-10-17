@@ -13,6 +13,13 @@ struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: System
 namespace System {
+  // Forward declaring type: ParamsArray
+  struct ParamsArray;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::ParamsArray, "System", "ParamsArray");
+// Type namespace: System
+namespace System {
   // Size: 0x20
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -106,8 +113,6 @@ namespace System {
   static check_size<sizeof(ParamsArray), 24 + sizeof(::ArrayW<::Il2CppObject*>)> __System_ParamsArraySizeCheck;
   static_assert(sizeof(ParamsArray) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::ParamsArray, "System", "ParamsArray");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ParamsArray::get_Length
 // Il2CppName: get_Length

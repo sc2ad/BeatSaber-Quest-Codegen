@@ -10,6 +10,13 @@
 // Completed includes
 // Type namespace: System
 namespace System {
+  // Forward declaring type: UnSafeCharBuffer
+  struct UnSafeCharBuffer;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::UnSafeCharBuffer, "System", "UnSafeCharBuffer");
+// Type namespace: System
+namespace System {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -64,8 +71,6 @@ namespace System {
   static check_size<sizeof(UnSafeCharBuffer), 12 + sizeof(int)> __System_UnSafeCharBufferSizeCheck;
   static_assert(sizeof(UnSafeCharBuffer) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::UnSafeCharBuffer, "System", "UnSafeCharBuffer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::UnSafeCharBuffer::UnSafeCharBuffer
 // Il2CppName: .ctor

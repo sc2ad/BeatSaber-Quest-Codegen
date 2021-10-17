@@ -27,6 +27,13 @@ struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: 
 namespace GlobalNamespace {
+  // Forward declaring type: BitMask256
+  struct BitMask256;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BitMask256, "", "BitMask256");
+// Type namespace: 
+namespace GlobalNamespace {
   // Size: 0x20
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -158,8 +165,6 @@ namespace GlobalNamespace {
   // Offset: 0x2552C24
   bool operator !=(const GlobalNamespace::BitMask256&& a, const GlobalNamespace::BitMask256&& b);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BitMask256, "", "BitMask256");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BitMask256::get_bitCount
 // Il2CppName: get_bitCount

@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: UnityEngine.AI
 namespace UnityEngine::AI {
+  // Forward declaring type: NavMeshHit
+  struct NavMeshHit;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AI::NavMeshHit, "UnityEngine.AI", "NavMeshHit");
+// Type namespace: UnityEngine.AI
+namespace UnityEngine::AI {
   // Size: 0x24
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -80,8 +87,6 @@ namespace UnityEngine::AI {
   static check_size<sizeof(NavMeshHit), 32 + sizeof(int)> __UnityEngine_AI_NavMeshHitSizeCheck;
   static_assert(sizeof(NavMeshHit) == 0x24);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AI::NavMeshHit, "UnityEngine.AI", "NavMeshHit");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AI::NavMeshHit::get_position
 // Il2CppName: get_position

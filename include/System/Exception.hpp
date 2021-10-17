@@ -52,6 +52,14 @@ namespace System::Runtime::ExceptionServices {
 // Completed forward declares
 // Type namespace: System
 namespace System {
+  // Forward declaring type: Exception
+  class Exception;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Exception);
+DEFINE_IL2CPP_ARG_TYPE(System::Exception*, "System", "Exception");
+// Type namespace: System
+namespace System {
   // Size: 0x88
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -323,8 +331,6 @@ namespace System {
   static check_size<sizeof(Exception), 128 + sizeof(::ArrayW<System::IntPtr>)> __System_ExceptionSizeCheck;
   static_assert(sizeof(Exception) == 0x88);
 }
-NEED_NO_BOX(System::Exception);
-DEFINE_IL2CPP_ARG_TYPE(System::Exception*, "System", "Exception");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Exception::get_Message
 // Il2CppName: get_Message

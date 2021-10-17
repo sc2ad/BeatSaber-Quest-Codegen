@@ -14,6 +14,13 @@ struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: BoneWeight
+  struct BoneWeight;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::BoneWeight, "UnityEngine", "BoneWeight");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x20
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -176,8 +183,6 @@ namespace UnityEngine {
   static check_size<sizeof(BoneWeight), 28 + sizeof(int)> __UnityEngine_BoneWeightSizeCheck;
   static_assert(sizeof(BoneWeight) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::BoneWeight, "UnityEngine", "BoneWeight");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::BoneWeight::get_weight0
 // Il2CppName: get_weight0

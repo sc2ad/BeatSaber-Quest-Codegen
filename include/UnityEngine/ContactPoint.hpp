@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: ContactPoint
+  struct ContactPoint;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ContactPoint, "UnityEngine", "ContactPoint");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x24
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -78,6 +85,4 @@ namespace UnityEngine {
   static check_size<sizeof(ContactPoint), 32 + sizeof(float)> __UnityEngine_ContactPointSizeCheck;
   static_assert(sizeof(ContactPoint) == 0x24);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ContactPoint, "UnityEngine", "ContactPoint");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

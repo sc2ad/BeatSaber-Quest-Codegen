@@ -29,6 +29,13 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine.Animations
 namespace UnityEngine::Animations {
+  // Forward declaring type: AnimationClipPlayable
+  struct AnimationClipPlayable;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationClipPlayable, "UnityEngine.Animations", "AnimationClipPlayable");
+// Type namespace: UnityEngine.Animations
+namespace UnityEngine::Animations {
   // Size: 0xC
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -122,8 +129,6 @@ namespace UnityEngine::Animations {
   static check_size<sizeof(AnimationClipPlayable), 0 + sizeof(UnityEngine::Playables::PlayableHandle)> __UnityEngine_Animations_AnimationClipPlayableSizeCheck;
   static_assert(sizeof(AnimationClipPlayable) == 0xC);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationClipPlayable, "UnityEngine.Animations", "AnimationClipPlayable");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Animations::AnimationClipPlayable::AnimationClipPlayable
 // Il2CppName: .ctor

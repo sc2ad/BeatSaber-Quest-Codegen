@@ -14,6 +14,13 @@ namespace OVR::OpenVR {
 // Completed forward declares
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
+  // Forward declaring type: IVRNotifications
+  struct IVRNotifications;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRNotifications, "OVR.OpenVR", "IVRNotifications");
+// Type namespace: OVR.OpenVR
+namespace OVR::OpenVR {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -58,6 +65,4 @@ namespace OVR::OpenVR {
   static check_size<sizeof(IVRNotifications), 8 + sizeof(OVR::OpenVR::IVRNotifications::_RemoveNotification*)> __OVR_OpenVR_IVRNotificationsSizeCheck;
   static_assert(sizeof(IVRNotifications) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRNotifications, "OVR.OpenVR", "IVRNotifications");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

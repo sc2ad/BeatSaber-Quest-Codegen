@@ -9,6 +9,13 @@
 // Completed includes
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
+  // Forward declaring type: VREvent_Scroll_t
+  struct VREvent_Scroll_t;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VREvent_Scroll_t, "OVR.OpenVR", "VREvent_Scroll_t");
+// Type namespace: OVR.OpenVR
+namespace OVR::OpenVR {
   // Size: 0xC
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -57,6 +64,4 @@ namespace OVR::OpenVR {
   static check_size<sizeof(VREvent_Scroll_t), 8 + sizeof(uint)> __OVR_OpenVR_VREvent_Scroll_tSizeCheck;
   static_assert(sizeof(VREvent_Scroll_t) == 0xC);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VREvent_Scroll_t, "OVR.OpenVR", "VREvent_Scroll_t");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

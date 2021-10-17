@@ -40,6 +40,13 @@ namespace System::Globalization {
 // Completed forward declares
 // Type namespace: System
 namespace System {
+  // Forward declaring type: Int32
+  struct Int32;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Int32, "System", "Int32");
+// Type namespace: System
+namespace System {
   // Size: 0x4
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -208,8 +215,6 @@ namespace System {
   static check_size<sizeof(Int32), 0 + sizeof(int)> __System_Int32SizeCheck;
   static_assert(sizeof(Int32) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Int32, "System", "Int32");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Int32::CompareTo
 // Il2CppName: CompareTo

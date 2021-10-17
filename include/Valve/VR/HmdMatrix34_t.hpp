@@ -9,6 +9,13 @@
 // Completed includes
 // Type namespace: Valve.VR
 namespace Valve::VR {
+  // Forward declaring type: HmdMatrix34_t
+  struct HmdMatrix34_t;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::HmdMatrix34_t, "Valve.VR", "HmdMatrix34_t");
+// Type namespace: Valve.VR
+namespace Valve::VR {
   // Size: 0x30
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -129,6 +136,4 @@ namespace Valve::VR {
   static check_size<sizeof(HmdMatrix34_t), 44 + sizeof(float)> __Valve_VR_HmdMatrix34_tSizeCheck;
   static_assert(sizeof(HmdMatrix34_t) == 0x30);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::HmdMatrix34_t, "Valve.VR", "HmdMatrix34_t");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

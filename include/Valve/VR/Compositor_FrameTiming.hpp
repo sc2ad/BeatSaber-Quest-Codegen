@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: Valve.VR
 namespace Valve::VR {
+  // Forward declaring type: Compositor_FrameTiming
+  struct Compositor_FrameTiming;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::Compositor_FrameTiming, "Valve.VR", "Compositor_FrameTiming");
+// Type namespace: Valve.VR
+namespace Valve::VR {
   // Size: 0xAE
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -228,6 +235,4 @@ namespace Valve::VR {
   static check_size<sizeof(Compositor_FrameTiming), 96 + sizeof(Valve::VR::TrackedDevicePose_t)> __Valve_VR_Compositor_FrameTimingSizeCheck;
   static_assert(sizeof(Compositor_FrameTiming) == 0xAE);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::Compositor_FrameTiming, "Valve.VR", "Compositor_FrameTiming");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

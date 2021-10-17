@@ -22,6 +22,13 @@ struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: BoundsInt
+  struct BoundsInt;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::BoundsInt, "UnityEngine", "BoundsInt");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -144,8 +151,6 @@ namespace UnityEngine {
   static check_size<sizeof(BoundsInt), 12 + sizeof(UnityEngine::Vector3Int)> __UnityEngine_BoundsIntSizeCheck;
   static_assert(sizeof(BoundsInt) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::BoundsInt, "UnityEngine", "BoundsInt");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::BoundsInt::get_min
 // Il2CppName: get_min

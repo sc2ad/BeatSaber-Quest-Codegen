@@ -19,6 +19,14 @@ namespace System::Globalization {
 // Completed forward declares
 // Type namespace: System.Globalization
 namespace System::Globalization {
+  // Forward declaring type: RegionInfo
+  class RegionInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Globalization::RegionInfo);
+DEFINE_IL2CPP_ARG_TYPE(System::Globalization::RegionInfo*, "System.Globalization", "RegionInfo");
+// Type namespace: System.Globalization
+namespace System::Globalization {
   // Size: 0x60
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -211,8 +219,6 @@ namespace System::Globalization {
   static check_size<sizeof(RegionInfo), 88 + sizeof(::Il2CppString*)> __System_Globalization_RegionInfoSizeCheck;
   static_assert(sizeof(RegionInfo) == 0x60);
 }
-NEED_NO_BOX(System::Globalization::RegionInfo);
-DEFINE_IL2CPP_ARG_TYPE(System::Globalization::RegionInfo*, "System.Globalization", "RegionInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Globalization::RegionInfo::get_CurrentRegion
 // Il2CppName: get_CurrentRegion

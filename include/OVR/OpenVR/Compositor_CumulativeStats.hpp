@@ -9,6 +9,13 @@
 // Completed includes
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
+  // Forward declaring type: Compositor_CumulativeStats
+  struct Compositor_CumulativeStats;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::Compositor_CumulativeStats, "OVR.OpenVR", "Compositor_CumulativeStats");
+// Type namespace: OVR.OpenVR
+namespace OVR::OpenVR {
   // Size: 0x3C
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -153,6 +160,4 @@ namespace OVR::OpenVR {
   static check_size<sizeof(Compositor_CumulativeStats), 56 + sizeof(uint)> __OVR_OpenVR_Compositor_CumulativeStatsSizeCheck;
   static_assert(sizeof(Compositor_CumulativeStats) == 0x3C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::Compositor_CumulativeStats, "OVR.OpenVR", "Compositor_CumulativeStats");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

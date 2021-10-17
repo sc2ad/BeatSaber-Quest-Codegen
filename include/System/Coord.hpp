@@ -10,6 +10,13 @@
 // Completed includes
 // Type namespace: System
 namespace System {
+  // Forward declaring type: Coord
+  struct Coord;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Coord, "System", "Coord");
+// Type namespace: System
+namespace System {
   // Size: 0x4
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -50,6 +57,4 @@ namespace System {
   static check_size<sizeof(Coord), 2 + sizeof(int16_t)> __System_CoordSizeCheck;
   static_assert(sizeof(Coord) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Coord, "System", "Coord");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

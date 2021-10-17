@@ -16,6 +16,13 @@
 // Completed includes
 // Type namespace: System.Net.NetworkInformation
 namespace System::Net::NetworkInformation {
+  // Forward declaring type: Win32_FIXED_INFO
+  struct Win32_FIXED_INFO;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32_FIXED_INFO, "System.Net.NetworkInformation", "Win32_FIXED_INFO");
+// Type namespace: System.Net.NetworkInformation
+namespace System::Net::NetworkInformation {
   // Size: 0x54
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -116,6 +123,4 @@ namespace System::Net::NetworkInformation {
   static check_size<sizeof(Win32_FIXED_INFO), 80 + sizeof(uint)> __System_Net_NetworkInformation_Win32_FIXED_INFOSizeCheck;
   static_assert(sizeof(Win32_FIXED_INFO) == 0x54);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32_FIXED_INFO, "System.Net.NetworkInformation", "Win32_FIXED_INFO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -14,6 +14,13 @@ struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.ResourceManagement.Diagnostics
 namespace UnityEngine::ResourceManagement::Diagnostics {
+  // Forward declaring type: DiagnosticEvent
+  struct DiagnosticEvent;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent, "UnityEngine.ResourceManagement.Diagnostics", "DiagnosticEvent");
+// Type namespace: UnityEngine.ResourceManagement.Diagnostics
+namespace UnityEngine::ResourceManagement::Diagnostics {
   // Size: 0x2C
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -126,8 +133,6 @@ namespace UnityEngine::ResourceManagement::Diagnostics {
   static check_size<sizeof(DiagnosticEvent), 40 + sizeof(int)> __UnityEngine_ResourceManagement_Diagnostics_DiagnosticEventSizeCheck;
   static_assert(sizeof(DiagnosticEvent) == 0x2C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent, "UnityEngine.ResourceManagement.Diagnostics", "DiagnosticEvent");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent::get_Graph
 // Il2CppName: get_Graph

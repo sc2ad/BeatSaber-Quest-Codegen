@@ -27,6 +27,13 @@ namespace System {
 // Completed forward declares
 // Type namespace: System
 namespace System {
+  // Forward declaring type: __DTString
+  struct __DTString;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::__DTString, "System", "__DTString");
+// Type namespace: System
+namespace System {
   // Size: 0x21
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -183,8 +190,6 @@ namespace System {
   static check_size<sizeof(__DTString), 32 + sizeof(bool)> __System___DTStringSizeCheck;
   static_assert(sizeof(__DTString) == 0x21);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::__DTString, "System", "__DTString");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::__DTString::get_CompareInfo
 // Il2CppName: get_CompareInfo

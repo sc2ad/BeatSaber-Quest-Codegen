@@ -9,6 +9,13 @@
 // Completed includes
 // Type namespace: System.Threading
 namespace System::Threading {
+  // Forward declaring type: SpinWait
+  struct SpinWait;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::SpinWait, "System.Threading", "SpinWait");
+// Type namespace: System.Threading
+namespace System::Threading {
   // Size: 0x4
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -54,8 +61,6 @@ namespace System::Threading {
   static check_size<sizeof(SpinWait), 0 + sizeof(int)> __System_Threading_SpinWaitSizeCheck;
   static_assert(sizeof(SpinWait) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::SpinWait, "System.Threading", "SpinWait");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::SpinWait::get_NextSpinWillYield
 // Il2CppName: get_NextSpinWillYield

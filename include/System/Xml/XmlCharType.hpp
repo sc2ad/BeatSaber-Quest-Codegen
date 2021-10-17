@@ -11,6 +11,13 @@
 // Completed includes
 // Type namespace: System.Xml
 namespace System::Xml {
+  // Forward declaring type: XmlCharType
+  struct XmlCharType;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlCharType, "System.Xml", "XmlCharType");
+// Type namespace: System.Xml
+namespace System::Xml {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -109,8 +116,6 @@ namespace System::Xml {
   static check_size<sizeof(XmlCharType), 0 + sizeof(::ArrayW<uint8_t>)> __System_Xml_XmlCharTypeSizeCheck;
   static_assert(sizeof(XmlCharType) == 0x8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlCharType, "System.Xml", "XmlCharType");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::XmlCharType::get_StaticLock
 // Il2CppName: get_StaticLock

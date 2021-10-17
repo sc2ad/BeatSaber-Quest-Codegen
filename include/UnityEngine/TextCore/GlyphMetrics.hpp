@@ -14,6 +14,13 @@ struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.TextCore
 namespace UnityEngine::TextCore {
+  // Forward declaring type: GlyphMetrics
+  struct GlyphMetrics;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::GlyphMetrics, "UnityEngine.TextCore", "GlyphMetrics");
+// Type namespace: UnityEngine.TextCore
+namespace UnityEngine::TextCore {
   // Size: 0x14
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -119,8 +126,6 @@ namespace UnityEngine::TextCore {
   static check_size<sizeof(GlyphMetrics), 16 + sizeof(float)> __UnityEngine_TextCore_GlyphMetricsSizeCheck;
   static_assert(sizeof(GlyphMetrics) == 0x14);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::GlyphMetrics, "UnityEngine.TextCore", "GlyphMetrics");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TextCore::GlyphMetrics::get_width
 // Il2CppName: get_width

@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: System
 namespace System {
+  // Forward declaring type: DateTimeRawInfo
+  struct DateTimeRawInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::DateTimeRawInfo, "System", "DateTimeRawInfo");
+// Type namespace: System
+namespace System {
   // Size: 0x2A
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -125,8 +132,6 @@ namespace System {
   static check_size<sizeof(DateTimeRawInfo), 41 + sizeof(bool)> __System_DateTimeRawInfoSizeCheck;
   static_assert(sizeof(DateTimeRawInfo) == 0x2A);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::DateTimeRawInfo, "System", "DateTimeRawInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::DateTimeRawInfo::Init
 // Il2CppName: Init

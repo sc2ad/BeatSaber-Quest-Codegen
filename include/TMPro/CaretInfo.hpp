@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: TMPro
 namespace TMPro {
+  // Forward declaring type: CaretInfo
+  struct CaretInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::CaretInfo, "TMPro", "CaretInfo");
+// Type namespace: TMPro
+namespace TMPro {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -55,8 +62,6 @@ namespace TMPro {
   static check_size<sizeof(CaretInfo), 4 + sizeof(TMPro::CaretPosition)> __TMPro_CaretInfoSizeCheck;
   static_assert(sizeof(CaretInfo) == 0x8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(TMPro::CaretInfo, "TMPro", "CaretInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::CaretInfo::CaretInfo
 // Il2CppName: .ctor

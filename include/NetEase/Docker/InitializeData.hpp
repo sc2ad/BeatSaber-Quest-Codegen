@@ -9,6 +9,13 @@
 // Completed includes
 // Type namespace: NetEase.Docker
 namespace NetEase::Docker {
+  // Forward declaring type: InitializeData
+  struct InitializeData;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::InitializeData, "NetEase.Docker", "InitializeData");
+// Type namespace: NetEase.Docker
+namespace NetEase::Docker {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -62,8 +69,6 @@ namespace NetEase::Docker {
   static check_size<sizeof(InitializeData), 4 + sizeof(int)> __NetEase_Docker_InitializeDataSizeCheck;
   static_assert(sizeof(InitializeData) == 0x8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::InitializeData, "NetEase.Docker", "InitializeData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NetEase::Docker::InitializeData::get_InitializeSuccessful
 // Il2CppName: get_InitializeSuccessful

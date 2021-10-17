@@ -19,6 +19,13 @@ namespace Valve::VR {
 // Completed forward declares
 // Type namespace: Valve.VR
 namespace Valve::VR {
+  // Forward declaring type: VRControllerState_t_Packed
+  struct VRControllerState_t_Packed;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VRControllerState_t_Packed, "Valve.VR", "VRControllerState_t_Packed");
+// Type namespace: Valve.VR
+namespace Valve::VR {
   // Size: 0x3C
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -113,8 +120,6 @@ namespace Valve::VR {
   static check_size<sizeof(VRControllerState_t_Packed), 52 + sizeof(Valve::VR::VRControllerAxis_t)> __Valve_VR_VRControllerState_t_PackedSizeCheck;
   static_assert(sizeof(VRControllerState_t_Packed) == 0x3C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VRControllerState_t_Packed, "Valve.VR", "VRControllerState_t_Packed");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::VRControllerState_t_Packed::VRControllerState_t_Packed
 // Il2CppName: .ctor

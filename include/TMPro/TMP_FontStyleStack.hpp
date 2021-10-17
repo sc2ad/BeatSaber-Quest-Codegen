@@ -17,6 +17,13 @@ namespace TMPro {
 // Completed forward declares
 // Type namespace: TMPro
 namespace TMPro {
+  // Forward declaring type: TMP_FontStyleStack
+  struct TMP_FontStyleStack;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_FontStyleStack, "TMPro", "TMP_FontStyleStack");
+// Type namespace: TMPro
+namespace TMPro {
   // Size: 0xA
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -130,8 +137,6 @@ namespace TMPro {
   static check_size<sizeof(TMP_FontStyleStack), 9 + sizeof(uint8_t)> __TMPro_TMP_FontStyleStackSizeCheck;
   static_assert(sizeof(TMP_FontStyleStack) == 0xA);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_FontStyleStack, "TMPro", "TMP_FontStyleStack");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_FontStyleStack::Clear
 // Il2CppName: Clear

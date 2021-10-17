@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
+  // Forward declaring type: InputPoseActionData_t
+  struct InputPoseActionData_t;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::InputPoseActionData_t, "OVR.OpenVR", "InputPoseActionData_t");
+// Type namespace: OVR.OpenVR
+namespace OVR::OpenVR {
   // Size: 0x5E
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -62,6 +69,4 @@ namespace OVR::OpenVR {
   static check_size<sizeof(InputPoseActionData_t), 16 + sizeof(OVR::OpenVR::TrackedDevicePose_t)> __OVR_OpenVR_InputPoseActionData_tSizeCheck;
   static_assert(sizeof(InputPoseActionData_t) == 0x5E);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::InputPoseActionData_t, "OVR.OpenVR", "InputPoseActionData_t");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

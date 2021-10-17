@@ -9,6 +9,13 @@
 // Completed includes
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
+  // Forward declaring type: VREvent_Screenshot_t
+  struct VREvent_Screenshot_t;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VREvent_Screenshot_t, "OVR.OpenVR", "VREvent_Screenshot_t");
+// Type namespace: OVR.OpenVR
+namespace OVR::OpenVR {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -49,6 +56,4 @@ namespace OVR::OpenVR {
   static check_size<sizeof(VREvent_Screenshot_t), 4 + sizeof(uint)> __OVR_OpenVR_VREvent_Screenshot_tSizeCheck;
   static_assert(sizeof(VREvent_Screenshot_t) == 0x8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VREvent_Screenshot_t, "OVR.OpenVR", "VREvent_Screenshot_t");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

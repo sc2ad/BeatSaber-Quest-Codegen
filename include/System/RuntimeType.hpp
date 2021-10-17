@@ -107,6 +107,14 @@ namespace System::Collections::Generic {
 // Completed forward declares
 // Type namespace: System
 namespace System {
+  // Forward declaring type: RuntimeType
+  class RuntimeType;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::RuntimeType);
+DEFINE_IL2CPP_ARG_TYPE(System::RuntimeType*, "System", "RuntimeType");
+// Type namespace: System
+namespace System {
   // Size: 0x30
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -817,8 +825,6 @@ namespace System {
   // Offset: 0x1901730
   bool operator !=(System::RuntimeType* left, System::RuntimeType& right);
 }
-NEED_NO_BOX(System::RuntimeType);
-DEFINE_IL2CPP_ARG_TYPE(System::RuntimeType*, "System", "RuntimeType");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::RuntimeType::ThrowIfTypeNeverValidGenericArgument
 // Il2CppName: ThrowIfTypeNeverValidGenericArgument

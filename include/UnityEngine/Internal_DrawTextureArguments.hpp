@@ -25,6 +25,13 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: Internal_DrawTextureArguments
+  struct Internal_DrawTextureArguments;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Internal_DrawTextureArguments, "UnityEngine", "Internal_DrawTextureArguments");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0xB8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -188,6 +195,4 @@ namespace UnityEngine {
   static check_size<sizeof(Internal_DrawTextureArguments), 176 + sizeof(UnityEngine::Material*)> __UnityEngine_Internal_DrawTextureArgumentsSizeCheck;
   static_assert(sizeof(Internal_DrawTextureArguments) == 0xB8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Internal_DrawTextureArguments, "UnityEngine", "Internal_DrawTextureArguments");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

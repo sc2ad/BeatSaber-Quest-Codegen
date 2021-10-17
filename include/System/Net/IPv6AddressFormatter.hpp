@@ -14,6 +14,13 @@ struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Net
 namespace System::Net {
+  // Forward declaring type: IPv6AddressFormatter
+  struct IPv6AddressFormatter;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::IPv6AddressFormatter, "System.Net", "IPv6AddressFormatter");
+// Type namespace: System.Net
+namespace System::Net {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -74,8 +81,6 @@ namespace System::Net {
   static check_size<sizeof(IPv6AddressFormatter), 8 + sizeof(int64_t)> __System_Net_IPv6AddressFormatterSizeCheck;
   static_assert(sizeof(IPv6AddressFormatter) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Net::IPv6AddressFormatter, "System.Net", "IPv6AddressFormatter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::IPv6AddressFormatter::IPv6AddressFormatter
 // Il2CppName: .ctor

@@ -10,6 +10,13 @@
 // Completed includes
 // Type namespace: UnityEngine.ResourceManagement.AsyncOperations
 namespace UnityEngine::ResourceManagement::AsyncOperations {
+  // Forward declaring type: DownloadStatus
+  struct DownloadStatus;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus, "UnityEngine.ResourceManagement.AsyncOperations", "DownloadStatus");
+// Type namespace: UnityEngine.ResourceManagement.AsyncOperations
+namespace UnityEngine::ResourceManagement::AsyncOperations {
   // Size: 0x11
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -61,8 +68,6 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
   static check_size<sizeof(DownloadStatus), 16 + sizeof(bool)> __UnityEngine_ResourceManagement_AsyncOperations_DownloadStatusSizeCheck;
   static_assert(sizeof(DownloadStatus) == 0x11);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus, "UnityEngine.ResourceManagement.AsyncOperations", "DownloadStatus");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus::get_Percent
 // Il2CppName: get_Percent

@@ -14,6 +14,13 @@
 // Completed includes
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
+  // Forward declaring type: ovrMatchmakingCustomQueryData
+  struct ovrMatchmakingCustomQueryData;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CAPI::ovrMatchmakingCustomQueryData, "Oculus.Platform", "CAPI/ovrMatchmakingCustomQueryData");
+// Type namespace: Oculus.Platform
+namespace Oculus::Platform {
   // Size: 0x1C
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -72,6 +79,4 @@ namespace Oculus::Platform {
   static check_size<sizeof(CAPI::ovrMatchmakingCustomQueryData), 24 + sizeof(uint)> __Oculus_Platform_CAPI_ovrMatchmakingCustomQueryDataSizeCheck;
   static_assert(sizeof(CAPI::ovrMatchmakingCustomQueryData) == 0x1C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CAPI::ovrMatchmakingCustomQueryData, "Oculus.Platform", "CAPI/ovrMatchmakingCustomQueryData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

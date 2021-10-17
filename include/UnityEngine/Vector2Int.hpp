@@ -22,6 +22,13 @@ struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: Vector2Int
+  struct Vector2Int;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Vector2Int, "UnityEngine", "Vector2Int");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -128,8 +135,6 @@ namespace UnityEngine {
   static check_size<sizeof(Vector2Int), 4 + sizeof(int)> __UnityEngine_Vector2IntSizeCheck;
   static_assert(sizeof(Vector2Int) == 0x8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Vector2Int, "UnityEngine", "Vector2Int");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Vector2Int::get_x
 // Il2CppName: get_x

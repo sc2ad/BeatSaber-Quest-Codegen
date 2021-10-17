@@ -23,6 +23,13 @@ namespace System {
 // Completed forward declares
 // Type namespace: System.Runtime.CompilerServices
 namespace System::Runtime::CompilerServices {
+  // Forward declaring type: TaskAwaiter
+  struct TaskAwaiter;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::TaskAwaiter, "System.Runtime.CompilerServices", "TaskAwaiter");
+// Type namespace: System.Runtime.CompilerServices
+namespace System::Runtime::CompilerServices {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -90,8 +97,6 @@ namespace System::Runtime::CompilerServices {
   static check_size<sizeof(TaskAwaiter), 0 + sizeof(System::Threading::Tasks::Task*)> __System_Runtime_CompilerServices_TaskAwaiterSizeCheck;
   static_assert(sizeof(TaskAwaiter) == 0x8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::TaskAwaiter, "System.Runtime.CompilerServices", "TaskAwaiter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::TaskAwaiter::get_IsCompleted
 // Il2CppName: get_IsCompleted

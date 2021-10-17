@@ -14,6 +14,13 @@ namespace System::Threading {
 // Completed forward declares
 // Type namespace: System.Threading
 namespace System::Threading {
+  // Forward declaring type: SpinLock
+  struct SpinLock;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::SpinLock, "System.Threading", "SpinLock");
+// Type namespace: System.Threading
+namespace System::Threading {
   // Size: 0x4
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -92,8 +99,6 @@ namespace System::Threading {
   static check_size<sizeof(SpinLock), 0 + sizeof(int)> __System_Threading_SpinLockSizeCheck;
   static_assert(sizeof(SpinLock) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::SpinLock, "System.Threading", "SpinLock");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::SpinLock::get_IsHeldByCurrentThread
 // Il2CppName: get_IsHeldByCurrentThread

@@ -15,6 +15,13 @@
 // Completed includes
 // Type namespace: Unity.Profiling
 namespace Unity::Profiling {
+  // Forward declaring type: AutoScope
+  struct AutoScope;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Unity::Profiling::ProfilerMarker::AutoScope, "Unity.Profiling", "ProfilerMarker/AutoScope");
+// Type namespace: Unity.Profiling
+namespace Unity::Profiling {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -63,8 +70,6 @@ namespace Unity::Profiling {
   static check_size<sizeof(ProfilerMarker::AutoScope), 0 + sizeof(System::IntPtr)> __Unity_Profiling_ProfilerMarker_AutoScopeSizeCheck;
   static_assert(sizeof(ProfilerMarker::AutoScope) == 0x8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Unity::Profiling::ProfilerMarker::AutoScope, "Unity.Profiling", "ProfilerMarker/AutoScope");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Unity::Profiling::ProfilerMarker::AutoScope::AutoScope
 // Il2CppName: .ctor

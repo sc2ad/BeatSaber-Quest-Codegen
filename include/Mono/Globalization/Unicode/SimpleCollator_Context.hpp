@@ -14,6 +14,13 @@
 // Completed includes
 // Type namespace: Mono.Globalization.Unicode
 namespace Mono::Globalization::Unicode {
+  // Forward declaring type: Context
+  struct Context;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::SimpleCollator::Context, "Mono.Globalization.Unicode", "SimpleCollator/Context");
+// Type namespace: Mono.Globalization.Unicode
+namespace Mono::Globalization::Unicode {
   // Size: 0x38
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -101,8 +108,6 @@ namespace Mono::Globalization::Unicode {
   static check_size<sizeof(SimpleCollator::Context), 48 + sizeof(uint8_t*)> __Mono_Globalization_Unicode_SimpleCollator_ContextSizeCheck;
   static_assert(sizeof(SimpleCollator::Context) == 0x38);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::SimpleCollator::Context, "Mono.Globalization.Unicode", "SimpleCollator/Context");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::Context::Context
 // Il2CppName: .ctor

@@ -10,6 +10,13 @@
 // Completed includes
 // Type namespace: System
 namespace System {
+  // Forward declaring type: SmallRect
+  struct SmallRect;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::SmallRect, "System", "SmallRect");
+// Type namespace: System
+namespace System {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -66,6 +73,4 @@ namespace System {
   static check_size<sizeof(SmallRect), 6 + sizeof(int16_t)> __System_SmallRectSizeCheck;
   static_assert(sizeof(SmallRect) == 0x8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::SmallRect, "System", "SmallRect");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

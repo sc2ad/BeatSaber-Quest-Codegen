@@ -23,6 +23,13 @@ namespace System {
 // Completed forward declares
 // Type namespace: System
 namespace System {
+  // Forward declaring type: GuidResult
+  struct GuidResult;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Guid::GuidResult, "System", "Guid/GuidResult");
+// Type namespace: System
+namespace System {
   // Size: 0x38
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -121,8 +128,6 @@ namespace System {
   static check_size<sizeof(Guid::GuidResult), 48 + sizeof(System::Exception*)> __System_Guid_GuidResultSizeCheck;
   static_assert(sizeof(Guid::GuidResult) == 0x38);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Guid::GuidResult, "System", "Guid/GuidResult");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Guid::GuidResult::Init
 // Il2CppName: Init

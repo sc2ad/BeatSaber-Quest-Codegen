@@ -10,6 +10,13 @@
 // Completed includes
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
+  // Forward declaring type: HAPI_SphereInfo
+  struct HAPI_SphereInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_SphereInfo, "HoudiniEngineUnity", "HAPI_SphereInfo");
+// Type namespace: HoudiniEngineUnity
+namespace HoudiniEngineUnity {
   // Size: 0xC
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -53,8 +60,6 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HAPI_SphereInfo), 8 + sizeof(float)> __HoudiniEngineUnity_HAPI_SphereInfoSizeCheck;
   static_assert(sizeof(HAPI_SphereInfo) == 0xC);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_SphereInfo, "HoudiniEngineUnity", "HAPI_SphereInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HAPI_SphereInfo::HAPI_SphereInfo
 // Il2CppName: .ctor

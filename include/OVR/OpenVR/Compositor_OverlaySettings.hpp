@@ -11,6 +11,13 @@
 // Completed includes
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
+  // Forward declaring type: Compositor_OverlaySettings
+  struct Compositor_OverlaySettings;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::Compositor_OverlaySettings, "OVR.OpenVR", "Compositor_OverlaySettings");
+// Type namespace: OVR.OpenVR
+namespace OVR::OpenVR {
   // Size: 0x70
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -149,6 +156,4 @@ namespace OVR::OpenVR {
   static check_size<sizeof(Compositor_OverlaySettings), 48 + sizeof(OVR::OpenVR::HmdMatrix44_t)> __OVR_OpenVR_Compositor_OverlaySettingsSizeCheck;
   static_assert(sizeof(Compositor_OverlaySettings) == 0x70);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::Compositor_OverlaySettings, "OVR.OpenVR", "Compositor_OverlaySettings");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

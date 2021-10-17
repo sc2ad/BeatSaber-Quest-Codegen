@@ -24,6 +24,13 @@ namespace UnityEngine::Playables {
 // Completed forward declares
 // Type namespace: UnityEngine.Audio
 namespace UnityEngine::Audio {
+  // Forward declaring type: AudioMixerPlayable
+  struct AudioMixerPlayable;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Audio::AudioMixerPlayable, "UnityEngine.Audio", "AudioMixerPlayable");
+// Type namespace: UnityEngine.Audio
+namespace UnityEngine::Audio {
   // Size: 0xC
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -91,8 +98,6 @@ namespace UnityEngine::Audio {
   static check_size<sizeof(AudioMixerPlayable), 0 + sizeof(UnityEngine::Playables::PlayableHandle)> __UnityEngine_Audio_AudioMixerPlayableSizeCheck;
   static_assert(sizeof(AudioMixerPlayable) == 0xC);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Audio::AudioMixerPlayable, "UnityEngine.Audio", "AudioMixerPlayable");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Audio::AudioMixerPlayable::AudioMixerPlayable
 // Il2CppName: .ctor

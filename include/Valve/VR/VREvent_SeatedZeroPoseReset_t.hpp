@@ -9,6 +9,13 @@
 // Completed includes
 // Type namespace: Valve.VR
 namespace Valve::VR {
+  // Forward declaring type: VREvent_SeatedZeroPoseReset_t
+  struct VREvent_SeatedZeroPoseReset_t;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VREvent_SeatedZeroPoseReset_t, "Valve.VR", "VREvent_SeatedZeroPoseReset_t");
+// Type namespace: Valve.VR
+namespace Valve::VR {
   // Size: 0x1
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -45,6 +52,4 @@ namespace Valve::VR {
   static check_size<sizeof(VREvent_SeatedZeroPoseReset_t), 0 + sizeof(bool)> __Valve_VR_VREvent_SeatedZeroPoseReset_tSizeCheck;
   static_assert(sizeof(VREvent_SeatedZeroPoseReset_t) == 0x1);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VREvent_SeatedZeroPoseReset_t, "Valve.VR", "VREvent_SeatedZeroPoseReset_t");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

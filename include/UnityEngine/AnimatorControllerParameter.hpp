@@ -14,6 +14,14 @@
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: AnimatorControllerParameter
+  class AnimatorControllerParameter;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::AnimatorControllerParameter);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimatorControllerParameter*, "UnityEngine", "AnimatorControllerParameter");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x25
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -99,8 +107,6 @@ namespace UnityEngine {
   static check_size<sizeof(AnimatorControllerParameter), 36 + sizeof(bool)> __UnityEngine_AnimatorControllerParameterSizeCheck;
   static_assert(sizeof(AnimatorControllerParameter) == 0x25);
 }
-NEED_NO_BOX(UnityEngine::AnimatorControllerParameter);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimatorControllerParameter*, "UnityEngine", "AnimatorControllerParameter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AnimatorControllerParameter::get_name
 // Il2CppName: get_name

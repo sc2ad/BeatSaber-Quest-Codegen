@@ -14,6 +14,13 @@
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: SkeletonBone
+  struct SkeletonBone;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SkeletonBone, "UnityEngine", "SkeletonBone");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x38
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -86,6 +93,4 @@ namespace UnityEngine {
   static check_size<sizeof(SkeletonBone), 44 + sizeof(UnityEngine::Vector3)> __UnityEngine_SkeletonBoneSizeCheck;
   static_assert(sizeof(SkeletonBone) == 0x38);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SkeletonBone, "UnityEngine", "SkeletonBone");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

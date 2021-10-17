@@ -14,6 +14,13 @@
 // Completed includes
 // Type namespace: TMPro
 namespace TMPro {
+  // Forward declaring type: RichTextTagAttribute
+  struct RichTextTagAttribute;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::RichTextTagAttribute, "TMPro", "RichTextTagAttribute");
+// Type namespace: TMPro
+namespace TMPro {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -86,6 +93,4 @@ namespace TMPro {
   static check_size<sizeof(RichTextTagAttribute), 20 + sizeof(TMPro::TagUnitType)> __TMPro_RichTextTagAttributeSizeCheck;
   static_assert(sizeof(RichTextTagAttribute) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(TMPro::RichTextTagAttribute, "TMPro", "RichTextTagAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

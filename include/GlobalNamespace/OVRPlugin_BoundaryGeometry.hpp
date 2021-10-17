@@ -17,6 +17,13 @@
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
+  // Forward declaring type: BoundaryGeometry
+  struct BoundaryGeometry;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::BoundaryGeometry, "", "OVRPlugin/BoundaryGeometry");
+// Type namespace: 
+namespace GlobalNamespace {
   // Size: 0x14
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -67,6 +74,4 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRPlugin::BoundaryGeometry), 16 + sizeof(int)> __GlobalNamespace_OVRPlugin_BoundaryGeometrySizeCheck;
   static_assert(sizeof(OVRPlugin::BoundaryGeometry) == 0x14);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::BoundaryGeometry, "", "OVRPlugin/BoundaryGeometry");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

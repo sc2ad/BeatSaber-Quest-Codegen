@@ -46,6 +46,13 @@ namespace System {
 // Completed forward declares
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {
+  // Forward declaring type: MarkerList
+  struct MarkerList;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::MarkerList, "UnityEngine.Timeline", "MarkerList");
+// Type namespace: UnityEngine.Timeline
+namespace UnityEngine::Timeline {
   // Size: 0x12
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -155,8 +162,6 @@ namespace UnityEngine::Timeline {
   static check_size<sizeof(MarkerList), 17 + sizeof(bool)> __UnityEngine_Timeline_MarkerListSizeCheck;
   static_assert(sizeof(MarkerList) == 0x12);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::MarkerList, "UnityEngine.Timeline", "MarkerList");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::MarkerList::get_markers
 // Il2CppName: get_markers

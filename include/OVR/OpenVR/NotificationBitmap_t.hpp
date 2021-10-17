@@ -11,6 +11,13 @@
 // Completed includes
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
+  // Forward declaring type: NotificationBitmap_t
+  struct NotificationBitmap_t;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::NotificationBitmap_t, "OVR.OpenVR", "NotificationBitmap_t");
+// Type namespace: OVR.OpenVR
+namespace OVR::OpenVR {
   // Size: 0x14
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -67,6 +74,4 @@ namespace OVR::OpenVR {
   static check_size<sizeof(NotificationBitmap_t), 16 + sizeof(int)> __OVR_OpenVR_NotificationBitmap_tSizeCheck;
   static_assert(sizeof(NotificationBitmap_t) == 0x14);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::NotificationBitmap_t, "OVR.OpenVR", "NotificationBitmap_t");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

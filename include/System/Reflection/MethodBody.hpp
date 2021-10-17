@@ -22,6 +22,14 @@ namespace System::Reflection {
 // Completed forward declares
 // Type namespace: System.Reflection
 namespace System::Reflection {
+  // Forward declaring type: MethodBody
+  class MethodBody;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Reflection::MethodBody);
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MethodBody*, "System.Reflection", "MethodBody");
+// Type namespace: System.Reflection
+namespace System::Reflection {
   // Size: 0x34
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -100,8 +108,6 @@ namespace System::Reflection {
   static check_size<sizeof(MethodBody), 48 + sizeof(int)> __System_Reflection_MethodBodySizeCheck;
   static_assert(sizeof(MethodBody) == 0x34);
 }
-NEED_NO_BOX(System::Reflection::MethodBody);
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MethodBody*, "System.Reflection", "MethodBody");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::MethodBody::New_ctor
 // Il2CppName: .ctor

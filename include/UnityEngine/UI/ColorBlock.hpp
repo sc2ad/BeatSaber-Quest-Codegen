@@ -16,6 +16,13 @@ struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.UI
 namespace UnityEngine::UI {
+  // Forward declaring type: ColorBlock
+  struct ColorBlock;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ColorBlock, "UnityEngine.UI", "ColorBlock");
+// Type namespace: UnityEngine.UI
+namespace UnityEngine::UI {
   // Size: 0x58
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -171,8 +178,6 @@ namespace UnityEngine::UI {
   // Offset: 0x15E060C
   bool operator !=(const UnityEngine::UI::ColorBlock& point1, const UnityEngine::UI::ColorBlock& point2);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ColorBlock, "UnityEngine.UI", "ColorBlock");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::ColorBlock::get_normalColor
 // Il2CppName: get_normalColor

@@ -18,6 +18,13 @@
 // Completed includes
 // Type namespace: UnityEngine.Experimental.GlobalIllumination
 namespace UnityEngine::Experimental::GlobalIllumination {
+  // Forward declaring type: PointLight
+  struct PointLight;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::PointLight, "UnityEngine.Experimental.GlobalIllumination", "PointLight");
+// Type namespace: UnityEngine.Experimental.GlobalIllumination
+namespace UnityEngine::Experimental::GlobalIllumination {
   // Size: 0x3D
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -116,6 +123,4 @@ namespace UnityEngine::Experimental::GlobalIllumination {
   static check_size<sizeof(PointLight), 60 + sizeof(UnityEngine::Experimental::GlobalIllumination::FalloffType)> __UnityEngine_Experimental_GlobalIllumination_PointLightSizeCheck;
   static_assert(sizeof(PointLight) == 0x3D);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::PointLight, "UnityEngine.Experimental.GlobalIllumination", "PointLight");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

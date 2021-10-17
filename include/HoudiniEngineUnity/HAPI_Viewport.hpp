@@ -10,6 +10,13 @@
 // Completed includes
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
+  // Forward declaring type: HAPI_Viewport
+  struct HAPI_Viewport;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_Viewport, "HoudiniEngineUnity", "HAPI_Viewport");
+// Type namespace: HoudiniEngineUnity
+namespace HoudiniEngineUnity {
   // Size: 0x14
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -64,8 +71,6 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HAPI_Viewport), 16 + sizeof(float)> __HoudiniEngineUnity_HAPI_ViewportSizeCheck;
   static_assert(sizeof(HAPI_Viewport) == 0x14);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_Viewport, "HoudiniEngineUnity", "HAPI_Viewport");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HAPI_Viewport::HAPI_Viewport
 // Il2CppName: .ctor

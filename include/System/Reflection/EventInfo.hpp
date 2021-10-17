@@ -39,6 +39,14 @@ namespace Mono {
 // Completed forward declares
 // Type namespace: System.Reflection
 namespace System::Reflection {
+  // Forward declaring type: EventInfo
+  class EventInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Reflection::EventInfo);
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::EventInfo*, "System.Reflection", "EventInfo");
+// Type namespace: System.Reflection
+namespace System::Reflection {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -127,8 +135,6 @@ namespace System::Reflection {
   // Offset: 0x1E8ED9C
   bool operator !=(System::Reflection::EventInfo* left, System::Reflection::EventInfo& right);
 }
-NEED_NO_BOX(System::Reflection::EventInfo);
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::EventInfo*, "System.Reflection", "EventInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::EventInfo::get_EventHandlerType
 // Il2CppName: get_EventHandlerType

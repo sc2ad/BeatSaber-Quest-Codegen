@@ -19,6 +19,13 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine.UI
 namespace UnityEngine::UI {
+  // Forward declaring type: Resources
+  struct Resources;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::DefaultControls::Resources, "UnityEngine.UI", "DefaultControls/Resources");
+// Type namespace: UnityEngine.UI
+namespace UnityEngine::UI {
   // Size: 0x38
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -99,6 +106,4 @@ namespace UnityEngine::UI {
   static check_size<sizeof(DefaultControls::Resources), 48 + sizeof(UnityEngine::Sprite*)> __UnityEngine_UI_DefaultControls_ResourcesSizeCheck;
   static_assert(sizeof(DefaultControls::Resources) == 0x38);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::DefaultControls::Resources, "UnityEngine.UI", "DefaultControls/Resources");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

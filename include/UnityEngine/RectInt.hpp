@@ -14,6 +14,13 @@ struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: RectInt
+  struct RectInt;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RectInt, "UnityEngine", "RectInt");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -95,8 +102,6 @@ namespace UnityEngine {
   static check_size<sizeof(RectInt), 12 + sizeof(int)> __UnityEngine_RectIntSizeCheck;
   static_assert(sizeof(RectInt) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RectInt, "UnityEngine", "RectInt");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::RectInt::get_x
 // Il2CppName: get_x

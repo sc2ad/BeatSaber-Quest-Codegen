@@ -25,6 +25,13 @@ struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: System
 namespace System {
+  // Forward declaring type: UIntPtr
+  struct UIntPtr;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::UIntPtr, "System", "UIntPtr");
+// Type namespace: System
+namespace System {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -113,8 +120,6 @@ namespace System {
   // Offset: 0x251B0D8
   bool operator ==(const System::UIntPtr& value1, const System::UIntPtr& value2);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::UIntPtr, "System", "UIntPtr");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::UIntPtr::get_Size
 // Il2CppName: get_Size

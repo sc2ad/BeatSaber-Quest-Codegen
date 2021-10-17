@@ -27,6 +27,13 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine.Tilemaps
 namespace UnityEngine::Tilemaps {
+  // Forward declaring type: TileData
+  struct TileData;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Tilemaps::TileData, "UnityEngine.Tilemaps", "TileData");
+// Type namespace: UnityEngine.Tilemaps
+namespace UnityEngine::Tilemaps {
   // Size: 0x68
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -119,8 +126,6 @@ namespace UnityEngine::Tilemaps {
   static check_size<sizeof(TileData), 100 + sizeof(UnityEngine::Tilemaps::Tile::ColliderType)> __UnityEngine_Tilemaps_TileDataSizeCheck;
   static_assert(sizeof(TileData) == 0x68);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Tilemaps::TileData, "UnityEngine.Tilemaps", "TileData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Tilemaps::TileData::set_sprite
 // Il2CppName: set_sprite

@@ -17,6 +17,13 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine.Tilemaps
 namespace UnityEngine::Tilemaps {
+  // Forward declaring type: TileAnimationData
+  struct TileAnimationData;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Tilemaps::TileAnimationData, "UnityEngine.Tilemaps", "TileAnimationData");
+// Type namespace: UnityEngine.Tilemaps
+namespace UnityEngine::Tilemaps {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -67,6 +74,4 @@ namespace UnityEngine::Tilemaps {
   static check_size<sizeof(TileAnimationData), 12 + sizeof(float)> __UnityEngine_Tilemaps_TileAnimationDataSizeCheck;
   static_assert(sizeof(TileAnimationData) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Tilemaps::TileAnimationData, "UnityEngine.Tilemaps", "TileAnimationData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

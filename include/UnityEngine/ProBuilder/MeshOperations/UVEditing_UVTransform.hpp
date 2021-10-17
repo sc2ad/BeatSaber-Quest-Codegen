@@ -14,6 +14,13 @@
 // Completed includes
 // Type namespace: UnityEngine.ProBuilder.MeshOperations
 namespace UnityEngine::ProBuilder::MeshOperations {
+  // Forward declaring type: UVTransform
+  struct UVTransform;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::UVEditing::UVTransform, "UnityEngine.ProBuilder.MeshOperations", "UVEditing/UVTransform");
+// Type namespace: UnityEngine.ProBuilder.MeshOperations
+namespace UnityEngine::ProBuilder::MeshOperations {
   // Size: 0x14
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -67,8 +74,6 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   static check_size<sizeof(UVEditing::UVTransform), 12 + sizeof(UnityEngine::Vector2)> __UnityEngine_ProBuilder_MeshOperations_UVEditing_UVTransformSizeCheck;
   static_assert(sizeof(UVEditing::UVTransform) == 0x14);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::UVEditing::UVTransform, "UnityEngine.ProBuilder.MeshOperations", "UVEditing/UVTransform");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::UVEditing::UVTransform::ToString
 // Il2CppName: ToString

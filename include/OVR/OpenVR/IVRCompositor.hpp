@@ -14,6 +14,13 @@ namespace OVR::OpenVR {
 // Completed forward declares
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
+  // Forward declaring type: IVRCompositor
+  struct IVRCompositor;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRCompositor, "OVR.OpenVR", "IVRCompositor");
+// Type namespace: OVR.OpenVR
+namespace OVR::OpenVR {
   // Size: 0x158
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -468,6 +475,4 @@ namespace OVR::OpenVR {
   static check_size<sizeof(IVRCompositor), 336 + sizeof(OVR::OpenVR::IVRCompositor::_SubmitExplicitTimingData*)> __OVR_OpenVR_IVRCompositorSizeCheck;
   static_assert(sizeof(IVRCompositor) == 0x158);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRCompositor, "OVR.OpenVR", "IVRCompositor");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -33,6 +33,13 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: PhysicsScene2D
+  struct PhysicsScene2D;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PhysicsScene2D, "UnityEngine", "PhysicsScene2D");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x4
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -131,8 +138,6 @@ namespace UnityEngine {
   static check_size<sizeof(PhysicsScene2D), 0 + sizeof(int)> __UnityEngine_PhysicsScene2DSizeCheck;
   static_assert(sizeof(PhysicsScene2D) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PhysicsScene2D, "UnityEngine", "PhysicsScene2D");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene2D::Equals
 // Il2CppName: Equals

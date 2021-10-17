@@ -19,6 +19,14 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: TreePrototype
+  class TreePrototype;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::TreePrototype);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TreePrototype*, "UnityEngine", "TreePrototype");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x1C
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -88,8 +96,6 @@ namespace UnityEngine {
   static check_size<sizeof(TreePrototype), 24 + sizeof(float)> __UnityEngine_TreePrototypeSizeCheck;
   static_assert(sizeof(TreePrototype) == 0x1C);
 }
-NEED_NO_BOX(UnityEngine::TreePrototype);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TreePrototype*, "UnityEngine", "TreePrototype");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TreePrototype::get_prefab
 // Il2CppName: get_prefab

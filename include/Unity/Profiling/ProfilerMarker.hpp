@@ -20,6 +20,13 @@ struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: Unity.Profiling
 namespace Unity::Profiling {
+  // Forward declaring type: ProfilerMarker
+  struct ProfilerMarker;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Unity::Profiling::ProfilerMarker, "Unity.Profiling", "ProfilerMarker");
+// Type namespace: Unity.Profiling
+namespace Unity::Profiling {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -76,8 +83,6 @@ namespace Unity::Profiling {
   static check_size<sizeof(ProfilerMarker), 0 + sizeof(System::IntPtr)> __Unity_Profiling_ProfilerMarkerSizeCheck;
   static_assert(sizeof(ProfilerMarker) == 0x8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Unity::Profiling::ProfilerMarker, "Unity.Profiling", "ProfilerMarker");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Unity::Profiling::ProfilerMarker::ProfilerMarker
 // Il2CppName: .ctor

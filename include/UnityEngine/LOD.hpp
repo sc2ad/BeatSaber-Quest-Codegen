@@ -17,6 +17,13 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: LOD
+  struct LOD;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::LOD, "UnityEngine", "LOD");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -69,8 +76,6 @@ namespace UnityEngine {
   static check_size<sizeof(LOD), 8 + sizeof(::ArrayW<UnityEngine::Renderer*>)> __UnityEngine_LODSizeCheck;
   static_assert(sizeof(LOD) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::LOD, "UnityEngine", "LOD");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::LOD::LOD
 // Il2CppName: .ctor

@@ -15,6 +15,13 @@
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
+  // Forward declaring type: EventDataBuffer
+  struct EventDataBuffer;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::EventDataBuffer, "", "OVRPlugin/EventDataBuffer");
+// Type namespace: 
+namespace GlobalNamespace {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -57,6 +64,4 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRPlugin::EventDataBuffer), 8 + sizeof(::ArrayW<uint8_t>)> __GlobalNamespace_OVRPlugin_EventDataBufferSizeCheck;
   static_assert(sizeof(OVRPlugin::EventDataBuffer) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::EventDataBuffer, "", "OVRPlugin/EventDataBuffer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

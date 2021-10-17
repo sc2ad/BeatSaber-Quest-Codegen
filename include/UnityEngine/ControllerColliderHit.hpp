@@ -19,6 +19,14 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: ControllerColliderHit
+  class ControllerColliderHit;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::ControllerColliderHit);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ControllerColliderHit*, "UnityEngine", "ControllerColliderHit");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x4C
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -94,7 +102,4 @@ namespace UnityEngine {
   static check_size<sizeof(ControllerColliderHit), 72 + sizeof(int)> __UnityEngine_ControllerColliderHitSizeCheck;
   static_assert(sizeof(ControllerColliderHit) == 0x4C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ControllerColliderHit);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ControllerColliderHit*, "UnityEngine", "ControllerColliderHit");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

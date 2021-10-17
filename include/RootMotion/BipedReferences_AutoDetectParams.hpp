@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: RootMotion
 namespace RootMotion {
+  // Forward declaring type: AutoDetectParams
+  struct AutoDetectParams;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::BipedReferences::AutoDetectParams, "RootMotion", "BipedReferences/AutoDetectParams");
+// Type namespace: RootMotion
+namespace RootMotion {
   // Size: 0x2
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -58,8 +65,6 @@ namespace RootMotion {
   static check_size<sizeof(BipedReferences::AutoDetectParams), 1 + sizeof(bool)> __RootMotion_BipedReferences_AutoDetectParamsSizeCheck;
   static_assert(sizeof(BipedReferences::AutoDetectParams) == 0x2);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::BipedReferences::AutoDetectParams, "RootMotion", "BipedReferences/AutoDetectParams");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::BipedReferences::AutoDetectParams::get_Default
 // Il2CppName: get_Default

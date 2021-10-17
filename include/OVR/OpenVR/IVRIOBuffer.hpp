@@ -14,6 +14,13 @@ namespace OVR::OpenVR {
 // Completed forward declares
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
+  // Forward declaring type: IVRIOBuffer
+  struct IVRIOBuffer;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRIOBuffer, "OVR.OpenVR", "IVRIOBuffer");
+// Type namespace: OVR.OpenVR
+namespace OVR::OpenVR {
   // Size: 0x28
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -88,6 +95,4 @@ namespace OVR::OpenVR {
   static check_size<sizeof(IVRIOBuffer), 32 + sizeof(OVR::OpenVR::IVRIOBuffer::_PropertyContainer*)> __OVR_OpenVR_IVRIOBufferSizeCheck;
   static_assert(sizeof(IVRIOBuffer) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRIOBuffer, "OVR.OpenVR", "IVRIOBuffer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

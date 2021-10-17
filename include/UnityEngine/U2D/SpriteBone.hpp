@@ -14,6 +14,13 @@
 // Completed includes
 // Type namespace: UnityEngine.U2D
 namespace UnityEngine::U2D {
+  // Forward declaring type: SpriteBone
+  struct SpriteBone;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::U2D::SpriteBone, "UnityEngine.U2D", "SpriteBone");
+// Type namespace: UnityEngine.U2D
+namespace UnityEngine::U2D {
   // Size: 0x2C
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -88,6 +95,4 @@ namespace UnityEngine::U2D {
   static check_size<sizeof(SpriteBone), 40 + sizeof(int)> __UnityEngine_U2D_SpriteBoneSizeCheck;
   static_assert(sizeof(SpriteBone) == 0x2C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::U2D::SpriteBone, "UnityEngine.U2D", "SpriteBone");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

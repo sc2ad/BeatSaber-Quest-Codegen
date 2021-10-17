@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
+  // Forward declaring type: CameraDeviceIntrinsicsParameters
+  struct CameraDeviceIntrinsicsParameters;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::CameraDeviceIntrinsicsParameters, "", "OVRPlugin/CameraDeviceIntrinsicsParameters");
+// Type namespace: 
+namespace GlobalNamespace {
   // Size: 0x4C
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -148,6 +155,4 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRPlugin::CameraDeviceIntrinsicsParameters), 72 + sizeof(int)> __GlobalNamespace_OVRPlugin_CameraDeviceIntrinsicsParametersSizeCheck;
   static_assert(sizeof(OVRPlugin::CameraDeviceIntrinsicsParameters) == 0x4C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::CameraDeviceIntrinsicsParameters, "", "OVRPlugin/CameraDeviceIntrinsicsParameters");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

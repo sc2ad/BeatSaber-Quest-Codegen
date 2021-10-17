@@ -18,6 +18,13 @@ namespace System {
 // Completed forward declares
 // Type namespace: System.Net.NetworkInformation.MacOsStructs
 namespace System::Net::NetworkInformation::MacOsStructs {
+  // Forward declaring type: sockaddr_dl
+  struct sockaddr_dl;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::MacOsStructs::sockaddr_dl, "System.Net.NetworkInformation.MacOsStructs", "sockaddr_dl");
+// Type namespace: System.Net.NetworkInformation.MacOsStructs
+namespace System::Net::NetworkInformation::MacOsStructs {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -109,8 +116,6 @@ namespace System::Net::NetworkInformation::MacOsStructs {
   static check_size<sizeof(sockaddr_dl), 8 + sizeof(::ArrayW<uint8_t>)> __System_Net_NetworkInformation_MacOsStructs_sockaddr_dlSizeCheck;
   static_assert(sizeof(sockaddr_dl) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::MacOsStructs::sockaddr_dl, "System.Net.NetworkInformation.MacOsStructs", "sockaddr_dl");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::NetworkInformation::MacOsStructs::sockaddr_dl::Read
 // Il2CppName: Read

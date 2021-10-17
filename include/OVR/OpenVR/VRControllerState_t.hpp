@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
+  // Forward declaring type: VRControllerState_t
+  struct VRControllerState_t;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VRControllerState_t, "OVR.OpenVR", "VRControllerState_t");
+// Type namespace: OVR.OpenVR
+namespace OVR::OpenVR {
   // Size: 0x40
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -102,6 +109,4 @@ namespace OVR::OpenVR {
   static check_size<sizeof(VRControllerState_t), 56 + sizeof(OVR::OpenVR::VRControllerAxis_t)> __OVR_OpenVR_VRControllerState_tSizeCheck;
   static_assert(sizeof(VRControllerState_t) == 0x40);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VRControllerState_t, "OVR.OpenVR", "VRControllerState_t");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

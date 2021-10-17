@@ -13,6 +13,13 @@
 // Completed includes
 // Type namespace: UnityEngine.XR
 namespace UnityEngine::XR {
+  // Forward declaring type: XRMirrorViewBlitDesc
+  struct XRMirrorViewBlitDesc;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::XRDisplaySubsystem::XRMirrorViewBlitDesc, "UnityEngine.XR", "XRDisplaySubsystem/XRMirrorViewBlitDesc");
+// Type namespace: UnityEngine.XR
+namespace UnityEngine::XR {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -72,6 +79,4 @@ namespace UnityEngine::XR {
   static check_size<sizeof(XRDisplaySubsystem::XRMirrorViewBlitDesc), 12 + sizeof(int)> __UnityEngine_XR_XRDisplaySubsystem_XRMirrorViewBlitDescSizeCheck;
   static_assert(sizeof(XRDisplaySubsystem::XRMirrorViewBlitDesc) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::XRDisplaySubsystem::XRMirrorViewBlitDesc, "UnityEngine.XR", "XRDisplaySubsystem/XRMirrorViewBlitDesc");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

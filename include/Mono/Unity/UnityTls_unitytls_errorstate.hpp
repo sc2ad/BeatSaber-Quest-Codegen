@@ -14,6 +14,13 @@
 // Completed includes
 // Type namespace: Mono.Unity
 namespace Mono::Unity {
+  // Forward declaring type: unitytls_errorstate
+  struct unitytls_errorstate;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTls::unitytls_errorstate, "Mono.Unity", "UnityTls/unitytls_errorstate");
+// Type namespace: Mono.Unity
+namespace Mono::Unity {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -62,6 +69,4 @@ namespace Mono::Unity {
   static check_size<sizeof(UnityTls::unitytls_errorstate), 8 + sizeof(uint64_t)> __Mono_Unity_UnityTls_unitytls_errorstateSizeCheck;
   static_assert(sizeof(UnityTls::unitytls_errorstate) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTls::unitytls_errorstate, "Mono.Unity", "UnityTls/unitytls_errorstate");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -9,6 +9,13 @@
 // Completed includes
 // Type namespace: UnityEngine.Rendering
 namespace UnityEngine::Rendering {
+  // Forward declaring type: BatchVisibility
+  struct BatchVisibility;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::BatchVisibility, "UnityEngine.Rendering", "BatchVisibility");
+// Type namespace: UnityEngine.Rendering
+namespace UnityEngine::Rendering {
   // Size: 0xC
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -57,6 +64,4 @@ namespace UnityEngine::Rendering {
   static check_size<sizeof(BatchVisibility), 8 + sizeof(int)> __UnityEngine_Rendering_BatchVisibilitySizeCheck;
   static_assert(sizeof(BatchVisibility) == 0xC);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::BatchVisibility, "UnityEngine.Rendering", "BatchVisibility");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

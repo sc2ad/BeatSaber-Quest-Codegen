@@ -22,6 +22,13 @@ struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: Vector3Int
+  struct Vector3Int;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Vector3Int, "UnityEngine", "Vector3Int");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0xC
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -160,8 +167,6 @@ namespace UnityEngine {
   // Offset: 0x2333368
   bool operator ==(const UnityEngine::Vector3Int& lhs, const UnityEngine::Vector3Int& rhs);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Vector3Int, "UnityEngine", "Vector3Int");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Vector3Int::get_x
 // Il2CppName: get_x

@@ -14,6 +14,13 @@ namespace Valve::VR {
 // Completed forward declares
 // Type namespace: Valve.VR
 namespace Valve::VR {
+  // Forward declaring type: IVROverlay
+  struct IVROverlay;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVROverlay, "Valve.VR", "IVROverlay");
+// Type namespace: Valve.VR
+namespace Valve::VR {
   // Size: 0x290
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -858,6 +865,4 @@ namespace Valve::VR {
   static check_size<sizeof(IVROverlay), 648 + sizeof(Valve::VR::IVROverlay::_CloseMessageOverlay*)> __Valve_VR_IVROverlaySizeCheck;
   static_assert(sizeof(IVROverlay) == 0x290);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVROverlay, "Valve.VR", "IVROverlay");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

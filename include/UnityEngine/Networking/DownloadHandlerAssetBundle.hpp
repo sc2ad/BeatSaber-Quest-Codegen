@@ -29,6 +29,14 @@ namespace System {
 // Completed forward declares
 // Type namespace: UnityEngine.Networking
 namespace UnityEngine::Networking {
+  // Forward declaring type: DownloadHandlerAssetBundle
+  class DownloadHandlerAssetBundle;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::Networking::DownloadHandlerAssetBundle);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::DownloadHandlerAssetBundle*, "UnityEngine.Networking", "DownloadHandlerAssetBundle");
+// Type namespace: UnityEngine.Networking
+namespace UnityEngine::Networking {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -82,8 +90,6 @@ namespace UnityEngine::Networking {
   }; // UnityEngine.Networking.DownloadHandlerAssetBundle
   #pragma pack(pop)
 }
-NEED_NO_BOX(UnityEngine::Networking::DownloadHandlerAssetBundle);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::DownloadHandlerAssetBundle*, "UnityEngine.Networking", "DownloadHandlerAssetBundle");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandlerAssetBundle::get_assetBundle
 // Il2CppName: get_assetBundle

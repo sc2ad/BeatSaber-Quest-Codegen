@@ -29,6 +29,14 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: Gradient
+  class Gradient;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::Gradient);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Gradient*, "UnityEngine", "Gradient");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -122,8 +130,6 @@ namespace UnityEngine {
   static check_size<sizeof(Gradient), 16 + sizeof(System::IntPtr)> __UnityEngine_GradientSizeCheck;
   static_assert(sizeof(Gradient) == 0x18);
 }
-NEED_NO_BOX(UnityEngine::Gradient);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Gradient*, "UnityEngine", "Gradient");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Gradient::get_colorKeys
 // Il2CppName: get_colorKeys

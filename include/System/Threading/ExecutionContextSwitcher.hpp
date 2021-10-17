@@ -19,6 +19,13 @@ namespace System::Threading {
 // Completed forward declares
 // Type namespace: System.Threading
 namespace System::Threading {
+  // Forward declaring type: ExecutionContextSwitcher
+  struct ExecutionContextSwitcher;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::ExecutionContextSwitcher, "System.Threading", "ExecutionContextSwitcher");
+// Type namespace: System.Threading
+namespace System::Threading {
   // Size: 0x20
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -83,8 +90,6 @@ namespace System::Threading {
   static check_size<sizeof(ExecutionContextSwitcher), 24 + sizeof(System::Threading::Thread*)> __System_Threading_ExecutionContextSwitcherSizeCheck;
   static_assert(sizeof(ExecutionContextSwitcher) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::ExecutionContextSwitcher, "System.Threading", "ExecutionContextSwitcher");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::ExecutionContextSwitcher::UndoNoThrow
 // Il2CppName: UndoNoThrow

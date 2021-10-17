@@ -53,6 +53,14 @@ namespace System::Collections::Generic {
 // Completed forward declares
 // Type namespace: System.Reflection
 namespace System::Reflection {
+  // Forward declaring type: MonoProperty
+  class MonoProperty;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Reflection::MonoProperty);
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoProperty*, "System.Reflection", "MonoProperty");
+// Type namespace: System.Reflection
+namespace System::Reflection {
   // Size: 0x60
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -269,8 +277,6 @@ namespace System::Reflection {
   static check_size<sizeof(MonoProperty), 88 + sizeof(System::Reflection::MonoProperty::GetterAdapter*)> __System_Reflection_MonoPropertySizeCheck;
   static_assert(sizeof(MonoProperty) == 0x60);
 }
-NEED_NO_BOX(System::Reflection::MonoProperty);
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoProperty*, "System.Reflection", "MonoProperty");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::MonoProperty::CachePropertyInfo
 // Il2CppName: CachePropertyInfo

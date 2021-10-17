@@ -16,6 +16,13 @@
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
+  // Forward declaring type: Recti
+  struct Recti;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Recti, "", "OVRPlugin/Recti");
+// Type namespace: 
+namespace GlobalNamespace {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -56,6 +63,4 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRPlugin::Recti), 8 + sizeof(GlobalNamespace::OVRPlugin::Sizei)> __GlobalNamespace_OVRPlugin_RectiSizeCheck;
   static_assert(sizeof(OVRPlugin::Recti) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Recti, "", "OVRPlugin/Recti");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

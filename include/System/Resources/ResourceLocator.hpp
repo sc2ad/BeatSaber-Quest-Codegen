@@ -19,6 +19,13 @@ struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Resources
 namespace System::Resources {
+  // Forward declaring type: ResourceLocator
+  struct ResourceLocator;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Resources::ResourceLocator, "System.Resources", "ResourceLocator");
+// Type namespace: System.Resources
+namespace System::Resources {
   // Size: 0xC
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -74,8 +81,6 @@ namespace System::Resources {
   static check_size<sizeof(ResourceLocator), 8 + sizeof(int)> __System_Resources_ResourceLocatorSizeCheck;
   static_assert(sizeof(ResourceLocator) == 0xC);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Resources::ResourceLocator, "System.Resources", "ResourceLocator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Resources::ResourceLocator::get_DataPosition
 // Il2CppName: get_DataPosition

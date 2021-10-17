@@ -25,6 +25,14 @@ namespace System::Reflection {
 // Completed forward declares
 // Type namespace: System
 namespace System {
+  // Forward declaring type: MulticastDelegate
+  class MulticastDelegate;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::MulticastDelegate);
+DEFINE_IL2CPP_ARG_TYPE(System::MulticastDelegate*, "System", "MulticastDelegate");
+// Type namespace: System
+namespace System {
   // Size: 0x70
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -101,9 +109,6 @@ namespace System {
   static check_size<sizeof(MulticastDelegate), 104 + sizeof(::ArrayW<System::Delegate*>)> __System_MulticastDelegateSizeCheck;
   static_assert(sizeof(MulticastDelegate) == 0x70);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::MulticastDelegate);
-DEFINE_IL2CPP_ARG_TYPE(System::MulticastDelegate*, "System", "MulticastDelegate");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::MulticastDelegate::LastIndexOf
 // Il2CppName: LastIndexOf

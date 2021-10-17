@@ -27,6 +27,13 @@ namespace LiteNetLib::Utils {
 // Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
+  // Forward declaring type: BeatmapLevelSelectionMask
+  struct BeatmapLevelSelectionMask;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelSelectionMask, "", "BeatmapLevelSelectionMask");
+// Type namespace: 
+namespace GlobalNamespace {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -112,8 +119,6 @@ namespace GlobalNamespace {
   // Offset: 0x1431DCC
   bool operator !=(const GlobalNamespace::BeatmapLevelSelectionMask& l, const GlobalNamespace::BeatmapLevelSelectionMask& r);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelSelectionMask, "", "BeatmapLevelSelectionMask");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelSelectionMask::BeatmapLevelSelectionMask
 // Il2CppName: .ctor

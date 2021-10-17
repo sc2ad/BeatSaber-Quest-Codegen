@@ -28,6 +28,14 @@ namespace System::Threading {
 // Completed forward declares
 // Type namespace: System
 namespace System {
+  // Forward declaring type: IOAsyncResult
+  class IOAsyncResult;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::IOAsyncResult);
+DEFINE_IL2CPP_ARG_TYPE(System::IOAsyncResult*, "System", "IOAsyncResult");
+// Type namespace: System
+namespace System {
   // Size: 0x2A
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -133,8 +141,6 @@ namespace System {
   static check_size<sizeof(IOAsyncResult), 41 + sizeof(bool)> __System_IOAsyncResultSizeCheck;
   static_assert(sizeof(IOAsyncResult) == 0x2A);
 }
-NEED_NO_BOX(System::IOAsyncResult);
-DEFINE_IL2CPP_ARG_TYPE(System::IOAsyncResult*, "System", "IOAsyncResult");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IOAsyncResult::get_AsyncCallback
 // Il2CppName: get_AsyncCallback

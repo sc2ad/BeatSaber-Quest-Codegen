@@ -9,6 +9,13 @@
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: AnimatorClipInfo
+  struct AnimatorClipInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimatorClipInfo, "UnityEngine", "AnimatorClipInfo");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -52,6 +59,4 @@ namespace UnityEngine {
   static check_size<sizeof(AnimatorClipInfo), 4 + sizeof(float)> __UnityEngine_AnimatorClipInfoSizeCheck;
   static_assert(sizeof(AnimatorClipInfo) == 0x8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimatorClipInfo, "UnityEngine", "AnimatorClipInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

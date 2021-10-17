@@ -22,6 +22,13 @@
 // Completed includes
 // Type namespace: System.Net.NetworkInformation
 namespace System::Net::NetworkInformation {
+  // Forward declaring type: Win32_IP_ADAPTER_UNICAST_ADDRESS
+  struct Win32_IP_ADAPTER_UNICAST_ADDRESS;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32_IP_ADAPTER_UNICAST_ADDRESS, "System.Net.NetworkInformation", "Win32_IP_ADAPTER_UNICAST_ADDRESS");
+// Type namespace: System.Net.NetworkInformation
+namespace System::Net::NetworkInformation {
   // Size: 0x39
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -128,6 +135,4 @@ namespace System::Net::NetworkInformation {
   static check_size<sizeof(Win32_IP_ADAPTER_UNICAST_ADDRESS), 56 + sizeof(uint8_t)> __System_Net_NetworkInformation_Win32_IP_ADAPTER_UNICAST_ADDRESSSizeCheck;
   static_assert(sizeof(Win32_IP_ADAPTER_UNICAST_ADDRESS) == 0x39);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32_IP_ADAPTER_UNICAST_ADDRESS, "System.Net.NetworkInformation", "Win32_IP_ADAPTER_UNICAST_ADDRESS");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

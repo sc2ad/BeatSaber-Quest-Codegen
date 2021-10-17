@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
+  // Forward declaring type: AppPerfFrameStats
+  struct AppPerfFrameStats;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::AppPerfFrameStats, "", "OVRPlugin/AppPerfFrameStats");
+// Type namespace: 
+namespace GlobalNamespace {
   // Size: 0x38
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -148,6 +155,4 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRPlugin::AppPerfFrameStats), 52 + sizeof(float)> __GlobalNamespace_OVRPlugin_AppPerfFrameStatsSizeCheck;
   static_assert(sizeof(OVRPlugin::AppPerfFrameStats) == 0x38);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::AppPerfFrameStats, "", "OVRPlugin/AppPerfFrameStats");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -21,6 +21,13 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
+  // Forward declaring type: TransformData
+  struct TransformData;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::TransformData, "HoudiniEngineUnity", "TransformData");
+// Type namespace: HoudiniEngineUnity
+namespace HoudiniEngineUnity {
   // Size: 0x50
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -104,8 +111,6 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(TransformData), 72 + sizeof(UnityEngine::Transform*)> __HoudiniEngineUnity_TransformDataSizeCheck;
   static_assert(sizeof(TransformData) == 0x50);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::TransformData, "HoudiniEngineUnity", "TransformData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::TransformData::TransformData
 // Il2CppName: .ctor

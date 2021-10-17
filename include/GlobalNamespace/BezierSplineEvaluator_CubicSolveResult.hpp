@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
+  // Forward declaring type: CubicSolveResult
+  struct CubicSolveResult;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BezierSplineEvaluator::CubicSolveResult, "", "BezierSplineEvaluator/CubicSolveResult");
+// Type namespace: 
+namespace GlobalNamespace {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -77,8 +84,6 @@ namespace GlobalNamespace {
   static check_size<sizeof(BezierSplineEvaluator::CubicSolveResult), 12 + sizeof(float)> __GlobalNamespace_BezierSplineEvaluator_CubicSolveResultSizeCheck;
   static_assert(sizeof(BezierSplineEvaluator::CubicSolveResult) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BezierSplineEvaluator::CubicSolveResult, "", "BezierSplineEvaluator/CubicSolveResult");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BezierSplineEvaluator::CubicSolveResult::CubicSolveResult
 // Il2CppName: .ctor

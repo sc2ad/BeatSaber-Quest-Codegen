@@ -23,6 +23,13 @@ struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.Rendering
 namespace UnityEngine::Rendering {
+  // Forward declaring type: ScriptableRenderContext
+  struct ScriptableRenderContext;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::ScriptableRenderContext, "UnityEngine.Rendering", "ScriptableRenderContext");
+// Type namespace: UnityEngine.Rendering
+namespace UnityEngine::Rendering {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -103,8 +110,6 @@ namespace UnityEngine::Rendering {
   static check_size<sizeof(ScriptableRenderContext), 0 + sizeof(System::IntPtr)> __UnityEngine_Rendering_ScriptableRenderContextSizeCheck;
   static_assert(sizeof(ScriptableRenderContext) == 0x8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::ScriptableRenderContext, "UnityEngine.Rendering", "ScriptableRenderContext");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Rendering::ScriptableRenderContext::ScriptableRenderContext
 // Il2CppName: .ctor

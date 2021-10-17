@@ -9,6 +9,13 @@
 // Completed includes
 // Type namespace: System.Net.NetworkInformation
 namespace System::Net::NetworkInformation {
+  // Forward declaring type: Win32LengthFlagsUnion
+  struct Win32LengthFlagsUnion;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32LengthFlagsUnion, "System.Net.NetworkInformation", "Win32LengthFlagsUnion");
+// Type namespace: System.Net.NetworkInformation
+namespace System::Net::NetworkInformation {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -49,6 +56,4 @@ namespace System::Net::NetworkInformation {
   static check_size<sizeof(Win32LengthFlagsUnion), 4 + sizeof(uint)> __System_Net_NetworkInformation_Win32LengthFlagsUnionSizeCheck;
   static_assert(sizeof(Win32LengthFlagsUnion) == 0x8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32LengthFlagsUnion, "System.Net.NetworkInformation", "Win32LengthFlagsUnion");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

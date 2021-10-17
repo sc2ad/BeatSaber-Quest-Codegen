@@ -14,6 +14,13 @@ namespace OVR::OpenVR {
 // Completed forward declares
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
+  // Forward declaring type: IVRSpatialAnchors
+  struct IVRSpatialAnchors;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRSpatialAnchors, "OVR.OpenVR", "IVRSpatialAnchors");
+// Type namespace: OVR.OpenVR
+namespace OVR::OpenVR {
   // Size: 0x20
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -78,6 +85,4 @@ namespace OVR::OpenVR {
   static check_size<sizeof(IVRSpatialAnchors), 24 + sizeof(OVR::OpenVR::IVRSpatialAnchors::_GetSpatialAnchorDescriptor*)> __OVR_OpenVR_IVRSpatialAnchorsSizeCheck;
   static_assert(sizeof(IVRSpatialAnchors) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRSpatialAnchors, "OVR.OpenVR", "IVRSpatialAnchors");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

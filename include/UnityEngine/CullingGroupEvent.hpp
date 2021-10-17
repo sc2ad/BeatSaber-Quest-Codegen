@@ -10,6 +10,13 @@
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: CullingGroupEvent
+  struct CullingGroupEvent;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CullingGroupEvent, "UnityEngine", "CullingGroupEvent");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x6
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -58,6 +65,4 @@ namespace UnityEngine {
   static check_size<sizeof(CullingGroupEvent), 5 + sizeof(uint8_t)> __UnityEngine_CullingGroupEventSizeCheck;
   static_assert(sizeof(CullingGroupEvent) == 0x6);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CullingGroupEvent, "UnityEngine", "CullingGroupEvent");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

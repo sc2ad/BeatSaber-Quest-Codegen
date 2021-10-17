@@ -14,6 +14,13 @@
 // Completed includes
 // Type namespace: UnityEngine.SceneManagement
 namespace UnityEngine::SceneManagement {
+  // Forward declaring type: LoadSceneParameters
+  struct LoadSceneParameters;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SceneManagement::LoadSceneParameters, "UnityEngine.SceneManagement", "LoadSceneParameters");
+// Type namespace: UnityEngine.SceneManagement
+namespace UnityEngine::SceneManagement {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -60,8 +67,6 @@ namespace UnityEngine::SceneManagement {
   static check_size<sizeof(LoadSceneParameters), 4 + sizeof(UnityEngine::SceneManagement::LocalPhysicsMode)> __UnityEngine_SceneManagement_LoadSceneParametersSizeCheck;
   static_assert(sizeof(LoadSceneParameters) == 0x8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SceneManagement::LoadSceneParameters, "UnityEngine.SceneManagement", "LoadSceneParameters");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::SceneManagement::LoadSceneParameters::set_loadSceneMode
 // Il2CppName: set_loadSceneMode

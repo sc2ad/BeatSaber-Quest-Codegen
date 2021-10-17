@@ -14,6 +14,13 @@
 // Completed includes
 // Type namespace: System
 namespace System {
+  // Forward declaring type: DateTimeToken
+  struct DateTimeToken;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::DateTimeToken, "System", "DateTimeToken");
+// Type namespace: System
+namespace System {
   // Size: 0xC
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -62,6 +69,4 @@ namespace System {
   static check_size<sizeof(DateTimeToken), 8 + sizeof(int)> __System_DateTimeTokenSizeCheck;
   static_assert(sizeof(DateTimeToken) == 0xC);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::DateTimeToken, "System", "DateTimeToken");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

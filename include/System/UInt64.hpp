@@ -40,6 +40,13 @@ namespace System::Globalization {
 // Completed forward declares
 // Type namespace: System
 namespace System {
+  // Forward declaring type: UInt64
+  struct UInt64;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::UInt64, "System", "UInt64");
+// Type namespace: System
+namespace System {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -203,8 +210,6 @@ namespace System {
   static check_size<sizeof(UInt64), 0 + sizeof(uint64_t)> __System_UInt64SizeCheck;
   static_assert(sizeof(UInt64) == 0x8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::UInt64, "System", "UInt64");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::UInt64::CompareTo
 // Il2CppName: CompareTo

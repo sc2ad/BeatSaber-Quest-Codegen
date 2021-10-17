@@ -14,6 +14,14 @@
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: TrackedReference
+  class TrackedReference;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::TrackedReference);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TrackedReference*, "UnityEngine", "TrackedReference");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -67,8 +75,6 @@ namespace UnityEngine {
   // Offset: 0x232BAC0
   bool operator ==(UnityEngine::TrackedReference* x, UnityEngine::TrackedReference& y);
 }
-NEED_NO_BOX(UnityEngine::TrackedReference);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TrackedReference*, "UnityEngine", "TrackedReference");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TrackedReference::New_ctor
 // Il2CppName: .ctor

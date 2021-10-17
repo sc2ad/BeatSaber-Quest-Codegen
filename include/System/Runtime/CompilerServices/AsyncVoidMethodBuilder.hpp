@@ -39,6 +39,13 @@ namespace System {
 // Completed forward declares
 // Type namespace: System.Runtime.CompilerServices
 namespace System::Runtime::CompilerServices {
+  // Forward declaring type: AsyncVoidMethodBuilder
+  struct AsyncVoidMethodBuilder;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::AsyncVoidMethodBuilder, "System.Runtime.CompilerServices", "AsyncVoidMethodBuilder");
+// Type namespace: System.Runtime.CompilerServices
+namespace System::Runtime::CompilerServices {
   // Size: 0x20
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -126,7 +133,6 @@ namespace System::Runtime::CompilerServices {
   static check_size<sizeof(AsyncVoidMethodBuilder), 24 + sizeof(System::Threading::Tasks::Task*)> __System_Runtime_CompilerServices_AsyncVoidMethodBuilderSizeCheck;
   static_assert(sizeof(AsyncVoidMethodBuilder) == 0x20);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::AsyncVoidMethodBuilder, "System.Runtime.CompilerServices", "AsyncVoidMethodBuilder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::AsyncVoidMethodBuilder::get_Task
 // Il2CppName: get_Task

@@ -72,6 +72,14 @@ namespace System::Runtime::Remoting::Contexts {
 // Completed forward declares
 // Type namespace: System.Threading
 namespace System::Threading {
+  // Forward declaring type: Thread
+  class Thread;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Threading::Thread);
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::Thread*, "System.Threading", "Thread");
+// Type namespace: System.Threading
+namespace System::Threading {
   // Size: 0x49
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -401,8 +409,6 @@ namespace System::Threading {
   static check_size<sizeof(Thread), 72 + sizeof(bool)> __System_Threading_ThreadSizeCheck;
   static_assert(sizeof(Thread) == 0x49);
 }
-NEED_NO_BOX(System::Threading::Thread);
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::Thread*, "System.Threading", "Thread");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::Thread::get_ExecutionContextBelongsToCurrentScope
 // Il2CppName: get_ExecutionContextBelongsToCurrentScope

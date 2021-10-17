@@ -11,6 +11,13 @@
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
+  // Forward declaring type: MeshRendererData
+  struct MeshRendererData;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMeshRenderer::MeshRendererData, "", "OVRMeshRenderer/MeshRendererData");
+// Type namespace: 
+namespace GlobalNamespace {
   // Size: 0x3
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -77,8 +84,6 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRMeshRenderer::MeshRendererData), 2 + sizeof(bool)> __GlobalNamespace_OVRMeshRenderer_MeshRendererDataSizeCheck;
   static_assert(sizeof(OVRMeshRenderer::MeshRendererData) == 0x3);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMeshRenderer::MeshRendererData, "", "OVRMeshRenderer/MeshRendererData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRMeshRenderer::MeshRendererData::get_IsDataValid
 // Il2CppName: get_IsDataValid

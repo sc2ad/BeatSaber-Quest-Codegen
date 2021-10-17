@@ -29,6 +29,13 @@ struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: System
 namespace System {
+  // Forward declaring type: TimeSpan
+  struct TimeSpan;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::TimeSpan, "System", "TimeSpan");
+// Type namespace: System
+namespace System {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -234,8 +241,6 @@ namespace System {
   // Offset: 0x19AA0C4
   bool operator >=(const System::TimeSpan& t1, const System::TimeSpan& t2);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::TimeSpan, "System", "TimeSpan");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::TimeSpan::get_Ticks
 // Il2CppName: get_Ticks

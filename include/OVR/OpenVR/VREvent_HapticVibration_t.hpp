@@ -10,6 +10,13 @@
 // Completed includes
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
+  // Forward declaring type: VREvent_HapticVibration_t
+  struct VREvent_HapticVibration_t;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VREvent_HapticVibration_t, "OVR.OpenVR", "VREvent_HapticVibration_t");
+// Type namespace: OVR.OpenVR
+namespace OVR::OpenVR {
   // Size: 0x1C
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -74,6 +81,4 @@ namespace OVR::OpenVR {
   static check_size<sizeof(VREvent_HapticVibration_t), 24 + sizeof(float)> __OVR_OpenVR_VREvent_HapticVibration_tSizeCheck;
   static_assert(sizeof(VREvent_HapticVibration_t) == 0x1C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VREvent_HapticVibration_t, "OVR.OpenVR", "VREvent_HapticVibration_t");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

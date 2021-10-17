@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: Ray
+  struct Ray;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Ray, "UnityEngine", "Ray");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -75,8 +82,6 @@ namespace UnityEngine {
   static check_size<sizeof(Ray), 12 + sizeof(UnityEngine::Vector3)> __UnityEngine_RaySizeCheck;
   static_assert(sizeof(Ray) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Ray, "UnityEngine", "Ray");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Ray::get_origin
 // Il2CppName: get_origin

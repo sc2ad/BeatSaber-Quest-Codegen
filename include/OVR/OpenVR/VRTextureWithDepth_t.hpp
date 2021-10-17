@@ -11,6 +11,13 @@
 // Completed includes
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
+  // Forward declaring type: VRTextureWithDepth_t
+  struct VRTextureWithDepth_t;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VRTextureWithDepth_t, "OVR.OpenVR", "VRTextureWithDepth_t");
+// Type namespace: OVR.OpenVR
+namespace OVR::OpenVR {
   // Size: 0x50
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -47,6 +54,4 @@ namespace OVR::OpenVR {
   static check_size<sizeof(VRTextureWithDepth_t), 0 + sizeof(OVR::OpenVR::VRTextureDepthInfo_t)> __OVR_OpenVR_VRTextureWithDepth_tSizeCheck;
   static_assert(sizeof(VRTextureWithDepth_t) == 0x50);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VRTextureWithDepth_t, "OVR.OpenVR", "VRTextureWithDepth_t");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -11,6 +11,13 @@
 // Completed includes
 // Type namespace: Valve.VR
 namespace Valve::VR {
+  // Forward declaring type: VRTextureWithPoseAndDepth_t
+  struct VRTextureWithPoseAndDepth_t;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VRTextureWithPoseAndDepth_t, "Valve.VR", "VRTextureWithPoseAndDepth_t");
+// Type namespace: Valve.VR
+namespace Valve::VR {
   // Size: 0x50
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -47,6 +54,4 @@ namespace Valve::VR {
   static check_size<sizeof(VRTextureWithPoseAndDepth_t), 0 + sizeof(Valve::VR::VRTextureDepthInfo_t)> __Valve_VR_VRTextureWithPoseAndDepth_tSizeCheck;
   static_assert(sizeof(VRTextureWithPoseAndDepth_t) == 0x50);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VRTextureWithPoseAndDepth_t, "Valve.VR", "VRTextureWithPoseAndDepth_t");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -11,6 +11,13 @@
 // Completed includes
 // Type namespace: System.Net.NetworkInformation
 namespace System::Net::NetworkInformation {
+  // Forward declaring type: in6_addr
+  struct in6_addr;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::in6_addr, "System.Net.NetworkInformation", "in6_addr");
+// Type namespace: System.Net.NetworkInformation
+namespace System::Net::NetworkInformation {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -47,6 +54,4 @@ namespace System::Net::NetworkInformation {
   static check_size<sizeof(in6_addr), 0 + sizeof(::ArrayW<uint8_t>)> __System_Net_NetworkInformation_in6_addrSizeCheck;
   static_assert(sizeof(in6_addr) == 0x8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::in6_addr, "System.Net.NetworkInformation", "in6_addr");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

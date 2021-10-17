@@ -14,6 +14,13 @@ struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: SFB
 namespace SFB {
+  // Forward declaring type: ExtensionFilter
+  struct ExtensionFilter;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(SFB::ExtensionFilter, "SFB", "ExtensionFilter");
+// Type namespace: SFB
+namespace SFB {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -57,8 +64,6 @@ namespace SFB {
   static check_size<sizeof(ExtensionFilter), 8 + sizeof(::ArrayW<::Il2CppString*>)> __SFB_ExtensionFilterSizeCheck;
   static_assert(sizeof(ExtensionFilter) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(SFB::ExtensionFilter, "SFB", "ExtensionFilter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: SFB::ExtensionFilter::ExtensionFilter
 // Il2CppName: .ctor

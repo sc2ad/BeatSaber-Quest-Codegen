@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: HumanBone
+  struct HumanBone;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::HumanBone, "UnityEngine", "HumanBone");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x3C
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -64,6 +71,4 @@ namespace UnityEngine {
   static check_size<sizeof(HumanBone), 16 + sizeof(UnityEngine::HumanLimit)> __UnityEngine_HumanBoneSizeCheck;
   static_assert(sizeof(HumanBone) == 0x3C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::HumanBone, "UnityEngine", "HumanBone");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

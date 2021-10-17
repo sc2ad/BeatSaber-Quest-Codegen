@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
+  // Forward declaring type: Compositor_FrameTiming
+  struct Compositor_FrameTiming;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::Compositor_FrameTiming, "OVR.OpenVR", "Compositor_FrameTiming");
+// Type namespace: OVR.OpenVR
+namespace OVR::OpenVR {
   // Size: 0xAE
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -228,6 +235,4 @@ namespace OVR::OpenVR {
   static check_size<sizeof(Compositor_FrameTiming), 96 + sizeof(OVR::OpenVR::TrackedDevicePose_t)> __OVR_OpenVR_Compositor_FrameTimingSizeCheck;
   static_assert(sizeof(Compositor_FrameTiming) == 0xAE);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::Compositor_FrameTiming, "OVR.OpenVR", "Compositor_FrameTiming");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

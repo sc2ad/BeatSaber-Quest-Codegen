@@ -16,6 +16,13 @@
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: Touch
+  struct Touch;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Touch, "UnityEngine", "Touch");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x44
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -165,8 +172,6 @@ namespace UnityEngine {
   static check_size<sizeof(Touch), 64 + sizeof(float)> __UnityEngine_TouchSizeCheck;
   static_assert(sizeof(Touch) == 0x44);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Touch, "UnityEngine", "Touch");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Touch::get_fingerId
 // Il2CppName: get_fingerId

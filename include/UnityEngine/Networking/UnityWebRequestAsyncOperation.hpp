@@ -21,6 +21,14 @@ namespace UnityEngine::Networking {
 // Completed forward declares
 // Type namespace: UnityEngine.Networking
 namespace UnityEngine::Networking {
+  // Forward declaring type: UnityWebRequestAsyncOperation
+  class UnityWebRequestAsyncOperation;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::Networking::UnityWebRequestAsyncOperation);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::UnityWebRequestAsyncOperation*, "UnityEngine.Networking", "UnityWebRequestAsyncOperation");
+// Type namespace: UnityEngine.Networking
+namespace UnityEngine::Networking {
   // Size: 0x28
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -72,8 +80,6 @@ namespace UnityEngine::Networking {
   static check_size<sizeof(UnityWebRequestAsyncOperation), 32 + sizeof(UnityEngine::Networking::UnityWebRequest*)> __UnityEngine_Networking_UnityWebRequestAsyncOperationSizeCheck;
   static_assert(sizeof(UnityWebRequestAsyncOperation) == 0x28);
 }
-NEED_NO_BOX(UnityEngine::Networking::UnityWebRequestAsyncOperation);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::UnityWebRequestAsyncOperation*, "UnityEngine.Networking", "UnityWebRequestAsyncOperation");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequestAsyncOperation::get_webRequest
 // Il2CppName: get_webRequest

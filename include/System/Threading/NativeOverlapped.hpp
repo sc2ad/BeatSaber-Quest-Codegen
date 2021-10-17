@@ -11,6 +11,13 @@
 // Completed includes
 // Type namespace: System.Threading
 namespace System::Threading {
+  // Forward declaring type: NativeOverlapped
+  struct NativeOverlapped;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::NativeOverlapped, "System.Threading", "NativeOverlapped");
+// Type namespace: System.Threading
+namespace System::Threading {
   // Size: 0x20
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -76,6 +83,4 @@ namespace System::Threading {
   static check_size<sizeof(NativeOverlapped), 24 + sizeof(System::IntPtr)> __System_Threading_NativeOverlappedSizeCheck;
   static_assert(sizeof(NativeOverlapped) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::NativeOverlapped, "System.Threading", "NativeOverlapped");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

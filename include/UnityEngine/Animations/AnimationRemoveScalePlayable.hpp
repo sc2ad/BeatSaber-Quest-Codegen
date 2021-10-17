@@ -24,6 +24,13 @@ namespace UnityEngine::Playables {
 // Completed forward declares
 // Type namespace: UnityEngine.Animations
 namespace UnityEngine::Animations {
+  // Forward declaring type: AnimationRemoveScalePlayable
+  struct AnimationRemoveScalePlayable;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationRemoveScalePlayable, "UnityEngine.Animations", "AnimationRemoveScalePlayable");
+// Type namespace: UnityEngine.Animations
+namespace UnityEngine::Animations {
   // Size: 0xC
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -101,8 +108,6 @@ namespace UnityEngine::Animations {
   static check_size<sizeof(AnimationRemoveScalePlayable), 0 + sizeof(UnityEngine::Playables::PlayableHandle)> __UnityEngine_Animations_AnimationRemoveScalePlayableSizeCheck;
   static_assert(sizeof(AnimationRemoveScalePlayable) == 0xC);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationRemoveScalePlayable, "UnityEngine.Animations", "AnimationRemoveScalePlayable");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Animations::AnimationRemoveScalePlayable::AnimationRemoveScalePlayable
 // Il2CppName: .ctor

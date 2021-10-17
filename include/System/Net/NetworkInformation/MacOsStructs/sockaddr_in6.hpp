@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: System.Net.NetworkInformation.MacOsStructs
 namespace System::Net::NetworkInformation::MacOsStructs {
+  // Forward declaring type: sockaddr_in6
+  struct sockaddr_in6;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::MacOsStructs::sockaddr_in6, "System.Net.NetworkInformation.MacOsStructs", "sockaddr_in6");
+// Type namespace: System.Net.NetworkInformation.MacOsStructs
+namespace System::Net::NetworkInformation::MacOsStructs {
   // Size: 0x14
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -84,6 +91,4 @@ namespace System::Net::NetworkInformation::MacOsStructs {
   static check_size<sizeof(sockaddr_in6), 16 + sizeof(uint)> __System_Net_NetworkInformation_MacOsStructs_sockaddr_in6SizeCheck;
   static_assert(sizeof(sockaddr_in6) == 0x14);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::MacOsStructs::sockaddr_in6, "System.Net.NetworkInformation.MacOsStructs", "sockaddr_in6");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

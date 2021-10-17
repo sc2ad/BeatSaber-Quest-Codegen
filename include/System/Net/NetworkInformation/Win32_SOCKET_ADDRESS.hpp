@@ -18,6 +18,13 @@ namespace System::Net {
 // Completed forward declares
 // Type namespace: System.Net.NetworkInformation
 namespace System::Net::NetworkInformation {
+  // Forward declaring type: Win32_SOCKET_ADDRESS
+  struct Win32_SOCKET_ADDRESS;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32_SOCKET_ADDRESS, "System.Net.NetworkInformation", "Win32_SOCKET_ADDRESS");
+// Type namespace: System.Net.NetworkInformation
+namespace System::Net::NetworkInformation {
   // Size: 0xC
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -61,8 +68,6 @@ namespace System::Net::NetworkInformation {
   static check_size<sizeof(Win32_SOCKET_ADDRESS), 8 + sizeof(int)> __System_Net_NetworkInformation_Win32_SOCKET_ADDRESSSizeCheck;
   static_assert(sizeof(Win32_SOCKET_ADDRESS) == 0xC);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32_SOCKET_ADDRESS, "System.Net.NetworkInformation", "Win32_SOCKET_ADDRESS");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::NetworkInformation::Win32_SOCKET_ADDRESS::GetIPAddress
 // Il2CppName: GetIPAddress

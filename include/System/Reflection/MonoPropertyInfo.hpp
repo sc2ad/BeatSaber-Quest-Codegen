@@ -29,6 +29,13 @@ namespace System::Reflection {
 // Completed forward declares
 // Type namespace: System.Reflection
 namespace System::Reflection {
+  // Forward declaring type: MonoPropertyInfo
+  struct MonoPropertyInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoPropertyInfo, "System.Reflection", "MonoPropertyInfo");
+// Type namespace: System.Reflection
+namespace System::Reflection {
   // Size: 0x2C
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -110,8 +117,6 @@ namespace System::Reflection {
   static check_size<sizeof(MonoPropertyInfo), 40 + sizeof(System::Reflection::PropertyAttributes)> __System_Reflection_MonoPropertyInfoSizeCheck;
   static_assert(sizeof(MonoPropertyInfo) == 0x2C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoPropertyInfo, "System.Reflection", "MonoPropertyInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::MonoPropertyInfo::get_property_info
 // Il2CppName: get_property_info

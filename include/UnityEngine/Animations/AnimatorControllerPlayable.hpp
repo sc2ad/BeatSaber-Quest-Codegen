@@ -15,6 +15,13 @@
 // Completed includes
 // Type namespace: UnityEngine.Animations
 namespace UnityEngine::Animations {
+  // Forward declaring type: AnimatorControllerPlayable
+  struct AnimatorControllerPlayable;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimatorControllerPlayable, "UnityEngine.Animations", "AnimatorControllerPlayable");
+// Type namespace: UnityEngine.Animations
+namespace UnityEngine::Animations {
   // Size: 0xC
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -85,8 +92,6 @@ namespace UnityEngine::Animations {
   static check_size<sizeof(AnimatorControllerPlayable), 0 + sizeof(UnityEngine::Playables::PlayableHandle)> __UnityEngine_Animations_AnimatorControllerPlayableSizeCheck;
   static_assert(sizeof(AnimatorControllerPlayable) == 0xC);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimatorControllerPlayable, "UnityEngine.Animations", "AnimatorControllerPlayable");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Animations::AnimatorControllerPlayable::AnimatorControllerPlayable
 // Il2CppName: .ctor

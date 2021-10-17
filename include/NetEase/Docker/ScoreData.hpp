@@ -13,6 +13,13 @@ struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: NetEase.Docker
 namespace NetEase::Docker {
+  // Forward declaring type: ScoreData
+  struct ScoreData;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::ScoreData, "NetEase.Docker", "ScoreData");
+// Type namespace: NetEase.Docker
+namespace NetEase::Docker {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -81,8 +88,6 @@ namespace NetEase::Docker {
   static check_size<sizeof(ScoreData), 16 + sizeof(int64_t)> __NetEase_Docker_ScoreDataSizeCheck;
   static_assert(sizeof(ScoreData) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::ScoreData, "NetEase.Docker", "ScoreData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NetEase::Docker::ScoreData::get_Name
 // Il2CppName: get_Name

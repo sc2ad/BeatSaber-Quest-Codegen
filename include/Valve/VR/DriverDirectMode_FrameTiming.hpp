@@ -9,6 +9,13 @@
 // Completed includes
 // Type namespace: Valve.VR
 namespace Valve::VR {
+  // Forward declaring type: DriverDirectMode_FrameTiming
+  struct DriverDirectMode_FrameTiming;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::DriverDirectMode_FrameTiming, "Valve.VR", "DriverDirectMode_FrameTiming");
+// Type namespace: Valve.VR
+namespace Valve::VR {
   // Size: 0x14
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -73,6 +80,4 @@ namespace Valve::VR {
   static check_size<sizeof(DriverDirectMode_FrameTiming), 16 + sizeof(uint)> __Valve_VR_DriverDirectMode_FrameTimingSizeCheck;
   static_assert(sizeof(DriverDirectMode_FrameTiming) == 0x14);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::DriverDirectMode_FrameTiming, "Valve.VR", "DriverDirectMode_FrameTiming");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

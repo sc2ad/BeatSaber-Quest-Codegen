@@ -18,6 +18,13 @@ struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: PositionEnumerator
+  struct PositionEnumerator;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::BoundsInt::PositionEnumerator, "UnityEngine", "BoundsInt/PositionEnumerator");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x24
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -91,8 +98,6 @@ namespace UnityEngine {
   static check_size<sizeof(BoundsInt::PositionEnumerator), 24 + sizeof(UnityEngine::Vector3Int)> __UnityEngine_BoundsInt_PositionEnumeratorSizeCheck;
   static_assert(sizeof(BoundsInt::PositionEnumerator) == 0x24);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::BoundsInt::PositionEnumerator, "UnityEngine", "BoundsInt/PositionEnumerator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::BoundsInt::PositionEnumerator::get_Current
 // Il2CppName: get_Current

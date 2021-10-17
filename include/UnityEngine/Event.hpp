@@ -29,6 +29,14 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: Event
+  class Event;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::Event);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Event*, "UnityEngine", "Event");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -207,8 +215,6 @@ namespace UnityEngine {
   static check_size<sizeof(Event), 16 + sizeof(System::IntPtr)> __UnityEngine_EventSizeCheck;
   static_assert(sizeof(Event) == 0x18);
 }
-NEED_NO_BOX(UnityEngine::Event);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Event*, "UnityEngine", "Event");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Event::get_rawType
 // Il2CppName: get_rawType

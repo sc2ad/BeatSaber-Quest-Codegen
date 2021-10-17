@@ -19,6 +19,13 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: RaycastHit2D
+  struct RaycastHit2D;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RaycastHit2D, "UnityEngine", "RaycastHit2D");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x24
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -115,8 +122,6 @@ namespace UnityEngine {
   static check_size<sizeof(RaycastHit2D), 32 + sizeof(int)> __UnityEngine_RaycastHit2DSizeCheck;
   static_assert(sizeof(RaycastHit2D) == 0x24);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RaycastHit2D, "UnityEngine", "RaycastHit2D");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::RaycastHit2D::get_point
 // Il2CppName: get_point

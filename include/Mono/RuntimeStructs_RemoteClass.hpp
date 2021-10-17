@@ -14,6 +14,13 @@
 // Completed includes
 // Type namespace: Mono
 namespace Mono {
+  // Forward declaring type: RemoteClass
+  struct RemoteClass;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeStructs::RemoteClass, "Mono", "RuntimeStructs/RemoteClass");
+// Type namespace: Mono
+namespace Mono {
   // Size: 0x24
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -78,6 +85,4 @@ namespace Mono {
   static check_size<sizeof(RuntimeStructs::RemoteClass), 32 + sizeof(uint)> __Mono_RuntimeStructs_RemoteClassSizeCheck;
   static_assert(sizeof(RuntimeStructs::RemoteClass) == 0x24);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeStructs::RemoteClass, "Mono", "RuntimeStructs/RemoteClass");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

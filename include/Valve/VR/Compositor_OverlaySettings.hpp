@@ -11,6 +11,13 @@
 // Completed includes
 // Type namespace: Valve.VR
 namespace Valve::VR {
+  // Forward declaring type: Compositor_OverlaySettings
+  struct Compositor_OverlaySettings;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::Compositor_OverlaySettings, "Valve.VR", "Compositor_OverlaySettings");
+// Type namespace: Valve.VR
+namespace Valve::VR {
   // Size: 0x70
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -149,6 +156,4 @@ namespace Valve::VR {
   static check_size<sizeof(Compositor_OverlaySettings), 48 + sizeof(Valve::VR::HmdMatrix44_t)> __Valve_VR_Compositor_OverlaySettingsSizeCheck;
   static_assert(sizeof(Compositor_OverlaySettings) == 0x70);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::Compositor_OverlaySettings, "Valve.VR", "Compositor_OverlaySettings");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

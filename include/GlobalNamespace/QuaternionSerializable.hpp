@@ -30,6 +30,13 @@ namespace LiteNetLib::Utils {
 // Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
+  // Forward declaring type: QuaternionSerializable
+  struct QuaternionSerializable;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::QuaternionSerializable, "", "QuaternionSerializable");
+// Type namespace: 
+namespace GlobalNamespace {
   // Size: 0xC
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -161,8 +168,6 @@ namespace GlobalNamespace {
   // Offset: 0x2557EE8
   GlobalNamespace::QuaternionSerializable operator-(const GlobalNamespace::QuaternionSerializable& a, const GlobalNamespace::QuaternionSerializable& b);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::QuaternionSerializable, "", "QuaternionSerializable");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::QuaternionSerializable::get_identity
 // Il2CppName: get_identity

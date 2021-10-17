@@ -24,6 +24,14 @@ namespace System {
 // Completed forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: AsyncOperation
+  class AsyncOperation;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::AsyncOperation);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AsyncOperation*, "UnityEngine", "AsyncOperation");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x20
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -103,8 +111,6 @@ namespace UnityEngine {
   static check_size<sizeof(AsyncOperation), 24 + sizeof(System::Action_1<UnityEngine::AsyncOperation*>*)> __UnityEngine_AsyncOperationSizeCheck;
   static_assert(sizeof(AsyncOperation) == 0x20);
 }
-NEED_NO_BOX(UnityEngine::AsyncOperation);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AsyncOperation*, "UnityEngine", "AsyncOperation");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AsyncOperation::get_isDone
 // Il2CppName: get_isDone

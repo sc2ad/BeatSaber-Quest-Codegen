@@ -20,6 +20,13 @@ namespace System::Runtime::Remoting::Messaging {
 // Completed forward declares
 // Type namespace: System.Runtime.Remoting.Channels
 namespace System::Runtime::Remoting::Channels {
+  // Forward declaring type: ProcessMessageRes
+  struct ProcessMessageRes;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Channels::CrossAppDomainSink::ProcessMessageRes, "System.Runtime.Remoting.Channels", "CrossAppDomainSink/ProcessMessageRes");
+// Type namespace: System.Runtime.Remoting.Channels
+namespace System::Runtime::Remoting::Channels {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -60,6 +67,4 @@ namespace System::Runtime::Remoting::Channels {
   static check_size<sizeof(CrossAppDomainSink::ProcessMessageRes), 8 + sizeof(System::Runtime::Remoting::Messaging::CADMethodReturnMessage*)> __System_Runtime_Remoting_Channels_CrossAppDomainSink_ProcessMessageResSizeCheck;
   static_assert(sizeof(CrossAppDomainSink::ProcessMessageRes) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Channels::CrossAppDomainSink::ProcessMessageRes, "System.Runtime.Remoting.Channels", "CrossAppDomainSink/ProcessMessageRes");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

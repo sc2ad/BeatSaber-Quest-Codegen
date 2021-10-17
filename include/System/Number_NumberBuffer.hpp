@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: System
 namespace System {
+  // Forward declaring type: NumberBuffer
+  struct NumberBuffer;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Number::NumberBuffer, "System", "Number/NumberBuffer");
+// Type namespace: System
+namespace System {
   // Size: 0x19
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -90,8 +97,6 @@ namespace System {
   static check_size<sizeof(Number::NumberBuffer), 24 + sizeof(bool)> __System_Number_NumberBufferSizeCheck;
   static_assert(sizeof(Number::NumberBuffer) == 0x19);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Number::NumberBuffer, "System", "Number/NumberBuffer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Number::NumberBuffer::NumberBuffer
 // Il2CppName: .ctor

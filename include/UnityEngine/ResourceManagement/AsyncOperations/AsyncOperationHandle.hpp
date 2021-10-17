@@ -49,6 +49,13 @@ struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.ResourceManagement.AsyncOperations
 namespace UnityEngine::ResourceManagement::AsyncOperations {
+  // Forward declaring type: AsyncOperationHandle
+  struct AsyncOperationHandle;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, "UnityEngine.ResourceManagement.AsyncOperations", "AsyncOperationHandle");
+// Type namespace: UnityEngine.ResourceManagement.AsyncOperations
+namespace UnityEngine::ResourceManagement::AsyncOperations {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -198,8 +205,6 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
   static check_size<sizeof(AsyncOperationHandle), 16 + sizeof(::Il2CppString*)> __UnityEngine_ResourceManagement_AsyncOperations_AsyncOperationHandleSizeCheck;
   static_assert(sizeof(AsyncOperationHandle) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, "UnityEngine.ResourceManagement.AsyncOperations", "AsyncOperationHandle");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle::get_LocationName
 // Il2CppName: get_LocationName

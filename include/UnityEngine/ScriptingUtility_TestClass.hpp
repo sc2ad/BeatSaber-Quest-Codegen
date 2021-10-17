@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: TestClass
+  struct TestClass;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ScriptingUtility::TestClass, "UnityEngine", "ScriptingUtility/TestClass");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x4
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -48,6 +55,4 @@ namespace UnityEngine {
   static check_size<sizeof(ScriptingUtility::TestClass), 0 + sizeof(int)> __UnityEngine_ScriptingUtility_TestClassSizeCheck;
   static_assert(sizeof(ScriptingUtility::TestClass) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ScriptingUtility::TestClass, "UnityEngine", "ScriptingUtility/TestClass");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

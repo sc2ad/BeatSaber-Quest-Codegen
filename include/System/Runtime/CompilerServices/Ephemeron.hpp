@@ -12,6 +12,13 @@ struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Runtime.CompilerServices
 namespace System::Runtime::CompilerServices {
+  // Forward declaring type: Ephemeron
+  struct Ephemeron;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::Ephemeron, "System.Runtime.CompilerServices", "Ephemeron");
+// Type namespace: System.Runtime.CompilerServices
+namespace System::Runtime::CompilerServices {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -52,6 +59,4 @@ namespace System::Runtime::CompilerServices {
   static check_size<sizeof(Ephemeron), 8 + sizeof(::Il2CppObject*)> __System_Runtime_CompilerServices_EphemeronSizeCheck;
   static_assert(sizeof(Ephemeron) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::Ephemeron, "System.Runtime.CompilerServices", "Ephemeron");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

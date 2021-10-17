@@ -18,6 +18,14 @@ namespace System {
 // Completed forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: RemoteConfigSettings
+  class RemoteConfigSettings;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::RemoteConfigSettings);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RemoteConfigSettings*, "UnityEngine", "RemoteConfigSettings");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x20
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -59,9 +67,6 @@ namespace UnityEngine {
   static check_size<sizeof(RemoteConfigSettings), 24 + sizeof(System::Action_1<bool>*)> __UnityEngine_RemoteConfigSettingsSizeCheck;
   static_assert(sizeof(RemoteConfigSettings) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::RemoteConfigSettings);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RemoteConfigSettings*, "UnityEngine", "RemoteConfigSettings");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::RemoteConfigSettings::RemoteConfigSettingsUpdated
 // Il2CppName: RemoteConfigSettingsUpdated

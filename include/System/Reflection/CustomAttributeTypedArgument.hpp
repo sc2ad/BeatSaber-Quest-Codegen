@@ -20,6 +20,13 @@ struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Reflection
 namespace System::Reflection {
+  // Forward declaring type: CustomAttributeTypedArgument
+  struct CustomAttributeTypedArgument;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::CustomAttributeTypedArgument, "System.Reflection", "CustomAttributeTypedArgument");
+// Type namespace: System.Reflection
+namespace System::Reflection {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -79,8 +86,6 @@ namespace System::Reflection {
   static check_size<sizeof(CustomAttributeTypedArgument), 8 + sizeof(::Il2CppObject*)> __System_Reflection_CustomAttributeTypedArgumentSizeCheck;
   static_assert(sizeof(CustomAttributeTypedArgument) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::CustomAttributeTypedArgument, "System.Reflection", "CustomAttributeTypedArgument");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::CustomAttributeTypedArgument::CustomAttributeTypedArgument
 // Il2CppName: .ctor

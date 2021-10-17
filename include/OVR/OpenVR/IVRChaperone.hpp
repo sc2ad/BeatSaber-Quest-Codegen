@@ -14,6 +14,13 @@ namespace OVR::OpenVR {
 // Completed forward declares
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
+  // Forward declaring type: IVRChaperone
+  struct IVRChaperone;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRChaperone, "OVR.OpenVR", "IVRChaperone");
+// Type namespace: OVR.OpenVR
+namespace OVR::OpenVR {
   // Size: 0x40
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -118,6 +125,4 @@ namespace OVR::OpenVR {
   static check_size<sizeof(IVRChaperone), 56 + sizeof(OVR::OpenVR::IVRChaperone::_ForceBoundsVisible*)> __OVR_OpenVR_IVRChaperoneSizeCheck;
   static_assert(sizeof(IVRChaperone) == 0x40);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRChaperone, "OVR.OpenVR", "IVRChaperone");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

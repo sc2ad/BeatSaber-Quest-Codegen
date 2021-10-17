@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: System.Security.Cryptography.X509Certificates
 namespace System::Security::Cryptography::X509Certificates {
+  // Forward declaring type: X509ChainStatus
+  struct X509ChainStatus;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509ChainStatus, "System.Security.Cryptography.X509Certificates", "X509ChainStatus");
+// Type namespace: System.Security.Cryptography.X509Certificates
+namespace System::Security::Cryptography::X509Certificates {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -69,8 +76,6 @@ namespace System::Security::Cryptography::X509Certificates {
   static check_size<sizeof(X509ChainStatus), 8 + sizeof(::Il2CppString*)> __System_Security_Cryptography_X509Certificates_X509ChainStatusSizeCheck;
   static_assert(sizeof(X509ChainStatus) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509ChainStatus, "System.Security.Cryptography.X509Certificates", "X509ChainStatus");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509ChainStatus::get_Status
 // Il2CppName: get_Status

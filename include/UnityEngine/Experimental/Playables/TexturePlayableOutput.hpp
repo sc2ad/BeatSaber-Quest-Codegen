@@ -13,6 +13,13 @@
 // Completed includes
 // Type namespace: UnityEngine.Experimental.Playables
 namespace UnityEngine::Experimental::Playables {
+  // Forward declaring type: TexturePlayableOutput
+  struct TexturePlayableOutput;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Playables::TexturePlayableOutput, "UnityEngine.Experimental.Playables", "TexturePlayableOutput");
+// Type namespace: UnityEngine.Experimental.Playables
+namespace UnityEngine::Experimental::Playables {
   // Size: 0xC
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -61,8 +68,6 @@ namespace UnityEngine::Experimental::Playables {
   static check_size<sizeof(TexturePlayableOutput), 0 + sizeof(UnityEngine::Playables::PlayableOutputHandle)> __UnityEngine_Experimental_Playables_TexturePlayableOutputSizeCheck;
   static_assert(sizeof(TexturePlayableOutput) == 0xC);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Playables::TexturePlayableOutput, "UnityEngine.Experimental.Playables", "TexturePlayableOutput");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Experimental::Playables::TexturePlayableOutput::GetHandle
 // Il2CppName: GetHandle

@@ -14,6 +14,13 @@
 // Completed includes
 // Type namespace: Mono.Unity
 namespace Mono::Unity {
+  // Forward declaring type: unitytls_tlsctx_protocolrange
+  struct unitytls_tlsctx_protocolrange;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTls::unitytls_tlsctx_protocolrange, "Mono.Unity", "UnityTls/unitytls_tlsctx_protocolrange");
+// Type namespace: Mono.Unity
+namespace Mono::Unity {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -54,6 +61,4 @@ namespace Mono::Unity {
   static check_size<sizeof(UnityTls::unitytls_tlsctx_protocolrange), 4 + sizeof(Mono::Unity::UnityTls::unitytls_protocol)> __Mono_Unity_UnityTls_unitytls_tlsctx_protocolrangeSizeCheck;
   static_assert(sizeof(UnityTls::unitytls_tlsctx_protocolrange) == 0x8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTls::unitytls_tlsctx_protocolrange, "Mono.Unity", "UnityTls/unitytls_tlsctx_protocolrange");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

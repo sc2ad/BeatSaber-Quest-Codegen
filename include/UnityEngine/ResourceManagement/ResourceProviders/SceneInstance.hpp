@@ -21,6 +21,13 @@ struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.ResourceManagement.ResourceProviders
 namespace UnityEngine::ResourceManagement::ResourceProviders {
+  // Forward declaring type: SceneInstance
+  struct SceneInstance;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::SceneInstance, "UnityEngine.ResourceManagement.ResourceProviders", "SceneInstance");
+// Type namespace: UnityEngine.ResourceManagement.ResourceProviders
+namespace UnityEngine::ResourceManagement::ResourceProviders {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -85,8 +92,6 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   static check_size<sizeof(SceneInstance), 8 + sizeof(UnityEngine::AsyncOperation*)> __UnityEngine_ResourceManagement_ResourceProviders_SceneInstanceSizeCheck;
   static_assert(sizeof(SceneInstance) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::SceneInstance, "UnityEngine.ResourceManagement.ResourceProviders", "SceneInstance");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::SceneInstance::get_Scene
 // Il2CppName: get_Scene

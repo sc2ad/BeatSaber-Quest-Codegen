@@ -36,6 +36,13 @@ struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.Playables
 namespace UnityEngine::Playables {
+  // Forward declaring type: PlayableGraph
+  struct PlayableGraph;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableGraph, "UnityEngine.Playables", "PlayableGraph");
+// Type namespace: UnityEngine.Playables
+namespace UnityEngine::Playables {
   // Size: 0xC
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -149,7 +156,6 @@ namespace UnityEngine::Playables {
   static check_size<sizeof(PlayableGraph), 8 + sizeof(uint)> __UnityEngine_Playables_PlayableGraphSizeCheck;
   static_assert(sizeof(PlayableGraph) == 0xC);
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableGraph, "UnityEngine.Playables", "PlayableGraph");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableGraph::GetRootPlayable
 // Il2CppName: GetRootPlayable

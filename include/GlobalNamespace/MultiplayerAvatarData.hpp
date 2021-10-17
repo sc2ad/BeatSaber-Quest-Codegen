@@ -28,6 +28,13 @@ struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: 
 namespace GlobalNamespace {
+  // Forward declaring type: MultiplayerAvatarData
+  struct MultiplayerAvatarData;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerAvatarData, "", "MultiplayerAvatarData");
+// Type namespace: 
+namespace GlobalNamespace {
   // Size: 0x70
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -222,8 +229,6 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerAvatarData), 104 + sizeof(::Il2CppString*)> __GlobalNamespace_MultiplayerAvatarDataSizeCheck;
   static_assert(sizeof(MultiplayerAvatarData) == 0x70);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerAvatarData, "", "MultiplayerAvatarData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerAvatarData::MultiplayerAvatarData
 // Il2CppName: .ctor

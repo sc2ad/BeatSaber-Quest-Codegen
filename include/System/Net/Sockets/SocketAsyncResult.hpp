@@ -50,6 +50,14 @@ namespace System::Collections::Generic {
 // Completed forward declares
 // Type namespace: System.Net.Sockets
 namespace System::Net::Sockets {
+  // Forward declaring type: SocketAsyncResult
+  class SocketAsyncResult;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Net::Sockets::SocketAsyncResult);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::SocketAsyncResult*, "System.Net.Sockets", "SocketAsyncResult");
+// Type namespace: System.Net.Sockets
+namespace System::Net::Sockets {
   // Size: 0xA4
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -279,8 +287,6 @@ namespace System::Net::Sockets {
   static check_size<sizeof(SocketAsyncResult), 160 + sizeof(int)> __System_Net_Sockets_SocketAsyncResultSizeCheck;
   static_assert(sizeof(SocketAsyncResult) == 0xA4);
 }
-NEED_NO_BOX(System::Net::Sockets::SocketAsyncResult);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::SocketAsyncResult*, "System.Net.Sockets", "SocketAsyncResult");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Sockets::SocketAsyncResult::get_Handle
 // Il2CppName: get_Handle

@@ -11,6 +11,13 @@
 // Completed includes
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
+  // Forward declaring type: SpatialAnchorPose_t
+  struct SpatialAnchorPose_t;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::SpatialAnchorPose_t, "OVR.OpenVR", "SpatialAnchorPose_t");
+// Type namespace: OVR.OpenVR
+namespace OVR::OpenVR {
   // Size: 0x30
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -47,6 +54,4 @@ namespace OVR::OpenVR {
   static check_size<sizeof(SpatialAnchorPose_t), 0 + sizeof(OVR::OpenVR::HmdMatrix34_t)> __OVR_OpenVR_SpatialAnchorPose_tSizeCheck;
   static_assert(sizeof(SpatialAnchorPose_t) == 0x30);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::SpatialAnchorPose_t, "OVR.OpenVR", "SpatialAnchorPose_t");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

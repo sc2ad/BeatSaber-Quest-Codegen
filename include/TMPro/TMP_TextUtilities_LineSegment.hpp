@@ -14,6 +14,13 @@
 // Completed includes
 // Type namespace: TMPro
 namespace TMPro {
+  // Forward declaring type: LineSegment
+  struct LineSegment;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_TextUtilities::LineSegment, "TMPro", "TMP_TextUtilities/LineSegment");
+// Type namespace: TMPro
+namespace TMPro {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -57,8 +64,6 @@ namespace TMPro {
   static check_size<sizeof(TMP_TextUtilities::LineSegment), 12 + sizeof(UnityEngine::Vector3)> __TMPro_TMP_TextUtilities_LineSegmentSizeCheck;
   static_assert(sizeof(TMP_TextUtilities::LineSegment) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_TextUtilities::LineSegment, "TMPro", "TMP_TextUtilities/LineSegment");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_TextUtilities::LineSegment::LineSegment
 // Il2CppName: .ctor

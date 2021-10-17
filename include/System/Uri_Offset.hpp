@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: System
 namespace System {
+  // Forward declaring type: Offset
+  struct Offset;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Uri::Offset, "System", "Uri/Offset");
+// Type namespace: System
+namespace System {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -100,6 +107,4 @@ namespace System {
   static check_size<sizeof(Uri::Offset), 14 + sizeof(uint16_t)> __System_Uri_OffsetSizeCheck;
   static_assert(sizeof(Uri::Offset) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Uri::Offset, "System", "Uri/Offset");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

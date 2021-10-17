@@ -37,6 +37,13 @@ namespace UnityEngine::Experimental::GlobalIllumination {
 // Completed forward declares
 // Type namespace: UnityEngine.Experimental.GlobalIllumination
 namespace UnityEngine::Experimental::GlobalIllumination {
+  // Forward declaring type: LightDataGI
+  struct LightDataGI;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::LightDataGI, "UnityEngine.Experimental.GlobalIllumination", "LightDataGI");
+// Type namespace: UnityEngine.Experimental.GlobalIllumination
+namespace UnityEngine::Experimental::GlobalIllumination {
   // Size: 0x58
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -192,8 +199,6 @@ namespace UnityEngine::Experimental::GlobalIllumination {
   static check_size<sizeof(LightDataGI), 87 + sizeof(UnityEngine::Experimental::GlobalIllumination::FalloffType)> __UnityEngine_Experimental_GlobalIllumination_LightDataGISizeCheck;
   static_assert(sizeof(LightDataGI) == 0x58);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::LightDataGI, "UnityEngine.Experimental.GlobalIllumination", "LightDataGI");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Experimental::GlobalIllumination::LightDataGI::Init
 // Il2CppName: Init

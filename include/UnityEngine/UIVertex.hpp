@@ -18,6 +18,13 @@
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: UIVertex
+  struct UIVertex;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIVertex, "UnityEngine", "UIVertex");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x4C
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -122,8 +129,6 @@ namespace UnityEngine {
   static check_size<sizeof(UIVertex), 68 + sizeof(UnityEngine::Vector2)> __UnityEngine_UIVertexSizeCheck;
   static_assert(sizeof(UIVertex) == 0x4C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIVertex, "UnityEngine", "UIVertex");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UIVertex::_cctor
 // Il2CppName: .cctor

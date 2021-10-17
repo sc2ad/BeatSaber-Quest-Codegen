@@ -14,6 +14,13 @@
 // Completed includes
 // Type namespace: System
 namespace System {
+  // Forward declaring type: TIME_ZONE_INFORMATION
+  struct TIME_ZONE_INFORMATION;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::TimeZoneInfo::TIME_ZONE_INFORMATION, "System", "TimeZoneInfo/TIME_ZONE_INFORMATION");
+// Type namespace: System
+namespace System {
   // Size: 0x44
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -98,6 +105,4 @@ namespace System {
   static check_size<sizeof(TimeZoneInfo::TIME_ZONE_INFORMATION), 64 + sizeof(int)> __System_TimeZoneInfo_TIME_ZONE_INFORMATIONSizeCheck;
   static_assert(sizeof(TimeZoneInfo::TIME_ZONE_INFORMATION) == 0x44);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::TimeZoneInfo::TIME_ZONE_INFORMATION, "System", "TimeZoneInfo/TIME_ZONE_INFORMATION");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

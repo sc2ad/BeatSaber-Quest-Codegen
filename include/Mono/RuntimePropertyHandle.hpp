@@ -14,6 +14,13 @@ struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: Mono
 namespace Mono {
+  // Forward declaring type: RuntimePropertyHandle
+  struct RuntimePropertyHandle;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimePropertyHandle, "Mono", "RuntimePropertyHandle");
+// Type namespace: Mono
+namespace Mono {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -66,8 +73,6 @@ namespace Mono {
   static check_size<sizeof(RuntimePropertyHandle), 0 + sizeof(System::IntPtr)> __Mono_RuntimePropertyHandleSizeCheck;
   static_assert(sizeof(RuntimePropertyHandle) == 0x8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimePropertyHandle, "Mono", "RuntimePropertyHandle");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::RuntimePropertyHandle::get_Value
 // Il2CppName: get_Value

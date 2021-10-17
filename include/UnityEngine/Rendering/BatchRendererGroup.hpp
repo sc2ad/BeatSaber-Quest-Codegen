@@ -19,6 +19,14 @@ namespace UnityEngine::Rendering {
 // Completed forward declares
 // Type namespace: UnityEngine.Rendering
 namespace UnityEngine::Rendering {
+  // Forward declaring type: BatchRendererGroup
+  class BatchRendererGroup;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::Rendering::BatchRendererGroup);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::BatchRendererGroup*, "UnityEngine.Rendering", "BatchRendererGroup");
+// Type namespace: UnityEngine.Rendering
+namespace UnityEngine::Rendering {
   // Size: 0x20
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -61,9 +69,6 @@ namespace UnityEngine::Rendering {
   static check_size<sizeof(BatchRendererGroup), 24 + sizeof(UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling*)> __UnityEngine_Rendering_BatchRendererGroupSizeCheck;
   static_assert(sizeof(BatchRendererGroup) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Rendering::BatchRendererGroup);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::BatchRendererGroup*, "UnityEngine.Rendering", "BatchRendererGroup");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Rendering::BatchRendererGroup::InvokeOnPerformCulling
 // Il2CppName: InvokeOnPerformCulling

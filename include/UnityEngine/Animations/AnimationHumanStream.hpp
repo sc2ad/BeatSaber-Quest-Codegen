@@ -11,6 +11,13 @@
 // Completed includes
 // Type namespace: UnityEngine.Animations
 namespace UnityEngine::Animations {
+  // Forward declaring type: AnimationHumanStream
+  struct AnimationHumanStream;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationHumanStream, "UnityEngine.Animations", "AnimationHumanStream");
+// Type namespace: UnityEngine.Animations
+namespace UnityEngine::Animations {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -51,6 +58,4 @@ namespace UnityEngine::Animations {
   static check_size<sizeof(AnimationHumanStream), 0 + sizeof(System::IntPtr)> __UnityEngine_Animations_AnimationHumanStreamSizeCheck;
   static_assert(sizeof(AnimationHumanStream) == 0x8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationHumanStream, "UnityEngine.Animations", "AnimationHumanStream");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

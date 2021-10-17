@@ -19,6 +19,13 @@ namespace HoudiniEngineUnity {
 // Completed forward declares
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
+  // Forward declaring type: HAPI_GeoInfo
+  struct HAPI_GeoInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_GeoInfo, "HoudiniEngineUnity", "HAPI_GeoInfo");
+// Type namespace: HoudiniEngineUnity
+namespace HoudiniEngineUnity {
   // Size: 0x24
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -144,8 +151,6 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HAPI_GeoInfo), 32 + sizeof(int)> __HoudiniEngineUnity_HAPI_GeoInfoSizeCheck;
   static_assert(sizeof(HAPI_GeoInfo) == 0x24);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_GeoInfo, "HoudiniEngineUnity", "HAPI_GeoInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HAPI_GeoInfo::getGroupCountByType
 // Il2CppName: getGroupCountByType

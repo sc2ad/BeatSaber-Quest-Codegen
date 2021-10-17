@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
+  // Forward declaring type: VREvent_DualAnalog_t
+  struct VREvent_DualAnalog_t;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VREvent_DualAnalog_t, "OVR.OpenVR", "VREvent_DualAnalog_t");
+// Type namespace: OVR.OpenVR
+namespace OVR::OpenVR {
   // Size: 0x14
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -76,6 +83,4 @@ namespace OVR::OpenVR {
   static check_size<sizeof(VREvent_DualAnalog_t), 16 + sizeof(OVR::OpenVR::EDualAnalogWhich)> __OVR_OpenVR_VREvent_DualAnalog_tSizeCheck;
   static_assert(sizeof(VREvent_DualAnalog_t) == 0x14);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VREvent_DualAnalog_t, "OVR.OpenVR", "VREvent_DualAnalog_t");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

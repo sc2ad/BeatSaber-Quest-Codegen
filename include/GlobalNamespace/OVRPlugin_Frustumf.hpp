@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
+  // Forward declaring type: Frustumf
+  struct Frustumf;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Frustumf, "", "OVRPlugin/Frustumf");
+// Type namespace: 
+namespace GlobalNamespace {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -68,6 +75,4 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRPlugin::Frustumf), 12 + sizeof(float)> __GlobalNamespace_OVRPlugin_FrustumfSizeCheck;
   static_assert(sizeof(OVRPlugin::Frustumf) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Frustumf, "", "OVRPlugin/Frustumf");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

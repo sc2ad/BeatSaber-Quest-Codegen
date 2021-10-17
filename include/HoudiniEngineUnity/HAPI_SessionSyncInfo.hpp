@@ -9,6 +9,13 @@
 // Completed includes
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
+  // Forward declaring type: HAPI_SessionSyncInfo
+  struct HAPI_SessionSyncInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_SessionSyncInfo, "HoudiniEngineUnity", "HAPI_SessionSyncInfo");
+// Type namespace: HoudiniEngineUnity
+namespace HoudiniEngineUnity {
   // Size: 0x2
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -49,6 +56,4 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HAPI_SessionSyncInfo), 1 + sizeof(bool)> __HoudiniEngineUnity_HAPI_SessionSyncInfoSizeCheck;
   static_assert(sizeof(HAPI_SessionSyncInfo) == 0x2);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_SessionSyncInfo, "HoudiniEngineUnity", "HAPI_SessionSyncInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

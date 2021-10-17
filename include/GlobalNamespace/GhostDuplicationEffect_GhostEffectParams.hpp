@@ -23,6 +23,13 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
+  // Forward declaring type: GhostEffectParams
+  struct GhostEffectParams;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GhostDuplicationEffect::GhostEffectParams, "", "GhostDuplicationEffect/GhostEffectParams");
+// Type namespace: 
+namespace GlobalNamespace {
   // Size: 0x45
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -145,6 +152,4 @@ namespace GlobalNamespace {
   static check_size<sizeof(GhostDuplicationEffect::GhostEffectParams), 68 + sizeof(bool)> __GlobalNamespace_GhostDuplicationEffect_GhostEffectParamsSizeCheck;
   static_assert(sizeof(GhostDuplicationEffect::GhostEffectParams) == 0x45);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GhostDuplicationEffect::GhostEffectParams, "", "GhostDuplicationEffect/GhostEffectParams");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

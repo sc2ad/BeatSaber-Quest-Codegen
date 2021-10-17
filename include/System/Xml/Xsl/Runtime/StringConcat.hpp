@@ -20,6 +20,13 @@ struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Xml.Xsl.Runtime
 namespace System::Xml::Xsl::Runtime {
+  // Forward declaring type: StringConcat
+  struct StringConcat;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Xsl::Runtime::StringConcat, "System.Xml.Xsl.Runtime", "StringConcat");
+// Type namespace: System.Xml.Xsl.Runtime
+namespace System::Xml::Xsl::Runtime {
   // Size: 0x34
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -113,8 +120,6 @@ namespace System::Xml::Xsl::Runtime {
   static check_size<sizeof(StringConcat), 48 + sizeof(int)> __System_Xml_Xsl_Runtime_StringConcatSizeCheck;
   static_assert(sizeof(StringConcat) == 0x34);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Xsl::Runtime::StringConcat, "System.Xml.Xsl.Runtime", "StringConcat");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::Xsl::Runtime::StringConcat::get_Count
 // Il2CppName: get_Count

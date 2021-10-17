@@ -14,6 +14,13 @@ namespace Valve::VR {
 // Completed forward declares
 // Type namespace: Valve.VR
 namespace Valve::VR {
+  // Forward declaring type: IVRDriverManager
+  struct IVRDriverManager;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRDriverManager, "Valve.VR", "IVRDriverManager");
+// Type namespace: Valve.VR
+namespace Valve::VR {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -58,6 +65,4 @@ namespace Valve::VR {
   static check_size<sizeof(IVRDriverManager), 8 + sizeof(Valve::VR::IVRDriverManager::_GetDriverName*)> __Valve_VR_IVRDriverManagerSizeCheck;
   static_assert(sizeof(IVRDriverManager) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRDriverManager, "Valve.VR", "IVRDriverManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -19,6 +19,13 @@ namespace System::Collections {
 // Completed forward declares
 // Type namespace: System
 namespace System {
+  // Forward declaring type: SorterGenericArray
+  struct SorterGenericArray;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Array::SorterGenericArray, "System", "Array/SorterGenericArray");
+// Type namespace: System
+namespace System {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -97,8 +104,6 @@ namespace System {
   static check_size<sizeof(Array::SorterGenericArray), 16 + sizeof(System::Collections::IComparer*)> __System_Array_SorterGenericArraySizeCheck;
   static_assert(sizeof(Array::SorterGenericArray) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Array::SorterGenericArray, "System", "Array/SorterGenericArray");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Array::SorterGenericArray::SorterGenericArray
 // Il2CppName: .ctor

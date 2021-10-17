@@ -13,6 +13,14 @@
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: Collision2D
+  class Collision2D;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::Collision2D);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Collision2D*, "UnityEngine", "Collision2D");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x40
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -104,7 +112,4 @@ namespace UnityEngine {
   static check_size<sizeof(Collision2D), 56 + sizeof(::ArrayW<UnityEngine::ContactPoint2D>)> __UnityEngine_Collision2DSizeCheck;
   static_assert(sizeof(Collision2D) == 0x40);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Collision2D);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Collision2D*, "UnityEngine", "Collision2D");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

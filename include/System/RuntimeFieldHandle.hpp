@@ -39,6 +39,13 @@ struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: System
 namespace System {
+  // Forward declaring type: RuntimeFieldHandle
+  struct RuntimeFieldHandle;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::RuntimeFieldHandle, "System", "RuntimeFieldHandle");
+// Type namespace: System
+namespace System {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -111,8 +118,6 @@ namespace System {
   static check_size<sizeof(RuntimeFieldHandle), 0 + sizeof(System::IntPtr)> __System_RuntimeFieldHandleSizeCheck;
   static_assert(sizeof(RuntimeFieldHandle) == 0x8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::RuntimeFieldHandle, "System", "RuntimeFieldHandle");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::RuntimeFieldHandle::get_Value
 // Il2CppName: get_Value

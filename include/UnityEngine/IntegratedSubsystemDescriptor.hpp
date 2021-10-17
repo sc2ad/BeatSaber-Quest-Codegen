@@ -16,6 +16,14 @@
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: IntegratedSubsystemDescriptor
+  class IntegratedSubsystemDescriptor;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::IntegratedSubsystemDescriptor);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::IntegratedSubsystemDescriptor*, "UnityEngine", "IntegratedSubsystemDescriptor");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -63,8 +71,6 @@ namespace UnityEngine {
   static check_size<sizeof(IntegratedSubsystemDescriptor), 16 + sizeof(System::IntPtr)> __UnityEngine_IntegratedSubsystemDescriptorSizeCheck;
   static_assert(sizeof(IntegratedSubsystemDescriptor) == 0x18);
 }
-NEED_NO_BOX(UnityEngine::IntegratedSubsystemDescriptor);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::IntegratedSubsystemDescriptor*, "UnityEngine", "IntegratedSubsystemDescriptor");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::IntegratedSubsystemDescriptor::UnityEngine_ISubsystemDescriptorImpl_set_ptr
 // Il2CppName: UnityEngine.ISubsystemDescriptorImpl.set_ptr

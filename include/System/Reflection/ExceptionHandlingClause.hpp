@@ -21,6 +21,14 @@ namespace System {
 // Completed forward declares
 // Type namespace: System.Reflection
 namespace System::Reflection {
+  // Forward declaring type: ExceptionHandlingClause
+  class ExceptionHandlingClause;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Reflection::ExceptionHandlingClause);
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::ExceptionHandlingClause*, "System.Reflection", "ExceptionHandlingClause");
+// Type namespace: System.Reflection
+namespace System::Reflection {
   // Size: 0x30
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -110,8 +118,6 @@ namespace System::Reflection {
   static check_size<sizeof(ExceptionHandlingClause), 44 + sizeof(int)> __System_Reflection_ExceptionHandlingClauseSizeCheck;
   static_assert(sizeof(ExceptionHandlingClause) == 0x30);
 }
-NEED_NO_BOX(System::Reflection::ExceptionHandlingClause);
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::ExceptionHandlingClause*, "System.Reflection", "ExceptionHandlingClause");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::ExceptionHandlingClause::New_ctor
 // Il2CppName: .ctor

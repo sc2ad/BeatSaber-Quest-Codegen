@@ -11,6 +11,13 @@
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: ContactFilter2D
+  struct ContactFilter2D;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ContactFilter2D, "UnityEngine", "ContactFilter2D");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x1C
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -154,8 +161,6 @@ namespace UnityEngine {
   static check_size<sizeof(ContactFilter2D), 24 + sizeof(float)> __UnityEngine_ContactFilter2DSizeCheck;
   static_assert(sizeof(ContactFilter2D) == 0x1C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ContactFilter2D, "UnityEngine", "ContactFilter2D");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ContactFilter2D::CheckConsistency
 // Il2CppName: CheckConsistency

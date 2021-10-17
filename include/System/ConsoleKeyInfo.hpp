@@ -14,6 +14,13 @@
 // Completed includes
 // Type namespace: System
 namespace System {
+  // Forward declaring type: ConsoleKeyInfo
+  struct ConsoleKeyInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::ConsoleKeyInfo, "System", "ConsoleKeyInfo");
+// Type namespace: System
+namespace System {
   // Size: 0xC
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -86,8 +93,6 @@ namespace System {
   static check_size<sizeof(ConsoleKeyInfo), 8 + sizeof(System::ConsoleModifiers)> __System_ConsoleKeyInfoSizeCheck;
   static_assert(sizeof(ConsoleKeyInfo) == 0xC);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::ConsoleKeyInfo, "System", "ConsoleKeyInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ConsoleKeyInfo::get_KeyChar
 // Il2CppName: get_KeyChar

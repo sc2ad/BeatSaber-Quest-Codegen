@@ -22,6 +22,13 @@
 // Completed includes
 // Type namespace: UnityEngine.Experimental.GlobalIllumination
 namespace UnityEngine::Experimental::GlobalIllumination {
+  // Forward declaring type: SpotLight
+  struct SpotLight;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::SpotLight, "UnityEngine.Experimental.GlobalIllumination", "SpotLight");
+// Type namespace: UnityEngine.Experimental.GlobalIllumination
+namespace UnityEngine::Experimental::GlobalIllumination {
   // Size: 0x56
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -152,6 +159,4 @@ namespace UnityEngine::Experimental::GlobalIllumination {
   static check_size<sizeof(SpotLight), 85 + sizeof(UnityEngine::Experimental::GlobalIllumination::AngularFalloffType)> __UnityEngine_Experimental_GlobalIllumination_SpotLightSizeCheck;
   static_assert(sizeof(SpotLight) == 0x56);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::SpotLight, "UnityEngine.Experimental.GlobalIllumination", "SpotLight");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

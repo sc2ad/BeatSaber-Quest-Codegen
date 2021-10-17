@@ -10,6 +10,14 @@
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: LightProbes
+  class LightProbes;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::LightProbes);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::LightProbes*, "UnityEngine", "LightProbes");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -22,7 +30,4 @@ namespace UnityEngine {
   }; // UnityEngine.LightProbes
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::LightProbes);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::LightProbes*, "UnityEngine", "LightProbes");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: TMPro
 namespace TMPro {
+  // Forward declaring type: Extents
+  struct Extents;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::Extents, "TMPro", "Extents");
+// Type namespace: TMPro
+namespace TMPro {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -60,8 +67,6 @@ namespace TMPro {
   static check_size<sizeof(Extents), 8 + sizeof(UnityEngine::Vector2)> __TMPro_ExtentsSizeCheck;
   static_assert(sizeof(Extents) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(TMPro::Extents, "TMPro", "Extents");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::Extents::Extents
 // Il2CppName: .ctor

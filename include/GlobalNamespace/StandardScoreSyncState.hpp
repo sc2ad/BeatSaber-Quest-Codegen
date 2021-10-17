@@ -27,6 +27,13 @@ namespace LiteNetLib::Utils {
 // Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
+  // Forward declaring type: StandardScoreSyncState
+  struct StandardScoreSyncState;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardScoreSyncState, "", "StandardScoreSyncState");
+// Type namespace: 
+namespace GlobalNamespace {
   // Size: 0x14
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -136,8 +143,6 @@ namespace GlobalNamespace {
   static check_size<sizeof(StandardScoreSyncState), 16 + sizeof(int)> __GlobalNamespace_StandardScoreSyncStateSizeCheck;
   static_assert(sizeof(StandardScoreSyncState) == 0x14);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardScoreSyncState, "", "StandardScoreSyncState");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::StandardScoreSyncState::SetState
 // Il2CppName: SetState

@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
+  // Forward declaring type: Colorf
+  struct Colorf;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Colorf, "", "OVRPlugin/Colorf");
+// Type namespace: 
+namespace GlobalNamespace {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -68,6 +75,4 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRPlugin::Colorf), 12 + sizeof(float)> __GlobalNamespace_OVRPlugin_ColorfSizeCheck;
   static_assert(sizeof(OVRPlugin::Colorf) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Colorf, "", "OVRPlugin/Colorf");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

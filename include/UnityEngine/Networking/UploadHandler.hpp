@@ -16,6 +16,14 @@
 // Completed includes
 // Type namespace: UnityEngine.Networking
 namespace UnityEngine::Networking {
+  // Forward declaring type: UploadHandler
+  class UploadHandler;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::Networking::UploadHandler);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::UploadHandler*, "UnityEngine.Networking", "UploadHandler");
+// Type namespace: UnityEngine.Networking
+namespace UnityEngine::Networking {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -71,8 +79,6 @@ namespace UnityEngine::Networking {
   static check_size<sizeof(UploadHandler), 16 + sizeof(System::IntPtr)> __UnityEngine_Networking_UploadHandlerSizeCheck;
   static_assert(sizeof(UploadHandler) == 0x18);
 }
-NEED_NO_BOX(UnityEngine::Networking::UploadHandler);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::UploadHandler*, "UnityEngine.Networking", "UploadHandler");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Networking::UploadHandler::Release
 // Il2CppName: Release

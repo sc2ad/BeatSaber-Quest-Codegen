@@ -9,6 +9,13 @@
 // Completed includes
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
+  // Forward declaring type: HAPI_ThriftServerOptions
+  struct HAPI_ThriftServerOptions;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_ThriftServerOptions, "HoudiniEngineUnity", "HAPI_ThriftServerOptions");
+// Type namespace: HoudiniEngineUnity
+namespace HoudiniEngineUnity {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -51,6 +58,4 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HAPI_ThriftServerOptions), 4 + sizeof(float)> __HoudiniEngineUnity_HAPI_ThriftServerOptionsSizeCheck;
   static_assert(sizeof(HAPI_ThriftServerOptions) == 0x8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_ThriftServerOptions, "HoudiniEngineUnity", "HAPI_ThriftServerOptions");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

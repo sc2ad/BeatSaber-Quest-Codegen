@@ -14,6 +14,13 @@ struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: CachedAssetBundle
+  struct CachedAssetBundle;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CachedAssetBundle, "UnityEngine", "CachedAssetBundle");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -64,8 +71,6 @@ namespace UnityEngine {
   static check_size<sizeof(CachedAssetBundle), 8 + sizeof(UnityEngine::Hash128)> __UnityEngine_CachedAssetBundleSizeCheck;
   static_assert(sizeof(CachedAssetBundle) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CachedAssetBundle, "UnityEngine", "CachedAssetBundle");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::CachedAssetBundle::get_name
 // Il2CppName: get_name

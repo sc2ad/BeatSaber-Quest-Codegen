@@ -27,6 +27,13 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine.ResourceManagement.ResourceProviders
 namespace UnityEngine::ResourceManagement::ResourceProviders {
+  // Forward declaring type: InstantiationParameters
+  struct InstantiationParameters;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters, "UnityEngine.ResourceManagement.ResourceProviders", "InstantiationParameters");
+// Type namespace: UnityEngine.ResourceManagement.ResourceProviders
+namespace UnityEngine::ResourceManagement::ResourceProviders {
   // Size: 0x2A
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -124,7 +131,6 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   static check_size<sizeof(InstantiationParameters), 41 + sizeof(bool)> __UnityEngine_ResourceManagement_ResourceProviders_InstantiationParametersSizeCheck;
   static_assert(sizeof(InstantiationParameters) == 0x2A);
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters, "UnityEngine.ResourceManagement.ResourceProviders", "InstantiationParameters");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters::get_Position
 // Il2CppName: get_Position

@@ -41,6 +41,13 @@ struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: 
 namespace GlobalNamespace {
+  // Forward declaring type: PlayerStateHash
+  struct PlayerStateHash;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerStateHash, "", "PlayerStateHash");
+// Type namespace: 
+namespace GlobalNamespace {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -155,8 +162,6 @@ namespace GlobalNamespace {
   static check_size<sizeof(PlayerStateHash), 0 + sizeof(GlobalNamespace::BitMask128)> __GlobalNamespace_PlayerStateHashSizeCheck;
   static_assert(sizeof(PlayerStateHash) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerStateHash, "", "PlayerStateHash");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayerStateHash::PlayerStateHash
 // Il2CppName: .ctor

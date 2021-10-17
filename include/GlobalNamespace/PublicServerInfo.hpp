@@ -21,6 +21,13 @@ struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: 
 namespace GlobalNamespace {
+  // Forward declaring type: PublicServerInfo
+  struct PublicServerInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PublicServerInfo, "", "PublicServerInfo");
+// Type namespace: 
+namespace GlobalNamespace {
   // Size: 0xC
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -71,8 +78,6 @@ namespace GlobalNamespace {
   static check_size<sizeof(PublicServerInfo), 8 + sizeof(int)> __GlobalNamespace_PublicServerInfoSizeCheck;
   static_assert(sizeof(PublicServerInfo) == 0xC);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PublicServerInfo, "", "PublicServerInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PublicServerInfo::PublicServerInfo
 // Il2CppName: .ctor

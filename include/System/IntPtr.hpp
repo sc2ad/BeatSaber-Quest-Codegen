@@ -25,6 +25,13 @@ struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: System
 namespace System {
+  // Forward declaring type: IntPtr
+  struct IntPtr;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::IntPtr, "System", "IntPtr");
+// Type namespace: System
+namespace System {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -142,8 +149,6 @@ namespace System {
   // Offset: 0x19F30B4
   bool operator !=(const System::IntPtr& value1, const System::IntPtr& value2);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::IntPtr, "System", "IntPtr");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IntPtr::get_Size
 // Il2CppName: get_Size

@@ -51,6 +51,13 @@ struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.ResourceManagement.ResourceProviders
 namespace UnityEngine::ResourceManagement::ResourceProviders {
+  // Forward declaring type: ProvideHandle
+  struct ProvideHandle;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle, "UnityEngine.ResourceManagement.ResourceProviders", "ProvideHandle");
+// Type namespace: UnityEngine.ResourceManagement.ResourceProviders
+namespace UnityEngine::ResourceManagement::ResourceProviders {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -149,7 +156,6 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   static check_size<sizeof(ProvideHandle), 16 + sizeof(UnityEngine::ResourceManagement::ResourceManager*)> __UnityEngine_ResourceManagement_ResourceProviders_ProvideHandleSizeCheck;
   static_assert(sizeof(ProvideHandle) == 0x18);
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle, "UnityEngine.ResourceManagement.ResourceProviders", "ProvideHandle");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle::get_InternalOp
 // Il2CppName: get_InternalOp

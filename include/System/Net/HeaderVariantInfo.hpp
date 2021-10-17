@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: System.Net
 namespace System::Net {
+  // Forward declaring type: HeaderVariantInfo
+  struct HeaderVariantInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::HeaderVariantInfo, "System.Net", "HeaderVariantInfo");
+// Type namespace: System.Net
+namespace System::Net {
   // Size: 0xC
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -61,8 +68,6 @@ namespace System::Net {
   static check_size<sizeof(HeaderVariantInfo), 8 + sizeof(System::Net::CookieVariant)> __System_Net_HeaderVariantInfoSizeCheck;
   static_assert(sizeof(HeaderVariantInfo) == 0xC);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Net::HeaderVariantInfo, "System.Net", "HeaderVariantInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::HeaderVariantInfo::get_Name
 // Il2CppName: get_Name

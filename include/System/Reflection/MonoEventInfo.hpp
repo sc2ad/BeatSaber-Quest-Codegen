@@ -27,6 +27,13 @@ namespace System::Reflection {
 // Completed forward declares
 // Type namespace: System.Reflection
 namespace System::Reflection {
+  // Forward declaring type: MonoEventInfo
+  struct MonoEventInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoEventInfo, "System.Reflection", "MonoEventInfo");
+// Type namespace: System.Reflection
+namespace System::Reflection {
   // Size: 0x40
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -123,8 +130,6 @@ namespace System::Reflection {
   static check_size<sizeof(MonoEventInfo), 56 + sizeof(::ArrayW<System::Reflection::MethodInfo*>)> __System_Reflection_MonoEventInfoSizeCheck;
   static_assert(sizeof(MonoEventInfo) == 0x40);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoEventInfo, "System.Reflection", "MonoEventInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::MonoEventInfo::get_event_info
 // Il2CppName: get_event_info

@@ -13,6 +13,13 @@
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
+  // Forward declaring type: ComputeControlPointsResults
+  struct ComputeControlPointsResults;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BezierSpline::ComputeControlPointsResults, "", "BezierSpline/ComputeControlPointsResults");
+// Type namespace: 
+namespace GlobalNamespace {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -57,8 +64,6 @@ namespace GlobalNamespace {
   static check_size<sizeof(BezierSpline::ComputeControlPointsResults), 8 + sizeof(::ArrayW<float>)> __GlobalNamespace_BezierSpline_ComputeControlPointsResultsSizeCheck;
   static_assert(sizeof(BezierSpline::ComputeControlPointsResults) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BezierSpline::ComputeControlPointsResults, "", "BezierSpline/ComputeControlPointsResults");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BezierSpline::ComputeControlPointsResults::ComputeControlPointsResults
 // Il2CppName: .ctor

@@ -22,6 +22,13 @@ namespace UnityEngine::Events {
 // Completed forward declares
 // Type namespace: TMPro
 namespace TMPro {
+  // Forward declaring type: FloatTween
+  struct FloatTween;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::FloatTween, "TMPro", "FloatTween");
+// Type namespace: TMPro
+namespace TMPro {
   // Size: 0x15
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -131,8 +138,6 @@ namespace TMPro {
   static check_size<sizeof(FloatTween), 20 + sizeof(bool)> __TMPro_FloatTweenSizeCheck;
   static_assert(sizeof(FloatTween) == 0x15);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(TMPro::FloatTween, "TMPro", "FloatTween");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::FloatTween::get_startValue
 // Il2CppName: get_startValue

@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
+  // Forward declaring type: HapticsDesc
+  struct HapticsDesc;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::HapticsDesc, "", "OVRPlugin/HapticsDesc");
+// Type namespace: 
+namespace GlobalNamespace {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -84,6 +91,4 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRPlugin::HapticsDesc), 20 + sizeof(int)> __GlobalNamespace_OVRPlugin_HapticsDescSizeCheck;
   static_assert(sizeof(OVRPlugin::HapticsDesc) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::HapticsDesc, "", "OVRPlugin/HapticsDesc");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

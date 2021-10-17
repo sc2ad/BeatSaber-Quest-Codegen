@@ -14,6 +14,13 @@
 // Completed includes
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
+  // Forward declaring type: CameraVideoStreamFrameHeader_t
+  struct CameraVideoStreamFrameHeader_t;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CameraVideoStreamFrameHeader_t, "OVR.OpenVR", "CameraVideoStreamFrameHeader_t");
+// Type namespace: OVR.OpenVR
+namespace OVR::OpenVR {
   // Size: 0x62
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -86,6 +93,4 @@ namespace OVR::OpenVR {
   static check_size<sizeof(CameraVideoStreamFrameHeader_t), 20 + sizeof(OVR::OpenVR::TrackedDevicePose_t)> __OVR_OpenVR_CameraVideoStreamFrameHeader_tSizeCheck;
   static_assert(sizeof(CameraVideoStreamFrameHeader_t) == 0x62);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CameraVideoStreamFrameHeader_t, "OVR.OpenVR", "CameraVideoStreamFrameHeader_t");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

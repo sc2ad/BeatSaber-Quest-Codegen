@@ -11,6 +11,13 @@
 // Completed includes
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
+  // Forward declaring type: RenderModel_t
+  struct RenderModel_t;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::RenderModel_t, "OVR.OpenVR", "RenderModel_t");
+// Type namespace: OVR.OpenVR
+namespace OVR::OpenVR {
   // Size: 0x20
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -77,6 +84,4 @@ namespace OVR::OpenVR {
   static check_size<sizeof(RenderModel_t), 28 + sizeof(int)> __OVR_OpenVR_RenderModel_tSizeCheck;
   static_assert(sizeof(RenderModel_t) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::RenderModel_t, "OVR.OpenVR", "RenderModel_t");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

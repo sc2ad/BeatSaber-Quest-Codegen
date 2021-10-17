@@ -15,6 +15,13 @@ struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.XR
 namespace UnityEngine::XR {
+  // Forward declaring type: Eyes
+  struct Eyes;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::Eyes, "UnityEngine.XR", "Eyes");
+// Type namespace: UnityEngine.XR
+namespace UnityEngine::XR {
   // Size: 0xC
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -84,8 +91,6 @@ namespace UnityEngine::XR {
   static check_size<sizeof(Eyes), 8 + sizeof(uint)> __UnityEngine_XR_EyesSizeCheck;
   static_assert(sizeof(Eyes) == 0xC);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::Eyes, "UnityEngine.XR", "Eyes");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::XR::Eyes::get_deviceId
 // Il2CppName: get_deviceId

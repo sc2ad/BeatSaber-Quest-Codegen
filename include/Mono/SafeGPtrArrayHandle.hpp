@@ -21,6 +21,13 @@ namespace System {
 // Completed forward declares
 // Type namespace: Mono
 namespace Mono {
+  // Forward declaring type: SafeGPtrArrayHandle
+  struct SafeGPtrArrayHandle;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Mono::SafeGPtrArrayHandle, "Mono", "SafeGPtrArrayHandle");
+// Type namespace: Mono
+namespace Mono {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -74,8 +81,6 @@ namespace Mono {
   static check_size<sizeof(SafeGPtrArrayHandle), 0 + sizeof(Mono::RuntimeGPtrArrayHandle)> __Mono_SafeGPtrArrayHandleSizeCheck;
   static_assert(sizeof(SafeGPtrArrayHandle) == 0x8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Mono::SafeGPtrArrayHandle, "Mono", "SafeGPtrArrayHandle");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::SafeGPtrArrayHandle::get_Length
 // Il2CppName: get_Length

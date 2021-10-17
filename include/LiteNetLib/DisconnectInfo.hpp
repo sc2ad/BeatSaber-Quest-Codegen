@@ -21,6 +21,13 @@ namespace LiteNetLib {
 // Completed forward declares
 // Type namespace: LiteNetLib
 namespace LiteNetLib {
+  // Forward declaring type: DisconnectInfo
+  struct DisconnectInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::DisconnectInfo, "LiteNetLib", "DisconnectInfo");
+// Type namespace: LiteNetLib
+namespace LiteNetLib {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -69,6 +76,4 @@ namespace LiteNetLib {
   static check_size<sizeof(DisconnectInfo), 8 + sizeof(LiteNetLib::NetPacketReader*)> __LiteNetLib_DisconnectInfoSizeCheck;
   static_assert(sizeof(DisconnectInfo) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::DisconnectInfo, "LiteNetLib", "DisconnectInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

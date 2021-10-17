@@ -31,6 +31,13 @@ namespace System {
 // Completed forward declares
 // Type namespace: UnityEngine.Playables
 namespace UnityEngine::Playables {
+  // Forward declaring type: Playable
+  struct Playable;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::Playable, "UnityEngine.Playables", "Playable");
+// Type namespace: UnityEngine.Playables
+namespace UnityEngine::Playables {
   // Size: 0xC
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -111,7 +118,6 @@ namespace UnityEngine::Playables {
   static check_size<sizeof(Playable), 0 + sizeof(UnityEngine::Playables::PlayableHandle)> __UnityEngine_Playables_PlayableSizeCheck;
   static_assert(sizeof(Playable) == 0xC);
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::Playable, "UnityEngine.Playables", "Playable");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Playables::Playable::get_Null
 // Il2CppName: get_Null

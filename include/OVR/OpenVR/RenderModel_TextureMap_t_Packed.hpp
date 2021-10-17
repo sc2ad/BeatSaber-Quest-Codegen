@@ -19,6 +19,13 @@ namespace OVR::OpenVR {
 // Completed forward declares
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
+  // Forward declaring type: RenderModel_TextureMap_t_Packed
+  struct RenderModel_TextureMap_t_Packed;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::RenderModel_TextureMap_t_Packed, "OVR.OpenVR", "RenderModel_TextureMap_t_Packed");
+// Type namespace: OVR.OpenVR
+namespace OVR::OpenVR {
   // Size: 0xC
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -73,8 +80,6 @@ namespace OVR::OpenVR {
   static check_size<sizeof(RenderModel_TextureMap_t_Packed), 4 + sizeof(System::IntPtr)> __OVR_OpenVR_RenderModel_TextureMap_t_PackedSizeCheck;
   static_assert(sizeof(RenderModel_TextureMap_t_Packed) == 0xC);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::RenderModel_TextureMap_t_Packed, "OVR.OpenVR", "RenderModel_TextureMap_t_Packed");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::RenderModel_TextureMap_t_Packed::RenderModel_TextureMap_t_Packed
 // Il2CppName: .ctor

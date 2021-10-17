@@ -11,6 +11,13 @@
 // Completed includes
 // Type namespace: System.Security.Cryptography
 namespace System::Security::Cryptography {
+  // Forward declaring type: RSAParameters
+  struct RSAParameters;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RSAParameters, "System.Security.Cryptography", "RSAParameters");
+// Type namespace: System.Security.Cryptography
+namespace System::Security::Cryptography {
   // Size: 0x40
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -100,6 +107,4 @@ namespace System::Security::Cryptography {
   static check_size<sizeof(RSAParameters), 56 + sizeof(::ArrayW<uint8_t>)> __System_Security_Cryptography_RSAParametersSizeCheck;
   static_assert(sizeof(RSAParameters) == 0x40);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RSAParameters, "System.Security.Cryptography", "RSAParameters");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

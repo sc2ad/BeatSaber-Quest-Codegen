@@ -26,6 +26,13 @@ namespace LiteNetLib::Utils {
 // Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
+  // Forward declaring type: ColorSchemeNetSerializable
+  struct ColorSchemeNetSerializable;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSchemeNetSerializable, "", "ColorSchemeNetSerializable");
+// Type namespace: 
+namespace GlobalNamespace {
   // Size: 0x70
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -119,8 +126,6 @@ namespace GlobalNamespace {
   static check_size<sizeof(ColorSchemeNetSerializable), 96 + sizeof(GlobalNamespace::ColorNoAlphaSerializable)> __GlobalNamespace_ColorSchemeNetSerializableSizeCheck;
   static_assert(sizeof(ColorSchemeNetSerializable) == 0x70);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSchemeNetSerializable, "", "ColorSchemeNetSerializable");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ColorSchemeNetSerializable::ColorSchemeNetSerializable
 // Il2CppName: .ctor

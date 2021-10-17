@@ -21,6 +21,14 @@ namespace Mono::Unity {
 // Completed forward declares
 // Type namespace: Mono.Unity
 namespace Mono::Unity {
+  // Forward declaring type: unitytls_interface_struct
+  class unitytls_interface_struct;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(Mono::Unity::UnityTls::unitytls_interface_struct);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTls::unitytls_interface_struct*, "Mono.Unity", "UnityTls/unitytls_interface_struct");
+// Type namespace: Mono.Unity
+namespace Mono::Unity {
   // Size: 0x118
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -372,8 +380,6 @@ namespace Mono::Unity {
   static check_size<sizeof(UnityTls::unitytls_interface_struct), 272 + sizeof(Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_random_generate_bytes_t*)> __Mono_Unity_UnityTls_unitytls_interface_structSizeCheck;
   static_assert(sizeof(UnityTls::unitytls_interface_struct) == 0x118);
 }
-NEED_NO_BOX(Mono::Unity::UnityTls::unitytls_interface_struct);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTls::unitytls_interface_struct*, "Mono.Unity", "UnityTls/unitytls_interface_struct");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Unity::UnityTls::unitytls_interface_struct::New_ctor
 // Il2CppName: .ctor

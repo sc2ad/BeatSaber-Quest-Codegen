@@ -11,6 +11,13 @@
 // Completed includes
 // Type namespace: Valve.VR
 namespace Valve::VR {
+  // Forward declaring type: COpenVRContext
+  struct COpenVRContext;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::COpenVRContext, "Valve.VR", "COpenVRContext");
+// Type namespace: Valve.VR
+namespace Valve::VR {
   // Size: 0x68
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -139,6 +146,4 @@ namespace Valve::VR {
   static check_size<sizeof(COpenVRContext), 96 + sizeof(System::IntPtr)> __Valve_VR_COpenVRContextSizeCheck;
   static_assert(sizeof(COpenVRContext) == 0x68);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::COpenVRContext, "Valve.VR", "COpenVRContext");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

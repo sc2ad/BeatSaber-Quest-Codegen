@@ -9,6 +9,13 @@
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: Keyframe
+  struct Keyframe;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Keyframe, "UnityEngine", "Keyframe");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x1C
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -120,8 +127,6 @@ namespace UnityEngine {
   static check_size<sizeof(Keyframe), 24 + sizeof(float)> __UnityEngine_KeyframeSizeCheck;
   static_assert(sizeof(Keyframe) == 0x1C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Keyframe, "UnityEngine", "Keyframe");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Keyframe::get_time
 // Il2CppName: get_time

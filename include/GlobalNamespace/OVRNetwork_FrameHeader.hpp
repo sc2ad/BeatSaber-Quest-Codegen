@@ -15,6 +15,13 @@
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
+  // Forward declaring type: FrameHeader
+  struct FrameHeader;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRNetwork::FrameHeader, "", "OVRNetwork/FrameHeader");
+// Type namespace: 
+namespace GlobalNamespace {
   // Size: 0xC
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -75,8 +82,6 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRNetwork::FrameHeader), 8 + sizeof(int)> __GlobalNamespace_OVRNetwork_FrameHeaderSizeCheck;
   static_assert(sizeof(OVRNetwork::FrameHeader) == 0xC);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRNetwork::FrameHeader, "", "OVRNetwork/FrameHeader");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRNetwork::FrameHeader::ToBytes
 // Il2CppName: ToBytes

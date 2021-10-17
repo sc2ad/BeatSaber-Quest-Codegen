@@ -15,6 +15,13 @@
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
+  // Forward declaring type: SkeletonPoseData
+  struct SkeletonPoseData;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSkeleton::SkeletonPoseData, "", "OVRSkeleton/SkeletonPoseData");
+// Type namespace: 
+namespace GlobalNamespace {
   // Size: 0x30
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -125,8 +132,6 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRSkeleton::SkeletonPoseData), 44 + sizeof(int)> __GlobalNamespace_OVRSkeleton_SkeletonPoseDataSizeCheck;
   static_assert(sizeof(OVRSkeleton::SkeletonPoseData) == 0x30);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSkeleton::SkeletonPoseData, "", "OVRSkeleton/SkeletonPoseData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRSkeleton::SkeletonPoseData::get_RootPose
 // Il2CppName: get_RootPose

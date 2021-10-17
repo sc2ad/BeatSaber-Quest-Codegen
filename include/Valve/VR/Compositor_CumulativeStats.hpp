@@ -9,6 +9,13 @@
 // Completed includes
 // Type namespace: Valve.VR
 namespace Valve::VR {
+  // Forward declaring type: Compositor_CumulativeStats
+  struct Compositor_CumulativeStats;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::Compositor_CumulativeStats, "Valve.VR", "Compositor_CumulativeStats");
+// Type namespace: Valve.VR
+namespace Valve::VR {
   // Size: 0x3C
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -153,6 +160,4 @@ namespace Valve::VR {
   static check_size<sizeof(Compositor_CumulativeStats), 56 + sizeof(uint)> __Valve_VR_Compositor_CumulativeStatsSizeCheck;
   static_assert(sizeof(Compositor_CumulativeStats) == 0x3C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::Compositor_CumulativeStats, "Valve.VR", "Compositor_CumulativeStats");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

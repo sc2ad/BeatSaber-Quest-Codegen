@@ -49,6 +49,14 @@ namespace System::Security::Policy {
 // Completed forward declares
 // Type namespace: System.Reflection
 namespace System::Reflection {
+  // Forward declaring type: Assembly
+  class Assembly;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Reflection::Assembly);
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Assembly*, "System.Reflection", "Assembly");
+// Type namespace: System.Reflection
+namespace System::Reflection {
   // Size: 0x60
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -298,8 +306,6 @@ namespace System::Reflection {
   // Offset: 0x1E88A60
   bool operator !=(System::Reflection::Assembly* left, System::Reflection::Assembly& right);
 }
-NEED_NO_BOX(System::Reflection::Assembly);
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Assembly*, "System.Reflection", "Assembly");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::Assembly::get_CodeBase
 // Il2CppName: get_CodeBase

@@ -14,6 +14,13 @@
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
+  // Forward declaring type: ControllerState2
+  struct ControllerState2;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::ControllerState2, "", "OVRPlugin/ControllerState2");
+// Type namespace: 
+namespace GlobalNamespace {
   // Size: 0x40
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -137,8 +144,6 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRPlugin::ControllerState2), 56 + sizeof(GlobalNamespace::OVRPlugin::Vector2f)> __GlobalNamespace_OVRPlugin_ControllerState2SizeCheck;
   static_assert(sizeof(OVRPlugin::ControllerState2) == 0x40);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::ControllerState2, "", "OVRPlugin/ControllerState2");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::ControllerState2::ControllerState2
 // Il2CppName: .ctor

@@ -11,6 +11,13 @@
 // Completed includes
 // Type namespace: System.Net.NetworkInformation
 namespace System::Net::NetworkInformation {
+  // Forward declaring type: sockaddr_ll
+  struct sockaddr_ll;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::sockaddr_ll, "System.Net.NetworkInformation", "sockaddr_ll");
+// Type namespace: System.Net.NetworkInformation
+namespace System::Net::NetworkInformation {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -93,6 +100,4 @@ namespace System::Net::NetworkInformation {
   static check_size<sizeof(sockaddr_ll), 16 + sizeof(::ArrayW<uint8_t>)> __System_Net_NetworkInformation_sockaddr_llSizeCheck;
   static_assert(sizeof(sockaddr_ll) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::sockaddr_ll, "System.Net.NetworkInformation", "sockaddr_ll");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

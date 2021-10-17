@@ -25,6 +25,13 @@
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
+  // Forward declaring type: LayerDesc
+  struct LayerDesc;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::LayerDesc, "", "OVRPlugin/LayerDesc");
+// Type namespace: 
+namespace GlobalNamespace {
   // Size: 0x4C
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -166,8 +173,6 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRPlugin::LayerDesc), 68 + sizeof(GlobalNamespace::OVRPlugin::Sizei)> __GlobalNamespace_OVRPlugin_LayerDescSizeCheck;
   static_assert(sizeof(OVRPlugin::LayerDesc) == 0x4C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::LayerDesc, "", "OVRPlugin/LayerDesc");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::LayerDesc::ToString
 // Il2CppName: ToString

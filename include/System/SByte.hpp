@@ -42,6 +42,13 @@ namespace System::Globalization {
 // Completed forward declares
 // Type namespace: System
 namespace System {
+  // Forward declaring type: SByte
+  struct SByte;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::SByte, "System", "SByte");
+// Type namespace: System
+namespace System {
   // Size: 0x1
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -202,8 +209,6 @@ namespace System {
   static check_size<sizeof(SByte), 0 + sizeof(int8_t)> __System_SByteSizeCheck;
   static_assert(sizeof(SByte) == 0x1);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::SByte, "System", "SByte");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::SByte::CompareTo
 // Il2CppName: CompareTo

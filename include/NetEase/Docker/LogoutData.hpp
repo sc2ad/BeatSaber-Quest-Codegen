@@ -9,6 +9,13 @@
 // Completed includes
 // Type namespace: NetEase.Docker
 namespace NetEase::Docker {
+  // Forward declaring type: LogoutData
+  struct LogoutData;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::LogoutData, "NetEase.Docker", "LogoutData");
+// Type namespace: NetEase.Docker
+namespace NetEase::Docker {
   // Size: 0x4
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -49,8 +56,6 @@ namespace NetEase::Docker {
   static check_size<sizeof(LogoutData), 0 + sizeof(int)> __NetEase_Docker_LogoutDataSizeCheck;
   static_assert(sizeof(LogoutData) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::LogoutData, "NetEase.Docker", "LogoutData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NetEase::Docker::LogoutData::set_LogoutCode
 // Il2CppName: set_LogoutCode

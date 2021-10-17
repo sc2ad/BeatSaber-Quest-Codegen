@@ -9,6 +9,13 @@
 // Completed includes
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
+  // Forward declaring type: IntersectionMaskRectangle_t
+  struct IntersectionMaskRectangle_t;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IntersectionMaskRectangle_t, "OVR.OpenVR", "IntersectionMaskRectangle_t");
+// Type namespace: OVR.OpenVR
+namespace OVR::OpenVR {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -65,6 +72,4 @@ namespace OVR::OpenVR {
   static check_size<sizeof(IntersectionMaskRectangle_t), 12 + sizeof(float)> __OVR_OpenVR_IntersectionMaskRectangle_tSizeCheck;
   static_assert(sizeof(IntersectionMaskRectangle_t) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IntersectionMaskRectangle_t, "OVR.OpenVR", "IntersectionMaskRectangle_t");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

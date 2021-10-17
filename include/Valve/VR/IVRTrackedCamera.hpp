@@ -14,6 +14,13 @@ namespace Valve::VR {
 // Completed forward declares
 // Type namespace: Valve.VR
 namespace Valve::VR {
+  // Forward declaring type: IVRTrackedCamera
+  struct IVRTrackedCamera;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRTrackedCamera, "Valve.VR", "IVRTrackedCamera");
+// Type namespace: Valve.VR
+namespace Valve::VR {
   // Size: 0x60
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -158,6 +165,4 @@ namespace Valve::VR {
   static check_size<sizeof(IVRTrackedCamera), 88 + sizeof(Valve::VR::IVRTrackedCamera::_ReleaseVideoStreamTextureGL*)> __Valve_VR_IVRTrackedCameraSizeCheck;
   static_assert(sizeof(IVRTrackedCamera) == 0x60);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRTrackedCamera, "Valve.VR", "IVRTrackedCamera");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

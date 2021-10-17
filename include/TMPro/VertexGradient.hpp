@@ -11,6 +11,13 @@
 // Completed includes
 // Type namespace: TMPro
 namespace TMPro {
+  // Forward declaring type: VertexGradient
+  struct VertexGradient;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::VertexGradient, "TMPro", "VertexGradient");
+// Type namespace: TMPro
+namespace TMPro {
   // Size: 0x40
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -73,8 +80,6 @@ namespace TMPro {
   static check_size<sizeof(VertexGradient), 48 + sizeof(UnityEngine::Color)> __TMPro_VertexGradientSizeCheck;
   static_assert(sizeof(VertexGradient) == 0x40);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(TMPro::VertexGradient, "TMPro", "VertexGradient");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::VertexGradient::VertexGradient
 // Il2CppName: .ctor

@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: System.Runtime.Remoting.Messaging
 namespace System::Runtime::Remoting::Messaging {
+  // Forward declaring type: Reader
+  struct Reader;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::IllogicalCallContext::Reader, "System.Runtime.Remoting.Messaging", "IllogicalCallContext/Reader");
+// Type namespace: System.Runtime.Remoting.Messaging
+namespace System::Runtime::Remoting::Messaging {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -57,8 +64,6 @@ namespace System::Runtime::Remoting::Messaging {
   static check_size<sizeof(IllogicalCallContext::Reader), 0 + sizeof(System::Runtime::Remoting::Messaging::IllogicalCallContext*)> __System_Runtime_Remoting_Messaging_IllogicalCallContext_ReaderSizeCheck;
   static_assert(sizeof(IllogicalCallContext::Reader) == 0x8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::IllogicalCallContext::Reader, "System.Runtime.Remoting.Messaging", "IllogicalCallContext/Reader");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::IllogicalCallContext::Reader::get_IsNull
 // Il2CppName: get_IsNull

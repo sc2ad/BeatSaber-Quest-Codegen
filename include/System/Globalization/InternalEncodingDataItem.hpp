@@ -13,6 +13,13 @@ struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Globalization
 namespace System::Globalization {
+  // Forward declaring type: InternalEncodingDataItem
+  struct InternalEncodingDataItem;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Globalization::InternalEncodingDataItem, "System.Globalization", "InternalEncodingDataItem");
+// Type namespace: System.Globalization
+namespace System::Globalization {
   // Size: 0xA
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -53,6 +60,4 @@ namespace System::Globalization {
   static check_size<sizeof(InternalEncodingDataItem), 8 + sizeof(uint16_t)> __System_Globalization_InternalEncodingDataItemSizeCheck;
   static_assert(sizeof(InternalEncodingDataItem) == 0xA);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Globalization::InternalEncodingDataItem, "System.Globalization", "InternalEncodingDataItem");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

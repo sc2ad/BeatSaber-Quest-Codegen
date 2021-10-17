@@ -11,6 +11,13 @@
 // Completed includes
 // Type namespace: UnityEngine.PlayerLoop
 namespace UnityEngine::PlayerLoop {
+  // Forward declaring type: UpdateInputManager
+  struct UpdateInputManager;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PlayerLoop::EarlyUpdate::UpdateInputManager, "UnityEngine.PlayerLoop", "EarlyUpdate/UpdateInputManager");
+// Type namespace: UnityEngine.PlayerLoop
+namespace UnityEngine::PlayerLoop {
   // Size: 0x0
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -28,6 +35,4 @@ namespace UnityEngine::PlayerLoop {
   }; // UnityEngine.PlayerLoop.EarlyUpdate/UnityEngine.PlayerLoop.UpdateInputManager
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PlayerLoop::EarlyUpdate::UpdateInputManager, "UnityEngine.PlayerLoop", "EarlyUpdate/UpdateInputManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

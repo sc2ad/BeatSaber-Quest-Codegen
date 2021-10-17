@@ -25,6 +25,13 @@ namespace LiteNetLib::Utils {
 // Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
+  // Forward declaring type: SyncStateId
+  struct SyncStateId;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SyncStateId, "", "SyncStateId");
+// Type namespace: 
+namespace GlobalNamespace {
   // Size: 0x1
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -124,8 +131,6 @@ namespace GlobalNamespace {
   // Offset: 0x18C11D0
   bool operator !=(const GlobalNamespace::SyncStateId& a, const GlobalNamespace::SyncStateId& b);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SyncStateId, "", "SyncStateId");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SyncStateId::SyncStateId
 // Il2CppName: .ctor

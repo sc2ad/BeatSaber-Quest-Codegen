@@ -28,6 +28,13 @@ struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: 
 namespace GlobalNamespace {
+  // Forward declaring type: Color32Serializable
+  struct Color32Serializable;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Color32Serializable, "", "Color32Serializable");
+// Type namespace: 
+namespace GlobalNamespace {
   // Size: 0x4
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -99,8 +106,6 @@ namespace GlobalNamespace {
   static check_size<sizeof(Color32Serializable), 0 + sizeof(UnityEngine::Color32)> __GlobalNamespace_Color32SerializableSizeCheck;
   static_assert(sizeof(Color32Serializable) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Color32Serializable, "", "Color32Serializable");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::Color32Serializable::Color32Serializable
 // Il2CppName: .ctor

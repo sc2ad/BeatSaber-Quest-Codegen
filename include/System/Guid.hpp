@@ -31,6 +31,13 @@ namespace System::Security::Cryptography {
 // Completed forward declares
 // Type namespace: System
 namespace System {
+  // Forward declaring type: Guid
+  struct Guid;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Guid, "System", "Guid");
+// Type namespace: System
+namespace System {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -298,8 +305,6 @@ namespace System {
   // Offset: 0x1BC5F88
   bool operator !=(const System::Guid& a, const System::Guid& b);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Guid, "System", "Guid");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Guid::Guid
 // Il2CppName: .ctor

@@ -13,6 +13,13 @@ struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
+  // Forward declaring type: InputOriginInfo_t
+  struct InputOriginInfo_t;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::InputOriginInfo_t, "OVR.OpenVR", "InputOriginInfo_t");
+// Type namespace: OVR.OpenVR
+namespace OVR::OpenVR {
   // Size: 0x8C
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -1080,8 +1087,6 @@ namespace OVR::OpenVR {
   static check_size<sizeof(InputOriginInfo_t), 139 + sizeof(uint8_t)> __OVR_OpenVR_InputOriginInfo_tSizeCheck;
   static_assert(sizeof(InputOriginInfo_t) == 0x8C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::InputOriginInfo_t, "OVR.OpenVR", "InputOriginInfo_t");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::InputOriginInfo_t::get_rchRenderModelComponentName
 // Il2CppName: get_rchRenderModelComponentName

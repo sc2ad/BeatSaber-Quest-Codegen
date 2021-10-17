@@ -10,6 +10,13 @@
 // Completed includes
 // Type namespace: Valve.VR
 namespace Valve::VR {
+  // Forward declaring type: VREvent_Chaperone_t
+  struct VREvent_Chaperone_t;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VREvent_Chaperone_t, "Valve.VR", "VREvent_Chaperone_t");
+// Type namespace: Valve.VR
+namespace Valve::VR {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -50,6 +57,4 @@ namespace Valve::VR {
   static check_size<sizeof(VREvent_Chaperone_t), 8 + sizeof(uint64_t)> __Valve_VR_VREvent_Chaperone_tSizeCheck;
   static_assert(sizeof(VREvent_Chaperone_t) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VREvent_Chaperone_t, "Valve.VR", "VREvent_Chaperone_t");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

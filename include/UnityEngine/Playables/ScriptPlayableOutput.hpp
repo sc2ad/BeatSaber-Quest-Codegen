@@ -25,6 +25,13 @@ struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.Playables
 namespace UnityEngine::Playables {
+  // Forward declaring type: ScriptPlayableOutput
+  struct ScriptPlayableOutput;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::ScriptPlayableOutput, "UnityEngine.Playables", "ScriptPlayableOutput");
+// Type namespace: UnityEngine.Playables
+namespace UnityEngine::Playables {
   // Size: 0xC
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -78,8 +85,6 @@ namespace UnityEngine::Playables {
   static check_size<sizeof(ScriptPlayableOutput), 0 + sizeof(UnityEngine::Playables::PlayableOutputHandle)> __UnityEngine_Playables_ScriptPlayableOutputSizeCheck;
   static_assert(sizeof(ScriptPlayableOutput) == 0xC);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::ScriptPlayableOutput, "UnityEngine.Playables", "ScriptPlayableOutput");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Playables::ScriptPlayableOutput::get_Null
 // Il2CppName: get_Null

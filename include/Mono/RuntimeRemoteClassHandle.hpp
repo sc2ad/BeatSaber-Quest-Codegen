@@ -19,6 +19,13 @@ namespace Mono {
 // Completed forward declares
 // Type namespace: Mono
 namespace Mono {
+  // Forward declaring type: RuntimeRemoteClassHandle
+  struct RuntimeRemoteClassHandle;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeRemoteClassHandle, "Mono", "RuntimeRemoteClassHandle");
+// Type namespace: Mono
+namespace Mono {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -58,8 +65,6 @@ namespace Mono {
   static check_size<sizeof(RuntimeRemoteClassHandle), 0 + sizeof(Mono::RuntimeStructs::RemoteClass*)> __Mono_RuntimeRemoteClassHandleSizeCheck;
   static_assert(sizeof(RuntimeRemoteClassHandle) == 0x8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeRemoteClassHandle, "Mono", "RuntimeRemoteClassHandle");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::RuntimeRemoteClassHandle::get_ProxyClass
 // Il2CppName: get_ProxyClass

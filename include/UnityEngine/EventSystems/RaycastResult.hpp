@@ -26,6 +26,13 @@ namespace UnityEngine::EventSystems {
 // Completed forward declares
 // Type namespace: UnityEngine.EventSystems
 namespace UnityEngine::EventSystems {
+  // Forward declaring type: RaycastResult
+  struct RaycastResult;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::RaycastResult, "UnityEngine.EventSystems", "RaycastResult");
+// Type namespace: UnityEngine.EventSystems
+namespace UnityEngine::EventSystems {
   // Size: 0x48
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -155,8 +162,6 @@ namespace UnityEngine::EventSystems {
   static check_size<sizeof(RaycastResult), 68 + sizeof(int)> __UnityEngine_EventSystems_RaycastResultSizeCheck;
   static_assert(sizeof(RaycastResult) == 0x48);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::RaycastResult, "UnityEngine.EventSystems", "RaycastResult");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::EventSystems::RaycastResult::get_gameObject
 // Il2CppName: get_gameObject

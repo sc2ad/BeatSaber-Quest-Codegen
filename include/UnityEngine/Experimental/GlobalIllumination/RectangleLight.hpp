@@ -20,6 +20,13 @@
 // Completed includes
 // Type namespace: UnityEngine.Experimental.GlobalIllumination
 namespace UnityEngine::Experimental::GlobalIllumination {
+  // Forward declaring type: RectangleLight
+  struct RectangleLight;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::RectangleLight, "UnityEngine.Experimental.GlobalIllumination", "RectangleLight");
+// Type namespace: UnityEngine.Experimental.GlobalIllumination
+namespace UnityEngine::Experimental::GlobalIllumination {
   // Size: 0x51
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -134,6 +141,4 @@ namespace UnityEngine::Experimental::GlobalIllumination {
   static check_size<sizeof(RectangleLight), 80 + sizeof(UnityEngine::Experimental::GlobalIllumination::FalloffType)> __UnityEngine_Experimental_GlobalIllumination_RectangleLightSizeCheck;
   static_assert(sizeof(RectangleLight) == 0x51);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::RectangleLight, "UnityEngine.Experimental.GlobalIllumination", "RectangleLight");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

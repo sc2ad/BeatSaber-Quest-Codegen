@@ -14,6 +14,13 @@ namespace Valve::VR {
 // Completed forward declares
 // Type namespace: Valve.VR
 namespace Valve::VR {
+  // Forward declaring type: IVRSettings
+  struct IVRSettings;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSettings, "Valve.VR", "IVRSettings");
+// Type namespace: Valve.VR
+namespace Valve::VR {
   // Size: 0x60
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -158,6 +165,4 @@ namespace Valve::VR {
   static check_size<sizeof(IVRSettings), 88 + sizeof(Valve::VR::IVRSettings::_RemoveKeyInSection*)> __Valve_VR_IVRSettingsSizeCheck;
   static_assert(sizeof(IVRSettings) == 0x60);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSettings, "Valve.VR", "IVRSettings");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

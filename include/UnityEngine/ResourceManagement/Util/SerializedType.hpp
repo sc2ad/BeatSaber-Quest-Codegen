@@ -19,6 +19,13 @@ struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.ResourceManagement.Util
 namespace UnityEngine::ResourceManagement::Util {
+  // Forward declaring type: SerializedType
+  struct SerializedType;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Util::SerializedType, "UnityEngine.ResourceManagement.Util", "SerializedType");
+// Type namespace: UnityEngine.ResourceManagement.Util
+namespace UnityEngine::ResourceManagement::Util {
   // Size: 0x19
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -100,8 +107,6 @@ namespace UnityEngine::ResourceManagement::Util {
   static check_size<sizeof(SerializedType), 24 + sizeof(bool)> __UnityEngine_ResourceManagement_Util_SerializedTypeSizeCheck;
   static_assert(sizeof(SerializedType) == 0x19);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Util::SerializedType, "UnityEngine.ResourceManagement.Util", "SerializedType");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::SerializedType::get_AssemblyName
 // Il2CppName: get_AssemblyName

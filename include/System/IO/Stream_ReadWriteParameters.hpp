@@ -13,6 +13,13 @@
 // Completed includes
 // Type namespace: System.IO
 namespace System::IO {
+  // Forward declaring type: ReadWriteParameters
+  struct ReadWriteParameters;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::IO::Stream::ReadWriteParameters, "System.IO", "Stream/ReadWriteParameters");
+// Type namespace: System.IO
+namespace System::IO {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -61,6 +68,4 @@ namespace System::IO {
   static check_size<sizeof(Stream::ReadWriteParameters), 12 + sizeof(int)> __System_IO_Stream_ReadWriteParametersSizeCheck;
   static_assert(sizeof(Stream::ReadWriteParameters) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::IO::Stream::ReadWriteParameters, "System.IO", "Stream/ReadWriteParameters");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

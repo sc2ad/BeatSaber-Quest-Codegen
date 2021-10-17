@@ -20,6 +20,13 @@ namespace UnityEngine::TextCore {
 // Completed forward declares
 // Type namespace: UnityEngine.TextCore.LowLevel
 namespace UnityEngine::TextCore::LowLevel {
+  // Forward declaring type: GlyphMarshallingStruct
+  struct GlyphMarshallingStruct;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct, "UnityEngine.TextCore.LowLevel", "GlyphMarshallingStruct");
+// Type namespace: UnityEngine.TextCore.LowLevel
+namespace UnityEngine::TextCore::LowLevel {
   // Size: 0x30
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -88,8 +95,6 @@ namespace UnityEngine::TextCore::LowLevel {
   static check_size<sizeof(GlyphMarshallingStruct), 44 + sizeof(int)> __UnityEngine_TextCore_LowLevel_GlyphMarshallingStructSizeCheck;
   static_assert(sizeof(GlyphMarshallingStruct) == 0x30);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct, "UnityEngine.TextCore.LowLevel", "GlyphMarshallingStruct");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct::GlyphMarshallingStruct
 // Il2CppName: .ctor

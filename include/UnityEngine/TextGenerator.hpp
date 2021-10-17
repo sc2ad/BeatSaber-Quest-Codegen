@@ -52,6 +52,14 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: TextGenerator
+  class TextGenerator;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::TextGenerator);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextGenerator*, "UnityEngine", "TextGenerator");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0xA3
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -273,8 +281,6 @@ namespace UnityEngine {
   static check_size<sizeof(TextGenerator), 162 + sizeof(bool)> __UnityEngine_TextGeneratorSizeCheck;
   static_assert(sizeof(TextGenerator) == 0xA3);
 }
-NEED_NO_BOX(UnityEngine::TextGenerator);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextGenerator*, "UnityEngine", "TextGenerator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TextGenerator::get_characterCountVisible
 // Il2CppName: get_characterCountVisible

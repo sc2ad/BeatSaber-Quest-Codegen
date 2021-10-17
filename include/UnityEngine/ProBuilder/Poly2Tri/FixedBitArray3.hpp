@@ -27,6 +27,13 @@ namespace System::Collections {
 // Completed forward declares
 // Type namespace: UnityEngine.ProBuilder.Poly2Tri
 namespace UnityEngine::ProBuilder::Poly2Tri {
+  // Forward declaring type: FixedBitArray3
+  struct FixedBitArray3;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3, "UnityEngine.ProBuilder.Poly2Tri", "FixedBitArray3");
+// Type namespace: UnityEngine.ProBuilder.Poly2Tri
+namespace UnityEngine::ProBuilder::Poly2Tri {
   // Size: 0x3
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -100,8 +107,6 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   static check_size<sizeof(FixedBitArray3), 2 + sizeof(bool)> __UnityEngine_ProBuilder_Poly2Tri_FixedBitArray3SizeCheck;
   static_assert(sizeof(FixedBitArray3) == 0x3);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3, "UnityEngine.ProBuilder.Poly2Tri", "FixedBitArray3");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3::get_Item
 // Il2CppName: get_Item

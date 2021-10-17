@@ -21,6 +21,13 @@ namespace LiteNetLib {
 // Completed forward declares
 // Type namespace: LiteNetLib
 namespace LiteNetLib {
+  // Forward declaring type: NetPeerEnumerator
+  struct NetPeerEnumerator;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetManager::NetPeerEnumerator, "LiteNetLib", "NetManager/NetPeerEnumerator");
+// Type namespace: LiteNetLib
+namespace LiteNetLib {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -83,8 +90,6 @@ namespace LiteNetLib {
   static check_size<sizeof(NetManager::NetPeerEnumerator), 8 + sizeof(LiteNetLib::NetPeer*)> __LiteNetLib_NetManager_NetPeerEnumeratorSizeCheck;
   static_assert(sizeof(NetManager::NetPeerEnumerator) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetManager::NetPeerEnumerator, "LiteNetLib", "NetManager/NetPeerEnumerator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::NetManager::NetPeerEnumerator::get_Current
 // Il2CppName: get_Current

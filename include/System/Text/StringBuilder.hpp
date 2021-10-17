@@ -36,6 +36,14 @@ namespace System::Runtime::Serialization {
 // Completed forward declares
 // Type namespace: System.Text
 namespace System::Text {
+  // Forward declaring type: StringBuilder
+  class StringBuilder;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Text::StringBuilder);
+DEFINE_IL2CPP_ARG_TYPE(System::Text::StringBuilder*, "System.Text", "StringBuilder");
+// Type namespace: System.Text
+namespace System::Text {
   // Size: 0x2C
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -358,8 +366,6 @@ namespace System::Text {
   static check_size<sizeof(StringBuilder), 40 + sizeof(int)> __System_Text_StringBuilderSizeCheck;
   static_assert(sizeof(StringBuilder) == 0x2C);
 }
-NEED_NO_BOX(System::Text::StringBuilder);
-DEFINE_IL2CPP_ARG_TYPE(System::Text::StringBuilder*, "System.Text", "StringBuilder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::StringBuilder::get_Capacity
 // Il2CppName: get_Capacity

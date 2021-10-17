@@ -18,6 +18,13 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine.UI
 namespace UnityEngine::UI {
+  // Forward declaring type: SpriteState
+  struct SpriteState;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::SpriteState, "UnityEngine.UI", "SpriteState");
+// Type namespace: UnityEngine.UI
+namespace UnityEngine::UI {
   // Size: 0x20
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -106,8 +113,6 @@ namespace UnityEngine::UI {
   static check_size<sizeof(SpriteState), 24 + sizeof(UnityEngine::Sprite*)> __UnityEngine_UI_SpriteStateSizeCheck;
   static_assert(sizeof(SpriteState) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::SpriteState, "UnityEngine.UI", "SpriteState");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::SpriteState::get_highlightedSprite
 // Il2CppName: get_highlightedSprite

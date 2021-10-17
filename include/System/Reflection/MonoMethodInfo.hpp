@@ -33,6 +33,13 @@ namespace System::Reflection {
 // Completed forward declares
 // Type namespace: System.Reflection
 namespace System::Reflection {
+  // Forward declaring type: MonoMethodInfo
+  struct MonoMethodInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoMethodInfo, "System.Reflection", "MonoMethodInfo");
+// Type namespace: System.Reflection
+namespace System::Reflection {
   // Size: 0x1C
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -127,8 +134,6 @@ namespace System::Reflection {
   static check_size<sizeof(MonoMethodInfo), 24 + sizeof(System::Reflection::CallingConventions)> __System_Reflection_MonoMethodInfoSizeCheck;
   static_assert(sizeof(MonoMethodInfo) == 0x1C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoMethodInfo, "System.Reflection", "MonoMethodInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::MonoMethodInfo::get_method_info
 // Il2CppName: get_method_info

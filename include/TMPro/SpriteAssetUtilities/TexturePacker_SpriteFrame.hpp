@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: TMPro.SpriteAssetUtilities
 namespace TMPro::SpriteAssetUtilities {
+  // Forward declaring type: SpriteFrame
+  struct SpriteFrame;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::SpriteAssetUtilities::TexturePacker::SpriteFrame, "TMPro.SpriteAssetUtilities", "TexturePacker/SpriteFrame");
+// Type namespace: TMPro.SpriteAssetUtilities
+namespace TMPro::SpriteAssetUtilities {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -73,8 +80,6 @@ namespace TMPro::SpriteAssetUtilities {
   static check_size<sizeof(TexturePacker::SpriteFrame), 12 + sizeof(float)> __TMPro_SpriteAssetUtilities_TexturePacker_SpriteFrameSizeCheck;
   static_assert(sizeof(TexturePacker::SpriteFrame) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(TMPro::SpriteAssetUtilities::TexturePacker::SpriteFrame, "TMPro.SpriteAssetUtilities", "TexturePacker/SpriteFrame");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::SpriteAssetUtilities::TexturePacker::SpriteFrame::ToString
 // Il2CppName: ToString

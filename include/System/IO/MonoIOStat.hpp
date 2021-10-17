@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: System.IO
 namespace System::IO {
+  // Forward declaring type: MonoIOStat
+  struct MonoIOStat;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::IO::MonoIOStat, "System.IO", "MonoIOStat");
+// Type namespace: System.IO
+namespace System::IO {
   // Size: 0x28
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -78,6 +85,4 @@ namespace System::IO {
   static check_size<sizeof(MonoIOStat), 32 + sizeof(int64_t)> __System_IO_MonoIOStatSizeCheck;
   static_assert(sizeof(MonoIOStat) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::IO::MonoIOStat, "System.IO", "MonoIOStat");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

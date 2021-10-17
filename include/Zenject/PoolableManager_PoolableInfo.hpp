@@ -19,6 +19,13 @@ namespace Zenject {
 // Completed forward declares
 // Type namespace: Zenject
 namespace Zenject {
+  // Forward declaring type: PoolableInfo
+  struct PoolableInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Zenject::PoolableManager::PoolableInfo, "Zenject", "PoolableManager/PoolableInfo");
+// Type namespace: Zenject
+namespace Zenject {
   // Size: 0xC
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -62,8 +69,6 @@ namespace Zenject {
   static check_size<sizeof(PoolableManager::PoolableInfo), 8 + sizeof(int)> __Zenject_PoolableManager_PoolableInfoSizeCheck;
   static_assert(sizeof(PoolableManager::PoolableInfo) == 0xC);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Zenject::PoolableManager::PoolableInfo, "Zenject", "PoolableManager/PoolableInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::PoolableManager::PoolableInfo::PoolableInfo
 // Il2CppName: .ctor

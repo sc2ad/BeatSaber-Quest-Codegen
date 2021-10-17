@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: Valve.VR
 namespace Valve::VR {
+  // Forward declaring type: RenderModel_TextureMap_t
+  struct RenderModel_TextureMap_t;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::RenderModel_TextureMap_t, "Valve.VR", "RenderModel_TextureMap_t");
+// Type namespace: Valve.VR
+namespace Valve::VR {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -62,6 +69,4 @@ namespace Valve::VR {
   static check_size<sizeof(RenderModel_TextureMap_t), 8 + sizeof(System::IntPtr)> __Valve_VR_RenderModel_TextureMap_tSizeCheck;
   static_assert(sizeof(RenderModel_TextureMap_t) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::RenderModel_TextureMap_t, "Valve.VR", "RenderModel_TextureMap_t");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

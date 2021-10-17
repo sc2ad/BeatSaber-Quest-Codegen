@@ -10,6 +10,13 @@
 // Completed includes
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {
+  // Forward declaring type: IntervalTreeNode
+  struct IntervalTreeNode;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::IntervalTreeNode, "UnityEngine.Timeline", "IntervalTreeNode");
+// Type namespace: UnityEngine.Timeline
+namespace UnityEngine::Timeline {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -74,6 +81,4 @@ namespace UnityEngine::Timeline {
   static check_size<sizeof(IntervalTreeNode), 20 + sizeof(int)> __UnityEngine_Timeline_IntervalTreeNodeSizeCheck;
   static_assert(sizeof(IntervalTreeNode) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::IntervalTreeNode, "UnityEngine.Timeline", "IntervalTreeNode");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -29,6 +29,14 @@ namespace UnityEngine::Networking {
 // Completed forward declares
 // Type namespace: UnityEngine.Networking
 namespace UnityEngine::Networking {
+  // Forward declaring type: DownloadHandler
+  class DownloadHandler;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::Networking::DownloadHandler);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::DownloadHandler*, "UnityEngine.Networking", "DownloadHandler");
+// Type namespace: UnityEngine.Networking
+namespace UnityEngine::Networking {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -112,8 +120,6 @@ namespace UnityEngine::Networking {
   static check_size<sizeof(DownloadHandler), 16 + sizeof(System::IntPtr)> __UnityEngine_Networking_DownloadHandlerSizeCheck;
   static_assert(sizeof(DownloadHandler) == 0x18);
 }
-NEED_NO_BOX(UnityEngine::Networking::DownloadHandler);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::DownloadHandler*, "UnityEngine.Networking", "DownloadHandler");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandler::get_text
 // Il2CppName: get_text

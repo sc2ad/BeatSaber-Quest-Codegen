@@ -14,6 +14,13 @@
 // Completed includes
 // Type namespace: System
 namespace System {
+  // Forward declaring type: Variant
+  struct Variant;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Variant, "System", "Variant");
+// Type namespace: System
+namespace System {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Explicit may not be correctly taken into account!
@@ -204,8 +211,6 @@ namespace System {
   static check_size<sizeof(Variant), 8 + sizeof(System::BRECORD)> __System_VariantSizeCheck;
   static_assert(sizeof(Variant) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Variant, "System", "Variant");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Variant::Clear
 // Il2CppName: Clear

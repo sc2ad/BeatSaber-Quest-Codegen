@@ -21,6 +21,14 @@ namespace System::Reflection {
 // Completed forward declares
 // Type namespace: System.Diagnostics
 namespace System::Diagnostics {
+  // Forward declaring type: StackFrame
+  class StackFrame;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Diagnostics::StackFrame);
+DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::StackFrame*, "System.Diagnostics", "StackFrame");
+// Type namespace: System.Diagnostics
+namespace System::Diagnostics {
   // Size: 0x48
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -172,8 +180,6 @@ namespace System::Diagnostics {
   static check_size<sizeof(StackFrame), 64 + sizeof(::Il2CppString*)> __System_Diagnostics_StackFrameSizeCheck;
   static_assert(sizeof(StackFrame) == 0x48);
 }
-NEED_NO_BOX(System::Diagnostics::StackFrame);
-DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::StackFrame*, "System.Diagnostics", "StackFrame");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Diagnostics::StackFrame::New_ctor
 // Il2CppName: .ctor

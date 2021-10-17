@@ -43,6 +43,13 @@ namespace System {
 // Completed forward declares
 // Type namespace: System
 namespace System {
+  // Forward declaring type: Char
+  struct Char;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Char, "System", "Char");
+// Type namespace: System
+namespace System {
   // Size: 0x2
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -343,8 +350,6 @@ namespace System {
   static check_size<sizeof(Char), 0 + sizeof(::Il2CppChar)> __System_CharSizeCheck;
   static_assert(sizeof(Char) == 0x2);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Char, "System", "Char");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Char::_cctor
 // Il2CppName: .cctor

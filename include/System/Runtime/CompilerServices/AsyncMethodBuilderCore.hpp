@@ -33,6 +33,13 @@ namespace System::Threading {
 // Completed forward declares
 // Type namespace: System.Runtime.CompilerServices
 namespace System::Runtime::CompilerServices {
+  // Forward declaring type: AsyncMethodBuilderCore
+  struct AsyncMethodBuilderCore;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::AsyncMethodBuilderCore, "System.Runtime.CompilerServices", "AsyncMethodBuilderCore");
+// Type namespace: System.Runtime.CompilerServices
+namespace System::Runtime::CompilerServices {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -102,8 +109,6 @@ namespace System::Runtime::CompilerServices {
   static check_size<sizeof(AsyncMethodBuilderCore), 8 + sizeof(System::Action*)> __System_Runtime_CompilerServices_AsyncMethodBuilderCoreSizeCheck;
   static_assert(sizeof(AsyncMethodBuilderCore) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::AsyncMethodBuilderCore, "System.Runtime.CompilerServices", "AsyncMethodBuilderCore");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::AsyncMethodBuilderCore::SetStateMachine
 // Il2CppName: SetStateMachine

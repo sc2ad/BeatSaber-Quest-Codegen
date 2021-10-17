@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: Valve.VR
 namespace Valve::VR {
+  // Forward declaring type: VREvent_Property_t
+  struct VREvent_Property_t;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VREvent_Property_t, "Valve.VR", "VREvent_Property_t");
+// Type namespace: Valve.VR
+namespace Valve::VR {
   // Size: 0xC
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -52,6 +59,4 @@ namespace Valve::VR {
   static check_size<sizeof(VREvent_Property_t), 8 + sizeof(Valve::VR::ETrackedDeviceProperty)> __Valve_VR_VREvent_Property_tSizeCheck;
   static_assert(sizeof(VREvent_Property_t) == 0xC);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VREvent_Property_t, "Valve.VR", "VREvent_Property_t");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -42,6 +42,13 @@ struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.Playables
 namespace UnityEngine::Playables {
+  // Forward declaring type: PlayableHandle
+  struct PlayableHandle;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableHandle, "UnityEngine.Playables", "PlayableHandle");
+// Type namespace: UnityEngine.Playables
+namespace UnityEngine::Playables {
   // Size: 0xC
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -303,7 +310,6 @@ namespace UnityEngine::Playables {
   // Offset: 0x1D985D4
   bool operator ==(const UnityEngine::Playables::PlayableHandle& x, const UnityEngine::Playables::PlayableHandle& y);
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableHandle, "UnityEngine.Playables", "PlayableHandle");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::get_Null
 // Il2CppName: get_Null

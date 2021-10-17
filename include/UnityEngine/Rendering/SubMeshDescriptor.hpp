@@ -14,6 +14,13 @@
 // Completed includes
 // Type namespace: UnityEngine.Rendering
 namespace UnityEngine::Rendering {
+  // Forward declaring type: SubMeshDescriptor
+  struct SubMeshDescriptor;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::SubMeshDescriptor, "UnityEngine.Rendering", "SubMeshDescriptor");
+// Type namespace: UnityEngine.Rendering
+namespace UnityEngine::Rendering {
   // Size: 0x30
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -127,8 +134,6 @@ namespace UnityEngine::Rendering {
   static check_size<sizeof(SubMeshDescriptor), 44 + sizeof(int)> __UnityEngine_Rendering_SubMeshDescriptorSizeCheck;
   static_assert(sizeof(SubMeshDescriptor) == 0x30);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::SubMeshDescriptor, "UnityEngine.Rendering", "SubMeshDescriptor");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Rendering::SubMeshDescriptor::get_bounds
 // Il2CppName: get_bounds

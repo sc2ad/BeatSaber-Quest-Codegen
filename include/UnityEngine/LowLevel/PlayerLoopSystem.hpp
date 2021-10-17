@@ -22,6 +22,13 @@ namespace System {
 // Completed forward declares
 // Type namespace: UnityEngine.LowLevel
 namespace UnityEngine::LowLevel {
+  // Forward declaring type: PlayerLoopSystem
+  struct PlayerLoopSystem;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::LowLevel::PlayerLoopSystem, "UnityEngine.LowLevel", "PlayerLoopSystem");
+// Type namespace: UnityEngine.LowLevel
+namespace UnityEngine::LowLevel {
   // Size: 0x28
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -89,6 +96,4 @@ namespace UnityEngine::LowLevel {
   static check_size<sizeof(PlayerLoopSystem), 32 + sizeof(System::IntPtr)> __UnityEngine_LowLevel_PlayerLoopSystemSizeCheck;
   static_assert(sizeof(PlayerLoopSystem) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::LowLevel::PlayerLoopSystem, "UnityEngine.LowLevel", "PlayerLoopSystem");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

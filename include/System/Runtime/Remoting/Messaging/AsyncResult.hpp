@@ -44,6 +44,14 @@ namespace System::Runtime::Remoting::Messaging {
 // Completed forward declares
 // Type namespace: System.Runtime.Remoting.Messaging
 namespace System::Runtime::Remoting::Messaging {
+  // Forward declaring type: AsyncResult
+  class AsyncResult;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Runtime::Remoting::Messaging::AsyncResult);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::AsyncResult*, "System.Runtime.Remoting.Messaging", "AsyncResult");
+// Type namespace: System.Runtime.Remoting.Messaging
+namespace System::Runtime::Remoting::Messaging {
   // Size: 0x80
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -291,8 +299,6 @@ namespace System::Runtime::Remoting::Messaging {
   static check_size<sizeof(AsyncResult), 120 + sizeof(System::Threading::WaitCallback*)> __System_Runtime_Remoting_Messaging_AsyncResultSizeCheck;
   static_assert(sizeof(AsyncResult) == 0x80);
 }
-NEED_NO_BOX(System::Runtime::Remoting::Messaging::AsyncResult);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::AsyncResult*, "System.Runtime.Remoting.Messaging", "AsyncResult");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::AsyncResult::get_AsyncState
 // Il2CppName: get_AsyncState

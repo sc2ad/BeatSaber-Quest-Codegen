@@ -14,6 +14,13 @@
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
+  // Forward declaring type: PoseStatef
+  struct PoseStatef;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::PoseStatef, "", "OVRPlugin/PoseStatef");
+// Type namespace: 
+namespace GlobalNamespace {
   // Size: 0x58
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -95,8 +102,6 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRPlugin::PoseStatef), 80 + sizeof(double)> __GlobalNamespace_OVRPlugin_PoseStatefSizeCheck;
   static_assert(sizeof(OVRPlugin::PoseStatef) == 0x58);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::PoseStatef, "", "OVRPlugin/PoseStatef");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::PoseStatef::_cctor
 // Il2CppName: .cctor

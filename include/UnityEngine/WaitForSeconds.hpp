@@ -14,6 +14,14 @@
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: WaitForSeconds
+  class WaitForSeconds;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::WaitForSeconds);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::WaitForSeconds*, "UnityEngine", "WaitForSeconds");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x14
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -52,8 +60,6 @@ namespace UnityEngine {
   static check_size<sizeof(WaitForSeconds), 16 + sizeof(float)> __UnityEngine_WaitForSecondsSizeCheck;
   static_assert(sizeof(WaitForSeconds) == 0x14);
 }
-NEED_NO_BOX(UnityEngine::WaitForSeconds);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::WaitForSeconds*, "UnityEngine", "WaitForSeconds");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::WaitForSeconds::New_ctor
 // Il2CppName: .ctor

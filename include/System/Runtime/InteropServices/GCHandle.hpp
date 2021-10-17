@@ -24,6 +24,13 @@ struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Runtime.InteropServices
 namespace System::Runtime::InteropServices {
+  // Forward declaring type: GCHandle
+  struct GCHandle;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::GCHandle, "System.Runtime.InteropServices", "GCHandle");
+// Type namespace: System.Runtime.InteropServices
+namespace System::Runtime::InteropServices {
   // Size: 0x4
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -132,8 +139,6 @@ namespace System::Runtime::InteropServices {
   // Offset: 0x1594EB0
   bool operator ==(const System::Runtime::InteropServices::GCHandle& a, const System::Runtime::InteropServices::GCHandle& b);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::GCHandle, "System.Runtime.InteropServices", "GCHandle");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::InteropServices::GCHandle::get_IsAllocated
 // Il2CppName: get_IsAllocated

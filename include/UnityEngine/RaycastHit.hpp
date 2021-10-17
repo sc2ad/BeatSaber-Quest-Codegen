@@ -21,6 +21,13 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: RaycastHit
+  struct RaycastHit;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RaycastHit, "UnityEngine", "RaycastHit");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x2C
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -124,8 +131,6 @@ namespace UnityEngine {
   static check_size<sizeof(RaycastHit), 40 + sizeof(int)> __UnityEngine_RaycastHitSizeCheck;
   static_assert(sizeof(RaycastHit) == 0x2C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RaycastHit, "UnityEngine", "RaycastHit");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::RaycastHit::get_collider
 // Il2CppName: get_collider

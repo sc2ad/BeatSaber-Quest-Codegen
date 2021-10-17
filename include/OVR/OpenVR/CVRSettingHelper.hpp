@@ -11,6 +11,13 @@
 // Completed includes
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
+  // Forward declaring type: CVRSettingHelper
+  struct CVRSettingHelper;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRSettingHelper, "OVR.OpenVR", "CVRSettingHelper");
+// Type namespace: OVR.OpenVR
+namespace OVR::OpenVR {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -47,6 +54,4 @@ namespace OVR::OpenVR {
   static check_size<sizeof(CVRSettingHelper), 0 + sizeof(System::IntPtr)> __OVR_OpenVR_CVRSettingHelperSizeCheck;
   static_assert(sizeof(CVRSettingHelper) == 0x8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRSettingHelper, "OVR.OpenVR", "CVRSettingHelper");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

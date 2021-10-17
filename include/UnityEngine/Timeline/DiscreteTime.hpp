@@ -14,6 +14,13 @@
 // Completed includes
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {
+  // Forward declaring type: DiscreteTime
+  struct DiscreteTime;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::DiscreteTime, "UnityEngine.Timeline", "DiscreteTime");
+// Type namespace: UnityEngine.Timeline
+namespace UnityEngine::Timeline {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -193,8 +200,6 @@ namespace UnityEngine::Timeline {
   // Offset: 0x19DF394
   UnityEngine::Timeline::DiscreteTime operator-(const UnityEngine::Timeline::DiscreteTime& lhs, const UnityEngine::Timeline::DiscreteTime& rhs);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::DiscreteTime, "UnityEngine.Timeline", "DiscreteTime");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::DiscreteTime::get_tickValue
 // Il2CppName: get_tickValue

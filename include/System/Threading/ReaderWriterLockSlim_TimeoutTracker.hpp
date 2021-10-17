@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: System.Threading
 namespace System::Threading {
+  // Forward declaring type: TimeoutTracker
+  struct TimeoutTracker;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::ReaderWriterLockSlim::TimeoutTracker, "System.Threading", "ReaderWriterLockSlim/TimeoutTracker");
+// Type namespace: System.Threading
+namespace System::Threading {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -61,8 +68,6 @@ namespace System::Threading {
   static check_size<sizeof(ReaderWriterLockSlim::TimeoutTracker), 4 + sizeof(int)> __System_Threading_ReaderWriterLockSlim_TimeoutTrackerSizeCheck;
   static_assert(sizeof(ReaderWriterLockSlim::TimeoutTracker) == 0x8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::ReaderWriterLockSlim::TimeoutTracker, "System.Threading", "ReaderWriterLockSlim/TimeoutTracker");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::ReaderWriterLockSlim::TimeoutTracker::get_RemainingMilliseconds
 // Il2CppName: get_RemainingMilliseconds

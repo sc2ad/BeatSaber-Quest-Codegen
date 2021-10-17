@@ -12,6 +12,13 @@ struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.Scripting.APIUpdating
 namespace UnityEngine::Scripting::APIUpdating {
+  // Forward declaring type: MovedFromAttributeData
+  struct MovedFromAttributeData;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Scripting::APIUpdating::MovedFromAttributeData, "UnityEngine.Scripting.APIUpdating", "MovedFromAttributeData");
+// Type namespace: UnityEngine.Scripting.APIUpdating
+namespace UnityEngine::Scripting::APIUpdating {
   // Size: 0x1C
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -95,8 +102,6 @@ namespace UnityEngine::Scripting::APIUpdating {
   static check_size<sizeof(MovedFromAttributeData), 27 + sizeof(bool)> __UnityEngine_Scripting_APIUpdating_MovedFromAttributeDataSizeCheck;
   static_assert(sizeof(MovedFromAttributeData) == 0x1C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Scripting::APIUpdating::MovedFromAttributeData, "UnityEngine.Scripting.APIUpdating", "MovedFromAttributeData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Scripting::APIUpdating::MovedFromAttributeData::Set
 // Il2CppName: Set

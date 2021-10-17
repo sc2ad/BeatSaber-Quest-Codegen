@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: HumanLimit
+  struct HumanLimit;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::HumanLimit, "UnityEngine", "HumanLimit");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x2C
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -79,6 +86,4 @@ namespace UnityEngine {
   static check_size<sizeof(HumanLimit), 40 + sizeof(int)> __UnityEngine_HumanLimitSizeCheck;
   static_assert(sizeof(HumanLimit) == 0x2C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::HumanLimit, "UnityEngine", "HumanLimit");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

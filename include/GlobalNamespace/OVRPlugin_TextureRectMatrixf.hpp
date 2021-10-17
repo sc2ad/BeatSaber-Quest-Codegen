@@ -16,6 +16,13 @@
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
+  // Forward declaring type: TextureRectMatrixf
+  struct TextureRectMatrixf;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::TextureRectMatrixf, "", "OVRPlugin/TextureRectMatrixf");
+// Type namespace: 
+namespace GlobalNamespace {
   // Size: 0x40
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -84,8 +91,6 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRPlugin::TextureRectMatrixf), 48 + sizeof(UnityEngine::Vector4)> __GlobalNamespace_OVRPlugin_TextureRectMatrixfSizeCheck;
   static_assert(sizeof(OVRPlugin::TextureRectMatrixf) == 0x40);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::TextureRectMatrixf, "", "OVRPlugin/TextureRectMatrixf");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::TextureRectMatrixf::_cctor
 // Il2CppName: .cctor

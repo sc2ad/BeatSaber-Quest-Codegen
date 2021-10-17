@@ -21,6 +21,14 @@
 // Completed includes
 // Type namespace: System.Threading
 namespace System::Threading {
+  // Forward declaring type: InternalThread
+  class InternalThread;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Threading::InternalThread);
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::InternalThread*, "System.Threading", "InternalThread");
+// Type namespace: System.Threading
+namespace System::Threading {
   // Size: 0x120
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -385,8 +393,6 @@ namespace System::Threading {
   static check_size<sizeof(InternalThread), 280 + sizeof(System::IntPtr)> __System_Threading_InternalThreadSizeCheck;
   static_assert(sizeof(InternalThread) == 0x120);
 }
-NEED_NO_BOX(System::Threading::InternalThread);
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::InternalThread*, "System.Threading", "InternalThread");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::InternalThread::Thread_free_internal
 // Il2CppName: Thread_free_internal

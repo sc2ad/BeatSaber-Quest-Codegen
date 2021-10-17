@@ -9,6 +9,13 @@
 // Completed includes
 // Type namespace: System
 namespace System {
+  // Forward declaring type: Void
+  struct Void;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Void, "System", "Void");
+// Type namespace: System
+namespace System {
   // Size: 0x0
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -26,6 +33,4 @@ namespace System {
   }; // System.Void
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Void, "System", "Void");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

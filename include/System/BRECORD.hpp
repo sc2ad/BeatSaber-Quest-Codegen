@@ -11,6 +11,13 @@
 // Completed includes
 // Type namespace: System
 namespace System {
+  // Forward declaring type: BRECORD
+  struct BRECORD;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::BRECORD, "System", "BRECORD");
+// Type namespace: System
+namespace System {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -51,6 +58,4 @@ namespace System {
   static check_size<sizeof(BRECORD), 8 + sizeof(System::IntPtr)> __System_BRECORDSizeCheck;
   static_assert(sizeof(BRECORD) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::BRECORD, "System", "BRECORD");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

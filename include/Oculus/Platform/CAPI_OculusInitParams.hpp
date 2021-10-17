@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
+  // Forward declaring type: OculusInitParams
+  struct OculusInitParams;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CAPI::OculusInitParams, "Oculus.Platform", "CAPI/OculusInitParams");
+// Type namespace: Oculus.Platform
+namespace Oculus::Platform {
   // Size: 0x28
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -78,6 +85,4 @@ namespace Oculus::Platform {
   static check_size<sizeof(CAPI::OculusInitParams), 32 + sizeof(::Il2CppString*)> __Oculus_Platform_CAPI_OculusInitParamsSizeCheck;
   static_assert(sizeof(CAPI::OculusInitParams) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CAPI::OculusInitParams, "Oculus.Platform", "CAPI/OculusInitParams");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

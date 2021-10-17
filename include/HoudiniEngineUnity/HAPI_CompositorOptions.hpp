@@ -9,6 +9,13 @@
 // Completed includes
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
+  // Forward declaring type: HAPI_CompositorOptions
+  struct HAPI_CompositorOptions;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_CompositorOptions, "HoudiniEngineUnity", "HAPI_CompositorOptions");
+// Type namespace: HoudiniEngineUnity
+namespace HoudiniEngineUnity {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -49,6 +56,4 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HAPI_CompositorOptions), 4 + sizeof(int)> __HoudiniEngineUnity_HAPI_CompositorOptionsSizeCheck;
   static_assert(sizeof(HAPI_CompositorOptions) == 0x8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_CompositorOptions, "HoudiniEngineUnity", "HAPI_CompositorOptions");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

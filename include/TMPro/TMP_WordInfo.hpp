@@ -19,6 +19,13 @@ struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: TMPro
 namespace TMPro {
+  // Forward declaring type: TMP_WordInfo
+  struct TMP_WordInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_WordInfo, "TMPro", "TMP_WordInfo");
+// Type namespace: TMPro
+namespace TMPro {
   // Size: 0x14
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -78,8 +85,6 @@ namespace TMPro {
   static check_size<sizeof(TMP_WordInfo), 16 + sizeof(int)> __TMPro_TMP_WordInfoSizeCheck;
   static_assert(sizeof(TMP_WordInfo) == 0x14);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_WordInfo, "TMPro", "TMP_WordInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_WordInfo::GetWord
 // Il2CppName: GetWord

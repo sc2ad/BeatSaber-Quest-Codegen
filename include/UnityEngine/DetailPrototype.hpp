@@ -25,6 +25,14 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: DetailPrototype
+  class DetailPrototype;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::DetailPrototype);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::DetailPrototype*, "UnityEngine", "DetailPrototype");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x60
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -225,8 +233,6 @@ namespace UnityEngine {
   static check_size<sizeof(DetailPrototype), 92 + sizeof(int)> __UnityEngine_DetailPrototypeSizeCheck;
   static_assert(sizeof(DetailPrototype) == 0x60);
 }
-NEED_NO_BOX(UnityEngine::DetailPrototype);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::DetailPrototype*, "UnityEngine", "DetailPrototype");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::DetailPrototype::set_prototype
 // Il2CppName: set_prototype

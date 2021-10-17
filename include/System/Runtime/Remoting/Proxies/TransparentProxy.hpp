@@ -33,6 +33,14 @@ namespace System {
 // Completed forward declares
 // Type namespace: System.Runtime.Remoting.Proxies
 namespace System::Runtime::Remoting::Proxies {
+  // Forward declaring type: TransparentProxy
+  class TransparentProxy;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Runtime::Remoting::Proxies::TransparentProxy);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Proxies::TransparentProxy*, "System.Runtime.Remoting.Proxies", "TransparentProxy");
+// Type namespace: System.Runtime.Remoting.Proxies
+namespace System::Runtime::Remoting::Proxies {
   // Size: 0x21
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -102,8 +110,6 @@ namespace System::Runtime::Remoting::Proxies {
   static check_size<sizeof(TransparentProxy), 32 + sizeof(bool)> __System_Runtime_Remoting_Proxies_TransparentProxySizeCheck;
   static_assert(sizeof(TransparentProxy) == 0x21);
 }
-NEED_NO_BOX(System::Runtime::Remoting::Proxies::TransparentProxy);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Proxies::TransparentProxy*, "System.Runtime.Remoting.Proxies", "TransparentProxy");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Proxies::TransparentProxy::get_IsContextBoundObject
 // Il2CppName: get_IsContextBoundObject

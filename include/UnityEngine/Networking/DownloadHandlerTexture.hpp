@@ -31,6 +31,14 @@ namespace UnityEngine::Networking {
 // Completed forward declares
 // Type namespace: UnityEngine.Networking
 namespace UnityEngine::Networking {
+  // Forward declaring type: DownloadHandlerTexture
+  class DownloadHandlerTexture;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::Networking::DownloadHandlerTexture);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::DownloadHandlerTexture*, "UnityEngine.Networking", "DownloadHandlerTexture");
+// Type namespace: UnityEngine.Networking
+namespace UnityEngine::Networking {
   // Size: 0x22
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -106,8 +114,6 @@ namespace UnityEngine::Networking {
   static check_size<sizeof(DownloadHandlerTexture), 33 + sizeof(bool)> __UnityEngine_Networking_DownloadHandlerTextureSizeCheck;
   static_assert(sizeof(DownloadHandlerTexture) == 0x22);
 }
-NEED_NO_BOX(UnityEngine::Networking::DownloadHandlerTexture);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::DownloadHandlerTexture*, "UnityEngine.Networking", "DownloadHandlerTexture");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandlerTexture::get_texture
 // Il2CppName: get_texture

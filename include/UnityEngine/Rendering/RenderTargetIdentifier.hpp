@@ -25,6 +25,13 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine.Rendering
 namespace UnityEngine::Rendering {
+  // Forward declaring type: RenderTargetIdentifier
+  struct RenderTargetIdentifier;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::RenderTargetIdentifier, "UnityEngine.Rendering", "RenderTargetIdentifier");
+// Type namespace: UnityEngine.Rendering
+namespace UnityEngine::Rendering {
   // Size: 0x24
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -138,8 +145,6 @@ namespace UnityEngine::Rendering {
   static check_size<sizeof(RenderTargetIdentifier), 32 + sizeof(int)> __UnityEngine_Rendering_RenderTargetIdentifierSizeCheck;
   static_assert(sizeof(RenderTargetIdentifier) == 0x24);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::RenderTargetIdentifier, "UnityEngine.Rendering", "RenderTargetIdentifier");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Rendering::RenderTargetIdentifier::RenderTargetIdentifier
 // Il2CppName: .ctor

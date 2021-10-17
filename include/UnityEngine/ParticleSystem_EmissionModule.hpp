@@ -10,6 +10,13 @@
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: EmissionModule
+  struct EmissionModule;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::EmissionModule, "UnityEngine", "ParticleSystem/EmissionModule");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -61,8 +68,6 @@ namespace UnityEngine {
   static check_size<sizeof(ParticleSystem::EmissionModule), 0 + sizeof(UnityEngine::ParticleSystem*)> __UnityEngine_ParticleSystem_EmissionModuleSizeCheck;
   static_assert(sizeof(ParticleSystem::EmissionModule) == 0x8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::EmissionModule, "UnityEngine", "ParticleSystem/EmissionModule");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::EmissionModule::get_enabled
 // Il2CppName: get_enabled

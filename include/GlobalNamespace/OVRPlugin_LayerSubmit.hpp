@@ -17,6 +17,13 @@
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
+  // Forward declaring type: LayerSubmit
+  struct LayerSubmit;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::LayerSubmit, "", "OVRPlugin/LayerSubmit");
+// Type namespace: 
+namespace GlobalNamespace {
   // Size: 0x30
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -81,6 +88,4 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRPlugin::LayerSubmit), 44 + sizeof(int)> __GlobalNamespace_OVRPlugin_LayerSubmitSizeCheck;
   static_assert(sizeof(OVRPlugin::LayerSubmit) == 0x30);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::LayerSubmit, "", "OVRPlugin/LayerSubmit");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

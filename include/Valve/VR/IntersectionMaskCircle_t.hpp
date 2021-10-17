@@ -9,6 +9,13 @@
 // Completed includes
 // Type namespace: Valve.VR
 namespace Valve::VR {
+  // Forward declaring type: IntersectionMaskCircle_t
+  struct IntersectionMaskCircle_t;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IntersectionMaskCircle_t, "Valve.VR", "IntersectionMaskCircle_t");
+// Type namespace: Valve.VR
+namespace Valve::VR {
   // Size: 0xC
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -57,6 +64,4 @@ namespace Valve::VR {
   static check_size<sizeof(IntersectionMaskCircle_t), 8 + sizeof(float)> __Valve_VR_IntersectionMaskCircle_tSizeCheck;
   static_assert(sizeof(IntersectionMaskCircle_t) == 0xC);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IntersectionMaskCircle_t, "Valve.VR", "IntersectionMaskCircle_t");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

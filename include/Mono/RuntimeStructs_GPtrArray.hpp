@@ -19,6 +19,13 @@ namespace System {
 // Completed forward declares
 // Type namespace: Mono
 namespace Mono {
+  // Forward declaring type: GPtrArray
+  struct GPtrArray;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeStructs::GPtrArray, "Mono", "RuntimeStructs/GPtrArray");
+// Type namespace: Mono
+namespace Mono {
   // Size: 0xC
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -59,6 +66,4 @@ namespace Mono {
   static check_size<sizeof(RuntimeStructs::GPtrArray), 8 + sizeof(int)> __Mono_RuntimeStructs_GPtrArraySizeCheck;
   static_assert(sizeof(RuntimeStructs::GPtrArray) == 0xC);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeStructs::GPtrArray, "Mono", "RuntimeStructs/GPtrArray");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

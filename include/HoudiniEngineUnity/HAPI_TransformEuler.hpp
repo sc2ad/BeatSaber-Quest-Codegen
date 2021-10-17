@@ -15,6 +15,13 @@
 // Completed includes
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
+  // Forward declaring type: HAPI_TransformEuler
+  struct HAPI_TransformEuler;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_TransformEuler, "HoudiniEngineUnity", "HAPI_TransformEuler");
+// Type namespace: HoudiniEngineUnity
+namespace HoudiniEngineUnity {
   // Size: 0x28
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -93,8 +100,6 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HAPI_TransformEuler), 36 + sizeof(HoudiniEngineUnity::HAPI_RSTOrder)> __HoudiniEngineUnity_HAPI_TransformEulerSizeCheck;
   static_assert(sizeof(HAPI_TransformEuler) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_TransformEuler, "HoudiniEngineUnity", "HAPI_TransformEuler");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HAPI_TransformEuler::HAPI_TransformEuler
 // Il2CppName: .ctor

@@ -13,6 +13,14 @@
 // Completed includes
 // Type namespace: System
 namespace System {
+  // Forward declaring type: AppDomainSetup
+  class AppDomainSetup;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::AppDomainSetup);
+DEFINE_IL2CPP_ARG_TYPE(System::AppDomainSetup*, "System", "AppDomainSetup");
+// Type namespace: System
+namespace System {
   // Size: 0xB0
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -233,8 +241,6 @@ namespace System {
   static check_size<sizeof(AppDomainSetup), 168 + sizeof(::Il2CppString*)> __System_AppDomainSetupSizeCheck;
   static_assert(sizeof(AppDomainSetup) == 0xB0);
 }
-NEED_NO_BOX(System::AppDomainSetup);
-DEFINE_IL2CPP_ARG_TYPE(System::AppDomainSetup*, "System", "AppDomainSetup");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::AppDomainSetup::New_ctor
 // Il2CppName: .ctor

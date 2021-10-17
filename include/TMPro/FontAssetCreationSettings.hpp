@@ -12,6 +12,13 @@ struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: TMPro
 namespace TMPro {
+  // Forward declaring type: FontAssetCreationSettings
+  struct FontAssetCreationSettings;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::FontAssetCreationSettings, "TMPro", "FontAssetCreationSettings");
+// Type namespace: TMPro
+namespace TMPro {
   // Size: 0x55
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -169,8 +176,6 @@ namespace TMPro {
   static check_size<sizeof(FontAssetCreationSettings), 84 + sizeof(bool)> __TMPro_FontAssetCreationSettingsSizeCheck;
   static_assert(sizeof(FontAssetCreationSettings) == 0x55);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(TMPro::FontAssetCreationSettings, "TMPro", "FontAssetCreationSettings");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::FontAssetCreationSettings::FontAssetCreationSettings
 // Il2CppName: .ctor

@@ -29,6 +29,13 @@ namespace System::Collections::Generic {
 // Completed forward declares
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {
+  // Forward declaring type: BezierPoint
+  struct BezierPoint;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::BezierPoint, "UnityEngine.ProBuilder", "BezierPoint");
+// Type namespace: UnityEngine.ProBuilder
+namespace UnityEngine::ProBuilder {
   // Size: 0x34
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -109,8 +116,6 @@ namespace UnityEngine::ProBuilder {
   static check_size<sizeof(BezierPoint), 36 + sizeof(UnityEngine::Quaternion)> __UnityEngine_ProBuilder_BezierPointSizeCheck;
   static_assert(sizeof(BezierPoint) == 0x34);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::BezierPoint, "UnityEngine.ProBuilder", "BezierPoint");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::BezierPoint::BezierPoint
 // Il2CppName: .ctor

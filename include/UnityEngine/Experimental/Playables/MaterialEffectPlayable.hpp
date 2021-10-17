@@ -15,6 +15,13 @@
 // Completed includes
 // Type namespace: UnityEngine.Experimental.Playables
 namespace UnityEngine::Experimental::Playables {
+  // Forward declaring type: MaterialEffectPlayable
+  struct MaterialEffectPlayable;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Playables::MaterialEffectPlayable, "UnityEngine.Experimental.Playables", "MaterialEffectPlayable");
+// Type namespace: UnityEngine.Experimental.Playables
+namespace UnityEngine::Experimental::Playables {
   // Size: 0xC
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -70,8 +77,6 @@ namespace UnityEngine::Experimental::Playables {
   static check_size<sizeof(MaterialEffectPlayable), 0 + sizeof(UnityEngine::Playables::PlayableHandle)> __UnityEngine_Experimental_Playables_MaterialEffectPlayableSizeCheck;
   static_assert(sizeof(MaterialEffectPlayable) == 0xC);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Playables::MaterialEffectPlayable, "UnityEngine.Experimental.Playables", "MaterialEffectPlayable");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Experimental::Playables::MaterialEffectPlayable::GetHandle
 // Il2CppName: GetHandle

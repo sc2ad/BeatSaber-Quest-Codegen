@@ -14,6 +14,13 @@
 // Completed includes
 // Type namespace: Mono
 namespace Mono {
+  // Forward declaring type: MonoError
+  struct MonoError;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeStructs::MonoError, "Mono", "RuntimeStructs/MonoError");
+// Type namespace: Mono
+namespace Mono {
   // Size: 0x88
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -184,6 +191,4 @@ namespace Mono {
   static check_size<sizeof(RuntimeStructs::MonoError), 128 + sizeof(System::IntPtr)> __Mono_RuntimeStructs_MonoErrorSizeCheck;
   static_assert(sizeof(RuntimeStructs::MonoError) == 0x88);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeStructs::MonoError, "Mono", "RuntimeStructs/MonoError");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

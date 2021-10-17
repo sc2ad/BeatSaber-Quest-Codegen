@@ -11,6 +11,13 @@
 // Completed includes
 // Type namespace: Valve.VR
 namespace Valve::VR {
+  // Forward declaring type: HiddenAreaMesh_t
+  struct HiddenAreaMesh_t;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::HiddenAreaMesh_t, "Valve.VR", "HiddenAreaMesh_t");
+// Type namespace: Valve.VR
+namespace Valve::VR {
   // Size: 0xC
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -51,6 +58,4 @@ namespace Valve::VR {
   static check_size<sizeof(HiddenAreaMesh_t), 8 + sizeof(uint)> __Valve_VR_HiddenAreaMesh_tSizeCheck;
   static_assert(sizeof(HiddenAreaMesh_t) == 0xC);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::HiddenAreaMesh_t, "Valve.VR", "HiddenAreaMesh_t");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -33,6 +33,13 @@ namespace LiteNetLib::Utils {
 // Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
+  // Forward declaring type: GameplayServerConfiguration
+  struct GameplayServerConfiguration;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayServerConfiguration, "", "GameplayServerConfiguration");
+// Type namespace: 
+namespace GlobalNamespace {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -153,8 +160,6 @@ namespace GlobalNamespace {
   // Offset: 0x143EB0C
   bool operator !=(const GlobalNamespace::GameplayServerConfiguration&& a, const GlobalNamespace::GameplayServerConfiguration&& b);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayServerConfiguration, "", "GameplayServerConfiguration");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameplayServerConfiguration::GameplayServerConfiguration
 // Il2CppName: .ctor

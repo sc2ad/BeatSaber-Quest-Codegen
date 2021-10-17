@@ -14,6 +14,13 @@ namespace Valve::VR {
 // Completed forward declares
 // Type namespace: Valve.VR
 namespace Valve::VR {
+  // Forward declaring type: IVRExtendedDisplay
+  struct IVRExtendedDisplay;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRExtendedDisplay, "Valve.VR", "IVRExtendedDisplay");
+// Type namespace: Valve.VR
+namespace Valve::VR {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -68,6 +75,4 @@ namespace Valve::VR {
   static check_size<sizeof(IVRExtendedDisplay), 16 + sizeof(Valve::VR::IVRExtendedDisplay::_GetDXGIOutputInfo*)> __Valve_VR_IVRExtendedDisplaySizeCheck;
   static_assert(sizeof(IVRExtendedDisplay) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRExtendedDisplay, "Valve.VR", "IVRExtendedDisplay");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

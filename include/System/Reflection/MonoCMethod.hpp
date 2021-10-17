@@ -56,6 +56,14 @@ namespace System::Collections::Generic {
 // Completed forward declares
 // Type namespace: System.Reflection
 namespace System::Reflection {
+  // Forward declaring type: MonoCMethod
+  class MonoCMethod;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Reflection::MonoCMethod);
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoCMethod*, "System.Reflection", "MonoCMethod");
+// Type namespace: System.Reflection
+namespace System::Reflection {
   // Size: 0x28
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -218,8 +226,6 @@ namespace System::Reflection {
   static check_size<sizeof(MonoCMethod), 32 + sizeof(System::Type*)> __System_Reflection_MonoCMethodSizeCheck;
   static_assert(sizeof(MonoCMethod) == 0x28);
 }
-NEED_NO_BOX(System::Reflection::MonoCMethod);
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoCMethod*, "System.Reflection", "MonoCMethod");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::MonoCMethod::InternalInvoke
 // Il2CppName: InternalInvoke

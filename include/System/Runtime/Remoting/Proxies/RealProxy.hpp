@@ -54,6 +54,14 @@ namespace System::Runtime::Remoting::Messaging {
 // Completed forward declares
 // Type namespace: System.Runtime.Remoting.Proxies
 namespace System::Runtime::Remoting::Proxies {
+  // Forward declaring type: RealProxy
+  class RealProxy;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Runtime::Remoting::Proxies::RealProxy);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Proxies::RealProxy*, "System.Runtime.Remoting.Proxies", "RealProxy");
+// Type namespace: System.Runtime.Remoting.Proxies
+namespace System::Runtime::Remoting::Proxies {
   // Size: 0x50
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -208,8 +216,6 @@ namespace System::Runtime::Remoting::Proxies {
   static check_size<sizeof(RealProxy), 72 + sizeof(::Il2CppObject*)> __System_Runtime_Remoting_Proxies_RealProxySizeCheck;
   static_assert(sizeof(RealProxy) == 0x50);
 }
-NEED_NO_BOX(System::Runtime::Remoting::Proxies::RealProxy);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Proxies::RealProxy*, "System.Runtime.Remoting.Proxies", "RealProxy");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Proxies::RealProxy::get_ObjectIdentity
 // Il2CppName: get_ObjectIdentity

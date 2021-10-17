@@ -16,6 +16,13 @@
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
+  // Forward declaring type: IntersectionResults
+  struct IntersectionResults;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Overlay::IntersectionResults, "", "SteamVR_Overlay/IntersectionResults");
+// Type namespace: 
+namespace GlobalNamespace {
   // Size: 0x24
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -72,6 +79,4 @@ namespace GlobalNamespace {
   static check_size<sizeof(SteamVR_Overlay::IntersectionResults), 32 + sizeof(float)> __GlobalNamespace_SteamVR_Overlay_IntersectionResultsSizeCheck;
   static_assert(sizeof(SteamVR_Overlay::IntersectionResults) == 0x24);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Overlay::IntersectionResults, "", "SteamVR_Overlay/IntersectionResults");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

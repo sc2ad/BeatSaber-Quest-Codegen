@@ -51,6 +51,14 @@ namespace System::Collections::Generic {
 // Completed forward declares
 // Type namespace: System.Globalization
 namespace System::Globalization {
+  // Forward declaring type: CultureInfo
+  class CultureInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Globalization::CultureInfo);
+DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CultureInfo*, "System.Globalization", "CultureInfo");
+// Type namespace: System.Globalization
+namespace System::Globalization {
   // Size: 0xC9
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -558,8 +566,6 @@ namespace System::Globalization {
   static check_size<sizeof(CultureInfo), 200 + sizeof(bool)> __System_Globalization_CultureInfoSizeCheck;
   static_assert(sizeof(CultureInfo) == 0xC9);
 }
-NEED_NO_BOX(System::Globalization::CultureInfo);
-DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CultureInfo*, "System.Globalization", "CultureInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Globalization::CultureInfo::get_InvariantCulture
 // Il2CppName: get_InvariantCulture

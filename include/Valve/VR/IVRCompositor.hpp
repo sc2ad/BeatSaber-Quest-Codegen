@@ -14,6 +14,13 @@ namespace Valve::VR {
 // Completed forward declares
 // Type namespace: Valve.VR
 namespace Valve::VR {
+  // Forward declaring type: IVRCompositor
+  struct IVRCompositor;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRCompositor, "Valve.VR", "IVRCompositor");
+// Type namespace: Valve.VR
+namespace Valve::VR {
   // Size: 0x158
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -468,6 +475,4 @@ namespace Valve::VR {
   static check_size<sizeof(IVRCompositor), 336 + sizeof(Valve::VR::IVRCompositor::_SubmitExplicitTimingData*)> __Valve_VR_IVRCompositorSizeCheck;
   static_assert(sizeof(IVRCompositor) == 0x158);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRCompositor, "Valve.VR", "IVRCompositor");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

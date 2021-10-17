@@ -31,6 +31,13 @@ struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: 
 namespace GlobalNamespace {
+  // Forward declaring type: Vector4Serializable
+  struct Vector4Serializable;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Vector4Serializable, "", "Vector4Serializable");
+// Type namespace: 
+namespace GlobalNamespace {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -137,8 +144,6 @@ namespace GlobalNamespace {
   // Offset: 0x2559F78
   GlobalNamespace::Vector4Serializable operator-(const GlobalNamespace::Vector4Serializable& a, const GlobalNamespace::Vector4Serializable& b);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Vector4Serializable, "", "Vector4Serializable");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::Vector4Serializable::Vector4Serializable
 // Il2CppName: .ctor

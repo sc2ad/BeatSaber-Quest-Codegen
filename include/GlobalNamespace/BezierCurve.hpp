@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
+  // Forward declaring type: BezierCurve
+  struct BezierCurve;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BezierCurve, "", "BezierCurve");
+// Type namespace: 
+namespace GlobalNamespace {
   // Size: 0x30
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -72,8 +79,6 @@ namespace GlobalNamespace {
   static check_size<sizeof(BezierCurve), 36 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_BezierCurveSizeCheck;
   static_assert(sizeof(BezierCurve) == 0x30);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BezierCurve, "", "BezierCurve");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BezierCurve::BezierCurve
 // Il2CppName: .ctor

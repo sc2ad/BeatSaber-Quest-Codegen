@@ -13,6 +13,13 @@
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
+  // Forward declaring type: Skeleton2
+  struct Skeleton2;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Skeleton2, "", "OVRPlugin/Skeleton2");
+// Type namespace: 
+namespace GlobalNamespace {
   // Size: 0x20
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -79,6 +86,4 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRPlugin::Skeleton2), 24 + sizeof(::ArrayW<GlobalNamespace::OVRPlugin::BoneCapsule>)> __GlobalNamespace_OVRPlugin_Skeleton2SizeCheck;
   static_assert(sizeof(OVRPlugin::Skeleton2) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Skeleton2, "", "OVRPlugin/Skeleton2");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

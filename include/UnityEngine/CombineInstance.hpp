@@ -21,6 +21,13 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: CombineInstance
+  struct CombineInstance;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CombineInstance, "UnityEngine", "CombineInstance");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x68
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -97,8 +104,6 @@ namespace UnityEngine {
   static check_size<sizeof(CombineInstance), 88 + sizeof(UnityEngine::Vector4)> __UnityEngine_CombineInstanceSizeCheck;
   static_assert(sizeof(CombineInstance) == 0x68);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CombineInstance, "UnityEngine", "CombineInstance");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::CombineInstance::get_mesh
 // Il2CppName: get_mesh

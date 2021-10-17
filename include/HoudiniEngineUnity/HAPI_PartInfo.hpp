@@ -22,6 +22,13 @@ namespace HoudiniEngineUnity {
 // Completed forward declares
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
+  // Forward declaring type: HAPI_PartInfo
+  struct HAPI_PartInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_PartInfo, "HoudiniEngineUnity", "HAPI_PartInfo");
+// Type namespace: HoudiniEngineUnity
+namespace HoudiniEngineUnity {
   // Size: 0x2D
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -169,8 +176,6 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HAPI_PartInfo), 44 + sizeof(bool)> __HoudiniEngineUnity_HAPI_PartInfoSizeCheck;
   static_assert(sizeof(HAPI_PartInfo) == 0x2D);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_PartInfo, "HoudiniEngineUnity", "HAPI_PartInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HAPI_PartInfo::get_pointAttributeCount
 // Il2CppName: get_pointAttributeCount

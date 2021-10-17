@@ -11,6 +11,13 @@
 // Completed includes
 // Type namespace: Mono.Net
 namespace Mono::Net {
+  // Forward declaring type: CFStreamClientContext
+  struct CFStreamClientContext;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFStreamClientContext, "Mono.Net", "CFStreamClientContext");
+// Type namespace: Mono.Net
+namespace Mono::Net {
   // Size: 0x28
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -75,6 +82,4 @@ namespace Mono::Net {
   static check_size<sizeof(CFStreamClientContext), 32 + sizeof(System::IntPtr)> __Mono_Net_CFStreamClientContextSizeCheck;
   static_assert(sizeof(CFStreamClientContext) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFStreamClientContext, "Mono.Net", "CFStreamClientContext");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

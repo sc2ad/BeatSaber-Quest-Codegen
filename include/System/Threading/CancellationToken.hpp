@@ -29,6 +29,13 @@ struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Threading
 namespace System::Threading {
+  // Forward declaring type: CancellationToken
+  struct CancellationToken;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::CancellationToken, "System.Threading", "CancellationToken");
+// Type namespace: System.Threading
+namespace System::Threading {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -132,8 +139,6 @@ namespace System::Threading {
   // Offset: 0x1A3B398
   bool operator !=(const System::Threading::CancellationToken& left, const System::Threading::CancellationToken& right);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::CancellationToken, "System.Threading", "CancellationToken");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::CancellationToken::get_None
 // Il2CppName: get_None

@@ -19,6 +19,13 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: TMPro
 namespace TMPro {
+  // Forward declaring type: Resources
+  struct Resources;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_DefaultControls::Resources, "TMPro", "TMP_DefaultControls/Resources");
+// Type namespace: TMPro
+namespace TMPro {
   // Size: 0x38
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -99,6 +106,4 @@ namespace TMPro {
   static check_size<sizeof(TMP_DefaultControls::Resources), 48 + sizeof(UnityEngine::Sprite*)> __TMPro_TMP_DefaultControls_ResourcesSizeCheck;
   static_assert(sizeof(TMP_DefaultControls::Resources) == 0x38);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_DefaultControls::Resources, "TMPro", "TMP_DefaultControls/Resources");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

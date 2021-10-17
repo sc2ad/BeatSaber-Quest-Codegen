@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
+  // Forward declaring type: Vector2f
+  struct Vector2f;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Vector2f, "", "OVRPlugin/Vector2f");
+// Type namespace: 
+namespace GlobalNamespace {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -52,6 +59,4 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRPlugin::Vector2f), 4 + sizeof(float)> __GlobalNamespace_OVRPlugin_Vector2fSizeCheck;
   static_assert(sizeof(OVRPlugin::Vector2f) == 0x8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Vector2f, "", "OVRPlugin/Vector2f");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

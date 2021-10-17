@@ -23,6 +23,14 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: IntegratedSubsystem
+  class IntegratedSubsystem;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::IntegratedSubsystem);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::IntegratedSubsystem*, "UnityEngine", "IntegratedSubsystem");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x20
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -75,8 +83,6 @@ namespace UnityEngine {
   static check_size<sizeof(IntegratedSubsystem), 24 + sizeof(UnityEngine::ISubsystemDescriptor*)> __UnityEngine_IntegratedSubsystemSizeCheck;
   static_assert(sizeof(IntegratedSubsystem) == 0x20);
 }
-NEED_NO_BOX(UnityEngine::IntegratedSubsystem);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::IntegratedSubsystem*, "UnityEngine", "IntegratedSubsystem");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::IntegratedSubsystem::SetHandle
 // Il2CppName: SetHandle

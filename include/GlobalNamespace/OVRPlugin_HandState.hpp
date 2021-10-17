@@ -21,6 +21,13 @@
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
+  // Forward declaring type: HandState
+  struct HandState;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::HandState, "", "OVRPlugin/HandState");
+// Type namespace: 
+namespace GlobalNamespace {
   // Size: 0x78
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -137,6 +144,4 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRPlugin::HandState), 112 + sizeof(double)> __GlobalNamespace_OVRPlugin_HandStateSizeCheck;
   static_assert(sizeof(OVRPlugin::HandState) == 0x78);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::HandState, "", "OVRPlugin/HandState");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

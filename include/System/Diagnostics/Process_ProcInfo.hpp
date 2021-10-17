@@ -17,6 +17,13 @@ struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Diagnostics
 namespace System::Diagnostics {
+  // Forward declaring type: ProcInfo
+  struct ProcInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Process::ProcInfo, "System.Diagnostics", "Process/ProcInfo");
+// Type namespace: System.Diagnostics
+namespace System::Diagnostics {
   // Size: 0x31
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -99,6 +106,4 @@ namespace System::Diagnostics {
   static check_size<sizeof(Process::ProcInfo), 48 + sizeof(bool)> __System_Diagnostics_Process_ProcInfoSizeCheck;
   static_assert(sizeof(Process::ProcInfo) == 0x31);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Process::ProcInfo, "System.Diagnostics", "Process/ProcInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

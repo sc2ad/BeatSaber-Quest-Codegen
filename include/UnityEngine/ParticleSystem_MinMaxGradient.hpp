@@ -23,6 +23,13 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: MinMaxGradient
+  struct MinMaxGradient;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::MinMaxGradient, "UnityEngine", "ParticleSystem/MinMaxGradient");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x38
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -96,8 +103,6 @@ namespace UnityEngine {
   static check_size<sizeof(ParticleSystem::MinMaxGradient), 40 + sizeof(UnityEngine::Color)> __UnityEngine_ParticleSystem_MinMaxGradientSizeCheck;
   static_assert(sizeof(ParticleSystem::MinMaxGradient) == 0x38);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::MinMaxGradient, "UnityEngine", "ParticleSystem/MinMaxGradient");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::MinMaxGradient::get_color
 // Il2CppName: get_color

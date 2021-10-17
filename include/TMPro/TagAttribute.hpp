@@ -9,6 +9,13 @@
 // Completed includes
 // Type namespace: TMPro
 namespace TMPro {
+  // Forward declaring type: TagAttribute
+  struct TagAttribute;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TagAttribute, "TMPro", "TagAttribute");
+// Type namespace: TMPro
+namespace TMPro {
   // Size: 0xC
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -57,6 +64,4 @@ namespace TMPro {
   static check_size<sizeof(TagAttribute), 8 + sizeof(int)> __TMPro_TagAttributeSizeCheck;
   static_assert(sizeof(TagAttribute) == 0xC);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(TMPro::TagAttribute, "TMPro", "TagAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -21,6 +21,13 @@ struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: OnlineServices
 namespace OnlineServices {
+  // Forward declaring type: LevelScoreResultsData
+  struct LevelScoreResultsData;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OnlineServices::LevelScoreResultsData, "OnlineServices", "LevelScoreResultsData");
+// Type namespace: OnlineServices
+namespace OnlineServices {
   // Size: 0x30
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -130,8 +137,6 @@ namespace OnlineServices {
   static check_size<sizeof(LevelScoreResultsData), 40 + sizeof(GlobalNamespace::GameplayModifiers*)> __OnlineServices_LevelScoreResultsDataSizeCheck;
   static_assert(sizeof(LevelScoreResultsData) == 0x30);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OnlineServices::LevelScoreResultsData, "OnlineServices", "LevelScoreResultsData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OnlineServices::LevelScoreResultsData::LevelScoreResultsData
 // Il2CppName: .ctor

@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
+  // Forward declaring type: Sizei
+  struct Sizei;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Sizei, "", "OVRPlugin/Sizei");
+// Type namespace: 
+namespace GlobalNamespace {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -59,8 +66,6 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRPlugin::Sizei), 4 + sizeof(int)> __GlobalNamespace_OVRPlugin_SizeiSizeCheck;
   static_assert(sizeof(OVRPlugin::Sizei) == 0x8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Sizei, "", "OVRPlugin/Sizei");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::Sizei::_cctor
 // Il2CppName: .cctor

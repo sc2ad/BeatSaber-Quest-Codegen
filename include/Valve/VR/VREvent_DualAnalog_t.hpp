@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: Valve.VR
 namespace Valve::VR {
+  // Forward declaring type: VREvent_DualAnalog_t
+  struct VREvent_DualAnalog_t;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VREvent_DualAnalog_t, "Valve.VR", "VREvent_DualAnalog_t");
+// Type namespace: Valve.VR
+namespace Valve::VR {
   // Size: 0x14
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -76,6 +83,4 @@ namespace Valve::VR {
   static check_size<sizeof(VREvent_DualAnalog_t), 16 + sizeof(Valve::VR::EDualAnalogWhich)> __Valve_VR_VREvent_DualAnalog_tSizeCheck;
   static_assert(sizeof(VREvent_DualAnalog_t) == 0x14);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VREvent_DualAnalog_t, "Valve.VR", "VREvent_DualAnalog_t");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

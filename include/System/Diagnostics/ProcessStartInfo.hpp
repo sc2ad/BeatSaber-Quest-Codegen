@@ -50,6 +50,14 @@ namespace System::Diagnostics {
 // Completed forward declares
 // Type namespace: System.Diagnostics
 namespace System::Diagnostics {
+  // Forward declaring type: ProcessStartInfo
+  class ProcessStartInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Diagnostics::ProcessStartInfo);
+DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::ProcessStartInfo*, "System.Diagnostics", "ProcessStartInfo");
+// Type namespace: System.Diagnostics
+namespace System::Diagnostics {
   // Size: 0xA0
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -318,8 +326,6 @@ namespace System::Diagnostics {
   static check_size<sizeof(ProcessStartInfo), 152 + sizeof(System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppString*>*)> __System_Diagnostics_ProcessStartInfoSizeCheck;
   static_assert(sizeof(ProcessStartInfo) == 0xA0);
 }
-NEED_NO_BOX(System::Diagnostics::ProcessStartInfo);
-DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::ProcessStartInfo*, "System.Diagnostics", "ProcessStartInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Diagnostics::ProcessStartInfo::get_Arguments
 // Il2CppName: get_Arguments

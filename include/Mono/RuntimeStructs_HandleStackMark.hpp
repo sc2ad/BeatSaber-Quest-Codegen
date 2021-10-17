@@ -14,6 +14,13 @@
 // Completed includes
 // Type namespace: Mono
 namespace Mono {
+  // Forward declaring type: HandleStackMark
+  struct HandleStackMark;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeStructs::HandleStackMark, "Mono", "RuntimeStructs/HandleStackMark");
+// Type namespace: Mono
+namespace Mono {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -62,6 +69,4 @@ namespace Mono {
   static check_size<sizeof(RuntimeStructs::HandleStackMark), 8 + sizeof(System::IntPtr)> __Mono_RuntimeStructs_HandleStackMarkSizeCheck;
   static_assert(sizeof(RuntimeStructs::HandleStackMark) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeStructs::HandleStackMark, "Mono", "RuntimeStructs/HandleStackMark");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

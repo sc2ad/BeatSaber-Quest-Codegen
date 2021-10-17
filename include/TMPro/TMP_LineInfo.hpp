@@ -14,6 +14,13 @@
 // Completed includes
 // Type namespace: TMPro
 namespace TMPro {
+  // Forward declaring type: TMP_LineInfo
+  struct TMP_LineInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_LineInfo, "TMPro", "TMP_LineInfo");
+// Type namespace: TMPro
+namespace TMPro {
   // Size: 0x5C
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -198,6 +205,4 @@ namespace TMPro {
   static check_size<sizeof(TMP_LineInfo), 76 + sizeof(TMPro::Extents)> __TMPro_TMP_LineInfoSizeCheck;
   static_assert(sizeof(TMP_LineInfo) == 0x5C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_LineInfo, "TMPro", "TMP_LineInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

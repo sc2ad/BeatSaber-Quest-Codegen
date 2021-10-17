@@ -14,6 +14,13 @@
 // Completed includes
 // Type namespace: System.Net.Sockets
 namespace System::Net::Sockets {
+  // Forward declaring type: WSABUF
+  struct WSABUF;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::Socket::WSABUF, "System.Net.Sockets", "Socket/WSABUF");
+// Type namespace: System.Net.Sockets
+namespace System::Net::Sockets {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -56,6 +63,4 @@ namespace System::Net::Sockets {
   static check_size<sizeof(Socket::WSABUF), 8 + sizeof(System::IntPtr)> __System_Net_Sockets_Socket_WSABUFSizeCheck;
   static_assert(sizeof(Socket::WSABUF) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::Socket::WSABUF, "System.Net.Sockets", "Socket/WSABUF");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

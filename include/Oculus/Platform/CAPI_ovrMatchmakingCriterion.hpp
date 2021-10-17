@@ -16,6 +16,13 @@
 // Completed includes
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
+  // Forward declaring type: ovrMatchmakingCriterion
+  struct ovrMatchmakingCriterion;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CAPI::ovrMatchmakingCriterion, "Oculus.Platform", "CAPI/ovrMatchmakingCriterion");
+// Type namespace: Oculus.Platform
+namespace Oculus::Platform {
   // Size: 0x1C
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -77,8 +84,6 @@ namespace Oculus::Platform {
   static check_size<sizeof(CAPI::ovrMatchmakingCriterion), 24 + sizeof(uint)> __Oculus_Platform_CAPI_ovrMatchmakingCriterionSizeCheck;
   static_assert(sizeof(CAPI::ovrMatchmakingCriterion) == 0x1C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CAPI::ovrMatchmakingCriterion, "Oculus.Platform", "CAPI/ovrMatchmakingCriterion");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovrMatchmakingCriterion::ovrMatchmakingCriterion
 // Il2CppName: .ctor

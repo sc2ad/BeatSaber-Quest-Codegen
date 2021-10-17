@@ -9,6 +9,13 @@
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: UILineInfo
+  struct UILineInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UILineInfo, "UnityEngine", "UILineInfo");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -66,6 +73,4 @@ namespace UnityEngine {
   static check_size<sizeof(UILineInfo), 12 + sizeof(float)> __UnityEngine_UILineInfoSizeCheck;
   static_assert(sizeof(UILineInfo) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UILineInfo, "UnityEngine", "UILineInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

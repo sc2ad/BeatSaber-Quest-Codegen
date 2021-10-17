@@ -23,6 +23,13 @@ namespace UnityEngine::Rendering {
 // Completed forward declares
 // Type namespace: UnityEngine.Rendering
 namespace UnityEngine::Rendering {
+  // Forward declaring type: BatchRendererCullingOutput
+  struct BatchRendererCullingOutput;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::BatchRendererCullingOutput, "UnityEngine.Rendering", "BatchRendererCullingOutput");
+// Type namespace: UnityEngine.Rendering
+namespace UnityEngine::Rendering {
   // Size: 0x34
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -107,6 +114,4 @@ namespace UnityEngine::Rendering {
   static check_size<sizeof(BatchRendererCullingOutput), 48 + sizeof(int)> __UnityEngine_Rendering_BatchRendererCullingOutputSizeCheck;
   static_assert(sizeof(BatchRendererCullingOutput) == 0x34);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::BatchRendererCullingOutput, "UnityEngine.Rendering", "BatchRendererCullingOutput");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

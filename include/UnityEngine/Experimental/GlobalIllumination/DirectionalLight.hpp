@@ -16,6 +16,13 @@
 // Completed includes
 // Type namespace: UnityEngine.Experimental.GlobalIllumination
 namespace UnityEngine::Experimental::GlobalIllumination {
+  // Forward declaring type: DirectionalLight
+  struct DirectionalLight;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::DirectionalLight, "UnityEngine.Experimental.GlobalIllumination", "DirectionalLight");
+// Type namespace: UnityEngine.Experimental.GlobalIllumination
+namespace UnityEngine::Experimental::GlobalIllumination {
   // Size: 0x38
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -98,6 +105,4 @@ namespace UnityEngine::Experimental::GlobalIllumination {
   static check_size<sizeof(DirectionalLight), 52 + sizeof(float)> __UnityEngine_Experimental_GlobalIllumination_DirectionalLightSizeCheck;
   static_assert(sizeof(DirectionalLight) == 0x38);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::DirectionalLight, "UnityEngine.Experimental.GlobalIllumination", "DirectionalLight");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

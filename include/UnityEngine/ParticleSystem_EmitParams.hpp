@@ -20,6 +20,13 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: EmitParams
+  struct EmitParams;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::EmitParams, "UnityEngine", "ParticleSystem/EmitParams");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x8F
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -164,8 +171,6 @@ namespace UnityEngine {
   static check_size<sizeof(ParticleSystem::EmitParams), 142 + sizeof(bool)> __UnityEngine_ParticleSystem_EmitParamsSizeCheck;
   static_assert(sizeof(ParticleSystem::EmitParams) == 0x8F);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::EmitParams, "UnityEngine", "ParticleSystem/EmitParams");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::EmitParams::set_position
 // Il2CppName: set_position

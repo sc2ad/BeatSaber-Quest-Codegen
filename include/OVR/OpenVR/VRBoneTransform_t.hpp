@@ -13,6 +13,13 @@
 // Completed includes
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
+  // Forward declaring type: VRBoneTransform_t
+  struct VRBoneTransform_t;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VRBoneTransform_t, "OVR.OpenVR", "VRBoneTransform_t");
+// Type namespace: OVR.OpenVR
+namespace OVR::OpenVR {
   // Size: 0x20
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -53,6 +60,4 @@ namespace OVR::OpenVR {
   static check_size<sizeof(VRBoneTransform_t), 16 + sizeof(OVR::OpenVR::HmdQuaternionf_t)> __OVR_OpenVR_VRBoneTransform_tSizeCheck;
   static_assert(sizeof(VRBoneTransform_t) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VRBoneTransform_t, "OVR.OpenVR", "VRBoneTransform_t");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

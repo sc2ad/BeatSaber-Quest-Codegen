@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: System.Runtime.Serialization
 namespace System::Runtime::Serialization {
+  // Forward declaring type: StreamingContext
+  struct StreamingContext;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::StreamingContext, "System.Runtime.Serialization", "StreamingContext");
+// Type namespace: System.Runtime.Serialization
+namespace System::Runtime::Serialization {
   // Size: 0xC
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -75,8 +82,6 @@ namespace System::Runtime::Serialization {
   static check_size<sizeof(StreamingContext), 8 + sizeof(System::Runtime::Serialization::StreamingContextStates)> __System_Runtime_Serialization_StreamingContextSizeCheck;
   static_assert(sizeof(StreamingContext) == 0xC);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::StreamingContext, "System.Runtime.Serialization", "StreamingContext");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::StreamingContext::get_Context
 // Il2CppName: get_Context

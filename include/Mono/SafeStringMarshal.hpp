@@ -16,6 +16,13 @@ struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: Mono
 namespace Mono {
+  // Forward declaring type: SafeStringMarshal
+  struct SafeStringMarshal;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Mono::SafeStringMarshal, "Mono", "SafeStringMarshal");
+// Type namespace: Mono
+namespace Mono {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -75,8 +82,6 @@ namespace Mono {
   static check_size<sizeof(SafeStringMarshal), 8 + sizeof(System::IntPtr)> __Mono_SafeStringMarshalSizeCheck;
   static_assert(sizeof(SafeStringMarshal) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Mono::SafeStringMarshal, "Mono", "SafeStringMarshal");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::SafeStringMarshal::get_Value
 // Il2CppName: get_Value

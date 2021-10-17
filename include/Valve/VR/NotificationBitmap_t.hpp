@@ -11,6 +11,13 @@
 // Completed includes
 // Type namespace: Valve.VR
 namespace Valve::VR {
+  // Forward declaring type: NotificationBitmap_t
+  struct NotificationBitmap_t;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::NotificationBitmap_t, "Valve.VR", "NotificationBitmap_t");
+// Type namespace: Valve.VR
+namespace Valve::VR {
   // Size: 0x14
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -67,6 +74,4 @@ namespace Valve::VR {
   static check_size<sizeof(NotificationBitmap_t), 16 + sizeof(int)> __Valve_VR_NotificationBitmap_tSizeCheck;
   static_assert(sizeof(NotificationBitmap_t) == 0x14);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::NotificationBitmap_t, "Valve.VR", "NotificationBitmap_t");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

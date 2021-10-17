@@ -11,6 +11,14 @@
 // Completed includes
 // Type namespace: UnityEngine.Networking
 namespace UnityEngine::Networking {
+  // Forward declaring type: CertificateHandler
+  class CertificateHandler;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::Networking::CertificateHandler);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::CertificateHandler*, "UnityEngine.Networking", "CertificateHandler");
+// Type namespace: UnityEngine.Networking
+namespace UnityEngine::Networking {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -54,9 +62,6 @@ namespace UnityEngine::Networking {
   static check_size<sizeof(CertificateHandler), 16 + sizeof(System::IntPtr)> __UnityEngine_Networking_CertificateHandlerSizeCheck;
   static_assert(sizeof(CertificateHandler) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Networking::CertificateHandler);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::CertificateHandler*, "UnityEngine.Networking", "CertificateHandler");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Networking::CertificateHandler::Release
 // Il2CppName: Release

@@ -11,6 +11,13 @@
 // Completed includes
 // Type namespace: UnityEngine.PlayerLoop
 namespace UnityEngine::PlayerLoop {
+  // Forward declaring type: ExecuteMainThreadJobs
+  struct ExecuteMainThreadJobs;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PlayerLoop::EarlyUpdate::ExecuteMainThreadJobs, "UnityEngine.PlayerLoop", "EarlyUpdate/ExecuteMainThreadJobs");
+// Type namespace: UnityEngine.PlayerLoop
+namespace UnityEngine::PlayerLoop {
   // Size: 0x0
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -28,6 +35,4 @@ namespace UnityEngine::PlayerLoop {
   }; // UnityEngine.PlayerLoop.EarlyUpdate/UnityEngine.PlayerLoop.ExecuteMainThreadJobs
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PlayerLoop::EarlyUpdate::ExecuteMainThreadJobs, "UnityEngine.PlayerLoop", "EarlyUpdate/ExecuteMainThreadJobs");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

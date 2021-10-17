@@ -27,6 +27,13 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine.XR
 namespace UnityEngine::XR {
+  // Forward declaring type: MeshGenerationResult
+  struct MeshGenerationResult;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::MeshGenerationResult, "UnityEngine.XR", "MeshGenerationResult");
+// Type namespace: UnityEngine.XR
+namespace UnityEngine::XR {
   // Size: 0x28
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -130,8 +137,6 @@ namespace UnityEngine::XR {
   static check_size<sizeof(MeshGenerationResult), 36 + sizeof(UnityEngine::XR::MeshVertexAttributes)> __UnityEngine_XR_MeshGenerationResultSizeCheck;
   static_assert(sizeof(MeshGenerationResult) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::MeshGenerationResult, "UnityEngine.XR", "MeshGenerationResult");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::XR::MeshGenerationResult::get_MeshId
 // Il2CppName: get_MeshId

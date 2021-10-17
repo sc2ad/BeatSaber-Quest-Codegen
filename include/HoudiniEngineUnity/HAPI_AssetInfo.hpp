@@ -9,6 +9,13 @@
 // Completed includes
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
+  // Forward declaring type: HAPI_AssetInfo
+  struct HAPI_AssetInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_AssetInfo, "HoudiniEngineUnity", "HAPI_AssetInfo");
+// Type namespace: HoudiniEngineUnity
+namespace HoudiniEngineUnity {
   // Size: 0x3E
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -171,6 +178,4 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HAPI_AssetInfo), 61 + sizeof(bool)> __HoudiniEngineUnity_HAPI_AssetInfoSizeCheck;
   static_assert(sizeof(HAPI_AssetInfo) == 0x3E);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_AssetInfo, "HoudiniEngineUnity", "HAPI_AssetInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

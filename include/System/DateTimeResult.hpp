@@ -25,6 +25,13 @@ namespace System::Globalization {
 // Completed forward declares
 // Type namespace: System
 namespace System {
+  // Forward declaring type: DateTimeResult
+  struct DateTimeResult;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::DateTimeResult, "System", "DateTimeResult");
+// Type namespace: System
+namespace System {
   // Size: 0x60
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -191,8 +198,6 @@ namespace System {
   static check_size<sizeof(DateTimeResult), 88 + sizeof(::Il2CppString*)> __System_DateTimeResultSizeCheck;
   static_assert(sizeof(DateTimeResult) == 0x60);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::DateTimeResult, "System", "DateTimeResult");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::DateTimeResult::Init
 // Il2CppName: Init

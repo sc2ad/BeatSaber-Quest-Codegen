@@ -18,6 +18,13 @@
 // Completed includes
 // Type namespace: UnityEngine.XR
 namespace UnityEngine::XR {
+  // Forward declaring type: XRRenderPass
+  struct XRRenderPass;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::XRDisplaySubsystem::XRRenderPass, "UnityEngine.XR", "XRDisplaySubsystem/XRRenderPass");
+// Type namespace: UnityEngine.XR
+namespace UnityEngine::XR {
   // Size: 0x74
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -99,6 +106,4 @@ namespace UnityEngine::XR {
   static check_size<sizeof(XRDisplaySubsystem::XRRenderPass), 112 + sizeof(int)> __UnityEngine_XR_XRDisplaySubsystem_XRRenderPassSizeCheck;
   static_assert(sizeof(XRDisplaySubsystem::XRRenderPass) == 0x74);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::XRDisplaySubsystem::XRRenderPass, "UnityEngine.XR", "XRDisplaySubsystem/XRRenderPass");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

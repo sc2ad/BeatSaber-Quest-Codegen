@@ -19,6 +19,13 @@ namespace Valve::VR {
 // Completed forward declares
 // Type namespace: Valve.VR
 namespace Valve::VR {
+  // Forward declaring type: RenderModel_TextureMap_t_Packed
+  struct RenderModel_TextureMap_t_Packed;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::RenderModel_TextureMap_t_Packed, "Valve.VR", "RenderModel_TextureMap_t_Packed");
+// Type namespace: Valve.VR
+namespace Valve::VR {
   // Size: 0xC
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -73,8 +80,6 @@ namespace Valve::VR {
   static check_size<sizeof(RenderModel_TextureMap_t_Packed), 4 + sizeof(System::IntPtr)> __Valve_VR_RenderModel_TextureMap_t_PackedSizeCheck;
   static_assert(sizeof(RenderModel_TextureMap_t_Packed) == 0xC);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::RenderModel_TextureMap_t_Packed, "Valve.VR", "RenderModel_TextureMap_t_Packed");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::RenderModel_TextureMap_t_Packed::RenderModel_TextureMap_t_Packed
 // Il2CppName: .ctor

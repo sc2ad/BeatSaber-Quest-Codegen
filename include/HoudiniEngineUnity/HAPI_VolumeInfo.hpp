@@ -16,6 +16,13 @@
 // Completed includes
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
+  // Forward declaring type: HAPI_VolumeInfo
+  struct HAPI_VolumeInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_VolumeInfo, "HoudiniEngineUnity", "HAPI_VolumeInfo");
+// Type namespace: HoudiniEngineUnity
+namespace HoudiniEngineUnity {
   // Size: 0x64
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -166,6 +173,4 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HAPI_VolumeInfo), 96 + sizeof(float)> __HoudiniEngineUnity_HAPI_VolumeInfoSizeCheck;
   static_assert(sizeof(HAPI_VolumeInfo) == 0x64);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_VolumeInfo, "HoudiniEngineUnity", "HAPI_VolumeInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

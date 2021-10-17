@@ -11,6 +11,13 @@
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: SubEmittersModule
+  struct SubEmittersModule;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::SubEmittersModule, "UnityEngine", "ParticleSystem/SubEmittersModule");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -62,8 +69,6 @@ namespace UnityEngine {
   static check_size<sizeof(ParticleSystem::SubEmittersModule), 0 + sizeof(UnityEngine::ParticleSystem*)> __UnityEngine_ParticleSystem_SubEmittersModuleSizeCheck;
   static_assert(sizeof(ParticleSystem::SubEmittersModule) == 0x8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::SubEmittersModule, "UnityEngine", "ParticleSystem/SubEmittersModule");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::SubEmittersModule::get_subEmittersCount
 // Il2CppName: get_subEmittersCount

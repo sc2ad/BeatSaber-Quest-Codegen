@@ -14,6 +14,13 @@
 // Completed includes
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
+  // Forward declaring type: HAPI_ImageInfo
+  struct HAPI_ImageInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_ImageInfo, "HoudiniEngineUnity", "HAPI_ImageInfo");
+// Type namespace: HoudiniEngineUnity
+namespace HoudiniEngineUnity {
   // Size: 0x20
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -96,6 +103,4 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HAPI_ImageInfo), 24 + sizeof(double)> __HoudiniEngineUnity_HAPI_ImageInfoSizeCheck;
   static_assert(sizeof(HAPI_ImageInfo) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_ImageInfo, "HoudiniEngineUnity", "HAPI_ImageInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

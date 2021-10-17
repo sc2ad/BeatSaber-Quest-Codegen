@@ -16,6 +16,13 @@
 // Completed includes
 // Type namespace: UnityEngine.Rendering
 namespace UnityEngine::Rendering {
+  // Forward declaring type: VertexAttributeDescriptor
+  struct VertexAttributeDescriptor;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::VertexAttributeDescriptor, "UnityEngine.Rendering", "VertexAttributeDescriptor");
+// Type namespace: UnityEngine.Rendering
+namespace UnityEngine::Rendering {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -111,8 +118,6 @@ namespace UnityEngine::Rendering {
   static check_size<sizeof(VertexAttributeDescriptor), 12 + sizeof(int)> __UnityEngine_Rendering_VertexAttributeDescriptorSizeCheck;
   static_assert(sizeof(VertexAttributeDescriptor) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::VertexAttributeDescriptor, "UnityEngine.Rendering", "VertexAttributeDescriptor");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Rendering::VertexAttributeDescriptor::get_attribute
 // Il2CppName: get_attribute

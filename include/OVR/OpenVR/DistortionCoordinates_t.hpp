@@ -9,6 +9,13 @@
 // Completed includes
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
+  // Forward declaring type: DistortionCoordinates_t
+  struct DistortionCoordinates_t;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::DistortionCoordinates_t, "OVR.OpenVR", "DistortionCoordinates_t");
+// Type namespace: OVR.OpenVR
+namespace OVR::OpenVR {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -81,6 +88,4 @@ namespace OVR::OpenVR {
   static check_size<sizeof(DistortionCoordinates_t), 20 + sizeof(float)> __OVR_OpenVR_DistortionCoordinates_tSizeCheck;
   static_assert(sizeof(DistortionCoordinates_t) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::DistortionCoordinates_t, "OVR.OpenVR", "DistortionCoordinates_t");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -14,6 +14,13 @@
 // Completed includes
 // Type namespace: Mono
 namespace Mono {
+  // Forward declaring type: GenericParamInfo
+  struct GenericParamInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeStructs::GenericParamInfo, "Mono", "RuntimeStructs/GenericParamInfo");
+// Type namespace: Mono
+namespace Mono {
   // Size: 0x20
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -80,6 +87,4 @@ namespace Mono {
   static check_size<sizeof(RuntimeStructs::GenericParamInfo), 24 + sizeof(Mono::RuntimeStructs::MonoClass**)> __Mono_RuntimeStructs_GenericParamInfoSizeCheck;
   static_assert(sizeof(RuntimeStructs::GenericParamInfo) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeStructs::GenericParamInfo, "Mono", "RuntimeStructs/GenericParamInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

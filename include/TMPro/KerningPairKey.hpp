@@ -9,6 +9,13 @@
 // Completed includes
 // Type namespace: TMPro
 namespace TMPro {
+  // Forward declaring type: KerningPairKey
+  struct KerningPairKey;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::KerningPairKey, "TMPro", "KerningPairKey");
+// Type namespace: TMPro
+namespace TMPro {
   // Size: 0xC
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -60,8 +67,6 @@ namespace TMPro {
   static check_size<sizeof(KerningPairKey), 8 + sizeof(uint)> __TMPro_KerningPairKeySizeCheck;
   static_assert(sizeof(KerningPairKey) == 0xC);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(TMPro::KerningPairKey, "TMPro", "KerningPairKey");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::KerningPairKey::KerningPairKey
 // Il2CppName: .ctor

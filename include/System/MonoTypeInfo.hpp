@@ -19,6 +19,14 @@ namespace System::Reflection {
 // Completed forward declares
 // Type namespace: System
 namespace System {
+  // Forward declaring type: MonoTypeInfo
+  class MonoTypeInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::MonoTypeInfo);
+DEFINE_IL2CPP_ARG_TYPE(System::MonoTypeInfo*, "System", "MonoTypeInfo");
+// Type namespace: System
+namespace System {
   // Size: 0x20
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -62,8 +70,6 @@ namespace System {
   static check_size<sizeof(MonoTypeInfo), 24 + sizeof(System::Reflection::MonoCMethod*)> __System_MonoTypeInfoSizeCheck;
   static_assert(sizeof(MonoTypeInfo) == 0x20);
 }
-NEED_NO_BOX(System::MonoTypeInfo);
-DEFINE_IL2CPP_ARG_TYPE(System::MonoTypeInfo*, "System", "MonoTypeInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::MonoTypeInfo::New_ctor
 // Il2CppName: .ctor

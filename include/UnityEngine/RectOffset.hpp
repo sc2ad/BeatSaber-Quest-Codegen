@@ -21,6 +21,14 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: RectOffset
+  class RectOffset;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::RectOffset);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RectOffset*, "UnityEngine", "RectOffset");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x20
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -135,8 +143,6 @@ namespace UnityEngine {
   static check_size<sizeof(RectOffset), 24 + sizeof(::Il2CppObject*)> __UnityEngine_RectOffsetSizeCheck;
   static_assert(sizeof(RectOffset) == 0x20);
 }
-NEED_NO_BOX(UnityEngine::RectOffset);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RectOffset*, "UnityEngine", "RectOffset");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::RectOffset::get_left
 // Il2CppName: get_left
