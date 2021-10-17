@@ -42,8 +42,6 @@ namespace GlobalNamespace {
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::VRControllersRecorderData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorderData*, "", "VRControllersRecorderData");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorderData::PositionAndRotation, "", "VRControllersRecorderData/PositionAndRotation");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -58,13 +56,6 @@ namespace GlobalNamespace {
     class Keyframe;
     // Nested type: GlobalNamespace::VRControllersRecorderData::NodeInfo
     class NodeInfo;
-    // Type namespace: 
-    namespace GlobalNamespace {
-      // Forward declaring type: PositionAndRotation
-      struct PositionAndRotation;
-    }
-    #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-    DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorderData::PositionAndRotation, "", "VRControllersRecorderData/PositionAndRotation");
     // Size: 0x1C
     #pragma pack(push, 1)
     // WARNING Layout: Sequential may not be correctly taken into account!
@@ -159,6 +150,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(VRControllersRecorderData), 24 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::VRControllersRecorderData::Keyframe*>*)> __GlobalNamespace_VRControllersRecorderDataSizeCheck;
   static_assert(sizeof(VRControllersRecorderData) == 0x20);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorderData::PositionAndRotation, "", "VRControllersRecorderData/PositionAndRotation");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::VRControllersRecorderData::get_numberOfKeyframes
 // Il2CppName: get_numberOfKeyframes

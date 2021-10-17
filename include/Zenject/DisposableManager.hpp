@@ -46,8 +46,6 @@ namespace Zenject {
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Zenject::DisposableManager);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DisposableManager*, "Zenject", "DisposableManager");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Zenject::DisposableManager::DisposableInfo, "Zenject", "DisposableManager/DisposableInfo");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x22
@@ -68,13 +66,6 @@ namespace Zenject {
     class $$c;
     // Nested type: Zenject::DisposableManager::$$c__DisplayClass9_0
     class $$c__DisplayClass9_0;
-    // Type namespace: Zenject
-    namespace Zenject {
-      // Forward declaring type: DisposableInfo
-      struct DisposableInfo;
-    }
-    #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-    DEFINE_IL2CPP_ARG_TYPE(Zenject::DisposableManager::DisposableInfo, "Zenject", "DisposableManager/DisposableInfo");
     // Size: 0xC
     #pragma pack(push, 1)
     // WARNING Layout: Sequential may not be correctly taken into account!
@@ -192,6 +183,8 @@ namespace Zenject {
   static check_size<sizeof(DisposableManager), 33 + sizeof(bool)> __Zenject_DisposableManagerSizeCheck;
   static_assert(sizeof(DisposableManager) == 0x22);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Zenject::DisposableManager::DisposableInfo, "Zenject", "DisposableManager/DisposableInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::DisposableManager::New_ctor
 // Il2CppName: .ctor

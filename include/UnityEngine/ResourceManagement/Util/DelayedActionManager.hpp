@@ -48,8 +48,6 @@ namespace UnityEngine::ResourceManagement::Util {
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ResourceManagement::Util::DelayedActionManager);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Util::DelayedActionManager*, "UnityEngine.ResourceManagement.Util", "DelayedActionManager");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Util::DelayedActionManager::DelegateInfo, "UnityEngine.ResourceManagement.Util", "DelayedActionManager/DelegateInfo");
 // Type namespace: UnityEngine.ResourceManagement.Util
 namespace UnityEngine::ResourceManagement::Util {
   // WARNING Size may be invalid!
@@ -59,13 +57,6 @@ namespace UnityEngine::ResourceManagement::Util {
     public:
     // Nested type: UnityEngine::ResourceManagement::Util::DelayedActionManager::DelegateInfo
     struct DelegateInfo;
-    // Type namespace: UnityEngine.ResourceManagement.Util
-    namespace UnityEngine::ResourceManagement::Util {
-      // Forward declaring type: DelegateInfo
-      struct DelegateInfo;
-    }
-    #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-    DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Util::DelayedActionManager::DelegateInfo, "UnityEngine.ResourceManagement.Util", "DelayedActionManager/DelegateInfo");
     // Size: 0x1C
     #pragma pack(push, 1)
     // WARNING Layout: Sequential may not be correctly taken into account!
@@ -239,6 +230,8 @@ namespace UnityEngine::ResourceManagement::Util {
   }; // UnityEngine.ResourceManagement.Util.DelayedActionManager
   // WARNING Not writing size check since size may be invalid!
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Util::DelayedActionManager::DelegateInfo, "UnityEngine.ResourceManagement.Util", "DelayedActionManager/DelegateInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::DelayedActionManager::get_IsActive
 // Il2CppName: get_IsActive

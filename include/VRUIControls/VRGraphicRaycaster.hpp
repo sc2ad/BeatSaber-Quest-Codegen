@@ -60,8 +60,6 @@ namespace VRUIControls {
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(VRUIControls::VRGraphicRaycaster);
 DEFINE_IL2CPP_ARG_TYPE(VRUIControls::VRGraphicRaycaster*, "VRUIControls", "VRGraphicRaycaster");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(VRUIControls::VRGraphicRaycaster::VRGraphicRaycastResult, "VRUIControls", "VRGraphicRaycaster/VRGraphicRaycastResult");
 // Type namespace: VRUIControls
 namespace VRUIControls {
   // Size: 0x48
@@ -75,13 +73,6 @@ namespace VRUIControls {
     struct VRGraphicRaycastResult;
     // Nested type: VRUIControls::VRGraphicRaycaster::$$c
     class $$c;
-    // Type namespace: VRUIControls
-    namespace VRUIControls {
-      // Forward declaring type: VRGraphicRaycastResult
-      struct VRGraphicRaycastResult;
-    }
-    #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-    DEFINE_IL2CPP_ARG_TYPE(VRUIControls::VRGraphicRaycaster::VRGraphicRaycastResult, "VRUIControls", "VRGraphicRaycaster/VRGraphicRaycastResult");
     // Size: 0x20
     #pragma pack(push, 1)
     // WARNING Layout: Sequential may not be correctly taken into account!
@@ -243,6 +234,8 @@ namespace VRUIControls {
   static check_size<sizeof(VRGraphicRaycaster), 64 + sizeof(HMUI::CurvedCanvasSettingsHelper*)> __VRUIControls_VRGraphicRaycasterSizeCheck;
   static_assert(sizeof(VRGraphicRaycaster) == 0x48);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(VRUIControls::VRGraphicRaycaster::VRGraphicRaycastResult, "VRUIControls", "VRGraphicRaycaster/VRGraphicRaycastResult");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: VRUIControls::VRGraphicRaycaster::RaycastCanvas
 // Il2CppName: RaycastCanvas

@@ -27,8 +27,6 @@ namespace UnityEngine {
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::SendMouseEvents);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SendMouseEvents*, "UnityEngine", "SendMouseEvents");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SendMouseEvents::HitInfo, "UnityEngine", "SendMouseEvents/HitInfo");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -39,13 +37,6 @@ namespace UnityEngine {
     public:
     // Nested type: UnityEngine::SendMouseEvents::HitInfo
     struct HitInfo;
-    // Type namespace: UnityEngine
-    namespace UnityEngine {
-      // Forward declaring type: HitInfo
-      struct HitInfo;
-    }
-    #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-    DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SendMouseEvents::HitInfo, "UnityEngine", "SendMouseEvents/HitInfo");
     // Size: 0x10
     #pragma pack(push, 1)
     // WARNING Layout: Sequential may not be correctly taken into account!
@@ -126,6 +117,8 @@ namespace UnityEngine {
   }; // UnityEngine.SendMouseEvents
   #pragma pack(pop)
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SendMouseEvents::HitInfo, "UnityEngine", "SendMouseEvents/HitInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::SendMouseEvents::_cctor
 // Il2CppName: .cctor

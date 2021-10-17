@@ -45,10 +45,6 @@ namespace GlobalNamespace {
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::OVRDisplay);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRDisplay*, "", "OVRDisplay");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRDisplay::EyeFov, "", "OVRDisplay/EyeFov");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRDisplay::EyeRenderDesc, "", "OVRDisplay/EyeRenderDesc");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x38
@@ -63,13 +59,6 @@ namespace GlobalNamespace {
     struct EyeRenderDesc;
     // Nested type: GlobalNamespace::OVRDisplay::LatencyData
     struct LatencyData;
-    // Type namespace: 
-    namespace GlobalNamespace {
-      // Forward declaring type: EyeFov
-      struct EyeFov;
-    }
-    #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-    DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRDisplay::EyeFov, "", "OVRDisplay/EyeFov");
     // Size: 0x10
     #pragma pack(push, 1)
     // WARNING Layout: Sequential may not be correctly taken into account!
@@ -125,13 +114,6 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(OVRDisplay::EyeFov), 12 + sizeof(float)> __GlobalNamespace_OVRDisplay_EyeFovSizeCheck;
     static_assert(sizeof(OVRDisplay::EyeFov) == 0x10);
-    // Type namespace: 
-    namespace GlobalNamespace {
-      // Forward declaring type: EyeRenderDesc
-      struct EyeRenderDesc;
-    }
-    #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-    DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRDisplay::EyeRenderDesc, "", "OVRDisplay/EyeRenderDesc");
     // Size: 0x20
     #pragma pack(push, 1)
     // WARNING Layout: Sequential may not be correctly taken into account!
@@ -304,6 +286,10 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRDisplay), 48 + sizeof(System::Action*)> __GlobalNamespace_OVRDisplaySizeCheck;
   static_assert(sizeof(OVRDisplay) == 0x38);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRDisplay::EyeFov, "", "OVRDisplay/EyeFov");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRDisplay::EyeRenderDesc, "", "OVRDisplay/EyeRenderDesc");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRDisplay::get_acceleration
 // Il2CppName: get_acceleration

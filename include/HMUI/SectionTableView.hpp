@@ -39,8 +39,6 @@ namespace HMUI {
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HMUI::SectionTableView);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SectionTableView*, "HMUI", "SectionTableView");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(HMUI::SectionTableView::Section, "HMUI", "SectionTableView/Section");
 // Type namespace: HMUI
 namespace HMUI {
   // Size: 0xC8
@@ -53,13 +51,6 @@ namespace HMUI {
     class IDataSource;
     // Nested type: HMUI::SectionTableView::Section
     struct Section;
-    // Type namespace: HMUI
-    namespace HMUI {
-      // Forward declaring type: Section
-      struct Section;
-    }
-    #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-    DEFINE_IL2CPP_ARG_TYPE(HMUI::SectionTableView::Section, "HMUI", "SectionTableView/Section");
     // Size: 0xC
     #pragma pack(push, 1)
     // WARNING Layout: Sequential may not be correctly taken into account!
@@ -241,6 +232,8 @@ namespace HMUI {
   static check_size<sizeof(SectionTableView), 192 + sizeof(::ArrayW<HMUI::SectionTableView::Section>)> __HMUI_SectionTableViewSizeCheck;
   static_assert(sizeof(SectionTableView) == 0xC8);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HMUI::SectionTableView::Section, "HMUI", "SectionTableView/Section");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::SectionTableView::get_dataSource
 // Il2CppName: get_dataSource

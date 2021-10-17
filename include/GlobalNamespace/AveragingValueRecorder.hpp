@@ -28,8 +28,6 @@ namespace GlobalNamespace {
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::AveragingValueRecorder);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AveragingValueRecorder*, "", "AveragingValueRecorder");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AveragingValueRecorder::AverageValueData, "", "AveragingValueRecorder/AverageValueData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x44
@@ -40,13 +38,6 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::AveragingValueRecorder::AverageValueData
     struct AverageValueData;
-    // Type namespace: 
-    namespace GlobalNamespace {
-      // Forward declaring type: AverageValueData
-      struct AverageValueData;
-    }
-    #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-    DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AveragingValueRecorder::AverageValueData, "", "AveragingValueRecorder/AverageValueData");
     // Size: 0x8
     #pragma pack(push, 1)
     // WARNING Layout: Sequential may not be correctly taken into account!
@@ -213,6 +204,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(AveragingValueRecorder), 64 + sizeof(float)> __GlobalNamespace_AveragingValueRecorderSizeCheck;
   static_assert(sizeof(AveragingValueRecorder) == 0x44);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AveragingValueRecorder::AverageValueData, "", "AveragingValueRecorder/AverageValueData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AveragingValueRecorder::New_ctor
 // Il2CppName: .ctor

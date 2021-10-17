@@ -35,8 +35,6 @@ namespace UnityEngine {
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::UnitySynchronizationContext);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UnitySynchronizationContext*, "UnityEngine", "UnitySynchronizationContext");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UnitySynchronizationContext::WorkRequest, "UnityEngine", "UnitySynchronizationContext/WorkRequest");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x30
@@ -49,13 +47,6 @@ namespace UnityEngine {
     char ___base_padding[0x4] = {};
     // Nested type: UnityEngine::UnitySynchronizationContext::WorkRequest
     struct WorkRequest;
-    // Type namespace: UnityEngine
-    namespace UnityEngine {
-      // Forward declaring type: WorkRequest
-      struct WorkRequest;
-    }
-    #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-    DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UnitySynchronizationContext::WorkRequest, "UnityEngine", "UnitySynchronizationContext/WorkRequest");
     // Size: 0x18
     #pragma pack(push, 1)
     // WARNING Layout: Sequential may not be correctly taken into account!
@@ -208,6 +199,8 @@ namespace UnityEngine {
   static check_size<sizeof(UnitySynchronizationContext), 44 + sizeof(int)> __UnityEngine_UnitySynchronizationContextSizeCheck;
   static_assert(sizeof(UnitySynchronizationContext) == 0x30);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UnitySynchronizationContext::WorkRequest, "UnityEngine", "UnitySynchronizationContext/WorkRequest");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UnitySynchronizationContext::New_ctor
 // Il2CppName: .ctor

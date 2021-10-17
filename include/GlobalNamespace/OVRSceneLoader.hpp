@@ -56,8 +56,6 @@ namespace GlobalNamespace {
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::OVRSceneLoader);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSceneLoader*, "", "OVRSceneLoader");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSceneLoader::SceneInfo, "", "OVRSceneLoader/SceneInfo");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x70
@@ -72,13 +70,6 @@ namespace GlobalNamespace {
     class $DelayCanvasPosUpdate$d__24;
     // Nested type: GlobalNamespace::OVRSceneLoader::$onCheckSceneCoroutine$d__25
     class $onCheckSceneCoroutine$d__25;
-    // Type namespace: 
-    namespace GlobalNamespace {
-      // Forward declaring type: SceneInfo
-      struct SceneInfo;
-    }
-    #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-    DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSceneLoader::SceneInfo, "", "OVRSceneLoader/SceneInfo");
     // Size: 0x10
     #pragma pack(push, 1)
     // WARNING Layout: Sequential may not be correctly taken into account!
@@ -301,6 +292,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRSceneLoader), 96 + sizeof(GlobalNamespace::OVRSceneLoader::SceneInfo)> __GlobalNamespace_OVRSceneLoaderSizeCheck;
   static_assert(sizeof(OVRSceneLoader) == 0x70);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSceneLoader::SceneInfo, "", "OVRSceneLoader/SceneInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRSceneLoader::Awake
 // Il2CppName: Awake

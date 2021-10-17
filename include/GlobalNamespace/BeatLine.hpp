@@ -41,8 +41,6 @@ namespace GlobalNamespace {
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::BeatLine);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatLine*, "", "BeatLine");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatLine::HighlightData, "", "BeatLine/HighlightData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x6C
@@ -57,13 +55,6 @@ namespace GlobalNamespace {
     class Pool;
     // Nested type: GlobalNamespace::BeatLine::HighlightData
     struct HighlightData;
-    // Type namespace: 
-    namespace GlobalNamespace {
-      // Forward declaring type: HighlightData
-      struct HighlightData;
-    }
-    #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-    DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatLine::HighlightData, "", "BeatLine/HighlightData");
     // Size: 0xC
     #pragma pack(push, 1)
     // WARNING Layout: Sequential may not be correctly taken into account!
@@ -220,6 +211,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(BeatLine), 104 + sizeof(float)> __GlobalNamespace_BeatLineSizeCheck;
   static_assert(sizeof(BeatLine) == 0x6C);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatLine::HighlightData, "", "BeatLine/HighlightData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatLine::get_isFinished
 // Il2CppName: get_isFinished

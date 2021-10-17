@@ -21,8 +21,6 @@ namespace System::Net {
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::CookieTokenizer);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::CookieTokenizer*, "System.Net", "CookieTokenizer");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Net::CookieTokenizer::RecognizedAttribute, "System.Net", "CookieTokenizer/RecognizedAttribute");
 // Type namespace: System.Net
 namespace System::Net {
   // Size: 0x48
@@ -33,13 +31,6 @@ namespace System::Net {
     public:
     // Nested type: System::Net::CookieTokenizer::RecognizedAttribute
     struct RecognizedAttribute;
-    // Type namespace: System.Net
-    namespace System::Net {
-      // Forward declaring type: RecognizedAttribute
-      struct RecognizedAttribute;
-    }
-    #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-    DEFINE_IL2CPP_ARG_TYPE(System::Net::CookieTokenizer::RecognizedAttribute, "System.Net", "CookieTokenizer/RecognizedAttribute");
     // Size: 0xC
     #pragma pack(push, 1)
     // WARNING Layout: Sequential may not be correctly taken into account!
@@ -251,6 +242,8 @@ namespace System::Net {
   static check_size<sizeof(CookieTokenizer), 64 + sizeof(::Il2CppString*)> __System_Net_CookieTokenizerSizeCheck;
   static_assert(sizeof(CookieTokenizer) == 0x48);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::CookieTokenizer::RecognizedAttribute, "System.Net", "CookieTokenizer/RecognizedAttribute");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::CookieTokenizer::get_EndOfCookie
 // Il2CppName: get_EndOfCookie

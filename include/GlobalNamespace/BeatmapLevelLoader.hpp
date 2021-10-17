@@ -44,8 +44,6 @@ namespace GlobalNamespace {
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::BeatmapLevelLoader);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelLoader*, "", "BeatmapLevelLoader");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelLoader::LoadBeatmapLevelResult, "", "BeatmapLevelLoader/LoadBeatmapLevelResult");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -58,13 +56,6 @@ namespace GlobalNamespace {
     struct LoadBeatmapLevelResult;
     // Nested type: GlobalNamespace::BeatmapLevelLoader::$LoadBeatmapLevelAsync$d__4
     struct $LoadBeatmapLevelAsync$d__4;
-    // Type namespace: 
-    namespace GlobalNamespace {
-      // Forward declaring type: LoadBeatmapLevelResult
-      struct LoadBeatmapLevelResult;
-    }
-    #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-    DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelLoader::LoadBeatmapLevelResult, "", "BeatmapLevelLoader/LoadBeatmapLevelResult");
     // Size: 0x10
     #pragma pack(push, 1)
     // WARNING Layout: Sequential may not be correctly taken into account!
@@ -146,6 +137,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(BeatmapLevelLoader), 24 + sizeof(GlobalNamespace::IBeatmapDataAssetFileModel*)> __GlobalNamespace_BeatmapLevelLoaderSizeCheck;
   static_assert(sizeof(BeatmapLevelLoader) == 0x20);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelLoader::LoadBeatmapLevelResult, "", "BeatmapLevelLoader/LoadBeatmapLevelResult");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelLoader::New_ctor
 // Il2CppName: .ctor

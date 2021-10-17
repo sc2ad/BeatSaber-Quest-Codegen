@@ -50,8 +50,6 @@ namespace GlobalNamespace {
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::PlayerStatisticsViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerStatisticsViewController*, "", "PlayerStatisticsViewController");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerStatisticsViewController::StatsScopeData, "", "PlayerStatisticsViewController/StatsScopeData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0xE8
@@ -62,13 +60,6 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::PlayerStatisticsViewController::StatsScopeData
     struct StatsScopeData;
-    // Type namespace: 
-    namespace GlobalNamespace {
-      // Forward declaring type: StatsScopeData
-      struct StatsScopeData;
-    }
-    #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-    DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerStatisticsViewController::StatsScopeData, "", "PlayerStatisticsViewController/StatsScopeData");
     // Size: 0x10
     #pragma pack(push, 1)
     // WARNING Layout: Sequential may not be correctly taken into account!
@@ -302,6 +293,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(PlayerStatisticsViewController), 224 + sizeof(::ArrayW<GlobalNamespace::PlayerStatisticsViewController::StatsScopeData>)> __GlobalNamespace_PlayerStatisticsViewControllerSizeCheck;
   static_assert(sizeof(PlayerStatisticsViewController) == 0xE8);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerStatisticsViewController::StatsScopeData, "", "PlayerStatisticsViewController/StatsScopeData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayerStatisticsViewController::UpdateView
 // Il2CppName: UpdateView

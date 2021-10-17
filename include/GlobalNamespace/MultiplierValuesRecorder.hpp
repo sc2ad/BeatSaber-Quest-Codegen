@@ -35,8 +35,6 @@ namespace GlobalNamespace {
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MultiplierValuesRecorder);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplierValuesRecorder*, "", "MultiplierValuesRecorder");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplierValuesRecorder::MultiplierValue, "", "MultiplierValuesRecorder/MultiplierValue");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x30
@@ -47,13 +45,6 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::MultiplierValuesRecorder::MultiplierValue
     struct MultiplierValue;
-    // Type namespace: 
-    namespace GlobalNamespace {
-      // Forward declaring type: MultiplierValue
-      struct MultiplierValue;
-    }
-    #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-    DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplierValuesRecorder::MultiplierValue, "", "MultiplierValuesRecorder/MultiplierValue");
     // Size: 0x8
     #pragma pack(push, 1)
     // WARNING Layout: Sequential may not be correctly taken into account!
@@ -160,6 +151,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplierValuesRecorder), 40 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::MultiplierValuesRecorder::MultiplierValue>*)> __GlobalNamespace_MultiplierValuesRecorderSizeCheck;
   static_assert(sizeof(MultiplierValuesRecorder) == 0x30);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplierValuesRecorder::MultiplierValue, "", "MultiplierValuesRecorder/MultiplierValue");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplierValuesRecorder::get_multiplierValues
 // Il2CppName: get_multiplierValues

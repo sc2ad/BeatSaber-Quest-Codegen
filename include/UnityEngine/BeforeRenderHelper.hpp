@@ -29,8 +29,6 @@ namespace UnityEngine {
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::BeforeRenderHelper);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::BeforeRenderHelper*, "UnityEngine", "BeforeRenderHelper");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::BeforeRenderHelper::OrderBlock, "UnityEngine", "BeforeRenderHelper/OrderBlock");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -41,13 +39,6 @@ namespace UnityEngine {
     public:
     // Nested type: UnityEngine::BeforeRenderHelper::OrderBlock
     struct OrderBlock;
-    // Type namespace: UnityEngine
-    namespace UnityEngine {
-      // Forward declaring type: OrderBlock
-      struct OrderBlock;
-    }
-    #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-    DEFINE_IL2CPP_ARG_TYPE(UnityEngine::BeforeRenderHelper::OrderBlock, "UnityEngine", "BeforeRenderHelper/OrderBlock");
     // Size: 0x10
     #pragma pack(push, 1)
     // WARNING Layout: Sequential may not be correctly taken into account!
@@ -111,6 +102,8 @@ namespace UnityEngine {
   }; // UnityEngine.BeforeRenderHelper
   #pragma pack(pop)
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::BeforeRenderHelper::OrderBlock, "UnityEngine", "BeforeRenderHelper/OrderBlock");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::BeforeRenderHelper::_cctor
 // Il2CppName: .cctor

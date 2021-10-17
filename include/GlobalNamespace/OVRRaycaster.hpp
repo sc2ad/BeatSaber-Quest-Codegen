@@ -57,8 +57,6 @@ namespace GlobalNamespace {
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::OVRRaycaster);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRRaycaster*, "", "OVRRaycaster");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRRaycaster::RaycastHit, "", "OVRRaycaster/RaycastHit");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x60
@@ -72,13 +70,6 @@ namespace GlobalNamespace {
     struct RaycastHit;
     // Nested type: GlobalNamespace::OVRRaycaster::$$c
     class $$c;
-    // Type namespace: 
-    namespace GlobalNamespace {
-      // Forward declaring type: RaycastHit
-      struct RaycastHit;
-    }
-    #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-    DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRRaycaster::RaycastHit, "", "OVRRaycaster/RaycastHit");
     // Size: 0x15
     #pragma pack(push, 1)
     // WARNING Layout: Sequential may not be correctly taken into account!
@@ -248,6 +239,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRRaycaster), 88 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::OVRRaycaster::RaycastHit>*)> __GlobalNamespace_OVRRaycasterSizeCheck;
   static_assert(sizeof(OVRRaycaster) == 0x60);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRRaycaster::RaycastHit, "", "OVRRaycaster/RaycastHit");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRRaycaster::Raycast
 // Il2CppName: Raycast

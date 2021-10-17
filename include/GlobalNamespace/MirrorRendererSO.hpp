@@ -56,8 +56,6 @@ namespace GlobalNamespace {
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MirrorRendererSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MirrorRendererSO*, "", "MirrorRendererSO");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MirrorRendererSO::CameraTransformData, "", "MirrorRendererSO/CameraTransformData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0xA0
@@ -68,13 +66,6 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::MirrorRendererSO::CameraTransformData
     struct CameraTransformData;
-    // Type namespace: 
-    namespace GlobalNamespace {
-      // Forward declaring type: CameraTransformData
-      struct CameraTransformData;
-    }
-    #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-    DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MirrorRendererSO::CameraTransformData, "", "MirrorRendererSO/CameraTransformData");
     // Size: 0x21
     #pragma pack(push, 1)
     // WARNING Layout: Sequential may not be correctly taken into account!
@@ -359,6 +350,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(MirrorRendererSO), 144 + sizeof(UnityEngine::Rect)> __GlobalNamespace_MirrorRendererSOSizeCheck;
   static_assert(sizeof(MirrorRendererSO) == 0xA0);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MirrorRendererSO::CameraTransformData, "", "MirrorRendererSO/CameraTransformData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MirrorRendererSO::OnValidate
 // Il2CppName: OnValidate

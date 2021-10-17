@@ -53,10 +53,6 @@ namespace LiteNetLib {
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(LiteNetLib::NatPunchModule);
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NatPunchModule*, "LiteNetLib", "NatPunchModule");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NatPunchModule::RequestEventData, "LiteNetLib", "NatPunchModule/RequestEventData");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NatPunchModule::SuccessEventData, "LiteNetLib", "NatPunchModule/SuccessEventData");
 // Type namespace: LiteNetLib
 namespace LiteNetLib {
   // Size: 0x48
@@ -75,13 +71,6 @@ namespace LiteNetLib {
     class NatIntroduceResponsePacket;
     // Nested type: LiteNetLib::NatPunchModule::NatPunchPacket
     class NatPunchPacket;
-    // Type namespace: LiteNetLib
-    namespace LiteNetLib {
-      // Forward declaring type: RequestEventData
-      struct RequestEventData;
-    }
-    #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-    DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NatPunchModule::RequestEventData, "LiteNetLib", "NatPunchModule/RequestEventData");
     // Size: 0x18
     #pragma pack(push, 1)
     // WARNING Layout: Sequential may not be correctly taken into account!
@@ -129,13 +118,6 @@ namespace LiteNetLib {
     #pragma pack(pop)
     static check_size<sizeof(NatPunchModule::RequestEventData), 16 + sizeof(::Il2CppString*)> __LiteNetLib_NatPunchModule_RequestEventDataSizeCheck;
     static_assert(sizeof(NatPunchModule::RequestEventData) == 0x18);
-    // Type namespace: LiteNetLib
-    namespace LiteNetLib {
-      // Forward declaring type: SuccessEventData
-      struct SuccessEventData;
-    }
-    #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-    DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NatPunchModule::SuccessEventData, "LiteNetLib", "NatPunchModule/SuccessEventData");
     // Size: 0x18
     #pragma pack(push, 1)
     // WARNING Layout: Sequential may not be correctly taken into account!
@@ -301,6 +283,10 @@ namespace LiteNetLib {
   static check_size<sizeof(NatPunchModule), 64 + sizeof(LiteNetLib::INatPunchListener*)> __LiteNetLib_NatPunchModuleSizeCheck;
   static_assert(sizeof(NatPunchModule) == 0x48);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NatPunchModule::RequestEventData, "LiteNetLib", "NatPunchModule/RequestEventData");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NatPunchModule::SuccessEventData, "LiteNetLib", "NatPunchModule/SuccessEventData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::NatPunchModule::New_ctor
 // Il2CppName: .ctor

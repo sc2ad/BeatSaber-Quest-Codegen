@@ -30,8 +30,6 @@ namespace System::Globalization {
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Globalization::TimeSpanFormat);
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::TimeSpanFormat*, "System.Globalization", "TimeSpanFormat");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Globalization::TimeSpanFormat::FormatLiterals, "System.Globalization", "TimeSpanFormat/FormatLiterals");
 // Type namespace: System.Globalization
 namespace System::Globalization {
   // Size: 0x10
@@ -44,13 +42,6 @@ namespace System::Globalization {
     struct Pattern;
     // Nested type: System::Globalization::TimeSpanFormat::FormatLiterals
     struct FormatLiterals;
-    // Type namespace: System.Globalization
-    namespace System::Globalization {
-      // Forward declaring type: FormatLiterals
-      struct FormatLiterals;
-    }
-    #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-    DEFINE_IL2CPP_ARG_TYPE(System::Globalization::TimeSpanFormat::FormatLiterals, "System.Globalization", "TimeSpanFormat/FormatLiterals");
     // Size: 0x28
     #pragma pack(push, 1)
     // WARNING Layout: Sequential may not be correctly taken into account!
@@ -182,6 +173,8 @@ namespace System::Globalization {
   }; // System.Globalization.TimeSpanFormat
   #pragma pack(pop)
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Globalization::TimeSpanFormat::FormatLiterals, "System.Globalization", "TimeSpanFormat/FormatLiterals");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Globalization::TimeSpanFormat::_cctor
 // Il2CppName: .cctor

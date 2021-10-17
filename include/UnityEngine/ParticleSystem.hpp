@@ -31,8 +31,6 @@ namespace UnityEngine {
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ParticleSystem);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem*, "UnityEngine", "ParticleSystem");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::Particle, "UnityEngine", "ParticleSystem/Particle");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18
@@ -67,13 +65,6 @@ namespace UnityEngine {
     struct MinMaxGradient;
     // Nested type: UnityEngine::ParticleSystem::EmitParams
     struct EmitParams;
-    // Type namespace: UnityEngine
-    namespace UnityEngine {
-      // Forward declaring type: Particle
-      struct Particle;
-    }
-    #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-    DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::Particle, "UnityEngine", "ParticleSystem/Particle");
     // Size: 0x84
     #pragma pack(push, 1)
     // WARNING Layout: Sequential may not be correctly taken into account!
@@ -356,6 +347,8 @@ namespace UnityEngine {
   }; // UnityEngine.ParticleSystem
   #pragma pack(pop)
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::Particle, "UnityEngine", "ParticleSystem/Particle");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::get_particleCount
 // Il2CppName: get_particleCount
