@@ -3,47 +3,47 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.ViewController
 #include "HMUI/ViewController.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
+// Forward declaring namespace: GlobalNamespace
+namespace GlobalNamespace {
+  // Forward declaring type: SafeAreaRectChecker
+  class SafeAreaRectChecker;
+}
 // Forward declaring namespace: UnityEngine::UI
 namespace UnityEngine::UI {
   // Forward declaring type: Button
   class Button;
 }
-// Forward declaring namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: GameObject
-  class GameObject;
-}
-// Forward declaring namespace: GlobalNamespace
-namespace GlobalNamespace {
-  // Forward declaring type: IAnalyticsModel
-  class IAnalyticsModel;
-  // Forward declaring type: AppStaticSettingsSO
-  class AppStaticSettingsSO;
+// Forward declaring namespace: TMPro
+namespace TMPro {
+  // Forward declaring type: TextMeshProUGUI
+  class TextMeshProUGUI;
 }
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action
   class Action;
 }
-// Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: HealthWarningViewController
-  class HealthWarningViewController;
+// Forward declaring namespace: UnityEngine
+namespace UnityEngine {
+  // Forward declaring type: Coroutine
+  class Coroutine;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::HealthWarningViewController);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HealthWarningViewController*, "", "HealthWarningViewController");
+// Forward declaring namespace: System::Collections
+namespace System::Collections {
+  // Forward declaring type: IEnumerator
+  class IEnumerator;
+}
+// Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0xB8
@@ -52,115 +52,108 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class HealthWarningViewController : public HMUI::ViewController {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
+    // Nested type: GlobalNamespace::HealthWarningViewController::$DismissHealthAndSafety$d__14
+    class $DismissHealthAndSafety$d__14;
     // private UnityEngine.UI.Button _continueButton
     // Size: 0x8
     // Offset: 0x70
     UnityEngine::UI::Button* continueButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // private UnityEngine.UI.Button _privacyPolicyButton
+    // [HeaderAttribute] Offset: 0xF455A0
+    // private SafeAreaRectChecker _safeAreaRectChecker
     // Size: 0x8
     // Offset: 0x78
-    UnityEngine::UI::Button* privacyPolicyButton;
+    GlobalNamespace::SafeAreaRectChecker* safeAreaRectChecker;
     // Field size check
-    static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // private UnityEngine.UI.Button _openDataPrivacyPageButton
-    // Size: 0x8
+    static_assert(sizeof(GlobalNamespace::SafeAreaRectChecker*) == 0x8);
+    // [HeaderAttribute] Offset: 0xF455EC
+    // private System.Single _duration
+    // Size: 0x4
     // Offset: 0x80
-    UnityEngine::UI::Button* openDataPrivacyPageButton;
+    float duration;
     // Field size check
-    static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // private UnityEngine.GameObject _privacyAgreeToPrivacyPolicyLabel
+    static_assert(sizeof(float) == 0x4);
+    // Padding between fields: duration and: healthAndSafetyTextMesh
+    char __padding2[0x4] = {};
+    // [HeaderAttribute] Offset: 0xF45638
+    // private TMPro.TextMeshProUGUI _healthAndSafetyTextMesh
     // Size: 0x8
     // Offset: 0x88
-    UnityEngine::GameObject* privacyAgreeToPrivacyPolicyLabel;
+    TMPro::TextMeshProUGUI* healthAndSafetyTextMesh;
     // Field size check
-    static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
-    // [InjectAttribute] Offset: 0xF0FD80
-    // private IAnalyticsModel _analyticsModel
+    static_assert(sizeof(TMPro::TextMeshProUGUI*) == 0x8);
+    // [LocalizationKeyAttribute] Offset: 0xF45684
+    // private System.String _healthAndSafetyFullLocalizationKey
     // Size: 0x8
     // Offset: 0x90
-    GlobalNamespace::IAnalyticsModel* analyticsModel;
+    ::Il2CppString* healthAndSafetyFullLocalizationKey;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::IAnalyticsModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xF0FD90
-    // private AppStaticSettingsSO _appStaticSettings
+    static_assert(sizeof(::Il2CppString*) == 0x8);
+    // [LocalizationKeyAttribute] Offset: 0xF456BC
+    // private System.String _healthAndSafetyShortLocalizationKey
     // Size: 0x8
     // Offset: 0x98
-    GlobalNamespace::AppStaticSettingsSO* appStaticSettings;
+    ::Il2CppString* healthAndSafetyShortLocalizationKey;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::AppStaticSettingsSO*) == 0x8);
-    // private System.Action privacyPolicyButtonPressedEvent
-    // Size: 0x8
-    // Offset: 0xA0
-    System::Action* privacyPolicyButtonPressedEvent;
-    // Field size check
-    static_assert(sizeof(System::Action*) == 0x8);
-    // private System.Action openDataPrivacyPageButtonPressedEvent
-    // Size: 0x8
-    // Offset: 0xA8
-    System::Action* openDataPrivacyPageButtonPressedEvent;
-    // Field size check
-    static_assert(sizeof(System::Action*) == 0x8);
+    static_assert(sizeof(::Il2CppString*) == 0x8);
     // private System.Action didFinishEvent
     // Size: 0x8
-    // Offset: 0xB0
+    // Offset: 0xA0
     System::Action* didFinishEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    public:
+    // private System.Boolean _showShortHealthAndSafety
+    // Size: 0x1
+    // Offset: 0xA8
+    bool showShortHealthAndSafety;
+    // Field size check
+    static_assert(sizeof(bool) == 0x1);
+    // Padding between fields: showShortHealthAndSafety and: dismissCoroutine
+    char __padding7[0x7] = {};
+    // private UnityEngine.Coroutine _dismissCoroutine
+    // Size: 0x8
+    // Offset: 0xB0
+    UnityEngine::Coroutine* dismissCoroutine;
+    // Field size check
+    static_assert(sizeof(UnityEngine::Coroutine*) == 0x8);
+    // Creating value type constructor for type: HealthWarningViewController
+    HealthWarningViewController(UnityEngine::UI::Button* continueButton_ = {}, GlobalNamespace::SafeAreaRectChecker* safeAreaRectChecker_ = {}, float duration_ = {}, TMPro::TextMeshProUGUI* healthAndSafetyTextMesh_ = {}, ::Il2CppString* healthAndSafetyFullLocalizationKey_ = {}, ::Il2CppString* healthAndSafetyShortLocalizationKey_ = {}, System::Action* didFinishEvent_ = {}, bool showShortHealthAndSafety_ = {}, UnityEngine::Coroutine* dismissCoroutine_ = {}) noexcept : continueButton{continueButton_}, safeAreaRectChecker{safeAreaRectChecker_}, duration{duration_}, healthAndSafetyTextMesh{healthAndSafetyTextMesh_}, healthAndSafetyFullLocalizationKey{healthAndSafetyFullLocalizationKey_}, healthAndSafetyShortLocalizationKey{healthAndSafetyShortLocalizationKey_}, didFinishEvent{didFinishEvent_}, showShortHealthAndSafety{showShortHealthAndSafety_}, dismissCoroutine{dismissCoroutine_} {}
     // Get instance field reference: private UnityEngine.UI.Button _continueButton
     UnityEngine::UI::Button*& dyn__continueButton();
-    // Get instance field reference: private UnityEngine.UI.Button _privacyPolicyButton
-    UnityEngine::UI::Button*& dyn__privacyPolicyButton();
-    // Get instance field reference: private UnityEngine.UI.Button _openDataPrivacyPageButton
-    UnityEngine::UI::Button*& dyn__openDataPrivacyPageButton();
-    // Get instance field reference: private UnityEngine.GameObject _privacyAgreeToPrivacyPolicyLabel
-    UnityEngine::GameObject*& dyn__privacyAgreeToPrivacyPolicyLabel();
-    // Get instance field reference: private IAnalyticsModel _analyticsModel
-    GlobalNamespace::IAnalyticsModel*& dyn__analyticsModel();
-    // Get instance field reference: private AppStaticSettingsSO _appStaticSettings
-    GlobalNamespace::AppStaticSettingsSO*& dyn__appStaticSettings();
-    // Get instance field reference: private System.Action privacyPolicyButtonPressedEvent
-    System::Action*& dyn_privacyPolicyButtonPressedEvent();
-    // Get instance field reference: private System.Action openDataPrivacyPageButtonPressedEvent
-    System::Action*& dyn_openDataPrivacyPageButtonPressedEvent();
+    // Get instance field reference: private SafeAreaRectChecker _safeAreaRectChecker
+    GlobalNamespace::SafeAreaRectChecker*& dyn__safeAreaRectChecker();
+    // Get instance field reference: private System.Single _duration
+    float& dyn__duration();
+    // Get instance field reference: private TMPro.TextMeshProUGUI _healthAndSafetyTextMesh
+    TMPro::TextMeshProUGUI*& dyn__healthAndSafetyTextMesh();
+    // Get instance field reference: private System.String _healthAndSafetyFullLocalizationKey
+    ::Il2CppString*& dyn__healthAndSafetyFullLocalizationKey();
+    // Get instance field reference: private System.String _healthAndSafetyShortLocalizationKey
+    ::Il2CppString*& dyn__healthAndSafetyShortLocalizationKey();
     // Get instance field reference: private System.Action didFinishEvent
     System::Action*& dyn_didFinishEvent();
-    // public System.Void add_privacyPolicyButtonPressedEvent(System.Action value)
-    // Offset: 0x11D89F8
-    void add_privacyPolicyButtonPressedEvent(System::Action* value);
-    // public System.Void remove_privacyPolicyButtonPressedEvent(System.Action value)
-    // Offset: 0x11D8D78
-    void remove_privacyPolicyButtonPressedEvent(System::Action* value);
-    // public System.Void add_openDataPrivacyPageButtonPressedEvent(System.Action value)
-    // Offset: 0x11D8A9C
-    void add_openDataPrivacyPageButtonPressedEvent(System::Action* value);
-    // public System.Void remove_openDataPrivacyPageButtonPressedEvent(System.Action value)
-    // Offset: 0x11D8E1C
-    void remove_openDataPrivacyPageButtonPressedEvent(System::Action* value);
+    // Get instance field reference: private System.Boolean _showShortHealthAndSafety
+    bool& dyn__showShortHealthAndSafety();
+    // Get instance field reference: private UnityEngine.Coroutine _dismissCoroutine
+    UnityEngine::Coroutine*& dyn__dismissCoroutine();
     // public System.Void add_didFinishEvent(System.Action value)
-    // Offset: 0x11D8954
+    // Offset: 0x119C7FC
     void add_didFinishEvent(System::Action* value);
     // public System.Void remove_didFinishEvent(System.Action value)
-    // Offset: 0x11D8CD4
+    // Offset: 0x119CAD4
     void remove_didFinishEvent(System::Action* value);
-    // private System.Void <DidActivate>b__15_0()
-    // Offset: 0x11D99C4
-    void $DidActivate$b__15_0();
-    // private System.Void <DidActivate>b__15_1()
-    // Offset: 0x11D99D8
-    void $DidActivate$b__15_1();
-    // private System.Void <DidActivate>b__15_2()
-    // Offset: 0x11D99EC
-    void $DidActivate$b__15_2();
+    // public System.Void Init(System.Boolean showShortHealthAndSafety)
+    // Offset: 0x119D5D0
+    void Init(bool showShortHealthAndSafety);
+    // private System.Collections.IEnumerator DismissHealthAndSafety()
+    // Offset: 0x119D48C
+    System::Collections::IEnumerator* DismissHealthAndSafety();
+    // private System.Void <DidActivate>b__11_0()
+    // Offset: 0x119D610
+    void $DidActivate$b__11_0();
     // public System.Void .ctor()
-    // Offset: 0x11D99BC
+    // Offset: 0x119D608
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -174,52 +167,22 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<HealthWarningViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x11D9728
+    // Offset: 0x119D2F8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
+    // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
+    // Offset: 0x119D4FC
+    // Implemented from: HMUI.ViewController
+    // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
+    void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
   }; // HealthWarningViewController
   #pragma pack(pop)
-  static check_size<sizeof(HealthWarningViewController), 176 + sizeof(System::Action*)> __GlobalNamespace_HealthWarningViewControllerSizeCheck;
+  static check_size<sizeof(HealthWarningViewController), 176 + sizeof(UnityEngine::Coroutine*)> __GlobalNamespace_HealthWarningViewControllerSizeCheck;
   static_assert(sizeof(HealthWarningViewController) == 0xB8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::HealthWarningViewController::add_privacyPolicyButtonPressedEvent
-// Il2CppName: add_privacyPolicyButtonPressedEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HealthWarningViewController::*)(System::Action*)>(&GlobalNamespace::HealthWarningViewController::add_privacyPolicyButtonPressedEvent)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HealthWarningViewController*), "add_privacyPolicyButtonPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::HealthWarningViewController::remove_privacyPolicyButtonPressedEvent
-// Il2CppName: remove_privacyPolicyButtonPressedEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HealthWarningViewController::*)(System::Action*)>(&GlobalNamespace::HealthWarningViewController::remove_privacyPolicyButtonPressedEvent)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HealthWarningViewController*), "remove_privacyPolicyButtonPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::HealthWarningViewController::add_openDataPrivacyPageButtonPressedEvent
-// Il2CppName: add_openDataPrivacyPageButtonPressedEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HealthWarningViewController::*)(System::Action*)>(&GlobalNamespace::HealthWarningViewController::add_openDataPrivacyPageButtonPressedEvent)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HealthWarningViewController*), "add_openDataPrivacyPageButtonPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::HealthWarningViewController::remove_openDataPrivacyPageButtonPressedEvent
-// Il2CppName: remove_openDataPrivacyPageButtonPressedEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HealthWarningViewController::*)(System::Action*)>(&GlobalNamespace::HealthWarningViewController::remove_openDataPrivacyPageButtonPressedEvent)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HealthWarningViewController*), "remove_openDataPrivacyPageButtonPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HealthWarningViewController*, "", "HealthWarningViewController");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HealthWarningViewController::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
 template<>
@@ -238,28 +201,29 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HealthWarningViewController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::HealthWarningViewController::$DidActivate$b__15_0
-// Il2CppName: <DidActivate>b__15_0
+// Writing MetadataGetter for method: GlobalNamespace::HealthWarningViewController::Init
+// Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HealthWarningViewController::*)()>(&GlobalNamespace::HealthWarningViewController::$DidActivate$b__15_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HealthWarningViewController::*)(bool)>(&GlobalNamespace::HealthWarningViewController::Init)> {
   static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HealthWarningViewController*), "<DidActivate>b__15_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    static auto* showShortHealthAndSafety = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HealthWarningViewController*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{showShortHealthAndSafety});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::HealthWarningViewController::$DidActivate$b__15_1
-// Il2CppName: <DidActivate>b__15_1
+// Writing MetadataGetter for method: GlobalNamespace::HealthWarningViewController::DismissHealthAndSafety
+// Il2CppName: DismissHealthAndSafety
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HealthWarningViewController::*)()>(&GlobalNamespace::HealthWarningViewController::$DidActivate$b__15_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::HealthWarningViewController::*)()>(&GlobalNamespace::HealthWarningViewController::DismissHealthAndSafety)> {
   static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HealthWarningViewController*), "<DidActivate>b__15_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HealthWarningViewController*), "DismissHealthAndSafety", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::HealthWarningViewController::$DidActivate$b__15_2
-// Il2CppName: <DidActivate>b__15_2
+// Writing MetadataGetter for method: GlobalNamespace::HealthWarningViewController::$DidActivate$b__11_0
+// Il2CppName: <DidActivate>b__11_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HealthWarningViewController::*)()>(&GlobalNamespace::HealthWarningViewController::$DidActivate$b__15_2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HealthWarningViewController::*)()>(&GlobalNamespace::HealthWarningViewController::$DidActivate$b__11_0)> {
   static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HealthWarningViewController*), "<DidActivate>b__15_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HealthWarningViewController*), "<DidActivate>b__11_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::HealthWarningViewController::New_ctor
@@ -275,5 +239,15 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     static auto* addedToHierarchy = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* screenSystemEnabling = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HealthWarningViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{firstActivation, addedToHierarchy, screenSystemEnabling});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::HealthWarningViewController::DidDeactivate
+// Il2CppName: DidDeactivate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HealthWarningViewController::*)(bool, bool)>(&GlobalNamespace::HealthWarningViewController::DidDeactivate)> {
+  static const MethodInfo* get() {
+    static auto* removedFromHierarchy = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* screenSystemDisabling = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HealthWarningViewController*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{removedFromHierarchy, screenSystemDisabling});
   }
 };

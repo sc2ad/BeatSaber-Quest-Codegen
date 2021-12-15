@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.StringComparer
 #include "System/StringComparer.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System
-namespace System {
-  // Forward declaring type: OrdinalComparer
-  class OrdinalComparer;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::OrdinalComparer);
-DEFINE_IL2CPP_ARG_TYPE(System::OrdinalComparer*, "System", "OrdinalComparer");
 // Type namespace: System
 namespace System {
   // Size: 0x11
@@ -28,18 +20,14 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class OrdinalComparer : public System::StringComparer {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Boolean _ignoreCase
     // Size: 0x1
     // Offset: 0x10
     bool ignoreCase;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: OrdinalComparer
+    OrdinalComparer(bool ignoreCase_ = {}) noexcept : ignoreCase{ignoreCase_} {}
     // Creating conversion operator: operator bool
     constexpr operator bool() const noexcept {
       return ignoreCase;
@@ -47,34 +35,34 @@ namespace System {
     // Get instance field reference: private System.Boolean _ignoreCase
     bool& dyn__ignoreCase();
     // System.Void .ctor(System.Boolean ignoreCase)
-    // Offset: 0x1E84768
+    // Offset: 0x1E8A1C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OrdinalComparer* New_ctor(bool ignoreCase) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::OrdinalComparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OrdinalComparer*, creationType>(ignoreCase)));
     }
     // public override System.Int32 Compare(System.String x, System.String y)
-    // Offset: 0x1E847E8
+    // Offset: 0x1E8A248
     // Implemented from: System.StringComparer
     // Base method: System.Int32 StringComparer::Compare(System.String x, System.String y)
     int Compare(::Il2CppString* x, ::Il2CppString* y);
     // public override System.Boolean Equals(System.String x, System.String y)
-    // Offset: 0x1E84840
+    // Offset: 0x1E8A2A0
     // Implemented from: System.StringComparer
     // Base method: System.Boolean StringComparer::Equals(System.String x, System.String y)
     bool Equals(::Il2CppString* x, ::Il2CppString* y);
     // public override System.Int32 GetHashCode(System.String obj)
-    // Offset: 0x1E848C0
+    // Offset: 0x1E8A320
     // Implemented from: System.StringComparer
     // Base method: System.Int32 StringComparer::GetHashCode(System.String obj)
     int GetHashCode(::Il2CppString* obj);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1E84978
+    // Offset: 0x1E8A3D8
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1E84A10
+    // Offset: 0x1E8A470
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
@@ -83,7 +71,8 @@ namespace System {
   static check_size<sizeof(OrdinalComparer), 16 + sizeof(bool)> __System_OrdinalComparerSizeCheck;
   static_assert(sizeof(OrdinalComparer) == 0x11);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::OrdinalComparer*, "System", "OrdinalComparer");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::OrdinalComparer::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ScriptableObject
 #include "UnityEngine/ScriptableObject.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: UnityEngine.TestTools
-namespace UnityEngine::TestTools {
-  // Forward declaring type: EnumerableTestState
-  class EnumerableTestState;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::TestTools::EnumerableTestState);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::EnumerableTestState*, "UnityEngine.TestTools", "EnumerableTestState");
 // Type namespace: UnityEngine.TestTools
 namespace UnityEngine::TestTools {
   // Size: 0x20
@@ -28,11 +20,6 @@ namespace UnityEngine::TestTools {
   // [TokenAttribute] Offset: FFFFFFFF
   class EnumerableTestState : public UnityEngine::ScriptableObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 Repeat
     // Size: 0x4
     // Offset: 0x18
@@ -45,7 +32,8 @@ namespace UnityEngine::TestTools {
     int Retry;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
+    // Creating value type constructor for type: EnumerableTestState
+    EnumerableTestState(int Repeat_ = {}, int Retry_ = {}) noexcept : Repeat{Repeat_}, Retry{Retry_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Int32 Repeat
@@ -53,7 +41,7 @@ namespace UnityEngine::TestTools {
     // Get instance field reference: public System.Int32 Retry
     int& dyn_Retry();
     // public System.Void .ctor()
-    // Offset: 0x1653E10
+    // Offset: 0x16CFA54
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -68,7 +56,8 @@ namespace UnityEngine::TestTools {
   static check_size<sizeof(EnumerableTestState), 28 + sizeof(int)> __UnityEngine_TestTools_EnumerableTestStateSizeCheck;
   static_assert(sizeof(EnumerableTestState) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::EnumerableTestState*, "UnityEngine.TestTools", "EnumerableTestState");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::EnumerableTestState::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

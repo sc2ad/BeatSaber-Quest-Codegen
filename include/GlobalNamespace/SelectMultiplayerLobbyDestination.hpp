@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MenuDestination
 #include "GlobalNamespace/MenuDestination.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: SelectMultiplayerLobbyDestination
-  class SelectMultiplayerLobbyDestination;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::SelectMultiplayerLobbyDestination);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectMultiplayerLobbyDestination*, "", "SelectMultiplayerLobbyDestination");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -28,11 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SelectMultiplayerLobbyDestination : public GlobalNamespace::MenuDestination {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public readonly System.String lobbySecret
     // Size: 0x8
     // Offset: 0x10
@@ -45,27 +32,28 @@ namespace GlobalNamespace {
     ::Il2CppString* lobbyCode;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: SelectMultiplayerLobbyDestination
+    SelectMultiplayerLobbyDestination(::Il2CppString* lobbySecret_ = {}, ::Il2CppString* lobbyCode_ = {}) noexcept : lobbySecret{lobbySecret_}, lobbyCode{lobbyCode_} {}
     // Get instance field reference: public readonly System.String lobbySecret
     ::Il2CppString*& dyn_lobbySecret();
     // Get instance field reference: public readonly System.String lobbyCode
     ::Il2CppString*& dyn_lobbyCode();
     // public System.Void .ctor(System.String lobbySecret, System.String lobbyCode)
-    // Offset: 0x113DDFC
+    // Offset: 0x12344AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SelectMultiplayerLobbyDestination* New_ctor(::Il2CppString* lobbySecret, ::Il2CppString* lobbyCode) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SelectMultiplayerLobbyDestination::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SelectMultiplayerLobbyDestination*, creationType>(lobbySecret, lobbyCode)));
     }
     // public System.Void .ctor(System.UInt64 roomId)
-    // Offset: 0x113DE34
+    // Offset: 0x12344E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SelectMultiplayerLobbyDestination* New_ctor(uint64_t roomId) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SelectMultiplayerLobbyDestination::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SelectMultiplayerLobbyDestination*, creationType>(roomId)));
     }
     // public System.Void .ctor(System.String lobbyCode)
-    // Offset: 0x113DEF8
+    // Offset: 0x12345A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SelectMultiplayerLobbyDestination* New_ctor(::Il2CppString* lobbyCode) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SelectMultiplayerLobbyDestination::.ctor");
@@ -76,7 +64,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(SelectMultiplayerLobbyDestination), 24 + sizeof(::Il2CppString*)> __GlobalNamespace_SelectMultiplayerLobbyDestinationSizeCheck;
   static_assert(sizeof(SelectMultiplayerLobbyDestination) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectMultiplayerLobbyDestination*, "", "SelectMultiplayerLobbyDestination");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SelectMultiplayerLobbyDestination::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

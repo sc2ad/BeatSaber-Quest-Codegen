@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: FakeMirrorSettings
-  class FakeMirrorSettings;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::FakeMirrorSettings);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FakeMirrorSettings*, "", "FakeMirrorSettings");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x38
@@ -28,18 +20,13 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class FakeMirrorSettings : public UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Single _fakeMirrorTransparency
     // Size: 0x4
     // Offset: 0x18
     float fakeMirrorTransparency;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0xEE9F9C
+    // [SpaceAttribute] Offset: 0xF2C494
     // private System.Boolean _useVertexDistortion
     // Size: 0x1
     // Offset: 0x1C
@@ -48,60 +35,61 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useVertexDistortion and: vertexDistortionNoiseScale
     char __padding1[0x3] = {};
-    // [DrawIfAttribute] Offset: 0xEE9FD8
-    // [MinAttribute] Offset: 0xEE9FD8
+    // [DrawIfAttribute] Offset: 0xF2C4D0
+    // [MinAttribute] Offset: 0xF2C4D0
     // private System.Single _vertexDistortionNoiseScale
     // Size: 0x4
     // Offset: 0x20
     float vertexDistortionNoiseScale;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [DrawIfAttribute] Offset: 0xEEB094
+    // [DrawIfAttribute] Offset: 0xF2C58C
     // private System.Single _vertexDistortionStrength
     // Size: 0x4
     // Offset: 0x24
     float vertexDistortionStrength;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [DrawIfAttribute] Offset: 0xEEB13C
+    // [DrawIfAttribute] Offset: 0xF2C634
     // private UnityEngine.Vector3 _vertexDistortionDirectionality
     // Size: 0xC
     // Offset: 0x28
     UnityEngine::Vector3 vertexDistortionDirectionality;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // [DrawIfAttribute] Offset: 0xEEB1E4
-    // [MinAttribute] Offset: 0xEEB1E4
+    // [DrawIfAttribute] Offset: 0xF2C6DC
+    // [MinAttribute] Offset: 0xF2C6DC
     // private System.Single _vertexDistortionZposMultiplier
     // Size: 0x4
     // Offset: 0x34
     float vertexDistortionZposMultiplier;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
+    // Creating value type constructor for type: FakeMirrorSettings
+    FakeMirrorSettings(float fakeMirrorTransparency_ = {}, bool useVertexDistortion_ = {}, float vertexDistortionNoiseScale_ = {}, float vertexDistortionStrength_ = {}, UnityEngine::Vector3 vertexDistortionDirectionality_ = {}, float vertexDistortionZposMultiplier_ = {}) noexcept : fakeMirrorTransparency{fakeMirrorTransparency_}, useVertexDistortion{useVertexDistortion_}, vertexDistortionNoiseScale{vertexDistortionNoiseScale_}, vertexDistortionStrength{vertexDistortionStrength_}, vertexDistortionDirectionality{vertexDistortionDirectionality_}, vertexDistortionZposMultiplier{vertexDistortionZposMultiplier_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEEB2A0
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF2C798
     // Get static field: static private readonly System.Int32 _fakeMirrorTransparencyId
     static int _get__fakeMirrorTransparencyId();
     // Set static field: static private readonly System.Int32 _fakeMirrorTransparencyId
     static void _set__fakeMirrorTransparencyId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEEB2B0
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF2C7A8
     // Get static field: static private readonly System.Int32 _vertexDistortionNoiseScaleId
     static int _get__vertexDistortionNoiseScaleId();
     // Set static field: static private readonly System.Int32 _vertexDistortionNoiseScaleId
     static void _set__vertexDistortionNoiseScaleId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEEB2C0
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF2C7B8
     // Get static field: static private readonly System.Int32 _vertexDistortionStrengthId
     static int _get__vertexDistortionStrengthId();
     // Set static field: static private readonly System.Int32 _vertexDistortionStrengthId
     static void _set__vertexDistortionStrengthId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEEB2D0
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF2C7C8
     // Get static field: static private readonly System.Int32 _vertexDistortionDirectionalityId
     static int _get__vertexDistortionDirectionalityId();
     // Set static field: static private readonly System.Int32 _vertexDistortionDirectionalityId
     static void _set__vertexDistortionDirectionalityId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEEB2E0
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF2C7D8
     // Get static field: static private readonly System.Int32 _vertexDistortionZposMultiplierId
     static int _get__vertexDistortionZposMultiplierId();
     // Set static field: static private readonly System.Int32 _vertexDistortionZposMultiplierId
@@ -119,25 +107,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _vertexDistortionZposMultiplier
     float& dyn__vertexDistortionZposMultiplier();
     // public System.Single get_fakeMirrorTransparency()
-    // Offset: 0x256C868
+    // Offset: 0x262E014
     float get_fakeMirrorTransparency();
     // public System.Void set_fakeMirrorTransparency(System.Single value)
-    // Offset: 0x256C870
+    // Offset: 0x262E01C
     void set_fakeMirrorTransparency(float value);
     // protected System.Void Start()
-    // Offset: 0x256C878
+    // Offset: 0x262E024
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x256C9F0
+    // Offset: 0x262E19C
     void OnEnable();
     // protected System.Void OnValidate()
-    // Offset: 0x256C9F4
+    // Offset: 0x262E1A0
     void OnValidate();
     // private System.Void SetGlobalParameters()
-    // Offset: 0x256C87C
+    // Offset: 0x262E028
     void SetGlobalParameters();
     // public System.Void .ctor()
-    // Offset: 0x256C9F8
+    // Offset: 0x262E1A4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -150,7 +138,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<FakeMirrorSettings*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x256CA70
+    // Offset: 0x262E21C
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
@@ -159,7 +147,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(FakeMirrorSettings), 52 + sizeof(float)> __GlobalNamespace_FakeMirrorSettingsSizeCheck;
   static_assert(sizeof(FakeMirrorSettings) == 0x38);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FakeMirrorSettings*, "", "FakeMirrorSettings");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FakeMirrorSettings::get_fakeMirrorTransparency
 // Il2CppName: get_fakeMirrorTransparency
 template<>

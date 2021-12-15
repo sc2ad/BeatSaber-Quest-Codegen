@@ -3,19 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct Il2CppString;
 // Completed il2cpp-utils forward declares
-// Type namespace: System.Xml
-namespace System::Xml {
-  // Forward declaring type: IXmlNamespaceResolver
-  class IXmlNamespaceResolver;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::IXmlNamespaceResolver);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::IXmlNamespaceResolver*, "System.Xml", "IXmlNamespaceResolver");
 // Type namespace: System.Xml
 namespace System::Xml {
   // Size: 0x10
@@ -24,6 +16,8 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class IXmlNamespaceResolver {
     public:
+    // Creating value type constructor for type: IXmlNamespaceResolver
+    IXmlNamespaceResolver() noexcept {}
     // public System.String LookupNamespace(System.String prefix)
     // Offset: 0xFFFFFFFF
     ::Il2CppString* LookupNamespace(::Il2CppString* prefix);
@@ -33,7 +27,9 @@ namespace System::Xml {
   }; // System.Xml.IXmlNamespaceResolver
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::IXmlNamespaceResolver*, "System.Xml", "IXmlNamespaceResolver");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::IXmlNamespaceResolver::LookupNamespace
 // Il2CppName: LookupNamespace
 template<>

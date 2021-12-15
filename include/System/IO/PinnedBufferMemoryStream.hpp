@@ -3,26 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IO.UnmanagedMemoryStream
 #include "System/IO/UnmanagedMemoryStream.hpp"
 // Including type: System.Runtime.InteropServices.GCHandle
 #include "System/Runtime/InteropServices/GCHandle.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.IO
-namespace System::IO {
-  // Forward declaring type: PinnedBufferMemoryStream
-  class PinnedBufferMemoryStream;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::IO::PinnedBufferMemoryStream);
-DEFINE_IL2CPP_ARG_TYPE(System::IO::PinnedBufferMemoryStream*, "System.IO", "PinnedBufferMemoryStream");
 // Type namespace: System.IO
 namespace System::IO {
   // Size: 0x74
@@ -31,42 +22,38 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   class PinnedBufferMemoryStream : public System::IO::UnmanagedMemoryStream {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Byte[] _array
     // Size: 0x8
     // Offset: 0x68
-    ::ArrayW<uint8_t> array;
+    ::Array<uint8_t>* array;
     // Field size check
-    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
+    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
     // private System.Runtime.InteropServices.GCHandle _pinningHandle
     // Size: 0x4
     // Offset: 0x70
     System::Runtime::InteropServices::GCHandle pinningHandle;
     // Field size check
     static_assert(sizeof(System::Runtime::InteropServices::GCHandle) == 0x4);
-    public:
+    // Creating value type constructor for type: PinnedBufferMemoryStream
+    PinnedBufferMemoryStream(::Array<uint8_t>* array_ = {}, System::Runtime::InteropServices::GCHandle pinningHandle_ = {}) noexcept : array{array_}, pinningHandle{pinningHandle_} {}
     // Get instance field reference: private System.Byte[] _array
-    ::ArrayW<uint8_t>& dyn__array();
+    ::Array<uint8_t>*& dyn__array();
     // Get instance field reference: private System.Runtime.InteropServices.GCHandle _pinningHandle
     System::Runtime::InteropServices::GCHandle& dyn__pinningHandle();
     // System.Void .ctor(System.Byte[] array)
-    // Offset: 0x1AA669C
+    // Offset: 0x1B07CB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PinnedBufferMemoryStream* New_ctor(::ArrayW<uint8_t> array) {
+    static PinnedBufferMemoryStream* New_ctor(::Array<uint8_t>* array) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::PinnedBufferMemoryStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PinnedBufferMemoryStream*, creationType>(array)));
     }
     // protected override System.Void Finalize()
-    // Offset: 0x1AA6780
+    // Offset: 0x1B07D98
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1AA67F8
+    // Offset: 0x1B07E10
     // Implemented from: System.IO.UnmanagedMemoryStream
     // Base method: System.Void UnmanagedMemoryStream::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
@@ -75,7 +62,8 @@ namespace System::IO {
   static check_size<sizeof(PinnedBufferMemoryStream), 112 + sizeof(System::Runtime::InteropServices::GCHandle)> __System_IO_PinnedBufferMemoryStreamSizeCheck;
   static_assert(sizeof(PinnedBufferMemoryStream) == 0x74);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::IO::PinnedBufferMemoryStream*, "System.IO", "PinnedBufferMemoryStream");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::PinnedBufferMemoryStream::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

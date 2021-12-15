@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BeatmapObjectSpawnCenter
 #include "GlobalNamespace/BeatmapObjectSpawnCenter.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: PlayerCountToDistance
-  class PlayerCountToDistance;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BeatmapObjectSpawnCenter::PlayerCountToDistance);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectSpawnCenter::PlayerCountToDistance*, "", "BeatmapObjectSpawnCenter/PlayerCountToDistance");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x18
@@ -28,11 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapObjectSpawnCenter::PlayerCountToDistance : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Int32 _playerCount
     // Size: 0x4
     // Offset: 0x10
@@ -45,19 +32,20 @@ namespace GlobalNamespace {
     float distance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
+    // Creating value type constructor for type: PlayerCountToDistance
+    PlayerCountToDistance(int playerCount_ = {}, float distance_ = {}) noexcept : playerCount{playerCount_}, distance{distance_} {}
     // Get instance field reference: private System.Int32 _playerCount
     int& dyn__playerCount();
     // Get instance field reference: private System.Single _distance
     float& dyn__distance();
     // public System.Int32 get_playerCount()
-    // Offset: 0x129DB44
+    // Offset: 0x132DDB4
     int get_playerCount();
     // public System.Single get_distance()
-    // Offset: 0x129DB4C
+    // Offset: 0x132DDBC
     float get_distance();
     // public System.Void .ctor()
-    // Offset: 0x129DB54
+    // Offset: 0x132DDC4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -70,7 +58,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(BeatmapObjectSpawnCenter::PlayerCountToDistance), 20 + sizeof(float)> __GlobalNamespace_BeatmapObjectSpawnCenter_PlayerCountToDistanceSizeCheck;
   static_assert(sizeof(BeatmapObjectSpawnCenter::PlayerCountToDistance) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectSpawnCenter::PlayerCountToDistance*, "", "BeatmapObjectSpawnCenter/PlayerCountToDistance");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnCenter::PlayerCountToDistance::get_playerCount
 // Il2CppName: get_playerCount
 template<>

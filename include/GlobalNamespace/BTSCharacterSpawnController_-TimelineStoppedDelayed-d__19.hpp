@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BTSCharacterSpawnController
 #include "GlobalNamespace/BTSCharacterSpawnController.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
 #include "System/Collections/Generic/IEnumerator_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <TimelineStoppedDelayed>d__19
-  class $TimelineStoppedDelayed$d__19;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BTSCharacterSpawnController::$TimelineStoppedDelayed$d__19);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterSpawnController::$TimelineStoppedDelayed$d__19*, "", "BTSCharacterSpawnController/<TimelineStoppedDelayed>d__19");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x28
@@ -31,11 +23,6 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class BTSCharacterSpawnController::$TimelineStoppedDelayed$d__19 : public ::Il2CppObject/*, public System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -56,7 +43,8 @@ namespace GlobalNamespace {
     GlobalNamespace::BTSCharacterSpawnController* $$4__this;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BTSCharacterSpawnController*) == 0x8);
-    public:
+    // Creating value type constructor for type: $TimelineStoppedDelayed$d__19
+    $TimelineStoppedDelayed$d__19(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, GlobalNamespace::BTSCharacterSpawnController* $$4__this_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$4__this{$$4__this_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
@@ -68,33 +56,34 @@ namespace GlobalNamespace {
     // Get instance field reference: public BTSCharacterSpawnController <>4__this
     GlobalNamespace::BTSCharacterSpawnController*& dyn_$$4__this();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x26265AC
+    // Offset: 0x12BF81C
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x2626614
+    // Offset: 0x12BF884
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x26264A8
+    // Offset: 0x12BF718
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BTSCharacterSpawnController::$TimelineStoppedDelayed$d__19* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BTSCharacterSpawnController::$TimelineStoppedDelayed$d__19::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BTSCharacterSpawnController::$TimelineStoppedDelayed$d__19*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x26264DC
+    // Offset: 0x12BF74C
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x26264E0
+    // Offset: 0x12BF750
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x26265B4
+    // Offset: 0x12BF824
     void System_Collections_IEnumerator_Reset();
   }; // BTSCharacterSpawnController/<TimelineStoppedDelayed>d__19
   #pragma pack(pop)
   static check_size<sizeof(BTSCharacterSpawnController::$TimelineStoppedDelayed$d__19), 32 + sizeof(GlobalNamespace::BTSCharacterSpawnController*)> __GlobalNamespace_BTSCharacterSpawnController_$TimelineStoppedDelayed$d__19SizeCheck;
   static_assert(sizeof(BTSCharacterSpawnController::$TimelineStoppedDelayed$d__19) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterSpawnController::$TimelineStoppedDelayed$d__19*, "", "BTSCharacterSpawnController/<TimelineStoppedDelayed>d__19");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacterSpawnController::$TimelineStoppedDelayed$d__19::System_Collections_Generic_IEnumerator$System_Object$_get_Current
 // Il2CppName: System.Collections.Generic.IEnumerator<System.Object>.get_Current
 template<>

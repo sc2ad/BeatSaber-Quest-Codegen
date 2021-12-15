@@ -3,19 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct Il2CppObject;
 // Completed il2cpp-utils forward declares
-// Type namespace: System.Runtime.Serialization
-namespace System::Runtime::Serialization {
-  // Forward declaring type: ISafeSerializationData
-  class ISafeSerializationData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Serialization::ISafeSerializationData);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::ISafeSerializationData*, "System.Runtime.Serialization", "ISafeSerializationData");
 // Type namespace: System.Runtime.Serialization
 namespace System::Runtime::Serialization {
   // Size: 0x10
@@ -24,13 +16,17 @@ namespace System::Runtime::Serialization {
   // [TokenAttribute] Offset: FFFFFFFF
   class ISafeSerializationData {
     public:
+    // Creating value type constructor for type: ISafeSerializationData
+    ISafeSerializationData() noexcept {}
     // public System.Void CompleteDeserialization(System.Object deserialized)
     // Offset: 0xFFFFFFFF
     void CompleteDeserialization(::Il2CppObject* deserialized);
   }; // System.Runtime.Serialization.ISafeSerializationData
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::ISafeSerializationData*, "System.Runtime.Serialization", "ISafeSerializationData");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::ISafeSerializationData::CompleteDeserialization
 // Il2CppName: CompleteDeserialization
 template<>

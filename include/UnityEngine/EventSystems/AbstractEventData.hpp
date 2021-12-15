@@ -3,21 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: UnityEngine.EventSystems
-namespace UnityEngine::EventSystems {
-  // Forward declaring type: AbstractEventData
-  class AbstractEventData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::EventSystems::AbstractEventData);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::AbstractEventData*, "UnityEngine.EventSystems", "AbstractEventData");
 // Type namespace: UnityEngine.EventSystems
 namespace UnityEngine::EventSystems {
   // Size: 0x11
@@ -26,18 +18,14 @@ namespace UnityEngine::EventSystems {
   // [TokenAttribute] Offset: FFFFFFFF
   class AbstractEventData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // protected System.Boolean m_Used
     // Size: 0x1
     // Offset: 0x10
     bool m_Used;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: AbstractEventData
+    AbstractEventData(bool m_Used_ = {}) noexcept : m_Used{m_Used_} {}
     // Creating conversion operator: operator bool
     constexpr operator bool() const noexcept {
       return m_Used;
@@ -45,16 +33,16 @@ namespace UnityEngine::EventSystems {
     // Get instance field reference: protected System.Boolean m_Used
     bool& dyn_m_Used();
     // public System.Boolean get_used()
-    // Offset: 0x15D1BCC
+    // Offset: 0x1660EC0
     bool get_used();
     // public System.Void Reset()
-    // Offset: 0x15D1BB8
+    // Offset: 0x1660EAC
     void Reset();
     // public System.Void Use()
-    // Offset: 0x15D1BC0
+    // Offset: 0x1660EB4
     void Use();
     // protected System.Void .ctor()
-    // Offset: 0x15D1BD4
+    // Offset: 0x1660EC8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -67,7 +55,8 @@ namespace UnityEngine::EventSystems {
   static check_size<sizeof(AbstractEventData), 16 + sizeof(bool)> __UnityEngine_EventSystems_AbstractEventDataSizeCheck;
   static_assert(sizeof(AbstractEventData) == 0x11);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::AbstractEventData*, "UnityEngine.EventSystems", "AbstractEventData");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::EventSystems::AbstractEventData::get_used
 // Il2CppName: get_used
 template<>

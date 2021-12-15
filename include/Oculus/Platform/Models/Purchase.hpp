@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.DateTime
 #include "System/DateTime.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Oculus.Platform.Models
-namespace Oculus::Platform::Models {
-  // Forward declaring type: Purchase
-  class Purchase;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Models::Purchase);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::Purchase*, "Oculus.Platform.Models", "Purchase");
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
   // Size: 0x30
@@ -30,11 +22,6 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class Purchase : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public readonly System.DateTime ExpirationTime
     // Size: 0x8
     // Offset: 0x10
@@ -59,7 +46,8 @@ namespace Oculus::Platform::Models {
     ::Il2CppString* Sku;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: Purchase
+    Purchase(System::DateTime ExpirationTime_ = {}, System::DateTime GrantTime_ = {}, ::Il2CppString* _ID_ = {}, ::Il2CppString* Sku_ = {}) noexcept : ExpirationTime{ExpirationTime_}, GrantTime{GrantTime_}, _ID{_ID_}, Sku{Sku_} {}
     // Get instance field reference: public readonly System.DateTime ExpirationTime
     System::DateTime& dyn_ExpirationTime();
     // Get instance field reference: public readonly System.DateTime GrantTime
@@ -69,7 +57,7 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly System.String Sku
     ::Il2CppString*& dyn_Sku();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x16A15CC
+    // Offset: 0x175E9E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Purchase* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::Purchase::.ctor");
@@ -80,7 +68,8 @@ namespace Oculus::Platform::Models {
   static check_size<sizeof(Purchase), 40 + sizeof(::Il2CppString*)> __Oculus_Platform_Models_PurchaseSizeCheck;
   static_assert(sizeof(Purchase) == 0x30);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::Purchase*, "Oculus.Platform.Models", "Purchase");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::Purchase::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Mono::Unity
@@ -16,14 +16,6 @@ namespace System {
   struct IntPtr;
 }
 // Completed forward declares
-// Type namespace: Mono.Unity
-namespace Mono::Unity {
-  // Forward declaring type: UnityTls
-  class UnityTls;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Unity::UnityTls);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTls*, "Mono.Unity", "UnityTls");
 // Type namespace: Mono.Unity
 namespace Mono::Unity {
   // Size: 0x10
@@ -74,23 +66,27 @@ namespace Mono::Unity {
     struct unitytls_tlsctx_callbacks;
     // Nested type: Mono::Unity::UnityTls::unitytls_interface_struct
     class unitytls_interface_struct;
+    // Creating value type constructor for type: UnityTls
+    UnityTls() noexcept {}
     // Get static field: static private Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct marshalledInterface
     static Mono::Unity::UnityTls::unitytls_interface_struct* _get_marshalledInterface();
     // Set static field: static private Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct marshalledInterface
     static void _set_marshalledInterface(Mono::Unity::UnityTls::unitytls_interface_struct* value);
     // static public System.Boolean get_IsSupported()
-    // Offset: 0x17A4EE4
+    // Offset: 0x18347F8
     static bool get_IsSupported();
     // static public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct get_NativeInterface()
-    // Offset: 0x17A5E24
+    // Offset: 0x1835738
     static Mono::Unity::UnityTls::unitytls_interface_struct* get_NativeInterface();
     // static private System.IntPtr GetUnityTlsInterface()
-    // Offset: 0x17A6AD0
+    // Offset: 0x18363E4
     static System::IntPtr GetUnityTlsInterface();
   }; // Mono.Unity.UnityTls
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTls*, "Mono.Unity", "UnityTls");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Unity::UnityTls::get_IsSupported
 // Il2CppName: get_IsSupported
 template<>

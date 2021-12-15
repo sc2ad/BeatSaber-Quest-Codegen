@@ -3,18 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: Tweening
-namespace Tweening {
-  // Forward declaring type: EaseType
-  struct EaseType;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Tweening::EaseType, "Tweening", "EaseType");
 // Type namespace: Tweening
 namespace Tweening {
   // Size: 0x4
@@ -23,18 +16,12 @@ namespace Tweening {
   // [TokenAttribute] Offset: FFFFFFFF
   struct EaseType/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: EaseType
     constexpr EaseType(int value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -244,4 +231,6 @@ namespace Tweening {
   static check_size<sizeof(EaseType), 0 + sizeof(int)> __Tweening_EaseTypeSizeCheck;
   static_assert(sizeof(EaseType) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Tweening::EaseType, "Tweening", "EaseType");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

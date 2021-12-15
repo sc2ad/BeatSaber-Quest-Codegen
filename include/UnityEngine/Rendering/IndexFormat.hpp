@@ -3,18 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: UnityEngine.Rendering
-namespace UnityEngine::Rendering {
-  // Forward declaring type: IndexFormat
-  struct IndexFormat;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::IndexFormat, "UnityEngine.Rendering", "IndexFormat");
 // Type namespace: UnityEngine.Rendering
 namespace UnityEngine::Rendering {
   // Size: 0x4
@@ -23,18 +16,12 @@ namespace UnityEngine::Rendering {
   // [TokenAttribute] Offset: FFFFFFFF
   struct IndexFormat/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: IndexFormat
     constexpr IndexFormat(int value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -64,4 +51,6 @@ namespace UnityEngine::Rendering {
   static check_size<sizeof(IndexFormat), 0 + sizeof(int)> __UnityEngine_Rendering_IndexFormatSizeCheck;
   static_assert(sizeof(IndexFormat) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::IndexFormat, "UnityEngine.Rendering", "IndexFormat");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

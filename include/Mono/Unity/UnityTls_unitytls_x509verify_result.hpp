@@ -3,20 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Mono.Unity.UnityTls
 #include "Mono/Unity/UnityTls.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: Mono.Unity
-namespace Mono::Unity {
-  // Forward declaring type: unitytls_x509verify_result
-  struct unitytls_x509verify_result;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTls::unitytls_x509verify_result, "Mono.Unity", "UnityTls/unitytls_x509verify_result");
 // Type namespace: Mono.Unity
 namespace Mono::Unity {
   // Size: 0x4
@@ -26,18 +19,12 @@ namespace Mono::Unity {
   // [FlagsAttribute] Offset: FFFFFFFF
   struct UnityTls::unitytls_x509verify_result/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.UInt32 value__
     // Size: 0x4
     // Offset: 0x0
     uint value;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
-    public:
     // Creating value type constructor for type: unitytls_x509verify_result
     constexpr unitytls_x509verify_result(uint value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -151,4 +138,6 @@ namespace Mono::Unity {
   static check_size<sizeof(UnityTls::unitytls_x509verify_result), 0 + sizeof(uint)> __Mono_Unity_UnityTls_unitytls_x509verify_resultSizeCheck;
   static_assert(sizeof(UnityTls::unitytls_x509verify_result) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTls::unitytls_x509verify_result, "Mono.Unity", "UnityTls/unitytls_x509verify_result");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

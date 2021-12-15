@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IEquatable`1
 #include "System/IEquatable_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: HMAutoincrementedRequestId
-  class HMAutoincrementedRequestId;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::HMAutoincrementedRequestId);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HMAutoincrementedRequestId*, "", "HMAutoincrementedRequestId");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x18
@@ -28,18 +20,14 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class HMAutoincrementedRequestId : public ::Il2CppObject/*, public System::IEquatable_1<GlobalNamespace::HMAutoincrementedRequestId*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private readonly System.UInt64 _requestId
     // Size: 0x8
     // Offset: 0x10
     uint64_t requestId;
     // Field size check
     static_assert(sizeof(uint64_t) == 0x8);
-    public:
+    // Creating value type constructor for type: HMAutoincrementedRequestId
+    HMAutoincrementedRequestId(uint64_t requestId_ = {}) noexcept : requestId{requestId_} {}
     // Creating interface conversion operator: operator System::IEquatable_1<GlobalNamespace::HMAutoincrementedRequestId*>
     operator System::IEquatable_1<GlobalNamespace::HMAutoincrementedRequestId*>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<GlobalNamespace::HMAutoincrementedRequestId*>*>(this);
@@ -55,16 +43,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.UInt64 _requestId
     uint64_t& dyn__requestId();
     // public System.UInt64 get_RequestId()
-    // Offset: 0x1369C40
+    // Offset: 0x139A834
     uint64_t get_RequestId();
     // static private System.Void .cctor()
-    // Offset: 0x1369D58
+    // Offset: 0x139A94C
     static void _cctor();
     // public System.Boolean Equals(HMAutoincrementedRequestId obj)
-    // Offset: 0x1369C48
+    // Offset: 0x139A83C
     bool Equals(GlobalNamespace::HMAutoincrementedRequestId* obj);
     // public System.Void .ctor()
-    // Offset: 0x1369B74
+    // Offset: 0x139A768
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -73,12 +61,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<HMAutoincrementedRequestId*, creationType>()));
     }
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1369C68
+    // Offset: 0x139A85C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1369D30
+    // Offset: 0x139A924
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
@@ -87,7 +75,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(HMAutoincrementedRequestId), 16 + sizeof(uint64_t)> __GlobalNamespace_HMAutoincrementedRequestIdSizeCheck;
   static_assert(sizeof(HMAutoincrementedRequestId) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HMAutoincrementedRequestId*, "", "HMAutoincrementedRequestId");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HMAutoincrementedRequestId::get_RequestId
 // Il2CppName: get_RequestId
 template<>

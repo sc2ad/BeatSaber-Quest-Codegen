@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Single
 #include "System/Single.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: PracticeSettings
-  class PracticeSettings;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::PracticeSettings);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PracticeSettings*, "", "PracticeSettings");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x19
@@ -28,11 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PracticeSettings : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Single _startSongTime
     // Size: 0x4
     // Offset: 0x10
@@ -51,7 +38,8 @@ namespace GlobalNamespace {
     bool startInAdvanceAndClearNotes;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: PracticeSettings
+    PracticeSettings(float startSongTime_ = {}, float songSpeedMul_ = {}, bool startInAdvanceAndClearNotes_ = {}) noexcept : startSongTime{startSongTime_}, songSpeedMul{songSpeedMul_}, startInAdvanceAndClearNotes{startInAdvanceAndClearNotes_} {}
     // static field const value: static public System.Single kDelayBeforeStart
     static constexpr const float kDelayBeforeStart = 1;
     // Get static field: static public System.Single kDelayBeforeStart
@@ -65,45 +53,45 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _startInAdvanceAndClearNotes
     bool& dyn__startInAdvanceAndClearNotes();
     // public System.Single get_startSongTime()
-    // Offset: 0x118F63C
+    // Offset: 0x11AF60C
     float get_startSongTime();
     // public System.Void set_startSongTime(System.Single value)
-    // Offset: 0x118F644
+    // Offset: 0x11AF614
     void set_startSongTime(float value);
     // public System.Single get_songSpeedMul()
-    // Offset: 0x118F64C
+    // Offset: 0x11AF61C
     float get_songSpeedMul();
     // public System.Void set_songSpeedMul(System.Single value)
-    // Offset: 0x118F654
+    // Offset: 0x11AF624
     void set_songSpeedMul(float value);
     // public System.Boolean get_startInAdvanceAndClearNotes()
-    // Offset: 0x118F65C
+    // Offset: 0x11AF62C
     bool get_startInAdvanceAndClearNotes();
     // public System.Void set_startInAdvanceAndClearNotes(System.Boolean value)
-    // Offset: 0x118F664
+    // Offset: 0x11AF634
     void set_startInAdvanceAndClearNotes(bool value);
     // static public PracticeSettings get_defaultPracticeSettings()
-    // Offset: 0x118F670
+    // Offset: 0x11AF640
     static GlobalNamespace::PracticeSettings* get_defaultPracticeSettings();
     // public System.Void .ctor(PracticeSettings practiceSettings)
-    // Offset: 0x118F738
+    // Offset: 0x11AF708
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PracticeSettings* New_ctor(GlobalNamespace::PracticeSettings* practiceSettings) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PracticeSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PracticeSettings*, creationType>(practiceSettings)));
     }
     // public System.Void .ctor(System.Single startSongTime, System.Single songSpeedMul)
-    // Offset: 0x118F78C
+    // Offset: 0x11AF75C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PracticeSettings* New_ctor(float startSongTime, float songSpeedMul) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PracticeSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PracticeSettings*, creationType>(startSongTime, songSpeedMul)));
     }
     // public System.Void ResetToDefault()
-    // Offset: 0x118F720
+    // Offset: 0x11AF6F0
     void ResetToDefault();
     // public System.Void .ctor()
-    // Offset: 0x118F6E4
+    // Offset: 0x11AF6B4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -116,7 +104,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(PracticeSettings), 24 + sizeof(bool)> __GlobalNamespace_PracticeSettingsSizeCheck;
   static_assert(sizeof(PracticeSettings) == 0x19);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PracticeSettings*, "", "PracticeSettings");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PracticeSettings::get_startSongTime
 // Il2CppName: get_startSongTime
 template<>

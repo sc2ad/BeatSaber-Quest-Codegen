@@ -3,21 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: FileBrowserItem
-  class FileBrowserItem;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::FileBrowserItem);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FileBrowserItem*, "", "FileBrowserItem");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x21
@@ -26,11 +18,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class FileBrowserItem : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.String <displayName>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -49,7 +36,8 @@ namespace GlobalNamespace {
     bool isDirectory;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: FileBrowserItem
+    FileBrowserItem(::Il2CppString* displayName_ = {}, ::Il2CppString* fullPath_ = {}, bool isDirectory_ = {}) noexcept : displayName{displayName_}, fullPath{fullPath_}, isDirectory{isDirectory_} {}
     // Get instance field reference: private System.String <displayName>k__BackingField
     ::Il2CppString*& dyn_$displayName$k__BackingField();
     // Get instance field reference: private System.String <fullPath>k__BackingField
@@ -57,25 +45,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean <isDirectory>k__BackingField
     bool& dyn_$isDirectory$k__BackingField();
     // public System.String get_displayName()
-    // Offset: 0x116FA10
+    // Offset: 0x11E2548
     ::Il2CppString* get_displayName();
     // private System.Void set_displayName(System.String value)
-    // Offset: 0x116FA18
+    // Offset: 0x11E2550
     void set_displayName(::Il2CppString* value);
     // public System.String get_fullPath()
-    // Offset: 0x116FA20
+    // Offset: 0x11E2558
     ::Il2CppString* get_fullPath();
     // private System.Void set_fullPath(System.String value)
-    // Offset: 0x116FA28
+    // Offset: 0x11E2560
     void set_fullPath(::Il2CppString* value);
     // public System.Boolean get_isDirectory()
-    // Offset: 0x116FA30
+    // Offset: 0x11E2568
     bool get_isDirectory();
     // private System.Void set_isDirectory(System.Boolean value)
-    // Offset: 0x116FA38
+    // Offset: 0x11E2570
     void set_isDirectory(bool value);
     // public System.Void .ctor(System.String displayName, System.String fullPath, System.Boolean isDirectory)
-    // Offset: 0x116FA44
+    // Offset: 0x11E257C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileBrowserItem* New_ctor(::Il2CppString* displayName, ::Il2CppString* fullPath, bool isDirectory) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::FileBrowserItem::.ctor");
@@ -86,7 +74,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(FileBrowserItem), 32 + sizeof(bool)> __GlobalNamespace_FileBrowserItemSizeCheck;
   static_assert(sizeof(FileBrowserItem) == 0x21);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FileBrowserItem*, "", "FileBrowserItem");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FileBrowserItem::get_displayName
 // Il2CppName: get_displayName
 template<>

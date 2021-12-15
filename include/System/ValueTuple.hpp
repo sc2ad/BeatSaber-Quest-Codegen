@@ -3,7 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.IEquatable`1
@@ -30,13 +30,6 @@ namespace System::Collections {
 struct Il2CppObject;
 struct Il2CppString;
 // Completed il2cpp-utils forward declares
-// Type namespace: System
-namespace System {
-  // Forward declaring type: ValueTuple
-  struct ValueTuple;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::ValueTuple, "System", "ValueTuple");
 // Type namespace: System
 namespace System {
   // Size: 0x0
@@ -73,45 +66,47 @@ namespace System {
       return *reinterpret_cast<System::IComparable*>(this);
     }
     // public System.Boolean Equals(System.ValueTuple other)
-    // Offset: 0x251C97C
+    // Offset: 0x25D4AEC
     bool Equals(System::ValueTuple other);
     // private System.Boolean System.Collections.IStructuralEquatable.Equals(System.Object other, System.Collections.IEqualityComparer comparer)
-    // Offset: 0x251C984
+    // Offset: 0x25D4AF4
     bool System_Collections_IStructuralEquatable_Equals(::Il2CppObject* other, System::Collections::IEqualityComparer* comparer);
     // private System.Int32 System.IComparable.CompareTo(System.Object other)
-    // Offset: 0x251C9E8
+    // Offset: 0x25D4B58
     int System_IComparable_CompareTo(::Il2CppObject* other);
     // public System.Int32 CompareTo(System.ValueTuple other)
-    // Offset: 0x251CAFC
+    // Offset: 0x25D4C6C
     int CompareTo(System::ValueTuple other);
     // private System.Int32 System.Collections.IStructuralComparable.CompareTo(System.Object other, System.Collections.IComparer comparer)
-    // Offset: 0x251CB04
+    // Offset: 0x25D4C74
     int System_Collections_IStructuralComparable_CompareTo(::Il2CppObject* other, System::Collections::IComparer* comparer);
     // private System.Int32 System.Collections.IStructuralEquatable.GetHashCode(System.Collections.IEqualityComparer comparer)
-    // Offset: 0x251CC20
+    // Offset: 0x25D4D90
     int System_Collections_IStructuralEquatable_GetHashCode(System::Collections::IEqualityComparer* comparer);
     // static System.Int32 CombineHashCodes(System.Int32 h1, System.Int32 h2)
-    // Offset: 0x251CC70
+    // Offset: 0x25D4DE0
     static int CombineHashCodes(int h1, int h2);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x251C918
+    // Offset: 0x25D4A88
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x251CC18
+    // Offset: 0x25D4D88
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x251CC28
+    // Offset: 0x25D4D98
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
   }; // System.ValueTuple
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::ValueTuple, "System", "ValueTuple");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ValueTuple::Equals
 // Il2CppName: Equals
 template<>

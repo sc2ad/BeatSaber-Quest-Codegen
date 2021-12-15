@@ -3,22 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Security.Util
-namespace System::Security::Util {
-  // Forward declaring type: TokenizerStringBlock
-  class TokenizerStringBlock;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Security::Util::TokenizerStringBlock);
-DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::TokenizerStringBlock*, "System.Security.Util", "TokenizerStringBlock");
 // Type namespace: System.Security.Util
 namespace System::Security::Util {
   // Size: 0x20
@@ -27,30 +18,26 @@ namespace System::Security::Util {
   // [TokenAttribute] Offset: FFFFFFFF
   class TokenizerStringBlock : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // System.String[] m_block
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<::Il2CppString*> m_block;
+    ::Array<::Il2CppString*>* m_block;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
     // System.Security.Util.TokenizerStringBlock m_next
     // Size: 0x8
     // Offset: 0x18
     System::Security::Util::TokenizerStringBlock* m_next;
     // Field size check
     static_assert(sizeof(System::Security::Util::TokenizerStringBlock*) == 0x8);
-    public:
+    // Creating value type constructor for type: TokenizerStringBlock
+    TokenizerStringBlock(::Array<::Il2CppString*>* m_block_ = {}, System::Security::Util::TokenizerStringBlock* m_next_ = {}) noexcept : m_block{m_block_}, m_next{m_next_} {}
     // Get instance field reference: System.String[] m_block
-    ::ArrayW<::Il2CppString*>& dyn_m_block();
+    ::Array<::Il2CppString*>*& dyn_m_block();
     // Get instance field reference: System.Security.Util.TokenizerStringBlock m_next
     System::Security::Util::TokenizerStringBlock*& dyn_m_next();
     // public System.Void .ctor()
-    // Offset: 0x1DCD72C
+    // Offset: 0x1DD7A9C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -63,7 +50,8 @@ namespace System::Security::Util {
   static check_size<sizeof(TokenizerStringBlock), 24 + sizeof(System::Security::Util::TokenizerStringBlock*)> __System_Security_Util_TokenizerStringBlockSizeCheck;
   static_assert(sizeof(TokenizerStringBlock) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::TokenizerStringBlock*, "System.Security.Util", "TokenizerStringBlock");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Util::TokenizerStringBlock::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

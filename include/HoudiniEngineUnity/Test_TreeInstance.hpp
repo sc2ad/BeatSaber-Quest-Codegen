@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HoudiniEngineUnity.IEquivable`1
 #include "HoudiniEngineUnity/IEquivable_1.hpp"
 // Including type: UnityEngine.TreeInstance
 #include "UnityEngine/TreeInstance.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: HoudiniEngineUnity
-namespace HoudiniEngineUnity {
-  // Forward declaring type: Test_TreeInstance
-  class Test_TreeInstance;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::Test_TreeInstance);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::Test_TreeInstance*, "HoudiniEngineUnity", "Test_TreeInstance");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x38
@@ -30,18 +22,14 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class Test_TreeInstance : public ::Il2CppObject/*, public HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::Test_TreeInstance*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public UnityEngine.TreeInstance self
     // Size: 0x28
     // Offset: 0x10
     UnityEngine::TreeInstance self;
     // Field size check
     static_assert(sizeof(UnityEngine::TreeInstance) == 0x28);
-    public:
+    // Creating value type constructor for type: Test_TreeInstance
+    Test_TreeInstance(UnityEngine::TreeInstance self_ = {}) noexcept : self{self_} {}
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::Test_TreeInstance*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::Test_TreeInstance*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::Test_TreeInstance*>*>(this);
@@ -53,21 +41,22 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public UnityEngine.TreeInstance self
     UnityEngine::TreeInstance& dyn_self();
     // public System.Void .ctor(UnityEngine.TreeInstance self)
-    // Offset: 0x25BAD74
+    // Offset: 0x267D3C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test_TreeInstance* New_ctor(UnityEngine::TreeInstance self) {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::Test_TreeInstance::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test_TreeInstance*, creationType>(self)));
     }
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.Test_TreeInstance other)
-    // Offset: 0x25BADAC
+    // Offset: 0x267D400
     bool IsEquivalentTo(HoudiniEngineUnity::Test_TreeInstance* other);
   }; // HoudiniEngineUnity.Test_TreeInstance
   #pragma pack(pop)
   static check_size<sizeof(Test_TreeInstance), 16 + sizeof(UnityEngine::TreeInstance)> __HoudiniEngineUnity_Test_TreeInstanceSizeCheck;
   static_assert(sizeof(Test_TreeInstance) == 0x38);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::Test_TreeInstance*, "HoudiniEngineUnity", "Test_TreeInstance");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::Test_TreeInstance::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

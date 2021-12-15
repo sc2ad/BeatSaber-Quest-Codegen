@@ -3,16 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: UnityEngine.Timeline
-namespace UnityEngine::Timeline {
-  // Forward declaring type: ITimeControl
-  class ITimeControl;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Timeline::ITimeControl);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ITimeControl*, "UnityEngine.Timeline", "ITimeControl");
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {
   // Size: 0x10
@@ -21,6 +13,8 @@ namespace UnityEngine::Timeline {
   // [TokenAttribute] Offset: FFFFFFFF
   class ITimeControl {
     public:
+    // Creating value type constructor for type: ITimeControl
+    ITimeControl() noexcept {}
     // public System.Void SetTime(System.Double time)
     // Offset: 0xFFFFFFFF
     void SetTime(double time);
@@ -33,7 +27,9 @@ namespace UnityEngine::Timeline {
   }; // UnityEngine.Timeline.ITimeControl
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ITimeControl*, "UnityEngine.Timeline", "ITimeControl");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::ITimeControl::SetTime
 // Il2CppName: SetTime
 template<>

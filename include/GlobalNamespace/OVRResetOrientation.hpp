@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: OVRInput/RawButton
 #include "GlobalNamespace/OVRInput_RawButton.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: OVRResetOrientation
-  class OVRResetOrientation;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRResetOrientation);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRResetOrientation*, "", "OVRResetOrientation");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x1C
@@ -30,27 +22,23 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRResetOrientation : public UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public OVRInput/RawButton resetButton
     // Size: 0x4
     // Offset: 0x18
     GlobalNamespace::OVRInput::RawButton resetButton;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRInput::RawButton) == 0x4);
-    public:
+    // Creating value type constructor for type: OVRResetOrientation
+    OVRResetOrientation(GlobalNamespace::OVRInput::RawButton resetButton_ = {}) noexcept : resetButton{resetButton_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public OVRInput/RawButton resetButton
     GlobalNamespace::OVRInput::RawButton& dyn_resetButton();
     // private System.Void Update()
-    // Offset: 0x17EF4CC
+    // Offset: 0x187DDE0
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x17EF5C4
+    // Offset: 0x187DED8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -67,7 +55,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRResetOrientation), 24 + sizeof(GlobalNamespace::OVRInput::RawButton)> __GlobalNamespace_OVRResetOrientationSizeCheck;
   static_assert(sizeof(OVRResetOrientation) == 0x1C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRResetOrientation*, "", "OVRResetOrientation");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRResetOrientation::Update
 // Il2CppName: Update
 template<>

@@ -4,17 +4,10 @@
 #pragma once
 // Begin includes
 #include <stdint.h>
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-// Type namespace: UnityEngine.ResourceManagement.AsyncOperations
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-  // Forward declaring type: DownloadStatus
-  struct DownloadStatus;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus, "UnityEngine.ResourceManagement.AsyncOperations", "DownloadStatus");
 // Type namespace: UnityEngine.ResourceManagement.AsyncOperations
 namespace UnityEngine::ResourceManagement::AsyncOperations {
   // Size: 0x11
@@ -24,11 +17,6 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
   // [TokenAttribute] Offset: FFFFFFFF
   struct DownloadStatus/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int64 TotalBytes
     // Size: 0x8
     // Offset: 0x0
@@ -47,7 +35,6 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     bool IsDone;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
     // Creating value type constructor for type: DownloadStatus
     constexpr DownloadStatus(int64_t TotalBytes_ = {}, int64_t DownloadedBytes_ = {}, bool IsDone_ = {}) noexcept : TotalBytes{TotalBytes_}, DownloadedBytes{DownloadedBytes_}, IsDone{IsDone_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -61,14 +48,16 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     // Get instance field reference: public System.Boolean IsDone
     bool& dyn_IsDone();
     // public System.Single get_Percent()
-    // Offset: 0x1B43598
+    // Offset: 0x1BE3318
     float get_Percent();
   }; // UnityEngine.ResourceManagement.AsyncOperations.DownloadStatus
   #pragma pack(pop)
   static check_size<sizeof(DownloadStatus), 16 + sizeof(bool)> __UnityEngine_ResourceManagement_AsyncOperations_DownloadStatusSizeCheck;
   static_assert(sizeof(DownloadStatus) == 0x11);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus, "UnityEngine.ResourceManagement.AsyncOperations", "DownloadStatus");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus::get_Percent
 // Il2CppName: get_Percent
 template<>

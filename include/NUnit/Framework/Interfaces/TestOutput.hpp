@@ -3,21 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: NUnit.Framework.Interfaces
-namespace NUnit::Framework::Interfaces {
-  // Forward declaring type: TestOutput
-  class TestOutput;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(NUnit::Framework::Interfaces::TestOutput);
-DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::TestOutput*, "NUnit.Framework.Interfaces", "TestOutput");
 // Type namespace: NUnit.Framework.Interfaces
 namespace NUnit::Framework::Interfaces {
   // Size: 0x28
@@ -26,33 +18,29 @@ namespace NUnit::Framework::Interfaces {
   // [TokenAttribute] Offset: FFFFFFFF
   class TestOutput : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
-    // [DebuggerBrowsableAttribute] Offset: 0xEEF3F4
+    // [DebuggerBrowsableAttribute] Offset: 0xF30258
     // private System.String <Text>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppString* Text;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xEEF430
+    // [DebuggerBrowsableAttribute] Offset: 0xF30294
     // private System.String <Stream>k__BackingField
     // Size: 0x8
     // Offset: 0x18
     ::Il2CppString* Stream;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xEEF46C
+    // [DebuggerBrowsableAttribute] Offset: 0xF302D0
     // private System.String <TestName>k__BackingField
     // Size: 0x8
     // Offset: 0x20
     ::Il2CppString* TestName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: TestOutput
+    TestOutput(::Il2CppString* Text_ = {}, ::Il2CppString* Stream_ = {}, ::Il2CppString* TestName_ = {}) noexcept : Text{Text_}, Stream{Stream_}, TestName{TestName_} {}
     // Get instance field reference: private System.String <Text>k__BackingField
     ::Il2CppString*& dyn_$Text$k__BackingField();
     // Get instance field reference: private System.String <Stream>k__BackingField
@@ -60,29 +48,29 @@ namespace NUnit::Framework::Interfaces {
     // Get instance field reference: private System.String <TestName>k__BackingField
     ::Il2CppString*& dyn_$TestName$k__BackingField();
     // public System.String get_Text()
-    // Offset: 0x191D6B0
+    // Offset: 0x1942874
     ::Il2CppString* get_Text();
     // private System.Void set_Text(System.String value)
-    // Offset: 0x191D6B8
+    // Offset: 0x194287C
     void set_Text(::Il2CppString* value);
     // public System.String get_Stream()
-    // Offset: 0x191D6C0
+    // Offset: 0x1942884
     ::Il2CppString* get_Stream();
     // private System.Void set_Stream(System.String value)
-    // Offset: 0x191D6C8
+    // Offset: 0x194288C
     void set_Stream(::Il2CppString* value);
     // private System.Void set_TestName(System.String value)
-    // Offset: 0x191D6D0
+    // Offset: 0x1942894
     void set_TestName(::Il2CppString* value);
     // public System.Void .ctor(System.String text, System.String stream, System.String testName)
-    // Offset: 0x191D61C
+    // Offset: 0x19427E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestOutput* New_ctor(::Il2CppString* text, ::Il2CppString* stream, ::Il2CppString* testName) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Interfaces::TestOutput::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestOutput*, creationType>(text, stream, testName)));
     }
     // public override System.String ToString()
-    // Offset: 0x191D65C
+    // Offset: 0x1942820
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
@@ -91,7 +79,8 @@ namespace NUnit::Framework::Interfaces {
   static check_size<sizeof(TestOutput), 32 + sizeof(::Il2CppString*)> __NUnit_Framework_Interfaces_TestOutputSizeCheck;
   static_assert(sizeof(TestOutput) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::TestOutput*, "NUnit.Framework.Interfaces", "TestOutput");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::TestOutput::get_Text
 // Il2CppName: get_Text
 template<>

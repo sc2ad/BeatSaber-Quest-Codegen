@@ -3,19 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRHaptics
 #include "GlobalNamespace/OVRHaptics.hpp"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: Config
-  class Config;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRHaptics::Config);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHaptics::Config*, "", "OVRHaptics/Config");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -24,6 +16,8 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRHaptics::Config : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: Config
+    Config() noexcept {}
     // Get static field: static private System.Int32 <SampleRateHz>k__BackingField
     static int _get_$SampleRateHz$k__BackingField();
     // Set static field: static private System.Int32 <SampleRateHz>k__BackingField
@@ -49,51 +43,53 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 <MaximumBufferSamplesCount>k__BackingField
     static void _set_$MaximumBufferSamplesCount$k__BackingField(int value);
     // static public System.Int32 get_SampleRateHz()
-    // Offset: 0x16AB954
+    // Offset: 0x1768D70
     static int get_SampleRateHz();
     // static private System.Void set_SampleRateHz(System.Int32 value)
-    // Offset: 0x16AB9BC
+    // Offset: 0x1768DD8
     static void set_SampleRateHz(int value);
     // static public System.Int32 get_SampleSizeInBytes()
-    // Offset: 0x16ABA28
+    // Offset: 0x1768E44
     static int get_SampleSizeInBytes();
     // static private System.Void set_SampleSizeInBytes(System.Int32 value)
-    // Offset: 0x16ABA90
+    // Offset: 0x1768EAC
     static void set_SampleSizeInBytes(int value);
     // static public System.Int32 get_MinimumSafeSamplesQueued()
-    // Offset: 0x16ABAFC
+    // Offset: 0x1768F18
     static int get_MinimumSafeSamplesQueued();
     // static private System.Void set_MinimumSafeSamplesQueued(System.Int32 value)
-    // Offset: 0x16ABB64
+    // Offset: 0x1768F80
     static void set_MinimumSafeSamplesQueued(int value);
     // static public System.Int32 get_MinimumBufferSamplesCount()
-    // Offset: 0x16ABBD0
+    // Offset: 0x1768FEC
     static int get_MinimumBufferSamplesCount();
     // static private System.Void set_MinimumBufferSamplesCount(System.Int32 value)
-    // Offset: 0x16ABC38
+    // Offset: 0x1769054
     static void set_MinimumBufferSamplesCount(int value);
     // static public System.Int32 get_OptimalBufferSamplesCount()
-    // Offset: 0x16ABCA4
+    // Offset: 0x17690C0
     static int get_OptimalBufferSamplesCount();
     // static private System.Void set_OptimalBufferSamplesCount(System.Int32 value)
-    // Offset: 0x16ABD0C
+    // Offset: 0x1769128
     static void set_OptimalBufferSamplesCount(int value);
     // static public System.Int32 get_MaximumBufferSamplesCount()
-    // Offset: 0x16ABD78
+    // Offset: 0x1769194
     static int get_MaximumBufferSamplesCount();
     // static private System.Void set_MaximumBufferSamplesCount(System.Int32 value)
-    // Offset: 0x16ABDE0
+    // Offset: 0x17691FC
     static void set_MaximumBufferSamplesCount(int value);
     // static private System.Void .cctor()
-    // Offset: 0x16ABE4C
+    // Offset: 0x1769268
     static void _cctor();
     // static public System.Void Load()
-    // Offset: 0x16AA9B4
+    // Offset: 0x1767DD0
     static void Load();
   }; // OVRHaptics/Config
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHaptics::Config*, "", "OVRHaptics/Config");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRHaptics::Config::get_SampleRateHz
 // Il2CppName: get_SampleRateHz
 template<>

@@ -3,7 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: LiteNetLib.Utils.INetImmutableSerializable`1
@@ -12,6 +12,10 @@
 #include "System/IEquatable_1.hpp"
 // Including type: UnityEngine.Color32
 #include "UnityEngine/Color32.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: LiteNetLib::Utils
@@ -28,13 +32,6 @@ struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: 
 namespace GlobalNamespace {
-  // Forward declaring type: MultiplayerAvatarData
-  struct MultiplayerAvatarData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerAvatarData, "", "MultiplayerAvatarData");
-// Type namespace: 
-namespace GlobalNamespace {
   // Size: 0x70
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -43,11 +40,6 @@ namespace GlobalNamespace {
   // [IsReadOnlyAttribute] Offset: FFFFFFFF
   struct MultiplayerAvatarData/*, public System::ValueType, public LiteNetLib::Utils::INetImmutableSerializable_1<GlobalNamespace::MultiplayerAvatarData>, public System::IEquatable_1<GlobalNamespace::MultiplayerAvatarData>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public readonly System.String headTopId
     // Size: 0x8
     // Offset: 0x0
@@ -152,7 +144,6 @@ namespace GlobalNamespace {
     ::Il2CppString* mouthId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
     // Creating value type constructor for type: MultiplayerAvatarData
     constexpr MultiplayerAvatarData(::Il2CppString* headTopId_ = {}, UnityEngine::Color32 headTopPrimaryColor_ = {}, UnityEngine::Color32 headTopSecondaryColor_ = {}, ::Il2CppString* glassesId_ = {}, UnityEngine::Color32 glassesColor_ = {}, ::Il2CppString* facialHairId_ = {}, UnityEngine::Color32 facialHairColor_ = {}, ::Il2CppString* handsId_ = {}, UnityEngine::Color32 handsColor_ = {}, ::Il2CppString* clothesId_ = {}, UnityEngine::Color32 clothesPrimaryColor_ = {}, UnityEngine::Color32 clothesSecondaryColor_ = {}, UnityEngine::Color32 clothesDetailColor_ = {}, ::Il2CppString* skinColorId_ = {}, ::Il2CppString* eyesId_ = {}, ::Il2CppString* mouthId_ = {}) noexcept : headTopId{headTopId_}, headTopPrimaryColor{headTopPrimaryColor_}, headTopSecondaryColor{headTopSecondaryColor_}, glassesId{glassesId_}, glassesColor{glassesColor_}, facialHairId{facialHairId_}, facialHairColor{facialHairColor_}, handsId{handsId_}, handsColor{handsColor_}, clothesId{clothesId_}, clothesPrimaryColor{clothesPrimaryColor_}, clothesSecondaryColor{clothesSecondaryColor_}, clothesDetailColor{clothesDetailColor_}, skinColorId{skinColorId_}, eyesId{eyesId_}, mouthId{mouthId_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -200,27 +191,28 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.String mouthId
     ::Il2CppString*& dyn_mouthId();
     // public System.Void .ctor(System.String headTopId, UnityEngine.Color32 headTopPrimaryColor, UnityEngine.Color32 headTopSecondaryColor, System.String glassesId, UnityEngine.Color32 glassesColor, System.String facialHairId, UnityEngine.Color32 facialHairColor, System.String handsId, UnityEngine.Color32 handsColor, System.String clothesId, UnityEngine.Color32 clothesPrimaryColor, UnityEngine.Color32 clothesSecondaryColor, UnityEngine.Color32 clothesDetailColor, System.String skinColorId, System.String eyesId, System.String mouthId)
-    // Offset: 0x25557D4
-    // ABORTED: conflicts with another method.  MultiplayerAvatarData(::Il2CppString* headTopId, UnityEngine::Color32 headTopPrimaryColor, UnityEngine::Color32 headTopSecondaryColor, ::Il2CppString* glassesId, UnityEngine::Color32 glassesColor, ::Il2CppString* facialHairId, UnityEngine::Color32 facialHairColor, ::Il2CppString* handsId, UnityEngine::Color32 handsColor, ::Il2CppString* clothesId, UnityEngine::Color32 clothesPrimaryColor, UnityEngine::Color32 clothesSecondaryColor, UnityEngine::Color32 clothesDetailColor, ::Il2CppString* skinColorId, ::Il2CppString* eyesId, ::Il2CppString* mouthId);
+    // Offset: 0x2622114
+    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    // ABORTED: conflicts with another method.  MultiplayerAvatarData(::Il2CppString* headTopId, UnityEngine::Color32 headTopPrimaryColor, UnityEngine::Color32 headTopSecondaryColor, ::Il2CppString* glassesId, UnityEngine::Color32 glassesColor, ::Il2CppString* facialHairId, UnityEngine::Color32 facialHairColor, ::Il2CppString* handsId, UnityEngine::Color32 handsColor, ::Il2CppString* clothesId, UnityEngine::Color32 clothesPrimaryColor, UnityEngine::Color32 clothesSecondaryColor, UnityEngine::Color32 clothesDetailColor, ::Il2CppString* skinColorId, ::Il2CppString* eyesId, ::Il2CppString* mouthId)
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x2555820
+    // Offset: 0x2622160
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public MultiplayerAvatarData CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2555984
+    // Offset: 0x26222C4
     GlobalNamespace::MultiplayerAvatarData CreateFromSerializedData(LiteNetLib::Utils::NetDataReader* reader);
     // static public MultiplayerAvatarData Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x255598C
+    // Offset: 0x26222CC
     static GlobalNamespace::MultiplayerAvatarData Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Boolean Equals(MultiplayerAvatarData other)
-    // Offset: 0x2555B60
+    // Offset: 0x26224A0
     bool Equals(GlobalNamespace::MultiplayerAvatarData other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x2555F50
+    // Offset: 0x2622890
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x2555FF0
+    // Offset: 0x2622930
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
@@ -229,7 +221,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerAvatarData), 104 + sizeof(::Il2CppString*)> __GlobalNamespace_MultiplayerAvatarDataSizeCheck;
   static_assert(sizeof(MultiplayerAvatarData) == 0x70);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerAvatarData, "", "MultiplayerAvatarData");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerAvatarData::MultiplayerAvatarData
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: NUnit.Framework.Interfaces.TestStatus
 #include "NUnit/Framework/Interfaces/TestStatus.hpp"
 // Including type: NUnit.Framework.Interfaces.FailureSite
 #include "NUnit/Framework/Interfaces/FailureSite.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: NUnit.Framework.Interfaces
-namespace NUnit::Framework::Interfaces {
-  // Forward declaring type: ResultState
-  class ResultState;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(NUnit::Framework::Interfaces::ResultState);
-DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::ResultState*, "NUnit.Framework.Interfaces", "ResultState");
 // Type namespace: NUnit.Framework.Interfaces
 namespace NUnit::Framework::Interfaces {
   // Size: 0x24
@@ -30,12 +22,7 @@ namespace NUnit::Framework::Interfaces {
   // [TokenAttribute] Offset: FFFFFFFF
   class ResultState : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
-    // [DebuggerBrowsableAttribute] Offset: 0xEEF4A8
+    // [DebuggerBrowsableAttribute] Offset: 0xF3030C
     // private NUnit.Framework.Interfaces.TestStatus <Status>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -44,21 +31,22 @@ namespace NUnit::Framework::Interfaces {
     static_assert(sizeof(NUnit::Framework::Interfaces::TestStatus) == 0x4);
     // Padding between fields: Status and: Label
     char __padding0[0x4] = {};
-    // [DebuggerBrowsableAttribute] Offset: 0xEEF4E4
+    // [DebuggerBrowsableAttribute] Offset: 0xF30348
     // private System.String <Label>k__BackingField
     // Size: 0x8
     // Offset: 0x18
     ::Il2CppString* Label;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xEEF520
+    // [DebuggerBrowsableAttribute] Offset: 0xF30384
     // private NUnit.Framework.Interfaces.FailureSite <Site>k__BackingField
     // Size: 0x4
     // Offset: 0x20
     NUnit::Framework::Interfaces::FailureSite Site;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Interfaces::FailureSite) == 0x4);
-    public:
+    // Creating value type constructor for type: ResultState
+    ResultState(NUnit::Framework::Interfaces::TestStatus Status_ = {}, ::Il2CppString* Label_ = {}, NUnit::Framework::Interfaces::FailureSite Site_ = {}) noexcept : Status{Status_}, Label{Label_}, Site{Site_} {}
     // Get static field: static public readonly NUnit.Framework.Interfaces.ResultState Inconclusive
     static NUnit::Framework::Interfaces::ResultState* _get_Inconclusive();
     // Set static field: static public readonly NUnit.Framework.Interfaces.ResultState Inconclusive
@@ -118,62 +106,62 @@ namespace NUnit::Framework::Interfaces {
     // Get instance field reference: private NUnit.Framework.Interfaces.FailureSite <Site>k__BackingField
     NUnit::Framework::Interfaces::FailureSite& dyn_$Site$k__BackingField();
     // public NUnit.Framework.Interfaces.TestStatus get_Status()
-    // Offset: 0x191C424
+    // Offset: 0x19415E8
     NUnit::Framework::Interfaces::TestStatus get_Status();
     // private System.Void set_Status(NUnit.Framework.Interfaces.TestStatus value)
-    // Offset: 0x191C42C
+    // Offset: 0x19415F0
     void set_Status(NUnit::Framework::Interfaces::TestStatus value);
     // public System.String get_Label()
-    // Offset: 0x191C434
+    // Offset: 0x19415F8
     ::Il2CppString* get_Label();
     // private System.Void set_Label(System.String value)
-    // Offset: 0x191C43C
+    // Offset: 0x1941600
     void set_Label(::Il2CppString* value);
     // public NUnit.Framework.Interfaces.FailureSite get_Site()
-    // Offset: 0x191C444
+    // Offset: 0x1941608
     NUnit::Framework::Interfaces::FailureSite get_Site();
     // private System.Void set_Site(NUnit.Framework.Interfaces.FailureSite value)
-    // Offset: 0x191C44C
+    // Offset: 0x1941610
     void set_Site(NUnit::Framework::Interfaces::FailureSite value);
     // public System.Void .ctor(NUnit.Framework.Interfaces.TestStatus status)
-    // Offset: 0x191C324
+    // Offset: 0x19414E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResultState* New_ctor(NUnit::Framework::Interfaces::TestStatus status) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Interfaces::ResultState::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResultState*, creationType>(status)));
     }
     // public System.Void .ctor(NUnit.Framework.Interfaces.TestStatus status, System.String label)
-    // Offset: 0x191C41C
+    // Offset: 0x19415E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResultState* New_ctor(NUnit::Framework::Interfaces::TestStatus status, ::Il2CppString* label) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Interfaces::ResultState::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResultState*, creationType>(status, label)));
     }
     // public System.Void .ctor(NUnit.Framework.Interfaces.TestStatus status, System.String label, NUnit.Framework.Interfaces.FailureSite site)
-    // Offset: 0x191C390
+    // Offset: 0x1941554
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResultState* New_ctor(NUnit::Framework::Interfaces::TestStatus status, ::Il2CppString* label, NUnit::Framework::Interfaces::FailureSite site) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Interfaces::ResultState::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResultState*, creationType>(status, label, site)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x191C808
+    // Offset: 0x19419CC
     static void _cctor();
     // public NUnit.Framework.Interfaces.ResultState WithSite(NUnit.Framework.Interfaces.FailureSite site)
-    // Offset: 0x191C454
+    // Offset: 0x1941618
     NUnit::Framework::Interfaces::ResultState* WithSite(NUnit::Framework::Interfaces::FailureSite site);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x191C4D0
+    // Offset: 0x1941694
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x191C65C
+    // Offset: 0x1941820
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x191C6A4
+    // Offset: 0x1941868
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
@@ -182,7 +170,8 @@ namespace NUnit::Framework::Interfaces {
   static check_size<sizeof(ResultState), 32 + sizeof(NUnit::Framework::Interfaces::FailureSite)> __NUnit_Framework_Interfaces_ResultStateSizeCheck;
   static_assert(sizeof(ResultState) == 0x24);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::ResultState*, "NUnit.Framework.Interfaces", "ResultState");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::ResultState::get_Status
 // Il2CppName: get_Status
 template<>

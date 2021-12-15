@@ -3,28 +3,20 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMAutoincrementedRequestId
 #include "GlobalNamespace/HMAutoincrementedRequestId.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: HMAsyncRequest
-  class HMAsyncRequest;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::HMAsyncRequest);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HMAsyncRequest*, "", "HMAsyncRequest");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x28
@@ -35,11 +27,6 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::HMAsyncRequest::CancelHander
     class CancelHander;
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Boolean _cancelled
     // Size: 0x1
     // Offset: 0x18
@@ -54,7 +41,8 @@ namespace GlobalNamespace {
     GlobalNamespace::HMAsyncRequest::CancelHander* cancelHander;
     // Field size check
     static_assert(sizeof(GlobalNamespace::HMAsyncRequest::CancelHander*) == 0x8);
-    public:
+    // Creating value type constructor for type: HMAsyncRequest
+    HMAsyncRequest(bool cancelled_ = {}, GlobalNamespace::HMAsyncRequest::CancelHander* cancelHander_ = {}) noexcept : cancelled{cancelled_}, cancelHander{cancelHander_} {}
     // Deleting conversion operator: operator uint64_t
     constexpr operator uint64_t() const noexcept = delete;
     // Get instance field reference: private System.Boolean _cancelled
@@ -62,19 +50,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private HMAsyncRequest/CancelHander _cancelHander
     GlobalNamespace::HMAsyncRequest::CancelHander*& dyn__cancelHander();
     // public HMAsyncRequest/CancelHander get_CancelHandler()
-    // Offset: 0x1369748
+    // Offset: 0x139A33C
     GlobalNamespace::HMAsyncRequest::CancelHander* get_CancelHandler();
     // public System.Void set_CancelHandler(HMAsyncRequest/CancelHander value)
-    // Offset: 0x1369750
+    // Offset: 0x139A344
     void set_CancelHandler(GlobalNamespace::HMAsyncRequest::CancelHander* value);
     // public System.Boolean get_cancelled()
-    // Offset: 0x1369758
+    // Offset: 0x139A34C
     bool get_cancelled();
     // public System.Void Cancel()
-    // Offset: 0x1369760
+    // Offset: 0x139A354
     void Cancel();
     // public System.Void .ctor()
-    // Offset: 0x1369B10
+    // Offset: 0x139A704
     // Implemented from: HMAutoincrementedRequestId
     // Base method: System.Void HMAutoincrementedRequestId::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -88,7 +76,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(HMAsyncRequest), 32 + sizeof(GlobalNamespace::HMAsyncRequest::CancelHander*)> __GlobalNamespace_HMAsyncRequestSizeCheck;
   static_assert(sizeof(HMAsyncRequest) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HMAsyncRequest*, "", "HMAsyncRequest");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HMAsyncRequest::get_CancelHandler
 // Il2CppName: get_CancelHandler
 template<>

@@ -3,18 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: Oculus.Platform
-namespace Oculus::Platform {
-  // Forward declaring type: RoomJoinability
-  struct RoomJoinability;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::RoomJoinability, "Oculus.Platform", "RoomJoinability");
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
   // Size: 0x4
@@ -23,18 +16,12 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   struct RoomJoinability/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: RoomJoinability
     constexpr RoomJoinability(int value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -45,49 +32,49 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0xEE8954
+    // [DescriptionAttribute] Offset: 0xF2AE4C
     // static field const value: static public Oculus.Platform.RoomJoinability Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.RoomJoinability Unknown
     static Oculus::Platform::RoomJoinability _get_Unknown();
     // Set static field: static public Oculus.Platform.RoomJoinability Unknown
     static void _set_Unknown(Oculus::Platform::RoomJoinability value);
-    // [DescriptionAttribute] Offset: 0xEE898C
+    // [DescriptionAttribute] Offset: 0xF2AE84
     // static field const value: static public Oculus.Platform.RoomJoinability AreIn
     static constexpr const int AreIn = 1;
     // Get static field: static public Oculus.Platform.RoomJoinability AreIn
     static Oculus::Platform::RoomJoinability _get_AreIn();
     // Set static field: static public Oculus.Platform.RoomJoinability AreIn
     static void _set_AreIn(Oculus::Platform::RoomJoinability value);
-    // [DescriptionAttribute] Offset: 0xEE89C4
+    // [DescriptionAttribute] Offset: 0xF2AEBC
     // static field const value: static public Oculus.Platform.RoomJoinability AreKicked
     static constexpr const int AreKicked = 2;
     // Get static field: static public Oculus.Platform.RoomJoinability AreKicked
     static Oculus::Platform::RoomJoinability _get_AreKicked();
     // Set static field: static public Oculus.Platform.RoomJoinability AreKicked
     static void _set_AreKicked(Oculus::Platform::RoomJoinability value);
-    // [DescriptionAttribute] Offset: 0xEE89FC
+    // [DescriptionAttribute] Offset: 0xF2AEF4
     // static field const value: static public Oculus.Platform.RoomJoinability CanJoin
     static constexpr const int CanJoin = 3;
     // Get static field: static public Oculus.Platform.RoomJoinability CanJoin
     static Oculus::Platform::RoomJoinability _get_CanJoin();
     // Set static field: static public Oculus.Platform.RoomJoinability CanJoin
     static void _set_CanJoin(Oculus::Platform::RoomJoinability value);
-    // [DescriptionAttribute] Offset: 0xEE8A34
+    // [DescriptionAttribute] Offset: 0xF2AF2C
     // static field const value: static public Oculus.Platform.RoomJoinability IsFull
     static constexpr const int IsFull = 4;
     // Get static field: static public Oculus.Platform.RoomJoinability IsFull
     static Oculus::Platform::RoomJoinability _get_IsFull();
     // Set static field: static public Oculus.Platform.RoomJoinability IsFull
     static void _set_IsFull(Oculus::Platform::RoomJoinability value);
-    // [DescriptionAttribute] Offset: 0xEE8A6C
+    // [DescriptionAttribute] Offset: 0xF2AF64
     // static field const value: static public Oculus.Platform.RoomJoinability NoViewer
     static constexpr const int NoViewer = 5;
     // Get static field: static public Oculus.Platform.RoomJoinability NoViewer
     static Oculus::Platform::RoomJoinability _get_NoViewer();
     // Set static field: static public Oculus.Platform.RoomJoinability NoViewer
     static void _set_NoViewer(Oculus::Platform::RoomJoinability value);
-    // [DescriptionAttribute] Offset: 0xEE8AA4
+    // [DescriptionAttribute] Offset: 0xF2AF9C
     // static field const value: static public Oculus.Platform.RoomJoinability PolicyPrevents
     static constexpr const int PolicyPrevents = 6;
     // Get static field: static public Oculus.Platform.RoomJoinability PolicyPrevents
@@ -101,4 +88,6 @@ namespace Oculus::Platform {
   static check_size<sizeof(RoomJoinability), 0 + sizeof(int)> __Oculus_Platform_RoomJoinabilitySizeCheck;
   static_assert(sizeof(RoomJoinability) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::RoomJoinability, "Oculus.Platform", "RoomJoinability");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

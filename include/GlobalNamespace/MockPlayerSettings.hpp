@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MockPlayerMovementType
 #include "GlobalNamespace/MockPlayerMovementType.hpp"
 // Including type: UnityEngine.Color
 #include "UnityEngine/Color.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: MockPlayerSettings
-  class MockPlayerSettings;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MockPlayerSettings);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockPlayerSettings*, "", "MockPlayerSettings");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x70
@@ -30,11 +22,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MockPlayerSettings : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.String _userName
     // Size: 0x8
     // Offset: 0x10
@@ -91,7 +78,7 @@ namespace GlobalNamespace {
     float aiCubeHitChance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0xF08CA8
+    // [SpaceAttribute] Offset: 0xF3E178
     // private System.Boolean _leftHanded
     // Size: 0x1
     // Offset: 0x3C
@@ -118,7 +105,8 @@ namespace GlobalNamespace {
     UnityEngine::Color obstaclesColor;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
-    public:
+    // Creating value type constructor for type: MockPlayerSettings
+    MockPlayerSettings(::Il2CppString* userName_ = {}, ::Il2CppString* userId_ = {}, int sortIndex_ = {}, float latency_ = {}, bool autoConnect_ = {}, bool inactiveByDefault_ = {}, GlobalNamespace::MockPlayerMovementType movementType_ = {}, ::Il2CppString* recodingFile_ = {}, float aiCubeHitChance_ = {}, bool leftHanded_ = {}, UnityEngine::Color saberAColor_ = {}, UnityEngine::Color saberBColor_ = {}, UnityEngine::Color obstaclesColor_ = {}) noexcept : userName{userName_}, userId{userId_}, sortIndex{sortIndex_}, latency{latency_}, autoConnect{autoConnect_}, inactiveByDefault{inactiveByDefault_}, movementType{movementType_}, recodingFile{recodingFile_}, aiCubeHitChance{aiCubeHitChance_}, leftHanded{leftHanded_}, saberAColor{saberAColor_}, saberBColor{saberBColor_}, obstaclesColor{obstaclesColor_} {}
     // Get instance field reference: private System.String _userName
     ::Il2CppString*& dyn__userName();
     // Get instance field reference: private System.String _userId
@@ -146,85 +134,85 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Color _obstaclesColor
     UnityEngine::Color& dyn__obstaclesColor();
     // public System.String get_userName()
-    // Offset: 0x117A2A8
+    // Offset: 0x11C2EC8
     ::Il2CppString* get_userName();
     // public System.Void set_userName(System.String value)
-    // Offset: 0x117A2B0
+    // Offset: 0x11C2ED0
     void set_userName(::Il2CppString* value);
     // public System.String get_userId()
-    // Offset: 0x117A2B8
+    // Offset: 0x11C2ED8
     ::Il2CppString* get_userId();
     // public System.Void set_userId(System.String value)
-    // Offset: 0x117A2C0
+    // Offset: 0x11C2EE0
     void set_userId(::Il2CppString* value);
     // public System.Int32 get_sortIndex()
-    // Offset: 0x117A2C8
+    // Offset: 0x11C2EE8
     int get_sortIndex();
     // public System.Void set_sortIndex(System.Int32 value)
-    // Offset: 0x117A2D0
+    // Offset: 0x11C2EF0
     void set_sortIndex(int value);
     // public System.Single get_latency()
-    // Offset: 0x117A2D8
+    // Offset: 0x11C2EF8
     float get_latency();
     // public System.Void set_latency(System.Single value)
-    // Offset: 0x117A2E0
+    // Offset: 0x11C2F00
     void set_latency(float value);
     // public System.Boolean get_autoConnect()
-    // Offset: 0x117A2E8
+    // Offset: 0x11C2F08
     bool get_autoConnect();
     // public System.Void set_autoConnect(System.Boolean value)
-    // Offset: 0x117A2F0
+    // Offset: 0x11C2F10
     void set_autoConnect(bool value);
     // public System.Boolean get_inactiveByDefault()
-    // Offset: 0x117A2FC
+    // Offset: 0x11C2F1C
     bool get_inactiveByDefault();
     // public System.Void set_inactiveByDefault(System.Boolean value)
-    // Offset: 0x117A304
+    // Offset: 0x11C2F24
     void set_inactiveByDefault(bool value);
     // public MockPlayerMovementType get_movementType()
-    // Offset: 0x117A310
+    // Offset: 0x11C2F30
     GlobalNamespace::MockPlayerMovementType get_movementType();
     // public System.Void set_movementType(MockPlayerMovementType value)
-    // Offset: 0x117A318
+    // Offset: 0x11C2F38
     void set_movementType(GlobalNamespace::MockPlayerMovementType value);
     // public System.String get_recodingFile()
-    // Offset: 0x117A320
+    // Offset: 0x11C2F40
     ::Il2CppString* get_recodingFile();
     // public System.Void set_recodingFile(System.String value)
-    // Offset: 0x117A328
+    // Offset: 0x11C2F48
     void set_recodingFile(::Il2CppString* value);
     // public System.Single get_aiCubeHitChance()
-    // Offset: 0x117A330
+    // Offset: 0x11C2F50
     float get_aiCubeHitChance();
     // public System.Void set_aiCubeHitChance(System.Single value)
-    // Offset: 0x117A338
+    // Offset: 0x11C2F58
     void set_aiCubeHitChance(float value);
     // public System.Boolean get_leftHanded()
-    // Offset: 0x117A340
+    // Offset: 0x11C2F60
     bool get_leftHanded();
     // public System.Void set_leftHanded(System.Boolean value)
-    // Offset: 0x117A348
+    // Offset: 0x11C2F68
     void set_leftHanded(bool value);
     // public UnityEngine.Color get_saberAColor()
-    // Offset: 0x117A354
+    // Offset: 0x11C2F74
     UnityEngine::Color get_saberAColor();
     // public System.Void set_saberAColor(UnityEngine.Color value)
-    // Offset: 0x117A360
+    // Offset: 0x11C2F80
     void set_saberAColor(UnityEngine::Color value);
     // public UnityEngine.Color get_saberBColor()
-    // Offset: 0x117A36C
+    // Offset: 0x11C2F8C
     UnityEngine::Color get_saberBColor();
     // public System.Void set_saberBColor(UnityEngine.Color value)
-    // Offset: 0x117A378
+    // Offset: 0x11C2F98
     void set_saberBColor(UnityEngine::Color value);
     // public UnityEngine.Color get_obstaclesColor()
-    // Offset: 0x117A384
+    // Offset: 0x11C2FA4
     UnityEngine::Color get_obstaclesColor();
     // public System.Void set_obstaclesColor(UnityEngine.Color value)
-    // Offset: 0x117A390
+    // Offset: 0x11C2FB0
     void set_obstaclesColor(UnityEngine::Color value);
     // public System.Void .ctor()
-    // Offset: 0x117A39C
+    // Offset: 0x11C2FBC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -237,7 +225,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(MockPlayerSettings), 96 + sizeof(UnityEngine::Color)> __GlobalNamespace_MockPlayerSettingsSizeCheck;
   static_assert(sizeof(MockPlayerSettings) == 0x70);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockPlayerSettings*, "", "MockPlayerSettings");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayerSettings::get_userName
 // Il2CppName: get_userName
 template<>

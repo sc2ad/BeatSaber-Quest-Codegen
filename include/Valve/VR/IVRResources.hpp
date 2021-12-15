@@ -3,7 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
@@ -12,13 +12,6 @@
 namespace Valve::VR {
 }
 // Completed forward declares
-// Type namespace: Valve.VR
-namespace Valve::VR {
-  // Forward declaring type: IVRResources
-  struct IVRResources;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRResources, "Valve.VR", "IVRResources");
 // Type namespace: Valve.VR
 namespace Valve::VR {
   // Size: 0x10
@@ -32,11 +25,6 @@ namespace Valve::VR {
     class _LoadSharedResource;
     // Nested type: Valve::VR::IVRResources::_GetResourceFullPath
     class _GetResourceFullPath;
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // Valve.VR.IVRResources/Valve.VR._LoadSharedResource LoadSharedResource
     // Size: 0x8
     // Offset: 0x0
@@ -49,7 +37,6 @@ namespace Valve::VR {
     Valve::VR::IVRResources::_GetResourceFullPath* GetResourceFullPath;
     // Field size check
     static_assert(sizeof(Valve::VR::IVRResources::_GetResourceFullPath*) == 0x8);
-    public:
     // Creating value type constructor for type: IVRResources
     constexpr IVRResources(Valve::VR::IVRResources::_LoadSharedResource* LoadSharedResource_ = {}, Valve::VR::IVRResources::_GetResourceFullPath* GetResourceFullPath_ = {}) noexcept : LoadSharedResource{LoadSharedResource_}, GetResourceFullPath{GetResourceFullPath_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -65,4 +52,6 @@ namespace Valve::VR {
   static check_size<sizeof(IVRResources), 8 + sizeof(Valve::VR::IVRResources::_GetResourceFullPath*)> __Valve_VR_IVRResourcesSizeCheck;
   static_assert(sizeof(IVRResources) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRResources, "Valve.VR", "IVRResources");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -3,16 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: UnityEngine.UI.CoroutineTween
-namespace UnityEngine::UI::CoroutineTween {
-  // Forward declaring type: ITweenValue
-  class ITweenValue;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::UI::CoroutineTween::ITweenValue);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CoroutineTween::ITweenValue*, "UnityEngine.UI.CoroutineTween", "ITweenValue");
 // Type namespace: UnityEngine.UI.CoroutineTween
 namespace UnityEngine::UI::CoroutineTween {
   // Size: 0x10
@@ -21,6 +13,8 @@ namespace UnityEngine::UI::CoroutineTween {
   // [TokenAttribute] Offset: FFFFFFFF
   class ITweenValue {
     public:
+    // Creating value type constructor for type: ITweenValue
+    ITweenValue() noexcept {}
     // public System.Boolean get_ignoreTimeScale()
     // Offset: 0xFFFFFFFF
     bool get_ignoreTimeScale();
@@ -36,7 +30,9 @@ namespace UnityEngine::UI::CoroutineTween {
   }; // UnityEngine.UI.CoroutineTween.ITweenValue
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CoroutineTween::ITweenValue*, "UnityEngine.UI.CoroutineTween", "ITweenValue");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::CoroutineTween::ITweenValue::get_ignoreTimeScale
 // Il2CppName: get_ignoreTimeScale
 template<>

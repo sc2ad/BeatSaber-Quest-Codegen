@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: LiteNetLib.Utils.INetSerializable
@@ -29,13 +29,6 @@ namespace LiteNetLib::Utils {
 // Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
-  // Forward declaring type: NodePoseSyncState
-  struct NodePoseSyncState;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NodePoseSyncState, "", "NodePoseSyncState");
-// Type namespace: 
-namespace GlobalNamespace {
   // Size: 0x48
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -43,11 +36,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct NodePoseSyncState/*, public System::ValueType, public LiteNetLib::Utils::INetSerializable, public GlobalNamespace::IStateTable_3<GlobalNamespace::NodePoseSyncState, GlobalNamespace::NodePoseSyncState_NodePose, GlobalNamespace::PoseSerializable>, public GlobalNamespace::IEquatableByReference_1<GlobalNamespace::NodePoseSyncState>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private PoseSerializable _head
     // Size: 0x18
     // Offset: 0x0
@@ -66,7 +54,6 @@ namespace GlobalNamespace {
     GlobalNamespace::PoseSerializable rightController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PoseSerializable) == 0x18);
-    public:
     // Creating value type constructor for type: NodePoseSyncState
     constexpr NodePoseSyncState(GlobalNamespace::PoseSerializable head_ = {}, GlobalNamespace::PoseSerializable leftController_ = {}, GlobalNamespace::PoseSerializable rightController_ = {}) noexcept : head{head_}, leftController{leftController_}, rightController{rightController_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -92,44 +79,46 @@ namespace GlobalNamespace {
     // Get instance field reference: private PoseSerializable _rightController
     GlobalNamespace::PoseSerializable& dyn__rightController();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x18B545C
+    // Offset: 0x1809AE4
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x18B54A0
+    // Offset: 0x1809B28
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void SetState(NodePoseSyncState/NodePose nodePose, PoseSerializable pose)
-    // Offset: 0x18B54E4
+    // Offset: 0x1809B6C
     void SetState(GlobalNamespace::NodePoseSyncState_NodePose nodePose, GlobalNamespace::PoseSerializable pose);
     // public PoseSerializable GetState(NodePoseSyncState/NodePose nodePose)
-    // Offset: 0x18B5534
+    // Offset: 0x1809BBC
     GlobalNamespace::PoseSerializable GetState(GlobalNamespace::NodePoseSyncState_NodePose nodePose);
     // public System.Boolean Equals(in NodePoseSyncState other)
-    // Offset: 0x18B5580
+    // Offset: 0x1809C08
     bool Equals(ByRef<GlobalNamespace::NodePoseSyncState> other);
     // public NodePoseSyncState GetDelta(in NodePoseSyncState latest)
-    // Offset: 0x18B5618
+    // Offset: 0x1809CA0
     GlobalNamespace::NodePoseSyncState GetDelta(ByRef<GlobalNamespace::NodePoseSyncState> latest);
     // public NodePoseSyncState ApplyDelta(in NodePoseSyncState delta)
-    // Offset: 0x18B5744
+    // Offset: 0x1809DCC
     GlobalNamespace::NodePoseSyncState ApplyDelta(ByRef<GlobalNamespace::NodePoseSyncState> delta);
     // public System.Int32 GetSize()
-    // Offset: 0x18B5870
+    // Offset: 0x1809EF8
     int GetSize();
     // private NodePoseSyncState IStateTable<NodePoseSyncState,NodePoseSyncState.NodePose,PoseSerializable>.GetDelta(in NodePoseSyncState stateTable)
-    // Offset: 0x18B58C4
+    // Offset: 0x1809F4C
     GlobalNamespace::NodePoseSyncState IStateTable$NodePoseSyncState_NodePoseSyncState_NodePose_PoseSerializable$_GetDelta(ByRef<GlobalNamespace::NodePoseSyncState> stateTable);
     // private NodePoseSyncState IStateTable<NodePoseSyncState,NodePoseSyncState.NodePose,PoseSerializable>.ApplyDelta(in NodePoseSyncState delta)
-    // Offset: 0x18B58C8
+    // Offset: 0x1809F50
     GlobalNamespace::NodePoseSyncState IStateTable$NodePoseSyncState_NodePoseSyncState_NodePose_PoseSerializable$_ApplyDelta(ByRef<GlobalNamespace::NodePoseSyncState> delta);
     // private System.Boolean IEquatableByReference<NodePoseSyncState>.Equals(in NodePoseSyncState other)
-    // Offset: 0x18B58CC
+    // Offset: 0x1809F54
     bool IEquatableByReference$NodePoseSyncState$_Equals(ByRef<GlobalNamespace::NodePoseSyncState> other);
   }; // NodePoseSyncState
   #pragma pack(pop)
   static check_size<sizeof(NodePoseSyncState), 48 + sizeof(GlobalNamespace::PoseSerializable)> __GlobalNamespace_NodePoseSyncStateSizeCheck;
   static_assert(sizeof(NodePoseSyncState) == 0x48);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NodePoseSyncState, "", "NodePoseSyncState");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NodePoseSyncState::Serialize
 // Il2CppName: Serialize
 template<>

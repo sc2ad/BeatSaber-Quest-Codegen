@@ -3,24 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Int32
 #include "System/Int32.hpp"
 // Including type: System.UInt16
 #include "System/UInt16.hpp"
 // Including type: System.Byte
 #include "System/Byte.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
-// Type namespace: LiteNetLib
-namespace LiteNetLib {
-  // Forward declaring type: NetConstants
-  class NetConstants;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(LiteNetLib::NetConstants);
-DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetConstants*, "LiteNetLib", "NetConstants");
 // Type namespace: LiteNetLib
 namespace LiteNetLib {
   // Size: 0x10
@@ -29,6 +20,8 @@ namespace LiteNetLib {
   // [TokenAttribute] Offset: FFFFFFFF
   class NetConstants : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: NetConstants
+    NetConstants() noexcept {}
     // static field const value: static public System.Int32 DefaultWindowSize
     static constexpr const int DefaultWindowSize = 64;
     // Get static field: static public System.Int32 DefaultWindowSize
@@ -96,9 +89,9 @@ namespace LiteNetLib {
     // Set static field: static System.Int32 MaxUdpHeaderSize
     static void _set_MaxUdpHeaderSize(int value);
     // Get static field: static readonly System.Int32[] PossibleMtu
-    static ::ArrayW<int> _get_PossibleMtu();
+    static ::Array<int>* _get_PossibleMtu();
     // Set static field: static readonly System.Int32[] PossibleMtu
-    static void _set_PossibleMtu(::ArrayW<int> value);
+    static void _set_PossibleMtu(::Array<int>* value);
     // Get static field: static readonly System.Int32 MaxPacketSize
     static int _get_MaxPacketSize();
     // Set static field: static readonly System.Int32 MaxPacketSize
@@ -116,12 +109,14 @@ namespace LiteNetLib {
     // Set static field: static public System.Int32 PacketPoolSize
     static void _set_PacketPoolSize(int value);
     // static private System.Void .cctor()
-    // Offset: 0x1DBCA90
+    // Offset: 0x1DC6E00
     static void _cctor();
   }; // LiteNetLib.NetConstants
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetConstants*, "LiteNetLib", "NetConstants");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::NetConstants::_cctor
 // Il2CppName: .cctor
 template<>

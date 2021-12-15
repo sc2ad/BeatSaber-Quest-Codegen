@@ -3,17 +3,10 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-// Type namespace: Valve.VR
-namespace Valve::VR {
-  // Forward declaring type: HmdVector3d_t
-  struct HmdVector3d_t;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::HmdVector3d_t, "Valve.VR", "HmdVector3d_t");
 // Type namespace: Valve.VR
 namespace Valve::VR {
   // Size: 0x18
@@ -23,11 +16,6 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HmdVector3d_t/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Double v0
     // Size: 0x8
     // Offset: 0x0
@@ -46,7 +34,6 @@ namespace Valve::VR {
     double v2;
     // Field size check
     static_assert(sizeof(double) == 0x8);
-    public:
     // Creating value type constructor for type: HmdVector3d_t
     constexpr HmdVector3d_t(double v0_ = {}, double v1_ = {}, double v2_ = {}) noexcept : v0{v0_}, v1{v1_}, v2{v2_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -64,4 +51,6 @@ namespace Valve::VR {
   static check_size<sizeof(HmdVector3d_t), 16 + sizeof(double)> __Valve_VR_HmdVector3d_tSizeCheck;
   static_assert(sizeof(HmdVector3d_t) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::HmdVector3d_t, "Valve.VR", "HmdVector3d_t");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

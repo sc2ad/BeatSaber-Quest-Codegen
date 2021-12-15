@@ -3,17 +3,9 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: Mono.Net.Security
-namespace Mono::Net::Security {
-  // Forward declaring type: NoReflectionHelper
-  class NoReflectionHelper;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Net::Security::NoReflectionHelper);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::NoReflectionHelper*, "Mono.Net.Security", "NoReflectionHelper");
 // Type namespace: Mono.Net.Security
 namespace Mono::Net::Security {
   // Size: 0x10
@@ -22,16 +14,20 @@ namespace Mono::Net::Security {
   // [TokenAttribute] Offset: FFFFFFFF
   class NoReflectionHelper : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: NoReflectionHelper
+    NoReflectionHelper() noexcept {}
     // static System.Object GetInternalValidator(System.Object provider, System.Object settings)
-    // Offset: 0x17A5680
+    // Offset: 0x1834F94
     static ::Il2CppObject* GetInternalValidator(::Il2CppObject* provider, ::Il2CppObject* settings);
     // static System.Object GetProvider()
-    // Offset: 0x17A5738
+    // Offset: 0x183504C
     static ::Il2CppObject* GetProvider();
   }; // Mono.Net.Security.NoReflectionHelper
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::NoReflectionHelper*, "Mono.Net.Security", "NoReflectionHelper");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Net::Security::NoReflectionHelper::GetInternalValidator
 // Il2CppName: GetInternalValidator
 template<>

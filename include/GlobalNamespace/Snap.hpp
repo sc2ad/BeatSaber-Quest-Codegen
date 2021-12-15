@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: Snap
-  class Snap;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::Snap);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Snap*, "", "Snap");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x30
@@ -28,11 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class Snap : public UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public UnityEngine.Vector3 snap
     // Size: 0xC
     // Offset: 0x18
@@ -45,7 +32,8 @@ namespace GlobalNamespace {
     UnityEngine::Vector3 offset;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    public:
+    // Creating value type constructor for type: Snap
+    Snap(UnityEngine::Vector3 snap_ = {}, UnityEngine::Vector3 offset_ = {}) noexcept : snap{snap_}, offset{offset_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public UnityEngine.Vector3 snap
@@ -53,10 +41,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.Vector3 offset
     UnityEngine::Vector3& dyn_offset();
     // public System.Void SnapPosition()
-    // Offset: 0x257F21C
+    // Offset: 0x2640AB4
     void SnapPosition();
     // public System.Void .ctor()
-    // Offset: 0x257F4FC
+    // Offset: 0x2640D94
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -73,7 +61,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(Snap), 36 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_SnapSizeCheck;
   static_assert(sizeof(Snap) == 0x30);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Snap*, "", "Snap");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::Snap::SnapPosition
 // Il2CppName: SnapPosition
 template<>

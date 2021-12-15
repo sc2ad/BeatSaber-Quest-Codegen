@@ -3,19 +3,16 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ParticleSystem
 #include "UnityEngine/ParticleSystem.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: SubEmittersModule
-  struct SubEmittersModule;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::SubEmittersModule, "UnityEngine", "ParticleSystem/SubEmittersModule");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x8
@@ -25,18 +22,12 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ParticleSystem::SubEmittersModule/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // UnityEngine.ParticleSystem m_ParticleSystem
     // Size: 0x8
     // Offset: 0x0
     UnityEngine::ParticleSystem* m_ParticleSystem;
     // Field size check
     static_assert(sizeof(UnityEngine::ParticleSystem*) == 0x8);
-    public:
     // Creating value type constructor for type: SubEmittersModule
     constexpr SubEmittersModule(UnityEngine::ParticleSystem* m_ParticleSystem_ = {}) noexcept : m_ParticleSystem{m_ParticleSystem_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -50,26 +41,28 @@ namespace UnityEngine {
     // Get instance field reference: UnityEngine.ParticleSystem m_ParticleSystem
     UnityEngine::ParticleSystem*& dyn_m_ParticleSystem();
     // public System.Int32 get_subEmittersCount()
-    // Offset: 0x26050CC
+    // Offset: 0x26C80F4
     int get_subEmittersCount();
     // System.Void .ctor(UnityEngine.ParticleSystem particleSystem)
-    // Offset: 0x2604560
-    // ABORTED: conflicts with another method.  SubEmittersModule(UnityEngine::ParticleSystem* particleSystem);
+    // Offset: 0x26C7588
+    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    // ABORTED: conflicts with another method.  SubEmittersModule(UnityEngine::ParticleSystem* particleSystem)
     // public UnityEngine.ParticleSystem GetSubEmitterSystem(System.Int32 index)
-    // Offset: 0x260514C
+    // Offset: 0x26C8174
     UnityEngine::ParticleSystem* GetSubEmitterSystem(int index);
     // static private System.Int32 get_subEmittersCount_Injected(ref UnityEngine.ParticleSystem/UnityEngine.SubEmittersModule _unity_self)
-    // Offset: 0x260510C
+    // Offset: 0x26C8134
     static int get_subEmittersCount_Injected(ByRef<UnityEngine::ParticleSystem::SubEmittersModule> _unity_self);
     // static private UnityEngine.ParticleSystem GetSubEmitterSystem_Injected(ref UnityEngine.ParticleSystem/UnityEngine.SubEmittersModule _unity_self, System.Int32 index)
-    // Offset: 0x260519C
+    // Offset: 0x26C81C4
     static UnityEngine::ParticleSystem* GetSubEmitterSystem_Injected(ByRef<UnityEngine::ParticleSystem::SubEmittersModule> _unity_self, int index);
   }; // UnityEngine.ParticleSystem/UnityEngine.SubEmittersModule
   #pragma pack(pop)
   static check_size<sizeof(ParticleSystem::SubEmittersModule), 0 + sizeof(UnityEngine::ParticleSystem*)> __UnityEngine_ParticleSystem_SubEmittersModuleSizeCheck;
   static_assert(sizeof(ParticleSystem::SubEmittersModule) == 0x8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::SubEmittersModule, "UnityEngine", "ParticleSystem/SubEmittersModule");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::SubEmittersModule::get_subEmittersCount
 // Il2CppName: get_subEmittersCount
 template<>

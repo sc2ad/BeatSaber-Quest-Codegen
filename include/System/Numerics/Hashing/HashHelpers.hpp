@@ -3,17 +3,9 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: System.Numerics.Hashing
-namespace System::Numerics::Hashing {
-  // Forward declaring type: HashHelpers
-  class HashHelpers;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Numerics::Hashing::HashHelpers);
-DEFINE_IL2CPP_ARG_TYPE(System::Numerics::Hashing::HashHelpers*, "System.Numerics.Hashing", "HashHelpers");
 // Type namespace: System.Numerics.Hashing
 namespace System::Numerics::Hashing {
   // Size: 0x10
@@ -22,20 +14,24 @@ namespace System::Numerics::Hashing {
   // [TokenAttribute] Offset: FFFFFFFF
   class HashHelpers : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: HashHelpers
+    HashHelpers() noexcept {}
     // Get static field: static public readonly System.Int32 RandomSeed
     static int _get_RandomSeed();
     // Set static field: static public readonly System.Int32 RandomSeed
     static void _set_RandomSeed(int value);
     // static private System.Void .cctor()
-    // Offset: 0x1E83AC0
+    // Offset: 0x1E89520
     static void _cctor();
     // static public System.Int32 Combine(System.Int32 h1, System.Int32 h2)
-    // Offset: 0x1E83AB0
+    // Offset: 0x1E89510
     static int Combine(int h1, int h2);
   }; // System.Numerics.Hashing.HashHelpers
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Numerics::Hashing::HashHelpers*, "System.Numerics.Hashing", "HashHelpers");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Numerics::Hashing::HashHelpers::_cctor
 // Il2CppName: .cctor
 template<>

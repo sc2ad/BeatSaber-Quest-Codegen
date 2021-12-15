@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MissionLevelFailedController
 #include "GlobalNamespace/MissionLevelFailedController.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: InitData
-  class InitData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MissionLevelFailedController::InitData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelFailedController::InitData*, "", "MissionLevelFailedController/InitData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x11
@@ -28,18 +20,14 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MissionLevelFailedController::InitData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public readonly System.Boolean autoRestart
     // Size: 0x1
     // Offset: 0x10
     bool autoRestart;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: InitData
+    InitData(bool autoRestart_ = {}) noexcept : autoRestart{autoRestart_} {}
     // Creating conversion operator: operator bool
     constexpr operator bool() const noexcept {
       return autoRestart;
@@ -47,7 +35,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Boolean autoRestart
     bool& dyn_autoRestart();
     // public System.Void .ctor(System.Boolean autoRestart)
-    // Offset: 0x1209C60
+    // Offset: 0x11602E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionLevelFailedController::InitData* New_ctor(bool autoRestart) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MissionLevelFailedController::InitData::.ctor");
@@ -58,7 +46,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(MissionLevelFailedController::InitData), 16 + sizeof(bool)> __GlobalNamespace_MissionLevelFailedController_InitDataSizeCheck;
   static_assert(sizeof(MissionLevelFailedController::InitData) == 0x11);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelFailedController::InitData*, "", "MissionLevelFailedController/InitData");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionLevelFailedController::InitData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

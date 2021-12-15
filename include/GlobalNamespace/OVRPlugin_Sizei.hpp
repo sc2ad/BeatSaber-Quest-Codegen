@@ -3,20 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRPlugin
 #include "GlobalNamespace/OVRPlugin.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: Sizei
-  struct Sizei;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Sizei, "", "OVRPlugin/Sizei");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x8
@@ -26,11 +19,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct OVRPlugin::Sizei/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 w
     // Size: 0x4
     // Offset: 0x0
@@ -43,7 +31,6 @@ namespace GlobalNamespace {
     int h;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: Sizei
     constexpr Sizei(int w_ = {}, int h_ = {}) noexcept : w{w_}, h{h_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -59,14 +46,16 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 h
     int& dyn_h();
     // static private System.Void .cctor()
-    // Offset: 0x17EC8A4
+    // Offset: 0x187B1B8
     static void _cctor();
   }; // OVRPlugin/Sizei
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::Sizei), 4 + sizeof(int)> __GlobalNamespace_OVRPlugin_SizeiSizeCheck;
   static_assert(sizeof(OVRPlugin::Sizei) == 0x8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Sizei, "", "OVRPlugin/Sizei");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::Sizei::_cctor
 // Il2CppName: .cctor
 template<>

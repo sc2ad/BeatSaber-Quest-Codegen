@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OnlineServices.API.HTTPAdminLeaderboardsHelper
 #include "OnlineServices/API/HTTPAdminLeaderboardsHelper.hpp"
 // Including type: System.ValueType
@@ -17,15 +17,7 @@
 #include "System/Threading/CancellationToken.hpp"
 // Including type: System.Runtime.CompilerServices.TaskAwaiter`1
 #include "System/Runtime/CompilerServices/TaskAwaiter_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
-// Type namespace: OnlineServices.API
-namespace OnlineServices::API {
-  // Forward declaring type: <LeaderboardsExist>d__8
-  struct $LeaderboardsExist$d__8;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPAdminLeaderboardsHelper::$LeaderboardsExist$d__8, "OnlineServices.API", "HTTPAdminLeaderboardsHelper/<LeaderboardsExist>d__8");
 // Type namespace: OnlineServices.API
 namespace OnlineServices::API {
   // WARNING Size may be invalid!
@@ -34,11 +26,6 @@ namespace OnlineServices::API {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   struct HTTPAdminLeaderboardsHelper::$LeaderboardsExist$d__8/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0
@@ -58,9 +45,9 @@ namespace OnlineServices::API {
     // public System.String[] leaderboardIds
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayW<::Il2CppString*> leaderboardIds;
+    ::Array<::Il2CppString*>* leaderboardIds;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
     // public System.Threading.CancellationToken cancellationToken
     // Size: 0x8
     // Offset: 0x30
@@ -71,9 +58,8 @@ namespace OnlineServices::API {
     // Size: 0xFFFFFFFF
     // Offset: 0x38
     System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*> $$u__1;
-    public:
     // Creating value type constructor for type: $LeaderboardsExist$d__8
-    constexpr $LeaderboardsExist$d__8(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsInfoResultDto*> $$t__builder_ = {}, OnlineServices::API::HTTPAdminLeaderboardsHelper* $$4__this_ = {}, ::ArrayW<::Il2CppString*> leaderboardIds_ = ::ArrayW<::Il2CppString*>(nullptr), System::Threading::CancellationToken cancellationToken_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*> $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, leaderboardIds{leaderboardIds_}, cancellationToken{cancellationToken_}, $$u__1{$$u__1_} {}
+    constexpr $LeaderboardsExist$d__8(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsInfoResultDto*> $$t__builder_ = {}, OnlineServices::API::HTTPAdminLeaderboardsHelper* $$4__this_ = {}, ::Array<::Il2CppString*>* leaderboardIds_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*> $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, leaderboardIds{leaderboardIds_}, cancellationToken{cancellationToken_}, $$u__1{$$u__1_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -89,21 +75,23 @@ namespace OnlineServices::API {
     // Get instance field reference: public OnlineServices.API.HTTPAdminLeaderboardsHelper <>4__this
     OnlineServices::API::HTTPAdminLeaderboardsHelper*& dyn_$$4__this();
     // Get instance field reference: public System.String[] leaderboardIds
-    ::ArrayW<::Il2CppString*>& dyn_leaderboardIds();
+    ::Array<::Il2CppString*>*& dyn_leaderboardIds();
     // Get instance field reference: public System.Threading.CancellationToken cancellationToken
     System::Threading::CancellationToken& dyn_cancellationToken();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<System.String> <>u__1
     System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x1103390
+    // Offset: 0x1372780
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x110365C
+    // Offset: 0x1372A4C
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OnlineServices.API.HTTPAdminLeaderboardsHelper/OnlineServices.API.<LeaderboardsExist>d__8
   // WARNING Not writing size check since size may be invalid!
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPAdminLeaderboardsHelper::$LeaderboardsExist$d__8, "OnlineServices.API", "HTTPAdminLeaderboardsHelper/<LeaderboardsExist>d__8");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OnlineServices::API::HTTPAdminLeaderboardsHelper::$LeaderboardsExist$d__8::MoveNext
 // Il2CppName: MoveNext
 template<>

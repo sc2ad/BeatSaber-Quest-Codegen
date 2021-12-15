@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRPlugin
 #include "GlobalNamespace/OVRPlugin.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: GUID
-  class GUID;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRPlugin::GUID);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::GUID*, "", "OVRPlugin/GUID");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -29,11 +21,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRPlugin::GUID : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 a
     // Size: 0x4
     // Offset: 0x10
@@ -100,7 +87,8 @@ namespace GlobalNamespace {
     uint8_t d7;
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
-    public:
+    // Creating value type constructor for type: GUID
+    GUID(int a_ = {}, int16_t b_ = {}, int16_t c_ = {}, uint8_t d0_ = {}, uint8_t d1_ = {}, uint8_t d2_ = {}, uint8_t d3_ = {}, uint8_t d4_ = {}, uint8_t d5_ = {}, uint8_t d6_ = {}, uint8_t d7_ = {}) noexcept : a{a_}, b{b_}, c{c_}, d0{d0_}, d1{d1_}, d2{d2_}, d3{d3_}, d4{d4_}, d5{d5_}, d6{d6_}, d7{d7_} {}
     // Get instance field reference: public System.Int32 a
     int& dyn_a();
     // Get instance field reference: public System.Int16 b
@@ -124,7 +112,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Byte d7
     uint8_t& dyn_d7();
     // public System.Void .ctor()
-    // Offset: 0x17E0A5C
+    // Offset: 0x186F370
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -137,7 +125,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRPlugin::GUID), 31 + sizeof(uint8_t)> __GlobalNamespace_OVRPlugin_GUIDSizeCheck;
   static_assert(sizeof(OVRPlugin::GUID) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::GUID*, "", "OVRPlugin/GUID");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::GUID::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

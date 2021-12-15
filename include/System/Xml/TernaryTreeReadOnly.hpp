@@ -3,22 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Xml
-namespace System::Xml {
-  // Forward declaring type: TernaryTreeReadOnly
-  class TernaryTreeReadOnly;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::TernaryTreeReadOnly);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::TernaryTreeReadOnly*, "System.Xml", "TernaryTreeReadOnly");
 // Type namespace: System.Xml
 namespace System::Xml {
   // Size: 0x18
@@ -27,40 +18,37 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class TernaryTreeReadOnly : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Byte[] nodeBuffer
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<uint8_t> nodeBuffer;
+    ::Array<uint8_t>* nodeBuffer;
     // Field size check
-    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
-    public:
-    // Creating conversion operator: operator ::ArrayW<uint8_t>
-    constexpr operator ::ArrayW<uint8_t>() const noexcept {
+    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    // Creating value type constructor for type: TernaryTreeReadOnly
+    TernaryTreeReadOnly(::Array<uint8_t>* nodeBuffer_ = {}) noexcept : nodeBuffer{nodeBuffer_} {}
+    // Creating conversion operator: operator ::Array<uint8_t>*
+    constexpr operator ::Array<uint8_t>*() const noexcept {
       return nodeBuffer;
     }
     // Get instance field reference: private System.Byte[] nodeBuffer
-    ::ArrayW<uint8_t>& dyn_nodeBuffer();
+    ::Array<uint8_t>*& dyn_nodeBuffer();
     // public System.Void .ctor(System.Byte[] nodeBuffer)
-    // Offset: 0x1ADCE48
+    // Offset: 0x1B5C924
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static TernaryTreeReadOnly* New_ctor(::ArrayW<uint8_t> nodeBuffer) {
+    static TernaryTreeReadOnly* New_ctor(::Array<uint8_t>* nodeBuffer) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::TernaryTreeReadOnly::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TernaryTreeReadOnly*, creationType>(nodeBuffer)));
     }
     // public System.Byte FindCaseInsensitiveString(System.String stringToFind)
-    // Offset: 0x1ADB510
+    // Offset: 0x1B5AFEC
     uint8_t FindCaseInsensitiveString(::Il2CppString* stringToFind);
   }; // System.Xml.TernaryTreeReadOnly
   #pragma pack(pop)
-  static check_size<sizeof(TernaryTreeReadOnly), 16 + sizeof(::ArrayW<uint8_t>)> __System_Xml_TernaryTreeReadOnlySizeCheck;
+  static check_size<sizeof(TernaryTreeReadOnly), 16 + sizeof(::Array<uint8_t>*)> __System_Xml_TernaryTreeReadOnlySizeCheck;
   static_assert(sizeof(TernaryTreeReadOnly) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::TernaryTreeReadOnly*, "System.Xml", "TernaryTreeReadOnly");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::TernaryTreeReadOnly::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -3,21 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Net.NetworkInformation
-namespace System::Net::NetworkInformation {
-  // Forward declaring type: IPGlobalProperties
-  class IPGlobalProperties;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::NetworkInformation::IPGlobalProperties);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::IPGlobalProperties*, "System.Net.NetworkInformation", "IPGlobalProperties");
 // Type namespace: System.Net.NetworkInformation
 namespace System::Net::NetworkInformation {
   // Size: 0x10
@@ -26,24 +18,26 @@ namespace System::Net::NetworkInformation {
   // [TokenAttribute] Offset: FFFFFFFF
   class IPGlobalProperties : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: IPGlobalProperties
+    IPGlobalProperties() noexcept {}
     // Get static field: static private readonly System.Boolean <PlatformNeedsLibCWorkaround>k__BackingField
     static bool _get_$PlatformNeedsLibCWorkaround$k__BackingField();
     // Set static field: static private readonly System.Boolean <PlatformNeedsLibCWorkaround>k__BackingField
     static void _set_$PlatformNeedsLibCWorkaround$k__BackingField(bool value);
     // static private System.Boolean get_PlatformNeedsLibCWorkaround()
-    // Offset: 0x162A0CC
+    // Offset: 0x16A5D10
     static bool get_PlatformNeedsLibCWorkaround();
     // public System.String get_DomainName()
     // Offset: 0xFFFFFFFF
     ::Il2CppString* get_DomainName();
     // static public System.Net.NetworkInformation.IPGlobalProperties GetIPGlobalProperties()
-    // Offset: 0x162A11C
+    // Offset: 0x16A5D60
     static System::Net::NetworkInformation::IPGlobalProperties* GetIPGlobalProperties();
     // static System.Net.NetworkInformation.IPGlobalProperties InternalGetIPGlobalProperties()
-    // Offset: 0x162A2EC
+    // Offset: 0x16A5F30
     static System::Net::NetworkInformation::IPGlobalProperties* InternalGetIPGlobalProperties();
     // protected System.Void .ctor()
-    // Offset: 0x162A2F0
+    // Offset: 0x16A5F34
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -54,7 +48,8 @@ namespace System::Net::NetworkInformation {
   }; // System.Net.NetworkInformation.IPGlobalProperties
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::IPGlobalProperties*, "System.Net.NetworkInformation", "IPGlobalProperties");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::NetworkInformation::IPGlobalProperties::get_PlatformNeedsLibCWorkaround
 // Il2CppName: get_PlatformNeedsLibCWorkaround
 template<>

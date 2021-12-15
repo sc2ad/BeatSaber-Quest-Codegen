@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LightmapLightWithIds
 #include "GlobalNamespace/LightmapLightWithIds.hpp"
 // Including type: LightWithIds/LightData
 #include "GlobalNamespace/LightWithIds_LightData.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: LightIntensitiesData
-  class LightIntensitiesData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::LightmapLightWithIds::LightIntensitiesData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightmapLightWithIds::LightIntensitiesData*, "", "LightmapLightWithIds/LightIntensitiesData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x30
@@ -32,11 +24,6 @@ namespace GlobalNamespace {
     public:
     // Writing base type padding for base size: 0x25 to desired offset: 0x28
     char ___base_padding[0x3] = {};
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Single _intensity
     // Size: 0x4
     // Offset: 0x28
@@ -49,25 +36,26 @@ namespace GlobalNamespace {
     float probeHighlightsIntensityMultiplier;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
+    // Creating value type constructor for type: LightIntensitiesData
+    LightIntensitiesData(float intensity_ = {}, float probeHighlightsIntensityMultiplier_ = {}) noexcept : intensity{intensity_}, probeHighlightsIntensityMultiplier{probeHighlightsIntensityMultiplier_} {}
     // Get instance field reference: private System.Single _intensity
     float& dyn__intensity();
     // Get instance field reference: private System.Single _probeHighlightsIntensityMultiplier
     float& dyn__probeHighlightsIntensityMultiplier();
     // public System.Single get_intensity()
-    // Offset: 0x1E1298C
+    // Offset: 0x1DB834C
     float get_intensity();
     // public System.Void set_intensity(System.Single value)
-    // Offset: 0x1E12994
+    // Offset: 0x1DB8354
     void set_intensity(float value);
     // public System.Single get_probeHighlightsIntensityMultiplier()
-    // Offset: 0x1E1299C
+    // Offset: 0x1DB835C
     float get_probeHighlightsIntensityMultiplier();
     // public System.Void set_probeHighlightsIntensityMultiplier(System.Single value)
-    // Offset: 0x1E129A4
+    // Offset: 0x1DB8364
     void set_probeHighlightsIntensityMultiplier(float value);
     // public System.Void .ctor()
-    // Offset: 0x1E129AC
+    // Offset: 0x1DB836C
     // Implemented from: LightWithIds/LightData
     // Base method: System.Void LightData::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -81,7 +69,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(LightmapLightWithIds::LightIntensitiesData), 44 + sizeof(float)> __GlobalNamespace_LightmapLightWithIds_LightIntensitiesDataSizeCheck;
   static_assert(sizeof(LightmapLightWithIds::LightIntensitiesData) == 0x30);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightmapLightWithIds::LightIntensitiesData*, "", "LightmapLightWithIds/LightIntensitiesData");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LightmapLightWithIds::LightIntensitiesData::get_intensity
 // Il2CppName: get_intensity
 template<>

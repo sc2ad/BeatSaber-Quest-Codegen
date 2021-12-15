@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.EventArgs
 #include "System/EventArgs.hpp"
 // Including type: System.ConsoleSpecialKey
 #include "System/ConsoleSpecialKey.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System
-namespace System {
-  // Forward declaring type: ConsoleCancelEventArgs
-  class ConsoleCancelEventArgs;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::ConsoleCancelEventArgs);
-DEFINE_IL2CPP_ARG_TYPE(System::ConsoleCancelEventArgs*, "System", "ConsoleCancelEventArgs");
 // Type namespace: System
 namespace System {
   // Size: 0x15
@@ -30,11 +22,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class ConsoleCancelEventArgs : public System::EventArgs {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.ConsoleSpecialKey _type
     // Size: 0x4
     // Offset: 0x10
@@ -47,23 +34,24 @@ namespace System {
     bool cancel;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: ConsoleCancelEventArgs
+    ConsoleCancelEventArgs(System::ConsoleSpecialKey type_ = {}, bool cancel_ = {}) noexcept : type{type_}, cancel{cancel_} {}
     // Get instance field reference: private System.ConsoleSpecialKey _type
     System::ConsoleSpecialKey& dyn__type();
     // Get instance field reference: private System.Boolean _cancel
     bool& dyn__cancel();
     // public System.Boolean get_Cancel()
-    // Offset: 0x1AFCD4C
+    // Offset: 0x1B930AC
     bool get_Cancel();
     // System.Void .ctor(System.ConsoleSpecialKey type)
-    // Offset: 0x1AFC18C
+    // Offset: 0x1B924EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConsoleCancelEventArgs* New_ctor(System::ConsoleSpecialKey type) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::ConsoleCancelEventArgs::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConsoleCancelEventArgs*, creationType>(type)));
     }
     // System.Void .ctor()
-    // Offset: 0x1AFCD54
+    // Offset: 0x1B930B4
     // Implemented from: System.EventArgs
     // Base method: System.Void EventArgs::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -77,7 +65,8 @@ namespace System {
   static check_size<sizeof(ConsoleCancelEventArgs), 20 + sizeof(bool)> __System_ConsoleCancelEventArgsSizeCheck;
   static_assert(sizeof(ConsoleCancelEventArgs) == 0x15);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::ConsoleCancelEventArgs*, "System", "ConsoleCancelEventArgs");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ConsoleCancelEventArgs::get_Cancel
 // Il2CppName: get_Cancel
 template<>

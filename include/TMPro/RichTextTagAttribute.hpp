@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: TMPro.TagValueType
@@ -14,13 +14,6 @@
 // Completed includes
 // Type namespace: TMPro
 namespace TMPro {
-  // Forward declaring type: RichTextTagAttribute
-  struct RichTextTagAttribute;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(TMPro::RichTextTagAttribute, "TMPro", "RichTextTagAttribute");
-// Type namespace: TMPro
-namespace TMPro {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -28,11 +21,6 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   struct RichTextTagAttribute/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 nameHashCode
     // Size: 0x4
     // Offset: 0x0
@@ -69,7 +57,6 @@ namespace TMPro {
     TMPro::TagUnitType unitType;
     // Field size check
     static_assert(sizeof(TMPro::TagUnitType) == 0x4);
-    public:
     // Creating value type constructor for type: RichTextTagAttribute
     constexpr RichTextTagAttribute(int nameHashCode_ = {}, int valueHashCode_ = {}, TMPro::TagValueType valueType_ = {}, int valueStartIndex_ = {}, int valueLength_ = {}, TMPro::TagUnitType unitType_ = {}) noexcept : nameHashCode{nameHashCode_}, valueHashCode{valueHashCode_}, valueType{valueType_}, valueStartIndex{valueStartIndex_}, valueLength{valueLength_}, unitType{unitType_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -93,4 +80,6 @@ namespace TMPro {
   static check_size<sizeof(RichTextTagAttribute), 20 + sizeof(TMPro::TagUnitType)> __TMPro_RichTextTagAttributeSizeCheck;
   static_assert(sizeof(RichTextTagAttribute) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::RichTextTagAttribute, "TMPro", "RichTextTagAttribute");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

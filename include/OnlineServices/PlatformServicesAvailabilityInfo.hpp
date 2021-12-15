@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: OnlineServices
-namespace OnlineServices {
-  // Forward declaring type: PlatformServicesAvailabilityInfo
-  class PlatformServicesAvailabilityInfo;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(OnlineServices::PlatformServicesAvailabilityInfo);
-DEFINE_IL2CPP_ARG_TYPE(OnlineServices::PlatformServicesAvailabilityInfo*, "OnlineServices", "PlatformServicesAvailabilityInfo");
 // Type namespace: OnlineServices
 namespace OnlineServices {
   // Size: 0x20
@@ -36,18 +28,12 @@ namespace OnlineServices {
     // [TokenAttribute] Offset: FFFFFFFF
     struct OnlineServicesAvailability/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: OnlineServicesAvailability
       constexpr OnlineServicesAvailability(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -76,11 +62,6 @@ namespace OnlineServices {
     #pragma pack(pop)
     static check_size<sizeof(PlatformServicesAvailabilityInfo::OnlineServicesAvailability), 0 + sizeof(int)> __OnlineServices_PlatformServicesAvailabilityInfo_OnlineServicesAvailabilitySizeCheck;
     static_assert(sizeof(PlatformServicesAvailabilityInfo::OnlineServicesAvailability) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public readonly OnlineServices.PlatformServicesAvailabilityInfo/OnlineServices.OnlineServicesAvailability availability
     // Size: 0x4
     // Offset: 0x10
@@ -95,19 +76,20 @@ namespace OnlineServices {
     ::Il2CppString* localizedMessage;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: PlatformServicesAvailabilityInfo
+    PlatformServicesAvailabilityInfo(OnlineServices::PlatformServicesAvailabilityInfo::OnlineServicesAvailability availability_ = {}, ::Il2CppString* localizedMessage_ = {}) noexcept : availability{availability_}, localizedMessage{localizedMessage_} {}
     // Get instance field reference: public readonly OnlineServices.PlatformServicesAvailabilityInfo/OnlineServices.OnlineServicesAvailability availability
     OnlineServices::PlatformServicesAvailabilityInfo::OnlineServicesAvailability& dyn_availability();
     // Get instance field reference: public readonly System.String localizedMessage
     ::Il2CppString*& dyn_localizedMessage();
     // static public OnlineServices.PlatformServicesAvailabilityInfo get_everythingOK()
-    // Offset: 0x1108BE8
+    // Offset: 0x1144318
     static OnlineServices::PlatformServicesAvailabilityInfo* get_everythingOK();
     // static public OnlineServices.PlatformServicesAvailabilityInfo get_onlineServicesUnavailableError()
-    // Offset: 0x1108CE8
+    // Offset: 0x1144418
     static OnlineServices::PlatformServicesAvailabilityInfo* get_onlineServicesUnavailableError();
     // private System.Void .ctor(OnlineServices.PlatformServicesAvailabilityInfo/OnlineServices.OnlineServicesAvailability availability, System.String localizedMessage)
-    // Offset: 0x1108CAC
+    // Offset: 0x11443DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlatformServicesAvailabilityInfo* New_ctor(OnlineServices::PlatformServicesAvailabilityInfo::OnlineServicesAvailability availability, ::Il2CppString* localizedMessage) {
       static auto ___internal__logger = ::Logger::get().WithContext("OnlineServices::PlatformServicesAvailabilityInfo::.ctor");
@@ -118,9 +100,9 @@ namespace OnlineServices {
   static check_size<sizeof(PlatformServicesAvailabilityInfo), 24 + sizeof(::Il2CppString*)> __OnlineServices_PlatformServicesAvailabilityInfoSizeCheck;
   static_assert(sizeof(PlatformServicesAvailabilityInfo) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OnlineServices::PlatformServicesAvailabilityInfo*, "OnlineServices", "PlatformServicesAvailabilityInfo");
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::PlatformServicesAvailabilityInfo::OnlineServicesAvailability, "OnlineServices", "PlatformServicesAvailabilityInfo/OnlineServicesAvailability");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OnlineServices::PlatformServicesAvailabilityInfo::get_everythingOK
 // Il2CppName: get_everythingOK
 template<>

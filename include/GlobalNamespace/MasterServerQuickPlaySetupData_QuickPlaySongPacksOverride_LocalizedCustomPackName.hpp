@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MasterServerQuickPlaySetupData/QuickPlaySongPacksOverride
 #include "GlobalNamespace/MasterServerQuickPlaySetupData_QuickPlaySongPacksOverride.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: LocalizedCustomPackName
-  class LocalizedCustomPackName;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPackName);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPackName*, "", "MasterServerQuickPlaySetupData/QuickPlaySongPacksOverride/LocalizedCustomPackName");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -28,11 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPackName : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.String language
     // Size: 0x8
     // Offset: 0x10
@@ -45,13 +32,14 @@ namespace GlobalNamespace {
     ::Il2CppString* packName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: LocalizedCustomPackName
+    LocalizedCustomPackName(::Il2CppString* language_ = {}, ::Il2CppString* packName_ = {}) noexcept : language{language_}, packName{packName_} {}
     // Get instance field reference: public System.String language
     ::Il2CppString*& dyn_language();
     // Get instance field reference: public System.String packName
     ::Il2CppString*& dyn_packName();
     // public System.Void .ctor()
-    // Offset: 0x1260650
+    // Offset: 0x1158CA0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -64,7 +52,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPackName), 24 + sizeof(::Il2CppString*)> __GlobalNamespace_MasterServerQuickPlaySetupData_QuickPlaySongPacksOverride_LocalizedCustomPackNameSizeCheck;
   static_assert(sizeof(MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPackName) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPackName*, "", "MasterServerQuickPlaySetupData/QuickPlaySongPacksOverride/LocalizedCustomPackName");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPackName::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: NamedIntListSettingsController
 #include "GlobalNamespace/NamedIntListSettingsController.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: TextValuePair
-  class TextValuePair;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::NamedIntListSettingsController::TextValuePair);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NamedIntListSettingsController::TextValuePair*, "", "NamedIntListSettingsController/TextValuePair");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x1C
@@ -28,11 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class NamedIntListSettingsController::TextValuePair : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.String text
     // Size: 0x8
     // Offset: 0x10
@@ -45,16 +32,17 @@ namespace GlobalNamespace {
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
+    // Creating value type constructor for type: TextValuePair
+    TextValuePair(::Il2CppString* text_ = {}, int value_ = {}) noexcept : text{text_}, value{value_} {}
     // Get instance field reference: public System.String text
     ::Il2CppString*& dyn_text();
     // Get instance field reference: public System.Int32 value
     int& dyn_value();
     // public System.String get_localizedText()
-    // Offset: 0x111DEC0
+    // Offset: 0x117D788
     ::Il2CppString* get_localizedText();
     // public System.Void .ctor()
-    // Offset: 0x111DED4
+    // Offset: 0x117D79C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -67,7 +55,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(NamedIntListSettingsController::TextValuePair), 24 + sizeof(int)> __GlobalNamespace_NamedIntListSettingsController_TextValuePairSizeCheck;
   static_assert(sizeof(NamedIntListSettingsController::TextValuePair) == 0x1C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NamedIntListSettingsController::TextValuePair*, "", "NamedIntListSettingsController/TextValuePair");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NamedIntListSettingsController::TextValuePair::get_localizedText
 // Il2CppName: get_localizedText
 template<>

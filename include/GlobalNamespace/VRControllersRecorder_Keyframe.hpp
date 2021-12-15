@@ -3,27 +3,19 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: VRControllersRecorder
 #include "GlobalNamespace/VRControllersRecorder.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.Quaternion
 #include "UnityEngine/Quaternion.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: Keyframe
-  class Keyframe;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::VRControllersRecorder::Keyframe);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorder::Keyframe*, "", "VRControllersRecorder/Keyframe");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x68
@@ -32,11 +24,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class VRControllersRecorder::Keyframe : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public UnityEngine.Vector3 _pos1
     // Size: 0xC
     // Offset: 0x10
@@ -79,7 +66,8 @@ namespace GlobalNamespace {
     float time;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
+    // Creating value type constructor for type: Keyframe
+    Keyframe(UnityEngine::Vector3 pos1_ = {}, UnityEngine::Vector3 pos2_ = {}, UnityEngine::Vector3 pos3_ = {}, UnityEngine::Quaternion rot1_ = {}, UnityEngine::Quaternion rot2_ = {}, UnityEngine::Quaternion rot3_ = {}, float time_ = {}) noexcept : pos1{pos1_}, pos2{pos2_}, pos3{pos3_}, rot1{rot1_}, rot2{rot2_}, rot3{rot3_}, time{time_} {}
     // Get instance field reference: public UnityEngine.Vector3 _pos1
     UnityEngine::Vector3& dyn__pos1();
     // Get instance field reference: public UnityEngine.Vector3 _pos2
@@ -95,7 +83,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single _time
     float& dyn__time();
     // public System.Void .ctor()
-    // Offset: 0x127039C
+    // Offset: 0x1BDA2AC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -108,7 +96,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(VRControllersRecorder::Keyframe), 100 + sizeof(float)> __GlobalNamespace_VRControllersRecorder_KeyframeSizeCheck;
   static_assert(sizeof(VRControllersRecorder::Keyframe) == 0x68);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorder::Keyframe*, "", "VRControllersRecorder/Keyframe");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::VRControllersRecorder::Keyframe::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

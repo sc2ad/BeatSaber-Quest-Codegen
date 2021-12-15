@@ -3,18 +3,16 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: OVRPlugin/Fovf
 #include "GlobalNamespace/OVRPlugin_Fovf.hpp"
-// Including type: System.Enum
-#include "System/Enum.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -23,14 +21,6 @@ namespace UnityEngine {
   class Camera;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: OVRMixedRealityCaptureTest
-  class OVRMixedRealityCaptureTest;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRMixedRealityCaptureTest);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMixedRealityCaptureTest*, "", "OVRMixedRealityCaptureTest");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x38
@@ -47,18 +37,12 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct CameraMode/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: CameraMode
       constexpr CameraMode(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -93,11 +77,6 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(OVRMixedRealityCaptureTest::CameraMode), 0 + sizeof(int)> __GlobalNamespace_OVRMixedRealityCaptureTest_CameraModeSizeCheck;
     static_assert(sizeof(OVRMixedRealityCaptureTest::CameraMode) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Boolean inited
     // Size: 0x1
     // Offset: 0x18
@@ -124,7 +103,8 @@ namespace GlobalNamespace {
     GlobalNamespace::OVRPlugin::Fovf defaultFov;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRPlugin::Fovf) == 0x10);
-    public:
+    // Creating value type constructor for type: OVRMixedRealityCaptureTest
+    OVRMixedRealityCaptureTest(bool inited_ = {}, GlobalNamespace::OVRMixedRealityCaptureTest::CameraMode currentMode_ = {}, UnityEngine::Camera* defaultExternalCamera_ = {}, GlobalNamespace::OVRPlugin::Fovf defaultFov_ = {}) noexcept : inited{inited_}, currentMode{currentMode_}, defaultExternalCamera{defaultExternalCamera_}, defaultFov{defaultFov_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Boolean inited
@@ -136,19 +116,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private OVRPlugin/Fovf defaultFov
     GlobalNamespace::OVRPlugin::Fovf& dyn_defaultFov();
     // private System.Void Start()
-    // Offset: 0x1449958
+    // Offset: 0x147913C
     void Start();
     // private System.Void Initialize()
-    // Offset: 0x1449A08
+    // Offset: 0x14791EC
     void Initialize();
     // private System.Void UpdateDefaultExternalCamera()
-    // Offset: 0x1449E38
+    // Offset: 0x147961C
     void UpdateDefaultExternalCamera();
     // private System.Void Update()
-    // Offset: 0x144A6A8
+    // Offset: 0x1479E8C
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x144B2DC
+    // Offset: 0x147AAC0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -165,9 +145,9 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRMixedRealityCaptureTest), 40 + sizeof(GlobalNamespace::OVRPlugin::Fovf)> __GlobalNamespace_OVRMixedRealityCaptureTestSizeCheck;
   static_assert(sizeof(OVRMixedRealityCaptureTest) == 0x38);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMixedRealityCaptureTest*, "", "OVRMixedRealityCaptureTest");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMixedRealityCaptureTest::CameraMode, "", "OVRMixedRealityCaptureTest/CameraMode");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureTest::Start
 // Il2CppName: Start
 template<>

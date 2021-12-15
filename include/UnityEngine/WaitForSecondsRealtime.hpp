@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.CustomYieldInstruction
 #include "UnityEngine/CustomYieldInstruction.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: WaitForSecondsRealtime
-  class WaitForSecondsRealtime;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::WaitForSecondsRealtime);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::WaitForSecondsRealtime*, "UnityEngine", "WaitForSecondsRealtime");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18
@@ -28,12 +20,7 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class WaitForSecondsRealtime : public UnityEngine::CustomYieldInstruction {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
-    // [DebuggerBrowsableAttribute] Offset: 0xE78BC0
+    // [DebuggerBrowsableAttribute] Offset: 0xEB87CC
     // private System.Single <waitTime>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -46,26 +33,27 @@ namespace UnityEngine {
     float m_WaitUntilTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
+    // Creating value type constructor for type: WaitForSecondsRealtime
+    WaitForSecondsRealtime(float waitTime_ = {}, float m_WaitUntilTime_ = {}) noexcept : waitTime{waitTime_}, m_WaitUntilTime{m_WaitUntilTime_} {}
     // Get instance field reference: private System.Single <waitTime>k__BackingField
     float& dyn_$waitTime$k__BackingField();
     // Get instance field reference: private System.Single m_WaitUntilTime
     float& dyn_m_WaitUntilTime();
     // public System.Single get_waitTime()
-    // Offset: 0x2334520
+    // Offset: 0x243F890
     float get_waitTime();
     // public System.Void set_waitTime(System.Single value)
-    // Offset: 0x2334528
+    // Offset: 0x243F898
     void set_waitTime(float value);
     // public System.Void .ctor(System.Single time)
-    // Offset: 0x23345C0
+    // Offset: 0x243F930
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WaitForSecondsRealtime* New_ctor(float time) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::WaitForSecondsRealtime::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WaitForSecondsRealtime*, creationType>(time)));
     }
     // public override System.Boolean get_keepWaiting()
-    // Offset: 0x2334530
+    // Offset: 0x243F8A0
     // Implemented from: UnityEngine.CustomYieldInstruction
     // Base method: System.Boolean CustomYieldInstruction::get_keepWaiting()
     bool get_keepWaiting();
@@ -74,7 +62,8 @@ namespace UnityEngine {
   static check_size<sizeof(WaitForSecondsRealtime), 20 + sizeof(float)> __UnityEngine_WaitForSecondsRealtimeSizeCheck;
   static_assert(sizeof(WaitForSecondsRealtime) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::WaitForSecondsRealtime*, "UnityEngine", "WaitForSecondsRealtime");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::WaitForSecondsRealtime::get_waitTime
 // Il2CppName: get_waitTime
 template<>

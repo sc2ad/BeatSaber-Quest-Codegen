@@ -3,24 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IO.TextReader
 #include "System/IO/TextReader.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.IO
-namespace System::IO {
-  // Forward declaring type: SyncTextReader
-  class SyncTextReader;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::IO::TextReader::SyncTextReader);
-DEFINE_IL2CPP_ARG_TYPE(System::IO::TextReader::SyncTextReader*, "System.IO", "TextReader/SyncTextReader");
 // Type namespace: System.IO
 namespace System::IO {
   // Size: 0x20
@@ -29,61 +20,57 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   class TextReader::SyncTextReader : public System::IO::TextReader {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // System.IO.TextReader _in
     // Size: 0x8
     // Offset: 0x18
     System::IO::TextReader* in;
     // Field size check
     static_assert(sizeof(System::IO::TextReader*) == 0x8);
-    public:
+    // Creating value type constructor for type: SyncTextReader
+    SyncTextReader(System::IO::TextReader* in_ = {}) noexcept : in{in_} {}
     // Deleting conversion operator: operator ::Il2CppObject*
     constexpr operator ::Il2CppObject*() const noexcept = delete;
     // Get instance field reference: System.IO.TextReader _in
     System::IO::TextReader*& dyn__in();
     // System.Void .ctor(System.IO.TextReader t)
-    // Offset: 0x19EB900
+    // Offset: 0x1A09FB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TextReader::SyncTextReader* New_ctor(System::IO::TextReader* t) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::TextReader::SyncTextReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TextReader::SyncTextReader*, creationType>(t)));
     }
     // public override System.Void Close()
-    // Offset: 0x19EBCDC
+    // Offset: 0x1A0A38C
     // Implemented from: System.IO.TextReader
     // Base method: System.Void TextReader::Close()
     void Close();
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x19EBCFC
+    // Offset: 0x1A0A3AC
     // Implemented from: System.IO.TextReader
     // Base method: System.Void TextReader::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
     // public override System.Int32 Peek()
-    // Offset: 0x19EBDCC
+    // Offset: 0x1A0A47C
     // Implemented from: System.IO.TextReader
     // Base method: System.Int32 TextReader::Peek()
     int Peek();
     // public override System.Int32 Read()
-    // Offset: 0x19EBDEC
+    // Offset: 0x1A0A49C
     // Implemented from: System.IO.TextReader
     // Base method: System.Int32 TextReader::Read()
     int Read();
     // public override System.Int32 Read(in System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x19EBE0C
+    // Offset: 0x1A0A4BC
     // Implemented from: System.IO.TextReader
     // Base method: System.Int32 TextReader::Read(in System.Char[] buffer, System.Int32 index, System.Int32 count)
-    int Read(ByRef<::ArrayW<::Il2CppChar>> buffer, int index, int count);
+    int Read(ByRef<::Array<::Il2CppChar>*> buffer, int index, int count);
     // public override System.String ReadLine()
-    // Offset: 0x19EBE2C
+    // Offset: 0x1A0A4DC
     // Implemented from: System.IO.TextReader
     // Base method: System.String TextReader::ReadLine()
     ::Il2CppString* ReadLine();
     // public override System.String ReadToEnd()
-    // Offset: 0x19EBE50
+    // Offset: 0x1A0A500
     // Implemented from: System.IO.TextReader
     // Base method: System.String TextReader::ReadToEnd()
     ::Il2CppString* ReadToEnd();
@@ -92,7 +79,8 @@ namespace System::IO {
   static check_size<sizeof(TextReader::SyncTextReader), 24 + sizeof(System::IO::TextReader*)> __System_IO_TextReader_SyncTextReaderSizeCheck;
   static_assert(sizeof(TextReader::SyncTextReader) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::IO::TextReader::SyncTextReader*, "System.IO", "TextReader/SyncTextReader");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::TextReader::SyncTextReader::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -133,7 +121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::IO::TextReader::SyncTextReader::Read
 // Il2CppName: Read
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::TextReader::SyncTextReader::*)(ByRef<::ArrayW<::Il2CppChar>>, int, int)>(&System::IO::TextReader::SyncTextReader::Read)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::TextReader::SyncTextReader::*)(ByRef<::Array<::Il2CppChar>*>, int, int)>(&System::IO::TextReader::SyncTextReader::Read)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->this_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

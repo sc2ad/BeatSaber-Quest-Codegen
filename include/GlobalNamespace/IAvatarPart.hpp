@@ -3,19 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct Il2CppString;
 // Completed il2cpp-utils forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: IAvatarPart
-  class IAvatarPart;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::IAvatarPart);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IAvatarPart*, "", "IAvatarPart");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -24,6 +16,8 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IAvatarPart {
     public:
+    // Creating value type constructor for type: IAvatarPart
+    IAvatarPart() noexcept {}
     // public System.String get_id()
     // Offset: 0xFFFFFFFF
     ::Il2CppString* get_id();
@@ -33,7 +27,9 @@ namespace GlobalNamespace {
   }; // IAvatarPart
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IAvatarPart*, "", "IAvatarPart");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::IAvatarPart::get_id
 // Il2CppName: get_id
 template<>

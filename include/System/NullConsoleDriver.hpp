@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IConsoleDriver
 #include "System/IConsoleDriver.hpp"
 // Including type: System.ConsoleKeyInfo
 #include "System/ConsoleKeyInfo.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System
-namespace System {
-  // Forward declaring type: NullConsoleDriver
-  class NullConsoleDriver;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::NullConsoleDriver);
-DEFINE_IL2CPP_ARG_TYPE(System::NullConsoleDriver*, "System", "NullConsoleDriver");
 // Type namespace: System
 namespace System {
   // Size: 0x10
@@ -30,6 +22,8 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class NullConsoleDriver : public ::Il2CppObject/*, public System::IConsoleDriver*/ {
     public:
+    // Creating value type constructor for type: NullConsoleDriver
+    NullConsoleDriver() noexcept {}
     // Creating interface conversion operator: operator System::IConsoleDriver
     operator System::IConsoleDriver() noexcept {
       return *reinterpret_cast<System::IConsoleDriver*>(this);
@@ -39,13 +33,13 @@ namespace System {
     // Set static field: static private readonly System.ConsoleKeyInfo EmptyConsoleKeyInfo
     static void _set_EmptyConsoleKeyInfo(System::ConsoleKeyInfo value);
     // static private System.Void .cctor()
-    // Offset: 0x19F89B0
+    // Offset: 0x1A17060
     static void _cctor();
     // public System.ConsoleKeyInfo ReadKey(System.Boolean intercept)
-    // Offset: 0x19F893C
+    // Offset: 0x1A16FEC
     System::ConsoleKeyInfo ReadKey(bool intercept);
     // public System.Void .ctor()
-    // Offset: 0x19F89A8
+    // Offset: 0x1A17058
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -56,7 +50,8 @@ namespace System {
   }; // System.NullConsoleDriver
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::NullConsoleDriver*, "System", "NullConsoleDriver");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::NullConsoleDriver::_cctor
 // Il2CppName: .cctor
 template<>

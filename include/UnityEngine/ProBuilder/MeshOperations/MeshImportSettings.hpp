@@ -3,21 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: UnityEngine.ProBuilder.MeshOperations
-namespace UnityEngine::ProBuilder::MeshOperations {
-  // Forward declaring type: MeshImportSettings
-  class MeshImportSettings;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ProBuilder::MeshOperations::MeshImportSettings);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::MeshImportSettings*, "UnityEngine.ProBuilder.MeshOperations", "MeshImportSettings");
 // Type namespace: UnityEngine.ProBuilder.MeshOperations
 namespace UnityEngine::ProBuilder::MeshOperations {
   // Size: 0x18
@@ -26,11 +18,6 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   // [TokenAttribute] Offset: FFFFFFFF
   class MeshImportSettings : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Boolean m_Quads
     // Size: 0x1
     // Offset: 0x10
@@ -51,7 +38,8 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     float m_SmoothingThreshold;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
+    // Creating value type constructor for type: MeshImportSettings
+    MeshImportSettings(bool m_Quads_ = {}, bool m_Smoothing_ = {}, float m_SmoothingThreshold_ = {}) noexcept : m_Quads{m_Quads_}, m_Smoothing{m_Smoothing_}, m_SmoothingThreshold{m_SmoothingThreshold_} {}
     // Get instance field reference: private System.Boolean m_Quads
     bool& dyn_m_Quads();
     // Get instance field reference: private System.Boolean m_Smoothing
@@ -59,25 +47,25 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Get instance field reference: private System.Single m_SmoothingThreshold
     float& dyn_m_SmoothingThreshold();
     // public System.Boolean get_quads()
-    // Offset: 0x18DE1B0
+    // Offset: 0x1903374
     bool get_quads();
     // public System.Void set_quads(System.Boolean value)
-    // Offset: 0x18DE1B8
+    // Offset: 0x190337C
     void set_quads(bool value);
     // public System.Boolean get_smoothing()
-    // Offset: 0x18DE1C4
+    // Offset: 0x1903388
     bool get_smoothing();
     // public System.Void set_smoothing(System.Boolean value)
-    // Offset: 0x18DE1CC
+    // Offset: 0x1903390
     void set_smoothing(bool value);
     // public System.Single get_smoothingAngle()
-    // Offset: 0x18DE1D8
+    // Offset: 0x190339C
     float get_smoothingAngle();
     // public System.Void set_smoothingAngle(System.Single value)
-    // Offset: 0x18DE1E0
+    // Offset: 0x19033A4
     void set_smoothingAngle(float value);
     // public System.Void .ctor()
-    // Offset: 0x18DE2B0
+    // Offset: 0x1903474
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -86,7 +74,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
       return THROW_UNLESS((::il2cpp_utils::New<MeshImportSettings*, creationType>()));
     }
     // public override System.String ToString()
-    // Offset: 0x18DE1E8
+    // Offset: 0x19033AC
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
@@ -95,7 +83,8 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   static check_size<sizeof(MeshImportSettings), 20 + sizeof(float)> __UnityEngine_ProBuilder_MeshOperations_MeshImportSettingsSizeCheck;
   static_assert(sizeof(MeshImportSettings) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::MeshImportSettings*, "UnityEngine.ProBuilder.MeshOperations", "MeshImportSettings");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::get_quads
 // Il2CppName: get_quads
 template<>

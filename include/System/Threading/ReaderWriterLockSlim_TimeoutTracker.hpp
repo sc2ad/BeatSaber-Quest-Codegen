@@ -3,20 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Threading.ReaderWriterLockSlim
 #include "System/Threading/ReaderWriterLockSlim.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Threading
-namespace System::Threading {
-  // Forward declaring type: TimeoutTracker
-  struct TimeoutTracker;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::ReaderWriterLockSlim::TimeoutTracker, "System.Threading", "ReaderWriterLockSlim/TimeoutTracker");
 // Type namespace: System.Threading
 namespace System::Threading {
   // Size: 0x8
@@ -26,11 +23,6 @@ namespace System::Threading {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ReaderWriterLockSlim::TimeoutTracker/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Int32 m_total
     // Size: 0x4
     // Offset: 0x0
@@ -43,7 +35,6 @@ namespace System::Threading {
     int m_start;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: TimeoutTracker
     constexpr TimeoutTracker(int m_total_ = {}, int m_start_ = {}) noexcept : m_total{m_total_}, m_start{m_start_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -55,20 +46,26 @@ namespace System::Threading {
     // Get instance field reference: private System.Int32 m_start
     int& dyn_m_start();
     // public System.Int32 get_RemainingMilliseconds()
-    // Offset: 0x25AD694
+    // Offset: 0x2671CE8
     int get_RemainingMilliseconds();
     // public System.Boolean get_IsExpired()
-    // Offset: 0x25AC5CC
+    // Offset: 0x2670C20
     bool get_IsExpired();
     // public System.Void .ctor(System.Int32 millisecondsTimeout)
-    // Offset: 0x25AC174
-    TimeoutTracker(int millisecondsTimeout);
+    // Offset: 0x26707C8
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    TimeoutTracker(int millisecondsTimeout) {
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::ReaderWriterLockSlim::TimeoutTracker::.ctor");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(millisecondsTimeout)})));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, millisecondsTimeout);
+    }
   }; // System.Threading.ReaderWriterLockSlim/System.Threading.TimeoutTracker
   #pragma pack(pop)
   static check_size<sizeof(ReaderWriterLockSlim::TimeoutTracker), 4 + sizeof(int)> __System_Threading_ReaderWriterLockSlim_TimeoutTrackerSizeCheck;
   static_assert(sizeof(ReaderWriterLockSlim::TimeoutTracker) == 0x8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::ReaderWriterLockSlim::TimeoutTracker, "System.Threading", "ReaderWriterLockSlim/TimeoutTracker");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::ReaderWriterLockSlim::TimeoutTracker::get_RemainingMilliseconds
 // Il2CppName: get_RemainingMilliseconds
 template<>

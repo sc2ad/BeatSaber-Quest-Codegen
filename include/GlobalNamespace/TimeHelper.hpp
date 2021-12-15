@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: TimeHelper
-  class TimeHelper;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::TimeHelper);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TimeHelper*, "", "TimeHelper");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x1C
@@ -28,18 +20,14 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TimeHelper : public UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Single _accumulator
     // Size: 0x4
     // Offset: 0x18
     float accumulator;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
+    // Creating value type constructor for type: TimeHelper
+    TimeHelper(float accumulator_ = {}) noexcept : accumulator{accumulator_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private System.Single <time>k__BackingField
@@ -61,40 +49,40 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _accumulator
     float& dyn__accumulator();
     // static public System.Single get_time()
-    // Offset: 0x2580544
+    // Offset: 0x2641DDC
     static float get_time();
     // static private System.Void set_time(System.Single value)
-    // Offset: 0x2580594
+    // Offset: 0x2641E2C
     static void set_time(float value);
     // static public System.Single get_deltaTime()
-    // Offset: 0x25805F0
+    // Offset: 0x2641E88
     static float get_deltaTime();
     // static private System.Void set_deltaTime(System.Single value)
-    // Offset: 0x2580640
+    // Offset: 0x2641ED8
     static void set_deltaTime(float value);
     // static public System.Single get_fixedDeltaTime()
-    // Offset: 0x258069C
+    // Offset: 0x2641F34
     static float get_fixedDeltaTime();
     // static private System.Void set_fixedDeltaTime(System.Single value)
-    // Offset: 0x25806EC
+    // Offset: 0x2641F84
     static void set_fixedDeltaTime(float value);
     // static public System.Single get_interpolationFactor()
-    // Offset: 0x2580748
+    // Offset: 0x2641FE0
     static float get_interpolationFactor();
     // static private System.Void set_interpolationFactor(System.Single value)
-    // Offset: 0x2580798
+    // Offset: 0x2642030
     static void set_interpolationFactor(float value);
     // protected System.Void Awake()
-    // Offset: 0x25807F4
+    // Offset: 0x264208C
     void Awake();
     // protected System.Void FixedUpdate()
-    // Offset: 0x25808A4
+    // Offset: 0x264213C
     void FixedUpdate();
     // protected System.Void Update()
-    // Offset: 0x2580954
+    // Offset: 0x26421EC
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x2580B08
+    // Offset: 0x26423A0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -111,7 +99,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(TimeHelper), 24 + sizeof(float)> __GlobalNamespace_TimeHelperSizeCheck;
   static_assert(sizeof(TimeHelper) == 0x1C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TimeHelper*, "", "TimeHelper");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TimeHelper::get_time
 // Il2CppName: get_time
 template<>

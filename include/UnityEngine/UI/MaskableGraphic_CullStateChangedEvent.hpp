@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.UI.MaskableGraphic
 #include "UnityEngine/UI/MaskableGraphic.hpp"
 // Including type: UnityEngine.Events.UnityEvent`1
 #include "UnityEngine/Events/UnityEvent_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: UnityEngine.UI
-namespace UnityEngine::UI {
-  // Forward declaring type: CullStateChangedEvent
-  class CullStateChangedEvent;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::UI::MaskableGraphic::CullStateChangedEvent);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::MaskableGraphic::CullStateChangedEvent*, "UnityEngine.UI", "MaskableGraphic/CullStateChangedEvent");
 // Type namespace: UnityEngine.UI
 namespace UnityEngine::UI {
   // WARNING Size may be invalid!
@@ -29,8 +21,10 @@ namespace UnityEngine::UI {
   // [TokenAttribute] Offset: FFFFFFFF
   class MaskableGraphic::CullStateChangedEvent : public UnityEngine::Events::UnityEvent_1<bool> {
     public:
+    // Creating value type constructor for type: CullStateChangedEvent
+    CullStateChangedEvent() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1B31F04
+    // Offset: 0x1BAC814
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent_1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()
@@ -42,7 +36,8 @@ namespace UnityEngine::UI {
     }
   }; // UnityEngine.UI.MaskableGraphic/UnityEngine.UI.CullStateChangedEvent
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::MaskableGraphic::CullStateChangedEvent*, "UnityEngine.UI", "MaskableGraphic/CullStateChangedEvent");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::MaskableGraphic::CullStateChangedEvent::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

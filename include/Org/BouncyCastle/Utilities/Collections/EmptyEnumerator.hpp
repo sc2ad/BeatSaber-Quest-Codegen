@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Collections.IEnumerator
 #include "System/Collections/IEnumerator.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Org.BouncyCastle.Utilities.Collections
-namespace Org::BouncyCastle::Utilities::Collections {
-  // Forward declaring type: EmptyEnumerator
-  class EmptyEnumerator;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Utilities::Collections::EmptyEnumerator);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Collections::EmptyEnumerator*, "Org.BouncyCastle.Utilities.Collections", "EmptyEnumerator");
 // Type namespace: Org.BouncyCastle.Utilities.Collections
 namespace Org::BouncyCastle::Utilities::Collections {
   // Size: 0x10
@@ -28,6 +20,8 @@ namespace Org::BouncyCastle::Utilities::Collections {
   // [TokenAttribute] Offset: FFFFFFFF
   class EmptyEnumerator : public ::Il2CppObject/*, public System::Collections::IEnumerator*/ {
     public:
+    // Creating value type constructor for type: EmptyEnumerator
+    EmptyEnumerator() noexcept {}
     // Creating interface conversion operator: operator System::Collections::IEnumerator
     operator System::Collections::IEnumerator() noexcept {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);
@@ -37,19 +31,19 @@ namespace Org::BouncyCastle::Utilities::Collections {
     // Set static field: static public readonly System.Collections.IEnumerator Instance
     static void _set_Instance(System::Collections::IEnumerator* value);
     // public System.Object get_Current()
-    // Offset: 0x14D18A4
+    // Offset: 0x15478F4
     ::Il2CppObject* get_Current();
     // static private System.Void .cctor()
-    // Offset: 0x14D1910
+    // Offset: 0x1547960
     static void _cctor();
     // public System.Boolean MoveNext()
-    // Offset: 0x14D1898
+    // Offset: 0x15478E8
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x14D18A0
+    // Offset: 0x15478F0
     void Reset();
     // private System.Void .ctor()
-    // Offset: 0x14D1890
+    // Offset: 0x15478E0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -60,7 +54,8 @@ namespace Org::BouncyCastle::Utilities::Collections {
   }; // Org.BouncyCastle.Utilities.Collections.EmptyEnumerator
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Collections::EmptyEnumerator*, "Org.BouncyCastle.Utilities.Collections", "EmptyEnumerator");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Collections::EmptyEnumerator::get_Current
 // Il2CppName: get_Current
 template<>

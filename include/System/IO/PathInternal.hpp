@@ -3,17 +3,9 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: System.IO
-namespace System::IO {
-  // Forward declaring type: PathInternal
-  class PathInternal;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::IO::PathInternal);
-DEFINE_IL2CPP_ARG_TYPE(System::IO::PathInternal*, "System.IO", "PathInternal");
 // Type namespace: System.IO
 namespace System::IO {
   // Size: 0x10
@@ -22,16 +14,20 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   class PathInternal : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: PathInternal
+    PathInternal() noexcept {}
     // static public System.Boolean IsPartiallyQualified(System.String path)
-    // Offset: 0x1AA6604
+    // Offset: 0x1B07C1C
     static bool IsPartiallyQualified(::Il2CppString* path);
     // static public System.Boolean HasIllegalCharacters(System.String path, System.Boolean checkAdditional)
-    // Offset: 0x1AA62C8
+    // Offset: 0x1B078E0
     static bool HasIllegalCharacters(::Il2CppString* path, bool checkAdditional);
   }; // System.IO.PathInternal
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::IO::PathInternal*, "System.IO", "PathInternal");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::PathInternal::IsPartiallyQualified
 // Il2CppName: IsPartiallyQualified
 template<>

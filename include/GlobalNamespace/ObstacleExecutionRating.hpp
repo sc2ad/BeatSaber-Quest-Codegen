@@ -3,14 +3,14 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BeatmapObjectExecutionRating
 #include "GlobalNamespace/BeatmapObjectExecutionRating.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -18,14 +18,6 @@ namespace GlobalNamespace {
   // Skipping declaration: Rating because it is already included!
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: ObstacleExecutionRating
-  class ObstacleExecutionRating;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::ObstacleExecutionRating);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleExecutionRating*, "", "ObstacleExecutionRating");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x1C
@@ -42,18 +34,12 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct Rating/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: Rating
       constexpr Rating(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -82,18 +68,14 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(ObstacleExecutionRating::Rating), 0 + sizeof(int)> __GlobalNamespace_ObstacleExecutionRating_RatingSizeCheck;
     static_assert(sizeof(ObstacleExecutionRating::Rating) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private ObstacleExecutionRating/Rating <rating>k__BackingField
     // Size: 0x4
     // Offset: 0x18
     GlobalNamespace::ObstacleExecutionRating::Rating rating;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ObstacleExecutionRating::Rating) == 0x4);
-    public:
+    // Creating value type constructor for type: ObstacleExecutionRating
+    ObstacleExecutionRating(GlobalNamespace::ObstacleExecutionRating::Rating rating_ = {}) noexcept : rating{rating_} {}
     // Creating conversion operator: operator GlobalNamespace::ObstacleExecutionRating::Rating
     constexpr operator GlobalNamespace::ObstacleExecutionRating::Rating() const noexcept {
       return rating;
@@ -101,13 +83,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private ObstacleExecutionRating/Rating <rating>k__BackingField
     GlobalNamespace::ObstacleExecutionRating::Rating& dyn_$rating$k__BackingField();
     // public ObstacleExecutionRating/Rating get_rating()
-    // Offset: 0x1341978
+    // Offset: 0x134679C
     GlobalNamespace::ObstacleExecutionRating::Rating get_rating();
     // public System.Void set_rating(ObstacleExecutionRating/Rating value)
-    // Offset: 0x1341980
+    // Offset: 0x13467A4
     void set_rating(GlobalNamespace::ObstacleExecutionRating::Rating value);
     // public System.Void .ctor(System.Single time, ObstacleExecutionRating/Rating rating)
-    // Offset: 0x1341988
+    // Offset: 0x13467AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObstacleExecutionRating* New_ctor(float time, GlobalNamespace::ObstacleExecutionRating::Rating rating) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ObstacleExecutionRating::.ctor");
@@ -118,9 +100,9 @@ namespace GlobalNamespace {
   static check_size<sizeof(ObstacleExecutionRating), 24 + sizeof(GlobalNamespace::ObstacleExecutionRating::Rating)> __GlobalNamespace_ObstacleExecutionRatingSizeCheck;
   static_assert(sizeof(ObstacleExecutionRating) == 0x1C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleExecutionRating*, "", "ObstacleExecutionRating");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleExecutionRating::Rating, "", "ObstacleExecutionRating/Rating");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ObstacleExecutionRating::get_rating
 // Il2CppName: get_rating
 template<>

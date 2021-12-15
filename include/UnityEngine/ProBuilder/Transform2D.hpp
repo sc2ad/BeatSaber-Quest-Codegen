@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Vector2
 #include "UnityEngine/Vector2.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: UnityEngine.ProBuilder
-namespace UnityEngine::ProBuilder {
-  // Forward declaring type: Transform2D
-  class Transform2D;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ProBuilder::Transform2D);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Transform2D*, "UnityEngine.ProBuilder", "Transform2D");
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {
   // Size: 0x24
@@ -28,11 +20,6 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   class Transform2D : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public UnityEngine.Vector2 position
     // Size: 0x8
     // Offset: 0x10
@@ -51,7 +38,8 @@ namespace UnityEngine::ProBuilder {
     UnityEngine::Vector2 scale;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector2) == 0x8);
-    public:
+    // Creating value type constructor for type: Transform2D
+    Transform2D(UnityEngine::Vector2 position_ = {}, float rotation_ = {}, UnityEngine::Vector2 scale_ = {}) noexcept : position{position_}, rotation{rotation_}, scale{scale_} {}
     // Get instance field reference: public UnityEngine.Vector2 position
     UnityEngine::Vector2& dyn_position();
     // Get instance field reference: public System.Single rotation
@@ -59,17 +47,17 @@ namespace UnityEngine::ProBuilder {
     // Get instance field reference: public UnityEngine.Vector2 scale
     UnityEngine::Vector2& dyn_scale();
     // public System.Void .ctor(UnityEngine.Vector2 position, System.Single rotation, UnityEngine.Vector2 scale)
-    // Offset: 0x24D7328
+    // Offset: 0x25832FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Transform2D* New_ctor(UnityEngine::Vector2 position, float rotation, UnityEngine::Vector2 scale) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Transform2D::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Transform2D*, creationType>(position, rotation, scale)));
     }
     // public UnityEngine.Vector2 TransformPoint(UnityEngine.Vector2 p)
-    // Offset: 0x24D7384
+    // Offset: 0x2583358
     UnityEngine::Vector2 TransformPoint(UnityEngine::Vector2 p);
     // public override System.String ToString()
-    // Offset: 0x24D7458
+    // Offset: 0x258342C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
@@ -78,7 +66,8 @@ namespace UnityEngine::ProBuilder {
   static check_size<sizeof(Transform2D), 28 + sizeof(UnityEngine::Vector2)> __UnityEngine_ProBuilder_Transform2DSizeCheck;
   static_assert(sizeof(Transform2D) == 0x24);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Transform2D*, "UnityEngine.ProBuilder", "Transform2D");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Transform2D::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

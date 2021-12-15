@@ -3,18 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: System.Net.Security
-namespace System::Net::Security {
-  // Forward declaring type: SslPolicyErrors
-  struct SslPolicyErrors;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Net::Security::SslPolicyErrors, "System.Net.Security", "SslPolicyErrors");
 // Type namespace: System.Net.Security
 namespace System::Net::Security {
   // Size: 0x4
@@ -24,18 +17,12 @@ namespace System::Net::Security {
   // [FlagsAttribute] Offset: FFFFFFFF
   struct SslPolicyErrors/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: SslPolicyErrors
     constexpr SslPolicyErrors(int value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -77,4 +64,6 @@ namespace System::Net::Security {
   static check_size<sizeof(SslPolicyErrors), 0 + sizeof(int)> __System_Net_Security_SslPolicyErrorsSizeCheck;
   static_assert(sizeof(SslPolicyErrors) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Security::SslPolicyErrors, "System.Net.Security", "SslPolicyErrors");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -3,17 +3,9 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: Org.BouncyCastle.Utilities
-namespace Org::BouncyCastle::Utilities {
-  // Forward declaring type: Times
-  class Times;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Utilities::Times);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Times*, "Org.BouncyCastle.Utilities", "Times");
 // Type namespace: Org.BouncyCastle.Utilities
 namespace Org::BouncyCastle::Utilities {
   // Size: 0x10
@@ -22,20 +14,24 @@ namespace Org::BouncyCastle::Utilities {
   // [TokenAttribute] Offset: FFFFFFFF
   class Times : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: Times
+    Times() noexcept {}
     // Get static field: static private System.Int64 NanosecondsPerTick
     static int64_t _get_NanosecondsPerTick();
     // Set static field: static private System.Int64 NanosecondsPerTick
     static void _set_NanosecondsPerTick(int64_t value);
     // static private System.Void .cctor()
-    // Offset: 0x216D9AC
+    // Offset: 0x222C7D8
     static void _cctor();
     // static public System.Int64 NanoTime()
-    // Offset: 0x216D8F4
+    // Offset: 0x222C720
     static int64_t NanoTime();
   }; // Org.BouncyCastle.Utilities.Times
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Times*, "Org.BouncyCastle.Utilities", "Times");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Times::_cctor
 // Il2CppName: .cctor
 template<>

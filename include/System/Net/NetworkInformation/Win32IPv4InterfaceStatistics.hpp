@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.NetworkInformation.IPv4InterfaceStatistics
 #include "System/Net/NetworkInformation/IPv4InterfaceStatistics.hpp"
 // Including type: System.Net.NetworkInformation.Win32_MIB_IFROW
 #include "System/Net/NetworkInformation/Win32_MIB_IFROW.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Net.NetworkInformation
-namespace System::Net::NetworkInformation {
-  // Forward declaring type: Win32IPv4InterfaceStatistics
-  class Win32IPv4InterfaceStatistics;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::NetworkInformation::Win32IPv4InterfaceStatistics);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32IPv4InterfaceStatistics*, "System.Net.NetworkInformation", "Win32IPv4InterfaceStatistics");
 // Type namespace: System.Net.NetworkInformation
 namespace System::Net::NetworkInformation {
   // Size: 0x80
@@ -30,18 +22,14 @@ namespace System::Net::NetworkInformation {
   // [TokenAttribute] Offset: FFFFFFFF
   class Win32IPv4InterfaceStatistics : public System::Net::NetworkInformation::IPv4InterfaceStatistics {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Net.NetworkInformation.Win32_MIB_IFROW info
     // Size: 0x70
     // Offset: 0x10
     System::Net::NetworkInformation::Win32_MIB_IFROW info;
     // Field size check
     static_assert(sizeof(System::Net::NetworkInformation::Win32_MIB_IFROW) == 0x70);
-    public:
+    // Creating value type constructor for type: Win32IPv4InterfaceStatistics
+    Win32IPv4InterfaceStatistics(System::Net::NetworkInformation::Win32_MIB_IFROW info_ = {}) noexcept : info{info_} {}
     // Creating conversion operator: operator System::Net::NetworkInformation::Win32_MIB_IFROW
     constexpr operator System::Net::NetworkInformation::Win32_MIB_IFROW() const noexcept {
       return info;
@@ -49,7 +37,7 @@ namespace System::Net::NetworkInformation {
     // Get instance field reference: private System.Net.NetworkInformation.Win32_MIB_IFROW info
     System::Net::NetworkInformation::Win32_MIB_IFROW& dyn_info();
     // public System.Void .ctor(System.Net.NetworkInformation.Win32_MIB_IFROW info)
-    // Offset: 0x162E5BC
+    // Offset: 0x16AA200
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Win32IPv4InterfaceStatistics* New_ctor(System::Net::NetworkInformation::Win32_MIB_IFROW info) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::Win32IPv4InterfaceStatistics::.ctor");
@@ -60,7 +48,8 @@ namespace System::Net::NetworkInformation {
   static check_size<sizeof(Win32IPv4InterfaceStatistics), 16 + sizeof(System::Net::NetworkInformation::Win32_MIB_IFROW)> __System_Net_NetworkInformation_Win32IPv4InterfaceStatisticsSizeCheck;
   static_assert(sizeof(Win32IPv4InterfaceStatistics) == 0x80);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32IPv4InterfaceStatistics*, "System.Net.NetworkInformation", "Win32IPv4InterfaceStatistics");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::NetworkInformation::Win32IPv4InterfaceStatistics::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

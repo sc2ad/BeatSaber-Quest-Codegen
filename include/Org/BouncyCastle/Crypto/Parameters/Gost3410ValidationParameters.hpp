@@ -3,17 +3,9 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: Org.BouncyCastle.Crypto.Parameters
-namespace Org::BouncyCastle::Crypto::Parameters {
-  // Forward declaring type: Gost3410ValidationParameters
-  class Gost3410ValidationParameters;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters*, "Org.BouncyCastle.Crypto.Parameters", "Gost3410ValidationParameters");
 // Type namespace: Org.BouncyCastle.Crypto.Parameters
 namespace Org::BouncyCastle::Crypto::Parameters {
   // Size: 0x10
@@ -22,7 +14,11 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   // [TokenAttribute] Offset: FFFFFFFF
   class Gost3410ValidationParameters : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: Gost3410ValidationParameters
+    Gost3410ValidationParameters() noexcept {}
   }; // Org.BouncyCastle.Crypto.Parameters.Gost3410ValidationParameters
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters*, "Org.BouncyCastle.Crypto.Parameters", "Gost3410ValidationParameters");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

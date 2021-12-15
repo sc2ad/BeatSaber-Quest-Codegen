@@ -3,18 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: NUnit.Framework.Interfaces
-namespace NUnit::Framework::Interfaces {
-  // Forward declaring type: RunState
-  struct RunState;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::RunState, "NUnit.Framework.Interfaces", "RunState");
 // Type namespace: NUnit.Framework.Interfaces
 namespace NUnit::Framework::Interfaces {
   // Size: 0x4
@@ -23,18 +16,12 @@ namespace NUnit::Framework::Interfaces {
   // [TokenAttribute] Offset: FFFFFFFF
   struct RunState/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: RunState
     constexpr RunState(int value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -82,4 +69,6 @@ namespace NUnit::Framework::Interfaces {
   static check_size<sizeof(RunState), 0 + sizeof(int)> __NUnit_Framework_Interfaces_RunStateSizeCheck;
   static_assert(sizeof(RunState) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::RunState, "NUnit.Framework.Interfaces", "RunState");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

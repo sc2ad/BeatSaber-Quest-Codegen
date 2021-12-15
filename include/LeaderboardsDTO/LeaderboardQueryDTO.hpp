@@ -3,24 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: LeaderboardsDTO
-namespace LeaderboardsDTO {
-  // Forward declaring type: LeaderboardQueryDTO
-  class LeaderboardQueryDTO;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(LeaderboardsDTO::LeaderboardQueryDTO);
-DEFINE_IL2CPP_ARG_TYPE(LeaderboardsDTO::LeaderboardQueryDTO*, "LeaderboardsDTO", "LeaderboardQueryDTO");
 // Type namespace: LeaderboardsDTO
 namespace LeaderboardsDTO {
   // Size: 0x31
@@ -37,18 +28,12 @@ namespace LeaderboardsDTO {
     // [TokenAttribute] Offset: FFFFFFFF
     struct ScoresScope/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: ScoresScope
       constexpr ScoresScope(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -77,11 +62,6 @@ namespace LeaderboardsDTO {
     #pragma pack(pop)
     static check_size<sizeof(LeaderboardQueryDTO::ScoresScope), 0 + sizeof(int)> __LeaderboardsDTO_LeaderboardQueryDTO_ScoresScopeSizeCheck;
     static_assert(sizeof(LeaderboardQueryDTO::ScoresScope) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.String leaderboardId
     // Size: 0x8
     // Offset: 0x10
@@ -111,16 +91,17 @@ namespace LeaderboardsDTO {
     // public System.String[] friendsUserIds
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayW<::Il2CppString*> friendsUserIds;
+    ::Array<::Il2CppString*>* friendsUserIds;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
     // public System.Boolean includedScoreWithModifiers
     // Size: 0x1
     // Offset: 0x30
     bool includedScoreWithModifiers;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: LeaderboardQueryDTO
+    LeaderboardQueryDTO(::Il2CppString* leaderboardId_ = {}, int count_ = {}, int fromRank_ = {}, LeaderboardsDTO::LeaderboardQueryDTO::ScoresScope scope_ = {}, ::Array<::Il2CppString*>* friendsUserIds_ = {}, bool includedScoreWithModifiers_ = {}) noexcept : leaderboardId{leaderboardId_}, count{count_}, fromRank{fromRank_}, scope{scope_}, friendsUserIds{friendsUserIds_}, includedScoreWithModifiers{includedScoreWithModifiers_} {}
     // Get instance field reference: public System.String leaderboardId
     ::Il2CppString*& dyn_leaderboardId();
     // Get instance field reference: public System.Int32 count
@@ -130,11 +111,11 @@ namespace LeaderboardsDTO {
     // Get instance field reference: public LeaderboardsDTO.LeaderboardQueryDTO/LeaderboardsDTO.ScoresScope scope
     LeaderboardsDTO::LeaderboardQueryDTO::ScoresScope& dyn_scope();
     // Get instance field reference: public System.String[] friendsUserIds
-    ::ArrayW<::Il2CppString*>& dyn_friendsUserIds();
+    ::Array<::Il2CppString*>*& dyn_friendsUserIds();
     // Get instance field reference: public System.Boolean includedScoreWithModifiers
     bool& dyn_includedScoreWithModifiers();
     // public System.Void .ctor()
-    // Offset: 0x11DEF80
+    // Offset: 0x11A3AB0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -147,9 +128,9 @@ namespace LeaderboardsDTO {
   static check_size<sizeof(LeaderboardQueryDTO), 48 + sizeof(bool)> __LeaderboardsDTO_LeaderboardQueryDTOSizeCheck;
   static_assert(sizeof(LeaderboardQueryDTO) == 0x31);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(LeaderboardsDTO::LeaderboardQueryDTO*, "LeaderboardsDTO", "LeaderboardQueryDTO");
 DEFINE_IL2CPP_ARG_TYPE(LeaderboardsDTO::LeaderboardQueryDTO::ScoresScope, "LeaderboardsDTO", "LeaderboardQueryDTO/ScoresScope");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LeaderboardsDTO::LeaderboardQueryDTO::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

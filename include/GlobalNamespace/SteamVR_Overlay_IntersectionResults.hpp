@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: SteamVR_Overlay
 #include "GlobalNamespace/SteamVR_Overlay.hpp"
 // Including type: System.ValueType
@@ -16,13 +16,6 @@
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
-  // Forward declaring type: IntersectionResults
-  struct IntersectionResults;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Overlay::IntersectionResults, "", "SteamVR_Overlay/IntersectionResults");
-// Type namespace: 
-namespace GlobalNamespace {
   // Size: 0x24
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -30,11 +23,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct SteamVR_Overlay::IntersectionResults/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public UnityEngine.Vector3 point
     // Size: 0xC
     // Offset: 0x0
@@ -59,7 +47,6 @@ namespace GlobalNamespace {
     float distance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
     // Creating value type constructor for type: IntersectionResults
     constexpr IntersectionResults(UnityEngine::Vector3 point_ = {}, UnityEngine::Vector3 normal_ = {}, UnityEngine::Vector2 UVs_ = {}, float distance_ = {}) noexcept : point{point_}, normal{normal_}, UVs{UVs_}, distance{distance_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -79,4 +66,6 @@ namespace GlobalNamespace {
   static check_size<sizeof(SteamVR_Overlay::IntersectionResults), 32 + sizeof(float)> __GlobalNamespace_SteamVR_Overlay_IntersectionResultsSizeCheck;
   static_assert(sizeof(SteamVR_Overlay::IntersectionResults) == 0x24);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Overlay::IntersectionResults, "", "SteamVR_Overlay/IntersectionResults");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

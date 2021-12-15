@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Mono.RuntimeStructs
 #include "Mono/RuntimeStructs.hpp"
 // Including type: System.ValueType
@@ -14,13 +14,6 @@
 // Completed includes
 // Type namespace: Mono
 namespace Mono {
-  // Forward declaring type: GenericParamInfo
-  struct GenericParamInfo;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeStructs::GenericParamInfo, "Mono", "RuntimeStructs/GenericParamInfo");
-// Type namespace: Mono
-namespace Mono {
   // Size: 0x20
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -28,11 +21,6 @@ namespace Mono {
   // [TokenAttribute] Offset: FFFFFFFF
   struct RuntimeStructs::GenericParamInfo/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // Mono.RuntimeStructs/Mono.MonoClass* pklass
     // Size: 0x8
     // Offset: 0x0
@@ -65,7 +53,6 @@ namespace Mono {
     Mono::RuntimeStructs::MonoClass** constraints;
     // Field size check
     static_assert(sizeof(Mono::RuntimeStructs::MonoClass**) == 0x8);
-    public:
     // Creating value type constructor for type: GenericParamInfo
     constexpr GenericParamInfo(Mono::RuntimeStructs::MonoClass* pklass_ = {}, System::IntPtr name_ = {}, uint16_t flags_ = {}, uint token_ = {}, Mono::RuntimeStructs::MonoClass** constraints_ = {}) noexcept : pklass{pklass_}, name{name_}, flags{flags_}, token{token_}, constraints{constraints_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -87,4 +74,6 @@ namespace Mono {
   static check_size<sizeof(RuntimeStructs::GenericParamInfo), 24 + sizeof(Mono::RuntimeStructs::MonoClass**)> __Mono_RuntimeStructs_GenericParamInfoSizeCheck;
   static_assert(sizeof(RuntimeStructs::GenericParamInfo) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeStructs::GenericParamInfo, "Mono", "RuntimeStructs/GenericParamInfo");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

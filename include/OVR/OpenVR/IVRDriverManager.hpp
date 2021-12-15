@@ -3,7 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
@@ -12,13 +12,6 @@
 namespace OVR::OpenVR {
 }
 // Completed forward declares
-// Type namespace: OVR.OpenVR
-namespace OVR::OpenVR {
-  // Forward declaring type: IVRDriverManager
-  struct IVRDriverManager;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRDriverManager, "OVR.OpenVR", "IVRDriverManager");
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
   // Size: 0x18
@@ -34,11 +27,6 @@ namespace OVR::OpenVR {
     class _GetDriverName;
     // Nested type: OVR::OpenVR::IVRDriverManager::_GetDriverHandle
     class _GetDriverHandle;
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // OVR.OpenVR.IVRDriverManager/OVR.OpenVR._GetDriverCount GetDriverCount
     // Size: 0x8
     // Offset: 0x0
@@ -57,7 +45,6 @@ namespace OVR::OpenVR {
     OVR::OpenVR::IVRDriverManager::_GetDriverHandle* GetDriverHandle;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::IVRDriverManager::_GetDriverHandle*) == 0x8);
-    public:
     // Creating value type constructor for type: IVRDriverManager
     constexpr IVRDriverManager(OVR::OpenVR::IVRDriverManager::_GetDriverCount* GetDriverCount_ = {}, OVR::OpenVR::IVRDriverManager::_GetDriverName* GetDriverName_ = {}, OVR::OpenVR::IVRDriverManager::_GetDriverHandle* GetDriverHandle_ = {}) noexcept : GetDriverCount{GetDriverCount_}, GetDriverName{GetDriverName_}, GetDriverHandle{GetDriverHandle_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -75,4 +62,6 @@ namespace OVR::OpenVR {
   static check_size<sizeof(IVRDriverManager), 16 + sizeof(OVR::OpenVR::IVRDriverManager::_GetDriverHandle*)> __OVR_OpenVR_IVRDriverManagerSizeCheck;
   static_assert(sizeof(IVRDriverManager) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRDriverManager, "OVR.OpenVR", "IVRDriverManager");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

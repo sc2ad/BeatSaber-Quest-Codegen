@@ -3,20 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Runtime.Remoting.Messaging.LogicalCallContext
 #include "System/Runtime/Remoting/Messaging/LogicalCallContext.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Runtime.Remoting.Messaging
-namespace System::Runtime::Remoting::Messaging {
-  // Forward declaring type: Reader
-  struct Reader;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::LogicalCallContext::Reader, "System.Runtime.Remoting.Messaging", "LogicalCallContext/Reader");
 // Type namespace: System.Runtime.Remoting.Messaging
 namespace System::Runtime::Remoting::Messaging {
   // Size: 0x8
@@ -26,18 +23,12 @@ namespace System::Runtime::Remoting::Messaging {
   // [TokenAttribute] Offset: FFFFFFFF
   struct LogicalCallContext::Reader/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Runtime.Remoting.Messaging.LogicalCallContext m_ctx
     // Size: 0x8
     // Offset: 0x0
     System::Runtime::Remoting::Messaging::LogicalCallContext* m_ctx;
     // Field size check
     static_assert(sizeof(System::Runtime::Remoting::Messaging::LogicalCallContext*) == 0x8);
-    public:
     // Creating value type constructor for type: Reader
     constexpr Reader(System::Runtime::Remoting::Messaging::LogicalCallContext* m_ctx_ = {}) noexcept : m_ctx{m_ctx_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -51,26 +42,28 @@ namespace System::Runtime::Remoting::Messaging {
     // Get instance field reference: private System.Runtime.Remoting.Messaging.LogicalCallContext m_ctx
     System::Runtime::Remoting::Messaging::LogicalCallContext*& dyn_m_ctx();
     // public System.Boolean get_IsNull()
-    // Offset: 0x1BFCF74
+    // Offset: 0x1C5506C
     bool get_IsNull();
     // public System.Boolean get_HasInfo()
-    // Offset: 0x1BFCF84
+    // Offset: 0x1C5507C
     bool get_HasInfo();
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.LogicalCallContext ctx)
-    // Offset: 0x1BFCF6C
-    // ABORTED: conflicts with another method.  Reader(System::Runtime::Remoting::Messaging::LogicalCallContext* ctx);
+    // Offset: 0x1C55064
+    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    // ABORTED: conflicts with another method.  Reader(System::Runtime::Remoting::Messaging::LogicalCallContext* ctx)
     // public System.Runtime.Remoting.Messaging.LogicalCallContext Clone()
-    // Offset: 0x1BFCF94
+    // Offset: 0x1C5508C
     System::Runtime::Remoting::Messaging::LogicalCallContext* Clone();
     // public System.Object GetData(System.String name)
-    // Offset: 0x1BF882C
+    // Offset: 0x1C50924
     ::Il2CppObject* GetData(::Il2CppString* name);
   }; // System.Runtime.Remoting.Messaging.LogicalCallContext/System.Runtime.Remoting.Messaging.Reader
   #pragma pack(pop)
   static check_size<sizeof(LogicalCallContext::Reader), 0 + sizeof(System::Runtime::Remoting::Messaging::LogicalCallContext*)> __System_Runtime_Remoting_Messaging_LogicalCallContext_ReaderSizeCheck;
   static_assert(sizeof(LogicalCallContext::Reader) == 0x8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::LogicalCallContext::Reader, "System.Runtime.Remoting.Messaging", "LogicalCallContext/Reader");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::LogicalCallContext::Reader::get_IsNull
 // Il2CppName: get_IsNull
 template<>

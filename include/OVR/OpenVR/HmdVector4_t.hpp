@@ -3,17 +3,10 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-// Type namespace: OVR.OpenVR
-namespace OVR::OpenVR {
-  // Forward declaring type: HmdVector4_t
-  struct HmdVector4_t;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::HmdVector4_t, "OVR.OpenVR", "HmdVector4_t");
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
   // Size: 0x10
@@ -23,11 +16,6 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HmdVector4_t/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Single v0
     // Size: 0x4
     // Offset: 0x0
@@ -52,7 +40,6 @@ namespace OVR::OpenVR {
     float v3;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
     // Creating value type constructor for type: HmdVector4_t
     constexpr HmdVector4_t(float v0_ = {}, float v1_ = {}, float v2_ = {}, float v3_ = {}) noexcept : v0{v0_}, v1{v1_}, v2{v2_}, v3{v3_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -72,4 +59,6 @@ namespace OVR::OpenVR {
   static check_size<sizeof(HmdVector4_t), 12 + sizeof(float)> __OVR_OpenVR_HmdVector4_tSizeCheck;
   static_assert(sizeof(HmdVector4_t) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::HmdVector4_t, "OVR.OpenVR", "HmdVector4_t");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

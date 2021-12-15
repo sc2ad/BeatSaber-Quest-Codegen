@@ -3,17 +3,10 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-// Type namespace: HoudiniEngineUnity
-namespace HoudiniEngineUnity {
-  // Forward declaring type: HAPI_MaterialInfo
-  struct HAPI_MaterialInfo;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_MaterialInfo, "HoudiniEngineUnity", "HAPI_MaterialInfo");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x6
@@ -23,11 +16,6 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HAPI_MaterialInfo/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 nodeId
     // Size: 0x4
     // Offset: 0x0
@@ -46,7 +34,6 @@ namespace HoudiniEngineUnity {
     bool hasChanged;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
     // Creating value type constructor for type: HAPI_MaterialInfo
     constexpr HAPI_MaterialInfo(int nodeId_ = {}, bool exists_ = {}, bool hasChanged_ = {}) noexcept : nodeId{nodeId_}, exists{exists_}, hasChanged{hasChanged_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -64,4 +51,6 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HAPI_MaterialInfo), 5 + sizeof(bool)> __HoudiniEngineUnity_HAPI_MaterialInfoSizeCheck;
   static_assert(sizeof(HAPI_MaterialInfo) == 0x6);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_MaterialInfo, "HoudiniEngineUnity", "HAPI_MaterialInfo");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

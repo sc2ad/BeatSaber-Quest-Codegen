@@ -3,14 +3,14 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.ConventionFilterTypesBinder
 #include "Zenject/ConventionFilterTypesBinder.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text::RegularExpressions
@@ -23,15 +23,12 @@ namespace System {
   // Forward declaring type: Type
   class Type;
 }
-// Completed forward declares
-// Type namespace: Zenject
+// Forward declaring namespace: Zenject
 namespace Zenject {
-  // Forward declaring type: <>c__DisplayClass18_0
-  class $$c__DisplayClass18_0;
+  // Forward declaring type: InjectTypeInfo
+  class InjectTypeInfo;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::ConventionFilterTypesBinder::$$c__DisplayClass18_0);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::ConventionFilterTypesBinder::$$c__DisplayClass18_0*, "Zenject", "ConventionFilterTypesBinder/<>c__DisplayClass18_0");
+// Completed forward declares
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x18
@@ -41,18 +38,14 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class ConventionFilterTypesBinder::$$c__DisplayClass18_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Text.RegularExpressions.Regex regex
     // Size: 0x8
     // Offset: 0x10
     System::Text::RegularExpressions::Regex* regex;
     // Field size check
     static_assert(sizeof(System::Text::RegularExpressions::Regex*) == 0x8);
-    public:
+    // Creating value type constructor for type: $$c__DisplayClass18_0
+    $$c__DisplayClass18_0(System::Text::RegularExpressions::Regex* regex_ = {}) noexcept : regex{regex_} {}
     // Creating conversion operator: operator System::Text::RegularExpressions::Regex*
     constexpr operator System::Text::RegularExpressions::Regex*() const noexcept {
       return regex;
@@ -60,10 +53,16 @@ namespace Zenject {
     // Get instance field reference: public System.Text.RegularExpressions.Regex regex
     System::Text::RegularExpressions::Regex*& dyn_regex();
     // System.Boolean <MatchingRegex>b__0(System.Type t)
-    // Offset: 0x14E2038
+    // Offset: 0x14FED1C
     bool $MatchingRegex$b__0(System::Type* t);
+    // static private System.Object __zenCreate(System.Object[] P_0)
+    // Offset: 0x14FED64
+    static ::Il2CppObject* __zenCreate(::Array<::Il2CppObject*>* P_0);
+    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
+    // Offset: 0x14FEDC0
+    static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
-    // Offset: 0x14E1DF8
+    // Offset: 0x14FE3EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -76,7 +75,8 @@ namespace Zenject {
   static check_size<sizeof(ConventionFilterTypesBinder::$$c__DisplayClass18_0), 16 + sizeof(System::Text::RegularExpressions::Regex*)> __Zenject_ConventionFilterTypesBinder_$$c__DisplayClass18_0SizeCheck;
   static_assert(sizeof(ConventionFilterTypesBinder::$$c__DisplayClass18_0) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Zenject::ConventionFilterTypesBinder::$$c__DisplayClass18_0*, "Zenject", "ConventionFilterTypesBinder/<>c__DisplayClass18_0");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::ConventionFilterTypesBinder::$$c__DisplayClass18_0::$MatchingRegex$b__0
 // Il2CppName: <MatchingRegex>b__0
 template<>
@@ -84,6 +84,23 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenje
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionFilterTypesBinder::$$c__DisplayClass18_0*), "<MatchingRegex>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
+  }
+};
+// Writing MetadataGetter for method: Zenject::ConventionFilterTypesBinder::$$c__DisplayClass18_0::__zenCreate
+// Il2CppName: __zenCreate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Array<::Il2CppObject*>*)>(&Zenject::ConventionFilterTypesBinder::$$c__DisplayClass18_0::__zenCreate)> {
+  static const MethodInfo* get() {
+    static auto* P_0 = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionFilterTypesBinder::$$c__DisplayClass18_0*), "__zenCreate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{P_0});
+  }
+};
+// Writing MetadataGetter for method: Zenject::ConventionFilterTypesBinder::$$c__DisplayClass18_0::__zenCreateInjectTypeInfo
+// Il2CppName: __zenCreateInjectTypeInfo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo* (*)()>(&Zenject::ConventionFilterTypesBinder::$$c__DisplayClass18_0::__zenCreateInjectTypeInfo)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionFilterTypesBinder::$$c__DisplayClass18_0*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: Zenject::ConventionFilterTypesBinder::$$c__DisplayClass18_0::New_ctor

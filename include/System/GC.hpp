@@ -3,20 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Runtime.CompilerServices.Ephemeron
 #include "System/Runtime/CompilerServices/Ephemeron.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
-// Type namespace: System
-namespace System {
-  // Forward declaring type: GC
-  class GC;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::GC);
-DEFINE_IL2CPP_ARG_TYPE(System::GC*, "System", "GC");
 // Type namespace: System
 namespace System {
   // Size: 0x10
@@ -25,50 +16,54 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class GC : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: GC
+    GC() noexcept {}
     // Get static field: static readonly System.Object EPHEMERON_TOMBSTONE
     static ::Il2CppObject* _get_EPHEMERON_TOMBSTONE();
     // Set static field: static readonly System.Object EPHEMERON_TOMBSTONE
     static void _set_EPHEMERON_TOMBSTONE(::Il2CppObject* value);
     // static public System.Int32 get_MaxGeneration()
-    // Offset: 0x198D42C
+    // Offset: 0x19ABADC
     static int get_MaxGeneration();
     // static private System.Void .cctor()
-    // Offset: 0x198D5DC
+    // Offset: 0x19ABC8C
     static void _cctor();
     // static private System.Int32 GetMaxGeneration()
-    // Offset: 0x198D3BC
+    // Offset: 0x19ABA6C
     static int GetMaxGeneration();
     // static private System.Void InternalCollect(System.Int32 generation)
-    // Offset: 0x198D3C0
+    // Offset: 0x19ABA70
     static void InternalCollect(int generation);
     // static System.Void register_ephemeron_array(System.Runtime.CompilerServices.Ephemeron[] array)
-    // Offset: 0x198D3C4
-    static void register_ephemeron_array(::ArrayW<System::Runtime::CompilerServices::Ephemeron> array);
+    // Offset: 0x19ABA74
+    static void register_ephemeron_array(::Array<System::Runtime::CompilerServices::Ephemeron>* array);
     // static private System.Object get_ephemeron_tombstone()
-    // Offset: 0x198D3C8
+    // Offset: 0x19ABA78
     static ::Il2CppObject* get_ephemeron_tombstone();
     // static public System.Void Collect()
-    // Offset: 0x198D3CC
+    // Offset: 0x19ABA7C
     static void Collect();
     // static public System.Void KeepAlive(System.Object obj)
-    // Offset: 0x198D488
+    // Offset: 0x19ABB38
     static void KeepAlive(::Il2CppObject* obj);
     // static private System.Void _SuppressFinalize(System.Object o)
-    // Offset: 0x198D48C
+    // Offset: 0x19ABB3C
     static void _SuppressFinalize(::Il2CppObject* o);
     // static public System.Void SuppressFinalize(System.Object obj)
-    // Offset: 0x198D490
+    // Offset: 0x19ABB40
     static void SuppressFinalize(::Il2CppObject* obj);
     // static private System.Void _ReRegisterForFinalize(System.Object o)
-    // Offset: 0x198D534
+    // Offset: 0x19ABBE4
     static void _ReRegisterForFinalize(::Il2CppObject* o);
     // static public System.Void ReRegisterForFinalize(System.Object obj)
-    // Offset: 0x198D538
+    // Offset: 0x19ABBE8
     static void ReRegisterForFinalize(::Il2CppObject* obj);
   }; // System.GC
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::GC*, "System", "GC");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::GC::get_MaxGeneration
 // Il2CppName: get_MaxGeneration
 template<>
@@ -105,7 +100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(in
 // Writing MetadataGetter for method: System::GC::register_ephemeron_array
 // Il2CppName: register_ephemeron_array
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<System::Runtime::CompilerServices::Ephemeron>)>(&System::GC::register_ephemeron_array)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<System::Runtime::CompilerServices::Ephemeron>*)>(&System::GC::register_ephemeron_array)> {
   static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Runtime.CompilerServices", "Ephemeron"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::GC*), "register_ephemeron_array", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array});

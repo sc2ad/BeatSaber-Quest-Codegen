@@ -3,16 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: Org.BouncyCastle.Asn1
-namespace Org::BouncyCastle::Asn1 {
-  // Forward declaring type: IAsn1Choice
-  class IAsn1Choice;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Asn1::IAsn1Choice);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::IAsn1Choice*, "Org.BouncyCastle.Asn1", "IAsn1Choice");
 // Type namespace: Org.BouncyCastle.Asn1
 namespace Org::BouncyCastle::Asn1 {
   // Size: 0x10
@@ -21,7 +13,11 @@ namespace Org::BouncyCastle::Asn1 {
   // [TokenAttribute] Offset: FFFFFFFF
   class IAsn1Choice {
     public:
+    // Creating value type constructor for type: IAsn1Choice
+    IAsn1Choice() noexcept {}
   }; // Org.BouncyCastle.Asn1.IAsn1Choice
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::IAsn1Choice*, "Org.BouncyCastle.Asn1", "IAsn1Choice");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

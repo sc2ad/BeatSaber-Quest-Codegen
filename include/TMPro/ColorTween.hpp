@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: TMPro.ITweenValue
@@ -28,13 +28,6 @@ namespace UnityEngine::Events {
 // Completed forward declares
 // Type namespace: TMPro
 namespace TMPro {
-  // Forward declaring type: ColorTween
-  struct ColorTween;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(TMPro::ColorTween, "TMPro", "ColorTween");
-// Type namespace: TMPro
-namespace TMPro {
   // Size: 0x31
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -52,18 +45,12 @@ namespace TMPro {
     // [TokenAttribute] Offset: FFFFFFFF
     struct ColorTweenMode/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: ColorTweenMode
       constexpr ColorTweenMode(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -98,11 +85,6 @@ namespace TMPro {
     #pragma pack(pop)
     static check_size<sizeof(ColorTween::ColorTweenMode), 0 + sizeof(int)> __TMPro_ColorTween_ColorTweenModeSizeCheck;
     static_assert(sizeof(ColorTween::ColorTweenMode) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private TMPro.ColorTween/TMPro.ColorTweenCallback m_Target
     // Size: 0x8
     // Offset: 0x0
@@ -139,7 +121,6 @@ namespace TMPro {
     bool m_IgnoreTimeScale;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
     // Creating value type constructor for type: ColorTween
     constexpr ColorTween(TMPro::ColorTween::ColorTweenCallback* m_Target_ = {}, UnityEngine::Color m_StartColor_ = {}, UnityEngine::Color m_TargetColor_ = {}, TMPro::ColorTween::ColorTweenMode m_TweenMode_ = {}, float m_Duration_ = {}, bool m_IgnoreTimeScale_ = {}) noexcept : m_Target{m_Target_}, m_StartColor{m_StartColor_}, m_TargetColor{m_TargetColor_}, m_TweenMode{m_TweenMode_}, m_Duration{m_Duration_}, m_IgnoreTimeScale{m_IgnoreTimeScale_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -163,58 +144,59 @@ namespace TMPro {
     // Get instance field reference: private System.Boolean m_IgnoreTimeScale
     bool& dyn_m_IgnoreTimeScale();
     // public UnityEngine.Color get_startColor()
-    // Offset: 0x11E7024
+    // Offset: 0x123D794
     UnityEngine::Color get_startColor();
     // public System.Void set_startColor(UnityEngine.Color value)
-    // Offset: 0x11E7030
+    // Offset: 0x123D7A0
     void set_startColor(UnityEngine::Color value);
     // public UnityEngine.Color get_targetColor()
-    // Offset: 0x11E703C
+    // Offset: 0x123D7AC
     UnityEngine::Color get_targetColor();
     // public System.Void set_targetColor(UnityEngine.Color value)
-    // Offset: 0x11E7048
+    // Offset: 0x123D7B8
     void set_targetColor(UnityEngine::Color value);
     // public TMPro.ColorTween/TMPro.ColorTweenMode get_tweenMode()
-    // Offset: 0x11E7054
+    // Offset: 0x123D7C4
     TMPro::ColorTween::ColorTweenMode get_tweenMode();
     // public System.Void set_tweenMode(TMPro.ColorTween/TMPro.ColorTweenMode value)
-    // Offset: 0x11E705C
+    // Offset: 0x123D7CC
     void set_tweenMode(TMPro::ColorTween::ColorTweenMode value);
     // public System.Single get_duration()
-    // Offset: 0x11E7064
+    // Offset: 0x123D7D4
     float get_duration();
     // public System.Void set_duration(System.Single value)
-    // Offset: 0x11E706C
+    // Offset: 0x123D7DC
     void set_duration(float value);
     // public System.Boolean get_ignoreTimeScale()
-    // Offset: 0x11E7074
+    // Offset: 0x123D7E4
     bool get_ignoreTimeScale();
     // public System.Void set_ignoreTimeScale(System.Boolean value)
-    // Offset: 0x11E707C
+    // Offset: 0x123D7EC
     void set_ignoreTimeScale(bool value);
     // public System.Void TweenValue(System.Single floatPercentage)
-    // Offset: 0x11E7088
+    // Offset: 0x123D7F8
     void TweenValue(float floatPercentage);
     // public System.Void AddOnChangedCallback(UnityEngine.Events.UnityAction`1<UnityEngine.Color> callback)
-    // Offset: 0x11E7160
+    // Offset: 0x123D8D0
     void AddOnChangedCallback(UnityEngine::Events::UnityAction_1<UnityEngine::Color>* callback);
     // public System.Boolean GetIgnoreTimescale()
-    // Offset: 0x11E723C
+    // Offset: 0x123D9AC
     bool GetIgnoreTimescale();
     // public System.Single GetDuration()
-    // Offset: 0x11E7244
+    // Offset: 0x123D9B4
     float GetDuration();
     // public System.Boolean ValidTarget()
-    // Offset: 0x11E7150
+    // Offset: 0x123D8C0
     bool ValidTarget();
   }; // TMPro.ColorTween
   #pragma pack(pop)
   static check_size<sizeof(ColorTween), 48 + sizeof(bool)> __TMPro_ColorTweenSizeCheck;
   static_assert(sizeof(ColorTween) == 0x31);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::ColorTween, "TMPro", "ColorTween");
 DEFINE_IL2CPP_ARG_TYPE(TMPro::ColorTween::ColorTweenMode, "TMPro", "ColorTween/ColorTweenMode");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::ColorTween::get_startColor
 // Il2CppName: get_startColor
 template<>

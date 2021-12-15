@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.MarshalByRefObject
 #include "System/MarshalByRefObject.hpp"
 // Including type: System.IDisposable
 #include "System/IDisposable.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Diagnostics
-namespace System::Diagnostics {
-  // Forward declaring type: TraceListener
-  class TraceListener;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Diagnostics::TraceListener);
-DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::TraceListener*, "System.Diagnostics", "TraceListener");
 // Type namespace: System.Diagnostics
 namespace System::Diagnostics {
   // Size: 0x30
@@ -30,11 +22,6 @@ namespace System::Diagnostics {
   // [TokenAttribute] Offset: FFFFFFFF
   class TraceListener : public System::MarshalByRefObject/*, public System::IDisposable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Int32 indentLevel
     // Size: 0x4
     // Offset: 0x18
@@ -61,7 +48,8 @@ namespace System::Diagnostics {
     ::Il2CppString* listenerName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: TraceListener
+    TraceListener(int indentLevel_ = {}, int indentSize_ = {}, bool needIndent_ = {}, ::Il2CppString* listenerName_ = {}) noexcept : indentLevel{indentLevel_}, indentSize{indentSize_}, needIndent{needIndent_}, listenerName{listenerName_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
@@ -77,47 +65,47 @@ namespace System::Diagnostics {
     // Get instance field reference: private System.String listenerName
     ::Il2CppString*& dyn_listenerName();
     // public System.Boolean get_IsThreadSafe()
-    // Offset: 0x1A0F7AC
+    // Offset: 0x1A2EECC
     bool get_IsThreadSafe();
     // public System.Void set_IndentLevel(System.Int32 value)
-    // Offset: 0x1A0EBF0
+    // Offset: 0x1A2E310
     void set_IndentLevel(int value);
     // public System.Void set_IndentSize(System.Int32 value)
-    // Offset: 0x1A0EC0C
+    // Offset: 0x1A2E32C
     void set_IndentSize(int value);
     // protected System.Boolean get_NeedIndent()
-    // Offset: 0x1A0F838
+    // Offset: 0x1A2EF58
     bool get_NeedIndent();
     // protected System.Void set_NeedIndent(System.Boolean value)
-    // Offset: 0x1A0F840
+    // Offset: 0x1A2EF60
     void set_NeedIndent(bool value);
     // protected System.Void .ctor(System.String name)
-    // Offset: 0x1A09A60
+    // Offset: 0x1A29110
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TraceListener* New_ctor(::Il2CppString* name) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::TraceListener::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TraceListener*, creationType>(name)));
     }
     // public System.Void Dispose()
-    // Offset: 0x1A0F7B4
+    // Offset: 0x1A2EED4
     void Dispose();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1A0F830
+    // Offset: 0x1A2EF50
     void Dispose(bool disposing);
     // public System.Void Flush()
-    // Offset: 0x1A0F834
+    // Offset: 0x1A2EF54
     void Flush();
     // public System.Void Fail(System.String message)
-    // Offset: 0x1A09AB4
+    // Offset: 0x1A29164
     void Fail(::Il2CppString* message);
     // public System.Void Fail(System.String message, System.String detailMessage)
-    // Offset: 0x1A09B6C
+    // Offset: 0x1A2921C
     void Fail(::Il2CppString* message, ::Il2CppString* detailMessage);
     // public System.Void Write(System.String message)
     // Offset: 0xFFFFFFFF
     void Write(::Il2CppString* message);
     // protected System.Void WriteIndent()
-    // Offset: 0x1A0F84C
+    // Offset: 0x1A2EF6C
     void WriteIndent();
     // public System.Void WriteLine(System.String message)
     // Offset: 0xFFFFFFFF
@@ -127,7 +115,8 @@ namespace System::Diagnostics {
   static check_size<sizeof(TraceListener), 40 + sizeof(::Il2CppString*)> __System_Diagnostics_TraceListenerSizeCheck;
   static_assert(sizeof(TraceListener) == 0x30);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::TraceListener*, "System.Diagnostics", "TraceListener");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Diagnostics::TraceListener::get_IsThreadSafe
 // Il2CppName: get_IsThreadSafe
 template<>

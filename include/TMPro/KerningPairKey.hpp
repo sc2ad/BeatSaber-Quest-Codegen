@@ -3,17 +3,14 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: TMPro
-namespace TMPro {
-  // Forward declaring type: KerningPairKey
-  struct KerningPairKey;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(TMPro::KerningPairKey, "TMPro", "KerningPairKey");
 // Type namespace: TMPro
 namespace TMPro {
   // Size: 0xC
@@ -23,11 +20,6 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   struct KerningPairKey/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.UInt32 ascii_Left
     // Size: 0x4
     // Offset: 0x0
@@ -46,7 +38,6 @@ namespace TMPro {
     uint key;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
-    public:
     // Creating value type constructor for type: KerningPairKey
     constexpr KerningPairKey(uint ascii_Left_ = {}, uint ascii_Right_ = {}, uint key_ = {}) noexcept : ascii_Left{ascii_Left_}, ascii_Right{ascii_Right_}, key{key_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -60,14 +51,20 @@ namespace TMPro {
     // Get instance field reference: public System.UInt32 key
     uint& dyn_key();
     // public System.Void .ctor(System.UInt32 ascii_left, System.UInt32 ascii_right)
-    // Offset: 0x11E7D50
-    KerningPairKey(uint ascii_left, uint ascii_right);
+    // Offset: 0x123E4C0
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    KerningPairKey(uint ascii_left, uint ascii_right) {
+      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::KerningPairKey::.ctor");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(ascii_left), ::il2cpp_utils::ExtractType(ascii_right)})));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, ascii_left, ascii_right);
+    }
   }; // TMPro.KerningPairKey
   #pragma pack(pop)
   static check_size<sizeof(KerningPairKey), 8 + sizeof(uint)> __TMPro_KerningPairKeySizeCheck;
   static_assert(sizeof(KerningPairKey) == 0xC);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::KerningPairKey, "TMPro", "KerningPairKey");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::KerningPairKey::KerningPairKey
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

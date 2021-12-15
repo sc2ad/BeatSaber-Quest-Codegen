@@ -3,14 +3,14 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.DisposableManager
 #include "Zenject/DisposableManager.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -18,15 +18,12 @@ namespace System {
   // Forward declaring type: IDisposable
   class IDisposable;
 }
-// Completed forward declares
-// Type namespace: Zenject
+// Forward declaring namespace: Zenject
 namespace Zenject {
-  // Forward declaring type: <>c__DisplayClass9_0
-  class $$c__DisplayClass9_0;
+  // Forward declaring type: InjectTypeInfo
+  class InjectTypeInfo;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::DisposableManager::$$c__DisplayClass9_0);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::DisposableManager::$$c__DisplayClass9_0*, "Zenject", "DisposableManager/<>c__DisplayClass9_0");
+// Completed forward declares
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x18
@@ -36,18 +33,14 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class DisposableManager::$$c__DisplayClass9_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.IDisposable disposable
     // Size: 0x8
     // Offset: 0x10
     System::IDisposable* disposable;
     // Field size check
     static_assert(sizeof(System::IDisposable*) == 0x8);
-    public:
+    // Creating value type constructor for type: $$c__DisplayClass9_0
+    $$c__DisplayClass9_0(System::IDisposable* disposable_ = {}) noexcept : disposable{disposable_} {}
     // Creating conversion operator: operator System::IDisposable*
     constexpr operator System::IDisposable*() const noexcept {
       return disposable;
@@ -55,10 +48,16 @@ namespace Zenject {
     // Get instance field reference: public System.IDisposable disposable
     System::IDisposable*& dyn_disposable();
     // System.Boolean <Remove>b__0(Zenject.DisposableManager/Zenject.DisposableInfo x)
-    // Offset: 0x180D8AC
+    // Offset: 0x1AA1460
     bool $Remove$b__0(Zenject::DisposableManager::DisposableInfo x);
+    // static private System.Object __zenCreate(System.Object[] P_0)
+    // Offset: 0x1AA1470
+    static ::Il2CppObject* __zenCreate(::Array<::Il2CppObject*>* P_0);
+    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
+    // Offset: 0x1AA14CC
+    static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
-    // Offset: 0x180CE84
+    // Offset: 0x1A9FFE4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -71,7 +70,8 @@ namespace Zenject {
   static check_size<sizeof(DisposableManager::$$c__DisplayClass9_0), 16 + sizeof(System::IDisposable*)> __Zenject_DisposableManager_$$c__DisplayClass9_0SizeCheck;
   static_assert(sizeof(DisposableManager::$$c__DisplayClass9_0) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Zenject::DisposableManager::$$c__DisplayClass9_0*, "Zenject", "DisposableManager/<>c__DisplayClass9_0");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::DisposableManager::$$c__DisplayClass9_0::$Remove$b__0
 // Il2CppName: <Remove>b__0
 template<>
@@ -79,6 +79,23 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenje
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("Zenject", "DisposableManager/DisposableInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DisposableManager::$$c__DisplayClass9_0*), "<Remove>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
+  }
+};
+// Writing MetadataGetter for method: Zenject::DisposableManager::$$c__DisplayClass9_0::__zenCreate
+// Il2CppName: __zenCreate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Array<::Il2CppObject*>*)>(&Zenject::DisposableManager::$$c__DisplayClass9_0::__zenCreate)> {
+  static const MethodInfo* get() {
+    static auto* P_0 = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DisposableManager::$$c__DisplayClass9_0*), "__zenCreate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{P_0});
+  }
+};
+// Writing MetadataGetter for method: Zenject::DisposableManager::$$c__DisplayClass9_0::__zenCreateInjectTypeInfo
+// Il2CppName: __zenCreateInjectTypeInfo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo* (*)()>(&Zenject::DisposableManager::$$c__DisplayClass9_0::__zenCreateInjectTypeInfo)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DisposableManager::$$c__DisplayClass9_0*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: Zenject::DisposableManager::$$c__DisplayClass9_0::New_ctor

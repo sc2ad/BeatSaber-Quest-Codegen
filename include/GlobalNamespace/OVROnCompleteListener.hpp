@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.AndroidJavaProxy
 #include "UnityEngine/AndroidJavaProxy.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: OVROnCompleteListener
-  class OVROnCompleteListener;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVROnCompleteListener);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVROnCompleteListener*, "", "OVROnCompleteListener");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -28,6 +20,8 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVROnCompleteListener : public UnityEngine::AndroidJavaProxy {
     public:
+    // Creating value type constructor for type: OVROnCompleteListener
+    OVROnCompleteListener() noexcept {}
     // public System.Void onSuccess()
     // Offset: 0xFFFFFFFF
     void onSuccess();
@@ -35,7 +29,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     void onFailure();
     // public System.Void .ctor()
-    // Offset: 0x144F5EC
+    // Offset: 0x147EDD0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -46,7 +40,8 @@ namespace GlobalNamespace {
   }; // OVROnCompleteListener
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVROnCompleteListener*, "", "OVROnCompleteListener");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVROnCompleteListener::onSuccess
 // Il2CppName: onSuccess
 template<>

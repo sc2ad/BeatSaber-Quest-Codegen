@@ -3,7 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
@@ -12,13 +12,6 @@
 namespace Valve::VR {
 }
 // Completed forward declares
-// Type namespace: Valve.VR
-namespace Valve::VR {
-  // Forward declaring type: IVRNotifications
-  struct IVRNotifications;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRNotifications, "Valve.VR", "IVRNotifications");
 // Type namespace: Valve.VR
 namespace Valve::VR {
   // Size: 0x10
@@ -32,11 +25,6 @@ namespace Valve::VR {
     class _CreateNotification;
     // Nested type: Valve::VR::IVRNotifications::_RemoveNotification
     class _RemoveNotification;
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // Valve.VR.IVRNotifications/Valve.VR._CreateNotification CreateNotification
     // Size: 0x8
     // Offset: 0x0
@@ -49,7 +37,6 @@ namespace Valve::VR {
     Valve::VR::IVRNotifications::_RemoveNotification* RemoveNotification;
     // Field size check
     static_assert(sizeof(Valve::VR::IVRNotifications::_RemoveNotification*) == 0x8);
-    public:
     // Creating value type constructor for type: IVRNotifications
     constexpr IVRNotifications(Valve::VR::IVRNotifications::_CreateNotification* CreateNotification_ = {}, Valve::VR::IVRNotifications::_RemoveNotification* RemoveNotification_ = {}) noexcept : CreateNotification{CreateNotification_}, RemoveNotification{RemoveNotification_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -65,4 +52,6 @@ namespace Valve::VR {
   static check_size<sizeof(IVRNotifications), 8 + sizeof(Valve::VR::IVRNotifications::_RemoveNotification*)> __Valve_VR_IVRNotificationsSizeCheck;
   static_assert(sizeof(IVRNotifications) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRNotifications, "Valve.VR", "IVRNotifications");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

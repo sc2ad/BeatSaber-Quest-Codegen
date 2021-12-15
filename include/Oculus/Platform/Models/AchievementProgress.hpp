@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.DateTime
 #include "System/DateTime.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Oculus.Platform.Models
-namespace Oculus::Platform::Models {
-  // Forward declaring type: AchievementProgress
-  class AchievementProgress;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Models::AchievementProgress);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::AchievementProgress*, "Oculus.Platform.Models", "AchievementProgress");
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
   // Size: 0x38
@@ -30,11 +22,6 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class AchievementProgress : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public readonly System.String Bitfield
     // Size: 0x8
     // Offset: 0x10
@@ -67,7 +54,8 @@ namespace Oculus::Platform::Models {
     System::DateTime UnlockTime;
     // Field size check
     static_assert(sizeof(System::DateTime) == 0x8);
-    public:
+    // Creating value type constructor for type: AchievementProgress
+    AchievementProgress(::Il2CppString* Bitfield_ = {}, uint64_t Count_ = {}, bool IsUnlocked_ = {}, ::Il2CppString* Name_ = {}, System::DateTime UnlockTime_ = {}) noexcept : Bitfield{Bitfield_}, Count{Count_}, IsUnlocked{IsUnlocked_}, Name{Name_}, UnlockTime{UnlockTime_} {}
     // Get instance field reference: public readonly System.String Bitfield
     ::Il2CppString*& dyn_Bitfield();
     // Get instance field reference: public readonly System.UInt64 Count
@@ -79,7 +67,7 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly System.DateTime UnlockTime
     System::DateTime& dyn_UnlockTime();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x16A3318
+    // Offset: 0x1760734
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AchievementProgress* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::AchievementProgress::.ctor");
@@ -90,7 +78,8 @@ namespace Oculus::Platform::Models {
   static check_size<sizeof(AchievementProgress), 48 + sizeof(System::DateTime)> __Oculus_Platform_Models_AchievementProgressSizeCheck;
   static_assert(sizeof(AchievementProgress) == 0x38);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::AchievementProgress*, "Oculus.Platform.Models", "AchievementProgress");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::AchievementProgress::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

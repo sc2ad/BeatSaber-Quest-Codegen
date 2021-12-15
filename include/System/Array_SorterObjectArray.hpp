@@ -3,13 +3,16 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Array
 #include "System/Array.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections
@@ -20,13 +23,6 @@ namespace System::Collections {
 // Completed forward declares
 // Type namespace: System
 namespace System {
-  // Forward declaring type: SorterObjectArray
-  struct SorterObjectArray;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Array::SorterObjectArray, "System", "Array/SorterObjectArray");
-// Type namespace: System
-namespace System {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -34,78 +30,74 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Array::SorterObjectArray/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Object[] keys
     // Size: 0x8
     // Offset: 0x0
-    ::ArrayW<::Il2CppObject*> keys;
+    ::Array<::Il2CppObject*>* keys;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppObject*>) == 0x8);
+    static_assert(sizeof(::Array<::Il2CppObject*>*) == 0x8);
     // private System.Object[] items
     // Size: 0x8
     // Offset: 0x8
-    ::ArrayW<::Il2CppObject*> items;
+    ::Array<::Il2CppObject*>* items;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppObject*>) == 0x8);
+    static_assert(sizeof(::Array<::Il2CppObject*>*) == 0x8);
     // private System.Collections.IComparer comparer
     // Size: 0x8
     // Offset: 0x10
     System::Collections::IComparer* comparer;
     // Field size check
     static_assert(sizeof(System::Collections::IComparer*) == 0x8);
-    public:
     // Creating value type constructor for type: SorterObjectArray
-    constexpr SorterObjectArray(::ArrayW<::Il2CppObject*> keys_ = ::ArrayW<::Il2CppObject*>(nullptr), ::ArrayW<::Il2CppObject*> items_ = ::ArrayW<::Il2CppObject*>(nullptr), System::Collections::IComparer* comparer_ = {}) noexcept : keys{keys_}, items{items_}, comparer{comparer_} {}
+    constexpr SorterObjectArray(::Array<::Il2CppObject*>* keys_ = {}, ::Array<::Il2CppObject*>* items_ = {}, System::Collections::IComparer* comparer_ = {}) noexcept : keys{keys_}, items{items_}, comparer{comparer_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // Get instance field reference: private System.Object[] keys
-    ::ArrayW<::Il2CppObject*>& dyn_keys();
+    ::Array<::Il2CppObject*>*& dyn_keys();
     // Get instance field reference: private System.Object[] items
-    ::ArrayW<::Il2CppObject*>& dyn_items();
+    ::Array<::Il2CppObject*>*& dyn_items();
     // Get instance field reference: private System.Collections.IComparer comparer
     System::Collections::IComparer*& dyn_comparer();
     // System.Void .ctor(System.Object[] keys, System.Object[] items, System.Collections.IComparer comparer)
-    // Offset: 0x19713EC
-    // ABORTED: conflicts with another method.  SorterObjectArray(::ArrayW<::Il2CppObject*> keys, ::ArrayW<::Il2CppObject*> items, System::Collections::IComparer* comparer);
+    // Offset: 0x198FA9C
+    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    // ABORTED: conflicts with another method.  SorterObjectArray(::Array<::Il2CppObject*>* keys, ::Array<::Il2CppObject*>* items, System::Collections::IComparer* comparer)
     // System.Void SwapIfGreaterWithItems(System.Int32 a, System.Int32 b)
-    // Offset: 0x19723E8
+    // Offset: 0x1990A98
     void SwapIfGreaterWithItems(int a, int b);
     // private System.Void Swap(System.Int32 i, System.Int32 j)
-    // Offset: 0x1972638
+    // Offset: 0x1990CE8
     void Swap(int i, int j);
     // System.Void Sort(System.Int32 left, System.Int32 length)
-    // Offset: 0x1971480
+    // Offset: 0x198FB30
     void Sort(int left, int length);
     // private System.Void IntrospectiveSort(System.Int32 left, System.Int32 length)
-    // Offset: 0x19727B0
+    // Offset: 0x1990E60
     void IntrospectiveSort(int left, int length);
     // private System.Void IntroSort(System.Int32 lo, System.Int32 hi, System.Int32 depthLimit)
-    // Offset: 0x1972930
+    // Offset: 0x1990FE0
     void IntroSort(int lo, int hi, int depthLimit);
     // private System.Int32 PickPivotAndPartition(System.Int32 lo, System.Int32 hi)
-    // Offset: 0x1972DD0
+    // Offset: 0x1991480
     int PickPivotAndPartition(int lo, int hi);
     // private System.Void Heapsort(System.Int32 lo, System.Int32 hi)
-    // Offset: 0x1972D1C
+    // Offset: 0x19913CC
     void Heapsort(int lo, int hi);
     // private System.Void DownHeap(System.Int32 i, System.Int32 n, System.Int32 lo)
-    // Offset: 0x197301C
+    // Offset: 0x19916CC
     void DownHeap(int i, int n, int lo);
     // private System.Void InsertionSort(System.Int32 lo, System.Int32 hi)
-    // Offset: 0x1972A5C
+    // Offset: 0x199110C
     void InsertionSort(int lo, int hi);
   }; // System.Array/System.SorterObjectArray
   #pragma pack(pop)
   static check_size<sizeof(Array::SorterObjectArray), 16 + sizeof(System::Collections::IComparer*)> __System_Array_SorterObjectArraySizeCheck;
   static_assert(sizeof(Array::SorterObjectArray) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Array::SorterObjectArray, "System", "Array/SorterObjectArray");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Array::SorterObjectArray::SorterObjectArray
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

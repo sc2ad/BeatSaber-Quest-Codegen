@@ -3,16 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: UnityEngine.UI
-namespace UnityEngine::UI {
-  // Forward declaring type: ILayoutElement
-  class ILayoutElement;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::UI::ILayoutElement);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ILayoutElement*, "UnityEngine.UI", "ILayoutElement");
 // Type namespace: UnityEngine.UI
 namespace UnityEngine::UI {
   // Size: 0x10
@@ -21,6 +13,8 @@ namespace UnityEngine::UI {
   // [TokenAttribute] Offset: FFFFFFFF
   class ILayoutElement {
     public:
+    // Creating value type constructor for type: ILayoutElement
+    ILayoutElement() noexcept {}
     // public System.Single get_minWidth()
     // Offset: 0xFFFFFFFF
     float get_minWidth();
@@ -51,7 +45,9 @@ namespace UnityEngine::UI {
   }; // UnityEngine.UI.ILayoutElement
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ILayoutElement*, "UnityEngine.UI", "ILayoutElement");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::ILayoutElement::get_minWidth
 // Il2CppName: get_minWidth
 template<>

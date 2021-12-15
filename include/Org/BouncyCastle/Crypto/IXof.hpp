@@ -4,19 +4,14 @@
 #pragma once
 // Begin includes
 #include <stdint.h>
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Crypto.IDigest
 #include "Org/BouncyCastle/Crypto/IDigest.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
-// Type namespace: Org.BouncyCastle.Crypto
-namespace Org::BouncyCastle::Crypto {
-  // Forward declaring type: IXof
-  class IXof;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Crypto::IXof);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::IXof*, "Org.BouncyCastle.Crypto", "IXof");
+// Begin il2cpp-utils forward declares
+template<class T>
+struct Array;
+// Completed il2cpp-utils forward declares
 // Type namespace: Org.BouncyCastle.Crypto
 namespace Org::BouncyCastle::Crypto {
   // Size: 0x10
@@ -25,21 +20,25 @@ namespace Org::BouncyCastle::Crypto {
   // [TokenAttribute] Offset: FFFFFFFF
   class IXof/*, public Org::BouncyCastle::Crypto::IDigest*/ {
     public:
+    // Creating value type constructor for type: IXof
+    IXof() noexcept {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IDigest
     operator Org::BouncyCastle::Crypto::IDigest() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IDigest*>(this);
     }
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff, System.Int32 outLen)
     // Offset: 0xFFFFFFFF
-    int DoFinal(::ArrayW<uint8_t> output, int outOff, int outLen);
+    int DoFinal(::Array<uint8_t>* output, int outOff, int outLen);
   }; // Org.BouncyCastle.Crypto.IXof
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::IXof*, "Org.BouncyCastle.Crypto", "IXof");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::IXof::DoFinal
 // Il2CppName: DoFinal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::IXof::*)(::ArrayW<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::IXof::DoFinal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::IXof::*)(::Array<uint8_t>*, int, int)>(&Org::BouncyCastle::Crypto::IXof::DoFinal)> {
   static const MethodInfo* get() {
     static auto* output = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* outOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

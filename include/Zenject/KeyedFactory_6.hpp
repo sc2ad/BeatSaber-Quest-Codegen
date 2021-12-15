@@ -3,14 +3,14 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.KeyedFactoryBase`2
 #include "Zenject/KeyedFactoryBase_2.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -24,15 +24,12 @@ namespace System {
   // Forward declaring type: Type
   class Type;
 }
-// Completed forward declares
-// Type namespace: Zenject
+// Forward declaring namespace: Zenject
 namespace Zenject {
-  // Forward declaring type: KeyedFactory`6<TBase, TKey, TParam1, TParam2, TParam3, TParam4>
-  template<typename TBase, typename TKey, typename TParam1, typename TParam2, typename TParam3, typename TParam4>
-  class KeyedFactory_6;
+  // Forward declaring type: InjectTypeInfo
+  class InjectTypeInfo;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::KeyedFactory_6, "Zenject", "KeyedFactory`6");
+// Completed forward declares
 // Type namespace: Zenject
 namespace Zenject {
   // WARNING Size may be invalid!
@@ -41,12 +38,22 @@ namespace Zenject {
   template<typename TBase, typename TKey, typename TParam1, typename TParam2, typename TParam3, typename TParam4>
   class KeyedFactory_6 : public Zenject::KeyedFactoryBase_2<TBase, TKey> {
     public:
+    // Creating value type constructor for type: KeyedFactory_6
+    KeyedFactory_6() noexcept {}
     // public TBase Create(TKey key, TParam1 param1, TParam2 param2, TParam3 param3, TParam4 param4)
     // Offset: 0xFFFFFFFF
     TBase Create(TKey key, TParam1 param1, TParam2 param2, TParam3 param3, TParam4 param4) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::KeyedFactory_6::Create");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Create", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key), ::il2cpp_utils::ExtractType(param1), ::il2cpp_utils::ExtractType(param2), ::il2cpp_utils::ExtractType(param3), ::il2cpp_utils::ExtractType(param4)})));
-      return ::il2cpp_utils::RunMethodThrow<TBase, false>(this, ___internal__method, key, param1, param2, param3, param4);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<TBase, false>(___instance_arg, ___internal__method, key, param1, param2, param3, param4);
+    }
+    // static private System.Object __zenCreate(System.Object[] P_0)
+    // Offset: 0xFFFFFFFF
+    static ::Il2CppObject* __zenCreate(::Array<::Il2CppObject*>* P_0) {
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::KeyedFactory_6::__zenCreate");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<KeyedFactory_6<TBase, TKey, TParam1, TParam2, TParam3, TParam4>*>::get(), "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
+      return ::il2cpp_utils::RunMethodThrow<::Il2CppObject*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, P_0);
     }
     // protected override System.Collections.Generic.IEnumerable`1<System.Type> get_ProvidedTypes()
     // Offset: 0xFFFFFFFF
@@ -55,7 +62,8 @@ namespace Zenject {
     System::Collections::Generic::IEnumerable_1<System::Type*>* get_ProvidedTypes() {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::KeyedFactory_6::get_ProvidedTypes");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_ProvidedTypes", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerable_1<System::Type*>*, false>(this, ___internal__method);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerable_1<System::Type*>*, false>(___instance_arg, ___internal__method);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
@@ -67,7 +75,17 @@ namespace Zenject {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::KeyedFactory_6::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KeyedFactory_6<TBase, TKey, TParam1, TParam2, TParam3, TParam4>*, creationType>()));
     }
+    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
+    // Offset: 0xFFFFFFFF
+    // Implemented from: Zenject.KeyedFactoryBase`2
+    // Base method: Zenject.InjectTypeInfo KeyedFactoryBase_2::__zenCreateInjectTypeInfo()
+    static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo() {
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::KeyedFactory_6::__zenCreateInjectTypeInfo");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<KeyedFactory_6<TBase, TKey, TParam1, TParam2, TParam3, TParam4>*>::get(), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+      return ::il2cpp_utils::RunMethodThrow<Zenject::InjectTypeInfo*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
+    }
   }; // Zenject.KeyedFactory`6
   // Could not write size check! Type: Zenject.KeyedFactory`6 is generic, or has no fields that are valid for size checks!
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::KeyedFactory_6, "Zenject", "KeyedFactory`6");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

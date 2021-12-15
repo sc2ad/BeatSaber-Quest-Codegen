@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Collections.Specialized.NameObjectCollectionBase
 #include "System/Collections/Specialized/NameObjectCollectionBase.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Collections.Specialized
-namespace System::Collections::Specialized {
-  // Forward declaring type: NameObjectEntry
-  class NameObjectEntry;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Collections::Specialized::NameObjectCollectionBase::NameObjectEntry);
-DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::NameObjectCollectionBase::NameObjectEntry*, "System.Collections.Specialized", "NameObjectCollectionBase/NameObjectEntry");
 // Type namespace: System.Collections.Specialized
 namespace System::Collections::Specialized {
   // Size: 0x20
@@ -28,11 +20,6 @@ namespace System::Collections::Specialized {
   // [TokenAttribute] Offset: FFFFFFFF
   class NameObjectCollectionBase::NameObjectEntry : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // System.String Key
     // Size: 0x8
     // Offset: 0x10
@@ -45,13 +32,14 @@ namespace System::Collections::Specialized {
     ::Il2CppObject* Value;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    public:
+    // Creating value type constructor for type: NameObjectEntry
+    NameObjectEntry(::Il2CppString* Key_ = {}, ::Il2CppObject* Value_ = {}) noexcept : Key{Key_}, Value{Value_} {}
     // Get instance field reference: System.String Key
     ::Il2CppString*& dyn_Key();
     // Get instance field reference: System.Object Value
     ::Il2CppObject*& dyn_Value();
     // System.Void .ctor(System.String name, System.Object value)
-    // Offset: 0x1A0446C
+    // Offset: 0x1A23B1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NameObjectCollectionBase::NameObjectEntry* New_ctor(::Il2CppString* name, ::Il2CppObject* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Specialized::NameObjectCollectionBase::NameObjectEntry::.ctor");
@@ -62,7 +50,8 @@ namespace System::Collections::Specialized {
   static check_size<sizeof(NameObjectCollectionBase::NameObjectEntry), 24 + sizeof(::Il2CppObject*)> __System_Collections_Specialized_NameObjectCollectionBase_NameObjectEntrySizeCheck;
   static_assert(sizeof(NameObjectCollectionBase::NameObjectEntry) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::NameObjectCollectionBase::NameObjectEntry*, "System.Collections.Specialized", "NameObjectCollectionBase/NameObjectEntry");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::Specialized::NameObjectCollectionBase::NameObjectEntry::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

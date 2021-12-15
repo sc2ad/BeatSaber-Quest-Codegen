@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: LiteNetLib.Utils.INetSerializable
@@ -13,13 +13,14 @@
 #include "System/IEquatable_1.hpp"
 // Including type: System.Single
 #include "System/Single.hpp"
+// Including type: UnityEngine.Quaternion
+#include "UnityEngine/Quaternion.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
-// Forward declaring namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: Quaternion
-  struct Quaternion;
-}
 // Forward declaring namespace: LiteNetLib::Utils
 namespace LiteNetLib::Utils {
   // Forward declaring type: NetDataReader
@@ -30,13 +31,6 @@ namespace LiteNetLib::Utils {
 // Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
-  // Forward declaring type: QuaternionSerializable
-  struct QuaternionSerializable;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::QuaternionSerializable, "", "QuaternionSerializable");
-// Type namespace: 
-namespace GlobalNamespace {
   // Size: 0xC
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -44,11 +38,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct QuaternionSerializable/*, public System::ValueType, public LiteNetLib::Utils::INetSerializable, public System::IEquatable_1<GlobalNamespace::QuaternionSerializable>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Int32 _a
     // Size: 0x4
     // Offset: 0x0
@@ -67,7 +56,6 @@ namespace GlobalNamespace {
     int c;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: QuaternionSerializable
     constexpr QuaternionSerializable(int a_ = {}, int b_ = {}, int c_ = {}) noexcept : a{a_}, b{b_}, c{c_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -113,47 +101,57 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _c
     int& dyn__c();
     // static public QuaternionSerializable get_identity()
-    // Offset: 0x2557790
+    // Offset: 0x26240D0
     static GlobalNamespace::QuaternionSerializable get_identity();
     // public System.Void .ctor(UnityEngine.Quaternion q)
-    // Offset: 0x2558394
-    QuaternionSerializable(UnityEngine::Quaternion q);
+    // Offset: 0x2624CD4
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    QuaternionSerializable(UnityEngine::Quaternion q) {
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::QuaternionSerializable::.ctor");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(q)})));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, q);
+    }
     // public System.Void .ctor(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x25589D8
-    QuaternionSerializable(LiteNetLib::Utils::NetDataReader* reader);
+    // Offset: 0x2625318
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    QuaternionSerializable(LiteNetLib::Utils::NetDataReader* reader) {
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::QuaternionSerializable::.ctor");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(reader)})));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, reader);
+    }
     // static private System.Void ToSmallest(UnityEngine.Quaternion q, out System.Int32 sa, out System.Int32 sb, out System.Int32 sc)
-    // Offset: 0x25584BC
+    // Offset: 0x2624DFC
     static void ToSmallest(UnityEngine::Quaternion q, ByRef<int> sa, ByRef<int> sb, ByRef<int> sc);
     // static private UnityEngine.Quaternion FromSmallest(System.Int32 sa, System.Int32 sb, System.Int32 sc)
-    // Offset: 0x25586FC
+    // Offset: 0x262503C
     static UnityEngine::Quaternion FromSmallest(int sa, int sb, int sc);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x2556AEC
+    // Offset: 0x262342C
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x25568D8
+    // Offset: 0x2623218
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Boolean Equals(QuaternionSerializable other)
-    // Offset: 0x255790C
+    // Offset: 0x262424C
     bool Equals(GlobalNamespace::QuaternionSerializable other);
     // public System.Boolean Approximately(QuaternionSerializable other)
-    // Offset: 0x2558924
+    // Offset: 0x2625264
     bool Approximately(GlobalNamespace::QuaternionSerializable other);
     // public System.Int32 GetSize()
-    // Offset: 0x2557BCC
+    // Offset: 0x262450C
     int GetSize();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x255887C
+    // Offset: 0x26251BC
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x2557A4C
+    // Offset: 0x262438C
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x25589E4
+    // Offset: 0x2625324
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
@@ -162,13 +160,14 @@ namespace GlobalNamespace {
   static check_size<sizeof(QuaternionSerializable), 8 + sizeof(int)> __GlobalNamespace_QuaternionSerializableSizeCheck;
   static_assert(sizeof(QuaternionSerializable) == 0xC);
   // static public QuaternionSerializable op_Addition(QuaternionSerializable a, QuaternionSerializable b)
-  // Offset: 0x2557E4C
+  // Offset: 0x262478C
   GlobalNamespace::QuaternionSerializable operator+(const GlobalNamespace::QuaternionSerializable& a, const GlobalNamespace::QuaternionSerializable& b);
   // static public QuaternionSerializable op_Subtraction(QuaternionSerializable a, QuaternionSerializable b)
-  // Offset: 0x2557EE8
+  // Offset: 0x2624828
   GlobalNamespace::QuaternionSerializable operator-(const GlobalNamespace::QuaternionSerializable& a, const GlobalNamespace::QuaternionSerializable& b);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::QuaternionSerializable, "", "QuaternionSerializable");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::QuaternionSerializable::get_identity
 // Il2CppName: get_identity
 template<>

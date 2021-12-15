@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.IEquatable`1
@@ -14,13 +14,6 @@
 // Completed includes
 // Type namespace: UnityEngine.Rendering
 namespace UnityEngine::Rendering {
-  // Forward declaring type: LODParameters
-  struct LODParameters;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::LODParameters, "UnityEngine.Rendering", "LODParameters");
-// Type namespace: UnityEngine.Rendering
-namespace UnityEngine::Rendering {
   // Size: 0x1C
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -28,11 +21,6 @@ namespace UnityEngine::Rendering {
   // [TokenAttribute] Offset: FFFFFFFF
   struct LODParameters/*, public System::ValueType, public System::IEquatable_1<UnityEngine::Rendering::LODParameters>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Int32 m_IsOrthographic
     // Size: 0x4
     // Offset: 0x0
@@ -63,7 +51,6 @@ namespace UnityEngine::Rendering {
     int m_CameraPixelHeight;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: LODParameters
     constexpr LODParameters(int m_IsOrthographic_ = {}, UnityEngine::Vector3 m_CameraPosition_ = {}, float m_FieldOfView_ = {}, float m_OrthoSize_ = {}, int m_CameraPixelHeight_ = {}) noexcept : m_IsOrthographic{m_IsOrthographic_}, m_CameraPosition{m_CameraPosition_}, m_FieldOfView{m_FieldOfView_}, m_OrthoSize{m_OrthoSize_}, m_CameraPixelHeight{m_CameraPixelHeight_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -85,15 +72,15 @@ namespace UnityEngine::Rendering {
     // Get instance field reference: private System.Int32 m_CameraPixelHeight
     int& dyn_m_CameraPixelHeight();
     // public System.Boolean Equals(UnityEngine.Rendering.LODParameters other)
-    // Offset: 0x1DEEFA8
+    // Offset: 0x1DF93AC
     bool Equals(UnityEngine::Rendering::LODParameters other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1DEF030
+    // Offset: 0x1DF9434
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1DEF0D0
+    // Offset: 0x1DF94D4
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
@@ -102,7 +89,9 @@ namespace UnityEngine::Rendering {
   static check_size<sizeof(LODParameters), 24 + sizeof(int)> __UnityEngine_Rendering_LODParametersSizeCheck;
   static_assert(sizeof(LODParameters) == 0x1C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::LODParameters, "UnityEngine.Rendering", "LODParameters");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Rendering::LODParameters::Equals
 // Il2CppName: Equals
 template<>

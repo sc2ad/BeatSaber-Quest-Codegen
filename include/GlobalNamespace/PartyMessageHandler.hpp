@@ -3,16 +3,16 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IDisposable
 #include "System/IDisposable.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -26,14 +26,6 @@ namespace GlobalNamespace {
   class ConnectedPlayerManager;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: PartyMessageHandler
-  class PartyMessageHandler;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::PartyMessageHandler);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PartyMessageHandler*, "", "PartyMessageHandler");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x28
@@ -56,18 +48,12 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct MessageType/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: MessageType
       constexpr MessageType(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -90,11 +76,6 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(PartyMessageHandler::MessageType), 0 + sizeof(int)> __GlobalNamespace_PartyMessageHandler_MessageTypeSizeCheck;
     static_assert(sizeof(PartyMessageHandler::MessageType) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private readonly NetworkPacketSerializer`2<PartyMessageHandler/MessageType,IConnectedPlayer> _serializer
     // Size: 0x8
     // Offset: 0x10
@@ -113,7 +94,8 @@ namespace GlobalNamespace {
     GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate* connectToMasterServerEvent;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate*) == 0x8);
-    public:
+    // Creating value type constructor for type: PartyMessageHandler
+    PartyMessageHandler(GlobalNamespace::NetworkPacketSerializer_2<GlobalNamespace::PartyMessageHandler::MessageType, GlobalNamespace::IConnectedPlayer*>* serializer_ = {}, GlobalNamespace::ConnectedPlayerManager* connectedPlayerManager_ = {}, GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate* connectToMasterServerEvent_ = {}) noexcept : serializer{serializer_}, connectedPlayerManager{connectedPlayerManager_}, connectToMasterServerEvent{connectToMasterServerEvent_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
@@ -125,35 +107,35 @@ namespace GlobalNamespace {
     // Get instance field reference: private PartyMessageHandler/ConnectToMasterServerDelegate connectToMasterServerEvent
     GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate*& dyn_connectToMasterServerEvent();
     // public System.Void add_connectToMasterServerEvent(PartyMessageHandler/ConnectToMasterServerDelegate value)
-    // Offset: 0x18B8AB8
+    // Offset: 0x180D094
     void add_connectToMasterServerEvent(GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate* value);
     // public System.Void remove_connectToMasterServerEvent(PartyMessageHandler/ConnectToMasterServerDelegate value)
-    // Offset: 0x18B8B5C
+    // Offset: 0x180D138
     void remove_connectToMasterServerEvent(GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate* value);
     // public System.Void .ctor(ConnectedPlayerManager connectedPlayerManager)
-    // Offset: 0x18B8908
+    // Offset: 0x180CEE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PartyMessageHandler* New_ctor(GlobalNamespace::ConnectedPlayerManager* connectedPlayerManager) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PartyMessageHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PartyMessageHandler*, creationType>(connectedPlayerManager)));
     }
     // public System.Void Dispose()
-    // Offset: 0x18B8A90
+    // Offset: 0x180D06C
     void Dispose();
     // public System.Void ConnectToMasterServer(System.String secret)
-    // Offset: 0x18B8C00
+    // Offset: 0x180D1DC
     void ConnectToMasterServer(::Il2CppString* secret);
     // private System.Void HandleConnectToMasterServer(PartyMessageHandler/ConnectToMasterServerMessage packet)
-    // Offset: 0x18B8C94
+    // Offset: 0x180D270
     void HandleConnectToMasterServer(GlobalNamespace::PartyMessageHandler::ConnectToMasterServerMessage* packet);
   }; // PartyMessageHandler
   #pragma pack(pop)
   static check_size<sizeof(PartyMessageHandler), 32 + sizeof(GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate*)> __GlobalNamespace_PartyMessageHandlerSizeCheck;
   static_assert(sizeof(PartyMessageHandler) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PartyMessageHandler*, "", "PartyMessageHandler");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PartyMessageHandler::MessageType, "", "PartyMessageHandler/MessageType");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PartyMessageHandler::add_connectToMasterServerEvent
 // Il2CppName: add_connectToMasterServerEvent
 template<>

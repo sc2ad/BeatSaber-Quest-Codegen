@@ -3,19 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: OVR.OpenVR.VRTextureDepthInfo_t
 #include "OVR/OpenVR/VRTextureDepthInfo_t.hpp"
 // Completed includes
-// Type namespace: OVR.OpenVR
-namespace OVR::OpenVR {
-  // Forward declaring type: VRTextureWithDepth_t
-  struct VRTextureWithDepth_t;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VRTextureWithDepth_t, "OVR.OpenVR", "VRTextureWithDepth_t");
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
   // Size: 0x50
@@ -25,18 +19,12 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VRTextureWithDepth_t/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public OVR.OpenVR.VRTextureDepthInfo_t depth
     // Size: 0x50
     // Offset: 0x0
     OVR::OpenVR::VRTextureDepthInfo_t depth;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::VRTextureDepthInfo_t) == 0x50);
-    public:
     // Creating value type constructor for type: VRTextureWithDepth_t
     constexpr VRTextureWithDepth_t(OVR::OpenVR::VRTextureDepthInfo_t depth_ = {}) noexcept : depth{depth_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -54,4 +42,6 @@ namespace OVR::OpenVR {
   static check_size<sizeof(VRTextureWithDepth_t), 0 + sizeof(OVR::OpenVR::VRTextureDepthInfo_t)> __OVR_OpenVR_VRTextureWithDepth_tSizeCheck;
   static_assert(sizeof(VRTextureWithDepth_t) == 0x50);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VRTextureWithDepth_t, "OVR.OpenVR", "VRTextureWithDepth_t");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

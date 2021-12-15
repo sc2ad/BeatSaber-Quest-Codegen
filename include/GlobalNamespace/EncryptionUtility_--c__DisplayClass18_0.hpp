@@ -3,24 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: EncryptionUtility
 #include "GlobalNamespace/EncryptionUtility.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <>c__DisplayClass18_0
-  class $$c__DisplayClass18_0;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::EncryptionUtility::$$c__DisplayClass18_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EncryptionUtility::$$c__DisplayClass18_0*, "", "EncryptionUtility/<>c__DisplayClass18_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x29
@@ -30,49 +21,45 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class EncryptionUtility::$$c__DisplayClass18_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Byte[] preMasterSecret
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<uint8_t> preMasterSecret;
+    ::Array<uint8_t>* preMasterSecret;
     // Field size check
-    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
+    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
     // public System.Byte[] serverSeed
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayW<uint8_t> serverSeed;
+    ::Array<uint8_t>* serverSeed;
     // Field size check
-    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
+    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
     // public System.Byte[] clientSeed
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayW<uint8_t> clientSeed;
+    ::Array<uint8_t>* clientSeed;
     // Field size check
-    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
+    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
     // public System.Boolean isClient
     // Size: 0x1
     // Offset: 0x28
     bool isClient;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: $$c__DisplayClass18_0
+    $$c__DisplayClass18_0(::Array<uint8_t>* preMasterSecret_ = {}, ::Array<uint8_t>* serverSeed_ = {}, ::Array<uint8_t>* clientSeed_ = {}, bool isClient_ = {}) noexcept : preMasterSecret{preMasterSecret_}, serverSeed{serverSeed_}, clientSeed{clientSeed_}, isClient{isClient_} {}
     // Get instance field reference: public System.Byte[] preMasterSecret
-    ::ArrayW<uint8_t>& dyn_preMasterSecret();
+    ::Array<uint8_t>*& dyn_preMasterSecret();
     // Get instance field reference: public System.Byte[] serverSeed
-    ::ArrayW<uint8_t>& dyn_serverSeed();
+    ::Array<uint8_t>*& dyn_serverSeed();
     // Get instance field reference: public System.Byte[] clientSeed
-    ::ArrayW<uint8_t>& dyn_clientSeed();
+    ::Array<uint8_t>*& dyn_clientSeed();
     // Get instance field reference: public System.Boolean isClient
     bool& dyn_isClient();
     // EncryptionUtility/IEncryptionState <CreateEncryptionStateAsync>b__0()
-    // Offset: 0x143C0A0
+    // Offset: 0x15678E8
     GlobalNamespace::EncryptionUtility::IEncryptionState* $CreateEncryptionStateAsync$b__0();
     // public System.Void .ctor()
-    // Offset: 0x143A538
+    // Offset: 0x1565D80
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -85,7 +72,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(EncryptionUtility::$$c__DisplayClass18_0), 40 + sizeof(bool)> __GlobalNamespace_EncryptionUtility_$$c__DisplayClass18_0SizeCheck;
   static_assert(sizeof(EncryptionUtility::$$c__DisplayClass18_0) == 0x29);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EncryptionUtility::$$c__DisplayClass18_0*, "", "EncryptionUtility/<>c__DisplayClass18_0");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EncryptionUtility::$$c__DisplayClass18_0::$CreateEncryptionStateAsync$b__0
 // Il2CppName: <CreateEncryptionStateAsync>b__0
 template<>

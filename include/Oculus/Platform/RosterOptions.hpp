@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Oculus.Platform
-namespace Oculus::Platform {
-  // Forward declaring type: RosterOptions
-  class RosterOptions;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::RosterOptions);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::RosterOptions*, "Oculus.Platform", "RosterOptions");
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
   // Size: 0x18
@@ -28,18 +20,14 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class RosterOptions : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.IntPtr Handle
     // Size: 0x8
     // Offset: 0x10
     System::IntPtr Handle;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
-    public:
+    // Creating value type constructor for type: RosterOptions
+    RosterOptions(System::IntPtr Handle_ = {}) noexcept : Handle{Handle_} {}
     // Creating conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept {
       return Handle;
@@ -47,16 +35,16 @@ namespace Oculus::Platform {
     // Get instance field reference: private System.IntPtr Handle
     System::IntPtr& dyn_Handle();
     // public System.Void AddSuggestedUser(System.UInt64 userID)
-    // Offset: 0x25A0018
+    // Offset: 0x266466C
     void AddSuggestedUser(uint64_t userID);
     // public System.Void ClearSuggestedUsers()
-    // Offset: 0x25A0094
+    // Offset: 0x26646E8
     void ClearSuggestedUsers();
     // static public System.IntPtr op_Explicit(Oculus.Platform.RosterOptions options)
-    // Offset: 0x25A0100
+    // Offset: 0x2664754
     // ABORTED: conflicts with another method.  explicit operator System::IntPtr();
     // public System.Void .ctor()
-    // Offset: 0x259FFA0
+    // Offset: 0x26645F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -65,7 +53,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<RosterOptions*, creationType>()));
     }
     // protected override System.Void Finalize()
-    // Offset: 0x25A0150
+    // Offset: 0x26647A4
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
@@ -74,7 +62,8 @@ namespace Oculus::Platform {
   static check_size<sizeof(RosterOptions), 16 + sizeof(System::IntPtr)> __Oculus_Platform_RosterOptionsSizeCheck;
   static_assert(sizeof(RosterOptions) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::RosterOptions*, "Oculus.Platform", "RosterOptions");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::RosterOptions::AddSuggestedUser
 // Il2CppName: AddSuggestedUser
 template<>

@@ -3,27 +3,18 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: CreditsData
-  class CreditsData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::CreditsData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CreditsData*, "", "CreditsData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x18
@@ -40,29 +31,25 @@ namespace GlobalNamespace {
     class RootCreditsItem;
     // Nested type: GlobalNamespace::CreditsData::ChildCreditsItem
     class ChildCreditsItem;
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public CreditsData/RootCreditsItem[] creditsItems
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<GlobalNamespace::CreditsData::RootCreditsItem*> creditsItems;
+    ::Array<GlobalNamespace::CreditsData::RootCreditsItem*>* creditsItems;
     // Field size check
-    static_assert(sizeof(::ArrayW<GlobalNamespace::CreditsData::RootCreditsItem*>) == 0x8);
-    public:
-    // Creating conversion operator: operator ::ArrayW<GlobalNamespace::CreditsData::RootCreditsItem*>
-    constexpr operator ::ArrayW<GlobalNamespace::CreditsData::RootCreditsItem*>() const noexcept {
+    static_assert(sizeof(::Array<GlobalNamespace::CreditsData::RootCreditsItem*>*) == 0x8);
+    // Creating value type constructor for type: CreditsData
+    CreditsData(::Array<GlobalNamespace::CreditsData::RootCreditsItem*>* creditsItems_ = {}) noexcept : creditsItems{creditsItems_} {}
+    // Creating conversion operator: operator ::Array<GlobalNamespace::CreditsData::RootCreditsItem*>*
+    constexpr operator ::Array<GlobalNamespace::CreditsData::RootCreditsItem*>*() const noexcept {
       return creditsItems;
     }
     // Get instance field reference: public CreditsData/RootCreditsItem[] creditsItems
-    ::ArrayW<GlobalNamespace::CreditsData::RootCreditsItem*>& dyn_creditsItems();
+    ::Array<GlobalNamespace::CreditsData::RootCreditsItem*>*& dyn_creditsItems();
     // static public CreditsData Deserialize(System.String text)
-    // Offset: 0x1134960
+    // Offset: 0x118FD58
     static GlobalNamespace::CreditsData* Deserialize(::Il2CppString* text);
     // public System.Void .ctor()
-    // Offset: 0x1134A24
+    // Offset: 0x118FE1C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -72,10 +59,11 @@ namespace GlobalNamespace {
     }
   }; // CreditsData
   #pragma pack(pop)
-  static check_size<sizeof(CreditsData), 16 + sizeof(::ArrayW<GlobalNamespace::CreditsData::RootCreditsItem*>)> __GlobalNamespace_CreditsDataSizeCheck;
+  static check_size<sizeof(CreditsData), 16 + sizeof(::Array<GlobalNamespace::CreditsData::RootCreditsItem*>*)> __GlobalNamespace_CreditsDataSizeCheck;
   static_assert(sizeof(CreditsData) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CreditsData*, "", "CreditsData");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CreditsData::Deserialize
 // Il2CppName: Deserialize
 template<>

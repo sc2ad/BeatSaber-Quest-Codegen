@@ -3,20 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Uri
 #include "System/Uri.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-// Type namespace: System
-namespace System {
-  // Forward declaring type: Offset
-  struct Offset;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Uri::Offset, "System", "Uri/Offset");
 // Type namespace: System
 namespace System {
   // Size: 0x10
@@ -26,11 +19,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Uri::Offset/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.UInt16 Scheme
     // Size: 0x2
     // Offset: 0x0
@@ -79,7 +67,6 @@ namespace System {
     uint16_t End;
     // Field size check
     static_assert(sizeof(uint16_t) == 0x2);
-    public:
     // Creating value type constructor for type: Offset
     constexpr Offset(uint16_t Scheme_ = {}, uint16_t User_ = {}, uint16_t Host_ = {}, uint16_t PortValue_ = {}, uint16_t Path_ = {}, uint16_t Query_ = {}, uint16_t Fragment_ = {}, uint16_t End_ = {}) noexcept : Scheme{Scheme_}, User{User_}, Host{Host_}, PortValue{PortValue_}, Path{Path_}, Query{Query_}, Fragment{Fragment_}, End{End_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -107,4 +94,6 @@ namespace System {
   static check_size<sizeof(Uri::Offset), 14 + sizeof(uint16_t)> __System_Uri_OffsetSizeCheck;
   static_assert(sizeof(Uri::Offset) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Uri::Offset, "System", "Uri/Offset");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

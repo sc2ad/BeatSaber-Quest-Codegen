@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Text.RegularExpressions.RegexCharClass
 #include "System/Text/RegularExpressions/RegexCharClass.hpp"
 // Including type: System.Collections.Generic.IComparer`1
 #include "System/Collections/Generic/IComparer_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Text.RegularExpressions
-namespace System::Text::RegularExpressions {
-  // Forward declaring type: SingleRangeComparer
-  class SingleRangeComparer;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Text::RegularExpressions::RegexCharClass::SingleRangeComparer);
-DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexCharClass::SingleRangeComparer*, "System.Text.RegularExpressions", "RegexCharClass/SingleRangeComparer");
 // Type namespace: System.Text.RegularExpressions
 namespace System::Text::RegularExpressions {
   // Size: 0x10
@@ -30,15 +22,17 @@ namespace System::Text::RegularExpressions {
   // [TokenAttribute] Offset: FFFFFFFF
   class RegexCharClass::SingleRangeComparer : public ::Il2CppObject/*, public System::Collections::Generic::IComparer_1<System::Text::RegularExpressions::RegexCharClass::SingleRange*>*/ {
     public:
+    // Creating value type constructor for type: SingleRangeComparer
+    SingleRangeComparer() noexcept {}
     // Creating interface conversion operator: operator System::Collections::Generic::IComparer_1<System::Text::RegularExpressions::RegexCharClass::SingleRange*>
     operator System::Collections::Generic::IComparer_1<System::Text::RegularExpressions::RegexCharClass::SingleRange*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IComparer_1<System::Text::RegularExpressions::RegexCharClass::SingleRange*>*>(this);
     }
     // public System.Int32 Compare(System.Text.RegularExpressions.RegexCharClass/System.Text.RegularExpressions.SingleRange x, System.Text.RegularExpressions.RegexCharClass/System.Text.RegularExpressions.SingleRange y)
-    // Offset: 0x1A19B80
+    // Offset: 0x1A392A0
     int Compare(System::Text::RegularExpressions::RegexCharClass::SingleRange* x, System::Text::RegularExpressions::RegexCharClass::SingleRange* y);
     // public System.Void .ctor()
-    // Offset: 0x1A19BBC
+    // Offset: 0x1A392DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -49,7 +43,8 @@ namespace System::Text::RegularExpressions {
   }; // System.Text.RegularExpressions.RegexCharClass/System.Text.RegularExpressions.SingleRangeComparer
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexCharClass::SingleRangeComparer*, "System.Text.RegularExpressions", "RegexCharClass/SingleRangeComparer");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexCharClass::SingleRangeComparer::Compare
 // Il2CppName: Compare
 template<>

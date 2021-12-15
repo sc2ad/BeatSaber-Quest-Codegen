@@ -3,26 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HoudiniEngineUnity.IEquivable`1
 #include "HoudiniEngineUnity/IEquivable_1.hpp"
 // Including type: HoudiniEngineUnity.HAPI_AttributeInfo
 #include "HoudiniEngineUnity/HAPI_AttributeInfo.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: HoudiniEngineUnity
-namespace HoudiniEngineUnity {
-  // Forward declaring type: HEU_AttributeData
-  class HEU_AttributeData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_AttributeData);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_AttributeData*, "HoudiniEngineUnity", "HEU_AttributeData");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x64
@@ -41,18 +32,12 @@ namespace HoudiniEngineUnity {
     // [TokenAttribute] Offset: FFFFFFFF
     struct AttributeType/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: AttributeType
       constexpr AttributeType(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -111,18 +96,12 @@ namespace HoudiniEngineUnity {
     // [TokenAttribute] Offset: FFFFFFFF
     struct AttributeState/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: AttributeState
       constexpr AttributeState(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -157,11 +136,6 @@ namespace HoudiniEngineUnity {
     #pragma pack(pop)
     static check_size<sizeof(HEU_AttributeData::AttributeState), 0 + sizeof(int)> __HoudiniEngineUnity_HEU_AttributeData_AttributeStateSizeCheck;
     static_assert(sizeof(HEU_AttributeData::AttributeState) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public HoudiniEngineUnity.HAPI_AttributeInfo _attributeInfo
     // Size: 0x24
     // Offset: 0x10
@@ -187,28 +161,29 @@ namespace HoudiniEngineUnity {
     // public System.Int32[] _intValues
     // Size: 0x8
     // Offset: 0x48
-    ::ArrayW<int> intValues;
+    ::Array<int>* intValues;
     // Field size check
-    static_assert(sizeof(::ArrayW<int>) == 0x8);
+    static_assert(sizeof(::Array<int>*) == 0x8);
     // public System.Single[] _floatValues
     // Size: 0x8
     // Offset: 0x50
-    ::ArrayW<float> floatValues;
+    ::Array<float>* floatValues;
     // Field size check
-    static_assert(sizeof(::ArrayW<float>) == 0x8);
+    static_assert(sizeof(::Array<float>*) == 0x8);
     // public System.String[] _stringValues
     // Size: 0x8
     // Offset: 0x58
-    ::ArrayW<::Il2CppString*> stringValues;
+    ::Array<::Il2CppString*>* stringValues;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
     // public HoudiniEngineUnity.HEU_AttributeData/HoudiniEngineUnity.AttributeState _attributeState
     // Size: 0x4
     // Offset: 0x60
     HoudiniEngineUnity::HEU_AttributeData::AttributeState attributeState;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::HEU_AttributeData::AttributeState) == 0x4);
-    public:
+    // Creating value type constructor for type: HEU_AttributeData
+    HEU_AttributeData(HoudiniEngineUnity::HAPI_AttributeInfo attributeInfo_ = {}, ::Il2CppString* name_ = {}, HoudiniEngineUnity::HEU_AttributeData::AttributeType attributeType_ = {}, ::Array<int>* intValues_ = {}, ::Array<float>* floatValues_ = {}, ::Array<::Il2CppString*>* stringValues_ = {}, HoudiniEngineUnity::HEU_AttributeData::AttributeState attributeState_ = {}) noexcept : attributeInfo{attributeInfo_}, name{name_}, attributeType{attributeType_}, intValues{intValues_}, floatValues{floatValues_}, stringValues{stringValues_}, attributeState{attributeState_} {}
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_AttributeData*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_AttributeData*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_AttributeData*>*>(this);
@@ -220,24 +195,24 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public HoudiniEngineUnity.HEU_AttributeData/HoudiniEngineUnity.AttributeType _attributeType
     HoudiniEngineUnity::HEU_AttributeData::AttributeType& dyn__attributeType();
     // Get instance field reference: public System.Int32[] _intValues
-    ::ArrayW<int>& dyn__intValues();
+    ::Array<int>*& dyn__intValues();
     // Get instance field reference: public System.Single[] _floatValues
-    ::ArrayW<float>& dyn__floatValues();
+    ::Array<float>*& dyn__floatValues();
     // Get instance field reference: public System.String[] _stringValues
-    ::ArrayW<::Il2CppString*>& dyn__stringValues();
+    ::Array<::Il2CppString*>*& dyn__stringValues();
     // Get instance field reference: public HoudiniEngineUnity.HEU_AttributeData/HoudiniEngineUnity.AttributeState _attributeState
     HoudiniEngineUnity::HEU_AttributeData::AttributeState& dyn__attributeState();
     // public System.Boolean IsColorAttribute()
-    // Offset: 0x14226A0
+    // Offset: 0x14671C0
     bool IsColorAttribute();
     // public System.Void CopyValuesTo(HoudiniEngineUnity.HEU_AttributeData destAttrData)
-    // Offset: 0x1422718
+    // Offset: 0x1467238
     void CopyValuesTo(HoudiniEngineUnity::HEU_AttributeData* destAttrData);
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_AttributeData other)
-    // Offset: 0x1422838
+    // Offset: 0x1467358
     bool IsEquivalentTo(HoudiniEngineUnity::HEU_AttributeData* other);
     // public System.Void .ctor()
-    // Offset: 0x1422AB0
+    // Offset: 0x14675D0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -250,11 +225,10 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_AttributeData), 96 + sizeof(HoudiniEngineUnity::HEU_AttributeData::AttributeState)> __HoudiniEngineUnity_HEU_AttributeDataSizeCheck;
   static_assert(sizeof(HEU_AttributeData) == 0x64);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_AttributeData*, "HoudiniEngineUnity", "HEU_AttributeData");
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_AttributeData::AttributeType, "HoudiniEngineUnity", "HEU_AttributeData/AttributeType");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_AttributeData::AttributeState, "HoudiniEngineUnity", "HEU_AttributeData/AttributeState");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_AttributeData::IsColorAttribute
 // Il2CppName: IsColorAttribute
 template<>

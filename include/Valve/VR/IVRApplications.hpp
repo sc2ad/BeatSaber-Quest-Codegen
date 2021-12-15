@@ -3,7 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
@@ -12,13 +12,6 @@
 namespace Valve::VR {
 }
 // Completed forward declares
-// Type namespace: Valve.VR
-namespace Valve::VR {
-  // Forward declaring type: IVRApplications
-  struct IVRApplications;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRApplications, "Valve.VR", "IVRApplications");
 // Type namespace: Valve.VR
 namespace Valve::VR {
   // Size: 0xF8
@@ -90,11 +83,6 @@ namespace Valve::VR {
     class _LaunchInternalProcess;
     // Nested type: Valve::VR::IVRApplications::_GetCurrentSceneProcessId
     class _GetCurrentSceneProcessId;
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // Valve.VR.IVRApplications/Valve.VR._AddApplicationManifest AddApplicationManifest
     // Size: 0x8
     // Offset: 0x0
@@ -281,7 +269,6 @@ namespace Valve::VR {
     Valve::VR::IVRApplications::_GetCurrentSceneProcessId* GetCurrentSceneProcessId;
     // Field size check
     static_assert(sizeof(Valve::VR::IVRApplications::_GetCurrentSceneProcessId*) == 0x8);
-    public:
     // Creating value type constructor for type: IVRApplications
     constexpr IVRApplications(Valve::VR::IVRApplications::_AddApplicationManifest* AddApplicationManifest_ = {}, Valve::VR::IVRApplications::_RemoveApplicationManifest* RemoveApplicationManifest_ = {}, Valve::VR::IVRApplications::_IsApplicationInstalled* IsApplicationInstalled_ = {}, Valve::VR::IVRApplications::_GetApplicationCount* GetApplicationCount_ = {}, Valve::VR::IVRApplications::_GetApplicationKeyByIndex* GetApplicationKeyByIndex_ = {}, Valve::VR::IVRApplications::_GetApplicationKeyByProcessId* GetApplicationKeyByProcessId_ = {}, Valve::VR::IVRApplications::_LaunchApplication* LaunchApplication_ = {}, Valve::VR::IVRApplications::_LaunchTemplateApplication* LaunchTemplateApplication_ = {}, Valve::VR::IVRApplications::_LaunchApplicationFromMimeType* LaunchApplicationFromMimeType_ = {}, Valve::VR::IVRApplications::_LaunchDashboardOverlay* LaunchDashboardOverlay_ = {}, Valve::VR::IVRApplications::_CancelApplicationLaunch* CancelApplicationLaunch_ = {}, Valve::VR::IVRApplications::_IdentifyApplication* IdentifyApplication_ = {}, Valve::VR::IVRApplications::_GetApplicationProcessId* GetApplicationProcessId_ = {}, Valve::VR::IVRApplications::_GetApplicationsErrorNameFromEnum* GetApplicationsErrorNameFromEnum_ = {}, Valve::VR::IVRApplications::_GetApplicationPropertyString* GetApplicationPropertyString_ = {}, Valve::VR::IVRApplications::_GetApplicationPropertyBool* GetApplicationPropertyBool_ = {}, Valve::VR::IVRApplications::_GetApplicationPropertyUint64* GetApplicationPropertyUint64_ = {}, Valve::VR::IVRApplications::_SetApplicationAutoLaunch* SetApplicationAutoLaunch_ = {}, Valve::VR::IVRApplications::_GetApplicationAutoLaunch* GetApplicationAutoLaunch_ = {}, Valve::VR::IVRApplications::_SetDefaultApplicationForMimeType* SetDefaultApplicationForMimeType_ = {}, Valve::VR::IVRApplications::_GetDefaultApplicationForMimeType* GetDefaultApplicationForMimeType_ = {}, Valve::VR::IVRApplications::_GetApplicationSupportedMimeTypes* GetApplicationSupportedMimeTypes_ = {}, Valve::VR::IVRApplications::_GetApplicationsThatSupportMimeType* GetApplicationsThatSupportMimeType_ = {}, Valve::VR::IVRApplications::_GetApplicationLaunchArguments* GetApplicationLaunchArguments_ = {}, Valve::VR::IVRApplications::_GetStartingApplication* GetStartingApplication_ = {}, Valve::VR::IVRApplications::_GetTransitionState* GetTransitionState_ = {}, Valve::VR::IVRApplications::_PerformApplicationPrelaunchCheck* PerformApplicationPrelaunchCheck_ = {}, Valve::VR::IVRApplications::_GetApplicationsTransitionStateNameFromEnum* GetApplicationsTransitionStateNameFromEnum_ = {}, Valve::VR::IVRApplications::_IsQuitUserPromptRequested* IsQuitUserPromptRequested_ = {}, Valve::VR::IVRApplications::_LaunchInternalProcess* LaunchInternalProcess_ = {}, Valve::VR::IVRApplications::_GetCurrentSceneProcessId* GetCurrentSceneProcessId_ = {}) noexcept : AddApplicationManifest{AddApplicationManifest_}, RemoveApplicationManifest{RemoveApplicationManifest_}, IsApplicationInstalled{IsApplicationInstalled_}, GetApplicationCount{GetApplicationCount_}, GetApplicationKeyByIndex{GetApplicationKeyByIndex_}, GetApplicationKeyByProcessId{GetApplicationKeyByProcessId_}, LaunchApplication{LaunchApplication_}, LaunchTemplateApplication{LaunchTemplateApplication_}, LaunchApplicationFromMimeType{LaunchApplicationFromMimeType_}, LaunchDashboardOverlay{LaunchDashboardOverlay_}, CancelApplicationLaunch{CancelApplicationLaunch_}, IdentifyApplication{IdentifyApplication_}, GetApplicationProcessId{GetApplicationProcessId_}, GetApplicationsErrorNameFromEnum{GetApplicationsErrorNameFromEnum_}, GetApplicationPropertyString{GetApplicationPropertyString_}, GetApplicationPropertyBool{GetApplicationPropertyBool_}, GetApplicationPropertyUint64{GetApplicationPropertyUint64_}, SetApplicationAutoLaunch{SetApplicationAutoLaunch_}, GetApplicationAutoLaunch{GetApplicationAutoLaunch_}, SetDefaultApplicationForMimeType{SetDefaultApplicationForMimeType_}, GetDefaultApplicationForMimeType{GetDefaultApplicationForMimeType_}, GetApplicationSupportedMimeTypes{GetApplicationSupportedMimeTypes_}, GetApplicationsThatSupportMimeType{GetApplicationsThatSupportMimeType_}, GetApplicationLaunchArguments{GetApplicationLaunchArguments_}, GetStartingApplication{GetStartingApplication_}, GetTransitionState{GetTransitionState_}, PerformApplicationPrelaunchCheck{PerformApplicationPrelaunchCheck_}, GetApplicationsTransitionStateNameFromEnum{GetApplicationsTransitionStateNameFromEnum_}, IsQuitUserPromptRequested{IsQuitUserPromptRequested_}, LaunchInternalProcess{LaunchInternalProcess_}, GetCurrentSceneProcessId{GetCurrentSceneProcessId_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -355,4 +342,6 @@ namespace Valve::VR {
   static check_size<sizeof(IVRApplications), 240 + sizeof(Valve::VR::IVRApplications::_GetCurrentSceneProcessId*)> __Valve_VR_IVRApplicationsSizeCheck;
   static_assert(sizeof(IVRApplications) == 0xF8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRApplications, "Valve.VR", "IVRApplications");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

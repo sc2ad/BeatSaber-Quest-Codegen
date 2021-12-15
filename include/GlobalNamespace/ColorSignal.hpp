@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: GenericSignal`1
 #include "GlobalNamespace/GenericSignal_1.hpp"
 // Including type: UnityEngine.Color
 #include "UnityEngine/Color.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: ColorSignal
-  class ColorSignal;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::ColorSignal);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSignal*, "", "ColorSignal");
 // Type namespace: 
 namespace GlobalNamespace {
   // WARNING Size may be invalid!
@@ -29,8 +21,10 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ColorSignal : public GlobalNamespace::GenericSignal_1<UnityEngine::Color> {
     public:
+    // Creating value type constructor for type: ColorSignal
+    ColorSignal() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x135E4C8
+    // Offset: 0x138F0A8
     // Implemented from: GenericSignal`1
     // Base method: System.Void GenericSignal_1::.ctor()
     // Base method: System.Void Signal::.ctor()
@@ -44,7 +38,8 @@ namespace GlobalNamespace {
     }
   }; // ColorSignal
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSignal*, "", "ColorSignal");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ColorSignal::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

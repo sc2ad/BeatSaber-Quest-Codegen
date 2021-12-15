@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRSystemPerfMetrics
 #include "GlobalNamespace/OVRSystemPerfMetrics.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: PerfMetrics
-  class PerfMetrics;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRSystemPerfMetrics::PerfMetrics);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSystemPerfMetrics::PerfMetrics*, "", "OVRSystemPerfMetrics/PerfMetrics");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x7C
@@ -28,11 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRSystemPerfMetrics::PerfMetrics : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 frameCount
     // Size: 0x4
     // Offset: 0x10
@@ -219,7 +206,8 @@ namespace GlobalNamespace {
     int deviceGpuClockLevel;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
+    // Creating value type constructor for type: PerfMetrics
+    PerfMetrics(int frameCount_ = {}, float frameTime_ = {}, float deltaFrameTime_ = {}, bool appCpuTime_IsValid_ = {}, float appCpuTime_ = {}, bool appGpuTime_IsValid_ = {}, float appGpuTime_ = {}, bool compositorCpuTime_IsValid_ = {}, float compositorCpuTime_ = {}, bool compositorGpuTime_IsValid_ = {}, float compositorGpuTime_ = {}, bool compositorDroppedFrameCount_IsValid_ = {}, int compositorDroppedFrameCount_ = {}, bool systemGpuUtilPercentage_IsValid_ = {}, float systemGpuUtilPercentage_ = {}, bool systemCpuUtilAveragePercentage_IsValid_ = {}, float systemCpuUtilAveragePercentage_ = {}, bool systemCpuUtilWorstPercentage_IsValid_ = {}, float systemCpuUtilWorstPercentage_ = {}, bool deviceCpuClockFrequencyInMHz_IsValid_ = {}, float deviceCpuClockFrequencyInMHz_ = {}, bool deviceGpuClockFrequencyInMHz_IsValid_ = {}, float deviceGpuClockFrequencyInMHz_ = {}, bool deviceCpuClockLevel_IsValid_ = {}, int deviceCpuClockLevel_ = {}, bool deviceGpuClockLevel_IsValid_ = {}, int deviceGpuClockLevel_ = {}) noexcept : frameCount{frameCount_}, frameTime{frameTime_}, deltaFrameTime{deltaFrameTime_}, appCpuTime_IsValid{appCpuTime_IsValid_}, appCpuTime{appCpuTime_}, appGpuTime_IsValid{appGpuTime_IsValid_}, appGpuTime{appGpuTime_}, compositorCpuTime_IsValid{compositorCpuTime_IsValid_}, compositorCpuTime{compositorCpuTime_}, compositorGpuTime_IsValid{compositorGpuTime_IsValid_}, compositorGpuTime{compositorGpuTime_}, compositorDroppedFrameCount_IsValid{compositorDroppedFrameCount_IsValid_}, compositorDroppedFrameCount{compositorDroppedFrameCount_}, systemGpuUtilPercentage_IsValid{systemGpuUtilPercentage_IsValid_}, systemGpuUtilPercentage{systemGpuUtilPercentage_}, systemCpuUtilAveragePercentage_IsValid{systemCpuUtilAveragePercentage_IsValid_}, systemCpuUtilAveragePercentage{systemCpuUtilAveragePercentage_}, systemCpuUtilWorstPercentage_IsValid{systemCpuUtilWorstPercentage_IsValid_}, systemCpuUtilWorstPercentage{systemCpuUtilWorstPercentage_}, deviceCpuClockFrequencyInMHz_IsValid{deviceCpuClockFrequencyInMHz_IsValid_}, deviceCpuClockFrequencyInMHz{deviceCpuClockFrequencyInMHz_}, deviceGpuClockFrequencyInMHz_IsValid{deviceGpuClockFrequencyInMHz_IsValid_}, deviceGpuClockFrequencyInMHz{deviceGpuClockFrequencyInMHz_}, deviceCpuClockLevel_IsValid{deviceCpuClockLevel_IsValid_}, deviceCpuClockLevel{deviceCpuClockLevel_}, deviceGpuClockLevel_IsValid{deviceGpuClockLevel_IsValid_}, deviceGpuClockLevel{deviceGpuClockLevel_} {}
     // Get instance field reference: public System.Int32 frameCount
     int& dyn_frameCount();
     // Get instance field reference: public System.Single frameTime
@@ -275,13 +263,13 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 deviceGpuClockLevel
     int& dyn_deviceGpuClockLevel();
     // public System.String ToJSON()
-    // Offset: 0x20C7B8C
+    // Offset: 0x216A468
     ::Il2CppString* ToJSON();
     // public System.Boolean LoadFromJSON(System.String json)
-    // Offset: 0x20C8078
+    // Offset: 0x216A954
     bool LoadFromJSON(::Il2CppString* json);
     // public System.Void .ctor()
-    // Offset: 0x20C7FFC
+    // Offset: 0x216A8D8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -294,7 +282,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRSystemPerfMetrics::PerfMetrics), 120 + sizeof(int)> __GlobalNamespace_OVRSystemPerfMetrics_PerfMetricsSizeCheck;
   static_assert(sizeof(OVRSystemPerfMetrics::PerfMetrics) == 0x7C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSystemPerfMetrics::PerfMetrics*, "", "OVRSystemPerfMetrics/PerfMetrics");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRSystemPerfMetrics::PerfMetrics::ToJSON
 // Il2CppName: ToJSON
 template<>

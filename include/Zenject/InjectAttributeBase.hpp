@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.Internal.PreserveAttribute
 #include "Zenject/Internal/PreserveAttribute.hpp"
 // Including type: Zenject.InjectSources
 #include "Zenject/InjectSources.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Zenject
-namespace Zenject {
-  // Forward declaring type: InjectAttributeBase
-  class InjectAttributeBase;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::InjectAttributeBase);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::InjectAttributeBase*, "Zenject", "InjectAttributeBase");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x24
@@ -30,11 +22,6 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class InjectAttributeBase : public Zenject::Internal::PreserveAttribute {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Boolean <Optional>k__BackingField
     // Size: 0x1
     // Offset: 0x10
@@ -55,7 +42,8 @@ namespace Zenject {
     Zenject::InjectSources Source;
     // Field size check
     static_assert(sizeof(Zenject::InjectSources) == 0x4);
-    public:
+    // Creating value type constructor for type: InjectAttributeBase
+    InjectAttributeBase(bool Optional_ = {}, ::Il2CppObject* Id_ = {}, Zenject::InjectSources Source_ = {}) noexcept : Optional{Optional_}, Id{Id_}, Source{Source_} {}
     // Get instance field reference: private System.Boolean <Optional>k__BackingField
     bool& dyn_$Optional$k__BackingField();
     // Get instance field reference: private System.Object <Id>k__BackingField
@@ -63,25 +51,25 @@ namespace Zenject {
     // Get instance field reference: private Zenject.InjectSources <Source>k__BackingField
     Zenject::InjectSources& dyn_$Source$k__BackingField();
     // public System.Boolean get_Optional()
-    // Offset: 0x25F863C
+    // Offset: 0x26BA624
     bool get_Optional();
     // public System.Void set_Optional(System.Boolean value)
-    // Offset: 0x25F8644
+    // Offset: 0x26BA62C
     void set_Optional(bool value);
     // public System.Object get_Id()
-    // Offset: 0x25F8650
+    // Offset: 0x26BA638
     ::Il2CppObject* get_Id();
     // public System.Void set_Id(System.Object value)
-    // Offset: 0x25F8658
+    // Offset: 0x26BA640
     void set_Id(::Il2CppObject* value);
     // public Zenject.InjectSources get_Source()
-    // Offset: 0x25F8660
+    // Offset: 0x26BA648
     Zenject::InjectSources get_Source();
     // public System.Void set_Source(Zenject.InjectSources value)
-    // Offset: 0x25F8668
+    // Offset: 0x26BA650
     void set_Source(Zenject::InjectSources value);
     // protected System.Void .ctor()
-    // Offset: 0x25F8634
+    // Offset: 0x26BA61C
     // Implemented from: Zenject.Internal.PreserveAttribute
     // Base method: System.Void PreserveAttribute::.ctor()
     // Base method: System.Void Attribute::.ctor()
@@ -96,7 +84,8 @@ namespace Zenject {
   static check_size<sizeof(InjectAttributeBase), 32 + sizeof(Zenject::InjectSources)> __Zenject_InjectAttributeBaseSizeCheck;
   static_assert(sizeof(InjectAttributeBase) == 0x24);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Zenject::InjectAttributeBase*, "Zenject", "InjectAttributeBase");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::InjectAttributeBase::get_Optional
 // Il2CppName: get_Optional
 template<>

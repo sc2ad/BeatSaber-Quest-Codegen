@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo
 #include "Org/BouncyCastle/Math/EC/Multiplier/PreCompInfo.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Org.BouncyCastle.Math.EC.Multiplier
-namespace Org::BouncyCastle::Math::EC::Multiplier {
-  // Forward declaring type: ValidityPreCompInfo
-  class ValidityPreCompInfo;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo*, "Org.BouncyCastle.Math.EC.Multiplier", "ValidityPreCompInfo");
 // Type namespace: Org.BouncyCastle.Math.EC.Multiplier
 namespace Org::BouncyCastle::Math::EC::Multiplier {
   // Size: 0x13
@@ -28,11 +20,6 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
   // [TokenAttribute] Offset: FFFFFFFF
   class ValidityPreCompInfo : public ::Il2CppObject/*, public Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Boolean failed
     // Size: 0x1
     // Offset: 0x10
@@ -51,7 +38,8 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     bool orderPassed;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: ValidityPreCompInfo
+    ValidityPreCompInfo(bool failed_ = {}, bool curveEquationPassed_ = {}, bool orderPassed_ = {}) noexcept : failed{failed_}, curveEquationPassed{curveEquationPassed_}, orderPassed{orderPassed_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo
     operator Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*>(this);
@@ -67,28 +55,28 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     // Get instance field reference: private System.Boolean orderPassed
     bool& dyn_orderPassed();
     // static private System.Void .cctor()
-    // Offset: 0x1F6BEF4
+    // Offset: 0x1F61388
     static void _cctor();
     // System.Boolean HasFailed()
-    // Offset: 0x1F6BEB8
+    // Offset: 0x1F6134C
     bool HasFailed();
     // System.Void ReportFailed()
-    // Offset: 0x1F6BEC0
+    // Offset: 0x1F61354
     void ReportFailed();
     // System.Boolean HasCurveEquationPassed()
-    // Offset: 0x1F6BECC
+    // Offset: 0x1F61360
     bool HasCurveEquationPassed();
     // System.Void ReportCurveEquationPassed()
-    // Offset: 0x1F6BED4
+    // Offset: 0x1F61368
     void ReportCurveEquationPassed();
     // System.Boolean HasOrderPassed()
-    // Offset: 0x1F6BEE0
+    // Offset: 0x1F61374
     bool HasOrderPassed();
     // System.Void ReportOrderPassed()
-    // Offset: 0x1F6BEE8
+    // Offset: 0x1F6137C
     void ReportOrderPassed();
     // public System.Void .ctor()
-    // Offset: 0x1F6BF50
+    // Offset: 0x1F613E4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -101,7 +89,8 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
   static check_size<sizeof(ValidityPreCompInfo), 18 + sizeof(bool)> __Org_BouncyCastle_Math_EC_Multiplier_ValidityPreCompInfoSizeCheck;
   static_assert(sizeof(ValidityPreCompInfo) == 0x13);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo*, "Org.BouncyCastle.Math.EC.Multiplier", "ValidityPreCompInfo");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::_cctor
 // Il2CppName: .cctor
 template<>

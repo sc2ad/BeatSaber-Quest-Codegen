@@ -3,17 +3,10 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-// Type namespace: NetEase.Docker
-namespace NetEase::Docker {
-  // Forward declaring type: InitializeData
-  struct InitializeData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::InitializeData, "NetEase.Docker", "InitializeData");
 // Type namespace: NetEase.Docker
 namespace NetEase::Docker {
   // Size: 0x8
@@ -23,12 +16,7 @@ namespace NetEase::Docker {
   // [TokenAttribute] Offset: FFFFFFFF
   struct InitializeData/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
-    // [DebuggerBrowsableAttribute] Offset: 0xEED8D4
+    // [DebuggerBrowsableAttribute] Offset: 0xF2E738
     // private System.Boolean <InitializeSuccessful>k__BackingField
     // Size: 0x1
     // Offset: 0x0
@@ -37,14 +25,13 @@ namespace NetEase::Docker {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: InitializeSuccessful and: InitializeCode
     char __padding0[0x3] = {};
-    // [DebuggerBrowsableAttribute] Offset: 0xEED910
+    // [DebuggerBrowsableAttribute] Offset: 0xF2E774
     // private System.Int32 <InitializeCode>k__BackingField
     // Size: 0x4
     // Offset: 0x4
     int InitializeCode;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: InitializeData
     constexpr InitializeData(bool InitializeSuccessful_ = {}, int InitializeCode_ = {}) noexcept : InitializeSuccessful{InitializeSuccessful_}, InitializeCode{InitializeCode_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -56,20 +43,22 @@ namespace NetEase::Docker {
     // Get instance field reference: private System.Int32 <InitializeCode>k__BackingField
     int& dyn_$InitializeCode$k__BackingField();
     // public System.Boolean get_InitializeSuccessful()
-    // Offset: 0x2607A50
+    // Offset: 0x26CAA78
     bool get_InitializeSuccessful();
     // public System.Void set_InitializeSuccessful(System.Boolean value)
-    // Offset: 0x2607A58
+    // Offset: 0x26CAA80
     void set_InitializeSuccessful(bool value);
     // public System.Void set_InitializeCode(System.Int32 value)
-    // Offset: 0x2607A64
+    // Offset: 0x26CAA8C
     void set_InitializeCode(int value);
   }; // NetEase.Docker.InitializeData
   #pragma pack(pop)
   static check_size<sizeof(InitializeData), 4 + sizeof(int)> __NetEase_Docker_InitializeDataSizeCheck;
   static_assert(sizeof(InitializeData) == 0x8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::InitializeData, "NetEase.Docker", "InitializeData");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NetEase::Docker::InitializeData::get_InitializeSuccessful
 // Il2CppName: get_InitializeSuccessful
 template<>

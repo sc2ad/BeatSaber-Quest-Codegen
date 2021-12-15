@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ArgumentException
 #include "System/ArgumentException.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: LiteNetLib.Utils
-namespace LiteNetLib::Utils {
-  // Forward declaring type: InvalidTypeException
-  class InvalidTypeException;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(LiteNetLib::Utils::InvalidTypeException);
-DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::InvalidTypeException*, "LiteNetLib.Utils", "InvalidTypeException");
 // Type namespace: LiteNetLib.Utils
 namespace LiteNetLib::Utils {
   // Size: 0x90
@@ -28,8 +20,10 @@ namespace LiteNetLib::Utils {
   // [TokenAttribute] Offset: FFFFFFFF
   class InvalidTypeException : public System::ArgumentException {
     public:
+    // Creating value type constructor for type: InvalidTypeException
+    InvalidTypeException() noexcept {}
     // public System.Void .ctor(System.String message)
-    // Offset: 0x1DC8910
+    // Offset: 0x1DD2C80
     // Implemented from: System.ArgumentException
     // Base method: System.Void ArgumentException::.ctor(System.String message)
     // Base method: System.Void SystemException::.ctor(System.String message)
@@ -42,7 +36,8 @@ namespace LiteNetLib::Utils {
   }; // LiteNetLib.Utils.InvalidTypeException
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::InvalidTypeException*, "LiteNetLib.Utils", "InvalidTypeException");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::Utils::InvalidTypeException::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

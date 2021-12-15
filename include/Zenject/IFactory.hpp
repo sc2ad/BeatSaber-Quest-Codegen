@@ -3,16 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: Zenject
-namespace Zenject {
-  // Forward declaring type: IFactory
-  class IFactory;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::IFactory);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::IFactory*, "Zenject", "IFactory");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x10
@@ -21,7 +13,11 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class IFactory {
     public:
+    // Creating value type constructor for type: IFactory
+    IFactory() noexcept {}
   }; // Zenject.IFactory
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Zenject::IFactory*, "Zenject", "IFactory");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

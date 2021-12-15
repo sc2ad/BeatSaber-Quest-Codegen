@@ -3,17 +3,9 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: IntToRoman
-  class IntToRoman;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::IntToRoman);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IntToRoman*, "", "IntToRoman");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -23,13 +15,17 @@ namespace GlobalNamespace {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class IntToRoman : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: IntToRoman
+    IntToRoman() noexcept {}
     // static public System.String Roman(System.Int32 number)
-    // Offset: 0x136AF80
+    // Offset: 0x139BB74
     static ::Il2CppString* Roman(int number);
   }; // IntToRoman
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IntToRoman*, "", "IntToRoman");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::IntToRoman::Roman
 // Il2CppName: Roman
 template<>

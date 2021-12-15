@@ -3,16 +3,14 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
-// Including type: System.Enum
-#include "System/Enum.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -25,14 +23,6 @@ namespace GlobalNamespace {
   class BoolSO;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: VRRenderingParamsSetup
-  class VRRenderingParamsSetup;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::VRRenderingParamsSetup);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRRenderingParamsSetup*, "", "VRRenderingParamsSetup");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x40
@@ -49,18 +39,12 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct SceneType/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: SceneType
       constexpr SceneType(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -95,11 +79,6 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(VRRenderingParamsSetup::SceneType), 0 + sizeof(int)> __GlobalNamespace_VRRenderingParamsSetup_SceneTypeSizeCheck;
     static_assert(sizeof(VRRenderingParamsSetup::SceneType) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private FloatSO _vrResolutionScale
     // Size: 0x8
     // Offset: 0x18
@@ -126,14 +105,15 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::VRRenderingParamsSetup::SceneType) == 0x4);
     // Padding between fields: sceneType and: vrPlatformHelper
     char __padding3[0x4] = {};
-    // [InjectAttribute] Offset: 0xEEBB00
+    // [InjectAttribute] Offset: 0xF2CFF8
     // private IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::IVRPlatformHelper* vrPlatformHelper;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IVRPlatformHelper*) == 0x8);
-    public:
+    // Creating value type constructor for type: VRRenderingParamsSetup
+    VRRenderingParamsSetup(GlobalNamespace::FloatSO* vrResolutionScale_ = {}, GlobalNamespace::FloatSO* menuVRResolutionScaleMultiplier_ = {}, GlobalNamespace::BoolSO* useFixedFoveatedRenderingDuringGameplay_ = {}, GlobalNamespace::VRRenderingParamsSetup::SceneType sceneType_ = {}, GlobalNamespace::IVRPlatformHelper* vrPlatformHelper_ = {}) noexcept : vrResolutionScale{vrResolutionScale_}, menuVRResolutionScaleMultiplier{menuVRResolutionScaleMultiplier_}, useFixedFoveatedRenderingDuringGameplay{useFixedFoveatedRenderingDuringGameplay_}, sceneType{sceneType_}, vrPlatformHelper{vrPlatformHelper_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private FloatSO _vrResolutionScale
@@ -147,10 +127,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private IVRPlatformHelper _vrPlatformHelper
     GlobalNamespace::IVRPlatformHelper*& dyn__vrPlatformHelper();
     // protected System.Void OnEnable()
-    // Offset: 0x25715B0
+    // Offset: 0x2632D5C
     void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0x25718B0
+    // Offset: 0x263305C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -167,9 +147,9 @@ namespace GlobalNamespace {
   static check_size<sizeof(VRRenderingParamsSetup), 56 + sizeof(GlobalNamespace::IVRPlatformHelper*)> __GlobalNamespace_VRRenderingParamsSetupSizeCheck;
   static_assert(sizeof(VRRenderingParamsSetup) == 0x40);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRRenderingParamsSetup*, "", "VRRenderingParamsSetup");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRRenderingParamsSetup::SceneType, "", "VRRenderingParamsSetup/SceneType");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::VRRenderingParamsSetup::OnEnable
 // Il2CppName: OnEnable
 template<>

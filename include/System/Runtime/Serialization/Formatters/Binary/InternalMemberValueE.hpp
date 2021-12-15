@@ -3,18 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: System.Runtime.Serialization.Formatters.Binary
-namespace System::Runtime::Serialization::Formatters::Binary {
-  // Forward declaring type: InternalMemberValueE
-  struct InternalMemberValueE;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::InternalMemberValueE, "System.Runtime.Serialization.Formatters.Binary", "InternalMemberValueE");
 // Type namespace: System.Runtime.Serialization.Formatters.Binary
 namespace System::Runtime::Serialization::Formatters::Binary {
   // Size: 0x4
@@ -23,18 +16,12 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   // [TokenAttribute] Offset: FFFFFFFF
   struct InternalMemberValueE/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: InternalMemberValueE
     constexpr InternalMemberValueE(int value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -82,4 +69,6 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   static check_size<sizeof(InternalMemberValueE), 0 + sizeof(int)> __System_Runtime_Serialization_Formatters_Binary_InternalMemberValueESizeCheck;
   static_assert(sizeof(InternalMemberValueE) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::InternalMemberValueE, "System.Runtime.Serialization.Formatters.Binary", "InternalMemberValueE");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

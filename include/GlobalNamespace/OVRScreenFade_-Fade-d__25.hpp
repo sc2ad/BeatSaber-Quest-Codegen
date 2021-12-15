@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRScreenFade
 #include "GlobalNamespace/OVRScreenFade.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
 #include "System/Collections/Generic/IEnumerator_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <Fade>d__25
-  class $Fade$d__25;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRScreenFade::$Fade$d__25);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRScreenFade::$Fade$d__25*, "", "OVRScreenFade/<Fade>d__25");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x34
@@ -31,11 +23,6 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class OVRScreenFade::$Fade$d__25 : public ::Il2CppObject/*, public System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -74,7 +61,8 @@ namespace GlobalNamespace {
     float $elapsedTime$5__2;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
+    // Creating value type constructor for type: $Fade$d__25
+    $Fade$d__25(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, GlobalNamespace::OVRScreenFade* $$4__this_ = {}, float startAlpha_ = {}, float endAlpha_ = {}, float $elapsedTime$5__2_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$4__this{$$4__this_}, startAlpha{startAlpha_}, endAlpha{endAlpha_}, $elapsedTime$5__2{$elapsedTime$5__2_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
@@ -92,33 +80,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single <elapsedTime>5__2
     float& dyn_$elapsedTime$5__2();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x17F2500
+    // Offset: 0x1880E14
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x17F2568
+    // Offset: 0x1880E7C
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x17F231C
+    // Offset: 0x1880C30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRScreenFade::$Fade$d__25* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRScreenFade::$Fade$d__25::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRScreenFade::$Fade$d__25*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x17F23BC
+    // Offset: 0x1880CD0
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x17F23C0
+    // Offset: 0x1880CD4
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x17F2508
+    // Offset: 0x1880E1C
     void System_Collections_IEnumerator_Reset();
   }; // OVRScreenFade/<Fade>d__25
   #pragma pack(pop)
   static check_size<sizeof(OVRScreenFade::$Fade$d__25), 48 + sizeof(float)> __GlobalNamespace_OVRScreenFade_$Fade$d__25SizeCheck;
   static_assert(sizeof(OVRScreenFade::$Fade$d__25) == 0x34);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRScreenFade::$Fade$d__25*, "", "OVRScreenFade/<Fade>d__25");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRScreenFade::$Fade$d__25::System_Collections_Generic_IEnumerator$System_Object$_get_Current
 // Il2CppName: System.Collections.Generic.IEnumerator<System.Object>.get_Current
 template<>

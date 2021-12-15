@@ -3,20 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Crypto.ICipherParameters
 #include "Org/BouncyCastle/Crypto/ICipherParameters.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
-// Type namespace: Org.BouncyCastle.Crypto.Parameters
-namespace Org::BouncyCastle::Crypto::Parameters {
-  // Forward declaring type: IesParameters
-  class IesParameters;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Crypto::Parameters::IesParameters);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::IesParameters*, "Org.BouncyCastle.Crypto.Parameters", "IesParameters");
 // Type namespace: Org.BouncyCastle.Crypto.Parameters
 namespace Org::BouncyCastle::Crypto::Parameters {
   // Size: 0x24
@@ -25,55 +16,53 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   // [TokenAttribute] Offset: FFFFFFFF
   class IesParameters : public ::Il2CppObject/*, public Org::BouncyCastle::Crypto::ICipherParameters*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Byte[] derivation
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<uint8_t> derivation;
+    ::Array<uint8_t>* derivation;
     // Field size check
-    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
+    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
     // private System.Byte[] encoding
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayW<uint8_t> encoding;
+    ::Array<uint8_t>* encoding;
     // Field size check
-    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
+    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
     // private System.Int32 macKeySize
     // Size: 0x4
     // Offset: 0x20
     int macKeySize;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
+    // Creating value type constructor for type: IesParameters
+    IesParameters(::Array<uint8_t>* derivation_ = {}, ::Array<uint8_t>* encoding_ = {}, int macKeySize_ = {}) noexcept : derivation{derivation_}, encoding{encoding_}, macKeySize{macKeySize_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::ICipherParameters
     operator Org::BouncyCastle::Crypto::ICipherParameters() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ICipherParameters*>(this);
     }
     // Get instance field reference: private System.Byte[] derivation
-    ::ArrayW<uint8_t>& dyn_derivation();
+    ::Array<uint8_t>*& dyn_derivation();
     // Get instance field reference: private System.Byte[] encoding
-    ::ArrayW<uint8_t>& dyn_encoding();
+    ::Array<uint8_t>*& dyn_encoding();
     // Get instance field reference: private System.Int32 macKeySize
     int& dyn_macKeySize();
     // public System.Int32 get_MacKeySize()
-    // Offset: 0x137BA90
+    // Offset: 0x13BBA24
     int get_MacKeySize();
     // public System.Byte[] GetDerivationV()
-    // Offset: 0x137BA80
-    ::ArrayW<uint8_t> GetDerivationV();
+    // Offset: 0x13BBA14
+    ::Array<uint8_t>* GetDerivationV();
     // public System.Byte[] GetEncodingV()
-    // Offset: 0x137BA88
-    ::ArrayW<uint8_t> GetEncodingV();
+    // Offset: 0x13BBA1C
+    ::Array<uint8_t>* GetEncodingV();
   }; // Org.BouncyCastle.Crypto.Parameters.IesParameters
   #pragma pack(pop)
   static check_size<sizeof(IesParameters), 32 + sizeof(int)> __Org_BouncyCastle_Crypto_Parameters_IesParametersSizeCheck;
   static_assert(sizeof(IesParameters) == 0x24);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::IesParameters*, "Org.BouncyCastle.Crypto.Parameters", "IesParameters");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::IesParameters::get_MacKeySize
 // Il2CppName: get_MacKeySize
 template<>
@@ -85,7 +74,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::IesParameters::GetDerivationV
 // Il2CppName: GetDerivationV
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Org::BouncyCastle::Crypto::Parameters::IesParameters::*)()>(&Org::BouncyCastle::Crypto::Parameters::IesParameters::GetDerivationV)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Org::BouncyCastle::Crypto::Parameters::IesParameters::*)()>(&Org::BouncyCastle::Crypto::Parameters::IesParameters::GetDerivationV)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Parameters::IesParameters*), "GetDerivationV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -93,7 +82,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<ui
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::IesParameters::GetEncodingV
 // Il2CppName: GetEncodingV
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Org::BouncyCastle::Crypto::Parameters::IesParameters::*)()>(&Org::BouncyCastle::Crypto::Parameters::IesParameters::GetEncodingV)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Org::BouncyCastle::Crypto::Parameters::IesParameters::*)()>(&Org::BouncyCastle::Crypto::Parameters::IesParameters::GetEncodingV)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Parameters::IesParameters*), "GetEncodingV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

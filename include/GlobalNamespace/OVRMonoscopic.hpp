@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: OVRInput/RawButton
 #include "GlobalNamespace/OVRInput_RawButton.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: OVRMonoscopic
-  class OVRMonoscopic;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRMonoscopic);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMonoscopic*, "", "OVRMonoscopic");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x1D
@@ -30,11 +22,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRMonoscopic : public UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public OVRInput/RawButton toggleButton
     // Size: 0x4
     // Offset: 0x18
@@ -47,7 +34,8 @@ namespace GlobalNamespace {
     bool monoscopic;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: OVRMonoscopic
+    OVRMonoscopic(GlobalNamespace::OVRInput::RawButton toggleButton_ = {}, bool monoscopic_ = {}) noexcept : toggleButton{toggleButton_}, monoscopic{monoscopic_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public OVRInput/RawButton toggleButton
@@ -55,10 +43,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean monoscopic
     bool& dyn_monoscopic();
     // private System.Void Update()
-    // Offset: 0x144B650
+    // Offset: 0x147AE34
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x144B764
+    // Offset: 0x147AF48
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -75,7 +63,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRMonoscopic), 28 + sizeof(bool)> __GlobalNamespace_OVRMonoscopicSizeCheck;
   static_assert(sizeof(OVRMonoscopic) == 0x1D);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMonoscopic*, "", "OVRMonoscopic");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRMonoscopic::Update
 // Il2CppName: Update
 template<>

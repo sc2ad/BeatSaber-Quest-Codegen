@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Oculus.Platform.CAPI
 #include "Oculus/Platform/CAPI.hpp"
 // Including type: System.ValueType
@@ -14,13 +14,6 @@
 // Completed includes
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
-  // Forward declaring type: ovrMatchmakingCustomQueryData
-  struct ovrMatchmakingCustomQueryData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CAPI::ovrMatchmakingCustomQueryData, "Oculus.Platform", "CAPI/ovrMatchmakingCustomQueryData");
-// Type namespace: Oculus.Platform
-namespace Oculus::Platform {
   // Size: 0x1C
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -28,11 +21,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   struct CAPI::ovrMatchmakingCustomQueryData/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.IntPtr dataArray
     // Size: 0x8
     // Offset: 0x0
@@ -59,7 +47,6 @@ namespace Oculus::Platform {
     uint criterionArrayCount;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
-    public:
     // Creating value type constructor for type: ovrMatchmakingCustomQueryData
     constexpr ovrMatchmakingCustomQueryData(System::IntPtr dataArray_ = {}, uint dataArrayCount_ = {}, System::IntPtr criterionArray_ = {}, uint criterionArrayCount_ = {}) noexcept : dataArray{dataArray_}, dataArrayCount{dataArrayCount_}, criterionArray{criterionArray_}, criterionArrayCount{criterionArrayCount_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -79,4 +66,6 @@ namespace Oculus::Platform {
   static check_size<sizeof(CAPI::ovrMatchmakingCustomQueryData), 24 + sizeof(uint)> __Oculus_Platform_CAPI_ovrMatchmakingCustomQueryDataSizeCheck;
   static_assert(sizeof(CAPI::ovrMatchmakingCustomQueryData) == 0x1C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CAPI::ovrMatchmakingCustomQueryData, "Oculus.Platform", "CAPI/ovrMatchmakingCustomQueryData");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

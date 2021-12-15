@@ -3,9 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Resources
@@ -19,13 +23,6 @@ struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Resources
 namespace System::Resources {
-  // Forward declaring type: ResourceLocator
-  struct ResourceLocator;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Resources::ResourceLocator, "System.Resources", "ResourceLocator");
-// Type namespace: System.Resources
-namespace System::Resources {
   // Size: 0xC
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -33,11 +30,6 @@ namespace System::Resources {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ResourceLocator/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // System.Object _value
     // Size: 0x8
     // Offset: 0x0
@@ -50,7 +42,6 @@ namespace System::Resources {
     int dataPos;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: ResourceLocator
     constexpr ResourceLocator(::Il2CppObject* value_ = {}, int dataPos_ = {}) noexcept : value{value_}, dataPos{dataPos_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -62,26 +53,32 @@ namespace System::Resources {
     // Get instance field reference: System.Int32 _dataPos
     int& dyn__dataPos();
     // System.Int32 get_DataPosition()
-    // Offset: 0x158BA0C
+    // Offset: 0x1619D00
     int get_DataPosition();
     // System.Object get_Value()
-    // Offset: 0x158BA14
+    // Offset: 0x1619D08
     ::Il2CppObject* get_Value();
     // System.Void set_Value(System.Object value)
-    // Offset: 0x158BA1C
+    // Offset: 0x1619D10
     void set_Value(::Il2CppObject* value);
     // System.Void .ctor(System.Int32 dataPos, System.Object value)
-    // Offset: 0x158BA00
-    ResourceLocator(int dataPos, ::Il2CppObject* value);
+    // Offset: 0x1619CF4
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    ResourceLocator(int dataPos, ::Il2CppObject* value) {
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Resources::ResourceLocator::.ctor");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(dataPos), ::il2cpp_utils::ExtractType(value)})));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, dataPos, value);
+    }
     // static System.Boolean CanCache(System.Resources.ResourceTypeCode value)
-    // Offset: 0x158BA24
+    // Offset: 0x1619D18
     static bool CanCache(System::Resources::ResourceTypeCode value);
   }; // System.Resources.ResourceLocator
   #pragma pack(pop)
   static check_size<sizeof(ResourceLocator), 8 + sizeof(int)> __System_Resources_ResourceLocatorSizeCheck;
   static_assert(sizeof(ResourceLocator) == 0xC);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Resources::ResourceLocator, "System.Resources", "ResourceLocator");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Resources::ResourceLocator::get_DataPosition
 // Il2CppName: get_DataPosition
 template<>

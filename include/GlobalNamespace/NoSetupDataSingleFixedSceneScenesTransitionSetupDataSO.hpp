@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: SingleFixedSceneScenesTransitionSetupDataSO
 #include "GlobalNamespace/SingleFixedSceneScenesTransitionSetupDataSO.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO
-  class NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO*, "", "NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x30
@@ -28,11 +20,13 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO : public GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO {
     public:
+    // Creating value type constructor for type: NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO
+    NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO() noexcept {}
     // public System.Void Init()
-    // Offset: 0x136C204
+    // Offset: 0x139CDF8
     void Init();
     // public System.Void .ctor()
-    // Offset: 0x136C210
+    // Offset: 0x139CE04
     // Implemented from: SingleFixedSceneScenesTransitionSetupDataSO
     // Base method: System.Void SingleFixedSceneScenesTransitionSetupDataSO::.ctor()
     // Base method: System.Void ScenesTransitionSetupDataSO::.ctor()
@@ -48,7 +42,8 @@ namespace GlobalNamespace {
   }; // NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO*, "", "NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO::Init
 // Il2CppName: Init
 template<>

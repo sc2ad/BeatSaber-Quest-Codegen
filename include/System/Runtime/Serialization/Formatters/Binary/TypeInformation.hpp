@@ -3,21 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Runtime.Serialization.Formatters.Binary
-namespace System::Runtime::Serialization::Formatters::Binary {
-  // Forward declaring type: TypeInformation
-  class TypeInformation;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::TypeInformation);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::TypeInformation*, "System.Runtime.Serialization.Formatters.Binary", "TypeInformation");
 // Type namespace: System.Runtime.Serialization.Formatters.Binary
 namespace System::Runtime::Serialization::Formatters::Binary {
   // Size: 0x21
@@ -26,11 +18,6 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   // [TokenAttribute] Offset: FFFFFFFF
   class TypeInformation : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.String fullTypeName
     // Size: 0x8
     // Offset: 0x10
@@ -49,7 +36,8 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     bool hasTypeForwardedFrom;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: TypeInformation
+    TypeInformation(::Il2CppString* fullTypeName_ = {}, ::Il2CppString* assemblyString_ = {}, bool hasTypeForwardedFrom_ = {}) noexcept : fullTypeName{fullTypeName_}, assemblyString{assemblyString_}, hasTypeForwardedFrom{hasTypeForwardedFrom_} {}
     // Get instance field reference: private System.String fullTypeName
     ::Il2CppString*& dyn_fullTypeName();
     // Get instance field reference: private System.String assemblyString
@@ -57,16 +45,16 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: private System.Boolean hasTypeForwardedFrom
     bool& dyn_hasTypeForwardedFrom();
     // System.String get_FullTypeName()
-    // Offset: 0x17DB548
+    // Offset: 0x1869E5C
     ::Il2CppString* get_FullTypeName();
     // System.String get_AssemblyString()
-    // Offset: 0x17DB550
+    // Offset: 0x1869E64
     ::Il2CppString* get_AssemblyString();
     // System.Boolean get_HasTypeForwardedFrom()
-    // Offset: 0x17DB558
+    // Offset: 0x1869E6C
     bool get_HasTypeForwardedFrom();
     // System.Void .ctor(System.String fullTypeName, System.String assemblyString, System.Boolean hasTypeForwardedFrom)
-    // Offset: 0x17CF220
+    // Offset: 0x185DB34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeInformation* New_ctor(::Il2CppString* fullTypeName, ::Il2CppString* assemblyString, bool hasTypeForwardedFrom) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::TypeInformation::.ctor");
@@ -77,7 +65,8 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   static check_size<sizeof(TypeInformation), 32 + sizeof(bool)> __System_Runtime_Serialization_Formatters_Binary_TypeInformationSizeCheck;
   static_assert(sizeof(TypeInformation) == 0x21);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::TypeInformation*, "System.Runtime.Serialization.Formatters.Binary", "TypeInformation");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::TypeInformation::get_FullTypeName
 // Il2CppName: get_FullTypeName
 template<>

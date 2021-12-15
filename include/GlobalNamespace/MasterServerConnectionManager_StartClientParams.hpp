@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MasterServerConnectionManager
 #include "GlobalNamespace/MasterServerConnectionManager.hpp"
 // Including type: MasterServerConnectionManager/MasterServerConnectionManagerParamsBase
 #include "GlobalNamespace/MasterServerConnectionManager_MasterServerConnectionManagerParamsBase.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: StartClientParams
-  class StartClientParams;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MasterServerConnectionManager::StartClientParams);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerConnectionManager::StartClientParams*, "", "MasterServerConnectionManager/StartClientParams");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x60
@@ -30,8 +22,10 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MasterServerConnectionManager::StartClientParams : public GlobalNamespace::MasterServerConnectionManager::MasterServerConnectionManagerParamsBase {
     public:
+    // Creating value type constructor for type: StartClientParams
+    StartClientParams() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x12FA660
+    // Offset: 0x14C0734
     // Implemented from: MasterServerConnectionManager/MasterServerConnectionManagerParamsBase
     // Base method: System.Void MasterServerConnectionManagerParamsBase::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -43,7 +37,8 @@ namespace GlobalNamespace {
   }; // MasterServerConnectionManager/StartClientParams
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerConnectionManager::StartClientParams*, "", "MasterServerConnectionManager/StartClientParams");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::StartClientParams::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

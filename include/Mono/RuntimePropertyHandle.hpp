@@ -3,22 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Begin il2cpp-utils forward declares
-struct Il2CppObject;
-// Completed il2cpp-utils forward declares
-// Type namespace: Mono
-namespace Mono {
-  // Forward declaring type: RuntimePropertyHandle
-  struct RuntimePropertyHandle;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimePropertyHandle, "Mono", "RuntimePropertyHandle");
 // Type namespace: Mono
 namespace Mono {
   // Size: 0x8
@@ -28,18 +23,12 @@ namespace Mono {
   // [TokenAttribute] Offset: FFFFFFFF
   struct RuntimePropertyHandle/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.IntPtr value
     // Size: 0x8
     // Offset: 0x0
     System::IntPtr value;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
-    public:
     // Creating value type constructor for type: RuntimePropertyHandle
     constexpr RuntimePropertyHandle(System::IntPtr value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -53,18 +42,19 @@ namespace Mono {
     // Get instance field reference: private System.IntPtr value
     System::IntPtr& dyn_value();
     // public System.IntPtr get_Value()
-    // Offset: 0x1C22934
+    // Offset: 0x1C7BA2C
     System::IntPtr get_Value();
     // System.Void .ctor(System.IntPtr v)
-    // Offset: 0x1C2292C
-    // ABORTED: conflicts with another method.  RuntimePropertyHandle(System::IntPtr v);
+    // Offset: 0x1C7BA24
+    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    // ABORTED: conflicts with another method.  RuntimePropertyHandle(System::IntPtr v)
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1C2293C
+    // Offset: 0x1C7BA34
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1C22A54
+    // Offset: 0x1C7BB4C
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
@@ -73,7 +63,8 @@ namespace Mono {
   static check_size<sizeof(RuntimePropertyHandle), 0 + sizeof(System::IntPtr)> __Mono_RuntimePropertyHandleSizeCheck;
   static_assert(sizeof(RuntimePropertyHandle) == 0x8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimePropertyHandle, "Mono", "RuntimePropertyHandle");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::RuntimePropertyHandle::get_Value
 // Il2CppName: get_Value
 template<>

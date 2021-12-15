@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRPlugin
 #include "GlobalNamespace/OVRPlugin.hpp"
 // Including type: System.ValueType
@@ -20,13 +20,6 @@
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
-  // Forward declaring type: CameraExtrinsics
-  struct CameraExtrinsics;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::CameraExtrinsics, "", "OVRPlugin/CameraExtrinsics");
-// Type namespace: 
-namespace GlobalNamespace {
   // Size: 0x34
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -34,11 +27,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct OVRPlugin::CameraExtrinsics/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public OVRPlugin/Bool IsValid
     // Size: 0x4
     // Offset: 0x0
@@ -71,7 +59,6 @@ namespace GlobalNamespace {
     GlobalNamespace::OVRPlugin::Posef RelativePose;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRPlugin::Posef) == 0x1C);
-    public:
     // Creating value type constructor for type: CameraExtrinsics
     constexpr CameraExtrinsics(GlobalNamespace::OVRPlugin::Bool IsValid_ = {}, double LastChangedTimeSeconds_ = {}, GlobalNamespace::OVRPlugin::CameraStatus CameraStatusData_ = {}, GlobalNamespace::OVRPlugin::Node AttachedToNode_ = {}, GlobalNamespace::OVRPlugin::Posef RelativePose_ = {}) noexcept : IsValid{IsValid_}, LastChangedTimeSeconds{LastChangedTimeSeconds_}, CameraStatusData{CameraStatusData_}, AttachedToNode{AttachedToNode_}, RelativePose{RelativePose_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -93,4 +80,6 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRPlugin::CameraExtrinsics), 24 + sizeof(GlobalNamespace::OVRPlugin::Posef)> __GlobalNamespace_OVRPlugin_CameraExtrinsicsSizeCheck;
   static_assert(sizeof(OVRPlugin::CameraExtrinsics) == 0x34);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::CameraExtrinsics, "", "OVRPlugin/CameraExtrinsics");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

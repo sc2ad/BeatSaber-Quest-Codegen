@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Array
 #include "System/Array.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
 #include "System/Collections/Generic/IEnumerator_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System
-namespace System {
-  // Forward declaring type: EmptyInternalEnumerator`1<T>
-  template<typename T>
-  class EmptyInternalEnumerator_1;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Array::EmptyInternalEnumerator_1, "System", "Array/EmptyInternalEnumerator`1");
 // Type namespace: System
 namespace System {
   // WARNING Size may be invalid!
@@ -30,6 +22,8 @@ namespace System {
   template<typename T>
   class Array::EmptyInternalEnumerator_1 : public ::Il2CppObject/*, public System::Collections::Generic::IEnumerator_1<T>*/ {
     public:
+    // Creating value type constructor for type: EmptyInternalEnumerator_1
+    EmptyInternalEnumerator_1() noexcept {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<T>
     operator System::Collections::Generic::IEnumerator_1<T>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<T>*>(this);
@@ -51,42 +45,47 @@ namespace System {
     T get_Current() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Array::EmptyInternalEnumerator_1::get_Current");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_Current", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<T, false>(___instance_arg, ___internal__method);
     }
     // private System.Object System.Collections.IEnumerator.get_Current()
     // Offset: 0xFFFFFFFF
     ::Il2CppObject* System_Collections_IEnumerator_get_Current() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Array::EmptyInternalEnumerator_1::System.Collections.IEnumerator.get_Current");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<::Il2CppObject*, false>(this, ___internal__method);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<::Il2CppObject*, false>(___instance_arg, ___internal__method);
     }
     // static private System.Void .cctor()
     // Offset: 0xFFFFFFFF
     static void _cctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Array::EmptyInternalEnumerator_1::.cctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Array::EmptyInternalEnumerator_1<T>*>::get(), ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
     }
     // public System.Void Dispose()
     // Offset: 0xFFFFFFFF
     void Dispose() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Array::EmptyInternalEnumerator_1::Dispose");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Dispose", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
+      auto ___instance_arg = this;
+      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method);
     }
     // public System.Boolean MoveNext()
     // Offset: 0xFFFFFFFF
     bool MoveNext() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Array::EmptyInternalEnumerator_1::MoveNext");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "MoveNext", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(___instance_arg, ___internal__method);
     }
     // private System.Void System.Collections.IEnumerator.Reset()
     // Offset: 0xFFFFFFFF
     void System_Collections_IEnumerator_Reset() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Array::EmptyInternalEnumerator_1::System.Collections.IEnumerator.Reset");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
+      auto ___instance_arg = this;
+      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
@@ -100,4 +99,5 @@ namespace System {
   }; // System.Array/System.EmptyInternalEnumerator`1
   // Could not write size check! Type: System.Array/System.EmptyInternalEnumerator`1 is generic, or has no fields that are valid for size checks!
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Array::EmptyInternalEnumerator_1, "System", "Array/EmptyInternalEnumerator`1");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

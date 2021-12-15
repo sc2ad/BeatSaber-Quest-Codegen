@@ -3,19 +3,12 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: OVR.OpenVR.HmdMatrix34_t
 #include "OVR/OpenVR/HmdMatrix34_t.hpp"
 // Completed includes
-// Type namespace: OVR.OpenVR
-namespace OVR::OpenVR {
-  // Forward declaring type: SpatialAnchorPose_t
-  struct SpatialAnchorPose_t;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::SpatialAnchorPose_t, "OVR.OpenVR", "SpatialAnchorPose_t");
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
   // Size: 0x30
@@ -25,18 +18,12 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct SpatialAnchorPose_t/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public OVR.OpenVR.HmdMatrix34_t mAnchorToAbsoluteTracking
     // Size: 0x30
     // Offset: 0x0
     OVR::OpenVR::HmdMatrix34_t mAnchorToAbsoluteTracking;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::HmdMatrix34_t) == 0x30);
-    public:
     // Creating value type constructor for type: SpatialAnchorPose_t
     constexpr SpatialAnchorPose_t(OVR::OpenVR::HmdMatrix34_t mAnchorToAbsoluteTracking_ = {}) noexcept : mAnchorToAbsoluteTracking{mAnchorToAbsoluteTracking_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -54,4 +41,6 @@ namespace OVR::OpenVR {
   static check_size<sizeof(SpatialAnchorPose_t), 0 + sizeof(OVR::OpenVR::HmdMatrix34_t)> __OVR_OpenVR_SpatialAnchorPose_tSizeCheck;
   static_assert(sizeof(SpatialAnchorPose_t) == 0x30);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::SpatialAnchorPose_t, "OVR.OpenVR", "SpatialAnchorPose_t");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

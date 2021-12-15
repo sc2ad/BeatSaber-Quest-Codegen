@@ -4,16 +4,8 @@
 #pragma once
 // Begin includes
 #include <stdint.h>
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: UnityEngine.Timeline
-namespace UnityEngine::Timeline {
-  // Forward declaring type: IInterval
-  class IInterval;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Timeline::IInterval);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::IInterval*, "UnityEngine.Timeline", "IInterval");
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {
   // Size: 0x10
@@ -22,6 +14,8 @@ namespace UnityEngine::Timeline {
   // [TokenAttribute] Offset: FFFFFFFF
   class IInterval {
     public:
+    // Creating value type constructor for type: IInterval
+    IInterval() noexcept {}
     // public System.Int64 get_intervalStart()
     // Offset: 0xFFFFFFFF
     int64_t get_intervalStart();
@@ -31,7 +25,9 @@ namespace UnityEngine::Timeline {
   }; // UnityEngine.Timeline.IInterval
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::IInterval*, "UnityEngine.Timeline", "IInterval");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::IInterval::get_intervalStart
 // Il2CppName: get_intervalStart
 template<>

@@ -3,17 +3,9 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: System
-namespace System {
-  // Forward declaring type: UncNameHelper
-  class UncNameHelper;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::UncNameHelper);
-DEFINE_IL2CPP_ARG_TYPE(System::UncNameHelper*, "System", "UncNameHelper");
 // Type namespace: System
 namespace System {
   // Size: 0x10
@@ -22,16 +14,20 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class UncNameHelper : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: UncNameHelper
+    UncNameHelper() noexcept {}
     // static System.String ParseCanonicalName(System.String str, System.Int32 start, System.Int32 end, ref System.Boolean loopback)
-    // Offset: 0x1A271C4
+    // Offset: 0x1A468E4
     static ::Il2CppString* ParseCanonicalName(::Il2CppString* str, int start, int end, ByRef<bool> loopback);
     // static System.Boolean IsValid(System.Char* name, System.UInt16 start, ref System.Int32 returnedEnd, System.Boolean notImplicitFile)
-    // Offset: 0x1A271CC
+    // Offset: 0x1A468EC
     static bool IsValid(::Il2CppChar* name, uint16_t start, ByRef<int> returnedEnd, bool notImplicitFile);
   }; // System.UncNameHelper
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::UncNameHelper*, "System", "UncNameHelper");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::UncNameHelper::ParseCanonicalName
 // Il2CppName: ParseCanonicalName
 template<>

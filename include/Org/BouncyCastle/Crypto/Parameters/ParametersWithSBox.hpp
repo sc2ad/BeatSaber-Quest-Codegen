@@ -3,24 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Crypto.ICipherParameters
 #include "Org/BouncyCastle/Crypto/ICipherParameters.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Org.BouncyCastle.Crypto.Parameters
-namespace Org::BouncyCastle::Crypto::Parameters {
-  // Forward declaring type: ParametersWithSBox
-  class ParametersWithSBox;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Crypto::Parameters::ParametersWithSBox);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::ParametersWithSBox*, "Org.BouncyCastle.Crypto.Parameters", "ParametersWithSBox");
 // Type namespace: Org.BouncyCastle.Crypto.Parameters
 namespace Org::BouncyCastle::Crypto::Parameters {
   // Size: 0x20
@@ -29,11 +20,6 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   // [TokenAttribute] Offset: FFFFFFFF
   class ParametersWithSBox : public ::Il2CppObject/*, public Org::BouncyCastle::Crypto::ICipherParameters*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private Org.BouncyCastle.Crypto.ICipherParameters parameters
     // Size: 0x8
     // Offset: 0x10
@@ -43,10 +29,11 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // private System.Byte[] sBox
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayW<uint8_t> sBox;
+    ::Array<uint8_t>* sBox;
     // Field size check
-    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
-    public:
+    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    // Creating value type constructor for type: ParametersWithSBox
+    ParametersWithSBox(Org::BouncyCastle::Crypto::ICipherParameters* parameters_ = {}, ::Array<uint8_t>* sBox_ = {}) noexcept : parameters{parameters_}, sBox{sBox_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::ICipherParameters
     operator Org::BouncyCastle::Crypto::ICipherParameters() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ICipherParameters*>(this);
@@ -54,26 +41,27 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Get instance field reference: private Org.BouncyCastle.Crypto.ICipherParameters parameters
     Org::BouncyCastle::Crypto::ICipherParameters*& dyn_parameters();
     // Get instance field reference: private System.Byte[] sBox
-    ::ArrayW<uint8_t>& dyn_sBox();
+    ::Array<uint8_t>*& dyn_sBox();
     // public Org.BouncyCastle.Crypto.ICipherParameters get_Parameters()
-    // Offset: 0x137BCDC
+    // Offset: 0x13BBC70
     Org::BouncyCastle::Crypto::ICipherParameters* get_Parameters();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.ICipherParameters parameters, System.Byte[] sBox)
-    // Offset: 0x137BC9C
+    // Offset: 0x13BBC30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ParametersWithSBox* New_ctor(Org::BouncyCastle::Crypto::ICipherParameters* parameters, ::ArrayW<uint8_t> sBox) {
+    static ParametersWithSBox* New_ctor(Org::BouncyCastle::Crypto::ICipherParameters* parameters, ::Array<uint8_t>* sBox) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::ParametersWithSBox::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ParametersWithSBox*, creationType>(parameters, sBox)));
     }
     // public System.Byte[] GetSBox()
-    // Offset: 0x137BCD4
-    ::ArrayW<uint8_t> GetSBox();
+    // Offset: 0x13BBC68
+    ::Array<uint8_t>* GetSBox();
   }; // Org.BouncyCastle.Crypto.Parameters.ParametersWithSBox
   #pragma pack(pop)
-  static check_size<sizeof(ParametersWithSBox), 24 + sizeof(::ArrayW<uint8_t>)> __Org_BouncyCastle_Crypto_Parameters_ParametersWithSBoxSizeCheck;
+  static check_size<sizeof(ParametersWithSBox), 24 + sizeof(::Array<uint8_t>*)> __Org_BouncyCastle_Crypto_Parameters_ParametersWithSBoxSizeCheck;
   static_assert(sizeof(ParametersWithSBox) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::ParametersWithSBox*, "Org.BouncyCastle.Crypto.Parameters", "ParametersWithSBox");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::ParametersWithSBox::get_Parameters
 // Il2CppName: get_Parameters
 template<>
@@ -89,7 +77,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::ParametersWithSBox::GetSBox
 // Il2CppName: GetSBox
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Org::BouncyCastle::Crypto::Parameters::ParametersWithSBox::*)()>(&Org::BouncyCastle::Crypto::Parameters::ParametersWithSBox::GetSBox)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Org::BouncyCastle::Crypto::Parameters::ParametersWithSBox::*)()>(&Org::BouncyCastle::Crypto::Parameters::ParametersWithSBox::GetSBox)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Parameters::ParametersWithSBox*), "GetSBox", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

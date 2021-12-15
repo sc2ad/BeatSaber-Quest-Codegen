@@ -3,12 +3,16 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.PoolableManager
 #include "Zenject/PoolableManager.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Zenject
@@ -19,13 +23,6 @@ namespace Zenject {
 // Completed forward declares
 // Type namespace: Zenject
 namespace Zenject {
-  // Forward declaring type: PoolableInfo
-  struct PoolableInfo;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Zenject::PoolableManager::PoolableInfo, "Zenject", "PoolableManager/PoolableInfo");
-// Type namespace: Zenject
-namespace Zenject {
   // Size: 0xC
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -33,11 +30,6 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   struct PoolableManager::PoolableInfo/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public Zenject.IPoolable Poolable
     // Size: 0x8
     // Offset: 0x0
@@ -50,7 +42,6 @@ namespace Zenject {
     int Priority;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: PoolableInfo
     constexpr PoolableInfo(Zenject::IPoolable* Poolable_ = {}, int Priority_ = {}) noexcept : Poolable{Poolable_}, Priority{Priority_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -62,14 +53,16 @@ namespace Zenject {
     // Get instance field reference: public System.Int32 Priority
     int& dyn_Priority();
     // public System.Void .ctor(Zenject.IPoolable poolable, System.Int32 priority)
-    // Offset: 0x187D40C
-    // ABORTED: conflicts with another method.  PoolableInfo(Zenject::IPoolable* poolable, int priority);
+    // Offset: 0x18DD00C
+    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    // ABORTED: conflicts with another method.  PoolableInfo(Zenject::IPoolable* poolable, int priority)
   }; // Zenject.PoolableManager/Zenject.PoolableInfo
   #pragma pack(pop)
   static check_size<sizeof(PoolableManager::PoolableInfo), 8 + sizeof(int)> __Zenject_PoolableManager_PoolableInfoSizeCheck;
   static_assert(sizeof(PoolableManager::PoolableInfo) == 0xC);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Zenject::PoolableManager::PoolableInfo, "Zenject", "PoolableManager/PoolableInfo");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::PoolableManager::PoolableInfo::PoolableInfo
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

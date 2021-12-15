@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Collections.Generic.EqualityComparer`1
 #include "System/Collections/Generic/EqualityComparer_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Collections.Generic
-namespace System::Collections::Generic {
-  // Forward declaring type: NonRandomizedStringEqualityComparer
-  class NonRandomizedStringEqualityComparer;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Collections::Generic::NonRandomizedStringEqualityComparer);
-DEFINE_IL2CPP_ARG_TYPE(System::Collections::Generic::NonRandomizedStringEqualityComparer*, "System.Collections.Generic", "NonRandomizedStringEqualityComparer");
 // Type namespace: System.Collections.Generic
 namespace System::Collections::Generic {
   // WARNING Size may be invalid!
@@ -27,14 +19,16 @@ namespace System::Collections::Generic {
   // [TokenAttribute] Offset: FFFFFFFF
   class NonRandomizedStringEqualityComparer : public System::Collections::Generic::EqualityComparer_1<::Il2CppString*> {
     public:
+    // Creating value type constructor for type: NonRandomizedStringEqualityComparer
+    NonRandomizedStringEqualityComparer() noexcept {}
     // public System.Boolean Equals(System.String x, System.String y)
-    // Offset: 0x1980A74
+    // Offset: 0x199F124
     bool Equals(::Il2CppString* x, ::Il2CppString* y);
     // public System.Int32 GetHashCode(System.String obj)
-    // Offset: 0x1980A84
+    // Offset: 0x199F134
     int GetHashCode(::Il2CppString* obj);
     // public System.Void .ctor()
-    // Offset: 0x1980A9C
+    // Offset: 0x199F14C
     // Implemented from: System.Collections.Generic.EqualityComparer`1
     // Base method: System.Void EqualityComparer_1::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -45,7 +39,8 @@ namespace System::Collections::Generic {
     }
   }; // System.Collections.Generic.NonRandomizedStringEqualityComparer
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Collections::Generic::NonRandomizedStringEqualityComparer*, "System.Collections.Generic", "NonRandomizedStringEqualityComparer");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::Generic::NonRandomizedStringEqualityComparer::Equals
 // Il2CppName: Equals
 template<>

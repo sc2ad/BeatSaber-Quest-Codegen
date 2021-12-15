@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HoudiniEngineUnity.IEquivable`1
 #include "HoudiniEngineUnity/IEquivable_1.hpp"
 // Including type: UnityEngine.Color
 #include "UnityEngine/Color.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: HoudiniEngineUnity
-namespace HoudiniEngineUnity {
-  // Forward declaring type: HEU_DetailPrototype
-  class HEU_DetailPrototype;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_DetailPrototype);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_DetailPrototype*, "HoudiniEngineUnity", "HEU_DetailPrototype");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x5C
@@ -30,11 +22,6 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_DetailPrototype : public ::Il2CppObject/*, public HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_DetailPrototype*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.String _prototypePrefab
     // Size: 0x8
     // Offset: 0x10
@@ -101,7 +88,8 @@ namespace HoudiniEngineUnity {
     int renderMode;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
+    // Creating value type constructor for type: HEU_DetailPrototype
+    HEU_DetailPrototype(::Il2CppString* prototypePrefab_ = {}, ::Il2CppString* prototypeTexture_ = {}, float bendFactor_ = {}, UnityEngine::Color dryColor_ = {}, UnityEngine::Color healthyColor_ = {}, float maxHeight_ = {}, float maxWidth_ = {}, float minHeight_ = {}, float minWidth_ = {}, float noiseSpread_ = {}, int renderMode_ = {}) noexcept : prototypePrefab{prototypePrefab_}, prototypeTexture{prototypeTexture_}, bendFactor{bendFactor_}, dryColor{dryColor_}, healthyColor{healthyColor_}, maxHeight{maxHeight_}, maxWidth{maxWidth_}, minHeight{minHeight_}, minWidth{minWidth_}, noiseSpread{noiseSpread_}, renderMode{renderMode_} {}
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_DetailPrototype*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_DetailPrototype*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_DetailPrototype*>*>(this);
@@ -129,10 +117,10 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Int32 _renderMode
     int& dyn__renderMode();
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_DetailPrototype other)
-    // Offset: 0x147E07C
+    // Offset: 0x14D5A60
     bool IsEquivalentTo(HoudiniEngineUnity::HEU_DetailPrototype* other);
     // public System.Void .ctor()
-    // Offset: 0x147DF54
+    // Offset: 0x14D5938
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -145,7 +133,8 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_DetailPrototype), 88 + sizeof(int)> __HoudiniEngineUnity_HEU_DetailPrototypeSizeCheck;
   static_assert(sizeof(HEU_DetailPrototype) == 0x5C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_DetailPrototype*, "HoudiniEngineUnity", "HEU_DetailPrototype");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_DetailPrototype::IsEquivalentTo
 // Il2CppName: IsEquivalentTo
 template<>

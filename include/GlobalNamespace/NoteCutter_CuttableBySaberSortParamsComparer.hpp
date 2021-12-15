@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: NoteCutter
 #include "GlobalNamespace/NoteCutter.hpp"
 // Including type: System.Collections.IComparer
 #include "System/Collections/IComparer.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: CuttableBySaberSortParamsComparer
-  class CuttableBySaberSortParamsComparer;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::NoteCutter::CuttableBySaberSortParamsComparer);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutter::CuttableBySaberSortParamsComparer*, "", "NoteCutter/CuttableBySaberSortParamsComparer");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -30,15 +22,17 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class NoteCutter::CuttableBySaberSortParamsComparer : public ::Il2CppObject/*, public System::Collections::IComparer*/ {
     public:
+    // Creating value type constructor for type: CuttableBySaberSortParamsComparer
+    CuttableBySaberSortParamsComparer() noexcept {}
     // Creating interface conversion operator: operator System::Collections::IComparer
     operator System::Collections::IComparer() noexcept {
       return *reinterpret_cast<System::Collections::IComparer*>(this);
     }
     // public System.Int32 Compare(System.Object p0, System.Object p1)
-    // Offset: 0x133A2B8
+    // Offset: 0x133FFE0
     int Compare(::Il2CppObject* p0, ::Il2CppObject* p1);
     // public System.Void .ctor()
-    // Offset: 0x1339BE8
+    // Offset: 0x133F910
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -49,7 +43,8 @@ namespace GlobalNamespace {
   }; // NoteCutter/CuttableBySaberSortParamsComparer
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutter::CuttableBySaberSortParamsComparer*, "", "NoteCutter/CuttableBySaberSortParamsComparer");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteCutter::CuttableBySaberSortParamsComparer::Compare
 // Il2CppName: Compare
 template<>

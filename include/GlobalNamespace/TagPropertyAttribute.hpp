@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.PropertyAttribute
 #include "UnityEngine/PropertyAttribute.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: TagPropertyAttribute
-  class TagPropertyAttribute;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::TagPropertyAttribute);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TagPropertyAttribute*, "", "TagPropertyAttribute");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -28,8 +20,10 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TagPropertyAttribute : public UnityEngine::PropertyAttribute {
     public:
+    // Creating value type constructor for type: TagPropertyAttribute
+    TagPropertyAttribute() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x257FB1C
+    // Offset: 0x26413B4
     // Implemented from: UnityEngine.PropertyAttribute
     // Base method: System.Void PropertyAttribute::.ctor()
     // Base method: System.Void Attribute::.ctor()
@@ -42,7 +36,8 @@ namespace GlobalNamespace {
   }; // TagPropertyAttribute
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TagPropertyAttribute*, "", "TagPropertyAttribute");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TagPropertyAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

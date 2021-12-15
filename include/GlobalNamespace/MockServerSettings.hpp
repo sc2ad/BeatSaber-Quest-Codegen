@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MockPlayerSettings
 #include "GlobalNamespace/MockPlayerSettings.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: MockServerSettings
-  class MockServerSettings;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MockServerSettings);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockServerSettings*, "", "MockServerSettings");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x70
@@ -28,8 +20,10 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MockServerSettings : public GlobalNamespace::MockPlayerSettings {
     public:
+    // Creating value type constructor for type: MockServerSettings
+    MockServerSettings() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x117A3AC
+    // Offset: 0x11C2FCC
     // Implemented from: MockPlayerSettings
     // Base method: System.Void MockPlayerSettings::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -41,7 +35,8 @@ namespace GlobalNamespace {
   }; // MockServerSettings
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockServerSettings*, "", "MockServerSettings");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MockServerSettings::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

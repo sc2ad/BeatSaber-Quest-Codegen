@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: SteamVR_TrackedCamera
 #include "GlobalNamespace/SteamVR_TrackedCamera.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: VideoStream
-  class VideoStream;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::SteamVR_TrackedCamera::VideoStream);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_TrackedCamera::VideoStream*, "", "SteamVR_TrackedCamera/VideoStream");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x30
@@ -28,11 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SteamVR_TrackedCamera::VideoStream : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.UInt32 <deviceIndex>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -61,7 +48,8 @@ namespace GlobalNamespace {
     uint64_t refCount;
     // Field size check
     static_assert(sizeof(uint64_t) == 0x8);
-    public:
+    // Creating value type constructor for type: VideoStream
+    VideoStream(uint deviceIndex_ = {}, uint64_t handle_ = {}, bool hasCamera_ = {}, uint64_t refCount_ = {}) noexcept : deviceIndex{deviceIndex_}, handle{handle_}, hasCamera{hasCamera_}, refCount{refCount_} {}
     // Get instance field reference: private System.UInt32 <deviceIndex>k__BackingField
     uint& dyn_$deviceIndex$k__BackingField();
     // Get instance field reference: private System.UInt64 _handle
@@ -71,36 +59,37 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.UInt64 refCount
     uint64_t& dyn_refCount();
     // public System.UInt32 get_deviceIndex()
-    // Offset: 0x18652A8
+    // Offset: 0x18BCD08
     uint get_deviceIndex();
     // private System.Void set_deviceIndex(System.UInt32 value)
-    // Offset: 0x18652B0
+    // Offset: 0x18BCD10
     void set_deviceIndex(uint value);
     // public System.UInt64 get_handle()
-    // Offset: 0x18652B8
+    // Offset: 0x18BCD18
     uint64_t get_handle();
     // public System.Boolean get_hasCamera()
-    // Offset: 0x18652C0
+    // Offset: 0x18BCD20
     bool get_hasCamera();
     // public System.Void .ctor(System.UInt32 deviceIndex)
-    // Offset: 0x18651E0
+    // Offset: 0x18BCC40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_TrackedCamera::VideoStream* New_ctor(uint deviceIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SteamVR_TrackedCamera::VideoStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_TrackedCamera::VideoStream*, creationType>(deviceIndex)));
     }
     // public System.UInt64 Acquire()
-    // Offset: 0x18652C8
+    // Offset: 0x18BCD28
     uint64_t Acquire();
     // public System.UInt64 Release()
-    // Offset: 0x1865384
+    // Offset: 0x18BCDE4
     uint64_t Release();
   }; // SteamVR_TrackedCamera/VideoStream
   #pragma pack(pop)
   static check_size<sizeof(SteamVR_TrackedCamera::VideoStream), 40 + sizeof(uint64_t)> __GlobalNamespace_SteamVR_TrackedCamera_VideoStreamSizeCheck;
   static_assert(sizeof(SteamVR_TrackedCamera::VideoStream) == 0x30);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_TrackedCamera::VideoStream*, "", "SteamVR_TrackedCamera/VideoStream");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_TrackedCamera::VideoStream::get_deviceIndex
 // Il2CppName: get_deviceIndex
 template<>

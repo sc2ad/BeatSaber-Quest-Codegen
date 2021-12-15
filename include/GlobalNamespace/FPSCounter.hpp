@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: FPSCounter
-  class FPSCounter;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::FPSCounter);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FPSCounter*, "", "FPSCounter");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x34
@@ -28,11 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class FPSCounter : public UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Int32 <currentFPS>k__BackingField
     // Size: 0x4
     // Offset: 0x18
@@ -75,7 +62,8 @@ namespace GlobalNamespace {
     float minDeltaTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
+    // Creating value type constructor for type: FPSCounter
+    FPSCounter(int currentFPS_ = {}, int lowestFPS_ = {}, int highestFPS_ = {}, int droppedFrames_ = {}, float timeBuffer_ = {}, int frameCounter_ = {}, float minDeltaTime_ = {}) noexcept : currentFPS{currentFPS_}, lowestFPS{lowestFPS_}, highestFPS{highestFPS_}, droppedFrames{droppedFrames_}, timeBuffer{timeBuffer_}, frameCounter{frameCounter_}, minDeltaTime{minDeltaTime_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Int32 <currentFPS>k__BackingField
@@ -93,37 +81,37 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _minDeltaTime
     float& dyn__minDeltaTime();
     // public System.Int32 get_currentFPS()
-    // Offset: 0x116E868
+    // Offset: 0x11E13A0
     int get_currentFPS();
     // private System.Void set_currentFPS(System.Int32 value)
-    // Offset: 0x116E870
+    // Offset: 0x11E13A8
     void set_currentFPS(int value);
     // public System.Int32 get_lowestFPS()
-    // Offset: 0x116E878
+    // Offset: 0x11E13B0
     int get_lowestFPS();
     // private System.Void set_lowestFPS(System.Int32 value)
-    // Offset: 0x116E880
+    // Offset: 0x11E13B8
     void set_lowestFPS(int value);
     // public System.Int32 get_highestFPS()
-    // Offset: 0x116E888
+    // Offset: 0x11E13C0
     int get_highestFPS();
     // private System.Void set_highestFPS(System.Int32 value)
-    // Offset: 0x116E890
+    // Offset: 0x11E13C8
     void set_highestFPS(int value);
     // public System.Int32 get_droppedFrames()
-    // Offset: 0x116E898
+    // Offset: 0x11E13D0
     int get_droppedFrames();
     // private System.Void set_droppedFrames(System.Int32 value)
-    // Offset: 0x116E8A0
+    // Offset: 0x11E13D8
     void set_droppedFrames(int value);
     // protected System.Void Awake()
-    // Offset: 0x116E8A8
+    // Offset: 0x11E13E0
     void Awake();
     // protected System.Void Update()
-    // Offset: 0x116E8B8
+    // Offset: 0x11E13F0
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x116EA18
+    // Offset: 0x11E1550
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -140,7 +128,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(FPSCounter), 48 + sizeof(float)> __GlobalNamespace_FPSCounterSizeCheck;
   static_assert(sizeof(FPSCounter) == 0x34);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FPSCounter*, "", "FPSCounter");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FPSCounter::get_currentFPS
 // Il2CppName: get_currentFPS
 template<>

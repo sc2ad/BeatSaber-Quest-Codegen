@@ -3,29 +3,20 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MasterServerAvailabilityData
 #include "GlobalNamespace/MasterServerAvailabilityData.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: UserMessage
-  class UserMessage;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MasterServerAvailabilityData::UserMessage);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerAvailabilityData::UserMessage*, "", "MasterServerAvailabilityData/UserMessage");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x18
@@ -36,26 +27,22 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::MasterServerAvailabilityData::UserMessage::LocalizedMessage
     class LocalizedMessage;
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public MasterServerAvailabilityData/UserMessage/LocalizedMessage[] localizations
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<GlobalNamespace::MasterServerAvailabilityData::UserMessage::LocalizedMessage*> localizations;
+    ::Array<GlobalNamespace::MasterServerAvailabilityData::UserMessage::LocalizedMessage*>* localizations;
     // Field size check
-    static_assert(sizeof(::ArrayW<GlobalNamespace::MasterServerAvailabilityData::UserMessage::LocalizedMessage*>) == 0x8);
-    public:
-    // Creating conversion operator: operator ::ArrayW<GlobalNamespace::MasterServerAvailabilityData::UserMessage::LocalizedMessage*>
-    constexpr operator ::ArrayW<GlobalNamespace::MasterServerAvailabilityData::UserMessage::LocalizedMessage*>() const noexcept {
+    static_assert(sizeof(::Array<GlobalNamespace::MasterServerAvailabilityData::UserMessage::LocalizedMessage*>*) == 0x8);
+    // Creating value type constructor for type: UserMessage
+    UserMessage(::Array<GlobalNamespace::MasterServerAvailabilityData::UserMessage::LocalizedMessage*>* localizations_ = {}) noexcept : localizations{localizations_} {}
+    // Creating conversion operator: operator ::Array<GlobalNamespace::MasterServerAvailabilityData::UserMessage::LocalizedMessage*>*
+    constexpr operator ::Array<GlobalNamespace::MasterServerAvailabilityData::UserMessage::LocalizedMessage*>*() const noexcept {
       return localizations;
     }
     // Get instance field reference: public MasterServerAvailabilityData/UserMessage/LocalizedMessage[] localizations
-    ::ArrayW<GlobalNamespace::MasterServerAvailabilityData::UserMessage::LocalizedMessage*>& dyn_localizations();
+    ::Array<GlobalNamespace::MasterServerAvailabilityData::UserMessage::LocalizedMessage*>*& dyn_localizations();
     // public System.Void .ctor()
-    // Offset: 0x125FE2C
+    // Offset: 0x115847C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -65,10 +52,11 @@ namespace GlobalNamespace {
     }
   }; // MasterServerAvailabilityData/UserMessage
   #pragma pack(pop)
-  static check_size<sizeof(MasterServerAvailabilityData::UserMessage), 16 + sizeof(::ArrayW<GlobalNamespace::MasterServerAvailabilityData::UserMessage::LocalizedMessage*>)> __GlobalNamespace_MasterServerAvailabilityData_UserMessageSizeCheck;
+  static check_size<sizeof(MasterServerAvailabilityData::UserMessage), 16 + sizeof(::Array<GlobalNamespace::MasterServerAvailabilityData::UserMessage::LocalizedMessage*>*)> __GlobalNamespace_MasterServerAvailabilityData_UserMessageSizeCheck;
   static_assert(sizeof(MasterServerAvailabilityData::UserMessage) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerAvailabilityData::UserMessage*, "", "MasterServerAvailabilityData/UserMessage");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerAvailabilityData::UserMessage::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

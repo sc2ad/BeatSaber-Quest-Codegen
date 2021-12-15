@@ -3,17 +3,9 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: Org.BouncyCastle.Utilities
-namespace Org::BouncyCastle::Utilities {
-  // Forward declaring type: Integers
-  class Integers;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Utilities::Integers);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Integers*, "Org.BouncyCastle.Utilities", "Integers");
 // Type namespace: Org.BouncyCastle.Utilities
 namespace Org::BouncyCastle::Utilities {
   // Size: 0x10
@@ -22,22 +14,26 @@ namespace Org::BouncyCastle::Utilities {
   // [TokenAttribute] Offset: FFFFFFFF
   class Integers : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: Integers
+    Integers() noexcept {}
     // static public System.Int32 NumberOfLeadingZeros(System.Int32 i)
-    // Offset: 0x216D088
+    // Offset: 0x222BEB4
     static int NumberOfLeadingZeros(int i);
     // static public System.Int32 NumberOfTrailingZeros(System.Int32 i)
-    // Offset: 0x216D104
+    // Offset: 0x222BF30
     static int NumberOfTrailingZeros(int i);
     // static public System.Int32 RotateLeft(System.Int32 i, System.Int32 distance)
-    // Offset: 0x216D138
+    // Offset: 0x222BF64
     static int RotateLeft(int i, int distance);
     // static public System.UInt32 RotateLeft(System.UInt32 i, System.Int32 distance)
-    // Offset: 0x216D14C
+    // Offset: 0x222BF78
     static uint RotateLeft(uint i, int distance);
   }; // Org.BouncyCastle.Utilities.Integers
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Integers*, "Org.BouncyCastle.Utilities", "Integers");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Integers::NumberOfLeadingZeros
 // Il2CppName: NumberOfLeadingZeros
 template<>

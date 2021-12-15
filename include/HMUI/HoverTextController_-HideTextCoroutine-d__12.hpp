@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.HoverTextController
 #include "HMUI/HoverTextController.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
 #include "System/Collections/Generic/IEnumerator_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: HMUI
-namespace HMUI {
-  // Forward declaring type: <HideTextCoroutine>d__12
-  class $HideTextCoroutine$d__12;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HMUI::HoverTextController::$HideTextCoroutine$d__12);
-DEFINE_IL2CPP_ARG_TYPE(HMUI::HoverTextController::$HideTextCoroutine$d__12*, "HMUI", "HoverTextController/<HideTextCoroutine>d__12");
 // Type namespace: HMUI
 namespace HMUI {
   // Size: 0x28
@@ -31,11 +23,6 @@ namespace HMUI {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class HoverTextController::$HideTextCoroutine$d__12 : public ::Il2CppObject/*, public System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -56,7 +43,8 @@ namespace HMUI {
     HMUI::HoverTextController* $$4__this;
     // Field size check
     static_assert(sizeof(HMUI::HoverTextController*) == 0x8);
-    public:
+    // Creating value type constructor for type: $HideTextCoroutine$d__12
+    $HideTextCoroutine$d__12(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, HMUI::HoverTextController* $$4__this_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$4__this{$$4__this_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
@@ -68,33 +56,34 @@ namespace HMUI {
     // Get instance field reference: public HMUI.HoverTextController <>4__this
     HMUI::HoverTextController*& dyn_$$4__this();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x147607C
+    // Offset: 0x14A5A74
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x14760E4
+    // Offset: 0x14A5ADC
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1475F3C
+    // Offset: 0x14A5934
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HoverTextController::$HideTextCoroutine$d__12* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("HMUI::HoverTextController::$HideTextCoroutine$d__12::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HoverTextController::$HideTextCoroutine$d__12*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1475F84
+    // Offset: 0x14A597C
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1475F88
+    // Offset: 0x14A5980
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1476084
+    // Offset: 0x14A5A7C
     void System_Collections_IEnumerator_Reset();
   }; // HMUI.HoverTextController/HMUI.<HideTextCoroutine>d__12
   #pragma pack(pop)
   static check_size<sizeof(HoverTextController::$HideTextCoroutine$d__12), 32 + sizeof(HMUI::HoverTextController*)> __HMUI_HoverTextController_$HideTextCoroutine$d__12SizeCheck;
   static_assert(sizeof(HoverTextController::$HideTextCoroutine$d__12) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HMUI::HoverTextController::$HideTextCoroutine$d__12*, "HMUI", "HoverTextController/<HideTextCoroutine>d__12");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::HoverTextController::$HideTextCoroutine$d__12::System_Collections_Generic_IEnumerator$System_Object$_get_Current
 // Il2CppName: System.Collections.Generic.IEnumerator<System.Object>.get_Current
 template<>

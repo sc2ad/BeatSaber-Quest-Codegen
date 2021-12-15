@@ -3,19 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.Http.Headers.Parser
 #include "System/Net/Http/Headers/Parser.hpp"
 // Completed includes
-// Type namespace: System.Net.Http.Headers
-namespace System::Net::Http::Headers {
-  // Forward declaring type: EmailAddress
-  class EmailAddress;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::Http::Headers::Parser::EmailAddress);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::Parser::EmailAddress*, "System.Net.Http.Headers", "Parser/EmailAddress");
 // Type namespace: System.Net.Http.Headers
 namespace System::Net::Http::Headers {
   // Size: 0x10
@@ -24,13 +16,17 @@ namespace System::Net::Http::Headers {
   // [TokenAttribute] Offset: FFFFFFFF
   class Parser::EmailAddress : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: EmailAddress
+    EmailAddress() noexcept {}
     // static public System.Boolean TryParse(System.String input, out System.String result)
-    // Offset: 0x17383C0
+    // Offset: 0x17C45FC
     static bool TryParse(::Il2CppString* input, ByRef<::Il2CppString*> result);
   }; // System.Net.Http.Headers.Parser/System.Net.Http.Headers.EmailAddress
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::Parser::EmailAddress*, "System.Net.Http.Headers", "Parser/EmailAddress");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Http::Headers::Parser::EmailAddress::TryParse
 // Il2CppName: TryParse
 template<>

@@ -3,17 +3,9 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: Oculus.Platform
-namespace Oculus::Platform {
-  // Forward declaring type: Cal
-  class Cal;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Cal);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Cal*, "Oculus.Platform", "Cal");
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
   // Size: 0x10
@@ -22,7 +14,11 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class Cal : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: Cal
+    Cal() noexcept {}
   }; // Oculus.Platform.Cal
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Cal*, "Oculus.Platform", "Cal");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

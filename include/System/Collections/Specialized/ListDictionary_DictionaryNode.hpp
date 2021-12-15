@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Collections.Specialized.ListDictionary
 #include "System/Collections/Specialized/ListDictionary.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Collections.Specialized
-namespace System::Collections::Specialized {
-  // Forward declaring type: DictionaryNode
-  class DictionaryNode;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Collections::Specialized::ListDictionary::DictionaryNode);
-DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::ListDictionary::DictionaryNode*, "System.Collections.Specialized", "ListDictionary/DictionaryNode");
 // Type namespace: System.Collections.Specialized
 namespace System::Collections::Specialized {
   // Size: 0x28
@@ -28,11 +20,6 @@ namespace System::Collections::Specialized {
   // [TokenAttribute] Offset: FFFFFFFF
   class ListDictionary::DictionaryNode : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Object key
     // Size: 0x8
     // Offset: 0x10
@@ -51,7 +38,8 @@ namespace System::Collections::Specialized {
     System::Collections::Specialized::ListDictionary::DictionaryNode* next;
     // Field size check
     static_assert(sizeof(System::Collections::Specialized::ListDictionary::DictionaryNode*) == 0x8);
-    public:
+    // Creating value type constructor for type: DictionaryNode
+    DictionaryNode(::Il2CppObject* key_ = {}, ::Il2CppObject* value_ = {}, System::Collections::Specialized::ListDictionary::DictionaryNode* next_ = {}) noexcept : key{key_}, value{value_}, next{next_} {}
     // Get instance field reference: public System.Object key
     ::Il2CppObject*& dyn_key();
     // Get instance field reference: public System.Object value
@@ -59,7 +47,7 @@ namespace System::Collections::Specialized {
     // Get instance field reference: public System.Collections.Specialized.ListDictionary/System.Collections.Specialized.DictionaryNode next
     System::Collections::Specialized::ListDictionary::DictionaryNode*& dyn_next();
     // public System.Void .ctor()
-    // Offset: 0x1A02A58
+    // Offset: 0x1A22108
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -72,7 +60,8 @@ namespace System::Collections::Specialized {
   static check_size<sizeof(ListDictionary::DictionaryNode), 32 + sizeof(System::Collections::Specialized::ListDictionary::DictionaryNode*)> __System_Collections_Specialized_ListDictionary_DictionaryNodeSizeCheck;
   static_assert(sizeof(ListDictionary::DictionaryNode) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::ListDictionary::DictionaryNode*, "System.Collections.Specialized", "ListDictionary/DictionaryNode");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::Specialized::ListDictionary::DictionaryNode::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

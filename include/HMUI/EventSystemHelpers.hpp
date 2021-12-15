@@ -3,17 +3,9 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: HMUI
-namespace HMUI {
-  // Forward declaring type: EventSystemHelpers
-  class EventSystemHelpers;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HMUI::EventSystemHelpers);
-DEFINE_IL2CPP_ARG_TYPE(HMUI::EventSystemHelpers*, "HMUI", "EventSystemHelpers");
 // Type namespace: HMUI
 namespace HMUI {
   // Size: 0x10
@@ -22,13 +14,17 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class EventSystemHelpers : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: EventSystemHelpers
+    EventSystemHelpers() noexcept {}
     // static public System.Boolean IsInputFieldSelected()
-    // Offset: 0x146D3F8
+    // Offset: 0x149CDF0
     static bool IsInputFieldSelected();
   }; // HMUI.EventSystemHelpers
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HMUI::EventSystemHelpers*, "HMUI", "EventSystemHelpers");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::EventSystemHelpers::IsInputFieldSelected
 // Il2CppName: IsInputFieldSelected
 template<>

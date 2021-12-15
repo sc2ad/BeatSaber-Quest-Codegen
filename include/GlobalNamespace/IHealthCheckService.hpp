@@ -3,18 +3,10 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IDisposable
 #include "System/IDisposable.hpp"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: IHealthCheckService
-  class IHealthCheckService;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::IHealthCheckService);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IHealthCheckService*, "", "IHealthCheckService");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -23,6 +15,8 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IHealthCheckService/*, public System::IDisposable*/ {
     public:
+    // Creating value type constructor for type: IHealthCheckService
+    IHealthCheckService() noexcept {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
@@ -33,7 +27,9 @@ namespace GlobalNamespace {
   }; // IHealthCheckService
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IHealthCheckService*, "", "IHealthCheckService");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::IHealthCheckService::PollUpdate
 // Il2CppName: PollUpdate
 template<>

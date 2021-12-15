@@ -3,16 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: Org.BouncyCastle.X509
-namespace Org::BouncyCastle::X509 {
-  // Forward declaring type: IX509AttributeCertificate
-  class IX509AttributeCertificate;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::X509::IX509AttributeCertificate);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::IX509AttributeCertificate*, "Org.BouncyCastle.X509", "IX509AttributeCertificate");
 // Type namespace: Org.BouncyCastle.X509
 namespace Org::BouncyCastle::X509 {
   // Size: 0x10
@@ -21,7 +13,11 @@ namespace Org::BouncyCastle::X509 {
   // [TokenAttribute] Offset: FFFFFFFF
   class IX509AttributeCertificate {
     public:
+    // Creating value type constructor for type: IX509AttributeCertificate
+    IX509AttributeCertificate() noexcept {}
   }; // Org.BouncyCastle.X509.IX509AttributeCertificate
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::IX509AttributeCertificate*, "Org.BouncyCastle.X509", "IX509AttributeCertificate");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

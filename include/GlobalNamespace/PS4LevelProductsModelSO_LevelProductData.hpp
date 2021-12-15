@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PS4LevelProductsModelSO
 #include "GlobalNamespace/PS4LevelProductsModelSO.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: LevelProductData
-  class LevelProductData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::PS4LevelProductsModelSO::LevelProductData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4LevelProductsModelSO::LevelProductData*, "", "PS4LevelProductsModelSO/LevelProductData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x28
@@ -28,11 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PS4LevelProductsModelSO::LevelProductData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.String _entitlementLabel
     // Size: 0x8
     // Offset: 0x10
@@ -51,7 +38,8 @@ namespace GlobalNamespace {
     ::Il2CppString* levelId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: LevelProductData
+    LevelProductData(::Il2CppString* entitlementLabel_ = {}, ::Il2CppString* productLabel_ = {}, ::Il2CppString* levelId_ = {}) noexcept : entitlementLabel{entitlementLabel_}, productLabel{productLabel_}, levelId{levelId_} {}
     // Get instance field reference: private System.String _entitlementLabel
     ::Il2CppString*& dyn__entitlementLabel();
     // Get instance field reference: private System.String _productLabel
@@ -59,16 +47,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String _levelId
     ::Il2CppString*& dyn__levelId();
     // public System.String get_entitlementLabel()
-    // Offset: 0x110C61C
+    // Offset: 0x1147E18
     ::Il2CppString* get_entitlementLabel();
     // public System.String get_productLabel()
-    // Offset: 0x110C624
+    // Offset: 0x1147E20
     ::Il2CppString* get_productLabel();
     // public System.String get_levelId()
-    // Offset: 0x110C62C
+    // Offset: 0x1147E28
     ::Il2CppString* get_levelId();
     // public System.Void .ctor()
-    // Offset: 0x110C634
+    // Offset: 0x1147E30
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -81,7 +69,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(PS4LevelProductsModelSO::LevelProductData), 32 + sizeof(::Il2CppString*)> __GlobalNamespace_PS4LevelProductsModelSO_LevelProductDataSizeCheck;
   static_assert(sizeof(PS4LevelProductsModelSO::LevelProductData) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4LevelProductsModelSO::LevelProductData*, "", "PS4LevelProductsModelSO/LevelProductData");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PS4LevelProductsModelSO::LevelProductData::get_entitlementLabel
 // Il2CppName: get_entitlementLabel
 template<>

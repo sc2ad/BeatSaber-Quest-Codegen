@@ -3,18 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: Oculus.Platform
-namespace Oculus::Platform {
-  // Forward declaring type: MatchmakingCriterionImportance
-  struct MatchmakingCriterionImportance;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MatchmakingCriterionImportance, "Oculus.Platform", "MatchmakingCriterionImportance");
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
   // Size: 0x4
@@ -23,18 +16,12 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   struct MatchmakingCriterionImportance/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: MatchmakingCriterionImportance
     constexpr MatchmakingCriterionImportance(int value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -45,35 +32,35 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0xEE7B3C
+    // [DescriptionAttribute] Offset: 0xF2A034
     // static field const value: static public Oculus.Platform.MatchmakingCriterionImportance Required
     static constexpr const int Required = 0;
     // Get static field: static public Oculus.Platform.MatchmakingCriterionImportance Required
     static Oculus::Platform::MatchmakingCriterionImportance _get_Required();
     // Set static field: static public Oculus.Platform.MatchmakingCriterionImportance Required
     static void _set_Required(Oculus::Platform::MatchmakingCriterionImportance value);
-    // [DescriptionAttribute] Offset: 0xEE7B74
+    // [DescriptionAttribute] Offset: 0xF2A06C
     // static field const value: static public Oculus.Platform.MatchmakingCriterionImportance High
     static constexpr const int High = 1;
     // Get static field: static public Oculus.Platform.MatchmakingCriterionImportance High
     static Oculus::Platform::MatchmakingCriterionImportance _get_High();
     // Set static field: static public Oculus.Platform.MatchmakingCriterionImportance High
     static void _set_High(Oculus::Platform::MatchmakingCriterionImportance value);
-    // [DescriptionAttribute] Offset: 0xEE7BAC
+    // [DescriptionAttribute] Offset: 0xF2A0A4
     // static field const value: static public Oculus.Platform.MatchmakingCriterionImportance Medium
     static constexpr const int Medium = 2;
     // Get static field: static public Oculus.Platform.MatchmakingCriterionImportance Medium
     static Oculus::Platform::MatchmakingCriterionImportance _get_Medium();
     // Set static field: static public Oculus.Platform.MatchmakingCriterionImportance Medium
     static void _set_Medium(Oculus::Platform::MatchmakingCriterionImportance value);
-    // [DescriptionAttribute] Offset: 0xEE7BE4
+    // [DescriptionAttribute] Offset: 0xF2A0DC
     // static field const value: static public Oculus.Platform.MatchmakingCriterionImportance Low
     static constexpr const int Low = 3;
     // Get static field: static public Oculus.Platform.MatchmakingCriterionImportance Low
     static Oculus::Platform::MatchmakingCriterionImportance _get_Low();
     // Set static field: static public Oculus.Platform.MatchmakingCriterionImportance Low
     static void _set_Low(Oculus::Platform::MatchmakingCriterionImportance value);
-    // [DescriptionAttribute] Offset: 0xEE7C1C
+    // [DescriptionAttribute] Offset: 0xF2A114
     // static field const value: static public Oculus.Platform.MatchmakingCriterionImportance Unknown
     static constexpr const int Unknown = 4;
     // Get static field: static public Oculus.Platform.MatchmakingCriterionImportance Unknown
@@ -87,4 +74,6 @@ namespace Oculus::Platform {
   static check_size<sizeof(MatchmakingCriterionImportance), 0 + sizeof(int)> __Oculus_Platform_MatchmakingCriterionImportanceSizeCheck;
   static_assert(sizeof(MatchmakingCriterionImportance) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MatchmakingCriterionImportance, "Oculus.Platform", "MatchmakingCriterionImportance");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

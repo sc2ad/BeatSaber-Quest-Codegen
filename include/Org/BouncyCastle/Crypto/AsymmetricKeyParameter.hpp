@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Crypto.ICipherParameters
 #include "Org/BouncyCastle/Crypto/ICipherParameters.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Org.BouncyCastle.Crypto
-namespace Org::BouncyCastle::Crypto {
-  // Forward declaring type: AsymmetricKeyParameter
-  class AsymmetricKeyParameter;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Crypto::AsymmetricKeyParameter);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::AsymmetricKeyParameter*, "Org.BouncyCastle.Crypto", "AsymmetricKeyParameter");
 // Type namespace: Org.BouncyCastle.Crypto
 namespace Org::BouncyCastle::Crypto {
   // Size: 0x11
@@ -28,18 +20,14 @@ namespace Org::BouncyCastle::Crypto {
   // [TokenAttribute] Offset: FFFFFFFF
   class AsymmetricKeyParameter : public ::Il2CppObject/*, public Org::BouncyCastle::Crypto::ICipherParameters*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private readonly System.Boolean privateKey
     // Size: 0x1
     // Offset: 0x10
     bool privateKey;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: AsymmetricKeyParameter
+    AsymmetricKeyParameter(bool privateKey_ = {}) noexcept : privateKey{privateKey_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::ICipherParameters
     operator Org::BouncyCastle::Crypto::ICipherParameters() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ICipherParameters*>(this);
@@ -51,25 +39,25 @@ namespace Org::BouncyCastle::Crypto {
     // Get instance field reference: private readonly System.Boolean privateKey
     bool& dyn_privateKey();
     // public System.Boolean get_IsPrivate()
-    // Offset: 0x1BAE7BC
+    // Offset: 0x1C2E6B4
     bool get_IsPrivate();
     // protected System.Void .ctor(System.Boolean privateKey)
-    // Offset: 0x1BAE78C
+    // Offset: 0x1C2E684
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AsymmetricKeyParameter* New_ctor(bool privateKey) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::AsymmetricKeyParameter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AsymmetricKeyParameter*, creationType>(privateKey)));
     }
     // protected System.Boolean Equals(Org.BouncyCastle.Crypto.AsymmetricKeyParameter other)
-    // Offset: 0x1BAE878
+    // Offset: 0x1C2E770
     bool Equals(Org::BouncyCastle::Crypto::AsymmetricKeyParameter* other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1BAE7C4
+    // Offset: 0x1C2E6BC
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1BAE8A8
+    // Offset: 0x1C2E7A0
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
@@ -78,7 +66,8 @@ namespace Org::BouncyCastle::Crypto {
   static check_size<sizeof(AsymmetricKeyParameter), 16 + sizeof(bool)> __Org_BouncyCastle_Crypto_AsymmetricKeyParameterSizeCheck;
   static_assert(sizeof(AsymmetricKeyParameter) == 0x11);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::AsymmetricKeyParameter*, "Org.BouncyCastle.Crypto", "AsymmetricKeyParameter");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::AsymmetricKeyParameter::get_IsPrivate
 // Il2CppName: get_IsPrivate
 template<>

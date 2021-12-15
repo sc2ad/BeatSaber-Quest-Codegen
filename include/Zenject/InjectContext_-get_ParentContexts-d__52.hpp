@@ -3,33 +3,30 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.InjectContext
 #include "Zenject/InjectContext.hpp"
 // Including type: System.Collections.Generic.IEnumerable`1
 #include "System/Collections/Generic/IEnumerable_1.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
 #include "System/Collections/Generic/IEnumerator_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections
 namespace System::Collections {
   // Skipping declaration: IEnumerator because it is already included!
 }
-// Completed forward declares
-// Type namespace: Zenject
+// Forward declaring namespace: Zenject
 namespace Zenject {
-  // Forward declaring type: <get_ParentContexts>d__52
-  class $get_ParentContexts$d__52;
+  // Forward declaring type: InjectTypeInfo
+  class InjectTypeInfo;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::InjectContext::$get_ParentContexts$d__52);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::InjectContext::$get_ParentContexts$d__52*, "Zenject", "InjectContext/<get_ParentContexts>d__52");
+// Completed forward declares
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x38
@@ -39,11 +36,6 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class InjectContext::$get_ParentContexts$d__52 : public ::Il2CppObject/*, public System::Collections::Generic::IEnumerable_1<Zenject::InjectContext*>, public System::Collections::Generic::IEnumerator_1<Zenject::InjectContext*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -78,7 +70,8 @@ namespace Zenject {
     System::Collections::Generic::IEnumerator_1<Zenject::InjectContext*>* $$7__wrap1;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::IEnumerator_1<Zenject::InjectContext*>*) == 0x8);
-    public:
+    // Creating value type constructor for type: $get_ParentContexts$d__52
+    $get_ParentContexts$d__52(int $$1__state_ = {}, Zenject::InjectContext* $$2__current_ = {}, int $$l__initialThreadId_ = {}, Zenject::InjectContext* $$4__this_ = {}, System::Collections::Generic::IEnumerator_1<Zenject::InjectContext*>* $$7__wrap1_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$l__initialThreadId{$$l__initialThreadId_}, $$4__this{$$4__this_}, $$7__wrap1{$$7__wrap1_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<Zenject::InjectContext*>
     operator System::Collections::Generic::IEnumerable_1<Zenject::InjectContext*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<Zenject::InjectContext*>*>(this);
@@ -98,42 +91,49 @@ namespace Zenject {
     // Get instance field reference: private System.Collections.Generic.IEnumerator`1<Zenject.InjectContext> <>7__wrap1
     System::Collections::Generic::IEnumerator_1<Zenject::InjectContext*>*& dyn_$$7__wrap1();
     // private Zenject.InjectContext System.Collections.Generic.IEnumerator<Zenject.InjectContext>.get_Current()
-    // Offset: 0x1819E34
+    // Offset: 0x18D15F8
     Zenject::InjectContext* System_Collections_Generic_IEnumerator$Zenject_InjectContext$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1819E9C
+    // Offset: 0x18D1660
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1818F44
+    // Offset: 0x18D1220
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InjectContext::$get_ParentContexts$d__52* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::InjectContext::$get_ParentContexts$d__52::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InjectContext::$get_ParentContexts$d__52*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1819A98
+    // Offset: 0x18D1258
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1819B74
+    // Offset: 0x18D1334
     bool MoveNext();
     // private System.Void <>m__Finally1()
-    // Offset: 0x1819AB4
+    // Offset: 0x18D1274
     void $$m__Finally1();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1819E3C
+    // Offset: 0x18D1600
     void System_Collections_IEnumerator_Reset();
     // private System.Collections.Generic.IEnumerator`1<Zenject.InjectContext> System.Collections.Generic.IEnumerable<Zenject.InjectContext>.GetEnumerator()
-    // Offset: 0x1819EA4
+    // Offset: 0x18D1668
     System::Collections::Generic::IEnumerator_1<Zenject::InjectContext*>* System_Collections_Generic_IEnumerable$Zenject_InjectContext$_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x1819F50
+    // Offset: 0x18D1714
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
+    // static private System.Object __zenCreate(System.Object[] P_0)
+    // Offset: 0x18D1718
+    static ::Il2CppObject* __zenCreate(::Array<::Il2CppObject*>* P_0);
+    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
+    // Offset: 0x18D17E4
+    static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.InjectContext/Zenject.<get_ParentContexts>d__52
   #pragma pack(pop)
   static check_size<sizeof(InjectContext::$get_ParentContexts$d__52), 48 + sizeof(System::Collections::Generic::IEnumerator_1<Zenject::InjectContext*>*)> __Zenject_InjectContext_$get_ParentContexts$d__52SizeCheck;
   static_assert(sizeof(InjectContext::$get_ParentContexts$d__52) == 0x38);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Zenject::InjectContext::$get_ParentContexts$d__52*, "Zenject", "InjectContext/<get_ParentContexts>d__52");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::InjectContext::$get_ParentContexts$d__52::System_Collections_Generic_IEnumerator$Zenject_InjectContext$_get_Current
 // Il2CppName: System.Collections.Generic.IEnumerator<Zenject.InjectContext>.get_Current
 template<>
@@ -200,5 +200,22 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (Zenject::InjectContext::$get_ParentContexts$d__52::*)()>(&Zenject::InjectContext::$get_ParentContexts$d__52::System_Collections_IEnumerable_GetEnumerator)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::InjectContext::$get_ParentContexts$d__52*), "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Zenject::InjectContext::$get_ParentContexts$d__52::__zenCreate
+// Il2CppName: __zenCreate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Array<::Il2CppObject*>*)>(&Zenject::InjectContext::$get_ParentContexts$d__52::__zenCreate)> {
+  static const MethodInfo* get() {
+    static auto* P_0 = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::InjectContext::$get_ParentContexts$d__52*), "__zenCreate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{P_0});
+  }
+};
+// Writing MetadataGetter for method: Zenject::InjectContext::$get_ParentContexts$d__52::__zenCreateInjectTypeInfo
+// Il2CppName: __zenCreateInjectTypeInfo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo* (*)()>(&Zenject::InjectContext::$get_ParentContexts$d__52::__zenCreateInjectTypeInfo)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::InjectContext::$get_ParentContexts$d__52*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

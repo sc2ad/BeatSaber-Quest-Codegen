@@ -3,18 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-// Type namespace: System
-namespace System {
-  // Forward declaring type: InputRecord
-  struct InputRecord;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::InputRecord, "System", "InputRecord");
 // Type namespace: System
 namespace System {
   // Size: 0x15
@@ -24,11 +17,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   struct InputRecord/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int16 EventType
     // Size: 0x2
     // Offset: 0x0
@@ -85,7 +73,6 @@ namespace System {
     bool pad2;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
     // Creating value type constructor for type: InputRecord
     constexpr InputRecord(int16_t EventType_ = {}, bool KeyDown_ = {}, int16_t RepeatCount_ = {}, int16_t VirtualKeyCode_ = {}, int16_t VirtualScanCode_ = {}, ::Il2CppChar Character_ = {}, int ControlKeyState_ = {}, int pad1_ = {}, bool pad2_ = {}) noexcept : EventType{EventType_}, KeyDown{KeyDown_}, RepeatCount{RepeatCount_}, VirtualKeyCode{VirtualKeyCode_}, VirtualScanCode{VirtualScanCode_}, Character{Character_}, ControlKeyState{ControlKeyState_}, pad1{pad1_}, pad2{pad2_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -115,4 +102,6 @@ namespace System {
   static check_size<sizeof(InputRecord), 20 + sizeof(bool)> __System_InputRecordSizeCheck;
   static_assert(sizeof(InputRecord) == 0x15);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::InputRecord, "System", "InputRecord");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

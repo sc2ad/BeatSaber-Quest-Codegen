@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Mono.Net.Security.MobileAuthenticatedStream
 #include "Mono/Net/Security/MobileAuthenticatedStream.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Mono.Net.Security
-namespace Mono::Net::Security {
-  // Forward declaring type: <>c__DisplayClass66_0
-  class $$c__DisplayClass66_0;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Net::Security::MobileAuthenticatedStream::$$c__DisplayClass66_0);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::MobileAuthenticatedStream::$$c__DisplayClass66_0*, "Mono.Net.Security", "MobileAuthenticatedStream/<>c__DisplayClass66_0");
 // Type namespace: Mono.Net.Security
 namespace Mono::Net::Security {
   // Size: 0x1C
@@ -29,11 +21,6 @@ namespace Mono::Net::Security {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class MobileAuthenticatedStream::$$c__DisplayClass66_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public Mono.Net.Security.MobileAuthenticatedStream <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -46,16 +33,17 @@ namespace Mono::Net::Security {
     int len;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
+    // Creating value type constructor for type: $$c__DisplayClass66_0
+    $$c__DisplayClass66_0(Mono::Net::Security::MobileAuthenticatedStream* $$4__this_ = {}, int len_ = {}) noexcept : $$4__this{$$4__this_}, len{len_} {}
     // Get instance field reference: public Mono.Net.Security.MobileAuthenticatedStream <>4__this
     Mono::Net::Security::MobileAuthenticatedStream*& dyn_$$4__this();
     // Get instance field reference: public System.Int32 len
     int& dyn_len();
     // System.Int32 <InnerRead>b__0()
-    // Offset: 0x17A2524
+    // Offset: 0x1831E38
     int $InnerRead$b__0();
     // public System.Void .ctor()
-    // Offset: 0x17A251C
+    // Offset: 0x1831E30
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -68,7 +56,8 @@ namespace Mono::Net::Security {
   static check_size<sizeof(MobileAuthenticatedStream::$$c__DisplayClass66_0), 24 + sizeof(int)> __Mono_Net_Security_MobileAuthenticatedStream_$$c__DisplayClass66_0SizeCheck;
   static_assert(sizeof(MobileAuthenticatedStream::$$c__DisplayClass66_0) == 0x1C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::MobileAuthenticatedStream::$$c__DisplayClass66_0*, "Mono.Net.Security", "MobileAuthenticatedStream/<>c__DisplayClass66_0");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::$$c__DisplayClass66_0::$InnerRead$b__0
 // Il2CppName: <InnerRead>b__0
 template<>

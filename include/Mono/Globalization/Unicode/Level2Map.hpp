@@ -3,21 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Mono.Globalization.Unicode
-namespace Mono::Globalization::Unicode {
-  // Forward declaring type: Level2Map
-  class Level2Map;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Globalization::Unicode::Level2Map);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::Level2Map*, "Mono.Globalization.Unicode", "Level2Map");
 // Type namespace: Mono.Globalization.Unicode
 namespace Mono::Globalization::Unicode {
   // Size: 0x12
@@ -26,11 +18,6 @@ namespace Mono::Globalization::Unicode {
   // [TokenAttribute] Offset: FFFFFFFF
   class Level2Map : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Byte Source
     // Size: 0x1
     // Offset: 0x10
@@ -43,13 +30,14 @@ namespace Mono::Globalization::Unicode {
     uint8_t Replace;
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
-    public:
+    // Creating value type constructor for type: Level2Map
+    Level2Map(uint8_t Source_ = {}, uint8_t Replace_ = {}) noexcept : Source{Source_}, Replace{Replace_} {}
     // Get instance field reference: public System.Byte Source
     uint8_t& dyn_Source();
     // Get instance field reference: public System.Byte Replace
     uint8_t& dyn_Replace();
     // public System.Void .ctor(System.Byte source, System.Byte replace)
-    // Offset: 0x1C147D4
+    // Offset: 0x1C6D8CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Level2Map* New_ctor(uint8_t source, uint8_t replace) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Globalization::Unicode::Level2Map::.ctor");
@@ -60,7 +48,8 @@ namespace Mono::Globalization::Unicode {
   static check_size<sizeof(Level2Map), 17 + sizeof(uint8_t)> __Mono_Globalization_Unicode_Level2MapSizeCheck;
   static_assert(sizeof(Level2Map) == 0x12);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::Level2Map*, "Mono.Globalization.Unicode", "Level2Map");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::Level2Map::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

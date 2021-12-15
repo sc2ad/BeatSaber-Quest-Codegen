@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HoudiniEngineUnity.HEU_TestHelpers
 #include "HoudiniEngineUnity/HEU_TestHelpers.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: HoudiniEngineUnity
-namespace HoudiniEngineUnity {
-  // Forward declaring type: RequireClass`1<T>
-  template<typename T>
-  class RequireClass_1;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(HoudiniEngineUnity::HEU_TestHelpers::RequireClass_1, "HoudiniEngineUnity", "HEU_TestHelpers/RequireClass`1");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // WARNING Size may be invalid!
@@ -28,6 +20,8 @@ namespace HoudiniEngineUnity {
   template<typename T>
   class HEU_TestHelpers::RequireClass_1 : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: RequireClass_1
+    RequireClass_1() noexcept {}
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
@@ -40,4 +34,5 @@ namespace HoudiniEngineUnity {
   }; // HoudiniEngineUnity.HEU_TestHelpers/HoudiniEngineUnity.RequireClass`1
   // Could not write size check! Type: HoudiniEngineUnity.HEU_TestHelpers/HoudiniEngineUnity.RequireClass`1 is generic, or has no fields that are valid for size checks!
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(HoudiniEngineUnity::HEU_TestHelpers::RequireClass_1, "HoudiniEngineUnity", "HEU_TestHelpers/RequireClass`1");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

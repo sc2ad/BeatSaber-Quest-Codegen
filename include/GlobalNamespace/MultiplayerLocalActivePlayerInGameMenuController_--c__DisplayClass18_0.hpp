@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MultiplayerLocalActivePlayerInGameMenuController
 #include "GlobalNamespace/MultiplayerLocalActivePlayerInGameMenuController.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <>c__DisplayClass18_0
-  class $$c__DisplayClass18_0;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController::$$c__DisplayClass18_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController::$$c__DisplayClass18_0*, "", "MultiplayerLocalActivePlayerInGameMenuController/<>c__DisplayClass18_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x11
@@ -29,18 +21,14 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class MultiplayerLocalActivePlayerInGameMenuController::$$c__DisplayClass18_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Boolean value
     // Size: 0x1
     // Offset: 0x10
     bool value;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: $$c__DisplayClass18_0
+    $$c__DisplayClass18_0(bool value_ = {}) noexcept : value{value_} {}
     // Creating conversion operator: operator bool
     constexpr operator bool() const noexcept {
       return value;
@@ -48,10 +36,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean value
     bool& dyn_value();
     // System.Void <get_canShowInGameMenu>b__0(System.Boolean newValue)
-    // Offset: 0x11CA93C
+    // Offset: 0x12A3210
     void $get_canShowInGameMenu$b__0(bool newValue);
     // public System.Void .ctor()
-    // Offset: 0x11C9C14
+    // Offset: 0x12A24E8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -64,7 +52,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerLocalActivePlayerInGameMenuController::$$c__DisplayClass18_0), 16 + sizeof(bool)> __GlobalNamespace_MultiplayerLocalActivePlayerInGameMenuController_$$c__DisplayClass18_0SizeCheck;
   static_assert(sizeof(MultiplayerLocalActivePlayerInGameMenuController::$$c__DisplayClass18_0) == 0x11);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController::$$c__DisplayClass18_0*, "", "MultiplayerLocalActivePlayerInGameMenuController/<>c__DisplayClass18_0");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController::$$c__DisplayClass18_0::$get_canShowInGameMenu$b__0
 // Il2CppName: <get_canShowInGameMenu>b__0
 template<>

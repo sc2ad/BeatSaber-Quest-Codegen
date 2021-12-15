@@ -3,22 +3,14 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: GameplayModifiersConfiguration
-  class GameplayModifiersConfiguration;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::GameplayModifiersConfiguration);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifiersConfiguration*, "", "GameplayModifiersConfiguration");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -33,7 +25,11 @@ namespace GlobalNamespace {
     class CutAngleTolerance;
     // Nested type: GlobalNamespace::GameplayModifiersConfiguration::NoteUniformScale
     class NoteUniformScale;
+    // Creating value type constructor for type: GameplayModifiersConfiguration
+    GameplayModifiersConfiguration() noexcept {}
   }; // GameplayModifiersConfiguration
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifiersConfiguration*, "", "GameplayModifiersConfiguration");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: UnityEngine.Experimental.GlobalIllumination.LightMode
@@ -20,13 +20,6 @@
 // Completed includes
 // Type namespace: UnityEngine.Experimental.GlobalIllumination
 namespace UnityEngine::Experimental::GlobalIllumination {
-  // Forward declaring type: RectangleLight
-  struct RectangleLight;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::RectangleLight, "UnityEngine.Experimental.GlobalIllumination", "RectangleLight");
-// Type namespace: UnityEngine.Experimental.GlobalIllumination
-namespace UnityEngine::Experimental::GlobalIllumination {
   // Size: 0x51
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -34,11 +27,6 @@ namespace UnityEngine::Experimental::GlobalIllumination {
   // [TokenAttribute] Offset: FFFFFFFF
   struct RectangleLight/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 instanceID
     // Size: 0x4
     // Offset: 0x0
@@ -107,7 +95,6 @@ namespace UnityEngine::Experimental::GlobalIllumination {
     UnityEngine::Experimental::GlobalIllumination::FalloffType falloff;
     // Field size check
     static_assert(sizeof(UnityEngine::Experimental::GlobalIllumination::FalloffType) == 0x1);
-    public:
     // Creating value type constructor for type: RectangleLight
     constexpr RectangleLight(int instanceID_ = {}, bool shadow_ = {}, UnityEngine::Experimental::GlobalIllumination::LightMode mode_ = {}, UnityEngine::Vector3 position_ = {}, UnityEngine::Quaternion orientation_ = {}, UnityEngine::Experimental::GlobalIllumination::LinearColor color_ = {}, UnityEngine::Experimental::GlobalIllumination::LinearColor indirectColor_ = {}, float range_ = {}, float width_ = {}, float height_ = {}, UnityEngine::Experimental::GlobalIllumination::FalloffType falloff_ = {}) noexcept : instanceID{instanceID_}, shadow{shadow_}, mode{mode_}, position{position_}, orientation{orientation_}, color{color_}, indirectColor{indirectColor_}, range{range_}, width{width_}, height{height_}, falloff{falloff_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -141,4 +128,6 @@ namespace UnityEngine::Experimental::GlobalIllumination {
   static check_size<sizeof(RectangleLight), 80 + sizeof(UnityEngine::Experimental::GlobalIllumination::FalloffType)> __UnityEngine_Experimental_GlobalIllumination_RectangleLightSizeCheck;
   static_assert(sizeof(RectangleLight) == 0x51);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::RectangleLight, "UnityEngine.Experimental.GlobalIllumination", "RectangleLight");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

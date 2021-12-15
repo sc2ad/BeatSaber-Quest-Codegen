@@ -3,19 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Xml.XmlCharType
 #include "System/Xml/XmlCharType.hpp"
 // Completed includes
-// Type namespace: System.Xml
-namespace System::Xml {
-  // Forward declaring type: ValidateNames
-  class ValidateNames;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::ValidateNames);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::ValidateNames*, "System.Xml", "ValidateNames");
 // Type namespace: System.Xml
 namespace System::Xml {
   // Size: 0x10
@@ -24,23 +16,27 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class ValidateNames : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: ValidateNames
+    ValidateNames() noexcept {}
     // Get static field: static private System.Xml.XmlCharType xmlCharType
     static System::Xml::XmlCharType _get_xmlCharType();
     // Set static field: static private System.Xml.XmlCharType xmlCharType
     static void _set_xmlCharType(System::Xml::XmlCharType value);
     // static private System.Void .cctor()
-    // Offset: 0x1AE294C
+    // Offset: 0x1B62428
     static void _cctor();
     // static System.Int32 ParseNCName(System.String s, System.Int32 offset)
-    // Offset: 0x1AE2704
+    // Offset: 0x1B621E0
     static int ParseNCName(::Il2CppString* s, int offset);
     // static System.Int32 ParseQName(System.String s, System.Int32 offset, out System.Int32 colonOffset)
-    // Offset: 0x1AE2850
+    // Offset: 0x1B6232C
     static int ParseQName(::Il2CppString* s, int offset, ByRef<int> colonOffset);
   }; // System.Xml.ValidateNames
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::ValidateNames*, "System.Xml", "ValidateNames");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::ValidateNames::_cctor
 // Il2CppName: .cctor
 template<>

@@ -3,19 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
 // Completed includes
-// Type namespace: System.Net.NetworkInformation
-namespace System::Net::NetworkInformation {
-  // Forward declaring type: ifa_ifu
-  struct ifa_ifu;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::ifa_ifu, "System.Net.NetworkInformation", "ifa_ifu");
 // Type namespace: System.Net.NetworkInformation
 namespace System::Net::NetworkInformation {
   // WARNING Size may be invalid!
@@ -24,11 +18,6 @@ namespace System::Net::NetworkInformation {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ifa_ifu/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.IntPtr ifu_broadaddr
     // Size: 0x8
     // Offset: 0x0
@@ -41,7 +30,6 @@ namespace System::Net::NetworkInformation {
     System::IntPtr ifu_dstaddr;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
-    public:
     // Creating value type constructor for type: ifa_ifu
     constexpr ifa_ifu(System::IntPtr ifu_broadaddr_ = {}, System::IntPtr ifu_dstaddr_ = {}) noexcept : ifu_broadaddr{ifu_broadaddr_}, ifu_dstaddr{ifu_dstaddr_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -55,4 +43,6 @@ namespace System::Net::NetworkInformation {
   }; // System.Net.NetworkInformation.ifa_ifu
   // WARNING Not writing size check since size may be invalid!
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::ifa_ifu, "System.Net.NetworkInformation", "ifa_ifu");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -3,20 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: TMPro.SpriteAssetUtilities.TexturePacker
 #include "TMPro/SpriteAssetUtilities/TexturePacker.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-// Type namespace: TMPro.SpriteAssetUtilities
-namespace TMPro::SpriteAssetUtilities {
-  // Forward declaring type: SpriteSize
-  struct SpriteSize;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(TMPro::SpriteAssetUtilities::TexturePacker::SpriteSize, "TMPro.SpriteAssetUtilities", "TexturePacker/SpriteSize");
 // Type namespace: TMPro.SpriteAssetUtilities
 namespace TMPro::SpriteAssetUtilities {
   // Size: 0x8
@@ -26,11 +19,6 @@ namespace TMPro::SpriteAssetUtilities {
   // [TokenAttribute] Offset: FFFFFFFF
   struct TexturePacker::SpriteSize/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Single w
     // Size: 0x4
     // Offset: 0x0
@@ -43,7 +31,6 @@ namespace TMPro::SpriteAssetUtilities {
     float h;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
     // Creating value type constructor for type: SpriteSize
     constexpr SpriteSize(float w_ = {}, float h_ = {}) noexcept : w{w_}, h{h_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -55,7 +42,7 @@ namespace TMPro::SpriteAssetUtilities {
     // Get instance field reference: public System.Single h
     float& dyn_h();
     // public override System.String ToString()
-    // Offset: 0x11EBF4C
+    // Offset: 0x12426BC
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
@@ -64,7 +51,9 @@ namespace TMPro::SpriteAssetUtilities {
   static check_size<sizeof(TexturePacker::SpriteSize), 4 + sizeof(float)> __TMPro_SpriteAssetUtilities_TexturePacker_SpriteSizeSizeCheck;
   static_assert(sizeof(TexturePacker::SpriteSize) == 0x8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::SpriteAssetUtilities::TexturePacker::SpriteSize, "TMPro.SpriteAssetUtilities", "TexturePacker/SpriteSize");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::SpriteAssetUtilities::TexturePacker::SpriteSize::ToString
 // Il2CppName: ToString
 template<>

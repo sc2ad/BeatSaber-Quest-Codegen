@@ -3,19 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Object
 #include "UnityEngine/Object.hpp"
 // Completed includes
-// Type namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: LowerResBlitTexture
-  class LowerResBlitTexture;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::LowerResBlitTexture);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::LowerResBlitTexture*, "UnityEngine", "LowerResBlitTexture");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18
@@ -24,13 +16,17 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class LowerResBlitTexture : public UnityEngine::Object {
     public:
+    // Creating value type constructor for type: LowerResBlitTexture
+    LowerResBlitTexture() noexcept {}
     // System.Void LowerResBlitTextureDontStripMe()
-    // Offset: 0x1D84C94
+    // Offset: 0x1D96C68
     void LowerResBlitTextureDontStripMe();
   }; // UnityEngine.LowerResBlitTexture
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::LowerResBlitTexture*, "UnityEngine", "LowerResBlitTexture");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::LowerResBlitTexture::LowerResBlitTextureDontStripMe
 // Il2CppName: LowerResBlitTextureDontStripMe
 template<>

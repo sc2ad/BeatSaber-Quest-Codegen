@@ -4,8 +4,7 @@
 #pragma once
 // Begin includes
 #include <stdint.h>
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Security
@@ -14,14 +13,10 @@ namespace Org::BouncyCastle::Security {
   class SecureRandom;
 }
 // Completed forward declares
-// Type namespace: Org.BouncyCastle.Crypto.Paddings
-namespace Org::BouncyCastle::Crypto::Paddings {
-  // Forward declaring type: IBlockCipherPadding
-  class IBlockCipherPadding;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*, "Org.BouncyCastle.Crypto.Paddings", "IBlockCipherPadding");
+// Begin il2cpp-utils forward declares
+template<class T>
+struct Array;
+// Completed il2cpp-utils forward declares
 // Type namespace: Org.BouncyCastle.Crypto.Paddings
 namespace Org::BouncyCastle::Crypto::Paddings {
   // Size: 0x10
@@ -30,19 +25,23 @@ namespace Org::BouncyCastle::Crypto::Paddings {
   // [TokenAttribute] Offset: FFFFFFFF
   class IBlockCipherPadding {
     public:
+    // Creating value type constructor for type: IBlockCipherPadding
+    IBlockCipherPadding() noexcept {}
     // public System.Void Init(Org.BouncyCastle.Security.SecureRandom random)
     // Offset: 0xFFFFFFFF
     void Init(Org::BouncyCastle::Security::SecureRandom* random);
     // public System.Int32 AddPadding(System.Byte[] input, System.Int32 inOff)
     // Offset: 0xFFFFFFFF
-    int AddPadding(::ArrayW<uint8_t> input, int inOff);
+    int AddPadding(::Array<uint8_t>* input, int inOff);
     // public System.Int32 PadCount(System.Byte[] input)
     // Offset: 0xFFFFFFFF
-    int PadCount(::ArrayW<uint8_t> input);
+    int PadCount(::Array<uint8_t>* input);
   }; // Org.BouncyCastle.Crypto.Paddings.IBlockCipherPadding
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*, "Org.BouncyCastle.Crypto.Paddings", "IBlockCipherPadding");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding::Init
 // Il2CppName: Init
 template<>
@@ -55,7 +54,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding::AddPadding
 // Il2CppName: AddPadding
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding::*)(::ArrayW<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding::AddPadding)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding::*)(::Array<uint8_t>*, int)>(&Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding::AddPadding)> {
   static const MethodInfo* get() {
     static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* inOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -65,7 +64,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding::PadCount
 // Il2CppName: PadCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding::*)(::ArrayW<uint8_t>)>(&Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding::PadCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding::*)(::Array<uint8_t>*)>(&Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding::PadCount)> {
   static const MethodInfo* get() {
     static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*), "PadCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input});

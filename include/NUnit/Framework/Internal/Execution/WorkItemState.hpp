@@ -3,18 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: NUnit.Framework.Internal.Execution
-namespace NUnit::Framework::Internal::Execution {
-  // Forward declaring type: WorkItemState
-  struct WorkItemState;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Execution::WorkItemState, "NUnit.Framework.Internal.Execution", "WorkItemState");
 // Type namespace: NUnit.Framework.Internal.Execution
 namespace NUnit::Framework::Internal::Execution {
   // Size: 0x4
@@ -23,18 +16,12 @@ namespace NUnit::Framework::Internal::Execution {
   // [TokenAttribute] Offset: FFFFFFFF
   struct WorkItemState/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: WorkItemState
     constexpr WorkItemState(int value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -70,4 +57,6 @@ namespace NUnit::Framework::Internal::Execution {
   static check_size<sizeof(WorkItemState), 0 + sizeof(int)> __NUnit_Framework_Internal_Execution_WorkItemStateSizeCheck;
   static_assert(sizeof(WorkItemState) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Execution::WorkItemState, "NUnit.Framework.Internal.Execution", "WorkItemState");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

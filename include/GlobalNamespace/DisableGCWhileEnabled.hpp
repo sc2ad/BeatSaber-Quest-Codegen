@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: DisableGCWhileEnabled
-  class DisableGCWhileEnabled;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::DisableGCWhileEnabled);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DisableGCWhileEnabled*, "", "DisableGCWhileEnabled");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x18
@@ -28,14 +20,16 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class DisableGCWhileEnabled : public UnityEngine::MonoBehaviour {
     public:
+    // Creating value type constructor for type: DisableGCWhileEnabled
+    DisableGCWhileEnabled() noexcept {}
     // protected System.Void OnEnable()
-    // Offset: 0x1361AD8
+    // Offset: 0x13926CC
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1361AE4
+    // Offset: 0x13926D8
     void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0x1361AF0
+    // Offset: 0x13926E4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -50,7 +44,8 @@ namespace GlobalNamespace {
   }; // DisableGCWhileEnabled
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DisableGCWhileEnabled*, "", "DisableGCWhileEnabled");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DisableGCWhileEnabled::OnEnable
 // Il2CppName: OnEnable
 template<>

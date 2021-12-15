@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PersistentScriptableObject
 #include "GlobalNamespace/PersistentScriptableObject.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: ObjectiveValueFormatterSO
-  class ObjectiveValueFormatterSO;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::ObjectiveValueFormatterSO);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObjectiveValueFormatterSO*, "", "ObjectiveValueFormatterSO");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x18
@@ -28,11 +20,13 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ObjectiveValueFormatterSO : public GlobalNamespace::PersistentScriptableObject {
     public:
+    // Creating value type constructor for type: ObjectiveValueFormatterSO
+    ObjectiveValueFormatterSO() noexcept {}
     // public System.String FormatValue(System.Int32 value)
-    // Offset: 0x134028C
+    // Offset: 0x13450B0
     ::Il2CppString* FormatValue(int value);
     // public System.Void .ctor()
-    // Offset: 0x13402B4
+    // Offset: 0x13450D8
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -46,7 +40,8 @@ namespace GlobalNamespace {
   }; // ObjectiveValueFormatterSO
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObjectiveValueFormatterSO*, "", "ObjectiveValueFormatterSO");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ObjectiveValueFormatterSO::FormatValue
 // Il2CppName: FormatValue
 template<>

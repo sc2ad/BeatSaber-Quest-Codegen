@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HoudiniEngineUnity.HEU_PluginStorage
 #include "HoudiniEngineUnity/HEU_PluginStorage.hpp"
 // Including type: HoudiniEngineUnity.HEU_PluginStorage/HoudiniEngineUnity.DataType
 #include "HoudiniEngineUnity/HEU_PluginStorage_DataType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: HoudiniEngineUnity
-namespace HoudiniEngineUnity {
-  // Forward declaring type: StoreData
-  class StoreData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_PluginStorage::StoreData);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_PluginStorage::StoreData*, "HoudiniEngineUnity", "HEU_PluginStorage/StoreData");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x20
@@ -30,11 +22,6 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_PluginStorage::StoreData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public HoudiniEngineUnity.HEU_PluginStorage/HoudiniEngineUnity.DataType _type
     // Size: 0x4
     // Offset: 0x10
@@ -49,13 +36,14 @@ namespace HoudiniEngineUnity {
     ::Il2CppString* valueStr;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: StoreData
+    StoreData(HoudiniEngineUnity::HEU_PluginStorage::DataType type_ = {}, ::Il2CppString* valueStr_ = {}) noexcept : type{type_}, valueStr{valueStr_} {}
     // Get instance field reference: public HoudiniEngineUnity.HEU_PluginStorage/HoudiniEngineUnity.DataType _type
     HoudiniEngineUnity::HEU_PluginStorage::DataType& dyn__type();
     // Get instance field reference: public System.String _valueStr
     ::Il2CppString*& dyn__valueStr();
     // public System.Void .ctor()
-    // Offset: 0x17B5C20
+    // Offset: 0x1844534
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -68,7 +56,8 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_PluginStorage::StoreData), 24 + sizeof(::Il2CppString*)> __HoudiniEngineUnity_HEU_PluginStorage_StoreDataSizeCheck;
   static_assert(sizeof(HEU_PluginStorage::StoreData) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_PluginStorage::StoreData*, "HoudiniEngineUnity", "HEU_PluginStorage/StoreData");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginStorage::StoreData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

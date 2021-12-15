@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Text.EncoderFallbackBuffer
 #include "System/Text/EncoderFallbackBuffer.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Text
-namespace System::Text {
-  // Forward declaring type: EncoderExceptionFallbackBuffer
-  class EncoderExceptionFallbackBuffer;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Text::EncoderExceptionFallbackBuffer);
-DEFINE_IL2CPP_ARG_TYPE(System::Text::EncoderExceptionFallbackBuffer*, "System.Text", "EncoderExceptionFallbackBuffer");
 // Type namespace: System.Text
 namespace System::Text {
   // Size: 0x30
@@ -28,13 +20,15 @@ namespace System::Text {
   // [TokenAttribute] Offset: FFFFFFFF
   class EncoderExceptionFallbackBuffer : public System::Text::EncoderFallbackBuffer {
     public:
+    // Creating value type constructor for type: EncoderExceptionFallbackBuffer
+    EncoderExceptionFallbackBuffer() noexcept {}
     // public override System.Int32 get_Remaining()
-    // Offset: 0x1DE18FC
+    // Offset: 0x1DEBC6C
     // Implemented from: System.Text.EncoderFallbackBuffer
     // Base method: System.Int32 EncoderFallbackBuffer::get_Remaining()
     int get_Remaining();
     // public System.Void .ctor()
-    // Offset: 0x1DE13AC
+    // Offset: 0x1DEB71C
     // Implemented from: System.Text.EncoderFallbackBuffer
     // Base method: System.Void EncoderFallbackBuffer::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -44,29 +38,30 @@ namespace System::Text {
       return THROW_UNLESS((::il2cpp_utils::New<EncoderExceptionFallbackBuffer*, creationType>()));
     }
     // public override System.Boolean Fallback(System.Char charUnknown, System.Int32 index)
-    // Offset: 0x1DE1430
+    // Offset: 0x1DEB7A0
     // Implemented from: System.Text.EncoderFallbackBuffer
     // Base method: System.Boolean EncoderFallbackBuffer::Fallback(System.Char charUnknown, System.Int32 index)
     bool Fallback(::Il2CppChar charUnknown, int index);
     // public override System.Boolean Fallback(System.Char charUnknownHigh, System.Char charUnknownLow, System.Int32 index)
-    // Offset: 0x1DE1560
+    // Offset: 0x1DEB8D0
     // Implemented from: System.Text.EncoderFallbackBuffer
     // Base method: System.Boolean EncoderFallbackBuffer::Fallback(System.Char charUnknownHigh, System.Char charUnknownLow, System.Int32 index)
     bool Fallback(::Il2CppChar charUnknownHigh, ::Il2CppChar charUnknownLow, int index);
     // public override System.Char GetNextChar()
-    // Offset: 0x1DE18EC
+    // Offset: 0x1DEBC5C
     // Implemented from: System.Text.EncoderFallbackBuffer
     // Base method: System.Char EncoderFallbackBuffer::GetNextChar()
     ::Il2CppChar GetNextChar();
     // public override System.Boolean MovePrevious()
-    // Offset: 0x1DE18F4
+    // Offset: 0x1DEBC64
     // Implemented from: System.Text.EncoderFallbackBuffer
     // Base method: System.Boolean EncoderFallbackBuffer::MovePrevious()
     bool MovePrevious();
   }; // System.Text.EncoderExceptionFallbackBuffer
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Text::EncoderExceptionFallbackBuffer*, "System.Text", "EncoderExceptionFallbackBuffer");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::EncoderExceptionFallbackBuffer::get_Remaining
 // Il2CppName: get_Remaining
 template<>

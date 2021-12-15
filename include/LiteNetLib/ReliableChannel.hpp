@@ -3,19 +3,18 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LiteNetLib.BaseChannel
 #include "LiteNetLib/BaseChannel.hpp"
 // Including type: LiteNetLib.DeliveryMethod
 #include "LiteNetLib/DeliveryMethod.hpp"
 // Including type: System.Int32
 #include "System/Int32.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: LiteNetLib
@@ -26,14 +25,6 @@ namespace LiteNetLib {
   class NetPacket;
 }
 // Completed forward declares
-// Type namespace: LiteNetLib
-namespace LiteNetLib {
-  // Forward declaring type: ReliableChannel
-  class ReliableChannel;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(LiteNetLib::ReliableChannel);
-DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::ReliableChannel*, "LiteNetLib", "ReliableChannel");
 // Type namespace: LiteNetLib
 namespace LiteNetLib {
   // Size: 0x61
@@ -51,11 +42,6 @@ namespace LiteNetLib {
     // [TokenAttribute] Offset: FFFFFFFF
     struct PendingPacket/*, public System::ValueType*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // private LiteNetLib.NetPacket _packet
       // Size: 0x8
       // Offset: 0x0
@@ -74,7 +60,6 @@ namespace LiteNetLib {
       bool isSent;
       // Field size check
       static_assert(sizeof(bool) == 0x1);
-      public:
       // Creating value type constructor for type: PendingPacket
       constexpr PendingPacket(LiteNetLib::NetPacket* packet_ = {}, int64_t timeStamp_ = {}, bool isSent_ = {}) noexcept : packet{packet_}, timeStamp{timeStamp_}, isSent{isSent_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -88,16 +73,16 @@ namespace LiteNetLib {
       // Get instance field reference: private System.Boolean _isSent
       bool& dyn__isSent();
       // public System.Void Init(LiteNetLib.NetPacket packet)
-      // Offset: 0x1DC7A24
+      // Offset: 0x1DD1D94
       void Init(LiteNetLib::NetPacket* packet);
       // public System.Void TrySend(System.Int64 currentTime, LiteNetLib.NetPeer peer)
-      // Offset: 0x1DC7A30
+      // Offset: 0x1DD1DA0
       void TrySend(int64_t currentTime, LiteNetLib::NetPeer* peer);
       // public System.Boolean Clear(LiteNetLib.NetPeer peer)
-      // Offset: 0x1DC75A0
+      // Offset: 0x1DD1910
       bool Clear(LiteNetLib::NetPeer* peer);
       // public override System.String ToString()
-      // Offset: 0x1DC7FA8
+      // Offset: 0x1DD2318
       // Implemented from: System.ValueType
       // Base method: System.String ValueType::ToString()
       ::Il2CppString* ToString();
@@ -105,11 +90,6 @@ namespace LiteNetLib {
     #pragma pack(pop)
     static check_size<sizeof(ReliableChannel::PendingPacket), 16 + sizeof(bool)> __LiteNetLib_ReliableChannel_PendingPacketSizeCheck;
     static_assert(sizeof(ReliableChannel::PendingPacket) == 0x11);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private readonly LiteNetLib.NetPacket _outgoingAcks
     // Size: 0x8
     // Offset: 0x28
@@ -119,21 +99,21 @@ namespace LiteNetLib {
     // private readonly LiteNetLib.ReliableChannel/LiteNetLib.PendingPacket[] _pendingPackets
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayW<LiteNetLib::ReliableChannel::PendingPacket> pendingPackets;
+    ::Array<LiteNetLib::ReliableChannel::PendingPacket>* pendingPackets;
     // Field size check
-    static_assert(sizeof(::ArrayW<LiteNetLib::ReliableChannel::PendingPacket>) == 0x8);
+    static_assert(sizeof(::Array<LiteNetLib::ReliableChannel::PendingPacket>*) == 0x8);
     // private readonly LiteNetLib.NetPacket[] _receivedPackets
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayW<LiteNetLib::NetPacket*> receivedPackets;
+    ::Array<LiteNetLib::NetPacket*>* receivedPackets;
     // Field size check
-    static_assert(sizeof(::ArrayW<LiteNetLib::NetPacket*>) == 0x8);
+    static_assert(sizeof(::Array<LiteNetLib::NetPacket*>*) == 0x8);
     // private readonly System.Boolean[] _earlyReceived
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayW<bool> earlyReceived;
+    ::Array<bool>* earlyReceived;
     // Field size check
-    static_assert(sizeof(::ArrayW<bool>) == 0x8);
+    static_assert(sizeof(::Array<bool>*) == 0x8);
     // private System.Int32 _localSeqence
     // Size: 0x4
     // Offset: 0x48
@@ -190,7 +170,8 @@ namespace LiteNetLib {
     uint8_t id;
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
-    public:
+    // Creating value type constructor for type: ReliableChannel
+    ReliableChannel(LiteNetLib::NetPacket* outgoingAcks_ = {}, ::Array<LiteNetLib::ReliableChannel::PendingPacket>* pendingPackets_ = {}, ::Array<LiteNetLib::NetPacket*>* receivedPackets_ = {}, ::Array<bool>* earlyReceived_ = {}, int localSeqence_ = {}, int remoteSequence_ = {}, int localWindowStart_ = {}, int remoteWindowStart_ = {}, bool mustSendAcks_ = {}, LiteNetLib::DeliveryMethod deliveryMethod_ = {}, bool ordered_ = {}, int windowSize_ = {}, uint8_t id_ = {}) noexcept : outgoingAcks{outgoingAcks_}, pendingPackets{pendingPackets_}, receivedPackets{receivedPackets_}, earlyReceived{earlyReceived_}, localSeqence{localSeqence_}, remoteSequence{remoteSequence_}, localWindowStart{localWindowStart_}, remoteWindowStart{remoteWindowStart_}, mustSendAcks{mustSendAcks_}, deliveryMethod{deliveryMethod_}, ordered{ordered_}, windowSize{windowSize_}, id{id_} {}
     // static field const value: static private System.Int32 BitsInByte
     static constexpr const int BitsInByte = 8;
     // Get static field: static private System.Int32 BitsInByte
@@ -200,11 +181,11 @@ namespace LiteNetLib {
     // Get instance field reference: private readonly LiteNetLib.NetPacket _outgoingAcks
     LiteNetLib::NetPacket*& dyn__outgoingAcks();
     // Get instance field reference: private readonly LiteNetLib.ReliableChannel/LiteNetLib.PendingPacket[] _pendingPackets
-    ::ArrayW<LiteNetLib::ReliableChannel::PendingPacket>& dyn__pendingPackets();
+    ::Array<LiteNetLib::ReliableChannel::PendingPacket>*& dyn__pendingPackets();
     // Get instance field reference: private readonly LiteNetLib.NetPacket[] _receivedPackets
-    ::ArrayW<LiteNetLib::NetPacket*>& dyn__receivedPackets();
+    ::Array<LiteNetLib::NetPacket*>*& dyn__receivedPackets();
     // Get instance field reference: private readonly System.Boolean[] _earlyReceived
-    ::ArrayW<bool>& dyn__earlyReceived();
+    ::Array<bool>*& dyn__earlyReceived();
     // Get instance field reference: private System.Int32 _localSeqence
     int& dyn__localSeqence();
     // Get instance field reference: private System.Int32 _remoteSequence
@@ -224,22 +205,22 @@ namespace LiteNetLib {
     // Get instance field reference: private readonly System.Byte _id
     uint8_t& dyn__id();
     // public System.Void .ctor(LiteNetLib.NetPeer peer, System.Boolean ordered, System.Byte id)
-    // Offset: 0x1DC3B58
+    // Offset: 0x1DCDEC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReliableChannel* New_ctor(LiteNetLib::NetPeer* peer, bool ordered, uint8_t id) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::ReliableChannel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReliableChannel*, creationType>(peer, ordered, id)));
     }
     // private System.Void ProcessAck(LiteNetLib.NetPacket packet)
-    // Offset: 0x1DC7264
+    // Offset: 0x1DD15D4
     void ProcessAck(LiteNetLib::NetPacket* packet);
     // public override System.Void SendNextPackets()
-    // Offset: 0x1DC75E8
+    // Offset: 0x1DD1958
     // Implemented from: LiteNetLib.BaseChannel
     // Base method: System.Void BaseChannel::SendNextPackets()
     void SendNextPackets();
     // public override System.Boolean ProcessPacket(LiteNetLib.NetPacket packet)
-    // Offset: 0x1DC7AAC
+    // Offset: 0x1DD1E1C
     // Implemented from: LiteNetLib.BaseChannel
     // Base method: System.Boolean BaseChannel::ProcessPacket(LiteNetLib.NetPacket packet)
     bool ProcessPacket(LiteNetLib::NetPacket* packet);
@@ -248,9 +229,9 @@ namespace LiteNetLib {
   static check_size<sizeof(ReliableChannel), 96 + sizeof(uint8_t)> __LiteNetLib_ReliableChannelSizeCheck;
   static_assert(sizeof(ReliableChannel) == 0x61);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::ReliableChannel*, "LiteNetLib", "ReliableChannel");
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::ReliableChannel::PendingPacket, "LiteNetLib", "ReliableChannel/PendingPacket");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::ReliableChannel::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -3,25 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
-// Including type: System.Enum
-#include "System/Enum.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: DynamicBoneColliderBase
-  class DynamicBoneColliderBase;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::DynamicBoneColliderBase);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DynamicBoneColliderBase*, "", "DynamicBoneColliderBase");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x2C
@@ -40,18 +30,12 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct Direction/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: Direction
       constexpr Direction(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -92,18 +76,12 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct Bound/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: Bound
       constexpr Bound(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -132,11 +110,6 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(DynamicBoneColliderBase::Bound), 0 + sizeof(int)> __GlobalNamespace_DynamicBoneColliderBase_BoundSizeCheck;
     static_assert(sizeof(DynamicBoneColliderBase::Bound) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public DynamicBoneColliderBase/Direction m_Direction
     // Size: 0x4
     // Offset: 0x18
@@ -155,7 +128,8 @@ namespace GlobalNamespace {
     GlobalNamespace::DynamicBoneColliderBase::Bound m_Bound;
     // Field size check
     static_assert(sizeof(GlobalNamespace::DynamicBoneColliderBase::Bound) == 0x4);
-    public:
+    // Creating value type constructor for type: DynamicBoneColliderBase
+    DynamicBoneColliderBase(GlobalNamespace::DynamicBoneColliderBase::Direction m_Direction_ = {}, UnityEngine::Vector3 m_Center_ = {}, GlobalNamespace::DynamicBoneColliderBase::Bound m_Bound_ = {}) noexcept : m_Direction{m_Direction_}, m_Center{m_Center_}, m_Bound{m_Bound_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public DynamicBoneColliderBase/Direction m_Direction
@@ -165,10 +139,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public DynamicBoneColliderBase/Bound m_Bound
     GlobalNamespace::DynamicBoneColliderBase::Bound& dyn_m_Bound();
     // public System.Void Collide(ref UnityEngine.Vector3 particlePosition, System.Single particleRadius)
-    // Offset: 0x25EC510
+    // Offset: 0x26AF4B8
     void Collide(ByRef<UnityEngine::Vector3> particlePosition, float particleRadius);
     // public System.Void .ctor()
-    // Offset: 0x25EC490
+    // Offset: 0x26AF438
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -185,11 +159,10 @@ namespace GlobalNamespace {
   static check_size<sizeof(DynamicBoneColliderBase), 40 + sizeof(GlobalNamespace::DynamicBoneColliderBase::Bound)> __GlobalNamespace_DynamicBoneColliderBaseSizeCheck;
   static_assert(sizeof(DynamicBoneColliderBase) == 0x2C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DynamicBoneColliderBase*, "", "DynamicBoneColliderBase");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DynamicBoneColliderBase::Direction, "", "DynamicBoneColliderBase/Direction");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DynamicBoneColliderBase::Bound, "", "DynamicBoneColliderBase/Bound");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DynamicBoneColliderBase::Collide
 // Il2CppName: Collide
 template<>

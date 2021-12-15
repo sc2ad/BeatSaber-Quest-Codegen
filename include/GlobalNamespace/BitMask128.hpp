@@ -4,13 +4,17 @@
 #pragma once
 // Begin includes
 #include <stdint.h>
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: IBitMask`1
 #include "GlobalNamespace/IBitMask_1.hpp"
 // Including type: LiteNetLib.Utils.INetImmutableSerializable`1
 #include "LiteNetLib/Utils/INetImmutableSerializable_1.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: LiteNetLib::Utils
@@ -27,13 +31,6 @@ struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: 
 namespace GlobalNamespace {
-  // Forward declaring type: BitMask128
-  struct BitMask128;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BitMask128, "", "BitMask128");
-// Type namespace: 
-namespace GlobalNamespace {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -42,11 +39,6 @@ namespace GlobalNamespace {
   // [IsReadOnlyAttribute] Offset: FFFFFFFF
   struct BitMask128/*, public System::ValueType, public GlobalNamespace::IBitMask_1<GlobalNamespace::BitMask128>, public LiteNetLib::Utils::INetImmutableSerializable_1<GlobalNamespace::BitMask128>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private readonly System.UInt64 _d0
     // Size: 0x8
     // Offset: 0x0
@@ -59,7 +51,6 @@ namespace GlobalNamespace {
     uint64_t d1;
     // Field size check
     static_assert(sizeof(uint64_t) == 0x8);
-    public:
     // Creating value type constructor for type: BitMask128
     constexpr BitMask128(uint64_t d0_ = {}, uint64_t d1_ = {}) noexcept : d0{d0_}, d1{d1_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -79,47 +70,53 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.UInt64 _d1
     uint64_t& dyn__d1();
     // public System.Int32 get_bitCount()
-    // Offset: 0x25523E4
+    // Offset: 0x261ED24
     int get_bitCount();
     // static public BitMask128 get_maxValue()
-    // Offset: 0x25523EC
+    // Offset: 0x261ED2C
     static GlobalNamespace::BitMask128 get_maxValue();
     // public System.Void .ctor(System.UInt64 d0, System.UInt64 d1)
-    // Offset: 0x25523F8
-    // ABORTED: conflicts with another method.  BitMask128(uint64_t d0, uint64_t d1);
+    // Offset: 0x261ED38
+    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    // ABORTED: conflicts with another method.  BitMask128(uint64_t d0, uint64_t d1)
     // public System.Void .ctor(System.UInt64 value)
-    // Offset: 0x2552400
-    BitMask128(uint64_t value);
+    // Offset: 0x261ED40
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    BitMask128(uint64_t value) {
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BitMask128::.ctor");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
+    }
     // public BitMask128 SetBits(System.Int32 offset, System.UInt64 bits)
-    // Offset: 0x2552408
+    // Offset: 0x261ED48
     GlobalNamespace::BitMask128 SetBits(int offset, uint64_t bits);
     // public System.UInt64 GetBits(System.Int32 offset, System.Int32 count)
-    // Offset: 0x2552478
+    // Offset: 0x261EDB8
     uint64_t GetBits(int offset, int count);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x2552650
+    // Offset: 0x261EF90
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public BitMask128 CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2552694
+    // Offset: 0x261EFD4
     GlobalNamespace::BitMask128 CreateFromSerializedData(LiteNetLib::Utils::NetDataReader* reader);
     // static public BitMask128 Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x255269C
+    // Offset: 0x261EFDC
     static GlobalNamespace::BitMask128 Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Boolean Equals(BitMask128 other)
-    // Offset: 0x2552774
+    // Offset: 0x261F0B4
     bool Equals(GlobalNamespace::BitMask128 other);
     // public override System.String ToString()
-    // Offset: 0x25526E0
+    // Offset: 0x261F020
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x2552798
+    // Offset: 0x261F0D8
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x2552830
+    // Offset: 0x261F170
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
@@ -128,28 +125,29 @@ namespace GlobalNamespace {
   static check_size<sizeof(BitMask128), 8 + sizeof(uint64_t)> __GlobalNamespace_BitMask128SizeCheck;
   static_assert(sizeof(BitMask128) == 0x10);
   // static public BitMask128 op_BitwiseOr(in BitMask128 a, in BitMask128 b)
-  // Offset: 0x2552540
+  // Offset: 0x261EE80
   GlobalNamespace::BitMask128 operator|(const GlobalNamespace::BitMask128&& a, const GlobalNamespace::BitMask128&& b);
   // static public BitMask128 op_BitwiseAnd(in BitMask128 a, in BitMask128 b)
-  // Offset: 0x2552554
+  // Offset: 0x261EE94
   GlobalNamespace::BitMask128 operator&(const GlobalNamespace::BitMask128&& a, const GlobalNamespace::BitMask128&& b);
   // static public BitMask128 op_ExclusiveOr(in BitMask128 a, in BitMask128 b)
-  // Offset: 0x2552568
+  // Offset: 0x261EEA8
   GlobalNamespace::BitMask128 operator^(const GlobalNamespace::BitMask128&& a, const GlobalNamespace::BitMask128&& b);
   // static public BitMask128 op_LeftShift(in BitMask128 a, System.Int32 bits)
-  // Offset: 0x255257C
+  // Offset: 0x261EEBC
   GlobalNamespace::BitMask128 operator<<(const GlobalNamespace::BitMask128&& a, const int& bits);
   // static public BitMask128 op_RightShift(in BitMask128 a, System.Int32 bits)
-  // Offset: 0x25525B4
+  // Offset: 0x261EEF4
   GlobalNamespace::BitMask128 operator>>(const GlobalNamespace::BitMask128&& a, const int& bits);
   // static public System.Boolean op_Equality(in BitMask128 a, in BitMask128 b)
-  // Offset: 0x25525EC
+  // Offset: 0x261EF2C
   bool operator ==(const GlobalNamespace::BitMask128&& a, const GlobalNamespace::BitMask128&& b);
   // static public System.Boolean op_Inequality(in BitMask128 a, in BitMask128 b)
-  // Offset: 0x2552618
+  // Offset: 0x261EF58
   bool operator !=(const GlobalNamespace::BitMask128&& a, const GlobalNamespace::BitMask128&& b);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BitMask128, "", "BitMask128");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BitMask128::get_bitCount
 // Il2CppName: get_bitCount
 template<>

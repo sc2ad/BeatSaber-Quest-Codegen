@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ComponentModel.TypeConverter
 #include "System/ComponentModel/TypeConverter.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.ComponentModel
-namespace System::ComponentModel {
-  // Forward declaring type: BaseNumberConverter
-  class BaseNumberConverter;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::ComponentModel::BaseNumberConverter);
-DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::BaseNumberConverter*, "System.ComponentModel", "BaseNumberConverter");
 // Type namespace: System.ComponentModel
 namespace System::ComponentModel {
   // Size: 0x10
@@ -28,8 +20,10 @@ namespace System::ComponentModel {
   // [TokenAttribute] Offset: FFFFFFFF
   class BaseNumberConverter : public System::ComponentModel::TypeConverter {
     public:
+    // Creating value type constructor for type: BaseNumberConverter
+    BaseNumberConverter() noexcept {}
     // protected System.Void .ctor()
-    // Offset: 0x1A0607C
+    // Offset: 0x1A2572C
     // Implemented from: System.ComponentModel.TypeConverter
     // Base method: System.Void TypeConverter::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -41,7 +35,8 @@ namespace System::ComponentModel {
   }; // System.ComponentModel.BaseNumberConverter
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::BaseNumberConverter*, "System.ComponentModel", "BaseNumberConverter");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ComponentModel::BaseNumberConverter::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

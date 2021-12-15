@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: TMPro.TMP_InputField
 #include "TMPro/TMP_InputField.hpp"
 // Including type: UnityEngine.Events.UnityEvent`1
 #include "UnityEngine/Events/UnityEvent_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: TMPro
-namespace TMPro {
-  // Forward declaring type: OnChangeEvent
-  class OnChangeEvent;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(TMPro::TMP_InputField::OnChangeEvent);
-DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_InputField::OnChangeEvent*, "TMPro", "TMP_InputField/OnChangeEvent");
 // Type namespace: TMPro
 namespace TMPro {
   // WARNING Size may be invalid!
@@ -29,8 +21,10 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class TMP_InputField::OnChangeEvent : public UnityEngine::Events::UnityEvent_1<::Il2CppString*> {
     public:
+    // Creating value type constructor for type: OnChangeEvent
+    OnChangeEvent() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x12169F0
+    // Offset: 0x1259C50
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent_1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()
@@ -42,7 +36,8 @@ namespace TMPro {
     }
   }; // TMPro.TMP_InputField/TMPro.OnChangeEvent
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_InputField::OnChangeEvent*, "TMPro", "TMP_InputField/OnChangeEvent");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_InputField::OnChangeEvent::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

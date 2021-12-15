@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: RootMotion.FinalIK.AimPoser
 #include "RootMotion/FinalIK/AimPoser.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: RootMotion.FinalIK
-namespace RootMotion::FinalIK {
-  // Forward declaring type: Pose
-  class Pose;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::FinalIK::AimPoser::Pose);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::AimPoser::Pose*, "RootMotion.FinalIK", "AimPoser/Pose");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
   // Size: 0x38
@@ -30,11 +22,6 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class AimPoser::Pose : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Boolean visualize
     // Size: 0x1
     // Offset: 0x10
@@ -73,7 +60,8 @@ namespace RootMotion::FinalIK {
     float angleBuffer;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
+    // Creating value type constructor for type: Pose
+    Pose(bool visualize_ = {}, ::Il2CppString* name_ = {}, UnityEngine::Vector3 direction_ = {}, float yaw_ = {}, float pitch_ = {}, float angleBuffer_ = {}) noexcept : visualize{visualize_}, name{name_}, direction{direction_}, yaw{yaw_}, pitch{pitch_}, angleBuffer{angleBuffer_} {}
     // Get instance field reference: public System.Boolean visualize
     bool& dyn_visualize();
     // Get instance field reference: public System.String name
@@ -87,13 +75,13 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private System.Single angleBuffer
     float& dyn_angleBuffer();
     // public System.Boolean IsInDirection(UnityEngine.Vector3 d)
-    // Offset: 0x1EA59BC
+    // Offset: 0x1EAB41C
     bool IsInDirection(UnityEngine::Vector3 d);
     // public System.Void SetAngleBuffer(System.Single value)
-    // Offset: 0x1EA5D28
+    // Offset: 0x1EAB788
     void SetAngleBuffer(float value);
     // public System.Void .ctor()
-    // Offset: 0x1EA5D30
+    // Offset: 0x1EAB790
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -106,7 +94,8 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(AimPoser::Pose), 52 + sizeof(float)> __RootMotion_FinalIK_AimPoser_PoseSizeCheck;
   static_assert(sizeof(AimPoser::Pose) == 0x38);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::AimPoser::Pose*, "RootMotion.FinalIK", "AimPoser/Pose");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::AimPoser::Pose::IsInDirection
 // Il2CppName: IsInDirection
 template<>

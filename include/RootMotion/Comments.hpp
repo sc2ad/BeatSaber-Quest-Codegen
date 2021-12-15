@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: RootMotion
-namespace RootMotion {
-  // Forward declaring type: Comments
-  class Comments;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::Comments);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::Comments*, "RootMotion", "Comments");
 // Type namespace: RootMotion
 namespace RootMotion {
   // Size: 0x20
@@ -28,25 +20,21 @@ namespace RootMotion {
   // [TokenAttribute] Offset: FFFFFFFF
   class Comments : public UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
-    // [MultilineAttribute] Offset: 0xEF1474
+    // [MultilineAttribute] Offset: 0xF5CB80
     // public System.String text
     // Size: 0x8
     // Offset: 0x18
     ::Il2CppString* text;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: Comments
+    Comments(::Il2CppString* text_ = {}) noexcept : text{text_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.String text
     ::Il2CppString*& dyn_text();
     // public System.Void .ctor()
-    // Offset: 0x1EA39D4
+    // Offset: 0x1EA9434
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -63,7 +51,8 @@ namespace RootMotion {
   static check_size<sizeof(Comments), 24 + sizeof(::Il2CppString*)> __RootMotion_CommentsSizeCheck;
   static_assert(sizeof(Comments) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::Comments*, "RootMotion", "Comments");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::Comments::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

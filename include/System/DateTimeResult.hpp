@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.ParseFlags
@@ -25,13 +25,6 @@ namespace System::Globalization {
 // Completed forward declares
 // Type namespace: System
 namespace System {
-  // Forward declaring type: DateTimeResult
-  struct DateTimeResult;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::DateTimeResult, "System", "DateTimeResult");
-// Type namespace: System
-namespace System {
   // Size: 0x60
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -39,11 +32,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   struct DateTimeResult/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // System.Int32 Year
     // Size: 0x4
     // Offset: 0x0
@@ -142,7 +130,6 @@ namespace System {
     ::Il2CppString* failureArgumentName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
     // Creating value type constructor for type: DateTimeResult
     constexpr DateTimeResult(int Year_ = {}, int Month_ = {}, int Day_ = {}, int Hour_ = {}, int Minute_ = {}, int Second_ = {}, double fraction_ = {}, int era_ = {}, System::ParseFlags flags_ = {}, System::TimeSpan timeZoneOffset_ = {}, System::Globalization::Calendar* calendar_ = {}, System::DateTime parsedDate_ = {}, System::ParseFailureKind failure_ = {}, ::Il2CppString* failureMessageID_ = {}, ::Il2CppObject* failureMessageFormatArgument_ = {}, ::Il2CppString* failureArgumentName_ = {}) noexcept : Year{Year_}, Month{Month_}, Day{Day_}, Hour{Hour_}, Minute{Minute_}, Second{Second_}, fraction{fraction_}, era{era_}, flags{flags_}, timeZoneOffset{timeZoneOffset_}, calendar{calendar_}, parsedDate{parsedDate_}, failure{failure_}, failureMessageID{failureMessageID_}, failureMessageFormatArgument{failureMessageFormatArgument_}, failureArgumentName{failureArgumentName_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -182,23 +169,25 @@ namespace System {
     // Get instance field reference: System.String failureArgumentName
     ::Il2CppString*& dyn_failureArgumentName();
     // System.Void Init()
-    // Offset: 0x1CD06D8
+    // Offset: 0x1D40AC4
     void Init();
     // System.Void SetDate(System.Int32 year, System.Int32 month, System.Int32 day)
-    // Offset: 0x1CD32EC
+    // Offset: 0x1D436D8
     void SetDate(int year, int month, int day);
     // System.Void SetFailure(System.ParseFailureKind failure, System.String failureMessageID, System.Object failureMessageFormatArgument)
-    // Offset: 0x1CD09B8
+    // Offset: 0x1D40DA4
     void SetFailure(System::ParseFailureKind failure, ::Il2CppString* failureMessageID, ::Il2CppObject* failureMessageFormatArgument);
     // System.Void SetFailure(System.ParseFailureKind failure, System.String failureMessageID, System.Object failureMessageFormatArgument, System.String failureArgumentName)
-    // Offset: 0x1CD09A8
+    // Offset: 0x1D40D94
     void SetFailure(System::ParseFailureKind failure, ::Il2CppString* failureMessageID, ::Il2CppObject* failureMessageFormatArgument, ::Il2CppString* failureArgumentName);
   }; // System.DateTimeResult
   #pragma pack(pop)
   static check_size<sizeof(DateTimeResult), 88 + sizeof(::Il2CppString*)> __System_DateTimeResultSizeCheck;
   static_assert(sizeof(DateTimeResult) == 0x60);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::DateTimeResult, "System", "DateTimeResult");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::DateTimeResult::Init
 // Il2CppName: Init
 template<>

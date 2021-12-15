@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.IntPtr
@@ -16,13 +16,6 @@
 // Completed includes
 // Type namespace: System.Net.NetworkInformation
 namespace System::Net::NetworkInformation {
-  // Forward declaring type: Win32_FIXED_INFO
-  struct Win32_FIXED_INFO;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32_FIXED_INFO, "System.Net.NetworkInformation", "Win32_FIXED_INFO");
-// Type namespace: System.Net.NetworkInformation
-namespace System::Net::NetworkInformation {
   // Size: 0x54
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -30,11 +23,6 @@ namespace System::Net::NetworkInformation {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Win32_FIXED_INFO/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.String HostName
     // Size: 0x8
     // Offset: 0x0
@@ -93,7 +81,6 @@ namespace System::Net::NetworkInformation {
     uint EnableDns;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
-    public:
     // Creating value type constructor for type: Win32_FIXED_INFO
     constexpr Win32_FIXED_INFO(::Il2CppString* HostName_ = {}, ::Il2CppString* DomainName_ = {}, System::IntPtr CurrentDnsServer_ = {}, System::Net::NetworkInformation::Win32_IP_ADDR_STRING DnsServerList_ = {}, System::Net::NetworkInformation::NetBiosNodeType NodeType_ = {}, ::Il2CppString* ScopeId_ = {}, uint EnableRouting_ = {}, uint EnableProxy_ = {}, uint EnableDns_ = {}) noexcept : HostName{HostName_}, DomainName{DomainName_}, CurrentDnsServer{CurrentDnsServer_}, DnsServerList{DnsServerList_}, NodeType{NodeType_}, ScopeId{ScopeId_}, EnableRouting{EnableRouting_}, EnableProxy{EnableProxy_}, EnableDns{EnableDns_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -123,4 +110,6 @@ namespace System::Net::NetworkInformation {
   static check_size<sizeof(Win32_FIXED_INFO), 80 + sizeof(uint)> __System_Net_NetworkInformation_Win32_FIXED_INFOSizeCheck;
   static_assert(sizeof(Win32_FIXED_INFO) == 0x54);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32_FIXED_INFO, "System.Net.NetworkInformation", "Win32_FIXED_INFO");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

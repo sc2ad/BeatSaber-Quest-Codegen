@@ -3,28 +3,19 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.Vector4
 #include "UnityEngine/Vector4.hpp"
 // Including type: System.Int32
 #include "System/Int32.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: LineLightManager
-  class LineLightManager;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::LineLightManager);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LineLightManager*, "", "LineLightManager");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x38
@@ -34,36 +25,32 @@ namespace GlobalNamespace {
   // [ExecuteInEditMode] Offset: FFFFFFFF
   class LineLightManager : public UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private readonly UnityEngine.Vector4[] _points
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayW<UnityEngine::Vector4> points;
+    ::Array<UnityEngine::Vector4>* points;
     // Field size check
-    static_assert(sizeof(::ArrayW<UnityEngine::Vector4>) == 0x8);
+    static_assert(sizeof(::Array<UnityEngine::Vector4>*) == 0x8);
     // private readonly UnityEngine.Vector4[] _dirs
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayW<UnityEngine::Vector4> dirs;
+    ::Array<UnityEngine::Vector4>* dirs;
     // Field size check
-    static_assert(sizeof(::ArrayW<UnityEngine::Vector4>) == 0x8);
+    static_assert(sizeof(::Array<UnityEngine::Vector4>*) == 0x8);
     // private readonly System.Single[] _dirLengths
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayW<float> dirLengths;
+    ::Array<float>* dirLengths;
     // Field size check
-    static_assert(sizeof(::ArrayW<float>) == 0x8);
+    static_assert(sizeof(::Array<float>*) == 0x8);
     // private readonly UnityEngine.Vector4[] _colors
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayW<UnityEngine::Vector4> colors;
+    ::Array<UnityEngine::Vector4>* colors;
     // Field size check
-    static_assert(sizeof(::ArrayW<UnityEngine::Vector4>) == 0x8);
-    public:
+    static_assert(sizeof(::Array<UnityEngine::Vector4>*) == 0x8);
+    // Creating value type constructor for type: LineLightManager
+    LineLightManager(::Array<UnityEngine::Vector4>* points_ = {}, ::Array<UnityEngine::Vector4>* dirs_ = {}, ::Array<float>* dirLengths_ = {}, ::Array<UnityEngine::Vector4>* colors_ = {}) noexcept : points{points_}, dirs{dirs_}, dirLengths{dirLengths_}, colors{colors_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Int32 kMaxNumberOfLights
@@ -72,44 +59,44 @@ namespace GlobalNamespace {
     static int _get_kMaxNumberOfLights();
     // Set static field: static private System.Int32 kMaxNumberOfLights
     static void _set_kMaxNumberOfLights(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEE03F8
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF23800
     // Get static field: static private readonly System.Int32 _activeLineLightsCountID
     static int _get__activeLineLightsCountID();
     // Set static field: static private readonly System.Int32 _activeLineLightsCountID
     static void _set__activeLineLightsCountID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEE0408
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF23810
     // Get static field: static private readonly System.Int32 _lineLightPointsID
     static int _get__lineLightPointsID();
     // Set static field: static private readonly System.Int32 _lineLightPointsID
     static void _set__lineLightPointsID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEE0418
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF23820
     // Get static field: static private readonly System.Int32 _lineLightDirsID
     static int _get__lineLightDirsID();
     // Set static field: static private readonly System.Int32 _lineLightDirsID
     static void _set__lineLightDirsID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEE0428
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF23830
     // Get static field: static private readonly System.Int32 _lineLightDirLengthsID
     static int _get__lineLightDirLengthsID();
     // Set static field: static private readonly System.Int32 _lineLightDirLengthsID
     static void _set__lineLightDirLengthsID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEE0438
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF23840
     // Get static field: static private readonly System.Int32 _lineLightColorsID
     static int _get__lineLightColorsID();
     // Set static field: static private readonly System.Int32 _lineLightColorsID
     static void _set__lineLightColorsID(int value);
     // Get instance field reference: private readonly UnityEngine.Vector4[] _points
-    ::ArrayW<UnityEngine::Vector4>& dyn__points();
+    ::Array<UnityEngine::Vector4>*& dyn__points();
     // Get instance field reference: private readonly UnityEngine.Vector4[] _dirs
-    ::ArrayW<UnityEngine::Vector4>& dyn__dirs();
+    ::Array<UnityEngine::Vector4>*& dyn__dirs();
     // Get instance field reference: private readonly System.Single[] _dirLengths
-    ::ArrayW<float>& dyn__dirLengths();
+    ::Array<float>*& dyn__dirLengths();
     // Get instance field reference: private readonly UnityEngine.Vector4[] _colors
-    ::ArrayW<UnityEngine::Vector4>& dyn__colors();
+    ::Array<UnityEngine::Vector4>*& dyn__colors();
     // protected System.Void Update()
-    // Offset: 0x1E131B0
+    // Offset: 0x1DB8B70
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x1E1358C
+    // Offset: 0x1DB8F4C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -122,16 +109,17 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LineLightManager*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1E13624
+    // Offset: 0x1DB8FE4
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // LineLightManager
   #pragma pack(pop)
-  static check_size<sizeof(LineLightManager), 48 + sizeof(::ArrayW<UnityEngine::Vector4>)> __GlobalNamespace_LineLightManagerSizeCheck;
+  static check_size<sizeof(LineLightManager), 48 + sizeof(::Array<UnityEngine::Vector4>*)> __GlobalNamespace_LineLightManagerSizeCheck;
   static_assert(sizeof(LineLightManager) == 0x38);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LineLightManager*, "", "LineLightManager");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LineLightManager::Update
 // Il2CppName: Update
 template<>

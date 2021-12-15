@@ -3,22 +3,19 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.IEquatable`1
 #include "System/IEquatable_1.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: UnityEngine.ProBuilder
-namespace UnityEngine::ProBuilder {
-  // Forward declaring type: IntVec3
-  struct IntVec3;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::IntVec3, "UnityEngine.ProBuilder", "IntVec3");
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {
   // Size: 0xC
@@ -28,18 +25,12 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   struct IntVec3/*, public System::ValueType, public System::IEquatable_1<UnityEngine::ProBuilder::IntVec3>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public UnityEngine.Vector3 value
     // Size: 0xC
     // Offset: 0x0
     UnityEngine::Vector3 value;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    public:
     // Creating value type constructor for type: IntVec3
     constexpr IntVec3(UnityEngine::Vector3 value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -57,38 +48,39 @@ namespace UnityEngine::ProBuilder {
     // Get instance field reference: public UnityEngine.Vector3 value
     UnityEngine::Vector3& dyn_value();
     // public System.Single get_x()
-    // Offset: 0x1C5CC00
+    // Offset: 0x1CCC668
     float get_x();
     // public System.Single get_y()
-    // Offset: 0x1C5CC08
+    // Offset: 0x1CCC670
     float get_y();
     // public System.Single get_z()
-    // Offset: 0x1C5CC10
+    // Offset: 0x1CCC678
     float get_z();
     // public System.Void .ctor(UnityEngine.Vector3 vector)
-    // Offset: 0x1C5CC18
-    // ABORTED: conflicts with another method.  IntVec3(UnityEngine::Vector3 vector);
+    // Offset: 0x1CCC680
+    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    // ABORTED: conflicts with another method.  IntVec3(UnityEngine::Vector3 vector)
     // public System.Boolean Equals(UnityEngine.ProBuilder.IntVec3 p)
-    // Offset: 0x1C5CD1C
+    // Offset: 0x1CCC784
     bool Equals(UnityEngine::ProBuilder::IntVec3 p);
     // public System.Boolean Equals(UnityEngine.Vector3 p)
-    // Offset: 0x1C5CE68
+    // Offset: 0x1CCC8D0
     bool Equals(UnityEngine::Vector3 p);
     // static private System.Int32 round(System.Single v)
-    // Offset: 0x1C5CDF0
+    // Offset: 0x1CCC858
     static int round(float v);
     // public override System.String ToString()
-    // Offset: 0x1C5CC24
+    // Offset: 0x1CCC68C
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
     // public override System.Boolean Equals(System.Object b)
-    // Offset: 0x1C5CF00
+    // Offset: 0x1CCC968
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object b)
     bool Equals(::Il2CppObject* b);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1C5CFCC
+    // Offset: 0x1CCCA34
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
@@ -97,13 +89,14 @@ namespace UnityEngine::ProBuilder {
   static check_size<sizeof(IntVec3), 0 + sizeof(UnityEngine::Vector3)> __UnityEngine_ProBuilder_IntVec3SizeCheck;
   static_assert(sizeof(IntVec3) == 0xC);
   // static public System.Boolean op_Equality(UnityEngine.ProBuilder.IntVec3 a, UnityEngine.ProBuilder.IntVec3 b)
-  // Offset: 0x1C5CCE4
+  // Offset: 0x1CCC74C
   bool operator ==(const UnityEngine::ProBuilder::IntVec3& a, const UnityEngine::ProBuilder::IntVec3& b);
   // static public System.Boolean op_Inequality(UnityEngine.ProBuilder.IntVec3 a, UnityEngine.ProBuilder.IntVec3 b)
-  // Offset: 0x1C5CDB4
+  // Offset: 0x1CCC81C
   bool operator !=(const UnityEngine::ProBuilder::IntVec3& a, const UnityEngine::ProBuilder::IntVec3& b);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::IntVec3, "UnityEngine.ProBuilder", "IntVec3");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::IntVec3::get_x
 // Il2CppName: get_x
 template<>

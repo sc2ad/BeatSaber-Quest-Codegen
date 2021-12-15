@@ -3,22 +3,19 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.IEquatable`1
 #include "System/IEquatable_1.hpp"
 // Including type: UnityEngine.Vector4
 #include "UnityEngine/Vector4.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: UnityEngine.ProBuilder
-namespace UnityEngine::ProBuilder {
-  // Forward declaring type: IntVec4
-  struct IntVec4;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::IntVec4, "UnityEngine.ProBuilder", "IntVec4");
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {
   // Size: 0x10
@@ -28,18 +25,12 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   struct IntVec4/*, public System::ValueType, public System::IEquatable_1<UnityEngine::ProBuilder::IntVec4>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public UnityEngine.Vector4 value
     // Size: 0x10
     // Offset: 0x0
     UnityEngine::Vector4 value;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector4) == 0x10);
-    public:
     // Creating value type constructor for type: IntVec4
     constexpr IntVec4(UnityEngine::Vector4 value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -57,41 +48,42 @@ namespace UnityEngine::ProBuilder {
     // Get instance field reference: public UnityEngine.Vector4 value
     UnityEngine::Vector4& dyn_value();
     // public System.Single get_x()
-    // Offset: 0x1C5CFE4
+    // Offset: 0x1CCCA4C
     float get_x();
     // public System.Single get_y()
-    // Offset: 0x1C5CFEC
+    // Offset: 0x1CCCA54
     float get_y();
     // public System.Single get_z()
-    // Offset: 0x1C5CFF4
+    // Offset: 0x1CCCA5C
     float get_z();
     // public System.Single get_w()
-    // Offset: 0x1C5CFFC
+    // Offset: 0x1CCCA64
     float get_w();
     // public System.Void .ctor(UnityEngine.Vector4 vector)
-    // Offset: 0x1C5D004
-    // ABORTED: conflicts with another method.  IntVec4(UnityEngine::Vector4 vector);
+    // Offset: 0x1CCCA6C
+    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    // ABORTED: conflicts with another method.  IntVec4(UnityEngine::Vector4 vector)
     // public System.Boolean Equals(UnityEngine.ProBuilder.IntVec4 p)
-    // Offset: 0x1C5D1F0
+    // Offset: 0x1CCCC58
     bool Equals(UnityEngine::ProBuilder::IntVec4 p);
     // public System.Boolean Equals(UnityEngine.Vector4 p)
-    // Offset: 0x1C5D360
+    // Offset: 0x1CCCDC8
     bool Equals(UnityEngine::Vector4 p);
     // static private System.Int32 round(System.Single v)
-    // Offset: 0x1C5D2E8
+    // Offset: 0x1CCCD50
     static int round(float v);
     // public override System.String ToString()
-    // Offset: 0x1C5D010
+    // Offset: 0x1CCCA78
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
     // public override System.Boolean Equals(System.Object b)
-    // Offset: 0x1C5D418
+    // Offset: 0x1CCCE80
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object b)
     bool Equals(::Il2CppObject* b);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1C5D4E4
+    // Offset: 0x1CCCF4C
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
@@ -100,13 +92,14 @@ namespace UnityEngine::ProBuilder {
   static check_size<sizeof(IntVec4), 0 + sizeof(UnityEngine::Vector4)> __UnityEngine_ProBuilder_IntVec4SizeCheck;
   static_assert(sizeof(IntVec4) == 0x10);
   // static public System.Boolean op_Equality(UnityEngine.ProBuilder.IntVec4 a, UnityEngine.ProBuilder.IntVec4 b)
-  // Offset: 0x1C5D1B4
+  // Offset: 0x1CCCC1C
   bool operator ==(const UnityEngine::ProBuilder::IntVec4& a, const UnityEngine::ProBuilder::IntVec4& b);
   // static public System.Boolean op_Inequality(UnityEngine.ProBuilder.IntVec4 a, UnityEngine.ProBuilder.IntVec4 b)
-  // Offset: 0x1C5D2A8
+  // Offset: 0x1CCCD10
   bool operator !=(const UnityEngine::ProBuilder::IntVec4& a, const UnityEngine::ProBuilder::IntVec4& b);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::IntVec4, "UnityEngine.ProBuilder", "IntVec4");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::IntVec4::get_x
 // Il2CppName: get_x
 template<>

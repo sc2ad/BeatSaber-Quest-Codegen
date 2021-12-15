@@ -3,7 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
@@ -12,13 +12,6 @@
 namespace OVR::OpenVR {
 }
 // Completed forward declares
-// Type namespace: OVR.OpenVR
-namespace OVR::OpenVR {
-  // Forward declaring type: IVRCompositor
-  struct IVRCompositor;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRCompositor, "OVR.OpenVR", "IVRCompositor");
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
   // Size: 0x158
@@ -114,11 +107,6 @@ namespace OVR::OpenVR {
     class _SetExplicitTimingMode;
     // Nested type: OVR::OpenVR::IVRCompositor::_SubmitExplicitTimingData
     class _SubmitExplicitTimingData;
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // OVR.OpenVR.IVRCompositor/OVR.OpenVR._SetTrackingSpace SetTrackingSpace
     // Size: 0x8
     // Offset: 0x0
@@ -377,7 +365,6 @@ namespace OVR::OpenVR {
     OVR::OpenVR::IVRCompositor::_SubmitExplicitTimingData* SubmitExplicitTimingData;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::IVRCompositor::_SubmitExplicitTimingData*) == 0x8);
-    public:
     // Creating value type constructor for type: IVRCompositor
     constexpr IVRCompositor(OVR::OpenVR::IVRCompositor::_SetTrackingSpace* SetTrackingSpace_ = {}, OVR::OpenVR::IVRCompositor::_GetTrackingSpace* GetTrackingSpace_ = {}, OVR::OpenVR::IVRCompositor::_WaitGetPoses* WaitGetPoses_ = {}, OVR::OpenVR::IVRCompositor::_GetLastPoses* GetLastPoses_ = {}, OVR::OpenVR::IVRCompositor::_GetLastPoseForTrackedDeviceIndex* GetLastPoseForTrackedDeviceIndex_ = {}, OVR::OpenVR::IVRCompositor::_Submit* Submit_ = {}, OVR::OpenVR::IVRCompositor::_ClearLastSubmittedFrame* ClearLastSubmittedFrame_ = {}, OVR::OpenVR::IVRCompositor::_PostPresentHandoff* PostPresentHandoff_ = {}, OVR::OpenVR::IVRCompositor::_GetFrameTiming* GetFrameTiming_ = {}, OVR::OpenVR::IVRCompositor::_GetFrameTimings* GetFrameTimings_ = {}, OVR::OpenVR::IVRCompositor::_GetFrameTimeRemaining* GetFrameTimeRemaining_ = {}, OVR::OpenVR::IVRCompositor::_GetCumulativeStats* GetCumulativeStats_ = {}, OVR::OpenVR::IVRCompositor::_FadeToColor* FadeToColor_ = {}, OVR::OpenVR::IVRCompositor::_GetCurrentFadeColor* GetCurrentFadeColor_ = {}, OVR::OpenVR::IVRCompositor::_FadeGrid* FadeGrid_ = {}, OVR::OpenVR::IVRCompositor::_GetCurrentGridAlpha* GetCurrentGridAlpha_ = {}, OVR::OpenVR::IVRCompositor::_SetSkyboxOverride* SetSkyboxOverride_ = {}, OVR::OpenVR::IVRCompositor::_ClearSkyboxOverride* ClearSkyboxOverride_ = {}, OVR::OpenVR::IVRCompositor::_CompositorBringToFront* CompositorBringToFront_ = {}, OVR::OpenVR::IVRCompositor::_CompositorGoToBack* CompositorGoToBack_ = {}, OVR::OpenVR::IVRCompositor::_CompositorQuit* CompositorQuit_ = {}, OVR::OpenVR::IVRCompositor::_IsFullscreen* IsFullscreen_ = {}, OVR::OpenVR::IVRCompositor::_GetCurrentSceneFocusProcess* GetCurrentSceneFocusProcess_ = {}, OVR::OpenVR::IVRCompositor::_GetLastFrameRenderer* GetLastFrameRenderer_ = {}, OVR::OpenVR::IVRCompositor::_CanRenderScene* CanRenderScene_ = {}, OVR::OpenVR::IVRCompositor::_ShowMirrorWindow* ShowMirrorWindow_ = {}, OVR::OpenVR::IVRCompositor::_HideMirrorWindow* HideMirrorWindow_ = {}, OVR::OpenVR::IVRCompositor::_IsMirrorWindowVisible* IsMirrorWindowVisible_ = {}, OVR::OpenVR::IVRCompositor::_CompositorDumpImages* CompositorDumpImages_ = {}, OVR::OpenVR::IVRCompositor::_ShouldAppRenderWithLowResources* ShouldAppRenderWithLowResources_ = {}, OVR::OpenVR::IVRCompositor::_ForceInterleavedReprojectionOn* ForceInterleavedReprojectionOn_ = {}, OVR::OpenVR::IVRCompositor::_ForceReconnectProcess* ForceReconnectProcess_ = {}, OVR::OpenVR::IVRCompositor::_SuspendRendering* SuspendRendering_ = {}, OVR::OpenVR::IVRCompositor::_GetMirrorTextureD3D11* GetMirrorTextureD3D11_ = {}, OVR::OpenVR::IVRCompositor::_ReleaseMirrorTextureD3D11* ReleaseMirrorTextureD3D11_ = {}, OVR::OpenVR::IVRCompositor::_GetMirrorTextureGL* GetMirrorTextureGL_ = {}, OVR::OpenVR::IVRCompositor::_ReleaseSharedGLTexture* ReleaseSharedGLTexture_ = {}, OVR::OpenVR::IVRCompositor::_LockGLSharedTextureForAccess* LockGLSharedTextureForAccess_ = {}, OVR::OpenVR::IVRCompositor::_UnlockGLSharedTextureForAccess* UnlockGLSharedTextureForAccess_ = {}, OVR::OpenVR::IVRCompositor::_GetVulkanInstanceExtensionsRequired* GetVulkanInstanceExtensionsRequired_ = {}, OVR::OpenVR::IVRCompositor::_GetVulkanDeviceExtensionsRequired* GetVulkanDeviceExtensionsRequired_ = {}, OVR::OpenVR::IVRCompositor::_SetExplicitTimingMode* SetExplicitTimingMode_ = {}, OVR::OpenVR::IVRCompositor::_SubmitExplicitTimingData* SubmitExplicitTimingData_ = {}) noexcept : SetTrackingSpace{SetTrackingSpace_}, GetTrackingSpace{GetTrackingSpace_}, WaitGetPoses{WaitGetPoses_}, GetLastPoses{GetLastPoses_}, GetLastPoseForTrackedDeviceIndex{GetLastPoseForTrackedDeviceIndex_}, Submit{Submit_}, ClearLastSubmittedFrame{ClearLastSubmittedFrame_}, PostPresentHandoff{PostPresentHandoff_}, GetFrameTiming{GetFrameTiming_}, GetFrameTimings{GetFrameTimings_}, GetFrameTimeRemaining{GetFrameTimeRemaining_}, GetCumulativeStats{GetCumulativeStats_}, FadeToColor{FadeToColor_}, GetCurrentFadeColor{GetCurrentFadeColor_}, FadeGrid{FadeGrid_}, GetCurrentGridAlpha{GetCurrentGridAlpha_}, SetSkyboxOverride{SetSkyboxOverride_}, ClearSkyboxOverride{ClearSkyboxOverride_}, CompositorBringToFront{CompositorBringToFront_}, CompositorGoToBack{CompositorGoToBack_}, CompositorQuit{CompositorQuit_}, IsFullscreen{IsFullscreen_}, GetCurrentSceneFocusProcess{GetCurrentSceneFocusProcess_}, GetLastFrameRenderer{GetLastFrameRenderer_}, CanRenderScene{CanRenderScene_}, ShowMirrorWindow{ShowMirrorWindow_}, HideMirrorWindow{HideMirrorWindow_}, IsMirrorWindowVisible{IsMirrorWindowVisible_}, CompositorDumpImages{CompositorDumpImages_}, ShouldAppRenderWithLowResources{ShouldAppRenderWithLowResources_}, ForceInterleavedReprojectionOn{ForceInterleavedReprojectionOn_}, ForceReconnectProcess{ForceReconnectProcess_}, SuspendRendering{SuspendRendering_}, GetMirrorTextureD3D11{GetMirrorTextureD3D11_}, ReleaseMirrorTextureD3D11{ReleaseMirrorTextureD3D11_}, GetMirrorTextureGL{GetMirrorTextureGL_}, ReleaseSharedGLTexture{ReleaseSharedGLTexture_}, LockGLSharedTextureForAccess{LockGLSharedTextureForAccess_}, UnlockGLSharedTextureForAccess{UnlockGLSharedTextureForAccess_}, GetVulkanInstanceExtensionsRequired{GetVulkanInstanceExtensionsRequired_}, GetVulkanDeviceExtensionsRequired{GetVulkanDeviceExtensionsRequired_}, SetExplicitTimingMode{SetExplicitTimingMode_}, SubmitExplicitTimingData{SubmitExplicitTimingData_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -475,4 +462,6 @@ namespace OVR::OpenVR {
   static check_size<sizeof(IVRCompositor), 336 + sizeof(OVR::OpenVR::IVRCompositor::_SubmitExplicitTimingData*)> __OVR_OpenVR_IVRCompositorSizeCheck;
   static_assert(sizeof(IVRCompositor) == 0x158);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRCompositor, "OVR.OpenVR", "IVRCompositor");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

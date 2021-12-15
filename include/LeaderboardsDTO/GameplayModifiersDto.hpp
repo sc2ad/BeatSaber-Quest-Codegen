@@ -3,18 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: LeaderboardsDTO
-namespace LeaderboardsDTO {
-  // Forward declaring type: GameplayModifiersDto
-  struct GameplayModifiersDto;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(LeaderboardsDTO::GameplayModifiersDto, "LeaderboardsDTO", "GameplayModifiersDto");
 // Type namespace: LeaderboardsDTO
 namespace LeaderboardsDTO {
   // Size: 0x4
@@ -23,18 +16,12 @@ namespace LeaderboardsDTO {
   // [TokenAttribute] Offset: FFFFFFFF
   struct GameplayModifiersDto/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.UInt32 value__
     // Size: 0x4
     // Offset: 0x0
     uint value;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
-    public:
     // Creating value type constructor for type: GameplayModifiersDto
     constexpr GameplayModifiersDto(uint value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -142,4 +129,6 @@ namespace LeaderboardsDTO {
   static check_size<sizeof(GameplayModifiersDto), 0 + sizeof(uint)> __LeaderboardsDTO_GameplayModifiersDtoSizeCheck;
   static_assert(sizeof(GameplayModifiersDto) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(LeaderboardsDTO::GameplayModifiersDto, "LeaderboardsDTO", "GameplayModifiersDto");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

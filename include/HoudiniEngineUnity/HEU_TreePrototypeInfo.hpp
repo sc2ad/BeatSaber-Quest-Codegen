@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HoudiniEngineUnity.IEquivable`1
 #include "HoudiniEngineUnity/IEquivable_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: HoudiniEngineUnity
-namespace HoudiniEngineUnity {
-  // Forward declaring type: HEU_TreePrototypeInfo
-  class HEU_TreePrototypeInfo;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_TreePrototypeInfo);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_TreePrototypeInfo*, "HoudiniEngineUnity", "HEU_TreePrototypeInfo");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x1C
@@ -28,11 +20,6 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_TreePrototypeInfo : public ::Il2CppObject/*, public HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_TreePrototypeInfo*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.String _prefabPath
     // Size: 0x8
     // Offset: 0x10
@@ -45,7 +32,8 @@ namespace HoudiniEngineUnity {
     float bendfactor;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
+    // Creating value type constructor for type: HEU_TreePrototypeInfo
+    HEU_TreePrototypeInfo(::Il2CppString* prefabPath_ = {}, float bendfactor_ = {}) noexcept : prefabPath{prefabPath_}, bendfactor{bendfactor_} {}
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_TreePrototypeInfo*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_TreePrototypeInfo*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_TreePrototypeInfo*>*>(this);
@@ -55,10 +43,10 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Single _bendfactor
     float& dyn__bendfactor();
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_TreePrototypeInfo other)
-    // Offset: 0x16DFF24
+    // Offset: 0x1781DE0
     bool IsEquivalentTo(HoudiniEngineUnity::HEU_TreePrototypeInfo* other);
     // public System.Void .ctor()
-    // Offset: 0x16E0038
+    // Offset: 0x1781EF4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -71,7 +59,8 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_TreePrototypeInfo), 24 + sizeof(float)> __HoudiniEngineUnity_HEU_TreePrototypeInfoSizeCheck;
   static_assert(sizeof(HEU_TreePrototypeInfo) == 0x1C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_TreePrototypeInfo*, "HoudiniEngineUnity", "HEU_TreePrototypeInfo");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_TreePrototypeInfo::IsEquivalentTo
 // Il2CppName: IsEquivalentTo
 template<>

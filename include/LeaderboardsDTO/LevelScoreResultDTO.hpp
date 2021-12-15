@@ -3,24 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LeaderboardsDTO.GameplayModifiersDto
 #include "LeaderboardsDTO/GameplayModifiersDto.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: LeaderboardsDTO
-namespace LeaderboardsDTO {
-  // Forward declaring type: LevelScoreResultDTO
-  class LevelScoreResultDTO;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(LeaderboardsDTO::LevelScoreResultDTO);
-DEFINE_IL2CPP_ARG_TYPE(LeaderboardsDTO::LevelScoreResultDTO*, "LeaderboardsDTO", "LevelScoreResultDTO");
 // Type namespace: LeaderboardsDTO
 namespace LeaderboardsDTO {
   // Size: 0x68
@@ -29,11 +20,6 @@ namespace LeaderboardsDTO {
   // [TokenAttribute] Offset: FFFFFFFF
   class LevelScoreResultDTO : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.String guid
     // Size: 0x8
     // Offset: 0x10
@@ -101,9 +87,9 @@ namespace LeaderboardsDTO {
     // public LeaderboardsDTO.GameplayModifiersDto[] gameplayModifiers
     // Size: 0x8
     // Offset: 0x48
-    ::ArrayW<LeaderboardsDTO::GameplayModifiersDto> gameplayModifiers;
+    ::Array<LeaderboardsDTO::GameplayModifiersDto>* gameplayModifiers;
     // Field size check
-    static_assert(sizeof(::ArrayW<LeaderboardsDTO::GameplayModifiersDto>) == 0x8);
+    static_assert(sizeof(::Array<LeaderboardsDTO::GameplayModifiersDto>*) == 0x8);
     // public System.String leaderboardId
     // Size: 0x8
     // Offset: 0x50
@@ -122,7 +108,8 @@ namespace LeaderboardsDTO {
     ::Il2CppString* extraDataBase64;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: LevelScoreResultDTO
+    LevelScoreResultDTO(::Il2CppString* guid_ = {}, ::Il2CppString* guids_ = {}, ::Il2CppString* guidInstance_ = {}, int rawScore_ = {}, int modifiedScore_ = {}, bool fullCombo_ = {}, int goodCutsCount_ = {}, int badCutsCount_ = {}, int missedCount_ = {}, int maxCombo_ = {}, ::Array<LeaderboardsDTO::GameplayModifiersDto>* gameplayModifiers_ = {}, ::Il2CppString* leaderboardId_ = {}, ::Il2CppString* deviceModel_ = {}, ::Il2CppString* extraDataBase64_ = {}) noexcept : guid{guid_}, guids{guids_}, guidInstance{guidInstance_}, rawScore{rawScore_}, modifiedScore{modifiedScore_}, fullCombo{fullCombo_}, goodCutsCount{goodCutsCount_}, badCutsCount{badCutsCount_}, missedCount{missedCount_}, maxCombo{maxCombo_}, gameplayModifiers{gameplayModifiers_}, leaderboardId{leaderboardId_}, deviceModel{deviceModel_}, extraDataBase64{extraDataBase64_} {}
     // Get instance field reference: public System.String guid
     ::Il2CppString*& dyn_guid();
     // Get instance field reference: public System.String guids
@@ -144,7 +131,7 @@ namespace LeaderboardsDTO {
     // Get instance field reference: public System.Int32 maxCombo
     int& dyn_maxCombo();
     // Get instance field reference: public LeaderboardsDTO.GameplayModifiersDto[] gameplayModifiers
-    ::ArrayW<LeaderboardsDTO::GameplayModifiersDto>& dyn_gameplayModifiers();
+    ::Array<LeaderboardsDTO::GameplayModifiersDto>*& dyn_gameplayModifiers();
     // Get instance field reference: public System.String leaderboardId
     ::Il2CppString*& dyn_leaderboardId();
     // Get instance field reference: public System.String deviceModel
@@ -152,7 +139,7 @@ namespace LeaderboardsDTO {
     // Get instance field reference: public System.String extraDataBase64
     ::Il2CppString*& dyn_extraDataBase64();
     // public System.Void .ctor()
-    // Offset: 0x11DEF88
+    // Offset: 0x11A3AB8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -165,7 +152,8 @@ namespace LeaderboardsDTO {
   static check_size<sizeof(LevelScoreResultDTO), 96 + sizeof(::Il2CppString*)> __LeaderboardsDTO_LevelScoreResultDTOSizeCheck;
   static_assert(sizeof(LevelScoreResultDTO) == 0x68);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(LeaderboardsDTO::LevelScoreResultDTO*, "LeaderboardsDTO", "LevelScoreResultDTO");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LeaderboardsDTO::LevelScoreResultDTO::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -3,21 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Mono.Globalization.Unicode
-namespace Mono::Globalization::Unicode {
-  // Forward declaring type: TailoringInfo
-  class TailoringInfo;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Globalization::Unicode::TailoringInfo);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::TailoringInfo*, "Mono.Globalization.Unicode", "TailoringInfo");
 // Type namespace: Mono.Globalization.Unicode
 namespace Mono::Globalization::Unicode {
   // Size: 0x1D
@@ -26,11 +18,6 @@ namespace Mono::Globalization::Unicode {
   // [TokenAttribute] Offset: FFFFFFFF
   class TailoringInfo : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public readonly System.Int32 LCID
     // Size: 0x4
     // Offset: 0x10
@@ -55,7 +42,8 @@ namespace Mono::Globalization::Unicode {
     bool FrenchSort;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: TailoringInfo
+    TailoringInfo(int LCID_ = {}, int TailoringIndex_ = {}, int TailoringCount_ = {}, bool FrenchSort_ = {}) noexcept : LCID{LCID_}, TailoringIndex{TailoringIndex_}, TailoringCount{TailoringCount_}, FrenchSort{FrenchSort_} {}
     // Get instance field reference: public readonly System.Int32 LCID
     int& dyn_LCID();
     // Get instance field reference: public readonly System.Int32 TailoringIndex
@@ -65,7 +53,7 @@ namespace Mono::Globalization::Unicode {
     // Get instance field reference: public readonly System.Boolean FrenchSort
     bool& dyn_FrenchSort();
     // public System.Void .ctor(System.Int32 lcid, System.Int32 tailoringIndex, System.Int32 tailoringCount, System.Boolean frenchSort)
-    // Offset: 0x1C15EAC
+    // Offset: 0x1C6EFA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TailoringInfo* New_ctor(int lcid, int tailoringIndex, int tailoringCount, bool frenchSort) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Globalization::Unicode::TailoringInfo::.ctor");
@@ -76,7 +64,8 @@ namespace Mono::Globalization::Unicode {
   static check_size<sizeof(TailoringInfo), 28 + sizeof(bool)> __Mono_Globalization_Unicode_TailoringInfoSizeCheck;
   static_assert(sizeof(TailoringInfo) == 0x1D);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::TailoringInfo*, "Mono.Globalization.Unicode", "TailoringInfo");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::TailoringInfo::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

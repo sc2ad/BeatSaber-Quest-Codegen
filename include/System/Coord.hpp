@@ -4,17 +4,10 @@
 #pragma once
 // Begin includes
 #include <stdint.h>
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-// Type namespace: System
-namespace System {
-  // Forward declaring type: Coord
-  struct Coord;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Coord, "System", "Coord");
 // Type namespace: System
 namespace System {
   // Size: 0x4
@@ -24,11 +17,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Coord/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int16 X
     // Size: 0x2
     // Offset: 0x0
@@ -41,7 +29,6 @@ namespace System {
     int16_t Y;
     // Field size check
     static_assert(sizeof(int16_t) == 0x2);
-    public:
     // Creating value type constructor for type: Coord
     constexpr Coord(int16_t X_ = {}, int16_t Y_ = {}) noexcept : X{X_}, Y{Y_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -57,4 +44,6 @@ namespace System {
   static check_size<sizeof(Coord), 2 + sizeof(int16_t)> __System_CoordSizeCheck;
   static_assert(sizeof(Coord) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Coord, "System", "Coord");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

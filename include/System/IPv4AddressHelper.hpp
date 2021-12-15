@@ -3,17 +3,9 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: System
-namespace System {
-  // Forward declaring type: IPv4AddressHelper
-  class IPv4AddressHelper;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::IPv4AddressHelper);
-DEFINE_IL2CPP_ARG_TYPE(System::IPv4AddressHelper*, "System", "IPv4AddressHelper");
 // Type namespace: System
 namespace System {
   // Size: 0x10
@@ -22,31 +14,35 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class IPv4AddressHelper : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: IPv4AddressHelper
+    IPv4AddressHelper() noexcept {}
     // static System.String ParseCanonicalName(System.String str, System.Int32 start, System.Int32 end, ref System.Boolean isLoopback)
-    // Offset: 0x15511A4
+    // Offset: 0x15DE498
     static ::Il2CppString* ParseCanonicalName(::Il2CppString* str, int start, int end, ByRef<bool> isLoopback);
     // static System.Int32 ParseHostNumber(System.String str, System.Int32 start, System.Int32 end)
-    // Offset: 0x15514A4
+    // Offset: 0x15DE798
     static int ParseHostNumber(::Il2CppString* str, int start, int end);
     // static System.Boolean IsValid(System.Char* name, System.Int32 start, ref System.Int32 end, System.Boolean allowIPv6, System.Boolean notImplicitFile, System.Boolean unknownScheme)
-    // Offset: 0x1551594
+    // Offset: 0x15DE888
     static bool IsValid(::Il2CppChar* name, int start, ByRef<int> end, bool allowIPv6, bool notImplicitFile, bool unknownScheme);
     // static System.Boolean IsValidCanonical(System.Char* name, System.Int32 start, ref System.Int32 end, System.Boolean allowIPv6, System.Boolean notImplicitFile)
-    // Offset: 0x15515C8
+    // Offset: 0x15DE8BC
     static bool IsValidCanonical(::Il2CppChar* name, int start, ByRef<int> end, bool allowIPv6, bool notImplicitFile);
     // static System.Int64 ParseNonCanonical(System.Char* name, System.Int32 start, ref System.Int32 end, System.Boolean notImplicitFile)
-    // Offset: 0x1551708
+    // Offset: 0x15DE9FC
     static int64_t ParseNonCanonical(::Il2CppChar* name, int start, ByRef<int> end, bool notImplicitFile);
     // static private System.Boolean Parse(System.String name, System.Byte* numbers, System.Int32 start, System.Int32 end)
-    // Offset: 0x1551414
+    // Offset: 0x15DE708
     static bool Parse(::Il2CppString* name, uint8_t* numbers, int start, int end);
     // static private System.Boolean ParseCanonical(System.String name, System.Byte* numbers, System.Int32 start, System.Int32 end)
-    // Offset: 0x15514D8
+    // Offset: 0x15DE7CC
     static bool ParseCanonical(::Il2CppString* name, uint8_t* numbers, int start, int end);
   }; // System.IPv4AddressHelper
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::IPv4AddressHelper*, "System", "IPv4AddressHelper");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IPv4AddressHelper::ParseCanonicalName
 // Il2CppName: ParseCanonicalName
 template<>

@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MaterialPropertyBlockAnimator
 #include "GlobalNamespace/MaterialPropertyBlockAnimator.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: MaterialPropertyBlockFloatAnimator
-  class MaterialPropertyBlockFloatAnimator;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MaterialPropertyBlockFloatAnimator);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialPropertyBlockFloatAnimator*, "", "MaterialPropertyBlockFloatAnimator");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x34
@@ -31,23 +23,19 @@ namespace GlobalNamespace {
     public:
     // Writing base type padding for base size: 0x2D to desired offset: 0x30
     char ___base_padding[0x3] = {};
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
-    // [SpaceAttribute] Offset: 0xEE05A0
+    // [SpaceAttribute] Offset: 0xF239A8
     // private System.Single _value
     // Size: 0x4
     // Offset: 0x30
     float value;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
+    // Creating value type constructor for type: MaterialPropertyBlockFloatAnimator
+    MaterialPropertyBlockFloatAnimator(float value_ = {}) noexcept : value{value_} {}
     // Get instance field reference: private System.Single _value
     float& dyn__value();
     // public System.Void .ctor()
-    // Offset: 0x1E14254
+    // Offset: 0x1DB9C40
     // Implemented from: MaterialPropertyBlockAnimator
     // Base method: System.Void MaterialPropertyBlockAnimator::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -61,7 +49,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MaterialPropertyBlockFloatAnimator*, creationType>()));
     }
     // protected override System.Void SetProperty()
-    // Offset: 0x1E14218
+    // Offset: 0x1DB9C04
     // Implemented from: MaterialPropertyBlockAnimator
     // Base method: System.Void MaterialPropertyBlockAnimator::SetProperty()
     void SetProperty();
@@ -70,7 +58,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(MaterialPropertyBlockFloatAnimator), 48 + sizeof(float)> __GlobalNamespace_MaterialPropertyBlockFloatAnimatorSizeCheck;
   static_assert(sizeof(MaterialPropertyBlockFloatAnimator) == 0x34);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialPropertyBlockFloatAnimator*, "", "MaterialPropertyBlockFloatAnimator");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MaterialPropertyBlockFloatAnimator::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -3,17 +3,9 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: NUnit
-namespace NUnit {
-  // Forward declaring type: Env
-  class Env;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(NUnit::Env);
-DEFINE_IL2CPP_ARG_TYPE(NUnit::Env*, "NUnit", "Env");
 // Type namespace: NUnit
 namespace NUnit {
   // Size: 0x10
@@ -22,6 +14,8 @@ namespace NUnit {
   // [TokenAttribute] Offset: FFFFFFFF
   class Env : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: Env
+    Env() noexcept {}
     // Get static field: static public readonly System.String NewLine
     static ::Il2CppString* _get_NewLine();
     // Set static field: static public readonly System.String NewLine
@@ -35,12 +29,14 @@ namespace NUnit {
     // Set static field: static public readonly System.String DefaultWorkDirectory
     static void _set_DefaultWorkDirectory(::Il2CppString* value);
     // static private System.Void .cctor()
-    // Offset: 0x190D074
+    // Offset: 0x1932238
     static void _cctor();
   }; // NUnit.Env
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(NUnit::Env*, "NUnit", "Env");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Env::_cctor
 // Il2CppName: .cctor
 template<>

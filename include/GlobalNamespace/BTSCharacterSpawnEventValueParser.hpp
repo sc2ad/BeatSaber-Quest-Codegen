@@ -3,19 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Int32
 #include "System/Int32.hpp"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: BTSCharacterSpawnEventValueParser
-  class BTSCharacterSpawnEventValueParser;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BTSCharacterSpawnEventValueParser);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterSpawnEventValueParser*, "", "BTSCharacterSpawnEventValueParser");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -24,6 +16,8 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BTSCharacterSpawnEventValueParser : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: BTSCharacterSpawnEventValueParser
+    BTSCharacterSpawnEventValueParser() noexcept {}
     // static field const value: static private System.Int32 kPrefabMask
     static constexpr const int kPrefabMask = 255;
     // Get static field: static private System.Int32 kPrefabMask
@@ -61,21 +55,23 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kAlternativeMaterialOffset
     static void _set_kAlternativeMaterialOffset(int value);
     // static public System.Int32 GetPrefabId(System.Int32 value)
-    // Offset: 0x1236D10
+    // Offset: 0x12C0344
     static int GetPrefabId(int value);
     // static public System.Int32 GetAnimationId(System.Int32 value)
-    // Offset: 0x1236D18
+    // Offset: 0x12C034C
     static int GetAnimationId(int value);
     // static public System.Boolean GetIsAlternativeMaterial(System.Int32 value)
-    // Offset: 0x1236D20
+    // Offset: 0x12C0844
     static bool GetIsAlternativeMaterial(int value);
     // static public System.Int32 MergeValuesIntoOneInt(System.Int32 prefabId, System.Int32 animationId, System.Boolean isAlternativeMaterial)
-    // Offset: 0x1236D28
+    // Offset: 0x12C0934
     static int MergeValuesIntoOneInt(int prefabId, int animationId, bool isAlternativeMaterial);
   }; // BTSCharacterSpawnEventValueParser
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterSpawnEventValueParser*, "", "BTSCharacterSpawnEventValueParser");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacterSpawnEventValueParser::GetPrefabId
 // Il2CppName: GetPrefabId
 template<>

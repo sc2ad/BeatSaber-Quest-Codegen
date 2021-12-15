@@ -3,19 +3,16 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: UnityEngine.Color
 #include "UnityEngine/Color.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: TMPro
-namespace TMPro {
-  // Forward declaring type: VertexGradient
-  struct VertexGradient;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(TMPro::VertexGradient, "TMPro", "VertexGradient");
 // Type namespace: TMPro
 namespace TMPro {
   // Size: 0x40
@@ -25,11 +22,6 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VertexGradient/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public UnityEngine.Color topLeft
     // Size: 0x10
     // Offset: 0x0
@@ -54,7 +46,6 @@ namespace TMPro {
     UnityEngine::Color bottomRight;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
-    public:
     // Creating value type constructor for type: VertexGradient
     constexpr VertexGradient(UnityEngine::Color topLeft_ = {}, UnityEngine::Color topRight_ = {}, UnityEngine::Color bottomLeft_ = {}, UnityEngine::Color bottomRight_ = {}) noexcept : topLeft{topLeft_}, topRight{topRight_}, bottomLeft{bottomLeft_}, bottomRight{bottomRight_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -70,17 +61,24 @@ namespace TMPro {
     // Get instance field reference: public UnityEngine.Color bottomRight
     UnityEngine::Color& dyn_bottomRight();
     // public System.Void .ctor(UnityEngine.Color color)
-    // Offset: 0x1E0829C
-    VertexGradient(UnityEngine::Color color);
+    // Offset: 0x1E2AB64
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    VertexGradient(UnityEngine::Color color) {
+      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::VertexGradient::.ctor");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(color)})));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, color);
+    }
     // public System.Void .ctor(UnityEngine.Color color0, UnityEngine.Color color1, UnityEngine.Color color2, UnityEngine.Color color3)
-    // Offset: 0x1E082C0
-    // ABORTED: conflicts with another method.  VertexGradient(UnityEngine::Color color0, UnityEngine::Color color1, UnityEngine::Color color2, UnityEngine::Color color3);
+    // Offset: 0x1E2AB88
+    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    // ABORTED: conflicts with another method.  VertexGradient(UnityEngine::Color color0, UnityEngine::Color color1, UnityEngine::Color color2, UnityEngine::Color color3)
   }; // TMPro.VertexGradient
   #pragma pack(pop)
   static check_size<sizeof(VertexGradient), 48 + sizeof(UnityEngine::Color)> __TMPro_VertexGradientSizeCheck;
   static_assert(sizeof(VertexGradient) == 0x40);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::VertexGradient, "TMPro", "VertexGradient");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::VertexGradient::VertexGradient
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

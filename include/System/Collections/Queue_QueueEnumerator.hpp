@@ -3,27 +3,19 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Collections.Queue
 #include "System/Collections/Queue.hpp"
 // Including type: System.ICloneable
 #include "System/ICloneable.hpp"
 // Including type: System.Collections.IEnumerator
 #include "System/Collections/IEnumerator.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Collections
-namespace System::Collections {
-  // Forward declaring type: QueueEnumerator
-  class QueueEnumerator;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Collections::Queue::QueueEnumerator);
-DEFINE_IL2CPP_ARG_TYPE(System::Collections::Queue::QueueEnumerator*, "System.Collections", "Queue/QueueEnumerator");
 // Type namespace: System.Collections
 namespace System::Collections {
   // Size: 0x28
@@ -32,11 +24,6 @@ namespace System::Collections {
   // [TokenAttribute] Offset: FFFFFFFF
   class Queue::QueueEnumerator : public ::Il2CppObject/*, public System::ICloneable, public System::Collections::IEnumerator*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Collections.Queue _q
     // Size: 0x8
     // Offset: 0x10
@@ -61,7 +48,8 @@ namespace System::Collections {
     ::Il2CppObject* currentElement;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    public:
+    // Creating value type constructor for type: QueueEnumerator
+    QueueEnumerator(System::Collections::Queue* q_ = {}, int index_ = {}, int version_ = {}, ::Il2CppObject* currentElement_ = {}) noexcept : q{q_}, index{index_}, version{version_}, currentElement{currentElement_} {}
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);
@@ -79,30 +67,31 @@ namespace System::Collections {
     // Get instance field reference: private System.Object currentElement
     ::Il2CppObject*& dyn_currentElement();
     // public System.Object get_Current()
-    // Offset: 0x1AF6F30
+    // Offset: 0x1B8D290
     ::Il2CppObject* get_Current();
     // System.Void .ctor(System.Collections.Queue q)
-    // Offset: 0x1AF6AE4
+    // Offset: 0x1B8CE44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Queue::QueueEnumerator* New_ctor(System::Collections::Queue* q) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Queue::QueueEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Queue::QueueEnumerator*, creationType>(q)));
     }
     // public System.Object Clone()
-    // Offset: 0x1AF6E2C
+    // Offset: 0x1B8D18C
     ::Il2CppObject* Clone();
     // public System.Boolean MoveNext()
-    // Offset: 0x1AF6E34
+    // Offset: 0x1B8D194
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1AF6FF0
+    // Offset: 0x1B8D350
     void Reset();
   }; // System.Collections.Queue/System.Collections.QueueEnumerator
   #pragma pack(pop)
   static check_size<sizeof(Queue::QueueEnumerator), 32 + sizeof(::Il2CppObject*)> __System_Collections_Queue_QueueEnumeratorSizeCheck;
   static_assert(sizeof(Queue::QueueEnumerator) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Collections::Queue::QueueEnumerator*, "System.Collections", "Queue/QueueEnumerator");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::Queue::QueueEnumerator::get_Current
 // Il2CppName: get_Current
 template<>

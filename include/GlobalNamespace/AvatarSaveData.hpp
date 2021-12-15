@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Color
 #include "UnityEngine/Color.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: AvatarSaveData
-  class AvatarSaveData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::AvatarSaveData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarSaveData*, "", "AvatarSaveData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0xD0
@@ -28,11 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AvatarSaveData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.String headTopId
     // Size: 0x8
     // Offset: 0x10
@@ -129,7 +116,8 @@ namespace GlobalNamespace {
     UnityEngine::Color clothesDetailColor;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
-    public:
+    // Creating value type constructor for type: AvatarSaveData
+    AvatarSaveData(::Il2CppString* headTopId_ = {}, ::Il2CppString* glassesId_ = {}, ::Il2CppString* facialHairId_ = {}, ::Il2CppString* handsId_ = {}, ::Il2CppString* clothesId_ = {}, ::Il2CppString* skinColorId_ = {}, ::Il2CppString* mouthId_ = {}, ::Il2CppString* eyesId_ = {}, UnityEngine::Color headTopPrimaryColor_ = {}, UnityEngine::Color headTopSecondaryColor_ = {}, UnityEngine::Color glassesColor_ = {}, UnityEngine::Color facialHairColor_ = {}, UnityEngine::Color handsColor_ = {}, UnityEngine::Color clothesPrimaryColor_ = {}, UnityEngine::Color clothesSecondaryColor_ = {}, UnityEngine::Color clothesDetailColor_ = {}) noexcept : headTopId{headTopId_}, glassesId{glassesId_}, facialHairId{facialHairId_}, handsId{handsId_}, clothesId{clothesId_}, skinColorId{skinColorId_}, mouthId{mouthId_}, eyesId{eyesId_}, headTopPrimaryColor{headTopPrimaryColor_}, headTopSecondaryColor{headTopSecondaryColor_}, glassesColor{glassesColor_}, facialHairColor{facialHairColor_}, handsColor{handsColor_}, clothesPrimaryColor{clothesPrimaryColor_}, clothesSecondaryColor{clothesSecondaryColor_}, clothesDetailColor{clothesDetailColor_} {}
     // Get instance field reference: public System.String headTopId
     ::Il2CppString*& dyn_headTopId();
     // Get instance field reference: public System.String glassesId
@@ -163,7 +151,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.Color clothesDetailColor
     UnityEngine::Color& dyn_clothesDetailColor();
     // public System.Void .ctor()
-    // Offset: 0x261EE6C
+    // Offset: 0x1317850
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -176,7 +164,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(AvatarSaveData), 192 + sizeof(UnityEngine::Color)> __GlobalNamespace_AvatarSaveDataSizeCheck;
   static_assert(sizeof(AvatarSaveData) == 0xD0);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarSaveData*, "", "AvatarSaveData");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AvatarSaveData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

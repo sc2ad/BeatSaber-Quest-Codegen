@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Security.Policy.Evidence
 #include "System/Security/Policy/Evidence.hpp"
 // Including type: System.Collections.IEnumerator
 #include "System/Collections/IEnumerator.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Security.Policy
-namespace System::Security::Policy {
-  // Forward declaring type: EvidenceEnumerator
-  class EvidenceEnumerator;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Security::Policy::Evidence::EvidenceEnumerator);
-DEFINE_IL2CPP_ARG_TYPE(System::Security::Policy::Evidence::EvidenceEnumerator*, "System.Security.Policy", "Evidence/EvidenceEnumerator");
 // Type namespace: System.Security.Policy
 namespace System::Security::Policy {
   // Size: 0x28
@@ -30,11 +22,6 @@ namespace System::Security::Policy {
   // [TokenAttribute] Offset: FFFFFFFF
   class Evidence::EvidenceEnumerator : public ::Il2CppObject/*, public System::Collections::IEnumerator*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Collections.IEnumerator currentEnum
     // Size: 0x8
     // Offset: 0x10
@@ -53,7 +40,8 @@ namespace System::Security::Policy {
     System::Collections::IEnumerator* assemblyEnum;
     // Field size check
     static_assert(sizeof(System::Collections::IEnumerator*) == 0x8);
-    public:
+    // Creating value type constructor for type: EvidenceEnumerator
+    EvidenceEnumerator(System::Collections::IEnumerator* currentEnum_ = {}, System::Collections::IEnumerator* hostEnum_ = {}, System::Collections::IEnumerator* assemblyEnum_ = {}) noexcept : currentEnum{currentEnum_}, hostEnum{hostEnum_}, assemblyEnum{assemblyEnum_} {}
     // Creating interface conversion operator: operator System::Collections::IEnumerator
     operator System::Collections::IEnumerator() noexcept {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);
@@ -65,27 +53,28 @@ namespace System::Security::Policy {
     // Get instance field reference: private System.Collections.IEnumerator assemblyEnum
     System::Collections::IEnumerator*& dyn_assemblyEnum();
     // public System.Object get_Current()
-    // Offset: 0x1CB400C
+    // Offset: 0x1D23A74
     ::Il2CppObject* get_Current();
     // public System.Void .ctor(System.Collections.IEnumerator hostenum, System.Collections.IEnumerator assemblyenum)
-    // Offset: 0x1CB3D44
+    // Offset: 0x1D237AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Evidence::EvidenceEnumerator* New_ctor(System::Collections::IEnumerator* hostenum, System::Collections::IEnumerator* assemblyenum) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Policy::Evidence::EvidenceEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Evidence::EvidenceEnumerator*, creationType>(hostenum, assemblyenum)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x1CB3D80
+    // Offset: 0x1D237E8
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1CB3ECC
+    // Offset: 0x1D23934
     void Reset();
   }; // System.Security.Policy.Evidence/System.Security.Policy.EvidenceEnumerator
   #pragma pack(pop)
   static check_size<sizeof(Evidence::EvidenceEnumerator), 32 + sizeof(System::Collections::IEnumerator*)> __System_Security_Policy_Evidence_EvidenceEnumeratorSizeCheck;
   static_assert(sizeof(Evidence::EvidenceEnumerator) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Policy::Evidence::EvidenceEnumerator*, "System.Security.Policy", "Evidence/EvidenceEnumerator");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Policy::Evidence::EvidenceEnumerator::get_Current
 // Il2CppName: get_Current
 template<>

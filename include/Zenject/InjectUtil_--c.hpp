@@ -3,16 +3,16 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.InjectUtil
 #include "Zenject/InjectUtil.hpp"
 // Including type: Zenject.TypeValuePair
 #include "Zenject/TypeValuePair.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -21,15 +21,12 @@ namespace System {
   template<typename T, typename TResult>
   class Func_2;
 }
-// Completed forward declares
-// Type namespace: Zenject
+// Forward declaring namespace: Zenject
 namespace Zenject {
-  // Forward declaring type: <>c
-  class $$c;
+  // Forward declaring type: InjectTypeInfo
+  class InjectTypeInfo;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::InjectUtil::$$c);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::InjectUtil::$$c*, "Zenject", "InjectUtil/<>c");
+// Completed forward declares
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x10
@@ -39,6 +36,8 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class InjectUtil::$$c : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: $$c
+    $$c() noexcept {}
     // Get static field: static public readonly Zenject.InjectUtil/Zenject.<>c <>9
     static Zenject::InjectUtil::$$c* _get_$$9();
     // Set static field: static public readonly Zenject.InjectUtil/Zenject.<>c <>9
@@ -48,13 +47,19 @@ namespace Zenject {
     // Set static field: static public System.Func`2<System.Object,Zenject.TypeValuePair> <>9__0_0
     static void _set_$$9__0_0(System::Func_2<::Il2CppObject*, Zenject::TypeValuePair>* value);
     // static private System.Void .cctor()
-    // Offset: 0x181A650
+    // Offset: 0x18D23E0
     static void _cctor();
     // Zenject.TypeValuePair <CreateArgList>b__0_0(System.Object x)
-    // Offset: 0x181A6BC
+    // Offset: 0x18D244C
     Zenject::TypeValuePair $CreateArgList$b__0_0(::Il2CppObject* x);
+    // static private System.Object __zenCreate(System.Object[] P_0)
+    // Offset: 0x18D24A0
+    static ::Il2CppObject* __zenCreate(::Array<::Il2CppObject*>* P_0);
+    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
+    // Offset: 0x18D24FC
+    static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
-    // Offset: 0x181A6B4
+    // Offset: 0x18D2444
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -65,7 +70,8 @@ namespace Zenject {
   }; // Zenject.InjectUtil/Zenject.<>c
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Zenject::InjectUtil::$$c*, "Zenject", "InjectUtil/<>c");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::InjectUtil::$$c::_cctor
 // Il2CppName: .cctor
 template<>
@@ -81,6 +87,23 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Ty
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::InjectUtil::$$c*), "<CreateArgList>b__0_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
+  }
+};
+// Writing MetadataGetter for method: Zenject::InjectUtil::$$c::__zenCreate
+// Il2CppName: __zenCreate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Array<::Il2CppObject*>*)>(&Zenject::InjectUtil::$$c::__zenCreate)> {
+  static const MethodInfo* get() {
+    static auto* P_0 = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::InjectUtil::$$c*), "__zenCreate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{P_0});
+  }
+};
+// Writing MetadataGetter for method: Zenject::InjectUtil::$$c::__zenCreateInjectTypeInfo
+// Il2CppName: __zenCreateInjectTypeInfo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo* (*)()>(&Zenject::InjectUtil::$$c::__zenCreateInjectTypeInfo)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::InjectUtil::$$c*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: Zenject::InjectUtil::$$c::New_ctor

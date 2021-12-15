@@ -3,16 +3,14 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
-// Including type: System.Enum
-#include "System/Enum.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -21,14 +19,6 @@ namespace UnityEngine {
   class Texture;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: SteamVR_Skybox
-  class SteamVR_Skybox;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::SteamVR_Skybox);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Skybox*, "", "SteamVR_Skybox");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x50
@@ -45,18 +35,12 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct CellSize/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: CellSize
       constexpr CellSize(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -103,11 +87,6 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(SteamVR_Skybox::CellSize), 0 + sizeof(int)> __GlobalNamespace_SteamVR_Skybox_CellSizeSizeCheck;
     static_assert(sizeof(SteamVR_Skybox::CellSize) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public UnityEngine.Texture front
     // Size: 0x8
     // Offset: 0x18
@@ -156,7 +135,8 @@ namespace GlobalNamespace {
     float StereoIpdMm;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
+    // Creating value type constructor for type: SteamVR_Skybox
+    SteamVR_Skybox(UnityEngine::Texture* front_ = {}, UnityEngine::Texture* back_ = {}, UnityEngine::Texture* left_ = {}, UnityEngine::Texture* right_ = {}, UnityEngine::Texture* top_ = {}, UnityEngine::Texture* bottom_ = {}, GlobalNamespace::SteamVR_Skybox::CellSize StereoCellSize_ = {}, float StereoIpdMm_ = {}) noexcept : front{front_}, back{back_}, left{left_}, right{right_}, top{top_}, bottom{bottom_}, StereoCellSize{StereoCellSize_}, StereoIpdMm{StereoIpdMm_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public UnityEngine.Texture front
@@ -176,25 +156,25 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single StereoIpdMm
     float& dyn_StereoIpdMm();
     // public System.Void SetTextureByIndex(System.Int32 i, UnityEngine.Texture t)
-    // Offset: 0x1530830
+    // Offset: 0x15C9C1C
     void SetTextureByIndex(int i, UnityEngine::Texture* t);
     // public UnityEngine.Texture GetTextureByIndex(System.Int32 i)
-    // Offset: 0x1530884
+    // Offset: 0x15C9C70
     UnityEngine::Texture* GetTextureByIndex(int i);
     // static public System.Void SetOverride(UnityEngine.Texture front, UnityEngine.Texture back, UnityEngine.Texture left, UnityEngine.Texture right, UnityEngine.Texture top, UnityEngine.Texture bottom)
-    // Offset: 0x15272D0
+    // Offset: 0x15C06BC
     static void SetOverride(UnityEngine::Texture* front, UnityEngine::Texture* back, UnityEngine::Texture* left, UnityEngine::Texture* right, UnityEngine::Texture* top, UnityEngine::Texture* bottom);
     // static public System.Void ClearOverride()
-    // Offset: 0x15276FC
+    // Offset: 0x15C0AE8
     static void ClearOverride();
     // private System.Void OnEnable()
-    // Offset: 0x15308E0
+    // Offset: 0x15C9CCC
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0x15308F4
+    // Offset: 0x15C9CE0
     void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0x15308F8
+    // Offset: 0x15C9CE4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -211,9 +191,9 @@ namespace GlobalNamespace {
   static check_size<sizeof(SteamVR_Skybox), 76 + sizeof(float)> __GlobalNamespace_SteamVR_SkyboxSizeCheck;
   static_assert(sizeof(SteamVR_Skybox) == 0x50);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Skybox*, "", "SteamVR_Skybox");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Skybox::CellSize, "", "SteamVR_Skybox/CellSize");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Skybox::SetTextureByIndex
 // Il2CppName: SetTextureByIndex
 template<>

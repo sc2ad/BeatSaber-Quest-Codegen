@@ -3,20 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRDisplay
 #include "GlobalNamespace/OVRDisplay.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: LatencyData
-  struct LatencyData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRDisplay::LatencyData, "", "OVRDisplay/LatencyData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x14
@@ -26,11 +19,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct OVRDisplay::LatencyData/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Single render
     // Size: 0x4
     // Offset: 0x0
@@ -61,7 +49,6 @@ namespace GlobalNamespace {
     float timeWarpError;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
     // Creating value type constructor for type: LatencyData
     constexpr LatencyData(float render_ = {}, float timeWarp_ = {}, float postPresent_ = {}, float renderError_ = {}, float timeWarpError_ = {}) noexcept : render{render_}, timeWarp{timeWarp_}, postPresent{postPresent_}, renderError{renderError_}, timeWarpError{timeWarpError_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -83,4 +70,6 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRDisplay::LatencyData), 16 + sizeof(float)> __GlobalNamespace_OVRDisplay_LatencyDataSizeCheck;
   static_assert(sizeof(OVRDisplay::LatencyData) == 0x14);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRDisplay::LatencyData, "", "OVRDisplay/LatencyData");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -3,21 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Runtime.Remoting.Channels
-namespace System::Runtime::Remoting::Channels {
-  // Forward declaring type: CrossAppDomainData
-  class CrossAppDomainData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Remoting::Channels::CrossAppDomainData);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Channels::CrossAppDomainData*, "System.Runtime.Remoting.Channels", "CrossAppDomainData");
 // Type namespace: System.Runtime.Remoting.Channels
 namespace System::Runtime::Remoting::Channels {
   // Size: 0x28
@@ -26,11 +18,6 @@ namespace System::Runtime::Remoting::Channels {
   // [TokenAttribute] Offset: FFFFFFFF
   class CrossAppDomainData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Object _ContextID
     // Size: 0x8
     // Offset: 0x10
@@ -51,7 +38,8 @@ namespace System::Runtime::Remoting::Channels {
     ::Il2CppString* processGuid;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: CrossAppDomainData
+    CrossAppDomainData(::Il2CppObject* ContextID_ = {}, int DomainID_ = {}, ::Il2CppString* processGuid_ = {}) noexcept : ContextID{ContextID_}, DomainID{DomainID_}, processGuid{processGuid_} {}
     // Get instance field reference: private System.Object _ContextID
     ::Il2CppObject*& dyn__ContextID();
     // Get instance field reference: private System.Int32 _DomainID
@@ -59,13 +47,13 @@ namespace System::Runtime::Remoting::Channels {
     // Get instance field reference: private System.String _processGuid
     ::Il2CppString*& dyn__processGuid();
     // System.Int32 get_DomainID()
-    // Offset: 0x159D2F4
+    // Offset: 0x162B5E8
     int get_DomainID();
     // System.String get_ProcessID()
-    // Offset: 0x159D2FC
+    // Offset: 0x162B5F0
     ::Il2CppString* get_ProcessID();
     // System.Void .ctor(System.Int32 domainId)
-    // Offset: 0x159CDF8
+    // Offset: 0x162B0EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CrossAppDomainData* New_ctor(int domainId) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Channels::CrossAppDomainData::.ctor");
@@ -76,7 +64,8 @@ namespace System::Runtime::Remoting::Channels {
   static check_size<sizeof(CrossAppDomainData), 32 + sizeof(::Il2CppString*)> __System_Runtime_Remoting_Channels_CrossAppDomainDataSizeCheck;
   static_assert(sizeof(CrossAppDomainData) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Channels::CrossAppDomainData*, "System.Runtime.Remoting.Channels", "CrossAppDomainData");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Channels::CrossAppDomainData::get_DomainID
 // Il2CppName: get_DomainID
 template<>

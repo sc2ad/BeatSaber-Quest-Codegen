@@ -3,21 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: HoudiniEngineUnity
-namespace HoudiniEngineUnity {
-  // Forward declaring type: HEU_InputInterfaceTilemapSettings
-  class HEU_InputInterfaceTilemapSettings;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings*, "HoudiniEngineUnity", "HEU_InputInterfaceTilemapSettings");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x14
@@ -26,11 +18,6 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_InputInterfaceTilemapSettings : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Boolean _createGroupsForTiles
     // Size: 0x1
     // Offset: 0x10
@@ -55,7 +42,8 @@ namespace HoudiniEngineUnity {
     bool applyTilemapOrientation;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: HEU_InputInterfaceTilemapSettings
+    HEU_InputInterfaceTilemapSettings(bool createGroupsForTiles_ = {}, bool exportUnusedTiles_ = {}, bool applyTileColor_ = {}, bool applyTilemapOrientation_ = {}) noexcept : createGroupsForTiles{createGroupsForTiles_}, exportUnusedTiles{exportUnusedTiles_}, applyTileColor{applyTileColor_}, applyTilemapOrientation{applyTilemapOrientation_} {}
     // Get instance field reference: public System.Boolean _createGroupsForTiles
     bool& dyn__createGroupsForTiles();
     // Get instance field reference: public System.Boolean _exportUnusedTiles
@@ -65,7 +53,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Boolean _applyTilemapOrientation
     bool& dyn__applyTilemapOrientation();
     // public System.Void .ctor()
-    // Offset: 0x150A35C
+    // Offset: 0x15901D4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -78,7 +66,8 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_InputInterfaceTilemapSettings), 19 + sizeof(bool)> __HoudiniEngineUnity_HEU_InputInterfaceTilemapSettingsSizeCheck;
   static_assert(sizeof(HEU_InputInterfaceTilemapSettings) == 0x14);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings*, "HoudiniEngineUnity", "HEU_InputInterfaceTilemapSettings");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

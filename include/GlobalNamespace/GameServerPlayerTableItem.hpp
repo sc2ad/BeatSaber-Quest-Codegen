@@ -3,21 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: GameServerPlayerTableItem
-  class GameServerPlayerTableItem;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::GameServerPlayerTableItem);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServerPlayerTableItem*, "", "GameServerPlayerTableItem");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x29
@@ -26,11 +18,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GameServerPlayerTableItem : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public readonly System.String playerName
     // Size: 0x8
     // Offset: 0x10
@@ -55,7 +42,8 @@ namespace GlobalNamespace {
     bool isReady;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: GameServerPlayerTableItem
+    GameServerPlayerTableItem(::Il2CppString* playerName_ = {}, ::Il2CppString* suggestedLevel_ = {}, ::Il2CppString* suggestedModifiers_ = {}, bool isReady_ = {}) noexcept : playerName{playerName_}, suggestedLevel{suggestedLevel_}, suggestedModifiers{suggestedModifiers_}, isReady{isReady_} {}
     // Get instance field reference: public readonly System.String playerName
     ::Il2CppString*& dyn_playerName();
     // Get instance field reference: public readonly System.String suggestedLevel
@@ -65,7 +53,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Boolean isReady
     bool& dyn_isReady();
     // public System.Void .ctor(System.String playerName, System.String suggestedLevel, System.String suggestedModifiers, System.Boolean isReady)
-    // Offset: 0x11B2BE4
+    // Offset: 0x11F6D94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameServerPlayerTableItem* New_ctor(::Il2CppString* playerName, ::Il2CppString* suggestedLevel, ::Il2CppString* suggestedModifiers, bool isReady) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::GameServerPlayerTableItem::.ctor");
@@ -76,7 +64,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(GameServerPlayerTableItem), 40 + sizeof(bool)> __GlobalNamespace_GameServerPlayerTableItemSizeCheck;
   static_assert(sizeof(GameServerPlayerTableItem) == 0x29);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServerPlayerTableItem*, "", "GameServerPlayerTableItem");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameServerPlayerTableItem::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

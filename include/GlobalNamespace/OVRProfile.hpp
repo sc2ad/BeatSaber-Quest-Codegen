@@ -3,28 +3,20 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Object
 #include "UnityEngine/Object.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: OVRProfile
-  class OVRProfile;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRProfile);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRProfile*, "", "OVRProfile");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x18
@@ -35,32 +27,34 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::OVRProfile::State
     struct State;
+    // Creating value type constructor for type: OVRProfile
+    OVRProfile() noexcept {}
     // public System.String get_id()
-    // Offset: 0x17ED808
+    // Offset: 0x187C11C
     ::Il2CppString* get_id();
     // public System.String get_userName()
-    // Offset: 0x17ED850
+    // Offset: 0x187C164
     ::Il2CppString* get_userName();
     // public System.String get_locale()
-    // Offset: 0x17ED898
+    // Offset: 0x187C1AC
     ::Il2CppString* get_locale();
     // public System.Single get_ipd()
-    // Offset: 0x17ED8E0
+    // Offset: 0x187C1F4
     float get_ipd();
     // public System.Single get_eyeHeight()
-    // Offset: 0x17EDA14
+    // Offset: 0x187C328
     float get_eyeHeight();
     // public System.Single get_eyeDepth()
-    // Offset: 0x17EDA74
+    // Offset: 0x187C388
     float get_eyeDepth();
     // public System.Single get_neckHeight()
-    // Offset: 0x17EDAD4
+    // Offset: 0x187C3E8
     float get_neckHeight();
     // public OVRProfile/State get_state()
-    // Offset: 0x17EDAF4
+    // Offset: 0x187C408
     GlobalNamespace::OVRProfile::State get_state();
     // public System.Void .ctor()
-    // Offset: 0x17EDAFC
+    // Offset: 0x187C410
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -72,7 +66,8 @@ namespace GlobalNamespace {
   }; // OVRProfile
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRProfile*, "", "OVRProfile");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRProfile::get_id
 // Il2CppName: get_id
 template<>

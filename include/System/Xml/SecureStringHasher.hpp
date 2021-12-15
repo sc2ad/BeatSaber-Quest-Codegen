@@ -3,28 +3,20 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Collections.Generic.IEqualityComparer`1
 #include "System/Collections/Generic/IEqualityComparer_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Xml
 namespace System::Xml {
 }
 // Completed forward declares
-// Type namespace: System.Xml
-namespace System::Xml {
-  // Forward declaring type: SecureStringHasher
-  class SecureStringHasher;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::SecureStringHasher);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::SecureStringHasher*, "System.Xml", "SecureStringHasher");
 // Type namespace: System.Xml
 namespace System::Xml {
   // Size: 0x14
@@ -35,18 +27,14 @@ namespace System::Xml {
     public:
     // Nested type: System::Xml::SecureStringHasher::HashCodeOfStringDelegate
     class HashCodeOfStringDelegate;
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Int32 hashCodeRandomizer
     // Size: 0x4
     // Offset: 0x10
     int hashCodeRandomizer;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
+    // Creating value type constructor for type: SecureStringHasher
+    SecureStringHasher(int hashCodeRandomizer_ = {}) noexcept : hashCodeRandomizer{hashCodeRandomizer_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEqualityComparer_1<::Il2CppString*>
     operator System::Collections::Generic::IEqualityComparer_1<::Il2CppString*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEqualityComparer_1<::Il2CppString*>*>(this);
@@ -62,19 +50,19 @@ namespace System::Xml {
     // Get instance field reference: private System.Int32 hashCodeRandomizer
     int& dyn_hashCodeRandomizer();
     // public System.Boolean Equals(System.String x, System.String y)
-    // Offset: 0x1AE1C9C
+    // Offset: 0x1B61778
     bool Equals(::Il2CppString* x, ::Il2CppString* y);
     // public System.Int32 GetHashCode(System.String key)
-    // Offset: 0x1AE1CB4
+    // Offset: 0x1B61790
     int GetHashCode(::Il2CppString* key);
     // static private System.Int32 GetHashCodeOfString(System.String key, System.Int32 sLen, System.Int64 additionalEntropy)
-    // Offset: 0x1AE22B4
+    // Offset: 0x1B61D90
     static int GetHashCodeOfString(::Il2CppString* key, int sLen, int64_t additionalEntropy);
     // static private System.Xml.SecureStringHasher/System.Xml.HashCodeOfStringDelegate GetHashCodeDelegate()
-    // Offset: 0x1AE1D4C
+    // Offset: 0x1B61828
     static System::Xml::SecureStringHasher::HashCodeOfStringDelegate* GetHashCodeDelegate();
     // public System.Void .ctor()
-    // Offset: 0x1AE1C6C
+    // Offset: 0x1B61748
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -87,7 +75,8 @@ namespace System::Xml {
   static check_size<sizeof(SecureStringHasher), 16 + sizeof(int)> __System_Xml_SecureStringHasherSizeCheck;
   static_assert(sizeof(SecureStringHasher) == 0x14);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::SecureStringHasher*, "System.Xml", "SecureStringHasher");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::SecureStringHasher::Equals
 // Il2CppName: Equals
 template<>

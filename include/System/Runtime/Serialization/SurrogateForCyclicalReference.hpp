@@ -3,17 +3,9 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: System.Runtime.Serialization
-namespace System::Runtime::Serialization {
-  // Forward declaring type: SurrogateForCyclicalReference
-  class SurrogateForCyclicalReference;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Serialization::SurrogateForCyclicalReference);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SurrogateForCyclicalReference*, "System.Runtime.Serialization", "SurrogateForCyclicalReference");
 // Type namespace: System.Runtime.Serialization
 namespace System::Runtime::Serialization {
   // Size: 0x10
@@ -22,7 +14,11 @@ namespace System::Runtime::Serialization {
   // [TokenAttribute] Offset: FFFFFFFF
   class SurrogateForCyclicalReference : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: SurrogateForCyclicalReference
+    SurrogateForCyclicalReference() noexcept {}
   }; // System.Runtime.Serialization.SurrogateForCyclicalReference
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SurrogateForCyclicalReference*, "System.Runtime.Serialization", "SurrogateForCyclicalReference");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -3,27 +3,19 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.EventSystems.PhysicsRaycaster
 #include "UnityEngine/EventSystems/PhysicsRaycaster.hpp"
 // Including type: System.Collections.Generic.IComparer`1
 #include "System/Collections/Generic/IComparer_1.hpp"
 // Including type: UnityEngine.RaycastHit
 #include "UnityEngine/RaycastHit.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: UnityEngine.EventSystems
-namespace UnityEngine::EventSystems {
-  // Forward declaring type: RaycastHitComparer
-  class RaycastHitComparer;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::EventSystems::PhysicsRaycaster::RaycastHitComparer);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::PhysicsRaycaster::RaycastHitComparer*, "UnityEngine.EventSystems", "PhysicsRaycaster/RaycastHitComparer");
 // Type namespace: UnityEngine.EventSystems
 namespace UnityEngine::EventSystems {
   // Size: 0x10
@@ -32,6 +24,8 @@ namespace UnityEngine::EventSystems {
   // [TokenAttribute] Offset: FFFFFFFF
   class PhysicsRaycaster::RaycastHitComparer : public ::Il2CppObject/*, public System::Collections::Generic::IComparer_1<UnityEngine::RaycastHit>*/ {
     public:
+    // Creating value type constructor for type: RaycastHitComparer
+    RaycastHitComparer() noexcept {}
     // Creating interface conversion operator: operator System::Collections::Generic::IComparer_1<UnityEngine::RaycastHit>
     operator System::Collections::Generic::IComparer_1<UnityEngine::RaycastHit>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IComparer_1<UnityEngine::RaycastHit>*>(this);
@@ -41,13 +35,13 @@ namespace UnityEngine::EventSystems {
     // Set static field: static public UnityEngine.EventSystems.PhysicsRaycaster/UnityEngine.EventSystems.RaycastHitComparer instance
     static void _set_instance(UnityEngine::EventSystems::PhysicsRaycaster::RaycastHitComparer* value);
     // static private System.Void .cctor()
-    // Offset: 0x15D76F8
+    // Offset: 0x16669EC
     static void _cctor();
     // public System.Int32 Compare(UnityEngine.RaycastHit x, UnityEngine.RaycastHit y)
-    // Offset: 0x15D76AC
+    // Offset: 0x16669A0
     int Compare(UnityEngine::RaycastHit x, UnityEngine::RaycastHit y);
     // public System.Void .ctor()
-    // Offset: 0x15D76F0
+    // Offset: 0x16669E4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -58,7 +52,8 @@ namespace UnityEngine::EventSystems {
   }; // UnityEngine.EventSystems.PhysicsRaycaster/UnityEngine.EventSystems.RaycastHitComparer
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::PhysicsRaycaster::RaycastHitComparer*, "UnityEngine.EventSystems", "PhysicsRaycaster/RaycastHitComparer");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::EventSystems::PhysicsRaycaster::RaycastHitComparer::_cctor
 // Il2CppName: .cctor
 template<>

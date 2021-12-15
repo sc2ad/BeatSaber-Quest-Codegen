@@ -3,19 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct Il2CppObject;
 // Completed il2cpp-utils forward declares
-// Type namespace: UnityEngine.AddressableAssets
-namespace UnityEngine::AddressableAssets {
-  // Forward declaring type: IKeyEvaluator
-  class IKeyEvaluator;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::AddressableAssets::IKeyEvaluator);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::IKeyEvaluator*, "UnityEngine.AddressableAssets", "IKeyEvaluator");
 // Type namespace: UnityEngine.AddressableAssets
 namespace UnityEngine::AddressableAssets {
   // Size: 0x10
@@ -24,6 +16,8 @@ namespace UnityEngine::AddressableAssets {
   // [TokenAttribute] Offset: FFFFFFFF
   class IKeyEvaluator {
     public:
+    // Creating value type constructor for type: IKeyEvaluator
+    IKeyEvaluator() noexcept {}
     // public System.Object get_RuntimeKey()
     // Offset: 0xFFFFFFFF
     ::Il2CppObject* get_RuntimeKey();
@@ -33,7 +27,9 @@ namespace UnityEngine::AddressableAssets {
   }; // UnityEngine.AddressableAssets.IKeyEvaluator
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::IKeyEvaluator*, "UnityEngine.AddressableAssets", "IKeyEvaluator");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::IKeyEvaluator::get_RuntimeKey
 // Il2CppName: get_RuntimeKey
 template<>

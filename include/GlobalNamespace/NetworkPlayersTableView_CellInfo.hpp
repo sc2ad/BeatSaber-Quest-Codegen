@@ -3,16 +3,16 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: NetworkPlayersTableView
 #include "GlobalNamespace/NetworkPlayersTableView.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -21,14 +21,6 @@ namespace GlobalNamespace {
   class INetworkPlayer;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: CellInfo
-  class CellInfo;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::NetworkPlayersTableView::CellInfo);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetworkPlayersTableView::CellInfo*, "", "NetworkPlayersTableView/CellInfo");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x29
@@ -45,18 +37,12 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct CellType/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: CellType
       constexpr CellType(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -91,11 +77,6 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(NetworkPlayersTableView::CellInfo::CellType), 0 + sizeof(int)> __GlobalNamespace_NetworkPlayersTableView_CellInfo_CellTypeSizeCheck;
     static_assert(sizeof(NetworkPlayersTableView::CellInfo::CellType) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public NetworkPlayersTableView/CellInfo/CellType type
     // Size: 0x4
     // Offset: 0x10
@@ -122,7 +103,8 @@ namespace GlobalNamespace {
     bool lastCellInParty;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: CellInfo
+    CellInfo(GlobalNamespace::NetworkPlayersTableView::CellInfo::CellType type_ = {}, ::Il2CppString* headerString_ = {}, GlobalNamespace::INetworkPlayer* player_ = {}, bool lastCellInParty_ = {}) noexcept : type{type_}, headerString{headerString_}, player{player_}, lastCellInParty{lastCellInParty_} {}
     // Get instance field reference: public NetworkPlayersTableView/CellInfo/CellType type
     GlobalNamespace::NetworkPlayersTableView::CellInfo::CellType& dyn_type();
     // Get instance field reference: public System.String headerString
@@ -132,7 +114,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean lastCellInParty
     bool& dyn_lastCellInParty();
     // public System.Void .ctor()
-    // Offset: 0x1124254
+    // Offset: 0x13396F0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -145,9 +127,9 @@ namespace GlobalNamespace {
   static check_size<sizeof(NetworkPlayersTableView::CellInfo), 40 + sizeof(bool)> __GlobalNamespace_NetworkPlayersTableView_CellInfoSizeCheck;
   static_assert(sizeof(NetworkPlayersTableView::CellInfo) == 0x29);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetworkPlayersTableView::CellInfo*, "", "NetworkPlayersTableView/CellInfo");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetworkPlayersTableView::CellInfo::CellType, "", "NetworkPlayersTableView/CellInfo/CellType");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NetworkPlayersTableView::CellInfo::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

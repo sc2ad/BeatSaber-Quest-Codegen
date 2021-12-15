@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRInput/OVRControllerBase
 #include "GlobalNamespace/OVRInput_OVRControllerBase.hpp"
 // Including type: OVRInput/RawButton
 #include "GlobalNamespace/OVRInput_RawButton.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: VirtualButtonMap
-  class VirtualButtonMap;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRInput::OVRControllerBase::VirtualButtonMap);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OVRControllerBase::VirtualButtonMap*, "", "OVRInput/OVRControllerBase/VirtualButtonMap");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x94
@@ -30,11 +22,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRInput::OVRControllerBase::VirtualButtonMap : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public OVRInput/RawButton None
     // Size: 0x4
     // Offset: 0x10
@@ -233,7 +220,8 @@ namespace GlobalNamespace {
     GlobalNamespace::OVRInput::RawButton Right;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRInput::RawButton) == 0x4);
-    public:
+    // Creating value type constructor for type: VirtualButtonMap
+    VirtualButtonMap(GlobalNamespace::OVRInput::RawButton None_ = {}, GlobalNamespace::OVRInput::RawButton One_ = {}, GlobalNamespace::OVRInput::RawButton Two_ = {}, GlobalNamespace::OVRInput::RawButton Three_ = {}, GlobalNamespace::OVRInput::RawButton Four_ = {}, GlobalNamespace::OVRInput::RawButton Start_ = {}, GlobalNamespace::OVRInput::RawButton Back_ = {}, GlobalNamespace::OVRInput::RawButton PrimaryShoulder_ = {}, GlobalNamespace::OVRInput::RawButton PrimaryIndexTrigger_ = {}, GlobalNamespace::OVRInput::RawButton PrimaryHandTrigger_ = {}, GlobalNamespace::OVRInput::RawButton PrimaryThumbstick_ = {}, GlobalNamespace::OVRInput::RawButton PrimaryThumbstickUp_ = {}, GlobalNamespace::OVRInput::RawButton PrimaryThumbstickDown_ = {}, GlobalNamespace::OVRInput::RawButton PrimaryThumbstickLeft_ = {}, GlobalNamespace::OVRInput::RawButton PrimaryThumbstickRight_ = {}, GlobalNamespace::OVRInput::RawButton PrimaryTouchpad_ = {}, GlobalNamespace::OVRInput::RawButton SecondaryShoulder_ = {}, GlobalNamespace::OVRInput::RawButton SecondaryIndexTrigger_ = {}, GlobalNamespace::OVRInput::RawButton SecondaryHandTrigger_ = {}, GlobalNamespace::OVRInput::RawButton SecondaryThumbstick_ = {}, GlobalNamespace::OVRInput::RawButton SecondaryThumbstickUp_ = {}, GlobalNamespace::OVRInput::RawButton SecondaryThumbstickDown_ = {}, GlobalNamespace::OVRInput::RawButton SecondaryThumbstickLeft_ = {}, GlobalNamespace::OVRInput::RawButton SecondaryThumbstickRight_ = {}, GlobalNamespace::OVRInput::RawButton SecondaryTouchpad_ = {}, GlobalNamespace::OVRInput::RawButton DpadUp_ = {}, GlobalNamespace::OVRInput::RawButton DpadDown_ = {}, GlobalNamespace::OVRInput::RawButton DpadLeft_ = {}, GlobalNamespace::OVRInput::RawButton DpadRight_ = {}, GlobalNamespace::OVRInput::RawButton Up_ = {}, GlobalNamespace::OVRInput::RawButton Down_ = {}, GlobalNamespace::OVRInput::RawButton Left_ = {}, GlobalNamespace::OVRInput::RawButton Right_ = {}) noexcept : None{None_}, One{One_}, Two{Two_}, Three{Three_}, Four{Four_}, Start{Start_}, Back{Back_}, PrimaryShoulder{PrimaryShoulder_}, PrimaryIndexTrigger{PrimaryIndexTrigger_}, PrimaryHandTrigger{PrimaryHandTrigger_}, PrimaryThumbstick{PrimaryThumbstick_}, PrimaryThumbstickUp{PrimaryThumbstickUp_}, PrimaryThumbstickDown{PrimaryThumbstickDown_}, PrimaryThumbstickLeft{PrimaryThumbstickLeft_}, PrimaryThumbstickRight{PrimaryThumbstickRight_}, PrimaryTouchpad{PrimaryTouchpad_}, SecondaryShoulder{SecondaryShoulder_}, SecondaryIndexTrigger{SecondaryIndexTrigger_}, SecondaryHandTrigger{SecondaryHandTrigger_}, SecondaryThumbstick{SecondaryThumbstick_}, SecondaryThumbstickUp{SecondaryThumbstickUp_}, SecondaryThumbstickDown{SecondaryThumbstickDown_}, SecondaryThumbstickLeft{SecondaryThumbstickLeft_}, SecondaryThumbstickRight{SecondaryThumbstickRight_}, SecondaryTouchpad{SecondaryTouchpad_}, DpadUp{DpadUp_}, DpadDown{DpadDown_}, DpadLeft{DpadLeft_}, DpadRight{DpadRight_}, Up{Up_}, Down{Down_}, Left{Left_}, Right{Right_} {}
     // Get instance field reference: public OVRInput/RawButton None
     GlobalNamespace::OVRInput::RawButton& dyn_None();
     // Get instance field reference: public OVRInput/RawButton One
@@ -301,10 +289,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public OVRInput/RawButton Right
     GlobalNamespace::OVRInput::RawButton& dyn_Right();
     // public OVRInput/RawButton ToRawMask(OVRInput/Button virtualMask)
-    // Offset: 0x16B2A04
+    // Offset: 0x176FE20
     GlobalNamespace::OVRInput::RawButton ToRawMask(GlobalNamespace::OVRInput::Button virtualMask);
     // public System.Void .ctor()
-    // Offset: 0x16B1F40
+    // Offset: 0x176F35C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -317,7 +305,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRInput::OVRControllerBase::VirtualButtonMap), 144 + sizeof(GlobalNamespace::OVRInput::RawButton)> __GlobalNamespace_OVRInput_OVRControllerBase_VirtualButtonMapSizeCheck;
   static_assert(sizeof(OVRInput::OVRControllerBase::VirtualButtonMap) == 0x94);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OVRControllerBase::VirtualButtonMap*, "", "OVRInput/OVRControllerBase/VirtualButtonMap");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::OVRControllerBase::VirtualButtonMap::ToRawMask
 // Il2CppName: ToRawMask
 template<>

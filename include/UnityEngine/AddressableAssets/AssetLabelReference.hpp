@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.AddressableAssets.IKeyEvaluator
 #include "UnityEngine/AddressableAssets/IKeyEvaluator.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: UnityEngine.AddressableAssets
-namespace UnityEngine::AddressableAssets {
-  // Forward declaring type: AssetLabelReference
-  class AssetLabelReference;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::AddressableAssets::AssetLabelReference);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::AssetLabelReference*, "UnityEngine.AddressableAssets", "AssetLabelReference");
 // Type namespace: UnityEngine.AddressableAssets
 namespace UnityEngine::AddressableAssets {
   // Size: 0x18
@@ -28,19 +20,15 @@ namespace UnityEngine::AddressableAssets {
   // [TokenAttribute] Offset: FFFFFFFF
   class AssetLabelReference : public ::Il2CppObject/*, public UnityEngine::AddressableAssets::IKeyEvaluator*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
-    // [FormerlySerializedAsAttribute] Offset: 0xEEC088
+    // [FormerlySerializedAsAttribute] Offset: 0xF2D580
     // private System.String m_LabelString
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppString* m_LabelString;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: AssetLabelReference
+    AssetLabelReference(::Il2CppString* m_LabelString_ = {}) noexcept : m_LabelString{m_LabelString_} {}
     // Creating interface conversion operator: operator UnityEngine::AddressableAssets::IKeyEvaluator
     operator UnityEngine::AddressableAssets::IKeyEvaluator() noexcept {
       return *reinterpret_cast<UnityEngine::AddressableAssets::IKeyEvaluator*>(this);
@@ -52,19 +40,19 @@ namespace UnityEngine::AddressableAssets {
     // Get instance field reference: private System.String m_LabelString
     ::Il2CppString*& dyn_m_LabelString();
     // public System.String get_labelString()
-    // Offset: 0x157F380
+    // Offset: 0x160C674
     ::Il2CppString* get_labelString();
     // public System.Void set_labelString(System.String value)
-    // Offset: 0x157F388
+    // Offset: 0x160C67C
     void set_labelString(::Il2CppString* value);
     // public System.Object get_RuntimeKey()
-    // Offset: 0x157F390
+    // Offset: 0x160C684
     ::Il2CppObject* get_RuntimeKey();
     // public System.Boolean RuntimeKeyIsValid()
-    // Offset: 0x157F3F0
+    // Offset: 0x160C6E4
     bool RuntimeKeyIsValid();
     // public System.Void .ctor()
-    // Offset: 0x157F448
+    // Offset: 0x160C73C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -73,7 +61,7 @@ namespace UnityEngine::AddressableAssets {
       return THROW_UNLESS((::il2cpp_utils::New<AssetLabelReference*, creationType>()));
     }
     // public override System.Int32 GetHashCode()
-    // Offset: 0x157F428
+    // Offset: 0x160C71C
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
@@ -82,7 +70,8 @@ namespace UnityEngine::AddressableAssets {
   static check_size<sizeof(AssetLabelReference), 16 + sizeof(::Il2CppString*)> __UnityEngine_AddressableAssets_AssetLabelReferenceSizeCheck;
   static_assert(sizeof(AssetLabelReference) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::AssetLabelReference*, "UnityEngine.AddressableAssets", "AssetLabelReference");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AssetLabelReference::get_labelString
 // Il2CppName: get_labelString
 template<>

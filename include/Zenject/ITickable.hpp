@@ -3,16 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: Zenject
-namespace Zenject {
-  // Forward declaring type: ITickable
-  class ITickable;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::ITickable);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::ITickable*, "Zenject", "ITickable");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x10
@@ -21,13 +13,17 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class ITickable {
     public:
+    // Creating value type constructor for type: ITickable
+    ITickable() noexcept {}
     // public System.Void Tick()
     // Offset: 0xFFFFFFFF
     void Tick();
   }; // Zenject.ITickable
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Zenject::ITickable*, "Zenject", "ITickable");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::ITickable::Tick
 // Il2CppName: Tick
 template<>

@@ -3,14 +3,14 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.MonoKernel
 #include "Zenject/MonoKernel.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Zenject
@@ -19,16 +19,10 @@ namespace Zenject {
   class ZenjectSettings;
   // Forward declaring type: SceneContextRegistry
   class SceneContextRegistry;
+  // Forward declaring type: InjectTypeInfo
+  class InjectTypeInfo;
 }
 // Completed forward declares
-// Type namespace: Zenject
-namespace Zenject {
-  // Forward declaring type: ProjectKernel
-  class ProjectKernel;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::ProjectKernel);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::ProjectKernel*, "Zenject", "ProjectKernel");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x48
@@ -41,41 +35,37 @@ namespace Zenject {
     char ___base_padding[0x6] = {};
     // Nested type: Zenject::ProjectKernel::$$c__DisplayClass4_0
     class $$c__DisplayClass4_0;
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
-    // [InjectAttribute] Offset: 0xEC6C8C
+    // [InjectAttribute] Offset: 0xF03AB8
     // private Zenject.ZenjectSettings _settings
     // Size: 0x8
     // Offset: 0x38
     Zenject::ZenjectSettings* settings;
     // Field size check
     static_assert(sizeof(Zenject::ZenjectSettings*) == 0x8);
-    // [InjectAttribute] Offset: 0xEC6C9C
+    // [InjectAttribute] Offset: 0xF03AC8
     // private Zenject.SceneContextRegistry _contextRegistry
     // Size: 0x8
     // Offset: 0x40
     Zenject::SceneContextRegistry* contextRegistry;
     // Field size check
     static_assert(sizeof(Zenject::SceneContextRegistry*) == 0x8);
-    public:
+    // Creating value type constructor for type: ProjectKernel
+    ProjectKernel(Zenject::ZenjectSettings* settings_ = {}, Zenject::SceneContextRegistry* contextRegistry_ = {}) noexcept : settings{settings_}, contextRegistry{contextRegistry_} {}
     // Get instance field reference: private Zenject.ZenjectSettings _settings
     Zenject::ZenjectSettings*& dyn__settings();
     // Get instance field reference: private Zenject.SceneContextRegistry _contextRegistry
     Zenject::SceneContextRegistry*& dyn__contextRegistry();
     // public System.Void OnApplicationQuit()
-    // Offset: 0x188174C
+    // Offset: 0x18E2C20
     void OnApplicationQuit();
     // public System.Void DestroyEverythingInOrder()
-    // Offset: 0x1881770
+    // Offset: 0x18E2C44
     void DestroyEverythingInOrder();
     // public System.Void ForceUnloadAllScenes(System.Boolean immediate)
-    // Offset: 0x1881818
+    // Offset: 0x18E2CEC
     void ForceUnloadAllScenes(bool immediate);
     // public System.Void .ctor()
-    // Offset: 0x1881B54
+    // Offset: 0x18E3028
     // Implemented from: Zenject.MonoKernel
     // Base method: System.Void MonoKernel::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -88,12 +78,28 @@ namespace Zenject {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ProjectKernel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ProjectKernel*, creationType>()));
     }
+    // static private System.Void __zenFieldSetter0(System.Object P_0, System.Object P_1)
+    // Offset: 0x18E3030
+    // Implemented from: Zenject.MonoKernel
+    // Base method: System.Void MonoKernel::__zenFieldSetter0(System.Object P_0, System.Object P_1)
+    static void __zenFieldSetter0(::Il2CppObject* P_0, ::Il2CppObject* P_1);
+    // static private System.Void __zenFieldSetter1(System.Object P_0, System.Object P_1)
+    // Offset: 0x18E3104
+    // Implemented from: Zenject.MonoKernel
+    // Base method: System.Void MonoKernel::__zenFieldSetter1(System.Object P_0, System.Object P_1)
+    static void __zenFieldSetter1(::Il2CppObject* P_0, ::Il2CppObject* P_1);
+    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
+    // Offset: 0x18E31D8
+    // Implemented from: Zenject.MonoKernel
+    // Base method: Zenject.InjectTypeInfo MonoKernel::__zenCreateInjectTypeInfo()
+    static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.ProjectKernel
   #pragma pack(pop)
   static check_size<sizeof(ProjectKernel), 64 + sizeof(Zenject::SceneContextRegistry*)> __Zenject_ProjectKernelSizeCheck;
   static_assert(sizeof(ProjectKernel) == 0x48);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Zenject::ProjectKernel*, "Zenject", "ProjectKernel");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::ProjectKernel::OnApplicationQuit
 // Il2CppName: OnApplicationQuit
 template<>
@@ -123,3 +129,31 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
+// Writing MetadataGetter for method: Zenject::ProjectKernel::__zenFieldSetter0
+// Il2CppName: __zenFieldSetter0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::Il2CppObject*)>(&Zenject::ProjectKernel::__zenFieldSetter0)> {
+  static const MethodInfo* get() {
+    static auto* P_0 = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    static auto* P_1 = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ProjectKernel*), "__zenFieldSetter0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{P_0, P_1});
+  }
+};
+// Writing MetadataGetter for method: Zenject::ProjectKernel::__zenFieldSetter1
+// Il2CppName: __zenFieldSetter1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::Il2CppObject*)>(&Zenject::ProjectKernel::__zenFieldSetter1)> {
+  static const MethodInfo* get() {
+    static auto* P_0 = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    static auto* P_1 = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ProjectKernel*), "__zenFieldSetter1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{P_0, P_1});
+  }
+};
+// Writing MetadataGetter for method: Zenject::ProjectKernel::__zenCreateInjectTypeInfo
+// Il2CppName: __zenCreateInjectTypeInfo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo* (*)()>(&Zenject::ProjectKernel::__zenCreateInjectTypeInfo)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ProjectKernel*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

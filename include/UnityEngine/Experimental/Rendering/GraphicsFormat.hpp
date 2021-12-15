@@ -3,18 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: UnityEngine.Experimental.Rendering
-namespace UnityEngine::Experimental::Rendering {
-  // Forward declaring type: GraphicsFormat
-  struct GraphicsFormat;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Rendering::GraphicsFormat, "UnityEngine.Experimental.Rendering", "GraphicsFormat");
 // Type namespace: UnityEngine.Experimental.Rendering
 namespace UnityEngine::Experimental::Rendering {
   // Size: 0x4
@@ -23,18 +16,12 @@ namespace UnityEngine::Experimental::Rendering {
   // [TokenAttribute] Offset: FFFFFFFF
   struct GraphicsFormat/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: GraphicsFormat
     constexpr GraphicsFormat(int value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -549,8 +536,8 @@ namespace UnityEngine::Experimental::Rendering {
     static UnityEngine::Experimental::Rendering::GraphicsFormat _get_A10R10G10B10_XRUNormPack32();
     // Set static field: static public UnityEngine.Experimental.Rendering.GraphicsFormat A10R10G10B10_XRUNormPack32
     static void _set_A10R10G10B10_XRUNormPack32(UnityEngine::Experimental::Rendering::GraphicsFormat value);
-    // [ObsoleteAttribute] Offset: 0xE7A140
-    // [EditorBrowsableAttribute] Offset: 0xE7A140
+    // [ObsoleteAttribute] Offset: 0xEB9D4C
+    // [EditorBrowsableAttribute] Offset: 0xEB9D4C
     // static field const value: static public UnityEngine.Experimental.Rendering.GraphicsFormat RGB_DXT1_SRGB
     static constexpr const int RGB_DXT1_SRGB = 96;
     // Get static field: static public UnityEngine.Experimental.Rendering.GraphicsFormat RGB_DXT1_SRGB
@@ -563,8 +550,8 @@ namespace UnityEngine::Experimental::Rendering {
     static UnityEngine::Experimental::Rendering::GraphicsFormat _get_RGBA_DXT1_SRGB();
     // Set static field: static public UnityEngine.Experimental.Rendering.GraphicsFormat RGBA_DXT1_SRGB
     static void _set_RGBA_DXT1_SRGB(UnityEngine::Experimental::Rendering::GraphicsFormat value);
-    // [EditorBrowsableAttribute] Offset: 0xE7A194
-    // [ObsoleteAttribute] Offset: 0xE7A194
+    // [EditorBrowsableAttribute] Offset: 0xEB9DA0
+    // [ObsoleteAttribute] Offset: 0xEB9DA0
     // static field const value: static public UnityEngine.Experimental.Rendering.GraphicsFormat RGB_DXT1_UNorm
     static constexpr const int RGB_DXT1_UNorm = 97;
     // Get static field: static public UnityEngine.Experimental.Rendering.GraphicsFormat RGB_DXT1_UNorm
@@ -842,4 +829,6 @@ namespace UnityEngine::Experimental::Rendering {
   static check_size<sizeof(GraphicsFormat), 0 + sizeof(int)> __UnityEngine_Experimental_Rendering_GraphicsFormatSizeCheck;
   static_assert(sizeof(GraphicsFormat) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Rendering::GraphicsFormat, "UnityEngine.Experimental.Rendering", "GraphicsFormat");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

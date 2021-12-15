@@ -3,18 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: TextAlignment
-  struct TextAlignment;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextAlignment, "UnityEngine", "TextAlignment");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x4
@@ -23,18 +16,12 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   struct TextAlignment/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: TextAlignment
     constexpr TextAlignment(int value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -70,4 +57,6 @@ namespace UnityEngine {
   static check_size<sizeof(TextAlignment), 0 + sizeof(int)> __UnityEngine_TextAlignmentSizeCheck;
   static_assert(sizeof(TextAlignment) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextAlignment, "UnityEngine", "TextAlignment");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

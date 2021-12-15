@@ -3,20 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: RootMotion.FinalIK.IKMappingLimb
 #include "RootMotion/FinalIK/IKMappingLimb.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: RootMotion.FinalIK
-namespace RootMotion::FinalIK {
-  // Forward declaring type: BoneMapType
-  struct BoneMapType;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKMappingLimb::BoneMapType, "RootMotion.FinalIK", "IKMappingLimb/BoneMapType");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
   // Size: 0x4
@@ -25,18 +18,12 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   struct IKMappingLimb::BoneMapType/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: BoneMapType
     constexpr BoneMapType(int value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -78,4 +65,6 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(IKMappingLimb::BoneMapType), 0 + sizeof(int)> __RootMotion_FinalIK_IKMappingLimb_BoneMapTypeSizeCheck;
   static_assert(sizeof(IKMappingLimb::BoneMapType) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKMappingLimb::BoneMapType, "RootMotion.FinalIK", "IKMappingLimb/BoneMapType");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

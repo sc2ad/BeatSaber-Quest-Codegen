@@ -3,27 +3,19 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.AddressableAssets.AddressablesImpl
 #include "UnityEngine/AddressableAssets/AddressablesImpl.hpp"
 // Including type: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1
 #include "UnityEngine/ResourceManagement/AsyncOperations/AsyncOperationHandle_1.hpp"
 // Including type: UnityEngine.ResourceManagement.ResourceProviders.SceneInstance
 #include "UnityEngine/ResourceManagement/ResourceProviders/SceneInstance.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: UnityEngine.AddressableAssets
-namespace UnityEngine::AddressableAssets {
-  // Forward declaring type: <>c__DisplayClass33_0
-  class $$c__DisplayClass33_0;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass33_0);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass33_0*, "UnityEngine.AddressableAssets", "AddressablesImpl/<>c__DisplayClass33_0");
 // Type namespace: UnityEngine.AddressableAssets
 namespace UnityEngine::AddressableAssets {
   // WARNING Size may be invalid!
@@ -32,11 +24,6 @@ namespace UnityEngine::AddressableAssets {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class AddressablesImpl::$$c__DisplayClass33_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> op
     // Size: 0xFFFFFFFF
     // Offset: 0x10
@@ -47,16 +34,17 @@ namespace UnityEngine::AddressableAssets {
     UnityEngine::AddressableAssets::AddressablesImpl* $$4__this;
     // Field size check
     static_assert(sizeof(UnityEngine::AddressableAssets::AddressablesImpl*) == 0x8);
-    public:
+    // Creating value type constructor for type: $$c__DisplayClass33_0
+    $$c__DisplayClass33_0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> op_ = {}, UnityEngine::AddressableAssets::AddressablesImpl* $$4__this_ = {}) noexcept : op{op_}, $$4__this{$$4__this_} {}
     // Get instance field reference: public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> op
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>& dyn_op();
     // Get instance field reference: public UnityEngine.AddressableAssets.AddressablesImpl <>4__this
     UnityEngine::AddressableAssets::AddressablesImpl*& dyn_$$4__this();
     // System.Void <OnSceneUnloaded>b__0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> handle)
-    // Offset: 0x157E794
+    // Offset: 0x160BA88
     void $OnSceneUnloaded$b__0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> handle);
     // public System.Void .ctor()
-    // Offset: 0x1578668
+    // Offset: 0x160595C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -67,7 +55,8 @@ namespace UnityEngine::AddressableAssets {
   }; // UnityEngine.AddressableAssets.AddressablesImpl/UnityEngine.AddressableAssets.<>c__DisplayClass33_0
   // WARNING Not writing size check since size may be invalid!
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass33_0*, "UnityEngine.AddressableAssets", "AddressablesImpl/<>c__DisplayClass33_0");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass33_0::$OnSceneUnloaded$b__0
 // Il2CppName: <OnSceneUnloaded>b__0
 template<>

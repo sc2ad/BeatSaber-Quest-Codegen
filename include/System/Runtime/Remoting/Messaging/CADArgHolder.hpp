@@ -3,21 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Runtime.Remoting.Messaging
-namespace System::Runtime::Remoting::Messaging {
-  // Forward declaring type: CADArgHolder
-  class CADArgHolder;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Remoting::Messaging::CADArgHolder);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::CADArgHolder*, "System.Runtime.Remoting.Messaging", "CADArgHolder");
 // Type namespace: System.Runtime.Remoting.Messaging
 namespace System::Runtime::Remoting::Messaging {
   // Size: 0x14
@@ -26,18 +18,14 @@ namespace System::Runtime::Remoting::Messaging {
   // [TokenAttribute] Offset: FFFFFFFF
   class CADArgHolder : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 index
     // Size: 0x4
     // Offset: 0x10
     int index;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
+    // Creating value type constructor for type: CADArgHolder
+    CADArgHolder(int index_ = {}) noexcept : index{index_} {}
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return index;
@@ -45,7 +33,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Get instance field reference: public System.Int32 index
     int& dyn_index();
     // public System.Void .ctor(System.Int32 i)
-    // Offset: 0x1BF58A8
+    // Offset: 0x1C4D9A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CADArgHolder* New_ctor(int i) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::CADArgHolder::.ctor");
@@ -56,7 +44,8 @@ namespace System::Runtime::Remoting::Messaging {
   static check_size<sizeof(CADArgHolder), 16 + sizeof(int)> __System_Runtime_Remoting_Messaging_CADArgHolderSizeCheck;
   static_assert(sizeof(CADArgHolder) == 0x14);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::CADArgHolder*, "System.Runtime.Remoting.Messaging", "CADArgHolder");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CADArgHolder::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: TMPro.FloatTween
 #include "TMPro/FloatTween.hpp"
 // Including type: UnityEngine.Events.UnityEvent`1
 #include "UnityEngine/Events/UnityEvent_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: TMPro
-namespace TMPro {
-  // Forward declaring type: FloatTweenCallback
-  class FloatTweenCallback;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(TMPro::FloatTween::FloatTweenCallback);
-DEFINE_IL2CPP_ARG_TYPE(TMPro::FloatTween::FloatTweenCallback*, "TMPro", "FloatTween/FloatTweenCallback");
 // Type namespace: TMPro
 namespace TMPro {
   // WARNING Size may be invalid!
@@ -29,8 +21,10 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class FloatTween::FloatTweenCallback : public UnityEngine::Events::UnityEvent_1<float> {
     public:
+    // Creating value type constructor for type: FloatTweenCallback
+    FloatTweenCallback() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x11E797C
+    // Offset: 0x123E0EC
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent_1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()
@@ -42,7 +36,8 @@ namespace TMPro {
     }
   }; // TMPro.FloatTween/TMPro.FloatTweenCallback
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::FloatTween::FloatTweenCallback*, "TMPro", "FloatTween/FloatTweenCallback");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::FloatTween::FloatTweenCallback::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

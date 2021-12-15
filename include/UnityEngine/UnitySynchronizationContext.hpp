@@ -3,14 +3,14 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Threading.SynchronizationContext
 #include "System/Threading/SynchronizationContext.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Threading
@@ -27,14 +27,6 @@ namespace System::Collections::Generic {
   class List_1;
 }
 // Completed forward declares
-// Type namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: UnitySynchronizationContext
-  class UnitySynchronizationContext;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::UnitySynchronizationContext);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UnitySynchronizationContext*, "UnityEngine", "UnitySynchronizationContext");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x30
@@ -54,11 +46,6 @@ namespace UnityEngine {
     // [TokenAttribute] Offset: FFFFFFFF
     struct WorkRequest/*, public System::ValueType*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // private readonly System.Threading.SendOrPostCallback m_DelagateCallback
       // Size: 0x8
       // Offset: 0x0
@@ -77,7 +64,6 @@ namespace UnityEngine {
       System::Threading::ManualResetEvent* m_WaitHandle;
       // Field size check
       static_assert(sizeof(System::Threading::ManualResetEvent*) == 0x8);
-      public:
       // Creating value type constructor for type: WorkRequest
       constexpr WorkRequest(System::Threading::SendOrPostCallback* m_DelagateCallback_ = {}, ::Il2CppObject* m_DelagateState_ = {}, System::Threading::ManualResetEvent* m_WaitHandle_ = {}) noexcept : m_DelagateCallback{m_DelagateCallback_}, m_DelagateState{m_DelagateState_}, m_WaitHandle{m_WaitHandle_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -91,20 +77,16 @@ namespace UnityEngine {
       // Get instance field reference: private readonly System.Threading.ManualResetEvent m_WaitHandle
       System::Threading::ManualResetEvent*& dyn_m_WaitHandle();
       // public System.Void .ctor(System.Threading.SendOrPostCallback callback, System.Object state, System.Threading.ManualResetEvent waitHandle)
-      // Offset: 0x232FA50
-      // ABORTED: conflicts with another method.  WorkRequest(System::Threading::SendOrPostCallback* callback, ::Il2CppObject* state, System::Threading::ManualResetEvent* waitHandle);
+      // Offset: 0x243ADC0
+      // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+      // ABORTED: conflicts with another method.  WorkRequest(System::Threading::SendOrPostCallback* callback, ::Il2CppObject* state, System::Threading::ManualResetEvent* waitHandle)
       // public System.Void Invoke()
-      // Offset: 0x232FD10
+      // Offset: 0x243B080
       void Invoke();
     }; // UnityEngine.UnitySynchronizationContext/UnityEngine.WorkRequest
     #pragma pack(pop)
     static check_size<sizeof(UnitySynchronizationContext::WorkRequest), 16 + sizeof(System::Threading::ManualResetEvent*)> __UnityEngine_UnitySynchronizationContext_WorkRequestSizeCheck;
     static_assert(sizeof(UnitySynchronizationContext::WorkRequest) == 0x18);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private readonly System.Collections.Generic.List`1<UnityEngine.UnitySynchronizationContext/UnityEngine.WorkRequest> m_AsyncWorkQueue
     // Size: 0x8
     // Offset: 0x18
@@ -129,7 +111,8 @@ namespace UnityEngine {
     int m_TrackedCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
+    // Creating value type constructor for type: UnitySynchronizationContext
+    UnitySynchronizationContext(System::Collections::Generic::List_1<UnityEngine::UnitySynchronizationContext::WorkRequest>* m_AsyncWorkQueue_ = {}, System::Collections::Generic::List_1<UnityEngine::UnitySynchronizationContext::WorkRequest>* m_CurrentFrameWork_ = {}, int m_MainThreadID_ = {}, int m_TrackedCount_ = {}) noexcept : m_AsyncWorkQueue{m_AsyncWorkQueue_}, m_CurrentFrameWork{m_CurrentFrameWork_}, m_MainThreadID{m_MainThreadID_}, m_TrackedCount{m_TrackedCount_} {}
     // Deleting conversion operator: operator System::Threading::SynchronizationContextProperties
     constexpr operator System::Threading::SynchronizationContextProperties() const noexcept = delete;
     // Get instance field reference: private readonly System.Collections.Generic.List`1<UnityEngine.UnitySynchronizationContext/UnityEngine.WorkRequest> m_AsyncWorkQueue
@@ -141,56 +124,56 @@ namespace UnityEngine {
     // Get instance field reference: private System.Int32 m_TrackedCount
     int& dyn_m_TrackedCount();
     // private System.Void .ctor(System.Int32 mainThreadID)
-    // Offset: 0x232F6D0
+    // Offset: 0x243AA40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnitySynchronizationContext* New_ctor(int mainThreadID) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UnitySynchronizationContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnitySynchronizationContext*, creationType>(mainThreadID)));
     }
     // private System.Void .ctor(System.Collections.Generic.List`1<UnityEngine.UnitySynchronizationContext/UnityEngine.WorkRequest> queue, System.Int32 mainThreadID)
-    // Offset: 0x232F780
+    // Offset: 0x243AAF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnitySynchronizationContext* New_ctor(System::Collections::Generic::List_1<UnityEngine::UnitySynchronizationContext::WorkRequest>* queue, int mainThreadID) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UnitySynchronizationContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnitySynchronizationContext*, creationType>(queue, mainThreadID)));
     }
     // private System.Void Exec()
-    // Offset: 0x232FBB8
+    // Offset: 0x243AF28
     void Exec();
     // private System.Boolean HasPendingTasks()
-    // Offset: 0x232FE28
+    // Offset: 0x243B198
     bool HasPendingTasks();
     // static private System.Void InitializeSynchronizationContext()
-    // Offset: 0x232FE90
+    // Offset: 0x243B200
     static void InitializeSynchronizationContext();
     // static private System.Void ExecuteTasks()
-    // Offset: 0x232FF10
+    // Offset: 0x243B280
     static void ExecuteTasks();
     // static private System.Boolean ExecutePendingTasks(System.Int64 millisecondsTimeout)
-    // Offset: 0x232FF88
+    // Offset: 0x243B2F8
     static bool ExecutePendingTasks(int64_t millisecondsTimeout);
     // public override System.Void Send(System.Threading.SendOrPostCallback callback, System.Object state)
-    // Offset: 0x232F814
+    // Offset: 0x243AB84
     // Implemented from: System.Threading.SynchronizationContext
     // Base method: System.Void SynchronizationContext::Send(System.Threading.SendOrPostCallback callback, System.Object state)
     void Send(System::Threading::SendOrPostCallback* callback, ::Il2CppObject* state);
     // public override System.Void OperationStarted()
-    // Offset: 0x232FA5C
+    // Offset: 0x243ADCC
     // Implemented from: System.Threading.SynchronizationContext
     // Base method: System.Void SynchronizationContext::OperationStarted()
     void OperationStarted();
     // public override System.Void OperationCompleted()
-    // Offset: 0x232FA68
+    // Offset: 0x243ADD8
     // Implemented from: System.Threading.SynchronizationContext
     // Base method: System.Void SynchronizationContext::OperationCompleted()
     void OperationCompleted();
     // public override System.Void Post(System.Threading.SendOrPostCallback callback, System.Object state)
-    // Offset: 0x232FA74
+    // Offset: 0x243ADE4
     // Implemented from: System.Threading.SynchronizationContext
     // Base method: System.Void SynchronizationContext::Post(System.Threading.SendOrPostCallback callback, System.Object state)
     void Post(System::Threading::SendOrPostCallback* callback, ::Il2CppObject* state);
     // public override System.Threading.SynchronizationContext CreateCopy()
-    // Offset: 0x232FB44
+    // Offset: 0x243AEB4
     // Implemented from: System.Threading.SynchronizationContext
     // Base method: System.Threading.SynchronizationContext SynchronizationContext::CreateCopy()
     System::Threading::SynchronizationContext* CreateCopy();
@@ -199,9 +182,9 @@ namespace UnityEngine {
   static check_size<sizeof(UnitySynchronizationContext), 44 + sizeof(int)> __UnityEngine_UnitySynchronizationContextSizeCheck;
   static_assert(sizeof(UnitySynchronizationContext) == 0x30);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UnitySynchronizationContext*, "UnityEngine", "UnitySynchronizationContext");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UnitySynchronizationContext::WorkRequest, "UnityEngine", "UnitySynchronizationContext/WorkRequest");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UnitySynchronizationContext::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

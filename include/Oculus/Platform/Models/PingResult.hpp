@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Nullable`1
 #include "System/Nullable_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Oculus.Platform.Models
-namespace Oculus::Platform::Models {
-  // Forward declaring type: PingResult
-  class PingResult;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Models::PingResult);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::PingResult*, "Oculus.Platform.Models", "PingResult");
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
   // WARNING Size may be invalid!
@@ -27,11 +19,6 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class PingResult : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.UInt64 <ID>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -42,25 +29,26 @@ namespace Oculus::Platform::Models {
     // Size: 0xFFFFFFFF
     // Offset: 0x18
     System::Nullable_1<uint64_t> pingTimeUsec;
-    public:
+    // Creating value type constructor for type: PingResult
+    PingResult(uint64_t _ID_ = {}, System::Nullable_1<uint64_t> pingTimeUsec_ = {}) noexcept : _ID{_ID_}, pingTimeUsec{pingTimeUsec_} {}
     // Get instance field reference: private System.UInt64 <ID>k__BackingField
     uint64_t& dyn_$ID$k__BackingField();
     // Get instance field reference: private System.Nullable`1<System.UInt64> pingTimeUsec
     System::Nullable_1<uint64_t>& dyn_pingTimeUsec();
     // public System.UInt64 get_ID()
-    // Offset: 0x16A43E8
+    // Offset: 0x1761804
     uint64_t get_ID();
     // private System.Void set_ID(System.UInt64 value)
-    // Offset: 0x16A43F0
+    // Offset: 0x176180C
     void set_ID(uint64_t value);
     // public System.UInt64 get_PingTimeUsec()
-    // Offset: 0x16A43F8
+    // Offset: 0x1761814
     uint64_t get_PingTimeUsec();
     // public System.Boolean get_IsTimeout()
-    // Offset: 0x16A4460
+    // Offset: 0x176187C
     bool get_IsTimeout();
     // public System.Void .ctor(System.UInt64 id, System.Nullable`1<System.UInt64> pingTimeUsec)
-    // Offset: 0x16A1064
+    // Offset: 0x175E480
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PingResult* New_ctor(uint64_t id, System::Nullable_1<uint64_t> pingTimeUsec) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::PingResult::.ctor");
@@ -69,7 +57,8 @@ namespace Oculus::Platform::Models {
   }; // Oculus.Platform.Models.PingResult
   // WARNING Not writing size check since size may be invalid!
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::PingResult*, "Oculus.Platform.Models", "PingResult");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::PingResult::get_ID
 // Il2CppName: get_ID
 template<>

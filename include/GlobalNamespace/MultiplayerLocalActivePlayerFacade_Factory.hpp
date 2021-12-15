@@ -3,27 +3,19 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MultiplayerLocalActivePlayerFacade
 #include "GlobalNamespace/MultiplayerLocalActivePlayerFacade.hpp"
 // Including type: Zenject.PlaceholderFactory`2
 #include "Zenject/PlaceholderFactory_2.hpp"
 // Including type: MultiplayerPlayerStartState
 #include "GlobalNamespace/MultiplayerPlayerStartState.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: Factory
-  class Factory;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MultiplayerLocalActivePlayerFacade::Factory);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalActivePlayerFacade::Factory*, "", "MultiplayerLocalActivePlayerFacade/Factory");
 // Type namespace: 
 namespace GlobalNamespace {
   // WARNING Size may be invalid!
@@ -31,8 +23,10 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerLocalActivePlayerFacade::Factory : public Zenject::PlaceholderFactory_2<GlobalNamespace::MultiplayerPlayerStartState, GlobalNamespace::MultiplayerLocalActivePlayerFacade*> {
     public:
+    // Creating value type constructor for type: Factory
+    Factory() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x11C7F50
+    // Offset: 0x12A0820
     // Implemented from: Zenject.PlaceholderFactory`2
     // Base method: System.Void PlaceholderFactory_2::.ctor()
     // Base method: System.Void PlaceholderFactoryBase_1::.ctor()
@@ -44,7 +38,8 @@ namespace GlobalNamespace {
     }
   }; // MultiplayerLocalActivePlayerFacade/Factory
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalActivePlayerFacade::Factory*, "", "MultiplayerLocalActivePlayerFacade/Factory");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalActivePlayerFacade::Factory::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

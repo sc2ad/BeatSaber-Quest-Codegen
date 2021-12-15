@@ -3,21 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Threading
-namespace System::Threading {
-  // Forward declaring type: Volatile
-  class Volatile;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Threading::Volatile);
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::Volatile*, "System.Threading", "Volatile");
 // Type namespace: System.Threading
 namespace System::Threading {
   // Size: 0x10
@@ -26,11 +18,13 @@ namespace System::Threading {
   // [TokenAttribute] Offset: FFFFFFFF
   class Volatile : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: Volatile
+    Volatile() noexcept {}
     // static public System.Boolean Read(ref System.Boolean location)
-    // Offset: 0x19A71D8
+    // Offset: 0x19C5888
     static bool Read(ByRef<bool> location);
     // static public System.Int32 Read(ref System.Int32 location)
-    // Offset: 0x19A71FC
+    // Offset: 0x19C58AC
     static int Read(ByRef<int> location);
     // static public T Read(ref T location)
     // Offset: 0xFFFFFFFF
@@ -39,13 +33,13 @@ namespace System::Threading {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Volatile::Read");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Threading", "Volatile", "Read", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(location)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, byref(location));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, byref(location));
     }
     // static public System.Void Write(ref System.Boolean location, System.Boolean value)
-    // Offset: 0x19A7220
+    // Offset: 0x19C58D0
     static void Write(ByRef<bool> location, bool value);
     // static public System.Void Write(ref System.Int32 location, System.Int32 value)
-    // Offset: 0x19A7248
+    // Offset: 0x19C58F8
     static void Write(ByRef<int> location, int value);
     // static public System.Void Write(ref T location, T value)
     // Offset: 0xFFFFFFFF
@@ -54,12 +48,13 @@ namespace System::Threading {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Volatile::Write");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Threading", "Volatile", "Write", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(location), ::il2cpp_utils::ExtractType(value)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, byref(location), value);
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, byref(location), value);
     }
   }; // System.Threading.Volatile
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::Volatile*, "System.Threading", "Volatile");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::Volatile::Read
 // Il2CppName: Read
 template<>

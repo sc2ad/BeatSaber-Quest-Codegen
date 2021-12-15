@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IO.FileSystemEventArgs
 #include "System/IO/FileSystemEventArgs.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.IO
-namespace System::IO {
-  // Forward declaring type: RenamedEventArgs
-  class RenamedEventArgs;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::IO::RenamedEventArgs);
-DEFINE_IL2CPP_ARG_TYPE(System::IO::RenamedEventArgs*, "System.IO", "RenamedEventArgs");
 // Type namespace: System.IO
 namespace System::IO {
   // Size: 0x38
@@ -28,11 +20,6 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   class RenamedEventArgs : public System::IO::FileSystemEventArgs {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.String oldName
     // Size: 0x8
     // Offset: 0x28
@@ -45,13 +32,14 @@ namespace System::IO {
     ::Il2CppString* oldFullPath;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: RenamedEventArgs
+    RenamedEventArgs(::Il2CppString* oldName_ = {}, ::Il2CppString* oldFullPath_ = {}) noexcept : oldName{oldName_}, oldFullPath{oldFullPath_} {}
     // Get instance field reference: private System.String oldName
     ::Il2CppString*& dyn_oldName();
     // Get instance field reference: private System.String oldFullPath
     ::Il2CppString*& dyn_oldFullPath();
     // public System.Void .ctor(System.IO.WatcherChangeTypes changeType, System.String directory, System.String name, System.String oldName)
-    // Offset: 0x1A17FAC
+    // Offset: 0x1A376CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RenamedEventArgs* New_ctor(System::IO::WatcherChangeTypes changeType, ::Il2CppString* directory, ::Il2CppString* name, ::Il2CppString* oldName) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::RenamedEventArgs::.ctor");
@@ -62,7 +50,8 @@ namespace System::IO {
   static check_size<sizeof(RenamedEventArgs), 48 + sizeof(::Il2CppString*)> __System_IO_RenamedEventArgsSizeCheck;
   static_assert(sizeof(RenamedEventArgs) == 0x38);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::IO::RenamedEventArgs*, "System.IO", "RenamedEventArgs");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::RenamedEventArgs::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

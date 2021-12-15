@@ -3,29 +3,20 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ScriptableObject
 #include "UnityEngine/ScriptableObject.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: LocalizedTextAsset
-  class LocalizedTextAsset;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::LocalizedTextAsset);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalizedTextAsset*, "", "LocalizedTextAsset");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x28
@@ -40,38 +31,34 @@ namespace GlobalNamespace {
     class $$c__DisplayClass6_0;
     // Nested type: GlobalNamespace::LocalizedTextAsset::$$c
     class $$c;
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private LocalizedTextAsset/TextInfo[] _textInfos
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayW<GlobalNamespace::LocalizedTextAsset::TextInfo*> textInfos;
+    ::Array<GlobalNamespace::LocalizedTextAsset::TextInfo*>* textInfos;
     // Field size check
-    static_assert(sizeof(::ArrayW<GlobalNamespace::LocalizedTextAsset::TextInfo*>) == 0x8);
+    static_assert(sizeof(::Array<GlobalNamespace::LocalizedTextAsset::TextInfo*>*) == 0x8);
     // private LocalizedTextAsset/TextInfo _lastTextInfo
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::LocalizedTextAsset::TextInfo* lastTextInfo;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LocalizedTextAsset::TextInfo*) == 0x8);
-    public:
+    // Creating value type constructor for type: LocalizedTextAsset
+    LocalizedTextAsset(::Array<GlobalNamespace::LocalizedTextAsset::TextInfo*>* textInfos_ = {}, GlobalNamespace::LocalizedTextAsset::TextInfo* lastTextInfo_ = {}) noexcept : textInfos{textInfos_}, lastTextInfo{lastTextInfo_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private LocalizedTextAsset/TextInfo[] _textInfos
-    ::ArrayW<GlobalNamespace::LocalizedTextAsset::TextInfo*>& dyn__textInfos();
+    ::Array<GlobalNamespace::LocalizedTextAsset::TextInfo*>*& dyn__textInfos();
     // Get instance field reference: private LocalizedTextAsset/TextInfo _lastTextInfo
     GlobalNamespace::LocalizedTextAsset::TextInfo*& dyn__lastTextInfo();
     // public LocalizedTextAsset/TextInfo[] get_textInfos()
-    // Offset: 0x1259B6C
-    ::ArrayW<GlobalNamespace::LocalizedTextAsset::TextInfo*> get_textInfos();
+    // Offset: 0x135DC00
+    ::Array<GlobalNamespace::LocalizedTextAsset::TextInfo*>* get_textInfos();
     // public System.String get_localizedText()
-    // Offset: 0x1259B74
+    // Offset: 0x135DC08
     ::Il2CppString* get_localizedText();
     // public System.Void .ctor()
-    // Offset: 0x1259E74
+    // Offset: 0x135DEF4
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -86,11 +73,12 @@ namespace GlobalNamespace {
   static check_size<sizeof(LocalizedTextAsset), 32 + sizeof(GlobalNamespace::LocalizedTextAsset::TextInfo*)> __GlobalNamespace_LocalizedTextAssetSizeCheck;
   static_assert(sizeof(LocalizedTextAsset) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalizedTextAsset*, "", "LocalizedTextAsset");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LocalizedTextAsset::get_textInfos
 // Il2CppName: get_textInfos
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<GlobalNamespace::LocalizedTextAsset::TextInfo*> (GlobalNamespace::LocalizedTextAsset::*)()>(&GlobalNamespace::LocalizedTextAsset::get_textInfos)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::LocalizedTextAsset::TextInfo*>* (GlobalNamespace::LocalizedTextAsset::*)()>(&GlobalNamespace::LocalizedTextAsset::get_textInfos)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalizedTextAsset*), "get_textInfos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

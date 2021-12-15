@@ -3,21 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: UnityEngine.ResourceManagement.ResourceProviders
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-  // Forward declaring type: ProviderLoadRequestOptions
-  class ProviderLoadRequestOptions;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions*, "UnityEngine.ResourceManagement.ResourceProviders", "ProviderLoadRequestOptions");
 // Type namespace: UnityEngine.ResourceManagement.ResourceProviders
 namespace UnityEngine::ResourceManagement::ResourceProviders {
   // Size: 0x11
@@ -26,18 +18,14 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   // [TokenAttribute] Offset: FFFFFFFF
   class ProviderLoadRequestOptions : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Boolean m_IgnoreFailures
     // Size: 0x1
     // Offset: 0x10
     bool m_IgnoreFailures;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: ProviderLoadRequestOptions
+    ProviderLoadRequestOptions(bool m_IgnoreFailures_ = {}) noexcept : m_IgnoreFailures{m_IgnoreFailures_} {}
     // Creating conversion operator: operator bool
     constexpr operator bool() const noexcept {
       return m_IgnoreFailures;
@@ -45,13 +33,13 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     // Get instance field reference: private System.Boolean m_IgnoreFailures
     bool& dyn_m_IgnoreFailures();
     // System.Boolean get_IgnoreFailures()
-    // Offset: 0x1B4ED7C
+    // Offset: 0x1BEEAFC
     bool get_IgnoreFailures();
     // System.Void set_IgnoreFailures(System.Boolean value)
-    // Offset: 0x1B4ED84
+    // Offset: 0x1BEEB04
     void set_IgnoreFailures(bool value);
     // public System.Void .ctor()
-    // Offset: 0x1B4ED90
+    // Offset: 0x1BEEB10
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -64,7 +52,8 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   static check_size<sizeof(ProviderLoadRequestOptions), 16 + sizeof(bool)> __UnityEngine_ResourceManagement_ResourceProviders_ProviderLoadRequestOptionsSizeCheck;
   static_assert(sizeof(ProviderLoadRequestOptions) == 0x11);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions*, "UnityEngine.ResourceManagement.ResourceProviders", "ProviderLoadRequestOptions");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::get_IgnoreFailures
 // Il2CppName: get_IgnoreFailures
 template<>

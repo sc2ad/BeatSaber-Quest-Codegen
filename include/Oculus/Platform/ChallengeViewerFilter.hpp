@@ -3,18 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: Oculus.Platform
-namespace Oculus::Platform {
-  // Forward declaring type: ChallengeViewerFilter
-  struct ChallengeViewerFilter;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::ChallengeViewerFilter, "Oculus.Platform", "ChallengeViewerFilter");
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
   // Size: 0x4
@@ -23,18 +16,12 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ChallengeViewerFilter/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: ChallengeViewerFilter
     constexpr ChallengeViewerFilter(int value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -45,35 +32,35 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0xEE6EC4
+    // [DescriptionAttribute] Offset: 0xF293BC
     // static field const value: static public Oculus.Platform.ChallengeViewerFilter Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.ChallengeViewerFilter Unknown
     static Oculus::Platform::ChallengeViewerFilter _get_Unknown();
     // Set static field: static public Oculus.Platform.ChallengeViewerFilter Unknown
     static void _set_Unknown(Oculus::Platform::ChallengeViewerFilter value);
-    // [DescriptionAttribute] Offset: 0xEE6EFC
+    // [DescriptionAttribute] Offset: 0xF293F4
     // static field const value: static public Oculus.Platform.ChallengeViewerFilter AllVisible
     static constexpr const int AllVisible = 1;
     // Get static field: static public Oculus.Platform.ChallengeViewerFilter AllVisible
     static Oculus::Platform::ChallengeViewerFilter _get_AllVisible();
     // Set static field: static public Oculus.Platform.ChallengeViewerFilter AllVisible
     static void _set_AllVisible(Oculus::Platform::ChallengeViewerFilter value);
-    // [DescriptionAttribute] Offset: 0xEE6F34
+    // [DescriptionAttribute] Offset: 0xF2942C
     // static field const value: static public Oculus.Platform.ChallengeViewerFilter Participating
     static constexpr const int Participating = 2;
     // Get static field: static public Oculus.Platform.ChallengeViewerFilter Participating
     static Oculus::Platform::ChallengeViewerFilter _get_Participating();
     // Set static field: static public Oculus.Platform.ChallengeViewerFilter Participating
     static void _set_Participating(Oculus::Platform::ChallengeViewerFilter value);
-    // [DescriptionAttribute] Offset: 0xEE6F6C
+    // [DescriptionAttribute] Offset: 0xF29464
     // static field const value: static public Oculus.Platform.ChallengeViewerFilter Invited
     static constexpr const int Invited = 3;
     // Get static field: static public Oculus.Platform.ChallengeViewerFilter Invited
     static Oculus::Platform::ChallengeViewerFilter _get_Invited();
     // Set static field: static public Oculus.Platform.ChallengeViewerFilter Invited
     static void _set_Invited(Oculus::Platform::ChallengeViewerFilter value);
-    // [DescriptionAttribute] Offset: 0xEE6FA4
+    // [DescriptionAttribute] Offset: 0xF2949C
     // static field const value: static public Oculus.Platform.ChallengeViewerFilter ParticipatingOrInvited
     static constexpr const int ParticipatingOrInvited = 4;
     // Get static field: static public Oculus.Platform.ChallengeViewerFilter ParticipatingOrInvited
@@ -87,4 +74,6 @@ namespace Oculus::Platform {
   static check_size<sizeof(ChallengeViewerFilter), 0 + sizeof(int)> __Oculus_Platform_ChallengeViewerFilterSizeCheck;
   static_assert(sizeof(ChallengeViewerFilter) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::ChallengeViewerFilter, "Oculus.Platform", "ChallengeViewerFilter");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

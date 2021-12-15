@@ -3,20 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BloomPrePassBackgroundColorsGradientFromColorSchemeColors
 #include "GlobalNamespace/BloomPrePassBackgroundColorsGradientFromColorSchemeColors.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: EnvironmentColor
-  struct EnvironmentColor;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::EnvironmentColor, "", "BloomPrePassBackgroundColorsGradientFromColorSchemeColors/EnvironmentColor");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x4
@@ -25,18 +18,12 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct BloomPrePassBackgroundColorsGradientFromColorSchemeColors::EnvironmentColor/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: EnvironmentColor
     constexpr EnvironmentColor(int value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -78,4 +65,6 @@ namespace GlobalNamespace {
   static check_size<sizeof(BloomPrePassBackgroundColorsGradientFromColorSchemeColors::EnvironmentColor), 0 + sizeof(int)> __GlobalNamespace_BloomPrePassBackgroundColorsGradientFromColorSchemeColors_EnvironmentColorSizeCheck;
   static_assert(sizeof(BloomPrePassBackgroundColorsGradientFromColorSchemeColors::EnvironmentColor) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::EnvironmentColor, "", "BloomPrePassBackgroundColorsGradientFromColorSchemeColors/EnvironmentColor");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

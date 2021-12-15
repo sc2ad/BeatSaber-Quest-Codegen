@@ -3,17 +3,10 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-// Type namespace: UnityEngineInternal
-namespace UnityEngineInternal {
-  // Forward declaring type: MathfInternal
-  struct MathfInternal;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngineInternal::MathfInternal, "UnityEngineInternal", "MathfInternal");
 // Type namespace: UnityEngineInternal
 namespace UnityEngineInternal {
   // Size: 0x0
@@ -42,12 +35,14 @@ namespace UnityEngineInternal {
     // Set static field: static public System.Boolean IsFlushToZeroEnabled
     static void _set_IsFlushToZeroEnabled(bool value);
     // static private System.Void .cctor()
-    // Offset: 0x2334A4C
+    // Offset: 0x243FDBC
     static void _cctor();
   }; // UnityEngineInternal.MathfInternal
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngineInternal::MathfInternal, "UnityEngineInternal", "MathfInternal");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngineInternal::MathfInternal::_cctor
 // Il2CppName: .cctor
 template<>

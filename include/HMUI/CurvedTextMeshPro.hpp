@@ -3,30 +3,33 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: TMPro.TextMeshProUGUI
 #include "TMPro/TextMeshProUGUI.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+// Including type: IComponentRefresher
+#include "GlobalNamespace/IComponentRefresher.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
+// Forward declaring namespace: GlobalNamespace
+namespace GlobalNamespace {
+  // Forward declaring type: ColorSO
+  class ColorSO;
+}
 // Forward declaring namespace: HMUI
 namespace HMUI {
   // Forward declaring type: CurvedCanvasSettingsHelper
   class CurvedCanvasSettingsHelper;
 }
-// Completed forward declares
-// Type namespace: HMUI
-namespace HMUI {
-  // Forward declaring type: CurvedTextMeshPro
-  class CurvedTextMeshPro;
+// Forward declaring namespace: UnityEngine
+namespace UnityEngine {
+  // Skipping declaration: Color because it is already included!
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HMUI::CurvedTextMeshPro);
-DEFINE_IL2CPP_ARG_TYPE(HMUI::CurvedTextMeshPro*, "HMUI", "CurvedTextMeshPro");
+// Completed forward declares
 // Type namespace: HMUI
 namespace HMUI {
   // WARNING Size may be invalid!
@@ -34,24 +37,60 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   // [DisallowMultipleComponent] Offset: FFFFFFFF
   // [ExecuteAlways] Offset: FFFFFFFF
-  class CurvedTextMeshPro : public TMPro::TextMeshProUGUI {
+  class CurvedTextMeshPro : public TMPro::TextMeshProUGUI/*, public GlobalNamespace::IComponentRefresher*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
-    // private readonly HMUI.CurvedCanvasSettingsHelper _curvedCanvasSettingsHelper
+    // private System.Boolean _useScriptableObjectColors
+    // Size: 0x1
+    // Offset: 0xBDD
+    bool useScriptableObjectColors;
+    // Field size check
+    static_assert(sizeof(bool) == 0x1);
+    // [NullAllowed] Offset: 0xF24AB8
+    // private ColorSO _colorSo
     // Size: 0x8
     // Offset: 0xBE0
+    GlobalNamespace::ColorSO* colorSo;
+    // Field size check
+    static_assert(sizeof(GlobalNamespace::ColorSO*) == 0x8);
+    // private readonly HMUI.CurvedCanvasSettingsHelper _curvedCanvasSettingsHelper
+    // Size: 0x8
+    // Offset: 0xBE8
     HMUI::CurvedCanvasSettingsHelper* curvedCanvasSettingsHelper;
     // Field size check
     static_assert(sizeof(HMUI::CurvedCanvasSettingsHelper*) == 0x8);
-    public:
+    // Creating value type constructor for type: CurvedTextMeshPro
+    CurvedTextMeshPro(bool useScriptableObjectColors_ = {}, GlobalNamespace::ColorSO* colorSo_ = {}, HMUI::CurvedCanvasSettingsHelper* curvedCanvasSettingsHelper_ = {}) noexcept : useScriptableObjectColors{useScriptableObjectColors_}, colorSo{colorSo_}, curvedCanvasSettingsHelper{curvedCanvasSettingsHelper_} {}
+    // Creating interface conversion operator: operator GlobalNamespace::IComponentRefresher
+    operator GlobalNamespace::IComponentRefresher() noexcept {
+      return *reinterpret_cast<GlobalNamespace::IComponentRefresher*>(this);
+    }
+    // Get instance field reference: private System.Boolean _useScriptableObjectColors
+    bool& dyn__useScriptableObjectColors();
+    // Get instance field reference: private ColorSO _colorSo
+    GlobalNamespace::ColorSO*& dyn__colorSo();
     // Get instance field reference: private readonly HMUI.CurvedCanvasSettingsHelper _curvedCanvasSettingsHelper
     HMUI::CurvedCanvasSettingsHelper*& dyn__curvedCanvasSettingsHelper();
+    // public System.Boolean get_useScriptableObjectColors()
+    // Offset: 0x149B94C
+    bool get_useScriptableObjectColors();
+    // public System.Void set_useScriptableObjectColors(System.Boolean value)
+    // Offset: 0x149B954
+    void set_useScriptableObjectColors(bool value);
+    // public System.Void __Refresh()
+    // Offset: 0x149BE28
+    void __Refresh();
+    // public override UnityEngine.Color get_color()
+    // Offset: 0x149B960
+    // Implemented from: TMPro.TMP_Text
+    // Base method: UnityEngine.Color TMP_Text::get_color()
+    UnityEngine::Color get_color();
+    // public override System.Void set_color(UnityEngine.Color value)
+    // Offset: 0x149BA00
+    // Implemented from: TMPro.TMP_Text
+    // Base method: System.Void TMP_Text::set_color(UnityEngine.Color value)
+    void set_color(UnityEngine::Color value);
     // public System.Void .ctor()
-    // Offset: 0x146C440
+    // Offset: 0x149BE38
     // Implemented from: TMPro.TextMeshProUGUI
     // Base method: System.Void TextMeshProUGUI::.ctor()
     // Base method: System.Void TMP_Text::.ctor()
@@ -69,19 +108,62 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<CurvedTextMeshPro*, creationType>()));
     }
     // protected override System.Void OnEnable()
-    // Offset: 0x146C0F8
+    // Offset: 0x149BA08
     // Implemented from: TMPro.TextMeshProUGUI
     // Base method: System.Void TextMeshProUGUI::OnEnable()
     void OnEnable();
     // protected override System.Void GenerateTextMesh()
-    // Offset: 0x146C138
+    // Offset: 0x149BA48
     // Implemented from: TMPro.TextMeshProUGUI
     // Base method: System.Void TextMeshProUGUI::GenerateTextMesh()
     void GenerateTextMesh();
   }; // HMUI.CurvedTextMeshPro
   // WARNING Not writing size check since size may be invalid!
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HMUI::CurvedTextMeshPro*, "HMUI", "CurvedTextMeshPro");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: HMUI::CurvedTextMeshPro::get_useScriptableObjectColors
+// Il2CppName: get_useScriptableObjectColors
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HMUI::CurvedTextMeshPro::*)()>(&HMUI::CurvedTextMeshPro::get_useScriptableObjectColors)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::CurvedTextMeshPro*), "get_useScriptableObjectColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: HMUI::CurvedTextMeshPro::set_useScriptableObjectColors
+// Il2CppName: set_useScriptableObjectColors
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::CurvedTextMeshPro::*)(bool)>(&HMUI::CurvedTextMeshPro::set_useScriptableObjectColors)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(HMUI::CurvedTextMeshPro*), "set_useScriptableObjectColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: HMUI::CurvedTextMeshPro::__Refresh
+// Il2CppName: __Refresh
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::CurvedTextMeshPro::*)()>(&HMUI::CurvedTextMeshPro::__Refresh)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::CurvedTextMeshPro*), "__Refresh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: HMUI::CurvedTextMeshPro::get_color
+// Il2CppName: get_color
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (HMUI::CurvedTextMeshPro::*)()>(&HMUI::CurvedTextMeshPro::get_color)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::CurvedTextMeshPro*), "get_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: HMUI::CurvedTextMeshPro::set_color
+// Il2CppName: set_color
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::CurvedTextMeshPro::*)(UnityEngine::Color)>(&HMUI::CurvedTextMeshPro::set_color)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(HMUI::CurvedTextMeshPro*), "set_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
 // Writing MetadataGetter for method: HMUI::CurvedTextMeshPro::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

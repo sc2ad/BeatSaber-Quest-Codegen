@@ -3,18 +3,10 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: ILevelGameplaySetupData
 #include "GlobalNamespace/ILevelGameplaySetupData.hpp"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: ILobbyPlayerData
-  class ILobbyPlayerData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::ILobbyPlayerData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ILobbyPlayerData*, "", "ILobbyPlayerData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -23,6 +15,8 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ILobbyPlayerData/*, public GlobalNamespace::ILevelGameplaySetupData*/ {
     public:
+    // Creating value type constructor for type: ILobbyPlayerData
+    ILobbyPlayerData() noexcept {}
     // Creating interface conversion operator: operator GlobalNamespace::ILevelGameplaySetupData
     operator GlobalNamespace::ILevelGameplaySetupData() noexcept {
       return *reinterpret_cast<GlobalNamespace::ILevelGameplaySetupData*>(this);
@@ -54,7 +48,9 @@ namespace GlobalNamespace {
   }; // ILobbyPlayerData
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ILobbyPlayerData*, "", "ILobbyPlayerData");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ILobbyPlayerData::get_isPartyOwner
 // Il2CppName: get_isPartyOwner
 template<>

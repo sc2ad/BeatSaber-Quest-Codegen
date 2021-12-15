@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: HoudiniEngineUnity.HAPI_GeoType
@@ -19,13 +19,6 @@ namespace HoudiniEngineUnity {
 // Completed forward declares
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
-  // Forward declaring type: HAPI_GeoInfo
-  struct HAPI_GeoInfo;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_GeoInfo, "HoudiniEngineUnity", "HAPI_GeoInfo");
-// Type namespace: HoudiniEngineUnity
-namespace HoudiniEngineUnity {
   // Size: 0x24
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -33,11 +26,6 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HAPI_GeoInfo/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public HoudiniEngineUnity.HAPI_GeoType type
     // Size: 0x4
     // Offset: 0x0
@@ -112,7 +100,6 @@ namespace HoudiniEngineUnity {
     int partCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: HAPI_GeoInfo
     constexpr HAPI_GeoInfo(HoudiniEngineUnity::HAPI_GeoType type_ = {}, int nameSH_ = {}, int nodeId_ = {}, bool isEditable_ = {}, bool isTemplated_ = {}, bool isDisplayGeo_ = {}, bool hasGeoChanged_ = {}, bool hasMaterialChanged_ = {}, int pointGroupCount_ = {}, int primitiveGroupCount_ = {}, int edgeGroupCount_ = {}, int partCount_ = {}) noexcept : type{type_}, nameSH{nameSH_}, nodeId{nodeId_}, isEditable{isEditable_}, isTemplated{isTemplated_}, isDisplayGeo{isDisplayGeo_}, hasGeoChanged{hasGeoChanged_}, hasMaterialChanged{hasMaterialChanged_}, pointGroupCount{pointGroupCount_}, primitiveGroupCount{primitiveGroupCount_}, edgeGroupCount{edgeGroupCount_}, partCount{partCount_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -144,14 +131,16 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Int32 partCount
     int& dyn_partCount();
     // public System.Int32 getGroupCountByType(HoudiniEngineUnity.HAPI_GroupType type)
-    // Offset: 0x141E220
+    // Offset: 0x1462D40
     int getGroupCountByType(HoudiniEngineUnity::HAPI_GroupType type);
   }; // HoudiniEngineUnity.HAPI_GeoInfo
   #pragma pack(pop)
   static check_size<sizeof(HAPI_GeoInfo), 32 + sizeof(int)> __HoudiniEngineUnity_HAPI_GeoInfoSizeCheck;
   static_assert(sizeof(HAPI_GeoInfo) == 0x24);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_GeoInfo, "HoudiniEngineUnity", "HAPI_GeoInfo");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HAPI_GeoInfo::getGroupCountByType
 // Il2CppName: getGroupCountByType
 template<>

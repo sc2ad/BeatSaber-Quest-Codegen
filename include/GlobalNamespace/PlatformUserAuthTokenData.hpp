@@ -3,14 +3,14 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -18,14 +18,6 @@ namespace GlobalNamespace {
   // Skipping declaration: PlatformEnviroment because it is already included!
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: PlatformUserAuthTokenData
-  class PlatformUserAuthTokenData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::PlatformUserAuthTokenData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformUserAuthTokenData*, "", "PlatformUserAuthTokenData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x19
@@ -42,18 +34,12 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct PlatformEnviroment/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Byte value__
       // Size: 0x1
       // Offset: 0x0
       uint8_t value;
       // Field size check
       static_assert(sizeof(uint8_t) == 0x1);
-      public:
       // Creating value type constructor for type: PlatformEnviroment
       constexpr PlatformEnviroment(uint8_t value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -88,11 +74,6 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(PlatformUserAuthTokenData::PlatformEnviroment), 0 + sizeof(uint8_t)> __GlobalNamespace_PlatformUserAuthTokenData_PlatformEnviromentSizeCheck;
     static_assert(sizeof(PlatformUserAuthTokenData::PlatformEnviroment) == 0x1);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.String <token>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -105,25 +86,26 @@ namespace GlobalNamespace {
     GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment validPlatformEnvironment;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment) == 0x1);
-    public:
+    // Creating value type constructor for type: PlatformUserAuthTokenData
+    PlatformUserAuthTokenData(::Il2CppString* token_ = {}, GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment validPlatformEnvironment_ = {}) noexcept : token{token_}, validPlatformEnvironment{validPlatformEnvironment_} {}
     // Get instance field reference: private System.String <token>k__BackingField
     ::Il2CppString*& dyn_$token$k__BackingField();
     // Get instance field reference: private PlatformUserAuthTokenData/PlatformEnviroment <validPlatformEnvironment>k__BackingField
     GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment& dyn_$validPlatformEnvironment$k__BackingField();
     // public System.String get_token()
-    // Offset: 0x12C5760
+    // Offset: 0x11514E8
     ::Il2CppString* get_token();
     // private System.Void set_token(System.String value)
-    // Offset: 0x12C5768
+    // Offset: 0x11514F0
     void set_token(::Il2CppString* value);
     // public PlatformUserAuthTokenData/PlatformEnviroment get_validPlatformEnvironment()
-    // Offset: 0x12C5770
+    // Offset: 0x11514F8
     GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment get_validPlatformEnvironment();
     // private System.Void set_validPlatformEnvironment(PlatformUserAuthTokenData/PlatformEnviroment value)
-    // Offset: 0x12C5778
+    // Offset: 0x1151500
     void set_validPlatformEnvironment(GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment value);
     // public System.Void .ctor(System.String token, PlatformUserAuthTokenData/PlatformEnviroment validPlatformEnvironment)
-    // Offset: 0x12C5780
+    // Offset: 0x1151508
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlatformUserAuthTokenData* New_ctor(::Il2CppString* token, GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment validPlatformEnvironment) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlatformUserAuthTokenData::.ctor");
@@ -134,9 +116,9 @@ namespace GlobalNamespace {
   static check_size<sizeof(PlatformUserAuthTokenData), 24 + sizeof(GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment)> __GlobalNamespace_PlatformUserAuthTokenDataSizeCheck;
   static_assert(sizeof(PlatformUserAuthTokenData) == 0x19);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformUserAuthTokenData*, "", "PlatformUserAuthTokenData");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment, "", "PlatformUserAuthTokenData/PlatformEnviroment");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlatformUserAuthTokenData::get_token
 // Il2CppName: get_token
 template<>

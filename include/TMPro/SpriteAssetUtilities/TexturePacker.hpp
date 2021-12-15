@@ -3,26 +3,18 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: TMPro::SpriteAssetUtilities
 namespace TMPro::SpriteAssetUtilities {
 }
 // Completed forward declares
-// Type namespace: TMPro.SpriteAssetUtilities
-namespace TMPro::SpriteAssetUtilities {
-  // Forward declaring type: TexturePacker
-  class TexturePacker;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(TMPro::SpriteAssetUtilities::TexturePacker);
-DEFINE_IL2CPP_ARG_TYPE(TMPro::SpriteAssetUtilities::TexturePacker*, "TMPro.SpriteAssetUtilities", "TexturePacker");
 // Type namespace: TMPro.SpriteAssetUtilities
 namespace TMPro::SpriteAssetUtilities {
   // Size: 0x10
@@ -39,8 +31,10 @@ namespace TMPro::SpriteAssetUtilities {
     struct SpriteData;
     // Nested type: TMPro::SpriteAssetUtilities::TexturePacker::SpriteDataObject
     class SpriteDataObject;
+    // Creating value type constructor for type: TexturePacker
+    TexturePacker() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x11EBCF0
+    // Offset: 0x1242460
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -51,7 +45,8 @@ namespace TMPro::SpriteAssetUtilities {
   }; // TMPro.SpriteAssetUtilities.TexturePacker
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::SpriteAssetUtilities::TexturePacker*, "TMPro.SpriteAssetUtilities", "TexturePacker");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::SpriteAssetUtilities::TexturePacker::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

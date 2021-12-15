@@ -3,29 +3,16 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+// Including type: TMPro.GlyphValueRecord_Legacy
+#include "TMPro/GlyphValueRecord_Legacy.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Begin forward declares
-// Forward declaring namespace: TMPro
-namespace TMPro {
-  // Forward declaring type: GlyphValueRecord_Legacy
-  struct GlyphValueRecord_Legacy;
-}
-// Forward declaring namespace: UnityEngine::TextCore::LowLevel
-namespace UnityEngine::TextCore::LowLevel {
-  // Forward declaring type: GlyphValueRecord
-  struct GlyphValueRecord;
-}
-// Completed forward declares
-// Type namespace: TMPro
-namespace TMPro {
-  // Forward declaring type: TMP_GlyphValueRecord
-  struct TMP_GlyphValueRecord;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_GlyphValueRecord, "TMPro", "TMP_GlyphValueRecord");
 // Type namespace: TMPro
 namespace TMPro {
   // Size: 0x10
@@ -35,11 +22,6 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   struct TMP_GlyphValueRecord/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Single m_XPlacement
     // Size: 0x4
     // Offset: 0x0
@@ -64,7 +46,6 @@ namespace TMPro {
     float m_YAdvance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
     // Creating value type constructor for type: TMP_GlyphValueRecord
     constexpr TMP_GlyphValueRecord(float m_XPlacement_ = {}, float m_YPlacement_ = {}, float m_XAdvance_ = {}, float m_YAdvance_ = {}) noexcept : m_XPlacement{m_XPlacement_}, m_YPlacement{m_YPlacement_}, m_XAdvance{m_XAdvance_}, m_YAdvance{m_YAdvance_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -80,47 +61,59 @@ namespace TMPro {
     // Get instance field reference: private System.Single m_YAdvance
     float& dyn_m_YAdvance();
     // public System.Single get_xPlacement()
-    // Offset: 0x11F7BA0
+    // Offset: 0x124E310
     float get_xPlacement();
     // public System.Void set_xPlacement(System.Single value)
-    // Offset: 0x11F7BA8
+    // Offset: 0x124E318
     void set_xPlacement(float value);
     // public System.Single get_yPlacement()
-    // Offset: 0x11F7BB0
+    // Offset: 0x124E320
     float get_yPlacement();
     // public System.Void set_yPlacement(System.Single value)
-    // Offset: 0x11F7BB8
+    // Offset: 0x124E328
     void set_yPlacement(float value);
     // public System.Single get_xAdvance()
-    // Offset: 0x11F7BC0
+    // Offset: 0x124E330
     float get_xAdvance();
     // public System.Void set_xAdvance(System.Single value)
-    // Offset: 0x11F7BC8
+    // Offset: 0x124E338
     void set_xAdvance(float value);
     // public System.Single get_yAdvance()
-    // Offset: 0x11F7BD0
+    // Offset: 0x124E340
     float get_yAdvance();
     // public System.Void set_yAdvance(System.Single value)
-    // Offset: 0x11F7BD8
+    // Offset: 0x124E348
     void set_yAdvance(float value);
     // public System.Void .ctor(System.Single xPlacement, System.Single yPlacement, System.Single xAdvance, System.Single yAdvance)
-    // Offset: 0x11F6228
-    // ABORTED: conflicts with another method.  TMP_GlyphValueRecord(float xPlacement, float yPlacement, float xAdvance, float yAdvance);
+    // Offset: 0x124C998
+    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    // ABORTED: conflicts with another method.  TMP_GlyphValueRecord(float xPlacement, float yPlacement, float xAdvance, float yAdvance)
     // System.Void .ctor(TMPro.GlyphValueRecord_Legacy valueRecord)
-    // Offset: 0x11F7BE0
-    TMP_GlyphValueRecord(TMPro::GlyphValueRecord_Legacy valueRecord);
+    // Offset: 0x124E350
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    TMP_GlyphValueRecord(TMPro::GlyphValueRecord_Legacy valueRecord) {
+      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_GlyphValueRecord::.ctor");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(valueRecord)})));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, valueRecord);
+    }
     // System.Void .ctor(UnityEngine.TextCore.LowLevel.GlyphValueRecord valueRecord)
-    // Offset: 0x11F7AD4
-    TMP_GlyphValueRecord(UnityEngine::TextCore::LowLevel::GlyphValueRecord valueRecord);
+    // Offset: 0x124E244
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    TMP_GlyphValueRecord(UnityEngine::TextCore::LowLevel::GlyphValueRecord valueRecord) {
+      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_GlyphValueRecord::.ctor");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(valueRecord)})));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, valueRecord);
+    }
   }; // TMPro.TMP_GlyphValueRecord
   #pragma pack(pop)
   static check_size<sizeof(TMP_GlyphValueRecord), 12 + sizeof(float)> __TMPro_TMP_GlyphValueRecordSizeCheck;
   static_assert(sizeof(TMP_GlyphValueRecord) == 0x10);
   // static public TMPro.TMP_GlyphValueRecord op_Addition(TMPro.TMP_GlyphValueRecord a, TMPro.TMP_GlyphValueRecord b)
-  // Offset: 0x11F7BEC
+  // Offset: 0x124E35C
   TMPro::TMP_GlyphValueRecord operator+(const TMPro::TMP_GlyphValueRecord& a, const TMPro::TMP_GlyphValueRecord& b);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_GlyphValueRecord, "TMPro", "TMP_GlyphValueRecord");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_GlyphValueRecord::get_xPlacement
 // Il2CppName: get_xPlacement
 template<>

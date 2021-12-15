@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: CutoutAnimateEffect
 #include "GlobalNamespace/CutoutAnimateEffect.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
 #include "System/Collections/Generic/IEnumerator_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <AnimateToCutoutCoroutine>d__7
-  class $AnimateToCutoutCoroutine$d__7;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::CutoutAnimateEffect::$AnimateToCutoutCoroutine$d__7);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CutoutAnimateEffect::$AnimateToCutoutCoroutine$d__7*, "", "CutoutAnimateEffect/<AnimateToCutoutCoroutine>d__7");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x38
@@ -31,11 +23,6 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class CutoutAnimateEffect::$AnimateToCutoutCoroutine$d__7 : public ::Il2CppObject/*, public System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -80,7 +67,8 @@ namespace GlobalNamespace {
     float $elapsedTime$5__2;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
+    // Creating value type constructor for type: $AnimateToCutoutCoroutine$d__7
+    $AnimateToCutoutCoroutine$d__7(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, GlobalNamespace::CutoutAnimateEffect* $$4__this_ = {}, float duration_ = {}, float cutoutStart_ = {}, float cutoutEnd_ = {}, float $elapsedTime$5__2_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$4__this{$$4__this_}, duration{duration_}, cutoutStart{cutoutStart_}, cutoutEnd{cutoutEnd_}, $elapsedTime$5__2{$elapsedTime$5__2_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
@@ -100,33 +88,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single <elapsedTime>5__2
     float& dyn_$elapsedTime$5__2();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x1138180
+    // Offset: 0x1193158
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x11381E8
+    // Offset: 0x11931C0
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1137E78
+    // Offset: 0x1192E50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CutoutAnimateEffect::$AnimateToCutoutCoroutine$d__7* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::CutoutAnimateEffect::$AnimateToCutoutCoroutine$d__7::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CutoutAnimateEffect::$AnimateToCutoutCoroutine$d__7*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x113803C
+    // Offset: 0x1193014
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1138040
+    // Offset: 0x1193018
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1138188
+    // Offset: 0x1193160
     void System_Collections_IEnumerator_Reset();
   }; // CutoutAnimateEffect/<AnimateToCutoutCoroutine>d__7
   #pragma pack(pop)
   static check_size<sizeof(CutoutAnimateEffect::$AnimateToCutoutCoroutine$d__7), 52 + sizeof(float)> __GlobalNamespace_CutoutAnimateEffect_$AnimateToCutoutCoroutine$d__7SizeCheck;
   static_assert(sizeof(CutoutAnimateEffect::$AnimateToCutoutCoroutine$d__7) == 0x38);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CutoutAnimateEffect::$AnimateToCutoutCoroutine$d__7*, "", "CutoutAnimateEffect/<AnimateToCutoutCoroutine>d__7");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CutoutAnimateEffect::$AnimateToCutoutCoroutine$d__7::System_Collections_Generic_IEnumerator$System_Object$_get_Current
 // Il2CppName: System.Collections.Generic.IEnumerator<System.Object>.get_Current
 template<>

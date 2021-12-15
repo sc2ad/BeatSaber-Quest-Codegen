@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: QuickPlaySongPacksDropdown
 #include "GlobalNamespace/QuickPlaySongPacksDropdown.hpp"
 // Including type: SongPackMask
 #include "GlobalNamespace/SongPackMask.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: SongPackMaskItem
-  class SongPackMaskItem;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem*, "", "QuickPlaySongPacksDropdown/SongPackMaskItem");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x38
@@ -30,11 +22,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class QuickPlaySongPacksDropdown::SongPackMaskItem : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.String serializedName
     // Size: 0x8
     // Offset: 0x10
@@ -61,7 +48,8 @@ namespace GlobalNamespace {
     GlobalNamespace::SongPackMask songPackMask;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SongPackMask) == 0x10);
-    public:
+    // Creating value type constructor for type: SongPackMaskItem
+    SongPackMaskItem(::Il2CppString* serializedName_ = {}, ::Il2CppString* localizedName_ = {}, int order_ = {}, GlobalNamespace::SongPackMask songPackMask_ = {}) noexcept : serializedName{serializedName_}, localizedName{localizedName_}, order{order_}, songPackMask{songPackMask_} {}
     // Get instance field reference: public System.String serializedName
     ::Il2CppString*& dyn_serializedName();
     // Get instance field reference: public System.String localizedName
@@ -71,7 +59,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public SongPackMask songPackMask
     GlobalNamespace::SongPackMask& dyn_songPackMask();
     // public System.Void .ctor()
-    // Offset: 0x1192D38
+    // Offset: 0x11B3050
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -84,7 +72,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(QuickPlaySongPacksDropdown::SongPackMaskItem), 40 + sizeof(GlobalNamespace::SongPackMask)> __GlobalNamespace_QuickPlaySongPacksDropdown_SongPackMaskItemSizeCheck;
   static_assert(sizeof(QuickPlaySongPacksDropdown::SongPackMaskItem) == 0x38);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem*, "", "QuickPlaySongPacksDropdown/SongPackMaskItem");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

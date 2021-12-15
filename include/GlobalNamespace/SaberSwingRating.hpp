@@ -3,19 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Single
 #include "System/Single.hpp"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: SaberSwingRating
-  class SaberSwingRating;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::SaberSwingRating);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberSwingRating*, "", "SaberSwingRating");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -24,6 +16,8 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SaberSwingRating : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: SaberSwingRating
+    SaberSwingRating() noexcept {}
     // static field const value: static public System.Single kMaxNormalAngleDiff
     static constexpr const float kMaxNormalAngleDiff = 90;
     // Get static field: static public System.Single kMaxNormalAngleDiff
@@ -61,18 +55,20 @@ namespace GlobalNamespace {
     // Set static field: static public System.Single kAfterCutAngleFor1Rating
     static void _set_kAfterCutAngleFor1Rating(float value);
     // static private System.Single NormalRating(System.Single normalDiff)
-    // Offset: 0x119E194
+    // Offset: 0x122B488
     static float NormalRating(float normalDiff);
     // static public System.Single BeforeCutStepRating(System.Single angleDiff, System.Single normalDiff)
-    // Offset: 0x119DEEC
+    // Offset: 0x122B1E0
     static float BeforeCutStepRating(float angleDiff, float normalDiff);
     // static public System.Single AfterCutStepRating(System.Single angleDiff, System.Single normalDiff)
-    // Offset: 0x119E228
+    // Offset: 0x122B51C
     static float AfterCutStepRating(float angleDiff, float normalDiff);
   }; // SaberSwingRating
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberSwingRating*, "", "SaberSwingRating");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SaberSwingRating::NormalRating
 // Il2CppName: NormalRating
 template<>

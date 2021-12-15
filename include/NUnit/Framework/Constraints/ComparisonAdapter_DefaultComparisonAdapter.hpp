@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: NUnit.Framework.Constraints.ComparisonAdapter
 #include "NUnit/Framework/Constraints/ComparisonAdapter.hpp"
 // Including type: NUnit.Framework.Constraints.ComparisonAdapter/NUnit.Framework.Constraints.ComparerAdapter
 #include "NUnit/Framework/Constraints/ComparisonAdapter_ComparerAdapter.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: NUnit.Framework.Constraints
-namespace NUnit::Framework::Constraints {
-  // Forward declaring type: DefaultComparisonAdapter
-  class DefaultComparisonAdapter;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(NUnit::Framework::Constraints::ComparisonAdapter::DefaultComparisonAdapter);
-DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::ComparisonAdapter::DefaultComparisonAdapter*, "NUnit.Framework.Constraints", "ComparisonAdapter/DefaultComparisonAdapter");
 // Type namespace: NUnit.Framework.Constraints
 namespace NUnit::Framework::Constraints {
   // Size: 0x18
@@ -30,8 +22,10 @@ namespace NUnit::Framework::Constraints {
   // [TokenAttribute] Offset: FFFFFFFF
   class ComparisonAdapter::DefaultComparisonAdapter : public NUnit::Framework::Constraints::ComparisonAdapter::ComparerAdapter {
     public:
+    // Creating value type constructor for type: DefaultComparisonAdapter
+    DefaultComparisonAdapter() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1911188
+    // Offset: 0x193634C
     // Implemented from: NUnit.Framework.Constraints.ComparisonAdapter
     // Base method: System.Void ComparisonAdapter::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -43,7 +37,8 @@ namespace NUnit::Framework::Constraints {
   }; // NUnit.Framework.Constraints.ComparisonAdapter/NUnit.Framework.Constraints.DefaultComparisonAdapter
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::ComparisonAdapter::DefaultComparisonAdapter*, "NUnit.Framework.Constraints", "ComparisonAdapter/DefaultComparisonAdapter");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::ComparisonAdapter::DefaultComparisonAdapter::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

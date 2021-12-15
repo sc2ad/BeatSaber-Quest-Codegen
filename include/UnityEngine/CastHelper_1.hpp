@@ -3,20 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
 // Completed includes
-// Type namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: CastHelper`1<T>
-  template<typename T>
-  struct CastHelper_1;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(UnityEngine::CastHelper_1, "UnityEngine", "CastHelper`1");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // WARNING Size may be invalid!
@@ -26,11 +19,6 @@ namespace UnityEngine {
   template<typename T>
   struct CastHelper_1/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public T t
     // Size: 0xFFFFFFFF
     // Offset: 0x0
@@ -41,7 +29,6 @@ namespace UnityEngine {
     System::IntPtr onePointerFurtherThanT;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
-    public:
     // Creating value type constructor for type: CastHelper_1
     constexpr CastHelper_1(T t_ = {}, System::IntPtr onePointerFurtherThanT_ = {}) noexcept : t{t_}, onePointerFurtherThanT{onePointerFurtherThanT_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -67,4 +54,6 @@ namespace UnityEngine {
   }; // UnityEngine.CastHelper`1
   // Could not write size check! Type: UnityEngine.CastHelper`1 is generic, or has no fields that are valid for size checks!
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(UnityEngine::CastHelper_1, "UnityEngine", "CastHelper`1");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

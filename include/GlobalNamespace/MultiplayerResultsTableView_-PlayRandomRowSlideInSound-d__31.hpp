@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MultiplayerResultsTableView
 #include "GlobalNamespace/MultiplayerResultsTableView.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
 #include "System/Collections/Generic/IEnumerator_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <PlayRandomRowSlideInSound>d__31
-  class $PlayRandomRowSlideInSound$d__31;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MultiplayerResultsTableView::$PlayRandomRowSlideInSound$d__31);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerResultsTableView::$PlayRandomRowSlideInSound$d__31*, "", "MultiplayerResultsTableView/<PlayRandomRowSlideInSound>d__31");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x30
@@ -31,11 +23,6 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class MultiplayerResultsTableView::$PlayRandomRowSlideInSound$d__31 : public ::Il2CppObject/*, public System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -64,7 +51,8 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerResultsTableView* $$4__this;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerResultsTableView*) == 0x8);
-    public:
+    // Creating value type constructor for type: $PlayRandomRowSlideInSound$d__31
+    $PlayRandomRowSlideInSound$d__31(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, float delay_ = {}, GlobalNamespace::MultiplayerResultsTableView* $$4__this_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, delay{delay_}, $$4__this{$$4__this_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
@@ -78,33 +66,34 @@ namespace GlobalNamespace {
     // Get instance field reference: public MultiplayerResultsTableView <>4__this
     GlobalNamespace::MultiplayerResultsTableView*& dyn_$$4__this();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x1117658
+    // Offset: 0x11772F8
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x11176C0
+    // Offset: 0x1177360
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1117254
+    // Offset: 0x1176EF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerResultsTableView::$PlayRandomRowSlideInSound$d__31* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerResultsTableView::$PlayRandomRowSlideInSound$d__31::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerResultsTableView::$PlayRandomRowSlideInSound$d__31*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1117554
+    // Offset: 0x11771F4
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1117558
+    // Offset: 0x11771F8
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1117660
+    // Offset: 0x1177300
     void System_Collections_IEnumerator_Reset();
   }; // MultiplayerResultsTableView/<PlayRandomRowSlideInSound>d__31
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerResultsTableView::$PlayRandomRowSlideInSound$d__31), 40 + sizeof(GlobalNamespace::MultiplayerResultsTableView*)> __GlobalNamespace_MultiplayerResultsTableView_$PlayRandomRowSlideInSound$d__31SizeCheck;
   static_assert(sizeof(MultiplayerResultsTableView::$PlayRandomRowSlideInSound$d__31) == 0x30);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerResultsTableView::$PlayRandomRowSlideInSound$d__31*, "", "MultiplayerResultsTableView/<PlayRandomRowSlideInSound>d__31");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerResultsTableView::$PlayRandomRowSlideInSound$d__31::System_Collections_Generic_IEnumerator$System_Object$_get_Current
 // Il2CppName: System.Collections.Generic.IEnumerator<System.Object>.get_Current
 template<>

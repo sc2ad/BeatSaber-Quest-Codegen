@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: CoreGameHUDController
 #include "GlobalNamespace/CoreGameHUDController.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: InitData
-  class InitData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::CoreGameHUDController::InitData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CoreGameHUDController::InitData*, "", "CoreGameHUDController/InitData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x13
@@ -28,11 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class CoreGameHUDController::InitData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public readonly System.Boolean hide
     // Size: 0x1
     // Offset: 0x10
@@ -51,7 +38,8 @@ namespace GlobalNamespace {
     bool advancedHUD;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: InitData
+    InitData(bool hide_ = {}, bool showEnergyPanel_ = {}, bool advancedHUD_ = {}) noexcept : hide{hide_}, showEnergyPanel{showEnergyPanel_}, advancedHUD{advancedHUD_} {}
     // Get instance field reference: public readonly System.Boolean hide
     bool& dyn_hide();
     // Get instance field reference: public readonly System.Boolean showEnergyPanel
@@ -59,7 +47,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Boolean advancedHUD
     bool& dyn_advancedHUD();
     // public System.Void .ctor(System.Boolean hide, System.Boolean showEnergyPanel, System.Boolean advancedHUD)
-    // Offset: 0x1133394
+    // Offset: 0x118E78C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CoreGameHUDController::InitData* New_ctor(bool hide, bool showEnergyPanel, bool advancedHUD) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::CoreGameHUDController::InitData::.ctor");
@@ -70,7 +58,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(CoreGameHUDController::InitData), 18 + sizeof(bool)> __GlobalNamespace_CoreGameHUDController_InitDataSizeCheck;
   static_assert(sizeof(CoreGameHUDController::InitData) == 0x13);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CoreGameHUDController::InitData*, "", "CoreGameHUDController/InitData");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CoreGameHUDController::InitData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.Reflection.MethodAttributes
@@ -13,7 +13,6 @@
 #include "System/Reflection/MethodImplAttributes.hpp"
 // Including type: System.Reflection.CallingConventions
 #include "System/Reflection/CallingConventions.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -33,13 +32,6 @@ namespace System::Reflection {
 // Completed forward declares
 // Type namespace: System.Reflection
 namespace System::Reflection {
-  // Forward declaring type: MonoMethodInfo
-  struct MonoMethodInfo;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoMethodInfo, "System.Reflection", "MonoMethodInfo");
-// Type namespace: System.Reflection
-namespace System::Reflection {
   // Size: 0x1C
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -47,11 +39,6 @@ namespace System::Reflection {
   // [TokenAttribute] Offset: FFFFFFFF
   struct MonoMethodInfo/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Type parent
     // Size: 0x8
     // Offset: 0x0
@@ -82,7 +69,6 @@ namespace System::Reflection {
     System::Reflection::CallingConventions callconv;
     // Field size check
     static_assert(sizeof(System::Reflection::CallingConventions) == 0x4);
-    public:
     // Creating value type constructor for type: MonoMethodInfo
     constexpr MonoMethodInfo(System::Type* parent_ = {}, System::Type* ret_ = {}, System::Reflection::MethodAttributes attrs_ = {}, System::Reflection::MethodImplAttributes iattrs_ = {}, System::Reflection::CallingConventions callconv_ = {}) noexcept : parent{parent_}, ret{ret_}, attrs{attrs_}, iattrs{iattrs_}, callconv{callconv_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -100,41 +86,43 @@ namespace System::Reflection {
     // Get instance field reference: private System.Reflection.CallingConventions callconv
     System::Reflection::CallingConventions& dyn_callconv();
     // static private System.Void get_method_info(System.IntPtr handle, out System.Reflection.MonoMethodInfo info)
-    // Offset: 0x1E9500C
+    // Offset: 0x1E9AA6C
     static void get_method_info(System::IntPtr handle, ByRef<System::Reflection::MonoMethodInfo> info);
     // static private System.Int32 get_method_attributes(System.IntPtr handle)
-    // Offset: 0x1E95010
+    // Offset: 0x1E9AA70
     static int get_method_attributes(System::IntPtr handle);
     // static System.Reflection.MonoMethodInfo GetMethodInfo(System.IntPtr handle)
-    // Offset: 0x1E94AE0
+    // Offset: 0x1E9A540
     static System::Reflection::MonoMethodInfo GetMethodInfo(System::IntPtr handle);
     // static System.Type GetDeclaringType(System.IntPtr handle)
-    // Offset: 0x1E93334
+    // Offset: 0x1E98D94
     static System::Type* GetDeclaringType(System::IntPtr handle);
     // static System.Type GetReturnType(System.IntPtr handle)
-    // Offset: 0x1E943EC
+    // Offset: 0x1E99E4C
     static System::Type* GetReturnType(System::IntPtr handle);
     // static System.Reflection.MethodAttributes GetAttributes(System.IntPtr handle)
-    // Offset: 0x1E9326C
+    // Offset: 0x1E98CCC
     static System::Reflection::MethodAttributes GetAttributes(System::IntPtr handle);
     // static System.Reflection.CallingConventions GetCallingConvention(System.IntPtr handle)
-    // Offset: 0x1E932A0
+    // Offset: 0x1E98D00
     static System::Reflection::CallingConventions GetCallingConvention(System::IntPtr handle);
     // static System.Reflection.MethodImplAttributes GetMethodImplementationFlags(System.IntPtr handle)
-    // Offset: 0x1E92AD8
+    // Offset: 0x1E98538
     static System::Reflection::MethodImplAttributes GetMethodImplementationFlags(System::IntPtr handle);
     // static private System.Reflection.ParameterInfo[] get_parameter_info(System.IntPtr handle, System.Reflection.MemberInfo member)
-    // Offset: 0x1E95014
-    static ::ArrayW<System::Reflection::ParameterInfo*> get_parameter_info(System::IntPtr handle, System::Reflection::MemberInfo* member);
+    // Offset: 0x1E9AA74
+    static ::Array<System::Reflection::ParameterInfo*>* get_parameter_info(System::IntPtr handle, System::Reflection::MemberInfo* member);
     // static System.Reflection.ParameterInfo[] GetParametersInfo(System.IntPtr handle, System.Reflection.MemberInfo member)
-    // Offset: 0x1E92B10
-    static ::ArrayW<System::Reflection::ParameterInfo*> GetParametersInfo(System::IntPtr handle, System::Reflection::MemberInfo* member);
+    // Offset: 0x1E98570
+    static ::Array<System::Reflection::ParameterInfo*>* GetParametersInfo(System::IntPtr handle, System::Reflection::MemberInfo* member);
   }; // System.Reflection.MonoMethodInfo
   #pragma pack(pop)
   static check_size<sizeof(MonoMethodInfo), 24 + sizeof(System::Reflection::CallingConventions)> __System_Reflection_MonoMethodInfoSizeCheck;
   static_assert(sizeof(MonoMethodInfo) == 0x1C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoMethodInfo, "System.Reflection", "MonoMethodInfo");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::MonoMethodInfo::get_method_info
 // Il2CppName: get_method_info
 template<>
@@ -211,7 +199,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: System::Reflection::MonoMethodInfo::get_parameter_info
 // Il2CppName: get_parameter_info
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Reflection::ParameterInfo*> (*)(System::IntPtr, System::Reflection::MemberInfo*)>(&System::Reflection::MonoMethodInfo::get_parameter_info)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::ParameterInfo*>* (*)(System::IntPtr, System::Reflection::MemberInfo*)>(&System::Reflection::MonoMethodInfo::get_parameter_info)> {
   static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* member = &::il2cpp_utils::GetClassFromName("System.Reflection", "MemberInfo")->byval_arg;
@@ -221,7 +209,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Sy
 // Writing MetadataGetter for method: System::Reflection::MonoMethodInfo::GetParametersInfo
 // Il2CppName: GetParametersInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Reflection::ParameterInfo*> (*)(System::IntPtr, System::Reflection::MemberInfo*)>(&System::Reflection::MonoMethodInfo::GetParametersInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::ParameterInfo*>* (*)(System::IntPtr, System::Reflection::MemberInfo*)>(&System::Reflection::MonoMethodInfo::GetParametersInfo)> {
   static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* member = &::il2cpp_utils::GetClassFromName("System.Reflection", "MemberInfo")->byval_arg;

@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ComponentModel.BaseNumberConverter
 #include "System/ComponentModel/BaseNumberConverter.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.ComponentModel
-namespace System::ComponentModel {
-  // Forward declaring type: SingleConverter
-  class SingleConverter;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::ComponentModel::SingleConverter);
-DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::SingleConverter*, "System.ComponentModel", "SingleConverter");
 // Type namespace: System.ComponentModel
 namespace System::ComponentModel {
   // Size: 0x10
@@ -28,8 +20,10 @@ namespace System::ComponentModel {
   // [TokenAttribute] Offset: FFFFFFFF
   class SingleConverter : public System::ComponentModel::BaseNumberConverter {
     public:
+    // Creating value type constructor for type: SingleConverter
+    SingleConverter() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1A07EA8
+    // Offset: 0x1A27558
     // Implemented from: System.ComponentModel.BaseNumberConverter
     // Base method: System.Void BaseNumberConverter::.ctor()
     // Base method: System.Void TypeConverter::.ctor()
@@ -42,7 +36,8 @@ namespace System::ComponentModel {
   }; // System.ComponentModel.SingleConverter
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::SingleConverter*, "System.ComponentModel", "SingleConverter");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ComponentModel::SingleConverter::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.NetworkInformation.IPGlobalProperties
 #include "System/Net/NetworkInformation/IPGlobalProperties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Net.NetworkInformation
-namespace System::Net::NetworkInformation {
-  // Forward declaring type: Win32IPGlobalProperties
-  class Win32IPGlobalProperties;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::NetworkInformation::Win32IPGlobalProperties);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32IPGlobalProperties*, "System.Net.NetworkInformation", "Win32IPGlobalProperties");
 // Type namespace: System.Net.NetworkInformation
 namespace System::Net::NetworkInformation {
   // Size: 0x10
@@ -28,13 +20,15 @@ namespace System::Net::NetworkInformation {
   // [TokenAttribute] Offset: FFFFFFFF
   class Win32IPGlobalProperties : public System::Net::NetworkInformation::IPGlobalProperties {
     public:
+    // Creating value type constructor for type: Win32IPGlobalProperties
+    Win32IPGlobalProperties() noexcept {}
     // public override System.String get_DomainName()
-    // Offset: 0x162DDC0
+    // Offset: 0x16A9A04
     // Implemented from: System.Net.NetworkInformation.IPGlobalProperties
     // Base method: System.String IPGlobalProperties::get_DomainName()
     ::Il2CppString* get_DomainName();
     // public System.Void .ctor()
-    // Offset: 0x162A2E4
+    // Offset: 0x16A5F28
     // Implemented from: System.Net.NetworkInformation.IPGlobalProperties
     // Base method: System.Void IPGlobalProperties::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -46,7 +40,8 @@ namespace System::Net::NetworkInformation {
   }; // System.Net.NetworkInformation.Win32IPGlobalProperties
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32IPGlobalProperties*, "System.Net.NetworkInformation", "Win32IPGlobalProperties");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::NetworkInformation::Win32IPGlobalProperties::get_DomainName
 // Il2CppName: get_DomainName
 template<>

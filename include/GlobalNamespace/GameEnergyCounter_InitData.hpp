@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: GameEnergyCounter
 #include "GlobalNamespace/GameEnergyCounter.hpp"
 // Including type: GameplayModifiers/EnergyType
 #include "GlobalNamespace/GameplayModifiers.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: InitData
-  class InitData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::GameEnergyCounter::InitData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameEnergyCounter::InitData*, "", "GameEnergyCounter/InitData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x17
@@ -30,11 +22,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GameEnergyCounter::InitData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public readonly GameplayModifiers/EnergyType energyType
     // Size: 0x4
     // Offset: 0x10
@@ -59,7 +46,8 @@ namespace GlobalNamespace {
     bool failOnSaberClash;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: InitData
+    InitData(GlobalNamespace::GameplayModifiers::EnergyType energyType_ = {}, bool noFail_ = {}, bool instaFail_ = {}, bool failOnSaberClash_ = {}) noexcept : energyType{energyType_}, noFail{noFail_}, instaFail{instaFail_}, failOnSaberClash{failOnSaberClash_} {}
     // Get instance field reference: public readonly GameplayModifiers/EnergyType energyType
     GlobalNamespace::GameplayModifiers::EnergyType& dyn_energyType();
     // Get instance field reference: public readonly System.Boolean noFail
@@ -69,7 +57,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Boolean failOnSaberClash
     bool& dyn_failOnSaberClash();
     // public System.Void .ctor(GameplayModifiers/EnergyType energyType, System.Boolean noFail, System.Boolean instaFail, System.Boolean failOnSaberClash)
-    // Offset: 0x11A7750
+    // Offset: 0x11EB49C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameEnergyCounter::InitData* New_ctor(GlobalNamespace::GameplayModifiers::EnergyType energyType, bool noFail, bool instaFail, bool failOnSaberClash) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::GameEnergyCounter::InitData::.ctor");
@@ -80,7 +68,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(GameEnergyCounter::InitData), 22 + sizeof(bool)> __GlobalNamespace_GameEnergyCounter_InitDataSizeCheck;
   static_assert(sizeof(GameEnergyCounter::InitData) == 0x17);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameEnergyCounter::InitData*, "", "GameEnergyCounter/InitData");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameEnergyCounter::InitData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

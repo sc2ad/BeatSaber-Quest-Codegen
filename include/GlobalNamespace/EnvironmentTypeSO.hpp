@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ScriptableObject
 #include "UnityEngine/ScriptableObject.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: EnvironmentTypeSO
-  class EnvironmentTypeSO;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::EnvironmentTypeSO);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentTypeSO*, "", "EnvironmentTypeSO");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -28,27 +20,23 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class EnvironmentTypeSO : public UnityEngine::ScriptableObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.String _typeNameLocalizationKey
     // Size: 0x8
     // Offset: 0x18
     ::Il2CppString* typeNameLocalizationKey;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: EnvironmentTypeSO
+    EnvironmentTypeSO(::Il2CppString* typeNameLocalizationKey_ = {}) noexcept : typeNameLocalizationKey{typeNameLocalizationKey_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _typeNameLocalizationKey
     ::Il2CppString*& dyn__typeNameLocalizationKey();
     // public System.String get_typeNameLocalizationKey()
-    // Offset: 0x116D2B8
+    // Offset: 0x11DF7D8
     ::Il2CppString* get_typeNameLocalizationKey();
     // public System.Void .ctor()
-    // Offset: 0x116D2C0
+    // Offset: 0x11DF7E0
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -63,7 +51,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(EnvironmentTypeSO), 24 + sizeof(::Il2CppString*)> __GlobalNamespace_EnvironmentTypeSOSizeCheck;
   static_assert(sizeof(EnvironmentTypeSO) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentTypeSO*, "", "EnvironmentTypeSO");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EnvironmentTypeSO::get_typeNameLocalizationKey
 // Il2CppName: get_typeNameLocalizationKey
 template<>

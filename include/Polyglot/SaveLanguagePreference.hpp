@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: Polyglot.ILocalize
 #include "Polyglot/ILocalize.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Polyglot
-namespace Polyglot {
-  // Forward declaring type: SaveLanguagePreference
-  class SaveLanguagePreference;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Polyglot::SaveLanguagePreference);
-DEFINE_IL2CPP_ARG_TYPE(Polyglot::SaveLanguagePreference*, "Polyglot", "SaveLanguagePreference");
 // Type namespace: Polyglot
 namespace Polyglot {
   // Size: 0x20
@@ -30,18 +22,14 @@ namespace Polyglot {
   // [TokenAttribute] Offset: FFFFFFFF
   class SaveLanguagePreference : public UnityEngine::MonoBehaviour/*, public Polyglot::ILocalize*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.String preferenceKey
     // Size: 0x8
     // Offset: 0x18
     ::Il2CppString* preferenceKey;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: SaveLanguagePreference
+    SaveLanguagePreference(::Il2CppString* preferenceKey_ = {}) noexcept : preferenceKey{preferenceKey_} {}
     // Creating interface conversion operator: operator Polyglot::ILocalize
     operator Polyglot::ILocalize() noexcept {
       return *reinterpret_cast<Polyglot::ILocalize*>(this);
@@ -51,13 +39,13 @@ namespace Polyglot {
     // Get instance field reference: private System.String preferenceKey
     ::Il2CppString*& dyn_preferenceKey();
     // public System.Void Start()
-    // Offset: 0x2569E3C
+    // Offset: 0x262B5E8
     void Start();
     // public System.Void OnLocalize()
-    // Offset: 0x2569E90
+    // Offset: 0x262B63C
     void OnLocalize();
     // public System.Void .ctor()
-    // Offset: 0x2569EC4
+    // Offset: 0x262B670
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -74,7 +62,8 @@ namespace Polyglot {
   static check_size<sizeof(SaveLanguagePreference), 24 + sizeof(::Il2CppString*)> __Polyglot_SaveLanguagePreferenceSizeCheck;
   static_assert(sizeof(SaveLanguagePreference) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Polyglot::SaveLanguagePreference*, "Polyglot", "SaveLanguagePreference");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Polyglot::SaveLanguagePreference::Start
 // Il2CppName: Start
 template<>

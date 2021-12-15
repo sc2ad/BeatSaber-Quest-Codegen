@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Timeline.TimelineAsset
 #include "UnityEngine/Timeline/TimelineAsset.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: UnityEngine.Timeline
-namespace UnityEngine::Timeline {
-  // Forward declaring type: EditorSettings
-  class EditorSettings;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Timeline::TimelineAsset::EditorSettings);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineAsset::EditorSettings*, "UnityEngine.Timeline", "TimelineAsset/EditorSettings");
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {
   // Size: 0x15
@@ -28,11 +20,6 @@ namespace UnityEngine::Timeline {
   // [TokenAttribute] Offset: FFFFFFFF
   class TimelineAsset::EditorSettings : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Single m_Framerate
     // Size: 0x4
     // Offset: 0x10
@@ -45,7 +32,8 @@ namespace UnityEngine::Timeline {
     bool m_ScenePreview;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: EditorSettings
+    EditorSettings(float m_Framerate_ = {}, bool m_ScenePreview_ = {}) noexcept : m_Framerate{m_Framerate_}, m_ScenePreview{m_ScenePreview_} {}
     // Get static field: static readonly System.Single kMinFps
     static float _get_kMinFps();
     // Set static field: static readonly System.Single kMinFps
@@ -63,22 +51,22 @@ namespace UnityEngine::Timeline {
     // Get instance field reference: private System.Boolean m_ScenePreview
     bool& dyn_m_ScenePreview();
     // public System.Single get_fps()
-    // Offset: 0x2545388
+    // Offset: 0x2610CC8
     float get_fps();
     // public System.Void set_fps(System.Single value)
-    // Offset: 0x2545390
+    // Offset: 0x2610CD0
     void set_fps(float value);
     // public System.Boolean get_scenePreview()
-    // Offset: 0x25453B8
+    // Offset: 0x2610CF8
     bool get_scenePreview();
     // public System.Void set_scenePreview(System.Boolean value)
-    // Offset: 0x25453C0
+    // Offset: 0x2610D00
     void set_scenePreview(bool value);
     // static private System.Void .cctor()
-    // Offset: 0x254544C
+    // Offset: 0x2610D8C
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x25453CC
+    // Offset: 0x2610D0C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -91,7 +79,8 @@ namespace UnityEngine::Timeline {
   static check_size<sizeof(TimelineAsset::EditorSettings), 20 + sizeof(bool)> __UnityEngine_Timeline_TimelineAsset_EditorSettingsSizeCheck;
   static_assert(sizeof(TimelineAsset::EditorSettings) == 0x15);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineAsset::EditorSettings*, "UnityEngine.Timeline", "TimelineAsset/EditorSettings");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineAsset::EditorSettings::get_fps
 // Il2CppName: get_fps
 template<>

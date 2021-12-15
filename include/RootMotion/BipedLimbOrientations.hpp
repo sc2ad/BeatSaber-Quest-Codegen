@@ -3,26 +3,18 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: RootMotion
 namespace RootMotion {
 }
 // Completed forward declares
-// Type namespace: RootMotion
-namespace RootMotion {
-  // Forward declaring type: BipedLimbOrientations
-  class BipedLimbOrientations;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::BipedLimbOrientations);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::BipedLimbOrientations*, "RootMotion", "BipedLimbOrientations");
 // Type namespace: RootMotion
 namespace RootMotion {
   // Size: 0x30
@@ -33,11 +25,6 @@ namespace RootMotion {
     public:
     // Nested type: RootMotion::BipedLimbOrientations::LimbOrientation
     class LimbOrientation;
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public RootMotion.BipedLimbOrientations/RootMotion.LimbOrientation leftArm
     // Size: 0x8
     // Offset: 0x10
@@ -62,7 +49,8 @@ namespace RootMotion {
     RootMotion::BipedLimbOrientations::LimbOrientation* rightLeg;
     // Field size check
     static_assert(sizeof(RootMotion::BipedLimbOrientations::LimbOrientation*) == 0x8);
-    public:
+    // Creating value type constructor for type: BipedLimbOrientations
+    BipedLimbOrientations(RootMotion::BipedLimbOrientations::LimbOrientation* leftArm_ = {}, RootMotion::BipedLimbOrientations::LimbOrientation* rightArm_ = {}, RootMotion::BipedLimbOrientations::LimbOrientation* leftLeg_ = {}, RootMotion::BipedLimbOrientations::LimbOrientation* rightLeg_ = {}) noexcept : leftArm{leftArm_}, rightArm{rightArm_}, leftLeg{leftLeg_}, rightLeg{rightLeg_} {}
     // Get instance field reference: public RootMotion.BipedLimbOrientations/RootMotion.LimbOrientation leftArm
     RootMotion::BipedLimbOrientations::LimbOrientation*& dyn_leftArm();
     // Get instance field reference: public RootMotion.BipedLimbOrientations/RootMotion.LimbOrientation rightArm
@@ -72,13 +60,13 @@ namespace RootMotion {
     // Get instance field reference: public RootMotion.BipedLimbOrientations/RootMotion.LimbOrientation rightLeg
     RootMotion::BipedLimbOrientations::LimbOrientation*& dyn_rightLeg();
     // static public RootMotion.BipedLimbOrientations get_UMA()
-    // Offset: 0x1E9D2C0
+    // Offset: 0x1EA2D20
     static RootMotion::BipedLimbOrientations* get_UMA();
     // static public RootMotion.BipedLimbOrientations get_MaxBiped()
-    // Offset: 0x1E9D5AC
+    // Offset: 0x1EA300C
     static RootMotion::BipedLimbOrientations* get_MaxBiped();
     // public System.Void .ctor(RootMotion.BipedLimbOrientations/RootMotion.LimbOrientation leftArm, RootMotion.BipedLimbOrientations/RootMotion.LimbOrientation rightArm, RootMotion.BipedLimbOrientations/RootMotion.LimbOrientation leftLeg, RootMotion.BipedLimbOrientations/RootMotion.LimbOrientation rightLeg)
-    // Offset: 0x1E9D274
+    // Offset: 0x1EA2CD4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BipedLimbOrientations* New_ctor(RootMotion::BipedLimbOrientations::LimbOrientation* leftArm, RootMotion::BipedLimbOrientations::LimbOrientation* rightArm, RootMotion::BipedLimbOrientations::LimbOrientation* leftLeg, RootMotion::BipedLimbOrientations::LimbOrientation* rightLeg) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::BipedLimbOrientations::.ctor");
@@ -89,7 +77,8 @@ namespace RootMotion {
   static check_size<sizeof(BipedLimbOrientations), 40 + sizeof(RootMotion::BipedLimbOrientations::LimbOrientation*)> __RootMotion_BipedLimbOrientationsSizeCheck;
   static_assert(sizeof(BipedLimbOrientations) == 0x30);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::BipedLimbOrientations*, "RootMotion", "BipedLimbOrientations");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::BipedLimbOrientations::get_UMA
 // Il2CppName: get_UMA
 template<>

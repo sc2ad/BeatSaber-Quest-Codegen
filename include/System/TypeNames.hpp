@@ -3,22 +3,14 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
 namespace System {
 }
 // Completed forward declares
-// Type namespace: System
-namespace System {
-  // Forward declaring type: TypeNames
-  class TypeNames;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::TypeNames);
-DEFINE_IL2CPP_ARG_TYPE(System::TypeNames*, "System", "TypeNames");
 // Type namespace: System
 namespace System {
   // Size: 0x10
@@ -29,7 +21,11 @@ namespace System {
     public:
     // Nested type: System::TypeNames::ATypeName
     class ATypeName;
+    // Creating value type constructor for type: TypeNames
+    TypeNames() noexcept {}
   }; // System.TypeNames
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::TypeNames*, "System", "TypeNames");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

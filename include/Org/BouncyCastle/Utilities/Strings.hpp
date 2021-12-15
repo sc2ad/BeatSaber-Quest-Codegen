@@ -3,19 +3,10 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/typedefs.h"
 #include <initializer_list>
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: Org.BouncyCastle.Utilities
-namespace Org::BouncyCastle::Utilities {
-  // Forward declaring type: Strings
-  class Strings;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Utilities::Strings);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Strings*, "Org.BouncyCastle.Utilities", "Strings");
 // Type namespace: Org.BouncyCastle.Utilities
 namespace Org::BouncyCastle::Utilities {
   // Size: 0x10
@@ -24,32 +15,43 @@ namespace Org::BouncyCastle::Utilities {
   // [TokenAttribute] Offset: FFFFFFFF
   class Strings : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: Strings
+    Strings() noexcept {}
     // static System.Boolean IsOneOf(System.String s, params System.String[] candidates)
-    // Offset: 0x216D534
-    static bool IsOneOf(::Il2CppString* s, ::ArrayW<::Il2CppString*> candidates);
+    // Offset: 0x222C360
+    static bool IsOneOf(::Il2CppString* s, ::Array<::Il2CppString*>* candidates);
+    // Creating initializer_list -> params proxy for: System.Boolean IsOneOf(System.String s, params System.String[] candidates)
+    static bool IsOneOf(::Il2CppString* s, std::initializer_list<::Il2CppString*> candidates);
+    // Creating TArgs -> initializer_list proxy for: System.Boolean IsOneOf(System.String s, params System.String[] candidates)
+    template<class ...TParams>
+    static bool IsOneOf(::Il2CppString* s, TParams&&... candidates) {
+      return IsOneOf(s, {candidates...});
+    }
     // static public System.String FromByteArray(System.Byte[] bs)
-    // Offset: 0x216D5C0
-    static ::Il2CppString* FromByteArray(::ArrayW<uint8_t> bs);
+    // Offset: 0x222C3EC
+    static ::Il2CppString* FromByteArray(::Array<uint8_t>* bs);
     // static public System.Byte[] ToByteArray(System.Char[] cs)
-    // Offset: 0x216D6C4
-    static ::ArrayW<uint8_t> ToByteArray(::ArrayW<::Il2CppChar> cs);
+    // Offset: 0x222C4F0
+    static ::Array<uint8_t>* ToByteArray(::Array<::Il2CppChar>* cs);
     // static public System.Byte[] ToByteArray(System.String s)
-    // Offset: 0x216D7C0
-    static ::ArrayW<uint8_t> ToByteArray(::Il2CppString* s);
+    // Offset: 0x222C5EC
+    static ::Array<uint8_t>* ToByteArray(::Il2CppString* s);
     // static public System.String FromAsciiByteArray(System.Byte[] bytes)
-    // Offset: 0x216ABB0
-    static ::Il2CppString* FromAsciiByteArray(::ArrayW<uint8_t> bytes);
+    // Offset: 0x22299DC
+    static ::Il2CppString* FromAsciiByteArray(::Array<uint8_t>* bytes);
     // static public System.Byte[] ToAsciiByteArray(System.String s)
-    // Offset: 0x216D8B8
-    static ::ArrayW<uint8_t> ToAsciiByteArray(::Il2CppString* s);
+    // Offset: 0x222C6E4
+    static ::Array<uint8_t>* ToAsciiByteArray(::Il2CppString* s);
   }; // Org.BouncyCastle.Utilities.Strings
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Strings*, "Org.BouncyCastle.Utilities", "Strings");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Strings::IsOneOf
 // Il2CppName: IsOneOf
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::ArrayW<::Il2CppString*>)>(&Org::BouncyCastle::Utilities::Strings::IsOneOf)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Array<::Il2CppString*>*)>(&Org::BouncyCastle::Utilities::Strings::IsOneOf)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* candidates = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
@@ -59,7 +61,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Strings::FromByteArray
 // Il2CppName: FromByteArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::ArrayW<uint8_t>)>(&Org::BouncyCastle::Utilities::Strings::FromByteArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Array<uint8_t>*)>(&Org::BouncyCastle::Utilities::Strings::FromByteArray)> {
   static const MethodInfo* get() {
     static auto* bs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Strings*), "FromByteArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bs});
@@ -68,7 +70,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Strings::ToByteArray
 // Il2CppName: ToByteArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::ArrayW<::Il2CppChar>)>(&Org::BouncyCastle::Utilities::Strings::ToByteArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Array<::Il2CppChar>*)>(&Org::BouncyCastle::Utilities::Strings::ToByteArray)> {
   static const MethodInfo* get() {
     static auto* cs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Strings*), "ToByteArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cs});
@@ -77,7 +79,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<ui
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Strings::ToByteArray
 // Il2CppName: ToByteArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::Il2CppString*)>(&Org::BouncyCastle::Utilities::Strings::ToByteArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Il2CppString*)>(&Org::BouncyCastle::Utilities::Strings::ToByteArray)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Strings*), "ToByteArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
@@ -86,7 +88,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<ui
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Strings::FromAsciiByteArray
 // Il2CppName: FromAsciiByteArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::ArrayW<uint8_t>)>(&Org::BouncyCastle::Utilities::Strings::FromAsciiByteArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Array<uint8_t>*)>(&Org::BouncyCastle::Utilities::Strings::FromAsciiByteArray)> {
   static const MethodInfo* get() {
     static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Strings*), "FromAsciiByteArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bytes});
@@ -95,7 +97,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Strings::ToAsciiByteArray
 // Il2CppName: ToAsciiByteArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::Il2CppString*)>(&Org::BouncyCastle::Utilities::Strings::ToAsciiByteArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Il2CppString*)>(&Org::BouncyCastle::Utilities::Strings::ToAsciiByteArray)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Strings*), "ToAsciiByteArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});

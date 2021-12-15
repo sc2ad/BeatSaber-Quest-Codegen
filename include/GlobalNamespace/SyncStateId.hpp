@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: LiteNetLib.Utils.INetImmutableSerializable`1
@@ -13,6 +13,10 @@
 #include "System/IEquatable_1.hpp"
 // Including type: System.Byte
 #include "System/Byte.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: LiteNetLib::Utils
@@ -25,13 +29,6 @@ namespace LiteNetLib::Utils {
 // Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
-  // Forward declaring type: SyncStateId
-  struct SyncStateId;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SyncStateId, "", "SyncStateId");
-// Type namespace: 
-namespace GlobalNamespace {
   // Size: 0x1
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -40,18 +37,12 @@ namespace GlobalNamespace {
   // [IsReadOnlyAttribute] Offset: FFFFFFFF
   struct SyncStateId/*, public System::ValueType, public LiteNetLib::Utils::INetImmutableSerializable_1<GlobalNamespace::SyncStateId>, public System::IEquatable_1<GlobalNamespace::SyncStateId>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private readonly System.Byte _id
     // Size: 0x1
     // Offset: 0x0
     uint8_t id;
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
-    public:
     // Creating value type constructor for type: SyncStateId
     constexpr SyncStateId(uint8_t id_ = {}) noexcept : id{id_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -79,44 +70,45 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Byte _id
     uint8_t& dyn__id();
     // private System.Void .ctor(System.Byte id)
-    // Offset: 0x18C10C8
-    // ABORTED: conflicts with another method.  SyncStateId(uint8_t id);
+    // Offset: 0x268D990
+    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    // ABORTED: conflicts with another method.  SyncStateId(uint8_t id)
     // public System.Boolean Equals(SyncStateId other)
-    // Offset: 0x18C10D0
+    // Offset: 0x268D998
     bool Equals(GlobalNamespace::SyncStateId other);
     // public SyncStateId Increment()
-    // Offset: 0x18C11E0
+    // Offset: 0x268DAA8
     GlobalNamespace::SyncStateId Increment();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x18B5C78
+    // Offset: 0x268D894
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void SerializeWithFlag(LiteNetLib.Utils.NetDataWriter writer, System.Boolean flag)
-    // Offset: 0x18B59B8
+    // Offset: 0x268D5DC
     void SerializeWithFlag(LiteNetLib::Utils::NetDataWriter* writer, bool flag);
     // static public SyncStateId Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x18B5CEC
+    // Offset: 0x268D908
     static GlobalNamespace::SyncStateId Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // static public SyncStateId DeserializeWithFlag(LiteNetLib.Utils.NetDataReader reader, out System.Boolean flag)
-    // Offset: 0x18B5A5C
+    // Offset: 0x268D67C
     static GlobalNamespace::SyncStateId DeserializeWithFlag(LiteNetLib::Utils::NetDataReader* reader, ByRef<bool> flag);
     // public SyncStateId CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x18C11F0
+    // Offset: 0x268DAB8
     GlobalNamespace::SyncStateId CreateFromSerializedData(LiteNetLib::Utils::NetDataReader* reader);
     // static public System.Boolean WithinRange(SyncStateId a, SyncStateId b, System.Int32 range)
-    // Offset: 0x18C1218
+    // Offset: 0x268DAE0
     static bool WithinRange(GlobalNamespace::SyncStateId a, GlobalNamespace::SyncStateId b, int range);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x18C10E0
+    // Offset: 0x268D9A8
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x18C1168
+    // Offset: 0x268DA30
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x18C1194
+    // Offset: 0x268DA5C
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
@@ -125,13 +117,14 @@ namespace GlobalNamespace {
   static check_size<sizeof(SyncStateId), 0 + sizeof(uint8_t)> __GlobalNamespace_SyncStateIdSizeCheck;
   static_assert(sizeof(SyncStateId) == 0x1);
   // static public System.Boolean op_Equality(SyncStateId a, SyncStateId b)
-  // Offset: 0x18C11C0
+  // Offset: 0x268DA88
   bool operator ==(const GlobalNamespace::SyncStateId& a, const GlobalNamespace::SyncStateId& b);
   // static public System.Boolean op_Inequality(SyncStateId a, SyncStateId b)
-  // Offset: 0x18C11D0
+  // Offset: 0x268DA98
   bool operator !=(const GlobalNamespace::SyncStateId& a, const GlobalNamespace::SyncStateId& b);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SyncStateId, "", "SyncStateId");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SyncStateId::SyncStateId
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

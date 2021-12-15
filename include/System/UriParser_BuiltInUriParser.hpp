@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.UriParser
 #include "System/UriParser.hpp"
 // Including type: System.UriSyntaxFlags
 #include "System/UriSyntaxFlags.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System
-namespace System {
-  // Forward declaring type: BuiltInUriParser
-  class BuiltInUriParser;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::UriParser::BuiltInUriParser);
-DEFINE_IL2CPP_ARG_TYPE(System::UriParser::BuiltInUriParser*, "System", "UriParser/BuiltInUriParser");
 // Type namespace: System
 namespace System {
   // Size: 0x28
@@ -30,8 +22,10 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class UriParser::BuiltInUriParser : public System::UriParser {
     public:
+    // Creating value type constructor for type: BuiltInUriParser
+    BuiltInUriParser() noexcept {}
     // System.Void .ctor(System.String lwrCaseScheme, System.Int32 defaultPort, System.UriSyntaxFlags syntaxFlags)
-    // Offset: 0x25DCA90
+    // Offset: 0x26A1880
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UriParser::BuiltInUriParser* New_ctor(::Il2CppString* lwrCaseScheme, int defaultPort, System::UriSyntaxFlags syntaxFlags) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::UriParser::BuiltInUriParser::.ctor");
@@ -40,7 +34,8 @@ namespace System {
   }; // System.UriParser/System.BuiltInUriParser
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::UriParser::BuiltInUriParser*, "System", "UriParser/BuiltInUriParser");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::UriParser::BuiltInUriParser::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

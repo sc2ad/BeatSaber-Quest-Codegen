@@ -3,17 +3,10 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-// Type namespace: TMPro
-namespace TMPro {
-  // Forward declaring type: TagAttribute
-  struct TagAttribute;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(TMPro::TagAttribute, "TMPro", "TagAttribute");
 // Type namespace: TMPro
 namespace TMPro {
   // Size: 0xC
@@ -23,11 +16,6 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   struct TagAttribute/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 startIndex
     // Size: 0x4
     // Offset: 0x0
@@ -46,7 +34,6 @@ namespace TMPro {
     int hashCode;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: TagAttribute
     constexpr TagAttribute(int startIndex_ = {}, int length_ = {}, int hashCode_ = {}) noexcept : startIndex{startIndex_}, length{length_}, hashCode{hashCode_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -64,4 +51,6 @@ namespace TMPro {
   static check_size<sizeof(TagAttribute), 8 + sizeof(int)> __TMPro_TagAttributeSizeCheck;
   static_assert(sizeof(TagAttribute) == 0xC);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TagAttribute, "TMPro", "TagAttribute");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

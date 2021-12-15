@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IEquatable`1
 #include "System/IEquatable_1.hpp"
 // Including type: System.Security.Cryptography.RSASignaturePaddingMode
 #include "System/Security/Cryptography/RSASignaturePaddingMode.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Security.Cryptography
-namespace System::Security::Cryptography {
-  // Forward declaring type: RSASignaturePadding
-  class RSASignaturePadding;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Security::Cryptography::RSASignaturePadding);
-DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RSASignaturePadding*, "System.Security.Cryptography", "RSASignaturePadding");
 // Type namespace: System.Security.Cryptography
 namespace System::Security::Cryptography {
   // Size: 0x14
@@ -30,18 +22,14 @@ namespace System::Security::Cryptography {
   // [TokenAttribute] Offset: FFFFFFFF
   class RSASignaturePadding : public ::Il2CppObject/*, public System::IEquatable_1<System::Security::Cryptography::RSASignaturePadding*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private readonly System.Security.Cryptography.RSASignaturePaddingMode _mode
     // Size: 0x4
     // Offset: 0x10
     System::Security::Cryptography::RSASignaturePaddingMode mode;
     // Field size check
     static_assert(sizeof(System::Security::Cryptography::RSASignaturePaddingMode) == 0x4);
-    public:
+    // Creating value type constructor for type: RSASignaturePadding
+    RSASignaturePadding(System::Security::Cryptography::RSASignaturePaddingMode mode_ = {}) noexcept : mode{mode_} {}
     // Creating interface conversion operator: operator System::IEquatable_1<System::Security::Cryptography::RSASignaturePadding*>
     operator System::IEquatable_1<System::Security::Cryptography::RSASignaturePadding*>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<System::Security::Cryptography::RSASignaturePadding*>*>(this);
@@ -61,33 +49,33 @@ namespace System::Security::Cryptography {
     // Get instance field reference: private readonly System.Security.Cryptography.RSASignaturePaddingMode _mode
     System::Security::Cryptography::RSASignaturePaddingMode& dyn__mode();
     // static public System.Security.Cryptography.RSASignaturePadding get_Pkcs1()
-    // Offset: 0x1CA6B04
+    // Offset: 0x1D1656C
     static System::Security::Cryptography::RSASignaturePadding* get_Pkcs1();
     // private System.Void .ctor(System.Security.Cryptography.RSASignaturePaddingMode mode)
-    // Offset: 0x1CA6AD8
+    // Offset: 0x1D16540
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RSASignaturePadding* New_ctor(System::Security::Cryptography::RSASignaturePaddingMode mode) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::RSASignaturePadding::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RSASignaturePadding*, creationType>(mode)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1CA6D34
+    // Offset: 0x1D1679C
     static void _cctor();
     // public System.Boolean Equals(System.Security.Cryptography.RSASignaturePadding other)
-    // Offset: 0x1CA6C0C
+    // Offset: 0x1D16674
     bool Equals(System::Security::Cryptography::RSASignaturePadding* other);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1CA6B6C
+    // Offset: 0x1D165D4
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1CA6B98
+    // Offset: 0x1D16600
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.String ToString()
-    // Offset: 0x1CA6CA8
+    // Offset: 0x1D16710
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
@@ -96,13 +84,14 @@ namespace System::Security::Cryptography {
   static check_size<sizeof(RSASignaturePadding), 16 + sizeof(System::Security::Cryptography::RSASignaturePaddingMode)> __System_Security_Cryptography_RSASignaturePaddingSizeCheck;
   static_assert(sizeof(RSASignaturePadding) == 0x14);
   // static public System.Boolean op_Equality(System.Security.Cryptography.RSASignaturePadding left, System.Security.Cryptography.RSASignaturePadding right)
-  // Offset: 0x1CA4B30
+  // Offset: 0x1D14598
   bool operator ==(System::Security::Cryptography::RSASignaturePadding* left, System::Security::Cryptography::RSASignaturePadding& right);
   // static public System.Boolean op_Inequality(System.Security.Cryptography.RSASignaturePadding left, System.Security.Cryptography.RSASignaturePadding right)
-  // Offset: 0x1CA5AB4
+  // Offset: 0x1D1551C
   bool operator !=(System::Security::Cryptography::RSASignaturePadding* left, System::Security::Cryptography::RSASignaturePadding& right);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RSASignaturePadding*, "System.Security.Cryptography", "RSASignaturePadding");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::RSASignaturePadding::get_Pkcs1
 // Il2CppName: get_Pkcs1
 template<>

@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRHandTest
 #include "GlobalNamespace/OVRHandTest.hpp"
 // Including type: OVRHandTest/BoolMonitor
 #include "GlobalNamespace/OVRHandTest_BoolMonitor.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <>c
-  class $$c;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRHandTest::$$c);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHandTest::$$c*, "", "OVRHandTest/<>c");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -31,6 +23,8 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class OVRHandTest::$$c : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: $$c
+    $$c() noexcept {}
     // Get static field: static public readonly OVRHandTest/<>c <>9
     static GlobalNamespace::OVRHandTest::$$c* _get_$$9();
     // Set static field: static public readonly OVRHandTest/<>c <>9
@@ -40,16 +34,16 @@ namespace GlobalNamespace {
     // Set static field: static public OVRHandTest/BoolMonitor/BoolGenerator <>9__14_0
     static void _set_$$9__14_0(GlobalNamespace::OVRHandTest::BoolMonitor::BoolGenerator* value);
     // static private System.Void .cctor()
-    // Offset: 0x16AA2D8
+    // Offset: 0x17676F4
     static void _cctor();
     // System.Boolean <Start>b__14_0()
-    // Offset: 0x16AA344
+    // Offset: 0x1767760
     bool $Start$b__14_0();
     // System.Boolean <.cctor>b__19_0()
-    // Offset: 0x16AA420
+    // Offset: 0x176783C
     bool $_cctor$b__19_0();
     // public System.Void .ctor()
-    // Offset: 0x16AA33C
+    // Offset: 0x1767758
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -60,7 +54,8 @@ namespace GlobalNamespace {
   }; // OVRHandTest/<>c
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHandTest::$$c*, "", "OVRHandTest/<>c");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRHandTest::$$c::_cctor
 // Il2CppName: .cctor
 template<>

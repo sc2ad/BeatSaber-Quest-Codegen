@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: FrameCounter
-  class FrameCounter;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::FrameCounter);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FrameCounter*, "", "FrameCounter");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x1C
@@ -28,30 +20,26 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class FrameCounter : public UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Int32 _numberOfFrames
     // Size: 0x4
     // Offset: 0x18
     int numberOfFrames;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
+    // Creating value type constructor for type: FrameCounter
+    FrameCounter(int numberOfFrames_ = {}) noexcept : numberOfFrames{numberOfFrames_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Int32 _numberOfFrames
     int& dyn__numberOfFrames();
     // private System.Void Update()
-    // Offset: 0x1365FF0
+    // Offset: 0x1396BE4
     void Update();
     // private System.Void OnDestroy()
-    // Offset: 0x1366000
+    // Offset: 0x1396BF4
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x13660B4
+    // Offset: 0x1396CA8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -68,7 +56,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(FrameCounter), 24 + sizeof(int)> __GlobalNamespace_FrameCounterSizeCheck;
   static_assert(sizeof(FrameCounter) == 0x1C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FrameCounter*, "", "FrameCounter");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FrameCounter::Update
 // Il2CppName: Update
 template<>

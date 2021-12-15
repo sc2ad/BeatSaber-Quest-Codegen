@@ -3,27 +3,19 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HoudiniEngineUnity.IEquivable`1
 #include "HoudiniEngineUnity/IEquivable_1.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.Quaternion
 #include "UnityEngine/Quaternion.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: HoudiniEngineUnity
-namespace HoudiniEngineUnity {
-  // Forward declaring type: CurveNodeData
-  class CurveNodeData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::CurveNodeData);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::CurveNodeData*, "HoudiniEngineUnity", "CurveNodeData");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x34
@@ -32,11 +24,6 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class CurveNodeData : public ::Il2CppObject/*, public HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::CurveNodeData*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public UnityEngine.Vector3 position
     // Size: 0xC
     // Offset: 0x10
@@ -55,7 +42,8 @@ namespace HoudiniEngineUnity {
     UnityEngine::Vector3 scale;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    public:
+    // Creating value type constructor for type: CurveNodeData
+    CurveNodeData(UnityEngine::Vector3 position_ = {}, UnityEngine::Vector3 rotation_ = {}, UnityEngine::Vector3 scale_ = {}) noexcept : position{position_}, rotation{rotation_}, scale{scale_} {}
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::CurveNodeData*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::CurveNodeData*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::CurveNodeData*>*>(this);
@@ -67,41 +55,41 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public UnityEngine.Vector3 scale
     UnityEngine::Vector3& dyn_scale();
     // public System.Void .ctor(UnityEngine.Vector3 position)
-    // Offset: 0x141DC20
+    // Offset: 0x1462740
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CurveNodeData* New_ctor(UnityEngine::Vector3 position) {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::CurveNodeData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CurveNodeData*, creationType>(position)));
     }
     // public System.Void .ctor(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation)
-    // Offset: 0x141DCE0
+    // Offset: 0x1462800
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CurveNodeData* New_ctor(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation) {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::CurveNodeData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CurveNodeData*, creationType>(position, rotation)));
     }
     // public System.Void .ctor(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, UnityEngine.Vector3 scale)
-    // Offset: 0x141DDC4
+    // Offset: 0x14628E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CurveNodeData* New_ctor(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation, UnityEngine::Vector3 scale) {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::CurveNodeData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CurveNodeData*, creationType>(position, rotation, scale)));
     }
     // public System.Void .ctor(HoudiniEngineUnity.CurveNodeData other)
-    // Offset: 0x141DEBC
+    // Offset: 0x14629DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CurveNodeData* New_ctor(HoudiniEngineUnity::CurveNodeData* other) {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::CurveNodeData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CurveNodeData*, creationType>(other)));
     }
     // public UnityEngine.Quaternion GetRotation()
-    // Offset: 0x141DF9C
+    // Offset: 0x1462ABC
     UnityEngine::Quaternion GetRotation();
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.CurveNodeData other)
-    // Offset: 0x141E024
+    // Offset: 0x1462B44
     bool IsEquivalentTo(HoudiniEngineUnity::CurveNodeData* other);
     // public System.Void .ctor()
-    // Offset: 0x141DB88
+    // Offset: 0x14626A8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -114,7 +102,8 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(CurveNodeData), 40 + sizeof(UnityEngine::Vector3)> __HoudiniEngineUnity_CurveNodeDataSizeCheck;
   static_assert(sizeof(CurveNodeData) == 0x34);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::CurveNodeData*, "HoudiniEngineUnity", "CurveNodeData");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::CurveNodeData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

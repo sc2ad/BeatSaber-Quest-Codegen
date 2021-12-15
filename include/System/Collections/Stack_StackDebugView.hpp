@@ -3,19 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Collections.Stack
 #include "System/Collections/Stack.hpp"
 // Completed includes
-// Type namespace: System.Collections
-namespace System::Collections {
-  // Forward declaring type: StackDebugView
-  class StackDebugView;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Collections::Stack::StackDebugView);
-DEFINE_IL2CPP_ARG_TYPE(System::Collections::Stack::StackDebugView*, "System.Collections", "Stack/StackDebugView");
 // Type namespace: System.Collections
 namespace System::Collections {
   // Size: 0x10
@@ -24,7 +16,11 @@ namespace System::Collections {
   // [TokenAttribute] Offset: FFFFFFFF
   class Stack::StackDebugView : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: StackDebugView
+    StackDebugView() noexcept {}
   }; // System.Collections.Stack/System.Collections.StackDebugView
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Collections::Stack::StackDebugView*, "System.Collections", "Stack/StackDebugView");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

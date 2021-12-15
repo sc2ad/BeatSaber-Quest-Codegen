@@ -3,17 +3,9 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: System
-namespace System {
-  // Forward declaring type: LocalAppContextSwitches
-  class LocalAppContextSwitches;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::LocalAppContextSwitches);
-DEFINE_IL2CPP_ARG_TYPE(System::LocalAppContextSwitches*, "System", "LocalAppContextSwitches");
 // Type namespace: System
 namespace System {
   // Size: 0x10
@@ -22,6 +14,8 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class LocalAppContextSwitches : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: LocalAppContextSwitches
+    LocalAppContextSwitches() noexcept {}
     // Get static field: static public readonly System.Boolean DontThrowOnInvalidSurrogatePairs
     static bool _get_DontThrowOnInvalidSurrogatePairs();
     // Set static field: static public readonly System.Boolean DontThrowOnInvalidSurrogatePairs
@@ -29,4 +23,6 @@ namespace System {
   }; // System.LocalAppContextSwitches
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::LocalAppContextSwitches*, "System", "LocalAppContextSwitches");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -3,16 +3,16 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: UnityEngine.LogType
 #include "UnityEngine/LogType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -22,14 +22,6 @@ namespace System::Collections::Generic {
   class List_1;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: PackedPlayModeBuildLogs
-  class PackedPlayModeBuildLogs;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::PackedPlayModeBuildLogs);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PackedPlayModeBuildLogs*, "", "PackedPlayModeBuildLogs");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x18
@@ -47,11 +39,6 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct RuntimeBuildLog/*, public System::ValueType*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public UnityEngine.LogType Type
       // Size: 0x4
       // Offset: 0x0
@@ -66,7 +53,6 @@ namespace GlobalNamespace {
       ::Il2CppString* Message;
       // Field size check
       static_assert(sizeof(::Il2CppString*) == 0x8);
-      public:
       // Creating value type constructor for type: RuntimeBuildLog
       constexpr RuntimeBuildLog(UnityEngine::LogType Type_ = {}, ::Il2CppString* Message_ = {}) noexcept : Type{Type_}, Message{Message_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -78,24 +64,21 @@ namespace GlobalNamespace {
       // Get instance field reference: public System.String Message
       ::Il2CppString*& dyn_Message();
       // public System.Void .ctor(UnityEngine.LogType type, System.String message)
-      // Offset: 0x156F9F8
-      // ABORTED: conflicts with another method.  RuntimeBuildLog(UnityEngine::LogType type, ::Il2CppString* message);
+      // Offset: 0x15FCCEC
+      // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+      // ABORTED: conflicts with another method.  RuntimeBuildLog(UnityEngine::LogType type, ::Il2CppString* message)
     }; // PackedPlayModeBuildLogs/RuntimeBuildLog
     #pragma pack(pop)
     static check_size<sizeof(PackedPlayModeBuildLogs::RuntimeBuildLog), 8 + sizeof(::Il2CppString*)> __GlobalNamespace_PackedPlayModeBuildLogs_RuntimeBuildLogSizeCheck;
     static_assert(sizeof(PackedPlayModeBuildLogs::RuntimeBuildLog) == 0x10);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Collections.Generic.List`1<PackedPlayModeBuildLogs/RuntimeBuildLog> m_RuntimeBuildLogs
     // Size: 0x8
     // Offset: 0x10
     System::Collections::Generic::List_1<GlobalNamespace::PackedPlayModeBuildLogs::RuntimeBuildLog>* m_RuntimeBuildLogs;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::PackedPlayModeBuildLogs::RuntimeBuildLog>*) == 0x8);
-    public:
+    // Creating value type constructor for type: PackedPlayModeBuildLogs
+    PackedPlayModeBuildLogs(System::Collections::Generic::List_1<GlobalNamespace::PackedPlayModeBuildLogs::RuntimeBuildLog>* m_RuntimeBuildLogs_ = {}) noexcept : m_RuntimeBuildLogs{m_RuntimeBuildLogs_} {}
     // Creating conversion operator: operator System::Collections::Generic::List_1<GlobalNamespace::PackedPlayModeBuildLogs::RuntimeBuildLog>*
     constexpr operator System::Collections::Generic::List_1<GlobalNamespace::PackedPlayModeBuildLogs::RuntimeBuildLog>*() const noexcept {
       return m_RuntimeBuildLogs;
@@ -103,13 +86,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.List`1<PackedPlayModeBuildLogs/RuntimeBuildLog> m_RuntimeBuildLogs
     System::Collections::Generic::List_1<GlobalNamespace::PackedPlayModeBuildLogs::RuntimeBuildLog>*& dyn_m_RuntimeBuildLogs();
     // public System.Collections.Generic.List`1<PackedPlayModeBuildLogs/RuntimeBuildLog> get_RuntimeBuildLogs()
-    // Offset: 0x156F978
+    // Offset: 0x15FCC6C
     System::Collections::Generic::List_1<GlobalNamespace::PackedPlayModeBuildLogs::RuntimeBuildLog>* get_RuntimeBuildLogs();
     // public System.Void set_RuntimeBuildLogs(System.Collections.Generic.List`1<PackedPlayModeBuildLogs/RuntimeBuildLog> value)
-    // Offset: 0x156F980
+    // Offset: 0x15FCC74
     void set_RuntimeBuildLogs(System::Collections::Generic::List_1<GlobalNamespace::PackedPlayModeBuildLogs::RuntimeBuildLog>* value);
     // public System.Void .ctor()
-    // Offset: 0x156F988
+    // Offset: 0x15FCC7C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -122,9 +105,9 @@ namespace GlobalNamespace {
   static check_size<sizeof(PackedPlayModeBuildLogs), 16 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::PackedPlayModeBuildLogs::RuntimeBuildLog>*)> __GlobalNamespace_PackedPlayModeBuildLogsSizeCheck;
   static_assert(sizeof(PackedPlayModeBuildLogs) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PackedPlayModeBuildLogs*, "", "PackedPlayModeBuildLogs");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PackedPlayModeBuildLogs::RuntimeBuildLog, "", "PackedPlayModeBuildLogs/RuntimeBuildLog");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PackedPlayModeBuildLogs::get_RuntimeBuildLogs
 // Il2CppName: get_RuntimeBuildLogs
 template<>

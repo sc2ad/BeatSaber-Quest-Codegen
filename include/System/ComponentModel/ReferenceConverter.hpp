@@ -3,19 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ComponentModel.TypeConverter
 #include "System/ComponentModel/TypeConverter.hpp"
 // Completed includes
-// Type namespace: System.ComponentModel
-namespace System::ComponentModel {
-  // Forward declaring type: ReferenceConverter
-  class ReferenceConverter;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::ComponentModel::ReferenceConverter);
-DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::ReferenceConverter*, "System.ComponentModel", "ReferenceConverter");
 // Type namespace: System.ComponentModel
 namespace System::ComponentModel {
   // Size: 0x10
@@ -24,17 +16,21 @@ namespace System::ComponentModel {
   // [TokenAttribute] Offset: FFFFFFFF
   class ReferenceConverter : public System::ComponentModel::TypeConverter {
     public:
+    // Creating value type constructor for type: ReferenceConverter
+    ReferenceConverter() noexcept {}
     // Get static field: static private readonly System.String none
     static ::Il2CppString* _get_none();
     // Set static field: static private readonly System.String none
     static void _set_none(::Il2CppString* value);
     // static private System.Void .cctor()
-    // Offset: 0x1A07CDC
+    // Offset: 0x1A2738C
     static void _cctor();
   }; // System.ComponentModel.ReferenceConverter
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::ReferenceConverter*, "System.ComponentModel", "ReferenceConverter");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ComponentModel::ReferenceConverter::_cctor
 // Il2CppName: .cctor
 template<>

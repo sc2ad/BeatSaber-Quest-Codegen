@@ -3,18 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: BeatmapEventType
-  struct BeatmapEventType;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapEventType, "", "BeatmapEventType");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x4
@@ -23,18 +16,12 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct BeatmapEventType/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: BeatmapEventType
     constexpr BeatmapEventType(int value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -153,6 +140,30 @@ namespace GlobalNamespace {
     static GlobalNamespace::BeatmapEventType _get_Event17();
     // Set static field: static public BeatmapEventType Event17
     static void _set_Event17(GlobalNamespace::BeatmapEventType value);
+    // static field const value: static public BeatmapEventType Event18
+    static constexpr const int Event18 = 18;
+    // Get static field: static public BeatmapEventType Event18
+    static GlobalNamespace::BeatmapEventType _get_Event18();
+    // Set static field: static public BeatmapEventType Event18
+    static void _set_Event18(GlobalNamespace::BeatmapEventType value);
+    // static field const value: static public BeatmapEventType Event19
+    static constexpr const int Event19 = 19;
+    // Get static field: static public BeatmapEventType Event19
+    static GlobalNamespace::BeatmapEventType _get_Event19();
+    // Set static field: static public BeatmapEventType Event19
+    static void _set_Event19(GlobalNamespace::BeatmapEventType value);
+    // static field const value: static public BeatmapEventType Event20
+    static constexpr const int Event20 = 20;
+    // Get static field: static public BeatmapEventType Event20
+    static GlobalNamespace::BeatmapEventType _get_Event20();
+    // Set static field: static public BeatmapEventType Event20
+    static void _set_Event20(GlobalNamespace::BeatmapEventType value);
+    // static field const value: static public BeatmapEventType Event21
+    static constexpr const int Event21 = 21;
+    // Get static field: static public BeatmapEventType Event21
+    static GlobalNamespace::BeatmapEventType _get_Event21();
+    // Set static field: static public BeatmapEventType Event21
+    static void _set_Event21(GlobalNamespace::BeatmapEventType value);
     // static field const value: static public BeatmapEventType VoidEvent
     static constexpr const int VoidEvent = -1;
     // Get static field: static public BeatmapEventType VoidEvent
@@ -196,4 +207,6 @@ namespace GlobalNamespace {
   static check_size<sizeof(BeatmapEventType), 0 + sizeof(int)> __GlobalNamespace_BeatmapEventTypeSizeCheck;
   static_assert(sizeof(BeatmapEventType) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapEventType, "", "BeatmapEventType");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

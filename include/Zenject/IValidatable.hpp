@@ -3,16 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: Zenject
-namespace Zenject {
-  // Forward declaring type: IValidatable
-  class IValidatable;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::IValidatable);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::IValidatable*, "Zenject", "IValidatable");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x10
@@ -21,13 +13,17 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class IValidatable {
     public:
+    // Creating value type constructor for type: IValidatable
+    IValidatable() noexcept {}
     // public System.Void Validate()
     // Offset: 0xFFFFFFFF
     void Validate();
   }; // Zenject.IValidatable
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Zenject::IValidatable*, "Zenject", "IValidatable");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::IValidatable::Validate
 // Il2CppName: Validate
 template<>

@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.EventSystems.EventTrigger
 #include "UnityEngine/EventSystems/EventTrigger.hpp"
 // Including type: UnityEngine.EventSystems.EventTriggerType
 #include "UnityEngine/EventSystems/EventTriggerType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: UnityEngine.EventSystems
-namespace UnityEngine::EventSystems {
-  // Forward declaring type: Entry
-  class Entry;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::EventSystems::EventTrigger::Entry);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::EventTrigger::Entry*, "UnityEngine.EventSystems", "EventTrigger/Entry");
 // Type namespace: UnityEngine.EventSystems
 namespace UnityEngine::EventSystems {
   // Size: 0x20
@@ -30,11 +22,6 @@ namespace UnityEngine::EventSystems {
   // [TokenAttribute] Offset: FFFFFFFF
   class EventTrigger::Entry : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public UnityEngine.EventSystems.EventTriggerType eventID
     // Size: 0x4
     // Offset: 0x10
@@ -49,13 +36,14 @@ namespace UnityEngine::EventSystems {
     UnityEngine::EventSystems::EventTrigger::TriggerEvent* callback;
     // Field size check
     static_assert(sizeof(UnityEngine::EventSystems::EventTrigger::TriggerEvent*) == 0x8);
-    public:
+    // Creating value type constructor for type: Entry
+    Entry(UnityEngine::EventSystems::EventTriggerType eventID_ = {}, UnityEngine::EventSystems::EventTrigger::TriggerEvent* callback_ = {}) noexcept : eventID{eventID_}, callback{callback_} {}
     // Get instance field reference: public UnityEngine.EventSystems.EventTriggerType eventID
     UnityEngine::EventSystems::EventTriggerType& dyn_eventID();
     // Get instance field reference: public UnityEngine.EventSystems.EventTrigger/UnityEngine.EventSystems.TriggerEvent callback
     UnityEngine::EventSystems::EventTrigger::TriggerEvent*& dyn_callback();
     // public System.Void .ctor()
-    // Offset: 0x15D48F8
+    // Offset: 0x1663BEC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -68,7 +56,8 @@ namespace UnityEngine::EventSystems {
   static check_size<sizeof(EventTrigger::Entry), 24 + sizeof(UnityEngine::EventSystems::EventTrigger::TriggerEvent*)> __UnityEngine_EventSystems_EventTrigger_EntrySizeCheck;
   static_assert(sizeof(EventTrigger::Entry) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::EventTrigger::Entry*, "UnityEngine.EventSystems", "EventTrigger/Entry");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::EventSystems::EventTrigger::Entry::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

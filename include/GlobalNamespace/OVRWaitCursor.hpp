@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: OVRWaitCursor
-  class OVRWaitCursor;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRWaitCursor);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRWaitCursor*, "", "OVRWaitCursor");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x24
@@ -28,27 +20,23 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRWaitCursor : public UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public UnityEngine.Vector3 rotateSpeeds
     // Size: 0xC
     // Offset: 0x18
     UnityEngine::Vector3 rotateSpeeds;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    public:
+    // Creating value type constructor for type: OVRWaitCursor
+    OVRWaitCursor(UnityEngine::Vector3 rotateSpeeds_ = {}) noexcept : rotateSpeeds{rotateSpeeds_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public UnityEngine.Vector3 rotateSpeeds
     UnityEngine::Vector3& dyn_rotateSpeeds();
     // private System.Void Update()
-    // Offset: 0x20CABBC
+    // Offset: 0x216D498
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x20CAC78
+    // Offset: 0x216D554
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -65,7 +53,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRWaitCursor), 24 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_OVRWaitCursorSizeCheck;
   static_assert(sizeof(OVRWaitCursor) == 0x24);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRWaitCursor*, "", "OVRWaitCursor");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRWaitCursor::Update
 // Il2CppName: Update
 template<>

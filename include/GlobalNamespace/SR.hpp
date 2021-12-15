@@ -3,17 +3,9 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: SR
-  class SR;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::SR);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SR*, "", "SR");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -22,16 +14,20 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SR : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: SR
+    SR() noexcept {}
     // static System.String Format(System.String resourceFormat, System.Object p1)
-    // Offset: 0x1C3CB44
+    // Offset: 0x1C95C3C
     static ::Il2CppString* Format(::Il2CppString* resourceFormat, ::Il2CppObject* p1);
     // static System.String Format(System.String resourceFormat, System.Object p1, System.Object p2)
-    // Offset: 0x1C3CBC4
+    // Offset: 0x1C95CBC
     static ::Il2CppString* Format(::Il2CppString* resourceFormat, ::Il2CppObject* p1, ::Il2CppObject* p2);
   }; // SR
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SR*, "", "SR");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SR::Format
 // Il2CppName: Format
 template<>

@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PlayerSaveData
 #include "GlobalNamespace/PlayerSaveData.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: PlayerAllOverallStatsData
-  class PlayerAllOverallStatsData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::PlayerSaveData::PlayerAllOverallStatsData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveData::PlayerAllOverallStatsData*, "", "PlayerSaveData/PlayerAllOverallStatsData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x30
@@ -28,11 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayerSaveData::PlayerAllOverallStatsData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public PlayerSaveData/PlayerOverallStatsData campaignOverallStatsData
     // Size: 0x8
     // Offset: 0x10
@@ -57,7 +44,8 @@ namespace GlobalNamespace {
     GlobalNamespace::PlayerSaveData::PlayerOverallStatsData* onlinePlayOverallStatsData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerSaveData::PlayerOverallStatsData*) == 0x8);
-    public:
+    // Creating value type constructor for type: PlayerAllOverallStatsData
+    PlayerAllOverallStatsData(GlobalNamespace::PlayerSaveData::PlayerOverallStatsData* campaignOverallStatsData_ = {}, GlobalNamespace::PlayerSaveData::PlayerOverallStatsData* soloFreePlayOverallStatsData_ = {}, GlobalNamespace::PlayerSaveData::PlayerOverallStatsData* partyFreePlayOverallStatsData_ = {}, GlobalNamespace::PlayerSaveData::PlayerOverallStatsData* onlinePlayOverallStatsData_ = {}) noexcept : campaignOverallStatsData{campaignOverallStatsData_}, soloFreePlayOverallStatsData{soloFreePlayOverallStatsData_}, partyFreePlayOverallStatsData{partyFreePlayOverallStatsData_}, onlinePlayOverallStatsData{onlinePlayOverallStatsData_} {}
     // Get instance field reference: public PlayerSaveData/PlayerOverallStatsData campaignOverallStatsData
     GlobalNamespace::PlayerSaveData::PlayerOverallStatsData*& dyn_campaignOverallStatsData();
     // Get instance field reference: public PlayerSaveData/PlayerOverallStatsData soloFreePlayOverallStatsData
@@ -67,14 +55,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public PlayerSaveData/PlayerOverallStatsData onlinePlayOverallStatsData
     GlobalNamespace::PlayerSaveData::PlayerOverallStatsData*& dyn_onlinePlayOverallStatsData();
     // public System.Void .ctor(PlayerSaveData/PlayerOverallStatsData campaignOverallStatsData, PlayerSaveData/PlayerOverallStatsData soloFreePlayOverallStatsData, PlayerSaveData/PlayerOverallStatsData partyFreePlayOverallStatsData, PlayerSaveData/PlayerOverallStatsData onlinePlayOverallStatsData)
-    // Offset: 0x12CADA0
+    // Offset: 0x11A8E14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerSaveData::PlayerAllOverallStatsData* New_ctor(GlobalNamespace::PlayerSaveData::PlayerOverallStatsData* campaignOverallStatsData, GlobalNamespace::PlayerSaveData::PlayerOverallStatsData* soloFreePlayOverallStatsData, GlobalNamespace::PlayerSaveData::PlayerOverallStatsData* partyFreePlayOverallStatsData, GlobalNamespace::PlayerSaveData::PlayerOverallStatsData* onlinePlayOverallStatsData) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayerSaveData::PlayerAllOverallStatsData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerSaveData::PlayerAllOverallStatsData*, creationType>(campaignOverallStatsData, soloFreePlayOverallStatsData, partyFreePlayOverallStatsData, onlinePlayOverallStatsData)));
     }
     // public System.Void .ctor()
-    // Offset: 0x12CABEC
+    // Offset: 0x11A8C60
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -87,7 +75,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(PlayerSaveData::PlayerAllOverallStatsData), 40 + sizeof(GlobalNamespace::PlayerSaveData::PlayerOverallStatsData*)> __GlobalNamespace_PlayerSaveData_PlayerAllOverallStatsDataSizeCheck;
   static_assert(sizeof(PlayerSaveData::PlayerAllOverallStatsData) == 0x30);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveData::PlayerAllOverallStatsData*, "", "PlayerSaveData/PlayerAllOverallStatsData");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSaveData::PlayerAllOverallStatsData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

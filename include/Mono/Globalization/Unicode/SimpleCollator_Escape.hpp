@@ -3,20 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Mono.Globalization.Unicode.SimpleCollator
 #include "Mono/Globalization/Unicode/SimpleCollator.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-// Type namespace: Mono.Globalization.Unicode
-namespace Mono::Globalization::Unicode {
-  // Forward declaring type: Escape
-  struct Escape;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::SimpleCollator::Escape, "Mono.Globalization.Unicode", "SimpleCollator/Escape");
 // Type namespace: Mono.Globalization.Unicode
 namespace Mono::Globalization::Unicode {
   // Size: 0x18
@@ -26,11 +19,6 @@ namespace Mono::Globalization::Unicode {
   // [TokenAttribute] Offset: FFFFFFFF
   struct SimpleCollator::Escape/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.String Source
     // Size: 0x8
     // Offset: 0x0
@@ -61,7 +49,6 @@ namespace Mono::Globalization::Unicode {
     int Optional;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: Escape
     constexpr Escape(::Il2CppString* Source_ = {}, int Index_ = {}, int Start_ = {}, int End_ = {}, int Optional_ = {}) noexcept : Source{Source_}, Index{Index_}, Start{Start_}, End{End_}, Optional{Optional_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -83,4 +70,6 @@ namespace Mono::Globalization::Unicode {
   static check_size<sizeof(SimpleCollator::Escape), 20 + sizeof(int)> __Mono_Globalization_Unicode_SimpleCollator_EscapeSizeCheck;
   static_assert(sizeof(SimpleCollator::Escape) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::SimpleCollator::Escape, "Mono.Globalization.Unicode", "SimpleCollator/Escape");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

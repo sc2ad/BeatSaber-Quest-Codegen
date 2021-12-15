@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IDisposable
 #include "System/IDisposable.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Mono.Net
-namespace Mono::Net {
-  // Forward declaring type: CFObject
-  class CFObject;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Net::CFObject);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFObject*, "Mono.Net", "CFObject");
 // Type namespace: Mono.Net
 namespace Mono::Net {
   // Size: 0x18
@@ -30,18 +22,14 @@ namespace Mono::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class CFObject : public ::Il2CppObject/*, public System::IDisposable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.IntPtr <Handle>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     System::IntPtr Handle;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
-    public:
+    // Creating value type constructor for type: CFObject
+    CFObject(System::IntPtr Handle_ = {}) noexcept : Handle{Handle_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
@@ -53,53 +41,53 @@ namespace Mono::Net {
     // Get instance field reference: private System.IntPtr <Handle>k__BackingField
     System::IntPtr& dyn_$Handle$k__BackingField();
     // public System.IntPtr get_Handle()
-    // Offset: 0x179CF6C
+    // Offset: 0x182C880
     System::IntPtr get_Handle();
     // private System.Void set_Handle(System.IntPtr value)
-    // Offset: 0x179CF74
+    // Offset: 0x182C888
     void set_Handle(System::IntPtr value);
     // public System.Void .ctor(System.IntPtr handle, System.Boolean own)
-    // Offset: 0x1799C58
+    // Offset: 0x182956C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CFObject* New_ctor(System::IntPtr handle, bool own) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Net::CFObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CFObject*, creationType>(handle, own)));
     }
     // static public System.IntPtr dlopen(System.String path, System.Int32 mode)
-    // Offset: 0x1799D74
+    // Offset: 0x1829688
     static System::IntPtr dlopen(::Il2CppString* path, int mode);
     // static private System.IntPtr dlsym(System.IntPtr handle, System.String symbol)
-    // Offset: 0x179CD9C
+    // Offset: 0x182C6B0
     static System::IntPtr dlsym(System::IntPtr handle, ::Il2CppString* symbol);
     // static public System.Void dlclose(System.IntPtr handle)
-    // Offset: 0x1799E20
+    // Offset: 0x1829734
     static void dlclose(System::IntPtr handle);
     // static public System.IntPtr GetIndirect(System.IntPtr handle, System.String symbol)
-    // Offset: 0x1799E1C
+    // Offset: 0x1829730
     static System::IntPtr GetIndirect(System::IntPtr handle, ::Il2CppString* symbol);
     // static public System.IntPtr GetCFObjectHandle(System.IntPtr handle, System.String symbol)
-    // Offset: 0x179CE48
+    // Offset: 0x182C75C
     static System::IntPtr GetCFObjectHandle(System::IntPtr handle, ::Il2CppString* symbol);
     // static System.IntPtr CFRetain(System.IntPtr handle)
-    // Offset: 0x179CF7C
+    // Offset: 0x182C890
     static System::IntPtr CFRetain(System::IntPtr handle);
     // private System.Void Retain()
-    // Offset: 0x179CEF0
+    // Offset: 0x182C804
     void Retain();
     // static System.Void CFRelease(System.IntPtr handle)
-    // Offset: 0x179CFF8
+    // Offset: 0x182C90C
     static void CFRelease(System::IntPtr handle);
     // private System.Void Release()
-    // Offset: 0x179D078
+    // Offset: 0x182C98C
     void Release();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x179D080
+    // Offset: 0x182C994
     void Dispose(bool disposing);
     // public System.Void Dispose()
-    // Offset: 0x179ADE0
+    // Offset: 0x182A6F4
     void Dispose();
     // protected override System.Void Finalize()
-    // Offset: 0x179CEF8
+    // Offset: 0x182C80C
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
@@ -108,7 +96,8 @@ namespace Mono::Net {
   static check_size<sizeof(CFObject), 16 + sizeof(System::IntPtr)> __Mono_Net_CFObjectSizeCheck;
   static_assert(sizeof(CFObject) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFObject*, "Mono.Net", "CFObject");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Net::CFObject::get_Handle
 // Il2CppName: get_Handle
 template<>

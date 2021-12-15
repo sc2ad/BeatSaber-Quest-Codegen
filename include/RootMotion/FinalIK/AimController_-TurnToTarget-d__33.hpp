@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: RootMotion.FinalIK.AimController
 #include "RootMotion/FinalIK/AimController.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
 #include "System/Collections/Generic/IEnumerator_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: RootMotion.FinalIK
-namespace RootMotion::FinalIK {
-  // Forward declaring type: <TurnToTarget>d__33
-  class $TurnToTarget$d__33;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::FinalIK::AimController::$TurnToTarget$d__33);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::AimController::$TurnToTarget$d__33*, "RootMotion.FinalIK", "AimController/<TurnToTarget>d__33");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
   // Size: 0x28
@@ -31,11 +23,6 @@ namespace RootMotion::FinalIK {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class AimController::$TurnToTarget$d__33 : public ::Il2CppObject/*, public System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -56,7 +43,8 @@ namespace RootMotion::FinalIK {
     RootMotion::FinalIK::AimController* $$4__this;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::AimController*) == 0x8);
-    public:
+    // Creating value type constructor for type: $TurnToTarget$d__33
+    $TurnToTarget$d__33(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, RootMotion::FinalIK::AimController* $$4__this_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$4__this{$$4__this_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
@@ -68,33 +56,34 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public RootMotion.FinalIK.AimController <>4__this
     RootMotion::FinalIK::AimController*& dyn_$$4__this();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x1EA5684
+    // Offset: 0x1EAB0E4
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1EA56EC
+    // Offset: 0x1EAB14C
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1EA5460
+    // Offset: 0x1EAAEC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AimController::$TurnToTarget$d__33* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::AimController::$TurnToTarget$d__33::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AimController::$TurnToTarget$d__33*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1EA5560
+    // Offset: 0x1EAAFC0
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1EA5564
+    // Offset: 0x1EAAFC4
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1EA568C
+    // Offset: 0x1EAB0EC
     void System_Collections_IEnumerator_Reset();
   }; // RootMotion.FinalIK.AimController/RootMotion.FinalIK.<TurnToTarget>d__33
   #pragma pack(pop)
   static check_size<sizeof(AimController::$TurnToTarget$d__33), 32 + sizeof(RootMotion::FinalIK::AimController*)> __RootMotion_FinalIK_AimController_$TurnToTarget$d__33SizeCheck;
   static_assert(sizeof(AimController::$TurnToTarget$d__33) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::AimController::$TurnToTarget$d__33*, "RootMotion.FinalIK", "AimController/<TurnToTarget>d__33");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::AimController::$TurnToTarget$d__33::System_Collections_Generic_IEnumerator$System_Object$_get_Current
 // Il2CppName: System.Collections.Generic.IEnumerator<System.Object>.get_Current
 template<>

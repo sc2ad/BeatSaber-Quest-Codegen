@@ -3,19 +3,12 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: Valve.VR.HmdMatrix44_t
 #include "Valve/VR/HmdMatrix44_t.hpp"
 // Completed includes
-// Type namespace: Valve.VR
-namespace Valve::VR {
-  // Forward declaring type: Compositor_OverlaySettings
-  struct Compositor_OverlaySettings;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::Compositor_OverlaySettings, "Valve.VR", "Compositor_OverlaySettings");
 // Type namespace: Valve.VR
 namespace Valve::VR {
   // Size: 0x70
@@ -25,11 +18,6 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Compositor_OverlaySettings/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.UInt32 size
     // Size: 0x4
     // Offset: 0x0
@@ -116,7 +104,6 @@ namespace Valve::VR {
     Valve::VR::HmdMatrix44_t transform;
     // Field size check
     static_assert(sizeof(Valve::VR::HmdMatrix44_t) == 0x40);
-    public:
     // Creating value type constructor for type: Compositor_OverlaySettings
     constexpr Compositor_OverlaySettings(uint size_ = {}, bool curved_ = {}, bool antialias_ = {}, float scale_ = {}, float distance_ = {}, float alpha_ = {}, float uOffset_ = {}, float vOffset_ = {}, float uScale_ = {}, float vScale_ = {}, float gridDivs_ = {}, float gridWidth_ = {}, float gridScale_ = {}, Valve::VR::HmdMatrix44_t transform_ = {}) noexcept : size{size_}, curved{curved_}, antialias{antialias_}, scale{scale_}, distance{distance_}, alpha{alpha_}, uOffset{uOffset_}, vOffset{vOffset_}, uScale{uScale_}, vScale{vScale_}, gridDivs{gridDivs_}, gridWidth{gridWidth_}, gridScale{gridScale_}, transform{transform_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -156,4 +143,6 @@ namespace Valve::VR {
   static check_size<sizeof(Compositor_OverlaySettings), 48 + sizeof(Valve::VR::HmdMatrix44_t)> __Valve_VR_Compositor_OverlaySettingsSizeCheck;
   static_assert(sizeof(Compositor_OverlaySettings) == 0x70);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::Compositor_OverlaySettings, "Valve.VR", "Compositor_OverlaySettings");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

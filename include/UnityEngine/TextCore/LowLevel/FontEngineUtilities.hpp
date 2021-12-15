@@ -3,17 +3,10 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-// Type namespace: UnityEngine.TextCore.LowLevel
-namespace UnityEngine::TextCore::LowLevel {
-  // Forward declaring type: FontEngineUtilities
-  struct FontEngineUtilities;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::LowLevel::FontEngineUtilities, "UnityEngine.TextCore.LowLevel", "FontEngineUtilities");
 // Type namespace: UnityEngine.TextCore.LowLevel
 namespace UnityEngine::TextCore::LowLevel {
   // Size: 0x0
@@ -30,12 +23,14 @@ namespace UnityEngine::TextCore::LowLevel {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // static System.Int32 MaxValue(System.Int32 a, System.Int32 b, System.Int32 c)
-    // Offset: 0x25E81F4
+    // Offset: 0x26AB19C
     static int MaxValue(int a, int b, int c);
   }; // UnityEngine.TextCore.LowLevel.FontEngineUtilities
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::LowLevel::FontEngineUtilities, "UnityEngine.TextCore.LowLevel", "FontEngineUtilities");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TextCore::LowLevel::FontEngineUtilities::MaxValue
 // Il2CppName: MaxValue
 template<>

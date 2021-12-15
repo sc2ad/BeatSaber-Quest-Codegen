@@ -3,22 +3,19 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.ConsoleKey
 #include "System/ConsoleKey.hpp"
 // Including type: System.ConsoleModifiers
 #include "System/ConsoleModifiers.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System
-namespace System {
-  // Forward declaring type: ConsoleKeyInfo
-  struct ConsoleKeyInfo;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::ConsoleKeyInfo, "System", "ConsoleKeyInfo");
 // Type namespace: System
 namespace System {
   // Size: 0xC
@@ -28,11 +25,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ConsoleKeyInfo/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Char _keyChar
     // Size: 0x2
     // Offset: 0x0
@@ -53,7 +45,6 @@ namespace System {
     System::ConsoleModifiers mods;
     // Field size check
     static_assert(sizeof(System::ConsoleModifiers) == 0x4);
-    public:
     // Creating value type constructor for type: ConsoleKeyInfo
     constexpr ConsoleKeyInfo(::Il2CppChar keyChar_ = {}, System::ConsoleKey key_ = {}, System::ConsoleModifiers mods_ = {}) noexcept : keyChar{keyChar_}, key{key_}, mods{mods_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -67,24 +58,29 @@ namespace System {
     // Get instance field reference: private System.ConsoleModifiers _mods
     System::ConsoleModifiers& dyn__mods();
     // public System.Char get_KeyChar()
-    // Offset: 0x1AFD0CC
+    // Offset: 0x1B9342C
     ::Il2CppChar get_KeyChar();
     // public System.ConsoleKey get_Key()
-    // Offset: 0x1AFD0D4
+    // Offset: 0x1B93434
     System::ConsoleKey get_Key();
     // public System.Void .ctor(System.Char keyChar, System.ConsoleKey key, System.Boolean shift, System.Boolean alt, System.Boolean control)
-    // Offset: 0x1AFCFD0
-    ConsoleKeyInfo(::Il2CppChar keyChar, System::ConsoleKey key, bool shift, bool alt, bool control);
+    // Offset: 0x1B93330
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    ConsoleKeyInfo(::Il2CppChar keyChar, System::ConsoleKey key, bool shift, bool alt, bool control) {
+      static auto ___internal__logger = ::Logger::get().WithContext("System::ConsoleKeyInfo::.ctor");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(keyChar), ::il2cpp_utils::ExtractType(key), ::il2cpp_utils::ExtractType(shift), ::il2cpp_utils::ExtractType(alt), ::il2cpp_utils::ExtractType(control)})));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, keyChar, key, shift, alt, control);
+    }
     // public System.Boolean Equals(System.ConsoleKeyInfo obj)
-    // Offset: 0x1AFD184
+    // Offset: 0x1B934E4
     bool Equals(System::ConsoleKeyInfo obj);
     // public override System.Boolean Equals(System.Object value)
-    // Offset: 0x1AFD0DC
+    // Offset: 0x1B9343C
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object value)
     bool Equals(::Il2CppObject* value);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1AFD1B8
+    // Offset: 0x1B93518
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
@@ -93,7 +89,8 @@ namespace System {
   static check_size<sizeof(ConsoleKeyInfo), 8 + sizeof(System::ConsoleModifiers)> __System_ConsoleKeyInfoSizeCheck;
   static_assert(sizeof(ConsoleKeyInfo) == 0xC);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::ConsoleKeyInfo, "System", "ConsoleKeyInfo");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ConsoleKeyInfo::get_KeyChar
 // Il2CppName: get_KeyChar
 template<>

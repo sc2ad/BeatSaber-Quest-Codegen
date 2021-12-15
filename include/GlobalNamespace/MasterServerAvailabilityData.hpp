@@ -3,28 +3,20 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: MasterServerAvailabilityData
-  class MasterServerAvailabilityData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MasterServerAvailabilityData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerAvailabilityData*, "", "MasterServerAvailabilityData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x38
@@ -44,18 +36,12 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct AvailabilityStatus/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: AvailabilityStatus
       constexpr AvailabilityStatus(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -90,11 +76,6 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(MasterServerAvailabilityData::AvailabilityStatus), 0 + sizeof(int)> __GlobalNamespace_MasterServerAvailabilityData_AvailabilityStatusSizeCheck;
     static_assert(sizeof(MasterServerAvailabilityData::AvailabilityStatus) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.String minimumAppVersion
     // Size: 0x8
     // Offset: 0x10
@@ -127,7 +108,8 @@ namespace GlobalNamespace {
     GlobalNamespace::MasterServerAvailabilityData::UserMessage* userMessage;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MasterServerAvailabilityData::UserMessage*) == 0x8);
-    public:
+    // Creating value type constructor for type: MasterServerAvailabilityData
+    MasterServerAvailabilityData(::Il2CppString* minimumAppVersion_ = {}, GlobalNamespace::MasterServerAvailabilityData::AvailabilityStatus status_ = {}, int64_t maintenanceStartTime_ = {}, int64_t maintenanceEndTime_ = {}, GlobalNamespace::MasterServerAvailabilityData::UserMessage* userMessage_ = {}) noexcept : minimumAppVersion{minimumAppVersion_}, status{status_}, maintenanceStartTime{maintenanceStartTime_}, maintenanceEndTime{maintenanceEndTime_}, userMessage{userMessage_} {}
     // Get instance field reference: public System.String minimumAppVersion
     ::Il2CppString*& dyn_minimumAppVersion();
     // Get instance field reference: public MasterServerAvailabilityData/AvailabilityStatus status
@@ -139,7 +121,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public MasterServerAvailabilityData/UserMessage userMessage
     GlobalNamespace::MasterServerAvailabilityData::UserMessage*& dyn_userMessage();
     // public System.Void .ctor()
-    // Offset: 0x125FE24
+    // Offset: 0x1158474
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -152,9 +134,9 @@ namespace GlobalNamespace {
   static check_size<sizeof(MasterServerAvailabilityData), 48 + sizeof(GlobalNamespace::MasterServerAvailabilityData::UserMessage*)> __GlobalNamespace_MasterServerAvailabilityDataSizeCheck;
   static_assert(sizeof(MasterServerAvailabilityData) == 0x38);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerAvailabilityData*, "", "MasterServerAvailabilityData");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerAvailabilityData::AvailabilityStatus, "", "MasterServerAvailabilityData/AvailabilityStatus");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerAvailabilityData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

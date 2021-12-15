@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Collections.IComparer
 #include "System/Collections/IComparer.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: HoudiniEngineUnity
-namespace HoudiniEngineUnity {
-  // Forward declaring type: ReverseCompare
-  class ReverseCompare;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::ReverseCompare);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::ReverseCompare*, "HoudiniEngineUnity", "ReverseCompare");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x10
@@ -28,15 +20,17 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class ReverseCompare : public ::Il2CppObject/*, public System::Collections::IComparer*/ {
     public:
+    // Creating value type constructor for type: ReverseCompare
+    ReverseCompare() noexcept {}
     // Creating interface conversion operator: operator System::Collections::IComparer
     operator System::Collections::IComparer() noexcept {
       return *reinterpret_cast<System::Collections::IComparer*>(this);
     }
     // public System.Int32 Compare(System.Object x, System.Object y)
-    // Offset: 0x16ECEB8
+    // Offset: 0x178ED74
     int Compare(::Il2CppObject* x, ::Il2CppObject* y);
     // public System.Void .ctor()
-    // Offset: 0x16ECF38
+    // Offset: 0x178EDF4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -47,7 +41,8 @@ namespace HoudiniEngineUnity {
   }; // HoudiniEngineUnity.ReverseCompare
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::ReverseCompare*, "HoudiniEngineUnity", "ReverseCompare");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::ReverseCompare::Compare
 // Il2CppName: Compare
 template<>

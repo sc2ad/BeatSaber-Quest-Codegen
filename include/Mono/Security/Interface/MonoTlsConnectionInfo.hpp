@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Mono.Security.Interface.CipherSuiteCode
 #include "Mono/Security/Interface/CipherSuiteCode.hpp"
 // Including type: Mono.Security.Interface.TlsProtocols
 #include "Mono/Security/Interface/TlsProtocols.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Mono.Security.Interface
-namespace Mono::Security::Interface {
-  // Forward declaring type: MonoTlsConnectionInfo
-  class MonoTlsConnectionInfo;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Security::Interface::MonoTlsConnectionInfo);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::MonoTlsConnectionInfo*, "Mono.Security.Interface", "MonoTlsConnectionInfo");
 // Type namespace: Mono.Security.Interface
 namespace Mono::Security::Interface {
   // Size: 0x20
@@ -30,11 +22,6 @@ namespace Mono::Security::Interface {
   // [TokenAttribute] Offset: FFFFFFFF
   class MonoTlsConnectionInfo : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private Mono.Security.Interface.CipherSuiteCode <CipherSuiteCode>k__BackingField
     // Size: 0x2
     // Offset: 0x10
@@ -55,7 +42,8 @@ namespace Mono::Security::Interface {
     ::Il2CppString* PeerDomainName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: MonoTlsConnectionInfo
+    MonoTlsConnectionInfo(Mono::Security::Interface::CipherSuiteCode CipherSuiteCode_ = {}, Mono::Security::Interface::TlsProtocols ProtocolVersion_ = {}, ::Il2CppString* PeerDomainName_ = {}) noexcept : CipherSuiteCode{CipherSuiteCode_}, ProtocolVersion{ProtocolVersion_}, PeerDomainName{PeerDomainName_} {}
     // Get instance field reference: private Mono.Security.Interface.CipherSuiteCode <CipherSuiteCode>k__BackingField
     Mono::Security::Interface::CipherSuiteCode& dyn_$CipherSuiteCode$k__BackingField();
     // Get instance field reference: private Mono.Security.Interface.TlsProtocols <ProtocolVersion>k__BackingField
@@ -63,22 +51,22 @@ namespace Mono::Security::Interface {
     // Get instance field reference: private System.String <PeerDomainName>k__BackingField
     ::Il2CppString*& dyn_$PeerDomainName$k__BackingField();
     // public Mono.Security.Interface.CipherSuiteCode get_CipherSuiteCode()
-    // Offset: 0x1F88C70
+    // Offset: 0x1F94F58
     Mono::Security::Interface::CipherSuiteCode get_CipherSuiteCode();
     // public System.Void set_CipherSuiteCode(Mono.Security.Interface.CipherSuiteCode value)
-    // Offset: 0x1F88C78
+    // Offset: 0x1F94F60
     void set_CipherSuiteCode(Mono::Security::Interface::CipherSuiteCode value);
     // public Mono.Security.Interface.TlsProtocols get_ProtocolVersion()
-    // Offset: 0x1F88C80
+    // Offset: 0x1F94F68
     Mono::Security::Interface::TlsProtocols get_ProtocolVersion();
     // public System.Void set_ProtocolVersion(Mono.Security.Interface.TlsProtocols value)
-    // Offset: 0x1F88C88
+    // Offset: 0x1F94F70
     void set_ProtocolVersion(Mono::Security::Interface::TlsProtocols value);
     // public System.Void set_PeerDomainName(System.String value)
-    // Offset: 0x1F88C90
+    // Offset: 0x1F94F78
     void set_PeerDomainName(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0x1F88D3C
+    // Offset: 0x1F95024
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -87,7 +75,7 @@ namespace Mono::Security::Interface {
       return THROW_UNLESS((::il2cpp_utils::New<MonoTlsConnectionInfo*, creationType>()));
     }
     // public override System.String ToString()
-    // Offset: 0x1F88C98
+    // Offset: 0x1F94F80
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
@@ -96,7 +84,8 @@ namespace Mono::Security::Interface {
   static check_size<sizeof(MonoTlsConnectionInfo), 24 + sizeof(::Il2CppString*)> __Mono_Security_Interface_MonoTlsConnectionInfoSizeCheck;
   static_assert(sizeof(MonoTlsConnectionInfo) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::MonoTlsConnectionInfo*, "Mono.Security.Interface", "MonoTlsConnectionInfo");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Security::Interface::MonoTlsConnectionInfo::get_CipherSuiteCode
 // Il2CppName: get_CipherSuiteCode
 template<>

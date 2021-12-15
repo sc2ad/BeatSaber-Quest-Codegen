@@ -3,16 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: System.Resources
-namespace System::Resources {
-  // Forward declaring type: IResourceGroveler
-  class IResourceGroveler;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Resources::IResourceGroveler);
-DEFINE_IL2CPP_ARG_TYPE(System::Resources::IResourceGroveler*, "System.Resources", "IResourceGroveler");
 // Type namespace: System.Resources
 namespace System::Resources {
   // Size: 0x10
@@ -21,7 +13,11 @@ namespace System::Resources {
   // [TokenAttribute] Offset: FFFFFFFF
   class IResourceGroveler {
     public:
+    // Creating value type constructor for type: IResourceGroveler
+    IResourceGroveler() noexcept {}
   }; // System.Resources.IResourceGroveler
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Resources::IResourceGroveler*, "System.Resources", "IResourceGroveler");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

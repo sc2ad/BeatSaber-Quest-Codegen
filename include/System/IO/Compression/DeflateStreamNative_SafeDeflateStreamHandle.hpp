@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IO.Compression.DeflateStreamNative
 #include "System/IO/Compression/DeflateStreamNative.hpp"
 // Including type: System.Runtime.InteropServices.SafeHandle
 #include "System/Runtime/InteropServices/SafeHandle.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.IO.Compression
-namespace System::IO::Compression {
-  // Forward declaring type: SafeDeflateStreamHandle
-  class SafeDeflateStreamHandle;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::IO::Compression::DeflateStreamNative::SafeDeflateStreamHandle);
-DEFINE_IL2CPP_ARG_TYPE(System::IO::Compression::DeflateStreamNative::SafeDeflateStreamHandle*, "System.IO.Compression", "DeflateStreamNative/SafeDeflateStreamHandle");
 // Type namespace: System.IO.Compression
 namespace System::IO::Compression {
   // Size: 0x1E
@@ -30,13 +22,15 @@ namespace System::IO::Compression {
   // [TokenAttribute] Offset: FFFFFFFF
   class DeflateStreamNative::SafeDeflateStreamHandle : public System::Runtime::InteropServices::SafeHandle {
     public:
+    // Creating value type constructor for type: SafeDeflateStreamHandle
+    SafeDeflateStreamHandle() noexcept {}
     // public override System.Boolean get_IsInvalid()
-    // Offset: 0x1A137C4
+    // Offset: 0x1A32EE4
     // Implemented from: System.Runtime.InteropServices.SafeHandle
     // Base method: System.Boolean SafeHandle::get_IsInvalid()
     bool get_IsInvalid();
     // private System.Void .ctor()
-    // Offset: 0x1A13770
+    // Offset: 0x1A32E90
     // Implemented from: System.Runtime.ConstrainedExecution.CriticalFinalizerObject
     // Base method: System.Void CriticalFinalizerObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -46,14 +40,15 @@ namespace System::IO::Compression {
       return THROW_UNLESS((::il2cpp_utils::New<DeflateStreamNative::SafeDeflateStreamHandle*, creationType>()));
     }
     // protected override System.Boolean ReleaseHandle()
-    // Offset: 0x1A13810
+    // Offset: 0x1A32F30
     // Implemented from: System.Runtime.InteropServices.SafeHandle
     // Base method: System.Boolean SafeHandle::ReleaseHandle()
     bool ReleaseHandle();
   }; // System.IO.Compression.DeflateStreamNative/System.IO.Compression.SafeDeflateStreamHandle
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::IO::Compression::DeflateStreamNative::SafeDeflateStreamHandle*, "System.IO.Compression", "DeflateStreamNative/SafeDeflateStreamHandle");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::Compression::DeflateStreamNative::SafeDeflateStreamHandle::get_IsInvalid
 // Il2CppName: get_IsInvalid
 template<>

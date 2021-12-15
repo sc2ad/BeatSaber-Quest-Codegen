@@ -3,7 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
@@ -33,13 +33,6 @@ namespace System::Threading {
 // Completed forward declares
 // Type namespace: System.Runtime.CompilerServices
 namespace System::Runtime::CompilerServices {
-  // Forward declaring type: AsyncMethodBuilderCore
-  struct AsyncMethodBuilderCore;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::AsyncMethodBuilderCore, "System.Runtime.CompilerServices", "AsyncMethodBuilderCore");
-// Type namespace: System.Runtime.CompilerServices
-namespace System::Runtime::CompilerServices {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -55,11 +48,6 @@ namespace System::Runtime::CompilerServices {
     class $$c__DisplayClass4_0;
     // Nested type: System::Runtime::CompilerServices::AsyncMethodBuilderCore::$$c
     class $$c;
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // System.Runtime.CompilerServices.IAsyncStateMachine m_stateMachine
     // Size: 0x8
     // Offset: 0x0
@@ -72,7 +60,6 @@ namespace System::Runtime::CompilerServices {
     System::Action* m_defaultContextAction;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    public:
     // Creating value type constructor for type: AsyncMethodBuilderCore
     constexpr AsyncMethodBuilderCore(System::Runtime::CompilerServices::IAsyncStateMachine* m_stateMachine_ = {}, System::Action* m_defaultContextAction_ = {}) noexcept : m_stateMachine{m_stateMachine_}, m_defaultContextAction{m_defaultContextAction_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -84,32 +71,34 @@ namespace System::Runtime::CompilerServices {
     // Get instance field reference: System.Action m_defaultContextAction
     System::Action*& dyn_m_defaultContextAction();
     // public System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x159193C
+    // Offset: 0x161FC30
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
     // System.Action GetCompletionAction(System.Threading.Tasks.Task taskForTracing, ref System.Runtime.CompilerServices.AsyncMethodBuilderCore/System.Runtime.CompilerServices.MoveNextRunner runnerToInitialize)
-    // Offset: 0x1591A24
+    // Offset: 0x161FD18
     System::Action* GetCompletionAction(System::Threading::Tasks::Task* taskForTracing, ByRef<System::Runtime::CompilerServices::AsyncMethodBuilderCore::MoveNextRunner*> runnerToInitialize);
     // private System.Action OutputAsyncCausalityEvents(System.Threading.Tasks.Task innerTask, System.Action continuation)
-    // Offset: 0x1591C0C
+    // Offset: 0x161FF00
     System::Action* OutputAsyncCausalityEvents(System::Threading::Tasks::Task* innerTask, System::Action* continuation);
     // System.Void PostBoxInitialization(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine, System.Runtime.CompilerServices.AsyncMethodBuilderCore/System.Runtime.CompilerServices.MoveNextRunner runner, System.Threading.Tasks.Task builtTask)
-    // Offset: 0x1591D64
+    // Offset: 0x1620058
     void PostBoxInitialization(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine, System::Runtime::CompilerServices::AsyncMethodBuilderCore::MoveNextRunner* runner, System::Threading::Tasks::Task* builtTask);
     // static System.Void ThrowAsync(System.Exception exception, System.Threading.SynchronizationContext targetContext)
-    // Offset: 0x1591F0C
+    // Offset: 0x1620200
     static void ThrowAsync(System::Exception* exception, System::Threading::SynchronizationContext* targetContext);
     // static System.Action CreateContinuationWrapper(System.Action continuation, System.Action invokeAction, System.Threading.Tasks.Task innerTask)
-    // Offset: 0x1591CC0
+    // Offset: 0x161FFB4
     static System::Action* CreateContinuationWrapper(System::Action* continuation, System::Action* invokeAction, System::Threading::Tasks::Task* innerTask);
     // static System.Threading.Tasks.Task TryGetContinuationTask(System.Action action)
-    // Offset: 0x15922F0
+    // Offset: 0x16205E4
     static System::Threading::Tasks::Task* TryGetContinuationTask(System::Action* action);
   }; // System.Runtime.CompilerServices.AsyncMethodBuilderCore
   #pragma pack(pop)
   static check_size<sizeof(AsyncMethodBuilderCore), 8 + sizeof(System::Action*)> __System_Runtime_CompilerServices_AsyncMethodBuilderCoreSizeCheck;
   static_assert(sizeof(AsyncMethodBuilderCore) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::AsyncMethodBuilderCore, "System.Runtime.CompilerServices", "AsyncMethodBuilderCore");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::AsyncMethodBuilderCore::SetStateMachine
 // Il2CppName: SetStateMachine
 template<>

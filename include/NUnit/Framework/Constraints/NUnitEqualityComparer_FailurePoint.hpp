@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: NUnit.Framework.Constraints.NUnitEqualityComparer
 #include "NUnit/Framework/Constraints/NUnitEqualityComparer.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: NUnit.Framework.Constraints
-namespace NUnit::Framework::Constraints {
-  // Forward declaring type: FailurePoint
-  class FailurePoint;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint);
-DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint*, "NUnit.Framework.Constraints", "NUnitEqualityComparer/FailurePoint");
 // Type namespace: NUnit.Framework.Constraints
 namespace NUnit::Framework::Constraints {
   // Size: 0x2A
@@ -28,11 +20,6 @@ namespace NUnit::Framework::Constraints {
   // [TokenAttribute] Offset: FFFFFFFF
   class NUnitEqualityComparer::FailurePoint : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int64 Position
     // Size: 0x8
     // Offset: 0x10
@@ -63,7 +50,8 @@ namespace NUnit::Framework::Constraints {
     bool ActualHasData;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: FailurePoint
+    FailurePoint(int64_t Position_ = {}, ::Il2CppObject* ExpectedValue_ = {}, ::Il2CppObject* ActualValue_ = {}, bool ExpectedHasData_ = {}, bool ActualHasData_ = {}) noexcept : Position{Position_}, ExpectedValue{ExpectedValue_}, ActualValue{ActualValue_}, ExpectedHasData{ExpectedHasData_}, ActualHasData{ActualHasData_} {}
     // Get instance field reference: public System.Int64 Position
     int64_t& dyn_Position();
     // Get instance field reference: public System.Object ExpectedValue
@@ -75,7 +63,7 @@ namespace NUnit::Framework::Constraints {
     // Get instance field reference: public System.Boolean ActualHasData
     bool& dyn_ActualHasData();
     // public System.Void .ctor()
-    // Offset: 0x191A204
+    // Offset: 0x193F3C8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -88,7 +76,8 @@ namespace NUnit::Framework::Constraints {
   static check_size<sizeof(NUnitEqualityComparer::FailurePoint), 41 + sizeof(bool)> __NUnit_Framework_Constraints_NUnitEqualityComparer_FailurePointSizeCheck;
   static_assert(sizeof(NUnitEqualityComparer::FailurePoint) == 0x2A);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint*, "NUnit.Framework.Constraints", "NUnitEqualityComparer/FailurePoint");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

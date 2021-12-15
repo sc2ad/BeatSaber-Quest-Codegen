@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.TypeNames
 #include "System/TypeNames.hpp"
 // Including type: System.TypeName
 #include "System/TypeName.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System
-namespace System {
-  // Forward declaring type: ATypeName
-  class ATypeName;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::TypeNames::ATypeName);
-DEFINE_IL2CPP_ARG_TYPE(System::TypeNames::ATypeName*, "System", "TypeNames/ATypeName");
 // Type namespace: System
 namespace System {
   // Size: 0x10
@@ -30,6 +22,8 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class TypeNames::ATypeName : public ::Il2CppObject/*, public System::TypeName*/ {
     public:
+    // Creating value type constructor for type: ATypeName
+    ATypeName() noexcept {}
     // Creating interface conversion operator: operator System::TypeName
     operator System::TypeName() noexcept {
       return *reinterpret_cast<System::TypeName*>(this);
@@ -38,10 +32,10 @@ namespace System {
     // Offset: 0xFFFFFFFF
     ::Il2CppString* get_DisplayName();
     // public System.Boolean Equals(System.TypeName other)
-    // Offset: 0x25173C4
+    // Offset: 0x25CF534
     bool Equals(System::TypeName* other);
     // protected System.Void .ctor()
-    // Offset: 0x25161D8
+    // Offset: 0x25CE348
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -50,19 +44,20 @@ namespace System {
       return THROW_UNLESS((::il2cpp_utils::New<TypeNames::ATypeName*, creationType>()));
     }
     // public override System.Int32 GetHashCode()
-    // Offset: 0x25174B0
+    // Offset: 0x25CF620
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object other)
-    // Offset: 0x25174DC
+    // Offset: 0x25CF64C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object other)
     bool Equals(::Il2CppObject* other);
   }; // System.TypeNames/System.ATypeName
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::TypeNames::ATypeName*, "System", "TypeNames/ATypeName");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::TypeNames::ATypeName::get_DisplayName
 // Il2CppName: get_DisplayName
 template<>

@@ -3,20 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: HoudiniEngineUnity.HAPI_CurveType
 #include "HoudiniEngineUnity/HAPI_CurveType.hpp"
 // Completed includes
-// Type namespace: HoudiniEngineUnity
-namespace HoudiniEngineUnity {
-  // Forward declaring type: HAPI_CurveInfo
-  struct HAPI_CurveInfo;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_CurveInfo, "HoudiniEngineUnity", "HAPI_CurveInfo");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x19
@@ -26,11 +19,6 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HAPI_CurveInfo/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public HoudiniEngineUnity.HAPI_CurveType curveType
     // Size: 0x4
     // Offset: 0x0
@@ -81,7 +69,6 @@ namespace HoudiniEngineUnity {
     bool hasKnots;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
     // Creating value type constructor for type: HAPI_CurveInfo
     constexpr HAPI_CurveInfo(HoudiniEngineUnity::HAPI_CurveType curveType_ = {}, int curveCount_ = {}, int vertexCount_ = {}, int knotCount_ = {}, bool isPeriodic_ = {}, bool isRational_ = {}, int order_ = {}, bool hasKnots_ = {}) noexcept : curveType{curveType_}, curveCount{curveCount_}, vertexCount{vertexCount_}, knotCount{knotCount_}, isPeriodic{isPeriodic_}, isRational{isRational_}, order{order_}, hasKnots{hasKnots_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -109,4 +96,6 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HAPI_CurveInfo), 24 + sizeof(bool)> __HoudiniEngineUnity_HAPI_CurveInfoSizeCheck;
   static_assert(sizeof(HAPI_CurveInfo) == 0x19);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_CurveInfo, "HoudiniEngineUnity", "HAPI_CurveInfo");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -3,17 +3,14 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: ListSettingsController
 #include "GlobalNamespace/ListSettingsController.hpp"
-// Including type: System.Enum
-#include "System/Enum.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -23,14 +20,6 @@ namespace System {
   class Action_2;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: FormattedFloatListSettingsController
-  class FormattedFloatListSettingsController;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::FormattedFloatListSettingsController);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FormattedFloatListSettingsController*, "", "FormattedFloatListSettingsController");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x55
@@ -47,18 +36,12 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct ValueType/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: ValueType
       constexpr ValueType(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -93,17 +76,12 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(FormattedFloatListSettingsController::ValueType), 0 + sizeof(int)> __GlobalNamespace_FormattedFloatListSettingsController_ValueTypeSizeCheck;
     static_assert(sizeof(FormattedFloatListSettingsController::ValueType) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Single[] _values
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayW<float> values;
+    ::Array<float>* values;
     // Field size check
-    static_assert(sizeof(::ArrayW<float>) == 0x8);
+    static_assert(sizeof(::Array<float>*) == 0x8);
     // private System.String _formattingString
     // Size: 0x8
     // Offset: 0x30
@@ -148,9 +126,10 @@ namespace GlobalNamespace {
     bool hasValue;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: FormattedFloatListSettingsController
+    FormattedFloatListSettingsController(::Array<float>* values_ = {}, ::Il2CppString* formattingString_ = {}, GlobalNamespace::FormattedFloatListSettingsController::ValueType valueType_ = {}, System::Action_2<GlobalNamespace::FormattedFloatListSettingsController*, float>* valueDidChangeEvent_ = {}, float value_ = {}, float min_ = {}, float max_ = {}, bool hasValue_ = {}) noexcept : values{values_}, formattingString{formattingString_}, valueType{valueType_}, valueDidChangeEvent{valueDidChangeEvent_}, value{value_}, min{min_}, max{max_}, hasValue{hasValue_} {}
     // Get instance field reference: private System.Single[] _values
-    ::ArrayW<float>& dyn__values();
+    ::Array<float>*& dyn__values();
     // Get instance field reference: private System.String _formattingString
     ::Il2CppString*& dyn__formattingString();
     // Get instance field reference: private FormattedFloatListSettingsController/ValueType valueType
@@ -166,25 +145,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _hasValue
     bool& dyn__hasValue();
     // public System.Single get_value()
-    // Offset: 0x1175F6C
+    // Offset: 0x11E8D14
     float get_value();
     // public System.Single[] get_values()
-    // Offset: 0x1175F74
-    ::ArrayW<float> get_values();
+    // Offset: 0x11E8D1C
+    ::Array<float>* get_values();
     // public System.Void set_values(System.Single[] value)
-    // Offset: 0x1175F7C
-    void set_values(::ArrayW<float> value);
+    // Offset: 0x11E8D24
+    void set_values(::Array<float>* value);
     // public System.Void add_valueDidChangeEvent(System.Action`2<FormattedFloatListSettingsController,System.Single> value)
-    // Offset: 0x1175E24
+    // Offset: 0x11E8BCC
     void add_valueDidChangeEvent(System::Action_2<GlobalNamespace::FormattedFloatListSettingsController*, float>* value);
     // public System.Void remove_valueDidChangeEvent(System.Action`2<FormattedFloatListSettingsController,System.Single> value)
-    // Offset: 0x1175EC8
+    // Offset: 0x11E8C70
     void remove_valueDidChangeEvent(System::Action_2<GlobalNamespace::FormattedFloatListSettingsController*, float>* value);
     // public System.Void SetValue(System.Single value, System.Boolean callCallback)
-    // Offset: 0x1175F8C
+    // Offset: 0x11E8D34
     void SetValue(float value, bool callCallback);
     // public System.Void .ctor()
-    // Offset: 0x117628C
+    // Offset: 0x11E9034
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::.ctor()
     // Base method: System.Void IncDecSettingsController::.ctor()
@@ -199,17 +178,17 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<FormattedFloatListSettingsController*, creationType>()));
     }
     // protected override System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
-    // Offset: 0x1175FA4
+    // Offset: 0x11E8D4C
     // Implemented from: ListSettingsController
     // Base method: System.Boolean ListSettingsController::GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
     bool GetInitValues(ByRef<int> idx, ByRef<int> numberOfElements);
     // protected override System.Void ApplyValue(System.Int32 idx)
-    // Offset: 0x11760FC
+    // Offset: 0x11E8EA4
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::ApplyValue(System.Int32 idx)
     void ApplyValue(int idx);
     // protected override System.String TextForValue(System.Int32 idx)
-    // Offset: 0x11761A0
+    // Offset: 0x11E8F48
     // Implemented from: ListSettingsController
     // Base method: System.String ListSettingsController::TextForValue(System.Int32 idx)
     ::Il2CppString* TextForValue(int idx);
@@ -218,9 +197,9 @@ namespace GlobalNamespace {
   static check_size<sizeof(FormattedFloatListSettingsController), 84 + sizeof(bool)> __GlobalNamespace_FormattedFloatListSettingsControllerSizeCheck;
   static_assert(sizeof(FormattedFloatListSettingsController) == 0x55);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FormattedFloatListSettingsController*, "", "FormattedFloatListSettingsController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FormattedFloatListSettingsController::ValueType, "", "FormattedFloatListSettingsController/ValueType");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FormattedFloatListSettingsController::get_value
 // Il2CppName: get_value
 template<>
@@ -232,7 +211,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Writing MetadataGetter for method: GlobalNamespace::FormattedFloatListSettingsController::get_values
 // Il2CppName: get_values
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<float> (GlobalNamespace::FormattedFloatListSettingsController::*)()>(&GlobalNamespace::FormattedFloatListSettingsController::get_values)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<float>* (GlobalNamespace::FormattedFloatListSettingsController::*)()>(&GlobalNamespace::FormattedFloatListSettingsController::get_values)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FormattedFloatListSettingsController*), "get_values", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -240,7 +219,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<fl
 // Writing MetadataGetter for method: GlobalNamespace::FormattedFloatListSettingsController::set_values
 // Il2CppName: set_values
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FormattedFloatListSettingsController::*)(::ArrayW<float>)>(&GlobalNamespace::FormattedFloatListSettingsController::set_values)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FormattedFloatListSettingsController::*)(::Array<float>*)>(&GlobalNamespace::FormattedFloatListSettingsController::set_values)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FormattedFloatListSettingsController*), "set_values", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

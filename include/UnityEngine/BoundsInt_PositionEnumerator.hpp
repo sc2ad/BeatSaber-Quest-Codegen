@@ -3,7 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.BoundsInt
 #include "UnityEngine/BoundsInt.hpp"
 // Including type: System.ValueType
@@ -12,17 +12,14 @@
 #include "System/Collections/Generic/IEnumerator_1.hpp"
 // Including type: UnityEngine.Vector3Int
 #include "UnityEngine/Vector3Int.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct Il2CppObject;
 // Completed il2cpp-utils forward declares
-// Type namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: PositionEnumerator
-  struct PositionEnumerator;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::BoundsInt::PositionEnumerator, "UnityEngine", "BoundsInt/PositionEnumerator");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x24
@@ -32,11 +29,6 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   struct BoundsInt::PositionEnumerator/*, public System::ValueType, public System::Collections::Generic::IEnumerator_1<UnityEngine::Vector3Int>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private readonly UnityEngine.Vector3Int _min
     // Size: 0xC
     // Offset: 0x0
@@ -55,7 +47,6 @@ namespace UnityEngine {
     UnityEngine::Vector3Int current;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3Int) == 0xC);
-    public:
     // Creating value type constructor for type: PositionEnumerator
     constexpr PositionEnumerator(UnityEngine::Vector3Int min_ = {}, UnityEngine::Vector3Int max_ = {}, UnityEngine::Vector3Int current_ = {}) noexcept : min{min_}, max{max_}, current{current_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -73,32 +64,38 @@ namespace UnityEngine {
     // Get instance field reference: private UnityEngine.Vector3Int _current
     UnityEngine::Vector3Int& dyn__current();
     // public UnityEngine.Vector3Int get_Current()
-    // Offset: 0x1C92A54
+    // Offset: 0x1D024BC
     UnityEngine::Vector3Int get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1C92A64
+    // Offset: 0x1D024CC
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(UnityEngine.Vector3Int min, UnityEngine.Vector3Int max)
-    // Offset: 0x1C927F8
-    PositionEnumerator(UnityEngine::Vector3Int min, UnityEngine::Vector3Int max);
+    // Offset: 0x1D02260
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    PositionEnumerator(UnityEngine::Vector3Int min, UnityEngine::Vector3Int max) {
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::BoundsInt::PositionEnumerator::.ctor");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(min), ::il2cpp_utils::ExtractType(max)})));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, min, max);
+    }
     // public UnityEngine.BoundsInt/UnityEngine.PositionEnumerator GetEnumerator()
-    // Offset: 0x1C92888
+    // Offset: 0x1D022F0
     UnityEngine::BoundsInt::PositionEnumerator GetEnumerator();
     // public System.Boolean MoveNext()
-    // Offset: 0x1C9289C
+    // Offset: 0x1D02304
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1C92844
+    // Offset: 0x1D022AC
     void Reset();
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1C92AD0
+    // Offset: 0x1D02538
     void System_IDisposable_Dispose();
   }; // UnityEngine.BoundsInt/UnityEngine.PositionEnumerator
   #pragma pack(pop)
   static check_size<sizeof(BoundsInt::PositionEnumerator), 24 + sizeof(UnityEngine::Vector3Int)> __UnityEngine_BoundsInt_PositionEnumeratorSizeCheck;
   static_assert(sizeof(BoundsInt::PositionEnumerator) == 0x24);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::BoundsInt::PositionEnumerator, "UnityEngine", "BoundsInt/PositionEnumerator");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::BoundsInt::PositionEnumerator::get_Current
 // Il2CppName: get_Current
 template<>

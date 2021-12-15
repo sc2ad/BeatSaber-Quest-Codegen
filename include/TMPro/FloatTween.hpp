@@ -3,7 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: TMPro.ITweenValue
@@ -22,13 +22,6 @@ namespace UnityEngine::Events {
 // Completed forward declares
 // Type namespace: TMPro
 namespace TMPro {
-  // Forward declaring type: FloatTween
-  struct FloatTween;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(TMPro::FloatTween, "TMPro", "FloatTween");
-// Type namespace: TMPro
-namespace TMPro {
   // Size: 0x15
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -38,11 +31,6 @@ namespace TMPro {
     public:
     // Nested type: TMPro::FloatTween::FloatTweenCallback
     class FloatTweenCallback;
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private TMPro.FloatTween/TMPro.FloatTweenCallback m_Target
     // Size: 0x8
     // Offset: 0x0
@@ -73,7 +61,6 @@ namespace TMPro {
     bool m_IgnoreTimeScale;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
     // Creating value type constructor for type: FloatTween
     constexpr FloatTween(TMPro::FloatTween::FloatTweenCallback* m_Target_ = {}, float m_StartValue_ = {}, float m_TargetValue_ = {}, float m_Duration_ = {}, bool m_IgnoreTimeScale_ = {}) noexcept : m_Target{m_Target_}, m_StartValue{m_StartValue_}, m_TargetValue{m_TargetValue_}, m_Duration{m_Duration_}, m_IgnoreTimeScale{m_IgnoreTimeScale_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -95,50 +82,52 @@ namespace TMPro {
     // Get instance field reference: private System.Boolean m_IgnoreTimeScale
     bool& dyn_m_IgnoreTimeScale();
     // public System.Single get_startValue()
-    // Offset: 0x11E77DC
+    // Offset: 0x123DF4C
     float get_startValue();
     // public System.Void set_startValue(System.Single value)
-    // Offset: 0x11E77E4
+    // Offset: 0x123DF54
     void set_startValue(float value);
     // public System.Single get_targetValue()
-    // Offset: 0x11E77EC
+    // Offset: 0x123DF5C
     float get_targetValue();
     // public System.Void set_targetValue(System.Single value)
-    // Offset: 0x11E77F4
+    // Offset: 0x123DF64
     void set_targetValue(float value);
     // public System.Single get_duration()
-    // Offset: 0x11E77FC
+    // Offset: 0x123DF6C
     float get_duration();
     // public System.Void set_duration(System.Single value)
-    // Offset: 0x11E7804
+    // Offset: 0x123DF74
     void set_duration(float value);
     // public System.Boolean get_ignoreTimeScale()
-    // Offset: 0x11E780C
+    // Offset: 0x123DF7C
     bool get_ignoreTimeScale();
     // public System.Void set_ignoreTimeScale(System.Boolean value)
-    // Offset: 0x11E7814
+    // Offset: 0x123DF84
     void set_ignoreTimeScale(bool value);
     // public System.Void TweenValue(System.Single floatPercentage)
-    // Offset: 0x11E7820
+    // Offset: 0x123DF90
     void TweenValue(float floatPercentage);
     // public System.Void AddOnChangedCallback(UnityEngine.Events.UnityAction`1<System.Single> callback)
-    // Offset: 0x11E78F0
+    // Offset: 0x123E060
     void AddOnChangedCallback(UnityEngine::Events::UnityAction_1<float>* callback);
     // public System.Boolean GetIgnoreTimescale()
-    // Offset: 0x11E79CC
+    // Offset: 0x123E13C
     bool GetIgnoreTimescale();
     // public System.Single GetDuration()
-    // Offset: 0x11E79D4
+    // Offset: 0x123E144
     float GetDuration();
     // public System.Boolean ValidTarget()
-    // Offset: 0x11E78E0
+    // Offset: 0x123E050
     bool ValidTarget();
   }; // TMPro.FloatTween
   #pragma pack(pop)
   static check_size<sizeof(FloatTween), 20 + sizeof(bool)> __TMPro_FloatTweenSizeCheck;
   static_assert(sizeof(FloatTween) == 0x15);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::FloatTween, "TMPro", "FloatTween");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::FloatTween::get_startValue
 // Il2CppName: get_startValue
 template<>

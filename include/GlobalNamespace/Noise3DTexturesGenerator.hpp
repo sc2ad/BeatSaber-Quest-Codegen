@@ -3,17 +3,16 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.Color32
 #include "UnityEngine/Color32.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -28,14 +27,6 @@ namespace GlobalNamespace {
   // Skipping declaration: MaterialPropertyNameCouple because it is already included!
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: Noise3DTexturesGenerator
-  class Noise3DTexturesGenerator;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::Noise3DTexturesGenerator);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Noise3DTexturesGenerator*, "", "Noise3DTexturesGenerator");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -56,11 +47,6 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct MaterialTextureParamsCouple/*, public System::ValueType*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.String globalPropertyName
       // Size: 0x8
       // Offset: 0x0
@@ -70,12 +56,11 @@ namespace GlobalNamespace {
       // public Noise3DTexturesGenerator/MaterialPropertyNameCouple[] materialPropertyNameCouples
       // Size: 0x8
       // Offset: 0x8
-      ::ArrayW<GlobalNamespace::Noise3DTexturesGenerator::MaterialPropertyNameCouple> materialPropertyNameCouples;
+      ::Array<GlobalNamespace::Noise3DTexturesGenerator::MaterialPropertyNameCouple>* materialPropertyNameCouples;
       // Field size check
-      static_assert(sizeof(::ArrayW<GlobalNamespace::Noise3DTexturesGenerator::MaterialPropertyNameCouple>) == 0x8);
-      public:
+      static_assert(sizeof(::Array<GlobalNamespace::Noise3DTexturesGenerator::MaterialPropertyNameCouple>*) == 0x8);
       // Creating value type constructor for type: MaterialTextureParamsCouple
-      constexpr MaterialTextureParamsCouple(::Il2CppString* globalPropertyName_ = {}, ::ArrayW<GlobalNamespace::Noise3DTexturesGenerator::MaterialPropertyNameCouple> materialPropertyNameCouples_ = ::ArrayW<GlobalNamespace::Noise3DTexturesGenerator::MaterialPropertyNameCouple>(nullptr)) noexcept : globalPropertyName{globalPropertyName_}, materialPropertyNameCouples{materialPropertyNameCouples_} {}
+      constexpr MaterialTextureParamsCouple(::Il2CppString* globalPropertyName_ = {}, ::Array<GlobalNamespace::Noise3DTexturesGenerator::MaterialPropertyNameCouple>* materialPropertyNameCouples_ = {}) noexcept : globalPropertyName{globalPropertyName_}, materialPropertyNameCouples{materialPropertyNameCouples_} {}
       // Creating interface conversion operator: operator System::ValueType
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
@@ -83,10 +68,10 @@ namespace GlobalNamespace {
       // Get instance field reference: public System.String globalPropertyName
       ::Il2CppString*& dyn_globalPropertyName();
       // Get instance field reference: public Noise3DTexturesGenerator/MaterialPropertyNameCouple[] materialPropertyNameCouples
-      ::ArrayW<GlobalNamespace::Noise3DTexturesGenerator::MaterialPropertyNameCouple>& dyn_materialPropertyNameCouples();
+      ::Array<GlobalNamespace::Noise3DTexturesGenerator::MaterialPropertyNameCouple>*& dyn_materialPropertyNameCouples();
     }; // Noise3DTexturesGenerator/MaterialTextureParamsCouple
     #pragma pack(pop)
-    static check_size<sizeof(Noise3DTexturesGenerator::MaterialTextureParamsCouple), 8 + sizeof(::ArrayW<GlobalNamespace::Noise3DTexturesGenerator::MaterialPropertyNameCouple>)> __GlobalNamespace_Noise3DTexturesGenerator_MaterialTextureParamsCoupleSizeCheck;
+    static check_size<sizeof(Noise3DTexturesGenerator::MaterialTextureParamsCouple), 8 + sizeof(::Array<GlobalNamespace::Noise3DTexturesGenerator::MaterialPropertyNameCouple>*)> __GlobalNamespace_Noise3DTexturesGenerator_MaterialTextureParamsCoupleSizeCheck;
     static_assert(sizeof(Noise3DTexturesGenerator::MaterialTextureParamsCouple) == 0x10);
     // Size: 0x10
     #pragma pack(push, 1)
@@ -95,11 +80,6 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct MaterialPropertyNameCouple/*, public System::ValueType*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.String texturePropertyName
       // Size: 0x8
       // Offset: 0x0
@@ -112,7 +92,6 @@ namespace GlobalNamespace {
       UnityEngine::Material* material;
       // Field size check
       static_assert(sizeof(UnityEngine::Material*) == 0x8);
-      public:
       // Creating value type constructor for type: MaterialPropertyNameCouple
       constexpr MaterialPropertyNameCouple(::Il2CppString* texturePropertyName_ = {}, UnityEngine::Material* material_ = {}) noexcept : texturePropertyName{texturePropertyName_}, material{material_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -127,18 +106,14 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(Noise3DTexturesGenerator::MaterialPropertyNameCouple), 8 + sizeof(UnityEngine::Material*)> __GlobalNamespace_Noise3DTexturesGenerator_MaterialPropertyNameCoupleSizeCheck;
     static_assert(sizeof(Noise3DTexturesGenerator::MaterialPropertyNameCouple) == 0x10);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private Noise3DTexturesGenerator/MaterialTextureParamsCouple[] _data
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayW<GlobalNamespace::Noise3DTexturesGenerator::MaterialTextureParamsCouple> data;
+    ::Array<GlobalNamespace::Noise3DTexturesGenerator::MaterialTextureParamsCouple>* data;
     // Field size check
-    static_assert(sizeof(::ArrayW<GlobalNamespace::Noise3DTexturesGenerator::MaterialTextureParamsCouple>) == 0x8);
-    public:
+    static_assert(sizeof(::Array<GlobalNamespace::Noise3DTexturesGenerator::MaterialTextureParamsCouple>*) == 0x8);
+    // Creating value type constructor for type: Noise3DTexturesGenerator
+    Noise3DTexturesGenerator(::Array<GlobalNamespace::Noise3DTexturesGenerator::MaterialTextureParamsCouple>* data_ = {}) noexcept : data{data_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private UnityEngine.Texture3D _texture
@@ -146,15 +121,15 @@ namespace GlobalNamespace {
     // Set static field: static private UnityEngine.Texture3D _texture
     static void _set__texture(UnityEngine::Texture3D* value);
     // Get instance field reference: private Noise3DTexturesGenerator/MaterialTextureParamsCouple[] _data
-    ::ArrayW<GlobalNamespace::Noise3DTexturesGenerator::MaterialTextureParamsCouple>& dyn__data();
+    ::Array<GlobalNamespace::Noise3DTexturesGenerator::MaterialTextureParamsCouple>*& dyn__data();
     // protected System.Void Awake()
-    // Offset: 0x256FB1C
+    // Offset: 0x26312C8
     void Awake();
     // static private UnityEngine.Color32[] CreateNoisePixels(System.Int32 width, System.Int32 height, System.Int32 depth, System.Single scale, System.Int32 repeat, System.Single contrast)
-    // Offset: 0x256FD98
-    static ::ArrayW<UnityEngine::Color32> CreateNoisePixels(int width, int height, int depth, float scale, int repeat, float contrast);
+    // Offset: 0x2631544
+    static ::Array<UnityEngine::Color32>* CreateNoisePixels(int width, int height, int depth, float scale, int repeat, float contrast);
     // public System.Void .ctor()
-    // Offset: 0x2570024
+    // Offset: 0x26317D0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -167,20 +142,19 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<Noise3DTexturesGenerator*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x257002C
+    // Offset: 0x26317D8
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // Noise3DTexturesGenerator
   #pragma pack(pop)
-  static check_size<sizeof(Noise3DTexturesGenerator), 24 + sizeof(::ArrayW<GlobalNamespace::Noise3DTexturesGenerator::MaterialTextureParamsCouple>)> __GlobalNamespace_Noise3DTexturesGeneratorSizeCheck;
+  static check_size<sizeof(Noise3DTexturesGenerator), 24 + sizeof(::Array<GlobalNamespace::Noise3DTexturesGenerator::MaterialTextureParamsCouple>*)> __GlobalNamespace_Noise3DTexturesGeneratorSizeCheck;
   static_assert(sizeof(Noise3DTexturesGenerator) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Noise3DTexturesGenerator*, "", "Noise3DTexturesGenerator");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Noise3DTexturesGenerator::MaterialTextureParamsCouple, "", "Noise3DTexturesGenerator/MaterialTextureParamsCouple");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Noise3DTexturesGenerator::MaterialPropertyNameCouple, "", "Noise3DTexturesGenerator/MaterialPropertyNameCouple");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::Noise3DTexturesGenerator::Awake
 // Il2CppName: Awake
 template<>
@@ -192,7 +166,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::Noise3DTexturesGenerator::CreateNoisePixels
 // Il2CppName: CreateNoisePixels
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Color32> (*)(int, int, int, float, int, float)>(&GlobalNamespace::Noise3DTexturesGenerator::CreateNoisePixels)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Color32>* (*)(int, int, int, float, int, float)>(&GlobalNamespace::Noise3DTexturesGenerator::CreateNoisePixels)> {
   static const MethodInfo* get() {
     static auto* width = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* height = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

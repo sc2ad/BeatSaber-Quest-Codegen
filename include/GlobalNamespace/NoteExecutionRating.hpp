@@ -3,14 +3,14 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BeatmapObjectExecutionRating
 #include "GlobalNamespace/BeatmapObjectExecutionRating.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -18,14 +18,6 @@ namespace GlobalNamespace {
   // Skipping declaration: Rating because it is already included!
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: NoteExecutionRating
-  class NoteExecutionRating;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::NoteExecutionRating);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteExecutionRating*, "", "NoteExecutionRating");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x2C
@@ -42,18 +34,12 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct Rating/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: Rating
       constexpr Rating(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -88,11 +74,6 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(NoteExecutionRating::Rating), 0 + sizeof(int)> __GlobalNamespace_NoteExecutionRating_RatingSizeCheck;
     static_assert(sizeof(NoteExecutionRating::Rating) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private NoteExecutionRating/Rating <rating>k__BackingField
     // Size: 0x4
     // Offset: 0x18
@@ -123,7 +104,8 @@ namespace GlobalNamespace {
     float cutDirDeviation;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
+    // Creating value type constructor for type: NoteExecutionRating
+    NoteExecutionRating(GlobalNamespace::NoteExecutionRating::Rating rating_ = {}, int cutScore_ = {}, int cutDistanceScore_ = {}, float cutTimeDeviation_ = {}, float cutDirDeviation_ = {}) noexcept : rating{rating_}, cutScore{cutScore_}, cutDistanceScore{cutDistanceScore_}, cutTimeDeviation{cutTimeDeviation_}, cutDirDeviation{cutDirDeviation_} {}
     // Get instance field reference: private NoteExecutionRating/Rating <rating>k__BackingField
     GlobalNamespace::NoteExecutionRating::Rating& dyn_$rating$k__BackingField();
     // Get instance field reference: private System.Int32 <cutScore>k__BackingField
@@ -135,37 +117,37 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single <cutDirDeviation>k__BackingField
     float& dyn_$cutDirDeviation$k__BackingField();
     // public NoteExecutionRating/Rating get_rating()
-    // Offset: 0x133B7D0
+    // Offset: 0x13414F8
     GlobalNamespace::NoteExecutionRating::Rating get_rating();
     // public System.Void set_rating(NoteExecutionRating/Rating value)
-    // Offset: 0x133B7D8
+    // Offset: 0x1341500
     void set_rating(GlobalNamespace::NoteExecutionRating::Rating value);
     // public System.Int32 get_cutScore()
-    // Offset: 0x133B7E0
+    // Offset: 0x1341508
     int get_cutScore();
     // public System.Void set_cutScore(System.Int32 value)
-    // Offset: 0x133B7E8
+    // Offset: 0x1341510
     void set_cutScore(int value);
     // public System.Int32 get_cutDistanceScore()
-    // Offset: 0x133B7F0
+    // Offset: 0x1341518
     int get_cutDistanceScore();
     // public System.Void set_cutDistanceScore(System.Int32 value)
-    // Offset: 0x133B7F8
+    // Offset: 0x1341520
     void set_cutDistanceScore(int value);
     // public System.Single get_cutTimeDeviation()
-    // Offset: 0x133B800
+    // Offset: 0x1341528
     float get_cutTimeDeviation();
     // public System.Void set_cutTimeDeviation(System.Single value)
-    // Offset: 0x133B808
+    // Offset: 0x1341530
     void set_cutTimeDeviation(float value);
     // public System.Single get_cutDirDeviation()
-    // Offset: 0x133B810
+    // Offset: 0x1341538
     float get_cutDirDeviation();
     // public System.Void set_cutDirDeviation(System.Single value)
-    // Offset: 0x133B818
+    // Offset: 0x1341540
     void set_cutDirDeviation(float value);
     // public System.Void .ctor(System.Single time, NoteExecutionRating/Rating rating, System.Int32 cutScore, System.Int32 cutDistanceScore, System.Single cutTimeDeviation, System.Single cutDirDeviation)
-    // Offset: 0x133B820
+    // Offset: 0x1341548
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteExecutionRating* New_ctor(float time, GlobalNamespace::NoteExecutionRating::Rating rating, int cutScore, int cutDistanceScore, float cutTimeDeviation, float cutDirDeviation) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NoteExecutionRating::.ctor");
@@ -176,9 +158,9 @@ namespace GlobalNamespace {
   static check_size<sizeof(NoteExecutionRating), 40 + sizeof(float)> __GlobalNamespace_NoteExecutionRatingSizeCheck;
   static_assert(sizeof(NoteExecutionRating) == 0x2C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteExecutionRating*, "", "NoteExecutionRating");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteExecutionRating::Rating, "", "NoteExecutionRating/Rating");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteExecutionRating::get_rating
 // Il2CppName: get_rating
 template<>

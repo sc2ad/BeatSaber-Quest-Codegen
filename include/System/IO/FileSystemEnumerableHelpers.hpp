@@ -3,19 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Microsoft.Win32.Win32Native
 #include "Microsoft/Win32/Win32Native.hpp"
 // Completed includes
-// Type namespace: System.IO
-namespace System::IO {
-  // Forward declaring type: FileSystemEnumerableHelpers
-  class FileSystemEnumerableHelpers;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::IO::FileSystemEnumerableHelpers);
-DEFINE_IL2CPP_ARG_TYPE(System::IO::FileSystemEnumerableHelpers*, "System.IO", "FileSystemEnumerableHelpers");
 // Type namespace: System.IO
 namespace System::IO {
   // Size: 0x10
@@ -24,16 +16,20 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   class FileSystemEnumerableHelpers : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: FileSystemEnumerableHelpers
+    FileSystemEnumerableHelpers() noexcept {}
     // static System.Boolean IsDir(Microsoft.Win32.Win32Native/Microsoft.Win32.WIN32_FIND_DATA data)
-    // Offset: 0x1AA0778
+    // Offset: 0x1B01D90
     static bool IsDir(Microsoft::Win32::Win32Native::WIN32_FIND_DATA* data);
     // static System.Boolean IsFile(Microsoft.Win32.Win32Native/Microsoft.Win32.WIN32_FIND_DATA data)
-    // Offset: 0x1AA0814
+    // Offset: 0x1B01E2C
     static bool IsFile(Microsoft::Win32::Win32Native::WIN32_FIND_DATA* data);
   }; // System.IO.FileSystemEnumerableHelpers
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::IO::FileSystemEnumerableHelpers*, "System.IO", "FileSystemEnumerableHelpers");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::FileSystemEnumerableHelpers::IsDir
 // Il2CppName: IsDir
 template<>

@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: RootMotion.FinalIK.Grounding
 #include "RootMotion/FinalIK/Grounding.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: RootMotion.FinalIK
-namespace RootMotion::FinalIK {
-  // Forward declaring type: Pelvis
-  class Pelvis;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::FinalIK::Grounding::Pelvis);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Grounding::Pelvis*, "RootMotion.FinalIK", "Grounding/Pelvis");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
   // Size: 0x40
@@ -30,11 +22,6 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class Grounding::Pelvis : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private UnityEngine.Vector3 <IKOffset>k__BackingField
     // Size: 0xC
     // Offset: 0x10
@@ -79,7 +66,8 @@ namespace RootMotion::FinalIK {
     float lastTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
+    // Creating value type constructor for type: Pelvis
+    Pelvis(UnityEngine::Vector3 IKOffset_ = {}, float heightOffset_ = {}, RootMotion::FinalIK::Grounding* grounding_ = {}, UnityEngine::Vector3 lastRootPosition_ = {}, float damperF_ = {}, bool initiated_ = {}, float lastTime_ = {}) noexcept : IKOffset{IKOffset_}, heightOffset{heightOffset_}, grounding{grounding_}, lastRootPosition{lastRootPosition_}, damperF{damperF_}, initiated{initiated_}, lastTime{lastTime_} {}
     // Get instance field reference: private UnityEngine.Vector3 <IKOffset>k__BackingField
     UnityEngine::Vector3& dyn_$IKOffset$k__BackingField();
     // Get instance field reference: private System.Single <heightOffset>k__BackingField
@@ -95,31 +83,31 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private System.Single lastTime
     float& dyn_lastTime();
     // public UnityEngine.Vector3 get_IKOffset()
-    // Offset: 0x1E76F6C
+    // Offset: 0x1E7C9CC
     UnityEngine::Vector3 get_IKOffset();
     // private System.Void set_IKOffset(UnityEngine.Vector3 value)
-    // Offset: 0x1E76F78
+    // Offset: 0x1E7C9D8
     void set_IKOffset(UnityEngine::Vector3 value);
     // public System.Single get_heightOffset()
-    // Offset: 0x1E76F84
+    // Offset: 0x1E7C9E4
     float get_heightOffset();
     // private System.Void set_heightOffset(System.Single value)
-    // Offset: 0x1E76F8C
+    // Offset: 0x1E7C9EC
     void set_heightOffset(float value);
     // public System.Void Initiate(RootMotion.FinalIK.Grounding grounding)
-    // Offset: 0x1E74AD0
+    // Offset: 0x1E7A530
     void Initiate(RootMotion::FinalIK::Grounding* grounding);
     // public System.Void Reset()
-    // Offset: 0x1E75638
+    // Offset: 0x1E7B098
     void Reset();
     // public System.Void OnEnable()
-    // Offset: 0x1E76F94
+    // Offset: 0x1E7C9F4
     void OnEnable();
     // public System.Void Process(System.Single lowestOffset, System.Single highestOffset, System.Boolean isGrounded)
-    // Offset: 0x1E753CC
+    // Offset: 0x1E7AE2C
     void Process(float lowestOffset, float highestOffset, bool isGrounded);
     // public System.Void .ctor()
-    // Offset: 0x1E749E4
+    // Offset: 0x1E7A444
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -132,7 +120,8 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(Grounding::Pelvis), 60 + sizeof(float)> __RootMotion_FinalIK_Grounding_PelvisSizeCheck;
   static_assert(sizeof(Grounding::Pelvis) == 0x40);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Grounding::Pelvis*, "RootMotion.FinalIK", "Grounding/Pelvis");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::Grounding::Pelvis::get_IKOffset
 // Il2CppName: get_IKOffset
 template<>

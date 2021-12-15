@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Mono.RuntimeStructs
 #include "Mono/RuntimeStructs.hpp"
 // Including type: System.ValueType
@@ -19,13 +19,6 @@ namespace System {
 // Completed forward declares
 // Type namespace: Mono
 namespace Mono {
-  // Forward declaring type: GPtrArray
-  struct GPtrArray;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeStructs::GPtrArray, "Mono", "RuntimeStructs/GPtrArray");
-// Type namespace: Mono
-namespace Mono {
   // Size: 0xC
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -33,11 +26,6 @@ namespace Mono {
   // [TokenAttribute] Offset: FFFFFFFF
   struct RuntimeStructs::GPtrArray/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // System.IntPtr* data
     // Size: 0x8
     // Offset: 0x0
@@ -50,7 +38,6 @@ namespace Mono {
     int len;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: GPtrArray
     constexpr GPtrArray(System::IntPtr* data_ = {}, int len_ = {}) noexcept : data{data_}, len{len_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -66,4 +53,6 @@ namespace Mono {
   static check_size<sizeof(RuntimeStructs::GPtrArray), 8 + sizeof(int)> __Mono_RuntimeStructs_GPtrArraySizeCheck;
   static_assert(sizeof(RuntimeStructs::GPtrArray) == 0xC);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeStructs::GPtrArray, "Mono", "RuntimeStructs/GPtrArray");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

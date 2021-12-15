@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Attribute
 #include "System/Attribute.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: UnityEngine.Internal
-namespace UnityEngine::Internal {
-  // Forward declaring type: ExcludeFromDocsAttribute
-  class ExcludeFromDocsAttribute;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Internal::ExcludeFromDocsAttribute);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Internal::ExcludeFromDocsAttribute*, "UnityEngine.Internal", "ExcludeFromDocsAttribute");
 // Type namespace: UnityEngine.Internal
 namespace UnityEngine::Internal {
   // Size: 0x10
@@ -28,8 +20,10 @@ namespace UnityEngine::Internal {
   // [TokenAttribute] Offset: FFFFFFFF
   class ExcludeFromDocsAttribute : public System::Attribute {
     public:
+    // Creating value type constructor for type: ExcludeFromDocsAttribute
+    ExcludeFromDocsAttribute() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1D837A0
+    // Offset: 0x1D95774
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -41,7 +35,8 @@ namespace UnityEngine::Internal {
   }; // UnityEngine.Internal.ExcludeFromDocsAttribute
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Internal::ExcludeFromDocsAttribute*, "UnityEngine.Internal", "ExcludeFromDocsAttribute");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Internal::ExcludeFromDocsAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

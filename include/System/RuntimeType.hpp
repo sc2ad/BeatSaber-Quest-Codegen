@@ -3,18 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/typedefs.h"
 #include <initializer_list>
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Reflection.TypeInfo
 #include "System/Reflection/TypeInfo.hpp"
 // Including type: System.ICloneable
 #include "System/ICloneable.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -85,8 +84,7 @@ namespace System::Reflection {
 namespace System::Runtime::Serialization {
   // Forward declaring type: SerializationInfo
   class SerializationInfo;
-  // Forward declaring type: StreamingContext
-  struct StreamingContext;
+  // Skipping declaration: StreamingContext because it is already included!
 }
 // Forward declaring namespace: System::Globalization
 namespace System::Globalization {
@@ -107,14 +105,6 @@ namespace System::Collections::Generic {
 // Completed forward declares
 // Type namespace: System
 namespace System {
-  // Forward declaring type: RuntimeType
-  class RuntimeType;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::RuntimeType);
-DEFINE_IL2CPP_ARG_TYPE(System::RuntimeType*, "System", "RuntimeType");
-// Type namespace: System
-namespace System {
   // Size: 0x30
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -127,11 +117,6 @@ namespace System {
     // Nested type: System::RuntimeType::ListBuilder_1<T>
     template<typename T>
     struct ListBuilder_1;
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.MonoTypeInfo type_info
     // Size: 0x8
     // Offset: 0x18
@@ -150,7 +135,8 @@ namespace System {
     System::Reflection::RuntimeConstructorInfo* m_serializationCtor;
     // Field size check
     static_assert(sizeof(System::Reflection::RuntimeConstructorInfo*) == 0x8);
-    public:
+    // Creating value type constructor for type: RuntimeType
+    RuntimeType(System::MonoTypeInfo* type_info_ = {}, ::Il2CppObject* GenericCache_ = {}, System::Reflection::RuntimeConstructorInfo* m_serializationCtor_ = {}) noexcept : type_info{type_info_}, GenericCache{GenericCache_}, m_serializationCtor{m_serializationCtor_} {}
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);
@@ -182,9 +168,9 @@ namespace System {
     // Set static field: static private readonly System.RuntimeType DelegateType
     static void _set_DelegateType(System::RuntimeType* value);
     // Get static field: static private System.Type[] s_SICtorParamTypes
-    static ::ArrayW<System::Type*> _get_s_SICtorParamTypes();
+    static ::Array<System::Type*>* _get_s_SICtorParamTypes();
     // Set static field: static private System.Type[] s_SICtorParamTypes
-    static void _set_s_SICtorParamTypes(::ArrayW<System::Type*> value);
+    static void _set_s_SICtorParamTypes(::Array<System::Type*>* value);
     // static field const value: static private System.Reflection.BindingFlags MemberBindingMask
     static constexpr const int MemberBindingMask = 255;
     // Get static field: static private System.Reflection.BindingFlags MemberBindingMask
@@ -250,305 +236,305 @@ namespace System {
     // Get instance field reference: private System.Reflection.RuntimeConstructorInfo m_serializationCtor
     System::Reflection::RuntimeConstructorInfo*& dyn_m_serializationCtor();
     // static private System.Void ThrowIfTypeNeverValidGenericArgument(System.RuntimeType type)
-    // Offset: 0x1900650
+    // Offset: 0x1925814
     static void ThrowIfTypeNeverValidGenericArgument(System::RuntimeType* type);
     // static System.Void SanityCheckGenericArguments(System.RuntimeType[] genericArguments, System.RuntimeType[] genericParamters)
-    // Offset: 0x19007B0
-    static void SanityCheckGenericArguments(::ArrayW<System::RuntimeType*> genericArguments, ::ArrayW<System::RuntimeType*> genericParamters);
+    // Offset: 0x1925974
+    static void SanityCheckGenericArguments(::Array<System::RuntimeType*>* genericArguments, ::Array<System::RuntimeType*>* genericParamters);
     // static private System.Void SplitName(System.String fullname, out System.String name, out System.String ns)
-    // Offset: 0x19009E0
+    // Offset: 0x1925BA4
     static void SplitName(::Il2CppString* fullname, ByRef<::Il2CppString*> name, ByRef<::Il2CppString*> ns);
     // static private System.Void FilterHelper(System.Reflection.BindingFlags bindingFlags, ref System.String name, System.Boolean allowPrefixLookup, out System.Boolean prefixLookup, out System.Boolean ignoreCase, out System.RuntimeType/System.MemberListType listType)
-    // Offset: 0x1900AC8
+    // Offset: 0x1925C8C
     static void FilterHelper(System::Reflection::BindingFlags bindingFlags, ByRef<::Il2CppString*> name, bool allowPrefixLookup, ByRef<bool> prefixLookup, ByRef<bool> ignoreCase, ByRef<System::RuntimeType::MemberListType> listType);
     // static private System.Void FilterHelper(System.Reflection.BindingFlags bindingFlags, ref System.String name, out System.Boolean ignoreCase, out System.RuntimeType/System.MemberListType listType)
-    // Offset: 0x1900BF4
+    // Offset: 0x1925DB8
     static void FilterHelper(System::Reflection::BindingFlags bindingFlags, ByRef<::Il2CppString*> name, ByRef<bool> ignoreCase, ByRef<System::RuntimeType::MemberListType> listType);
     // static private System.Boolean FilterApplyPrefixLookup(System.Reflection.MemberInfo memberInfo, System.String name, System.Boolean ignoreCase)
-    // Offset: 0x1900C90
+    // Offset: 0x1925E54
     static bool FilterApplyPrefixLookup(System::Reflection::MemberInfo* memberInfo, ::Il2CppString* name, bool ignoreCase);
     // static private System.Boolean FilterApplyBase(System.Reflection.MemberInfo memberInfo, System.Reflection.BindingFlags bindingFlags, System.Boolean isPublic, System.Boolean isNonProtectedInternal, System.Boolean isStatic, System.String name, System.Boolean prefixLookup)
-    // Offset: 0x1900CF4
+    // Offset: 0x1925EB8
     static bool FilterApplyBase(System::Reflection::MemberInfo* memberInfo, System::Reflection::BindingFlags bindingFlags, bool isPublic, bool isNonProtectedInternal, bool isStatic, ::Il2CppString* name, bool prefixLookup);
     // static private System.Boolean FilterApplyType(System.Type type, System.Reflection.BindingFlags bindingFlags, System.String name, System.Boolean prefixLookup, System.String ns)
-    // Offset: 0x1900EE0
+    // Offset: 0x19260A4
     static bool FilterApplyType(System::Type* type, System::Reflection::BindingFlags bindingFlags, ::Il2CppString* name, bool prefixLookup, ::Il2CppString* ns);
     // static private System.Boolean FilterApplyMethodInfo(System.Reflection.RuntimeMethodInfo method, System.Reflection.BindingFlags bindingFlags, System.Reflection.CallingConventions callConv, System.Type[] argumentTypes)
-    // Offset: 0x1901010
-    static bool FilterApplyMethodInfo(System::Reflection::RuntimeMethodInfo* method, System::Reflection::BindingFlags bindingFlags, System::Reflection::CallingConventions callConv, ::ArrayW<System::Type*> argumentTypes);
+    // Offset: 0x19261D4
+    static bool FilterApplyMethodInfo(System::Reflection::RuntimeMethodInfo* method, System::Reflection::BindingFlags bindingFlags, System::Reflection::CallingConventions callConv, ::Array<System::Type*>* argumentTypes);
     // static private System.Boolean FilterApplyConstructorInfo(System.Reflection.RuntimeConstructorInfo constructor, System.Reflection.BindingFlags bindingFlags, System.Reflection.CallingConventions callConv, System.Type[] argumentTypes)
-    // Offset: 0x1901344
-    static bool FilterApplyConstructorInfo(System::Reflection::RuntimeConstructorInfo* constructor, System::Reflection::BindingFlags bindingFlags, System::Reflection::CallingConventions callConv, ::ArrayW<System::Type*> argumentTypes);
+    // Offset: 0x1926508
+    static bool FilterApplyConstructorInfo(System::Reflection::RuntimeConstructorInfo* constructor, System::Reflection::BindingFlags bindingFlags, System::Reflection::CallingConventions callConv, ::Array<System::Type*>* argumentTypes);
     // static private System.Boolean FilterApplyMethodBase(System.Reflection.MethodBase methodBase, System.Reflection.BindingFlags methodFlags, System.Reflection.BindingFlags bindingFlags, System.Reflection.CallingConventions callConv, System.Type[] argumentTypes)
-    // Offset: 0x19010B0
-    static bool FilterApplyMethodBase(System::Reflection::MethodBase* methodBase, System::Reflection::BindingFlags methodFlags, System::Reflection::BindingFlags bindingFlags, System::Reflection::CallingConventions callConv, ::ArrayW<System::Type*> argumentTypes);
+    // Offset: 0x1926274
+    static bool FilterApplyMethodBase(System::Reflection::MethodBase* methodBase, System::Reflection::BindingFlags methodFlags, System::Reflection::BindingFlags bindingFlags, System::Reflection::CallingConventions callConv, ::Array<System::Type*>* argumentTypes);
     // System.Boolean IsSpecialSerializableType()
-    // Offset: 0x1901454
+    // Offset: 0x1926618
     bool IsSpecialSerializableType();
     // private System.RuntimeType/System.ListBuilder`1<System.Reflection.MethodInfo> GetMethodCandidates(System.String name, System.Reflection.BindingFlags bindingAttr, System.Reflection.CallingConventions callConv, System.Type[] types, System.Boolean allowPrefixLookup)
-    // Offset: 0x190173C
-    System::RuntimeType::ListBuilder_1<System::Reflection::MethodInfo*> GetMethodCandidates(::Il2CppString* name, System::Reflection::BindingFlags bindingAttr, System::Reflection::CallingConventions callConv, ::ArrayW<System::Type*> types, bool allowPrefixLookup);
+    // Offset: 0x1926900
+    System::RuntimeType::ListBuilder_1<System::Reflection::MethodInfo*> GetMethodCandidates(::Il2CppString* name, System::Reflection::BindingFlags bindingAttr, System::Reflection::CallingConventions callConv, ::Array<System::Type*>* types, bool allowPrefixLookup);
     // private System.RuntimeType/System.ListBuilder`1<System.Reflection.ConstructorInfo> GetConstructorCandidates(System.String name, System.Reflection.BindingFlags bindingAttr, System.Reflection.CallingConventions callConv, System.Type[] types, System.Boolean allowPrefixLookup)
-    // Offset: 0x1901BAC
-    System::RuntimeType::ListBuilder_1<System::Reflection::ConstructorInfo*> GetConstructorCandidates(::Il2CppString* name, System::Reflection::BindingFlags bindingAttr, System::Reflection::CallingConventions callConv, ::ArrayW<System::Type*> types, bool allowPrefixLookup);
+    // Offset: 0x1926D70
+    System::RuntimeType::ListBuilder_1<System::Reflection::ConstructorInfo*> GetConstructorCandidates(::Il2CppString* name, System::Reflection::BindingFlags bindingAttr, System::Reflection::CallingConventions callConv, ::Array<System::Type*>* types, bool allowPrefixLookup);
     // private System.RuntimeType/System.ListBuilder`1<System.Reflection.PropertyInfo> GetPropertyCandidates(System.String name, System.Reflection.BindingFlags bindingAttr, System.Type[] types, System.Boolean allowPrefixLookup)
-    // Offset: 0x1902030
-    System::RuntimeType::ListBuilder_1<System::Reflection::PropertyInfo*> GetPropertyCandidates(::Il2CppString* name, System::Reflection::BindingFlags bindingAttr, ::ArrayW<System::Type*> types, bool allowPrefixLookup);
+    // Offset: 0x19271F4
+    System::RuntimeType::ListBuilder_1<System::Reflection::PropertyInfo*> GetPropertyCandidates(::Il2CppString* name, System::Reflection::BindingFlags bindingAttr, ::Array<System::Type*>* types, bool allowPrefixLookup);
     // private System.RuntimeType/System.ListBuilder`1<System.Reflection.EventInfo> GetEventCandidates(System.String name, System.Reflection.BindingFlags bindingAttr, System.Boolean allowPrefixLookup)
-    // Offset: 0x19024CC
+    // Offset: 0x1927690
     System::RuntimeType::ListBuilder_1<System::Reflection::EventInfo*> GetEventCandidates(::Il2CppString* name, System::Reflection::BindingFlags bindingAttr, bool allowPrefixLookup);
     // private System.RuntimeType/System.ListBuilder`1<System.Reflection.FieldInfo> GetFieldCandidates(System.String name, System.Reflection.BindingFlags bindingAttr, System.Boolean allowPrefixLookup)
-    // Offset: 0x190292C
+    // Offset: 0x1927AF0
     System::RuntimeType::ListBuilder_1<System::Reflection::FieldInfo*> GetFieldCandidates(::Il2CppString* name, System::Reflection::BindingFlags bindingAttr, bool allowPrefixLookup);
     // private System.RuntimeType/System.ListBuilder`1<System.Type> GetNestedTypeCandidates(System.String fullname, System.Reflection.BindingFlags bindingAttr, System.Boolean allowPrefixLookup)
-    // Offset: 0x1902D8C
+    // Offset: 0x1927F50
     System::RuntimeType::ListBuilder_1<System::Type*> GetNestedTypeCandidates(::Il2CppString* fullname, System::Reflection::BindingFlags bindingAttr, bool allowPrefixLookup);
     // System.Reflection.RuntimeModule GetRuntimeModule()
-    // Offset: 0x1904650
+    // Offset: 0x1929814
     System::Reflection::RuntimeModule* GetRuntimeModule();
     // System.Reflection.RuntimeAssembly GetRuntimeAssembly()
-    // Offset: 0x190465C
+    // Offset: 0x1929820
     System::Reflection::RuntimeAssembly* GetRuntimeAssembly();
     // private System.RuntimeType GetBaseType()
-    // Offset: 0x1901538
+    // Offset: 0x19266FC
     System::RuntimeType* GetBaseType();
     // System.RuntimeType[] GetGenericArgumentsInternal()
-    // Offset: 0x1905998
-    ::ArrayW<System::RuntimeType*> GetGenericArgumentsInternal();
+    // Offset: 0x192AB5C
+    ::Array<System::RuntimeType*>* GetGenericArgumentsInternal();
     // public System.Object Clone()
-    // Offset: 0x19070DC
+    // Offset: 0x192C2A0
     ::Il2CppObject* Clone();
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x19070E0
+    // Offset: 0x192C2A4
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // private System.Void CreateInstanceCheckThis()
-    // Offset: 0x19077D8
+    // Offset: 0x192C99C
     void CreateInstanceCheckThis();
     // System.Object CreateInstanceImpl(System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Object[] args, System.Globalization.CultureInfo culture, System.Object[] activationAttributes, ref System.Threading.StackCrawlMark stackMark)
-    // Offset: 0x19079E8
-    ::Il2CppObject* CreateInstanceImpl(System::Reflection::BindingFlags bindingAttr, System::Reflection::Binder* binder, ::ArrayW<::Il2CppObject*> args, System::Globalization::CultureInfo* culture, ::ArrayW<::Il2CppObject*> activationAttributes, ByRef<System::Threading::StackCrawlMark> stackMark);
+    // Offset: 0x192CBAC
+    ::Il2CppObject* CreateInstanceImpl(System::Reflection::BindingFlags bindingAttr, System::Reflection::Binder* binder, ::Array<::Il2CppObject*>* args, System::Globalization::CultureInfo* culture, ::Array<::Il2CppObject*>* activationAttributes, ByRef<System::Threading::StackCrawlMark> stackMark);
     // System.Object CreateInstanceDefaultCtor(System.Boolean publicOnly, System.Boolean skipCheckThis, System.Boolean fillCache, ref System.Threading.StackCrawlMark stackMark)
-    // Offset: 0x1908300
+    // Offset: 0x192D4C4
     ::Il2CppObject* CreateInstanceDefaultCtor(bool publicOnly, bool skipCheckThis, bool fillCache, ByRef<System::Threading::StackCrawlMark> stackMark);
     // System.Reflection.MonoCMethod GetDefaultConstructor()
-    // Offset: 0x1908458
+    // Offset: 0x192D61C
     System::Reflection::MonoCMethod* GetDefaultConstructor();
     // private System.String GetDefaultMemberName()
-    // Offset: 0x1906FF0
+    // Offset: 0x192C1B4
     ::Il2CppString* GetDefaultMemberName();
     // System.Reflection.RuntimeConstructorInfo GetSerializationCtor()
-    // Offset: 0x18F9D70
+    // Offset: 0x191EF34
     System::Reflection::RuntimeConstructorInfo* GetSerializationCtor();
     // System.Object CreateInstanceSlow(System.Boolean publicOnly, System.Boolean skipCheckThis, System.Boolean fillCache, ref System.Threading.StackCrawlMark stackMark)
-    // Offset: 0x1908420
+    // Offset: 0x192D5E4
     ::Il2CppObject* CreateInstanceSlow(bool publicOnly, bool skipCheckThis, bool fillCache, ByRef<System::Threading::StackCrawlMark> stackMark);
     // private System.Object CreateInstanceMono(System.Boolean nonPublic)
-    // Offset: 0x19085EC
+    // Offset: 0x192D7B0
     ::Il2CppObject* CreateInstanceMono(bool nonPublic);
     // System.Object CheckValue(System.Object value, System.Reflection.Binder binder, System.Globalization.CultureInfo culture, System.Reflection.BindingFlags invokeAttr)
-    // Offset: 0x19088E8
+    // Offset: 0x192DAAC
     ::Il2CppObject* CheckValue(::Il2CppObject* value, System::Reflection::Binder* binder, System::Globalization::CultureInfo* culture, System::Reflection::BindingFlags invokeAttr);
     // private System.Object TryConvertToType(System.Object value, ref System.Boolean failed)
-    // Offset: 0x1908A70
+    // Offset: 0x192DC34
     ::Il2CppObject* TryConvertToType(::Il2CppObject* value, ByRef<bool> failed);
     // static private System.Object IsConvertibleToPrimitiveType(System.Object value, System.Type targetType)
-    // Offset: 0x1908CD8
+    // Offset: 0x192DE9C
     static ::Il2CppObject* IsConvertibleToPrimitiveType(::Il2CppObject* value, System::Type* targetType);
     // private System.String GetCachedName(System.TypeNameKind kind)
-    // Offset: 0x19076E8
+    // Offset: 0x192C8AC
     ::Il2CppString* GetCachedName(System::TypeNameKind kind);
     // private System.Type make_array_type(System.Int32 rank)
-    // Offset: 0x19096FC
+    // Offset: 0x192E8C0
     System::Type* make_array_type(int rank);
     // private System.Type make_byref_type()
-    // Offset: 0x1909798
+    // Offset: 0x192E95C
     System::Type* make_byref_type();
     // static private System.Type MakePointerType(System.Type type)
-    // Offset: 0x190982C
+    // Offset: 0x192E9F0
     static System::Type* MakePointerType(System::Type* type);
     // static System.Object CreateInstanceForAnotherGenericParameter(System.Type genericType, System.RuntimeType genericArgument)
-    // Offset: 0x1909AB4
+    // Offset: 0x192EC78
     static ::Il2CppObject* CreateInstanceForAnotherGenericParameter(System::Type* genericType, System::RuntimeType* genericArgument);
     // static private System.Type MakeGenericType(System.Type gt, System.Type[] types)
-    // Offset: 0x1905ED8
-    static System::Type* MakeGenericType(System::Type* gt, ::ArrayW<System::Type*> types);
+    // Offset: 0x192B09C
+    static System::Type* MakeGenericType(System::Type* gt, ::Array<System::Type*>* types);
     // System.IntPtr GetMethodsByName_native(System.IntPtr namePtr, System.Reflection.BindingFlags bindingAttr, System.Boolean ignoreCase)
-    // Offset: 0x1909BD0
+    // Offset: 0x192ED94
     System::IntPtr GetMethodsByName_native(System::IntPtr namePtr, System::Reflection::BindingFlags bindingAttr, bool ignoreCase);
     // System.Reflection.RuntimeMethodInfo[] GetMethodsByName(System.String name, System.Reflection.BindingFlags bindingAttr, System.Boolean ignoreCase, System.RuntimeType reflectedType)
-    // Offset: 0x1901924
-    ::ArrayW<System::Reflection::RuntimeMethodInfo*> GetMethodsByName(::Il2CppString* name, System::Reflection::BindingFlags bindingAttr, bool ignoreCase, System::RuntimeType* reflectedType);
+    // Offset: 0x1926AE8
+    ::Array<System::Reflection::RuntimeMethodInfo*>* GetMethodsByName(::Il2CppString* name, System::Reflection::BindingFlags bindingAttr, bool ignoreCase, System::RuntimeType* reflectedType);
     // private System.IntPtr GetPropertiesByName_native(System.IntPtr name, System.Reflection.BindingFlags bindingAttr, System.Boolean icase)
-    // Offset: 0x1909BD8
+    // Offset: 0x192ED9C
     System::IntPtr GetPropertiesByName_native(System::IntPtr name, System::Reflection::BindingFlags bindingAttr, bool icase);
     // private System.IntPtr GetConstructors_native(System.Reflection.BindingFlags bindingAttr)
-    // Offset: 0x1909BE0
+    // Offset: 0x192EDA4
     System::IntPtr GetConstructors_native(System::Reflection::BindingFlags bindingAttr);
     // private System.Reflection.RuntimeConstructorInfo[] GetConstructors_internal(System.Reflection.BindingFlags bindingAttr, System.RuntimeType reflectedType)
-    // Offset: 0x1901E2C
-    ::ArrayW<System::Reflection::RuntimeConstructorInfo*> GetConstructors_internal(System::Reflection::BindingFlags bindingAttr, System::RuntimeType* reflectedType);
+    // Offset: 0x1926FF0
+    ::Array<System::Reflection::RuntimeConstructorInfo*>* GetConstructors_internal(System::Reflection::BindingFlags bindingAttr, System::RuntimeType* reflectedType);
     // private System.Reflection.RuntimePropertyInfo[] GetPropertiesByName(System.String name, System.Reflection.BindingFlags bindingAttr, System.Boolean icase, System.RuntimeType reflectedType)
-    // Offset: 0x1902244
-    ::ArrayW<System::Reflection::RuntimePropertyInfo*> GetPropertiesByName(::Il2CppString* name, System::Reflection::BindingFlags bindingAttr, bool icase, System::RuntimeType* reflectedType);
+    // Offset: 0x1927408
+    ::Array<System::Reflection::RuntimePropertyInfo*>* GetPropertiesByName(::Il2CppString* name, System::Reflection::BindingFlags bindingAttr, bool icase, System::RuntimeType* reflectedType);
     // static System.Type GetTypeFromCLSIDImpl(System.Guid clsid, System.String server, System.Boolean throwOnError)
-    // Offset: 0x1909D0C
+    // Offset: 0x192EED0
     static System::Type* GetTypeFromCLSIDImpl(System::Guid clsid, ::Il2CppString* server, bool throwOnError);
     // static private System.TypeCode GetTypeCodeImplInternal(System.Type type)
-    // Offset: 0x1909DDC
+    // Offset: 0x192EFA0
     static System::TypeCode GetTypeCodeImplInternal(System::Type* type);
     // private System.Boolean IsGenericCOMObjectImpl()
-    // Offset: 0x19082F8
+    // Offset: 0x192D4BC
     bool IsGenericCOMObjectImpl();
     // static private System.Object CreateInstanceInternal(System.Type type)
-    // Offset: 0x19088E4
+    // Offset: 0x192DAA8
     static ::Il2CppObject* CreateInstanceInternal(System::Type* type);
     // System.String getFullName(System.Boolean full_name, System.Boolean assembly_qualified)
-    // Offset: 0x1909DEC
+    // Offset: 0x192EFB0
     ::Il2CppString* getFullName(bool full_name, bool assembly_qualified);
     // private System.Type[] GetGenericArgumentsInternal(System.Boolean runtimeArray)
-    // Offset: 0x1905A10
-    ::ArrayW<System::Type*> GetGenericArgumentsInternal(bool runtimeArray);
+    // Offset: 0x192ABD4
+    ::Array<System::Type*>* GetGenericArgumentsInternal(bool runtimeArray);
     // private System.Reflection.GenericParameterAttributes GetGenericParameterAttributes()
-    // Offset: 0x1904D58
+    // Offset: 0x1929F1C
     System::Reflection::GenericParameterAttributes GetGenericParameterAttributes();
     // private System.Int32 GetGenericParameterPosition()
-    // Offset: 0x1905F94
+    // Offset: 0x192B158
     int GetGenericParameterPosition();
     // private System.IntPtr GetEvents_native(System.IntPtr name, System.Reflection.BindingFlags bindingAttr)
-    // Offset: 0x1909DFC
+    // Offset: 0x192EFC0
     System::IntPtr GetEvents_native(System::IntPtr name, System::Reflection::BindingFlags bindingAttr);
     // private System.IntPtr GetFields_native(System.IntPtr name, System.Reflection.BindingFlags bindingAttr)
-    // Offset: 0x1909E00
+    // Offset: 0x192EFC4
     System::IntPtr GetFields_native(System::IntPtr name, System::Reflection::BindingFlags bindingAttr);
     // private System.Reflection.RuntimeFieldInfo[] GetFields_internal(System.String name, System.Reflection.BindingFlags bindingAttr, System.RuntimeType reflectedType)
-    // Offset: 0x1902B0C
-    ::ArrayW<System::Reflection::RuntimeFieldInfo*> GetFields_internal(::Il2CppString* name, System::Reflection::BindingFlags bindingAttr, System::RuntimeType* reflectedType);
+    // Offset: 0x1927CD0
+    ::Array<System::Reflection::RuntimeFieldInfo*>* GetFields_internal(::Il2CppString* name, System::Reflection::BindingFlags bindingAttr, System::RuntimeType* reflectedType);
     // private System.Reflection.RuntimeEventInfo[] GetEvents_internal(System.String name, System.Reflection.BindingFlags bindingAttr, System.RuntimeType reflectedType)
-    // Offset: 0x19026AC
-    ::ArrayW<System::Reflection::RuntimeEventInfo*> GetEvents_internal(::Il2CppString* name, System::Reflection::BindingFlags bindingAttr, System::RuntimeType* reflectedType);
+    // Offset: 0x1927870
+    ::Array<System::Reflection::RuntimeEventInfo*>* GetEvents_internal(::Il2CppString* name, System::Reflection::BindingFlags bindingAttr, System::RuntimeType* reflectedType);
     // private System.IntPtr GetNestedTypes_native(System.IntPtr name, System.Reflection.BindingFlags bindingAttr)
-    // Offset: 0x1909E08
+    // Offset: 0x192EFCC
     System::IntPtr GetNestedTypes_native(System::IntPtr name, System::Reflection::BindingFlags bindingAttr);
     // private System.RuntimeType[] GetNestedTypes_internal(System.String displayName, System.Reflection.BindingFlags bindingAttr)
-    // Offset: 0x1902F50
-    ::ArrayW<System::RuntimeType*> GetNestedTypes_internal(::Il2CppString* displayName, System::Reflection::BindingFlags bindingAttr);
+    // Offset: 0x1928114
+    ::Array<System::RuntimeType*>* GetNestedTypes_internal(::Il2CppString* displayName, System::Reflection::BindingFlags bindingAttr);
     // public override System.Reflection.Module get_Module()
-    // Offset: 0x190464C
+    // Offset: 0x1929810
     // Implemented from: System.Type
     // Base method: System.Reflection.Module Type::get_Module()
     System::Reflection::Module* get_Module();
     // public override System.Reflection.Assembly get_Assembly()
-    // Offset: 0x1904658
+    // Offset: 0x192981C
     // Implemented from: System.Type
     // Base method: System.Reflection.Assembly Type::get_Assembly()
     System::Reflection::Assembly* get_Assembly();
     // public override System.RuntimeTypeHandle get_TypeHandle()
-    // Offset: 0x1904664
+    // Offset: 0x1929828
     // Implemented from: System.Type
     // Base method: System.RuntimeTypeHandle Type::get_TypeHandle()
     System::RuntimeTypeHandle get_TypeHandle();
     // public override System.Type get_BaseType()
-    // Offset: 0x19049E0
+    // Offset: 0x1929BA4
     // Implemented from: System.Type
     // Base method: System.Type Type::get_BaseType()
     System::Type* get_BaseType();
     // public override System.Type get_UnderlyingSystemType()
-    // Offset: 0x19049EC
+    // Offset: 0x1929BB0
     // Implemented from: System.Type
     // Base method: System.Type Type::get_UnderlyingSystemType()
     System::Type* get_UnderlyingSystemType();
     // public override System.Boolean get_IsEnum()
-    // Offset: 0x1904BE0
+    // Offset: 0x1929DA4
     // Implemented from: System.Type
     // Base method: System.Boolean Type::get_IsEnum()
     bool get_IsEnum();
     // public override System.Reflection.GenericParameterAttributes get_GenericParameterAttributes()
-    // Offset: 0x1904CAC
+    // Offset: 0x1929E70
     // Implemented from: System.Type
     // Base method: System.Reflection.GenericParameterAttributes Type::get_GenericParameterAttributes()
     System::Reflection::GenericParameterAttributes get_GenericParameterAttributes();
     // override System.Boolean get_IsSzArray()
-    // Offset: 0x1904D9C
+    // Offset: 0x1929F60
     // Implemented from: System.Type
     // Base method: System.Boolean Type::get_IsSzArray()
     bool get_IsSzArray();
     // public override System.Boolean get_IsGenericTypeDefinition()
-    // Offset: 0x1905EDC
+    // Offset: 0x192B0A0
     // Implemented from: System.Type
     // Base method: System.Boolean Type::get_IsGenericTypeDefinition()
     bool get_IsGenericTypeDefinition();
     // public override System.Boolean get_IsGenericParameter()
-    // Offset: 0x1905EE4
+    // Offset: 0x192B0A8
     // Implemented from: System.Type
     // Base method: System.Boolean Type::get_IsGenericParameter()
     bool get_IsGenericParameter();
     // public override System.Int32 get_GenericParameterPosition()
-    // Offset: 0x1905EE8
+    // Offset: 0x192B0AC
     // Implemented from: System.Type
     // Base method: System.Int32 Type::get_GenericParameterPosition()
     int get_GenericParameterPosition();
     // public override System.Boolean get_IsGenericType()
-    // Offset: 0x1906048
+    // Offset: 0x192B20C
     // Implemented from: System.Type
     // Base method: System.Boolean Type::get_IsGenericType()
     bool get_IsGenericType();
     // public override System.Reflection.MemberTypes get_MemberType()
-    // Offset: 0x1907778
+    // Offset: 0x192C93C
     // Implemented from: System.Type
     // Base method: System.Reflection.MemberTypes Type::get_MemberType()
     System::Reflection::MemberTypes get_MemberType();
     // public override System.Type get_ReflectedType()
-    // Offset: 0x19077C4
+    // Offset: 0x192C988
     // Implemented from: System.Type
     // Base method: System.Type Type::get_ReflectedType()
     System::Type* get_ReflectedType();
     // public override System.Int32 get_MetadataToken()
-    // Offset: 0x19077D0
+    // Offset: 0x192C994
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Int32 MemberInfo::get_MetadataToken()
     int get_MetadataToken();
     // public override System.Boolean get_ContainsGenericParameters()
-    // Offset: 0x1909894
+    // Offset: 0x192EA58
     // Implemented from: System.Type
     // Base method: System.Boolean Type::get_ContainsGenericParameters()
     bool get_ContainsGenericParameters();
     // public override System.Guid get_GUID()
-    // Offset: 0x1909BE4
+    // Offset: 0x192EDA8
     // Implemented from: System.Type
     // Base method: System.Guid Type::get_GUID()
     System::Guid get_GUID();
     // public override System.Reflection.MethodBase get_DeclaringMethod()
-    // Offset: 0x1909DF8
+    // Offset: 0x192EFBC
     // Implemented from: System.Type
     // Base method: System.Reflection.MethodBase Type::get_DeclaringMethod()
     System::Reflection::MethodBase* get_DeclaringMethod();
     // public override System.String get_AssemblyQualifiedName()
-    // Offset: 0x1909E0C
+    // Offset: 0x192EFD0
     // Implemented from: System.Type
     // Base method: System.String Type::get_AssemblyQualifiedName()
     ::Il2CppString* get_AssemblyQualifiedName();
     // public override System.Type get_DeclaringType()
-    // Offset: 0x1909E18
+    // Offset: 0x192EFDC
     // Implemented from: System.Type
     // Base method: System.Type Type::get_DeclaringType()
     System::Type* get_DeclaringType();
     // public override System.String get_Name()
-    // Offset: 0x1909E1C
+    // Offset: 0x192EFE0
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.String MemberInfo::get_Name()
     ::Il2CppString* get_Name();
     // public override System.String get_Namespace()
-    // Offset: 0x1909E20
+    // Offset: 0x192EFE4
     // Implemented from: System.Type
     // Base method: System.String Type::get_Namespace()
     ::Il2CppString* get_Namespace();
     // public override System.String get_FullName()
-    // Offset: 0x1909F14
+    // Offset: 0x192F0D8
     // Implemented from: System.Type
     // Base method: System.String Type::get_FullName()
     ::Il2CppString* get_FullName();
     // System.Void .ctor()
-    // Offset: 0x19013E4
+    // Offset: 0x19265A8
     // Implemented from: System.Reflection.TypeInfo
     // Base method: System.Void TypeInfo::.ctor()
     // Base method: System.Void Type::.ctor()
@@ -560,257 +546,264 @@ namespace System {
       return THROW_UNLESS((::il2cpp_utils::New<RuntimeType*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1909FF0
+    // Offset: 0x192F1B4
     // Implemented from: System.Type
     // Base method: System.Void Type::.cctor()
     static void _cctor();
     // public override System.Reflection.MethodInfo[] GetMethods(System.Reflection.BindingFlags bindingAttr)
-    // Offset: 0x1903274
+    // Offset: 0x1928438
     // Implemented from: System.Type
     // Base method: System.Reflection.MethodInfo[] Type::GetMethods(System.Reflection.BindingFlags bindingAttr)
-    ::ArrayW<System::Reflection::MethodInfo*> GetMethods(System::Reflection::BindingFlags bindingAttr);
+    ::Array<System::Reflection::MethodInfo*>* GetMethods(System::Reflection::BindingFlags bindingAttr);
     // public override System.Reflection.ConstructorInfo[] GetConstructors(System.Reflection.BindingFlags bindingAttr)
-    // Offset: 0x1903304
+    // Offset: 0x19284C8
     // Implemented from: System.Type
     // Base method: System.Reflection.ConstructorInfo[] Type::GetConstructors(System.Reflection.BindingFlags bindingAttr)
-    ::ArrayW<System::Reflection::ConstructorInfo*> GetConstructors(System::Reflection::BindingFlags bindingAttr);
+    ::Array<System::Reflection::ConstructorInfo*>* GetConstructors(System::Reflection::BindingFlags bindingAttr);
     // public override System.Reflection.PropertyInfo[] GetProperties(System.Reflection.BindingFlags bindingAttr)
-    // Offset: 0x19033A4
+    // Offset: 0x1928568
     // Implemented from: System.Type
     // Base method: System.Reflection.PropertyInfo[] Type::GetProperties(System.Reflection.BindingFlags bindingAttr)
-    ::ArrayW<System::Reflection::PropertyInfo*> GetProperties(System::Reflection::BindingFlags bindingAttr);
+    ::Array<System::Reflection::PropertyInfo*>* GetProperties(System::Reflection::BindingFlags bindingAttr);
     // public override System.Reflection.FieldInfo[] GetFields(System.Reflection.BindingFlags bindingAttr)
-    // Offset: 0x1903430
+    // Offset: 0x19285F4
     // Implemented from: System.Type
     // Base method: System.Reflection.FieldInfo[] Type::GetFields(System.Reflection.BindingFlags bindingAttr)
-    ::ArrayW<System::Reflection::FieldInfo*> GetFields(System::Reflection::BindingFlags bindingAttr);
+    ::Array<System::Reflection::FieldInfo*>* GetFields(System::Reflection::BindingFlags bindingAttr);
     // protected override System.Reflection.MethodInfo GetMethodImpl(System.String name, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Reflection.CallingConventions callConv, System.Type[] types, System.Reflection.ParameterModifier[] modifiers)
-    // Offset: 0x19034B8
+    // Offset: 0x192867C
     // Implemented from: System.Type
     // Base method: System.Reflection.MethodInfo Type::GetMethodImpl(System.String name, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Reflection.CallingConventions callConv, System.Type[] types, System.Reflection.ParameterModifier[] modifiers)
-    System::Reflection::MethodInfo* GetMethodImpl(::Il2CppString* name, System::Reflection::BindingFlags bindingAttr, System::Reflection::Binder* binder, System::Reflection::CallingConventions callConv, ::ArrayW<System::Type*> types, ::ArrayW<System::Reflection::ParameterModifier> modifiers);
+    System::Reflection::MethodInfo* GetMethodImpl(::Il2CppString* name, System::Reflection::BindingFlags bindingAttr, System::Reflection::Binder* binder, System::Reflection::CallingConventions callConv, ::Array<System::Type*>* types, ::Array<System::Reflection::ParameterModifier>* modifiers);
     // protected override System.Reflection.ConstructorInfo GetConstructorImpl(System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Reflection.CallingConventions callConvention, System.Type[] types, System.Reflection.ParameterModifier[] modifiers)
-    // Offset: 0x1903714
+    // Offset: 0x19288D8
     // Implemented from: System.Type
     // Base method: System.Reflection.ConstructorInfo Type::GetConstructorImpl(System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Reflection.CallingConventions callConvention, System.Type[] types, System.Reflection.ParameterModifier[] modifiers)
-    System::Reflection::ConstructorInfo* GetConstructorImpl(System::Reflection::BindingFlags bindingAttr, System::Reflection::Binder* binder, System::Reflection::CallingConventions callConvention, ::ArrayW<System::Type*> types, ::ArrayW<System::Reflection::ParameterModifier> modifiers);
+    System::Reflection::ConstructorInfo* GetConstructorImpl(System::Reflection::BindingFlags bindingAttr, System::Reflection::Binder* binder, System::Reflection::CallingConventions callConvention, ::Array<System::Type*>* types, ::Array<System::Reflection::ParameterModifier>* modifiers);
     // protected override System.Reflection.PropertyInfo GetPropertyImpl(System.String name, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Type returnType, System.Type[] types, System.Reflection.ParameterModifier[] modifiers)
-    // Offset: 0x1903904
+    // Offset: 0x1928AC8
     // Implemented from: System.Type
     // Base method: System.Reflection.PropertyInfo Type::GetPropertyImpl(System.String name, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Type returnType, System.Type[] types, System.Reflection.ParameterModifier[] modifiers)
-    System::Reflection::PropertyInfo* GetPropertyImpl(::Il2CppString* name, System::Reflection::BindingFlags bindingAttr, System::Reflection::Binder* binder, System::Type* returnType, ::ArrayW<System::Type*> types, ::ArrayW<System::Reflection::ParameterModifier> modifiers);
+    System::Reflection::PropertyInfo* GetPropertyImpl(::Il2CppString* name, System::Reflection::BindingFlags bindingAttr, System::Reflection::Binder* binder, System::Type* returnType, ::Array<System::Type*>* types, ::Array<System::Reflection::ParameterModifier>* modifiers);
     // public override System.Reflection.EventInfo GetEvent(System.String name, System.Reflection.BindingFlags bindingAttr)
-    // Offset: 0x1903B60
+    // Offset: 0x1928D24
     // Implemented from: System.Type
     // Base method: System.Reflection.EventInfo Type::GetEvent(System.String name, System.Reflection.BindingFlags bindingAttr)
     System::Reflection::EventInfo* GetEvent(::Il2CppString* name, System::Reflection::BindingFlags bindingAttr);
     // public override System.Reflection.FieldInfo GetField(System.String name, System.Reflection.BindingFlags bindingAttr)
-    // Offset: 0x1903D38
+    // Offset: 0x1928EFC
     // Implemented from: System.Type
     // Base method: System.Reflection.FieldInfo Type::GetField(System.String name, System.Reflection.BindingFlags bindingAttr)
     System::Reflection::FieldInfo* GetField(::Il2CppString* name, System::Reflection::BindingFlags bindingAttr);
     // public override System.Type GetNestedType(System.String fullname, System.Reflection.BindingFlags bindingAttr)
-    // Offset: 0x1904030
+    // Offset: 0x19291F4
     // Implemented from: System.Type
     // Base method: System.Type Type::GetNestedType(System.String fullname, System.Reflection.BindingFlags bindingAttr)
     System::Type* GetNestedType(::Il2CppString* fullname, System::Reflection::BindingFlags bindingAttr);
     // public override System.Reflection.MemberInfo[] GetMember(System.String name, System.Reflection.MemberTypes type, System.Reflection.BindingFlags bindingAttr)
-    // Offset: 0x1904248
+    // Offset: 0x192940C
     // Implemented from: System.Type
     // Base method: System.Reflection.MemberInfo[] Type::GetMember(System.String name, System.Reflection.MemberTypes type, System.Reflection.BindingFlags bindingAttr)
-    ::ArrayW<System::Reflection::MemberInfo*> GetMember(::Il2CppString* name, System::Reflection::MemberTypes type, System::Reflection::BindingFlags bindingAttr);
+    ::Array<System::Reflection::MemberInfo*>* GetMember(::Il2CppString* name, System::Reflection::MemberTypes type, System::Reflection::BindingFlags bindingAttr);
     // public override System.Boolean IsInstanceOfType(System.Object o)
-    // Offset: 0x1904698
+    // Offset: 0x192985C
     // Implemented from: System.Type
     // Base method: System.Boolean Type::IsInstanceOfType(System.Object o)
     bool IsInstanceOfType(::Il2CppObject* o);
     // public override System.Boolean IsSubclassOf(System.Type type)
-    // Offset: 0x19046A0
+    // Offset: 0x1929864
     // Implemented from: System.Type
     // Base method: System.Boolean Type::IsSubclassOf(System.Type type)
     bool IsSubclassOf(System::Type* type);
     // public override System.Boolean IsAssignableFrom(System.Type c)
-    // Offset: 0x190482C
+    // Offset: 0x19299F0
     // Implemented from: System.Type
     // Base method: System.Boolean Type::IsAssignableFrom(System.Type c)
     bool IsAssignableFrom(System::Type* c);
     // public override System.Boolean IsEquivalentTo(System.Type other)
-    // Offset: 0x190492C
+    // Offset: 0x1929AF0
     // Implemented from: System.Type
     // Base method: System.Boolean Type::IsEquivalentTo(System.Type other)
     bool IsEquivalentTo(System::Type* other);
     // protected override System.Reflection.TypeAttributes GetAttributeFlagsImpl()
-    // Offset: 0x19049F0
+    // Offset: 0x1929BB4
     // Implemented from: System.Type
     // Base method: System.Reflection.TypeAttributes Type::GetAttributeFlagsImpl()
     System::Reflection::TypeAttributes GetAttributeFlagsImpl();
     // protected override System.Boolean IsContextfulImpl()
-    // Offset: 0x19049F8
+    // Offset: 0x1929BBC
     // Implemented from: System.Type
     // Base method: System.Boolean Type::IsContextfulImpl()
     bool IsContextfulImpl();
     // protected override System.Boolean IsByRefImpl()
-    // Offset: 0x1904A8C
+    // Offset: 0x1929C50
     // Implemented from: System.Type
     // Base method: System.Boolean Type::IsByRefImpl()
     bool IsByRefImpl();
     // protected override System.Boolean IsPrimitiveImpl()
-    // Offset: 0x1904A94
+    // Offset: 0x1929C58
     // Implemented from: System.Type
     // Base method: System.Boolean Type::IsPrimitiveImpl()
     bool IsPrimitiveImpl();
     // protected override System.Boolean IsPointerImpl()
-    // Offset: 0x1904A9C
+    // Offset: 0x1929C60
     // Implemented from: System.Type
     // Base method: System.Boolean Type::IsPointerImpl()
     bool IsPointerImpl();
     // protected override System.Boolean IsCOMObjectImpl()
-    // Offset: 0x1904AA4
+    // Offset: 0x1929C68
     // Implemented from: System.Type
     // Base method: System.Boolean Type::IsCOMObjectImpl()
     bool IsCOMObjectImpl();
     // protected override System.Boolean IsValueTypeImpl()
-    // Offset: 0x1904AB8
+    // Offset: 0x1929C7C
     // Implemented from: System.Type
     // Base method: System.Boolean Type::IsValueTypeImpl()
     bool IsValueTypeImpl();
     // protected override System.Boolean HasElementTypeImpl()
-    // Offset: 0x1904C64
+    // Offset: 0x1929E28
     // Implemented from: System.Type
     // Base method: System.Boolean Type::HasElementTypeImpl()
     bool HasElementTypeImpl();
     // protected override System.Boolean IsArrayImpl()
-    // Offset: 0x1904DF0
+    // Offset: 0x1929FB4
     // Implemented from: System.Type
     // Base method: System.Boolean Type::IsArrayImpl()
     bool IsArrayImpl();
     // public override System.Int32 GetArrayRank()
-    // Offset: 0x1904DF8
+    // Offset: 0x1929FBC
     // Implemented from: System.Type
     // Base method: System.Int32 Type::GetArrayRank()
     int GetArrayRank();
     // public override System.Type GetElementType()
-    // Offset: 0x1904EA8
+    // Offset: 0x192A06C
     // Implemented from: System.Type
     // Base method: System.Type Type::GetElementType()
     System::Type* GetElementType();
     // public override System.String[] GetEnumNames()
-    // Offset: 0x1904EB0
+    // Offset: 0x192A074
     // Implemented from: System.Type
     // Base method: System.String[] Type::GetEnumNames()
-    ::ArrayW<::Il2CppString*> GetEnumNames();
+    ::Array<::Il2CppString*>* GetEnumNames();
     // public override System.Array GetEnumValues()
-    // Offset: 0x1904FCC
+    // Offset: 0x192A190
     // Implemented from: System.Type
     // Base method: System.Array Type::GetEnumValues()
     System::Array* GetEnumValues();
     // public override System.Type GetEnumUnderlyingType()
-    // Offset: 0x1905194
+    // Offset: 0x192A358
     // Implemented from: System.Type
     // Base method: System.Type Type::GetEnumUnderlyingType()
     System::Type* GetEnumUnderlyingType();
     // public override System.Boolean IsEnumDefined(System.Object value)
-    // Offset: 0x1905270
+    // Offset: 0x192A434
     // Implemented from: System.Type
     // Base method: System.Boolean Type::IsEnumDefined(System.Object value)
     bool IsEnumDefined(::Il2CppObject* value);
     // public override System.String GetEnumName(System.Object value)
-    // Offset: 0x19057A8
+    // Offset: 0x192A96C
     // Implemented from: System.Type
     // Base method: System.String Type::GetEnumName(System.Object value)
     ::Il2CppString* GetEnumName(::Il2CppObject* value);
     // public override System.Type[] GetGenericArguments()
-    // Offset: 0x1905A18
+    // Offset: 0x192ABDC
     // Implemented from: System.Type
     // Base method: System.Type[] Type::GetGenericArguments()
-    ::ArrayW<System::Type*> GetGenericArguments();
+    ::Array<System::Type*>* GetGenericArguments();
     // public override System.Type MakeGenericType(params System.Type[] instantiation)
-    // Offset: 0x1905A94
+    // Offset: 0x192AC58
     // Implemented from: System.Type
     // Base method: System.Type Type::MakeGenericType(params System.Type[] instantiation)
-    System::Type* MakeGenericType(::ArrayW<System::Type*> instantiation);
+    System::Type* MakeGenericType(::Array<System::Type*>* instantiation);
+    // Creating initializer_list -> params proxy for: System.Type MakeGenericType(params System.Type[] instantiation)
+    System::Type* MakeGenericType(std::initializer_list<System::Type*> instantiation);
+    // Creating TArgs -> initializer_list proxy for: System.Type MakeGenericType(params System.Type[] instantiation)
+    template<class ...TParams>
+    System::Type* MakeGenericType(TParams&&... instantiation) {
+      return MakeGenericType({instantiation...});
+    }
     // public override System.Type GetGenericTypeDefinition()
-    // Offset: 0x1905F98
+    // Offset: 0x192B15C
     // Implemented from: System.Type
     // Base method: System.Type Type::GetGenericTypeDefinition()
     System::Type* GetGenericTypeDefinition();
     // public override System.Object InvokeMember(System.String name, System.Reflection.BindingFlags bindingFlags, System.Reflection.Binder binder, System.Object target, System.Object[] providedArgs, System.Reflection.ParameterModifier[] modifiers, System.Globalization.CultureInfo culture, System.String[] namedParams)
-    // Offset: 0x1906050
+    // Offset: 0x192B214
     // Implemented from: System.Type
     // Base method: System.Object Type::InvokeMember(System.String name, System.Reflection.BindingFlags bindingFlags, System.Reflection.Binder binder, System.Object target, System.Object[] providedArgs, System.Reflection.ParameterModifier[] modifiers, System.Globalization.CultureInfo culture, System.String[] namedParams)
-    ::Il2CppObject* InvokeMember(::Il2CppString* name, System::Reflection::BindingFlags bindingFlags, System::Reflection::Binder* binder, ::Il2CppObject* target, ::ArrayW<::Il2CppObject*> providedArgs, ::ArrayW<System::Reflection::ParameterModifier> modifiers, System::Globalization::CultureInfo* culture, ::ArrayW<::Il2CppString*> namedParams);
+    ::Il2CppObject* InvokeMember(::Il2CppString* name, System::Reflection::BindingFlags bindingFlags, System::Reflection::Binder* binder, ::Il2CppObject* target, ::Array<::Il2CppObject*>* providedArgs, ::Array<System::Reflection::ParameterModifier>* modifiers, System::Globalization::CultureInfo* culture, ::Array<::Il2CppString*>* namedParams);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x19070D0
+    // Offset: 0x192C294
     // Implemented from: System.Type
     // Base method: System.Boolean Type::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Object[] GetCustomAttributes(System.Boolean inherit)
-    // Offset: 0x1907178
+    // Offset: 0x192C33C
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Object[] MemberInfo::GetCustomAttributes(System.Boolean inherit)
-    ::ArrayW<::Il2CppObject*> GetCustomAttributes(bool inherit);
+    ::Array<::Il2CppObject*>* GetCustomAttributes(bool inherit);
     // public override System.Object[] GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
-    // Offset: 0x1907224
+    // Offset: 0x192C3E8
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Object[] MemberInfo::GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
-    ::ArrayW<::Il2CppObject*> GetCustomAttributes(System::Type* attributeType, bool inherit);
+    ::Array<::Il2CppObject*>* GetCustomAttributes(System::Type* attributeType, bool inherit);
     // public override System.Boolean IsDefined(System.Type attributeType, System.Boolean inherit)
-    // Offset: 0x19073B0
+    // Offset: 0x192C574
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Boolean MemberInfo::IsDefined(System.Type attributeType, System.Boolean inherit)
     bool IsDefined(System::Type* attributeType, bool inherit);
     // public override System.Collections.Generic.IList`1<System.Reflection.CustomAttributeData> GetCustomAttributesData()
-    // Offset: 0x190753C
+    // Offset: 0x192C700
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Collections.Generic.IList`1<System.Reflection.CustomAttributeData> MemberInfo::GetCustomAttributesData()
     System::Collections::Generic::IList_1<System::Reflection::CustomAttributeData*>* GetCustomAttributesData();
     // override System.String FormatTypeName(System.Boolean serialization)
-    // Offset: 0x1907544
+    // Offset: 0x192C708
     // Implemented from: System.Type
     // Base method: System.String Type::FormatTypeName(System.Boolean serialization)
     ::Il2CppString* FormatTypeName(bool serialization);
     // public override System.Type MakeArrayType()
-    // Offset: 0x1909700
+    // Offset: 0x192E8C4
     // Implemented from: System.Type
     // Base method: System.Type Type::MakeArrayType()
     System::Type* MakeArrayType();
     // public override System.Type MakeArrayType(System.Int32 rank)
-    // Offset: 0x1909708
+    // Offset: 0x192E8CC
     // Implemented from: System.Type
     // Base method: System.Type Type::MakeArrayType(System.Int32 rank)
     System::Type* MakeArrayType(int rank);
     // public override System.Type MakeByRefType()
-    // Offset: 0x190979C
+    // Offset: 0x192E960
     // Implemented from: System.Type
     // Base method: System.Type Type::MakeByRefType()
     System::Type* MakeByRefType();
     // public override System.Type MakePointerType()
-    // Offset: 0x1909830
+    // Offset: 0x192E9F4
     // Implemented from: System.Type
     // Base method: System.Type Type::MakePointerType()
     System::Type* MakePointerType();
     // public override System.Type[] GetGenericParameterConstraints()
-    // Offset: 0x19099A8
+    // Offset: 0x192EB6C
     // Implemented from: System.Type
     // Base method: System.Type[] Type::GetGenericParameterConstraints()
-    ::ArrayW<System::Type*> GetGenericParameterConstraints();
+    ::Array<System::Type*>* GetGenericParameterConstraints();
     // protected override System.TypeCode GetTypeCodeImpl()
-    // Offset: 0x1909D78
+    // Offset: 0x192EF3C
     // Implemented from: System.Type
     // Base method: System.TypeCode Type::GetTypeCodeImpl()
     System::TypeCode GetTypeCodeImpl();
     // public override System.String ToString()
-    // Offset: 0x1909DE0
+    // Offset: 0x192EFA4
     // Implemented from: System.Type
     // Base method: System.String Type::ToString()
     ::Il2CppString* ToString();
     // public override System.Type[] GetInterfaces()
-    // Offset: 0x1909E04
+    // Offset: 0x192EFC8
     // Implemented from: System.Type
     // Base method: System.Type[] Type::GetInterfaces()
-    ::ArrayW<System::Type*> GetInterfaces();
+    ::Array<System::Type*>* GetInterfaces();
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1909E24
+    // Offset: 0x192EFE8
     // Implemented from: System.Type
     // Base method: System.Int32 Type::GetHashCode()
     int GetHashCode();
@@ -819,13 +812,14 @@ namespace System {
   static check_size<sizeof(RuntimeType), 40 + sizeof(System::Reflection::RuntimeConstructorInfo*)> __System_RuntimeTypeSizeCheck;
   static_assert(sizeof(RuntimeType) == 0x30);
   // static public System.Boolean op_Equality(System.RuntimeType left, System.RuntimeType right)
-  // Offset: 0x18FBA9C
+  // Offset: 0x1920C60
   bool operator ==(System::RuntimeType* left, System::RuntimeType& right);
   // static public System.Boolean op_Inequality(System.RuntimeType left, System.RuntimeType right)
-  // Offset: 0x1901730
+  // Offset: 0x19268F4
   bool operator !=(System::RuntimeType* left, System::RuntimeType& right);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::RuntimeType*, "System", "RuntimeType");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::RuntimeType::ThrowIfTypeNeverValidGenericArgument
 // Il2CppName: ThrowIfTypeNeverValidGenericArgument
 template<>
@@ -838,7 +832,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::RuntimeType::SanityCheckGenericArguments
 // Il2CppName: SanityCheckGenericArguments
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<System::RuntimeType*>, ::ArrayW<System::RuntimeType*>)>(&System::RuntimeType::SanityCheckGenericArguments)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<System::RuntimeType*>*, ::Array<System::RuntimeType*>*)>(&System::RuntimeType::SanityCheckGenericArguments)> {
   static const MethodInfo* get() {
     static auto* genericArguments = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "RuntimeType"), 1)->byval_arg;
     static auto* genericParamters = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "RuntimeType"), 1)->byval_arg;
@@ -924,7 +918,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::RuntimeType::FilterApplyMethodInfo
 // Il2CppName: FilterApplyMethodInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Reflection::RuntimeMethodInfo*, System::Reflection::BindingFlags, System::Reflection::CallingConventions, ::ArrayW<System::Type*>)>(&System::RuntimeType::FilterApplyMethodInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Reflection::RuntimeMethodInfo*, System::Reflection::BindingFlags, System::Reflection::CallingConventions, ::Array<System::Type*>*)>(&System::RuntimeType::FilterApplyMethodInfo)> {
   static const MethodInfo* get() {
     static auto* method = &::il2cpp_utils::GetClassFromName("System.Reflection", "RuntimeMethodInfo")->byval_arg;
     static auto* bindingFlags = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
@@ -936,7 +930,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::RuntimeType::FilterApplyConstructorInfo
 // Il2CppName: FilterApplyConstructorInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Reflection::RuntimeConstructorInfo*, System::Reflection::BindingFlags, System::Reflection::CallingConventions, ::ArrayW<System::Type*>)>(&System::RuntimeType::FilterApplyConstructorInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Reflection::RuntimeConstructorInfo*, System::Reflection::BindingFlags, System::Reflection::CallingConventions, ::Array<System::Type*>*)>(&System::RuntimeType::FilterApplyConstructorInfo)> {
   static const MethodInfo* get() {
     static auto* constructor = &::il2cpp_utils::GetClassFromName("System.Reflection", "RuntimeConstructorInfo")->byval_arg;
     static auto* bindingFlags = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
@@ -948,7 +942,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::RuntimeType::FilterApplyMethodBase
 // Il2CppName: FilterApplyMethodBase
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Reflection::MethodBase*, System::Reflection::BindingFlags, System::Reflection::BindingFlags, System::Reflection::CallingConventions, ::ArrayW<System::Type*>)>(&System::RuntimeType::FilterApplyMethodBase)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Reflection::MethodBase*, System::Reflection::BindingFlags, System::Reflection::BindingFlags, System::Reflection::CallingConventions, ::Array<System::Type*>*)>(&System::RuntimeType::FilterApplyMethodBase)> {
   static const MethodInfo* get() {
     static auto* methodBase = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodBase")->byval_arg;
     static auto* methodFlags = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
@@ -969,7 +963,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::RuntimeType::GetMethodCandidates
 // Il2CppName: GetMethodCandidates
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::RuntimeType::ListBuilder_1<System::Reflection::MethodInfo*> (System::RuntimeType::*)(::Il2CppString*, System::Reflection::BindingFlags, System::Reflection::CallingConventions, ::ArrayW<System::Type*>, bool)>(&System::RuntimeType::GetMethodCandidates)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::RuntimeType::ListBuilder_1<System::Reflection::MethodInfo*> (System::RuntimeType::*)(::Il2CppString*, System::Reflection::BindingFlags, System::Reflection::CallingConventions, ::Array<System::Type*>*, bool)>(&System::RuntimeType::GetMethodCandidates)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
@@ -982,7 +976,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Writing MetadataGetter for method: System::RuntimeType::GetConstructorCandidates
 // Il2CppName: GetConstructorCandidates
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::RuntimeType::ListBuilder_1<System::Reflection::ConstructorInfo*> (System::RuntimeType::*)(::Il2CppString*, System::Reflection::BindingFlags, System::Reflection::CallingConventions, ::ArrayW<System::Type*>, bool)>(&System::RuntimeType::GetConstructorCandidates)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::RuntimeType::ListBuilder_1<System::Reflection::ConstructorInfo*> (System::RuntimeType::*)(::Il2CppString*, System::Reflection::BindingFlags, System::Reflection::CallingConventions, ::Array<System::Type*>*, bool)>(&System::RuntimeType::GetConstructorCandidates)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
@@ -995,7 +989,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Writing MetadataGetter for method: System::RuntimeType::GetPropertyCandidates
 // Il2CppName: GetPropertyCandidates
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::RuntimeType::ListBuilder_1<System::Reflection::PropertyInfo*> (System::RuntimeType::*)(::Il2CppString*, System::Reflection::BindingFlags, ::ArrayW<System::Type*>, bool)>(&System::RuntimeType::GetPropertyCandidates)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::RuntimeType::ListBuilder_1<System::Reflection::PropertyInfo*> (System::RuntimeType::*)(::Il2CppString*, System::Reflection::BindingFlags, ::Array<System::Type*>*, bool)>(&System::RuntimeType::GetPropertyCandidates)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
@@ -1064,7 +1058,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Writing MetadataGetter for method: System::RuntimeType::GetGenericArgumentsInternal
 // Il2CppName: GetGenericArgumentsInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::RuntimeType*> (System::RuntimeType::*)()>(&System::RuntimeType::GetGenericArgumentsInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::RuntimeType*>* (System::RuntimeType::*)()>(&System::RuntimeType::GetGenericArgumentsInternal)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetGenericArgumentsInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1098,7 +1092,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::RuntimeType::CreateInstanceImpl
 // Il2CppName: CreateInstanceImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::RuntimeType::*)(System::Reflection::BindingFlags, System::Reflection::Binder*, ::ArrayW<::Il2CppObject*>, System::Globalization::CultureInfo*, ::ArrayW<::Il2CppObject*>, ByRef<System::Threading::StackCrawlMark>)>(&System::RuntimeType::CreateInstanceImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::RuntimeType::*)(System::Reflection::BindingFlags, System::Reflection::Binder*, ::Array<::Il2CppObject*>*, System::Globalization::CultureInfo*, ::Array<::Il2CppObject*>*, ByRef<System::Threading::StackCrawlMark>)>(&System::RuntimeType::CreateInstanceImpl)> {
   static const MethodInfo* get() {
     static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
     static auto* binder = &::il2cpp_utils::GetClassFromName("System.Reflection", "Binder")->byval_arg;
@@ -1246,7 +1240,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::RuntimeType::MakeGenericType
 // Il2CppName: MakeGenericType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(System::Type*, ::ArrayW<System::Type*>)>(&System::RuntimeType::MakeGenericType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(System::Type*, ::Array<System::Type*>*)>(&System::RuntimeType::MakeGenericType)> {
   static const MethodInfo* get() {
     static auto* gt = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* types = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->byval_arg;
@@ -1267,7 +1261,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: System::RuntimeType::GetMethodsByName
 // Il2CppName: GetMethodsByName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Reflection::RuntimeMethodInfo*> (System::RuntimeType::*)(::Il2CppString*, System::Reflection::BindingFlags, bool, System::RuntimeType*)>(&System::RuntimeType::GetMethodsByName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::RuntimeMethodInfo*>* (System::RuntimeType::*)(::Il2CppString*, System::Reflection::BindingFlags, bool, System::RuntimeType*)>(&System::RuntimeType::GetMethodsByName)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
@@ -1299,7 +1293,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: System::RuntimeType::GetConstructors_internal
 // Il2CppName: GetConstructors_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Reflection::RuntimeConstructorInfo*> (System::RuntimeType::*)(System::Reflection::BindingFlags, System::RuntimeType*)>(&System::RuntimeType::GetConstructors_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::RuntimeConstructorInfo*>* (System::RuntimeType::*)(System::Reflection::BindingFlags, System::RuntimeType*)>(&System::RuntimeType::GetConstructors_internal)> {
   static const MethodInfo* get() {
     static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
     static auto* reflectedType = &::il2cpp_utils::GetClassFromName("System", "RuntimeType")->byval_arg;
@@ -1309,7 +1303,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Sy
 // Writing MetadataGetter for method: System::RuntimeType::GetPropertiesByName
 // Il2CppName: GetPropertiesByName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Reflection::RuntimePropertyInfo*> (System::RuntimeType::*)(::Il2CppString*, System::Reflection::BindingFlags, bool, System::RuntimeType*)>(&System::RuntimeType::GetPropertiesByName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::RuntimePropertyInfo*>* (System::RuntimeType::*)(::Il2CppString*, System::Reflection::BindingFlags, bool, System::RuntimeType*)>(&System::RuntimeType::GetPropertiesByName)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
@@ -1368,7 +1362,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::RuntimeType::GetGenericArgumentsInternal
 // Il2CppName: GetGenericArgumentsInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Type*> (System::RuntimeType::*)(bool)>(&System::RuntimeType::GetGenericArgumentsInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Type*>* (System::RuntimeType::*)(bool)>(&System::RuntimeType::GetGenericArgumentsInternal)> {
   static const MethodInfo* get() {
     static auto* runtimeArray = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetGenericArgumentsInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{runtimeArray});
@@ -1413,7 +1407,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: System::RuntimeType::GetFields_internal
 // Il2CppName: GetFields_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Reflection::RuntimeFieldInfo*> (System::RuntimeType::*)(::Il2CppString*, System::Reflection::BindingFlags, System::RuntimeType*)>(&System::RuntimeType::GetFields_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::RuntimeFieldInfo*>* (System::RuntimeType::*)(::Il2CppString*, System::Reflection::BindingFlags, System::RuntimeType*)>(&System::RuntimeType::GetFields_internal)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
@@ -1424,7 +1418,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Sy
 // Writing MetadataGetter for method: System::RuntimeType::GetEvents_internal
 // Il2CppName: GetEvents_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Reflection::RuntimeEventInfo*> (System::RuntimeType::*)(::Il2CppString*, System::Reflection::BindingFlags, System::RuntimeType*)>(&System::RuntimeType::GetEvents_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::RuntimeEventInfo*>* (System::RuntimeType::*)(::Il2CppString*, System::Reflection::BindingFlags, System::RuntimeType*)>(&System::RuntimeType::GetEvents_internal)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
@@ -1445,7 +1439,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: System::RuntimeType::GetNestedTypes_internal
 // Il2CppName: GetNestedTypes_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::RuntimeType*> (System::RuntimeType::*)(::Il2CppString*, System::Reflection::BindingFlags)>(&System::RuntimeType::GetNestedTypes_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::RuntimeType*>* (System::RuntimeType::*)(::Il2CppString*, System::Reflection::BindingFlags)>(&System::RuntimeType::GetNestedTypes_internal)> {
   static const MethodInfo* get() {
     static auto* displayName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
@@ -1651,7 +1645,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::RuntimeType::GetMethods
 // Il2CppName: GetMethods
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Reflection::MethodInfo*> (System::RuntimeType::*)(System::Reflection::BindingFlags)>(&System::RuntimeType::GetMethods)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::MethodInfo*>* (System::RuntimeType::*)(System::Reflection::BindingFlags)>(&System::RuntimeType::GetMethods)> {
   static const MethodInfo* get() {
     static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetMethods", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bindingAttr});
@@ -1660,7 +1654,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Sy
 // Writing MetadataGetter for method: System::RuntimeType::GetConstructors
 // Il2CppName: GetConstructors
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Reflection::ConstructorInfo*> (System::RuntimeType::*)(System::Reflection::BindingFlags)>(&System::RuntimeType::GetConstructors)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::ConstructorInfo*>* (System::RuntimeType::*)(System::Reflection::BindingFlags)>(&System::RuntimeType::GetConstructors)> {
   static const MethodInfo* get() {
     static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetConstructors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bindingAttr});
@@ -1669,7 +1663,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Sy
 // Writing MetadataGetter for method: System::RuntimeType::GetProperties
 // Il2CppName: GetProperties
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Reflection::PropertyInfo*> (System::RuntimeType::*)(System::Reflection::BindingFlags)>(&System::RuntimeType::GetProperties)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::PropertyInfo*>* (System::RuntimeType::*)(System::Reflection::BindingFlags)>(&System::RuntimeType::GetProperties)> {
   static const MethodInfo* get() {
     static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bindingAttr});
@@ -1678,7 +1672,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Sy
 // Writing MetadataGetter for method: System::RuntimeType::GetFields
 // Il2CppName: GetFields
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Reflection::FieldInfo*> (System::RuntimeType::*)(System::Reflection::BindingFlags)>(&System::RuntimeType::GetFields)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::FieldInfo*>* (System::RuntimeType::*)(System::Reflection::BindingFlags)>(&System::RuntimeType::GetFields)> {
   static const MethodInfo* get() {
     static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetFields", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bindingAttr});
@@ -1687,7 +1681,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Sy
 // Writing MetadataGetter for method: System::RuntimeType::GetMethodImpl
 // Il2CppName: GetMethodImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodInfo* (System::RuntimeType::*)(::Il2CppString*, System::Reflection::BindingFlags, System::Reflection::Binder*, System::Reflection::CallingConventions, ::ArrayW<System::Type*>, ::ArrayW<System::Reflection::ParameterModifier>)>(&System::RuntimeType::GetMethodImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodInfo* (System::RuntimeType::*)(::Il2CppString*, System::Reflection::BindingFlags, System::Reflection::Binder*, System::Reflection::CallingConventions, ::Array<System::Type*>*, ::Array<System::Reflection::ParameterModifier>*)>(&System::RuntimeType::GetMethodImpl)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
@@ -1701,7 +1695,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: System::RuntimeType::GetConstructorImpl
 // Il2CppName: GetConstructorImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::ConstructorInfo* (System::RuntimeType::*)(System::Reflection::BindingFlags, System::Reflection::Binder*, System::Reflection::CallingConventions, ::ArrayW<System::Type*>, ::ArrayW<System::Reflection::ParameterModifier>)>(&System::RuntimeType::GetConstructorImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::ConstructorInfo* (System::RuntimeType::*)(System::Reflection::BindingFlags, System::Reflection::Binder*, System::Reflection::CallingConventions, ::Array<System::Type*>*, ::Array<System::Reflection::ParameterModifier>*)>(&System::RuntimeType::GetConstructorImpl)> {
   static const MethodInfo* get() {
     static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
     static auto* binder = &::il2cpp_utils::GetClassFromName("System.Reflection", "Binder")->byval_arg;
@@ -1714,7 +1708,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: System::RuntimeType::GetPropertyImpl
 // Il2CppName: GetPropertyImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::PropertyInfo* (System::RuntimeType::*)(::Il2CppString*, System::Reflection::BindingFlags, System::Reflection::Binder*, System::Type*, ::ArrayW<System::Type*>, ::ArrayW<System::Reflection::ParameterModifier>)>(&System::RuntimeType::GetPropertyImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::PropertyInfo* (System::RuntimeType::*)(::Il2CppString*, System::Reflection::BindingFlags, System::Reflection::Binder*, System::Type*, ::Array<System::Type*>*, ::Array<System::Reflection::ParameterModifier>*)>(&System::RuntimeType::GetPropertyImpl)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
@@ -1758,7 +1752,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: System::RuntimeType::GetMember
 // Il2CppName: GetMember
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Reflection::MemberInfo*> (System::RuntimeType::*)(::Il2CppString*, System::Reflection::MemberTypes, System::Reflection::BindingFlags)>(&System::RuntimeType::GetMember)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::MemberInfo*>* (System::RuntimeType::*)(::Il2CppString*, System::Reflection::MemberTypes, System::Reflection::BindingFlags)>(&System::RuntimeType::GetMember)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("System.Reflection", "MemberTypes")->byval_arg;
@@ -1893,7 +1887,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: System::RuntimeType::GetEnumNames
 // Il2CppName: GetEnumNames
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (System::RuntimeType::*)()>(&System::RuntimeType::GetEnumNames)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::RuntimeType::*)()>(&System::RuntimeType::GetEnumNames)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetEnumNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1935,7 +1929,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::RuntimeType::GetGenericArguments
 // Il2CppName: GetGenericArguments
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Type*> (System::RuntimeType::*)()>(&System::RuntimeType::GetGenericArguments)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Type*>* (System::RuntimeType::*)()>(&System::RuntimeType::GetGenericArguments)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetGenericArguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1943,7 +1937,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Sy
 // Writing MetadataGetter for method: System::RuntimeType::MakeGenericType
 // Il2CppName: MakeGenericType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::RuntimeType::*)(::ArrayW<System::Type*>)>(&System::RuntimeType::MakeGenericType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::RuntimeType::*)(::Array<System::Type*>*)>(&System::RuntimeType::MakeGenericType)> {
   static const MethodInfo* get() {
     static auto* instantiation = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "MakeGenericType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{instantiation});
@@ -1960,7 +1954,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: System::RuntimeType::InvokeMember
 // Il2CppName: InvokeMember
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::RuntimeType::*)(::Il2CppString*, System::Reflection::BindingFlags, System::Reflection::Binder*, ::Il2CppObject*, ::ArrayW<::Il2CppObject*>, ::ArrayW<System::Reflection::ParameterModifier>, System::Globalization::CultureInfo*, ::ArrayW<::Il2CppString*>)>(&System::RuntimeType::InvokeMember)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::RuntimeType::*)(::Il2CppString*, System::Reflection::BindingFlags, System::Reflection::Binder*, ::Il2CppObject*, ::Array<::Il2CppObject*>*, ::Array<System::Reflection::ParameterModifier>*, System::Globalization::CultureInfo*, ::Array<::Il2CppString*>*)>(&System::RuntimeType::InvokeMember)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* bindingFlags = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
@@ -1985,7 +1979,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::RuntimeType::GetCustomAttributes
 // Il2CppName: GetCustomAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppObject*> (System::RuntimeType::*)(bool)>(&System::RuntimeType::GetCustomAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (System::RuntimeType::*)(bool)>(&System::RuntimeType::GetCustomAttributes)> {
   static const MethodInfo* get() {
     static auto* inherit = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetCustomAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inherit});
@@ -1994,7 +1988,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
 // Writing MetadataGetter for method: System::RuntimeType::GetCustomAttributes
 // Il2CppName: GetCustomAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppObject*> (System::RuntimeType::*)(System::Type*, bool)>(&System::RuntimeType::GetCustomAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (System::RuntimeType::*)(System::Type*, bool)>(&System::RuntimeType::GetCustomAttributes)> {
   static const MethodInfo* get() {
     static auto* attributeType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* inherit = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -2064,7 +2058,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: System::RuntimeType::GetGenericParameterConstraints
 // Il2CppName: GetGenericParameterConstraints
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Type*> (System::RuntimeType::*)()>(&System::RuntimeType::GetGenericParameterConstraints)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Type*>* (System::RuntimeType::*)()>(&System::RuntimeType::GetGenericParameterConstraints)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetGenericParameterConstraints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2088,7 +2082,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::RuntimeType::GetInterfaces
 // Il2CppName: GetInterfaces
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Type*> (System::RuntimeType::*)()>(&System::RuntimeType::GetInterfaces)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Type*>* (System::RuntimeType::*)()>(&System::RuntimeType::GetInterfaces)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetInterfaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

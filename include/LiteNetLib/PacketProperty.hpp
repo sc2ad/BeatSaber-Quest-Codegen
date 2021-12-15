@@ -3,18 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: LiteNetLib
-namespace LiteNetLib {
-  // Forward declaring type: PacketProperty
-  struct PacketProperty;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::PacketProperty, "LiteNetLib", "PacketProperty");
 // Type namespace: LiteNetLib
 namespace LiteNetLib {
   // Size: 0x1
@@ -23,18 +16,12 @@ namespace LiteNetLib {
   // [TokenAttribute] Offset: FFFFFFFF
   struct PacketProperty/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Byte value__
     // Size: 0x1
     // Offset: 0x0
     uint8_t value;
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
-    public:
     // Creating value type constructor for type: PacketProperty
     constexpr PacketProperty(uint8_t value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -160,4 +147,6 @@ namespace LiteNetLib {
   static check_size<sizeof(PacketProperty), 0 + sizeof(uint8_t)> __LiteNetLib_PacketPropertySizeCheck;
   static_assert(sizeof(PacketProperty) == 0x1);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::PacketProperty, "LiteNetLib", "PacketProperty");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

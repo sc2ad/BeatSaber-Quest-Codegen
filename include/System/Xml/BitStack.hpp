@@ -3,22 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Xml
-namespace System::Xml {
-  // Forward declaring type: BitStack
-  class BitStack;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::BitStack);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::BitStack*, "System.Xml", "BitStack");
 // Type namespace: System.Xml
 namespace System::Xml {
   // Size: 0x20
@@ -27,17 +18,12 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class BitStack : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.UInt32[] bitStack
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<uint> bitStack;
+    ::Array<uint>* bitStack;
     // Field size check
-    static_assert(sizeof(::ArrayW<uint>) == 0x8);
+    static_assert(sizeof(::Array<uint>*) == 0x8);
     // private System.Int32 stackPos
     // Size: 0x4
     // Offset: 0x18
@@ -50,30 +36,31 @@ namespace System::Xml {
     uint curr;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
-    public:
+    // Creating value type constructor for type: BitStack
+    BitStack(::Array<uint>* bitStack_ = {}, int stackPos_ = {}, uint curr_ = {}) noexcept : bitStack{bitStack_}, stackPos{stackPos_}, curr{curr_} {}
     // Get instance field reference: private System.UInt32[] bitStack
-    ::ArrayW<uint>& dyn_bitStack();
+    ::Array<uint>*& dyn_bitStack();
     // Get instance field reference: private System.Int32 stackPos
     int& dyn_stackPos();
     // Get instance field reference: private System.UInt32 curr
     uint& dyn_curr();
     // public System.Void PushBit(System.Boolean bit)
-    // Offset: 0x1ADA188
+    // Offset: 0x1B59C64
     void PushBit(bool bit);
     // public System.Boolean PopBit()
-    // Offset: 0x1ADA2B8
+    // Offset: 0x1B59D94
     bool PopBit();
     // public System.Boolean PeekBit()
-    // Offset: 0x1ADA33C
+    // Offset: 0x1B59E18
     bool PeekBit();
     // private System.Void PushCurr()
-    // Offset: 0x1ADA1C4
+    // Offset: 0x1B59CA0
     void PushCurr();
     // private System.Void PopCurr()
-    // Offset: 0x1ADA2EC
+    // Offset: 0x1B59DC8
     void PopCurr();
     // public System.Void .ctor()
-    // Offset: 0x1ADA15C
+    // Offset: 0x1B59C38
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -86,7 +73,8 @@ namespace System::Xml {
   static check_size<sizeof(BitStack), 28 + sizeof(uint)> __System_Xml_BitStackSizeCheck;
   static_assert(sizeof(BitStack) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::BitStack*, "System.Xml", "BitStack");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::BitStack::PushBit
 // Il2CppName: PushBit
 template<>

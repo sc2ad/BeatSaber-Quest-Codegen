@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRPlugin
 #include "GlobalNamespace/OVRPlugin.hpp"
 // Including type: System.ValueType
@@ -14,13 +14,6 @@
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
-  // Forward declaring type: PoseStatef
-  struct PoseStatef;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::PoseStatef, "", "OVRPlugin/PoseStatef");
-// Type namespace: 
-namespace GlobalNamespace {
   // Size: 0x58
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -28,11 +21,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct OVRPlugin::PoseStatef/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public OVRPlugin/Posef Pose
     // Size: 0x1C
     // Offset: 0x0
@@ -71,7 +59,6 @@ namespace GlobalNamespace {
     double Time;
     // Field size check
     static_assert(sizeof(double) == 0x8);
-    public:
     // Creating value type constructor for type: PoseStatef
     constexpr PoseStatef(GlobalNamespace::OVRPlugin::Posef Pose_ = {}, GlobalNamespace::OVRPlugin::Vector3f Velocity_ = {}, GlobalNamespace::OVRPlugin::Vector3f Acceleration_ = {}, GlobalNamespace::OVRPlugin::Vector3f AngularVelocity_ = {}, GlobalNamespace::OVRPlugin::Vector3f AngularAcceleration_ = {}, double Time_ = {}) noexcept : Pose{Pose_}, Velocity{Velocity_}, Acceleration{Acceleration_}, AngularVelocity{AngularVelocity_}, AngularAcceleration{AngularAcceleration_}, Time{Time_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -95,14 +82,16 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Double Time
     double& dyn_Time();
     // static private System.Void .cctor()
-    // Offset: 0x17EC36C
+    // Offset: 0x187AC80
     static void _cctor();
   }; // OVRPlugin/PoseStatef
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::PoseStatef), 80 + sizeof(double)> __GlobalNamespace_OVRPlugin_PoseStatefSizeCheck;
   static_assert(sizeof(OVRPlugin::PoseStatef) == 0x58);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::PoseStatef, "", "OVRPlugin/PoseStatef");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::PoseStatef::_cctor
 // Il2CppName: .cctor
 template<>

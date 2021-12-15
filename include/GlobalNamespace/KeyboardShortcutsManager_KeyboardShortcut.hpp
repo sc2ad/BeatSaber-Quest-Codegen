@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: KeyboardShortcutsManager
 #include "GlobalNamespace/KeyboardShortcutsManager.hpp"
 // Including type: UnityEngine.KeyCode
 #include "UnityEngine/KeyCode.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: KeyboardShortcut
-  class KeyboardShortcut;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::KeyboardShortcutsManager::KeyboardShortcut);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::KeyboardShortcutsManager::KeyboardShortcut*, "", "KeyboardShortcutsManager/KeyboardShortcut");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x1C
@@ -30,11 +22,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class KeyboardShortcutsManager::KeyboardShortcut : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public UnityEngine.KeyCode mainKey
     // Size: 0x4
     // Offset: 0x10
@@ -53,7 +40,8 @@ namespace GlobalNamespace {
     UnityEngine::KeyCode combinationKey2;
     // Field size check
     static_assert(sizeof(UnityEngine::KeyCode) == 0x4);
-    public:
+    // Creating value type constructor for type: KeyboardShortcut
+    KeyboardShortcut(UnityEngine::KeyCode mainKey_ = {}, UnityEngine::KeyCode combinationKey1_ = {}, UnityEngine::KeyCode combinationKey2_ = {}) noexcept : mainKey{mainKey_}, combinationKey1{combinationKey1_}, combinationKey2{combinationKey2_} {}
     // Get instance field reference: public UnityEngine.KeyCode mainKey
     UnityEngine::KeyCode& dyn_mainKey();
     // Get instance field reference: public UnityEngine.KeyCode combinationKey1
@@ -61,19 +49,19 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.KeyCode combinationKey2
     UnityEngine::KeyCode& dyn_combinationKey2();
     // public System.Void .ctor(UnityEngine.KeyCode mainKey, UnityEngine.KeyCode combinationKey1, UnityEngine.KeyCode combinationKey2)
-    // Offset: 0x136B8BC
+    // Offset: 0x139C4B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KeyboardShortcutsManager::KeyboardShortcut* New_ctor(UnityEngine::KeyCode mainKey, UnityEngine::KeyCode combinationKey1, UnityEngine::KeyCode combinationKey2) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::KeyboardShortcutsManager::KeyboardShortcut::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KeyboardShortcutsManager::KeyboardShortcut*, creationType>(mainKey, combinationKey1, combinationKey2)));
     }
     // public override System.Int32 GetHashCode()
-    // Offset: 0x136BD18
+    // Offset: 0x139C90C
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x136BD2C
+    // Offset: 0x139C920
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
@@ -82,7 +70,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(KeyboardShortcutsManager::KeyboardShortcut), 24 + sizeof(UnityEngine::KeyCode)> __GlobalNamespace_KeyboardShortcutsManager_KeyboardShortcutSizeCheck;
   static_assert(sizeof(KeyboardShortcutsManager::KeyboardShortcut) == 0x1C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::KeyboardShortcutsManager::KeyboardShortcut*, "", "KeyboardShortcutsManager/KeyboardShortcut");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::KeyboardShortcutsManager::KeyboardShortcut::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

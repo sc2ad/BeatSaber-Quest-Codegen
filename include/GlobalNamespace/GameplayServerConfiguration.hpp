@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.IEquatable`1
@@ -21,6 +21,10 @@
 #include "GlobalNamespace/SongSelectionMode.hpp"
 // Including type: GameplayServerControlSettings
 #include "GlobalNamespace/GameplayServerControlSettings.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: LiteNetLib::Utils
@@ -33,13 +37,6 @@ namespace LiteNetLib::Utils {
 // Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
-  // Forward declaring type: GameplayServerConfiguration
-  struct GameplayServerConfiguration;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayServerConfiguration, "", "GameplayServerConfiguration");
-// Type namespace: 
-namespace GlobalNamespace {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -48,11 +45,6 @@ namespace GlobalNamespace {
   // [IsReadOnlyAttribute] Offset: FFFFFFFF
   struct GameplayServerConfiguration/*, public System::ValueType, public System::IEquatable_1<GlobalNamespace::GameplayServerConfiguration>, public LiteNetLib::Utils::INetImmutableSerializable_1<GlobalNamespace::GameplayServerConfiguration>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public readonly System.Int32 maxPlayerCount
     // Size: 0x4
     // Offset: 0x0
@@ -91,7 +83,6 @@ namespace GlobalNamespace {
     GlobalNamespace::GameplayServerControlSettings gameplayServerControlSettings;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayServerControlSettings) == 0x4);
-    public:
     // Creating value type constructor for type: GameplayServerConfiguration
     constexpr GameplayServerConfiguration(int maxPlayerCount_ = {}, GlobalNamespace::DiscoveryPolicy discoveryPolicy_ = {}, GlobalNamespace::InvitePolicy invitePolicy_ = {}, GlobalNamespace::GameplayServerMode gameplayServerMode_ = {}, GlobalNamespace::SongSelectionMode songSelectionMode_ = {}, GlobalNamespace::GameplayServerControlSettings gameplayServerControlSettings_ = {}) noexcept : maxPlayerCount{maxPlayerCount_}, discoveryPolicy{discoveryPolicy_}, invitePolicy{invitePolicy_}, gameplayServerMode{gameplayServerMode_}, songSelectionMode{songSelectionMode_}, gameplayServerControlSettings{gameplayServerControlSettings_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -119,33 +110,34 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly GameplayServerControlSettings gameplayServerControlSettings
     GlobalNamespace::GameplayServerControlSettings& dyn_gameplayServerControlSettings();
     // public System.Void .ctor(System.Int32 maxPlayerCount, DiscoveryPolicy discoveryPolicy, InvitePolicy invitePolicy, GameplayServerMode gameplayServerMode, SongSelectionMode songSelectionMode, GameplayServerControlSettings gameplayServerControlSettings)
-    // Offset: 0x143E96C
-    // ABORTED: conflicts with another method.  GameplayServerConfiguration(int maxPlayerCount, GlobalNamespace::DiscoveryPolicy discoveryPolicy, GlobalNamespace::InvitePolicy invitePolicy, GlobalNamespace::GameplayServerMode gameplayServerMode, GlobalNamespace::SongSelectionMode songSelectionMode, GlobalNamespace::GameplayServerControlSettings gameplayServerControlSettings);
+    // Offset: 0x156A1B4
+    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    // ABORTED: conflicts with another method.  GameplayServerConfiguration(int maxPlayerCount, GlobalNamespace::DiscoveryPolicy discoveryPolicy, GlobalNamespace::InvitePolicy invitePolicy, GlobalNamespace::GameplayServerMode gameplayServerMode, GlobalNamespace::SongSelectionMode songSelectionMode, GlobalNamespace::GameplayServerControlSettings gameplayServerControlSettings)
     // public System.Boolean Equals(in GameplayServerConfiguration other)
-    // Offset: 0x143E980
+    // Offset: 0x156A1C8
     bool Equals(ByRef<GlobalNamespace::GameplayServerConfiguration> other);
     // public System.Boolean Equals(GameplayServerConfiguration other)
-    // Offset: 0x143E9EC
+    // Offset: 0x156A234
     bool Equals_(GlobalNamespace::GameplayServerConfiguration other);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x143EB28
+    // Offset: 0x156A370
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public GameplayServerConfiguration CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x143EBA8
+    // Offset: 0x156A3F0
     GlobalNamespace::GameplayServerConfiguration CreateFromSerializedData(LiteNetLib::Utils::NetDataReader* reader);
     // static public GameplayServerConfiguration Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x143EBB0
+    // Offset: 0x156A3F8
     static GlobalNamespace::GameplayServerConfiguration Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public GameplayServerConfiguration WithMaxPlayerCount(System.Int32 maxPlayerCount)
-    // Offset: 0x143EC54
+    // Offset: 0x156A49C
     GlobalNamespace::GameplayServerConfiguration WithMaxPlayerCount(int maxPlayerCount);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x143E9F0
+    // Offset: 0x156A238
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x143EAC8
+    // Offset: 0x156A310
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
@@ -154,13 +146,14 @@ namespace GlobalNamespace {
   static check_size<sizeof(GameplayServerConfiguration), 20 + sizeof(GlobalNamespace::GameplayServerControlSettings)> __GlobalNamespace_GameplayServerConfigurationSizeCheck;
   static_assert(sizeof(GameplayServerConfiguration) == 0x18);
   // static public System.Boolean op_Equality(in GameplayServerConfiguration a, in GameplayServerConfiguration b)
-  // Offset: 0x143EB08
+  // Offset: 0x156A350
   bool operator ==(const GlobalNamespace::GameplayServerConfiguration&& a, const GlobalNamespace::GameplayServerConfiguration&& b);
   // static public System.Boolean op_Inequality(in GameplayServerConfiguration a, in GameplayServerConfiguration b)
-  // Offset: 0x143EB0C
+  // Offset: 0x156A354
   bool operator !=(const GlobalNamespace::GameplayServerConfiguration&& a, const GlobalNamespace::GameplayServerConfiguration&& b);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayServerConfiguration, "", "GameplayServerConfiguration");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameplayServerConfiguration::GameplayServerConfiguration
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

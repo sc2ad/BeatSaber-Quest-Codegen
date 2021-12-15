@@ -3,18 +3,10 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: NUnit.Framework.Interfaces.ICommandWrapper
 #include "NUnit/Framework/Interfaces/ICommandWrapper.hpp"
 // Completed includes
-// Type namespace: NUnit.Framework.Interfaces
-namespace NUnit::Framework::Interfaces {
-  // Forward declaring type: IWrapTestMethod
-  class IWrapTestMethod;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(NUnit::Framework::Interfaces::IWrapTestMethod);
-DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::IWrapTestMethod*, "NUnit.Framework.Interfaces", "IWrapTestMethod");
 // Type namespace: NUnit.Framework.Interfaces
 namespace NUnit::Framework::Interfaces {
   // Size: 0x10
@@ -23,6 +15,8 @@ namespace NUnit::Framework::Interfaces {
   // [TokenAttribute] Offset: FFFFFFFF
   class IWrapTestMethod/*, public NUnit::Framework::Interfaces::ICommandWrapper*/ {
     public:
+    // Creating value type constructor for type: IWrapTestMethod
+    IWrapTestMethod() noexcept {}
     // Creating interface conversion operator: operator NUnit::Framework::Interfaces::ICommandWrapper
     operator NUnit::Framework::Interfaces::ICommandWrapper() noexcept {
       return *reinterpret_cast<NUnit::Framework::Interfaces::ICommandWrapper*>(this);
@@ -30,4 +24,6 @@ namespace NUnit::Framework::Interfaces {
   }; // NUnit.Framework.Interfaces.IWrapTestMethod
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::IWrapTestMethod*, "NUnit.Framework.Interfaces", "IWrapTestMethod");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

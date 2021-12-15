@@ -3,21 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: TMPro
-namespace TMPro {
-  // Forward declaring type: FaceInfo_Legacy
-  class FaceInfo_Legacy;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(TMPro::FaceInfo_Legacy);
-DEFINE_IL2CPP_ARG_TYPE(TMPro::FaceInfo_Legacy*, "TMPro", "FaceInfo_Legacy");
 // Type namespace: TMPro
 namespace TMPro {
   // Size: 0x68
@@ -26,11 +18,6 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class FaceInfo_Legacy : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.String Name
     // Size: 0x8
     // Offset: 0x10
@@ -157,7 +144,8 @@ namespace TMPro {
     float AtlasHeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
+    // Creating value type constructor for type: FaceInfo_Legacy
+    FaceInfo_Legacy(::Il2CppString* Name_ = {}, float PointSize_ = {}, float Scale_ = {}, int CharacterCount_ = {}, float LineHeight_ = {}, float Baseline_ = {}, float Ascender_ = {}, float CapHeight_ = {}, float Descender_ = {}, float CenterLine_ = {}, float SuperscriptOffset_ = {}, float SubscriptOffset_ = {}, float SubSize_ = {}, float Underline_ = {}, float UnderlineThickness_ = {}, float strikethrough_ = {}, float strikethroughThickness_ = {}, float TabWidth_ = {}, float Padding_ = {}, float AtlasWidth_ = {}, float AtlasHeight_ = {}) noexcept : Name{Name_}, PointSize{PointSize_}, Scale{Scale_}, CharacterCount{CharacterCount_}, LineHeight{LineHeight_}, Baseline{Baseline_}, Ascender{Ascender_}, CapHeight{CapHeight_}, Descender{Descender_}, CenterLine{CenterLine_}, SuperscriptOffset{SuperscriptOffset_}, SubscriptOffset{SubscriptOffset_}, SubSize{SubSize_}, Underline{Underline_}, UnderlineThickness{UnderlineThickness_}, strikethrough{strikethrough_}, strikethroughThickness{strikethroughThickness_}, TabWidth{TabWidth_}, Padding{Padding_}, AtlasWidth{AtlasWidth_}, AtlasHeight{AtlasHeight_} {}
     // Get instance field reference: public System.String Name
     ::Il2CppString*& dyn_Name();
     // Get instance field reference: public System.Single PointSize
@@ -201,7 +189,7 @@ namespace TMPro {
     // Get instance field reference: public System.Single AtlasHeight
     float& dyn_AtlasHeight();
     // public System.Void .ctor()
-    // Offset: 0x11E7550
+    // Offset: 0x123DCC0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -214,7 +202,8 @@ namespace TMPro {
   static check_size<sizeof(FaceInfo_Legacy), 100 + sizeof(float)> __TMPro_FaceInfo_LegacySizeCheck;
   static_assert(sizeof(FaceInfo_Legacy) == 0x68);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::FaceInfo_Legacy*, "TMPro", "FaceInfo_Legacy");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::FaceInfo_Legacy::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

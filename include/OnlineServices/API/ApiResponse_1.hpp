@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: OnlineServices.API.Response
 #include "OnlineServices/API/Response.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: OnlineServices.API
-namespace OnlineServices::API {
-  // Forward declaring type: ApiResponse`1<T>
-  template<typename T>
-  struct ApiResponse_1;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(OnlineServices::API::ApiResponse_1, "OnlineServices.API", "ApiResponse`1");
 // Type namespace: OnlineServices.API
 namespace OnlineServices::API {
   // WARNING Size may be invalid!
@@ -32,11 +24,6 @@ namespace OnlineServices::API {
   template<typename T>
   struct ApiResponse_1/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public readonly OnlineServices.API.Response response
     // Size: 0x4
     // Offset: 0x0
@@ -47,7 +34,6 @@ namespace OnlineServices::API {
     // Size: 0xFFFFFFFF
     // Offset: 0x0
     T responseDto;
-    public:
     // Creating value type constructor for type: ApiResponse_1
     constexpr ApiResponse_1(OnlineServices::API::Response response_ = {}, T responseDto_ = {}) noexcept : response{response_}, responseDto{responseDto_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -75,12 +61,14 @@ namespace OnlineServices::API {
     bool get_isError() {
       static auto ___internal__logger = ::Logger::get().WithContext("OnlineServices::API::ApiResponse_1::get_isError");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "get_isError", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method);
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(*this, ___internal__method);
     }
     // public System.Void .ctor(OnlineServices.API.Response response, T responseDto)
     // Offset: 0xFFFFFFFF
+    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  ApiResponse_1(OnlineServices::API::Response response, T responseDto)
   }; // OnlineServices.API.ApiResponse`1
   // Could not write size check! Type: OnlineServices.API.ApiResponse`1 is generic, or has no fields that are valid for size checks!
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(OnlineServices::API::ApiResponse_1, "OnlineServices.API", "ApiResponse`1");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

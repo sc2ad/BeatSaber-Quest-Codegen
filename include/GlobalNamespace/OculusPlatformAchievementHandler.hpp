@@ -3,14 +3,14 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PlatformAchievementsHandler
 #include "GlobalNamespace/PlatformAchievementsHandler.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -21,14 +21,6 @@ namespace GlobalNamespace {
   class HMAsyncRequest;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: OculusPlatformAchievementHandler
-  class OculusPlatformAchievementHandler;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OculusPlatformAchievementHandler);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformAchievementHandler*, "", "OculusPlatformAchievementHandler");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x18
@@ -43,18 +35,14 @@ namespace GlobalNamespace {
     class $$c__DisplayClass3_0;
     // Nested type: GlobalNamespace::OculusPlatformAchievementHandler::$$c__DisplayClass3_1
     class $$c__DisplayClass3_1;
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private readonly AchievementIdsModelSO _achievementIdsModel
     // Size: 0x8
     // Offset: 0x10
     GlobalNamespace::AchievementIdsModelSO* achievementIdsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AchievementIdsModelSO*) == 0x8);
-    public:
+    // Creating value type constructor for type: OculusPlatformAchievementHandler
+    OculusPlatformAchievementHandler(GlobalNamespace::AchievementIdsModelSO* achievementIdsModel_ = {}) noexcept : achievementIdsModel{achievementIdsModel_} {}
     // Creating conversion operator: operator GlobalNamespace::AchievementIdsModelSO*
     constexpr operator GlobalNamespace::AchievementIdsModelSO*() const noexcept {
       return achievementIdsModel;
@@ -62,19 +50,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly AchievementIdsModelSO _achievementIdsModel
     GlobalNamespace::AchievementIdsModelSO*& dyn__achievementIdsModel();
     // public System.Void .ctor(AchievementIdsModelSO achievementIdsModel)
-    // Offset: 0x10FD130
+    // Offset: 0x136BFE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusPlatformAchievementHandler* New_ctor(GlobalNamespace::AchievementIdsModelSO* achievementIdsModel) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OculusPlatformAchievementHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusPlatformAchievementHandler*, creationType>(achievementIdsModel)));
     }
     // public override HMAsyncRequest UnlockAchievement(System.String achievementId, PlatformAchievementsModelSO/UnlockAchievementCompletionHandler completionHandler)
-    // Offset: 0x10FD15C
+    // Offset: 0x136C014
     // Implemented from: PlatformAchievementsHandler
     // Base method: HMAsyncRequest PlatformAchievementsHandler::UnlockAchievement(System.String achievementId, PlatformAchievementsModelSO/UnlockAchievementCompletionHandler completionHandler)
     GlobalNamespace::HMAsyncRequest* UnlockAchievement(::Il2CppString* achievementId, GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementCompletionHandler* completionHandler);
     // public override HMAsyncRequest GetUnlockedAchievements(PlatformAchievementsModelSO/GetUnlockedAchievementsCompletionHandler completionHandler)
-    // Offset: 0x10FD240
+    // Offset: 0x136C0F8
     // Implemented from: PlatformAchievementsHandler
     // Base method: HMAsyncRequest PlatformAchievementsHandler::GetUnlockedAchievements(PlatformAchievementsModelSO/GetUnlockedAchievementsCompletionHandler completionHandler)
     GlobalNamespace::HMAsyncRequest* GetUnlockedAchievements(GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler* completionHandler);
@@ -83,7 +71,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(OculusPlatformAchievementHandler), 16 + sizeof(GlobalNamespace::AchievementIdsModelSO*)> __GlobalNamespace_OculusPlatformAchievementHandlerSizeCheck;
   static_assert(sizeof(OculusPlatformAchievementHandler) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformAchievementHandler*, "", "OculusPlatformAchievementHandler");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OculusPlatformAchievementHandler::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -3,27 +3,19 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Collections.Stack
 #include "System/Collections/Stack.hpp"
 // Including type: System.ICloneable
 #include "System/ICloneable.hpp"
 // Including type: System.Collections.IEnumerator
 #include "System/Collections/IEnumerator.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Collections
-namespace System::Collections {
-  // Forward declaring type: StackEnumerator
-  class StackEnumerator;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Collections::Stack::StackEnumerator);
-DEFINE_IL2CPP_ARG_TYPE(System::Collections::Stack::StackEnumerator*, "System.Collections", "Stack/StackEnumerator");
 // Type namespace: System.Collections
 namespace System::Collections {
   // Size: 0x28
@@ -32,11 +24,6 @@ namespace System::Collections {
   // [TokenAttribute] Offset: FFFFFFFF
   class Stack::StackEnumerator : public ::Il2CppObject/*, public System::ICloneable, public System::Collections::IEnumerator*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Collections.Stack _stack
     // Size: 0x8
     // Offset: 0x10
@@ -61,7 +48,8 @@ namespace System::Collections {
     ::Il2CppObject* currentElement;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    public:
+    // Creating value type constructor for type: StackEnumerator
+    StackEnumerator(System::Collections::Stack* stack_ = {}, int index_ = {}, int version_ = {}, ::Il2CppObject* currentElement_ = {}) noexcept : stack{stack_}, index{index_}, version{version_}, currentElement{currentElement_} {}
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);
@@ -79,30 +67,31 @@ namespace System::Collections {
     // Get instance field reference: private System.Object currentElement
     ::Il2CppObject*& dyn_currentElement();
     // public System.Object get_Current()
-    // Offset: 0x1AFAEA8
+    // Offset: 0x1B91208
     ::Il2CppObject* get_Current();
     // System.Void .ctor(System.Collections.Stack stack)
-    // Offset: 0x1AFAA88
+    // Offset: 0x1B90DE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Stack::StackEnumerator* New_ctor(System::Collections::Stack* stack) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Stack::StackEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Stack::StackEnumerator*, creationType>(stack)));
     }
     // public System.Object Clone()
-    // Offset: 0x1AFAD80
+    // Offset: 0x1B910E0
     ::Il2CppObject* Clone();
     // public System.Boolean MoveNext()
-    // Offset: 0x1AFAD88
+    // Offset: 0x1B910E8
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1AFAF5C
+    // Offset: 0x1B912BC
     void Reset();
   }; // System.Collections.Stack/System.Collections.StackEnumerator
   #pragma pack(pop)
   static check_size<sizeof(Stack::StackEnumerator), 32 + sizeof(::Il2CppObject*)> __System_Collections_Stack_StackEnumeratorSizeCheck;
   static_assert(sizeof(Stack::StackEnumerator) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Collections::Stack::StackEnumerator*, "System.Collections", "Stack/StackEnumerator");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::Stack::StackEnumerator::get_Current
 // Il2CppName: get_Current
 template<>

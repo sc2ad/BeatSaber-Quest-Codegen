@@ -3,19 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct Il2CppString;
 // Completed il2cpp-utils forward declares
-// Type namespace: Microsoft.Extensions.Logging
-namespace Microsoft::Extensions::Logging {
-  // Forward declaring type: ILogger
-  class ILogger;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Microsoft::Extensions::Logging::ILogger);
-DEFINE_IL2CPP_ARG_TYPE(Microsoft::Extensions::Logging::ILogger*, "Microsoft.Extensions.Logging", "ILogger");
 // Type namespace: Microsoft.Extensions.Logging
 namespace Microsoft::Extensions::Logging {
   // Size: 0x10
@@ -24,6 +16,8 @@ namespace Microsoft::Extensions::Logging {
   // [TokenAttribute] Offset: FFFFFFFF
   class ILogger {
     public:
+    // Creating value type constructor for type: ILogger
+    ILogger() noexcept {}
     // public System.Void LogError(System.String message)
     // Offset: 0xFFFFFFFF
     void LogError(::Il2CppString* message);
@@ -36,7 +30,9 @@ namespace Microsoft::Extensions::Logging {
   }; // Microsoft.Extensions.Logging.ILogger
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Microsoft::Extensions::Logging::ILogger*, "Microsoft.Extensions.Logging", "ILogger");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Microsoft::Extensions::Logging::ILogger::LogError
 // Il2CppName: LogError
 template<>

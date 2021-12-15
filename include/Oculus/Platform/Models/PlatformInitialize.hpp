@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Oculus.Platform.PlatformInitializeResult
 #include "Oculus/Platform/PlatformInitializeResult.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Oculus.Platform.Models
-namespace Oculus::Platform::Models {
-  // Forward declaring type: PlatformInitialize
-  class PlatformInitialize;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Models::PlatformInitialize);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::PlatformInitialize*, "Oculus.Platform.Models", "PlatformInitialize");
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
   // Size: 0x14
@@ -30,18 +22,14 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlatformInitialize : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public readonly Oculus.Platform.PlatformInitializeResult Result
     // Size: 0x4
     // Offset: 0x10
     Oculus::Platform::PlatformInitializeResult Result;
     // Field size check
     static_assert(sizeof(Oculus::Platform::PlatformInitializeResult) == 0x4);
-    public:
+    // Creating value type constructor for type: PlatformInitialize
+    PlatformInitialize(Oculus::Platform::PlatformInitializeResult Result_ = {}) noexcept : Result{Result_} {}
     // Creating conversion operator: operator Oculus::Platform::PlatformInitializeResult
     constexpr operator Oculus::Platform::PlatformInitializeResult() const noexcept {
       return Result;
@@ -49,7 +37,7 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly Oculus.Platform.PlatformInitializeResult Result
     Oculus::Platform::PlatformInitializeResult& dyn_Result();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x16A1184
+    // Offset: 0x175E5A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlatformInitialize* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::PlatformInitialize::.ctor");
@@ -60,7 +48,8 @@ namespace Oculus::Platform::Models {
   static check_size<sizeof(PlatformInitialize), 16 + sizeof(Oculus::Platform::PlatformInitializeResult)> __Oculus_Platform_Models_PlatformInitializeSizeCheck;
   static_assert(sizeof(PlatformInitialize) == 0x14);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::PlatformInitialize*, "Oculus.Platform.Models", "PlatformInitialize");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::PlatformInitialize::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

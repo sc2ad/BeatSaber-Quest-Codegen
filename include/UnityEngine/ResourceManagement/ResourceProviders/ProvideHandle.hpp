@@ -3,15 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: UnityEngine.ResourceManagement.AsyncOperations.DownloadStatus
 #include "UnityEngine/ResourceManagement/AsyncOperations/DownloadStatus.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::ResourceManagement::AsyncOperations
@@ -51,13 +51,6 @@ struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.ResourceManagement.ResourceProviders
 namespace UnityEngine::ResourceManagement::ResourceProviders {
-  // Forward declaring type: ProvideHandle
-  struct ProvideHandle;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle, "UnityEngine.ResourceManagement.ResourceProviders", "ProvideHandle");
-// Type namespace: UnityEngine.ResourceManagement.ResourceProviders
-namespace UnityEngine::ResourceManagement::ResourceProviders {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -65,11 +58,6 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ProvideHandle/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Int32 m_Version
     // Size: 0x4
     // Offset: 0x0
@@ -90,7 +78,6 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     UnityEngine::ResourceManagement::ResourceManager* m_ResourceManager;
     // Field size check
     static_assert(sizeof(UnityEngine::ResourceManagement::ResourceManager*) == 0x8);
-    public:
     // Creating value type constructor for type: ProvideHandle
     constexpr ProvideHandle(int m_Version_ = {}, UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation* m_InternalOp_ = {}, UnityEngine::ResourceManagement::ResourceManager* m_ResourceManager_ = {}) noexcept : m_Version{m_Version_}, m_InternalOp{m_InternalOp_}, m_ResourceManager{m_ResourceManager_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -104,23 +91,28 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     // Get instance field reference: private UnityEngine.ResourceManagement.ResourceManager m_ResourceManager
     UnityEngine::ResourceManagement::ResourceManager*& dyn_m_ResourceManager();
     // private UnityEngine.ResourceManagement.AsyncOperations.IGenericProviderOperation get_InternalOp()
-    // Offset: 0x1B4EBB4
+    // Offset: 0x1BEE934
     UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation* get_InternalOp();
     // public UnityEngine.ResourceManagement.ResourceManager get_ResourceManager()
-    // Offset: 0x1B4ECB8
+    // Offset: 0x1BEEA38
     UnityEngine::ResourceManagement::ResourceManager* get_ResourceManager();
     // public System.Type get_Type()
-    // Offset: 0x1B4D614
+    // Offset: 0x1BED394
     System::Type* get_Type();
     // public UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation get_Location()
-    // Offset: 0x1B4B7FC
+    // Offset: 0x1BEB57C
     UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* get_Location();
     // public System.Int32 get_DependencyCount()
-    // Offset: 0x1B4ECC0
+    // Offset: 0x1BEEA40
     int get_DependencyCount();
     // System.Void .ctor(UnityEngine.ResourceManagement.ResourceManager rm, UnityEngine.ResourceManagement.AsyncOperations.IGenericProviderOperation op)
-    // Offset: 0x1B4EAE8
-    ProvideHandle(UnityEngine::ResourceManagement::ResourceManager* rm, UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation* op);
+    // Offset: 0x1BEE868
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    ProvideHandle(UnityEngine::ResourceManagement::ResourceManager* rm, UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation* op) {
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle::.ctor");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(rm), ::il2cpp_utils::ExtractType(op)})));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, rm, op);
+    }
     // public TDepObject GetDependency(System.Int32 index)
     // Offset: 0xFFFFFFFF
     template<class TDepObject>
@@ -128,19 +120,19 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle::GetDependency");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "GetDependency", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TDepObject>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(index)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TDepObject>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<TDepObject, false>(this, ___generic__method, index);
+      return ::il2cpp_utils::RunMethodThrow<TDepObject, false>(*this, ___generic__method, index);
     }
     // public System.Void GetDependencies(System.Collections.Generic.IList`1<System.Object> list)
-    // Offset: 0x1B4D548
+    // Offset: 0x1BED2C8
     void GetDependencies(System::Collections::Generic::IList_1<::Il2CppObject*>* list);
     // public System.Void SetProgressCallback(System.Func`1<System.Single> callback)
-    // Offset: 0x1B4B8B8
+    // Offset: 0x1BEB638
     void SetProgressCallback(System::Func_1<float>* callback);
     // public System.Void SetDownloadProgressCallbacks(System.Func`1<UnityEngine.ResourceManagement.AsyncOperations.DownloadStatus> callback)
-    // Offset: 0x1B4B984
+    // Offset: 0x1BEB704
     void SetDownloadProgressCallbacks(System::Func_1<UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus>* callback);
     // public System.Void SetWaitForCompletionCallback(System.Func`1<System.Boolean> callback)
-    // Offset: 0x1B4BA50
+    // Offset: 0x1BEB7D0
     void SetWaitForCompletionCallback(System::Func_1<bool>* callback);
     // public System.Void Complete(T result, System.Boolean status, System.Exception exception)
     // Offset: 0xFFFFFFFF
@@ -149,14 +141,15 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle::Complete");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "Complete", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result), ::il2cpp_utils::ExtractType(status), ::il2cpp_utils::ExtractType(exception)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, result, status, exception);
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___generic__method, result, status, exception);
     }
   }; // UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle
   #pragma pack(pop)
   static check_size<sizeof(ProvideHandle), 16 + sizeof(UnityEngine::ResourceManagement::ResourceManager*)> __UnityEngine_ResourceManagement_ResourceProviders_ProvideHandleSizeCheck;
   static_assert(sizeof(ProvideHandle) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle, "UnityEngine.ResourceManagement.ResourceProviders", "ProvideHandle");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle::get_InternalOp
 // Il2CppName: get_InternalOp
 template<>

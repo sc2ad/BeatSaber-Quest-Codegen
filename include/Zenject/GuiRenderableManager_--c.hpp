@@ -3,14 +3,14 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.GuiRenderableManager
 #include "Zenject/GuiRenderableManager.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -27,15 +27,12 @@ namespace ModestTree::Util {
   template<typename T1, typename T2>
   class ValuePair_2;
 }
-// Completed forward declares
-// Type namespace: Zenject
+// Forward declaring namespace: Zenject
 namespace Zenject {
-  // Forward declaring type: <>c
-  class $$c;
+  // Forward declaring type: InjectTypeInfo
+  class InjectTypeInfo;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::GuiRenderableManager::$$c);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::GuiRenderableManager::$$c*, "Zenject", "GuiRenderableManager/<>c");
+// Completed forward declares
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x10
@@ -45,6 +42,8 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class GuiRenderableManager::$$c : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: $$c
+    $$c() noexcept {}
     // Get static field: static public readonly Zenject.GuiRenderableManager/Zenject.<>c <>9
     static Zenject::GuiRenderableManager::$$c* _get_$$9();
     // Set static field: static public readonly Zenject.GuiRenderableManager/Zenject.<>c <>9
@@ -58,16 +57,22 @@ namespace Zenject {
     // Set static field: static public System.Func`2<Zenject.GuiRenderableManager/Zenject.RenderableInfo,System.Int32> <>9__1_0
     static void _set_$$9__1_0(System::Func_2<Zenject::GuiRenderableManager::RenderableInfo*, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x18179F0
+    // Offset: 0x1AB1BF0
     static void _cctor();
     // System.Int32 <.ctor>b__1_2(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x1817A5C
+    // Offset: 0x1AB1C5C
     int $_ctor$b__1_2(ModestTree::Util::ValuePair_2<System::Type*, int>* x);
     // System.Int32 <.ctor>b__1_0(Zenject.GuiRenderableManager/Zenject.RenderableInfo x)
-    // Offset: 0x1817A74
+    // Offset: 0x1AB1C74
     int $_ctor$b__1_0(Zenject::GuiRenderableManager::RenderableInfo* x);
+    // static private System.Object __zenCreate(System.Object[] P_0)
+    // Offset: 0x1AB1C8C
+    static ::Il2CppObject* __zenCreate(::Array<::Il2CppObject*>* P_0);
+    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
+    // Offset: 0x1AB1CE8
+    static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
-    // Offset: 0x1817A54
+    // Offset: 0x1AB1C54
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -78,7 +83,8 @@ namespace Zenject {
   }; // Zenject.GuiRenderableManager/Zenject.<>c
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Zenject::GuiRenderableManager::$$c*, "Zenject", "GuiRenderableManager/<>c");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::GuiRenderableManager::$$c::_cctor
 // Il2CppName: .cctor
 template<>
@@ -103,6 +109,23 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Zenjec
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("Zenject", "GuiRenderableManager/RenderableInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::GuiRenderableManager::$$c*), "<.ctor>b__1_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
+  }
+};
+// Writing MetadataGetter for method: Zenject::GuiRenderableManager::$$c::__zenCreate
+// Il2CppName: __zenCreate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Array<::Il2CppObject*>*)>(&Zenject::GuiRenderableManager::$$c::__zenCreate)> {
+  static const MethodInfo* get() {
+    static auto* P_0 = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::GuiRenderableManager::$$c*), "__zenCreate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{P_0});
+  }
+};
+// Writing MetadataGetter for method: Zenject::GuiRenderableManager::$$c::__zenCreateInjectTypeInfo
+// Il2CppName: __zenCreateInjectTypeInfo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo* (*)()>(&Zenject::GuiRenderableManager::$$c::__zenCreateInjectTypeInfo)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::GuiRenderableManager::$$c*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: Zenject::GuiRenderableManager::$$c::New_ctor

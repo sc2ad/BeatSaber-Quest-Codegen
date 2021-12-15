@@ -3,18 +3,10 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.UI.ILayoutController
 #include "UnityEngine/UI/ILayoutController.hpp"
 // Completed includes
-// Type namespace: UnityEngine.UI
-namespace UnityEngine::UI {
-  // Forward declaring type: ILayoutSelfController
-  class ILayoutSelfController;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::UI::ILayoutSelfController);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ILayoutSelfController*, "UnityEngine.UI", "ILayoutSelfController");
 // Type namespace: UnityEngine.UI
 namespace UnityEngine::UI {
   // Size: 0x10
@@ -23,6 +15,8 @@ namespace UnityEngine::UI {
   // [TokenAttribute] Offset: FFFFFFFF
   class ILayoutSelfController/*, public UnityEngine::UI::ILayoutController*/ {
     public:
+    // Creating value type constructor for type: ILayoutSelfController
+    ILayoutSelfController() noexcept {}
     // Creating interface conversion operator: operator UnityEngine::UI::ILayoutController
     operator UnityEngine::UI::ILayoutController() noexcept {
       return *reinterpret_cast<UnityEngine::UI::ILayoutController*>(this);
@@ -30,4 +24,6 @@ namespace UnityEngine::UI {
   }; // UnityEngine.UI.ILayoutSelfController
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ILayoutSelfController*, "UnityEngine.UI", "ILayoutSelfController");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

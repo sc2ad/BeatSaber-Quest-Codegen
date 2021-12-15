@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.NetworkCredential
 #include "System/Net/NetworkCredential.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Net
-namespace System::Net {
-  // Forward declaring type: SystemNetworkCredential
-  class SystemNetworkCredential;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::SystemNetworkCredential);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::SystemNetworkCredential*, "System.Net", "SystemNetworkCredential");
 // Type namespace: System.Net
 namespace System::Net {
   // Size: 0x28
@@ -28,15 +20,17 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class SystemNetworkCredential : public System::Net::NetworkCredential {
     public:
+    // Creating value type constructor for type: SystemNetworkCredential
+    SystemNetworkCredential() noexcept {}
     // Get static field: static readonly System.Net.SystemNetworkCredential defaultCredential
     static System::Net::SystemNetworkCredential* _get_defaultCredential();
     // Set static field: static readonly System.Net.SystemNetworkCredential defaultCredential
     static void _set_defaultCredential(System::Net::SystemNetworkCredential* value);
     // static private System.Void .cctor()
-    // Offset: 0x175A668
+    // Offset: 0x17E68A4
     static void _cctor();
     // private System.Void .ctor()
-    // Offset: 0x175A604
+    // Offset: 0x17E6840
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -47,7 +41,8 @@ namespace System::Net {
   }; // System.Net.SystemNetworkCredential
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::SystemNetworkCredential*, "System.Net", "SystemNetworkCredential");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::SystemNetworkCredential::_cctor
 // Il2CppName: .cctor
 template<>

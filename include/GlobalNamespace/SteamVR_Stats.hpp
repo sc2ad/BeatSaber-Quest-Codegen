@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: SteamVR_Stats
-  class SteamVR_Stats;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::SteamVR_Stats);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Stats*, "", "SteamVR_Stats");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x18
@@ -29,11 +21,13 @@ namespace GlobalNamespace {
   // [ExecuteInEditMode] Offset: FFFFFFFF
   class SteamVR_Stats : public UnityEngine::MonoBehaviour {
     public:
+    // Creating value type constructor for type: SteamVR_Stats
+    SteamVR_Stats() noexcept {}
     // private System.Void Awake()
-    // Offset: 0x1530D44
+    // Offset: 0x15CA130
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0x1530DE0
+    // Offset: 0x15CA1CC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -48,7 +42,8 @@ namespace GlobalNamespace {
   }; // SteamVR_Stats
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Stats*, "", "SteamVR_Stats");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Stats::Awake
 // Il2CppName: Awake
 template<>

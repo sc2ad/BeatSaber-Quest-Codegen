@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.RangeValuesTextSlider
 #include "HMUI/RangeValuesTextSlider.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: HMUI
-namespace HMUI {
-  // Forward declaring type: TimeSlider
-  class TimeSlider;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HMUI::TimeSlider);
-DEFINE_IL2CPP_ARG_TYPE(HMUI::TimeSlider*, "HMUI", "TimeSlider");
 // Type namespace: HMUI
 namespace HMUI {
   // WARNING Size may be invalid!
@@ -35,18 +27,12 @@ namespace HMUI {
     // [TokenAttribute] Offset: FFFFFFFF
     struct TimeType/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: TimeType
       constexpr TimeType(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -75,22 +61,18 @@ namespace HMUI {
     #pragma pack(pop)
     static check_size<sizeof(TimeSlider::TimeType), 0 + sizeof(int)> __HMUI_TimeSlider_TimeTypeSizeCheck;
     static_assert(sizeof(TimeSlider::TimeType) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private HMUI.TimeSlider/HMUI.TimeType _timeType
     // Size: 0x4
     // Offset: 0x168
     HMUI::TimeSlider::TimeType timeType;
     // Field size check
     static_assert(sizeof(HMUI::TimeSlider::TimeType) == 0x4);
-    public:
+    // Creating value type constructor for type: TimeSlider
+    TimeSlider(HMUI::TimeSlider::TimeType timeType_ = {}) noexcept : timeType{timeType_} {}
     // Get instance field reference: private HMUI.TimeSlider/HMUI.TimeType _timeType
     HMUI::TimeSlider::TimeType& dyn__timeType();
     // public System.Void .ctor()
-    // Offset: 0x1405390
+    // Offset: 0x14D3BFC
     // Implemented from: HMUI.RangeValuesTextSlider
     // Base method: System.Void RangeValuesTextSlider::.ctor()
     // Base method: System.Void TextSlider::.ctor()
@@ -107,16 +89,16 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<TimeSlider*, creationType>()));
     }
     // protected override System.String TextForValue(System.Single value)
-    // Offset: 0x14051D8
+    // Offset: 0x14D3A44
     // Implemented from: HMUI.RangeValuesTextSlider
     // Base method: System.String RangeValuesTextSlider::TextForValue(System.Single value)
     ::Il2CppString* TextForValue(float value);
   }; // HMUI.TimeSlider
   // WARNING Not writing size check since size may be invalid!
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HMUI::TimeSlider*, "HMUI", "TimeSlider");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TimeSlider::TimeType, "HMUI", "TimeSlider/TimeType");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::TimeSlider::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

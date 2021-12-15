@@ -3,18 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ParticleSystem
 #include "UnityEngine/ParticleSystem.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: EmissionModule
-  struct EmissionModule;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::EmissionModule, "UnityEngine", "ParticleSystem/EmissionModule");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x8
@@ -24,18 +21,12 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ParticleSystem::EmissionModule/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // UnityEngine.ParticleSystem m_ParticleSystem
     // Size: 0x8
     // Offset: 0x0
     UnityEngine::ParticleSystem* m_ParticleSystem;
     // Field size check
     static_assert(sizeof(UnityEngine::ParticleSystem*) == 0x8);
-    public:
     // Creating value type constructor for type: EmissionModule
     constexpr EmissionModule(UnityEngine::ParticleSystem* m_ParticleSystem_ = {}) noexcept : m_ParticleSystem{m_ParticleSystem_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -49,26 +40,28 @@ namespace UnityEngine {
     // Get instance field reference: UnityEngine.ParticleSystem m_ParticleSystem
     UnityEngine::ParticleSystem*& dyn_m_ParticleSystem();
     // public System.Boolean get_enabled()
-    // Offset: 0x2604570
+    // Offset: 0x26C7598
     bool get_enabled();
     // public System.Void set_enabled(System.Boolean value)
-    // Offset: 0x26045F0
+    // Offset: 0x26C7618
     void set_enabled(bool value);
     // System.Void .ctor(UnityEngine.ParticleSystem particleSystem)
-    // Offset: 0x2604548
-    // ABORTED: conflicts with another method.  EmissionModule(UnityEngine::ParticleSystem* particleSystem);
+    // Offset: 0x26C7570
+    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    // ABORTED: conflicts with another method.  EmissionModule(UnityEngine::ParticleSystem* particleSystem)
     // static private System.Boolean get_enabled_Injected(ref UnityEngine.ParticleSystem/UnityEngine.EmissionModule _unity_self)
-    // Offset: 0x26045B0
+    // Offset: 0x26C75D8
     static bool get_enabled_Injected(ByRef<UnityEngine::ParticleSystem::EmissionModule> _unity_self);
     // static private System.Void set_enabled_Injected(ref UnityEngine.ParticleSystem/UnityEngine.EmissionModule _unity_self, System.Boolean value)
-    // Offset: 0x2604640
+    // Offset: 0x26C7668
     static void set_enabled_Injected(ByRef<UnityEngine::ParticleSystem::EmissionModule> _unity_self, bool value);
   }; // UnityEngine.ParticleSystem/UnityEngine.EmissionModule
   #pragma pack(pop)
   static check_size<sizeof(ParticleSystem::EmissionModule), 0 + sizeof(UnityEngine::ParticleSystem*)> __UnityEngine_ParticleSystem_EmissionModuleSizeCheck;
   static_assert(sizeof(ParticleSystem::EmissionModule) == 0x8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::EmissionModule, "UnityEngine", "ParticleSystem/EmissionModule");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::EmissionModule::get_enabled
 // Il2CppName: get_enabled
 template<>

@@ -3,16 +3,16 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Single
 #include "System/Single.hpp"
 // Including type: HMUI.ViewController
 #include "HMUI/ViewController.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HMUI
@@ -30,14 +30,6 @@ namespace System {
   class Action_1;
 }
 // Completed forward declares
-// Type namespace: HMUI
-namespace HMUI {
-  // Forward declaring type: ViewControllerTransitionHelpers
-  class ViewControllerTransitionHelpers;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HMUI::ViewControllerTransitionHelpers);
-DEFINE_IL2CPP_ARG_TYPE(HMUI::ViewControllerTransitionHelpers*, "HMUI", "ViewControllerTransitionHelpers");
 // Type namespace: HMUI
 namespace HMUI {
   // Size: 0x10
@@ -60,6 +52,8 @@ namespace HMUI {
     class $DoVerticalTransition$d__6;
     // Nested type: HMUI::ViewControllerTransitionHelpers::$AnimationCoroutine$d__8
     class $AnimationCoroutine$d__8;
+    // Creating value type constructor for type: ViewControllerTransitionHelpers
+    ViewControllerTransitionHelpers() noexcept {}
     // static field const value: static private System.Single kTransitionDuration
     static constexpr const float kTransitionDuration = 0.4;
     // Get static field: static private System.Single kTransitionDuration
@@ -79,25 +73,25 @@ namespace HMUI {
     // Set static field: static private System.Single kVerticalTransitionMoveOffset
     static void _set_kVerticalTransitionMoveOffset(float value);
     // static public System.Collections.IEnumerator DoPresentTransition(HMUI.ViewController toPresentViewController, HMUI.ViewController toDismissViewController, HMUI.ViewController/HMUI.AnimationDirection animationDirection, System.Single moveOffsetMultiplier)
-    // Offset: 0x2597BF8
+    // Offset: 0x264D06C
     static System::Collections::IEnumerator* DoPresentTransition(HMUI::ViewController* toPresentViewController, HMUI::ViewController* toDismissViewController, HMUI::ViewController::AnimationDirection animationDirection, float moveOffsetMultiplier);
     // static public System.Collections.IEnumerator DoDismissTransition(HMUI.ViewController toPresentViewController, HMUI.ViewController toDismissViewController, HMUI.ViewController/HMUI.AnimationDirection animationDirection, System.Single moveOffsetMultiplier)
-    // Offset: 0x25977A0
+    // Offset: 0x264CC48
     static System::Collections::IEnumerator* DoDismissTransition(HMUI::ViewController* toPresentViewController, HMUI::ViewController* toDismissViewController, HMUI::ViewController::AnimationDirection animationDirection, float moveOffsetMultiplier);
     // static private System.Collections.IEnumerator DoHorizontalTransition(HMUI.ViewController toPresentViewController, HMUI.ViewController toDismissViewController, System.Single moveOffsetMultiplier)
-    // Offset: 0x2598748
+    // Offset: 0x264D650
     static System::Collections::IEnumerator* DoHorizontalTransition(HMUI::ViewController* toPresentViewController, HMUI::ViewController* toDismissViewController, float moveOffsetMultiplier);
     // static private System.Collections.IEnumerator DoVerticalTransition(HMUI.ViewController toPresentViewController, HMUI.ViewController toDismissViewController, System.Single moveOffsetMultiplier)
-    // Offset: 0x2598800
+    // Offset: 0x264D708
     static System::Collections::IEnumerator* DoVerticalTransition(HMUI::ViewController* toPresentViewController, HMUI::ViewController* toDismissViewController, float moveOffsetMultiplier);
     // static public System.Void ImmediateTransition(HMUI.ViewController toPresentViewController, HMUI.ViewController toDismissViewController)
-    // Offset: 0x2597834
+    // Offset: 0x264CCDC
     static void ImmediateTransition(HMUI::ViewController* toPresentViewController, HMUI::ViewController* toDismissViewController);
     // static private System.Collections.IEnumerator AnimationCoroutine(System.Action`1<System.Single> transitionAnimation)
-    // Offset: 0x25988B8
+    // Offset: 0x264D7C0
     static System::Collections::IEnumerator* AnimationCoroutine(System::Action_1<float>* transitionAnimation);
     // public System.Void .ctor()
-    // Offset: 0x2598954
+    // Offset: 0x264D85C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -108,7 +102,8 @@ namespace HMUI {
   }; // HMUI.ViewControllerTransitionHelpers
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HMUI::ViewControllerTransitionHelpers*, "HMUI", "ViewControllerTransitionHelpers");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::ViewControllerTransitionHelpers::DoPresentTransition
 // Il2CppName: DoPresentTransition
 template<>

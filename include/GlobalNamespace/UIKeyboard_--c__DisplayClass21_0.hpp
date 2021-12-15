@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UIKeyboard
 #include "GlobalNamespace/UIKeyboard.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <>c__DisplayClass21_0
-  class $$c__DisplayClass21_0;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::UIKeyboard::$$c__DisplayClass21_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UIKeyboard::$$c__DisplayClass21_0*, "", "UIKeyboard/<>c__DisplayClass21_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -29,11 +21,6 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class UIKeyboard::$$c__DisplayClass21_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.String key
     // Size: 0x8
     // Offset: 0x10
@@ -46,16 +33,17 @@ namespace GlobalNamespace {
     GlobalNamespace::UIKeyboard* $$4__this;
     // Field size check
     static_assert(sizeof(GlobalNamespace::UIKeyboard*) == 0x8);
-    public:
+    // Creating value type constructor for type: $$c__DisplayClass21_0
+    $$c__DisplayClass21_0(::Il2CppString* key_ = {}, GlobalNamespace::UIKeyboard* $$4__this_ = {}) noexcept : key{key_}, $$4__this{$$4__this_} {}
     // Get instance field reference: public System.String key
     ::Il2CppString*& dyn_key();
     // Get instance field reference: public UIKeyboard <>4__this
     GlobalNamespace::UIKeyboard*& dyn_$$4__this();
     // System.Void <Awake>b__4()
-    // Offset: 0x1267A28
+    // Offset: 0x120E2FC
     void $Awake$b__4();
     // public System.Void .ctor()
-    // Offset: 0x1267968
+    // Offset: 0x120E23C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -68,7 +56,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(UIKeyboard::$$c__DisplayClass21_0), 24 + sizeof(GlobalNamespace::UIKeyboard*)> __GlobalNamespace_UIKeyboard_$$c__DisplayClass21_0SizeCheck;
   static_assert(sizeof(UIKeyboard::$$c__DisplayClass21_0) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UIKeyboard::$$c__DisplayClass21_0*, "", "UIKeyboard/<>c__DisplayClass21_0");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::UIKeyboard::$$c__DisplayClass21_0::$Awake$b__4
 // Il2CppName: <Awake>b__4
 template<>

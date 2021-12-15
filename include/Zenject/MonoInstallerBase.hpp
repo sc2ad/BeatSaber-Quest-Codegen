@@ -3,32 +3,26 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: Zenject.IInstaller
 #include "Zenject/IInstaller.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Zenject
 namespace Zenject {
   // Forward declaring type: DiContainer
   class DiContainer;
+  // Forward declaring type: InjectTypeInfo
+  class InjectTypeInfo;
 }
 // Completed forward declares
-// Type namespace: Zenject
-namespace Zenject {
-  // Forward declaring type: MonoInstallerBase
-  class MonoInstallerBase;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::MonoInstallerBase);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::MonoInstallerBase*, "Zenject", "MonoInstallerBase");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x20
@@ -38,18 +32,14 @@ namespace Zenject {
   // [DebuggerStepThroughAttribute] Offset: FFFFFFFF
   class MonoInstallerBase : public UnityEngine::MonoBehaviour/*, public Zenject::IInstaller*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private Zenject.DiContainer <Container>k__BackingField
     // Size: 0x8
     // Offset: 0x18
     Zenject::DiContainer* Container;
     // Field size check
     static_assert(sizeof(Zenject::DiContainer*) == 0x8);
-    public:
+    // Creating value type constructor for type: MonoInstallerBase
+    MonoInstallerBase(Zenject::DiContainer* Container_ = {}) noexcept : Container{Container_} {}
     // Creating interface conversion operator: operator Zenject::IInstaller
     operator Zenject::IInstaller() noexcept {
       return *reinterpret_cast<Zenject::IInstaller*>(this);
@@ -59,22 +49,28 @@ namespace Zenject {
     // Get instance field reference: private Zenject.DiContainer <Container>k__BackingField
     Zenject::DiContainer*& dyn_$Container$k__BackingField();
     // protected Zenject.DiContainer get_Container()
-    // Offset: 0x187C658
+    // Offset: 0x18DB1D4
     Zenject::DiContainer* get_Container();
     // protected System.Void set_Container(Zenject.DiContainer value)
-    // Offset: 0x187C660
+    // Offset: 0x18DB1DC
     void set_Container(Zenject::DiContainer* value);
     // public System.Boolean get_IsEnabled()
-    // Offset: 0x187C668
+    // Offset: 0x18DB1E4
     bool get_IsEnabled();
     // public System.Void Start()
-    // Offset: 0x187C670
+    // Offset: 0x18DB1EC
     void Start();
     // public System.Void InstallBindings()
-    // Offset: 0x187C674
+    // Offset: 0x18DB1F0
     void InstallBindings();
+    // static private System.Void __zenPropertySetter0(System.Object P_0, System.Object P_1)
+    // Offset: 0x18DB250
+    static void __zenPropertySetter0(::Il2CppObject* P_0, ::Il2CppObject* P_1);
+    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
+    // Offset: 0x18DB324
+    static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
-    // Offset: 0x187C650
+    // Offset: 0x18DB098
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -91,7 +87,8 @@ namespace Zenject {
   static check_size<sizeof(MonoInstallerBase), 24 + sizeof(Zenject::DiContainer*)> __Zenject_MonoInstallerBaseSizeCheck;
   static_assert(sizeof(MonoInstallerBase) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Zenject::MonoInstallerBase*, "Zenject", "MonoInstallerBase");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::MonoInstallerBase::get_Container
 // Il2CppName: get_Container
 template<>
@@ -131,6 +128,24 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::MonoInstallerBase::*)()>(&Zenject::MonoInstallerBase::InstallBindings)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::MonoInstallerBase*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Zenject::MonoInstallerBase::__zenPropertySetter0
+// Il2CppName: __zenPropertySetter0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::Il2CppObject*)>(&Zenject::MonoInstallerBase::__zenPropertySetter0)> {
+  static const MethodInfo* get() {
+    static auto* P_0 = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    static auto* P_1 = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::MonoInstallerBase*), "__zenPropertySetter0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{P_0, P_1});
+  }
+};
+// Writing MetadataGetter for method: Zenject::MonoInstallerBase::__zenCreateInjectTypeInfo
+// Il2CppName: __zenCreateInjectTypeInfo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo* (*)()>(&Zenject::MonoInstallerBase::__zenCreateInjectTypeInfo)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::MonoInstallerBase*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: Zenject::MonoInstallerBase::New_ctor

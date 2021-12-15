@@ -3,16 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: NUnit.Framework.Internal.Execution
-namespace NUnit::Framework::Internal::Execution {
-  // Forward declaring type: IWorkItemDispatcher
-  class IWorkItemDispatcher;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(NUnit::Framework::Internal::Execution::IWorkItemDispatcher);
-DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Execution::IWorkItemDispatcher*, "NUnit.Framework.Internal.Execution", "IWorkItemDispatcher");
 // Type namespace: NUnit.Framework.Internal.Execution
 namespace NUnit::Framework::Internal::Execution {
   // Size: 0x10
@@ -21,7 +13,11 @@ namespace NUnit::Framework::Internal::Execution {
   // [TokenAttribute] Offset: FFFFFFFF
   class IWorkItemDispatcher {
     public:
+    // Creating value type constructor for type: IWorkItemDispatcher
+    IWorkItemDispatcher() noexcept {}
   }; // NUnit.Framework.Internal.Execution.IWorkItemDispatcher
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Execution::IWorkItemDispatcher*, "NUnit.Framework.Internal.Execution", "IWorkItemDispatcher");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

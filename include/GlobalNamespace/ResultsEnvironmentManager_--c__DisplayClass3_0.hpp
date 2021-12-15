@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: ResultsEnvironmentManager
 #include "GlobalNamespace/ResultsEnvironmentManager.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <>c__DisplayClass3_0
-  class $$c__DisplayClass3_0;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::ResultsEnvironmentManager::$$c__DisplayClass3_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResultsEnvironmentManager::$$c__DisplayClass3_0*, "", "ResultsEnvironmentManager/<>c__DisplayClass3_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x18
@@ -29,18 +21,14 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class ResultsEnvironmentManager::$$c__DisplayClass3_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.String keyword
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppString* keyword;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: $$c__DisplayClass3_0
+    $$c__DisplayClass3_0(::Il2CppString* keyword_ = {}) noexcept : keyword{keyword_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return keyword;
@@ -48,10 +36,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.String keyword
     ::Il2CppString*& dyn_keyword();
     // System.Boolean <GetResultEnvironmentControllerForKeyword>b__0(ResultsEnvironmentManager/ResultEnvironmentControllerWithKeyword controllerWithKeyword)
-    // Offset: 0x1194D1C
+    // Offset: 0x11B5244
     bool $GetResultEnvironmentControllerForKeyword$b__0(GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword* controllerWithKeyword);
     // public System.Void .ctor()
-    // Offset: 0x1194BB4
+    // Offset: 0x11B50DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -64,7 +52,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(ResultsEnvironmentManager::$$c__DisplayClass3_0), 16 + sizeof(::Il2CppString*)> __GlobalNamespace_ResultsEnvironmentManager_$$c__DisplayClass3_0SizeCheck;
   static_assert(sizeof(ResultsEnvironmentManager::$$c__DisplayClass3_0) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResultsEnvironmentManager::$$c__DisplayClass3_0*, "", "ResultsEnvironmentManager/<>c__DisplayClass3_0");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ResultsEnvironmentManager::$$c__DisplayClass3_0::$GetResultEnvironmentControllerForKeyword$b__0
 // Il2CppName: <GetResultEnvironmentControllerForKeyword>b__0
 template<>

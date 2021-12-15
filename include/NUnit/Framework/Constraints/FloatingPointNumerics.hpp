@@ -3,22 +3,14 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Constraints
 namespace NUnit::Framework::Constraints {
 }
 // Completed forward declares
-// Type namespace: NUnit.Framework.Constraints
-namespace NUnit::Framework::Constraints {
-  // Forward declaring type: FloatingPointNumerics
-  class FloatingPointNumerics;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(NUnit::Framework::Constraints::FloatingPointNumerics);
-DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::FloatingPointNumerics*, "NUnit.Framework.Constraints", "FloatingPointNumerics");
 // Type namespace: NUnit.Framework.Constraints
 namespace NUnit::Framework::Constraints {
   // Size: 0x10
@@ -31,16 +23,20 @@ namespace NUnit::Framework::Constraints {
     struct FloatIntUnion;
     // Nested type: NUnit::Framework::Constraints::FloatingPointNumerics::DoubleLongUnion
     struct DoubleLongUnion;
+    // Creating value type constructor for type: FloatingPointNumerics
+    FloatingPointNumerics() noexcept {}
     // static public System.Boolean AreAlmostEqualUlps(System.Single left, System.Single right, System.Int32 maxUlps)
-    // Offset: 0x1914344
+    // Offset: 0x1939508
     static bool AreAlmostEqualUlps(float left, float right, int maxUlps);
     // static public System.Boolean AreAlmostEqualUlps(System.Double left, System.Double right, System.Int64 maxUlps)
-    // Offset: 0x1914464
+    // Offset: 0x1939628
     static bool AreAlmostEqualUlps(double left, double right, int64_t maxUlps);
   }; // NUnit.Framework.Constraints.FloatingPointNumerics
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::FloatingPointNumerics*, "NUnit.Framework.Constraints", "FloatingPointNumerics");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::FloatingPointNumerics::AreAlmostEqualUlps
 // Il2CppName: AreAlmostEqualUlps
 template<>

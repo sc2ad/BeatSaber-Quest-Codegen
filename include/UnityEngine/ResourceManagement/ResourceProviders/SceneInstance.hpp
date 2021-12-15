@@ -3,7 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: UnityEngine.SceneManagement.Scene
@@ -21,13 +21,6 @@ struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.ResourceManagement.ResourceProviders
 namespace UnityEngine::ResourceManagement::ResourceProviders {
-  // Forward declaring type: SceneInstance
-  struct SceneInstance;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::SceneInstance, "UnityEngine.ResourceManagement.ResourceProviders", "SceneInstance");
-// Type namespace: UnityEngine.ResourceManagement.ResourceProviders
-namespace UnityEngine::ResourceManagement::ResourceProviders {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -35,11 +28,6 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   // [TokenAttribute] Offset: FFFFFFFF
   struct SceneInstance/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private UnityEngine.SceneManagement.Scene m_Scene
     // Size: 0x4
     // Offset: 0x0
@@ -54,7 +42,6 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     UnityEngine::AsyncOperation* m_Operation;
     // Field size check
     static_assert(sizeof(UnityEngine::AsyncOperation*) == 0x8);
-    public:
     // Creating value type constructor for type: SceneInstance
     constexpr SceneInstance(UnityEngine::SceneManagement::Scene m_Scene_ = {}, UnityEngine::AsyncOperation* m_Operation_ = {}) noexcept : m_Scene{m_Scene_}, m_Operation{m_Operation_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -66,24 +53,24 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     // Get instance field reference: UnityEngine.AsyncOperation m_Operation
     UnityEngine::AsyncOperation*& dyn_m_Operation();
     // public UnityEngine.SceneManagement.Scene get_Scene()
-    // Offset: 0x1B4F1AC
+    // Offset: 0x1BEEF2C
     UnityEngine::SceneManagement::Scene get_Scene();
     // System.Void set_Scene(UnityEngine.SceneManagement.Scene value)
-    // Offset: 0x1B4F1B4
+    // Offset: 0x1BEEF34
     void set_Scene(UnityEngine::SceneManagement::Scene value);
     // public System.Void Activate()
-    // Offset: 0x1B4F1BC
+    // Offset: 0x1BEEF3C
     void Activate();
     // public UnityEngine.AsyncOperation ActivateAsync()
-    // Offset: 0x1B4F1DC
+    // Offset: 0x1BEEF5C
     UnityEngine::AsyncOperation* ActivateAsync();
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1B4F214
+    // Offset: 0x1BEEF94
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1B4F240
+    // Offset: 0x1BEEFC0
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
@@ -92,7 +79,9 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   static check_size<sizeof(SceneInstance), 8 + sizeof(UnityEngine::AsyncOperation*)> __UnityEngine_ResourceManagement_ResourceProviders_SceneInstanceSizeCheck;
   static_assert(sizeof(SceneInstance) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::SceneInstance, "UnityEngine.ResourceManagement.ResourceProviders", "SceneInstance");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::SceneInstance::get_Scene
 // Il2CppName: get_Scene
 template<>

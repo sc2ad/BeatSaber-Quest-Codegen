@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Runtime.Remoting.RemotingServices
 #include "System/Runtime/Remoting/RemotingServices.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Runtime.Remoting
-namespace System::Runtime::Remoting {
-  // Forward declaring type: CACD
-  class CACD;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Remoting::RemotingServices::CACD);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::RemotingServices::CACD*, "System.Runtime.Remoting", "RemotingServices/CACD");
 // Type namespace: System.Runtime.Remoting
 namespace System::Runtime::Remoting {
   // Size: 0x20
@@ -28,11 +20,6 @@ namespace System::Runtime::Remoting {
   // [TokenAttribute] Offset: FFFFFFFF
   class RemotingServices::CACD : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Object d
     // Size: 0x8
     // Offset: 0x10
@@ -45,13 +32,14 @@ namespace System::Runtime::Remoting {
     ::Il2CppObject* c;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    public:
+    // Creating value type constructor for type: CACD
+    CACD(::Il2CppObject* d_ = {}, ::Il2CppObject* c_ = {}) noexcept : d{d_}, c{c_} {}
     // Get instance field reference: public System.Object d
     ::Il2CppObject*& dyn_d();
     // Get instance field reference: public System.Object c
     ::Il2CppObject*& dyn_c();
     // public System.Void .ctor()
-    // Offset: 0x17C60BC
+    // Offset: 0x18549D0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -64,7 +52,8 @@ namespace System::Runtime::Remoting {
   static check_size<sizeof(RemotingServices::CACD), 24 + sizeof(::Il2CppObject*)> __System_Runtime_Remoting_RemotingServices_CACDSizeCheck;
   static_assert(sizeof(RemotingServices::CACD) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::RemotingServices::CACD*, "System.Runtime.Remoting", "RemotingServices/CACD");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::RemotingServices::CACD::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

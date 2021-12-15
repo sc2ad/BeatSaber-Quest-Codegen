@@ -3,27 +3,19 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.UI.CoroutineTween.ColorTween
 #include "UnityEngine/UI/CoroutineTween/ColorTween.hpp"
 // Including type: UnityEngine.Events.UnityEvent`1
 #include "UnityEngine/Events/UnityEvent_1.hpp"
 // Including type: UnityEngine.Color
 #include "UnityEngine/Color.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: UnityEngine.UI.CoroutineTween
-namespace UnityEngine::UI::CoroutineTween {
-  // Forward declaring type: ColorTweenCallback
-  class ColorTweenCallback;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::UI::CoroutineTween::ColorTween::ColorTweenCallback);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CoroutineTween::ColorTween::ColorTweenCallback*, "UnityEngine.UI.CoroutineTween", "ColorTween/ColorTweenCallback");
 // Type namespace: UnityEngine.UI.CoroutineTween
 namespace UnityEngine::UI::CoroutineTween {
   // WARNING Size may be invalid!
@@ -31,8 +23,10 @@ namespace UnityEngine::UI::CoroutineTween {
   // [TokenAttribute] Offset: FFFFFFFF
   class ColorTween::ColorTweenCallback : public UnityEngine::Events::UnityEvent_1<UnityEngine::Color> {
     public:
+    // Creating value type constructor for type: ColorTweenCallback
+    ColorTweenCallback() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x15E0C68
+    // Offset: 0x166FF5C
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent_1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()
@@ -44,7 +38,8 @@ namespace UnityEngine::UI::CoroutineTween {
     }
   }; // UnityEngine.UI.CoroutineTween.ColorTween/UnityEngine.UI.CoroutineTween.ColorTweenCallback
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CoroutineTween::ColorTween::ColorTweenCallback*, "UnityEngine.UI.CoroutineTween", "ColorTween/ColorTweenCallback");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::CoroutineTween::ColorTween::ColorTweenCallback::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

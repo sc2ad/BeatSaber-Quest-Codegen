@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.IEquatable`1
@@ -15,6 +15,10 @@
 #include "GlobalNamespace/GameplayModifierMask.hpp"
 // Including type: SongPackMask
 #include "GlobalNamespace/SongPackMask.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: LiteNetLib::Utils
@@ -27,13 +31,6 @@ namespace LiteNetLib::Utils {
 // Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
-  // Forward declaring type: BeatmapLevelSelectionMask
-  struct BeatmapLevelSelectionMask;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelSelectionMask, "", "BeatmapLevelSelectionMask");
-// Type namespace: 
-namespace GlobalNamespace {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -42,11 +39,6 @@ namespace GlobalNamespace {
   // [IsReadOnlyAttribute] Offset: FFFFFFFF
   struct BeatmapLevelSelectionMask/*, public System::ValueType, public System::IEquatable_1<GlobalNamespace::BeatmapLevelSelectionMask>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public readonly BeatmapDifficultyMask difficulties
     // Size: 0x1
     // Offset: 0x0
@@ -69,7 +61,6 @@ namespace GlobalNamespace {
     GlobalNamespace::SongPackMask songPacks;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SongPackMask) == 0x10);
-    public:
     // Creating value type constructor for type: BeatmapLevelSelectionMask
     constexpr BeatmapLevelSelectionMask(GlobalNamespace::BeatmapDifficultyMask difficulties_ = {}, GlobalNamespace::GameplayModifierMask modifiers_ = {}, GlobalNamespace::SongPackMask songPacks_ = {}) noexcept : difficulties{difficulties_}, modifiers{modifiers_}, songPacks{songPacks_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -87,24 +78,25 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly SongPackMask songPacks
     GlobalNamespace::SongPackMask& dyn_songPacks();
     // public System.Void .ctor(BeatmapDifficultyMask difficulties, GameplayModifierMask modifiers, SongPackMask songPacks)
-    // Offset: 0x1431AB4
-    // ABORTED: conflicts with another method.  BeatmapLevelSelectionMask(GlobalNamespace::BeatmapDifficultyMask difficulties, GlobalNamespace::GameplayModifierMask modifiers, GlobalNamespace::SongPackMask songPacks);
+    // Offset: 0x155C79C
+    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    // ABORTED: conflicts with another method.  BeatmapLevelSelectionMask(GlobalNamespace::BeatmapDifficultyMask difficulties, GlobalNamespace::GameplayModifierMask modifiers, GlobalNamespace::SongPackMask songPacks)
     // public System.Boolean Equals(BeatmapLevelSelectionMask other)
-    // Offset: 0x1431B64
+    // Offset: 0x155C84C
     bool Equals(GlobalNamespace::BeatmapLevelSelectionMask other);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer, System.UInt32 version)
-    // Offset: 0x1431CD0
+    // Offset: 0x155C9B8
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer, uint version);
     // static public BeatmapLevelSelectionMask Deserialize(LiteNetLib.Utils.NetDataReader reader, System.UInt32 version)
-    // Offset: 0x1431D24
+    // Offset: 0x155CA0C
     static GlobalNamespace::BeatmapLevelSelectionMask Deserialize(LiteNetLib::Utils::NetDataReader* reader, uint version);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1431AC4
+    // Offset: 0x155C7AC
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1431C9C
+    // Offset: 0x155C984
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
@@ -113,13 +105,14 @@ namespace GlobalNamespace {
   static check_size<sizeof(BeatmapLevelSelectionMask), 8 + sizeof(GlobalNamespace::SongPackMask)> __GlobalNamespace_BeatmapLevelSelectionMaskSizeCheck;
   static_assert(sizeof(BeatmapLevelSelectionMask) == 0x18);
   // static public System.Boolean op_Equality(BeatmapLevelSelectionMask l, BeatmapLevelSelectionMask r)
-  // Offset: 0x1431D8C
+  // Offset: 0x155CA74
   bool operator ==(const GlobalNamespace::BeatmapLevelSelectionMask& l, const GlobalNamespace::BeatmapLevelSelectionMask& r);
   // static public System.Boolean op_Inequality(BeatmapLevelSelectionMask l, BeatmapLevelSelectionMask r)
-  // Offset: 0x1431DCC
+  // Offset: 0x155CAB4
   bool operator !=(const GlobalNamespace::BeatmapLevelSelectionMask& l, const GlobalNamespace::BeatmapLevelSelectionMask& r);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelSelectionMask, "", "BeatmapLevelSelectionMask");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelSelectionMask::BeatmapLevelSelectionMask
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

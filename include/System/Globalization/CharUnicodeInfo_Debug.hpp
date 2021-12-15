@@ -3,19 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Globalization.CharUnicodeInfo
 #include "System/Globalization/CharUnicodeInfo.hpp"
 // Completed includes
-// Type namespace: System.Globalization
-namespace System::Globalization {
-  // Forward declaring type: Debug
-  class Debug;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Globalization::CharUnicodeInfo::Debug);
-DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CharUnicodeInfo::Debug*, "System.Globalization", "CharUnicodeInfo/Debug");
 // Type namespace: System.Globalization
 namespace System::Globalization {
   // Size: 0x10
@@ -24,13 +16,17 @@ namespace System::Globalization {
   // [TokenAttribute] Offset: FFFFFFFF
   class CharUnicodeInfo::Debug : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: Debug
+    Debug() noexcept {}
     // static System.Void Assert(System.Boolean condition, System.String message)
-    // Offset: 0x1990184
+    // Offset: 0x19AE834
     static void Assert_(bool condition, ::Il2CppString* message);
   }; // System.Globalization.CharUnicodeInfo/System.Globalization.Debug
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CharUnicodeInfo::Debug*, "System.Globalization", "CharUnicodeInfo/Debug");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Globalization::CharUnicodeInfo::Debug::Assert_
 // Il2CppName: Assert
 template<>

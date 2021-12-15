@@ -3,20 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct Il2CppObject;
 // Completed il2cpp-utils forward declares
-// Type namespace: System.Runtime.CompilerServices
-namespace System::Runtime::CompilerServices {
-  // Forward declaring type: Ephemeron
-  struct Ephemeron;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::Ephemeron, "System.Runtime.CompilerServices", "Ephemeron");
 // Type namespace: System.Runtime.CompilerServices
 namespace System::Runtime::CompilerServices {
   // Size: 0x10
@@ -26,11 +19,6 @@ namespace System::Runtime::CompilerServices {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Ephemeron/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // System.Object key
     // Size: 0x8
     // Offset: 0x0
@@ -43,7 +31,6 @@ namespace System::Runtime::CompilerServices {
     ::Il2CppObject* value;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    public:
     // Creating value type constructor for type: Ephemeron
     constexpr Ephemeron(::Il2CppObject* key_ = {}, ::Il2CppObject* value_ = {}) noexcept : key{key_}, value{value_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -59,4 +46,6 @@ namespace System::Runtime::CompilerServices {
   static check_size<sizeof(Ephemeron), 8 + sizeof(::Il2CppObject*)> __System_Runtime_CompilerServices_EphemeronSizeCheck;
   static_assert(sizeof(Ephemeron) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::Ephemeron, "System.Runtime.CompilerServices", "Ephemeron");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

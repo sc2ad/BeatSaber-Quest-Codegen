@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: TMPro.TMP_TextElement_Legacy
 #include "TMPro/TMP_TextElement_Legacy.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: TMPro
-namespace TMPro {
-  // Forward declaring type: TMP_Glyph
-  class TMP_Glyph;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(TMPro::TMP_Glyph);
-DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Glyph*, "TMPro", "TMP_Glyph");
 // Type namespace: TMPro
 namespace TMPro {
   // Size: 0x34
@@ -28,11 +20,13 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class TMP_Glyph : public TMPro::TMP_TextElement_Legacy {
     public:
+    // Creating value type constructor for type: TMP_Glyph
+    TMP_Glyph() noexcept {}
     // static public TMPro.TMP_Glyph Clone(TMPro.TMP_Glyph source)
-    // Offset: 0x11F7998
+    // Offset: 0x124E108
     static TMPro::TMP_Glyph* Clone(TMPro::TMP_Glyph* source);
     // public System.Void .ctor()
-    // Offset: 0x11F7A4C
+    // Offset: 0x124E1BC
     // Implemented from: TMPro.TMP_TextElement_Legacy
     // Base method: System.Void TMP_TextElement_Legacy::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -44,7 +38,8 @@ namespace TMPro {
   }; // TMPro.TMP_Glyph
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Glyph*, "TMPro", "TMP_Glyph");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_Glyph::Clone
 // Il2CppName: Clone
 template<>

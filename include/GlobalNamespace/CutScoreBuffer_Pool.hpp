@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: CutScoreBuffer
 #include "GlobalNamespace/CutScoreBuffer.hpp"
 // Including type: Zenject.MemoryPool`1
 #include "Zenject/MemoryPool_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: Pool
-  class Pool;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::CutScoreBuffer::Pool);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CutScoreBuffer::Pool*, "", "CutScoreBuffer/Pool");
 // Type namespace: 
 namespace GlobalNamespace {
   // WARNING Size may be invalid!
@@ -29,8 +21,10 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class CutScoreBuffer::Pool : public Zenject::MemoryPool_1<GlobalNamespace::CutScoreBuffer*> {
     public:
+    // Creating value type constructor for type: Pool
+    Pool() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1137D00
+    // Offset: 0x1192CD8
     // Implemented from: Zenject.MemoryPool`1
     // Base method: System.Void MemoryPool_1::.ctor()
     // Base method: System.Void MemoryPoolBase_1::.ctor()
@@ -42,7 +36,8 @@ namespace GlobalNamespace {
     }
   }; // CutScoreBuffer/Pool
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CutScoreBuffer::Pool*, "", "CutScoreBuffer/Pool");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CutScoreBuffer::Pool::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

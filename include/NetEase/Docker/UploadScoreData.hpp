@@ -4,20 +4,13 @@
 #pragma once
 // Begin includes
 #include <stdint.h>
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct Il2CppString;
 // Completed il2cpp-utils forward declares
-// Type namespace: NetEase.Docker
-namespace NetEase::Docker {
-  // Forward declaring type: UploadScoreData
-  struct UploadScoreData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::UploadScoreData, "NetEase.Docker", "UploadScoreData");
 // Type namespace: NetEase.Docker
 namespace NetEase::Docker {
   // Size: 0x2C
@@ -27,40 +20,35 @@ namespace NetEase::Docker {
   // [TokenAttribute] Offset: FFFFFFFF
   struct UploadScoreData/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
-    // [DebuggerBrowsableAttribute] Offset: 0xEEDC58
+    // [DebuggerBrowsableAttribute] Offset: 0xF2EABC
     // private System.String <Track>k__BackingField
     // Size: 0x8
     // Offset: 0x0
     ::Il2CppString* Track;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xEEDC94
+    // [DebuggerBrowsableAttribute] Offset: 0xF2EAF8
     // private System.Int32 <Difficulty>k__BackingField
     // Size: 0x4
     // Offset: 0x8
     int Difficulty;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [DebuggerBrowsableAttribute] Offset: 0xEEDCD0
+    // [DebuggerBrowsableAttribute] Offset: 0xF2EB34
     // private System.Int32 <Score>k__BackingField
     // Size: 0x4
     // Offset: 0xC
     int Score;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [DebuggerBrowsableAttribute] Offset: 0xEEDD0C
+    // [DebuggerBrowsableAttribute] Offset: 0xF2EB70
     // private System.Int64 <TimeStamp>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     int64_t TimeStamp;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xEEDD48
+    // [DebuggerBrowsableAttribute] Offset: 0xF2EBAC
     // private System.Boolean <PlayedUntilEnd>k__BackingField
     // Size: 0x1
     // Offset: 0x18
@@ -69,35 +57,34 @@ namespace NetEase::Docker {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: PlayedUntilEnd and: AccuracyPercentage
     char __padding4[0x3] = {};
-    // [DebuggerBrowsableAttribute] Offset: 0xEEDD84
+    // [DebuggerBrowsableAttribute] Offset: 0xF2EBE8
     // private System.Single <AccuracyPercentage>k__BackingField
     // Size: 0x4
     // Offset: 0x1C
     float AccuracyPercentage;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [DebuggerBrowsableAttribute] Offset: 0xEEDDC0
+    // [DebuggerBrowsableAttribute] Offset: 0xF2EC24
     // private System.Int32 <NoOfHits>k__BackingField
     // Size: 0x4
     // Offset: 0x20
     int NoOfHits;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [DebuggerBrowsableAttribute] Offset: 0xEEDDFC
+    // [DebuggerBrowsableAttribute] Offset: 0xF2EC60
     // private System.Int32 <NoOfMisses>k__BackingField
     // Size: 0x4
     // Offset: 0x24
     int NoOfMisses;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [DebuggerBrowsableAttribute] Offset: 0xEEDE38
+    // [DebuggerBrowsableAttribute] Offset: 0xF2EC9C
     // private System.Int32 <NoOfBombsHit>k__BackingField
     // Size: 0x4
     // Offset: 0x28
     int NoOfBombsHit;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: UploadScoreData
     constexpr UploadScoreData(::Il2CppString* Track_ = {}, int Difficulty_ = {}, int Score_ = {}, int64_t TimeStamp_ = {}, bool PlayedUntilEnd_ = {}, float AccuracyPercentage_ = {}, int NoOfHits_ = {}, int NoOfMisses_ = {}, int NoOfBombsHit_ = {}) noexcept : Track{Track_}, Difficulty{Difficulty_}, Score{Score_}, TimeStamp{TimeStamp_}, PlayedUntilEnd{PlayedUntilEnd_}, AccuracyPercentage{AccuracyPercentage_}, NoOfHits{NoOfHits_}, NoOfMisses{NoOfMisses_}, NoOfBombsHit{NoOfBombsHit_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -123,17 +110,19 @@ namespace NetEase::Docker {
     // Get instance field reference: private System.Int32 <NoOfBombsHit>k__BackingField
     int& dyn_$NoOfBombsHit$k__BackingField();
     // public System.Void set_Track(System.String value)
-    // Offset: 0x2607B1C
+    // Offset: 0x26CAB44
     void set_Track(::Il2CppString* value);
     // public System.Void set_Score(System.Int32 value)
-    // Offset: 0x2607B24
+    // Offset: 0x26CAB4C
     void set_Score(int value);
   }; // NetEase.Docker.UploadScoreData
   #pragma pack(pop)
   static check_size<sizeof(UploadScoreData), 40 + sizeof(int)> __NetEase_Docker_UploadScoreDataSizeCheck;
   static_assert(sizeof(UploadScoreData) == 0x2C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::UploadScoreData, "NetEase.Docker", "UploadScoreData");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NetEase::Docker::UploadScoreData::set_Track
 // Il2CppName: set_Track
 template<>

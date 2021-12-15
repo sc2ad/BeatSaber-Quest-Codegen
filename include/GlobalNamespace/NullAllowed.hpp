@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.PropertyAttribute
 #include "UnityEngine/PropertyAttribute.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: NullAllowed
-  class NullAllowed;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::NullAllowed);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NullAllowed*, "", "NullAllowed");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x28
@@ -38,18 +30,12 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct Context/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: Context
       constexpr Context(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -78,11 +64,6 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(NullAllowed::Context), 0 + sizeof(int)> __GlobalNamespace_NullAllowed_ContextSizeCheck;
     static_assert(sizeof(NullAllowed::Context) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public readonly NullAllowed/Context context
     // Size: 0x4
     // Offset: 0x10
@@ -103,7 +84,8 @@ namespace GlobalNamespace {
     ::Il2CppObject* ifNotValue;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    public:
+    // Creating value type constructor for type: NullAllowed
+    NullAllowed(GlobalNamespace::NullAllowed::Context context_ = {}, ::Il2CppString* propertyName_ = {}, ::Il2CppObject* ifNotValue_ = {}) noexcept : context{context_}, propertyName{propertyName_}, ifNotValue{ifNotValue_} {}
     // Get instance field reference: public readonly NullAllowed/Context context
     GlobalNamespace::NullAllowed::Context& dyn_context();
     // Get instance field reference: public readonly System.String propertyName
@@ -111,21 +93,21 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Object ifNotValue
     ::Il2CppObject*& dyn_ifNotValue();
     // public System.Void .ctor(NullAllowed/Context context)
-    // Offset: 0x2613724
+    // Offset: 0x26D58A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NullAllowed* New_ctor(GlobalNamespace::NullAllowed::Context context) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NullAllowed::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NullAllowed*, creationType>(context)));
     }
     // public System.Void .ctor(System.String propertyName, System.Object ifNotValue)
-    // Offset: 0x2613750
+    // Offset: 0x26D58CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NullAllowed* New_ctor(::Il2CppString* propertyName, ::Il2CppObject* ifNotValue) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NullAllowed::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NullAllowed*, creationType>(propertyName, ifNotValue)));
     }
     // public System.Void .ctor()
-    // Offset: 0x26136FC
+    // Offset: 0x26D5878
     // Implemented from: UnityEngine.PropertyAttribute
     // Base method: System.Void PropertyAttribute::.ctor()
     // Base method: System.Void Attribute::.ctor()
@@ -140,9 +122,9 @@ namespace GlobalNamespace {
   static check_size<sizeof(NullAllowed), 32 + sizeof(::Il2CppObject*)> __GlobalNamespace_NullAllowedSizeCheck;
   static_assert(sizeof(NullAllowed) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NullAllowed*, "", "NullAllowed");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NullAllowed::Context, "", "NullAllowed/Context");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NullAllowed::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

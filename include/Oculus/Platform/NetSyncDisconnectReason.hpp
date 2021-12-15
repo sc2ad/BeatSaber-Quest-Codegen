@@ -3,18 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: Oculus.Platform
-namespace Oculus::Platform {
-  // Forward declaring type: NetSyncDisconnectReason
-  struct NetSyncDisconnectReason;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::NetSyncDisconnectReason, "Oculus.Platform", "NetSyncDisconnectReason");
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
   // Size: 0x4
@@ -23,18 +16,12 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   struct NetSyncDisconnectReason/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: NetSyncDisconnectReason
     constexpr NetSyncDisconnectReason(int value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -45,35 +32,35 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0xEE7E5C
+    // [DescriptionAttribute] Offset: 0xF2A354
     // static field const value: static public Oculus.Platform.NetSyncDisconnectReason Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.NetSyncDisconnectReason Unknown
     static Oculus::Platform::NetSyncDisconnectReason _get_Unknown();
     // Set static field: static public Oculus.Platform.NetSyncDisconnectReason Unknown
     static void _set_Unknown(Oculus::Platform::NetSyncDisconnectReason value);
-    // [DescriptionAttribute] Offset: 0xEE7E94
+    // [DescriptionAttribute] Offset: 0xF2A38C
     // static field const value: static public Oculus.Platform.NetSyncDisconnectReason LocalTerminated
     static constexpr const int LocalTerminated = 1;
     // Get static field: static public Oculus.Platform.NetSyncDisconnectReason LocalTerminated
     static Oculus::Platform::NetSyncDisconnectReason _get_LocalTerminated();
     // Set static field: static public Oculus.Platform.NetSyncDisconnectReason LocalTerminated
     static void _set_LocalTerminated(Oculus::Platform::NetSyncDisconnectReason value);
-    // [DescriptionAttribute] Offset: 0xEE7ECC
+    // [DescriptionAttribute] Offset: 0xF2A3C4
     // static field const value: static public Oculus.Platform.NetSyncDisconnectReason ServerTerminated
     static constexpr const int ServerTerminated = 2;
     // Get static field: static public Oculus.Platform.NetSyncDisconnectReason ServerTerminated
     static Oculus::Platform::NetSyncDisconnectReason _get_ServerTerminated();
     // Set static field: static public Oculus.Platform.NetSyncDisconnectReason ServerTerminated
     static void _set_ServerTerminated(Oculus::Platform::NetSyncDisconnectReason value);
-    // [DescriptionAttribute] Offset: 0xEE7F04
+    // [DescriptionAttribute] Offset: 0xF2A3FC
     // static field const value: static public Oculus.Platform.NetSyncDisconnectReason Failed
     static constexpr const int Failed = 3;
     // Get static field: static public Oculus.Platform.NetSyncDisconnectReason Failed
     static Oculus::Platform::NetSyncDisconnectReason _get_Failed();
     // Set static field: static public Oculus.Platform.NetSyncDisconnectReason Failed
     static void _set_Failed(Oculus::Platform::NetSyncDisconnectReason value);
-    // [DescriptionAttribute] Offset: 0xEE7F3C
+    // [DescriptionAttribute] Offset: 0xF2A434
     // static field const value: static public Oculus.Platform.NetSyncDisconnectReason Lost
     static constexpr const int Lost = 4;
     // Get static field: static public Oculus.Platform.NetSyncDisconnectReason Lost
@@ -87,4 +74,6 @@ namespace Oculus::Platform {
   static check_size<sizeof(NetSyncDisconnectReason), 0 + sizeof(int)> __Oculus_Platform_NetSyncDisconnectReasonSizeCheck;
   static_assert(sizeof(NetSyncDisconnectReason) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::NetSyncDisconnectReason, "Oculus.Platform", "NetSyncDisconnectReason");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

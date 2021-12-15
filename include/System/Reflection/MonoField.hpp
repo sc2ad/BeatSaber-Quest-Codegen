@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Reflection.RtFieldInfo
 #include "System/Reflection/RtFieldInfo.hpp"
 // Including type: System.IntPtr
@@ -13,11 +13,10 @@
 #include "System/RuntimeFieldHandle.hpp"
 // Including type: System.Reflection.FieldAttributes
 #include "System/Reflection/FieldAttributes.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -49,14 +48,6 @@ namespace System::Collections::Generic {
 // Completed forward declares
 // Type namespace: System.Reflection
 namespace System::Reflection {
-  // Forward declaring type: MonoField
-  class MonoField;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Reflection::MonoField);
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoField*, "System.Reflection", "MonoField");
-// Type namespace: System.Reflection
-namespace System::Reflection {
   // Size: 0x34
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -64,11 +55,6 @@ namespace System::Reflection {
   // [TokenAttribute] Offset: FFFFFFFF
   class MonoField : public System::Reflection::RtFieldInfo {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // System.IntPtr klass
     // Size: 0x8
     // Offset: 0x10
@@ -99,7 +85,8 @@ namespace System::Reflection {
     System::Reflection::FieldAttributes attrs;
     // Field size check
     static_assert(sizeof(System::Reflection::FieldAttributes) == 0x4);
-    public:
+    // Creating value type constructor for type: MonoField
+    MonoField(System::IntPtr klass_ = {}, System::RuntimeFieldHandle fhandle_ = {}, ::Il2CppString* name_ = {}, System::Type* type_ = {}, System::Reflection::FieldAttributes attrs_ = {}) noexcept : klass{klass_}, fhandle{fhandle_}, name{name_}, type{type_}, attrs{attrs_} {}
     // Get instance field reference: System.IntPtr klass
     System::IntPtr& dyn_klass();
     // Get instance field reference: System.RuntimeFieldHandle fhandle
@@ -111,52 +98,52 @@ namespace System::Reflection {
     // Get instance field reference: private System.Reflection.FieldAttributes attrs
     System::Reflection::FieldAttributes& dyn_attrs();
     // private System.Type ResolveType()
-    // Offset: 0x1E93BE4
+    // Offset: 0x1E99644
     System::Type* ResolveType();
     // private System.Type GetParentType(System.Boolean declaring)
-    // Offset: 0x1E93C74
+    // Offset: 0x1E996D4
     System::Type* GetParentType(bool declaring);
     // private System.Object GetValueInternal(System.Object obj)
-    // Offset: 0x1E93E10
+    // Offset: 0x1E99870
     ::Il2CppObject* GetValueInternal(::Il2CppObject* obj);
     // static private System.Void SetValueInternal(System.Reflection.FieldInfo fi, System.Object obj, System.Object value)
-    // Offset: 0x1E940DC
+    // Offset: 0x1E99B3C
     static void SetValueInternal(System::Reflection::FieldInfo* fi, ::Il2CppObject* obj, ::Il2CppObject* value);
     // private System.Void CheckGeneric()
-    // Offset: 0x1E93FC4
+    // Offset: 0x1E99A24
     void CheckGeneric();
     // public override System.Reflection.FieldAttributes get_Attributes()
-    // Offset: 0x1E93BD4
+    // Offset: 0x1E99634
     // Implemented from: System.Reflection.FieldInfo
     // Base method: System.Reflection.FieldAttributes FieldInfo::get_Attributes()
     System::Reflection::FieldAttributes get_Attributes();
     // public override System.RuntimeFieldHandle get_FieldHandle()
-    // Offset: 0x1E93BDC
+    // Offset: 0x1E9963C
     // Implemented from: System.Reflection.FieldInfo
     // Base method: System.RuntimeFieldHandle FieldInfo::get_FieldHandle()
     System::RuntimeFieldHandle get_FieldHandle();
     // public override System.Type get_FieldType()
-    // Offset: 0x1E93BE8
+    // Offset: 0x1E99648
     // Implemented from: System.Reflection.FieldInfo
     // Base method: System.Type FieldInfo::get_FieldType()
     System::Type* get_FieldType();
     // public override System.Type get_ReflectedType()
-    // Offset: 0x1E93C7C
+    // Offset: 0x1E996DC
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Type MemberInfo::get_ReflectedType()
     System::Type* get_ReflectedType();
     // public override System.Type get_DeclaringType()
-    // Offset: 0x1E93C84
+    // Offset: 0x1E996E4
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Type MemberInfo::get_DeclaringType()
     System::Type* get_DeclaringType();
     // public override System.String get_Name()
-    // Offset: 0x1E93C8C
+    // Offset: 0x1E996EC
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.String MemberInfo::get_Name()
     ::Il2CppString* get_Name();
     // public System.Void .ctor()
-    // Offset: 0x1E9438C
+    // Offset: 0x1E99DEC
     // Implemented from: System.Reflection.RtFieldInfo
     // Base method: System.Void RtFieldInfo::.ctor()
     // Base method: System.Void RuntimeFieldInfo::.ctor()
@@ -169,47 +156,47 @@ namespace System::Reflection {
       return THROW_UNLESS((::il2cpp_utils::New<MonoField*, creationType>()));
     }
     // public override System.Boolean IsDefined(System.Type attributeType, System.Boolean inherit)
-    // Offset: 0x1E93C94
+    // Offset: 0x1E996F4
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Boolean MemberInfo::IsDefined(System.Type attributeType, System.Boolean inherit)
     bool IsDefined(System::Type* attributeType, bool inherit);
     // public override System.Object[] GetCustomAttributes(System.Boolean inherit)
-    // Offset: 0x1E93D14
+    // Offset: 0x1E99774
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Object[] MemberInfo::GetCustomAttributes(System.Boolean inherit)
-    ::ArrayW<::Il2CppObject*> GetCustomAttributes(bool inherit);
+    ::Array<::Il2CppObject*>* GetCustomAttributes(bool inherit);
     // public override System.Object[] GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
-    // Offset: 0x1E93D8C
+    // Offset: 0x1E997EC
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Object[] MemberInfo::GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
-    ::ArrayW<::Il2CppObject*> GetCustomAttributes(System::Type* attributeType, bool inherit);
+    ::Array<::Il2CppObject*>* GetCustomAttributes(System::Type* attributeType, bool inherit);
     // override System.Int32 GetFieldOffset()
-    // Offset: 0x1E93E0C
+    // Offset: 0x1E9986C
     // Implemented from: System.Reflection.FieldInfo
     // Base method: System.Int32 FieldInfo::GetFieldOffset()
     int GetFieldOffset();
     // public override System.Object GetValue(System.Object obj)
-    // Offset: 0x1E93E14
+    // Offset: 0x1E99874
     // Implemented from: System.Reflection.FieldInfo
     // Base method: System.Object FieldInfo::GetValue(System.Object obj)
     ::Il2CppObject* GetValue(::Il2CppObject* obj);
     // public override System.String ToString()
-    // Offset: 0x1E9406C
+    // Offset: 0x1E99ACC
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // public override System.Void SetValue(System.Object obj, System.Object val, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Globalization.CultureInfo culture)
-    // Offset: 0x1E940E0
+    // Offset: 0x1E99B40
     // Implemented from: System.Reflection.FieldInfo
     // Base method: System.Void FieldInfo::SetValue(System.Object obj, System.Object val, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Globalization.CultureInfo culture)
     void SetValue(::Il2CppObject* obj, ::Il2CppObject* val, System::Reflection::BindingFlags invokeAttr, System::Reflection::Binder* binder, System::Globalization::CultureInfo* culture);
     // public override System.Object GetRawConstantValue()
-    // Offset: 0x1E94384
+    // Offset: 0x1E99DE4
     // Implemented from: System.Reflection.FieldInfo
     // Base method: System.Object FieldInfo::GetRawConstantValue()
     ::Il2CppObject* GetRawConstantValue();
     // public override System.Collections.Generic.IList`1<System.Reflection.CustomAttributeData> GetCustomAttributesData()
-    // Offset: 0x1E94388
+    // Offset: 0x1E99DE8
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Collections.Generic.IList`1<System.Reflection.CustomAttributeData> MemberInfo::GetCustomAttributesData()
     System::Collections::Generic::IList_1<System::Reflection::CustomAttributeData*>* GetCustomAttributesData();
@@ -218,7 +205,8 @@ namespace System::Reflection {
   static check_size<sizeof(MonoField), 48 + sizeof(System::Reflection::FieldAttributes)> __System_Reflection_MonoFieldSizeCheck;
   static_assert(sizeof(MonoField) == 0x34);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoField*, "System.Reflection", "MonoField");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::MonoField::ResolveType
 // Il2CppName: ResolveType
 template<>
@@ -329,7 +317,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Reflection::MonoField::GetCustomAttributes
 // Il2CppName: GetCustomAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppObject*> (System::Reflection::MonoField::*)(bool)>(&System::Reflection::MonoField::GetCustomAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (System::Reflection::MonoField::*)(bool)>(&System::Reflection::MonoField::GetCustomAttributes)> {
   static const MethodInfo* get() {
     static auto* inherit = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::MonoField*), "GetCustomAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inherit});
@@ -338,7 +326,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
 // Writing MetadataGetter for method: System::Reflection::MonoField::GetCustomAttributes
 // Il2CppName: GetCustomAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppObject*> (System::Reflection::MonoField::*)(System::Type*, bool)>(&System::Reflection::MonoField::GetCustomAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (System::Reflection::MonoField::*)(System::Type*, bool)>(&System::Reflection::MonoField::GetCustomAttributes)> {
   static const MethodInfo* get() {
     static auto* attributeType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* inherit = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

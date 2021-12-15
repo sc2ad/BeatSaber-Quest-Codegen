@@ -3,25 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Rect
 #include "UnityEngine/Rect.hpp"
-// Including type: UnityEngine.Vector2
-#include "UnityEngine/Vector2.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: ScrollViewState
-  class ScrollViewState;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ScrollViewState);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ScrollViewState*, "UnityEngine", "ScrollViewState");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x49
@@ -30,11 +20,6 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class ScrollViewState : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public UnityEngine.Rect position
     // Size: 0x10
     // Offset: 0x10
@@ -65,7 +50,8 @@ namespace UnityEngine {
     bool apply;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: ScrollViewState
+    ScrollViewState(UnityEngine::Rect position_ = {}, UnityEngine::Rect visibleRect_ = {}, UnityEngine::Rect viewRect_ = {}, UnityEngine::Vector2 scrollPosition_ = {}, bool apply_ = {}) noexcept : position{position_}, visibleRect{visibleRect_}, viewRect{viewRect_}, scrollPosition{scrollPosition_}, apply{apply_} {}
     // Get instance field reference: public UnityEngine.Rect position
     UnityEngine::Rect& dyn_position();
     // Get instance field reference: public UnityEngine.Rect visibleRect
@@ -77,7 +63,7 @@ namespace UnityEngine {
     // Get instance field reference: public System.Boolean apply
     bool& dyn_apply();
     // public System.Void .ctor()
-    // Offset: 0x1C86524
+    // Offset: 0x1CF5F8C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -90,7 +76,8 @@ namespace UnityEngine {
   static check_size<sizeof(ScrollViewState), 72 + sizeof(bool)> __UnityEngine_ScrollViewStateSizeCheck;
   static_assert(sizeof(ScrollViewState) == 0x49);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ScrollViewState*, "UnityEngine", "ScrollViewState");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ScrollViewState::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -3,18 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: System.Net.Sockets
-namespace System::Net::Sockets {
-  // Forward declaring type: SocketError
-  struct SocketError;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::SocketError, "System.Net.Sockets", "SocketError");
 // Type namespace: System.Net.Sockets
 namespace System::Net::Sockets {
   // Size: 0x4
@@ -23,18 +16,12 @@ namespace System::Net::Sockets {
   // [TokenAttribute] Offset: FFFFFFFF
   struct SocketError/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: SocketError
     constexpr SocketError(int value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -334,4 +321,6 @@ namespace System::Net::Sockets {
   static check_size<sizeof(SocketError), 0 + sizeof(int)> __System_Net_Sockets_SocketErrorSizeCheck;
   static_assert(sizeof(SocketError) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::SocketError, "System.Net.Sockets", "SocketError");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

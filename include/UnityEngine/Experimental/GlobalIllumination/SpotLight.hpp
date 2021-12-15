@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: UnityEngine.Experimental.GlobalIllumination.LightMode
@@ -22,13 +22,6 @@
 // Completed includes
 // Type namespace: UnityEngine.Experimental.GlobalIllumination
 namespace UnityEngine::Experimental::GlobalIllumination {
-  // Forward declaring type: SpotLight
-  struct SpotLight;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::SpotLight, "UnityEngine.Experimental.GlobalIllumination", "SpotLight");
-// Type namespace: UnityEngine.Experimental.GlobalIllumination
-namespace UnityEngine::Experimental::GlobalIllumination {
   // Size: 0x56
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -36,11 +29,6 @@ namespace UnityEngine::Experimental::GlobalIllumination {
   // [TokenAttribute] Offset: FFFFFFFF
   struct SpotLight/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 instanceID
     // Size: 0x4
     // Offset: 0x0
@@ -121,7 +109,6 @@ namespace UnityEngine::Experimental::GlobalIllumination {
     UnityEngine::Experimental::GlobalIllumination::AngularFalloffType angularFalloff;
     // Field size check
     static_assert(sizeof(UnityEngine::Experimental::GlobalIllumination::AngularFalloffType) == 0x1);
-    public:
     // Creating value type constructor for type: SpotLight
     constexpr SpotLight(int instanceID_ = {}, bool shadow_ = {}, UnityEngine::Experimental::GlobalIllumination::LightMode mode_ = {}, UnityEngine::Vector3 position_ = {}, UnityEngine::Quaternion orientation_ = {}, UnityEngine::Experimental::GlobalIllumination::LinearColor color_ = {}, UnityEngine::Experimental::GlobalIllumination::LinearColor indirectColor_ = {}, float range_ = {}, float sphereRadius_ = {}, float coneAngle_ = {}, float innerConeAngle_ = {}, UnityEngine::Experimental::GlobalIllumination::FalloffType falloff_ = {}, UnityEngine::Experimental::GlobalIllumination::AngularFalloffType angularFalloff_ = {}) noexcept : instanceID{instanceID_}, shadow{shadow_}, mode{mode_}, position{position_}, orientation{orientation_}, color{color_}, indirectColor{indirectColor_}, range{range_}, sphereRadius{sphereRadius_}, coneAngle{coneAngle_}, innerConeAngle{innerConeAngle_}, falloff{falloff_}, angularFalloff{angularFalloff_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -159,4 +146,6 @@ namespace UnityEngine::Experimental::GlobalIllumination {
   static check_size<sizeof(SpotLight), 85 + sizeof(UnityEngine::Experimental::GlobalIllumination::AngularFalloffType)> __UnityEngine_Experimental_GlobalIllumination_SpotLightSizeCheck;
   static_assert(sizeof(SpotLight) == 0x56);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::SpotLight, "UnityEngine.Experimental.GlobalIllumination", "SpotLight");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

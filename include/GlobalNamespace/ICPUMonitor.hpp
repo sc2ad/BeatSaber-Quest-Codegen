@@ -3,16 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: ICPUMonitor
-  class ICPUMonitor;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::ICPUMonitor);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ICPUMonitor*, "", "ICPUMonitor");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -21,6 +13,8 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ICPUMonitor {
     public:
+    // Creating value type constructor for type: ICPUMonitor
+    ICPUMonitor() noexcept {}
     // public System.Single get_utilization()
     // Offset: 0xFFFFFFFF
     float get_utilization();
@@ -30,7 +24,9 @@ namespace GlobalNamespace {
   }; // ICPUMonitor
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ICPUMonitor*, "", "ICPUMonitor");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ICPUMonitor::get_utilization
 // Il2CppName: get_utilization
 template<>

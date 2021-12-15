@@ -3,17 +3,10 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-// Type namespace: HoudiniEngineUnity
-namespace HoudiniEngineUnity {
-  // Forward declaring type: HAPI_ImageFileFormat
-  struct HAPI_ImageFileFormat;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_ImageFileFormat, "HoudiniEngineUnity", "HAPI_ImageFileFormat");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0xC
@@ -23,11 +16,6 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HAPI_ImageFileFormat/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 nameSH
     // Size: 0x4
     // Offset: 0x0
@@ -46,7 +34,6 @@ namespace HoudiniEngineUnity {
     int defaultExtensionSH;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: HAPI_ImageFileFormat
     constexpr HAPI_ImageFileFormat(int nameSH_ = {}, int descriptionSH_ = {}, int defaultExtensionSH_ = {}) noexcept : nameSH{nameSH_}, descriptionSH{descriptionSH_}, defaultExtensionSH{defaultExtensionSH_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -64,4 +51,6 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HAPI_ImageFileFormat), 8 + sizeof(int)> __HoudiniEngineUnity_HAPI_ImageFileFormatSizeCheck;
   static_assert(sizeof(HAPI_ImageFileFormat) == 0xC);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_ImageFileFormat, "HoudiniEngineUnity", "HAPI_ImageFileFormat");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

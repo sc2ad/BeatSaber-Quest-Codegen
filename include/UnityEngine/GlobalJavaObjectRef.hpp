@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: GlobalJavaObjectRef
-  class GlobalJavaObjectRef;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::GlobalJavaObjectRef);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GlobalJavaObjectRef*, "UnityEngine", "GlobalJavaObjectRef");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x20
@@ -28,11 +20,6 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class GlobalJavaObjectRef : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Boolean m_disposed
     // Size: 0x1
     // Offset: 0x10
@@ -47,23 +34,24 @@ namespace UnityEngine {
     System::IntPtr m_jobject;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
-    public:
+    // Creating value type constructor for type: GlobalJavaObjectRef
+    GlobalJavaObjectRef(bool m_disposed_ = {}, System::IntPtr m_jobject_ = {}) noexcept : m_disposed{m_disposed_}, m_jobject{m_jobject_} {}
     // Get instance field reference: private System.Boolean m_disposed
     bool& dyn_m_disposed();
     // Get instance field reference: protected System.IntPtr m_jobject
     System::IntPtr& dyn_m_jobject();
     // public System.Void .ctor(System.IntPtr jobject)
-    // Offset: 0x2591FBC
+    // Offset: 0x2659310
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GlobalJavaObjectRef* New_ctor(System::IntPtr jobject) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::GlobalJavaObjectRef::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GlobalJavaObjectRef*, creationType>(jobject)));
     }
     // public System.Void Dispose()
-    // Offset: 0x2592F68
+    // Offset: 0x265A2BC
     void Dispose();
     // protected override System.Void Finalize()
-    // Offset: 0x2595B80
+    // Offset: 0x265CED4
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
@@ -72,7 +60,8 @@ namespace UnityEngine {
   static check_size<sizeof(GlobalJavaObjectRef), 24 + sizeof(System::IntPtr)> __UnityEngine_GlobalJavaObjectRefSizeCheck;
   static_assert(sizeof(GlobalJavaObjectRef) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GlobalJavaObjectRef*, "UnityEngine", "GlobalJavaObjectRef");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::GlobalJavaObjectRef::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

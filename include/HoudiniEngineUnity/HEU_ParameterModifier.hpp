@@ -3,16 +3,16 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HoudiniEngineUnity.IEquivable`1
 #include "HoudiniEngineUnity/IEquivable_1.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HoudiniEngineUnity
@@ -20,14 +20,6 @@ namespace HoudiniEngineUnity {
   // Skipping declaration: ModifierAction because it is already included!
 }
 // Completed forward declares
-// Type namespace: HoudiniEngineUnity
-namespace HoudiniEngineUnity {
-  // Forward declaring type: HEU_ParameterModifier
-  class HEU_ParameterModifier;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_ParameterModifier);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_ParameterModifier*, "HoudiniEngineUnity", "HEU_ParameterModifier");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x28
@@ -44,18 +36,12 @@ namespace HoudiniEngineUnity {
     // [TokenAttribute] Offset: FFFFFFFF
     struct ModifierAction/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: ModifierAction
       constexpr ModifierAction(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -102,11 +88,6 @@ namespace HoudiniEngineUnity {
     #pragma pack(pop)
     static check_size<sizeof(HEU_ParameterModifier::ModifierAction), 0 + sizeof(int)> __HoudiniEngineUnity_HEU_ParameterModifier_ModifierActionSizeCheck;
     static_assert(sizeof(HEU_ParameterModifier::ModifierAction) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 _parameterIndex
     // Size: 0x4
     // Offset: 0x10
@@ -143,7 +124,8 @@ namespace HoudiniEngineUnity {
     int intValue;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
+    // Creating value type constructor for type: HEU_ParameterModifier
+    HEU_ParameterModifier(int parameterIndex_ = {}, HoudiniEngineUnity::HEU_ParameterModifier::ModifierAction action_ = {}, int instanceIndex_ = {}, int modifierValue_ = {}, float floatValue_ = {}, int intValue_ = {}) noexcept : parameterIndex{parameterIndex_}, action{action_}, instanceIndex{instanceIndex_}, modifierValue{modifierValue_}, floatValue{floatValue_}, intValue{intValue_} {}
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_ParameterModifier*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_ParameterModifier*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_ParameterModifier*>*>(this);
@@ -161,13 +143,13 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Int32 _intValue
     int& dyn__intValue();
     // static public HoudiniEngineUnity.HEU_ParameterModifier GetNewModifier(HoudiniEngineUnity.HEU_ParameterModifier/HoudiniEngineUnity.ModifierAction action, System.Int32 parameterIndex, System.Int32 instanceIndex, System.Int32 modifierValue)
-    // Offset: 0x17887D0
+    // Offset: 0x18180E4
     static HoudiniEngineUnity::HEU_ParameterModifier* GetNewModifier(HoudiniEngineUnity::HEU_ParameterModifier::ModifierAction action, int parameterIndex, int instanceIndex, int modifierValue);
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_ParameterModifier other)
-    // Offset: 0x1788864
+    // Offset: 0x1818178
     bool IsEquivalentTo(HoudiniEngineUnity::HEU_ParameterModifier* other);
     // public System.Void .ctor()
-    // Offset: 0x178885C
+    // Offset: 0x1818170
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -180,9 +162,9 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_ParameterModifier), 36 + sizeof(int)> __HoudiniEngineUnity_HEU_ParameterModifierSizeCheck;
   static_assert(sizeof(HEU_ParameterModifier) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_ParameterModifier*, "HoudiniEngineUnity", "HEU_ParameterModifier");
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_ParameterModifier::ModifierAction, "HoudiniEngineUnity", "HEU_ParameterModifier/ModifierAction");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ParameterModifier::GetNewModifier
 // Il2CppName: GetNewModifier
 template<>

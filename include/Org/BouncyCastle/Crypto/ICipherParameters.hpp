@@ -3,16 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: Org.BouncyCastle.Crypto
-namespace Org::BouncyCastle::Crypto {
-  // Forward declaring type: ICipherParameters
-  class ICipherParameters;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Crypto::ICipherParameters);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::ICipherParameters*, "Org.BouncyCastle.Crypto", "ICipherParameters");
 // Type namespace: Org.BouncyCastle.Crypto
 namespace Org::BouncyCastle::Crypto {
   // Size: 0x10
@@ -21,7 +13,11 @@ namespace Org::BouncyCastle::Crypto {
   // [TokenAttribute] Offset: FFFFFFFF
   class ICipherParameters {
     public:
+    // Creating value type constructor for type: ICipherParameters
+    ICipherParameters() noexcept {}
   }; // Org.BouncyCastle.Crypto.ICipherParameters
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::ICipherParameters*, "Org.BouncyCastle.Crypto", "ICipherParameters");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

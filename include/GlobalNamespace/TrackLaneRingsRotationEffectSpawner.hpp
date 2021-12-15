@@ -3,16 +3,16 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: BeatmapEventType
 #include "GlobalNamespace/BeatmapEventType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -25,14 +25,6 @@ namespace GlobalNamespace {
   class BeatmapEventData;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: TrackLaneRingsRotationEffectSpawner
-  class TrackLaneRingsRotationEffectSpawner;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::TrackLaneRingsRotationEffectSpawner);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrackLaneRingsRotationEffectSpawner*, "", "TrackLaneRingsRotationEffectSpawner");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x40
@@ -49,18 +41,12 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct RotationStepType/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: RotationStepType
       constexpr RotationStepType(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -95,25 +81,20 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(TrackLaneRingsRotationEffectSpawner::RotationStepType), 0 + sizeof(int)> __GlobalNamespace_TrackLaneRingsRotationEffectSpawner_RotationStepTypeSizeCheck;
     static_assert(sizeof(TrackLaneRingsRotationEffectSpawner::RotationStepType) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private TrackLaneRingsRotationEffect _trackLaneRingsRotationEffect
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::TrackLaneRingsRotationEffect* trackLaneRingsRotationEffect;
     // Field size check
     static_assert(sizeof(GlobalNamespace::TrackLaneRingsRotationEffect*) == 0x8);
-    // [SpaceAttribute] Offset: 0xF06BB8
+    // [SpaceAttribute] Offset: 0xF3C078
     // private BeatmapEventType _beatmapEventType
     // Size: 0x4
     // Offset: 0x20
     GlobalNamespace::BeatmapEventType beatmapEventType;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapEventType) == 0x4);
-    // [SpaceAttribute] Offset: 0xF06BF0
+    // [SpaceAttribute] Offset: 0xF3C0B0
     // private System.Single _rotation
     // Size: 0x4
     // Offset: 0x24
@@ -144,14 +125,15 @@ namespace GlobalNamespace {
     float rotationFlexySpeed;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0xF06C68
+    // [InjectAttribute] Offset: 0xF3C128
     // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IBeatmapObjectCallbackController*) == 0x8);
-    public:
+    // Creating value type constructor for type: TrackLaneRingsRotationEffectSpawner
+    TrackLaneRingsRotationEffectSpawner(GlobalNamespace::TrackLaneRingsRotationEffect* trackLaneRingsRotationEffect_ = {}, GlobalNamespace::BeatmapEventType beatmapEventType_ = {}, float rotation_ = {}, float rotationStep_ = {}, GlobalNamespace::TrackLaneRingsRotationEffectSpawner::RotationStepType rotationStepType_ = {}, int rotationPropagationSpeed_ = {}, float rotationFlexySpeed_ = {}, GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}) noexcept : trackLaneRingsRotationEffect{trackLaneRingsRotationEffect_}, beatmapEventType{beatmapEventType_}, rotation{rotation_}, rotationStep{rotationStep_}, rotationStepType{rotationStepType_}, rotationPropagationSpeed{rotationPropagationSpeed_}, rotationFlexySpeed{rotationFlexySpeed_}, beatmapObjectCallbackController{beatmapObjectCallbackController_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TrackLaneRingsRotationEffect _trackLaneRingsRotationEffect
@@ -171,16 +153,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     GlobalNamespace::IBeatmapObjectCallbackController*& dyn__beatmapObjectCallbackController();
     // protected System.Void Start()
-    // Offset: 0x115EF5C
+    // Offset: 0x1204E28
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x115F04C
+    // Offset: 0x1204F18
     void OnDestroy();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0x115F14C
+    // Offset: 0x1205018
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // public System.Void .ctor()
-    // Offset: 0x115F248
+    // Offset: 0x1205114
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -197,9 +179,9 @@ namespace GlobalNamespace {
   static check_size<sizeof(TrackLaneRingsRotationEffectSpawner), 56 + sizeof(GlobalNamespace::IBeatmapObjectCallbackController*)> __GlobalNamespace_TrackLaneRingsRotationEffectSpawnerSizeCheck;
   static_assert(sizeof(TrackLaneRingsRotationEffectSpawner) == 0x40);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrackLaneRingsRotationEffectSpawner*, "", "TrackLaneRingsRotationEffectSpawner");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrackLaneRingsRotationEffectSpawner::RotationStepType, "", "TrackLaneRingsRotationEffectSpawner/RotationStepType");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TrackLaneRingsRotationEffectSpawner::Start
 // Il2CppName: Start
 template<>

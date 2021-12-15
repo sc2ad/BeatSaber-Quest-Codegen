@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: RuntimeLightWithIds
 #include "GlobalNamespace/RuntimeLightWithIds.hpp"
 // Including type: LightWithIds/LightData
 #include "GlobalNamespace/LightWithIds_LightData.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: LightIntensitiesData
-  class LightIntensitiesData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::RuntimeLightWithIds::LightIntensitiesData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RuntimeLightWithIds::LightIntensitiesData*, "", "RuntimeLightWithIds/LightIntensitiesData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x2C
@@ -32,18 +24,14 @@ namespace GlobalNamespace {
     public:
     // Writing base type padding for base size: 0x25 to desired offset: 0x28
     char ___base_padding[0x3] = {};
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Single _intensity
     // Size: 0x4
     // Offset: 0x28
     float intensity;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
+    // Creating value type constructor for type: LightIntensitiesData
+    LightIntensitiesData(float intensity_ = {}) noexcept : intensity{intensity_} {}
     // Creating conversion operator: operator float
     constexpr operator float() const noexcept {
       return intensity;
@@ -51,13 +39,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _intensity
     float& dyn__intensity();
     // public System.Single get_intensity()
-    // Offset: 0x1E1798C
+    // Offset: 0x1DBD5E4
     float get_intensity();
     // public System.Void set_intensity(System.Single value)
-    // Offset: 0x1E17994
+    // Offset: 0x1DBD5EC
     void set_intensity(float value);
     // public System.Void .ctor()
-    // Offset: 0x1E1799C
+    // Offset: 0x1DBD5F4
     // Implemented from: LightWithIds/LightData
     // Base method: System.Void LightData::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -71,7 +59,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(RuntimeLightWithIds::LightIntensitiesData), 40 + sizeof(float)> __GlobalNamespace_RuntimeLightWithIds_LightIntensitiesDataSizeCheck;
   static_assert(sizeof(RuntimeLightWithIds::LightIntensitiesData) == 0x2C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RuntimeLightWithIds::LightIntensitiesData*, "", "RuntimeLightWithIds/LightIntensitiesData");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::RuntimeLightWithIds::LightIntensitiesData::get_intensity
 // Il2CppName: get_intensity
 template<>

@@ -3,20 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Oculus.Platform.CAPI
 #include "Oculus/Platform/CAPI.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-// Type namespace: Oculus.Platform
-namespace Oculus::Platform {
-  // Forward declaring type: ovrNetSyncVec3
-  struct ovrNetSyncVec3;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CAPI::ovrNetSyncVec3, "Oculus.Platform", "CAPI/ovrNetSyncVec3");
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
   // Size: 0xC
@@ -26,11 +19,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   struct CAPI::ovrNetSyncVec3/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Single x
     // Size: 0x4
     // Offset: 0x0
@@ -49,7 +37,6 @@ namespace Oculus::Platform {
     float z;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
     // Creating value type constructor for type: ovrNetSyncVec3
     constexpr ovrNetSyncVec3(float x_ = {}, float y_ = {}, float z_ = {}) noexcept : x{x_}, y{y_}, z{z_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -67,4 +54,6 @@ namespace Oculus::Platform {
   static check_size<sizeof(CAPI::ovrNetSyncVec3), 8 + sizeof(float)> __Oculus_Platform_CAPI_ovrNetSyncVec3SizeCheck;
   static_assert(sizeof(CAPI::ovrNetSyncVec3) == 0xC);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CAPI::ovrNetSyncVec3, "Oculus.Platform", "CAPI/ovrNetSyncVec3");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

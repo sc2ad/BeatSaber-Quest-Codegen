@@ -3,20 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Diagnostics.Process
 #include "System/Diagnostics/Process.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: System.Diagnostics
-namespace System::Diagnostics {
-  // Forward declaring type: State
-  struct State;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Process::State, "System.Diagnostics", "Process/State");
 // Type namespace: System.Diagnostics
 namespace System::Diagnostics {
   // Size: 0x4
@@ -25,18 +18,12 @@ namespace System::Diagnostics {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Process::State/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: State
     constexpr State(int value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -102,4 +89,6 @@ namespace System::Diagnostics {
   static check_size<sizeof(Process::State), 0 + sizeof(int)> __System_Diagnostics_Process_StateSizeCheck;
   static_assert(sizeof(Process::State) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Process::State, "System.Diagnostics", "Process/State");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Security.GeneralSecurityException
 #include "Org/BouncyCastle/Security/GeneralSecurityException.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Org.BouncyCastle.Security.Certificates
-namespace Org::BouncyCastle::Security::Certificates {
-  // Forward declaring type: CrlException
-  class CrlException;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Security::Certificates::CrlException);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Security::Certificates::CrlException*, "Org.BouncyCastle.Security.Certificates", "CrlException");
 // Type namespace: Org.BouncyCastle.Security.Certificates
 namespace Org::BouncyCastle::Security::Certificates {
   // Size: 0x88
@@ -28,8 +20,10 @@ namespace Org::BouncyCastle::Security::Certificates {
   // [TokenAttribute] Offset: FFFFFFFF
   class CrlException : public Org::BouncyCastle::Security::GeneralSecurityException {
     public:
+    // Creating value type constructor for type: CrlException
+    CrlException() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x14A92E8
+    // Offset: 0x1520338
     // Implemented from: Org.BouncyCastle.Security.GeneralSecurityException
     // Base method: System.Void GeneralSecurityException::.ctor()
     // Base method: System.Void Exception::.ctor()
@@ -40,7 +34,7 @@ namespace Org::BouncyCastle::Security::Certificates {
       return THROW_UNLESS((::il2cpp_utils::New<CrlException*, creationType>()));
     }
     // public System.Void .ctor(System.String msg)
-    // Offset: 0x14A92F0
+    // Offset: 0x1520340
     // Implemented from: Org.BouncyCastle.Security.GeneralSecurityException
     // Base method: System.Void GeneralSecurityException::.ctor(System.String msg)
     // Base method: System.Void Exception::.ctor(System.String msg)
@@ -52,7 +46,8 @@ namespace Org::BouncyCastle::Security::Certificates {
   }; // Org.BouncyCastle.Security.Certificates.CrlException
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Security::Certificates::CrlException*, "Org.BouncyCastle.Security.Certificates", "CrlException");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Security::Certificates::CrlException::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

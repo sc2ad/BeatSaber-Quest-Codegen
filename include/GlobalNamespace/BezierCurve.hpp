@@ -3,20 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: BezierCurve
-  struct BezierCurve;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BezierCurve, "", "BezierCurve");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x30
@@ -27,11 +24,6 @@ namespace GlobalNamespace {
   // [IsReadOnlyAttribute] Offset: FFFFFFFF
   struct BezierCurve/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public readonly UnityEngine.Vector3 p0
     // Size: 0xC
     // Offset: 0x0
@@ -56,7 +48,6 @@ namespace GlobalNamespace {
     UnityEngine::Vector3 p3;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    public:
     // Creating value type constructor for type: BezierCurve
     constexpr BezierCurve(UnityEngine::Vector3 p0_ = {}, UnityEngine::Vector3 p1_ = {}, UnityEngine::Vector3 p2_ = {}, UnityEngine::Vector3 p3_ = {}) noexcept : p0{p0_}, p1{p1_}, p2{p2_}, p3{p3_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -72,14 +63,16 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly UnityEngine.Vector3 p3
     UnityEngine::Vector3& dyn_p3();
     // public System.Void .ctor(UnityEngine.Vector3 p0, UnityEngine.Vector3 p1, UnityEngine.Vector3 p2, UnityEngine.Vector3 p3)
-    // Offset: 0x12A1E68
-    // ABORTED: conflicts with another method.  BezierCurve(UnityEngine::Vector3 p0, UnityEngine::Vector3 p1, UnityEngine::Vector3 p2, UnityEngine::Vector3 p3);
+    // Offset: 0x1332174
+    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    // ABORTED: conflicts with another method.  BezierCurve(UnityEngine::Vector3 p0, UnityEngine::Vector3 p1, UnityEngine::Vector3 p2, UnityEngine::Vector3 p3)
   }; // BezierCurve
   #pragma pack(pop)
   static check_size<sizeof(BezierCurve), 36 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_BezierCurveSizeCheck;
   static_assert(sizeof(BezierCurve) == 0x30);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BezierCurve, "", "BezierCurve");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BezierCurve::BezierCurve
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

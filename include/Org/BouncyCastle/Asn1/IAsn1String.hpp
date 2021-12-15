@@ -3,19 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct Il2CppString;
 // Completed il2cpp-utils forward declares
-// Type namespace: Org.BouncyCastle.Asn1
-namespace Org::BouncyCastle::Asn1 {
-  // Forward declaring type: IAsn1String
-  class IAsn1String;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Asn1::IAsn1String);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::IAsn1String*, "Org.BouncyCastle.Asn1", "IAsn1String");
 // Type namespace: Org.BouncyCastle.Asn1
 namespace Org::BouncyCastle::Asn1 {
   // Size: 0x10
@@ -24,13 +16,17 @@ namespace Org::BouncyCastle::Asn1 {
   // [TokenAttribute] Offset: FFFFFFFF
   class IAsn1String {
     public:
+    // Creating value type constructor for type: IAsn1String
+    IAsn1String() noexcept {}
     // public System.String GetString()
     // Offset: 0xFFFFFFFF
     ::Il2CppString* GetString();
   }; // Org.BouncyCastle.Asn1.IAsn1String
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::IAsn1String*, "Org.BouncyCastle.Asn1", "IAsn1String");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::IAsn1String::GetString
 // Il2CppName: GetString
 template<>

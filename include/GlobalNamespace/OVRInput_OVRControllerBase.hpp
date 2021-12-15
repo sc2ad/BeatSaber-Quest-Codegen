@@ -3,30 +3,22 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRInput
 #include "GlobalNamespace/OVRInput.hpp"
 // Including type: OVRPlugin/ControllerState4
 #include "GlobalNamespace/OVRPlugin_ControllerState4.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: OVRControllerBase
-  class OVRControllerBase;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRInput::OVRControllerBase);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OVRControllerBase*, "", "OVRInput/OVRControllerBase");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x101
@@ -45,11 +37,6 @@ namespace GlobalNamespace {
     class VirtualAxis1DMap;
     // Nested type: GlobalNamespace::OVRInput::OVRControllerBase::VirtualAxis2DMap
     class VirtualAxis2DMap;
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public OVRInput/Controller controllerType
     // Size: 0x4
     // Offset: 0x10
@@ -106,7 +93,8 @@ namespace GlobalNamespace {
     bool shouldApplyDeadzone;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: OVRControllerBase
+    OVRControllerBase(GlobalNamespace::OVRInput::Controller controllerType_ = {}, GlobalNamespace::OVRInput::OVRControllerBase::VirtualButtonMap* buttonMap_ = {}, GlobalNamespace::OVRInput::OVRControllerBase::VirtualTouchMap* touchMap_ = {}, GlobalNamespace::OVRInput::OVRControllerBase::VirtualNearTouchMap* nearTouchMap_ = {}, GlobalNamespace::OVRInput::OVRControllerBase::VirtualAxis1DMap* axis1DMap_ = {}, GlobalNamespace::OVRInput::OVRControllerBase::VirtualAxis2DMap* axis2DMap_ = {}, GlobalNamespace::OVRPlugin::ControllerState4 previousState_ = {}, GlobalNamespace::OVRPlugin::ControllerState4 currentState_ = {}, bool shouldApplyDeadzone_ = {}) noexcept : controllerType{controllerType_}, buttonMap{buttonMap_}, touchMap{touchMap_}, nearTouchMap{nearTouchMap_}, axis1DMap{axis1DMap_}, axis2DMap{axis2DMap_}, previousState{previousState_}, currentState{currentState_}, shouldApplyDeadzone{shouldApplyDeadzone_} {}
     // Get instance field reference: public OVRInput/Controller controllerType
     GlobalNamespace::OVRInput::Controller& dyn_controllerType();
     // Get instance field reference: public OVRInput/OVRControllerBase/VirtualButtonMap buttonMap
@@ -126,16 +114,16 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean shouldApplyDeadzone
     bool& dyn_shouldApplyDeadzone();
     // public OVRInput/Controller Update()
-    // Offset: 0x16B1F68
+    // Offset: 0x176F384
     GlobalNamespace::OVRInput::Controller Update();
     // private OVRPlugin/ControllerState4 GetOpenVRControllerState(OVRInput/Controller controllerType)
-    // Offset: 0x16B243C
+    // Offset: 0x176F858
     GlobalNamespace::OVRPlugin::ControllerState4 GetOpenVRControllerState(GlobalNamespace::OVRInput::Controller controllerType);
     // public System.Void SetControllerVibration(System.Single frequency, System.Single amplitude)
-    // Offset: 0x16B2978
+    // Offset: 0x176FD94
     void SetControllerVibration(float frequency, float amplitude);
     // public System.Byte GetBatteryPercentRemaining()
-    // Offset: 0x16B29FC
+    // Offset: 0x176FE18
     uint8_t GetBatteryPercentRemaining();
     // public System.Void ConfigureButtonMap()
     // Offset: 0xFFFFFFFF
@@ -153,22 +141,22 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     void ConfigureAxis2DMap();
     // public OVRInput/RawButton ResolveToRawMask(OVRInput/Button virtualMask)
-    // Offset: 0x16AF4C0
+    // Offset: 0x176C8DC
     GlobalNamespace::OVRInput::RawButton ResolveToRawMask(GlobalNamespace::OVRInput::Button virtualMask);
     // public OVRInput/RawTouch ResolveToRawMask(OVRInput/Touch virtualMask)
-    // Offset: 0x16AFB7C
+    // Offset: 0x176CF98
     GlobalNamespace::OVRInput::RawTouch ResolveToRawMask(GlobalNamespace::OVRInput::Touch virtualMask);
     // public OVRInput/RawNearTouch ResolveToRawMask(OVRInput/NearTouch virtualMask)
-    // Offset: 0x16B02B0
+    // Offset: 0x176D6CC
     GlobalNamespace::OVRInput::RawNearTouch ResolveToRawMask(GlobalNamespace::OVRInput::NearTouch virtualMask);
     // public OVRInput/RawAxis1D ResolveToRawMask(OVRInput/Axis1D virtualMask)
-    // Offset: 0x16B0C88
+    // Offset: 0x176E0A4
     GlobalNamespace::OVRInput::RawAxis1D ResolveToRawMask(GlobalNamespace::OVRInput::Axis1D virtualMask);
     // public OVRInput/RawAxis2D ResolveToRawMask(OVRInput/Axis2D virtualMask)
-    // Offset: 0x16B11D0
+    // Offset: 0x176E5EC
     GlobalNamespace::OVRInput::RawAxis2D ResolveToRawMask(GlobalNamespace::OVRInput::Axis2D virtualMask);
     // public System.Void .ctor()
-    // Offset: 0x16B1E00
+    // Offset: 0x176F21C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -181,7 +169,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRInput::OVRControllerBase), 256 + sizeof(bool)> __GlobalNamespace_OVRInput_OVRControllerBaseSizeCheck;
   static_assert(sizeof(OVRInput::OVRControllerBase) == 0x101);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OVRControllerBase*, "", "OVRInput/OVRControllerBase");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::OVRControllerBase::Update
 // Il2CppName: Update
 template<>

@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: GhostDuplicationEffect
 #include "GlobalNamespace/GhostDuplicationEffect.hpp"
 // Including type: System.ValueType
@@ -23,13 +23,6 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
-  // Forward declaring type: GhostEffectParams
-  struct GhostEffectParams;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GhostDuplicationEffect::GhostEffectParams, "", "GhostDuplicationEffect/GhostEffectParams");
-// Type namespace: 
-namespace GlobalNamespace {
   // Size: 0x45
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -37,11 +30,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct GhostDuplicationEffect::GhostEffectParams/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Single startAlpha
     // Size: 0x4
     // Offset: 0x0
@@ -116,7 +104,6 @@ namespace GlobalNamespace {
     bool lastPhase;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
     // Creating value type constructor for type: GhostEffectParams
     constexpr GhostEffectParams(float startAlpha_ = {}, UnityEngine::Vector3 startPosition_ = {}, float startSize_ = {}, float endAlpha_ = {}, UnityEngine::Vector3 endPosition_ = {}, float endSize_ = {}, float duration_ = {}, float delay_ = {}, Tweening::EaseType easeType_ = {}, UnityEngine::AnimationCurve* distanceCurve_ = {}, float peakDistance_ = {}, bool lastPhase_ = {}) noexcept : startAlpha{startAlpha_}, startPosition{startPosition_}, startSize{startSize_}, endAlpha{endAlpha_}, endPosition{endPosition_}, endSize{endSize_}, duration{duration_}, delay{delay_}, easeType{easeType_}, distanceCurve{distanceCurve_}, peakDistance{peakDistance_}, lastPhase{lastPhase_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -152,4 +139,6 @@ namespace GlobalNamespace {
   static check_size<sizeof(GhostDuplicationEffect::GhostEffectParams), 68 + sizeof(bool)> __GlobalNamespace_GhostDuplicationEffect_GhostEffectParamsSizeCheck;
   static_assert(sizeof(GhostDuplicationEffect::GhostEffectParams) == 0x45);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GhostDuplicationEffect::GhostEffectParams, "", "GhostDuplicationEffect/GhostEffectParams");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

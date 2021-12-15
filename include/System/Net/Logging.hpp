@@ -3,17 +3,9 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: System.Net
-namespace System::Net {
-  // Forward declaring type: Logging
-  class Logging;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::Logging);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::Logging*, "System.Net", "Logging");
 // Type namespace: System.Net
 namespace System::Net {
   // Size: 0x10
@@ -22,6 +14,8 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class Logging : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: Logging
+    Logging() noexcept {}
     // Get static field: static readonly System.Boolean On
     static bool _get_On();
     // Set static field: static readonly System.Boolean On
@@ -29,4 +23,6 @@ namespace System::Net {
   }; // System.Net.Logging
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Logging*, "System.Net", "Logging");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

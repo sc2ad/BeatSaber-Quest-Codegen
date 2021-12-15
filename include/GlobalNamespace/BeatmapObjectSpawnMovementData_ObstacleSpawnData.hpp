@@ -3,22 +3,19 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BeatmapObjectSpawnMovementData
 #include "GlobalNamespace/BeatmapObjectSpawnMovementData.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: ObstacleSpawnData
-  struct ObstacleSpawnData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectSpawnMovementData::ObstacleSpawnData, "", "BeatmapObjectSpawnMovementData/ObstacleSpawnData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x34
@@ -28,11 +25,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct BeatmapObjectSpawnMovementData::ObstacleSpawnData/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public readonly UnityEngine.Vector3 moveStartPos
     // Size: 0xC
     // Offset: 0x0
@@ -75,7 +67,6 @@ namespace GlobalNamespace {
     float noteLinesDistance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
     // Creating value type constructor for type: ObstacleSpawnData
     constexpr ObstacleSpawnData(UnityEngine::Vector3 moveStartPos_ = {}, UnityEngine::Vector3 moveEndPos_ = {}, UnityEngine::Vector3 jumpEndPos_ = {}, float obstacleHeight_ = {}, float moveDuration_ = {}, float jumpDuration_ = {}, float noteLinesDistance_ = {}) noexcept : moveStartPos{moveStartPos_}, moveEndPos{moveEndPos_}, jumpEndPos{jumpEndPos_}, obstacleHeight{obstacleHeight_}, moveDuration{moveDuration_}, jumpDuration{jumpDuration_}, noteLinesDistance{noteLinesDistance_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -97,14 +88,16 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Single noteLinesDistance
     float& dyn_noteLinesDistance();
     // public System.Void .ctor(UnityEngine.Vector3 moveStartPos, UnityEngine.Vector3 moveEndPos, UnityEngine.Vector3 jumpEndPos, System.Single obstacleHeight, System.Single moveDuration, System.Single jumpDuration, System.Single noteLinesDistance)
-    // Offset: 0x129F704
-    // ABORTED: conflicts with another method.  ObstacleSpawnData(UnityEngine::Vector3 moveStartPos, UnityEngine::Vector3 moveEndPos, UnityEngine::Vector3 jumpEndPos, float obstacleHeight, float moveDuration, float jumpDuration, float noteLinesDistance);
+    // Offset: 0x132FA10
+    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    // ABORTED: conflicts with another method.  ObstacleSpawnData(UnityEngine::Vector3 moveStartPos, UnityEngine::Vector3 moveEndPos, UnityEngine::Vector3 jumpEndPos, float obstacleHeight, float moveDuration, float jumpDuration, float noteLinesDistance)
   }; // BeatmapObjectSpawnMovementData/ObstacleSpawnData
   #pragma pack(pop)
   static check_size<sizeof(BeatmapObjectSpawnMovementData::ObstacleSpawnData), 48 + sizeof(float)> __GlobalNamespace_BeatmapObjectSpawnMovementData_ObstacleSpawnDataSizeCheck;
   static_assert(sizeof(BeatmapObjectSpawnMovementData::ObstacleSpawnData) == 0x34);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectSpawnMovementData::ObstacleSpawnData, "", "BeatmapObjectSpawnMovementData/ObstacleSpawnData");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnMovementData::ObstacleSpawnData::ObstacleSpawnData
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

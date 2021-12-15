@@ -3,20 +3,12 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Collections.Generic
-namespace System::Collections::Generic {
-  // Forward declaring type: IEqualityComparer`1<T>
-  template<typename T>
-  class IEqualityComparer_1;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Collections::Generic::IEqualityComparer_1, "System.Collections.Generic", "IEqualityComparer`1");
 // Type namespace: System.Collections.Generic
 namespace System::Collections::Generic {
   // WARNING Size may be invalid!
@@ -25,21 +17,26 @@ namespace System::Collections::Generic {
   template<typename T>
   class IEqualityComparer_1 {
     public:
+    // Creating value type constructor for type: IEqualityComparer_1
+    IEqualityComparer_1() noexcept {}
     // public System.Boolean Equals(T x, T y)
     // Offset: 0xFFFFFFFF
     bool Equals(T x, T y) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::IEqualityComparer_1::Equals");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Equals", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x), ::il2cpp_utils::ExtractType(y)})));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, x, y);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(___instance_arg, ___internal__method, x, y);
     }
     // public System.Int32 GetHashCode(T obj)
     // Offset: 0xFFFFFFFF
     int GetHashCode(T obj) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::IEqualityComparer_1::GetHashCode");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetHashCode", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(obj)})));
-      return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method, obj);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<int, false>(___instance_arg, ___internal__method, obj);
     }
   }; // System.Collections.Generic.IEqualityComparer`1
   // Could not write size check! Type: System.Collections.Generic.IEqualityComparer`1 is generic, or has no fields that are valid for size checks!
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Collections::Generic::IEqualityComparer_1, "System.Collections.Generic", "IEqualityComparer`1");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

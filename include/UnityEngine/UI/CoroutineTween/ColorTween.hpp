@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: UnityEngine.UI.CoroutineTween.ITweenValue
@@ -28,13 +28,6 @@ namespace UnityEngine::Events {
 // Completed forward declares
 // Type namespace: UnityEngine.UI.CoroutineTween
 namespace UnityEngine::UI::CoroutineTween {
-  // Forward declaring type: ColorTween
-  struct ColorTween;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CoroutineTween::ColorTween, "UnityEngine.UI.CoroutineTween", "ColorTween");
-// Type namespace: UnityEngine.UI.CoroutineTween
-namespace UnityEngine::UI::CoroutineTween {
   // Size: 0x31
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -52,18 +45,12 @@ namespace UnityEngine::UI::CoroutineTween {
     // [TokenAttribute] Offset: FFFFFFFF
     struct ColorTweenMode/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: ColorTweenMode
       constexpr ColorTweenMode(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -98,11 +85,6 @@ namespace UnityEngine::UI::CoroutineTween {
     #pragma pack(pop)
     static check_size<sizeof(ColorTween::ColorTweenMode), 0 + sizeof(int)> __UnityEngine_UI_CoroutineTween_ColorTween_ColorTweenModeSizeCheck;
     static_assert(sizeof(ColorTween::ColorTweenMode) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private UnityEngine.UI.CoroutineTween.ColorTween/UnityEngine.UI.CoroutineTween.ColorTweenCallback m_Target
     // Size: 0x8
     // Offset: 0x0
@@ -139,7 +121,6 @@ namespace UnityEngine::UI::CoroutineTween {
     bool m_IgnoreTimeScale;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
     // Creating value type constructor for type: ColorTween
     constexpr ColorTween(UnityEngine::UI::CoroutineTween::ColorTween::ColorTweenCallback* m_Target_ = {}, UnityEngine::Color m_StartColor_ = {}, UnityEngine::Color m_TargetColor_ = {}, UnityEngine::UI::CoroutineTween::ColorTween::ColorTweenMode m_TweenMode_ = {}, float m_Duration_ = {}, bool m_IgnoreTimeScale_ = {}) noexcept : m_Target{m_Target_}, m_StartColor{m_StartColor_}, m_TargetColor{m_TargetColor_}, m_TweenMode{m_TweenMode_}, m_Duration{m_Duration_}, m_IgnoreTimeScale{m_IgnoreTimeScale_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -163,58 +144,59 @@ namespace UnityEngine::UI::CoroutineTween {
     // Get instance field reference: private System.Boolean m_IgnoreTimeScale
     bool& dyn_m_IgnoreTimeScale();
     // public UnityEngine.Color get_startColor()
-    // Offset: 0x15E0AA0
+    // Offset: 0x166FD94
     UnityEngine::Color get_startColor();
     // public System.Void set_startColor(UnityEngine.Color value)
-    // Offset: 0x15E0AAC
+    // Offset: 0x166FDA0
     void set_startColor(UnityEngine::Color value);
     // public UnityEngine.Color get_targetColor()
-    // Offset: 0x15E0AB8
+    // Offset: 0x166FDAC
     UnityEngine::Color get_targetColor();
     // public System.Void set_targetColor(UnityEngine.Color value)
-    // Offset: 0x15E0AC4
+    // Offset: 0x166FDB8
     void set_targetColor(UnityEngine::Color value);
     // public UnityEngine.UI.CoroutineTween.ColorTween/UnityEngine.UI.CoroutineTween.ColorTweenMode get_tweenMode()
-    // Offset: 0x15E0AD0
+    // Offset: 0x166FDC4
     UnityEngine::UI::CoroutineTween::ColorTween::ColorTweenMode get_tweenMode();
     // public System.Void set_tweenMode(UnityEngine.UI.CoroutineTween.ColorTween/UnityEngine.UI.CoroutineTween.ColorTweenMode value)
-    // Offset: 0x15E0AD8
+    // Offset: 0x166FDCC
     void set_tweenMode(UnityEngine::UI::CoroutineTween::ColorTween::ColorTweenMode value);
     // public System.Single get_duration()
-    // Offset: 0x15E0AE0
+    // Offset: 0x166FDD4
     float get_duration();
     // public System.Void set_duration(System.Single value)
-    // Offset: 0x15E0AE8
+    // Offset: 0x166FDDC
     void set_duration(float value);
     // public System.Boolean get_ignoreTimeScale()
-    // Offset: 0x15E0AF0
+    // Offset: 0x166FDE4
     bool get_ignoreTimeScale();
     // public System.Void set_ignoreTimeScale(System.Boolean value)
-    // Offset: 0x15E0AF8
+    // Offset: 0x166FDEC
     void set_ignoreTimeScale(bool value);
     // public System.Void TweenValue(System.Single floatPercentage)
-    // Offset: 0x15E0B04
+    // Offset: 0x166FDF8
     void TweenValue(float floatPercentage);
     // public System.Void AddOnChangedCallback(UnityEngine.Events.UnityAction`1<UnityEngine.Color> callback)
-    // Offset: 0x15E0BDC
+    // Offset: 0x166FED0
     void AddOnChangedCallback(UnityEngine::Events::UnityAction_1<UnityEngine::Color>* callback);
     // public System.Boolean GetIgnoreTimescale()
-    // Offset: 0x15E0CB8
+    // Offset: 0x166FFAC
     bool GetIgnoreTimescale();
     // public System.Single GetDuration()
-    // Offset: 0x15E0CC0
+    // Offset: 0x166FFB4
     float GetDuration();
     // public System.Boolean ValidTarget()
-    // Offset: 0x15E0BCC
+    // Offset: 0x166FEC0
     bool ValidTarget();
   }; // UnityEngine.UI.CoroutineTween.ColorTween
   #pragma pack(pop)
   static check_size<sizeof(ColorTween), 48 + sizeof(bool)> __UnityEngine_UI_CoroutineTween_ColorTweenSizeCheck;
   static_assert(sizeof(ColorTween) == 0x31);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CoroutineTween::ColorTween, "UnityEngine.UI.CoroutineTween", "ColorTween");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CoroutineTween::ColorTween::ColorTweenMode, "UnityEngine.UI.CoroutineTween", "ColorTween/ColorTweenMode");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::CoroutineTween::ColorTween::get_startColor
 // Il2CppName: get_startColor
 template<>

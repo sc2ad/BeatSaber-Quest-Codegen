@@ -3,23 +3,14 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: OVRHaptics
-  class OVRHaptics;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRHaptics);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHaptics*, "", "OVRHaptics");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -34,10 +25,12 @@ namespace GlobalNamespace {
     class OVRHapticsChannel;
     // Nested type: GlobalNamespace::OVRHaptics::OVRHapticsOutput
     class OVRHapticsOutput;
+    // Creating value type constructor for type: OVRHaptics
+    OVRHaptics() noexcept {}
     // Get static field: static public readonly OVRHaptics/OVRHapticsChannel[] Channels
-    static ::ArrayW<GlobalNamespace::OVRHaptics::OVRHapticsChannel*> _get_Channels();
+    static ::Array<GlobalNamespace::OVRHaptics::OVRHapticsChannel*>* _get_Channels();
     // Set static field: static public readonly OVRHaptics/OVRHapticsChannel[] Channels
-    static void _set_Channels(::ArrayW<GlobalNamespace::OVRHaptics::OVRHapticsChannel*> value);
+    static void _set_Channels(::Array<GlobalNamespace::OVRHaptics::OVRHapticsChannel*>* value);
     // Get static field: static public readonly OVRHaptics/OVRHapticsChannel LeftChannel
     static GlobalNamespace::OVRHaptics::OVRHapticsChannel* _get_LeftChannel();
     // Set static field: static public readonly OVRHaptics/OVRHapticsChannel LeftChannel
@@ -47,19 +40,21 @@ namespace GlobalNamespace {
     // Set static field: static public readonly OVRHaptics/OVRHapticsChannel RightChannel
     static void _set_RightChannel(GlobalNamespace::OVRHaptics::OVRHapticsChannel* value);
     // Get static field: static private readonly OVRHaptics/OVRHapticsOutput[] m_outputs
-    static ::ArrayW<GlobalNamespace::OVRHaptics::OVRHapticsOutput*> _get_m_outputs();
+    static ::Array<GlobalNamespace::OVRHaptics::OVRHapticsOutput*>* _get_m_outputs();
     // Set static field: static private readonly OVRHaptics/OVRHapticsOutput[] m_outputs
-    static void _set_m_outputs(::ArrayW<GlobalNamespace::OVRHaptics::OVRHapticsOutput*> value);
+    static void _set_m_outputs(::Array<GlobalNamespace::OVRHaptics::OVRHapticsOutput*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x16AA7C0
+    // Offset: 0x1767BDC
     static void _cctor();
     // static public System.Void Process()
-    // Offset: 0x16AAE54
+    // Offset: 0x1768270
     static void Process();
   }; // OVRHaptics
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHaptics*, "", "OVRHaptics");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRHaptics::_cctor
 // Il2CppName: .cctor
 template<>

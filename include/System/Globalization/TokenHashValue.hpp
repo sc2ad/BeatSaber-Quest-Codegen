@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.TokenType
 #include "System/TokenType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Globalization
-namespace System::Globalization {
-  // Forward declaring type: TokenHashValue
-  class TokenHashValue;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Globalization::TokenHashValue);
-DEFINE_IL2CPP_ARG_TYPE(System::Globalization::TokenHashValue*, "System.Globalization", "TokenHashValue");
 // Type namespace: System.Globalization
 namespace System::Globalization {
   // Size: 0x20
@@ -28,11 +20,6 @@ namespace System::Globalization {
   // [TokenAttribute] Offset: FFFFFFFF
   class TokenHashValue : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // System.String tokenString
     // Size: 0x8
     // Offset: 0x10
@@ -51,7 +38,8 @@ namespace System::Globalization {
     int tokenValue;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
+    // Creating value type constructor for type: TokenHashValue
+    TokenHashValue(::Il2CppString* tokenString_ = {}, System::TokenType tokenType_ = {}, int tokenValue_ = {}) noexcept : tokenString{tokenString_}, tokenType{tokenType_}, tokenValue{tokenValue_} {}
     // Get instance field reference: System.String tokenString
     ::Il2CppString*& dyn_tokenString();
     // Get instance field reference: System.TokenType tokenType
@@ -59,7 +47,7 @@ namespace System::Globalization {
     // Get instance field reference: System.Int32 tokenValue
     int& dyn_tokenValue();
     // System.Void .ctor(System.String tokenString, System.TokenType tokenType, System.Int32 tokenValue)
-    // Offset: 0x1BC30EC
+    // Offset: 0x1C42FE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TokenHashValue* New_ctor(::Il2CppString* tokenString, System::TokenType tokenType, int tokenValue) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::TokenHashValue::.ctor");
@@ -70,7 +58,8 @@ namespace System::Globalization {
   static check_size<sizeof(TokenHashValue), 28 + sizeof(int)> __System_Globalization_TokenHashValueSizeCheck;
   static_assert(sizeof(TokenHashValue) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Globalization::TokenHashValue*, "System.Globalization", "TokenHashValue");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Globalization::TokenHashValue::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

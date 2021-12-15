@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: UnityEngine.Vector3
@@ -16,13 +16,6 @@
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
-  // Forward declaring type: OVRPose
-  struct OVRPose;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPose, "", "OVRPose");
-// Type namespace: 
-namespace GlobalNamespace {
   // Size: 0x1C
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -30,11 +23,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct OVRPose/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public UnityEngine.Vector3 position
     // Size: 0xC
     // Offset: 0x0
@@ -47,7 +35,6 @@ namespace GlobalNamespace {
     UnityEngine::Quaternion orientation;
     // Field size check
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
-    public:
     // Creating value type constructor for type: OVRPose
     constexpr OVRPose(UnityEngine::Vector3 position_ = {}, UnityEngine::Quaternion orientation_ = {}) noexcept : position{position_}, orientation{orientation_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -59,27 +46,27 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.Quaternion orientation
     UnityEngine::Quaternion& dyn_orientation();
     // static public OVRPose get_identity()
-    // Offset: 0x17ED194
+    // Offset: 0x187BAA8
     static GlobalNamespace::OVRPose get_identity();
     // public OVRPose Inverse()
-    // Offset: 0x17ED618
+    // Offset: 0x187BF2C
     GlobalNamespace::OVRPose Inverse();
     // public OVRPose flipZ()
-    // Offset: 0x17ED744
+    // Offset: 0x187C058
     GlobalNamespace::OVRPose flipZ();
     // public OVRPlugin/Posef ToPosef_Legacy()
-    // Offset: 0x17ED770
+    // Offset: 0x187C084
     GlobalNamespace::OVRPlugin::Posef ToPosef_Legacy();
     // public OVRPlugin/Posef ToPosef()
-    // Offset: 0x17ED7E0
+    // Offset: 0x187C0F4
     GlobalNamespace::OVRPlugin::Posef ToPosef();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x17ED250
+    // Offset: 0x187BB64
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x17ED438
+    // Offset: 0x187BD4C
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
@@ -88,16 +75,18 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRPose), 12 + sizeof(UnityEngine::Quaternion)> __GlobalNamespace_OVRPoseSizeCheck;
   static_assert(sizeof(OVRPose) == 0x1C);
   // static public System.Boolean op_Equality(OVRPose x, OVRPose y)
-  // Offset: 0x17ED300
+  // Offset: 0x187BC14
   bool operator ==(const GlobalNamespace::OVRPose& x, const GlobalNamespace::OVRPose& y);
   // static public System.Boolean op_Inequality(OVRPose x, OVRPose y)
-  // Offset: 0x17ED470
+  // Offset: 0x187BD84
   bool operator !=(const GlobalNamespace::OVRPose& x, const GlobalNamespace::OVRPose& y);
   // static public OVRPose op_Multiply(OVRPose lhs, OVRPose rhs)
-  // Offset: 0x17ED4BC
+  // Offset: 0x187BDD0
   GlobalNamespace::OVRPose operator*(const GlobalNamespace::OVRPose& lhs, const GlobalNamespace::OVRPose& rhs);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPose, "", "OVRPose");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRPose::get_identity
 // Il2CppName: get_identity
 template<>

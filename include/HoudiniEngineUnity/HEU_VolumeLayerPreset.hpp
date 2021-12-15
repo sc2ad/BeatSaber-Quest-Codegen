@@ -3,21 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: HoudiniEngineUnity
-namespace HoudiniEngineUnity {
-  // Forward declaring type: HEU_VolumeLayerPreset
-  class HEU_VolumeLayerPreset;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_VolumeLayerPreset);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_VolumeLayerPreset*, "HoudiniEngineUnity", "HEU_VolumeLayerPreset");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x24
@@ -26,11 +18,6 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_VolumeLayerPreset : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.String _layerName
     // Size: 0x8
     // Offset: 0x10
@@ -51,14 +38,15 @@ namespace HoudiniEngineUnity {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: uiExpanded and: tile
     char __padding2[0x3] = {};
-    // [OptionalFieldAttribute] Offset: 0xEFA9D0
+    // [OptionalFieldAttribute] Offset: 0xF66258
     // public System.Int32 _tile
     // Size: 0x4
     // Offset: 0x20
     int tile;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
+    // Creating value type constructor for type: HEU_VolumeLayerPreset
+    HEU_VolumeLayerPreset(::Il2CppString* layerName_ = {}, float strength_ = {}, bool uiExpanded_ = {}, int tile_ = {}) noexcept : layerName{layerName_}, strength{strength_}, uiExpanded{uiExpanded_}, tile{tile_} {}
     // Get instance field reference: public System.String _layerName
     ::Il2CppString*& dyn__layerName();
     // Get instance field reference: public System.Single _strength
@@ -68,7 +56,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Int32 _tile
     int& dyn__tile();
     // public System.Void .ctor()
-    // Offset: 0x16E3AD0
+    // Offset: 0x178598C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -81,7 +69,8 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_VolumeLayerPreset), 32 + sizeof(int)> __HoudiniEngineUnity_HEU_VolumeLayerPresetSizeCheck;
   static_assert(sizeof(HEU_VolumeLayerPreset) == 0x24);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_VolumeLayerPreset*, "HoudiniEngineUnity", "HEU_VolumeLayerPreset");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_VolumeLayerPreset::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

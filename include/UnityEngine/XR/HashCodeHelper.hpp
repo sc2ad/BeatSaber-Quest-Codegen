@@ -3,17 +3,9 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: UnityEngine.XR
-namespace UnityEngine::XR {
-  // Forward declaring type: HashCodeHelper
-  class HashCodeHelper;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::XR::HashCodeHelper);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::HashCodeHelper*, "UnityEngine.XR", "HashCodeHelper");
 // Type namespace: UnityEngine.XR
 namespace UnityEngine::XR {
   // Size: 0x10
@@ -22,13 +14,17 @@ namespace UnityEngine::XR {
   // [TokenAttribute] Offset: FFFFFFFF
   class HashCodeHelper : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: HashCodeHelper
+    HashCodeHelper() noexcept {}
     // static public System.Int32 Combine(System.Int32 hash1, System.Int32 hash2)
-    // Offset: 0x25F99A8
+    // Offset: 0x26BB990
     static int Combine(int hash1, int hash2);
   }; // UnityEngine.XR.HashCodeHelper
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::HashCodeHelper*, "UnityEngine.XR", "HashCodeHelper");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::XR::HashCodeHelper::Combine
 // Il2CppName: Combine
 template<>

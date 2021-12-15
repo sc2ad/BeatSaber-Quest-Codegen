@@ -3,19 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ComponentModel.TypeConverter
 #include "System/ComponentModel/TypeConverter.hpp"
 // Completed includes
-// Type namespace: System.ComponentModel
-namespace System::ComponentModel {
-  // Forward declaring type: ExpandableObjectConverter
-  class ExpandableObjectConverter;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::ComponentModel::ExpandableObjectConverter);
-DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::ExpandableObjectConverter*, "System.ComponentModel", "ExpandableObjectConverter");
 // Type namespace: System.ComponentModel
 namespace System::ComponentModel {
   // Size: 0x10
@@ -24,7 +16,11 @@ namespace System::ComponentModel {
   // [TokenAttribute] Offset: FFFFFFFF
   class ExpandableObjectConverter : public System::ComponentModel::TypeConverter {
     public:
+    // Creating value type constructor for type: ExpandableObjectConverter
+    ExpandableObjectConverter() noexcept {}
   }; // System.ComponentModel.ExpandableObjectConverter
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::ExpandableObjectConverter*, "System.ComponentModel", "ExpandableObjectConverter");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

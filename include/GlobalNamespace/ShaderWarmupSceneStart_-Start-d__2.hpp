@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: ShaderWarmupSceneStart
 #include "GlobalNamespace/ShaderWarmupSceneStart.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
 #include "System/Collections/Generic/IEnumerator_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <Start>d__2
-  class $Start$d__2;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::ShaderWarmupSceneStart::$Start$d__2);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShaderWarmupSceneStart::$Start$d__2*, "", "ShaderWarmupSceneStart/<Start>d__2");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x28
@@ -31,11 +23,6 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class ShaderWarmupSceneStart::$Start$d__2 : public ::Il2CppObject/*, public System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -56,7 +43,8 @@ namespace GlobalNamespace {
     GlobalNamespace::ShaderWarmupSceneStart* $$4__this;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ShaderWarmupSceneStart*) == 0x8);
-    public:
+    // Creating value type constructor for type: $Start$d__2
+    $Start$d__2(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, GlobalNamespace::ShaderWarmupSceneStart* $$4__this_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$4__this{$$4__this_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
@@ -68,33 +56,34 @@ namespace GlobalNamespace {
     // Get instance field reference: public ShaderWarmupSceneStart <>4__this
     GlobalNamespace::ShaderWarmupSceneStart*& dyn_$$4__this();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x1140EC4
+    // Offset: 0x123791C
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1140F2C
+    // Offset: 0x1237984
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1140DF4
+    // Offset: 0x123784C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ShaderWarmupSceneStart::$Start$d__2* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ShaderWarmupSceneStart::$Start$d__2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ShaderWarmupSceneStart::$Start$d__2*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1140E28
+    // Offset: 0x1237880
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1140E2C
+    // Offset: 0x1237884
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1140ECC
+    // Offset: 0x1237924
     void System_Collections_IEnumerator_Reset();
   }; // ShaderWarmupSceneStart/<Start>d__2
   #pragma pack(pop)
   static check_size<sizeof(ShaderWarmupSceneStart::$Start$d__2), 32 + sizeof(GlobalNamespace::ShaderWarmupSceneStart*)> __GlobalNamespace_ShaderWarmupSceneStart_$Start$d__2SizeCheck;
   static_assert(sizeof(ShaderWarmupSceneStart::$Start$d__2) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShaderWarmupSceneStart::$Start$d__2*, "", "ShaderWarmupSceneStart/<Start>d__2");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ShaderWarmupSceneStart::$Start$d__2::System_Collections_Generic_IEnumerator$System_Object$_get_Current
 // Il2CppName: System.Collections.Generic.IEnumerator<System.Object>.get_Current
 template<>

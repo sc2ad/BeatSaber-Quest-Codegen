@@ -3,18 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: Oculus.Platform
-namespace Oculus::Platform {
-  // Forward declaring type: UserPresenceStatus
-  struct UserPresenceStatus;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::UserPresenceStatus, "Oculus.Platform", "UserPresenceStatus");
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
   // Size: 0x4
@@ -23,18 +16,12 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   struct UserPresenceStatus/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: UserPresenceStatus
     constexpr UserPresenceStatus(int value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -45,21 +32,21 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0xEE92BC
+    // [DescriptionAttribute] Offset: 0xF2B7B4
     // static field const value: static public Oculus.Platform.UserPresenceStatus Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.UserPresenceStatus Unknown
     static Oculus::Platform::UserPresenceStatus _get_Unknown();
     // Set static field: static public Oculus.Platform.UserPresenceStatus Unknown
     static void _set_Unknown(Oculus::Platform::UserPresenceStatus value);
-    // [DescriptionAttribute] Offset: 0xEE92F4
+    // [DescriptionAttribute] Offset: 0xF2B7EC
     // static field const value: static public Oculus.Platform.UserPresenceStatus Online
     static constexpr const int Online = 1;
     // Get static field: static public Oculus.Platform.UserPresenceStatus Online
     static Oculus::Platform::UserPresenceStatus _get_Online();
     // Set static field: static public Oculus.Platform.UserPresenceStatus Online
     static void _set_Online(Oculus::Platform::UserPresenceStatus value);
-    // [DescriptionAttribute] Offset: 0xEE932C
+    // [DescriptionAttribute] Offset: 0xF2B824
     // static field const value: static public Oculus.Platform.UserPresenceStatus Offline
     static constexpr const int Offline = 2;
     // Get static field: static public Oculus.Platform.UserPresenceStatus Offline
@@ -73,4 +60,6 @@ namespace Oculus::Platform {
   static check_size<sizeof(UserPresenceStatus), 0 + sizeof(int)> __Oculus_Platform_UserPresenceStatusSizeCheck;
   static_assert(sizeof(UserPresenceStatus) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::UserPresenceStatus, "Oculus.Platform", "UserPresenceStatus");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -4,18 +4,14 @@
 #pragma once
 // Begin includes
 #include <stdint.h>
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
-// Type namespace: System.Net.NetworkInformation
-namespace System::Net::NetworkInformation {
-  // Forward declaring type: sockaddr_ll
-  struct sockaddr_ll;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::sockaddr_ll, "System.Net.NetworkInformation", "sockaddr_ll");
+// Begin il2cpp-utils forward declares
+template<class T>
+struct Array;
+// Completed il2cpp-utils forward declares
 // Type namespace: System.Net.NetworkInformation
 namespace System::Net::NetworkInformation {
   // Size: 0x18
@@ -25,11 +21,6 @@ namespace System::Net::NetworkInformation {
   // [TokenAttribute] Offset: FFFFFFFF
   struct sockaddr_ll/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.UInt16 sll_family
     // Size: 0x2
     // Offset: 0x0
@@ -71,12 +62,11 @@ namespace System::Net::NetworkInformation {
     // public System.Byte[] sll_addr
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<uint8_t> sll_addr;
+    ::Array<uint8_t>* sll_addr;
     // Field size check
-    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
-    public:
+    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
     // Creating value type constructor for type: sockaddr_ll
-    constexpr sockaddr_ll(uint16_t sll_family_ = {}, uint16_t sll_protocol_ = {}, int sll_ifindex_ = {}, uint16_t sll_hatype_ = {}, uint8_t sll_pkttype_ = {}, uint8_t sll_halen_ = {}, ::ArrayW<uint8_t> sll_addr_ = ::ArrayW<uint8_t>(nullptr)) noexcept : sll_family{sll_family_}, sll_protocol{sll_protocol_}, sll_ifindex{sll_ifindex_}, sll_hatype{sll_hatype_}, sll_pkttype{sll_pkttype_}, sll_halen{sll_halen_}, sll_addr{sll_addr_} {}
+    constexpr sockaddr_ll(uint16_t sll_family_ = {}, uint16_t sll_protocol_ = {}, int sll_ifindex_ = {}, uint16_t sll_hatype_ = {}, uint8_t sll_pkttype_ = {}, uint8_t sll_halen_ = {}, ::Array<uint8_t>* sll_addr_ = {}) noexcept : sll_family{sll_family_}, sll_protocol{sll_protocol_}, sll_ifindex{sll_ifindex_}, sll_hatype{sll_hatype_}, sll_pkttype{sll_pkttype_}, sll_halen{sll_halen_}, sll_addr{sll_addr_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -94,10 +84,12 @@ namespace System::Net::NetworkInformation {
     // Get instance field reference: public System.Byte sll_halen
     uint8_t& dyn_sll_halen();
     // Get instance field reference: public System.Byte[] sll_addr
-    ::ArrayW<uint8_t>& dyn_sll_addr();
+    ::Array<uint8_t>*& dyn_sll_addr();
   }; // System.Net.NetworkInformation.sockaddr_ll
   #pragma pack(pop)
-  static check_size<sizeof(sockaddr_ll), 16 + sizeof(::ArrayW<uint8_t>)> __System_Net_NetworkInformation_sockaddr_llSizeCheck;
+  static check_size<sizeof(sockaddr_ll), 16 + sizeof(::Array<uint8_t>*)> __System_Net_NetworkInformation_sockaddr_llSizeCheck;
   static_assert(sizeof(sockaddr_ll) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::sockaddr_ll, "System.Net.NetworkInformation", "sockaddr_ll");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

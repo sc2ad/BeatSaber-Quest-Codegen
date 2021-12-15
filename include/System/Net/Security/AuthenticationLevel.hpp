@@ -3,18 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: System.Net.Security
-namespace System::Net::Security {
-  // Forward declaring type: AuthenticationLevel
-  struct AuthenticationLevel;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Net::Security::AuthenticationLevel, "System.Net.Security", "AuthenticationLevel");
 // Type namespace: System.Net.Security
 namespace System::Net::Security {
   // Size: 0x4
@@ -23,18 +16,12 @@ namespace System::Net::Security {
   // [TokenAttribute] Offset: FFFFFFFF
   struct AuthenticationLevel/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: AuthenticationLevel
     constexpr AuthenticationLevel(int value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -70,4 +57,6 @@ namespace System::Net::Security {
   static check_size<sizeof(AuthenticationLevel), 0 + sizeof(int)> __System_Net_Security_AuthenticationLevelSizeCheck;
   static_assert(sizeof(AuthenticationLevel) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Security::AuthenticationLevel, "System.Net.Security", "AuthenticationLevel");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

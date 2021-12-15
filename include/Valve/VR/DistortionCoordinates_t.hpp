@@ -3,17 +3,10 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-// Type namespace: Valve.VR
-namespace Valve::VR {
-  // Forward declaring type: DistortionCoordinates_t
-  struct DistortionCoordinates_t;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::DistortionCoordinates_t, "Valve.VR", "DistortionCoordinates_t");
 // Type namespace: Valve.VR
 namespace Valve::VR {
   // Size: 0x18
@@ -23,11 +16,6 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct DistortionCoordinates_t/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Single rfRed0
     // Size: 0x4
     // Offset: 0x0
@@ -64,7 +52,6 @@ namespace Valve::VR {
     float rfBlue1;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
     // Creating value type constructor for type: DistortionCoordinates_t
     constexpr DistortionCoordinates_t(float rfRed0_ = {}, float rfRed1_ = {}, float rfGreen0_ = {}, float rfGreen1_ = {}, float rfBlue0_ = {}, float rfBlue1_ = {}) noexcept : rfRed0{rfRed0_}, rfRed1{rfRed1_}, rfGreen0{rfGreen0_}, rfGreen1{rfGreen1_}, rfBlue0{rfBlue0_}, rfBlue1{rfBlue1_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -88,4 +75,6 @@ namespace Valve::VR {
   static check_size<sizeof(DistortionCoordinates_t), 20 + sizeof(float)> __Valve_VR_DistortionCoordinates_tSizeCheck;
   static_assert(sizeof(DistortionCoordinates_t) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::DistortionCoordinates_t, "Valve.VR", "DistortionCoordinates_t");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

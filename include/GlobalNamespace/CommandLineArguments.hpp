@@ -3,17 +3,9 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: CommandLineArguments
-  class CommandLineArguments;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::CommandLineArguments);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CommandLineArguments*, "", "CommandLineArguments");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -22,13 +14,17 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class CommandLineArguments : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: CommandLineArguments
+    CommandLineArguments() noexcept {}
     // static public System.Boolean Contains(System.String argument)
-    // Offset: 0x135E518
+    // Offset: 0x138F0F8
     static bool Contains(::Il2CppString* argument);
   }; // CommandLineArguments
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CommandLineArguments*, "", "CommandLineArguments");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CommandLineArguments::Contains
 // Il2CppName: Contains
 template<>

@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IEquatable`1
 #include "System/IEquatable_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Net.Http
-namespace System::Net::Http {
-  // Forward declaring type: HttpMethod
-  class HttpMethod;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::Http::HttpMethod);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::HttpMethod*, "System.Net.Http", "HttpMethod");
 // Type namespace: System.Net.Http
 namespace System::Net::Http {
   // Size: 0x18
@@ -28,18 +20,14 @@ namespace System::Net::Http {
   // [TokenAttribute] Offset: FFFFFFFF
   class HttpMethod : public ::Il2CppObject/*, public System::IEquatable_1<System::Net::Http::HttpMethod*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private readonly System.String method
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppString* method;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: HttpMethod
+    HttpMethod(::Il2CppString* method_ = {}) noexcept : method{method_} {}
     // Creating interface conversion operator: operator System::IEquatable_1<System::Net::Http::HttpMethod*>
     operator System::IEquatable_1<System::Net::Http::HttpMethod*>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<System::Net::Http::HttpMethod*>*>(this);
@@ -79,36 +67,36 @@ namespace System::Net::Http {
     // Get instance field reference: private readonly System.String method
     ::Il2CppString*& dyn_method();
     // static public System.Net.Http.HttpMethod get_Get()
-    // Offset: 0x174167C
+    // Offset: 0x17CD8B8
     static System::Net::Http::HttpMethod* get_Get();
     // public System.String get_Method()
-    // Offset: 0x17416E4
+    // Offset: 0x17CD920
     ::Il2CppString* get_Method();
     // public System.Void .ctor(System.String method)
-    // Offset: 0x17415CC
+    // Offset: 0x17CD808
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpMethod* New_ctor(::Il2CppString* method) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::HttpMethod::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpMethod*, creationType>(method)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x17417F0
+    // Offset: 0x17CDA2C
     static void _cctor();
     // public System.Boolean Equals(System.Net.Http.HttpMethod other)
-    // Offset: 0x1741704
+    // Offset: 0x17CD940
     bool Equals(System::Net::Http::HttpMethod* other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1741728
+    // Offset: 0x17CD964
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x17417C8
+    // Offset: 0x17CDA04
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x17417E8
+    // Offset: 0x17CDA24
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
@@ -117,10 +105,11 @@ namespace System::Net::Http {
   static check_size<sizeof(HttpMethod), 16 + sizeof(::Il2CppString*)> __System_Net_Http_HttpMethodSizeCheck;
   static_assert(sizeof(HttpMethod) == 0x18);
   // static public System.Boolean op_Equality(System.Net.Http.HttpMethod left, System.Net.Http.HttpMethod right)
-  // Offset: 0x17416EC
+  // Offset: 0x17CD928
   bool operator ==(System::Net::Http::HttpMethod* left, System::Net::Http::HttpMethod& right);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::HttpMethod*, "System.Net.Http", "HttpMethod");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Http::HttpMethod::get_Get
 // Il2CppName: get_Get
 template<>

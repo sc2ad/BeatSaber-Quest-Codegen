@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Exception
 #include "System/Exception.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: AndroidJavaException
-  class AndroidJavaException;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::AndroidJavaException);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AndroidJavaException*, "UnityEngine", "AndroidJavaException");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x90
@@ -28,18 +20,14 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class AndroidJavaException : public System::Exception {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.String mJavaStackTrace
     // Size: 0x8
     // Offset: 0x88
     ::Il2CppString* mJavaStackTrace;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: AndroidJavaException
+    AndroidJavaException(::Il2CppString* mJavaStackTrace_ = {}) noexcept : mJavaStackTrace{mJavaStackTrace_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return mJavaStackTrace;
@@ -47,14 +35,14 @@ namespace UnityEngine {
     // Get instance field reference: private System.String mJavaStackTrace
     ::Il2CppString*& dyn_mJavaStackTrace();
     // System.Void .ctor(System.String message, System.String javaStackTrace)
-    // Offset: 0x258E7F4
+    // Offset: 0x2655B48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AndroidJavaException* New_ctor(::Il2CppString* message, ::Il2CppString* javaStackTrace) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AndroidJavaException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AndroidJavaException*, creationType>(message, javaStackTrace)));
     }
     // public override System.String get_StackTrace()
-    // Offset: 0x2592160
+    // Offset: 0x26594B4
     // Implemented from: System.Exception
     // Base method: System.String Exception::get_StackTrace()
     ::Il2CppString* get_StackTrace();
@@ -63,7 +51,8 @@ namespace UnityEngine {
   static check_size<sizeof(AndroidJavaException), 136 + sizeof(::Il2CppString*)> __UnityEngine_AndroidJavaExceptionSizeCheck;
   static_assert(sizeof(AndroidJavaException) == 0x90);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AndroidJavaException*, "UnityEngine", "AndroidJavaException");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AndroidJavaException::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

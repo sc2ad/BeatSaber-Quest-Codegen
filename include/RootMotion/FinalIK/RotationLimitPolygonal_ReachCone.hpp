@@ -3,26 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: RootMotion.FinalIK.RotationLimitPolygonal
 #include "RootMotion/FinalIK/RotationLimitPolygonal.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: RootMotion.FinalIK
-namespace RootMotion::FinalIK {
-  // Forward declaring type: ReachCone
-  class ReachCone;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::FinalIK::RotationLimitPolygonal::ReachCone);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RotationLimitPolygonal::ReachCone*, "RootMotion.FinalIK", "RotationLimitPolygonal/ReachCone");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
   // Size: 0x34
@@ -31,17 +22,12 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class RotationLimitPolygonal::ReachCone : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public UnityEngine.Vector3[] tetrahedron
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<UnityEngine::Vector3> tetrahedron;
+    ::Array<UnityEngine::Vector3>* tetrahedron;
     // Field size check
-    static_assert(sizeof(::ArrayW<UnityEngine::Vector3>) == 0x8);
+    static_assert(sizeof(::Array<UnityEngine::Vector3>*) == 0x8);
     // public System.Single volume
     // Size: 0x4
     // Offset: 0x18
@@ -60,9 +46,10 @@ namespace RootMotion::FinalIK {
     UnityEngine::Vector3 B;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    public:
+    // Creating value type constructor for type: ReachCone
+    ReachCone(::Array<UnityEngine::Vector3>* tetrahedron_ = {}, float volume_ = {}, UnityEngine::Vector3 S_ = {}, UnityEngine::Vector3 B_ = {}) noexcept : tetrahedron{tetrahedron_}, volume{volume_}, S{S_}, B{B_} {}
     // Get instance field reference: public UnityEngine.Vector3[] tetrahedron
-    ::ArrayW<UnityEngine::Vector3>& dyn_tetrahedron();
+    ::Array<UnityEngine::Vector3>*& dyn_tetrahedron();
     // Get instance field reference: public System.Single volume
     float& dyn_volume();
     // Get instance field reference: public UnityEngine.Vector3 S
@@ -70,36 +57,37 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public UnityEngine.Vector3 B
     UnityEngine::Vector3& dyn_B();
     // public UnityEngine.Vector3 get_o()
-    // Offset: 0x1C483CC
+    // Offset: 0x1CA04C4
     UnityEngine::Vector3 get_o();
     // public UnityEngine.Vector3 get_a()
-    // Offset: 0x1C48404
+    // Offset: 0x1CA04FC
     UnityEngine::Vector3 get_a();
     // public UnityEngine.Vector3 get_b()
-    // Offset: 0x1C48440
+    // Offset: 0x1CA0538
     UnityEngine::Vector3 get_b();
     // public UnityEngine.Vector3 get_c()
-    // Offset: 0x1C4847C
+    // Offset: 0x1CA0574
     UnityEngine::Vector3 get_c();
     // public System.Boolean get_isValid()
-    // Offset: 0x1C47530
+    // Offset: 0x1C9F628
     bool get_isValid();
     // public System.Void .ctor(UnityEngine.Vector3 _o, UnityEngine.Vector3 _a, UnityEngine.Vector3 _b, UnityEngine.Vector3 _c)
-    // Offset: 0x1C47B7C
+    // Offset: 0x1C9FC74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RotationLimitPolygonal::ReachCone* New_ctor(UnityEngine::Vector3 _o, UnityEngine::Vector3 _a, UnityEngine::Vector3 _b, UnityEngine::Vector3 _c) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::RotationLimitPolygonal::ReachCone::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RotationLimitPolygonal::ReachCone*, creationType>(_o, _a, _b, _c)));
     }
     // public System.Void Calculate()
-    // Offset: 0x1C47CDC
+    // Offset: 0x1C9FDD4
     void Calculate();
   }; // RootMotion.FinalIK.RotationLimitPolygonal/RootMotion.FinalIK.ReachCone
   #pragma pack(pop)
   static check_size<sizeof(RotationLimitPolygonal::ReachCone), 40 + sizeof(UnityEngine::Vector3)> __RootMotion_FinalIK_RotationLimitPolygonal_ReachConeSizeCheck;
   static_assert(sizeof(RotationLimitPolygonal::ReachCone) == 0x34);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RotationLimitPolygonal::ReachCone*, "RootMotion.FinalIK", "RotationLimitPolygonal/ReachCone");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::RotationLimitPolygonal::ReachCone::get_o
 // Il2CppName: get_o
 template<>

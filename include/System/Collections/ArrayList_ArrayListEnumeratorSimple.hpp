@@ -3,27 +3,19 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Collections.ArrayList
 #include "System/Collections/ArrayList.hpp"
 // Including type: System.ICloneable
 #include "System/ICloneable.hpp"
 // Including type: System.Collections.IEnumerator
 #include "System/Collections/IEnumerator.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Collections
-namespace System::Collections {
-  // Forward declaring type: ArrayListEnumeratorSimple
-  class ArrayListEnumeratorSimple;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Collections::ArrayList::ArrayListEnumeratorSimple);
-DEFINE_IL2CPP_ARG_TYPE(System::Collections::ArrayList::ArrayListEnumeratorSimple*, "System.Collections", "ArrayList/ArrayListEnumeratorSimple");
 // Type namespace: System.Collections
 namespace System::Collections {
   // Size: 0x29
@@ -32,11 +24,6 @@ namespace System::Collections {
   // [TokenAttribute] Offset: FFFFFFFF
   class ArrayList::ArrayListEnumeratorSimple : public ::Il2CppObject/*, public System::ICloneable, public System::Collections::IEnumerator*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Collections.ArrayList list
     // Size: 0x8
     // Offset: 0x10
@@ -67,7 +54,8 @@ namespace System::Collections {
     bool isArrayList;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: ArrayListEnumeratorSimple
+    ArrayListEnumeratorSimple(System::Collections::ArrayList* list_ = {}, int index_ = {}, int version_ = {}, ::Il2CppObject* currentElement_ = {}, bool isArrayList_ = {}) noexcept : list{list_}, index{index_}, version{version_}, currentElement{currentElement_}, isArrayList{isArrayList_} {}
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);
@@ -91,33 +79,34 @@ namespace System::Collections {
     // Get instance field reference: private System.Boolean isArrayList
     bool& dyn_isArrayList();
     // public System.Object get_Current()
-    // Offset: 0x197D4A0
+    // Offset: 0x199BB50
     ::Il2CppObject* get_Current();
     // System.Void .ctor(System.Collections.ArrayList list)
-    // Offset: 0x197C5F4
+    // Offset: 0x199ACA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ArrayList::ArrayListEnumeratorSimple* New_ctor(System::Collections::ArrayList* list) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::ArrayList::ArrayListEnumeratorSimple::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ArrayList::ArrayListEnumeratorSimple*, creationType>(list)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x197D670
+    // Offset: 0x199BD20
     static void _cctor();
     // public System.Object Clone()
-    // Offset: 0x197D2A0
+    // Offset: 0x199B950
     ::Il2CppObject* Clone();
     // public System.Boolean MoveNext()
-    // Offset: 0x197D2A8
+    // Offset: 0x199B958
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x197D58C
+    // Offset: 0x199BC3C
     void Reset();
   }; // System.Collections.ArrayList/System.Collections.ArrayListEnumeratorSimple
   #pragma pack(pop)
   static check_size<sizeof(ArrayList::ArrayListEnumeratorSimple), 40 + sizeof(bool)> __System_Collections_ArrayList_ArrayListEnumeratorSimpleSizeCheck;
   static_assert(sizeof(ArrayList::ArrayListEnumeratorSimple) == 0x29);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Collections::ArrayList::ArrayListEnumeratorSimple*, "System.Collections", "ArrayList/ArrayListEnumeratorSimple");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::ArrayList::ArrayListEnumeratorSimple::get_Current
 // Il2CppName: get_Current
 template<>

@@ -3,22 +3,14 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
 }
 // Completed forward declares
-// Type namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: RemoteConfigSettingsHelper
-  class RemoteConfigSettingsHelper;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::RemoteConfigSettingsHelper);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RemoteConfigSettingsHelper*, "UnityEngine", "RemoteConfigSettingsHelper");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -29,7 +21,11 @@ namespace UnityEngine {
     public:
     // Nested type: UnityEngine::RemoteConfigSettingsHelper::Tag
     struct Tag;
+    // Creating value type constructor for type: RemoteConfigSettingsHelper
+    RemoteConfigSettingsHelper() noexcept {}
   }; // UnityEngine.RemoteConfigSettingsHelper
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RemoteConfigSettingsHelper*, "UnityEngine", "RemoteConfigSettingsHelper");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

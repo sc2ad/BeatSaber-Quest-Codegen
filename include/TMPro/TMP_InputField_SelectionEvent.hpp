@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: TMPro.TMP_InputField
 #include "TMPro/TMP_InputField.hpp"
 // Including type: UnityEngine.Events.UnityEvent`1
 #include "UnityEngine/Events/UnityEvent_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: TMPro
-namespace TMPro {
-  // Forward declaring type: SelectionEvent
-  class SelectionEvent;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(TMPro::TMP_InputField::SelectionEvent);
-DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_InputField::SelectionEvent*, "TMPro", "TMP_InputField/SelectionEvent");
 // Type namespace: TMPro
 namespace TMPro {
   // WARNING Size may be invalid!
@@ -29,8 +21,10 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class TMP_InputField::SelectionEvent : public UnityEngine::Events::UnityEvent_1<::Il2CppString*> {
     public:
+    // Creating value type constructor for type: SelectionEvent
+    SelectionEvent() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1216F74
+    // Offset: 0x125A1D4
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent_1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()
@@ -42,7 +36,8 @@ namespace TMPro {
     }
   }; // TMPro.TMP_InputField/TMPro.SelectionEvent
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_InputField::SelectionEvent*, "TMPro", "TMP_InputField/SelectionEvent");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_InputField::SelectionEvent::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

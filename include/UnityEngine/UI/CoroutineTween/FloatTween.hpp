@@ -3,7 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: UnityEngine.UI.CoroutineTween.ITweenValue
@@ -22,13 +22,6 @@ namespace UnityEngine::Events {
 // Completed forward declares
 // Type namespace: UnityEngine.UI.CoroutineTween
 namespace UnityEngine::UI::CoroutineTween {
-  // Forward declaring type: FloatTween
-  struct FloatTween;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CoroutineTween::FloatTween, "UnityEngine.UI.CoroutineTween", "FloatTween");
-// Type namespace: UnityEngine.UI.CoroutineTween
-namespace UnityEngine::UI::CoroutineTween {
   // Size: 0x15
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -38,11 +31,6 @@ namespace UnityEngine::UI::CoroutineTween {
     public:
     // Nested type: UnityEngine::UI::CoroutineTween::FloatTween::FloatTweenCallback
     class FloatTweenCallback;
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private UnityEngine.UI.CoroutineTween.FloatTween/UnityEngine.UI.CoroutineTween.FloatTweenCallback m_Target
     // Size: 0x8
     // Offset: 0x0
@@ -73,7 +61,6 @@ namespace UnityEngine::UI::CoroutineTween {
     bool m_IgnoreTimeScale;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
     // Creating value type constructor for type: FloatTween
     constexpr FloatTween(UnityEngine::UI::CoroutineTween::FloatTween::FloatTweenCallback* m_Target_ = {}, float m_StartValue_ = {}, float m_TargetValue_ = {}, float m_Duration_ = {}, bool m_IgnoreTimeScale_ = {}) noexcept : m_Target{m_Target_}, m_StartValue{m_StartValue_}, m_TargetValue{m_TargetValue_}, m_Duration{m_Duration_}, m_IgnoreTimeScale{m_IgnoreTimeScale_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -95,50 +82,52 @@ namespace UnityEngine::UI::CoroutineTween {
     // Get instance field reference: private System.Boolean m_IgnoreTimeScale
     bool& dyn_m_IgnoreTimeScale();
     // public System.Single get_startValue()
-    // Offset: 0x15E0CC8
+    // Offset: 0x166FFBC
     float get_startValue();
     // public System.Void set_startValue(System.Single value)
-    // Offset: 0x15E0CD0
+    // Offset: 0x166FFC4
     void set_startValue(float value);
     // public System.Single get_targetValue()
-    // Offset: 0x15E0CD8
+    // Offset: 0x166FFCC
     float get_targetValue();
     // public System.Void set_targetValue(System.Single value)
-    // Offset: 0x15E0CE0
+    // Offset: 0x166FFD4
     void set_targetValue(float value);
     // public System.Single get_duration()
-    // Offset: 0x15E0CE8
+    // Offset: 0x166FFDC
     float get_duration();
     // public System.Void set_duration(System.Single value)
-    // Offset: 0x15E0CF0
+    // Offset: 0x166FFE4
     void set_duration(float value);
     // public System.Boolean get_ignoreTimeScale()
-    // Offset: 0x15E0CF8
+    // Offset: 0x166FFEC
     bool get_ignoreTimeScale();
     // public System.Void set_ignoreTimeScale(System.Boolean value)
-    // Offset: 0x15E0D00
+    // Offset: 0x166FFF4
     void set_ignoreTimeScale(bool value);
     // public System.Void TweenValue(System.Single floatPercentage)
-    // Offset: 0x15E0D0C
+    // Offset: 0x1670000
     void TweenValue(float floatPercentage);
     // public System.Void AddOnChangedCallback(UnityEngine.Events.UnityAction`1<System.Single> callback)
-    // Offset: 0x15E0DDC
+    // Offset: 0x16700D0
     void AddOnChangedCallback(UnityEngine::Events::UnityAction_1<float>* callback);
     // public System.Boolean GetIgnoreTimescale()
-    // Offset: 0x15E0EB8
+    // Offset: 0x16701AC
     bool GetIgnoreTimescale();
     // public System.Single GetDuration()
-    // Offset: 0x15E0EC0
+    // Offset: 0x16701B4
     float GetDuration();
     // public System.Boolean ValidTarget()
-    // Offset: 0x15E0DCC
+    // Offset: 0x16700C0
     bool ValidTarget();
   }; // UnityEngine.UI.CoroutineTween.FloatTween
   #pragma pack(pop)
   static check_size<sizeof(FloatTween), 20 + sizeof(bool)> __UnityEngine_UI_CoroutineTween_FloatTweenSizeCheck;
   static_assert(sizeof(FloatTween) == 0x15);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CoroutineTween::FloatTween, "UnityEngine.UI.CoroutineTween", "FloatTween");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::CoroutineTween::FloatTween::get_startValue
 // Il2CppName: get_startValue
 template<>

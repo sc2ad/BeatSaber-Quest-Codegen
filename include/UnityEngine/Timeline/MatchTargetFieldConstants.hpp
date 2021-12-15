@@ -3,19 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Timeline.MatchTargetFields
 #include "UnityEngine/Timeline/MatchTargetFields.hpp"
 // Completed includes
-// Type namespace: UnityEngine.Timeline
-namespace UnityEngine::Timeline {
-  // Forward declaring type: MatchTargetFieldConstants
-  class MatchTargetFieldConstants;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Timeline::MatchTargetFieldConstants);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::MatchTargetFieldConstants*, "UnityEngine.Timeline", "MatchTargetFieldConstants");
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {
   // Size: 0x10
@@ -25,6 +17,8 @@ namespace UnityEngine::Timeline {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class MatchTargetFieldConstants : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: MatchTargetFieldConstants
+    MatchTargetFieldConstants() noexcept {}
     // Get static field: static public UnityEngine.Timeline.MatchTargetFields All
     static UnityEngine::Timeline::MatchTargetFields _get_All();
     // Set static field: static public UnityEngine.Timeline.MatchTargetFields All
@@ -42,18 +36,20 @@ namespace UnityEngine::Timeline {
     // Set static field: static public UnityEngine.Timeline.MatchTargetFields Rotation
     static void _set_Rotation(UnityEngine::Timeline::MatchTargetFields value);
     // static private System.Void .cctor()
-    // Offset: 0x19E11AC
+    // Offset: 0x19FF85C
     static void _cctor();
     // static public System.Boolean HasAny(UnityEngine.Timeline.MatchTargetFields me, UnityEngine.Timeline.MatchTargetFields fields)
-    // Offset: 0x19E1120
+    // Offset: 0x19FF7D0
     static bool HasAny(UnityEngine::Timeline::MatchTargetFields me, UnityEngine::Timeline::MatchTargetFields fields);
     // static public UnityEngine.Timeline.MatchTargetFields Toggle(UnityEngine.Timeline.MatchTargetFields me, UnityEngine.Timeline.MatchTargetFields flag)
-    // Offset: 0x19E11A4
+    // Offset: 0x19FF854
     static UnityEngine::Timeline::MatchTargetFields Toggle(UnityEngine::Timeline::MatchTargetFields me, UnityEngine::Timeline::MatchTargetFields flag);
   }; // UnityEngine.Timeline.MatchTargetFieldConstants
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::MatchTargetFieldConstants*, "UnityEngine.Timeline", "MatchTargetFieldConstants");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::MatchTargetFieldConstants::_cctor
 // Il2CppName: .cctor
 template<>

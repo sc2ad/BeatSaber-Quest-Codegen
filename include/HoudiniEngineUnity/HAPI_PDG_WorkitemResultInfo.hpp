@@ -4,17 +4,10 @@
 #pragma once
 // Begin includes
 #include <stdint.h>
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-// Type namespace: HoudiniEngineUnity
-namespace HoudiniEngineUnity {
-  // Forward declaring type: HAPI_PDG_WorkitemResultInfo
-  struct HAPI_PDG_WorkitemResultInfo;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_PDG_WorkitemResultInfo, "HoudiniEngineUnity", "HAPI_PDG_WorkitemResultInfo");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x10
@@ -24,11 +17,6 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HAPI_PDG_WorkitemResultInfo/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 resultSH
     // Size: 0x4
     // Offset: 0x0
@@ -47,7 +35,6 @@ namespace HoudiniEngineUnity {
     int64_t resultHash;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
-    public:
     // Creating value type constructor for type: HAPI_PDG_WorkitemResultInfo
     constexpr HAPI_PDG_WorkitemResultInfo(int resultSH_ = {}, int resultTagSH_ = {}, int64_t resultHash_ = {}) noexcept : resultSH{resultSH_}, resultTagSH{resultTagSH_}, resultHash{resultHash_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -65,4 +52,6 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HAPI_PDG_WorkitemResultInfo), 8 + sizeof(int64_t)> __HoudiniEngineUnity_HAPI_PDG_WorkitemResultInfoSizeCheck;
   static_assert(sizeof(HAPI_PDG_WorkitemResultInfo) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_PDG_WorkitemResultInfo, "HoudiniEngineUnity", "HAPI_PDG_WorkitemResultInfo");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

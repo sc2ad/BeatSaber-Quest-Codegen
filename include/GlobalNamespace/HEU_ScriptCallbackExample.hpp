@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: HEU_ScriptCallbackExample
-  class HEU_ScriptCallbackExample;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::HEU_ScriptCallbackExample);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HEU_ScriptCallbackExample*, "", "HEU_ScriptCallbackExample");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -29,30 +21,26 @@ namespace GlobalNamespace {
   // [ExecuteInEditMode] Offset: FFFFFFFF
   class HEU_ScriptCallbackExample : public UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.String _msg
     // Size: 0x8
     // Offset: 0x18
     ::Il2CppString* msg;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: HEU_ScriptCallbackExample
+    HEU_ScriptCallbackExample(::Il2CppString* msg_ = {}) noexcept : msg{msg_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.String _msg
     ::Il2CppString*& dyn__msg();
     // private System.Void AssetCallbackWithMsg(System.String msg)
-    // Offset: 0x141CEA0
+    // Offset: 0x14619C0
     void AssetCallbackWithMsg(::Il2CppString* msg);
     // private System.Void AssetCallbackNoMsg()
-    // Offset: 0x141CF3C
+    // Offset: 0x1461A5C
     void AssetCallbackNoMsg();
     // public System.Void .ctor()
-    // Offset: 0x141CFA8
+    // Offset: 0x1461AC8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -69,7 +57,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(HEU_ScriptCallbackExample), 24 + sizeof(::Il2CppString*)> __GlobalNamespace_HEU_ScriptCallbackExampleSizeCheck;
   static_assert(sizeof(HEU_ScriptCallbackExample) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HEU_ScriptCallbackExample*, "", "HEU_ScriptCallbackExample");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HEU_ScriptCallbackExample::AssetCallbackWithMsg
 // Il2CppName: AssetCallbackWithMsg
 template<>

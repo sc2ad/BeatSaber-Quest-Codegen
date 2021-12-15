@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Microsoft.Win32.Win32Native
 #include "Microsoft/Win32/Win32Native.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.IO
-namespace System::IO {
-  // Forward declaring type: SearchResult
-  class SearchResult;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::IO::SearchResult);
-DEFINE_IL2CPP_ARG_TYPE(System::IO::SearchResult*, "System.IO", "SearchResult");
 // Type namespace: System.IO
 namespace System::IO {
   // Size: 0x28
@@ -28,11 +20,6 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   class SearchResult : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.String fullPath
     // Size: 0x8
     // Offset: 0x10
@@ -51,7 +38,8 @@ namespace System::IO {
     Microsoft::Win32::Win32Native::WIN32_FIND_DATA* findData;
     // Field size check
     static_assert(sizeof(Microsoft::Win32::Win32Native::WIN32_FIND_DATA*) == 0x8);
-    public:
+    // Creating value type constructor for type: SearchResult
+    SearchResult(::Il2CppString* fullPath_ = {}, ::Il2CppString* userPath_ = {}, Microsoft::Win32::Win32Native::WIN32_FIND_DATA* findData_ = {}) noexcept : fullPath{fullPath_}, userPath{userPath_}, findData{findData_} {}
     // Get instance field reference: private System.String fullPath
     ::Il2CppString*& dyn_fullPath();
     // Get instance field reference: private System.String userPath
@@ -59,13 +47,13 @@ namespace System::IO {
     // Get instance field reference: private Microsoft.Win32.Win32Native/Microsoft.Win32.WIN32_FIND_DATA findData
     Microsoft::Win32::Win32Native::WIN32_FIND_DATA*& dyn_findData();
     // System.String get_UserPath()
-    // Offset: 0x1AA687C
+    // Offset: 0x1B07E94
     ::Il2CppString* get_UserPath();
     // Microsoft.Win32.Win32Native/Microsoft.Win32.WIN32_FIND_DATA get_FindData()
-    // Offset: 0x1AA6884
+    // Offset: 0x1B07E9C
     Microsoft::Win32::Win32Native::WIN32_FIND_DATA* get_FindData();
     // System.Void .ctor(System.String fullPath, System.String userPath, Microsoft.Win32.Win32Native/Microsoft.Win32.WIN32_FIND_DATA findData)
-    // Offset: 0x1AA683C
+    // Offset: 0x1B07E54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SearchResult* New_ctor(::Il2CppString* fullPath, ::Il2CppString* userPath, Microsoft::Win32::Win32Native::WIN32_FIND_DATA* findData) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::SearchResult::.ctor");
@@ -76,7 +64,8 @@ namespace System::IO {
   static check_size<sizeof(SearchResult), 32 + sizeof(Microsoft::Win32::Win32Native::WIN32_FIND_DATA*)> __System_IO_SearchResultSizeCheck;
   static_assert(sizeof(SearchResult) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::IO::SearchResult*, "System.IO", "SearchResult");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::SearchResult::get_UserPath
 // Il2CppName: get_UserPath
 template<>

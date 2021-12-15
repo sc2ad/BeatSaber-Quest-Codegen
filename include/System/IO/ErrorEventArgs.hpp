@@ -3,19 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.EventArgs
 #include "System/EventArgs.hpp"
 // Completed includes
-// Type namespace: System.IO
-namespace System::IO {
-  // Forward declaring type: ErrorEventArgs
-  class ErrorEventArgs;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::IO::ErrorEventArgs);
-DEFINE_IL2CPP_ARG_TYPE(System::IO::ErrorEventArgs*, "System.IO", "ErrorEventArgs");
 // Type namespace: System.IO
 namespace System::IO {
   // Size: 0x10
@@ -24,7 +16,11 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   class ErrorEventArgs : public System::EventArgs {
     public:
+    // Creating value type constructor for type: ErrorEventArgs
+    ErrorEventArgs() noexcept {}
   }; // System.IO.ErrorEventArgs
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::IO::ErrorEventArgs*, "System.IO", "ErrorEventArgs");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

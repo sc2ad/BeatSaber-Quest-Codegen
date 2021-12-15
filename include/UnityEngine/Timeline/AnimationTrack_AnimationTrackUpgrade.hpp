@@ -3,19 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Timeline.AnimationTrack
 #include "UnityEngine/Timeline/AnimationTrack.hpp"
 // Completed includes
-// Type namespace: UnityEngine.Timeline
-namespace UnityEngine::Timeline {
-  // Forward declaring type: AnimationTrackUpgrade
-  class AnimationTrackUpgrade;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Timeline::AnimationTrack::AnimationTrackUpgrade);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AnimationTrack::AnimationTrackUpgrade*, "UnityEngine.Timeline", "AnimationTrack/AnimationTrackUpgrade");
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {
   // Size: 0x10
@@ -24,19 +16,23 @@ namespace UnityEngine::Timeline {
   // [TokenAttribute] Offset: FFFFFFFF
   class AnimationTrack::AnimationTrackUpgrade : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: AnimationTrackUpgrade
+    AnimationTrackUpgrade() noexcept {}
     // static public System.Void ConvertRotationsToEuler(UnityEngine.Timeline.AnimationTrack track)
-    // Offset: 0x19D8644
+    // Offset: 0x19F6CF4
     static void ConvertRotationsToEuler(UnityEngine::Timeline::AnimationTrack* track);
     // static public System.Void ConvertRootMotion(UnityEngine.Timeline.AnimationTrack track)
-    // Offset: 0x19D8690
+    // Offset: 0x19F6D40
     static void ConvertRootMotion(UnityEngine::Timeline::AnimationTrack* track);
     // static public System.Void ConvertInfiniteTrack(UnityEngine.Timeline.AnimationTrack track)
-    // Offset: 0x19D8728
+    // Offset: 0x19F6DD8
     static void ConvertInfiniteTrack(UnityEngine::Timeline::AnimationTrack* track);
   }; // UnityEngine.Timeline.AnimationTrack/UnityEngine.Timeline.AnimationTrackUpgrade
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AnimationTrack::AnimationTrackUpgrade*, "UnityEngine.Timeline", "AnimationTrack/AnimationTrackUpgrade");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::AnimationTrack::AnimationTrackUpgrade::ConvertRotationsToEuler
 // Il2CppName: ConvertRotationsToEuler
 template<>

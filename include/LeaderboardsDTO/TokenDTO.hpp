@@ -3,21 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: LeaderboardsDTO
-namespace LeaderboardsDTO {
-  // Forward declaring type: TokenDTO
-  class TokenDTO;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(LeaderboardsDTO::TokenDTO);
-DEFINE_IL2CPP_ARG_TYPE(LeaderboardsDTO::TokenDTO*, "LeaderboardsDTO", "TokenDTO");
 // Type namespace: LeaderboardsDTO
 namespace LeaderboardsDTO {
   // Size: 0x1C
@@ -26,11 +18,6 @@ namespace LeaderboardsDTO {
   // [TokenAttribute] Offset: FFFFFFFF
   class TokenDTO : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.String token
     // Size: 0x8
     // Offset: 0x10
@@ -43,13 +30,14 @@ namespace LeaderboardsDTO {
     int expireIn;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
+    // Creating value type constructor for type: TokenDTO
+    TokenDTO(::Il2CppString* token_ = {}, int expireIn_ = {}) noexcept : token{token_}, expireIn{expireIn_} {}
     // Get instance field reference: public System.String token
     ::Il2CppString*& dyn_token();
     // Get instance field reference: public System.Int32 expireIn
     int& dyn_expireIn();
     // public System.Void .ctor()
-    // Offset: 0x11DEF98
+    // Offset: 0x11A3AC8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -62,7 +50,8 @@ namespace LeaderboardsDTO {
   static check_size<sizeof(TokenDTO), 24 + sizeof(int)> __LeaderboardsDTO_TokenDTOSizeCheck;
   static_assert(sizeof(TokenDTO) == 0x1C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(LeaderboardsDTO::TokenDTO*, "LeaderboardsDTO", "TokenDTO");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LeaderboardsDTO::TokenDTO::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

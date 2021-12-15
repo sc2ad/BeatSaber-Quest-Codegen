@@ -4,20 +4,13 @@
 #pragma once
 // Begin includes
 #include <stdint.h>
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct Il2CppString;
 // Completed il2cpp-utils forward declares
-// Type namespace: NetEase.Docker
-namespace NetEase::Docker {
-  // Forward declaring type: ScoreData
-  struct ScoreData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::ScoreData, "NetEase.Docker", "ScoreData");
 // Type namespace: NetEase.Docker
 namespace NetEase::Docker {
   // Size: 0x18
@@ -27,19 +20,14 @@ namespace NetEase::Docker {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ScoreData/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
-    // [DebuggerBrowsableAttribute] Offset: 0xEEDB2C
+    // [DebuggerBrowsableAttribute] Offset: 0xF2E990
     // private System.String <Name>k__BackingField
     // Size: 0x8
     // Offset: 0x0
     ::Il2CppString* Name;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xEEDB68
+    // [DebuggerBrowsableAttribute] Offset: 0xF2E9CC
     // private System.Int32 <Score>k__BackingField
     // Size: 0x4
     // Offset: 0x8
@@ -48,14 +36,13 @@ namespace NetEase::Docker {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: Score and: TimeStamp
     char __padding1[0x4] = {};
-    // [DebuggerBrowsableAttribute] Offset: 0xEEDBA4
+    // [DebuggerBrowsableAttribute] Offset: 0xF2EA08
     // private System.Int64 <TimeStamp>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     int64_t TimeStamp;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
-    public:
     // Creating value type constructor for type: ScoreData
     constexpr ScoreData(::Il2CppString* Name_ = {}, int Score_ = {}, int64_t TimeStamp_ = {}) noexcept : Name{Name_}, Score{Score_}, TimeStamp{TimeStamp_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -69,26 +56,28 @@ namespace NetEase::Docker {
     // Get instance field reference: private System.Int64 <TimeStamp>k__BackingField
     int64_t& dyn_$TimeStamp$k__BackingField();
     // public System.String get_Name()
-    // Offset: 0x2607AF4
+    // Offset: 0x26CAB1C
     ::Il2CppString* get_Name();
     // public System.Void set_Name(System.String value)
-    // Offset: 0x2607AFC
+    // Offset: 0x26CAB24
     void set_Name(::Il2CppString* value);
     // public System.Int32 get_Score()
-    // Offset: 0x2607B04
+    // Offset: 0x26CAB2C
     int get_Score();
     // public System.Void set_Score(System.Int32 value)
-    // Offset: 0x2607B0C
+    // Offset: 0x26CAB34
     void set_Score(int value);
     // public System.Void set_TimeStamp(System.Int64 value)
-    // Offset: 0x2607B14
+    // Offset: 0x26CAB3C
     void set_TimeStamp(int64_t value);
   }; // NetEase.Docker.ScoreData
   #pragma pack(pop)
   static check_size<sizeof(ScoreData), 16 + sizeof(int64_t)> __NetEase_Docker_ScoreDataSizeCheck;
   static_assert(sizeof(ScoreData) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::ScoreData, "NetEase.Docker", "ScoreData");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NetEase::Docker::ScoreData::get_Name
 // Il2CppName: get_Name
 template<>

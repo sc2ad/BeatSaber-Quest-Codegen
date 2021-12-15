@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: ExternalCamerasManager
 #include "GlobalNamespace/ExternalCamerasManager.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: InitData
-  class InitData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::ExternalCamerasManager::InitData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ExternalCamerasManager::InitData*, "", "ExternalCamerasManager/InitData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x11
@@ -28,18 +20,14 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ExternalCamerasManager::InitData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public readonly System.Boolean enableOculusMRC
     // Size: 0x1
     // Offset: 0x10
     bool enableOculusMRC;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: InitData
+    InitData(bool enableOculusMRC_ = {}) noexcept : enableOculusMRC{enableOculusMRC_} {}
     // Creating conversion operator: operator bool
     constexpr operator bool() const noexcept {
       return enableOculusMRC;
@@ -47,7 +35,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Boolean enableOculusMRC
     bool& dyn_enableOculusMRC();
     // public System.Void .ctor(System.Boolean enableOculusMRC)
-    // Offset: 0x256C478
+    // Offset: 0x262DC24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ExternalCamerasManager::InitData* New_ctor(bool enableOculusMRC) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ExternalCamerasManager::InitData::.ctor");
@@ -58,7 +46,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(ExternalCamerasManager::InitData), 16 + sizeof(bool)> __GlobalNamespace_ExternalCamerasManager_InitDataSizeCheck;
   static_assert(sizeof(ExternalCamerasManager::InitData) == 0x11);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ExternalCamerasManager::InitData*, "", "ExternalCamerasManager/InitData");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ExternalCamerasManager::InitData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -3,19 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Timeline.TimelineClip
 #include "UnityEngine/Timeline/TimelineClip.hpp"
 // Completed includes
-// Type namespace: UnityEngine.Timeline
-namespace UnityEngine::Timeline {
-  // Forward declaring type: TimelineClipUpgrade
-  class TimelineClipUpgrade;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Timeline::TimelineClip::TimelineClipUpgrade);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineClip::TimelineClipUpgrade*, "UnityEngine.Timeline", "TimelineClip/TimelineClipUpgrade");
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {
   // Size: 0x10
@@ -24,13 +16,17 @@ namespace UnityEngine::Timeline {
   // [TokenAttribute] Offset: FFFFFFFF
   class TimelineClip::TimelineClipUpgrade : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: TimelineClipUpgrade
+    TimelineClipUpgrade() noexcept {}
     // static public System.Void UpgradeClipInFromGlobalToLocal(UnityEngine.Timeline.TimelineClip clip)
-    // Offset: 0x2545524
+    // Offset: 0x2610E64
     static void UpgradeClipInFromGlobalToLocal(UnityEngine::Timeline::TimelineClip* clip);
   }; // UnityEngine.Timeline.TimelineClip/UnityEngine.Timeline.TimelineClipUpgrade
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineClip::TimelineClipUpgrade*, "UnityEngine.Timeline", "TimelineClip/TimelineClipUpgrade");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::TimelineClipUpgrade::UpgradeClipInFromGlobalToLocal
 // Il2CppName: UpgradeClipInFromGlobalToLocal
 template<>

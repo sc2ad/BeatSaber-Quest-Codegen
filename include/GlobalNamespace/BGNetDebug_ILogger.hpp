@@ -3,19 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BGNetDebug
 #include "GlobalNamespace/BGNetDebug.hpp"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: ILogger
-  class ILogger;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BGNetDebug::ILogger);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BGNetDebug::ILogger*, "", "BGNetDebug/ILogger");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -24,6 +16,8 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BGNetDebug::ILogger {
     public:
+    // Creating value type constructor for type: ILogger
+    ILogger() noexcept {}
     // public System.Void LogInfo(System.String message)
     // Offset: 0xFFFFFFFF
     void LogInfo(::Il2CppString* message);
@@ -36,7 +30,9 @@ namespace GlobalNamespace {
   }; // BGNetDebug/ILogger
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BGNetDebug::ILogger*, "", "BGNetDebug/ILogger");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BGNetDebug::ILogger::LogInfo
 // Il2CppName: LogInfo
 template<>

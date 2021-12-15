@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.AnimatedSwitchView
 #include "HMUI/AnimatedSwitchView.hpp"
 // Including type: UnityEngine.Color
 #include "UnityEngine/Color.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: HMUI
-namespace HMUI {
-  // Forward declaring type: ColorBlock
-  class ColorBlock;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HMUI::AnimatedSwitchView::ColorBlock);
-DEFINE_IL2CPP_ARG_TYPE(HMUI::AnimatedSwitchView::ColorBlock*, "HMUI", "AnimatedSwitchView/ColorBlock");
 // Type namespace: HMUI
 namespace HMUI {
   // Size: 0x70
@@ -30,11 +22,6 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class AnimatedSwitchView::ColorBlock : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public UnityEngine.Color knobColor
     // Size: 0x10
     // Offset: 0x10
@@ -53,7 +40,7 @@ namespace HMUI {
     UnityEngine::Color knobColor1;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
-    // [SpaceAttribute] Offset: 0xEE33F0
+    // [SpaceAttribute] Offset: 0xF269A8
     // public UnityEngine.Color backgroundColor
     // Size: 0x10
     // Offset: 0x40
@@ -72,7 +59,8 @@ namespace HMUI {
     UnityEngine::Color backgroundColor1;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
-    public:
+    // Creating value type constructor for type: ColorBlock
+    ColorBlock(UnityEngine::Color knobColor_ = {}, UnityEngine::Color knobColor0_ = {}, UnityEngine::Color knobColor1_ = {}, UnityEngine::Color backgroundColor_ = {}, UnityEngine::Color backgroundColor0_ = {}, UnityEngine::Color backgroundColor1_ = {}) noexcept : knobColor{knobColor_}, knobColor0{knobColor0_}, knobColor1{knobColor1_}, backgroundColor{backgroundColor_}, backgroundColor0{backgroundColor0_}, backgroundColor1{backgroundColor1_} {}
     // Get instance field reference: public UnityEngine.Color knobColor
     UnityEngine::Color& dyn_knobColor();
     // Get instance field reference: public UnityEngine.Color knobColor0
@@ -86,7 +74,7 @@ namespace HMUI {
     // Get instance field reference: public UnityEngine.Color backgroundColor1
     UnityEngine::Color& dyn_backgroundColor1();
     // public System.Void .ctor()
-    // Offset: 0x1468084
+    // Offset: 0x1497868
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -99,7 +87,8 @@ namespace HMUI {
   static check_size<sizeof(AnimatedSwitchView::ColorBlock), 96 + sizeof(UnityEngine::Color)> __HMUI_AnimatedSwitchView_ColorBlockSizeCheck;
   static_assert(sizeof(AnimatedSwitchView::ColorBlock) == 0x70);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HMUI::AnimatedSwitchView::ColorBlock*, "HMUI", "AnimatedSwitchView/ColorBlock");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::AnimatedSwitchView::ColorBlock::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

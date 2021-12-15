@@ -3,21 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: Deeplink
-  class Deeplink;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::Deeplink);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Deeplink*, "", "Deeplink");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x50
@@ -26,11 +18,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class Deeplink : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.String Destination
     // Size: 0x8
     // Offset: 0x10
@@ -79,7 +66,8 @@ namespace GlobalNamespace {
     uint64_t MultiplayerRoomId;
     // Field size check
     static_assert(sizeof(uint64_t) == 0x8);
-    public:
+    // Creating value type constructor for type: Deeplink
+    Deeplink(::Il2CppString* Destination_ = {}, ::Il2CppString* LevelID_ = {}, ::Il2CppString* PackID_ = {}, ::Il2CppString* Difficulty_ = {}, ::Il2CppString* Characteristic_ = {}, ::Il2CppString* MultiplayerLobbyCode_ = {}, ::Il2CppString* MultiplayerSecret_ = {}, uint64_t MultiplayerRoomId_ = {}) noexcept : Destination{Destination_}, LevelID{LevelID_}, PackID{PackID_}, Difficulty{Difficulty_}, Characteristic{Characteristic_}, MultiplayerLobbyCode{MultiplayerLobbyCode_}, MultiplayerSecret{MultiplayerSecret_}, MultiplayerRoomId{MultiplayerRoomId_} {}
     // Get instance field reference: public System.String Destination
     ::Il2CppString*& dyn_Destination();
     // Get instance field reference: public System.String LevelID
@@ -97,7 +85,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.UInt64 MultiplayerRoomId
     uint64_t& dyn_MultiplayerRoomId();
     // public System.Void .ctor()
-    // Offset: 0x1139AB4
+    // Offset: 0x11D395C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -110,7 +98,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(Deeplink), 72 + sizeof(uint64_t)> __GlobalNamespace_DeeplinkSizeCheck;
   static_assert(sizeof(Deeplink) == 0x50);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Deeplink*, "", "Deeplink");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::Deeplink::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -3,24 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ParameterizedStrings
 #include "System/ParameterizedStrings.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System
-namespace System {
-  // Forward declaring type: LowLevelStack
-  class LowLevelStack;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::ParameterizedStrings::LowLevelStack);
-DEFINE_IL2CPP_ARG_TYPE(System::ParameterizedStrings::LowLevelStack*, "System", "ParameterizedStrings/LowLevelStack");
 // Type namespace: System
 namespace System {
   // Size: 0x1C
@@ -29,39 +20,35 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class ParameterizedStrings::LowLevelStack : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.ParameterizedStrings/System.FormatParam[] _arr
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<System::ParameterizedStrings::FormatParam> arr;
+    ::Array<System::ParameterizedStrings::FormatParam>* arr;
     // Field size check
-    static_assert(sizeof(::ArrayW<System::ParameterizedStrings::FormatParam>) == 0x8);
+    static_assert(sizeof(::Array<System::ParameterizedStrings::FormatParam>*) == 0x8);
     // private System.Int32 _count
     // Size: 0x4
     // Offset: 0x18
     int count;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
+    // Creating value type constructor for type: LowLevelStack
+    LowLevelStack(::Array<System::ParameterizedStrings::FormatParam>* arr_ = {}, int count_ = {}) noexcept : arr{arr_}, count{count_} {}
     // Get instance field reference: private System.ParameterizedStrings/System.FormatParam[] _arr
-    ::ArrayW<System::ParameterizedStrings::FormatParam>& dyn__arr();
+    ::Array<System::ParameterizedStrings::FormatParam>*& dyn__arr();
     // Get instance field reference: private System.Int32 _count
     int& dyn__count();
     // public System.ParameterizedStrings/System.FormatParam Pop()
-    // Offset: 0x1E8569C
+    // Offset: 0x1E8B0FC
     System::ParameterizedStrings::FormatParam Pop();
     // public System.Void Push(System.ParameterizedStrings/System.FormatParam item)
-    // Offset: 0x1E85A38
+    // Offset: 0x1E8B498
     void Push(System::ParameterizedStrings::FormatParam item);
     // public System.Void Clear()
-    // Offset: 0x1E84DC0
+    // Offset: 0x1E8A820
     void Clear();
     // public System.Void .ctor()
-    // Offset: 0x1E84D68
+    // Offset: 0x1E8A7C8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -74,7 +61,8 @@ namespace System {
   static check_size<sizeof(ParameterizedStrings::LowLevelStack), 24 + sizeof(int)> __System_ParameterizedStrings_LowLevelStackSizeCheck;
   static_assert(sizeof(ParameterizedStrings::LowLevelStack) == 0x1C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::ParameterizedStrings::LowLevelStack*, "System", "ParameterizedStrings/LowLevelStack");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ParameterizedStrings::LowLevelStack::Pop
 // Il2CppName: Pop
 template<>

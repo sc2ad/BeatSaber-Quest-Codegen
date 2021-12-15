@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Oculus.Platform.Callback
 #include "Oculus/Platform/Callback.hpp"
 // Including type: Oculus.Platform.Message
 #include "Oculus/Platform/Message.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Oculus.Platform
-namespace Oculus::Platform {
-  // Forward declaring type: RequestCallback
-  class RequestCallback;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Callback::RequestCallback);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Callback::RequestCallback*, "Oculus.Platform", "Callback/RequestCallback");
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
   // Size: 0x18
@@ -30,18 +22,14 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class Callback::RequestCallback : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private Oculus.Platform.Message/Oculus.Platform.Callback messageCallback
     // Size: 0x8
     // Offset: 0x10
     Oculus::Platform::Message::Callback* messageCallback;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Message::Callback*) == 0x8);
-    public:
+    // Creating value type constructor for type: RequestCallback
+    RequestCallback(Oculus::Platform::Message::Callback* messageCallback_ = {}) noexcept : messageCallback{messageCallback_} {}
     // Creating conversion operator: operator Oculus::Platform::Message::Callback*
     constexpr operator Oculus::Platform::Message::Callback*() const noexcept {
       return messageCallback;
@@ -49,17 +37,17 @@ namespace Oculus::Platform {
     // Get instance field reference: private Oculus.Platform.Message/Oculus.Platform.Callback messageCallback
     Oculus::Platform::Message::Callback*& dyn_messageCallback();
     // public System.Void .ctor(Oculus.Platform.Message/Oculus.Platform.Callback callback)
-    // Offset: 0x168CB00
+    // Offset: 0x1749F1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Callback::RequestCallback* New_ctor(Oculus::Platform::Message::Callback* callback) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Callback::RequestCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Callback::RequestCallback*, creationType>(callback)));
     }
     // public System.Void HandleMessage(Oculus.Platform.Message msg)
-    // Offset: 0x168D438
+    // Offset: 0x174A854
     void HandleMessage(Oculus::Platform::Message* msg);
     // public System.Void .ctor()
-    // Offset: 0x168D430
+    // Offset: 0x174A84C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -72,7 +60,8 @@ namespace Oculus::Platform {
   static check_size<sizeof(Callback::RequestCallback), 16 + sizeof(Oculus::Platform::Message::Callback*)> __Oculus_Platform_Callback_RequestCallbackSizeCheck;
   static_assert(sizeof(Callback::RequestCallback) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Callback::RequestCallback*, "Oculus.Platform", "Callback/RequestCallback");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Callback::RequestCallback::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

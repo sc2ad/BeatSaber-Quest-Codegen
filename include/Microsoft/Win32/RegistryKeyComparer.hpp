@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Collections.IEqualityComparer
 #include "System/Collections/IEqualityComparer.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Microsoft.Win32
-namespace Microsoft::Win32 {
-  // Forward declaring type: RegistryKeyComparer
-  class RegistryKeyComparer;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Microsoft::Win32::RegistryKeyComparer);
-DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::RegistryKeyComparer*, "Microsoft.Win32", "RegistryKeyComparer");
 // Type namespace: Microsoft.Win32
 namespace Microsoft::Win32 {
   // Size: 0x10
@@ -28,18 +20,20 @@ namespace Microsoft::Win32 {
   // [TokenAttribute] Offset: FFFFFFFF
   class RegistryKeyComparer : public ::Il2CppObject/*, public System::Collections::IEqualityComparer*/ {
     public:
+    // Creating value type constructor for type: RegistryKeyComparer
+    RegistryKeyComparer() noexcept {}
     // Creating interface conversion operator: operator System::Collections::IEqualityComparer
     operator System::Collections::IEqualityComparer() noexcept {
       return *reinterpret_cast<System::Collections::IEqualityComparer*>(this);
     }
     // public System.Boolean Equals(System.Object x, System.Object y)
-    // Offset: 0x1C127D8
+    // Offset: 0x1C6B8D0
     bool Equals(::Il2CppObject* x, ::Il2CppObject* y);
     // public System.Int32 GetHashCode(System.Object obj)
-    // Offset: 0x1C1288C
+    // Offset: 0x1C6B984
     int GetHashCode(::Il2CppObject* obj);
     // public System.Void .ctor()
-    // Offset: 0x1C0D594
+    // Offset: 0x1C6668C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -50,7 +44,8 @@ namespace Microsoft::Win32 {
   }; // Microsoft.Win32.RegistryKeyComparer
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::RegistryKeyComparer*, "Microsoft.Win32", "RegistryKeyComparer");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Microsoft::Win32::RegistryKeyComparer::Equals
 // Il2CppName: Equals
 template<>

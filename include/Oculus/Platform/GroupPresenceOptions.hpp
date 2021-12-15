@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Oculus.Platform
-namespace Oculus::Platform {
-  // Forward declaring type: GroupPresenceOptions
-  class GroupPresenceOptions;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::GroupPresenceOptions);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::GroupPresenceOptions*, "Oculus.Platform", "GroupPresenceOptions");
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
   // Size: 0x18
@@ -28,18 +20,14 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class GroupPresenceOptions : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.IntPtr Handle
     // Size: 0x8
     // Offset: 0x10
     System::IntPtr Handle;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
-    public:
+    // Creating value type constructor for type: GroupPresenceOptions
+    GroupPresenceOptions(System::IntPtr Handle_ = {}) noexcept : Handle{Handle_} {}
     // Creating conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept {
       return Handle;
@@ -47,22 +35,22 @@ namespace Oculus::Platform {
     // Get instance field reference: private System.IntPtr Handle
     System::IntPtr& dyn_Handle();
     // public System.Void SetDestinationApiName(System.String value)
-    // Offset: 0x16913CC
+    // Offset: 0x174E7E8
     void SetDestinationApiName(::Il2CppString* value);
     // public System.Void SetIsJoinable(System.Boolean value)
-    // Offset: 0x1691448
+    // Offset: 0x174E864
     void SetIsJoinable(bool value);
     // public System.Void SetLobbySessionId(System.String value)
-    // Offset: 0x16914C4
+    // Offset: 0x174E8E0
     void SetLobbySessionId(::Il2CppString* value);
     // public System.Void SetMatchSessionId(System.String value)
-    // Offset: 0x1691540
+    // Offset: 0x174E95C
     void SetMatchSessionId(::Il2CppString* value);
     // static public System.IntPtr op_Explicit(Oculus.Platform.GroupPresenceOptions options)
-    // Offset: 0x1690D4C
+    // Offset: 0x174E168
     // ABORTED: conflicts with another method.  explicit operator System::IntPtr();
     // public System.Void .ctor()
-    // Offset: 0x1691354
+    // Offset: 0x174E770
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -71,7 +59,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<GroupPresenceOptions*, creationType>()));
     }
     // protected override System.Void Finalize()
-    // Offset: 0x16915BC
+    // Offset: 0x174E9D8
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
@@ -80,7 +68,8 @@ namespace Oculus::Platform {
   static check_size<sizeof(GroupPresenceOptions), 16 + sizeof(System::IntPtr)> __Oculus_Platform_GroupPresenceOptionsSizeCheck;
   static_assert(sizeof(GroupPresenceOptions) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::GroupPresenceOptions*, "Oculus.Platform", "GroupPresenceOptions");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::GroupPresenceOptions::SetDestinationApiName
 // Il2CppName: SetDestinationApiName
 template<>

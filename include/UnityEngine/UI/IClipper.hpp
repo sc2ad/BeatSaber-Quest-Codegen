@@ -3,16 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: UnityEngine.UI
-namespace UnityEngine::UI {
-  // Forward declaring type: IClipper
-  class IClipper;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::UI::IClipper);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::IClipper*, "UnityEngine.UI", "IClipper");
 // Type namespace: UnityEngine.UI
 namespace UnityEngine::UI {
   // Size: 0x10
@@ -21,13 +13,17 @@ namespace UnityEngine::UI {
   // [TokenAttribute] Offset: FFFFFFFF
   class IClipper {
     public:
+    // Creating value type constructor for type: IClipper
+    IClipper() noexcept {}
     // public System.Void PerformClipping()
     // Offset: 0xFFFFFFFF
     void PerformClipping();
   }; // UnityEngine.UI.IClipper
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::IClipper*, "UnityEngine.UI", "IClipper");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::IClipper::PerformClipping
 // Il2CppName: PerformClipping
 template<>

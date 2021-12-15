@@ -3,7 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Runtime.CompilerServices.YieldAwaitable
 #include "System/Runtime/CompilerServices/YieldAwaitable.hpp"
 // Including type: System.Runtime.CompilerServices.ICriticalNotifyCompletion
@@ -26,13 +26,6 @@ namespace System {
 // Begin il2cpp-utils forward declares
 struct Il2CppObject;
 // Completed il2cpp-utils forward declares
-// Type namespace: System.Runtime.CompilerServices
-namespace System::Runtime::CompilerServices {
-  // Forward declaring type: YieldAwaiter
-  struct YieldAwaiter;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::YieldAwaitable::YieldAwaiter, "System.Runtime.CompilerServices", "YieldAwaitable/YieldAwaiter");
 // Type namespace: System.Runtime.CompilerServices
 namespace System::Runtime::CompilerServices {
   // Size: 0x0
@@ -61,30 +54,32 @@ namespace System::Runtime::CompilerServices {
     // Set static field: static private readonly System.Threading.SendOrPostCallback s_sendOrPostCallbackRunAction
     static void _set_s_sendOrPostCallbackRunAction(System::Threading::SendOrPostCallback* value);
     // public System.Boolean get_IsCompleted()
-    // Offset: 0x1593B04
+    // Offset: 0x1621DF8
     bool get_IsCompleted();
     // static private System.Void .cctor()
-    // Offset: 0x1593F20
+    // Offset: 0x1622214
     static void _cctor();
     // public System.Void OnCompleted(System.Action continuation)
-    // Offset: 0x1593B0C
+    // Offset: 0x1621E00
     void OnCompleted(System::Action* continuation);
     // public System.Void UnsafeOnCompleted(System.Action continuation)
-    // Offset: 0x1593E48
+    // Offset: 0x162213C
     void UnsafeOnCompleted(System::Action* continuation);
     // static private System.Void QueueContinuation(System.Action continuation, System.Boolean flowContext)
-    // Offset: 0x1593B74
+    // Offset: 0x1621E68
     static void QueueContinuation(System::Action* continuation, bool flowContext);
     // static private System.Void RunAction(System.Object state)
-    // Offset: 0x1593EB0
+    // Offset: 0x16221A4
     static void RunAction(::Il2CppObject* state);
     // public System.Void GetResult()
-    // Offset: 0x1593F1C
+    // Offset: 0x1622210
     void GetResult();
   }; // System.Runtime.CompilerServices.YieldAwaitable/System.Runtime.CompilerServices.YieldAwaiter
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::YieldAwaitable::YieldAwaiter, "System.Runtime.CompilerServices", "YieldAwaitable/YieldAwaiter");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::YieldAwaitable::YieldAwaiter::get_IsCompleted
 // Il2CppName: get_IsCompleted
 template<>

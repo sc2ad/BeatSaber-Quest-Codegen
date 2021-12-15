@@ -3,16 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: TMPro
-namespace TMPro {
-  // Forward declaring type: ITweenValue
-  class ITweenValue;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(TMPro::ITweenValue);
-DEFINE_IL2CPP_ARG_TYPE(TMPro::ITweenValue*, "TMPro", "ITweenValue");
 // Type namespace: TMPro
 namespace TMPro {
   // Size: 0x10
@@ -21,6 +13,8 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class ITweenValue {
     public:
+    // Creating value type constructor for type: ITweenValue
+    ITweenValue() noexcept {}
     // public System.Boolean get_ignoreTimeScale()
     // Offset: 0xFFFFFFFF
     bool get_ignoreTimeScale();
@@ -36,7 +30,9 @@ namespace TMPro {
   }; // TMPro.ITweenValue
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::ITweenValue*, "TMPro", "ITweenValue");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::ITweenValue::get_ignoreTimeScale
 // Il2CppName: get_ignoreTimeScale
 template<>

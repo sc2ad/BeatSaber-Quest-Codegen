@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid
 #include "Microsoft/Win32/SafeHandles/SafeHandleZeroOrMinusOneIsInvalid.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Microsoft.Win32.SafeHandles
-namespace Microsoft::Win32::SafeHandles {
-  // Forward declaring type: SafeProcessHandle
-  class SafeProcessHandle;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Microsoft::Win32::SafeHandles::SafeProcessHandle);
-DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::SafeHandles::SafeProcessHandle*, "Microsoft.Win32.SafeHandles", "SafeProcessHandle");
 // Type namespace: Microsoft.Win32.SafeHandles
 namespace Microsoft::Win32::SafeHandles {
   // Size: 0x1E
@@ -28,22 +20,24 @@ namespace Microsoft::Win32::SafeHandles {
   // [TokenAttribute] Offset: FFFFFFFF
   class SafeProcessHandle : public Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid {
     public:
+    // Creating value type constructor for type: SafeProcessHandle
+    SafeProcessHandle() noexcept {}
     // Get static field: static Microsoft.Win32.SafeHandles.SafeProcessHandle InvalidHandle
     static Microsoft::Win32::SafeHandles::SafeProcessHandle* _get_InvalidHandle();
     // Set static field: static Microsoft.Win32.SafeHandles.SafeProcessHandle InvalidHandle
     static void _set_InvalidHandle(Microsoft::Win32::SafeHandles::SafeProcessHandle* value);
     // System.Void .ctor(System.IntPtr handle)
-    // Offset: 0x1799270
+    // Offset: 0x1828B84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SafeProcessHandle* New_ctor(System::IntPtr handle) {
       static auto ___internal__logger = ::Logger::get().WithContext("Microsoft::Win32::SafeHandles::SafeProcessHandle::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SafeProcessHandle*, creationType>(handle)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x17992A8
+    // Offset: 0x1828BBC
     static void _cctor();
     // public System.Void .ctor(System.IntPtr existingHandle, System.Boolean ownsHandle)
-    // Offset: 0x1799004
+    // Offset: 0x1828918
     // Implemented from: System.Runtime.InteropServices.SafeHandle
     // Base method: System.Void SafeHandle::.ctor(System.IntPtr existingHandle, System.Boolean ownsHandle)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -52,14 +46,15 @@ namespace Microsoft::Win32::SafeHandles {
       return THROW_UNLESS((::il2cpp_utils::New<SafeProcessHandle*, creationType>(existingHandle, ownsHandle)));
     }
     // protected override System.Boolean ReleaseHandle()
-    // Offset: 0x17992A0
+    // Offset: 0x1828BB4
     // Implemented from: System.Runtime.InteropServices.SafeHandle
     // Base method: System.Boolean SafeHandle::ReleaseHandle()
     bool ReleaseHandle();
   }; // Microsoft.Win32.SafeHandles.SafeProcessHandle
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::SafeHandles::SafeProcessHandle*, "Microsoft.Win32.SafeHandles", "SafeProcessHandle");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Microsoft::Win32::SafeHandles::SafeProcessHandle::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

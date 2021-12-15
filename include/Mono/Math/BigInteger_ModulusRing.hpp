@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Mono.Math.BigInteger
 #include "Mono/Math/BigInteger.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Mono.Math
-namespace Mono::Math {
-  // Forward declaring type: ModulusRing
-  class ModulusRing;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Math::BigInteger::ModulusRing);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Math::BigInteger::ModulusRing*, "Mono.Math", "BigInteger/ModulusRing");
 // Type namespace: Mono.Math
 namespace Mono::Math {
   // Size: 0x20
@@ -28,11 +20,6 @@ namespace Mono::Math {
   // [TokenAttribute] Offset: FFFFFFFF
   class BigInteger::ModulusRing : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private Mono.Math.BigInteger mod
     // Size: 0x8
     // Offset: 0x10
@@ -45,39 +32,41 @@ namespace Mono::Math {
     Mono::Math::BigInteger* constant;
     // Field size check
     static_assert(sizeof(Mono::Math::BigInteger*) == 0x8);
-    public:
+    // Creating value type constructor for type: ModulusRing
+    ModulusRing(Mono::Math::BigInteger* mod_ = {}, Mono::Math::BigInteger* constant_ = {}) noexcept : mod{mod_}, constant{constant_} {}
     // Get instance field reference: private Mono.Math.BigInteger mod
     Mono::Math::BigInteger*& dyn_mod();
     // Get instance field reference: private Mono.Math.BigInteger constant
     Mono::Math::BigInteger*& dyn_constant();
     // public System.Void .ctor(Mono.Math.BigInteger modulus)
-    // Offset: 0x1F7E7E8
+    // Offset: 0x1F8AAD0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BigInteger::ModulusRing* New_ctor(Mono::Math::BigInteger* modulus) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Math::BigInteger::ModulusRing::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BigInteger::ModulusRing*, creationType>(modulus)));
     }
     // public System.Void BarrettReduction(Mono.Math.BigInteger x)
-    // Offset: 0x1F7EAE4
+    // Offset: 0x1F8ADCC
     void BarrettReduction(Mono::Math::BigInteger* x);
     // public Mono.Math.BigInteger Multiply(Mono.Math.BigInteger a, Mono.Math.BigInteger b)
-    // Offset: 0x1F7ED54
+    // Offset: 0x1F8B03C
     Mono::Math::BigInteger* Multiply(Mono::Math::BigInteger* a, Mono::Math::BigInteger* b);
     // public Mono.Math.BigInteger Difference(Mono.Math.BigInteger a, Mono.Math.BigInteger b)
-    // Offset: 0x1F7E8D4
+    // Offset: 0x1F8ABBC
     Mono::Math::BigInteger* Difference(Mono::Math::BigInteger* a, Mono::Math::BigInteger* b);
     // public Mono.Math.BigInteger Pow(Mono.Math.BigInteger a, Mono.Math.BigInteger k)
-    // Offset: 0x1F7EF24
+    // Offset: 0x1F8B20C
     Mono::Math::BigInteger* Pow(Mono::Math::BigInteger* a, Mono::Math::BigInteger* k);
     // public Mono.Math.BigInteger Pow(System.UInt32 b, Mono.Math.BigInteger exp)
-    // Offset: 0x1F7F040
+    // Offset: 0x1F8B328
     Mono::Math::BigInteger* Pow(uint b, Mono::Math::BigInteger* exp);
   }; // Mono.Math.BigInteger/Mono.Math.ModulusRing
   #pragma pack(pop)
   static check_size<sizeof(BigInteger::ModulusRing), 24 + sizeof(Mono::Math::BigInteger*)> __Mono_Math_BigInteger_ModulusRingSizeCheck;
   static_assert(sizeof(BigInteger::ModulusRing) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Mono::Math::BigInteger::ModulusRing*, "Mono.Math", "BigInteger/ModulusRing");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Math::BigInteger::ModulusRing::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

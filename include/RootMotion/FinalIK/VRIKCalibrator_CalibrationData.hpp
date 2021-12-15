@@ -3,30 +3,22 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: RootMotion.FinalIK.VRIKCalibrator
 #include "RootMotion/FinalIK/VRIKCalibrator.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: RootMotion::FinalIK
 namespace RootMotion::FinalIK {
 }
 // Completed forward declares
-// Type namespace: RootMotion.FinalIK
-namespace RootMotion::FinalIK {
-  // Forward declaring type: CalibrationData
-  class CalibrationData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::FinalIK::VRIKCalibrator::CalibrationData);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::VRIKCalibrator::CalibrationData*, "RootMotion.FinalIK", "VRIKCalibrator/CalibrationData");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
   // Size: 0x6C
@@ -37,11 +29,6 @@ namespace RootMotion::FinalIK {
     public:
     // Nested type: RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target
     class Target;
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Single scale
     // Size: 0x4
     // Offset: 0x10
@@ -116,7 +103,8 @@ namespace RootMotion::FinalIK {
     float pelvisRotationWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
+    // Creating value type constructor for type: CalibrationData
+    CalibrationData(float scale_ = {}, RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* head_ = {}, RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* leftHand_ = {}, RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* rightHand_ = {}, RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* pelvis_ = {}, RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* leftFoot_ = {}, RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* rightFoot_ = {}, RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* leftLegGoal_ = {}, RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* rightLegGoal_ = {}, UnityEngine::Vector3 pelvisTargetRight_ = {}, float pelvisPositionWeight_ = {}, float pelvisRotationWeight_ = {}) noexcept : scale{scale_}, head{head_}, leftHand{leftHand_}, rightHand{rightHand_}, pelvis{pelvis_}, leftFoot{leftFoot_}, rightFoot{rightFoot_}, leftLegGoal{leftLegGoal_}, rightLegGoal{rightLegGoal_}, pelvisTargetRight{pelvisTargetRight_}, pelvisPositionWeight{pelvisPositionWeight_}, pelvisRotationWeight{pelvisRotationWeight_} {}
     // Get instance field reference: public System.Single scale
     float& dyn_scale();
     // Get instance field reference: public RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData/RootMotion.FinalIK.Target head
@@ -142,7 +130,7 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public System.Single pelvisRotationWeight
     float& dyn_pelvisRotationWeight();
     // public System.Void .ctor()
-    // Offset: 0x1C4C688
+    // Offset: 0x1CA4780
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -155,7 +143,8 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(VRIKCalibrator::CalibrationData), 104 + sizeof(float)> __RootMotion_FinalIK_VRIKCalibrator_CalibrationDataSizeCheck;
   static_assert(sizeof(VRIKCalibrator::CalibrationData) == 0x6C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::VRIKCalibrator::CalibrationData*, "RootMotion.FinalIK", "VRIKCalibrator/CalibrationData");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::VRIKCalibrator::CalibrationData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

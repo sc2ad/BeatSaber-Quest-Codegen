@@ -3,17 +3,9 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: AudioHelpers
-  class AudioHelpers;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::AudioHelpers);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioHelpers*, "", "AudioHelpers");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -22,13 +14,17 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AudioHelpers : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: AudioHelpers
+    AudioHelpers() noexcept {}
     // static public System.Single NormalizedVolumeToDB(System.Single normalizedVolume)
-    // Offset: 0x135D640
+    // Offset: 0x138E220
     static float NormalizedVolumeToDB(float normalizedVolume);
   }; // AudioHelpers
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioHelpers*, "", "AudioHelpers");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AudioHelpers::NormalizedVolumeToDB
 // Il2CppName: NormalizedVolumeToDB
 template<>

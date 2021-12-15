@@ -3,26 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HoudiniEngineUnity.HEU_LoadBufferBase
 #include "HoudiniEngineUnity/HEU_LoadBufferBase.hpp"
 // Including type: HoudiniEngineUnity.HAPI_Transform
 #include "HoudiniEngineUnity/HAPI_Transform.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: HoudiniEngineUnity
-namespace HoudiniEngineUnity {
-  // Forward declaring type: HEU_LoadBufferInstancer
-  class HEU_LoadBufferInstancer;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_LoadBufferInstancer);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_LoadBufferInstancer*, "HoudiniEngineUnity", "HEU_LoadBufferInstancer");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x58
@@ -31,54 +22,50 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_LoadBufferInstancer : public HoudiniEngineUnity::HEU_LoadBufferBase {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public HoudiniEngineUnity.HAPI_Transform[] _instanceTransforms
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayW<HoudiniEngineUnity::HAPI_Transform> instanceTransforms;
+    ::Array<HoudiniEngineUnity::HAPI_Transform>* instanceTransforms;
     // Field size check
-    static_assert(sizeof(::ArrayW<HoudiniEngineUnity::HAPI_Transform>) == 0x8);
+    static_assert(sizeof(::Array<HoudiniEngineUnity::HAPI_Transform>*) == 0x8);
     // public System.String[] _instancePrefixes
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayW<::Il2CppString*> instancePrefixes;
+    ::Array<::Il2CppString*>* instancePrefixes;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
     // public System.Int32[] _instanceNodeIDs
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayW<int> instanceNodeIDs;
+    ::Array<int>* instanceNodeIDs;
     // Field size check
-    static_assert(sizeof(::ArrayW<int>) == 0x8);
+    static_assert(sizeof(::Array<int>*) == 0x8);
     // public System.String[] _assetPaths
     // Size: 0x8
     // Offset: 0x48
-    ::ArrayW<::Il2CppString*> assetPaths;
+    ::Array<::Il2CppString*>* assetPaths;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
     // public System.String[] _collisionAssetPaths
     // Size: 0x8
     // Offset: 0x50
-    ::ArrayW<::Il2CppString*> collisionAssetPaths;
+    ::Array<::Il2CppString*>* collisionAssetPaths;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
-    public:
+    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    // Creating value type constructor for type: HEU_LoadBufferInstancer
+    HEU_LoadBufferInstancer(::Array<HoudiniEngineUnity::HAPI_Transform>* instanceTransforms_ = {}, ::Array<::Il2CppString*>* instancePrefixes_ = {}, ::Array<int>* instanceNodeIDs_ = {}, ::Array<::Il2CppString*>* assetPaths_ = {}, ::Array<::Il2CppString*>* collisionAssetPaths_ = {}) noexcept : instanceTransforms{instanceTransforms_}, instancePrefixes{instancePrefixes_}, instanceNodeIDs{instanceNodeIDs_}, assetPaths{assetPaths_}, collisionAssetPaths{collisionAssetPaths_} {}
     // Get instance field reference: public HoudiniEngineUnity.HAPI_Transform[] _instanceTransforms
-    ::ArrayW<HoudiniEngineUnity::HAPI_Transform>& dyn__instanceTransforms();
+    ::Array<HoudiniEngineUnity::HAPI_Transform>*& dyn__instanceTransforms();
     // Get instance field reference: public System.String[] _instancePrefixes
-    ::ArrayW<::Il2CppString*>& dyn__instancePrefixes();
+    ::Array<::Il2CppString*>*& dyn__instancePrefixes();
     // Get instance field reference: public System.Int32[] _instanceNodeIDs
-    ::ArrayW<int>& dyn__instanceNodeIDs();
+    ::Array<int>*& dyn__instanceNodeIDs();
     // Get instance field reference: public System.String[] _assetPaths
-    ::ArrayW<::Il2CppString*>& dyn__assetPaths();
+    ::Array<::Il2CppString*>*& dyn__assetPaths();
     // Get instance field reference: public System.String[] _collisionAssetPaths
-    ::ArrayW<::Il2CppString*>& dyn__collisionAssetPaths();
+    ::Array<::Il2CppString*>*& dyn__collisionAssetPaths();
     // public System.Void .ctor()
-    // Offset: 0x1512824
+    // Offset: 0x159869C
     // Implemented from: HoudiniEngineUnity.HEU_LoadBufferBase
     // Base method: System.Void HEU_LoadBufferBase::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -89,10 +76,11 @@ namespace HoudiniEngineUnity {
     }
   }; // HoudiniEngineUnity.HEU_LoadBufferInstancer
   #pragma pack(pop)
-  static check_size<sizeof(HEU_LoadBufferInstancer), 80 + sizeof(::ArrayW<::Il2CppString*>)> __HoudiniEngineUnity_HEU_LoadBufferInstancerSizeCheck;
+  static check_size<sizeof(HEU_LoadBufferInstancer), 80 + sizeof(::Array<::Il2CppString*>*)> __HoudiniEngineUnity_HEU_LoadBufferInstancerSizeCheck;
   static_assert(sizeof(HEU_LoadBufferInstancer) == 0x58);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_LoadBufferInstancer*, "HoudiniEngineUnity", "HEU_LoadBufferInstancer");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_LoadBufferInstancer::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

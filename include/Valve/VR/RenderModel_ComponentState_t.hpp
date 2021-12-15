@@ -3,19 +3,12 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: Valve.VR.HmdMatrix34_t
 #include "Valve/VR/HmdMatrix34_t.hpp"
 // Completed includes
-// Type namespace: Valve.VR
-namespace Valve::VR {
-  // Forward declaring type: RenderModel_ComponentState_t
-  struct RenderModel_ComponentState_t;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::RenderModel_ComponentState_t, "Valve.VR", "RenderModel_ComponentState_t");
 // Type namespace: Valve.VR
 namespace Valve::VR {
   // Size: 0x64
@@ -25,11 +18,6 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct RenderModel_ComponentState_t/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public Valve.VR.HmdMatrix34_t mTrackingToComponentRenderModel
     // Size: 0x30
     // Offset: 0x0
@@ -48,7 +36,6 @@ namespace Valve::VR {
     uint uProperties;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
-    public:
     // Creating value type constructor for type: RenderModel_ComponentState_t
     constexpr RenderModel_ComponentState_t(Valve::VR::HmdMatrix34_t mTrackingToComponentRenderModel_ = {}, Valve::VR::HmdMatrix34_t mTrackingToComponentLocal_ = {}, uint uProperties_ = {}) noexcept : mTrackingToComponentRenderModel{mTrackingToComponentRenderModel_}, mTrackingToComponentLocal{mTrackingToComponentLocal_}, uProperties{uProperties_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -66,4 +53,6 @@ namespace Valve::VR {
   static check_size<sizeof(RenderModel_ComponentState_t), 96 + sizeof(uint)> __Valve_VR_RenderModel_ComponentState_tSizeCheck;
   static_assert(sizeof(RenderModel_ComponentState_t) == 0x64);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::RenderModel_ComponentState_t, "Valve.VR", "RenderModel_ComponentState_t");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

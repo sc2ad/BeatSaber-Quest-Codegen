@@ -3,17 +3,14 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
-// Including type: System.Enum
-#include "System/Enum.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -21,14 +18,6 @@ namespace GlobalNamespace {
   // Skipping declaration: MenuEnvironmentType because it is already included!
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: MenuEnvironmentManager
-  class MenuEnvironmentManager;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MenuEnvironmentManager);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuEnvironmentManager*, "", "MenuEnvironmentManager");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x24
@@ -47,18 +36,12 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct MenuEnvironmentType/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: MenuEnvironmentType
       constexpr MenuEnvironmentType(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -93,38 +76,34 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(MenuEnvironmentManager::MenuEnvironmentType), 0 + sizeof(int)> __GlobalNamespace_MenuEnvironmentManager_MenuEnvironmentTypeSizeCheck;
     static_assert(sizeof(MenuEnvironmentManager::MenuEnvironmentType) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private MenuEnvironmentManager/MenuEnvironmentObjects[] _data
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayW<GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentObjects*> data;
+    ::Array<GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentObjects*>* data;
     // Field size check
-    static_assert(sizeof(::ArrayW<GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentObjects*>) == 0x8);
+    static_assert(sizeof(::Array<GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentObjects*>*) == 0x8);
     // private MenuEnvironmentManager/MenuEnvironmentType _prevMenuEnvironmentType
     // Size: 0x4
     // Offset: 0x20
     GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType prevMenuEnvironmentType;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType) == 0x4);
-    public:
+    // Creating value type constructor for type: MenuEnvironmentManager
+    MenuEnvironmentManager(::Array<GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentObjects*>* data_ = {}, GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType prevMenuEnvironmentType_ = {}) noexcept : data{data_}, prevMenuEnvironmentType{prevMenuEnvironmentType_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MenuEnvironmentManager/MenuEnvironmentObjects[] _data
-    ::ArrayW<GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentObjects*>& dyn__data();
+    ::Array<GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentObjects*>*& dyn__data();
     // Get instance field reference: private MenuEnvironmentManager/MenuEnvironmentType _prevMenuEnvironmentType
     GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType& dyn__prevMenuEnvironmentType();
     // private System.Void Start()
-    // Offset: 0x120446C
+    // Offset: 0x115AAEC
     void Start();
     // public System.Void ShowEnvironmentType(MenuEnvironmentManager/MenuEnvironmentType menuEnvironmentType)
-    // Offset: 0x1204474
+    // Offset: 0x115AAF4
     void ShowEnvironmentType(GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType menuEnvironmentType);
     // public System.Void .ctor()
-    // Offset: 0x1204624
+    // Offset: 0x115ACA4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -141,9 +120,9 @@ namespace GlobalNamespace {
   static check_size<sizeof(MenuEnvironmentManager), 32 + sizeof(GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType)> __GlobalNamespace_MenuEnvironmentManagerSizeCheck;
   static_assert(sizeof(MenuEnvironmentManager) == 0x24);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuEnvironmentManager*, "", "MenuEnvironmentManager");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType, "", "MenuEnvironmentManager/MenuEnvironmentType");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MenuEnvironmentManager::Start
 // Il2CppName: Start
 template<>

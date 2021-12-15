@@ -3,21 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Assets.OVR.Scripts
-namespace Assets::OVR::Scripts {
-  // Forward declaring type: Record
-  class Record;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Assets::OVR::Scripts::Record);
-DEFINE_IL2CPP_ARG_TYPE(Assets::OVR::Scripts::Record*, "Assets.OVR.Scripts", "Record");
 // Type namespace: Assets.OVR.Scripts
 namespace Assets::OVR::Scripts {
   // Size: 0x20
@@ -26,11 +18,6 @@ namespace Assets::OVR::Scripts {
   // [TokenAttribute] Offset: FFFFFFFF
   class Record : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.String category
     // Size: 0x8
     // Offset: 0x10
@@ -43,13 +30,14 @@ namespace Assets::OVR::Scripts {
     ::Il2CppString* message;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: Record
+    Record(::Il2CppString* category_ = {}, ::Il2CppString* message_ = {}) noexcept : category{category_}, message{message_} {}
     // Get instance field reference: public System.String category
     ::Il2CppString*& dyn_category();
     // Get instance field reference: public System.String message
     ::Il2CppString*& dyn_message();
     // public System.Void .ctor(System.String cat, System.String msg)
-    // Offset: 0x1742A7C
+    // Offset: 0x17CFCB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Record* New_ctor(::Il2CppString* cat, ::Il2CppString* msg) {
       static auto ___internal__logger = ::Logger::get().WithContext("Assets::OVR::Scripts::Record::.ctor");
@@ -60,7 +48,8 @@ namespace Assets::OVR::Scripts {
   static check_size<sizeof(Record), 24 + sizeof(::Il2CppString*)> __Assets_OVR_Scripts_RecordSizeCheck;
   static_assert(sizeof(Record) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Assets::OVR::Scripts::Record*, "Assets.OVR.Scripts", "Record");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Assets::OVR::Scripts::Record::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -3,18 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: Oculus.Platform
-namespace Oculus::Platform {
-  // Forward declaring type: PermissionType
-  struct PermissionType;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::PermissionType, "Oculus.Platform", "PermissionType");
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
   // Size: 0x4
@@ -23,18 +16,12 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   struct PermissionType/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: PermissionType
     constexpr PermissionType(int value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -45,21 +32,21 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0xEE839C
+    // [DescriptionAttribute] Offset: 0xF2A894
     // static field const value: static public Oculus.Platform.PermissionType Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.PermissionType Unknown
     static Oculus::Platform::PermissionType _get_Unknown();
     // Set static field: static public Oculus.Platform.PermissionType Unknown
     static void _set_Unknown(Oculus::Platform::PermissionType value);
-    // [DescriptionAttribute] Offset: 0xEE83D4
+    // [DescriptionAttribute] Offset: 0xF2A8CC
     // static field const value: static public Oculus.Platform.PermissionType Microphone
     static constexpr const int Microphone = 1;
     // Get static field: static public Oculus.Platform.PermissionType Microphone
     static Oculus::Platform::PermissionType _get_Microphone();
     // Set static field: static public Oculus.Platform.PermissionType Microphone
     static void _set_Microphone(Oculus::Platform::PermissionType value);
-    // [DescriptionAttribute] Offset: 0xEE840C
+    // [DescriptionAttribute] Offset: 0xF2A904
     // static field const value: static public Oculus.Platform.PermissionType WriteExternalStorage
     static constexpr const int WriteExternalStorage = 2;
     // Get static field: static public Oculus.Platform.PermissionType WriteExternalStorage
@@ -73,4 +60,6 @@ namespace Oculus::Platform {
   static check_size<sizeof(PermissionType), 0 + sizeof(int)> __Oculus_Platform_PermissionTypeSizeCheck;
   static_assert(sizeof(PermissionType) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::PermissionType, "Oculus.Platform", "PermissionType");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

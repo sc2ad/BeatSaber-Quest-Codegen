@@ -3,18 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: UnityEngine.TestTools
-namespace UnityEngine::TestTools {
-  // Forward declaring type: TestPlatform
-  struct TestPlatform;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestPlatform, "UnityEngine.TestTools", "TestPlatform");
 // Type namespace: UnityEngine.TestTools
 namespace UnityEngine::TestTools {
   // Size: 0x1
@@ -24,18 +17,12 @@ namespace UnityEngine::TestTools {
   // [FlagsAttribute] Offset: FFFFFFFF
   struct TestPlatform/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Byte value__
     // Size: 0x1
     // Offset: 0x0
     uint8_t value;
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
-    public:
     // Creating value type constructor for type: TestPlatform
     constexpr TestPlatform(uint8_t value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -71,4 +58,6 @@ namespace UnityEngine::TestTools {
   static check_size<sizeof(TestPlatform), 0 + sizeof(uint8_t)> __UnityEngine_TestTools_TestPlatformSizeCheck;
   static_assert(sizeof(TestPlatform) == 0x1);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestPlatform, "UnityEngine.TestTools", "TestPlatform");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

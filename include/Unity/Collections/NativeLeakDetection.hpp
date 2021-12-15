@@ -3,17 +3,9 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: Unity.Collections
-namespace Unity::Collections {
-  // Forward declaring type: NativeLeakDetection
-  class NativeLeakDetection;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Unity::Collections::NativeLeakDetection);
-DEFINE_IL2CPP_ARG_TYPE(Unity::Collections::NativeLeakDetection*, "Unity.Collections", "NativeLeakDetection");
 // Type namespace: Unity.Collections
 namespace Unity::Collections {
   // Size: 0x10
@@ -22,17 +14,21 @@ namespace Unity::Collections {
   // [TokenAttribute] Offset: FFFFFFFF
   class NativeLeakDetection : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: NativeLeakDetection
+    NativeLeakDetection() noexcept {}
     // Get static field: static private System.Int32 s_NativeLeakDetectionMode
     static int _get_s_NativeLeakDetectionMode();
     // Set static field: static private System.Int32 s_NativeLeakDetectionMode
     static void _set_s_NativeLeakDetectionMode(int value);
     // static private System.Void Initialize()
-    // Offset: 0x1C8C898
+    // Offset: 0x1CFC300
     static void Initialize();
   }; // Unity.Collections.NativeLeakDetection
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Unity::Collections::NativeLeakDetection*, "Unity.Collections", "NativeLeakDetection");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Unity::Collections::NativeLeakDetection::Initialize
 // Il2CppName: Initialize
 template<>

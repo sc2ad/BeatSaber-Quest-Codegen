@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Collections.IComparer
 #include "System/Collections/IComparer.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Collections
-namespace System::Collections {
-  // Forward declaring type: LowLevelComparer
-  class LowLevelComparer;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Collections::LowLevelComparer);
-DEFINE_IL2CPP_ARG_TYPE(System::Collections::LowLevelComparer*, "System.Collections", "LowLevelComparer");
 // Type namespace: System.Collections
 namespace System::Collections {
   // Size: 0x10
@@ -28,6 +20,8 @@ namespace System::Collections {
   // [TokenAttribute] Offset: FFFFFFFF
   class LowLevelComparer : public ::Il2CppObject/*, public System::Collections::IComparer*/ {
     public:
+    // Creating value type constructor for type: LowLevelComparer
+    LowLevelComparer() noexcept {}
     // Creating interface conversion operator: operator System::Collections::IComparer
     operator System::Collections::IComparer() noexcept {
       return *reinterpret_cast<System::Collections::IComparer*>(this);
@@ -37,13 +31,13 @@ namespace System::Collections {
     // Set static field: static readonly System.Collections.LowLevelComparer Default
     static void _set_Default(System::Collections::LowLevelComparer* value);
     // static private System.Void .cctor()
-    // Offset: 0x1AF6038
+    // Offset: 0x1B8C398
     static void _cctor();
     // public System.Int32 Compare(System.Object a, System.Object b)
-    // Offset: 0x1AF5E80
+    // Offset: 0x1B8C1E0
     int Compare(::Il2CppObject* a, ::Il2CppObject* b);
     // private System.Void .ctor()
-    // Offset: 0x1AF5E78
+    // Offset: 0x1B8C1D8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -54,7 +48,8 @@ namespace System::Collections {
   }; // System.Collections.LowLevelComparer
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Collections::LowLevelComparer*, "System.Collections", "LowLevelComparer");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::LowLevelComparer::_cctor
 // Il2CppName: .cctor
 template<>

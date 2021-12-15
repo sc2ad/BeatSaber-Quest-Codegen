@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Collections.ListDictionaryInternal
 #include "System/Collections/ListDictionaryInternal.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Collections
-namespace System::Collections {
-  // Forward declaring type: DictionaryNode
-  class DictionaryNode;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Collections::ListDictionaryInternal::DictionaryNode);
-DEFINE_IL2CPP_ARG_TYPE(System::Collections::ListDictionaryInternal::DictionaryNode*, "System.Collections", "ListDictionaryInternal/DictionaryNode");
 // Type namespace: System.Collections
 namespace System::Collections {
   // Size: 0x28
@@ -28,11 +20,6 @@ namespace System::Collections {
   // [TokenAttribute] Offset: FFFFFFFF
   class ListDictionaryInternal::DictionaryNode : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Object key
     // Size: 0x8
     // Offset: 0x10
@@ -51,7 +38,8 @@ namespace System::Collections {
     System::Collections::ListDictionaryInternal::DictionaryNode* next;
     // Field size check
     static_assert(sizeof(System::Collections::ListDictionaryInternal::DictionaryNode*) == 0x8);
-    public:
+    // Creating value type constructor for type: DictionaryNode
+    DictionaryNode(::Il2CppObject* key_ = {}, ::Il2CppObject* value_ = {}, System::Collections::ListDictionaryInternal::DictionaryNode* next_ = {}) noexcept : key{key_}, value{value_}, next{next_} {}
     // Get instance field reference: public System.Object key
     ::Il2CppObject*& dyn_key();
     // Get instance field reference: public System.Object value
@@ -59,7 +47,7 @@ namespace System::Collections {
     // Get instance field reference: public System.Collections.ListDictionaryInternal/System.Collections.DictionaryNode next
     System::Collections::ListDictionaryInternal::DictionaryNode*& dyn_next();
     // public System.Void .ctor()
-    // Offset: 0x1AF4DCC
+    // Offset: 0x1B8B12C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -72,7 +60,8 @@ namespace System::Collections {
   static check_size<sizeof(ListDictionaryInternal::DictionaryNode), 32 + sizeof(System::Collections::ListDictionaryInternal::DictionaryNode*)> __System_Collections_ListDictionaryInternal_DictionaryNodeSizeCheck;
   static_assert(sizeof(ListDictionaryInternal::DictionaryNode) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Collections::ListDictionaryInternal::DictionaryNode*, "System.Collections", "ListDictionaryInternal/DictionaryNode");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::ListDictionaryInternal::DictionaryNode::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

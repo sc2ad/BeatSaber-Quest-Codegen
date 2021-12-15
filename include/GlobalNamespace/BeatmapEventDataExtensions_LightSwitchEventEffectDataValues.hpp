@@ -3,21 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BeatmapEventDataExtensions
 #include "GlobalNamespace/BeatmapEventDataExtensions.hpp"
 // Including type: System.Int32
 #include "System/Int32.hpp"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: LightSwitchEventEffectDataValues
-  class LightSwitchEventEffectDataValues;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BeatmapEventDataExtensions::LightSwitchEventEffectDataValues);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapEventDataExtensions::LightSwitchEventEffectDataValues*, "", "BeatmapEventDataExtensions/LightSwitchEventEffectDataValues");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -26,6 +18,8 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapEventDataExtensions::LightSwitchEventEffectDataValues : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: LightSwitchEventEffectDataValues
+    LightSwitchEventEffectDataValues() noexcept {}
     // static field const value: static public System.Int32 kOff
     static constexpr const int kOff = 0;
     // Get static field: static public System.Int32 kOff
@@ -87,12 +81,14 @@ namespace GlobalNamespace {
     // Set static field: static public System.Int32 kFadeB
     static void _set_kFadeB(int value);
     // static public System.Boolean IsColor0EventDataValue(System.Int32 beatmapEventValue)
-    // Offset: 0x25FB138
+    // Offset: 0x26BD120
     static bool IsColor0EventDataValue(int beatmapEventValue);
   }; // BeatmapEventDataExtensions/LightSwitchEventEffectDataValues
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapEventDataExtensions::LightSwitchEventEffectDataValues*, "", "BeatmapEventDataExtensions/LightSwitchEventEffectDataValues");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapEventDataExtensions::LightSwitchEventEffectDataValues::IsColor0EventDataValue
 // Il2CppName: IsColor0EventDataValue
 template<>

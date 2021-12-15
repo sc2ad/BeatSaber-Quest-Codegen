@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Timeline.ITimelineEvaluateCallback
 #include "UnityEngine/Timeline/ITimelineEvaluateCallback.hpp"
 // Including type: UnityEngine.Animations.AnimationPlayableOutput
@@ -13,10 +13,10 @@
 #include "UnityEngine/Animations/AnimationMotionXToDeltaPlayable.hpp"
 // Including type: UnityEngine.Playables.Playable
 #include "UnityEngine/Playables/Playable.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -26,14 +26,6 @@ namespace System::Collections::Generic {
   class List_1;
 }
 // Completed forward declares
-// Type namespace: UnityEngine.Timeline
-namespace UnityEngine::Timeline {
-  // Forward declaring type: AnimationOutputWeightProcessor
-  class AnimationOutputWeightProcessor;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Timeline::AnimationOutputWeightProcessor);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AnimationOutputWeightProcessor*, "UnityEngine.Timeline", "AnimationOutputWeightProcessor");
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {
   // Size: 0x38
@@ -51,11 +43,6 @@ namespace UnityEngine::Timeline {
     // [TokenAttribute] Offset: FFFFFFFF
     struct WeightInfo/*, public System::ValueType*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public UnityEngine.Playables.Playable mixer
       // Size: 0xC
       // Offset: 0x0
@@ -78,7 +65,6 @@ namespace UnityEngine::Timeline {
       int port;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: WeightInfo
       constexpr WeightInfo(UnityEngine::Playables::Playable mixer_ = {}, UnityEngine::Playables::Playable parentMixer_ = {}, int port_ = {}) noexcept : mixer{mixer_}, parentMixer{parentMixer_}, port{port_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -95,11 +81,6 @@ namespace UnityEngine::Timeline {
     #pragma pack(pop)
     static check_size<sizeof(AnimationOutputWeightProcessor::WeightInfo), 32 + sizeof(int)> __UnityEngine_Timeline_AnimationOutputWeightProcessor_WeightInfoSizeCheck;
     static_assert(sizeof(AnimationOutputWeightProcessor::WeightInfo) == 0x24);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private UnityEngine.Animations.AnimationPlayableOutput m_Output
     // Size: 0xC
     // Offset: 0x10
@@ -122,7 +103,8 @@ namespace UnityEngine::Timeline {
     System::Collections::Generic::List_1<UnityEngine::Timeline::AnimationOutputWeightProcessor::WeightInfo>* m_Mixers;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::Timeline::AnimationOutputWeightProcessor::WeightInfo>*) == 0x8);
-    public:
+    // Creating value type constructor for type: AnimationOutputWeightProcessor
+    AnimationOutputWeightProcessor(UnityEngine::Animations::AnimationPlayableOutput m_Output_ = {}, UnityEngine::Animations::AnimationMotionXToDeltaPlayable m_MotionXPlayable_ = {}, System::Collections::Generic::List_1<UnityEngine::Timeline::AnimationOutputWeightProcessor::WeightInfo>* m_Mixers_ = {}) noexcept : m_Output{m_Output_}, m_MotionXPlayable{m_MotionXPlayable_}, m_Mixers{m_Mixers_} {}
     // Creating interface conversion operator: operator UnityEngine::Timeline::ITimelineEvaluateCallback
     operator UnityEngine::Timeline::ITimelineEvaluateCallback() noexcept {
       return *reinterpret_cast<UnityEngine::Timeline::ITimelineEvaluateCallback*>(this);
@@ -134,29 +116,29 @@ namespace UnityEngine::Timeline {
     // Get instance field reference: private readonly System.Collections.Generic.List`1<UnityEngine.Timeline.AnimationOutputWeightProcessor/UnityEngine.Timeline.WeightInfo> m_Mixers
     System::Collections::Generic::List_1<UnityEngine::Timeline::AnimationOutputWeightProcessor::WeightInfo>*& dyn_m_Mixers();
     // public System.Void .ctor(UnityEngine.Animations.AnimationPlayableOutput output)
-    // Offset: 0x19D3558
+    // Offset: 0x19F1C08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AnimationOutputWeightProcessor* New_ctor(UnityEngine::Animations::AnimationPlayableOutput output) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::AnimationOutputWeightProcessor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AnimationOutputWeightProcessor*, creationType>(output)));
     }
     // private System.Void FindMixers()
-    // Offset: 0x19D3600
+    // Offset: 0x19F1CB0
     void FindMixers();
     // private System.Void FindMixers(UnityEngine.Playables.Playable parent, System.Int32 port, UnityEngine.Playables.Playable node)
-    // Offset: 0x19D36D4
+    // Offset: 0x19F1D84
     void FindMixers(UnityEngine::Playables::Playable parent, int port, UnityEngine::Playables::Playable node);
     // public System.Void Evaluate()
-    // Offset: 0x19D3918
+    // Offset: 0x19F1FC8
     void Evaluate();
   }; // UnityEngine.Timeline.AnimationOutputWeightProcessor
   #pragma pack(pop)
   static check_size<sizeof(AnimationOutputWeightProcessor), 48 + sizeof(System::Collections::Generic::List_1<UnityEngine::Timeline::AnimationOutputWeightProcessor::WeightInfo>*)> __UnityEngine_Timeline_AnimationOutputWeightProcessorSizeCheck;
   static_assert(sizeof(AnimationOutputWeightProcessor) == 0x38);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AnimationOutputWeightProcessor*, "UnityEngine.Timeline", "AnimationOutputWeightProcessor");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AnimationOutputWeightProcessor::WeightInfo, "UnityEngine.Timeline", "AnimationOutputWeightProcessor/WeightInfo");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::AnimationOutputWeightProcessor::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

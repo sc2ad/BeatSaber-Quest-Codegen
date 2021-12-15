@@ -3,18 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: System.Runtime.ConstrainedExecution
-namespace System::Runtime::ConstrainedExecution {
-  // Forward declaring type: Cer
-  struct Cer;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::ConstrainedExecution::Cer, "System.Runtime.ConstrainedExecution", "Cer");
 // Type namespace: System.Runtime.ConstrainedExecution
 namespace System::Runtime::ConstrainedExecution {
   // Size: 0x4
@@ -23,18 +16,12 @@ namespace System::Runtime::ConstrainedExecution {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Cer/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: Cer
     constexpr Cer(int value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -70,4 +57,6 @@ namespace System::Runtime::ConstrainedExecution {
   static check_size<sizeof(Cer), 0 + sizeof(int)> __System_Runtime_ConstrainedExecution_CerSizeCheck;
   static_assert(sizeof(Cer) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::ConstrainedExecution::Cer, "System.Runtime.ConstrainedExecution", "Cer");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -3,27 +3,19 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Collections.ListDictionaryInternal/System.Collections.NodeKeyValueCollection
 #include "System/Collections/ListDictionaryInternal_NodeKeyValueCollection.hpp"
 // Including type: System.Collections.IEnumerator
 #include "System/Collections/IEnumerator.hpp"
 // Including type: System.Collections.ListDictionaryInternal
 #include "System/Collections/ListDictionaryInternal.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Collections
-namespace System::Collections {
-  // Forward declaring type: NodeKeyValueEnumerator
-  class NodeKeyValueEnumerator;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Collections::ListDictionaryInternal::NodeKeyValueCollection::NodeKeyValueEnumerator);
-DEFINE_IL2CPP_ARG_TYPE(System::Collections::ListDictionaryInternal::NodeKeyValueCollection::NodeKeyValueEnumerator*, "System.Collections", "ListDictionaryInternal/NodeKeyValueCollection/NodeKeyValueEnumerator");
 // Type namespace: System.Collections
 namespace System::Collections {
   // Size: 0x26
@@ -32,11 +24,6 @@ namespace System::Collections {
   // [TokenAttribute] Offset: FFFFFFFF
   class ListDictionaryInternal::NodeKeyValueCollection::NodeKeyValueEnumerator : public ::Il2CppObject/*, public System::Collections::IEnumerator*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Collections.ListDictionaryInternal list
     // Size: 0x8
     // Offset: 0x10
@@ -67,7 +54,8 @@ namespace System::Collections {
     bool start;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: NodeKeyValueEnumerator
+    NodeKeyValueEnumerator(System::Collections::ListDictionaryInternal* list_ = {}, System::Collections::ListDictionaryInternal::DictionaryNode* current_ = {}, int version_ = {}, bool isKeys_ = {}, bool start_ = {}) noexcept : list{list_}, current{current_}, version{version_}, isKeys{isKeys_}, start{start_} {}
     // Creating interface conversion operator: operator System::Collections::IEnumerator
     operator System::Collections::IEnumerator() noexcept {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);
@@ -83,27 +71,28 @@ namespace System::Collections {
     // Get instance field reference: private System.Boolean start
     bool& dyn_start();
     // public System.Object get_Current()
-    // Offset: 0x1AF5C38
+    // Offset: 0x1B8BF98
     ::Il2CppObject* get_Current();
     // public System.Void .ctor(System.Collections.ListDictionaryInternal list, System.Boolean isKeys)
-    // Offset: 0x1AF5BDC
+    // Offset: 0x1B8BF3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ListDictionaryInternal::NodeKeyValueCollection::NodeKeyValueEnumerator* New_ctor(System::Collections::ListDictionaryInternal* list, bool isKeys) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::ListDictionaryInternal::NodeKeyValueCollection::NodeKeyValueEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ListDictionaryInternal::NodeKeyValueCollection::NodeKeyValueEnumerator*, creationType>(list, isKeys)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x1AF5CE8
+    // Offset: 0x1B8C048
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1AF5DC0
+    // Offset: 0x1B8C120
     void Reset();
   }; // System.Collections.ListDictionaryInternal/System.Collections.NodeKeyValueCollection/System.Collections.NodeKeyValueEnumerator
   #pragma pack(pop)
   static check_size<sizeof(ListDictionaryInternal::NodeKeyValueCollection::NodeKeyValueEnumerator), 37 + sizeof(bool)> __System_Collections_ListDictionaryInternal_NodeKeyValueCollection_NodeKeyValueEnumeratorSizeCheck;
   static_assert(sizeof(ListDictionaryInternal::NodeKeyValueCollection::NodeKeyValueEnumerator) == 0x26);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Collections::ListDictionaryInternal::NodeKeyValueCollection::NodeKeyValueEnumerator*, "System.Collections", "ListDictionaryInternal/NodeKeyValueCollection/NodeKeyValueEnumerator");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::ListDictionaryInternal::NodeKeyValueCollection::NodeKeyValueEnumerator::get_Current
 // Il2CppName: get_Current
 template<>

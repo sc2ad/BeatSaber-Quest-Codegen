@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Runtime.InteropServices.SafeHandle
 #include "System/Runtime/InteropServices/SafeHandle.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Microsoft.Win32.SafeHandles
-namespace Microsoft::Win32::SafeHandles {
-  // Forward declaring type: SafeHandleZeroOrMinusOneIsInvalid
-  class SafeHandleZeroOrMinusOneIsInvalid;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid);
-DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid*, "Microsoft.Win32.SafeHandles", "SafeHandleZeroOrMinusOneIsInvalid");
 // Type namespace: Microsoft.Win32.SafeHandles
 namespace Microsoft::Win32::SafeHandles {
   // Size: 0x1E
@@ -28,22 +20,25 @@ namespace Microsoft::Win32::SafeHandles {
   // [TokenAttribute] Offset: FFFFFFFF
   class SafeHandleZeroOrMinusOneIsInvalid : public System::Runtime::InteropServices::SafeHandle {
     public:
+    // Creating value type constructor for type: SafeHandleZeroOrMinusOneIsInvalid
+    SafeHandleZeroOrMinusOneIsInvalid() noexcept {}
     // protected System.Void .ctor(System.Boolean ownsHandle)
-    // Offset: 0x1C1293C
+    // Offset: 0x1C6BA34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SafeHandleZeroOrMinusOneIsInvalid* New_ctor(bool ownsHandle) {
       static auto ___internal__logger = ::Logger::get().WithContext("Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SafeHandleZeroOrMinusOneIsInvalid*, creationType>(ownsHandle)));
     }
     // public override System.Boolean get_IsInvalid()
-    // Offset: 0x1C12ABC
+    // Offset: 0x1C6BBB4
     // Implemented from: System.Runtime.InteropServices.SafeHandle
     // Base method: System.Boolean SafeHandle::get_IsInvalid()
     bool get_IsInvalid();
   }; // Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid*, "Microsoft.Win32.SafeHandles", "SafeHandleZeroOrMinusOneIsInvalid");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

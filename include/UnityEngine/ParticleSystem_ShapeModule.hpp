@@ -3,11 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ParticleSystem
 #include "UnityEngine/ParticleSystem.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -18,13 +22,6 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
-  // Forward declaring type: ShapeModule
-  struct ShapeModule;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::ShapeModule, "UnityEngine", "ParticleSystem/ShapeModule");
-// Type namespace: UnityEngine
-namespace UnityEngine {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -32,18 +29,12 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ParticleSystem::ShapeModule/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // UnityEngine.ParticleSystem m_ParticleSystem
     // Size: 0x8
     // Offset: 0x0
     UnityEngine::ParticleSystem* m_ParticleSystem;
     // Field size check
     static_assert(sizeof(UnityEngine::ParticleSystem*) == 0x8);
-    public:
     // Creating value type constructor for type: ShapeModule
     constexpr ShapeModule(UnityEngine::ParticleSystem* m_ParticleSystem_ = {}) noexcept : m_ParticleSystem{m_ParticleSystem_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -57,26 +48,28 @@ namespace UnityEngine {
     // Get instance field reference: UnityEngine.ParticleSystem m_ParticleSystem
     UnityEngine::ParticleSystem*& dyn_m_ParticleSystem();
     // public System.Void set_position(UnityEngine.Vector3 value)
-    // Offset: 0x2604F7C
+    // Offset: 0x26C7FA4
     void set_position(UnityEngine::Vector3 value);
     // public System.Void set_rotation(UnityEngine.Vector3 value)
-    // Offset: 0x2605024
+    // Offset: 0x26C804C
     void set_rotation(UnityEngine::Vector3 value);
     // System.Void .ctor(UnityEngine.ParticleSystem particleSystem)
-    // Offset: 0x2604554
-    // ABORTED: conflicts with another method.  ShapeModule(UnityEngine::ParticleSystem* particleSystem);
+    // Offset: 0x26C757C
+    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    // ABORTED: conflicts with another method.  ShapeModule(UnityEngine::ParticleSystem* particleSystem)
     // static private System.Void set_position_Injected(ref UnityEngine.ParticleSystem/UnityEngine.ShapeModule _unity_self, ref UnityEngine.Vector3 value)
-    // Offset: 0x2604FD4
+    // Offset: 0x26C7FFC
     static void set_position_Injected(ByRef<UnityEngine::ParticleSystem::ShapeModule> _unity_self, ByRef<UnityEngine::Vector3> value);
     // static private System.Void set_rotation_Injected(ref UnityEngine.ParticleSystem/UnityEngine.ShapeModule _unity_self, ref UnityEngine.Vector3 value)
-    // Offset: 0x260507C
+    // Offset: 0x26C80A4
     static void set_rotation_Injected(ByRef<UnityEngine::ParticleSystem::ShapeModule> _unity_self, ByRef<UnityEngine::Vector3> value);
   }; // UnityEngine.ParticleSystem/UnityEngine.ShapeModule
   #pragma pack(pop)
   static check_size<sizeof(ParticleSystem::ShapeModule), 0 + sizeof(UnityEngine::ParticleSystem*)> __UnityEngine_ParticleSystem_ShapeModuleSizeCheck;
   static_assert(sizeof(ParticleSystem::ShapeModule) == 0x8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::ShapeModule, "UnityEngine", "ParticleSystem/ShapeModule");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::ShapeModule::set_position
 // Il2CppName: set_position
 template<>

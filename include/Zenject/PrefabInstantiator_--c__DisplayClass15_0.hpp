@@ -3,16 +3,16 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.PrefabInstantiator
 #include "Zenject/PrefabInstantiator.hpp"
 // Including type: Zenject.TypeValuePair
 #include "Zenject/TypeValuePair.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -30,16 +30,10 @@ namespace UnityEngine {
 namespace Zenject {
   // Forward declaring type: InjectContext
   class InjectContext;
+  // Forward declaring type: InjectTypeInfo
+  class InjectTypeInfo;
 }
 // Completed forward declares
-// Type namespace: Zenject
-namespace Zenject {
-  // Forward declaring type: <>c__DisplayClass15_0
-  class $$c__DisplayClass15_0;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::PrefabInstantiator::$$c__DisplayClass15_0);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::PrefabInstantiator::$$c__DisplayClass15_0*, "Zenject", "PrefabInstantiator/<>c__DisplayClass15_0");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x31
@@ -49,11 +43,6 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class PrefabInstantiator::$$c__DisplayClass15_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public Zenject.PrefabInstantiator <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -84,7 +73,8 @@ namespace Zenject {
     bool shouldMakeActive;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: $$c__DisplayClass15_0
+    $$c__DisplayClass15_0(Zenject::PrefabInstantiator* $$4__this_ = {}, System::Collections::Generic::List_1<Zenject::TypeValuePair>* args_ = {}, UnityEngine::GameObject* gameObject_ = {}, Zenject::InjectContext* context_ = {}, bool shouldMakeActive_ = {}) noexcept : $$4__this{$$4__this_}, args{args_}, gameObject{gameObject_}, context{context_}, shouldMakeActive{shouldMakeActive_} {}
     // Get instance field reference: public Zenject.PrefabInstantiator <>4__this
     Zenject::PrefabInstantiator*& dyn_$$4__this();
     // Get instance field reference: public System.Collections.Generic.List`1<Zenject.TypeValuePair> args
@@ -96,10 +86,16 @@ namespace Zenject {
     // Get instance field reference: public System.Boolean shouldMakeActive
     bool& dyn_shouldMakeActive();
     // System.Void <Instantiate>b__0()
-    // Offset: 0x187EFC0
+    // Offset: 0x18DFB60
     void $Instantiate$b__0();
+    // static private System.Object __zenCreate(System.Object[] P_0)
+    // Offset: 0x18E0010
+    static ::Il2CppObject* __zenCreate(::Array<::Il2CppObject*>* P_0);
+    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
+    // Offset: 0x18E006C
+    static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
-    // Offset: 0x187EFB8
+    // Offset: 0x18DFB58
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -112,13 +108,31 @@ namespace Zenject {
   static check_size<sizeof(PrefabInstantiator::$$c__DisplayClass15_0), 48 + sizeof(bool)> __Zenject_PrefabInstantiator_$$c__DisplayClass15_0SizeCheck;
   static_assert(sizeof(PrefabInstantiator::$$c__DisplayClass15_0) == 0x31);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Zenject::PrefabInstantiator::$$c__DisplayClass15_0*, "Zenject", "PrefabInstantiator/<>c__DisplayClass15_0");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::PrefabInstantiator::$$c__DisplayClass15_0::$Instantiate$b__0
 // Il2CppName: <Instantiate>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::PrefabInstantiator::$$c__DisplayClass15_0::*)()>(&Zenject::PrefabInstantiator::$$c__DisplayClass15_0::$Instantiate$b__0)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::PrefabInstantiator::$$c__DisplayClass15_0*), "<Instantiate>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Zenject::PrefabInstantiator::$$c__DisplayClass15_0::__zenCreate
+// Il2CppName: __zenCreate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Array<::Il2CppObject*>*)>(&Zenject::PrefabInstantiator::$$c__DisplayClass15_0::__zenCreate)> {
+  static const MethodInfo* get() {
+    static auto* P_0 = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::PrefabInstantiator::$$c__DisplayClass15_0*), "__zenCreate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{P_0});
+  }
+};
+// Writing MetadataGetter for method: Zenject::PrefabInstantiator::$$c__DisplayClass15_0::__zenCreateInjectTypeInfo
+// Il2CppName: __zenCreateInjectTypeInfo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo* (*)()>(&Zenject::PrefabInstantiator::$$c__DisplayClass15_0::__zenCreateInjectTypeInfo)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::PrefabInstantiator::$$c__DisplayClass15_0*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: Zenject::PrefabInstantiator::$$c__DisplayClass15_0::New_ctor

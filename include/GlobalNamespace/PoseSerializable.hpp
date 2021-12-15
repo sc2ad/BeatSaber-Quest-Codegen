@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: LiteNetLib.Utils.INetSerializable
@@ -15,6 +15,10 @@
 #include "GlobalNamespace/Vector3Serializable.hpp"
 // Including type: QuaternionSerializable
 #include "GlobalNamespace/QuaternionSerializable.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: LiteNetLib::Utils
@@ -32,13 +36,6 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
-  // Forward declaring type: PoseSerializable
-  struct PoseSerializable;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PoseSerializable, "", "PoseSerializable");
-// Type namespace: 
-namespace GlobalNamespace {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -46,11 +43,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct PoseSerializable/*, public System::ValueType, public LiteNetLib::Utils::INetSerializable, public System::IEquatable_1<GlobalNamespace::PoseSerializable>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public Vector3Serializable position
     // Size: 0xC
     // Offset: 0x0
@@ -63,7 +55,6 @@ namespace GlobalNamespace {
     GlobalNamespace::QuaternionSerializable rotation;
     // Field size check
     static_assert(sizeof(GlobalNamespace::QuaternionSerializable) == 0xC);
-    public:
     // Creating value type constructor for type: PoseSerializable
     constexpr PoseSerializable(GlobalNamespace::Vector3Serializable position_ = {}, GlobalNamespace::QuaternionSerializable rotation_ = {}) noexcept : position{position_}, rotation{rotation_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -83,35 +74,36 @@ namespace GlobalNamespace {
     // Get instance field reference: public QuaternionSerializable rotation
     GlobalNamespace::QuaternionSerializable& dyn_rotation();
     // static public PoseSerializable get_identity()
-    // Offset: 0x2557760
+    // Offset: 0x26240A0
     static GlobalNamespace::PoseSerializable get_identity();
     // public System.Void .ctor(Vector3Serializable position, QuaternionSerializable rotation)
-    // Offset: 0x255774C
-    // ABORTED: conflicts with another method.  PoseSerializable(GlobalNamespace::Vector3Serializable position, GlobalNamespace::QuaternionSerializable rotation);
+    // Offset: 0x262408C
+    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    // ABORTED: conflicts with another method.  PoseSerializable(GlobalNamespace::Vector3Serializable position, GlobalNamespace::QuaternionSerializable rotation)
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x2557814
+    // Offset: 0x2624154
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2557840
+    // Offset: 0x2624180
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Boolean Equals(PoseSerializable other)
-    // Offset: 0x255786C
+    // Offset: 0x26241AC
     bool Equals(GlobalNamespace::PoseSerializable other);
     // public System.Int32 GetSize()
-    // Offset: 0x2557B18
+    // Offset: 0x2624458
     int GetSize();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x2557940
+    // Offset: 0x2624280
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x25579E0
+    // Offset: 0x2624320
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x2557A64
+    // Offset: 0x26243A4
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
@@ -120,13 +112,14 @@ namespace GlobalNamespace {
   static check_size<sizeof(PoseSerializable), 12 + sizeof(GlobalNamespace::QuaternionSerializable)> __GlobalNamespace_PoseSerializableSizeCheck;
   static_assert(sizeof(PoseSerializable) == 0x18);
   // static public PoseSerializable op_Addition(PoseSerializable a, PoseSerializable b)
-  // Offset: 0x2557DCC
+  // Offset: 0x262470C
   GlobalNamespace::PoseSerializable operator+(const GlobalNamespace::PoseSerializable& a, const GlobalNamespace::PoseSerializable& b);
   // static public PoseSerializable op_Subtraction(PoseSerializable a, PoseSerializable b)
-  // Offset: 0x2557E68
+  // Offset: 0x26247A8
   GlobalNamespace::PoseSerializable operator-(const GlobalNamespace::PoseSerializable& a, const GlobalNamespace::PoseSerializable& b);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PoseSerializable, "", "PoseSerializable");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PoseSerializable::get_identity
 // Il2CppName: get_identity
 template<>

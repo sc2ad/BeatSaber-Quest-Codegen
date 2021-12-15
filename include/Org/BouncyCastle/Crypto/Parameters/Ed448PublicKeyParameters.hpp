@@ -3,24 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Crypto.AsymmetricKeyParameter
 #include "Org/BouncyCastle/Crypto/AsymmetricKeyParameter.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Org.BouncyCastle.Crypto.Parameters
-namespace Org::BouncyCastle::Crypto::Parameters {
-  // Forward declaring type: Ed448PublicKeyParameters
-  class Ed448PublicKeyParameters;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters*, "Org.BouncyCastle.Crypto.Parameters", "Ed448PublicKeyParameters");
 // Type namespace: Org.BouncyCastle.Crypto.Parameters
 namespace Org::BouncyCastle::Crypto::Parameters {
   // Size: 0x20
@@ -31,18 +22,14 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     public:
     // Writing base type padding for base size: 0x11 to desired offset: 0x18
     char ___base_padding[0x7] = {};
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private readonly System.Byte[] data
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayW<uint8_t> data;
+    ::Array<uint8_t>* data;
     // Field size check
-    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
-    public:
+    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    // Creating value type constructor for type: Ed448PublicKeyParameters
+    Ed448PublicKeyParameters(::Array<uint8_t>* data_ = {}) noexcept : data{data_} {}
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
     // Get static field: static public readonly System.Int32 KeySize
@@ -50,26 +37,27 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Set static field: static public readonly System.Int32 KeySize
     static void _set_KeySize(int value);
     // Get instance field reference: private readonly System.Byte[] data
-    ::ArrayW<uint8_t>& dyn_data();
+    ::Array<uint8_t>*& dyn_data();
     // public System.Void .ctor(System.Byte[] buf, System.Int32 off)
-    // Offset: 0x137A7D0
+    // Offset: 0x13BA764
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Ed448PublicKeyParameters* New_ctor(::ArrayW<uint8_t> buf, int off) {
+    static Ed448PublicKeyParameters* New_ctor(::Array<uint8_t>* buf, int off) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Ed448PublicKeyParameters*, creationType>(buf, off)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x137ABE8
+    // Offset: 0x13BAB7C
     static void _cctor();
     // public System.Void Encode(System.Byte[] buf, System.Int32 off)
-    // Offset: 0x137AAC0
-    void Encode(::ArrayW<uint8_t> buf, int off);
+    // Offset: 0x13BAA54
+    void Encode(::Array<uint8_t>* buf, int off);
   }; // Org.BouncyCastle.Crypto.Parameters.Ed448PublicKeyParameters
   #pragma pack(pop)
-  static check_size<sizeof(Ed448PublicKeyParameters), 24 + sizeof(::ArrayW<uint8_t>)> __Org_BouncyCastle_Crypto_Parameters_Ed448PublicKeyParametersSizeCheck;
+  static check_size<sizeof(Ed448PublicKeyParameters), 24 + sizeof(::Array<uint8_t>*)> __Org_BouncyCastle_Crypto_Parameters_Ed448PublicKeyParametersSizeCheck;
   static_assert(sizeof(Ed448PublicKeyParameters) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters*, "Org.BouncyCastle.Crypto.Parameters", "Ed448PublicKeyParameters");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -85,7 +73,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters::Encode
 // Il2CppName: Encode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters::*)(::ArrayW<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters::Encode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters::*)(::Array<uint8_t>*, int)>(&Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters::Encode)> {
   static const MethodInfo* get() {
     static auto* buf = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* off = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

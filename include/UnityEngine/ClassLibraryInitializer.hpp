@@ -3,17 +3,9 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: ClassLibraryInitializer
-  class ClassLibraryInitializer;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ClassLibraryInitializer);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ClassLibraryInitializer*, "UnityEngine", "ClassLibraryInitializer");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -22,13 +14,17 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class ClassLibraryInitializer : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: ClassLibraryInitializer
+    ClassLibraryInitializer() noexcept {}
     // static private System.Void Init()
-    // Offset: 0x1C95B94
+    // Offset: 0x1D055FC
     static void Init();
   }; // UnityEngine.ClassLibraryInitializer
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ClassLibraryInitializer*, "UnityEngine", "ClassLibraryInitializer");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ClassLibraryInitializer::Init
 // Il2CppName: Init
 template<>

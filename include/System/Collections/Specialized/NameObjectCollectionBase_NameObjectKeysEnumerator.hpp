@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Collections.Specialized.NameObjectCollectionBase
 #include "System/Collections/Specialized/NameObjectCollectionBase.hpp"
 // Including type: System.Collections.IEnumerator
 #include "System/Collections/IEnumerator.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Collections.Specialized
-namespace System::Collections::Specialized {
-  // Forward declaring type: NameObjectKeysEnumerator
-  class NameObjectKeysEnumerator;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Collections::Specialized::NameObjectCollectionBase::NameObjectKeysEnumerator);
-DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::NameObjectCollectionBase::NameObjectKeysEnumerator*, "System.Collections.Specialized", "NameObjectCollectionBase/NameObjectKeysEnumerator");
 // Type namespace: System.Collections.Specialized
 namespace System::Collections::Specialized {
   // Size: 0x24
@@ -30,11 +22,6 @@ namespace System::Collections::Specialized {
   // [TokenAttribute] Offset: FFFFFFFF
   class NameObjectCollectionBase::NameObjectKeysEnumerator : public ::Il2CppObject/*, public System::Collections::IEnumerator*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Int32 _pos
     // Size: 0x4
     // Offset: 0x10
@@ -55,7 +42,8 @@ namespace System::Collections::Specialized {
     int version;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
+    // Creating value type constructor for type: NameObjectKeysEnumerator
+    NameObjectKeysEnumerator(int pos_ = {}, System::Collections::Specialized::NameObjectCollectionBase* coll_ = {}, int version_ = {}) noexcept : pos{pos_}, coll{coll_}, version{version_} {}
     // Creating interface conversion operator: operator System::Collections::IEnumerator
     operator System::Collections::IEnumerator() noexcept {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);
@@ -67,27 +55,28 @@ namespace System::Collections::Specialized {
     // Get instance field reference: private System.Int32 _version
     int& dyn__version();
     // public System.Object get_Current()
-    // Offset: 0x1A04F0C
+    // Offset: 0x1A245BC
     ::Il2CppObject* get_Current();
     // System.Void .ctor(System.Collections.Specialized.NameObjectCollectionBase coll)
-    // Offset: 0x1A04950
+    // Offset: 0x1A24000
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NameObjectCollectionBase::NameObjectKeysEnumerator* New_ctor(System::Collections::Specialized::NameObjectCollectionBase* coll) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Specialized::NameObjectCollectionBase::NameObjectKeysEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NameObjectCollectionBase::NameObjectKeysEnumerator*, creationType>(coll)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x1A04D80
+    // Offset: 0x1A24430
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1A04E68
+    // Offset: 0x1A24518
     void Reset();
   }; // System.Collections.Specialized.NameObjectCollectionBase/System.Collections.Specialized.NameObjectKeysEnumerator
   #pragma pack(pop)
   static check_size<sizeof(NameObjectCollectionBase::NameObjectKeysEnumerator), 32 + sizeof(int)> __System_Collections_Specialized_NameObjectCollectionBase_NameObjectKeysEnumeratorSizeCheck;
   static_assert(sizeof(NameObjectCollectionBase::NameObjectKeysEnumerator) == 0x24);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::NameObjectCollectionBase::NameObjectKeysEnumerator*, "System.Collections.Specialized", "NameObjectCollectionBase/NameObjectKeysEnumerator");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::Specialized::NameObjectCollectionBase::NameObjectKeysEnumerator::get_Current
 // Il2CppName: get_Current
 template<>

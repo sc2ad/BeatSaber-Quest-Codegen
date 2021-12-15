@@ -3,27 +3,19 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LightWithIds
 #include "GlobalNamespace/LightWithIds.hpp"
 // Including type: ILightWithId
 #include "GlobalNamespace/ILightWithId.hpp"
 // Including type: UnityEngine.Color
 #include "UnityEngine/Color.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: LightData
-  class LightData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::LightWithIds::LightData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightWithIds::LightData*, "", "LightWithIds/LightData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x25
@@ -32,11 +24,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LightWithIds::LightData : public ::Il2CppObject/*, public GlobalNamespace::ILightWithId*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Int32 _lightId
     // Size: 0x4
     // Offset: 0x10
@@ -55,7 +42,8 @@ namespace GlobalNamespace {
     bool isRegistered;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: LightData
+    LightData(int lightId_ = {}, UnityEngine::Color color_ = {}, bool isRegistered_ = {}) noexcept : lightId{lightId_}, color{color_}, isRegistered{isRegistered_} {}
     // Creating interface conversion operator: operator GlobalNamespace::ILightWithId
     operator GlobalNamespace::ILightWithId() noexcept {
       return *reinterpret_cast<GlobalNamespace::ILightWithId*>(this);
@@ -67,25 +55,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _isRegistered
     bool& dyn__isRegistered();
     // public System.Int32 get_lightId()
-    // Offset: 0x1E125E4
+    // Offset: 0x1DB7FA4
     int get_lightId();
     // public UnityEngine.Color get_color()
-    // Offset: 0x1E125EC
+    // Offset: 0x1DB7FAC
     UnityEngine::Color get_color();
     // public System.Boolean get_isRegistered()
-    // Offset: 0x1E125F8
+    // Offset: 0x1DB7FB8
     bool get_isRegistered();
     // public System.Void __SetIsRegistered()
-    // Offset: 0x1E12600
+    // Offset: 0x1DB7FC0
     void __SetIsRegistered();
     // public System.Void __SetIsUnRegistered()
-    // Offset: 0x1E1260C
+    // Offset: 0x1DB7FCC
     void __SetIsUnRegistered();
     // public System.Void ColorWasSet(UnityEngine.Color newColor)
-    // Offset: 0x1E12614
+    // Offset: 0x1DB7FD4
     void ColorWasSet(UnityEngine::Color newColor);
     // protected System.Void .ctor()
-    // Offset: 0x1E12620
+    // Offset: 0x1DB7FE0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -98,7 +86,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(LightWithIds::LightData), 36 + sizeof(bool)> __GlobalNamespace_LightWithIds_LightDataSizeCheck;
   static_assert(sizeof(LightWithIds::LightData) == 0x25);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightWithIds::LightData*, "", "LightWithIds/LightData");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LightWithIds::LightData::get_lightId
 // Il2CppName: get_lightId
 template<>

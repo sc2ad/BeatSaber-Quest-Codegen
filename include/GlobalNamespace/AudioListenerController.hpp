@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: AudioListenerController
-  class AudioListenerController;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::AudioListenerController);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioListenerController*, "", "AudioListenerController");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x19
@@ -28,39 +20,35 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AudioListenerController : public UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Boolean _startAudioListenerPauseState
     // Size: 0x1
     // Offset: 0x18
     bool startAudioListenerPauseState;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: AudioListenerController
+    AudioListenerController(bool startAudioListenerPauseState_ = {}) noexcept : startAudioListenerPauseState{startAudioListenerPauseState_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Boolean _startAudioListenerPauseState
     bool& dyn__startAudioListenerPauseState();
     // public System.Boolean get_isPaused()
-    // Offset: 0x261C8E0
+    // Offset: 0x1315020
     bool get_isPaused();
     // protected System.Void Awake()
-    // Offset: 0x261C8E8
+    // Offset: 0x1315028
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x261C914
+    // Offset: 0x1315054
     void OnDestroy();
     // public System.Void Pause()
-    // Offset: 0x261C920
+    // Offset: 0x1315060
     void Pause();
     // public System.Void Resume()
-    // Offset: 0x261C92C
+    // Offset: 0x131506C
     void Resume();
     // public System.Void .ctor()
-    // Offset: 0x261C938
+    // Offset: 0x1315078
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -77,7 +65,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(AudioListenerController), 24 + sizeof(bool)> __GlobalNamespace_AudioListenerControllerSizeCheck;
   static_assert(sizeof(AudioListenerController) == 0x19);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioListenerController*, "", "AudioListenerController");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AudioListenerController::get_isPaused
 // Il2CppName: get_isPaused
 template<>

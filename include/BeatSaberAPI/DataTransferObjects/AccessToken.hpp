@@ -3,21 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: BeatSaberAPI.DataTransferObjects
-namespace BeatSaberAPI::DataTransferObjects {
-  // Forward declaring type: AccessToken
-  class AccessToken;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(BeatSaberAPI::DataTransferObjects::AccessToken);
-DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::AccessToken*, "BeatSaberAPI.DataTransferObjects", "AccessToken");
 // Type namespace: BeatSaberAPI.DataTransferObjects
 namespace BeatSaberAPI::DataTransferObjects {
   // Size: 0x20
@@ -26,11 +18,6 @@ namespace BeatSaberAPI::DataTransferObjects {
   // [TokenAttribute] Offset: FFFFFFFF
   class AccessToken : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.String token
     // Size: 0x8
     // Offset: 0x10
@@ -43,13 +30,14 @@ namespace BeatSaberAPI::DataTransferObjects {
     ::Il2CppString* expiration;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: AccessToken
+    AccessToken(::Il2CppString* token_ = {}, ::Il2CppString* expiration_ = {}) noexcept : token{token_}, expiration{expiration_} {}
     // Get instance field reference: public System.String token
     ::Il2CppString*& dyn_token();
     // Get instance field reference: public System.String expiration
     ::Il2CppString*& dyn_expiration();
     // public System.Void .ctor()
-    // Offset: 0x123DD7C
+    // Offset: 0x12C7988
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -62,7 +50,8 @@ namespace BeatSaberAPI::DataTransferObjects {
   static check_size<sizeof(AccessToken), 24 + sizeof(::Il2CppString*)> __BeatSaberAPI_DataTransferObjects_AccessTokenSizeCheck;
   static_assert(sizeof(AccessToken) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::AccessToken*, "BeatSaberAPI.DataTransferObjects", "AccessToken");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: BeatSaberAPI::DataTransferObjects::AccessToken::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

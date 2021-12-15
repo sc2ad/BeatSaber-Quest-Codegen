@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRControllerTest
 #include "GlobalNamespace/OVRControllerTest.hpp"
 // Including type: OVRControllerTest/BoolMonitor
 #include "GlobalNamespace/OVRControllerTest_BoolMonitor.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <>c
-  class $$c;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRControllerTest::$$c);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRControllerTest::$$c*, "", "OVRControllerTest/<>c");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -31,6 +23,8 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class OVRControllerTest::$$c : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: $$c
+    $$c() noexcept {}
     // Get static field: static public readonly OVRControllerTest/<>c <>9
     static GlobalNamespace::OVRControllerTest::$$c* _get_$$9();
     // Set static field: static public readonly OVRControllerTest/<>c <>9
@@ -160,106 +154,106 @@ namespace GlobalNamespace {
     // Set static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_30
     static void _set_$$9__4_30(GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
     // static private System.Void .cctor()
-    // Offset: 0x13A0418
+    // Offset: 0x13E03AC
     static void _cctor();
     // System.Boolean <Start>b__4_0()
-    // Offset: 0x13A0484
+    // Offset: 0x13E0418
     bool $Start$b__4_0();
     // System.Boolean <Start>b__4_1()
-    // Offset: 0x13A04EC
+    // Offset: 0x13E0480
     bool $Start$b__4_1();
     // System.Boolean <Start>b__4_2()
-    // Offset: 0x13A0554
+    // Offset: 0x13E04E8
     bool $Start$b__4_2();
     // System.Boolean <Start>b__4_3()
-    // Offset: 0x13A05BC
+    // Offset: 0x13E0550
     bool $Start$b__4_3();
     // System.Boolean <Start>b__4_4()
-    // Offset: 0x13A0624
+    // Offset: 0x13E05B8
     bool $Start$b__4_4();
     // System.Boolean <Start>b__4_5()
-    // Offset: 0x13A068C
+    // Offset: 0x13E0620
     bool $Start$b__4_5();
     // System.Boolean <Start>b__4_6()
-    // Offset: 0x13A06F4
+    // Offset: 0x13E0688
     bool $Start$b__4_6();
     // System.Boolean <Start>b__4_7()
-    // Offset: 0x13A075C
+    // Offset: 0x13E06F0
     bool $Start$b__4_7();
     // System.Boolean <Start>b__4_8()
-    // Offset: 0x13A07C4
+    // Offset: 0x13E0758
     bool $Start$b__4_8();
     // System.Boolean <Start>b__4_9()
-    // Offset: 0x13A082C
+    // Offset: 0x13E07C0
     bool $Start$b__4_9();
     // System.Boolean <Start>b__4_10()
-    // Offset: 0x13A0894
+    // Offset: 0x13E0828
     bool $Start$b__4_10();
     // System.Boolean <Start>b__4_11()
-    // Offset: 0x13A08FC
+    // Offset: 0x13E0890
     bool $Start$b__4_11();
     // System.Boolean <Start>b__4_12()
-    // Offset: 0x13A0964
+    // Offset: 0x13E08F8
     bool $Start$b__4_12();
     // System.Boolean <Start>b__4_13()
-    // Offset: 0x13A09CC
+    // Offset: 0x13E0960
     bool $Start$b__4_13();
     // System.Boolean <Start>b__4_14()
-    // Offset: 0x13A0A34
+    // Offset: 0x13E09C8
     bool $Start$b__4_14();
     // System.Boolean <Start>b__4_15()
-    // Offset: 0x13A0A9C
+    // Offset: 0x13E0A30
     bool $Start$b__4_15();
     // System.Boolean <Start>b__4_16()
-    // Offset: 0x13A0B04
+    // Offset: 0x13E0A98
     bool $Start$b__4_16();
     // System.Boolean <Start>b__4_17()
-    // Offset: 0x13A0B6C
+    // Offset: 0x13E0B00
     bool $Start$b__4_17();
     // System.Boolean <Start>b__4_18()
-    // Offset: 0x13A0BD4
+    // Offset: 0x13E0B68
     bool $Start$b__4_18();
     // System.Boolean <Start>b__4_19()
-    // Offset: 0x13A0C3C
+    // Offset: 0x13E0BD0
     bool $Start$b__4_19();
     // System.Boolean <Start>b__4_20()
-    // Offset: 0x13A0CA4
+    // Offset: 0x13E0C38
     bool $Start$b__4_20();
     // System.Boolean <Start>b__4_21()
-    // Offset: 0x13A0D0C
+    // Offset: 0x13E0CA0
     bool $Start$b__4_21();
     // System.Boolean <Start>b__4_22()
-    // Offset: 0x13A0D74
+    // Offset: 0x13E0D08
     bool $Start$b__4_22();
     // System.Boolean <Start>b__4_23()
-    // Offset: 0x13A0DDC
+    // Offset: 0x13E0D70
     bool $Start$b__4_23();
     // System.Boolean <Start>b__4_24()
-    // Offset: 0x13A0E44
+    // Offset: 0x13E0DD8
     bool $Start$b__4_24();
     // System.Boolean <Start>b__4_25()
-    // Offset: 0x13A0EAC
+    // Offset: 0x13E0E40
     bool $Start$b__4_25();
     // System.Boolean <Start>b__4_26()
-    // Offset: 0x13A0F14
+    // Offset: 0x13E0EA8
     bool $Start$b__4_26();
     // System.Boolean <Start>b__4_27()
-    // Offset: 0x13A0F7C
+    // Offset: 0x13E0F10
     bool $Start$b__4_27();
     // System.Boolean <Start>b__4_28()
-    // Offset: 0x13A0FE4
+    // Offset: 0x13E0F78
     bool $Start$b__4_28();
     // System.Boolean <Start>b__4_29()
-    // Offset: 0x13A104C
+    // Offset: 0x13E0FE0
     bool $Start$b__4_29();
     // System.Boolean <Start>b__4_30()
-    // Offset: 0x13A10B4
+    // Offset: 0x13E1048
     bool $Start$b__4_30();
     // System.Boolean <.cctor>b__9_0()
-    // Offset: 0x13A111C
+    // Offset: 0x13E10B0
     bool $_cctor$b__9_0();
     // public System.Void .ctor()
-    // Offset: 0x13A047C
+    // Offset: 0x13E0410
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -270,7 +264,8 @@ namespace GlobalNamespace {
   }; // OVRControllerTest/<>c
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRControllerTest::$$c*, "", "OVRControllerTest/<>c");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRControllerTest::$$c::_cctor
 // Il2CppName: .cctor
 template<>

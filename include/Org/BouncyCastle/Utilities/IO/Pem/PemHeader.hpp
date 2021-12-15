@@ -3,21 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Org.BouncyCastle.Utilities.IO.Pem
-namespace Org::BouncyCastle::Utilities::IO::Pem {
-  // Forward declaring type: PemHeader
-  class PemHeader;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Utilities::IO::Pem::PemHeader);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::IO::Pem::PemHeader*, "Org.BouncyCastle.Utilities.IO.Pem", "PemHeader");
 // Type namespace: Org.BouncyCastle.Utilities.IO.Pem
 namespace Org::BouncyCastle::Utilities::IO::Pem {
   // Size: 0x20
@@ -26,11 +18,6 @@ namespace Org::BouncyCastle::Utilities::IO::Pem {
   // [TokenAttribute] Offset: FFFFFFFF
   class PemHeader : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.String name
     // Size: 0x8
     // Offset: 0x10
@@ -43,34 +30,35 @@ namespace Org::BouncyCastle::Utilities::IO::Pem {
     ::Il2CppString* val;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: PemHeader
+    PemHeader(::Il2CppString* name_ = {}, ::Il2CppString* val_ = {}) noexcept : name{name_}, val{val_} {}
     // Get instance field reference: private System.String name
     ::Il2CppString*& dyn_name();
     // Get instance field reference: private System.String val
     ::Il2CppString*& dyn_val();
     // public System.String get_Name()
-    // Offset: 0x216C278
+    // Offset: 0x222B0A4
     ::Il2CppString* get_Name();
     // public System.String get_Value()
-    // Offset: 0x216C280
+    // Offset: 0x222B0AC
     ::Il2CppString* get_Value();
     // public System.Void .ctor(System.String name, System.String val)
-    // Offset: 0x216C240
+    // Offset: 0x222B06C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PemHeader* New_ctor(::Il2CppString* name, ::Il2CppString* val) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Utilities::IO::Pem::PemHeader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PemHeader*, creationType>(name, val)));
     }
     // private System.Int32 GetHashCode(System.String s)
-    // Offset: 0x216C2E4
+    // Offset: 0x222B110
     int GetHashCode(::Il2CppString* s);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x216C288
+    // Offset: 0x222B0B4
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x216C2FC
+    // Offset: 0x222B128
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
@@ -79,7 +67,8 @@ namespace Org::BouncyCastle::Utilities::IO::Pem {
   static check_size<sizeof(PemHeader), 24 + sizeof(::Il2CppString*)> __Org_BouncyCastle_Utilities_IO_Pem_PemHeaderSizeCheck;
   static_assert(sizeof(PemHeader) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::IO::Pem::PemHeader*, "Org.BouncyCastle.Utilities.IO.Pem", "PemHeader");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::IO::Pem::PemHeader::get_Name
 // Il2CppName: get_Name
 template<>

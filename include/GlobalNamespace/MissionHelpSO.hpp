@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PersistentScriptableObject
 #include "GlobalNamespace/PersistentScriptableObject.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: MissionHelpSO
-  class MissionHelpSO;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MissionHelpSO);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionHelpSO*, "", "MissionHelpSO");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -28,27 +20,23 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MissionHelpSO : public GlobalNamespace::PersistentScriptableObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.String _missionHelpId
     // Size: 0x8
     // Offset: 0x18
     ::Il2CppString* missionHelpId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: MissionHelpSO
+    MissionHelpSO(::Il2CppString* missionHelpId_ = {}) noexcept : missionHelpId{missionHelpId_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _missionHelpId
     ::Il2CppString*& dyn__missionHelpId();
     // public System.String get_missionHelpId()
-    // Offset: 0x1209D3C
+    // Offset: 0x11603BC
     ::Il2CppString* get_missionHelpId();
     // public System.Void .ctor()
-    // Offset: 0x1209D44
+    // Offset: 0x11603C4
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -64,7 +52,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(MissionHelpSO), 24 + sizeof(::Il2CppString*)> __GlobalNamespace_MissionHelpSOSizeCheck;
   static_assert(sizeof(MissionHelpSO) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionHelpSO*, "", "MissionHelpSO");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionHelpSO::get_missionHelpId
 // Il2CppName: get_missionHelpId
 template<>

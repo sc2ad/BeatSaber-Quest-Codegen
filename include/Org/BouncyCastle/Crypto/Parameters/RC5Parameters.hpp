@@ -3,19 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Crypto.Parameters.KeyParameter
 #include "Org/BouncyCastle/Crypto/Parameters/KeyParameter.hpp"
 // Completed includes
-// Type namespace: Org.BouncyCastle.Crypto.Parameters
-namespace Org::BouncyCastle::Crypto::Parameters {
-  // Forward declaring type: RC5Parameters
-  class RC5Parameters;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Crypto::Parameters::RC5Parameters);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::RC5Parameters*, "Org.BouncyCastle.Crypto.Parameters", "RC5Parameters");
 // Type namespace: Org.BouncyCastle.Crypto.Parameters
 namespace Org::BouncyCastle::Crypto::Parameters {
   // Size: 0x1C
@@ -24,31 +16,29 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   // [TokenAttribute] Offset: FFFFFFFF
   class RC5Parameters : public Org::BouncyCastle::Crypto::Parameters::KeyParameter {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private readonly System.Int32 rounds
     // Size: 0x4
     // Offset: 0x18
     int rounds;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
-    // Deleting conversion operator: operator ::ArrayW<uint8_t>
-    constexpr operator ::ArrayW<uint8_t>() const noexcept = delete;
+    // Creating value type constructor for type: RC5Parameters
+    RC5Parameters(int rounds_ = {}) noexcept : rounds{rounds_} {}
+    // Deleting conversion operator: operator ::Array<uint8_t>*
+    constexpr operator ::Array<uint8_t>*() const noexcept = delete;
     // Get instance field reference: private readonly System.Int32 rounds
     int& dyn_rounds();
     // public System.Int32 get_Rounds()
-    // Offset: 0x137BD50
+    // Offset: 0x13BBCE4
     int get_Rounds();
   }; // Org.BouncyCastle.Crypto.Parameters.RC5Parameters
   #pragma pack(pop)
   static check_size<sizeof(RC5Parameters), 24 + sizeof(int)> __Org_BouncyCastle_Crypto_Parameters_RC5ParametersSizeCheck;
   static_assert(sizeof(RC5Parameters) == 0x1C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::RC5Parameters*, "Org.BouncyCastle.Crypto.Parameters", "RC5Parameters");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::RC5Parameters::get_Rounds
 // Il2CppName: get_Rounds
 template<>

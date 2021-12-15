@@ -3,7 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Security.Cryptography.CryptoStream
 #include "System/Security/Cryptography/CryptoStream.hpp"
 // Including type: System.ValueType
@@ -18,13 +18,6 @@ namespace System {
   class Action;
 }
 // Completed forward declares
-// Type namespace: System.Security.Cryptography
-namespace System::Security::Cryptography {
-  // Forward declaring type: HopToThreadPoolAwaitable
-  struct HopToThreadPoolAwaitable;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::CryptoStream::HopToThreadPoolAwaitable, "System.Security.Cryptography", "CryptoStream/HopToThreadPoolAwaitable");
 // Type namespace: System.Security.Cryptography
 namespace System::Security::Cryptography {
   // Size: 0x0
@@ -45,21 +38,23 @@ namespace System::Security::Cryptography {
       return *reinterpret_cast<System::Runtime::CompilerServices::INotifyCompletion*>(this);
     }
     // public System.Boolean get_IsCompleted()
-    // Offset: 0x1A56588
+    // Offset: 0x1A94134
     bool get_IsCompleted();
     // public System.Security.Cryptography.CryptoStream/System.Security.Cryptography.HopToThreadPoolAwaitable GetAwaiter()
-    // Offset: 0x1A56580
+    // Offset: 0x1A9412C
     System::Security::Cryptography::CryptoStream::HopToThreadPoolAwaitable GetAwaiter();
     // public System.Void OnCompleted(System.Action continuation)
-    // Offset: 0x1A56FA4
+    // Offset: 0x1A94B50
     void OnCompleted(System::Action* continuation);
     // public System.Void GetResult()
-    // Offset: 0x1A56590
+    // Offset: 0x1A9413C
     void GetResult();
   }; // System.Security.Cryptography.CryptoStream/System.Security.Cryptography.HopToThreadPoolAwaitable
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::CryptoStream::HopToThreadPoolAwaitable, "System.Security.Cryptography", "CryptoStream/HopToThreadPoolAwaitable");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::CryptoStream::HopToThreadPoolAwaitable::get_IsCompleted
 // Il2CppName: get_IsCompleted
 template<>

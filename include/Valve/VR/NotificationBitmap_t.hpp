@@ -3,19 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
 // Completed includes
-// Type namespace: Valve.VR
-namespace Valve::VR {
-  // Forward declaring type: NotificationBitmap_t
-  struct NotificationBitmap_t;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::NotificationBitmap_t, "Valve.VR", "NotificationBitmap_t");
 // Type namespace: Valve.VR
 namespace Valve::VR {
   // Size: 0x14
@@ -25,11 +19,6 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct NotificationBitmap_t/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.IntPtr m_pImageData
     // Size: 0x8
     // Offset: 0x0
@@ -54,7 +43,6 @@ namespace Valve::VR {
     int m_nBytesPerPixel;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: NotificationBitmap_t
     constexpr NotificationBitmap_t(System::IntPtr m_pImageData_ = {}, int m_nWidth_ = {}, int m_nHeight_ = {}, int m_nBytesPerPixel_ = {}) noexcept : m_pImageData{m_pImageData_}, m_nWidth{m_nWidth_}, m_nHeight{m_nHeight_}, m_nBytesPerPixel{m_nBytesPerPixel_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -74,4 +62,6 @@ namespace Valve::VR {
   static check_size<sizeof(NotificationBitmap_t), 16 + sizeof(int)> __Valve_VR_NotificationBitmap_tSizeCheck;
   static_assert(sizeof(NotificationBitmap_t) == 0x14);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::NotificationBitmap_t, "Valve.VR", "NotificationBitmap_t");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

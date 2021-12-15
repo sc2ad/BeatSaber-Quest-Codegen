@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: NUnit.Framework.Internal.Commands.TestCommand
 #include "NUnit/Framework/Internal/Commands/TestCommand.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: NUnit.Framework.Internal.Commands
-namespace NUnit::Framework::Internal::Commands {
-  // Forward declaring type: DelegatingTestCommand
-  class DelegatingTestCommand;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(NUnit::Framework::Internal::Commands::DelegatingTestCommand);
-DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Commands::DelegatingTestCommand*, "NUnit.Framework.Internal.Commands", "DelegatingTestCommand");
 // Type namespace: NUnit.Framework.Internal.Commands
 namespace NUnit::Framework::Internal::Commands {
   // Size: 0x20
@@ -28,38 +20,35 @@ namespace NUnit::Framework::Internal::Commands {
   // [TokenAttribute] Offset: FFFFFFFF
   class DelegatingTestCommand : public NUnit::Framework::Internal::Commands::TestCommand {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // protected NUnit.Framework.Internal.Commands.TestCommand innerCommand
     // Size: 0x8
     // Offset: 0x18
     NUnit::Framework::Internal::Commands::TestCommand* innerCommand;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Internal::Commands::TestCommand*) == 0x8);
-    public:
+    // Creating value type constructor for type: DelegatingTestCommand
+    DelegatingTestCommand(NUnit::Framework::Internal::Commands::TestCommand* innerCommand_ = {}) noexcept : innerCommand{innerCommand_} {}
     // Deleting conversion operator: operator NUnit::Framework::Internal::Test*
     constexpr operator NUnit::Framework::Internal::Test*() const noexcept = delete;
     // Get instance field reference: protected NUnit.Framework.Internal.Commands.TestCommand innerCommand
     NUnit::Framework::Internal::Commands::TestCommand*& dyn_innerCommand();
     // protected System.Void .ctor(NUnit.Framework.Internal.Commands.TestCommand innerCommand)
-    // Offset: 0x1922E98
+    // Offset: 0x194805C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DelegatingTestCommand* New_ctor(NUnit::Framework::Internal::Commands::TestCommand* innerCommand) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Commands::DelegatingTestCommand::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DelegatingTestCommand*, creationType>(innerCommand)));
     }
     // public NUnit.Framework.Internal.Commands.TestCommand GetInnerCommand()
-    // Offset: 0x1923420
+    // Offset: 0x19485E4
     NUnit::Framework::Internal::Commands::TestCommand* GetInnerCommand();
   }; // NUnit.Framework.Internal.Commands.DelegatingTestCommand
   #pragma pack(pop)
   static check_size<sizeof(DelegatingTestCommand), 24 + sizeof(NUnit::Framework::Internal::Commands::TestCommand*)> __NUnit_Framework_Internal_Commands_DelegatingTestCommandSizeCheck;
   static_assert(sizeof(DelegatingTestCommand) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Commands::DelegatingTestCommand*, "NUnit.Framework.Internal.Commands", "DelegatingTestCommand");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Commands::DelegatingTestCommand::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

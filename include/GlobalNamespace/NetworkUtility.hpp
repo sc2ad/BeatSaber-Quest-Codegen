@@ -3,20 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: AuthenticationToken
 #include "GlobalNamespace/AuthenticationToken.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: NetworkUtility
-  class NetworkUtility;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::NetworkUtility);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetworkUtility*, "", "NetworkUtility");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -25,39 +16,43 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class NetworkUtility : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: NetworkUtility
+    NetworkUtility() noexcept {}
     // Get static field: static private System.Byte[] _nameEncryptionKey
-    static ::ArrayW<uint8_t> _get__nameEncryptionKey();
+    static ::Array<uint8_t>* _get__nameEncryptionKey();
     // Set static field: static private System.Byte[] _nameEncryptionKey
-    static void _set__nameEncryptionKey(::ArrayW<uint8_t> value);
+    static void _set__nameEncryptionKey(::Array<uint8_t>* value);
     // Get static field: static private System.Byte[] _nameEncryptionIv
-    static ::ArrayW<uint8_t> _get__nameEncryptionIv();
+    static ::Array<uint8_t>* _get__nameEncryptionIv();
     // Set static field: static private System.Byte[] _nameEncryptionIv
-    static void _set__nameEncryptionIv(::ArrayW<uint8_t> value);
+    static void _set__nameEncryptionIv(::Array<uint8_t>* value);
     // static private System.Void .cctor()
-    // Offset: 0x18B4A38
+    // Offset: 0x18090C0
     static void _cctor();
     // static private System.Void Init()
-    // Offset: 0x18B4A3C
+    // Offset: 0x18090C4
     static void Init();
     // static public System.String GetHashedUserId(System.String userId, AuthenticationToken/Platform platform)
-    // Offset: 0x18B4B08
+    // Offset: 0x1809190
     static ::Il2CppString* GetHashedUserId(::Il2CppString* userId, GlobalNamespace::AuthenticationToken::Platform platform);
     // static public System.String EncryptName(System.String text)
-    // Offset: 0x18B4D54
+    // Offset: 0x18093DC
     static ::Il2CppString* EncryptName(::Il2CppString* text);
     // static public System.String DecryptName(System.String text)
-    // Offset: 0x18B5070
+    // Offset: 0x18096F8
     static ::Il2CppString* DecryptName(::Il2CppString* text);
     // static public System.String GenerateId()
-    // Offset: 0x18B5390
+    // Offset: 0x1809A18
     static ::Il2CppString* GenerateId();
     // static public System.String GetHashBase64(System.String input)
-    // Offset: 0x18B4BC0
+    // Offset: 0x1809248
     static ::Il2CppString* GetHashBase64(::Il2CppString* input);
   }; // NetworkUtility
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetworkUtility*, "", "NetworkUtility");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NetworkUtility::_cctor
 // Il2CppName: .cctor
 template<>

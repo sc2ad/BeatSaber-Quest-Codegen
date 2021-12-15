@@ -3,20 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRPlugin
 #include "GlobalNamespace/OVRPlugin.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: AppPerfFrameStats
-  struct AppPerfFrameStats;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::AppPerfFrameStats, "", "OVRPlugin/AppPerfFrameStats");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x38
@@ -26,11 +19,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct OVRPlugin::AppPerfFrameStats/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 HmdVsyncIndex
     // Size: 0x4
     // Offset: 0x0
@@ -115,7 +103,6 @@ namespace GlobalNamespace {
     float CompositorGpuEndToVsyncElapsedTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
     // Creating value type constructor for type: AppPerfFrameStats
     constexpr AppPerfFrameStats(int HmdVsyncIndex_ = {}, int AppFrameIndex_ = {}, int AppDroppedFrameCount_ = {}, float AppMotionToPhotonLatency_ = {}, float AppQueueAheadTime_ = {}, float AppCpuElapsedTime_ = {}, float AppGpuElapsedTime_ = {}, int CompositorFrameIndex_ = {}, int CompositorDroppedFrameCount_ = {}, float CompositorLatency_ = {}, float CompositorCpuElapsedTime_ = {}, float CompositorGpuElapsedTime_ = {}, float CompositorCpuStartToGpuEndElapsedTime_ = {}, float CompositorGpuEndToVsyncElapsedTime_ = {}) noexcept : HmdVsyncIndex{HmdVsyncIndex_}, AppFrameIndex{AppFrameIndex_}, AppDroppedFrameCount{AppDroppedFrameCount_}, AppMotionToPhotonLatency{AppMotionToPhotonLatency_}, AppQueueAheadTime{AppQueueAheadTime_}, AppCpuElapsedTime{AppCpuElapsedTime_}, AppGpuElapsedTime{AppGpuElapsedTime_}, CompositorFrameIndex{CompositorFrameIndex_}, CompositorDroppedFrameCount{CompositorDroppedFrameCount_}, CompositorLatency{CompositorLatency_}, CompositorCpuElapsedTime{CompositorCpuElapsedTime_}, CompositorGpuElapsedTime{CompositorGpuElapsedTime_}, CompositorCpuStartToGpuEndElapsedTime{CompositorCpuStartToGpuEndElapsedTime_}, CompositorGpuEndToVsyncElapsedTime{CompositorGpuEndToVsyncElapsedTime_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -155,4 +142,6 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRPlugin::AppPerfFrameStats), 52 + sizeof(float)> __GlobalNamespace_OVRPlugin_AppPerfFrameStatsSizeCheck;
   static_assert(sizeof(OVRPlugin::AppPerfFrameStats) == 0x38);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::AppPerfFrameStats, "", "OVRPlugin/AppPerfFrameStats");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

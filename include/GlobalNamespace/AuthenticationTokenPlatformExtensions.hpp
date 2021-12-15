@@ -3,21 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: AuthenticationToken
 #include "GlobalNamespace/AuthenticationToken.hpp"
 // Including type: UserInfo
 #include "GlobalNamespace/UserInfo.hpp"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: AuthenticationTokenPlatformExtensions
-  class AuthenticationTokenPlatformExtensions;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::AuthenticationTokenPlatformExtensions);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AuthenticationTokenPlatformExtensions*, "", "AuthenticationTokenPlatformExtensions");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -27,16 +19,20 @@ namespace GlobalNamespace {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class AuthenticationTokenPlatformExtensions : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: AuthenticationTokenPlatformExtensions
+    AuthenticationTokenPlatformExtensions() noexcept {}
     // static public AuthenticationToken/Platform ToAuthenticationTokenPlatform(UserInfo/Platform platform)
-    // Offset: 0x261D9A4
+    // Offset: 0x1316388
     static GlobalNamespace::AuthenticationToken::Platform ToAuthenticationTokenPlatform(GlobalNamespace::UserInfo::Platform platform);
     // static public UserInfo/Platform ToUserInfoPlatform(AuthenticationToken/Platform platform)
-    // Offset: 0x261D9D0
+    // Offset: 0x13163B4
     static GlobalNamespace::UserInfo::Platform ToUserInfoPlatform(GlobalNamespace::AuthenticationToken::Platform platform);
   }; // AuthenticationTokenPlatformExtensions
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AuthenticationTokenPlatformExtensions*, "", "AuthenticationTokenPlatformExtensions");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AuthenticationTokenPlatformExtensions::ToAuthenticationTokenPlatform
 // Il2CppName: ToAuthenticationTokenPlatform
 template<>

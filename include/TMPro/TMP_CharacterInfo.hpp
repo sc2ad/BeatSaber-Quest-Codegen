@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: TMPro.TMP_TextElementType
@@ -32,13 +32,6 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: TMPro
 namespace TMPro {
-  // Forward declaring type: TMP_CharacterInfo
-  struct TMP_CharacterInfo;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_CharacterInfo, "TMPro", "TMP_CharacterInfo");
-// Type namespace: TMPro
-namespace TMPro {
   // Size: 0x151
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -46,11 +39,6 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   struct TMP_CharacterInfo/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Char character
     // Size: 0x2
     // Offset: 0x0
@@ -273,7 +261,6 @@ namespace TMPro {
     bool isVisible;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
     // Creating value type constructor for type: TMP_CharacterInfo
     constexpr TMP_CharacterInfo(::Il2CppChar character_ = {}, int index_ = {}, int stringLength_ = {}, TMPro::TMP_TextElementType elementType_ = {}, TMPro::TMP_TextElement* textElement_ = {}, TMPro::TMP_FontAsset* fontAsset_ = {}, TMPro::TMP_SpriteAsset* spriteAsset_ = {}, int spriteIndex_ = {}, UnityEngine::Material* material_ = {}, int materialReferenceIndex_ = {}, bool isUsingAlternateTypeface_ = {}, float pointSize_ = {}, int lineNumber_ = {}, int pageNumber_ = {}, int vertexIndex_ = {}, TMPro::TMP_Vertex vertex_BL_ = {}, TMPro::TMP_Vertex vertex_TL_ = {}, TMPro::TMP_Vertex vertex_TR_ = {}, TMPro::TMP_Vertex vertex_BR_ = {}, UnityEngine::Vector3 topLeft_ = {}, UnityEngine::Vector3 bottomLeft_ = {}, UnityEngine::Vector3 topRight_ = {}, UnityEngine::Vector3 bottomRight_ = {}, float origin_ = {}, float ascender_ = {}, float baseLine_ = {}, float descender_ = {}, float xAdvance_ = {}, float aspectRatio_ = {}, float scale_ = {}, UnityEngine::Color32 color_ = {}, UnityEngine::Color32 underlineColor_ = {}, UnityEngine::Color32 strikethroughColor_ = {}, UnityEngine::Color32 highlightColor_ = {}, TMPro::FontStyles style_ = {}, bool isVisible_ = {}) noexcept : character{character_}, index{index_}, stringLength{stringLength_}, elementType{elementType_}, textElement{textElement_}, fontAsset{fontAsset_}, spriteAsset{spriteAsset_}, spriteIndex{spriteIndex_}, material{material_}, materialReferenceIndex{materialReferenceIndex_}, isUsingAlternateTypeface{isUsingAlternateTypeface_}, pointSize{pointSize_}, lineNumber{lineNumber_}, pageNumber{pageNumber_}, vertexIndex{vertexIndex_}, vertex_BL{vertex_BL_}, vertex_TL{vertex_TL_}, vertex_TR{vertex_TR_}, vertex_BR{vertex_BR_}, topLeft{topLeft_}, bottomLeft{bottomLeft_}, topRight{topRight_}, bottomRight{bottomRight_}, origin{origin_}, ascender{ascender_}, baseLine{baseLine_}, descender{descender_}, xAdvance{xAdvance_}, aspectRatio{aspectRatio_}, scale{scale_}, color{color_}, underlineColor{underlineColor_}, strikethroughColor{strikethroughColor_}, highlightColor{highlightColor_}, style{style_}, isVisible{isVisible_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -357,4 +344,6 @@ namespace TMPro {
   static check_size<sizeof(TMP_CharacterInfo), 336 + sizeof(bool)> __TMPro_TMP_CharacterInfoSizeCheck;
   static_assert(sizeof(TMP_CharacterInfo) == 0x151);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_CharacterInfo, "TMPro", "TMP_CharacterInfo");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

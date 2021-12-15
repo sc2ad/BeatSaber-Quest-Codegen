@@ -3,19 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Object
 #include "UnityEngine/Object.hpp"
 // Completed includes
-// Type namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: PreloadData
-  class PreloadData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::PreloadData);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PreloadData*, "UnityEngine", "PreloadData");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18
@@ -24,13 +16,17 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class PreloadData : public UnityEngine::Object {
     public:
+    // Creating value type constructor for type: PreloadData
+    PreloadData() noexcept {}
     // System.Void PreloadDataDontStripMe()
-    // Offset: 0x1DE508C
+    // Offset: 0x1DEF3FC
     void PreloadDataDontStripMe();
   }; // UnityEngine.PreloadData
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PreloadData*, "UnityEngine", "PreloadData");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::PreloadData::PreloadDataDontStripMe
 // Il2CppName: PreloadDataDontStripMe
 template<>

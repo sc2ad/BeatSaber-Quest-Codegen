@@ -3,27 +3,19 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BeatmapSaveData
 #include "GlobalNamespace/BeatmapSaveData.hpp"
 // Including type: BeatmapSaveData/ITime
 #include "GlobalNamespace/BeatmapSaveData_ITime.hpp"
 // Including type: ObstacleType
 #include "GlobalNamespace/ObstacleType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: ObstacleData
-  class ObstacleData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BeatmapSaveData::ObstacleData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapSaveData::ObstacleData*, "", "BeatmapSaveData/ObstacleData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x24
@@ -32,11 +24,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapSaveData::ObstacleData : public ::Il2CppObject/*, public GlobalNamespace::BeatmapSaveData::ITime*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Single _time
     // Size: 0x4
     // Offset: 0x10
@@ -67,7 +54,8 @@ namespace GlobalNamespace {
     int width;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
+    // Creating value type constructor for type: ObstacleData
+    ObstacleData(float time_ = {}, int lineIndex_ = {}, GlobalNamespace::ObstacleType type_ = {}, float duration_ = {}, int width_ = {}) noexcept : time{time_}, lineIndex{lineIndex_}, type{type_}, duration{duration_}, width{width_} {}
     // Creating interface conversion operator: operator GlobalNamespace::BeatmapSaveData::ITime
     operator GlobalNamespace::BeatmapSaveData::ITime() noexcept {
       return *reinterpret_cast<GlobalNamespace::BeatmapSaveData::ITime*>(this);
@@ -83,36 +71,37 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _width
     int& dyn__width();
     // public System.Single get_time()
-    // Offset: 0x12A1C14
+    // Offset: 0x1331F20
     float get_time();
     // public System.Int32 get_lineIndex()
-    // Offset: 0x12A1C1C
+    // Offset: 0x1331F28
     int get_lineIndex();
     // public ObstacleType get_type()
-    // Offset: 0x12A1C24
+    // Offset: 0x1331F30
     GlobalNamespace::ObstacleType get_type();
     // public System.Single get_duration()
-    // Offset: 0x12A1C2C
+    // Offset: 0x1331F38
     float get_duration();
     // public System.Int32 get_width()
-    // Offset: 0x12A1C34
+    // Offset: 0x1331F40
     int get_width();
     // public System.Void .ctor(System.Single time, System.Int32 lineIndex, ObstacleType type, System.Single duration, System.Int32 width)
-    // Offset: 0x12A1C3C
+    // Offset: 0x1331F48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::ObstacleData* New_ctor(float time, int lineIndex, GlobalNamespace::ObstacleType type, float duration, int width) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapSaveData::ObstacleData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapSaveData::ObstacleData*, creationType>(time, lineIndex, type, duration, width)));
     }
     // public System.Void MoveTime(System.Single offset)
-    // Offset: 0x12A1C94
+    // Offset: 0x1331FA0
     void MoveTime(float offset);
   }; // BeatmapSaveData/ObstacleData
   #pragma pack(pop)
   static check_size<sizeof(BeatmapSaveData::ObstacleData), 32 + sizeof(int)> __GlobalNamespace_BeatmapSaveData_ObstacleDataSizeCheck;
   static_assert(sizeof(BeatmapSaveData::ObstacleData) == 0x24);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapSaveData::ObstacleData*, "", "BeatmapSaveData/ObstacleData");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapSaveData::ObstacleData::get_time
 // Il2CppName: get_time
 template<>

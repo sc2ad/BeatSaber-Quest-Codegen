@@ -3,18 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: Oculus.Platform
-namespace Oculus::Platform {
-  // Forward declaring type: ChallengeCreationType
-  struct ChallengeCreationType;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::ChallengeCreationType, "Oculus.Platform", "ChallengeCreationType");
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
   // Size: 0x4
@@ -23,18 +16,12 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ChallengeCreationType/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: ChallengeCreationType
     constexpr ChallengeCreationType(int value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -45,21 +32,21 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0xEE6E1C
+    // [DescriptionAttribute] Offset: 0xF29314
     // static field const value: static public Oculus.Platform.ChallengeCreationType Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.ChallengeCreationType Unknown
     static Oculus::Platform::ChallengeCreationType _get_Unknown();
     // Set static field: static public Oculus.Platform.ChallengeCreationType Unknown
     static void _set_Unknown(Oculus::Platform::ChallengeCreationType value);
-    // [DescriptionAttribute] Offset: 0xEE6E54
+    // [DescriptionAttribute] Offset: 0xF2934C
     // static field const value: static public Oculus.Platform.ChallengeCreationType UserCreated
     static constexpr const int UserCreated = 1;
     // Get static field: static public Oculus.Platform.ChallengeCreationType UserCreated
     static Oculus::Platform::ChallengeCreationType _get_UserCreated();
     // Set static field: static public Oculus.Platform.ChallengeCreationType UserCreated
     static void _set_UserCreated(Oculus::Platform::ChallengeCreationType value);
-    // [DescriptionAttribute] Offset: 0xEE6E8C
+    // [DescriptionAttribute] Offset: 0xF29384
     // static field const value: static public Oculus.Platform.ChallengeCreationType DeveloperCreated
     static constexpr const int DeveloperCreated = 2;
     // Get static field: static public Oculus.Platform.ChallengeCreationType DeveloperCreated
@@ -73,4 +60,6 @@ namespace Oculus::Platform {
   static check_size<sizeof(ChallengeCreationType), 0 + sizeof(int)> __Oculus_Platform_ChallengeCreationTypeSizeCheck;
   static_assert(sizeof(ChallengeCreationType) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::ChallengeCreationType, "Oculus.Platform", "ChallengeCreationType");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

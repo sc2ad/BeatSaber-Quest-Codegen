@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: UnityEngine.Experimental.Rendering.GraphicsFormat
@@ -19,22 +19,13 @@
 #include "UnityEngine/RenderTextureCreationFlags.hpp"
 // Including type: UnityEngine.RenderTextureMemoryless
 #include "UnityEngine/RenderTextureMemoryless.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+// Including type: UnityEngine.RenderTextureFormat
+#include "UnityEngine/RenderTextureFormat.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Begin forward declares
-// Forward declaring namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: RenderTextureFormat
-  struct RenderTextureFormat;
-}
-// Completed forward declares
-// Type namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: RenderTextureDescriptor
-  struct RenderTextureDescriptor;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RenderTextureDescriptor, "UnityEngine", "RenderTextureDescriptor");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x34
@@ -44,40 +35,35 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   struct RenderTextureDescriptor/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
-    // [DebuggerBrowsableAttribute] Offset: 0xE78370
+    // [DebuggerBrowsableAttribute] Offset: 0xEB7F7C
     // private System.Int32 <width>k__BackingField
     // Size: 0x4
     // Offset: 0x0
     int width;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [DebuggerBrowsableAttribute] Offset: 0xE783AC
+    // [DebuggerBrowsableAttribute] Offset: 0xEB7FB8
     // private System.Int32 <height>k__BackingField
     // Size: 0x4
     // Offset: 0x4
     int height;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [DebuggerBrowsableAttribute] Offset: 0xE783E8
+    // [DebuggerBrowsableAttribute] Offset: 0xEB7FF4
     // private System.Int32 <msaaSamples>k__BackingField
     // Size: 0x4
     // Offset: 0x8
     int msaaSamples;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [DebuggerBrowsableAttribute] Offset: 0xE78424
+    // [DebuggerBrowsableAttribute] Offset: 0xEB8030
     // private System.Int32 <volumeDepth>k__BackingField
     // Size: 0x4
     // Offset: 0xC
     int volumeDepth;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [DebuggerBrowsableAttribute] Offset: 0xE78460
+    // [DebuggerBrowsableAttribute] Offset: 0xEB806C
     // private System.Int32 <mipCount>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -90,7 +76,7 @@ namespace UnityEngine {
     UnityEngine::Experimental::Rendering::GraphicsFormat graphicsFormat;
     // Field size check
     static_assert(sizeof(UnityEngine::Experimental::Rendering::GraphicsFormat) == 0x4);
-    // [DebuggerBrowsableAttribute] Offset: 0xE7849C
+    // [DebuggerBrowsableAttribute] Offset: 0xEB80A8
     // private UnityEngine.Experimental.Rendering.GraphicsFormat <stencilFormat>k__BackingField
     // Size: 0x4
     // Offset: 0x18
@@ -103,21 +89,21 @@ namespace UnityEngine {
     int depthBufferBits;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [DebuggerBrowsableAttribute] Offset: 0xE784D8
+    // [DebuggerBrowsableAttribute] Offset: 0xEB80E4
     // private UnityEngine.Rendering.TextureDimension <dimension>k__BackingField
     // Size: 0x4
     // Offset: 0x20
     UnityEngine::Rendering::TextureDimension dimension;
     // Field size check
     static_assert(sizeof(UnityEngine::Rendering::TextureDimension) == 0x4);
-    // [DebuggerBrowsableAttribute] Offset: 0xE78514
+    // [DebuggerBrowsableAttribute] Offset: 0xEB8120
     // private UnityEngine.Rendering.ShadowSamplingMode <shadowSamplingMode>k__BackingField
     // Size: 0x4
     // Offset: 0x24
     UnityEngine::Rendering::ShadowSamplingMode shadowSamplingMode;
     // Field size check
     static_assert(sizeof(UnityEngine::Rendering::ShadowSamplingMode) == 0x4);
-    // [DebuggerBrowsableAttribute] Offset: 0xE78550
+    // [DebuggerBrowsableAttribute] Offset: 0xEB815C
     // private UnityEngine.VRTextureUsage <vrUsage>k__BackingField
     // Size: 0x4
     // Offset: 0x28
@@ -130,14 +116,13 @@ namespace UnityEngine {
     UnityEngine::RenderTextureCreationFlags flags;
     // Field size check
     static_assert(sizeof(UnityEngine::RenderTextureCreationFlags) == 0x4);
-    // [DebuggerBrowsableAttribute] Offset: 0xE7858C
+    // [DebuggerBrowsableAttribute] Offset: 0xEB8198
     // private UnityEngine.RenderTextureMemoryless <memoryless>k__BackingField
     // Size: 0x4
     // Offset: 0x30
     UnityEngine::RenderTextureMemoryless memoryless;
     // Field size check
     static_assert(sizeof(UnityEngine::RenderTextureMemoryless) == 0x4);
-    public:
     // Creating value type constructor for type: RenderTextureDescriptor
     constexpr RenderTextureDescriptor(int width_ = {}, int height_ = {}, int msaaSamples_ = {}, int volumeDepth_ = {}, int mipCount_ = {}, UnityEngine::Experimental::Rendering::GraphicsFormat graphicsFormat_ = {}, UnityEngine::Experimental::Rendering::GraphicsFormat stencilFormat_ = {}, int depthBufferBits_ = {}, UnityEngine::Rendering::TextureDimension dimension_ = {}, UnityEngine::Rendering::ShadowSamplingMode shadowSamplingMode_ = {}, UnityEngine::VRTextureUsage vrUsage_ = {}, UnityEngine::RenderTextureCreationFlags flags_ = {}, UnityEngine::RenderTextureMemoryless memoryless_ = {}) noexcept : width{width_}, height{height_}, msaaSamples{msaaSamples_}, volumeDepth{volumeDepth_}, mipCount{mipCount_}, graphicsFormat{graphicsFormat_}, stencilFormat{stencilFormat_}, depthBufferBits{depthBufferBits_}, dimension{dimension_}, shadowSamplingMode{shadowSamplingMode_}, vrUsage{vrUsage_}, flags{flags_}, memoryless{memoryless_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -145,9 +130,9 @@ namespace UnityEngine {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // Get static field: static private System.Int32[] depthFormatBits
-    static ::ArrayW<int> _get_depthFormatBits();
+    static ::Array<int>* _get_depthFormatBits();
     // Set static field: static private System.Int32[] depthFormatBits
-    static void _set_depthFormatBits(::ArrayW<int> value);
+    static void _set_depthFormatBits(::Array<int>* value);
     // Get instance field reference: private System.Int32 <width>k__BackingField
     int& dyn_$width$k__BackingField();
     // Get instance field reference: private System.Int32 <height>k__BackingField
@@ -175,104 +160,120 @@ namespace UnityEngine {
     // Get instance field reference: private UnityEngine.RenderTextureMemoryless <memoryless>k__BackingField
     UnityEngine::RenderTextureMemoryless& dyn_$memoryless$k__BackingField();
     // public System.Int32 get_width()
-    // Offset: 0x1DEC078
+    // Offset: 0x1DF647C
     int get_width();
     // public System.Void set_width(System.Int32 value)
-    // Offset: 0x1DEC080
+    // Offset: 0x1DF6484
     void set_width(int value);
     // public System.Int32 get_height()
-    // Offset: 0x1DEC088
+    // Offset: 0x1DF648C
     int get_height();
     // public System.Void set_height(System.Int32 value)
-    // Offset: 0x1DEC090
+    // Offset: 0x1DF6494
     void set_height(int value);
     // public System.Int32 get_msaaSamples()
-    // Offset: 0x1DEC098
+    // Offset: 0x1DF649C
     int get_msaaSamples();
     // public System.Void set_msaaSamples(System.Int32 value)
-    // Offset: 0x1DEC0A0
+    // Offset: 0x1DF64A4
     void set_msaaSamples(int value);
     // public System.Int32 get_volumeDepth()
-    // Offset: 0x1DEC0A8
+    // Offset: 0x1DF64AC
     int get_volumeDepth();
     // public System.Void set_volumeDepth(System.Int32 value)
-    // Offset: 0x1DEC0B0
+    // Offset: 0x1DF64B4
     void set_volumeDepth(int value);
     // public System.Void set_mipCount(System.Int32 value)
-    // Offset: 0x1DEC0B8
+    // Offset: 0x1DF64BC
     void set_mipCount(int value);
     // public UnityEngine.Experimental.Rendering.GraphicsFormat get_graphicsFormat()
-    // Offset: 0x1DEBCB0
+    // Offset: 0x1DF60B4
     UnityEngine::Experimental::Rendering::GraphicsFormat get_graphicsFormat();
     // public System.Void set_graphicsFormat(UnityEngine.Experimental.Rendering.GraphicsFormat value)
-    // Offset: 0x1DEC0C0
+    // Offset: 0x1DF64C4
     void set_graphicsFormat(UnityEngine::Experimental::Rendering::GraphicsFormat value);
     // public UnityEngine.RenderTextureFormat get_colorFormat()
-    // Offset: 0x1DEC120
+    // Offset: 0x1DF6524
     UnityEngine::RenderTextureFormat get_colorFormat();
     // public System.Void set_colorFormat(UnityEngine.RenderTextureFormat value)
-    // Offset: 0x1DEC12C
+    // Offset: 0x1DF6530
     void set_colorFormat(UnityEngine::RenderTextureFormat value);
     // public System.Boolean get_sRGB()
-    // Offset: 0x1DEC198
+    // Offset: 0x1DF659C
     bool get_sRGB();
     // public System.Void set_sRGB(System.Boolean value)
-    // Offset: 0x1DEC1A4
+    // Offset: 0x1DF65A8
     void set_sRGB(bool value);
     // public System.Int32 get_depthBufferBits()
-    // Offset: 0x1DEBCB8
+    // Offset: 0x1DF60BC
     int get_depthBufferBits();
     // public System.Void set_depthBufferBits(System.Int32 value)
-    // Offset: 0x1DEC200
+    // Offset: 0x1DF6604
     void set_depthBufferBits(int value);
     // public System.Void set_dimension(UnityEngine.Rendering.TextureDimension value)
-    // Offset: 0x1DEC22C
+    // Offset: 0x1DF6630
     void set_dimension(UnityEngine::Rendering::TextureDimension value);
     // public System.Void set_shadowSamplingMode(UnityEngine.Rendering.ShadowSamplingMode value)
-    // Offset: 0x1DEC234
+    // Offset: 0x1DF6638
     void set_shadowSamplingMode(UnityEngine::Rendering::ShadowSamplingMode value);
     // public System.Void set_vrUsage(UnityEngine.VRTextureUsage value)
-    // Offset: 0x1DEC23C
+    // Offset: 0x1DF6640
     void set_vrUsage(UnityEngine::VRTextureUsage value);
     // public System.Void set_memoryless(UnityEngine.RenderTextureMemoryless value)
-    // Offset: 0x1DEC244
+    // Offset: 0x1DF6648
     void set_memoryless(UnityEngine::RenderTextureMemoryless value);
     // public System.Void set_useMipMap(System.Boolean value)
-    // Offset: 0x1DEC2AC
+    // Offset: 0x1DF66B0
     void set_useMipMap(bool value);
     // public System.Void set_autoGenerateMips(System.Boolean value)
-    // Offset: 0x1DEC2C8
+    // Offset: 0x1DF66CC
     void set_autoGenerateMips(bool value);
     // public System.Void set_enableRandomWrite(System.Boolean value)
-    // Offset: 0x1DEC2E4
+    // Offset: 0x1DF66E8
     void set_enableRandomWrite(bool value);
     // System.Void set_createdFromScript(System.Boolean value)
-    // Offset: 0x1DEBDDC
+    // Offset: 0x1DF61E0
     void set_createdFromScript(bool value);
     // public System.Void set_useDynamicScale(System.Boolean value)
-    // Offset: 0x1DEBF38
+    // Offset: 0x1DF633C
     void set_useDynamicScale(bool value);
     // public System.Void .ctor(System.Int32 width, System.Int32 height, UnityEngine.RenderTextureFormat colorFormat, System.Int32 depthBufferBits)
-    // Offset: 0x1DEC24C
-    RenderTextureDescriptor(int width, int height, UnityEngine::RenderTextureFormat colorFormat, int depthBufferBits);
+    // Offset: 0x1DF6650
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    RenderTextureDescriptor(int width, int height, UnityEngine::RenderTextureFormat colorFormat, int depthBufferBits) {
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::RenderTextureDescriptor::.ctor");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(width), ::il2cpp_utils::ExtractType(height), ::il2cpp_utils::ExtractType(colorFormat), ::il2cpp_utils::ExtractType(depthBufferBits)})));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, width, height, colorFormat, depthBufferBits);
+    }
     // public System.Void .ctor(System.Int32 width, System.Int32 height, UnityEngine.Experimental.Rendering.GraphicsFormat colorFormat, System.Int32 depthBufferBits)
-    // Offset: 0x1DEBE98
-    RenderTextureDescriptor(int width, int height, UnityEngine::Experimental::Rendering::GraphicsFormat colorFormat, int depthBufferBits);
+    // Offset: 0x1DF629C
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    RenderTextureDescriptor(int width, int height, UnityEngine::Experimental::Rendering::GraphicsFormat colorFormat, int depthBufferBits) {
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::RenderTextureDescriptor::.ctor");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(width), ::il2cpp_utils::ExtractType(height), ::il2cpp_utils::ExtractType(colorFormat), ::il2cpp_utils::ExtractType(depthBufferBits)})));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, width, height, colorFormat, depthBufferBits);
+    }
     // public System.Void .ctor(System.Int32 width, System.Int32 height, UnityEngine.Experimental.Rendering.GraphicsFormat colorFormat, System.Int32 depthBufferBits, System.Int32 mipCount)
-    // Offset: 0x1DEB8E0
-    RenderTextureDescriptor(int width, int height, UnityEngine::Experimental::Rendering::GraphicsFormat colorFormat, int depthBufferBits, int mipCount);
+    // Offset: 0x1DF5CE4
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    RenderTextureDescriptor(int width, int height, UnityEngine::Experimental::Rendering::GraphicsFormat colorFormat, int depthBufferBits, int mipCount) {
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::RenderTextureDescriptor::.ctor");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(width), ::il2cpp_utils::ExtractType(height), ::il2cpp_utils::ExtractType(colorFormat), ::il2cpp_utils::ExtractType(depthBufferBits), ::il2cpp_utils::ExtractType(mipCount)})));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, width, height, colorFormat, depthBufferBits, mipCount);
+    }
     // static private System.Void .cctor()
-    // Offset: 0x1DEC300
+    // Offset: 0x1DF6704
     static void _cctor();
     // private System.Void SetOrClearRenderTextureCreationFlag(System.Boolean value, UnityEngine.RenderTextureCreationFlags flag)
-    // Offset: 0x1DEC104
+    // Offset: 0x1DF6508
     void SetOrClearRenderTextureCreationFlag(bool value, UnityEngine::RenderTextureCreationFlags flag);
   }; // UnityEngine.RenderTextureDescriptor
   #pragma pack(pop)
   static check_size<sizeof(RenderTextureDescriptor), 48 + sizeof(UnityEngine::RenderTextureMemoryless)> __UnityEngine_RenderTextureDescriptorSizeCheck;
   static_assert(sizeof(RenderTextureDescriptor) == 0x34);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RenderTextureDescriptor, "UnityEngine", "RenderTextureDescriptor");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::RenderTextureDescriptor::get_width
 // Il2CppName: get_width
 template<>

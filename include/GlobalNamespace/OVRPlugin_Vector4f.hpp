@@ -3,20 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRPlugin
 #include "GlobalNamespace/OVRPlugin.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: Vector4f
-  struct Vector4f;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Vector4f, "", "OVRPlugin/Vector4f");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -26,11 +19,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct OVRPlugin::Vector4f/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Single x
     // Size: 0x4
     // Offset: 0x0
@@ -55,7 +43,6 @@ namespace GlobalNamespace {
     float w;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
     // Creating value type constructor for type: Vector4f
     constexpr Vector4f(float x_ = {}, float y_ = {}, float z_ = {}, float w_ = {}) noexcept : x{x_}, y{y_}, z{z_}, w{w_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -75,10 +62,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single w
     float& dyn_w();
     // static private System.Void .cctor()
-    // Offset: 0x17ECF14
+    // Offset: 0x187B828
     static void _cctor();
     // public override System.String ToString()
-    // Offset: 0x17ECD34
+    // Offset: 0x187B648
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
@@ -87,7 +74,9 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRPlugin::Vector4f), 12 + sizeof(float)> __GlobalNamespace_OVRPlugin_Vector4fSizeCheck;
   static_assert(sizeof(OVRPlugin::Vector4f) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Vector4f, "", "OVRPlugin/Vector4f");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::Vector4f::_cctor
 // Il2CppName: .cctor
 template<>

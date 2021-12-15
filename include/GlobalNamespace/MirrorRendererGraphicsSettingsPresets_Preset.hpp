@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MirrorRendererGraphicsSettingsPresets
 #include "GlobalNamespace/MirrorRendererGraphicsSettingsPresets.hpp"
 // Including type: NamedPreset
@@ -13,19 +13,11 @@
 #include "UnityEngine/LayerMask.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: Preset
-  class Preset;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset*, "", "MirrorRendererGraphicsSettingsPresets/Preset");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x35
@@ -42,18 +34,12 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct MirrorType/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: MirrorType
       constexpr MirrorType(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -88,11 +74,6 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(MirrorRendererGraphicsSettingsPresets::Preset::MirrorType), 0 + sizeof(int)> __GlobalNamespace_MirrorRendererGraphicsSettingsPresets_Preset_MirrorTypeSizeCheck;
     static_assert(sizeof(MirrorRendererGraphicsSettingsPresets::Preset::MirrorType) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public MirrorRendererGraphicsSettingsPresets/Preset/MirrorType mirrorType
     // Size: 0x4
     // Offset: 0x18
@@ -141,7 +122,8 @@ namespace GlobalNamespace {
     bool enableBloomPrePassFog;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: Preset
+    Preset(GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset::MirrorType mirrorType_ = {}, UnityEngine::LayerMask reflectLayers_ = {}, int stereoTextureWidth_ = {}, int stereoTextureHeight_ = {}, int monoTextureWidth_ = {}, int monoTextureHeight_ = {}, int maxAntiAliasing_ = {}, bool enableBloomPrePassFog_ = {}) noexcept : mirrorType{mirrorType_}, reflectLayers{reflectLayers_}, stereoTextureWidth{stereoTextureWidth_}, stereoTextureHeight{stereoTextureHeight_}, monoTextureWidth{monoTextureWidth_}, monoTextureHeight{monoTextureHeight_}, maxAntiAliasing{maxAntiAliasing_}, enableBloomPrePassFog{enableBloomPrePassFog_} {}
     // Deleting conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept = delete;
     // Get instance field reference: public MirrorRendererGraphicsSettingsPresets/Preset/MirrorType mirrorType
@@ -161,7 +143,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean enableBloomPrePassFog
     bool& dyn_enableBloomPrePassFog();
     // public System.Void .ctor()
-    // Offset: 0x12070A0
+    // Offset: 0x115D720
     // Implemented from: NamedPreset
     // Base method: System.Void NamedPreset::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -175,9 +157,9 @@ namespace GlobalNamespace {
   static check_size<sizeof(MirrorRendererGraphicsSettingsPresets::Preset), 52 + sizeof(bool)> __GlobalNamespace_MirrorRendererGraphicsSettingsPresets_PresetSizeCheck;
   static_assert(sizeof(MirrorRendererGraphicsSettingsPresets::Preset) == 0x35);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset*, "", "MirrorRendererGraphicsSettingsPresets/Preset");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset::MirrorType, "", "MirrorRendererGraphicsSettingsPresets/Preset/MirrorType");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

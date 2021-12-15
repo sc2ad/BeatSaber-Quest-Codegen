@@ -3,19 +3,12 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: OVR.OpenVR.HmdVector2_t
 #include "OVR/OpenVR/HmdVector2_t.hpp"
 // Completed includes
-// Type namespace: OVR.OpenVR
-namespace OVR::OpenVR {
-  // Forward declaring type: HmdRect2_t
-  struct HmdRect2_t;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::HmdRect2_t, "OVR.OpenVR", "HmdRect2_t");
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
   // Size: 0x10
@@ -25,11 +18,6 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HmdRect2_t/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public OVR.OpenVR.HmdVector2_t vTopLeft
     // Size: 0x8
     // Offset: 0x0
@@ -42,7 +30,6 @@ namespace OVR::OpenVR {
     OVR::OpenVR::HmdVector2_t vBottomRight;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::HmdVector2_t) == 0x8);
-    public:
     // Creating value type constructor for type: HmdRect2_t
     constexpr HmdRect2_t(OVR::OpenVR::HmdVector2_t vTopLeft_ = {}, OVR::OpenVR::HmdVector2_t vBottomRight_ = {}) noexcept : vTopLeft{vTopLeft_}, vBottomRight{vBottomRight_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -58,4 +45,6 @@ namespace OVR::OpenVR {
   static check_size<sizeof(HmdRect2_t), 8 + sizeof(OVR::OpenVR::HmdVector2_t)> __OVR_OpenVR_HmdRect2_tSizeCheck;
   static_assert(sizeof(HmdRect2_t) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::HmdRect2_t, "OVR.OpenVR", "HmdRect2_t");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

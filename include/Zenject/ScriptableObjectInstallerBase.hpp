@@ -3,32 +3,26 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ScriptableObject
 #include "UnityEngine/ScriptableObject.hpp"
 // Including type: Zenject.IInstaller
 #include "Zenject/IInstaller.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Zenject
 namespace Zenject {
   // Forward declaring type: DiContainer
   class DiContainer;
+  // Forward declaring type: InjectTypeInfo
+  class InjectTypeInfo;
 }
 // Completed forward declares
-// Type namespace: Zenject
-namespace Zenject {
-  // Forward declaring type: ScriptableObjectInstallerBase
-  class ScriptableObjectInstallerBase;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::ScriptableObjectInstallerBase);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::ScriptableObjectInstallerBase*, "Zenject", "ScriptableObjectInstallerBase");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x20
@@ -37,19 +31,15 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class ScriptableObjectInstallerBase : public UnityEngine::ScriptableObject/*, public Zenject::IInstaller*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
-    // [InjectAttribute] Offset: 0xEC697C
+    // [InjectAttribute] Offset: 0xF03768
     // private Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x18
     Zenject::DiContainer* container;
     // Field size check
     static_assert(sizeof(Zenject::DiContainer*) == 0x8);
-    public:
+    // Creating value type constructor for type: ScriptableObjectInstallerBase
+    ScriptableObjectInstallerBase(Zenject::DiContainer* container_ = {}) noexcept : container{container_} {}
     // Creating interface conversion operator: operator Zenject::IInstaller
     operator Zenject::IInstaller() noexcept {
       return *reinterpret_cast<Zenject::IInstaller*>(this);
@@ -59,16 +49,25 @@ namespace Zenject {
     // Get instance field reference: private Zenject.DiContainer _container
     Zenject::DiContainer*& dyn__container();
     // protected Zenject.DiContainer get_Container()
-    // Offset: 0x188603C
+    // Offset: 0x218F1CC
     Zenject::DiContainer* get_Container();
     // private System.Boolean Zenject.IInstaller.get_IsEnabled()
-    // Offset: 0x1886044
+    // Offset: 0x218F1D4
     bool Zenject_IInstaller_get_IsEnabled();
     // public System.Void InstallBindings()
-    // Offset: 0x188604C
+    // Offset: 0x218F1DC
     void InstallBindings();
+    // static private System.Object __zenCreate(System.Object[] P_0)
+    // Offset: 0x218F23C
+    static ::Il2CppObject* __zenCreate(::Array<::Il2CppObject*>* P_0);
+    // static private System.Void __zenFieldSetter0(System.Object P_0, System.Object P_1)
+    // Offset: 0x218F298
+    static void __zenFieldSetter0(::Il2CppObject* P_0, ::Il2CppObject* P_1);
+    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
+    // Offset: 0x218F36C
+    static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
-    // Offset: 0x1886034
+    // Offset: 0x218F008
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -83,7 +82,8 @@ namespace Zenject {
   static check_size<sizeof(ScriptableObjectInstallerBase), 24 + sizeof(Zenject::DiContainer*)> __Zenject_ScriptableObjectInstallerBaseSizeCheck;
   static_assert(sizeof(ScriptableObjectInstallerBase) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Zenject::ScriptableObjectInstallerBase*, "Zenject", "ScriptableObjectInstallerBase");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::ScriptableObjectInstallerBase::get_Container
 // Il2CppName: get_Container
 template<>
@@ -106,6 +106,33 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ScriptableObjectInstallerBase::*)()>(&Zenject::ScriptableObjectInstallerBase::InstallBindings)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::ScriptableObjectInstallerBase*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Zenject::ScriptableObjectInstallerBase::__zenCreate
+// Il2CppName: __zenCreate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Array<::Il2CppObject*>*)>(&Zenject::ScriptableObjectInstallerBase::__zenCreate)> {
+  static const MethodInfo* get() {
+    static auto* P_0 = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ScriptableObjectInstallerBase*), "__zenCreate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{P_0});
+  }
+};
+// Writing MetadataGetter for method: Zenject::ScriptableObjectInstallerBase::__zenFieldSetter0
+// Il2CppName: __zenFieldSetter0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::Il2CppObject*)>(&Zenject::ScriptableObjectInstallerBase::__zenFieldSetter0)> {
+  static const MethodInfo* get() {
+    static auto* P_0 = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    static auto* P_1 = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ScriptableObjectInstallerBase*), "__zenFieldSetter0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{P_0, P_1});
+  }
+};
+// Writing MetadataGetter for method: Zenject::ScriptableObjectInstallerBase::__zenCreateInjectTypeInfo
+// Il2CppName: __zenCreateInjectTypeInfo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo* (*)()>(&Zenject::ScriptableObjectInstallerBase::__zenCreateInjectTypeInfo)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ScriptableObjectInstallerBase*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: Zenject::ScriptableObjectInstallerBase::New_ctor

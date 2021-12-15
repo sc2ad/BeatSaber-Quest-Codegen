@@ -3,7 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
@@ -12,13 +12,6 @@
 namespace Valve::VR {
 }
 // Completed forward declares
-// Type namespace: Valve.VR
-namespace Valve::VR {
-  // Forward declaring type: IVRTrackedCamera
-  struct IVRTrackedCamera;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRTrackedCamera, "Valve.VR", "IVRTrackedCamera");
 // Type namespace: Valve.VR
 namespace Valve::VR {
   // Size: 0x60
@@ -52,11 +45,6 @@ namespace Valve::VR {
     class _GetVideoStreamTextureGL;
     // Nested type: Valve::VR::IVRTrackedCamera::_ReleaseVideoStreamTextureGL
     class _ReleaseVideoStreamTextureGL;
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // Valve.VR.IVRTrackedCamera/Valve.VR._GetCameraErrorNameFromEnum GetCameraErrorNameFromEnum
     // Size: 0x8
     // Offset: 0x0
@@ -129,7 +117,6 @@ namespace Valve::VR {
     Valve::VR::IVRTrackedCamera::_ReleaseVideoStreamTextureGL* ReleaseVideoStreamTextureGL;
     // Field size check
     static_assert(sizeof(Valve::VR::IVRTrackedCamera::_ReleaseVideoStreamTextureGL*) == 0x8);
-    public:
     // Creating value type constructor for type: IVRTrackedCamera
     constexpr IVRTrackedCamera(Valve::VR::IVRTrackedCamera::_GetCameraErrorNameFromEnum* GetCameraErrorNameFromEnum_ = {}, Valve::VR::IVRTrackedCamera::_HasCamera* HasCamera_ = {}, Valve::VR::IVRTrackedCamera::_GetCameraFrameSize* GetCameraFrameSize_ = {}, Valve::VR::IVRTrackedCamera::_GetCameraIntrinsics* GetCameraIntrinsics_ = {}, Valve::VR::IVRTrackedCamera::_GetCameraProjection* GetCameraProjection_ = {}, Valve::VR::IVRTrackedCamera::_AcquireVideoStreamingService* AcquireVideoStreamingService_ = {}, Valve::VR::IVRTrackedCamera::_ReleaseVideoStreamingService* ReleaseVideoStreamingService_ = {}, Valve::VR::IVRTrackedCamera::_GetVideoStreamFrameBuffer* GetVideoStreamFrameBuffer_ = {}, Valve::VR::IVRTrackedCamera::_GetVideoStreamTextureSize* GetVideoStreamTextureSize_ = {}, Valve::VR::IVRTrackedCamera::_GetVideoStreamTextureD3D11* GetVideoStreamTextureD3D11_ = {}, Valve::VR::IVRTrackedCamera::_GetVideoStreamTextureGL* GetVideoStreamTextureGL_ = {}, Valve::VR::IVRTrackedCamera::_ReleaseVideoStreamTextureGL* ReleaseVideoStreamTextureGL_ = {}) noexcept : GetCameraErrorNameFromEnum{GetCameraErrorNameFromEnum_}, HasCamera{HasCamera_}, GetCameraFrameSize{GetCameraFrameSize_}, GetCameraIntrinsics{GetCameraIntrinsics_}, GetCameraProjection{GetCameraProjection_}, AcquireVideoStreamingService{AcquireVideoStreamingService_}, ReleaseVideoStreamingService{ReleaseVideoStreamingService_}, GetVideoStreamFrameBuffer{GetVideoStreamFrameBuffer_}, GetVideoStreamTextureSize{GetVideoStreamTextureSize_}, GetVideoStreamTextureD3D11{GetVideoStreamTextureD3D11_}, GetVideoStreamTextureGL{GetVideoStreamTextureGL_}, ReleaseVideoStreamTextureGL{ReleaseVideoStreamTextureGL_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -165,4 +152,6 @@ namespace Valve::VR {
   static check_size<sizeof(IVRTrackedCamera), 88 + sizeof(Valve::VR::IVRTrackedCamera::_ReleaseVideoStreamTextureGL*)> __Valve_VR_IVRTrackedCameraSizeCheck;
   static_assert(sizeof(IVRTrackedCamera) == 0x60);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRTrackedCamera, "Valve.VR", "IVRTrackedCamera");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

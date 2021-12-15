@@ -3,20 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRPlugin
 #include "GlobalNamespace/OVRPlugin.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: Vector2i
-  struct Vector2i;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Vector2i, "", "OVRPlugin/Vector2i");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x8
@@ -26,11 +19,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct OVRPlugin::Vector2i/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 x
     // Size: 0x4
     // Offset: 0x0
@@ -43,7 +31,6 @@ namespace GlobalNamespace {
     int y;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: Vector2i
     constexpr Vector2i(int x_ = {}, int y_ = {}) noexcept : x{x_}, y{y_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -59,4 +46,6 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRPlugin::Vector2i), 4 + sizeof(int)> __GlobalNamespace_OVRPlugin_Vector2iSizeCheck;
   static_assert(sizeof(OVRPlugin::Vector2i) == 0x8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Vector2i, "", "OVRPlugin/Vector2i");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

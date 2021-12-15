@@ -3,29 +3,19 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ICloneable
 #include "System/ICloneable.hpp"
 // Including type: System.Nullable`1
 #include "System/Nullable_1.hpp"
 // Including type: System.DateTimeOffset
 #include "System/DateTimeOffset.hpp"
-// Including type: System.TimeSpan
-#include "System/TimeSpan.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Net.Http.Headers
-namespace System::Net::Http::Headers {
-  // Forward declaring type: RetryConditionHeaderValue
-  class RetryConditionHeaderValue;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::Http::Headers::RetryConditionHeaderValue);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::RetryConditionHeaderValue*, "System.Net.Http.Headers", "RetryConditionHeaderValue");
 // Type namespace: System.Net.Http.Headers
 namespace System::Net::Http::Headers {
   // WARNING Size may be invalid!
@@ -33,11 +23,6 @@ namespace System::Net::Http::Headers {
   // [TokenAttribute] Offset: FFFFFFFF
   class RetryConditionHeaderValue : public ::Il2CppObject/*, public System::ICloneable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Nullable`1<System.DateTimeOffset> <Date>k__BackingField
     // Size: 0xFFFFFFFF
     // Offset: 0x10
@@ -46,7 +31,8 @@ namespace System::Net::Http::Headers {
     // Size: 0xFFFFFFFF
     // Offset: 0x28
     System::Nullable_1<System::TimeSpan> Delta;
-    public:
+    // Creating value type constructor for type: RetryConditionHeaderValue
+    RetryConditionHeaderValue(System::Nullable_1<System::DateTimeOffset> Date_ = {}, System::Nullable_1<System::TimeSpan> Delta_ = {}) noexcept : Date{Date_}, Delta{Delta_} {}
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);
@@ -56,56 +42,57 @@ namespace System::Net::Http::Headers {
     // Get instance field reference: private System.Nullable`1<System.TimeSpan> <Delta>k__BackingField
     System::Nullable_1<System::TimeSpan>& dyn_$Delta$k__BackingField();
     // public System.Nullable`1<System.DateTimeOffset> get_Date()
-    // Offset: 0x173AB1C
+    // Offset: 0x17C6D58
     System::Nullable_1<System::DateTimeOffset> get_Date();
     // private System.Void set_Date(System.Nullable`1<System.DateTimeOffset> value)
-    // Offset: 0x173AB30
+    // Offset: 0x17C6D6C
     void set_Date(System::Nullable_1<System::DateTimeOffset> value);
     // public System.Nullable`1<System.TimeSpan> get_Delta()
-    // Offset: 0x173AB44
+    // Offset: 0x17C6D80
     System::Nullable_1<System::TimeSpan> get_Delta();
     // private System.Void set_Delta(System.Nullable`1<System.TimeSpan> value)
-    // Offset: 0x173AB50
+    // Offset: 0x17C6D8C
     void set_Delta(System::Nullable_1<System::TimeSpan> value);
     // public System.Void .ctor(System.DateTimeOffset date)
-    // Offset: 0x173A9B0
+    // Offset: 0x17C6BEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RetryConditionHeaderValue* New_ctor(System::DateTimeOffset date) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::RetryConditionHeaderValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RetryConditionHeaderValue*, creationType>(date)));
     }
     // public System.Void .ctor(System.TimeSpan delta)
-    // Offset: 0x173AA48
+    // Offset: 0x17C6C84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RetryConditionHeaderValue* New_ctor(System::TimeSpan delta) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::RetryConditionHeaderValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RetryConditionHeaderValue*, creationType>(delta)));
     }
     // private System.Object System.ICloneable.Clone()
-    // Offset: 0x173AB58
+    // Offset: 0x17C6D94
     ::Il2CppObject* System_ICloneable_Clone();
     // static public System.Boolean TryParse(System.String input, out System.Net.Http.Headers.RetryConditionHeaderValue parsedValue)
-    // Offset: 0x173AD64
+    // Offset: 0x17C6FA0
     static bool TryParse(::Il2CppString* input, ByRef<System::Net::Http::Headers::RetryConditionHeaderValue*> parsedValue);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x173AB60
+    // Offset: 0x17C6D9C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x173ACD4
+    // Offset: 0x17C6F10
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x173AF24
+    // Offset: 0x17C7160
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.Net.Http.Headers.RetryConditionHeaderValue
   // WARNING Not writing size check since size may be invalid!
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::RetryConditionHeaderValue*, "System.Net.Http.Headers", "RetryConditionHeaderValue");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Http::Headers::RetryConditionHeaderValue::get_Date
 // Il2CppName: get_Date
 template<>

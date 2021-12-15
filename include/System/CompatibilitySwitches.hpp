@@ -3,17 +3,9 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: System
-namespace System {
-  // Forward declaring type: CompatibilitySwitches
-  class CompatibilitySwitches;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::CompatibilitySwitches);
-DEFINE_IL2CPP_ARG_TYPE(System::CompatibilitySwitches*, "System", "CompatibilitySwitches");
 // Type namespace: System
 namespace System {
   // Size: 0x10
@@ -22,6 +14,8 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class CompatibilitySwitches : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: CompatibilitySwitches
+    CompatibilitySwitches() noexcept {}
     // Get static field: static public readonly System.Boolean IsAppEarlierThanSilverlight4
     static bool _get_IsAppEarlierThanSilverlight4();
     // Set static field: static public readonly System.Boolean IsAppEarlierThanSilverlight4
@@ -33,4 +27,6 @@ namespace System {
   }; // System.CompatibilitySwitches
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::CompatibilitySwitches*, "System", "CompatibilitySwitches");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

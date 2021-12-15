@@ -3,20 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.IO.WatcherChangeTypes
 #include "System/IO/WatcherChangeTypes.hpp"
 // Completed includes
-// Type namespace: System.IO
-namespace System::IO {
-  // Forward declaring type: WaitForChangedResult
-  struct WaitForChangedResult;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::IO::WaitForChangedResult, "System.IO", "WaitForChangedResult");
 // Type namespace: System.IO
 namespace System::IO {
   // Size: 0x19
@@ -26,11 +19,6 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   struct WaitForChangedResult/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.IO.WatcherChangeTypes changeType
     // Size: 0x4
     // Offset: 0x0
@@ -57,7 +45,6 @@ namespace System::IO {
     bool timedOut;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
     // Creating value type constructor for type: WaitForChangedResult
     constexpr WaitForChangedResult(System::IO::WatcherChangeTypes changeType_ = {}, ::Il2CppString* name_ = {}, ::Il2CppString* oldName_ = {}, bool timedOut_ = {}) noexcept : changeType{changeType_}, name{name_}, oldName{oldName_}, timedOut{timedOut_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -73,20 +60,22 @@ namespace System::IO {
     // Get instance field reference: private System.Boolean timedOut
     bool& dyn_timedOut();
     // public System.Void set_ChangeType(System.IO.WatcherChangeTypes value)
-    // Offset: 0x1A18B1C
+    // Offset: 0x1A3823C
     void set_ChangeType(System::IO::WatcherChangeTypes value);
     // public System.Void set_Name(System.String value)
-    // Offset: 0x1A18B24
+    // Offset: 0x1A38244
     void set_Name(::Il2CppString* value);
     // public System.Void set_OldName(System.String value)
-    // Offset: 0x1A18B2C
+    // Offset: 0x1A3824C
     void set_OldName(::Il2CppString* value);
   }; // System.IO.WaitForChangedResult
   #pragma pack(pop)
   static check_size<sizeof(WaitForChangedResult), 24 + sizeof(bool)> __System_IO_WaitForChangedResultSizeCheck;
   static_assert(sizeof(WaitForChangedResult) == 0x19);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::IO::WaitForChangedResult, "System.IO", "WaitForChangedResult");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::WaitForChangedResult::set_ChangeType
 // Il2CppName: set_ChangeType
 template<>

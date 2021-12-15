@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct Il2CppString;
 // Completed il2cpp-utils forward declares
-// Type namespace: System.Collections.Generic
-namespace System::Collections::Generic {
-  // Forward declaring type: KeyValuePair`2<TKey, TValue>
-  template<typename TKey, typename TValue>
-  struct KeyValuePair_2;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(System::Collections::Generic::KeyValuePair_2, "System.Collections.Generic", "KeyValuePair`2");
 // Type namespace: System.Collections.Generic
 namespace System::Collections::Generic {
   // WARNING Size may be invalid!
@@ -31,11 +23,6 @@ namespace System::Collections::Generic {
   template<typename TKey, typename TValue>
   struct KeyValuePair_2/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private TKey key
     // Size: 0xFFFFFFFF
     // Offset: 0x0
@@ -44,7 +31,6 @@ namespace System::Collections::Generic {
     // Size: 0xFFFFFFFF
     // Offset: 0x0
     TValue value;
-    public:
     // Creating value type constructor for type: KeyValuePair_2
     constexpr KeyValuePair_2(TKey key_ = {}, TValue value_ = {}) noexcept : key{key_}, value{value_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -72,17 +58,18 @@ namespace System::Collections::Generic {
     TKey get_Key() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::KeyValuePair_2::get_Key");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "get_Key", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<TKey, false>(this, ___internal__method);
+      return ::il2cpp_utils::RunMethodThrow<TKey, false>(*this, ___internal__method);
     }
     // public TValue get_Value()
     // Offset: 0xFFFFFFFF
     TValue get_Value() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::KeyValuePair_2::get_Value");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "get_Value", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<TValue, false>(this, ___internal__method);
+      return ::il2cpp_utils::RunMethodThrow<TValue, false>(*this, ___internal__method);
     }
     // public System.Void .ctor(TKey key, TValue value)
     // Offset: 0xFFFFFFFF
+    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  KeyValuePair_2(TKey key, TValue value)
     // public override System.String ToString()
     // Offset: 0xFFFFFFFF
@@ -91,9 +78,10 @@ namespace System::Collections::Generic {
     ::Il2CppString* ToString() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::KeyValuePair_2::ToString");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "ToString", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(this, ___internal__method);
+      return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(*this, ___internal__method);
     }
   }; // System.Collections.Generic.KeyValuePair`2
   // Could not write size check! Type: System.Collections.Generic.KeyValuePair`2 is generic, or has no fields that are valid for size checks!
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(System::Collections::Generic::KeyValuePair_2, "System.Collections.Generic", "KeyValuePair`2");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

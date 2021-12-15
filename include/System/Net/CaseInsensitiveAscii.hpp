@@ -3,26 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Collections.IEqualityComparer
 #include "System/Collections/IEqualityComparer.hpp"
 // Including type: System.Collections.IComparer
 #include "System/Collections/IComparer.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Net
-namespace System::Net {
-  // Forward declaring type: CaseInsensitiveAscii
-  class CaseInsensitiveAscii;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::CaseInsensitiveAscii);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::CaseInsensitiveAscii*, "System.Net", "CaseInsensitiveAscii");
 // Type namespace: System.Net
 namespace System::Net {
   // Size: 0x10
@@ -31,6 +22,8 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class CaseInsensitiveAscii : public ::Il2CppObject/*, public System::Collections::IEqualityComparer, public System::Collections::IComparer*/ {
     public:
+    // Creating value type constructor for type: CaseInsensitiveAscii
+    CaseInsensitiveAscii() noexcept {}
     // Creating interface conversion operator: operator System::Collections::IEqualityComparer
     operator System::Collections::IEqualityComparer() noexcept {
       return *reinterpret_cast<System::Collections::IEqualityComparer*>(this);
@@ -44,26 +37,26 @@ namespace System::Net {
     // Set static field: static readonly System.Net.CaseInsensitiveAscii StaticInstance
     static void _set_StaticInstance(System::Net::CaseInsensitiveAscii* value);
     // Get static field: static readonly System.Byte[] AsciiToLower
-    static ::ArrayW<uint8_t> _get_AsciiToLower();
+    static ::Array<uint8_t>* _get_AsciiToLower();
     // Set static field: static readonly System.Byte[] AsciiToLower
-    static void _set_AsciiToLower(::ArrayW<uint8_t> value);
+    static void _set_AsciiToLower(::Array<uint8_t>* value);
     // static private System.Void .cctor()
-    // Offset: 0x15559D8
+    // Offset: 0x15E2CCC
     static void _cctor();
     // public System.Int32 GetHashCode(System.Object myObject)
-    // Offset: 0x1555494
+    // Offset: 0x15E2788
     int GetHashCode(::Il2CppObject* myObject);
     // public System.Int32 Compare(System.Object firstObject, System.Object secondObject)
-    // Offset: 0x15555B8
+    // Offset: 0x15E28AC
     int Compare(::Il2CppObject* firstObject, ::Il2CppObject* secondObject);
     // private System.Int32 FastGetHashCode(System.String myString)
-    // Offset: 0x155573C
+    // Offset: 0x15E2A30
     int FastGetHashCode(::Il2CppString* myString);
     // public System.Boolean Equals(System.Object firstObject, System.Object secondObject)
-    // Offset: 0x1555844
+    // Offset: 0x15E2B38
     bool Equals(::Il2CppObject* firstObject, ::Il2CppObject* secondObject);
     // public System.Void .ctor()
-    // Offset: 0x15559D0
+    // Offset: 0x15E2CC4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -74,7 +67,8 @@ namespace System::Net {
   }; // System.Net.CaseInsensitiveAscii
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::CaseInsensitiveAscii*, "System.Net", "CaseInsensitiveAscii");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::CaseInsensitiveAscii::_cctor
 // Il2CppName: .cctor
 template<>

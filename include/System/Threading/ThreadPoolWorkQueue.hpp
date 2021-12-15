@@ -3,12 +3,12 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Threading
@@ -19,14 +19,6 @@ namespace System::Threading {
   class IThreadPoolWorkItem;
 }
 // Completed forward declares
-// Type namespace: System.Threading
-namespace System::Threading {
-  // Forward declaring type: ThreadPoolWorkQueue
-  class ThreadPoolWorkQueue;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Threading::ThreadPoolWorkQueue);
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::ThreadPoolWorkQueue*, "System.Threading", "ThreadPoolWorkQueue");
 // Type namespace: System.Threading
 namespace System::Threading {
   // Size: 0x24
@@ -42,11 +34,6 @@ namespace System::Threading {
     class WorkStealingQueue;
     // Nested type: System::Threading::ThreadPoolWorkQueue::QueueSegment
     class QueueSegment;
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // System.Threading.ThreadPoolWorkQueue/System.Threading.QueueSegment queueHead
     // Size: 0x8
     // Offset: 0x10
@@ -65,7 +52,8 @@ namespace System::Threading {
     int numOutstandingThreadRequests;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
+    // Creating value type constructor for type: ThreadPoolWorkQueue
+    ThreadPoolWorkQueue(System::Threading::ThreadPoolWorkQueue::QueueSegment* queueHead_ = {}, System::Threading::ThreadPoolWorkQueue::QueueSegment* queueTail_ = {}, int numOutstandingThreadRequests_ = {}) noexcept : queueHead{queueHead_}, queueTail{queueTail_}, numOutstandingThreadRequests{numOutstandingThreadRequests_} {}
     // Get static field: static System.Threading.ThreadPoolWorkQueue/System.Threading.SparseArray`1<System.Threading.ThreadPoolWorkQueue/System.Threading.WorkStealingQueue> allThreadQueues
     static System::Threading::ThreadPoolWorkQueue::SparseArray_1<System::Threading::ThreadPoolWorkQueue::WorkStealingQueue*>* _get_allThreadQueues();
     // Set static field: static System.Threading.ThreadPoolWorkQueue/System.Threading.SparseArray`1<System.Threading.ThreadPoolWorkQueue/System.Threading.WorkStealingQueue> allThreadQueues
@@ -77,31 +65,31 @@ namespace System::Threading {
     // Get instance field reference: private System.Int32 numOutstandingThreadRequests
     int& dyn_numOutstandingThreadRequests();
     // static private System.Void .cctor()
-    // Offset: 0x19A532C
+    // Offset: 0x19C39DC
     static void _cctor();
     // public System.Threading.ThreadPoolWorkQueueThreadLocals EnsureCurrentThreadHasQueue()
-    // Offset: 0x19A3D80
+    // Offset: 0x19C2430
     System::Threading::ThreadPoolWorkQueueThreadLocals* EnsureCurrentThreadHasQueue();
     // System.Void EnsureThreadRequested()
-    // Offset: 0x19A3F00
+    // Offset: 0x19C25B0
     void EnsureThreadRequested();
     // System.Void MarkThreadRequestSatisfied()
-    // Offset: 0x19A3FB8
+    // Offset: 0x19C2668
     void MarkThreadRequestSatisfied();
     // public System.Void Enqueue(System.Threading.IThreadPoolWorkItem callback, System.Boolean forceGlobal)
-    // Offset: 0x19A3A48
+    // Offset: 0x19C20F8
     void Enqueue(System::Threading::IThreadPoolWorkItem* callback, bool forceGlobal);
     // System.Boolean LocalFindAndPop(System.Threading.IThreadPoolWorkItem callback)
-    // Offset: 0x19A3B74
+    // Offset: 0x19C2224
     bool LocalFindAndPop(System::Threading::IThreadPoolWorkItem* callback);
     // public System.Void Dequeue(System.Threading.ThreadPoolWorkQueueThreadLocals tl, out System.Threading.IThreadPoolWorkItem callback, out System.Boolean missedSteal)
-    // Offset: 0x19A47DC
+    // Offset: 0x19C2E8C
     void Dequeue(System::Threading::ThreadPoolWorkQueueThreadLocals* tl, ByRef<System::Threading::IThreadPoolWorkItem*> callback, ByRef<bool> missedSteal);
     // static System.Boolean Dispatch()
-    // Offset: 0x19A4DA0
+    // Offset: 0x19C3450
     static bool Dispatch();
     // public System.Void .ctor()
-    // Offset: 0x19A3CA8
+    // Offset: 0x19C2358
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -114,7 +102,8 @@ namespace System::Threading {
   static check_size<sizeof(ThreadPoolWorkQueue), 32 + sizeof(int)> __System_Threading_ThreadPoolWorkQueueSizeCheck;
   static_assert(sizeof(ThreadPoolWorkQueue) == 0x24);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::ThreadPoolWorkQueue*, "System.Threading", "ThreadPoolWorkQueue");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::ThreadPoolWorkQueue::_cctor
 // Il2CppName: .cctor
 template<>

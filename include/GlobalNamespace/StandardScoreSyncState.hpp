@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: LiteNetLib.Utils.INetSerializable
@@ -27,13 +27,6 @@ namespace LiteNetLib::Utils {
 // Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
-  // Forward declaring type: StandardScoreSyncState
-  struct StandardScoreSyncState;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardScoreSyncState, "", "StandardScoreSyncState");
-// Type namespace: 
-namespace GlobalNamespace {
   // Size: 0x14
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -41,11 +34,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct StandardScoreSyncState/*, public System::ValueType, public LiteNetLib::Utils::INetSerializable, public GlobalNamespace::IStateTable_3<GlobalNamespace::StandardScoreSyncState, GlobalNamespace::StandardScoreSyncState_Score, int>, public GlobalNamespace::IEquatableByReference_1<GlobalNamespace::StandardScoreSyncState>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Int32 _modifiedScore
     // Size: 0x4
     // Offset: 0x0
@@ -76,7 +64,6 @@ namespace GlobalNamespace {
     int multiplier;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: StandardScoreSyncState
     constexpr StandardScoreSyncState(int modifiedScore_ = {}, int rawScore_ = {}, int immediateMaxPossibleRawScore_ = {}, int combo_ = {}, int multiplier_ = {}) noexcept : modifiedScore{modifiedScore_}, rawScore{rawScore_}, immediateMaxPossibleRawScore{immediateMaxPossibleRawScore_}, combo{combo_}, multiplier{multiplier_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -106,44 +93,46 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _multiplier
     int& dyn__multiplier();
     // public System.Void SetState(StandardScoreSyncState/Score s, System.Int32 value)
-    // Offset: 0x18C09DC
+    // Offset: 0x268D1F0
     void SetState(GlobalNamespace::StandardScoreSyncState_Score s, int value);
     // public StandardScoreSyncState GetDelta(in StandardScoreSyncState stateTable)
-    // Offset: 0x18C0A20
+    // Offset: 0x268D234
     GlobalNamespace::StandardScoreSyncState GetDelta(ByRef<GlobalNamespace::StandardScoreSyncState> stateTable);
     // public StandardScoreSyncState ApplyDelta(in StandardScoreSyncState delta)
-    // Offset: 0x18C0A44
+    // Offset: 0x268D258
     GlobalNamespace::StandardScoreSyncState ApplyDelta(ByRef<GlobalNamespace::StandardScoreSyncState> delta);
     // public System.Int32 GetState(StandardScoreSyncState/Score s)
-    // Offset: 0x18C0A68
+    // Offset: 0x268D27C
     int GetState(GlobalNamespace::StandardScoreSyncState_Score s);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x18C0AB4
+    // Offset: 0x268D2C8
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x18C0B24
+    // Offset: 0x268D338
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Boolean Equals(in StandardScoreSyncState other)
-    // Offset: 0x18C0B94
+    // Offset: 0x268D3A8
     bool Equals(ByRef<GlobalNamespace::StandardScoreSyncState> other);
     // public System.Int32 GetSize()
-    // Offset: 0x18C0BF0
+    // Offset: 0x268D404
     int GetSize();
     // private StandardScoreSyncState IStateTable<StandardScoreSyncState,StandardScoreSyncState.Score,System.Int32>.GetDelta(in StandardScoreSyncState stateTable)
-    // Offset: 0x18C0C80
+    // Offset: 0x268D494
     GlobalNamespace::StandardScoreSyncState IStateTable$StandardScoreSyncState_StandardScoreSyncState_Score_System_Int32$_GetDelta(ByRef<GlobalNamespace::StandardScoreSyncState> stateTable);
     // private StandardScoreSyncState IStateTable<StandardScoreSyncState,StandardScoreSyncState.Score,System.Int32>.ApplyDelta(in StandardScoreSyncState delta)
-    // Offset: 0x18C0CA4
+    // Offset: 0x268D4B8
     GlobalNamespace::StandardScoreSyncState IStateTable$StandardScoreSyncState_StandardScoreSyncState_Score_System_Int32$_ApplyDelta(ByRef<GlobalNamespace::StandardScoreSyncState> delta);
     // private System.Boolean IEquatableByReference<StandardScoreSyncState>.Equals(in StandardScoreSyncState other)
-    // Offset: 0x18C0CC8
+    // Offset: 0x268D4DC
     bool IEquatableByReference$StandardScoreSyncState$_Equals(ByRef<GlobalNamespace::StandardScoreSyncState> other);
   }; // StandardScoreSyncState
   #pragma pack(pop)
   static check_size<sizeof(StandardScoreSyncState), 16 + sizeof(int)> __GlobalNamespace_StandardScoreSyncStateSizeCheck;
   static_assert(sizeof(StandardScoreSyncState) == 0x14);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardScoreSyncState, "", "StandardScoreSyncState");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::StandardScoreSyncState::SetState
 // Il2CppName: SetState
 template<>

@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Globalization.Bootstring
 #include "System/Globalization/Bootstring.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Globalization
-namespace System::Globalization {
-  // Forward declaring type: Punycode
-  class Punycode;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Globalization::Punycode);
-DEFINE_IL2CPP_ARG_TYPE(System::Globalization::Punycode*, "System.Globalization", "Punycode");
 // Type namespace: System.Globalization
 namespace System::Globalization {
   // Size: 0x30
@@ -28,8 +20,10 @@ namespace System::Globalization {
   // [TokenAttribute] Offset: FFFFFFFF
   class Punycode : public System::Globalization::Bootstring {
     public:
+    // Creating value type constructor for type: Punycode
+    Punycode() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1BBB82C
+    // Offset: 0x1C3B724
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -40,7 +34,8 @@ namespace System::Globalization {
   }; // System.Globalization.Punycode
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Globalization::Punycode*, "System.Globalization", "Punycode");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Globalization::Punycode::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

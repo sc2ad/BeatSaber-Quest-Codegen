@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MaterialPropertyBlockAnimator
 #include "GlobalNamespace/MaterialPropertyBlockAnimator.hpp"
 // Including type: UnityEngine.Vector4
 #include "UnityEngine/Vector4.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: MaterialPropertyBlockVectorAnimator
-  class MaterialPropertyBlockVectorAnimator;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MaterialPropertyBlockVectorAnimator);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialPropertyBlockVectorAnimator*, "", "MaterialPropertyBlockVectorAnimator");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x40
@@ -33,23 +25,19 @@ namespace GlobalNamespace {
     public:
     // Writing base type padding for base size: 0x2D to desired offset: 0x30
     char ___base_padding[0x3] = {};
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
-    // [SpaceAttribute] Offset: 0xEE05D8
+    // [SpaceAttribute] Offset: 0xF23A18
     // private UnityEngine.Vector4 _vector
     // Size: 0x10
     // Offset: 0x30
     UnityEngine::Vector4 vector;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector4) == 0x10);
-    public:
+    // Creating value type constructor for type: MaterialPropertyBlockVectorAnimator
+    MaterialPropertyBlockVectorAnimator(UnityEngine::Vector4 vector_ = {}) noexcept : vector{vector_} {}
     // Get instance field reference: private UnityEngine.Vector4 _vector
     UnityEngine::Vector4& dyn__vector();
     // public System.Void .ctor()
-    // Offset: 0x1E1429C
+    // Offset: 0x1DB9DA8
     // Implemented from: MaterialPropertyBlockAnimator
     // Base method: System.Void MaterialPropertyBlockAnimator::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -63,7 +51,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MaterialPropertyBlockVectorAnimator*, creationType>()));
     }
     // protected override System.Void SetProperty()
-    // Offset: 0x1E1425C
+    // Offset: 0x1DB9D68
     // Implemented from: MaterialPropertyBlockAnimator
     // Base method: System.Void MaterialPropertyBlockAnimator::SetProperty()
     void SetProperty();
@@ -72,7 +60,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(MaterialPropertyBlockVectorAnimator), 48 + sizeof(UnityEngine::Vector4)> __GlobalNamespace_MaterialPropertyBlockVectorAnimatorSizeCheck;
   static_assert(sizeof(MaterialPropertyBlockVectorAnimator) == 0x40);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialPropertyBlockVectorAnimator*, "", "MaterialPropertyBlockVectorAnimator");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MaterialPropertyBlockVectorAnimator::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -3,27 +3,19 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Threading.Tasks.Task
 #include "System/Threading/Tasks/Task.hpp"
 // Including type: System.Threading.ManualResetEventSlim
 #include "System/Threading/ManualResetEventSlim.hpp"
 // Including type: System.Threading.Tasks.ITaskCompletionAction
 #include "System/Threading/Tasks/ITaskCompletionAction.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Threading.Tasks
-namespace System::Threading::Tasks {
-  // Forward declaring type: SetOnInvokeMres
-  class SetOnInvokeMres;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Threading::Tasks::Task::SetOnInvokeMres);
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::Task::SetOnInvokeMres*, "System.Threading.Tasks", "Task/SetOnInvokeMres");
 // Type namespace: System.Threading.Tasks
 namespace System::Threading::Tasks {
   // Size: 0x24
@@ -32,15 +24,17 @@ namespace System::Threading::Tasks {
   // [TokenAttribute] Offset: FFFFFFFF
   class Task::SetOnInvokeMres : public System::Threading::ManualResetEventSlim/*, public System::Threading::Tasks::ITaskCompletionAction*/ {
     public:
+    // Creating value type constructor for type: SetOnInvokeMres
+    SetOnInvokeMres() noexcept {}
     // Creating interface conversion operator: operator System::Threading::Tasks::ITaskCompletionAction
     operator System::Threading::Tasks::ITaskCompletionAction() noexcept {
       return *reinterpret_cast<System::Threading::Tasks::ITaskCompletionAction*>(this);
     }
     // public System.Void Invoke(System.Threading.Tasks.Task completingTask)
-    // Offset: 0x199DC78
+    // Offset: 0x19BC328
     void Invoke(System::Threading::Tasks::Task* completingTask);
     // System.Void .ctor()
-    // Offset: 0x199DC08
+    // Offset: 0x19BC2B8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -51,7 +45,8 @@ namespace System::Threading::Tasks {
   }; // System.Threading.Tasks.Task/System.Threading.Tasks.SetOnInvokeMres
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::Task::SetOnInvokeMres*, "System.Threading.Tasks", "Task/SetOnInvokeMres");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::Tasks::Task::SetOnInvokeMres::Invoke
 // Il2CppName: Invoke
 template<>

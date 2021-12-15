@@ -3,20 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BezierSplineEvaluator
 #include "GlobalNamespace/BezierSplineEvaluator.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: CubicSolveResult
-  struct CubicSolveResult;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BezierSplineEvaluator::CubicSolveResult, "", "BezierSplineEvaluator/CubicSolveResult");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -26,11 +23,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct BezierSplineEvaluator::CubicSolveResult/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public readonly System.Int32 numberOfSolutions
     // Size: 0x4
     // Offset: 0x0
@@ -55,7 +47,6 @@ namespace GlobalNamespace {
     float solution3;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
     // Creating value type constructor for type: CubicSolveResult
     constexpr CubicSolveResult(int numberOfSolutions_ = {}, float solution1_ = {}, float solution2_ = {}, float solution3_ = {}) noexcept : numberOfSolutions{numberOfSolutions_}, solution1{solution1_}, solution2{solution2_}, solution3{solution3_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -71,20 +62,36 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single solution3
     float& dyn_solution3();
     // public System.Void .ctor(System.Single solution1)
-    // Offset: 0x12A3730
-    CubicSolveResult(float solution1);
+    // Offset: 0x1333A3C
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    CubicSolveResult(float solution1) {
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BezierSplineEvaluator::CubicSolveResult::.ctor");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(solution1)})));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, solution1);
+    }
     // public System.Void .ctor(System.Single solution1, System.Single solution2)
-    // Offset: 0x12A3744
-    CubicSolveResult(float solution1, float solution2);
+    // Offset: 0x1333A50
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    CubicSolveResult(float solution1, float solution2) {
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BezierSplineEvaluator::CubicSolveResult::.ctor");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(solution1), ::il2cpp_utils::ExtractType(solution2)})));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, solution1, solution2);
+    }
     // public System.Void .ctor(System.Single solution1, System.Single solution2, System.Single solution3)
-    // Offset: 0x12A3758
-    CubicSolveResult(float solution1, float solution2, float solution3);
+    // Offset: 0x1333A64
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    CubicSolveResult(float solution1, float solution2, float solution3) {
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BezierSplineEvaluator::CubicSolveResult::.ctor");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(solution1), ::il2cpp_utils::ExtractType(solution2), ::il2cpp_utils::ExtractType(solution3)})));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, solution1, solution2, solution3);
+    }
   }; // BezierSplineEvaluator/CubicSolveResult
   #pragma pack(pop)
   static check_size<sizeof(BezierSplineEvaluator::CubicSolveResult), 12 + sizeof(float)> __GlobalNamespace_BezierSplineEvaluator_CubicSolveResultSizeCheck;
   static_assert(sizeof(BezierSplineEvaluator::CubicSolveResult) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BezierSplineEvaluator::CubicSolveResult, "", "BezierSplineEvaluator/CubicSolveResult");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BezierSplineEvaluator::CubicSolveResult::CubicSolveResult
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

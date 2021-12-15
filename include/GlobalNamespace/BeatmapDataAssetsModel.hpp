@@ -3,17 +3,9 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: BeatmapDataAssetsModel
-  class BeatmapDataAssetsModel;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BeatmapDataAssetsModel);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDataAssetsModel*, "", "BeatmapDataAssetsModel");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -22,16 +14,20 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapDataAssetsModel : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: BeatmapDataAssetsModel
+    BeatmapDataAssetsModel() noexcept {}
     // static public System.String BeatmapLevelDataAssetNameForBeatmapLevel(System.String levelID)
-    // Offset: 0x1244B14
+    // Offset: 0x12CE980
     static ::Il2CppString* BeatmapLevelDataAssetNameForBeatmapLevel(::Il2CppString* levelID);
     // static public System.String AssetBundleNameForBeatmapLevel(System.String levelID)
-    // Offset: 0x1244B68
+    // Offset: 0x12CE9D4
     static ::Il2CppString* AssetBundleNameForBeatmapLevel(::Il2CppString* levelID);
   }; // BeatmapDataAssetsModel
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDataAssetsModel*, "", "BeatmapDataAssetsModel");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapDataAssetsModel::BeatmapLevelDataAssetNameForBeatmapLevel
 // Il2CppName: BeatmapLevelDataAssetNameForBeatmapLevel
 template<>

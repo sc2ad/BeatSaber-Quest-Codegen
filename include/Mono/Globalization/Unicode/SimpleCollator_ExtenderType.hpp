@@ -3,20 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Mono.Globalization.Unicode.SimpleCollator
 #include "Mono/Globalization/Unicode/SimpleCollator.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: Mono.Globalization.Unicode
-namespace Mono::Globalization::Unicode {
-  // Forward declaring type: ExtenderType
-  struct ExtenderType;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::SimpleCollator::ExtenderType, "Mono.Globalization.Unicode", "SimpleCollator/ExtenderType");
 // Type namespace: Mono.Globalization.Unicode
 namespace Mono::Globalization::Unicode {
   // Size: 0x4
@@ -25,18 +18,12 @@ namespace Mono::Globalization::Unicode {
   // [TokenAttribute] Offset: FFFFFFFF
   struct SimpleCollator::ExtenderType/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: ExtenderType
     constexpr ExtenderType(int value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -84,4 +71,6 @@ namespace Mono::Globalization::Unicode {
   static check_size<sizeof(SimpleCollator::ExtenderType), 0 + sizeof(int)> __Mono_Globalization_Unicode_SimpleCollator_ExtenderTypeSizeCheck;
   static_assert(sizeof(SimpleCollator::ExtenderType) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::SimpleCollator::ExtenderType, "Mono.Globalization.Unicode", "SimpleCollator/ExtenderType");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

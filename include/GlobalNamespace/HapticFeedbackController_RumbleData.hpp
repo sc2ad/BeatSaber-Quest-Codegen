@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HapticFeedbackController
 #include "GlobalNamespace/HapticFeedbackController.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: RumbleData
-  class RumbleData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::HapticFeedbackController::RumbleData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HapticFeedbackController::RumbleData*, "", "HapticFeedbackController/RumbleData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -28,11 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class HapticFeedbackController::RumbleData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Boolean active
     // Size: 0x1
     // Offset: 0x10
@@ -65,7 +52,8 @@ namespace GlobalNamespace {
     float frequency;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
+    // Creating value type constructor for type: RumbleData
+    RumbleData(bool active_ = {}, bool continuous_ = {}, float strength_ = {}, float endTime_ = {}, float frequency_ = {}) noexcept : active{active_}, continuous{continuous_}, strength{strength_}, endTime{endTime_}, frequency{frequency_} {}
     // Get instance field reference: public System.Boolean active
     bool& dyn_active();
     // Get instance field reference: public System.Boolean continuous
@@ -77,7 +65,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single frequency
     float& dyn_frequency();
     // public System.Void .ctor()
-    // Offset: 0x136ACBC
+    // Offset: 0x139B8B0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -90,7 +78,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(HapticFeedbackController::RumbleData), 28 + sizeof(float)> __GlobalNamespace_HapticFeedbackController_RumbleDataSizeCheck;
   static_assert(sizeof(HapticFeedbackController::RumbleData) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HapticFeedbackController::RumbleData*, "", "HapticFeedbackController/RumbleData");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HapticFeedbackController::RumbleData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: VRControllersRecorderData
 #include "GlobalNamespace/VRControllersRecorderData.hpp"
 // Including type: UnityEngine.XR.XRNode
 #include "UnityEngine/XR/XRNode.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: NodeInfo
-  class NodeInfo;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::VRControllersRecorderData::NodeInfo);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorderData::NodeInfo*, "", "VRControllersRecorderData/NodeInfo");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x18
@@ -30,11 +22,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class VRControllersRecorderData::NodeInfo : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public readonly UnityEngine.XR.XRNode nodeType
     // Size: 0x4
     // Offset: 0x10
@@ -47,13 +34,14 @@ namespace GlobalNamespace {
     int nodeIdx;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
+    // Creating value type constructor for type: NodeInfo
+    NodeInfo(UnityEngine::XR::XRNode nodeType_ = {}, int nodeIdx_ = {}) noexcept : nodeType{nodeType_}, nodeIdx{nodeIdx_} {}
     // Get instance field reference: public readonly UnityEngine.XR.XRNode nodeType
     UnityEngine::XR::XRNode& dyn_nodeType();
     // Get instance field reference: public readonly System.Int32 nodeIdx
     int& dyn_nodeIdx();
     // public System.Void .ctor(UnityEngine.XR.XRNode nodeType, System.Int32 nodeIdx)
-    // Offset: 0x12715CC
+    // Offset: 0x1BDB4DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRControllersRecorderData::NodeInfo* New_ctor(UnityEngine::XR::XRNode nodeType, int nodeIdx) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::VRControllersRecorderData::NodeInfo::.ctor");
@@ -64,7 +52,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(VRControllersRecorderData::NodeInfo), 20 + sizeof(int)> __GlobalNamespace_VRControllersRecorderData_NodeInfoSizeCheck;
   static_assert(sizeof(VRControllersRecorderData::NodeInfo) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorderData::NodeInfo*, "", "VRControllersRecorderData/NodeInfo");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::VRControllersRecorderData::NodeInfo::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

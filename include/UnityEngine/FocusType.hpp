@@ -3,18 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: FocusType
-  struct FocusType;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::FocusType, "UnityEngine", "FocusType");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x4
@@ -23,18 +16,12 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   struct FocusType/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: FocusType
     constexpr FocusType(int value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -45,7 +32,7 @@ namespace UnityEngine {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [ObsoleteAttribute] Offset: 0xE934CC
+    // [ObsoleteAttribute] Offset: 0xED30DC
     // static field const value: static public UnityEngine.FocusType Native
     static constexpr const int Native = 0;
     // Get static field: static public UnityEngine.FocusType Native
@@ -71,4 +58,6 @@ namespace UnityEngine {
   static check_size<sizeof(FocusType), 0 + sizeof(int)> __UnityEngine_FocusTypeSizeCheck;
   static_assert(sizeof(FocusType) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::FocusType, "UnityEngine", "FocusType");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

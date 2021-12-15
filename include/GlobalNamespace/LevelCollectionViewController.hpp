@@ -3,14 +3,14 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.ViewController
 #include "HMUI/ViewController.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -25,6 +25,8 @@ namespace GlobalNamespace {
   class SongPreviewPlayer;
   // Forward declaring type: PerceivedLoudnessPerLevelModel
   class PerceivedLoudnessPerLevelModel;
+  // Forward declaring type: AudioClipAsyncLoader
+  class AudioClipAsyncLoader;
   // Forward declaring type: IPreviewBeatmapLevel
   class IPreviewBeatmapLevel;
   // Forward declaring type: IBeatmapLevelCollection
@@ -53,20 +55,7 @@ namespace System {
   template<typename T>
   class Action_1;
 }
-// Forward declaring namespace: System::Threading
-namespace System::Threading {
-  // Forward declaring type: CancellationTokenSource
-  class CancellationTokenSource;
-}
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: LevelCollectionViewController
-  class LevelCollectionViewController;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::LevelCollectionViewController);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelCollectionViewController*, "", "LevelCollectionViewController");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0xE0
@@ -75,13 +64,10 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LevelCollectionViewController : public HMUI::ViewController {
     public:
+    // Nested type: GlobalNamespace::LevelCollectionViewController::$$c__DisplayClass24_0
+    class $$c__DisplayClass24_0;
     // Nested type: GlobalNamespace::LevelCollectionViewController::$SongPlayerCrossfadeToLevelAsync$d__24
     struct $SongPlayerCrossfadeToLevelAsync$d__24;
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private LevelCollectionTableView _levelCollectionTableView
     // Size: 0x8
     // Offset: 0x70
@@ -94,72 +80,73 @@ namespace GlobalNamespace {
     UnityEngine::RectTransform* noDataInfoContainer;
     // Field size check
     static_assert(sizeof(UnityEngine::RectTransform*) == 0x8);
-    // [SpaceAttribute] Offset: 0xF0FF80
-    // [InjectAttribute] Offset: 0xF0FF80
-    // private PlayerDataModel _playerDataModel
+    // [SpaceAttribute] Offset: 0xF4595C
+    // [InjectAttribute] Offset: 0xF4595C
+    // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0x80
     GlobalNamespace::PlayerDataModel* playerDataModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xF0FFB8
-    // private Zenject.DiContainer _container
+    // [InjectAttribute] Offset: 0xF45994
+    // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x88
     Zenject::DiContainer* container;
     // Field size check
     static_assert(sizeof(Zenject::DiContainer*) == 0x8);
-    // [InjectAttribute] Offset: 0xF0FFC8
-    // private AdditionalContentModel _additionalContentModel
+    // [InjectAttribute] Offset: 0xF459A4
+    // private readonly AdditionalContentModel _additionalContentModel
     // Size: 0x8
     // Offset: 0x90
     GlobalNamespace::AdditionalContentModel* additionalContentModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AdditionalContentModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xF0FFD8
-    // private SongPreviewPlayer _songPreviewPlayer
+    // [InjectAttribute] Offset: 0xF459B4
+    // private readonly SongPreviewPlayer _songPreviewPlayer
     // Size: 0x8
     // Offset: 0x98
     GlobalNamespace::SongPreviewPlayer* songPreviewPlayer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SongPreviewPlayer*) == 0x8);
-    // [InjectAttribute] Offset: 0xF0FFE8
-    // private PerceivedLoudnessPerLevelModel _perceivedLoudnessPerLevelModel
+    // [InjectAttribute] Offset: 0xF459C4
+    // private readonly PerceivedLoudnessPerLevelModel _perceivedLoudnessPerLevelModel
     // Size: 0x8
     // Offset: 0xA0
     GlobalNamespace::PerceivedLoudnessPerLevelModel* perceivedLoudnessPerLevelModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PerceivedLoudnessPerLevelModel*) == 0x8);
-    // private System.Action`2<LevelCollectionViewController,IPreviewBeatmapLevel> didSelectLevelEvent
+    // [InjectAttribute] Offset: 0xF459D4
+    // private readonly AudioClipAsyncLoader _audioClipAsyncLoader
     // Size: 0x8
     // Offset: 0xA8
+    GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader;
+    // Field size check
+    static_assert(sizeof(GlobalNamespace::AudioClipAsyncLoader*) == 0x8);
+    // private System.Action`2<LevelCollectionViewController,IPreviewBeatmapLevel> didSelectLevelEvent
+    // Size: 0x8
+    // Offset: 0xB0
     System::Action_2<GlobalNamespace::LevelCollectionViewController*, GlobalNamespace::IPreviewBeatmapLevel*>* didSelectLevelEvent;
     // Field size check
     static_assert(sizeof(System::Action_2<GlobalNamespace::LevelCollectionViewController*, GlobalNamespace::IPreviewBeatmapLevel*>*) == 0x8);
     // private System.Action`1<LevelCollectionViewController> didSelectHeaderEvent
     // Size: 0x8
-    // Offset: 0xB0
+    // Offset: 0xB8
     System::Action_1<GlobalNamespace::LevelCollectionViewController*>* didSelectHeaderEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::LevelCollectionViewController*>*) == 0x8);
     // private System.Boolean _showHeader
     // Size: 0x1
-    // Offset: 0xB8
+    // Offset: 0xC0
     bool showHeader;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Padding between fields: showHeader and: cancellationTokenSource
-    char __padding9[0x7] = {};
-    // private System.Threading.CancellationTokenSource _cancellationTokenSource
-    // Size: 0x8
-    // Offset: 0xC0
-    System::Threading::CancellationTokenSource* cancellationTokenSource;
-    // Field size check
-    static_assert(sizeof(System::Threading::CancellationTokenSource*) == 0x8);
-    // private System.String _songPlayerCrossfadignToLevelId
+    // Padding between fields: showHeader and: songPlayerCrossFadingToLevelId
+    char __padding10[0x7] = {};
+    // private System.String _songPlayerCrossFadingToLevelId
     // Size: 0x8
     // Offset: 0xC8
-    ::Il2CppString* songPlayerCrossfadignToLevelId;
+    ::Il2CppString* songPlayerCrossFadingToLevelId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // private UnityEngine.GameObject _noDataInfoGO
@@ -174,70 +161,71 @@ namespace GlobalNamespace {
     GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevelToBeSelected;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IPreviewBeatmapLevel*) == 0x8);
-    public:
+    // Creating value type constructor for type: LevelCollectionViewController
+    LevelCollectionViewController(GlobalNamespace::LevelCollectionTableView* levelCollectionTableView_ = {}, UnityEngine::RectTransform* noDataInfoContainer_ = {}, GlobalNamespace::PlayerDataModel* playerDataModel_ = {}, Zenject::DiContainer* container_ = {}, GlobalNamespace::AdditionalContentModel* additionalContentModel_ = {}, GlobalNamespace::SongPreviewPlayer* songPreviewPlayer_ = {}, GlobalNamespace::PerceivedLoudnessPerLevelModel* perceivedLoudnessPerLevelModel_ = {}, GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader_ = {}, System::Action_2<GlobalNamespace::LevelCollectionViewController*, GlobalNamespace::IPreviewBeatmapLevel*>* didSelectLevelEvent_ = {}, System::Action_1<GlobalNamespace::LevelCollectionViewController*>* didSelectHeaderEvent_ = {}, bool showHeader_ = {}, ::Il2CppString* songPlayerCrossFadingToLevelId_ = {}, UnityEngine::GameObject* noDataInfoGO_ = {}, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevelToBeSelected_ = {}) noexcept : levelCollectionTableView{levelCollectionTableView_}, noDataInfoContainer{noDataInfoContainer_}, playerDataModel{playerDataModel_}, container{container_}, additionalContentModel{additionalContentModel_}, songPreviewPlayer{songPreviewPlayer_}, perceivedLoudnessPerLevelModel{perceivedLoudnessPerLevelModel_}, audioClipAsyncLoader{audioClipAsyncLoader_}, didSelectLevelEvent{didSelectLevelEvent_}, didSelectHeaderEvent{didSelectHeaderEvent_}, showHeader{showHeader_}, songPlayerCrossFadingToLevelId{songPlayerCrossFadingToLevelId_}, noDataInfoGO{noDataInfoGO_}, previewBeatmapLevelToBeSelected{previewBeatmapLevelToBeSelected_} {}
     // Get instance field reference: private LevelCollectionTableView _levelCollectionTableView
     GlobalNamespace::LevelCollectionTableView*& dyn__levelCollectionTableView();
     // Get instance field reference: private UnityEngine.RectTransform _noDataInfoContainer
     UnityEngine::RectTransform*& dyn__noDataInfoContainer();
-    // Get instance field reference: private PlayerDataModel _playerDataModel
+    // Get instance field reference: private readonly PlayerDataModel _playerDataModel
     GlobalNamespace::PlayerDataModel*& dyn__playerDataModel();
-    // Get instance field reference: private Zenject.DiContainer _container
+    // Get instance field reference: private readonly Zenject.DiContainer _container
     Zenject::DiContainer*& dyn__container();
-    // Get instance field reference: private AdditionalContentModel _additionalContentModel
+    // Get instance field reference: private readonly AdditionalContentModel _additionalContentModel
     GlobalNamespace::AdditionalContentModel*& dyn__additionalContentModel();
-    // Get instance field reference: private SongPreviewPlayer _songPreviewPlayer
+    // Get instance field reference: private readonly SongPreviewPlayer _songPreviewPlayer
     GlobalNamespace::SongPreviewPlayer*& dyn__songPreviewPlayer();
-    // Get instance field reference: private PerceivedLoudnessPerLevelModel _perceivedLoudnessPerLevelModel
+    // Get instance field reference: private readonly PerceivedLoudnessPerLevelModel _perceivedLoudnessPerLevelModel
     GlobalNamespace::PerceivedLoudnessPerLevelModel*& dyn__perceivedLoudnessPerLevelModel();
+    // Get instance field reference: private readonly AudioClipAsyncLoader _audioClipAsyncLoader
+    GlobalNamespace::AudioClipAsyncLoader*& dyn__audioClipAsyncLoader();
     // Get instance field reference: private System.Action`2<LevelCollectionViewController,IPreviewBeatmapLevel> didSelectLevelEvent
     System::Action_2<GlobalNamespace::LevelCollectionViewController*, GlobalNamespace::IPreviewBeatmapLevel*>*& dyn_didSelectLevelEvent();
     // Get instance field reference: private System.Action`1<LevelCollectionViewController> didSelectHeaderEvent
     System::Action_1<GlobalNamespace::LevelCollectionViewController*>*& dyn_didSelectHeaderEvent();
     // Get instance field reference: private System.Boolean _showHeader
     bool& dyn__showHeader();
-    // Get instance field reference: private System.Threading.CancellationTokenSource _cancellationTokenSource
-    System::Threading::CancellationTokenSource*& dyn__cancellationTokenSource();
-    // Get instance field reference: private System.String _songPlayerCrossfadignToLevelId
-    ::Il2CppString*& dyn__songPlayerCrossfadignToLevelId();
+    // Get instance field reference: private System.String _songPlayerCrossFadingToLevelId
+    ::Il2CppString*& dyn__songPlayerCrossFadingToLevelId();
     // Get instance field reference: private UnityEngine.GameObject _noDataInfoGO
     UnityEngine::GameObject*& dyn__noDataInfoGO();
     // Get instance field reference: private IPreviewBeatmapLevel _previewBeatmapLevelToBeSelected
     GlobalNamespace::IPreviewBeatmapLevel*& dyn__previewBeatmapLevelToBeSelected();
     // public System.Void add_didSelectLevelEvent(System.Action`2<LevelCollectionViewController,IPreviewBeatmapLevel> value)
-    // Offset: 0x11E1968
+    // Offset: 0x12F4C90
     void add_didSelectLevelEvent(System::Action_2<GlobalNamespace::LevelCollectionViewController*, GlobalNamespace::IPreviewBeatmapLevel*>* value);
     // public System.Void remove_didSelectLevelEvent(System.Action`2<LevelCollectionViewController,IPreviewBeatmapLevel> value)
-    // Offset: 0x11E1D74
+    // Offset: 0x12F4D34
     void remove_didSelectLevelEvent(System::Action_2<GlobalNamespace::LevelCollectionViewController*, GlobalNamespace::IPreviewBeatmapLevel*>* value);
     // public System.Void add_didSelectHeaderEvent(System.Action`1<LevelCollectionViewController> value)
-    // Offset: 0x11E1A0C
+    // Offset: 0x12F4DD8
     void add_didSelectHeaderEvent(System::Action_1<GlobalNamespace::LevelCollectionViewController*>* value);
     // public System.Void remove_didSelectHeaderEvent(System.Action`1<LevelCollectionViewController> value)
-    // Offset: 0x11E1E18
+    // Offset: 0x12F4E7C
     void remove_didSelectHeaderEvent(System::Action_1<GlobalNamespace::LevelCollectionViewController*>* value);
     // public System.Void SetData(IBeatmapLevelCollection beatmapLevelCollection, System.String headerText, UnityEngine.Sprite headerSprite, System.Boolean sortLevels, UnityEngine.GameObject noDataInfoPrefab)
-    // Offset: 0x11E1EBC
+    // Offset: 0x12F4F20
     void SetData(GlobalNamespace::IBeatmapLevelCollection* beatmapLevelCollection, ::Il2CppString* headerText, UnityEngine::Sprite* headerSprite, bool sortLevels, UnityEngine::GameObject* noDataInfoPrefab);
     // public System.Void SelectLevel(IPreviewBeatmapLevel beatmapLevel)
-    // Offset: 0x11E1328
+    // Offset: 0x12F5220
     void SelectLevel(GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel);
     // public System.Void RefreshFavorites()
-    // Offset: 0x11E29BC
+    // Offset: 0x12F5260
     void RefreshFavorites();
     // private System.Void HandleLevelCollectionTableViewDidSelectLevel(LevelCollectionTableView tableView, IPreviewBeatmapLevel level)
-    // Offset: 0x11E44A4
+    // Offset: 0x12F5560
     void HandleLevelCollectionTableViewDidSelectLevel(GlobalNamespace::LevelCollectionTableView* tableView, GlobalNamespace::IPreviewBeatmapLevel* level);
     // private System.Void SongPlayerCrossfadeToLevelAsync(IPreviewBeatmapLevel level)
-    // Offset: 0x11E452C
+    // Offset: 0x12F55E8
     void SongPlayerCrossfadeToLevelAsync(GlobalNamespace::IPreviewBeatmapLevel* level);
     // private System.Void HandleLevelCollectionTableViewDidSelectPack(LevelCollectionTableView tableView)
-    // Offset: 0x11E45F0
+    // Offset: 0x12F56AC
     void HandleLevelCollectionTableViewDidSelectPack(GlobalNamespace::LevelCollectionTableView* tableView);
     // private System.Void HandleAdditionalContentModelDidInvalidateData()
-    // Offset: 0x11E4668
+    // Offset: 0x12F5724
     void HandleAdditionalContentModelDidInvalidateData();
     // public System.Void .ctor()
-    // Offset: 0x11E4680
+    // Offset: 0x12F5740
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -251,12 +239,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LevelCollectionViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x11E41E4
+    // Offset: 0x12F5294
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x11E434C
+    // Offset: 0x12F5414
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
@@ -265,7 +253,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(LevelCollectionViewController), 216 + sizeof(GlobalNamespace::IPreviewBeatmapLevel*)> __GlobalNamespace_LevelCollectionViewControllerSizeCheck;
   static_assert(sizeof(LevelCollectionViewController) == 0xE0);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelCollectionViewController*, "", "LevelCollectionViewController");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LevelCollectionViewController::add_didSelectLevelEvent
 // Il2CppName: add_didSelectLevelEvent
 template<>

@@ -3,21 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Microsoft.Win32
-namespace Microsoft::Win32 {
-  // Forward declaring type: ExpandString
-  class ExpandString;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Microsoft::Win32::ExpandString);
-DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::ExpandString*, "Microsoft.Win32", "ExpandString");
 // Type namespace: Microsoft.Win32
 namespace Microsoft::Win32 {
   // Size: 0x18
@@ -26,18 +18,14 @@ namespace Microsoft::Win32 {
   // [TokenAttribute] Offset: FFFFFFFF
   class ExpandString : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.String value
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppString* value;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: ExpandString
+    ExpandString(::Il2CppString* value_ = {}) noexcept : value{value_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return value;
@@ -45,17 +33,17 @@ namespace Microsoft::Win32 {
     // Get instance field reference: private System.String value
     ::Il2CppString*& dyn_value();
     // public System.Void .ctor(System.String s)
-    // Offset: 0x1C0D2CC
+    // Offset: 0x1C663C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ExpandString* New_ctor(::Il2CppString* s) {
       static auto ___internal__logger = ::Logger::get().WithContext("Microsoft::Win32::ExpandString::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ExpandString*, creationType>(s)));
     }
     // public System.String Expand()
-    // Offset: 0x1C0D300
+    // Offset: 0x1C663F8
     ::Il2CppString* Expand();
     // public override System.String ToString()
-    // Offset: 0x1C0D2F8
+    // Offset: 0x1C663F0
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
@@ -64,7 +52,8 @@ namespace Microsoft::Win32 {
   static check_size<sizeof(ExpandString), 16 + sizeof(::Il2CppString*)> __Microsoft_Win32_ExpandStringSizeCheck;
   static_assert(sizeof(ExpandString) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::ExpandString*, "Microsoft.Win32", "ExpandString");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Microsoft::Win32::ExpandString::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

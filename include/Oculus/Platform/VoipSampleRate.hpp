@@ -3,18 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: Oculus.Platform
-namespace Oculus::Platform {
-  // Forward declaring type: VoipSampleRate
-  struct VoipSampleRate;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::VoipSampleRate, "Oculus.Platform", "VoipSampleRate");
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
   // Size: 0x4
@@ -23,18 +16,12 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VoipSampleRate/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: VoipSampleRate
     constexpr VoipSampleRate(int value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -45,28 +32,28 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0xEE963C
+    // [DescriptionAttribute] Offset: 0xF2BB34
     // static field const value: static public Oculus.Platform.VoipSampleRate Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.VoipSampleRate Unknown
     static Oculus::Platform::VoipSampleRate _get_Unknown();
     // Set static field: static public Oculus.Platform.VoipSampleRate Unknown
     static void _set_Unknown(Oculus::Platform::VoipSampleRate value);
-    // [DescriptionAttribute] Offset: 0xEE9674
+    // [DescriptionAttribute] Offset: 0xF2BB6C
     // static field const value: static public Oculus.Platform.VoipSampleRate HZ24000
     static constexpr const int HZ24000 = 1;
     // Get static field: static public Oculus.Platform.VoipSampleRate HZ24000
     static Oculus::Platform::VoipSampleRate _get_HZ24000();
     // Set static field: static public Oculus.Platform.VoipSampleRate HZ24000
     static void _set_HZ24000(Oculus::Platform::VoipSampleRate value);
-    // [DescriptionAttribute] Offset: 0xEE96AC
+    // [DescriptionAttribute] Offset: 0xF2BBA4
     // static field const value: static public Oculus.Platform.VoipSampleRate HZ44100
     static constexpr const int HZ44100 = 2;
     // Get static field: static public Oculus.Platform.VoipSampleRate HZ44100
     static Oculus::Platform::VoipSampleRate _get_HZ44100();
     // Set static field: static public Oculus.Platform.VoipSampleRate HZ44100
     static void _set_HZ44100(Oculus::Platform::VoipSampleRate value);
-    // [DescriptionAttribute] Offset: 0xEE96E4
+    // [DescriptionAttribute] Offset: 0xF2BBDC
     // static field const value: static public Oculus.Platform.VoipSampleRate HZ48000
     static constexpr const int HZ48000 = 3;
     // Get static field: static public Oculus.Platform.VoipSampleRate HZ48000
@@ -80,4 +67,6 @@ namespace Oculus::Platform {
   static check_size<sizeof(VoipSampleRate), 0 + sizeof(int)> __Oculus_Platform_VoipSampleRateSizeCheck;
   static_assert(sizeof(VoipSampleRate) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::VoipSampleRate, "Oculus.Platform", "VoipSampleRate");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

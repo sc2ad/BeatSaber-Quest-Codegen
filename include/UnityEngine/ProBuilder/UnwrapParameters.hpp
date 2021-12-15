@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Single
 #include "System/Single.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: UnityEngine.ProBuilder
-namespace UnityEngine::ProBuilder {
-  // Forward declaring type: UnwrapParameters
-  class UnwrapParameters;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ProBuilder::UnwrapParameters);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::UnwrapParameters*, "UnityEngine.ProBuilder", "UnwrapParameters");
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {
   // Size: 0x20
@@ -28,47 +20,43 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   class UnwrapParameters : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
-    // [TooltipAttribute] Offset: 0xF26988
-    // [RangeAttribute] Offset: 0xF26988
-    // [FormerlySerializedAsAttribute] Offset: 0xF26988
+    // [TooltipAttribute] Offset: 0xF6A564
+    // [RangeAttribute] Offset: 0xF6A564
+    // [FormerlySerializedAsAttribute] Offset: 0xF6A564
     // private System.Single m_HardAngle
     // Size: 0x4
     // Offset: 0x10
     float m_HardAngle;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xF26A14
-    // [RangeAttribute] Offset: 0xF26A14
-    // [FormerlySerializedAsAttribute] Offset: 0xF26A14
+    // [TooltipAttribute] Offset: 0xF6A5F0
+    // [RangeAttribute] Offset: 0xF6A5F0
+    // [FormerlySerializedAsAttribute] Offset: 0xF6A5F0
     // private System.Single m_PackMargin
     // Size: 0x4
     // Offset: 0x14
     float m_PackMargin;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xF26AA0
-    // [RangeAttribute] Offset: 0xF26AA0
-    // [FormerlySerializedAsAttribute] Offset: 0xF26AA0
+    // [TooltipAttribute] Offset: 0xF6A67C
+    // [RangeAttribute] Offset: 0xF6A67C
+    // [FormerlySerializedAsAttribute] Offset: 0xF6A67C
     // private System.Single m_AngleError
     // Size: 0x4
     // Offset: 0x18
     float m_AngleError;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0xF26B2C
-    // [FormerlySerializedAsAttribute] Offset: 0xF26B2C
+    // [RangeAttribute] Offset: 0xF6A708
+    // [FormerlySerializedAsAttribute] Offset: 0xF6A708
     // private System.Single m_AreaError
     // Size: 0x4
     // Offset: 0x1C
     float m_AreaError;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
+    // Creating value type constructor for type: UnwrapParameters
+    UnwrapParameters(float m_HardAngle_ = {}, float m_PackMargin_ = {}, float m_AngleError_ = {}, float m_AreaError_ = {}) noexcept : m_HardAngle{m_HardAngle_}, m_PackMargin{m_PackMargin_}, m_AngleError{m_AngleError_}, m_AreaError{m_AreaError_} {}
     // static field const value: static System.Single k_HardAngle
     static constexpr const float k_HardAngle = 88;
     // Get static field: static System.Single k_HardAngle
@@ -102,41 +90,41 @@ namespace UnityEngine::ProBuilder {
     // Get instance field reference: private System.Single m_AreaError
     float& dyn_m_AreaError();
     // public System.Single get_hardAngle()
-    // Offset: 0x24D85D4
+    // Offset: 0x25845A8
     float get_hardAngle();
     // public System.Void set_hardAngle(System.Single value)
-    // Offset: 0x24D85DC
+    // Offset: 0x25845B0
     void set_hardAngle(float value);
     // public System.Single get_packMargin()
-    // Offset: 0x24D85E4
+    // Offset: 0x25845B8
     float get_packMargin();
     // public System.Void set_packMargin(System.Single value)
-    // Offset: 0x24D85EC
+    // Offset: 0x25845C0
     void set_packMargin(float value);
     // public System.Single get_angleError()
-    // Offset: 0x24D85F4
+    // Offset: 0x25845C8
     float get_angleError();
     // public System.Void set_angleError(System.Single value)
-    // Offset: 0x24D85FC
+    // Offset: 0x25845D0
     void set_angleError(float value);
     // public System.Single get_areaError()
-    // Offset: 0x24D8604
+    // Offset: 0x25845D8
     float get_areaError();
     // public System.Void set_areaError(System.Single value)
-    // Offset: 0x24D860C
+    // Offset: 0x25845E0
     void set_areaError(float value);
     // public System.Void .ctor(UnityEngine.ProBuilder.UnwrapParameters other)
-    // Offset: 0x24D8668
+    // Offset: 0x258463C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnwrapParameters* New_ctor(UnityEngine::ProBuilder::UnwrapParameters* other) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::UnwrapParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnwrapParameters*, creationType>(other)));
     }
     // public System.Void Reset()
-    // Offset: 0x24D8658
+    // Offset: 0x258462C
     void Reset();
     // public System.Void .ctor()
-    // Offset: 0x24D8614
+    // Offset: 0x25845E8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -145,7 +133,7 @@ namespace UnityEngine::ProBuilder {
       return THROW_UNLESS((::il2cpp_utils::New<UnwrapParameters*, creationType>()));
     }
     // public override System.String ToString()
-    // Offset: 0x24D872C
+    // Offset: 0x2584700
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
@@ -154,7 +142,8 @@ namespace UnityEngine::ProBuilder {
   static check_size<sizeof(UnwrapParameters), 28 + sizeof(float)> __UnityEngine_ProBuilder_UnwrapParametersSizeCheck;
   static_assert(sizeof(UnwrapParameters) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::UnwrapParameters*, "UnityEngine.ProBuilder", "UnwrapParameters");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::UnwrapParameters::get_hardAngle
 // Il2CppName: get_hardAngle
 template<>

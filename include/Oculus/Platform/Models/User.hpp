@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Oculus.Platform.UserPresenceStatus
 #include "Oculus/Platform/UserPresenceStatus.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Oculus.Platform.Models
-namespace Oculus::Platform::Models {
-  // Forward declaring type: User
-  class User;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Models::User);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::User*, "Oculus.Platform.Models", "User");
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
   // Size: 0x70
@@ -30,11 +22,6 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class User : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public readonly System.String DisplayName
     // Size: 0x8
     // Offset: 0x10
@@ -109,7 +96,8 @@ namespace Oculus::Platform::Models {
     ::Il2CppString* SmallImageUrl;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: User
+    User(::Il2CppString* DisplayName_ = {}, uint64_t _ID_ = {}, ::Il2CppString* ImageURL_ = {}, ::Il2CppString* InviteToken_ = {}, ::Il2CppString* OculusID_ = {}, ::Il2CppString* Presence_ = {}, ::Il2CppString* PresenceDeeplinkMessage_ = {}, ::Il2CppString* PresenceDestinationApiName_ = {}, ::Il2CppString* PresenceLobbySessionId_ = {}, ::Il2CppString* PresenceMatchSessionId_ = {}, Oculus::Platform::UserPresenceStatus PresenceStatus_ = {}, ::Il2CppString* SmallImageUrl_ = {}) noexcept : DisplayName{DisplayName_}, _ID{_ID_}, ImageURL{ImageURL_}, InviteToken{InviteToken_}, OculusID{OculusID_}, Presence{Presence_}, PresenceDeeplinkMessage{PresenceDeeplinkMessage_}, PresenceDestinationApiName{PresenceDestinationApiName_}, PresenceLobbySessionId{PresenceLobbySessionId_}, PresenceMatchSessionId{PresenceMatchSessionId_}, PresenceStatus{PresenceStatus_}, SmallImageUrl{SmallImageUrl_} {}
     // Get instance field reference: public readonly System.String DisplayName
     ::Il2CppString*& dyn_DisplayName();
     // Get instance field reference: public readonly System.UInt64 ID
@@ -135,7 +123,7 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly System.String SmallImageUrl
     ::Il2CppString*& dyn_SmallImageUrl();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x16A2C54
+    // Offset: 0x1760070
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static User* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::User::.ctor");
@@ -146,7 +134,8 @@ namespace Oculus::Platform::Models {
   static check_size<sizeof(User), 104 + sizeof(::Il2CppString*)> __Oculus_Platform_Models_UserSizeCheck;
   static_assert(sizeof(User) == 0x70);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::User*, "Oculus.Platform.Models", "User");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::User::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

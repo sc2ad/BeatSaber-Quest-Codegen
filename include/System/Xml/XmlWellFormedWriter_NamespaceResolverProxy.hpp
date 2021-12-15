@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Xml.XmlWellFormedWriter
 #include "System/Xml/XmlWellFormedWriter.hpp"
 // Including type: System.Xml.IXmlNamespaceResolver
 #include "System/Xml/IXmlNamespaceResolver.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Xml
-namespace System::Xml {
-  // Forward declaring type: NamespaceResolverProxy
-  class NamespaceResolverProxy;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::XmlWellFormedWriter::NamespaceResolverProxy);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::NamespaceResolverProxy*, "System.Xml", "XmlWellFormedWriter/NamespaceResolverProxy");
 // Type namespace: System.Xml
 namespace System::Xml {
   // Size: 0x18
@@ -30,18 +22,14 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class XmlWellFormedWriter::NamespaceResolverProxy : public ::Il2CppObject/*, public System::Xml::IXmlNamespaceResolver*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Xml.XmlWellFormedWriter wfWriter
     // Size: 0x8
     // Offset: 0x10
     System::Xml::XmlWellFormedWriter* wfWriter;
     // Field size check
     static_assert(sizeof(System::Xml::XmlWellFormedWriter*) == 0x8);
-    public:
+    // Creating value type constructor for type: NamespaceResolverProxy
+    NamespaceResolverProxy(System::Xml::XmlWellFormedWriter* wfWriter_ = {}) noexcept : wfWriter{wfWriter_} {}
     // Creating interface conversion operator: operator System::Xml::IXmlNamespaceResolver
     operator System::Xml::IXmlNamespaceResolver() noexcept {
       return *reinterpret_cast<System::Xml::IXmlNamespaceResolver*>(this);
@@ -53,24 +41,25 @@ namespace System::Xml {
     // Get instance field reference: private System.Xml.XmlWellFormedWriter wfWriter
     System::Xml::XmlWellFormedWriter*& dyn_wfWriter();
     // System.Void .ctor(System.Xml.XmlWellFormedWriter wfWriter)
-    // Offset: 0x25DE1F8
+    // Offset: 0x26A2FE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlWellFormedWriter::NamespaceResolverProxy* New_ctor(System::Xml::XmlWellFormedWriter* wfWriter) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::XmlWellFormedWriter::NamespaceResolverProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlWellFormedWriter::NamespaceResolverProxy*, creationType>(wfWriter)));
     }
     // private System.String System.Xml.IXmlNamespaceResolver.LookupNamespace(System.String prefix)
-    // Offset: 0x25DE224
+    // Offset: 0x26A3014
     ::Il2CppString* System_Xml_IXmlNamespaceResolver_LookupNamespace(::Il2CppString* prefix);
     // private System.String System.Xml.IXmlNamespaceResolver.LookupPrefix(System.String namespaceName)
-    // Offset: 0x25DE240
+    // Offset: 0x26A3030
     ::Il2CppString* System_Xml_IXmlNamespaceResolver_LookupPrefix(::Il2CppString* namespaceName);
   }; // System.Xml.XmlWellFormedWriter/System.Xml.NamespaceResolverProxy
   #pragma pack(pop)
   static check_size<sizeof(XmlWellFormedWriter::NamespaceResolverProxy), 16 + sizeof(System::Xml::XmlWellFormedWriter*)> __System_Xml_XmlWellFormedWriter_NamespaceResolverProxySizeCheck;
   static_assert(sizeof(XmlWellFormedWriter::NamespaceResolverProxy) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::NamespaceResolverProxy*, "System.Xml", "XmlWellFormedWriter/NamespaceResolverProxy");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::NamespaceResolverProxy::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

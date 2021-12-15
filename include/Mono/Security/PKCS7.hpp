@@ -3,22 +3,14 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Mono::Security
 namespace Mono::Security {
 }
 // Completed forward declares
-// Type namespace: Mono.Security
-namespace Mono::Security {
-  // Forward declaring type: PKCS7
-  class PKCS7;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Security::PKCS7);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Security::PKCS7*, "Mono.Security", "PKCS7");
 // Type namespace: Mono.Security
 namespace Mono::Security {
   // Size: 0x10
@@ -31,7 +23,11 @@ namespace Mono::Security {
     class ContentInfo;
     // Nested type: Mono::Security::PKCS7::EncryptedData
     class EncryptedData;
+    // Creating value type constructor for type: PKCS7
+    PKCS7() noexcept {}
   }; // Mono.Security.PKCS7
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Mono::Security::PKCS7*, "Mono.Security", "PKCS7");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: UnityEngine.Vector3
@@ -19,13 +19,6 @@ namespace UnityEngine::ProBuilder {
 // Completed forward declares
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {
-  // Forward declaring type: VertexPickerEntry
-  struct VertexPickerEntry;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::VertexPickerEntry, "UnityEngine.ProBuilder", "VertexPickerEntry");
-// Type namespace: UnityEngine.ProBuilder
-namespace UnityEngine::ProBuilder {
   // Size: 0x1C
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -33,11 +26,6 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VertexPickerEntry/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public UnityEngine.ProBuilder.ProBuilderMesh mesh
     // Size: 0x8
     // Offset: 0x0
@@ -62,7 +50,6 @@ namespace UnityEngine::ProBuilder {
     UnityEngine::Vector3 worldPosition;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    public:
     // Creating value type constructor for type: VertexPickerEntry
     constexpr VertexPickerEntry(UnityEngine::ProBuilder::ProBuilderMesh* mesh_ = {}, int vertex_ = {}, float screenDistance_ = {}, UnityEngine::Vector3 worldPosition_ = {}) noexcept : mesh{mesh_}, vertex{vertex_}, screenDistance{screenDistance_}, worldPosition{worldPosition_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -82,4 +69,6 @@ namespace UnityEngine::ProBuilder {
   static check_size<sizeof(VertexPickerEntry), 16 + sizeof(UnityEngine::Vector3)> __UnityEngine_ProBuilder_VertexPickerEntrySizeCheck;
   static_assert(sizeof(VertexPickerEntry) == 0x1C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::VertexPickerEntry, "UnityEngine.ProBuilder", "VertexPickerEntry");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

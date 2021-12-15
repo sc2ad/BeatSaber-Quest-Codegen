@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender
 #include "UnityEngine/TestTools/TestRunner/Callbacks/RemoteTestResultSender.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
 #include "System/Collections/Generic/IEnumerator_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: UnityEngine.TestTools.TestRunner.Callbacks
-namespace UnityEngine::TestTools::TestRunner::Callbacks {
-  // Forward declaring type: <SendDataRoutine>d__12
-  class $SendDataRoutine$d__12;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender::$SendDataRoutine$d__12);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender::$SendDataRoutine$d__12*, "UnityEngine.TestTools.TestRunner.Callbacks", "RemoteTestResultSender/<SendDataRoutine>d__12");
 // Type namespace: UnityEngine.TestTools.TestRunner.Callbacks
 namespace UnityEngine::TestTools::TestRunner::Callbacks {
   // Size: 0x31
@@ -31,11 +23,6 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class RemoteTestResultSender::$SendDataRoutine$d__12 : public ::Il2CppObject/*, public System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -68,7 +55,8 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     bool $$7__wrap2;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: $SendDataRoutine$d__12
+    $SendDataRoutine$d__12(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender* $$4__this_ = {}, ::Il2CppObject* $$7__wrap1_ = {}, bool $$7__wrap2_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$4__this{$$4__this_}, $$7__wrap1{$$7__wrap1_}, $$7__wrap2{$$7__wrap2_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
@@ -84,36 +72,37 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     // Get instance field reference: private System.Boolean <>7__wrap2
     bool& dyn_$$7__wrap2();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x16582D8
+    // Offset: 0x16D3F1C
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1658340
+    // Offset: 0x16D3F84
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1657D94
+    // Offset: 0x16D39D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RemoteTestResultSender::$SendDataRoutine$d__12* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender::$SendDataRoutine$d__12::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RemoteTestResultSender::$SendDataRoutine$d__12*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1657FAC
+    // Offset: 0x16D3BF0
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1658010
+    // Offset: 0x16D3C54
     bool MoveNext();
     // private System.Void <>m__Finally1()
-    // Offset: 0x1657FF0
+    // Offset: 0x16D3C34
     void $$m__Finally1();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x16582E0
+    // Offset: 0x16D3F24
     void System_Collections_IEnumerator_Reset();
   }; // UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender/UnityEngine.TestTools.TestRunner.Callbacks.<SendDataRoutine>d__12
   #pragma pack(pop)
   static check_size<sizeof(RemoteTestResultSender::$SendDataRoutine$d__12), 48 + sizeof(bool)> __UnityEngine_TestTools_TestRunner_Callbacks_RemoteTestResultSender_$SendDataRoutine$d__12SizeCheck;
   static_assert(sizeof(RemoteTestResultSender::$SendDataRoutine$d__12) == 0x31);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender::$SendDataRoutine$d__12*, "UnityEngine.TestTools.TestRunner.Callbacks", "RemoteTestResultSender/<SendDataRoutine>d__12");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender::$SendDataRoutine$d__12::System_Collections_Generic_IEnumerator$System_Object$_get_Current
 // Il2CppName: System.Collections.Generic.IEnumerator<System.Object>.get_Current
 template<>

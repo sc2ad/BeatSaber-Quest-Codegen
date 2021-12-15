@@ -3,17 +3,9 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: System.Collections.Generic
-namespace System::Collections::Generic {
-  // Forward declaring type: KeyValuePair
-  class KeyValuePair;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Collections::Generic::KeyValuePair);
-DEFINE_IL2CPP_ARG_TYPE(System::Collections::Generic::KeyValuePair*, "System.Collections.Generic", "KeyValuePair");
 // Type namespace: System.Collections.Generic
 namespace System::Collections::Generic {
   // Size: 0x10
@@ -22,13 +14,17 @@ namespace System::Collections::Generic {
   // [TokenAttribute] Offset: FFFFFFFF
   class KeyValuePair : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: KeyValuePair
+    KeyValuePair() noexcept {}
     // static System.String PairToString(System.Object key, System.Object value)
-    // Offset: 0x19809AC
+    // Offset: 0x199F05C
     static ::Il2CppString* PairToString(::Il2CppObject* key, ::Il2CppObject* value);
   }; // System.Collections.Generic.KeyValuePair
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Collections::Generic::KeyValuePair*, "System.Collections.Generic", "KeyValuePair");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::Generic::KeyValuePair::PairToString
 // Il2CppName: PairToString
 template<>

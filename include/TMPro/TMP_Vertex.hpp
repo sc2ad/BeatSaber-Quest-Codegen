@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: UnityEngine.Vector3
@@ -16,13 +16,6 @@
 // Completed includes
 // Type namespace: TMPro
 namespace TMPro {
-  // Forward declaring type: TMP_Vertex
-  struct TMP_Vertex;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Vertex, "TMPro", "TMP_Vertex");
-// Type namespace: TMPro
-namespace TMPro {
   // Size: 0x28
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -30,11 +23,6 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   struct TMP_Vertex/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public UnityEngine.Vector3 position
     // Size: 0xC
     // Offset: 0x0
@@ -65,7 +53,6 @@ namespace TMPro {
     UnityEngine::Color32 color;
     // Field size check
     static_assert(sizeof(UnityEngine::Color32) == 0x4);
-    public:
     // Creating value type constructor for type: TMP_Vertex
     constexpr TMP_Vertex(UnityEngine::Vector3 position_ = {}, UnityEngine::Vector2 uv_ = {}, UnityEngine::Vector2 uv2_ = {}, UnityEngine::Vector2 uv4_ = {}, UnityEngine::Color32 color_ = {}) noexcept : position{position_}, uv{uv_}, uv2{uv2_}, uv4{uv4_}, color{color_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -87,4 +74,6 @@ namespace TMPro {
   static check_size<sizeof(TMP_Vertex), 36 + sizeof(UnityEngine::Color32)> __TMPro_TMP_VertexSizeCheck;
   static_assert(sizeof(TMP_Vertex) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Vertex, "TMPro", "TMP_Vertex");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

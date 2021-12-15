@@ -3,11 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.Runtime.CompilerServices.ICriticalNotifyCompletion
 #include "System/Runtime/CompilerServices/ICriticalNotifyCompletion.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Threading::Tasks
@@ -23,13 +27,6 @@ namespace System {
 // Completed forward declares
 // Type namespace: System.Runtime.CompilerServices
 namespace System::Runtime::CompilerServices {
-  // Forward declaring type: TaskAwaiter
-  struct TaskAwaiter;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::TaskAwaiter, "System.Runtime.CompilerServices", "TaskAwaiter");
-// Type namespace: System.Runtime.CompilerServices
-namespace System::Runtime::CompilerServices {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -37,18 +34,12 @@ namespace System::Runtime::CompilerServices {
   // [TokenAttribute] Offset: FFFFFFFF
   struct TaskAwaiter/*, public System::ValueType, public System::Runtime::CompilerServices::ICriticalNotifyCompletion*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private readonly System.Threading.Tasks.Task m_task
     // Size: 0x8
     // Offset: 0x0
     System::Threading::Tasks::Task* m_task;
     // Field size check
     static_assert(sizeof(System::Threading::Tasks::Task*) == 0x8);
-    public:
     // Creating value type constructor for type: TaskAwaiter
     constexpr TaskAwaiter(System::Threading::Tasks::Task* m_task_ = {}) noexcept : m_task{m_task_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -66,38 +57,40 @@ namespace System::Runtime::CompilerServices {
     // Get instance field reference: private readonly System.Threading.Tasks.Task m_task
     System::Threading::Tasks::Task*& dyn_m_task();
     // public System.Boolean get_IsCompleted()
-    // Offset: 0x1593720
+    // Offset: 0x1621A14
     bool get_IsCompleted();
     // System.Void .ctor(System.Threading.Tasks.Task task)
-    // Offset: 0x1593718
-    // ABORTED: conflicts with another method.  TaskAwaiter(System::Threading::Tasks::Task* task);
+    // Offset: 0x1621A0C
+    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    // ABORTED: conflicts with another method.  TaskAwaiter(System::Threading::Tasks::Task* task)
     // public System.Void OnCompleted(System.Action continuation)
-    // Offset: 0x159373C
+    // Offset: 0x1621A30
     void OnCompleted(System::Action* continuation);
     // public System.Void UnsafeOnCompleted(System.Action continuation)
-    // Offset: 0x159374C
+    // Offset: 0x1621A40
     void UnsafeOnCompleted(System::Action* continuation);
     // public System.Void GetResult()
-    // Offset: 0x159375C
+    // Offset: 0x1621A50
     void GetResult();
     // static System.Void ValidateEnd(System.Threading.Tasks.Task task)
-    // Offset: 0x1593100
+    // Offset: 0x16213F4
     static void ValidateEnd(System::Threading::Tasks::Task* task);
     // static private System.Void HandleNonSuccessAndDebuggerNotification(System.Threading.Tasks.Task task)
-    // Offset: 0x1593764
+    // Offset: 0x1621A58
     static void HandleNonSuccessAndDebuggerNotification(System::Threading::Tasks::Task* task);
     // static private System.Void ThrowForNonSuccess(System.Threading.Tasks.Task task)
-    // Offset: 0x15937D4
+    // Offset: 0x1621AC8
     static void ThrowForNonSuccess(System::Threading::Tasks::Task* task);
     // static System.Void OnCompletedInternal(System.Threading.Tasks.Task task, System.Action continuation, System.Boolean continueOnCapturedContext, System.Boolean flowExecutionContext)
-    // Offset: 0x1593018
+    // Offset: 0x162130C
     static void OnCompletedInternal(System::Threading::Tasks::Task* task, System::Action* continuation, bool continueOnCapturedContext, bool flowExecutionContext);
   }; // System.Runtime.CompilerServices.TaskAwaiter
   #pragma pack(pop)
   static check_size<sizeof(TaskAwaiter), 0 + sizeof(System::Threading::Tasks::Task*)> __System_Runtime_CompilerServices_TaskAwaiterSizeCheck;
   static_assert(sizeof(TaskAwaiter) == 0x8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::TaskAwaiter, "System.Runtime.CompilerServices", "TaskAwaiter");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::TaskAwaiter::get_IsCompleted
 // Il2CppName: get_IsCompleted
 template<>

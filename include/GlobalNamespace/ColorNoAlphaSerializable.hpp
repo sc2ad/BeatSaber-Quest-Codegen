@@ -3,7 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: LiteNetLib.Utils.INetSerializable
@@ -12,6 +12,10 @@
 #include "System/IEquatable_1.hpp"
 // Including type: UnityEngine.Color
 #include "UnityEngine/Color.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: LiteNetLib::Utils
@@ -28,13 +32,6 @@ struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: 
 namespace GlobalNamespace {
-  // Forward declaring type: ColorNoAlphaSerializable
-  struct ColorNoAlphaSerializable;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorNoAlphaSerializable, "", "ColorNoAlphaSerializable");
-// Type namespace: 
-namespace GlobalNamespace {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -42,18 +39,12 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ColorNoAlphaSerializable/*, public System::ValueType, public LiteNetLib::Utils::INetSerializable, public System::IEquatable_1<GlobalNamespace::ColorNoAlphaSerializable>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private UnityEngine.Color _color
     // Size: 0x10
     // Offset: 0x0
     UnityEngine::Color color;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
-    public:
     // Creating value type constructor for type: ColorNoAlphaSerializable
     constexpr ColorNoAlphaSerializable(UnityEngine::Color color_ = {}) noexcept : color{color_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -75,29 +66,30 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Color _color
     UnityEngine::Color& dyn__color();
     // public System.Void .ctor(UnityEngine.Color color)
-    // Offset: 0x2553E00
-    // ABORTED: conflicts with another method.  ColorNoAlphaSerializable(UnityEngine::Color color);
+    // Offset: 0x2620740
+    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    // ABORTED: conflicts with another method.  ColorNoAlphaSerializable(UnityEngine::Color color)
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x2553E0C
+    // Offset: 0x262074C
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2553E60
+    // Offset: 0x26207A0
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Boolean Equals(ColorNoAlphaSerializable other)
-    // Offset: 0x2553EC8
+    // Offset: 0x2620808
     bool Equals(GlobalNamespace::ColorNoAlphaSerializable other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x2553FCC
+    // Offset: 0x262090C
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x255405C
+    // Offset: 0x262099C
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x2554064
+    // Offset: 0x26209A4
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
@@ -106,7 +98,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(ColorNoAlphaSerializable), 0 + sizeof(UnityEngine::Color)> __GlobalNamespace_ColorNoAlphaSerializableSizeCheck;
   static_assert(sizeof(ColorNoAlphaSerializable) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorNoAlphaSerializable, "", "ColorNoAlphaSerializable");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ColorNoAlphaSerializable::ColorNoAlphaSerializable
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

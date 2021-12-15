@@ -4,17 +4,10 @@
 #pragma once
 // Begin includes
 #include <stdint.h>
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-// Type namespace: System.Net.NetworkInformation
-namespace System::Net::NetworkInformation {
-  // Forward declaring type: sockaddr_in
-  struct sockaddr_in;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::sockaddr_in, "System.Net.NetworkInformation", "sockaddr_in");
 // Type namespace: System.Net.NetworkInformation
 namespace System::Net::NetworkInformation {
   // Size: 0x8
@@ -24,11 +17,6 @@ namespace System::Net::NetworkInformation {
   // [TokenAttribute] Offset: FFFFFFFF
   struct sockaddr_in/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.UInt16 sin_family
     // Size: 0x2
     // Offset: 0x0
@@ -47,7 +35,6 @@ namespace System::Net::NetworkInformation {
     uint sin_addr;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
-    public:
     // Creating value type constructor for type: sockaddr_in
     constexpr sockaddr_in(uint16_t sin_family_ = {}, uint16_t sin_port_ = {}, uint sin_addr_ = {}) noexcept : sin_family{sin_family_}, sin_port{sin_port_}, sin_addr{sin_addr_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -65,4 +52,6 @@ namespace System::Net::NetworkInformation {
   static check_size<sizeof(sockaddr_in), 4 + sizeof(uint)> __System_Net_NetworkInformation_sockaddr_inSizeCheck;
   static_assert(sizeof(sockaddr_in) == 0x8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::sockaddr_in, "System.Net.NetworkInformation", "sockaddr_in");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

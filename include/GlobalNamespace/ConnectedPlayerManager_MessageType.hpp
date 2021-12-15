@@ -3,20 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: ConnectedPlayerManager
 #include "GlobalNamespace/ConnectedPlayerManager.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: MessageType
-  struct MessageType;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConnectedPlayerManager::MessageType, "", "ConnectedPlayerManager/MessageType");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x1
@@ -25,18 +18,12 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ConnectedPlayerManager::MessageType/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Byte value__
     // Size: 0x1
     // Offset: 0x0
     uint8_t value;
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
-    public:
     // Creating value type constructor for type: MessageType
     constexpr MessageType(uint8_t value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -66,4 +53,6 @@ namespace GlobalNamespace {
   static check_size<sizeof(ConnectedPlayerManager::MessageType), 0 + sizeof(uint8_t)> __GlobalNamespace_ConnectedPlayerManager_MessageTypeSizeCheck;
   static_assert(sizeof(ConnectedPlayerManager::MessageType) == 0x1);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConnectedPlayerManager::MessageType, "", "ConnectedPlayerManager/MessageType");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

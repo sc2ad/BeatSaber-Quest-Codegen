@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Oculus.Platform.Models
-namespace Oculus::Platform::Models {
-  // Forward declaring type: LivestreamingVideoStats
-  class LivestreamingVideoStats;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Models::LivestreamingVideoStats);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::LivestreamingVideoStats*, "Oculus.Platform.Models", "LivestreamingVideoStats");
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
   // Size: 0x20
@@ -28,11 +20,6 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class LivestreamingVideoStats : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public readonly System.Int32 CommentCount
     // Size: 0x4
     // Offset: 0x10
@@ -51,7 +38,8 @@ namespace Oculus::Platform::Models {
     ::Il2CppString* TotalViews;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: LivestreamingVideoStats
+    LivestreamingVideoStats(int CommentCount_ = {}, int ReactionCount_ = {}, ::Il2CppString* TotalViews_ = {}) noexcept : CommentCount{CommentCount_}, ReactionCount{ReactionCount_}, TotalViews{TotalViews_} {}
     // Get instance field reference: public readonly System.Int32 CommentCount
     int& dyn_CommentCount();
     // Get instance field reference: public readonly System.Int32 ReactionCount
@@ -59,7 +47,7 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly System.String TotalViews
     ::Il2CppString*& dyn_TotalViews();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x169E6B4
+    // Offset: 0x175BAD0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LivestreamingVideoStats* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::LivestreamingVideoStats::.ctor");
@@ -70,7 +58,8 @@ namespace Oculus::Platform::Models {
   static check_size<sizeof(LivestreamingVideoStats), 24 + sizeof(::Il2CppString*)> __Oculus_Platform_Models_LivestreamingVideoStatsSizeCheck;
   static_assert(sizeof(LivestreamingVideoStats) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::LivestreamingVideoStats*, "Oculus.Platform.Models", "LivestreamingVideoStats");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::LivestreamingVideoStats::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

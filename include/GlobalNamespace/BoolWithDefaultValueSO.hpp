@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BoolSO
 #include "GlobalNamespace/BoolSO.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: BoolWithDefaultValueSO
-  class BoolWithDefaultValueSO;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BoolWithDefaultValueSO);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BoolWithDefaultValueSO*, "", "BoolWithDefaultValueSO");
 // Type namespace: 
 namespace GlobalNamespace {
   // WARNING Size may be invalid!
@@ -27,22 +19,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BoolWithDefaultValueSO : public GlobalNamespace::BoolSO {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Boolean _defaultValue
     // Size: 0x1
     // Offset: 0x21
     bool defaultValue;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: BoolWithDefaultValueSO
+    BoolWithDefaultValueSO(bool defaultValue_ = {}) noexcept : defaultValue{defaultValue_} {}
     // Get instance field reference: private System.Boolean _defaultValue
     bool& dyn__defaultValue();
     // public System.Void .ctor()
-    // Offset: 0x135D994
+    // Offset: 0x138E574
     // Implemented from: BoolSO
     // Base method: System.Void BoolSO::.ctor()
     // Base method: System.Void ObservableVariableSO_1::.ctor()
@@ -56,14 +44,15 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BoolWithDefaultValueSO*, creationType>()));
     }
     // protected override System.Void OnEnable()
-    // Offset: 0x135D8F4
+    // Offset: 0x138E4D4
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
   }; // BoolWithDefaultValueSO
   // WARNING Not writing size check since size may be invalid!
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BoolWithDefaultValueSO*, "", "BoolWithDefaultValueSO");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BoolWithDefaultValueSO::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

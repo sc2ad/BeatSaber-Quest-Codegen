@@ -3,18 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: EventType
-  struct EventType;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventType, "UnityEngine", "EventType");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x4
@@ -23,18 +16,12 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   struct EventType/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: EventType
     constexpr EventType(int value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -159,104 +146,104 @@ namespace UnityEngine {
     static UnityEngine::EventType _get_MouseLeaveWindow();
     // Set static field: static public UnityEngine.EventType MouseLeaveWindow
     static void _set_MouseLeaveWindow(UnityEngine::EventType value);
-    // [EditorBrowsableAttribute] Offset: 0xE92FA4
-    // [ObsoleteAttribute] Offset: 0xE92FA4
+    // [EditorBrowsableAttribute] Offset: 0xED2BB4
+    // [ObsoleteAttribute] Offset: 0xED2BB4
     // static field const value: static public UnityEngine.EventType mouseDown
     static constexpr const int mouseDown = 0;
     // Get static field: static public UnityEngine.EventType mouseDown
     static UnityEngine::EventType _get_mouseDown();
     // Set static field: static public UnityEngine.EventType mouseDown
     static void _set_mouseDown(UnityEngine::EventType value);
-    // [EditorBrowsableAttribute] Offset: 0xE92FF8
-    // [ObsoleteAttribute] Offset: 0xE92FF8
+    // [EditorBrowsableAttribute] Offset: 0xED2C08
+    // [ObsoleteAttribute] Offset: 0xED2C08
     // static field const value: static public UnityEngine.EventType mouseUp
     static constexpr const int mouseUp = 1;
     // Get static field: static public UnityEngine.EventType mouseUp
     static UnityEngine::EventType _get_mouseUp();
     // Set static field: static public UnityEngine.EventType mouseUp
     static void _set_mouseUp(UnityEngine::EventType value);
-    // [ObsoleteAttribute] Offset: 0xE9304C
-    // [EditorBrowsableAttribute] Offset: 0xE9304C
+    // [ObsoleteAttribute] Offset: 0xED2C5C
+    // [EditorBrowsableAttribute] Offset: 0xED2C5C
     // static field const value: static public UnityEngine.EventType mouseMove
     static constexpr const int mouseMove = 2;
     // Get static field: static public UnityEngine.EventType mouseMove
     static UnityEngine::EventType _get_mouseMove();
     // Set static field: static public UnityEngine.EventType mouseMove
     static void _set_mouseMove(UnityEngine::EventType value);
-    // [ObsoleteAttribute] Offset: 0xE930A0
-    // [EditorBrowsableAttribute] Offset: 0xE930A0
+    // [ObsoleteAttribute] Offset: 0xED2CB0
+    // [EditorBrowsableAttribute] Offset: 0xED2CB0
     // static field const value: static public UnityEngine.EventType mouseDrag
     static constexpr const int mouseDrag = 3;
     // Get static field: static public UnityEngine.EventType mouseDrag
     static UnityEngine::EventType _get_mouseDrag();
     // Set static field: static public UnityEngine.EventType mouseDrag
     static void _set_mouseDrag(UnityEngine::EventType value);
-    // [ObsoleteAttribute] Offset: 0xE930F4
-    // [EditorBrowsableAttribute] Offset: 0xE930F4
+    // [ObsoleteAttribute] Offset: 0xED2D04
+    // [EditorBrowsableAttribute] Offset: 0xED2D04
     // static field const value: static public UnityEngine.EventType keyDown
     static constexpr const int keyDown = 4;
     // Get static field: static public UnityEngine.EventType keyDown
     static UnityEngine::EventType _get_keyDown();
     // Set static field: static public UnityEngine.EventType keyDown
     static void _set_keyDown(UnityEngine::EventType value);
-    // [ObsoleteAttribute] Offset: 0xE93148
-    // [EditorBrowsableAttribute] Offset: 0xE93148
+    // [ObsoleteAttribute] Offset: 0xED2D58
+    // [EditorBrowsableAttribute] Offset: 0xED2D58
     // static field const value: static public UnityEngine.EventType keyUp
     static constexpr const int keyUp = 5;
     // Get static field: static public UnityEngine.EventType keyUp
     static UnityEngine::EventType _get_keyUp();
     // Set static field: static public UnityEngine.EventType keyUp
     static void _set_keyUp(UnityEngine::EventType value);
-    // [ObsoleteAttribute] Offset: 0xE9319C
-    // [EditorBrowsableAttribute] Offset: 0xE9319C
+    // [ObsoleteAttribute] Offset: 0xED2DAC
+    // [EditorBrowsableAttribute] Offset: 0xED2DAC
     // static field const value: static public UnityEngine.EventType scrollWheel
     static constexpr const int scrollWheel = 6;
     // Get static field: static public UnityEngine.EventType scrollWheel
     static UnityEngine::EventType _get_scrollWheel();
     // Set static field: static public UnityEngine.EventType scrollWheel
     static void _set_scrollWheel(UnityEngine::EventType value);
-    // [EditorBrowsableAttribute] Offset: 0xE931F0
-    // [ObsoleteAttribute] Offset: 0xE931F0
+    // [EditorBrowsableAttribute] Offset: 0xED2E00
+    // [ObsoleteAttribute] Offset: 0xED2E00
     // static field const value: static public UnityEngine.EventType repaint
     static constexpr const int repaint = 7;
     // Get static field: static public UnityEngine.EventType repaint
     static UnityEngine::EventType _get_repaint();
     // Set static field: static public UnityEngine.EventType repaint
     static void _set_repaint(UnityEngine::EventType value);
-    // [EditorBrowsableAttribute] Offset: 0xE93244
-    // [ObsoleteAttribute] Offset: 0xE93244
+    // [EditorBrowsableAttribute] Offset: 0xED2E54
+    // [ObsoleteAttribute] Offset: 0xED2E54
     // static field const value: static public UnityEngine.EventType layout
     static constexpr const int layout = 8;
     // Get static field: static public UnityEngine.EventType layout
     static UnityEngine::EventType _get_layout();
     // Set static field: static public UnityEngine.EventType layout
     static void _set_layout(UnityEngine::EventType value);
-    // [EditorBrowsableAttribute] Offset: 0xE93298
-    // [ObsoleteAttribute] Offset: 0xE93298
+    // [EditorBrowsableAttribute] Offset: 0xED2EA8
+    // [ObsoleteAttribute] Offset: 0xED2EA8
     // static field const value: static public UnityEngine.EventType dragUpdated
     static constexpr const int dragUpdated = 9;
     // Get static field: static public UnityEngine.EventType dragUpdated
     static UnityEngine::EventType _get_dragUpdated();
     // Set static field: static public UnityEngine.EventType dragUpdated
     static void _set_dragUpdated(UnityEngine::EventType value);
-    // [ObsoleteAttribute] Offset: 0xE932EC
-    // [EditorBrowsableAttribute] Offset: 0xE932EC
+    // [ObsoleteAttribute] Offset: 0xED2EFC
+    // [EditorBrowsableAttribute] Offset: 0xED2EFC
     // static field const value: static public UnityEngine.EventType dragPerform
     static constexpr const int dragPerform = 10;
     // Get static field: static public UnityEngine.EventType dragPerform
     static UnityEngine::EventType _get_dragPerform();
     // Set static field: static public UnityEngine.EventType dragPerform
     static void _set_dragPerform(UnityEngine::EventType value);
-    // [EditorBrowsableAttribute] Offset: 0xE93340
-    // [ObsoleteAttribute] Offset: 0xE93340
+    // [EditorBrowsableAttribute] Offset: 0xED2F50
+    // [ObsoleteAttribute] Offset: 0xED2F50
     // static field const value: static public UnityEngine.EventType ignore
     static constexpr const int ignore = 11;
     // Get static field: static public UnityEngine.EventType ignore
     static UnityEngine::EventType _get_ignore();
     // Set static field: static public UnityEngine.EventType ignore
     static void _set_ignore(UnityEngine::EventType value);
-    // [EditorBrowsableAttribute] Offset: 0xE93394
-    // [ObsoleteAttribute] Offset: 0xE93394
+    // [EditorBrowsableAttribute] Offset: 0xED2FA4
+    // [ObsoleteAttribute] Offset: 0xED2FA4
     // static field const value: static public UnityEngine.EventType used
     static constexpr const int used = 12;
     // Get static field: static public UnityEngine.EventType used
@@ -270,4 +257,6 @@ namespace UnityEngine {
   static check_size<sizeof(EventType), 0 + sizeof(int)> __UnityEngine_EventTypeSizeCheck;
   static_assert(sizeof(EventType) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventType, "UnityEngine", "EventType");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

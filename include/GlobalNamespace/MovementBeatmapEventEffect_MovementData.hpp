@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MovementBeatmapEventEffect
 #include "GlobalNamespace/MovementBeatmapEventEffect.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: MovementData
-  class MovementData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MovementBeatmapEventEffect::MovementData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MovementBeatmapEventEffect::MovementData*, "", "MovementBeatmapEventEffect/MovementData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x1C
@@ -30,18 +22,14 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MovementBeatmapEventEffect::MovementData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private UnityEngine.Vector3 _localPositionOffset
     // Size: 0xC
     // Offset: 0x10
     UnityEngine::Vector3 localPositionOffset;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    public:
+    // Creating value type constructor for type: MovementData
+    MovementData(UnityEngine::Vector3 localPositionOffset_ = {}) noexcept : localPositionOffset{localPositionOffset_} {}
     // Creating conversion operator: operator UnityEngine::Vector3
     constexpr operator UnityEngine::Vector3() const noexcept {
       return localPositionOffset;
@@ -49,10 +37,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Vector3 _localPositionOffset
     UnityEngine::Vector3& dyn__localPositionOffset();
     // public UnityEngine.Vector3 get_localPositionOffset()
-    // Offset: 0x117B510
+    // Offset: 0x11C4130
     UnityEngine::Vector3 get_localPositionOffset();
     // public System.Void .ctor()
-    // Offset: 0x117B51C
+    // Offset: 0x11C413C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -65,7 +53,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(MovementBeatmapEventEffect::MovementData), 16 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_MovementBeatmapEventEffect_MovementDataSizeCheck;
   static_assert(sizeof(MovementBeatmapEventEffect::MovementData) == 0x1C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MovementBeatmapEventEffect::MovementData*, "", "MovementBeatmapEventEffect/MovementData");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MovementBeatmapEventEffect::MovementData::get_localPositionOffset
 // Il2CppName: get_localPositionOffset
 template<>

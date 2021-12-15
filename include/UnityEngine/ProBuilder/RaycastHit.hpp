@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: UnityEngine.ProBuilder
-namespace UnityEngine::ProBuilder {
-  // Forward declaring type: RaycastHit
-  class RaycastHit;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ProBuilder::RaycastHit);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::RaycastHit*, "UnityEngine.ProBuilder", "RaycastHit");
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {
   // Size: 0x30
@@ -28,11 +20,6 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   class RaycastHit : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Single distance
     // Size: 0x4
     // Offset: 0x10
@@ -57,7 +44,8 @@ namespace UnityEngine::ProBuilder {
     int face;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
+    // Creating value type constructor for type: RaycastHit
+    RaycastHit(float distance_ = {}, UnityEngine::Vector3 point_ = {}, UnityEngine::Vector3 normal_ = {}, int face_ = {}) noexcept : distance{distance_}, point{point_}, normal{normal_}, face{face_} {}
     // Get instance field reference: public System.Single distance
     float& dyn_distance();
     // Get instance field reference: public UnityEngine.Vector3 point
@@ -67,7 +55,7 @@ namespace UnityEngine::ProBuilder {
     // Get instance field reference: public System.Int32 face
     int& dyn_face();
     // public System.Void .ctor(System.Single distance, UnityEngine.Vector3 point, UnityEngine.Vector3 normal, System.Int32 face)
-    // Offset: 0x1679798
+    // Offset: 0x16F8654
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RaycastHit* New_ctor(float distance, UnityEngine::Vector3 point, UnityEngine::Vector3 normal, int face) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::RaycastHit::.ctor");
@@ -78,7 +66,8 @@ namespace UnityEngine::ProBuilder {
   static check_size<sizeof(RaycastHit), 44 + sizeof(int)> __UnityEngine_ProBuilder_RaycastHitSizeCheck;
   static_assert(sizeof(RaycastHit) == 0x30);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::RaycastHit*, "UnityEngine.ProBuilder", "RaycastHit");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::RaycastHit::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

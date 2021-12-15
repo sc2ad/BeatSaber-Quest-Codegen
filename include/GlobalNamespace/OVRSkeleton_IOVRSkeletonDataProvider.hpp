@@ -3,18 +3,10 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRSkeleton
 #include "GlobalNamespace/OVRSkeleton.hpp"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: IOVRSkeletonDataProvider
-  class IOVRSkeletonDataProvider;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRSkeleton::IOVRSkeletonDataProvider);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSkeleton::IOVRSkeletonDataProvider*, "", "OVRSkeleton/IOVRSkeletonDataProvider");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -23,6 +15,8 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRSkeleton::IOVRSkeletonDataProvider {
     public:
+    // Creating value type constructor for type: IOVRSkeletonDataProvider
+    IOVRSkeletonDataProvider() noexcept {}
     // public OVRSkeleton/SkeletonType GetSkeletonType()
     // Offset: 0xFFFFFFFF
     GlobalNamespace::OVRSkeleton::SkeletonType GetSkeletonType();
@@ -32,7 +26,9 @@ namespace GlobalNamespace {
   }; // OVRSkeleton/IOVRSkeletonDataProvider
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSkeleton::IOVRSkeletonDataProvider*, "", "OVRSkeleton/IOVRSkeletonDataProvider");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRSkeleton::IOVRSkeletonDataProvider::GetSkeletonType
 // Il2CppName: GetSkeletonType
 template<>

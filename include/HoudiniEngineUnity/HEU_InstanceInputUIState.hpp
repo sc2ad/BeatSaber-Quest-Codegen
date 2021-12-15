@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ScriptableObject
 #include "UnityEngine/ScriptableObject.hpp"
 // Including type: HoudiniEngineUnity.IEquivable`1
 #include "HoudiniEngineUnity/IEquivable_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: HoudiniEngineUnity
-namespace HoudiniEngineUnity {
-  // Forward declaring type: HEU_InstanceInputUIState
-  class HEU_InstanceInputUIState;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_InstanceInputUIState);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_InstanceInputUIState*, "HoudiniEngineUnity", "HEU_InstanceInputUIState");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x24
@@ -30,11 +22,6 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_InstanceInputUIState : public UnityEngine::ScriptableObject/*, public HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_InstanceInputUIState*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Boolean _showInstanceInputs
     // Size: 0x1
     // Offset: 0x18
@@ -55,7 +42,8 @@ namespace HoudiniEngineUnity {
     int inputsPageIndexUI;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
+    // Creating value type constructor for type: HEU_InstanceInputUIState
+    HEU_InstanceInputUIState(bool showInstanceInputs_ = {}, int numInputsToShowUI_ = {}, int inputsPageIndexUI_ = {}) noexcept : showInstanceInputs{showInstanceInputs_}, numInputsToShowUI{numInputsToShowUI_}, inputsPageIndexUI{inputsPageIndexUI_} {}
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_InstanceInputUIState*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_InstanceInputUIState*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_InstanceInputUIState*>*>(this);
@@ -69,13 +57,13 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Int32 _inputsPageIndexUI
     int& dyn__inputsPageIndexUI();
     // public System.Void CopyTo(HoudiniEngineUnity.HEU_InstanceInputUIState dest)
-    // Offset: 0x1512448
+    // Offset: 0x15982C0
     void CopyTo(HoudiniEngineUnity::HEU_InstanceInputUIState* dest);
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_InstanceInputUIState other)
-    // Offset: 0x1512474
+    // Offset: 0x15982EC
     bool IsEquivalentTo(HoudiniEngineUnity::HEU_InstanceInputUIState* other);
     // public System.Void .ctor()
-    // Offset: 0x1512604
+    // Offset: 0x159847C
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -90,7 +78,8 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_InstanceInputUIState), 32 + sizeof(int)> __HoudiniEngineUnity_HEU_InstanceInputUIStateSizeCheck;
   static_assert(sizeof(HEU_InstanceInputUIState) == 0x24);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_InstanceInputUIState*, "HoudiniEngineUnity", "HEU_InstanceInputUIState");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_InstanceInputUIState::CopyTo
 // Il2CppName: CopyTo
 template<>

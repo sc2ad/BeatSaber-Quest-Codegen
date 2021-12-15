@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: GhostDuplicationEffect
 #include "GlobalNamespace/GhostDuplicationEffect.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <>c__DisplayClass7_0
-  class $$c__DisplayClass7_0;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::GhostDuplicationEffect::$$c__DisplayClass7_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GhostDuplicationEffect::$$c__DisplayClass7_0*, "", "GhostDuplicationEffect/<>c__DisplayClass7_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x24
@@ -31,11 +23,6 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class GhostDuplicationEffect::$$c__DisplayClass7_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public GhostDuplicationEffect <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -48,25 +35,26 @@ namespace GlobalNamespace {
     UnityEngine::Vector3 direction;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    public:
+    // Creating value type constructor for type: $$c__DisplayClass7_0
+    $$c__DisplayClass7_0(GlobalNamespace::GhostDuplicationEffect* $$4__this_ = {}, UnityEngine::Vector3 direction_ = {}) noexcept : $$4__this{$$4__this_}, direction{direction_} {}
     // Get instance field reference: public GhostDuplicationEffect <>4__this
     GlobalNamespace::GhostDuplicationEffect*& dyn_$$4__this();
     // Get instance field reference: public UnityEngine.Vector3 direction
     UnityEngine::Vector3& dyn_direction();
     // System.Void <Animate>b__0(System.Single val)
-    // Offset: 0x11D3EC8
+    // Offset: 0x1197D10
     void $Animate$b__0(float val);
     // System.Void <Animate>b__1(System.Single val)
-    // Offset: 0x11D3EE0
+    // Offset: 0x1197D28
     void $Animate$b__1(float val);
     // System.Void <Animate>b__2(UnityEngine.Vector3 pos)
-    // Offset: 0x11D3F68
+    // Offset: 0x1197DB0
     void $Animate$b__2(UnityEngine::Vector3 pos);
     // System.Void <Animate>b__3(System.Single val)
-    // Offset: 0x11D3FBC
+    // Offset: 0x1197E04
     void $Animate$b__3(float val);
     // public System.Void .ctor()
-    // Offset: 0x11D3B08
+    // Offset: 0x1197950
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -79,7 +67,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(GhostDuplicationEffect::$$c__DisplayClass7_0), 24 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_GhostDuplicationEffect_$$c__DisplayClass7_0SizeCheck;
   static_assert(sizeof(GhostDuplicationEffect::$$c__DisplayClass7_0) == 0x24);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GhostDuplicationEffect::$$c__DisplayClass7_0*, "", "GhostDuplicationEffect/<>c__DisplayClass7_0");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GhostDuplicationEffect::$$c__DisplayClass7_0::$Animate$b__0
 // Il2CppName: <Animate>b__0
 template<>

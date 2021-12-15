@@ -3,14 +3,14 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.MemoryPool`8
 #include "Zenject/MemoryPool_8.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -25,16 +25,10 @@ namespace Zenject {
   // Forward declaring type: IPoolable`7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7>
   template<typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7>
   class IPoolable_7;
+  // Forward declaring type: InjectTypeInfo
+  class InjectTypeInfo;
 }
 // Completed forward declares
-// Type namespace: Zenject
-namespace Zenject {
-  // Forward declaring type: MonoPoolableMemoryPool`8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TValue>
-  template<typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TValue>
-  class MonoPoolableMemoryPool_8;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::MonoPoolableMemoryPool_8, "Zenject", "MonoPoolableMemoryPool`8");
 // Type namespace: Zenject
 namespace Zenject {
   // WARNING Size may be invalid!
@@ -43,18 +37,14 @@ namespace Zenject {
   template<typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TValue>
   class MonoPoolableMemoryPool_8 : public Zenject::MemoryPool_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TValue> {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private UnityEngine.Transform _originalParent
     // Size: 0x8
     // Offset: 0x0
     UnityEngine::Transform* originalParent;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    public:
+    // Creating value type constructor for type: MonoPoolableMemoryPool_8
+    MonoPoolableMemoryPool_8(UnityEngine::Transform* originalParent_ = {}) noexcept : originalParent{originalParent_} {}
     // Creating conversion operator: operator UnityEngine::Transform*
     constexpr operator UnityEngine::Transform*() const noexcept {
       return originalParent;
@@ -72,21 +62,24 @@ namespace Zenject {
     void OnCreated(TValue item) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MonoPoolableMemoryPool_8::OnCreated");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "OnCreated", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, item);
+      auto ___instance_arg = this;
+      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, item);
     }
     // protected System.Void OnDestroyed(TValue item)
     // Offset: 0xFFFFFFFF
     void OnDestroyed(TValue item) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MonoPoolableMemoryPool_8::OnDestroyed");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "OnDestroyed", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, item);
+      auto ___instance_arg = this;
+      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, item);
     }
     // protected System.Void OnDespawned(TValue item)
     // Offset: 0xFFFFFFFF
     void OnDespawned(TValue item) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MonoPoolableMemoryPool_8::OnDespawned");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "OnDespawned", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, item);
+      auto ___instance_arg = this;
+      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, item);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
@@ -106,9 +99,31 @@ namespace Zenject {
     void Reinitialize(TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4, TParam5 p5, TParam6 p6, TParam7 p7, TValue item) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MonoPoolableMemoryPool_8::Reinitialize");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Reinitialize", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(p1), ::il2cpp_utils::ExtractType(p2), ::il2cpp_utils::ExtractType(p3), ::il2cpp_utils::ExtractType(p4), ::il2cpp_utils::ExtractType(p5), ::il2cpp_utils::ExtractType(p6), ::il2cpp_utils::ExtractType(p7), ::il2cpp_utils::ExtractType(item)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, p1, p2, p3, p4, p5, p6, p7, item);
+      auto ___instance_arg = this;
+      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, p1, p2, p3, p4, p5, p6, p7, item);
+    }
+    // static private System.Object __zenCreate(System.Object[] P_0)
+    // Offset: 0xFFFFFFFF
+    // Implemented from: Zenject.MemoryPool`8
+    // Base method: System.Object MemoryPool_8::__zenCreate(System.Object[] P_0)
+    // Base method: System.Object MemoryPoolBase_1::__zenCreate(System.Object[] P_0)
+    static ::Il2CppObject* __zenCreate(::Array<::Il2CppObject*>* P_0) {
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MonoPoolableMemoryPool_8::__zenCreate");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<MonoPoolableMemoryPool_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TValue>*>::get(), "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
+      return ::il2cpp_utils::RunMethodThrow<::Il2CppObject*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, P_0);
+    }
+    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
+    // Offset: 0xFFFFFFFF
+    // Implemented from: Zenject.MemoryPool`8
+    // Base method: Zenject.InjectTypeInfo MemoryPool_8::__zenCreateInjectTypeInfo()
+    // Base method: Zenject.InjectTypeInfo MemoryPoolBase_1::__zenCreateInjectTypeInfo()
+    static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo() {
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MonoPoolableMemoryPool_8::__zenCreateInjectTypeInfo");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<MonoPoolableMemoryPool_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TValue>*>::get(), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+      return ::il2cpp_utils::RunMethodThrow<Zenject::InjectTypeInfo*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
     }
   }; // Zenject.MonoPoolableMemoryPool`8
   // Could not write size check! Type: Zenject.MonoPoolableMemoryPool`8 is generic, or has no fields that are valid for size checks!
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::MonoPoolableMemoryPool_8, "Zenject", "MonoPoolableMemoryPool`8");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

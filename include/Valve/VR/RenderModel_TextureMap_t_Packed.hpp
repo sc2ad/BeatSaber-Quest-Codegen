@@ -3,27 +3,19 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
+// Including type: Valve.VR.RenderModel_TextureMap_t
+#include "Valve/VR/RenderModel_TextureMap_t.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Begin forward declares
-// Forward declaring namespace: Valve::VR
-namespace Valve::VR {
-  // Forward declaring type: RenderModel_TextureMap_t
-  struct RenderModel_TextureMap_t;
-}
-// Completed forward declares
-// Type namespace: Valve.VR
-namespace Valve::VR {
-  // Forward declaring type: RenderModel_TextureMap_t_Packed
-  struct RenderModel_TextureMap_t_Packed;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::RenderModel_TextureMap_t_Packed, "Valve.VR", "RenderModel_TextureMap_t_Packed");
 // Type namespace: Valve.VR
 namespace Valve::VR {
   // Size: 0xC
@@ -33,11 +25,6 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct RenderModel_TextureMap_t_Packed/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Char unWidth
     // Size: 0x2
     // Offset: 0x0
@@ -56,7 +43,6 @@ namespace Valve::VR {
     System::IntPtr rubTextureMapData;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
-    public:
     // Creating value type constructor for type: RenderModel_TextureMap_t_Packed
     constexpr RenderModel_TextureMap_t_Packed(::Il2CppChar unWidth_ = {}, ::Il2CppChar unHeight_ = {}, System::IntPtr rubTextureMapData_ = {}) noexcept : unWidth{unWidth_}, unHeight{unHeight_}, rubTextureMapData{rubTextureMapData_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -70,17 +56,23 @@ namespace Valve::VR {
     // Get instance field reference: public System.IntPtr rubTextureMapData
     System::IntPtr& dyn_rubTextureMapData();
     // public System.Void .ctor(Valve.VR.RenderModel_TextureMap_t unpacked)
-    // Offset: 0x25C1F98
-    RenderModel_TextureMap_t_Packed(Valve::VR::RenderModel_TextureMap_t unpacked);
+    // Offset: 0x26845EC
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    RenderModel_TextureMap_t_Packed(Valve::VR::RenderModel_TextureMap_t unpacked) {
+      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::RenderModel_TextureMap_t_Packed::.ctor");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(unpacked)})));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, unpacked);
+    }
     // public System.Void Unpack(ref Valve.VR.RenderModel_TextureMap_t unpacked)
-    // Offset: 0x25C1FAC
+    // Offset: 0x2684600
     void Unpack(ByRef<Valve::VR::RenderModel_TextureMap_t> unpacked);
   }; // Valve.VR.RenderModel_TextureMap_t_Packed
   #pragma pack(pop)
   static check_size<sizeof(RenderModel_TextureMap_t_Packed), 4 + sizeof(System::IntPtr)> __Valve_VR_RenderModel_TextureMap_t_PackedSizeCheck;
   static_assert(sizeof(RenderModel_TextureMap_t_Packed) == 0xC);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::RenderModel_TextureMap_t_Packed, "Valve.VR", "RenderModel_TextureMap_t_Packed");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::RenderModel_TextureMap_t_Packed::RenderModel_TextureMap_t_Packed
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

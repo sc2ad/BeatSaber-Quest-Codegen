@@ -3,7 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.IEquatable`1
@@ -14,13 +14,6 @@ struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.Rendering
 namespace UnityEngine::Rendering {
-  // Forward declaring type: ShaderTagId
-  struct ShaderTagId;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::ShaderTagId, "UnityEngine.Rendering", "ShaderTagId");
-// Type namespace: UnityEngine.Rendering
-namespace UnityEngine::Rendering {
   // Size: 0x4
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -28,18 +21,12 @@ namespace UnityEngine::Rendering {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ShaderTagId/*, public System::ValueType, public System::IEquatable_1<UnityEngine::Rendering::ShaderTagId>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Int32 m_Id
     // Size: 0x4
     // Offset: 0x0
     int m_Id;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: ShaderTagId
     constexpr ShaderTagId(int m_Id_ = {}) noexcept : m_Id{m_Id_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -61,24 +48,24 @@ namespace UnityEngine::Rendering {
     // Get instance field reference: private System.Int32 m_Id
     int& dyn_m_Id();
     // System.Int32 get_id()
-    // Offset: 0x1DF0F80
+    // Offset: 0x1DFB384
     int get_id();
     // System.Void set_id(System.Int32 value)
-    // Offset: 0x1DF0F88
+    // Offset: 0x1DFB38C
     void set_id(int value);
     // static private System.Void .cctor()
-    // Offset: 0x1DF104C
+    // Offset: 0x1DFB450
     static void _cctor();
     // public System.Boolean Equals(UnityEngine.Rendering.ShaderTagId other)
-    // Offset: 0x1DF1018
+    // Offset: 0x1DFB41C
     bool Equals(UnityEngine::Rendering::ShaderTagId other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1DF0F90
+    // Offset: 0x1DFB394
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1DF1028
+    // Offset: 0x1DFB42C
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
@@ -87,7 +74,9 @@ namespace UnityEngine::Rendering {
   static check_size<sizeof(ShaderTagId), 0 + sizeof(int)> __UnityEngine_Rendering_ShaderTagIdSizeCheck;
   static_assert(sizeof(ShaderTagId) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::ShaderTagId, "UnityEngine.Rendering", "ShaderTagId");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Rendering::ShaderTagId::get_id
 // Il2CppName: get_id
 template<>

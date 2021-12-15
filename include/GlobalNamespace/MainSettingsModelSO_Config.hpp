@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MainSettingsModelSO
 #include "GlobalNamespace/MainSettingsModelSO.hpp"
 // Including type: MainSettingsModelSO/WindowMode
 #include "GlobalNamespace/MainSettingsModelSO_WindowMode.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: Config
-  class Config;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MainSettingsModelSO::Config);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainSettingsModelSO::Config*, "", "MainSettingsModelSO/Config");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0xD8
@@ -30,11 +22,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MainSettingsModelSO::Config : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.String version
     // Size: 0x8
     // Offset: 0x10
@@ -347,7 +334,8 @@ namespace GlobalNamespace {
     ::Il2CppString* language;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: Config
+    Config(::Il2CppString* version_ = {}, int windowResolutionWidth_ = {}, int windowResolutionHeight_ = {}, GlobalNamespace::MainSettingsModelSO::WindowMode windowMode_ = {}, float vrResolutionScale_ = {}, float menuVRResolutionScaleMultiplier_ = {}, bool useFixedFoveatedRenderingDuringGameplay_ = {}, int antiAliasingLevel_ = {}, int mirrorGraphicsSettings_ = {}, int mainEffectGraphicsSettings_ = {}, int bloomGraphicsSettings_ = {}, int smokeGraphicsSettings_ = {}, bool burnMarkTrailsEnabled_ = {}, bool screenDisplacementEffectsEnabled_ = {}, float roomCenterX_ = {}, float roomCenterY_ = {}, float roomCenterZ_ = {}, float roomRotation_ = {}, float controllerPositionX_ = {}, float controllerPositionY_ = {}, float controllerPositionZ_ = {}, float controllerRotationX_ = {}, float controllerRotationY_ = {}, float controllerRotationZ_ = {}, int smoothCameraEnabled_ = {}, float smoothCameraFieldOfView_ = {}, float smoothCameraThirdPersonPositionX_ = {}, float smoothCameraThirdPersonPositionY_ = {}, float smoothCameraThirdPersonPositionZ_ = {}, float smoothCameraThirdPersonEulerAnglesX_ = {}, float smoothCameraThirdPersonEulerAnglesY_ = {}, float smoothCameraThirdPersonEulerAnglesZ_ = {}, int smoothCameraThirdPersonEnabled_ = {}, float smoothCameraRotationSmooth_ = {}, float smoothCameraPositionSmooth_ = {}, bool useCustomServerEnvironment_ = {}, ::Il2CppString* customServerHostName_ = {}, float volume_ = {}, float ambientVolumeScale_ = {}, bool controllersRumbleEnabled_ = {}, int enableAlphaFeatures_ = {}, int pauseButtonPressDurationLevel_ = {}, int maxShockwaveParticles_ = {}, bool overrideAudioLatency_ = {}, float audioLatency_ = {}, int maxNumberOfCutSoundEffects_ = {}, bool onlineServicesEnabled_ = {}, bool oculusMRCEnabled_ = {}, bool openVrThreadedHaptics_ = {}, ::Il2CppString* language_ = {}) noexcept : version{version_}, windowResolutionWidth{windowResolutionWidth_}, windowResolutionHeight{windowResolutionHeight_}, windowMode{windowMode_}, vrResolutionScale{vrResolutionScale_}, menuVRResolutionScaleMultiplier{menuVRResolutionScaleMultiplier_}, useFixedFoveatedRenderingDuringGameplay{useFixedFoveatedRenderingDuringGameplay_}, antiAliasingLevel{antiAliasingLevel_}, mirrorGraphicsSettings{mirrorGraphicsSettings_}, mainEffectGraphicsSettings{mainEffectGraphicsSettings_}, bloomGraphicsSettings{bloomGraphicsSettings_}, smokeGraphicsSettings{smokeGraphicsSettings_}, burnMarkTrailsEnabled{burnMarkTrailsEnabled_}, screenDisplacementEffectsEnabled{screenDisplacementEffectsEnabled_}, roomCenterX{roomCenterX_}, roomCenterY{roomCenterY_}, roomCenterZ{roomCenterZ_}, roomRotation{roomRotation_}, controllerPositionX{controllerPositionX_}, controllerPositionY{controllerPositionY_}, controllerPositionZ{controllerPositionZ_}, controllerRotationX{controllerRotationX_}, controllerRotationY{controllerRotationY_}, controllerRotationZ{controllerRotationZ_}, smoothCameraEnabled{smoothCameraEnabled_}, smoothCameraFieldOfView{smoothCameraFieldOfView_}, smoothCameraThirdPersonPositionX{smoothCameraThirdPersonPositionX_}, smoothCameraThirdPersonPositionY{smoothCameraThirdPersonPositionY_}, smoothCameraThirdPersonPositionZ{smoothCameraThirdPersonPositionZ_}, smoothCameraThirdPersonEulerAnglesX{smoothCameraThirdPersonEulerAnglesX_}, smoothCameraThirdPersonEulerAnglesY{smoothCameraThirdPersonEulerAnglesY_}, smoothCameraThirdPersonEulerAnglesZ{smoothCameraThirdPersonEulerAnglesZ_}, smoothCameraThirdPersonEnabled{smoothCameraThirdPersonEnabled_}, smoothCameraRotationSmooth{smoothCameraRotationSmooth_}, smoothCameraPositionSmooth{smoothCameraPositionSmooth_}, useCustomServerEnvironment{useCustomServerEnvironment_}, customServerHostName{customServerHostName_}, volume{volume_}, ambientVolumeScale{ambientVolumeScale_}, controllersRumbleEnabled{controllersRumbleEnabled_}, enableAlphaFeatures{enableAlphaFeatures_}, pauseButtonPressDurationLevel{pauseButtonPressDurationLevel_}, maxShockwaveParticles{maxShockwaveParticles_}, overrideAudioLatency{overrideAudioLatency_}, audioLatency{audioLatency_}, maxNumberOfCutSoundEffects{maxNumberOfCutSoundEffects_}, onlineServicesEnabled{onlineServicesEnabled_}, oculusMRCEnabled{oculusMRCEnabled_}, openVrThreadedHaptics{openVrThreadedHaptics_}, language{language_} {}
     // Get instance field reference: public System.String version
     ::Il2CppString*& dyn_version();
     // Get instance field reference: public System.Int32 windowResolutionWidth
@@ -449,7 +437,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.String language
     ::Il2CppString*& dyn_language();
     // public System.Void .ctor()
-    // Offset: 0x125DE94
+    // Offset: 0x1156D34
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -462,7 +450,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(MainSettingsModelSO::Config), 208 + sizeof(::Il2CppString*)> __GlobalNamespace_MainSettingsModelSO_ConfigSizeCheck;
   static_assert(sizeof(MainSettingsModelSO::Config) == 0xD8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainSettingsModelSO::Config*, "", "MainSettingsModelSO/Config");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MainSettingsModelSO::Config::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

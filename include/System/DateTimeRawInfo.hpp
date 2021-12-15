@@ -3,20 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.DateTimeParse/System.TM
 #include "System/DateTimeParse_TM.hpp"
 // Completed includes
-// Type namespace: System
-namespace System {
-  // Forward declaring type: DateTimeRawInfo
-  struct DateTimeRawInfo;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::DateTimeRawInfo, "System", "DateTimeRawInfo");
 // Type namespace: System
 namespace System {
   // Size: 0x2A
@@ -26,11 +19,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   struct DateTimeRawInfo/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Int32* num
     // Size: 0x8
     // Offset: 0x0
@@ -91,7 +79,6 @@ namespace System {
     bool timeZone;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
     // Creating value type constructor for type: DateTimeRawInfo
     constexpr DateTimeRawInfo(int* num_ = {}, int numCount_ = {}, int month_ = {}, int year_ = {}, int dayOfWeek_ = {}, int era_ = {}, System::DateTimeParse::TM timeMark_ = {}, double fraction_ = {}, bool hasSameDateAndTimeSeparators_ = {}, bool timeZone_ = {}) noexcept : num{num_}, numCount{numCount_}, month{month_}, year{year_}, dayOfWeek{dayOfWeek_}, era{era_}, timeMark{timeMark_}, fraction{fraction_}, hasSameDateAndTimeSeparators{hasSameDateAndTimeSeparators_}, timeZone{timeZone_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -119,20 +106,22 @@ namespace System {
     // Get instance field reference: System.Boolean timeZone
     bool& dyn_timeZone();
     // System.Void Init(System.Int32* numberBuffer)
-    // Offset: 0x1CD5BB4
+    // Offset: 0x1D45FA0
     void Init(int* numberBuffer);
     // System.Void AddNumber(System.Int32 value)
-    // Offset: 0x1CD258C
+    // Offset: 0x1D42978
     void AddNumber(int value);
     // System.Int32 GetNumber(System.Int32 index)
-    // Offset: 0x1CD37F0
+    // Offset: 0x1D43BDC
     int GetNumber(int index);
   }; // System.DateTimeRawInfo
   #pragma pack(pop)
   static check_size<sizeof(DateTimeRawInfo), 41 + sizeof(bool)> __System_DateTimeRawInfoSizeCheck;
   static_assert(sizeof(DateTimeRawInfo) == 0x2A);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::DateTimeRawInfo, "System", "DateTimeRawInfo");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::DateTimeRawInfo::Init
 // Il2CppName: Init
 template<>

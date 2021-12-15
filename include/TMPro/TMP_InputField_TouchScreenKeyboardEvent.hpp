@@ -3,27 +3,19 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: TMPro.TMP_InputField
 #include "TMPro/TMP_InputField.hpp"
 // Including type: UnityEngine.Events.UnityEvent`1
 #include "UnityEngine/Events/UnityEvent_1.hpp"
 // Including type: UnityEngine.TouchScreenKeyboard/UnityEngine.Status
 #include "UnityEngine/TouchScreenKeyboard_Status.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: TMPro
-namespace TMPro {
-  // Forward declaring type: TouchScreenKeyboardEvent
-  class TouchScreenKeyboardEvent;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(TMPro::TMP_InputField::TouchScreenKeyboardEvent);
-DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_InputField::TouchScreenKeyboardEvent*, "TMPro", "TMP_InputField/TouchScreenKeyboardEvent");
 // Type namespace: TMPro
 namespace TMPro {
   // WARNING Size may be invalid!
@@ -31,8 +23,10 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class TMP_InputField::TouchScreenKeyboardEvent : public UnityEngine::Events::UnityEvent_1<UnityEngine::TouchScreenKeyboard::Status> {
     public:
+    // Creating value type constructor for type: TouchScreenKeyboardEvent
+    TouchScreenKeyboardEvent() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1217064
+    // Offset: 0x125A2C4
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent_1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()
@@ -44,7 +38,8 @@ namespace TMPro {
     }
   }; // TMPro.TMP_InputField/TMPro.TouchScreenKeyboardEvent
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_InputField::TouchScreenKeyboardEvent*, "TMPro", "TMP_InputField/TouchScreenKeyboardEvent");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_InputField::TouchScreenKeyboardEvent::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

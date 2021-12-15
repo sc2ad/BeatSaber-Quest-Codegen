@@ -3,20 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: NUnit.Framework.Constraints.FloatingPointNumerics
 #include "NUnit/Framework/Constraints/FloatingPointNumerics.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-// Type namespace: NUnit.Framework.Constraints
-namespace NUnit::Framework::Constraints {
-  // Forward declaring type: FloatIntUnion
-  struct FloatIntUnion;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::FloatingPointNumerics::FloatIntUnion, "NUnit.Framework.Constraints", "FloatingPointNumerics/FloatIntUnion");
 // Type namespace: NUnit.Framework.Constraints
 namespace NUnit::Framework::Constraints {
   // WARNING Size may be invalid!
@@ -25,11 +18,6 @@ namespace NUnit::Framework::Constraints {
   // [TokenAttribute] Offset: FFFFFFFF
   struct FloatingPointNumerics::FloatIntUnion/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Single Float
     // Size: 0x4
     // Offset: 0x0
@@ -48,7 +36,6 @@ namespace NUnit::Framework::Constraints {
     uint UInt;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
-    public:
     // Creating value type constructor for type: FloatIntUnion
     constexpr FloatIntUnion(float Float_ = {}, int Int_ = {}, uint UInt_ = {}) noexcept : Float{Float_}, Int{Int_}, UInt{UInt_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -64,4 +51,6 @@ namespace NUnit::Framework::Constraints {
   }; // NUnit.Framework.Constraints.FloatingPointNumerics/NUnit.Framework.Constraints.FloatIntUnion
   // WARNING Not writing size check since size may be invalid!
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::FloatingPointNumerics::FloatIntUnion, "NUnit.Framework.Constraints", "FloatingPointNumerics/FloatIntUnion");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

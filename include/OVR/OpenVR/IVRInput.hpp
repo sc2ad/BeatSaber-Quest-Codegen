@@ -3,7 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
@@ -12,13 +12,6 @@
 namespace OVR::OpenVR {
 }
 // Completed forward declares
-// Type namespace: OVR.OpenVR
-namespace OVR::OpenVR {
-  // Forward declaring type: IVRInput
-  struct IVRInput;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRInput, "OVR.OpenVR", "IVRInput");
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
   // Size: 0x90
@@ -64,11 +57,6 @@ namespace OVR::OpenVR {
     class _ShowActionOrigins;
     // Nested type: OVR::OpenVR::IVRInput::_ShowBindingsForActionSet
     class _ShowBindingsForActionSet;
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // OVR.OpenVR.IVRInput/OVR.OpenVR._SetActionManifestPath SetActionManifestPath
     // Size: 0x8
     // Offset: 0x0
@@ -177,7 +165,6 @@ namespace OVR::OpenVR {
     OVR::OpenVR::IVRInput::_ShowBindingsForActionSet* ShowBindingsForActionSet;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::IVRInput::_ShowBindingsForActionSet*) == 0x8);
-    public:
     // Creating value type constructor for type: IVRInput
     constexpr IVRInput(OVR::OpenVR::IVRInput::_SetActionManifestPath* SetActionManifestPath_ = {}, OVR::OpenVR::IVRInput::_GetActionSetHandle* GetActionSetHandle_ = {}, OVR::OpenVR::IVRInput::_GetActionHandle* GetActionHandle_ = {}, OVR::OpenVR::IVRInput::_GetInputSourceHandle* GetInputSourceHandle_ = {}, OVR::OpenVR::IVRInput::_UpdateActionState* UpdateActionState_ = {}, OVR::OpenVR::IVRInput::_GetDigitalActionData* GetDigitalActionData_ = {}, OVR::OpenVR::IVRInput::_GetAnalogActionData* GetAnalogActionData_ = {}, OVR::OpenVR::IVRInput::_GetPoseActionData* GetPoseActionData_ = {}, OVR::OpenVR::IVRInput::_GetSkeletalActionData* GetSkeletalActionData_ = {}, OVR::OpenVR::IVRInput::_GetSkeletalBoneData* GetSkeletalBoneData_ = {}, OVR::OpenVR::IVRInput::_GetSkeletalBoneDataCompressed* GetSkeletalBoneDataCompressed_ = {}, OVR::OpenVR::IVRInput::_DecompressSkeletalBoneData* DecompressSkeletalBoneData_ = {}, OVR::OpenVR::IVRInput::_TriggerHapticVibrationAction* TriggerHapticVibrationAction_ = {}, OVR::OpenVR::IVRInput::_GetActionOrigins* GetActionOrigins_ = {}, OVR::OpenVR::IVRInput::_GetOriginLocalizedName* GetOriginLocalizedName_ = {}, OVR::OpenVR::IVRInput::_GetOriginTrackedDeviceInfo* GetOriginTrackedDeviceInfo_ = {}, OVR::OpenVR::IVRInput::_ShowActionOrigins* ShowActionOrigins_ = {}, OVR::OpenVR::IVRInput::_ShowBindingsForActionSet* ShowBindingsForActionSet_ = {}) noexcept : SetActionManifestPath{SetActionManifestPath_}, GetActionSetHandle{GetActionSetHandle_}, GetActionHandle{GetActionHandle_}, GetInputSourceHandle{GetInputSourceHandle_}, UpdateActionState{UpdateActionState_}, GetDigitalActionData{GetDigitalActionData_}, GetAnalogActionData{GetAnalogActionData_}, GetPoseActionData{GetPoseActionData_}, GetSkeletalActionData{GetSkeletalActionData_}, GetSkeletalBoneData{GetSkeletalBoneData_}, GetSkeletalBoneDataCompressed{GetSkeletalBoneDataCompressed_}, DecompressSkeletalBoneData{DecompressSkeletalBoneData_}, TriggerHapticVibrationAction{TriggerHapticVibrationAction_}, GetActionOrigins{GetActionOrigins_}, GetOriginLocalizedName{GetOriginLocalizedName_}, GetOriginTrackedDeviceInfo{GetOriginTrackedDeviceInfo_}, ShowActionOrigins{ShowActionOrigins_}, ShowBindingsForActionSet{ShowBindingsForActionSet_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -225,4 +212,6 @@ namespace OVR::OpenVR {
   static check_size<sizeof(IVRInput), 136 + sizeof(OVR::OpenVR::IVRInput::_ShowBindingsForActionSet*)> __OVR_OpenVR_IVRInputSizeCheck;
   static_assert(sizeof(IVRInput) == 0x90);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRInput, "OVR.OpenVR", "IVRInput");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -3,20 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Mono.RuntimeStructs
 #include "Mono/RuntimeStructs.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-// Type namespace: Mono
-namespace Mono {
-  // Forward declaring type: MonoClass
-  struct MonoClass;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeStructs::MonoClass, "Mono", "RuntimeStructs/MonoClass");
 // Type namespace: Mono
 namespace Mono {
   // Size: 0x0
@@ -35,4 +28,6 @@ namespace Mono {
   }; // Mono.RuntimeStructs/Mono.MonoClass
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeStructs::MonoClass, "Mono", "RuntimeStructs/MonoClass");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

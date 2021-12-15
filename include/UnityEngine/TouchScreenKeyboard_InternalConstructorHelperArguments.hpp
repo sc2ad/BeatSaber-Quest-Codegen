@@ -3,17 +3,10 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-// Type namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: TouchScreenKeyboard_InternalConstructorHelperArguments
-  struct TouchScreenKeyboard_InternalConstructorHelperArguments;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TouchScreenKeyboard_InternalConstructorHelperArguments, "UnityEngine", "TouchScreenKeyboard_InternalConstructorHelperArguments");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18
@@ -23,11 +16,6 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   struct TouchScreenKeyboard_InternalConstructorHelperArguments/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.UInt32 keyboardType
     // Size: 0x4
     // Offset: 0x0
@@ -64,7 +52,6 @@ namespace UnityEngine {
     int characterLimit;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: TouchScreenKeyboard_InternalConstructorHelperArguments
     constexpr TouchScreenKeyboard_InternalConstructorHelperArguments(uint keyboardType_ = {}, uint autocorrection_ = {}, uint multiline_ = {}, uint secure_ = {}, uint alert_ = {}, int characterLimit_ = {}) noexcept : keyboardType{keyboardType_}, autocorrection{autocorrection_}, multiline{multiline_}, secure{secure_}, alert{alert_}, characterLimit{characterLimit_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -88,4 +75,6 @@ namespace UnityEngine {
   static check_size<sizeof(TouchScreenKeyboard_InternalConstructorHelperArguments), 20 + sizeof(int)> __UnityEngine_TouchScreenKeyboard_InternalConstructorHelperArgumentsSizeCheck;
   static_assert(sizeof(TouchScreenKeyboard_InternalConstructorHelperArguments) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TouchScreenKeyboard_InternalConstructorHelperArguments, "UnityEngine", "TouchScreenKeyboard_InternalConstructorHelperArguments");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

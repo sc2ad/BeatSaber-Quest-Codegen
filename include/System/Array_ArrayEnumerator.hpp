@@ -3,27 +3,19 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Array
 #include "System/Array.hpp"
 // Including type: System.ICloneable
 #include "System/ICloneable.hpp"
 // Including type: System.Collections.IEnumerator
 #include "System/Collections/IEnumerator.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System
-namespace System {
-  // Forward declaring type: ArrayEnumerator
-  class ArrayEnumerator;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Array::ArrayEnumerator);
-DEFINE_IL2CPP_ARG_TYPE(System::Array::ArrayEnumerator*, "System", "Array/ArrayEnumerator");
 // Type namespace: System
 namespace System {
   // Size: 0x20
@@ -32,11 +24,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class Array::ArrayEnumerator : public ::Il2CppObject/*, public System::ICloneable, public System::Collections::IEnumerator*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Array _array
     // Size: 0x8
     // Offset: 0x10
@@ -55,7 +42,8 @@ namespace System {
     int endIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
+    // Creating value type constructor for type: ArrayEnumerator
+    ArrayEnumerator(System::Array* array_ = {}, int index_ = {}, int endIndex_ = {}) noexcept : array{array_}, index{index_}, endIndex{endIndex_} {}
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);
@@ -71,30 +59,31 @@ namespace System {
     // Get instance field reference: private System.Int32 _endIndex
     int& dyn__endIndex();
     // public System.Object get_Current()
-    // Offset: 0x1971558
+    // Offset: 0x198FC08
     ::Il2CppObject* get_Current();
     // System.Void .ctor(System.Array array)
-    // Offset: 0x1970B38
+    // Offset: 0x198F1E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Array::ArrayEnumerator* New_ctor(System::Array* array) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Array::ArrayEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Array::ArrayEnumerator*, creationType>(array)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x197151C
+    // Offset: 0x198FBCC
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1971544
+    // Offset: 0x198FBF4
     void Reset();
     // public System.Object Clone()
-    // Offset: 0x1971550
+    // Offset: 0x198FC00
     ::Il2CppObject* Clone();
   }; // System.Array/System.ArrayEnumerator
   #pragma pack(pop)
   static check_size<sizeof(Array::ArrayEnumerator), 28 + sizeof(int)> __System_Array_ArrayEnumeratorSizeCheck;
   static_assert(sizeof(Array::ArrayEnumerator) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Array::ArrayEnumerator*, "System", "Array/ArrayEnumerator");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Array::ArrayEnumerator::get_Current
 // Il2CppName: get_Current
 template<>

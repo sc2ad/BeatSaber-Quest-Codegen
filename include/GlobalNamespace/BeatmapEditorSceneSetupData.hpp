@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: SceneSetupData
 #include "GlobalNamespace/SceneSetupData.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: BeatmapEditorSceneSetupData
-  class BeatmapEditorSceneSetupData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BeatmapEditorSceneSetupData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapEditorSceneSetupData*, "", "BeatmapEditorSceneSetupData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -28,11 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapEditorSceneSetupData : public GlobalNamespace::SceneSetupData {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.String _levelDirPath
     // Size: 0x8
     // Offset: 0x10
@@ -45,19 +32,20 @@ namespace GlobalNamespace {
     ::Il2CppString* levelAssetPath;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: BeatmapEditorSceneSetupData
+    BeatmapEditorSceneSetupData(::Il2CppString* levelDirPath_ = {}, ::Il2CppString* levelAssetPath_ = {}) noexcept : levelDirPath{levelDirPath_}, levelAssetPath{levelAssetPath_} {}
     // Get instance field reference: private System.String _levelDirPath
     ::Il2CppString*& dyn__levelDirPath();
     // Get instance field reference: private System.String _levelAssetPath
     ::Il2CppString*& dyn__levelAssetPath();
     // public System.String get_levelDirPath()
-    // Offset: 0x1249F98
+    // Offset: 0x131EC04
     ::Il2CppString* get_levelDirPath();
     // public System.String get_levelAssetPath()
-    // Offset: 0x1249FA0
+    // Offset: 0x131EC0C
     ::Il2CppString* get_levelAssetPath();
     // public System.Void .ctor(System.String levelDirPath, System.String levelAssetPath)
-    // Offset: 0x1249FA8
+    // Offset: 0x131EC14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapEditorSceneSetupData* New_ctor(::Il2CppString* levelDirPath, ::Il2CppString* levelAssetPath) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapEditorSceneSetupData::.ctor");
@@ -68,7 +56,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(BeatmapEditorSceneSetupData), 24 + sizeof(::Il2CppString*)> __GlobalNamespace_BeatmapEditorSceneSetupDataSizeCheck;
   static_assert(sizeof(BeatmapEditorSceneSetupData) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapEditorSceneSetupData*, "", "BeatmapEditorSceneSetupData");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapEditorSceneSetupData::get_levelDirPath
 // Il2CppName: get_levelDirPath
 template<>

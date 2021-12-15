@@ -3,22 +3,14 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: BGNetDebug
-  class BGNetDebug;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BGNetDebug);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BGNetDebug*, "", "BGNetDebug");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -31,30 +23,34 @@ namespace GlobalNamespace {
     class ILogger;
     // Nested type: GlobalNamespace::BGNetDebug::NetLogger
     class NetLogger;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDA080
+    // Creating value type constructor for type: BGNetDebug
+    BGNetDebug() noexcept {}
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF1D284
     // Get static field: static private BGNetDebug/ILogger _logger
     static GlobalNamespace::BGNetDebug::ILogger* _get__logger();
     // Set static field: static private BGNetDebug/ILogger _logger
     static void _set__logger(GlobalNamespace::BGNetDebug::ILogger* value);
     // static private System.Void .cctor()
-    // Offset: 0x1430F08
+    // Offset: 0x155BBF0
     static void _cctor();
     // static public System.Void SetLogger(BGNetDebug/ILogger logger)
-    // Offset: 0x1430F94
+    // Offset: 0x155BC7C
     static void SetLogger(GlobalNamespace::BGNetDebug::ILogger* logger);
     // static public System.Void Log(System.String message)
-    // Offset: 0x1431000
+    // Offset: 0x155BCE8
     static void Log(::Il2CppString* message);
     // static public System.Void LogError(System.String message)
-    // Offset: 0x1430AF8
+    // Offset: 0x155B7E0
     static void LogError(::Il2CppString* message);
     // static public System.Void LogWarning(System.String message)
-    // Offset: 0x1431118
+    // Offset: 0x155BE00
     static void LogWarning(::Il2CppString* message);
   }; // BGNetDebug
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BGNetDebug*, "", "BGNetDebug");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BGNetDebug::_cctor
 // Il2CppName: .cctor
 template<>

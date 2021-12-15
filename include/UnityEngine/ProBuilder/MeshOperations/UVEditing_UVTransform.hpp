@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ProBuilder.MeshOperations.UVEditing
 #include "UnityEngine/ProBuilder/MeshOperations/UVEditing.hpp"
 // Including type: System.ValueType
@@ -14,13 +14,6 @@
 // Completed includes
 // Type namespace: UnityEngine.ProBuilder.MeshOperations
 namespace UnityEngine::ProBuilder::MeshOperations {
-  // Forward declaring type: UVTransform
-  struct UVTransform;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::UVEditing::UVTransform, "UnityEngine.ProBuilder.MeshOperations", "UVEditing/UVTransform");
-// Type namespace: UnityEngine.ProBuilder.MeshOperations
-namespace UnityEngine::ProBuilder::MeshOperations {
   // Size: 0x14
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -28,11 +21,6 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   // [TokenAttribute] Offset: FFFFFFFF
   struct UVEditing::UVTransform/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public UnityEngine.Vector2 translation
     // Size: 0x8
     // Offset: 0x0
@@ -51,7 +39,6 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     UnityEngine::Vector2 scale;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector2) == 0x8);
-    public:
     // Creating value type constructor for type: UVTransform
     constexpr UVTransform(UnityEngine::Vector2 translation_ = {}, float rotation_ = {}, UnityEngine::Vector2 scale_ = {}) noexcept : translation{translation_}, rotation{rotation_}, scale{scale_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -65,7 +52,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Get instance field reference: public UnityEngine.Vector2 scale
     UnityEngine::Vector2& dyn_scale();
     // public override System.String ToString()
-    // Offset: 0x18EAB2C
+    // Offset: 0x190FCF0
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
@@ -74,7 +61,9 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   static check_size<sizeof(UVEditing::UVTransform), 12 + sizeof(UnityEngine::Vector2)> __UnityEngine_ProBuilder_MeshOperations_UVEditing_UVTransformSizeCheck;
   static_assert(sizeof(UVEditing::UVTransform) == 0x14);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::UVEditing::UVTransform, "UnityEngine.ProBuilder.MeshOperations", "UVEditing/UVTransform");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::UVEditing::UVTransform::ToString
 // Il2CppName: ToString
 template<>

@@ -3,14 +3,14 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.SceneManagement.Scene
 #include "UnityEngine/SceneManagement/Scene.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -28,16 +28,10 @@ namespace Zenject {
   class SceneContext;
   // Forward declaring type: DiContainer
   class DiContainer;
+  // Forward declaring type: InjectTypeInfo
+  class InjectTypeInfo;
 }
 // Completed forward declares
-// Type namespace: Zenject
-namespace Zenject {
-  // Forward declaring type: SceneContextRegistry
-  class SceneContextRegistry;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::SceneContextRegistry);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::SceneContextRegistry*, "Zenject", "SceneContextRegistry");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x18
@@ -46,18 +40,14 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class SceneContextRegistry : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private readonly System.Collections.Generic.Dictionary`2<UnityEngine.SceneManagement.Scene,Zenject.SceneContext> _map
     // Size: 0x8
     // Offset: 0x10
     System::Collections::Generic::Dictionary_2<UnityEngine::SceneManagement::Scene, Zenject::SceneContext*>* map;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<UnityEngine::SceneManagement::Scene, Zenject::SceneContext*>*) == 0x8);
-    public:
+    // Creating value type constructor for type: SceneContextRegistry
+    SceneContextRegistry(System::Collections::Generic::Dictionary_2<UnityEngine::SceneManagement::Scene, Zenject::SceneContext*>* map_ = {}) noexcept : map{map_} {}
     // Creating conversion operator: operator System::Collections::Generic::Dictionary_2<UnityEngine::SceneManagement::Scene, Zenject::SceneContext*>*
     constexpr operator System::Collections::Generic::Dictionary_2<UnityEngine::SceneManagement::Scene, Zenject::SceneContext*>*() const noexcept {
       return map;
@@ -65,34 +55,40 @@ namespace Zenject {
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<UnityEngine.SceneManagement.Scene,Zenject.SceneContext> _map
     System::Collections::Generic::Dictionary_2<UnityEngine::SceneManagement::Scene, Zenject::SceneContext*>*& dyn__map();
     // public System.Collections.Generic.IEnumerable`1<Zenject.SceneContext> get_SceneContexts()
-    // Offset: 0x1881AFC
+    // Offset: 0x18E2FD0
     System::Collections::Generic::IEnumerable_1<Zenject::SceneContext*>* get_SceneContexts();
     // public System.Void Add(Zenject.SceneContext context)
-    // Offset: 0x1885188
+    // Offset: 0x18E7394
     void Add(Zenject::SceneContext* context);
     // public Zenject.SceneContext GetSceneContextForScene(System.String name)
-    // Offset: 0x188525C
+    // Offset: 0x18E7468
     Zenject::SceneContext* GetSceneContextForScene(::Il2CppString* name);
     // public Zenject.SceneContext GetSceneContextForScene(UnityEngine.SceneManagement.Scene scene)
-    // Offset: 0x1885310
+    // Offset: 0x18E751C
     Zenject::SceneContext* GetSceneContextForScene(UnityEngine::SceneManagement::Scene scene);
     // public Zenject.SceneContext TryGetSceneContextForScene(System.String name)
-    // Offset: 0x1885378
+    // Offset: 0x18E7584
     Zenject::SceneContext* TryGetSceneContextForScene(::Il2CppString* name);
     // public Zenject.SceneContext TryGetSceneContextForScene(UnityEngine.SceneManagement.Scene scene)
-    // Offset: 0x188542C
+    // Offset: 0x18E7638
     Zenject::SceneContext* TryGetSceneContextForScene(UnityEngine::SceneManagement::Scene scene);
     // public Zenject.DiContainer GetContainerForScene(UnityEngine.SceneManagement.Scene scene)
-    // Offset: 0x18854AC
+    // Offset: 0x18E76B8
     Zenject::DiContainer* GetContainerForScene(UnityEngine::SceneManagement::Scene scene);
     // public Zenject.DiContainer TryGetContainerForScene(UnityEngine.SceneManagement.Scene scene)
-    // Offset: 0x1885580
+    // Offset: 0x18E778C
     Zenject::DiContainer* TryGetContainerForScene(UnityEngine::SceneManagement::Scene scene);
     // public System.Void Remove(Zenject.SceneContext context)
-    // Offset: 0x1885680
+    // Offset: 0x18E788C
     void Remove(Zenject::SceneContext* context);
+    // static private System.Object __zenCreate(System.Object[] P_0)
+    // Offset: 0x18E7A38
+    static ::Il2CppObject* __zenCreate(::Array<::Il2CppObject*>* P_0);
+    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
+    // Offset: 0x18E7A90
+    static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
-    // Offset: 0x18857BC
+    // Offset: 0x18E79C8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -105,7 +101,8 @@ namespace Zenject {
   static check_size<sizeof(SceneContextRegistry), 16 + sizeof(System::Collections::Generic::Dictionary_2<UnityEngine::SceneManagement::Scene, Zenject::SceneContext*>*)> __Zenject_SceneContextRegistrySizeCheck;
   static_assert(sizeof(SceneContextRegistry) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Zenject::SceneContextRegistry*, "Zenject", "SceneContextRegistry");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::SceneContextRegistry::get_SceneContexts
 // Il2CppName: get_SceneContexts
 template<>
@@ -184,6 +181,23 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
   static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("Zenject", "SceneContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::SceneContextRegistry*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context});
+  }
+};
+// Writing MetadataGetter for method: Zenject::SceneContextRegistry::__zenCreate
+// Il2CppName: __zenCreate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Array<::Il2CppObject*>*)>(&Zenject::SceneContextRegistry::__zenCreate)> {
+  static const MethodInfo* get() {
+    static auto* P_0 = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::SceneContextRegistry*), "__zenCreate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{P_0});
+  }
+};
+// Writing MetadataGetter for method: Zenject::SceneContextRegistry::__zenCreateInjectTypeInfo
+// Il2CppName: __zenCreateInjectTypeInfo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo* (*)()>(&Zenject::SceneContextRegistry::__zenCreateInjectTypeInfo)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::SceneContextRegistry*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: Zenject::SceneContextRegistry::New_ctor

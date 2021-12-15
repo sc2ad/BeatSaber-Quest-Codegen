@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MasterServer.MessageHandler
 #include "MasterServer/MessageHandler.hpp"
 // Including type: System.IDisposable
@@ -13,20 +13,11 @@
 #include "GlobalNamespace/EncryptionUtility.hpp"
 // Including type: System.UInt32
 #include "System/UInt32.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: MasterServer
-namespace MasterServer {
-  // Forward declaring type: ConnectionState
-  class ConnectionState;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(MasterServer::MessageHandler::ConnectionState);
-DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::ConnectionState*, "MasterServer", "MessageHandler/ConnectionState");
 // Type namespace: MasterServer
 namespace MasterServer {
   // Size: 0x50
@@ -35,11 +26,6 @@ namespace MasterServer {
   // [TokenAttribute] Offset: FFFFFFFF
   class MessageHandler::ConnectionState : public ::Il2CppObject/*, public System::IDisposable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.String _userId
     // Size: 0x8
     // Offset: 0x10
@@ -95,9 +81,9 @@ namespace MasterServer {
     // private readonly System.Boolean[] _receivedRequest
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayW<bool> receivedRequest;
+    ::Array<bool>* receivedRequest;
     // Field size check
-    static_assert(sizeof(::ArrayW<bool>) == 0x8);
+    static_assert(sizeof(::Array<bool>*) == 0x8);
     // private System.UInt32 _currentRequestId
     // Size: 0x4
     // Offset: 0x48
@@ -110,7 +96,8 @@ namespace MasterServer {
     uint currentEpoch;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
-    public:
+    // Creating value type constructor for type: ConnectionState
+    ConnectionState(::Il2CppString* userId_ = {}, ::Il2CppString* userName_ = {}, uint protocolVersion_ = {}, bool hasIdentity_ = {}, GlobalNamespace::EncryptionUtility::IEncryptionState* encryptionState_ = {}, int lastReceivedRequestIndex_ = {}, uint lastReceivedRequestId_ = {}, int receivedRequestCount_ = {}, ::Array<bool>* receivedRequest_ = {}, uint currentRequestId_ = {}, uint currentEpoch_ = {}) noexcept : userId{userId_}, userName{userName_}, protocolVersion{protocolVersion_}, hasIdentity{hasIdentity_}, encryptionState{encryptionState_}, lastReceivedRequestIndex{lastReceivedRequestIndex_}, lastReceivedRequestId{lastReceivedRequestId_}, receivedRequestCount{receivedRequestCount_}, receivedRequest{receivedRequest_}, currentRequestId{currentRequestId_}, currentEpoch{currentEpoch_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
@@ -162,49 +149,49 @@ namespace MasterServer {
     // Get instance field reference: private System.Int32 _receivedRequestCount
     int& dyn__receivedRequestCount();
     // Get instance field reference: private readonly System.Boolean[] _receivedRequest
-    ::ArrayW<bool>& dyn__receivedRequest();
+    ::Array<bool>*& dyn__receivedRequest();
     // Get instance field reference: private System.UInt32 _currentRequestId
     uint& dyn__currentRequestId();
     // Get instance field reference: private System.UInt32 _currentEpoch
     uint& dyn__currentEpoch();
     // public System.Boolean get_isEncrypted()
-    // Offset: 0x12F2528
+    // Offset: 0x14B8A8C
     bool get_isEncrypted();
     // public System.UInt32 GetNextRequestId()
-    // Offset: 0x12F2318
+    // Offset: 0x14B8910
     uint GetNextRequestId();
     // public System.Void BeginSession()
-    // Offset: 0x12F2220
+    // Offset: 0x14B8818
     void BeginSession();
     // public System.Boolean IsValidSessionStartRequestId(System.UInt32 requestId)
-    // Offset: 0x12F2458
+    // Offset: 0x14B8A50
     bool IsValidSessionStartRequestId(uint requestId);
     // public System.Void BeginSession(System.UInt32 requestId)
-    // Offset: 0x12F22E0
+    // Offset: 0x14B88D8
     void BeginSession(uint requestId);
     // private System.Void SetEpoch(System.UInt32 epoch)
-    // Offset: 0x12F3E0C
+    // Offset: 0x14BA2C0
     void SetEpoch(uint epoch);
     // public System.Boolean CanAcceptRequest(System.UInt32 requestId)
-    // Offset: 0x12F0914
+    // Offset: 0x14B6F0C
     bool CanAcceptRequest(uint requestId);
     // public System.Void SetEncryptionState(EncryptionUtility/IEncryptionState encryptionState)
-    // Offset: 0x12F3E30
+    // Offset: 0x14BA2E4
     void SetEncryptionState(GlobalNamespace::EncryptionUtility::IEncryptionState* encryptionState);
     // public System.Void SetIdentity(System.UInt32 protocolVersion, System.String userId, System.String userName)
-    // Offset: 0x12F3E38
+    // Offset: 0x14BA2EC
     void SetIdentity(uint protocolVersion, ::Il2CppString* userId, ::Il2CppString* userName);
     // public System.Boolean VerifyIdentity(System.UInt32 protocolVersion, System.String userId, System.String userName)
-    // Offset: 0x12F3E4C
+    // Offset: 0x14BA300
     bool VerifyIdentity(uint protocolVersion, ::Il2CppString* userId, ::Il2CppString* userName);
     // public System.Void Dispose()
-    // Offset: 0x12F3EBC
+    // Offset: 0x14BA370
     void Dispose();
     // static private System.Void LogD(System.String message)
-    // Offset: 0x12F3ECC
+    // Offset: 0x14BA380
     static void LogD(::Il2CppString* message);
     // public System.Void .ctor()
-    // Offset: 0x12F2334
+    // Offset: 0x14B892C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -217,7 +204,8 @@ namespace MasterServer {
   static check_size<sizeof(MessageHandler::ConnectionState), 76 + sizeof(uint)> __MasterServer_MessageHandler_ConnectionStateSizeCheck;
   static_assert(sizeof(MessageHandler::ConnectionState) == 0x50);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::ConnectionState*, "MasterServer", "MessageHandler/ConnectionState");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: MasterServer::MessageHandler::ConnectionState::get_isEncrypted
 // Il2CppName: get_isEncrypted
 template<>

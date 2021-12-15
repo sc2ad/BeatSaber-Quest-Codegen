@@ -3,20 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Security.DigestUtilities
 #include "Org/BouncyCastle/Security/DigestUtilities.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: Org.BouncyCastle.Security
-namespace Org::BouncyCastle::Security {
-  // Forward declaring type: DigestAlgorithm
-  struct DigestAlgorithm;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Security::DigestUtilities::DigestAlgorithm, "Org.BouncyCastle.Security", "DigestUtilities/DigestAlgorithm");
 // Type namespace: Org.BouncyCastle.Security
 namespace Org::BouncyCastle::Security {
   // Size: 0x4
@@ -25,18 +18,12 @@ namespace Org::BouncyCastle::Security {
   // [TokenAttribute] Offset: FFFFFFFF
   struct DigestUtilities::DigestAlgorithm/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: DigestAlgorithm
     constexpr DigestAlgorithm(int value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -312,4 +299,6 @@ namespace Org::BouncyCastle::Security {
   static check_size<sizeof(DigestUtilities::DigestAlgorithm), 0 + sizeof(int)> __Org_BouncyCastle_Security_DigestUtilities_DigestAlgorithmSizeCheck;
   static_assert(sizeof(DigestUtilities::DigestAlgorithm) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Security::DigestUtilities::DigestAlgorithm, "Org.BouncyCastle.Security", "DigestUtilities/DigestAlgorithm");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

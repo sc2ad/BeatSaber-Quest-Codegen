@@ -3,24 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Math.EC.Rfc8032.Ed25519
 #include "Org/BouncyCastle/Math/EC/Rfc8032/Ed25519.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Org.BouncyCastle.Math.EC.Rfc8032
-namespace Org::BouncyCastle::Math::EC::Rfc8032 {
-  // Forward declaring type: PointAccum
-  class PointAccum;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointAccum);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointAccum*, "Org.BouncyCastle.Math.EC.Rfc8032", "Ed25519/PointAccum");
 // Type namespace: Org.BouncyCastle.Math.EC.Rfc8032
 namespace Org::BouncyCastle::Math::EC::Rfc8032 {
   // Size: 0x38
@@ -29,54 +20,50 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
   // [TokenAttribute] Offset: FFFFFFFF
   class Ed25519::PointAccum : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // System.Int32[] x
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<int> x;
+    ::Array<int>* x;
     // Field size check
-    static_assert(sizeof(::ArrayW<int>) == 0x8);
+    static_assert(sizeof(::Array<int>*) == 0x8);
     // System.Int32[] y
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayW<int> y;
+    ::Array<int>* y;
     // Field size check
-    static_assert(sizeof(::ArrayW<int>) == 0x8);
+    static_assert(sizeof(::Array<int>*) == 0x8);
     // System.Int32[] z
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayW<int> z;
+    ::Array<int>* z;
     // Field size check
-    static_assert(sizeof(::ArrayW<int>) == 0x8);
+    static_assert(sizeof(::Array<int>*) == 0x8);
     // System.Int32[] u
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayW<int> u;
+    ::Array<int>* u;
     // Field size check
-    static_assert(sizeof(::ArrayW<int>) == 0x8);
+    static_assert(sizeof(::Array<int>*) == 0x8);
     // System.Int32[] v
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayW<int> v;
+    ::Array<int>* v;
     // Field size check
-    static_assert(sizeof(::ArrayW<int>) == 0x8);
-    public:
+    static_assert(sizeof(::Array<int>*) == 0x8);
+    // Creating value type constructor for type: PointAccum
+    PointAccum(::Array<int>* x_ = {}, ::Array<int>* y_ = {}, ::Array<int>* z_ = {}, ::Array<int>* u_ = {}, ::Array<int>* v_ = {}) noexcept : x{x_}, y{y_}, z{z_}, u{u_}, v{v_} {}
     // Get instance field reference: System.Int32[] x
-    ::ArrayW<int>& dyn_x();
+    ::Array<int>*& dyn_x();
     // Get instance field reference: System.Int32[] y
-    ::ArrayW<int>& dyn_y();
+    ::Array<int>*& dyn_y();
     // Get instance field reference: System.Int32[] z
-    ::ArrayW<int>& dyn_z();
+    ::Array<int>*& dyn_z();
     // Get instance field reference: System.Int32[] u
-    ::ArrayW<int>& dyn_u();
+    ::Array<int>*& dyn_u();
     // Get instance field reference: System.Int32[] v
-    ::ArrayW<int>& dyn_v();
+    ::Array<int>*& dyn_v();
     // public System.Void .ctor()
-    // Offset: 0x1F75604
+    // Offset: 0x1F6AA98
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -86,10 +73,11 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
     }
   }; // Org.BouncyCastle.Math.EC.Rfc8032.Ed25519/Org.BouncyCastle.Math.EC.Rfc8032.PointAccum
   #pragma pack(pop)
-  static check_size<sizeof(Ed25519::PointAccum), 48 + sizeof(::ArrayW<int>)> __Org_BouncyCastle_Math_EC_Rfc8032_Ed25519_PointAccumSizeCheck;
+  static check_size<sizeof(Ed25519::PointAccum), 48 + sizeof(::Array<int>*)> __Org_BouncyCastle_Math_EC_Rfc8032_Ed25519_PointAccumSizeCheck;
   static_assert(sizeof(Ed25519::PointAccum) == 0x38);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointAccum*, "Org.BouncyCastle.Math.EC.Rfc8032", "Ed25519/PointAccum");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointAccum::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

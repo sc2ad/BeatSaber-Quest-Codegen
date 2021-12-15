@@ -3,14 +3,14 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -19,14 +19,6 @@ namespace GlobalNamespace {
   // Skipping declaration: RotateRingsReductionType because it is already included!
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: EnvironmentIntensityReductionOptions
-  class EnvironmentIntensityReductionOptions;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::EnvironmentIntensityReductionOptions);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentIntensityReductionOptions*, "", "EnvironmentIntensityReductionOptions");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x18
@@ -45,18 +37,12 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct CompressExpandReductionType/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: CompressExpandReductionType
       constexpr CompressExpandReductionType(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -91,18 +77,12 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct RotateRingsReductionType/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: RotateRingsReductionType
       constexpr RotateRingsReductionType(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -131,11 +111,6 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(EnvironmentIntensityReductionOptions::RotateRingsReductionType), 0 + sizeof(int)> __GlobalNamespace_EnvironmentIntensityReductionOptions_RotateRingsReductionTypeSizeCheck;
     static_assert(sizeof(EnvironmentIntensityReductionOptions::RotateRingsReductionType) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private EnvironmentIntensityReductionOptions/CompressExpandReductionType _compressExpand
     // Size: 0x4
     // Offset: 0x10
@@ -148,19 +123,20 @@ namespace GlobalNamespace {
     GlobalNamespace::EnvironmentIntensityReductionOptions::RotateRingsReductionType rotateRings;
     // Field size check
     static_assert(sizeof(GlobalNamespace::EnvironmentIntensityReductionOptions::RotateRingsReductionType) == 0x4);
-    public:
+    // Creating value type constructor for type: EnvironmentIntensityReductionOptions
+    EnvironmentIntensityReductionOptions(GlobalNamespace::EnvironmentIntensityReductionOptions::CompressExpandReductionType compressExpand_ = {}, GlobalNamespace::EnvironmentIntensityReductionOptions::RotateRingsReductionType rotateRings_ = {}) noexcept : compressExpand{compressExpand_}, rotateRings{rotateRings_} {}
     // Get instance field reference: private EnvironmentIntensityReductionOptions/CompressExpandReductionType _compressExpand
     GlobalNamespace::EnvironmentIntensityReductionOptions::CompressExpandReductionType& dyn__compressExpand();
     // Get instance field reference: private EnvironmentIntensityReductionOptions/RotateRingsReductionType _rotateRings
     GlobalNamespace::EnvironmentIntensityReductionOptions::RotateRingsReductionType& dyn__rotateRings();
     // public EnvironmentIntensityReductionOptions/CompressExpandReductionType get_compressExpand()
-    // Offset: 0x116B720
+    // Offset: 0x11DDC40
     GlobalNamespace::EnvironmentIntensityReductionOptions::CompressExpandReductionType get_compressExpand();
     // public EnvironmentIntensityReductionOptions/RotateRingsReductionType get_rotateRings()
-    // Offset: 0x116B728
+    // Offset: 0x11DDC48
     GlobalNamespace::EnvironmentIntensityReductionOptions::RotateRingsReductionType get_rotateRings();
     // public System.Void .ctor()
-    // Offset: 0x116B730
+    // Offset: 0x11DDC50
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -173,11 +149,10 @@ namespace GlobalNamespace {
   static check_size<sizeof(EnvironmentIntensityReductionOptions), 20 + sizeof(GlobalNamespace::EnvironmentIntensityReductionOptions::RotateRingsReductionType)> __GlobalNamespace_EnvironmentIntensityReductionOptionsSizeCheck;
   static_assert(sizeof(EnvironmentIntensityReductionOptions) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentIntensityReductionOptions*, "", "EnvironmentIntensityReductionOptions");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentIntensityReductionOptions::CompressExpandReductionType, "", "EnvironmentIntensityReductionOptions/CompressExpandReductionType");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentIntensityReductionOptions::RotateRingsReductionType, "", "EnvironmentIntensityReductionOptions/RotateRingsReductionType");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EnvironmentIntensityReductionOptions::get_compressExpand
 // Il2CppName: get_compressExpand
 template<>

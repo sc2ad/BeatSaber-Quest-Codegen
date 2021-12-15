@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Asn1.X509.TbsCertificateList/Org.BouncyCastle.Asn1.X509.RevokedCertificatesEnumeration
 #include "Org/BouncyCastle/Asn1/X509/TbsCertificateList_RevokedCertificatesEnumeration.hpp"
 // Including type: System.Collections.IEnumerator
 #include "System/Collections/IEnumerator.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Org.BouncyCastle.Asn1.X509
-namespace Org::BouncyCastle::Asn1::X509 {
-  // Forward declaring type: RevokedCertificatesEnumerator
-  class RevokedCertificatesEnumerator;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Asn1::X509::TbsCertificateList::RevokedCertificatesEnumeration::RevokedCertificatesEnumerator);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::TbsCertificateList::RevokedCertificatesEnumeration::RevokedCertificatesEnumerator*, "Org.BouncyCastle.Asn1.X509", "TbsCertificateList/RevokedCertificatesEnumeration/RevokedCertificatesEnumerator");
 // Type namespace: Org.BouncyCastle.Asn1.X509
 namespace Org::BouncyCastle::Asn1::X509 {
   // Size: 0x18
@@ -30,18 +22,14 @@ namespace Org::BouncyCastle::Asn1::X509 {
   // [TokenAttribute] Offset: FFFFFFFF
   class TbsCertificateList::RevokedCertificatesEnumeration::RevokedCertificatesEnumerator : public ::Il2CppObject/*, public System::Collections::IEnumerator*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private readonly System.Collections.IEnumerator e
     // Size: 0x8
     // Offset: 0x10
     System::Collections::IEnumerator* e;
     // Field size check
     static_assert(sizeof(System::Collections::IEnumerator*) == 0x8);
-    public:
+    // Creating value type constructor for type: RevokedCertificatesEnumerator
+    RevokedCertificatesEnumerator(System::Collections::IEnumerator* e_ = {}) noexcept : e{e_} {}
     // Creating interface conversion operator: operator System::Collections::IEnumerator
     operator System::Collections::IEnumerator() noexcept {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);
@@ -53,27 +41,28 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Get instance field reference: private readonly System.Collections.IEnumerator e
     System::Collections::IEnumerator*& dyn_e();
     // public System.Object get_Current()
-    // Offset: 0x1BA06A0
+    // Offset: 0x1C20598
     ::Il2CppObject* get_Current();
     // System.Void .ctor(System.Collections.IEnumerator e)
-    // Offset: 0x1BA0510
+    // Offset: 0x1C20408
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TbsCertificateList::RevokedCertificatesEnumeration::RevokedCertificatesEnumerator* New_ctor(System::Collections::IEnumerator* e) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::TbsCertificateList::RevokedCertificatesEnumeration::RevokedCertificatesEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TbsCertificateList::RevokedCertificatesEnumeration::RevokedCertificatesEnumerator*, creationType>(e)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x1BA053C
+    // Offset: 0x1C20434
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1BA05EC
+    // Offset: 0x1C204E4
     void Reset();
   }; // Org.BouncyCastle.Asn1.X509.TbsCertificateList/Org.BouncyCastle.Asn1.X509.RevokedCertificatesEnumeration/Org.BouncyCastle.Asn1.X509.RevokedCertificatesEnumerator
   #pragma pack(pop)
   static check_size<sizeof(TbsCertificateList::RevokedCertificatesEnumeration::RevokedCertificatesEnumerator), 16 + sizeof(System::Collections::IEnumerator*)> __Org_BouncyCastle_Asn1_X509_TbsCertificateList_RevokedCertificatesEnumeration_RevokedCertificatesEnumeratorSizeCheck;
   static_assert(sizeof(TbsCertificateList::RevokedCertificatesEnumeration::RevokedCertificatesEnumerator) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::TbsCertificateList::RevokedCertificatesEnumeration::RevokedCertificatesEnumerator*, "Org.BouncyCastle.Asn1.X509", "TbsCertificateList/RevokedCertificatesEnumeration/RevokedCertificatesEnumerator");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::TbsCertificateList::RevokedCertificatesEnumeration::RevokedCertificatesEnumerator::get_Current
 // Il2CppName: get_Current
 template<>

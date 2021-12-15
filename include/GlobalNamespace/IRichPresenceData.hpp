@@ -3,19 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct Il2CppString;
 // Completed il2cpp-utils forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: IRichPresenceData
-  class IRichPresenceData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::IRichPresenceData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IRichPresenceData*, "", "IRichPresenceData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -24,6 +16,8 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IRichPresenceData {
     public:
+    // Creating value type constructor for type: IRichPresenceData
+    IRichPresenceData() noexcept {}
     // public System.String get_apiName()
     // Offset: 0xFFFFFFFF
     ::Il2CppString* get_apiName();
@@ -33,7 +27,9 @@ namespace GlobalNamespace {
   }; // IRichPresenceData
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IRichPresenceData*, "", "IRichPresenceData");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::IRichPresenceData::get_apiName
 // Il2CppName: get_apiName
 template<>

@@ -3,18 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: JetBrains.Annotations
-namespace JetBrains::Annotations {
-  // Forward declaring type: CollectionAccessType
-  struct CollectionAccessType;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::CollectionAccessType, "JetBrains.Annotations", "CollectionAccessType");
 // Type namespace: JetBrains.Annotations
 namespace JetBrains::Annotations {
   // Size: 0x4
@@ -24,18 +17,12 @@ namespace JetBrains::Annotations {
   // [FlagsAttribute] Offset: FFFFFFFF
   struct CollectionAccessType/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: CollectionAccessType
     constexpr CollectionAccessType(int value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -77,4 +64,6 @@ namespace JetBrains::Annotations {
   static check_size<sizeof(CollectionAccessType), 0 + sizeof(int)> __JetBrains_Annotations_CollectionAccessTypeSizeCheck;
   static_assert(sizeof(CollectionAccessType) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::CollectionAccessType, "JetBrains.Annotations", "CollectionAccessType");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

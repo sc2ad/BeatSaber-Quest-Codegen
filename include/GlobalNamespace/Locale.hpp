@@ -3,17 +3,9 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: Locale
-  class Locale;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::Locale);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Locale*, "", "Locale");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -22,13 +14,17 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class Locale : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: Locale
+    Locale() noexcept {}
     // static public System.String GetText(System.String msg)
-    // Offset: 0x1F7B570
+    // Offset: 0x1F87858
     static ::Il2CppString* GetText(::Il2CppString* msg);
   }; // Locale
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Locale*, "", "Locale");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::Locale::GetText
 // Il2CppName: GetText
 template<>

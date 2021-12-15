@@ -3,16 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: UnityEngine.UI
-namespace UnityEngine::UI {
-  // Forward declaring type: ILayoutController
-  class ILayoutController;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::UI::ILayoutController);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ILayoutController*, "UnityEngine.UI", "ILayoutController");
 // Type namespace: UnityEngine.UI
 namespace UnityEngine::UI {
   // Size: 0x10
@@ -21,6 +13,8 @@ namespace UnityEngine::UI {
   // [TokenAttribute] Offset: FFFFFFFF
   class ILayoutController {
     public:
+    // Creating value type constructor for type: ILayoutController
+    ILayoutController() noexcept {}
     // public System.Void SetLayoutHorizontal()
     // Offset: 0xFFFFFFFF
     void SetLayoutHorizontal();
@@ -30,7 +24,9 @@ namespace UnityEngine::UI {
   }; // UnityEngine.UI.ILayoutController
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ILayoutController*, "UnityEngine.UI", "ILayoutController");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::ILayoutController::SetLayoutHorizontal
 // Il2CppName: SetLayoutHorizontal
 template<>

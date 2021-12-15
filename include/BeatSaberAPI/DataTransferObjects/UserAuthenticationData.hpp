@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BeatSaberAPI.DataTransferObjects.UserPlatform
 #include "BeatSaberAPI/DataTransferObjects/UserPlatform.hpp"
 // Including type: BeatSaberAPI.DataTransferObjects.PlatformEnviroment
 #include "BeatSaberAPI/DataTransferObjects/PlatformEnviroment.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: BeatSaberAPI.DataTransferObjects
-namespace BeatSaberAPI::DataTransferObjects {
-  // Forward declaring type: UserAuthenticationData
-  class UserAuthenticationData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(BeatSaberAPI::DataTransferObjects::UserAuthenticationData);
-DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::UserAuthenticationData*, "BeatSaberAPI.DataTransferObjects", "UserAuthenticationData");
 // Type namespace: BeatSaberAPI.DataTransferObjects
 namespace BeatSaberAPI::DataTransferObjects {
   // Size: 0x40
@@ -30,11 +22,6 @@ namespace BeatSaberAPI::DataTransferObjects {
   // [TokenAttribute] Offset: FFFFFFFF
   class UserAuthenticationData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public BeatSaberAPI.DataTransferObjects.UserPlatform userPlatform
     // Size: 0x1
     // Offset: 0x10
@@ -79,7 +66,8 @@ namespace BeatSaberAPI::DataTransferObjects {
     ::Il2CppString* publicUserDisplayName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: UserAuthenticationData
+    UserAuthenticationData(BeatSaberAPI::DataTransferObjects::UserPlatform userPlatform_ = {}, BeatSaberAPI::DataTransferObjects::PlatformEnviroment platformEnviroment_ = {}, ::Il2CppString* platformUserId_ = {}, ::Il2CppString* platformAuthToken_ = {}, ::Il2CppString* bsAuthToken_ = {}, ::Il2CppString* gameBuildVersion_ = {}, ::Il2CppString* publicUserDisplayName_ = {}) noexcept : userPlatform{userPlatform_}, platformEnviroment{platformEnviroment_}, platformUserId{platformUserId_}, platformAuthToken{platformAuthToken_}, bsAuthToken{bsAuthToken_}, gameBuildVersion{gameBuildVersion_}, publicUserDisplayName{publicUserDisplayName_} {}
     // Get instance field reference: public BeatSaberAPI.DataTransferObjects.UserPlatform userPlatform
     BeatSaberAPI::DataTransferObjects::UserPlatform& dyn_userPlatform();
     // Get instance field reference: public BeatSaberAPI.DataTransferObjects.PlatformEnviroment platformEnviroment
@@ -95,7 +83,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Get instance field reference: public System.String publicUserDisplayName
     ::Il2CppString*& dyn_publicUserDisplayName();
     // public System.Void .ctor()
-    // Offset: 0x123DDBC
+    // Offset: 0x12C79C8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -108,7 +96,8 @@ namespace BeatSaberAPI::DataTransferObjects {
   static check_size<sizeof(UserAuthenticationData), 56 + sizeof(::Il2CppString*)> __BeatSaberAPI_DataTransferObjects_UserAuthenticationDataSizeCheck;
   static_assert(sizeof(UserAuthenticationData) == 0x40);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::UserAuthenticationData*, "BeatSaberAPI.DataTransferObjects", "UserAuthenticationData");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: BeatSaberAPI::DataTransferObjects::UserAuthenticationData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

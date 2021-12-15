@@ -3,17 +3,9 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: System.IO
-namespace System::IO {
-  // Forward declaring type: __Error
-  class __Error;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::IO::__Error);
-DEFINE_IL2CPP_ARG_TYPE(System::IO::__Error*, "System.IO", "__Error");
 // Type namespace: System.IO
 namespace System::IO {
   // Size: 0x10
@@ -22,49 +14,53 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   class __Error : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: __Error
+    __Error() noexcept {}
     // static System.Void EndOfFile()
-    // Offset: 0x19EFC6C
+    // Offset: 0x1A0E31C
     static void EndOfFile();
     // static System.Void FileNotOpen()
-    // Offset: 0x19EFCEC
+    // Offset: 0x1A0E39C
     static void FileNotOpen();
     // static System.Void StreamIsClosed()
-    // Offset: 0x19EE4F0
+    // Offset: 0x1A0CBA0
     static void StreamIsClosed();
     // static System.Void MemoryStreamNotExpandable()
-    // Offset: 0x19EFD70
+    // Offset: 0x1A0E420
     static void MemoryStreamNotExpandable();
     // static System.Void ReaderClosed()
-    // Offset: 0x19EA7B0
+    // Offset: 0x1A08E60
     static void ReaderClosed();
     // static System.Void ReadNotSupported()
-    // Offset: 0x19EEAFC
+    // Offset: 0x1A0D1AC
     static void ReadNotSupported();
     // static System.Void WrongAsyncResult()
-    // Offset: 0x19EFDEC
+    // Offset: 0x1A0E49C
     static void WrongAsyncResult();
     // static System.Void EndReadCalledTwice()
-    // Offset: 0x19EFE6C
+    // Offset: 0x1A0E51C
     static void EndReadCalledTwice();
     // static System.Void EndWriteCalledTwice()
-    // Offset: 0x19EFEEC
+    // Offset: 0x1A0E59C
     static void EndWriteCalledTwice();
     // static System.String GetDisplayablePath(System.String path, System.Boolean isInvalidPath)
-    // Offset: 0x19EFF6C
+    // Offset: 0x1A0E61C
     static ::Il2CppString* GetDisplayablePath(::Il2CppString* path, bool isInvalidPath);
     // static System.Void WinIOError(System.Int32 errorCode, System.String maybeFullPath)
-    // Offset: 0x19F00A4
+    // Offset: 0x1A0E754
     static void WinIOError(int errorCode, ::Il2CppString* maybeFullPath);
     // static System.Void WriteNotSupported()
-    // Offset: 0x19EF318
+    // Offset: 0x1A0D9C8
     static void WriteNotSupported();
     // static System.Void WriterClosed()
-    // Offset: 0x19EB0A4
+    // Offset: 0x1A09754
     static void WriterClosed();
   }; // System.IO.__Error
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::IO::__Error*, "System.IO", "__Error");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::__Error::EndOfFile
 // Il2CppName: EndOfFile
 template<>

@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint
 #include "UnityEngine/ProBuilder/Poly2Tri/TriangulationPoint.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: UnityEngine.ProBuilder.Poly2Tri
-namespace UnityEngine::ProBuilder::Poly2Tri {
-  // Forward declaring type: PolygonPoint
-  class PolygonPoint;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ProBuilder::Poly2Tri::PolygonPoint);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*, "UnityEngine.ProBuilder.Poly2Tri", "PolygonPoint");
 // Type namespace: UnityEngine.ProBuilder.Poly2Tri
 namespace UnityEngine::ProBuilder::Poly2Tri {
   // Size: 0x2C
@@ -28,8 +20,10 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   // [TokenAttribute] Offset: FFFFFFFF
   class PolygonPoint : public UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint {
     public:
+    // Creating value type constructor for type: PolygonPoint
+    PolygonPoint() noexcept {}
     // public System.Void .ctor(System.Double x, System.Double y, System.Int32 index)
-    // Offset: 0x25B542C
+    // Offset: 0x2678A80
     // Implemented from: UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint
     // Base method: System.Void TriangulationPoint::.ctor(System.Double x, System.Double y, System.Int32 index)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -40,7 +34,8 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   }; // UnityEngine.ProBuilder.Poly2Tri.PolygonPoint
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*, "UnityEngine.ProBuilder.Poly2Tri", "PolygonPoint");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::PolygonPoint::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

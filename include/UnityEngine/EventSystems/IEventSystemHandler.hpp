@@ -3,16 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: UnityEngine.EventSystems
-namespace UnityEngine::EventSystems {
-  // Forward declaring type: IEventSystemHandler
-  class IEventSystemHandler;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::EventSystems::IEventSystemHandler);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::IEventSystemHandler*, "UnityEngine.EventSystems", "IEventSystemHandler");
 // Type namespace: UnityEngine.EventSystems
 namespace UnityEngine::EventSystems {
   // Size: 0x10
@@ -21,7 +13,11 @@ namespace UnityEngine::EventSystems {
   // [TokenAttribute] Offset: FFFFFFFF
   class IEventSystemHandler {
     public:
+    // Creating value type constructor for type: IEventSystemHandler
+    IEventSystemHandler() noexcept {}
   }; // UnityEngine.EventSystems.IEventSystemHandler
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::IEventSystemHandler*, "UnityEngine.EventSystems", "IEventSystemHandler");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

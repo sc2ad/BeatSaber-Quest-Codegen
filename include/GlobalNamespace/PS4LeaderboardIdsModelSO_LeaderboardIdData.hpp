@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PS4LeaderboardIdsModelSO
 #include "GlobalNamespace/PS4LeaderboardIdsModelSO.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: LeaderboardIdData
-  class LeaderboardIdData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::PS4LeaderboardIdsModelSO::LeaderboardIdData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4LeaderboardIdsModelSO::LeaderboardIdData*, "", "PS4LeaderboardIdsModelSO/LeaderboardIdData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -28,11 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PS4LeaderboardIdsModelSO::LeaderboardIdData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.UInt32 _ps4LeaderboardId
     // Size: 0x4
     // Offset: 0x10
@@ -47,19 +34,20 @@ namespace GlobalNamespace {
     ::Il2CppString* leaderboardId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: LeaderboardIdData
+    LeaderboardIdData(uint ps4LeaderboardId_ = {}, ::Il2CppString* leaderboardId_ = {}) noexcept : ps4LeaderboardId{ps4LeaderboardId_}, leaderboardId{leaderboardId_} {}
     // Get instance field reference: private System.UInt32 _ps4LeaderboardId
     uint& dyn__ps4LeaderboardId();
     // Get instance field reference: private System.String _leaderboardId
     ::Il2CppString*& dyn__leaderboardId();
     // public System.UInt32 get_ps4LeaderboardId()
-    // Offset: 0x110C238
+    // Offset: 0x1147A34
     uint get_ps4LeaderboardId();
     // public System.String get_leaderboardId()
-    // Offset: 0x110C240
+    // Offset: 0x1147A3C
     ::Il2CppString* get_leaderboardId();
     // public System.Void .ctor(System.UInt32 ps4LeaderboardId, System.String leaderboardId)
-    // Offset: 0x110C248
+    // Offset: 0x1147A44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PS4LeaderboardIdsModelSO::LeaderboardIdData* New_ctor(uint ps4LeaderboardId, ::Il2CppString* leaderboardId) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PS4LeaderboardIdsModelSO::LeaderboardIdData::.ctor");
@@ -70,7 +58,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(PS4LeaderboardIdsModelSO::LeaderboardIdData), 24 + sizeof(::Il2CppString*)> __GlobalNamespace_PS4LeaderboardIdsModelSO_LeaderboardIdDataSizeCheck;
   static_assert(sizeof(PS4LeaderboardIdsModelSO::LeaderboardIdData) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4LeaderboardIdsModelSO::LeaderboardIdData*, "", "PS4LeaderboardIdsModelSO/LeaderboardIdData");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PS4LeaderboardIdsModelSO::LeaderboardIdData::get_ps4LeaderboardId
 // Il2CppName: get_ps4LeaderboardId
 template<>

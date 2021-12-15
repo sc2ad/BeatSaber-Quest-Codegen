@@ -3,26 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IDisposable
 #include "System/IDisposable.hpp"
 // Including type: System.Guid
 #include "System/Guid.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Diagnostics.Tracing
-namespace System::Diagnostics::Tracing {
-  // Forward declaring type: EventSource
-  class EventSource;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Diagnostics::Tracing::EventSource);
-DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventSource*, "System.Diagnostics.Tracing", "EventSource");
 // Type namespace: System.Diagnostics.Tracing
 namespace System::Diagnostics::Tracing {
   // Size: 0x10
@@ -31,6 +22,8 @@ namespace System::Diagnostics::Tracing {
   // [TokenAttribute] Offset: FFFFFFFF
   class EventSource : public ::Il2CppObject/*, public System::IDisposable*/ {
     public:
+    // Creating value type constructor for type: EventSource
+    EventSource() noexcept {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
@@ -40,24 +33,24 @@ namespace System::Diagnostics::Tracing {
     // Set static field: static private System.Byte m_EventSourceExceptionRecurenceCount
     static void _set_m_EventSourceExceptionRecurenceCount(uint8_t value);
     // Get static field: static private readonly System.Byte[] namespaceBytes
-    static ::ArrayW<uint8_t> _get_namespaceBytes();
+    static ::Array<uint8_t>* _get_namespaceBytes();
     // Set static field: static private readonly System.Byte[] namespaceBytes
-    static void _set_namespaceBytes(::ArrayW<uint8_t> value);
+    static void _set_namespaceBytes(::Array<uint8_t>* value);
     // Get static field: static private readonly System.Guid AspNetEventSourceGuid
     static System::Guid _get_AspNetEventSourceGuid();
     // Set static field: static private readonly System.Guid AspNetEventSourceGuid
     static void _set_AspNetEventSourceGuid(System::Guid value);
     // static private System.Void .cctor()
-    // Offset: 0x1984B00
+    // Offset: 0x19A31B0
     static void _cctor();
     // public System.Boolean IsEnabled()
-    // Offset: 0x1984A7C
+    // Offset: 0x19A312C
     bool IsEnabled();
     // public System.Void Dispose()
-    // Offset: 0x1984AF8
+    // Offset: 0x19A31A8
     void Dispose();
     // protected System.Void .ctor()
-    // Offset: 0x1984AF0
+    // Offset: 0x19A31A0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -66,19 +59,20 @@ namespace System::Diagnostics::Tracing {
       return THROW_UNLESS((::il2cpp_utils::New<EventSource*, creationType>()));
     }
     // public override System.String ToString()
-    // Offset: 0x1984A84
+    // Offset: 0x19A3134
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // protected override System.Void Finalize()
-    // Offset: 0x1984AFC
+    // Offset: 0x19A31AC
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
   }; // System.Diagnostics.Tracing.EventSource
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventSource*, "System.Diagnostics.Tracing", "EventSource");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Diagnostics::Tracing::EventSource::_cctor
 // Il2CppName: .cctor
 template<>

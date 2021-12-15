@@ -3,14 +3,14 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.UI.Toggle
 #include "UnityEngine/UI/Toggle.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HMUI
@@ -24,14 +24,6 @@ namespace System {
   class Action_1;
 }
 // Completed forward declares
-// Type namespace: HMUI
-namespace HMUI {
-  // Forward declaring type: ToggleWithCallbacks
-  class ToggleWithCallbacks;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HMUI::ToggleWithCallbacks);
-DEFINE_IL2CPP_ARG_TYPE(HMUI::ToggleWithCallbacks*, "HMUI", "ToggleWithCallbacks");
 // Type namespace: HMUI
 namespace HMUI {
   // Size: 0x128
@@ -50,18 +42,12 @@ namespace HMUI {
     // [TokenAttribute] Offset: FFFFFFFF
     struct SelectionState/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: SelectionState
       constexpr SelectionState(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -108,31 +94,27 @@ namespace HMUI {
     #pragma pack(pop)
     static check_size<sizeof(ToggleWithCallbacks::SelectionState), 0 + sizeof(int)> __HMUI_ToggleWithCallbacks_SelectionStateSizeCheck;
     static_assert(sizeof(ToggleWithCallbacks::SelectionState) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Action`1<HMUI.ToggleWithCallbacks/HMUI.SelectionState> stateDidChangeEvent
     // Size: 0x8
     // Offset: 0x120
     System::Action_1<HMUI::ToggleWithCallbacks::SelectionState>* stateDidChangeEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<HMUI::ToggleWithCallbacks::SelectionState>*) == 0x8);
-    public:
+    // Creating value type constructor for type: ToggleWithCallbacks
+    ToggleWithCallbacks(System::Action_1<HMUI::ToggleWithCallbacks::SelectionState>* stateDidChangeEvent_ = {}) noexcept : stateDidChangeEvent{stateDidChangeEvent_} {}
     // Get instance field reference: private System.Action`1<HMUI.ToggleWithCallbacks/HMUI.SelectionState> stateDidChangeEvent
     System::Action_1<HMUI::ToggleWithCallbacks::SelectionState>*& dyn_stateDidChangeEvent();
     // public HMUI.ToggleWithCallbacks/HMUI.SelectionState get_selectionState()
-    // Offset: 0x1401888
+    // Offset: 0x14D00F4
     HMUI::ToggleWithCallbacks::SelectionState get_selectionState();
     // public System.Void add_stateDidChangeEvent(System.Action`1<HMUI.ToggleWithCallbacks/HMUI.SelectionState> value)
-    // Offset: 0x1401520
+    // Offset: 0x14CFD8C
     void add_stateDidChangeEvent(System::Action_1<HMUI::ToggleWithCallbacks::SelectionState>* value);
     // public System.Void remove_stateDidChangeEvent(System.Action`1<HMUI.ToggleWithCallbacks/HMUI.SelectionState> value)
-    // Offset: 0x14017D8
+    // Offset: 0x14D0044
     void remove_stateDidChangeEvent(System::Action_1<HMUI::ToggleWithCallbacks::SelectionState>* value);
     // public System.Void .ctor()
-    // Offset: 0x1405BA0
+    // Offset: 0x14D4404
     // Implemented from: UnityEngine.UI.Toggle
     // Base method: System.Void Toggle::.ctor()
     // Base method: System.Void Selectable::.ctor()
@@ -148,7 +130,7 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<ToggleWithCallbacks*, creationType>()));
     }
     // protected override System.Void DoStateTransition(UnityEngine.UI.Selectable/UnityEngine.UI.SelectionState state, System.Boolean instant)
-    // Offset: 0x1405B14
+    // Offset: 0x14D4378
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::DoStateTransition(UnityEngine.UI.Selectable/UnityEngine.UI.SelectionState state, System.Boolean instant)
     void DoStateTransition(UnityEngine::UI::Selectable::SelectionState state, bool instant);
@@ -157,9 +139,9 @@ namespace HMUI {
   static check_size<sizeof(ToggleWithCallbacks), 288 + sizeof(System::Action_1<HMUI::ToggleWithCallbacks::SelectionState>*)> __HMUI_ToggleWithCallbacksSizeCheck;
   static_assert(sizeof(ToggleWithCallbacks) == 0x128);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HMUI::ToggleWithCallbacks*, "HMUI", "ToggleWithCallbacks");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ToggleWithCallbacks::SelectionState, "HMUI", "ToggleWithCallbacks/SelectionState");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::ToggleWithCallbacks::get_selectionState
 // Il2CppName: get_selectionState
 template<>

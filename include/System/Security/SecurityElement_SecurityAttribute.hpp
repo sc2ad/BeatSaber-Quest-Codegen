@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Security.SecurityElement
 #include "System/Security/SecurityElement.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Security
-namespace System::Security {
-  // Forward declaring type: SecurityAttribute
-  class SecurityAttribute;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Security::SecurityElement::SecurityAttribute);
-DEFINE_IL2CPP_ARG_TYPE(System::Security::SecurityElement::SecurityAttribute*, "System.Security", "SecurityElement/SecurityAttribute");
 // Type namespace: System.Security
 namespace System::Security {
   // Size: 0x20
@@ -28,11 +20,6 @@ namespace System::Security {
   // [TokenAttribute] Offset: FFFFFFFF
   class SecurityElement::SecurityAttribute : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.String _name
     // Size: 0x8
     // Offset: 0x10
@@ -45,19 +32,20 @@ namespace System::Security {
     ::Il2CppString* value;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: SecurityAttribute
+    SecurityAttribute(::Il2CppString* name_ = {}, ::Il2CppString* value_ = {}) noexcept : name{name_}, value{value_} {}
     // Get instance field reference: private System.String _name
     ::Il2CppString*& dyn__name();
     // Get instance field reference: private System.String _value
     ::Il2CppString*& dyn__value();
     // public System.String get_Name()
-    // Offset: 0x1CB7A94
+    // Offset: 0x1D274FC
     ::Il2CppString* get_Name();
     // public System.String get_Value()
-    // Offset: 0x1CB7A9C
+    // Offset: 0x1D27504
     ::Il2CppString* get_Value();
     // public System.Void .ctor(System.String name, System.String value)
-    // Offset: 0x1CB6C0C
+    // Offset: 0x1D26674
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SecurityElement::SecurityAttribute* New_ctor(::Il2CppString* name, ::Il2CppString* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::SecurityElement::SecurityAttribute::.ctor");
@@ -68,7 +56,8 @@ namespace System::Security {
   static check_size<sizeof(SecurityElement::SecurityAttribute), 24 + sizeof(::Il2CppString*)> __System_Security_SecurityElement_SecurityAttributeSizeCheck;
   static_assert(sizeof(SecurityElement::SecurityAttribute) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Security::SecurityElement::SecurityAttribute*, "System.Security", "SecurityElement/SecurityAttribute");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::SecurityElement::SecurityAttribute::get_Name
 // Il2CppName: get_Name
 template<>

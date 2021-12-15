@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LiteNetLib.NatPunchModule
 #include "LiteNetLib/NatPunchModule.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: LiteNetLib
-namespace LiteNetLib {
-  // Forward declaring type: NatPunchPacket
-  class NatPunchPacket;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(LiteNetLib::NatPunchModule::NatPunchPacket);
-DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NatPunchModule::NatPunchPacket*, "LiteNetLib", "NatPunchModule/NatPunchPacket");
 // Type namespace: LiteNetLib
 namespace LiteNetLib {
   // Size: 0x19
@@ -28,11 +20,6 @@ namespace LiteNetLib {
   // [TokenAttribute] Offset: FFFFFFFF
   class NatPunchModule::NatPunchPacket : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.String <Token>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -45,25 +32,26 @@ namespace LiteNetLib {
     bool IsExternal;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: NatPunchPacket
+    NatPunchPacket(::Il2CppString* Token_ = {}, bool IsExternal_ = {}) noexcept : Token{Token_}, IsExternal{IsExternal_} {}
     // Get instance field reference: private System.String <Token>k__BackingField
     ::Il2CppString*& dyn_$Token$k__BackingField();
     // Get instance field reference: private System.Boolean <IsExternal>k__BackingField
     bool& dyn_$IsExternal$k__BackingField();
     // public System.String get_Token()
-    // Offset: 0x1DBC334
+    // Offset: 0x1DC66A4
     ::Il2CppString* get_Token();
     // public System.Void set_Token(System.String value)
-    // Offset: 0x1DBC33C
+    // Offset: 0x1DC66AC
     void set_Token(::Il2CppString* value);
     // public System.Boolean get_IsExternal()
-    // Offset: 0x1DBC344
+    // Offset: 0x1DC66B4
     bool get_IsExternal();
     // public System.Void set_IsExternal(System.Boolean value)
-    // Offset: 0x1DBC34C
+    // Offset: 0x1DC66BC
     void set_IsExternal(bool value);
     // public System.Void .ctor()
-    // Offset: 0x1DBBE00
+    // Offset: 0x1DC6170
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -76,7 +64,8 @@ namespace LiteNetLib {
   static check_size<sizeof(NatPunchModule::NatPunchPacket), 24 + sizeof(bool)> __LiteNetLib_NatPunchModule_NatPunchPacketSizeCheck;
   static_assert(sizeof(NatPunchModule::NatPunchPacket) == 0x19);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NatPunchModule::NatPunchPacket*, "LiteNetLib", "NatPunchModule/NatPunchPacket");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::NatPunchModule::NatPunchPacket::get_Token
 // Il2CppName: get_Token
 template<>

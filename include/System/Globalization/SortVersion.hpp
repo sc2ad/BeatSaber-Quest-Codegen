@@ -3,19 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Guid
 #include "System/Guid.hpp"
 // Completed includes
-// Type namespace: System.Globalization
-namespace System::Globalization {
-  // Forward declaring type: SortVersion
-  class SortVersion;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Globalization::SortVersion);
-DEFINE_IL2CPP_ARG_TYPE(System::Globalization::SortVersion*, "System.Globalization", "SortVersion");
 // Type namespace: System.Globalization
 namespace System::Globalization {
   // Size: 0x24
@@ -24,11 +16,6 @@ namespace System::Globalization {
   // [TokenAttribute] Offset: FFFFFFFF
   class SortVersion : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Int32 m_NlsVersion
     // Size: 0x4
     // Offset: 0x10
@@ -41,7 +28,8 @@ namespace System::Globalization {
     System::Guid m_SortId;
     // Field size check
     static_assert(sizeof(System::Guid) == 0x10);
-    public:
+    // Creating value type constructor for type: SortVersion
+    SortVersion(int m_NlsVersion_ = {}, System::Guid m_SortId_ = {}) noexcept : m_NlsVersion{m_NlsVersion_}, m_SortId{m_SortId_} {}
     // Get instance field reference: private System.Int32 m_NlsVersion
     int& dyn_m_NlsVersion();
     // Get instance field reference: private System.Guid m_SortId
@@ -51,4 +39,6 @@ namespace System::Globalization {
   static check_size<sizeof(SortVersion), 20 + sizeof(System::Guid)> __System_Globalization_SortVersionSizeCheck;
   static_assert(sizeof(SortVersion) == 0x24);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Globalization::SortVersion*, "System.Globalization", "SortVersion");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: SongPreviewPlayer
 #include "GlobalNamespace/SongPreviewPlayer.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: AudioSourceParams
-  class AudioSourceParams;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::SongPreviewPlayer::AudioSourceParams);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPreviewPlayer::AudioSourceParams*, "", "SongPreviewPlayer/AudioSourceParams");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x28
@@ -30,39 +22,35 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SongPreviewPlayer::AudioSourceParams : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private UnityEngine.Vector3 _position
     // Size: 0xC
     // Offset: 0x10
     UnityEngine::Vector3 position;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // [RangeAttribute] Offset: 0xF153B8
+    // [RangeAttribute] Offset: 0xF4AF08
     // private System.Single _reverbZoneMix
     // Size: 0x4
     // Offset: 0x1C
     float reverbZoneMix;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0xF153FC
+    // [RangeAttribute] Offset: 0xF4AF4C
     // private System.Single _spatialBlend
     // Size: 0x4
     // Offset: 0x20
     float spatialBlend;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0xF1543C
+    // [RangeAttribute] Offset: 0xF4AF8C
     // private System.Single _spread
     // Size: 0x4
     // Offset: 0x24
     float spread;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
+    // Creating value type constructor for type: AudioSourceParams
+    AudioSourceParams(UnityEngine::Vector3 position_ = {}, float reverbZoneMix_ = {}, float spatialBlend_ = {}, float spread_ = {}) noexcept : position{position_}, reverbZoneMix{reverbZoneMix_}, spatialBlend{spatialBlend_}, spread{spread_} {}
     // Get instance field reference: private UnityEngine.Vector3 _position
     UnityEngine::Vector3& dyn__position();
     // Get instance field reference: private System.Single _reverbZoneMix
@@ -72,19 +60,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _spread
     float& dyn__spread();
     // public UnityEngine.Vector3 get_position()
-    // Offset: 0x1149AE0
+    // Offset: 0x1218C58
     UnityEngine::Vector3 get_position();
     // public System.Single get_reverbZoneMix()
-    // Offset: 0x1149AEC
+    // Offset: 0x1218C64
     float get_reverbZoneMix();
     // public System.Single get_spatialBlend()
-    // Offset: 0x1149AF4
+    // Offset: 0x1218C6C
     float get_spatialBlend();
     // public System.Single get_spread()
-    // Offset: 0x1149AFC
+    // Offset: 0x1218C74
     float get_spread();
     // public System.Void .ctor()
-    // Offset: 0x1149B04
+    // Offset: 0x1218C7C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -97,7 +85,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(SongPreviewPlayer::AudioSourceParams), 36 + sizeof(float)> __GlobalNamespace_SongPreviewPlayer_AudioSourceParamsSizeCheck;
   static_assert(sizeof(SongPreviewPlayer::AudioSourceParams) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPreviewPlayer::AudioSourceParams*, "", "SongPreviewPlayer/AudioSourceParams");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SongPreviewPlayer::AudioSourceParams::get_position
 // Il2CppName: get_position
 template<>

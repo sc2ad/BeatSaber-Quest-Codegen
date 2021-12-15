@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: UnityEngine.EventSystems
-namespace UnityEngine::EventSystems {
-  // Forward declaring type: UIBehaviour
-  class UIBehaviour;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::EventSystems::UIBehaviour);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::UIBehaviour*, "UnityEngine.EventSystems", "UIBehaviour");
 // Type namespace: UnityEngine.EventSystems
 namespace UnityEngine::EventSystems {
   // Size: 0x18
@@ -28,47 +20,49 @@ namespace UnityEngine::EventSystems {
   // [TokenAttribute] Offset: FFFFFFFF
   class UIBehaviour : public UnityEngine::MonoBehaviour {
     public:
+    // Creating value type constructor for type: UIBehaviour
+    UIBehaviour() noexcept {}
     // protected System.Void Awake()
-    // Offset: 0x15DCBB4
+    // Offset: 0x166BEA8
     void Awake();
     // protected System.Void OnEnable()
-    // Offset: 0x15D2244
+    // Offset: 0x1661538
     void OnEnable();
     // protected System.Void Start()
-    // Offset: 0x15DCBB8
+    // Offset: 0x166BEAC
     void Start();
     // protected System.Void OnDisable()
-    // Offset: 0x15D23AC
+    // Offset: 0x16616A0
     void OnDisable();
     // protected System.Void OnDestroy()
-    // Offset: 0x15DCBBC
+    // Offset: 0x166BEB0
     void OnDestroy();
     // public System.Boolean IsActive()
-    // Offset: 0x15DCBC0
+    // Offset: 0x166BEB4
     bool IsActive();
     // protected System.Void OnRectTransformDimensionsChange()
-    // Offset: 0x15DCBC8
+    // Offset: 0x166BEBC
     void OnRectTransformDimensionsChange();
     // protected System.Void OnBeforeTransformParentChanged()
-    // Offset: 0x15DCBCC
+    // Offset: 0x166BEC0
     void OnBeforeTransformParentChanged();
     // protected System.Void OnTransformParentChanged()
-    // Offset: 0x15D355C
+    // Offset: 0x1662850
     void OnTransformParentChanged();
     // protected System.Void OnDidApplyAnimationProperties()
-    // Offset: 0x15DCBD0
+    // Offset: 0x166BEC4
     void OnDidApplyAnimationProperties();
     // protected System.Void OnCanvasGroupChanged()
-    // Offset: 0x15DCBD4
+    // Offset: 0x166BEC8
     void OnCanvasGroupChanged();
     // protected System.Void OnCanvasHierarchyChanged()
-    // Offset: 0x15D3550
+    // Offset: 0x1662844
     void OnCanvasHierarchyChanged();
     // public System.Boolean IsDestroyed()
-    // Offset: 0x15DCBD8
+    // Offset: 0x166BECC
     bool IsDestroyed();
     // protected System.Void .ctor()
-    // Offset: 0x15D1FA4
+    // Offset: 0x1661298
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -83,7 +77,8 @@ namespace UnityEngine::EventSystems {
   }; // UnityEngine.EventSystems.UIBehaviour
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::UIBehaviour*, "UnityEngine.EventSystems", "UIBehaviour");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::EventSystems::UIBehaviour::Awake
 // Il2CppName: Awake
 template<>

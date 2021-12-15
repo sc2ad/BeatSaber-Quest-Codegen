@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PlayerSaveDataV1_0_1
 #include "GlobalNamespace/PlayerSaveDataV1_0_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: PlayerSpecificSettings
-  class PlayerSpecificSettings;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::PlayerSaveDataV1_0_1::PlayerSpecificSettings);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveDataV1_0_1::PlayerSpecificSettings*, "", "PlayerSaveDataV1_0_1/PlayerSpecificSettings");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x1C
@@ -28,11 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayerSaveDataV1_0_1::PlayerSpecificSettings : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Boolean staticLights
     // Size: 0x1
     // Offset: 0x10
@@ -83,7 +70,8 @@ namespace GlobalNamespace {
     bool noTextsAndHuds;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: PlayerSpecificSettings
+    PlayerSpecificSettings(bool staticLights_ = {}, bool leftHanded_ = {}, bool swapColors_ = {}, float playerHeight_ = {}, bool disableSFX_ = {}, bool reduceDebris_ = {}, bool advancedHud_ = {}, bool noTextsAndHuds_ = {}) noexcept : staticLights{staticLights_}, leftHanded{leftHanded_}, swapColors{swapColors_}, playerHeight{playerHeight_}, disableSFX{disableSFX_}, reduceDebris{reduceDebris_}, advancedHud{advancedHud_}, noTextsAndHuds{noTextsAndHuds_} {}
     // Get instance field reference: public System.Boolean staticLights
     bool& dyn_staticLights();
     // Get instance field reference: public System.Boolean leftHanded
@@ -101,7 +89,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean noTextsAndHuds
     bool& dyn_noTextsAndHuds();
     // public System.Void .ctor()
-    // Offset: 0x12CC748
+    // Offset: 0x11AAC98
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -114,7 +102,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(PlayerSaveDataV1_0_1::PlayerSpecificSettings), 27 + sizeof(bool)> __GlobalNamespace_PlayerSaveDataV1_0_1_PlayerSpecificSettingsSizeCheck;
   static_assert(sizeof(PlayerSaveDataV1_0_1::PlayerSpecificSettings) == 0x1C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveDataV1_0_1::PlayerSpecificSettings*, "", "PlayerSaveDataV1_0_1/PlayerSpecificSettings");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSaveDataV1_0_1::PlayerSpecificSettings::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

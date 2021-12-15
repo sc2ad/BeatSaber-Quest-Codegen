@@ -3,18 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: Oculus.Platform
-namespace Oculus::Platform {
-  // Forward declaring type: AbuseReportVideoMode
-  struct AbuseReportVideoMode;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::AbuseReportVideoMode, "Oculus.Platform", "AbuseReportVideoMode");
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
   // Size: 0x4
@@ -23,18 +16,12 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   struct AbuseReportVideoMode/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: AbuseReportVideoMode
     constexpr AbuseReportVideoMode(int value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -45,28 +32,28 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0xEE6C5C
+    // [DescriptionAttribute] Offset: 0xF29154
     // static field const value: static public Oculus.Platform.AbuseReportVideoMode Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.AbuseReportVideoMode Unknown
     static Oculus::Platform::AbuseReportVideoMode _get_Unknown();
     // Set static field: static public Oculus.Platform.AbuseReportVideoMode Unknown
     static void _set_Unknown(Oculus::Platform::AbuseReportVideoMode value);
-    // [DescriptionAttribute] Offset: 0xEE6C94
+    // [DescriptionAttribute] Offset: 0xF2918C
     // static field const value: static public Oculus.Platform.AbuseReportVideoMode Collect
     static constexpr const int Collect = 1;
     // Get static field: static public Oculus.Platform.AbuseReportVideoMode Collect
     static Oculus::Platform::AbuseReportVideoMode _get_Collect();
     // Set static field: static public Oculus.Platform.AbuseReportVideoMode Collect
     static void _set_Collect(Oculus::Platform::AbuseReportVideoMode value);
-    // [DescriptionAttribute] Offset: 0xEE6CCC
+    // [DescriptionAttribute] Offset: 0xF291C4
     // static field const value: static public Oculus.Platform.AbuseReportVideoMode Optional
     static constexpr const int Optional = 2;
     // Get static field: static public Oculus.Platform.AbuseReportVideoMode Optional
     static Oculus::Platform::AbuseReportVideoMode _get_Optional();
     // Set static field: static public Oculus.Platform.AbuseReportVideoMode Optional
     static void _set_Optional(Oculus::Platform::AbuseReportVideoMode value);
-    // [DescriptionAttribute] Offset: 0xEE6D04
+    // [DescriptionAttribute] Offset: 0xF291FC
     // static field const value: static public Oculus.Platform.AbuseReportVideoMode Skip
     static constexpr const int Skip = 3;
     // Get static field: static public Oculus.Platform.AbuseReportVideoMode Skip
@@ -80,4 +67,6 @@ namespace Oculus::Platform {
   static check_size<sizeof(AbuseReportVideoMode), 0 + sizeof(int)> __Oculus_Platform_AbuseReportVideoModeSizeCheck;
   static_assert(sizeof(AbuseReportVideoMode) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::AbuseReportVideoMode, "Oculus.Platform", "AbuseReportVideoMode");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

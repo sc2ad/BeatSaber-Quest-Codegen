@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.Http.Headers.Parser/System.Net.Http.Headers.DateTime
 #include "System/Net/Http/Headers/Parser_DateTime.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Net.Http.Headers
-namespace System::Net::Http::Headers {
-  // Forward declaring type: <>c
-  class $$c;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::Http::Headers::Parser::DateTime::$$c);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::Parser::DateTime::$$c*, "System.Net.Http.Headers", "Parser/DateTime/<>c");
 // Type namespace: System.Net.Http.Headers
 namespace System::Net::Http::Headers {
   // Size: 0x10
@@ -29,18 +21,20 @@ namespace System::Net::Http::Headers {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class Parser::DateTime::$$c : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: $$c
+    $$c() noexcept {}
     // Get static field: static public readonly System.Net.Http.Headers.Parser/System.Net.Http.Headers.DateTime/System.Net.Http.Headers.<>c <>9
     static System::Net::Http::Headers::Parser::DateTime::$$c* _get_$$9();
     // Set static field: static public readonly System.Net.Http.Headers.Parser/System.Net.Http.Headers.DateTime/System.Net.Http.Headers.<>c <>9
     static void _set_$$9(System::Net::Http::Headers::Parser::DateTime::$$c* value);
     // static private System.Void .cctor()
-    // Offset: 0x1738288
+    // Offset: 0x17C44C4
     static void _cctor();
     // System.String <.cctor>b__2_0(System.Object l)
-    // Offset: 0x17382F4
+    // Offset: 0x17C4530
     ::Il2CppString* $_cctor$b__2_0(::Il2CppObject* l);
     // public System.Void .ctor()
-    // Offset: 0x17382EC
+    // Offset: 0x17C4528
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -51,7 +45,8 @@ namespace System::Net::Http::Headers {
   }; // System.Net.Http.Headers.Parser/System.Net.Http.Headers.DateTime/System.Net.Http.Headers.<>c
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::Parser::DateTime::$$c*, "System.Net.Http.Headers", "Parser/DateTime/<>c");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Http::Headers::Parser::DateTime::$$c::_cctor
 // Il2CppName: .cctor
 template<>

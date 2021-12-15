@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: TutorialSongController
 #include "GlobalNamespace/TutorialSongController.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: InitData
-  class InitData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::TutorialSongController::InitData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialSongController::InitData*, "", "TutorialSongController/InitData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x14
@@ -28,18 +20,14 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TutorialSongController::InitData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public readonly System.Single songBpm
     // Size: 0x4
     // Offset: 0x10
     float songBpm;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
+    // Creating value type constructor for type: InitData
+    InitData(float songBpm_ = {}) noexcept : songBpm{songBpm_} {}
     // Creating conversion operator: operator float
     constexpr operator float() const noexcept {
       return songBpm;
@@ -47,7 +35,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Single songBpm
     float& dyn_songBpm();
     // public System.Void .ctor(System.Single songBpm)
-    // Offset: 0x1262528
+    // Offset: 0x1208F5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TutorialSongController::InitData* New_ctor(float songBpm) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::TutorialSongController::InitData::.ctor");
@@ -58,7 +46,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(TutorialSongController::InitData), 16 + sizeof(float)> __GlobalNamespace_TutorialSongController_InitDataSizeCheck;
   static_assert(sizeof(TutorialSongController::InitData) == 0x14);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialSongController::InitData*, "", "TutorialSongController/InitData");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TutorialSongController::InitData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

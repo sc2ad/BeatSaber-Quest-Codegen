@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Runtime.ConstrainedExecution.CriticalFinalizerObject
 #include "System/Runtime/ConstrainedExecution/CriticalFinalizerObject.hpp"
 // Including type: System.IntPtr
@@ -13,20 +13,11 @@
 #include "System/Threading/ThreadState.hpp"
 // Including type: System.UIntPtr
 #include "System/UIntPtr.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Threading
-namespace System::Threading {
-  // Forward declaring type: InternalThread
-  class InternalThread;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Threading::InternalThread);
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::InternalThread*, "System.Threading", "InternalThread");
 // Type namespace: System.Threading
 namespace System::Threading {
   // Size: 0x120
@@ -36,11 +27,6 @@ namespace System::Threading {
   // [TokenAttribute] Offset: FFFFFFFF
   class InternalThread : public System::Runtime::ConstrainedExecution::CriticalFinalizerObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Int32 lock_thread_id
     // Size: 0x4
     // Offset: 0x10
@@ -138,9 +124,9 @@ namespace System::Threading {
     // System.Byte[] _serialized_principal
     // Size: 0x8
     // Offset: 0x80
-    ::ArrayW<uint8_t> serialized_principal;
+    ::Array<uint8_t>* serialized_principal;
     // Field size check
-    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
+    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
     // System.Int32 _serialized_principal_version
     // Size: 0x4
     // Offset: 0x88
@@ -291,7 +277,8 @@ namespace System::Threading {
     System::IntPtr last;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
-    public:
+    // Creating value type constructor for type: InternalThread
+    InternalThread(int lock_thread_id_ = {}, System::IntPtr handle_ = {}, System::IntPtr native_handle_ = {}, System::IntPtr unused3_ = {}, System::IntPtr name_ = {}, int name_len_ = {}, System::Threading::ThreadState state_ = {}, ::Il2CppObject* abort_exc_ = {}, int abort_state_handle_ = {}, int64_t thread_id_ = {}, System::IntPtr debugger_thread_ = {}, System::UIntPtr static_data_ = {}, System::IntPtr runtime_thread_info_ = {}, ::Il2CppObject* current_appcontext_ = {}, ::Il2CppObject* root_domain_thread_ = {}, ::Array<uint8_t>* serialized_principal_ = {}, int serialized_principal_version_ = {}, System::IntPtr appdomain_refs_ = {}, int interruption_requested_ = {}, System::IntPtr synch_cs_ = {}, bool threadpool_thread_ = {}, bool thread_interrupt_requested_ = {}, int stack_size_ = {}, uint8_t apartment_state_ = {}, int critical_region_level_ = {}, int managed_id_ = {}, int small_id_ = {}, System::IntPtr manage_callback_ = {}, System::IntPtr unused4_ = {}, System::IntPtr flags_ = {}, System::IntPtr thread_pinning_ref_ = {}, System::IntPtr abort_protected_block_count_ = {}, int priority_ = {}, System::IntPtr owned_mutex_ = {}, System::IntPtr suspended_event_ = {}, int self_suspended_ = {}, System::IntPtr unused1_ = {}, System::IntPtr unused2_ = {}, System::IntPtr last_ = {}) noexcept : lock_thread_id{lock_thread_id_}, handle{handle_}, native_handle{native_handle_}, unused3{unused3_}, name{name_}, name_len{name_len_}, state{state_}, abort_exc{abort_exc_}, abort_state_handle{abort_state_handle_}, thread_id{thread_id_}, debugger_thread{debugger_thread_}, static_data{static_data_}, runtime_thread_info{runtime_thread_info_}, current_appcontext{current_appcontext_}, root_domain_thread{root_domain_thread_}, serialized_principal{serialized_principal_}, serialized_principal_version{serialized_principal_version_}, appdomain_refs{appdomain_refs_}, interruption_requested{interruption_requested_}, synch_cs{synch_cs_}, threadpool_thread{threadpool_thread_}, thread_interrupt_requested{thread_interrupt_requested_}, stack_size{stack_size_}, apartment_state{apartment_state_}, critical_region_level{critical_region_level_}, managed_id{managed_id_}, small_id{small_id_}, manage_callback{manage_callback_}, unused4{unused4_}, flags{flags_}, thread_pinning_ref{thread_pinning_ref_}, abort_protected_block_count{abort_protected_block_count_}, priority{priority_}, owned_mutex{owned_mutex_}, suspended_event{suspended_event_}, self_suspended{self_suspended_}, unused1{unused1_}, unused2{unused2_}, last{last_} {}
     // Get instance field reference: private System.Int32 lock_thread_id
     int& dyn_lock_thread_id();
     // Get instance field reference: private System.IntPtr handle
@@ -323,7 +310,7 @@ namespace System::Threading {
     // Get instance field reference: private System.Object root_domain_thread
     ::Il2CppObject*& dyn_root_domain_thread();
     // Get instance field reference: System.Byte[] _serialized_principal
-    ::ArrayW<uint8_t>& dyn__serialized_principal();
+    ::Array<uint8_t>*& dyn__serialized_principal();
     // Get instance field reference: System.Int32 _serialized_principal_version
     int& dyn__serialized_principal_version();
     // Get instance field reference: private System.IntPtr appdomain_refs
@@ -371,10 +358,10 @@ namespace System::Threading {
     // Get instance field reference: private System.IntPtr last
     System::IntPtr& dyn_last();
     // private System.Void Thread_free_internal()
-    // Offset: 0x1A3EC48
+    // Offset: 0x1A5E368
     void Thread_free_internal();
     // public System.Void .ctor()
-    // Offset: 0x1A3ECB4
+    // Offset: 0x1A5E3D4
     // Implemented from: System.Runtime.ConstrainedExecution.CriticalFinalizerObject
     // Base method: System.Void CriticalFinalizerObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -384,7 +371,7 @@ namespace System::Threading {
       return THROW_UNLESS((::il2cpp_utils::New<InternalThread*, creationType>()));
     }
     // protected override System.Void Finalize()
-    // Offset: 0x1A3EC4C
+    // Offset: 0x1A5E36C
     // Implemented from: System.Runtime.ConstrainedExecution.CriticalFinalizerObject
     // Base method: System.Void CriticalFinalizerObject::Finalize()
     void Finalize();
@@ -393,7 +380,8 @@ namespace System::Threading {
   static check_size<sizeof(InternalThread), 280 + sizeof(System::IntPtr)> __System_Threading_InternalThreadSizeCheck;
   static_assert(sizeof(InternalThread) == 0x120);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::InternalThread*, "System.Threading", "InternalThread");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::InternalThread::Thread_free_internal
 // Il2CppName: Thread_free_internal
 template<>

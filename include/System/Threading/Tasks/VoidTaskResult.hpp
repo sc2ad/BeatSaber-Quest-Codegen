@@ -3,17 +3,10 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-// Type namespace: System.Threading.Tasks
-namespace System::Threading::Tasks {
-  // Forward declaring type: VoidTaskResult
-  struct VoidTaskResult;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::VoidTaskResult, "System.Threading.Tasks", "VoidTaskResult");
 // Type namespace: System.Threading.Tasks
 namespace System::Threading::Tasks {
   // Size: 0x0
@@ -32,4 +25,6 @@ namespace System::Threading::Tasks {
   }; // System.Threading.Tasks.VoidTaskResult
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::VoidTaskResult, "System.Threading.Tasks", "VoidTaskResult");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

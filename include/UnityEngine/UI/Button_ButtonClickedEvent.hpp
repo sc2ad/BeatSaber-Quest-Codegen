@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.UI.Button
 #include "UnityEngine/UI/Button.hpp"
 // Including type: UnityEngine.Events.UnityEvent
 #include "UnityEngine/Events/UnityEvent.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: UnityEngine.UI
-namespace UnityEngine::UI {
-  // Forward declaring type: ButtonClickedEvent
-  class ButtonClickedEvent;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::UI::Button::ButtonClickedEvent);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Button::ButtonClickedEvent*, "UnityEngine.UI", "Button/ButtonClickedEvent");
 // Type namespace: UnityEngine.UI
 namespace UnityEngine::UI {
   // Size: 0x30
@@ -30,8 +22,10 @@ namespace UnityEngine::UI {
   // [TokenAttribute] Offset: FFFFFFFF
   class Button::ButtonClickedEvent : public UnityEngine::Events::UnityEvent {
     public:
+    // Creating value type constructor for type: ButtonClickedEvent
+    ButtonClickedEvent() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x15DD864
+    // Offset: 0x166CB58
     // Implemented from: UnityEngine.Events.UnityEvent
     // Base method: System.Void UnityEvent::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()
@@ -44,7 +38,8 @@ namespace UnityEngine::UI {
   }; // UnityEngine.UI.Button/UnityEngine.UI.ButtonClickedEvent
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Button::ButtonClickedEvent*, "UnityEngine.UI", "Button/ButtonClickedEvent");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::Button::ButtonClickedEvent::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

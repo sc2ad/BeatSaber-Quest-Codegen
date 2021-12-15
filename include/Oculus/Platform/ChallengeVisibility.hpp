@@ -3,18 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: Oculus.Platform
-namespace Oculus::Platform {
-  // Forward declaring type: ChallengeVisibility
-  struct ChallengeVisibility;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::ChallengeVisibility, "Oculus.Platform", "ChallengeVisibility");
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
   // Size: 0x4
@@ -23,18 +16,12 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ChallengeVisibility/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: ChallengeVisibility
     constexpr ChallengeVisibility(int value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -45,28 +32,28 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0xEE6FDC
+    // [DescriptionAttribute] Offset: 0xF294D4
     // static field const value: static public Oculus.Platform.ChallengeVisibility Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.ChallengeVisibility Unknown
     static Oculus::Platform::ChallengeVisibility _get_Unknown();
     // Set static field: static public Oculus.Platform.ChallengeVisibility Unknown
     static void _set_Unknown(Oculus::Platform::ChallengeVisibility value);
-    // [DescriptionAttribute] Offset: 0xEE7014
+    // [DescriptionAttribute] Offset: 0xF2950C
     // static field const value: static public Oculus.Platform.ChallengeVisibility InviteOnly
     static constexpr const int InviteOnly = 1;
     // Get static field: static public Oculus.Platform.ChallengeVisibility InviteOnly
     static Oculus::Platform::ChallengeVisibility _get_InviteOnly();
     // Set static field: static public Oculus.Platform.ChallengeVisibility InviteOnly
     static void _set_InviteOnly(Oculus::Platform::ChallengeVisibility value);
-    // [DescriptionAttribute] Offset: 0xEE704C
+    // [DescriptionAttribute] Offset: 0xF29544
     // static field const value: static public Oculus.Platform.ChallengeVisibility Public
     static constexpr const int Public = 2;
     // Get static field: static public Oculus.Platform.ChallengeVisibility Public
     static Oculus::Platform::ChallengeVisibility _get_Public();
     // Set static field: static public Oculus.Platform.ChallengeVisibility Public
     static void _set_Public(Oculus::Platform::ChallengeVisibility value);
-    // [DescriptionAttribute] Offset: 0xEE7084
+    // [DescriptionAttribute] Offset: 0xF2957C
     // static field const value: static public Oculus.Platform.ChallengeVisibility Private
     static constexpr const int Private = 3;
     // Get static field: static public Oculus.Platform.ChallengeVisibility Private
@@ -80,4 +67,6 @@ namespace Oculus::Platform {
   static check_size<sizeof(ChallengeVisibility), 0 + sizeof(int)> __Oculus_Platform_ChallengeVisibilitySizeCheck;
   static_assert(sizeof(ChallengeVisibility) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::ChallengeVisibility, "Oculus.Platform", "ChallengeVisibility");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

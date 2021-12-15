@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: HoudiniEngineUnity.HAPI_ParmType
@@ -24,13 +24,6 @@
 // Completed includes
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
-  // Forward declaring type: HAPI_ParmInfo
-  struct HAPI_ParmInfo;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_ParmInfo, "HoudiniEngineUnity", "HAPI_ParmInfo");
-// Type namespace: HoudiniEngineUnity
-namespace HoudiniEngineUnity {
   // Size: 0x90
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -38,11 +31,6 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HAPI_ParmInfo/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 id
     // Size: 0x4
     // Offset: 0x0
@@ -299,7 +287,6 @@ namespace HoudiniEngineUnity {
     int disabledConditionSH;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: HAPI_ParmInfo
     constexpr HAPI_ParmInfo(int id_ = {}, int parentId_ = {}, int childIndex_ = {}, HoudiniEngineUnity::HAPI_ParmType type_ = {}, HoudiniEngineUnity::HAPI_PrmScriptType scriptType_ = {}, int typeInfoSH_ = {}, HoudiniEngineUnity::HAPI_Permissions permissions_ = {}, int tagCount_ = {}, int size_ = {}, HoudiniEngineUnity::HAPI_ChoiceListType choiceListType_ = {}, int choiceCount_ = {}, int nameSH_ = {}, int labelSH_ = {}, int templateNameSH_ = {}, int helpSH_ = {}, bool hasMin_ = {}, bool hasMax_ = {}, bool hasUIMin_ = {}, bool hasUIMax_ = {}, float min_ = {}, float max_ = {}, float UIMin_ = {}, float UIMax_ = {}, bool invisible_ = {}, bool disabled_ = {}, bool spare_ = {}, bool joinNext_ = {}, bool labelNone_ = {}, int intValuesIndex_ = {}, int floatValuesIndex_ = {}, int stringValuesIndex_ = {}, int choiceIndex_ = {}, HoudiniEngineUnity::HAPI_NodeType inputNodeType_ = {}, HoudiniEngineUnity::HAPI_NodeFlags inputNodeFlag_ = {}, bool isChildOfMultiParm_ = {}, int instanceNum_ = {}, int instanceLength_ = {}, int instanceCount_ = {}, int instanceStartOffset_ = {}, HoudiniEngineUnity::HAPI_RampType rampType_ = {}, int visibilityConditionSH_ = {}, int disabledConditionSH_ = {}) noexcept : id{id_}, parentId{parentId_}, childIndex{childIndex_}, type{type_}, scriptType{scriptType_}, typeInfoSH{typeInfoSH_}, permissions{permissions_}, tagCount{tagCount_}, size{size_}, choiceListType{choiceListType_}, choiceCount{choiceCount_}, nameSH{nameSH_}, labelSH{labelSH_}, templateNameSH{templateNameSH_}, helpSH{helpSH_}, hasMin{hasMin_}, hasMax{hasMax_}, hasUIMin{hasUIMin_}, hasUIMax{hasUIMax_}, min{min_}, max{max_}, UIMin{UIMin_}, UIMax{UIMax_}, invisible{invisible_}, disabled{disabled_}, spare{spare_}, joinNext{joinNext_}, labelNone{labelNone_}, intValuesIndex{intValuesIndex_}, floatValuesIndex{floatValuesIndex_}, stringValuesIndex{stringValuesIndex_}, choiceIndex{choiceIndex_}, inputNodeType{inputNodeType_}, inputNodeFlag{inputNodeFlag_}, isChildOfMultiParm{isChildOfMultiParm_}, instanceNum{instanceNum_}, instanceLength{instanceLength_}, instanceCount{instanceCount_}, instanceStartOffset{instanceStartOffset_}, rampType{rampType_}, visibilityConditionSH{visibilityConditionSH_}, disabledConditionSH{disabledConditionSH_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -391,29 +378,31 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Int32 disabledConditionSH
     int& dyn_disabledConditionSH();
     // public System.Boolean isInt()
-    // Offset: 0x141E254
+    // Offset: 0x1462D74
     bool isInt();
     // public System.Boolean isFloat()
-    // Offset: 0x141E274
+    // Offset: 0x1462D94
     bool isFloat();
     // public System.Boolean isString()
-    // Offset: 0x141E288
+    // Offset: 0x1462DA8
     bool isString();
     // public System.Boolean isPath()
-    // Offset: 0x141E2B8
+    // Offset: 0x1462DD8
     bool isPath();
     // public System.Boolean isNode()
-    // Offset: 0x141E2D8
+    // Offset: 0x1462DF8
     bool isNode();
     // public System.Boolean isNonValue()
-    // Offset: 0x141E2E8
+    // Offset: 0x1462E08
     bool isNonValue();
   }; // HoudiniEngineUnity.HAPI_ParmInfo
   #pragma pack(pop)
   static check_size<sizeof(HAPI_ParmInfo), 140 + sizeof(int)> __HoudiniEngineUnity_HAPI_ParmInfoSizeCheck;
   static_assert(sizeof(HAPI_ParmInfo) == 0x90);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_ParmInfo, "HoudiniEngineUnity", "HAPI_ParmInfo");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HAPI_ParmInfo::isInt
 // Il2CppName: isInt
 template<>

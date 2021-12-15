@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: GameplayRpcManager
 #include "GlobalNamespace/GameplayRpcManager.hpp"
 // Including type: RemoteProcedureCall
 #include "GlobalNamespace/RemoteProcedureCall.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: GetGameplaySceneReadyRpc
-  class GetGameplaySceneReadyRpc;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::GameplayRpcManager::GetGameplaySceneReadyRpc);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayRpcManager::GetGameplaySceneReadyRpc*, "", "GameplayRpcManager/GetGameplaySceneReadyRpc");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x14
@@ -30,8 +22,10 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GameplayRpcManager::GetGameplaySceneReadyRpc : public GlobalNamespace::RemoteProcedureCall {
     public:
+    // Creating value type constructor for type: GetGameplaySceneReadyRpc
+    GetGameplaySceneReadyRpc() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x143E714
+    // Offset: 0x1569F5C
     // Implemented from: RemoteProcedureCall
     // Base method: System.Void RemoteProcedureCall::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -43,7 +37,8 @@ namespace GlobalNamespace {
   }; // GameplayRpcManager/GetGameplaySceneReadyRpc
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayRpcManager::GetGameplaySceneReadyRpc*, "", "GameplayRpcManager/GetGameplaySceneReadyRpc");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameplayRpcManager::GetGameplaySceneReadyRpc::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

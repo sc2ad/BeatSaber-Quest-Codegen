@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MenuRpcManager
 #include "GlobalNamespace/MenuRpcManager.hpp"
 // Including type: RemoteProcedureCall`1
 #include "GlobalNamespace/RemoteProcedureCall_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: SetIsInLobbyRpc
-  class SetIsInLobbyRpc;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MenuRpcManager::SetIsInLobbyRpc);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuRpcManager::SetIsInLobbyRpc*, "", "MenuRpcManager/SetIsInLobbyRpc");
 // Type namespace: 
 namespace GlobalNamespace {
   // WARNING Size may be invalid!
@@ -29,8 +21,10 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MenuRpcManager::SetIsInLobbyRpc : public GlobalNamespace::RemoteProcedureCall_1<bool> {
     public:
+    // Creating value type constructor for type: SetIsInLobbyRpc
+    SetIsInLobbyRpc() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x18AF570
+    // Offset: 0x1803E98
     // Implemented from: RemoteProcedureCall`1
     // Base method: System.Void RemoteProcedureCall_1::.ctor()
     // Base method: System.Void RemoteProcedureCall::.ctor()
@@ -42,7 +36,8 @@ namespace GlobalNamespace {
     }
   }; // MenuRpcManager/SetIsInLobbyRpc
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuRpcManager::SetIsInLobbyRpc*, "", "MenuRpcManager/SetIsInLobbyRpc");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::SetIsInLobbyRpc::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

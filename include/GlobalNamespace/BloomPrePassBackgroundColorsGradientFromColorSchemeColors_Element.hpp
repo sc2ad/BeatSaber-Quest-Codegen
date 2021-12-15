@@ -3,27 +3,19 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BloomPrePassBackgroundColorsGradientFromColorSchemeColors
 #include "GlobalNamespace/BloomPrePassBackgroundColorsGradientFromColorSchemeColors.hpp"
 // Including type: BloomPrePassBackgroundColorsGradientFromColorSchemeColors/EnvironmentColor
 #include "GlobalNamespace/BloomPrePassBackgroundColorsGradientFromColorSchemeColors_EnvironmentColor.hpp"
 // Including type: UnityEngine.Color
 #include "UnityEngine/Color.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: Element
-  class Element;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::Element);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::Element*, "", "BloomPrePassBackgroundColorsGradientFromColorSchemeColors/Element");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x2C
@@ -32,11 +24,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BloomPrePassBackgroundColorsGradientFromColorSchemeColors::Element : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Boolean loadFromColorScheme
     // Size: 0x1
     // Offset: 0x10
@@ -45,28 +32,29 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: loadFromColorScheme and: environmentColor
     char __padding0[0x3] = {};
-    // [DrawIfAttribute] Offset: 0xF15E54
+    // [DrawIfAttribute] Offset: 0xF4B9A4
     // public BloomPrePassBackgroundColorsGradientFromColorSchemeColors/EnvironmentColor environmentColor
     // Size: 0x4
     // Offset: 0x14
     GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::EnvironmentColor environmentColor;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::EnvironmentColor) == 0x4);
-    // [DrawIfAttribute] Offset: 0xF15EEC
+    // [DrawIfAttribute] Offset: 0xF4BA3C
     // public System.Single intensity
     // Size: 0x4
     // Offset: 0x18
     float intensity;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [DrawIfAttribute] Offset: 0xF15F84
+    // [DrawIfAttribute] Offset: 0xF4BAD4
     // public UnityEngine.Color color
     // Size: 0x10
     // Offset: 0x1C
     UnityEngine::Color color;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
-    public:
+    // Creating value type constructor for type: Element
+    Element(bool loadFromColorScheme_ = {}, GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::EnvironmentColor environmentColor_ = {}, float intensity_ = {}, UnityEngine::Color color_ = {}) noexcept : loadFromColorScheme{loadFromColorScheme_}, environmentColor{environmentColor_}, intensity{intensity_}, color{color_} {}
     // Get instance field reference: public System.Boolean loadFromColorScheme
     bool& dyn_loadFromColorScheme();
     // Get instance field reference: public BloomPrePassBackgroundColorsGradientFromColorSchemeColors/EnvironmentColor environmentColor
@@ -76,7 +64,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.Color color
     UnityEngine::Color& dyn_color();
     // public System.Void .ctor()
-    // Offset: 0x12A4658
+    // Offset: 0x1180DEC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -89,7 +77,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(BloomPrePassBackgroundColorsGradientFromColorSchemeColors::Element), 28 + sizeof(UnityEngine::Color)> __GlobalNamespace_BloomPrePassBackgroundColorsGradientFromColorSchemeColors_ElementSizeCheck;
   static_assert(sizeof(BloomPrePassBackgroundColorsGradientFromColorSchemeColors::Element) == 0x2C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::Element*, "", "BloomPrePassBackgroundColorsGradientFromColorSchemeColors/Element");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::Element::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

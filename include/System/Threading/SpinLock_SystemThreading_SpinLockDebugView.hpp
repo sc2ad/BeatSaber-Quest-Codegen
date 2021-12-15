@@ -3,19 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Threading.SpinLock
 #include "System/Threading/SpinLock.hpp"
 // Completed includes
-// Type namespace: System.Threading
-namespace System::Threading {
-  // Forward declaring type: SystemThreading_SpinLockDebugView
-  class SystemThreading_SpinLockDebugView;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Threading::SpinLock::SystemThreading_SpinLockDebugView);
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::SpinLock::SystemThreading_SpinLockDebugView*, "System.Threading", "SpinLock/SystemThreading_SpinLockDebugView");
 // Type namespace: System.Threading
 namespace System::Threading {
   // Size: 0x10
@@ -24,7 +16,11 @@ namespace System::Threading {
   // [TokenAttribute] Offset: FFFFFFFF
   class SpinLock::SystemThreading_SpinLockDebugView : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: SystemThreading_SpinLockDebugView
+    SystemThreading_SpinLockDebugView() noexcept {}
   }; // System.Threading.SpinLock/System.Threading.SystemThreading_SpinLockDebugView
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::SpinLock::SystemThreading_SpinLockDebugView*, "System.Threading", "SpinLock/SystemThreading_SpinLockDebugView");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

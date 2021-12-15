@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MasterServerConnectionManager
 #include "GlobalNamespace/MasterServerConnectionManager.hpp"
 // Including type: MasterServerConnectionManager/MasterServerConnectionManagerParamsBase
 #include "GlobalNamespace/MasterServerConnectionManager_MasterServerConnectionManagerParamsBase.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: ConnectToServerParams
-  class ConnectToServerParams;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MasterServerConnectionManager::ConnectToServerParams);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerConnectionManager::ConnectToServerParams*, "", "MasterServerConnectionManager/ConnectToServerParams");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x70
@@ -30,11 +22,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MasterServerConnectionManager::ConnectToServerParams : public GlobalNamespace::MasterServerConnectionManager::MasterServerConnectionManagerParamsBase {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.String secret
     // Size: 0x8
     // Offset: 0x60
@@ -47,13 +34,14 @@ namespace GlobalNamespace {
     ::Il2CppString* code;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: ConnectToServerParams
+    ConnectToServerParams(::Il2CppString* secret_ = {}, ::Il2CppString* code_ = {}) noexcept : secret{secret_}, code{code_} {}
     // Get instance field reference: public System.String secret
     ::Il2CppString*& dyn_secret();
     // Get instance field reference: public System.String code
     ::Il2CppString*& dyn_code();
     // public System.Void .ctor()
-    // Offset: 0x12FA5F4
+    // Offset: 0x14C06C8
     // Implemented from: MasterServerConnectionManager/MasterServerConnectionManagerParamsBase
     // Base method: System.Void MasterServerConnectionManagerParamsBase::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -67,7 +55,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(MasterServerConnectionManager::ConnectToServerParams), 104 + sizeof(::Il2CppString*)> __GlobalNamespace_MasterServerConnectionManager_ConnectToServerParamsSizeCheck;
   static_assert(sizeof(MasterServerConnectionManager::ConnectToServerParams) == 0x70);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerConnectionManager::ConnectToServerParams*, "", "MasterServerConnectionManager/ConnectToServerParams");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::ConnectToServerParams::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

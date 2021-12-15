@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: Mono.RuntimeStructs
@@ -19,13 +19,6 @@ namespace Mono {
 // Completed forward declares
 // Type namespace: Mono
 namespace Mono {
-  // Forward declaring type: RuntimeRemoteClassHandle
-  struct RuntimeRemoteClassHandle;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeRemoteClassHandle, "Mono", "RuntimeRemoteClassHandle");
-// Type namespace: Mono
-namespace Mono {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -33,18 +26,12 @@ namespace Mono {
   // [TokenAttribute] Offset: FFFFFFFF
   struct RuntimeRemoteClassHandle/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private Mono.RuntimeStructs/Mono.RemoteClass* value
     // Size: 0x8
     // Offset: 0x0
     Mono::RuntimeStructs::RemoteClass* value;
     // Field size check
     static_assert(sizeof(Mono::RuntimeStructs::RemoteClass*) == 0x8);
-    public:
     // Creating value type constructor for type: RuntimeRemoteClassHandle
     constexpr RuntimeRemoteClassHandle(Mono::RuntimeStructs::RemoteClass* value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -58,14 +45,16 @@ namespace Mono {
     // Get instance field reference: private Mono.RuntimeStructs/Mono.RemoteClass* value
     Mono::RuntimeStructs::RemoteClass*& dyn_value();
     // Mono.RuntimeClassHandle get_ProxyClass()
-    // Offset: 0x1C22A5C
+    // Offset: 0x1C7BB54
     Mono::RuntimeClassHandle get_ProxyClass();
   }; // Mono.RuntimeRemoteClassHandle
   #pragma pack(pop)
   static check_size<sizeof(RuntimeRemoteClassHandle), 0 + sizeof(Mono::RuntimeStructs::RemoteClass*)> __Mono_RuntimeRemoteClassHandleSizeCheck;
   static_assert(sizeof(RuntimeRemoteClassHandle) == 0x8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeRemoteClassHandle, "Mono", "RuntimeRemoteClassHandle");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::RuntimeRemoteClassHandle::get_ProxyClass
 // Il2CppName: get_ProxyClass
 template<>

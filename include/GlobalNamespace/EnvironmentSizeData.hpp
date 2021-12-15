@@ -3,14 +3,14 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -19,14 +19,6 @@ namespace GlobalNamespace {
   // Skipping declaration: CeilingType because it is already included!
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: EnvironmentSizeData
-  class EnvironmentSizeData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::EnvironmentSizeData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentSizeData*, "", "EnvironmentSizeData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x18
@@ -45,18 +37,12 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct FloorType/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: FloorType
       constexpr FloorType(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -91,18 +77,12 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct CeilingType/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: CeilingType
       constexpr CeilingType(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -131,11 +111,6 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(EnvironmentSizeData::CeilingType), 0 + sizeof(int)> __GlobalNamespace_EnvironmentSizeData_CeilingTypeSizeCheck;
     static_assert(sizeof(EnvironmentSizeData::CeilingType) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private EnvironmentSizeData/FloorType _floorType
     // Size: 0x4
     // Offset: 0x10
@@ -148,19 +123,20 @@ namespace GlobalNamespace {
     GlobalNamespace::EnvironmentSizeData::CeilingType ceilingType;
     // Field size check
     static_assert(sizeof(GlobalNamespace::EnvironmentSizeData::CeilingType) == 0x4);
-    public:
+    // Creating value type constructor for type: EnvironmentSizeData
+    EnvironmentSizeData(GlobalNamespace::EnvironmentSizeData::FloorType floorType_ = {}, GlobalNamespace::EnvironmentSizeData::CeilingType ceilingType_ = {}) noexcept : floorType{floorType_}, ceilingType{ceilingType_} {}
     // Get instance field reference: private EnvironmentSizeData/FloorType _floorType
     GlobalNamespace::EnvironmentSizeData::FloorType& dyn__floorType();
     // Get instance field reference: private EnvironmentSizeData/CeilingType _ceilingType
     GlobalNamespace::EnvironmentSizeData::CeilingType& dyn__ceilingType();
     // public EnvironmentSizeData/FloorType get_floorType()
-    // Offset: 0x116CA78
+    // Offset: 0x11DEF98
     GlobalNamespace::EnvironmentSizeData::FloorType get_floorType();
     // public EnvironmentSizeData/CeilingType get_ceilingType()
-    // Offset: 0x116CA80
+    // Offset: 0x11DEFA0
     GlobalNamespace::EnvironmentSizeData::CeilingType get_ceilingType();
     // public System.Void .ctor()
-    // Offset: 0x116CA88
+    // Offset: 0x11DEFA8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -173,11 +149,10 @@ namespace GlobalNamespace {
   static check_size<sizeof(EnvironmentSizeData), 20 + sizeof(GlobalNamespace::EnvironmentSizeData::CeilingType)> __GlobalNamespace_EnvironmentSizeDataSizeCheck;
   static_assert(sizeof(EnvironmentSizeData) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentSizeData*, "", "EnvironmentSizeData");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentSizeData::FloorType, "", "EnvironmentSizeData/FloorType");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentSizeData::CeilingType, "", "EnvironmentSizeData/CeilingType");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EnvironmentSizeData::get_floorType
 // Il2CppName: get_floorType
 template<>

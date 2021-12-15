@@ -3,7 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
@@ -19,13 +19,6 @@ struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.ResourceManagement.Util
 namespace UnityEngine::ResourceManagement::Util {
-  // Forward declaring type: SerializedType
-  struct SerializedType;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Util::SerializedType, "UnityEngine.ResourceManagement.Util", "SerializedType");
-// Type namespace: UnityEngine.ResourceManagement.Util
-namespace UnityEngine::ResourceManagement::Util {
   // Size: 0x19
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -33,19 +26,14 @@ namespace UnityEngine::ResourceManagement::Util {
   // [TokenAttribute] Offset: FFFFFFFF
   struct SerializedType/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
-    // [FormerlySerializedAsAttribute] Offset: 0xEE5310
+    // [FormerlySerializedAsAttribute] Offset: 0xF28004
     // private System.String m_AssemblyName
     // Size: 0x8
     // Offset: 0x0
     ::Il2CppString* m_AssemblyName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xEE535C
+    // [FormerlySerializedAsAttribute] Offset: 0xF28050
     // private System.String m_ClassName
     // Size: 0x8
     // Offset: 0x8
@@ -64,7 +52,6 @@ namespace UnityEngine::ResourceManagement::Util {
     bool ValueChanged;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
     // Creating value type constructor for type: SerializedType
     constexpr SerializedType(::Il2CppString* m_AssemblyName_ = {}, ::Il2CppString* m_ClassName_ = {}, System::Type* m_CachedType_ = {}, bool ValueChanged_ = {}) noexcept : m_AssemblyName{m_AssemblyName_}, m_ClassName{m_ClassName_}, m_CachedType{m_CachedType_}, ValueChanged{ValueChanged_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -80,25 +67,25 @@ namespace UnityEngine::ResourceManagement::Util {
     // Get instance field reference: private System.Boolean <ValueChanged>k__BackingField
     bool& dyn_$ValueChanged$k__BackingField();
     // public System.String get_AssemblyName()
-    // Offset: 0x1B52B88
+    // Offset: 0x1BF2908
     ::Il2CppString* get_AssemblyName();
     // public System.String get_ClassName()
-    // Offset: 0x1B52B90
+    // Offset: 0x1BF2910
     ::Il2CppString* get_ClassName();
     // public System.Type get_Value()
-    // Offset: 0x1B52970
+    // Offset: 0x1BF26F0
     System::Type* get_Value();
     // public System.Void set_Value(System.Type value)
-    // Offset: 0x1B52C4C
+    // Offset: 0x1BF29CC
     void set_Value(System::Type* value);
     // public System.Boolean get_ValueChanged()
-    // Offset: 0x1B52D1C
+    // Offset: 0x1BF2A9C
     bool get_ValueChanged();
     // public System.Void set_ValueChanged(System.Boolean value)
-    // Offset: 0x1B52D24
+    // Offset: 0x1BF2AA4
     void set_ValueChanged(bool value);
     // public override System.String ToString()
-    // Offset: 0x1B52B98
+    // Offset: 0x1BF2918
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
@@ -107,7 +94,9 @@ namespace UnityEngine::ResourceManagement::Util {
   static check_size<sizeof(SerializedType), 24 + sizeof(bool)> __UnityEngine_ResourceManagement_Util_SerializedTypeSizeCheck;
   static_assert(sizeof(SerializedType) == 0x19);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Util::SerializedType, "UnityEngine.ResourceManagement.Util", "SerializedType");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::SerializedType::get_AssemblyName
 // Il2CppName: get_AssemblyName
 template<>

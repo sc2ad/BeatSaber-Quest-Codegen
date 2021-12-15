@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: TMPro.TMP_InputField
 #include "TMPro/TMP_InputField.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
 #include "System/Collections/Generic/IEnumerator_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: TMPro
-namespace TMPro {
-  // Forward declaring type: <CaretBlink>d__267
-  class $CaretBlink$d__267;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(TMPro::TMP_InputField::$CaretBlink$d__267);
-DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_InputField::$CaretBlink$d__267*, "TMPro", "TMP_InputField/<CaretBlink>d__267");
 // Type namespace: TMPro
 namespace TMPro {
   // Size: 0x28
@@ -31,11 +23,6 @@ namespace TMPro {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class TMP_InputField::$CaretBlink$d__267 : public ::Il2CppObject/*, public System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -56,7 +43,8 @@ namespace TMPro {
     TMPro::TMP_InputField* $$4__this;
     // Field size check
     static_assert(sizeof(TMPro::TMP_InputField*) == 0x8);
-    public:
+    // Creating value type constructor for type: $CaretBlink$d__267
+    $CaretBlink$d__267(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, TMPro::TMP_InputField* $$4__this_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$4__this{$$4__this_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
@@ -68,33 +56,34 @@ namespace TMPro {
     // Get instance field reference: public TMPro.TMP_InputField <>4__this
     TMPro::TMP_InputField*& dyn_$$4__this();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x1216688
+    // Offset: 0x12598E8
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x12166F0
+    // Offset: 0x1259950
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1216540
+    // Offset: 0x12597A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_InputField::$CaretBlink$d__267* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_InputField::$CaretBlink$d__267::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_InputField::$CaretBlink$d__267*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x121656C
+    // Offset: 0x12597CC
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1216570
+    // Offset: 0x12597D0
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1216690
+    // Offset: 0x12598F0
     void System_Collections_IEnumerator_Reset();
   }; // TMPro.TMP_InputField/TMPro.<CaretBlink>d__267
   #pragma pack(pop)
   static check_size<sizeof(TMP_InputField::$CaretBlink$d__267), 32 + sizeof(TMPro::TMP_InputField*)> __TMPro_TMP_InputField_$CaretBlink$d__267SizeCheck;
   static_assert(sizeof(TMP_InputField::$CaretBlink$d__267) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_InputField::$CaretBlink$d__267*, "TMPro", "TMP_InputField/<CaretBlink>d__267");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_InputField::$CaretBlink$d__267::System_Collections_Generic_IEnumerator$System_Object$_get_Current
 // Il2CppName: System.Collections.Generic.IEnumerator<System.Object>.get_Current
 template<>

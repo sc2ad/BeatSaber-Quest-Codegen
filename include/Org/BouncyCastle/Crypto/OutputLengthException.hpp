@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Crypto.DataLengthException
 #include "Org/BouncyCastle/Crypto/DataLengthException.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Org.BouncyCastle.Crypto
-namespace Org::BouncyCastle::Crypto {
-  // Forward declaring type: OutputLengthException
-  class OutputLengthException;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Crypto::OutputLengthException);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::OutputLengthException*, "Org.BouncyCastle.Crypto", "OutputLengthException");
 // Type namespace: Org.BouncyCastle.Crypto
 namespace Org::BouncyCastle::Crypto {
   // Size: 0x88
@@ -28,8 +20,10 @@ namespace Org::BouncyCastle::Crypto {
   // [TokenAttribute] Offset: FFFFFFFF
   class OutputLengthException : public Org::BouncyCastle::Crypto::DataLengthException {
     public:
+    // Creating value type constructor for type: OutputLengthException
+    OutputLengthException() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x13744B0
+    // Offset: 0x13B4444
     // Implemented from: Org.BouncyCastle.Crypto.DataLengthException
     // Base method: System.Void DataLengthException::.ctor()
     // Base method: System.Void CryptoException::.ctor()
@@ -41,7 +35,7 @@ namespace Org::BouncyCastle::Crypto {
       return THROW_UNLESS((::il2cpp_utils::New<OutputLengthException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
-    // Offset: 0x13744B8
+    // Offset: 0x13B444C
     // Implemented from: Org.BouncyCastle.Crypto.DataLengthException
     // Base method: System.Void DataLengthException::.ctor(System.String message)
     // Base method: System.Void CryptoException::.ctor(System.String message)
@@ -54,7 +48,8 @@ namespace Org::BouncyCastle::Crypto {
   }; // Org.BouncyCastle.Crypto.OutputLengthException
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::OutputLengthException*, "Org.BouncyCastle.Crypto", "OutputLengthException");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::OutputLengthException::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

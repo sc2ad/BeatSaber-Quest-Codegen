@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.TestTools.TestEnumerator
 #include "UnityEngine/TestTools/TestEnumerator.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
 #include "System/Collections/Generic/IEnumerator_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: UnityEngine.TestTools
-namespace UnityEngine::TestTools {
-  // Forward declaring type: <Execute>d__6
-  class $Execute$d__6;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::TestTools::TestEnumerator::$Execute$d__6);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestEnumerator::$Execute$d__6*, "UnityEngine.TestTools", "TestEnumerator/<Execute>d__6");
 // Type namespace: UnityEngine.TestTools
 namespace UnityEngine::TestTools {
   // Size: 0x28
@@ -31,11 +23,6 @@ namespace UnityEngine::TestTools {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class TestEnumerator::$Execute$d__6 : public ::Il2CppObject/*, public System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -56,7 +43,8 @@ namespace UnityEngine::TestTools {
     UnityEngine::TestTools::TestEnumerator* $$4__this;
     // Field size check
     static_assert(sizeof(UnityEngine::TestTools::TestEnumerator*) == 0x8);
-    public:
+    // Creating value type constructor for type: $Execute$d__6
+    $Execute$d__6(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, UnityEngine::TestTools::TestEnumerator* $$4__this_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$4__this{$$4__this_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
@@ -68,33 +56,34 @@ namespace UnityEngine::TestTools {
     // Get instance field reference: public UnityEngine.TestTools.TestEnumerator <>4__this
     UnityEngine::TestTools::TestEnumerator*& dyn_$$4__this();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x1656C54
+    // Offset: 0x16D2898
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1656CBC
+    // Offset: 0x16D2900
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x16567F0
+    // Offset: 0x16D2434
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestEnumerator::$Execute$d__6* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::TestEnumerator::$Execute$d__6::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestEnumerator::$Execute$d__6*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x165681C
+    // Offset: 0x16D2460
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1656820
+    // Offset: 0x16D2464
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1656C5C
+    // Offset: 0x16D28A0
     void System_Collections_IEnumerator_Reset();
   }; // UnityEngine.TestTools.TestEnumerator/UnityEngine.TestTools.<Execute>d__6
   #pragma pack(pop)
   static check_size<sizeof(TestEnumerator::$Execute$d__6), 32 + sizeof(UnityEngine::TestTools::TestEnumerator*)> __UnityEngine_TestTools_TestEnumerator_$Execute$d__6SizeCheck;
   static_assert(sizeof(TestEnumerator::$Execute$d__6) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestEnumerator::$Execute$d__6*, "UnityEngine.TestTools", "TestEnumerator/<Execute>d__6");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestEnumerator::$Execute$d__6::System_Collections_Generic_IEnumerator$System_Object$_get_Current
 // Il2CppName: System.Collections.Generic.IEnumerator<System.Object>.get_Current
 template<>

@@ -3,17 +3,9 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: Org.BouncyCastle.Crypto.Tls
-namespace Org::BouncyCastle::Crypto::Tls {
-  // Forward declaring type: AlertDescription
-  class AlertDescription;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Crypto::Tls::AlertDescription);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::AlertDescription*, "Org.BouncyCastle.Crypto.Tls", "AlertDescription");
 // Type namespace: Org.BouncyCastle.Crypto.Tls
 namespace Org::BouncyCastle::Crypto::Tls {
   // Size: 0x10
@@ -22,16 +14,20 @@ namespace Org::BouncyCastle::Crypto::Tls {
   // [TokenAttribute] Offset: FFFFFFFF
   class AlertDescription : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: AlertDescription
+    AlertDescription() noexcept {}
     // static public System.String GetName(System.Byte alertDescription)
-    // Offset: 0x13885A8
+    // Offset: 0x13C853C
     static ::Il2CppString* GetName(uint8_t alertDescription);
     // static public System.String GetText(System.Byte alertDescription)
-    // Offset: 0x1388828
+    // Offset: 0x13C87BC
     static ::Il2CppString* GetText(uint8_t alertDescription);
   }; // Org.BouncyCastle.Crypto.Tls.AlertDescription
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::AlertDescription*, "Org.BouncyCastle.Crypto.Tls", "AlertDescription");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Tls::AlertDescription::GetName
 // Il2CppName: GetName
 template<>

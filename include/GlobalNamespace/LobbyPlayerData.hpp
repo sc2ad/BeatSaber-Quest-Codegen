@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LevelGameplaySetupData
 #include "GlobalNamespace/LevelGameplaySetupData.hpp"
 // Including type: ILobbyPlayerData
 #include "GlobalNamespace/ILobbyPlayerData.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: LobbyPlayerData
-  class LobbyPlayerData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::LobbyPlayerData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LobbyPlayerData*, "", "LobbyPlayerData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x30
@@ -30,11 +22,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LobbyPlayerData : public GlobalNamespace::LevelGameplaySetupData/*, public GlobalNamespace::ILobbyPlayerData*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Boolean <isPartyOwner>k__BackingField
     // Size: 0x1
     // Offset: 0x2C
@@ -59,7 +46,8 @@ namespace GlobalNamespace {
     bool isInLobby;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: LobbyPlayerData
+    LobbyPlayerData(bool isPartyOwner_ = {}, bool isActive_ = {}, bool isReady_ = {}, bool isInLobby_ = {}) noexcept : isPartyOwner{isPartyOwner_}, isActive{isActive_}, isReady{isReady_}, isInLobby{isInLobby_} {}
     // Creating interface conversion operator: operator GlobalNamespace::ILobbyPlayerData
     operator GlobalNamespace::ILobbyPlayerData() noexcept {
       return *reinterpret_cast<GlobalNamespace::ILobbyPlayerData*>(this);
@@ -73,31 +61,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean <isInLobby>k__BackingField
     bool& dyn_$isInLobby$k__BackingField();
     // public System.Boolean get_isPartyOwner()
-    // Offset: 0x12B8B80
+    // Offset: 0x134C60C
     bool get_isPartyOwner();
     // public System.Void set_isPartyOwner(System.Boolean value)
-    // Offset: 0x12B8B88
+    // Offset: 0x134C614
     void set_isPartyOwner(bool value);
     // public System.Boolean get_isActive()
-    // Offset: 0x12B8B94
+    // Offset: 0x134C620
     bool get_isActive();
     // public System.Void set_isActive(System.Boolean value)
-    // Offset: 0x12B8B9C
+    // Offset: 0x134C628
     void set_isActive(bool value);
     // public System.Boolean get_isReady()
-    // Offset: 0x12B8BA8
+    // Offset: 0x134C634
     bool get_isReady();
     // public System.Void set_isReady(System.Boolean value)
-    // Offset: 0x12B8BB0
+    // Offset: 0x134C63C
     void set_isReady(bool value);
     // public System.Boolean get_isInLobby()
-    // Offset: 0x12B8BBC
+    // Offset: 0x134C648
     bool get_isInLobby();
     // public System.Void set_isInLobby(System.Boolean value)
-    // Offset: 0x12B8BC4
+    // Offset: 0x134C650
     void set_isInLobby(bool value);
     // public System.Void .ctor()
-    // Offset: 0x12B8BD0
+    // Offset: 0x134C65C
     // Implemented from: LevelGameplaySetupData
     // Base method: System.Void LevelGameplaySetupData::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -111,7 +99,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(LobbyPlayerData), 47 + sizeof(bool)> __GlobalNamespace_LobbyPlayerDataSizeCheck;
   static_assert(sizeof(LobbyPlayerData) == 0x30);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LobbyPlayerData*, "", "LobbyPlayerData");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LobbyPlayerData::get_isPartyOwner
 // Il2CppName: get_isPartyOwner
 template<>

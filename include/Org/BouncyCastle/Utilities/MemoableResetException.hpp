@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.InvalidCastException
 #include "System/InvalidCastException.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Org.BouncyCastle.Utilities
-namespace Org::BouncyCastle::Utilities {
-  // Forward declaring type: MemoableResetException
-  class MemoableResetException;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Utilities::MemoableResetException);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::MemoableResetException*, "Org.BouncyCastle.Utilities", "MemoableResetException");
 // Type namespace: Org.BouncyCastle.Utilities
 namespace Org::BouncyCastle::Utilities {
   // Size: 0x88
@@ -28,8 +20,10 @@ namespace Org::BouncyCastle::Utilities {
   // [TokenAttribute] Offset: FFFFFFFF
   class MemoableResetException : public System::InvalidCastException {
     public:
+    // Creating value type constructor for type: MemoableResetException
+    MemoableResetException() noexcept {}
     // public System.Void .ctor(System.String msg)
-    // Offset: 0x216D160
+    // Offset: 0x222BF8C
     // Implemented from: System.InvalidCastException
     // Base method: System.Void InvalidCastException::.ctor(System.String msg)
     // Base method: System.Void SystemException::.ctor(System.String msg)
@@ -42,7 +36,8 @@ namespace Org::BouncyCastle::Utilities {
   }; // Org.BouncyCastle.Utilities.MemoableResetException
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::MemoableResetException*, "Org.BouncyCastle.Utilities", "MemoableResetException");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::MemoableResetException::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

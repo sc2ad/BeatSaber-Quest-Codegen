@@ -3,18 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: Oculus.Platform
-namespace Oculus::Platform {
-  // Forward declaring type: PartyUpdateAction
-  struct PartyUpdateAction;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::PartyUpdateAction, "Oculus.Platform", "PartyUpdateAction");
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
   // Size: 0x4
@@ -23,18 +16,12 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   struct PartyUpdateAction/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: PartyUpdateAction
     constexpr PartyUpdateAction(int value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -45,35 +32,35 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0xEE80C4
+    // [DescriptionAttribute] Offset: 0xF2A5BC
     // static field const value: static public Oculus.Platform.PartyUpdateAction Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.PartyUpdateAction Unknown
     static Oculus::Platform::PartyUpdateAction _get_Unknown();
     // Set static field: static public Oculus.Platform.PartyUpdateAction Unknown
     static void _set_Unknown(Oculus::Platform::PartyUpdateAction value);
-    // [DescriptionAttribute] Offset: 0xEE80FC
+    // [DescriptionAttribute] Offset: 0xF2A5F4
     // static field const value: static public Oculus.Platform.PartyUpdateAction Join
     static constexpr const int Join = 1;
     // Get static field: static public Oculus.Platform.PartyUpdateAction Join
     static Oculus::Platform::PartyUpdateAction _get_Join();
     // Set static field: static public Oculus.Platform.PartyUpdateAction Join
     static void _set_Join(Oculus::Platform::PartyUpdateAction value);
-    // [DescriptionAttribute] Offset: 0xEE8134
+    // [DescriptionAttribute] Offset: 0xF2A62C
     // static field const value: static public Oculus.Platform.PartyUpdateAction Leave
     static constexpr const int Leave = 2;
     // Get static field: static public Oculus.Platform.PartyUpdateAction Leave
     static Oculus::Platform::PartyUpdateAction _get_Leave();
     // Set static field: static public Oculus.Platform.PartyUpdateAction Leave
     static void _set_Leave(Oculus::Platform::PartyUpdateAction value);
-    // [DescriptionAttribute] Offset: 0xEE816C
+    // [DescriptionAttribute] Offset: 0xF2A664
     // static field const value: static public Oculus.Platform.PartyUpdateAction Invite
     static constexpr const int Invite = 3;
     // Get static field: static public Oculus.Platform.PartyUpdateAction Invite
     static Oculus::Platform::PartyUpdateAction _get_Invite();
     // Set static field: static public Oculus.Platform.PartyUpdateAction Invite
     static void _set_Invite(Oculus::Platform::PartyUpdateAction value);
-    // [DescriptionAttribute] Offset: 0xEE81A4
+    // [DescriptionAttribute] Offset: 0xF2A69C
     // static field const value: static public Oculus.Platform.PartyUpdateAction Uninvite
     static constexpr const int Uninvite = 4;
     // Get static field: static public Oculus.Platform.PartyUpdateAction Uninvite
@@ -87,4 +74,6 @@ namespace Oculus::Platform {
   static check_size<sizeof(PartyUpdateAction), 0 + sizeof(int)> __Oculus_Platform_PartyUpdateActionSizeCheck;
   static_assert(sizeof(PartyUpdateAction) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::PartyUpdateAction, "Oculus.Platform", "PartyUpdateAction");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

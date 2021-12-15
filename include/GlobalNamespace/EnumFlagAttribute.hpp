@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.PropertyAttribute
 #include "UnityEngine/PropertyAttribute.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: EnumFlagAttribute
-  class EnumFlagAttribute;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::EnumFlagAttribute);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnumFlagAttribute*, "", "EnumFlagAttribute");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x18
@@ -28,18 +20,14 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class EnumFlagAttribute : public UnityEngine::PropertyAttribute {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.String enumName
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppString* enumName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: EnumFlagAttribute
+    EnumFlagAttribute(::Il2CppString* enumName_ = {}) noexcept : enumName{enumName_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return enumName;
@@ -47,14 +35,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.String enumName
     ::Il2CppString*& dyn_enumName();
     // public System.Void .ctor(System.String name)
-    // Offset: 0x1363714
+    // Offset: 0x1394308
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnumFlagAttribute* New_ctor(::Il2CppString* name) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::EnumFlagAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnumFlagAttribute*, creationType>(name)));
     }
     // public System.Void .ctor()
-    // Offset: 0x136370C
+    // Offset: 0x1394300
     // Implemented from: UnityEngine.PropertyAttribute
     // Base method: System.Void PropertyAttribute::.ctor()
     // Base method: System.Void Attribute::.ctor()
@@ -69,7 +57,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(EnumFlagAttribute), 16 + sizeof(::Il2CppString*)> __GlobalNamespace_EnumFlagAttributeSizeCheck;
   static_assert(sizeof(EnumFlagAttribute) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnumFlagAttribute*, "", "EnumFlagAttribute");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EnumFlagAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

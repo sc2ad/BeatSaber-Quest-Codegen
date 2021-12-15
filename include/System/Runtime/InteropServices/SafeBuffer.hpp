@@ -3,19 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid
 #include "Microsoft/Win32/SafeHandles/SafeHandleZeroOrMinusOneIsInvalid.hpp"
 // Completed includes
-// Type namespace: System.Runtime.InteropServices
-namespace System::Runtime::InteropServices {
-  // Forward declaring type: SafeBuffer
-  class SafeBuffer;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::InteropServices::SafeBuffer);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::SafeBuffer*, "System.Runtime.InteropServices", "SafeBuffer");
 // Type namespace: System.Runtime.InteropServices
 namespace System::Runtime::InteropServices {
   // Size: 0x1F
@@ -24,18 +16,14 @@ namespace System::Runtime::InteropServices {
   // [TokenAttribute] Offset: FFFFFFFF
   class SafeBuffer : public Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Boolean inited
     // Size: 0x1
     // Offset: 0x1E
     bool inited;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: SafeBuffer
+    SafeBuffer(bool inited_ = {}) noexcept : inited{inited_} {}
     // Creating conversion operator: operator bool
     constexpr operator bool() const noexcept {
       return inited;
@@ -43,17 +31,19 @@ namespace System::Runtime::InteropServices {
     // Get instance field reference: private System.Boolean inited
     bool& dyn_inited();
     // public System.Void AcquirePointer(ref System.Byte* pointer)
-    // Offset: 0x1595FC8
+    // Offset: 0x16242BC
     void AcquirePointer(ByRef<uint8_t*> pointer);
     // public System.Void ReleasePointer()
-    // Offset: 0x159615C
+    // Offset: 0x1624450
     void ReleasePointer();
   }; // System.Runtime.InteropServices.SafeBuffer
   #pragma pack(pop)
   static check_size<sizeof(SafeBuffer), 30 + sizeof(bool)> __System_Runtime_InteropServices_SafeBufferSizeCheck;
   static_assert(sizeof(SafeBuffer) == 0x1F);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::SafeBuffer*, "System.Runtime.InteropServices", "SafeBuffer");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::InteropServices::SafeBuffer::AcquirePointer
 // Il2CppName: AcquirePointer
 template<>

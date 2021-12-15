@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HoudiniEngineUnity.IEquivable`1
 #include "HoudiniEngineUnity/IEquivable_1.hpp"
 // Including type: UnityEngine.LayerMask
 #include "UnityEngine/LayerMask.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: HoudiniEngineUnity
-namespace HoudiniEngineUnity {
-  // Forward declaring type: Test_LayerMask
-  class Test_LayerMask;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::Test_LayerMask);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::Test_LayerMask*, "HoudiniEngineUnity", "Test_LayerMask");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x14
@@ -30,18 +22,14 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class Test_LayerMask : public ::Il2CppObject/*, public HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::Test_LayerMask*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public UnityEngine.LayerMask self
     // Size: 0x4
     // Offset: 0x10
     UnityEngine::LayerMask self;
     // Field size check
     static_assert(sizeof(UnityEngine::LayerMask) == 0x4);
-    public:
+    // Creating value type constructor for type: Test_LayerMask
+    Test_LayerMask(UnityEngine::LayerMask self_ = {}) noexcept : self{self_} {}
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::Test_LayerMask*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::Test_LayerMask*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::Test_LayerMask*>*>(this);
@@ -53,21 +41,22 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public UnityEngine.LayerMask self
     UnityEngine::LayerMask& dyn_self();
     // public System.Void .ctor(UnityEngine.LayerMask self)
-    // Offset: 0x25B729C
+    // Offset: 0x26798F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test_LayerMask* New_ctor(UnityEngine::LayerMask self) {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::Test_LayerMask::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test_LayerMask*, creationType>(self)));
     }
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.Test_LayerMask other)
-    // Offset: 0x25B72C8
+    // Offset: 0x267991C
     bool IsEquivalentTo(HoudiniEngineUnity::Test_LayerMask* other);
   }; // HoudiniEngineUnity.Test_LayerMask
   #pragma pack(pop)
   static check_size<sizeof(Test_LayerMask), 16 + sizeof(UnityEngine::LayerMask)> __HoudiniEngineUnity_Test_LayerMaskSizeCheck;
   static_assert(sizeof(Test_LayerMask) == 0x14);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::Test_LayerMask*, "HoudiniEngineUnity", "Test_LayerMask");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::Test_LayerMask::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

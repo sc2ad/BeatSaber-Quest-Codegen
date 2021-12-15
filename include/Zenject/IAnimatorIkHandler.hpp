@@ -3,16 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: Zenject
-namespace Zenject {
-  // Forward declaring type: IAnimatorIkHandler
-  class IAnimatorIkHandler;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::IAnimatorIkHandler);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::IAnimatorIkHandler*, "Zenject", "IAnimatorIkHandler");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x10
@@ -21,13 +13,17 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class IAnimatorIkHandler {
     public:
+    // Creating value type constructor for type: IAnimatorIkHandler
+    IAnimatorIkHandler() noexcept {}
     // public System.Void OnAnimatorIk()
     // Offset: 0xFFFFFFFF
     void OnAnimatorIk();
   }; // Zenject.IAnimatorIkHandler
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Zenject::IAnimatorIkHandler*, "Zenject", "IAnimatorIkHandler");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::IAnimatorIkHandler::OnAnimatorIk
 // Il2CppName: OnAnimatorIk
 template<>

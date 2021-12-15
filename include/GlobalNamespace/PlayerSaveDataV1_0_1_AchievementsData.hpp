@@ -3,24 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PlayerSaveDataV1_0_1
 #include "GlobalNamespace/PlayerSaveDataV1_0_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: AchievementsData
-  class AchievementsData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::PlayerSaveDataV1_0_1::AchievementsData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveDataV1_0_1::AchievementsData*, "", "PlayerSaveDataV1_0_1/AchievementsData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -29,30 +20,26 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayerSaveDataV1_0_1::AchievementsData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.String[] unlockedAchievements
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<::Il2CppString*> unlockedAchievements;
+    ::Array<::Il2CppString*>* unlockedAchievements;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
     // public System.String[] unlockedAchievementsToUpload
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayW<::Il2CppString*> unlockedAchievementsToUpload;
+    ::Array<::Il2CppString*>* unlockedAchievementsToUpload;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
-    public:
+    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    // Creating value type constructor for type: AchievementsData
+    AchievementsData(::Array<::Il2CppString*>* unlockedAchievements_ = {}, ::Array<::Il2CppString*>* unlockedAchievementsToUpload_ = {}) noexcept : unlockedAchievements{unlockedAchievements_}, unlockedAchievementsToUpload{unlockedAchievementsToUpload_} {}
     // Get instance field reference: public System.String[] unlockedAchievements
-    ::ArrayW<::Il2CppString*>& dyn_unlockedAchievements();
+    ::Array<::Il2CppString*>*& dyn_unlockedAchievements();
     // Get instance field reference: public System.String[] unlockedAchievementsToUpload
-    ::ArrayW<::Il2CppString*>& dyn_unlockedAchievementsToUpload();
+    ::Array<::Il2CppString*>*& dyn_unlockedAchievementsToUpload();
     // public System.Void .ctor()
-    // Offset: 0x12CC56C
+    // Offset: 0x11AAABC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -62,10 +49,11 @@ namespace GlobalNamespace {
     }
   }; // PlayerSaveDataV1_0_1/AchievementsData
   #pragma pack(pop)
-  static check_size<sizeof(PlayerSaveDataV1_0_1::AchievementsData), 24 + sizeof(::ArrayW<::Il2CppString*>)> __GlobalNamespace_PlayerSaveDataV1_0_1_AchievementsDataSizeCheck;
+  static check_size<sizeof(PlayerSaveDataV1_0_1::AchievementsData), 24 + sizeof(::Array<::Il2CppString*>*)> __GlobalNamespace_PlayerSaveDataV1_0_1_AchievementsDataSizeCheck;
   static_assert(sizeof(PlayerSaveDataV1_0_1::AchievementsData) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveDataV1_0_1::AchievementsData*, "", "PlayerSaveDataV1_0_1/AchievementsData");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSaveDataV1_0_1::AchievementsData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

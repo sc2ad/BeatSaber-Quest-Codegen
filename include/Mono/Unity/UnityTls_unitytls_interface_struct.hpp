@@ -3,30 +3,22 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Mono.Unity.UnityTls
 #include "Mono/Unity/UnityTls.hpp"
 // Including type: Mono.Unity.UnityTls/Mono.Unity.unitytls_tlsctx_protocolrange
 #include "Mono/Unity/UnityTls_unitytls_tlsctx_protocolrange.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Mono::Unity
 namespace Mono::Unity {
 }
 // Completed forward declares
-// Type namespace: Mono.Unity
-namespace Mono::Unity {
-  // Forward declaring type: unitytls_interface_struct
-  class unitytls_interface_struct;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Unity::UnityTls::unitytls_interface_struct);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTls::unitytls_interface_struct*, "Mono.Unity", "UnityTls/unitytls_interface_struct");
 // Type namespace: Mono.Unity
 namespace Mono::Unity {
   // Size: 0x118
@@ -96,11 +88,6 @@ namespace Mono::Unity {
     class unitytls_tlsctx_free_t;
     // Nested type: Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_random_generate_bytes_t
     class unitytls_random_generate_bytes_t;
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public readonly System.UInt64 UNITYTLS_INVALID_HANDLE
     // Size: 0x8
     // Offset: 0x10
@@ -299,7 +286,8 @@ namespace Mono::Unity {
     Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_random_generate_bytes_t* unitytls_random_generate_bytes;
     // Field size check
     static_assert(sizeof(Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_random_generate_bytes_t*) == 0x8);
-    public:
+    // Creating value type constructor for type: unitytls_interface_struct
+    unitytls_interface_struct(uint64_t UNITYTLS_INVALID_HANDLE_ = {}, Mono::Unity::UnityTls::unitytls_tlsctx_protocolrange UNITYTLS_TLSCTX_PROTOCOLRANGE_DEFAULT_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_errorstate_create_t* unitytls_errorstate_create_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_errorstate_raise_error_t* unitytls_errorstate_raise_error_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_key_get_ref_t* unitytls_key_get_ref_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_key_parse_der_t* unitytls_key_parse_der_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_key_parse_pem_t* unitytls_key_parse_pem_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_key_free_t* unitytls_key_free_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509_export_der_t* unitytls_x509_export_der_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509list_get_ref_t* unitytls_x509list_get_ref_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509list_get_x509_t* unitytls_x509list_get_x509_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509list_create_t* unitytls_x509list_create_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509list_append_t* unitytls_x509list_append_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509list_append_der_t* unitytls_x509list_append_der_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509list_append_der_t* unitytls_x509list_append_pem_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509list_free_t* unitytls_x509list_free_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509verify_default_ca_t* unitytls_x509verify_default_ca_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509verify_explicit_ca_t* unitytls_x509verify_explicit_ca_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_create_server_t* unitytls_tlsctx_create_server_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_create_client_t* unitytls_tlsctx_create_client_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_server_require_client_authentication_t* unitytls_tlsctx_server_require_client_authentication_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_set_certificate_callback_t* unitytls_tlsctx_set_certificate_callback_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_set_trace_callback_t* unitytls_tlsctx_set_trace_callback_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_set_x509verify_callback_t* unitytls_tlsctx_set_x509verify_callback_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_set_supported_ciphersuites_t* unitytls_tlsctx_set_supported_ciphersuites_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_get_ciphersuite_t* unitytls_tlsctx_get_ciphersuite_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_get_protocol_t* unitytls_tlsctx_get_protocol_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_process_handshake_t* unitytls_tlsctx_process_handshake_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_read_t* unitytls_tlsctx_read_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_write_t* unitytls_tlsctx_write_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_notify_close_t* unitytls_tlsctx_notify_close_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_tlsctx_free_t* unitytls_tlsctx_free_ = {}, Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_random_generate_bytes_t* unitytls_random_generate_bytes_ = {}) noexcept : UNITYTLS_INVALID_HANDLE{UNITYTLS_INVALID_HANDLE_}, UNITYTLS_TLSCTX_PROTOCOLRANGE_DEFAULT{UNITYTLS_TLSCTX_PROTOCOLRANGE_DEFAULT_}, unitytls_errorstate_create{unitytls_errorstate_create_}, unitytls_errorstate_raise_error{unitytls_errorstate_raise_error_}, unitytls_key_get_ref{unitytls_key_get_ref_}, unitytls_key_parse_der{unitytls_key_parse_der_}, unitytls_key_parse_pem{unitytls_key_parse_pem_}, unitytls_key_free{unitytls_key_free_}, unitytls_x509_export_der{unitytls_x509_export_der_}, unitytls_x509list_get_ref{unitytls_x509list_get_ref_}, unitytls_x509list_get_x509{unitytls_x509list_get_x509_}, unitytls_x509list_create{unitytls_x509list_create_}, unitytls_x509list_append{unitytls_x509list_append_}, unitytls_x509list_append_der{unitytls_x509list_append_der_}, unitytls_x509list_append_pem{unitytls_x509list_append_pem_}, unitytls_x509list_free{unitytls_x509list_free_}, unitytls_x509verify_default_ca{unitytls_x509verify_default_ca_}, unitytls_x509verify_explicit_ca{unitytls_x509verify_explicit_ca_}, unitytls_tlsctx_create_server{unitytls_tlsctx_create_server_}, unitytls_tlsctx_create_client{unitytls_tlsctx_create_client_}, unitytls_tlsctx_server_require_client_authentication{unitytls_tlsctx_server_require_client_authentication_}, unitytls_tlsctx_set_certificate_callback{unitytls_tlsctx_set_certificate_callback_}, unitytls_tlsctx_set_trace_callback{unitytls_tlsctx_set_trace_callback_}, unitytls_tlsctx_set_x509verify_callback{unitytls_tlsctx_set_x509verify_callback_}, unitytls_tlsctx_set_supported_ciphersuites{unitytls_tlsctx_set_supported_ciphersuites_}, unitytls_tlsctx_get_ciphersuite{unitytls_tlsctx_get_ciphersuite_}, unitytls_tlsctx_get_protocol{unitytls_tlsctx_get_protocol_}, unitytls_tlsctx_process_handshake{unitytls_tlsctx_process_handshake_}, unitytls_tlsctx_read{unitytls_tlsctx_read_}, unitytls_tlsctx_write{unitytls_tlsctx_write_}, unitytls_tlsctx_notify_close{unitytls_tlsctx_notify_close_}, unitytls_tlsctx_free{unitytls_tlsctx_free_}, unitytls_random_generate_bytes{unitytls_random_generate_bytes_} {}
     // Get instance field reference: public readonly System.UInt64 UNITYTLS_INVALID_HANDLE
     uint64_t& dyn_UNITYTLS_INVALID_HANDLE();
     // Get instance field reference: public readonly Mono.Unity.UnityTls/Mono.Unity.unitytls_tlsctx_protocolrange UNITYTLS_TLSCTX_PROTOCOLRANGE_DEFAULT
@@ -367,7 +355,7 @@ namespace Mono::Unity {
     // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_random_generate_bytes_t unitytls_random_generate_bytes
     Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_random_generate_bytes_t*& dyn_unitytls_random_generate_bytes();
     // public System.Void .ctor()
-    // Offset: 0x17A6AD4
+    // Offset: 0x18363E8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -380,7 +368,8 @@ namespace Mono::Unity {
   static check_size<sizeof(UnityTls::unitytls_interface_struct), 272 + sizeof(Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_random_generate_bytes_t*)> __Mono_Unity_UnityTls_unitytls_interface_structSizeCheck;
   static_assert(sizeof(UnityTls::unitytls_interface_struct) == 0x118);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTls::unitytls_interface_struct*, "Mono.Unity", "UnityTls/unitytls_interface_struct");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Unity::UnityTls::unitytls_interface_struct::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

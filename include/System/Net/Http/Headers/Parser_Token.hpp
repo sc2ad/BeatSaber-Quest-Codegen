@@ -3,19 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.Http.Headers.Parser
 #include "System/Net/Http/Headers/Parser.hpp"
 // Completed includes
-// Type namespace: System.Net.Http.Headers
-namespace System::Net::Http::Headers {
-  // Forward declaring type: Token
-  class Token;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::Http::Headers::Parser::Token);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::Parser::Token*, "System.Net.Http.Headers", "Parser/Token");
 // Type namespace: System.Net.Http.Headers
 namespace System::Net::Http::Headers {
   // Size: 0x10
@@ -24,16 +16,20 @@ namespace System::Net::Http::Headers {
   // [TokenAttribute] Offset: FFFFFFFF
   class Parser::Token : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: Token
+    Token() noexcept {}
     // static public System.Void Check(System.String s)
-    // Offset: 0x17389F4
+    // Offset: 0x17C4C30
     static void Check(::Il2CppString* s);
     // static public System.Boolean TryCheck(System.String s)
-    // Offset: 0x17348C4
+    // Offset: 0x17C0B00
     static bool TryCheck(::Il2CppString* s);
   }; // System.Net.Http.Headers.Parser/System.Net.Http.Headers.Token
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::Parser::Token*, "System.Net.Http.Headers", "Parser/Token");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Http::Headers::Parser::Token::Check
 // Il2CppName: Check
 template<>

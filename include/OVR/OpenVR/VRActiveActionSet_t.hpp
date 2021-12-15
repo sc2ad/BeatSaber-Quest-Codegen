@@ -4,17 +4,10 @@
 #pragma once
 // Begin includes
 #include <stdint.h>
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-// Type namespace: OVR.OpenVR
-namespace OVR::OpenVR {
-  // Forward declaring type: VRActiveActionSet_t
-  struct VRActiveActionSet_t;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VRActiveActionSet_t, "OVR.OpenVR", "VRActiveActionSet_t");
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
   // Size: 0x20
@@ -24,11 +17,6 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VRActiveActionSet_t/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.UInt64 ulActionSet
     // Size: 0x8
     // Offset: 0x0
@@ -59,7 +47,6 @@ namespace OVR::OpenVR {
     int nPriority;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: VRActiveActionSet_t
     constexpr VRActiveActionSet_t(uint64_t ulActionSet_ = {}, uint64_t ulRestrictedToDevice_ = {}, uint64_t ulSecondaryActionSet_ = {}, uint unPadding_ = {}, int nPriority_ = {}) noexcept : ulActionSet{ulActionSet_}, ulRestrictedToDevice{ulRestrictedToDevice_}, ulSecondaryActionSet{ulSecondaryActionSet_}, unPadding{unPadding_}, nPriority{nPriority_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -81,4 +68,6 @@ namespace OVR::OpenVR {
   static check_size<sizeof(VRActiveActionSet_t), 28 + sizeof(int)> __OVR_OpenVR_VRActiveActionSet_tSizeCheck;
   static_assert(sizeof(VRActiveActionSet_t) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VRActiveActionSet_t, "OVR.OpenVR", "VRActiveActionSet_t");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -3,16 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/typedefs.h"
 #include <initializer_list>
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.FromBinderGeneric`1
 #include "Zenject/FromBinderGeneric_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Zenject
@@ -30,6 +29,8 @@ namespace Zenject {
   class BindInfo;
   // Forward declaring type: BindStatement
   class BindStatement;
+  // Forward declaring type: InjectTypeInfo
+  class InjectTypeInfo;
 }
 // Forward declaring namespace: System
 namespace System {
@@ -46,14 +47,6 @@ namespace System::Collections::Generic {
   class IEnumerable_1;
 }
 // Completed forward declares
-// Type namespace: Zenject
-namespace Zenject {
-  // Forward declaring type: ConcreteBinderGeneric`1<TContract>
-  template<typename TContract>
-  class ConcreteBinderGeneric_1;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::ConcreteBinderGeneric_1, "Zenject", "ConcreteBinderGeneric`1");
 // Type namespace: Zenject
 namespace Zenject {
   // WARNING Size may be invalid!
@@ -74,18 +67,14 @@ namespace Zenject {
       using declaring_type = ConcreteBinderGeneric_1<TContract>*;
       static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass5_0";
       static constexpr bool IS_VALUE_TYPE = false;
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Type concreteType
       // Size: 0x8
       // Offset: 0x0
       System::Type* concreteType;
       // Field size check
       static_assert(sizeof(System::Type*) == 0x8);
-      public:
+      // Creating value type constructor for type: $$c__DisplayClass5_0
+      $$c__DisplayClass5_0(System::Type* concreteType_ = {}) noexcept : concreteType{concreteType_} {}
       // Creating conversion operator: operator System::Type*
       constexpr operator System::Type*() const noexcept {
         return concreteType;
@@ -103,7 +92,22 @@ namespace Zenject {
       bool $To$b__1(System::Type* contractType) {
         static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ConcreteBinderGeneric_1::$$c__DisplayClass5_0::<To>b__1");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<To>b__1", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(contractType)})));
-        return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, contractType);
+        auto ___instance_arg = this;
+        return ::il2cpp_utils::RunMethodThrow<bool, false>(___instance_arg, ___internal__method, contractType);
+      }
+      // static private System.Object __zenCreate(System.Object[] P_0)
+      // Offset: 0xFFFFFFFF
+      static ::Il2CppObject* __zenCreate(::Array<::Il2CppObject*>* P_0) {
+        static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ConcreteBinderGeneric_1::$$c__DisplayClass5_0::__zenCreate");
+        static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename ConcreteBinderGeneric_1<TContract>::$$c__DisplayClass5_0*>::get(), "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
+        return ::il2cpp_utils::RunMethodThrow<::Il2CppObject*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, P_0);
+      }
+      // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
+      // Offset: 0xFFFFFFFF
+      static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo() {
+        static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ConcreteBinderGeneric_1::$$c__DisplayClass5_0::__zenCreateInjectTypeInfo");
+        static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename ConcreteBinderGeneric_1<TContract>::$$c__DisplayClass5_0*>::get(), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+        return ::il2cpp_utils::RunMethodThrow<Zenject::InjectTypeInfo*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
       }
       // public System.Void .ctor()
       // Offset: 0xFFFFFFFF
@@ -116,12 +120,15 @@ namespace Zenject {
       }
     }; // Zenject.ConcreteBinderGeneric`1/Zenject.<>c__DisplayClass5_0
     // Could not write size check! Type: Zenject.ConcreteBinderGeneric`1/Zenject.<>c__DisplayClass5_0 is generic, or has no fields that are valid for size checks!
+    // Creating value type constructor for type: ConcreteBinderGeneric_1
+    ConcreteBinderGeneric_1() noexcept {}
     // public Zenject.FromBinderGeneric`1<TContract> ToSelf()
     // Offset: 0xFFFFFFFF
     Zenject::FromBinderGeneric_1<TContract>* ToSelf() {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ConcreteBinderGeneric_1::ToSelf");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ToSelf", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<Zenject::FromBinderGeneric_1<TContract>*, false>(this, ___internal__method);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<Zenject::FromBinderGeneric_1<TContract>*, false>(___instance_arg, ___internal__method);
     }
     // public Zenject.FromBinderGeneric`1<TConcrete> To()
     // Offset: 0xFFFFFFFF
@@ -131,42 +138,57 @@ namespace Zenject {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ConcreteBinderGeneric_1::To");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "To", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TConcrete>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TConcrete>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<Zenject::FromBinderGeneric_1<TConcrete>*, false>(this, ___generic__method);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<Zenject::FromBinderGeneric_1<TConcrete>*, false>(___instance_arg, ___generic__method);
     }
     // public Zenject.FromBinderNonGeneric To(params System.Type[] concreteTypes)
     // Offset: 0xFFFFFFFF
-    Zenject::FromBinderNonGeneric* To(::ArrayW<System::Type*> concreteTypes) {
+    Zenject::FromBinderNonGeneric* To(::Array<System::Type*>* concreteTypes) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ConcreteBinderGeneric_1::To");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "To", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(concreteTypes)})));
-      return ::il2cpp_utils::RunMethodThrow<Zenject::FromBinderNonGeneric*, false>(this, ___internal__method, concreteTypes);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<Zenject::FromBinderNonGeneric*, false>(___instance_arg, ___internal__method, concreteTypes);
+    }
+    // Creating initializer_list -> params proxy for: Zenject.FromBinderNonGeneric To(params System.Type[] concreteTypes)
+    Zenject::FromBinderNonGeneric* To(std::initializer_list<System::Type*> concreteTypes) {
+      return To(::Array<System::Type*>::New(concreteTypes));
+    }
+    // Creating TArgs -> initializer_list proxy for: Zenject.FromBinderNonGeneric To(params System.Type[] concreteTypes)
+    template<class ...TParams>
+    Zenject::FromBinderNonGeneric* To(TParams&&... concreteTypes) {
+      return To({concreteTypes...});
     }
     // public Zenject.FromBinderNonGeneric To(System.Collections.Generic.IEnumerable`1<System.Type> concreteTypes)
     // Offset: 0xFFFFFFFF
     Zenject::FromBinderNonGeneric* To(System::Collections::Generic::IEnumerable_1<System::Type*>* concreteTypes) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ConcreteBinderGeneric_1::To");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "To", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(concreteTypes)})));
-      return ::il2cpp_utils::RunMethodThrow<Zenject::FromBinderNonGeneric*, false>(this, ___internal__method, concreteTypes);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<Zenject::FromBinderNonGeneric*, false>(___instance_arg, ___internal__method, concreteTypes);
     }
     // public Zenject.FromBinderNonGeneric To(System.Action`1<Zenject.ConventionSelectTypesBinder> generator)
     // Offset: 0xFFFFFFFF
     Zenject::FromBinderNonGeneric* To(System::Action_1<Zenject::ConventionSelectTypesBinder*>* generator) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ConcreteBinderGeneric_1::To");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "To", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(generator)})));
-      return ::il2cpp_utils::RunMethodThrow<Zenject::FromBinderNonGeneric*, false>(this, ___internal__method, generator);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<Zenject::FromBinderNonGeneric*, false>(___instance_arg, ___internal__method, generator);
     }
     // private Zenject.IProvider <ToSelf>b__1_0(Zenject.DiContainer container, System.Type type)
     // Offset: 0xFFFFFFFF
     Zenject::IProvider* $ToSelf$b__1_0(Zenject::DiContainer* container, System::Type* type) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ConcreteBinderGeneric_1::<ToSelf>b__1_0");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<ToSelf>b__1_0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(container), ::il2cpp_utils::ExtractType(type)})));
-      return ::il2cpp_utils::RunMethodThrow<Zenject::IProvider*, false>(this, ___internal__method, container, type);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<Zenject::IProvider*, false>(___instance_arg, ___internal__method, container, type);
     }
     // private System.Boolean <To>b__5_0(System.Type concreteType)
     // Offset: 0xFFFFFFFF
     bool $To$b__5_0(System::Type* concreteType) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ConcreteBinderGeneric_1::<To>b__5_0");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<To>b__5_0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(concreteType)})));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, concreteType);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(___instance_arg, ___internal__method, concreteType);
     }
     // public System.Void .ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.BindStatement bindStatement)
     // Offset: 0xFFFFFFFF
@@ -181,4 +203,5 @@ namespace Zenject {
   }; // Zenject.ConcreteBinderGeneric`1
   // Could not write size check! Type: Zenject.ConcreteBinderGeneric`1 is generic, or has no fields that are valid for size checks!
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::ConcreteBinderGeneric_1, "Zenject", "ConcreteBinderGeneric`1");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

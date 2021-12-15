@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.Sockets.IPProtectionLevel
 #include "System/Net/Sockets/IPProtectionLevel.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Net.Configuration
-namespace System::Net::Configuration {
-  // Forward declaring type: SettingsSectionInternal
-  class SettingsSectionInternal;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::Configuration::SettingsSectionInternal);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::Configuration::SettingsSectionInternal*, "System.Net.Configuration", "SettingsSectionInternal");
 // Type namespace: System.Net.Configuration
 namespace System::Net::Configuration {
   // Size: 0x18
@@ -28,11 +20,6 @@ namespace System::Net::Configuration {
   // [TokenAttribute] Offset: FFFFFFFF
   class SettingsSectionInternal : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // readonly System.Boolean HttpListenerUnescapeRequestUrl
     // Size: 0x1
     // Offset: 0x10
@@ -47,7 +34,8 @@ namespace System::Net::Configuration {
     System::Net::Sockets::IPProtectionLevel IPProtectionLevel;
     // Field size check
     static_assert(sizeof(System::Net::Sockets::IPProtectionLevel) == 0x4);
-    public:
+    // Creating value type constructor for type: SettingsSectionInternal
+    SettingsSectionInternal(bool HttpListenerUnescapeRequestUrl_ = {}, System::Net::Sockets::IPProtectionLevel IPProtectionLevel_ = {}) noexcept : HttpListenerUnescapeRequestUrl{HttpListenerUnescapeRequestUrl_}, IPProtectionLevel{IPProtectionLevel_} {}
     // Get static field: static private readonly System.Net.Configuration.SettingsSectionInternal instance
     static System::Net::Configuration::SettingsSectionInternal* _get_instance();
     // Set static field: static private readonly System.Net.Configuration.SettingsSectionInternal instance
@@ -57,16 +45,16 @@ namespace System::Net::Configuration {
     // Get instance field reference: readonly System.Net.Sockets.IPProtectionLevel IPProtectionLevel
     System::Net::Sockets::IPProtectionLevel& dyn_IPProtectionLevel();
     // static System.Net.Configuration.SettingsSectionInternal get_Section()
-    // Offset: 0x1556C90
+    // Offset: 0x15E3F84
     static System::Net::Configuration::SettingsSectionInternal* get_Section();
     // System.Boolean get_Ipv6Enabled()
-    // Offset: 0x1556CF8
+    // Offset: 0x15E3FEC
     bool get_Ipv6Enabled();
     // static private System.Void .cctor()
-    // Offset: 0x1556D18
+    // Offset: 0x15E400C
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1556D00
+    // Offset: 0x15E3FF4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -79,7 +67,8 @@ namespace System::Net::Configuration {
   static check_size<sizeof(SettingsSectionInternal), 20 + sizeof(System::Net::Sockets::IPProtectionLevel)> __System_Net_Configuration_SettingsSectionInternalSizeCheck;
   static_assert(sizeof(SettingsSectionInternal) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Configuration::SettingsSectionInternal*, "System.Net.Configuration", "SettingsSectionInternal");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Configuration::SettingsSectionInternal::get_Section
 // Il2CppName: get_Section
 template<>

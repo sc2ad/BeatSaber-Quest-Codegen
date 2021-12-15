@@ -3,27 +3,19 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: TMPro.TMP_GlyphAdjustmentRecord
 #include "TMPro/TMP_GlyphAdjustmentRecord.hpp"
 // Including type: TMPro.FontFeatureLookupFlags
 #include "TMPro/FontFeatureLookupFlags.hpp"
 // Including type: UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord
 #include "UnityEngine/TextCore/LowLevel/GlyphPairAdjustmentRecord.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: TMPro
-namespace TMPro {
-  // Forward declaring type: TMP_GlyphPairAdjustmentRecord
-  class TMP_GlyphPairAdjustmentRecord;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(TMPro::TMP_GlyphPairAdjustmentRecord);
-DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_GlyphPairAdjustmentRecord*, "TMPro", "TMP_GlyphPairAdjustmentRecord");
 // Type namespace: TMPro
 namespace TMPro {
   // Size: 0x3C
@@ -32,11 +24,6 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class TMP_GlyphPairAdjustmentRecord : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private TMPro.TMP_GlyphAdjustmentRecord m_FirstAdjustmentRecord
     // Size: 0x14
     // Offset: 0x10
@@ -55,7 +42,8 @@ namespace TMPro {
     TMPro::FontFeatureLookupFlags m_FeatureLookupFlags;
     // Field size check
     static_assert(sizeof(TMPro::FontFeatureLookupFlags) == 0x4);
-    public:
+    // Creating value type constructor for type: TMP_GlyphPairAdjustmentRecord
+    TMP_GlyphPairAdjustmentRecord(TMPro::TMP_GlyphAdjustmentRecord m_FirstAdjustmentRecord_ = {}, TMPro::TMP_GlyphAdjustmentRecord m_SecondAdjustmentRecord_ = {}, TMPro::FontFeatureLookupFlags m_FeatureLookupFlags_ = {}) noexcept : m_FirstAdjustmentRecord{m_FirstAdjustmentRecord_}, m_SecondAdjustmentRecord{m_SecondAdjustmentRecord_}, m_FeatureLookupFlags{m_FeatureLookupFlags_} {}
     // Get instance field reference: private TMPro.TMP_GlyphAdjustmentRecord m_FirstAdjustmentRecord
     TMPro::TMP_GlyphAdjustmentRecord& dyn_m_FirstAdjustmentRecord();
     // Get instance field reference: private TMPro.TMP_GlyphAdjustmentRecord m_SecondAdjustmentRecord
@@ -63,32 +51,32 @@ namespace TMPro {
     // Get instance field reference: private TMPro.FontFeatureLookupFlags m_FeatureLookupFlags
     TMPro::FontFeatureLookupFlags& dyn_m_FeatureLookupFlags();
     // public TMPro.TMP_GlyphAdjustmentRecord get_firstAdjustmentRecord()
-    // Offset: 0x11F7B40
+    // Offset: 0x124E2B0
     TMPro::TMP_GlyphAdjustmentRecord get_firstAdjustmentRecord();
     // public System.Void set_firstAdjustmentRecord(TMPro.TMP_GlyphAdjustmentRecord value)
-    // Offset: 0x11F7B54
+    // Offset: 0x124E2C4
     void set_firstAdjustmentRecord(TMPro::TMP_GlyphAdjustmentRecord value);
     // public TMPro.TMP_GlyphAdjustmentRecord get_secondAdjustmentRecord()
-    // Offset: 0x11F7B68
+    // Offset: 0x124E2D8
     TMPro::TMP_GlyphAdjustmentRecord get_secondAdjustmentRecord();
     // public System.Void set_secondAdjustmentRecord(TMPro.TMP_GlyphAdjustmentRecord value)
-    // Offset: 0x11F7B7C
+    // Offset: 0x124E2EC
     void set_secondAdjustmentRecord(TMPro::TMP_GlyphAdjustmentRecord value);
     // public TMPro.FontFeatureLookupFlags get_featureLookupFlags()
-    // Offset: 0x11F7B90
+    // Offset: 0x124E300
     TMPro::FontFeatureLookupFlags get_featureLookupFlags();
     // public System.Void set_featureLookupFlags(TMPro.FontFeatureLookupFlags value)
-    // Offset: 0x11F7B98
+    // Offset: 0x124E308
     void set_featureLookupFlags(TMPro::FontFeatureLookupFlags value);
     // public System.Void .ctor(TMPro.TMP_GlyphAdjustmentRecord firstAdjustmentRecord, TMPro.TMP_GlyphAdjustmentRecord secondAdjustmentRecord)
-    // Offset: 0x11F6244
+    // Offset: 0x124C9B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_GlyphPairAdjustmentRecord* New_ctor(TMPro::TMP_GlyphAdjustmentRecord firstAdjustmentRecord, TMPro::TMP_GlyphAdjustmentRecord secondAdjustmentRecord) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_GlyphPairAdjustmentRecord::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_GlyphPairAdjustmentRecord*, creationType>(firstAdjustmentRecord, secondAdjustmentRecord)));
     }
     // System.Void .ctor(UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord glyphPairAdjustmentRecord)
-    // Offset: 0x11F5C84
+    // Offset: 0x124C3F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_GlyphPairAdjustmentRecord* New_ctor(UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord glyphPairAdjustmentRecord) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_GlyphPairAdjustmentRecord::.ctor");
@@ -99,7 +87,8 @@ namespace TMPro {
   static check_size<sizeof(TMP_GlyphPairAdjustmentRecord), 56 + sizeof(TMPro::FontFeatureLookupFlags)> __TMPro_TMP_GlyphPairAdjustmentRecordSizeCheck;
   static_assert(sizeof(TMP_GlyphPairAdjustmentRecord) == 0x3C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_GlyphPairAdjustmentRecord*, "TMPro", "TMP_GlyphPairAdjustmentRecord");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_GlyphPairAdjustmentRecord::get_firstAdjustmentRecord
 // Il2CppName: get_firstAdjustmentRecord
 template<>

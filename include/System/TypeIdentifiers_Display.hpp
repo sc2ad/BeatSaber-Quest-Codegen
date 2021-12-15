@@ -3,27 +3,19 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.TypeIdentifiers
 #include "System/TypeIdentifiers.hpp"
 // Including type: System.TypeNames/System.ATypeName
 #include "System/TypeNames_ATypeName.hpp"
 // Including type: System.TypeIdentifier
 #include "System/TypeIdentifier.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System
-namespace System {
-  // Forward declaring type: Display
-  class Display;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::TypeIdentifiers::Display);
-DEFINE_IL2CPP_ARG_TYPE(System::TypeIdentifiers::Display*, "System", "TypeIdentifiers/Display");
 // Type namespace: System
 namespace System {
   // Size: 0x20
@@ -32,11 +24,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class TypeIdentifiers::Display : public System::TypeNames::ATypeName/*, public System::TypeIdentifier*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.String displayName
     // Size: 0x8
     // Offset: 0x10
@@ -49,7 +36,8 @@ namespace System {
     ::Il2CppString* internal_name;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: Display
+    Display(::Il2CppString* displayName_ = {}, ::Il2CppString* internal_name_ = {}) noexcept : displayName{displayName_}, internal_name{internal_name_} {}
     // Creating interface conversion operator: operator System::TypeIdentifier
     operator System::TypeIdentifier() noexcept {
       return *reinterpret_cast<System::TypeIdentifier*>(this);
@@ -59,20 +47,20 @@ namespace System {
     // Get instance field reference: private System.String internal_name
     ::Il2CppString*& dyn_internal_name();
     // public System.String get_InternalName()
-    // Offset: 0x25161E8
+    // Offset: 0x25CE358
     ::Il2CppString* get_InternalName();
     // System.Void .ctor(System.String displayName)
-    // Offset: 0x25161AC
+    // Offset: 0x25CE31C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeIdentifiers::Display* New_ctor(::Il2CppString* displayName) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::TypeIdentifiers::Display::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeIdentifiers::Display*, creationType>(displayName)));
     }
     // private System.String GetInternalName()
-    // Offset: 0x2516218
+    // Offset: 0x25CE388
     ::Il2CppString* GetInternalName();
     // public override System.String get_DisplayName()
-    // Offset: 0x25161E0
+    // Offset: 0x25CE350
     // Implemented from: System.TypeNames/System.ATypeName
     // Base method: System.String ATypeName::get_DisplayName()
     ::Il2CppString* get_DisplayName();
@@ -81,7 +69,8 @@ namespace System {
   static check_size<sizeof(TypeIdentifiers::Display), 24 + sizeof(::Il2CppString*)> __System_TypeIdentifiers_DisplaySizeCheck;
   static_assert(sizeof(TypeIdentifiers::Display) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::TypeIdentifiers::Display*, "System", "TypeIdentifiers/Display");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::TypeIdentifiers::Display::get_InternalName
 // Il2CppName: get_InternalName
 template<>

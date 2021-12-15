@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRTracker
 #include "GlobalNamespace/OVRTracker.hpp"
 // Including type: System.ValueType
@@ -14,13 +14,6 @@
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
-  // Forward declaring type: Frustum
-  struct Frustum;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRTracker::Frustum, "", "OVRTracker/Frustum");
-// Type namespace: 
-namespace GlobalNamespace {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -28,11 +21,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct OVRTracker::Frustum/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Single nearZ
     // Size: 0x4
     // Offset: 0x0
@@ -51,7 +39,6 @@ namespace GlobalNamespace {
     UnityEngine::Vector2 fov;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector2) == 0x8);
-    public:
     // Creating value type constructor for type: Frustum
     constexpr Frustum(float nearZ_ = {}, float farZ_ = {}, UnityEngine::Vector2 fov_ = {}) noexcept : nearZ{nearZ_}, farZ{farZ_}, fov{fov_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -69,4 +56,6 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRTracker::Frustum), 8 + sizeof(UnityEngine::Vector2)> __GlobalNamespace_OVRTracker_FrustumSizeCheck;
   static_assert(sizeof(OVRTracker::Frustum) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRTracker::Frustum, "", "OVRTracker/Frustum");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

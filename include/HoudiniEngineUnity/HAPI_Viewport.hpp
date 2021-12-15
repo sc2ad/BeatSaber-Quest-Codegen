@@ -3,18 +3,18 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: HoudiniEngineUnity
-namespace HoudiniEngineUnity {
-  // Forward declaring type: HAPI_Viewport
-  struct HAPI_Viewport;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_Viewport, "HoudiniEngineUnity", "HAPI_Viewport");
+// Begin il2cpp-utils forward declares
+template<class T>
+struct Array;
+// Completed il2cpp-utils forward declares
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x14
@@ -24,54 +24,54 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HAPI_Viewport/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Single[] position
     // Size: 0x8
     // Offset: 0x0
-    ::ArrayW<float> position;
+    ::Array<float>* position;
     // Field size check
-    static_assert(sizeof(::ArrayW<float>) == 0x8);
+    static_assert(sizeof(::Array<float>*) == 0x8);
     // public System.Single[] rotationQuaternion
     // Size: 0x8
     // Offset: 0x8
-    ::ArrayW<float> rotationQuaternion;
+    ::Array<float>* rotationQuaternion;
     // Field size check
-    static_assert(sizeof(::ArrayW<float>) == 0x8);
+    static_assert(sizeof(::Array<float>*) == 0x8);
     // public System.Single offset
     // Size: 0x4
     // Offset: 0x10
     float offset;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
     // Creating value type constructor for type: HAPI_Viewport
-    constexpr HAPI_Viewport(::ArrayW<float> position_ = ::ArrayW<float>(nullptr), ::ArrayW<float> rotationQuaternion_ = ::ArrayW<float>(nullptr), float offset_ = {}) noexcept : position{position_}, rotationQuaternion{rotationQuaternion_}, offset{offset_} {}
+    constexpr HAPI_Viewport(::Array<float>* position_ = {}, ::Array<float>* rotationQuaternion_ = {}, float offset_ = {}) noexcept : position{position_}, rotationQuaternion{rotationQuaternion_}, offset{offset_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // Get instance field reference: public System.Single[] position
-    ::ArrayW<float>& dyn_position();
+    ::Array<float>*& dyn_position();
     // Get instance field reference: public System.Single[] rotationQuaternion
-    ::ArrayW<float>& dyn_rotationQuaternion();
+    ::Array<float>*& dyn_rotationQuaternion();
     // Get instance field reference: public System.Single offset
     float& dyn_offset();
     // public System.Void .ctor(System.Boolean initializeFields)
-    // Offset: 0x141E878
-    HAPI_Viewport(bool initializeFields);
+    // Offset: 0x1463398
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    HAPI_Viewport(bool initializeFields) {
+      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HAPI_Viewport::.ctor");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(initializeFields)})));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, initializeFields);
+    }
     // public System.Void Init()
-    // Offset: 0x141E908
+    // Offset: 0x1463428
     void Init();
   }; // HoudiniEngineUnity.HAPI_Viewport
   #pragma pack(pop)
   static check_size<sizeof(HAPI_Viewport), 16 + sizeof(float)> __HoudiniEngineUnity_HAPI_ViewportSizeCheck;
   static_assert(sizeof(HAPI_Viewport) == 0x14);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_Viewport, "HoudiniEngineUnity", "HAPI_Viewport");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HAPI_Viewport::HAPI_Viewport
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -3,19 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Timeline.TimelineAsset
 #include "UnityEngine/Timeline/TimelineAsset.hpp"
 // Completed includes
-// Type namespace: UnityEngine.Timeline
-namespace UnityEngine::Timeline {
-  // Forward declaring type: TimelineAssetUpgrade
-  class TimelineAssetUpgrade;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Timeline::TimelineAsset::TimelineAssetUpgrade);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineAsset::TimelineAssetUpgrade*, "UnityEngine.Timeline", "TimelineAsset/TimelineAssetUpgrade");
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {
   // Size: 0x10
@@ -24,7 +16,11 @@ namespace UnityEngine::Timeline {
   // [TokenAttribute] Offset: FFFFFFFF
   class TimelineAsset::TimelineAssetUpgrade : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: TimelineAssetUpgrade
+    TimelineAssetUpgrade() noexcept {}
   }; // UnityEngine.Timeline.TimelineAsset/UnityEngine.Timeline.TimelineAssetUpgrade
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineAsset::TimelineAssetUpgrade*, "UnityEngine.Timeline", "TimelineAsset/TimelineAssetUpgrade");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

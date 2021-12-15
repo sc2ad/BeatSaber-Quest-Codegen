@@ -3,24 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Collections.Generic.EqualityComparer`1
 #include "System/Collections/Generic/EqualityComparer_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Collections.Generic
-namespace System::Collections::Generic {
-  // Forward declaring type: InternalStringComparer
-  class InternalStringComparer;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Collections::Generic::InternalStringComparer);
-DEFINE_IL2CPP_ARG_TYPE(System::Collections::Generic::InternalStringComparer*, "System.Collections.Generic", "InternalStringComparer");
 // Type namespace: System.Collections.Generic
 namespace System::Collections::Generic {
   // WARNING Size may be invalid!
@@ -28,17 +19,19 @@ namespace System::Collections::Generic {
   // [TokenAttribute] Offset: FFFFFFFF
   class InternalStringComparer : public System::Collections::Generic::EqualityComparer_1<::Il2CppString*> {
     public:
+    // Creating value type constructor for type: InternalStringComparer
+    InternalStringComparer() noexcept {}
     // public System.Int32 GetHashCode(System.String obj)
-    // Offset: 0x19807F4
+    // Offset: 0x199EEA4
     int GetHashCode(::Il2CppString* obj);
     // public System.Boolean Equals(System.String x, System.String y)
-    // Offset: 0x1980814
+    // Offset: 0x199EEC4
     bool Equals(::Il2CppString* x, ::Il2CppString* y);
     // System.Int32 IndexOf(System.String[] array, System.String value, System.Int32 startIndex, System.Int32 count)
-    // Offset: 0x1980844
-    int IndexOf(::ArrayW<::Il2CppString*> array, ::Il2CppString* value, int startIndex, int count);
+    // Offset: 0x199EEF4
+    int IndexOf(::Array<::Il2CppString*>* array, ::Il2CppString* value, int startIndex, int count);
     // public System.Void .ctor()
-    // Offset: 0x19808AC
+    // Offset: 0x199EF5C
     // Implemented from: System.Collections.Generic.EqualityComparer`1
     // Base method: System.Void EqualityComparer_1::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -49,7 +42,8 @@ namespace System::Collections::Generic {
     }
   }; // System.Collections.Generic.InternalStringComparer
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Collections::Generic::InternalStringComparer*, "System.Collections.Generic", "InternalStringComparer");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::Generic::InternalStringComparer::GetHashCode
 // Il2CppName: GetHashCode
 template<>
@@ -72,7 +66,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Collections::Generic::InternalStringComparer::IndexOf
 // Il2CppName: IndexOf
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Collections::Generic::InternalStringComparer::*)(::ArrayW<::Il2CppString*>, ::Il2CppString*, int, int)>(&System::Collections::Generic::InternalStringComparer::IndexOf)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Collections::Generic::InternalStringComparer::*)(::Array<::Il2CppString*>*, ::Il2CppString*, int, int)>(&System::Collections::Generic::InternalStringComparer::IndexOf)> {
   static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

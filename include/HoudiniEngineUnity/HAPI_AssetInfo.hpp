@@ -3,17 +3,10 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-// Type namespace: HoudiniEngineUnity
-namespace HoudiniEngineUnity {
-  // Forward declaring type: HAPI_AssetInfo
-  struct HAPI_AssetInfo;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_AssetInfo, "HoudiniEngineUnity", "HAPI_AssetInfo");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x3E
@@ -23,11 +16,6 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HAPI_AssetInfo/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 nodeId
     // Size: 0x4
     // Offset: 0x0
@@ -132,7 +120,6 @@ namespace HoudiniEngineUnity {
     bool haveMaterialsChanged;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
     // Creating value type constructor for type: HAPI_AssetInfo
     constexpr HAPI_AssetInfo(int nodeId_ = {}, int objectNodeId_ = {}, bool hasEverCooked_ = {}, int nameSH_ = {}, int labelSH_ = {}, int filePathSH_ = {}, int versionSH_ = {}, int fullOpNameSH_ = {}, int helpTextSH_ = {}, int helpURLSH_ = {}, int objectCount_ = {}, int handleCount_ = {}, int transformInputCount_ = {}, int geoInputCount_ = {}, int geoOutputCount_ = {}, bool haveObjectsChanged_ = {}, bool haveMaterialsChanged_ = {}) noexcept : nodeId{nodeId_}, objectNodeId{objectNodeId_}, hasEverCooked{hasEverCooked_}, nameSH{nameSH_}, labelSH{labelSH_}, filePathSH{filePathSH_}, versionSH{versionSH_}, fullOpNameSH{fullOpNameSH_}, helpTextSH{helpTextSH_}, helpURLSH{helpURLSH_}, objectCount{objectCount_}, handleCount{handleCount_}, transformInputCount{transformInputCount_}, geoInputCount{geoInputCount_}, geoOutputCount{geoOutputCount_}, haveObjectsChanged{haveObjectsChanged_}, haveMaterialsChanged{haveMaterialsChanged_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -178,4 +165,6 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HAPI_AssetInfo), 61 + sizeof(bool)> __HoudiniEngineUnity_HAPI_AssetInfoSizeCheck;
   static_assert(sizeof(HAPI_AssetInfo) == 0x3E);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_AssetInfo, "HoudiniEngineUnity", "HAPI_AssetInfo");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: RootMotion.FinalIK.Recoil/RootMotion.FinalIK.RecoilOffset
 #include "RootMotion/FinalIK/Recoil_RecoilOffset.hpp"
 // Including type: RootMotion.FinalIK.FullBodyBipedEffector
 #include "RootMotion/FinalIK/FullBodyBipedEffector.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: RootMotion.FinalIK
-namespace RootMotion::FinalIK {
-  // Forward declaring type: EffectorLink
-  class EffectorLink;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::FinalIK::Recoil::RecoilOffset::EffectorLink);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Recoil::RecoilOffset::EffectorLink*, "RootMotion.FinalIK", "Recoil/RecoilOffset/EffectorLink");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
   // Size: 0x18
@@ -30,32 +22,28 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class Recoil::RecoilOffset::EffectorLink : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
-    // [TooltipAttribute] Offset: 0xEF7E04
+    // [TooltipAttribute] Offset: 0xF63510
     // public RootMotion.FinalIK.FullBodyBipedEffector effector
     // Size: 0x4
     // Offset: 0x10
     RootMotion::FinalIK::FullBodyBipedEffector effector;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::FullBodyBipedEffector) == 0x4);
-    // [TooltipAttribute] Offset: 0xEF7E3C
+    // [TooltipAttribute] Offset: 0xF63548
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x14
     float weight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
+    // Creating value type constructor for type: EffectorLink
+    EffectorLink(RootMotion::FinalIK::FullBodyBipedEffector effector_ = {}, float weight_ = {}) noexcept : effector{effector_}, weight{weight_} {}
     // Get instance field reference: public RootMotion.FinalIK.FullBodyBipedEffector effector
     RootMotion::FinalIK::FullBodyBipedEffector& dyn_effector();
     // Get instance field reference: public System.Single weight
     float& dyn_weight();
     // public System.Void .ctor()
-    // Offset: 0x1C4520C
+    // Offset: 0x1C9D304
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -68,7 +56,8 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(Recoil::RecoilOffset::EffectorLink), 20 + sizeof(float)> __RootMotion_FinalIK_Recoil_RecoilOffset_EffectorLinkSizeCheck;
   static_assert(sizeof(Recoil::RecoilOffset::EffectorLink) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Recoil::RecoilOffset::EffectorLink*, "RootMotion.FinalIK", "Recoil/RecoilOffset/EffectorLink");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::Recoil::RecoilOffset::EffectorLink::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

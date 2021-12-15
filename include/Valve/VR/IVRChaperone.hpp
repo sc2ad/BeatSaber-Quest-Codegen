@@ -3,7 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
@@ -12,13 +12,6 @@
 namespace Valve::VR {
 }
 // Completed forward declares
-// Type namespace: Valve.VR
-namespace Valve::VR {
-  // Forward declaring type: IVRChaperone
-  struct IVRChaperone;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRChaperone, "Valve.VR", "IVRChaperone");
 // Type namespace: Valve.VR
 namespace Valve::VR {
   // Size: 0x40
@@ -44,11 +37,6 @@ namespace Valve::VR {
     class _AreBoundsVisible;
     // Nested type: Valve::VR::IVRChaperone::_ForceBoundsVisible
     class _ForceBoundsVisible;
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // Valve.VR.IVRChaperone/Valve.VR._GetCalibrationState GetCalibrationState
     // Size: 0x8
     // Offset: 0x0
@@ -97,7 +85,6 @@ namespace Valve::VR {
     Valve::VR::IVRChaperone::_ForceBoundsVisible* ForceBoundsVisible;
     // Field size check
     static_assert(sizeof(Valve::VR::IVRChaperone::_ForceBoundsVisible*) == 0x8);
-    public:
     // Creating value type constructor for type: IVRChaperone
     constexpr IVRChaperone(Valve::VR::IVRChaperone::_GetCalibrationState* GetCalibrationState_ = {}, Valve::VR::IVRChaperone::_GetPlayAreaSize* GetPlayAreaSize_ = {}, Valve::VR::IVRChaperone::_GetPlayAreaRect* GetPlayAreaRect_ = {}, Valve::VR::IVRChaperone::_ReloadInfo* ReloadInfo_ = {}, Valve::VR::IVRChaperone::_SetSceneColor* SetSceneColor_ = {}, Valve::VR::IVRChaperone::_GetBoundsColor* GetBoundsColor_ = {}, Valve::VR::IVRChaperone::_AreBoundsVisible* AreBoundsVisible_ = {}, Valve::VR::IVRChaperone::_ForceBoundsVisible* ForceBoundsVisible_ = {}) noexcept : GetCalibrationState{GetCalibrationState_}, GetPlayAreaSize{GetPlayAreaSize_}, GetPlayAreaRect{GetPlayAreaRect_}, ReloadInfo{ReloadInfo_}, SetSceneColor{SetSceneColor_}, GetBoundsColor{GetBoundsColor_}, AreBoundsVisible{AreBoundsVisible_}, ForceBoundsVisible{ForceBoundsVisible_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -125,4 +112,6 @@ namespace Valve::VR {
   static check_size<sizeof(IVRChaperone), 56 + sizeof(Valve::VR::IVRChaperone::_ForceBoundsVisible*)> __Valve_VR_IVRChaperoneSizeCheck;
   static_assert(sizeof(IVRChaperone) == 0x40);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRChaperone, "Valve.VR", "IVRChaperone");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

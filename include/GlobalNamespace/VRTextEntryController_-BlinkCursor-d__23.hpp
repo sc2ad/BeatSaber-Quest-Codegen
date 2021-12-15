@@ -3,27 +3,19 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: VRTextEntryController
 #include "GlobalNamespace/VRTextEntryController.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
 #include "System/Collections/Generic/IEnumerator_1.hpp"
 // Including type: UnityEngine.Color
 #include "UnityEngine/Color.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <BlinkCursor>d__23
-  class $BlinkCursor$d__23;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::VRTextEntryController::$BlinkCursor$d__23);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRTextEntryController::$BlinkCursor$d__23*, "", "VRTextEntryController/<BlinkCursor>d__23");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x38
@@ -33,11 +25,6 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class VRTextEntryController::$BlinkCursor$d__23 : public ::Il2CppObject/*, public System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -64,7 +51,8 @@ namespace GlobalNamespace {
     UnityEngine::Color $cursorColor$5__2;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
-    public:
+    // Creating value type constructor for type: $BlinkCursor$d__23
+    $BlinkCursor$d__23(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, GlobalNamespace::VRTextEntryController* $$4__this_ = {}, UnityEngine::Color $cursorColor$5__2_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$4__this{$$4__this_}, $cursorColor$5__2{$cursorColor$5__2_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
@@ -78,33 +66,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Color <cursorColor>5__2
     UnityEngine::Color& dyn_$cursorColor$5__2();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x1272A28
+    // Offset: 0x1BDC95C
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1272A90
+    // Offset: 0x1BDC9C4
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x12726AC
+    // Offset: 0x1BDC5D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRTextEntryController::$BlinkCursor$d__23* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::VRTextEntryController::$BlinkCursor$d__23::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRTextEntryController::$BlinkCursor$d__23*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x12728C0
+    // Offset: 0x1BDC7F4
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x12728C4
+    // Offset: 0x1BDC7F8
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1272A30
+    // Offset: 0x1BDC964
     void System_Collections_IEnumerator_Reset();
   }; // VRTextEntryController/<BlinkCursor>d__23
   #pragma pack(pop)
   static check_size<sizeof(VRTextEntryController::$BlinkCursor$d__23), 40 + sizeof(UnityEngine::Color)> __GlobalNamespace_VRTextEntryController_$BlinkCursor$d__23SizeCheck;
   static_assert(sizeof(VRTextEntryController::$BlinkCursor$d__23) == 0x38);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRTextEntryController::$BlinkCursor$d__23*, "", "VRTextEntryController/<BlinkCursor>d__23");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::VRTextEntryController::$BlinkCursor$d__23::System_Collections_Generic_IEnumerator$System_Object$_get_Current
 // Il2CppName: System.Collections.Generic.IEnumerator<System.Object>.get_Current
 template<>

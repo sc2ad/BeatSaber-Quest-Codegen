@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: SaberSwingRatingCounter
 #include "GlobalNamespace/SaberSwingRatingCounter.hpp"
 // Including type: Zenject.MemoryPool`1
 #include "Zenject/MemoryPool_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: Pool
-  class Pool;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::SaberSwingRatingCounter::Pool);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberSwingRatingCounter::Pool*, "", "SaberSwingRatingCounter/Pool");
 // Type namespace: 
 namespace GlobalNamespace {
   // WARNING Size may be invalid!
@@ -29,8 +21,10 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SaberSwingRatingCounter::Pool : public Zenject::MemoryPool_1<GlobalNamespace::SaberSwingRatingCounter*> {
     public:
+    // Creating value type constructor for type: Pool
+    Pool() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x119EF64
+    // Offset: 0x122C258
     // Implemented from: Zenject.MemoryPool`1
     // Base method: System.Void MemoryPool_1::.ctor()
     // Base method: System.Void MemoryPoolBase_1::.ctor()
@@ -42,7 +36,8 @@ namespace GlobalNamespace {
     }
   }; // SaberSwingRatingCounter/Pool
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberSwingRatingCounter::Pool*, "", "SaberSwingRatingCounter/Pool");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SaberSwingRatingCounter::Pool::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

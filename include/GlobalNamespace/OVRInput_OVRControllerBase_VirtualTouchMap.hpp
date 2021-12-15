@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRInput/OVRControllerBase
 #include "GlobalNamespace/OVRInput_OVRControllerBase.hpp"
 // Including type: OVRInput/RawTouch
 #include "GlobalNamespace/OVRInput_RawTouch.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: VirtualTouchMap
-  class VirtualTouchMap;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRInput::OVRControllerBase::VirtualTouchMap);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OVRControllerBase::VirtualTouchMap*, "", "OVRInput/OVRControllerBase/VirtualTouchMap");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x44
@@ -30,11 +22,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRInput::OVRControllerBase::VirtualTouchMap : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public OVRInput/RawTouch None
     // Size: 0x4
     // Offset: 0x10
@@ -113,7 +100,8 @@ namespace GlobalNamespace {
     GlobalNamespace::OVRInput::RawTouch SecondaryTouchpad;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRInput::RawTouch) == 0x4);
-    public:
+    // Creating value type constructor for type: VirtualTouchMap
+    VirtualTouchMap(GlobalNamespace::OVRInput::RawTouch None_ = {}, GlobalNamespace::OVRInput::RawTouch One_ = {}, GlobalNamespace::OVRInput::RawTouch Two_ = {}, GlobalNamespace::OVRInput::RawTouch Three_ = {}, GlobalNamespace::OVRInput::RawTouch Four_ = {}, GlobalNamespace::OVRInput::RawTouch PrimaryIndexTrigger_ = {}, GlobalNamespace::OVRInput::RawTouch PrimaryThumbstick_ = {}, GlobalNamespace::OVRInput::RawTouch PrimaryThumbRest_ = {}, GlobalNamespace::OVRInput::RawTouch PrimaryTouchpad_ = {}, GlobalNamespace::OVRInput::RawTouch SecondaryIndexTrigger_ = {}, GlobalNamespace::OVRInput::RawTouch SecondaryThumbstick_ = {}, GlobalNamespace::OVRInput::RawTouch SecondaryThumbRest_ = {}, GlobalNamespace::OVRInput::RawTouch SecondaryTouchpad_ = {}) noexcept : None{None_}, One{One_}, Two{Two_}, Three{Three_}, Four{Four_}, PrimaryIndexTrigger{PrimaryIndexTrigger_}, PrimaryThumbstick{PrimaryThumbstick_}, PrimaryThumbRest{PrimaryThumbRest_}, PrimaryTouchpad{PrimaryTouchpad_}, SecondaryIndexTrigger{SecondaryIndexTrigger_}, SecondaryThumbstick{SecondaryThumbstick_}, SecondaryThumbRest{SecondaryThumbRest_}, SecondaryTouchpad{SecondaryTouchpad_} {}
     // Get instance field reference: public OVRInput/RawTouch None
     GlobalNamespace::OVRInput::RawTouch& dyn_None();
     // Get instance field reference: public OVRInput/RawTouch One
@@ -141,10 +129,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public OVRInput/RawTouch SecondaryTouchpad
     GlobalNamespace::OVRInput::RawTouch& dyn_SecondaryTouchpad();
     // public OVRInput/RawTouch ToRawMask(OVRInput/Touch virtualMask)
-    // Offset: 0x16B2C18
+    // Offset: 0x1770034
     GlobalNamespace::OVRInput::RawTouch ToRawMask(GlobalNamespace::OVRInput::Touch virtualMask);
     // public System.Void .ctor()
-    // Offset: 0x16B1F48
+    // Offset: 0x176F364
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -157,7 +145,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRInput::OVRControllerBase::VirtualTouchMap), 64 + sizeof(GlobalNamespace::OVRInput::RawTouch)> __GlobalNamespace_OVRInput_OVRControllerBase_VirtualTouchMapSizeCheck;
   static_assert(sizeof(OVRInput::OVRControllerBase::VirtualTouchMap) == 0x44);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OVRControllerBase::VirtualTouchMap*, "", "OVRInput/OVRControllerBase/VirtualTouchMap");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::OVRControllerBase::VirtualTouchMap::ToRawMask
 // Il2CppName: ToRawMask
 template<>

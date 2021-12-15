@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: TrackLaneRingsRotationEffect
 #include "GlobalNamespace/TrackLaneRingsRotationEffect.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: RingRotationEffect
-  class RingRotationEffect;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::TrackLaneRingsRotationEffect::RingRotationEffect);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrackLaneRingsRotationEffect::RingRotationEffect*, "", "TrackLaneRingsRotationEffect/RingRotationEffect");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x24
@@ -28,11 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TrackLaneRingsRotationEffect::RingRotationEffect : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Single rotationAngle
     // Size: 0x4
     // Offset: 0x10
@@ -63,7 +50,8 @@ namespace GlobalNamespace {
     int progressPos;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
+    // Creating value type constructor for type: RingRotationEffect
+    RingRotationEffect(float rotationAngle_ = {}, float rotationStep_ = {}, float rotationFlexySpeed_ = {}, int rotationPropagationSpeed_ = {}, int progressPos_ = {}) noexcept : rotationAngle{rotationAngle_}, rotationStep{rotationStep_}, rotationFlexySpeed{rotationFlexySpeed_}, rotationPropagationSpeed{rotationPropagationSpeed_}, progressPos{progressPos_} {}
     // Get instance field reference: public System.Single rotationAngle
     float& dyn_rotationAngle();
     // Get instance field reference: public System.Single rotationStep
@@ -75,7 +63,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 progressPos
     int& dyn_progressPos();
     // public System.Void .ctor()
-    // Offset: 0x115EB20
+    // Offset: 0x12049EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -88,7 +76,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(TrackLaneRingsRotationEffect::RingRotationEffect), 32 + sizeof(int)> __GlobalNamespace_TrackLaneRingsRotationEffect_RingRotationEffectSizeCheck;
   static_assert(sizeof(TrackLaneRingsRotationEffect::RingRotationEffect) == 0x24);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrackLaneRingsRotationEffect::RingRotationEffect*, "", "TrackLaneRingsRotationEffect/RingRotationEffect");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TrackLaneRingsRotationEffect::RingRotationEffect::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

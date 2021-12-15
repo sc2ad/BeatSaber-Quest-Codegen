@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Security.Cryptography.RSAPKCS1SignatureDescription
 #include "System/Security/Cryptography/RSAPKCS1SignatureDescription.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Security.Cryptography
-namespace System::Security::Cryptography {
-  // Forward declaring type: RSAPKCS1SHA384SignatureDescription
-  class RSAPKCS1SHA384SignatureDescription;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Security::Cryptography::RSAPKCS1SHA384SignatureDescription);
-DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RSAPKCS1SHA384SignatureDescription*, "System.Security.Cryptography", "RSAPKCS1SHA384SignatureDescription");
 // Type namespace: System.Security.Cryptography
 namespace System::Security::Cryptography {
   // Size: 0x38
@@ -28,8 +20,10 @@ namespace System::Security::Cryptography {
   // [TokenAttribute] Offset: FFFFFFFF
   class RSAPKCS1SHA384SignatureDescription : public System::Security::Cryptography::RSAPKCS1SignatureDescription {
     public:
+    // Creating value type constructor for type: RSAPKCS1SHA384SignatureDescription
+    RSAPKCS1SHA384SignatureDescription() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1CA6724
+    // Offset: 0x1D1618C
     // Implemented from: System.Security.Cryptography.SignatureDescription
     // Base method: System.Void SignatureDescription::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -41,7 +35,8 @@ namespace System::Security::Cryptography {
   }; // System.Security.Cryptography.RSAPKCS1SHA384SignatureDescription
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RSAPKCS1SHA384SignatureDescription*, "System.Security.Cryptography", "RSAPKCS1SHA384SignatureDescription");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::RSAPKCS1SHA384SignatureDescription::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

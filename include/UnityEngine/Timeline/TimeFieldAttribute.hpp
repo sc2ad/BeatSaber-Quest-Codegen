@@ -3,16 +3,16 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.PropertyAttribute
 #include "UnityEngine/PropertyAttribute.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Timeline
@@ -20,14 +20,6 @@ namespace UnityEngine::Timeline {
   // Skipping declaration: UseEditMode because it is already included!
 }
 // Completed forward declares
-// Type namespace: UnityEngine.Timeline
-namespace UnityEngine::Timeline {
-  // Forward declaring type: TimeFieldAttribute
-  class TimeFieldAttribute;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Timeline::TimeFieldAttribute);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimeFieldAttribute*, "UnityEngine.Timeline", "TimeFieldAttribute");
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {
   // Size: 0x14
@@ -44,18 +36,12 @@ namespace UnityEngine::Timeline {
     // [TokenAttribute] Offset: FFFFFFFF
     struct UseEditMode/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: UseEditMode
       constexpr UseEditMode(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -84,18 +70,14 @@ namespace UnityEngine::Timeline {
     #pragma pack(pop)
     static check_size<sizeof(TimeFieldAttribute::UseEditMode), 0 + sizeof(int)> __UnityEngine_Timeline_TimeFieldAttribute_UseEditModeSizeCheck;
     static_assert(sizeof(TimeFieldAttribute::UseEditMode) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private readonly UnityEngine.Timeline.TimeFieldAttribute/UnityEngine.Timeline.UseEditMode <useEditMode>k__BackingField
     // Size: 0x4
     // Offset: 0x10
     UnityEngine::Timeline::TimeFieldAttribute::UseEditMode useEditMode;
     // Field size check
     static_assert(sizeof(UnityEngine::Timeline::TimeFieldAttribute::UseEditMode) == 0x4);
-    public:
+    // Creating value type constructor for type: TimeFieldAttribute
+    TimeFieldAttribute(UnityEngine::Timeline::TimeFieldAttribute::UseEditMode useEditMode_ = {}) noexcept : useEditMode{useEditMode_} {}
     // Creating conversion operator: operator UnityEngine::Timeline::TimeFieldAttribute::UseEditMode
     constexpr operator UnityEngine::Timeline::TimeFieldAttribute::UseEditMode() const noexcept {
       return useEditMode;
@@ -103,10 +85,10 @@ namespace UnityEngine::Timeline {
     // Get instance field reference: private readonly UnityEngine.Timeline.TimeFieldAttribute/UnityEngine.Timeline.UseEditMode <useEditMode>k__BackingField
     UnityEngine::Timeline::TimeFieldAttribute::UseEditMode& dyn_$useEditMode$k__BackingField();
     // public UnityEngine.Timeline.TimeFieldAttribute/UnityEngine.Timeline.UseEditMode get_useEditMode()
-    // Offset: 0x19E48F0
+    // Offset: 0x1A02FA0
     UnityEngine::Timeline::TimeFieldAttribute::UseEditMode get_useEditMode();
     // public System.Void .ctor(UnityEngine.Timeline.TimeFieldAttribute/UnityEngine.Timeline.UseEditMode useEditMode)
-    // Offset: 0x19E48F8
+    // Offset: 0x1A02FA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimeFieldAttribute* New_ctor(UnityEngine::Timeline::TimeFieldAttribute::UseEditMode useEditMode) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::TimeFieldAttribute::.ctor");
@@ -117,9 +99,9 @@ namespace UnityEngine::Timeline {
   static check_size<sizeof(TimeFieldAttribute), 16 + sizeof(UnityEngine::Timeline::TimeFieldAttribute::UseEditMode)> __UnityEngine_Timeline_TimeFieldAttributeSizeCheck;
   static_assert(sizeof(TimeFieldAttribute) == 0x14);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimeFieldAttribute*, "UnityEngine.Timeline", "TimeFieldAttribute");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimeFieldAttribute::UseEditMode, "UnityEngine.Timeline", "TimeFieldAttribute/UseEditMode");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimeFieldAttribute::get_useEditMode
 // Il2CppName: get_useEditMode
 template<>

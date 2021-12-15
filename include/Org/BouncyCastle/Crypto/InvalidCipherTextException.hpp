@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Crypto.CryptoException
 #include "Org/BouncyCastle/Crypto/CryptoException.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Org.BouncyCastle.Crypto
-namespace Org::BouncyCastle::Crypto {
-  // Forward declaring type: InvalidCipherTextException
-  class InvalidCipherTextException;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Crypto::InvalidCipherTextException);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::InvalidCipherTextException*, "Org.BouncyCastle.Crypto", "InvalidCipherTextException");
 // Type namespace: Org.BouncyCastle.Crypto
 namespace Org::BouncyCastle::Crypto {
   // Size: 0x88
@@ -28,8 +20,10 @@ namespace Org::BouncyCastle::Crypto {
   // [TokenAttribute] Offset: FFFFFFFF
   class InvalidCipherTextException : public Org::BouncyCastle::Crypto::CryptoException {
     public:
+    // Creating value type constructor for type: InvalidCipherTextException
+    InvalidCipherTextException() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1A68168
+    // Offset: 0x1ABC294
     // Implemented from: Org.BouncyCastle.Crypto.CryptoException
     // Base method: System.Void CryptoException::.ctor()
     // Base method: System.Void Exception::.ctor()
@@ -40,7 +34,7 @@ namespace Org::BouncyCastle::Crypto {
       return THROW_UNLESS((::il2cpp_utils::New<InvalidCipherTextException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
-    // Offset: 0x1A68170
+    // Offset: 0x1ABC29C
     // Implemented from: Org.BouncyCastle.Crypto.CryptoException
     // Base method: System.Void CryptoException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
@@ -52,7 +46,8 @@ namespace Org::BouncyCastle::Crypto {
   }; // Org.BouncyCastle.Crypto.InvalidCipherTextException
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::InvalidCipherTextException*, "Org.BouncyCastle.Crypto", "InvalidCipherTextException");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::InvalidCipherTextException::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

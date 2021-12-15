@@ -3,19 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ComponentModel.ReferenceConverter
 #include "System/ComponentModel/ReferenceConverter.hpp"
 // Completed includes
-// Type namespace: System.ComponentModel
-namespace System::ComponentModel {
-  // Forward declaring type: ComponentConverter
-  class ComponentConverter;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::ComponentModel::ComponentConverter);
-DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::ComponentConverter*, "System.ComponentModel", "ComponentConverter");
 // Type namespace: System.ComponentModel
 namespace System::ComponentModel {
   // Size: 0x10
@@ -24,7 +16,11 @@ namespace System::ComponentModel {
   // [TokenAttribute] Offset: FFFFFFFF
   class ComponentConverter : public System::ComponentModel::ReferenceConverter {
     public:
+    // Creating value type constructor for type: ComponentConverter
+    ComponentConverter() noexcept {}
   }; // System.ComponentModel.ComponentConverter
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::ComponentConverter*, "System.ComponentModel", "ComponentConverter");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

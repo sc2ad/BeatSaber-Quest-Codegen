@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PersistentScriptableObject
 #include "GlobalNamespace/PersistentScriptableObject.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: SceneInfo
-  class SceneInfo;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::SceneInfo);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SceneInfo*, "", "SceneInfo");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x21
@@ -28,11 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SceneInfo : public GlobalNamespace::PersistentScriptableObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.String _sceneName
     // Size: 0x8
     // Offset: 0x18
@@ -45,7 +32,8 @@ namespace GlobalNamespace {
     bool disabledRootObjects;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: SceneInfo
+    SceneInfo(::Il2CppString* sceneName_ = {}, bool disabledRootObjects_ = {}) noexcept : sceneName{sceneName_}, disabledRootObjects{disabledRootObjects_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _sceneName
@@ -53,13 +41,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _disabledRootObjects
     bool& dyn__disabledRootObjects();
     // public System.String get_sceneName()
-    // Offset: 0x257D46C
+    // Offset: 0x263ED04
     ::Il2CppString* get_sceneName();
     // public System.Boolean get_disabledRootObjects()
-    // Offset: 0x257D474
+    // Offset: 0x263ED0C
     bool get_disabledRootObjects();
     // public System.Void .ctor()
-    // Offset: 0x257D47C
+    // Offset: 0x263ED14
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -75,7 +63,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(SceneInfo), 32 + sizeof(bool)> __GlobalNamespace_SceneInfoSizeCheck;
   static_assert(sizeof(SceneInfo) == 0x21);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SceneInfo*, "", "SceneInfo");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SceneInfo::get_sceneName
 // Il2CppName: get_sceneName
 template<>

@@ -3,21 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: MainEffectCore
-  class MainEffectCore;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MainEffectCore);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainEffectCore*, "", "MainEffectCore");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -26,24 +18,26 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MainEffectCore : public ::Il2CppObject {
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEEB4C8
+    // Creating value type constructor for type: MainEffectCore
+    MainEffectCore() noexcept {}
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF2C9C0
     // Get static field: static private readonly System.Int32 _baseColorBoostID
     static int _get__baseColorBoostID();
     // Set static field: static private readonly System.Int32 _baseColorBoostID
     static void _set__baseColorBoostID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEEB4D8
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF2C9D0
     // Get static field: static private readonly System.Int32 _baseColorBoostThresholdID
     static int _get__baseColorBoostThresholdID();
     // Set static field: static private readonly System.Int32 _baseColorBoostThresholdID
     static void _set__baseColorBoostThresholdID(int value);
     // static private System.Void .cctor()
-    // Offset: 0x256D9B4
+    // Offset: 0x262F160
     static void _cctor();
     // static public System.Void SetGlobalShaderValues(System.Single baseColorBoost, System.Single baseColorBoostThreshold)
-    // Offset: 0x256CD6C
+    // Offset: 0x262E518
     static void SetGlobalShaderValues(float baseColorBoost, float baseColorBoostThreshold);
     // public System.Void .ctor()
-    // Offset: 0x256D9AC
+    // Offset: 0x262F158
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -54,7 +48,8 @@ namespace GlobalNamespace {
   }; // MainEffectCore
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainEffectCore*, "", "MainEffectCore");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MainEffectCore::_cctor
 // Il2CppName: .cctor
 template<>

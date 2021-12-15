@@ -4,17 +4,10 @@
 #pragma once
 // Begin includes
 #include <stdint.h>
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-// Type namespace: Valve.VR
-namespace Valve::VR {
-  // Forward declaring type: VREvent_EditingCameraSurface_t
-  struct VREvent_EditingCameraSurface_t;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VREvent_EditingCameraSurface_t, "Valve.VR", "VREvent_EditingCameraSurface_t");
 // Type namespace: Valve.VR
 namespace Valve::VR {
   // Size: 0xC
@@ -24,11 +17,6 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VREvent_EditingCameraSurface_t/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.UInt64 overlayHandle
     // Size: 0x8
     // Offset: 0x0
@@ -41,7 +29,6 @@ namespace Valve::VR {
     uint nVisualMode;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
-    public:
     // Creating value type constructor for type: VREvent_EditingCameraSurface_t
     constexpr VREvent_EditingCameraSurface_t(uint64_t overlayHandle_ = {}, uint nVisualMode_ = {}) noexcept : overlayHandle{overlayHandle_}, nVisualMode{nVisualMode_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -57,4 +44,6 @@ namespace Valve::VR {
   static check_size<sizeof(VREvent_EditingCameraSurface_t), 8 + sizeof(uint)> __Valve_VR_VREvent_EditingCameraSurface_tSizeCheck;
   static_assert(sizeof(VREvent_EditingCameraSurface_t) == 0xC);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VREvent_EditingCameraSurface_t, "Valve.VR", "VREvent_EditingCameraSurface_t");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

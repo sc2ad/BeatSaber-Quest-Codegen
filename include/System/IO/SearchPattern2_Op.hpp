@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IO.SearchPattern2
 #include "System/IO/SearchPattern2.hpp"
 // Including type: System.IO.SearchPattern2/System.IO.OpCode
 #include "System/IO/SearchPattern2_OpCode.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.IO
-namespace System::IO {
-  // Forward declaring type: Op
-  class Op;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::IO::SearchPattern2::Op);
-DEFINE_IL2CPP_ARG_TYPE(System::IO::SearchPattern2::Op*, "System.IO", "SearchPattern2/Op");
 // Type namespace: System.IO
 namespace System::IO {
   // Size: 0x28
@@ -30,11 +22,6 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   class SearchPattern2::Op : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.IO.SearchPattern2/System.IO.OpCode Code
     // Size: 0x4
     // Offset: 0x10
@@ -55,7 +42,8 @@ namespace System::IO {
     System::IO::SearchPattern2::Op* Next;
     // Field size check
     static_assert(sizeof(System::IO::SearchPattern2::Op*) == 0x8);
-    public:
+    // Creating value type constructor for type: Op
+    Op(System::IO::SearchPattern2::OpCode Code_ = {}, ::Il2CppString* Argument_ = {}, System::IO::SearchPattern2::Op* Next_ = {}) noexcept : Code{Code_}, Argument{Argument_}, Next{Next_} {}
     // Get instance field reference: public System.IO.SearchPattern2/System.IO.OpCode Code
     System::IO::SearchPattern2::OpCode& dyn_Code();
     // Get instance field reference: public System.String Argument
@@ -63,7 +51,7 @@ namespace System::IO {
     // Get instance field reference: public System.IO.SearchPattern2/System.IO.Op Next
     System::IO::SearchPattern2::Op*& dyn_Next();
     // public System.Void .ctor(System.IO.SearchPattern2/System.IO.OpCode code)
-    // Offset: 0x1A189D8
+    // Offset: 0x1A380F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SearchPattern2::Op* New_ctor(System::IO::SearchPattern2::OpCode code) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::SearchPattern2::Op::.ctor");
@@ -74,7 +62,8 @@ namespace System::IO {
   static check_size<sizeof(SearchPattern2::Op), 32 + sizeof(System::IO::SearchPattern2::Op*)> __System_IO_SearchPattern2_OpSizeCheck;
   static_assert(sizeof(SearchPattern2::Op) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::IO::SearchPattern2::Op*, "System.IO", "SearchPattern2/Op");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::SearchPattern2::Op::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

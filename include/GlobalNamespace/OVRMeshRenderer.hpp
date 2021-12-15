@@ -3,16 +3,14 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
-// Including type: System.Enum
-#include "System/Enum.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -30,14 +28,6 @@ namespace UnityEngine {
   class Material;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: OVRMeshRenderer
-  class OVRMeshRenderer;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRMeshRenderer);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMeshRenderer*, "", "OVRMeshRenderer");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x54
@@ -60,18 +50,12 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct ConfidenceBehavior/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: ConfidenceBehavior
       constexpr ConfidenceBehavior(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -106,18 +90,12 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct SystemGestureBehavior/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: SystemGestureBehavior
       constexpr SystemGestureBehavior(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -146,11 +124,6 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(OVRMeshRenderer::SystemGestureBehavior), 0 + sizeof(int)> __GlobalNamespace_OVRMeshRenderer_SystemGestureBehaviorSizeCheck;
     static_assert(sizeof(OVRMeshRenderer::SystemGestureBehavior) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private OVRMeshRenderer/IOVRMeshRendererDataProvider _dataProvider
     // Size: 0x8
     // Offset: 0x18
@@ -223,7 +196,8 @@ namespace GlobalNamespace {
     bool ShouldUseSystemGestureMaterial;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: OVRMeshRenderer
+    OVRMeshRenderer(GlobalNamespace::OVRMeshRenderer::IOVRMeshRendererDataProvider* dataProvider_ = {}, GlobalNamespace::OVRMesh* ovrMesh_ = {}, GlobalNamespace::OVRSkeleton* ovrSkeleton_ = {}, GlobalNamespace::OVRMeshRenderer::ConfidenceBehavior confidenceBehavior_ = {}, GlobalNamespace::OVRMeshRenderer::SystemGestureBehavior systemGestureBehavior_ = {}, UnityEngine::Material* systemGestureMaterial_ = {}, UnityEngine::Material* originalMaterial_ = {}, UnityEngine::SkinnedMeshRenderer* skinnedMeshRenderer_ = {}, bool IsInitialized_ = {}, bool IsDataValid_ = {}, bool IsDataHighConfidence_ = {}, bool ShouldUseSystemGestureMaterial_ = {}) noexcept : dataProvider{dataProvider_}, ovrMesh{ovrMesh_}, ovrSkeleton{ovrSkeleton_}, confidenceBehavior{confidenceBehavior_}, systemGestureBehavior{systemGestureBehavior_}, systemGestureMaterial{systemGestureMaterial_}, originalMaterial{originalMaterial_}, skinnedMeshRenderer{skinnedMeshRenderer_}, IsInitialized{IsInitialized_}, IsDataValid{IsDataValid_}, IsDataHighConfidence{IsDataHighConfidence_}, ShouldUseSystemGestureMaterial{ShouldUseSystemGestureMaterial_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private OVRMeshRenderer/IOVRMeshRendererDataProvider _dataProvider
@@ -251,46 +225,46 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean <ShouldUseSystemGestureMaterial>k__BackingField
     bool& dyn_$ShouldUseSystemGestureMaterial$k__BackingField();
     // public System.Boolean get_IsInitialized()
-    // Offset: 0x14468D8
+    // Offset: 0x14760BC
     bool get_IsInitialized();
     // private System.Void set_IsInitialized(System.Boolean value)
-    // Offset: 0x14468E0
+    // Offset: 0x14760C4
     void set_IsInitialized(bool value);
     // public System.Boolean get_IsDataValid()
-    // Offset: 0x14468EC
+    // Offset: 0x14760D0
     bool get_IsDataValid();
     // private System.Void set_IsDataValid(System.Boolean value)
-    // Offset: 0x14468F4
+    // Offset: 0x14760D8
     void set_IsDataValid(bool value);
     // public System.Boolean get_IsDataHighConfidence()
-    // Offset: 0x1446900
+    // Offset: 0x14760E4
     bool get_IsDataHighConfidence();
     // private System.Void set_IsDataHighConfidence(System.Boolean value)
-    // Offset: 0x1446908
+    // Offset: 0x14760EC
     void set_IsDataHighConfidence(bool value);
     // public System.Boolean get_ShouldUseSystemGestureMaterial()
-    // Offset: 0x1446914
+    // Offset: 0x14760F8
     bool get_ShouldUseSystemGestureMaterial();
     // private System.Void set_ShouldUseSystemGestureMaterial(System.Boolean value)
-    // Offset: 0x144691C
+    // Offset: 0x1476100
     void set_ShouldUseSystemGestureMaterial(bool value);
     // private System.Void Awake()
-    // Offset: 0x1446928
+    // Offset: 0x147610C
     void Awake();
     // private System.Void Start()
-    // Offset: 0x1446A28
+    // Offset: 0x147620C
     void Start();
     // private System.Boolean ShouldInitialize()
-    // Offset: 0x1446AD4
+    // Offset: 0x14762B8
     bool ShouldInitialize();
     // private System.Void Initialize()
-    // Offset: 0x1446BEC
+    // Offset: 0x14763D0
     void Initialize();
     // private System.Void Update()
-    // Offset: 0x1447088
+    // Offset: 0x147686C
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x1447364
+    // Offset: 0x1476B48
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -307,11 +281,10 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRMeshRenderer), 83 + sizeof(bool)> __GlobalNamespace_OVRMeshRendererSizeCheck;
   static_assert(sizeof(OVRMeshRenderer) == 0x54);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMeshRenderer*, "", "OVRMeshRenderer");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMeshRenderer::ConfidenceBehavior, "", "OVRMeshRenderer/ConfidenceBehavior");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMeshRenderer::SystemGestureBehavior, "", "OVRMeshRenderer/SystemGestureBehavior");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRMeshRenderer::get_IsInitialized
 // Il2CppName: get_IsInitialized
 template<>

@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: NUnit.Framework.Constraints.PathConstraint
 #include "NUnit/Framework/Constraints/PathConstraint.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: NUnit.Framework.Constraints
-namespace NUnit::Framework::Constraints {
-  // Forward declaring type: SamePathConstraint
-  class SamePathConstraint;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(NUnit::Framework::Constraints::SamePathConstraint);
-DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::SamePathConstraint*, "NUnit.Framework.Constraints", "SamePathConstraint");
 // Type namespace: NUnit.Framework.Constraints
 namespace NUnit::Framework::Constraints {
   // Size: 0x48
@@ -28,13 +20,15 @@ namespace NUnit::Framework::Constraints {
   // [TokenAttribute] Offset: FFFFFFFF
   class SamePathConstraint : public NUnit::Framework::Constraints::PathConstraint {
     public:
+    // Creating value type constructor for type: SamePathConstraint
+    SamePathConstraint() noexcept {}
     // public override System.String get_Description()
-    // Offset: 0x191BAF0
+    // Offset: 0x1940CB4
     // Implemented from: NUnit.Framework.Constraints.StringConstraint
     // Base method: System.String StringConstraint::get_Description()
     ::Il2CppString* get_Description();
     // public System.Void .ctor(System.String expected)
-    // Offset: 0x191A20C
+    // Offset: 0x193F3D0
     // Implemented from: NUnit.Framework.Constraints.PathConstraint
     // Base method: System.Void PathConstraint::.ctor(System.String expected)
     // Base method: System.Void StringConstraint::.ctor(System.String expected)
@@ -44,14 +38,15 @@ namespace NUnit::Framework::Constraints {
       return THROW_UNLESS((::il2cpp_utils::New<SamePathConstraint*, creationType>(expected)));
     }
     // protected override System.Boolean Matches(System.String actual)
-    // Offset: 0x191BB74
+    // Offset: 0x1940D38
     // Implemented from: NUnit.Framework.Constraints.StringConstraint
     // Base method: System.Boolean StringConstraint::Matches(System.String actual)
     bool Matches(::Il2CppString* actual);
   }; // NUnit.Framework.Constraints.SamePathConstraint
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::SamePathConstraint*, "NUnit.Framework.Constraints", "SamePathConstraint");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::SamePathConstraint::get_Description
 // Il2CppName: get_Description
 template<>

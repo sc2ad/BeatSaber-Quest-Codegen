@@ -3,22 +3,14 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Mono
 namespace Mono {
 }
 // Completed forward declares
-// Type namespace: Mono
-namespace Mono {
-  // Forward declaring type: RuntimeStructs
-  class RuntimeStructs;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::RuntimeStructs);
-DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeStructs*, "Mono", "RuntimeStructs");
 // Type namespace: Mono
 namespace Mono {
   // Size: 0x10
@@ -39,7 +31,11 @@ namespace Mono {
     struct HandleStackMark;
     // Nested type: Mono::RuntimeStructs::MonoError
     struct MonoError;
+    // Creating value type constructor for type: RuntimeStructs
+    RuntimeStructs() noexcept {}
   }; // Mono.RuntimeStructs
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeStructs*, "Mono", "RuntimeStructs");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

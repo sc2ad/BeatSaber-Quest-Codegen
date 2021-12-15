@@ -3,14 +3,14 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -20,14 +20,6 @@ namespace System::Collections::Generic {
   class Queue_1;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: AveragingValueRecorder
-  class AveragingValueRecorder;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::AveragingValueRecorder);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AveragingValueRecorder*, "", "AveragingValueRecorder");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x44
@@ -45,11 +37,6 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct AverageValueData/*, public System::ValueType*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // private System.Single <value>k__BackingField
       // Size: 0x4
       // Offset: 0x0
@@ -62,7 +49,6 @@ namespace GlobalNamespace {
       float time;
       // Field size check
       static_assert(sizeof(float) == 0x4);
-      public:
       // Creating value type constructor for type: AverageValueData
       constexpr AverageValueData(float value_ = {}, float time_ = {}) noexcept : value{value_}, time{time_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -74,29 +60,25 @@ namespace GlobalNamespace {
       // Get instance field reference: private System.Single <time>k__BackingField
       float& dyn_$time$k__BackingField();
       // public System.Single get_value()
-      // Offset: 0x2624DBC
+      // Offset: 0x131D7A0
       float get_value();
       // private System.Void set_value(System.Single value)
-      // Offset: 0x2624DC4
+      // Offset: 0x131D7A8
       void set_value(float value);
       // public System.Single get_time()
-      // Offset: 0x2624DCC
+      // Offset: 0x131D7B0
       float get_time();
       // private System.Void set_time(System.Single value)
-      // Offset: 0x2624DD4
+      // Offset: 0x131D7B8
       void set_time(float value);
       // public System.Void .ctor(System.Single value, System.Single time)
-      // Offset: 0x2624D9C
-      // ABORTED: conflicts with another method.  AverageValueData(float value, float time);
+      // Offset: 0x131D780
+      // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+      // ABORTED: conflicts with another method.  AverageValueData(float value, float time)
     }; // AveragingValueRecorder/AverageValueData
     #pragma pack(pop)
     static check_size<sizeof(AveragingValueRecorder::AverageValueData), 4 + sizeof(float)> __GlobalNamespace_AveragingValueRecorder_AverageValueDataSizeCheck;
     static_assert(sizeof(AveragingValueRecorder::AverageValueData) == 0x8);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Single _averageWindowDuration
     // Size: 0x4
     // Offset: 0x10
@@ -159,7 +141,8 @@ namespace GlobalNamespace {
     float lastValue;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
+    // Creating value type constructor for type: AveragingValueRecorder
+    AveragingValueRecorder(float averageWindowDuration_ = {}, float historyValuesPerSecond_ = {}, int historyValuesCount_ = {}, System::Collections::Generic::Queue_1<GlobalNamespace::AveragingValueRecorder::AverageValueData>* averageWindowValues_ = {}, System::Collections::Generic::Queue_1<float>* historyValues_ = {}, float time_ = {}, float historyTime_ = {}, float averageValue_ = {}, float averageWindowValuesDuration_ = {}, float lastValue_ = {}) noexcept : averageWindowDuration{averageWindowDuration_}, historyValuesPerSecond{historyValuesPerSecond_}, historyValuesCount{historyValuesCount_}, averageWindowValues{averageWindowValues_}, historyValues{historyValues_}, time{time_}, historyTime{historyTime_}, averageValue{averageValue_}, averageWindowValuesDuration{averageWindowValuesDuration_}, lastValue{lastValue_} {}
     // Get instance field reference: private System.Single _averageWindowDuration
     float& dyn__averageWindowDuration();
     // Get instance field reference: private System.Single _historyValuesPerSecond
@@ -181,32 +164,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _lastValue
     float& dyn__lastValue();
     // public System.Void .ctor(System.Single averageWindowDuration, System.Single historyWindowDuration, System.Single historyValuesPerSecond)
-    // Offset: 0x2624A44
+    // Offset: 0x131D428
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AveragingValueRecorder* New_ctor(float averageWindowDuration, float historyWindowDuration, float historyValuesPerSecond) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AveragingValueRecorder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AveragingValueRecorder*, creationType>(averageWindowDuration, historyWindowDuration, historyValuesPerSecond)));
     }
     // public System.Void Update(System.Single value, System.Single deltaTime)
-    // Offset: 0x2624B70
+    // Offset: 0x131D554
     void Update(float value, float deltaTime);
     // public System.Single GetAverageValue()
-    // Offset: 0x2624DA4
+    // Offset: 0x131D788
     float GetAverageValue();
     // public System.Single GetLastValue()
-    // Offset: 0x2624DAC
+    // Offset: 0x131D790
     float GetLastValue();
     // public System.Collections.Generic.Queue`1<System.Single> GetHistoryValues()
-    // Offset: 0x2624DB4
+    // Offset: 0x131D798
     System::Collections::Generic::Queue_1<float>* GetHistoryValues();
   }; // AveragingValueRecorder
   #pragma pack(pop)
   static check_size<sizeof(AveragingValueRecorder), 64 + sizeof(float)> __GlobalNamespace_AveragingValueRecorderSizeCheck;
   static_assert(sizeof(AveragingValueRecorder) == 0x44);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AveragingValueRecorder*, "", "AveragingValueRecorder");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AveragingValueRecorder::AverageValueData, "", "AveragingValueRecorder/AverageValueData");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AveragingValueRecorder::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

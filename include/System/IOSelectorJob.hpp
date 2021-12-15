@@ -3,16 +3,16 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Threading.IThreadPoolWorkItem
 #include "System/Threading/IThreadPoolWorkItem.hpp"
 // Including type: System.IOOperation
 #include "System/IOOperation.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -30,14 +30,6 @@ namespace System::Threading {
 // Completed forward declares
 // Type namespace: System
 namespace System {
-  // Forward declaring type: IOSelectorJob
-  class IOSelectorJob;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::IOSelectorJob);
-DEFINE_IL2CPP_ARG_TYPE(System::IOSelectorJob*, "System", "IOSelectorJob");
-// Type namespace: System
-namespace System {
   // Size: 0x28
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -45,11 +37,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class IOSelectorJob : public ::Il2CppObject/*, public System::Threading::IThreadPoolWorkItem*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.IOOperation operation
     // Size: 0x4
     // Offset: 0x10
@@ -70,7 +57,8 @@ namespace System {
     System::IOAsyncResult* state;
     // Field size check
     static_assert(sizeof(System::IOAsyncResult*) == 0x8);
-    public:
+    // Creating value type constructor for type: IOSelectorJob
+    IOSelectorJob(System::IOOperation operation_ = {}, System::IOAsyncCallback* callback_ = {}, System::IOAsyncResult* state_ = {}) noexcept : operation{operation_}, callback{callback_}, state{state_} {}
     // Creating interface conversion operator: operator System::Threading::IThreadPoolWorkItem
     operator System::Threading::IThreadPoolWorkItem() noexcept {
       return *reinterpret_cast<System::Threading::IThreadPoolWorkItem*>(this);
@@ -82,27 +70,28 @@ namespace System {
     // Get instance field reference: private System.IOAsyncResult state
     System::IOAsyncResult*& dyn_state();
     // public System.Void .ctor(System.IOOperation operation, System.IOAsyncCallback callback, System.IOAsyncResult state)
-    // Offset: 0x1551120
+    // Offset: 0x15DE414
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IOSelectorJob* New_ctor(System::IOOperation operation, System::IOAsyncCallback* callback, System::IOAsyncResult* state) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IOSelectorJob::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IOSelectorJob*, creationType>(operation, callback, state)));
     }
     // private System.Void System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
-    // Offset: 0x1551160
+    // Offset: 0x15DE454
     void System_Threading_IThreadPoolWorkItem_ExecuteWorkItem();
     // private System.Void System.Threading.IThreadPoolWorkItem.MarkAborted(System.Threading.ThreadAbortException tae)
-    // Offset: 0x1551180
+    // Offset: 0x15DE474
     void System_Threading_IThreadPoolWorkItem_MarkAborted(System::Threading::ThreadAbortException* tae);
     // public System.Void MarkDisposed()
-    // Offset: 0x1551184
+    // Offset: 0x15DE478
     void MarkDisposed();
   }; // System.IOSelectorJob
   #pragma pack(pop)
   static check_size<sizeof(IOSelectorJob), 32 + sizeof(System::IOAsyncResult*)> __System_IOSelectorJobSizeCheck;
   static_assert(sizeof(IOSelectorJob) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::IOSelectorJob*, "System", "IOSelectorJob");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IOSelectorJob::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

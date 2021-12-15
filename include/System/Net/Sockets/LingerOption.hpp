@@ -3,21 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Net.Sockets
-namespace System::Net::Sockets {
-  // Forward declaring type: LingerOption
-  class LingerOption;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::Sockets::LingerOption);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::LingerOption*, "System.Net.Sockets", "LingerOption");
 // Type namespace: System.Net.Sockets
 namespace System::Net::Sockets {
   // Size: 0x18
@@ -26,11 +18,6 @@ namespace System::Net::Sockets {
   // [TokenAttribute] Offset: FFFFFFFF
   class LingerOption : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Boolean enabled
     // Size: 0x1
     // Offset: 0x10
@@ -45,19 +32,20 @@ namespace System::Net::Sockets {
     int lingerTime;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
+    // Creating value type constructor for type: LingerOption
+    LingerOption(bool enabled_ = {}, int lingerTime_ = {}) noexcept : enabled{enabled_}, lingerTime{lingerTime_} {}
     // Get instance field reference: private System.Boolean enabled
     bool& dyn_enabled();
     // Get instance field reference: private System.Int32 lingerTime
     int& dyn_lingerTime();
     // public System.Void set_Enabled(System.Boolean value)
-    // Offset: 0x1637174
+    // Offset: 0x16B2DB8
     void set_Enabled(bool value);
     // public System.Void set_LingerTime(System.Int32 value)
-    // Offset: 0x1637180
+    // Offset: 0x16B2DC4
     void set_LingerTime(int value);
     // public System.Void .ctor(System.Boolean enable, System.Int32 seconds)
-    // Offset: 0x1637134
+    // Offset: 0x16B2D78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LingerOption* New_ctor(bool enable, int seconds) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Sockets::LingerOption::.ctor");
@@ -68,7 +56,8 @@ namespace System::Net::Sockets {
   static check_size<sizeof(LingerOption), 20 + sizeof(int)> __System_Net_Sockets_LingerOptionSizeCheck;
   static_assert(sizeof(LingerOption) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::LingerOption*, "System.Net.Sockets", "LingerOption");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Sockets::LingerOption::set_Enabled
 // Il2CppName: set_Enabled
 template<>

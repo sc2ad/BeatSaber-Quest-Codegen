@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: BakedLightWithIdBase
-  class BakedLightWithIdBase;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BakedLightWithIdBase);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BakedLightWithIdBase*, "", "BakedLightWithIdBase");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x18
@@ -28,6 +20,8 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BakedLightWithIdBase : public UnityEngine::MonoBehaviour {
     public:
+    // Creating value type constructor for type: BakedLightWithIdBase
+    BakedLightWithIdBase() noexcept {}
     // public System.Int32 get_id()
     // Offset: 0xFFFFFFFF
     int get_id();
@@ -35,7 +29,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     void SetupLightSource(float intensityMultiplier);
     // protected System.Void .ctor()
-    // Offset: 0x256B204
+    // Offset: 0x262C9B0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -50,7 +44,8 @@ namespace GlobalNamespace {
   }; // BakedLightWithIdBase
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BakedLightWithIdBase*, "", "BakedLightWithIdBase");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BakedLightWithIdBase::get_id
 // Il2CppName: get_id
 template<>

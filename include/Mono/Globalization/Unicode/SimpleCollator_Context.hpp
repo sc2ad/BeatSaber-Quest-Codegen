@@ -3,22 +3,19 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Mono.Globalization.Unicode.SimpleCollator
 #include "Mono/Globalization/Unicode/SimpleCollator.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.Globalization.CompareOptions
 #include "System/Globalization/CompareOptions.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Mono.Globalization.Unicode
-namespace Mono::Globalization::Unicode {
-  // Forward declaring type: Context
-  struct Context;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::SimpleCollator::Context, "Mono.Globalization.Unicode", "SimpleCollator/Context");
 // Type namespace: Mono.Globalization.Unicode
 namespace Mono::Globalization::Unicode {
   // Size: 0x38
@@ -28,11 +25,6 @@ namespace Mono::Globalization::Unicode {
   // [TokenAttribute] Offset: FFFFFFFF
   struct SimpleCollator::Context/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public readonly System.Globalization.CompareOptions Option
     // Size: 0x4
     // Offset: 0x0
@@ -79,7 +71,6 @@ namespace Mono::Globalization::Unicode {
     uint8_t* PrevSortKey;
     // Field size check
     static_assert(sizeof(uint8_t*) == 0x8);
-    public:
     // Creating value type constructor for type: Context
     constexpr Context(System::Globalization::CompareOptions Option_ = {}, uint8_t* NeverMatchFlags_ = {}, uint8_t* AlwaysMatchFlags_ = {}, uint8_t* Buffer1_ = {}, uint8_t* Buffer2_ = {}, int PrevCode_ = {}, uint8_t* PrevSortKey_ = {}) noexcept : Option{Option_}, NeverMatchFlags{NeverMatchFlags_}, AlwaysMatchFlags{AlwaysMatchFlags_}, Buffer1{Buffer1_}, Buffer2{Buffer2_}, PrevCode{PrevCode_}, PrevSortKey{PrevSortKey_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -101,14 +92,20 @@ namespace Mono::Globalization::Unicode {
     // Get instance field reference: public System.Byte* PrevSortKey
     uint8_t*& dyn_PrevSortKey();
     // public System.Void .ctor(System.Globalization.CompareOptions opt, System.Byte* alwaysMatchFlags, System.Byte* neverMatchFlags, System.Byte* buffer1, System.Byte* buffer2, System.Byte* prev1)
-    // Offset: 0x1C18618
-    Context(System::Globalization::CompareOptions opt, uint8_t* alwaysMatchFlags, uint8_t* neverMatchFlags, uint8_t* buffer1, uint8_t* buffer2, uint8_t* prev1);
+    // Offset: 0x1C71710
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    Context(System::Globalization::CompareOptions opt, uint8_t* alwaysMatchFlags, uint8_t* neverMatchFlags, uint8_t* buffer1, uint8_t* buffer2, uint8_t* prev1) {
+      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Globalization::Unicode::SimpleCollator::Context::.ctor");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(opt), ::il2cpp_utils::ExtractType(alwaysMatchFlags), ::il2cpp_utils::ExtractType(neverMatchFlags), ::il2cpp_utils::ExtractType(buffer1), ::il2cpp_utils::ExtractType(buffer2), ::il2cpp_utils::ExtractType(prev1)})));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, opt, alwaysMatchFlags, neverMatchFlags, buffer1, buffer2, prev1);
+    }
   }; // Mono.Globalization.Unicode.SimpleCollator/Mono.Globalization.Unicode.Context
   #pragma pack(pop)
   static check_size<sizeof(SimpleCollator::Context), 48 + sizeof(uint8_t*)> __Mono_Globalization_Unicode_SimpleCollator_ContextSizeCheck;
   static_assert(sizeof(SimpleCollator::Context) == 0x38);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::SimpleCollator::Context, "Mono.Globalization.Unicode", "SimpleCollator/Context");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::Context::Context
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MissionResultsViewController
 #include "GlobalNamespace/MissionResultsViewController.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
 #include "System/Collections/Generic/IEnumerator_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <StartFireworksAfterDelay>d__28
-  class $StartFireworksAfterDelay$d__28;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MissionResultsViewController::$StartFireworksAfterDelay$d__28);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionResultsViewController::$StartFireworksAfterDelay$d__28*, "", "MissionResultsViewController/<StartFireworksAfterDelay>d__28");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x30
@@ -31,11 +23,6 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class MissionResultsViewController::$StartFireworksAfterDelay$d__28 : public ::Il2CppObject/*, public System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -64,7 +51,8 @@ namespace GlobalNamespace {
     GlobalNamespace::MissionResultsViewController* $$4__this;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionResultsViewController*) == 0x8);
-    public:
+    // Creating value type constructor for type: $StartFireworksAfterDelay$d__28
+    $StartFireworksAfterDelay$d__28(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, float delay_ = {}, GlobalNamespace::MissionResultsViewController* $$4__this_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, delay{delay_}, $$4__this{$$4__this_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
@@ -78,33 +66,34 @@ namespace GlobalNamespace {
     // Get instance field reference: public MissionResultsViewController <>4__this
     GlobalNamespace::MissionResultsViewController*& dyn_$$4__this();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x1211E84
+    // Offset: 0x1167FE4
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1211EEC
+    // Offset: 0x116804C
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x12118CC
+    // Offset: 0x1167A2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionResultsViewController::$StartFireworksAfterDelay$d__28* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MissionResultsViewController::$StartFireworksAfterDelay$d__28::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionResultsViewController::$StartFireworksAfterDelay$d__28*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1211DC0
+    // Offset: 0x1167F20
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1211DC4
+    // Offset: 0x1167F24
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1211E8C
+    // Offset: 0x1167FEC
     void System_Collections_IEnumerator_Reset();
   }; // MissionResultsViewController/<StartFireworksAfterDelay>d__28
   #pragma pack(pop)
   static check_size<sizeof(MissionResultsViewController::$StartFireworksAfterDelay$d__28), 40 + sizeof(GlobalNamespace::MissionResultsViewController*)> __GlobalNamespace_MissionResultsViewController_$StartFireworksAfterDelay$d__28SizeCheck;
   static_assert(sizeof(MissionResultsViewController::$StartFireworksAfterDelay$d__28) == 0x30);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionResultsViewController::$StartFireworksAfterDelay$d__28*, "", "MissionResultsViewController/<StartFireworksAfterDelay>d__28");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionResultsViewController::$StartFireworksAfterDelay$d__28::System_Collections_Generic_IEnumerator$System_Object$_get_Current
 // Il2CppName: System.Collections.Generic.IEnumerator<System.Object>.get_Current
 template<>

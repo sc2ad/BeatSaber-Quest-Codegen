@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: GUILayoutOption
-  class GUILayoutOption;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::GUILayoutOption);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUILayoutOption*, "UnityEngine", "GUILayoutOption");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x20
@@ -36,18 +28,12 @@ namespace UnityEngine {
     // [TokenAttribute] Offset: FFFFFFFF
     struct Type/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: Type
       constexpr Type(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -148,11 +134,6 @@ namespace UnityEngine {
     #pragma pack(pop)
     static check_size<sizeof(GUILayoutOption::Type), 0 + sizeof(int)> __UnityEngine_GUILayoutOption_TypeSizeCheck;
     static_assert(sizeof(GUILayoutOption::Type) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // UnityEngine.GUILayoutOption/UnityEngine.Type type
     // Size: 0x4
     // Offset: 0x10
@@ -167,13 +148,14 @@ namespace UnityEngine {
     ::Il2CppObject* value;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    public:
+    // Creating value type constructor for type: GUILayoutOption
+    GUILayoutOption(UnityEngine::GUILayoutOption::Type type_ = {}, ::Il2CppObject* value_ = {}) noexcept : type{type_}, value{value_} {}
     // Get instance field reference: UnityEngine.GUILayoutOption/UnityEngine.Type type
     UnityEngine::GUILayoutOption::Type& dyn_type();
     // Get instance field reference: System.Object value
     ::Il2CppObject*& dyn_value();
     // System.Void .ctor(UnityEngine.GUILayoutOption/UnityEngine.Type type, System.Object value)
-    // Offset: 0x1C7CD60
+    // Offset: 0x1CEC7C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GUILayoutOption* New_ctor(UnityEngine::GUILayoutOption::Type type, ::Il2CppObject* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::GUILayoutOption::.ctor");
@@ -184,9 +166,9 @@ namespace UnityEngine {
   static check_size<sizeof(GUILayoutOption), 24 + sizeof(::Il2CppObject*)> __UnityEngine_GUILayoutOptionSizeCheck;
   static_assert(sizeof(GUILayoutOption) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUILayoutOption*, "UnityEngine", "GUILayoutOption");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUILayoutOption::Type, "UnityEngine", "GUILayoutOption/Type");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::GUILayoutOption::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

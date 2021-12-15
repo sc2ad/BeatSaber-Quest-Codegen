@@ -3,18 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System
-namespace System {
-  // Forward declaring type: UnSafeCharBuffer
-  struct UnSafeCharBuffer;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::UnSafeCharBuffer, "System", "UnSafeCharBuffer");
 // Type namespace: System
 namespace System {
   // Size: 0x10
@@ -24,11 +21,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   struct UnSafeCharBuffer/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Char* m_buffer
     // Size: 0x8
     // Offset: 0x0
@@ -47,7 +39,6 @@ namespace System {
     int m_length;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: UnSafeCharBuffer
     constexpr UnSafeCharBuffer(::Il2CppChar* m_buffer_ = {}, int m_totalSize_ = {}, int m_length_ = {}) noexcept : m_buffer{m_buffer_}, m_totalSize{m_totalSize_}, m_length{m_length_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -61,17 +52,23 @@ namespace System {
     // Get instance field reference: private System.Int32 m_length
     int& dyn_m_length();
     // public System.Void .ctor(System.Char* buffer, System.Int32 bufferSize)
-    // Offset: 0x251B154
-    UnSafeCharBuffer(::Il2CppChar* buffer, int bufferSize);
+    // Offset: 0x25D32C4
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    UnSafeCharBuffer(::Il2CppChar* buffer, int bufferSize) {
+      static auto ___internal__logger = ::Logger::get().WithContext("System::UnSafeCharBuffer::.ctor");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(buffer), ::il2cpp_utils::ExtractType(bufferSize)})));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, buffer, bufferSize);
+    }
     // public System.Void AppendString(System.String stringToAppend)
-    // Offset: 0x251B160
+    // Offset: 0x25D32D0
     void AppendString(::Il2CppString* stringToAppend);
   }; // System.UnSafeCharBuffer
   #pragma pack(pop)
   static check_size<sizeof(UnSafeCharBuffer), 12 + sizeof(int)> __System_UnSafeCharBufferSizeCheck;
   static_assert(sizeof(UnSafeCharBuffer) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::UnSafeCharBuffer, "System", "UnSafeCharBuffer");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::UnSafeCharBuffer::UnSafeCharBuffer
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

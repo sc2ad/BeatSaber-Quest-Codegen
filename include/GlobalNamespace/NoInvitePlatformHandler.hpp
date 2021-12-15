@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: IInvitePlatformHandler
 #include "GlobalNamespace/IInvitePlatformHandler.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: NoInvitePlatformHandler
-  class NoInvitePlatformHandler;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::NoInvitePlatformHandler);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoInvitePlatformHandler*, "", "NoInvitePlatformHandler");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -28,18 +20,20 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class NoInvitePlatformHandler : public ::Il2CppObject/*, public GlobalNamespace::IInvitePlatformHandler*/ {
     public:
+    // Creating value type constructor for type: NoInvitePlatformHandler
+    NoInvitePlatformHandler() noexcept {}
     // Creating interface conversion operator: operator GlobalNamespace::IInvitePlatformHandler
     operator GlobalNamespace::IInvitePlatformHandler() noexcept {
       return *reinterpret_cast<GlobalNamespace::IInvitePlatformHandler*>(this);
     }
     // public System.Boolean get_isSupported()
-    // Offset: 0x112528C
+    // Offset: 0x133A80C
     bool get_isSupported();
     // public System.Void OpenInvitePanel()
-    // Offset: 0x1125294
+    // Offset: 0x133A814
     void OpenInvitePanel();
     // public System.Void .ctor()
-    // Offset: 0x11252F4
+    // Offset: 0x133A874
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -50,7 +44,8 @@ namespace GlobalNamespace {
   }; // NoInvitePlatformHandler
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoInvitePlatformHandler*, "", "NoInvitePlatformHandler");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoInvitePlatformHandler::get_isSupported
 // Il2CppName: get_isSupported
 template<>

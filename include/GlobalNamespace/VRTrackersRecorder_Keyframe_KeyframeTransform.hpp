@@ -3,27 +3,19 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: VRTrackersRecorder/Keyframe
 #include "GlobalNamespace/VRTrackersRecorder_Keyframe.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.Quaternion
 #include "UnityEngine/Quaternion.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: KeyframeTransform
-  class KeyframeTransform;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::VRTrackersRecorder::Keyframe::KeyframeTransform);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRTrackersRecorder::Keyframe::KeyframeTransform*, "", "VRTrackersRecorder/Keyframe/KeyframeTransform");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x2D
@@ -32,11 +24,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class VRTrackersRecorder::Keyframe::KeyframeTransform : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public UnityEngine.Vector3 _pos
     // Size: 0xC
     // Offset: 0x10
@@ -55,7 +42,8 @@ namespace GlobalNamespace {
     bool valid;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: KeyframeTransform
+    KeyframeTransform(UnityEngine::Vector3 pos_ = {}, UnityEngine::Quaternion rot_ = {}, bool valid_ = {}) noexcept : pos{pos_}, rot{rot_}, valid{valid_} {}
     // Get instance field reference: public UnityEngine.Vector3 _pos
     UnityEngine::Vector3& dyn__pos();
     // Get instance field reference: public UnityEngine.Quaternion _rot
@@ -63,7 +51,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean _valid
     bool& dyn__valid();
     // public System.Void .ctor()
-    // Offset: 0x12736FC
+    // Offset: 0x1BDD630
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -76,7 +64,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(VRTrackersRecorder::Keyframe::KeyframeTransform), 44 + sizeof(bool)> __GlobalNamespace_VRTrackersRecorder_Keyframe_KeyframeTransformSizeCheck;
   static_assert(sizeof(VRTrackersRecorder::Keyframe::KeyframeTransform) == 0x2D);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRTrackersRecorder::Keyframe::KeyframeTransform*, "", "VRTrackersRecorder/Keyframe/KeyframeTransform");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::VRTrackersRecorder::Keyframe::KeyframeTransform::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: TMPro.GlyphValueRecord_Legacy
 #include "TMPro/GlyphValueRecord_Legacy.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: TMPro
-namespace TMPro {
-  // Forward declaring type: KerningPair
-  class KerningPair;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(TMPro::KerningPair);
-DEFINE_IL2CPP_ARG_TYPE(TMPro::KerningPair*, "TMPro", "KerningPair");
 // Type namespace: TMPro
 namespace TMPro {
   // Size: 0x3D
@@ -28,12 +20,7 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class KerningPair : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
-    // [FormerlySerializedAsAttribute] Offset: 0xEBA574
+    // [FormerlySerializedAsAttribute] Offset: 0xEFA46C
     // private System.UInt32 m_FirstGlyph
     // Size: 0x4
     // Offset: 0x10
@@ -46,7 +33,7 @@ namespace TMPro {
     TMPro::GlyphValueRecord_Legacy m_FirstGlyphAdjustments;
     // Field size check
     static_assert(sizeof(TMPro::GlyphValueRecord_Legacy) == 0x10);
-    // [FormerlySerializedAsAttribute] Offset: 0xEBA5D0
+    // [FormerlySerializedAsAttribute] Offset: 0xEFA4C8
     // private System.UInt32 m_SecondGlyph
     // Size: 0x4
     // Offset: 0x24
@@ -59,7 +46,7 @@ namespace TMPro {
     TMPro::GlyphValueRecord_Legacy m_SecondGlyphAdjustments;
     // Field size check
     static_assert(sizeof(TMPro::GlyphValueRecord_Legacy) == 0x10);
-    // [FormerlySerializedAsAttribute] Offset: 0xEBA62C
+    // [FormerlySerializedAsAttribute] Offset: 0xEFA524
     // public System.Single xOffset
     // Size: 0x4
     // Offset: 0x38
@@ -72,7 +59,8 @@ namespace TMPro {
     bool m_IgnoreSpacingAdjustments;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: KerningPair
+    KerningPair(uint m_FirstGlyph_ = {}, TMPro::GlyphValueRecord_Legacy m_FirstGlyphAdjustments_ = {}, uint m_SecondGlyph_ = {}, TMPro::GlyphValueRecord_Legacy m_SecondGlyphAdjustments_ = {}, float xOffset_ = {}, bool m_IgnoreSpacingAdjustments_ = {}) noexcept : m_FirstGlyph{m_FirstGlyph_}, m_FirstGlyphAdjustments{m_FirstGlyphAdjustments_}, m_SecondGlyph{m_SecondGlyph_}, m_SecondGlyphAdjustments{m_SecondGlyphAdjustments_}, xOffset{xOffset_}, m_IgnoreSpacingAdjustments{m_IgnoreSpacingAdjustments_} {}
     // Get static field: static TMPro.KerningPair empty
     static TMPro::KerningPair* _get_empty();
     // Set static field: static TMPro.KerningPair empty
@@ -90,48 +78,48 @@ namespace TMPro {
     // Get instance field reference: private System.Boolean m_IgnoreSpacingAdjustments
     bool& dyn_m_IgnoreSpacingAdjustments();
     // public System.UInt32 get_firstGlyph()
-    // Offset: 0x11E7B84
+    // Offset: 0x123E2F4
     uint get_firstGlyph();
     // public System.Void set_firstGlyph(System.UInt32 value)
-    // Offset: 0x11E7B8C
+    // Offset: 0x123E2FC
     void set_firstGlyph(uint value);
     // public TMPro.GlyphValueRecord_Legacy get_firstGlyphAdjustments()
-    // Offset: 0x11E7B94
+    // Offset: 0x123E304
     TMPro::GlyphValueRecord_Legacy get_firstGlyphAdjustments();
     // public System.UInt32 get_secondGlyph()
-    // Offset: 0x11E7BA0
+    // Offset: 0x123E310
     uint get_secondGlyph();
     // public System.Void set_secondGlyph(System.UInt32 value)
-    // Offset: 0x11E7BA8
+    // Offset: 0x123E318
     void set_secondGlyph(uint value);
     // public TMPro.GlyphValueRecord_Legacy get_secondGlyphAdjustments()
-    // Offset: 0x11E7BB0
+    // Offset: 0x123E320
     TMPro::GlyphValueRecord_Legacy get_secondGlyphAdjustments();
     // public System.Boolean get_ignoreSpacingAdjustments()
-    // Offset: 0x11E7BBC
+    // Offset: 0x123E32C
     bool get_ignoreSpacingAdjustments();
     // public System.Void .ctor(System.UInt32 left, System.UInt32 right, System.Single offset)
-    // Offset: 0x11E7BF4
+    // Offset: 0x123E364
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KerningPair* New_ctor(uint left, uint right, float offset) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::KerningPair::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KerningPair*, creationType>(left, right, offset)));
     }
     // public System.Void .ctor(System.UInt32 firstGlyph, TMPro.GlyphValueRecord_Legacy firstGlyphAdjustments, System.UInt32 secondGlyph, TMPro.GlyphValueRecord_Legacy secondGlyphAdjustments)
-    // Offset: 0x11E7C40
+    // Offset: 0x123E3B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KerningPair* New_ctor(uint firstGlyph, TMPro::GlyphValueRecord_Legacy firstGlyphAdjustments, uint secondGlyph, TMPro::GlyphValueRecord_Legacy secondGlyphAdjustments) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::KerningPair::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KerningPair*, creationType>(firstGlyph, firstGlyphAdjustments, secondGlyph, secondGlyphAdjustments)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x11E7CD8
+    // Offset: 0x123E448
     static void _cctor();
     // System.Void ConvertLegacyKerningData()
-    // Offset: 0x11E7CCC
+    // Offset: 0x123E43C
     void ConvertLegacyKerningData();
     // public System.Void .ctor()
-    // Offset: 0x11E7BC4
+    // Offset: 0x123E334
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -144,7 +132,8 @@ namespace TMPro {
   static check_size<sizeof(KerningPair), 60 + sizeof(bool)> __TMPro_KerningPairSizeCheck;
   static_assert(sizeof(KerningPair) == 0x3D);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::KerningPair*, "TMPro", "KerningPair");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::KerningPair::get_firstGlyph
 // Il2CppName: get_firstGlyph
 template<>

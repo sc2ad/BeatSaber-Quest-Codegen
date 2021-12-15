@@ -3,20 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: TMPro.CaretPosition
 #include "TMPro/CaretPosition.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: TMPro
-namespace TMPro {
-  // Forward declaring type: CaretInfo
-  struct CaretInfo;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(TMPro::CaretInfo, "TMPro", "CaretInfo");
 // Type namespace: TMPro
 namespace TMPro {
   // Size: 0x8
@@ -26,11 +23,6 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   struct CaretInfo/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 index
     // Size: 0x4
     // Offset: 0x0
@@ -43,7 +35,6 @@ namespace TMPro {
     TMPro::CaretPosition position;
     // Field size check
     static_assert(sizeof(TMPro::CaretPosition) == 0x4);
-    public:
     // Creating value type constructor for type: CaretInfo
     constexpr CaretInfo(int index_ = {}, TMPro::CaretPosition position_ = {}) noexcept : index{index_}, position{position_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -55,14 +46,16 @@ namespace TMPro {
     // Get instance field reference: public TMPro.CaretPosition position
     TMPro::CaretPosition& dyn_position();
     // public System.Void .ctor(System.Int32 index, TMPro.CaretPosition position)
-    // Offset: 0x11E701C
-    // ABORTED: conflicts with another method.  CaretInfo(int index, TMPro::CaretPosition position);
+    // Offset: 0x123D78C
+    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    // ABORTED: conflicts with another method.  CaretInfo(int index, TMPro::CaretPosition position)
   }; // TMPro.CaretInfo
   #pragma pack(pop)
   static check_size<sizeof(CaretInfo), 4 + sizeof(TMPro::CaretPosition)> __TMPro_CaretInfoSizeCheck;
   static_assert(sizeof(CaretInfo) == 0x8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::CaretInfo, "TMPro", "CaretInfo");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::CaretInfo::CaretInfo
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

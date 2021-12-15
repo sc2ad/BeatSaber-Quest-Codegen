@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRInput/OVRControllerBase
 #include "GlobalNamespace/OVRInput_OVRControllerBase.hpp"
 // Including type: OVRInput/RawAxis1D
 #include "GlobalNamespace/OVRInput_RawAxis1D.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: VirtualAxis1DMap
-  class VirtualAxis1DMap;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRInput::OVRControllerBase::VirtualAxis1DMap);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OVRControllerBase::VirtualAxis1DMap*, "", "OVRInput/OVRControllerBase/VirtualAxis1DMap");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x24
@@ -30,11 +22,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRInput::OVRControllerBase::VirtualAxis1DMap : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public OVRInput/RawAxis1D None
     // Size: 0x4
     // Offset: 0x10
@@ -65,7 +52,8 @@ namespace GlobalNamespace {
     GlobalNamespace::OVRInput::RawAxis1D SecondaryHandTrigger;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRInput::RawAxis1D) == 0x4);
-    public:
+    // Creating value type constructor for type: VirtualAxis1DMap
+    VirtualAxis1DMap(GlobalNamespace::OVRInput::RawAxis1D None_ = {}, GlobalNamespace::OVRInput::RawAxis1D PrimaryIndexTrigger_ = {}, GlobalNamespace::OVRInput::RawAxis1D PrimaryHandTrigger_ = {}, GlobalNamespace::OVRInput::RawAxis1D SecondaryIndexTrigger_ = {}, GlobalNamespace::OVRInput::RawAxis1D SecondaryHandTrigger_ = {}) noexcept : None{None_}, PrimaryIndexTrigger{PrimaryIndexTrigger_}, PrimaryHandTrigger{PrimaryHandTrigger_}, SecondaryIndexTrigger{SecondaryIndexTrigger_}, SecondaryHandTrigger{SecondaryHandTrigger_} {}
     // Get instance field reference: public OVRInput/RawAxis1D None
     GlobalNamespace::OVRInput::RawAxis1D& dyn_None();
     // Get instance field reference: public OVRInput/RawAxis1D PrimaryIndexTrigger
@@ -77,10 +65,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public OVRInput/RawAxis1D SecondaryHandTrigger
     GlobalNamespace::OVRInput::RawAxis1D& dyn_SecondaryHandTrigger();
     // public OVRInput/RawAxis1D ToRawMask(OVRInput/Axis1D virtualMask)
-    // Offset: 0x16B2D40
+    // Offset: 0x177015C
     GlobalNamespace::OVRInput::RawAxis1D ToRawMask(GlobalNamespace::OVRInput::Axis1D virtualMask);
     // public System.Void .ctor()
-    // Offset: 0x16B1F58
+    // Offset: 0x176F374
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -93,7 +81,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRInput::OVRControllerBase::VirtualAxis1DMap), 32 + sizeof(GlobalNamespace::OVRInput::RawAxis1D)> __GlobalNamespace_OVRInput_OVRControllerBase_VirtualAxis1DMapSizeCheck;
   static_assert(sizeof(OVRInput::OVRControllerBase::VirtualAxis1DMap) == 0x24);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OVRControllerBase::VirtualAxis1DMap*, "", "OVRInput/OVRControllerBase/VirtualAxis1DMap");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::OVRControllerBase::VirtualAxis1DMap::ToRawMask
 // Il2CppName: ToRawMask
 template<>

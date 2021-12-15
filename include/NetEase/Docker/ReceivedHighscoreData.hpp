@@ -3,7 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: NetEase.Docker.ScoreData
@@ -22,13 +22,6 @@ struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: NetEase.Docker
 namespace NetEase::Docker {
-  // Forward declaring type: ReceivedHighscoreData
-  struct ReceivedHighscoreData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::ReceivedHighscoreData, "NetEase.Docker", "ReceivedHighscoreData");
-// Type namespace: NetEase.Docker
-namespace NetEase::Docker {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -36,12 +29,7 @@ namespace NetEase::Docker {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ReceivedHighscoreData/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
-    // [DebuggerBrowsableAttribute] Offset: 0xEEDA3C
+    // [DebuggerBrowsableAttribute] Offset: 0xF2E8A0
     // private System.Boolean <FetchingSuccessful>k__BackingField
     // Size: 0x1
     // Offset: 0x0
@@ -50,28 +38,27 @@ namespace NetEase::Docker {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: FetchingSuccessful and: HighscoreCode
     char __padding0[0x3] = {};
-    // [DebuggerBrowsableAttribute] Offset: 0xEEDA78
+    // [DebuggerBrowsableAttribute] Offset: 0xF2E8DC
     // private System.Int32 <HighscoreCode>k__BackingField
     // Size: 0x4
     // Offset: 0x4
     int HighscoreCode;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [DebuggerBrowsableAttribute] Offset: 0xEEDAB4
+    // [DebuggerBrowsableAttribute] Offset: 0xF2E918
     // private System.String <Track>k__BackingField
     // Size: 0x8
     // Offset: 0x8
     ::Il2CppString* Track;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xEEDAF0
+    // [DebuggerBrowsableAttribute] Offset: 0xF2E954
     // private System.Collections.Generic.List`1<NetEase.Docker.ScoreData> <Scores>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     System::Collections::Generic::List_1<NetEase::Docker::ScoreData>* Scores;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<NetEase::Docker::ScoreData>*) == 0x8);
-    public:
     // Creating value type constructor for type: ReceivedHighscoreData
     constexpr ReceivedHighscoreData(bool FetchingSuccessful_ = {}, int HighscoreCode_ = {}, ::Il2CppString* Track_ = {}, System::Collections::Generic::List_1<NetEase::Docker::ScoreData>* Scores_ = {}) noexcept : FetchingSuccessful{FetchingSuccessful_}, HighscoreCode{HighscoreCode_}, Track{Track_}, Scores{Scores_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -87,32 +74,34 @@ namespace NetEase::Docker {
     // Get instance field reference: private System.Collections.Generic.List`1<NetEase.Docker.ScoreData> <Scores>k__BackingField
     System::Collections::Generic::List_1<NetEase::Docker::ScoreData>*& dyn_$Scores$k__BackingField();
     // public System.Boolean get_FetchingSuccessful()
-    // Offset: 0x2607AA0
+    // Offset: 0x26CAAC8
     bool get_FetchingSuccessful();
     // public System.Void set_FetchingSuccessful(System.Boolean value)
-    // Offset: 0x2607AA8
+    // Offset: 0x26CAAD0
     void set_FetchingSuccessful(bool value);
     // public System.Void set_HighscoreCode(System.Int32 value)
-    // Offset: 0x2607AB4
+    // Offset: 0x26CAADC
     void set_HighscoreCode(int value);
     // public System.String get_Track()
-    // Offset: 0x2607ABC
+    // Offset: 0x26CAAE4
     ::Il2CppString* get_Track();
     // public System.Void set_Track(System.String value)
-    // Offset: 0x2607AC4
+    // Offset: 0x26CAAEC
     void set_Track(::Il2CppString* value);
     // public System.Collections.Generic.List`1<NetEase.Docker.ScoreData> get_Scores()
-    // Offset: 0x2607ACC
+    // Offset: 0x26CAAF4
     System::Collections::Generic::List_1<NetEase::Docker::ScoreData>* get_Scores();
     // public System.Void set_Scores(System.Collections.Generic.List`1<NetEase.Docker.ScoreData> value)
-    // Offset: 0x2607AD4
+    // Offset: 0x26CAAFC
     void set_Scores(System::Collections::Generic::List_1<NetEase::Docker::ScoreData>* value);
   }; // NetEase.Docker.ReceivedHighscoreData
   #pragma pack(pop)
   static check_size<sizeof(ReceivedHighscoreData), 16 + sizeof(System::Collections::Generic::List_1<NetEase::Docker::ScoreData>*)> __NetEase_Docker_ReceivedHighscoreDataSizeCheck;
   static_assert(sizeof(ReceivedHighscoreData) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::ReceivedHighscoreData, "NetEase.Docker", "ReceivedHighscoreData");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NetEase::Docker::ReceivedHighscoreData::get_FetchingSuccessful
 // Il2CppName: get_FetchingSuccessful
 template<>

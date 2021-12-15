@@ -3,18 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: UnityEngine.Timeline
-namespace UnityEngine::Timeline {
-  // Forward declaring type: NotificationFlags
-  struct NotificationFlags;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::NotificationFlags, "UnityEngine.Timeline", "NotificationFlags");
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {
   // Size: 0x2
@@ -24,18 +17,12 @@ namespace UnityEngine::Timeline {
   // [FlagsAttribute] Offset: FFFFFFFF
   struct NotificationFlags/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int16 value__
     // Size: 0x2
     // Offset: 0x0
     int16_t value;
     // Field size check
     static_assert(sizeof(int16_t) == 0x2);
-    public:
     // Creating value type constructor for type: NotificationFlags
     constexpr NotificationFlags(int16_t value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -71,4 +58,6 @@ namespace UnityEngine::Timeline {
   static check_size<sizeof(NotificationFlags), 0 + sizeof(int16_t)> __UnityEngine_Timeline_NotificationFlagsSizeCheck;
   static_assert(sizeof(NotificationFlags) == 0x2);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::NotificationFlags, "UnityEngine.Timeline", "NotificationFlags");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

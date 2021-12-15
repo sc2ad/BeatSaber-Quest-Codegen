@@ -3,16 +3,14 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PersistentScriptableObject
 #include "GlobalNamespace/PersistentScriptableObject.hpp"
-// Including type: System.Enum
-#include "System/Enum.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -20,14 +18,6 @@ namespace GlobalNamespace {
   // Skipping declaration: Group because it is already included!
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: AbTestExperimentDefinitionSO
-  class AbTestExperimentDefinitionSO;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::AbTestExperimentDefinitionSO);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AbTestExperimentDefinitionSO*, "", "AbTestExperimentDefinitionSO");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x3C
@@ -44,18 +34,12 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct Group/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: Group
       constexpr Group(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -90,11 +74,6 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(AbTestExperimentDefinitionSO::Group), 0 + sizeof(int)> __GlobalNamespace_AbTestExperimentDefinitionSO_GroupSizeCheck;
     static_assert(sizeof(AbTestExperimentDefinitionSO::Group) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.String _experimentName
     // Size: 0x8
     // Offset: 0x18
@@ -133,7 +112,8 @@ namespace GlobalNamespace {
     GlobalNamespace::AbTestExperimentDefinitionSO::Group currentUserTreatmentGroup;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AbTestExperimentDefinitionSO::Group) == 0x4);
-    public:
+    // Creating value type constructor for type: AbTestExperimentDefinitionSO
+    AbTestExperimentDefinitionSO(::Il2CppString* experimentName_ = {}, float test1GroupSize_ = {}, float test2GroupSize_ = {}, float controlGroupSize_ = {}, ::Il2CppString* salt_ = {}, GlobalNamespace::AbTestExperimentDefinitionSO::Group currentUserTreatmentGroup_ = {}) noexcept : experimentName{experimentName_}, test1GroupSize{test1GroupSize_}, test2GroupSize{test2GroupSize_}, controlGroupSize{controlGroupSize_}, salt{salt_}, currentUserTreatmentGroup{currentUserTreatmentGroup_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _experimentName
@@ -149,31 +129,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private AbTestExperimentDefinitionSO/Group _currentUserTreatmentGroup
     GlobalNamespace::AbTestExperimentDefinitionSO::Group& dyn__currentUserTreatmentGroup();
     // public System.Single get_test1GroupSize()
-    // Offset: 0x261380C
+    // Offset: 0x130A350
     float get_test1GroupSize();
     // public System.Single get_test2GroupSize()
-    // Offset: 0x2613814
+    // Offset: 0x130A358
     float get_test2GroupSize();
     // public System.String get_experimentName()
-    // Offset: 0x261381C
+    // Offset: 0x130A360
     ::Il2CppString* get_experimentName();
     // public AbTestExperimentDefinitionSO/Group get_currentUserTreatmentGroup()
-    // Offset: 0x2613824
+    // Offset: 0x130A368
     GlobalNamespace::AbTestExperimentDefinitionSO::Group get_currentUserTreatmentGroup();
     // private System.Void OnValidate()
-    // Offset: 0x261382C
+    // Offset: 0x130A370
     void OnValidate();
     // public System.Void ComputeCurrentUserTreatment(System.String userId)
-    // Offset: 0x26138E8
+    // Offset: 0x130A42C
     void ComputeCurrentUserTreatment(::Il2CppString* userId);
     // public System.Void ForceSetTreatmentGroup(AbTestExperimentDefinitionSO/Group group)
-    // Offset: 0x2613B18
+    // Offset: 0x130A65C
     void ForceSetTreatmentGroup(GlobalNamespace::AbTestExperimentDefinitionSO::Group group);
     // private AbTestExperimentDefinitionSO/Group AbSplit(System.String userId)
-    // Offset: 0x261390C
+    // Offset: 0x130A450
     GlobalNamespace::AbTestExperimentDefinitionSO::Group AbSplit(::Il2CppString* userId);
     // public System.Void .ctor()
-    // Offset: 0x2613B20
+    // Offset: 0x130A664
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -189,9 +169,9 @@ namespace GlobalNamespace {
   static check_size<sizeof(AbTestExperimentDefinitionSO), 56 + sizeof(GlobalNamespace::AbTestExperimentDefinitionSO::Group)> __GlobalNamespace_AbTestExperimentDefinitionSOSizeCheck;
   static_assert(sizeof(AbTestExperimentDefinitionSO) == 0x3C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AbTestExperimentDefinitionSO*, "", "AbTestExperimentDefinitionSO");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AbTestExperimentDefinitionSO::Group, "", "AbTestExperimentDefinitionSO/Group");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AbTestExperimentDefinitionSO::get_test1GroupSize
 // Il2CppName: get_test1GroupSize
 template<>

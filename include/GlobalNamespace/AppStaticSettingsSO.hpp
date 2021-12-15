@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ScriptableObject
 #include "UnityEngine/ScriptableObject.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: AppStaticSettingsSO
-  class AppStaticSettingsSO;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::AppStaticSettingsSO);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AppStaticSettingsSO*, "", "AppStaticSettingsSO");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x1C
@@ -28,11 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AppStaticSettingsSO : public UnityEngine::ScriptableObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Boolean requirePrivacyPolicy
     // Size: 0x1
     // Offset: 0x18
@@ -57,7 +44,8 @@ namespace GlobalNamespace {
     bool disableMultiplayer;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: AppStaticSettingsSO
+    AppStaticSettingsSO(bool requirePrivacyPolicy_ = {}, bool enable360DegreeLevels_ = {}, bool enableCustomLevels_ = {}, bool disableMultiplayer_ = {}) noexcept : requirePrivacyPolicy{requirePrivacyPolicy_}, enable360DegreeLevels{enable360DegreeLevels_}, enableCustomLevels{enableCustomLevels_}, disableMultiplayer{disableMultiplayer_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Boolean requirePrivacyPolicy
@@ -69,7 +57,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean disableMultiplayer
     bool& dyn_disableMultiplayer();
     // public System.Void .ctor()
-    // Offset: 0x261AD94
+    // Offset: 0x13118D8
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -84,7 +72,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(AppStaticSettingsSO), 27 + sizeof(bool)> __GlobalNamespace_AppStaticSettingsSOSizeCheck;
   static_assert(sizeof(AppStaticSettingsSO) == 0x1C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AppStaticSettingsSO*, "", "AppStaticSettingsSO");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AppStaticSettingsSO::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

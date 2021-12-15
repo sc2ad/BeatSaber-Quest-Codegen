@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PacketEncryptionLayer
 #include "GlobalNamespace/PacketEncryptionLayer.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: EncryptionStatistics
-  class EncryptionStatistics;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics*, "", "PacketEncryptionLayer/EncryptionStatistics");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x50
@@ -28,11 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PacketEncryptionLayer::EncryptionStatistics : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Int64 _packetsReceivedPlaintext
     // Size: 0x8
     // Offset: 0x10
@@ -81,7 +68,8 @@ namespace GlobalNamespace {
     int64_t decryptionProcessingTime;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
-    public:
+    // Creating value type constructor for type: EncryptionStatistics
+    EncryptionStatistics(int64_t packetsReceivedPlaintext_ = {}, int64_t packetsReceivedEncrypted_ = {}, int64_t packetsReceivedRejected_ = {}, int64_t packetsSentPlaintext_ = {}, int64_t packetsSentEncrypted_ = {}, int64_t packetsSentRejected_ = {}, int64_t encryptionProcessingTime_ = {}, int64_t decryptionProcessingTime_ = {}) noexcept : packetsReceivedPlaintext{packetsReceivedPlaintext_}, packetsReceivedEncrypted{packetsReceivedEncrypted_}, packetsReceivedRejected{packetsReceivedRejected_}, packetsSentPlaintext{packetsSentPlaintext_}, packetsSentEncrypted{packetsSentEncrypted_}, packetsSentRejected{packetsSentRejected_}, encryptionProcessingTime{encryptionProcessingTime_}, decryptionProcessingTime{decryptionProcessingTime_} {}
     // Get instance field reference: private System.Int64 _packetsReceivedPlaintext
     int64_t& dyn__packetsReceivedPlaintext();
     // Get instance field reference: private System.Int64 _packetsReceivedEncrypted
@@ -99,55 +87,55 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int64 _decryptionProcessingTime
     int64_t& dyn__decryptionProcessingTime();
     // public System.Int64 get_packetsReceivedPlaintext()
-    // Offset: 0x18B848C
+    // Offset: 0x180CA68
     int64_t get_packetsReceivedPlaintext();
     // public System.Int64 get_packetsReceivedEncrypted()
-    // Offset: 0x18B8498
+    // Offset: 0x180CA74
     int64_t get_packetsReceivedEncrypted();
     // public System.Int64 get_packetsReceivedRejected()
-    // Offset: 0x18B84A4
+    // Offset: 0x180CA80
     int64_t get_packetsReceivedRejected();
     // public System.Int64 get_packetsSentPlaintext()
-    // Offset: 0x18B84B0
+    // Offset: 0x180CA8C
     int64_t get_packetsSentPlaintext();
     // public System.Int64 get_packetsSentEncrypted()
-    // Offset: 0x18B84BC
+    // Offset: 0x180CA98
     int64_t get_packetsSentEncrypted();
     // public System.Int64 get_packetsSentRejected()
-    // Offset: 0x18B84C8
+    // Offset: 0x180CAA4
     int64_t get_packetsSentRejected();
     // public System.Int64 get_encryptionProcessingTime()
-    // Offset: 0x18B84D4
+    // Offset: 0x180CAB0
     int64_t get_encryptionProcessingTime();
     // public System.Int64 get_decryptionProcessingTime()
-    // Offset: 0x18B8560
+    // Offset: 0x180CB3C
     int64_t get_decryptionProcessingTime();
     // public System.Void IncrementPacketsReceivedPlaintext()
-    // Offset: 0x18B637C
+    // Offset: 0x180A958
     void IncrementPacketsReceivedPlaintext();
     // public System.Void IncrementPacketsReceivedEncrypted()
-    // Offset: 0x18B6364
+    // Offset: 0x180A940
     void IncrementPacketsReceivedEncrypted();
     // public System.Void IncrementPacketsReceivedRejected()
-    // Offset: 0x18B6388
+    // Offset: 0x180A964
     void IncrementPacketsReceivedRejected();
     // public System.Void IncrementPacketsSentPlaintext()
-    // Offset: 0x18B6744
+    // Offset: 0x180AD20
     void IncrementPacketsSentPlaintext();
     // public System.Void IncrementPacketsSentEncrypted()
-    // Offset: 0x18B672C
+    // Offset: 0x180AD08
     void IncrementPacketsSentEncrypted();
     // public System.Void IncrementPacketsSentRejected()
-    // Offset: 0x18B6750
+    // Offset: 0x180AD2C
     void IncrementPacketsSentRejected();
     // public System.Void AddEncryptionProcessingTime(System.Int64 time)
-    // Offset: 0x18B6738
+    // Offset: 0x180AD14
     void AddEncryptionProcessingTime(int64_t time);
     // public System.Void AddDecryptionProcessingTime(System.Int64 time)
-    // Offset: 0x18B6370
+    // Offset: 0x180A94C
     void AddDecryptionProcessingTime(int64_t time);
     // public System.Void .ctor()
-    // Offset: 0x18B5E7C
+    // Offset: 0x180A458
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -160,7 +148,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(PacketEncryptionLayer::EncryptionStatistics), 72 + sizeof(int64_t)> __GlobalNamespace_PacketEncryptionLayer_EncryptionStatisticsSizeCheck;
   static_assert(sizeof(PacketEncryptionLayer::EncryptionStatistics) == 0x50);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics*, "", "PacketEncryptionLayer/EncryptionStatistics");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics::get_packetsReceivedPlaintext
 // Il2CppName: get_packetsReceivedPlaintext
 template<>

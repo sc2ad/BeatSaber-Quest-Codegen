@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Runtime.CompilerServices.Ephemeron
 #include "System/Runtime/CompilerServices/Ephemeron.hpp"
 // Including type: System.Int32
@@ -13,11 +13,10 @@
 #include "System/Single.hpp"
 // Including type: System.MulticastDelegate
 #include "System/MulticastDelegate.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::CompilerServices
@@ -32,14 +31,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: System.Runtime.CompilerServices
-namespace System::Runtime::CompilerServices {
-  // Forward declaring type: ConditionalWeakTable`2<TKey, TValue>
-  template<typename TKey, typename TValue>
-  class ConditionalWeakTable_2;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Runtime::CompilerServices::ConditionalWeakTable_2, "System.Runtime.CompilerServices", "ConditionalWeakTable`2");
 // Type namespace: System.Runtime.CompilerServices
 namespace System::Runtime::CompilerServices {
   // WARNING Size may be invalid!
@@ -58,6 +49,8 @@ namespace System::Runtime::CompilerServices {
       using declaring_type = ConditionalWeakTable_2<TKey, TValue>*;
       static constexpr std::string_view NESTED_NAME = "CreateValueCallback";
       static constexpr bool IS_VALUE_TYPE = false;
+      // Creating value type constructor for type: CreateValueCallback
+      CreateValueCallback() noexcept {}
       // public System.Void .ctor(System.Object object, System.IntPtr method)
       // Offset: 0xFFFFFFFF
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -70,35 +63,33 @@ namespace System::Runtime::CompilerServices {
       TValue Invoke(TKey key) {
         static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::ConditionalWeakTable_2::CreateValueCallback::Invoke");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key)})));
-        return ::il2cpp_utils::RunMethodThrow<TValue, false>(this, ___internal__method, key);
+        auto ___instance_arg = this;
+        return ::il2cpp_utils::RunMethodThrow<TValue, false>(___instance_arg, ___internal__method, key);
       }
       // public System.IAsyncResult BeginInvoke(TKey key, System.AsyncCallback callback, System.Object object)
       // Offset: 0xFFFFFFFF
       System::IAsyncResult* BeginInvoke(TKey key, System::AsyncCallback* callback, ::Il2CppObject* object) {
         static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::ConditionalWeakTable_2::CreateValueCallback::BeginInvoke");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BeginInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key), ::il2cpp_utils::ExtractType(callback), ::il2cpp_utils::ExtractType(object)})));
-        return ::il2cpp_utils::RunMethodThrow<System::IAsyncResult*, false>(this, ___internal__method, key, callback, object);
+        auto ___instance_arg = this;
+        return ::il2cpp_utils::RunMethodThrow<System::IAsyncResult*, false>(___instance_arg, ___internal__method, key, callback, object);
       }
       // public TValue EndInvoke(System.IAsyncResult result)
       // Offset: 0xFFFFFFFF
       TValue EndInvoke(System::IAsyncResult* result) {
         static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::ConditionalWeakTable_2::CreateValueCallback::EndInvoke");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "EndInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result)})));
-        return ::il2cpp_utils::RunMethodThrow<TValue, false>(this, ___internal__method, result);
+        auto ___instance_arg = this;
+        return ::il2cpp_utils::RunMethodThrow<TValue, false>(___instance_arg, ___internal__method, result);
       }
     }; // System.Runtime.CompilerServices.ConditionalWeakTable`2/System.Runtime.CompilerServices.CreateValueCallback
     // Could not write size check! Type: System.Runtime.CompilerServices.ConditionalWeakTable`2/System.Runtime.CompilerServices.CreateValueCallback is generic, or has no fields that are valid for size checks!
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Runtime.CompilerServices.Ephemeron[] data
     // Size: 0x8
     // Offset: 0x0
-    ::ArrayW<System::Runtime::CompilerServices::Ephemeron> data;
+    ::Array<System::Runtime::CompilerServices::Ephemeron>* data;
     // Field size check
-    static_assert(sizeof(::ArrayW<System::Runtime::CompilerServices::Ephemeron>) == 0x8);
+    static_assert(sizeof(::Array<System::Runtime::CompilerServices::Ephemeron>*) == 0x8);
     // private System.Object _lock
     // Size: 0x8
     // Offset: 0x0
@@ -111,7 +102,8 @@ namespace System::Runtime::CompilerServices {
     int size;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
+    // Creating value type constructor for type: ConditionalWeakTable_2
+    ConditionalWeakTable_2(::Array<System::Runtime::CompilerServices::Ephemeron>* data_ = {}, ::Il2CppObject* lock_ = {}, int size_ = {}) noexcept : data{data_}, lock{lock_}, size{size_} {}
     // Autogenerated static field getter
     // Get static field: static private System.Int32 INITIAL_SIZE
     static int _get_INITIAL_SIZE() {
@@ -162,11 +154,11 @@ namespace System::Runtime::CompilerServices {
     }
     // Autogenerated instance field getter
     // Get instance field: private System.Runtime.CompilerServices.Ephemeron[] data
-    ::ArrayW<System::Runtime::CompilerServices::Ephemeron>& dyn_data() {
+    ::Array<System::Runtime::CompilerServices::Ephemeron>*& dyn_data() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::ConditionalWeakTable_2::dyn_data");
       auto ___internal__instance = this;
       static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "data"))->offset;
-      return *reinterpret_cast<::ArrayW<System::Runtime::CompilerServices::Ephemeron>*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+      return *reinterpret_cast<::Array<System::Runtime::CompilerServices::Ephemeron>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // Autogenerated instance field getter
     // Get instance field: private System.Object _lock
@@ -189,49 +181,56 @@ namespace System::Runtime::CompilerServices {
     void RehashWithoutResize() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::ConditionalWeakTable_2::RehashWithoutResize");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "RehashWithoutResize", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
+      auto ___instance_arg = this;
+      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method);
     }
     // private System.Void RecomputeSize()
     // Offset: 0xFFFFFFFF
     void RecomputeSize() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::ConditionalWeakTable_2::RecomputeSize");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "RecomputeSize", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
+      auto ___instance_arg = this;
+      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method);
     }
     // private System.Void Rehash()
     // Offset: 0xFFFFFFFF
     void Rehash() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::ConditionalWeakTable_2::Rehash");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Rehash", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
+      auto ___instance_arg = this;
+      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method);
     }
     // public System.Void Add(TKey key, TValue value)
     // Offset: 0xFFFFFFFF
     void Add(TKey key, TValue value) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::ConditionalWeakTable_2::Add");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Add", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key), ::il2cpp_utils::ExtractType(value)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, key, value);
+      auto ___instance_arg = this;
+      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, key, value);
     }
     // public System.Boolean Remove(TKey key)
     // Offset: 0xFFFFFFFF
     bool Remove(TKey key) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::ConditionalWeakTable_2::Remove");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Remove", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key)})));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, key);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(___instance_arg, ___internal__method, key);
     }
     // public System.Boolean TryGetValue(TKey key, out TValue value)
     // Offset: 0xFFFFFFFF
     bool TryGetValue(TKey key, ByRef<TValue> value) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::ConditionalWeakTable_2::TryGetValue");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryGetValue", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key), ::il2cpp_utils::ExtractIndependentType<TValue&>()})));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, key, byref(value));
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(___instance_arg, ___internal__method, key, byref(value));
     }
     // public TValue GetValue(TKey key, System.Runtime.CompilerServices.ConditionalWeakTable`2/System.Runtime.CompilerServices.CreateValueCallback<TKey,TValue> createValueCallback)
     // Offset: 0xFFFFFFFF
     TValue GetValue(TKey key, typename System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>::CreateValueCallback* createValueCallback) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::ConditionalWeakTable_2::GetValue");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetValue", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key), ::il2cpp_utils::ExtractType(createValueCallback)})));
-      return ::il2cpp_utils::RunMethodThrow<TValue, false>(this, ___internal__method, key, createValueCallback);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<TValue, false>(___instance_arg, ___internal__method, key, createValueCallback);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
@@ -249,9 +248,11 @@ namespace System::Runtime::CompilerServices {
     void Finalize() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::ConditionalWeakTable_2::Finalize");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Finalize", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
+      auto ___instance_arg = this;
+      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method);
     }
   }; // System.Runtime.CompilerServices.ConditionalWeakTable`2
   // Could not write size check! Type: System.Runtime.CompilerServices.ConditionalWeakTable`2 is generic, or has no fields that are valid for size checks!
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Runtime::CompilerServices::ConditionalWeakTable_2, "System.Runtime.CompilerServices", "ConditionalWeakTable`2");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

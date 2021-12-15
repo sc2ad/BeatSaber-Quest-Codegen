@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.UI.Dropdown
 #include "UnityEngine/UI/Dropdown.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: UnityEngine.UI
-namespace UnityEngine::UI {
-  // Forward declaring type: <>c__DisplayClass62_0
-  class $$c__DisplayClass62_0;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::UI::Dropdown::$$c__DisplayClass62_0);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Dropdown::$$c__DisplayClass62_0*, "UnityEngine.UI", "Dropdown/<>c__DisplayClass62_0");
 // Type namespace: UnityEngine.UI
 namespace UnityEngine::UI {
   // Size: 0x20
@@ -29,11 +21,6 @@ namespace UnityEngine::UI {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class Dropdown::$$c__DisplayClass62_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public UnityEngine.UI.Dropdown/UnityEngine.UI.DropdownItem item
     // Size: 0x8
     // Offset: 0x10
@@ -46,16 +33,17 @@ namespace UnityEngine::UI {
     UnityEngine::UI::Dropdown* $$4__this;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Dropdown*) == 0x8);
-    public:
+    // Creating value type constructor for type: $$c__DisplayClass62_0
+    $$c__DisplayClass62_0(UnityEngine::UI::Dropdown::DropdownItem* item_ = {}, UnityEngine::UI::Dropdown* $$4__this_ = {}) noexcept : item{item_}, $$4__this{$$4__this_} {}
     // Get instance field reference: public UnityEngine.UI.Dropdown/UnityEngine.UI.DropdownItem item
     UnityEngine::UI::Dropdown::DropdownItem*& dyn_item();
     // Get instance field reference: public UnityEngine.UI.Dropdown <>4__this
     UnityEngine::UI::Dropdown*& dyn_$$4__this();
     // System.Void <Show>b__0(System.Boolean x)
-    // Offset: 0x1AAC330
+    // Offset: 0x1B0D948
     void $Show$b__0(bool x);
     // public System.Void .ctor()
-    // Offset: 0x1AAC328
+    // Offset: 0x1B0D940
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -68,7 +56,8 @@ namespace UnityEngine::UI {
   static check_size<sizeof(Dropdown::$$c__DisplayClass62_0), 24 + sizeof(UnityEngine::UI::Dropdown*)> __UnityEngine_UI_Dropdown_$$c__DisplayClass62_0SizeCheck;
   static_assert(sizeof(Dropdown::$$c__DisplayClass62_0) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Dropdown::$$c__DisplayClass62_0*, "UnityEngine.UI", "Dropdown/<>c__DisplayClass62_0");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::Dropdown::$$c__DisplayClass62_0::$Show$b__0
 // Il2CppName: <Show>b__0
 template<>

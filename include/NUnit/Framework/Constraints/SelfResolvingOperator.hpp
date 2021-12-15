@@ -3,19 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: NUnit.Framework.Constraints.ConstraintOperator
 #include "NUnit/Framework/Constraints/ConstraintOperator.hpp"
 // Completed includes
-// Type namespace: NUnit.Framework.Constraints
-namespace NUnit::Framework::Constraints {
-  // Forward declaring type: SelfResolvingOperator
-  class SelfResolvingOperator;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(NUnit::Framework::Constraints::SelfResolvingOperator);
-DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::SelfResolvingOperator*, "NUnit.Framework.Constraints", "SelfResolvingOperator");
 // Type namespace: NUnit.Framework.Constraints
 namespace NUnit::Framework::Constraints {
   // Size: 0x10
@@ -24,7 +16,11 @@ namespace NUnit::Framework::Constraints {
   // [TokenAttribute] Offset: FFFFFFFF
   class SelfResolvingOperator : public NUnit::Framework::Constraints::ConstraintOperator {
     public:
+    // Creating value type constructor for type: SelfResolvingOperator
+    SelfResolvingOperator() noexcept {}
   }; // NUnit.Framework.Constraints.SelfResolvingOperator
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::SelfResolvingOperator*, "NUnit.Framework.Constraints", "SelfResolvingOperator");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

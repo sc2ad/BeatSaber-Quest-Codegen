@@ -3,19 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Oculus.Platform.Message`1
 #include "Oculus/Platform/Message_1.hpp"
 // Completed includes
-// Type namespace: Oculus.Platform
-namespace Oculus::Platform {
-  // Forward declaring type: Vrcamera
-  class Vrcamera;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Vrcamera);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Vrcamera*, "Oculus.Platform", "Vrcamera");
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
   // Size: 0x10
@@ -24,13 +16,17 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class Vrcamera : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: Vrcamera
+    Vrcamera() noexcept {}
     // static public System.Void SetGetSurfaceUpdateNotificationCallback(Oculus.Platform.Message`1/Oculus.Platform.Callback<System.String> callback)
-    // Offset: 0x25A4230
+    // Offset: 0x2668884
     static void SetGetSurfaceUpdateNotificationCallback(typename Oculus::Platform::Message_1<::Il2CppString*>::Callback* callback);
   }; // Oculus.Platform.Vrcamera
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Vrcamera*, "Oculus.Platform", "Vrcamera");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Vrcamera::SetGetSurfaceUpdateNotificationCallback
 // Il2CppName: SetGetSurfaceUpdateNotificationCallback
 // Cannot write MetadataGetter for a method that has a nested type with a declaring generic type anywhere within it!

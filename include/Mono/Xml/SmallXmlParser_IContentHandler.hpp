@@ -3,19 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Mono.Xml.SmallXmlParser
 #include "Mono/Xml/SmallXmlParser.hpp"
 // Completed includes
-// Type namespace: Mono.Xml
-namespace Mono::Xml {
-  // Forward declaring type: IContentHandler
-  class IContentHandler;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Xml::SmallXmlParser::IContentHandler);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Xml::SmallXmlParser::IContentHandler*, "Mono.Xml", "SmallXmlParser/IContentHandler");
 // Type namespace: Mono.Xml
 namespace Mono::Xml {
   // Size: 0x10
@@ -24,6 +16,8 @@ namespace Mono::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class SmallXmlParser::IContentHandler {
     public:
+    // Creating value type constructor for type: IContentHandler
+    IContentHandler() noexcept {}
     // public System.Void OnStartParsing(Mono.Xml.SmallXmlParser parser)
     // Offset: 0xFFFFFFFF
     void OnStartParsing(Mono::Xml::SmallXmlParser* parser);
@@ -48,7 +42,9 @@ namespace Mono::Xml {
   }; // Mono.Xml.SmallXmlParser/Mono.Xml.IContentHandler
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Mono::Xml::SmallXmlParser::IContentHandler*, "Mono.Xml", "SmallXmlParser/IContentHandler");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Xml::SmallXmlParser::IContentHandler::OnStartParsing
 // Il2CppName: OnStartParsing
 template<>

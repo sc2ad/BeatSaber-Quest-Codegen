@@ -3,28 +3,20 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Int32
 #include "System/Int32.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: OVRSystemPerfMetrics
-  class OVRSystemPerfMetrics;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRSystemPerfMetrics);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSystemPerfMetrics*, "", "OVRSystemPerfMetrics");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -37,6 +29,8 @@ namespace GlobalNamespace {
     class PerfMetrics;
     // Nested type: GlobalNamespace::OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer
     class OVRSystemPerfMetricsTcpServer;
+    // Creating value type constructor for type: OVRSystemPerfMetrics
+    OVRSystemPerfMetrics() noexcept {}
     // static field const value: static public System.Int32 TcpListeningPort
     static constexpr const int TcpListeningPort = 32419;
     // Get static field: static public System.Int32 TcpListeningPort
@@ -62,7 +56,7 @@ namespace GlobalNamespace {
     // Set static field: static public System.Int32 MaxMessageLength
     static void _set_MaxMessageLength(int value);
     // public System.Void .ctor()
-    // Offset: 0x20C7718
+    // Offset: 0x2169FF4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -73,7 +67,8 @@ namespace GlobalNamespace {
   }; // OVRSystemPerfMetrics
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSystemPerfMetrics*, "", "OVRSystemPerfMetrics");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRSystemPerfMetrics::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

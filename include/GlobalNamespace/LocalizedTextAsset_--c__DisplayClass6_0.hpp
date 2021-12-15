@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LocalizedTextAsset
 #include "GlobalNamespace/LocalizedTextAsset.hpp"
 // Including type: Polyglot.Language
 #include "Polyglot/Language.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <>c__DisplayClass6_0
-  class $$c__DisplayClass6_0;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::LocalizedTextAsset::$$c__DisplayClass6_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalizedTextAsset::$$c__DisplayClass6_0*, "", "LocalizedTextAsset/<>c__DisplayClass6_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x14
@@ -31,18 +23,14 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class LocalizedTextAsset::$$c__DisplayClass6_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public Polyglot.Language language
     // Size: 0x4
     // Offset: 0x10
     Polyglot::Language language;
     // Field size check
     static_assert(sizeof(Polyglot::Language) == 0x4);
-    public:
+    // Creating value type constructor for type: $$c__DisplayClass6_0
+    $$c__DisplayClass6_0(Polyglot::Language language_ = {}) noexcept : language{language_} {}
     // Creating conversion operator: operator Polyglot::Language
     constexpr operator Polyglot::Language() const noexcept {
       return language;
@@ -50,10 +38,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public Polyglot.Language language
     Polyglot::Language& dyn_language();
     // System.Boolean <get_localizedText>b__1(LocalizedTextAsset/TextInfo t)
-    // Offset: 0x1259F08
+    // Offset: 0x135DF88
     bool $get_localizedText$b__1(GlobalNamespace::LocalizedTextAsset::TextInfo* t);
     // public System.Void .ctor()
-    // Offset: 0x1259E6C
+    // Offset: 0x135DEEC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -66,7 +54,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(LocalizedTextAsset::$$c__DisplayClass6_0), 16 + sizeof(Polyglot::Language)> __GlobalNamespace_LocalizedTextAsset_$$c__DisplayClass6_0SizeCheck;
   static_assert(sizeof(LocalizedTextAsset::$$c__DisplayClass6_0) == 0x14);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalizedTextAsset::$$c__DisplayClass6_0*, "", "LocalizedTextAsset/<>c__DisplayClass6_0");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LocalizedTextAsset::$$c__DisplayClass6_0::$get_localizedText$b__1
 // Il2CppName: <get_localizedText>b__1
 template<>

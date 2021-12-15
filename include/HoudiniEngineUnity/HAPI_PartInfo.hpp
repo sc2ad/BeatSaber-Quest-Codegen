@@ -3,13 +3,12 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: HoudiniEngineUnity.HAPI_PartType
 #include "HoudiniEngineUnity/HAPI_PartType.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HoudiniEngineUnity
@@ -22,13 +21,6 @@ namespace HoudiniEngineUnity {
 // Completed forward declares
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
-  // Forward declaring type: HAPI_PartInfo
-  struct HAPI_PartInfo;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_PartInfo, "HoudiniEngineUnity", "HAPI_PartInfo");
-// Type namespace: HoudiniEngineUnity
-namespace HoudiniEngineUnity {
   // Size: 0x2D
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -36,11 +28,6 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HAPI_PartInfo/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 id
     // Size: 0x4
     // Offset: 0x0
@@ -80,9 +67,9 @@ namespace HoudiniEngineUnity {
     // public System.Int32[] attributeCounts
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayW<int> attributeCounts;
+    ::Array<int>* attributeCounts;
     // Field size check
-    static_assert(sizeof(::ArrayW<int>) == 0x8);
+    static_assert(sizeof(::Array<int>*) == 0x8);
     // public System.Boolean isInstanced
     // Size: 0x1
     // Offset: 0x20
@@ -109,9 +96,8 @@ namespace HoudiniEngineUnity {
     bool hasChanged;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
     // Creating value type constructor for type: HAPI_PartInfo
-    constexpr HAPI_PartInfo(int id_ = {}, int nameSH_ = {}, HoudiniEngineUnity::HAPI_PartType type_ = {}, int faceCount_ = {}, int vertexCount_ = {}, int pointCount_ = {}, ::ArrayW<int> attributeCounts_ = ::ArrayW<int>(nullptr), bool isInstanced_ = {}, int instancedPartCount_ = {}, int instanceCount_ = {}, bool hasChanged_ = {}) noexcept : id{id_}, nameSH{nameSH_}, type{type_}, faceCount{faceCount_}, vertexCount{vertexCount_}, pointCount{pointCount_}, attributeCounts{attributeCounts_}, isInstanced{isInstanced_}, instancedPartCount{instancedPartCount_}, instanceCount{instanceCount_}, hasChanged{hasChanged_} {}
+    constexpr HAPI_PartInfo(int id_ = {}, int nameSH_ = {}, HoudiniEngineUnity::HAPI_PartType type_ = {}, int faceCount_ = {}, int vertexCount_ = {}, int pointCount_ = {}, ::Array<int>* attributeCounts_ = {}, bool isInstanced_ = {}, int instancedPartCount_ = {}, int instanceCount_ = {}, bool hasChanged_ = {}) noexcept : id{id_}, nameSH{nameSH_}, type{type_}, faceCount{faceCount_}, vertexCount{vertexCount_}, pointCount{pointCount_}, attributeCounts{attributeCounts_}, isInstanced{isInstanced_}, instancedPartCount{instancedPartCount_}, instanceCount{instanceCount_}, hasChanged{hasChanged_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -129,7 +115,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Int32 pointCount
     int& dyn_pointCount();
     // Get instance field reference: public System.Int32[] attributeCounts
-    ::ArrayW<int>& dyn_attributeCounts();
+    ::Array<int>*& dyn_attributeCounts();
     // Get instance field reference: public System.Boolean isInstanced
     bool& dyn_isInstanced();
     // Get instance field reference: public System.Int32 instancedPartCount
@@ -139,44 +125,46 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Boolean hasChanged
     bool& dyn_hasChanged();
     // public System.Int32 get_pointAttributeCount()
-    // Offset: 0x141C7D4
+    // Offset: 0x14612F4
     int get_pointAttributeCount();
     // public System.Void set_pointAttributeCount(System.Int32 value)
-    // Offset: 0x141E3CC
+    // Offset: 0x1462EEC
     void set_pointAttributeCount(int value);
     // public System.Int32 get_primitiveAttributeCount()
-    // Offset: 0x141C78C
+    // Offset: 0x14612AC
     int get_primitiveAttributeCount();
     // public System.Void set_primitiveAttributeCount(System.Int32 value)
-    // Offset: 0x141E418
+    // Offset: 0x1462F38
     void set_primitiveAttributeCount(int value);
     // public System.Int32 get_vertexAttributeCount()
-    // Offset: 0x141C81C
+    // Offset: 0x146133C
     int get_vertexAttributeCount();
     // public System.Void set_vertexAttributeCount(System.Int32 value)
-    // Offset: 0x141E464
+    // Offset: 0x1462F84
     void set_vertexAttributeCount(int value);
     // public System.Int32 get_detailAttributeCount()
-    // Offset: 0x141C4D8
+    // Offset: 0x1460FF8
     int get_detailAttributeCount();
     // public System.Void set_detailAttributeCount(System.Int32 value)
-    // Offset: 0x141E4AC
+    // Offset: 0x1462FCC
     void set_detailAttributeCount(int value);
     // public System.Int32 getElementCountByAttributeOwner(HoudiniEngineUnity.HAPI_AttributeOwner owner)
-    // Offset: 0x141E2FC
+    // Offset: 0x1462E1C
     int getElementCountByAttributeOwner(HoudiniEngineUnity::HAPI_AttributeOwner owner);
     // public System.Int32 getElementCountByGroupType(HoudiniEngineUnity.HAPI_GroupType type)
-    // Offset: 0x141E344
+    // Offset: 0x1462E64
     int getElementCountByGroupType(HoudiniEngineUnity::HAPI_GroupType type);
     // public System.Void init()
-    // Offset: 0x141E36C
+    // Offset: 0x1462E8C
     void init();
   }; // HoudiniEngineUnity.HAPI_PartInfo
   #pragma pack(pop)
   static check_size<sizeof(HAPI_PartInfo), 44 + sizeof(bool)> __HoudiniEngineUnity_HAPI_PartInfoSizeCheck;
   static_assert(sizeof(HAPI_PartInfo) == 0x2D);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_PartInfo, "HoudiniEngineUnity", "HAPI_PartInfo");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HAPI_PartInfo::get_pointAttributeCount
 // Il2CppName: get_pointAttributeCount
 template<>

@@ -3,12 +3,12 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection
@@ -19,14 +19,6 @@ namespace System::Reflection {
 // Completed forward declares
 // Type namespace: System
 namespace System {
-  // Forward declaring type: MonoTypeInfo
-  class MonoTypeInfo;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::MonoTypeInfo);
-DEFINE_IL2CPP_ARG_TYPE(System::MonoTypeInfo*, "System", "MonoTypeInfo");
-// Type namespace: System
-namespace System {
   // Size: 0x20
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -34,11 +26,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class MonoTypeInfo : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.String full_name
     // Size: 0x8
     // Offset: 0x10
@@ -51,13 +38,14 @@ namespace System {
     System::Reflection::MonoCMethod* default_ctor;
     // Field size check
     static_assert(sizeof(System::Reflection::MonoCMethod*) == 0x8);
-    public:
+    // Creating value type constructor for type: MonoTypeInfo
+    MonoTypeInfo(::Il2CppString* full_name_ = {}, System::Reflection::MonoCMethod* default_ctor_ = {}) noexcept : full_name{full_name_}, default_ctor{default_ctor_} {}
     // Get instance field reference: public System.String full_name
     ::Il2CppString*& dyn_full_name();
     // Get instance field reference: public System.Reflection.MonoCMethod default_ctor
     System::Reflection::MonoCMethod*& dyn_default_ctor();
     // public System.Void .ctor()
-    // Offset: 0x19F7DA4
+    // Offset: 0x1A16454
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -70,7 +58,8 @@ namespace System {
   static check_size<sizeof(MonoTypeInfo), 24 + sizeof(System::Reflection::MonoCMethod*)> __System_MonoTypeInfoSizeCheck;
   static_assert(sizeof(MonoTypeInfo) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::MonoTypeInfo*, "System", "MonoTypeInfo");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::MonoTypeInfo::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

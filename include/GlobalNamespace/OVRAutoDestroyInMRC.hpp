@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: OVRAutoDestroyInMRC
-  class OVRAutoDestroyInMRC;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRAutoDestroyInMRC);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRAutoDestroyInMRC*, "", "OVRAutoDestroyInMRC");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x18
@@ -28,14 +20,16 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRAutoDestroyInMRC : public UnityEngine::MonoBehaviour {
     public:
+    // Creating value type constructor for type: OVRAutoDestroyInMRC
+    OVRAutoDestroyInMRC() noexcept {}
     // private System.Void Start()
-    // Offset: 0x1399868
+    // Offset: 0x13D97FC
     void Start();
     // private System.Void Update()
-    // Offset: 0x139998C
+    // Offset: 0x13D9920
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x1399990
+    // Offset: 0x13D9924
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -50,7 +44,8 @@ namespace GlobalNamespace {
   }; // OVRAutoDestroyInMRC
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRAutoDestroyInMRC*, "", "OVRAutoDestroyInMRC");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRAutoDestroyInMRC::Start
 // Il2CppName: Start
 template<>

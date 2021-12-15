@@ -3,7 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
@@ -12,13 +12,6 @@
 namespace OVR::OpenVR {
 }
 // Completed forward declares
-// Type namespace: OVR.OpenVR
-namespace OVR::OpenVR {
-  // Forward declaring type: IVRChaperoneSetup
-  struct IVRChaperoneSetup;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRChaperoneSetup, "OVR.OpenVR", "IVRChaperoneSetup");
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
   // Size: 0xA0
@@ -68,11 +61,6 @@ namespace OVR::OpenVR {
     class _ExportLiveToBuffer;
     // Nested type: OVR::OpenVR::IVRChaperoneSetup::_ImportFromBufferToWorking
     class _ImportFromBufferToWorking;
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._CommitWorkingCopy CommitWorkingCopy
     // Size: 0x8
     // Offset: 0x0
@@ -193,7 +181,6 @@ namespace OVR::OpenVR {
     OVR::OpenVR::IVRChaperoneSetup::_ImportFromBufferToWorking* ImportFromBufferToWorking;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::IVRChaperoneSetup::_ImportFromBufferToWorking*) == 0x8);
-    public:
     // Creating value type constructor for type: IVRChaperoneSetup
     constexpr IVRChaperoneSetup(OVR::OpenVR::IVRChaperoneSetup::_CommitWorkingCopy* CommitWorkingCopy_ = {}, OVR::OpenVR::IVRChaperoneSetup::_RevertWorkingCopy* RevertWorkingCopy_ = {}, OVR::OpenVR::IVRChaperoneSetup::_GetWorkingPlayAreaSize* GetWorkingPlayAreaSize_ = {}, OVR::OpenVR::IVRChaperoneSetup::_GetWorkingPlayAreaRect* GetWorkingPlayAreaRect_ = {}, OVR::OpenVR::IVRChaperoneSetup::_GetWorkingCollisionBoundsInfo* GetWorkingCollisionBoundsInfo_ = {}, OVR::OpenVR::IVRChaperoneSetup::_GetLiveCollisionBoundsInfo* GetLiveCollisionBoundsInfo_ = {}, OVR::OpenVR::IVRChaperoneSetup::_GetWorkingSeatedZeroPoseToRawTrackingPose* GetWorkingSeatedZeroPoseToRawTrackingPose_ = {}, OVR::OpenVR::IVRChaperoneSetup::_GetWorkingStandingZeroPoseToRawTrackingPose* GetWorkingStandingZeroPoseToRawTrackingPose_ = {}, OVR::OpenVR::IVRChaperoneSetup::_SetWorkingPlayAreaSize* SetWorkingPlayAreaSize_ = {}, OVR::OpenVR::IVRChaperoneSetup::_SetWorkingCollisionBoundsInfo* SetWorkingCollisionBoundsInfo_ = {}, OVR::OpenVR::IVRChaperoneSetup::_SetWorkingSeatedZeroPoseToRawTrackingPose* SetWorkingSeatedZeroPoseToRawTrackingPose_ = {}, OVR::OpenVR::IVRChaperoneSetup::_SetWorkingStandingZeroPoseToRawTrackingPose* SetWorkingStandingZeroPoseToRawTrackingPose_ = {}, OVR::OpenVR::IVRChaperoneSetup::_ReloadFromDisk* ReloadFromDisk_ = {}, OVR::OpenVR::IVRChaperoneSetup::_GetLiveSeatedZeroPoseToRawTrackingPose* GetLiveSeatedZeroPoseToRawTrackingPose_ = {}, OVR::OpenVR::IVRChaperoneSetup::_SetWorkingCollisionBoundsTagsInfo* SetWorkingCollisionBoundsTagsInfo_ = {}, OVR::OpenVR::IVRChaperoneSetup::_GetLiveCollisionBoundsTagsInfo* GetLiveCollisionBoundsTagsInfo_ = {}, OVR::OpenVR::IVRChaperoneSetup::_SetWorkingPhysicalBoundsInfo* SetWorkingPhysicalBoundsInfo_ = {}, OVR::OpenVR::IVRChaperoneSetup::_GetLivePhysicalBoundsInfo* GetLivePhysicalBoundsInfo_ = {}, OVR::OpenVR::IVRChaperoneSetup::_ExportLiveToBuffer* ExportLiveToBuffer_ = {}, OVR::OpenVR::IVRChaperoneSetup::_ImportFromBufferToWorking* ImportFromBufferToWorking_ = {}) noexcept : CommitWorkingCopy{CommitWorkingCopy_}, RevertWorkingCopy{RevertWorkingCopy_}, GetWorkingPlayAreaSize{GetWorkingPlayAreaSize_}, GetWorkingPlayAreaRect{GetWorkingPlayAreaRect_}, GetWorkingCollisionBoundsInfo{GetWorkingCollisionBoundsInfo_}, GetLiveCollisionBoundsInfo{GetLiveCollisionBoundsInfo_}, GetWorkingSeatedZeroPoseToRawTrackingPose{GetWorkingSeatedZeroPoseToRawTrackingPose_}, GetWorkingStandingZeroPoseToRawTrackingPose{GetWorkingStandingZeroPoseToRawTrackingPose_}, SetWorkingPlayAreaSize{SetWorkingPlayAreaSize_}, SetWorkingCollisionBoundsInfo{SetWorkingCollisionBoundsInfo_}, SetWorkingSeatedZeroPoseToRawTrackingPose{SetWorkingSeatedZeroPoseToRawTrackingPose_}, SetWorkingStandingZeroPoseToRawTrackingPose{SetWorkingStandingZeroPoseToRawTrackingPose_}, ReloadFromDisk{ReloadFromDisk_}, GetLiveSeatedZeroPoseToRawTrackingPose{GetLiveSeatedZeroPoseToRawTrackingPose_}, SetWorkingCollisionBoundsTagsInfo{SetWorkingCollisionBoundsTagsInfo_}, GetLiveCollisionBoundsTagsInfo{GetLiveCollisionBoundsTagsInfo_}, SetWorkingPhysicalBoundsInfo{SetWorkingPhysicalBoundsInfo_}, GetLivePhysicalBoundsInfo{GetLivePhysicalBoundsInfo_}, ExportLiveToBuffer{ExportLiveToBuffer_}, ImportFromBufferToWorking{ImportFromBufferToWorking_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -245,4 +232,6 @@ namespace OVR::OpenVR {
   static check_size<sizeof(IVRChaperoneSetup), 152 + sizeof(OVR::OpenVR::IVRChaperoneSetup::_ImportFromBufferToWorking*)> __OVR_OpenVR_IVRChaperoneSetupSizeCheck;
   static_assert(sizeof(IVRChaperoneSetup) == 0xA0);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRChaperoneSetup, "OVR.OpenVR", "IVRChaperoneSetup");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -3,11 +3,10 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: TMPro
@@ -18,13 +17,6 @@ namespace TMPro {
 // Completed forward declares
 // Type namespace: TMPro
 namespace TMPro {
-  // Forward declaring type: TMP_LinkInfo
-  struct TMP_LinkInfo;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_LinkInfo, "TMPro", "TMP_LinkInfo");
-// Type namespace: TMPro
-namespace TMPro {
   // Size: 0x28
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -32,11 +24,6 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   struct TMP_LinkInfo/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public TMPro.TMP_Text textComponent
     // Size: 0x8
     // Offset: 0x0
@@ -78,12 +65,11 @@ namespace TMPro {
     // System.Char[] linkID
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayW<::Il2CppChar> linkID;
+    ::Array<::Il2CppChar>* linkID;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppChar>) == 0x8);
-    public:
+    static_assert(sizeof(::Array<::Il2CppChar>*) == 0x8);
     // Creating value type constructor for type: TMP_LinkInfo
-    constexpr TMP_LinkInfo(TMPro::TMP_Text* textComponent_ = {}, int hashCode_ = {}, int linkIdFirstCharacterIndex_ = {}, int linkIdLength_ = {}, int linkTextfirstCharacterIndex_ = {}, int linkTextLength_ = {}, ::ArrayW<::Il2CppChar> linkID_ = ::ArrayW<::Il2CppChar>(nullptr)) noexcept : textComponent{textComponent_}, hashCode{hashCode_}, linkIdFirstCharacterIndex{linkIdFirstCharacterIndex_}, linkIdLength{linkIdLength_}, linkTextfirstCharacterIndex{linkTextfirstCharacterIndex_}, linkTextLength{linkTextLength_}, linkID{linkID_} {}
+    constexpr TMP_LinkInfo(TMPro::TMP_Text* textComponent_ = {}, int hashCode_ = {}, int linkIdFirstCharacterIndex_ = {}, int linkIdLength_ = {}, int linkTextfirstCharacterIndex_ = {}, int linkTextLength_ = {}, ::Array<::Il2CppChar>* linkID_ = {}) noexcept : textComponent{textComponent_}, hashCode{hashCode_}, linkIdFirstCharacterIndex{linkIdFirstCharacterIndex_}, linkIdLength{linkIdLength_}, linkTextfirstCharacterIndex{linkTextfirstCharacterIndex_}, linkTextLength{linkTextLength_}, linkID{linkID_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -101,26 +87,28 @@ namespace TMPro {
     // Get instance field reference: public System.Int32 linkTextLength
     int& dyn_linkTextLength();
     // Get instance field reference: System.Char[] linkID
-    ::ArrayW<::Il2CppChar>& dyn_linkID();
+    ::Array<::Il2CppChar>*& dyn_linkID();
     // System.Void SetLinkID(System.Char[] text, System.Int32 startIndex, System.Int32 length)
-    // Offset: 0x12170BC
-    void SetLinkID(::ArrayW<::Il2CppChar> text, int startIndex, int length);
+    // Offset: 0x125A31C
+    void SetLinkID(::Array<::Il2CppChar>* text, int startIndex, int length);
     // public System.String GetLinkText()
-    // Offset: 0x12171BC
+    // Offset: 0x125A41C
     ::Il2CppString* GetLinkText();
     // public System.String GetLinkID()
-    // Offset: 0x12172B0
+    // Offset: 0x125A510
     ::Il2CppString* GetLinkID();
   }; // TMPro.TMP_LinkInfo
   #pragma pack(pop)
-  static check_size<sizeof(TMP_LinkInfo), 32 + sizeof(::ArrayW<::Il2CppChar>)> __TMPro_TMP_LinkInfoSizeCheck;
+  static check_size<sizeof(TMP_LinkInfo), 32 + sizeof(::Array<::Il2CppChar>*)> __TMPro_TMP_LinkInfoSizeCheck;
   static_assert(sizeof(TMP_LinkInfo) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_LinkInfo, "TMPro", "TMP_LinkInfo");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_LinkInfo::SetLinkID
 // Il2CppName: SetLinkID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_LinkInfo::*)(::ArrayW<::Il2CppChar>, int, int)>(&TMPro::TMP_LinkInfo::SetLinkID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_LinkInfo::*)(::Array<::Il2CppChar>*, int, int)>(&TMPro::TMP_LinkInfo::SetLinkID)> {
   static const MethodInfo* get() {
     static auto* text = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

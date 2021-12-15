@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: CreditsData
 #include "GlobalNamespace/CreditsData.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: ChildCreditsItem
-  class ChildCreditsItem;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::CreditsData::ChildCreditsItem);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CreditsData::ChildCreditsItem*, "", "CreditsData/ChildCreditsItem");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -28,11 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class CreditsData::ChildCreditsItem : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public CreditsData/Text title
     // Size: 0x8
     // Offset: 0x10
@@ -45,19 +32,20 @@ namespace GlobalNamespace {
     GlobalNamespace::CreditsData::Text* text;
     // Field size check
     static_assert(sizeof(GlobalNamespace::CreditsData::Text*) == 0x8);
-    public:
+    // Creating value type constructor for type: ChildCreditsItem
+    ChildCreditsItem(GlobalNamespace::CreditsData::Text* title_ = {}, GlobalNamespace::CreditsData::Text* text_ = {}) noexcept : title{title_}, text{text_} {}
     // Get instance field reference: public CreditsData/Text title
     GlobalNamespace::CreditsData::Text*& dyn_title();
     // Get instance field reference: public CreditsData/Text text
     GlobalNamespace::CreditsData::Text*& dyn_text();
     // public System.Boolean HasTitle()
-    // Offset: 0x1134A2C
+    // Offset: 0x118FE24
     bool HasTitle();
     // public System.Boolean HasText()
-    // Offset: 0x1134A3C
+    // Offset: 0x118FE34
     bool HasText();
     // public System.Void .ctor()
-    // Offset: 0x1134A4C
+    // Offset: 0x118FE44
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -70,7 +58,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(CreditsData::ChildCreditsItem), 24 + sizeof(GlobalNamespace::CreditsData::Text*)> __GlobalNamespace_CreditsData_ChildCreditsItemSizeCheck;
   static_assert(sizeof(CreditsData::ChildCreditsItem) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CreditsData::ChildCreditsItem*, "", "CreditsData/ChildCreditsItem");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CreditsData::ChildCreditsItem::HasTitle
 // Il2CppName: HasTitle
 template<>

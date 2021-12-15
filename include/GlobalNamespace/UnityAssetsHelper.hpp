@@ -3,17 +3,9 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: UnityAssetsHelper
-  class UnityAssetsHelper;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::UnityAssetsHelper);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UnityAssetsHelper*, "", "UnityAssetsHelper");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -22,7 +14,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class UnityAssetsHelper : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: UnityAssetsHelper
+    UnityAssetsHelper() noexcept {}
   }; // UnityAssetsHelper
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UnityAssetsHelper*, "", "UnityAssetsHelper");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -3,18 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: UnityEngine.Experimental.Rendering
-namespace UnityEngine::Experimental::Rendering {
-  // Forward declaring type: DefaultFormat
-  struct DefaultFormat;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Rendering::DefaultFormat, "UnityEngine.Experimental.Rendering", "DefaultFormat");
 // Type namespace: UnityEngine.Experimental.Rendering
 namespace UnityEngine::Experimental::Rendering {
   // Size: 0x4
@@ -23,18 +16,12 @@ namespace UnityEngine::Experimental::Rendering {
   // [TokenAttribute] Offset: FFFFFFFF
   struct DefaultFormat/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: DefaultFormat
     constexpr DefaultFormat(int value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -64,4 +51,6 @@ namespace UnityEngine::Experimental::Rendering {
   static check_size<sizeof(DefaultFormat), 0 + sizeof(int)> __UnityEngine_Experimental_Rendering_DefaultFormatSizeCheck;
   static_assert(sizeof(DefaultFormat) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Rendering::DefaultFormat, "UnityEngine.Experimental.Rendering", "DefaultFormat");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

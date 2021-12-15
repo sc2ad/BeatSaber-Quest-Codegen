@@ -3,14 +3,18 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
 // Including type: SaberType
 #include "GlobalNamespace/SaberType.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -19,13 +23,6 @@ namespace GlobalNamespace {
   class ISaberSwingRatingCounter;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: NoteCutInfo
-  struct NoteCutInfo;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutInfo, "", "NoteCutInfo");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x48
@@ -38,11 +35,6 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::NoteCutInfo::FailReason
     struct FailReason;
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public readonly System.Boolean speedOK
     // Size: 0x1
     // Offset: 0x0
@@ -127,7 +119,6 @@ namespace GlobalNamespace {
     GlobalNamespace::ISaberSwingRatingCounter* swingRatingCounter;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ISaberSwingRatingCounter*) == 0x8);
-    public:
     // Creating value type constructor for type: NoteCutInfo
     constexpr NoteCutInfo(bool speedOK_ = {}, bool directionOK_ = {}, bool saberTypeOK_ = {}, bool wasCutTooSoon_ = {}, float saberSpeed_ = {}, UnityEngine::Vector3 saberDir_ = {}, GlobalNamespace::SaberType saberType_ = {}, float timeDeviation_ = {}, float cutDirDeviation_ = {}, UnityEngine::Vector3 cutPoint_ = {}, UnityEngine::Vector3 cutNormal_ = {}, float cutAngle_ = {}, float cutDistanceToCenter_ = {}, GlobalNamespace::ISaberSwingRatingCounter* swingRatingCounter_ = {}) noexcept : speedOK{speedOK_}, directionOK{directionOK_}, saberTypeOK{saberTypeOK_}, wasCutTooSoon{wasCutTooSoon_}, saberSpeed{saberSpeed_}, saberDir{saberDir_}, saberType{saberType_}, timeDeviation{timeDeviation_}, cutDirDeviation{cutDirDeviation_}, cutPoint{cutPoint_}, cutNormal{cutNormal_}, cutAngle{cutAngle_}, cutDistanceToCenter{cutDistanceToCenter_}, swingRatingCounter{swingRatingCounter_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -163,23 +154,25 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly ISaberSwingRatingCounter swingRatingCounter
     GlobalNamespace::ISaberSwingRatingCounter*& dyn_swingRatingCounter();
     // public System.Boolean get_allIsOK()
-    // Offset: 0x25565FC
+    // Offset: 0x2622F3C
     bool get_allIsOK();
     // public System.Boolean get_allExceptSaberTypeIsOK()
-    // Offset: 0x255662C
+    // Offset: 0x2622F6C
     bool get_allExceptSaberTypeIsOK();
     // public NoteCutInfo/FailReason get_failReason()
-    // Offset: 0x2556654
+    // Offset: 0x2622F94
     GlobalNamespace::NoteCutInfo::FailReason get_failReason();
     // public System.Void .ctor(System.Boolean speedOK, System.Boolean directionOK, System.Boolean saberTypeOK, System.Boolean wasCutTooSoon, System.Single saberSpeed, UnityEngine.Vector3 saberDir, SaberType saberType, System.Single timeDeviation, System.Single cutDirDeviation, UnityEngine.Vector3 cutPoint, UnityEngine.Vector3 cutNormal, System.Single cutDistanceToCenter, System.Single cutAngle, ISaberSwingRatingCounter swingRatingCounter)
-    // Offset: 0x2556698
-    // ABORTED: conflicts with another method.  NoteCutInfo(bool speedOK, bool directionOK, bool saberTypeOK, bool wasCutTooSoon, float saberSpeed, UnityEngine::Vector3 saberDir, GlobalNamespace::SaberType saberType, float timeDeviation, float cutDirDeviation, UnityEngine::Vector3 cutPoint, UnityEngine::Vector3 cutNormal, float cutDistanceToCenter, float cutAngle, GlobalNamespace::ISaberSwingRatingCounter* swingRatingCounter);
+    // Offset: 0x2622FD8
+    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    // ABORTED: conflicts with another method.  NoteCutInfo(bool speedOK, bool directionOK, bool saberTypeOK, bool wasCutTooSoon, float saberSpeed, UnityEngine::Vector3 saberDir, GlobalNamespace::SaberType saberType, float timeDeviation, float cutDirDeviation, UnityEngine::Vector3 cutPoint, UnityEngine::Vector3 cutNormal, float cutDistanceToCenter, float cutAngle, GlobalNamespace::ISaberSwingRatingCounter* swingRatingCounter)
   }; // NoteCutInfo
   #pragma pack(pop)
   static check_size<sizeof(NoteCutInfo), 64 + sizeof(GlobalNamespace::ISaberSwingRatingCounter*)> __GlobalNamespace_NoteCutInfoSizeCheck;
   static_assert(sizeof(NoteCutInfo) == 0x48);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutInfo, "", "NoteCutInfo");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteCutInfo::get_allIsOK
 // Il2CppName: get_allIsOK
 template<>

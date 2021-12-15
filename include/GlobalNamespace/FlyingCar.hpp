@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: FlyingCar
-  class FlyingCar;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::FlyingCar);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlyingCar*, "", "FlyingCar");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x34
@@ -28,11 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class FlyingCar : public UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Single _startZ
     // Size: 0x4
     // Offset: 0x18
@@ -63,7 +50,8 @@ namespace GlobalNamespace {
     UnityEngine::Vector3 pos;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    public:
+    // Creating value type constructor for type: FlyingCar
+    FlyingCar(float startZ_ = {}, float endZ_ = {}, float speed_ = {}, float progress_ = {}, UnityEngine::Vector3 pos_ = {}) noexcept : startZ{startZ_}, endZ{endZ_}, speed{speed_}, progress{progress_}, pos{pos_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single _startZ
@@ -77,16 +65,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Vector3 _pos
     UnityEngine::Vector3& dyn__pos();
     // protected System.Void Start()
-    // Offset: 0x1173D7C
+    // Offset: 0x11E6B24
     void Start();
     // protected System.Void Update()
-    // Offset: 0x1173EDC
+    // Offset: 0x11E6C84
     void Update();
     // protected System.Void UpdatePos()
-    // Offset: 0x1173E2C
+    // Offset: 0x11E6BD4
     void UpdatePos();
     // public System.Void .ctor()
-    // Offset: 0x1173FA0
+    // Offset: 0x11E6D48
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -103,7 +91,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(FlyingCar), 40 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_FlyingCarSizeCheck;
   static_assert(sizeof(FlyingCar) == 0x34);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlyingCar*, "", "FlyingCar");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FlyingCar::Start
 // Il2CppName: Start
 template<>

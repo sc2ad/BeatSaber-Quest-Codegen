@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRBoundary
 #include "GlobalNamespace/OVRBoundary.hpp"
 // Including type: System.ValueType
@@ -14,13 +14,6 @@
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
-  // Forward declaring type: BoundaryTestResult
-  struct BoundaryTestResult;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRBoundary::BoundaryTestResult, "", "OVRBoundary/BoundaryTestResult");
-// Type namespace: 
-namespace GlobalNamespace {
   // Size: 0x20
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -28,11 +21,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct OVRBoundary::BoundaryTestResult/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Boolean IsTriggering
     // Size: 0x1
     // Offset: 0x0
@@ -59,7 +47,6 @@ namespace GlobalNamespace {
     UnityEngine::Vector3 ClosestPointNormal;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    public:
     // Creating value type constructor for type: BoundaryTestResult
     constexpr BoundaryTestResult(bool IsTriggering_ = {}, float ClosestDistance_ = {}, UnityEngine::Vector3 ClosestPoint_ = {}, UnityEngine::Vector3 ClosestPointNormal_ = {}) noexcept : IsTriggering{IsTriggering_}, ClosestDistance{ClosestDistance_}, ClosestPoint{ClosestPoint_}, ClosestPointNormal{ClosestPointNormal_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -79,4 +66,6 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRBoundary::BoundaryTestResult), 20 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_OVRBoundary_BoundaryTestResultSizeCheck;
   static_assert(sizeof(OVRBoundary::BoundaryTestResult) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRBoundary::BoundaryTestResult, "", "OVRBoundary/BoundaryTestResult");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

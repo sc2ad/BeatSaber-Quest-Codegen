@@ -3,22 +3,14 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.IDespawnableMemoryPool`1
 #include "Zenject/IDespawnableMemoryPool_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Zenject
-namespace Zenject {
-  // Forward declaring type: IMemoryPool`7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>
-  template<typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
-  class IMemoryPool_7;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::IMemoryPool_7, "Zenject", "IMemoryPool`7");
 // Type namespace: Zenject
 namespace Zenject {
   // WARNING Size may be invalid!
@@ -27,6 +19,8 @@ namespace Zenject {
   template<typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
   class IMemoryPool_7/*, public Zenject::IDespawnableMemoryPool_1<TValue>*/ {
     public:
+    // Creating value type constructor for type: IMemoryPool_7
+    IMemoryPool_7() noexcept {}
     // Creating interface conversion operator: operator Zenject::IDespawnableMemoryPool_1<TValue>
     operator Zenject::IDespawnableMemoryPool_1<TValue>() noexcept {
       return *reinterpret_cast<Zenject::IDespawnableMemoryPool_1<TValue>*>(this);
@@ -36,9 +30,11 @@ namespace Zenject {
     TValue Spawn(TParam1 param1, TParam2 param2, TParam3 param3, TParam4 param4, TParam5 param5, TParam6 param6) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::IMemoryPool_7::Spawn");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Spawn", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(param1), ::il2cpp_utils::ExtractType(param2), ::il2cpp_utils::ExtractType(param3), ::il2cpp_utils::ExtractType(param4), ::il2cpp_utils::ExtractType(param5), ::il2cpp_utils::ExtractType(param6)})));
-      return ::il2cpp_utils::RunMethodThrow<TValue, false>(this, ___internal__method, param1, param2, param3, param4, param5, param6);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<TValue, false>(___instance_arg, ___internal__method, param1, param2, param3, param4, param5, param6);
     }
   }; // Zenject.IMemoryPool`7
   // Could not write size check! Type: Zenject.IMemoryPool`7 is generic, or has no fields that are valid for size checks!
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::IMemoryPool_7, "Zenject", "IMemoryPool`7");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

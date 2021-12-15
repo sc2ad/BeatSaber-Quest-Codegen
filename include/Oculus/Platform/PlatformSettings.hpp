@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ScriptableObject
 #include "UnityEngine/ScriptableObject.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Oculus.Platform
-namespace Oculus::Platform {
-  // Forward declaring type: PlatformSettings
-  class PlatformSettings;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::PlatformSettings);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::PlatformSettings*, "Oculus.Platform", "PlatformSettings");
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
   // Size: 0x29
@@ -28,11 +20,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlatformSettings : public UnityEngine::ScriptableObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.String ovrAppID
     // Size: 0x8
     // Offset: 0x18
@@ -51,7 +38,8 @@ namespace Oculus::Platform {
     bool ovrUseStandalonePlatform;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: PlatformSettings
+    PlatformSettings(::Il2CppString* ovrAppID_ = {}, ::Il2CppString* ovrMobileAppID_ = {}, bool ovrUseStandalonePlatform_ = {}) noexcept : ovrAppID{ovrAppID_}, ovrMobileAppID{ovrMobileAppID_}, ovrUseStandalonePlatform{ovrUseStandalonePlatform_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private Oculus.Platform.PlatformSettings instance
@@ -65,31 +53,31 @@ namespace Oculus::Platform {
     // Get instance field reference: private System.Boolean ovrUseStandalonePlatform
     bool& dyn_ovrUseStandalonePlatform();
     // static public System.String get_AppID()
-    // Offset: 0x259D09C
+    // Offset: 0x26616F0
     static ::Il2CppString* get_AppID();
     // static public System.Void set_AppID(System.String value)
-    // Offset: 0x259D1D0
+    // Offset: 0x2661824
     static void set_AppID(::Il2CppString* value);
     // static public System.String get_MobileAppID()
-    // Offset: 0x259D1FC
+    // Offset: 0x2661850
     static ::Il2CppString* get_MobileAppID();
     // static public System.Void set_MobileAppID(System.String value)
-    // Offset: 0x259D21C
+    // Offset: 0x2661870
     static void set_MobileAppID(::Il2CppString* value);
     // static public System.Boolean get_UseStandalonePlatform()
-    // Offset: 0x259D248
+    // Offset: 0x266189C
     static bool get_UseStandalonePlatform();
     // static public System.Void set_UseStandalonePlatform(System.Boolean value)
-    // Offset: 0x259D268
+    // Offset: 0x26618BC
     static void set_UseStandalonePlatform(bool value);
     // static public Oculus.Platform.PlatformSettings get_Instance()
-    // Offset: 0x259D0BC
+    // Offset: 0x2661710
     static Oculus::Platform::PlatformSettings* get_Instance();
     // static public System.Void set_Instance(Oculus.Platform.PlatformSettings value)
-    // Offset: 0x259D298
+    // Offset: 0x26618EC
     static void set_Instance(Oculus::Platform::PlatformSettings* value);
     // public System.Void .ctor()
-    // Offset: 0x259D2EC
+    // Offset: 0x2661940
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -104,7 +92,8 @@ namespace Oculus::Platform {
   static check_size<sizeof(PlatformSettings), 40 + sizeof(bool)> __Oculus_Platform_PlatformSettingsSizeCheck;
   static_assert(sizeof(PlatformSettings) == 0x29);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::PlatformSettings*, "Oculus.Platform", "PlatformSettings");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::PlatformSettings::get_AppID
 // Il2CppName: get_AppID
 template<>

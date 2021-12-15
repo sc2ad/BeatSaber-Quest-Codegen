@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.DateTime
 #include "System/DateTime.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Org.BouncyCastle.Utilities.Date
-namespace Org::BouncyCastle::Utilities::Date {
-  // Forward declaring type: DateTimeObject
-  class DateTimeObject;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Utilities::Date::DateTimeObject);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Date::DateTimeObject*, "Org.BouncyCastle.Utilities.Date", "DateTimeObject");
 // Type namespace: Org.BouncyCastle.Utilities.Date
 namespace Org::BouncyCastle::Utilities::Date {
   // Size: 0x18
@@ -28,18 +20,14 @@ namespace Org::BouncyCastle::Utilities::Date {
   // [TokenAttribute] Offset: FFFFFFFF
   class DateTimeObject : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private readonly System.DateTime dt
     // Size: 0x8
     // Offset: 0x10
     System::DateTime dt;
     // Field size check
     static_assert(sizeof(System::DateTime) == 0x8);
-    public:
+    // Creating value type constructor for type: DateTimeObject
+    DateTimeObject(System::DateTime dt_ = {}) noexcept : dt{dt_} {}
     // Creating conversion operator: operator System::DateTime
     constexpr operator System::DateTime() const noexcept {
       return dt;
@@ -47,14 +35,14 @@ namespace Org::BouncyCastle::Utilities::Date {
     // Get instance field reference: private readonly System.DateTime dt
     System::DateTime& dyn_dt();
     // public System.Void .ctor(System.DateTime dt)
-    // Offset: 0x216A6E8
+    // Offset: 0x2229514
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DateTimeObject* New_ctor(System::DateTime dt) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Utilities::Date::DateTimeObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DateTimeObject*, creationType>(dt)));
     }
     // public override System.String ToString()
-    // Offset: 0x216A714
+    // Offset: 0x2229540
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
@@ -63,7 +51,8 @@ namespace Org::BouncyCastle::Utilities::Date {
   static check_size<sizeof(DateTimeObject), 16 + sizeof(System::DateTime)> __Org_BouncyCastle_Utilities_Date_DateTimeObjectSizeCheck;
   static_assert(sizeof(DateTimeObject) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Date::DateTimeObject*, "Org.BouncyCastle.Utilities.Date", "DateTimeObject");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Date::DateTimeObject::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

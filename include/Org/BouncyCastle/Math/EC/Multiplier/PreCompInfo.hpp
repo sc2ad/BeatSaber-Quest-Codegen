@@ -3,16 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: Org.BouncyCastle.Math.EC.Multiplier
-namespace Org::BouncyCastle::Math::EC::Multiplier {
-  // Forward declaring type: PreCompInfo
-  class PreCompInfo;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*, "Org.BouncyCastle.Math.EC.Multiplier", "PreCompInfo");
 // Type namespace: Org.BouncyCastle.Math.EC.Multiplier
 namespace Org::BouncyCastle::Math::EC::Multiplier {
   // Size: 0x10
@@ -21,7 +13,11 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
   // [TokenAttribute] Offset: FFFFFFFF
   class PreCompInfo {
     public:
+    // Creating value type constructor for type: PreCompInfo
+    PreCompInfo() noexcept {}
   }; // Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*, "Org.BouncyCastle.Math.EC.Multiplier", "PreCompInfo");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

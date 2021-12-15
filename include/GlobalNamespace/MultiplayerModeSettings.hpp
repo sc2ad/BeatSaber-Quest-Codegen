@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BeatmapDifficultyMask
 #include "GlobalNamespace/BeatmapDifficultyMask.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: MultiplayerModeSettings
-  class MultiplayerModeSettings;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MultiplayerModeSettings);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerModeSettings*, "", "MultiplayerModeSettings");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x21
@@ -28,11 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerModeSettings : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 createServerPlayersCount
     // Size: 0x4
     // Offset: 0x10
@@ -59,7 +46,8 @@ namespace GlobalNamespace {
     bool quickPlayEnableLevelSelection;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: MultiplayerModeSettings
+    MultiplayerModeSettings(int createServerPlayersCount_ = {}, GlobalNamespace::BeatmapDifficultyMask quickPlayBeatmapDifficulty_ = {}, ::Il2CppString* quickPlaySongPackMaskSerializedName_ = {}, bool quickPlayEnableLevelSelection_ = {}) noexcept : createServerPlayersCount{createServerPlayersCount_}, quickPlayBeatmapDifficulty{quickPlayBeatmapDifficulty_}, quickPlaySongPackMaskSerializedName{quickPlaySongPackMaskSerializedName_}, quickPlayEnableLevelSelection{quickPlayEnableLevelSelection_} {}
     // Get instance field reference: public System.Int32 createServerPlayersCount
     int& dyn_createServerPlayersCount();
     // Get instance field reference: public BeatmapDifficultyMask quickPlayBeatmapDifficulty
@@ -69,7 +57,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean quickPlayEnableLevelSelection
     bool& dyn_quickPlayEnableLevelSelection();
     // public System.Void .ctor()
-    // Offset: 0x11D11AC
+    // Offset: 0x116DBE8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -82,7 +70,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerModeSettings), 32 + sizeof(bool)> __GlobalNamespace_MultiplayerModeSettingsSizeCheck;
   static_assert(sizeof(MultiplayerModeSettings) == 0x21);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerModeSettings*, "", "MultiplayerModeSettings");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerModeSettings::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

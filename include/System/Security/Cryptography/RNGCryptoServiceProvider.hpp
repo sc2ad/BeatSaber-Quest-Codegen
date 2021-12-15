@@ -3,26 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Security.Cryptography.RandomNumberGenerator
 #include "System/Security/Cryptography/RandomNumberGenerator.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Security.Cryptography
-namespace System::Security::Cryptography {
-  // Forward declaring type: RNGCryptoServiceProvider
-  class RNGCryptoServiceProvider;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Security::Cryptography::RNGCryptoServiceProvider);
-DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RNGCryptoServiceProvider*, "System.Security.Cryptography", "RNGCryptoServiceProvider");
 // Type namespace: System.Security.Cryptography
 namespace System::Security::Cryptography {
   // Size: 0x18
@@ -31,18 +22,14 @@ namespace System::Security::Cryptography {
   // [TokenAttribute] Offset: FFFFFFFF
   class RNGCryptoServiceProvider : public System::Security::Cryptography::RandomNumberGenerator {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.IntPtr _handle
     // Size: 0x8
     // Offset: 0x10
     System::IntPtr handle;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
-    public:
+    // Creating value type constructor for type: RNGCryptoServiceProvider
+    RNGCryptoServiceProvider(System::IntPtr handle_ = {}) noexcept : handle{handle_} {}
     // Creating conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept {
       return handle;
@@ -54,25 +41,25 @@ namespace System::Security::Cryptography {
     // Get instance field reference: private System.IntPtr _handle
     System::IntPtr& dyn__handle();
     // static private System.Void .cctor()
-    // Offset: 0x1CA42E4
+    // Offset: 0x1D13D4C
     static void _cctor();
     // private System.Void Check()
-    // Offset: 0x1CA43E4
+    // Offset: 0x1D13E4C
     void Check();
     // static private System.Boolean RngOpen()
-    // Offset: 0x1CA4358
+    // Offset: 0x1D13DC0
     static bool RngOpen();
     // static private System.IntPtr RngInitialize(System.Byte[] seed)
-    // Offset: 0x1CA43E0
-    static System::IntPtr RngInitialize(::ArrayW<uint8_t> seed);
+    // Offset: 0x1D13E48
+    static System::IntPtr RngInitialize(::Array<uint8_t>* seed);
     // static private System.IntPtr RngGetBytes(System.IntPtr handle, System.Byte[] data)
-    // Offset: 0x1CA4488
-    static System::IntPtr RngGetBytes(System::IntPtr handle, ::ArrayW<uint8_t> data);
+    // Offset: 0x1D13EF0
+    static System::IntPtr RngGetBytes(System::IntPtr handle, ::Array<uint8_t>* data);
     // static private System.Void RngClose(System.IntPtr handle)
-    // Offset: 0x1CA448C
+    // Offset: 0x1D13EF4
     static void RngClose(System::IntPtr handle);
     // public System.Void .ctor()
-    // Offset: 0x1CA435C
+    // Offset: 0x1D13DC4
     // Implemented from: System.Security.Cryptography.RandomNumberGenerator
     // Base method: System.Void RandomNumberGenerator::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -82,17 +69,17 @@ namespace System::Security::Cryptography {
       return THROW_UNLESS((::il2cpp_utils::New<RNGCryptoServiceProvider*, creationType>()));
     }
     // public override System.Void GetBytes(System.Byte[] data)
-    // Offset: 0x1CA4490
+    // Offset: 0x1D13EF8
     // Implemented from: System.Security.Cryptography.RandomNumberGenerator
     // Base method: System.Void RandomNumberGenerator::GetBytes(System.Byte[] data)
-    void GetBytes(::ArrayW<uint8_t> data);
+    void GetBytes(::Array<uint8_t>* data);
     // protected override System.Void Finalize()
-    // Offset: 0x1CA4634
+    // Offset: 0x1D1409C
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1CA4704
+    // Offset: 0x1D1416C
     // Implemented from: System.Security.Cryptography.RandomNumberGenerator
     // Base method: System.Void RandomNumberGenerator::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
@@ -101,7 +88,8 @@ namespace System::Security::Cryptography {
   static check_size<sizeof(RNGCryptoServiceProvider), 16 + sizeof(System::IntPtr)> __System_Security_Cryptography_RNGCryptoServiceProviderSizeCheck;
   static_assert(sizeof(RNGCryptoServiceProvider) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RNGCryptoServiceProvider*, "System.Security.Cryptography", "RNGCryptoServiceProvider");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::RNGCryptoServiceProvider::_cctor
 // Il2CppName: .cctor
 template<>
@@ -129,7 +117,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Writing MetadataGetter for method: System::Security::Cryptography::RNGCryptoServiceProvider::RngInitialize
 // Il2CppName: RngInitialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::ArrayW<uint8_t>)>(&System::Security::Cryptography::RNGCryptoServiceProvider::RngInitialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::Array<uint8_t>*)>(&System::Security::Cryptography::RNGCryptoServiceProvider::RngInitialize)> {
   static const MethodInfo* get() {
     static auto* seed = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RNGCryptoServiceProvider*), "RngInitialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{seed});
@@ -138,7 +126,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: System::Security::Cryptography::RNGCryptoServiceProvider::RngGetBytes
 // Il2CppName: RngGetBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, ::ArrayW<uint8_t>)>(&System::Security::Cryptography::RNGCryptoServiceProvider::RngGetBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, ::Array<uint8_t>*)>(&System::Security::Cryptography::RNGCryptoServiceProvider::RngGetBytes)> {
   static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -161,7 +149,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Security::Cryptography::RNGCryptoServiceProvider::GetBytes
 // Il2CppName: GetBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::RNGCryptoServiceProvider::*)(::ArrayW<uint8_t>)>(&System::Security::Cryptography::RNGCryptoServiceProvider::GetBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::RNGCryptoServiceProvider::*)(::Array<uint8_t>*)>(&System::Security::Cryptography::RNGCryptoServiceProvider::GetBytes)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RNGCryptoServiceProvider*), "GetBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});

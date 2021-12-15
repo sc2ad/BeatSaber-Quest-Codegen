@@ -3,16 +3,14 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
-// Including type: System.Enum
-#include "System/Enum.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -21,14 +19,6 @@ namespace UnityEngine {
   class Transform;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: Billboard
-  class Billboard;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::Billboard);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Billboard*, "", "Billboard");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x28
@@ -46,18 +36,12 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct RotationMode/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: RotationMode
       constexpr RotationMode(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -98,11 +82,6 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(Billboard::RotationMode), 0 + sizeof(int)> __GlobalNamespace_Billboard_RotationModeSizeCheck;
     static_assert(sizeof(Billboard::RotationMode) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private Billboard/RotationMode _rotationMode
     // Size: 0x4
     // Offset: 0x18
@@ -123,7 +102,8 @@ namespace GlobalNamespace {
     UnityEngine::Transform* transform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    public:
+    // Creating value type constructor for type: Billboard
+    Billboard(GlobalNamespace::Billboard::RotationMode rotationMode_ = {}, bool flipDirection_ = {}, UnityEngine::Transform* transform_ = {}) noexcept : rotationMode{rotationMode_}, flipDirection{flipDirection_}, transform{transform_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private Billboard/RotationMode _rotationMode
@@ -133,13 +113,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Transform _transform
     UnityEngine::Transform*& dyn__transform();
     // protected System.Void Awake()
-    // Offset: 0x135D6D4
+    // Offset: 0x138E2B4
     void Awake();
     // private System.Void OnWillRenderObject()
-    // Offset: 0x135D6FC
+    // Offset: 0x138E2DC
     void OnWillRenderObject();
     // public System.Void .ctor()
-    // Offset: 0x135D84C
+    // Offset: 0x138E42C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -156,9 +136,9 @@ namespace GlobalNamespace {
   static check_size<sizeof(Billboard), 32 + sizeof(UnityEngine::Transform*)> __GlobalNamespace_BillboardSizeCheck;
   static_assert(sizeof(Billboard) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Billboard*, "", "Billboard");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Billboard::RotationMode, "", "Billboard/RotationMode");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::Billboard::Awake
 // Il2CppName: Awake
 template<>

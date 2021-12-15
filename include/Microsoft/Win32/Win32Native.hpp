@@ -3,22 +3,14 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Microsoft::Win32
 namespace Microsoft::Win32 {
 }
 // Completed forward declares
-// Type namespace: Microsoft.Win32
-namespace Microsoft::Win32 {
-  // Forward declaring type: Win32Native
-  class Win32Native;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Microsoft::Win32::Win32Native);
-DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::Win32Native*, "Microsoft.Win32", "Win32Native");
 // Type namespace: Microsoft.Win32
 namespace Microsoft::Win32 {
   // Size: 0x10
@@ -29,16 +21,20 @@ namespace Microsoft::Win32 {
     public:
     // Nested type: Microsoft::Win32::Win32Native::WIN32_FIND_DATA
     class WIN32_FIND_DATA;
+    // Creating value type constructor for type: Win32Native
+    Win32Native() noexcept {}
     // static public System.String GetMessage(System.Int32 hr)
-    // Offset: 0x1C131A8
+    // Offset: 0x1C6C2A0
     static ::Il2CppString* GetMessage(int hr);
     // static public System.Int32 MakeHRFromErrorCode(System.Int32 errorCode)
-    // Offset: 0x1C13224
+    // Offset: 0x1C6C31C
     static int MakeHRFromErrorCode(int errorCode);
   }; // Microsoft.Win32.Win32Native
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::Win32Native*, "Microsoft.Win32", "Win32Native");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Microsoft::Win32::Win32Native::GetMessage
 // Il2CppName: GetMessage
 template<>

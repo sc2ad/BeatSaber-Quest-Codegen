@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.PathList
 #include "System/Net/PathList.hpp"
 // Including type: System.Collections.IComparer
 #include "System/Collections/IComparer.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Net
-namespace System::Net {
-  // Forward declaring type: PathListComparer
-  class PathListComparer;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::PathList::PathListComparer);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::PathList::PathListComparer*, "System.Net", "PathList/PathListComparer");
 // Type namespace: System.Net
 namespace System::Net {
   // Size: 0x10
@@ -30,6 +22,8 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class PathList::PathListComparer : public ::Il2CppObject/*, public System::Collections::IComparer*/ {
     public:
+    // Creating value type constructor for type: PathListComparer
+    PathListComparer() noexcept {}
     // Creating interface conversion operator: operator System::Collections::IComparer
     operator System::Collections::IComparer() noexcept {
       return *reinterpret_cast<System::Collections::IComparer*>(this);
@@ -39,13 +33,13 @@ namespace System::Net {
     // Set static field: static readonly System.Net.PathList/System.Net.PathListComparer StaticInstance
     static void _set_StaticInstance(System::Net::PathList::PathListComparer* value);
     // static private System.Void .cctor()
-    // Offset: 0x162F160
+    // Offset: 0x16AADA4
     static void _cctor();
     // private System.Int32 System.Collections.IComparer.Compare(System.Object ol, System.Object or)
-    // Offset: 0x162EFDC
+    // Offset: 0x16AAC20
     int System_Collections_IComparer_Compare(::Il2CppObject* ol, ::Il2CppObject* _or);
     // public System.Void .ctor()
-    // Offset: 0x162F158
+    // Offset: 0x16AAD9C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -56,7 +50,8 @@ namespace System::Net {
   }; // System.Net.PathList/System.Net.PathListComparer
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::PathList::PathListComparer*, "System.Net", "PathList/PathListComparer");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::PathList::PathListComparer::_cctor
 // Il2CppName: .cctor
 template<>

@@ -3,21 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: HoudiniEngineUnity
-namespace HoudiniEngineUnity {
-  // Forward declaring type: HEU_WorkItemTally
-  class HEU_WorkItemTally;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_WorkItemTally);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_WorkItemTally*, "HoudiniEngineUnity", "HEU_WorkItemTally");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x28
@@ -26,11 +18,6 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_WorkItemTally : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 _totalWorkItems
     // Size: 0x4
     // Offset: 0x10
@@ -67,7 +54,8 @@ namespace HoudiniEngineUnity {
     int erroredWorkItems;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
+    // Creating value type constructor for type: HEU_WorkItemTally
+    HEU_WorkItemTally(int totalWorkItems_ = {}, int waitingWorkItems_ = {}, int scheduledWorkItems_ = {}, int cookingWorkItems_ = {}, int cookedWorkItems_ = {}, int erroredWorkItems_ = {}) noexcept : totalWorkItems{totalWorkItems_}, waitingWorkItems{waitingWorkItems_}, scheduledWorkItems{scheduledWorkItems_}, cookingWorkItems{cookingWorkItems_}, cookedWorkItems{cookedWorkItems_}, erroredWorkItems{erroredWorkItems_} {}
     // Get instance field reference: public System.Int32 _totalWorkItems
     int& dyn__totalWorkItems();
     // Get instance field reference: public System.Int32 _waitingWorkItems
@@ -81,22 +69,22 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Int32 _erroredWorkItems
     int& dyn__erroredWorkItems();
     // public System.Void ZeroAll()
-    // Offset: 0x16E4614
+    // Offset: 0x17864D0
     void ZeroAll();
     // public System.Boolean AreAllWorkItemsComplete()
-    // Offset: 0x16E4620
+    // Offset: 0x17864DC
     bool AreAllWorkItemsComplete();
     // public System.Boolean AnyWorkItemsFailed()
-    // Offset: 0x16E4658
+    // Offset: 0x1786514
     bool AnyWorkItemsFailed();
     // public System.Boolean AnyWorkItemsPending()
-    // Offset: 0x16E4668
+    // Offset: 0x1786524
     bool AnyWorkItemsPending();
     // public System.String ProgressRatio()
-    // Offset: 0x16E46AC
+    // Offset: 0x1786568
     ::Il2CppString* ProgressRatio();
     // public System.Void .ctor()
-    // Offset: 0x16E4788
+    // Offset: 0x1786644
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -109,7 +97,8 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_WorkItemTally), 36 + sizeof(int)> __HoudiniEngineUnity_HEU_WorkItemTallySizeCheck;
   static_assert(sizeof(HEU_WorkItemTally) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_WorkItemTally*, "HoudiniEngineUnity", "HEU_WorkItemTally");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_WorkItemTally::ZeroAll
 // Il2CppName: ZeroAll
 template<>

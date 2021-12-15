@@ -3,19 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MissionObjective
 #include "GlobalNamespace/MissionObjective.hpp"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: MissionDataExtensions
-  class MissionDataExtensions;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MissionDataExtensions);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionDataExtensions*, "", "MissionDataExtensions");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -25,13 +17,17 @@ namespace GlobalNamespace {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class MissionDataExtensions : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: MissionDataExtensions
+    MissionDataExtensions() noexcept {}
     // static public System.String Name(MissionObjective/ReferenceValueComparisonType comparisonType)
-    // Offset: 0x12097F0
+    // Offset: 0x115FE70
     static ::Il2CppString* Name(GlobalNamespace::MissionObjective::ReferenceValueComparisonType comparisonType);
   }; // MissionDataExtensions
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionDataExtensions*, "", "MissionDataExtensions");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionDataExtensions::Name
 // Il2CppName: Name
 template<>

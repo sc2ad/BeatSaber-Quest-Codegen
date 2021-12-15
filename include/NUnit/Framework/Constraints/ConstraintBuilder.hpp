@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Constraints
@@ -13,14 +13,6 @@ namespace NUnit::Framework::Constraints {
   class IConstraint;
 }
 // Completed forward declares
-// Type namespace: NUnit.Framework.Constraints
-namespace NUnit::Framework::Constraints {
-  // Forward declaring type: ConstraintBuilder
-  class ConstraintBuilder;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(NUnit::Framework::Constraints::ConstraintBuilder);
-DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::ConstraintBuilder*, "NUnit.Framework.Constraints", "ConstraintBuilder");
 // Type namespace: NUnit.Framework.Constraints
 namespace NUnit::Framework::Constraints {
   // Size: 0x28
@@ -33,11 +25,6 @@ namespace NUnit::Framework::Constraints {
     class OperatorStack;
     // Nested type: NUnit::Framework::Constraints::ConstraintBuilder::ConstraintStack
     class ConstraintStack;
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private readonly NUnit.Framework.Constraints.ConstraintBuilder/NUnit.Framework.Constraints.OperatorStack ops
     // Size: 0x8
     // Offset: 0x10
@@ -56,7 +43,8 @@ namespace NUnit::Framework::Constraints {
     ::Il2CppObject* lastPushed;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    public:
+    // Creating value type constructor for type: ConstraintBuilder
+    ConstraintBuilder(NUnit::Framework::Constraints::ConstraintBuilder::OperatorStack* ops_ = {}, NUnit::Framework::Constraints::ConstraintBuilder::ConstraintStack* constraints_ = {}, ::Il2CppObject* lastPushed_ = {}) noexcept : ops{ops_}, constraints{constraints_}, lastPushed{lastPushed_} {}
     // Get instance field reference: private readonly NUnit.Framework.Constraints.ConstraintBuilder/NUnit.Framework.Constraints.OperatorStack ops
     NUnit::Framework::Constraints::ConstraintBuilder::OperatorStack*& dyn_ops();
     // Get instance field reference: private readonly NUnit.Framework.Constraints.ConstraintBuilder/NUnit.Framework.Constraints.ConstraintStack constraints
@@ -64,17 +52,19 @@ namespace NUnit::Framework::Constraints {
     // Get instance field reference: private System.Object lastPushed
     ::Il2CppObject*& dyn_lastPushed();
     // private System.Boolean get_IsResolvable()
-    // Offset: 0x1911DA4
+    // Offset: 0x1936F68
     bool get_IsResolvable();
     // public NUnit.Framework.Constraints.IConstraint Resolve()
-    // Offset: 0x1911BF8
+    // Offset: 0x1936DBC
     NUnit::Framework::Constraints::IConstraint* Resolve();
   }; // NUnit.Framework.Constraints.ConstraintBuilder
   #pragma pack(pop)
   static check_size<sizeof(ConstraintBuilder), 32 + sizeof(::Il2CppObject*)> __NUnit_Framework_Constraints_ConstraintBuilderSizeCheck;
   static_assert(sizeof(ConstraintBuilder) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::ConstraintBuilder*, "NUnit.Framework.Constraints", "ConstraintBuilder");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::ConstraintBuilder::get_IsResolvable
 // Il2CppName: get_IsResolvable
 template<>

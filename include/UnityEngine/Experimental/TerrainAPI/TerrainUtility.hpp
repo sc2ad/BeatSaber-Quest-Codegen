@@ -3,22 +3,14 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Experimental::TerrainAPI
 namespace UnityEngine::Experimental::TerrainAPI {
 }
 // Completed forward declares
-// Type namespace: UnityEngine.Experimental.TerrainAPI
-namespace UnityEngine::Experimental::TerrainAPI {
-  // Forward declaring type: TerrainUtility
-  class TerrainUtility;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Experimental::TerrainAPI::TerrainUtility);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::TerrainAPI::TerrainUtility*, "UnityEngine.Experimental.TerrainAPI", "TerrainUtility");
 // Type namespace: UnityEngine.Experimental.TerrainAPI
 namespace UnityEngine::Experimental::TerrainAPI {
   // Size: 0x10
@@ -35,22 +27,26 @@ namespace UnityEngine::Experimental::TerrainAPI {
     class $$c__DisplayClass4_0;
     // Nested type: UnityEngine::Experimental::TerrainAPI::TerrainUtility::$$c__DisplayClass4_1
     class $$c__DisplayClass4_1;
+    // Creating value type constructor for type: TerrainUtility
+    TerrainUtility() noexcept {}
     // static System.Boolean HasValidTerrains()
-    // Offset: 0x25CFD34
+    // Offset: 0x2696084
     static bool HasValidTerrains();
     // static System.Void ClearConnectivity()
-    // Offset: 0x25CFDDC
+    // Offset: 0x269612C
     static void ClearConnectivity();
     // static UnityEngine.Experimental.TerrainAPI.TerrainUtility/UnityEngine.Experimental.TerrainAPI.TerrainGroups CollectTerrains(System.Boolean onlyAutoConnectedTerrains)
-    // Offset: 0x25CFF20
+    // Offset: 0x2696270
     static UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainGroups* CollectTerrains(bool onlyAutoConnectedTerrains);
     // static public System.Void AutoConnect()
-    // Offset: 0x25D0558
+    // Offset: 0x26968A8
     static void AutoConnect();
   }; // UnityEngine.Experimental.TerrainAPI.TerrainUtility
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::TerrainAPI::TerrainUtility*, "UnityEngine.Experimental.TerrainAPI", "TerrainUtility");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Experimental::TerrainAPI::TerrainUtility::HasValidTerrains
 // Il2CppName: HasValidTerrains
 template<>

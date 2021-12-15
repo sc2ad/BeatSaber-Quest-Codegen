@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: SteamVR_Controller
 #include "GlobalNamespace/SteamVR_Controller.hpp"
 // Including type: System.UInt64
 #include "System/UInt64.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: ButtonMask
-  class ButtonMask;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::SteamVR_Controller::ButtonMask);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Controller::ButtonMask*, "", "SteamVR_Controller/ButtonMask");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -30,6 +22,8 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SteamVR_Controller::ButtonMask : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: ButtonMask
+    ButtonMask() noexcept {}
     // static field const value: static public System.UInt64 System
     static constexpr const uint64_t System = 1u;
     // Get static field: static public System.UInt64 System
@@ -91,7 +85,7 @@ namespace GlobalNamespace {
     // Set static field: static public System.UInt64 Trigger
     static void _set_Trigger(uint64_t value);
     // public System.Void .ctor()
-    // Offset: 0x151E718
+    // Offset: 0x15B7B04
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -102,7 +96,8 @@ namespace GlobalNamespace {
   }; // SteamVR_Controller/ButtonMask
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Controller::ButtonMask*, "", "SteamVR_Controller/ButtonMask");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Controller::ButtonMask::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

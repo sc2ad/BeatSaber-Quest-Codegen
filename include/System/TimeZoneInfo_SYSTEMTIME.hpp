@@ -3,20 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.TimeZoneInfo
 #include "System/TimeZoneInfo.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-// Type namespace: System
-namespace System {
-  // Forward declaring type: SYSTEMTIME
-  struct SYSTEMTIME;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::TimeZoneInfo::SYSTEMTIME, "System", "TimeZoneInfo/SYSTEMTIME");
 // Type namespace: System
 namespace System {
   // Size: 0x10
@@ -26,11 +19,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   struct TimeZoneInfo::SYSTEMTIME/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // System.UInt16 wYear
     // Size: 0x2
     // Offset: 0x0
@@ -79,7 +67,6 @@ namespace System {
     uint16_t wMilliseconds;
     // Field size check
     static_assert(sizeof(uint16_t) == 0x2);
-    public:
     // Creating value type constructor for type: SYSTEMTIME
     constexpr SYSTEMTIME(uint16_t wYear_ = {}, uint16_t wMonth_ = {}, uint16_t wDayOfWeek_ = {}, uint16_t wDay_ = {}, uint16_t wHour_ = {}, uint16_t wMinute_ = {}, uint16_t wSecond_ = {}, uint16_t wMilliseconds_ = {}) noexcept : wYear{wYear_}, wMonth{wMonth_}, wDayOfWeek{wDayOfWeek_}, wDay{wDay_}, wHour{wHour_}, wMinute{wMinute_}, wSecond{wSecond_}, wMilliseconds{wMilliseconds_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -107,4 +94,6 @@ namespace System {
   static check_size<sizeof(TimeZoneInfo::SYSTEMTIME), 14 + sizeof(uint16_t)> __System_TimeZoneInfo_SYSTEMTIMESizeCheck;
   static_assert(sizeof(TimeZoneInfo::SYSTEMTIME) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::TimeZoneInfo::SYSTEMTIME, "System", "TimeZoneInfo/SYSTEMTIME");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

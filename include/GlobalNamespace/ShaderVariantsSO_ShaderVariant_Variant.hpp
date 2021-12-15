@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: ShaderVariantsSO/ShaderVariant
 #include "GlobalNamespace/ShaderVariantsSO_ShaderVariant.hpp"
 // Including type: UnityEngine.Rendering.PassType
 #include "UnityEngine/Rendering/PassType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: Variant
-  class Variant;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant*, "", "ShaderVariantsSO/ShaderVariant/Variant");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -30,11 +22,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ShaderVariantsSO::ShaderVariant::Variant : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private UnityEngine.Rendering.PassType _passType
     // Size: 0x4
     // Offset: 0x10
@@ -49,19 +36,20 @@ namespace GlobalNamespace {
     ::Il2CppString* keywords;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: Variant
+    Variant(UnityEngine::Rendering::PassType passType_ = {}, ::Il2CppString* keywords_ = {}) noexcept : passType{passType_}, keywords{keywords_} {}
     // Get instance field reference: private UnityEngine.Rendering.PassType _passType
     UnityEngine::Rendering::PassType& dyn__passType();
     // Get instance field reference: private System.String _keywords
     ::Il2CppString*& dyn__keywords();
     // public UnityEngine.Rendering.PassType get_passType()
-    // Offset: 0x2571078
+    // Offset: 0x2632824
     UnityEngine::Rendering::PassType get_passType();
     // public System.String get_keywords()
-    // Offset: 0x2571080
+    // Offset: 0x263282C
     ::Il2CppString* get_keywords();
     // public System.Void .ctor(UnityEngine.Rendering.PassType passType, System.String keywords)
-    // Offset: 0x2571088
+    // Offset: 0x2632834
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ShaderVariantsSO::ShaderVariant::Variant* New_ctor(UnityEngine::Rendering::PassType passType, ::Il2CppString* keywords) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant::.ctor");
@@ -72,7 +60,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(ShaderVariantsSO::ShaderVariant::Variant), 24 + sizeof(::Il2CppString*)> __GlobalNamespace_ShaderVariantsSO_ShaderVariant_VariantSizeCheck;
   static_assert(sizeof(ShaderVariantsSO::ShaderVariant::Variant) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant*, "", "ShaderVariantsSO/ShaderVariant/Variant");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant::get_passType
 // Il2CppName: get_passType
 template<>

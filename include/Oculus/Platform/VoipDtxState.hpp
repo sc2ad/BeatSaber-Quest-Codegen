@@ -3,18 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: Oculus.Platform
-namespace Oculus::Platform {
-  // Forward declaring type: VoipDtxState
-  struct VoipDtxState;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::VoipDtxState, "Oculus.Platform", "VoipDtxState");
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
   // Size: 0x4
@@ -23,18 +16,12 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VoipDtxState/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: VoipDtxState
     constexpr VoipDtxState(int value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -45,21 +32,21 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0xEE94EC
+    // [DescriptionAttribute] Offset: 0xF2B9E4
     // static field const value: static public Oculus.Platform.VoipDtxState Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.VoipDtxState Unknown
     static Oculus::Platform::VoipDtxState _get_Unknown();
     // Set static field: static public Oculus.Platform.VoipDtxState Unknown
     static void _set_Unknown(Oculus::Platform::VoipDtxState value);
-    // [DescriptionAttribute] Offset: 0xEE9524
+    // [DescriptionAttribute] Offset: 0xF2BA1C
     // static field const value: static public Oculus.Platform.VoipDtxState Enabled
     static constexpr const int Enabled = 1;
     // Get static field: static public Oculus.Platform.VoipDtxState Enabled
     static Oculus::Platform::VoipDtxState _get_Enabled();
     // Set static field: static public Oculus.Platform.VoipDtxState Enabled
     static void _set_Enabled(Oculus::Platform::VoipDtxState value);
-    // [DescriptionAttribute] Offset: 0xEE955C
+    // [DescriptionAttribute] Offset: 0xF2BA54
     // static field const value: static public Oculus.Platform.VoipDtxState Disabled
     static constexpr const int Disabled = 2;
     // Get static field: static public Oculus.Platform.VoipDtxState Disabled
@@ -73,4 +60,6 @@ namespace Oculus::Platform {
   static check_size<sizeof(VoipDtxState), 0 + sizeof(int)> __Oculus_Platform_VoipDtxStateSizeCheck;
   static_assert(sizeof(VoipDtxState) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::VoipDtxState, "Oculus.Platform", "VoipDtxState");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

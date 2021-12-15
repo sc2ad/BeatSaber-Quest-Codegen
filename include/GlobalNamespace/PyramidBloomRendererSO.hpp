@@ -3,17 +3,16 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PersistentScriptableObject
 #include "GlobalNamespace/PersistentScriptableObject.hpp"
 // Including type: System.Int32
 #include "System/Int32.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -29,14 +28,6 @@ namespace UnityEngine {
   class Material;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: PyramidBloomRendererSO
-  class PyramidBloomRendererSO;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::PyramidBloomRendererSO);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PyramidBloomRendererSO*, "", "PyramidBloomRendererSO");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x31
@@ -56,11 +47,6 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct Level/*, public System::ValueType*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // UnityEngine.RenderTexture down
       // Size: 0x8
       // Offset: 0x0
@@ -73,7 +59,6 @@ namespace GlobalNamespace {
       UnityEngine::RenderTexture* up;
       // Field size check
       static_assert(sizeof(UnityEngine::RenderTexture*) == 0x8);
-      public:
       // Creating value type constructor for type: Level
       constexpr Level(UnityEngine::RenderTexture* down_ = {}, UnityEngine::RenderTexture* up_ = {}) noexcept : down{down_}, up{up_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -88,11 +73,6 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(PyramidBloomRendererSO::Level), 8 + sizeof(UnityEngine::RenderTexture*)> __GlobalNamespace_PyramidBloomRendererSO_LevelSizeCheck;
     static_assert(sizeof(PyramidBloomRendererSO::Level) == 0x10);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private UnityEngine.Shader _shader
     // Size: 0x8
     // Offset: 0x18
@@ -108,16 +88,17 @@ namespace GlobalNamespace {
     // private PyramidBloomRendererSO/Level[] _pyramid
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayW<GlobalNamespace::PyramidBloomRendererSO::Level> pyramid;
+    ::Array<GlobalNamespace::PyramidBloomRendererSO::Level>* pyramid;
     // Field size check
-    static_assert(sizeof(::ArrayW<GlobalNamespace::PyramidBloomRendererSO::Level>) == 0x8);
+    static_assert(sizeof(::Array<GlobalNamespace::PyramidBloomRendererSO::Level>*) == 0x8);
     // private System.Boolean _initialized
     // Size: 0x1
     // Offset: 0x30
     bool initialized;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: PyramidBloomRendererSO
+    PyramidBloomRendererSO(UnityEngine::Shader* shader_ = {}, UnityEngine::Material* material_ = {}, ::Array<GlobalNamespace::PyramidBloomRendererSO::Level>* pyramid_ = {}, bool initialized_ = {}) noexcept : shader{shader_}, material{material_}, pyramid{pyramid_}, initialized{initialized_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Int32 kMaxPyramidSize
@@ -126,27 +107,27 @@ namespace GlobalNamespace {
     static int _get_kMaxPyramidSize();
     // Set static field: static private System.Int32 kMaxPyramidSize
     static void _set_kMaxPyramidSize(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDE9EC
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF21D1C
     // Get static field: static private readonly System.Int32 _bloomTexID
     static int _get__bloomTexID();
     // Set static field: static private readonly System.Int32 _bloomTexID
     static void _set__bloomTexID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDE9FC
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF21D2C
     // Get static field: static private readonly System.Int32 _sampleScaleID
     static int _get__sampleScaleID();
     // Set static field: static private readonly System.Int32 _sampleScaleID
     static void _set__sampleScaleID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDEA0C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF21D3C
     // Get static field: static private readonly System.Int32 _combineSrcID
     static int _get__combineSrcID();
     // Set static field: static private readonly System.Int32 _combineSrcID
     static void _set__combineSrcID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDEA1C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF21D4C
     // Get static field: static private readonly System.Int32 _combineDstID
     static int _get__combineDstID();
     // Set static field: static private readonly System.Int32 _combineDstID
     static void _set__combineDstID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDEA2C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF21D5C
     // Get static field: static private readonly System.Int32 _alphaWeightsID
     static int _get__alphaWeightsID();
     // Set static field: static private readonly System.Int32 _alphaWeightsID
@@ -156,20 +137,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Material _material
     UnityEngine::Material*& dyn__material();
     // Get instance field reference: private PyramidBloomRendererSO/Level[] _pyramid
-    ::ArrayW<GlobalNamespace::PyramidBloomRendererSO::Level>& dyn__pyramid();
+    ::Array<GlobalNamespace::PyramidBloomRendererSO::Level>*& dyn__pyramid();
     // Get instance field reference: private System.Boolean _initialized
     bool& dyn__initialized();
     // protected System.Void OnDisable()
-    // Offset: 0x1E16BE4
+    // Offset: 0x1DBC83C
     void OnDisable();
     // public System.Void RenderBloom(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest, System.Single radius, System.Boolean alphaWeights, System.Boolean betterQuality, System.Boolean gammaCorrection)
-    // Offset: 0x1E16C14
+    // Offset: 0x1DBC86C
     void RenderBloom(UnityEngine::RenderTexture* src, UnityEngine::RenderTexture* dest, float radius, bool alphaWeights, bool betterQuality, bool gammaCorrection);
     // public System.Void RenderBloom(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest, System.Single radius, System.Single intensity, System.Single downIntensityOffset, System.Boolean uniformPyramidWeights, System.Boolean downsampleOnFirstPass, System.Single pyramidWeightsParam, System.Single alphaWeights, System.Single firstUpsampleBrightness, System.Single finalUpsampleBrightness, PyramidBloomRendererSO/Pass preFilterPass, PyramidBloomRendererSO/Pass downsamplePass, PyramidBloomRendererSO/Pass upsamplePass, PyramidBloomRendererSO/Pass finalUpsamplePass)
-    // Offset: 0x1E16C90
+    // Offset: 0x1DBC8E8
     void RenderBloom(UnityEngine::RenderTexture* src, UnityEngine::RenderTexture* dest, float radius, float intensity, float downIntensityOffset, bool uniformPyramidWeights, bool downsampleOnFirstPass, float pyramidWeightsParam, float alphaWeights, float firstUpsampleBrightness, float finalUpsampleBrightness, GlobalNamespace::PyramidBloomRendererSO::Pass preFilterPass, GlobalNamespace::PyramidBloomRendererSO::Pass downsamplePass, GlobalNamespace::PyramidBloomRendererSO::Pass upsamplePass, GlobalNamespace::PyramidBloomRendererSO::Pass finalUpsamplePass);
     // public System.Void .ctor()
-    // Offset: 0x1E174E0
+    // Offset: 0x1DBD138
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -181,12 +162,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PyramidBloomRendererSO*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1E174E8
+    // Offset: 0x1DBD140
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
     // protected override System.Void OnEnable()
-    // Offset: 0x1E16AAC
+    // Offset: 0x1DBC704
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
@@ -195,9 +176,9 @@ namespace GlobalNamespace {
   static check_size<sizeof(PyramidBloomRendererSO), 48 + sizeof(bool)> __GlobalNamespace_PyramidBloomRendererSOSizeCheck;
   static_assert(sizeof(PyramidBloomRendererSO) == 0x31);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PyramidBloomRendererSO*, "", "PyramidBloomRendererSO");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PyramidBloomRendererSO::Level, "", "PyramidBloomRendererSO/Level");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PyramidBloomRendererSO::OnDisable
 // Il2CppName: OnDisable
 template<>

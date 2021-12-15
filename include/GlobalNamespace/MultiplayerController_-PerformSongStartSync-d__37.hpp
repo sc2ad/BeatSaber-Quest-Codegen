@@ -3,27 +3,19 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MultiplayerController
 #include "GlobalNamespace/MultiplayerController.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
 #include "System/Collections/Generic/IEnumerator_1.hpp"
 // Including type: MultiplayerPlayerStartState
 #include "GlobalNamespace/MultiplayerPlayerStartState.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <PerformSongStartSync>d__37
-  class $PerformSongStartSync$d__37;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MultiplayerController::$PerformSongStartSync$d__37);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerController::$PerformSongStartSync$d__37*, "", "MultiplayerController/<PerformSongStartSync>d__37");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x2C
@@ -33,11 +25,6 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class MultiplayerController::$PerformSongStartSync$d__37 : public ::Il2CppObject/*, public System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -64,7 +51,8 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerPlayerStartState localPlayerSyncState;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerPlayerStartState) == 0x4);
-    public:
+    // Creating value type constructor for type: $PerformSongStartSync$d__37
+    $PerformSongStartSync$d__37(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, GlobalNamespace::MultiplayerController* $$4__this_ = {}, GlobalNamespace::MultiplayerPlayerStartState localPlayerSyncState_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$4__this{$$4__this_}, localPlayerSyncState{localPlayerSyncState_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
@@ -78,33 +66,34 @@ namespace GlobalNamespace {
     // Get instance field reference: public MultiplayerPlayerStartState localPlayerSyncState
     GlobalNamespace::MultiplayerPlayerStartState& dyn_localPlayerSyncState();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x118ABF4
+    // Offset: 0x12910C4
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x118AC5C
+    // Offset: 0x129112C
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1188530
+    // Offset: 0x12904BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerController::$PerformSongStartSync$d__37* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerController::$PerformSongStartSync$d__37::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerController::$PerformSongStartSync$d__37*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x118A0CC
+    // Offset: 0x12904E8
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x118A0D0
+    // Offset: 0x12904EC
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x118ABFC
+    // Offset: 0x12910CC
     void System_Collections_IEnumerator_Reset();
   }; // MultiplayerController/<PerformSongStartSync>d__37
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerController::$PerformSongStartSync$d__37), 40 + sizeof(GlobalNamespace::MultiplayerPlayerStartState)> __GlobalNamespace_MultiplayerController_$PerformSongStartSync$d__37SizeCheck;
   static_assert(sizeof(MultiplayerController::$PerformSongStartSync$d__37) == 0x2C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerController::$PerformSongStartSync$d__37*, "", "MultiplayerController/<PerformSongStartSync>d__37");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerController::$PerformSongStartSync$d__37::System_Collections_Generic_IEnumerator$System_Object$_get_Current
 // Il2CppName: System.Collections.Generic.IEnumerator<System.Object>.get_Current
 template<>

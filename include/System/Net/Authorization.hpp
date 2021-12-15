@@ -3,21 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Net
-namespace System::Net {
-  // Forward declaring type: Authorization
-  class Authorization;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::Authorization);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::Authorization*, "System.Net", "Authorization");
 // Type namespace: System.Net
 namespace System::Net {
   // Size: 0x28
@@ -26,11 +18,6 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class Authorization : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.String m_Message
     // Size: 0x8
     // Offset: 0x10
@@ -51,7 +38,8 @@ namespace System::Net {
     ::Il2CppString* ModuleAuthenticationType;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: Authorization
+    Authorization(::Il2CppString* m_Message_ = {}, bool m_Complete_ = {}, ::Il2CppString* ModuleAuthenticationType_ = {}) noexcept : m_Message{m_Message_}, m_Complete{m_Complete_}, ModuleAuthenticationType{ModuleAuthenticationType_} {}
     // Get instance field reference: private System.String m_Message
     ::Il2CppString*& dyn_m_Message();
     // Get instance field reference: private System.Boolean m_Complete
@@ -59,20 +47,20 @@ namespace System::Net {
     // Get instance field reference: System.String ModuleAuthenticationType
     ::Il2CppString*& dyn_ModuleAuthenticationType();
     // public System.String get_Message()
-    // Offset: 0x1554A78
+    // Offset: 0x15E1D6C
     ::Il2CppString* get_Message();
     // public System.Boolean get_Complete()
-    // Offset: 0x1554A80
+    // Offset: 0x15E1D74
     bool get_Complete();
     // public System.Void .ctor(System.String token)
-    // Offset: 0x1554954
+    // Offset: 0x15E1C48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Authorization* New_ctor(::Il2CppString* token) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Authorization::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Authorization*, creationType>(token)));
     }
     // public System.Void .ctor(System.String token, System.Boolean finished)
-    // Offset: 0x15549E4
+    // Offset: 0x15E1CD8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Authorization* New_ctor(::Il2CppString* token, bool finished) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Authorization::.ctor");
@@ -83,7 +71,8 @@ namespace System::Net {
   static check_size<sizeof(Authorization), 32 + sizeof(::Il2CppString*)> __System_Net_AuthorizationSizeCheck;
   static_assert(sizeof(Authorization) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Authorization*, "System.Net", "Authorization");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Authorization::get_Message
 // Il2CppName: get_Message
 template<>

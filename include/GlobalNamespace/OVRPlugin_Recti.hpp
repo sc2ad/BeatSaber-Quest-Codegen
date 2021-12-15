@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRPlugin
 #include "GlobalNamespace/OVRPlugin.hpp"
 // Including type: System.ValueType
@@ -16,13 +16,6 @@
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
-  // Forward declaring type: Recti
-  struct Recti;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Recti, "", "OVRPlugin/Recti");
-// Type namespace: 
-namespace GlobalNamespace {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -30,11 +23,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct OVRPlugin::Recti/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private OVRPlugin/Vector2i Pos
     // Size: 0x8
     // Offset: 0x0
@@ -47,7 +35,6 @@ namespace GlobalNamespace {
     GlobalNamespace::OVRPlugin::Sizei Size;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRPlugin::Sizei) == 0x8);
-    public:
     // Creating value type constructor for type: Recti
     constexpr Recti(GlobalNamespace::OVRPlugin::Vector2i Pos_ = {}, GlobalNamespace::OVRPlugin::Sizei Size_ = {}) noexcept : Pos{Pos_}, Size{Size_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -63,4 +50,6 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRPlugin::Recti), 8 + sizeof(GlobalNamespace::OVRPlugin::Sizei)> __GlobalNamespace_OVRPlugin_RectiSizeCheck;
   static_assert(sizeof(OVRPlugin::Recti) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Recti, "", "OVRPlugin/Recti");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

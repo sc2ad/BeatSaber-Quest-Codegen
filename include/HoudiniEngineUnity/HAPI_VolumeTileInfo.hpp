@@ -3,17 +3,10 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-// Type namespace: HoudiniEngineUnity
-namespace HoudiniEngineUnity {
-  // Forward declaring type: HAPI_VolumeTileInfo
-  struct HAPI_VolumeTileInfo;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_VolumeTileInfo, "HoudiniEngineUnity", "HAPI_VolumeTileInfo");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0xD
@@ -23,11 +16,6 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HAPI_VolumeTileInfo/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 minX
     // Size: 0x4
     // Offset: 0x0
@@ -52,7 +40,6 @@ namespace HoudiniEngineUnity {
     bool isValid;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
     // Creating value type constructor for type: HAPI_VolumeTileInfo
     constexpr HAPI_VolumeTileInfo(int minX_ = {}, int minY_ = {}, int minZ_ = {}, bool isValid_ = {}) noexcept : minX{minX_}, minY{minY_}, minZ{minZ_}, isValid{isValid_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -72,4 +59,6 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HAPI_VolumeTileInfo), 12 + sizeof(bool)> __HoudiniEngineUnity_HAPI_VolumeTileInfoSizeCheck;
   static_assert(sizeof(HAPI_VolumeTileInfo) == 0xD);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_VolumeTileInfo, "HoudiniEngineUnity", "HAPI_VolumeTileInfo");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

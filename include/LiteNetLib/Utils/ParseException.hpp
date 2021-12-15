@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Exception
 #include "System/Exception.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: LiteNetLib.Utils
-namespace LiteNetLib::Utils {
-  // Forward declaring type: ParseException
-  class ParseException;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(LiteNetLib::Utils::ParseException);
-DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::ParseException*, "LiteNetLib.Utils", "ParseException");
 // Type namespace: LiteNetLib.Utils
 namespace LiteNetLib::Utils {
   // Size: 0x88
@@ -28,8 +20,10 @@ namespace LiteNetLib::Utils {
   // [TokenAttribute] Offset: FFFFFFFF
   class ParseException : public System::Exception {
     public:
+    // Creating value type constructor for type: ParseException
+    ParseException() noexcept {}
     // public System.Void .ctor(System.String message)
-    // Offset: 0x25FFEA8
+    // Offset: 0x26C1ED0
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -40,7 +34,8 @@ namespace LiteNetLib::Utils {
   }; // LiteNetLib.Utils.ParseException
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::ParseException*, "LiteNetLib.Utils", "ParseException");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::Utils::ParseException::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

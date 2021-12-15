@@ -3,20 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Globalization.CultureInfo
 #include "System/Globalization/CultureInfo.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-// Type namespace: System.Globalization
-namespace System::Globalization {
-  // Forward declaring type: Data
-  struct Data;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CultureInfo::Data, "System.Globalization", "CultureInfo/Data");
 // Type namespace: System.Globalization
 namespace System::Globalization {
   // Size: 0x12
@@ -26,11 +19,6 @@ namespace System::Globalization {
   // [TokenAttribute] Offset: FFFFFFFF
   struct CultureInfo::Data/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 ansi
     // Size: 0x4
     // Offset: 0x0
@@ -67,7 +55,6 @@ namespace System::Globalization {
     uint8_t list_sep;
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
-    public:
     // Creating value type constructor for type: Data
     constexpr Data(int ansi_ = {}, int ebcdic_ = {}, int mac_ = {}, int oem_ = {}, bool right_to_left_ = {}, uint8_t list_sep_ = {}) noexcept : ansi{ansi_}, ebcdic{ebcdic_}, mac{mac_}, oem{oem_}, right_to_left{right_to_left_}, list_sep{list_sep_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -91,4 +78,6 @@ namespace System::Globalization {
   static check_size<sizeof(CultureInfo::Data), 17 + sizeof(uint8_t)> __System_Globalization_CultureInfo_DataSizeCheck;
   static_assert(sizeof(CultureInfo::Data) == 0x12);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CultureInfo::Data, "System.Globalization", "CultureInfo/Data");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

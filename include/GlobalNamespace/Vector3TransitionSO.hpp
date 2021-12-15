@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BaseTransitionSO
 #include "GlobalNamespace/BaseTransitionSO.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: Vector3TransitionSO
-  class Vector3TransitionSO;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::Vector3TransitionSO);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Vector3TransitionSO*, "", "Vector3TransitionSO");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x68
@@ -28,11 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class Vector3TransitionSO : public GlobalNamespace::BaseTransitionSO {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private UnityEngine.Vector3 _normalState
     // Size: 0xC
     // Offset: 0x20
@@ -69,7 +56,8 @@ namespace GlobalNamespace {
     UnityEngine::Vector3 selectedAndHighlightedState;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    public:
+    // Creating value type constructor for type: Vector3TransitionSO
+    Vector3TransitionSO(UnityEngine::Vector3 normalState_ = {}, UnityEngine::Vector3 highlightedState_ = {}, UnityEngine::Vector3 pressedState_ = {}, UnityEngine::Vector3 disabledState_ = {}, UnityEngine::Vector3 selectedState_ = {}, UnityEngine::Vector3 selectedAndHighlightedState_ = {}) noexcept : normalState{normalState_}, highlightedState{highlightedState_}, pressedState{pressedState_}, disabledState{disabledState_}, selectedState{selectedState_}, selectedAndHighlightedState{selectedAndHighlightedState_} {}
     // Get instance field reference: private UnityEngine.Vector3 _normalState
     UnityEngine::Vector3& dyn__normalState();
     // Get instance field reference: private UnityEngine.Vector3 _highlightedState
@@ -83,25 +71,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Vector3 _selectedAndHighlightedState
     UnityEngine::Vector3& dyn__selectedAndHighlightedState();
     // public UnityEngine.Vector3 get_normalState()
-    // Offset: 0x1274998
+    // Offset: 0x1BDE8CC
     UnityEngine::Vector3 get_normalState();
     // public UnityEngine.Vector3 get_highlightedState()
-    // Offset: 0x12749A4
+    // Offset: 0x1BDE8D8
     UnityEngine::Vector3 get_highlightedState();
     // public UnityEngine.Vector3 get_pressedState()
-    // Offset: 0x12749B0
+    // Offset: 0x1BDE8E4
     UnityEngine::Vector3 get_pressedState();
     // public UnityEngine.Vector3 get_disabledState()
-    // Offset: 0x12749BC
+    // Offset: 0x1BDE8F0
     UnityEngine::Vector3 get_disabledState();
     // public UnityEngine.Vector3 get_selectedState()
-    // Offset: 0x12749C8
+    // Offset: 0x1BDE8FC
     UnityEngine::Vector3 get_selectedState();
     // public UnityEngine.Vector3 get_selectedAndHighlightedState()
-    // Offset: 0x12749D4
+    // Offset: 0x1BDE908
     UnityEngine::Vector3 get_selectedAndHighlightedState();
     // public System.Void .ctor()
-    // Offset: 0x12749E0
+    // Offset: 0x1BDE914
     // Implemented from: BaseTransitionSO
     // Base method: System.Void BaseTransitionSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()
@@ -118,7 +106,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(Vector3TransitionSO), 92 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_Vector3TransitionSOSizeCheck;
   static_assert(sizeof(Vector3TransitionSO) == 0x68);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Vector3TransitionSO*, "", "Vector3TransitionSO");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::Vector3TransitionSO::get_normalState
 // Il2CppName: get_normalState
 template<>

@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BeatmapEventType
 #include "GlobalNamespace/BeatmapEventType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: BeatmapEventData
-  class BeatmapEventData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BeatmapEventData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapEventData*, "", "BeatmapEventData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x28
@@ -28,11 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapEventData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public readonly BeatmapEventType type
     // Size: 0x4
     // Offset: 0x10
@@ -63,7 +50,8 @@ namespace GlobalNamespace {
     float floatValue;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
+    // Creating value type constructor for type: BeatmapEventData
+    BeatmapEventData(GlobalNamespace::BeatmapEventType type_ = {}, float time_ = {}, GlobalNamespace::BeatmapEventData* nextSameTypeEvent_ = {}, int value_ = {}, float floatValue_ = {}) noexcept : type{type_}, time{time_}, nextSameTypeEvent{nextSameTypeEvent_}, value{value_}, floatValue{floatValue_} {}
     // Get instance field reference: public readonly BeatmapEventType type
     GlobalNamespace::BeatmapEventType& dyn_type();
     // Get instance field reference: public readonly System.Single time
@@ -75,13 +63,13 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Single floatValue
     float& dyn_floatValue();
     // public BeatmapEventData get_nextSameTypeEvent()
-    // Offset: 0x25FB0A8
+    // Offset: 0x26BD090
     GlobalNamespace::BeatmapEventData* get_nextSameTypeEvent();
     // public System.Void set_nextSameTypeEvent(BeatmapEventData value)
-    // Offset: 0x25FB0B0
+    // Offset: 0x26BD098
     void set_nextSameTypeEvent(GlobalNamespace::BeatmapEventData* value);
     // public System.Void .ctor(System.Single time, BeatmapEventType type, System.Int32 value, System.Single floatValue)
-    // Offset: 0x25FB0B8
+    // Offset: 0x26BD0A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapEventData* New_ctor(float time, GlobalNamespace::BeatmapEventType type, int value, float floatValue) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapEventData::.ctor");
@@ -92,7 +80,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(BeatmapEventData), 36 + sizeof(float)> __GlobalNamespace_BeatmapEventDataSizeCheck;
   static_assert(sizeof(BeatmapEventData) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapEventData*, "", "BeatmapEventData");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapEventData::get_nextSameTypeEvent
 // Il2CppName: get_nextSameTypeEvent
 template<>

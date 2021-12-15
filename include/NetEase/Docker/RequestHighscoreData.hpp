@@ -3,20 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct Il2CppString;
 // Completed il2cpp-utils forward declares
-// Type namespace: NetEase.Docker
-namespace NetEase::Docker {
-  // Forward declaring type: RequestHighscoreData
-  struct RequestHighscoreData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::RequestHighscoreData, "NetEase.Docker", "RequestHighscoreData");
 // Type namespace: NetEase.Docker
 namespace NetEase::Docker {
   // Size: 0x10
@@ -26,26 +19,20 @@ namespace NetEase::Docker {
   // [TokenAttribute] Offset: FFFFFFFF
   struct RequestHighscoreData/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
-    // [DebuggerBrowsableAttribute] Offset: 0xEEDBE0
+    // [DebuggerBrowsableAttribute] Offset: 0xF2EA44
     // private System.String <Track>k__BackingField
     // Size: 0x8
     // Offset: 0x0
     ::Il2CppString* Track;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xEEDC1C
+    // [DebuggerBrowsableAttribute] Offset: 0xF2EA80
     // private System.String <HighscoreType>k__BackingField
     // Size: 0x8
     // Offset: 0x8
     ::Il2CppString* HighscoreType;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
     // Creating value type constructor for type: RequestHighscoreData
     constexpr RequestHighscoreData(::Il2CppString* Track_ = {}, ::Il2CppString* HighscoreType_ = {}) noexcept : Track{Track_}, HighscoreType{HighscoreType_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -57,20 +44,22 @@ namespace NetEase::Docker {
     // Get instance field reference: private System.String <HighscoreType>k__BackingField
     ::Il2CppString*& dyn_$HighscoreType$k__BackingField();
     // public System.String get_Track()
-    // Offset: 0x2607ADC
+    // Offset: 0x26CAB04
     ::Il2CppString* get_Track();
     // public System.Void set_Track(System.String value)
-    // Offset: 0x2607AE4
+    // Offset: 0x26CAB0C
     void set_Track(::Il2CppString* value);
     // public System.Void set_HighscoreType(System.String value)
-    // Offset: 0x2607AEC
+    // Offset: 0x26CAB14
     void set_HighscoreType(::Il2CppString* value);
   }; // NetEase.Docker.RequestHighscoreData
   #pragma pack(pop)
   static check_size<sizeof(RequestHighscoreData), 8 + sizeof(::Il2CppString*)> __NetEase_Docker_RequestHighscoreDataSizeCheck;
   static_assert(sizeof(RequestHighscoreData) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::RequestHighscoreData, "NetEase.Docker", "RequestHighscoreData");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NetEase::Docker::RequestHighscoreData::get_Track
 // Il2CppName: get_Track
 template<>

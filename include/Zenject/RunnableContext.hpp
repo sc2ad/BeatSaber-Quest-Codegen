@@ -3,14 +3,14 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.Context
 #include "Zenject/Context.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -18,15 +18,12 @@ namespace UnityEngine {
   // Forward declaring type: GameObject
   class GameObject;
 }
-// Completed forward declares
-// Type namespace: Zenject
+// Forward declaring namespace: Zenject
 namespace Zenject {
-  // Forward declaring type: RunnableContext
-  class RunnableContext;
+  // Forward declaring type: InjectTypeInfo
+  class InjectTypeInfo;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::RunnableContext);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::RunnableContext*, "Zenject", "RunnableContext");
+// Completed forward declares
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x42
@@ -35,12 +32,7 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class RunnableContext : public Zenject::Context {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
-    // [TooltipAttribute] Offset: 0xEC6718
+    // [TooltipAttribute] Offset: 0xF03504
     // private System.Boolean _autoRun
     // Size: 0x1
     // Offset: 0x40
@@ -53,7 +45,8 @@ namespace Zenject {
     bool Initialized;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: RunnableContext
+    RunnableContext(bool autoRun_ = {}, bool Initialized_ = {}) noexcept : autoRun{autoRun_}, Initialized{Initialized_} {}
     // Get static field: static private System.Boolean _staticAutoRun
     static bool _get__staticAutoRun();
     // Set static field: static private System.Boolean _staticAutoRun
@@ -63,16 +56,16 @@ namespace Zenject {
     // Get instance field reference: private System.Boolean <Initialized>k__BackingField
     bool& dyn_$Initialized$k__BackingField();
     // public System.Boolean get_Initialized()
-    // Offset: 0x1882E08
+    // Offset: 0x18E4ADC
     bool get_Initialized();
     // private System.Void set_Initialized(System.Boolean value)
-    // Offset: 0x1882E10
+    // Offset: 0x18E4AE4
     void set_Initialized(bool value);
     // protected System.Void Initialize()
-    // Offset: 0x1882E1C
+    // Offset: 0x18E4AF0
     void Initialize();
     // public System.Void Run()
-    // Offset: 0x1882EC8
+    // Offset: 0x18E4B9C
     void Run();
     // protected System.Void RunInternal()
     // Offset: 0xFFFFFFFF
@@ -85,10 +78,10 @@ namespace Zenject {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::RunnableContext::CreateComponent");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "RunnableContext", "CreateComponent", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(gameObject)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, gameObject);
+      return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, gameObject);
     }
     // protected System.Void .ctor()
-    // Offset: 0x1882F40
+    // Offset: 0x18E4C14
     // Implemented from: Zenject.Context
     // Base method: System.Void Context::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -102,16 +95,22 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<RunnableContext*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1882F50
+    // Offset: 0x18E4C24
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
+    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
+    // Offset: 0x18E4C78
+    // Implemented from: Zenject.Context
+    // Base method: Zenject.InjectTypeInfo Context::__zenCreateInjectTypeInfo()
+    static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.RunnableContext
   #pragma pack(pop)
   static check_size<sizeof(RunnableContext), 65 + sizeof(bool)> __Zenject_RunnableContextSizeCheck;
   static_assert(sizeof(RunnableContext) == 0x42);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Zenject::RunnableContext*, "Zenject", "RunnableContext");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::RunnableContext::get_Initialized
 // Il2CppName: get_Initialized
 template<>
@@ -166,5 +165,13 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Zenject::RunnableContext::_cctor)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::RunnableContext*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Zenject::RunnableContext::__zenCreateInjectTypeInfo
+// Il2CppName: __zenCreateInjectTypeInfo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo* (*)()>(&Zenject::RunnableContext::__zenCreateInjectTypeInfo)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::RunnableContext*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

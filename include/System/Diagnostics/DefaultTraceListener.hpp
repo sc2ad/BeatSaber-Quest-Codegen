@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Diagnostics.TraceListener
 #include "System/Diagnostics/TraceListener.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Diagnostics
-namespace System::Diagnostics {
-  // Forward declaring type: DefaultTraceListener
-  class DefaultTraceListener;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Diagnostics::DefaultTraceListener);
-DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::DefaultTraceListener*, "System.Diagnostics", "DefaultTraceListener");
 // Type namespace: System.Diagnostics
 namespace System::Diagnostics {
   // Size: 0x38
@@ -28,18 +20,14 @@ namespace System::Diagnostics {
   // [TokenAttribute] Offset: FFFFFFFF
   class DefaultTraceListener : public System::Diagnostics::TraceListener {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.String logFileName
     // Size: 0x8
     // Offset: 0x30
     ::Il2CppString* logFileName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: DefaultTraceListener
+    DefaultTraceListener(::Il2CppString* logFileName_ = {}) noexcept : logFileName{logFileName_} {}
     // Get static field: static private readonly System.Boolean OnWin32
     static bool _get_OnWin32();
     // Set static field: static private readonly System.Boolean OnWin32
@@ -55,34 +43,34 @@ namespace System::Diagnostics {
     // Get instance field reference: private System.String logFileName
     ::Il2CppString*& dyn_logFileName();
     // public System.String get_LogFileName()
-    // Offset: 0x1A09A9C
+    // Offset: 0x1A2914C
     ::Il2CppString* get_LogFileName();
     // static private System.Void .cctor()
-    // Offset: 0x1A09838
+    // Offset: 0x1A28EE8
     static void _cctor();
     // static private System.String GetPrefix(System.String var, System.String target)
-    // Offset: 0x1A09964
+    // Offset: 0x1A29014
     static ::Il2CppString* GetPrefix(::Il2CppString* var, ::Il2CppString* target);
     // static private System.Void WriteWindowsDebugString(System.String message)
-    // Offset: 0x1A09C70
+    // Offset: 0x1A29320
     static void WriteWindowsDebugString(::Il2CppString* message);
     // private System.Void WriteDebugString(System.String message)
-    // Offset: 0x1A09C74
+    // Offset: 0x1A29324
     void WriteDebugString(::Il2CppString* message);
     // private System.Void WriteMonoTrace(System.String message)
-    // Offset: 0x1A09D20
+    // Offset: 0x1A293D0
     void WriteMonoTrace(::Il2CppString* message);
     // private System.Void WritePrefix()
-    // Offset: 0x1A0A0FC
+    // Offset: 0x1A297AC
     void WritePrefix();
     // private System.Void WriteImpl(System.String message)
-    // Offset: 0x1A0A19C
+    // Offset: 0x1A2984C
     void WriteImpl(::Il2CppString* message);
     // private System.Void WriteLogFile(System.String message, System.String logFile)
-    // Offset: 0x1A09EF0
+    // Offset: 0x1A295A0
     void WriteLogFile(::Il2CppString* message, ::Il2CppString* logFile);
     // public System.Void .ctor()
-    // Offset: 0x1A099F4
+    // Offset: 0x1A290A4
     // Implemented from: System.MarshalByRefObject
     // Base method: System.Void MarshalByRefObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -92,22 +80,22 @@ namespace System::Diagnostics {
       return THROW_UNLESS((::il2cpp_utils::New<DefaultTraceListener*, creationType>()));
     }
     // public override System.Void Fail(System.String message)
-    // Offset: 0x1A09AA4
+    // Offset: 0x1A29154
     // Implemented from: System.Diagnostics.TraceListener
     // Base method: System.Void TraceListener::Fail(System.String message)
     void Fail(::Il2CppString* message);
     // public override System.Void Fail(System.String message, System.String detailMessage)
-    // Offset: 0x1A09AC4
+    // Offset: 0x1A29174
     // Implemented from: System.Diagnostics.TraceListener
     // Base method: System.Void TraceListener::Fail(System.String message, System.String detailMessage)
     void Fail(::Il2CppString* message, ::Il2CppString* detailMessage);
     // public override System.Void Write(System.String message)
-    // Offset: 0x1A0A27C
+    // Offset: 0x1A2992C
     // Implemented from: System.Diagnostics.TraceListener
     // Base method: System.Void TraceListener::Write(System.String message)
     void Write(::Il2CppString* message);
     // public override System.Void WriteLine(System.String message)
-    // Offset: 0x1A0A280
+    // Offset: 0x1A29930
     // Implemented from: System.Diagnostics.TraceListener
     // Base method: System.Void TraceListener::WriteLine(System.String message)
     void WriteLine(::Il2CppString* message);
@@ -116,7 +104,8 @@ namespace System::Diagnostics {
   static check_size<sizeof(DefaultTraceListener), 48 + sizeof(::Il2CppString*)> __System_Diagnostics_DefaultTraceListenerSizeCheck;
   static_assert(sizeof(DefaultTraceListener) == 0x38);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::DefaultTraceListener*, "System.Diagnostics", "DefaultTraceListener");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Diagnostics::DefaultTraceListener::get_LogFileName
 // Il2CppName: get_LogFileName
 template<>

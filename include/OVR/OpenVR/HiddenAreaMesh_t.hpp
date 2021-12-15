@@ -3,19 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
 // Completed includes
-// Type namespace: OVR.OpenVR
-namespace OVR::OpenVR {
-  // Forward declaring type: HiddenAreaMesh_t
-  struct HiddenAreaMesh_t;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::HiddenAreaMesh_t, "OVR.OpenVR", "HiddenAreaMesh_t");
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
   // Size: 0xC
@@ -25,11 +19,6 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HiddenAreaMesh_t/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.IntPtr pVertexData
     // Size: 0x8
     // Offset: 0x0
@@ -42,7 +31,6 @@ namespace OVR::OpenVR {
     uint unTriangleCount;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
-    public:
     // Creating value type constructor for type: HiddenAreaMesh_t
     constexpr HiddenAreaMesh_t(System::IntPtr pVertexData_ = {}, uint unTriangleCount_ = {}) noexcept : pVertexData{pVertexData_}, unTriangleCount{unTriangleCount_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -58,4 +46,6 @@ namespace OVR::OpenVR {
   static check_size<sizeof(HiddenAreaMesh_t), 8 + sizeof(uint)> __OVR_OpenVR_HiddenAreaMesh_tSizeCheck;
   static_assert(sizeof(HiddenAreaMesh_t) == 0xC);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::HiddenAreaMesh_t, "OVR.OpenVR", "HiddenAreaMesh_t");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

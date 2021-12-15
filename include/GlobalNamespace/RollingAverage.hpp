@@ -3,24 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Int64
 #include "System/Int64.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: RollingAverage
-  class RollingAverage;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::RollingAverage);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RollingAverage*, "", "RollingAverage");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x30
@@ -29,11 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class RollingAverage : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Int64 _currentTotal
     // Size: 0x8
     // Offset: 0x10
@@ -51,9 +37,9 @@ namespace GlobalNamespace {
     // private readonly System.Int64[] _buffer
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayW<int64_t> buffer;
+    ::Array<int64_t>* buffer;
     // Field size check
-    static_assert(sizeof(::ArrayW<int64_t>) == 0x8);
+    static_assert(sizeof(::Array<int64_t>*) == 0x8);
     // private System.Int32 _index
     // Size: 0x4
     // Offset: 0x28
@@ -66,7 +52,8 @@ namespace GlobalNamespace {
     int length;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
+    // Creating value type constructor for type: RollingAverage
+    RollingAverage(int64_t currentTotal_ = {}, float currentAverage_ = {}, ::Array<int64_t>* buffer_ = {}, int index_ = {}, int length_ = {}) noexcept : currentTotal{currentTotal_}, currentAverage{currentAverage_}, buffer{buffer_}, index{index_}, length{length_} {}
     // static field const value: static private System.Int64 kGranularity
     static constexpr const int64_t kGranularity = 1000;
     // Get static field: static private System.Int64 kGranularity
@@ -78,36 +65,37 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _currentAverage
     float& dyn__currentAverage();
     // Get instance field reference: private readonly System.Int64[] _buffer
-    ::ArrayW<int64_t>& dyn__buffer();
+    ::Array<int64_t>*& dyn__buffer();
     // Get instance field reference: private System.Int32 _index
     int& dyn__index();
     // Get instance field reference: private System.Int32 _length
     int& dyn__length();
     // public System.Single get_currentAverage()
-    // Offset: 0x18BC414
+    // Offset: 0x18109F0
     float get_currentAverage();
     // public System.Boolean get_hasValue()
-    // Offset: 0x18BC41C
+    // Offset: 0x18109F8
     bool get_hasValue();
     // public System.Void .ctor(System.Int32 window)
-    // Offset: 0x18BC42C
+    // Offset: 0x1810A08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RollingAverage* New_ctor(int window) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::RollingAverage::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RollingAverage*, creationType>(window)));
     }
     // public System.Void Update(System.Single value)
-    // Offset: 0x18BC49C
+    // Offset: 0x1810A78
     void Update(float value);
     // public System.Void Reset()
-    // Offset: 0x18BC5EC
+    // Offset: 0x1810BC8
     void Reset();
   }; // RollingAverage
   #pragma pack(pop)
   static check_size<sizeof(RollingAverage), 44 + sizeof(int)> __GlobalNamespace_RollingAverageSizeCheck;
   static_assert(sizeof(RollingAverage) == 0x30);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RollingAverage*, "", "RollingAverage");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::RollingAverage::get_currentAverage
 // Il2CppName: get_currentAverage
 template<>

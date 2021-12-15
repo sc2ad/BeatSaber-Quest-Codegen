@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: DisableComponentOnNonSteam
-  class DisableComponentOnNonSteam;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::DisableComponentOnNonSteam);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DisableComponentOnNonSteam*, "", "DisableComponentOnNonSteam");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -28,27 +20,23 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class DisableComponentOnNonSteam : public UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private UnityEngine.MonoBehaviour _component
     // Size: 0x8
     // Offset: 0x18
     UnityEngine::MonoBehaviour* component;
     // Field size check
     static_assert(sizeof(UnityEngine::MonoBehaviour*) == 0x8);
-    public:
+    // Creating value type constructor for type: DisableComponentOnNonSteam
+    DisableComponentOnNonSteam(UnityEngine::MonoBehaviour* component_ = {}) noexcept : component{component_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.MonoBehaviour _component
     UnityEngine::MonoBehaviour*& dyn__component();
     // private System.Void Awake()
-    // Offset: 0x1162DAC
+    // Offset: 0x11D5688
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0x1162DCC
+    // Offset: 0x11D56A8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -65,7 +53,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(DisableComponentOnNonSteam), 24 + sizeof(UnityEngine::MonoBehaviour*)> __GlobalNamespace_DisableComponentOnNonSteamSizeCheck;
   static_assert(sizeof(DisableComponentOnNonSteam) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DisableComponentOnNonSteam*, "", "DisableComponentOnNonSteam");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DisableComponentOnNonSteam::Awake
 // Il2CppName: Awake
 template<>

@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MasterServer.MessageHandler
 #include "MasterServer/MessageHandler.hpp"
 // Including type: System.IDisposable
 #include "System/IDisposable.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: MasterServer
-namespace MasterServer {
-  // Forward declaring type: RequestWaiter
-  class RequestWaiter;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(MasterServer::MessageHandler::RequestWaiter);
-DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::RequestWaiter*, "MasterServer", "MessageHandler/RequestWaiter");
 // Type namespace: MasterServer
 namespace MasterServer {
   // Size: 0x10
@@ -30,6 +22,8 @@ namespace MasterServer {
   // [TokenAttribute] Offset: FFFFFFFF
   class MessageHandler::RequestWaiter : public ::Il2CppObject/*, public System::IDisposable*/ {
     public:
+    // Creating value type constructor for type: RequestWaiter
+    RequestWaiter() noexcept {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
@@ -38,7 +32,7 @@ namespace MasterServer {
     // Offset: 0xFFFFFFFF
     void Dispose();
     // protected System.Void .ctor()
-    // Offset: 0x12F3FD8
+    // Offset: 0x14BA48C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -49,7 +43,8 @@ namespace MasterServer {
   }; // MasterServer.MessageHandler/MasterServer.RequestWaiter
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::RequestWaiter*, "MasterServer", "MessageHandler/RequestWaiter");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: MasterServer::MessageHandler::RequestWaiter::Dispose
 // Il2CppName: Dispose
 template<>

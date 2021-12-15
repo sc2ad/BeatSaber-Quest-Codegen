@@ -3,17 +3,9 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: System.Threading
-namespace System::Threading {
-  // Forward declaring type: TimeoutHelper
-  class TimeoutHelper;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Threading::TimeoutHelper);
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::TimeoutHelper*, "System.Threading", "TimeoutHelper");
 // Type namespace: System.Threading
 namespace System::Threading {
   // Size: 0x10
@@ -22,16 +14,20 @@ namespace System::Threading {
   // [TokenAttribute] Offset: FFFFFFFF
   class TimeoutHelper : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: TimeoutHelper
+    TimeoutHelper() noexcept {}
     // static public System.UInt32 GetTime()
-    // Offset: 0x19A5A1C
+    // Offset: 0x19C40CC
     static uint GetTime();
     // static public System.Int32 UpdateTimeOut(System.UInt32 startTime, System.Int32 originalWaitMillisecondsTimeout)
-    // Offset: 0x19A5A24
+    // Offset: 0x19C40D4
     static int UpdateTimeOut(uint startTime, int originalWaitMillisecondsTimeout);
   }; // System.Threading.TimeoutHelper
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::TimeoutHelper*, "System.Threading", "TimeoutHelper");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::TimeoutHelper::GetTime
 // Il2CppName: GetTime
 template<>

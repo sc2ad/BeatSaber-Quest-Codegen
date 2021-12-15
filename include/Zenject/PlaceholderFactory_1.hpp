@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.PlaceholderFactoryBase`1
 #include "Zenject/PlaceholderFactoryBase_1.hpp"
 // Including type: Zenject.IFactory`1
@@ -13,15 +13,17 @@
 #include "System/Collections/Generic/IEnumerable_1.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
 #include "System/Collections/Generic/IEnumerator_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Zenject
 namespace Zenject {
   // Skipping declaration: <get_ParamTypes>d__2 because it is already included!
+  // Forward declaring type: InjectTypeInfo
+  class InjectTypeInfo;
 }
 // Forward declaring namespace: System
 namespace System {
@@ -33,14 +35,6 @@ namespace System::Collections {
   // Skipping declaration: IEnumerator because it is already included!
 }
 // Completed forward declares
-// Type namespace: Zenject
-namespace Zenject {
-  // Forward declaring type: PlaceholderFactory`1<TValue>
-  template<typename TValue>
-  class PlaceholderFactory_1;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::PlaceholderFactory_1, "Zenject", "PlaceholderFactory`1");
 // Type namespace: Zenject
 namespace Zenject {
   // WARNING Size may be invalid!
@@ -60,11 +54,6 @@ namespace Zenject {
       using declaring_type = PlaceholderFactory_1<TValue>*;
       static constexpr std::string_view NESTED_NAME = "<get_ParamTypes>d__2";
       static constexpr bool IS_VALUE_TYPE = false;
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // private System.Int32 <>1__state
       // Size: 0x4
       // Offset: 0x0
@@ -83,7 +72,8 @@ namespace Zenject {
       int $$l__initialThreadId;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
+      // Creating value type constructor for type: $get_ParamTypes$d__2
+      $get_ParamTypes$d__2(int $$1__state_ = {}, System::Type* $$2__current_ = {}, int $$l__initialThreadId_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$l__initialThreadId{$$l__initialThreadId_} {}
       // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<System::Type*>
       operator System::Collections::Generic::IEnumerable_1<System::Type*>() noexcept {
         return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<System::Type*>*>(this);
@@ -121,14 +111,16 @@ namespace Zenject {
       System::Type* System_Collections_Generic_IEnumerator$System_Type$_get_Current() {
         static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PlaceholderFactory_1::$get_ParamTypes$d__2::System.Collections.Generic.IEnumerator<System.Type>.get_Current");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.Generic.IEnumerator<System.Type>.get_Current", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        return ::il2cpp_utils::RunMethodThrow<System::Type*, false>(this, ___internal__method);
+        auto ___instance_arg = this;
+        return ::il2cpp_utils::RunMethodThrow<System::Type*, false>(___instance_arg, ___internal__method);
       }
       // private System.Object System.Collections.IEnumerator.get_Current()
       // Offset: 0xFFFFFFFF
       ::Il2CppObject* System_Collections_IEnumerator_get_Current() {
         static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PlaceholderFactory_1::$get_ParamTypes$d__2::System.Collections.IEnumerator.get_Current");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        return ::il2cpp_utils::RunMethodThrow<::Il2CppObject*, false>(this, ___internal__method);
+        auto ___instance_arg = this;
+        return ::il2cpp_utils::RunMethodThrow<::Il2CppObject*, false>(___instance_arg, ___internal__method);
       }
       // public System.Void .ctor(System.Int32 <>1__state)
       // Offset: 0xFFFFFFFF
@@ -142,38 +134,59 @@ namespace Zenject {
       void System_IDisposable_Dispose() {
         static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PlaceholderFactory_1::$get_ParamTypes$d__2::System.IDisposable.Dispose");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.IDisposable.Dispose", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
+        auto ___instance_arg = this;
+        ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method);
       }
       // private System.Boolean MoveNext()
       // Offset: 0xFFFFFFFF
       bool MoveNext() {
         static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PlaceholderFactory_1::$get_ParamTypes$d__2::MoveNext");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "MoveNext", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method);
+        auto ___instance_arg = this;
+        return ::il2cpp_utils::RunMethodThrow<bool, false>(___instance_arg, ___internal__method);
       }
       // private System.Void System.Collections.IEnumerator.Reset()
       // Offset: 0xFFFFFFFF
       void System_Collections_IEnumerator_Reset() {
         static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PlaceholderFactory_1::$get_ParamTypes$d__2::System.Collections.IEnumerator.Reset");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
+        auto ___instance_arg = this;
+        ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method);
       }
       // private System.Collections.Generic.IEnumerator`1<System.Type> System.Collections.Generic.IEnumerable<System.Type>.GetEnumerator()
       // Offset: 0xFFFFFFFF
       System::Collections::Generic::IEnumerator_1<System::Type*>* System_Collections_Generic_IEnumerable$System_Type$_GetEnumerator() {
         static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PlaceholderFactory_1::$get_ParamTypes$d__2::System.Collections.Generic.IEnumerable<System.Type>.GetEnumerator");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.Generic.IEnumerable<System.Type>.GetEnumerator", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerator_1<System::Type*>*, false>(this, ___internal__method);
+        auto ___instance_arg = this;
+        return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerator_1<System::Type*>*, false>(___instance_arg, ___internal__method);
       }
       // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
       // Offset: 0xFFFFFFFF
       System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator() {
         static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PlaceholderFactory_1::$get_ParamTypes$d__2::System.Collections.IEnumerable.GetEnumerator");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        return ::il2cpp_utils::RunMethodThrow<System::Collections::IEnumerator*, false>(this, ___internal__method);
+        auto ___instance_arg = this;
+        return ::il2cpp_utils::RunMethodThrow<System::Collections::IEnumerator*, false>(___instance_arg, ___internal__method);
+      }
+      // static private System.Object __zenCreate(System.Object[] P_0)
+      // Offset: 0xFFFFFFFF
+      static ::Il2CppObject* __zenCreate(::Array<::Il2CppObject*>* P_0) {
+        static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PlaceholderFactory_1::$get_ParamTypes$d__2::__zenCreate");
+        static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename PlaceholderFactory_1<TValue>::$get_ParamTypes$d__2*>::get(), "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
+        return ::il2cpp_utils::RunMethodThrow<::Il2CppObject*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, P_0);
+      }
+      // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
+      // Offset: 0xFFFFFFFF
+      static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo() {
+        static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PlaceholderFactory_1::$get_ParamTypes$d__2::__zenCreateInjectTypeInfo");
+        static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename PlaceholderFactory_1<TValue>::$get_ParamTypes$d__2*>::get(), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+        return ::il2cpp_utils::RunMethodThrow<Zenject::InjectTypeInfo*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
       }
     }; // Zenject.PlaceholderFactory`1/Zenject.<get_ParamTypes>d__2
     // Could not write size check! Type: Zenject.PlaceholderFactory`1/Zenject.<get_ParamTypes>d__2 is generic, or has no fields that are valid for size checks!
+    // Creating value type constructor for type: PlaceholderFactory_1
+    PlaceholderFactory_1() noexcept {}
     // Creating interface conversion operator: operator Zenject::IFactory_1<TValue>
     operator Zenject::IFactory_1<TValue>() noexcept {
       return *reinterpret_cast<Zenject::IFactory_1<TValue>*>(this);
@@ -183,7 +196,15 @@ namespace Zenject {
     TValue Create() {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PlaceholderFactory_1::Create");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Create", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<TValue, false>(this, ___internal__method);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<TValue, false>(___instance_arg, ___internal__method);
+    }
+    // static private System.Object __zenCreate(System.Object[] P_0)
+    // Offset: 0xFFFFFFFF
+    static ::Il2CppObject* __zenCreate(::Array<::Il2CppObject*>* P_0) {
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PlaceholderFactory_1::__zenCreate");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<PlaceholderFactory_1<TValue>*>::get(), "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
+      return ::il2cpp_utils::RunMethodThrow<::Il2CppObject*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, P_0);
     }
     // protected override System.Collections.Generic.IEnumerable`1<System.Type> get_ParamTypes()
     // Offset: 0xFFFFFFFF
@@ -192,7 +213,8 @@ namespace Zenject {
     System::Collections::Generic::IEnumerable_1<System::Type*>* get_ParamTypes() {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PlaceholderFactory_1::get_ParamTypes");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_ParamTypes", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerable_1<System::Type*>*, false>(this, ___internal__method);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerable_1<System::Type*>*, false>(___instance_arg, ___internal__method);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
@@ -204,7 +226,17 @@ namespace Zenject {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PlaceholderFactory_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlaceholderFactory_1<TValue>*, creationType>()));
     }
+    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
+    // Offset: 0xFFFFFFFF
+    // Implemented from: Zenject.PlaceholderFactoryBase`1
+    // Base method: Zenject.InjectTypeInfo PlaceholderFactoryBase_1::__zenCreateInjectTypeInfo()
+    static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo() {
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PlaceholderFactory_1::__zenCreateInjectTypeInfo");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<PlaceholderFactory_1<TValue>*>::get(), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+      return ::il2cpp_utils::RunMethodThrow<Zenject::InjectTypeInfo*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
+    }
   }; // Zenject.PlaceholderFactory`1
   // Could not write size check! Type: Zenject.PlaceholderFactory`1 is generic, or has no fields that are valid for size checks!
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::PlaceholderFactory_1, "Zenject", "PlaceholderFactory`1");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

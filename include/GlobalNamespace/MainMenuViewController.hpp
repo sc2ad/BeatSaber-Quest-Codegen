@@ -3,55 +3,44 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.ViewController
 #include "HMUI/ViewController.hpp"
-// Including type: System.Enum
-#include "System/Enum.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
-// Forward declaring namespace: System
-namespace System {
-  // Forward declaring type: Action`1<T>
-  template<typename T>
-  class Action_1;
-  // Forward declaring type: Action`2<T1, T2>
-  template<typename T1, typename T2>
-  class Action_2;
+// Forward declaring namespace: GlobalNamespace
+namespace GlobalNamespace {
+  // Forward declaring type: IBeatmapLevelPack
+  class IBeatmapLevelPack;
+  // Forward declaring type: MusicPackPromoBanner
+  class MusicPackPromoBanner;
+  // Forward declaring type: DlcPromoPanelModel
+  class DlcPromoPanelModel;
+  // Forward declaring type: AppStaticSettingsSO
+  class AppStaticSettingsSO;
+  // Forward declaring type: IAnalyticsModel
+  class IAnalyticsModel;
+  // Forward declaring type: IPreviewBeatmapLevel
+  class IPreviewBeatmapLevel;
+  // Skipping declaration: MenuButton because it is already included!
 }
 // Forward declaring namespace: UnityEngine::UI
 namespace UnityEngine::UI {
   // Forward declaring type: Button
   class Button;
 }
-// Forward declaring namespace: GlobalNamespace
-namespace GlobalNamespace {
-  // Forward declaring type: MusicPackPromoBanner
-  class MusicPackPromoBanner;
-  // Forward declaring type: DlcPromoExperimentModel
-  class DlcPromoExperimentModel;
-  // Forward declaring type: AppStaticSettingsSO
-  class AppStaticSettingsSO;
-  // Forward declaring type: IAnalyticsModel
-  class IAnalyticsModel;
-  // Forward declaring type: IBeatmapLevelPack
-  class IBeatmapLevelPack;
-  // Skipping declaration: MenuButton because it is already included!
+// Forward declaring namespace: System
+namespace System {
+  // Forward declaring type: Action`2<T1, T2>
+  template<typename T1, typename T2>
+  class Action_2;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: MainMenuViewController
-  class MainMenuViewController;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MainMenuViewController);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainMenuViewController*, "", "MainMenuViewController");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0xE8
@@ -68,18 +57,12 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct MenuButton/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: MenuButton
       constexpr MenuButton(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -150,11 +133,6 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(MainMenuViewController::MenuButton), 0 + sizeof(int)> __GlobalNamespace_MainMenuViewController_MenuButtonSizeCheck;
     static_assert(sizeof(MainMenuViewController::MenuButton) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private UnityEngine.UI.Button _soloButton
     // Size: 0x8
     // Offset: 0x70
@@ -215,21 +193,21 @@ namespace GlobalNamespace {
     GlobalNamespace::MusicPackPromoBanner* musicPackPromoBanner;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MusicPackPromoBanner*) == 0x8);
-    // [InjectAttribute] Offset: 0xF10708
-    // private readonly DlcPromoExperimentModel _dlcPromoExperimentModel
+    // [InjectAttribute] Offset: 0xF460DC
+    // private readonly DlcPromoPanelModel _dlcPromoPanelModel
     // Size: 0x8
     // Offset: 0xC0
-    GlobalNamespace::DlcPromoExperimentModel* dlcPromoExperimentModel;
+    GlobalNamespace::DlcPromoPanelModel* dlcPromoPanelModel;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::DlcPromoExperimentModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xF10718
+    static_assert(sizeof(GlobalNamespace::DlcPromoPanelModel*) == 0x8);
+    // [InjectAttribute] Offset: 0xF460EC
     // private readonly AppStaticSettingsSO _appStaticSettings
     // Size: 0x8
     // Offset: 0xC8
     GlobalNamespace::AppStaticSettingsSO* appStaticSettings;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AppStaticSettingsSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xF10728
+    // [InjectAttribute] Offset: 0xF460FC
     // private readonly IAnalyticsModel _analyticsModel
     // Size: 0x8
     // Offset: 0xD0
@@ -242,13 +220,14 @@ namespace GlobalNamespace {
     System::Action_2<GlobalNamespace::MainMenuViewController*, GlobalNamespace::MainMenuViewController::MenuButton>* didFinishEvent;
     // Field size check
     static_assert(sizeof(System::Action_2<GlobalNamespace::MainMenuViewController*, GlobalNamespace::MainMenuViewController::MenuButton>*) == 0x8);
-    // private System.Action`1<IBeatmapLevelPack> musicPackPromoButtonWasPressedEvent
+    // private System.Action`2<IBeatmapLevelPack,IPreviewBeatmapLevel> musicPackPromoButtonWasPressedEvent
     // Size: 0x8
     // Offset: 0xE0
-    System::Action_1<GlobalNamespace::IBeatmapLevelPack*>* musicPackPromoButtonWasPressedEvent;
+    System::Action_2<GlobalNamespace::IBeatmapLevelPack*, GlobalNamespace::IPreviewBeatmapLevel*>* musicPackPromoButtonWasPressedEvent;
     // Field size check
-    static_assert(sizeof(System::Action_1<GlobalNamespace::IBeatmapLevelPack*>*) == 0x8);
-    public:
+    static_assert(sizeof(System::Action_2<GlobalNamespace::IBeatmapLevelPack*, GlobalNamespace::IPreviewBeatmapLevel*>*) == 0x8);
+    // Creating value type constructor for type: MainMenuViewController
+    MainMenuViewController(UnityEngine::UI::Button* soloButton_ = {}, UnityEngine::UI::Button* partyButton_ = {}, UnityEngine::UI::Button* campaignButton_ = {}, UnityEngine::UI::Button* quitButton_ = {}, UnityEngine::UI::Button* howToPlayButton_ = {}, UnityEngine::UI::Button* beatmapEditorButton_ = {}, UnityEngine::UI::Button* multiplayerButton_ = {}, UnityEngine::UI::Button* optionsButton_ = {}, UnityEngine::UI::Button* musicPackPromoButton_ = {}, GlobalNamespace::MusicPackPromoBanner* musicPackPromoBanner_ = {}, GlobalNamespace::DlcPromoPanelModel* dlcPromoPanelModel_ = {}, GlobalNamespace::AppStaticSettingsSO* appStaticSettings_ = {}, GlobalNamespace::IAnalyticsModel* analyticsModel_ = {}, System::Action_2<GlobalNamespace::MainMenuViewController*, GlobalNamespace::MainMenuViewController::MenuButton>* didFinishEvent_ = {}, System::Action_2<GlobalNamespace::IBeatmapLevelPack*, GlobalNamespace::IPreviewBeatmapLevel*>* musicPackPromoButtonWasPressedEvent_ = {}) noexcept : soloButton{soloButton_}, partyButton{partyButton_}, campaignButton{campaignButton_}, quitButton{quitButton_}, howToPlayButton{howToPlayButton_}, beatmapEditorButton{beatmapEditorButton_}, multiplayerButton{multiplayerButton_}, optionsButton{optionsButton_}, musicPackPromoButton{musicPackPromoButton_}, musicPackPromoBanner{musicPackPromoBanner_}, dlcPromoPanelModel{dlcPromoPanelModel_}, appStaticSettings{appStaticSettings_}, analyticsModel{analyticsModel_}, didFinishEvent{didFinishEvent_}, musicPackPromoButtonWasPressedEvent{musicPackPromoButtonWasPressedEvent_} {}
     // Get instance field reference: private UnityEngine.UI.Button _soloButton
     UnityEngine::UI::Button*& dyn__soloButton();
     // Get instance field reference: private UnityEngine.UI.Button _partyButton
@@ -269,60 +248,60 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button*& dyn__musicPackPromoButton();
     // Get instance field reference: private MusicPackPromoBanner _musicPackPromoBanner
     GlobalNamespace::MusicPackPromoBanner*& dyn__musicPackPromoBanner();
-    // Get instance field reference: private readonly DlcPromoExperimentModel _dlcPromoExperimentModel
-    GlobalNamespace::DlcPromoExperimentModel*& dyn__dlcPromoExperimentModel();
+    // Get instance field reference: private readonly DlcPromoPanelModel _dlcPromoPanelModel
+    GlobalNamespace::DlcPromoPanelModel*& dyn__dlcPromoPanelModel();
     // Get instance field reference: private readonly AppStaticSettingsSO _appStaticSettings
     GlobalNamespace::AppStaticSettingsSO*& dyn__appStaticSettings();
     // Get instance field reference: private readonly IAnalyticsModel _analyticsModel
     GlobalNamespace::IAnalyticsModel*& dyn__analyticsModel();
     // Get instance field reference: private System.Action`2<MainMenuViewController,MainMenuViewController/MenuButton> didFinishEvent
     System::Action_2<GlobalNamespace::MainMenuViewController*, GlobalNamespace::MainMenuViewController::MenuButton>*& dyn_didFinishEvent();
-    // Get instance field reference: private System.Action`1<IBeatmapLevelPack> musicPackPromoButtonWasPressedEvent
-    System::Action_1<GlobalNamespace::IBeatmapLevelPack*>*& dyn_musicPackPromoButtonWasPressedEvent();
+    // Get instance field reference: private System.Action`2<IBeatmapLevelPack,IPreviewBeatmapLevel> musicPackPromoButtonWasPressedEvent
+    System::Action_2<GlobalNamespace::IBeatmapLevelPack*, GlobalNamespace::IPreviewBeatmapLevel*>*& dyn_musicPackPromoButtonWasPressedEvent();
     // public System.Void add_didFinishEvent(System.Action`2<MainMenuViewController,MainMenuViewController/MenuButton> value)
-    // Offset: 0x125A608
+    // Offset: 0x135E688
     void add_didFinishEvent(System::Action_2<GlobalNamespace::MainMenuViewController*, GlobalNamespace::MainMenuViewController::MenuButton>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<MainMenuViewController,MainMenuViewController/MenuButton> value)
-    // Offset: 0x125ADEC
+    // Offset: 0x135EDFC
     void remove_didFinishEvent(System::Action_2<GlobalNamespace::MainMenuViewController*, GlobalNamespace::MainMenuViewController::MenuButton>* value);
-    // public System.Void add_musicPackPromoButtonWasPressedEvent(System.Action`1<IBeatmapLevelPack> value)
-    // Offset: 0x125A6AC
-    void add_musicPackPromoButtonWasPressedEvent(System::Action_1<GlobalNamespace::IBeatmapLevelPack*>* value);
-    // public System.Void remove_musicPackPromoButtonWasPressedEvent(System.Action`1<IBeatmapLevelPack> value)
-    // Offset: 0x125AE90
-    void remove_musicPackPromoButtonWasPressedEvent(System::Action_1<GlobalNamespace::IBeatmapLevelPack*>* value);
+    // public System.Void add_musicPackPromoButtonWasPressedEvent(System.Action`2<IBeatmapLevelPack,IPreviewBeatmapLevel> value)
+    // Offset: 0x135E72C
+    void add_musicPackPromoButtonWasPressedEvent(System::Action_2<GlobalNamespace::IBeatmapLevelPack*, GlobalNamespace::IPreviewBeatmapLevel*>* value);
+    // public System.Void remove_musicPackPromoButtonWasPressedEvent(System.Action`2<IBeatmapLevelPack,IPreviewBeatmapLevel> value)
+    // Offset: 0x135EEA0
+    void remove_musicPackPromoButtonWasPressedEvent(System::Action_2<GlobalNamespace::IBeatmapLevelPack*, GlobalNamespace::IPreviewBeatmapLevel*>* value);
     // private System.Void PackPromoButtonWasPressed()
-    // Offset: 0x125D05C
+    // Offset: 0x13615EC
     void PackPromoButtonWasPressed();
     // private System.Void HandleMenuButton(MainMenuViewController/MenuButton menuButton)
-    // Offset: 0x125D108
+    // Offset: 0x1361698
     void HandleMenuButton(GlobalNamespace::MainMenuViewController::MenuButton menuButton);
     // private System.Void <DidActivate>b__20_0()
-    // Offset: 0x125D298
+    // Offset: 0x1361828
     void $DidActivate$b__20_0();
     // private System.Void <DidActivate>b__20_1()
-    // Offset: 0x125D2A0
+    // Offset: 0x1361830
     void $DidActivate$b__20_1();
     // private System.Void <DidActivate>b__20_2()
-    // Offset: 0x125D2A8
+    // Offset: 0x1361838
     void $DidActivate$b__20_2();
     // private System.Void <DidActivate>b__20_3()
-    // Offset: 0x125D2B0
+    // Offset: 0x1361840
     void $DidActivate$b__20_3();
     // private System.Void <DidActivate>b__20_4()
-    // Offset: 0x125D2B8
+    // Offset: 0x1361848
     void $DidActivate$b__20_4();
     // private System.Void <DidActivate>b__20_5()
-    // Offset: 0x125D2C0
+    // Offset: 0x1361850
     void $DidActivate$b__20_5();
     // private System.Void <DidActivate>b__20_6()
-    // Offset: 0x125D2C8
+    // Offset: 0x1361858
     void $DidActivate$b__20_6();
     // private System.Void <DidActivate>b__20_7()
-    // Offset: 0x125D2D0
+    // Offset: 0x1361860
     void $DidActivate$b__20_7();
     // public System.Void .ctor()
-    // Offset: 0x125D290
+    // Offset: 0x1361820
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -336,18 +315,18 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MainMenuViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x125CBF0
+    // Offset: 0x1361180
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
   }; // MainMenuViewController
   #pragma pack(pop)
-  static check_size<sizeof(MainMenuViewController), 224 + sizeof(System::Action_1<GlobalNamespace::IBeatmapLevelPack*>*)> __GlobalNamespace_MainMenuViewControllerSizeCheck;
+  static check_size<sizeof(MainMenuViewController), 224 + sizeof(System::Action_2<GlobalNamespace::IBeatmapLevelPack*, GlobalNamespace::IPreviewBeatmapLevel*>*)> __GlobalNamespace_MainMenuViewControllerSizeCheck;
   static_assert(sizeof(MainMenuViewController) == 0xE8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainMenuViewController*, "", "MainMenuViewController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainMenuViewController::MenuButton, "", "MainMenuViewController/MenuButton");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MainMenuViewController::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
 template<>
@@ -369,18 +348,18 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MainMenuViewController::add_musicPackPromoButtonWasPressedEvent
 // Il2CppName: add_musicPackPromoButtonWasPressedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainMenuViewController::*)(System::Action_1<GlobalNamespace::IBeatmapLevelPack*>*)>(&GlobalNamespace::MainMenuViewController::add_musicPackPromoButtonWasPressedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainMenuViewController::*)(System::Action_2<GlobalNamespace::IBeatmapLevelPack*, GlobalNamespace::IPreviewBeatmapLevel*>*)>(&GlobalNamespace::MainMenuViewController::add_musicPackPromoButtonWasPressedEvent)> {
   static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "IBeatmapLevelPack")})->byval_arg;
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "IBeatmapLevelPack"), ::il2cpp_utils::GetClassFromName("", "IPreviewBeatmapLevel")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainMenuViewController*), "add_musicPackPromoButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MainMenuViewController::remove_musicPackPromoButtonWasPressedEvent
 // Il2CppName: remove_musicPackPromoButtonWasPressedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainMenuViewController::*)(System::Action_1<GlobalNamespace::IBeatmapLevelPack*>*)>(&GlobalNamespace::MainMenuViewController::remove_musicPackPromoButtonWasPressedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainMenuViewController::*)(System::Action_2<GlobalNamespace::IBeatmapLevelPack*, GlobalNamespace::IPreviewBeatmapLevel*>*)>(&GlobalNamespace::MainMenuViewController::remove_musicPackPromoButtonWasPressedEvent)> {
   static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "IBeatmapLevelPack")})->byval_arg;
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "IBeatmapLevelPack"), ::il2cpp_utils::GetClassFromName("", "IPreviewBeatmapLevel")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainMenuViewController*), "remove_musicPackPromoButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };

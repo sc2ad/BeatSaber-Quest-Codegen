@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.UI.Slider
 #include "UnityEngine/UI/Slider.hpp"
 // Including type: UnityEngine.Events.UnityEvent`1
 #include "UnityEngine/Events/UnityEvent_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: UnityEngine.UI
-namespace UnityEngine::UI {
-  // Forward declaring type: SliderEvent
-  class SliderEvent;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::UI::Slider::SliderEvent);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Slider::SliderEvent*, "UnityEngine.UI", "Slider/SliderEvent");
 // Type namespace: UnityEngine.UI
 namespace UnityEngine::UI {
   // WARNING Size may be invalid!
@@ -29,8 +21,10 @@ namespace UnityEngine::UI {
   // [TokenAttribute] Offset: FFFFFFFF
   class Slider::SliderEvent : public UnityEngine::Events::UnityEvent_1<float> {
     public:
+    // Creating value type constructor for type: SliderEvent
+    SliderEvent() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x25BC408
+    // Offset: 0x267EA5C
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent_1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()
@@ -42,7 +36,8 @@ namespace UnityEngine::UI {
     }
   }; // UnityEngine.UI.Slider/UnityEngine.UI.SliderEvent
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Slider::SliderEvent*, "UnityEngine.UI", "Slider/SliderEvent");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::Slider::SliderEvent::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

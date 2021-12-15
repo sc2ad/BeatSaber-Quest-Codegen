@@ -3,17 +3,10 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-// Type namespace: Valve.VR
-namespace Valve::VR {
-  // Forward declaring type: VREvent_Screenshot_t
-  struct VREvent_Screenshot_t;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VREvent_Screenshot_t, "Valve.VR", "VREvent_Screenshot_t");
 // Type namespace: Valve.VR
 namespace Valve::VR {
   // Size: 0x8
@@ -23,11 +16,6 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VREvent_Screenshot_t/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.UInt32 handle
     // Size: 0x4
     // Offset: 0x0
@@ -40,7 +28,6 @@ namespace Valve::VR {
     uint type;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
-    public:
     // Creating value type constructor for type: VREvent_Screenshot_t
     constexpr VREvent_Screenshot_t(uint handle_ = {}, uint type_ = {}) noexcept : handle{handle_}, type{type_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -56,4 +43,6 @@ namespace Valve::VR {
   static check_size<sizeof(VREvent_Screenshot_t), 4 + sizeof(uint)> __Valve_VR_VREvent_Screenshot_tSizeCheck;
   static_assert(sizeof(VREvent_Screenshot_t) == 0x8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VREvent_Screenshot_t, "Valve.VR", "VREvent_Screenshot_t");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

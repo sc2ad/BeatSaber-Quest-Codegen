@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.TimerThread
 #include "System/Net/TimerThread.hpp"
 // Including type: System.IDisposable
 #include "System/IDisposable.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Net
-namespace System::Net {
-  // Forward declaring type: Timer
-  class Timer;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::TimerThread::Timer);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::TimerThread::Timer*, "System.Net", "TimerThread/Timer");
 // Type namespace: System.Net
 namespace System::Net {
   // Size: 0x18
@@ -30,11 +22,6 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class TimerThread::Timer : public ::Il2CppObject/*, public System::IDisposable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private readonly System.Int32 m_StartTimeMilliseconds
     // Size: 0x4
     // Offset: 0x10
@@ -47,7 +34,8 @@ namespace System::Net {
     int m_DurationMilliseconds;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
+    // Creating value type constructor for type: Timer
+    Timer(int m_StartTimeMilliseconds_ = {}, int m_DurationMilliseconds_ = {}) noexcept : m_StartTimeMilliseconds{m_StartTimeMilliseconds_}, m_DurationMilliseconds{m_DurationMilliseconds_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
@@ -57,7 +45,7 @@ namespace System::Net {
     // Get instance field reference: private readonly System.Int32 m_DurationMilliseconds
     int& dyn_m_DurationMilliseconds();
     // System.Void .ctor(System.Int32 durationMilliseconds)
-    // Offset: 0x175B208
+    // Offset: 0x17E7444
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimerThread::Timer* New_ctor(int durationMilliseconds) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::TimerThread::Timer::.ctor");
@@ -67,14 +55,15 @@ namespace System::Net {
     // Offset: 0xFFFFFFFF
     bool Cancel();
     // public System.Void Dispose()
-    // Offset: 0x175B240
+    // Offset: 0x17E747C
     void Dispose();
   }; // System.Net.TimerThread/System.Net.Timer
   #pragma pack(pop)
   static check_size<sizeof(TimerThread::Timer), 20 + sizeof(int)> __System_Net_TimerThread_TimerSizeCheck;
   static_assert(sizeof(TimerThread::Timer) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::TimerThread::Timer*, "System.Net", "TimerThread/Timer");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::TimerThread::Timer::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

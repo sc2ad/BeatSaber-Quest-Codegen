@@ -3,20 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Networking.UnityWebRequest
 #include "UnityEngine/Networking/UnityWebRequest.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: UnityEngine.Networking
-namespace UnityEngine::Networking {
-  // Forward declaring type: UnityWebRequestError
-  struct UnityWebRequestError;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::UnityWebRequest::UnityWebRequestError, "UnityEngine.Networking", "UnityWebRequest/UnityWebRequestError");
 // Type namespace: UnityEngine.Networking
 namespace UnityEngine::Networking {
   // Size: 0x4
@@ -25,18 +18,12 @@ namespace UnityEngine::Networking {
   // [TokenAttribute] Offset: FFFFFFFF
   struct UnityWebRequest::UnityWebRequestError/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: UnityWebRequestError
     constexpr UnityWebRequestError(int value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -228,4 +215,6 @@ namespace UnityEngine::Networking {
   static check_size<sizeof(UnityWebRequest::UnityWebRequestError), 0 + sizeof(int)> __UnityEngine_Networking_UnityWebRequest_UnityWebRequestErrorSizeCheck;
   static_assert(sizeof(UnityWebRequest::UnityWebRequestError) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::UnityWebRequest::UnityWebRequestError, "UnityEngine.Networking", "UnityWebRequest/UnityWebRequestError");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

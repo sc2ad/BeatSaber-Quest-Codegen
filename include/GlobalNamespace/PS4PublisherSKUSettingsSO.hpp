@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PersistentScriptableObject
 #include "GlobalNamespace/PersistentScriptableObject.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: PS4PublisherSKUSettingsSO
-  class PS4PublisherSKUSettingsSO;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::PS4PublisherSKUSettingsSO);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4PublisherSKUSettingsSO*, "", "PS4PublisherSKUSettingsSO");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x3C
@@ -28,11 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PS4PublisherSKUSettingsSO : public GlobalNamespace::PersistentScriptableObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.String _skuName
     // Size: 0x8
     // Offset: 0x18
@@ -65,7 +52,8 @@ namespace GlobalNamespace {
     int defaultAgeRestriction;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
+    // Creating value type constructor for type: PS4PublisherSKUSettingsSO
+    PS4PublisherSKUSettingsSO(::Il2CppString* skuName_ = {}, ::Il2CppString* contentId_ = {}, int parentalLockLevel_ = {}, ::Il2CppString* npTitleFilenamePath_ = {}, int defaultAgeRestriction_ = {}) noexcept : skuName{skuName_}, contentId{contentId_}, parentalLockLevel{parentalLockLevel_}, npTitleFilenamePath{npTitleFilenamePath_}, defaultAgeRestriction{defaultAgeRestriction_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _skuName
@@ -79,22 +67,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _defaultAgeRestriction
     int& dyn__defaultAgeRestriction();
     // public System.String get_skuName()
-    // Offset: 0x110CAA0
+    // Offset: 0x11482AC
     ::Il2CppString* get_skuName();
     // public System.String get_contentId()
-    // Offset: 0x110CAA8
+    // Offset: 0x11482B4
     ::Il2CppString* get_contentId();
     // public System.Int32 get_parentalLockLevel()
-    // Offset: 0x110CAB0
+    // Offset: 0x11482BC
     int get_parentalLockLevel();
     // public System.String get_npTitleFilenamePath()
-    // Offset: 0x110CAB8
+    // Offset: 0x11482C4
     ::Il2CppString* get_npTitleFilenamePath();
     // public System.Int32 get_defaultAgeRestriction()
-    // Offset: 0x110CAC0
+    // Offset: 0x11482CC
     int get_defaultAgeRestriction();
     // public System.Void .ctor()
-    // Offset: 0x110CAC8
+    // Offset: 0x11482D4
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -110,7 +98,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(PS4PublisherSKUSettingsSO), 56 + sizeof(int)> __GlobalNamespace_PS4PublisherSKUSettingsSOSizeCheck;
   static_assert(sizeof(PS4PublisherSKUSettingsSO) == 0x3C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4PublisherSKUSettingsSO*, "", "PS4PublisherSKUSettingsSO");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PS4PublisherSKUSettingsSO::get_skuName
 // Il2CppName: get_skuName
 template<>

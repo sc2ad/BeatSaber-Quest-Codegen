@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.EventSystems.PointerInputModule
 #include "UnityEngine/EventSystems/PointerInputModule.hpp"
 // Including type: UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.InputButton
 #include "UnityEngine/EventSystems/PointerEventData.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: UnityEngine.EventSystems
-namespace UnityEngine::EventSystems {
-  // Forward declaring type: ButtonState
-  class ButtonState;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::EventSystems::PointerInputModule::ButtonState);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::PointerInputModule::ButtonState*, "UnityEngine.EventSystems", "PointerInputModule/ButtonState");
 // Type namespace: UnityEngine.EventSystems
 namespace UnityEngine::EventSystems {
   // Size: 0x20
@@ -30,11 +22,6 @@ namespace UnityEngine::EventSystems {
   // [TokenAttribute] Offset: FFFFFFFF
   class PointerInputModule::ButtonState : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.InputButton m_Button
     // Size: 0x4
     // Offset: 0x10
@@ -49,25 +36,26 @@ namespace UnityEngine::EventSystems {
     UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData* m_EventData;
     // Field size check
     static_assert(sizeof(UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData*) == 0x8);
-    public:
+    // Creating value type constructor for type: ButtonState
+    ButtonState(UnityEngine::EventSystems::PointerEventData::InputButton m_Button_ = {}, UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData* m_EventData_ = {}) noexcept : m_Button{m_Button_}, m_EventData{m_EventData_} {}
     // Get instance field reference: private UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.InputButton m_Button
     UnityEngine::EventSystems::PointerEventData::InputButton& dyn_m_Button();
     // Get instance field reference: private UnityEngine.EventSystems.PointerInputModule/UnityEngine.EventSystems.MouseButtonEventData m_EventData
     UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData*& dyn_m_EventData();
     // public UnityEngine.EventSystems.PointerInputModule/UnityEngine.EventSystems.MouseButtonEventData get_eventData()
-    // Offset: 0x15D976C
+    // Offset: 0x1668A60
     UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData* get_eventData();
     // public System.Void set_eventData(UnityEngine.EventSystems.PointerInputModule/UnityEngine.EventSystems.MouseButtonEventData value)
-    // Offset: 0x15D9774
+    // Offset: 0x1668A68
     void set_eventData(UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData* value);
     // public UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.InputButton get_button()
-    // Offset: 0x15D977C
+    // Offset: 0x1668A70
     UnityEngine::EventSystems::PointerEventData::InputButton get_button();
     // public System.Void set_button(UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.InputButton value)
-    // Offset: 0x15D9784
+    // Offset: 0x1668A78
     void set_button(UnityEngine::EventSystems::PointerEventData::InputButton value);
     // public System.Void .ctor()
-    // Offset: 0x15D978C
+    // Offset: 0x1668A80
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -80,7 +68,8 @@ namespace UnityEngine::EventSystems {
   static check_size<sizeof(PointerInputModule::ButtonState), 24 + sizeof(UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData*)> __UnityEngine_EventSystems_PointerInputModule_ButtonStateSizeCheck;
   static_assert(sizeof(PointerInputModule::ButtonState) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::PointerInputModule::ButtonState*, "UnityEngine.EventSystems", "PointerInputModule/ButtonState");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::EventSystems::PointerInputModule::ButtonState::get_eventData
 // Il2CppName: get_eventData
 template<>

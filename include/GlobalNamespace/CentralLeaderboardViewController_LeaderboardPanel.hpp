@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: CentralLeaderboardViewController
 #include "GlobalNamespace/CentralLeaderboardViewController.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: LeaderboardPanel
-  class LeaderboardPanel;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel*, "", "CentralLeaderboardViewController/LeaderboardPanel");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x21
@@ -28,11 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class CentralLeaderboardViewController::LeaderboardPanel : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public readonly System.String title
     // Size: 0x8
     // Offset: 0x10
@@ -51,7 +38,8 @@ namespace GlobalNamespace {
     bool mixed;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: LeaderboardPanel
+    LeaderboardPanel(::Il2CppString* title_ = {}, ::Il2CppString* hint_ = {}, bool mixed_ = {}) noexcept : title{title_}, hint{hint_}, mixed{mixed_} {}
     // Get instance field reference: public readonly System.String title
     ::Il2CppString*& dyn_title();
     // Get instance field reference: public readonly System.String hint
@@ -59,7 +47,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Boolean mixed
     bool& dyn_mixed();
     // public System.Void .ctor(System.String title, System.String hint, System.Boolean mixed)
-    // Offset: 0x112B924
+    // Offset: 0x1186D1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CentralLeaderboardViewController::LeaderboardPanel* New_ctor(::Il2CppString* title, ::Il2CppString* hint, bool mixed) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel::.ctor");
@@ -70,7 +58,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(CentralLeaderboardViewController::LeaderboardPanel), 32 + sizeof(bool)> __GlobalNamespace_CentralLeaderboardViewController_LeaderboardPanelSizeCheck;
   static_assert(sizeof(CentralLeaderboardViewController::LeaderboardPanel) == 0x21);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel*, "", "CentralLeaderboardViewController/LeaderboardPanel");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

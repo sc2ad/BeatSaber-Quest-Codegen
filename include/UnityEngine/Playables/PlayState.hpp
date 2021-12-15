@@ -3,18 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: UnityEngine.Playables
-namespace UnityEngine::Playables {
-  // Forward declaring type: PlayState
-  struct PlayState;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayState, "UnityEngine.Playables", "PlayState");
 // Type namespace: UnityEngine.Playables
 namespace UnityEngine::Playables {
   // Size: 0x4
@@ -23,18 +16,12 @@ namespace UnityEngine::Playables {
   // [TokenAttribute] Offset: FFFFFFFF
   struct PlayState/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: PlayState
     constexpr PlayState(int value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -57,7 +44,7 @@ namespace UnityEngine::Playables {
     static UnityEngine::Playables::PlayState _get_Playing();
     // Set static field: static public UnityEngine.Playables.PlayState Playing
     static void _set_Playing(UnityEngine::Playables::PlayState value);
-    // [ObsoleteAttribute] Offset: 0xE7A0A8
+    // [ObsoleteAttribute] Offset: 0xEB9CB4
     // static field const value: static public UnityEngine.Playables.PlayState Delayed
     static constexpr const int Delayed = 2;
     // Get static field: static public UnityEngine.Playables.PlayState Delayed
@@ -71,4 +58,6 @@ namespace UnityEngine::Playables {
   static check_size<sizeof(PlayState), 0 + sizeof(int)> __UnityEngine_Playables_PlayStateSizeCheck;
   static_assert(sizeof(PlayState) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayState, "UnityEngine.Playables", "PlayState");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

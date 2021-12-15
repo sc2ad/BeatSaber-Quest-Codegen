@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PersistentScriptableObject
 #include "GlobalNamespace/PersistentScriptableObject.hpp"
 // Including type: Tweening.EaseType
 #include "Tweening/EaseType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: TransitionTimingSO
-  class TransitionTimingSO;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::TransitionTimingSO);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TransitionTimingSO*, "", "TransitionTimingSO");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -30,11 +22,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TransitionTimingSO : public GlobalNamespace::PersistentScriptableObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private Tweening.EaseType _easeType
     // Size: 0x4
     // Offset: 0x18
@@ -47,7 +34,8 @@ namespace GlobalNamespace {
     float easeDuration;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
+    // Creating value type constructor for type: TransitionTimingSO
+    TransitionTimingSO(Tweening::EaseType easeType_ = {}, float easeDuration_ = {}) noexcept : easeType{easeType_}, easeDuration{easeDuration_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private Tweening.EaseType _easeType
@@ -55,13 +43,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _easeDuration
     float& dyn__easeDuration();
     // public Tweening.EaseType get_easeType()
-    // Offset: 0x115FFAC
+    // Offset: 0x1205E78
     Tweening::EaseType get_easeType();
     // public System.Single get_easeDuration()
-    // Offset: 0x115FFB4
+    // Offset: 0x1205E80
     float get_easeDuration();
     // public System.Void .ctor()
-    // Offset: 0x115FFBC
+    // Offset: 0x1205E88
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -77,7 +65,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(TransitionTimingSO), 28 + sizeof(float)> __GlobalNamespace_TransitionTimingSOSizeCheck;
   static_assert(sizeof(TransitionTimingSO) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TransitionTimingSO*, "", "TransitionTimingSO");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TransitionTimingSO::get_easeType
 // Il2CppName: get_easeType
 template<>

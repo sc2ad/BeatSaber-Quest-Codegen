@@ -3,22 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Runtime.Serialization.Formatters.Binary
-namespace System::Runtime::Serialization::Formatters::Binary {
-  // Forward declaring type: SerStack
-  class SerStack;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::SerStack);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::SerStack*, "System.Runtime.Serialization.Formatters.Binary", "SerStack");
 // Type namespace: System.Runtime.Serialization.Formatters.Binary
 namespace System::Runtime::Serialization::Formatters::Binary {
   // Size: 0x24
@@ -27,17 +18,12 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   // [TokenAttribute] Offset: FFFFFFFF
   class SerStack : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // System.Object[] objects
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<::Il2CppObject*> objects;
+    ::Array<::Il2CppObject*>* objects;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppObject*>) == 0x8);
+    static_assert(sizeof(::Array<::Il2CppObject*>*) == 0x8);
     // System.String stackId
     // Size: 0x8
     // Offset: 0x18
@@ -50,44 +36,46 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     int top;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
+    // Creating value type constructor for type: SerStack
+    SerStack(::Array<::Il2CppObject*>* objects_ = {}, ::Il2CppString* stackId_ = {}, int top_ = {}) noexcept : objects{objects_}, stackId{stackId_}, top{top_} {}
     // Get instance field reference: System.Object[] objects
-    ::ArrayW<::Il2CppObject*>& dyn_objects();
+    ::Array<::Il2CppObject*>*& dyn_objects();
     // Get instance field reference: System.String stackId
     ::Il2CppString*& dyn_stackId();
     // Get instance field reference: System.Int32 top
     int& dyn_top();
     // System.Void .ctor(System.String stackId)
-    // Offset: 0x17D392C
+    // Offset: 0x1862240
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SerStack* New_ctor(::Il2CppString* stackId) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::SerStack::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SerStack*, creationType>(stackId)));
     }
     // System.Void Push(System.Object obj)
-    // Offset: 0x17D53C4
+    // Offset: 0x1863CD8
     void Push(::Il2CppObject* obj);
     // System.Object Pop()
-    // Offset: 0x17D547C
+    // Offset: 0x1863D90
     ::Il2CppObject* Pop();
     // System.Void IncreaseCapacity()
-    // Offset: 0x17DABC0
+    // Offset: 0x18694D4
     void IncreaseCapacity();
     // System.Object Peek()
-    // Offset: 0x17D5B34
+    // Offset: 0x1864448
     ::Il2CppObject* Peek();
     // System.Object PeekPeek()
-    // Offset: 0x17DAC50
+    // Offset: 0x1869564
     ::Il2CppObject* PeekPeek();
     // System.Boolean IsEmpty()
-    // Offset: 0x17D9FC8
+    // Offset: 0x18688DC
     bool IsEmpty();
   }; // System.Runtime.Serialization.Formatters.Binary.SerStack
   #pragma pack(pop)
   static check_size<sizeof(SerStack), 32 + sizeof(int)> __System_Runtime_Serialization_Formatters_Binary_SerStackSizeCheck;
   static_assert(sizeof(SerStack) == 0x24);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::SerStack*, "System.Runtime.Serialization.Formatters.Binary", "SerStack");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::SerStack::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

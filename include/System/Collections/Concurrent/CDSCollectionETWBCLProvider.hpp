@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Diagnostics.Tracing.EventSource
 #include "System/Diagnostics/Tracing/EventSource.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Collections.Concurrent
-namespace System::Collections::Concurrent {
-  // Forward declaring type: CDSCollectionETWBCLProvider
-  class CDSCollectionETWBCLProvider;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Collections::Concurrent::CDSCollectionETWBCLProvider);
-DEFINE_IL2CPP_ARG_TYPE(System::Collections::Concurrent::CDSCollectionETWBCLProvider*, "System.Collections.Concurrent", "CDSCollectionETWBCLProvider");
 // Type namespace: System.Collections.Concurrent
 namespace System::Collections::Concurrent {
   // Size: 0x10
@@ -28,15 +20,17 @@ namespace System::Collections::Concurrent {
   // [TokenAttribute] Offset: FFFFFFFF
   class CDSCollectionETWBCLProvider : public System::Diagnostics::Tracing::EventSource {
     public:
+    // Creating value type constructor for type: CDSCollectionETWBCLProvider
+    CDSCollectionETWBCLProvider() noexcept {}
     // Get static field: static public System.Collections.Concurrent.CDSCollectionETWBCLProvider Log
     static System::Collections::Concurrent::CDSCollectionETWBCLProvider* _get_Log();
     // Set static field: static public System.Collections.Concurrent.CDSCollectionETWBCLProvider Log
     static void _set_Log(System::Collections::Concurrent::CDSCollectionETWBCLProvider* value);
     // public System.Void ConcurrentDictionary_AcquiringAllLocks(System.Int32 numOfBuckets)
-    // Offset: 0x197FAA4
+    // Offset: 0x199E154
     void ConcurrentDictionary_AcquiringAllLocks(int numOfBuckets);
     // private System.Void .ctor()
-    // Offset: 0x197FA3C
+    // Offset: 0x199E0EC
     // Implemented from: System.Diagnostics.Tracing.EventSource
     // Base method: System.Void EventSource::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -46,14 +40,15 @@ namespace System::Collections::Concurrent {
       return THROW_UNLESS((::il2cpp_utils::New<CDSCollectionETWBCLProvider*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x197FAA8
+    // Offset: 0x199E158
     // Implemented from: System.Diagnostics.Tracing.EventSource
     // Base method: System.Void EventSource::.cctor()
     static void _cctor();
   }; // System.Collections.Concurrent.CDSCollectionETWBCLProvider
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Collections::Concurrent::CDSCollectionETWBCLProvider*, "System.Collections.Concurrent", "CDSCollectionETWBCLProvider");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::Concurrent::CDSCollectionETWBCLProvider::ConcurrentDictionary_AcquiringAllLocks
 // Il2CppName: ConcurrentDictionary_AcquiringAllLocks
 template<>

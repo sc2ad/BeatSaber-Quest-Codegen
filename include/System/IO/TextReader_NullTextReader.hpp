@@ -3,24 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IO.TextReader
 #include "System/IO/TextReader.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.IO
-namespace System::IO {
-  // Forward declaring type: NullTextReader
-  class NullTextReader;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::IO::TextReader::NullTextReader);
-DEFINE_IL2CPP_ARG_TYPE(System::IO::TextReader::NullTextReader*, "System.IO", "TextReader/NullTextReader");
 // Type namespace: System.IO
 namespace System::IO {
   // Size: 0x18
@@ -29,8 +20,10 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   class TextReader::NullTextReader : public System::IO::TextReader {
     public:
+    // Creating value type constructor for type: NullTextReader
+    NullTextReader() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x19EBAA4
+    // Offset: 0x1A0A154
     // Implemented from: System.IO.TextReader
     // Base method: System.Void TextReader::.ctor()
     // Base method: System.Void MarshalByRefObject::.ctor()
@@ -41,19 +34,20 @@ namespace System::IO {
       return THROW_UNLESS((::il2cpp_utils::New<TextReader::NullTextReader*, creationType>()));
     }
     // public override System.Int32 Read(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x19EBCCC
+    // Offset: 0x1A0A37C
     // Implemented from: System.IO.TextReader
     // Base method: System.Int32 TextReader::Read(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    int Read(::ArrayW<::Il2CppChar> buffer, int index, int count);
+    int Read(::Array<::Il2CppChar>* buffer, int index, int count);
     // public override System.String ReadLine()
-    // Offset: 0x19EBCD4
+    // Offset: 0x1A0A384
     // Implemented from: System.IO.TextReader
     // Base method: System.String TextReader::ReadLine()
     ::Il2CppString* ReadLine();
   }; // System.IO.TextReader/System.IO.NullTextReader
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::IO::TextReader::NullTextReader*, "System.IO", "TextReader/NullTextReader");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::TextReader::NullTextReader::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -61,7 +55,7 @@ namespace System::IO {
 // Writing MetadataGetter for method: System::IO::TextReader::NullTextReader::Read
 // Il2CppName: Read
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::TextReader::NullTextReader::*)(::ArrayW<::Il2CppChar>, int, int)>(&System::IO::TextReader::NullTextReader::Read)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::TextReader::NullTextReader::*)(::Array<::Il2CppChar>*, int, int)>(&System::IO::TextReader::NullTextReader::Read)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

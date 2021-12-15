@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.AddressableAssets.Initialization.CacheInitialization
 #include "UnityEngine/AddressableAssets/Initialization/CacheInitialization.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: UnityEngine.AddressableAssets.Initialization
-namespace UnityEngine::AddressableAssets::Initialization {
-  // Forward declaring type: <>c__DisplayClass1_0
-  class $$c__DisplayClass1_0;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::AddressableAssets::Initialization::CacheInitialization::$$c__DisplayClass1_0);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Initialization::CacheInitialization::$$c__DisplayClass1_0*, "UnityEngine.AddressableAssets.Initialization", "CacheInitialization/<>c__DisplayClass1_0");
 // Type namespace: UnityEngine.AddressableAssets.Initialization
 namespace UnityEngine::AddressableAssets::Initialization {
   // Size: 0x28
@@ -29,11 +21,6 @@ namespace UnityEngine::AddressableAssets::Initialization {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class CacheInitialization::$$c__DisplayClass1_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public UnityEngine.AddressableAssets.Initialization.CacheInitialization <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -52,7 +39,8 @@ namespace UnityEngine::AddressableAssets::Initialization {
     ::Il2CppString* data;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: $$c__DisplayClass1_0
+    $$c__DisplayClass1_0(UnityEngine::AddressableAssets::Initialization::CacheInitialization* $$4__this_ = {}, ::Il2CppString* id_ = {}, ::Il2CppString* data_ = {}) noexcept : $$4__this{$$4__this_}, id{id_}, data{data_} {}
     // Get instance field reference: public UnityEngine.AddressableAssets.Initialization.CacheInitialization <>4__this
     UnityEngine::AddressableAssets::Initialization::CacheInitialization*& dyn_$$4__this();
     // Get instance field reference: public System.String id
@@ -60,10 +48,10 @@ namespace UnityEngine::AddressableAssets::Initialization {
     // Get instance field reference: public System.String data
     ::Il2CppString*& dyn_data();
     // System.Boolean <InitializeAsync>b__0()
-    // Offset: 0x1582678
+    // Offset: 0x160F96C
     bool $InitializeAsync$b__0();
     // public System.Void .ctor()
-    // Offset: 0x1582588
+    // Offset: 0x160F87C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -76,7 +64,8 @@ namespace UnityEngine::AddressableAssets::Initialization {
   static check_size<sizeof(CacheInitialization::$$c__DisplayClass1_0), 32 + sizeof(::Il2CppString*)> __UnityEngine_AddressableAssets_Initialization_CacheInitialization_$$c__DisplayClass1_0SizeCheck;
   static_assert(sizeof(CacheInitialization::$$c__DisplayClass1_0) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Initialization::CacheInitialization::$$c__DisplayClass1_0*, "UnityEngine.AddressableAssets.Initialization", "CacheInitialization/<>c__DisplayClass1_0");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Initialization::CacheInitialization::$$c__DisplayClass1_0::$InitializeAsync$b__0
 // Il2CppName: <InitializeAsync>b__0
 template<>

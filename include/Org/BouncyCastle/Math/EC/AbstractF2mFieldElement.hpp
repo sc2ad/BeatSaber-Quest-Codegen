@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Math.EC.ECFieldElement
 #include "Org/BouncyCastle/Math/EC/ECFieldElement.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Org.BouncyCastle.Math.EC
-namespace Org::BouncyCastle::Math::EC {
-  // Forward declaring type: AbstractF2mFieldElement
-  class AbstractF2mFieldElement;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Math::EC::AbstractF2mFieldElement);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::AbstractF2mFieldElement*, "Org.BouncyCastle.Math.EC", "AbstractF2mFieldElement");
 // Type namespace: Org.BouncyCastle.Math.EC
 namespace Org::BouncyCastle::Math::EC {
   // Size: 0x10
@@ -28,17 +20,19 @@ namespace Org::BouncyCastle::Math::EC {
   // [TokenAttribute] Offset: FFFFFFFF
   class AbstractF2mFieldElement : public Org::BouncyCastle::Math::EC::ECFieldElement {
     public:
+    // Creating value type constructor for type: AbstractF2mFieldElement
+    AbstractF2mFieldElement() noexcept {}
     // public System.Boolean get_HasFastTrace()
-    // Offset: 0x1F3D21C
+    // Offset: 0x1F30250
     bool get_HasFastTrace();
     // public Org.BouncyCastle.Math.EC.ECFieldElement HalfTrace()
-    // Offset: 0x1F3D0C4
+    // Offset: 0x1F300F8
     Org::BouncyCastle::Math::EC::ECFieldElement* HalfTrace();
     // public System.Int32 Trace()
-    // Offset: 0x1F3D224
+    // Offset: 0x1F30258
     int Trace();
     // protected System.Void .ctor()
-    // Offset: 0x1F3D390
+    // Offset: 0x1F303C4
     // Implemented from: Org.BouncyCastle.Math.EC.ECFieldElement
     // Base method: System.Void ECFieldElement::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -50,7 +44,8 @@ namespace Org::BouncyCastle::Math::EC {
   }; // Org.BouncyCastle.Math.EC.AbstractF2mFieldElement
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::AbstractF2mFieldElement*, "Org.BouncyCastle.Math.EC", "AbstractF2mFieldElement");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::AbstractF2mFieldElement::get_HasFastTrace
 // Il2CppName: get_HasFastTrace
 template<>

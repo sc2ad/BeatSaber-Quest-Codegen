@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Oculus.Platform
-namespace Oculus::Platform {
-  // Forward declaring type: InviteOptions
-  class InviteOptions;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::InviteOptions);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::InviteOptions*, "Oculus.Platform", "InviteOptions");
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
   // Size: 0x18
@@ -28,18 +20,14 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class InviteOptions : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.IntPtr Handle
     // Size: 0x8
     // Offset: 0x10
     System::IntPtr Handle;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
-    public:
+    // Creating value type constructor for type: InviteOptions
+    InviteOptions(System::IntPtr Handle_ = {}) noexcept : Handle{Handle_} {}
     // Creating conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept {
       return Handle;
@@ -47,16 +35,16 @@ namespace Oculus::Platform {
     // Get instance field reference: private System.IntPtr Handle
     System::IntPtr& dyn_Handle();
     // public System.Void AddSuggestedUser(System.UInt64 userID)
-    // Offset: 0x1691FA4
+    // Offset: 0x174F3C0
     void AddSuggestedUser(uint64_t userID);
     // public System.Void ClearSuggestedUsers()
-    // Offset: 0x1692020
+    // Offset: 0x174F43C
     void ClearSuggestedUsers();
     // static public System.IntPtr op_Explicit(Oculus.Platform.InviteOptions options)
-    // Offset: 0x1690A94
+    // Offset: 0x174DEB0
     // ABORTED: conflicts with another method.  explicit operator System::IntPtr();
     // public System.Void .ctor()
-    // Offset: 0x1691F2C
+    // Offset: 0x174F348
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -65,7 +53,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<InviteOptions*, creationType>()));
     }
     // protected override System.Void Finalize()
-    // Offset: 0x169208C
+    // Offset: 0x174F4A8
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
@@ -74,7 +62,8 @@ namespace Oculus::Platform {
   static check_size<sizeof(InviteOptions), 16 + sizeof(System::IntPtr)> __Oculus_Platform_InviteOptionsSizeCheck;
   static_assert(sizeof(InviteOptions) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::InviteOptions*, "Oculus.Platform", "InviteOptions");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::InviteOptions::AddSuggestedUser
 // Il2CppName: AddSuggestedUser
 template<>

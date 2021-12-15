@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Animation
 #include "UnityEngine/Animation.hpp"
 // Including type: System.Collections.IEnumerator
 #include "System/Collections/IEnumerator.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: Enumerator
-  class Enumerator;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Animation::Enumerator);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animation::Enumerator*, "UnityEngine", "Animation/Enumerator");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x1C
@@ -30,11 +22,6 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class Animation::Enumerator : public ::Il2CppObject/*, public System::Collections::IEnumerator*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private UnityEngine.Animation m_Outer
     // Size: 0x8
     // Offset: 0x10
@@ -47,7 +34,8 @@ namespace UnityEngine {
     int m_CurrentIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
+    // Creating value type constructor for type: Enumerator
+    Enumerator(UnityEngine::Animation* m_Outer_ = {}, int m_CurrentIndex_ = {}) noexcept : m_Outer{m_Outer_}, m_CurrentIndex{m_CurrentIndex_} {}
     // Creating interface conversion operator: operator System::Collections::IEnumerator
     operator System::Collections::IEnumerator() noexcept {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);
@@ -57,27 +45,28 @@ namespace UnityEngine {
     // Get instance field reference: private System.Int32 m_CurrentIndex
     int& dyn_m_CurrentIndex();
     // public System.Object get_Current()
-    // Offset: 0x2571F78
+    // Offset: 0x2633724
     ::Il2CppObject* get_Current();
     // System.Void .ctor(UnityEngine.Animation outer)
-    // Offset: 0x2571E74
+    // Offset: 0x2633620
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Animation::Enumerator* New_ctor(UnityEngine::Animation* outer) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Animation::Enumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Animation::Enumerator*, creationType>(outer)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x2571FD0
+    // Offset: 0x263377C
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x257203C
+    // Offset: 0x26337E8
     void Reset();
   }; // UnityEngine.Animation/UnityEngine.Enumerator
   #pragma pack(pop)
   static check_size<sizeof(Animation::Enumerator), 24 + sizeof(int)> __UnityEngine_Animation_EnumeratorSizeCheck;
   static_assert(sizeof(Animation::Enumerator) == 0x1C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animation::Enumerator*, "UnityEngine", "Animation/Enumerator");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Animation::Enumerator::get_Current
 // Il2CppName: get_Current
 template<>

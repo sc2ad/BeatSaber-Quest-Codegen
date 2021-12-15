@@ -3,26 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Crypto.IDigest
 #include "Org/BouncyCastle/Crypto/IDigest.hpp"
 // Including type: Org.BouncyCastle.Utilities.IMemoable
 #include "Org/BouncyCastle/Utilities/IMemoable.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Org.BouncyCastle.Crypto.Digests
-namespace Org::BouncyCastle::Crypto::Digests {
-  // Forward declaring type: KeccakDigest
-  class KeccakDigest;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Crypto::Digests::KeccakDigest);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::KeccakDigest*, "Org.BouncyCastle.Crypto.Digests", "KeccakDigest");
 // Type namespace: Org.BouncyCastle.Crypto.Digests
 namespace Org::BouncyCastle::Crypto::Digests {
   // Size: 0x2D
@@ -31,23 +22,18 @@ namespace Org::BouncyCastle::Crypto::Digests {
   // [TokenAttribute] Offset: FFFFFFFF
   class KeccakDigest : public ::Il2CppObject/*, public Org::BouncyCastle::Crypto::IDigest, public Org::BouncyCastle::Utilities::IMemoable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.UInt64[] state
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<uint64_t> state;
+    ::Array<uint64_t>* state;
     // Field size check
-    static_assert(sizeof(::ArrayW<uint64_t>) == 0x8);
+    static_assert(sizeof(::Array<uint64_t>*) == 0x8);
     // protected System.Byte[] dataQueue
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayW<uint8_t> dataQueue;
+    ::Array<uint8_t>* dataQueue;
     // Field size check
-    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
+    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
     // protected System.Int32 rate
     // Size: 0x4
     // Offset: 0x20
@@ -72,7 +58,8 @@ namespace Org::BouncyCastle::Crypto::Digests {
     bool squeezing;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: KeccakDigest
+    KeccakDigest(::Array<uint64_t>* state_ = {}, ::Array<uint8_t>* dataQueue_ = {}, int rate_ = {}, int bitsInQueue_ = {}, int fixedOutputLength_ = {}, bool squeezing_ = {}) noexcept : state{state_}, dataQueue{dataQueue_}, rate{rate_}, bitsInQueue{bitsInQueue_}, fixedOutputLength{fixedOutputLength_}, squeezing{squeezing_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IDigest
     operator Org::BouncyCastle::Crypto::IDigest() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IDigest*>(this);
@@ -82,13 +69,13 @@ namespace Org::BouncyCastle::Crypto::Digests {
       return *reinterpret_cast<Org::BouncyCastle::Utilities::IMemoable*>(this);
     }
     // Get static field: static private readonly System.UInt64[] KeccakRoundConstants
-    static ::ArrayW<uint64_t> _get_KeccakRoundConstants();
+    static ::Array<uint64_t>* _get_KeccakRoundConstants();
     // Set static field: static private readonly System.UInt64[] KeccakRoundConstants
-    static void _set_KeccakRoundConstants(::ArrayW<uint64_t> value);
+    static void _set_KeccakRoundConstants(::Array<uint64_t>* value);
     // Get instance field reference: private System.UInt64[] state
-    ::ArrayW<uint64_t>& dyn_state();
+    ::Array<uint64_t>*& dyn_state();
     // Get instance field reference: protected System.Byte[] dataQueue
-    ::ArrayW<uint8_t>& dyn_dataQueue();
+    ::Array<uint8_t>*& dyn_dataQueue();
     // Get instance field reference: protected System.Int32 rate
     int& dyn_rate();
     // Get instance field reference: protected System.Int32 bitsInQueue
@@ -98,88 +85,89 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Get instance field reference: protected System.Boolean squeezing
     bool& dyn_squeezing();
     // public System.String get_AlgorithmName()
-    // Offset: 0x1EE899C
+    // Offset: 0x1EDC2E8
     ::Il2CppString* get_AlgorithmName();
     // public System.Void .ctor(System.Int32 bitLength)
-    // Offset: 0x1EE8718
+    // Offset: 0x1EDC064
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KeccakDigest* New_ctor(int bitLength) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Digests::KeccakDigest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KeccakDigest*, creationType>(bitLength)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Digests.KeccakDigest source)
-    // Offset: 0x1EE8884
+    // Offset: 0x1EDC1D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KeccakDigest* New_ctor(Org::BouncyCastle::Crypto::Digests::KeccakDigest* source) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Digests::KeccakDigest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KeccakDigest*, creationType>(source)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1EE9A3C
+    // Offset: 0x1EDD388
     static void _cctor();
     // private System.Void CopyIn(Org.BouncyCastle.Crypto.Digests.KeccakDigest source)
-    // Offset: 0x1EE8914
+    // Offset: 0x1EDC260
     void CopyIn(Org::BouncyCastle::Crypto::Digests::KeccakDigest* source);
     // public System.Int32 GetDigestSize()
-    // Offset: 0x1EE8A1C
+    // Offset: 0x1EDC368
     int GetDigestSize();
     // public System.Void Update(System.Byte input)
-    // Offset: 0x1EE8A28
+    // Offset: 0x1EDC374
     void Update(uint8_t input);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 len)
-    // Offset: 0x1EE8B3C
-    void BlockUpdate(::ArrayW<uint8_t> input, int inOff, int len);
+    // Offset: 0x1EDC488
+    void BlockUpdate(::Array<uint8_t>* input, int inOff, int len);
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1EE8CCC
-    int DoFinal(::ArrayW<uint8_t> output, int outOff);
+    // Offset: 0x1EDC618
+    int DoFinal(::Array<uint8_t>* output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1EE8E60
+    // Offset: 0x1EDC7AC
     void Reset();
     // public System.Int32 GetByteLength()
-    // Offset: 0x1EE8E68
+    // Offset: 0x1EDC7B4
     int GetByteLength();
     // private System.Void Init(System.Int32 bitLength)
-    // Offset: 0x1EE87A8
+    // Offset: 0x1EDC0F4
     void Init(int bitLength);
     // private System.Void InitSponge(System.Int32 rate)
-    // Offset: 0x1EE8E74
+    // Offset: 0x1EDC7C0
     void InitSponge(int rate);
     // protected System.Void Absorb(System.Byte data)
-    // Offset: 0x1EE8A2C
+    // Offset: 0x1EDC378
     void Absorb(uint8_t data);
     // protected System.Void Absorb(System.Byte[] data, System.Int32 off, System.Int32 len)
-    // Offset: 0x1EE8B40
-    void Absorb(::ArrayW<uint8_t> data, int off, int len);
+    // Offset: 0x1EDC48C
+    void Absorb(::Array<uint8_t>* data, int off, int len);
     // protected System.Void AbsorbBits(System.Int32 data, System.Int32 bits)
-    // Offset: 0x1EE9030
+    // Offset: 0x1EDC97C
     void AbsorbBits(int data, int bits);
     // private System.Void PadAndSwitchToSqueezingPhase()
-    // Offset: 0x1EE9178
+    // Offset: 0x1EDCAC4
     void PadAndSwitchToSqueezingPhase();
     // protected System.Void Squeeze(System.Byte[] output, System.Int32 offset, System.Int64 outputLength)
-    // Offset: 0x1EE8D14
-    void Squeeze(::ArrayW<uint8_t> output, int offset, int64_t outputLength);
+    // Offset: 0x1EDC660
+    void Squeeze(::Array<uint8_t>* output, int offset, int64_t outputLength);
     // private System.Void KeccakAbsorb(System.Byte[] data, System.Int32 off)
-    // Offset: 0x1EE8F78
-    void KeccakAbsorb(::ArrayW<uint8_t> data, int off);
+    // Offset: 0x1EDC8C4
+    void KeccakAbsorb(::Array<uint8_t>* data, int off);
     // private System.Void KeccakExtract()
-    // Offset: 0x1EE9320
+    // Offset: 0x1EDCC6C
     void KeccakExtract();
     // private System.Void KeccakPermutation()
-    // Offset: 0x1EE9364
+    // Offset: 0x1EDCCB0
     void KeccakPermutation();
     // public Org.BouncyCastle.Utilities.IMemoable Copy()
-    // Offset: 0x1EE9948
+    // Offset: 0x1EDD294
     Org::BouncyCastle::Utilities::IMemoable* Copy();
     // public System.Void Reset(Org.BouncyCastle.Utilities.IMemoable other)
-    // Offset: 0x1EE99A8
+    // Offset: 0x1EDD2F4
     void Reset(Org::BouncyCastle::Utilities::IMemoable* other);
   }; // Org.BouncyCastle.Crypto.Digests.KeccakDigest
   #pragma pack(pop)
   static check_size<sizeof(KeccakDigest), 44 + sizeof(bool)> __Org_BouncyCastle_Crypto_Digests_KeccakDigestSizeCheck;
   static_assert(sizeof(KeccakDigest) == 0x2D);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::KeccakDigest*, "Org.BouncyCastle.Crypto.Digests", "KeccakDigest");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::KeccakDigest::get_AlgorithmName
 // Il2CppName: get_AlgorithmName
 template<>
@@ -233,7 +221,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::KeccakDigest::BlockUpdate
 // Il2CppName: BlockUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Digests::KeccakDigest::*)(::ArrayW<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::Digests::KeccakDigest::BlockUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Digests::KeccakDigest::*)(::Array<uint8_t>*, int, int)>(&Org::BouncyCastle::Crypto::Digests::KeccakDigest::BlockUpdate)> {
   static const MethodInfo* get() {
     static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* inOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -244,7 +232,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::KeccakDigest::DoFinal
 // Il2CppName: DoFinal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Digests::KeccakDigest::*)(::ArrayW<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Digests::KeccakDigest::DoFinal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Digests::KeccakDigest::*)(::Array<uint8_t>*, int)>(&Org::BouncyCastle::Crypto::Digests::KeccakDigest::DoFinal)> {
   static const MethodInfo* get() {
     static auto* output = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* outOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -297,7 +285,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::KeccakDigest::Absorb
 // Il2CppName: Absorb
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Digests::KeccakDigest::*)(::ArrayW<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::Digests::KeccakDigest::Absorb)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Digests::KeccakDigest::*)(::Array<uint8_t>*, int, int)>(&Org::BouncyCastle::Crypto::Digests::KeccakDigest::Absorb)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* off = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -326,7 +314,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::KeccakDigest::Squeeze
 // Il2CppName: Squeeze
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Digests::KeccakDigest::*)(::ArrayW<uint8_t>, int, int64_t)>(&Org::BouncyCastle::Crypto::Digests::KeccakDigest::Squeeze)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Digests::KeccakDigest::*)(::Array<uint8_t>*, int, int64_t)>(&Org::BouncyCastle::Crypto::Digests::KeccakDigest::Squeeze)> {
   static const MethodInfo* get() {
     static auto* output = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -337,7 +325,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::KeccakDigest::KeccakAbsorb
 // Il2CppName: KeccakAbsorb
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Digests::KeccakDigest::*)(::ArrayW<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Digests::KeccakDigest::KeccakAbsorb)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Digests::KeccakDigest::*)(::Array<uint8_t>*, int)>(&Org::BouncyCastle::Crypto::Digests::KeccakDigest::KeccakAbsorb)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* off = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

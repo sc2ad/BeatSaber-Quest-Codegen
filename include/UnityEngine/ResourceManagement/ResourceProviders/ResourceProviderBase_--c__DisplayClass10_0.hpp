@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ResourceManagement.ResourceProviders.ResourceProviderBase
 #include "UnityEngine/ResourceManagement/ResourceProviders/ResourceProviderBase.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: UnityEngine.ResourceManagement.ResourceProviders
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-  // Forward declaring type: <>c__DisplayClass10_0
-  class $$c__DisplayClass10_0;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase::$$c__DisplayClass10_0);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase::$$c__DisplayClass10_0*, "UnityEngine.ResourceManagement.ResourceProviders", "ResourceProviderBase/<>c__DisplayClass10_0");
 // Type namespace: UnityEngine.ResourceManagement.ResourceProviders
 namespace UnityEngine::ResourceManagement::ResourceProviders {
   // Size: 0x28
@@ -29,11 +21,6 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class ResourceProviderBase::$$c__DisplayClass10_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public UnityEngine.ResourceManagement.ResourceProviders.ResourceProviderBase <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -52,7 +39,8 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     ::Il2CppString* data;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: $$c__DisplayClass10_0
+    $$c__DisplayClass10_0(UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase* $$4__this_ = {}, ::Il2CppString* id_ = {}, ::Il2CppString* data_ = {}) noexcept : $$4__this{$$4__this_}, id{id_}, data{data_} {}
     // Get instance field reference: public UnityEngine.ResourceManagement.ResourceProviders.ResourceProviderBase <>4__this
     UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase*& dyn_$$4__this();
     // Get instance field reference: public System.String id
@@ -60,10 +48,10 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     // Get instance field reference: public System.String data
     ::Il2CppString*& dyn_data();
     // System.Boolean <InitializeAsync>b__0()
-    // Offset: 0x1B4F06C
+    // Offset: 0x1BEEDEC
     bool $InitializeAsync$b__0();
     // public System.Void .ctor()
-    // Offset: 0x1B4F00C
+    // Offset: 0x1BEED8C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -76,7 +64,8 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   static check_size<sizeof(ResourceProviderBase::$$c__DisplayClass10_0), 32 + sizeof(::Il2CppString*)> __UnityEngine_ResourceManagement_ResourceProviders_ResourceProviderBase_$$c__DisplayClass10_0SizeCheck;
   static_assert(sizeof(ResourceProviderBase::$$c__DisplayClass10_0) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase::$$c__DisplayClass10_0*, "UnityEngine.ResourceManagement.ResourceProviders", "ResourceProviderBase/<>c__DisplayClass10_0");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase::$$c__DisplayClass10_0::$InitializeAsync$b__0
 // Il2CppName: <InitializeAsync>b__0
 template<>

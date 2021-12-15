@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Reflection.Module
 #include "System/Reflection/Module.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Reflection
-namespace System::Reflection {
-  // Forward declaring type: RuntimeModule
-  class RuntimeModule;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Reflection::RuntimeModule);
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::RuntimeModule*, "System.Reflection", "RuntimeModule");
 // Type namespace: System.Reflection
 namespace System::Reflection {
   // Size: 0x40
@@ -28,8 +20,10 @@ namespace System::Reflection {
   // [TokenAttribute] Offset: FFFFFFFF
   class RuntimeModule : public System::Reflection::Module {
     public:
+    // Creating value type constructor for type: RuntimeModule
+    RuntimeModule() noexcept {}
     // protected System.Void .ctor()
-    // Offset: 0x1589BA8
+    // Offset: 0x1617E9C
     // Implemented from: System.Reflection.Module
     // Base method: System.Void Module::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -41,7 +35,8 @@ namespace System::Reflection {
   }; // System.Reflection.RuntimeModule
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::RuntimeModule*, "System.Reflection", "RuntimeModule");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::RuntimeModule::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Guid
 #include "System/Guid.hpp"
 // Including type: System.ValueType
@@ -23,13 +23,6 @@ namespace System {
 // Completed forward declares
 // Type namespace: System
 namespace System {
-  // Forward declaring type: GuidResult
-  struct GuidResult;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Guid::GuidResult, "System", "Guid/GuidResult");
-// Type namespace: System
-namespace System {
   // Size: 0x38
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -37,11 +30,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Guid::GuidResult/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // System.Guid parsedGuid
     // Size: 0x10
     // Offset: 0x0
@@ -84,7 +72,6 @@ namespace System {
     System::Exception* m_innerException;
     // Field size check
     static_assert(sizeof(System::Exception*) == 0x8);
-    public:
     // Creating value type constructor for type: GuidResult
     constexpr GuidResult(System::Guid parsedGuid_ = {}, System::Guid::GuidParseThrowStyle throwStyle_ = {}, System::Guid::ParseFailureKind m_failure_ = {}, ::Il2CppString* m_failureMessageID_ = {}, ::Il2CppObject* m_failureMessageFormatArgument_ = {}, ::Il2CppString* m_failureArgumentName_ = {}, System::Exception* m_innerException_ = {}) noexcept : parsedGuid{parsedGuid_}, throwStyle{throwStyle_}, m_failure{m_failure_}, m_failureMessageID{m_failureMessageID_}, m_failureMessageFormatArgument{m_failureMessageFormatArgument_}, m_failureArgumentName{m_failureArgumentName_}, m_innerException{m_innerException_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -106,29 +93,31 @@ namespace System {
     // Get instance field reference: System.Exception m_innerException
     System::Exception*& dyn_m_innerException();
     // System.Void Init(System.Guid/System.GuidParseThrowStyle canThrow)
-    // Offset: 0x1BC368C
+    // Offset: 0x1C43584
     void Init(System::Guid::GuidParseThrowStyle canThrow);
     // System.Void SetFailure(System.Exception nativeException)
-    // Offset: 0x1BC5160
+    // Offset: 0x1C45058
     void SetFailure(System::Exception* nativeException);
     // System.Void SetFailure(System.Guid/System.ParseFailureKind failure, System.String failureMessageID)
-    // Offset: 0x1BC3D20
+    // Offset: 0x1C43C18
     void SetFailure(System::Guid::ParseFailureKind failure, ::Il2CppString* failureMessageID);
     // System.Void SetFailure(System.Guid/System.ParseFailureKind failure, System.String failureMessageID, System.Object failureMessageFormatArgument)
-    // Offset: 0x1BC4C20
+    // Offset: 0x1C44B18
     void SetFailure(System::Guid::ParseFailureKind failure, ::Il2CppString* failureMessageID, ::Il2CppObject* failureMessageFormatArgument);
     // System.Void SetFailure(System.Guid/System.ParseFailureKind failure, System.String failureMessageID, System.Object failureMessageFormatArgument, System.String failureArgumentName, System.Exception innerException)
-    // Offset: 0x1BC4960
+    // Offset: 0x1C44858
     void SetFailure(System::Guid::ParseFailureKind failure, ::Il2CppString* failureMessageID, ::Il2CppObject* failureMessageFormatArgument, ::Il2CppString* failureArgumentName, System::Exception* innerException);
     // System.Exception GetGuidParseException()
-    // Offset: 0x1BC3974
+    // Offset: 0x1C4386C
     System::Exception* GetGuidParseException();
   }; // System.Guid/System.GuidResult
   #pragma pack(pop)
   static check_size<sizeof(Guid::GuidResult), 48 + sizeof(System::Exception*)> __System_Guid_GuidResultSizeCheck;
   static_assert(sizeof(Guid::GuidResult) == 0x38);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Guid::GuidResult, "System", "Guid/GuidResult");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Guid::GuidResult::Init
 // Il2CppName: Init
 template<>

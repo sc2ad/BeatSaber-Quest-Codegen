@@ -3,29 +3,20 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: RootMotion.FinalIK.OffsetModifier
 #include "RootMotion/FinalIK/OffsetModifier.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: RootMotion::FinalIK
 namespace RootMotion::FinalIK {
 }
 // Completed forward declares
-// Type namespace: RootMotion.FinalIK
-namespace RootMotion::FinalIK {
-  // Forward declaring type: Amplifier
-  class Amplifier;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::FinalIK::Amplifier);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Amplifier*, "RootMotion.FinalIK", "Amplifier");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
   // Size: 0x38
@@ -38,23 +29,19 @@ namespace RootMotion::FinalIK {
     char ___base_padding[0x4] = {};
     // Nested type: RootMotion::FinalIK::Amplifier::Body
     class Body;
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
-    // [TooltipAttribute] Offset: 0xEF4100
+    // [TooltipAttribute] Offset: 0xF5F80C
     // public RootMotion.FinalIK.Amplifier/RootMotion.FinalIK.Body[] bodies
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayW<RootMotion::FinalIK::Amplifier::Body*> bodies;
+    ::Array<RootMotion::FinalIK::Amplifier::Body*>* bodies;
     // Field size check
-    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::Amplifier::Body*>) == 0x8);
-    public:
+    static_assert(sizeof(::Array<RootMotion::FinalIK::Amplifier::Body*>*) == 0x8);
+    // Creating value type constructor for type: Amplifier
+    Amplifier(::Array<RootMotion::FinalIK::Amplifier::Body*>* bodies_ = {}) noexcept : bodies{bodies_} {}
     // Get instance field reference: public RootMotion.FinalIK.Amplifier/RootMotion.FinalIK.Body[] bodies
-    ::ArrayW<RootMotion::FinalIK::Amplifier::Body*>& dyn_bodies();
+    ::Array<RootMotion::FinalIK::Amplifier::Body*>*& dyn_bodies();
     // public System.Void .ctor()
-    // Offset: 0x1EA62F0
+    // Offset: 0x1EABD50
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -68,16 +55,17 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<Amplifier*, creationType>()));
     }
     // protected override System.Void OnModifyOffset()
-    // Offset: 0x1EA5D4C
+    // Offset: 0x1EAB7AC
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::OnModifyOffset()
     void OnModifyOffset();
   }; // RootMotion.FinalIK.Amplifier
   #pragma pack(pop)
-  static check_size<sizeof(Amplifier), 48 + sizeof(::ArrayW<RootMotion::FinalIK::Amplifier::Body*>)> __RootMotion_FinalIK_AmplifierSizeCheck;
+  static check_size<sizeof(Amplifier), 48 + sizeof(::Array<RootMotion::FinalIK::Amplifier::Body*>*)> __RootMotion_FinalIK_AmplifierSizeCheck;
   static_assert(sizeof(Amplifier) == 0x38);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Amplifier*, "RootMotion.FinalIK", "Amplifier");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::Amplifier::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

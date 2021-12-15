@@ -3,19 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct Il2CppObject;
 // Completed il2cpp-utils forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: IPacketPool
-  class IPacketPool;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::IPacketPool);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IPacketPool*, "", "IPacketPool");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -24,13 +16,17 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IPacketPool {
     public:
+    // Creating value type constructor for type: IPacketPool
+    IPacketPool() noexcept {}
     // public System.Void Release(System.Object t)
     // Offset: 0xFFFFFFFF
     void Release(::Il2CppObject* t);
   }; // IPacketPool
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IPacketPool*, "", "IPacketPool");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::IPacketPool::Release
 // Il2CppName: Release
 template<>

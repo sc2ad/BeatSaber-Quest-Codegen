@@ -3,20 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LiteNetLib.Utils.FastBitConverter
 #include "LiteNetLib/Utils/FastBitConverter.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-// Type namespace: LiteNetLib.Utils
-namespace LiteNetLib::Utils {
-  // Forward declaring type: ConverterHelperDouble
-  struct ConverterHelperDouble;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::FastBitConverter::ConverterHelperDouble, "LiteNetLib.Utils", "FastBitConverter/ConverterHelperDouble");
 // Type namespace: LiteNetLib.Utils
 namespace LiteNetLib::Utils {
   // WARNING Size may be invalid!
@@ -25,11 +18,6 @@ namespace LiteNetLib::Utils {
   // [TokenAttribute] Offset: FFFFFFFF
   struct FastBitConverter::ConverterHelperDouble/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.UInt64 Along
     // Size: 0x8
     // Offset: 0x0
@@ -42,7 +30,6 @@ namespace LiteNetLib::Utils {
     double Adouble;
     // Field size check
     static_assert(sizeof(double) == 0x8);
-    public:
     // Creating value type constructor for type: ConverterHelperDouble
     constexpr ConverterHelperDouble(uint64_t Along_ = {}, double Adouble_ = {}) noexcept : Along{Along_}, Adouble{Adouble_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -56,4 +43,6 @@ namespace LiteNetLib::Utils {
   }; // LiteNetLib.Utils.FastBitConverter/LiteNetLib.Utils.ConverterHelperDouble
   // WARNING Not writing size check since size may be invalid!
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::FastBitConverter::ConverterHelperDouble, "LiteNetLib.Utils", "FastBitConverter/ConverterHelperDouble");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

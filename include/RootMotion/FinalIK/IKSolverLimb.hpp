@@ -3,17 +3,16 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: RootMotion.FinalIK.IKSolverTrigonometric
 #include "RootMotion/FinalIK/IKSolverTrigonometric.hpp"
 // Including type: UnityEngine.AvatarIKGoal
 #include "UnityEngine/AvatarIKGoal.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -22,14 +21,6 @@ namespace UnityEngine {
   class Transform;
 }
 // Completed forward declares
-// Type namespace: RootMotion.FinalIK
-namespace RootMotion::FinalIK {
-  // Forward declaring type: IKSolverLimb
-  class IKSolverLimb;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::FinalIK::IKSolverLimb);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverLimb*, "RootMotion.FinalIK", "IKSolverLimb");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
   // Size: 0x140
@@ -50,18 +41,12 @@ namespace RootMotion::FinalIK {
     // [TokenAttribute] Offset: FFFFFFFF
     struct BendModifier/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: BendModifier
       constexpr BendModifier(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -115,11 +100,6 @@ namespace RootMotion::FinalIK {
     // [TokenAttribute] Offset: FFFFFFFF
     struct AxisDirection/*, public System::ValueType*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public UnityEngine.Vector3 direction
       // Size: 0xC
       // Offset: 0x0
@@ -138,7 +118,6 @@ namespace RootMotion::FinalIK {
       float dot;
       // Field size check
       static_assert(sizeof(float) == 0x4);
-      public:
       // Creating value type constructor for type: AxisDirection
       constexpr AxisDirection(UnityEngine::Vector3 direction_ = {}, UnityEngine::Vector3 axis_ = {}, float dot_ = {}) noexcept : direction{direction_}, axis{axis_}, dot{dot_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -152,17 +131,17 @@ namespace RootMotion::FinalIK {
       // Get instance field reference: public System.Single dot
       float& dyn_dot();
       // public System.Void .ctor(UnityEngine.Vector3 direction, UnityEngine.Vector3 axis)
-      // Offset: 0x1E51010
-      AxisDirection(UnityEngine::Vector3 direction, UnityEngine::Vector3 axis);
+      // Offset: 0x1E4BFEC
+      template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+      AxisDirection(UnityEngine::Vector3 direction, UnityEngine::Vector3 axis) {
+        static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::IKSolverLimb::AxisDirection::.ctor");
+        static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(direction), ::il2cpp_utils::ExtractType(axis)})));
+        ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, direction, axis);
+      }
     }; // RootMotion.FinalIK.IKSolverLimb/RootMotion.FinalIK.AxisDirection
     #pragma pack(pop)
     static check_size<sizeof(IKSolverLimb::AxisDirection), 24 + sizeof(float)> __RootMotion_FinalIK_IKSolverLimb_AxisDirectionSizeCheck;
     static_assert(sizeof(IKSolverLimb::AxisDirection) == 0x1C);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public UnityEngine.AvatarIKGoal goal
     // Size: 0x4
     // Offset: 0xA8
@@ -175,14 +154,14 @@ namespace RootMotion::FinalIK {
     RootMotion::FinalIK::IKSolverLimb::BendModifier bendModifier;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::IKSolverLimb::BendModifier) == 0x4);
-    // [RangeAttribute] Offset: 0xEF2EA4
+    // [RangeAttribute] Offset: 0xF5E5B0
     // public System.Single maintainRotationWeight
     // Size: 0x4
     // Offset: 0xB0
     float maintainRotationWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0xEF2EBC
+    // [RangeAttribute] Offset: 0xF5E5C8
     // public System.Single bendModifierWeight
     // Size: 0x4
     // Offset: 0xB4
@@ -256,16 +235,17 @@ namespace RootMotion::FinalIK {
     // private RootMotion.FinalIK.IKSolverLimb/RootMotion.FinalIK.AxisDirection[] axisDirectionsLeft
     // Size: 0x8
     // Offset: 0x130
-    ::ArrayW<RootMotion::FinalIK::IKSolverLimb::AxisDirection> axisDirectionsLeft;
+    ::Array<RootMotion::FinalIK::IKSolverLimb::AxisDirection>* axisDirectionsLeft;
     // Field size check
-    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::IKSolverLimb::AxisDirection>) == 0x8);
+    static_assert(sizeof(::Array<RootMotion::FinalIK::IKSolverLimb::AxisDirection>*) == 0x8);
     // private RootMotion.FinalIK.IKSolverLimb/RootMotion.FinalIK.AxisDirection[] axisDirectionsRight
     // Size: 0x8
     // Offset: 0x138
-    ::ArrayW<RootMotion::FinalIK::IKSolverLimb::AxisDirection> axisDirectionsRight;
+    ::Array<RootMotion::FinalIK::IKSolverLimb::AxisDirection>* axisDirectionsRight;
     // Field size check
-    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::IKSolverLimb::AxisDirection>) == 0x8);
-    public:
+    static_assert(sizeof(::Array<RootMotion::FinalIK::IKSolverLimb::AxisDirection>*) == 0x8);
+    // Creating value type constructor for type: IKSolverLimb
+    IKSolverLimb(UnityEngine::AvatarIKGoal goal_ = {}, RootMotion::FinalIK::IKSolverLimb::BendModifier bendModifier_ = {}, float maintainRotationWeight_ = {}, float bendModifierWeight_ = {}, UnityEngine::Transform* bendGoal_ = {}, bool maintainBendFor1Frame_ = {}, bool maintainRotationFor1Frame_ = {}, UnityEngine::Quaternion defaultRootRotation_ = {}, UnityEngine::Quaternion parentDefaultRotation_ = {}, UnityEngine::Quaternion bone3RotationBeforeSolve_ = {}, UnityEngine::Quaternion maintainRotation_ = {}, UnityEngine::Quaternion bone3DefaultRotation_ = {}, UnityEngine::Vector3 bendNormal_ = {}, UnityEngine::Vector3 animationNormal_ = {}, ::Array<RootMotion::FinalIK::IKSolverLimb::AxisDirection>* axisDirectionsLeft_ = {}, ::Array<RootMotion::FinalIK::IKSolverLimb::AxisDirection>* axisDirectionsRight_ = {}) noexcept : goal{goal_}, bendModifier{bendModifier_}, maintainRotationWeight{maintainRotationWeight_}, bendModifierWeight{bendModifierWeight_}, bendGoal{bendGoal_}, maintainBendFor1Frame{maintainBendFor1Frame_}, maintainRotationFor1Frame{maintainRotationFor1Frame_}, defaultRootRotation{defaultRootRotation_}, parentDefaultRotation{parentDefaultRotation_}, bone3RotationBeforeSolve{bone3RotationBeforeSolve_}, maintainRotation{maintainRotation_}, bone3DefaultRotation{bone3DefaultRotation_}, bendNormal{bendNormal_}, animationNormal{animationNormal_}, axisDirectionsLeft{axisDirectionsLeft_}, axisDirectionsRight{axisDirectionsRight_} {}
     // Get instance field reference: public UnityEngine.AvatarIKGoal goal
     UnityEngine::AvatarIKGoal& dyn_goal();
     // Get instance field reference: public RootMotion.FinalIK.IKSolverLimb/RootMotion.FinalIK.BendModifier bendModifier
@@ -295,33 +275,33 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private UnityEngine.Vector3 animationNormal
     UnityEngine::Vector3& dyn_animationNormal();
     // Get instance field reference: private RootMotion.FinalIK.IKSolverLimb/RootMotion.FinalIK.AxisDirection[] axisDirectionsLeft
-    ::ArrayW<RootMotion::FinalIK::IKSolverLimb::AxisDirection>& dyn_axisDirectionsLeft();
+    ::Array<RootMotion::FinalIK::IKSolverLimb::AxisDirection>*& dyn_axisDirectionsLeft();
     // Get instance field reference: private RootMotion.FinalIK.IKSolverLimb/RootMotion.FinalIK.AxisDirection[] axisDirectionsRight
-    ::ArrayW<RootMotion::FinalIK::IKSolverLimb::AxisDirection>& dyn_axisDirectionsRight();
+    ::Array<RootMotion::FinalIK::IKSolverLimb::AxisDirection>*& dyn_axisDirectionsRight();
     // private RootMotion.FinalIK.IKSolverLimb/RootMotion.FinalIK.AxisDirection[] get_axisDirections()
-    // Offset: 0x1E50FF4
-    ::ArrayW<RootMotion::FinalIK::IKSolverLimb::AxisDirection> get_axisDirections();
+    // Offset: 0x1E4BFD0
+    ::Array<RootMotion::FinalIK::IKSolverLimb::AxisDirection>* get_axisDirections();
     // public System.Void .ctor(UnityEngine.AvatarIKGoal goal)
-    // Offset: 0x1E50F6C
+    // Offset: 0x1E4BF48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKSolverLimb* New_ctor(UnityEngine::AvatarIKGoal goal) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::IKSolverLimb::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKSolverLimb*, creationType>(goal)));
     }
     // public System.Void MaintainRotation()
-    // Offset: 0x1E4F8F0
+    // Offset: 0x1E4A8CC
     void MaintainRotation();
     // public System.Void MaintainBend()
-    // Offset: 0x1E4F940
+    // Offset: 0x1E4A91C
     void MaintainBend();
     // private System.Void StoreAxisDirections(ref RootMotion.FinalIK.IKSolverLimb/RootMotion.FinalIK.AxisDirection[] axisDirections)
-    // Offset: 0x1E4FDD0
-    void StoreAxisDirections(ByRef<::ArrayW<RootMotion::FinalIK::IKSolverLimb::AxisDirection>> axisDirections);
+    // Offset: 0x1E4ADAC
+    void StoreAxisDirections(ByRef<::Array<RootMotion::FinalIK::IKSolverLimb::AxisDirection>*> axisDirections);
     // private UnityEngine.Vector3 GetModifiedBendNormal()
-    // Offset: 0x1E501F0
+    // Offset: 0x1E4B1CC
     UnityEngine::Vector3 GetModifiedBendNormal();
     // public System.Void .ctor()
-    // Offset: 0x1E50DE8
+    // Offset: 0x1E4BDC4
     // Implemented from: RootMotion.FinalIK.IKSolverTrigonometric
     // Base method: System.Void IKSolverTrigonometric::.ctor()
     // Base method: System.Void IKSolver::.ctor()
@@ -332,34 +312,33 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<IKSolverLimb*, creationType>()));
     }
     // protected override System.Void OnInitiateVirtual()
-    // Offset: 0x1E4FA54
+    // Offset: 0x1E4AA30
     // Implemented from: RootMotion.FinalIK.IKSolverTrigonometric
     // Base method: System.Void IKSolverTrigonometric::OnInitiateVirtual()
     void OnInitiateVirtual();
     // protected override System.Void OnUpdateVirtual()
-    // Offset: 0x1E500C4
+    // Offset: 0x1E4B0A0
     // Implemented from: RootMotion.FinalIK.IKSolverTrigonometric
     // Base method: System.Void IKSolverTrigonometric::OnUpdateVirtual()
     void OnUpdateVirtual();
     // protected override System.Void OnPostSolveVirtual()
-    // Offset: 0x1E50CA0
+    // Offset: 0x1E4BC7C
     // Implemented from: RootMotion.FinalIK.IKSolverTrigonometric
     // Base method: System.Void IKSolverTrigonometric::OnPostSolveVirtual()
     void OnPostSolveVirtual();
   }; // RootMotion.FinalIK.IKSolverLimb
   #pragma pack(pop)
-  static check_size<sizeof(IKSolverLimb), 312 + sizeof(::ArrayW<RootMotion::FinalIK::IKSolverLimb::AxisDirection>)> __RootMotion_FinalIK_IKSolverLimbSizeCheck;
+  static check_size<sizeof(IKSolverLimb), 312 + sizeof(::Array<RootMotion::FinalIK::IKSolverLimb::AxisDirection>*)> __RootMotion_FinalIK_IKSolverLimbSizeCheck;
   static_assert(sizeof(IKSolverLimb) == 0x140);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverLimb*, "RootMotion.FinalIK", "IKSolverLimb");
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverLimb::BendModifier, "RootMotion.FinalIK", "IKSolverLimb/BendModifier");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverLimb::AxisDirection, "RootMotion.FinalIK", "IKSolverLimb/AxisDirection");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverLimb::get_axisDirections
 // Il2CppName: get_axisDirections
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<RootMotion::FinalIK::IKSolverLimb::AxisDirection> (RootMotion::FinalIK::IKSolverLimb::*)()>(&RootMotion::FinalIK::IKSolverLimb::get_axisDirections)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<RootMotion::FinalIK::IKSolverLimb::AxisDirection>* (RootMotion::FinalIK::IKSolverLimb::*)()>(&RootMotion::FinalIK::IKSolverLimb::get_axisDirections)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverLimb*), "get_axisDirections", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -387,7 +366,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverLimb::StoreAxisDirections
 // Il2CppName: StoreAxisDirections
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverLimb::*)(ByRef<::ArrayW<RootMotion::FinalIK::IKSolverLimb::AxisDirection>>)>(&RootMotion::FinalIK::IKSolverLimb::StoreAxisDirections)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverLimb::*)(ByRef<::Array<RootMotion::FinalIK::IKSolverLimb::AxisDirection>*>)>(&RootMotion::FinalIK::IKSolverLimb::StoreAxisDirections)> {
   static const MethodInfo* get() {
     static auto* axisDirections = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolverLimb/AxisDirection"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverLimb*), "StoreAxisDirections", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{axisDirections});

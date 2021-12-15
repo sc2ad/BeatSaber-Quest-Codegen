@@ -3,18 +3,10 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IDisposable
 #include "System/IDisposable.hpp"
 // Completed includes
-// Type namespace: UnityEngine.Experimental.Rendering
-namespace UnityEngine::Experimental::Rendering {
-  // Forward declaring type: IScriptableRuntimeReflectionSystem
-  class IScriptableRuntimeReflectionSystem;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem*, "UnityEngine.Experimental.Rendering", "IScriptableRuntimeReflectionSystem");
 // Type namespace: UnityEngine.Experimental.Rendering
 namespace UnityEngine::Experimental::Rendering {
   // Size: 0x10
@@ -23,6 +15,8 @@ namespace UnityEngine::Experimental::Rendering {
   // [TokenAttribute] Offset: FFFFFFFF
   class IScriptableRuntimeReflectionSystem/*, public System::IDisposable*/ {
     public:
+    // Creating value type constructor for type: IScriptableRuntimeReflectionSystem
+    IScriptableRuntimeReflectionSystem() noexcept {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
@@ -33,7 +27,9 @@ namespace UnityEngine::Experimental::Rendering {
   }; // UnityEngine.Experimental.Rendering.IScriptableRuntimeReflectionSystem
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem*, "UnityEngine.Experimental.Rendering", "IScriptableRuntimeReflectionSystem");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem::TickRealtimeProbes
 // Il2CppName: TickRealtimeProbes
 template<>

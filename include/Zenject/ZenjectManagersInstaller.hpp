@@ -3,23 +3,22 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.Installer`1
 #include "Zenject/Installer_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Zenject
+// Begin forward declares
+// Forward declaring namespace: Zenject
 namespace Zenject {
-  // Forward declaring type: ZenjectManagersInstaller
-  class ZenjectManagersInstaller;
+  // Forward declaring type: InjectTypeInfo
+  class InjectTypeInfo;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::ZenjectManagersInstaller);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenjectManagersInstaller*, "Zenject", "ZenjectManagersInstaller");
+// Completed forward declares
 // Type namespace: Zenject
 namespace Zenject {
   // WARNING Size may be invalid!
@@ -27,8 +26,13 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class ZenjectManagersInstaller : public Zenject::Installer_1<Zenject::ZenjectManagersInstaller*> {
     public:
+    // Creating value type constructor for type: ZenjectManagersInstaller
+    ZenjectManagersInstaller() noexcept {}
+    // static private System.Object __zenCreate(System.Object[] P_0)
+    // Offset: 0x219CAFC
+    static ::Il2CppObject* __zenCreate(::Array<::Il2CppObject*>* P_0);
     // public System.Void .ctor()
-    // Offset: 0x25D60B8
+    // Offset: 0x219CAAC
     // Implemented from: Zenject.Installer`1
     // Base method: System.Void Installer_1::.ctor()
     // Base method: System.Void InstallerBase::.ctor()
@@ -39,13 +43,29 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<ZenjectManagersInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x25D5F1C
+    // Offset: 0x219C914
     // Implemented from: Zenject.InstallerBase
     // Base method: System.Void InstallerBase::InstallBindings()
     void InstallBindings();
+    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
+    // Offset: 0x219CB54
+    // Implemented from: Zenject.Installer`1
+    // Base method: Zenject.InjectTypeInfo Installer_1::__zenCreateInjectTypeInfo()
+    // Base method: Zenject.InjectTypeInfo InstallerBase::__zenCreateInjectTypeInfo()
+    static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.ZenjectManagersInstaller
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenjectManagersInstaller*, "Zenject", "ZenjectManagersInstaller");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Zenject::ZenjectManagersInstaller::__zenCreate
+// Il2CppName: __zenCreate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Array<::Il2CppObject*>*)>(&Zenject::ZenjectManagersInstaller::__zenCreate)> {
+  static const MethodInfo* get() {
+    static auto* P_0 = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectManagersInstaller*), "__zenCreate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{P_0});
+  }
+};
 // Writing MetadataGetter for method: Zenject::ZenjectManagersInstaller::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -56,5 +76,13 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectManagersInstaller::*)()>(&Zenject::ZenjectManagersInstaller::InstallBindings)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectManagersInstaller*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Zenject::ZenjectManagersInstaller::__zenCreateInjectTypeInfo
+// Il2CppName: __zenCreateInjectTypeInfo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo* (*)()>(&Zenject::ZenjectManagersInstaller::__zenCreateInjectTypeInfo)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectManagersInstaller*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

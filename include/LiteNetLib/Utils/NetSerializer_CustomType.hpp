@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LiteNetLib.Utils.NetSerializer
 #include "LiteNetLib/Utils/NetSerializer.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: LiteNetLib.Utils
-namespace LiteNetLib::Utils {
-  // Forward declaring type: CustomType
-  class CustomType;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(LiteNetLib::Utils::NetSerializer::CustomType);
-DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::NetSerializer::CustomType*, "LiteNetLib.Utils", "NetSerializer/CustomType");
 // Type namespace: LiteNetLib.Utils
 namespace LiteNetLib::Utils {
   // Size: 0x10
@@ -28,6 +20,8 @@ namespace LiteNetLib::Utils {
   // [TokenAttribute] Offset: FFFFFFFF
   class NetSerializer::CustomType : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: CustomType
+    CustomType() noexcept {}
     // public LiteNetLib.Utils.NetSerializer/LiteNetLib.Utils.FastCall`1<T> Get()
     // Offset: 0xFFFFFFFF
     template<class T>
@@ -35,10 +29,11 @@ namespace LiteNetLib::Utils {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetSerializer::CustomType::Get");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Get", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<LiteNetLib::Utils::NetSerializer::FastCall_1<T>*, false>(this, ___generic__method);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<LiteNetLib::Utils::NetSerializer::FastCall_1<T>*, false>(___instance_arg, ___generic__method);
     }
     // protected System.Void .ctor()
-    // Offset: 0x2600444
+    // Offset: 0x26C246C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -49,7 +44,8 @@ namespace LiteNetLib::Utils {
   }; // LiteNetLib.Utils.NetSerializer/LiteNetLib.Utils.CustomType
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::NetSerializer::CustomType*, "LiteNetLib.Utils", "NetSerializer/CustomType");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetSerializer::CustomType::Get
 // Il2CppName: Get
 // Cannot write MetadataGetter for generic methods!

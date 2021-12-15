@@ -3,18 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: System.Xml
-namespace System::Xml {
-  // Forward declaring type: AttributeProperties
-  struct AttributeProperties;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::AttributeProperties, "System.Xml", "AttributeProperties");
 // Type namespace: System.Xml
 namespace System::Xml {
   // Size: 0x4
@@ -23,18 +16,12 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   struct AttributeProperties/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.UInt32 value__
     // Size: 0x4
     // Offset: 0x0
     uint value;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
-    public:
     // Creating value type constructor for type: AttributeProperties
     constexpr AttributeProperties(uint value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -76,4 +63,6 @@ namespace System::Xml {
   static check_size<sizeof(AttributeProperties), 0 + sizeof(uint)> __System_Xml_AttributePropertiesSizeCheck;
   static_assert(sizeof(AttributeProperties) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::AttributeProperties, "System.Xml", "AttributeProperties");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

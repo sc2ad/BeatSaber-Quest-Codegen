@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: OVRInput/RawButton
 #include "GlobalNamespace/OVRInput_RawButton.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: OVRModeParms
-  class OVRModeParms;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRModeParms);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRModeParms*, "", "OVRModeParms");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x1C
@@ -30,33 +22,29 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRModeParms : public UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public OVRInput/RawButton resetButton
     // Size: 0x4
     // Offset: 0x18
     GlobalNamespace::OVRInput::RawButton resetButton;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRInput::RawButton) == 0x4);
-    public:
+    // Creating value type constructor for type: OVRModeParms
+    OVRModeParms(GlobalNamespace::OVRInput::RawButton resetButton_ = {}) noexcept : resetButton{resetButton_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public OVRInput/RawButton resetButton
     GlobalNamespace::OVRInput::RawButton& dyn_resetButton();
     // private System.Void Start()
-    // Offset: 0x144B2E4
+    // Offset: 0x147AAC8
     void Start();
     // private System.Void Update()
-    // Offset: 0x144B384
+    // Offset: 0x147AB68
     void Update();
     // private System.Void TestPowerStateMode()
-    // Offset: 0x144B504
+    // Offset: 0x147ACE8
     void TestPowerStateMode();
     // public System.Void .ctor()
-    // Offset: 0x144B640
+    // Offset: 0x147AE24
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -73,7 +61,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRModeParms), 24 + sizeof(GlobalNamespace::OVRInput::RawButton)> __GlobalNamespace_OVRModeParmsSizeCheck;
   static_assert(sizeof(OVRModeParms) == 0x1C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRModeParms*, "", "OVRModeParms");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRModeParms::Start
 // Il2CppName: Start
 template<>

@@ -3,18 +3,10 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MasterServer.IMasterServerReliableResponse
 #include "MasterServer/IMasterServerReliableResponse.hpp"
 // Completed includes
-// Type namespace: MasterServer
-namespace MasterServer {
-  // Forward declaring type: IMasterServerAuthenticateResponse
-  class IMasterServerAuthenticateResponse;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(MasterServer::IMasterServerAuthenticateResponse);
-DEFINE_IL2CPP_ARG_TYPE(MasterServer::IMasterServerAuthenticateResponse*, "MasterServer", "IMasterServerAuthenticateResponse");
 // Type namespace: MasterServer
 namespace MasterServer {
   // Size: 0x10
@@ -23,6 +15,8 @@ namespace MasterServer {
   // [TokenAttribute] Offset: FFFFFFFF
   class IMasterServerAuthenticateResponse/*, public MasterServer::IMasterServerReliableResponse*/ {
     public:
+    // Creating value type constructor for type: IMasterServerAuthenticateResponse
+    IMasterServerAuthenticateResponse() noexcept {}
     // Creating interface conversion operator: operator MasterServer::IMasterServerReliableResponse
     operator MasterServer::IMasterServerReliableResponse() noexcept {
       return *reinterpret_cast<MasterServer::IMasterServerReliableResponse*>(this);
@@ -33,7 +27,9 @@ namespace MasterServer {
   }; // MasterServer.IMasterServerAuthenticateResponse
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(MasterServer::IMasterServerAuthenticateResponse*, "MasterServer", "IMasterServerAuthenticateResponse");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: MasterServer::IMasterServerAuthenticateResponse::get_isAuthenticated
 // Il2CppName: get_isAuthenticated
 template<>

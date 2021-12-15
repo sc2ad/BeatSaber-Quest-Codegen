@@ -3,17 +3,9 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: System.Reflection.Emit
-namespace System::Reflection::Emit {
-  // Forward declaring type: SignatureHelper
-  class SignatureHelper;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Reflection::Emit::SignatureHelper);
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Emit::SignatureHelper*, "System.Reflection.Emit", "SignatureHelper");
 // Type namespace: System.Reflection.Emit
 namespace System::Reflection::Emit {
   // Size: 0x10
@@ -22,7 +14,11 @@ namespace System::Reflection::Emit {
   // [TokenAttribute] Offset: FFFFFFFF
   class SignatureHelper : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: SignatureHelper
+    SignatureHelper() noexcept {}
   }; // System.Reflection.Emit.SignatureHelper
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Emit::SignatureHelper*, "System.Reflection.Emit", "SignatureHelper");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

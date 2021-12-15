@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Runtime.Remoting.ProviderData
 #include "System/Runtime/Remoting/ProviderData.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Runtime.Remoting
-namespace System::Runtime::Remoting {
-  // Forward declaring type: FormatterData
-  class FormatterData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Remoting::FormatterData);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::FormatterData*, "System.Runtime.Remoting", "FormatterData");
 // Type namespace: System.Runtime.Remoting
 namespace System::Runtime::Remoting {
   // Size: 0x38
@@ -28,8 +20,10 @@ namespace System::Runtime::Remoting {
   // [TokenAttribute] Offset: FFFFFFFF
   class FormatterData : public System::Runtime::Remoting::ProviderData {
     public:
+    // Creating value type constructor for type: FormatterData
+    FormatterData() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1BF2B14
+    // Offset: 0x1C4AC0C
     // Implemented from: System.Runtime.Remoting.ProviderData
     // Base method: System.Void ProviderData::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -41,7 +35,8 @@ namespace System::Runtime::Remoting {
   }; // System.Runtime.Remoting.FormatterData
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::FormatterData*, "System.Runtime.Remoting", "FormatterData");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::FormatterData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

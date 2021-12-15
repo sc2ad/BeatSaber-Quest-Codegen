@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.FtpStatusCode
 #include "System/Net/FtpStatusCode.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Net
-namespace System::Net {
-  // Forward declaring type: FtpStatus
-  class FtpStatus;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::FtpStatus);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::FtpStatus*, "System.Net", "FtpStatus");
 // Type namespace: System.Net
 namespace System::Net {
   // Size: 0x20
@@ -28,11 +20,6 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class FtpStatus : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private readonly System.Net.FtpStatusCode statusCode
     // Size: 0x4
     // Offset: 0x10
@@ -47,19 +34,20 @@ namespace System::Net {
     ::Il2CppString* statusDescription;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: FtpStatus
+    FtpStatus(System::Net::FtpStatusCode statusCode_ = {}, ::Il2CppString* statusDescription_ = {}) noexcept : statusCode{statusCode_}, statusDescription{statusDescription_} {}
     // Get instance field reference: private readonly System.Net.FtpStatusCode statusCode
     System::Net::FtpStatusCode& dyn_statusCode();
     // Get instance field reference: private readonly System.String statusDescription
     ::Il2CppString*& dyn_statusDescription();
     // public System.Net.FtpStatusCode get_StatusCode()
-    // Offset: 0x1569CB0
+    // Offset: 0x15F6FA4
     System::Net::FtpStatusCode get_StatusCode();
     // public System.String get_StatusDescription()
-    // Offset: 0x1569CB8
+    // Offset: 0x15F6FAC
     ::Il2CppString* get_StatusDescription();
     // public System.Void .ctor(System.Net.FtpStatusCode statusCode, System.String statusDescription)
-    // Offset: 0x1569C74
+    // Offset: 0x15F6F68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FtpStatus* New_ctor(System::Net::FtpStatusCode statusCode, ::Il2CppString* statusDescription) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::FtpStatus::.ctor");
@@ -70,7 +58,8 @@ namespace System::Net {
   static check_size<sizeof(FtpStatus), 24 + sizeof(::Il2CppString*)> __System_Net_FtpStatusSizeCheck;
   static_assert(sizeof(FtpStatus) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::FtpStatus*, "System.Net", "FtpStatus");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::FtpStatus::get_StatusCode
 // Il2CppName: get_StatusCode
 template<>

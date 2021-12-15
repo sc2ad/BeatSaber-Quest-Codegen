@@ -3,14 +3,14 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.Internal.ReflectionTypeAnalyzer
 #include "Zenject/Internal/ReflectionTypeAnalyzer.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -30,15 +30,12 @@ namespace System::Reflection {
   // Forward declaring type: ConstructorInfo
   class ConstructorInfo;
 }
-// Completed forward declares
-// Type namespace: Zenject.Internal
-namespace Zenject::Internal {
-  // Forward declaring type: <>c
-  class $$c;
+// Forward declaring namespace: Zenject
+namespace Zenject {
+  // Forward declaring type: InjectTypeInfo
+  class InjectTypeInfo;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::Internal::ReflectionTypeAnalyzer::$$c);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::ReflectionTypeAnalyzer::$$c*, "Zenject.Internal", "ReflectionTypeAnalyzer/<>c");
+// Completed forward declares
 // Type namespace: Zenject.Internal
 namespace Zenject::Internal {
   // Size: 0x10
@@ -48,6 +45,8 @@ namespace Zenject::Internal {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class ReflectionTypeAnalyzer::$$c : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: $$c
+    $$c() noexcept {}
     // Get static field: static public readonly Zenject.Internal.ReflectionTypeAnalyzer/Zenject.Internal.<>c <>9
     static Zenject::Internal::ReflectionTypeAnalyzer::$$c* _get_$$9();
     // Set static field: static public readonly Zenject.Internal.ReflectionTypeAnalyzer/Zenject.Internal.<>c <>9
@@ -77,28 +76,34 @@ namespace Zenject::Internal {
     // Set static field: static public System.Func`2<System.Reflection.ConstructorInfo,System.Int32> <>9__11_2
     static void _set_$$9__11_2(System::Func_2<System::Reflection::ConstructorInfo*, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x181CEE8
+    // Offset: 0x18D5D54
     static void _cctor();
     // System.Boolean <GetPropertyInfos>b__5_0(System.Reflection.PropertyInfo x)
-    // Offset: 0x181CF54
+    // Offset: 0x18D5DC0
     bool $GetPropertyInfos$b__5_0(System::Reflection::PropertyInfo* x);
     // System.Boolean <GetFieldInfos>b__6_0(System.Reflection.FieldInfo x)
-    // Offset: 0x181D040
+    // Offset: 0x18D5EAC
     bool $GetFieldInfos$b__6_0(System::Reflection::FieldInfo* x);
     // System.Boolean <GetMethodInfos>b__7_0(System.Reflection.MethodInfo x)
-    // Offset: 0x181D12C
+    // Offset: 0x18D5F98
     bool $GetMethodInfos$b__7_0(System::Reflection::MethodInfo* x);
     // System.Boolean <TryGetInjectConstructor>b__11_0(System.Reflection.ConstructorInfo c)
-    // Offset: 0x181D218
+    // Offset: 0x18D6084
     bool $TryGetInjectConstructor$b__11_0(System::Reflection::ConstructorInfo* c);
     // System.Boolean <TryGetInjectConstructor>b__11_1(System.Reflection.ConstructorInfo x)
-    // Offset: 0x181D304
+    // Offset: 0x18D6170
     bool $TryGetInjectConstructor$b__11_1(System::Reflection::ConstructorInfo* x);
     // System.Int32 <TryGetInjectConstructor>b__11_2(System.Reflection.ConstructorInfo x)
-    // Offset: 0x181D320
+    // Offset: 0x18D618C
     int $TryGetInjectConstructor$b__11_2(System::Reflection::ConstructorInfo* x);
+    // static private System.Object __zenCreate(System.Object[] P_0)
+    // Offset: 0x18D61F4
+    static ::Il2CppObject* __zenCreate(::Array<::Il2CppObject*>* P_0);
+    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
+    // Offset: 0x18D6250
+    static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
-    // Offset: 0x181CF4C
+    // Offset: 0x18D5DB8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -109,7 +114,8 @@ namespace Zenject::Internal {
   }; // Zenject.Internal.ReflectionTypeAnalyzer/Zenject.Internal.<>c
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::ReflectionTypeAnalyzer::$$c*, "Zenject.Internal", "ReflectionTypeAnalyzer/<>c");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::Internal::ReflectionTypeAnalyzer::$$c::_cctor
 // Il2CppName: .cctor
 template<>
@@ -170,6 +176,23 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Zenjec
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("System.Reflection", "ConstructorInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ReflectionTypeAnalyzer::$$c*), "<TryGetInjectConstructor>b__11_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
+  }
+};
+// Writing MetadataGetter for method: Zenject::Internal::ReflectionTypeAnalyzer::$$c::__zenCreate
+// Il2CppName: __zenCreate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Array<::Il2CppObject*>*)>(&Zenject::Internal::ReflectionTypeAnalyzer::$$c::__zenCreate)> {
+  static const MethodInfo* get() {
+    static auto* P_0 = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ReflectionTypeAnalyzer::$$c*), "__zenCreate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{P_0});
+  }
+};
+// Writing MetadataGetter for method: Zenject::Internal::ReflectionTypeAnalyzer::$$c::__zenCreateInjectTypeInfo
+// Il2CppName: __zenCreateInjectTypeInfo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo* (*)()>(&Zenject::Internal::ReflectionTypeAnalyzer::$$c::__zenCreateInjectTypeInfo)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ReflectionTypeAnalyzer::$$c*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: Zenject::Internal::ReflectionTypeAnalyzer::$$c::New_ctor

@@ -3,17 +3,10 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-// Type namespace: OVR.OpenVR
-namespace OVR::OpenVR {
-  // Forward declaring type: DriverDirectMode_FrameTiming
-  struct DriverDirectMode_FrameTiming;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::DriverDirectMode_FrameTiming, "OVR.OpenVR", "DriverDirectMode_FrameTiming");
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
   // Size: 0x14
@@ -23,11 +16,6 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct DriverDirectMode_FrameTiming/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.UInt32 m_nSize
     // Size: 0x4
     // Offset: 0x0
@@ -58,7 +46,6 @@ namespace OVR::OpenVR {
     uint m_nReprojectionFlags;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
-    public:
     // Creating value type constructor for type: DriverDirectMode_FrameTiming
     constexpr DriverDirectMode_FrameTiming(uint m_nSize_ = {}, uint m_nNumFramePresents_ = {}, uint m_nNumMisPresented_ = {}, uint m_nNumDroppedFrames_ = {}, uint m_nReprojectionFlags_ = {}) noexcept : m_nSize{m_nSize_}, m_nNumFramePresents{m_nNumFramePresents_}, m_nNumMisPresented{m_nNumMisPresented_}, m_nNumDroppedFrames{m_nNumDroppedFrames_}, m_nReprojectionFlags{m_nReprojectionFlags_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -80,4 +67,6 @@ namespace OVR::OpenVR {
   static check_size<sizeof(DriverDirectMode_FrameTiming), 16 + sizeof(uint)> __OVR_OpenVR_DriverDirectMode_FrameTimingSizeCheck;
   static_assert(sizeof(DriverDirectMode_FrameTiming) == 0x14);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::DriverDirectMode_FrameTiming, "OVR.OpenVR", "DriverDirectMode_FrameTiming");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

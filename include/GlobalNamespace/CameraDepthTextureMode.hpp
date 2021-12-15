@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.DepthTextureMode
 #include "UnityEngine/DepthTextureMode.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: CameraDepthTextureMode
-  class CameraDepthTextureMode;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::CameraDepthTextureMode);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CameraDepthTextureMode*, "", "CameraDepthTextureMode");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x1C
@@ -30,27 +22,23 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class CameraDepthTextureMode : public UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private UnityEngine.DepthTextureMode _depthTextureMode
     // Size: 0x4
     // Offset: 0x18
     UnityEngine::DepthTextureMode depthTextureMode;
     // Field size check
     static_assert(sizeof(UnityEngine::DepthTextureMode) == 0x4);
-    public:
+    // Creating value type constructor for type: CameraDepthTextureMode
+    CameraDepthTextureMode(UnityEngine::DepthTextureMode depthTextureMode_ = {}) noexcept : depthTextureMode{depthTextureMode_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.DepthTextureMode _depthTextureMode
     UnityEngine::DepthTextureMode& dyn__depthTextureMode();
     // protected System.Void Awake()
-    // Offset: 0x135D998
+    // Offset: 0x138E578
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0x135D9FC
+    // Offset: 0x138E5DC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -67,7 +55,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(CameraDepthTextureMode), 24 + sizeof(UnityEngine::DepthTextureMode)> __GlobalNamespace_CameraDepthTextureModeSizeCheck;
   static_assert(sizeof(CameraDepthTextureMode) == 0x1C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CameraDepthTextureMode*, "", "CameraDepthTextureMode");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CameraDepthTextureMode::Awake
 // Il2CppName: Awake
 template<>

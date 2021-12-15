@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: DroneHover
 #include "GlobalNamespace/DroneHover.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: SineLayer
-  class SineLayer;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::DroneHover::SineLayer);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DroneHover::SineLayer*, "", "DroneHover/SineLayer");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x18
@@ -28,11 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class DroneHover::SineLayer : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Single multiplier
     // Size: 0x4
     // Offset: 0x10
@@ -45,13 +32,14 @@ namespace GlobalNamespace {
     float offset;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
+    // Creating value type constructor for type: SineLayer
+    SineLayer(float multiplier_ = {}, float offset_ = {}) noexcept : multiplier{multiplier_}, offset{offset_} {}
     // Get instance field reference: public System.Single multiplier
     float& dyn_multiplier();
     // Get instance field reference: public System.Single offset
     float& dyn_offset();
     // public System.Void .ctor()
-    // Offset: 0x11655E8
+    // Offset: 0x11D779C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -64,7 +52,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(DroneHover::SineLayer), 20 + sizeof(float)> __GlobalNamespace_DroneHover_SineLayerSizeCheck;
   static_assert(sizeof(DroneHover::SineLayer) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DroneHover::SineLayer*, "", "DroneHover/SineLayer");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DroneHover::SineLayer::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

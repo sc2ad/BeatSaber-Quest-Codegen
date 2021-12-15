@@ -4,16 +4,10 @@
 #pragma once
 // Begin includes
 #include <stdint.h>
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-namespace System::Net::NetworkInformation {
-  // Forward declaring type: AlignmentUnion
-  struct AlignmentUnion;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::AlignmentUnion, "System.Net.NetworkInformation", "AlignmentUnion");
 // Type namespace: System.Net.NetworkInformation
 namespace System::Net::NetworkInformation {
   // Size: 0x8
@@ -23,7 +17,8 @@ namespace System::Net::NetworkInformation {
   // [TokenAttribute] Offset: FFFFFFFF
   struct AlignmentUnion/*, public System::ValueType*/ {
     public:
-    struct __InternalUnionData {
+    // Creating union for fields at offset: 0x0
+        struct __InternalUnionData {
       // public System.Int32 Length
       // Size: 0x4
       // Offset: 0x0
@@ -37,11 +32,6 @@ namespace System::Net::NetworkInformation {
       // Field size check
       static_assert(sizeof(int) == 0x4);
     };
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // Creating union for fields at offset: 0x0
     union {
       // public System.UInt64 Alignment
@@ -54,7 +44,6 @@ namespace System::Net::NetworkInformation {
       __InternalUnionData data;
       static_assert(sizeof(__InternalUnionData) == 0x8);
     };
-    public:
     // Creating value type constructor for type: AlignmentUnion
     constexpr AlignmentUnion(uint64_t Alignment_ = {}) noexcept : Alignment{Alignment_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -72,4 +61,6 @@ namespace System::Net::NetworkInformation {
   static check_size<sizeof(AlignmentUnion), 4 + sizeof(int)> __System_Net_NetworkInformation_AlignmentUnionSizeCheck;
   static_assert(sizeof(AlignmentUnion) == 0x8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::AlignmentUnion, "System.Net.NetworkInformation", "AlignmentUnion");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

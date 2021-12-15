@@ -3,14 +3,14 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: SingleFixedSceneScenesTransitionSetupDataSO
 #include "GlobalNamespace/SingleFixedSceneScenesTransitionSetupDataSO.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -19,14 +19,6 @@ namespace GlobalNamespace {
   class MockPlayersModel;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: AppInitScenesTransitionSetupDataSO
-  class AppInitScenesTransitionSetupDataSO;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::AppInitScenesTransitionSetupDataSO);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AppInitScenesTransitionSetupDataSO*, "", "AppInitScenesTransitionSetupDataSO");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x30
@@ -39,17 +31,19 @@ namespace GlobalNamespace {
     struct AppInitOverrideStartType;
     // Nested type: GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData
     class AppInitSceneSetupData;
+    // Creating value type constructor for type: AppInitScenesTransitionSetupDataSO
+    AppInitScenesTransitionSetupDataSO() noexcept {}
     // public System.Void Init()
-    // Offset: 0x261AC04
+    // Offset: 0x1311748
     void Init();
     // public System.Void InitAsAppStart()
-    // Offset: 0x261AC78
+    // Offset: 0x13117BC
     void InitAsAppStart();
     // public System.Void __Init(AppInitScenesTransitionSetupDataSO/AppInitOverrideStartType appInitOverrideStartType, MockPlayersModel mockPlayersModel)
-    // Offset: 0x261ACEC
+    // Offset: 0x1311830
     void __Init(GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType appInitOverrideStartType, GlobalNamespace::MockPlayersModel* mockPlayersModel);
     // public System.Void .ctor()
-    // Offset: 0x261AD6C
+    // Offset: 0x13118B0
     // Implemented from: SingleFixedSceneScenesTransitionSetupDataSO
     // Base method: System.Void SingleFixedSceneScenesTransitionSetupDataSO::.ctor()
     // Base method: System.Void ScenesTransitionSetupDataSO::.ctor()
@@ -65,7 +59,8 @@ namespace GlobalNamespace {
   }; // AppInitScenesTransitionSetupDataSO
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AppInitScenesTransitionSetupDataSO*, "", "AppInitScenesTransitionSetupDataSO");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AppInitScenesTransitionSetupDataSO::Init
 // Il2CppName: Init
 template<>

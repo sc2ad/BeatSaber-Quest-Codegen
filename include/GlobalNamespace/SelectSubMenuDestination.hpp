@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MenuDestination
 #include "GlobalNamespace/MenuDestination.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: SelectSubMenuDestination
-  class SelectSubMenuDestination;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::SelectSubMenuDestination);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectSubMenuDestination*, "", "SelectSubMenuDestination");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x14
@@ -38,18 +30,12 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct Destination/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: Destination
       constexpr Destination(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -108,18 +94,14 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(SelectSubMenuDestination::Destination), 0 + sizeof(int)> __GlobalNamespace_SelectSubMenuDestination_DestinationSizeCheck;
     static_assert(sizeof(SelectSubMenuDestination::Destination) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public readonly SelectSubMenuDestination/Destination menuDestination
     // Size: 0x4
     // Offset: 0x10
     GlobalNamespace::SelectSubMenuDestination::Destination menuDestination;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SelectSubMenuDestination::Destination) == 0x4);
-    public:
+    // Creating value type constructor for type: SelectSubMenuDestination
+    SelectSubMenuDestination(GlobalNamespace::SelectSubMenuDestination::Destination menuDestination_ = {}) noexcept : menuDestination{menuDestination_} {}
     // Creating conversion operator: operator GlobalNamespace::SelectSubMenuDestination::Destination
     constexpr operator GlobalNamespace::SelectSubMenuDestination::Destination() const noexcept {
       return menuDestination;
@@ -127,7 +109,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly SelectSubMenuDestination/Destination menuDestination
     GlobalNamespace::SelectSubMenuDestination::Destination& dyn_menuDestination();
     // public System.Void .ctor(SelectSubMenuDestination/Destination menuDestination)
-    // Offset: 0x113DF24
+    // Offset: 0x12345D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SelectSubMenuDestination* New_ctor(GlobalNamespace::SelectSubMenuDestination::Destination menuDestination) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SelectSubMenuDestination::.ctor");
@@ -138,9 +120,9 @@ namespace GlobalNamespace {
   static check_size<sizeof(SelectSubMenuDestination), 16 + sizeof(GlobalNamespace::SelectSubMenuDestination::Destination)> __GlobalNamespace_SelectSubMenuDestinationSizeCheck;
   static_assert(sizeof(SelectSubMenuDestination) == 0x14);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectSubMenuDestination*, "", "SelectSubMenuDestination");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectSubMenuDestination::Destination, "", "SelectSubMenuDestination/Destination");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SelectSubMenuDestination::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

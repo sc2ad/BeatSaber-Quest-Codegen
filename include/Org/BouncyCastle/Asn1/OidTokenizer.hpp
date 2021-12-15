@@ -3,21 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Org.BouncyCastle.Asn1
-namespace Org::BouncyCastle::Asn1 {
-  // Forward declaring type: OidTokenizer
-  class OidTokenizer;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Asn1::OidTokenizer);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::OidTokenizer*, "Org.BouncyCastle.Asn1", "OidTokenizer");
 // Type namespace: Org.BouncyCastle.Asn1
 namespace Org::BouncyCastle::Asn1 {
   // Size: 0x1C
@@ -26,11 +18,6 @@ namespace Org::BouncyCastle::Asn1 {
   // [TokenAttribute] Offset: FFFFFFFF
   class OidTokenizer : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.String oid
     // Size: 0x8
     // Offset: 0x10
@@ -43,30 +30,32 @@ namespace Org::BouncyCastle::Asn1 {
     int index;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
+    // Creating value type constructor for type: OidTokenizer
+    OidTokenizer(::Il2CppString* oid_ = {}, int index_ = {}) noexcept : oid{oid_}, index{index_} {}
     // Get instance field reference: private System.String oid
     ::Il2CppString*& dyn_oid();
     // Get instance field reference: private System.Int32 index
     int& dyn_index();
     // public System.Boolean get_HasMoreTokens()
-    // Offset: 0x1953FBC
+    // Offset: 0x197266C
     bool get_HasMoreTokens();
     // public System.Void .ctor(System.String oid)
-    // Offset: 0x1953F90
+    // Offset: 0x1972640
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OidTokenizer* New_ctor(::Il2CppString* oid) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::OidTokenizer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OidTokenizer*, creationType>(oid)));
     }
     // public System.String NextToken()
-    // Offset: 0x1953FCC
+    // Offset: 0x197267C
     ::Il2CppString* NextToken();
   }; // Org.BouncyCastle.Asn1.OidTokenizer
   #pragma pack(pop)
   static check_size<sizeof(OidTokenizer), 24 + sizeof(int)> __Org_BouncyCastle_Asn1_OidTokenizerSizeCheck;
   static_assert(sizeof(OidTokenizer) == 0x1C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::OidTokenizer*, "Org.BouncyCastle.Asn1", "OidTokenizer");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::OidTokenizer::get_HasMoreTokens
 // Il2CppName: get_HasMoreTokens
 template<>

@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Collections.IEqualityComparer
 #include "System/Collections/IEqualityComparer.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Collections.Generic
-namespace System::Collections::Generic {
-  // Forward declaring type: ObjectEqualityComparer
-  class ObjectEqualityComparer;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Collections::Generic::ObjectEqualityComparer);
-DEFINE_IL2CPP_ARG_TYPE(System::Collections::Generic::ObjectEqualityComparer*, "System.Collections.Generic", "ObjectEqualityComparer");
 // Type namespace: System.Collections.Generic
 namespace System::Collections::Generic {
   // Size: 0x10
@@ -28,6 +20,8 @@ namespace System::Collections::Generic {
   // [TokenAttribute] Offset: FFFFFFFF
   class ObjectEqualityComparer : public ::Il2CppObject/*, public System::Collections::IEqualityComparer*/ {
     public:
+    // Creating value type constructor for type: ObjectEqualityComparer
+    ObjectEqualityComparer() noexcept {}
     // Creating interface conversion operator: operator System::Collections::IEqualityComparer
     operator System::Collections::IEqualityComparer() noexcept {
       return *reinterpret_cast<System::Collections::IEqualityComparer*>(this);
@@ -37,16 +31,16 @@ namespace System::Collections::Generic {
     // Set static field: static readonly System.Collections.Generic.ObjectEqualityComparer Default
     static void _set_Default(System::Collections::Generic::ObjectEqualityComparer* value);
     // static private System.Void .cctor()
-    // Offset: 0x1980B44
+    // Offset: 0x199F1F4
     static void _cctor();
     // private System.Int32 System.Collections.IEqualityComparer.GetHashCode(System.Object obj)
-    // Offset: 0x1980AF4
+    // Offset: 0x199F1A4
     int System_Collections_IEqualityComparer_GetHashCode(::Il2CppObject* obj);
     // private System.Boolean System.Collections.IEqualityComparer.Equals(System.Object x, System.Object y)
-    // Offset: 0x1980B14
+    // Offset: 0x199F1C4
     bool System_Collections_IEqualityComparer_Equals(::Il2CppObject* x, ::Il2CppObject* y);
     // private System.Void .ctor()
-    // Offset: 0x1980AEC
+    // Offset: 0x199F19C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -57,7 +51,8 @@ namespace System::Collections::Generic {
   }; // System.Collections.Generic.ObjectEqualityComparer
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Collections::Generic::ObjectEqualityComparer*, "System.Collections.Generic", "ObjectEqualityComparer");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::Generic::ObjectEqualityComparer::_cctor
 // Il2CppName: .cctor
 template<>

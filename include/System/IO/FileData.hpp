@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IO.FileAttributes
 #include "System/IO/FileAttributes.hpp"
 // Including type: System.DateTime
 #include "System/DateTime.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.IO
-namespace System::IO {
-  // Forward declaring type: FileData
-  class FileData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::IO::FileData);
-DEFINE_IL2CPP_ARG_TYPE(System::IO::FileData*, "System.IO", "FileData");
 // Type namespace: System.IO
 namespace System::IO {
   // Size: 0x30
@@ -30,11 +22,6 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   class FileData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.String Directory
     // Size: 0x8
     // Offset: 0x10
@@ -67,7 +54,8 @@ namespace System::IO {
     System::DateTime LastWriteTime;
     // Field size check
     static_assert(sizeof(System::DateTime) == 0x8);
-    public:
+    // Creating value type constructor for type: FileData
+    FileData(::Il2CppString* Directory_ = {}, System::IO::FileAttributes Attributes_ = {}, bool NotExists_ = {}, System::DateTime CreationTime_ = {}, System::DateTime LastWriteTime_ = {}) noexcept : Directory{Directory_}, Attributes{Attributes_}, NotExists{NotExists_}, CreationTime{CreationTime_}, LastWriteTime{LastWriteTime_} {}
     // Get instance field reference: public System.String Directory
     ::Il2CppString*& dyn_Directory();
     // Get instance field reference: public System.IO.FileAttributes Attributes
@@ -79,7 +67,7 @@ namespace System::IO {
     // Get instance field reference: public System.DateTime LastWriteTime
     System::DateTime& dyn_LastWriteTime();
     // public System.Void .ctor()
-    // Offset: 0x1A16B98
+    // Offset: 0x1A362B8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -92,7 +80,8 @@ namespace System::IO {
   static check_size<sizeof(FileData), 40 + sizeof(System::DateTime)> __System_IO_FileDataSizeCheck;
   static_assert(sizeof(FileData) == 0x30);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::IO::FileData*, "System.IO", "FileData");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::FileData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -3,18 +3,10 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MasterServer.IMasterServerMessage
 #include "MasterServer/IMasterServerMessage.hpp"
 // Completed includes
-// Type namespace: MasterServer
-namespace MasterServer {
-  // Forward declaring type: IDedicatedServerMessage
-  class IDedicatedServerMessage;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(MasterServer::IDedicatedServerMessage);
-DEFINE_IL2CPP_ARG_TYPE(MasterServer::IDedicatedServerMessage*, "MasterServer", "IDedicatedServerMessage");
 // Type namespace: MasterServer
 namespace MasterServer {
   // Size: 0x10
@@ -23,6 +15,8 @@ namespace MasterServer {
   // [TokenAttribute] Offset: FFFFFFFF
   class IDedicatedServerMessage/*, public MasterServer::IMasterServerMessage*/ {
     public:
+    // Creating value type constructor for type: IDedicatedServerMessage
+    IDedicatedServerMessage() noexcept {}
     // Creating interface conversion operator: operator MasterServer::IMasterServerMessage
     operator MasterServer::IMasterServerMessage() noexcept {
       return *reinterpret_cast<MasterServer::IMasterServerMessage*>(this);
@@ -30,4 +24,6 @@ namespace MasterServer {
   }; // MasterServer.IDedicatedServerMessage
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(MasterServer::IDedicatedServerMessage*, "MasterServer", "IDedicatedServerMessage");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

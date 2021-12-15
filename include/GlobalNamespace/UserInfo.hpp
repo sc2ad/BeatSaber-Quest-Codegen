@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: UserInfo
-  class UserInfo;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::UserInfo);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UserInfo*, "", "UserInfo");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x28
@@ -36,18 +28,12 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct Platform/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: Platform
       constexpr Platform(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -88,11 +74,6 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(UserInfo::Platform), 0 + sizeof(int)> __GlobalNamespace_UserInfo_PlatformSizeCheck;
     static_assert(sizeof(UserInfo::Platform) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public readonly UserInfo/Platform platform
     // Size: 0x4
     // Offset: 0x10
@@ -113,7 +94,8 @@ namespace GlobalNamespace {
     ::Il2CppString* userName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: UserInfo
+    UserInfo(GlobalNamespace::UserInfo::Platform platform_ = {}, ::Il2CppString* platformUserId_ = {}, ::Il2CppString* userName_ = {}) noexcept : platform{platform_}, platformUserId{platformUserId_}, userName{userName_} {}
     // Get instance field reference: public readonly UserInfo/Platform platform
     GlobalNamespace::UserInfo::Platform& dyn_platform();
     // Get instance field reference: public readonly System.String platformUserId
@@ -121,7 +103,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.String userName
     ::Il2CppString*& dyn_userName();
     // public System.Void .ctor(UserInfo/Platform platform, System.String platformUserId, System.String userName)
-    // Offset: 0x126D600
+    // Offset: 0x1BD7510
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UserInfo* New_ctor(GlobalNamespace::UserInfo::Platform platform, ::Il2CppString* platformUserId, ::Il2CppString* userName) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::UserInfo::.ctor");
@@ -132,9 +114,9 @@ namespace GlobalNamespace {
   static check_size<sizeof(UserInfo), 32 + sizeof(::Il2CppString*)> __GlobalNamespace_UserInfoSizeCheck;
   static_assert(sizeof(UserInfo) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UserInfo*, "", "UserInfo");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UserInfo::Platform, "", "UserInfo/Platform");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::UserInfo::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

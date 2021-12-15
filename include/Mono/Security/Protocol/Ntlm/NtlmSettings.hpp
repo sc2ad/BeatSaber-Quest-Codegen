@@ -3,19 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Mono.Security.Protocol.Ntlm.NtlmAuthLevel
 #include "Mono/Security/Protocol/Ntlm/NtlmAuthLevel.hpp"
 // Completed includes
-// Type namespace: Mono.Security.Protocol.Ntlm
-namespace Mono::Security::Protocol::Ntlm {
-  // Forward declaring type: NtlmSettings
-  class NtlmSettings;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Security::Protocol::Ntlm::NtlmSettings);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Protocol::Ntlm::NtlmSettings*, "Mono.Security.Protocol.Ntlm", "NtlmSettings");
 // Type namespace: Mono.Security.Protocol.Ntlm
 namespace Mono::Security::Protocol::Ntlm {
   // Size: 0x10
@@ -24,20 +16,24 @@ namespace Mono::Security::Protocol::Ntlm {
   // [TokenAttribute] Offset: FFFFFFFF
   class NtlmSettings : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: NtlmSettings
+    NtlmSettings() noexcept {}
     // Get static field: static private Mono.Security.Protocol.Ntlm.NtlmAuthLevel defaultAuthLevel
     static Mono::Security::Protocol::Ntlm::NtlmAuthLevel _get_defaultAuthLevel();
     // Set static field: static private Mono.Security.Protocol.Ntlm.NtlmAuthLevel defaultAuthLevel
     static void _set_defaultAuthLevel(Mono::Security::Protocol::Ntlm::NtlmAuthLevel value);
     // static public Mono.Security.Protocol.Ntlm.NtlmAuthLevel get_DefaultAuthLevel()
-    // Offset: 0x1F8C300
+    // Offset: 0x1F985E8
     static Mono::Security::Protocol::Ntlm::NtlmAuthLevel get_DefaultAuthLevel();
     // static private System.Void .cctor()
-    // Offset: 0x1F8C368
+    // Offset: 0x1F98650
     static void _cctor();
   }; // Mono.Security.Protocol.Ntlm.NtlmSettings
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Protocol::Ntlm::NtlmSettings*, "Mono.Security.Protocol.Ntlm", "NtlmSettings");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Security::Protocol::Ntlm::NtlmSettings::get_DefaultAuthLevel
 // Il2CppName: get_DefaultAuthLevel
 template<>

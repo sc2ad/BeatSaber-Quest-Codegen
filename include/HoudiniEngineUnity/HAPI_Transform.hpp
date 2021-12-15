@@ -3,21 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: HoudiniEngineUnity.HAPI_RSTOrder
 #include "HoudiniEngineUnity/HAPI_RSTOrder.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: HoudiniEngineUnity
-namespace HoudiniEngineUnity {
-  // Forward declaring type: HAPI_Transform
-  struct HAPI_Transform;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_Transform, "HoudiniEngineUnity", "HAPI_Transform");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x24
@@ -27,70 +23,70 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HAPI_Transform/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Single[] position
     // Size: 0x8
     // Offset: 0x0
-    ::ArrayW<float> position;
+    ::Array<float>* position;
     // Field size check
-    static_assert(sizeof(::ArrayW<float>) == 0x8);
+    static_assert(sizeof(::Array<float>*) == 0x8);
     // public System.Single[] rotationQuaternion
     // Size: 0x8
     // Offset: 0x8
-    ::ArrayW<float> rotationQuaternion;
+    ::Array<float>* rotationQuaternion;
     // Field size check
-    static_assert(sizeof(::ArrayW<float>) == 0x8);
+    static_assert(sizeof(::Array<float>*) == 0x8);
     // public System.Single[] scale
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<float> scale;
+    ::Array<float>* scale;
     // Field size check
-    static_assert(sizeof(::ArrayW<float>) == 0x8);
+    static_assert(sizeof(::Array<float>*) == 0x8);
     // public System.Single[] shear
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayW<float> shear;
+    ::Array<float>* shear;
     // Field size check
-    static_assert(sizeof(::ArrayW<float>) == 0x8);
+    static_assert(sizeof(::Array<float>*) == 0x8);
     // public HoudiniEngineUnity.HAPI_RSTOrder rstOrder
     // Size: 0x4
     // Offset: 0x20
     HoudiniEngineUnity::HAPI_RSTOrder rstOrder;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::HAPI_RSTOrder) == 0x4);
-    public:
     // Creating value type constructor for type: HAPI_Transform
-    constexpr HAPI_Transform(::ArrayW<float> position_ = ::ArrayW<float>(nullptr), ::ArrayW<float> rotationQuaternion_ = ::ArrayW<float>(nullptr), ::ArrayW<float> scale_ = ::ArrayW<float>(nullptr), ::ArrayW<float> shear_ = ::ArrayW<float>(nullptr), HoudiniEngineUnity::HAPI_RSTOrder rstOrder_ = {}) noexcept : position{position_}, rotationQuaternion{rotationQuaternion_}, scale{scale_}, shear{shear_}, rstOrder{rstOrder_} {}
+    constexpr HAPI_Transform(::Array<float>* position_ = {}, ::Array<float>* rotationQuaternion_ = {}, ::Array<float>* scale_ = {}, ::Array<float>* shear_ = {}, HoudiniEngineUnity::HAPI_RSTOrder rstOrder_ = {}) noexcept : position{position_}, rotationQuaternion{rotationQuaternion_}, scale{scale_}, shear{shear_}, rstOrder{rstOrder_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // Get instance field reference: public System.Single[] position
-    ::ArrayW<float>& dyn_position();
+    ::Array<float>*& dyn_position();
     // Get instance field reference: public System.Single[] rotationQuaternion
-    ::ArrayW<float>& dyn_rotationQuaternion();
+    ::Array<float>*& dyn_rotationQuaternion();
     // Get instance field reference: public System.Single[] scale
-    ::ArrayW<float>& dyn_scale();
+    ::Array<float>*& dyn_scale();
     // Get instance field reference: public System.Single[] shear
-    ::ArrayW<float>& dyn_shear();
+    ::Array<float>*& dyn_shear();
     // Get instance field reference: public HoudiniEngineUnity.HAPI_RSTOrder rstOrder
     HoudiniEngineUnity::HAPI_RSTOrder& dyn_rstOrder();
     // public System.Void .ctor(System.Boolean initializeFields)
-    // Offset: 0x141E554
-    HAPI_Transform(bool initializeFields);
+    // Offset: 0x1463074
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    HAPI_Transform(bool initializeFields) {
+      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HAPI_Transform::.ctor");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(initializeFields)})));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, initializeFields);
+    }
     // public System.Void Init()
-    // Offset: 0x141E608
+    // Offset: 0x1463128
     void Init();
   }; // HoudiniEngineUnity.HAPI_Transform
   #pragma pack(pop)
   static check_size<sizeof(HAPI_Transform), 32 + sizeof(HoudiniEngineUnity::HAPI_RSTOrder)> __HoudiniEngineUnity_HAPI_TransformSizeCheck;
   static_assert(sizeof(HAPI_Transform) == 0x24);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_Transform, "HoudiniEngineUnity", "HAPI_Transform");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HAPI_Transform::HAPI_Transform
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

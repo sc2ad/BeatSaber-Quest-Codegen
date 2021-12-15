@@ -3,20 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: HoudiniEngineUnity.HAPI_VolumeVisualType
 #include "HoudiniEngineUnity/HAPI_VolumeVisualType.hpp"
 // Completed includes
-// Type namespace: HoudiniEngineUnity
-namespace HoudiniEngineUnity {
-  // Forward declaring type: HAPI_VolumeVisualInfo
-  struct HAPI_VolumeVisualInfo;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_VolumeVisualInfo, "HoudiniEngineUnity", "HAPI_VolumeVisualInfo");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0xC
@@ -26,11 +19,6 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HAPI_VolumeVisualInfo/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public HoudiniEngineUnity.HAPI_VolumeVisualType type
     // Size: 0x4
     // Offset: 0x0
@@ -49,7 +37,6 @@ namespace HoudiniEngineUnity {
     float density;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
     // Creating value type constructor for type: HAPI_VolumeVisualInfo
     constexpr HAPI_VolumeVisualInfo(HoudiniEngineUnity::HAPI_VolumeVisualType type_ = {}, float iso_ = {}, float density_ = {}) noexcept : type{type_}, iso{iso_}, density{density_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -67,4 +54,6 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HAPI_VolumeVisualInfo), 8 + sizeof(float)> __HoudiniEngineUnity_HAPI_VolumeVisualInfoSizeCheck;
   static_assert(sizeof(HAPI_VolumeVisualInfo) == 0xC);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_VolumeVisualInfo, "HoudiniEngineUnity", "HAPI_VolumeVisualInfo");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

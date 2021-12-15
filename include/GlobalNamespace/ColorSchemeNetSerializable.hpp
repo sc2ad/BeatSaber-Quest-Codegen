@@ -3,19 +3,19 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: LiteNetLib.Utils.INetSerializable
 #include "LiteNetLib/Utils/INetSerializable.hpp"
 // Including type: ColorNoAlphaSerializable
 #include "GlobalNamespace/ColorNoAlphaSerializable.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
-// Forward declaring namespace: UnityEngine
-namespace UnityEngine {
-  // Skipping declaration: Color because it is already included!
-}
 // Forward declaring namespace: LiteNetLib::Utils
 namespace LiteNetLib::Utils {
   // Forward declaring type: NetDataWriter
@@ -26,13 +26,6 @@ namespace LiteNetLib::Utils {
 // Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
-  // Forward declaring type: ColorSchemeNetSerializable
-  struct ColorSchemeNetSerializable;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSchemeNetSerializable, "", "ColorSchemeNetSerializable");
-// Type namespace: 
-namespace GlobalNamespace {
   // Size: 0x70
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -40,11 +33,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ColorSchemeNetSerializable/*, public System::ValueType, public LiteNetLib::Utils::INetSerializable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public ColorNoAlphaSerializable saberAColor
     // Size: 0x10
     // Offset: 0x0
@@ -87,7 +75,6 @@ namespace GlobalNamespace {
     GlobalNamespace::ColorNoAlphaSerializable environmentColor1Boost;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorNoAlphaSerializable) == 0x10);
-    public:
     // Creating value type constructor for type: ColorSchemeNetSerializable
     constexpr ColorSchemeNetSerializable(GlobalNamespace::ColorNoAlphaSerializable saberAColor_ = {}, GlobalNamespace::ColorNoAlphaSerializable saberBColor_ = {}, GlobalNamespace::ColorNoAlphaSerializable obstaclesColor_ = {}, GlobalNamespace::ColorNoAlphaSerializable environmentColor0_ = {}, GlobalNamespace::ColorNoAlphaSerializable environmentColor1_ = {}, GlobalNamespace::ColorNoAlphaSerializable environmentColor0Boost_ = {}, GlobalNamespace::ColorNoAlphaSerializable environmentColor1Boost_ = {}) noexcept : saberAColor{saberAColor_}, saberBColor{saberBColor_}, obstaclesColor{obstaclesColor_}, environmentColor0{environmentColor0_}, environmentColor1{environmentColor1_}, environmentColor0Boost{environmentColor0Boost_}, environmentColor1Boost{environmentColor1Boost_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -113,20 +100,26 @@ namespace GlobalNamespace {
     // Get instance field reference: public ColorNoAlphaSerializable environmentColor1Boost
     GlobalNamespace::ColorNoAlphaSerializable& dyn_environmentColor1Boost();
     // public System.Void .ctor(UnityEngine.Color saberAColor, UnityEngine.Color saberBColor, UnityEngine.Color obstaclesColor, UnityEngine.Color environmentColor0, UnityEngine.Color environmentColor1, UnityEngine.Color environmentColor0Boost, UnityEngine.Color environmentColor1Boost)
-    // Offset: 0x14325AC
-    ColorSchemeNetSerializable(UnityEngine::Color saberAColor, UnityEngine::Color saberBColor, UnityEngine::Color obstaclesColor, UnityEngine::Color environmentColor0, UnityEngine::Color environmentColor1, UnityEngine::Color environmentColor0Boost, UnityEngine::Color environmentColor1Boost);
+    // Offset: 0x155D294
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    ColorSchemeNetSerializable(UnityEngine::Color saberAColor, UnityEngine::Color saberBColor, UnityEngine::Color obstaclesColor, UnityEngine::Color environmentColor0, UnityEngine::Color environmentColor1, UnityEngine::Color environmentColor0Boost, UnityEngine::Color environmentColor1Boost) {
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ColorSchemeNetSerializable::.ctor");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(saberAColor), ::il2cpp_utils::ExtractType(saberBColor), ::il2cpp_utils::ExtractType(obstaclesColor), ::il2cpp_utils::ExtractType(environmentColor0), ::il2cpp_utils::ExtractType(environmentColor1), ::il2cpp_utils::ExtractType(environmentColor0Boost), ::il2cpp_utils::ExtractType(environmentColor1Boost)})));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, saberAColor, saberBColor, obstaclesColor, environmentColor0, environmentColor1, environmentColor0Boost, environmentColor1Boost);
+    }
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1432738
+    // Offset: 0x155D420
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x14327BC
+    // Offset: 0x155D4A4
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
   }; // ColorSchemeNetSerializable
   #pragma pack(pop)
   static check_size<sizeof(ColorSchemeNetSerializable), 96 + sizeof(GlobalNamespace::ColorNoAlphaSerializable)> __GlobalNamespace_ColorSchemeNetSerializableSizeCheck;
   static_assert(sizeof(ColorSchemeNetSerializable) == 0x70);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSchemeNetSerializable, "", "ColorSchemeNetSerializable");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ColorSchemeNetSerializable::ColorSchemeNetSerializable
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HoudiniEngineUnity.IEquivable`1
 #include "HoudiniEngineUnity/IEquivable_1.hpp"
 // Including type: HoudiniEngineUnity.HAPI_TransformEuler
 #include "HoudiniEngineUnity/HAPI_TransformEuler.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: HoudiniEngineUnity
-namespace HoudiniEngineUnity {
-  // Forward declaring type: Test_HAPI_TransformEuler
-  class Test_HAPI_TransformEuler;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::Test_HAPI_TransformEuler);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::Test_HAPI_TransformEuler*, "HoudiniEngineUnity", "Test_HAPI_TransformEuler");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x38
@@ -30,18 +22,14 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class Test_HAPI_TransformEuler : public ::Il2CppObject/*, public HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::Test_HAPI_TransformEuler*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public HoudiniEngineUnity.HAPI_TransformEuler self
     // Size: 0x28
     // Offset: 0x10
     HoudiniEngineUnity::HAPI_TransformEuler self;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::HAPI_TransformEuler) == 0x28);
-    public:
+    // Creating value type constructor for type: Test_HAPI_TransformEuler
+    Test_HAPI_TransformEuler(HoudiniEngineUnity::HAPI_TransformEuler self_ = {}) noexcept : self{self_} {}
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::Test_HAPI_TransformEuler*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::Test_HAPI_TransformEuler*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::Test_HAPI_TransformEuler*>*>(this);
@@ -53,21 +41,22 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public HoudiniEngineUnity.HAPI_TransformEuler self
     HoudiniEngineUnity::HAPI_TransformEuler& dyn_self();
     // public System.Void .ctor(HoudiniEngineUnity.HAPI_TransformEuler self)
-    // Offset: 0x25B691C
+    // Offset: 0x2678F70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test_HAPI_TransformEuler* New_ctor(HoudiniEngineUnity::HAPI_TransformEuler self) {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::Test_HAPI_TransformEuler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test_HAPI_TransformEuler*, creationType>(self)));
     }
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.Test_HAPI_TransformEuler other)
-    // Offset: 0x25B6954
+    // Offset: 0x2678FA8
     bool IsEquivalentTo(HoudiniEngineUnity::Test_HAPI_TransformEuler* other);
   }; // HoudiniEngineUnity.Test_HAPI_TransformEuler
   #pragma pack(pop)
   static check_size<sizeof(Test_HAPI_TransformEuler), 16 + sizeof(HoudiniEngineUnity::HAPI_TransformEuler)> __HoudiniEngineUnity_Test_HAPI_TransformEulerSizeCheck;
   static_assert(sizeof(Test_HAPI_TransformEuler) == 0x38);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::Test_HAPI_TransformEuler*, "HoudiniEngineUnity", "Test_HAPI_TransformEuler");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::Test_HAPI_TransformEuler::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

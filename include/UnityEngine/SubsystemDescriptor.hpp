@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ISubsystemDescriptor
 #include "UnityEngine/ISubsystemDescriptor.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: SubsystemDescriptor
-  class SubsystemDescriptor;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::SubsystemDescriptor);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SubsystemDescriptor*, "UnityEngine", "SubsystemDescriptor");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18
@@ -28,19 +20,15 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class SubsystemDescriptor : public ::Il2CppObject/*, public UnityEngine::ISubsystemDescriptor*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
-    // [DebuggerBrowsableAttribute] Offset: 0xE8B2FC
+    // [DebuggerBrowsableAttribute] Offset: 0xECAF0C
     // private System.String <id>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppString* id;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: SubsystemDescriptor
+    SubsystemDescriptor(::Il2CppString* id_ = {}) noexcept : id{id_} {}
     // Creating interface conversion operator: operator UnityEngine::ISubsystemDescriptor
     operator UnityEngine::ISubsystemDescriptor() noexcept {
       return *reinterpret_cast<UnityEngine::ISubsystemDescriptor*>(this);
@@ -52,10 +40,10 @@ namespace UnityEngine {
     // Get instance field reference: private System.String <id>k__BackingField
     ::Il2CppString*& dyn_$id$k__BackingField();
     // public System.String get_id()
-    // Offset: 0x260BA94
+    // Offset: 0x26CEABC
     ::Il2CppString* get_id();
     // protected System.Void .ctor()
-    // Offset: 0x260BA9C
+    // Offset: 0x26CEAC4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -68,7 +56,8 @@ namespace UnityEngine {
   static check_size<sizeof(SubsystemDescriptor), 16 + sizeof(::Il2CppString*)> __UnityEngine_SubsystemDescriptorSizeCheck;
   static_assert(sizeof(SubsystemDescriptor) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SubsystemDescriptor*, "UnityEngine", "SubsystemDescriptor");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::SubsystemDescriptor::get_id
 // Il2CppName: get_id
 template<>

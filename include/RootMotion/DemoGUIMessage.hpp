@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.Color
 #include "UnityEngine/Color.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: RootMotion
-namespace RootMotion {
-  // Forward declaring type: DemoGUIMessage
-  class DemoGUIMessage;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::DemoGUIMessage);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::DemoGUIMessage*, "RootMotion", "DemoGUIMessage");
 // Type namespace: RootMotion
 namespace RootMotion {
   // Size: 0x30
@@ -30,11 +22,6 @@ namespace RootMotion {
   // [TokenAttribute] Offset: FFFFFFFF
   class DemoGUIMessage : public UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.String text
     // Size: 0x8
     // Offset: 0x18
@@ -47,7 +34,8 @@ namespace RootMotion {
     UnityEngine::Color color;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
-    public:
+    // Creating value type constructor for type: DemoGUIMessage
+    DemoGUIMessage(::Il2CppString* text_ = {}, UnityEngine::Color color_ = {}) noexcept : text{text_}, color{color_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.String text
@@ -55,10 +43,10 @@ namespace RootMotion {
     // Get instance field reference: public UnityEngine.Color color
     UnityEngine::Color& dyn_color();
     // private System.Void OnGUI()
-    // Offset: 0x1EA39DC
+    // Offset: 0x1EA943C
     void OnGUI();
     // public System.Void .ctor()
-    // Offset: 0x1EA3B1C
+    // Offset: 0x1EA957C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -75,7 +63,8 @@ namespace RootMotion {
   static check_size<sizeof(DemoGUIMessage), 32 + sizeof(UnityEngine::Color)> __RootMotion_DemoGUIMessageSizeCheck;
   static_assert(sizeof(DemoGUIMessage) == 0x30);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::DemoGUIMessage*, "RootMotion", "DemoGUIMessage");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::DemoGUIMessage::OnGUI
 // Il2CppName: OnGUI
 template<>

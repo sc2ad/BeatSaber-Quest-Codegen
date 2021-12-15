@@ -3,17 +3,10 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-// Type namespace: OVR.OpenVR
-namespace OVR::OpenVR {
-  // Forward declaring type: IntersectionMaskRectangle_t
-  struct IntersectionMaskRectangle_t;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IntersectionMaskRectangle_t, "OVR.OpenVR", "IntersectionMaskRectangle_t");
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
   // Size: 0x10
@@ -23,11 +16,6 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct IntersectionMaskRectangle_t/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Single m_flTopLeftX
     // Size: 0x4
     // Offset: 0x0
@@ -52,7 +40,6 @@ namespace OVR::OpenVR {
     float m_flHeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
     // Creating value type constructor for type: IntersectionMaskRectangle_t
     constexpr IntersectionMaskRectangle_t(float m_flTopLeftX_ = {}, float m_flTopLeftY_ = {}, float m_flWidth_ = {}, float m_flHeight_ = {}) noexcept : m_flTopLeftX{m_flTopLeftX_}, m_flTopLeftY{m_flTopLeftY_}, m_flWidth{m_flWidth_}, m_flHeight{m_flHeight_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -72,4 +59,6 @@ namespace OVR::OpenVR {
   static check_size<sizeof(IntersectionMaskRectangle_t), 12 + sizeof(float)> __OVR_OpenVR_IntersectionMaskRectangle_tSizeCheck;
   static_assert(sizeof(IntersectionMaskRectangle_t) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IntersectionMaskRectangle_t, "OVR.OpenVR", "IntersectionMaskRectangle_t");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

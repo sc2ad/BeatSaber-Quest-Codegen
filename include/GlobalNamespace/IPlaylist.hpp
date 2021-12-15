@@ -3,18 +3,10 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: IAnnotatedBeatmapLevelCollection
 #include "GlobalNamespace/IAnnotatedBeatmapLevelCollection.hpp"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: IPlaylist
-  class IPlaylist;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::IPlaylist);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IPlaylist*, "", "IPlaylist");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -23,6 +15,8 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IPlaylist/*, public GlobalNamespace::IAnnotatedBeatmapLevelCollection*/ {
     public:
+    // Creating value type constructor for type: IPlaylist
+    IPlaylist() noexcept {}
     // Creating interface conversion operator: operator GlobalNamespace::IAnnotatedBeatmapLevelCollection
     operator GlobalNamespace::IAnnotatedBeatmapLevelCollection() noexcept {
       return *reinterpret_cast<GlobalNamespace::IAnnotatedBeatmapLevelCollection*>(this);
@@ -30,4 +24,6 @@ namespace GlobalNamespace {
   }; // IPlaylist
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IPlaylist*, "", "IPlaylist");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

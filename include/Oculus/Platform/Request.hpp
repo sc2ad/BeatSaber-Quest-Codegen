@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Oculus.Platform.Message
 #include "Oculus/Platform/Message.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Oculus.Platform
-namespace Oculus::Platform {
-  // Forward declaring type: Request
-  class Request;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Request);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Request*, "Oculus.Platform", "Request");
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
   // Size: 0x20
@@ -28,11 +20,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class Request : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private Oculus.Platform.Message/Oculus.Platform.Callback callback_
     // Size: 0x8
     // Offset: 0x10
@@ -45,39 +32,41 @@ namespace Oculus::Platform {
     uint64_t RequestID;
     // Field size check
     static_assert(sizeof(uint64_t) == 0x8);
-    public:
+    // Creating value type constructor for type: Request
+    Request(Oculus::Platform::Message::Callback* callback_ = {}, uint64_t RequestID_ = {}) noexcept : callback{callback_}, RequestID{RequestID_} {}
     // Get instance field reference: private Oculus.Platform.Message/Oculus.Platform.Callback callback_
     Oculus::Platform::Message::Callback*& dyn_callback_();
     // Get instance field reference: private System.UInt64 <RequestID>k__BackingField
     uint64_t& dyn_$RequestID$k__BackingField();
     // public System.UInt64 get_RequestID()
-    // Offset: 0x259D34C
+    // Offset: 0x26619A0
     uint64_t get_RequestID();
     // public System.Void set_RequestID(System.UInt64 value)
-    // Offset: 0x259D354
+    // Offset: 0x26619A8
     void set_RequestID(uint64_t value);
     // public System.Void .ctor(System.UInt64 requestID)
-    // Offset: 0x259BAB4
+    // Offset: 0x2660108
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Request* New_ctor(uint64_t requestID) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Request::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Request*, creationType>(requestID)));
     }
     // public Oculus.Platform.Request OnComplete(Oculus.Platform.Message/Oculus.Platform.Callback callback)
-    // Offset: 0x259D35C
+    // Offset: 0x26619B0
     Oculus::Platform::Request* OnComplete(Oculus::Platform::Message::Callback* callback);
     // public System.Void HandleMessage(Oculus.Platform.Message msg)
-    // Offset: 0x259D3DC
+    // Offset: 0x2661A30
     void HandleMessage(Oculus::Platform::Message* msg);
     // static public System.Void RunCallbacks(System.UInt32 limit)
-    // Offset: 0x259D474
+    // Offset: 0x2661AC8
     static void RunCallbacks(uint limit);
   }; // Oculus.Platform.Request
   #pragma pack(pop)
   static check_size<sizeof(Request), 24 + sizeof(uint64_t)> __Oculus_Platform_RequestSizeCheck;
   static_assert(sizeof(Request) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Request*, "Oculus.Platform", "Request");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Request::get_RequestID
 // Il2CppName: get_RequestID
 template<>

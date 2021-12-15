@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: FireworkItemController
 #include "GlobalNamespace/FireworkItemController.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
 #include "System/Collections/Generic/IEnumerator_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <FireCoroutine>d__29
-  class $FireCoroutine$d__29;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::FireworkItemController::$FireCoroutine$d__29);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FireworkItemController::$FireCoroutine$d__29*, "", "FireworkItemController/<FireCoroutine>d__29");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x31
@@ -31,11 +23,6 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class FireworkItemController::$FireCoroutine$d__29 : public ::Il2CppObject/*, public System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -74,7 +61,8 @@ namespace GlobalNamespace {
     bool $explosionSoundFired$5__4;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: $FireCoroutine$d__29
+    $FireCoroutine$d__29(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, GlobalNamespace::FireworkItemController* $$4__this_ = {}, float $soundTimeToCenter$5__2_ = {}, float $elapsedTime$5__3_ = {}, bool $explosionSoundFired$5__4_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$4__this{$$4__this_}, $soundTimeToCenter$5__2{$soundTimeToCenter$5__2_}, $elapsedTime$5__3{$elapsedTime$5__3_}, $explosionSoundFired$5__4{$explosionSoundFired$5__4_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
@@ -92,33 +80,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean <explosionSoundFired>5__4
     bool& dyn_$explosionSoundFired$5__4();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x11726F4
+    // Offset: 0x11E549C
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x117275C
+    // Offset: 0x11E5504
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1172088
+    // Offset: 0x11E4E30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FireworkItemController::$FireCoroutine$d__29* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::FireworkItemController::$FireCoroutine$d__29::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FireworkItemController::$FireCoroutine$d__29*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x11724CC
+    // Offset: 0x11E5274
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x11724D0
+    // Offset: 0x11E5278
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x11726FC
+    // Offset: 0x11E54A4
     void System_Collections_IEnumerator_Reset();
   }; // FireworkItemController/<FireCoroutine>d__29
   #pragma pack(pop)
   static check_size<sizeof(FireworkItemController::$FireCoroutine$d__29), 48 + sizeof(bool)> __GlobalNamespace_FireworkItemController_$FireCoroutine$d__29SizeCheck;
   static_assert(sizeof(FireworkItemController::$FireCoroutine$d__29) == 0x31);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FireworkItemController::$FireCoroutine$d__29*, "", "FireworkItemController/<FireCoroutine>d__29");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FireworkItemController::$FireCoroutine$d__29::System_Collections_Generic_IEnumerator$System_Object$_get_Current
 // Il2CppName: System.Collections.Generic.IEnumerator<System.Object>.get_Current
 template<>

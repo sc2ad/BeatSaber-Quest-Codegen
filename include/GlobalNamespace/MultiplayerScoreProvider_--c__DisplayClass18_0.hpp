@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MultiplayerScoreProvider
 #include "GlobalNamespace/MultiplayerScoreProvider.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <>c__DisplayClass18_0
-  class $$c__DisplayClass18_0;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MultiplayerScoreProvider::$$c__DisplayClass18_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerScoreProvider::$$c__DisplayClass18_0*, "", "MultiplayerScoreProvider/<>c__DisplayClass18_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x18
@@ -29,18 +21,14 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class MultiplayerScoreProvider::$$c__DisplayClass18_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.String userId
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppString* userId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: $$c__DisplayClass18_0
+    $$c__DisplayClass18_0(::Il2CppString* userId_ = {}) noexcept : userId{userId_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return userId;
@@ -48,10 +36,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.String userId
     ::Il2CppString*& dyn_userId();
     // System.Boolean <GetPositionOfPlayer>b__0(MultiplayerScoreProvider/RankedPlayer p)
-    // Offset: 0x11186EC
+    // Offset: 0x117832C
     bool $GetPositionOfPlayer$b__0(GlobalNamespace::MultiplayerScoreProvider::RankedPlayer* p);
     // public System.Void .ctor()
-    // Offset: 0x111858C
+    // Offset: 0x11781F8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -64,7 +52,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerScoreProvider::$$c__DisplayClass18_0), 16 + sizeof(::Il2CppString*)> __GlobalNamespace_MultiplayerScoreProvider_$$c__DisplayClass18_0SizeCheck;
   static_assert(sizeof(MultiplayerScoreProvider::$$c__DisplayClass18_0) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerScoreProvider::$$c__DisplayClass18_0*, "", "MultiplayerScoreProvider/<>c__DisplayClass18_0");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerScoreProvider::$$c__DisplayClass18_0::$GetPositionOfPlayer$b__0
 // Il2CppName: <GetPositionOfPlayer>b__0
 template<>

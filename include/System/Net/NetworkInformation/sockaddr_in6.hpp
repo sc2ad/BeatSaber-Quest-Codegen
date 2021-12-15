@@ -4,19 +4,12 @@
 #pragma once
 // Begin includes
 #include <stdint.h>
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.Net.NetworkInformation.in6_addr
 #include "System/Net/NetworkInformation/in6_addr.hpp"
 // Completed includes
-// Type namespace: System.Net.NetworkInformation
-namespace System::Net::NetworkInformation {
-  // Forward declaring type: sockaddr_in6
-  struct sockaddr_in6;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::sockaddr_in6, "System.Net.NetworkInformation", "sockaddr_in6");
 // Type namespace: System.Net.NetworkInformation
 namespace System::Net::NetworkInformation {
   // Size: 0x14
@@ -26,11 +19,6 @@ namespace System::Net::NetworkInformation {
   // [TokenAttribute] Offset: FFFFFFFF
   struct sockaddr_in6/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.UInt16 sin6_family
     // Size: 0x2
     // Offset: 0x0
@@ -61,7 +49,6 @@ namespace System::Net::NetworkInformation {
     uint sin6_scope_id;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
-    public:
     // Creating value type constructor for type: sockaddr_in6
     constexpr sockaddr_in6(uint16_t sin6_family_ = {}, uint16_t sin6_port_ = {}, uint sin6_flowinfo_ = {}, System::Net::NetworkInformation::in6_addr sin6_addr_ = {}, uint sin6_scope_id_ = {}) noexcept : sin6_family{sin6_family_}, sin6_port{sin6_port_}, sin6_flowinfo{sin6_flowinfo_}, sin6_addr{sin6_addr_}, sin6_scope_id{sin6_scope_id_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -83,4 +70,6 @@ namespace System::Net::NetworkInformation {
   static check_size<sizeof(sockaddr_in6), 16 + sizeof(uint)> __System_Net_NetworkInformation_sockaddr_in6SizeCheck;
   static_assert(sizeof(sockaddr_in6) == 0x14);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::sockaddr_in6, "System.Net.NetworkInformation", "sockaddr_in6");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

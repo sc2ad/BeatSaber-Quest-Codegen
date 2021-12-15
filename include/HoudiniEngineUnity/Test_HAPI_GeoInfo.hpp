@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HoudiniEngineUnity.IEquivable`1
 #include "HoudiniEngineUnity/IEquivable_1.hpp"
 // Including type: HoudiniEngineUnity.HAPI_GeoInfo
 #include "HoudiniEngineUnity/HAPI_GeoInfo.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: HoudiniEngineUnity
-namespace HoudiniEngineUnity {
-  // Forward declaring type: Test_HAPI_GeoInfo
-  class Test_HAPI_GeoInfo;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::Test_HAPI_GeoInfo);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::Test_HAPI_GeoInfo*, "HoudiniEngineUnity", "Test_HAPI_GeoInfo");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x34
@@ -30,18 +22,14 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class Test_HAPI_GeoInfo : public ::Il2CppObject/*, public HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::Test_HAPI_GeoInfo*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public HoudiniEngineUnity.HAPI_GeoInfo self
     // Size: 0x24
     // Offset: 0x10
     HoudiniEngineUnity::HAPI_GeoInfo self;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::HAPI_GeoInfo) == 0x24);
-    public:
+    // Creating value type constructor for type: Test_HAPI_GeoInfo
+    Test_HAPI_GeoInfo(HoudiniEngineUnity::HAPI_GeoInfo self_ = {}) noexcept : self{self_} {}
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::Test_HAPI_GeoInfo*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::Test_HAPI_GeoInfo*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::Test_HAPI_GeoInfo*>*>(this);
@@ -53,21 +41,22 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public HoudiniEngineUnity.HAPI_GeoInfo self
     HoudiniEngineUnity::HAPI_GeoInfo& dyn_self();
     // public System.Void .ctor(HoudiniEngineUnity.HAPI_GeoInfo self)
-    // Offset: 0x16EE11C
+    // Offset: 0x178FFD8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test_HAPI_GeoInfo* New_ctor(HoudiniEngineUnity::HAPI_GeoInfo self) {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::Test_HAPI_GeoInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test_HAPI_GeoInfo*, creationType>(self)));
     }
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.Test_HAPI_GeoInfo other)
-    // Offset: 0x16EE154
+    // Offset: 0x1790010
     bool IsEquivalentTo(HoudiniEngineUnity::Test_HAPI_GeoInfo* other);
   }; // HoudiniEngineUnity.Test_HAPI_GeoInfo
   #pragma pack(pop)
   static check_size<sizeof(Test_HAPI_GeoInfo), 16 + sizeof(HoudiniEngineUnity::HAPI_GeoInfo)> __HoudiniEngineUnity_Test_HAPI_GeoInfoSizeCheck;
   static_assert(sizeof(Test_HAPI_GeoInfo) == 0x34);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::Test_HAPI_GeoInfo*, "HoudiniEngineUnity", "Test_HAPI_GeoInfo");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::Test_HAPI_GeoInfo::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: UnityEngine.Color
@@ -29,13 +29,6 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
-  // Forward declaring type: TextGenerationSettings
-  struct TextGenerationSettings;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextGenerationSettings, "UnityEngine", "TextGenerationSettings");
-// Type namespace: UnityEngine
-namespace UnityEngine {
   // Size: 0x59
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -43,11 +36,6 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   struct TextGenerationSettings/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public UnityEngine.Font font
     // Size: 0x8
     // Offset: 0x0
@@ -162,7 +150,6 @@ namespace UnityEngine {
     bool generateOutOfBounds;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
     // Creating value type constructor for type: TextGenerationSettings
     constexpr TextGenerationSettings(UnityEngine::Font* font_ = {}, UnityEngine::Color color_ = {}, int fontSize_ = {}, float lineSpacing_ = {}, bool richText_ = {}, float scaleFactor_ = {}, UnityEngine::FontStyle fontStyle_ = {}, UnityEngine::TextAnchor textAnchor_ = {}, bool alignByGeometry_ = {}, bool resizeTextForBestFit_ = {}, int resizeTextMinSize_ = {}, int resizeTextMaxSize_ = {}, bool updateBounds_ = {}, UnityEngine::VerticalWrapMode verticalOverflow_ = {}, UnityEngine::HorizontalWrapMode horizontalOverflow_ = {}, UnityEngine::Vector2 generationExtents_ = {}, UnityEngine::Vector2 pivot_ = {}, bool generateOutOfBounds_ = {}) noexcept : font{font_}, color{color_}, fontSize{fontSize_}, lineSpacing{lineSpacing_}, richText{richText_}, scaleFactor{scaleFactor_}, fontStyle{fontStyle_}, textAnchor{textAnchor_}, alignByGeometry{alignByGeometry_}, resizeTextForBestFit{resizeTextForBestFit_}, resizeTextMinSize{resizeTextMinSize_}, resizeTextMaxSize{resizeTextMaxSize_}, updateBounds{updateBounds_}, verticalOverflow{verticalOverflow_}, horizontalOverflow{horizontalOverflow_}, generationExtents{generationExtents_}, pivot{pivot_}, generateOutOfBounds{generateOutOfBounds_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -206,20 +193,22 @@ namespace UnityEngine {
     // Get instance field reference: public System.Boolean generateOutOfBounds
     bool& dyn_generateOutOfBounds();
     // private System.Boolean CompareColors(UnityEngine.Color left, UnityEngine.Color right)
-    // Offset: 0x26020AC
+    // Offset: 0x26C50D4
     bool CompareColors(UnityEngine::Color left, UnityEngine::Color right);
     // private System.Boolean CompareVector2(UnityEngine.Vector2 left, UnityEngine.Vector2 right)
-    // Offset: 0x26021F8
+    // Offset: 0x26C5220
     bool CompareVector2(UnityEngine::Vector2 left, UnityEngine::Vector2 right);
     // public System.Boolean Equals(UnityEngine.TextGenerationSettings other)
-    // Offset: 0x26022C4
+    // Offset: 0x26C52EC
     bool Equals(UnityEngine::TextGenerationSettings other);
   }; // UnityEngine.TextGenerationSettings
   #pragma pack(pop)
   static check_size<sizeof(TextGenerationSettings), 88 + sizeof(bool)> __UnityEngine_TextGenerationSettingsSizeCheck;
   static_assert(sizeof(TextGenerationSettings) == 0x59);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextGenerationSettings, "UnityEngine", "TextGenerationSettings");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TextGenerationSettings::CompareColors
 // Il2CppName: CompareColors
 template<>

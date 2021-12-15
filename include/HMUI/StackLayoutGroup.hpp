@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.UI.LayoutGroup
 #include "UnityEngine/UI/LayoutGroup.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: HMUI
-namespace HMUI {
-  // Forward declaring type: StackLayoutGroup
-  class StackLayoutGroup;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HMUI::StackLayoutGroup);
-DEFINE_IL2CPP_ARG_TYPE(HMUI::StackLayoutGroup*, "HMUI", "StackLayoutGroup");
 // Type namespace: HMUI
 namespace HMUI {
   // Size: 0x5A
@@ -28,11 +20,6 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class StackLayoutGroup : public UnityEngine::UI::LayoutGroup {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // protected System.Boolean m_ChildForceExpandWidth
     // Size: 0x1
     // Offset: 0x58
@@ -45,31 +32,32 @@ namespace HMUI {
     bool m_ChildForceExpandHeight;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: StackLayoutGroup
+    StackLayoutGroup(bool m_ChildForceExpandWidth_ = {}, bool m_ChildForceExpandHeight_ = {}) noexcept : m_ChildForceExpandWidth{m_ChildForceExpandWidth_}, m_ChildForceExpandHeight{m_ChildForceExpandHeight_} {}
     // Get instance field reference: protected System.Boolean m_ChildForceExpandWidth
     bool& dyn_m_ChildForceExpandWidth();
     // Get instance field reference: protected System.Boolean m_ChildForceExpandHeight
     bool& dyn_m_ChildForceExpandHeight();
     // public System.Boolean get_childForceExpandWidth()
-    // Offset: 0x1400800
+    // Offset: 0x14CF088
     bool get_childForceExpandWidth();
     // public System.Void set_childForceExpandWidth(System.Boolean value)
-    // Offset: 0x1400808
+    // Offset: 0x14CF090
     void set_childForceExpandWidth(bool value);
     // public System.Boolean get_childForceExpandHeight()
-    // Offset: 0x140086C
+    // Offset: 0x14CF0F4
     bool get_childForceExpandHeight();
     // public System.Void set_childForceExpandHeight(System.Boolean value)
-    // Offset: 0x1400874
+    // Offset: 0x14CF0FC
     void set_childForceExpandHeight(bool value);
     // private System.Void CalcAlongAxis(System.Int32 axis)
-    // Offset: 0x1400914
+    // Offset: 0x14CF19C
     void CalcAlongAxis(int axis);
     // private System.Void SetChildrenAlongAxis(System.Int32 axis)
-    // Offset: 0x1400B2C
+    // Offset: 0x14CF3B4
     void SetChildrenAlongAxis(int axis);
     // protected System.Void .ctor()
-    // Offset: 0x14008D8
+    // Offset: 0x14CF160
     // Implemented from: UnityEngine.UI.LayoutGroup
     // Base method: System.Void LayoutGroup::.ctor()
     // Base method: System.Void UIBehaviour::.ctor()
@@ -84,22 +72,22 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<StackLayoutGroup*, creationType>()));
     }
     // public override System.Void CalculateLayoutInputHorizontal()
-    // Offset: 0x14008E8
+    // Offset: 0x14CF170
     // Implemented from: UnityEngine.UI.LayoutGroup
     // Base method: System.Void LayoutGroup::CalculateLayoutInputHorizontal()
     void CalculateLayoutInputHorizontal();
     // public override System.Void CalculateLayoutInputVertical()
-    // Offset: 0x1400B1C
+    // Offset: 0x14CF3A4
     // Implemented from: UnityEngine.UI.LayoutGroup
     // Base method: System.Void LayoutGroup::CalculateLayoutInputVertical()
     void CalculateLayoutInputVertical();
     // public override System.Void SetLayoutHorizontal()
-    // Offset: 0x1400B24
+    // Offset: 0x14CF3AC
     // Implemented from: UnityEngine.UI.LayoutGroup
     // Base method: System.Void LayoutGroup::SetLayoutHorizontal()
     void SetLayoutHorizontal();
     // public override System.Void SetLayoutVertical()
-    // Offset: 0x1400D44
+    // Offset: 0x14CF5CC
     // Implemented from: UnityEngine.UI.LayoutGroup
     // Base method: System.Void LayoutGroup::SetLayoutVertical()
     void SetLayoutVertical();
@@ -108,7 +96,8 @@ namespace HMUI {
   static check_size<sizeof(StackLayoutGroup), 89 + sizeof(bool)> __HMUI_StackLayoutGroupSizeCheck;
   static_assert(sizeof(StackLayoutGroup) == 0x5A);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HMUI::StackLayoutGroup*, "HMUI", "StackLayoutGroup");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::StackLayoutGroup::get_childForceExpandWidth
 // Il2CppName: get_childForceExpandWidth
 template<>

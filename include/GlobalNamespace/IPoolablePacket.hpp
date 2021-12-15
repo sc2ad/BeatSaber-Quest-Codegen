@@ -3,16 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: IPoolablePacket
-  class IPoolablePacket;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::IPoolablePacket);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IPoolablePacket*, "", "IPoolablePacket");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -21,13 +13,17 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IPoolablePacket {
     public:
+    // Creating value type constructor for type: IPoolablePacket
+    IPoolablePacket() noexcept {}
     // public System.Void Release()
     // Offset: 0xFFFFFFFF
     void Release();
   }; // IPoolablePacket
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IPoolablePacket*, "", "IPoolablePacket");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::IPoolablePacket::Release
 // Il2CppName: Release
 template<>

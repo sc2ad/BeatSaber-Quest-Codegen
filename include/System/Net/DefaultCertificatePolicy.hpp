@@ -3,17 +3,9 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: System.Net
-namespace System::Net {
-  // Forward declaring type: DefaultCertificatePolicy
-  class DefaultCertificatePolicy;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::DefaultCertificatePolicy);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::DefaultCertificatePolicy*, "System.Net", "DefaultCertificatePolicy");
 // Type namespace: System.Net
 namespace System::Net {
   // Size: 0x10
@@ -22,7 +14,11 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class DefaultCertificatePolicy : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: DefaultCertificatePolicy
+    DefaultCertificatePolicy() noexcept {}
   }; // System.Net.DefaultCertificatePolicy
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::DefaultCertificatePolicy*, "System.Net", "DefaultCertificatePolicy");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

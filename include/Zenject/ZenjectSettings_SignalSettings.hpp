@@ -3,27 +3,26 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.ZenjectSettings
 #include "Zenject/ZenjectSettings.hpp"
 // Including type: Zenject.SignalDefaultSyncModes
 #include "Zenject/SignalDefaultSyncModes.hpp"
 // Including type: Zenject.SignalMissingHandlerResponses
 #include "Zenject/SignalMissingHandlerResponses.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Zenject
+// Begin forward declares
+// Forward declaring namespace: Zenject
 namespace Zenject {
-  // Forward declaring type: SignalSettings
-  class SignalSettings;
+  // Forward declaring type: InjectTypeInfo
+  class InjectTypeInfo;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::ZenjectSettings::SignalSettings);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenjectSettings::SignalSettings*, "Zenject", "ZenjectSettings/SignalSettings");
+// Completed forward declares
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x20
@@ -32,11 +31,6 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class ZenjectSettings::SignalSettings : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private Zenject.SignalDefaultSyncModes _defaultSyncMode
     // Size: 0x4
     // Offset: 0x10
@@ -63,7 +57,8 @@ namespace Zenject {
     int defaultAsyncTickPriority;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
+    // Creating value type constructor for type: SignalSettings
+    SignalSettings(Zenject::SignalDefaultSyncModes defaultSyncMode_ = {}, Zenject::SignalMissingHandlerResponses missingHandlerDefaultResponse_ = {}, bool requireStrictUnsubscribe_ = {}, int defaultAsyncTickPriority_ = {}) noexcept : defaultSyncMode{defaultSyncMode_}, missingHandlerDefaultResponse{missingHandlerDefaultResponse_}, requireStrictUnsubscribe{requireStrictUnsubscribe_}, defaultAsyncTickPriority{defaultAsyncTickPriority_} {}
     // Get static field: static public Zenject.ZenjectSettings/Zenject.SignalSettings Default
     static Zenject::ZenjectSettings::SignalSettings* _get_Default();
     // Set static field: static public Zenject.ZenjectSettings/Zenject.SignalSettings Default
@@ -77,29 +72,35 @@ namespace Zenject {
     // Get instance field reference: private System.Int32 _defaultAsyncTickPriority
     int& dyn__defaultAsyncTickPriority();
     // public System.Int32 get_DefaultAsyncTickPriority()
-    // Offset: 0x25D6A7C
+    // Offset: 0x219D9B4
     int get_DefaultAsyncTickPriority();
     // public Zenject.SignalDefaultSyncModes get_DefaultSyncMode()
-    // Offset: 0x25D6A84
+    // Offset: 0x219D9BC
     Zenject::SignalDefaultSyncModes get_DefaultSyncMode();
     // public Zenject.SignalMissingHandlerResponses get_MissingHandlerDefaultResponse()
-    // Offset: 0x25D6A8C
+    // Offset: 0x219D9C4
     Zenject::SignalMissingHandlerResponses get_MissingHandlerDefaultResponse();
     // public System.Boolean get_RequireStrictUnsubscribe()
-    // Offset: 0x25D6A94
+    // Offset: 0x219D9CC
     bool get_RequireStrictUnsubscribe();
     // public System.Void .ctor(Zenject.SignalDefaultSyncModes defaultSyncMode, Zenject.SignalMissingHandlerResponses missingHandlerDefaultResponse, System.Boolean requireStrictUnsubscribe, System.Int32 defaultAsyncTickPriority)
-    // Offset: 0x25D69EC
+    // Offset: 0x219D924
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ZenjectSettings::SignalSettings* New_ctor(Zenject::SignalDefaultSyncModes defaultSyncMode, Zenject::SignalMissingHandlerResponses missingHandlerDefaultResponse, bool requireStrictUnsubscribe, int defaultAsyncTickPriority) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ZenjectSettings::SignalSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ZenjectSettings::SignalSettings*, creationType>(defaultSyncMode, missingHandlerDefaultResponse, requireStrictUnsubscribe, defaultAsyncTickPriority)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x25D6A9C
+    // Offset: 0x219D9D4
     static void _cctor();
+    // static private System.Object __zenCreate(System.Object[] P_0)
+    // Offset: 0x219DA50
+    static ::Il2CppObject* __zenCreate(::Array<::Il2CppObject*>* P_0);
+    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
+    // Offset: 0x219DAC4
+    static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
-    // Offset: 0x25D6A40
+    // Offset: 0x219D978
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -112,7 +113,8 @@ namespace Zenject {
   static check_size<sizeof(ZenjectSettings::SignalSettings), 28 + sizeof(int)> __Zenject_ZenjectSettings_SignalSettingsSizeCheck;
   static_assert(sizeof(ZenjectSettings::SignalSettings) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenjectSettings::SignalSettings*, "Zenject", "ZenjectSettings/SignalSettings");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::ZenjectSettings::SignalSettings::get_DefaultAsyncTickPriority
 // Il2CppName: get_DefaultAsyncTickPriority
 template<>
@@ -155,6 +157,23 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Zenject::ZenjectSettings::SignalSettings::_cctor)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSettings::SignalSettings*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Zenject::ZenjectSettings::SignalSettings::__zenCreate
+// Il2CppName: __zenCreate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Array<::Il2CppObject*>*)>(&Zenject::ZenjectSettings::SignalSettings::__zenCreate)> {
+  static const MethodInfo* get() {
+    static auto* P_0 = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSettings::SignalSettings*), "__zenCreate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{P_0});
+  }
+};
+// Writing MetadataGetter for method: Zenject::ZenjectSettings::SignalSettings::__zenCreateInjectTypeInfo
+// Il2CppName: __zenCreateInjectTypeInfo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo* (*)()>(&Zenject::ZenjectSettings::SignalSettings::__zenCreateInjectTypeInfo)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSettings::SignalSettings*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: Zenject::ZenjectSettings::SignalSettings::New_ctor

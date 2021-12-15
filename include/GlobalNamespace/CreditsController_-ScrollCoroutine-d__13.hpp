@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: CreditsController
 #include "GlobalNamespace/CreditsController.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
 #include "System/Collections/Generic/IEnumerator_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <ScrollCoroutine>d__13
-  class $ScrollCoroutine$d__13;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::CreditsController::$ScrollCoroutine$d__13);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CreditsController::$ScrollCoroutine$d__13*, "", "CreditsController/<ScrollCoroutine>d__13");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x38
@@ -31,11 +23,6 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class CreditsController::$ScrollCoroutine$d__13 : public ::Il2CppObject/*, public System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -80,7 +67,8 @@ namespace GlobalNamespace {
     float $scrollingSpeed$5__5;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
+    // Creating value type constructor for type: $ScrollCoroutine$d__13
+    $ScrollCoroutine$d__13(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, GlobalNamespace::CreditsController* $$4__this_ = {}, float $contentHeight$5__2_ = {}, float $contentWrapperHeight$5__3_ = {}, float $posY$5__4_ = {}, float $scrollingSpeed$5__5_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$4__this{$$4__this_}, $contentHeight$5__2{$contentHeight$5__2_}, $contentWrapperHeight$5__3{$contentWrapperHeight$5__3_}, $posY$5__4{$posY$5__4_}, $scrollingSpeed$5__5{$scrollingSpeed$5__5_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
@@ -100,33 +88,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single <scrollingSpeed>5__5
     float& dyn_$scrollingSpeed$5__5();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x11348F0
+    // Offset: 0x118FCE8
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1134958
+    // Offset: 0x118FD50
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x11345D0
+    // Offset: 0x118F9C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CreditsController::$ScrollCoroutine$d__13* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::CreditsController::$ScrollCoroutine$d__13::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CreditsController::$ScrollCoroutine$d__13*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1134644
+    // Offset: 0x118FA3C
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1134648
+    // Offset: 0x118FA40
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x11348F8
+    // Offset: 0x118FCF0
     void System_Collections_IEnumerator_Reset();
   }; // CreditsController/<ScrollCoroutine>d__13
   #pragma pack(pop)
   static check_size<sizeof(CreditsController::$ScrollCoroutine$d__13), 52 + sizeof(float)> __GlobalNamespace_CreditsController_$ScrollCoroutine$d__13SizeCheck;
   static_assert(sizeof(CreditsController::$ScrollCoroutine$d__13) == 0x38);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CreditsController::$ScrollCoroutine$d__13*, "", "CreditsController/<ScrollCoroutine>d__13");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CreditsController::$ScrollCoroutine$d__13::System_Collections_Generic_IEnumerator$System_Object$_get_Current
 // Il2CppName: System.Collections.Generic.IEnumerator<System.Object>.get_Current
 template<>

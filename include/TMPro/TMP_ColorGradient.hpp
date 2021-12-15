@@ -3,27 +3,19 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ScriptableObject
 #include "UnityEngine/ScriptableObject.hpp"
 // Including type: TMPro.ColorMode
 #include "TMPro/ColorMode.hpp"
 // Including type: UnityEngine.Color
 #include "UnityEngine/Color.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: TMPro
-namespace TMPro {
-  // Forward declaring type: TMP_ColorGradient
-  class TMP_ColorGradient;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(TMPro::TMP_ColorGradient);
-DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_ColorGradient*, "TMPro", "TMP_ColorGradient");
 // Type namespace: TMPro
 namespace TMPro {
   // Size: 0x5C
@@ -32,11 +24,6 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class TMP_ColorGradient : public UnityEngine::ScriptableObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public TMPro.ColorMode colorMode
     // Size: 0x4
     // Offset: 0x18
@@ -67,7 +54,8 @@ namespace TMPro {
     UnityEngine::Color bottomRight;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
-    public:
+    // Creating value type constructor for type: TMP_ColorGradient
+    TMP_ColorGradient(TMPro::ColorMode colorMode_ = {}, UnityEngine::Color topLeft_ = {}, UnityEngine::Color topRight_ = {}, UnityEngine::Color bottomLeft_ = {}, UnityEngine::Color bottomRight_ = {}) noexcept : colorMode{colorMode_}, topLeft{topLeft_}, topRight{topRight_}, bottomLeft{bottomLeft_}, bottomRight{bottomRight_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private TMPro.ColorMode k_DefaultColorMode
@@ -91,21 +79,21 @@ namespace TMPro {
     // Get instance field reference: public UnityEngine.Color bottomRight
     UnityEngine::Color& dyn_bottomRight();
     // public System.Void .ctor(UnityEngine.Color color)
-    // Offset: 0x11EC17C
+    // Offset: 0x12428EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_ColorGradient* New_ctor(UnityEngine::Color color) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_ColorGradient::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_ColorGradient*, creationType>(color)));
     }
     // public System.Void .ctor(UnityEngine.Color color0, UnityEngine.Color color1, UnityEngine.Color color2, UnityEngine.Color color3)
-    // Offset: 0x11EC1EC
+    // Offset: 0x124295C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_ColorGradient* New_ctor(UnityEngine::Color color0, UnityEngine::Color color1, UnityEngine::Color color2, UnityEngine::Color color3) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_ColorGradient::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_ColorGradient*, creationType>(color0, color1, color2, color3)));
     }
     // public System.Void .ctor()
-    // Offset: 0x11EC0D0
+    // Offset: 0x1242840
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -116,7 +104,7 @@ namespace TMPro {
       return THROW_UNLESS((::il2cpp_utils::New<TMP_ColorGradient*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x11EC294
+    // Offset: 0x1242A04
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
@@ -125,7 +113,8 @@ namespace TMPro {
   static check_size<sizeof(TMP_ColorGradient), 76 + sizeof(UnityEngine::Color)> __TMPro_TMP_ColorGradientSizeCheck;
   static_assert(sizeof(TMP_ColorGradient) == 0x5C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_ColorGradient*, "TMPro", "TMP_ColorGradient");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_ColorGradient::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

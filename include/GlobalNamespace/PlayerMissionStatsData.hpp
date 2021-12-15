@@ -3,21 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: PlayerMissionStatsData
-  class PlayerMissionStatsData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::PlayerMissionStatsData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerMissionStatsData*, "", "PlayerMissionStatsData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x19
@@ -26,11 +18,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayerMissionStatsData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.String _missionId
     // Size: 0x8
     // Offset: 0x10
@@ -43,22 +30,23 @@ namespace GlobalNamespace {
     bool cleared;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: PlayerMissionStatsData
+    PlayerMissionStatsData(::Il2CppString* missionId_ = {}, bool cleared_ = {}) noexcept : missionId{missionId_}, cleared{cleared_} {}
     // Get instance field reference: private System.String _missionId
     ::Il2CppString*& dyn__missionId();
     // Get instance field reference: private System.Boolean _cleared
     bool& dyn__cleared();
     // public System.String get_missionId()
-    // Offset: 0x12CBD1C
+    // Offset: 0x11A9EA8
     ::Il2CppString* get_missionId();
     // public System.Boolean get_cleared()
-    // Offset: 0x12CBD24
+    // Offset: 0x11A9EB0
     bool get_cleared();
     // public System.Void set_cleared(System.Boolean value)
-    // Offset: 0x12CBD2C
+    // Offset: 0x11A9EB8
     void set_cleared(bool value);
     // public System.Void .ctor(System.String missionId, System.Boolean cleared)
-    // Offset: 0x12C74C0
+    // Offset: 0x11A9EC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerMissionStatsData* New_ctor(::Il2CppString* missionId, bool cleared) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayerMissionStatsData::.ctor");
@@ -69,7 +57,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(PlayerMissionStatsData), 24 + sizeof(bool)> __GlobalNamespace_PlayerMissionStatsDataSizeCheck;
   static_assert(sizeof(PlayerMissionStatsData) == 0x19);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerMissionStatsData*, "", "PlayerMissionStatsData");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayerMissionStatsData::get_missionId
 // Il2CppName: get_missionId
 template<>

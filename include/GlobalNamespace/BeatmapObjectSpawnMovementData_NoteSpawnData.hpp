@@ -3,18 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BeatmapObjectSpawnMovementData
 #include "GlobalNamespace/BeatmapObjectSpawnMovementData.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: NoteSpawnData
-  struct NoteSpawnData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData, "", "BeatmapObjectSpawnMovementData/NoteSpawnData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x30
@@ -24,11 +21,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct BeatmapObjectSpawnMovementData::NoteSpawnData/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public readonly UnityEngine.Vector3 moveStartPos
     // Size: 0xC
     // Offset: 0x0
@@ -65,7 +57,6 @@ namespace GlobalNamespace {
     float jumpDuration;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
     // Creating value type constructor for type: NoteSpawnData
     constexpr NoteSpawnData(UnityEngine::Vector3 moveStartPos_ = {}, UnityEngine::Vector3 moveEndPos_ = {}, UnityEngine::Vector3 jumpEndPos_ = {}, float jumpGravity_ = {}, float moveDuration_ = {}, float jumpDuration_ = {}) noexcept : moveStartPos{moveStartPos_}, moveEndPos{moveEndPos_}, jumpEndPos{jumpEndPos_}, jumpGravity{jumpGravity_}, moveDuration{moveDuration_}, jumpDuration{jumpDuration_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -85,14 +76,16 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Single jumpDuration
     float& dyn_jumpDuration();
     // public System.Void .ctor(UnityEngine.Vector3 moveStartPos, UnityEngine.Vector3 moveEndPos, UnityEngine.Vector3 jumpEndPos, System.Single jumpGravity, System.Single moveDuration, System.Single jumpDuration)
-    // Offset: 0x129F7B0
-    // ABORTED: conflicts with another method.  NoteSpawnData(UnityEngine::Vector3 moveStartPos, UnityEngine::Vector3 moveEndPos, UnityEngine::Vector3 jumpEndPos, float jumpGravity, float moveDuration, float jumpDuration);
+    // Offset: 0x132FABC
+    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    // ABORTED: conflicts with another method.  NoteSpawnData(UnityEngine::Vector3 moveStartPos, UnityEngine::Vector3 moveEndPos, UnityEngine::Vector3 jumpEndPos, float jumpGravity, float moveDuration, float jumpDuration)
   }; // BeatmapObjectSpawnMovementData/NoteSpawnData
   #pragma pack(pop)
   static check_size<sizeof(BeatmapObjectSpawnMovementData::NoteSpawnData), 44 + sizeof(float)> __GlobalNamespace_BeatmapObjectSpawnMovementData_NoteSpawnDataSizeCheck;
   static_assert(sizeof(BeatmapObjectSpawnMovementData::NoteSpawnData) == 0x30);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData, "", "BeatmapObjectSpawnMovementData/NoteSpawnData");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData::NoteSpawnData
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

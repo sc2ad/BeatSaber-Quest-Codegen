@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Including type: System.ValueType
@@ -21,13 +21,6 @@ namespace System {
 // Completed forward declares
 // Type namespace: System
 namespace System {
-  // Forward declaring type: EnumResult
-  struct EnumResult;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Enum::EnumResult, "System", "Enum/EnumResult");
-// Type namespace: System
-namespace System {
   // Size: 0x30
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -35,11 +28,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Enum::EnumResult/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // System.Object parsedEnum
     // Size: 0x8
     // Offset: 0x0
@@ -84,7 +72,6 @@ namespace System {
     System::Exception* m_innerException;
     // Field size check
     static_assert(sizeof(System::Exception*) == 0x8);
-    public:
     // Creating value type constructor for type: EnumResult
     constexpr EnumResult(::Il2CppObject* parsedEnum_ = {}, bool canThrow_ = {}, System::Enum::ParseFailureKind m_failure_ = {}, ::Il2CppString* m_failureMessageID_ = {}, ::Il2CppString* m_failureParameter_ = {}, ::Il2CppObject* m_failureMessageFormatArgument_ = {}, System::Exception* m_innerException_ = {}) noexcept : parsedEnum{parsedEnum_}, canThrow{canThrow_}, m_failure{m_failure_}, m_failureMessageID{m_failureMessageID_}, m_failureParameter{m_failureParameter_}, m_failureMessageFormatArgument{m_failureMessageFormatArgument_}, m_innerException{m_innerException_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -106,26 +93,28 @@ namespace System {
     // Get instance field reference: System.Exception m_innerException
     System::Exception*& dyn_m_innerException();
     // System.Void Init(System.Boolean canMethodThrow)
-    // Offset: 0x1986C78
+    // Offset: 0x19A5328
     void Init(bool canMethodThrow);
     // System.Void SetFailure(System.Exception unhandledException)
-    // Offset: 0x1987B94
+    // Offset: 0x19A6244
     void SetFailure(System::Exception* unhandledException);
     // System.Void SetFailure(System.Enum/System.ParseFailureKind failure, System.String failureParameter)
-    // Offset: 0x19874D0
+    // Offset: 0x19A5B80
     void SetFailure(System::Enum::ParseFailureKind failure, ::Il2CppString* failureParameter);
     // System.Void SetFailure(System.Enum/System.ParseFailureKind failure, System.String failureMessageID, System.Object failureMessageFormatArgument)
-    // Offset: 0x1987548
+    // Offset: 0x19A5BF8
     void SetFailure(System::Enum::ParseFailureKind failure, ::Il2CppString* failureMessageID, ::Il2CppObject* failureMessageFormatArgument);
     // System.Exception GetEnumParseException()
-    // Offset: 0x1987368
+    // Offset: 0x19A5A18
     System::Exception* GetEnumParseException();
   }; // System.Enum/System.EnumResult
   #pragma pack(pop)
   static check_size<sizeof(Enum::EnumResult), 40 + sizeof(System::Exception*)> __System_Enum_EnumResultSizeCheck;
   static_assert(sizeof(Enum::EnumResult) == 0x30);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Enum::EnumResult, "System", "Enum/EnumResult");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Enum::EnumResult::Init
 // Il2CppName: Init
 template<>

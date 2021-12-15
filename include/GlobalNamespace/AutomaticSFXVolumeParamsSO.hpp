@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ScriptableObject
 #include "UnityEngine/ScriptableObject.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: AutomaticSFXVolumeParamsSO
-  class AutomaticSFXVolumeParamsSO;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::AutomaticSFXVolumeParamsSO);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AutomaticSFXVolumeParamsSO*, "", "AutomaticSFXVolumeParamsSO");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x38
@@ -28,11 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AutomaticSFXVolumeParamsSO : public UnityEngine::ScriptableObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Single _musicVolumeMultiplier
     // Size: 0x4
     // Offset: 0x18
@@ -81,7 +68,8 @@ namespace GlobalNamespace {
     float volumeSmooth;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
+    // Creating value type constructor for type: AutomaticSFXVolumeParamsSO
+    AutomaticSFXVolumeParamsSO(float musicVolumeMultiplier_ = {}, float threshold_ = {}, float impact_ = {}, float attackTime_ = {}, float releaseTime_ = {}, float minVolume_ = {}, float maxVolume_ = {}, float volumeSmooth_ = {}) noexcept : musicVolumeMultiplier{musicVolumeMultiplier_}, threshold{threshold_}, impact{impact_}, attackTime{attackTime_}, releaseTime{releaseTime_}, minVolume{minVolume_}, maxVolume{maxVolume_}, volumeSmooth{volumeSmooth_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single _musicVolumeMultiplier
@@ -101,31 +89,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _volumeSmooth
     float& dyn__volumeSmooth();
     // public System.Single get_musicVolumeMultiplier()
-    // Offset: 0x261E324
+    // Offset: 0x1316D08
     float get_musicVolumeMultiplier();
     // public System.Single get_threshold()
-    // Offset: 0x261E32C
+    // Offset: 0x1316D10
     float get_threshold();
     // public System.Single get_impact()
-    // Offset: 0x261E334
+    // Offset: 0x1316D18
     float get_impact();
     // public System.Single get_attackTime()
-    // Offset: 0x261E33C
+    // Offset: 0x1316D20
     float get_attackTime();
     // public System.Single get_releaseTime()
-    // Offset: 0x261E344
+    // Offset: 0x1316D28
     float get_releaseTime();
     // public System.Single get_minVolume()
-    // Offset: 0x261E34C
+    // Offset: 0x1316D30
     float get_minVolume();
     // public System.Single get_maxVolume()
-    // Offset: 0x261E354
+    // Offset: 0x1316D38
     float get_maxVolume();
     // public System.Single get_volumeSmooth()
-    // Offset: 0x261E35C
+    // Offset: 0x1316D40
     float get_volumeSmooth();
     // public System.Void .ctor()
-    // Offset: 0x261E364
+    // Offset: 0x1316D48
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -140,7 +128,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(AutomaticSFXVolumeParamsSO), 52 + sizeof(float)> __GlobalNamespace_AutomaticSFXVolumeParamsSOSizeCheck;
   static_assert(sizeof(AutomaticSFXVolumeParamsSO) == 0x38);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AutomaticSFXVolumeParamsSO*, "", "AutomaticSFXVolumeParamsSO");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AutomaticSFXVolumeParamsSO::get_musicVolumeMultiplier
 // Il2CppName: get_musicVolumeMultiplier
 template<>

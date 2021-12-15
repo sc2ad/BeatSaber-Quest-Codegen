@@ -3,18 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: LiteNetLib
-namespace LiteNetLib {
-  // Forward declaring type: DisconnectReason
-  struct DisconnectReason;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::DisconnectReason, "LiteNetLib", "DisconnectReason");
 // Type namespace: LiteNetLib
 namespace LiteNetLib {
   // Size: 0x4
@@ -23,18 +16,12 @@ namespace LiteNetLib {
   // [TokenAttribute] Offset: FFFFFFFF
   struct DisconnectReason/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: DisconnectReason
     constexpr DisconnectReason(int value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -118,4 +105,6 @@ namespace LiteNetLib {
   static check_size<sizeof(DisconnectReason), 0 + sizeof(int)> __LiteNetLib_DisconnectReasonSizeCheck;
   static_assert(sizeof(DisconnectReason) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::DisconnectReason, "LiteNetLib", "DisconnectReason");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

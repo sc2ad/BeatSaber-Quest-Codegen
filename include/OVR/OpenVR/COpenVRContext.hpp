@@ -3,19 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
 // Completed includes
-// Type namespace: OVR.OpenVR
-namespace OVR::OpenVR {
-  // Forward declaring type: COpenVRContext
-  struct COpenVRContext;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::COpenVRContext, "OVR.OpenVR", "COpenVRContext");
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
   // Size: 0x80
@@ -25,11 +19,6 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct COpenVRContext/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.IntPtr m_pVRSystem
     // Size: 0x8
     // Offset: 0x0
@@ -126,7 +115,6 @@ namespace OVR::OpenVR {
     System::IntPtr m_pVRSpatialAnchors;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
-    public:
     // Creating value type constructor for type: COpenVRContext
     constexpr COpenVRContext(System::IntPtr m_pVRSystem_ = {}, System::IntPtr m_pVRChaperone_ = {}, System::IntPtr m_pVRChaperoneSetup_ = {}, System::IntPtr m_pVRCompositor_ = {}, System::IntPtr m_pVROverlay_ = {}, System::IntPtr m_pVRResources_ = {}, System::IntPtr m_pVRRenderModels_ = {}, System::IntPtr m_pVRExtendedDisplay_ = {}, System::IntPtr m_pVRSettings_ = {}, System::IntPtr m_pVRApplications_ = {}, System::IntPtr m_pVRTrackedCamera_ = {}, System::IntPtr m_pVRScreenshots_ = {}, System::IntPtr m_pVRDriverManager_ = {}, System::IntPtr m_pVRInput_ = {}, System::IntPtr m_pVRIOBuffer_ = {}, System::IntPtr m_pVRSpatialAnchors_ = {}) noexcept : m_pVRSystem{m_pVRSystem_}, m_pVRChaperone{m_pVRChaperone_}, m_pVRChaperoneSetup{m_pVRChaperoneSetup_}, m_pVRCompositor{m_pVRCompositor_}, m_pVROverlay{m_pVROverlay_}, m_pVRResources{m_pVRResources_}, m_pVRRenderModels{m_pVRRenderModels_}, m_pVRExtendedDisplay{m_pVRExtendedDisplay_}, m_pVRSettings{m_pVRSettings_}, m_pVRApplications{m_pVRApplications_}, m_pVRTrackedCamera{m_pVRTrackedCamera_}, m_pVRScreenshots{m_pVRScreenshots_}, m_pVRDriverManager{m_pVRDriverManager_}, m_pVRInput{m_pVRInput_}, m_pVRIOBuffer{m_pVRIOBuffer_}, m_pVRSpatialAnchors{m_pVRSpatialAnchors_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -170,4 +158,6 @@ namespace OVR::OpenVR {
   static check_size<sizeof(COpenVRContext), 120 + sizeof(System::IntPtr)> __OVR_OpenVR_COpenVRContextSizeCheck;
   static_assert(sizeof(COpenVRContext) == 0x80);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::COpenVRContext, "OVR.OpenVR", "COpenVRContext");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

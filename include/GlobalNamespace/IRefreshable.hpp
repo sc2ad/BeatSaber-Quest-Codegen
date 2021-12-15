@@ -3,16 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: IRefreshable
-  class IRefreshable;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::IRefreshable);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IRefreshable*, "", "IRefreshable");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -21,13 +13,17 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IRefreshable {
     public:
+    // Creating value type constructor for type: IRefreshable
+    IRefreshable() noexcept {}
     // public System.Void Refresh()
     // Offset: 0xFFFFFFFF
     void Refresh();
   }; // IRefreshable
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IRefreshable*, "", "IRefreshable");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::IRefreshable::Refresh
 // Il2CppName: Refresh
 template<>

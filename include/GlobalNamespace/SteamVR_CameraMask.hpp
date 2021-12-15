@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: SteamVR_CameraMask
-  class SteamVR_CameraMask;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::SteamVR_CameraMask);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_CameraMask*, "", "SteamVR_CameraMask");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x18
@@ -29,11 +21,13 @@ namespace GlobalNamespace {
   // [ExecuteInEditMode] Offset: FFFFFFFF
   class SteamVR_CameraMask : public UnityEngine::MonoBehaviour {
     public:
+    // Creating value type constructor for type: SteamVR_CameraMask
+    SteamVR_CameraMask() noexcept {}
     // private System.Void Awake()
-    // Offset: 0x151DF48
+    // Offset: 0x15B7334
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0x151DFE4
+    // Offset: 0x15B73D0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -48,7 +42,8 @@ namespace GlobalNamespace {
   }; // SteamVR_CameraMask
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_CameraMask*, "", "SteamVR_CameraMask");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_CameraMask::Awake
 // Il2CppName: Awake
 template<>

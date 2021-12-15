@@ -3,17 +3,9 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: System
-namespace System {
-  // Forward declaring type: AppContextSwitches
-  class AppContextSwitches;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::AppContextSwitches);
-DEFINE_IL2CPP_ARG_TYPE(System::AppContextSwitches*, "System", "AppContextSwitches");
 // Type namespace: System
 namespace System {
   // Size: 0x10
@@ -22,6 +14,8 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class AppContextSwitches : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: AppContextSwitches
+    AppContextSwitches() noexcept {}
     // Get static field: static public readonly System.Boolean ThrowExceptionIfDisposedCancellationTokenSource
     static bool _get_ThrowExceptionIfDisposedCancellationTokenSource();
     // Set static field: static public readonly System.Boolean ThrowExceptionIfDisposedCancellationTokenSource
@@ -37,4 +31,6 @@ namespace System {
   }; // System.AppContextSwitches
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::AppContextSwitches*, "System", "AppContextSwitches");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

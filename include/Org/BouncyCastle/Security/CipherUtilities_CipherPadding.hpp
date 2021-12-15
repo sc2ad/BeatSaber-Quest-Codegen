@@ -3,20 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Security.CipherUtilities
 #include "Org/BouncyCastle/Security/CipherUtilities.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: Org.BouncyCastle.Security
-namespace Org::BouncyCastle::Security {
-  // Forward declaring type: CipherPadding
-  struct CipherPadding;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Security::CipherUtilities::CipherPadding, "Org.BouncyCastle.Security", "CipherUtilities/CipherPadding");
 // Type namespace: Org.BouncyCastle.Security
 namespace Org::BouncyCastle::Security {
   // Size: 0x4
@@ -25,18 +18,12 @@ namespace Org::BouncyCastle::Security {
   // [TokenAttribute] Offset: FFFFFFFF
   struct CipherUtilities::CipherPadding/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: CipherPadding
     constexpr CipherPadding(int value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -246,4 +233,6 @@ namespace Org::BouncyCastle::Security {
   static check_size<sizeof(CipherUtilities::CipherPadding), 0 + sizeof(int)> __Org_BouncyCastle_Security_CipherUtilities_CipherPaddingSizeCheck;
   static_assert(sizeof(CipherUtilities::CipherPadding) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Security::CipherUtilities::CipherPadding, "Org.BouncyCastle.Security", "CipherUtilities/CipherPadding");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

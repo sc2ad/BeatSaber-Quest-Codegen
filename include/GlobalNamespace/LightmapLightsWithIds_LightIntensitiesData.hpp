@@ -3,16 +3,16 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LightmapLightsWithIds
 #include "GlobalNamespace/LightmapLightsWithIds.hpp"
 // Including type: LightWithIds/LightData
 #include "GlobalNamespace/LightWithIds_LightData.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -20,14 +20,6 @@ namespace UnityEngine {
   // Skipping declaration: Color because it is already included!
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: LightIntensitiesData
-  class LightIntensitiesData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::LightmapLightsWithIds::LightIntensitiesData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightmapLightsWithIds::LightIntensitiesData*, "", "LightmapLightsWithIds/LightIntensitiesData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x39
@@ -38,11 +30,6 @@ namespace GlobalNamespace {
     public:
     // Writing base type padding for base size: 0x25 to desired offset: 0x28
     char ___base_padding[0x3] = {};
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Single _intensity
     // Size: 0x4
     // Offset: 0x28
@@ -73,7 +60,8 @@ namespace GlobalNamespace {
     bool initializedPropertyIds;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: LightIntensitiesData
+    LightIntensitiesData(float intensity_ = {}, float weight_ = {}, int lightmapLightIdColorPropertyId_ = {}, int lightProbeLightIdColorPropertyId_ = {}, bool initializedPropertyIds_ = {}) noexcept : intensity{intensity_}, weight{weight_}, lightmapLightIdColorPropertyId{lightmapLightIdColorPropertyId_}, lightProbeLightIdColorPropertyId{lightProbeLightIdColorPropertyId_}, initializedPropertyIds{initializedPropertyIds_} {}
     // Get instance field reference: private System.Single _intensity
     float& dyn__intensity();
     // Get instance field reference: private System.Single _weight
@@ -85,22 +73,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _initializedPropertyIds
     bool& dyn__initializedPropertyIds();
     // public System.Single get_intensity()
-    // Offset: 0x1E12EE0
+    // Offset: 0x1DB88A0
     float get_intensity();
     // public System.Void set_intensity(System.Single value)
-    // Offset: 0x1E12EE8
+    // Offset: 0x1DB88A8
     void set_intensity(float value);
     // public System.Single get_weight()
-    // Offset: 0x1E12EF0
+    // Offset: 0x1DB88B0
     float get_weight();
     // public System.Void set_weight(System.Single value)
-    // Offset: 0x1E12EF8
+    // Offset: 0x1DB88B8
     void set_weight(float value);
     // public System.Void SetDataToShaders(UnityEngine.Color lightmapColor, UnityEngine.Color probeColor)
-    // Offset: 0x1E12D6C
+    // Offset: 0x1DB872C
     void SetDataToShaders(UnityEngine::Color lightmapColor, UnityEngine::Color probeColor);
     // public System.Void .ctor()
-    // Offset: 0x1E12F00
+    // Offset: 0x1DB88C0
     // Implemented from: LightWithIds/LightData
     // Base method: System.Void LightData::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -114,7 +102,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(LightmapLightsWithIds::LightIntensitiesData), 56 + sizeof(bool)> __GlobalNamespace_LightmapLightsWithIds_LightIntensitiesDataSizeCheck;
   static_assert(sizeof(LightmapLightsWithIds::LightIntensitiesData) == 0x39);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightmapLightsWithIds::LightIntensitiesData*, "", "LightmapLightsWithIds/LightIntensitiesData");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LightmapLightsWithIds::LightIntensitiesData::get_intensity
 // Il2CppName: get_intensity
 template<>

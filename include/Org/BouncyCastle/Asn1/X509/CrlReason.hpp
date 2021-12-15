@@ -3,24 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Asn1.DerEnumerated
 #include "Org/BouncyCastle/Asn1/DerEnumerated.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Org.BouncyCastle.Asn1.X509
-namespace Org::BouncyCastle::Asn1::X509 {
-  // Forward declaring type: CrlReason
-  class CrlReason;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Asn1::X509::CrlReason);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::CrlReason*, "Org.BouncyCastle.Asn1.X509", "CrlReason");
 // Type namespace: Org.BouncyCastle.Asn1.X509
 namespace Org::BouncyCastle::Asn1::X509 {
   // Size: 0x1C
@@ -29,31 +20,34 @@ namespace Org::BouncyCastle::Asn1::X509 {
   // [TokenAttribute] Offset: FFFFFFFF
   class CrlReason : public Org::BouncyCastle::Asn1::DerEnumerated {
     public:
+    // Creating value type constructor for type: CrlReason
+    CrlReason() noexcept {}
     // Get static field: static private readonly System.String[] ReasonString
-    static ::ArrayW<::Il2CppString*> _get_ReasonString();
+    static ::Array<::Il2CppString*>* _get_ReasonString();
     // Set static field: static private readonly System.String[] ReasonString
-    static void _set_ReasonString(::ArrayW<::Il2CppString*> value);
+    static void _set_ReasonString(::Array<::Il2CppString*>* value);
     // public System.Void .ctor(Org.BouncyCastle.Asn1.DerEnumerated reason)
-    // Offset: 0x1B9C098
+    // Offset: 0x1C1BF90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CrlReason* New_ctor(Org::BouncyCastle::Asn1::DerEnumerated* reason) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::CrlReason::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CrlReason*, creationType>(reason)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1B9C1F0
+    // Offset: 0x1C1C0E8
     // Implemented from: Org.BouncyCastle.Asn1.DerEnumerated
     // Base method: System.Void DerEnumerated::.cctor()
     static void _cctor();
     // public override System.String ToString()
-    // Offset: 0x1B9C124
+    // Offset: 0x1C1C01C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // Org.BouncyCastle.Asn1.X509.CrlReason
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::CrlReason*, "Org.BouncyCastle.Asn1.X509", "CrlReason");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::CrlReason::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

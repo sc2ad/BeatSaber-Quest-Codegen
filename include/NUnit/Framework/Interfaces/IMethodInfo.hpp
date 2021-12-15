@@ -4,10 +4,9 @@
 #pragma once
 // Begin includes
 #include <initializer_list>
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: NUnit.Framework.Interfaces.IReflectionInfo
 #include "NUnit/Framework/Interfaces/IReflectionInfo.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Interfaces
@@ -30,16 +29,10 @@ namespace System {
 // Completed forward declares
 // Begin il2cpp-utils forward declares
 struct Il2CppString;
+template<class T>
+struct Array;
 struct Il2CppObject;
 // Completed il2cpp-utils forward declares
-// Type namespace: NUnit.Framework.Interfaces
-namespace NUnit::Framework::Interfaces {
-  // Forward declaring type: IMethodInfo
-  class IMethodInfo;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(NUnit::Framework::Interfaces::IMethodInfo);
-DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::IMethodInfo*, "NUnit.Framework.Interfaces", "IMethodInfo");
 // Type namespace: NUnit.Framework.Interfaces
 namespace NUnit::Framework::Interfaces {
   // Size: 0x10
@@ -48,6 +41,8 @@ namespace NUnit::Framework::Interfaces {
   // [TokenAttribute] Offset: FFFFFFFF
   class IMethodInfo/*, public NUnit::Framework::Interfaces::IReflectionInfo*/ {
     public:
+    // Creating value type constructor for type: IMethodInfo
+    IMethodInfo() noexcept {}
     // Creating interface conversion operator: operator NUnit::Framework::Interfaces::IReflectionInfo
     operator NUnit::Framework::Interfaces::IReflectionInfo() noexcept {
       return *reinterpret_cast<NUnit::Framework::Interfaces::IReflectionInfo*>(this);
@@ -78,17 +73,33 @@ namespace NUnit::Framework::Interfaces {
     NUnit::Framework::Interfaces::ITypeInfo* get_ReturnType();
     // public NUnit.Framework.Interfaces.IParameterInfo[] GetParameters()
     // Offset: 0xFFFFFFFF
-    ::ArrayW<NUnit::Framework::Interfaces::IParameterInfo*> GetParameters();
+    ::Array<NUnit::Framework::Interfaces::IParameterInfo*>* GetParameters();
     // public NUnit.Framework.Interfaces.IMethodInfo MakeGenericMethod(params System.Type[] typeArguments)
     // Offset: 0xFFFFFFFF
-    NUnit::Framework::Interfaces::IMethodInfo* MakeGenericMethod(::ArrayW<System::Type*> typeArguments);
+    NUnit::Framework::Interfaces::IMethodInfo* MakeGenericMethod(::Array<System::Type*>* typeArguments);
+    // Creating initializer_list -> params proxy for: NUnit.Framework.Interfaces.IMethodInfo MakeGenericMethod(params System.Type[] typeArguments)
+    NUnit::Framework::Interfaces::IMethodInfo* MakeGenericMethod(std::initializer_list<System::Type*> typeArguments);
+    // Creating TArgs -> initializer_list proxy for: NUnit.Framework.Interfaces.IMethodInfo MakeGenericMethod(params System.Type[] typeArguments)
+    template<class ...TParams>
+    NUnit::Framework::Interfaces::IMethodInfo* MakeGenericMethod(TParams&&... typeArguments) {
+      return MakeGenericMethod({typeArguments...});
+    }
     // public System.Object Invoke(System.Object fixture, params System.Object[] args)
     // Offset: 0xFFFFFFFF
-    ::Il2CppObject* Invoke(::Il2CppObject* fixture, ::ArrayW<::Il2CppObject*> args);
+    ::Il2CppObject* Invoke(::Il2CppObject* fixture, ::Array<::Il2CppObject*>* args);
+    // Creating initializer_list -> params proxy for: System.Object Invoke(System.Object fixture, params System.Object[] args)
+    ::Il2CppObject* Invoke(::Il2CppObject* fixture, std::initializer_list<::Il2CppObject*> args);
+    // Creating TArgs -> initializer_list proxy for: System.Object Invoke(System.Object fixture, params System.Object[] args)
+    template<class ...TParams>
+    ::Il2CppObject* Invoke(::Il2CppObject* fixture, TParams&&... args) {
+      return Invoke(fixture, {args...});
+    }
   }; // NUnit.Framework.Interfaces.IMethodInfo
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::IMethodInfo*, "NUnit.Framework.Interfaces", "IMethodInfo");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::IMethodInfo::get_TypeInfo
 // Il2CppName: get_TypeInfo
 template<>
@@ -156,7 +167,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::IMethodInfo::GetParameters
 // Il2CppName: GetParameters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<NUnit::Framework::Interfaces::IParameterInfo*> (NUnit::Framework::Interfaces::IMethodInfo::*)()>(&NUnit::Framework::Interfaces::IMethodInfo::GetParameters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<NUnit::Framework::Interfaces::IParameterInfo*>* (NUnit::Framework::Interfaces::IMethodInfo::*)()>(&NUnit::Framework::Interfaces::IMethodInfo::GetParameters)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::IMethodInfo*), "GetParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -164,7 +175,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<NU
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::IMethodInfo::MakeGenericMethod
 // Il2CppName: MakeGenericMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::IMethodInfo* (NUnit::Framework::Interfaces::IMethodInfo::*)(::ArrayW<System::Type*>)>(&NUnit::Framework::Interfaces::IMethodInfo::MakeGenericMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::IMethodInfo* (NUnit::Framework::Interfaces::IMethodInfo::*)(::Array<System::Type*>*)>(&NUnit::Framework::Interfaces::IMethodInfo::MakeGenericMethod)> {
   static const MethodInfo* get() {
     static auto* typeArguments = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::IMethodInfo*), "MakeGenericMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{typeArguments});
@@ -173,7 +184,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::IMethodInfo::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (NUnit::Framework::Interfaces::IMethodInfo::*)(::Il2CppObject*, ::ArrayW<::Il2CppObject*>)>(&NUnit::Framework::Interfaces::IMethodInfo::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (NUnit::Framework::Interfaces::IMethodInfo::*)(::Il2CppObject*, ::Array<::Il2CppObject*>*)>(&NUnit::Framework::Interfaces::IMethodInfo::Invoke)> {
   static const MethodInfo* get() {
     static auto* fixture = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;

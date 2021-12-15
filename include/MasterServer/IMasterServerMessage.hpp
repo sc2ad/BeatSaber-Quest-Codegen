@@ -3,20 +3,12 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LiteNetLib.Utils.INetSerializable
 #include "LiteNetLib/Utils/INetSerializable.hpp"
 // Including type: IPoolablePacket
 #include "GlobalNamespace/IPoolablePacket.hpp"
 // Completed includes
-// Type namespace: MasterServer
-namespace MasterServer {
-  // Forward declaring type: IMasterServerMessage
-  class IMasterServerMessage;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(MasterServer::IMasterServerMessage);
-DEFINE_IL2CPP_ARG_TYPE(MasterServer::IMasterServerMessage*, "MasterServer", "IMasterServerMessage");
 // Type namespace: MasterServer
 namespace MasterServer {
   // Size: 0x10
@@ -25,6 +17,8 @@ namespace MasterServer {
   // [TokenAttribute] Offset: FFFFFFFF
   class IMasterServerMessage/*, public LiteNetLib::Utils::INetSerializable, public GlobalNamespace::IPoolablePacket*/ {
     public:
+    // Creating value type constructor for type: IMasterServerMessage
+    IMasterServerMessage() noexcept {}
     // Creating interface conversion operator: operator LiteNetLib::Utils::INetSerializable
     operator LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetSerializable*>(this);
@@ -36,4 +30,6 @@ namespace MasterServer {
   }; // MasterServer.IMasterServerMessage
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(MasterServer::IMasterServerMessage*, "MasterServer", "IMasterServerMessage");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

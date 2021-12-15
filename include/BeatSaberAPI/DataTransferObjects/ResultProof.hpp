@@ -3,21 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: BeatSaberAPI.DataTransferObjects
-namespace BeatSaberAPI::DataTransferObjects {
-  // Forward declaring type: ResultProof
-  class ResultProof;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(BeatSaberAPI::DataTransferObjects::ResultProof);
-DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::ResultProof*, "BeatSaberAPI.DataTransferObjects", "ResultProof");
 // Type namespace: BeatSaberAPI.DataTransferObjects
 namespace BeatSaberAPI::DataTransferObjects {
   // Size: 0x18
@@ -26,18 +18,14 @@ namespace BeatSaberAPI::DataTransferObjects {
   // [TokenAttribute] Offset: FFFFFFFF
   class ResultProof : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.String <proof>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppString* proof;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: ResultProof
+    ResultProof(::Il2CppString* proof_ = {}) noexcept : proof{proof_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return proof;
@@ -45,13 +33,13 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Get instance field reference: private System.String <proof>k__BackingField
     ::Il2CppString*& dyn_$proof$k__BackingField();
     // public System.String get_proof()
-    // Offset: 0x123DDA4
+    // Offset: 0x12C79B0
     ::Il2CppString* get_proof();
     // public System.Void set_proof(System.String value)
-    // Offset: 0x123DDAC
+    // Offset: 0x12C79B8
     void set_proof(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0x123DDB4
+    // Offset: 0x12C79C0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -64,7 +52,8 @@ namespace BeatSaberAPI::DataTransferObjects {
   static check_size<sizeof(ResultProof), 16 + sizeof(::Il2CppString*)> __BeatSaberAPI_DataTransferObjects_ResultProofSizeCheck;
   static_assert(sizeof(ResultProof) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::ResultProof*, "BeatSaberAPI.DataTransferObjects", "ResultProof");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: BeatSaberAPI::DataTransferObjects::ResultProof::get_proof
 // Il2CppName: get_proof
 template<>

@@ -3,12 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/typedefs.h"
 #include <initializer_list>
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -17,14 +16,6 @@ namespace UnityEngine {
   class Transform;
 }
 // Completed forward declares
-// Type namespace: RootMotion
-namespace RootMotion {
-  // Forward declaring type: BipedNaming
-  class BipedNaming;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::BipedNaming);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::BipedNaming*, "RootMotion", "BipedNaming");
 // Type namespace: RootMotion
 namespace RootMotion {
   // Size: 0x10
@@ -43,18 +34,12 @@ namespace RootMotion {
     // [TokenAttribute] Offset: FFFFFFFF
     struct BoneType/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: BoneType
       constexpr BoneType(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -119,18 +104,12 @@ namespace RootMotion {
     // [TokenAttribute] Offset: FFFFFFFF
     struct BoneSide/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: BoneSide
       constexpr BoneSide(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -165,158 +144,174 @@ namespace RootMotion {
     #pragma pack(pop)
     static check_size<sizeof(BipedNaming::BoneSide), 0 + sizeof(int)> __RootMotion_BipedNaming_BoneSideSizeCheck;
     static_assert(sizeof(BipedNaming::BoneSide) == 0x4);
+    // Creating value type constructor for type: BipedNaming
+    BipedNaming() noexcept {}
     // Get static field: static public System.String[] typeLeft
-    static ::ArrayW<::Il2CppString*> _get_typeLeft();
+    static ::Array<::Il2CppString*>* _get_typeLeft();
     // Set static field: static public System.String[] typeLeft
-    static void _set_typeLeft(::ArrayW<::Il2CppString*> value);
+    static void _set_typeLeft(::Array<::Il2CppString*>* value);
     // Get static field: static public System.String[] typeRight
-    static ::ArrayW<::Il2CppString*> _get_typeRight();
+    static ::Array<::Il2CppString*>* _get_typeRight();
     // Set static field: static public System.String[] typeRight
-    static void _set_typeRight(::ArrayW<::Il2CppString*> value);
+    static void _set_typeRight(::Array<::Il2CppString*>* value);
     // Get static field: static public System.String[] typeSpine
-    static ::ArrayW<::Il2CppString*> _get_typeSpine();
+    static ::Array<::Il2CppString*>* _get_typeSpine();
     // Set static field: static public System.String[] typeSpine
-    static void _set_typeSpine(::ArrayW<::Il2CppString*> value);
+    static void _set_typeSpine(::Array<::Il2CppString*>* value);
     // Get static field: static public System.String[] typeHead
-    static ::ArrayW<::Il2CppString*> _get_typeHead();
+    static ::Array<::Il2CppString*>* _get_typeHead();
     // Set static field: static public System.String[] typeHead
-    static void _set_typeHead(::ArrayW<::Il2CppString*> value);
+    static void _set_typeHead(::Array<::Il2CppString*>* value);
     // Get static field: static public System.String[] typeArm
-    static ::ArrayW<::Il2CppString*> _get_typeArm();
+    static ::Array<::Il2CppString*>* _get_typeArm();
     // Set static field: static public System.String[] typeArm
-    static void _set_typeArm(::ArrayW<::Il2CppString*> value);
+    static void _set_typeArm(::Array<::Il2CppString*>* value);
     // Get static field: static public System.String[] typeLeg
-    static ::ArrayW<::Il2CppString*> _get_typeLeg();
+    static ::Array<::Il2CppString*>* _get_typeLeg();
     // Set static field: static public System.String[] typeLeg
-    static void _set_typeLeg(::ArrayW<::Il2CppString*> value);
+    static void _set_typeLeg(::Array<::Il2CppString*>* value);
     // Get static field: static public System.String[] typeTail
-    static ::ArrayW<::Il2CppString*> _get_typeTail();
+    static ::Array<::Il2CppString*>* _get_typeTail();
     // Set static field: static public System.String[] typeTail
-    static void _set_typeTail(::ArrayW<::Il2CppString*> value);
+    static void _set_typeTail(::Array<::Il2CppString*>* value);
     // Get static field: static public System.String[] typeEye
-    static ::ArrayW<::Il2CppString*> _get_typeEye();
+    static ::Array<::Il2CppString*>* _get_typeEye();
     // Set static field: static public System.String[] typeEye
-    static void _set_typeEye(::ArrayW<::Il2CppString*> value);
+    static void _set_typeEye(::Array<::Il2CppString*>* value);
     // Get static field: static public System.String[] typeExclude
-    static ::ArrayW<::Il2CppString*> _get_typeExclude();
+    static ::Array<::Il2CppString*>* _get_typeExclude();
     // Set static field: static public System.String[] typeExclude
-    static void _set_typeExclude(::ArrayW<::Il2CppString*> value);
+    static void _set_typeExclude(::Array<::Il2CppString*>* value);
     // Get static field: static public System.String[] typeExcludeSpine
-    static ::ArrayW<::Il2CppString*> _get_typeExcludeSpine();
+    static ::Array<::Il2CppString*>* _get_typeExcludeSpine();
     // Set static field: static public System.String[] typeExcludeSpine
-    static void _set_typeExcludeSpine(::ArrayW<::Il2CppString*> value);
+    static void _set_typeExcludeSpine(::Array<::Il2CppString*>* value);
     // Get static field: static public System.String[] typeExcludeHead
-    static ::ArrayW<::Il2CppString*> _get_typeExcludeHead();
+    static ::Array<::Il2CppString*>* _get_typeExcludeHead();
     // Set static field: static public System.String[] typeExcludeHead
-    static void _set_typeExcludeHead(::ArrayW<::Il2CppString*> value);
+    static void _set_typeExcludeHead(::Array<::Il2CppString*>* value);
     // Get static field: static public System.String[] typeExcludeArm
-    static ::ArrayW<::Il2CppString*> _get_typeExcludeArm();
+    static ::Array<::Il2CppString*>* _get_typeExcludeArm();
     // Set static field: static public System.String[] typeExcludeArm
-    static void _set_typeExcludeArm(::ArrayW<::Il2CppString*> value);
+    static void _set_typeExcludeArm(::Array<::Il2CppString*>* value);
     // Get static field: static public System.String[] typeExcludeLeg
-    static ::ArrayW<::Il2CppString*> _get_typeExcludeLeg();
+    static ::Array<::Il2CppString*>* _get_typeExcludeLeg();
     // Set static field: static public System.String[] typeExcludeLeg
-    static void _set_typeExcludeLeg(::ArrayW<::Il2CppString*> value);
+    static void _set_typeExcludeLeg(::Array<::Il2CppString*>* value);
     // Get static field: static public System.String[] typeExcludeTail
-    static ::ArrayW<::Il2CppString*> _get_typeExcludeTail();
+    static ::Array<::Il2CppString*>* _get_typeExcludeTail();
     // Set static field: static public System.String[] typeExcludeTail
-    static void _set_typeExcludeTail(::ArrayW<::Il2CppString*> value);
+    static void _set_typeExcludeTail(::Array<::Il2CppString*>* value);
     // Get static field: static public System.String[] typeExcludeEye
-    static ::ArrayW<::Il2CppString*> _get_typeExcludeEye();
+    static ::Array<::Il2CppString*>* _get_typeExcludeEye();
     // Set static field: static public System.String[] typeExcludeEye
-    static void _set_typeExcludeEye(::ArrayW<::Il2CppString*> value);
+    static void _set_typeExcludeEye(::Array<::Il2CppString*>* value);
     // Get static field: static public System.String[] pelvis
-    static ::ArrayW<::Il2CppString*> _get_pelvis();
+    static ::Array<::Il2CppString*>* _get_pelvis();
     // Set static field: static public System.String[] pelvis
-    static void _set_pelvis(::ArrayW<::Il2CppString*> value);
+    static void _set_pelvis(::Array<::Il2CppString*>* value);
     // Get static field: static public System.String[] hand
-    static ::ArrayW<::Il2CppString*> _get_hand();
+    static ::Array<::Il2CppString*>* _get_hand();
     // Set static field: static public System.String[] hand
-    static void _set_hand(::ArrayW<::Il2CppString*> value);
+    static void _set_hand(::Array<::Il2CppString*>* value);
     // Get static field: static public System.String[] foot
-    static ::ArrayW<::Il2CppString*> _get_foot();
+    static ::Array<::Il2CppString*>* _get_foot();
     // Set static field: static public System.String[] foot
-    static void _set_foot(::ArrayW<::Il2CppString*> value);
+    static void _set_foot(::Array<::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1E9EA7C
+    // Offset: 0x1EA44DC
     static void _cctor();
     // static public UnityEngine.Transform[] GetBonesOfType(RootMotion.BipedNaming/RootMotion.BoneType boneType, UnityEngine.Transform[] bones)
-    // Offset: 0x1E9D820
-    static ::ArrayW<UnityEngine::Transform*> GetBonesOfType(RootMotion::BipedNaming::BoneType boneType, ::ArrayW<UnityEngine::Transform*> bones);
+    // Offset: 0x1EA3280
+    static ::Array<UnityEngine::Transform*>* GetBonesOfType(RootMotion::BipedNaming::BoneType boneType, ::Array<UnityEngine::Transform*>* bones);
     // static public UnityEngine.Transform[] GetBonesOfSide(RootMotion.BipedNaming/RootMotion.BoneSide boneSide, UnityEngine.Transform[] bones)
-    // Offset: 0x1E9DB20
-    static ::ArrayW<UnityEngine::Transform*> GetBonesOfSide(RootMotion::BipedNaming::BoneSide boneSide, ::ArrayW<UnityEngine::Transform*> bones);
+    // Offset: 0x1EA3580
+    static ::Array<UnityEngine::Transform*>* GetBonesOfSide(RootMotion::BipedNaming::BoneSide boneSide, ::Array<UnityEngine::Transform*>* bones);
     // static public UnityEngine.Transform[] GetBonesOfTypeAndSide(RootMotion.BipedNaming/RootMotion.BoneType boneType, RootMotion.BipedNaming/RootMotion.BoneSide boneSide, UnityEngine.Transform[] bones)
-    // Offset: 0x1E9DD70
-    static ::ArrayW<UnityEngine::Transform*> GetBonesOfTypeAndSide(RootMotion::BipedNaming::BoneType boneType, RootMotion::BipedNaming::BoneSide boneSide, ::ArrayW<UnityEngine::Transform*> bones);
+    // Offset: 0x1EA37D0
+    static ::Array<UnityEngine::Transform*>* GetBonesOfTypeAndSide(RootMotion::BipedNaming::BoneType boneType, RootMotion::BipedNaming::BoneSide boneSide, ::Array<UnityEngine::Transform*>* bones);
     // static public UnityEngine.Transform GetFirstBoneOfTypeAndSide(RootMotion.BipedNaming/RootMotion.BoneType boneType, RootMotion.BipedNaming/RootMotion.BoneSide boneSide, UnityEngine.Transform[] bones)
-    // Offset: 0x1E9DDF4
-    static UnityEngine::Transform* GetFirstBoneOfTypeAndSide(RootMotion::BipedNaming::BoneType boneType, RootMotion::BipedNaming::BoneSide boneSide, ::ArrayW<UnityEngine::Transform*> bones);
+    // Offset: 0x1EA3854
+    static UnityEngine::Transform* GetFirstBoneOfTypeAndSide(RootMotion::BipedNaming::BoneType boneType, RootMotion::BipedNaming::BoneSide boneSide, ::Array<UnityEngine::Transform*>* bones);
     // static public UnityEngine.Transform GetNamingMatch(UnityEngine.Transform[] transforms, params System.String[][] namings)
-    // Offset: 0x1E9DEA0
-    static UnityEngine::Transform* GetNamingMatch(::ArrayW<UnityEngine::Transform*> transforms, ::ArrayW<::ArrayW<::Il2CppString*>> namings);
+    // Offset: 0x1EA3900
+    static UnityEngine::Transform* GetNamingMatch(::Array<UnityEngine::Transform*>* transforms, ::Array<::Array<::Il2CppString*>*>* namings);
+    // Creating initializer_list -> params proxy for: UnityEngine.Transform GetNamingMatch(UnityEngine.Transform[] transforms, params System.String[][] namings)
+    static UnityEngine::Transform* GetNamingMatch(::Array<UnityEngine::Transform*>* transforms, std::initializer_list<::Array<::Il2CppString*>*> namings);
+    // Creating TArgs -> initializer_list proxy for: UnityEngine.Transform GetNamingMatch(UnityEngine.Transform[] transforms, params System.String[][] namings)
+    template<class ...TParams>
+    static UnityEngine::Transform* GetNamingMatch(::Array<UnityEngine::Transform*>* transforms, TParams&&... namings) {
+      return GetNamingMatch(transforms, {namings...});
+    }
     // static public RootMotion.BipedNaming/RootMotion.BoneType GetBoneType(System.String boneName)
-    // Offset: 0x1E9D9D0
+    // Offset: 0x1EA3430
     static RootMotion::BipedNaming::BoneType GetBoneType(::Il2CppString* boneName);
     // static public RootMotion.BipedNaming/RootMotion.BoneSide GetBoneSide(System.String boneName)
-    // Offset: 0x1E9DCD0
+    // Offset: 0x1EA3730
     static RootMotion::BipedNaming::BoneSide GetBoneSide(::Il2CppString* boneName);
     // static public UnityEngine.Transform GetBone(UnityEngine.Transform[] transforms, RootMotion.BipedNaming/RootMotion.BoneType boneType, RootMotion.BipedNaming/RootMotion.BoneSide boneSide, params System.String[][] namings)
-    // Offset: 0x1E9E6E0
-    static UnityEngine::Transform* GetBone(::ArrayW<UnityEngine::Transform*> transforms, RootMotion::BipedNaming::BoneType boneType, RootMotion::BipedNaming::BoneSide boneSide, ::ArrayW<::ArrayW<::Il2CppString*>> namings);
+    // Offset: 0x1EA4140
+    static UnityEngine::Transform* GetBone(::Array<UnityEngine::Transform*>* transforms, RootMotion::BipedNaming::BoneType boneType, RootMotion::BipedNaming::BoneSide boneSide, ::Array<::Array<::Il2CppString*>*>* namings);
+    // Creating initializer_list -> params proxy for: UnityEngine.Transform GetBone(UnityEngine.Transform[] transforms, RootMotion.BipedNaming/RootMotion.BoneType boneType, RootMotion.BipedNaming/RootMotion.BoneSide boneSide, params System.String[][] namings)
+    static UnityEngine::Transform* GetBone(::Array<UnityEngine::Transform*>* transforms, RootMotion::BipedNaming::BoneType boneType, RootMotion::BipedNaming::BoneSide boneSide, std::initializer_list<::Array<::Il2CppString*>*> namings);
+    // Creating TArgs -> initializer_list proxy for: UnityEngine.Transform GetBone(UnityEngine.Transform[] transforms, RootMotion.BipedNaming/RootMotion.BoneType boneType, RootMotion.BipedNaming/RootMotion.BoneSide boneSide, params System.String[][] namings)
+    template<class ...TParams>
+    static UnityEngine::Transform* GetBone(::Array<UnityEngine::Transform*>* transforms, RootMotion::BipedNaming::BoneType boneType, RootMotion::BipedNaming::BoneSide boneSide, TParams&&... namings) {
+      return GetBone(transforms, boneType, boneSide, {namings...});
+    }
     // static private System.Boolean isLeft(System.String boneName)
-    // Offset: 0x1E9E4F8
+    // Offset: 0x1EA3F58
     static bool isLeft(::Il2CppString* boneName);
     // static private System.Boolean isRight(System.String boneName)
-    // Offset: 0x1E9E5EC
+    // Offset: 0x1EA404C
     static bool isRight(::Il2CppString* boneName);
     // static private System.Boolean isSpine(System.String boneName)
-    // Offset: 0x1E9E0C0
+    // Offset: 0x1EA3B20
     static bool isSpine(::Il2CppString* boneName);
     // static private System.Boolean isHead(System.String boneName)
-    // Offset: 0x1E9E174
+    // Offset: 0x1EA3BD4
     static bool isHead(::Il2CppString* boneName);
     // static private System.Boolean isArm(System.String boneName)
-    // Offset: 0x1E9E228
+    // Offset: 0x1EA3C88
     static bool isArm(::Il2CppString* boneName);
     // static private System.Boolean isLeg(System.String boneName)
-    // Offset: 0x1E9E2DC
+    // Offset: 0x1EA3D3C
     static bool isLeg(::Il2CppString* boneName);
     // static private System.Boolean isTail(System.String boneName)
-    // Offset: 0x1E9E390
+    // Offset: 0x1EA3DF0
     static bool isTail(::Il2CppString* boneName);
     // static private System.Boolean isEye(System.String boneName)
-    // Offset: 0x1E9E444
+    // Offset: 0x1EA3EA4
     static bool isEye(::Il2CppString* boneName);
     // static private System.Boolean isTypeExclude(System.String boneName)
-    // Offset: 0x1E9E8F4
+    // Offset: 0x1EA4354
     static bool isTypeExclude(::Il2CppString* boneName);
     // static private System.Boolean matchesNaming(System.String boneName, System.String[] namingConvention)
-    // Offset: 0x1E9DFD4
-    static bool matchesNaming(::Il2CppString* boneName, ::ArrayW<::Il2CppString*> namingConvention);
+    // Offset: 0x1EA3A34
+    static bool matchesNaming(::Il2CppString* boneName, ::Array<::Il2CppString*>* namingConvention);
     // static private System.Boolean excludesNaming(System.String boneName, System.String[] namingConvention)
-    // Offset: 0x1E9E864
-    static bool excludesNaming(::Il2CppString* boneName, ::ArrayW<::Il2CppString*> namingConvention);
+    // Offset: 0x1EA42C4
+    static bool excludesNaming(::Il2CppString* boneName, ::Array<::Il2CppString*>* namingConvention);
     // static private System.Boolean matchesLastLetter(System.String boneName, System.String[] namingConvention)
-    // Offset: 0x1E9E964
-    static bool matchesLastLetter(::Il2CppString* boneName, ::ArrayW<::Il2CppString*> namingConvention);
+    // Offset: 0x1EA43C4
+    static bool matchesLastLetter(::Il2CppString* boneName, ::Array<::Il2CppString*>* namingConvention);
     // static private System.Boolean LastLetterIs(System.String boneName, System.String letter)
-    // Offset: 0x1E9EA3C
+    // Offset: 0x1EA449C
     static bool LastLetterIs(::Il2CppString* boneName, ::Il2CppString* letter);
     // static private System.String firstLetter(System.String boneName)
-    // Offset: 0x1E9E7E8
+    // Offset: 0x1EA4248
     static ::Il2CppString* firstLetter(::Il2CppString* boneName);
     // static private System.String lastLetter(System.String boneName)
-    // Offset: 0x1E9E770
+    // Offset: 0x1EA41D0
     static ::Il2CppString* lastLetter(::Il2CppString* boneName);
   }; // RootMotion.BipedNaming
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::BipedNaming*, "RootMotion", "BipedNaming");
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::BipedNaming::BoneType, "RootMotion", "BipedNaming/BoneType");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::BipedNaming::BoneSide, "RootMotion", "BipedNaming/BoneSide");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::BipedNaming::_cctor
 // Il2CppName: .cctor
 template<>
@@ -328,7 +323,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: RootMotion::BipedNaming::GetBonesOfType
 // Il2CppName: GetBonesOfType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Transform*> (*)(RootMotion::BipedNaming::BoneType, ::ArrayW<UnityEngine::Transform*>)>(&RootMotion::BipedNaming::GetBonesOfType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Transform*>* (*)(RootMotion::BipedNaming::BoneType, ::Array<UnityEngine::Transform*>*)>(&RootMotion::BipedNaming::GetBonesOfType)> {
   static const MethodInfo* get() {
     static auto* boneType = &::il2cpp_utils::GetClassFromName("RootMotion", "BipedNaming/BoneType")->byval_arg;
     static auto* bones = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Transform"), 1)->byval_arg;
@@ -338,7 +333,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Un
 // Writing MetadataGetter for method: RootMotion::BipedNaming::GetBonesOfSide
 // Il2CppName: GetBonesOfSide
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Transform*> (*)(RootMotion::BipedNaming::BoneSide, ::ArrayW<UnityEngine::Transform*>)>(&RootMotion::BipedNaming::GetBonesOfSide)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Transform*>* (*)(RootMotion::BipedNaming::BoneSide, ::Array<UnityEngine::Transform*>*)>(&RootMotion::BipedNaming::GetBonesOfSide)> {
   static const MethodInfo* get() {
     static auto* boneSide = &::il2cpp_utils::GetClassFromName("RootMotion", "BipedNaming/BoneSide")->byval_arg;
     static auto* bones = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Transform"), 1)->byval_arg;
@@ -348,7 +343,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Un
 // Writing MetadataGetter for method: RootMotion::BipedNaming::GetBonesOfTypeAndSide
 // Il2CppName: GetBonesOfTypeAndSide
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Transform*> (*)(RootMotion::BipedNaming::BoneType, RootMotion::BipedNaming::BoneSide, ::ArrayW<UnityEngine::Transform*>)>(&RootMotion::BipedNaming::GetBonesOfTypeAndSide)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Transform*>* (*)(RootMotion::BipedNaming::BoneType, RootMotion::BipedNaming::BoneSide, ::Array<UnityEngine::Transform*>*)>(&RootMotion::BipedNaming::GetBonesOfTypeAndSide)> {
   static const MethodInfo* get() {
     static auto* boneType = &::il2cpp_utils::GetClassFromName("RootMotion", "BipedNaming/BoneType")->byval_arg;
     static auto* boneSide = &::il2cpp_utils::GetClassFromName("RootMotion", "BipedNaming/BoneSide")->byval_arg;
@@ -359,7 +354,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Un
 // Writing MetadataGetter for method: RootMotion::BipedNaming::GetFirstBoneOfTypeAndSide
 // Il2CppName: GetFirstBoneOfTypeAndSide
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (*)(RootMotion::BipedNaming::BoneType, RootMotion::BipedNaming::BoneSide, ::ArrayW<UnityEngine::Transform*>)>(&RootMotion::BipedNaming::GetFirstBoneOfTypeAndSide)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (*)(RootMotion::BipedNaming::BoneType, RootMotion::BipedNaming::BoneSide, ::Array<UnityEngine::Transform*>*)>(&RootMotion::BipedNaming::GetFirstBoneOfTypeAndSide)> {
   static const MethodInfo* get() {
     static auto* boneType = &::il2cpp_utils::GetClassFromName("RootMotion", "BipedNaming/BoneType")->byval_arg;
     static auto* boneSide = &::il2cpp_utils::GetClassFromName("RootMotion", "BipedNaming/BoneSide")->byval_arg;
@@ -370,7 +365,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: RootMotion::BipedNaming::GetNamingMatch
 // Il2CppName: GetNamingMatch
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (*)(::ArrayW<UnityEngine::Transform*>, ::ArrayW<::ArrayW<::Il2CppString*>>)>(&RootMotion::BipedNaming::GetNamingMatch)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (*)(::Array<UnityEngine::Transform*>*, ::Array<::Array<::Il2CppString*>*>*)>(&RootMotion::BipedNaming::GetNamingMatch)> {
   static const MethodInfo* get() {
     static auto* transforms = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Transform"), 1)->byval_arg;
     static auto* namings = &il2cpp_functions::array_class_get(il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1), 1)->byval_arg;
@@ -398,7 +393,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion:
 // Writing MetadataGetter for method: RootMotion::BipedNaming::GetBone
 // Il2CppName: GetBone
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (*)(::ArrayW<UnityEngine::Transform*>, RootMotion::BipedNaming::BoneType, RootMotion::BipedNaming::BoneSide, ::ArrayW<::ArrayW<::Il2CppString*>>)>(&RootMotion::BipedNaming::GetBone)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (*)(::Array<UnityEngine::Transform*>*, RootMotion::BipedNaming::BoneType, RootMotion::BipedNaming::BoneSide, ::Array<::Array<::Il2CppString*>*>*)>(&RootMotion::BipedNaming::GetBone)> {
   static const MethodInfo* get() {
     static auto* transforms = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Transform"), 1)->byval_arg;
     static auto* boneType = &::il2cpp_utils::GetClassFromName("RootMotion", "BipedNaming/BoneType")->byval_arg;
@@ -491,7 +486,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: RootMotion::BipedNaming::matchesNaming
 // Il2CppName: matchesNaming
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::ArrayW<::Il2CppString*>)>(&RootMotion::BipedNaming::matchesNaming)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Array<::Il2CppString*>*)>(&RootMotion::BipedNaming::matchesNaming)> {
   static const MethodInfo* get() {
     static auto* boneName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* namingConvention = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
@@ -501,7 +496,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: RootMotion::BipedNaming::excludesNaming
 // Il2CppName: excludesNaming
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::ArrayW<::Il2CppString*>)>(&RootMotion::BipedNaming::excludesNaming)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Array<::Il2CppString*>*)>(&RootMotion::BipedNaming::excludesNaming)> {
   static const MethodInfo* get() {
     static auto* boneName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* namingConvention = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
@@ -511,7 +506,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: RootMotion::BipedNaming::matchesLastLetter
 // Il2CppName: matchesLastLetter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::ArrayW<::Il2CppString*>)>(&RootMotion::BipedNaming::matchesLastLetter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Array<::Il2CppString*>*)>(&RootMotion::BipedNaming::matchesLastLetter)> {
   static const MethodInfo* get() {
     static auto* boneName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* namingConvention = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;

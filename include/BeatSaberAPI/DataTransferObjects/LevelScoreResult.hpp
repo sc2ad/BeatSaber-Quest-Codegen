@@ -3,24 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: BeatSaberAPI.DataTransferObjects
-namespace BeatSaberAPI::DataTransferObjects {
-  // Forward declaring type: LevelScoreResult
-  class LevelScoreResult;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(BeatSaberAPI::DataTransferObjects::LevelScoreResult);
-DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::LevelScoreResult*, "BeatSaberAPI.DataTransferObjects", "LevelScoreResult");
 // Type namespace: BeatSaberAPI.DataTransferObjects
 namespace BeatSaberAPI::DataTransferObjects {
   // Size: 0x50
@@ -37,18 +28,12 @@ namespace BeatSaberAPI::DataTransferObjects {
     // [TokenAttribute] Offset: FFFFFFFF
     struct GameplayModifiers/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.UInt32 value__
       // Size: 0x4
       // Offset: 0x0
       uint value;
       // Field size check
       static_assert(sizeof(uint) == 0x4);
-      public:
       // Creating value type constructor for type: GameplayModifiers
       constexpr GameplayModifiers(uint value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -179,11 +164,6 @@ namespace BeatSaberAPI::DataTransferObjects {
     #pragma pack(pop)
     static check_size<sizeof(LevelScoreResult::GameplayModifiers), 0 + sizeof(uint)> __BeatSaberAPI_DataTransferObjects_LevelScoreResult_GameplayModifiersSizeCheck;
     static_assert(sizeof(LevelScoreResult::GameplayModifiers) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.String leaderboardId
     // Size: 0x8
     // Offset: 0x10
@@ -239,9 +219,9 @@ namespace BeatSaberAPI::DataTransferObjects {
     // public BeatSaberAPI.DataTransferObjects.LevelScoreResult/BeatSaberAPI.DataTransferObjects.GameplayModifiers[] gameplayModifiers
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayW<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers> gameplayModifiers;
+    ::Array<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>* gameplayModifiers;
     // Field size check
-    static_assert(sizeof(::ArrayW<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>) == 0x8);
+    static_assert(sizeof(::Array<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>*) == 0x8);
     // public System.String deviceModel
     // Size: 0x8
     // Offset: 0x40
@@ -254,7 +234,8 @@ namespace BeatSaberAPI::DataTransferObjects {
     ::Il2CppString* extraDataBase64;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: LevelScoreResult
+    LevelScoreResult(::Il2CppString* leaderboardId_ = {}, int rawScore_ = {}, int modifiedScore_ = {}, bool fullCombo_ = {}, int goodCutsCount_ = {}, int badCutsCount_ = {}, int missedCount_ = {}, int maxCombo_ = {}, ::Array<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>* gameplayModifiers_ = {}, ::Il2CppString* deviceModel_ = {}, ::Il2CppString* extraDataBase64_ = {}) noexcept : leaderboardId{leaderboardId_}, rawScore{rawScore_}, modifiedScore{modifiedScore_}, fullCombo{fullCombo_}, goodCutsCount{goodCutsCount_}, badCutsCount{badCutsCount_}, missedCount{missedCount_}, maxCombo{maxCombo_}, gameplayModifiers{gameplayModifiers_}, deviceModel{deviceModel_}, extraDataBase64{extraDataBase64_} {}
     // Get instance field reference: public System.String leaderboardId
     ::Il2CppString*& dyn_leaderboardId();
     // Get instance field reference: public System.Int32 rawScore
@@ -272,13 +253,13 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Get instance field reference: public System.Int32 maxCombo
     int& dyn_maxCombo();
     // Get instance field reference: public BeatSaberAPI.DataTransferObjects.LevelScoreResult/BeatSaberAPI.DataTransferObjects.GameplayModifiers[] gameplayModifiers
-    ::ArrayW<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>& dyn_gameplayModifiers();
+    ::Array<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>*& dyn_gameplayModifiers();
     // Get instance field reference: public System.String deviceModel
     ::Il2CppString*& dyn_deviceModel();
     // Get instance field reference: public System.String extraDataBase64
     ::Il2CppString*& dyn_extraDataBase64();
     // public System.Void .ctor()
-    // Offset: 0x123DD9C
+    // Offset: 0x12C79A8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -291,9 +272,9 @@ namespace BeatSaberAPI::DataTransferObjects {
   static check_size<sizeof(LevelScoreResult), 72 + sizeof(::Il2CppString*)> __BeatSaberAPI_DataTransferObjects_LevelScoreResultSizeCheck;
   static_assert(sizeof(LevelScoreResult) == 0x50);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::LevelScoreResult*, "BeatSaberAPI.DataTransferObjects", "LevelScoreResult");
 DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers, "BeatSaberAPI.DataTransferObjects", "LevelScoreResult/GameplayModifiers");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: BeatSaberAPI::DataTransferObjects::LevelScoreResult::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

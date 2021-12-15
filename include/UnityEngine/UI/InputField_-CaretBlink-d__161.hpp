@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.UI.InputField
 #include "UnityEngine/UI/InputField.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
 #include "System/Collections/Generic/IEnumerator_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: UnityEngine.UI
-namespace UnityEngine::UI {
-  // Forward declaring type: <CaretBlink>d__161
-  class $CaretBlink$d__161;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::UI::InputField::$CaretBlink$d__161);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::InputField::$CaretBlink$d__161*, "UnityEngine.UI", "InputField/<CaretBlink>d__161");
 // Type namespace: UnityEngine.UI
 namespace UnityEngine::UI {
   // Size: 0x28
@@ -31,11 +23,6 @@ namespace UnityEngine::UI {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class InputField::$CaretBlink$d__161 : public ::Il2CppObject/*, public System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -56,7 +43,8 @@ namespace UnityEngine::UI {
     UnityEngine::UI::InputField* $$4__this;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::InputField*) == 0x8);
-    public:
+    // Creating value type constructor for type: $CaretBlink$d__161
+    $CaretBlink$d__161(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, UnityEngine::UI::InputField* $$4__this_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$4__this{$$4__this_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
@@ -68,33 +56,34 @@ namespace UnityEngine::UI {
     // Get instance field reference: public UnityEngine.UI.InputField <>4__this
     UnityEngine::UI::InputField*& dyn_$$4__this();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x1B2AAE8
+    // Offset: 0x1BA53F8
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1B2AB50
+    // Offset: 0x1BA5460
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1B2A9A8
+    // Offset: 0x1BA52B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InputField::$CaretBlink$d__161* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::InputField::$CaretBlink$d__161::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InputField::$CaretBlink$d__161*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1B2A9D4
+    // Offset: 0x1BA52E4
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1B2A9D8
+    // Offset: 0x1BA52E8
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1B2AAF0
+    // Offset: 0x1BA5400
     void System_Collections_IEnumerator_Reset();
   }; // UnityEngine.UI.InputField/UnityEngine.UI.<CaretBlink>d__161
   #pragma pack(pop)
   static check_size<sizeof(InputField::$CaretBlink$d__161), 32 + sizeof(UnityEngine::UI::InputField*)> __UnityEngine_UI_InputField_$CaretBlink$d__161SizeCheck;
   static_assert(sizeof(InputField::$CaretBlink$d__161) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::InputField::$CaretBlink$d__161*, "UnityEngine.UI", "InputField/<CaretBlink>d__161");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::InputField::$CaretBlink$d__161::System_Collections_Generic_IEnumerator$System_Object$_get_Current
 // Il2CppName: System.Collections.Generic.IEnumerator<System.Object>.get_Current
 template<>

@@ -3,18 +3,18 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: UnityEngine.Ray
 #include "UnityEngine/Ray.hpp"
 // Including type: UnityEngine.RaycastHit
 #include "UnityEngine/RaycastHit.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -24,14 +24,6 @@ namespace System::Collections::Generic {
   class List_1;
 }
 // Completed forward declares
-// Type namespace: VRUIControls
-namespace VRUIControls {
-  // Forward declaring type: PhysicsRaycasterWithCache
-  class PhysicsRaycasterWithCache;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(VRUIControls::PhysicsRaycasterWithCache);
-DEFINE_IL2CPP_ARG_TYPE(VRUIControls::PhysicsRaycasterWithCache*, "VRUIControls", "PhysicsRaycasterWithCache");
 // Type namespace: VRUIControls
 namespace VRUIControls {
   // Size: 0x1C
@@ -50,11 +42,6 @@ namespace VRUIControls {
     // [IsReadOnlyAttribute] Offset: FFFFFFFF
     struct CachedRaycast/*, public System::ValueType*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public readonly System.Boolean wasHit
       // Size: 0x1
       // Offset: 0x0
@@ -87,7 +74,6 @@ namespace VRUIControls {
       int layerMask;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: CachedRaycast
       constexpr CachedRaycast(bool wasHit_ = {}, UnityEngine::Ray ray_ = {}, UnityEngine::RaycastHit hitInfo_ = {}, float maxDistance_ = {}, int layerMask_ = {}) noexcept : wasHit{wasHit_}, ray{ray_}, hitInfo{hitInfo_}, maxDistance{maxDistance_}, layerMask{layerMask_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -105,17 +91,13 @@ namespace VRUIControls {
       // Get instance field reference: public readonly System.Int32 layerMask
       int& dyn_layerMask();
       // public System.Void .ctor(System.Boolean wasHit, UnityEngine.Ray ray, UnityEngine.RaycastHit hitInfo, System.Single maxDistance, System.Int32 layerMask)
-      // Offset: 0x2583E38
-      // ABORTED: conflicts with another method.  CachedRaycast(bool wasHit, UnityEngine::Ray ray, UnityEngine::RaycastHit hitInfo, float maxDistance, int layerMask);
+      // Offset: 0x26466D0
+      // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+      // ABORTED: conflicts with another method.  CachedRaycast(bool wasHit, UnityEngine::Ray ray, UnityEngine::RaycastHit hitInfo, float maxDistance, int layerMask)
     }; // VRUIControls.PhysicsRaycasterWithCache/VRUIControls.CachedRaycast
     #pragma pack(pop)
     static check_size<sizeof(PhysicsRaycasterWithCache::CachedRaycast), 76 + sizeof(int)> __VRUIControls_PhysicsRaycasterWithCache_CachedRaycastSizeCheck;
     static_assert(sizeof(PhysicsRaycasterWithCache::CachedRaycast) == 0x50);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private readonly System.Collections.Generic.List`1<VRUIControls.PhysicsRaycasterWithCache/VRUIControls.CachedRaycast> _cachedRaycasts
     // Size: 0x8
     // Offset: 0x10
@@ -128,16 +110,17 @@ namespace VRUIControls {
     int lastFrameCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
+    // Creating value type constructor for type: PhysicsRaycasterWithCache
+    PhysicsRaycasterWithCache(System::Collections::Generic::List_1<VRUIControls::PhysicsRaycasterWithCache::CachedRaycast>* cachedRaycasts_ = {}, int lastFrameCount_ = {}) noexcept : cachedRaycasts{cachedRaycasts_}, lastFrameCount{lastFrameCount_} {}
     // Get instance field reference: private readonly System.Collections.Generic.List`1<VRUIControls.PhysicsRaycasterWithCache/VRUIControls.CachedRaycast> _cachedRaycasts
     System::Collections::Generic::List_1<VRUIControls::PhysicsRaycasterWithCache::CachedRaycast>*& dyn__cachedRaycasts();
     // Get instance field reference: private System.Int32 _lastFrameCount
     int& dyn__lastFrameCount();
     // public System.Boolean Raycast(UnityEngine.Ray ray, out UnityEngine.RaycastHit hitInfo, System.Single maxDistance, System.Int32 layerMask)
-    // Offset: 0x25839D4
+    // Offset: 0x264626C
     bool Raycast(UnityEngine::Ray ray, ByRef<UnityEngine::RaycastHit> hitInfo, float maxDistance, int layerMask);
     // public System.Void .ctor()
-    // Offset: 0x2583E78
+    // Offset: 0x2646710
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -150,9 +133,9 @@ namespace VRUIControls {
   static check_size<sizeof(PhysicsRaycasterWithCache), 24 + sizeof(int)> __VRUIControls_PhysicsRaycasterWithCacheSizeCheck;
   static_assert(sizeof(PhysicsRaycasterWithCache) == 0x1C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(VRUIControls::PhysicsRaycasterWithCache*, "VRUIControls", "PhysicsRaycasterWithCache");
 DEFINE_IL2CPP_ARG_TYPE(VRUIControls::PhysicsRaycasterWithCache::CachedRaycast, "VRUIControls", "PhysicsRaycasterWithCache/CachedRaycast");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: VRUIControls::PhysicsRaycasterWithCache::Raycast
 // Il2CppName: Raycast
 template<>

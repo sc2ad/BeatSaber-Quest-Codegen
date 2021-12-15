@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LeaderboardScoreUploader
 #include "GlobalNamespace/LeaderboardScoreUploader.hpp"
 // Including type: PlatformLeaderboardsModel
 #include "GlobalNamespace/PlatformLeaderboardsModel.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <>c__DisplayClass14_0
-  class $$c__DisplayClass14_0;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::LeaderboardScoreUploader::$$c__DisplayClass14_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardScoreUploader::$$c__DisplayClass14_0*, "", "LeaderboardScoreUploader/<>c__DisplayClass14_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -31,11 +23,6 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class LeaderboardScoreUploader::$$c__DisplayClass14_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public LeaderboardScoreUploader/ScoreData scoreData
     // Size: 0x8
     // Offset: 0x10
@@ -48,16 +35,17 @@ namespace GlobalNamespace {
     GlobalNamespace::LeaderboardScoreUploader* $$4__this;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LeaderboardScoreUploader*) == 0x8);
-    public:
+    // Creating value type constructor for type: $$c__DisplayClass14_0
+    $$c__DisplayClass14_0(GlobalNamespace::LeaderboardScoreUploader::ScoreData* scoreData_ = {}, GlobalNamespace::LeaderboardScoreUploader* $$4__this_ = {}) noexcept : scoreData{scoreData_}, $$4__this{$$4__this_} {}
     // Get instance field reference: public LeaderboardScoreUploader/ScoreData scoreData
     GlobalNamespace::LeaderboardScoreUploader::ScoreData*& dyn_scoreData();
     // Get instance field reference: public LeaderboardScoreUploader <>4__this
     GlobalNamespace::LeaderboardScoreUploader*& dyn_$$4__this();
     // System.Void <UploadScoresCoroutine>b__0(PlatformLeaderboardsModel/UploadScoreResult result)
-    // Offset: 0x11DE09C
+    // Offset: 0x11A2BCC
     void $UploadScoresCoroutine$b__0(GlobalNamespace::PlatformLeaderboardsModel::UploadScoreResult result);
     // public System.Void .ctor()
-    // Offset: 0x11DE094
+    // Offset: 0x11A2BC4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -70,7 +58,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(LeaderboardScoreUploader::$$c__DisplayClass14_0), 24 + sizeof(GlobalNamespace::LeaderboardScoreUploader*)> __GlobalNamespace_LeaderboardScoreUploader_$$c__DisplayClass14_0SizeCheck;
   static_assert(sizeof(LeaderboardScoreUploader::$$c__DisplayClass14_0) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardScoreUploader::$$c__DisplayClass14_0*, "", "LeaderboardScoreUploader/<>c__DisplayClass14_0");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LeaderboardScoreUploader::$$c__DisplayClass14_0::$UploadScoresCoroutine$b__0
 // Il2CppName: <UploadScoresCoroutine>b__0
 template<>

@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BaseTransitionSO
 #include "GlobalNamespace/BaseTransitionSO.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: EnabledTransitionSO
-  class EnabledTransitionSO;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::EnabledTransitionSO);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnabledTransitionSO*, "", "EnabledTransitionSO");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x26
@@ -28,11 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class EnabledTransitionSO : public GlobalNamespace::BaseTransitionSO {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Boolean _normalState
     // Size: 0x1
     // Offset: 0x20
@@ -69,7 +56,8 @@ namespace GlobalNamespace {
     bool selectedAndHighlightedState;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: EnabledTransitionSO
+    EnabledTransitionSO(bool normalState_ = {}, bool highlightedState_ = {}, bool pressedState_ = {}, bool disabledState_ = {}, bool selectedState_ = {}, bool selectedAndHighlightedState_ = {}) noexcept : normalState{normalState_}, highlightedState{highlightedState_}, pressedState{pressedState_}, disabledState{disabledState_}, selectedState{selectedState_}, selectedAndHighlightedState{selectedAndHighlightedState_} {}
     // Get instance field reference: private System.Boolean _normalState
     bool& dyn__normalState();
     // Get instance field reference: private System.Boolean _highlightedState
@@ -83,25 +71,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _selectedAndHighlightedState
     bool& dyn__selectedAndHighlightedState();
     // public System.Boolean get_normalState()
-    // Offset: 0x1169A24
+    // Offset: 0x11DC6EC
     bool get_normalState();
     // public System.Boolean get_highlightedState()
-    // Offset: 0x1169A2C
+    // Offset: 0x11DC6F4
     bool get_highlightedState();
     // public System.Boolean get_pressedState()
-    // Offset: 0x1169A34
+    // Offset: 0x11DC6FC
     bool get_pressedState();
     // public System.Boolean get_disabledState()
-    // Offset: 0x1169A3C
+    // Offset: 0x11DC704
     bool get_disabledState();
     // public System.Boolean get_selectedState()
-    // Offset: 0x1169A44
+    // Offset: 0x11DC70C
     bool get_selectedState();
     // public System.Boolean get_selectedAndHighlightedState()
-    // Offset: 0x1169A4C
+    // Offset: 0x11DC714
     bool get_selectedAndHighlightedState();
     // public System.Void .ctor()
-    // Offset: 0x1169A54
+    // Offset: 0x11DC71C
     // Implemented from: BaseTransitionSO
     // Base method: System.Void BaseTransitionSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()
@@ -118,7 +106,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(EnabledTransitionSO), 37 + sizeof(bool)> __GlobalNamespace_EnabledTransitionSOSizeCheck;
   static_assert(sizeof(EnabledTransitionSO) == 0x26);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnabledTransitionSO*, "", "EnabledTransitionSO");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EnabledTransitionSO::get_normalState
 // Il2CppName: get_normalState
 template<>

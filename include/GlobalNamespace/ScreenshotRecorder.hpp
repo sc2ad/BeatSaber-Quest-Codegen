@@ -3,16 +3,14 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
-// Including type: System.Enum
-#include "System/Enum.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -25,14 +23,6 @@ namespace UnityEngine {
   class Texture2D;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: ScreenshotRecorder
-  class ScreenshotRecorder;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::ScreenshotRecorder);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScreenshotRecorder*, "", "ScreenshotRecorder");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x78
@@ -49,18 +39,12 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct RecordingType/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: RecordingType
       constexpr RecordingType(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -113,18 +97,13 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(ScreenshotRecorder::RecordingType), 0 + sizeof(int)> __GlobalNamespace_ScreenshotRecorder_RecordingTypeSizeCheck;
     static_assert(sizeof(ScreenshotRecorder::RecordingType) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.String _folder
     // Size: 0x8
     // Offset: 0x18
     ::Il2CppString* folder;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [NullAllowed] Offset: 0xECB180
+    // [NullAllowed] Offset: 0xF090D0
     // private UnityEngine.Camera _camera
     // Size: 0x8
     // Offset: 0x20
@@ -233,7 +212,8 @@ namespace GlobalNamespace {
     UnityEngine::RenderTexture* cameraRenderTexture;
     // Field size check
     static_assert(sizeof(UnityEngine::RenderTexture*) == 0x8);
-    public:
+    // Creating value type constructor for type: ScreenshotRecorder
+    ScreenshotRecorder(::Il2CppString* folder_ = {}, UnityEngine::Camera* camera_ = {}, int frameRate_ = {}, bool forceFixedFramerate_ = {}, int interval_ = {}, GlobalNamespace::ScreenshotRecorder::RecordingType recordingType_ = {}, bool pauseWithPButton_ = {}, int antiAlias_ = {}, int screenshotWidth_ = {}, int screenshotHeight_ = {}, int counter_ = {}, float originalTimeScale_ = {}, bool paused_ = {}, int frameNum_ = {}, UnityEngine::RenderTexture* cubemapLeftEye_ = {}, UnityEngine::RenderTexture* cubemapRighEye_ = {}, UnityEngine::RenderTexture* equirectTexture_ = {}, UnityEngine::RenderTexture* cameraRenderTexture_ = {}) noexcept : folder{folder_}, camera{camera_}, frameRate{frameRate_}, forceFixedFramerate{forceFixedFramerate_}, interval{interval_}, recordingType{recordingType_}, pauseWithPButton{pauseWithPButton_}, antiAlias{antiAlias_}, screenshotWidth{screenshotWidth_}, screenshotHeight{screenshotHeight_}, counter{counter_}, originalTimeScale{originalTimeScale_}, paused{paused_}, frameNum{frameNum_}, cubemapLeftEye{cubemapLeftEye_}, cubemapRighEye{cubemapRighEye_}, equirectTexture{equirectTexture_}, cameraRenderTexture{cameraRenderTexture_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _folder
@@ -273,28 +253,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.RenderTexture _cameraRenderTexture
     UnityEngine::RenderTexture*& dyn__cameraRenderTexture();
     // protected System.Void OnEnable()
-    // Offset: 0x257D940
+    // Offset: 0x263F1D8
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x257DAC4
+    // Offset: 0x263F35C
     void OnDisable();
     // protected System.Void LateUpdate()
-    // Offset: 0x257DB98
+    // Offset: 0x263F430
     void LateUpdate();
     // private System.Void OnApplicationFocus(System.Boolean hasFocus)
-    // Offset: 0x257DCFC
+    // Offset: 0x263F594
     void OnApplicationFocus(bool hasFocus);
     // private System.Void SaveCameraScreenshot()
-    // Offset: 0x257DC68
+    // Offset: 0x263F500
     void SaveCameraScreenshot();
     // private System.Void SaveTextureScreenshot(UnityEngine.Texture2D tex)
-    // Offset: 0x257DE38
+    // Offset: 0x263F6D0
     void SaveTextureScreenshot(UnityEngine::Texture2D* tex);
     // private UnityEngine.Texture2D ConvertRenderTexture(UnityEngine.RenderTexture renderTexture)
-    // Offset: 0x257DD14
+    // Offset: 0x263F5AC
     UnityEngine::Texture2D* ConvertRenderTexture(UnityEngine::RenderTexture* renderTexture);
     // public System.Void .ctor()
-    // Offset: 0x257DF48
+    // Offset: 0x263F7E0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -311,9 +291,9 @@ namespace GlobalNamespace {
   static check_size<sizeof(ScreenshotRecorder), 112 + sizeof(UnityEngine::RenderTexture*)> __GlobalNamespace_ScreenshotRecorderSizeCheck;
   static_assert(sizeof(ScreenshotRecorder) == 0x78);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScreenshotRecorder*, "", "ScreenshotRecorder");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScreenshotRecorder::RecordingType, "", "ScreenshotRecorder/RecordingType");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ScreenshotRecorder::OnEnable
 // Il2CppName: OnEnable
 template<>

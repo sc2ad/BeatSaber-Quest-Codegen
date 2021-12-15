@@ -3,7 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
@@ -12,13 +12,6 @@
 namespace System::Runtime::CompilerServices {
 }
 // Completed forward declares
-// Type namespace: System.Runtime.CompilerServices
-namespace System::Runtime::CompilerServices {
-  // Forward declaring type: YieldAwaitable
-  struct YieldAwaitable;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::YieldAwaitable, "System.Runtime.CompilerServices", "YieldAwaitable");
 // Type namespace: System.Runtime.CompilerServices
 namespace System::Runtime::CompilerServices {
   // Size: 0x0
@@ -37,12 +30,14 @@ namespace System::Runtime::CompilerServices {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Runtime.CompilerServices.YieldAwaitable/System.Runtime.CompilerServices.YieldAwaiter GetAwaiter()
-    // Offset: 0x1593AFC
+    // Offset: 0x1621DF0
     System::Runtime::CompilerServices::YieldAwaitable::YieldAwaiter GetAwaiter();
   }; // System.Runtime.CompilerServices.YieldAwaitable
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::YieldAwaitable, "System.Runtime.CompilerServices", "YieldAwaitable");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::YieldAwaitable::GetAwaiter
 // Il2CppName: GetAwaiter
 template<>

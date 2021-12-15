@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Runtime.Serialization.Formatters.FormatterTypeStyle
 #include "System/Runtime/Serialization/Formatters/FormatterTypeStyle.hpp"
 // Including type: System.Runtime.Serialization.Formatters.FormatterAssemblyStyle
@@ -13,19 +13,11 @@
 #include "System/Runtime/Serialization/Formatters/TypeFilterLevel.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.InternalSerializerTypeE
 #include "System/Runtime/Serialization/Formatters/Binary/InternalSerializerTypeE.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Runtime.Serialization.Formatters.Binary
-namespace System::Runtime::Serialization::Formatters::Binary {
-  // Forward declaring type: InternalFE
-  class InternalFE;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::InternalFE);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::InternalFE*, "System.Runtime.Serialization.Formatters.Binary", "InternalFE");
 // Type namespace: System.Runtime.Serialization.Formatters.Binary
 namespace System::Runtime::Serialization::Formatters::Binary {
   // Size: 0x20
@@ -34,11 +26,6 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   // [TokenAttribute] Offset: FFFFFFFF
   class InternalFE : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // System.Runtime.Serialization.Formatters.FormatterTypeStyle FEtypeFormat
     // Size: 0x4
     // Offset: 0x10
@@ -63,7 +50,8 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     System::Runtime::Serialization::Formatters::Binary::InternalSerializerTypeE FEserializerTypeEnum;
     // Field size check
     static_assert(sizeof(System::Runtime::Serialization::Formatters::Binary::InternalSerializerTypeE) == 0x4);
-    public:
+    // Creating value type constructor for type: InternalFE
+    InternalFE(System::Runtime::Serialization::Formatters::FormatterTypeStyle FEtypeFormat_ = {}, System::Runtime::Serialization::Formatters::FormatterAssemblyStyle FEassemblyFormat_ = {}, System::Runtime::Serialization::Formatters::TypeFilterLevel FEsecurityLevel_ = {}, System::Runtime::Serialization::Formatters::Binary::InternalSerializerTypeE FEserializerTypeEnum_ = {}) noexcept : FEtypeFormat{FEtypeFormat_}, FEassemblyFormat{FEassemblyFormat_}, FEsecurityLevel{FEsecurityLevel_}, FEserializerTypeEnum{FEserializerTypeEnum_} {}
     // Get instance field reference: System.Runtime.Serialization.Formatters.FormatterTypeStyle FEtypeFormat
     System::Runtime::Serialization::Formatters::FormatterTypeStyle& dyn_FEtypeFormat();
     // Get instance field reference: System.Runtime.Serialization.Formatters.FormatterAssemblyStyle FEassemblyFormat
@@ -73,7 +61,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.InternalSerializerTypeE FEserializerTypeEnum
     System::Runtime::Serialization::Formatters::Binary::InternalSerializerTypeE& dyn_FEserializerTypeEnum();
     // public System.Void .ctor()
-    // Offset: 0x17CE4AC
+    // Offset: 0x185CDC0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -86,7 +74,8 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   static check_size<sizeof(InternalFE), 28 + sizeof(System::Runtime::Serialization::Formatters::Binary::InternalSerializerTypeE)> __System_Runtime_Serialization_Formatters_Binary_InternalFESizeCheck;
   static_assert(sizeof(InternalFE) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::InternalFE*, "System.Runtime.Serialization.Formatters.Binary", "InternalFE");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::InternalFE::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

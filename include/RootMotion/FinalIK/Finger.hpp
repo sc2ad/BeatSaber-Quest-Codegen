@@ -3,18 +3,18 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Quaternion
 #include "UnityEngine/Quaternion.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -28,14 +28,6 @@ namespace RootMotion::FinalIK {
   class IKSolverLimb;
 }
 // Completed forward declares
-// Type namespace: RootMotion.FinalIK
-namespace RootMotion::FinalIK {
-  // Forward declaring type: Finger
-  class Finger;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::FinalIK::Finger);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Finger*, "RootMotion.FinalIK", "Finger");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
   // Size: 0xA8
@@ -52,18 +44,12 @@ namespace RootMotion::FinalIK {
     // [TokenAttribute] Offset: FFFFFFFF
     struct DOF/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: DOF
       constexpr DOF(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -92,35 +78,30 @@ namespace RootMotion::FinalIK {
     #pragma pack(pop)
     static check_size<sizeof(Finger::DOF), 0 + sizeof(int)> __RootMotion_FinalIK_Finger_DOFSizeCheck;
     static_assert(sizeof(Finger::DOF) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
-    // [TooltipAttribute] Offset: 0xEF1624
-    // [RangeAttribute] Offset: 0xEF1624
+    // [TooltipAttribute] Offset: 0xF5CD30
+    // [RangeAttribute] Offset: 0xF5CD30
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x10
     float weight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xEF1678
-    // [RangeAttribute] Offset: 0xEF1678
+    // [TooltipAttribute] Offset: 0xF5CD84
+    // [RangeAttribute] Offset: 0xF5CD84
     // public System.Single rotationWeight
     // Size: 0x4
     // Offset: 0x14
     float rotationWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xEF16CC
+    // [TooltipAttribute] Offset: 0xF5CDD8
     // public RootMotion.FinalIK.Finger/RootMotion.FinalIK.DOF rotationDOF
     // Size: 0x4
     // Offset: 0x18
     RootMotion::FinalIK::Finger::DOF rotationDOF;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::Finger::DOF) == 0x4);
-    // [TooltipAttribute] Offset: 0xEF1704
+    // [TooltipAttribute] Offset: 0xF5CE10
     // public System.Boolean fixBone1Twist
     // Size: 0x1
     // Offset: 0x1C
@@ -129,35 +110,35 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: fixBone1Twist and: bone1
     char __padding3[0x3] = {};
-    // [TooltipAttribute] Offset: 0xEF173C
+    // [TooltipAttribute] Offset: 0xF5CE48
     // public UnityEngine.Transform bone1
     // Size: 0x8
     // Offset: 0x20
     UnityEngine::Transform* bone1;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0xEF1774
+    // [TooltipAttribute] Offset: 0xF5CE80
     // public UnityEngine.Transform bone2
     // Size: 0x8
     // Offset: 0x28
     UnityEngine::Transform* bone2;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0xEF17AC
+    // [TooltipAttribute] Offset: 0xF5CEB8
     // public UnityEngine.Transform bone3
     // Size: 0x8
     // Offset: 0x30
     UnityEngine::Transform* bone3;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0xEF17E4
+    // [TooltipAttribute] Offset: 0xF5CEF0
     // public UnityEngine.Transform tip
     // Size: 0x8
     // Offset: 0x38
     UnityEngine::Transform* tip;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0xEF181C
+    // [TooltipAttribute] Offset: 0xF5CF28
     // public UnityEngine.Transform target
     // Size: 0x8
     // Offset: 0x40
@@ -214,7 +195,8 @@ namespace RootMotion::FinalIK {
     UnityEngine::Vector3 bone1TwistAxis;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    public:
+    // Creating value type constructor for type: Finger
+    Finger(float weight_ = {}, float rotationWeight_ = {}, RootMotion::FinalIK::Finger::DOF rotationDOF_ = {}, bool fixBone1Twist_ = {}, UnityEngine::Transform* bone1_ = {}, UnityEngine::Transform* bone2_ = {}, UnityEngine::Transform* bone3_ = {}, UnityEngine::Transform* tip_ = {}, UnityEngine::Transform* target_ = {}, bool initiated_ = {}, RootMotion::FinalIK::IKSolverLimb* solver_ = {}, UnityEngine::Quaternion bone3RelativeToTarget_ = {}, UnityEngine::Vector3 bone3DefaultLocalPosition_ = {}, UnityEngine::Quaternion bone3DefaultLocalRotation_ = {}, UnityEngine::Vector3 bone1Axis_ = {}, UnityEngine::Vector3 tipAxis_ = {}, UnityEngine::Vector3 bone1TwistAxis_ = {}) noexcept : weight{weight_}, rotationWeight{rotationWeight_}, rotationDOF{rotationDOF_}, fixBone1Twist{fixBone1Twist_}, bone1{bone1_}, bone2{bone2_}, bone3{bone3_}, tip{tip_}, target{target_}, initiated{initiated_}, solver{solver_}, bone3RelativeToTarget{bone3RelativeToTarget_}, bone3DefaultLocalPosition{bone3DefaultLocalPosition_}, bone3DefaultLocalRotation{bone3DefaultLocalRotation_}, bone1Axis{bone1Axis_}, tipAxis{tipAxis_}, bone1TwistAxis{bone1TwistAxis_} {}
     // Get instance field reference: public System.Single weight
     float& dyn_weight();
     // Get instance field reference: public System.Single rotationWeight
@@ -250,40 +232,40 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private UnityEngine.Vector3 bone1TwistAxis
     UnityEngine::Vector3& dyn_bone1TwistAxis();
     // public System.Boolean get_initiated()
-    // Offset: 0x1EAF7D4
+    // Offset: 0x1EB5234
     bool get_initiated();
     // private System.Void set_initiated(System.Boolean value)
-    // Offset: 0x1EAF7DC
+    // Offset: 0x1EB523C
     void set_initiated(bool value);
     // public UnityEngine.Vector3 get_IKPosition()
-    // Offset: 0x1EAF7E8
+    // Offset: 0x1EB5248
     UnityEngine::Vector3 get_IKPosition();
     // public System.Void set_IKPosition(UnityEngine.Vector3 value)
-    // Offset: 0x1EAF808
+    // Offset: 0x1EB5268
     void set_IKPosition(UnityEngine::Vector3 value);
     // public UnityEngine.Quaternion get_IKRotation()
-    // Offset: 0x1EAF828
+    // Offset: 0x1EB5288
     UnityEngine::Quaternion get_IKRotation();
     // public System.Void set_IKRotation(UnityEngine.Quaternion value)
-    // Offset: 0x1EAF848
+    // Offset: 0x1EB52A8
     void set_IKRotation(UnityEngine::Quaternion value);
     // public System.Boolean IsValid(ref System.String errorMessage)
-    // Offset: 0x1EAF868
+    // Offset: 0x1EB52C8
     bool IsValid(ByRef<::Il2CppString*> errorMessage);
     // public System.Void Initiate(UnityEngine.Transform hand, System.Int32 index)
-    // Offset: 0x1EAF968
+    // Offset: 0x1EB53C8
     void Initiate(UnityEngine::Transform* hand, int index);
     // public System.Void FixTransforms()
-    // Offset: 0x1EAFEFC
+    // Offset: 0x1EB595C
     void FixTransforms();
     // public System.Void StoreDefaultLocalState()
-    // Offset: 0x1EAFFD8
+    // Offset: 0x1EB5A38
     void StoreDefaultLocalState();
     // public System.Void Update(System.Single masterWeight)
-    // Offset: 0x1EB00A0
+    // Offset: 0x1EB5B00
     void Update(float masterWeight);
     // public System.Void .ctor()
-    // Offset: 0x1EB07E4
+    // Offset: 0x1EB6244
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -296,9 +278,9 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(Finger), 156 + sizeof(UnityEngine::Vector3)> __RootMotion_FinalIK_FingerSizeCheck;
   static_assert(sizeof(Finger) == 0xA8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Finger*, "RootMotion.FinalIK", "Finger");
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Finger::DOF, "RootMotion.FinalIK", "Finger/DOF");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::Finger::get_initiated
 // Il2CppName: get_initiated
 template<>

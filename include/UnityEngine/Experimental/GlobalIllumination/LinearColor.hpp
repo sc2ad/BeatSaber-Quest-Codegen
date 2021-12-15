@@ -3,7 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
@@ -16,13 +16,6 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine.Experimental.GlobalIllumination
 namespace UnityEngine::Experimental::GlobalIllumination {
-  // Forward declaring type: LinearColor
-  struct LinearColor;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::LinearColor, "UnityEngine.Experimental.GlobalIllumination", "LinearColor");
-// Type namespace: UnityEngine.Experimental.GlobalIllumination
-namespace UnityEngine::Experimental::GlobalIllumination {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -30,11 +23,6 @@ namespace UnityEngine::Experimental::GlobalIllumination {
   // [TokenAttribute] Offset: FFFFFFFF
   struct LinearColor/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Single m_red
     // Size: 0x4
     // Offset: 0x0
@@ -59,7 +47,6 @@ namespace UnityEngine::Experimental::GlobalIllumination {
     float m_intensity;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
     // Creating value type constructor for type: LinearColor
     constexpr LinearColor(float m_red_ = {}, float m_green_ = {}, float m_blue_ = {}, float m_intensity_ = {}) noexcept : m_red{m_red_}, m_green{m_green_}, m_blue{m_blue_}, m_intensity{m_intensity_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -75,17 +62,19 @@ namespace UnityEngine::Experimental::GlobalIllumination {
     // Get instance field reference: private System.Single m_intensity
     float& dyn_m_intensity();
     // static public UnityEngine.Experimental.GlobalIllumination.LinearColor Convert(UnityEngine.Color color, System.Single intensity)
-    // Offset: 0x1C9DC88
+    // Offset: 0x1D0D6F0
     static UnityEngine::Experimental::GlobalIllumination::LinearColor Convert(UnityEngine::Color color, float intensity);
     // static public UnityEngine.Experimental.GlobalIllumination.LinearColor Black()
-    // Offset: 0x1C9EF50
+    // Offset: 0x1D0E9B8
     static UnityEngine::Experimental::GlobalIllumination::LinearColor Black();
   }; // UnityEngine.Experimental.GlobalIllumination.LinearColor
   #pragma pack(pop)
   static check_size<sizeof(LinearColor), 12 + sizeof(float)> __UnityEngine_Experimental_GlobalIllumination_LinearColorSizeCheck;
   static_assert(sizeof(LinearColor) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::LinearColor, "UnityEngine.Experimental.GlobalIllumination", "LinearColor");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Experimental::GlobalIllumination::LinearColor::Convert
 // Il2CppName: Convert
 template<>

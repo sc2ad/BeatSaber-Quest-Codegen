@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: AlphabetScrollInfo
 #include "GlobalNamespace/AlphabetScrollInfo.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: Data
-  class Data;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::AlphabetScrollInfo::Data);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AlphabetScrollInfo::Data*, "", "AlphabetScrollInfo/Data");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x18
@@ -28,11 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AlphabetScrollInfo::Data : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public readonly System.Char character
     // Size: 0x2
     // Offset: 0x10
@@ -47,13 +34,14 @@ namespace GlobalNamespace {
     int cellIdx;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
+    // Creating value type constructor for type: Data
+    Data(::Il2CppChar character_ = {}, int cellIdx_ = {}) noexcept : character{character_}, cellIdx{cellIdx_} {}
     // Get instance field reference: public readonly System.Char character
     ::Il2CppChar& dyn_character();
     // Get instance field reference: public readonly System.Int32 cellIdx
     int& dyn_cellIdx();
     // public System.Void .ctor(System.Char character, System.Int32 cellIdx)
-    // Offset: 0x135D00C
+    // Offset: 0x138DBEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AlphabetScrollInfo::Data* New_ctor(::Il2CppChar character, int cellIdx) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AlphabetScrollInfo::Data::.ctor");
@@ -64,7 +52,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(AlphabetScrollInfo::Data), 20 + sizeof(int)> __GlobalNamespace_AlphabetScrollInfo_DataSizeCheck;
   static_assert(sizeof(AlphabetScrollInfo::Data) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AlphabetScrollInfo::Data*, "", "AlphabetScrollInfo/Data");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AlphabetScrollInfo::Data::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

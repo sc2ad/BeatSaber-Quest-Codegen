@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: IAudioTimeSource
 #include "GlobalNamespace/IAudioTimeSource.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: MockAudioTimeSource
-  class MockAudioTimeSource;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MockAudioTimeSource);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockAudioTimeSource*, "", "MockAudioTimeSource");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -30,11 +22,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MockAudioTimeSource : public UnityEngine::MonoBehaviour/*, public GlobalNamespace::IAudioTimeSource*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Single <songTime>k__BackingField
     // Size: 0x4
     // Offset: 0x18
@@ -47,7 +34,8 @@ namespace GlobalNamespace {
     float lastFrameDeltaSongTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
+    // Creating value type constructor for type: MockAudioTimeSource
+    MockAudioTimeSource(float songTime_ = {}, float lastFrameDeltaSongTime_ = {}) noexcept : songTime{songTime_}, lastFrameDeltaSongTime{lastFrameDeltaSongTime_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IAudioTimeSource
     operator GlobalNamespace::IAudioTimeSource() noexcept {
       return *reinterpret_cast<GlobalNamespace::IAudioTimeSource*>(this);
@@ -59,28 +47,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single <lastFrameDeltaSongTime>k__BackingField
     float& dyn_$lastFrameDeltaSongTime$k__BackingField();
     // public System.Single get_songTime()
-    // Offset: 0x121341C
+    // Offset: 0x11BDFBC
     float get_songTime();
     // private System.Void set_songTime(System.Single value)
-    // Offset: 0x1213424
+    // Offset: 0x11BDFC4
     void set_songTime(float value);
     // public System.Single get_lastFrameDeltaSongTime()
-    // Offset: 0x121342C
+    // Offset: 0x11BDFCC
     float get_lastFrameDeltaSongTime();
     // private System.Void set_lastFrameDeltaSongTime(System.Single value)
-    // Offset: 0x1213434
+    // Offset: 0x11BDFD4
     void set_lastFrameDeltaSongTime(float value);
     // public System.Single get_songEndTime()
-    // Offset: 0x121343C
+    // Offset: 0x11BDFDC
     float get_songEndTime();
     // public System.Boolean get_isReady()
-    // Offset: 0x1213448
+    // Offset: 0x11BDFE8
     bool get_isReady();
     // protected System.Void Update()
-    // Offset: 0x1213450
+    // Offset: 0x11BDFF0
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x1213494
+    // Offset: 0x11BE034
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -97,7 +85,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(MockAudioTimeSource), 28 + sizeof(float)> __GlobalNamespace_MockAudioTimeSourceSizeCheck;
   static_assert(sizeof(MockAudioTimeSource) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockAudioTimeSource*, "", "MockAudioTimeSource");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MockAudioTimeSource::get_songTime
 // Il2CppName: get_songTime
 template<>

@@ -3,18 +3,10 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MasterServer.IMasterServerMessage
 #include "MasterServer/IMasterServerMessage.hpp"
 // Completed includes
-// Type namespace: MasterServer
-namespace MasterServer {
-  // Forward declaring type: IMasterServerReliableRequest
-  class IMasterServerReliableRequest;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(MasterServer::IMasterServerReliableRequest);
-DEFINE_IL2CPP_ARG_TYPE(MasterServer::IMasterServerReliableRequest*, "MasterServer", "IMasterServerReliableRequest");
 // Type namespace: MasterServer
 namespace MasterServer {
   // Size: 0x10
@@ -23,6 +15,8 @@ namespace MasterServer {
   // [TokenAttribute] Offset: FFFFFFFF
   class IMasterServerReliableRequest/*, public MasterServer::IMasterServerMessage*/ {
     public:
+    // Creating value type constructor for type: IMasterServerReliableRequest
+    IMasterServerReliableRequest() noexcept {}
     // Creating interface conversion operator: operator MasterServer::IMasterServerMessage
     operator MasterServer::IMasterServerMessage() noexcept {
       return *reinterpret_cast<MasterServer::IMasterServerMessage*>(this);
@@ -36,7 +30,9 @@ namespace MasterServer {
   }; // MasterServer.IMasterServerReliableRequest
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(MasterServer::IMasterServerReliableRequest*, "MasterServer", "IMasterServerReliableRequest");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: MasterServer::IMasterServerReliableRequest::get_requestId
 // Il2CppName: get_requestId
 template<>

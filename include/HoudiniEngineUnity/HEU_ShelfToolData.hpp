@@ -3,24 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: HoudiniEngineUnity
-namespace HoudiniEngineUnity {
-  // Forward declaring type: HEU_ShelfToolData
-  class HEU_ShelfToolData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_ShelfToolData);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_ShelfToolData*, "HoudiniEngineUnity", "HEU_ShelfToolData");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x50
@@ -37,18 +28,12 @@ namespace HoudiniEngineUnity {
     // [TokenAttribute] Offset: FFFFFFFF
     struct ToolType/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: ToolType
       constexpr ToolType(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -89,11 +74,6 @@ namespace HoudiniEngineUnity {
     #pragma pack(pop)
     static check_size<sizeof(HEU_ShelfToolData::ToolType), 0 + sizeof(int)> __HoudiniEngineUnity_HEU_ShelfToolData_ToolTypeSizeCheck;
     static_assert(sizeof(HEU_ShelfToolData::ToolType) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.String _name
     // Size: 0x8
     // Offset: 0x10
@@ -135,16 +115,17 @@ namespace HoudiniEngineUnity {
     // public System.String[] _targets
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayW<::Il2CppString*> targets;
+    ::Array<::Il2CppString*>* targets;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
     // public System.String _jsonPath
     // Size: 0x8
     // Offset: 0x48
     ::Il2CppString* jsonPath;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: HEU_ShelfToolData
+    HEU_ShelfToolData(::Il2CppString* name_ = {}, HoudiniEngineUnity::HEU_ShelfToolData::ToolType toolType_ = {}, ::Il2CppString* toolTip_ = {}, ::Il2CppString* iconPath_ = {}, ::Il2CppString* assetPath_ = {}, ::Il2CppString* helpURL_ = {}, ::Array<::Il2CppString*>* targets_ = {}, ::Il2CppString* jsonPath_ = {}) noexcept : name{name_}, toolType{toolType_}, toolTip{toolTip_}, iconPath{iconPath_}, assetPath{assetPath_}, helpURL{helpURL_}, targets{targets_}, jsonPath{jsonPath_} {}
     // Get instance field reference: public System.String _name
     ::Il2CppString*& dyn__name();
     // Get instance field reference: public HoudiniEngineUnity.HEU_ShelfToolData/HoudiniEngineUnity.ToolType _toolType
@@ -158,11 +139,11 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.String _helpURL
     ::Il2CppString*& dyn__helpURL();
     // Get instance field reference: public System.String[] _targets
-    ::ArrayW<::Il2CppString*>& dyn__targets();
+    ::Array<::Il2CppString*>*& dyn__targets();
     // Get instance field reference: public System.String _jsonPath
     ::Il2CppString*& dyn__jsonPath();
     // public System.Void .ctor()
-    // Offset: 0x17BAE80
+    // Offset: 0x1849794
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -175,9 +156,9 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_ShelfToolData), 72 + sizeof(::Il2CppString*)> __HoudiniEngineUnity_HEU_ShelfToolDataSizeCheck;
   static_assert(sizeof(HEU_ShelfToolData) == 0x50);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_ShelfToolData*, "HoudiniEngineUnity", "HEU_ShelfToolData");
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_ShelfToolData::ToolType, "HoudiniEngineUnity", "HEU_ShelfToolData/ToolType");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ShelfToolData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -3,16 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: IMultiplayerObservable
-  class IMultiplayerObservable;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::IMultiplayerObservable);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IMultiplayerObservable*, "", "IMultiplayerObservable");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -21,6 +13,8 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IMultiplayerObservable {
     public:
+    // Creating value type constructor for type: IMultiplayerObservable
+    IMultiplayerObservable() noexcept {}
     // public System.Single get_offsetSyncTime()
     // Offset: 0xFFFFFFFF
     float get_offsetSyncTime();
@@ -30,7 +24,9 @@ namespace GlobalNamespace {
   }; // IMultiplayerObservable
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IMultiplayerObservable*, "", "IMultiplayerObservable");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::IMultiplayerObservable::get_offsetSyncTime
 // Il2CppName: get_offsetSyncTime
 template<>

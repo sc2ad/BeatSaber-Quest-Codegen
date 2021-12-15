@@ -3,24 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.DefaultBinder
 #include "System/DefaultBinder.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System
-namespace System {
-  // Forward declaring type: BinderState
-  class BinderState;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::DefaultBinder::BinderState);
-DEFINE_IL2CPP_ARG_TYPE(System::DefaultBinder::BinderState*, "System", "DefaultBinder/BinderState");
 // Type namespace: System
 namespace System {
   // Size: 0x1D
@@ -29,17 +20,12 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class DefaultBinder::BinderState : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // System.Int32[] m_argsMap
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<int> m_argsMap;
+    ::Array<int>* m_argsMap;
     // Field size check
-    static_assert(sizeof(::ArrayW<int>) == 0x8);
+    static_assert(sizeof(::Array<int>*) == 0x8);
     // System.Int32 m_originalSize
     // Size: 0x4
     // Offset: 0x18
@@ -52,17 +38,18 @@ namespace System {
     bool m_isParamArray;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: BinderState
+    BinderState(::Array<int>* m_argsMap_ = {}, int m_originalSize_ = {}, bool m_isParamArray_ = {}) noexcept : m_argsMap{m_argsMap_}, m_originalSize{m_originalSize_}, m_isParamArray{m_isParamArray_} {}
     // Get instance field reference: System.Int32[] m_argsMap
-    ::ArrayW<int>& dyn_m_argsMap();
+    ::Array<int>*& dyn_m_argsMap();
     // Get instance field reference: System.Int32 m_originalSize
     int& dyn_m_originalSize();
     // Get instance field reference: System.Boolean m_isParamArray
     bool& dyn_m_isParamArray();
     // System.Void .ctor(System.Int32[] argsMap, System.Int32 originalSize, System.Boolean isParamArray)
-    // Offset: 0x1CDDD18
+    // Offset: 0x1D4E104
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DefaultBinder::BinderState* New_ctor(::ArrayW<int> argsMap, int originalSize, bool isParamArray) {
+    static DefaultBinder::BinderState* New_ctor(::Array<int>* argsMap, int originalSize, bool isParamArray) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::DefaultBinder::BinderState::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultBinder::BinderState*, creationType>(argsMap, originalSize, isParamArray)));
     }
@@ -71,7 +58,8 @@ namespace System {
   static check_size<sizeof(DefaultBinder::BinderState), 28 + sizeof(bool)> __System_DefaultBinder_BinderStateSizeCheck;
   static_assert(sizeof(DefaultBinder::BinderState) == 0x1D);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::DefaultBinder::BinderState*, "System", "DefaultBinder/BinderState");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::DefaultBinder::BinderState::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

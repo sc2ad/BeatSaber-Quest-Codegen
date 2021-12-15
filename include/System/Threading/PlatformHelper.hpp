@@ -3,17 +3,9 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: System.Threading
-namespace System::Threading {
-  // Forward declaring type: PlatformHelper
-  class PlatformHelper;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Threading::PlatformHelper);
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::PlatformHelper*, "System.Threading", "PlatformHelper");
 // Type namespace: System.Threading
 namespace System::Threading {
   // Size: 0x10
@@ -22,6 +14,8 @@ namespace System::Threading {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlatformHelper : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: PlatformHelper
+    PlatformHelper() noexcept {}
     // Get static field: static private System.Int32 s_processorCount
     static int _get_s_processorCount();
     // Set static field: static private System.Int32 s_processorCount
@@ -31,15 +25,17 @@ namespace System::Threading {
     // Set static field: static private System.Int32 s_lastProcessorCountRefreshTicks
     static void _set_s_lastProcessorCountRefreshTicks(int value);
     // static System.Int32 get_ProcessorCount()
-    // Offset: 0x1A3CD28
+    // Offset: 0x1A5C448
     static int get_ProcessorCount();
     // static System.Boolean get_IsSingleProcessor()
-    // Offset: 0x1A3F59C
+    // Offset: 0x1A5ECBC
     static bool get_IsSingleProcessor();
   }; // System.Threading.PlatformHelper
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::PlatformHelper*, "System.Threading", "PlatformHelper");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::PlatformHelper::get_ProcessorCount
 // Il2CppName: get_ProcessorCount
 template<>

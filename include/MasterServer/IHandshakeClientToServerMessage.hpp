@@ -3,18 +3,10 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MasterServer.IHandshakeMessage
 #include "MasterServer/IHandshakeMessage.hpp"
 // Completed includes
-// Type namespace: MasterServer
-namespace MasterServer {
-  // Forward declaring type: IHandshakeClientToServerMessage
-  class IHandshakeClientToServerMessage;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(MasterServer::IHandshakeClientToServerMessage);
-DEFINE_IL2CPP_ARG_TYPE(MasterServer::IHandshakeClientToServerMessage*, "MasterServer", "IHandshakeClientToServerMessage");
 // Type namespace: MasterServer
 namespace MasterServer {
   // Size: 0x10
@@ -23,6 +15,8 @@ namespace MasterServer {
   // [TokenAttribute] Offset: FFFFFFFF
   class IHandshakeClientToServerMessage/*, public MasterServer::IHandshakeMessage*/ {
     public:
+    // Creating value type constructor for type: IHandshakeClientToServerMessage
+    IHandshakeClientToServerMessage() noexcept {}
     // Creating interface conversion operator: operator MasterServer::IHandshakeMessage
     operator MasterServer::IHandshakeMessage() noexcept {
       return *reinterpret_cast<MasterServer::IHandshakeMessage*>(this);
@@ -30,4 +24,6 @@ namespace MasterServer {
   }; // MasterServer.IHandshakeClientToServerMessage
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(MasterServer::IHandshakeClientToServerMessage*, "MasterServer", "IHandshakeClientToServerMessage");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Int32
 #include "System/Int32.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Threading.Tasks
-namespace System::Threading::Tasks {
-  // Forward declaring type: StackGuard
-  class StackGuard;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Threading::Tasks::StackGuard);
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::StackGuard*, "System.Threading.Tasks", "StackGuard");
 // Type namespace: System.Threading.Tasks
 namespace System::Threading::Tasks {
   // Size: 0x14
@@ -28,18 +20,14 @@ namespace System::Threading::Tasks {
   // [TokenAttribute] Offset: FFFFFFFF
   class StackGuard : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Int32 m_inliningDepth
     // Size: 0x4
     // Offset: 0x10
     int m_inliningDepth;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
+    // Creating value type constructor for type: StackGuard
+    StackGuard(int m_inliningDepth_ = {}) noexcept : m_inliningDepth{m_inliningDepth_} {}
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return m_inliningDepth;
@@ -53,16 +41,16 @@ namespace System::Threading::Tasks {
     // Get instance field reference: private System.Int32 m_inliningDepth
     int& dyn_m_inliningDepth();
     // System.Boolean TryBeginInliningScope()
-    // Offset: 0x1A45E24
+    // Offset: 0x1A65544
     bool TryBeginInliningScope();
     // System.Void EndInliningScope()
-    // Offset: 0x1A45E44
+    // Offset: 0x1A65564
     void EndInliningScope();
     // private System.Boolean CheckForSufficientStack()
-    // Offset: 0x1A45E3C
+    // Offset: 0x1A6555C
     bool CheckForSufficientStack();
     // public System.Void .ctor()
-    // Offset: 0x1A45E58
+    // Offset: 0x1A65578
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -75,7 +63,8 @@ namespace System::Threading::Tasks {
   static check_size<sizeof(StackGuard), 16 + sizeof(int)> __System_Threading_Tasks_StackGuardSizeCheck;
   static_assert(sizeof(StackGuard) == 0x14);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::StackGuard*, "System.Threading.Tasks", "StackGuard");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::Tasks::StackGuard::TryBeginInliningScope
 // Il2CppName: TryBeginInliningScope
 template<>

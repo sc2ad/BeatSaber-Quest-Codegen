@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.DateTimeParse/System.DTT
@@ -14,13 +14,6 @@
 // Completed includes
 // Type namespace: System
 namespace System {
-  // Forward declaring type: DateTimeToken
-  struct DateTimeToken;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::DateTimeToken, "System", "DateTimeToken");
-// Type namespace: System
-namespace System {
   // Size: 0xC
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -28,11 +21,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   struct DateTimeToken/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // System.DateTimeParse/System.DTT dtt
     // Size: 0x4
     // Offset: 0x0
@@ -51,7 +39,6 @@ namespace System {
     int num;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: DateTimeToken
     constexpr DateTimeToken(System::DateTimeParse::DTT dtt_ = {}, System::TokenType suffix_ = {}, int num_ = {}) noexcept : dtt{dtt_}, suffix{suffix_}, num{num_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -69,4 +56,6 @@ namespace System {
   static check_size<sizeof(DateTimeToken), 8 + sizeof(int)> __System_DateTimeTokenSizeCheck;
   static_assert(sizeof(DateTimeToken) == 0xC);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::DateTimeToken, "System", "DateTimeToken");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -4,17 +4,12 @@
 #pragma once
 // Begin includes
 #include <stdint.h>
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: Oculus.Platform
-namespace Oculus::Platform {
-  // Forward declaring type: IVoipPCMSource
-  class IVoipPCMSource;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::IVoipPCMSource);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::IVoipPCMSource*, "Oculus.Platform", "IVoipPCMSource");
+// Begin il2cpp-utils forward declares
+template<class T>
+struct Array;
+// Completed il2cpp-utils forward declares
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
   // Size: 0x10
@@ -23,9 +18,11 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class IVoipPCMSource {
     public:
+    // Creating value type constructor for type: IVoipPCMSource
+    IVoipPCMSource() noexcept {}
     // public System.Int32 GetPCM(System.Single[] dest, System.Int32 length)
     // Offset: 0xFFFFFFFF
-    int GetPCM(::ArrayW<float> dest, int length);
+    int GetPCM(::Array<float>* dest, int length);
     // public System.Void SetSenderID(System.UInt64 senderID)
     // Offset: 0xFFFFFFFF
     void SetSenderID(uint64_t senderID);
@@ -38,11 +35,13 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.IVoipPCMSource
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::IVoipPCMSource*, "Oculus.Platform", "IVoipPCMSource");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::IVoipPCMSource::GetPCM
 // Il2CppName: GetPCM
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Oculus::Platform::IVoipPCMSource::*)(::ArrayW<float>, int)>(&Oculus::Platform::IVoipPCMSource::GetPCM)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Oculus::Platform::IVoipPCMSource::*)(::Array<float>*, int)>(&Oculus::Platform::IVoipPCMSource::GetPCM)> {
   static const MethodInfo* get() {
     static auto* dest = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

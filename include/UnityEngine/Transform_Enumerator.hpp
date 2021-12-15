@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Transform
 #include "UnityEngine/Transform.hpp"
 // Including type: System.Collections.IEnumerator
 #include "System/Collections/IEnumerator.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: Enumerator
-  class Enumerator;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Transform::Enumerator);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Transform::Enumerator*, "UnityEngine", "Transform/Enumerator");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x1C
@@ -30,11 +22,6 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class Transform::Enumerator : public ::Il2CppObject/*, public System::Collections::IEnumerator*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private UnityEngine.Transform outer
     // Size: 0x8
     // Offset: 0x10
@@ -47,7 +34,8 @@ namespace UnityEngine {
     int currentIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
+    // Creating value type constructor for type: Enumerator
+    Enumerator(UnityEngine::Transform* outer_ = {}, int currentIndex_ = {}) noexcept : outer{outer_}, currentIndex{currentIndex_} {}
     // Creating interface conversion operator: operator System::Collections::IEnumerator
     operator System::Collections::IEnumerator() noexcept {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);
@@ -57,27 +45,28 @@ namespace UnityEngine {
     // Get instance field reference: private System.Int32 currentIndex
     int& dyn_currentIndex();
     // public System.Object get_Current()
-    // Offset: 0x232EB90
+    // Offset: 0x2439F00
     ::Il2CppObject* get_Current();
     // System.Void .ctor(UnityEngine.Transform outer)
-    // Offset: 0x232E75C
+    // Offset: 0x2439ACC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Transform::Enumerator* New_ctor(UnityEngine::Transform* outer) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Transform::Enumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Transform::Enumerator*, creationType>(outer)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x232EBE8
+    // Offset: 0x2439F58
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x232EC54
+    // Offset: 0x2439FC4
     void Reset();
   }; // UnityEngine.Transform/UnityEngine.Enumerator
   #pragma pack(pop)
   static check_size<sizeof(Transform::Enumerator), 24 + sizeof(int)> __UnityEngine_Transform_EnumeratorSizeCheck;
   static_assert(sizeof(Transform::Enumerator) == 0x1C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Transform::Enumerator*, "UnityEngine", "Transform/Enumerator");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Transform::Enumerator::get_Current
 // Il2CppName: get_Current
 template<>

@@ -3,24 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Oculus.Platform.Models
-namespace Oculus::Platform::Models {
-  // Forward declaring type: CloudStorageData
-  class CloudStorageData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Models::CloudStorageData);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::CloudStorageData*, "Oculus.Platform.Models", "CloudStorageData");
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
   // Size: 0x30
@@ -29,11 +20,6 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class CloudStorageData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public readonly System.String Bucket
     // Size: 0x8
     // Offset: 0x10
@@ -43,9 +29,9 @@ namespace Oculus::Platform::Models {
     // public readonly System.Byte[] Data
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayW<uint8_t> Data;
+    ::Array<uint8_t>* Data;
     // Field size check
-    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
+    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
     // public readonly System.UInt32 DataSize
     // Size: 0x4
     // Offset: 0x20
@@ -60,17 +46,18 @@ namespace Oculus::Platform::Models {
     ::Il2CppString* Key;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: CloudStorageData
+    CloudStorageData(::Il2CppString* Bucket_ = {}, ::Array<uint8_t>* Data_ = {}, uint DataSize_ = {}, ::Il2CppString* Key_ = {}) noexcept : Bucket{Bucket_}, Data{Data_}, DataSize{DataSize_}, Key{Key_} {}
     // Get instance field reference: public readonly System.String Bucket
     ::Il2CppString*& dyn_Bucket();
     // Get instance field reference: public readonly System.Byte[] Data
-    ::ArrayW<uint8_t>& dyn_Data();
+    ::Array<uint8_t>*& dyn_Data();
     // Get instance field reference: public readonly System.UInt32 DataSize
     uint& dyn_DataSize();
     // Get instance field reference: public readonly System.String Key
     ::Il2CppString*& dyn_Key();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x169B8AC
+    // Offset: 0x1758CC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CloudStorageData* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::CloudStorageData::.ctor");
@@ -81,7 +68,8 @@ namespace Oculus::Platform::Models {
   static check_size<sizeof(CloudStorageData), 40 + sizeof(::Il2CppString*)> __Oculus_Platform_Models_CloudStorageDataSizeCheck;
   static_assert(sizeof(CloudStorageData) == 0x30);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::CloudStorageData*, "Oculus.Platform.Models", "CloudStorageData");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::CloudStorageData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

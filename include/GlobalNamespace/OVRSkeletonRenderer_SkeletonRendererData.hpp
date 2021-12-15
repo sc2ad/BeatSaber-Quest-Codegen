@@ -3,19 +3,12 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRSkeletonRenderer
 #include "GlobalNamespace/OVRSkeletonRenderer.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: SkeletonRendererData
-  struct SkeletonRendererData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSkeletonRenderer::SkeletonRendererData, "", "OVRSkeletonRenderer/SkeletonRendererData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x7
@@ -25,11 +18,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct OVRSkeletonRenderer::SkeletonRendererData/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Single <RootScale>k__BackingField
     // Size: 0x4
     // Offset: 0x0
@@ -54,7 +42,6 @@ namespace GlobalNamespace {
     bool ShouldUseSystemGestureMaterial;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
     // Creating value type constructor for type: SkeletonRendererData
     constexpr SkeletonRendererData(float RootScale_ = {}, bool IsDataValid_ = {}, bool IsDataHighConfidence_ = {}, bool ShouldUseSystemGestureMaterial_ = {}) noexcept : RootScale{RootScale_}, IsDataValid{IsDataValid_}, IsDataHighConfidence{IsDataHighConfidence_}, ShouldUseSystemGestureMaterial{ShouldUseSystemGestureMaterial_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -70,35 +57,37 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean <ShouldUseSystemGestureMaterial>k__BackingField
     bool& dyn_$ShouldUseSystemGestureMaterial$k__BackingField();
     // public System.Single get_RootScale()
-    // Offset: 0x20C76CC
+    // Offset: 0x2169FA8
     float get_RootScale();
     // public System.Void set_RootScale(System.Single value)
-    // Offset: 0x20C76D4
+    // Offset: 0x2169FB0
     void set_RootScale(float value);
     // public System.Boolean get_IsDataValid()
-    // Offset: 0x20C76DC
+    // Offset: 0x2169FB8
     bool get_IsDataValid();
     // public System.Void set_IsDataValid(System.Boolean value)
-    // Offset: 0x20C76E4
+    // Offset: 0x2169FC0
     void set_IsDataValid(bool value);
     // public System.Boolean get_IsDataHighConfidence()
-    // Offset: 0x20C76F0
+    // Offset: 0x2169FCC
     bool get_IsDataHighConfidence();
     // public System.Void set_IsDataHighConfidence(System.Boolean value)
-    // Offset: 0x20C76F8
+    // Offset: 0x2169FD4
     void set_IsDataHighConfidence(bool value);
     // public System.Boolean get_ShouldUseSystemGestureMaterial()
-    // Offset: 0x20C7704
+    // Offset: 0x2169FE0
     bool get_ShouldUseSystemGestureMaterial();
     // public System.Void set_ShouldUseSystemGestureMaterial(System.Boolean value)
-    // Offset: 0x20C770C
+    // Offset: 0x2169FE8
     void set_ShouldUseSystemGestureMaterial(bool value);
   }; // OVRSkeletonRenderer/SkeletonRendererData
   #pragma pack(pop)
   static check_size<sizeof(OVRSkeletonRenderer::SkeletonRendererData), 6 + sizeof(bool)> __GlobalNamespace_OVRSkeletonRenderer_SkeletonRendererDataSizeCheck;
   static_assert(sizeof(OVRSkeletonRenderer::SkeletonRendererData) == 0x7);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSkeletonRenderer::SkeletonRendererData, "", "OVRSkeletonRenderer/SkeletonRendererData");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRSkeletonRenderer::SkeletonRendererData::get_RootScale
 // Il2CppName: get_RootScale
 template<>

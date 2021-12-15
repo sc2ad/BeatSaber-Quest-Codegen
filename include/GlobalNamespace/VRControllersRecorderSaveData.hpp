@@ -3,27 +3,18 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: VRControllersRecorderSaveData
-  class VRControllersRecorderSaveData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::VRControllersRecorderSaveData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorderSaveData*, "", "VRControllersRecorderSaveData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -38,30 +29,26 @@ namespace GlobalNamespace {
     class Keyframe;
     // Nested type: GlobalNamespace::VRControllersRecorderSaveData::NodeInfo
     class NodeInfo;
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public VRControllersRecorderSaveData/NodeInfo[] nodesInfo
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<GlobalNamespace::VRControllersRecorderSaveData::NodeInfo*> nodesInfo;
+    ::Array<GlobalNamespace::VRControllersRecorderSaveData::NodeInfo*>* nodesInfo;
     // Field size check
-    static_assert(sizeof(::ArrayW<GlobalNamespace::VRControllersRecorderSaveData::NodeInfo*>) == 0x8);
+    static_assert(sizeof(::Array<GlobalNamespace::VRControllersRecorderSaveData::NodeInfo*>*) == 0x8);
     // public VRControllersRecorderSaveData/Keyframe[] keyframes
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayW<GlobalNamespace::VRControllersRecorderSaveData::Keyframe*> keyframes;
+    ::Array<GlobalNamespace::VRControllersRecorderSaveData::Keyframe*>* keyframes;
     // Field size check
-    static_assert(sizeof(::ArrayW<GlobalNamespace::VRControllersRecorderSaveData::Keyframe*>) == 0x8);
-    public:
+    static_assert(sizeof(::Array<GlobalNamespace::VRControllersRecorderSaveData::Keyframe*>*) == 0x8);
+    // Creating value type constructor for type: VRControllersRecorderSaveData
+    VRControllersRecorderSaveData(::Array<GlobalNamespace::VRControllersRecorderSaveData::NodeInfo*>* nodesInfo_ = {}, ::Array<GlobalNamespace::VRControllersRecorderSaveData::Keyframe*>* keyframes_ = {}) noexcept : nodesInfo{nodesInfo_}, keyframes{keyframes_} {}
     // Get instance field reference: public VRControllersRecorderSaveData/NodeInfo[] nodesInfo
-    ::ArrayW<GlobalNamespace::VRControllersRecorderSaveData::NodeInfo*>& dyn_nodesInfo();
+    ::Array<GlobalNamespace::VRControllersRecorderSaveData::NodeInfo*>*& dyn_nodesInfo();
     // Get instance field reference: public VRControllersRecorderSaveData/Keyframe[] keyframes
-    ::ArrayW<GlobalNamespace::VRControllersRecorderSaveData::Keyframe*>& dyn_keyframes();
+    ::Array<GlobalNamespace::VRControllersRecorderSaveData::Keyframe*>*& dyn_keyframes();
     // public System.Void .ctor()
-    // Offset: 0x1271EEC
+    // Offset: 0x1BDBDFC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -71,10 +58,11 @@ namespace GlobalNamespace {
     }
   }; // VRControllersRecorderSaveData
   #pragma pack(pop)
-  static check_size<sizeof(VRControllersRecorderSaveData), 24 + sizeof(::ArrayW<GlobalNamespace::VRControllersRecorderSaveData::Keyframe*>)> __GlobalNamespace_VRControllersRecorderSaveDataSizeCheck;
+  static check_size<sizeof(VRControllersRecorderSaveData), 24 + sizeof(::Array<GlobalNamespace::VRControllersRecorderSaveData::Keyframe*>*)> __GlobalNamespace_VRControllersRecorderSaveDataSizeCheck;
   static_assert(sizeof(VRControllersRecorderSaveData) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorderSaveData*, "", "VRControllersRecorderSaveData");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::VRControllersRecorderSaveData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

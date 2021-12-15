@@ -3,16 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: Zenject
-namespace Zenject {
-  // Forward declaring type: IGuiRenderable
-  class IGuiRenderable;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::IGuiRenderable);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::IGuiRenderable*, "Zenject", "IGuiRenderable");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x10
@@ -21,13 +13,17 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class IGuiRenderable {
     public:
+    // Creating value type constructor for type: IGuiRenderable
+    IGuiRenderable() noexcept {}
     // public System.Void GuiRender()
     // Offset: 0xFFFFFFFF
     void GuiRender();
   }; // Zenject.IGuiRenderable
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Zenject::IGuiRenderable*, "Zenject", "IGuiRenderable");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::IGuiRenderable::GuiRender
 // Il2CppName: GuiRender
 template<>

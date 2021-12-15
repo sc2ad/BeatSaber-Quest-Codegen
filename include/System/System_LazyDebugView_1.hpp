@@ -3,17 +3,9 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: System
-namespace System {
-  // Forward declaring type: System_LazyDebugView`1<T>
-  template<typename T>
-  class System_LazyDebugView_1;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::System_LazyDebugView_1, "System", "System_LazyDebugView`1");
 // Type namespace: System
 namespace System {
   // WARNING Size may be invalid!
@@ -22,7 +14,11 @@ namespace System {
   template<typename T>
   class System_LazyDebugView_1 : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: System_LazyDebugView_1
+    System_LazyDebugView_1() noexcept {}
   }; // System.System_LazyDebugView`1
   // Could not write size check! Type: System.System_LazyDebugView`1 is generic, or has no fields that are valid for size checks!
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::System_LazyDebugView_1, "System", "System_LazyDebugView`1");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

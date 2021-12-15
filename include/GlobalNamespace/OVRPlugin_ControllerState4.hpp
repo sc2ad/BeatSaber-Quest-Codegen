@@ -3,22 +3,21 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRPlugin
 #include "GlobalNamespace/OVRPlugin.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: OVRPlugin/Vector2f
 #include "GlobalNamespace/OVRPlugin_Vector2f.hpp"
+// Including type: OVRPlugin/ControllerState2
+#include "GlobalNamespace/OVRPlugin_ControllerState2.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: ControllerState4
-  struct ControllerState4;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::ControllerState4, "", "OVRPlugin/ControllerState4");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x60
@@ -28,11 +27,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct OVRPlugin::ControllerState4/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.UInt32 ConnectedControllers
     // Size: 0x4
     // Offset: 0x0
@@ -297,7 +291,6 @@ namespace GlobalNamespace {
     uint8_t Reserved_00;
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
-    public:
     // Creating value type constructor for type: ControllerState4
     constexpr ControllerState4(uint ConnectedControllers_ = {}, uint Buttons_ = {}, uint Touches_ = {}, uint NearTouches_ = {}, float LIndexTrigger_ = {}, float RIndexTrigger_ = {}, float LHandTrigger_ = {}, float RHandTrigger_ = {}, GlobalNamespace::OVRPlugin::Vector2f LThumbstick_ = {}, GlobalNamespace::OVRPlugin::Vector2f RThumbstick_ = {}, GlobalNamespace::OVRPlugin::Vector2f LTouchpad_ = {}, GlobalNamespace::OVRPlugin::Vector2f RTouchpad_ = {}, uint8_t LBatteryPercentRemaining_ = {}, uint8_t RBatteryPercentRemaining_ = {}, uint8_t LRecenterCount_ = {}, uint8_t RRecenterCount_ = {}, uint8_t Reserved_27_ = {}, uint8_t Reserved_26_ = {}, uint8_t Reserved_25_ = {}, uint8_t Reserved_24_ = {}, uint8_t Reserved_23_ = {}, uint8_t Reserved_22_ = {}, uint8_t Reserved_21_ = {}, uint8_t Reserved_20_ = {}, uint8_t Reserved_19_ = {}, uint8_t Reserved_18_ = {}, uint8_t Reserved_17_ = {}, uint8_t Reserved_16_ = {}, uint8_t Reserved_15_ = {}, uint8_t Reserved_14_ = {}, uint8_t Reserved_13_ = {}, uint8_t Reserved_12_ = {}, uint8_t Reserved_11_ = {}, uint8_t Reserved_10_ = {}, uint8_t Reserved_09_ = {}, uint8_t Reserved_08_ = {}, uint8_t Reserved_07_ = {}, uint8_t Reserved_06_ = {}, uint8_t Reserved_05_ = {}, uint8_t Reserved_04_ = {}, uint8_t Reserved_03_ = {}, uint8_t Reserved_02_ = {}, uint8_t Reserved_01_ = {}, uint8_t Reserved_00_ = {}) noexcept : ConnectedControllers{ConnectedControllers_}, Buttons{Buttons_}, Touches{Touches_}, NearTouches{NearTouches_}, LIndexTrigger{LIndexTrigger_}, RIndexTrigger{RIndexTrigger_}, LHandTrigger{LHandTrigger_}, RHandTrigger{RHandTrigger_}, LThumbstick{LThumbstick_}, RThumbstick{RThumbstick_}, LTouchpad{LTouchpad_}, RTouchpad{RTouchpad_}, LBatteryPercentRemaining{LBatteryPercentRemaining_}, RBatteryPercentRemaining{RBatteryPercentRemaining_}, LRecenterCount{LRecenterCount_}, RRecenterCount{RRecenterCount_}, Reserved_27{Reserved_27_}, Reserved_26{Reserved_26_}, Reserved_25{Reserved_25_}, Reserved_24{Reserved_24_}, Reserved_23{Reserved_23_}, Reserved_22{Reserved_22_}, Reserved_21{Reserved_21_}, Reserved_20{Reserved_20_}, Reserved_19{Reserved_19_}, Reserved_18{Reserved_18_}, Reserved_17{Reserved_17_}, Reserved_16{Reserved_16_}, Reserved_15{Reserved_15_}, Reserved_14{Reserved_14_}, Reserved_13{Reserved_13_}, Reserved_12{Reserved_12_}, Reserved_11{Reserved_11_}, Reserved_10{Reserved_10_}, Reserved_09{Reserved_09_}, Reserved_08{Reserved_08_}, Reserved_07{Reserved_07_}, Reserved_06{Reserved_06_}, Reserved_05{Reserved_05_}, Reserved_04{Reserved_04_}, Reserved_03{Reserved_03_}, Reserved_02{Reserved_02_}, Reserved_01{Reserved_01_}, Reserved_00{Reserved_00_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -393,14 +386,20 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Byte Reserved_00
     uint8_t& dyn_Reserved_00();
     // public System.Void .ctor(OVRPlugin/ControllerState2 cs)
-    // Offset: 0x17E09F0
-    ControllerState4(GlobalNamespace::OVRPlugin::ControllerState2 cs);
+    // Offset: 0x186F304
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    ControllerState4(GlobalNamespace::OVRPlugin::ControllerState2 cs) {
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::ControllerState4::.ctor");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(cs)})));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, cs);
+    }
   }; // OVRPlugin/ControllerState4
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::ControllerState4), 95 + sizeof(uint8_t)> __GlobalNamespace_OVRPlugin_ControllerState4SizeCheck;
   static_assert(sizeof(OVRPlugin::ControllerState4) == 0x60);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::ControllerState4, "", "OVRPlugin/ControllerState4");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::ControllerState4::ControllerState4
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

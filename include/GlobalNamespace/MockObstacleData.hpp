@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: ObstacleType
 #include "GlobalNamespace/ObstacleType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: MockObstacleData
-  class MockObstacleData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MockObstacleData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockObstacleData*, "", "MockObstacleData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x24
@@ -28,11 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MockObstacleData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Single <time>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -63,7 +50,8 @@ namespace GlobalNamespace {
     int width;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
+    // Creating value type constructor for type: MockObstacleData
+    MockObstacleData(float time_ = {}, int lineIndex_ = {}, GlobalNamespace::ObstacleType obstacleType_ = {}, float duration_ = {}, int width_ = {}) noexcept : time{time_}, lineIndex{lineIndex_}, obstacleType{obstacleType_}, duration{duration_}, width{width_} {}
     // Get instance field reference: private System.Single <time>k__BackingField
     float& dyn_$time$k__BackingField();
     // Get instance field reference: private System.Int32 <lineIndex>k__BackingField
@@ -75,37 +63,37 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 <width>k__BackingField
     int& dyn_$width$k__BackingField();
     // public System.Single get_time()
-    // Offset: 0x25C9CE8
+    // Offset: 0x2690038
     float get_time();
     // public System.Void set_time(System.Single value)
-    // Offset: 0x25C9CF0
+    // Offset: 0x2690040
     void set_time(float value);
     // public System.Int32 get_lineIndex()
-    // Offset: 0x25C9CF8
+    // Offset: 0x2690048
     int get_lineIndex();
     // public System.Void set_lineIndex(System.Int32 value)
-    // Offset: 0x25C9D00
+    // Offset: 0x2690050
     void set_lineIndex(int value);
     // public ObstacleType get_obstacleType()
-    // Offset: 0x25C9D08
+    // Offset: 0x2690058
     GlobalNamespace::ObstacleType get_obstacleType();
     // public System.Void set_obstacleType(ObstacleType value)
-    // Offset: 0x25C9D10
+    // Offset: 0x2690060
     void set_obstacleType(GlobalNamespace::ObstacleType value);
     // public System.Single get_duration()
-    // Offset: 0x25C9D18
+    // Offset: 0x2690068
     float get_duration();
     // public System.Void set_duration(System.Single value)
-    // Offset: 0x25C9D20
+    // Offset: 0x2690070
     void set_duration(float value);
     // public System.Int32 get_width()
-    // Offset: 0x25C9D28
+    // Offset: 0x2690078
     int get_width();
     // public System.Void set_width(System.Int32 value)
-    // Offset: 0x25C9D30
+    // Offset: 0x2690080
     void set_width(int value);
     // public System.Void .ctor()
-    // Offset: 0x25C9D38
+    // Offset: 0x2690088
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -118,7 +106,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(MockObstacleData), 32 + sizeof(int)> __GlobalNamespace_MockObstacleDataSizeCheck;
   static_assert(sizeof(MockObstacleData) == 0x24);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockObstacleData*, "", "MockObstacleData");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MockObstacleData::get_time
 // Il2CppName: get_time
 template<>

@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: VRControllersRecorder/SavedData
 #include "GlobalNamespace/VRControllersRecorder_SavedData.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: KeyframeSerializable
-  class KeyframeSerializable;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::VRControllersRecorder::SavedData::KeyframeSerializable);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorder::SavedData::KeyframeSerializable*, "", "VRControllersRecorder/SavedData/KeyframeSerializable");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x68
@@ -28,11 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class VRControllersRecorder::SavedData::KeyframeSerializable : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Single _xPos1
     // Size: 0x4
     // Offset: 0x10
@@ -165,7 +152,8 @@ namespace GlobalNamespace {
     float time;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
+    // Creating value type constructor for type: KeyframeSerializable
+    KeyframeSerializable(float xPos1_ = {}, float yPos1_ = {}, float zPos1_ = {}, float xPos2_ = {}, float yPos2_ = {}, float zPos2_ = {}, float xPos3_ = {}, float yPos3_ = {}, float zPos3_ = {}, float xRot1_ = {}, float yRot1_ = {}, float zRot1_ = {}, float wRot1_ = {}, float xRot2_ = {}, float yRot2_ = {}, float zRot2_ = {}, float wRot2_ = {}, float xRot3_ = {}, float yRot3_ = {}, float zRot3_ = {}, float wRot3_ = {}, float time_ = {}) noexcept : xPos1{xPos1_}, yPos1{yPos1_}, zPos1{zPos1_}, xPos2{xPos2_}, yPos2{yPos2_}, zPos2{zPos2_}, xPos3{xPos3_}, yPos3{yPos3_}, zPos3{zPos3_}, xRot1{xRot1_}, yRot1{yRot1_}, zRot1{zRot1_}, wRot1{wRot1_}, xRot2{xRot2_}, yRot2{yRot2_}, zRot2{zRot2_}, wRot2{wRot2_}, xRot3{xRot3_}, yRot3{yRot3_}, zRot3{zRot3_}, wRot3{wRot3_}, time{time_} {}
     // Get instance field reference: public System.Single _xPos1
     float& dyn__xPos1();
     // Get instance field reference: public System.Single _yPos1
@@ -211,7 +199,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single _time
     float& dyn__time();
     // public System.Void .ctor()
-    // Offset: 0x1270438
+    // Offset: 0x1BDA348
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -224,7 +212,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(VRControllersRecorder::SavedData::KeyframeSerializable), 100 + sizeof(float)> __GlobalNamespace_VRControllersRecorder_SavedData_KeyframeSerializableSizeCheck;
   static_assert(sizeof(VRControllersRecorder::SavedData::KeyframeSerializable) == 0x68);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorder::SavedData::KeyframeSerializable*, "", "VRControllersRecorder/SavedData/KeyframeSerializable");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::VRControllersRecorder::SavedData::KeyframeSerializable::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

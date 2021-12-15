@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Collections.Stack
 #include "System/Collections/Stack.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: UnityEngineInternal
-namespace UnityEngineInternal {
-  // Forward declaring type: GenericStack
-  class GenericStack;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngineInternal::GenericStack);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngineInternal::GenericStack*, "UnityEngineInternal", "GenericStack");
 // Type namespace: UnityEngineInternal
 namespace UnityEngineInternal {
   // Size: 0x20
@@ -28,8 +20,10 @@ namespace UnityEngineInternal {
   // [TokenAttribute] Offset: FFFFFFFF
   class GenericStack : public System::Collections::Stack {
     public:
+    // Creating value type constructor for type: GenericStack
+    GenericStack() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x2334A44
+    // Offset: 0x243FDB4
     // Implemented from: System.Collections.Stack
     // Base method: System.Void Stack::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -41,7 +35,8 @@ namespace UnityEngineInternal {
   }; // UnityEngineInternal.GenericStack
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngineInternal::GenericStack*, "UnityEngineInternal", "GenericStack");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngineInternal::GenericStack::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

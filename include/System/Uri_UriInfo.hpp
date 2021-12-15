@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Uri
 #include "System/Uri.hpp"
 // Including type: System.Uri/System.Offset
 #include "System/Uri_Offset.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System
-namespace System {
-  // Forward declaring type: UriInfo
-  class UriInfo;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Uri::UriInfo);
-DEFINE_IL2CPP_ARG_TYPE(System::Uri::UriInfo*, "System", "Uri/UriInfo");
 // Type namespace: System
 namespace System {
   // Size: 0x48
@@ -30,11 +22,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class Uri::UriInfo : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.String Host
     // Size: 0x8
     // Offset: 0x10
@@ -71,7 +58,8 @@ namespace System {
     System::Uri::MoreInfo* MoreInfo;
     // Field size check
     static_assert(sizeof(System::Uri::MoreInfo*) == 0x8);
-    public:
+    // Creating value type constructor for type: UriInfo
+    UriInfo(::Il2CppString* Host_ = {}, ::Il2CppString* ScopeId_ = {}, ::Il2CppString* String_ = {}, System::Uri::Offset Offset_ = {}, ::Il2CppString* DnsSafeHost_ = {}, System::Uri::MoreInfo* MoreInfo_ = {}) noexcept : Host{Host_}, ScopeId{ScopeId_}, String{String_}, Offset{Offset_}, DnsSafeHost{DnsSafeHost_}, MoreInfo{MoreInfo_} {}
     // Get instance field reference: public System.String Host
     ::Il2CppString*& dyn_Host();
     // Get instance field reference: public System.String ScopeId
@@ -85,7 +73,7 @@ namespace System {
     // Get instance field reference: public System.Uri/System.MoreInfo MoreInfo
     System::Uri::MoreInfo*& dyn_MoreInfo();
     // public System.Void .ctor()
-    // Offset: 0x25D90C0
+    // Offset: 0x269DEB0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -98,7 +86,8 @@ namespace System {
   static check_size<sizeof(Uri::UriInfo), 64 + sizeof(System::Uri::MoreInfo*)> __System_Uri_UriInfoSizeCheck;
   static_assert(sizeof(Uri::UriInfo) == 0x48);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Uri::UriInfo*, "System", "Uri/UriInfo");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Uri::UriInfo::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

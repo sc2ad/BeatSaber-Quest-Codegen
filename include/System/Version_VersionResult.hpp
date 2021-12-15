@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Version
 #include "System/Version.hpp"
 // Including type: System.ValueType
@@ -21,13 +21,6 @@ namespace System {
 // Completed forward declares
 // Type namespace: System
 namespace System {
-  // Forward declaring type: VersionResult
-  struct VersionResult;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Version::VersionResult, "System", "Version/VersionResult");
-// Type namespace: System
-namespace System {
   // Size: 0x21
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -35,11 +28,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Version::VersionResult/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // System.Version m_parsedVersion
     // Size: 0x8
     // Offset: 0x0
@@ -72,7 +60,6 @@ namespace System {
     bool m_canThrow;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
     // Creating value type constructor for type: VersionResult
     constexpr VersionResult(System::Version* m_parsedVersion_ = {}, System::Version::ParseFailureKind m_failure_ = {}, ::Il2CppString* m_exceptionArgument_ = {}, ::Il2CppString* m_argumentName_ = {}, bool m_canThrow_ = {}) noexcept : m_parsedVersion{m_parsedVersion_}, m_failure{m_failure_}, m_exceptionArgument{m_exceptionArgument_}, m_argumentName{m_argumentName_}, m_canThrow{m_canThrow_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -90,23 +77,25 @@ namespace System {
     // Get instance field reference: System.Boolean m_canThrow
     bool& dyn_m_canThrow();
     // System.Void Init(System.String argumentName, System.Boolean canThrow)
-    // Offset: 0x251DF4C
+    // Offset: 0x25D60BC
     void Init(::Il2CppString* argumentName, bool canThrow);
     // System.Void SetFailure(System.Version/System.ParseFailureKind failure)
-    // Offset: 0x251E410
+    // Offset: 0x25D6580
     void SetFailure(System::Version::ParseFailureKind failure);
     // System.Void SetFailure(System.Version/System.ParseFailureKind failure, System.String argument)
-    // Offset: 0x251E54C
+    // Offset: 0x25D66BC
     void SetFailure(System::Version::ParseFailureKind failure, ::Il2CppString* argument);
     // System.Exception GetVersionParseException()
-    // Offset: 0x251E1EC
+    // Offset: 0x25D635C
     System::Exception* GetVersionParseException();
   }; // System.Version/System.VersionResult
   #pragma pack(pop)
   static check_size<sizeof(Version::VersionResult), 32 + sizeof(bool)> __System_Version_VersionResultSizeCheck;
   static_assert(sizeof(Version::VersionResult) == 0x21);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Version::VersionResult, "System", "Version/VersionResult");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Version::VersionResult::Init
 // Il2CppName: Init
 template<>

@@ -4,20 +4,13 @@
 #pragma once
 // Begin includes
 #include <stdint.h>
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct Il2CppString;
 // Completed il2cpp-utils forward declares
-// Type namespace: System.Globalization
-namespace System::Globalization {
-  // Forward declaring type: InternalEncodingDataItem
-  struct InternalEncodingDataItem;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Globalization::InternalEncodingDataItem, "System.Globalization", "InternalEncodingDataItem");
 // Type namespace: System.Globalization
 namespace System::Globalization {
   // Size: 0xA
@@ -27,11 +20,6 @@ namespace System::Globalization {
   // [TokenAttribute] Offset: FFFFFFFF
   struct InternalEncodingDataItem/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // System.String webName
     // Size: 0x8
     // Offset: 0x0
@@ -44,7 +32,6 @@ namespace System::Globalization {
     uint16_t codePage;
     // Field size check
     static_assert(sizeof(uint16_t) == 0x2);
-    public:
     // Creating value type constructor for type: InternalEncodingDataItem
     constexpr InternalEncodingDataItem(::Il2CppString* webName_ = {}, uint16_t codePage_ = {}) noexcept : webName{webName_}, codePage{codePage_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -60,4 +47,6 @@ namespace System::Globalization {
   static check_size<sizeof(InternalEncodingDataItem), 8 + sizeof(uint16_t)> __System_Globalization_InternalEncodingDataItemSizeCheck;
   static_assert(sizeof(InternalEncodingDataItem) == 0xA);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Globalization::InternalEncodingDataItem, "System.Globalization", "InternalEncodingDataItem");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

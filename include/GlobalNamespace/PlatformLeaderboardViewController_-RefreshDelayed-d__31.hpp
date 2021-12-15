@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PlatformLeaderboardViewController
 #include "GlobalNamespace/PlatformLeaderboardViewController.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
 #include "System/Collections/Generic/IEnumerator_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <RefreshDelayed>d__31
-  class $RefreshDelayed$d__31;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::PlatformLeaderboardViewController::$RefreshDelayed$d__31);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformLeaderboardViewController::$RefreshDelayed$d__31*, "", "PlatformLeaderboardViewController/<RefreshDelayed>d__31");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x2A
@@ -31,11 +23,6 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class PlatformLeaderboardViewController::$RefreshDelayed$d__31 : public ::Il2CppObject/*, public System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -68,7 +55,8 @@ namespace GlobalNamespace {
     bool showLoadingIndicator;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: $RefreshDelayed$d__31
+    $RefreshDelayed$d__31(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, GlobalNamespace::PlatformLeaderboardViewController* $$4__this_ = {}, bool clear_ = {}, bool showLoadingIndicator_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$4__this{$$4__this_}, clear{clear_}, showLoadingIndicator{showLoadingIndicator_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
@@ -84,33 +72,34 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean showLoadingIndicator
     bool& dyn_showLoadingIndicator();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x12C4858
+    // Offset: 0x11505E8
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x12C48C0
+    // Offset: 0x1150650
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x12C44F0
+    // Offset: 0x1150280
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlatformLeaderboardViewController::$RefreshDelayed$d__31* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlatformLeaderboardViewController::$RefreshDelayed$d__31::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlatformLeaderboardViewController::$RefreshDelayed$d__31*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x12C4594
+    // Offset: 0x1150324
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x12C4598
+    // Offset: 0x1150328
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x12C4860
+    // Offset: 0x11505F0
     void System_Collections_IEnumerator_Reset();
   }; // PlatformLeaderboardViewController/<RefreshDelayed>d__31
   #pragma pack(pop)
   static check_size<sizeof(PlatformLeaderboardViewController::$RefreshDelayed$d__31), 41 + sizeof(bool)> __GlobalNamespace_PlatformLeaderboardViewController_$RefreshDelayed$d__31SizeCheck;
   static_assert(sizeof(PlatformLeaderboardViewController::$RefreshDelayed$d__31) == 0x2A);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformLeaderboardViewController::$RefreshDelayed$d__31*, "", "PlatformLeaderboardViewController/<RefreshDelayed>d__31");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlatformLeaderboardViewController::$RefreshDelayed$d__31::System_Collections_Generic_IEnumerator$System_Object$_get_Current
 // Il2CppName: System.Collections.Generic.IEnumerator<System.Object>.get_Current
 template<>

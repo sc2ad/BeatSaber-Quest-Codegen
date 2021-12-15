@@ -3,19 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRMesh
 #include "GlobalNamespace/OVRMesh.hpp"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: IOVRMeshDataProvider
-  class IOVRMeshDataProvider;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRMesh::IOVRMeshDataProvider);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMesh::IOVRMeshDataProvider*, "", "OVRMesh/IOVRMeshDataProvider");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -24,13 +16,17 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRMesh::IOVRMeshDataProvider {
     public:
+    // Creating value type constructor for type: IOVRMeshDataProvider
+    IOVRMeshDataProvider() noexcept {}
     // public OVRMesh/MeshType GetMeshType()
     // Offset: 0xFFFFFFFF
     GlobalNamespace::OVRMesh::MeshType GetMeshType();
   }; // OVRMesh/IOVRMeshDataProvider
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMesh::IOVRMeshDataProvider*, "", "OVRMesh/IOVRMeshDataProvider");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRMesh::IOVRMeshDataProvider::GetMeshType
 // Il2CppName: GetMeshType
 template<>

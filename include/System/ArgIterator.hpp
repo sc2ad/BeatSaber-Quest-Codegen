@@ -3,22 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
 // Completed includes
-// Begin il2cpp-utils forward declares
-struct Il2CppObject;
-// Completed il2cpp-utils forward declares
-// Type namespace: System
-namespace System {
-  // Forward declaring type: ArgIterator
-  struct ArgIterator;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::ArgIterator, "System", "ArgIterator");
 // Type namespace: System
 namespace System {
   // Size: 0x18
@@ -27,11 +18,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ArgIterator/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.IntPtr sig
     // Size: 0x8
     // Offset: 0x0
@@ -56,7 +42,6 @@ namespace System {
     int num_args;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: ArgIterator
     constexpr ArgIterator(System::IntPtr sig_ = {}, System::IntPtr args_ = {}, int next_arg_ = {}, int num_args_ = {}) noexcept : sig{sig_}, args{args_}, next_arg{next_arg_}, num_args{num_args_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -72,12 +57,12 @@ namespace System {
     // Get instance field reference: private System.Int32 num_args
     int& dyn_num_args();
     // public override System.Boolean Equals(System.Object o)
-    // Offset: 0x196C4C8
+    // Offset: 0x198AB78
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object o)
     bool Equals(::Il2CppObject* o);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x196C548
+    // Offset: 0x198ABF8
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
@@ -86,7 +71,9 @@ namespace System {
   static check_size<sizeof(ArgIterator), 20 + sizeof(int)> __System_ArgIteratorSizeCheck;
   static_assert(sizeof(ArgIterator) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::ArgIterator, "System", "ArgIterator");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ArgIterator::Equals
 // Il2CppName: Equals
 template<>

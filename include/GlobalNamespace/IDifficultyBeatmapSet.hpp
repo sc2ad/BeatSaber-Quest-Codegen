@@ -3,8 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -15,14 +14,10 @@ namespace GlobalNamespace {
   class IDifficultyBeatmap;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: IDifficultyBeatmapSet
-  class IDifficultyBeatmapSet;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::IDifficultyBeatmapSet);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IDifficultyBeatmapSet*, "", "IDifficultyBeatmapSet");
+// Begin il2cpp-utils forward declares
+template<class T>
+struct Array;
+// Completed il2cpp-utils forward declares
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -31,16 +26,20 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IDifficultyBeatmapSet {
     public:
+    // Creating value type constructor for type: IDifficultyBeatmapSet
+    IDifficultyBeatmapSet() noexcept {}
     // public BeatmapCharacteristicSO get_beatmapCharacteristic()
     // Offset: 0xFFFFFFFF
     GlobalNamespace::BeatmapCharacteristicSO* get_beatmapCharacteristic();
     // public IDifficultyBeatmap[] get_difficultyBeatmaps()
     // Offset: 0xFFFFFFFF
-    ::ArrayW<GlobalNamespace::IDifficultyBeatmap*> get_difficultyBeatmaps();
+    ::Array<GlobalNamespace::IDifficultyBeatmap*>* get_difficultyBeatmaps();
   }; // IDifficultyBeatmapSet
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IDifficultyBeatmapSet*, "", "IDifficultyBeatmapSet");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::IDifficultyBeatmapSet::get_beatmapCharacteristic
 // Il2CppName: get_beatmapCharacteristic
 template<>
@@ -52,7 +51,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::IDifficultyBeatmapSet::get_difficultyBeatmaps
 // Il2CppName: get_difficultyBeatmaps
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<GlobalNamespace::IDifficultyBeatmap*> (GlobalNamespace::IDifficultyBeatmapSet::*)()>(&GlobalNamespace::IDifficultyBeatmapSet::get_difficultyBeatmaps)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::IDifficultyBeatmap*>* (GlobalNamespace::IDifficultyBeatmapSet::*)()>(&GlobalNamespace::IDifficultyBeatmapSet::get_difficultyBeatmaps)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IDifficultyBeatmapSet*), "get_difficultyBeatmaps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

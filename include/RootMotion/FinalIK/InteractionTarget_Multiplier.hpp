@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: RootMotion.FinalIK.InteractionTarget
 #include "RootMotion/FinalIK/InteractionTarget.hpp"
 // Including type: RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.WeightCurve/RootMotion.FinalIK.Type
 #include "RootMotion/FinalIK/InteractionObject.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: RootMotion.FinalIK
-namespace RootMotion::FinalIK {
-  // Forward declaring type: Multiplier
-  class Multiplier;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::FinalIK::InteractionTarget::Multiplier);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionTarget::Multiplier*, "RootMotion.FinalIK", "InteractionTarget/Multiplier");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
   // Size: 0x18
@@ -30,32 +22,28 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class InteractionTarget::Multiplier : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
-    // [TooltipAttribute] Offset: 0xEF6658
+    // [TooltipAttribute] Offset: 0xF61D64
     // public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.WeightCurve/RootMotion.FinalIK.Type curve
     // Size: 0x4
     // Offset: 0x10
     RootMotion::FinalIK::InteractionObject::WeightCurve::Type curve;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::InteractionObject::WeightCurve::Type) == 0x4);
-    // [TooltipAttribute] Offset: 0xEF6690
+    // [TooltipAttribute] Offset: 0xF61D9C
     // public System.Single multiplier
     // Size: 0x4
     // Offset: 0x14
     float multiplier;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
+    // Creating value type constructor for type: Multiplier
+    Multiplier(RootMotion::FinalIK::InteractionObject::WeightCurve::Type curve_ = {}, float multiplier_ = {}) noexcept : curve{curve_}, multiplier{multiplier_} {}
     // Get instance field reference: public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.WeightCurve/RootMotion.FinalIK.Type curve
     RootMotion::FinalIK::InteractionObject::WeightCurve::Type& dyn_curve();
     // Get instance field reference: public System.Single multiplier
     float& dyn_multiplier();
     // public System.Void .ctor()
-    // Offset: 0x1C3E288
+    // Offset: 0x1C96380
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -68,7 +56,8 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(InteractionTarget::Multiplier), 20 + sizeof(float)> __RootMotion_FinalIK_InteractionTarget_MultiplierSizeCheck;
   static_assert(sizeof(InteractionTarget::Multiplier) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionTarget::Multiplier*, "RootMotion.FinalIK", "InteractionTarget/Multiplier");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionTarget::Multiplier::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

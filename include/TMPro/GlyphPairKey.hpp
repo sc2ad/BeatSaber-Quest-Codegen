@@ -4,9 +4,13 @@
 #pragma once
 // Begin includes
 #include <stdint.h>
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: TMPro
@@ -17,13 +21,6 @@ namespace TMPro {
 // Completed forward declares
 // Type namespace: TMPro
 namespace TMPro {
-  // Forward declaring type: GlyphPairKey
-  struct GlyphPairKey;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(TMPro::GlyphPairKey, "TMPro", "GlyphPairKey");
-// Type namespace: TMPro
-namespace TMPro {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -31,11 +28,6 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   struct GlyphPairKey/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.UInt32 firstGlyphIndex
     // Size: 0x4
     // Offset: 0x0
@@ -54,7 +46,6 @@ namespace TMPro {
     int64_t key;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
-    public:
     // Creating value type constructor for type: GlyphPairKey
     constexpr GlyphPairKey(uint firstGlyphIndex_ = {}, uint secondGlyphIndex_ = {}, int64_t key_ = {}) noexcept : firstGlyphIndex{firstGlyphIndex_}, secondGlyphIndex{secondGlyphIndex_}, key{key_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -68,17 +59,28 @@ namespace TMPro {
     // Get instance field reference: public System.Int64 key
     int64_t& dyn_key();
     // public System.Void .ctor(System.UInt32 firstGlyphIndex, System.UInt32 secondGlyphIndex)
-    // Offset: 0x11E7AC4
-    GlyphPairKey(uint firstGlyphIndex, uint secondGlyphIndex);
+    // Offset: 0x123E234
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    GlyphPairKey(uint firstGlyphIndex, uint secondGlyphIndex) {
+      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::GlyphPairKey::.ctor");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(firstGlyphIndex), ::il2cpp_utils::ExtractType(secondGlyphIndex)})));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, firstGlyphIndex, secondGlyphIndex);
+    }
     // System.Void .ctor(TMPro.TMP_GlyphPairAdjustmentRecord record)
-    // Offset: 0x11E7AD8
-    GlyphPairKey(TMPro::TMP_GlyphPairAdjustmentRecord* record);
+    // Offset: 0x123E248
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    GlyphPairKey(TMPro::TMP_GlyphPairAdjustmentRecord* record) {
+      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::GlyphPairKey::.ctor");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(record)})));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, record);
+    }
   }; // TMPro.GlyphPairKey
   #pragma pack(pop)
   static check_size<sizeof(GlyphPairKey), 8 + sizeof(int64_t)> __TMPro_GlyphPairKeySizeCheck;
   static_assert(sizeof(GlyphPairKey) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::GlyphPairKey, "TMPro", "GlyphPairKey");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::GlyphPairKey::GlyphPairKey
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

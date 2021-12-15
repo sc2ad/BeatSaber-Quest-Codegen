@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: HMUI
-namespace HMUI {
-  // Forward declaring type: Interactable
-  class Interactable;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HMUI::Interactable);
-DEFINE_IL2CPP_ARG_TYPE(HMUI::Interactable*, "HMUI", "Interactable");
 // Type namespace: HMUI
 namespace HMUI {
   // Size: 0x19
@@ -28,30 +20,26 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class Interactable : public UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Boolean _interactable
     // Size: 0x1
     // Offset: 0x18
     bool interactable;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: Interactable
+    Interactable(bool interactable_ = {}) noexcept : interactable{interactable_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Boolean _interactable
     bool& dyn__interactable();
     // public System.Boolean get_interactable()
-    // Offset: 0x13F4E60
+    // Offset: 0x14C385C
     bool get_interactable();
     // public System.Void set_interactable(System.Boolean value)
-    // Offset: 0x13F4E68
+    // Offset: 0x14C3864
     void set_interactable(bool value);
     // public System.Void .ctor()
-    // Offset: 0x13F4E74
+    // Offset: 0x14C3870
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -68,7 +56,8 @@ namespace HMUI {
   static check_size<sizeof(Interactable), 24 + sizeof(bool)> __HMUI_InteractableSizeCheck;
   static_assert(sizeof(Interactable) == 0x19);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HMUI::Interactable*, "HMUI", "Interactable");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::Interactable::get_interactable
 // Il2CppName: get_interactable
 template<>

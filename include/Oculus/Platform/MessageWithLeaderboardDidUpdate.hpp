@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Oculus.Platform.Message`1
 #include "Oculus/Platform/Message_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Oculus.Platform
-namespace Oculus::Platform {
-  // Forward declaring type: MessageWithLeaderboardDidUpdate
-  class MessageWithLeaderboardDidUpdate;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::MessageWithLeaderboardDidUpdate);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithLeaderboardDidUpdate*, "Oculus.Platform", "MessageWithLeaderboardDidUpdate");
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
   // WARNING Size may be invalid!
@@ -27,11 +19,13 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class MessageWithLeaderboardDidUpdate : public Oculus::Platform::Message_1<bool> {
     public:
+    // Creating value type constructor for type: MessageWithLeaderboardDidUpdate
+    MessageWithLeaderboardDidUpdate() noexcept {}
     // protected System.Boolean GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x169D6C0
+    // Offset: 0x175AADC
     bool GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x1697F40
+    // Offset: 0x175535C
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -41,13 +35,14 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithLeaderboardDidUpdate*, creationType>(c_message)));
     }
     // public override System.Boolean GetLeaderboardDidUpdate()
-    // Offset: 0x169D67C
+    // Offset: 0x175AA98
     // Implemented from: Oculus.Platform.Message
     // Base method: System.Boolean Message::GetLeaderboardDidUpdate()
     bool GetLeaderboardDidUpdate();
   }; // Oculus.Platform.MessageWithLeaderboardDidUpdate
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithLeaderboardDidUpdate*, "Oculus.Platform", "MessageWithLeaderboardDidUpdate");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithLeaderboardDidUpdate::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>

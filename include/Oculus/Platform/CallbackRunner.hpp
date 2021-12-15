@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Oculus.Platform
-namespace Oculus::Platform {
-  // Forward declaring type: CallbackRunner
-  class CallbackRunner;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::CallbackRunner);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CallbackRunner*, "Oculus.Platform", "CallbackRunner");
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
   // Size: 0x19
@@ -28,39 +20,35 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class CallbackRunner : public UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Boolean IsPersistantBetweenSceneLoads
     // Size: 0x1
     // Offset: 0x18
     bool IsPersistantBetweenSceneLoads;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: CallbackRunner
+    CallbackRunner(bool IsPersistantBetweenSceneLoads_ = {}) noexcept : IsPersistantBetweenSceneLoads{IsPersistantBetweenSceneLoads_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Boolean IsPersistantBetweenSceneLoads
     bool& dyn_IsPersistantBetweenSceneLoads();
     // static private System.Void ovr_UnityResetTestPlatform()
-    // Offset: 0x168D7DC
+    // Offset: 0x174ABF8
     static void ovr_UnityResetTestPlatform();
     // private System.Void Awake()
-    // Offset: 0x168D84C
+    // Offset: 0x174AC68
     void Awake();
     // private System.Void Update()
-    // Offset: 0x168D948
+    // Offset: 0x174AD64
     void Update();
     // private System.Void OnDestroy()
-    // Offset: 0x168D954
+    // Offset: 0x174AD70
     void OnDestroy();
     // private System.Void OnApplicationQuit()
-    // Offset: 0x168D958
+    // Offset: 0x174AD74
     void OnApplicationQuit();
     // public System.Void .ctor()
-    // Offset: 0x168D9B4
+    // Offset: 0x174ADD0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -77,7 +65,8 @@ namespace Oculus::Platform {
   static check_size<sizeof(CallbackRunner), 24 + sizeof(bool)> __Oculus_Platform_CallbackRunnerSizeCheck;
   static_assert(sizeof(CallbackRunner) == 0x19);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CallbackRunner*, "Oculus.Platform", "CallbackRunner");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::CallbackRunner::ovr_UnityResetTestPlatform
 // Il2CppName: ovr_UnityResetTestPlatform
 template<>

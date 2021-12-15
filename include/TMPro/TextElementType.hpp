@@ -3,18 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: TMPro
-namespace TMPro {
-  // Forward declaring type: TextElementType
-  struct TextElementType;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(TMPro::TextElementType, "TMPro", "TextElementType");
 // Type namespace: TMPro
 namespace TMPro {
   // Size: 0x1
@@ -23,18 +16,12 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   struct TextElementType/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Byte value__
     // Size: 0x1
     // Offset: 0x0
     uint8_t value;
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
-    public:
     // Creating value type constructor for type: TextElementType
     constexpr TextElementType(uint8_t value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -64,4 +51,6 @@ namespace TMPro {
   static check_size<sizeof(TextElementType), 0 + sizeof(uint8_t)> __TMPro_TextElementTypeSizeCheck;
   static_assert(sizeof(TextElementType) == 0x1);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TextElementType, "TMPro", "TextElementType");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Mono.Net.CFObject
 #include "Mono/Net/CFObject.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Mono.Net
-namespace Mono::Net {
-  // Forward declaring type: CFUrl
-  class CFUrl;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Net::CFUrl);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFUrl*, "Mono.Net", "CFUrl");
 // Type namespace: Mono.Net
 namespace Mono::Net {
   // Size: 0x18
@@ -28,14 +20,16 @@ namespace Mono::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class CFUrl : public Mono::Net::CFObject {
     public:
+    // Creating value type constructor for type: CFUrl
+    CFUrl() noexcept {}
     // static private System.IntPtr CFURLCreateWithString(System.IntPtr allocator, System.IntPtr str, System.IntPtr baseURL)
-    // Offset: 0x179DDA8
+    // Offset: 0x182D6BC
     static System::IntPtr CFURLCreateWithString(System::IntPtr allocator, System::IntPtr str, System::IntPtr baseURL);
     // static public Mono.Net.CFUrl Create(System.String absolute)
-    // Offset: 0x179AFA8
+    // Offset: 0x182A8BC
     static Mono::Net::CFUrl* Create(::Il2CppString* absolute);
     // public System.Void .ctor(System.IntPtr handle, System.Boolean own)
-    // Offset: 0x179DD58
+    // Offset: 0x182D66C
     // Implemented from: Mono.Net.CFObject
     // Base method: System.Void CFObject::.ctor(System.IntPtr handle, System.Boolean own)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -46,7 +40,8 @@ namespace Mono::Net {
   }; // Mono.Net.CFUrl
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFUrl*, "Mono.Net", "CFUrl");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Net::CFUrl::CFURLCreateWithString
 // Il2CppName: CFURLCreateWithString
 template<>

@@ -3,9 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -21,13 +25,6 @@ struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: OnlineServices
 namespace OnlineServices {
-  // Forward declaring type: LevelScoreResultsData
-  struct LevelScoreResultsData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OnlineServices::LevelScoreResultsData, "OnlineServices", "LevelScoreResultsData");
-// Type namespace: OnlineServices
-namespace OnlineServices {
   // Size: 0x30
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -36,11 +33,6 @@ namespace OnlineServices {
   // [IsReadOnlyAttribute] Offset: FFFFFFFF
   struct LevelScoreResultsData/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public readonly IDifficultyBeatmap difficultyBeatmap
     // Size: 0x8
     // Offset: 0x0
@@ -99,7 +91,6 @@ namespace OnlineServices {
     GlobalNamespace::GameplayModifiers* gameplayModifiers;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifiers*) == 0x8);
-    public:
     // Creating value type constructor for type: LevelScoreResultsData
     constexpr LevelScoreResultsData(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap_ = {}, int rawScore_ = {}, int modifiedScore_ = {}, bool fullCombo_ = {}, int goodCutsCount_ = {}, int badCutsCount_ = {}, int missedCount_ = {}, int maxCombo_ = {}, GlobalNamespace::GameplayModifiers* gameplayModifiers_ = {}) noexcept : difficultyBeatmap{difficultyBeatmap_}, rawScore{rawScore_}, modifiedScore{modifiedScore_}, fullCombo{fullCombo_}, goodCutsCount{goodCutsCount_}, badCutsCount{badCutsCount_}, missedCount{missedCount_}, maxCombo{maxCombo_}, gameplayModifiers{gameplayModifiers_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -125,10 +116,11 @@ namespace OnlineServices {
     // Get instance field reference: public readonly GameplayModifiers gameplayModifiers
     GlobalNamespace::GameplayModifiers*& dyn_gameplayModifiers();
     // public System.Void .ctor(IDifficultyBeatmap difficultyBeatmap, System.Int32 rawScore, System.Int32 modifiedScore, System.Boolean fullCombo, System.Int32 goodCutsCount, System.Int32 badCutsCount, System.Int32 missedCount, System.Int32 maxCombo, GameplayModifiers gameplayModifiers)
-    // Offset: 0x1107A88
-    // ABORTED: conflicts with another method.  LevelScoreResultsData(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, int rawScore, int modifiedScore, bool fullCombo, int goodCutsCount, int badCutsCount, int missedCount, int maxCombo, GlobalNamespace::GameplayModifiers* gameplayModifiers);
+    // Offset: 0x1376E78
+    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    // ABORTED: conflicts with another method.  LevelScoreResultsData(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, int rawScore, int modifiedScore, bool fullCombo, int goodCutsCount, int badCutsCount, int missedCount, int maxCombo, GlobalNamespace::GameplayModifiers* gameplayModifiers)
     // public override System.String ToString()
-    // Offset: 0x1107AB0
+    // Offset: 0x1376EA0
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
@@ -137,7 +129,8 @@ namespace OnlineServices {
   static check_size<sizeof(LevelScoreResultsData), 40 + sizeof(GlobalNamespace::GameplayModifiers*)> __OnlineServices_LevelScoreResultsDataSizeCheck;
   static_assert(sizeof(LevelScoreResultsData) == 0x30);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OnlineServices::LevelScoreResultsData, "OnlineServices", "LevelScoreResultsData");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OnlineServices::LevelScoreResultsData::LevelScoreResultsData
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

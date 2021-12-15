@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Xml.XmlWellFormedWriter/System.Xml.AttributeValueCache
 #include "System/Xml/XmlWellFormedWriter_AttributeValueCache.hpp"
 // Including type: System.Xml.XmlWellFormedWriter/System.Xml.AttributeValueCache/System.Xml.ItemType
 #include "System/Xml/XmlWellFormedWriter_AttributeValueCache_ItemType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Xml
-namespace System::Xml {
-  // Forward declaring type: Item
-  class Item;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::XmlWellFormedWriter::AttributeValueCache::Item);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::AttributeValueCache::Item*, "System.Xml", "XmlWellFormedWriter/AttributeValueCache/Item");
 // Type namespace: System.Xml
 namespace System::Xml {
   // Size: 0x20
@@ -30,11 +22,6 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class XmlWellFormedWriter::AttributeValueCache::Item : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // System.Xml.XmlWellFormedWriter/System.Xml.AttributeValueCache/System.Xml.ItemType type
     // Size: 0x4
     // Offset: 0x10
@@ -49,16 +36,17 @@ namespace System::Xml {
     ::Il2CppObject* data;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    public:
+    // Creating value type constructor for type: Item
+    Item(System::Xml::XmlWellFormedWriter::AttributeValueCache::ItemType type_ = {}, ::Il2CppObject* data_ = {}) noexcept : type{type_}, data{data_} {}
     // Get instance field reference: System.Xml.XmlWellFormedWriter/System.Xml.AttributeValueCache/System.Xml.ItemType type
     System::Xml::XmlWellFormedWriter::AttributeValueCache::ItemType& dyn_type();
     // Get instance field reference: System.Object data
     ::Il2CppObject*& dyn_data();
     // System.Void Set(System.Xml.XmlWellFormedWriter/System.Xml.AttributeValueCache/System.Xml.ItemType type, System.Object data)
-    // Offset: 0x25DDFC8
+    // Offset: 0x26A2DB8
     void Set(System::Xml::XmlWellFormedWriter::AttributeValueCache::ItemType type, ::Il2CppObject* data);
     // System.Void .ctor()
-    // Offset: 0x25DDFC0
+    // Offset: 0x26A2DB0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -71,7 +59,8 @@ namespace System::Xml {
   static check_size<sizeof(XmlWellFormedWriter::AttributeValueCache::Item), 24 + sizeof(::Il2CppObject*)> __System_Xml_XmlWellFormedWriter_AttributeValueCache_ItemSizeCheck;
   static_assert(sizeof(XmlWellFormedWriter::AttributeValueCache::Item) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::AttributeValueCache::Item*, "System.Xml", "XmlWellFormedWriter/AttributeValueCache/Item");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::AttributeValueCache::Item::Set
 // Il2CppName: Set
 template<>

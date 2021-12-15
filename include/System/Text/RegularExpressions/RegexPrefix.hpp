@@ -3,21 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Text.RegularExpressions
-namespace System::Text::RegularExpressions {
-  // Forward declaring type: RegexPrefix
-  class RegexPrefix;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Text::RegularExpressions::RegexPrefix);
-DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexPrefix*, "System.Text.RegularExpressions", "RegexPrefix");
 // Type namespace: System.Text.RegularExpressions
 namespace System::Text::RegularExpressions {
   // Size: 0x19
@@ -26,11 +18,6 @@ namespace System::Text::RegularExpressions {
   // [TokenAttribute] Offset: FFFFFFFF
   class RegexPrefix : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // System.String _prefix
     // Size: 0x8
     // Offset: 0x10
@@ -43,7 +30,8 @@ namespace System::Text::RegularExpressions {
     bool caseInsensitive;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: RegexPrefix
+    RegexPrefix(::Il2CppString* prefix_ = {}, bool caseInsensitive_ = {}) noexcept : prefix{prefix_}, caseInsensitive{caseInsensitive_} {}
     // Get static field: static System.Text.RegularExpressions.RegexPrefix _empty
     static System::Text::RegularExpressions::RegexPrefix* _get__empty();
     // Set static field: static System.Text.RegularExpressions.RegexPrefix _empty
@@ -53,30 +41,31 @@ namespace System::Text::RegularExpressions {
     // Get instance field reference: System.Boolean _caseInsensitive
     bool& dyn__caseInsensitive();
     // System.String get_Prefix()
-    // Offset: 0x1A249D8
+    // Offset: 0x1A440F8
     ::Il2CppString* get_Prefix();
     // System.Boolean get_CaseInsensitive()
-    // Offset: 0x1A249E0
+    // Offset: 0x1A44100
     bool get_CaseInsensitive();
     // static System.Text.RegularExpressions.RegexPrefix get_Empty()
-    // Offset: 0x1A249E8
+    // Offset: 0x1A44108
     static System::Text::RegularExpressions::RegexPrefix* get_Empty();
     // System.Void .ctor(System.String prefix, System.Boolean ci)
-    // Offset: 0x1A1A310
+    // Offset: 0x1A39A30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegexPrefix* New_ctor(::Il2CppString* prefix, bool ci) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::RegexPrefix::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexPrefix*, creationType>(prefix, ci)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1A24A50
+    // Offset: 0x1A44170
     static void _cctor();
   }; // System.Text.RegularExpressions.RegexPrefix
   #pragma pack(pop)
   static check_size<sizeof(RegexPrefix), 24 + sizeof(bool)> __System_Text_RegularExpressions_RegexPrefixSizeCheck;
   static_assert(sizeof(RegexPrefix) == 0x19);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexPrefix*, "System.Text.RegularExpressions", "RegexPrefix");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexPrefix::get_Prefix
 // Il2CppName: get_Prefix
 template<>

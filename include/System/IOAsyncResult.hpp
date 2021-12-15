@@ -3,14 +3,14 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IAsyncResult
 #include "System/IAsyncResult.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -28,14 +28,6 @@ namespace System::Threading {
 // Completed forward declares
 // Type namespace: System
 namespace System {
-  // Forward declaring type: IOAsyncResult
-  class IOAsyncResult;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::IOAsyncResult);
-DEFINE_IL2CPP_ARG_TYPE(System::IOAsyncResult*, "System", "IOAsyncResult");
-// Type namespace: System
-namespace System {
   // Size: 0x2A
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -43,11 +35,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class IOAsyncResult : public ::Il2CppObject/*, public System::IAsyncResult*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.AsyncCallback async_callback
     // Size: 0x8
     // Offset: 0x10
@@ -78,7 +65,8 @@ namespace System {
     bool completed;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: IOAsyncResult
+    IOAsyncResult(System::AsyncCallback* async_callback_ = {}, ::Il2CppObject* async_state_ = {}, System::Threading::ManualResetEvent* wait_handle_ = {}, bool completed_synchronously_ = {}, bool completed_ = {}) noexcept : async_callback{async_callback_}, async_state{async_state_}, wait_handle{wait_handle_}, completed_synchronously{completed_synchronously_}, completed{completed_} {}
     // Creating interface conversion operator: operator System::IAsyncResult
     operator System::IAsyncResult() noexcept {
       return *reinterpret_cast<System::IAsyncResult*>(this);
@@ -94,41 +82,41 @@ namespace System {
     // Get instance field reference: private System.Boolean completed
     bool& dyn_completed();
     // public System.AsyncCallback get_AsyncCallback()
-    // Offset: 0x1550F64
+    // Offset: 0x15DE258
     System::AsyncCallback* get_AsyncCallback();
     // public System.Object get_AsyncState()
-    // Offset: 0x1550F6C
+    // Offset: 0x15DE260
     ::Il2CppObject* get_AsyncState();
     // public System.Threading.WaitHandle get_AsyncWaitHandle()
-    // Offset: 0x1550F74
+    // Offset: 0x15DE268
     System::Threading::WaitHandle* get_AsyncWaitHandle();
     // public System.Boolean get_CompletedSynchronously()
-    // Offset: 0x155105C
+    // Offset: 0x15DE350
     bool get_CompletedSynchronously();
     // protected System.Void set_CompletedSynchronously(System.Boolean value)
-    // Offset: 0x1551064
+    // Offset: 0x15DE358
     void set_CompletedSynchronously(bool value);
     // public System.Boolean get_IsCompleted()
-    // Offset: 0x1551070
+    // Offset: 0x15DE364
     bool get_IsCompleted();
     // protected System.Void set_IsCompleted(System.Boolean value)
-    // Offset: 0x1551078
+    // Offset: 0x15DE36C
     void set_IsCompleted(bool value);
     // protected System.Void .ctor(System.AsyncCallback async_callback, System.Object async_state)
-    // Offset: 0x1550F2C
+    // Offset: 0x15DE220
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IOAsyncResult* New_ctor(System::AsyncCallback* async_callback, ::Il2CppObject* async_state) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IOAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IOAsyncResult*, creationType>(async_callback, async_state)));
     }
     // protected System.Void Init(System.AsyncCallback async_callback, System.Object async_state)
-    // Offset: 0x1550F0C
+    // Offset: 0x15DE200
     void Init(System::AsyncCallback* async_callback, ::Il2CppObject* async_state);
     // System.Void CompleteDisposed()
     // Offset: 0xFFFFFFFF
     void CompleteDisposed();
     // protected System.Void .ctor()
-    // Offset: 0x1550F04
+    // Offset: 0x15DE1F8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -141,7 +129,8 @@ namespace System {
   static check_size<sizeof(IOAsyncResult), 41 + sizeof(bool)> __System_IOAsyncResultSizeCheck;
   static_assert(sizeof(IOAsyncResult) == 0x2A);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::IOAsyncResult*, "System", "IOAsyncResult");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IOAsyncResult::get_AsyncCallback
 // Il2CppName: get_AsyncCallback
 template<>

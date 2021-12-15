@@ -3,18 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: Oculus.Platform
-namespace Oculus::Platform {
-  // Forward declaring type: AbuseReportType
-  struct AbuseReportType;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::AbuseReportType, "Oculus.Platform", "AbuseReportType");
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
   // Size: 0x4
@@ -23,18 +16,12 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   struct AbuseReportType/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: AbuseReportType
     constexpr AbuseReportType(int value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -45,21 +32,21 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0xEE6BB4
+    // [DescriptionAttribute] Offset: 0xF290AC
     // static field const value: static public Oculus.Platform.AbuseReportType Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.AbuseReportType Unknown
     static Oculus::Platform::AbuseReportType _get_Unknown();
     // Set static field: static public Oculus.Platform.AbuseReportType Unknown
     static void _set_Unknown(Oculus::Platform::AbuseReportType value);
-    // [DescriptionAttribute] Offset: 0xEE6BEC
+    // [DescriptionAttribute] Offset: 0xF290E4
     // static field const value: static public Oculus.Platform.AbuseReportType Object
     static constexpr const int Object = 1;
     // Get static field: static public Oculus.Platform.AbuseReportType Object
     static Oculus::Platform::AbuseReportType _get_Object();
     // Set static field: static public Oculus.Platform.AbuseReportType Object
     static void _set_Object(Oculus::Platform::AbuseReportType value);
-    // [DescriptionAttribute] Offset: 0xEE6C24
+    // [DescriptionAttribute] Offset: 0xF2911C
     // static field const value: static public Oculus.Platform.AbuseReportType User
     static constexpr const int User = 2;
     // Get static field: static public Oculus.Platform.AbuseReportType User
@@ -73,4 +60,6 @@ namespace Oculus::Platform {
   static check_size<sizeof(AbuseReportType), 0 + sizeof(int)> __Oculus_Platform_AbuseReportTypeSizeCheck;
   static_assert(sizeof(AbuseReportType) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::AbuseReportType, "Oculus.Platform", "AbuseReportType");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

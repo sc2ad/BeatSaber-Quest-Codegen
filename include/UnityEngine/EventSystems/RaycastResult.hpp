@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: UnityEngine.Vector3
@@ -26,13 +26,6 @@ namespace UnityEngine::EventSystems {
 // Completed forward declares
 // Type namespace: UnityEngine.EventSystems
 namespace UnityEngine::EventSystems {
-  // Forward declaring type: RaycastResult
-  struct RaycastResult;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::RaycastResult, "UnityEngine.EventSystems", "RaycastResult");
-// Type namespace: UnityEngine.EventSystems
-namespace UnityEngine::EventSystems {
   // Size: 0x48
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -40,11 +33,6 @@ namespace UnityEngine::EventSystems {
   // [TokenAttribute] Offset: FFFFFFFF
   struct RaycastResult/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private UnityEngine.GameObject m_GameObject
     // Size: 0x8
     // Offset: 0x0
@@ -111,7 +99,6 @@ namespace UnityEngine::EventSystems {
     int displayIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: RaycastResult
     constexpr RaycastResult(UnityEngine::GameObject* m_GameObject_ = {}, UnityEngine::EventSystems::BaseRaycaster* module_ = {}, float distance_ = {}, float index_ = {}, int depth_ = {}, int sortingLayer_ = {}, int sortingOrder_ = {}, UnityEngine::Vector3 worldPosition_ = {}, UnityEngine::Vector3 worldNormal_ = {}, UnityEngine::Vector2 screenPosition_ = {}, int displayIndex_ = {}) noexcept : m_GameObject{m_GameObject_}, module{module_}, distance{distance_}, index{index_}, depth{depth_}, sortingLayer{sortingLayer_}, sortingOrder{sortingOrder_}, worldPosition{worldPosition_}, worldNormal{worldNormal_}, screenPosition{screenPosition_}, displayIndex{displayIndex_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -141,19 +128,19 @@ namespace UnityEngine::EventSystems {
     // Get instance field reference: public System.Int32 displayIndex
     int& dyn_displayIndex();
     // public UnityEngine.GameObject get_gameObject()
-    // Offset: 0x15D9A64
+    // Offset: 0x1668D58
     UnityEngine::GameObject* get_gameObject();
     // public System.Void set_gameObject(UnityEngine.GameObject value)
-    // Offset: 0x15D9A6C
+    // Offset: 0x1668D60
     void set_gameObject(UnityEngine::GameObject* value);
     // public System.Boolean get_isValid()
-    // Offset: 0x15D9A74
+    // Offset: 0x1668D68
     bool get_isValid();
     // public System.Void Clear()
-    // Offset: 0x15D9B30
+    // Offset: 0x1668E24
     void Clear();
     // public override System.String ToString()
-    // Offset: 0x15D7EE8
+    // Offset: 0x16671DC
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
@@ -162,7 +149,9 @@ namespace UnityEngine::EventSystems {
   static check_size<sizeof(RaycastResult), 68 + sizeof(int)> __UnityEngine_EventSystems_RaycastResultSizeCheck;
   static_assert(sizeof(RaycastResult) == 0x48);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::RaycastResult, "UnityEngine.EventSystems", "RaycastResult");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::EventSystems::RaycastResult::get_gameObject
 // Il2CppName: get_gameObject
 template<>

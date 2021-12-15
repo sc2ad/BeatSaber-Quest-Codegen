@@ -3,22 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: PerlinNoise
-  class PerlinNoise;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::PerlinNoise);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PerlinNoise*, "", "PerlinNoise");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -27,39 +18,41 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PerlinNoise : public ::Il2CppObject {
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xECAFE0
+    // Creating value type constructor for type: PerlinNoise
+    PerlinNoise() noexcept {}
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF08F20
     // Get static field: static private readonly System.Int32[] permutation
-    static ::ArrayW<int> _get_permutation();
+    static ::Array<int>* _get_permutation();
     // Set static field: static private readonly System.Int32[] permutation
-    static void _set_permutation(::ArrayW<int> value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xECAFF0
+    static void _set_permutation(::Array<int>* value);
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF08F30
     // Get static field: static private readonly System.Int32[] p
-    static ::ArrayW<int> _get_p();
+    static ::Array<int>* _get_p();
     // Set static field: static private readonly System.Int32[] p
-    static void _set_p(::ArrayW<int> value);
+    static void _set_p(::Array<int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1370390
+    // Offset: 0x13A1000
     static void _cctor();
     // static public System.Single OctavePerlin3D(System.Single x, System.Single y, System.Single z, System.Int32 octaves, System.Single persistence, System.Int32 repeat)
-    // Offset: 0x137049C
+    // Offset: 0x13A110C
     static float OctavePerlin3D(float x, float y, float z, int octaves, float persistence, int repeat);
     // static public System.Single Perlin3D(System.Single x, System.Single y, System.Single z, System.Int32 repeat)
-    // Offset: 0x1370590
+    // Offset: 0x13A1200
     static float Perlin3D(float x, float y, float z, int repeat);
     // static private System.Int32 Inc(System.Int32 num, System.Int32 repeat)
-    // Offset: 0x1370B3C
+    // Offset: 0x13A17AC
     static int Inc(int num, int repeat);
     // static private System.Single Grad3D(System.Int32 hash, System.Single x, System.Single y, System.Single z)
-    // Offset: 0x1370B54
+    // Offset: 0x13A17C4
     static float Grad3D(int hash, float x, float y, float z);
     // static private System.Single Fade(System.Single t)
-    // Offset: 0x1370B10
+    // Offset: 0x13A1780
     static float Fade(float t);
     // static private System.Single Lerp(System.Single a, System.Single b, System.Single x)
-    // Offset: 0x1370BD0
+    // Offset: 0x13A1840
     static float Lerp(float a, float b, float x);
     // public System.Void .ctor()
-    // Offset: 0x1370BE0
+    // Offset: 0x13A1850
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -70,7 +63,8 @@ namespace GlobalNamespace {
   }; // PerlinNoise
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PerlinNoise*, "", "PerlinNoise");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PerlinNoise::_cctor
 // Il2CppName: .cctor
 template<>

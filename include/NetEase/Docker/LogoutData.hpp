@@ -3,17 +3,10 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-// Type namespace: NetEase.Docker
-namespace NetEase::Docker {
-  // Forward declaring type: LogoutData
-  struct LogoutData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::LogoutData, "NetEase.Docker", "LogoutData");
 // Type namespace: NetEase.Docker
 namespace NetEase::Docker {
   // Size: 0x4
@@ -23,19 +16,13 @@ namespace NetEase::Docker {
   // [TokenAttribute] Offset: FFFFFFFF
   struct LogoutData/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
-    // [DebuggerBrowsableAttribute] Offset: 0xEEDA00
+    // [DebuggerBrowsableAttribute] Offset: 0xF2E864
     // private System.Int32 <LogoutCode>k__BackingField
     // Size: 0x4
     // Offset: 0x0
     int LogoutCode;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: LogoutData
     constexpr LogoutData(int LogoutCode_ = {}) noexcept : LogoutCode{LogoutCode_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -49,14 +36,16 @@ namespace NetEase::Docker {
     // Get instance field reference: private System.Int32 <LogoutCode>k__BackingField
     int& dyn_$LogoutCode$k__BackingField();
     // public System.Void set_LogoutCode(System.Int32 value)
-    // Offset: 0x2607A98
+    // Offset: 0x26CAAC0
     void set_LogoutCode(int value);
   }; // NetEase.Docker.LogoutData
   #pragma pack(pop)
   static check_size<sizeof(LogoutData), 0 + sizeof(int)> __NetEase_Docker_LogoutDataSizeCheck;
   static_assert(sizeof(LogoutData) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::LogoutData, "NetEase.Docker", "LogoutData");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NetEase::Docker::LogoutData::set_LogoutCode
 // Il2CppName: set_LogoutCode
 template<>

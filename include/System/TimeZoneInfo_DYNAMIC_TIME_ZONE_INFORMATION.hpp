@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.TimeZoneInfo
 #include "System/TimeZoneInfo.hpp"
 // Including type: System.ValueType
@@ -14,13 +14,6 @@
 // Completed includes
 // Type namespace: System
 namespace System {
-  // Forward declaring type: DYNAMIC_TIME_ZONE_INFORMATION
-  struct DYNAMIC_TIME_ZONE_INFORMATION;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::TimeZoneInfo::DYNAMIC_TIME_ZONE_INFORMATION, "System", "TimeZoneInfo/DYNAMIC_TIME_ZONE_INFORMATION");
-// Type namespace: System
-namespace System {
   // Size: 0x51
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -28,11 +21,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   struct TimeZoneInfo::DYNAMIC_TIME_ZONE_INFORMATION/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // System.TimeZoneInfo/System.TIME_ZONE_INFORMATION TZI
     // Size: 0x44
     // Offset: 0x0
@@ -53,7 +41,6 @@ namespace System {
     uint8_t DynamicDaylightTimeDisabled;
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
-    public:
     // Creating value type constructor for type: DYNAMIC_TIME_ZONE_INFORMATION
     constexpr DYNAMIC_TIME_ZONE_INFORMATION(System::TimeZoneInfo::TIME_ZONE_INFORMATION TZI_ = {}, ::Il2CppString* TimeZoneKeyName_ = {}, uint8_t DynamicDaylightTimeDisabled_ = {}) noexcept : TZI{TZI_}, TimeZoneKeyName{TimeZoneKeyName_}, DynamicDaylightTimeDisabled{DynamicDaylightTimeDisabled_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -71,4 +58,6 @@ namespace System {
   static check_size<sizeof(TimeZoneInfo::DYNAMIC_TIME_ZONE_INFORMATION), 80 + sizeof(uint8_t)> __System_TimeZoneInfo_DYNAMIC_TIME_ZONE_INFORMATIONSizeCheck;
   static_assert(sizeof(TimeZoneInfo::DYNAMIC_TIME_ZONE_INFORMATION) == 0x51);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::TimeZoneInfo::DYNAMIC_TIME_ZONE_INFORMATION, "System", "TimeZoneInfo/DYNAMIC_TIME_ZONE_INFORMATION");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -4,10 +4,9 @@
 #pragma once
 // Begin includes
 #include <stdint.h>
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IDisposable
 #include "System/IDisposable.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -34,14 +33,10 @@ namespace LiteNetLib::Utils {
   class NetDataWriter;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: IUnconnectedSenderReceiver
-  class IUnconnectedSenderReceiver;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::IUnconnectedSenderReceiver);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IUnconnectedSenderReceiver*, "", "IUnconnectedSenderReceiver");
+// Begin il2cpp-utils forward declares
+template<class T>
+struct Array;
+// Completed il2cpp-utils forward declares
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -50,13 +45,15 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IUnconnectedSenderReceiver/*, public System::IDisposable*/ {
     public:
+    // Creating value type constructor for type: IUnconnectedSenderReceiver
+    IUnconnectedSenderReceiver() noexcept {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
     // public System.Byte[] get_unconnectedPacketHeader()
     // Offset: 0xFFFFFFFF
-    ::ArrayW<uint8_t> get_unconnectedPacketHeader();
+    ::Array<uint8_t>* get_unconnectedPacketHeader();
     // public PacketEncryptionLayer get_encryptionLayer()
     // Offset: 0xFFFFFFFF
     GlobalNamespace::PacketEncryptionLayer* get_encryptionLayer();
@@ -78,11 +75,13 @@ namespace GlobalNamespace {
   }; // IUnconnectedSenderReceiver
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IUnconnectedSenderReceiver*, "", "IUnconnectedSenderReceiver");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::IUnconnectedSenderReceiver::get_unconnectedPacketHeader
 // Il2CppName: get_unconnectedPacketHeader
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (GlobalNamespace::IUnconnectedSenderReceiver::*)()>(&GlobalNamespace::IUnconnectedSenderReceiver::get_unconnectedPacketHeader)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (GlobalNamespace::IUnconnectedSenderReceiver::*)()>(&GlobalNamespace::IUnconnectedSenderReceiver::get_unconnectedPacketHeader)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IUnconnectedSenderReceiver*), "get_unconnectedPacketHeader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

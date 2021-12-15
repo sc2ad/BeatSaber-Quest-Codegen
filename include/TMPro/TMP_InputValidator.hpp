@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ScriptableObject
 #include "UnityEngine/ScriptableObject.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: TMPro
-namespace TMPro {
-  // Forward declaring type: TMP_InputValidator
-  class TMP_InputValidator;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(TMPro::TMP_InputValidator);
-DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_InputValidator*, "TMPro", "TMP_InputValidator");
 // Type namespace: TMPro
 namespace TMPro {
   // Size: 0x18
@@ -28,11 +20,13 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class TMP_InputValidator : public UnityEngine::ScriptableObject {
     public:
+    // Creating value type constructor for type: TMP_InputValidator
+    TMP_InputValidator() noexcept {}
     // public System.Char Validate(ref System.String text, ref System.Int32 pos, System.Char ch)
     // Offset: 0xFFFFFFFF
     ::Il2CppChar Validate(ByRef<::Il2CppString*> text, ByRef<int> pos, ::Il2CppChar ch);
     // protected System.Void .ctor()
-    // Offset: 0x12170B4
+    // Offset: 0x125A314
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -45,7 +39,8 @@ namespace TMPro {
   }; // TMPro.TMP_InputValidator
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_InputValidator*, "TMPro", "TMP_InputValidator");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_InputValidator::Validate
 // Il2CppName: Validate
 template<>

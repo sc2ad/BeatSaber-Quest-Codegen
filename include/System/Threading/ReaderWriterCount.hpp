@@ -3,21 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Threading
-namespace System::Threading {
-  // Forward declaring type: ReaderWriterCount
-  class ReaderWriterCount;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Threading::ReaderWriterCount);
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::ReaderWriterCount*, "System.Threading", "ReaderWriterCount");
 // Type namespace: System.Threading
 namespace System::Threading {
   // Size: 0x30
@@ -26,11 +18,6 @@ namespace System::Threading {
   // [TokenAttribute] Offset: FFFFFFFF
   class ReaderWriterCount : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int64 lockID
     // Size: 0x8
     // Offset: 0x10
@@ -63,7 +50,8 @@ namespace System::Threading {
     System::Threading::ReaderWriterCount* next;
     // Field size check
     static_assert(sizeof(System::Threading::ReaderWriterCount*) == 0x8);
-    public:
+    // Creating value type constructor for type: ReaderWriterCount
+    ReaderWriterCount(int64_t lockID_ = {}, int readercount_ = {}, int writercount_ = {}, int upgradecount_ = {}, System::Threading::ReaderWriterCount* next_ = {}) noexcept : lockID{lockID_}, readercount{readercount_}, writercount{writercount_}, upgradecount{upgradecount_}, next{next_} {}
     // Get instance field reference: public System.Int64 lockID
     int64_t& dyn_lockID();
     // Get instance field reference: public System.Int32 readercount
@@ -75,7 +63,7 @@ namespace System::Threading {
     // Get instance field reference: public System.Threading.ReaderWriterCount next
     System::Threading::ReaderWriterCount*& dyn_next();
     // public System.Void .ctor()
-    // Offset: 0x25ABEC8
+    // Offset: 0x267051C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -88,7 +76,8 @@ namespace System::Threading {
   static check_size<sizeof(ReaderWriterCount), 40 + sizeof(System::Threading::ReaderWriterCount*)> __System_Threading_ReaderWriterCountSizeCheck;
   static_assert(sizeof(ReaderWriterCount) == 0x30);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::ReaderWriterCount*, "System.Threading", "ReaderWriterCount");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::ReaderWriterCount::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

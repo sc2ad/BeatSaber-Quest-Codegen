@@ -3,24 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: NUnit.Framework.Constraints.StringConstraint
 #include "NUnit/Framework/Constraints/StringConstraint.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: NUnit.Framework.Constraints
-namespace NUnit::Framework::Constraints {
-  // Forward declaring type: PathConstraint
-  class PathConstraint;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(NUnit::Framework::Constraints::PathConstraint);
-DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::PathConstraint*, "NUnit.Framework.Constraints", "PathConstraint");
 // Type namespace: NUnit.Framework.Constraints
 namespace NUnit::Framework::Constraints {
   // Size: 0x48
@@ -29,18 +20,20 @@ namespace NUnit::Framework::Constraints {
   // [TokenAttribute] Offset: FFFFFFFF
   class PathConstraint : public NUnit::Framework::Constraints::StringConstraint {
     public:
+    // Creating value type constructor for type: PathConstraint
+    PathConstraint() noexcept {}
     // Get static field: static private readonly System.Char[] DirectorySeparatorChars
-    static ::ArrayW<::Il2CppChar> _get_DirectorySeparatorChars();
+    static ::Array<::Il2CppChar>* _get_DirectorySeparatorChars();
     // Set static field: static private readonly System.Char[] DirectorySeparatorChars
-    static void _set_DirectorySeparatorChars(::ArrayW<::Il2CppChar> value);
+    static void _set_DirectorySeparatorChars(::Array<::Il2CppChar>* value);
     // static private System.Void .cctor()
-    // Offset: 0x191BA58
+    // Offset: 0x1940C1C
     static void _cctor();
     // protected System.String Canonicalize(System.String path)
-    // Offset: 0x191B754
+    // Offset: 0x1940918
     ::Il2CppString* Canonicalize(::Il2CppString* path);
     // protected System.Void .ctor(System.String expected)
-    // Offset: 0x191B56C
+    // Offset: 0x1940730
     // Implemented from: NUnit.Framework.Constraints.StringConstraint
     // Base method: System.Void StringConstraint::.ctor(System.String expected)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -49,14 +42,15 @@ namespace NUnit::Framework::Constraints {
       return THROW_UNLESS((::il2cpp_utils::New<PathConstraint*, creationType>(expected)));
     }
     // protected override System.String GetStringRepresentation()
-    // Offset: 0x191B6B8
+    // Offset: 0x194087C
     // Implemented from: NUnit.Framework.Constraints.Constraint
     // Base method: System.String Constraint::GetStringRepresentation()
     ::Il2CppString* GetStringRepresentation();
   }; // NUnit.Framework.Constraints.PathConstraint
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::PathConstraint*, "NUnit.Framework.Constraints", "PathConstraint");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::PathConstraint::_cctor
 // Il2CppName: .cctor
 template<>

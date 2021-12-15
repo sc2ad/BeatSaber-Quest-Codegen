@@ -3,17 +3,9 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: System.Threading
-namespace System::Threading {
-  // Forward declaring type: _ThreadPoolWaitCallback
-  class _ThreadPoolWaitCallback;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Threading::_ThreadPoolWaitCallback);
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::_ThreadPoolWaitCallback*, "System.Threading", "_ThreadPoolWaitCallback");
 // Type namespace: System.Threading
 namespace System::Threading {
   // Size: 0x10
@@ -22,13 +14,17 @@ namespace System::Threading {
   // [TokenAttribute] Offset: FFFFFFFF
   class _ThreadPoolWaitCallback : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: _ThreadPoolWaitCallback
+    _ThreadPoolWaitCallback() noexcept {}
     // static System.Boolean PerformWaitCallback()
-    // Offset: 0x19A8CD8
+    // Offset: 0x19C7388
     static bool PerformWaitCallback();
   }; // System.Threading._ThreadPoolWaitCallback
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::_ThreadPoolWaitCallback*, "System.Threading", "_ThreadPoolWaitCallback");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::_ThreadPoolWaitCallback::PerformWaitCallback
 // Il2CppName: PerformWaitCallback
 template<>

@@ -3,19 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: NUnit.Framework.Constraints.ConstraintBuilder
 #include "NUnit/Framework/Constraints/ConstraintBuilder.hpp"
 // Completed includes
-// Type namespace: NUnit.Framework.Constraints
-namespace NUnit::Framework::Constraints {
-  // Forward declaring type: ConstraintOperator
-  class ConstraintOperator;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(NUnit::Framework::Constraints::ConstraintOperator);
-DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::ConstraintOperator*, "NUnit.Framework.Constraints", "ConstraintOperator");
 // Type namespace: NUnit.Framework.Constraints
 namespace NUnit::Framework::Constraints {
   // Size: 0x10
@@ -24,13 +16,17 @@ namespace NUnit::Framework::Constraints {
   // [TokenAttribute] Offset: FFFFFFFF
   class ConstraintOperator : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: ConstraintOperator
+    ConstraintOperator() noexcept {}
     // public System.Void Reduce(NUnit.Framework.Constraints.ConstraintBuilder/NUnit.Framework.Constraints.ConstraintStack stack)
     // Offset: 0xFFFFFFFF
     void Reduce(NUnit::Framework::Constraints::ConstraintBuilder::ConstraintStack* stack);
   }; // NUnit.Framework.Constraints.ConstraintOperator
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::ConstraintOperator*, "NUnit.Framework.Constraints", "ConstraintOperator");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::ConstraintOperator::Reduce
 // Il2CppName: Reduce
 template<>

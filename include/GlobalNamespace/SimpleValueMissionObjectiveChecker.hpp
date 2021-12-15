@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MissionObjectiveChecker
 #include "GlobalNamespace/MissionObjectiveChecker.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: SimpleValueMissionObjectiveChecker
-  class SimpleValueMissionObjectiveChecker;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::SimpleValueMissionObjectiveChecker);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleValueMissionObjectiveChecker*, "", "SimpleValueMissionObjectiveChecker");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x41
@@ -28,11 +20,13 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SimpleValueMissionObjectiveChecker : public GlobalNamespace::MissionObjectiveChecker {
     public:
+    // Creating value type constructor for type: SimpleValueMissionObjectiveChecker
+    SimpleValueMissionObjectiveChecker() noexcept {}
     // protected System.Void CheckAndUpdateStatus()
-    // Offset: 0x113B100
+    // Offset: 0x12319C0
     void CheckAndUpdateStatus();
     // protected System.Void .ctor()
-    // Offset: 0x113B378
+    // Offset: 0x1231C38
     // Implemented from: MissionObjectiveChecker
     // Base method: System.Void MissionObjectiveChecker::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -48,7 +42,8 @@ namespace GlobalNamespace {
   }; // SimpleValueMissionObjectiveChecker
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleValueMissionObjectiveChecker*, "", "SimpleValueMissionObjectiveChecker");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SimpleValueMissionObjectiveChecker::CheckAndUpdateStatus
 // Il2CppName: CheckAndUpdateStatus
 template<>

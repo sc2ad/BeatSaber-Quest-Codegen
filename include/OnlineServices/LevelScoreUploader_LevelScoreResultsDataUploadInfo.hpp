@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OnlineServices.LevelScoreUploader
 #include "OnlineServices/LevelScoreUploader.hpp"
 // Including type: OnlineServices.LevelScoreResultsData
 #include "OnlineServices/LevelScoreResultsData.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: OnlineServices
-namespace OnlineServices {
-  // Forward declaring type: LevelScoreResultsDataUploadInfo
-  class LevelScoreResultsDataUploadInfo;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(OnlineServices::LevelScoreUploader::LevelScoreResultsDataUploadInfo);
-DEFINE_IL2CPP_ARG_TYPE(OnlineServices::LevelScoreUploader::LevelScoreResultsDataUploadInfo*, "OnlineServices", "LevelScoreUploader/LevelScoreResultsDataUploadInfo");
 // Type namespace: OnlineServices
 namespace OnlineServices {
   // Size: 0x44
@@ -30,11 +22,6 @@ namespace OnlineServices {
   // [TokenAttribute] Offset: FFFFFFFF
   class LevelScoreUploader::LevelScoreResultsDataUploadInfo : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public OnlineServices.LevelScoreResultsData levelScoreResultsData
     // Size: 0x30
     // Offset: 0x10
@@ -47,13 +34,14 @@ namespace OnlineServices {
     int uploadAttemptCountLeft;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
+    // Creating value type constructor for type: LevelScoreResultsDataUploadInfo
+    LevelScoreResultsDataUploadInfo(OnlineServices::LevelScoreResultsData levelScoreResultsData_ = {}, int uploadAttemptCountLeft_ = {}) noexcept : levelScoreResultsData{levelScoreResultsData_}, uploadAttemptCountLeft{uploadAttemptCountLeft_} {}
     // Get instance field reference: public OnlineServices.LevelScoreResultsData levelScoreResultsData
     OnlineServices::LevelScoreResultsData& dyn_levelScoreResultsData();
     // Get instance field reference: public System.Int32 uploadAttemptCountLeft
     int& dyn_uploadAttemptCountLeft();
     // public System.Void .ctor()
-    // Offset: 0x1107F24
+    // Offset: 0x1143654
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -66,7 +54,8 @@ namespace OnlineServices {
   static check_size<sizeof(LevelScoreUploader::LevelScoreResultsDataUploadInfo), 64 + sizeof(int)> __OnlineServices_LevelScoreUploader_LevelScoreResultsDataUploadInfoSizeCheck;
   static_assert(sizeof(LevelScoreUploader::LevelScoreResultsDataUploadInfo) == 0x44);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OnlineServices::LevelScoreUploader::LevelScoreResultsDataUploadInfo*, "OnlineServices", "LevelScoreUploader/LevelScoreResultsDataUploadInfo");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OnlineServices::LevelScoreUploader::LevelScoreResultsDataUploadInfo::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

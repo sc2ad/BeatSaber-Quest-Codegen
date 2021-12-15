@@ -3,14 +3,14 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Mono.RuntimeRemoteClassHandle
 #include "Mono/RuntimeRemoteClassHandle.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Remoting::Proxies
@@ -33,14 +33,6 @@ namespace System {
 // Completed forward declares
 // Type namespace: System.Runtime.Remoting.Proxies
 namespace System::Runtime::Remoting::Proxies {
-  // Forward declaring type: TransparentProxy
-  class TransparentProxy;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Remoting::Proxies::TransparentProxy);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Proxies::TransparentProxy*, "System.Runtime.Remoting.Proxies", "TransparentProxy");
-// Type namespace: System.Runtime.Remoting.Proxies
-namespace System::Runtime::Remoting::Proxies {
   // Size: 0x21
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -48,11 +40,6 @@ namespace System::Runtime::Remoting::Proxies {
   // [TokenAttribute] Offset: FFFFFFFF
   class TransparentProxy : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Runtime.Remoting.Proxies.RealProxy _rp
     // Size: 0x8
     // Offset: 0x10
@@ -71,7 +58,8 @@ namespace System::Runtime::Remoting::Proxies {
     bool custom_type_info;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: TransparentProxy
+    TransparentProxy(System::Runtime::Remoting::Proxies::RealProxy* rp_ = {}, Mono::RuntimeRemoteClassHandle _class_ = {}, bool custom_type_info_ = {}) noexcept : rp{rp_}, _class{_class_}, custom_type_info{custom_type_info_} {}
     // Get instance field reference: public System.Runtime.Remoting.Proxies.RealProxy _rp
     System::Runtime::Remoting::Proxies::RealProxy*& dyn__rp();
     // Get instance field reference: private Mono.RuntimeRemoteClassHandle _class
@@ -79,25 +67,25 @@ namespace System::Runtime::Remoting::Proxies {
     // Get instance field reference: private System.Boolean _custom_type_info
     bool& dyn__custom_type_info();
     // private System.Boolean get_IsContextBoundObject()
-    // Offset: 0x1C086C8
+    // Offset: 0x1C607C0
     bool get_IsContextBoundObject();
     // private System.Runtime.Remoting.Contexts.Context get_TargetContext()
-    // Offset: 0x1C086E8
+    // Offset: 0x1C607E0
     System::Runtime::Remoting::Contexts::Context* get_TargetContext();
     // System.RuntimeType GetProxyType()
-    // Offset: 0x1C085F4
+    // Offset: 0x1C606EC
     System::RuntimeType* GetProxyType();
     // private System.Boolean InCurrentContext()
-    // Offset: 0x1C08704
+    // Offset: 0x1C607FC
     bool InCurrentContext();
     // System.Object LoadRemoteFieldNew(System.IntPtr classPtr, System.IntPtr fieldPtr)
-    // Offset: 0x1C08750
+    // Offset: 0x1C60848
     ::Il2CppObject* LoadRemoteFieldNew(System::IntPtr classPtr, System::IntPtr fieldPtr);
     // System.Void StoreRemoteField(System.IntPtr classPtr, System.IntPtr fieldPtr, System.Object arg)
-    // Offset: 0x1C089FC
+    // Offset: 0x1C60AF4
     void StoreRemoteField(System::IntPtr classPtr, System::IntPtr fieldPtr, ::Il2CppObject* arg);
     // public System.Void .ctor()
-    // Offset: 0x1C08CA8
+    // Offset: 0x1C60DA0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -110,7 +98,8 @@ namespace System::Runtime::Remoting::Proxies {
   static check_size<sizeof(TransparentProxy), 32 + sizeof(bool)> __System_Runtime_Remoting_Proxies_TransparentProxySizeCheck;
   static_assert(sizeof(TransparentProxy) == 0x21);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Proxies::TransparentProxy*, "System.Runtime.Remoting.Proxies", "TransparentProxy");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Proxies::TransparentProxy::get_IsContextBoundObject
 // Il2CppName: get_IsContextBoundObject
 template<>

@@ -3,16 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: System.Net
-namespace System::Net {
-  // Forward declaring type: ICredentialPolicy
-  class ICredentialPolicy;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::ICredentialPolicy);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::ICredentialPolicy*, "System.Net", "ICredentialPolicy");
 // Type namespace: System.Net
 namespace System::Net {
   // Size: 0x10
@@ -21,7 +13,11 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class ICredentialPolicy {
     public:
+    // Creating value type constructor for type: ICredentialPolicy
+    ICredentialPolicy() noexcept {}
   }; // System.Net.ICredentialPolicy
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::ICredentialPolicy*, "System.Net", "ICredentialPolicy");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

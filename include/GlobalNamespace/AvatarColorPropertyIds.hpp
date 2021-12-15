@@ -3,17 +3,9 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: AvatarColorPropertyIds
-  class AvatarColorPropertyIds;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::AvatarColorPropertyIds);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarColorPropertyIds*, "", "AvatarColorPropertyIds");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -22,38 +14,42 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AvatarColorPropertyIds : public ::Il2CppObject {
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF00368
+    // Creating value type constructor for type: AvatarColorPropertyIds
+    AvatarColorPropertyIds() noexcept {}
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF3559C
     // Get static field: static public readonly System.Int32 colorPropertyId
     static int _get_colorPropertyId();
     // Set static field: static public readonly System.Int32 colorPropertyId
     static void _set_colorPropertyId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF00378
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF355AC
     // Get static field: static public readonly System.Int32 rimLightColorPropertyId
     static int _get_rimLightColorPropertyId();
     // Set static field: static public readonly System.Int32 rimLightColorPropertyId
     static void _set_rimLightColorPropertyId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF00388
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF355BC
     // Get static field: static public readonly System.Int32 uvColorsPropertyId
     static int _get_uvColorsPropertyId();
     // Set static field: static public readonly System.Int32 uvColorsPropertyId
     static void _set_uvColorsPropertyId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF00398
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF355CC
     // Get static field: static public readonly System.Int32 uvRimLightColorsPropertyId
     static int _get_uvRimLightColorsPropertyId();
     // Set static field: static public readonly System.Int32 uvRimLightColorsPropertyId
     static void _set_uvRimLightColorsPropertyId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF003A8
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF355DC
     // Get static field: static public readonly System.Int32 segmentToHighlightPropertyId
     static int _get_segmentToHighlightPropertyId();
     // Set static field: static public readonly System.Int32 segmentToHighlightPropertyId
     static void _set_segmentToHighlightPropertyId(int value);
     // static private System.Void .cctor()
-    // Offset: 0x261E780
+    // Offset: 0x1317164
     static void _cctor();
   }; // AvatarColorPropertyIds
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarColorPropertyIds*, "", "AvatarColorPropertyIds");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AvatarColorPropertyIds::_cctor
 // Il2CppName: .cctor
 template<>

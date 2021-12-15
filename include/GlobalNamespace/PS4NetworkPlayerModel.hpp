@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PlatformNetworkPlayerModel
 #include "GlobalNamespace/PlatformNetworkPlayerModel.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: PS4NetworkPlayerModel
-  class PS4NetworkPlayerModel;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::PS4NetworkPlayerModel);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4NetworkPlayerModel*, "", "PS4NetworkPlayerModel");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x88
@@ -28,8 +20,10 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PS4NetworkPlayerModel : public GlobalNamespace::PlatformNetworkPlayerModel {
     public:
+    // Creating value type constructor for type: PS4NetworkPlayerModel
+    PS4NetworkPlayerModel() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x110C63C
+    // Offset: 0x1147E40
     // Implemented from: PlatformNetworkPlayerModel
     // Base method: System.Void PlatformNetworkPlayerModel::.ctor()
     // Base method: System.Void BaseNetworkPlayerModel::.ctor()
@@ -47,7 +41,8 @@ namespace GlobalNamespace {
   }; // PS4NetworkPlayerModel
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4NetworkPlayerModel*, "", "PS4NetworkPlayerModel");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PS4NetworkPlayerModel::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -3,17 +3,9 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: System.Diagnostics
-namespace System::Diagnostics {
-  // Forward declaring type: Debug
-  class Debug;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Diagnostics::Debug);
-DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Debug*, "System.Diagnostics", "Debug");
 // Type namespace: System.Diagnostics
 namespace System::Diagnostics {
   // Size: 0x10
@@ -22,13 +14,17 @@ namespace System::Diagnostics {
   // [TokenAttribute] Offset: FFFFFFFF
   class Debug : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: Debug
+    Debug() noexcept {}
     // static public System.Void Assert(System.Boolean condition)
-    // Offset: 0x1A0974C
+    // Offset: 0x1A28DFC
     static void Assert_(bool condition);
   }; // System.Diagnostics.Debug
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Debug*, "System.Diagnostics", "Debug");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Diagnostics::Debug::Assert_
 // Il2CppName: Assert
 template<>

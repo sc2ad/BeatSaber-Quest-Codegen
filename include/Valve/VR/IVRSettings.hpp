@@ -3,7 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
@@ -12,13 +12,6 @@
 namespace Valve::VR {
 }
 // Completed forward declares
-// Type namespace: Valve.VR
-namespace Valve::VR {
-  // Forward declaring type: IVRSettings
-  struct IVRSettings;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSettings, "Valve.VR", "IVRSettings");
 // Type namespace: Valve.VR
 namespace Valve::VR {
   // Size: 0x60
@@ -52,11 +45,6 @@ namespace Valve::VR {
     class _RemoveSection;
     // Nested type: Valve::VR::IVRSettings::_RemoveKeyInSection
     class _RemoveKeyInSection;
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // Valve.VR.IVRSettings/Valve.VR._GetSettingsErrorNameFromEnum GetSettingsErrorNameFromEnum
     // Size: 0x8
     // Offset: 0x0
@@ -129,7 +117,6 @@ namespace Valve::VR {
     Valve::VR::IVRSettings::_RemoveKeyInSection* RemoveKeyInSection;
     // Field size check
     static_assert(sizeof(Valve::VR::IVRSettings::_RemoveKeyInSection*) == 0x8);
-    public:
     // Creating value type constructor for type: IVRSettings
     constexpr IVRSettings(Valve::VR::IVRSettings::_GetSettingsErrorNameFromEnum* GetSettingsErrorNameFromEnum_ = {}, Valve::VR::IVRSettings::_Sync* Sync_ = {}, Valve::VR::IVRSettings::_SetBool* SetBool_ = {}, Valve::VR::IVRSettings::_SetInt32* SetInt32_ = {}, Valve::VR::IVRSettings::_SetFloat* SetFloat_ = {}, Valve::VR::IVRSettings::_SetString* SetString_ = {}, Valve::VR::IVRSettings::_GetBool* GetBool_ = {}, Valve::VR::IVRSettings::_GetInt32* GetInt32_ = {}, Valve::VR::IVRSettings::_GetFloat* GetFloat_ = {}, Valve::VR::IVRSettings::_GetString* GetString_ = {}, Valve::VR::IVRSettings::_RemoveSection* RemoveSection_ = {}, Valve::VR::IVRSettings::_RemoveKeyInSection* RemoveKeyInSection_ = {}) noexcept : GetSettingsErrorNameFromEnum{GetSettingsErrorNameFromEnum_}, Sync{Sync_}, SetBool{SetBool_}, SetInt32{SetInt32_}, SetFloat{SetFloat_}, SetString{SetString_}, GetBool{GetBool_}, GetInt32{GetInt32_}, GetFloat{GetFloat_}, GetString{GetString_}, RemoveSection{RemoveSection_}, RemoveKeyInSection{RemoveKeyInSection_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -165,4 +152,6 @@ namespace Valve::VR {
   static check_size<sizeof(IVRSettings), 88 + sizeof(Valve::VR::IVRSettings::_RemoveKeyInSection*)> __Valve_VR_IVRSettingsSizeCheck;
   static_assert(sizeof(IVRSettings) == 0x60);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSettings, "Valve.VR", "IVRSettings");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

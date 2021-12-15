@@ -3,18 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: UnityEngine.Rendering
-namespace UnityEngine::Rendering {
-  // Forward declaring type: PassType
-  struct PassType;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::PassType, "UnityEngine.Rendering", "PassType");
 // Type namespace: UnityEngine.Rendering
 namespace UnityEngine::Rendering {
   // Size: 0x4
@@ -23,18 +16,12 @@ namespace UnityEngine::Rendering {
   // [TokenAttribute] Offset: FFFFFFFF
   struct PassType/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: PassType
     constexpr PassType(int value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -63,7 +50,7 @@ namespace UnityEngine::Rendering {
     static UnityEngine::Rendering::PassType _get_VertexLM();
     // Set static field: static public UnityEngine.Rendering.PassType VertexLM
     static void _set_VertexLM(UnityEngine::Rendering::PassType value);
-    // [ObsoleteAttribute] Offset: 0xE79678
+    // [ObsoleteAttribute] Offset: 0xEB9284
     // static field const value: static public UnityEngine.Rendering.PassType VertexLMRGBM
     static constexpr const int VertexLMRGBM = 3;
     // Get static field: static public UnityEngine.Rendering.PassType VertexLMRGBM
@@ -137,4 +124,6 @@ namespace UnityEngine::Rendering {
   static check_size<sizeof(PassType), 0 + sizeof(int)> __UnityEngine_Rendering_PassTypeSizeCheck;
   static_assert(sizeof(PassType) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::PassType, "UnityEngine.Rendering", "PassType");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

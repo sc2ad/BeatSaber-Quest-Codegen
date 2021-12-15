@@ -3,29 +3,20 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: RootMotion.FinalIK.OffsetModifier
 #include "RootMotion/FinalIK/OffsetModifier.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: RootMotion::FinalIK
 namespace RootMotion::FinalIK {
 }
 // Completed forward declares
-// Type namespace: RootMotion.FinalIK
-namespace RootMotion::FinalIK {
-  // Forward declaring type: PenetrationAvoidance
-  class PenetrationAvoidance;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::FinalIK::PenetrationAvoidance);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::PenetrationAvoidance*, "RootMotion.FinalIK", "PenetrationAvoidance");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
   // Size: 0x38
@@ -38,23 +29,19 @@ namespace RootMotion::FinalIK {
     char ___base_padding[0x4] = {};
     // Nested type: RootMotion::FinalIK::PenetrationAvoidance::Avoider
     class Avoider;
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
-    // [TooltipAttribute] Offset: 0xEF4724
+    // [TooltipAttribute] Offset: 0xF5FE30
     // public RootMotion.FinalIK.PenetrationAvoidance/RootMotion.FinalIK.Avoider[] avoiders
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayW<RootMotion::FinalIK::PenetrationAvoidance::Avoider*> avoiders;
+    ::Array<RootMotion::FinalIK::PenetrationAvoidance::Avoider*>* avoiders;
     // Field size check
-    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::PenetrationAvoidance::Avoider*>) == 0x8);
-    public:
+    static_assert(sizeof(::Array<RootMotion::FinalIK::PenetrationAvoidance::Avoider*>*) == 0x8);
+    // Creating value type constructor for type: PenetrationAvoidance
+    PenetrationAvoidance(::Array<RootMotion::FinalIK::PenetrationAvoidance::Avoider*>* avoiders_ = {}) noexcept : avoiders{avoiders_} {}
     // Get instance field reference: public RootMotion.FinalIK.PenetrationAvoidance/RootMotion.FinalIK.Avoider[] avoiders
-    ::ArrayW<RootMotion::FinalIK::PenetrationAvoidance::Avoider*>& dyn_avoiders();
+    ::Array<RootMotion::FinalIK::PenetrationAvoidance::Avoider*>*& dyn_avoiders();
     // public System.Void .ctor()
-    // Offset: 0x1C41D5C
+    // Offset: 0x1C99E54
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -68,16 +55,17 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<PenetrationAvoidance*, creationType>()));
     }
     // protected override System.Void OnModifyOffset()
-    // Offset: 0x1C41ADC
+    // Offset: 0x1C99BD4
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::OnModifyOffset()
     void OnModifyOffset();
   }; // RootMotion.FinalIK.PenetrationAvoidance
   #pragma pack(pop)
-  static check_size<sizeof(PenetrationAvoidance), 48 + sizeof(::ArrayW<RootMotion::FinalIK::PenetrationAvoidance::Avoider*>)> __RootMotion_FinalIK_PenetrationAvoidanceSizeCheck;
+  static check_size<sizeof(PenetrationAvoidance), 48 + sizeof(::Array<RootMotion::FinalIK::PenetrationAvoidance::Avoider*>*)> __RootMotion_FinalIK_PenetrationAvoidanceSizeCheck;
   static_assert(sizeof(PenetrationAvoidance) == 0x38);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::PenetrationAvoidance*, "RootMotion.FinalIK", "PenetrationAvoidance");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::PenetrationAvoidance::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

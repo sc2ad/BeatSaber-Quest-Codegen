@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: NUnit.Framework.Constraints.ToleranceMode
 #include "NUnit/Framework/Constraints/ToleranceMode.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: NUnit.Framework.Constraints
-namespace NUnit::Framework::Constraints {
-  // Forward declaring type: Tolerance
-  class Tolerance;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(NUnit::Framework::Constraints::Tolerance);
-DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::Tolerance*, "NUnit.Framework.Constraints", "Tolerance");
 // Type namespace: NUnit.Framework.Constraints
 namespace NUnit::Framework::Constraints {
   // Size: 0x20
@@ -28,11 +20,6 @@ namespace NUnit::Framework::Constraints {
   // [TokenAttribute] Offset: FFFFFFFF
   class Tolerance : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private readonly NUnit.Framework.Constraints.ToleranceMode mode
     // Size: 0x4
     // Offset: 0x10
@@ -47,35 +34,36 @@ namespace NUnit::Framework::Constraints {
     ::Il2CppObject* amount;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    public:
+    // Creating value type constructor for type: Tolerance
+    Tolerance(NUnit::Framework::Constraints::ToleranceMode mode_ = {}, ::Il2CppObject* amount_ = {}) noexcept : mode{mode_}, amount{amount_} {}
     // Get instance field reference: private readonly NUnit.Framework.Constraints.ToleranceMode mode
     NUnit::Framework::Constraints::ToleranceMode& dyn_mode();
     // Get instance field reference: private readonly System.Object amount
     ::Il2CppObject*& dyn_amount();
     // static public NUnit.Framework.Constraints.Tolerance get_Default()
-    // Offset: 0x19100F0
+    // Offset: 0x19352B4
     static NUnit::Framework::Constraints::Tolerance* get_Default();
     // static public NUnit.Framework.Constraints.Tolerance get_Exact()
-    // Offset: 0x19187BC
+    // Offset: 0x193D980
     static NUnit::Framework::Constraints::Tolerance* get_Exact();
     // public NUnit.Framework.Constraints.ToleranceMode get_Mode()
-    // Offset: 0x191268C
+    // Offset: 0x1937850
     NUnit::Framework::Constraints::ToleranceMode get_Mode();
     // public System.Object get_Value()
-    // Offset: 0x1912684
+    // Offset: 0x1937848
     ::Il2CppObject* get_Value();
     // public System.Boolean get_IsUnsetOrDefault()
-    // Offset: 0x1912674
+    // Offset: 0x1937838
     bool get_IsUnsetOrDefault();
     // public System.Void .ctor(System.Object amount)
-    // Offset: 0x191B538
+    // Offset: 0x19406FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Tolerance* New_ctor(::Il2CppObject* amount) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Constraints::Tolerance::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Tolerance*, creationType>(amount)));
     }
     // private System.Void .ctor(System.Object amount, NUnit.Framework.Constraints.ToleranceMode mode)
-    // Offset: 0x191BD9C
+    // Offset: 0x1940F60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Tolerance* New_ctor(::Il2CppObject* amount, NUnit::Framework::Constraints::ToleranceMode mode) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Constraints::Tolerance::.ctor");
@@ -86,7 +74,8 @@ namespace NUnit::Framework::Constraints {
   static check_size<sizeof(Tolerance), 24 + sizeof(::Il2CppObject*)> __NUnit_Framework_Constraints_ToleranceSizeCheck;
   static_assert(sizeof(Tolerance) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::Tolerance*, "NUnit.Framework.Constraints", "Tolerance");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::Tolerance::get_Default
 // Il2CppName: get_Default
 template<>

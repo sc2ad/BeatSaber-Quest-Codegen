@@ -3,18 +3,10 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-// Type namespace: UnityEngine.ProBuilder.KdTree
-namespace UnityEngine::ProBuilder::KdTree {
-  // Forward declaring type: ItemPriority`2<TItem, TPriority>
-  template<typename TItem, typename TPriority>
-  struct ItemPriority_2;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(UnityEngine::ProBuilder::KdTree::ItemPriority_2, "UnityEngine.ProBuilder.KdTree", "ItemPriority`2");
 // Type namespace: UnityEngine.ProBuilder.KdTree
 namespace UnityEngine::ProBuilder::KdTree {
   // WARNING Size may be invalid!
@@ -24,11 +16,6 @@ namespace UnityEngine::ProBuilder::KdTree {
   template<typename TItem, typename TPriority>
   struct ItemPriority_2/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public TItem Item
     // Size: 0xFFFFFFFF
     // Offset: 0x0
@@ -37,7 +24,6 @@ namespace UnityEngine::ProBuilder::KdTree {
     // Size: 0xFFFFFFFF
     // Offset: 0x0
     TPriority Priority;
-    public:
     // Creating value type constructor for type: ItemPriority_2
     constexpr ItemPriority_2(TItem Item_ = {}, TPriority Priority_ = {}) noexcept : Item{Item_}, Priority{Priority_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -63,4 +49,6 @@ namespace UnityEngine::ProBuilder::KdTree {
   }; // UnityEngine.ProBuilder.KdTree.ItemPriority`2
   // Could not write size check! Type: UnityEngine.ProBuilder.KdTree.ItemPriority`2 is generic, or has no fields that are valid for size checks!
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(UnityEngine::ProBuilder::KdTree::ItemPriority_2, "UnityEngine.ProBuilder.KdTree", "ItemPriority`2");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

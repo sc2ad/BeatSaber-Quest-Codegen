@@ -3,16 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: Polyglot
-namespace Polyglot {
-  // Forward declaring type: ILocalize
-  class ILocalize;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Polyglot::ILocalize);
-DEFINE_IL2CPP_ARG_TYPE(Polyglot::ILocalize*, "Polyglot", "ILocalize");
 // Type namespace: Polyglot
 namespace Polyglot {
   // Size: 0x10
@@ -21,13 +13,17 @@ namespace Polyglot {
   // [TokenAttribute] Offset: FFFFFFFF
   class ILocalize {
     public:
+    // Creating value type constructor for type: ILocalize
+    ILocalize() noexcept {}
     // public System.Void OnLocalize()
     // Offset: 0xFFFFFFFF
     void OnLocalize();
   }; // Polyglot.ILocalize
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Polyglot::ILocalize*, "Polyglot", "ILocalize");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Polyglot::ILocalize::OnLocalize
 // Il2CppName: OnLocalize
 template<>

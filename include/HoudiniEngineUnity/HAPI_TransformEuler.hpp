@@ -3,23 +3,19 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: HoudiniEngineUnity.HAPI_XYZOrder
 #include "HoudiniEngineUnity/HAPI_XYZOrder.hpp"
 // Including type: HoudiniEngineUnity.HAPI_RSTOrder
 #include "HoudiniEngineUnity/HAPI_RSTOrder.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: HoudiniEngineUnity
-namespace HoudiniEngineUnity {
-  // Forward declaring type: HAPI_TransformEuler
-  struct HAPI_TransformEuler;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_TransformEuler, "HoudiniEngineUnity", "HAPI_TransformEuler");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x28
@@ -29,35 +25,30 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HAPI_TransformEuler/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Single[] position
     // Size: 0x8
     // Offset: 0x0
-    ::ArrayW<float> position;
+    ::Array<float>* position;
     // Field size check
-    static_assert(sizeof(::ArrayW<float>) == 0x8);
+    static_assert(sizeof(::Array<float>*) == 0x8);
     // public System.Single[] rotationEuler
     // Size: 0x8
     // Offset: 0x8
-    ::ArrayW<float> rotationEuler;
+    ::Array<float>* rotationEuler;
     // Field size check
-    static_assert(sizeof(::ArrayW<float>) == 0x8);
+    static_assert(sizeof(::Array<float>*) == 0x8);
     // public System.Single[] scale
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<float> scale;
+    ::Array<float>* scale;
     // Field size check
-    static_assert(sizeof(::ArrayW<float>) == 0x8);
+    static_assert(sizeof(::Array<float>*) == 0x8);
     // public System.Single[] shear
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayW<float> shear;
+    ::Array<float>* shear;
     // Field size check
-    static_assert(sizeof(::ArrayW<float>) == 0x8);
+    static_assert(sizeof(::Array<float>*) == 0x8);
     // public HoudiniEngineUnity.HAPI_XYZOrder rotationOrder
     // Size: 0x4
     // Offset: 0x20
@@ -70,37 +61,42 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HAPI_RSTOrder rstOrder;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::HAPI_RSTOrder) == 0x4);
-    public:
     // Creating value type constructor for type: HAPI_TransformEuler
-    constexpr HAPI_TransformEuler(::ArrayW<float> position_ = ::ArrayW<float>(nullptr), ::ArrayW<float> rotationEuler_ = ::ArrayW<float>(nullptr), ::ArrayW<float> scale_ = ::ArrayW<float>(nullptr), ::ArrayW<float> shear_ = ::ArrayW<float>(nullptr), HoudiniEngineUnity::HAPI_XYZOrder rotationOrder_ = {}, HoudiniEngineUnity::HAPI_RSTOrder rstOrder_ = {}) noexcept : position{position_}, rotationEuler{rotationEuler_}, scale{scale_}, shear{shear_}, rotationOrder{rotationOrder_}, rstOrder{rstOrder_} {}
+    constexpr HAPI_TransformEuler(::Array<float>* position_ = {}, ::Array<float>* rotationEuler_ = {}, ::Array<float>* scale_ = {}, ::Array<float>* shear_ = {}, HoudiniEngineUnity::HAPI_XYZOrder rotationOrder_ = {}, HoudiniEngineUnity::HAPI_RSTOrder rstOrder_ = {}) noexcept : position{position_}, rotationEuler{rotationEuler_}, scale{scale_}, shear{shear_}, rotationOrder{rotationOrder_}, rstOrder{rstOrder_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // Get instance field reference: public System.Single[] position
-    ::ArrayW<float>& dyn_position();
+    ::Array<float>*& dyn_position();
     // Get instance field reference: public System.Single[] rotationEuler
-    ::ArrayW<float>& dyn_rotationEuler();
+    ::Array<float>*& dyn_rotationEuler();
     // Get instance field reference: public System.Single[] scale
-    ::ArrayW<float>& dyn_scale();
+    ::Array<float>*& dyn_scale();
     // Get instance field reference: public System.Single[] shear
-    ::ArrayW<float>& dyn_shear();
+    ::Array<float>*& dyn_shear();
     // Get instance field reference: public HoudiniEngineUnity.HAPI_XYZOrder rotationOrder
     HoudiniEngineUnity::HAPI_XYZOrder& dyn_rotationOrder();
     // Get instance field reference: public HoudiniEngineUnity.HAPI_RSTOrder rstOrder
     HoudiniEngineUnity::HAPI_RSTOrder& dyn_rstOrder();
     // public System.Void .ctor(System.Boolean initializeFields)
-    // Offset: 0x141E6F8
-    HAPI_TransformEuler(bool initializeFields);
+    // Offset: 0x1463218
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    HAPI_TransformEuler(bool initializeFields) {
+      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HAPI_TransformEuler::.ctor");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(initializeFields)})));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, initializeFields);
+    }
     // public System.Void Init()
-    // Offset: 0x141E7A4
+    // Offset: 0x14632C4
     void Init();
   }; // HoudiniEngineUnity.HAPI_TransformEuler
   #pragma pack(pop)
   static check_size<sizeof(HAPI_TransformEuler), 36 + sizeof(HoudiniEngineUnity::HAPI_RSTOrder)> __HoudiniEngineUnity_HAPI_TransformEulerSizeCheck;
   static_assert(sizeof(HAPI_TransformEuler) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_TransformEuler, "HoudiniEngineUnity", "HAPI_TransformEuler");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HAPI_TransformEuler::HAPI_TransformEuler
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

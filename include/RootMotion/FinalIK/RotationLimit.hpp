@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: RootMotion.FinalIK
-namespace RootMotion::FinalIK {
-  // Forward declaring type: RotationLimit
-  class RotationLimit;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::FinalIK::RotationLimit);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RotationLimit*, "RootMotion.FinalIK", "RotationLimit");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
   // Size: 0x38
@@ -28,11 +20,6 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class RotationLimit : public UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public UnityEngine.Vector3 axis
     // Size: 0xC
     // Offset: 0x18
@@ -69,7 +56,8 @@ namespace RootMotion::FinalIK {
     bool defaultLocalRotationSet;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: RotationLimit
+    RotationLimit(UnityEngine::Vector3 axis_ = {}, UnityEngine::Quaternion defaultLocalRotation_ = {}, bool defaultLocalRotationOverride_ = {}, bool initiated_ = {}, bool applicationQuit_ = {}, bool defaultLocalRotationSet_ = {}) noexcept : axis{axis_}, defaultLocalRotation{defaultLocalRotation_}, defaultLocalRotationOverride{defaultLocalRotationOverride_}, initiated{initiated_}, applicationQuit{applicationQuit_}, defaultLocalRotationSet{defaultLocalRotationSet_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public UnityEngine.Vector3 axis
@@ -85,55 +73,55 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private System.Boolean defaultLocalRotationSet
     bool& dyn_defaultLocalRotationSet();
     // public UnityEngine.Vector3 get_secondaryAxis()
-    // Offset: 0x1C455B0
+    // Offset: 0x1C9D6A8
     UnityEngine::Vector3 get_secondaryAxis();
     // public UnityEngine.Vector3 get_crossAxis()
-    // Offset: 0x1C455EC
+    // Offset: 0x1C9D6E4
     UnityEngine::Vector3 get_crossAxis();
     // public System.Boolean get_defaultLocalRotationOverride()
-    // Offset: 0x1C456BC
+    // Offset: 0x1C9D7B4
     bool get_defaultLocalRotationOverride();
     // private System.Void set_defaultLocalRotationOverride(System.Boolean value)
-    // Offset: 0x1C456C4
+    // Offset: 0x1C9D7BC
     void set_defaultLocalRotationOverride(bool value);
     // public System.Void SetDefaultLocalRotation()
-    // Offset: 0x1C45214
+    // Offset: 0x1C9D30C
     void SetDefaultLocalRotation();
     // public System.Void SetDefaultLocalRotation(UnityEngine.Quaternion localRotation)
-    // Offset: 0x1C4525C
+    // Offset: 0x1C9D354
     void SetDefaultLocalRotation(UnityEngine::Quaternion localRotation);
     // public UnityEngine.Quaternion GetLimitedLocalRotation(UnityEngine.Quaternion localRotation, out System.Boolean changed)
-    // Offset: 0x1C45274
+    // Offset: 0x1C9D36C
     UnityEngine::Quaternion GetLimitedLocalRotation(UnityEngine::Quaternion localRotation, ByRef<bool> changed);
     // public System.Boolean Apply()
-    // Offset: 0x1C45508
+    // Offset: 0x1C9D600
     bool Apply();
     // public System.Void Disable()
-    // Offset: 0x1C45578
+    // Offset: 0x1C9D670
     void Disable();
     // protected UnityEngine.Quaternion LimitRotation(UnityEngine.Quaternion rotation)
     // Offset: 0xFFFFFFFF
     UnityEngine::Quaternion LimitRotation(UnityEngine::Quaternion rotation);
     // private System.Void Awake()
-    // Offset: 0x1C45418
+    // Offset: 0x1C9D510
     void Awake();
     // private System.Void LateUpdate()
-    // Offset: 0x1C456D0
+    // Offset: 0x1C9D7C8
     void LateUpdate();
     // public System.Void LogWarning(System.String message)
-    // Offset: 0x1C456D4
+    // Offset: 0x1C9D7CC
     void LogWarning(::Il2CppString* message);
     // static protected UnityEngine.Quaternion Limit1DOF(UnityEngine.Quaternion rotation, UnityEngine.Vector3 axis)
-    // Offset: 0x1C45704
+    // Offset: 0x1C9D7FC
     static UnityEngine::Quaternion Limit1DOF(UnityEngine::Quaternion rotation, UnityEngine::Vector3 axis);
     // static protected UnityEngine.Quaternion LimitTwist(UnityEngine.Quaternion rotation, UnityEngine.Vector3 axis, UnityEngine.Vector3 orthoAxis, System.Single twistLimit)
-    // Offset: 0x1C457E8
+    // Offset: 0x1C9D8E0
     static UnityEngine::Quaternion LimitTwist(UnityEngine::Quaternion rotation, UnityEngine::Vector3 axis, UnityEngine::Vector3 orthoAxis, float twistLimit);
     // static protected System.Single GetOrthogonalAngle(UnityEngine.Vector3 v1, UnityEngine.Vector3 v2, UnityEngine.Vector3 normal)
-    // Offset: 0x1C45A64
+    // Offset: 0x1C9DB5C
     static float GetOrthogonalAngle(UnityEngine::Vector3 v1, UnityEngine::Vector3 v2, UnityEngine::Vector3 normal);
     // protected System.Void .ctor()
-    // Offset: 0x1C45B20
+    // Offset: 0x1C9DC18
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -150,7 +138,8 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(RotationLimit), 55 + sizeof(bool)> __RootMotion_FinalIK_RotationLimitSizeCheck;
   static_assert(sizeof(RotationLimit) == 0x38);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RotationLimit*, "RootMotion.FinalIK", "RotationLimit");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::RotationLimit::get_secondaryAxis
 // Il2CppName: get_secondaryAxis
 template<>

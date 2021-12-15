@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: SteamLevelProductsModelSO
 #include "GlobalNamespace/SteamLevelProductsModelSO.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: LevelProductData
-  class LevelProductData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::SteamLevelProductsModelSO::LevelProductData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamLevelProductsModelSO::LevelProductData*, "", "SteamLevelProductsModelSO/LevelProductData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -28,11 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SteamLevelProductsModelSO::LevelProductData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.UInt32 _appId
     // Size: 0x4
     // Offset: 0x10
@@ -47,19 +34,20 @@ namespace GlobalNamespace {
     ::Il2CppString* levelId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: LevelProductData
+    LevelProductData(uint appId_ = {}, ::Il2CppString* levelId_ = {}) noexcept : appId{appId_}, levelId{levelId_} {}
     // Get instance field reference: private System.UInt32 _appId
     uint& dyn__appId();
     // Get instance field reference: private System.String _levelId
     ::Il2CppString*& dyn__levelId();
     // public System.UInt32 get_appId()
-    // Offset: 0x1155DA0
+    // Offset: 0x1223E50
     uint get_appId();
     // public System.String get_levelId()
-    // Offset: 0x1155DA8
+    // Offset: 0x1223E58
     ::Il2CppString* get_levelId();
     // public System.Void .ctor()
-    // Offset: 0x1155DB0
+    // Offset: 0x1223E60
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -72,7 +60,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(SteamLevelProductsModelSO::LevelProductData), 24 + sizeof(::Il2CppString*)> __GlobalNamespace_SteamLevelProductsModelSO_LevelProductDataSizeCheck;
   static_assert(sizeof(SteamLevelProductsModelSO::LevelProductData) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamLevelProductsModelSO::LevelProductData*, "", "SteamLevelProductsModelSO/LevelProductData");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamLevelProductsModelSO::LevelProductData::get_appId
 // Il2CppName: get_appId
 template<>

@@ -3,24 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Oculus.Platform.IVoipPCMSource
 #include "Oculus/Platform/IVoipPCMSource.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Oculus.Platform
-namespace Oculus::Platform {
-  // Forward declaring type: VoipPCMSourceNative
-  class VoipPCMSourceNative;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::VoipPCMSourceNative);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::VoipPCMSourceNative*, "Oculus.Platform", "VoipPCMSourceNative");
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
   // Size: 0x18
@@ -29,18 +20,14 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class VoipPCMSourceNative : public ::Il2CppObject/*, public Oculus::Platform::IVoipPCMSource*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.UInt64 senderID
     // Size: 0x8
     // Offset: 0x10
     uint64_t senderID;
     // Field size check
     static_assert(sizeof(uint64_t) == 0x8);
-    public:
+    // Creating value type constructor for type: VoipPCMSourceNative
+    VoipPCMSourceNative(uint64_t senderID_ = {}) noexcept : senderID{senderID_} {}
     // Creating interface conversion operator: operator Oculus::Platform::IVoipPCMSource
     operator Oculus::Platform::IVoipPCMSource() noexcept {
       return *reinterpret_cast<Oculus::Platform::IVoipPCMSource*>(this);
@@ -52,19 +39,19 @@ namespace Oculus::Platform {
     // Get instance field reference: private System.UInt64 senderID
     uint64_t& dyn_senderID();
     // public System.Int32 GetPCM(System.Single[] dest, System.Int32 length)
-    // Offset: 0x25A40C4
-    int GetPCM(::ArrayW<float> dest, int length);
+    // Offset: 0x2668718
+    int GetPCM(::Array<float>* dest, int length);
     // public System.Void SetSenderID(System.UInt64 senderID)
-    // Offset: 0x25A4184
+    // Offset: 0x26687D8
     void SetSenderID(uint64_t senderID);
     // public System.Int32 PeekSizeElements()
-    // Offset: 0x25A418C
+    // Offset: 0x26687E0
     int PeekSizeElements();
     // public System.Void Update()
-    // Offset: 0x25A422C
+    // Offset: 0x2668880
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x25A35A0
+    // Offset: 0x2667BF4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -77,11 +64,12 @@ namespace Oculus::Platform {
   static check_size<sizeof(VoipPCMSourceNative), 16 + sizeof(uint64_t)> __Oculus_Platform_VoipPCMSourceNativeSizeCheck;
   static_assert(sizeof(VoipPCMSourceNative) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::VoipPCMSourceNative*, "Oculus.Platform", "VoipPCMSourceNative");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::VoipPCMSourceNative::GetPCM
 // Il2CppName: GetPCM
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Oculus::Platform::VoipPCMSourceNative::*)(::ArrayW<float>, int)>(&Oculus::Platform::VoipPCMSourceNative::GetPCM)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Oculus::Platform::VoipPCMSourceNative::*)(::Array<float>*, int)>(&Oculus::Platform::VoipPCMSourceNative::GetPCM)> {
   static const MethodInfo* get() {
     static auto* dest = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

@@ -3,18 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: TextureFormat
-  struct TextureFormat;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextureFormat, "UnityEngine", "TextureFormat");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x4
@@ -23,18 +16,12 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   struct TextureFormat/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: TextureFormat
     constexpr TextureFormat(int value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -303,14 +290,14 @@ namespace UnityEngine {
     static UnityEngine::TextureFormat _get_ASTC_12x12();
     // Set static field: static public UnityEngine.TextureFormat ASTC_12x12
     static void _set_ASTC_12x12(UnityEngine::TextureFormat value);
-    // [ObsoleteAttribute] Offset: 0xE78260
+    // [ObsoleteAttribute] Offset: 0xEB7E6C
     // static field const value: static public UnityEngine.TextureFormat ETC_RGB4_3DS
     static constexpr const int ETC_RGB4_3DS = 60;
     // Get static field: static public UnityEngine.TextureFormat ETC_RGB4_3DS
     static UnityEngine::TextureFormat _get_ETC_RGB4_3DS();
     // Set static field: static public UnityEngine.TextureFormat ETC_RGB4_3DS
     static void _set_ETC_RGB4_3DS(UnityEngine::TextureFormat value);
-    // [ObsoleteAttribute] Offset: 0xE78298
+    // [ObsoleteAttribute] Offset: 0xEB7EA4
     // static field const value: static public UnityEngine.TextureFormat ETC_RGBA8_3DS
     static constexpr const int ETC_RGBA8_3DS = 61;
     // Get static field: static public UnityEngine.TextureFormat ETC_RGBA8_3DS
@@ -474,4 +461,6 @@ namespace UnityEngine {
   static check_size<sizeof(TextureFormat), 0 + sizeof(int)> __UnityEngine_TextureFormatSizeCheck;
   static_assert(sizeof(TextureFormat) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextureFormat, "UnityEngine", "TextureFormat");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

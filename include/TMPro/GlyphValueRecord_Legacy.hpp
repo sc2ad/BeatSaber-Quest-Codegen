@@ -3,24 +3,16 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+// Including type: UnityEngine.TextCore.LowLevel.GlyphValueRecord
+#include "UnityEngine/TextCore/LowLevel/GlyphValueRecord.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Begin forward declares
-// Forward declaring namespace: UnityEngine::TextCore::LowLevel
-namespace UnityEngine::TextCore::LowLevel {
-  // Forward declaring type: GlyphValueRecord
-  struct GlyphValueRecord;
-}
-// Completed forward declares
-// Type namespace: TMPro
-namespace TMPro {
-  // Forward declaring type: GlyphValueRecord_Legacy
-  struct GlyphValueRecord_Legacy;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(TMPro::GlyphValueRecord_Legacy, "TMPro", "GlyphValueRecord_Legacy");
 // Type namespace: TMPro
 namespace TMPro {
   // Size: 0x10
@@ -30,11 +22,6 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   struct GlyphValueRecord_Legacy/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Single xPlacement
     // Size: 0x4
     // Offset: 0x0
@@ -59,7 +46,6 @@ namespace TMPro {
     float yAdvance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
     // Creating value type constructor for type: GlyphValueRecord_Legacy
     constexpr GlyphValueRecord_Legacy(float xPlacement_ = {}, float yPlacement_ = {}, float xAdvance_ = {}, float yAdvance_ = {}) noexcept : xPlacement{xPlacement_}, yPlacement{yPlacement_}, xAdvance{xAdvance_}, yAdvance{yAdvance_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -75,17 +61,23 @@ namespace TMPro {
     // Get instance field reference: public System.Single yAdvance
     float& dyn_yAdvance();
     // System.Void .ctor(UnityEngine.TextCore.LowLevel.GlyphValueRecord valueRecord)
-    // Offset: 0x11E7B04
-    GlyphValueRecord_Legacy(UnityEngine::TextCore::LowLevel::GlyphValueRecord valueRecord);
+    // Offset: 0x123E274
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    GlyphValueRecord_Legacy(UnityEngine::TextCore::LowLevel::GlyphValueRecord valueRecord) {
+      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::GlyphValueRecord_Legacy::.ctor");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(valueRecord)})));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, valueRecord);
+    }
   }; // TMPro.GlyphValueRecord_Legacy
   #pragma pack(pop)
   static check_size<sizeof(GlyphValueRecord_Legacy), 12 + sizeof(float)> __TMPro_GlyphValueRecord_LegacySizeCheck;
   static_assert(sizeof(GlyphValueRecord_Legacy) == 0x10);
   // static public TMPro.GlyphValueRecord_Legacy op_Addition(TMPro.GlyphValueRecord_Legacy a, TMPro.GlyphValueRecord_Legacy b)
-  // Offset: 0x11E7B70
+  // Offset: 0x123E2E0
   TMPro::GlyphValueRecord_Legacy operator+(const TMPro::GlyphValueRecord_Legacy& a, const TMPro::GlyphValueRecord_Legacy& b);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::GlyphValueRecord_Legacy, "TMPro", "GlyphValueRecord_Legacy");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::GlyphValueRecord_Legacy::GlyphValueRecord_Legacy
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

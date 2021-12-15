@@ -3,7 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
@@ -12,13 +12,6 @@
 namespace OVR::OpenVR {
 }
 // Completed forward declares
-// Type namespace: OVR.OpenVR
-namespace OVR::OpenVR {
-  // Forward declaring type: IVRSpatialAnchors
-  struct IVRSpatialAnchors;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRSpatialAnchors, "OVR.OpenVR", "IVRSpatialAnchors");
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
   // Size: 0x20
@@ -36,11 +29,6 @@ namespace OVR::OpenVR {
     class _GetSpatialAnchorPose;
     // Nested type: OVR::OpenVR::IVRSpatialAnchors::_GetSpatialAnchorDescriptor
     class _GetSpatialAnchorDescriptor;
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // OVR.OpenVR.IVRSpatialAnchors/OVR.OpenVR._CreateSpatialAnchorFromDescriptor CreateSpatialAnchorFromDescriptor
     // Size: 0x8
     // Offset: 0x0
@@ -65,7 +53,6 @@ namespace OVR::OpenVR {
     OVR::OpenVR::IVRSpatialAnchors::_GetSpatialAnchorDescriptor* GetSpatialAnchorDescriptor;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::IVRSpatialAnchors::_GetSpatialAnchorDescriptor*) == 0x8);
-    public:
     // Creating value type constructor for type: IVRSpatialAnchors
     constexpr IVRSpatialAnchors(OVR::OpenVR::IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor* CreateSpatialAnchorFromDescriptor_ = {}, OVR::OpenVR::IVRSpatialAnchors::_CreateSpatialAnchorFromPose* CreateSpatialAnchorFromPose_ = {}, OVR::OpenVR::IVRSpatialAnchors::_GetSpatialAnchorPose* GetSpatialAnchorPose_ = {}, OVR::OpenVR::IVRSpatialAnchors::_GetSpatialAnchorDescriptor* GetSpatialAnchorDescriptor_ = {}) noexcept : CreateSpatialAnchorFromDescriptor{CreateSpatialAnchorFromDescriptor_}, CreateSpatialAnchorFromPose{CreateSpatialAnchorFromPose_}, GetSpatialAnchorPose{GetSpatialAnchorPose_}, GetSpatialAnchorDescriptor{GetSpatialAnchorDescriptor_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -85,4 +72,6 @@ namespace OVR::OpenVR {
   static check_size<sizeof(IVRSpatialAnchors), 24 + sizeof(OVR::OpenVR::IVRSpatialAnchors::_GetSpatialAnchorDescriptor*)> __OVR_OpenVR_IVRSpatialAnchorsSizeCheck;
   static_assert(sizeof(IVRSpatialAnchors) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRSpatialAnchors, "OVR.OpenVR", "IVRSpatialAnchors");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

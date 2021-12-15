@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PersistentScriptableObject
 #include "GlobalNamespace/PersistentScriptableObject.hpp"
 // Including type: IAvatarPart
 #include "GlobalNamespace/IAvatarPart.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: AvatarPartSO`1<T>
-  template<typename T>
-  class AvatarPartSO_1;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::AvatarPartSO_1, "", "AvatarPartSO`1");
 // Type namespace: 
 namespace GlobalNamespace {
   // WARNING Size may be invalid!
@@ -30,30 +22,26 @@ namespace GlobalNamespace {
   template<typename T>
   class AvatarPartSO_1 : public GlobalNamespace::PersistentScriptableObject/*, public GlobalNamespace::IAvatarPart*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.String _id
     // Size: 0x8
     // Offset: 0x0
     ::Il2CppString* id;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [LocalizationKeyAttribute] Offset: 0xF03A64
+    // [LocalizationKeyAttribute] Offset: 0xF38CF8
     // private System.String _localizationKey
     // Size: 0x8
     // Offset: 0x0
     ::Il2CppString* localizationKey;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [NullAllowed] Offset: 0xF03A9C
+    // [NullAllowed] Offset: 0xF38D30
     // private T _partAsset
     // Size: 0xFFFFFFFF
     // Offset: 0x0
     T partAsset;
-    public:
+    // Creating value type constructor for type: AvatarPartSO_1
+    AvatarPartSO_1(::Il2CppString* id_ = {}, ::Il2CppString* localizationKey_ = {}, T partAsset_ = {}) noexcept : id{id_}, localizationKey{localizationKey_}, partAsset{partAsset_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IAvatarPart
     operator GlobalNamespace::IAvatarPart() noexcept {
       return *reinterpret_cast<GlobalNamespace::IAvatarPart*>(this);
@@ -89,28 +77,32 @@ namespace GlobalNamespace {
     T get_partAsset() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AvatarPartSO_1::get_partAsset");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_partAsset", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<T, false>(___instance_arg, ___internal__method);
     }
     // public System.String get_id()
     // Offset: 0xFFFFFFFF
     ::Il2CppString* get_id() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AvatarPartSO_1::get_id");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_id", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(this, ___internal__method);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(___instance_arg, ___internal__method);
     }
     // public System.String get_localizationKey()
     // Offset: 0xFFFFFFFF
     ::Il2CppString* get_localizationKey() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AvatarPartSO_1::get_localizationKey");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_localizationKey", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(this, ___internal__method);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(___instance_arg, ___internal__method);
     }
     // public System.String get_localizedName()
     // Offset: 0xFFFFFFFF
     ::Il2CppString* get_localizedName() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AvatarPartSO_1::get_localizedName");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_localizedName", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(this, ___internal__method);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(___instance_arg, ___internal__method);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
@@ -127,4 +119,5 @@ namespace GlobalNamespace {
   }; // AvatarPartSO`1
   // Could not write size check! Type: AvatarPartSO`1 is generic, or has no fields that are valid for size checks!
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::AvatarPartSO_1, "", "AvatarPartSO`1");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

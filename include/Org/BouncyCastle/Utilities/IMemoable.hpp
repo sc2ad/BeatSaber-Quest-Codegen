@@ -3,16 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: Org.BouncyCastle.Utilities
-namespace Org::BouncyCastle::Utilities {
-  // Forward declaring type: IMemoable
-  class IMemoable;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Utilities::IMemoable);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::IMemoable*, "Org.BouncyCastle.Utilities", "IMemoable");
 // Type namespace: Org.BouncyCastle.Utilities
 namespace Org::BouncyCastle::Utilities {
   // Size: 0x10
@@ -21,6 +13,8 @@ namespace Org::BouncyCastle::Utilities {
   // [TokenAttribute] Offset: FFFFFFFF
   class IMemoable {
     public:
+    // Creating value type constructor for type: IMemoable
+    IMemoable() noexcept {}
     // public Org.BouncyCastle.Utilities.IMemoable Copy()
     // Offset: 0xFFFFFFFF
     Org::BouncyCastle::Utilities::IMemoable* Copy();
@@ -30,7 +24,9 @@ namespace Org::BouncyCastle::Utilities {
   }; // Org.BouncyCastle.Utilities.IMemoable
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::IMemoable*, "Org.BouncyCastle.Utilities", "IMemoable");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::IMemoable::Copy
 // Il2CppName: Copy
 template<>

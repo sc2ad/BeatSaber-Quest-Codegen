@@ -3,16 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: Zenject
-namespace Zenject {
-  // Forward declaring type: IFixedTickable
-  class IFixedTickable;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::IFixedTickable);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::IFixedTickable*, "Zenject", "IFixedTickable");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x10
@@ -21,13 +13,17 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class IFixedTickable {
     public:
+    // Creating value type constructor for type: IFixedTickable
+    IFixedTickable() noexcept {}
     // public System.Void FixedTick()
     // Offset: 0xFFFFFFFF
     void FixedTick();
   }; // Zenject.IFixedTickable
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Zenject::IFixedTickable*, "Zenject", "IFixedTickable");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::IFixedTickable::FixedTick
 // Il2CppName: FixedTick
 template<>

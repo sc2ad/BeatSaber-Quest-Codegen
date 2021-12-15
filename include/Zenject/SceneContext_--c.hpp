@@ -3,16 +3,16 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.SceneContext
 #include "Zenject/SceneContext.hpp"
 // Including type: UnityEngine.SceneManagement.Scene
 #include "UnityEngine/SceneManagement/Scene.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -38,16 +38,10 @@ namespace Zenject {
   class DiContainer;
   // Forward declaring type: SceneDecoratorContext
   class SceneDecoratorContext;
+  // Forward declaring type: InjectTypeInfo
+  class InjectTypeInfo;
 }
 // Completed forward declares
-// Type namespace: Zenject
-namespace Zenject {
-  // Forward declaring type: <>c
-  class $$c;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::SceneContext::$$c);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::SceneContext::$$c*, "Zenject", "SceneContext/<>c");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x10
@@ -57,6 +51,8 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class SceneContext::$$c : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: $$c
+    $$c() noexcept {}
     // Get static field: static public readonly Zenject.SceneContext/Zenject.<>c <>9
     static Zenject::SceneContext::$$c* _get_$$9();
     // Set static field: static public readonly Zenject.SceneContext/Zenject.<>c <>9
@@ -82,25 +78,31 @@ namespace Zenject {
     // Set static field: static public System.Func`2<UnityEngine.GameObject,System.Collections.Generic.IEnumerable`1<Zenject.SceneDecoratorContext>> <>9__50_1
     static void _set_$$9__50_1(System::Func_2<UnityEngine::GameObject*, System::Collections::Generic::IEnumerable_1<Zenject::SceneDecoratorContext*>*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1884E58
+    // Offset: 0x18E6B30
     static void _cctor();
     // System.Collections.Generic.IEnumerable`1<UnityEngine.GameObject> <GetParentContainers>b__49_0(UnityEngine.SceneManagement.Scene scene)
-    // Offset: 0x1884EC4
+    // Offset: 0x18E6B9C
     System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>* $GetParentContainers$b__49_0(UnityEngine::SceneManagement::Scene scene);
     // System.Collections.Generic.IEnumerable`1<Zenject.SceneContext> <GetParentContainers>b__49_1(UnityEngine.GameObject root)
-    // Offset: 0x1884EEC
+    // Offset: 0x18E6BC4
     System::Collections::Generic::IEnumerable_1<Zenject::SceneContext*>* $GetParentContainers$b__49_1(UnityEngine::GameObject* root);
     // Zenject.DiContainer <GetParentContainers>b__49_3(Zenject.SceneContext x)
-    // Offset: 0x1884F44
+    // Offset: 0x18E6C1C
     Zenject::DiContainer* $GetParentContainers$b__49_3(Zenject::SceneContext* x);
     // System.Collections.Generic.IEnumerable`1<UnityEngine.GameObject> <LookupDecoratorContexts>b__50_0(UnityEngine.SceneManagement.Scene scene)
-    // Offset: 0x1884F64
+    // Offset: 0x18E6C3C
     System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>* $LookupDecoratorContexts$b__50_0(UnityEngine::SceneManagement::Scene scene);
     // System.Collections.Generic.IEnumerable`1<Zenject.SceneDecoratorContext> <LookupDecoratorContexts>b__50_1(UnityEngine.GameObject root)
-    // Offset: 0x1884F8C
+    // Offset: 0x18E6C64
     System::Collections::Generic::IEnumerable_1<Zenject::SceneDecoratorContext*>* $LookupDecoratorContexts$b__50_1(UnityEngine::GameObject* root);
+    // static private System.Object __zenCreate(System.Object[] P_0)
+    // Offset: 0x18E6CBC
+    static ::Il2CppObject* __zenCreate(::Array<::Il2CppObject*>* P_0);
+    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
+    // Offset: 0x18E6D18
+    static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
-    // Offset: 0x1884EBC
+    // Offset: 0x18E6B94
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -111,7 +113,8 @@ namespace Zenject {
   }; // Zenject.SceneContext/Zenject.<>c
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Zenject::SceneContext::$$c*, "Zenject", "SceneContext/<>c");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::SceneContext::$$c::_cctor
 // Il2CppName: .cctor
 template<>
@@ -163,6 +166,23 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
   static const MethodInfo* get() {
     static auto* root = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::SceneContext::$$c*), "<LookupDecoratorContexts>b__50_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{root});
+  }
+};
+// Writing MetadataGetter for method: Zenject::SceneContext::$$c::__zenCreate
+// Il2CppName: __zenCreate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Array<::Il2CppObject*>*)>(&Zenject::SceneContext::$$c::__zenCreate)> {
+  static const MethodInfo* get() {
+    static auto* P_0 = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::SceneContext::$$c*), "__zenCreate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{P_0});
+  }
+};
+// Writing MetadataGetter for method: Zenject::SceneContext::$$c::__zenCreateInjectTypeInfo
+// Il2CppName: __zenCreateInjectTypeInfo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo* (*)()>(&Zenject::SceneContext::$$c::__zenCreateInjectTypeInfo)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::SceneContext::$$c*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: Zenject::SceneContext::$$c::New_ctor

@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: SteamVR_Events
 #include "GlobalNamespace/SteamVR_Events.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: Action
-  class Action;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::SteamVR_Events::Action);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Events::Action*, "", "SteamVR_Events/Action");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -28,14 +20,16 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SteamVR_Events::Action : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: Action
+    Action() noexcept {}
     // public System.Void set_enabled(System.Boolean value)
-    // Offset: 0x151FBB0
+    // Offset: 0x15B8F9C
     void set_enabled(bool value);
     // public System.Void Enable(System.Boolean enabled)
     // Offset: 0xFFFFFFFF
     void Enable(bool enabled);
     // protected System.Void .ctor()
-    // Offset: 0x1521440
+    // Offset: 0x15BA82C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -46,7 +40,8 @@ namespace GlobalNamespace {
   }; // SteamVR_Events/Action
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Events::Action*, "", "SteamVR_Events/Action");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Events::Action::set_enabled
 // Il2CppName: set_enabled
 template<>

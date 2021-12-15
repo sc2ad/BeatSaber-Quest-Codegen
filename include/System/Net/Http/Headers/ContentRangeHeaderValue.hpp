@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ICloneable
 #include "System/ICloneable.hpp"
 // Including type: System.Nullable`1
 #include "System/Nullable_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Net.Http.Headers
-namespace System::Net::Http::Headers {
-  // Forward declaring type: ContentRangeHeaderValue
-  class ContentRangeHeaderValue;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::Http::Headers::ContentRangeHeaderValue);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::ContentRangeHeaderValue*, "System.Net.Http.Headers", "ContentRangeHeaderValue");
 // Type namespace: System.Net.Http.Headers
 namespace System::Net::Http::Headers {
   // WARNING Size may be invalid!
@@ -29,11 +21,6 @@ namespace System::Net::Http::Headers {
   // [TokenAttribute] Offset: FFFFFFFF
   class ContentRangeHeaderValue : public ::Il2CppObject/*, public System::ICloneable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.String unit
     // Size: 0x8
     // Offset: 0x10
@@ -52,7 +39,8 @@ namespace System::Net::Http::Headers {
     // Size: 0xFFFFFFFF
     // Offset: 0x38
     System::Nullable_1<int64_t> To;
-    public:
+    // Creating value type constructor for type: ContentRangeHeaderValue
+    ContentRangeHeaderValue(::Il2CppString* unit_ = {}, System::Nullable_1<int64_t> From_ = {}, System::Nullable_1<int64_t> Length_ = {}, System::Nullable_1<int64_t> To_ = {}) noexcept : unit{unit_}, From{From_}, Length{Length_}, To{To_} {}
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);
@@ -66,34 +54,34 @@ namespace System::Net::Http::Headers {
     // Get instance field reference: private System.Nullable`1<System.Int64> <To>k__BackingField
     System::Nullable_1<int64_t>& dyn_$To$k__BackingField();
     // public System.Nullable`1<System.Int64> get_From()
-    // Offset: 0x17312F4
+    // Offset: 0x17BD530
     System::Nullable_1<int64_t> get_From();
     // private System.Void set_From(System.Nullable`1<System.Int64> value)
-    // Offset: 0x1731300
+    // Offset: 0x17BD53C
     void set_From(System::Nullable_1<int64_t> value);
     // public System.Nullable`1<System.Int64> get_Length()
-    // Offset: 0x1731308
+    // Offset: 0x17BD544
     System::Nullable_1<int64_t> get_Length();
     // private System.Void set_Length(System.Nullable`1<System.Int64> value)
-    // Offset: 0x1731314
+    // Offset: 0x17BD550
     void set_Length(System::Nullable_1<int64_t> value);
     // public System.Nullable`1<System.Int64> get_To()
-    // Offset: 0x173131C
+    // Offset: 0x17BD558
     System::Nullable_1<int64_t> get_To();
     // private System.Void set_To(System.Nullable`1<System.Int64> value)
-    // Offset: 0x1731328
+    // Offset: 0x17BD564
     void set_To(System::Nullable_1<int64_t> value);
     // public System.String get_Unit()
-    // Offset: 0x1731330
+    // Offset: 0x17BD56C
     ::Il2CppString* get_Unit();
     // private System.Object System.ICloneable.Clone()
-    // Offset: 0x1731338
+    // Offset: 0x17BD574
     ::Il2CppObject* System_ICloneable_Clone();
     // static public System.Boolean TryParse(System.String input, out System.Net.Http.Headers.ContentRangeHeaderValue parsedValue)
-    // Offset: 0x1731580
+    // Offset: 0x17BD7BC
     static bool TryParse(::Il2CppString* input, ByRef<System::Net::Http::Headers::ContentRangeHeaderValue*> parsedValue);
     // private System.Void .ctor()
-    // Offset: 0x173129C
+    // Offset: 0x17BD4D8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -102,24 +90,25 @@ namespace System::Net::Http::Headers {
       return THROW_UNLESS((::il2cpp_utils::New<ContentRangeHeaderValue*, creationType>()));
     }
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1731340
+    // Offset: 0x17BD57C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1731484
+    // Offset: 0x17BD6C0
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x1731AA4
+    // Offset: 0x17BDCE0
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.Net.Http.Headers.ContentRangeHeaderValue
   // WARNING Not writing size check since size may be invalid!
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::ContentRangeHeaderValue*, "System.Net.Http.Headers", "ContentRangeHeaderValue");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Http::Headers::ContentRangeHeaderValue::get_From
 // Il2CppName: get_From
 template<>

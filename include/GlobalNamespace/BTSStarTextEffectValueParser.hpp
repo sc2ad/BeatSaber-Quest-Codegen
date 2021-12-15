@@ -3,19 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Int32
 #include "System/Int32.hpp"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: BTSStarTextEffectValueParser
-  class BTSStarTextEffectValueParser;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BTSStarTextEffectValueParser);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSStarTextEffectValueParser*, "", "BTSStarTextEffectValueParser");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -24,6 +16,8 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BTSStarTextEffectValueParser : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: BTSStarTextEffectValueParser
+    BTSStarTextEffectValueParser() noexcept {}
     // static field const value: static private System.Int32 kTextMask
     static constexpr const int kTextMask = 255;
     // Get static field: static private System.Int32 kTextMask
@@ -49,18 +43,20 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kPositionBitOffset
     static void _set_kPositionBitOffset(int value);
     // static public System.Int32 GetTextId(System.Int32 value)
-    // Offset: 0x1236EC8
+    // Offset: 0x12C0AD4
     static int GetTextId(int value);
     // static public System.Int32 GetPositionId(System.Int32 value)
-    // Offset: 0x1236ED0
+    // Offset: 0x12C0ADC
     static int GetPositionId(int value);
     // static public System.Int32 MergeValuesIntoOneInt(System.Int32 textId, System.Int32 positionId)
-    // Offset: 0x1236ED8
+    // Offset: 0x12C0AE4
     static int MergeValuesIntoOneInt(int textId, int positionId);
   }; // BTSStarTextEffectValueParser
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSStarTextEffectValueParser*, "", "BTSStarTextEffectValueParser");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BTSStarTextEffectValueParser::GetTextId
 // Il2CppName: GetTextId
 template<>

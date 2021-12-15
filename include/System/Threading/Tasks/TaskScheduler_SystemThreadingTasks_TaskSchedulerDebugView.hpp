@@ -3,19 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Threading.Tasks.TaskScheduler
 #include "System/Threading/Tasks/TaskScheduler.hpp"
 // Completed includes
-// Type namespace: System.Threading.Tasks
-namespace System::Threading::Tasks {
-  // Forward declaring type: SystemThreadingTasks_TaskSchedulerDebugView
-  class SystemThreadingTasks_TaskSchedulerDebugView;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Threading::Tasks::TaskScheduler::SystemThreadingTasks_TaskSchedulerDebugView);
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskScheduler::SystemThreadingTasks_TaskSchedulerDebugView*, "System.Threading.Tasks", "TaskScheduler/SystemThreadingTasks_TaskSchedulerDebugView");
 // Type namespace: System.Threading.Tasks
 namespace System::Threading::Tasks {
   // Size: 0x10
@@ -24,7 +16,11 @@ namespace System::Threading::Tasks {
   // [TokenAttribute] Offset: FFFFFFFF
   class TaskScheduler::SystemThreadingTasks_TaskSchedulerDebugView : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: SystemThreadingTasks_TaskSchedulerDebugView
+    SystemThreadingTasks_TaskSchedulerDebugView() noexcept {}
   }; // System.Threading.Tasks.TaskScheduler/System.Threading.Tasks.SystemThreadingTasks_TaskSchedulerDebugView
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskScheduler::SystemThreadingTasks_TaskSchedulerDebugView*, "System.Threading.Tasks", "TaskScheduler/SystemThreadingTasks_TaskSchedulerDebugView");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

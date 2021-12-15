@@ -3,19 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.EventArgs
 #include "System/EventArgs.hpp"
 // Completed includes
-// Type namespace: System.Runtime.ExceptionServices
-namespace System::Runtime::ExceptionServices {
-  // Forward declaring type: FirstChanceExceptionEventArgs
-  class FirstChanceExceptionEventArgs;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::ExceptionServices::FirstChanceExceptionEventArgs);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::ExceptionServices::FirstChanceExceptionEventArgs*, "System.Runtime.ExceptionServices", "FirstChanceExceptionEventArgs");
 // Type namespace: System.Runtime.ExceptionServices
 namespace System::Runtime::ExceptionServices {
   // Size: 0x10
@@ -24,7 +16,11 @@ namespace System::Runtime::ExceptionServices {
   // [TokenAttribute] Offset: FFFFFFFF
   class FirstChanceExceptionEventArgs : public System::EventArgs {
     public:
+    // Creating value type constructor for type: FirstChanceExceptionEventArgs
+    FirstChanceExceptionEventArgs() noexcept {}
   }; // System.Runtime.ExceptionServices.FirstChanceExceptionEventArgs
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::ExceptionServices::FirstChanceExceptionEventArgs*, "System.Runtime.ExceptionServices", "FirstChanceExceptionEventArgs");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

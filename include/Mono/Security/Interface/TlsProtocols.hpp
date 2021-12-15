@@ -3,18 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: Mono.Security.Interface
-namespace Mono::Security::Interface {
-  // Forward declaring type: TlsProtocols
-  struct TlsProtocols;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::TlsProtocols, "Mono.Security.Interface", "TlsProtocols");
 // Type namespace: Mono.Security.Interface
 namespace Mono::Security::Interface {
   // Size: 0x4
@@ -24,18 +17,12 @@ namespace Mono::Security::Interface {
   // [FlagsAttribute] Offset: FFFFFFFF
   struct TlsProtocols/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: TlsProtocols
     constexpr TlsProtocols(int value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -125,4 +112,6 @@ namespace Mono::Security::Interface {
   static check_size<sizeof(TlsProtocols), 0 + sizeof(int)> __Mono_Security_Interface_TlsProtocolsSizeCheck;
   static_assert(sizeof(TlsProtocols) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::TlsProtocols, "Mono.Security.Interface", "TlsProtocols");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

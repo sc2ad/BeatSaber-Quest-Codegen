@@ -3,18 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: System.Threading
-namespace System::Threading {
-  // Forward declaring type: LockRecursionPolicy
-  struct LockRecursionPolicy;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::LockRecursionPolicy, "System.Threading", "LockRecursionPolicy");
 // Type namespace: System.Threading
 namespace System::Threading {
   // Size: 0x4
@@ -23,18 +16,12 @@ namespace System::Threading {
   // [TokenAttribute] Offset: FFFFFFFF
   struct LockRecursionPolicy/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: LockRecursionPolicy
     constexpr LockRecursionPolicy(int value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -64,4 +51,6 @@ namespace System::Threading {
   static check_size<sizeof(LockRecursionPolicy), 0 + sizeof(int)> __System_Threading_LockRecursionPolicySizeCheck;
   static_assert(sizeof(LockRecursionPolicy) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::LockRecursionPolicy, "System.Threading", "LockRecursionPolicy");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

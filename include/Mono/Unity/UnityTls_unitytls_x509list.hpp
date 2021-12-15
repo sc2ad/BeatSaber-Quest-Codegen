@@ -3,20 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Mono.Unity.UnityTls
 #include "Mono/Unity/UnityTls.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-// Type namespace: Mono.Unity
-namespace Mono::Unity {
-  // Forward declaring type: unitytls_x509list
-  struct unitytls_x509list;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTls::unitytls_x509list, "Mono.Unity", "UnityTls/unitytls_x509list");
 // Type namespace: Mono.Unity
 namespace Mono::Unity {
   // Size: 0x0
@@ -35,4 +28,6 @@ namespace Mono::Unity {
   }; // Mono.Unity.UnityTls/Mono.Unity.unitytls_x509list
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTls::unitytls_x509list, "Mono.Unity", "UnityTls/unitytls_x509list");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

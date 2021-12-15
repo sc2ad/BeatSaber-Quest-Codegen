@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Security.Principal.GenericIdentity
 #include "System/Security/Principal/GenericIdentity.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Net
-namespace System::Net {
-  // Forward declaring type: HttpListenerBasicIdentity
-  class HttpListenerBasicIdentity;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::HttpListenerBasicIdentity);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpListenerBasicIdentity*, "System.Net", "HttpListenerBasicIdentity");
 // Type namespace: System.Net
 namespace System::Net {
   // Size: 0x90
@@ -28,18 +20,14 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class HttpListenerBasicIdentity : public System::Security::Principal::GenericIdentity {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.String password
     // Size: 0x8
     // Offset: 0x88
     ::Il2CppString* password;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: HttpListenerBasicIdentity
+    HttpListenerBasicIdentity(::Il2CppString* password_ = {}) noexcept : password{password_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return password;
@@ -47,7 +35,7 @@ namespace System::Net {
     // Get instance field reference: private System.String password
     ::Il2CppString*& dyn_password();
     // public System.Void .ctor(System.String username, System.String password)
-    // Offset: 0x18277DC
+    // Offset: 0x18AB81C
     // Implemented from: System.Security.Principal.GenericIdentity
     // Base method: System.Void GenericIdentity::.ctor(System.String username, System.String password)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -60,7 +48,8 @@ namespace System::Net {
   static check_size<sizeof(HttpListenerBasicIdentity), 136 + sizeof(::Il2CppString*)> __System_Net_HttpListenerBasicIdentitySizeCheck;
   static_assert(sizeof(HttpListenerBasicIdentity) == 0x90);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpListenerBasicIdentity*, "System.Net", "HttpListenerBasicIdentity");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::HttpListenerBasicIdentity::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

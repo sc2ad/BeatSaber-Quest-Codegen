@@ -3,24 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OnlineServices.API.HTTPAdminLeaderboardsHelper
 #include "OnlineServices/API/HTTPAdminLeaderboardsHelper.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: OnlineServices.API
-namespace OnlineServices::API {
-  // Forward declaring type: LeaderboardsIdsDto
-  class LeaderboardsIdsDto;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsIdsDto);
-DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsIdsDto*, "OnlineServices.API", "HTTPAdminLeaderboardsHelper/LeaderboardsIdsDto");
 // Type namespace: OnlineServices.API
 namespace OnlineServices::API {
   // Size: 0x18
@@ -29,26 +20,22 @@ namespace OnlineServices::API {
   // [TokenAttribute] Offset: FFFFFFFF
   class HTTPAdminLeaderboardsHelper::LeaderboardsIdsDto : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.String[] leaderboardsIds
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<::Il2CppString*> leaderboardsIds;
+    ::Array<::Il2CppString*>* leaderboardsIds;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
-    public:
-    // Creating conversion operator: operator ::ArrayW<::Il2CppString*>
-    constexpr operator ::ArrayW<::Il2CppString*>() const noexcept {
+    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    // Creating value type constructor for type: LeaderboardsIdsDto
+    LeaderboardsIdsDto(::Array<::Il2CppString*>* leaderboardsIds_ = {}) noexcept : leaderboardsIds{leaderboardsIds_} {}
+    // Creating conversion operator: operator ::Array<::Il2CppString*>*
+    constexpr operator ::Array<::Il2CppString*>*() const noexcept {
       return leaderboardsIds;
     }
     // Get instance field reference: public System.String[] leaderboardsIds
-    ::ArrayW<::Il2CppString*>& dyn_leaderboardsIds();
+    ::Array<::Il2CppString*>*& dyn_leaderboardsIds();
     // public System.Void .ctor()
-    // Offset: 0x1103328
+    // Offset: 0x1372718
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -58,10 +45,11 @@ namespace OnlineServices::API {
     }
   }; // OnlineServices.API.HTTPAdminLeaderboardsHelper/OnlineServices.API.LeaderboardsIdsDto
   #pragma pack(pop)
-  static check_size<sizeof(HTTPAdminLeaderboardsHelper::LeaderboardsIdsDto), 16 + sizeof(::ArrayW<::Il2CppString*>)> __OnlineServices_API_HTTPAdminLeaderboardsHelper_LeaderboardsIdsDtoSizeCheck;
+  static check_size<sizeof(HTTPAdminLeaderboardsHelper::LeaderboardsIdsDto), 16 + sizeof(::Array<::Il2CppString*>*)> __OnlineServices_API_HTTPAdminLeaderboardsHelper_LeaderboardsIdsDtoSizeCheck;
   static_assert(sizeof(HTTPAdminLeaderboardsHelper::LeaderboardsIdsDto) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsIdsDto*, "OnlineServices.API", "HTTPAdminLeaderboardsHelper/LeaderboardsIdsDto");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsIdsDto::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

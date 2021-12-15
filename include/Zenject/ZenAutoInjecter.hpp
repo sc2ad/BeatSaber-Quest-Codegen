@@ -3,16 +3,14 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
-// Including type: System.Enum
-#include "System/Enum.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Zenject
@@ -20,16 +18,10 @@ namespace Zenject {
   // Skipping declaration: ContainerSources because it is already included!
   // Forward declaring type: DiContainer
   class DiContainer;
+  // Forward declaring type: InjectTypeInfo
+  class InjectTypeInfo;
 }
 // Completed forward declares
-// Type namespace: Zenject
-namespace Zenject {
-  // Forward declaring type: ZenAutoInjecter
-  class ZenAutoInjecter;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::ZenAutoInjecter);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenAutoInjecter*, "Zenject", "ZenAutoInjecter");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x1D
@@ -46,18 +38,12 @@ namespace Zenject {
     // [TokenAttribute] Offset: FFFFFFFF
     struct ContainerSources/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: ContainerSources
       constexpr ContainerSources(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -92,11 +78,6 @@ namespace Zenject {
     #pragma pack(pop)
     static check_size<sizeof(ZenAutoInjecter::ContainerSources), 0 + sizeof(int)> __Zenject_ZenAutoInjecter_ContainerSourcesSizeCheck;
     static_assert(sizeof(ZenAutoInjecter::ContainerSources) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private Zenject.ZenAutoInjecter/Zenject.ContainerSources _containerSource
     // Size: 0x4
     // Offset: 0x18
@@ -109,7 +90,8 @@ namespace Zenject {
     bool hasInjected;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: ZenAutoInjecter
+    ZenAutoInjecter(Zenject::ZenAutoInjecter::ContainerSources containerSource_ = {}, bool hasInjected_ = {}) noexcept : containerSource{containerSource_}, hasInjected{hasInjected_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private Zenject.ZenAutoInjecter/Zenject.ContainerSources _containerSource
@@ -117,25 +99,31 @@ namespace Zenject {
     // Get instance field reference: private System.Boolean _hasInjected
     bool& dyn__hasInjected();
     // public Zenject.ZenAutoInjecter/Zenject.ContainerSources get_ContainerSource()
-    // Offset: 0x25D5A7C
+    // Offset: 0x219C0D0
     Zenject::ZenAutoInjecter::ContainerSources get_ContainerSource();
     // public System.Void set_ContainerSource(Zenject.ZenAutoInjecter/Zenject.ContainerSources value)
-    // Offset: 0x25D5A84
+    // Offset: 0x219C0D8
     void set_ContainerSource(Zenject::ZenAutoInjecter::ContainerSources value);
     // public System.Void Construct()
-    // Offset: 0x25D5A8C
+    // Offset: 0x219C0E0
     void Construct();
     // public System.Void Awake()
-    // Offset: 0x25D5AF8
+    // Offset: 0x219C14C
     void Awake();
     // private Zenject.DiContainer LookupContainer()
-    // Offset: 0x25D5B44
+    // Offset: 0x219C198
     Zenject::DiContainer* LookupContainer();
     // private Zenject.DiContainer GetContainerForCurrentScene()
-    // Offset: 0x25D5C94
+    // Offset: 0x219C2E8
     Zenject::DiContainer* GetContainerForCurrentScene();
+    // static private System.Void __zenInjectMethod0(System.Object P_0, System.Object[] P_1)
+    // Offset: 0x219C394
+    static void __zenInjectMethod0(::Il2CppObject* P_0, ::Array<::Il2CppObject*>* P_1);
+    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
+    // Offset: 0x219C41C
+    static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
-    // Offset: 0x25D5D30
+    // Offset: 0x219C384
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -152,9 +140,9 @@ namespace Zenject {
   static check_size<sizeof(ZenAutoInjecter), 28 + sizeof(bool)> __Zenject_ZenAutoInjecterSizeCheck;
   static_assert(sizeof(ZenAutoInjecter) == 0x1D);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenAutoInjecter*, "Zenject", "ZenAutoInjecter");
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenAutoInjecter::ContainerSources, "Zenject", "ZenAutoInjecter/ContainerSources");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::ZenAutoInjecter::get_ContainerSource
 // Il2CppName: get_ContainerSource
 template<>
@@ -202,6 +190,24 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::DiContainer* (Zenject::ZenAutoInjecter::*)()>(&Zenject::ZenAutoInjecter::GetContainerForCurrentScene)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::ZenAutoInjecter*), "GetContainerForCurrentScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Zenject::ZenAutoInjecter::__zenInjectMethod0
+// Il2CppName: __zenInjectMethod0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::Array<::Il2CppObject*>*)>(&Zenject::ZenAutoInjecter::__zenInjectMethod0)> {
+  static const MethodInfo* get() {
+    static auto* P_0 = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    static auto* P_1 = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenAutoInjecter*), "__zenInjectMethod0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{P_0, P_1});
+  }
+};
+// Writing MetadataGetter for method: Zenject::ZenAutoInjecter::__zenCreateInjectTypeInfo
+// Il2CppName: __zenCreateInjectTypeInfo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo* (*)()>(&Zenject::ZenAutoInjecter::__zenCreateInjectTypeInfo)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenAutoInjecter*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: Zenject::ZenAutoInjecter::New_ctor

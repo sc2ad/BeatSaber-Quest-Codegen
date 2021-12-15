@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: StandardLevelInfoSaveData_V100
 #include "GlobalNamespace/StandardLevelInfoSaveData_V100.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: VersionCheck
-  class VersionCheck;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::StandardLevelInfoSaveData_V100::VersionCheck);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelInfoSaveData_V100::VersionCheck*, "", "StandardLevelInfoSaveData_V100/VersionCheck");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x18
@@ -28,18 +20,14 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class StandardLevelInfoSaveData_V100::VersionCheck : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.String _version
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppString* version;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: VersionCheck
+    VersionCheck(::Il2CppString* version_ = {}) noexcept : version{version_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return version;
@@ -47,10 +35,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String _version
     ::Il2CppString*& dyn__version();
     // public System.String get_version()
-    // Offset: 0x1154E74
+    // Offset: 0x1223084
     ::Il2CppString* get_version();
     // public System.Void .ctor()
-    // Offset: 0x1154E7C
+    // Offset: 0x122308C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -63,7 +51,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(StandardLevelInfoSaveData_V100::VersionCheck), 16 + sizeof(::Il2CppString*)> __GlobalNamespace_StandardLevelInfoSaveData_V100_VersionCheckSizeCheck;
   static_assert(sizeof(StandardLevelInfoSaveData_V100::VersionCheck) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelInfoSaveData_V100::VersionCheck*, "", "StandardLevelInfoSaveData_V100/VersionCheck");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelInfoSaveData_V100::VersionCheck::get_version
 // Il2CppName: get_version
 template<>

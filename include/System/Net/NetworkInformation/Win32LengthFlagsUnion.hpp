@@ -3,17 +3,10 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-// Type namespace: System.Net.NetworkInformation
-namespace System::Net::NetworkInformation {
-  // Forward declaring type: Win32LengthFlagsUnion
-  struct Win32LengthFlagsUnion;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32LengthFlagsUnion, "System.Net.NetworkInformation", "Win32LengthFlagsUnion");
 // Type namespace: System.Net.NetworkInformation
 namespace System::Net::NetworkInformation {
   // Size: 0x8
@@ -23,11 +16,6 @@ namespace System::Net::NetworkInformation {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Win32LengthFlagsUnion/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.UInt32 Length
     // Size: 0x4
     // Offset: 0x0
@@ -40,7 +28,6 @@ namespace System::Net::NetworkInformation {
     uint Flags;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
-    public:
     // Creating value type constructor for type: Win32LengthFlagsUnion
     constexpr Win32LengthFlagsUnion(uint Length_ = {}, uint Flags_ = {}) noexcept : Length{Length_}, Flags{Flags_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -56,4 +43,6 @@ namespace System::Net::NetworkInformation {
   static check_size<sizeof(Win32LengthFlagsUnion), 4 + sizeof(uint)> __System_Net_NetworkInformation_Win32LengthFlagsUnionSizeCheck;
   static_assert(sizeof(Win32LengthFlagsUnion) == 0x8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32LengthFlagsUnion, "System.Net.NetworkInformation", "Win32LengthFlagsUnion");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

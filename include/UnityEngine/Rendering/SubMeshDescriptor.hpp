@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: UnityEngine.Bounds
@@ -14,13 +14,6 @@
 // Completed includes
 // Type namespace: UnityEngine.Rendering
 namespace UnityEngine::Rendering {
-  // Forward declaring type: SubMeshDescriptor
-  struct SubMeshDescriptor;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::SubMeshDescriptor, "UnityEngine.Rendering", "SubMeshDescriptor");
-// Type namespace: UnityEngine.Rendering
-namespace UnityEngine::Rendering {
   // Size: 0x30
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -28,61 +21,55 @@ namespace UnityEngine::Rendering {
   // [TokenAttribute] Offset: FFFFFFFF
   struct SubMeshDescriptor/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
-    // [DebuggerBrowsableAttribute] Offset: 0xE79874
+    // [DebuggerBrowsableAttribute] Offset: 0xEB9480
     // private UnityEngine.Bounds <bounds>k__BackingField
     // Size: 0x18
     // Offset: 0x0
     UnityEngine::Bounds bounds;
     // Field size check
     static_assert(sizeof(UnityEngine::Bounds) == 0x18);
-    // [DebuggerBrowsableAttribute] Offset: 0xE798B0
+    // [DebuggerBrowsableAttribute] Offset: 0xEB94BC
     // private UnityEngine.MeshTopology <topology>k__BackingField
     // Size: 0x4
     // Offset: 0x18
     UnityEngine::MeshTopology topology;
     // Field size check
     static_assert(sizeof(UnityEngine::MeshTopology) == 0x4);
-    // [DebuggerBrowsableAttribute] Offset: 0xE798EC
+    // [DebuggerBrowsableAttribute] Offset: 0xEB94F8
     // private System.Int32 <indexStart>k__BackingField
     // Size: 0x4
     // Offset: 0x1C
     int indexStart;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [DebuggerBrowsableAttribute] Offset: 0xE79928
+    // [DebuggerBrowsableAttribute] Offset: 0xEB9534
     // private System.Int32 <indexCount>k__BackingField
     // Size: 0x4
     // Offset: 0x20
     int indexCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [DebuggerBrowsableAttribute] Offset: 0xE79964
+    // [DebuggerBrowsableAttribute] Offset: 0xEB9570
     // private System.Int32 <baseVertex>k__BackingField
     // Size: 0x4
     // Offset: 0x24
     int baseVertex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [DebuggerBrowsableAttribute] Offset: 0xE799A0
+    // [DebuggerBrowsableAttribute] Offset: 0xEB95AC
     // private System.Int32 <firstVertex>k__BackingField
     // Size: 0x4
     // Offset: 0x28
     int firstVertex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [DebuggerBrowsableAttribute] Offset: 0xE799DC
+    // [DebuggerBrowsableAttribute] Offset: 0xEB95E8
     // private System.Int32 <vertexCount>k__BackingField
     // Size: 0x4
     // Offset: 0x2C
     int vertexCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: SubMeshDescriptor
     constexpr SubMeshDescriptor(UnityEngine::Bounds bounds_ = {}, UnityEngine::MeshTopology topology_ = {}, int indexStart_ = {}, int indexCount_ = {}, int baseVertex_ = {}, int firstVertex_ = {}, int vertexCount_ = {}) noexcept : bounds{bounds_}, topology{topology_}, indexStart{indexStart_}, indexCount{indexCount_}, baseVertex{baseVertex_}, firstVertex{firstVertex_}, vertexCount{vertexCount_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -104,28 +91,28 @@ namespace UnityEngine::Rendering {
     // Get instance field reference: private System.Int32 <vertexCount>k__BackingField
     int& dyn_$vertexCount$k__BackingField();
     // public UnityEngine.Bounds get_bounds()
-    // Offset: 0x1DF10D0
+    // Offset: 0x1DFB4D4
     UnityEngine::Bounds get_bounds();
     // public UnityEngine.MeshTopology get_topology()
-    // Offset: 0x1DF10E4
+    // Offset: 0x1DFB4E8
     UnityEngine::MeshTopology get_topology();
     // public System.Int32 get_indexStart()
-    // Offset: 0x1DF10EC
+    // Offset: 0x1DFB4F0
     int get_indexStart();
     // public System.Int32 get_indexCount()
-    // Offset: 0x1DF10F4
+    // Offset: 0x1DFB4F8
     int get_indexCount();
     // public System.Int32 get_baseVertex()
-    // Offset: 0x1DF10FC
+    // Offset: 0x1DFB500
     int get_baseVertex();
     // public System.Int32 get_firstVertex()
-    // Offset: 0x1DF1104
+    // Offset: 0x1DFB508
     int get_firstVertex();
     // public System.Int32 get_vertexCount()
-    // Offset: 0x1DF110C
+    // Offset: 0x1DFB510
     int get_vertexCount();
     // public override System.String ToString()
-    // Offset: 0x1DF1114
+    // Offset: 0x1DFB518
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
@@ -134,7 +121,9 @@ namespace UnityEngine::Rendering {
   static check_size<sizeof(SubMeshDescriptor), 44 + sizeof(int)> __UnityEngine_Rendering_SubMeshDescriptorSizeCheck;
   static_assert(sizeof(SubMeshDescriptor) == 0x30);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::SubMeshDescriptor, "UnityEngine.Rendering", "SubMeshDescriptor");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Rendering::SubMeshDescriptor::get_bounds
 // Il2CppName: get_bounds
 template<>

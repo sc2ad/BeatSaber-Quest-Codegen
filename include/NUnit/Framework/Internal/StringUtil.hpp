@@ -3,17 +3,9 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: NUnit.Framework.Internal
-namespace NUnit::Framework::Internal {
-  // Forward declaring type: StringUtil
-  class StringUtil;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(NUnit::Framework::Internal::StringUtil);
-DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::StringUtil*, "NUnit.Framework.Internal", "StringUtil");
 // Type namespace: NUnit.Framework.Internal
 namespace NUnit::Framework::Internal {
   // Size: 0x10
@@ -22,16 +14,20 @@ namespace NUnit::Framework::Internal {
   // [TokenAttribute] Offset: FFFFFFFF
   class StringUtil : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: StringUtil
+    StringUtil() noexcept {}
     // static public System.Int32 Compare(System.String strA, System.String strB, System.Boolean ignoreCase)
-    // Offset: 0x2486B14
+    // Offset: 0x2553AC0
     static int Compare(::Il2CppString* strA, ::Il2CppString* strB, bool ignoreCase);
     // static public System.Boolean StringsEqual(System.String strA, System.String strB, System.Boolean ignoreCase)
-    // Offset: 0x2486B20
+    // Offset: 0x2553ACC
     static bool StringsEqual(::Il2CppString* strA, ::Il2CppString* strB, bool ignoreCase);
   }; // NUnit.Framework.Internal.StringUtil
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::StringUtil*, "NUnit.Framework.Internal", "StringUtil");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::StringUtil::Compare
 // Il2CppName: Compare
 template<>

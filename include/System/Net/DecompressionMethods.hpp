@@ -3,18 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: System.Net
-namespace System::Net {
-  // Forward declaring type: DecompressionMethods
-  struct DecompressionMethods;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Net::DecompressionMethods, "System.Net", "DecompressionMethods");
 // Type namespace: System.Net
 namespace System::Net {
   // Size: 0x4
@@ -24,18 +17,12 @@ namespace System::Net {
   // [FlagsAttribute] Offset: FFFFFFFF
   struct DecompressionMethods/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: DecompressionMethods
     constexpr DecompressionMethods(int value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -71,4 +58,6 @@ namespace System::Net {
   static check_size<sizeof(DecompressionMethods), 0 + sizeof(int)> __System_Net_DecompressionMethodsSizeCheck;
   static_assert(sizeof(DecompressionMethods) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::DecompressionMethods, "System.Net", "DecompressionMethods");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

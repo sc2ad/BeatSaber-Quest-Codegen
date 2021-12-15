@@ -3,18 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: Valve.VR
-namespace Valve::VR {
-  // Forward declaring type: EVRFirmwareError
-  struct EVRFirmwareError;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::EVRFirmwareError, "Valve.VR", "EVRFirmwareError");
 // Type namespace: Valve.VR
 namespace Valve::VR {
   // Size: 0x4
@@ -23,18 +16,12 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct EVRFirmwareError/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: EVRFirmwareError
     constexpr EVRFirmwareError(int value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -70,4 +57,6 @@ namespace Valve::VR {
   static check_size<sizeof(EVRFirmwareError), 0 + sizeof(int)> __Valve_VR_EVRFirmwareErrorSizeCheck;
   static_assert(sizeof(EVRFirmwareError) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::EVRFirmwareError, "Valve.VR", "EVRFirmwareError");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

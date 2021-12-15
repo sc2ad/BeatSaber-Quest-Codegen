@@ -3,21 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: SliderState
-  class SliderState;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::SliderState);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SliderState*, "UnityEngine", "SliderState");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x19
@@ -26,11 +18,6 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class SliderState : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Single dragStartPos
     // Size: 0x4
     // Offset: 0x10
@@ -49,7 +36,8 @@ namespace UnityEngine {
     bool isDragging;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: SliderState
+    SliderState(float dragStartPos_ = {}, float dragStartValue_ = {}, bool isDragging_ = {}) noexcept : dragStartPos{dragStartPos_}, dragStartValue{dragStartValue_}, isDragging{isDragging_} {}
     // Get instance field reference: public System.Single dragStartPos
     float& dyn_dragStartPos();
     // Get instance field reference: public System.Single dragStartValue
@@ -57,7 +45,7 @@ namespace UnityEngine {
     // Get instance field reference: public System.Boolean isDragging
     bool& dyn_isDragging();
     // public System.Void .ctor()
-    // Offset: 0x1C88078
+    // Offset: 0x1CF7AE0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -70,7 +58,8 @@ namespace UnityEngine {
   static check_size<sizeof(SliderState), 24 + sizeof(bool)> __UnityEngine_SliderStateSizeCheck;
   static_assert(sizeof(SliderState) == 0x19);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SliderState*, "UnityEngine", "SliderState");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::SliderState::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

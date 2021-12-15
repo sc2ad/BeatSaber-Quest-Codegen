@@ -3,22 +3,21 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRPlugin
 #include "GlobalNamespace/OVRPlugin.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: OVRPlugin/Vector2f
 #include "GlobalNamespace/OVRPlugin_Vector2f.hpp"
+// Including type: OVRPlugin/ControllerState
+#include "GlobalNamespace/OVRPlugin_ControllerState.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: ControllerState2
-  struct ControllerState2;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::ControllerState2, "", "OVRPlugin/ControllerState2");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x40
@@ -28,11 +27,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct OVRPlugin::ControllerState2/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.UInt32 ConnectedControllers
     // Size: 0x4
     // Offset: 0x0
@@ -105,7 +99,6 @@ namespace GlobalNamespace {
     GlobalNamespace::OVRPlugin::Vector2f RTouchpad;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRPlugin::Vector2f) == 0x8);
-    public:
     // Creating value type constructor for type: ControllerState2
     constexpr ControllerState2(uint ConnectedControllers_ = {}, uint Buttons_ = {}, uint Touches_ = {}, uint NearTouches_ = {}, float LIndexTrigger_ = {}, float RIndexTrigger_ = {}, float LHandTrigger_ = {}, float RHandTrigger_ = {}, GlobalNamespace::OVRPlugin::Vector2f LThumbstick_ = {}, GlobalNamespace::OVRPlugin::Vector2f RThumbstick_ = {}, GlobalNamespace::OVRPlugin::Vector2f LTouchpad_ = {}, GlobalNamespace::OVRPlugin::Vector2f RTouchpad_ = {}) noexcept : ConnectedControllers{ConnectedControllers_}, Buttons{Buttons_}, Touches{Touches_}, NearTouches{NearTouches_}, LIndexTrigger{LIndexTrigger_}, RIndexTrigger{RIndexTrigger_}, LHandTrigger{LHandTrigger_}, RHandTrigger{RHandTrigger_}, LThumbstick{LThumbstick_}, RThumbstick{RThumbstick_}, LTouchpad{LTouchpad_}, RTouchpad{RTouchpad_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -137,14 +130,20 @@ namespace GlobalNamespace {
     // Get instance field reference: public OVRPlugin/Vector2f RTouchpad
     GlobalNamespace::OVRPlugin::Vector2f& dyn_RTouchpad();
     // public System.Void .ctor(OVRPlugin/ControllerState cs)
-    // Offset: 0x17E0998
-    ControllerState2(GlobalNamespace::OVRPlugin::ControllerState cs);
+    // Offset: 0x186F2AC
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    ControllerState2(GlobalNamespace::OVRPlugin::ControllerState cs) {
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::ControllerState2::.ctor");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(cs)})));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, cs);
+    }
   }; // OVRPlugin/ControllerState2
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::ControllerState2), 56 + sizeof(GlobalNamespace::OVRPlugin::Vector2f)> __GlobalNamespace_OVRPlugin_ControllerState2SizeCheck;
   static_assert(sizeof(OVRPlugin::ControllerState2) == 0x40);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::ControllerState2, "", "OVRPlugin/ControllerState2");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::ControllerState2::ControllerState2
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

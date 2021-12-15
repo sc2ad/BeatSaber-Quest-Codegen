@@ -3,29 +3,26 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.Byte
 #include "System/Byte.hpp"
+// Including type: UnityEngine.Vector3
+#include "UnityEngine/Vector3.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
-  // Forward declaring type: Vector3
-  struct Vector3;
   // Forward declaring type: Vector2
   struct Vector2;
 }
 // Completed forward declares
-// Type namespace: UnityEngine.ProBuilder
-namespace UnityEngine::ProBuilder {
-  // Forward declaring type: Vector2Mask
-  struct Vector2Mask;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Vector2Mask, "UnityEngine.ProBuilder", "Vector2Mask");
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {
   // Size: 0x1
@@ -35,18 +32,12 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Vector2Mask/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Byte m_Mask
     // Size: 0x1
     // Offset: 0x0
     uint8_t m_Mask;
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
-    public:
     // Creating value type constructor for type: Vector2Mask
     constexpr Vector2Mask(uint8_t m_Mask_ = {}) noexcept : m_Mask{m_Mask_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -76,38 +67,45 @@ namespace UnityEngine::ProBuilder {
     // Get instance field reference: private System.Byte m_Mask
     uint8_t& dyn_m_Mask();
     // public System.Single get_x()
-    // Offset: 0x24D9ED8
+    // Offset: 0x2585EAC
     float get_x();
     // public System.Single get_y()
-    // Offset: 0x24D9EF0
+    // Offset: 0x2585EC4
     float get_y();
     // public System.Void .ctor(UnityEngine.Vector3 v, System.Single epsilon)
-    // Offset: 0x24D9F08
-    Vector2Mask(UnityEngine::Vector3 v, float epsilon);
+    // Offset: 0x2585EDC
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    Vector2Mask(UnityEngine::Vector3 v, float epsilon) {
+      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Vector2Mask::.ctor");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(v), ::il2cpp_utils::ExtractType(epsilon)})));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, v, epsilon);
+    }
     // public System.Void .ctor(System.Byte mask)
-    // Offset: 0x24D9FD0
-    // ABORTED: conflicts with another method.  Vector2Mask(uint8_t mask);
+    // Offset: 0x2585FA4
+    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    // ABORTED: conflicts with another method.  Vector2Mask(uint8_t mask)
     // static private System.Void .cctor()
-    // Offset: 0x24DA124
+    // Offset: 0x25860F8
     static void _cctor();
   }; // UnityEngine.ProBuilder.Vector2Mask
   #pragma pack(pop)
   static check_size<sizeof(Vector2Mask), 0 + sizeof(uint8_t)> __UnityEngine_ProBuilder_Vector2MaskSizeCheck;
   static_assert(sizeof(Vector2Mask) == 0x1);
   // static public UnityEngine.ProBuilder.Vector2Mask op_BitwiseOr(UnityEngine.ProBuilder.Vector2Mask left, UnityEngine.ProBuilder.Vector2Mask right)
-  // Offset: 0x24DA0B0
+  // Offset: 0x2586084
   UnityEngine::ProBuilder::Vector2Mask operator|(const UnityEngine::ProBuilder::Vector2Mask& left, const UnityEngine::ProBuilder::Vector2Mask& right);
   // static public UnityEngine.ProBuilder.Vector2Mask op_BitwiseAnd(UnityEngine.ProBuilder.Vector2Mask left, UnityEngine.ProBuilder.Vector2Mask right)
-  // Offset: 0x24DA0BC
+  // Offset: 0x2586090
   UnityEngine::ProBuilder::Vector2Mask operator&(const UnityEngine::ProBuilder::Vector2Mask& left, const UnityEngine::ProBuilder::Vector2Mask& right);
   // static public UnityEngine.ProBuilder.Vector2Mask op_ExclusiveOr(UnityEngine.ProBuilder.Vector2Mask left, UnityEngine.ProBuilder.Vector2Mask right)
-  // Offset: 0x24DA0C8
+  // Offset: 0x258609C
   UnityEngine::ProBuilder::Vector2Mask operator^(const UnityEngine::ProBuilder::Vector2Mask& left, const UnityEngine::ProBuilder::Vector2Mask& right);
   // static public UnityEngine.Vector2 op_Multiply(UnityEngine.ProBuilder.Vector2Mask mask, System.Single value)
-  // Offset: 0x24DA0D4
+  // Offset: 0x25860A8
   UnityEngine::Vector2 operator*(const UnityEngine::ProBuilder::Vector2Mask& mask, const float& value);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Vector2Mask, "UnityEngine.ProBuilder", "Vector2Mask");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Vector2Mask::get_x
 // Il2CppName: get_x
 template<>

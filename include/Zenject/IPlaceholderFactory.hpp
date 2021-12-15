@@ -3,18 +3,10 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.IValidatable
 #include "Zenject/IValidatable.hpp"
 // Completed includes
-// Type namespace: Zenject
-namespace Zenject {
-  // Forward declaring type: IPlaceholderFactory
-  class IPlaceholderFactory;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::IPlaceholderFactory);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::IPlaceholderFactory*, "Zenject", "IPlaceholderFactory");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x10
@@ -23,6 +15,8 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class IPlaceholderFactory/*, public Zenject::IValidatable*/ {
     public:
+    // Creating value type constructor for type: IPlaceholderFactory
+    IPlaceholderFactory() noexcept {}
     // Creating interface conversion operator: operator Zenject::IValidatable
     operator Zenject::IValidatable() noexcept {
       return *reinterpret_cast<Zenject::IValidatable*>(this);
@@ -30,4 +24,6 @@ namespace Zenject {
   }; // Zenject.IPlaceholderFactory
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Zenject::IPlaceholderFactory*, "Zenject", "IPlaceholderFactory");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

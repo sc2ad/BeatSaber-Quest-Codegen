@@ -3,22 +3,14 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net::Http::Headers
 namespace System::Net::Http::Headers {
 }
 // Completed forward declares
-// Type namespace: System.Net.Http.Headers
-namespace System::Net::Http::Headers {
-  // Forward declaring type: Parser
-  class Parser;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::Http::Headers::Parser);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::Parser*, "System.Net.Http.Headers", "Parser");
 // Type namespace: System.Net.Http.Headers
 namespace System::Net::Http::Headers {
   // Size: 0x10
@@ -45,7 +37,11 @@ namespace System::Net::Http::Headers {
     class TimeSpanSeconds;
     // Nested type: System::Net::Http::Headers::Parser::Uri
     class Uri;
+    // Creating value type constructor for type: Parser
+    Parser() noexcept {}
   }; // System.Net.Http.Headers.Parser
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::Parser*, "System.Net.Http.Headers", "Parser");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

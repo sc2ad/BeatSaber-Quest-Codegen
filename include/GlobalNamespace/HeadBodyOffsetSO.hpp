@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PersistentScriptableObject
 #include "GlobalNamespace/PersistentScriptableObject.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: HeadBodyOffsetSO
-  class HeadBodyOffsetSO;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::HeadBodyOffsetSO);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HeadBodyOffsetSO*, "", "HeadBodyOffsetSO");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x28
@@ -28,11 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class HeadBodyOffsetSO : public GlobalNamespace::PersistentScriptableObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private UnityEngine.Vector3 _headNeckOffset
     // Size: 0xC
     // Offset: 0x18
@@ -45,7 +32,8 @@ namespace GlobalNamespace {
     float verticalOffset;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
+    // Creating value type constructor for type: HeadBodyOffsetSO
+    HeadBodyOffsetSO(UnityEngine::Vector3 headNeckOffset_ = {}, float verticalOffset_ = {}) noexcept : headNeckOffset{headNeckOffset_}, verticalOffset{verticalOffset_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Vector3 _headNeckOffset
@@ -53,13 +41,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _verticalOffset
     float& dyn__verticalOffset();
     // public UnityEngine.Vector3 get_headNeckOffset()
-    // Offset: 0x11D84D8
+    // Offset: 0x119C330
     UnityEngine::Vector3 get_headNeckOffset();
     // public System.Single get_verticalOffset()
-    // Offset: 0x11D84E4
+    // Offset: 0x119C33C
     float get_verticalOffset();
     // public System.Void .ctor()
-    // Offset: 0x11D84EC
+    // Offset: 0x119C344
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -75,7 +63,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(HeadBodyOffsetSO), 36 + sizeof(float)> __GlobalNamespace_HeadBodyOffsetSOSizeCheck;
   static_assert(sizeof(HeadBodyOffsetSO) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HeadBodyOffsetSO*, "", "HeadBodyOffsetSO");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HeadBodyOffsetSO::get_headNeckOffset
 // Il2CppName: get_headNeckOffset
 template<>

@@ -3,19 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Asn1.DerOutputStream
 #include "Org/BouncyCastle/Asn1/DerOutputStream.hpp"
 // Completed includes
-// Type namespace: Org.BouncyCastle.Asn1
-namespace Org::BouncyCastle::Asn1 {
-  // Forward declaring type: BerOutputStream
-  class BerOutputStream;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Asn1::BerOutputStream);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::BerOutputStream*, "Org.BouncyCastle.Asn1", "BerOutputStream");
 // Type namespace: Org.BouncyCastle.Asn1
 namespace Org::BouncyCastle::Asn1 {
   // Size: 0x30
@@ -24,7 +16,11 @@ namespace Org::BouncyCastle::Asn1 {
   // [TokenAttribute] Offset: FFFFFFFF
   class BerOutputStream : public Org::BouncyCastle::Asn1::DerOutputStream {
     public:
+    // Creating value type constructor for type: BerOutputStream
+    BerOutputStream() noexcept {}
   }; // Org.BouncyCastle.Asn1.BerOutputStream
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::BerOutputStream*, "Org.BouncyCastle.Asn1", "BerOutputStream");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

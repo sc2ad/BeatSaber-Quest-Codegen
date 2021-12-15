@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Oculus.Platform.Models
-namespace Oculus::Platform::Models {
-  // Forward declaring type: LanguagePackInfo
-  class LanguagePackInfo;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Models::LanguagePackInfo);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::LanguagePackInfo*, "Oculus.Platform.Models", "LanguagePackInfo");
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
   // Size: 0x28
@@ -28,11 +20,6 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class LanguagePackInfo : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public readonly System.String EnglishName
     // Size: 0x8
     // Offset: 0x10
@@ -51,7 +38,8 @@ namespace Oculus::Platform::Models {
     ::Il2CppString* Tag;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: LanguagePackInfo
+    LanguagePackInfo(::Il2CppString* EnglishName_ = {}, ::Il2CppString* NativeName_ = {}, ::Il2CppString* Tag_ = {}) noexcept : EnglishName{EnglishName_}, NativeName{NativeName_}, Tag{Tag_} {}
     // Get instance field reference: public readonly System.String EnglishName
     ::Il2CppString*& dyn_EnglishName();
     // Get instance field reference: public readonly System.String NativeName
@@ -59,7 +47,7 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly System.String Tag
     ::Il2CppString*& dyn_Tag();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x16A33E4
+    // Offset: 0x1760800
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LanguagePackInfo* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::LanguagePackInfo::.ctor");
@@ -70,7 +58,8 @@ namespace Oculus::Platform::Models {
   static check_size<sizeof(LanguagePackInfo), 32 + sizeof(::Il2CppString*)> __Oculus_Platform_Models_LanguagePackInfoSizeCheck;
   static_assert(sizeof(LanguagePackInfo) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::LanguagePackInfo*, "Oculus.Platform.Models", "LanguagePackInfo");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::LanguagePackInfo::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

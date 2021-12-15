@@ -3,16 +3,16 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: IOpenVRHaptics
 #include "GlobalNamespace/IOpenVRHaptics.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::XR
@@ -26,14 +26,6 @@ namespace System::Threading {
   class Thread;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: ThreadedOpenVrOpenVrHaptics
-  class ThreadedOpenVrOpenVrHaptics;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::ThreadedOpenVrOpenVrHaptics);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ThreadedOpenVrOpenVrHaptics*, "", "ThreadedOpenVrOpenVrHaptics");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x30
@@ -52,11 +44,6 @@ namespace GlobalNamespace {
     // [IsReadOnlyAttribute] Offset: FFFFFFFF
     struct OpenVrHapticData/*, public System::ValueType*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public readonly System.Single endTime
       // Size: 0x4
       // Offset: 0x0
@@ -69,7 +56,6 @@ namespace GlobalNamespace {
       float strength;
       // Field size check
       static_assert(sizeof(float) == 0x4);
-      public:
       // Creating value type constructor for type: OpenVrHapticData
       constexpr OpenVrHapticData(float endTime_ = {}, float strength_ = {}) noexcept : endTime{endTime_}, strength{strength_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -81,17 +67,13 @@ namespace GlobalNamespace {
       // Get instance field reference: public readonly System.Single strength
       float& dyn_strength();
       // public System.Void .ctor(System.Single endTime, System.Single strength)
-      // Offset: 0x257FC10
-      // ABORTED: conflicts with another method.  OpenVrHapticData(float endTime, float strength);
+      // Offset: 0x26414A8
+      // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+      // ABORTED: conflicts with another method.  OpenVrHapticData(float endTime, float strength)
     }; // ThreadedOpenVrOpenVrHaptics/OpenVrHapticData
     #pragma pack(pop)
     static check_size<sizeof(ThreadedOpenVrOpenVrHaptics::OpenVrHapticData), 4 + sizeof(float)> __GlobalNamespace_ThreadedOpenVrOpenVrHaptics_OpenVrHapticDataSizeCheck;
     static_assert(sizeof(ThreadedOpenVrOpenVrHaptics::OpenVrHapticData) == 0x8);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Single _currentTime
     // Size: 0x4
     // Offset: 0x10
@@ -118,7 +100,8 @@ namespace GlobalNamespace {
     GlobalNamespace::ThreadedOpenVrOpenVrHaptics::OpenVrHapticData rightHandHaptics;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ThreadedOpenVrOpenVrHaptics::OpenVrHapticData) == 0x8);
-    public:
+    // Creating value type constructor for type: ThreadedOpenVrOpenVrHaptics
+    ThreadedOpenVrOpenVrHaptics(float currentTime_ = {}, System::Threading::Thread* hapticThread_ = {}, GlobalNamespace::ThreadedOpenVrOpenVrHaptics::OpenVrHapticData leftHandHaptics_ = {}, GlobalNamespace::ThreadedOpenVrOpenVrHaptics::OpenVrHapticData rightHandHaptics_ = {}) noexcept : currentTime{currentTime_}, hapticThread{hapticThread_}, leftHandHaptics{leftHandHaptics_}, rightHandHaptics{rightHandHaptics_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IOpenVRHaptics
     operator GlobalNamespace::IOpenVRHaptics() noexcept {
       return *reinterpret_cast<GlobalNamespace::IOpenVRHaptics*>(this);
@@ -132,19 +115,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private ThreadedOpenVrOpenVrHaptics/OpenVrHapticData _rightHandHaptics
     GlobalNamespace::ThreadedOpenVrOpenVrHaptics::OpenVrHapticData& dyn__rightHandHaptics();
     // public System.Void TriggerHapticPulse(UnityEngine.XR.XRNode node, System.Single duration, System.Single strength, System.Single frequency)
-    // Offset: 0x257FBE4
+    // Offset: 0x264147C
     void TriggerHapticPulse(UnityEngine::XR::XRNode node, float duration, float strength, float frequency);
     // private System.Void UpdateHaptics()
-    // Offset: 0x257FC18
+    // Offset: 0x26414B0
     void UpdateHaptics();
     // private System.Void UpdateHandHaptics(UnityEngine.XR.XRNode node)
-    // Offset: 0x257FCE0
+    // Offset: 0x2641578
     void UpdateHandHaptics(UnityEngine::XR::XRNode node);
     // public System.Void Destroy()
-    // Offset: 0x257FE24
+    // Offset: 0x26416BC
     void Destroy();
     // public System.Void .ctor()
-    // Offset: 0x257FB24
+    // Offset: 0x26413BC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -157,9 +140,9 @@ namespace GlobalNamespace {
   static check_size<sizeof(ThreadedOpenVrOpenVrHaptics), 40 + sizeof(GlobalNamespace::ThreadedOpenVrOpenVrHaptics::OpenVrHapticData)> __GlobalNamespace_ThreadedOpenVrOpenVrHapticsSizeCheck;
   static_assert(sizeof(ThreadedOpenVrOpenVrHaptics) == 0x30);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ThreadedOpenVrOpenVrHaptics*, "", "ThreadedOpenVrOpenVrHaptics");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ThreadedOpenVrOpenVrHaptics::OpenVrHapticData, "", "ThreadedOpenVrOpenVrHaptics/OpenVrHapticData");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ThreadedOpenVrOpenVrHaptics::TriggerHapticPulse
 // Il2CppName: TriggerHapticPulse
 template<>

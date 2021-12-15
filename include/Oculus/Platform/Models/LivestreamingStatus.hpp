@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Oculus.Platform.Models
-namespace Oculus::Platform::Models {
-  // Forward declaring type: LivestreamingStatus
-  class LivestreamingStatus;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Models::LivestreamingStatus);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::LivestreamingStatus*, "Oculus.Platform.Models", "LivestreamingStatus");
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
   // Size: 0x19
@@ -28,11 +20,6 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class LivestreamingStatus : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public readonly System.Boolean CommentsVisible
     // Size: 0x1
     // Offset: 0x10
@@ -65,7 +52,8 @@ namespace Oculus::Platform::Models {
     bool MicEnabled;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: LivestreamingStatus
+    LivestreamingStatus(bool CommentsVisible_ = {}, bool IsPaused_ = {}, bool LivestreamingEnabled_ = {}, int LivestreamingType_ = {}, bool MicEnabled_ = {}) noexcept : CommentsVisible{CommentsVisible_}, IsPaused{IsPaused_}, LivestreamingEnabled{LivestreamingEnabled_}, LivestreamingType{LivestreamingType_}, MicEnabled{MicEnabled_} {}
     // Get instance field reference: public readonly System.Boolean CommentsVisible
     bool& dyn_CommentsVisible();
     // Get instance field reference: public readonly System.Boolean IsPaused
@@ -77,7 +65,7 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly System.Boolean MicEnabled
     bool& dyn_MicEnabled();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x169E49C
+    // Offset: 0x175B8B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LivestreamingStatus* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::LivestreamingStatus::.ctor");
@@ -88,7 +76,8 @@ namespace Oculus::Platform::Models {
   static check_size<sizeof(LivestreamingStatus), 24 + sizeof(bool)> __Oculus_Platform_Models_LivestreamingStatusSizeCheck;
   static_assert(sizeof(LivestreamingStatus) == 0x19);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::LivestreamingStatus*, "Oculus.Platform.Models", "LivestreamingStatus");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::LivestreamingStatus::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Nullable`1
 #include "System/Nullable_1.hpp"
 // Including type: Mono.Security.Interface.MonoSslPolicyErrors
 #include "Mono/Security/Interface/MonoSslPolicyErrors.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Mono.Security.Interface
-namespace Mono::Security::Interface {
-  // Forward declaring type: ValidationResult
-  class ValidationResult;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Security::Interface::ValidationResult);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::ValidationResult*, "Mono.Security.Interface", "ValidationResult");
 // Type namespace: Mono.Security.Interface
 namespace Mono::Security::Interface {
   // WARNING Size may be invalid!
@@ -29,11 +21,6 @@ namespace Mono::Security::Interface {
   // [TokenAttribute] Offset: FFFFFFFF
   class ValidationResult : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Boolean trusted
     // Size: 0x1
     // Offset: 0x10
@@ -56,7 +43,8 @@ namespace Mono::Security::Interface {
     // Size: 0xFFFFFFFF
     // Offset: 0x18
     System::Nullable_1<Mono::Security::Interface::MonoSslPolicyErrors> policy_errors;
-    public:
+    // Creating value type constructor for type: ValidationResult
+    ValidationResult(bool trusted_ = {}, bool user_denied_ = {}, int error_code_ = {}, System::Nullable_1<Mono::Security::Interface::MonoSslPolicyErrors> policy_errors_ = {}) noexcept : trusted{trusted_}, user_denied{user_denied_}, error_code{error_code_}, policy_errors{policy_errors_} {}
     // Get instance field reference: private System.Boolean trusted
     bool& dyn_trusted();
     // Get instance field reference: private System.Boolean user_denied
@@ -66,13 +54,13 @@ namespace Mono::Security::Interface {
     // Get instance field reference: private System.Nullable`1<Mono.Security.Interface.MonoSslPolicyErrors> policy_errors
     System::Nullable_1<Mono::Security::Interface::MonoSslPolicyErrors>& dyn_policy_errors();
     // public System.Boolean get_Trusted()
-    // Offset: 0x1F892C8
+    // Offset: 0x1F955B0
     bool get_Trusted();
     // public System.Boolean get_UserDenied()
-    // Offset: 0x1F892D0
+    // Offset: 0x1F955B8
     bool get_UserDenied();
     // public System.Void .ctor(System.Boolean trusted, System.Boolean user_denied, System.Int32 error_code, System.Nullable`1<Mono.Security.Interface.MonoSslPolicyErrors> policy_errors)
-    // Offset: 0x1F8926C
+    // Offset: 0x1F95554
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ValidationResult* New_ctor(bool trusted, bool user_denied, int error_code, System::Nullable_1<Mono::Security::Interface::MonoSslPolicyErrors> policy_errors) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Interface::ValidationResult::.ctor");
@@ -81,7 +69,8 @@ namespace Mono::Security::Interface {
   }; // Mono.Security.Interface.ValidationResult
   // WARNING Not writing size check since size may be invalid!
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::ValidationResult*, "Mono.Security.Interface", "ValidationResult");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Security::Interface::ValidationResult::get_Trusted
 // Il2CppName: get_Trusted
 template<>

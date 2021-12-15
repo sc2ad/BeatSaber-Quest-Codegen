@@ -3,16 +3,16 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Guid
 #include "System/Guid.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HoudiniEngineUnity
@@ -20,14 +20,6 @@ namespace HoudiniEngineUnity {
   // Skipping declaration: TaskResult because it is already included!
 }
 // Completed forward declares
-// Type namespace: HoudiniEngineUnity
-namespace HoudiniEngineUnity {
-  // Forward declaring type: HEU_Task
-  class HEU_Task;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_Task);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_Task*, "HoudiniEngineUnity", "HEU_Task");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x30
@@ -48,18 +40,12 @@ namespace HoudiniEngineUnity {
     // [TokenAttribute] Offset: FFFFFFFF
     struct TaskStatus/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: TaskStatus
       constexpr TaskStatus(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -124,18 +110,12 @@ namespace HoudiniEngineUnity {
     // [TokenAttribute] Offset: FFFFFFFF
     struct TaskResult/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: TaskResult
       constexpr TaskResult(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -176,11 +156,6 @@ namespace HoudiniEngineUnity {
     #pragma pack(pop)
     static check_size<sizeof(HEU_Task::TaskResult), 0 + sizeof(int)> __HoudiniEngineUnity_HEU_Task_TaskResultSizeCheck;
     static_assert(sizeof(HEU_Task::TaskResult) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public HoudiniEngineUnity.HEU_Task/HoudiniEngineUnity.TaskStatus _status
     // Size: 0x4
     // Offset: 0x10
@@ -205,7 +180,8 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HEU_Task::TaskCallback* taskCompletedDelegate;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::HEU_Task::TaskCallback*) == 0x8);
-    public:
+    // Creating value type constructor for type: HEU_Task
+    HEU_Task(HoudiniEngineUnity::HEU_Task::TaskStatus status_ = {}, HoudiniEngineUnity::HEU_Task::TaskResult result_ = {}, System::Guid guid_ = {}, HoudiniEngineUnity::HEU_Task::TaskCallback* taskCompletedDelegate_ = {}) noexcept : status{status_}, result{result_}, guid{guid_}, taskCompletedDelegate{taskCompletedDelegate_} {}
     // Get instance field reference: public HoudiniEngineUnity.HEU_Task/HoudiniEngineUnity.TaskStatus _status
     HoudiniEngineUnity::HEU_Task::TaskStatus& dyn__status();
     // Get instance field reference: public HoudiniEngineUnity.HEU_Task/HoudiniEngineUnity.TaskResult _result
@@ -215,13 +191,13 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public HoudiniEngineUnity.HEU_Task/HoudiniEngineUnity.TaskCallback _taskCompletedDelegate
     HoudiniEngineUnity::HEU_Task::TaskCallback*& dyn__taskCompletedDelegate();
     // public System.Guid get_TaskGuid()
-    // Offset: 0x17BE6D8
+    // Offset: 0x184CFEC
     System::Guid get_TaskGuid();
     // public System.Void DoTask()
     // Offset: 0xFFFFFFFF
     void DoTask();
     // public System.Void UpdateTask()
-    // Offset: 0x17BE75C
+    // Offset: 0x184D070
     void UpdateTask();
     // public System.Void KillTask()
     // Offset: 0xFFFFFFFF
@@ -230,7 +206,7 @@ namespace HoudiniEngineUnity {
     // Offset: 0xFFFFFFFF
     void CompleteTask(HoudiniEngineUnity::HEU_Task::TaskResult result);
     // public System.Void .ctor()
-    // Offset: 0x17BE6E4
+    // Offset: 0x184CFF8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -243,11 +219,10 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_Task), 40 + sizeof(HoudiniEngineUnity::HEU_Task::TaskCallback*)> __HoudiniEngineUnity_HEU_TaskSizeCheck;
   static_assert(sizeof(HEU_Task) == 0x30);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_Task*, "HoudiniEngineUnity", "HEU_Task");
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_Task::TaskStatus, "HoudiniEngineUnity", "HEU_Task/TaskStatus");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_Task::TaskResult, "HoudiniEngineUnity", "HEU_Task/TaskResult");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Task::get_TaskGuid
 // Il2CppName: get_TaskGuid
 template<>

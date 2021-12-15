@@ -3,16 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: NUnit.Framework.Interfaces
-namespace NUnit::Framework::Interfaces {
-  // Forward declaring type: IDisposableFixture
-  class IDisposableFixture;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(NUnit::Framework::Interfaces::IDisposableFixture);
-DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::IDisposableFixture*, "NUnit.Framework.Interfaces", "IDisposableFixture");
 // Type namespace: NUnit.Framework.Interfaces
 namespace NUnit::Framework::Interfaces {
   // Size: 0x10
@@ -21,7 +13,11 @@ namespace NUnit::Framework::Interfaces {
   // [TokenAttribute] Offset: FFFFFFFF
   class IDisposableFixture {
     public:
+    // Creating value type constructor for type: IDisposableFixture
+    IDisposableFixture() noexcept {}
   }; // NUnit.Framework.Interfaces.IDisposableFixture
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::IDisposableFixture*, "NUnit.Framework.Interfaces", "IDisposableFixture");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

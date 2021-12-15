@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.MarshalByRefObject
 #include "System/MarshalByRefObject.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: NUnit.Compatibility
-namespace NUnit::Compatibility {
-  // Forward declaring type: LongLivedMarshalByRefObject
-  class LongLivedMarshalByRefObject;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(NUnit::Compatibility::LongLivedMarshalByRefObject);
-DEFINE_IL2CPP_ARG_TYPE(NUnit::Compatibility::LongLivedMarshalByRefObject*, "NUnit.Compatibility", "LongLivedMarshalByRefObject");
 // Type namespace: NUnit.Compatibility
 namespace NUnit::Compatibility {
   // Size: 0x18
@@ -28,8 +20,10 @@ namespace NUnit::Compatibility {
   // [TokenAttribute] Offset: FFFFFFFF
   class LongLivedMarshalByRefObject : public System::MarshalByRefObject {
     public:
+    // Creating value type constructor for type: LongLivedMarshalByRefObject
+    LongLivedMarshalByRefObject() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x190D06C
+    // Offset: 0x1932230
     // Implemented from: System.MarshalByRefObject
     // Base method: System.Void MarshalByRefObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -39,14 +33,15 @@ namespace NUnit::Compatibility {
       return THROW_UNLESS((::il2cpp_utils::New<LongLivedMarshalByRefObject*, creationType>()));
     }
     // public override System.Object InitializeLifetimeService()
-    // Offset: 0x190D064
+    // Offset: 0x1932228
     // Implemented from: System.MarshalByRefObject
     // Base method: System.Object MarshalByRefObject::InitializeLifetimeService()
     ::Il2CppObject* InitializeLifetimeService();
   }; // NUnit.Compatibility.LongLivedMarshalByRefObject
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(NUnit::Compatibility::LongLivedMarshalByRefObject*, "NUnit.Compatibility", "LongLivedMarshalByRefObject");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Compatibility::LongLivedMarshalByRefObject::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

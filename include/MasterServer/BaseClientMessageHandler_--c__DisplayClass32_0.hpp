@@ -3,24 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MasterServer.BaseClientMessageHandler
 #include "MasterServer/BaseClientMessageHandler.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: MasterServer
-namespace MasterServer {
-  // Forward declaring type: <>c__DisplayClass32_0
-  class $$c__DisplayClass32_0;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(MasterServer::BaseClientMessageHandler::$$c__DisplayClass32_0);
-DEFINE_IL2CPP_ARG_TYPE(MasterServer::BaseClientMessageHandler::$$c__DisplayClass32_0*, "MasterServer", "BaseClientMessageHandler/<>c__DisplayClass32_0");
 // Type namespace: MasterServer
 namespace MasterServer {
   // Size: 0x40
@@ -30,35 +21,30 @@ namespace MasterServer {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class BaseClientMessageHandler::$$c__DisplayClass32_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Byte[] clientRandom
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<uint8_t> clientRandom;
+    ::Array<uint8_t>* clientRandom;
     // Field size check
-    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
+    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
     // public System.Byte[] serverRandom
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayW<uint8_t> serverRandom;
+    ::Array<uint8_t>* serverRandom;
     // Field size check
-    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
+    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
     // public System.Byte[] serverKey
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayW<uint8_t> serverKey;
+    ::Array<uint8_t>* serverKey;
     // Field size check
-    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
+    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
     // public System.Byte[][] certData
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayW<::ArrayW<uint8_t>> certData;
+    ::Array<::Array<uint8_t>*>* certData;
     // Field size check
-    static_assert(sizeof(::ArrayW<::ArrayW<uint8_t>>) == 0x8);
+    static_assert(sizeof(::Array<::Array<uint8_t>*>*) == 0x8);
     // public MasterServer.BaseClientMessageHandler <>4__this
     // Size: 0x8
     // Offset: 0x30
@@ -68,27 +54,28 @@ namespace MasterServer {
     // public System.Byte[] signature
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayW<uint8_t> signature;
+    ::Array<uint8_t>* signature;
     // Field size check
-    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
-    public:
+    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    // Creating value type constructor for type: $$c__DisplayClass32_0
+    $$c__DisplayClass32_0(::Array<uint8_t>* clientRandom_ = {}, ::Array<uint8_t>* serverRandom_ = {}, ::Array<uint8_t>* serverKey_ = {}, ::Array<::Array<uint8_t>*>* certData_ = {}, MasterServer::BaseClientMessageHandler* $$4__this_ = {}, ::Array<uint8_t>* signature_ = {}) noexcept : clientRandom{clientRandom_}, serverRandom{serverRandom_}, serverKey{serverKey_}, certData{certData_}, $$4__this{$$4__this_}, signature{signature_} {}
     // Get instance field reference: public System.Byte[] clientRandom
-    ::ArrayW<uint8_t>& dyn_clientRandom();
+    ::Array<uint8_t>*& dyn_clientRandom();
     // Get instance field reference: public System.Byte[] serverRandom
-    ::ArrayW<uint8_t>& dyn_serverRandom();
+    ::Array<uint8_t>*& dyn_serverRandom();
     // Get instance field reference: public System.Byte[] serverKey
-    ::ArrayW<uint8_t>& dyn_serverKey();
+    ::Array<uint8_t>*& dyn_serverKey();
     // Get instance field reference: public System.Byte[][] certData
-    ::ArrayW<::ArrayW<uint8_t>>& dyn_certData();
+    ::Array<::Array<uint8_t>*>*& dyn_certData();
     // Get instance field reference: public MasterServer.BaseClientMessageHandler <>4__this
     MasterServer::BaseClientMessageHandler*& dyn_$$4__this();
     // Get instance field reference: public System.Byte[] signature
-    ::ArrayW<uint8_t>& dyn_signature();
+    ::Array<uint8_t>*& dyn_signature();
     // System.Boolean <VerifySignature>b__0()
-    // Offset: 0x12E7BFC
+    // Offset: 0x14AE610
     bool $VerifySignature$b__0();
     // public System.Void .ctor()
-    // Offset: 0x12E7BF4
+    // Offset: 0x14AE3E0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -98,10 +85,11 @@ namespace MasterServer {
     }
   }; // MasterServer.BaseClientMessageHandler/MasterServer.<>c__DisplayClass32_0
   #pragma pack(pop)
-  static check_size<sizeof(BaseClientMessageHandler::$$c__DisplayClass32_0), 56 + sizeof(::ArrayW<uint8_t>)> __MasterServer_BaseClientMessageHandler_$$c__DisplayClass32_0SizeCheck;
+  static check_size<sizeof(BaseClientMessageHandler::$$c__DisplayClass32_0), 56 + sizeof(::Array<uint8_t>*)> __MasterServer_BaseClientMessageHandler_$$c__DisplayClass32_0SizeCheck;
   static_assert(sizeof(BaseClientMessageHandler::$$c__DisplayClass32_0) == 0x40);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(MasterServer::BaseClientMessageHandler::$$c__DisplayClass32_0*, "MasterServer", "BaseClientMessageHandler/<>c__DisplayClass32_0");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: MasterServer::BaseClientMessageHandler::$$c__DisplayClass32_0::$VerifySignature$b__0
 // Il2CppName: <VerifySignature>b__0
 template<>

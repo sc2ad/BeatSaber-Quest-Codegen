@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Configuration.ConfigurationSectionGroup
 #include "System/Configuration/ConfigurationSectionGroup.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Net.Configuration
-namespace System::Net::Configuration {
-  // Forward declaring type: NetSectionGroup
-  class NetSectionGroup;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::Configuration::NetSectionGroup);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::Configuration::NetSectionGroup*, "System.Net.Configuration", "NetSectionGroup");
 // Type namespace: System.Net.Configuration
 namespace System::Net::Configuration {
   // Size: 0x10
@@ -28,8 +20,10 @@ namespace System::Net::Configuration {
   // [TokenAttribute] Offset: FFFFFFFF
   class NetSectionGroup : public System::Configuration::ConfigurationSectionGroup {
     public:
+    // Creating value type constructor for type: NetSectionGroup
+    NetSectionGroup() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1556A50
+    // Offset: 0x15E3D44
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -40,7 +34,8 @@ namespace System::Net::Configuration {
   }; // System.Net.Configuration.NetSectionGroup
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Configuration::NetSectionGroup*, "System.Net.Configuration", "NetSectionGroup");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Configuration::NetSectionGroup::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: StandardLevelInfoSaveData_V100
 #include "GlobalNamespace/StandardLevelInfoSaveData_V100.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: DifficultyBeatmap
-  class DifficultyBeatmap;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap*, "", "StandardLevelInfoSaveData_V100/DifficultyBeatmap");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x30
@@ -28,11 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class StandardLevelInfoSaveData_V100::DifficultyBeatmap : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.String _difficulty
     // Size: 0x8
     // Offset: 0x10
@@ -65,7 +52,8 @@ namespace GlobalNamespace {
     int noteJumpStartBeatOffset;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
+    // Creating value type constructor for type: DifficultyBeatmap
+    DifficultyBeatmap(::Il2CppString* difficulty_ = {}, int difficultyRank_ = {}, ::Il2CppString* beatmapFilename_ = {}, float noteJumpMovementSpeed_ = {}, int noteJumpStartBeatOffset_ = {}) noexcept : difficulty{difficulty_}, difficultyRank{difficultyRank_}, beatmapFilename{beatmapFilename_}, noteJumpMovementSpeed{noteJumpMovementSpeed_}, noteJumpStartBeatOffset{noteJumpStartBeatOffset_} {}
     // Get instance field reference: private System.String _difficulty
     ::Il2CppString*& dyn__difficulty();
     // Get instance field reference: private System.Int32 _difficultyRank
@@ -77,22 +65,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _noteJumpStartBeatOffset
     int& dyn__noteJumpStartBeatOffset();
     // public System.String get_difficulty()
-    // Offset: 0x1154DE8
+    // Offset: 0x1222FF8
     ::Il2CppString* get_difficulty();
     // public System.Int32 get_difficultyRank()
-    // Offset: 0x1154DF0
+    // Offset: 0x1223000
     int get_difficultyRank();
     // public System.String get_beatmapFilename()
-    // Offset: 0x1154DF8
+    // Offset: 0x1223008
     ::Il2CppString* get_beatmapFilename();
     // public System.Single get_noteJumpMovementSpeed()
-    // Offset: 0x1154E00
+    // Offset: 0x1223010
     float get_noteJumpMovementSpeed();
     // public System.Int32 get_noteJumpStartBeatOffset()
-    // Offset: 0x1154E08
+    // Offset: 0x1223018
     int get_noteJumpStartBeatOffset();
     // public System.Void .ctor(System.String difficultyName, System.Int32 difficultyRank, System.String beatmapFilename, System.Single noteJumpMovementSpeed, System.Int32 noteJumpStartBeatOffset)
-    // Offset: 0x1154E10
+    // Offset: 0x1223020
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StandardLevelInfoSaveData_V100::DifficultyBeatmap* New_ctor(::Il2CppString* difficultyName, int difficultyRank, ::Il2CppString* beatmapFilename, float noteJumpMovementSpeed, int noteJumpStartBeatOffset) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap::.ctor");
@@ -103,7 +91,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(StandardLevelInfoSaveData_V100::DifficultyBeatmap), 44 + sizeof(int)> __GlobalNamespace_StandardLevelInfoSaveData_V100_DifficultyBeatmapSizeCheck;
   static_assert(sizeof(StandardLevelInfoSaveData_V100::DifficultyBeatmap) == 0x30);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap*, "", "StandardLevelInfoSaveData_V100/DifficultyBeatmap");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap::get_difficulty
 // Il2CppName: get_difficulty
 template<>

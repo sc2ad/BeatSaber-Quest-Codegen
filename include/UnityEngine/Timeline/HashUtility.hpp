@@ -3,18 +3,9 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: UnityEngine.Timeline
-namespace UnityEngine::Timeline {
-  // Forward declaring type: HashUtility
-  class HashUtility;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Timeline::HashUtility);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::HashUtility*, "UnityEngine.Timeline", "HashUtility");
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {
   // Size: 0x10
@@ -24,31 +15,35 @@ namespace UnityEngine::Timeline {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class HashUtility : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: HashUtility
+    HashUtility() noexcept {}
     // static public System.Int32 CombineHash(System.Int32 h1, System.Int32 h2)
-    // Offset: 0x19D5C1C
+    // Offset: 0x19F42CC
     static int CombineHash(int h1, int h2);
     // static public System.Int32 CombineHash(System.Int32 h1, System.Int32 h2, System.Int32 h3)
-    // Offset: 0x19DFE04
+    // Offset: 0x19FE4B4
     static int CombineHash(int h1, int h2, int h3);
     // static public System.Int32 CombineHash(System.Int32 h1, System.Int32 h2, System.Int32 h3, System.Int32 h4)
-    // Offset: 0x19DFE30
+    // Offset: 0x19FE4E0
     static int CombineHash(int h1, int h2, int h3, int h4);
     // static public System.Int32 CombineHash(System.Int32 h1, System.Int32 h2, System.Int32 h3, System.Int32 h4, System.Int32 h5)
-    // Offset: 0x19DFE6C
+    // Offset: 0x19FE51C
     static int CombineHash(int h1, int h2, int h3, int h4, int h5);
     // static public System.Int32 CombineHash(System.Int32 h1, System.Int32 h2, System.Int32 h3, System.Int32 h4, System.Int32 h5, System.Int32 h6)
-    // Offset: 0x19DFEB8
+    // Offset: 0x19FE568
     static int CombineHash(int h1, int h2, int h3, int h4, int h5, int h6);
     // static public System.Int32 CombineHash(System.Int32 h1, System.Int32 h2, System.Int32 h3, System.Int32 h4, System.Int32 h5, System.Int32 h6, System.Int32 h7)
-    // Offset: 0x19DFF14
+    // Offset: 0x19FE5C4
     static int CombineHash(int h1, int h2, int h3, int h4, int h5, int h6, int h7);
     // static public System.Int32 CombineHash(System.Int32[] hashes)
-    // Offset: 0x19DFF4C
-    static int CombineHash(::ArrayW<int> hashes);
+    // Offset: 0x19FE5FC
+    static int CombineHash(::Array<int>* hashes);
   }; // UnityEngine.Timeline.HashUtility
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::HashUtility*, "UnityEngine.Timeline", "HashUtility");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::HashUtility::CombineHash
 // Il2CppName: CombineHash
 template<>
@@ -127,7 +122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 // Writing MetadataGetter for method: UnityEngine::Timeline::HashUtility::CombineHash
 // Il2CppName: CombineHash
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayW<int>)>(&UnityEngine::Timeline::HashUtility::CombineHash)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<int>*)>(&UnityEngine::Timeline::HashUtility::CombineHash)> {
   static const MethodInfo* get() {
     static auto* hashes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::HashUtility*), "CombineHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hashes});

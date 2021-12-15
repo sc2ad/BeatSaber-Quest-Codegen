@@ -3,17 +3,9 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: NUnit.Framework.Constraints
-namespace NUnit::Framework::Constraints {
-  // Forward declaring type: EqualityAdapter
-  class EqualityAdapter;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(NUnit::Framework::Constraints::EqualityAdapter);
-DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::EqualityAdapter*, "NUnit.Framework.Constraints", "EqualityAdapter");
 // Type namespace: NUnit.Framework.Constraints
 namespace NUnit::Framework::Constraints {
   // Size: 0x10
@@ -22,16 +14,20 @@ namespace NUnit::Framework::Constraints {
   // [TokenAttribute] Offset: FFFFFFFF
   class EqualityAdapter : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: EqualityAdapter
+    EqualityAdapter() noexcept {}
     // public System.Boolean AreEqual(System.Object x, System.Object y)
     // Offset: 0xFFFFFFFF
     bool AreEqual(::Il2CppObject* x, ::Il2CppObject* y);
     // public System.Boolean CanCompare(System.Object x, System.Object y)
-    // Offset: 0x1914290
+    // Offset: 0x1939454
     bool CanCompare(::Il2CppObject* x, ::Il2CppObject* y);
   }; // NUnit.Framework.Constraints.EqualityAdapter
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::EqualityAdapter*, "NUnit.Framework.Constraints", "EqualityAdapter");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::EqualityAdapter::AreEqual
 // Il2CppName: AreEqual
 template<>

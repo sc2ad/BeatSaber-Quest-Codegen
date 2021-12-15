@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.LayerMask
 #include "UnityEngine/LayerMask.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: LayerMasks
-  class LayerMasks;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::LayerMasks);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LayerMasks*, "", "LayerMasks");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -28,50 +20,52 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LayerMasks : public ::Il2CppObject {
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDE328
+    // Creating value type constructor for type: LayerMasks
+    LayerMasks() noexcept {}
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF21628
     // Get static field: static public readonly UnityEngine.LayerMask saberLayerMask
     static UnityEngine::LayerMask _get_saberLayerMask();
     // Set static field: static public readonly UnityEngine.LayerMask saberLayerMask
     static void _set_saberLayerMask(UnityEngine::LayerMask value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDE338
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF21638
     // Get static field: static public readonly UnityEngine.LayerMask noteLayerMask
     static UnityEngine::LayerMask _get_noteLayerMask();
     // Set static field: static public readonly UnityEngine.LayerMask noteLayerMask
     static void _set_noteLayerMask(UnityEngine::LayerMask value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDE348
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF21648
     // Get static field: static public readonly UnityEngine.LayerMask noteDebrisLayerMask
     static UnityEngine::LayerMask _get_noteDebrisLayerMask();
     // Set static field: static public readonly UnityEngine.LayerMask noteDebrisLayerMask
     static void _set_noteDebrisLayerMask(UnityEngine::LayerMask value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDE358
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF21658
     // Get static field: static public readonly UnityEngine.LayerMask cutEffectParticlesLayerMask
     static UnityEngine::LayerMask _get_cutEffectParticlesLayerMask();
     // Set static field: static public readonly UnityEngine.LayerMask cutEffectParticlesLayerMask
     static void _set_cutEffectParticlesLayerMask(UnityEngine::LayerMask value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDE368
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF21668
     // Get static field: static public readonly System.Int32 noteDebrisLayer
     static int _get_noteDebrisLayer();
     // Set static field: static public readonly System.Int32 noteDebrisLayer
     static void _set_noteDebrisLayer(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDE378
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF21678
     // Get static field: static public readonly System.Int32 cutEffectParticlesLayer
     static int _get_cutEffectParticlesLayer();
     // Set static field: static public readonly System.Int32 cutEffectParticlesLayer
     static void _set_cutEffectParticlesLayer(int value);
     // static private System.Void .cctor()
-    // Offset: 0x2613448
+    // Offset: 0x26D5370
     static void _cctor();
     // static private UnityEngine.LayerMask GetLayerMask(System.String layerName)
-    // Offset: 0x26133C8
+    // Offset: 0x26D52F0
     static UnityEngine::LayerMask GetLayerMask(::Il2CppString* layerName);
     // static private UnityEngine.LayerMask GetLayerMask(System.Int32 layerNum)
-    // Offset: 0x2613404
+    // Offset: 0x26D532C
     static UnityEngine::LayerMask GetLayerMask(int layerNum);
     // static private System.Int32 GetLayer(System.String layerName)
-    // Offset: 0x2613438
+    // Offset: 0x26D5360
     static int GetLayer(::Il2CppString* layerName);
     // public System.Void .ctor()
-    // Offset: 0x2613440
+    // Offset: 0x26D5368
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -82,7 +76,8 @@ namespace GlobalNamespace {
   }; // LayerMasks
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LayerMasks*, "", "LayerMasks");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LayerMasks::_cctor
 // Il2CppName: .cctor
 template<>

@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Asn1.Asn1Object
 #include "Org/BouncyCastle/Asn1/Asn1Object.hpp"
 // Including type: Org.BouncyCastle.Asn1.IAsn1String
 #include "Org/BouncyCastle/Asn1/IAsn1String.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Org.BouncyCastle.Asn1
-namespace Org::BouncyCastle::Asn1 {
-  // Forward declaring type: DerStringBase
-  class DerStringBase;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Asn1::DerStringBase);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerStringBase*, "Org.BouncyCastle.Asn1", "DerStringBase");
 // Type namespace: Org.BouncyCastle.Asn1
 namespace Org::BouncyCastle::Asn1 {
   // Size: 0x10
@@ -30,6 +22,8 @@ namespace Org::BouncyCastle::Asn1 {
   // [TokenAttribute] Offset: FFFFFFFF
   class DerStringBase : public Org::BouncyCastle::Asn1::Asn1Object/*, public Org::BouncyCastle::Asn1::IAsn1String*/ {
     public:
+    // Creating value type constructor for type: DerStringBase
+    DerStringBase() noexcept {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Asn1::IAsn1String
     operator Org::BouncyCastle::Asn1::IAsn1String() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Asn1::IAsn1String*>(this);
@@ -38,7 +32,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Offset: 0xFFFFFFFF
     ::Il2CppString* GetString();
     // protected System.Void .ctor()
-    // Offset: 0x18D3F8C
+    // Offset: 0x18F9150
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Void Asn1Object::.ctor()
     // Base method: System.Void Asn1Encodable::.ctor()
@@ -49,19 +43,20 @@ namespace Org::BouncyCastle::Asn1 {
       return THROW_UNLESS((::il2cpp_utils::New<DerStringBase*, creationType>()));
     }
     // public override System.String ToString()
-    // Offset: 0x18D9114
+    // Offset: 0x18FE2D8
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // protected override System.Int32 Asn1GetHashCode()
-    // Offset: 0x18D9120
+    // Offset: 0x18FE2E4
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Int32 Asn1Object::Asn1GetHashCode()
     int Asn1GetHashCode();
   }; // Org.BouncyCastle.Asn1.DerStringBase
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerStringBase*, "Org.BouncyCastle.Asn1", "DerStringBase");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerStringBase::GetString
 // Il2CppName: GetString
 template<>

@@ -3,24 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Text.DecoderFallbackBuffer
 #include "System/Text/DecoderFallbackBuffer.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Text
-namespace System::Text {
-  // Forward declaring type: DecoderExceptionFallbackBuffer
-  class DecoderExceptionFallbackBuffer;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Text::DecoderExceptionFallbackBuffer);
-DEFINE_IL2CPP_ARG_TYPE(System::Text::DecoderExceptionFallbackBuffer*, "System.Text", "DecoderExceptionFallbackBuffer");
 // Type namespace: System.Text
 namespace System::Text {
   // Size: 0x20
@@ -29,11 +20,13 @@ namespace System::Text {
   // [TokenAttribute] Offset: FFFFFFFF
   class DecoderExceptionFallbackBuffer : public System::Text::DecoderFallbackBuffer {
     public:
+    // Creating value type constructor for type: DecoderExceptionFallbackBuffer
+    DecoderExceptionFallbackBuffer() noexcept {}
     // private System.Void Throw(System.Byte[] bytesUnknown, System.Int32 index)
-    // Offset: 0x1DDF030
-    void Throw(::ArrayW<uint8_t> bytesUnknown, int index);
+    // Offset: 0x1DE93A0
+    void Throw(::Array<uint8_t>* bytesUnknown, int index);
     // public System.Void .ctor()
-    // Offset: 0x1DDEFA8
+    // Offset: 0x1DE9318
     // Implemented from: System.Text.DecoderFallbackBuffer
     // Base method: System.Void DecoderFallbackBuffer::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -43,23 +36,24 @@ namespace System::Text {
       return THROW_UNLESS((::il2cpp_utils::New<DecoderExceptionFallbackBuffer*, creationType>()));
     }
     // public override System.Boolean Fallback(System.Byte[] bytesUnknown, System.Int32 index)
-    // Offset: 0x1DDF024
+    // Offset: 0x1DE9394
     // Implemented from: System.Text.DecoderFallbackBuffer
     // Base method: System.Boolean DecoderFallbackBuffer::Fallback(System.Byte[] bytesUnknown, System.Int32 index)
-    bool Fallback(::ArrayW<uint8_t> bytesUnknown, int index);
+    bool Fallback(::Array<uint8_t>* bytesUnknown, int index);
     // public override System.Char GetNextChar()
-    // Offset: 0x1DDF264
+    // Offset: 0x1DE95D4
     // Implemented from: System.Text.DecoderFallbackBuffer
     // Base method: System.Char DecoderFallbackBuffer::GetNextChar()
     ::Il2CppChar GetNextChar();
   }; // System.Text.DecoderExceptionFallbackBuffer
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Text::DecoderExceptionFallbackBuffer*, "System.Text", "DecoderExceptionFallbackBuffer");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::DecoderExceptionFallbackBuffer::Throw
 // Il2CppName: Throw
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::DecoderExceptionFallbackBuffer::*)(::ArrayW<uint8_t>, int)>(&System::Text::DecoderExceptionFallbackBuffer::Throw)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::DecoderExceptionFallbackBuffer::*)(::Array<uint8_t>*, int)>(&System::Text::DecoderExceptionFallbackBuffer::Throw)> {
   static const MethodInfo* get() {
     static auto* bytesUnknown = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -73,7 +67,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Text::DecoderExceptionFallbackBuffer::Fallback
 // Il2CppName: Fallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::DecoderExceptionFallbackBuffer::*)(::ArrayW<uint8_t>, int)>(&System::Text::DecoderExceptionFallbackBuffer::Fallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::DecoderExceptionFallbackBuffer::*)(::Array<uint8_t>*, int)>(&System::Text::DecoderExceptionFallbackBuffer::Fallback)> {
   static const MethodInfo* get() {
     static auto* bytesUnknown = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

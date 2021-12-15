@@ -3,22 +3,14 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Threading
-namespace System::Threading {
-  // Forward declaring type: AsyncLocalValueChangedArgs`1<T>
-  template<typename T>
-  struct AsyncLocalValueChangedArgs_1;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(System::Threading::AsyncLocalValueChangedArgs_1, "System.Threading", "AsyncLocalValueChangedArgs`1");
 // Type namespace: System.Threading
 namespace System::Threading {
   // WARNING Size may be invalid!
@@ -28,29 +20,23 @@ namespace System::Threading {
   template<typename T>
   struct AsyncLocalValueChangedArgs_1/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
-    // [CompilerGeneratedAttribute] Offset: 0xE662B0
+    // [CompilerGeneratedAttribute] Offset: 0xEA4EC0
     // private T <PreviousValue>k__BackingField
     // Size: 0xFFFFFFFF
     // Offset: 0x0
     T PreviousValue;
-    // [CompilerGeneratedAttribute] Offset: 0xE662C0
+    // [CompilerGeneratedAttribute] Offset: 0xEA4ED0
     // private T <CurrentValue>k__BackingField
     // Size: 0xFFFFFFFF
     // Offset: 0x0
     T CurrentValue;
-    // [CompilerGeneratedAttribute] Offset: 0xE662D0
+    // [CompilerGeneratedAttribute] Offset: 0xEA4EE0
     // private System.Boolean <ThreadContextChanged>k__BackingField
     // Size: 0x1
     // Offset: 0x0
     bool ThreadContextChanged;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
     // Creating value type constructor for type: AsyncLocalValueChangedArgs_1
     constexpr AsyncLocalValueChangedArgs_1(T PreviousValue_ = {}, T CurrentValue_ = {}, bool ThreadContextChanged_ = {}) noexcept : PreviousValue{PreviousValue_}, CurrentValue{CurrentValue_}, ThreadContextChanged{ThreadContextChanged_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -86,33 +72,35 @@ namespace System::Threading {
     void set_PreviousValue(T value) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::AsyncLocalValueChangedArgs_1::set_PreviousValue");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "set_PreviousValue", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, value);
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
     }
     // public T get_CurrentValue()
     // Offset: 0xFFFFFFFF
     T get_CurrentValue() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::AsyncLocalValueChangedArgs_1::get_CurrentValue");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "get_CurrentValue", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
+      return ::il2cpp_utils::RunMethodThrow<T, false>(*this, ___internal__method);
     }
     // private System.Void set_CurrentValue(T value)
     // Offset: 0xFFFFFFFF
     void set_CurrentValue(T value) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::AsyncLocalValueChangedArgs_1::set_CurrentValue");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "set_CurrentValue", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, value);
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
     }
     // private System.Void set_ThreadContextChanged(System.Boolean value)
     // Offset: 0xFFFFFFFF
     void set_ThreadContextChanged(bool value) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::AsyncLocalValueChangedArgs_1::set_ThreadContextChanged");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "set_ThreadContextChanged", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, value);
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
     }
     // System.Void .ctor(T previousValue, T currentValue, System.Boolean contextChanged)
     // Offset: 0xFFFFFFFF
+    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  AsyncLocalValueChangedArgs_1(T previousValue, T currentValue, bool contextChanged)
   }; // System.Threading.AsyncLocalValueChangedArgs`1
   // Could not write size check! Type: System.Threading.AsyncLocalValueChangedArgs`1 is generic, or has no fields that are valid for size checks!
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(System::Threading::AsyncLocalValueChangedArgs_1, "System.Threading", "AsyncLocalValueChangedArgs`1");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

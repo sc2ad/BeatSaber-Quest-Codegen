@@ -3,27 +3,19 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Timeline.Marker
 #include "UnityEngine/Timeline/Marker.hpp"
 // Including type: UnityEngine.Playables.INotification
 #include "UnityEngine/Playables/INotification.hpp"
 // Including type: UnityEngine.PropertyName
 #include "UnityEngine/PropertyName.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: TimelinePauseMarker
-  class TimelinePauseMarker;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::TimelinePauseMarker);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TimelinePauseMarker*, "", "TimelinePauseMarker");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x2C
@@ -32,18 +24,14 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TimelinePauseMarker : public UnityEngine::Timeline::Marker/*, public UnityEngine::Playables::INotification*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private readonly UnityEngine.PropertyName <id>k__BackingField
     // Size: 0x4
     // Offset: 0x28
     UnityEngine::PropertyName id;
     // Field size check
     static_assert(sizeof(UnityEngine::PropertyName) == 0x4);
-    public:
+    // Creating value type constructor for type: TimelinePauseMarker
+    TimelinePauseMarker(UnityEngine::PropertyName id_ = {}) noexcept : id{id_} {}
     // Creating interface conversion operator: operator UnityEngine::Playables::INotification
     operator UnityEngine::Playables::INotification() noexcept {
       return *reinterpret_cast<UnityEngine::Playables::INotification*>(this);
@@ -51,10 +39,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly UnityEngine.PropertyName <id>k__BackingField
     UnityEngine::PropertyName& dyn_$id$k__BackingField();
     // public UnityEngine.PropertyName get_id()
-    // Offset: 0x2580B10
+    // Offset: 0x26423A8
     UnityEngine::PropertyName get_id();
     // public System.Void .ctor()
-    // Offset: 0x2580B18
+    // Offset: 0x26423B0
     // Implemented from: UnityEngine.Timeline.Marker
     // Base method: System.Void Marker::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -70,7 +58,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(TimelinePauseMarker), 40 + sizeof(UnityEngine::PropertyName)> __GlobalNamespace_TimelinePauseMarkerSizeCheck;
   static_assert(sizeof(TimelinePauseMarker) == 0x2C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TimelinePauseMarker*, "", "TimelinePauseMarker");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TimelinePauseMarker::get_id
 // Il2CppName: get_id
 template<>

@@ -3,28 +3,19 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HoudiniEngineUnity.HEU_GenerateGeoCache
 #include "HoudiniEngineUnity/HEU_GenerateGeoCache.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.MeshTopology
 #include "UnityEngine/MeshTopology.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: HoudiniEngineUnity
-namespace HoudiniEngineUnity {
-  // Forward declaring type: HEU_ColliderInfo
-  class HEU_ColliderInfo;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_GenerateGeoCache::HEU_ColliderInfo);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_GenerateGeoCache::HEU_ColliderInfo*, "HoudiniEngineUnity", "HEU_GenerateGeoCache/HEU_ColliderInfo");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x55
@@ -41,18 +32,12 @@ namespace HoudiniEngineUnity {
     // [TokenAttribute] Offset: FFFFFFFF
     struct ColliderType/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: ColliderType
       constexpr ColliderType(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -111,11 +96,6 @@ namespace HoudiniEngineUnity {
     #pragma pack(pop)
     static check_size<sizeof(HEU_GenerateGeoCache::HEU_ColliderInfo::ColliderType), 0 + sizeof(int)> __HoudiniEngineUnity_HEU_GenerateGeoCache_HEU_ColliderInfo_ColliderTypeSizeCheck;
     static_assert(sizeof(HEU_GenerateGeoCache::HEU_ColliderInfo::ColliderType) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public HoudiniEngineUnity.HEU_GenerateGeoCache/HoudiniEngineUnity.HEU_ColliderInfo/HoudiniEngineUnity.ColliderType _colliderType
     // Size: 0x4
     // Offset: 0x10
@@ -157,15 +137,15 @@ namespace HoudiniEngineUnity {
     // public UnityEngine.Vector3[] _collisionVertices
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayW<UnityEngine::Vector3> collisionVertices;
+    ::Array<UnityEngine::Vector3>* collisionVertices;
     // Field size check
-    static_assert(sizeof(::ArrayW<UnityEngine::Vector3>) == 0x8);
+    static_assert(sizeof(::Array<UnityEngine::Vector3>*) == 0x8);
     // public System.Int32[] _collisionIndices
     // Size: 0x8
     // Offset: 0x48
-    ::ArrayW<int> collisionIndices;
+    ::Array<int>* collisionIndices;
     // Field size check
-    static_assert(sizeof(::ArrayW<int>) == 0x8);
+    static_assert(sizeof(::Array<int>*) == 0x8);
     // public UnityEngine.MeshTopology _meshTopology
     // Size: 0x4
     // Offset: 0x50
@@ -178,7 +158,8 @@ namespace HoudiniEngineUnity {
     bool isTrigger;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: HEU_ColliderInfo
+    HEU_ColliderInfo(HoudiniEngineUnity::HEU_GenerateGeoCache::HEU_ColliderInfo::ColliderType colliderType_ = {}, UnityEngine::Vector3 colliderCenter_ = {}, UnityEngine::Vector3 colliderSize_ = {}, float colliderRadius_ = {}, bool convexCollider_ = {}, ::Il2CppString* collisionGroupName_ = {}, ::Array<UnityEngine::Vector3>* collisionVertices_ = {}, ::Array<int>* collisionIndices_ = {}, UnityEngine::MeshTopology meshTopology_ = {}, bool isTrigger_ = {}) noexcept : colliderType{colliderType_}, colliderCenter{colliderCenter_}, colliderSize{colliderSize_}, colliderRadius{colliderRadius_}, convexCollider{convexCollider_}, collisionGroupName{collisionGroupName_}, collisionVertices{collisionVertices_}, collisionIndices{collisionIndices_}, meshTopology{meshTopology_}, isTrigger{isTrigger_} {}
     // Get instance field reference: public HoudiniEngineUnity.HEU_GenerateGeoCache/HoudiniEngineUnity.HEU_ColliderInfo/HoudiniEngineUnity.ColliderType _colliderType
     HoudiniEngineUnity::HEU_GenerateGeoCache::HEU_ColliderInfo::ColliderType& dyn__colliderType();
     // Get instance field reference: public UnityEngine.Vector3 _colliderCenter
@@ -192,15 +173,15 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.String _collisionGroupName
     ::Il2CppString*& dyn__collisionGroupName();
     // Get instance field reference: public UnityEngine.Vector3[] _collisionVertices
-    ::ArrayW<UnityEngine::Vector3>& dyn__collisionVertices();
+    ::Array<UnityEngine::Vector3>*& dyn__collisionVertices();
     // Get instance field reference: public System.Int32[] _collisionIndices
-    ::ArrayW<int>& dyn__collisionIndices();
+    ::Array<int>*& dyn__collisionIndices();
     // Get instance field reference: public UnityEngine.MeshTopology _meshTopology
     UnityEngine::MeshTopology& dyn__meshTopology();
     // Get instance field reference: public System.Boolean _isTrigger
     bool& dyn__isTrigger();
     // public System.Void .ctor()
-    // Offset: 0x148D004
+    // Offset: 0x14E49E8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -213,9 +194,9 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_GenerateGeoCache::HEU_ColliderInfo), 84 + sizeof(bool)> __HoudiniEngineUnity_HEU_GenerateGeoCache_HEU_ColliderInfoSizeCheck;
   static_assert(sizeof(HEU_GenerateGeoCache::HEU_ColliderInfo) == 0x55);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_GenerateGeoCache::HEU_ColliderInfo*, "HoudiniEngineUnity", "HEU_GenerateGeoCache/HEU_ColliderInfo");
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_GenerateGeoCache::HEU_ColliderInfo::ColliderType, "HoudiniEngineUnity", "HEU_GenerateGeoCache/HEU_ColliderInfo/ColliderType");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GenerateGeoCache::HEU_ColliderInfo::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -3,28 +3,20 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PersistentScriptableObject
 #include "GlobalNamespace/PersistentScriptableObject.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: BloomPrePassRenderDataSO
-  class BloomPrePassRenderDataSO;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BloomPrePassRenderDataSO);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassRenderDataSO*, "", "BloomPrePassRenderDataSO");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -35,24 +27,20 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::BloomPrePassRenderDataSO::Data
     class Data;
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public readonly BloomPrePassRenderDataSO/Data data
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::BloomPrePassRenderDataSO::Data* data;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BloomPrePassRenderDataSO::Data*) == 0x8);
-    public:
+    // Creating value type constructor for type: BloomPrePassRenderDataSO
+    BloomPrePassRenderDataSO(GlobalNamespace::BloomPrePassRenderDataSO::Data* data_ = {}) noexcept : data{data_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public readonly BloomPrePassRenderDataSO/Data data
     GlobalNamespace::BloomPrePassRenderDataSO::Data*& dyn_data();
     // public System.Void .ctor()
-    // Offset: 0x1E0C228
+    // Offset: 0x1DB1BE8
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -68,7 +56,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(BloomPrePassRenderDataSO), 24 + sizeof(GlobalNamespace::BloomPrePassRenderDataSO::Data*)> __GlobalNamespace_BloomPrePassRenderDataSOSizeCheck;
   static_assert(sizeof(BloomPrePassRenderDataSO) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassRenderDataSO*, "", "BloomPrePassRenderDataSO");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePassRenderDataSO::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

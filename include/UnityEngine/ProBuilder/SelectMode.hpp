@@ -3,18 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: UnityEngine.ProBuilder
-namespace UnityEngine::ProBuilder {
-  // Forward declaring type: SelectMode
-  struct SelectMode;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::SelectMode, "UnityEngine.ProBuilder", "SelectMode");
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {
   // Size: 0x4
@@ -24,18 +17,12 @@ namespace UnityEngine::ProBuilder {
   // [FlagsAttribute] Offset: FFFFFFFF
   struct SelectMode/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: SelectMode
     constexpr SelectMode(int value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -113,4 +100,6 @@ namespace UnityEngine::ProBuilder {
   static check_size<sizeof(SelectMode), 0 + sizeof(int)> __UnityEngine_ProBuilder_SelectModeSizeCheck;
   static_assert(sizeof(SelectMode) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::SelectMode, "UnityEngine.ProBuilder", "SelectMode");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

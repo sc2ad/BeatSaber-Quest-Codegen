@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Asn1::X9
@@ -37,14 +37,6 @@ namespace Org::BouncyCastle::Asn1 {
   class DerObjectIdentifier;
 }
 // Completed forward declares
-// Type namespace: Org.BouncyCastle.Asn1.X9
-namespace Org::BouncyCastle::Asn1::X9 {
-  // Forward declaring type: X962NamedCurves
-  class X962NamedCurves;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Asn1::X9::X962NamedCurves);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X9::X962NamedCurves*, "Org.BouncyCastle.Asn1.X9", "X962NamedCurves");
 // Type namespace: Org.BouncyCastle.Asn1.X9
 namespace Org::BouncyCastle::Asn1::X9 {
   // Size: 0x10
@@ -99,6 +91,8 @@ namespace Org::BouncyCastle::Asn1::X9 {
     class C2pnb368w1Holder;
     // Nested type: Org::BouncyCastle::Asn1::X9::X962NamedCurves::C2tnb431r1Holder
     class C2tnb431r1Holder;
+    // Creating value type constructor for type: X962NamedCurves
+    X962NamedCurves() noexcept {}
     // Get static field: static private readonly System.Collections.IDictionary objIds
     static System::Collections::IDictionary* _get_objIds();
     // Set static field: static private readonly System.Collections.IDictionary objIds
@@ -112,33 +106,35 @@ namespace Org::BouncyCastle::Asn1::X9 {
     // Set static field: static private readonly System.Collections.IDictionary names
     static void _set_names(System::Collections::IDictionary* value);
     // static private System.Void .cctor()
-    // Offset: 0x1BA7440
+    // Offset: 0x1C27338
     static void _cctor();
     // static private Org.BouncyCastle.Asn1.X9.X9ECPoint ConfigureBasepoint(Org.BouncyCastle.Math.EC.ECCurve curve, System.String encoding)
-    // Offset: 0x1BA6F5C
+    // Offset: 0x1C26E54
     static Org::BouncyCastle::Asn1::X9::X9ECPoint* ConfigureBasepoint(Org::BouncyCastle::Math::EC::ECCurve* curve, ::Il2CppString* encoding);
     // static private Org.BouncyCastle.Math.EC.ECCurve ConfigureCurve(Org.BouncyCastle.Math.EC.ECCurve curve)
-    // Offset: 0x1BA7170
+    // Offset: 0x1C27068
     static Org::BouncyCastle::Math::EC::ECCurve* ConfigureCurve(Org::BouncyCastle::Math::EC::ECCurve* curve);
     // static private Org.BouncyCastle.Math.BigInteger FromHex(System.String hex)
-    // Offset: 0x1BA7174
+    // Offset: 0x1C2706C
     static Org::BouncyCastle::Math::BigInteger* FromHex(::Il2CppString* hex);
     // static private System.Void DefineCurve(System.String name, Org.BouncyCastle.Asn1.DerObjectIdentifier oid, Org.BouncyCastle.Asn1.X9.X9ECParametersHolder holder)
-    // Offset: 0x1BA7210
+    // Offset: 0x1C27108
     static void DefineCurve(::Il2CppString* name, Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* holder);
     // static public Org.BouncyCastle.Asn1.X9.X9ECParameters GetByName(System.String name)
-    // Offset: 0x1BA6C3C
+    // Offset: 0x1C26B34
     static Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByName(::Il2CppString* name);
     // static public Org.BouncyCastle.Asn1.X9.X9ECParameters GetByOid(Org.BouncyCastle.Asn1.DerObjectIdentifier oid)
-    // Offset: 0x1BA6E34
+    // Offset: 0x1C26D2C
     static Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByOid(Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
     // static public Org.BouncyCastle.Asn1.DerObjectIdentifier GetOid(System.String name)
-    // Offset: 0x1BA7BDC
+    // Offset: 0x1C27AD4
     static Org::BouncyCastle::Asn1::DerObjectIdentifier* GetOid(::Il2CppString* name);
   }; // Org.BouncyCastle.Asn1.X9.X962NamedCurves
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X9::X962NamedCurves*, "Org.BouncyCastle.Asn1.X9", "X962NamedCurves");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X9::X962NamedCurves::_cctor
 // Il2CppName: .cctor
 template<>

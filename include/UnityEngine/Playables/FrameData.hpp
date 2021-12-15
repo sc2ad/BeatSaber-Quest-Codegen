@@ -3,14 +3,12 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: UnityEngine.Playables.PlayableOutput
 #include "UnityEngine/Playables/PlayableOutput.hpp"
-// Including type: System.Enum
-#include "System/Enum.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Playables
@@ -20,13 +18,6 @@ namespace UnityEngine::Playables {
   // Skipping declaration: Flags because it is already included!
 }
 // Completed forward declares
-// Type namespace: UnityEngine.Playables
-namespace UnityEngine::Playables {
-  // Forward declaring type: FrameData
-  struct FrameData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::FrameData, "UnityEngine.Playables", "FrameData");
 // Type namespace: UnityEngine.Playables
 namespace UnityEngine::Playables {
   // Size: 0x3C
@@ -47,18 +38,12 @@ namespace UnityEngine::Playables {
     // [FlagsAttribute] Offset: FFFFFFFF
     struct Flags/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: Flags
       constexpr Flags(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -111,11 +96,6 @@ namespace UnityEngine::Playables {
     #pragma pack(pop)
     static check_size<sizeof(FrameData::Flags), 0 + sizeof(int)> __UnityEngine_Playables_FrameData_FlagsSizeCheck;
     static_assert(sizeof(FrameData::Flags) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // System.UInt64 m_FrameID
     // Size: 0x8
     // Offset: 0x0
@@ -172,7 +152,6 @@ namespace UnityEngine::Playables {
     UnityEngine::Playables::PlayableOutput m_Output;
     // Field size check
     static_assert(sizeof(UnityEngine::Playables::PlayableOutput) == 0xC);
-    public:
     // Creating value type constructor for type: FrameData
     constexpr FrameData(uint64_t m_FrameID_ = {}, double m_DeltaTime_ = {}, float m_Weight_ = {}, float m_EffectiveWeight_ = {}, double m_EffectiveParentDelay_ = {}, float m_EffectiveParentSpeed_ = {}, float m_EffectiveSpeed_ = {}, UnityEngine::Playables::FrameData::Flags m_Flags_ = {}, UnityEngine::Playables::PlayableOutput m_Output_ = {}) noexcept : m_FrameID{m_FrameID_}, m_DeltaTime{m_DeltaTime_}, m_Weight{m_Weight_}, m_EffectiveWeight{m_EffectiveWeight_}, m_EffectiveParentDelay{m_EffectiveParentDelay_}, m_EffectiveParentSpeed{m_EffectiveParentSpeed_}, m_EffectiveSpeed{m_EffectiveSpeed_}, m_Flags{m_Flags_}, m_Output{m_Output_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -198,40 +177,41 @@ namespace UnityEngine::Playables {
     // Get instance field reference: UnityEngine.Playables.PlayableOutput m_Output
     UnityEngine::Playables::PlayableOutput& dyn_m_Output();
     // public System.Single get_deltaTime()
-    // Offset: 0x1D982E4
+    // Offset: 0x1DAA2B8
     float get_deltaTime();
     // public System.Single get_effectiveSpeed()
-    // Offset: 0x1D982F0
+    // Offset: 0x1DAA2C4
     float get_effectiveSpeed();
     // public UnityEngine.Playables.FrameData/UnityEngine.Playables.EvaluationType get_evaluationType()
-    // Offset: 0x1D982F8
+    // Offset: 0x1DAA2CC
     UnityEngine::Playables::FrameData::EvaluationType get_evaluationType();
     // public System.Boolean get_seekOccurred()
-    // Offset: 0x1D98308
+    // Offset: 0x1DAA2DC
     bool get_seekOccurred();
     // public System.Boolean get_timeLooped()
-    // Offset: 0x1D98314
+    // Offset: 0x1DAA2E8
     bool get_timeLooped();
     // public System.Boolean get_timeHeld()
-    // Offset: 0x1D98320
+    // Offset: 0x1DAA2F4
     bool get_timeHeld();
     // public UnityEngine.Playables.PlayableOutput get_output()
-    // Offset: 0x1D9832C
+    // Offset: 0x1DAA300
     UnityEngine::Playables::PlayableOutput get_output();
     // public UnityEngine.Playables.PlayState get_effectivePlayState()
-    // Offset: 0x1D98338
+    // Offset: 0x1DAA30C
     UnityEngine::Playables::PlayState get_effectivePlayState();
     // private System.Boolean HasFlags(UnityEngine.Playables.FrameData/UnityEngine.Playables.Flags flag)
-    // Offset: 0x1D982D4
+    // Offset: 0x1DAA2A8
     bool HasFlags(UnityEngine::Playables::FrameData::Flags flag);
   }; // UnityEngine.Playables.FrameData
   #pragma pack(pop)
   static check_size<sizeof(FrameData), 48 + sizeof(UnityEngine::Playables::PlayableOutput)> __UnityEngine_Playables_FrameDataSizeCheck;
   static_assert(sizeof(FrameData) == 0x3C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::FrameData, "UnityEngine.Playables", "FrameData");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::FrameData::Flags, "UnityEngine.Playables", "FrameData/Flags");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Playables::FrameData::get_deltaTime
 // Il2CppName: get_deltaTime
 template<>

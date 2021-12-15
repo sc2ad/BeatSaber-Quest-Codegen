@@ -3,17 +3,9 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: BitMaskUtil
-  class BitMaskUtil;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BitMaskUtil);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BitMaskUtil*, "", "BitMaskUtil");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -23,22 +15,26 @@ namespace GlobalNamespace {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class BitMaskUtil : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: BitMaskUtil
+    BitMaskUtil() noexcept {}
     // static public System.UInt32 NumberOfSetBits(System.UInt64 i)
-    // Offset: 0x25FC23C
+    // Offset: 0x26BE264
     static uint NumberOfSetBits(uint64_t i);
     // static public System.UInt32 NumberOfSetBits(System.UInt32 i)
-    // Offset: 0x25FAE70
+    // Offset: 0x26BCE58
     static uint NumberOfSetBits(uint i);
     // static public System.UInt64 ShiftLeft(in System.UInt64 value, in System.Int32 shift)
-    // Offset: 0x25FC2A0
+    // Offset: 0x26BE2C8
     static uint64_t ShiftLeft(ByRef<uint64_t> value, ByRef<int> shift);
     // static public System.UInt64 ShiftRight(in System.UInt64 value, in System.Int32 shift)
-    // Offset: 0x25FC2F4
+    // Offset: 0x26BE31C
     static uint64_t ShiftRight(ByRef<uint64_t> value, ByRef<int> shift);
   }; // BitMaskUtil
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BitMaskUtil*, "", "BitMaskUtil");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BitMaskUtil::NumberOfSetBits
 // Il2CppName: NumberOfSetBits
 template<>

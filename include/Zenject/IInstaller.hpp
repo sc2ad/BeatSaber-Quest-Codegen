@@ -3,16 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: Zenject
-namespace Zenject {
-  // Forward declaring type: IInstaller
-  class IInstaller;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::IInstaller);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::IInstaller*, "Zenject", "IInstaller");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x10
@@ -21,6 +13,8 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class IInstaller {
     public:
+    // Creating value type constructor for type: IInstaller
+    IInstaller() noexcept {}
     // public System.Boolean get_IsEnabled()
     // Offset: 0xFFFFFFFF
     bool get_IsEnabled();
@@ -30,7 +24,9 @@ namespace Zenject {
   }; // Zenject.IInstaller
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Zenject::IInstaller*, "Zenject", "IInstaller");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::IInstaller::get_IsEnabled
 // Il2CppName: get_IsEnabled
 template<>

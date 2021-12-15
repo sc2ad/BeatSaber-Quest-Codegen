@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.LazyAsyncResult
 #include "System/Net/LazyAsyncResult.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Net
-namespace System::Net {
-  // Forward declaring type: ThreadContext
-  class ThreadContext;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::LazyAsyncResult::ThreadContext);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::LazyAsyncResult::ThreadContext*, "System.Net", "LazyAsyncResult/ThreadContext");
 // Type namespace: System.Net
 namespace System::Net {
   // Size: 0x14
@@ -28,18 +20,14 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class LazyAsyncResult::ThreadContext : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // System.Int32 m_NestedIOCount
     // Size: 0x4
     // Offset: 0x10
     int m_NestedIOCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
+    // Creating value type constructor for type: ThreadContext
+    ThreadContext(int m_NestedIOCount_ = {}) noexcept : m_NestedIOCount{m_NestedIOCount_} {}
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return m_NestedIOCount;
@@ -47,7 +35,7 @@ namespace System::Net {
     // Get instance field reference: System.Int32 m_NestedIOCount
     int& dyn_m_NestedIOCount();
     // public System.Void .ctor()
-    // Offset: 0x1834640
+    // Offset: 0x18B8680
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -60,7 +48,8 @@ namespace System::Net {
   static check_size<sizeof(LazyAsyncResult::ThreadContext), 16 + sizeof(int)> __System_Net_LazyAsyncResult_ThreadContextSizeCheck;
   static_assert(sizeof(LazyAsyncResult::ThreadContext) == 0x14);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::LazyAsyncResult::ThreadContext*, "System.Net", "LazyAsyncResult/ThreadContext");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::LazyAsyncResult::ThreadContext::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IO.Stream
 #include "System/IO/Stream.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Net.Security
-namespace System::Net::Security {
-  // Forward declaring type: AuthenticatedStream
-  class AuthenticatedStream;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::Security::AuthenticatedStream);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::Security::AuthenticatedStream*, "System.Net.Security", "AuthenticatedStream");
 // Type namespace: System.Net.Security
 namespace System::Net::Security {
   // Size: 0x31
@@ -28,11 +20,6 @@ namespace System::Net::Security {
   // [TokenAttribute] Offset: FFFFFFFF
   class AuthenticatedStream : public System::IO::Stream {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.IO.Stream _InnerStream
     // Size: 0x8
     // Offset: 0x28
@@ -45,26 +32,27 @@ namespace System::Net::Security {
     bool LeaveStreamOpen;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: AuthenticatedStream
+    AuthenticatedStream(System::IO::Stream* InnerStream_ = {}, bool LeaveStreamOpen_ = {}) noexcept : InnerStream{InnerStream_}, LeaveStreamOpen{LeaveStreamOpen_} {}
     // Get instance field reference: private System.IO.Stream _InnerStream
     System::IO::Stream*& dyn__InnerStream();
     // Get instance field reference: private System.Boolean _LeaveStreamOpen
     bool& dyn__LeaveStreamOpen();
     // protected System.IO.Stream get_InnerStream()
-    // Offset: 0x16311C8
+    // Offset: 0x16ACE0C
     System::IO::Stream* get_InnerStream();
     // public System.Boolean get_IsAuthenticated()
     // Offset: 0xFFFFFFFF
     bool get_IsAuthenticated();
     // protected System.Void .ctor(System.IO.Stream innerStream, System.Boolean leaveInnerStreamOpen)
-    // Offset: 0x1631024
+    // Offset: 0x16ACC68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AuthenticatedStream* New_ctor(System::IO::Stream* innerStream, bool leaveInnerStreamOpen) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Security::AuthenticatedStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AuthenticatedStream*, creationType>(innerStream, leaveInnerStreamOpen)));
     }
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x16311D0
+    // Offset: 0x16ACE14
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
@@ -73,7 +61,8 @@ namespace System::Net::Security {
   static check_size<sizeof(AuthenticatedStream), 48 + sizeof(bool)> __System_Net_Security_AuthenticatedStreamSizeCheck;
   static_assert(sizeof(AuthenticatedStream) == 0x31);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Security::AuthenticatedStream*, "System.Net.Security", "AuthenticatedStream");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Security::AuthenticatedStream::get_InnerStream
 // Il2CppName: get_InnerStream
 template<>

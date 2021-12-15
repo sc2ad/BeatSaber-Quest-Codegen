@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: RootMotion.FinalIK.IKSolverTrigonometric
 #include "RootMotion/FinalIK/IKSolverTrigonometric.hpp"
 // Including type: RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Bone
 #include "RootMotion/FinalIK/IKSolver_Bone.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: RootMotion.FinalIK
-namespace RootMotion::FinalIK {
-  // Forward declaring type: TrigonometricBone
-  class TrigonometricBone;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::FinalIK::IKSolverTrigonometric::TrigonometricBone);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverTrigonometric::TrigonometricBone*, "RootMotion.FinalIK", "IKSolverTrigonometric/TrigonometricBone");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
   // Size: 0x90
@@ -32,11 +24,6 @@ namespace RootMotion::FinalIK {
     public:
     // Writing base type padding for base size: 0x71 to desired offset: 0x74
     char ___base_padding[0x3] = {};
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private UnityEngine.Quaternion targetToLocalSpace
     // Size: 0x10
     // Offset: 0x74
@@ -49,22 +36,23 @@ namespace RootMotion::FinalIK {
     UnityEngine::Vector3 defaultLocalBendNormal;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    public:
+    // Creating value type constructor for type: TrigonometricBone
+    TrigonometricBone(UnityEngine::Quaternion targetToLocalSpace_ = {}, UnityEngine::Vector3 defaultLocalBendNormal_ = {}) noexcept : targetToLocalSpace{targetToLocalSpace_}, defaultLocalBendNormal{defaultLocalBendNormal_} {}
     // Get instance field reference: private UnityEngine.Quaternion targetToLocalSpace
     UnityEngine::Quaternion& dyn_targetToLocalSpace();
     // Get instance field reference: private UnityEngine.Vector3 defaultLocalBendNormal
     UnityEngine::Vector3& dyn_defaultLocalBendNormal();
     // public System.Void Initiate(UnityEngine.Vector3 childPosition, UnityEngine.Vector3 bendNormal)
-    // Offset: 0x1E54DD4
+    // Offset: 0x1E4FDB0
     void Initiate(UnityEngine::Vector3 childPosition, UnityEngine::Vector3 bendNormal);
     // public UnityEngine.Quaternion GetRotation(UnityEngine.Vector3 direction, UnityEngine.Vector3 bendNormal)
-    // Offset: 0x1E5598C
+    // Offset: 0x1E50968
     UnityEngine::Quaternion GetRotation(UnityEngine::Vector3 direction, UnityEngine::Vector3 bendNormal);
     // public UnityEngine.Vector3 GetBendNormalFromCurrentRotation()
-    // Offset: 0x1E4F988
+    // Offset: 0x1E4A964
     UnityEngine::Vector3 GetBendNormalFromCurrentRotation();
     // public System.Void .ctor()
-    // Offset: 0x1E55A54
+    // Offset: 0x1E50A30
     // Implemented from: RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Bone
     // Base method: System.Void Bone::.ctor()
     // Base method: System.Void Point::.ctor()
@@ -79,7 +67,8 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(IKSolverTrigonometric::TrigonometricBone), 132 + sizeof(UnityEngine::Vector3)> __RootMotion_FinalIK_IKSolverTrigonometric_TrigonometricBoneSizeCheck;
   static_assert(sizeof(IKSolverTrigonometric::TrigonometricBone) == 0x90);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverTrigonometric::TrigonometricBone*, "RootMotion.FinalIK", "IKSolverTrigonometric/TrigonometricBone");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverTrigonometric::TrigonometricBone::Initiate
 // Il2CppName: Initiate
 template<>

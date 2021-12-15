@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.UI.ILayoutController
 #include "UnityEngine/UI/ILayoutController.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: StartMiddleEndButtonsGroup
-  class StartMiddleEndButtonsGroup;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::StartMiddleEndButtonsGroup);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StartMiddleEndButtonsGroup*, "", "StartMiddleEndButtonsGroup");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x18
@@ -30,18 +22,20 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class StartMiddleEndButtonsGroup : public UnityEngine::MonoBehaviour/*, public UnityEngine::UI::ILayoutController*/ {
     public:
+    // Creating value type constructor for type: StartMiddleEndButtonsGroup
+    StartMiddleEndButtonsGroup() noexcept {}
     // Creating interface conversion operator: operator UnityEngine::UI::ILayoutController
     operator UnityEngine::UI::ILayoutController() noexcept {
       return *reinterpret_cast<UnityEngine::UI::ILayoutController*>(this);
     }
     // public System.Void SetLayoutHorizontal()
-    // Offset: 0x115584C
+    // Offset: 0x12238FC
     void SetLayoutHorizontal();
     // public System.Void SetLayoutVertical()
-    // Offset: 0x1155950
+    // Offset: 0x1223A00
     void SetLayoutVertical();
     // public System.Void .ctor()
-    // Offset: 0x1155954
+    // Offset: 0x1223A04
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -56,7 +50,8 @@ namespace GlobalNamespace {
   }; // StartMiddleEndButtonsGroup
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StartMiddleEndButtonsGroup*, "", "StartMiddleEndButtonsGroup");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::StartMiddleEndButtonsGroup::SetLayoutHorizontal
 // Il2CppName: SetLayoutHorizontal
 template<>

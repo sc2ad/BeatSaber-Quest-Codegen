@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PlayerSaveDataV1_0_1
 #include "GlobalNamespace/PlayerSaveDataV1_0_1.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: GameplayModifiers
-  class GameplayModifiers;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers*, "", "PlayerSaveDataV1_0_1/GameplayModifiers");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x24
@@ -42,18 +34,12 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct EnabledObstacleType/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: EnabledObstacleType
       constexpr EnabledObstacleType(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -94,18 +80,12 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct EnergyType/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: EnergyType
       constexpr EnergyType(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -140,18 +120,12 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct SongSpeed/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: SongSpeed
       constexpr SongSpeed(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -186,11 +160,6 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(PlayerSaveDataV1_0_1::GameplayModifiers::SongSpeed), 0 + sizeof(int)> __GlobalNamespace_PlayerSaveDataV1_0_1_GameplayModifiers_SongSpeedSizeCheck;
     static_assert(sizeof(PlayerSaveDataV1_0_1::GameplayModifiers::SongSpeed) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public PlayerSaveDataV1_0_1/GameplayModifiers/EnergyType energyType
     // Size: 0x4
     // Offset: 0x10
@@ -253,7 +222,8 @@ namespace GlobalNamespace {
     GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::SongSpeed songSpeed;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::SongSpeed) == 0x4);
-    public:
+    // Creating value type constructor for type: GameplayModifiers
+    GameplayModifiers(GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::EnergyType energyType_ = {}, bool noFail_ = {}, bool instaFail_ = {}, bool failOnSaberClash_ = {}, GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::EnabledObstacleType enabledObstacleType_ = {}, bool fastNotes_ = {}, bool strictAngles_ = {}, bool disappearingArrows_ = {}, bool noBombs_ = {}, GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::SongSpeed songSpeed_ = {}) noexcept : energyType{energyType_}, noFail{noFail_}, instaFail{instaFail_}, failOnSaberClash{failOnSaberClash_}, enabledObstacleType{enabledObstacleType_}, fastNotes{fastNotes_}, strictAngles{strictAngles_}, disappearingArrows{disappearingArrows_}, noBombs{noBombs_}, songSpeed{songSpeed_} {}
     // Get instance field reference: public PlayerSaveDataV1_0_1/GameplayModifiers/EnergyType energyType
     GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::EnergyType& dyn_energyType();
     // Get instance field reference: public System.Boolean noFail
@@ -275,7 +245,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public PlayerSaveDataV1_0_1/GameplayModifiers/SongSpeed songSpeed
     GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::SongSpeed& dyn_songSpeed();
     // public System.Void .ctor()
-    // Offset: 0x12CC574
+    // Offset: 0x11AAAC4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -288,13 +258,11 @@ namespace GlobalNamespace {
   static check_size<sizeof(PlayerSaveDataV1_0_1::GameplayModifiers), 32 + sizeof(GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::SongSpeed)> __GlobalNamespace_PlayerSaveDataV1_0_1_GameplayModifiersSizeCheck;
   static_assert(sizeof(PlayerSaveDataV1_0_1::GameplayModifiers) == 0x24);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers*, "", "PlayerSaveDataV1_0_1/GameplayModifiers");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::EnabledObstacleType, "", "PlayerSaveDataV1_0_1/GameplayModifiers/EnabledObstacleType");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::EnergyType, "", "PlayerSaveDataV1_0_1/GameplayModifiers/EnergyType");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::SongSpeed, "", "PlayerSaveDataV1_0_1/GameplayModifiers/SongSpeed");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

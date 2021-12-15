@@ -4,19 +4,12 @@
 #pragma once
 // Begin includes
 #include <stdint.h>
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: Valve.VR.VRControllerAxis_t
 #include "Valve/VR/VRControllerAxis_t.hpp"
 // Completed includes
-// Type namespace: Valve.VR
-namespace Valve::VR {
-  // Forward declaring type: VRControllerState_t
-  struct VRControllerState_t;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VRControllerState_t, "Valve.VR", "VRControllerState_t");
 // Type namespace: Valve.VR
 namespace Valve::VR {
   // Size: 0x40
@@ -26,11 +19,6 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VRControllerState_t/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.UInt32 unPacketNum
     // Size: 0x4
     // Offset: 0x0
@@ -81,7 +69,6 @@ namespace Valve::VR {
     Valve::VR::VRControllerAxis_t rAxis4;
     // Field size check
     static_assert(sizeof(Valve::VR::VRControllerAxis_t) == 0x8);
-    public:
     // Creating value type constructor for type: VRControllerState_t
     constexpr VRControllerState_t(uint unPacketNum_ = {}, uint64_t ulButtonPressed_ = {}, uint64_t ulButtonTouched_ = {}, Valve::VR::VRControllerAxis_t rAxis0_ = {}, Valve::VR::VRControllerAxis_t rAxis1_ = {}, Valve::VR::VRControllerAxis_t rAxis2_ = {}, Valve::VR::VRControllerAxis_t rAxis3_ = {}, Valve::VR::VRControllerAxis_t rAxis4_ = {}) noexcept : unPacketNum{unPacketNum_}, ulButtonPressed{ulButtonPressed_}, ulButtonTouched{ulButtonTouched_}, rAxis0{rAxis0_}, rAxis1{rAxis1_}, rAxis2{rAxis2_}, rAxis3{rAxis3_}, rAxis4{rAxis4_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -109,4 +96,6 @@ namespace Valve::VR {
   static check_size<sizeof(VRControllerState_t), 56 + sizeof(Valve::VR::VRControllerAxis_t)> __Valve_VR_VRControllerState_tSizeCheck;
   static_assert(sizeof(VRControllerState_t) == 0x40);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VRControllerState_t, "Valve.VR", "VRControllerState_t");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Exception
 #include "System/Exception.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: HoudiniEngineUnity
-namespace HoudiniEngineUnity {
-  // Forward declaring type: HEU_HoudiniEngineError
-  class HEU_HoudiniEngineError;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_HoudiniEngineError);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_HoudiniEngineError*, "HoudiniEngineUnity", "HEU_HoudiniEngineError");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x90
@@ -28,18 +20,14 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_HoudiniEngineError : public System::Exception {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // protected System.String _errorMsg
     // Size: 0x8
     // Offset: 0x88
     ::Il2CppString* errorMsg;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: HEU_HoudiniEngineError
+    HEU_HoudiniEngineError(::Il2CppString* errorMsg_ = {}) noexcept : errorMsg{errorMsg_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return errorMsg;
@@ -47,7 +35,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: protected System.String _errorMsg
     ::Il2CppString*& dyn__errorMsg();
     // public System.Void .ctor()
-    // Offset: 0x1504C58
+    // Offset: 0x158AAD0
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -57,7 +45,7 @@ namespace HoudiniEngineUnity {
       return THROW_UNLESS((::il2cpp_utils::New<HEU_HoudiniEngineError*, creationType>()));
     }
     // public System.Void .ctor(System.String errorMsg)
-    // Offset: 0x1504CD0
+    // Offset: 0x158AB48
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String errorMsg)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -66,7 +54,7 @@ namespace HoudiniEngineUnity {
       return THROW_UNLESS((::il2cpp_utils::New<HEU_HoudiniEngineError*, creationType>(errorMsg)));
     }
     // public override System.String ToString()
-    // Offset: 0x1504D5C
+    // Offset: 0x158ABD4
     // Implemented from: System.Exception
     // Base method: System.String Exception::ToString()
     ::Il2CppString* ToString();
@@ -75,7 +63,8 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_HoudiniEngineError), 136 + sizeof(::Il2CppString*)> __HoudiniEngineUnity_HEU_HoudiniEngineErrorSizeCheck;
   static_assert(sizeof(HEU_HoudiniEngineError) == 0x90);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_HoudiniEngineError*, "HoudiniEngineUnity", "HEU_HoudiniEngineError");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HoudiniEngineError::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Resources.IResourceGroveler
 #include "System/Resources/IResourceGroveler.hpp"
 // Including type: System.Resources.ResourceManager
 #include "System/Resources/ResourceManager.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Resources
-namespace System::Resources {
-  // Forward declaring type: FileBasedResourceGroveler
-  class FileBasedResourceGroveler;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Resources::FileBasedResourceGroveler);
-DEFINE_IL2CPP_ARG_TYPE(System::Resources::FileBasedResourceGroveler*, "System.Resources", "FileBasedResourceGroveler");
 // Type namespace: System.Resources
 namespace System::Resources {
   // Size: 0x18
@@ -30,18 +22,14 @@ namespace System::Resources {
   // [TokenAttribute] Offset: FFFFFFFF
   class FileBasedResourceGroveler : public ::Il2CppObject/*, public System::Resources::IResourceGroveler*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Resources.ResourceManager/System.Resources.ResourceManagerMediator _mediator
     // Size: 0x8
     // Offset: 0x10
     System::Resources::ResourceManager::ResourceManagerMediator* mediator;
     // Field size check
     static_assert(sizeof(System::Resources::ResourceManager::ResourceManagerMediator*) == 0x8);
-    public:
+    // Creating value type constructor for type: FileBasedResourceGroveler
+    FileBasedResourceGroveler(System::Resources::ResourceManager::ResourceManagerMediator* mediator_ = {}) noexcept : mediator{mediator_} {}
     // Creating interface conversion operator: operator System::Resources::IResourceGroveler
     operator System::Resources::IResourceGroveler() noexcept {
       return *reinterpret_cast<System::Resources::IResourceGroveler*>(this);
@@ -53,7 +41,7 @@ namespace System::Resources {
     // Get instance field reference: private System.Resources.ResourceManager/System.Resources.ResourceManagerMediator _mediator
     System::Resources::ResourceManager::ResourceManagerMediator*& dyn__mediator();
     // public System.Void .ctor(System.Resources.ResourceManager/System.Resources.ResourceManagerMediator mediator)
-    // Offset: 0x158B4D0
+    // Offset: 0x16197C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileBasedResourceGroveler* New_ctor(System::Resources::ResourceManager::ResourceManagerMediator* mediator) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Resources::FileBasedResourceGroveler::.ctor");
@@ -64,7 +52,8 @@ namespace System::Resources {
   static check_size<sizeof(FileBasedResourceGroveler), 16 + sizeof(System::Resources::ResourceManager::ResourceManagerMediator*)> __System_Resources_FileBasedResourceGrovelerSizeCheck;
   static_assert(sizeof(FileBasedResourceGroveler) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Resources::FileBasedResourceGroveler*, "System.Resources", "FileBasedResourceGroveler");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Resources::FileBasedResourceGroveler::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

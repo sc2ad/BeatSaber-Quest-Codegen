@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: SyncStateId
 #include "GlobalNamespace/SyncStateId.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: ISyncStateDeltaSerializable`1<T>
-  template<typename T>
-  class ISyncStateDeltaSerializable_1;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::ISyncStateDeltaSerializable_1, "", "ISyncStateDeltaSerializable`1");
 // Type namespace: 
 namespace GlobalNamespace {
   // WARNING Size may be invalid!
@@ -28,49 +20,58 @@ namespace GlobalNamespace {
   template<typename T>
   class ISyncStateDeltaSerializable_1 {
     public:
+    // Creating value type constructor for type: ISyncStateDeltaSerializable_1
+    ISyncStateDeltaSerializable_1() noexcept {}
     // public SyncStateId get_baseId()
     // Offset: 0xFFFFFFFF
     GlobalNamespace::SyncStateId get_baseId() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ISyncStateDeltaSerializable_1::get_baseId");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_baseId", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::SyncStateId, false>(this, ___internal__method);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::SyncStateId, false>(___instance_arg, ___internal__method);
     }
     // public System.Void set_baseId(SyncStateId value)
     // Offset: 0xFFFFFFFF
     void set_baseId(GlobalNamespace::SyncStateId value) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ISyncStateDeltaSerializable_1::set_baseId");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_baseId", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, value);
+      auto ___instance_arg = this;
+      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, value);
     }
     // public System.Int32 get_timeOffsetMs()
     // Offset: 0xFFFFFFFF
     int get_timeOffsetMs() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ISyncStateDeltaSerializable_1::get_timeOffsetMs");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_timeOffsetMs", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<int, false>(___instance_arg, ___internal__method);
     }
     // public System.Void set_timeOffsetMs(System.Int32 value)
     // Offset: 0xFFFFFFFF
     void set_timeOffsetMs(int value) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ISyncStateDeltaSerializable_1::set_timeOffsetMs");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_timeOffsetMs", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, value);
+      auto ___instance_arg = this;
+      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, value);
     }
     // public T get_delta()
     // Offset: 0xFFFFFFFF
     T get_delta() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ISyncStateDeltaSerializable_1::get_delta");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_delta", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<T, false>(___instance_arg, ___internal__method);
     }
     // public System.Void set_delta(T value)
     // Offset: 0xFFFFFFFF
     void set_delta(T value) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ISyncStateDeltaSerializable_1::set_delta");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_delta", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, value);
+      auto ___instance_arg = this;
+      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, value);
     }
   }; // ISyncStateDeltaSerializable`1
   // Could not write size check! Type: ISyncStateDeltaSerializable`1 is generic, or has no fields that are valid for size checks!
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::ISyncStateDeltaSerializable_1, "", "ISyncStateDeltaSerializable`1");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

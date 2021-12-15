@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Tweening.TweeningManager
 #include "Tweening/TweeningManager.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Tweening
-namespace Tweening {
-  // Forward declaring type: TimeTweeningManager
-  class TimeTweeningManager;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Tweening::TimeTweeningManager);
-DEFINE_IL2CPP_ARG_TYPE(Tweening::TimeTweeningManager*, "Tweening", "TimeTweeningManager");
 // Type namespace: Tweening
 namespace Tweening {
   // Size: 0x38
@@ -28,8 +20,10 @@ namespace Tweening {
   // [TokenAttribute] Offset: FFFFFFFF
   class TimeTweeningManager : public Tweening::TweeningManager {
     public:
+    // Creating value type constructor for type: TimeTweeningManager
+    TimeTweeningManager() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1265704
+    // Offset: 0x120BFD8
     // Implemented from: Tweening.TweeningManager
     // Base method: System.Void TweeningManager::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -43,14 +37,15 @@ namespace Tweening {
       return THROW_UNLESS((::il2cpp_utils::New<TimeTweeningManager*, creationType>()));
     }
     // protected override System.Single GetTime()
-    // Offset: 0x12656FC
+    // Offset: 0x120BFD0
     // Implemented from: Tweening.TweeningManager
     // Base method: System.Single TweeningManager::GetTime()
     float GetTime();
   }; // Tweening.TimeTweeningManager
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Tweening::TimeTweeningManager*, "Tweening", "TimeTweeningManager");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Tweening::TimeTweeningManager::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

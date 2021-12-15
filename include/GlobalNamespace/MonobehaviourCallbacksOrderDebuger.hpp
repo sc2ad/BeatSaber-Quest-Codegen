@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: MonobehaviourCallbacksOrderDebuger
-  class MonobehaviourCallbacksOrderDebuger;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MonobehaviourCallbacksOrderDebuger);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MonobehaviourCallbacksOrderDebuger*, "", "MonobehaviourCallbacksOrderDebuger");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x18
@@ -28,17 +20,19 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MonobehaviourCallbacksOrderDebuger : public UnityEngine::MonoBehaviour {
     public:
+    // Creating value type constructor for type: MonobehaviourCallbacksOrderDebuger
+    MonobehaviourCallbacksOrderDebuger() noexcept {}
     // protected System.Void Awake()
-    // Offset: 0x136C004
+    // Offset: 0x139CBF8
     void Awake();
     // protected System.Void OnEnable()
-    // Offset: 0x136C0AC
+    // Offset: 0x139CCA0
     void OnEnable();
     // protected System.Void Start()
-    // Offset: 0x136C154
+    // Offset: 0x139CD48
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x136C1FC
+    // Offset: 0x139CDF0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -53,7 +47,8 @@ namespace GlobalNamespace {
   }; // MonobehaviourCallbacksOrderDebuger
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MonobehaviourCallbacksOrderDebuger*, "", "MonobehaviourCallbacksOrderDebuger");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MonobehaviourCallbacksOrderDebuger::Awake
 // Il2CppName: Awake
 template<>

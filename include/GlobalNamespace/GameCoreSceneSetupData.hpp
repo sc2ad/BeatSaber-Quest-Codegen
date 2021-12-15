@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: SceneSetupData
 #include "GlobalNamespace/SceneSetupData.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: GameCoreSceneSetupData
-  class GameCoreSceneSetupData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::GameCoreSceneSetupData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameCoreSceneSetupData*, "", "GameCoreSceneSetupData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -28,8 +20,10 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GameCoreSceneSetupData : public GlobalNamespace::SceneSetupData {
     public:
+    // Creating value type constructor for type: GameCoreSceneSetupData
+    GameCoreSceneSetupData() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x11A6CD8
+    // Offset: 0x11EAA24
     // Implemented from: SceneSetupData
     // Base method: System.Void SceneSetupData::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -41,7 +35,8 @@ namespace GlobalNamespace {
   }; // GameCoreSceneSetupData
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameCoreSceneSetupData*, "", "GameCoreSceneSetupData");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameCoreSceneSetupData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

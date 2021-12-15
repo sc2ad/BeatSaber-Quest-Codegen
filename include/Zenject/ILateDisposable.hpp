@@ -3,16 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: Zenject
-namespace Zenject {
-  // Forward declaring type: ILateDisposable
-  class ILateDisposable;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::ILateDisposable);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::ILateDisposable*, "Zenject", "ILateDisposable");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x10
@@ -21,13 +13,17 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class ILateDisposable {
     public:
+    // Creating value type constructor for type: ILateDisposable
+    ILateDisposable() noexcept {}
     // public System.Void LateDispose()
     // Offset: 0xFFFFFFFF
     void LateDispose();
   }; // Zenject.ILateDisposable
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Zenject::ILateDisposable*, "Zenject", "ILateDisposable");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::ILateDisposable::LateDispose
 // Il2CppName: LateDispose
 template<>

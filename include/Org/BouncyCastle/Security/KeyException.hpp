@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Security.GeneralSecurityException
 #include "Org/BouncyCastle/Security/GeneralSecurityException.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Org.BouncyCastle.Security
-namespace Org::BouncyCastle::Security {
-  // Forward declaring type: KeyException
-  class KeyException;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Security::KeyException);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Security::KeyException*, "Org.BouncyCastle.Security", "KeyException");
 // Type namespace: Org.BouncyCastle.Security
 namespace Org::BouncyCastle::Security {
   // Size: 0x88
@@ -28,8 +20,10 @@ namespace Org::BouncyCastle::Security {
   // [TokenAttribute] Offset: FFFFFFFF
   class KeyException : public Org::BouncyCastle::Security::GeneralSecurityException {
     public:
+    // Creating value type constructor for type: KeyException
+    KeyException() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x14B571C
+    // Offset: 0x152B76C
     // Implemented from: Org.BouncyCastle.Security.GeneralSecurityException
     // Base method: System.Void GeneralSecurityException::.ctor()
     // Base method: System.Void Exception::.ctor()
@@ -40,7 +34,7 @@ namespace Org::BouncyCastle::Security {
       return THROW_UNLESS((::il2cpp_utils::New<KeyException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
-    // Offset: 0x14B5724
+    // Offset: 0x152B774
     // Implemented from: Org.BouncyCastle.Security.GeneralSecurityException
     // Base method: System.Void GeneralSecurityException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
@@ -52,7 +46,8 @@ namespace Org::BouncyCastle::Security {
   }; // Org.BouncyCastle.Security.KeyException
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Security::KeyException*, "Org.BouncyCastle.Security", "KeyException");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Security::KeyException::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

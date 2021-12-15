@@ -3,26 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Oculus.Platform.VoipAudioSourceHiLevel
 #include "Oculus/Platform/VoipAudioSourceHiLevel.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Oculus.Platform
-namespace Oculus::Platform {
-  // Forward declaring type: FilterReadDelegate
-  class FilterReadDelegate;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::VoipAudioSourceHiLevel::FilterReadDelegate);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::VoipAudioSourceHiLevel::FilterReadDelegate*, "Oculus.Platform", "VoipAudioSourceHiLevel/FilterReadDelegate");
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
   // Size: 0x28
@@ -31,11 +22,6 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class VoipAudioSourceHiLevel::FilterReadDelegate : public UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public Oculus.Platform.VoipAudioSourceHiLevel parent
     // Size: 0x8
     // Offset: 0x18
@@ -45,24 +31,25 @@ namespace Oculus::Platform {
     // private System.Single[] scratchBuffer
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayW<float> scratchBuffer;
+    ::Array<float>* scratchBuffer;
     // Field size check
-    static_assert(sizeof(::ArrayW<float>) == 0x8);
-    public:
+    static_assert(sizeof(::Array<float>*) == 0x8);
+    // Creating value type constructor for type: FilterReadDelegate
+    FilterReadDelegate(Oculus::Platform::VoipAudioSourceHiLevel* parent_ = {}, ::Array<float>* scratchBuffer_ = {}) noexcept : parent{parent_}, scratchBuffer{scratchBuffer_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public Oculus.Platform.VoipAudioSourceHiLevel parent
     Oculus::Platform::VoipAudioSourceHiLevel*& dyn_parent();
     // Get instance field reference: private System.Single[] scratchBuffer
-    ::ArrayW<float>& dyn_scratchBuffer();
+    ::Array<float>*& dyn_scratchBuffer();
     // private System.Void Awake()
-    // Offset: 0x25A3914
+    // Offset: 0x2667F68
     void Awake();
     // private System.Void OnAudioFilterRead(System.Single[] data, System.Int32 channels)
-    // Offset: 0x25A39CC
-    void OnAudioFilterRead(::ArrayW<float> data, int channels);
+    // Offset: 0x2668020
+    void OnAudioFilterRead(::Array<float>* data, int channels);
     // public System.Void .ctor()
-    // Offset: 0x25A3E94
+    // Offset: 0x26684E8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -76,10 +63,11 @@ namespace Oculus::Platform {
     }
   }; // Oculus.Platform.VoipAudioSourceHiLevel/Oculus.Platform.FilterReadDelegate
   #pragma pack(pop)
-  static check_size<sizeof(VoipAudioSourceHiLevel::FilterReadDelegate), 32 + sizeof(::ArrayW<float>)> __Oculus_Platform_VoipAudioSourceHiLevel_FilterReadDelegateSizeCheck;
+  static check_size<sizeof(VoipAudioSourceHiLevel::FilterReadDelegate), 32 + sizeof(::Array<float>*)> __Oculus_Platform_VoipAudioSourceHiLevel_FilterReadDelegateSizeCheck;
   static_assert(sizeof(VoipAudioSourceHiLevel::FilterReadDelegate) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::VoipAudioSourceHiLevel::FilterReadDelegate*, "Oculus.Platform", "VoipAudioSourceHiLevel/FilterReadDelegate");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::VoipAudioSourceHiLevel::FilterReadDelegate::Awake
 // Il2CppName: Awake
 template<>
@@ -91,7 +79,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
 // Writing MetadataGetter for method: Oculus::Platform::VoipAudioSourceHiLevel::FilterReadDelegate::OnAudioFilterRead
 // Il2CppName: OnAudioFilterRead
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::VoipAudioSourceHiLevel::FilterReadDelegate::*)(::ArrayW<float>, int)>(&Oculus::Platform::VoipAudioSourceHiLevel::FilterReadDelegate::OnAudioFilterRead)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::VoipAudioSourceHiLevel::FilterReadDelegate::*)(::Array<float>*, int)>(&Oculus::Platform::VoipAudioSourceHiLevel::FilterReadDelegate::OnAudioFilterRead)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     static auto* channels = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Exception
 #include "System/Exception.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: UnityEngine.ProBuilder.KdTree
-namespace UnityEngine::ProBuilder::KdTree {
-  // Forward declaring type: DuplicateNodeError
-  class DuplicateNodeError;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ProBuilder::KdTree::DuplicateNodeError);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::KdTree::DuplicateNodeError*, "UnityEngine.ProBuilder.KdTree", "DuplicateNodeError");
 // Type namespace: UnityEngine.ProBuilder.KdTree
 namespace UnityEngine::ProBuilder::KdTree {
   // Size: 0x88
@@ -28,8 +20,10 @@ namespace UnityEngine::ProBuilder::KdTree {
   // [TokenAttribute] Offset: FFFFFFFF
   class DuplicateNodeError : public System::Exception {
     public:
+    // Creating value type constructor for type: DuplicateNodeError
+    DuplicateNodeError() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x2612D98
+    // Offset: 0x26D4E4C
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -41,7 +35,8 @@ namespace UnityEngine::ProBuilder::KdTree {
   }; // UnityEngine.ProBuilder.KdTree.DuplicateNodeError
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::KdTree::DuplicateNodeError*, "UnityEngine.ProBuilder.KdTree", "DuplicateNodeError");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::KdTree::DuplicateNodeError::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

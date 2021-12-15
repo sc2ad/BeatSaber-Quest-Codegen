@@ -3,14 +3,14 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.Internal.ReflectionTypeAnalyzer
 #include "Zenject/Internal/ReflectionTypeAnalyzer.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection
@@ -23,15 +23,12 @@ namespace System {
   // Forward declaring type: Type
   class Type;
 }
-// Completed forward declares
-// Type namespace: Zenject.Internal
-namespace Zenject::Internal {
-  // Forward declaring type: <>c__DisplayClass5_1
-  class $$c__DisplayClass5_1;
+// Forward declaring namespace: Zenject
+namespace Zenject {
+  // Forward declaring type: InjectTypeInfo
+  class InjectTypeInfo;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::Internal::ReflectionTypeAnalyzer::$$c__DisplayClass5_1);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::ReflectionTypeAnalyzer::$$c__DisplayClass5_1*, "Zenject.Internal", "ReflectionTypeAnalyzer/<>c__DisplayClass5_1");
+// Completed forward declares
 // Type namespace: Zenject.Internal
 namespace Zenject::Internal {
   // Size: 0x18
@@ -41,18 +38,14 @@ namespace Zenject::Internal {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class ReflectionTypeAnalyzer::$$c__DisplayClass5_1 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Reflection.PropertyInfo x
     // Size: 0x8
     // Offset: 0x10
     System::Reflection::PropertyInfo* x;
     // Field size check
     static_assert(sizeof(System::Reflection::PropertyInfo*) == 0x8);
-    public:
+    // Creating value type constructor for type: $$c__DisplayClass5_1
+    $$c__DisplayClass5_1(System::Reflection::PropertyInfo* x_ = {}) noexcept : x{x_} {}
     // Creating conversion operator: operator System::Reflection::PropertyInfo*
     constexpr operator System::Reflection::PropertyInfo*() const noexcept {
       return x;
@@ -60,10 +53,16 @@ namespace Zenject::Internal {
     // Get instance field reference: public System.Reflection.PropertyInfo x
     System::Reflection::PropertyInfo*& dyn_x();
     // System.Boolean <GetPropertyInfos>b__2(System.Type a)
-    // Offset: 0x181D540
+    // Offset: 0x18D68E0
     bool $GetPropertyInfos$b__2(System::Type* a);
+    // static private System.Object __zenCreate(System.Object[] P_0)
+    // Offset: 0x18D69B8
+    static ::Il2CppObject* __zenCreate(::Array<::Il2CppObject*>* P_0);
+    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
+    // Offset: 0x18D6A14
+    static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
-    // Offset: 0x181D038
+    // Offset: 0x18D5EA4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -76,7 +75,8 @@ namespace Zenject::Internal {
   static check_size<sizeof(ReflectionTypeAnalyzer::$$c__DisplayClass5_1), 16 + sizeof(System::Reflection::PropertyInfo*)> __Zenject_Internal_ReflectionTypeAnalyzer_$$c__DisplayClass5_1SizeCheck;
   static_assert(sizeof(ReflectionTypeAnalyzer::$$c__DisplayClass5_1) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::ReflectionTypeAnalyzer::$$c__DisplayClass5_1*, "Zenject.Internal", "ReflectionTypeAnalyzer/<>c__DisplayClass5_1");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::Internal::ReflectionTypeAnalyzer::$$c__DisplayClass5_1::$GetPropertyInfos$b__2
 // Il2CppName: <GetPropertyInfos>b__2
 template<>
@@ -84,6 +84,23 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenje
   static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ReflectionTypeAnalyzer::$$c__DisplayClass5_1*), "<GetPropertyInfos>b__2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a});
+  }
+};
+// Writing MetadataGetter for method: Zenject::Internal::ReflectionTypeAnalyzer::$$c__DisplayClass5_1::__zenCreate
+// Il2CppName: __zenCreate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Array<::Il2CppObject*>*)>(&Zenject::Internal::ReflectionTypeAnalyzer::$$c__DisplayClass5_1::__zenCreate)> {
+  static const MethodInfo* get() {
+    static auto* P_0 = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ReflectionTypeAnalyzer::$$c__DisplayClass5_1*), "__zenCreate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{P_0});
+  }
+};
+// Writing MetadataGetter for method: Zenject::Internal::ReflectionTypeAnalyzer::$$c__DisplayClass5_1::__zenCreateInjectTypeInfo
+// Il2CppName: __zenCreateInjectTypeInfo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo* (*)()>(&Zenject::Internal::ReflectionTypeAnalyzer::$$c__DisplayClass5_1::__zenCreateInjectTypeInfo)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ReflectionTypeAnalyzer::$$c__DisplayClass5_1*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: Zenject::Internal::ReflectionTypeAnalyzer::$$c__DisplayClass5_1::New_ctor

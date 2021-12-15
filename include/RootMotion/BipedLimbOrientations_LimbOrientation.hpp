@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: RootMotion.BipedLimbOrientations
 #include "RootMotion/BipedLimbOrientations.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: RootMotion
-namespace RootMotion {
-  // Forward declaring type: LimbOrientation
-  class LimbOrientation;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::BipedLimbOrientations::LimbOrientation);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::BipedLimbOrientations::LimbOrientation*, "RootMotion", "BipedLimbOrientations/LimbOrientation");
 // Type namespace: RootMotion
 namespace RootMotion {
   // Size: 0x34
@@ -30,11 +22,6 @@ namespace RootMotion {
   // [TokenAttribute] Offset: FFFFFFFF
   class BipedLimbOrientations::LimbOrientation : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public UnityEngine.Vector3 upperBoneForwardAxis
     // Size: 0xC
     // Offset: 0x10
@@ -53,7 +40,8 @@ namespace RootMotion {
     UnityEngine::Vector3 lastBoneLeftAxis;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    public:
+    // Creating value type constructor for type: LimbOrientation
+    LimbOrientation(UnityEngine::Vector3 upperBoneForwardAxis_ = {}, UnityEngine::Vector3 lowerBoneForwardAxis_ = {}, UnityEngine::Vector3 lastBoneLeftAxis_ = {}) noexcept : upperBoneForwardAxis{upperBoneForwardAxis_}, lowerBoneForwardAxis{lowerBoneForwardAxis_}, lastBoneLeftAxis{lastBoneLeftAxis_} {}
     // Get instance field reference: public UnityEngine.Vector3 upperBoneForwardAxis
     UnityEngine::Vector3& dyn_upperBoneForwardAxis();
     // Get instance field reference: public UnityEngine.Vector3 lowerBoneForwardAxis
@@ -61,7 +49,7 @@ namespace RootMotion {
     // Get instance field reference: public UnityEngine.Vector3 lastBoneLeftAxis
     UnityEngine::Vector3& dyn_lastBoneLeftAxis();
     // public System.Void .ctor(UnityEngine.Vector3 upperBoneForwardAxis, UnityEngine.Vector3 lowerBoneForwardAxis, UnityEngine.Vector3 lastBoneLeftAxis)
-    // Offset: 0x1E9D534
+    // Offset: 0x1EA2F94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BipedLimbOrientations::LimbOrientation* New_ctor(UnityEngine::Vector3 upperBoneForwardAxis, UnityEngine::Vector3 lowerBoneForwardAxis, UnityEngine::Vector3 lastBoneLeftAxis) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::BipedLimbOrientations::LimbOrientation::.ctor");
@@ -72,7 +60,8 @@ namespace RootMotion {
   static check_size<sizeof(BipedLimbOrientations::LimbOrientation), 40 + sizeof(UnityEngine::Vector3)> __RootMotion_BipedLimbOrientations_LimbOrientationSizeCheck;
   static_assert(sizeof(BipedLimbOrientations::LimbOrientation) == 0x34);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::BipedLimbOrientations::LimbOrientation*, "RootMotion", "BipedLimbOrientations/LimbOrientation");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::BipedLimbOrientations::LimbOrientation::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System
-namespace System {
-  // Forward declaring type: MonoAsyncCall
-  class MonoAsyncCall;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::MonoAsyncCall);
-DEFINE_IL2CPP_ARG_TYPE(System::MonoAsyncCall*, "System", "MonoAsyncCall");
 // Type namespace: System
 namespace System {
   // Size: 0x40
@@ -29,11 +21,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class MonoAsyncCall : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Object msg
     // Size: 0x8
     // Offset: 0x10
@@ -70,7 +57,8 @@ namespace System {
     ::Il2CppObject* out_args;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    public:
+    // Creating value type constructor for type: MonoAsyncCall
+    MonoAsyncCall(::Il2CppObject* msg_ = {}, System::IntPtr cb_method_ = {}, ::Il2CppObject* cb_target_ = {}, ::Il2CppObject* state_ = {}, ::Il2CppObject* res_ = {}, ::Il2CppObject* out_args_ = {}) noexcept : msg{msg_}, cb_method{cb_method_}, cb_target{cb_target_}, state{state_}, res{res_}, out_args{out_args_} {}
     // Get instance field reference: private System.Object msg
     ::Il2CppObject*& dyn_msg();
     // Get instance field reference: private System.IntPtr cb_method
@@ -84,7 +72,7 @@ namespace System {
     // Get instance field reference: private System.Object out_args
     ::Il2CppObject*& dyn_out_args();
     // public System.Void .ctor()
-    // Offset: 0x19F5BE4
+    // Offset: 0x1A14294
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -97,7 +85,8 @@ namespace System {
   static check_size<sizeof(MonoAsyncCall), 56 + sizeof(::Il2CppObject*)> __System_MonoAsyncCallSizeCheck;
   static_assert(sizeof(MonoAsyncCall) == 0x40);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::MonoAsyncCall*, "System", "MonoAsyncCall");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::MonoAsyncCall::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

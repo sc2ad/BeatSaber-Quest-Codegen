@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: HoudiniEngineUnity
-namespace HoudiniEngineUnity {
-  // Forward declaring type: HEU_InputObjectPreset
-  class HEU_InputObjectPreset;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_InputObjectPreset);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_InputObjectPreset*, "HoudiniEngineUnity", "HEU_InputObjectPreset");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x40
@@ -28,11 +20,6 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_InputObjectPreset : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.String _gameObjectName
     // Size: 0x8
     // Offset: 0x10
@@ -71,7 +58,8 @@ namespace HoudiniEngineUnity {
     UnityEngine::Vector3 scaleOffset;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    public:
+    // Creating value type constructor for type: HEU_InputObjectPreset
+    HEU_InputObjectPreset(::Il2CppString* gameObjectName_ = {}, bool isSceneObject_ = {}, bool useTransformOffset_ = {}, UnityEngine::Vector3 translateOffset_ = {}, UnityEngine::Vector3 rotateOffset_ = {}, UnityEngine::Vector3 scaleOffset_ = {}) noexcept : gameObjectName{gameObjectName_}, isSceneObject{isSceneObject_}, useTransformOffset{useTransformOffset_}, translateOffset{translateOffset_}, rotateOffset{rotateOffset_}, scaleOffset{scaleOffset_} {}
     // Get instance field reference: public System.String _gameObjectName
     ::Il2CppString*& dyn__gameObjectName();
     // Get instance field reference: public System.Boolean _isSceneObject
@@ -85,7 +73,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public UnityEngine.Vector3 _scaleOffset
     UnityEngine::Vector3& dyn__scaleOffset();
     // public System.Void .ctor()
-    // Offset: 0x1510CD0
+    // Offset: 0x1596B48
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -98,7 +86,8 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_InputObjectPreset), 52 + sizeof(UnityEngine::Vector3)> __HoudiniEngineUnity_HEU_InputObjectPresetSizeCheck;
   static_assert(sizeof(HEU_InputObjectPreset) == 0x40);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_InputObjectPreset*, "HoudiniEngineUnity", "HEU_InputObjectPreset");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_InputObjectPreset::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

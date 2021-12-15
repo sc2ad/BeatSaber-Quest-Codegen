@@ -3,14 +3,14 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.UI.Button
 #include "UnityEngine/UI/Button.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HMUI
@@ -24,14 +24,6 @@ namespace System {
   class Action_1;
 }
 // Completed forward declares
-// Type namespace: HMUI
-namespace HMUI {
-  // Forward declaring type: NoTransitionsButton
-  class NoTransitionsButton;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HMUI::NoTransitionsButton);
-DEFINE_IL2CPP_ARG_TYPE(HMUI::NoTransitionsButton*, "HMUI", "NoTransitionsButton");
 // Type namespace: HMUI
 namespace HMUI {
   // Size: 0x10C
@@ -48,18 +40,12 @@ namespace HMUI {
     // [TokenAttribute] Offset: FFFFFFFF
     struct SelectionState/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: SelectionState
       constexpr SelectionState(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -100,11 +86,6 @@ namespace HMUI {
     #pragma pack(pop)
     static check_size<sizeof(NoTransitionsButton::SelectionState), 0 + sizeof(int)> __HMUI_NoTransitionsButton_SelectionStateSizeCheck;
     static_assert(sizeof(NoTransitionsButton::SelectionState) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Action`1<HMUI.NoTransitionsButton/HMUI.SelectionState> selectionStateDidChangeEvent
     // Size: 0x8
     // Offset: 0x100
@@ -117,22 +98,23 @@ namespace HMUI {
     HMUI::NoTransitionsButton::SelectionState selectionState;
     // Field size check
     static_assert(sizeof(HMUI::NoTransitionsButton::SelectionState) == 0x4);
-    public:
+    // Creating value type constructor for type: NoTransitionsButton
+    NoTransitionsButton(System::Action_1<HMUI::NoTransitionsButton::SelectionState>* selectionStateDidChangeEvent_ = {}, HMUI::NoTransitionsButton::SelectionState selectionState_ = {}) noexcept : selectionStateDidChangeEvent{selectionStateDidChangeEvent_}, selectionState{selectionState_} {}
     // Get instance field reference: private System.Action`1<HMUI.NoTransitionsButton/HMUI.SelectionState> selectionStateDidChangeEvent
     System::Action_1<HMUI::NoTransitionsButton::SelectionState>*& dyn_selectionStateDidChangeEvent();
     // Get instance field reference: private HMUI.NoTransitionsButton/HMUI.SelectionState _selectionState
     HMUI::NoTransitionsButton::SelectionState& dyn__selectionState();
     // public HMUI.NoTransitionsButton/HMUI.SelectionState get_selectionState()
-    // Offset: 0x13F71E4
+    // Offset: 0x14C5AEC
     HMUI::NoTransitionsButton::SelectionState get_selectionState();
     // public System.Void add_selectionStateDidChangeEvent(System.Action`1<HMUI.NoTransitionsButton/HMUI.SelectionState> value)
-    // Offset: 0x13F71EC
+    // Offset: 0x14C5AF4
     void add_selectionStateDidChangeEvent(System::Action_1<HMUI::NoTransitionsButton::SelectionState>* value);
     // public System.Void remove_selectionStateDidChangeEvent(System.Action`1<HMUI.NoTransitionsButton/HMUI.SelectionState> value)
-    // Offset: 0x13F7294
+    // Offset: 0x14C5B9C
     void remove_selectionStateDidChangeEvent(System::Action_1<HMUI::NoTransitionsButton::SelectionState>* value);
     // public System.Void .ctor()
-    // Offset: 0x13F73D0
+    // Offset: 0x14C5CD8
     // Implemented from: UnityEngine.UI.Button
     // Base method: System.Void Button::.ctor()
     // Base method: System.Void Selectable::.ctor()
@@ -148,7 +130,7 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<NoTransitionsButton*, creationType>()));
     }
     // protected override System.Void DoStateTransition(UnityEngine.UI.Selectable/UnityEngine.UI.SelectionState state, System.Boolean instant)
-    // Offset: 0x13F733C
+    // Offset: 0x14C5C44
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::DoStateTransition(UnityEngine.UI.Selectable/UnityEngine.UI.SelectionState state, System.Boolean instant)
     void DoStateTransition(UnityEngine::UI::Selectable::SelectionState state, bool instant);
@@ -157,9 +139,9 @@ namespace HMUI {
   static check_size<sizeof(NoTransitionsButton), 264 + sizeof(HMUI::NoTransitionsButton::SelectionState)> __HMUI_NoTransitionsButtonSizeCheck;
   static_assert(sizeof(NoTransitionsButton) == 0x10C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HMUI::NoTransitionsButton*, "HMUI", "NoTransitionsButton");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::NoTransitionsButton::SelectionState, "HMUI", "NoTransitionsButton/SelectionState");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::NoTransitionsButton::get_selectionState
 // Il2CppName: get_selectionState
 template<>

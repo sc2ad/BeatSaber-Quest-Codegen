@@ -3,27 +3,19 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PlayerSaveData
 #include "GlobalNamespace/PlayerSaveData.hpp"
 // Including type: BeatmapDifficulty
 #include "GlobalNamespace/BeatmapDifficulty.hpp"
 // Including type: RankModel/Rank
 #include "GlobalNamespace/RankModel_Rank.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: PlayerLevelStatsData
-  class PlayerLevelStatsData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::PlayerSaveData::PlayerLevelStatsData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveData::PlayerLevelStatsData*, "", "PlayerSaveData/PlayerLevelStatsData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x40
@@ -32,11 +24,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayerSaveData::PlayerLevelStatsData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.String levelId
     // Size: 0x8
     // Offset: 0x10
@@ -97,7 +84,8 @@ namespace GlobalNamespace {
     int playCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
+    // Creating value type constructor for type: PlayerLevelStatsData
+    PlayerLevelStatsData(::Il2CppString* levelId_ = {}, GlobalNamespace::BeatmapDifficulty difficulty_ = {}, ::Il2CppString* beatmapCharacteristicName_ = {}, int highScore_ = {}, int maxCombo_ = {}, bool fullCombo_ = {}, GlobalNamespace::RankModel::Rank maxRank_ = {}, bool validScore_ = {}, int playCount_ = {}) noexcept : levelId{levelId_}, difficulty{difficulty_}, beatmapCharacteristicName{beatmapCharacteristicName_}, highScore{highScore_}, maxCombo{maxCombo_}, fullCombo{fullCombo_}, maxRank{maxRank_}, validScore{validScore_}, playCount{playCount_} {}
     // Get instance field reference: public System.String levelId
     ::Il2CppString*& dyn_levelId();
     // Get instance field reference: public BeatmapDifficulty difficulty
@@ -117,7 +105,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 playCount
     int& dyn_playCount();
     // public System.Void .ctor()
-    // Offset: 0x12C88D8
+    // Offset: 0x11AAA10
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -130,7 +118,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(PlayerSaveData::PlayerLevelStatsData), 60 + sizeof(int)> __GlobalNamespace_PlayerSaveData_PlayerLevelStatsDataSizeCheck;
   static_assert(sizeof(PlayerSaveData::PlayerLevelStatsData) == 0x40);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveData::PlayerLevelStatsData*, "", "PlayerSaveData/PlayerLevelStatsData");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSaveData::PlayerLevelStatsData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

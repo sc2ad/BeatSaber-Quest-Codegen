@@ -3,21 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System
-namespace System {
-  // Forward declaring type: LocalDataStoreElement
-  class LocalDataStoreElement;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::LocalDataStoreElement);
-DEFINE_IL2CPP_ARG_TYPE(System::LocalDataStoreElement*, "System", "LocalDataStoreElement");
 // Type namespace: System
 namespace System {
   // Size: 0x20
@@ -26,11 +18,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class LocalDataStoreElement : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Object m_value
     // Size: 0x8
     // Offset: 0x10
@@ -43,22 +30,23 @@ namespace System {
     int64_t m_cookie;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
-    public:
+    // Creating value type constructor for type: LocalDataStoreElement
+    LocalDataStoreElement(::Il2CppObject* m_value_ = {}, int64_t m_cookie_ = {}) noexcept : m_value{m_value_}, m_cookie{m_cookie_} {}
     // Get instance field reference: private System.Object m_value
     ::Il2CppObject*& dyn_m_value();
     // Get instance field reference: private System.Int64 m_cookie
     int64_t& dyn_m_cookie();
     // public System.Object get_Value()
-    // Offset: 0x19F3DC4
+    // Offset: 0x1A12474
     ::Il2CppObject* get_Value();
     // public System.Void set_Value(System.Object value)
-    // Offset: 0x19F3DCC
+    // Offset: 0x1A1247C
     void set_Value(::Il2CppObject* value);
     // public System.Int64 get_Cookie()
-    // Offset: 0x19F3DD4
+    // Offset: 0x1A12484
     int64_t get_Cookie();
     // public System.Void .ctor(System.Int64 cookie)
-    // Offset: 0x19F3D98
+    // Offset: 0x1A12448
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalDataStoreElement* New_ctor(int64_t cookie) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::LocalDataStoreElement::.ctor");
@@ -69,7 +57,8 @@ namespace System {
   static check_size<sizeof(LocalDataStoreElement), 24 + sizeof(int64_t)> __System_LocalDataStoreElementSizeCheck;
   static_assert(sizeof(LocalDataStoreElement) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::LocalDataStoreElement*, "System", "LocalDataStoreElement");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::LocalDataStoreElement::get_Value
 // Il2CppName: get_Value
 template<>

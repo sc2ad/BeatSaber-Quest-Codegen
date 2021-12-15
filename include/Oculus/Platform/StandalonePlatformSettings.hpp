@@ -3,21 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Oculus.Platform
-namespace Oculus::Platform {
-  // Forward declaring type: StandalonePlatformSettings
-  class StandalonePlatformSettings;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::StandalonePlatformSettings);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::StandalonePlatformSettings*, "Oculus.Platform", "StandalonePlatformSettings");
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
   // Size: 0x10
@@ -26,26 +18,28 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class StandalonePlatformSettings : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: StandalonePlatformSettings
+    StandalonePlatformSettings() noexcept {}
     // static public System.String get_OculusPlatformTestUserEmail()
-    // Offset: 0x25A0688
+    // Offset: 0x2664CDC
     static ::Il2CppString* get_OculusPlatformTestUserEmail();
     // static public System.Void set_OculusPlatformTestUserEmail(System.String value)
-    // Offset: 0x25A06D8
+    // Offset: 0x2664D2C
     static void set_OculusPlatformTestUserEmail(::Il2CppString* value);
     // static public System.String get_OculusPlatformTestUserPassword()
-    // Offset: 0x25A06DC
+    // Offset: 0x2664D30
     static ::Il2CppString* get_OculusPlatformTestUserPassword();
     // static public System.Void set_OculusPlatformTestUserPassword(System.String value)
-    // Offset: 0x25A072C
+    // Offset: 0x2664D80
     static void set_OculusPlatformTestUserPassword(::Il2CppString* value);
     // static public System.String get_OculusPlatformTestUserAccessToken()
-    // Offset: 0x25A0730
+    // Offset: 0x2664D84
     static ::Il2CppString* get_OculusPlatformTestUserAccessToken();
     // static public System.Void set_OculusPlatformTestUserAccessToken(System.String value)
-    // Offset: 0x25A0780
+    // Offset: 0x2664DD4
     static void set_OculusPlatformTestUserAccessToken(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0x25A0784
+    // Offset: 0x2664DD8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -56,7 +50,8 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.StandalonePlatformSettings
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::StandalonePlatformSettings*, "Oculus.Platform", "StandalonePlatformSettings");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::StandalonePlatformSettings::get_OculusPlatformTestUserEmail
 // Il2CppName: get_OculusPlatformTestUserEmail
 template<>

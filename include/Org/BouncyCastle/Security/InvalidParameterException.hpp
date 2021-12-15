@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Security.KeyException
 #include "Org/BouncyCastle/Security/KeyException.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Org.BouncyCastle.Security
-namespace Org::BouncyCastle::Security {
-  // Forward declaring type: InvalidParameterException
-  class InvalidParameterException;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Security::InvalidParameterException);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Security::InvalidParameterException*, "Org.BouncyCastle.Security", "InvalidParameterException");
 // Type namespace: Org.BouncyCastle.Security
 namespace Org::BouncyCastle::Security {
   // Size: 0x88
@@ -28,8 +20,10 @@ namespace Org::BouncyCastle::Security {
   // [TokenAttribute] Offset: FFFFFFFF
   class InvalidParameterException : public Org::BouncyCastle::Security::KeyException {
     public:
+    // Creating value type constructor for type: InvalidParameterException
+    InvalidParameterException() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x14B5728
+    // Offset: 0x152B778
     // Implemented from: Org.BouncyCastle.Security.KeyException
     // Base method: System.Void KeyException::.ctor()
     // Base method: System.Void GeneralSecurityException::.ctor()
@@ -41,7 +35,7 @@ namespace Org::BouncyCastle::Security {
       return THROW_UNLESS((::il2cpp_utils::New<InvalidParameterException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
-    // Offset: 0x14B572C
+    // Offset: 0x152B77C
     // Implemented from: Org.BouncyCastle.Security.KeyException
     // Base method: System.Void KeyException::.ctor(System.String message)
     // Base method: System.Void GeneralSecurityException::.ctor(System.String message)
@@ -54,7 +48,8 @@ namespace Org::BouncyCastle::Security {
   }; // Org.BouncyCastle.Security.InvalidParameterException
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Security::InvalidParameterException*, "Org.BouncyCastle.Security", "InvalidParameterException");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Security::InvalidParameterException::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

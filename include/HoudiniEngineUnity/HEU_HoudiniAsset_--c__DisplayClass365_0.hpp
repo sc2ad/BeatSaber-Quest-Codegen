@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HoudiniEngineUnity.HEU_HoudiniAsset
 #include "HoudiniEngineUnity/HEU_HoudiniAsset.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: HoudiniEngineUnity
-namespace HoudiniEngineUnity {
-  // Forward declaring type: <>c__DisplayClass365_0
-  class $$c__DisplayClass365_0;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_HoudiniAsset::$$c__DisplayClass365_0);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_HoudiniAsset::$$c__DisplayClass365_0*, "HoudiniEngineUnity", "HEU_HoudiniAsset/<>c__DisplayClass365_0");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x18
@@ -29,18 +21,14 @@ namespace HoudiniEngineUnity {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class HEU_HoudiniAsset::$$c__DisplayClass365_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public HoudiniEngineUnity.HEU_HoudiniAsset newAsset
     // Size: 0x8
     // Offset: 0x10
     HoudiniEngineUnity::HEU_HoudiniAsset* newAsset;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::HEU_HoudiniAsset*) == 0x8);
-    public:
+    // Creating value type constructor for type: $$c__DisplayClass365_0
+    $$c__DisplayClass365_0(HoudiniEngineUnity::HEU_HoudiniAsset* newAsset_ = {}) noexcept : newAsset{newAsset_} {}
     // Creating conversion operator: operator HoudiniEngineUnity::HEU_HoudiniAsset*
     constexpr operator HoudiniEngineUnity::HEU_HoudiniAsset*() const noexcept {
       return newAsset;
@@ -48,7 +36,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public HoudiniEngineUnity.HEU_HoudiniAsset newAsset
     HoudiniEngineUnity::HEU_HoudiniAsset*& dyn_newAsset();
     // public System.Void .ctor()
-    // Offset: 0x15044C4
+    // Offset: 0x158A33C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -61,7 +49,8 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_HoudiniAsset::$$c__DisplayClass365_0), 16 + sizeof(HoudiniEngineUnity::HEU_HoudiniAsset*)> __HoudiniEngineUnity_HEU_HoudiniAsset_$$c__DisplayClass365_0SizeCheck;
   static_assert(sizeof(HEU_HoudiniAsset::$$c__DisplayClass365_0) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_HoudiniAsset::$$c__DisplayClass365_0*, "HoudiniEngineUnity", "HEU_HoudiniAsset/<>c__DisplayClass365_0");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HoudiniAsset::$$c__DisplayClass365_0::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

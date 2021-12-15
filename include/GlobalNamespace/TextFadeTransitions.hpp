@@ -3,16 +3,14 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
-// Including type: System.Enum
-#include "System/Enum.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: TMPro
@@ -26,14 +24,6 @@ namespace UnityEngine {
   class CanvasGroup;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: TextFadeTransitions
-  class TextFadeTransitions;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::TextFadeTransitions);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TextFadeTransitions*, "", "TextFadeTransitions");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x3C
@@ -50,18 +40,12 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct State/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: State
       constexpr State(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -96,18 +80,13 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(TextFadeTransitions::State), 0 + sizeof(int)> __GlobalNamespace_TextFadeTransitions_StateSizeCheck;
     static_assert(sizeof(TextFadeTransitions::State) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private TMPro.TextMeshProUGUI _textLabel
     // Size: 0x8
     // Offset: 0x18
     TMPro::TextMeshProUGUI* textLabel;
     // Field size check
     static_assert(sizeof(TMPro::TextMeshProUGUI*) == 0x8);
-    // [TooltipAttribute] Offset: 0xF0AE2C
+    // [TooltipAttribute] Offset: 0xF4030C
     // private UnityEngine.CanvasGroup _canvasGroup
     // Size: 0x8
     // Offset: 0x20
@@ -138,7 +117,8 @@ namespace GlobalNamespace {
     float fade;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
+    // Creating value type constructor for type: TextFadeTransitions
+    TextFadeTransitions(TMPro::TextMeshProUGUI* textLabel_ = {}, UnityEngine::CanvasGroup* canvasGroup_ = {}, float fadeDuration_ = {}, GlobalNamespace::TextFadeTransitions::State state_ = {}, ::Il2CppString* nextText_ = {}, float fade_ = {}) noexcept : textLabel{textLabel_}, canvasGroup{canvasGroup_}, fadeDuration{fadeDuration_}, state{state_}, nextText{nextText_}, fade{fade_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TextMeshProUGUI _textLabel
@@ -154,22 +134,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _fade
     float& dyn__fade();
     // protected System.Void Awake()
-    // Offset: 0x115D790
+    // Offset: 0x120365C
     void Awake();
     // protected System.Void Update()
-    // Offset: 0x115D8F4
+    // Offset: 0x12037C0
     void Update();
     // private System.Void RefreshState()
-    // Offset: 0x115D8F8
+    // Offset: 0x12037C4
     void RefreshState();
     // private System.Void RefreshTextAlpha()
-    // Offset: 0x115D80C
+    // Offset: 0x12036D8
     void RefreshTextAlpha();
     // public System.Void ShowText(System.String text)
-    // Offset: 0x115DA84
+    // Offset: 0x1203950
     void ShowText(::Il2CppString* text);
     // public System.Void .ctor()
-    // Offset: 0x115DAF0
+    // Offset: 0x12039BC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -186,9 +166,9 @@ namespace GlobalNamespace {
   static check_size<sizeof(TextFadeTransitions), 56 + sizeof(float)> __GlobalNamespace_TextFadeTransitionsSizeCheck;
   static_assert(sizeof(TextFadeTransitions) == 0x3C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TextFadeTransitions*, "", "TextFadeTransitions");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TextFadeTransitions::State, "", "TextFadeTransitions/State");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TextFadeTransitions::Awake
 // Il2CppName: Awake
 template<>

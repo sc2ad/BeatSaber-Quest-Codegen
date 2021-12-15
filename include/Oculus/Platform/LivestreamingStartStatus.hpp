@@ -3,18 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: Oculus.Platform
-namespace Oculus::Platform {
-  // Forward declaring type: LivestreamingStartStatus
-  struct LivestreamingStartStatus;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::LivestreamingStartStatus, "Oculus.Platform", "LivestreamingStartStatus");
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
   // Size: 0x4
@@ -23,18 +16,12 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   struct LivestreamingStartStatus/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: LivestreamingStartStatus
     constexpr LivestreamingStartStatus(int value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -45,42 +32,42 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0xEE79EC
+    // [DescriptionAttribute] Offset: 0xF29EE4
     // static field const value: static public Oculus.Platform.LivestreamingStartStatus Success
     static constexpr const int Success = 1;
     // Get static field: static public Oculus.Platform.LivestreamingStartStatus Success
     static Oculus::Platform::LivestreamingStartStatus _get_Success();
     // Set static field: static public Oculus.Platform.LivestreamingStartStatus Success
     static void _set_Success(Oculus::Platform::LivestreamingStartStatus value);
-    // [DescriptionAttribute] Offset: 0xEE7A24
+    // [DescriptionAttribute] Offset: 0xF29F1C
     // static field const value: static public Oculus.Platform.LivestreamingStartStatus Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.LivestreamingStartStatus Unknown
     static Oculus::Platform::LivestreamingStartStatus _get_Unknown();
     // Set static field: static public Oculus.Platform.LivestreamingStartStatus Unknown
     static void _set_Unknown(Oculus::Platform::LivestreamingStartStatus value);
-    // [DescriptionAttribute] Offset: 0xEE7A5C
+    // [DescriptionAttribute] Offset: 0xF29F54
     // static field const value: static public Oculus.Platform.LivestreamingStartStatus NoPackageSet
     static constexpr const int NoPackageSet = -1;
     // Get static field: static public Oculus.Platform.LivestreamingStartStatus NoPackageSet
     static Oculus::Platform::LivestreamingStartStatus _get_NoPackageSet();
     // Set static field: static public Oculus.Platform.LivestreamingStartStatus NoPackageSet
     static void _set_NoPackageSet(Oculus::Platform::LivestreamingStartStatus value);
-    // [DescriptionAttribute] Offset: 0xEE7A94
+    // [DescriptionAttribute] Offset: 0xF29F8C
     // static field const value: static public Oculus.Platform.LivestreamingStartStatus NoFbConnect
     static constexpr const int NoFbConnect = -2;
     // Get static field: static public Oculus.Platform.LivestreamingStartStatus NoFbConnect
     static Oculus::Platform::LivestreamingStartStatus _get_NoFbConnect();
     // Set static field: static public Oculus.Platform.LivestreamingStartStatus NoFbConnect
     static void _set_NoFbConnect(Oculus::Platform::LivestreamingStartStatus value);
-    // [DescriptionAttribute] Offset: 0xEE7ACC
+    // [DescriptionAttribute] Offset: 0xF29FC4
     // static field const value: static public Oculus.Platform.LivestreamingStartStatus NoSessionId
     static constexpr const int NoSessionId = -3;
     // Get static field: static public Oculus.Platform.LivestreamingStartStatus NoSessionId
     static Oculus::Platform::LivestreamingStartStatus _get_NoSessionId();
     // Set static field: static public Oculus.Platform.LivestreamingStartStatus NoSessionId
     static void _set_NoSessionId(Oculus::Platform::LivestreamingStartStatus value);
-    // [DescriptionAttribute] Offset: 0xEE7B04
+    // [DescriptionAttribute] Offset: 0xF29FFC
     // static field const value: static public Oculus.Platform.LivestreamingStartStatus MissingParameters
     static constexpr const int MissingParameters = -4;
     // Get static field: static public Oculus.Platform.LivestreamingStartStatus MissingParameters
@@ -94,4 +81,6 @@ namespace Oculus::Platform {
   static check_size<sizeof(LivestreamingStartStatus), 0 + sizeof(int)> __Oculus_Platform_LivestreamingStartStatusSizeCheck;
   static_assert(sizeof(LivestreamingStartStatus) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::LivestreamingStartStatus, "Oculus.Platform", "LivestreamingStartStatus");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

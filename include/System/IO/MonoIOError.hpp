@@ -3,18 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: System.IO
-namespace System::IO {
-  // Forward declaring type: MonoIOError
-  struct MonoIOError;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::IO::MonoIOError, "System.IO", "MonoIOError");
 // Type namespace: System.IO
 namespace System::IO {
   // Size: 0x4
@@ -23,18 +16,12 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   struct MonoIOError/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: MonoIOError
     constexpr MonoIOError(int value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -208,4 +195,6 @@ namespace System::IO {
   static check_size<sizeof(MonoIOError), 0 + sizeof(int)> __System_IO_MonoIOErrorSizeCheck;
   static_assert(sizeof(MonoIOError) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::IO::MonoIOError, "System.IO", "MonoIOError");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

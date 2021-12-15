@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: RootMotion.FinalIK.RotationLimitPolygonal
 #include "RootMotion/FinalIK/RotationLimitPolygonal.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: RootMotion.FinalIK
-namespace RootMotion::FinalIK {
-  // Forward declaring type: LimitPoint
-  class LimitPoint;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::FinalIK::RotationLimitPolygonal::LimitPoint);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RotationLimitPolygonal::LimitPoint*, "RootMotion.FinalIK", "RotationLimitPolygonal/LimitPoint");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
   // Size: 0x20
@@ -30,11 +22,6 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class RotationLimitPolygonal::LimitPoint : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public UnityEngine.Vector3 point
     // Size: 0xC
     // Offset: 0x10
@@ -47,13 +34,14 @@ namespace RootMotion::FinalIK {
     float tangentWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
+    // Creating value type constructor for type: LimitPoint
+    LimitPoint(UnityEngine::Vector3 point_ = {}, float tangentWeight_ = {}) noexcept : point{point_}, tangentWeight{tangentWeight_} {}
     // Get instance field reference: public UnityEngine.Vector3 point
     UnityEngine::Vector3& dyn_point();
     // Get instance field reference: public System.Single tangentWeight
     float& dyn_tangentWeight();
     // public System.Void .ctor()
-    // Offset: 0x1C47540
+    // Offset: 0x1C9F638
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -66,7 +54,8 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(RotationLimitPolygonal::LimitPoint), 28 + sizeof(float)> __RootMotion_FinalIK_RotationLimitPolygonal_LimitPointSizeCheck;
   static_assert(sizeof(RotationLimitPolygonal::LimitPoint) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RotationLimitPolygonal::LimitPoint*, "RootMotion.FinalIK", "RotationLimitPolygonal/LimitPoint");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::RotationLimitPolygonal::LimitPoint::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

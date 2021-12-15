@@ -3,18 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: System
-namespace System {
-  // Forward declaring type: UInt16Enum
-  struct UInt16Enum;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::UInt16Enum, "System", "UInt16Enum");
 // Type namespace: System
 namespace System {
   // Size: 0x2
@@ -23,18 +16,12 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   struct UInt16Enum/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.UInt16 value__
     // Size: 0x2
     // Offset: 0x0
     uint16_t value;
     // Field size check
     static_assert(sizeof(uint16_t) == 0x2);
-    public:
     // Creating value type constructor for type: UInt16Enum
     constexpr UInt16Enum(uint16_t value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -52,4 +39,6 @@ namespace System {
   static check_size<sizeof(UInt16Enum), 0 + sizeof(uint16_t)> __System_UInt16EnumSizeCheck;
   static_assert(sizeof(UInt16Enum) == 0x2);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::UInt16Enum, "System", "UInt16Enum");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

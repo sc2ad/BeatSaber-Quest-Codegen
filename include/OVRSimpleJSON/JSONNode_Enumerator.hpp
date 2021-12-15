@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRSimpleJSON.JSONNode
 #include "OVRSimpleJSON/JSONNode.hpp"
 // Including type: System.ValueType
@@ -15,6 +15,10 @@
 #include "System/Collections/Generic/List_1.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -22,13 +26,6 @@ namespace System::Collections::Generic {
   // Skipping declaration: KeyValuePair`2 because it is already included!
 }
 // Completed forward declares
-// Type namespace: OVRSimpleJSON
-namespace OVRSimpleJSON {
-  // Forward declaring type: Enumerator
-  struct Enumerator;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONNode::Enumerator, "OVRSimpleJSON", "JSONNode/Enumerator");
 // Type namespace: OVRSimpleJSON
 namespace OVRSimpleJSON {
   // WARNING Size may be invalid!
@@ -45,18 +42,12 @@ namespace OVRSimpleJSON {
     // [TokenAttribute] Offset: FFFFFFFF
     struct Type/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: Type
       constexpr Type(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -91,11 +82,6 @@ namespace OVRSimpleJSON {
     #pragma pack(pop)
     static check_size<sizeof(JSONNode::Enumerator::Type), 0 + sizeof(int)> __OVRSimpleJSON_JSONNode_Enumerator_TypeSizeCheck;
     static_assert(sizeof(JSONNode::Enumerator::Type) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private OVRSimpleJSON.JSONNode/OVRSimpleJSON.Enumerator/OVRSimpleJSON.Type type
     // Size: 0x4
     // Offset: 0x0
@@ -110,7 +96,6 @@ namespace OVRSimpleJSON {
     // Size: 0xFFFFFFFF
     // Offset: 0x30
     typename System::Collections::Generic::List_1<OVRSimpleJSON::JSONNode*>::Enumerator m_Array;
-    public:
     // Creating value type constructor for type: Enumerator
     constexpr Enumerator(OVRSimpleJSON::JSONNode::Enumerator::Type type_ = {}, typename System::Collections::Generic::Dictionary_2<::Il2CppString*, OVRSimpleJSON::JSONNode*>::Enumerator m_Object_ = {}, typename System::Collections::Generic::List_1<OVRSimpleJSON::JSONNode*>::Enumerator m_Array_ = {}) noexcept : type{type_}, m_Object{m_Object_}, m_Array{m_Array_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -124,26 +109,36 @@ namespace OVRSimpleJSON {
     // Get instance field reference: private System.Collections.Generic.List`1/System.Collections.Generic.Enumerator<OVRSimpleJSON.JSONNode> m_Array
     typename System::Collections::Generic::List_1<OVRSimpleJSON::JSONNode*>::Enumerator& dyn_m_Array();
     // public System.Boolean get_IsValid()
-    // Offset: 0x20C2280
+    // Offset: 0x2164B5C
     bool get_IsValid();
     // public System.Collections.Generic.KeyValuePair`2<System.String,OVRSimpleJSON.JSONNode> get_Current()
-    // Offset: 0x20C22DC
+    // Offset: 0x2164BB8
     System::Collections::Generic::KeyValuePair_2<::Il2CppString*, OVRSimpleJSON::JSONNode*> get_Current();
     // public System.Void .ctor(System.Collections.Generic.List`1/System.Collections.Generic.Enumerator<OVRSimpleJSON.JSONNode> aArrayEnum)
-    // Offset: 0x20C2290
-    Enumerator(typename System::Collections::Generic::List_1<OVRSimpleJSON::JSONNode*>::Enumerator aArrayEnum);
+    // Offset: 0x2164B6C
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    Enumerator(typename System::Collections::Generic::List_1<OVRSimpleJSON::JSONNode*>::Enumerator aArrayEnum) {
+      static auto ___internal__logger = ::Logger::get().WithContext("OVRSimpleJSON::JSONNode::Enumerator::.ctor");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(aArrayEnum)})));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, aArrayEnum);
+    }
     // public System.Void .ctor(System.Collections.Generic.Dictionary`2/System.Collections.Generic.Enumerator<System.String,OVRSimpleJSON.JSONNode> aDictEnum)
-    // Offset: 0x20C22B8
-    Enumerator(typename System::Collections::Generic::Dictionary_2<::Il2CppString*, OVRSimpleJSON::JSONNode*>::Enumerator aDictEnum);
+    // Offset: 0x2164B94
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    Enumerator(typename System::Collections::Generic::Dictionary_2<::Il2CppString*, OVRSimpleJSON::JSONNode*>::Enumerator aDictEnum) {
+      static auto ___internal__logger = ::Logger::get().WithContext("OVRSimpleJSON::JSONNode::Enumerator::.ctor");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(aDictEnum)})));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, aDictEnum);
+    }
     // public System.Boolean MoveNext()
-    // Offset: 0x20C2390
+    // Offset: 0x2164C6C
     bool MoveNext();
   }; // OVRSimpleJSON.JSONNode/OVRSimpleJSON.Enumerator
   // WARNING Not writing size check since size may be invalid!
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONNode::Enumerator, "OVRSimpleJSON", "JSONNode/Enumerator");
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONNode::Enumerator::Type, "OVRSimpleJSON", "JSONNode/Enumerator/Type");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONNode::Enumerator::get_IsValid
 // Il2CppName: get_IsValid
 template<>

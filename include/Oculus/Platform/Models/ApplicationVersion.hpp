@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Oculus.Platform.Models
-namespace Oculus::Platform::Models {
-  // Forward declaring type: ApplicationVersion
-  class ApplicationVersion;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Models::ApplicationVersion);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::ApplicationVersion*, "Oculus.Platform.Models", "ApplicationVersion");
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
   // Size: 0x30
@@ -28,11 +20,6 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class ApplicationVersion : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public readonly System.Int32 CurrentCode
     // Size: 0x4
     // Offset: 0x10
@@ -61,7 +48,8 @@ namespace Oculus::Platform::Models {
     ::Il2CppString* LatestName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: ApplicationVersion
+    ApplicationVersion(int CurrentCode_ = {}, ::Il2CppString* CurrentName_ = {}, int LatestCode_ = {}, ::Il2CppString* LatestName_ = {}) noexcept : CurrentCode{CurrentCode_}, CurrentName{CurrentName_}, LatestCode{LatestCode_}, LatestName{LatestName_} {}
     // Get instance field reference: public readonly System.Int32 CurrentCode
     int& dyn_CurrentCode();
     // Get instance field reference: public readonly System.String CurrentName
@@ -71,7 +59,7 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly System.String LatestName
     ::Il2CppString*& dyn_LatestName();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x1699B34
+    // Offset: 0x1756F50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ApplicationVersion* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::ApplicationVersion::.ctor");
@@ -82,7 +70,8 @@ namespace Oculus::Platform::Models {
   static check_size<sizeof(ApplicationVersion), 40 + sizeof(::Il2CppString*)> __Oculus_Platform_Models_ApplicationVersionSizeCheck;
   static_assert(sizeof(ApplicationVersion) == 0x30);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::ApplicationVersion*, "Oculus.Platform.Models", "ApplicationVersion");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::ApplicationVersion::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

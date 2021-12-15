@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MulticolorAvatarPartPropertyBlockSetter
 #include "GlobalNamespace/MulticolorAvatarPartPropertyBlockSetter.hpp"
 // Including type: UnityEngine.Color
 #include "UnityEngine/Color.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: ColorData
-  class ColorData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData*, "", "MulticolorAvatarPartPropertyBlockSetter/ColorData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x28
@@ -30,11 +22,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MulticolorAvatarPartPropertyBlockSetter::ColorData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private UnityEngine.Color _defaultColor
     // Size: 0x10
     // Offset: 0x10
@@ -53,7 +40,8 @@ namespace GlobalNamespace {
     float whiteBoost;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
+    // Creating value type constructor for type: ColorData
+    ColorData(UnityEngine::Color defaultColor_ = {}, float darkerColorMultiplier_ = {}, float whiteBoost_ = {}) noexcept : defaultColor{defaultColor_}, darkerColorMultiplier{darkerColorMultiplier_}, whiteBoost{whiteBoost_} {}
     // Get instance field reference: private UnityEngine.Color _defaultColor
     UnityEngine::Color& dyn__defaultColor();
     // Get instance field reference: private System.Single _darkerColorMultiplier
@@ -61,16 +49,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _whiteBoost
     float& dyn__whiteBoost();
     // public UnityEngine.Color get_defaultColor()
-    // Offset: 0x117BCAC
+    // Offset: 0x11C48CC
     UnityEngine::Color get_defaultColor();
     // public System.Single get_darkerColorMultiplier()
-    // Offset: 0x117BCB8
+    // Offset: 0x11C48D8
     float get_darkerColorMultiplier();
     // public System.Single get_whiteBoost()
-    // Offset: 0x117BCC0
+    // Offset: 0x11C48E0
     float get_whiteBoost();
     // public System.Void .ctor()
-    // Offset: 0x117BCC8
+    // Offset: 0x11C48E8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -83,7 +71,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(MulticolorAvatarPartPropertyBlockSetter::ColorData), 36 + sizeof(float)> __GlobalNamespace_MulticolorAvatarPartPropertyBlockSetter_ColorDataSizeCheck;
   static_assert(sizeof(MulticolorAvatarPartPropertyBlockSetter::ColorData) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData*, "", "MulticolorAvatarPartPropertyBlockSetter/ColorData");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData::get_defaultColor
 // Il2CppName: get_defaultColor
 template<>

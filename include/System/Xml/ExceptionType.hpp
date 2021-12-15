@@ -3,18 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: System.Xml
-namespace System::Xml {
-  // Forward declaring type: ExceptionType
-  struct ExceptionType;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::ExceptionType, "System.Xml", "ExceptionType");
 // Type namespace: System.Xml
 namespace System::Xml {
   // Size: 0x4
@@ -23,18 +16,12 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ExceptionType/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: ExceptionType
     constexpr ExceptionType(int value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -64,4 +51,6 @@ namespace System::Xml {
   static check_size<sizeof(ExceptionType), 0 + sizeof(int)> __System_Xml_ExceptionTypeSizeCheck;
   static_assert(sizeof(ExceptionType) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::ExceptionType, "System.Xml", "ExceptionType");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

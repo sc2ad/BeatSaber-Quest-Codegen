@@ -3,17 +3,9 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: System
-namespace System {
-  // Forward declaring type: EnvironmentHelpers
-  class EnvironmentHelpers;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::EnvironmentHelpers);
-DEFINE_IL2CPP_ARG_TYPE(System::EnvironmentHelpers*, "System", "EnvironmentHelpers");
 // Type namespace: System
 namespace System {
   // Size: 0x10
@@ -22,13 +14,17 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class EnvironmentHelpers : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: EnvironmentHelpers
+    EnvironmentHelpers() noexcept {}
     // static System.Boolean IsWindowsVistaOrAbove()
-    // Offset: 0x1A0B21C
+    // Offset: 0x1A2A8CC
     static bool IsWindowsVistaOrAbove();
   }; // System.EnvironmentHelpers
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::EnvironmentHelpers*, "System", "EnvironmentHelpers");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::EnvironmentHelpers::IsWindowsVistaOrAbove
 // Il2CppName: IsWindowsVistaOrAbove
 template<>

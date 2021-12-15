@@ -3,16 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: Zenject
-namespace Zenject {
-  // Forward declaring type: IInitializable
-  class IInitializable;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::IInitializable);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::IInitializable*, "Zenject", "IInitializable");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x10
@@ -21,13 +13,17 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class IInitializable {
     public:
+    // Creating value type constructor for type: IInitializable
+    IInitializable() noexcept {}
     // public System.Void Initialize()
     // Offset: 0xFFFFFFFF
     void Initialize();
   }; // Zenject.IInitializable
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Zenject::IInitializable*, "Zenject", "IInitializable");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::IInitializable::Initialize
 // Il2CppName: Initialize
 template<>

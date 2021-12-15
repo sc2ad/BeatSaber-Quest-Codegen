@@ -3,18 +3,9 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: System.Net
-namespace System::Net {
-  // Forward declaring type: ValidationHelper
-  class ValidationHelper;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::ValidationHelper);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::ValidationHelper*, "System.Net", "ValidationHelper");
 // Type namespace: System.Net
 namespace System::Net {
   // Size: 0x10
@@ -23,34 +14,38 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class ValidationHelper : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: ValidationHelper
+    ValidationHelper() noexcept {}
     // Get static field: static public System.String[] EmptyArray
-    static ::ArrayW<::Il2CppString*> _get_EmptyArray();
+    static ::Array<::Il2CppString*>* _get_EmptyArray();
     // Set static field: static public System.String[] EmptyArray
-    static void _set_EmptyArray(::ArrayW<::Il2CppString*> value);
+    static void _set_EmptyArray(::Array<::Il2CppString*>* value);
     // Get static field: static readonly System.Char[] InvalidMethodChars
-    static ::ArrayW<::Il2CppChar> _get_InvalidMethodChars();
+    static ::Array<::Il2CppChar>* _get_InvalidMethodChars();
     // Set static field: static readonly System.Char[] InvalidMethodChars
-    static void _set_InvalidMethodChars(::ArrayW<::Il2CppChar> value);
+    static void _set_InvalidMethodChars(::Array<::Il2CppChar>* value);
     // Get static field: static readonly System.Char[] InvalidParamChars
-    static ::ArrayW<::Il2CppChar> _get_InvalidParamChars();
+    static ::Array<::Il2CppChar>* _get_InvalidParamChars();
     // Set static field: static readonly System.Char[] InvalidParamChars
-    static void _set_InvalidParamChars(::ArrayW<::Il2CppChar> value);
+    static void _set_InvalidParamChars(::Array<::Il2CppChar>* value);
     // static private System.Void .cctor()
-    // Offset: 0x175C60C
+    // Offset: 0x17E8848
     static void _cctor();
     // static public System.String MakeStringNull(System.String stringValue)
-    // Offset: 0x175C5DC
+    // Offset: 0x17E8818
     static ::Il2CppString* MakeStringNull(::Il2CppString* stringValue);
     // static public System.Boolean IsBlankString(System.String stringValue)
-    // Offset: 0x175C5F0
+    // Offset: 0x17E882C
     static bool IsBlankString(::Il2CppString* stringValue);
     // static public System.Boolean ValidateTcpPort(System.Int32 port)
-    // Offset: 0x175A170
+    // Offset: 0x17E63AC
     static bool ValidateTcpPort(int port);
   }; // System.Net.ValidationHelper
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::ValidationHelper*, "System.Net", "ValidationHelper");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::ValidationHelper::_cctor
 // Il2CppName: .cctor
 template<>

@@ -3,14 +3,14 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -25,14 +25,6 @@ namespace System::Collections::Generic {
   class List_1;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: SynchronizedActionQueue
-  class SynchronizedActionQueue;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::SynchronizedActionQueue);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SynchronizedActionQueue*, "", "SynchronizedActionQueue");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x18
@@ -51,11 +43,6 @@ namespace GlobalNamespace {
     // [IsReadOnlyAttribute] Offset: FFFFFFFF
     struct SynchronizedAction/*, public System::ValueType*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public readonly System.Single time
       // Size: 0x4
       // Offset: 0x0
@@ -70,7 +57,6 @@ namespace GlobalNamespace {
       System::Action* action;
       // Field size check
       static_assert(sizeof(System::Action*) == 0x8);
-      public:
       // Creating value type constructor for type: SynchronizedAction
       constexpr SynchronizedAction(float time_ = {}, System::Action* action_ = {}) noexcept : time{time_}, action{action_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -82,24 +68,21 @@ namespace GlobalNamespace {
       // Get instance field reference: public readonly System.Action action
       System::Action*& dyn_action();
       // public System.Void .ctor(System.Single time, System.Action action)
-      // Offset: 0x18C12B4
-      // ABORTED: conflicts with another method.  SynchronizedAction(float time, System::Action* action);
+      // Offset: 0x268DC4C
+      // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+      // ABORTED: conflicts with another method.  SynchronizedAction(float time, System::Action* action)
     }; // SynchronizedActionQueue/SynchronizedAction
     #pragma pack(pop)
     static check_size<sizeof(SynchronizedActionQueue::SynchronizedAction), 8 + sizeof(System::Action*)> __GlobalNamespace_SynchronizedActionQueue_SynchronizedActionSizeCheck;
     static_assert(sizeof(SynchronizedActionQueue::SynchronizedAction) == 0x10);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private readonly System.Collections.Generic.List`1<SynchronizedActionQueue/SynchronizedAction> _synchronizedActionQueue
     // Size: 0x8
     // Offset: 0x10
     System::Collections::Generic::List_1<GlobalNamespace::SynchronizedActionQueue::SynchronizedAction>* synchronizedActionQueue;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::SynchronizedActionQueue::SynchronizedAction>*) == 0x8);
-    public:
+    // Creating value type constructor for type: SynchronizedActionQueue
+    SynchronizedActionQueue(System::Collections::Generic::List_1<GlobalNamespace::SynchronizedActionQueue::SynchronizedAction>* synchronizedActionQueue_ = {}) noexcept : synchronizedActionQueue{synchronizedActionQueue_} {}
     // Creating conversion operator: operator System::Collections::Generic::List_1<GlobalNamespace::SynchronizedActionQueue::SynchronizedAction>*
     constexpr operator System::Collections::Generic::List_1<GlobalNamespace::SynchronizedActionQueue::SynchronizedAction>*() const noexcept {
       return synchronizedActionQueue;
@@ -107,16 +90,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.List`1<SynchronizedActionQueue/SynchronizedAction> _synchronizedActionQueue
     System::Collections::Generic::List_1<GlobalNamespace::SynchronizedActionQueue::SynchronizedAction>*& dyn__synchronizedActionQueue();
     // public System.Void Clear()
-    // Offset: 0x18B3664
+    // Offset: 0x268DB7C
     void Clear();
     // public System.Void EnqueueAction(System.Single time, System.Action action)
-    // Offset: 0x18B3748
+    // Offset: 0x268DBD4
     void EnqueueAction(float time, System::Action* action);
     // public System.Void Update(System.Single time)
-    // Offset: 0x18B37C0
+    // Offset: 0x268DC58
     void Update(float time);
     // public System.Void .ctor()
-    // Offset: 0x18B4784
+    // Offset: 0x268DD70
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -129,9 +112,9 @@ namespace GlobalNamespace {
   static check_size<sizeof(SynchronizedActionQueue), 16 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::SynchronizedActionQueue::SynchronizedAction>*)> __GlobalNamespace_SynchronizedActionQueueSizeCheck;
   static_assert(sizeof(SynchronizedActionQueue) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SynchronizedActionQueue*, "", "SynchronizedActionQueue");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SynchronizedActionQueue::SynchronizedAction, "", "SynchronizedActionQueue/SynchronizedAction");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SynchronizedActionQueue::Clear
 // Il2CppName: Clear
 template<>

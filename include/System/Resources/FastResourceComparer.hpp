@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Collections.Generic.IComparer`1
 #include "System/Collections/Generic/IComparer_1.hpp"
 // Including type: System.Collections.Generic.IEqualityComparer`1
@@ -13,20 +13,11 @@
 #include "System/Collections/IEqualityComparer.hpp"
 // Including type: System.Collections.IComparer
 #include "System/Collections/IComparer.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Resources
-namespace System::Resources {
-  // Forward declaring type: FastResourceComparer
-  class FastResourceComparer;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Resources::FastResourceComparer);
-DEFINE_IL2CPP_ARG_TYPE(System::Resources::FastResourceComparer*, "System.Resources", "FastResourceComparer");
 // Type namespace: System.Resources
 namespace System::Resources {
   // Size: 0x10
@@ -35,6 +26,8 @@ namespace System::Resources {
   // [TokenAttribute] Offset: FFFFFFFF
   class FastResourceComparer : public ::Il2CppObject/*, public System::Collections::Generic::IComparer_1<::Il2CppString*>, public System::Collections::Generic::IEqualityComparer_1<::Il2CppString*>, public System::Collections::IEqualityComparer, public System::Collections::IComparer*/ {
     public:
+    // Creating value type constructor for type: FastResourceComparer
+    FastResourceComparer() noexcept {}
     // Creating interface conversion operator: operator System::Collections::Generic::IComparer_1<::Il2CppString*>
     operator System::Collections::Generic::IComparer_1<::Il2CppString*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IComparer_1<::Il2CppString*>*>(this);
@@ -56,40 +49,40 @@ namespace System::Resources {
     // Set static field: static readonly System.Resources.FastResourceComparer Default
     static void _set_Default(System::Resources::FastResourceComparer* value);
     // static private System.Void .cctor()
-    // Offset: 0x158B46C
+    // Offset: 0x1619760
     static void _cctor();
     // public System.Int32 GetHashCode(System.Object key)
-    // Offset: 0x158AF94
+    // Offset: 0x1619288
     int GetHashCode(::Il2CppObject* key);
     // public System.Int32 GetHashCode(System.String key)
-    // Offset: 0x158B09C
+    // Offset: 0x1619390
     int GetHashCode(::Il2CppString* key);
     // static System.Int32 HashFunction(System.String key)
-    // Offset: 0x158B024
+    // Offset: 0x1619318
     static int HashFunction(::Il2CppString* key);
     // public System.Int32 Compare(System.Object a, System.Object b)
-    // Offset: 0x158B100
+    // Offset: 0x16193F4
     int Compare(::Il2CppObject* a, ::Il2CppObject* b);
     // public System.Int32 Compare(System.String a, System.String b)
-    // Offset: 0x158B1B0
+    // Offset: 0x16194A4
     int Compare(::Il2CppString* a, ::Il2CppString* b);
     // public System.Boolean Equals(System.String a, System.String b)
-    // Offset: 0x158B1C0
+    // Offset: 0x16194B4
     bool Equals(::Il2CppString* a, ::Il2CppString* b);
     // public System.Boolean Equals(System.Object a, System.Object b)
-    // Offset: 0x158B1D0
+    // Offset: 0x16194C4
     bool Equals(::Il2CppObject* a, ::Il2CppObject* b);
     // static public System.Int32 CompareOrdinal(System.String a, System.Byte[] bytes, System.Int32 bCharLength)
-    // Offset: 0x158B280
-    static int CompareOrdinal(::Il2CppString* a, ::ArrayW<uint8_t> bytes, int bCharLength);
+    // Offset: 0x1619574
+    static int CompareOrdinal(::Il2CppString* a, ::Array<uint8_t>* bytes, int bCharLength);
     // static public System.Int32 CompareOrdinal(System.Byte[] bytes, System.Int32 aCharLength, System.String b)
-    // Offset: 0x158B340
-    static int CompareOrdinal(::ArrayW<uint8_t> bytes, int aCharLength, ::Il2CppString* b);
+    // Offset: 0x1619634
+    static int CompareOrdinal(::Array<uint8_t>* bytes, int aCharLength, ::Il2CppString* b);
     // static System.Int32 CompareOrdinal(System.Byte* a, System.Int32 byteLen, System.String b)
-    // Offset: 0x158B3C4
+    // Offset: 0x16196B8
     static int CompareOrdinal(uint8_t* a, int byteLen, ::Il2CppString* b);
     // public System.Void .ctor()
-    // Offset: 0x158B464
+    // Offset: 0x1619758
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -100,7 +93,8 @@ namespace System::Resources {
   }; // System.Resources.FastResourceComparer
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Resources::FastResourceComparer*, "System.Resources", "FastResourceComparer");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Resources::FastResourceComparer::_cctor
 // Il2CppName: .cctor
 template<>
@@ -179,7 +173,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Resources::FastResourceComparer::CompareOrdinal
 // Il2CppName: CompareOrdinal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, ::ArrayW<uint8_t>, int)>(&System::Resources::FastResourceComparer::CompareOrdinal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, ::Array<uint8_t>*, int)>(&System::Resources::FastResourceComparer::CompareOrdinal)> {
   static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -190,7 +184,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::I
 // Writing MetadataGetter for method: System::Resources::FastResourceComparer::CompareOrdinal
 // Il2CppName: CompareOrdinal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayW<uint8_t>, int, ::Il2CppString*)>(&System::Resources::FastResourceComparer::CompareOrdinal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<uint8_t>*, int, ::Il2CppString*)>(&System::Resources::FastResourceComparer::CompareOrdinal)> {
   static const MethodInfo* get() {
     static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* aCharLength = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

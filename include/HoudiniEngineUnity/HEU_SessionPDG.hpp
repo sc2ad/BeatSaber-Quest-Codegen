@@ -3,17 +3,9 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: HoudiniEngineUnity
-namespace HoudiniEngineUnity {
-  // Forward declaring type: HEU_SessionPDG
-  class HEU_SessionPDG;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_SessionPDG);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_SessionPDG*, "HoudiniEngineUnity", "HEU_SessionPDG");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x10
@@ -22,7 +14,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_SessionPDG : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: HEU_SessionPDG
+    HEU_SessionPDG() noexcept {}
   }; // HoudiniEngineUnity.HEU_SessionPDG
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_SessionPDG*, "HoudiniEngineUnity", "HEU_SessionPDG");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

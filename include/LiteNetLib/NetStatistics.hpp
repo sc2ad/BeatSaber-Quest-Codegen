@@ -3,21 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: LiteNetLib
-namespace LiteNetLib {
-  // Forward declaring type: NetStatistics
-  class NetStatistics;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(LiteNetLib::NetStatistics);
-DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetStatistics*, "LiteNetLib", "NetStatistics");
 // Type namespace: LiteNetLib
 namespace LiteNetLib {
   // Size: 0x38
@@ -26,11 +18,6 @@ namespace LiteNetLib {
   // [TokenAttribute] Offset: FFFFFFFF
   class NetStatistics : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Int64 _packetsSent
     // Size: 0x8
     // Offset: 0x10
@@ -61,7 +48,8 @@ namespace LiteNetLib {
     int64_t packetLoss;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
-    public:
+    // Creating value type constructor for type: NetStatistics
+    NetStatistics(int64_t packetsSent_ = {}, int64_t packetsReceived_ = {}, int64_t bytesSent_ = {}, int64_t bytesReceived_ = {}, int64_t packetLoss_ = {}) noexcept : packetsSent{packetsSent_}, packetsReceived{packetsReceived_}, bytesSent{bytesSent_}, bytesReceived{bytesReceived_}, packetLoss{packetLoss_} {}
     // Get instance field reference: private System.Int64 _packetsSent
     int64_t& dyn__packetsSent();
     // Get instance field reference: private System.Int64 _packetsReceived
@@ -73,46 +61,46 @@ namespace LiteNetLib {
     // Get instance field reference: private System.Int64 _packetLoss
     int64_t& dyn__packetLoss();
     // public System.Int64 get_PacketsSent()
-    // Offset: 0x1DC6128
+    // Offset: 0x1DD0498
     int64_t get_PacketsSent();
     // public System.Int64 get_PacketsReceived()
-    // Offset: 0x1DC6134
+    // Offset: 0x1DD04A4
     int64_t get_PacketsReceived();
     // public System.Int64 get_BytesSent()
-    // Offset: 0x1DC6140
+    // Offset: 0x1DD04B0
     int64_t get_BytesSent();
     // public System.Int64 get_BytesReceived()
-    // Offset: 0x1DC614C
+    // Offset: 0x1DD04BC
     int64_t get_BytesReceived();
     // public System.Int64 get_PacketLoss()
-    // Offset: 0x1DC6158
+    // Offset: 0x1DD04C8
     int64_t get_PacketLoss();
     // public System.Int64 get_PacketLossPercent()
-    // Offset: 0x1DC6164
+    // Offset: 0x1DD04D4
     int64_t get_PacketLossPercent();
     // public System.Void Reset()
-    // Offset: 0x1DC61B4
+    // Offset: 0x1DD0524
     void Reset();
     // public System.Void IncrementPacketsSent()
-    // Offset: 0x1DBE370
+    // Offset: 0x1DC86E0
     void IncrementPacketsSent();
     // public System.Void IncrementPacketsReceived()
-    // Offset: 0x1DC03EC
+    // Offset: 0x1DCA75C
     void IncrementPacketsReceived();
     // public System.Void AddBytesSent(System.Int64 bytesSent)
-    // Offset: 0x1DBE37C
+    // Offset: 0x1DC86EC
     void AddBytesSent(int64_t bytesSent);
     // public System.Void AddBytesReceived(System.Int64 bytesReceived)
-    // Offset: 0x1DC03F8
+    // Offset: 0x1DCA768
     void AddBytesReceived(int64_t bytesReceived);
     // public System.Void IncrementPacketLoss()
-    // Offset: 0x1DC621C
+    // Offset: 0x1DD058C
     void IncrementPacketLoss();
     // public System.Void AddPacketLoss(System.Int64 packetLoss)
-    // Offset: 0x1DC6228
+    // Offset: 0x1DD0598
     void AddPacketLoss(int64_t packetLoss);
     // public System.Void .ctor()
-    // Offset: 0x1DBD9F4
+    // Offset: 0x1DC7D64
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -121,7 +109,7 @@ namespace LiteNetLib {
       return THROW_UNLESS((::il2cpp_utils::New<NetStatistics*, creationType>()));
     }
     // public override System.String ToString()
-    // Offset: 0x1DC6234
+    // Offset: 0x1DD05A4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
@@ -130,7 +118,8 @@ namespace LiteNetLib {
   static check_size<sizeof(NetStatistics), 48 + sizeof(int64_t)> __LiteNetLib_NetStatisticsSizeCheck;
   static_assert(sizeof(NetStatistics) == 0x38);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetStatistics*, "LiteNetLib", "NetStatistics");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::NetStatistics::get_PacketsSent
 // Il2CppName: get_PacketsSent
 template<>

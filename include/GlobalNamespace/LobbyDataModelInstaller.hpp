@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.MonoInstaller
 #include "Zenject/MonoInstaller.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: LobbyDataModelInstaller
-  class LobbyDataModelInstaller;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::LobbyDataModelInstaller);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LobbyDataModelInstaller*, "", "LobbyDataModelInstaller");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -28,8 +20,10 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LobbyDataModelInstaller : public Zenject::MonoInstaller {
     public:
+    // Creating value type constructor for type: LobbyDataModelInstaller
+    LobbyDataModelInstaller() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x12B3D6C
+    // Offset: 0x13050B8
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -44,14 +38,15 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LobbyDataModelInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x12B397C
+    // Offset: 0x1304CC8
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
   }; // LobbyDataModelInstaller
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LobbyDataModelInstaller*, "", "LobbyDataModelInstaller");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LobbyDataModelInstaller::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

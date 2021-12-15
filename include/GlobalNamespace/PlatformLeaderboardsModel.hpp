@@ -3,18 +3,16 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: LeaderboardScoreUploader
 #include "GlobalNamespace/LeaderboardScoreUploader.hpp"
-// Including type: System.Enum
-#include "System/Enum.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -38,14 +36,6 @@ namespace System {
   class Action;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: PlatformLeaderboardsModel
-  class PlatformLeaderboardsModel;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::PlatformLeaderboardsModel);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformLeaderboardsModel*, "", "PlatformLeaderboardsModel");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x50
@@ -76,18 +66,12 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct State/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: State
       constexpr State(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -122,32 +106,27 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(PlatformLeaderboardsModel::State), 0 + sizeof(int)> __GlobalNamespace_PlatformLeaderboardsModel_StateSizeCheck;
     static_assert(sizeof(PlatformLeaderboardsModel::State) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private GameplayModifiersModelSO _gameplayModifiersModel
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifiersModelSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xF01664
+    // [InjectAttribute] Offset: 0xF368B8
     // private readonly LeaderboardScoreUploader _leaderboardScoreUploader
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::LeaderboardScoreUploader* leaderboardScoreUploader;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LeaderboardScoreUploader*) == 0x8);
-    // [InjectAttribute] Offset: 0xF01674
+    // [InjectAttribute] Offset: 0xF368C8
     // private readonly IPlatformUserModel _platformUserModel
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::IPlatformUserModel* platformUserModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IPlatformUserModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xF01684
+    // [InjectAttribute] Offset: 0xF368D8
     // private readonly PlatformLeaderboardsHandler _platformLeaderboardsHandler
     // Size: 0x8
     // Offset: 0x30
@@ -174,7 +153,8 @@ namespace GlobalNamespace {
     ::Il2CppString* playerId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: PlatformLeaderboardsModel
+    PlatformLeaderboardsModel(GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel_ = {}, GlobalNamespace::LeaderboardScoreUploader* leaderboardScoreUploader_ = {}, GlobalNamespace::IPlatformUserModel* platformUserModel_ = {}, GlobalNamespace::PlatformLeaderboardsHandler* platformLeaderboardsHandler_ = {}, System::Action* allScoresDidUploadEvent_ = {}, GlobalNamespace::PlatformLeaderboardsModel::State state_ = {}, ::Il2CppString* playerId_ = {}) noexcept : gameplayModifiersModel{gameplayModifiersModel_}, leaderboardScoreUploader{leaderboardScoreUploader_}, platformUserModel{platformUserModel_}, platformLeaderboardsHandler{platformLeaderboardsHandler_}, allScoresDidUploadEvent{allScoresDidUploadEvent_}, state{state_}, playerId{playerId_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private GameplayModifiersModelSO _gameplayModifiersModel
@@ -192,40 +172,40 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String _playerId
     ::Il2CppString*& dyn__playerId();
     // private System.Boolean get_initialized()
-    // Offset: 0x12C48D0
+    // Offset: 0x1150660
     bool get_initialized();
     // public System.Void add_allScoresDidUploadEvent(System.Action value)
-    // Offset: 0x12C3C7C
+    // Offset: 0x114FA0C
     void add_allScoresDidUploadEvent(System::Action* value);
     // public System.Void remove_allScoresDidUploadEvent(System.Action value)
-    // Offset: 0x12C3E24
+    // Offset: 0x114FBB4
     void remove_allScoresDidUploadEvent(System::Action* value);
     // private System.Void Initialize()
-    // Offset: 0x12C4904
+    // Offset: 0x1150694
     void Initialize();
     // private HMAsyncRequest UploadScore(LeaderboardScoreUploader/ScoreData scoreData, PlatformLeaderboardsModel/UploadScoreCompletionHandler completionHandler)
-    // Offset: 0x12C49C4
+    // Offset: 0x1150754
     GlobalNamespace::HMAsyncRequest* UploadScore(GlobalNamespace::LeaderboardScoreUploader::ScoreData* scoreData, GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler* completionHandler);
     // private HMAsyncRequest GetScores(IDifficultyBeatmap beatmap, System.Int32 count, System.Int32 fromRank, PlatformLeaderboardsModel/ScoresScope scope, PlatformLeaderboardsModel/GetScoresCompletionHandler completionHandler)
-    // Offset: 0x12C4CBC
+    // Offset: 0x1150A4C
     GlobalNamespace::HMAsyncRequest* GetScores(GlobalNamespace::IDifficultyBeatmap* beatmap, int count, int fromRank, GlobalNamespace::PlatformLeaderboardsModel::ScoresScope scope, GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler* completionHandler);
     // private System.Void HandleAllScoresDidUpload()
-    // Offset: 0x12C5024
+    // Offset: 0x1150DB4
     void HandleAllScoresDidUpload();
     // public HMAsyncRequest GetScores(IDifficultyBeatmap beatmap, System.Int32 count, System.Int32 fromRank, PlatformLeaderboardsModel/GetScoresCompletionHandler completionHandler)
-    // Offset: 0x12C4830
+    // Offset: 0x11505C0
     GlobalNamespace::HMAsyncRequest* GetScores(GlobalNamespace::IDifficultyBeatmap* beatmap, int count, int fromRank, GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler* completionHandler);
     // public HMAsyncRequest GetScoresAroundPlayer(IDifficultyBeatmap beatmap, System.Int32 count, PlatformLeaderboardsModel/GetScoresCompletionHandler completionHandler)
-    // Offset: 0x12C4848
+    // Offset: 0x11505D8
     GlobalNamespace::HMAsyncRequest* GetScoresAroundPlayer(GlobalNamespace::IDifficultyBeatmap* beatmap, int count, GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler* completionHandler);
     // public HMAsyncRequest GetFriendsScores(IDifficultyBeatmap beatmap, System.Int32 count, System.Int32 fromRank, PlatformLeaderboardsModel/GetScoresCompletionHandler completionHandler)
-    // Offset: 0x12C483C
+    // Offset: 0x11505CC
     GlobalNamespace::HMAsyncRequest* GetFriendsScores(GlobalNamespace::IDifficultyBeatmap* beatmap, int count, int fromRank, GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler* completionHandler);
     // public System.Void UploadScore(IDifficultyBeatmap beatmap, System.Int32 rawScore, System.Int32 modifiedScore, System.Boolean fullCombo, System.Int32 goodCutsCount, System.Int32 badCutsCount, System.Int32 missedCount, System.Int32 maxCombo, System.Single energy, GameplayModifiers gameplayModifiers)
-    // Offset: 0x12C5038
+    // Offset: 0x1150DC8
     void UploadScore(GlobalNamespace::IDifficultyBeatmap* beatmap, int rawScore, int modifiedScore, bool fullCombo, int goodCutsCount, int badCutsCount, int missedCount, int maxCombo, float energy, GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // public System.Void .ctor()
-    // Offset: 0x12C5248
+    // Offset: 0x1150FD8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -242,9 +222,9 @@ namespace GlobalNamespace {
   static check_size<sizeof(PlatformLeaderboardsModel), 72 + sizeof(::Il2CppString*)> __GlobalNamespace_PlatformLeaderboardsModelSizeCheck;
   static_assert(sizeof(PlatformLeaderboardsModel) == 0x50);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformLeaderboardsModel*, "", "PlatformLeaderboardsModel");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformLeaderboardsModel::State, "", "PlatformLeaderboardsModel/State");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlatformLeaderboardsModel::get_initialized
 // Il2CppName: get_initialized
 template<>

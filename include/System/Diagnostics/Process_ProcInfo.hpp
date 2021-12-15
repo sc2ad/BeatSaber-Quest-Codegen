@@ -3,25 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Diagnostics.Process
 #include "System/Diagnostics/Process.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
-// Begin il2cpp-utils forward declares
-struct Il2CppString;
-// Completed il2cpp-utils forward declares
-// Type namespace: System.Diagnostics
-namespace System::Diagnostics {
-  // Forward declaring type: ProcInfo
-  struct ProcInfo;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Process::ProcInfo, "System.Diagnostics", "Process/ProcInfo");
 // Type namespace: System.Diagnostics
 namespace System::Diagnostics {
   // Size: 0x31
@@ -31,11 +21,6 @@ namespace System::Diagnostics {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Process::ProcInfo/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.IntPtr process_handle
     // Size: 0x8
     // Offset: 0x0
@@ -53,9 +38,9 @@ namespace System::Diagnostics {
     // public System.String[] envVariables
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<::Il2CppString*> envVariables;
+    ::Array<::Il2CppString*>* envVariables;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
     // public System.String UserName
     // Size: 0x8
     // Offset: 0x18
@@ -80,9 +65,8 @@ namespace System::Diagnostics {
     bool LoadUserProfile;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
     // Creating value type constructor for type: ProcInfo
-    constexpr ProcInfo(System::IntPtr process_handle_ = {}, int pid_ = {}, ::ArrayW<::Il2CppString*> envVariables_ = ::ArrayW<::Il2CppString*>(nullptr), ::Il2CppString* UserName_ = {}, ::Il2CppString* Domain_ = {}, System::IntPtr Password_ = {}, bool LoadUserProfile_ = {}) noexcept : process_handle{process_handle_}, pid{pid_}, envVariables{envVariables_}, UserName{UserName_}, Domain{Domain_}, Password{Password_}, LoadUserProfile{LoadUserProfile_} {}
+    constexpr ProcInfo(System::IntPtr process_handle_ = {}, int pid_ = {}, ::Array<::Il2CppString*>* envVariables_ = {}, ::Il2CppString* UserName_ = {}, ::Il2CppString* Domain_ = {}, System::IntPtr Password_ = {}, bool LoadUserProfile_ = {}) noexcept : process_handle{process_handle_}, pid{pid_}, envVariables{envVariables_}, UserName{UserName_}, Domain{Domain_}, Password{Password_}, LoadUserProfile{LoadUserProfile_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -92,7 +76,7 @@ namespace System::Diagnostics {
     // Get instance field reference: public System.Int32 pid
     int& dyn_pid();
     // Get instance field reference: public System.String[] envVariables
-    ::ArrayW<::Il2CppString*>& dyn_envVariables();
+    ::Array<::Il2CppString*>*& dyn_envVariables();
     // Get instance field reference: public System.String UserName
     ::Il2CppString*& dyn_UserName();
     // Get instance field reference: public System.String Domain
@@ -106,4 +90,6 @@ namespace System::Diagnostics {
   static check_size<sizeof(Process::ProcInfo), 48 + sizeof(bool)> __System_Diagnostics_Process_ProcInfoSizeCheck;
   static_assert(sizeof(Process::ProcInfo) == 0x31);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Process::ProcInfo, "System.Diagnostics", "Process/ProcInfo");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

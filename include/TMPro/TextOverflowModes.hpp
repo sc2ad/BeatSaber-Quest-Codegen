@@ -3,18 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: TMPro
-namespace TMPro {
-  // Forward declaring type: TextOverflowModes
-  struct TextOverflowModes;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(TMPro::TextOverflowModes, "TMPro", "TextOverflowModes");
 // Type namespace: TMPro
 namespace TMPro {
   // Size: 0x4
@@ -23,18 +16,12 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   struct TextOverflowModes/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: TextOverflowModes
     constexpr TextOverflowModes(int value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -94,4 +81,6 @@ namespace TMPro {
   static check_size<sizeof(TextOverflowModes), 0 + sizeof(int)> __TMPro_TextOverflowModesSizeCheck;
   static_assert(sizeof(TextOverflowModes) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TextOverflowModes, "TMPro", "TextOverflowModes");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

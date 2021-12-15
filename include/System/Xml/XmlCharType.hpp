@@ -3,19 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Xml
-namespace System::Xml {
-  // Forward declaring type: XmlCharType
-  struct XmlCharType;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlCharType, "System.Xml", "XmlCharType");
 // Type namespace: System.Xml
 namespace System::Xml {
   // Size: 0x8
@@ -25,26 +21,20 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   struct XmlCharType/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // System.Byte[] charProperties
     // Size: 0x8
     // Offset: 0x0
-    ::ArrayW<uint8_t> charProperties;
+    ::Array<uint8_t>* charProperties;
     // Field size check
-    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
-    public:
+    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
     // Creating value type constructor for type: XmlCharType
-    constexpr XmlCharType(::ArrayW<uint8_t> charProperties_ = ::ArrayW<uint8_t>(nullptr)) noexcept : charProperties{charProperties_} {}
+    constexpr XmlCharType(::Array<uint8_t>* charProperties_ = {}) noexcept : charProperties{charProperties_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Creating conversion operator: operator ::ArrayW<uint8_t>
-    constexpr operator ::ArrayW<uint8_t>() const noexcept {
+    // Creating conversion operator: operator ::Array<uint8_t>*
+    constexpr operator ::Array<uint8_t>*() const noexcept {
       return charProperties;
     }
     // Get static field: static private System.Object s_Lock
@@ -52,71 +42,73 @@ namespace System::Xml {
     // Set static field: static private System.Object s_Lock
     static void _set_s_Lock(::Il2CppObject* value);
     // Get static field: static private System.Byte[] s_CharProperties
-    static ::ArrayW<uint8_t> _get_s_CharProperties();
+    static ::Array<uint8_t>* _get_s_CharProperties();
     // Set static field: static private System.Byte[] s_CharProperties
-    static void _set_s_CharProperties(::ArrayW<uint8_t> value);
+    static void _set_s_CharProperties(::Array<uint8_t>* value);
     // Get instance field reference: System.Byte[] charProperties
-    ::ArrayW<uint8_t>& dyn_charProperties();
+    ::Array<uint8_t>*& dyn_charProperties();
     // static private System.Object get_StaticLock()
-    // Offset: 0x1AE456C
+    // Offset: 0x1B64048
     static ::Il2CppObject* get_StaticLock();
     // static public System.Xml.XmlCharType get_Instance()
-    // Offset: 0x1AE29A0
+    // Offset: 0x1B6247C
     static System::Xml::XmlCharType get_Instance();
     // private System.Void .ctor(System.Byte[] charProperties)
-    // Offset: 0x1AE488C
-    // ABORTED: conflicts with another method.  XmlCharType(::ArrayW<uint8_t> charProperties);
+    // Offset: 0x1B64368
+    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    // ABORTED: conflicts with another method.  XmlCharType(::Array<uint8_t>* charProperties)
     // static private System.Void InitInstance()
-    // Offset: 0x1AE45FC
+    // Offset: 0x1B640D8
     static void InitInstance();
     // static private System.Void SetProperties(System.String ranges, System.Byte value)
-    // Offset: 0x1AE4780
+    // Offset: 0x1B6425C
     static void SetProperties(::Il2CppString* ranges, uint8_t value);
     // public System.Boolean IsWhiteSpace(System.Char ch)
-    // Offset: 0x1AE4894
+    // Offset: 0x1B64370
     bool IsWhiteSpace(::Il2CppChar ch);
     // public System.Boolean IsCharData(System.Char ch)
-    // Offset: 0x1AE48D8
+    // Offset: 0x1B643B4
     bool IsCharData(::Il2CppChar ch);
     // public System.Boolean IsPubidChar(System.Char ch)
-    // Offset: 0x1AE491C
+    // Offset: 0x1B643F8
     bool IsPubidChar(::Il2CppChar ch);
     // System.Boolean IsTextChar(System.Char ch)
-    // Offset: 0x1AE49A8
+    // Offset: 0x1B64484
     bool IsTextChar(::Il2CppChar ch);
     // static System.Boolean IsHighSurrogate(System.Int32 ch)
-    // Offset: 0x1AE49EC
+    // Offset: 0x1B644C8
     static bool IsHighSurrogate(int ch);
     // static System.Boolean IsLowSurrogate(System.Int32 ch)
-    // Offset: 0x1AE4A10
+    // Offset: 0x1B644EC
     static bool IsLowSurrogate(int ch);
     // static System.Boolean IsSurrogate(System.Int32 ch)
-    // Offset: 0x1AE4A20
+    // Offset: 0x1B644FC
     static bool IsSurrogate(int ch);
     // static System.Int32 CombineSurrogateChar(System.Int32 lowChar, System.Int32 highChar)
-    // Offset: 0x1ADAC0C
+    // Offset: 0x1B5A6E8
     static int CombineSurrogateChar(int lowChar, int highChar);
     // System.Boolean IsOnlyWhitespace(System.String str)
-    // Offset: 0x1AE3EB0
+    // Offset: 0x1B6398C
     bool IsOnlyWhitespace(::Il2CppString* str);
     // System.Int32 IsOnlyWhitespaceWithPos(System.String str)
-    // Offset: 0x1AE4A30
+    // Offset: 0x1B6450C
     int IsOnlyWhitespaceWithPos(::Il2CppString* str);
     // System.Int32 IsOnlyCharData(System.String str)
-    // Offset: 0x1AE4AC8
+    // Offset: 0x1B645A4
     int IsOnlyCharData(::Il2CppString* str);
     // System.Int32 IsPublicId(System.String str)
-    // Offset: 0x1AE4BB0
+    // Offset: 0x1B6468C
     int IsPublicId(::Il2CppString* str);
     // static private System.Boolean InRange(System.Int32 value, System.Int32 start, System.Int32 end)
-    // Offset: 0x1AE49FC
+    // Offset: 0x1B644D8
     static bool InRange(int value, int start, int end);
   }; // System.Xml.XmlCharType
   #pragma pack(pop)
-  static check_size<sizeof(XmlCharType), 0 + sizeof(::ArrayW<uint8_t>)> __System_Xml_XmlCharTypeSizeCheck;
+  static check_size<sizeof(XmlCharType), 0 + sizeof(::Array<uint8_t>*)> __System_Xml_XmlCharTypeSizeCheck;
   static_assert(sizeof(XmlCharType) == 0x8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlCharType, "System.Xml", "XmlCharType");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::XmlCharType::get_StaticLock
 // Il2CppName: get_StaticLock
 template<>

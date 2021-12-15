@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.IEquatable`1
@@ -16,13 +16,6 @@
 // Completed includes
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {
-  // Forward declaring type: Normal
-  struct Normal;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Normal, "UnityEngine.ProBuilder", "Normal");
-// Type namespace: UnityEngine.ProBuilder
-namespace UnityEngine::ProBuilder {
   // Size: 0x28
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -30,11 +23,6 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Normal/*, public System::ValueType, public System::IEquatable_1<UnityEngine::ProBuilder::Normal>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private UnityEngine.Vector3 <normal>k__BackingField
     // Size: 0xC
     // Offset: 0x0
@@ -53,7 +41,6 @@ namespace UnityEngine::ProBuilder {
     UnityEngine::Vector3 bitangent;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    public:
     // Creating value type constructor for type: Normal
     constexpr Normal(UnityEngine::Vector3 normal_ = {}, UnityEngine::Vector4 tangent_ = {}, UnityEngine::Vector3 bitangent_ = {}) noexcept : normal{normal_}, tangent{tangent_}, bitangent{bitangent_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -71,33 +58,33 @@ namespace UnityEngine::ProBuilder {
     // Get instance field reference: private UnityEngine.Vector3 <bitangent>k__BackingField
     UnityEngine::Vector3& dyn_$bitangent$k__BackingField();
     // public UnityEngine.Vector3 get_normal()
-    // Offset: 0x18EFD40
+    // Offset: 0x1914F04
     UnityEngine::Vector3 get_normal();
     // public System.Void set_normal(UnityEngine.Vector3 value)
-    // Offset: 0x18EFD4C
+    // Offset: 0x1914F10
     void set_normal(UnityEngine::Vector3 value);
     // public UnityEngine.Vector4 get_tangent()
-    // Offset: 0x18EFD58
+    // Offset: 0x1914F1C
     UnityEngine::Vector4 get_tangent();
     // public System.Void set_tangent(UnityEngine.Vector4 value)
-    // Offset: 0x18EFD64
+    // Offset: 0x1914F28
     void set_tangent(UnityEngine::Vector4 value);
     // public UnityEngine.Vector3 get_bitangent()
-    // Offset: 0x18EFD70
+    // Offset: 0x1914F34
     UnityEngine::Vector3 get_bitangent();
     // public System.Void set_bitangent(UnityEngine.Vector3 value)
-    // Offset: 0x18EFD7C
+    // Offset: 0x1914F40
     void set_bitangent(UnityEngine::Vector3 value);
     // public System.Boolean Equals(UnityEngine.ProBuilder.Normal other)
-    // Offset: 0x18EFE28
+    // Offset: 0x1914FEC
     bool Equals(UnityEngine::ProBuilder::Normal other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x18EFD88
+    // Offset: 0x1914F4C
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x18EFF74
+    // Offset: 0x1915138
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
@@ -106,13 +93,15 @@ namespace UnityEngine::ProBuilder {
   static check_size<sizeof(Normal), 28 + sizeof(UnityEngine::Vector3)> __UnityEngine_ProBuilder_NormalSizeCheck;
   static_assert(sizeof(Normal) == 0x28);
   // static public System.Boolean op_Equality(UnityEngine.ProBuilder.Normal a, UnityEngine.ProBuilder.Normal b)
-  // Offset: 0x18EFFDC
+  // Offset: 0x19151A0
   bool operator ==(const UnityEngine::ProBuilder::Normal& a, const UnityEngine::ProBuilder::Normal& b);
   // static public System.Boolean op_Inequality(UnityEngine.ProBuilder.Normal a, UnityEngine.ProBuilder.Normal b)
-  // Offset: 0x18F0010
+  // Offset: 0x19151D4
   bool operator !=(const UnityEngine::ProBuilder::Normal& a, const UnityEngine::ProBuilder::Normal& b);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Normal, "UnityEngine.ProBuilder", "Normal");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Normal::get_normal
 // Il2CppName: get_normal
 template<>

@@ -4,17 +4,10 @@
 #pragma once
 // Begin includes
 #include <stdint.h>
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-// Type namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: CullingGroupEvent
-  struct CullingGroupEvent;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CullingGroupEvent, "UnityEngine", "CullingGroupEvent");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x6
@@ -24,11 +17,6 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   struct CullingGroupEvent/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Int32 m_Index
     // Size: 0x4
     // Offset: 0x0
@@ -47,7 +35,6 @@ namespace UnityEngine {
     uint8_t m_ThisState;
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
-    public:
     // Creating value type constructor for type: CullingGroupEvent
     constexpr CullingGroupEvent(int m_Index_ = {}, uint8_t m_PrevState_ = {}, uint8_t m_ThisState_ = {}) noexcept : m_Index{m_Index_}, m_PrevState{m_PrevState_}, m_ThisState{m_ThisState_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -65,4 +52,6 @@ namespace UnityEngine {
   static check_size<sizeof(CullingGroupEvent), 5 + sizeof(uint8_t)> __UnityEngine_CullingGroupEventSizeCheck;
   static_assert(sizeof(CullingGroupEvent) == 0x6);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CullingGroupEvent, "UnityEngine", "CullingGroupEvent");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

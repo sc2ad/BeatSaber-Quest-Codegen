@@ -3,19 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ObjectDisposedException
 #include "System/ObjectDisposedException.hpp"
 // Completed includes
-// Type namespace: Unity
-namespace Unity {
-  // Forward declaring type: ThrowStub
-  class ThrowStub;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Unity::ThrowStub);
-DEFINE_IL2CPP_ARG_TYPE(Unity::ThrowStub*, "Unity", "ThrowStub");
 // Type namespace: Unity
 namespace Unity {
   // Size: 0x90
@@ -24,13 +16,17 @@ namespace Unity {
   // [TokenAttribute] Offset: FFFFFFFF
   class ThrowStub : public System::ObjectDisposedException {
     public:
+    // Creating value type constructor for type: ThrowStub
+    ThrowStub() noexcept {}
     // static public System.Void ThrowNotSupportedException()
-    // Offset: 0x2520C78
+    // Offset: 0x25D8DE8
     static void ThrowNotSupportedException();
   }; // Unity.ThrowStub
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Unity::ThrowStub*, "Unity", "ThrowStub");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Unity::ThrowStub::ThrowNotSupportedException
 // Il2CppName: ThrowNotSupportedException
 template<>

@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: SimpleDialogPromptViewController
 #include "GlobalNamespace/SimpleDialogPromptViewController.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <>c__DisplayClass5_0
-  class $$c__DisplayClass5_0;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::SimpleDialogPromptViewController::$$c__DisplayClass5_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleDialogPromptViewController::$$c__DisplayClass5_0*, "", "SimpleDialogPromptViewController/<>c__DisplayClass5_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -29,11 +21,6 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class SimpleDialogPromptViewController::$$c__DisplayClass5_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 buttonNum
     // Size: 0x4
     // Offset: 0x10
@@ -48,16 +35,17 @@ namespace GlobalNamespace {
     GlobalNamespace::SimpleDialogPromptViewController* $$4__this;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SimpleDialogPromptViewController*) == 0x8);
-    public:
+    // Creating value type constructor for type: $$c__DisplayClass5_0
+    $$c__DisplayClass5_0(int buttonNum_ = {}, GlobalNamespace::SimpleDialogPromptViewController* $$4__this_ = {}) noexcept : buttonNum{buttonNum_}, $$4__this{$$4__this_} {}
     // Get instance field reference: public System.Int32 buttonNum
     int& dyn_buttonNum();
     // Get instance field reference: public SimpleDialogPromptViewController <>4__this
     GlobalNamespace::SimpleDialogPromptViewController*& dyn_$$4__this();
     // System.Void <DidActivate>b__0()
-    // Offset: 0x11429FC
+    // Offset: 0x123944C
     void $DidActivate$b__0();
     // public System.Void .ctor()
-    // Offset: 0x1142800
+    // Offset: 0x1239250
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -70,7 +58,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(SimpleDialogPromptViewController::$$c__DisplayClass5_0), 24 + sizeof(GlobalNamespace::SimpleDialogPromptViewController*)> __GlobalNamespace_SimpleDialogPromptViewController_$$c__DisplayClass5_0SizeCheck;
   static_assert(sizeof(SimpleDialogPromptViewController::$$c__DisplayClass5_0) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleDialogPromptViewController::$$c__DisplayClass5_0*, "", "SimpleDialogPromptViewController/<>c__DisplayClass5_0");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SimpleDialogPromptViewController::$$c__DisplayClass5_0::$DidActivate$b__0
 // Il2CppName: <DidActivate>b__0
 template<>

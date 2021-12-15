@@ -3,21 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Priority_Queue
-namespace Priority_Queue {
-  // Forward declaring type: FastPriorityQueueNode
-  class FastPriorityQueueNode;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Priority_Queue::FastPriorityQueueNode);
-DEFINE_IL2CPP_ARG_TYPE(Priority_Queue::FastPriorityQueueNode*, "Priority_Queue", "FastPriorityQueueNode");
 // Type namespace: Priority_Queue
 namespace Priority_Queue {
   // Size: 0x18
@@ -26,11 +18,6 @@ namespace Priority_Queue {
   // [TokenAttribute] Offset: FFFFFFFF
   class FastPriorityQueueNode : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Single <Priority>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -43,25 +30,26 @@ namespace Priority_Queue {
     int QueueIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
+    // Creating value type constructor for type: FastPriorityQueueNode
+    FastPriorityQueueNode(float Priority_ = {}, int QueueIndex_ = {}) noexcept : Priority{Priority_}, QueueIndex{QueueIndex_} {}
     // Get instance field reference: private System.Single <Priority>k__BackingField
     float& dyn_$Priority$k__BackingField();
     // Get instance field reference: private System.Int32 <QueueIndex>k__BackingField
     int& dyn_$QueueIndex$k__BackingField();
     // public System.Single get_Priority()
-    // Offset: 0x119167C
+    // Offset: 0x11B1658
     float get_Priority();
     // protected internal System.Void set_Priority(System.Single value)
-    // Offset: 0x1191684
+    // Offset: 0x11B1660
     void set_Priority(float value);
     // public System.Int32 get_QueueIndex()
-    // Offset: 0x119168C
+    // Offset: 0x11B1668
     int get_QueueIndex();
     // System.Void set_QueueIndex(System.Int32 value)
-    // Offset: 0x1191694
+    // Offset: 0x11B1670
     void set_QueueIndex(int value);
     // public System.Void .ctor()
-    // Offset: 0x119169C
+    // Offset: 0x11B1678
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -74,7 +62,8 @@ namespace Priority_Queue {
   static check_size<sizeof(FastPriorityQueueNode), 20 + sizeof(int)> __Priority_Queue_FastPriorityQueueNodeSizeCheck;
   static_assert(sizeof(FastPriorityQueueNode) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Priority_Queue::FastPriorityQueueNode*, "Priority_Queue", "FastPriorityQueueNode");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Priority_Queue::FastPriorityQueueNode::get_Priority
 // Il2CppName: get_Priority
 template<>

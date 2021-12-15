@@ -3,30 +3,24 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.MonoInstallerBase
 #include "Zenject/MonoInstallerBase.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Zenject
 namespace Zenject {
   // Forward declaring type: DiContainer
   class DiContainer;
+  // Forward declaring type: InjectTypeInfo
+  class InjectTypeInfo;
 }
 // Completed forward declares
-// Type namespace: Zenject
-namespace Zenject {
-  // Forward declaring type: MonoInstaller`4<TParam1, TParam2, TParam3, TDerived>
-  template<typename TParam1, typename TParam2, typename TParam3, typename TDerived>
-  class MonoInstaller_4;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::MonoInstaller_4, "Zenject", "MonoInstaller`4");
 // Type namespace: Zenject
 namespace Zenject {
   // WARNING Size may be invalid!
@@ -35,19 +29,21 @@ namespace Zenject {
   template<typename TParam1, typename TParam2, typename TParam3, typename TDerived>
   class MonoInstaller_4 : public Zenject::MonoInstallerBase {
     public:
+    // Creating value type constructor for type: MonoInstaller_4
+    MonoInstaller_4() noexcept {}
     // static public TDerived InstallFromResource(Zenject.DiContainer container, TParam1 p1, TParam2 p2, TParam3 p3)
     // Offset: 0xFFFFFFFF
     static TDerived InstallFromResource(Zenject::DiContainer* container, TParam1 p1, TParam2 p2, TParam3 p3) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MonoInstaller_4::InstallFromResource");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<MonoInstaller_4<TParam1, TParam2, TParam3, TDerived>*>::get(), "InstallFromResource", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(container), ::il2cpp_utils::ExtractType(p1), ::il2cpp_utils::ExtractType(p2), ::il2cpp_utils::ExtractType(p3)})));
-      return ::il2cpp_utils::RunMethodThrow<TDerived, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, container, p1, p2, p3);
+      return ::il2cpp_utils::RunMethodThrow<TDerived, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, container, p1, p2, p3);
     }
     // static public TDerived InstallFromResource(System.String resourcePath, Zenject.DiContainer container, TParam1 p1, TParam2 p2, TParam3 p3)
     // Offset: 0xFFFFFFFF
     static TDerived InstallFromResource(::Il2CppString* resourcePath, Zenject::DiContainer* container, TParam1 p1, TParam2 p2, TParam3 p3) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MonoInstaller_4::InstallFromResource");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<MonoInstaller_4<TParam1, TParam2, TParam3, TDerived>*>::get(), "InstallFromResource", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(resourcePath), ::il2cpp_utils::ExtractType(container), ::il2cpp_utils::ExtractType(p1), ::il2cpp_utils::ExtractType(p2), ::il2cpp_utils::ExtractType(p3)})));
-      return ::il2cpp_utils::RunMethodThrow<TDerived, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, resourcePath, container, p1, p2, p3);
+      return ::il2cpp_utils::RunMethodThrow<TDerived, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, resourcePath, container, p1, p2, p3);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
@@ -63,7 +59,17 @@ namespace Zenject {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MonoInstaller_4::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoInstaller_4<TParam1, TParam2, TParam3, TDerived>*, creationType>()));
     }
+    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
+    // Offset: 0xFFFFFFFF
+    // Implemented from: Zenject.MonoInstallerBase
+    // Base method: Zenject.InjectTypeInfo MonoInstallerBase::__zenCreateInjectTypeInfo()
+    static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo() {
+      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MonoInstaller_4::__zenCreateInjectTypeInfo");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<MonoInstaller_4<TParam1, TParam2, TParam3, TDerived>*>::get(), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+      return ::il2cpp_utils::RunMethodThrow<Zenject::InjectTypeInfo*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
+    }
   }; // Zenject.MonoInstaller`4
   // Could not write size check! Type: Zenject.MonoInstaller`4 is generic, or has no fields that are valid for size checks!
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::MonoInstaller_4, "Zenject", "MonoInstaller`4");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

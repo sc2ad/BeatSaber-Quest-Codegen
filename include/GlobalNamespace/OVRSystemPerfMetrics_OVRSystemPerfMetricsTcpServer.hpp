@@ -3,27 +3,19 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRSystemPerfMetrics
 #include "GlobalNamespace/OVRSystemPerfMetrics.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: OVRNetwork
 #include "GlobalNamespace/OVRNetwork.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: OVRSystemPerfMetricsTcpServer
-  class OVRSystemPerfMetricsTcpServer;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer*, "", "OVRSystemPerfMetrics/OVRSystemPerfMetricsTcpServer");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x24
@@ -32,11 +24,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer : public UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private OVRNetwork/OVRNetworkTcpServer tcpServer
     // Size: 0x8
     // Offset: 0x18
@@ -49,7 +36,8 @@ namespace GlobalNamespace {
     int listeningPort;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
+    // Creating value type constructor for type: OVRSystemPerfMetricsTcpServer
+    OVRSystemPerfMetricsTcpServer(GlobalNamespace::OVRNetwork::OVRNetworkTcpServer* tcpServer_ = {}, int listeningPort_ = {}) noexcept : tcpServer{tcpServer_}, listeningPort{listeningPort_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static public OVRSystemPerfMetrics/OVRSystemPerfMetricsTcpServer singleton
@@ -61,19 +49,19 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 listeningPort
     int& dyn_listeningPort();
     // private System.Void OnEnable()
-    // Offset: 0x20C7720
+    // Offset: 0x2169FFC
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0x20C785C
+    // Offset: 0x216A138
     void OnDisable();
     // private System.Void Update()
-    // Offset: 0x20C790C
+    // Offset: 0x216A1E8
     void Update();
     // private OVRSystemPerfMetrics/PerfMetrics GatherPerfMetrics()
-    // Offset: 0x20C7994
+    // Offset: 0x216A270
     GlobalNamespace::OVRSystemPerfMetrics::PerfMetrics* GatherPerfMetrics();
     // public System.Void .ctor()
-    // Offset: 0x20C8004
+    // Offset: 0x216A8E0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -86,7 +74,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x20C8074
+    // Offset: 0x216A950
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
@@ -95,7 +83,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer), 32 + sizeof(int)> __GlobalNamespace_OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServerSizeCheck;
   static_assert(sizeof(OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer) == 0x24);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer*, "", "OVRSystemPerfMetrics/OVRSystemPerfMetricsTcpServer");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer::OnEnable
 // Il2CppName: OnEnable
 template<>

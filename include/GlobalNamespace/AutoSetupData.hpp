@@ -3,21 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: AutoSetupData
-  class AutoSetupData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::AutoSetupData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AutoSetupData*, "", "AutoSetupData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x14
@@ -26,11 +18,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AutoSetupData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Boolean selectBasedOnSuggestions
     // Size: 0x1
     // Offset: 0x10
@@ -55,7 +42,8 @@ namespace GlobalNamespace {
     bool randomSongIfNoneSuggested;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: AutoSetupData
+    AutoSetupData(bool selectBasedOnSuggestions_ = {}, bool autoStartWhenAllReady_ = {}, bool forceAutoStartAfterSongSelection_ = {}, bool randomSongIfNoneSuggested_ = {}) noexcept : selectBasedOnSuggestions{selectBasedOnSuggestions_}, autoStartWhenAllReady{autoStartWhenAllReady_}, forceAutoStartAfterSongSelection{forceAutoStartAfterSongSelection_}, randomSongIfNoneSuggested{randomSongIfNoneSuggested_} {}
     // Get instance field reference: public System.Boolean selectBasedOnSuggestions
     bool& dyn_selectBasedOnSuggestions();
     // Get instance field reference: public System.Boolean autoStartWhenAllReady
@@ -65,7 +53,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean randomSongIfNoneSuggested
     bool& dyn_randomSongIfNoneSuggested();
     // public System.Void .ctor()
-    // Offset: 0x261DDCC
+    // Offset: 0x13167B0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -78,7 +66,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(AutoSetupData), 19 + sizeof(bool)> __GlobalNamespace_AutoSetupDataSizeCheck;
   static_assert(sizeof(AutoSetupData) == 0x14);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AutoSetupData*, "", "AutoSetupData");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AutoSetupData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

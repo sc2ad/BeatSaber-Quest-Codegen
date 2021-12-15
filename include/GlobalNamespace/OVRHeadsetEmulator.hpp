@@ -3,19 +3,18 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.KeyCode
 #include "UnityEngine/KeyCode.hpp"
 // Including type: UnityEngine.CursorLockMode
 #include "UnityEngine/CursorLockMode.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -24,14 +23,6 @@ namespace GlobalNamespace {
   class OVRManager;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: OVRHeadsetEmulator
-  class OVRHeadsetEmulator;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRHeadsetEmulator);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHeadsetEmulator*, "", "OVRHeadsetEmulator");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x5C
@@ -48,18 +39,12 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct OpMode/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: OpMode
       constexpr OpMode(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -94,11 +79,6 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(OVRHeadsetEmulator::OpMode), 0 + sizeof(int)> __GlobalNamespace_OVRHeadsetEmulator_OpModeSizeCheck;
     static_assert(sizeof(OVRHeadsetEmulator::OpMode) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public OVRHeadsetEmulator/OpMode opMode
     // Size: 0x4
     // Offset: 0x18
@@ -122,15 +102,15 @@ namespace GlobalNamespace {
     // public UnityEngine.KeyCode[] activateKeys
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayW<UnityEngine::KeyCode> activateKeys;
+    ::Array<UnityEngine::KeyCode>* activateKeys;
     // Field size check
-    static_assert(sizeof(::ArrayW<UnityEngine::KeyCode>) == 0x8);
+    static_assert(sizeof(::Array<UnityEngine::KeyCode>*) == 0x8);
     // public UnityEngine.KeyCode[] pitchKeys
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayW<UnityEngine::KeyCode> pitchKeys;
+    ::Array<UnityEngine::KeyCode>* pitchKeys;
     // Field size check
-    static_assert(sizeof(::ArrayW<UnityEngine::KeyCode>) == 0x8);
+    static_assert(sizeof(::Array<UnityEngine::KeyCode>*) == 0x8);
     // private OVRManager manager
     // Size: 0x8
     // Offset: 0x30
@@ -177,7 +157,8 @@ namespace GlobalNamespace {
     UnityEngine::CursorLockMode previousCursorLockMode;
     // Field size check
     static_assert(sizeof(UnityEngine::CursorLockMode) == 0x4);
-    public:
+    // Creating value type constructor for type: OVRHeadsetEmulator
+    OVRHeadsetEmulator(GlobalNamespace::OVRHeadsetEmulator::OpMode opMode_ = {}, bool resetHmdPoseOnRelease_ = {}, bool resetHmdPoseByMiddleMouseButton_ = {}, ::Array<UnityEngine::KeyCode>* activateKeys_ = {}, ::Array<UnityEngine::KeyCode>* pitchKeys_ = {}, GlobalNamespace::OVRManager* manager_ = {}, bool lastFrameEmulationActivated_ = {}, UnityEngine::Vector3 recordedHeadPoseRelativeOffsetTranslation_ = {}, UnityEngine::Vector3 recordedHeadPoseRelativeOffsetRotation_ = {}, bool hasSentEvent_ = {}, bool emulatorHasInitialized_ = {}, UnityEngine::CursorLockMode previousCursorLockMode_ = {}) noexcept : opMode{opMode_}, resetHmdPoseOnRelease{resetHmdPoseOnRelease_}, resetHmdPoseByMiddleMouseButton{resetHmdPoseByMiddleMouseButton_}, activateKeys{activateKeys_}, pitchKeys{pitchKeys_}, manager{manager_}, lastFrameEmulationActivated{lastFrameEmulationActivated_}, recordedHeadPoseRelativeOffsetTranslation{recordedHeadPoseRelativeOffsetTranslation_}, recordedHeadPoseRelativeOffsetRotation{recordedHeadPoseRelativeOffsetRotation_}, hasSentEvent{hasSentEvent_}, emulatorHasInitialized{emulatorHasInitialized_}, previousCursorLockMode{previousCursorLockMode_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Single MOUSE_SCALE_X
@@ -217,9 +198,9 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean resetHmdPoseByMiddleMouseButton
     bool& dyn_resetHmdPoseByMiddleMouseButton();
     // Get instance field reference: public UnityEngine.KeyCode[] activateKeys
-    ::ArrayW<UnityEngine::KeyCode>& dyn_activateKeys();
+    ::Array<UnityEngine::KeyCode>*& dyn_activateKeys();
     // Get instance field reference: public UnityEngine.KeyCode[] pitchKeys
-    ::ArrayW<UnityEngine::KeyCode>& dyn_pitchKeys();
+    ::Array<UnityEngine::KeyCode>*& dyn_pitchKeys();
     // Get instance field reference: private OVRManager manager
     GlobalNamespace::OVRManager*& dyn_manager();
     // Get instance field reference: private System.Boolean lastFrameEmulationActivated
@@ -235,19 +216,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.CursorLockMode previousCursorLockMode
     UnityEngine::CursorLockMode& dyn_previousCursorLockMode();
     // private System.Void Start()
-    // Offset: 0x16AD01C
+    // Offset: 0x176A438
     void Start();
     // private System.Void Update()
-    // Offset: 0x16AD020
+    // Offset: 0x176A43C
     void Update();
     // private System.Boolean IsEmulationActivated()
-    // Offset: 0x16AD408
+    // Offset: 0x176A824
     bool IsEmulationActivated();
     // private System.Boolean IsTweakingPitch()
-    // Offset: 0x16AD724
+    // Offset: 0x176AB40
     bool IsTweakingPitch();
     // public System.Void .ctor()
-    // Offset: 0x16AD7B4
+    // Offset: 0x176ABD0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -264,9 +245,9 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRHeadsetEmulator), 88 + sizeof(UnityEngine::CursorLockMode)> __GlobalNamespace_OVRHeadsetEmulatorSizeCheck;
   static_assert(sizeof(OVRHeadsetEmulator) == 0x5C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHeadsetEmulator*, "", "OVRHeadsetEmulator");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHeadsetEmulator::OpMode, "", "OVRHeadsetEmulator/OpMode");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRHeadsetEmulator::Start
 // Il2CppName: Start
 template<>

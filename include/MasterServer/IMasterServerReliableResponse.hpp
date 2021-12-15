@@ -3,20 +3,12 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MasterServer.IMasterServerResponse
 #include "MasterServer/IMasterServerResponse.hpp"
 // Including type: MasterServer.IMasterServerReliableRequest
 #include "MasterServer/IMasterServerReliableRequest.hpp"
 // Completed includes
-// Type namespace: MasterServer
-namespace MasterServer {
-  // Forward declaring type: IMasterServerReliableResponse
-  class IMasterServerReliableResponse;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(MasterServer::IMasterServerReliableResponse);
-DEFINE_IL2CPP_ARG_TYPE(MasterServer::IMasterServerReliableResponse*, "MasterServer", "IMasterServerReliableResponse");
 // Type namespace: MasterServer
 namespace MasterServer {
   // Size: 0x10
@@ -25,6 +17,8 @@ namespace MasterServer {
   // [TokenAttribute] Offset: FFFFFFFF
   class IMasterServerReliableResponse/*, public MasterServer::IMasterServerResponse, public MasterServer::IMasterServerReliableRequest*/ {
     public:
+    // Creating value type constructor for type: IMasterServerReliableResponse
+    IMasterServerReliableResponse() noexcept {}
     // Creating interface conversion operator: operator MasterServer::IMasterServerResponse
     operator MasterServer::IMasterServerResponse() noexcept {
       return *reinterpret_cast<MasterServer::IMasterServerResponse*>(this);
@@ -39,7 +33,9 @@ namespace MasterServer {
   }; // MasterServer.IMasterServerReliableResponse
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(MasterServer::IMasterServerReliableResponse*, "MasterServer", "IMasterServerReliableResponse");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: MasterServer::IMasterServerReliableResponse::WithRequestAndResponseId
 // Il2CppName: WithRequestAndResponseId
 template<>

@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Collections.IEnumerator
 #include "System/Collections/IEnumerator.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: CustomYieldInstruction
-  class CustomYieldInstruction;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::CustomYieldInstruction);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CustomYieldInstruction*, "UnityEngine", "CustomYieldInstruction");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -28,6 +20,8 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class CustomYieldInstruction : public ::Il2CppObject/*, public System::Collections::IEnumerator*/ {
     public:
+    // Creating value type constructor for type: CustomYieldInstruction
+    CustomYieldInstruction() noexcept {}
     // Creating interface conversion operator: operator System::Collections::IEnumerator
     operator System::Collections::IEnumerator() noexcept {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);
@@ -36,16 +30,16 @@ namespace UnityEngine {
     // Offset: 0xFFFFFFFF
     bool get_keepWaiting();
     // public System.Object get_Current()
-    // Offset: 0x1C99304
+    // Offset: 0x1D08D6C
     ::Il2CppObject* get_Current();
     // public System.Boolean MoveNext()
-    // Offset: 0x1C9930C
+    // Offset: 0x1D08D74
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1C99318
+    // Offset: 0x1D08D80
     void Reset();
     // protected System.Void .ctor()
-    // Offset: 0x1C9931C
+    // Offset: 0x1D08D84
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -56,7 +50,8 @@ namespace UnityEngine {
   }; // UnityEngine.CustomYieldInstruction
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CustomYieldInstruction*, "UnityEngine", "CustomYieldInstruction");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::CustomYieldInstruction::get_keepWaiting
 // Il2CppName: get_keepWaiting
 template<>

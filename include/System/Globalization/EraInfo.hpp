@@ -3,21 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Globalization
-namespace System::Globalization {
-  // Forward declaring type: EraInfo
-  class EraInfo;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Globalization::EraInfo);
-DEFINE_IL2CPP_ARG_TYPE(System::Globalization::EraInfo*, "System.Globalization", "EraInfo");
 // Type namespace: System.Globalization
 namespace System::Globalization {
   // Size: 0x48
@@ -26,11 +18,6 @@ namespace System::Globalization {
   // [TokenAttribute] Offset: FFFFFFFF
   class EraInfo : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // System.Int32 era
     // Size: 0x4
     // Offset: 0x10
@@ -65,28 +52,29 @@ namespace System::Globalization {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: maxEraYear and: eraName
     char __padding4[0x4] = {};
-    // [OptionalFieldAttribute] Offset: 0xE65DE0
+    // [OptionalFieldAttribute] Offset: 0xEA49F0
     // System.String eraName
     // Size: 0x8
     // Offset: 0x30
     ::Il2CppString* eraName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [OptionalFieldAttribute] Offset: 0xE65E18
+    // [OptionalFieldAttribute] Offset: 0xEA4A28
     // System.String abbrevEraName
     // Size: 0x8
     // Offset: 0x38
     ::Il2CppString* abbrevEraName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [OptionalFieldAttribute] Offset: 0xE65E50
+    // [OptionalFieldAttribute] Offset: 0xEA4A60
     // System.String englishEraName
     // Size: 0x8
     // Offset: 0x40
     ::Il2CppString* englishEraName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: EraInfo
+    EraInfo(int era_ = {}, int64_t ticks_ = {}, int yearOffset_ = {}, int minEraYear_ = {}, int maxEraYear_ = {}, ::Il2CppString* eraName_ = {}, ::Il2CppString* abbrevEraName_ = {}, ::Il2CppString* englishEraName_ = {}) noexcept : era{era_}, ticks{ticks_}, yearOffset{yearOffset_}, minEraYear{minEraYear_}, maxEraYear{maxEraYear_}, eraName{eraName_}, abbrevEraName{abbrevEraName_}, englishEraName{englishEraName_} {}
     // Get instance field reference: System.Int32 era
     int& dyn_era();
     // Get instance field reference: System.Int64 ticks
@@ -104,14 +92,14 @@ namespace System::Globalization {
     // Get instance field reference: System.String englishEraName
     ::Il2CppString*& dyn_englishEraName();
     // System.Void .ctor(System.Int32 era, System.Int32 startYear, System.Int32 startMonth, System.Int32 startDay, System.Int32 yearOffset, System.Int32 minEraYear, System.Int32 maxEraYear)
-    // Offset: 0x1BB7C30
+    // Offset: 0x1C37B28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EraInfo* New_ctor(int era, int startYear, int startMonth, int startDay, int yearOffset, int minEraYear, int maxEraYear) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::EraInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EraInfo*, creationType>(era, startYear, startMonth, startDay, yearOffset, minEraYear, maxEraYear)));
     }
     // System.Void .ctor(System.Int32 era, System.Int32 startYear, System.Int32 startMonth, System.Int32 startDay, System.Int32 yearOffset, System.Int32 minEraYear, System.Int32 maxEraYear, System.String eraName, System.String abbrevEraName, System.String englishEraName)
-    // Offset: 0x1BB7CD0
+    // Offset: 0x1C37BC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EraInfo* New_ctor(int era, int startYear, int startMonth, int startDay, int yearOffset, int minEraYear, int maxEraYear, ::Il2CppString* eraName, ::Il2CppString* abbrevEraName, ::Il2CppString* englishEraName) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::EraInfo::.ctor");
@@ -122,7 +110,8 @@ namespace System::Globalization {
   static check_size<sizeof(EraInfo), 64 + sizeof(::Il2CppString*)> __System_Globalization_EraInfoSizeCheck;
   static_assert(sizeof(EraInfo) == 0x48);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Globalization::EraInfo*, "System.Globalization", "EraInfo");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Globalization::EraInfo::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

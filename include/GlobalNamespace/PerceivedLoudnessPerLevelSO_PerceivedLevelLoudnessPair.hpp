@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PerceivedLoudnessPerLevelSO
 #include "GlobalNamespace/PerceivedLoudnessPerLevelSO.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: PerceivedLevelLoudnessPair
-  class PerceivedLevelLoudnessPair;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair*, "", "PerceivedLoudnessPerLevelSO/PerceivedLevelLoudnessPair");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x1C
@@ -28,11 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.String _levelId
     // Size: 0x8
     // Offset: 0x10
@@ -45,19 +32,20 @@ namespace GlobalNamespace {
     float perceivedLoudness;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
+    // Creating value type constructor for type: PerceivedLevelLoudnessPair
+    PerceivedLevelLoudnessPair(::Il2CppString* levelId_ = {}, float perceivedLoudness_ = {}) noexcept : levelId{levelId_}, perceivedLoudness{perceivedLoudness_} {}
     // Get instance field reference: private System.String _levelId
     ::Il2CppString*& dyn__levelId();
     // Get instance field reference: private System.Single _perceivedLoudness
     float& dyn__perceivedLoudness();
     // public System.String get_levelId()
-    // Offset: 0x12C253C
+    // Offset: 0x114DA5C
     ::Il2CppString* get_levelId();
     // public System.Single get_perceivedLoudness()
-    // Offset: 0x12C2544
+    // Offset: 0x114DA64
     float get_perceivedLoudness();
     // public System.Void .ctor(System.String levelId, System.Single perceivedLoudness)
-    // Offset: 0x12C254C
+    // Offset: 0x114DA6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair* New_ctor(::Il2CppString* levelId, float perceivedLoudness) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair::.ctor");
@@ -68,7 +56,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair), 24 + sizeof(float)> __GlobalNamespace_PerceivedLoudnessPerLevelSO_PerceivedLevelLoudnessPairSizeCheck;
   static_assert(sizeof(PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair) == 0x1C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair*, "", "PerceivedLoudnessPerLevelSO/PerceivedLevelLoudnessPair");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair::get_levelId
 // Il2CppName: get_levelId
 template<>

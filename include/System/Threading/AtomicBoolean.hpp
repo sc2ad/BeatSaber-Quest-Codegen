@@ -3,21 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Threading
-namespace System::Threading {
-  // Forward declaring type: AtomicBoolean
-  class AtomicBoolean;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Threading::AtomicBoolean);
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::AtomicBoolean*, "System.Threading", "AtomicBoolean");
 // Type namespace: System.Threading
 namespace System::Threading {
   // Size: 0x14
@@ -26,18 +18,14 @@ namespace System::Threading {
   // [TokenAttribute] Offset: FFFFFFFF
   class AtomicBoolean : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Int32 flag
     // Size: 0x4
     // Offset: 0x10
     int flag;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
+    // Creating value type constructor for type: AtomicBoolean
+    AtomicBoolean(int flag_ = {}) noexcept : flag{flag_} {}
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return flag;
@@ -45,16 +33,16 @@ namespace System::Threading {
     // Get instance field reference: private System.Int32 flag
     int& dyn_flag();
     // public System.Boolean TryRelaxedSet()
-    // Offset: 0x1A3A430
+    // Offset: 0x1A59B50
     bool TryRelaxedSet();
     // public System.Boolean Exchange(System.Boolean newVal)
-    // Offset: 0x1A3A460
+    // Offset: 0x1A59B80
     bool Exchange(bool newVal);
     // public System.Boolean Equals(System.Threading.AtomicBoolean rhs)
-    // Offset: 0x1A3A488
+    // Offset: 0x1A59BA8
     bool Equals(System::Threading::AtomicBoolean* rhs);
     // public System.Void .ctor()
-    // Offset: 0x1A3A554
+    // Offset: 0x1A59C74
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -63,12 +51,12 @@ namespace System::Threading {
       return THROW_UNLESS((::il2cpp_utils::New<AtomicBoolean*, creationType>()));
     }
     // public override System.Boolean Equals(System.Object rhs)
-    // Offset: 0x1A3A4AC
+    // Offset: 0x1A59BCC
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object rhs)
     bool Equals(::Il2CppObject* rhs);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1A3A548
+    // Offset: 0x1A59C68
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
@@ -77,7 +65,8 @@ namespace System::Threading {
   static check_size<sizeof(AtomicBoolean), 16 + sizeof(int)> __System_Threading_AtomicBooleanSizeCheck;
   static_assert(sizeof(AtomicBoolean) == 0x14);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::AtomicBoolean*, "System.Threading", "AtomicBoolean");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::AtomicBoolean::TryRelaxedSet
 // Il2CppName: TryRelaxedSet
 template<>

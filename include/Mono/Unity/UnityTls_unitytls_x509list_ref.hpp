@@ -3,20 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Mono.Unity.UnityTls
 #include "Mono/Unity/UnityTls.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-// Type namespace: Mono.Unity
-namespace Mono::Unity {
-  // Forward declaring type: unitytls_x509list_ref
-  struct unitytls_x509list_ref;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTls::unitytls_x509list_ref, "Mono.Unity", "UnityTls/unitytls_x509list_ref");
 // Type namespace: Mono.Unity
 namespace Mono::Unity {
   // Size: 0x8
@@ -26,18 +19,12 @@ namespace Mono::Unity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct UnityTls::unitytls_x509list_ref/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.UInt64 handle
     // Size: 0x8
     // Offset: 0x0
     uint64_t handle;
     // Field size check
     static_assert(sizeof(uint64_t) == 0x8);
-    public:
     // Creating value type constructor for type: unitytls_x509list_ref
     constexpr unitytls_x509list_ref(uint64_t handle_ = {}) noexcept : handle{handle_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -55,4 +42,6 @@ namespace Mono::Unity {
   static check_size<sizeof(UnityTls::unitytls_x509list_ref), 0 + sizeof(uint64_t)> __Mono_Unity_UnityTls_unitytls_x509list_refSizeCheck;
   static_assert(sizeof(UnityTls::unitytls_x509list_ref) == 0x8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTls::unitytls_x509list_ref, "Mono.Unity", "UnityTls/unitytls_x509list_ref");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

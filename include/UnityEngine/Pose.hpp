@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.IEquatable`1
@@ -13,14 +13,11 @@
 #include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.Quaternion
 #include "UnityEngine/Quaternion.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: Pose
-  struct Pose;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Pose, "UnityEngine", "Pose");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x1C
@@ -30,11 +27,6 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Pose/*, public System::ValueType, public System::IEquatable_1<UnityEngine::Pose>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public UnityEngine.Vector3 position
     // Size: 0xC
     // Offset: 0x0
@@ -47,7 +39,6 @@ namespace UnityEngine {
     UnityEngine::Quaternion rotation;
     // Field size check
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
-    public:
     // Creating value type constructor for type: Pose
     constexpr Pose(UnityEngine::Vector3 position_ = {}, UnityEngine::Quaternion rotation_ = {}) noexcept : position{position_}, rotation{rotation_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -67,29 +58,30 @@ namespace UnityEngine {
     // Get instance field reference: public UnityEngine.Quaternion rotation
     UnityEngine::Quaternion& dyn_rotation();
     // public UnityEngine.Vector3 get_forward()
-    // Offset: 0x1DE4AA8
+    // Offset: 0x1DEEE18
     UnityEngine::Vector3 get_forward();
     // public System.Void .ctor(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation)
-    // Offset: 0x1DE47F4
-    // ABORTED: conflicts with another method.  Pose(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation);
+    // Offset: 0x1DEEB64
+    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    // ABORTED: conflicts with another method.  Pose(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation)
     // static private System.Void .cctor()
-    // Offset: 0x1DE4F5C
+    // Offset: 0x1DEF2CC
     static void _cctor();
     // public System.Boolean Equals(UnityEngine.Pose other)
-    // Offset: 0x1DE4CC4
+    // Offset: 0x1DEF034
     bool Equals(UnityEngine::Pose other);
     // public override System.String ToString()
-    // Offset: 0x1DE4808
+    // Offset: 0x1DEEB78
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1DE4C24
+    // Offset: 0x1DEEF94
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1DE4EC0
+    // Offset: 0x1DEF230
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
@@ -98,7 +90,8 @@ namespace UnityEngine {
   static check_size<sizeof(Pose), 12 + sizeof(UnityEngine::Quaternion)> __UnityEngine_PoseSizeCheck;
   static_assert(sizeof(Pose) == 0x1C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Pose, "UnityEngine", "Pose");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Pose::get_forward
 // Il2CppName: get_forward
 template<>

@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Attribute
 #include "System/Attribute.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: UnityEngine.Scripting
-namespace UnityEngine::Scripting {
-  // Forward declaring type: GeneratedByOldBindingsGeneratorAttribute
-  class GeneratedByOldBindingsGeneratorAttribute;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Scripting::GeneratedByOldBindingsGeneratorAttribute);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Scripting::GeneratedByOldBindingsGeneratorAttribute*, "UnityEngine.Scripting", "GeneratedByOldBindingsGeneratorAttribute");
 // Type namespace: UnityEngine.Scripting
 namespace UnityEngine::Scripting {
   // Size: 0x10
@@ -29,8 +21,10 @@ namespace UnityEngine::Scripting {
   // [VisibleToOtherModulesAttribute] Offset: FFFFFFFF
   class GeneratedByOldBindingsGeneratorAttribute : public System::Attribute {
     public:
+    // Creating value type constructor for type: GeneratedByOldBindingsGeneratorAttribute
+    GeneratedByOldBindingsGeneratorAttribute() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x26075C8
+    // Offset: 0x26CA5F0
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -42,7 +36,8 @@ namespace UnityEngine::Scripting {
   }; // UnityEngine.Scripting.GeneratedByOldBindingsGeneratorAttribute
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Scripting::GeneratedByOldBindingsGeneratorAttribute*, "UnityEngine.Scripting", "GeneratedByOldBindingsGeneratorAttribute");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Scripting::GeneratedByOldBindingsGeneratorAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

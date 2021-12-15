@@ -3,14 +3,14 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -20,14 +20,6 @@ namespace GlobalNamespace {
   class MissionObjectiveTypeSO;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: MissionObjective
-  class MissionObjective;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MissionObjective);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjective*, "", "MissionObjective");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -44,18 +36,12 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct ReferenceValueComparisonType/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: ReferenceValueComparisonType
       constexpr ReferenceValueComparisonType(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -96,11 +82,6 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(MissionObjective::ReferenceValueComparisonType), 0 + sizeof(int)> __GlobalNamespace_MissionObjective_ReferenceValueComparisonTypeSizeCheck;
     static_assert(sizeof(MissionObjective::ReferenceValueComparisonType) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private MissionObjectiveTypeSO _type
     // Size: 0x8
     // Offset: 0x10
@@ -119,7 +100,8 @@ namespace GlobalNamespace {
     int referenceValue;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
+    // Creating value type constructor for type: MissionObjective
+    MissionObjective(GlobalNamespace::MissionObjectiveTypeSO* type_ = {}, GlobalNamespace::MissionObjective::ReferenceValueComparisonType referenceValueComparisonType_ = {}, int referenceValue_ = {}) noexcept : type{type_}, referenceValueComparisonType{referenceValueComparisonType_}, referenceValue{referenceValue_} {}
     // Get instance field reference: private MissionObjectiveTypeSO _type
     GlobalNamespace::MissionObjectiveTypeSO*& dyn__type();
     // Get instance field reference: private MissionObjective/ReferenceValueComparisonType _referenceValueComparisonType
@@ -127,16 +109,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _referenceValue
     int& dyn__referenceValue();
     // public MissionObjectiveTypeSO get_type()
-    // Offset: 0x120F8E8
+    // Offset: 0x1165A44
     GlobalNamespace::MissionObjectiveTypeSO* get_type();
     // public MissionObjective/ReferenceValueComparisonType get_referenceValueComparisonType()
-    // Offset: 0x120F8F0
+    // Offset: 0x1165A4C
     GlobalNamespace::MissionObjective::ReferenceValueComparisonType get_referenceValueComparisonType();
     // public System.Int32 get_referenceValue()
-    // Offset: 0x120F8F8
+    // Offset: 0x1165A54
     int get_referenceValue();
     // public System.Void .ctor()
-    // Offset: 0x120FB68
+    // Offset: 0x1165CC4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -145,12 +127,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MissionObjective*, creationType>()));
     }
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x120F9E8
+    // Offset: 0x1165B44
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x120FAF8
+    // Offset: 0x1165C54
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
@@ -159,15 +141,15 @@ namespace GlobalNamespace {
   static check_size<sizeof(MissionObjective), 28 + sizeof(int)> __GlobalNamespace_MissionObjectiveSizeCheck;
   static_assert(sizeof(MissionObjective) == 0x20);
   // static public System.Boolean op_Equality(MissionObjective obj1, MissionObjective obj2)
-  // Offset: 0x120F900
+  // Offset: 0x1165A5C
   bool operator ==(GlobalNamespace::MissionObjective* obj1, GlobalNamespace::MissionObjective& obj2);
   // static public System.Boolean op_Inequality(MissionObjective obj1, MissionObjective obj2)
-  // Offset: 0x120F9CC
+  // Offset: 0x1165B28
   bool operator !=(GlobalNamespace::MissionObjective* obj1, GlobalNamespace::MissionObjective& obj2);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjective*, "", "MissionObjective");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjective::ReferenceValueComparisonType, "", "MissionObjective/ReferenceValueComparisonType");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionObjective::get_type
 // Il2CppName: get_type
 template<>

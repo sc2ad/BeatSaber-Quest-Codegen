@@ -3,19 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BeatmapSaveData
 #include "GlobalNamespace/BeatmapSaveData.hpp"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: ITime
-  class ITime;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BeatmapSaveData::ITime);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapSaveData::ITime*, "", "BeatmapSaveData/ITime");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -24,6 +16,8 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapSaveData::ITime {
     public:
+    // Creating value type constructor for type: ITime
+    ITime() noexcept {}
     // public System.Single get_time()
     // Offset: 0xFFFFFFFF
     float get_time();
@@ -33,7 +27,9 @@ namespace GlobalNamespace {
   }; // BeatmapSaveData/ITime
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapSaveData::ITime*, "", "BeatmapSaveData/ITime");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapSaveData::ITime::get_time
 // Il2CppName: get_time
 template<>

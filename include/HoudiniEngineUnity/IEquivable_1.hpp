@@ -3,20 +3,12 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: HoudiniEngineUnity
-namespace HoudiniEngineUnity {
-  // Forward declaring type: IEquivable`1<T>
-  template<typename T>
-  class IEquivable_1;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(HoudiniEngineUnity::IEquivable_1, "HoudiniEngineUnity", "IEquivable`1");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // WARNING Size may be invalid!
@@ -25,14 +17,18 @@ namespace HoudiniEngineUnity {
   template<typename T>
   class IEquivable_1 {
     public:
+    // Creating value type constructor for type: IEquivable_1
+    IEquivable_1() noexcept {}
     // public System.Boolean IsEquivalentTo(T other)
     // Offset: 0xFFFFFFFF
     bool IsEquivalentTo(T other) {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::IEquivable_1::IsEquivalentTo");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "IsEquivalentTo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(other)})));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, other);
+      auto ___instance_arg = this;
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(___instance_arg, ___internal__method, other);
     }
   }; // HoudiniEngineUnity.IEquivable`1
   // Could not write size check! Type: HoudiniEngineUnity.IEquivable`1 is generic, or has no fields that are valid for size checks!
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(HoudiniEngineUnity::IEquivable_1, "HoudiniEngineUnity", "IEquivable`1");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

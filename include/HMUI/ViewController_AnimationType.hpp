@@ -3,20 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.ViewController
 #include "HMUI/ViewController.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: HMUI
-namespace HMUI {
-  // Forward declaring type: AnimationType
-  struct AnimationType;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(HMUI::ViewController::AnimationType, "HMUI", "ViewController/AnimationType");
 // Type namespace: HMUI
 namespace HMUI {
   // Size: 0x4
@@ -25,18 +18,12 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ViewController::AnimationType/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: AnimationType
     constexpr AnimationType(int value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -72,4 +59,6 @@ namespace HMUI {
   static check_size<sizeof(ViewController::AnimationType), 0 + sizeof(int)> __HMUI_ViewController_AnimationTypeSizeCheck;
   static_assert(sizeof(ViewController::AnimationType) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HMUI::ViewController::AnimationType, "HMUI", "ViewController/AnimationType");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

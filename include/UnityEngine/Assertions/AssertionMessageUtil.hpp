@@ -3,17 +3,9 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: UnityEngine.Assertions
-namespace UnityEngine::Assertions {
-  // Forward declaring type: AssertionMessageUtil
-  class AssertionMessageUtil;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Assertions::AssertionMessageUtil);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Assertions::AssertionMessageUtil*, "UnityEngine.Assertions", "AssertionMessageUtil");
 // Type namespace: UnityEngine.Assertions
 namespace UnityEngine::Assertions {
   // Size: 0x10
@@ -22,19 +14,23 @@ namespace UnityEngine::Assertions {
   // [TokenAttribute] Offset: FFFFFFFF
   class AssertionMessageUtil : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: AssertionMessageUtil
+    AssertionMessageUtil() noexcept {}
     // static public System.String GetMessage(System.String failureMessage)
-    // Offset: 0x1C8F964
+    // Offset: 0x1CFF3CC
     static ::Il2CppString* GetMessage(::Il2CppString* failureMessage);
     // static public System.String GetMessage(System.String failureMessage, System.String expected)
-    // Offset: 0x1C8FA50
+    // Offset: 0x1CFF4B8
     static ::Il2CppString* GetMessage(::Il2CppString* failureMessage, ::Il2CppString* expected);
     // static public System.String GetEqualityMessage(System.Object actual, System.Object expected, System.Boolean expectEqual)
-    // Offset: 0x1C8F640
+    // Offset: 0x1CFF0A8
     static ::Il2CppString* GetEqualityMessage(::Il2CppObject* actual, ::Il2CppObject* expected, bool expectEqual);
   }; // UnityEngine.Assertions.AssertionMessageUtil
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Assertions::AssertionMessageUtil*, "UnityEngine.Assertions", "AssertionMessageUtil");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Assertions::AssertionMessageUtil::GetMessage
 // Il2CppName: GetMessage
 template<>

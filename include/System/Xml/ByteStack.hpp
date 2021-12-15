@@ -3,22 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Xml
-namespace System::Xml {
-  // Forward declaring type: ByteStack
-  class ByteStack;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::ByteStack);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::ByteStack*, "System.Xml", "ByteStack");
 // Type namespace: System.Xml
 namespace System::Xml {
   // Size: 0x24
@@ -27,17 +18,12 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class ByteStack : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Byte[] stack
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<uint8_t> stack;
+    ::Array<uint8_t>* stack;
     // Field size check
-    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
+    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
     // private System.Int32 growthRate
     // Size: 0x4
     // Offset: 0x18
@@ -56,9 +42,10 @@ namespace System::Xml {
     int size;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
+    // Creating value type constructor for type: ByteStack
+    ByteStack(::Array<uint8_t>* stack_ = {}, int growthRate_ = {}, int top_ = {}, int size_ = {}) noexcept : stack{stack_}, growthRate{growthRate_}, top{top_}, size{size_} {}
     // Get instance field reference: private System.Byte[] stack
-    ::ArrayW<uint8_t>& dyn_stack();
+    ::Array<uint8_t>*& dyn_stack();
     // Get instance field reference: private System.Int32 growthRate
     int& dyn_growthRate();
     // Get instance field reference: private System.Int32 top
@@ -66,24 +53,25 @@ namespace System::Xml {
     // Get instance field reference: private System.Int32 size
     int& dyn_size();
     // public System.Void .ctor(System.Int32 growthRate)
-    // Offset: 0x1ADA348
+    // Offset: 0x1B59E24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ByteStack* New_ctor(int growthRate) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::ByteStack::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ByteStack*, creationType>(growthRate)));
     }
     // public System.Void Push(System.Byte data)
-    // Offset: 0x1ADA3C0
+    // Offset: 0x1B59E9C
     void Push(uint8_t data);
     // public System.Byte Pop()
-    // Offset: 0x1ADA4A8
+    // Offset: 0x1B59F84
     uint8_t Pop();
   }; // System.Xml.ByteStack
   #pragma pack(pop)
   static check_size<sizeof(ByteStack), 32 + sizeof(int)> __System_Xml_ByteStackSizeCheck;
   static_assert(sizeof(ByteStack) == 0x24);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::ByteStack*, "System.Xml", "ByteStack");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::ByteStack::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

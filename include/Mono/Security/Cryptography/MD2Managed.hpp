@@ -3,24 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Mono.Security.Cryptography.MD2
 #include "Mono/Security/Cryptography/MD2.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Mono.Security.Cryptography
-namespace Mono::Security::Cryptography {
-  // Forward declaring type: MD2Managed
-  class MD2Managed;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Security::Cryptography::MD2Managed);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::MD2Managed*, "Mono.Security.Cryptography", "MD2Managed");
 // Type namespace: Mono.Security.Cryptography
 namespace Mono::Security::Cryptography {
   // Size: 0x50
@@ -31,29 +22,24 @@ namespace Mono::Security::Cryptography {
     public:
     // Writing base type padding for base size: 0x25 to desired offset: 0x28
     char ___base_padding[0x3] = {};
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Byte[] state
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayW<uint8_t> state;
+    ::Array<uint8_t>* state;
     // Field size check
-    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
+    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
     // private System.Byte[] checksum
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayW<uint8_t> checksum;
+    ::Array<uint8_t>* checksum;
     // Field size check
-    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
+    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
     // private System.Byte[] buffer
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayW<uint8_t> buffer;
+    ::Array<uint8_t>* buffer;
     // Field size check
-    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
+    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
     // private System.Int32 count
     // Size: 0x4
     // Offset: 0x40
@@ -65,35 +51,36 @@ namespace Mono::Security::Cryptography {
     // private System.Byte[] x
     // Size: 0x8
     // Offset: 0x48
-    ::ArrayW<uint8_t> x;
+    ::Array<uint8_t>* x;
     // Field size check
-    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
-    public:
+    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    // Creating value type constructor for type: MD2Managed
+    MD2Managed(::Array<uint8_t>* state_ = {}, ::Array<uint8_t>* checksum_ = {}, ::Array<uint8_t>* buffer_ = {}, int count_ = {}, ::Array<uint8_t>* x_ = {}) noexcept : state{state_}, checksum{checksum_}, buffer{buffer_}, count{count_}, x{x_} {}
     // Get static field: static private readonly System.Byte[] PI_SUBST
-    static ::ArrayW<uint8_t> _get_PI_SUBST();
+    static ::Array<uint8_t>* _get_PI_SUBST();
     // Set static field: static private readonly System.Byte[] PI_SUBST
-    static void _set_PI_SUBST(::ArrayW<uint8_t> value);
+    static void _set_PI_SUBST(::Array<uint8_t>* value);
     // Get instance field reference: private System.Byte[] state
-    ::ArrayW<uint8_t>& dyn_state();
+    ::Array<uint8_t>*& dyn_state();
     // Get instance field reference: private System.Byte[] checksum
-    ::ArrayW<uint8_t>& dyn_checksum();
+    ::Array<uint8_t>*& dyn_checksum();
     // Get instance field reference: private System.Byte[] buffer
-    ::ArrayW<uint8_t>& dyn_buffer();
+    ::Array<uint8_t>*& dyn_buffer();
     // Get instance field reference: private System.Int32 count
     int& dyn_count();
     // Get instance field reference: private System.Byte[] x
-    ::ArrayW<uint8_t>& dyn_x();
+    ::Array<uint8_t>*& dyn_x();
     // static private System.Void .cctor()
-    // Offset: 0x1F8479C
+    // Offset: 0x1F90A84
     static void _cctor();
     // private System.Byte[] Padding(System.Int32 nLength)
-    // Offset: 0x1F84228
-    ::ArrayW<uint8_t> Padding(int nLength);
+    // Offset: 0x1F90510
+    ::Array<uint8_t>* Padding(int nLength);
     // private System.Void MD2Transform(System.Byte[] state, System.Byte[] checksum, System.Byte[] block, System.Int32 index)
-    // Offset: 0x1F84414
-    void MD2Transform(::ArrayW<uint8_t> state, ::ArrayW<uint8_t> checksum, ::ArrayW<uint8_t> block, int index);
+    // Offset: 0x1F906FC
+    void MD2Transform(::Array<uint8_t>* state, ::Array<uint8_t>* checksum, ::Array<uint8_t>* block, int index);
     // public System.Void .ctor()
-    // Offset: 0x1F8417C
+    // Offset: 0x1F90464
     // Implemented from: Mono.Security.Cryptography.MD2
     // Base method: System.Void MD2::.ctor()
     // Base method: System.Void HashAlgorithm::.ctor()
@@ -104,26 +91,27 @@ namespace Mono::Security::Cryptography {
       return THROW_UNLESS((::il2cpp_utils::New<MD2Managed*, creationType>()));
     }
     // public override System.Void Initialize()
-    // Offset: 0x1F842D4
+    // Offset: 0x1F905BC
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Void HashAlgorithm::Initialize()
     void Initialize();
     // protected override System.Void HashCore(System.Byte[] array, System.Int32 ibStart, System.Int32 cbSize)
-    // Offset: 0x1F84340
+    // Offset: 0x1F90628
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Void HashAlgorithm::HashCore(System.Byte[] array, System.Int32 ibStart, System.Int32 cbSize)
-    void HashCore(::ArrayW<uint8_t> array, int ibStart, int cbSize);
+    void HashCore(::Array<uint8_t>* array, int ibStart, int cbSize);
     // protected override System.Byte[] HashFinal()
-    // Offset: 0x1F846A4
+    // Offset: 0x1F9098C
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Byte[] HashAlgorithm::HashFinal()
-    ::ArrayW<uint8_t> HashFinal();
+    ::Array<uint8_t>* HashFinal();
   }; // Mono.Security.Cryptography.MD2Managed
   #pragma pack(pop)
-  static check_size<sizeof(MD2Managed), 72 + sizeof(::ArrayW<uint8_t>)> __Mono_Security_Cryptography_MD2ManagedSizeCheck;
+  static check_size<sizeof(MD2Managed), 72 + sizeof(::Array<uint8_t>*)> __Mono_Security_Cryptography_MD2ManagedSizeCheck;
   static_assert(sizeof(MD2Managed) == 0x50);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::MD2Managed*, "Mono.Security.Cryptography", "MD2Managed");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Security::Cryptography::MD2Managed::_cctor
 // Il2CppName: .cctor
 template<>
@@ -135,7 +123,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Mono::Security::Cryptography::MD2Managed::Padding
 // Il2CppName: Padding
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Mono::Security::Cryptography::MD2Managed::*)(int)>(&Mono::Security::Cryptography::MD2Managed::Padding)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Mono::Security::Cryptography::MD2Managed::*)(int)>(&Mono::Security::Cryptography::MD2Managed::Padding)> {
   static const MethodInfo* get() {
     static auto* nLength = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::MD2Managed*), "Padding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nLength});
@@ -144,7 +132,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<ui
 // Writing MetadataGetter for method: Mono::Security::Cryptography::MD2Managed::MD2Transform
 // Il2CppName: MD2Transform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::MD2Managed::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>, int)>(&Mono::Security::Cryptography::MD2Managed::MD2Transform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::MD2Managed::*)(::Array<uint8_t>*, ::Array<uint8_t>*, ::Array<uint8_t>*, int)>(&Mono::Security::Cryptography::MD2Managed::MD2Transform)> {
   static const MethodInfo* get() {
     static auto* state = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* checksum = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -168,7 +156,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Security::Cryptography::MD2Managed::HashCore
 // Il2CppName: HashCore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::MD2Managed::*)(::ArrayW<uint8_t>, int, int)>(&Mono::Security::Cryptography::MD2Managed::HashCore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::MD2Managed::*)(::Array<uint8_t>*, int, int)>(&Mono::Security::Cryptography::MD2Managed::HashCore)> {
   static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* ibStart = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -179,7 +167,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Security::Cryptography::MD2Managed::HashFinal
 // Il2CppName: HashFinal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Mono::Security::Cryptography::MD2Managed::*)()>(&Mono::Security::Cryptography::MD2Managed::HashFinal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Mono::Security::Cryptography::MD2Managed::*)()>(&Mono::Security::Cryptography::MD2Managed::HashFinal)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::MD2Managed*), "HashFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

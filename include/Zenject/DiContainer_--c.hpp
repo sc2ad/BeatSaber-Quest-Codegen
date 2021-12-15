@@ -3,16 +3,16 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.DiContainer
 #include "Zenject/DiContainer.hpp"
 // Including type: Zenject.TypeValuePair
 #include "Zenject/TypeValuePair.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -36,16 +36,10 @@ namespace System::Collections::Generic {
 namespace Zenject {
   // Forward declaring type: IProvider
   class IProvider;
+  // Forward declaring type: InjectTypeInfo
+  class InjectTypeInfo;
 }
 // Completed forward declares
-// Type namespace: Zenject
-namespace Zenject {
-  // Forward declaring type: <>c
-  class $$c;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::DiContainer::$$c);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::DiContainer::$$c*, "Zenject", "DiContainer/<>c");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x10
@@ -55,6 +49,8 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class DiContainer::$$c : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: $$c
+    $$c() noexcept {}
     // Get static field: static public readonly Zenject.DiContainer/Zenject.<>c <>9
     static Zenject::DiContainer::$$c* _get_$$9();
     // Set static field: static public readonly Zenject.DiContainer/Zenject.<>c <>9
@@ -88,31 +84,37 @@ namespace Zenject {
     // Set static field: static public System.Func`2<System.Type,System.Boolean> <>9__198_0
     static void _set_$$9__198_0(System::Func_2<System::Type*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x180BBFC
+    // Offset: 0x1A9E6A8
     static void _cctor();
     // System.Collections.Generic.IEnumerable`1<Zenject.DiContainer/Zenject.ProviderInfo> <get_AllProviders>b__33_0(System.Collections.Generic.List`1<Zenject.DiContainer/Zenject.ProviderInfo> x)
-    // Offset: 0x180BC68
+    // Offset: 0x1A9E714
     System::Collections::Generic::IEnumerable_1<Zenject::DiContainer::ProviderInfo*>* $get_AllProviders$b__33_0(System::Collections::Generic::List_1<Zenject::DiContainer::ProviderInfo*>* x);
     // Zenject.IProvider <get_AllProviders>b__33_1(Zenject.DiContainer/Zenject.ProviderInfo x)
-    // Offset: 0x180BC70
+    // Offset: 0x1A9E71C
     Zenject::IProvider* $get_AllProviders$b__33_1(Zenject::DiContainer::ProviderInfo* x);
     // System.Boolean <ResolveTypeAll>b__86_1(System.Type x)
-    // Offset: 0x180BC88
+    // Offset: 0x1A9E734
     bool $ResolveTypeAll$b__86_1(System::Type* x);
     // System.String <InstantiateInternal>b__97_0(Zenject.TypeValuePair x)
-    // Offset: 0x180BCF4
+    // Offset: 0x1A9E7A0
     ::Il2CppString* $InstantiateInternal$b__97_0(Zenject::TypeValuePair x);
     // System.String <InjectExplicitInternal>b__102_0(Zenject.TypeValuePair x)
-    // Offset: 0x180BD5C
+    // Offset: 0x1A9E808
     ::Il2CppString* $InjectExplicitInternal$b__102_0(Zenject::TypeValuePair x);
     // System.Boolean <BindInternal>b__197_0(System.Type x)
-    // Offset: 0x180BDC4
+    // Offset: 0x1A9E870
     bool $BindInternal$b__197_0(System::Type* x);
     // System.Boolean <Bind>b__198_0(System.Type x)
-    // Offset: 0x180BE40
+    // Offset: 0x1A9E8EC
     bool $Bind$b__198_0(System::Type* x);
+    // static private System.Object __zenCreate(System.Object[] P_0)
+    // Offset: 0x1A9E968
+    static ::Il2CppObject* __zenCreate(::Array<::Il2CppObject*>* P_0);
+    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
+    // Offset: 0x1A9E9C4
+    static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
-    // Offset: 0x180BC60
+    // Offset: 0x1A9E70C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -123,7 +125,8 @@ namespace Zenject {
   }; // Zenject.DiContainer/Zenject.<>c
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Zenject::DiContainer::$$c*, "Zenject", "DiContainer/<>c");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::DiContainer::$$c::_cctor
 // Il2CppName: .cctor
 template<>
@@ -193,6 +196,23 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenje
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer::$$c*), "<Bind>b__198_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
+  }
+};
+// Writing MetadataGetter for method: Zenject::DiContainer::$$c::__zenCreate
+// Il2CppName: __zenCreate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Array<::Il2CppObject*>*)>(&Zenject::DiContainer::$$c::__zenCreate)> {
+  static const MethodInfo* get() {
+    static auto* P_0 = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer::$$c*), "__zenCreate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{P_0});
+  }
+};
+// Writing MetadataGetter for method: Zenject::DiContainer::$$c::__zenCreateInjectTypeInfo
+// Il2CppName: __zenCreateInjectTypeInfo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo* (*)()>(&Zenject::DiContainer::$$c::__zenCreateInjectTypeInfo)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer::$$c*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: Zenject::DiContainer::$$c::New_ctor

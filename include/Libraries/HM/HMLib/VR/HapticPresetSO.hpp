@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ScriptableObject
 #include "UnityEngine/ScriptableObject.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Libraries.HM.HMLib.VR
-namespace Libraries::HM::HMLib::VR {
-  // Forward declaring type: HapticPresetSO
-  class HapticPresetSO;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Libraries::HM::HMLib::VR::HapticPresetSO);
-DEFINE_IL2CPP_ARG_TYPE(Libraries::HM::HMLib::VR::HapticPresetSO*, "Libraries.HM.HMLib.VR", "HapticPresetSO");
 // Type namespace: Libraries.HM.HMLib.VR
 namespace Libraries::HM::HMLib::VR {
   // Size: 0x25
@@ -28,11 +20,6 @@ namespace Libraries::HM::HMLib::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   class HapticPresetSO : public UnityEngine::ScriptableObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Single _duration
     // Size: 0x4
     // Offset: 0x18
@@ -57,7 +44,8 @@ namespace Libraries::HM::HMLib::VR {
     bool continuous;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: HapticPresetSO
+    HapticPresetSO(float duration_ = {}, float strength_ = {}, float frequency_ = {}, bool continuous_ = {}) noexcept : duration{duration_}, strength{strength_}, frequency{frequency_}, continuous{continuous_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Single _duration
@@ -69,10 +57,10 @@ namespace Libraries::HM::HMLib::VR {
     // Get instance field reference: public System.Boolean _continuous
     bool& dyn__continuous();
     // public System.Void CopyFrom(Libraries.HM.HMLib.VR.HapticPresetSO hapticPreset)
-    // Offset: 0x136BDF4
+    // Offset: 0x139C9E8
     void CopyFrom(Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset);
     // public System.Void .ctor()
-    // Offset: 0x136BE28
+    // Offset: 0x139CA1C
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -87,7 +75,8 @@ namespace Libraries::HM::HMLib::VR {
   static check_size<sizeof(HapticPresetSO), 36 + sizeof(bool)> __Libraries_HM_HMLib_VR_HapticPresetSOSizeCheck;
   static_assert(sizeof(HapticPresetSO) == 0x25);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Libraries::HM::HMLib::VR::HapticPresetSO*, "Libraries.HM.HMLib.VR", "HapticPresetSO");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Libraries::HM::HMLib::VR::HapticPresetSO::CopyFrom
 // Il2CppName: CopyFrom
 template<>

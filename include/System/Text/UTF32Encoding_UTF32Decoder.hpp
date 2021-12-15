@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Text.UTF32Encoding
 #include "System/Text/UTF32Encoding.hpp"
 // Including type: System.Text.DecoderNLS
 #include "System/Text/DecoderNLS.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Text
-namespace System::Text {
-  // Forward declaring type: UTF32Decoder
-  class UTF32Decoder;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Text::UTF32Encoding::UTF32Decoder);
-DEFINE_IL2CPP_ARG_TYPE(System::Text::UTF32Encoding::UTF32Decoder*, "System.Text", "UTF32Encoding/UTF32Decoder");
 // Type namespace: System.Text
 namespace System::Text {
   // Size: 0x38
@@ -30,11 +22,6 @@ namespace System::Text {
   // [TokenAttribute] Offset: FFFFFFFF
   class UTF32Encoding::UTF32Decoder : public System::Text::DecoderNLS {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // System.Int32 iChar
     // Size: 0x4
     // Offset: 0x30
@@ -47,25 +34,26 @@ namespace System::Text {
     int readByteCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
+    // Creating value type constructor for type: UTF32Decoder
+    UTF32Decoder(int iChar_ = {}, int readByteCount_ = {}) noexcept : iChar{iChar_}, readByteCount{readByteCount_} {}
     // Get instance field reference: System.Int32 iChar
     int& dyn_iChar();
     // Get instance field reference: System.Int32 readByteCount
     int& dyn_readByteCount();
     // public System.Void .ctor(System.Text.UTF32Encoding encoding)
-    // Offset: 0x1F03A6C
+    // Offset: 0x1F0AE24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UTF32Encoding::UTF32Decoder* New_ctor(System::Text::UTF32Encoding* encoding) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::UTF32Encoding::UTF32Decoder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UTF32Encoding::UTF32Decoder*, creationType>(encoding)));
     }
     // override System.Boolean get_HasState()
-    // Offset: 0x1F03F80
+    // Offset: 0x1F0B338
     // Implemented from: System.Text.DecoderNLS
     // Base method: System.Boolean DecoderNLS::get_HasState()
     bool get_HasState();
     // public override System.Void Reset()
-    // Offset: 0x1F03F60
+    // Offset: 0x1F0B318
     // Implemented from: System.Text.DecoderNLS
     // Base method: System.Void DecoderNLS::Reset()
     void Reset();
@@ -74,7 +62,8 @@ namespace System::Text {
   static check_size<sizeof(UTF32Encoding::UTF32Decoder), 52 + sizeof(int)> __System_Text_UTF32Encoding_UTF32DecoderSizeCheck;
   static_assert(sizeof(UTF32Encoding::UTF32Decoder) == 0x38);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Text::UTF32Encoding::UTF32Decoder*, "System.Text", "UTF32Encoding/UTF32Decoder");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::UTF32Encoding::UTF32Decoder::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

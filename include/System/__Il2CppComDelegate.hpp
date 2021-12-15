@@ -3,19 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.__Il2CppComObject
 #include "System/__Il2CppComObject.hpp"
 // Completed includes
-// Type namespace: System
-namespace System {
-  // Forward declaring type: __Il2CppComDelegate
-  class __Il2CppComDelegate;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::__Il2CppComDelegate);
-DEFINE_IL2CPP_ARG_TYPE(System::__Il2CppComDelegate*, "System", "__Il2CppComDelegate");
 // Type namespace: System
 namespace System {
   // Size: 0x10
@@ -24,15 +16,19 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class __Il2CppComDelegate : public System::__Il2CppComObject {
     public:
+    // Creating value type constructor for type: __Il2CppComDelegate
+    __Il2CppComDelegate() noexcept {}
     // protected override System.Void Finalize()
-    // Offset: 0x2520C2C
+    // Offset: 0x25D8D9C
     // Implemented from: System.__Il2CppComObject
     // Base method: System.Void __Il2CppComObject::Finalize()
     void Finalize();
   }; // System.__Il2CppComDelegate
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::__Il2CppComDelegate*, "System", "__Il2CppComDelegate");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::__Il2CppComDelegate::Finalize
 // Il2CppName: Finalize
 template<>

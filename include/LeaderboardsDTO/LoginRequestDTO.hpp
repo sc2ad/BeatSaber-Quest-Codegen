@@ -3,21 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: LeaderboardsDTO
-namespace LeaderboardsDTO {
-  // Forward declaring type: LoginRequestDTO
-  class LoginRequestDTO;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(LeaderboardsDTO::LoginRequestDTO);
-DEFINE_IL2CPP_ARG_TYPE(LeaderboardsDTO::LoginRequestDTO*, "LeaderboardsDTO", "LoginRequestDTO");
 // Type namespace: LeaderboardsDTO
 namespace LeaderboardsDTO {
   // Size: 0x40
@@ -26,11 +18,6 @@ namespace LeaderboardsDTO {
   // [TokenAttribute] Offset: FFFFFFFF
   class LoginRequestDTO : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.String platform
     // Size: 0x8
     // Offset: 0x10
@@ -67,7 +54,8 @@ namespace LeaderboardsDTO {
     ::Il2CppString* buildVersion;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: LoginRequestDTO
+    LoginRequestDTO(::Il2CppString* platform_ = {}, ::Il2CppString* platformUserId_ = {}, ::Il2CppString* platformAuthToken_ = {}, ::Il2CppString* platformEnviroment_ = {}, ::Il2CppString* publicUserDisplayName_ = {}, ::Il2CppString* buildVersion_ = {}) noexcept : platform{platform_}, platformUserId{platformUserId_}, platformAuthToken{platformAuthToken_}, platformEnviroment{platformEnviroment_}, publicUserDisplayName{publicUserDisplayName_}, buildVersion{buildVersion_} {}
     // Get instance field reference: public System.String platform
     ::Il2CppString*& dyn_platform();
     // Get instance field reference: public System.String platformUserId
@@ -81,7 +69,7 @@ namespace LeaderboardsDTO {
     // Get instance field reference: public System.String buildVersion
     ::Il2CppString*& dyn_buildVersion();
     // public System.Void .ctor()
-    // Offset: 0x11DEF90
+    // Offset: 0x11A3AC0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -94,7 +82,8 @@ namespace LeaderboardsDTO {
   static check_size<sizeof(LoginRequestDTO), 56 + sizeof(::Il2CppString*)> __LeaderboardsDTO_LoginRequestDTOSizeCheck;
   static_assert(sizeof(LoginRequestDTO) == 0x40);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(LeaderboardsDTO::LoginRequestDTO*, "LeaderboardsDTO", "LoginRequestDTO");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LeaderboardsDTO::LoginRequestDTO::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -3,19 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Timeline.AnimationPlayableAsset
 #include "UnityEngine/Timeline/AnimationPlayableAsset.hpp"
 // Completed includes
-// Type namespace: UnityEngine.Timeline
-namespace UnityEngine::Timeline {
-  // Forward declaring type: AnimationPlayableAssetUpgrade
-  class AnimationPlayableAssetUpgrade;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Timeline::AnimationPlayableAsset::AnimationPlayableAssetUpgrade);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AnimationPlayableAsset::AnimationPlayableAssetUpgrade*, "UnityEngine.Timeline", "AnimationPlayableAsset/AnimationPlayableAssetUpgrade");
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {
   // Size: 0x10
@@ -24,13 +16,17 @@ namespace UnityEngine::Timeline {
   // [TokenAttribute] Offset: FFFFFFFF
   class AnimationPlayableAsset::AnimationPlayableAssetUpgrade : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: AnimationPlayableAssetUpgrade
+    AnimationPlayableAssetUpgrade() noexcept {}
     // static public System.Void ConvertRotationToEuler(UnityEngine.Timeline.AnimationPlayableAsset asset)
-    // Offset: 0x19D49B8
+    // Offset: 0x19F3068
     static void ConvertRotationToEuler(UnityEngine::Timeline::AnimationPlayableAsset* asset);
   }; // UnityEngine.Timeline.AnimationPlayableAsset/UnityEngine.Timeline.AnimationPlayableAssetUpgrade
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AnimationPlayableAsset::AnimationPlayableAssetUpgrade*, "UnityEngine.Timeline", "AnimationPlayableAsset/AnimationPlayableAssetUpgrade");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::AnimationPlayableAsset::AnimationPlayableAssetUpgrade::ConvertRotationToEuler
 // Il2CppName: ConvertRotationToEuler
 template<>

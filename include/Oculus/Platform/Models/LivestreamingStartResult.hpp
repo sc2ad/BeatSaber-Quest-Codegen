@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Oculus.Platform.LivestreamingStartStatus
 #include "Oculus/Platform/LivestreamingStartStatus.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Oculus.Platform.Models
-namespace Oculus::Platform::Models {
-  // Forward declaring type: LivestreamingStartResult
-  class LivestreamingStartResult;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Models::LivestreamingStartResult);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::LivestreamingStartResult*, "Oculus.Platform.Models", "LivestreamingStartResult");
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
   // Size: 0x14
@@ -30,18 +22,14 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class LivestreamingStartResult : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public readonly Oculus.Platform.LivestreamingStartStatus StreamingResult
     // Size: 0x4
     // Offset: 0x10
     Oculus::Platform::LivestreamingStartStatus StreamingResult;
     // Field size check
     static_assert(sizeof(Oculus::Platform::LivestreamingStartStatus) == 0x4);
-    public:
+    // Creating value type constructor for type: LivestreamingStartResult
+    LivestreamingStartResult(Oculus::Platform::LivestreamingStartStatus StreamingResult_ = {}) noexcept : StreamingResult{StreamingResult_} {}
     // Creating conversion operator: operator Oculus::Platform::LivestreamingStartStatus
     constexpr operator Oculus::Platform::LivestreamingStartStatus() const noexcept {
       return StreamingResult;
@@ -49,7 +37,7 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly Oculus.Platform.LivestreamingStartStatus StreamingResult
     Oculus::Platform::LivestreamingStartStatus& dyn_StreamingResult();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x169E334
+    // Offset: 0x175B750
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LivestreamingStartResult* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::LivestreamingStartResult::.ctor");
@@ -60,7 +48,8 @@ namespace Oculus::Platform::Models {
   static check_size<sizeof(LivestreamingStartResult), 16 + sizeof(Oculus::Platform::LivestreamingStartStatus)> __Oculus_Platform_Models_LivestreamingStartResultSizeCheck;
   static_assert(sizeof(LivestreamingStartResult) == 0x14);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::LivestreamingStartResult*, "Oculus.Platform.Models", "LivestreamingStartResult");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::LivestreamingStartResult::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

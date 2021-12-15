@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: SelectableStateController`1
 #include "GlobalNamespace/SelectableStateController_1.hpp"
 // Including type: HMUI.NoTransitionsButton
 #include "HMUI/NoTransitionsButton.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: NoTransitionButtonSelectableStateController
-  class NoTransitionButtonSelectableStateController;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::NoTransitionButtonSelectableStateController);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoTransitionButtonSelectableStateController*, "", "NoTransitionButtonSelectableStateController");
 // Type namespace: 
 namespace GlobalNamespace {
   // WARNING Size may be invalid!
@@ -29,17 +21,19 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class NoTransitionButtonSelectableStateController : public GlobalNamespace::SelectableStateController_1<HMUI::NoTransitionsButton*> {
     public:
+    // Creating value type constructor for type: NoTransitionButtonSelectableStateController
+    NoTransitionButtonSelectableStateController() noexcept {}
     // protected System.Void OnEnable()
-    // Offset: 0x11252FC
+    // Offset: 0x133A87C
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1125390
+    // Offset: 0x133A910
     void OnDisable();
     // private System.Void HandleNoTransitionButtonSelectionStateDidChange(HMUI.NoTransitionsButton/HMUI.SelectionState state)
-    // Offset: 0x1125424
+    // Offset: 0x133A9A4
     void HandleNoTransitionButtonSelectionStateDidChange(HMUI::NoTransitionsButton::SelectionState state);
     // public System.Void .ctor()
-    // Offset: 0x1125448
+    // Offset: 0x133A9D8
     // Implemented from: SelectableStateController`1
     // Base method: System.Void SelectableStateController_1::.ctor()
     // Base method: System.Void SelectableStateController::.ctor()
@@ -55,7 +49,8 @@ namespace GlobalNamespace {
     }
   }; // NoTransitionButtonSelectableStateController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoTransitionButtonSelectableStateController*, "", "NoTransitionButtonSelectableStateController");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoTransitionButtonSelectableStateController::OnEnable
 // Il2CppName: OnEnable
 template<>

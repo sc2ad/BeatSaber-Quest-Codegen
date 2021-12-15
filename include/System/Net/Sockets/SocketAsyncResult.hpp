@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IOAsyncResult
 #include "System/IOAsyncResult.hpp"
 // Including type: System.Net.Sockets.SocketOperation
@@ -13,11 +13,10 @@
 #include "System/Net/Sockets/SocketFlags.hpp"
 // Including type: System.ArraySegment`1
 #include "System/ArraySegment_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net::Sockets
@@ -50,14 +49,6 @@ namespace System::Collections::Generic {
 // Completed forward declares
 // Type namespace: System.Net.Sockets
 namespace System::Net::Sockets {
-  // Forward declaring type: SocketAsyncResult
-  class SocketAsyncResult;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::Sockets::SocketAsyncResult);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::SocketAsyncResult*, "System.Net.Sockets", "SocketAsyncResult");
-// Type namespace: System.Net.Sockets
-namespace System::Net::Sockets {
   // Size: 0xA4
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -69,11 +60,6 @@ namespace System::Net::Sockets {
     char ___base_padding[0x6] = {};
     // Nested type: System::Net::Sockets::SocketAsyncResult::$$c
     class $$c;
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Net.Sockets.Socket socket
     // Size: 0x8
     // Offset: 0x30
@@ -103,9 +89,9 @@ namespace System::Net::Sockets {
     // public System.Byte[] Buffer
     // Size: 0x8
     // Offset: 0x50
-    ::ArrayW<uint8_t> Buffer;
+    ::Array<uint8_t>* Buffer;
     // Field size check
-    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
+    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
     // public System.Int32 Offset
     // Size: 0x4
     // Offset: 0x58
@@ -135,9 +121,9 @@ namespace System::Net::Sockets {
     // public System.Net.IPAddress[] Addresses
     // Size: 0x8
     // Offset: 0x70
-    ::ArrayW<System::Net::IPAddress*> Addresses;
+    ::Array<System::Net::IPAddress*>* Addresses;
     // Field size check
-    static_assert(sizeof(::ArrayW<System::Net::IPAddress*>) == 0x8);
+    static_assert(sizeof(::Array<System::Net::IPAddress*>*) == 0x8);
     // public System.Int32 Port
     // Size: 0x4
     // Offset: 0x78
@@ -190,7 +176,8 @@ namespace System::Net::Sockets {
     int EndCalled;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
+    // Creating value type constructor for type: SocketAsyncResult
+    SocketAsyncResult(System::Net::Sockets::Socket* socket_ = {}, System::Net::Sockets::SocketOperation operation_ = {}, System::Exception* DelayedException_ = {}, System::Net::EndPoint* EndPoint_ = {}, ::Array<uint8_t>* Buffer_ = {}, int Offset_ = {}, int Size_ = {}, System::Net::Sockets::SocketFlags SockFlags_ = {}, System::Net::Sockets::Socket* AcceptSocket_ = {}, ::Array<System::Net::IPAddress*>* Addresses_ = {}, int Port_ = {}, System::Collections::Generic::IList_1<System::ArraySegment_1<uint8_t>>* Buffers_ = {}, bool ReuseSocket_ = {}, int CurrentAddress_ = {}, System::Net::Sockets::Socket* AcceptedSocket_ = {}, int Total_ = {}, int error_ = {}, int EndCalled_ = {}) noexcept : socket{socket_}, operation{operation_}, DelayedException{DelayedException_}, EndPoint{EndPoint_}, Buffer{Buffer_}, Offset{Offset_}, Size{Size_}, SockFlags{SockFlags_}, AcceptSocket{AcceptSocket_}, Addresses{Addresses_}, Port{Port_}, Buffers{Buffers_}, ReuseSocket{ReuseSocket_}, CurrentAddress{CurrentAddress_}, AcceptedSocket{AcceptedSocket_}, Total{Total_}, error{error_}, EndCalled{EndCalled_} {}
     // Get instance field reference: public System.Net.Sockets.Socket socket
     System::Net::Sockets::Socket*& dyn_socket();
     // Get instance field reference: public System.Net.Sockets.SocketOperation operation
@@ -200,7 +187,7 @@ namespace System::Net::Sockets {
     // Get instance field reference: public System.Net.EndPoint EndPoint
     System::Net::EndPoint*& dyn_EndPoint();
     // Get instance field reference: public System.Byte[] Buffer
-    ::ArrayW<uint8_t>& dyn_Buffer();
+    ::Array<uint8_t>*& dyn_Buffer();
     // Get instance field reference: public System.Int32 Offset
     int& dyn_Offset();
     // Get instance field reference: public System.Int32 Size
@@ -210,7 +197,7 @@ namespace System::Net::Sockets {
     // Get instance field reference: public System.Net.Sockets.Socket AcceptSocket
     System::Net::Sockets::Socket*& dyn_AcceptSocket();
     // Get instance field reference: public System.Net.IPAddress[] Addresses
-    ::ArrayW<System::Net::IPAddress*>& dyn_Addresses();
+    ::Array<System::Net::IPAddress*>*& dyn_Addresses();
     // Get instance field reference: public System.Int32 Port
     int& dyn_Port();
     // Get instance field reference: public System.Collections.Generic.IList`1<System.ArraySegment`1<System.Byte>> Buffers
@@ -228,47 +215,47 @@ namespace System::Net::Sockets {
     // Get instance field reference: public System.Int32 EndCalled
     int& dyn_EndCalled();
     // public System.IntPtr get_Handle()
-    // Offset: 0x17593B4
+    // Offset: 0x17E55F0
     System::IntPtr get_Handle();
     // public System.Net.Sockets.SocketError get_ErrorCode()
-    // Offset: 0x17594BC
+    // Offset: 0x17E56F8
     System::Net::Sockets::SocketError get_ErrorCode();
     // public System.Void .ctor(System.Net.Sockets.Socket socket, System.AsyncCallback callback, System.Object state, System.Net.Sockets.SocketOperation operation)
-    // Offset: 0x1759478
+    // Offset: 0x17E56B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SocketAsyncResult* New_ctor(System::Net::Sockets::Socket* socket, System::AsyncCallback* callback, ::Il2CppObject* state, System::Net::Sockets::SocketOperation operation) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Sockets::SocketAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SocketAsyncResult*, creationType>(socket, callback, state, operation)));
     }
     // public System.Void Init(System.Net.Sockets.Socket socket, System.AsyncCallback callback, System.Object state, System.Net.Sockets.SocketOperation operation)
-    // Offset: 0x175940C
+    // Offset: 0x17E5648
     void Init(System::Net::Sockets::Socket* socket, System::AsyncCallback* callback, ::Il2CppObject* state, System::Net::Sockets::SocketOperation operation);
     // public System.Void CheckIfThrowDelayedException()
-    // Offset: 0x1759544
+    // Offset: 0x17E5780
     void CheckIfThrowDelayedException();
     // public System.Void Complete()
-    // Offset: 0x1757A3C
+    // Offset: 0x17E3C78
     void Complete();
     // public System.Void Complete(System.Boolean synch)
-    // Offset: 0x1759600
+    // Offset: 0x17E583C
     void Complete(bool synch);
     // public System.Void Complete(System.Int32 total)
-    // Offset: 0x1758384
+    // Offset: 0x17E45C0
     void Complete(int total);
     // public System.Void Complete(System.Exception e, System.Boolean synch)
-    // Offset: 0x175960C
+    // Offset: 0x17E5848
     void Complete(System::Exception* e, bool synch);
     // public System.Void Complete(System.Exception e)
-    // Offset: 0x1757298
+    // Offset: 0x17E34D4
     void Complete(System::Exception* e);
     // public System.Void Complete(System.Net.Sockets.Socket s)
-    // Offset: 0x17572A0
+    // Offset: 0x17E34DC
     void Complete(System::Net::Sockets::Socket* s);
     // public System.Void Complete(System.Net.Sockets.Socket s, System.Int32 total)
-    // Offset: 0x175753C
+    // Offset: 0x17E3778
     void Complete(System::Net::Sockets::Socket* s, int total);
     // public System.Void .ctor()
-    // Offset: 0x17591CC
+    // Offset: 0x17E5408
     // Implemented from: System.IOAsyncResult
     // Base method: System.Void IOAsyncResult::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -278,7 +265,7 @@ namespace System::Net::Sockets {
       return THROW_UNLESS((::il2cpp_utils::New<SocketAsyncResult*, creationType>()));
     }
     // override System.Void CompleteDisposed()
-    // Offset: 0x17595FC
+    // Offset: 0x17E5838
     // Implemented from: System.IOAsyncResult
     // Base method: System.Void IOAsyncResult::CompleteDisposed()
     void CompleteDisposed();
@@ -287,7 +274,8 @@ namespace System::Net::Sockets {
   static check_size<sizeof(SocketAsyncResult), 160 + sizeof(int)> __System_Net_Sockets_SocketAsyncResultSizeCheck;
   static_assert(sizeof(SocketAsyncResult) == 0xA4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::SocketAsyncResult*, "System.Net.Sockets", "SocketAsyncResult");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Sockets::SocketAsyncResult::get_Handle
 // Il2CppName: get_Handle
 template<>

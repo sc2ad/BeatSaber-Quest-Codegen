@@ -3,21 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System
-namespace System {
-  // Forward declaring type: MonoListItem
-  class MonoListItem;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::MonoListItem);
-DEFINE_IL2CPP_ARG_TYPE(System::MonoListItem*, "System", "MonoListItem");
 // Type namespace: System
 namespace System {
   // Size: 0x20
@@ -26,11 +18,6 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class MonoListItem : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.MonoListItem next
     // Size: 0x8
     // Offset: 0x10
@@ -43,13 +30,14 @@ namespace System {
     ::Il2CppObject* data;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    public:
+    // Creating value type constructor for type: MonoListItem
+    MonoListItem(System::MonoListItem* next_ = {}, ::Il2CppObject* data_ = {}) noexcept : next{next_}, data{data_} {}
     // Get instance field reference: private System.MonoListItem next
     System::MonoListItem*& dyn_next();
     // Get instance field reference: private System.Object data
     ::Il2CppObject*& dyn_data();
     // public System.Void .ctor()
-    // Offset: 0x19F7D94
+    // Offset: 0x1A16444
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -62,7 +50,8 @@ namespace System {
   static check_size<sizeof(MonoListItem), 24 + sizeof(::Il2CppObject*)> __System_MonoListItemSizeCheck;
   static_assert(sizeof(MonoListItem) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::MonoListItem*, "System", "MonoListItem");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::MonoListItem::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

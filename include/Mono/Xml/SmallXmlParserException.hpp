@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.SystemException
 #include "System/SystemException.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Mono.Xml
-namespace Mono::Xml {
-  // Forward declaring type: SmallXmlParserException
-  class SmallXmlParserException;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Xml::SmallXmlParserException);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Xml::SmallXmlParserException*, "Mono.Xml", "SmallXmlParserException");
 // Type namespace: Mono.Xml
 namespace Mono::Xml {
   // Size: 0x90
@@ -28,11 +20,6 @@ namespace Mono::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class SmallXmlParserException : public System::SystemException {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Int32 line
     // Size: 0x4
     // Offset: 0x88
@@ -45,13 +32,14 @@ namespace Mono::Xml {
     int column;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
+    // Creating value type constructor for type: SmallXmlParserException
+    SmallXmlParserException(int line_ = {}, int column_ = {}) noexcept : line{line_}, column{column_} {}
     // Get instance field reference: private System.Int32 line
     int& dyn_line();
     // Get instance field reference: private System.Int32 column
     int& dyn_column();
     // public System.Void .ctor(System.String msg, System.Int32 line, System.Int32 column)
-    // Offset: 0x1C3AFF8
+    // Offset: 0x1C940F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SmallXmlParserException* New_ctor(::Il2CppString* msg, int line, int column) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Xml::SmallXmlParserException::.ctor");
@@ -62,7 +50,8 @@ namespace Mono::Xml {
   static check_size<sizeof(SmallXmlParserException), 140 + sizeof(int)> __Mono_Xml_SmallXmlParserExceptionSizeCheck;
   static_assert(sizeof(SmallXmlParserException) == 0x90);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Mono::Xml::SmallXmlParserException*, "Mono.Xml", "SmallXmlParserException");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Xml::SmallXmlParserException::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

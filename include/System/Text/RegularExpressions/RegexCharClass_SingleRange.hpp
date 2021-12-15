@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Text.RegularExpressions.RegexCharClass
 #include "System/Text/RegularExpressions/RegexCharClass.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Text.RegularExpressions
-namespace System::Text::RegularExpressions {
-  // Forward declaring type: SingleRange
-  class SingleRange;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Text::RegularExpressions::RegexCharClass::SingleRange);
-DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexCharClass::SingleRange*, "System.Text.RegularExpressions", "RegexCharClass/SingleRange");
 // Type namespace: System.Text.RegularExpressions
 namespace System::Text::RegularExpressions {
   // Size: 0x14
@@ -28,11 +20,6 @@ namespace System::Text::RegularExpressions {
   // [TokenAttribute] Offset: FFFFFFFF
   class RegexCharClass::SingleRange : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // System.Char _first
     // Size: 0x2
     // Offset: 0x10
@@ -45,13 +32,14 @@ namespace System::Text::RegularExpressions {
     ::Il2CppChar last;
     // Field size check
     static_assert(sizeof(::Il2CppChar) == 0x2);
-    public:
+    // Creating value type constructor for type: SingleRange
+    SingleRange(::Il2CppChar first_ = {}, ::Il2CppChar last_ = {}) noexcept : first{first_}, last{last_} {}
     // Get instance field reference: System.Char _first
     ::Il2CppChar& dyn__first();
     // Get instance field reference: System.Char _last
     ::Il2CppChar& dyn__last();
     // System.Void .ctor(System.Char first, System.Char last)
-    // Offset: 0x1A19B44
+    // Offset: 0x1A39264
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegexCharClass::SingleRange* New_ctor(::Il2CppChar first, ::Il2CppChar last) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::RegexCharClass::SingleRange::.ctor");
@@ -62,7 +50,8 @@ namespace System::Text::RegularExpressions {
   static check_size<sizeof(RegexCharClass::SingleRange), 18 + sizeof(::Il2CppChar)> __System_Text_RegularExpressions_RegexCharClass_SingleRangeSizeCheck;
   static_assert(sizeof(RegexCharClass::SingleRange) == 0x14);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexCharClass::SingleRange*, "System.Text.RegularExpressions", "RegexCharClass/SingleRange");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexCharClass::SingleRange::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

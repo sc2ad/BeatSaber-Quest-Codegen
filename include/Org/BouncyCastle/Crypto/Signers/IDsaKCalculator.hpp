@@ -4,8 +4,7 @@
 #pragma once
 // Begin includes
 #include <stdint.h>
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Math
@@ -19,14 +18,10 @@ namespace Org::BouncyCastle::Security {
   class SecureRandom;
 }
 // Completed forward declares
-// Type namespace: Org.BouncyCastle.Crypto.Signers
-namespace Org::BouncyCastle::Crypto::Signers {
-  // Forward declaring type: IDsaKCalculator
-  class IDsaKCalculator;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Crypto::Signers::IDsaKCalculator);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Signers::IDsaKCalculator*, "Org.BouncyCastle.Crypto.Signers", "IDsaKCalculator");
+// Begin il2cpp-utils forward declares
+template<class T>
+struct Array;
+// Completed il2cpp-utils forward declares
 // Type namespace: Org.BouncyCastle.Crypto.Signers
 namespace Org::BouncyCastle::Crypto::Signers {
   // Size: 0x10
@@ -35,6 +30,8 @@ namespace Org::BouncyCastle::Crypto::Signers {
   // [TokenAttribute] Offset: FFFFFFFF
   class IDsaKCalculator {
     public:
+    // Creating value type constructor for type: IDsaKCalculator
+    IDsaKCalculator() noexcept {}
     // public System.Boolean get_IsDeterministic()
     // Offset: 0xFFFFFFFF
     bool get_IsDeterministic();
@@ -43,14 +40,16 @@ namespace Org::BouncyCastle::Crypto::Signers {
     void Init(Org::BouncyCastle::Math::BigInteger* n, Org::BouncyCastle::Security::SecureRandom* random);
     // public System.Void Init(Org.BouncyCastle.Math.BigInteger n, Org.BouncyCastle.Math.BigInteger d, System.Byte[] message)
     // Offset: 0xFFFFFFFF
-    void Init(Org::BouncyCastle::Math::BigInteger* n, Org::BouncyCastle::Math::BigInteger* d, ::ArrayW<uint8_t> message);
+    void Init(Org::BouncyCastle::Math::BigInteger* n, Org::BouncyCastle::Math::BigInteger* d, ::Array<uint8_t>* message);
     // public Org.BouncyCastle.Math.BigInteger NextK()
     // Offset: 0xFFFFFFFF
     Org::BouncyCastle::Math::BigInteger* NextK();
   }; // Org.BouncyCastle.Crypto.Signers.IDsaKCalculator
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Signers::IDsaKCalculator*, "Org.BouncyCastle.Crypto.Signers", "IDsaKCalculator");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::IDsaKCalculator::get_IsDeterministic
 // Il2CppName: get_IsDeterministic
 template<>
@@ -72,7 +71,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::IDsaKCalculator::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Signers::IDsaKCalculator::*)(Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Math::BigInteger*, ::ArrayW<uint8_t>)>(&Org::BouncyCastle::Crypto::Signers::IDsaKCalculator::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Signers::IDsaKCalculator::*)(Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Math::BigInteger*, ::Array<uint8_t>*)>(&Org::BouncyCastle::Crypto::Signers::IDsaKCalculator::Init)> {
   static const MethodInfo* get() {
     static auto* n = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math", "BigInteger")->byval_arg;
     static auto* d = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math", "BigInteger")->byval_arg;

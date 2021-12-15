@@ -3,15 +3,14 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: AdditionalContentModel
 #include "GlobalNamespace/AdditionalContentModel.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -29,14 +28,6 @@ namespace System::Threading {
   struct CancellationToken;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: TestPlatformAdditionalContentModel
-  class TestPlatformAdditionalContentModel;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::TestPlatformAdditionalContentModel);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TestPlatformAdditionalContentModel*, "", "TestPlatformAdditionalContentModel");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x39
@@ -57,41 +48,37 @@ namespace GlobalNamespace {
     struct $OpenLevelProductStoreAsync$d__8;
     // Nested type: GlobalNamespace::TestPlatformAdditionalContentModel::$OpenLevelPackProductStoreAsync$d__10
     struct $OpenLevelPackProductStoreAsync$d__10;
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private TestPlatformAdditionalContentModel/Entitlement[] _levelsEntitlements
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayW<GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*> levelsEntitlements;
+    ::Array<GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*>* levelsEntitlements;
     // Field size check
-    static_assert(sizeof(::ArrayW<GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*>) == 0x8);
+    static_assert(sizeof(::Array<GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*>*) == 0x8);
     // private TestPlatformAdditionalContentModel/Entitlement[] _levelPacksEntitlements
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayW<GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*> levelPacksEntitlements;
+    ::Array<GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*>* levelPacksEntitlements;
     // Field size check
-    static_assert(sizeof(::ArrayW<GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*>) == 0x8);
+    static_assert(sizeof(::Array<GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*>*) == 0x8);
     // private System.Boolean _packBetterBuyThanLevel
     // Size: 0x1
     // Offset: 0x38
     bool packBetterBuyThanLevel;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: TestPlatformAdditionalContentModel
+    TestPlatformAdditionalContentModel(::Array<GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*>* levelsEntitlements_ = {}, ::Array<GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*>* levelPacksEntitlements_ = {}, bool packBetterBuyThanLevel_ = {}) noexcept : levelsEntitlements{levelsEntitlements_}, levelPacksEntitlements{levelPacksEntitlements_}, packBetterBuyThanLevel{packBetterBuyThanLevel_} {}
     // Get instance field reference: private TestPlatformAdditionalContentModel/Entitlement[] _levelsEntitlements
-    ::ArrayW<GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*>& dyn__levelsEntitlements();
+    ::Array<GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*>*& dyn__levelsEntitlements();
     // Get instance field reference: private TestPlatformAdditionalContentModel/Entitlement[] _levelPacksEntitlements
-    ::ArrayW<GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*>& dyn__levelPacksEntitlements();
+    ::Array<GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*>*& dyn__levelPacksEntitlements();
     // Get instance field reference: private System.Boolean _packBetterBuyThanLevel
     bool& dyn__packBetterBuyThanLevel();
     // private System.Void BuyLevel(System.String levelId)
-    // Offset: 0x115B878
+    // Offset: 0x1201744
     void BuyLevel(::Il2CppString* levelId);
     // public System.Void .ctor()
-    // Offset: 0x115BAE4
+    // Offset: 0x12019B0
     // Implemented from: AdditionalContentModel
     // Base method: System.Void AdditionalContentModel::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -105,32 +92,32 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<TestPlatformAdditionalContentModel*, creationType>()));
     }
     // protected override System.Void InvalidateDataInternal()
-    // Offset: 0x115B414
+    // Offset: 0x12012E0
     // Implemented from: AdditionalContentModel
     // Base method: System.Void AdditionalContentModel::InvalidateDataInternal()
     void InvalidateDataInternal();
     // protected override System.Threading.Tasks.Task`1<AdditionalContentModel/EntitlementStatus> GetLevelEntitlementStatusInternalAsync(System.String levelId, System.Threading.CancellationToken token)
-    // Offset: 0x115B418
+    // Offset: 0x12012E4
     // Implemented from: AdditionalContentModel
     // Base method: System.Threading.Tasks.Task`1<AdditionalContentModel/EntitlementStatus> AdditionalContentModel::GetLevelEntitlementStatusInternalAsync(System.String levelId, System.Threading.CancellationToken token)
     System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus>* GetLevelEntitlementStatusInternalAsync(::Il2CppString* levelId, System::Threading::CancellationToken token);
     // protected override System.Threading.Tasks.Task`1<AdditionalContentModel/EntitlementStatus> GetPackEntitlementStatusInternalAsync(System.String levelPackId, System.Threading.CancellationToken token)
-    // Offset: 0x115B52C
+    // Offset: 0x12013F8
     // Implemented from: AdditionalContentModel
     // Base method: System.Threading.Tasks.Task`1<AdditionalContentModel/EntitlementStatus> AdditionalContentModel::GetPackEntitlementStatusInternalAsync(System.String levelPackId, System.Threading.CancellationToken token)
     System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus>* GetPackEntitlementStatusInternalAsync(::Il2CppString* levelPackId, System::Threading::CancellationToken token);
     // public override System.Threading.Tasks.Task`1<AdditionalContentModel/IsPackBetterBuyThanLevelResult> IsPackBetterBuyThanLevelAsync(System.String levelPackId, System.Threading.CancellationToken token)
-    // Offset: 0x115B640
+    // Offset: 0x120150C
     // Implemented from: AdditionalContentModel
     // Base method: System.Threading.Tasks.Task`1<AdditionalContentModel/IsPackBetterBuyThanLevelResult> AdditionalContentModel::IsPackBetterBuyThanLevelAsync(System.String levelPackId, System.Threading.CancellationToken token)
     System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::IsPackBetterBuyThanLevelResult>* IsPackBetterBuyThanLevelAsync(::Il2CppString* levelPackId, System::Threading::CancellationToken token);
     // public override System.Threading.Tasks.Task`1<AdditionalContentModel/OpenProductStoreResult> OpenLevelProductStoreAsync(System.String levelId, System.Threading.CancellationToken token)
-    // Offset: 0x115B764
+    // Offset: 0x1201630
     // Implemented from: AdditionalContentModel
     // Base method: System.Threading.Tasks.Task`1<AdditionalContentModel/OpenProductStoreResult> AdditionalContentModel::OpenLevelProductStoreAsync(System.String levelId, System.Threading.CancellationToken token)
     System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::OpenProductStoreResult>* OpenLevelProductStoreAsync(::Il2CppString* levelId, System::Threading::CancellationToken token);
     // public override System.Threading.Tasks.Task`1<AdditionalContentModel/OpenProductStoreResult> OpenLevelPackProductStoreAsync(System.String levelPackId, System.Threading.CancellationToken token)
-    // Offset: 0x115B9C0
+    // Offset: 0x120188C
     // Implemented from: AdditionalContentModel
     // Base method: System.Threading.Tasks.Task`1<AdditionalContentModel/OpenProductStoreResult> AdditionalContentModel::OpenLevelPackProductStoreAsync(System.String levelPackId, System.Threading.CancellationToken token)
     System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::OpenProductStoreResult>* OpenLevelPackProductStoreAsync(::Il2CppString* levelPackId, System::Threading::CancellationToken token);
@@ -139,7 +126,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(TestPlatformAdditionalContentModel), 56 + sizeof(bool)> __GlobalNamespace_TestPlatformAdditionalContentModelSizeCheck;
   static_assert(sizeof(TestPlatformAdditionalContentModel) == 0x39);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TestPlatformAdditionalContentModel*, "", "TestPlatformAdditionalContentModel");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TestPlatformAdditionalContentModel::BuyLevel
 // Il2CppName: BuyLevel
 template<>

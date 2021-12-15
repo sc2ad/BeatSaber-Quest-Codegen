@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: OVRInput/RawButton
 #include "GlobalNamespace/OVRInput_RawButton.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: OVRChromaticAberration
-  class OVRChromaticAberration;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRChromaticAberration);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRChromaticAberration*, "", "OVRChromaticAberration");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x1D
@@ -30,11 +22,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRChromaticAberration : public UnityEngine::MonoBehaviour {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public OVRInput/RawButton toggleButton
     // Size: 0x4
     // Offset: 0x18
@@ -47,7 +34,8 @@ namespace GlobalNamespace {
     bool chromatic;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: OVRChromaticAberration
+    OVRChromaticAberration(GlobalNamespace::OVRInput::RawButton toggleButton_ = {}, bool chromatic_ = {}) noexcept : toggleButton{toggleButton_}, chromatic{chromatic_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public OVRInput/RawButton toggleButton
@@ -55,13 +43,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean chromatic
     bool& dyn_chromatic();
     // private System.Void Start()
-    // Offset: 0x139C6E8
+    // Offset: 0x13DC67C
     void Start();
     // private System.Void Update()
-    // Offset: 0x139C7A8
+    // Offset: 0x13DC73C
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x139C8BC
+    // Offset: 0x13DC850
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -78,7 +66,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRChromaticAberration), 28 + sizeof(bool)> __GlobalNamespace_OVRChromaticAberrationSizeCheck;
   static_assert(sizeof(OVRChromaticAberration) == 0x1D);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRChromaticAberration*, "", "OVRChromaticAberration");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRChromaticAberration::Start
 // Il2CppName: Start
 template<>

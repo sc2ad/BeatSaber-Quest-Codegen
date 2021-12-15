@@ -3,18 +3,18 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LiteNetLib.Utils.INetImmutableSerializable`1
 #include "LiteNetLib/Utils/INetImmutableSerializable_1.hpp"
 // Including type: System.IComparable
 #include "System/IComparable.hpp"
 // Including type: RankModel/Rank
 #include "GlobalNamespace/RankModel_Rank.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: LiteNetLib::Utils
@@ -30,14 +30,6 @@ namespace GlobalNamespace {
   class GameplayModifiers;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: LevelCompletionResults
-  class LevelCompletionResults;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::LevelCompletionResults);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelCompletionResults*, "", "LevelCompletionResults");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x88
@@ -56,18 +48,12 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct LevelEndStateType/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: LevelEndStateType
       constexpr LevelEndStateType(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -108,18 +94,12 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct LevelEndAction/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: LevelEndAction
       constexpr LevelEndAction(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -154,11 +134,6 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(LevelCompletionResults::LevelEndAction), 0 + sizeof(int)> __GlobalNamespace_LevelCompletionResults_LevelEndActionSizeCheck;
     static_assert(sizeof(LevelCompletionResults::LevelEndAction) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public readonly GameplayModifiers gameplayModifiers
     // Size: 0x8
     // Offset: 0x10
@@ -335,7 +310,8 @@ namespace GlobalNamespace {
     float endSongTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
+    // Creating value type constructor for type: LevelCompletionResults
+    LevelCompletionResults(GlobalNamespace::GameplayModifiers* gameplayModifiers_ = {}, int modifiedScore_ = {}, int rawScore_ = {}, GlobalNamespace::RankModel::Rank rank_ = {}, bool fullCombo_ = {}, float leftSaberMovementDistance_ = {}, float rightSaberMovementDistance_ = {}, float leftHandMovementDistance_ = {}, float rightHandMovementDistance_ = {}, float songDuration_ = {}, GlobalNamespace::LevelCompletionResults::LevelEndStateType levelEndStateType_ = {}, GlobalNamespace::LevelCompletionResults::LevelEndAction levelEndAction_ = {}, float energy_ = {}, int goodCutsCount_ = {}, int badCutsCount_ = {}, int missedCount_ = {}, int notGoodCount_ = {}, int okCount_ = {}, int averageCutScore_ = {}, int maxCutScore_ = {}, float averageCutDistanceRawScore_ = {}, int maxCombo_ = {}, float minDirDeviation_ = {}, float maxDirDeviation_ = {}, float averageDirDeviation_ = {}, float minTimeDeviation_ = {}, float maxTimeDeviation_ = {}, float averageTimeDeviation_ = {}, float endSongTime_ = {}) noexcept : gameplayModifiers{gameplayModifiers_}, modifiedScore{modifiedScore_}, rawScore{rawScore_}, rank{rank_}, fullCombo{fullCombo_}, leftSaberMovementDistance{leftSaberMovementDistance_}, rightSaberMovementDistance{rightSaberMovementDistance_}, leftHandMovementDistance{leftHandMovementDistance_}, rightHandMovementDistance{rightHandMovementDistance_}, songDuration{songDuration_}, levelEndStateType{levelEndStateType_}, levelEndAction{levelEndAction_}, energy{energy_}, goodCutsCount{goodCutsCount_}, badCutsCount{badCutsCount_}, missedCount{missedCount_}, notGoodCount{notGoodCount_}, okCount{okCount_}, averageCutScore{averageCutScore_}, maxCutScore{maxCutScore_}, averageCutDistanceRawScore{averageCutDistanceRawScore_}, maxCombo{maxCombo_}, minDirDeviation{minDirDeviation_}, maxDirDeviation{maxDirDeviation_}, averageDirDeviation{averageDirDeviation_}, minTimeDeviation{minTimeDeviation_}, maxTimeDeviation{maxTimeDeviation_}, averageTimeDeviation{averageTimeDeviation_}, endSongTime{endSongTime_} {}
     // Creating interface conversion operator: operator LiteNetLib::Utils::INetImmutableSerializable_1<GlobalNamespace::LevelCompletionResults*>
     operator LiteNetLib::Utils::INetImmutableSerializable_1<GlobalNamespace::LevelCompletionResults*>() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetImmutableSerializable_1<GlobalNamespace::LevelCompletionResults*>*>(this);
@@ -403,26 +379,26 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Single endSongTime
     float& dyn_endSongTime();
     // public System.Void .ctor(GameplayModifiers gameplayModifiers, System.Int32 modifiedScore, System.Int32 rawScore, RankModel/Rank rank, System.Boolean fullCombo, System.Single leftSaberMovementDistance, System.Single rightSaberMovementDistance, System.Single leftHandMovementDistance, System.Single rightHandMovementDistance, System.Single songDuration, LevelCompletionResults/LevelEndStateType levelEndStateType, LevelCompletionResults/LevelEndAction levelEndAction, System.Single energy, System.Int32 goodCutsCount, System.Int32 badCutsCount, System.Int32 missedCount, System.Int32 notGoodCount, System.Int32 okCount, System.Int32 averageCutScore, System.Int32 maxCutScore, System.Single averageCutDistanceRawScore, System.Int32 maxCombo, System.Single minDirDeviation, System.Single maxDirDeviation, System.Single averageDirDeviation, System.Single minTimeDeviation, System.Single maxTimeDeviation, System.Single averageTimeDeviation, System.Single endSongTime)
-    // Offset: 0x2554ED8
+    // Offset: 0x2621818
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelCompletionResults* New_ctor(GlobalNamespace::GameplayModifiers* gameplayModifiers, int modifiedScore, int rawScore, GlobalNamespace::RankModel::Rank rank, bool fullCombo, float leftSaberMovementDistance, float rightSaberMovementDistance, float leftHandMovementDistance, float rightHandMovementDistance, float songDuration, GlobalNamespace::LevelCompletionResults::LevelEndStateType levelEndStateType, GlobalNamespace::LevelCompletionResults::LevelEndAction levelEndAction, float energy, int goodCutsCount, int badCutsCount, int missedCount, int notGoodCount, int okCount, int averageCutScore, int maxCutScore, float averageCutDistanceRawScore, int maxCombo, float minDirDeviation, float maxDirDeviation, float averageDirDeviation, float minTimeDeviation, float maxTimeDeviation, float averageTimeDeviation, float endSongTime) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LevelCompletionResults::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LevelCompletionResults*, creationType>(gameplayModifiers, modifiedScore, rawScore, rank, fullCombo, leftSaberMovementDistance, rightSaberMovementDistance, leftHandMovementDistance, rightHandMovementDistance, songDuration, levelEndStateType, levelEndAction, energy, goodCutsCount, badCutsCount, missedCount, notGoodCount, okCount, averageCutScore, maxCutScore, averageCutDistanceRawScore, maxCombo, minDirDeviation, maxDirDeviation, averageDirDeviation, minTimeDeviation, maxTimeDeviation, averageTimeDeviation, endSongTime)));
     }
     // public System.Int32 CompareTo(System.Object obj)
-    // Offset: 0x2555054
+    // Offset: 0x2621994
     int CompareTo(::Il2CppObject* obj);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x2555170
+    // Offset: 0x2621AB0
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // private LevelCompletionResults LiteNetLib.Utils.INetImmutableSerializable<LevelCompletionResults>.CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2555458
+    // Offset: 0x2621D98
     GlobalNamespace::LevelCompletionResults* LiteNetLib_Utils_INetImmutableSerializable$LevelCompletionResults$_CreateFromSerializedData(LiteNetLib::Utils::NetDataReader* reader);
     // static public LevelCompletionResults CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2555460
+    // Offset: 0x2621DA0
     static GlobalNamespace::LevelCompletionResults* CreateFromSerializedData(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void .ctor()
-    // Offset: 0x2554ED0
+    // Offset: 0x2621810
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -435,11 +411,10 @@ namespace GlobalNamespace {
   static check_size<sizeof(LevelCompletionResults), 132 + sizeof(float)> __GlobalNamespace_LevelCompletionResultsSizeCheck;
   static_assert(sizeof(LevelCompletionResults) == 0x88);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelCompletionResults*, "", "LevelCompletionResults");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelCompletionResults::LevelEndStateType, "", "LevelCompletionResults/LevelEndStateType");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelCompletionResults::LevelEndAction, "", "LevelCompletionResults/LevelEndAction");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LevelCompletionResults::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

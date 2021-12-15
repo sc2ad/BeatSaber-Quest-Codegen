@@ -3,14 +3,14 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Reflection.Assembly
 #include "System/Reflection/Assembly.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Security::Policy
@@ -32,18 +32,9 @@ namespace System::Reflection {
 namespace System::Runtime::Serialization {
   // Forward declaring type: SerializationInfo
   class SerializationInfo;
-  // Forward declaring type: StreamingContext
-  struct StreamingContext;
+  // Skipping declaration: StreamingContext because it is already included!
 }
 // Completed forward declares
-// Type namespace: System.Reflection
-namespace System::Reflection {
-  // Forward declaring type: RuntimeAssembly
-  class RuntimeAssembly;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Reflection::RuntimeAssembly);
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::RuntimeAssembly*, "System.Reflection", "RuntimeAssembly");
 // Type namespace: System.Reflection
 namespace System::Reflection {
   // Size: 0x60
@@ -52,14 +43,16 @@ namespace System::Reflection {
   // [TokenAttribute] Offset: FFFFFFFF
   class RuntimeAssembly : public System::Reflection::Assembly {
     public:
+    // Creating value type constructor for type: RuntimeAssembly
+    RuntimeAssembly() noexcept {}
     // static System.Reflection.RuntimeAssembly LoadWithPartialNameInternal(System.String partialName, System.Security.Policy.Evidence securityEvidence, ref System.Threading.StackCrawlMark stackMark)
-    // Offset: 0x1E982C4
+    // Offset: 0x1E9DD24
     static System::Reflection::RuntimeAssembly* LoadWithPartialNameInternal(::Il2CppString* partialName, System::Security::Policy::Evidence* securityEvidence, ByRef<System::Threading::StackCrawlMark> stackMark);
     // static System.Reflection.RuntimeAssembly LoadWithPartialNameInternal(System.Reflection.AssemblyName an, System.Security.Policy.Evidence securityEvidence, ref System.Threading.StackCrawlMark stackMark)
-    // Offset: 0x1E9835C
+    // Offset: 0x1E9DDBC
     static System::Reflection::RuntimeAssembly* LoadWithPartialNameInternal(System::Reflection::AssemblyName* an, System::Security::Policy::Evidence* securityEvidence, ByRef<System::Threading::StackCrawlMark> stackMark);
     // protected System.Void .ctor()
-    // Offset: 0x1E92AA4
+    // Offset: 0x1E98504
     // Implemented from: System.Reflection.Assembly
     // Base method: System.Void Assembly::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -69,19 +62,20 @@ namespace System::Reflection {
       return THROW_UNLESS((::il2cpp_utils::New<RuntimeAssembly*, creationType>()));
     }
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1E98214
+    // Offset: 0x1E9DC74
     // Implemented from: System.Reflection.Assembly
     // Base method: System.Void Assembly::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.Reflection.AssemblyName GetName(System.Boolean copiedName)
-    // Offset: 0x1E98390
+    // Offset: 0x1E9DDF0
     // Implemented from: System.Reflection.Assembly
     // Base method: System.Reflection.AssemblyName Assembly::GetName(System.Boolean copiedName)
     System::Reflection::AssemblyName* GetName(bool copiedName);
   }; // System.Reflection.RuntimeAssembly
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::RuntimeAssembly*, "System.Reflection", "RuntimeAssembly");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::RuntimeAssembly::LoadWithPartialNameInternal
 // Il2CppName: LoadWithPartialNameInternal
 template<>

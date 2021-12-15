@@ -3,18 +3,9 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: System.Xml
-namespace System::Xml {
-  // Forward declaring type: HtmlTernaryTree
-  class HtmlTernaryTree;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::HtmlTernaryTree);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::HtmlTernaryTree*, "System.Xml", "HtmlTernaryTree");
 // Type namespace: System.Xml
 namespace System::Xml {
   // Size: 0x10
@@ -23,21 +14,25 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class HtmlTernaryTree : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: HtmlTernaryTree
+    HtmlTernaryTree() noexcept {}
     // Get static field: static System.Byte[] htmlElements
-    static ::ArrayW<uint8_t> _get_htmlElements();
+    static ::Array<uint8_t>* _get_htmlElements();
     // Set static field: static System.Byte[] htmlElements
-    static void _set_htmlElements(::ArrayW<uint8_t> value);
+    static void _set_htmlElements(::Array<uint8_t>* value);
     // Get static field: static System.Byte[] htmlAttributes
-    static ::ArrayW<uint8_t> _get_htmlAttributes();
+    static ::Array<uint8_t>* _get_htmlAttributes();
     // Set static field: static System.Byte[] htmlAttributes
-    static void _set_htmlAttributes(::ArrayW<uint8_t> value);
+    static void _set_htmlAttributes(::Array<uint8_t>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1ADDF54
+    // Offset: 0x1B5DA30
     static void _cctor();
   }; // System.Xml.HtmlTernaryTree
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::HtmlTernaryTree*, "System.Xml", "HtmlTernaryTree");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::HtmlTernaryTree::_cctor
 // Il2CppName: .cctor
 template<>

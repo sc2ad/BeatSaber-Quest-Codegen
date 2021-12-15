@@ -3,21 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BezierSpline
 #include "GlobalNamespace/BezierSpline.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: ComputeControlPointsResults
-  struct ComputeControlPointsResults;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BezierSpline::ComputeControlPointsResults, "", "BezierSpline/ComputeControlPointsResults");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -28,43 +24,39 @@ namespace GlobalNamespace {
   // [IsReadOnlyAttribute] Offset: FFFFFFFF
   struct BezierSpline::ComputeControlPointsResults/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public readonly System.Single[] p1
     // Size: 0x8
     // Offset: 0x0
-    ::ArrayW<float> p1;
+    ::Array<float>* p1;
     // Field size check
-    static_assert(sizeof(::ArrayW<float>) == 0x8);
+    static_assert(sizeof(::Array<float>*) == 0x8);
     // public readonly System.Single[] p2
     // Size: 0x8
     // Offset: 0x8
-    ::ArrayW<float> p2;
+    ::Array<float>* p2;
     // Field size check
-    static_assert(sizeof(::ArrayW<float>) == 0x8);
-    public:
+    static_assert(sizeof(::Array<float>*) == 0x8);
     // Creating value type constructor for type: ComputeControlPointsResults
-    constexpr ComputeControlPointsResults(::ArrayW<float> p1_ = ::ArrayW<float>(nullptr), ::ArrayW<float> p2_ = ::ArrayW<float>(nullptr)) noexcept : p1{p1_}, p2{p2_} {}
+    constexpr ComputeControlPointsResults(::Array<float>* p1_ = {}, ::Array<float>* p2_ = {}) noexcept : p1{p1_}, p2{p2_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // Get instance field reference: public readonly System.Single[] p1
-    ::ArrayW<float>& dyn_p1();
+    ::Array<float>*& dyn_p1();
     // Get instance field reference: public readonly System.Single[] p2
-    ::ArrayW<float>& dyn_p2();
+    ::Array<float>*& dyn_p2();
     // public System.Void .ctor(System.Single[] p1, System.Single[] p2)
-    // Offset: 0x12A25D8
-    // ABORTED: conflicts with another method.  ComputeControlPointsResults(::ArrayW<float> p1, ::ArrayW<float> p2);
+    // Offset: 0x13328E4
+    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    // ABORTED: conflicts with another method.  ComputeControlPointsResults(::Array<float>* p1, ::Array<float>* p2)
   }; // BezierSpline/ComputeControlPointsResults
   #pragma pack(pop)
-  static check_size<sizeof(BezierSpline::ComputeControlPointsResults), 8 + sizeof(::ArrayW<float>)> __GlobalNamespace_BezierSpline_ComputeControlPointsResultsSizeCheck;
+  static check_size<sizeof(BezierSpline::ComputeControlPointsResults), 8 + sizeof(::Array<float>*)> __GlobalNamespace_BezierSpline_ComputeControlPointsResultsSizeCheck;
   static_assert(sizeof(BezierSpline::ComputeControlPointsResults) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BezierSpline::ComputeControlPointsResults, "", "BezierSpline/ComputeControlPointsResults");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BezierSpline::ComputeControlPointsResults::ComputeControlPointsResults
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

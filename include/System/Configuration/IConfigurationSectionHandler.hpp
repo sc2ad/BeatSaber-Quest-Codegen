@@ -3,16 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: System.Configuration
-namespace System::Configuration {
-  // Forward declaring type: IConfigurationSectionHandler
-  class IConfigurationSectionHandler;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Configuration::IConfigurationSectionHandler);
-DEFINE_IL2CPP_ARG_TYPE(System::Configuration::IConfigurationSectionHandler*, "System.Configuration", "IConfigurationSectionHandler");
 // Type namespace: System.Configuration
 namespace System::Configuration {
   // Size: 0x10
@@ -21,7 +13,11 @@ namespace System::Configuration {
   // [TokenAttribute] Offset: FFFFFFFF
   class IConfigurationSectionHandler {
     public:
+    // Creating value type constructor for type: IConfigurationSectionHandler
+    IConfigurationSectionHandler() noexcept {}
   }; // System.Configuration.IConfigurationSectionHandler
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Configuration::IConfigurationSectionHandler*, "System.Configuration", "IConfigurationSectionHandler");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

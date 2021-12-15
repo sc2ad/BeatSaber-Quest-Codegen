@@ -3,20 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: UnityEngine.Vector2
 #include "UnityEngine/Vector2.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: Ray2D
-  struct Ray2D;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Ray2D, "UnityEngine", "Ray2D");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -26,11 +23,6 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Ray2D/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private UnityEngine.Vector2 m_Origin
     // Size: 0x8
     // Offset: 0x0
@@ -43,7 +35,6 @@ namespace UnityEngine {
     UnityEngine::Vector2 m_Direction;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector2) == 0x8);
-    public:
     // Creating value type constructor for type: Ray2D
     constexpr Ray2D(UnityEngine::Vector2 m_Origin_ = {}, UnityEngine::Vector2 m_Direction_ = {}) noexcept : m_Origin{m_Origin_}, m_Direction{m_Direction_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -55,19 +46,20 @@ namespace UnityEngine {
     // Get instance field reference: private UnityEngine.Vector2 m_Direction
     UnityEngine::Vector2& dyn_m_Direction();
     // public UnityEngine.Vector2 get_origin()
-    // Offset: 0x1DE7A60
+    // Offset: 0x1DF1E64
     UnityEngine::Vector2 get_origin();
     // public UnityEngine.Vector2 get_direction()
-    // Offset: 0x1DE7A68
+    // Offset: 0x1DF1E6C
     UnityEngine::Vector2 get_direction();
     // public System.Void .ctor(UnityEngine.Vector2 origin, UnityEngine.Vector2 direction)
-    // Offset: 0x1DE7A2C
-    // ABORTED: conflicts with another method.  Ray2D(UnityEngine::Vector2 origin, UnityEngine::Vector2 direction);
+    // Offset: 0x1DF1E30
+    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    // ABORTED: conflicts with another method.  Ray2D(UnityEngine::Vector2 origin, UnityEngine::Vector2 direction)
     // public UnityEngine.Vector2 GetPoint(System.Single distance)
-    // Offset: 0x1DE7A70
+    // Offset: 0x1DF1E74
     UnityEngine::Vector2 GetPoint(float distance);
     // public override System.String ToString()
-    // Offset: 0x1DE7B1C
+    // Offset: 0x1DF1F20
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
@@ -76,7 +68,8 @@ namespace UnityEngine {
   static check_size<sizeof(Ray2D), 8 + sizeof(UnityEngine::Vector2)> __UnityEngine_Ray2DSizeCheck;
   static_assert(sizeof(Ray2D) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Ray2D, "UnityEngine", "Ray2D");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Ray2D::get_origin
 // Il2CppName: get_origin
 template<>

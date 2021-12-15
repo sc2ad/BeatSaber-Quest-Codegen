@@ -3,20 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Math.EC.Rfc8032.Ed25519
 #include "Org/BouncyCastle/Math/EC/Rfc8032/Ed25519.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: Org.BouncyCastle.Math.EC.Rfc8032
-namespace Org::BouncyCastle::Math::EC::Rfc8032 {
-  // Forward declaring type: Algorithm
-  struct Algorithm;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Algorithm, "Org.BouncyCastle.Math.EC.Rfc8032", "Ed25519/Algorithm");
 // Type namespace: Org.BouncyCastle.Math.EC.Rfc8032
 namespace Org::BouncyCastle::Math::EC::Rfc8032 {
   // Size: 0x4
@@ -25,18 +18,12 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Ed25519::Algorithm/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: Algorithm
     constexpr Algorithm(int value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -72,4 +59,6 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
   static check_size<sizeof(Ed25519::Algorithm), 0 + sizeof(int)> __Org_BouncyCastle_Math_EC_Rfc8032_Ed25519_AlgorithmSizeCheck;
   static_assert(sizeof(Ed25519::Algorithm) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Algorithm, "Org.BouncyCastle.Math.EC.Rfc8032", "Ed25519/Algorithm");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

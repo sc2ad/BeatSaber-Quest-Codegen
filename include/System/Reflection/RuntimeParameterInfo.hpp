@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Reflection.ParameterInfo
 #include "System/Reflection/ParameterInfo.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Reflection
-namespace System::Reflection {
-  // Forward declaring type: RuntimeParameterInfo
-  class RuntimeParameterInfo;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Reflection::RuntimeParameterInfo);
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::RuntimeParameterInfo*, "System.Reflection", "RuntimeParameterInfo");
 // Type namespace: System.Reflection
 namespace System::Reflection {
   // Size: 0x40
@@ -28,8 +20,10 @@ namespace System::Reflection {
   // [TokenAttribute] Offset: FFFFFFFF
   class RuntimeParameterInfo : public System::Reflection::ParameterInfo {
     public:
+    // Creating value type constructor for type: RuntimeParameterInfo
+    RuntimeParameterInfo() noexcept {}
     // protected System.Void .ctor()
-    // Offset: 0x1589C10
+    // Offset: 0x1617F04
     // Implemented from: System.Reflection.ParameterInfo
     // Base method: System.Void ParameterInfo::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -41,7 +35,8 @@ namespace System::Reflection {
   }; // System.Reflection.RuntimeParameterInfo
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::RuntimeParameterInfo*, "System.Reflection", "RuntimeParameterInfo");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::RuntimeParameterInfo::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

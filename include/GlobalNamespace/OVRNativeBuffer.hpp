@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IDisposable
 #include "System/IDisposable.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: OVRNativeBuffer
-  class OVRNativeBuffer;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRNativeBuffer);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRNativeBuffer*, "", "OVRNativeBuffer");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -30,11 +22,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRNativeBuffer : public ::Il2CppObject/*, public System::IDisposable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Boolean disposed
     // Size: 0x1
     // Offset: 0x10
@@ -55,7 +42,8 @@ namespace GlobalNamespace {
     System::IntPtr m_ptr;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
-    public:
+    // Creating value type constructor for type: OVRNativeBuffer
+    OVRNativeBuffer(bool disposed_ = {}, int m_numBytes_ = {}, System::IntPtr m_ptr_ = {}) noexcept : disposed{disposed_}, m_numBytes{m_numBytes_}, m_ptr{m_ptr_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
@@ -67,35 +55,35 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.IntPtr m_ptr
     System::IntPtr& dyn_m_ptr();
     // public System.Void .ctor(System.Int32 numBytes)
-    // Offset: 0x144B774
+    // Offset: 0x147AF58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRNativeBuffer* New_ctor(int numBytes) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRNativeBuffer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRNativeBuffer*, creationType>(numBytes)));
     }
     // public System.Void Reset(System.Int32 numBytes)
-    // Offset: 0x144B924
+    // Offset: 0x147B108
     void Reset(int numBytes);
     // public System.Int32 GetCapacity()
-    // Offset: 0x144B928
+    // Offset: 0x147B10C
     int GetCapacity();
     // public System.IntPtr GetPointer(System.Int32 byteOffset)
-    // Offset: 0x144B930
+    // Offset: 0x147B114
     System::IntPtr GetPointer(int byteOffset);
     // public System.Void Dispose()
-    // Offset: 0x144B9C4
+    // Offset: 0x147B1A8
     void Dispose();
     // private System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x144B8F0
+    // Offset: 0x147B0D4
     void Dispose(bool disposing);
     // private System.Void Reallocate(System.Int32 numBytes)
-    // Offset: 0x144B7D8
+    // Offset: 0x147AFBC
     void Reallocate(int numBytes);
     // private System.Void Release()
-    // Offset: 0x144BA44
+    // Offset: 0x147B228
     void Release();
     // protected override System.Void Finalize()
-    // Offset: 0x144B874
+    // Offset: 0x147B058
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
@@ -104,7 +92,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRNativeBuffer), 24 + sizeof(System::IntPtr)> __GlobalNamespace_OVRNativeBufferSizeCheck;
   static_assert(sizeof(OVRNativeBuffer) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRNativeBuffer*, "", "OVRNativeBuffer");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRNativeBuffer::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

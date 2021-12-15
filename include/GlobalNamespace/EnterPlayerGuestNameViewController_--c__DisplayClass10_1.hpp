@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: EnterPlayerGuestNameViewController
 #include "GlobalNamespace/EnterPlayerGuestNameViewController.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <>c__DisplayClass10_1
-  class $$c__DisplayClass10_1;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::EnterPlayerGuestNameViewController::$$c__DisplayClass10_1);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnterPlayerGuestNameViewController::$$c__DisplayClass10_1*, "", "EnterPlayerGuestNameViewController/<>c__DisplayClass10_1");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -29,11 +21,6 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class EnterPlayerGuestNameViewController::$$c__DisplayClass10_1 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.String guestPlayerName
     // Size: 0x8
     // Offset: 0x10
@@ -46,16 +33,17 @@ namespace GlobalNamespace {
     GlobalNamespace::EnterPlayerGuestNameViewController::$$c__DisplayClass10_0* CS$$$8__locals1;
     // Field size check
     static_assert(sizeof(GlobalNamespace::EnterPlayerGuestNameViewController::$$c__DisplayClass10_0*) == 0x8);
-    public:
+    // Creating value type constructor for type: $$c__DisplayClass10_1
+    $$c__DisplayClass10_1(::Il2CppString* guestPlayerName_ = {}, GlobalNamespace::EnterPlayerGuestNameViewController::$$c__DisplayClass10_0* CS$$$8__locals1_ = {}) noexcept : guestPlayerName{guestPlayerName_}, CS$$$8__locals1{CS$$$8__locals1_} {}
     // Get instance field reference: public System.String guestPlayerName
     ::Il2CppString*& dyn_guestPlayerName();
     // Get instance field reference: public EnterPlayerGuestNameViewController/<>c__DisplayClass10_0 CS$<>8__locals1
     GlobalNamespace::EnterPlayerGuestNameViewController::$$c__DisplayClass10_0*& dyn_CS$$$8__locals1();
     // System.Void <DidActivate>b__1()
-    // Offset: 0x116A7A4
+    // Offset: 0x11DD46C
     void $DidActivate$b__1();
     // public System.Void .ctor()
-    // Offset: 0x116A79C
+    // Offset: 0x11DD464
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -68,7 +56,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(EnterPlayerGuestNameViewController::$$c__DisplayClass10_1), 24 + sizeof(GlobalNamespace::EnterPlayerGuestNameViewController::$$c__DisplayClass10_0*)> __GlobalNamespace_EnterPlayerGuestNameViewController_$$c__DisplayClass10_1SizeCheck;
   static_assert(sizeof(EnterPlayerGuestNameViewController::$$c__DisplayClass10_1) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnterPlayerGuestNameViewController::$$c__DisplayClass10_1*, "", "EnterPlayerGuestNameViewController/<>c__DisplayClass10_1");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EnterPlayerGuestNameViewController::$$c__DisplayClass10_1::$DidActivate$b__1
 // Il2CppName: <DidActivate>b__1
 template<>

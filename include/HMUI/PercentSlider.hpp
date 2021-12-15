@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.RangeValuesTextSlider
 #include "HMUI/RangeValuesTextSlider.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: HMUI
-namespace HMUI {
-  // Forward declaring type: PercentSlider
-  class PercentSlider;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HMUI::PercentSlider);
-DEFINE_IL2CPP_ARG_TYPE(HMUI::PercentSlider*, "HMUI", "PercentSlider");
 // Type namespace: HMUI
 namespace HMUI {
   // WARNING Size may be invalid!
@@ -27,8 +19,10 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class PercentSlider : public HMUI::RangeValuesTextSlider {
     public:
+    // Creating value type constructor for type: PercentSlider
+    PercentSlider() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x13F7B0C
+    // Offset: 0x14C6414
     // Implemented from: HMUI.RangeValuesTextSlider
     // Base method: System.Void RangeValuesTextSlider::.ctor()
     // Base method: System.Void TextSlider::.ctor()
@@ -45,13 +39,14 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<PercentSlider*, creationType>()));
     }
     // protected override System.String TextForValue(System.Single value)
-    // Offset: 0x13F7A7C
+    // Offset: 0x14C6384
     // Implemented from: HMUI.RangeValuesTextSlider
     // Base method: System.String RangeValuesTextSlider::TextForValue(System.Single value)
     ::Il2CppString* TextForValue(float value);
   }; // HMUI.PercentSlider
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HMUI::PercentSlider*, "HMUI", "PercentSlider");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::PercentSlider::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

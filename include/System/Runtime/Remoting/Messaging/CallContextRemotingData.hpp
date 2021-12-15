@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ICloneable
 #include "System/ICloneable.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Runtime.Remoting.Messaging
-namespace System::Runtime::Remoting::Messaging {
-  // Forward declaring type: CallContextRemotingData
-  class CallContextRemotingData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Remoting::Messaging::CallContextRemotingData);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::CallContextRemotingData*, "System.Runtime.Remoting.Messaging", "CallContextRemotingData");
 // Type namespace: System.Runtime.Remoting.Messaging
 namespace System::Runtime::Remoting::Messaging {
   // Size: 0x18
@@ -28,18 +20,14 @@ namespace System::Runtime::Remoting::Messaging {
   // [TokenAttribute] Offset: FFFFFFFF
   class CallContextRemotingData : public ::Il2CppObject/*, public System::ICloneable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.String _logicalCallID
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppString* logicalCallID;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: CallContextRemotingData
+    CallContextRemotingData(::Il2CppString* logicalCallID_ = {}) noexcept : logicalCallID{logicalCallID_} {}
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);
@@ -51,19 +39,19 @@ namespace System::Runtime::Remoting::Messaging {
     // Get instance field reference: private System.String _logicalCallID
     ::Il2CppString*& dyn__logicalCallID();
     // System.String get_LogicalCallID()
-    // Offset: 0x1BF8B5C
+    // Offset: 0x1C50C54
     ::Il2CppString* get_LogicalCallID();
     // System.Void set_LogicalCallID(System.String value)
-    // Offset: 0x1BF8B64
+    // Offset: 0x1C50C5C
     void set_LogicalCallID(::Il2CppString* value);
     // System.Boolean get_HasInfo()
-    // Offset: 0x1BF8B6C
+    // Offset: 0x1C50C64
     bool get_HasInfo();
     // public System.Object Clone()
-    // Offset: 0x1BF8B7C
+    // Offset: 0x1C50C74
     ::Il2CppObject* Clone();
     // public System.Void .ctor()
-    // Offset: 0x1BF8BEC
+    // Offset: 0x1C50CE4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -76,7 +64,8 @@ namespace System::Runtime::Remoting::Messaging {
   static check_size<sizeof(CallContextRemotingData), 16 + sizeof(::Il2CppString*)> __System_Runtime_Remoting_Messaging_CallContextRemotingDataSizeCheck;
   static_assert(sizeof(CallContextRemotingData) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::CallContextRemotingData*, "System.Runtime.Remoting.Messaging", "CallContextRemotingData");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CallContextRemotingData::get_LogicalCallID
 // Il2CppName: get_LogicalCallID
 template<>

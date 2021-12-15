@@ -3,16 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: UnityEngine.UI
-namespace UnityEngine::UI {
-  // Forward declaring type: IMaskable
-  class IMaskable;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::UI::IMaskable);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::IMaskable*, "UnityEngine.UI", "IMaskable");
 // Type namespace: UnityEngine.UI
 namespace UnityEngine::UI {
   // Size: 0x10
@@ -21,13 +13,17 @@ namespace UnityEngine::UI {
   // [TokenAttribute] Offset: FFFFFFFF
   class IMaskable {
     public:
+    // Creating value type constructor for type: IMaskable
+    IMaskable() noexcept {}
     // public System.Void RecalculateMasking()
     // Offset: 0xFFFFFFFF
     void RecalculateMasking();
   }; // UnityEngine.UI.IMaskable
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::IMaskable*, "UnityEngine.UI", "IMaskable");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::IMaskable::RecalculateMasking
 // Il2CppName: RecalculateMasking
 template<>

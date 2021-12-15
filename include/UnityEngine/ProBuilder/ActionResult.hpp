@@ -3,14 +3,14 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::ProBuilder
@@ -18,14 +18,6 @@ namespace UnityEngine::ProBuilder {
   // Skipping declaration: Status because it is already included!
 }
 // Completed forward declares
-// Type namespace: UnityEngine.ProBuilder
-namespace UnityEngine::ProBuilder {
-  // Forward declaring type: ActionResult
-  class ActionResult;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ProBuilder::ActionResult);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ActionResult*, "UnityEngine.ProBuilder", "ActionResult");
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {
   // Size: 0x20
@@ -42,18 +34,12 @@ namespace UnityEngine::ProBuilder {
     // [TokenAttribute] Offset: FFFFFFFF
     struct Status/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: Status
       constexpr Status(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -94,11 +80,6 @@ namespace UnityEngine::ProBuilder {
     #pragma pack(pop)
     static check_size<sizeof(ActionResult::Status), 0 + sizeof(int)> __UnityEngine_ProBuilder_ActionResult_StatusSizeCheck;
     static_assert(sizeof(ActionResult::Status) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private UnityEngine.ProBuilder.ActionResult/UnityEngine.ProBuilder.Status <status>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -113,53 +94,54 @@ namespace UnityEngine::ProBuilder {
     ::Il2CppString* notification;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: ActionResult
+    ActionResult(UnityEngine::ProBuilder::ActionResult::Status status_ = {}, ::Il2CppString* notification_ = {}) noexcept : status{status_}, notification{notification_} {}
     // Get instance field reference: private UnityEngine.ProBuilder.ActionResult/UnityEngine.ProBuilder.Status <status>k__BackingField
     UnityEngine::ProBuilder::ActionResult::Status& dyn_$status$k__BackingField();
     // Get instance field reference: private System.String <notification>k__BackingField
     ::Il2CppString*& dyn_$notification$k__BackingField();
     // public UnityEngine.ProBuilder.ActionResult/UnityEngine.ProBuilder.Status get_status()
-    // Offset: 0x213A254
+    // Offset: 0x21DD2EC
     UnityEngine::ProBuilder::ActionResult::Status get_status();
     // private System.Void set_status(UnityEngine.ProBuilder.ActionResult/UnityEngine.ProBuilder.Status value)
-    // Offset: 0x213A25C
+    // Offset: 0x21DD2F4
     void set_status(UnityEngine::ProBuilder::ActionResult::Status value);
     // public System.String get_notification()
-    // Offset: 0x213A264
+    // Offset: 0x21DD2FC
     ::Il2CppString* get_notification();
     // private System.Void set_notification(System.String value)
-    // Offset: 0x213A26C
+    // Offset: 0x21DD304
     void set_notification(::Il2CppString* value);
     // static public UnityEngine.ProBuilder.ActionResult get_Success()
-    // Offset: 0x213A370
+    // Offset: 0x21DD408
     static UnityEngine::ProBuilder::ActionResult* get_Success();
     // static public UnityEngine.ProBuilder.ActionResult get_NoSelection()
-    // Offset: 0x213A3E0
+    // Offset: 0x21DD478
     static UnityEngine::ProBuilder::ActionResult* get_NoSelection();
     // static public UnityEngine.ProBuilder.ActionResult get_UserCanceled()
-    // Offset: 0x213A454
+    // Offset: 0x21DD4EC
     static UnityEngine::ProBuilder::ActionResult* get_UserCanceled();
     // public System.Void .ctor(UnityEngine.ProBuilder.ActionResult/UnityEngine.ProBuilder.Status status, System.String notification)
-    // Offset: 0x213A274
+    // Offset: 0x21DD30C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ActionResult* New_ctor(UnityEngine::ProBuilder::ActionResult::Status status, ::Il2CppString* notification) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::ActionResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ActionResult*, creationType>(status, notification)));
     }
     // public System.Boolean ToBool()
-    // Offset: 0x213A2C4
+    // Offset: 0x21DD35C
     bool ToBool();
     // static public System.Boolean FromBool(System.Boolean success)
-    // Offset: 0x213A2D4
+    // Offset: 0x21DD36C
     static bool FromBool(bool success);
   }; // UnityEngine.ProBuilder.ActionResult
   #pragma pack(pop)
   static check_size<sizeof(ActionResult), 24 + sizeof(::Il2CppString*)> __UnityEngine_ProBuilder_ActionResultSizeCheck;
   static_assert(sizeof(ActionResult) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ActionResult*, "UnityEngine.ProBuilder", "ActionResult");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ActionResult::Status, "UnityEngine.ProBuilder", "ActionResult/Status");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ActionResult::get_status
 // Il2CppName: get_status
 template<>

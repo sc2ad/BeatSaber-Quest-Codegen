@@ -3,17 +3,10 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-// Type namespace: HoudiniEngineUnity
-namespace HoudiniEngineUnity {
-  // Forward declaring type: HAPI_PDG_EventInfo
-  struct HAPI_PDG_EventInfo;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_PDG_EventInfo, "HoudiniEngineUnity", "HAPI_PDG_EventInfo");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x1C
@@ -23,11 +16,6 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HAPI_PDG_EventInfo/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 nodeId
     // Size: 0x4
     // Offset: 0x0
@@ -70,7 +58,6 @@ namespace HoudiniEngineUnity {
     int msgSH;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: HAPI_PDG_EventInfo
     constexpr HAPI_PDG_EventInfo(int nodeId_ = {}, int workitemId_ = {}, int dependencyId_ = {}, int currentState_ = {}, int lastState_ = {}, int eventType_ = {}, int msgSH_ = {}) noexcept : nodeId{nodeId_}, workitemId{workitemId_}, dependencyId{dependencyId_}, currentState{currentState_}, lastState{lastState_}, eventType{eventType_}, msgSH{msgSH_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -96,4 +83,6 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HAPI_PDG_EventInfo), 24 + sizeof(int)> __HoudiniEngineUnity_HAPI_PDG_EventInfoSizeCheck;
   static_assert(sizeof(HAPI_PDG_EventInfo) == 0x1C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_PDG_EventInfo, "HoudiniEngineUnity", "HAPI_PDG_EventInfo");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

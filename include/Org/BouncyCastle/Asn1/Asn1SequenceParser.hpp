@@ -3,18 +3,10 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Asn1.IAsn1Convertible
 #include "Org/BouncyCastle/Asn1/IAsn1Convertible.hpp"
 // Completed includes
-// Type namespace: Org.BouncyCastle.Asn1
-namespace Org::BouncyCastle::Asn1 {
-  // Forward declaring type: Asn1SequenceParser
-  class Asn1SequenceParser;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Asn1::Asn1SequenceParser);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Asn1SequenceParser*, "Org.BouncyCastle.Asn1", "Asn1SequenceParser");
 // Type namespace: Org.BouncyCastle.Asn1
 namespace Org::BouncyCastle::Asn1 {
   // Size: 0x10
@@ -23,6 +15,8 @@ namespace Org::BouncyCastle::Asn1 {
   // [TokenAttribute] Offset: FFFFFFFF
   class Asn1SequenceParser/*, public Org::BouncyCastle::Asn1::IAsn1Convertible*/ {
     public:
+    // Creating value type constructor for type: Asn1SequenceParser
+    Asn1SequenceParser() noexcept {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Asn1::IAsn1Convertible
     operator Org::BouncyCastle::Asn1::IAsn1Convertible() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Asn1::IAsn1Convertible*>(this);
@@ -30,4 +24,6 @@ namespace Org::BouncyCastle::Asn1 {
   }; // Org.BouncyCastle.Asn1.Asn1SequenceParser
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Asn1SequenceParser*, "Org.BouncyCastle.Asn1", "Asn1SequenceParser");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -3,16 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: Zenject
-namespace Zenject {
-  // Forward declaring type: ILateTickable
-  class ILateTickable;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::ILateTickable);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::ILateTickable*, "Zenject", "ILateTickable");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x10
@@ -21,13 +13,17 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class ILateTickable {
     public:
+    // Creating value type constructor for type: ILateTickable
+    ILateTickable() noexcept {}
     // public System.Void LateTick()
     // Offset: 0xFFFFFFFF
     void LateTick();
   }; // Zenject.ILateTickable
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Zenject::ILateTickable*, "Zenject", "ILateTickable");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::ILateTickable::LateTick
 // Il2CppName: LateTick
 template<>

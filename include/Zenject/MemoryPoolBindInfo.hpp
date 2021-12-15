@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.PoolExpandMethods
 #include "Zenject/PoolExpandMethods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Zenject
-namespace Zenject {
-  // Forward declaring type: MemoryPoolBindInfo
-  class MemoryPoolBindInfo;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::MemoryPoolBindInfo);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::MemoryPoolBindInfo*, "Zenject", "MemoryPoolBindInfo");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x1C
@@ -29,11 +21,6 @@ namespace Zenject {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class MemoryPoolBindInfo : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private Zenject.PoolExpandMethods <ExpandMethod>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -52,7 +39,8 @@ namespace Zenject {
     int MaxSize;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
+    // Creating value type constructor for type: MemoryPoolBindInfo
+    MemoryPoolBindInfo(Zenject::PoolExpandMethods ExpandMethod_ = {}, int InitialSize_ = {}, int MaxSize_ = {}) noexcept : ExpandMethod{ExpandMethod_}, InitialSize{InitialSize_}, MaxSize{MaxSize_} {}
     // Get instance field reference: private Zenject.PoolExpandMethods <ExpandMethod>k__BackingField
     Zenject::PoolExpandMethods& dyn_$ExpandMethod$k__BackingField();
     // Get instance field reference: private System.Int32 <InitialSize>k__BackingField
@@ -60,25 +48,25 @@ namespace Zenject {
     // Get instance field reference: private System.Int32 <MaxSize>k__BackingField
     int& dyn_$MaxSize$k__BackingField();
     // public Zenject.PoolExpandMethods get_ExpandMethod()
-    // Offset: 0x187BDF8
+    // Offset: 0x18DA674
     Zenject::PoolExpandMethods get_ExpandMethod();
     // public System.Void set_ExpandMethod(Zenject.PoolExpandMethods value)
-    // Offset: 0x187BE00
+    // Offset: 0x18DA67C
     void set_ExpandMethod(Zenject::PoolExpandMethods value);
     // public System.Int32 get_InitialSize()
-    // Offset: 0x187BE08
+    // Offset: 0x18DA684
     int get_InitialSize();
     // public System.Void set_InitialSize(System.Int32 value)
-    // Offset: 0x187BE10
+    // Offset: 0x18DA68C
     void set_InitialSize(int value);
     // public System.Int32 get_MaxSize()
-    // Offset: 0x187BE18
+    // Offset: 0x18DA694
     int get_MaxSize();
     // public System.Void set_MaxSize(System.Int32 value)
-    // Offset: 0x187BE20
+    // Offset: 0x18DA69C
     void set_MaxSize(int value);
     // public System.Void .ctor()
-    // Offset: 0x187BDC8
+    // Offset: 0x18DA644
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -91,7 +79,8 @@ namespace Zenject {
   static check_size<sizeof(MemoryPoolBindInfo), 24 + sizeof(int)> __Zenject_MemoryPoolBindInfoSizeCheck;
   static_assert(sizeof(MemoryPoolBindInfo) == 0x1C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Zenject::MemoryPoolBindInfo*, "Zenject", "MemoryPoolBindInfo");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::MemoryPoolBindInfo::get_ExpandMethod
 // Il2CppName: get_ExpandMethod
 template<>

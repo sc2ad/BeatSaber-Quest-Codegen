@@ -3,19 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Reflection.Assembly
 #include "System/Reflection/Assembly.hpp"
 // Completed includes
-// Type namespace: System.Reflection.Emit
-namespace System::Reflection::Emit {
-  // Forward declaring type: AssemblyBuilder
-  class AssemblyBuilder;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Reflection::Emit::AssemblyBuilder);
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Emit::AssemblyBuilder*, "System.Reflection.Emit", "AssemblyBuilder");
 // Type namespace: System.Reflection.Emit
 namespace System::Reflection::Emit {
   // Size: 0x60
@@ -24,7 +16,11 @@ namespace System::Reflection::Emit {
   // [TokenAttribute] Offset: FFFFFFFF
   class AssemblyBuilder : public System::Reflection::Assembly {
     public:
+    // Creating value type constructor for type: AssemblyBuilder
+    AssemblyBuilder() noexcept {}
   }; // System.Reflection.Emit.AssemblyBuilder
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Emit::AssemblyBuilder*, "System.Reflection.Emit", "AssemblyBuilder");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

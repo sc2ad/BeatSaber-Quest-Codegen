@@ -3,19 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Collections.SortedList
 #include "System/Collections/SortedList.hpp"
 // Completed includes
-// Type namespace: System.Collections
-namespace System::Collections {
-  // Forward declaring type: SortedListDebugView
-  class SortedListDebugView;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Collections::SortedList::SortedListDebugView);
-DEFINE_IL2CPP_ARG_TYPE(System::Collections::SortedList::SortedListDebugView*, "System.Collections", "SortedList/SortedListDebugView");
 // Type namespace: System.Collections
 namespace System::Collections {
   // Size: 0x10
@@ -24,7 +16,11 @@ namespace System::Collections {
   // [TokenAttribute] Offset: FFFFFFFF
   class SortedList::SortedListDebugView : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: SortedListDebugView
+    SortedListDebugView() noexcept {}
   }; // System.Collections.SortedList/System.Collections.SortedListDebugView
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Collections::SortedList::SortedListDebugView*, "System.Collections", "SortedList/SortedListDebugView");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

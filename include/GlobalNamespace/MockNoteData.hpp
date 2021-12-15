@@ -3,27 +3,19 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: ColorType
 #include "GlobalNamespace/ColorType.hpp"
 // Including type: NoteCutDirection
 #include "GlobalNamespace/NoteCutDirection.hpp"
 // Including type: NoteLineLayer
 #include "GlobalNamespace/NoteLineLayer.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: MockNoteData
-  class MockNoteData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MockNoteData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockNoteData*, "", "MockNoteData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x28
@@ -32,11 +24,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MockNoteData : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Single <time>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -73,7 +60,8 @@ namespace GlobalNamespace {
     float duration;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
+    // Creating value type constructor for type: MockNoteData
+    MockNoteData(float time_ = {}, int lineIndex_ = {}, GlobalNamespace::ColorType colorType_ = {}, GlobalNamespace::NoteCutDirection cutDirection_ = {}, GlobalNamespace::NoteLineLayer noteLineLayer_ = {}, float duration_ = {}) noexcept : time{time_}, lineIndex{lineIndex_}, colorType{colorType_}, cutDirection{cutDirection_}, noteLineLayer{noteLineLayer_}, duration{duration_} {}
     // Get instance field reference: private System.Single <time>k__BackingField
     float& dyn_$time$k__BackingField();
     // Get instance field reference: private System.Int32 <lineIndex>k__BackingField
@@ -87,46 +75,46 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single <duration>k__BackingField
     float& dyn_$duration$k__BackingField();
     // public System.Single get_time()
-    // Offset: 0x25C9C28
+    // Offset: 0x268FF78
     float get_time();
     // public System.Void set_time(System.Single value)
-    // Offset: 0x25C9C30
+    // Offset: 0x268FF80
     void set_time(float value);
     // public System.Int32 get_lineIndex()
-    // Offset: 0x25C9C38
+    // Offset: 0x268FF88
     int get_lineIndex();
     // public System.Void set_lineIndex(System.Int32 value)
-    // Offset: 0x25C9C40
+    // Offset: 0x268FF90
     void set_lineIndex(int value);
     // public ColorType get_colorType()
-    // Offset: 0x25C9C48
+    // Offset: 0x268FF98
     GlobalNamespace::ColorType get_colorType();
     // public System.Void set_colorType(ColorType value)
-    // Offset: 0x25C9C50
+    // Offset: 0x268FFA0
     void set_colorType(GlobalNamespace::ColorType value);
     // public NoteCutDirection get_cutDirection()
-    // Offset: 0x25C9C58
+    // Offset: 0x268FFA8
     GlobalNamespace::NoteCutDirection get_cutDirection();
     // public System.Void set_cutDirection(NoteCutDirection value)
-    // Offset: 0x25C9C60
+    // Offset: 0x268FFB0
     void set_cutDirection(GlobalNamespace::NoteCutDirection value);
     // public NoteLineLayer get_noteLineLayer()
-    // Offset: 0x25C9C68
+    // Offset: 0x268FFB8
     GlobalNamespace::NoteLineLayer get_noteLineLayer();
     // public System.Void set_noteLineLayer(NoteLineLayer value)
-    // Offset: 0x25C9C70
+    // Offset: 0x268FFC0
     void set_noteLineLayer(GlobalNamespace::NoteLineLayer value);
     // public System.Single get_duration()
-    // Offset: 0x25C9C78
+    // Offset: 0x268FFC8
     float get_duration();
     // public System.Void set_duration(System.Single value)
-    // Offset: 0x25C9C80
+    // Offset: 0x268FFD0
     void set_duration(float value);
     // public System.Void Mirror(System.Int32 lineCount)
-    // Offset: 0x25C9C88
+    // Offset: 0x268FFD8
     void Mirror(int lineCount);
     // public System.Void .ctor()
-    // Offset: 0x25C9CE0
+    // Offset: 0x2690030
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -139,7 +127,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(MockNoteData), 36 + sizeof(float)> __GlobalNamespace_MockNoteDataSizeCheck;
   static_assert(sizeof(MockNoteData) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockNoteData*, "", "MockNoteData");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MockNoteData::get_time
 // Il2CppName: get_time
 template<>

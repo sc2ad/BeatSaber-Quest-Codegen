@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MaterialPropertyValuesSetter
 #include "GlobalNamespace/MaterialPropertyValuesSetter.hpp"
 // Including type: MaterialPropertyValuesSetter/PropertyValuePairBase
 #include "GlobalNamespace/MaterialPropertyValuesSetter_PropertyValuePairBase.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: PropertyNameFloatValuePair
-  class PropertyNameFloatValuePair;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameFloatValuePair);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameFloatValuePair*, "", "MaterialPropertyValuesSetter/PropertyNameFloatValuePair");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -30,18 +22,14 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MaterialPropertyValuesSetter::PropertyNameFloatValuePair : public GlobalNamespace::MaterialPropertyValuesSetter::PropertyValuePairBase {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Single value
     // Size: 0x4
     // Offset: 0x1C
     float value;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
+    // Creating value type constructor for type: PropertyNameFloatValuePair
+    PropertyNameFloatValuePair(float value_ = {}) noexcept : value{value_} {}
     // Creating conversion operator: operator float
     constexpr operator float() const noexcept {
       return value;
@@ -49,7 +37,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single value
     float& dyn_value();
     // public System.Void .ctor()
-    // Offset: 0x1E14790
+    // Offset: 0x1DBA3E8
     // Implemented from: MaterialPropertyValuesSetter/PropertyValuePairBase
     // Base method: System.Void PropertyValuePairBase::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -63,7 +51,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(MaterialPropertyValuesSetter::PropertyNameFloatValuePair), 28 + sizeof(float)> __GlobalNamespace_MaterialPropertyValuesSetter_PropertyNameFloatValuePairSizeCheck;
   static_assert(sizeof(MaterialPropertyValuesSetter::PropertyNameFloatValuePair) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameFloatValuePair*, "", "MaterialPropertyValuesSetter/PropertyNameFloatValuePair");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameFloatValuePair::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

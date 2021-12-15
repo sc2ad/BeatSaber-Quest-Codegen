@@ -3,17 +3,10 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-// Type namespace: System.Threading
-namespace System::Threading {
-  // Forward declaring type: SpinWait
-  struct SpinWait;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::SpinWait, "System.Threading", "SpinWait");
 // Type namespace: System.Threading
 namespace System::Threading {
   // Size: 0x4
@@ -23,18 +16,12 @@ namespace System::Threading {
   // [TokenAttribute] Offset: FFFFFFFF
   struct SpinWait/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Int32 m_count
     // Size: 0x4
     // Offset: 0x0
     int m_count;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: SpinWait
     constexpr SpinWait(int m_count_ = {}) noexcept : m_count{m_count_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -48,20 +35,22 @@ namespace System::Threading {
     // Get instance field reference: private System.Int32 m_count
     int& dyn_m_count();
     // public System.Boolean get_NextSpinWillYield()
-    // Offset: 0x1A4281C
+    // Offset: 0x1A61F3C
     bool get_NextSpinWillYield();
     // public System.Void SpinOnce()
-    // Offset: 0x1A3CB38
+    // Offset: 0x1A5C258
     void SpinOnce();
     // public System.Void Reset()
-    // Offset: 0x1A449F0
+    // Offset: 0x1A64110
     void Reset();
   }; // System.Threading.SpinWait
   #pragma pack(pop)
   static check_size<sizeof(SpinWait), 0 + sizeof(int)> __System_Threading_SpinWaitSizeCheck;
   static_assert(sizeof(SpinWait) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::SpinWait, "System.Threading", "SpinWait");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::SpinWait::get_NextSpinWillYield
 // Il2CppName: get_NextSpinWillYield
 template<>

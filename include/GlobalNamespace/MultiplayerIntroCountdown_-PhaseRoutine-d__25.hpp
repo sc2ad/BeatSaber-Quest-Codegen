@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MultiplayerIntroCountdown
 #include "GlobalNamespace/MultiplayerIntroCountdown.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
 #include "System/Collections/Generic/IEnumerator_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <PhaseRoutine>d__25
-  class $PhaseRoutine$d__25;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MultiplayerIntroCountdown::$PhaseRoutine$d__25);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerIntroCountdown::$PhaseRoutine$d__25*, "", "MultiplayerIntroCountdown/<PhaseRoutine>d__25");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x40
@@ -31,11 +23,6 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class MultiplayerIntroCountdown::$PhaseRoutine$d__25 : public ::Il2CppObject/*, public System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -80,7 +67,8 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerIntroCountdown::$$c__DisplayClass25_0* $$8__1;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerIntroCountdown::$$c__DisplayClass25_0*) == 0x8);
-    public:
+    // Creating value type constructor for type: $PhaseRoutine$d__25
+    $PhaseRoutine$d__25(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, GlobalNamespace::MultiplayerIntroCountdown* $$4__this_ = {}, ::Il2CppString* text_ = {}, float appearDuration_ = {}, float disappearDuration_ = {}, GlobalNamespace::MultiplayerIntroCountdown::$$c__DisplayClass25_0* $$8__1_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$4__this{$$4__this_}, text{text_}, appearDuration{appearDuration_}, disappearDuration{disappearDuration_}, $$8__1{$$8__1_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
@@ -100,33 +88,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private MultiplayerIntroCountdown/<>c__DisplayClass25_0 <>8__1
     GlobalNamespace::MultiplayerIntroCountdown::$$c__DisplayClass25_0*& dyn_$$8__1();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x11BD9F4
+    // Offset: 0x1295D0C
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x11BDA5C
+    // Offset: 0x1295D74
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x11BCCF8
+    // Offset: 0x129501C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerIntroCountdown::$PhaseRoutine$d__25* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerIntroCountdown::$PhaseRoutine$d__25::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerIntroCountdown::$PhaseRoutine$d__25*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x11BD454
+    // Offset: 0x129576C
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x11BD458
+    // Offset: 0x1295770
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x11BD9FC
+    // Offset: 0x1295D14
     void System_Collections_IEnumerator_Reset();
   }; // MultiplayerIntroCountdown/<PhaseRoutine>d__25
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerIntroCountdown::$PhaseRoutine$d__25), 56 + sizeof(GlobalNamespace::MultiplayerIntroCountdown::$$c__DisplayClass25_0*)> __GlobalNamespace_MultiplayerIntroCountdown_$PhaseRoutine$d__25SizeCheck;
   static_assert(sizeof(MultiplayerIntroCountdown::$PhaseRoutine$d__25) == 0x40);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerIntroCountdown::$PhaseRoutine$d__25*, "", "MultiplayerIntroCountdown/<PhaseRoutine>d__25");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerIntroCountdown::$PhaseRoutine$d__25::System_Collections_Generic_IEnumerator$System_Object$_get_Current
 // Il2CppName: System.Collections.Generic.IEnumerator<System.Object>.get_Current
 template<>

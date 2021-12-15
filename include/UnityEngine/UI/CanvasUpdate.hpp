@@ -3,18 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: UnityEngine.UI
-namespace UnityEngine::UI {
-  // Forward declaring type: CanvasUpdate
-  struct CanvasUpdate;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CanvasUpdate, "UnityEngine.UI", "CanvasUpdate");
 // Type namespace: UnityEngine.UI
 namespace UnityEngine::UI {
   // Size: 0x4
@@ -23,18 +16,12 @@ namespace UnityEngine::UI {
   // [TokenAttribute] Offset: FFFFFFFF
   struct CanvasUpdate/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: CanvasUpdate
     constexpr CanvasUpdate(int value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -88,4 +75,6 @@ namespace UnityEngine::UI {
   static check_size<sizeof(CanvasUpdate), 0 + sizeof(int)> __UnityEngine_UI_CanvasUpdateSizeCheck;
   static_assert(sizeof(CanvasUpdate) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CanvasUpdate, "UnityEngine.UI", "CanvasUpdate");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

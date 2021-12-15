@@ -3,17 +3,9 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: System.Collections.Generic
-namespace System::Collections::Generic {
-  // Forward declaring type: IntrospectiveSortUtilities
-  class IntrospectiveSortUtilities;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Collections::Generic::IntrospectiveSortUtilities);
-DEFINE_IL2CPP_ARG_TYPE(System::Collections::Generic::IntrospectiveSortUtilities*, "System.Collections.Generic", "IntrospectiveSortUtilities");
 // Type namespace: System.Collections.Generic
 namespace System::Collections::Generic {
   // Size: 0x10
@@ -22,16 +14,20 @@ namespace System::Collections::Generic {
   // [TokenAttribute] Offset: FFFFFFFF
   class IntrospectiveSortUtilities : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: IntrospectiveSortUtilities
+    IntrospectiveSortUtilities() noexcept {}
     // static System.Int32 FloorLog2(System.Int32 n)
-    // Offset: 0x1971A90
+    // Offset: 0x1990140
     static int FloorLog2(int n);
     // static System.Void ThrowOrIgnoreBadComparer(System.Object comparer)
-    // Offset: 0x1971BF0
+    // Offset: 0x19902A0
     static void ThrowOrIgnoreBadComparer(::Il2CppObject* comparer);
   }; // System.Collections.Generic.IntrospectiveSortUtilities
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Collections::Generic::IntrospectiveSortUtilities*, "System.Collections.Generic", "IntrospectiveSortUtilities");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::Generic::IntrospectiveSortUtilities::FloorLog2
 // Il2CppName: FloorLog2
 template<>

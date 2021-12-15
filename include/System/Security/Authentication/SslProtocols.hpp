@@ -3,18 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: System.Security.Authentication
-namespace System::Security::Authentication {
-  // Forward declaring type: SslProtocols
-  struct SslProtocols;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Security::Authentication::SslProtocols, "System.Security.Authentication", "SslProtocols");
 // Type namespace: System.Security.Authentication
 namespace System::Security::Authentication {
   // Size: 0x4
@@ -24,18 +17,12 @@ namespace System::Security::Authentication {
   // [FlagsAttribute] Offset: FFFFFFFF
   struct SslProtocols/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: SslProtocols
     constexpr SslProtocols(int value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -70,14 +57,14 @@ namespace System::Security::Authentication {
     static System::Security::Authentication::SslProtocols _get_Tls();
     // Set static field: static public System.Security.Authentication.SslProtocols Tls
     static void _set_Tls(System::Security::Authentication::SslProtocols value);
-    // [MonoTODOAttribute] Offset: 0xE6CF7C
+    // [MonoTODOAttribute] Offset: 0xEABB8C
     // static field const value: static public System.Security.Authentication.SslProtocols Tls11
     static constexpr const int Tls11 = 768;
     // Get static field: static public System.Security.Authentication.SslProtocols Tls11
     static System::Security::Authentication::SslProtocols _get_Tls11();
     // Set static field: static public System.Security.Authentication.SslProtocols Tls11
     static void _set_Tls11(System::Security::Authentication::SslProtocols value);
-    // [MonoTODOAttribute] Offset: 0xE6CFB4
+    // [MonoTODOAttribute] Offset: 0xEABBC4
     // static field const value: static public System.Security.Authentication.SslProtocols Tls12
     static constexpr const int Tls12 = 3072;
     // Get static field: static public System.Security.Authentication.SslProtocols Tls12
@@ -97,4 +84,6 @@ namespace System::Security::Authentication {
   static check_size<sizeof(SslProtocols), 0 + sizeof(int)> __System_Security_Authentication_SslProtocolsSizeCheck;
   static_assert(sizeof(SslProtocols) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Authentication::SslProtocols, "System.Security.Authentication", "SslProtocols");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

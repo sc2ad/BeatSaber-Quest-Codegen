@@ -3,27 +3,19 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Networking.PlayerConnection.PlayerConnection
 #include "UnityEngine/Networking/PlayerConnection/PlayerConnection.hpp"
 // Including type: System.Guid
 #include "System/Guid.hpp"
 // Including type: UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents
 #include "UnityEngine/Networking/PlayerConnection/PlayerEditorConnectionEvents.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: UnityEngine.Networking.PlayerConnection
-namespace UnityEngine::Networking::PlayerConnection {
-  // Forward declaring type: <>c__DisplayClass12_0
-  class $$c__DisplayClass12_0;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Networking::PlayerConnection::PlayerConnection::$$c__DisplayClass12_0);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::PlayerConnection::PlayerConnection::$$c__DisplayClass12_0*, "UnityEngine.Networking.PlayerConnection", "PlayerConnection/<>c__DisplayClass12_0");
 // Type namespace: UnityEngine.Networking.PlayerConnection
 namespace UnityEngine::Networking::PlayerConnection {
   // Size: 0x20
@@ -33,18 +25,14 @@ namespace UnityEngine::Networking::PlayerConnection {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class PlayerConnection::$$c__DisplayClass12_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Guid messageId
     // Size: 0x10
     // Offset: 0x10
     System::Guid messageId;
     // Field size check
     static_assert(sizeof(System::Guid) == 0x10);
-    public:
+    // Creating value type constructor for type: $$c__DisplayClass12_0
+    $$c__DisplayClass12_0(System::Guid messageId_ = {}) noexcept : messageId{messageId_} {}
     // Creating conversion operator: operator System::Guid
     constexpr operator System::Guid() const noexcept {
       return messageId;
@@ -52,10 +40,10 @@ namespace UnityEngine::Networking::PlayerConnection {
     // Get instance field reference: public System.Guid messageId
     System::Guid& dyn_messageId();
     // System.Boolean <Register>b__0(UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/UnityEngine.Networking.PlayerConnection.MessageTypeSubscribers x)
-    // Offset: 0x1D96278
+    // Offset: 0x1DA824C
     bool $Register$b__0(UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::MessageTypeSubscribers* x);
     // public System.Void .ctor()
-    // Offset: 0x1D94F0C
+    // Offset: 0x1DA6EE0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -68,7 +56,8 @@ namespace UnityEngine::Networking::PlayerConnection {
   static check_size<sizeof(PlayerConnection::$$c__DisplayClass12_0), 16 + sizeof(System::Guid)> __UnityEngine_Networking_PlayerConnection_PlayerConnection_$$c__DisplayClass12_0SizeCheck;
   static_assert(sizeof(PlayerConnection::$$c__DisplayClass12_0) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::PlayerConnection::PlayerConnection::$$c__DisplayClass12_0*, "UnityEngine.Networking.PlayerConnection", "PlayerConnection/<>c__DisplayClass12_0");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Networking::PlayerConnection::PlayerConnection::$$c__DisplayClass12_0::$Register$b__0
 // Il2CppName: <Register>b__0
 template<>

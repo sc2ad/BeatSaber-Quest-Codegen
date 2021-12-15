@@ -3,27 +3,19 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BeatmapDifficultyMask
 #include "GlobalNamespace/BeatmapDifficultyMask.hpp"
 // Including type: GameplayModifierMask
 #include "GlobalNamespace/GameplayModifierMask.hpp"
 // Including type: SongPackMask
 #include "GlobalNamespace/SongPackMask.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: GameServersFilter
-  class GameServersFilter;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::GameServersFilter);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServersFilter*, "", "GameServersFilter");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x2B
@@ -32,11 +24,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GameServersFilter : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Boolean filterByDifficulty
     // Size: 0x1
     // Offset: 0x10
@@ -95,7 +82,8 @@ namespace GlobalNamespace {
     bool showInternetGames;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: GameServersFilter
+    GameServersFilter(bool filterByDifficulty_ = {}, GlobalNamespace::BeatmapDifficultyMask filteredDifficulty_ = {}, bool filterByModifiers_ = {}, GlobalNamespace::GameplayModifierMask filteredModifiers_ = {}, bool filterBySongPacks_ = {}, GlobalNamespace::SongPackMask filteredSongPacks_ = {}, bool showFull_ = {}, bool showProtected_ = {}, bool showInternetGames_ = {}) noexcept : filterByDifficulty{filterByDifficulty_}, filteredDifficulty{filteredDifficulty_}, filterByModifiers{filterByModifiers_}, filteredModifiers{filteredModifiers_}, filterBySongPacks{filterBySongPacks_}, filteredSongPacks{filteredSongPacks_}, showFull{showFull_}, showProtected{showProtected_}, showInternetGames{showInternetGames_} {}
     // Get instance field reference: public System.Boolean filterByDifficulty
     bool& dyn_filterByDifficulty();
     // Get instance field reference: public BeatmapDifficultyMask filteredDifficulty
@@ -115,7 +103,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean showInternetGames
     bool& dyn_showInternetGames();
     // public System.Void .ctor()
-    // Offset: 0x11B3ED8
+    // Offset: 0x11F8088
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -128,7 +116,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(GameServersFilter), 42 + sizeof(bool)> __GlobalNamespace_GameServersFilterSizeCheck;
   static_assert(sizeof(GameServersFilter) == 0x2B);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServersFilter*, "", "GameServersFilter");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameServersFilter::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

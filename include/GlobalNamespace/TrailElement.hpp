@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: TrailElement
-  class TrailElement;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::TrailElement);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrailElement*, "", "TrailElement");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x30
@@ -28,11 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TrailElement : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private UnityEngine.Vector3 <position>k__BackingField
     // Size: 0xC
     // Offset: 0x10
@@ -57,7 +44,8 @@ namespace GlobalNamespace {
     float time;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
+    // Creating value type constructor for type: TrailElement
+    TrailElement(UnityEngine::Vector3 position_ = {}, UnityEngine::Vector3 normal_ = {}, float distance_ = {}, float time_ = {}) noexcept : position{position_}, normal{normal_}, distance{distance_}, time{time_} {}
     // Get instance field reference: private UnityEngine.Vector3 <position>k__BackingField
     UnityEngine::Vector3& dyn_$position$k__BackingField();
     // Get instance field reference: private UnityEngine.Vector3 <normal>k__BackingField
@@ -67,37 +55,37 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single <time>k__BackingField
     float& dyn_$time$k__BackingField();
     // public UnityEngine.Vector3 get_position()
-    // Offset: 0x115F26C
+    // Offset: 0x1205138
     UnityEngine::Vector3 get_position();
     // private System.Void set_position(UnityEngine.Vector3 value)
-    // Offset: 0x115F278
+    // Offset: 0x1205144
     void set_position(UnityEngine::Vector3 value);
     // public UnityEngine.Vector3 get_normal()
-    // Offset: 0x115F284
+    // Offset: 0x1205150
     UnityEngine::Vector3 get_normal();
     // private System.Void set_normal(UnityEngine.Vector3 value)
-    // Offset: 0x115F290
+    // Offset: 0x120515C
     void set_normal(UnityEngine::Vector3 value);
     // public System.Single get_distance()
-    // Offset: 0x115F29C
+    // Offset: 0x1205168
     float get_distance();
     // private System.Void set_distance(System.Single value)
-    // Offset: 0x115F2A4
+    // Offset: 0x1205170
     void set_distance(float value);
     // public System.Single get_time()
-    // Offset: 0x115F2AC
+    // Offset: 0x1205178
     float get_time();
     // private System.Void set_time(System.Single value)
-    // Offset: 0x115F2B4
+    // Offset: 0x1205180
     void set_time(float value);
     // public System.Void SetData(UnityEngine.Vector3 start, UnityEngine.Vector3 end, System.Single time)
-    // Offset: 0x115F2BC
+    // Offset: 0x1205188
     void SetData(UnityEngine::Vector3 start, UnityEngine::Vector3 end, float time);
     // public System.Void SetDistance(System.Single value)
-    // Offset: 0x115F3BC
+    // Offset: 0x1205288
     void SetDistance(float value);
     // public System.Void .ctor()
-    // Offset: 0x115F3C4
+    // Offset: 0x1205290
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -110,7 +98,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(TrailElement), 44 + sizeof(float)> __GlobalNamespace_TrailElementSizeCheck;
   static_assert(sizeof(TrailElement) == 0x30);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrailElement*, "", "TrailElement");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TrailElement::get_position
 // Il2CppName: get_position
 template<>

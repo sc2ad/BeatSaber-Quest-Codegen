@@ -3,20 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Experimental.XR.Boundary
 #include "UnityEngine/Experimental/XR/Boundary.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: UnityEngine.Experimental.XR
-namespace UnityEngine::Experimental::XR {
-  // Forward declaring type: Type
-  struct Type;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::XR::Boundary::Type, "UnityEngine.Experimental.XR", "Boundary/Type");
 // Type namespace: UnityEngine.Experimental.XR
 namespace UnityEngine::Experimental::XR {
   // Size: 0x4
@@ -25,18 +18,12 @@ namespace UnityEngine::Experimental::XR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Boundary::Type/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: Type
     constexpr Type(int value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -66,4 +53,6 @@ namespace UnityEngine::Experimental::XR {
   static check_size<sizeof(Boundary::Type), 0 + sizeof(int)> __UnityEngine_Experimental_XR_Boundary_TypeSizeCheck;
   static_assert(sizeof(Boundary::Type) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::XR::Boundary::Type, "UnityEngine.Experimental.XR", "Boundary/Type");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

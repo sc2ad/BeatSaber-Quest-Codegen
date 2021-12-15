@@ -3,21 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: TMPro
-namespace TMPro {
-  // Forward declaring type: TMP_TextElement_Legacy
-  class TMP_TextElement_Legacy;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(TMPro::TMP_TextElement_Legacy);
-DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_TextElement_Legacy*, "TMPro", "TMP_TextElement_Legacy");
 // Type namespace: TMPro
 namespace TMPro {
   // Size: 0x34
@@ -26,11 +18,6 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class TMP_TextElement_Legacy : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 id
     // Size: 0x4
     // Offset: 0x10
@@ -85,7 +72,8 @@ namespace TMPro {
     float scale;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
+    // Creating value type constructor for type: TMP_TextElement_Legacy
+    TMP_TextElement_Legacy(int id_ = {}, float x_ = {}, float y_ = {}, float width_ = {}, float height_ = {}, float xOffset_ = {}, float yOffset_ = {}, float xAdvance_ = {}, float scale_ = {}) noexcept : id{id_}, x{x_}, y{y_}, width{width_}, height{height_}, xOffset{xOffset_}, yOffset{yOffset_}, xAdvance{xAdvance_}, scale{scale_} {}
     // Get instance field reference: public System.Int32 id
     int& dyn_id();
     // Get instance field reference: public System.Single x
@@ -105,7 +93,7 @@ namespace TMPro {
     // Get instance field reference: public System.Single scale
     float& dyn_scale();
     // public System.Void .ctor()
-    // Offset: 0x15A3B38
+    // Offset: 0x1631E2C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -118,7 +106,8 @@ namespace TMPro {
   static check_size<sizeof(TMP_TextElement_Legacy), 48 + sizeof(float)> __TMPro_TMP_TextElement_LegacySizeCheck;
   static_assert(sizeof(TMP_TextElement_Legacy) == 0x34);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_TextElement_Legacy*, "TMPro", "TMP_TextElement_Legacy");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_TextElement_Legacy::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

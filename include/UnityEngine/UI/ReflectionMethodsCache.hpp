@@ -3,26 +3,18 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::UI
 namespace UnityEngine::UI {
 }
 // Completed forward declares
-// Type namespace: UnityEngine.UI
-namespace UnityEngine::UI {
-  // Forward declaring type: ReflectionMethodsCache
-  class ReflectionMethodsCache;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::UI::ReflectionMethodsCache);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ReflectionMethodsCache*, "UnityEngine.UI", "ReflectionMethodsCache");
 // Type namespace: UnityEngine.UI
 namespace UnityEngine::UI {
   // Size: 0x40
@@ -43,11 +35,6 @@ namespace UnityEngine::UI {
     class GetRayIntersectionAllCallback;
     // Nested type: UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback
     class GetRayIntersectionAllNonAllocCallback;
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public UnityEngine.UI.ReflectionMethodsCache/UnityEngine.UI.Raycast3DCallback raycast3D
     // Size: 0x8
     // Offset: 0x10
@@ -84,7 +71,8 @@ namespace UnityEngine::UI {
     UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback* getRayIntersectionAllNonAlloc;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback*) == 0x8);
-    public:
+    // Creating value type constructor for type: ReflectionMethodsCache
+    ReflectionMethodsCache(UnityEngine::UI::ReflectionMethodsCache::Raycast3DCallback* raycast3D_ = {}, UnityEngine::UI::ReflectionMethodsCache::RaycastAllCallback* raycast3DAll_ = {}, UnityEngine::UI::ReflectionMethodsCache::GetRaycastNonAllocCallback* getRaycastNonAlloc_ = {}, UnityEngine::UI::ReflectionMethodsCache::Raycast2DCallback* raycast2D_ = {}, UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllCallback* getRayIntersectionAll_ = {}, UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback* getRayIntersectionAllNonAlloc_ = {}) noexcept : raycast3D{raycast3D_}, raycast3DAll{raycast3DAll_}, getRaycastNonAlloc{getRaycastNonAlloc_}, raycast2D{raycast2D_}, getRayIntersectionAll{getRayIntersectionAll_}, getRayIntersectionAllNonAlloc{getRayIntersectionAllNonAlloc_} {}
     // Get static field: static private UnityEngine.UI.ReflectionMethodsCache s_ReflectionMethodsCache
     static UnityEngine::UI::ReflectionMethodsCache* _get_s_ReflectionMethodsCache();
     // Set static field: static private UnityEngine.UI.ReflectionMethodsCache s_ReflectionMethodsCache
@@ -102,13 +90,13 @@ namespace UnityEngine::UI {
     // Get instance field reference: public UnityEngine.UI.ReflectionMethodsCache/UnityEngine.UI.GetRayIntersectionAllNonAllocCallback getRayIntersectionAllNonAlloc
     UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback*& dyn_getRayIntersectionAllNonAlloc();
     // static public UnityEngine.UI.ReflectionMethodsCache get_Singleton()
-    // Offset: 0x1B35218
+    // Offset: 0x1BAFB28
     static UnityEngine::UI::ReflectionMethodsCache* get_Singleton();
     // static private System.Void .cctor()
-    // Offset: 0x1B352D8
+    // Offset: 0x1BAFBE8
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1B3472C
+    // Offset: 0x1BAF03C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -121,7 +109,8 @@ namespace UnityEngine::UI {
   static check_size<sizeof(ReflectionMethodsCache), 56 + sizeof(UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback*)> __UnityEngine_UI_ReflectionMethodsCacheSizeCheck;
   static_assert(sizeof(ReflectionMethodsCache) == 0x40);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ReflectionMethodsCache*, "UnityEngine.UI", "ReflectionMethodsCache");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::ReflectionMethodsCache::get_Singleton
 // Il2CppName: get_Singleton
 template<>

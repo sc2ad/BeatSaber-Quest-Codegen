@@ -3,17 +3,9 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: StringExtensions
-  class StringExtensions;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::StringExtensions);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StringExtensions*, "", "StringExtensions");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -23,13 +15,17 @@ namespace GlobalNamespace {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class StringExtensions : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: StringExtensions
+    StringExtensions() noexcept {}
     // static public System.String Truncate(System.String s, System.Int32 length, System.Boolean appendEllipsis)
-    // Offset: 0x257F99C
+    // Offset: 0x2641234
     static ::Il2CppString* Truncate(::Il2CppString* s, int length, bool appendEllipsis);
   }; // StringExtensions
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StringExtensions*, "", "StringExtensions");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::StringExtensions::Truncate
 // Il2CppName: Truncate
 template<>

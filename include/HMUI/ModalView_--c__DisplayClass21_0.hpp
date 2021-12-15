@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.ModalView
 #include "HMUI/ModalView.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: HMUI
-namespace HMUI {
-  // Forward declaring type: <>c__DisplayClass21_0
-  class $$c__DisplayClass21_0;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HMUI::ModalView::$$c__DisplayClass21_0);
-DEFINE_IL2CPP_ARG_TYPE(HMUI::ModalView::$$c__DisplayClass21_0*, "HMUI", "ModalView/<>c__DisplayClass21_0");
 // Type namespace: HMUI
 namespace HMUI {
   // Size: 0x19
@@ -29,11 +21,6 @@ namespace HMUI {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class ModalView::$$c__DisplayClass21_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public HMUI.ModalView <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -46,16 +33,17 @@ namespace HMUI {
     bool prevAnimateParentCanvas;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: $$c__DisplayClass21_0
+    $$c__DisplayClass21_0(HMUI::ModalView* $$4__this_ = {}, bool prevAnimateParentCanvas_ = {}) noexcept : $$4__this{$$4__this_}, prevAnimateParentCanvas{prevAnimateParentCanvas_} {}
     // Get instance field reference: public HMUI.ModalView <>4__this
     HMUI::ModalView*& dyn_$$4__this();
     // Get instance field reference: public System.Boolean prevAnimateParentCanvas
     bool& dyn_prevAnimateParentCanvas();
     // System.Void <HandleParentViewControllerDidDeactivate>b__0()
-    // Offset: 0x13F626C
+    // Offset: 0x14C4C04
     void $HandleParentViewControllerDidDeactivate$b__0();
     // public System.Void .ctor()
-    // Offset: 0x13F61D0
+    // Offset: 0x14C4B68
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -68,7 +56,8 @@ namespace HMUI {
   static check_size<sizeof(ModalView::$$c__DisplayClass21_0), 24 + sizeof(bool)> __HMUI_ModalView_$$c__DisplayClass21_0SizeCheck;
   static_assert(sizeof(ModalView::$$c__DisplayClass21_0) == 0x19);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HMUI::ModalView::$$c__DisplayClass21_0*, "HMUI", "ModalView/<>c__DisplayClass21_0");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::ModalView::$$c__DisplayClass21_0::$HandleParentViewControllerDidDeactivate$b__0
 // Il2CppName: <HandleParentViewControllerDidDeactivate>b__0
 template<>

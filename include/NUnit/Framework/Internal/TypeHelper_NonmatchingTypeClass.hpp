@@ -3,19 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: NUnit.Framework.Internal.TypeHelper
 #include "NUnit/Framework/Internal/TypeHelper.hpp"
 // Completed includes
-// Type namespace: NUnit.Framework.Internal
-namespace NUnit::Framework::Internal {
-  // Forward declaring type: NonmatchingTypeClass
-  class NonmatchingTypeClass;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(NUnit::Framework::Internal::TypeHelper::NonmatchingTypeClass);
-DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TypeHelper::NonmatchingTypeClass*, "NUnit.Framework.Internal", "TypeHelper/NonmatchingTypeClass");
 // Type namespace: NUnit.Framework.Internal
 namespace NUnit::Framework::Internal {
   // Size: 0x10
@@ -24,7 +16,11 @@ namespace NUnit::Framework::Internal {
   // [TokenAttribute] Offset: FFFFFFFF
   class TypeHelper::NonmatchingTypeClass : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: NonmatchingTypeClass
+    NonmatchingTypeClass() noexcept {}
   }; // NUnit.Framework.Internal.TypeHelper/NUnit.Framework.Internal.NonmatchingTypeClass
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TypeHelper::NonmatchingTypeClass*, "NUnit.Framework.Internal", "TypeHelper/NonmatchingTypeClass");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Oculus.Platform.Models
-namespace Oculus::Platform::Models {
-  // Forward declaring type: AssetFileDeleteResult
-  class AssetFileDeleteResult;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Models::AssetFileDeleteResult);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::AssetFileDeleteResult*, "Oculus.Platform.Models", "AssetFileDeleteResult");
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
   // Size: 0x29
@@ -28,11 +20,6 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class AssetFileDeleteResult : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public readonly System.UInt64 AssetFileId
     // Size: 0x8
     // Offset: 0x10
@@ -57,7 +44,8 @@ namespace Oculus::Platform::Models {
     bool Success;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: AssetFileDeleteResult
+    AssetFileDeleteResult(uint64_t AssetFileId_ = {}, uint64_t AssetId_ = {}, ::Il2CppString* Filepath_ = {}, bool Success_ = {}) noexcept : AssetFileId{AssetFileId_}, AssetId{AssetId_}, Filepath{Filepath_}, Success{Success_} {}
     // Get instance field reference: public readonly System.UInt64 AssetFileId
     uint64_t& dyn_AssetFileId();
     // Get instance field reference: public readonly System.UInt64 AssetId
@@ -67,7 +55,7 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly System.Boolean Success
     bool& dyn_Success();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x169A1AC
+    // Offset: 0x17575C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssetFileDeleteResult* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::AssetFileDeleteResult::.ctor");
@@ -78,7 +66,8 @@ namespace Oculus::Platform::Models {
   static check_size<sizeof(AssetFileDeleteResult), 40 + sizeof(bool)> __Oculus_Platform_Models_AssetFileDeleteResultSizeCheck;
   static_assert(sizeof(AssetFileDeleteResult) == 0x29);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::AssetFileDeleteResult*, "Oculus.Platform.Models", "AssetFileDeleteResult");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::AssetFileDeleteResult::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

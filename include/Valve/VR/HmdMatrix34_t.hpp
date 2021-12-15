@@ -3,17 +3,10 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-// Type namespace: Valve.VR
-namespace Valve::VR {
-  // Forward declaring type: HmdMatrix34_t
-  struct HmdMatrix34_t;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::HmdMatrix34_t, "Valve.VR", "HmdMatrix34_t");
 // Type namespace: Valve.VR
 namespace Valve::VR {
   // Size: 0x30
@@ -23,11 +16,6 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HmdMatrix34_t/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Single m0
     // Size: 0x4
     // Offset: 0x0
@@ -100,7 +88,6 @@ namespace Valve::VR {
     float m11;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
     // Creating value type constructor for type: HmdMatrix34_t
     constexpr HmdMatrix34_t(float m0_ = {}, float m1_ = {}, float m2_ = {}, float m3_ = {}, float m4_ = {}, float m5_ = {}, float m6_ = {}, float m7_ = {}, float m8_ = {}, float m9_ = {}, float m10_ = {}, float m11_ = {}) noexcept : m0{m0_}, m1{m1_}, m2{m2_}, m3{m3_}, m4{m4_}, m5{m5_}, m6{m6_}, m7{m7_}, m8{m8_}, m9{m9_}, m10{m10_}, m11{m11_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -136,4 +123,6 @@ namespace Valve::VR {
   static check_size<sizeof(HmdMatrix34_t), 44 + sizeof(float)> __Valve_VR_HmdMatrix34_tSizeCheck;
   static_assert(sizeof(HmdMatrix34_t) == 0x30);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::HmdMatrix34_t, "Valve.VR", "HmdMatrix34_t");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

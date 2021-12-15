@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HoudiniEngineUnity.IEquivable`1
 #include "HoudiniEngineUnity/IEquivable_1.hpp"
 // Including type: HoudiniEngineUnity.HAPI_AttributeInfo
 #include "HoudiniEngineUnity/HAPI_AttributeInfo.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: HoudiniEngineUnity
-namespace HoudiniEngineUnity {
-  // Forward declaring type: Test_HAPI_AttributeInfo
-  class Test_HAPI_AttributeInfo;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::Test_HAPI_AttributeInfo);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::Test_HAPI_AttributeInfo*, "HoudiniEngineUnity", "Test_HAPI_AttributeInfo");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x34
@@ -30,18 +22,14 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class Test_HAPI_AttributeInfo : public ::Il2CppObject/*, public HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::Test_HAPI_AttributeInfo*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public HoudiniEngineUnity.HAPI_AttributeInfo self
     // Size: 0x24
     // Offset: 0x10
     HoudiniEngineUnity::HAPI_AttributeInfo self;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::HAPI_AttributeInfo) == 0x24);
-    public:
+    // Creating value type constructor for type: Test_HAPI_AttributeInfo
+    Test_HAPI_AttributeInfo(HoudiniEngineUnity::HAPI_AttributeInfo self_ = {}) noexcept : self{self_} {}
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::Test_HAPI_AttributeInfo*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::Test_HAPI_AttributeInfo*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::Test_HAPI_AttributeInfo*>*>(this);
@@ -53,21 +41,22 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public HoudiniEngineUnity.HAPI_AttributeInfo self
     HoudiniEngineUnity::HAPI_AttributeInfo& dyn_self();
     // public System.Void .ctor(HoudiniEngineUnity.HAPI_AttributeInfo self)
-    // Offset: 0x16EDF80
+    // Offset: 0x178FE3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test_HAPI_AttributeInfo* New_ctor(HoudiniEngineUnity::HAPI_AttributeInfo self) {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::Test_HAPI_AttributeInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test_HAPI_AttributeInfo*, creationType>(self)));
     }
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.Test_HAPI_AttributeInfo other)
-    // Offset: 0x16EDFB8
+    // Offset: 0x178FE74
     bool IsEquivalentTo(HoudiniEngineUnity::Test_HAPI_AttributeInfo* other);
   }; // HoudiniEngineUnity.Test_HAPI_AttributeInfo
   #pragma pack(pop)
   static check_size<sizeof(Test_HAPI_AttributeInfo), 16 + sizeof(HoudiniEngineUnity::HAPI_AttributeInfo)> __HoudiniEngineUnity_Test_HAPI_AttributeInfoSizeCheck;
   static_assert(sizeof(Test_HAPI_AttributeInfo) == 0x34);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::Test_HAPI_AttributeInfo*, "HoudiniEngineUnity", "Test_HAPI_AttributeInfo");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::Test_HAPI_AttributeInfo::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

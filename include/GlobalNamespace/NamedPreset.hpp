@@ -3,21 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: NamedPreset
-  class NamedPreset;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::NamedPreset);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NamedPreset*, "", "NamedPreset");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x18
@@ -26,19 +18,15 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class NamedPreset : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
-    // [LocalizationKeyAttribute] Offset: 0xF0264C
+    // [LocalizationKeyAttribute] Offset: 0xF378B0
     // private System.String _presetNameLocalizationKey
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppString* presetNameLocalizationKey;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: NamedPreset
+    NamedPreset(::Il2CppString* presetNameLocalizationKey_ = {}) noexcept : presetNameLocalizationKey{presetNameLocalizationKey_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return presetNameLocalizationKey;
@@ -46,10 +34,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String _presetNameLocalizationKey
     ::Il2CppString*& dyn__presetNameLocalizationKey();
     // public System.String get_presetNameLocalizationKey()
-    // Offset: 0x111DEDC
+    // Offset: 0x117D7A4
     ::Il2CppString* get_presetNameLocalizationKey();
     // public System.Void .ctor()
-    // Offset: 0x111DEE4
+    // Offset: 0x117D7AC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -62,7 +50,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(NamedPreset), 16 + sizeof(::Il2CppString*)> __GlobalNamespace_NamedPresetSizeCheck;
   static_assert(sizeof(NamedPreset) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NamedPreset*, "", "NamedPreset");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NamedPreset::get_presetNameLocalizationKey
 // Il2CppName: get_presetNameLocalizationKey
 template<>

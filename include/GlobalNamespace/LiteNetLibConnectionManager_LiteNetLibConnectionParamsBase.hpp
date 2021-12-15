@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LiteNetLibConnectionManager
 #include "GlobalNamespace/LiteNetLibConnectionManager.hpp"
 // Including type: IConnectionInitParams`1
 #include "GlobalNamespace/IConnectionInitParams_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: LiteNetLibConnectionParamsBase
-  class LiteNetLibConnectionParamsBase;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::LiteNetLibConnectionManager::LiteNetLibConnectionParamsBase);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LiteNetLibConnectionManager::LiteNetLibConnectionParamsBase*, "", "LiteNetLibConnectionManager/LiteNetLibConnectionParamsBase");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x34
@@ -30,11 +22,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LiteNetLibConnectionManager::LiteNetLibConnectionParamsBase : public ::Il2CppObject/*, public GlobalNamespace::IConnectionInitParams_1<GlobalNamespace::LiteNetLibConnectionManager*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.String userId
     // Size: 0x8
     // Offset: 0x10
@@ -89,7 +76,8 @@ namespace GlobalNamespace {
     int disconnectTimeoutMs;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
+    // Creating value type constructor for type: LiteNetLibConnectionParamsBase
+    LiteNetLibConnectionParamsBase(::Il2CppString* userId_ = {}, ::Il2CppString* userName_ = {}, ::Il2CppString* secret_ = {}, int port_ = {}, bool filterUnencryptedTraffic_ = {}, bool enableUnconnectedMessages_ = {}, bool enableBackgroundSentry_ = {}, bool enableStatistics_ = {}, int disconnectTimeoutMs_ = {}) noexcept : userId{userId_}, userName{userName_}, secret{secret_}, port{port_}, filterUnencryptedTraffic{filterUnencryptedTraffic_}, enableUnconnectedMessages{enableUnconnectedMessages_}, enableBackgroundSentry{enableBackgroundSentry_}, enableStatistics{enableStatistics_}, disconnectTimeoutMs{disconnectTimeoutMs_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IConnectionInitParams_1<GlobalNamespace::LiteNetLibConnectionManager*>
     operator GlobalNamespace::IConnectionInitParams_1<GlobalNamespace::LiteNetLibConnectionManager*>() noexcept {
       return *reinterpret_cast<GlobalNamespace::IConnectionInitParams_1<GlobalNamespace::LiteNetLibConnectionManager*>*>(this);
@@ -113,7 +101,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 disconnectTimeoutMs
     int& dyn_disconnectTimeoutMs();
     // protected System.Void .ctor()
-    // Offset: 0x1442D5C
+    // Offset: 0x156E5A4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -126,7 +114,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(LiteNetLibConnectionManager::LiteNetLibConnectionParamsBase), 48 + sizeof(int)> __GlobalNamespace_LiteNetLibConnectionManager_LiteNetLibConnectionParamsBaseSizeCheck;
   static_assert(sizeof(LiteNetLibConnectionManager::LiteNetLibConnectionParamsBase) == 0x34);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LiteNetLibConnectionManager::LiteNetLibConnectionParamsBase*, "", "LiteNetLibConnectionManager/LiteNetLibConnectionParamsBase");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::LiteNetLibConnectionParamsBase::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

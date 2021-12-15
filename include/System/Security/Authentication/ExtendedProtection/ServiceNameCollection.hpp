@@ -3,19 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Collections.ReadOnlyCollectionBase
 #include "System/Collections/ReadOnlyCollectionBase.hpp"
 // Completed includes
-// Type namespace: System.Security.Authentication.ExtendedProtection
-namespace System::Security::Authentication::ExtendedProtection {
-  // Forward declaring type: ServiceNameCollection
-  class ServiceNameCollection;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Security::Authentication::ExtendedProtection::ServiceNameCollection);
-DEFINE_IL2CPP_ARG_TYPE(System::Security::Authentication::ExtendedProtection::ServiceNameCollection*, "System.Security.Authentication.ExtendedProtection", "ServiceNameCollection");
 // Type namespace: System.Security.Authentication.ExtendedProtection
 namespace System::Security::Authentication::ExtendedProtection {
   // Size: 0x18
@@ -24,7 +16,11 @@ namespace System::Security::Authentication::ExtendedProtection {
   // [TokenAttribute] Offset: FFFFFFFF
   class ServiceNameCollection : public System::Collections::ReadOnlyCollectionBase {
     public:
+    // Creating value type constructor for type: ServiceNameCollection
+    ServiceNameCollection() noexcept {}
   }; // System.Security.Authentication.ExtendedProtection.ServiceNameCollection
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Authentication::ExtendedProtection::ServiceNameCollection*, "System.Security.Authentication.ExtendedProtection", "ServiceNameCollection");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -3,7 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: SongPackMask
 #include "GlobalNamespace/SongPackMask.hpp"
 // Completed includes
@@ -22,17 +23,6 @@ namespace System::Collections::Generic {
   class Dictionary_2;
 }
 // Completed forward declares
-// Begin il2cpp-utils forward declares
-struct Il2CppString;
-// Completed il2cpp-utils forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: IServerBeatmapProvider
-  class IServerBeatmapProvider;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::IServerBeatmapProvider);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IServerBeatmapProvider*, "", "IServerBeatmapProvider");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -41,6 +31,8 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IServerBeatmapProvider {
     public:
+    // Creating value type constructor for type: IServerBeatmapProvider
+    IServerBeatmapProvider() noexcept {}
     // public System.Boolean VerifyBeatmapForSelectionMask(BeatmapIdentifierNetSerializable beatmapId, BeatmapLevelSelectionMask selectionMask)
     // Offset: 0xFFFFFFFF
     bool VerifyBeatmapForSelectionMask(GlobalNamespace::BeatmapIdentifierNetSerializable* beatmapId, GlobalNamespace::BeatmapLevelSelectionMask selectionMask);
@@ -50,7 +42,9 @@ namespace GlobalNamespace {
   }; // IServerBeatmapProvider
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IServerBeatmapProvider*, "", "IServerBeatmapProvider");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::IServerBeatmapProvider::VerifyBeatmapForSelectionMask
 // Il2CppName: VerifyBeatmapForSelectionMask
 template<>

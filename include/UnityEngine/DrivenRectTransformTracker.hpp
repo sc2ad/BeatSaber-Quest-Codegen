@@ -3,7 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
@@ -20,13 +20,6 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
-  // Forward declaring type: DrivenRectTransformTracker
-  struct DrivenRectTransformTracker;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::DrivenRectTransformTracker, "UnityEngine", "DrivenRectTransformTracker");
-// Type namespace: UnityEngine
-namespace UnityEngine {
   // Size: 0x0
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -41,15 +34,17 @@ namespace UnityEngine {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Void Add(UnityEngine.Object driver, UnityEngine.RectTransform rectTransform, UnityEngine.DrivenTransformProperties drivenProperties)
-    // Offset: 0x1C9B8D4
+    // Offset: 0x1D0B33C
     void Add(UnityEngine::Object* driver, UnityEngine::RectTransform* rectTransform, UnityEngine::DrivenTransformProperties drivenProperties);
     // public System.Void Clear()
-    // Offset: 0x1C9B8D8
+    // Offset: 0x1D0B340
     void Clear();
   }; // UnityEngine.DrivenRectTransformTracker
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::DrivenRectTransformTracker, "UnityEngine", "DrivenRectTransformTracker");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::DrivenRectTransformTracker::Add
 // Il2CppName: Add
 template<>

@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.InputFieldView
 #include "HMUI/InputFieldView.hpp"
 // Including type: UnityEngine.Events.UnityEvent`1
 #include "UnityEngine/Events/UnityEvent_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: HMUI
-namespace HMUI {
-  // Forward declaring type: InputFieldChanged
-  class InputFieldChanged;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HMUI::InputFieldView::InputFieldChanged);
-DEFINE_IL2CPP_ARG_TYPE(HMUI::InputFieldView::InputFieldChanged*, "HMUI", "InputFieldView/InputFieldChanged");
 // Type namespace: HMUI
 namespace HMUI {
   // WARNING Size may be invalid!
@@ -29,8 +21,10 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class InputFieldView::InputFieldChanged : public UnityEngine::Events::UnityEvent_1<HMUI::InputFieldView*> {
     public:
+    // Creating value type constructor for type: InputFieldChanged
+    InputFieldChanged() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x13F42AC
+    // Offset: 0x14C2CA8
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent_1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()
@@ -42,7 +36,8 @@ namespace HMUI {
     }
   }; // HMUI.InputFieldView/HMUI.InputFieldChanged
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HMUI::InputFieldView::InputFieldChanged*, "HMUI", "InputFieldView/InputFieldChanged");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::InputFieldView::InputFieldChanged::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

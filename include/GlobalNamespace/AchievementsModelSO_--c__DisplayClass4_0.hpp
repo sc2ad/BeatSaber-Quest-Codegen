@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: AchievementsModelSO
 #include "GlobalNamespace/AchievementsModelSO.hpp"
 // Including type: PlatformAchievementsModelSO
 #include "GlobalNamespace/PlatformAchievementsModelSO.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <>c__DisplayClass4_0
-  class $$c__DisplayClass4_0;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::AchievementsModelSO::$$c__DisplayClass4_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AchievementsModelSO::$$c__DisplayClass4_0*, "", "AchievementsModelSO/<>c__DisplayClass4_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -31,11 +23,6 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class AchievementsModelSO::$$c__DisplayClass4_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public AchievementsModelSO <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -48,16 +35,17 @@ namespace GlobalNamespace {
     ::Il2CppString* achievementId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: $$c__DisplayClass4_0
+    $$c__DisplayClass4_0(GlobalNamespace::AchievementsModelSO* $$4__this_ = {}, ::Il2CppString* achievementId_ = {}) noexcept : $$4__this{$$4__this_}, achievementId{achievementId_} {}
     // Get instance field reference: public AchievementsModelSO <>4__this
     GlobalNamespace::AchievementsModelSO*& dyn_$$4__this();
     // Get instance field reference: public System.String achievementId
     ::Il2CppString*& dyn_achievementId();
     // System.Void <UnlockAchievement>b__0(PlatformAchievementsModelSO/UnlockAchievementResult result)
-    // Offset: 0x2614ED8
+    // Offset: 0x130BA1C
     void $UnlockAchievement$b__0(GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementResult result);
     // public System.Void .ctor()
-    // Offset: 0x2614DA4
+    // Offset: 0x130B8E8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -70,7 +58,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(AchievementsModelSO::$$c__DisplayClass4_0), 24 + sizeof(::Il2CppString*)> __GlobalNamespace_AchievementsModelSO_$$c__DisplayClass4_0SizeCheck;
   static_assert(sizeof(AchievementsModelSO::$$c__DisplayClass4_0) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AchievementsModelSO::$$c__DisplayClass4_0*, "", "AchievementsModelSO/<>c__DisplayClass4_0");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AchievementsModelSO::$$c__DisplayClass4_0::$UnlockAchievement$b__0
 // Il2CppName: <UnlockAchievement>b__0
 template<>

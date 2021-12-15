@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -13,14 +13,6 @@ namespace GlobalNamespace {
   class BeatmapEventData;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: BeatmapEventDataExtensions
-  class BeatmapEventDataExtensions;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BeatmapEventDataExtensions);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapEventDataExtensions*, "", "BeatmapEventDataExtensions");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -32,13 +24,17 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::BeatmapEventDataExtensions::LightSwitchEventEffectDataValues
     class LightSwitchEventEffectDataValues;
+    // Creating value type constructor for type: BeatmapEventDataExtensions
+    BeatmapEventDataExtensions() noexcept {}
     // static public System.Boolean HasLightFadeEventDataValue(BeatmapEventData beatmapEventData)
-    // Offset: 0x25FB10C
+    // Offset: 0x26BD0F4
     static bool HasLightFadeEventDataValue(GlobalNamespace::BeatmapEventData* beatmapEventData);
   }; // BeatmapEventDataExtensions
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapEventDataExtensions*, "", "BeatmapEventDataExtensions");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapEventDataExtensions::HasLightFadeEventDataValue
 // Il2CppName: HasLightFadeEventDataValue
 template<>

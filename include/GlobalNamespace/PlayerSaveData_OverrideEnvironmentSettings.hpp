@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PlayerSaveData
 #include "GlobalNamespace/PlayerSaveData.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: OverrideEnvironmentSettings
-  class OverrideEnvironmentSettings;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::PlayerSaveData::OverrideEnvironmentSettings);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveData::OverrideEnvironmentSettings*, "", "PlayerSaveData/OverrideEnvironmentSettings");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x28
@@ -28,11 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayerSaveData::OverrideEnvironmentSettings : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Boolean overrideEnvironments
     // Size: 0x1
     // Offset: 0x10
@@ -53,7 +40,8 @@ namespace GlobalNamespace {
     ::Il2CppString* override360EnvironmentName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: OverrideEnvironmentSettings
+    OverrideEnvironmentSettings(bool overrideEnvironments_ = {}, ::Il2CppString* overrideNormalEnvironmentName_ = {}, ::Il2CppString* override360EnvironmentName_ = {}) noexcept : overrideEnvironments{overrideEnvironments_}, overrideNormalEnvironmentName{overrideNormalEnvironmentName_}, override360EnvironmentName{override360EnvironmentName_} {}
     // Get instance field reference: public System.Boolean overrideEnvironments
     bool& dyn_overrideEnvironments();
     // Get instance field reference: public System.String overrideNormalEnvironmentName
@@ -61,7 +49,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.String override360EnvironmentName
     ::Il2CppString*& dyn_override360EnvironmentName();
     // public System.Void .ctor()
-    // Offset: 0x12C89E8
+    // Offset: 0x11AAA00
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -74,7 +62,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(PlayerSaveData::OverrideEnvironmentSettings), 32 + sizeof(::Il2CppString*)> __GlobalNamespace_PlayerSaveData_OverrideEnvironmentSettingsSizeCheck;
   static_assert(sizeof(PlayerSaveData::OverrideEnvironmentSettings) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveData::OverrideEnvironmentSettings*, "", "PlayerSaveData/OverrideEnvironmentSettings");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSaveData::OverrideEnvironmentSettings::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

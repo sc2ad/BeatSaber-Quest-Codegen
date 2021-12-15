@@ -3,19 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.DateTime
 #include "System/DateTime.hpp"
 // Completed includes
-// Type namespace: Org.BouncyCastle.Utilities.Date
-namespace Org::BouncyCastle::Utilities::Date {
-  // Forward declaring type: DateTimeUtilities
-  class DateTimeUtilities;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Utilities::Date::DateTimeUtilities);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Date::DateTimeUtilities*, "Org.BouncyCastle.Utilities.Date", "DateTimeUtilities");
 // Type namespace: Org.BouncyCastle.Utilities.Date
 namespace Org::BouncyCastle::Utilities::Date {
   // Size: 0x10
@@ -24,23 +16,27 @@ namespace Org::BouncyCastle::Utilities::Date {
   // [TokenAttribute] Offset: FFFFFFFF
   class DateTimeUtilities : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: DateTimeUtilities
+    DateTimeUtilities() noexcept {}
     // Get static field: static public readonly System.DateTime UnixEpoch
     static System::DateTime _get_UnixEpoch();
     // Set static field: static public readonly System.DateTime UnixEpoch
     static void _set_UnixEpoch(System::DateTime value);
     // static private System.Void .cctor()
-    // Offset: 0x216A924
+    // Offset: 0x2229750
     static void _cctor();
     // static public System.Int64 DateTimeToUnixMs(System.DateTime dateTime)
-    // Offset: 0x216A740
+    // Offset: 0x222956C
     static int64_t DateTimeToUnixMs(System::DateTime dateTime);
     // static public System.Int64 CurrentUnixMs()
-    // Offset: 0x216A894
+    // Offset: 0x22296C0
     static int64_t CurrentUnixMs();
   }; // Org.BouncyCastle.Utilities.Date.DateTimeUtilities
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Date::DateTimeUtilities*, "Org.BouncyCastle.Utilities.Date", "DateTimeUtilities");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Date::DateTimeUtilities::_cctor
 // Il2CppName: .cctor
 template<>

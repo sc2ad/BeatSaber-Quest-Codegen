@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PersistentScriptableObject
 #include "GlobalNamespace/PersistentScriptableObject.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: RandomValueToShader
-  class RandomValueToShader;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::RandomValueToShader);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RandomValueToShader*, "", "RandomValueToShader");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x1C
@@ -28,21 +20,17 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class RandomValueToShader : public GlobalNamespace::PersistentScriptableObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Int32 _lastFrameNum
     // Size: 0x4
     // Offset: 0x18
     int lastFrameNum;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
+    // Creating value type constructor for type: RandomValueToShader
+    RandomValueToShader(int lastFrameNum_ = {}) noexcept : lastFrameNum{lastFrameNum_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDF484
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF2288C
     // Get static field: static private readonly System.Int32 _randomValueID
     static int _get__randomValueID();
     // Set static field: static private readonly System.Int32 _randomValueID
@@ -50,10 +38,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _lastFrameNum
     int& dyn__lastFrameNum();
     // public System.Void SetRandomValueToShaders()
-    // Offset: 0x1E0D790
+    // Offset: 0x1DB3150
     void SetRandomValueToShaders();
     // public System.Void .ctor()
-    // Offset: 0x1E175CC
+    // Offset: 0x1DBD224
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -65,7 +53,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<RandomValueToShader*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1E175DC
+    // Offset: 0x1DBD234
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
@@ -74,7 +62,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(RandomValueToShader), 24 + sizeof(int)> __GlobalNamespace_RandomValueToShaderSizeCheck;
   static_assert(sizeof(RandomValueToShader) == 0x1C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RandomValueToShader*, "", "RandomValueToShader");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::RandomValueToShader::SetRandomValueToShaders
 // Il2CppName: SetRandomValueToShaders
 template<>

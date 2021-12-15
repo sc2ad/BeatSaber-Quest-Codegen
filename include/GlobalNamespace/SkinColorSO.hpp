@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PersistentScriptableObject
 #include "GlobalNamespace/PersistentScriptableObject.hpp"
 // Including type: UnityEngine.Color
 #include "UnityEngine/Color.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: SkinColorSO
-  class SkinColorSO;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::SkinColorSO);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SkinColorSO*, "", "SkinColorSO");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x30
@@ -30,11 +22,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SkinColorSO : public GlobalNamespace::PersistentScriptableObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.String _id
     // Size: 0x8
     // Offset: 0x18
@@ -47,7 +34,8 @@ namespace GlobalNamespace {
     UnityEngine::Color color;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
-    public:
+    // Creating value type constructor for type: SkinColorSO
+    SkinColorSO(::Il2CppString* id_ = {}, UnityEngine::Color color_ = {}) noexcept : id{id_}, color{color_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _id
@@ -55,13 +43,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Color _color
     UnityEngine::Color& dyn__color();
     // public System.String get_id()
-    // Offset: 0x1145FE8
+    // Offset: 0x1214820
     ::Il2CppString* get_id();
     // public UnityEngine.Color get_Color()
-    // Offset: 0x1145FF0
+    // Offset: 0x1214828
     UnityEngine::Color get_Color();
     // public System.Void .ctor()
-    // Offset: 0x1145FFC
+    // Offset: 0x1214834
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -77,7 +65,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(SkinColorSO), 32 + sizeof(UnityEngine::Color)> __GlobalNamespace_SkinColorSOSizeCheck;
   static_assert(sizeof(SkinColorSO) == 0x30);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SkinColorSO*, "", "SkinColorSO");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SkinColorSO::get_id
 // Il2CppName: get_id
 template<>

@@ -3,18 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: UnityEngine.TextCore.LowLevel
-namespace UnityEngine::TextCore::LowLevel {
-  // Forward declaring type: FontEngineError
-  struct FontEngineError;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::LowLevel::FontEngineError, "UnityEngine.TextCore.LowLevel", "FontEngineError");
 // Type namespace: UnityEngine.TextCore.LowLevel
 namespace UnityEngine::TextCore::LowLevel {
   // Size: 0x4
@@ -23,18 +16,12 @@ namespace UnityEngine::TextCore::LowLevel {
   // [TokenAttribute] Offset: FFFFFFFF
   struct FontEngineError/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: FontEngineError
     constexpr FontEngineError(int value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -136,4 +123,6 @@ namespace UnityEngine::TextCore::LowLevel {
   static check_size<sizeof(FontEngineError), 0 + sizeof(int)> __UnityEngine_TextCore_LowLevel_FontEngineErrorSizeCheck;
   static_assert(sizeof(FontEngineError) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::LowLevel::FontEngineError, "UnityEngine.TextCore.LowLevel", "FontEngineError");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -3,20 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: UnityEngine.Vector2
 #include "UnityEngine/Vector2.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: TMPro
-namespace TMPro {
-  // Forward declaring type: Extents
-  struct Extents;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(TMPro::Extents, "TMPro", "Extents");
 // Type namespace: TMPro
 namespace TMPro {
   // Size: 0x10
@@ -26,11 +23,6 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Extents/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public UnityEngine.Vector2 min
     // Size: 0x8
     // Offset: 0x0
@@ -43,7 +35,6 @@ namespace TMPro {
     UnityEngine::Vector2 max;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector2) == 0x8);
-    public:
     // Creating value type constructor for type: Extents
     constexpr Extents(UnityEngine::Vector2 min_ = {}, UnityEngine::Vector2 max_ = {}) noexcept : min{min_}, max{max_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -55,10 +46,11 @@ namespace TMPro {
     // Get instance field reference: public UnityEngine.Vector2 max
     UnityEngine::Vector2& dyn_max();
     // public System.Void .ctor(UnityEngine.Vector2 min, UnityEngine.Vector2 max)
-    // Offset: 0x11E72C4
-    // ABORTED: conflicts with another method.  Extents(UnityEngine::Vector2 min, UnityEngine::Vector2 max);
+    // Offset: 0x123DA34
+    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    // ABORTED: conflicts with another method.  Extents(UnityEngine::Vector2 min, UnityEngine::Vector2 max)
     // public override System.String ToString()
-    // Offset: 0x11E72D0
+    // Offset: 0x123DA40
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
@@ -67,7 +59,8 @@ namespace TMPro {
   static check_size<sizeof(Extents), 8 + sizeof(UnityEngine::Vector2)> __TMPro_ExtentsSizeCheck;
   static_assert(sizeof(Extents) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::Extents, "TMPro", "Extents");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::Extents::Extents
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

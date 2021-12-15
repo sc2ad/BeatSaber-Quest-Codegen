@@ -3,30 +3,22 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HoudiniEngineUnity.HAPI_Viewport
 #include "HoudiniEngineUnity/HAPI_Viewport.hpp"
 // Including type: HoudiniEngineUnity.HAPI_SessionSyncInfo
 #include "HoudiniEngineUnity/HAPI_SessionSyncInfo.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
 }
 // Completed forward declares
-// Type namespace: HoudiniEngineUnity
-namespace HoudiniEngineUnity {
-  // Forward declaring type: HEU_SessionSyncData
-  class HEU_SessionSyncData;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_SessionSyncData);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_SessionSyncData*, "HoudiniEngineUnity", "HEU_SessionSyncData");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x63
@@ -37,11 +29,6 @@ namespace HoudiniEngineUnity {
     public:
     // Nested type: HoudiniEngineUnity::HEU_SessionSyncData::Status
     struct Status;
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Int32 _status
     // Size: 0x4
     // Offset: 0x10
@@ -110,7 +97,8 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HAPI_SessionSyncInfo syncInfo;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::HAPI_SessionSyncInfo) == 0x2);
-    public:
+    // Creating value type constructor for type: HEU_SessionSyncData
+    HEU_SessionSyncData(int status_ = {}, float timeLastUpdate_ = {}, float timeStartConnection_ = {}, ::Il2CppString* newNodeName_ = {}, int nodeTypeIndex_ = {}, bool validForConnection_ = {}, HoudiniEngineUnity::HAPI_Viewport viewportHAPI_ = {}, HoudiniEngineUnity::HAPI_Viewport viewportLocal_ = {}, bool viewportJustUpdated_ = {}, HoudiniEngineUnity::HAPI_SessionSyncInfo syncInfo_ = {}) noexcept : status{status_}, timeLastUpdate{timeLastUpdate_}, timeStartConnection{timeStartConnection_}, newNodeName{newNodeName_}, nodeTypeIndex{nodeTypeIndex_}, validForConnection{validForConnection_}, viewportHAPI{viewportHAPI_}, viewportLocal{viewportLocal_}, viewportJustUpdated{viewportJustUpdated_}, syncInfo{syncInfo_} {}
     // Get instance field reference: private System.Int32 _status
     int& dyn__status();
     // Get instance field reference: public System.Single _timeLastUpdate
@@ -132,13 +120,13 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public HoudiniEngineUnity.HAPI_SessionSyncInfo _syncInfo
     HoudiniEngineUnity::HAPI_SessionSyncInfo& dyn__syncInfo();
     // public HoudiniEngineUnity.HEU_SessionSyncData/HoudiniEngineUnity.Status get_SyncStatus()
-    // Offset: 0x17BADF0
+    // Offset: 0x1849704
     HoudiniEngineUnity::HEU_SessionSyncData::Status get_SyncStatus();
     // public System.Void set_SyncStatus(HoudiniEngineUnity.HEU_SessionSyncData/HoudiniEngineUnity.Status value)
-    // Offset: 0x17BAE04
+    // Offset: 0x1849718
     void set_SyncStatus(HoudiniEngineUnity::HEU_SessionSyncData::Status value);
     // public System.Void .ctor()
-    // Offset: 0x17B7B10
+    // Offset: 0x1846424
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -151,7 +139,8 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_SessionSyncData), 97 + sizeof(HoudiniEngineUnity::HAPI_SessionSyncInfo)> __HoudiniEngineUnity_HEU_SessionSyncDataSizeCheck;
   static_assert(sizeof(HEU_SessionSyncData) == 0x63);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_SessionSyncData*, "HoudiniEngineUnity", "HEU_SessionSyncData");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionSyncData::get_SyncStatus
 // Il2CppName: get_SyncStatus
 template<>

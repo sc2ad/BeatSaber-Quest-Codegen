@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MaterialPropertyValuesSetter
 #include "GlobalNamespace/MaterialPropertyValuesSetter.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: PropertyValuePairBase
-  class PropertyValuePairBase;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MaterialPropertyValuesSetter::PropertyValuePairBase);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialPropertyValuesSetter::PropertyValuePairBase*, "", "MaterialPropertyValuesSetter/PropertyValuePairBase");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x1C
@@ -28,11 +20,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MaterialPropertyValuesSetter::PropertyValuePairBase : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.String _propertyName
     // Size: 0x8
     // Offset: 0x10
@@ -45,22 +32,23 @@ namespace GlobalNamespace {
     int propertyId;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
+    // Creating value type constructor for type: PropertyValuePairBase
+    PropertyValuePairBase(::Il2CppString* propertyName_ = {}, int propertyId_ = {}) noexcept : propertyName{propertyName_}, propertyId{propertyId_} {}
     // Get instance field reference: private System.String _propertyName
     ::Il2CppString*& dyn__propertyName();
     // Get instance field reference: private System.Int32 <propertyId>k__BackingField
     int& dyn_$propertyId$k__BackingField();
     // public System.Int32 get_propertyId()
-    // Offset: 0x1E1482C
+    // Offset: 0x1DBA484
     int get_propertyId();
     // private System.Void set_propertyId(System.Int32 value)
-    // Offset: 0x1E14834
+    // Offset: 0x1DBA48C
     void set_propertyId(int value);
     // public System.Void RefreshPropertyId()
-    // Offset: 0x1E146F4
+    // Offset: 0x1DBA34C
     void RefreshPropertyId();
     // public System.Void .ctor()
-    // Offset: 0x1E1475C
+    // Offset: 0x1DBA3B4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -73,7 +61,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(MaterialPropertyValuesSetter::PropertyValuePairBase), 24 + sizeof(int)> __GlobalNamespace_MaterialPropertyValuesSetter_PropertyValuePairBaseSizeCheck;
   static_assert(sizeof(MaterialPropertyValuesSetter::PropertyValuePairBase) == 0x1C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialPropertyValuesSetter::PropertyValuePairBase*, "", "MaterialPropertyValuesSetter/PropertyValuePairBase");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MaterialPropertyValuesSetter::PropertyValuePairBase::get_propertyId
 // Il2CppName: get_propertyId
 template<>

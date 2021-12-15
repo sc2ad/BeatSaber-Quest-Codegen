@@ -3,22 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Runtime.Serialization
-namespace System::Runtime::Serialization {
-  // Forward declaring type: LongList
-  class LongList;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Serialization::LongList);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::LongList*, "System.Runtime.Serialization", "LongList");
 // Type namespace: System.Runtime.Serialization
 namespace System::Runtime::Serialization {
   // Size: 0x24
@@ -27,17 +18,12 @@ namespace System::Runtime::Serialization {
   // [TokenAttribute] Offset: FFFFFFFF
   class LongList : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Int64[] m_values
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<int64_t> m_values;
+    ::Array<int64_t>* m_values;
     // Field size check
-    static_assert(sizeof(::ArrayW<int64_t>) == 0x8);
+    static_assert(sizeof(::Array<int64_t>*) == 0x8);
     // private System.Int32 m_count
     // Size: 0x4
     // Offset: 0x18
@@ -56,9 +42,10 @@ namespace System::Runtime::Serialization {
     int m_currentItem;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
+    // Creating value type constructor for type: LongList
+    LongList(::Array<int64_t>* m_values_ = {}, int m_count_ = {}, int m_totalItems_ = {}, int m_currentItem_ = {}) noexcept : m_values{m_values_}, m_count{m_count_}, m_totalItems{m_totalItems_}, m_currentItem{m_currentItem_} {}
     // Get instance field reference: private System.Int64[] m_values
-    ::ArrayW<int64_t>& dyn_m_values();
+    ::Array<int64_t>*& dyn_m_values();
     // Get instance field reference: private System.Int32 m_count
     int& dyn_m_count();
     // Get instance field reference: private System.Int32 m_totalItems
@@ -66,35 +53,35 @@ namespace System::Runtime::Serialization {
     // Get instance field reference: private System.Int32 m_currentItem
     int& dyn_m_currentItem();
     // System.Int32 get_Count()
-    // Offset: 0x18F60B4
+    // Offset: 0x191B278
     int get_Count();
     // System.Int64 get_Current()
-    // Offset: 0x18F6130
+    // Offset: 0x191B2F4
     int64_t get_Current();
     // System.Void .ctor(System.Int32 startingSize)
-    // Offset: 0x18F5F24
+    // Offset: 0x191B0E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LongList* New_ctor(int startingSize) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::LongList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LongList*, creationType>(startingSize)));
     }
     // System.Void Add(System.Int64 value)
-    // Offset: 0x18F5F98
+    // Offset: 0x191B15C
     void Add(int64_t value);
     // System.Void StartEnumeration()
-    // Offset: 0x18F60BC
+    // Offset: 0x191B280
     void StartEnumeration();
     // System.Boolean MoveNext()
-    // Offset: 0x18F60C8
+    // Offset: 0x191B28C
     bool MoveNext();
     // System.Boolean RemoveElement(System.Int64 value)
-    // Offset: 0x18F6170
+    // Offset: 0x191B334
     bool RemoveElement(int64_t value);
     // private System.Void EnlargeArray()
-    // Offset: 0x18F6024
+    // Offset: 0x191B1E8
     void EnlargeArray();
     // System.Void .ctor()
-    // Offset: 0x18F5F1C
+    // Offset: 0x191B0E0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -107,7 +94,8 @@ namespace System::Runtime::Serialization {
   static check_size<sizeof(LongList), 32 + sizeof(int)> __System_Runtime_Serialization_LongListSizeCheck;
   static_assert(sizeof(LongList) == 0x24);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::LongList*, "System.Runtime.Serialization", "LongList");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::LongList::get_Count
 // Il2CppName: get_Count
 template<>

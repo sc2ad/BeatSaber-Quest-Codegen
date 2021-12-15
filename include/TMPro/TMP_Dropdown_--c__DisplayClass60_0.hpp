@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: TMPro.TMP_Dropdown
 #include "TMPro/TMP_Dropdown.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: TMPro
-namespace TMPro {
-  // Forward declaring type: <>c__DisplayClass60_0
-  class $$c__DisplayClass60_0;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(TMPro::TMP_Dropdown::$$c__DisplayClass60_0);
-DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Dropdown::$$c__DisplayClass60_0*, "TMPro", "TMP_Dropdown/<>c__DisplayClass60_0");
 // Type namespace: TMPro
 namespace TMPro {
   // Size: 0x20
@@ -29,11 +21,6 @@ namespace TMPro {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class TMP_Dropdown::$$c__DisplayClass60_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public TMPro.TMP_Dropdown/TMPro.DropdownItem item
     // Size: 0x8
     // Offset: 0x10
@@ -46,16 +33,17 @@ namespace TMPro {
     TMPro::TMP_Dropdown* $$4__this;
     // Field size check
     static_assert(sizeof(TMPro::TMP_Dropdown*) == 0x8);
-    public:
+    // Creating value type constructor for type: $$c__DisplayClass60_0
+    $$c__DisplayClass60_0(TMPro::TMP_Dropdown::DropdownItem* item_ = {}, TMPro::TMP_Dropdown* $$4__this_ = {}) noexcept : item{item_}, $$4__this{$$4__this_} {}
     // Get instance field reference: public TMPro.TMP_Dropdown/TMPro.DropdownItem item
     TMPro::TMP_Dropdown::DropdownItem*& dyn_item();
     // Get instance field reference: public TMPro.TMP_Dropdown <>4__this
     TMPro::TMP_Dropdown*& dyn_$$4__this();
     // System.Void <Show>b__0(System.Boolean x)
-    // Offset: 0x11F0C8C
+    // Offset: 0x12473FC
     void $Show$b__0(bool x);
     // public System.Void .ctor()
-    // Offset: 0x11F00EC
+    // Offset: 0x124685C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -68,7 +56,8 @@ namespace TMPro {
   static check_size<sizeof(TMP_Dropdown::$$c__DisplayClass60_0), 24 + sizeof(TMPro::TMP_Dropdown*)> __TMPro_TMP_Dropdown_$$c__DisplayClass60_0SizeCheck;
   static_assert(sizeof(TMP_Dropdown::$$c__DisplayClass60_0) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Dropdown::$$c__DisplayClass60_0*, "TMPro", "TMP_Dropdown/<>c__DisplayClass60_0");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::$$c__DisplayClass60_0::$Show$b__0
 // Il2CppName: <Show>b__0
 template<>

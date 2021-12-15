@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRResources
 #include "GlobalNamespace/OVRResources.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <>c__DisplayClass2_0
-  class $$c__DisplayClass2_0;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRResources::$$c__DisplayClass2_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRResources::$$c__DisplayClass2_0*, "", "OVRResources/<>c__DisplayClass2_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x18
@@ -29,18 +21,14 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class OVRResources::$$c__DisplayClass2_0 : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.String path
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppString* path;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    public:
+    // Creating value type constructor for type: $$c__DisplayClass2_0
+    $$c__DisplayClass2_0(::Il2CppString* path_ = {}) noexcept : path{path_} {}
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return path;
@@ -48,10 +36,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.String path
     ::Il2CppString*& dyn_path();
     // System.Boolean <Load>b__0(System.String s)
-    // Offset: 0x17EF850
+    // Offset: 0x187E164
     bool $Load$b__0(::Il2CppString* s);
     // public System.Void .ctor()
-    // Offset: 0x17EF788
+    // Offset: 0x187E09C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -64,7 +52,8 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRResources::$$c__DisplayClass2_0), 16 + sizeof(::Il2CppString*)> __GlobalNamespace_OVRResources_$$c__DisplayClass2_0SizeCheck;
   static_assert(sizeof(OVRResources::$$c__DisplayClass2_0) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRResources::$$c__DisplayClass2_0*, "", "OVRResources/<>c__DisplayClass2_0");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRResources::$$c__DisplayClass2_0::$Load$b__0
 // Il2CppName: <Load>b__0
 template<>

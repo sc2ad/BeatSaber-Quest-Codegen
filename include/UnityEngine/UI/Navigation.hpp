@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.IEquatable`1
@@ -20,13 +20,6 @@ namespace UnityEngine::UI {
   // Skipping declaration: Mode because it is already included!
 }
 // Completed forward declares
-// Type namespace: UnityEngine.UI
-namespace UnityEngine::UI {
-  // Forward declaring type: Navigation
-  struct Navigation;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Navigation, "UnityEngine.UI", "Navigation");
 // Type namespace: UnityEngine.UI
 namespace UnityEngine::UI {
   // Size: 0x28
@@ -45,18 +38,12 @@ namespace UnityEngine::UI {
     // [FlagsAttribute] Offset: FFFFFFFF
     struct Mode/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: Mode
       constexpr Mode(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -103,11 +90,6 @@ namespace UnityEngine::UI {
     #pragma pack(pop)
     static check_size<sizeof(Navigation::Mode), 0 + sizeof(int)> __UnityEngine_UI_Navigation_ModeSizeCheck;
     static_assert(sizeof(Navigation::Mode) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private UnityEngine.UI.Navigation/UnityEngine.UI.Mode m_Mode
     // Size: 0x4
     // Offset: 0x0
@@ -140,7 +122,6 @@ namespace UnityEngine::UI {
     UnityEngine::UI::Selectable* m_SelectOnRight;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Selectable*) == 0x8);
-    public:
     // Creating value type constructor for type: Navigation
     constexpr Navigation(UnityEngine::UI::Navigation::Mode m_Mode_ = {}, UnityEngine::UI::Selectable* m_SelectOnUp_ = {}, UnityEngine::UI::Selectable* m_SelectOnDown_ = {}, UnityEngine::UI::Selectable* m_SelectOnLeft_ = {}, UnityEngine::UI::Selectable* m_SelectOnRight_ = {}) noexcept : m_Mode{m_Mode_}, m_SelectOnUp{m_SelectOnUp_}, m_SelectOnDown{m_SelectOnDown_}, m_SelectOnLeft{m_SelectOnLeft_}, m_SelectOnRight{m_SelectOnRight_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -162,49 +143,50 @@ namespace UnityEngine::UI {
     // Get instance field reference: private UnityEngine.UI.Selectable m_SelectOnRight
     UnityEngine::UI::Selectable*& dyn_m_SelectOnRight();
     // public UnityEngine.UI.Navigation/UnityEngine.UI.Mode get_mode()
-    // Offset: 0x1B32314
+    // Offset: 0x1BACC24
     UnityEngine::UI::Navigation::Mode get_mode();
     // public System.Void set_mode(UnityEngine.UI.Navigation/UnityEngine.UI.Mode value)
-    // Offset: 0x1B3231C
+    // Offset: 0x1BACC2C
     void set_mode(UnityEngine::UI::Navigation::Mode value);
     // public UnityEngine.UI.Selectable get_selectOnUp()
-    // Offset: 0x1B32324
+    // Offset: 0x1BACC34
     UnityEngine::UI::Selectable* get_selectOnUp();
     // public System.Void set_selectOnUp(UnityEngine.UI.Selectable value)
-    // Offset: 0x1B3232C
+    // Offset: 0x1BACC3C
     void set_selectOnUp(UnityEngine::UI::Selectable* value);
     // public UnityEngine.UI.Selectable get_selectOnDown()
-    // Offset: 0x1B32334
+    // Offset: 0x1BACC44
     UnityEngine::UI::Selectable* get_selectOnDown();
     // public System.Void set_selectOnDown(UnityEngine.UI.Selectable value)
-    // Offset: 0x1B3233C
+    // Offset: 0x1BACC4C
     void set_selectOnDown(UnityEngine::UI::Selectable* value);
     // public UnityEngine.UI.Selectable get_selectOnLeft()
-    // Offset: 0x1B32344
+    // Offset: 0x1BACC54
     UnityEngine::UI::Selectable* get_selectOnLeft();
     // public System.Void set_selectOnLeft(UnityEngine.UI.Selectable value)
-    // Offset: 0x1B3234C
+    // Offset: 0x1BACC5C
     void set_selectOnLeft(UnityEngine::UI::Selectable* value);
     // public UnityEngine.UI.Selectable get_selectOnRight()
-    // Offset: 0x1B32354
+    // Offset: 0x1BACC64
     UnityEngine::UI::Selectable* get_selectOnRight();
     // public System.Void set_selectOnRight(UnityEngine.UI.Selectable value)
-    // Offset: 0x1B3235C
+    // Offset: 0x1BACC6C
     void set_selectOnRight(UnityEngine::UI::Selectable* value);
     // static public UnityEngine.UI.Navigation get_defaultNavigation()
-    // Offset: 0x1B32364
+    // Offset: 0x1BACC74
     static UnityEngine::UI::Navigation get_defaultNavigation();
     // public System.Boolean Equals(UnityEngine.UI.Navigation other)
-    // Offset: 0x1B32384
+    // Offset: 0x1BACC94
     bool Equals(UnityEngine::UI::Navigation other);
   }; // UnityEngine.UI.Navigation
   #pragma pack(pop)
   static check_size<sizeof(Navigation), 32 + sizeof(UnityEngine::UI::Selectable*)> __UnityEngine_UI_NavigationSizeCheck;
   static_assert(sizeof(Navigation) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Navigation, "UnityEngine.UI", "Navigation");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Navigation::Mode, "UnityEngine.UI", "Navigation/Mode");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::Navigation::get_mode
 // Il2CppName: get_mode
 template<>

@@ -3,17 +3,12 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: Oculus.Platform
-namespace Oculus::Platform {
-  // Forward declaring type: IMicrophone
-  class IMicrophone;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::IMicrophone);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::IMicrophone*, "Oculus.Platform", "IMicrophone");
+// Begin il2cpp-utils forward declares
+template<class T>
+struct Array;
+// Completed il2cpp-utils forward declares
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
   // Size: 0x10
@@ -22,6 +17,8 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class IMicrophone {
     public:
+    // Creating value type constructor for type: IMicrophone
+    IMicrophone() noexcept {}
     // public System.Void Start()
     // Offset: 0xFFFFFFFF
     void Start();
@@ -30,11 +27,13 @@ namespace Oculus::Platform {
     void Stop();
     // public System.Single[] Update()
     // Offset: 0xFFFFFFFF
-    ::ArrayW<float> Update();
+    ::Array<float>* Update();
   }; // Oculus.Platform.IMicrophone
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::IMicrophone*, "Oculus.Platform", "IMicrophone");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::IMicrophone::Start
 // Il2CppName: Start
 template<>
@@ -54,7 +53,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
 // Writing MetadataGetter for method: Oculus::Platform::IMicrophone::Update
 // Il2CppName: Update
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<float> (Oculus::Platform::IMicrophone::*)()>(&Oculus::Platform::IMicrophone::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<float>* (Oculus::Platform::IMicrophone::*)()>(&Oculus::Platform::IMicrophone::Update)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::IMicrophone*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

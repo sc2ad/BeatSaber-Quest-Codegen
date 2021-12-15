@@ -3,17 +3,10 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-// Type namespace: HoudiniEngineUnity
-namespace HoudiniEngineUnity {
-  // Forward declaring type: HAPI_SessionSyncInfo
-  struct HAPI_SessionSyncInfo;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_SessionSyncInfo, "HoudiniEngineUnity", "HAPI_SessionSyncInfo");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x2
@@ -23,11 +16,6 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HAPI_SessionSyncInfo/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Boolean cookUsingHoudiniTime
     // Size: 0x1
     // Offset: 0x0
@@ -40,7 +28,6 @@ namespace HoudiniEngineUnity {
     bool syncViewport;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
     // Creating value type constructor for type: HAPI_SessionSyncInfo
     constexpr HAPI_SessionSyncInfo(bool cookUsingHoudiniTime_ = {}, bool syncViewport_ = {}) noexcept : cookUsingHoudiniTime{cookUsingHoudiniTime_}, syncViewport{syncViewport_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -56,4 +43,6 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HAPI_SessionSyncInfo), 1 + sizeof(bool)> __HoudiniEngineUnity_HAPI_SessionSyncInfoSizeCheck;
   static_assert(sizeof(HAPI_SessionSyncInfo) == 0x2);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_SessionSyncInfo, "HoudiniEngineUnity", "HAPI_SessionSyncInfo");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

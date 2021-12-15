@@ -3,18 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: Oculus.Platform
-namespace Oculus::Platform {
-  // Forward declaring type: LivestreamingAudience
-  struct LivestreamingAudience;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::LivestreamingAudience, "Oculus.Platform", "LivestreamingAudience");
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
   // Size: 0x4
@@ -23,18 +16,12 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   struct LivestreamingAudience/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: LivestreamingAudience
     constexpr LivestreamingAudience(int value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum
@@ -45,28 +32,28 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0xEE7864
+    // [DescriptionAttribute] Offset: 0xF29D5C
     // static field const value: static public Oculus.Platform.LivestreamingAudience Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.LivestreamingAudience Unknown
     static Oculus::Platform::LivestreamingAudience _get_Unknown();
     // Set static field: static public Oculus.Platform.LivestreamingAudience Unknown
     static void _set_Unknown(Oculus::Platform::LivestreamingAudience value);
-    // [DescriptionAttribute] Offset: 0xEE789C
+    // [DescriptionAttribute] Offset: 0xF29D94
     // static field const value: static public Oculus.Platform.LivestreamingAudience Public
     static constexpr const int Public = 1;
     // Get static field: static public Oculus.Platform.LivestreamingAudience Public
     static Oculus::Platform::LivestreamingAudience _get_Public();
     // Set static field: static public Oculus.Platform.LivestreamingAudience Public
     static void _set_Public(Oculus::Platform::LivestreamingAudience value);
-    // [DescriptionAttribute] Offset: 0xEE78D4
+    // [DescriptionAttribute] Offset: 0xF29DCC
     // static field const value: static public Oculus.Platform.LivestreamingAudience Friends
     static constexpr const int Friends = 2;
     // Get static field: static public Oculus.Platform.LivestreamingAudience Friends
     static Oculus::Platform::LivestreamingAudience _get_Friends();
     // Set static field: static public Oculus.Platform.LivestreamingAudience Friends
     static void _set_Friends(Oculus::Platform::LivestreamingAudience value);
-    // [DescriptionAttribute] Offset: 0xEE790C
+    // [DescriptionAttribute] Offset: 0xF29E04
     // static field const value: static public Oculus.Platform.LivestreamingAudience OnlyMe
     static constexpr const int OnlyMe = 3;
     // Get static field: static public Oculus.Platform.LivestreamingAudience OnlyMe
@@ -80,4 +67,6 @@ namespace Oculus::Platform {
   static check_size<sizeof(LivestreamingAudience), 0 + sizeof(int)> __Oculus_Platform_LivestreamingAudienceSizeCheck;
   static_assert(sizeof(LivestreamingAudience) == 0x4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::LivestreamingAudience, "Oculus.Platform", "LivestreamingAudience");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -3,21 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Text.RegularExpressions
-namespace System::Text::RegularExpressions {
-  // Forward declaring type: Capture
-  class Capture;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Text::RegularExpressions::Capture);
-DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::Capture*, "System.Text.RegularExpressions", "Capture");
 // Type namespace: System.Text.RegularExpressions
 namespace System::Text::RegularExpressions {
   // Size: 0x20
@@ -26,11 +18,6 @@ namespace System::Text::RegularExpressions {
   // [TokenAttribute] Offset: FFFFFFFF
   class Capture : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // System.String _text
     // Size: 0x8
     // Offset: 0x10
@@ -49,7 +36,8 @@ namespace System::Text::RegularExpressions {
     int length;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
+    // Creating value type constructor for type: Capture
+    Capture(::Il2CppString* text_ = {}, int index_ = {}, int length_ = {}) noexcept : text{text_}, index{index_}, length{length_} {}
     // Get instance field reference: System.String _text
     ::Il2CppString*& dyn__text();
     // Get instance field reference: System.Int32 _index
@@ -57,32 +45,32 @@ namespace System::Text::RegularExpressions {
     // Get instance field reference: System.Int32 _length
     int& dyn__length();
     // public System.Int32 get_Index()
-    // Offset: 0x19C5C8C
+    // Offset: 0x19E433C
     int get_Index();
     // public System.Int32 get_Length()
-    // Offset: 0x19C5C94
+    // Offset: 0x19E4344
     int get_Length();
     // public System.String get_Value()
-    // Offset: 0x19C5C9C
+    // Offset: 0x19E434C
     ::Il2CppString* get_Value();
     // System.Void .ctor(System.String text, System.Int32 i, System.Int32 l)
-    // Offset: 0x19C5C4C
+    // Offset: 0x19E42FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Capture* New_ctor(::Il2CppString* text, int i, int l) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::Capture::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Capture*, creationType>(text, i, l)));
     }
     // System.String GetOriginalString()
-    // Offset: 0x19C5CC4
+    // Offset: 0x19E4374
     ::Il2CppString* GetOriginalString();
     // System.String GetLeftSubstring()
-    // Offset: 0x19C5CCC
+    // Offset: 0x19E437C
     ::Il2CppString* GetLeftSubstring();
     // System.String GetRightSubstring()
-    // Offset: 0x19C5CF4
+    // Offset: 0x19E43A4
     ::Il2CppString* GetRightSubstring();
     // System.Void .ctor()
-    // Offset: 0x19C5D24
+    // Offset: 0x19E43D4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -91,7 +79,7 @@ namespace System::Text::RegularExpressions {
       return THROW_UNLESS((::il2cpp_utils::New<Capture*, creationType>()));
     }
     // public override System.String ToString()
-    // Offset: 0x19C5CC0
+    // Offset: 0x19E4370
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
@@ -100,7 +88,8 @@ namespace System::Text::RegularExpressions {
   static check_size<sizeof(Capture), 28 + sizeof(int)> __System_Text_RegularExpressions_CaptureSizeCheck;
   static_assert(sizeof(Capture) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::Capture*, "System.Text.RegularExpressions", "Capture");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::RegularExpressions::Capture::get_Index
 // Il2CppName: get_Index
 template<>

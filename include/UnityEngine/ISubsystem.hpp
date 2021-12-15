@@ -3,16 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: ISubsystem
-  class ISubsystem;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ISubsystem);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ISubsystem*, "UnityEngine", "ISubsystem");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -21,7 +13,11 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class ISubsystem {
     public:
+    // Creating value type constructor for type: ISubsystem
+    ISubsystem() noexcept {}
   }; // UnityEngine.ISubsystem
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ISubsystem*, "UnityEngine", "ISubsystem");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

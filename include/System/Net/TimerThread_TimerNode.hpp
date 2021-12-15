@@ -3,27 +3,19 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.TimerThread
 #include "System/Net/TimerThread.hpp"
 // Including type: System.Net.TimerThread/System.Net.Timer
 #include "System/Net/TimerThread_Timer.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Net
-namespace System::Net {
-  // Forward declaring type: TimerNode
-  class TimerNode;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::TimerThread::TimerNode);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::TimerThread::TimerNode*, "System.Net", "TimerThread/TimerNode");
 // Type namespace: System.Net
 namespace System::Net {
   // Size: 0x48
@@ -40,18 +32,12 @@ namespace System::Net {
     // [TokenAttribute] Offset: FFFFFFFF
     struct TimerState/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: TimerState
       constexpr TimerState(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -92,11 +78,6 @@ namespace System::Net {
     #pragma pack(pop)
     static check_size<sizeof(TimerThread::TimerNode::TimerState), 0 + sizeof(int)> __System_Net_TimerThread_TimerNode_TimerStateSizeCheck;
     static_assert(sizeof(TimerThread::TimerNode::TimerState) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Net.TimerThread/System.Net.TimerNode/System.Net.TimerState m_TimerState
     // Size: 0x4
     // Offset: 0x18
@@ -135,7 +116,8 @@ namespace System::Net {
     System::Net::TimerThread::TimerNode* prev;
     // Field size check
     static_assert(sizeof(System::Net::TimerThread::TimerNode*) == 0x8);
-    public:
+    // Creating value type constructor for type: TimerNode
+    TimerNode(System::Net::TimerThread::TimerNode::TimerState m_TimerState_ = {}, System::Net::TimerThread::Callback* m_Callback_ = {}, ::Il2CppObject* m_Context_ = {}, ::Il2CppObject* m_QueueLock_ = {}, System::Net::TimerThread::TimerNode* next_ = {}, System::Net::TimerThread::TimerNode* prev_ = {}) noexcept : m_TimerState{m_TimerState_}, m_Callback{m_Callback_}, m_Context{m_Context_}, m_QueueLock{m_QueueLock_}, next{next_}, prev{prev_} {}
     // Get instance field reference: private System.Net.TimerThread/System.Net.TimerNode/System.Net.TimerState m_TimerState
     System::Net::TimerThread::TimerNode::TimerState& dyn_m_TimerState();
     // Get instance field reference: private System.Net.TimerThread/System.Net.Callback m_Callback
@@ -149,19 +131,19 @@ namespace System::Net {
     // Get instance field reference: private System.Net.TimerThread/System.Net.TimerNode prev
     System::Net::TimerThread::TimerNode*& dyn_prev();
     // System.Net.TimerThread/System.Net.TimerNode get_Next()
-    // Offset: 0x175B288
+    // Offset: 0x17E74C4
     System::Net::TimerThread::TimerNode* get_Next();
     // System.Void set_Next(System.Net.TimerThread/System.Net.TimerNode value)
-    // Offset: 0x175B290
+    // Offset: 0x17E74CC
     void set_Next(System::Net::TimerThread::TimerNode* value);
     // System.Net.TimerThread/System.Net.TimerNode get_Prev()
-    // Offset: 0x175B298
+    // Offset: 0x17E74D4
     System::Net::TimerThread::TimerNode* get_Prev();
     // System.Void set_Prev(System.Net.TimerThread/System.Net.TimerNode value)
-    // Offset: 0x175B2A0
+    // Offset: 0x17E74DC
     void set_Prev(System::Net::TimerThread::TimerNode* value);
     // System.Void .ctor()
-    // Offset: 0x175B24C
+    // Offset: 0x17E7488
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -170,7 +152,7 @@ namespace System::Net {
       return THROW_UNLESS((::il2cpp_utils::New<TimerThread::TimerNode*, creationType>()));
     }
     // override System.Boolean Cancel()
-    // Offset: 0x175B2A8
+    // Offset: 0x17E74E4
     // Implemented from: System.Net.TimerThread/System.Net.Timer
     // Base method: System.Boolean Timer::Cancel()
     bool Cancel();
@@ -179,9 +161,9 @@ namespace System::Net {
   static check_size<sizeof(TimerThread::TimerNode), 64 + sizeof(System::Net::TimerThread::TimerNode*)> __System_Net_TimerThread_TimerNodeSizeCheck;
   static_assert(sizeof(TimerThread::TimerNode) == 0x48);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::TimerThread::TimerNode*, "System.Net", "TimerThread/TimerNode");
 DEFINE_IL2CPP_ARG_TYPE(System::Net::TimerThread::TimerNode::TimerState, "System.Net", "TimerThread/TimerNode/TimerState");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::TimerThread::TimerNode::get_Next
 // Il2CppName: get_Next
 template<>

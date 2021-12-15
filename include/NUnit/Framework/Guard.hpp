@@ -3,17 +3,9 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: NUnit.Framework
-namespace NUnit::Framework {
-  // Forward declaring type: Guard
-  class Guard;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(NUnit::Framework::Guard);
-DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Guard*, "NUnit.Framework", "Guard");
 // Type namespace: NUnit.Framework
 namespace NUnit::Framework {
   // Size: 0x10
@@ -22,19 +14,23 @@ namespace NUnit::Framework {
   // [TokenAttribute] Offset: FFFFFFFF
   class Guard : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: Guard
+    Guard() noexcept {}
     // static public System.Void ArgumentNotNull(System.Object value, System.String name)
-    // Offset: 0x191BF5C
+    // Offset: 0x1941120
     static void ArgumentNotNull(::Il2CppObject* value, ::Il2CppString* name);
     // static public System.Void ArgumentNotNullOrEmpty(System.String value, System.String name)
-    // Offset: 0x191C010
+    // Offset: 0x19411D4
     static void ArgumentNotNullOrEmpty(::Il2CppString* value, ::Il2CppString* name);
     // static public System.Void ArgumentValid(System.Boolean condition, System.String message, System.String paramName)
-    // Offset: 0x191C0F0
+    // Offset: 0x19412B4
     static void ArgumentValid(bool condition, ::Il2CppString* message, ::Il2CppString* paramName);
   }; // NUnit.Framework.Guard
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Guard*, "NUnit.Framework", "Guard");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Guard::ArgumentNotNull
 // Il2CppName: ArgumentNotNull
 template<>

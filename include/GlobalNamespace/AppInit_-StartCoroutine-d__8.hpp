@@ -3,27 +3,19 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: AppInit
 #include "GlobalNamespace/AppInit.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
 #include "System/Collections/Generic/IEnumerator_1.hpp"
 // Including type: AppInit/AppStartType
 #include "GlobalNamespace/AppInit_AppStartType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <StartCoroutine>d__8
-  class $StartCoroutine$d__8;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::AppInit::$StartCoroutine$d__8);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AppInit::$StartCoroutine$d__8*, "", "AppInit/<StartCoroutine>d__8");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x2C
@@ -33,11 +25,6 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class AppInit::$StartCoroutine$d__8 : public ::Il2CppObject/*, public System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -64,7 +51,8 @@ namespace GlobalNamespace {
     GlobalNamespace::AppInit::AppStartType $startType$5__2;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AppInit::AppStartType) == 0x4);
-    public:
+    // Creating value type constructor for type: $StartCoroutine$d__8
+    $StartCoroutine$d__8(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, GlobalNamespace::AppInit* $$4__this_ = {}, GlobalNamespace::AppInit::AppStartType $startType$5__2_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$4__this{$$4__this_}, $startType$5__2{$startType$5__2_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
@@ -78,33 +66,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private AppInit/AppStartType <startType>5__2
     GlobalNamespace::AppInit::AppStartType& dyn_$startType$5__2();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x261AB8C
+    // Offset: 0x13116D0
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x261ABF4
+    // Offset: 0x1311738
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x261A698
+    // Offset: 0x13111DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AppInit::$StartCoroutine$d__8* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AppInit::$StartCoroutine$d__8::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AppInit::$StartCoroutine$d__8*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x261A998
+    // Offset: 0x13114DC
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x261A99C
+    // Offset: 0x13114E0
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x261AB94
+    // Offset: 0x13116D8
     void System_Collections_IEnumerator_Reset();
   }; // AppInit/<StartCoroutine>d__8
   #pragma pack(pop)
   static check_size<sizeof(AppInit::$StartCoroutine$d__8), 40 + sizeof(GlobalNamespace::AppInit::AppStartType)> __GlobalNamespace_AppInit_$StartCoroutine$d__8SizeCheck;
   static_assert(sizeof(AppInit::$StartCoroutine$d__8) == 0x2C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AppInit::$StartCoroutine$d__8*, "", "AppInit/<StartCoroutine>d__8");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AppInit::$StartCoroutine$d__8::System_Collections_Generic_IEnumerator$System_Object$_get_Current
 // Il2CppName: System.Collections.Generic.IEnumerator<System.Object>.get_Current
 template<>

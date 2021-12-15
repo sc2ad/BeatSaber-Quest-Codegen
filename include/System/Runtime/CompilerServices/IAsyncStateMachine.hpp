@@ -3,16 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Type namespace: System.Runtime.CompilerServices
-namespace System::Runtime::CompilerServices {
-  // Forward declaring type: IAsyncStateMachine
-  class IAsyncStateMachine;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::CompilerServices::IAsyncStateMachine);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::IAsyncStateMachine*, "System.Runtime.CompilerServices", "IAsyncStateMachine");
 // Type namespace: System.Runtime.CompilerServices
 namespace System::Runtime::CompilerServices {
   // Size: 0x10
@@ -21,6 +13,8 @@ namespace System::Runtime::CompilerServices {
   // [TokenAttribute] Offset: FFFFFFFF
   class IAsyncStateMachine {
     public:
+    // Creating value type constructor for type: IAsyncStateMachine
+    IAsyncStateMachine() noexcept {}
     // public System.Void MoveNext()
     // Offset: 0xFFFFFFFF
     void MoveNext();
@@ -30,7 +24,9 @@ namespace System::Runtime::CompilerServices {
   }; // System.Runtime.CompilerServices.IAsyncStateMachine
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::IAsyncStateMachine*, "System.Runtime.CompilerServices", "IAsyncStateMachine");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::IAsyncStateMachine::MoveNext
 // Il2CppName: MoveNext
 template<>

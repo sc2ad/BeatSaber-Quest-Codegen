@@ -3,21 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: ConfigSerializer
-  class ConfigSerializer;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::ConfigSerializer);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConfigSerializer*, "", "ConfigSerializer");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -26,14 +18,16 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ConfigSerializer : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: ConfigSerializer
+    ConfigSerializer() noexcept {}
     // static public System.Void SaveConfig(System.Object config, System.String filePath)
-    // Offset: 0x135E5AC
+    // Offset: 0x138F18C
     static void SaveConfig(::Il2CppObject* config, ::Il2CppString* filePath);
     // static public System.Boolean LoadConfig(System.Object config, System.String filePath)
-    // Offset: 0x135E9E4
+    // Offset: 0x138F5C4
     static bool LoadConfig(::Il2CppObject* config, ::Il2CppString* filePath);
     // public System.Void .ctor()
-    // Offset: 0x135EFAC
+    // Offset: 0x138FB8C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -44,7 +38,8 @@ namespace GlobalNamespace {
   }; // ConfigSerializer
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConfigSerializer*, "", "ConfigSerializer");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ConfigSerializer::SaveConfig
 // Il2CppName: SaveConfig
 template<>

@@ -3,8 +3,8 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: UnityEngine.Experimental.GlobalIllumination.LightMode
@@ -16,13 +16,6 @@
 // Completed includes
 // Type namespace: UnityEngine.Experimental.GlobalIllumination
 namespace UnityEngine::Experimental::GlobalIllumination {
-  // Forward declaring type: DirectionalLight
-  struct DirectionalLight;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::DirectionalLight, "UnityEngine.Experimental.GlobalIllumination", "DirectionalLight");
-// Type namespace: UnityEngine.Experimental.GlobalIllumination
-namespace UnityEngine::Experimental::GlobalIllumination {
   // Size: 0x38
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -30,11 +23,6 @@ namespace UnityEngine::Experimental::GlobalIllumination {
   // [TokenAttribute] Offset: FFFFFFFF
   struct DirectionalLight/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public System.Int32 instanceID
     // Size: 0x4
     // Offset: 0x0
@@ -79,7 +67,6 @@ namespace UnityEngine::Experimental::GlobalIllumination {
     float penumbraWidthRadian;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    public:
     // Creating value type constructor for type: DirectionalLight
     constexpr DirectionalLight(int instanceID_ = {}, bool shadow_ = {}, UnityEngine::Experimental::GlobalIllumination::LightMode mode_ = {}, UnityEngine::Vector3 direction_ = {}, UnityEngine::Experimental::GlobalIllumination::LinearColor color_ = {}, UnityEngine::Experimental::GlobalIllumination::LinearColor indirectColor_ = {}, float penumbraWidthRadian_ = {}) noexcept : instanceID{instanceID_}, shadow{shadow_}, mode{mode_}, direction{direction_}, color{color_}, indirectColor{indirectColor_}, penumbraWidthRadian{penumbraWidthRadian_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -105,4 +92,6 @@ namespace UnityEngine::Experimental::GlobalIllumination {
   static check_size<sizeof(DirectionalLight), 52 + sizeof(float)> __UnityEngine_Experimental_GlobalIllumination_DirectionalLightSizeCheck;
   static_assert(sizeof(DirectionalLight) == 0x38);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::DirectionalLight, "UnityEngine.Experimental.GlobalIllumination", "DirectionalLight");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

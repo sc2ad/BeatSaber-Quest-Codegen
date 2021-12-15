@@ -3,9 +3,13 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Threading
@@ -19,13 +23,6 @@ namespace System::Threading {
 // Completed forward declares
 // Type namespace: System.Threading
 namespace System::Threading {
-  // Forward declaring type: CancellationCallbackCoreWorkArguments
-  struct CancellationCallbackCoreWorkArguments;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::CancellationCallbackCoreWorkArguments, "System.Threading", "CancellationCallbackCoreWorkArguments");
-// Type namespace: System.Threading
-namespace System::Threading {
   // Size: 0xC
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -33,11 +30,6 @@ namespace System::Threading {
   // [TokenAttribute] Offset: FFFFFFFF
   struct CancellationCallbackCoreWorkArguments/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // System.Threading.SparselyPopulatedArrayFragment`1<System.Threading.CancellationCallbackInfo> m_currArrayFragment
     // Size: 0x8
     // Offset: 0x0
@@ -50,7 +42,6 @@ namespace System::Threading {
     int m_currArrayIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    public:
     // Creating value type constructor for type: CancellationCallbackCoreWorkArguments
     constexpr CancellationCallbackCoreWorkArguments(System::Threading::SparselyPopulatedArrayFragment_1<System::Threading::CancellationCallbackInfo*>* m_currArrayFragment_ = {}, int m_currArrayIndex_ = {}) noexcept : m_currArrayFragment{m_currArrayFragment_}, m_currArrayIndex{m_currArrayIndex_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -62,14 +53,16 @@ namespace System::Threading {
     // Get instance field reference: System.Int32 m_currArrayIndex
     int& dyn_m_currArrayIndex();
     // public System.Void .ctor(System.Threading.SparselyPopulatedArrayFragment`1<System.Threading.CancellationCallbackInfo> currArrayFragment, System.Int32 currArrayIndex)
-    // Offset: 0x1A3A578
-    // ABORTED: conflicts with another method.  CancellationCallbackCoreWorkArguments(System::Threading::SparselyPopulatedArrayFragment_1<System::Threading::CancellationCallbackInfo*>* currArrayFragment, int currArrayIndex);
+    // Offset: 0x1A59C98
+    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    // ABORTED: conflicts with another method.  CancellationCallbackCoreWorkArguments(System::Threading::SparselyPopulatedArrayFragment_1<System::Threading::CancellationCallbackInfo*>* currArrayFragment, int currArrayIndex)
   }; // System.Threading.CancellationCallbackCoreWorkArguments
   #pragma pack(pop)
   static check_size<sizeof(CancellationCallbackCoreWorkArguments), 8 + sizeof(int)> __System_Threading_CancellationCallbackCoreWorkArgumentsSizeCheck;
   static_assert(sizeof(CancellationCallbackCoreWorkArguments) == 0xC);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::CancellationCallbackCoreWorkArguments, "System.Threading", "CancellationCallbackCoreWorkArguments");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::CancellationCallbackCoreWorkArguments::CancellationCallbackCoreWorkArguments
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

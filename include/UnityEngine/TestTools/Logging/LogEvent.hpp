@@ -3,23 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.LogType
 #include "UnityEngine/LogType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: UnityEngine.TestTools.Logging
-namespace UnityEngine::TestTools::Logging {
-  // Forward declaring type: LogEvent
-  class LogEvent;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::TestTools::Logging::LogEvent);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Logging::LogEvent*, "UnityEngine.TestTools.Logging", "LogEvent");
 // Type namespace: UnityEngine.TestTools.Logging
 namespace UnityEngine::TestTools::Logging {
   // Size: 0x25
@@ -28,11 +20,6 @@ namespace UnityEngine::TestTools::Logging {
   // [TokenAttribute] Offset: FFFFFFFF
   class LogEvent : public ::Il2CppObject {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // private System.String <Message>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -57,7 +44,8 @@ namespace UnityEngine::TestTools::Logging {
     bool IsHandled;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: LogEvent
+    LogEvent(::Il2CppString* Message_ = {}, ::Il2CppString* StackTrace_ = {}, UnityEngine::LogType LogType_ = {}, bool IsHandled_ = {}) noexcept : Message{Message_}, StackTrace{StackTrace_}, LogType{LogType_}, IsHandled{IsHandled_} {}
     // Get instance field reference: private System.String <Message>k__BackingField
     ::Il2CppString*& dyn_$Message$k__BackingField();
     // Get instance field reference: private System.String <StackTrace>k__BackingField
@@ -67,31 +55,31 @@ namespace UnityEngine::TestTools::Logging {
     // Get instance field reference: private System.Boolean <IsHandled>k__BackingField
     bool& dyn_$IsHandled$k__BackingField();
     // public System.String get_Message()
-    // Offset: 0x1654200
+    // Offset: 0x16CFE44
     ::Il2CppString* get_Message();
     // public System.Void set_Message(System.String value)
-    // Offset: 0x1654208
+    // Offset: 0x16CFE4C
     void set_Message(::Il2CppString* value);
     // public System.String get_StackTrace()
-    // Offset: 0x1654210
+    // Offset: 0x16CFE54
     ::Il2CppString* get_StackTrace();
     // public System.Void set_StackTrace(System.String value)
-    // Offset: 0x1654218
+    // Offset: 0x16CFE5C
     void set_StackTrace(::Il2CppString* value);
     // public UnityEngine.LogType get_LogType()
-    // Offset: 0x1654220
+    // Offset: 0x16CFE64
     UnityEngine::LogType get_LogType();
     // public System.Void set_LogType(UnityEngine.LogType value)
-    // Offset: 0x1654228
+    // Offset: 0x16CFE6C
     void set_LogType(UnityEngine::LogType value);
     // public System.Boolean get_IsHandled()
-    // Offset: 0x1654230
+    // Offset: 0x16CFE74
     bool get_IsHandled();
     // public System.Void set_IsHandled(System.Boolean value)
-    // Offset: 0x1654238
+    // Offset: 0x16CFE7C
     void set_IsHandled(bool value);
     // public System.Void .ctor()
-    // Offset: 0x16542C8
+    // Offset: 0x16CFF0C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -100,7 +88,7 @@ namespace UnityEngine::TestTools::Logging {
       return THROW_UNLESS((::il2cpp_utils::New<LogEvent*, creationType>()));
     }
     // public override System.String ToString()
-    // Offset: 0x1654244
+    // Offset: 0x16CFE88
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
@@ -109,7 +97,8 @@ namespace UnityEngine::TestTools::Logging {
   static check_size<sizeof(LogEvent), 36 + sizeof(bool)> __UnityEngine_TestTools_Logging_LogEventSizeCheck;
   static_assert(sizeof(LogEvent) == 0x25);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Logging::LogEvent*, "UnityEngine.TestTools.Logging", "LogEvent");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogEvent::get_Message
 // Il2CppName: get_Message
 template<>

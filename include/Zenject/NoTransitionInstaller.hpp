@@ -3,30 +3,24 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Zenject
 namespace Zenject {
   // Forward declaring type: DiContainer
   class DiContainer;
+  // Forward declaring type: InjectTypeInfo
+  class InjectTypeInfo;
 }
 // Completed forward declares
-// Type namespace: Zenject
-namespace Zenject {
-  // Forward declaring type: NoTransitionInstaller
-  class NoTransitionInstaller;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::NoTransitionInstaller);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::NoTransitionInstaller*, "Zenject", "NoTransitionInstaller");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x18
@@ -35,14 +29,19 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class NoTransitionInstaller : public UnityEngine::MonoBehaviour {
     public:
+    // Creating value type constructor for type: NoTransitionInstaller
+    NoTransitionInstaller() noexcept {}
     // public System.Void InstallBindings(Zenject.DiContainer container)
-    // Offset: 0x187C9B4
+    // Offset: 0x18DBF38
     void InstallBindings(Zenject::DiContainer* container);
     // public System.Void PostInstall(Zenject.DiContainer container)
-    // Offset: 0x187C9B8
+    // Offset: 0x18DBF3C
     void PostInstall(Zenject::DiContainer* container);
+    // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
+    // Offset: 0x18DBF48
+    static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
-    // Offset: 0x187C9BC
+    // Offset: 0x18DBF40
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -57,7 +56,8 @@ namespace Zenject {
   }; // Zenject.NoTransitionInstaller
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Zenject::NoTransitionInstaller*, "Zenject", "NoTransitionInstaller");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::NoTransitionInstaller::InstallBindings
 // Il2CppName: InstallBindings
 template<>
@@ -74,6 +74,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
   static const MethodInfo* get() {
     static auto* container = &::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::NoTransitionInstaller*), "PostInstall", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{container});
+  }
+};
+// Writing MetadataGetter for method: Zenject::NoTransitionInstaller::__zenCreateInjectTypeInfo
+// Il2CppName: __zenCreateInjectTypeInfo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo* (*)()>(&Zenject::NoTransitionInstaller::__zenCreateInjectTypeInfo)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Zenject::NoTransitionInstaller*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: Zenject::NoTransitionInstaller::New_ctor

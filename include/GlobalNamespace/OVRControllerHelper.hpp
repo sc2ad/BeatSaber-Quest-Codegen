@@ -3,16 +3,16 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: OVRInput/Controller
 #include "GlobalNamespace/OVRInput.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -23,14 +23,6 @@ namespace UnityEngine {
   class Animator;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: OVRControllerHelper
-  class OVRControllerHelper;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRControllerHelper);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRControllerHelper*, "", "OVRControllerHelper");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x5E
@@ -47,18 +39,12 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct ControllerType/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
-      public:
-      #else
-      protected:
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      public:
       // Creating value type constructor for type: ControllerType
       constexpr ControllerType(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -93,11 +79,6 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(OVRControllerHelper::ControllerType), 0 + sizeof(int)> __GlobalNamespace_OVRControllerHelper_ControllerTypeSizeCheck;
     static_assert(sizeof(OVRControllerHelper::ControllerType) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public UnityEngine.GameObject m_modelOculusTouchQuestAndRiftSLeftController
     // Size: 0x8
     // Offset: 0x18
@@ -166,7 +147,8 @@ namespace GlobalNamespace {
     bool m_prevControllerConnectedCached;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    public:
+    // Creating value type constructor for type: OVRControllerHelper
+    OVRControllerHelper(UnityEngine::GameObject* m_modelOculusTouchQuestAndRiftSLeftController_ = {}, UnityEngine::GameObject* m_modelOculusTouchQuestAndRiftSRightController_ = {}, UnityEngine::GameObject* m_modelOculusTouchRiftLeftController_ = {}, UnityEngine::GameObject* m_modelOculusTouchRiftRightController_ = {}, UnityEngine::GameObject* m_modelOculusTouchQuest2LeftController_ = {}, UnityEngine::GameObject* m_modelOculusTouchQuest2RightController_ = {}, GlobalNamespace::OVRInput::Controller m_controller_ = {}, UnityEngine::Animator* m_animator_ = {}, GlobalNamespace::OVRControllerHelper::ControllerType activeControllerType_ = {}, bool m_prevControllerConnected_ = {}, bool m_prevControllerConnectedCached_ = {}) noexcept : m_modelOculusTouchQuestAndRiftSLeftController{m_modelOculusTouchQuestAndRiftSLeftController_}, m_modelOculusTouchQuestAndRiftSRightController{m_modelOculusTouchQuestAndRiftSRightController_}, m_modelOculusTouchRiftLeftController{m_modelOculusTouchRiftLeftController_}, m_modelOculusTouchRiftRightController{m_modelOculusTouchRiftRightController_}, m_modelOculusTouchQuest2LeftController{m_modelOculusTouchQuest2LeftController_}, m_modelOculusTouchQuest2RightController{m_modelOculusTouchQuest2RightController_}, m_controller{m_controller_}, m_animator{m_animator_}, activeControllerType{activeControllerType_}, m_prevControllerConnected{m_prevControllerConnected_}, m_prevControllerConnectedCached{m_prevControllerConnectedCached_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public UnityEngine.GameObject m_modelOculusTouchQuestAndRiftSLeftController
@@ -192,13 +174,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean m_prevControllerConnectedCached
     bool& dyn_m_prevControllerConnectedCached();
     // private System.Void Start()
-    // Offset: 0x139D9E8
+    // Offset: 0x13DD97C
     void Start();
     // private System.Void Update()
-    // Offset: 0x139DC08
+    // Offset: 0x13DDB9C
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x139E16C
+    // Offset: 0x13DE100
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -215,9 +197,9 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRControllerHelper), 93 + sizeof(bool)> __GlobalNamespace_OVRControllerHelperSizeCheck;
   static_assert(sizeof(OVRControllerHelper) == 0x5E);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRControllerHelper*, "", "OVRControllerHelper");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRControllerHelper::ControllerType, "", "OVRControllerHelper/ControllerType");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRControllerHelper::Start
 // Il2CppName: Start
 template<>

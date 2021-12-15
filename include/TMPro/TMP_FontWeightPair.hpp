@@ -3,7 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
@@ -16,13 +16,6 @@ namespace TMPro {
 // Completed forward declares
 // Type namespace: TMPro
 namespace TMPro {
-  // Forward declaring type: TMP_FontWeightPair
-  struct TMP_FontWeightPair;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_FontWeightPair, "TMPro", "TMP_FontWeightPair");
-// Type namespace: TMPro
-namespace TMPro {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -30,11 +23,6 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   struct TMP_FontWeightPair/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
-    public:
-    #else
-    protected:
-    #endif
     // public TMPro.TMP_FontAsset regularTypeface
     // Size: 0x8
     // Offset: 0x0
@@ -47,7 +35,6 @@ namespace TMPro {
     TMPro::TMP_FontAsset* italicTypeface;
     // Field size check
     static_assert(sizeof(TMPro::TMP_FontAsset*) == 0x8);
-    public:
     // Creating value type constructor for type: TMP_FontWeightPair
     constexpr TMP_FontWeightPair(TMPro::TMP_FontAsset* regularTypeface_ = {}, TMPro::TMP_FontAsset* italicTypeface_ = {}) noexcept : regularTypeface{regularTypeface_}, italicTypeface{italicTypeface_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -63,4 +50,6 @@ namespace TMPro {
   static check_size<sizeof(TMP_FontWeightPair), 8 + sizeof(TMPro::TMP_FontAsset*)> __TMPro_TMP_FontWeightPairSizeCheck;
   static_assert(sizeof(TMP_FontWeightPair) == 0x10);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_FontWeightPair, "TMPro", "TMP_FontWeightPair");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

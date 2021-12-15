@@ -3,25 +3,17 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-#include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OculusInit
 #include "GlobalNamespace/OculusInit.hpp"
 // Including type: Oculus.Platform.Message
 #include "Oculus/Platform/Message.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <>c
-  class $$c;
-}
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OculusInit::$$c);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusInit::$$c*, "", "OculusInit/<>c");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -31,6 +23,8 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class OculusInit::$$c : public ::Il2CppObject {
     public:
+    // Creating value type constructor for type: $$c
+    $$c() noexcept {}
     // Get static field: static public readonly OculusInit/<>c <>9
     static GlobalNamespace::OculusInit::$$c* _get_$$9();
     // Set static field: static public readonly OculusInit/<>c <>9
@@ -40,13 +34,13 @@ namespace GlobalNamespace {
     // Set static field: static public Oculus.Platform.Message/Oculus.Platform.Callback <>9__3_0
     static void _set_$$9__3_0(Oculus::Platform::Message::Callback* value);
     // static private System.Void .cctor()
-    // Offset: 0x1348D8C
+    // Offset: 0x136806C
     static void _cctor();
     // System.Void <InitCallback>b__3_0(Oculus.Platform.Message message)
-    // Offset: 0x1348DF8
+    // Offset: 0x13680D8
     void $InitCallback$b__3_0(Oculus::Platform::Message* message);
     // public System.Void .ctor()
-    // Offset: 0x1348DF0
+    // Offset: 0x13680D0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -57,7 +51,8 @@ namespace GlobalNamespace {
   }; // OculusInit/<>c
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusInit::$$c*, "", "OculusInit/<>c");
+#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OculusInit::$$c::_cctor
 // Il2CppName: .cctor
 template<>
