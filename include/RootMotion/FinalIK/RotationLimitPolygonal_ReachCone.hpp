@@ -13,7 +13,16 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: RootMotion.FinalIK
+namespace RootMotion::FinalIK {
+  // Forward declaring type: ReachCone
+  class ReachCone;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(RootMotion::FinalIK::RotationLimitPolygonal::ReachCone);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RotationLimitPolygonal::ReachCone*, "RootMotion.FinalIK", "RotationLimitPolygonal/ReachCone");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
   // Size: 0x34
@@ -22,12 +31,21 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class RotationLimitPolygonal::ReachCone : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public UnityEngine.Vector3[] tetrahedron
     // Size: 0x8
     // Offset: 0x10
-    ::Array<UnityEngine::Vector3>* tetrahedron;
+    ::ArrayW<UnityEngine::Vector3> tetrahedron;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Vector3>*) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Vector3>) == 0x8);
     // public System.Single volume
     // Size: 0x4
     // Offset: 0x18
@@ -46,10 +64,9 @@ namespace RootMotion::FinalIK {
     UnityEngine::Vector3 B;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // Creating value type constructor for type: ReachCone
-    ReachCone(::Array<UnityEngine::Vector3>* tetrahedron_ = {}, float volume_ = {}, UnityEngine::Vector3 S_ = {}, UnityEngine::Vector3 B_ = {}) noexcept : tetrahedron{tetrahedron_}, volume{volume_}, S{S_}, B{B_} {}
+    public:
     // Get instance field reference: public UnityEngine.Vector3[] tetrahedron
-    ::Array<UnityEngine::Vector3>*& dyn_tetrahedron();
+    ::ArrayW<UnityEngine::Vector3>& dyn_tetrahedron();
     // Get instance field reference: public System.Single volume
     float& dyn_volume();
     // Get instance field reference: public UnityEngine.Vector3 S
@@ -86,7 +103,6 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(RotationLimitPolygonal::ReachCone), 40 + sizeof(UnityEngine::Vector3)> __RootMotion_FinalIK_RotationLimitPolygonal_ReachConeSizeCheck;
   static_assert(sizeof(RotationLimitPolygonal::ReachCone) == 0x34);
 }
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RotationLimitPolygonal::ReachCone*, "RootMotion.FinalIK", "RotationLimitPolygonal/ReachCone");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::RotationLimitPolygonal::ReachCone::get_o
 // Il2CppName: get_o

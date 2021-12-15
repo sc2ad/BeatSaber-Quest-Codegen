@@ -42,6 +42,13 @@ namespace System {
 // Completed forward declares
 // Type namespace: System
 namespace System {
+  // Forward declaring type: Byte
+  struct Byte;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Byte, "System", "Byte");
+// Type namespace: System
+namespace System {
   // Size: 0x1
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -50,12 +57,22 @@ namespace System {
   // [ComVisibleAttribute] Offset: E9D428
   struct Byte/*, public System::ValueType, public System::IComparable_1<uint8_t>, public System::IEquatable_1<uint8_t>, public System::IComparable, public System::IConvertible, public System::IFormattable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.Byte m_value
     // Size: 0x1
     // Offset: 0x0
     uint8_t m_value;
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
+    public:
     // Creating value type constructor for type: Byte
     constexpr Byte(uint8_t m_value_ = {}) noexcept : m_value{m_value_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -204,8 +221,6 @@ namespace System {
   static check_size<sizeof(Byte), 0 + sizeof(uint8_t)> __System_ByteSizeCheck;
   static_assert(sizeof(Byte) == 0x1);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Byte, "System", "Byte");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Byte::CompareTo
 // Il2CppName: CompareTo

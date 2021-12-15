@@ -14,6 +14,13 @@ namespace Valve::VR {
 // Completed forward declares
 // Type namespace: Valve.VR
 namespace Valve::VR {
+  // Forward declaring type: IVRCompositor
+  struct IVRCompositor;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRCompositor, "Valve.VR", "IVRCompositor");
+// Type namespace: Valve.VR
+namespace Valve::VR {
   // Size: 0x158
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -107,6 +114,15 @@ namespace Valve::VR {
     class _SetExplicitTimingMode;
     // Nested type: Valve::VR::IVRCompositor::_SubmitExplicitTimingData
     class _SubmitExplicitTimingData;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // Valve.VR.IVRCompositor/Valve.VR._SetTrackingSpace SetTrackingSpace
     // Size: 0x8
     // Offset: 0x0
@@ -365,6 +381,7 @@ namespace Valve::VR {
     Valve::VR::IVRCompositor::_SubmitExplicitTimingData* SubmitExplicitTimingData;
     // Field size check
     static_assert(sizeof(Valve::VR::IVRCompositor::_SubmitExplicitTimingData*) == 0x8);
+    public:
     // Creating value type constructor for type: IVRCompositor
     constexpr IVRCompositor(Valve::VR::IVRCompositor::_SetTrackingSpace* SetTrackingSpace_ = {}, Valve::VR::IVRCompositor::_GetTrackingSpace* GetTrackingSpace_ = {}, Valve::VR::IVRCompositor::_WaitGetPoses* WaitGetPoses_ = {}, Valve::VR::IVRCompositor::_GetLastPoses* GetLastPoses_ = {}, Valve::VR::IVRCompositor::_GetLastPoseForTrackedDeviceIndex* GetLastPoseForTrackedDeviceIndex_ = {}, Valve::VR::IVRCompositor::_Submit* Submit_ = {}, Valve::VR::IVRCompositor::_ClearLastSubmittedFrame* ClearLastSubmittedFrame_ = {}, Valve::VR::IVRCompositor::_PostPresentHandoff* PostPresentHandoff_ = {}, Valve::VR::IVRCompositor::_GetFrameTiming* GetFrameTiming_ = {}, Valve::VR::IVRCompositor::_GetFrameTimings* GetFrameTimings_ = {}, Valve::VR::IVRCompositor::_GetFrameTimeRemaining* GetFrameTimeRemaining_ = {}, Valve::VR::IVRCompositor::_GetCumulativeStats* GetCumulativeStats_ = {}, Valve::VR::IVRCompositor::_FadeToColor* FadeToColor_ = {}, Valve::VR::IVRCompositor::_GetCurrentFadeColor* GetCurrentFadeColor_ = {}, Valve::VR::IVRCompositor::_FadeGrid* FadeGrid_ = {}, Valve::VR::IVRCompositor::_GetCurrentGridAlpha* GetCurrentGridAlpha_ = {}, Valve::VR::IVRCompositor::_SetSkyboxOverride* SetSkyboxOverride_ = {}, Valve::VR::IVRCompositor::_ClearSkyboxOverride* ClearSkyboxOverride_ = {}, Valve::VR::IVRCompositor::_CompositorBringToFront* CompositorBringToFront_ = {}, Valve::VR::IVRCompositor::_CompositorGoToBack* CompositorGoToBack_ = {}, Valve::VR::IVRCompositor::_CompositorQuit* CompositorQuit_ = {}, Valve::VR::IVRCompositor::_IsFullscreen* IsFullscreen_ = {}, Valve::VR::IVRCompositor::_GetCurrentSceneFocusProcess* GetCurrentSceneFocusProcess_ = {}, Valve::VR::IVRCompositor::_GetLastFrameRenderer* GetLastFrameRenderer_ = {}, Valve::VR::IVRCompositor::_CanRenderScene* CanRenderScene_ = {}, Valve::VR::IVRCompositor::_ShowMirrorWindow* ShowMirrorWindow_ = {}, Valve::VR::IVRCompositor::_HideMirrorWindow* HideMirrorWindow_ = {}, Valve::VR::IVRCompositor::_IsMirrorWindowVisible* IsMirrorWindowVisible_ = {}, Valve::VR::IVRCompositor::_CompositorDumpImages* CompositorDumpImages_ = {}, Valve::VR::IVRCompositor::_ShouldAppRenderWithLowResources* ShouldAppRenderWithLowResources_ = {}, Valve::VR::IVRCompositor::_ForceInterleavedReprojectionOn* ForceInterleavedReprojectionOn_ = {}, Valve::VR::IVRCompositor::_ForceReconnectProcess* ForceReconnectProcess_ = {}, Valve::VR::IVRCompositor::_SuspendRendering* SuspendRendering_ = {}, Valve::VR::IVRCompositor::_GetMirrorTextureD3D11* GetMirrorTextureD3D11_ = {}, Valve::VR::IVRCompositor::_ReleaseMirrorTextureD3D11* ReleaseMirrorTextureD3D11_ = {}, Valve::VR::IVRCompositor::_GetMirrorTextureGL* GetMirrorTextureGL_ = {}, Valve::VR::IVRCompositor::_ReleaseSharedGLTexture* ReleaseSharedGLTexture_ = {}, Valve::VR::IVRCompositor::_LockGLSharedTextureForAccess* LockGLSharedTextureForAccess_ = {}, Valve::VR::IVRCompositor::_UnlockGLSharedTextureForAccess* UnlockGLSharedTextureForAccess_ = {}, Valve::VR::IVRCompositor::_GetVulkanInstanceExtensionsRequired* GetVulkanInstanceExtensionsRequired_ = {}, Valve::VR::IVRCompositor::_GetVulkanDeviceExtensionsRequired* GetVulkanDeviceExtensionsRequired_ = {}, Valve::VR::IVRCompositor::_SetExplicitTimingMode* SetExplicitTimingMode_ = {}, Valve::VR::IVRCompositor::_SubmitExplicitTimingData* SubmitExplicitTimingData_ = {}) noexcept : SetTrackingSpace{SetTrackingSpace_}, GetTrackingSpace{GetTrackingSpace_}, WaitGetPoses{WaitGetPoses_}, GetLastPoses{GetLastPoses_}, GetLastPoseForTrackedDeviceIndex{GetLastPoseForTrackedDeviceIndex_}, Submit{Submit_}, ClearLastSubmittedFrame{ClearLastSubmittedFrame_}, PostPresentHandoff{PostPresentHandoff_}, GetFrameTiming{GetFrameTiming_}, GetFrameTimings{GetFrameTimings_}, GetFrameTimeRemaining{GetFrameTimeRemaining_}, GetCumulativeStats{GetCumulativeStats_}, FadeToColor{FadeToColor_}, GetCurrentFadeColor{GetCurrentFadeColor_}, FadeGrid{FadeGrid_}, GetCurrentGridAlpha{GetCurrentGridAlpha_}, SetSkyboxOverride{SetSkyboxOverride_}, ClearSkyboxOverride{ClearSkyboxOverride_}, CompositorBringToFront{CompositorBringToFront_}, CompositorGoToBack{CompositorGoToBack_}, CompositorQuit{CompositorQuit_}, IsFullscreen{IsFullscreen_}, GetCurrentSceneFocusProcess{GetCurrentSceneFocusProcess_}, GetLastFrameRenderer{GetLastFrameRenderer_}, CanRenderScene{CanRenderScene_}, ShowMirrorWindow{ShowMirrorWindow_}, HideMirrorWindow{HideMirrorWindow_}, IsMirrorWindowVisible{IsMirrorWindowVisible_}, CompositorDumpImages{CompositorDumpImages_}, ShouldAppRenderWithLowResources{ShouldAppRenderWithLowResources_}, ForceInterleavedReprojectionOn{ForceInterleavedReprojectionOn_}, ForceReconnectProcess{ForceReconnectProcess_}, SuspendRendering{SuspendRendering_}, GetMirrorTextureD3D11{GetMirrorTextureD3D11_}, ReleaseMirrorTextureD3D11{ReleaseMirrorTextureD3D11_}, GetMirrorTextureGL{GetMirrorTextureGL_}, ReleaseSharedGLTexture{ReleaseSharedGLTexture_}, LockGLSharedTextureForAccess{LockGLSharedTextureForAccess_}, UnlockGLSharedTextureForAccess{UnlockGLSharedTextureForAccess_}, GetVulkanInstanceExtensionsRequired{GetVulkanInstanceExtensionsRequired_}, GetVulkanDeviceExtensionsRequired{GetVulkanDeviceExtensionsRequired_}, SetExplicitTimingMode{SetExplicitTimingMode_}, SubmitExplicitTimingData{SubmitExplicitTimingData_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -462,6 +479,4 @@ namespace Valve::VR {
   static check_size<sizeof(IVRCompositor), 336 + sizeof(Valve::VR::IVRCompositor::_SubmitExplicitTimingData*)> __Valve_VR_IVRCompositorSizeCheck;
   static_assert(sizeof(IVRCompositor) == 0x158);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRCompositor, "Valve.VR", "IVRCompositor");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

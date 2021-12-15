@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
+  // Forward declaring type: Fovf
+  struct Fovf;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Fovf, "", "OVRPlugin/Fovf");
+// Type namespace: 
+namespace GlobalNamespace {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -19,6 +26,15 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct OVRPlugin::Fovf/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.Single UpTan
     // Size: 0x4
     // Offset: 0x0
@@ -43,6 +59,7 @@ namespace GlobalNamespace {
     float RightTan;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: Fovf
     constexpr Fovf(float UpTan_ = {}, float DownTan_ = {}, float LeftTan_ = {}, float RightTan_ = {}) noexcept : UpTan{UpTan_}, DownTan{DownTan_}, LeftTan{LeftTan_}, RightTan{RightTan_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -62,6 +79,4 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRPlugin::Fovf), 12 + sizeof(float)> __GlobalNamespace_OVRPlugin_FovfSizeCheck;
   static_assert(sizeof(OVRPlugin::Fovf) == 0x10);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Fovf, "", "OVRPlugin/Fovf");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

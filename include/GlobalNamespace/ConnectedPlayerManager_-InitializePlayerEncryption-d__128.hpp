@@ -17,7 +17,15 @@
 #include "System/Runtime/CompilerServices/TaskAwaiter_1.hpp"
 // Including type: EncryptionUtility
 #include "GlobalNamespace/EncryptionUtility.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: 
+namespace GlobalNamespace {
+  // Forward declaring type: <InitializePlayerEncryption>d__128
+  struct $InitializePlayerEncryption$d__128;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConnectedPlayerManager::$InitializePlayerEncryption$d__128, "", "ConnectedPlayerManager/<InitializePlayerEncryption>d__128");
 // Type namespace: 
 namespace GlobalNamespace {
   // WARNING Size may be invalid!
@@ -26,6 +34,15 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   struct ConnectedPlayerManager::$InitializePlayerEncryption$d__128/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0
@@ -59,13 +76,14 @@ namespace GlobalNamespace {
     // private System.Runtime.CompilerServices.TaskAwaiter`1<System.Byte[]> <>u__1
     // Size: 0xFFFFFFFF
     // Offset: 0x40
-    System::Runtime::CompilerServices::TaskAwaiter_1<::Array<uint8_t>*> $$u__1;
+    System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<uint8_t>> $$u__1;
     // private System.Runtime.CompilerServices.TaskAwaiter`1<EncryptionUtility/IEncryptionState> <>u__2
     // Size: 0xFFFFFFFF
     // Offset: 0x48
     System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::EncryptionUtility::IEncryptionState*> $$u__2;
+    public:
     // Creating value type constructor for type: $InitializePlayerEncryption$d__128
-    constexpr $InitializePlayerEncryption$d__128(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncVoidMethodBuilder $$t__builder_ = {}, GlobalNamespace::ConnectedPlayerManager* $$4__this_ = {}, GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer* player_ = {}, bool $isClient$5__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<::Array<uint8_t>*> $$u__1_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::EncryptionUtility::IEncryptionState*> $$u__2_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, player{player_}, $isClient$5__2{$isClient$5__2_}, $$u__1{$$u__1_}, $$u__2{$$u__2_} {}
+    constexpr $InitializePlayerEncryption$d__128(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncVoidMethodBuilder $$t__builder_ = {}, GlobalNamespace::ConnectedPlayerManager* $$4__this_ = {}, GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer* player_ = {}, bool $isClient$5__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<uint8_t>> $$u__1_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::EncryptionUtility::IEncryptionState*> $$u__2_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, player{player_}, $isClient$5__2{$isClient$5__2_}, $$u__1{$$u__1_}, $$u__2{$$u__2_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -85,7 +103,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean <isClient>5__2
     bool& dyn_$isClient$5__2();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Byte[]> <>u__1
-    System::Runtime::CompilerServices::TaskAwaiter_1<::Array<uint8_t>*>& dyn_$$u__1();
+    System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<uint8_t>>& dyn_$$u__1();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<EncryptionUtility/IEncryptionState> <>u__2
     System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::EncryptionUtility::IEncryptionState*>& dyn_$$u__2();
     // private System.Void MoveNext()
@@ -97,8 +115,6 @@ namespace GlobalNamespace {
   }; // ConnectedPlayerManager/<InitializePlayerEncryption>d__128
   // WARNING Not writing size check since size may be invalid!
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConnectedPlayerManager::$InitializePlayerEncryption$d__128, "", "ConnectedPlayerManager/<InitializePlayerEncryption>d__128");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::$InitializePlayerEncryption$d__128::MoveNext
 // Il2CppName: MoveNext

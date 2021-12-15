@@ -6,11 +6,14 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
+// Type namespace: UnityEngine
+namespace UnityEngine {
+  // Forward declaring type: Keyframe
+  struct Keyframe;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Keyframe, "UnityEngine", "Keyframe");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x1C
@@ -21,6 +24,15 @@ namespace UnityEngine {
   // [RequiredByNativeCodeAttribute] Offset: EB26B4
   struct Keyframe/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.Single m_Time
     // Size: 0x4
     // Offset: 0x0
@@ -63,6 +75,7 @@ namespace UnityEngine {
     float m_OutWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: Keyframe
     constexpr Keyframe(float m_Time_ = {}, float m_Value_ = {}, float m_InTangent_ = {}, float m_OutTangent_ = {}, int m_WeightedMode_ = {}, float m_InWeight_ = {}, float m_OutWeight_ = {}) noexcept : m_Time{m_Time_}, m_Value{m_Value_}, m_InTangent{m_InTangent_}, m_OutTangent{m_OutTangent_}, m_WeightedMode{m_WeightedMode_}, m_InWeight{m_InWeight_}, m_OutWeight{m_OutWeight_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -109,26 +122,15 @@ namespace UnityEngine {
     void set_outTangent(float value);
     // public System.Void .ctor(System.Single time, System.Single value)
     // Offset: 0x1D9577C
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    Keyframe(float time, float value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Keyframe::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(time), ::il2cpp_utils::ExtractType(value)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, time, value);
-    }
+    Keyframe(float time, float value);
     // public System.Void .ctor(System.Single time, System.Single value, System.Single inTangent, System.Single outTangent)
     // Offset: 0x1D9578C
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    Keyframe(float time, float value, float inTangent, float outTangent) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Keyframe::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(time), ::il2cpp_utils::ExtractType(value), ::il2cpp_utils::ExtractType(inTangent), ::il2cpp_utils::ExtractType(outTangent)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, time, value, inTangent, outTangent);
-    }
+    Keyframe(float time, float value, float inTangent, float outTangent);
   }; // UnityEngine.Keyframe
   #pragma pack(pop)
   static check_size<sizeof(Keyframe), 24 + sizeof(float)> __UnityEngine_KeyframeSizeCheck;
   static_assert(sizeof(Keyframe) == 0x1C);
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Keyframe, "UnityEngine", "Keyframe");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Keyframe::get_time
 // Il2CppName: get_time

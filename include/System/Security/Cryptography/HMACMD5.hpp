@@ -11,7 +11,16 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: System.Security.Cryptography
+namespace System::Security::Cryptography {
+  // Forward declaring type: HMACMD5
+  class HMACMD5;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Security::Cryptography::HMACMD5);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::HMACMD5*, "System.Security.Cryptography", "HMACMD5");
 // Type namespace: System.Security.Cryptography
 namespace System::Security::Cryptography {
   // Size: 0x61
@@ -21,12 +30,10 @@ namespace System::Security::Cryptography {
   // [ComVisibleAttribute] Offset: EA08E8
   class HMACMD5 : public System::Security::Cryptography::HMAC {
     public:
-    // Creating value type constructor for type: HMACMD5
-    HMACMD5() noexcept {}
     // public System.Void .ctor(System.Byte[] key)
     // Offset: 0x1A98EE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static HMACMD5* New_ctor(::Array<uint8_t>* key) {
+    static HMACMD5* New_ctor(::ArrayW<uint8_t> key) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::HMACMD5::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HMACMD5*, creationType>(key)));
     }
@@ -45,7 +52,6 @@ namespace System::Security::Cryptography {
   }; // System.Security.Cryptography.HMACMD5
   #pragma pack(pop)
 }
-DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::HMACMD5*, "System.Security.Cryptography", "HMACMD5");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::HMACMD5::New_ctor
 // Il2CppName: .ctor

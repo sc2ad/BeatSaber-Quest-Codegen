@@ -3,7 +3,6 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
@@ -11,11 +10,17 @@
 #include "System/IDisposable.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
+// Begin il2cpp-utils forward declares
+struct Il2CppString;
+// Completed il2cpp-utils forward declares
+// Type namespace: Mono
+namespace Mono {
+  // Forward declaring type: SafeStringMarshal
+  struct SafeStringMarshal;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Mono::SafeStringMarshal, "Mono", "SafeStringMarshal");
 // Type namespace: Mono
 namespace Mono {
   // Size: 0x10
@@ -25,6 +30,15 @@ namespace Mono {
   // [TokenAttribute] Offset: FFFFFFFF
   struct SafeStringMarshal/*, public System::ValueType, public System::IDisposable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private readonly System.String str
     // Size: 0x8
     // Offset: 0x0
@@ -37,6 +51,7 @@ namespace Mono {
     System::IntPtr marshaled_string;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
+    public:
     // Creating value type constructor for type: SafeStringMarshal
     constexpr SafeStringMarshal(::Il2CppString* str_ = {}, System::IntPtr marshaled_string_ = {}) noexcept : str{str_}, marshaled_string{marshaled_string_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -56,12 +71,7 @@ namespace Mono {
     System::IntPtr get_Value();
     // public System.Void .ctor(System.String str)
     // Offset: 0x1C7B860
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    SafeStringMarshal(::Il2CppString* str) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Mono::SafeStringMarshal::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(str)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, str);
-    }
+    SafeStringMarshal(::Il2CppString* str);
     // static public System.IntPtr StringToUtf8(System.String str)
     // Offset: 0x1C7BBE4
     static System::IntPtr StringToUtf8(::Il2CppString* str);
@@ -76,7 +86,6 @@ namespace Mono {
   static check_size<sizeof(SafeStringMarshal), 8 + sizeof(System::IntPtr)> __Mono_SafeStringMarshalSizeCheck;
   static_assert(sizeof(SafeStringMarshal) == 0x10);
 }
-DEFINE_IL2CPP_ARG_TYPE(Mono::SafeStringMarshal, "Mono", "SafeStringMarshal");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::SafeStringMarshal::get_Value
 // Il2CppName: get_Value

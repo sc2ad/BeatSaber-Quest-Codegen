@@ -21,6 +21,14 @@ namespace System::Reflection {
 // Completed forward declares
 // Type namespace: System.Diagnostics
 namespace System::Diagnostics {
+  // Forward declaring type: StackFrame
+  class StackFrame;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Diagnostics::StackFrame);
+DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::StackFrame*, "System.Diagnostics", "StackFrame");
+// Type namespace: System.Diagnostics
+namespace System::Diagnostics {
   // Size: 0x48
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -30,6 +38,15 @@ namespace System::Diagnostics {
   // [ComVisibleAttribute] Offset: EA3DB8
   class StackFrame : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.Int32 ilOffset
     // Size: 0x4
     // Offset: 0x10
@@ -86,8 +103,7 @@ namespace System::Diagnostics {
     ::Il2CppString* internalMethodName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: StackFrame
-    StackFrame(int ilOffset_ = {}, int nativeOffset_ = {}, int64_t methodAddress_ = {}, uint methodIndex_ = {}, System::Reflection::MethodBase* methodBase_ = {}, ::Il2CppString* fileName_ = {}, int lineNumber_ = {}, int columnNumber_ = {}, ::Il2CppString* internalMethodName_ = {}) noexcept : ilOffset{ilOffset_}, nativeOffset{nativeOffset_}, methodAddress{methodAddress_}, methodIndex{methodIndex_}, methodBase{methodBase_}, fileName{fileName_}, lineNumber{lineNumber_}, columnNumber{columnNumber_}, internalMethodName{internalMethodName_} {}
+    public:
     // static field const value: static public System.Int32 OFFSET_UNKNOWN
     static constexpr const int OFFSET_UNKNOWN = -1;
     // Get static field: static public System.Int32 OFFSET_UNKNOWN
@@ -168,7 +184,6 @@ namespace System::Diagnostics {
   static check_size<sizeof(StackFrame), 64 + sizeof(::Il2CppString*)> __System_Diagnostics_StackFrameSizeCheck;
   static_assert(sizeof(StackFrame) == 0x48);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::StackFrame*, "System.Diagnostics", "StackFrame");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Diagnostics::StackFrame::New_ctor
 // Il2CppName: .ctor

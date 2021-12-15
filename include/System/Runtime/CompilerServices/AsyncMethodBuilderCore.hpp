@@ -33,6 +33,13 @@ namespace System::Threading {
 // Completed forward declares
 // Type namespace: System.Runtime.CompilerServices
 namespace System::Runtime::CompilerServices {
+  // Forward declaring type: AsyncMethodBuilderCore
+  struct AsyncMethodBuilderCore;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::AsyncMethodBuilderCore, "System.Runtime.CompilerServices", "AsyncMethodBuilderCore");
+// Type namespace: System.Runtime.CompilerServices
+namespace System::Runtime::CompilerServices {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -48,6 +55,15 @@ namespace System::Runtime::CompilerServices {
     class $$c__DisplayClass4_0;
     // Nested type: System::Runtime::CompilerServices::AsyncMethodBuilderCore::$$c
     class $$c;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // System.Runtime.CompilerServices.IAsyncStateMachine m_stateMachine
     // Size: 0x8
     // Offset: 0x0
@@ -60,6 +76,7 @@ namespace System::Runtime::CompilerServices {
     System::Action* m_defaultContextAction;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
+    public:
     // Creating value type constructor for type: AsyncMethodBuilderCore
     constexpr AsyncMethodBuilderCore(System::Runtime::CompilerServices::IAsyncStateMachine* m_stateMachine_ = {}, System::Action* m_defaultContextAction_ = {}) noexcept : m_stateMachine{m_stateMachine_}, m_defaultContextAction{m_defaultContextAction_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -96,8 +113,6 @@ namespace System::Runtime::CompilerServices {
   static check_size<sizeof(AsyncMethodBuilderCore), 8 + sizeof(System::Action*)> __System_Runtime_CompilerServices_AsyncMethodBuilderCoreSizeCheck;
   static_assert(sizeof(AsyncMethodBuilderCore) == 0x10);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::AsyncMethodBuilderCore, "System.Runtime.CompilerServices", "AsyncMethodBuilderCore");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::AsyncMethodBuilderCore::SetStateMachine
 // Il2CppName: SetStateMachine

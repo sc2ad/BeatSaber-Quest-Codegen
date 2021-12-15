@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -30,6 +31,14 @@ namespace UnityEngine::Networking {
 // Completed forward declares
 // Type namespace: UnityEngine.Networking
 namespace UnityEngine::Networking {
+  // Forward declaring type: DownloadHandlerTexture
+  class DownloadHandlerTexture;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::Networking::DownloadHandlerTexture);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::DownloadHandlerTexture*, "UnityEngine.Networking", "DownloadHandlerTexture");
+// Type namespace: UnityEngine.Networking
+namespace UnityEngine::Networking {
   // Size: 0x22
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -38,6 +47,15 @@ namespace UnityEngine::Networking {
   // [NativeHeaderAttribute] Offset: F1B980
   class DownloadHandlerTexture : public UnityEngine::Networking::DownloadHandler {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private UnityEngine.Texture2D mTexture
     // Size: 0x8
     // Offset: 0x18
@@ -56,8 +74,7 @@ namespace UnityEngine::Networking {
     bool mNonReadable;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: DownloadHandlerTexture
-    DownloadHandlerTexture(UnityEngine::Texture2D* mTexture_ = {}, bool mHasTexture_ = {}, bool mNonReadable_ = {}) noexcept : mTexture{mTexture_}, mHasTexture{mHasTexture_}, mNonReadable{mNonReadable_} {}
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Texture2D mTexture
@@ -95,13 +112,12 @@ namespace UnityEngine::Networking {
     // Offset: 0x26D480C
     // Implemented from: UnityEngine.Networking.DownloadHandler
     // Base method: System.Byte[] DownloadHandler::GetData()
-    ::Array<uint8_t>* GetData();
+    ::ArrayW<uint8_t> GetData();
   }; // UnityEngine.Networking.DownloadHandlerTexture
   #pragma pack(pop)
   static check_size<sizeof(DownloadHandlerTexture), 33 + sizeof(bool)> __UnityEngine_Networking_DownloadHandlerTextureSizeCheck;
   static_assert(sizeof(DownloadHandlerTexture) == 0x22);
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::DownloadHandlerTexture*, "UnityEngine.Networking", "DownloadHandlerTexture");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandlerTexture::get_texture
 // Il2CppName: get_texture
@@ -162,7 +178,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandlerTexture::GetData
 // Il2CppName: GetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (UnityEngine::Networking::DownloadHandlerTexture::*)()>(&UnityEngine::Networking::DownloadHandlerTexture::GetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (UnityEngine::Networking::DownloadHandlerTexture::*)()>(&UnityEngine::Networking::DownloadHandlerTexture::GetData)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::DownloadHandlerTexture*), "GetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

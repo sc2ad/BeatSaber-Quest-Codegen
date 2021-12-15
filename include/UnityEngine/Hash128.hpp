@@ -19,6 +19,13 @@ struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: Hash128
+  struct Hash128;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Hash128, "UnityEngine", "Hash128");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -28,6 +35,15 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: EB3F38
   struct Hash128/*, public System::ValueType, public System::IComparable_1<UnityEngine::Hash128>, public System::IEquatable_1<UnityEngine::Hash128>, public System::IComparable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.UInt32 m_u32_0
     // Size: 0x4
     // Offset: 0x0
@@ -52,6 +68,7 @@ namespace UnityEngine {
     uint m_u32_3;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
+    public:
     // Creating value type constructor for type: Hash128
     constexpr Hash128(uint m_u32_0_ = {}, uint m_u32_1_ = {}, uint m_u32_2_ = {}, uint m_u32_3_ = {}) noexcept : m_u32_0{m_u32_0_}, m_u32_1{m_u32_1_}, m_u32_2{m_u32_2_}, m_u32_3{m_u32_3_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -137,8 +154,6 @@ namespace UnityEngine {
   // Offset: 0x1D95174
   bool operator >(const UnityEngine::Hash128& x, const UnityEngine::Hash128& y);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Hash128, "UnityEngine", "Hash128");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Hash128::get_isValid
 // Il2CppName: get_isValid

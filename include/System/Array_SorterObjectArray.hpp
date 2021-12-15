@@ -9,10 +9,7 @@
 #include "System/Array.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections
@@ -23,6 +20,13 @@ namespace System::Collections {
 // Completed forward declares
 // Type namespace: System
 namespace System {
+  // Forward declaring type: SorterObjectArray
+  struct SorterObjectArray;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Array::SorterObjectArray, "System", "Array/SorterObjectArray");
+// Type namespace: System
+namespace System {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -30,40 +34,49 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Array::SorterObjectArray/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.Object[] keys
     // Size: 0x8
     // Offset: 0x0
-    ::Array<::Il2CppObject*>* keys;
+    ::ArrayW<::Il2CppObject*> keys;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppObject*>*) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppObject*>) == 0x8);
     // private System.Object[] items
     // Size: 0x8
     // Offset: 0x8
-    ::Array<::Il2CppObject*>* items;
+    ::ArrayW<::Il2CppObject*> items;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppObject*>*) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppObject*>) == 0x8);
     // private System.Collections.IComparer comparer
     // Size: 0x8
     // Offset: 0x10
     System::Collections::IComparer* comparer;
     // Field size check
     static_assert(sizeof(System::Collections::IComparer*) == 0x8);
+    public:
     // Creating value type constructor for type: SorterObjectArray
-    constexpr SorterObjectArray(::Array<::Il2CppObject*>* keys_ = {}, ::Array<::Il2CppObject*>* items_ = {}, System::Collections::IComparer* comparer_ = {}) noexcept : keys{keys_}, items{items_}, comparer{comparer_} {}
+    constexpr SorterObjectArray(::ArrayW<::Il2CppObject*> keys_ = ::ArrayW<::Il2CppObject*>(nullptr), ::ArrayW<::Il2CppObject*> items_ = ::ArrayW<::Il2CppObject*>(nullptr), System::Collections::IComparer* comparer_ = {}) noexcept : keys{keys_}, items{items_}, comparer{comparer_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // Get instance field reference: private System.Object[] keys
-    ::Array<::Il2CppObject*>*& dyn_keys();
+    ::ArrayW<::Il2CppObject*>& dyn_keys();
     // Get instance field reference: private System.Object[] items
-    ::Array<::Il2CppObject*>*& dyn_items();
+    ::ArrayW<::Il2CppObject*>& dyn_items();
     // Get instance field reference: private System.Collections.IComparer comparer
     System::Collections::IComparer*& dyn_comparer();
     // System.Void .ctor(System.Object[] keys, System.Object[] items, System.Collections.IComparer comparer)
     // Offset: 0x198FA9C
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    // ABORTED: conflicts with another method.  SorterObjectArray(::Array<::Il2CppObject*>* keys, ::Array<::Il2CppObject*>* items, System::Collections::IComparer* comparer)
+    // ABORTED: conflicts with another method.  SorterObjectArray(::ArrayW<::Il2CppObject*> keys, ::ArrayW<::Il2CppObject*> items, System::Collections::IComparer* comparer);
     // System.Void SwapIfGreaterWithItems(System.Int32 a, System.Int32 b)
     // Offset: 0x1990A98
     void SwapIfGreaterWithItems(int a, int b);
@@ -96,7 +109,6 @@ namespace System {
   static check_size<sizeof(Array::SorterObjectArray), 16 + sizeof(System::Collections::IComparer*)> __System_Array_SorterObjectArraySizeCheck;
   static_assert(sizeof(Array::SorterObjectArray) == 0x18);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::Array::SorterObjectArray, "System", "Array/SorterObjectArray");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Array::SorterObjectArray::SorterObjectArray
 // Il2CppName: .ctor

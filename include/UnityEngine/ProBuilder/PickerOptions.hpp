@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {
+  // Forward declaring type: PickerOptions
+  struct PickerOptions;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::PickerOptions, "UnityEngine.ProBuilder", "PickerOptions");
+// Type namespace: UnityEngine.ProBuilder
+namespace UnityEngine::ProBuilder {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -19,6 +26,15 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   struct PickerOptions/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.Boolean <depthTest>k__BackingField
     // Size: 0x1
     // Offset: 0x0
@@ -33,6 +49,7 @@ namespace UnityEngine::ProBuilder {
     UnityEngine::ProBuilder::RectSelectMode rectSelectMode;
     // Field size check
     static_assert(sizeof(UnityEngine::ProBuilder::RectSelectMode) == 0x4);
+    public:
     // Creating value type constructor for type: PickerOptions
     constexpr PickerOptions(bool depthTest_ = {}, UnityEngine::ProBuilder::RectSelectMode rectSelectMode_ = {}) noexcept : depthTest{depthTest_}, rectSelectMode{rectSelectMode_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -89,8 +106,6 @@ namespace UnityEngine::ProBuilder {
   // Offset: 0x1916858
   bool operator !=(const UnityEngine::ProBuilder::PickerOptions& a, const UnityEngine::ProBuilder::PickerOptions& b);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::PickerOptions, "UnityEngine.ProBuilder", "PickerOptions");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::PickerOptions::get_depthTest
 // Il2CppName: get_depthTest

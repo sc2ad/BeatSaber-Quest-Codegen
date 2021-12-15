@@ -6,14 +6,17 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct Il2CppString;
 // Completed il2cpp-utils forward declares
+// Type namespace: TMPro
+namespace TMPro {
+  // Forward declaring type: FontAssetCreationSettings
+  struct FontAssetCreationSettings;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::FontAssetCreationSettings, "TMPro", "FontAssetCreationSettings");
 // Type namespace: TMPro
 namespace TMPro {
   // Size: 0x55
@@ -23,6 +26,15 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   struct FontAssetCreationSettings/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.String sourceFontFileName
     // Size: 0x8
     // Offset: 0x0
@@ -121,6 +133,7 @@ namespace TMPro {
     bool includeFontFeatures;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating value type constructor for type: FontAssetCreationSettings
     constexpr FontAssetCreationSettings(::Il2CppString* sourceFontFileName_ = {}, ::Il2CppString* sourceFontFileGUID_ = {}, int pointSizeSamplingMode_ = {}, int pointSize_ = {}, int padding_ = {}, int packingMode_ = {}, int atlasWidth_ = {}, int atlasHeight_ = {}, int characterSetSelectionMode_ = {}, ::Il2CppString* characterSequence_ = {}, ::Il2CppString* referencedFontAssetGUID_ = {}, ::Il2CppString* referencedTextAssetGUID_ = {}, int fontStyle_ = {}, float fontStyleModifier_ = {}, int renderMode_ = {}, bool includeFontFeatures_ = {}) noexcept : sourceFontFileName{sourceFontFileName_}, sourceFontFileGUID{sourceFontFileGUID_}, pointSizeSamplingMode{pointSizeSamplingMode_}, pointSize{pointSize_}, padding{padding_}, packingMode{packingMode_}, atlasWidth{atlasWidth_}, atlasHeight{atlasHeight_}, characterSetSelectionMode{characterSetSelectionMode_}, characterSequence{characterSequence_}, referencedFontAssetGUID{referencedFontAssetGUID_}, referencedTextAssetGUID{referencedTextAssetGUID_}, fontStyle{fontStyle_}, fontStyleModifier{fontStyleModifier_}, renderMode{renderMode_}, includeFontFeatures{includeFontFeatures_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -161,18 +174,12 @@ namespace TMPro {
     bool& dyn_includeFontFeatures();
     // System.Void .ctor(System.String sourceFontFileGUID, System.Int32 pointSize, System.Int32 pointSizeSamplingMode, System.Int32 padding, System.Int32 packingMode, System.Int32 atlasWidth, System.Int32 atlasHeight, System.Int32 characterSelectionMode, System.String characterSet, System.Int32 renderMode)
     // Offset: 0x123E14C
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    FontAssetCreationSettings(::Il2CppString* sourceFontFileGUID, int pointSize, int pointSizeSamplingMode, int padding, int packingMode, int atlasWidth, int atlasHeight, int characterSelectionMode, ::Il2CppString* characterSet, int renderMode) {
-      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::FontAssetCreationSettings::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(sourceFontFileGUID), ::il2cpp_utils::ExtractType(pointSize), ::il2cpp_utils::ExtractType(pointSizeSamplingMode), ::il2cpp_utils::ExtractType(padding), ::il2cpp_utils::ExtractType(packingMode), ::il2cpp_utils::ExtractType(atlasWidth), ::il2cpp_utils::ExtractType(atlasHeight), ::il2cpp_utils::ExtractType(characterSelectionMode), ::il2cpp_utils::ExtractType(characterSet), ::il2cpp_utils::ExtractType(renderMode)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, sourceFontFileGUID, pointSize, pointSizeSamplingMode, padding, packingMode, atlasWidth, atlasHeight, characterSelectionMode, characterSet, renderMode);
-    }
+    FontAssetCreationSettings(::Il2CppString* sourceFontFileGUID, int pointSize, int pointSizeSamplingMode, int padding, int packingMode, int atlasWidth, int atlasHeight, int characterSelectionMode, ::Il2CppString* characterSet, int renderMode);
   }; // TMPro.FontAssetCreationSettings
   #pragma pack(pop)
   static check_size<sizeof(FontAssetCreationSettings), 84 + sizeof(bool)> __TMPro_FontAssetCreationSettingsSizeCheck;
   static_assert(sizeof(FontAssetCreationSettings) == 0x55);
 }
-DEFINE_IL2CPP_ARG_TYPE(TMPro::FontAssetCreationSettings, "TMPro", "FontAssetCreationSettings");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::FontAssetCreationSettings::FontAssetCreationSettings
 // Il2CppName: .ctor

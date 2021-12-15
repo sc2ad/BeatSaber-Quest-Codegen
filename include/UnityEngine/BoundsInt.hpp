@@ -10,10 +10,6 @@
 #include "System/IEquatable_1.hpp"
 // Including type: UnityEngine.Vector3Int
 #include "UnityEngine/Vector3Int.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -26,6 +22,13 @@ struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: BoundsInt
+  struct BoundsInt;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::BoundsInt, "UnityEngine", "BoundsInt");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -36,6 +39,15 @@ namespace UnityEngine {
     public:
     // Nested type: UnityEngine::BoundsInt::PositionEnumerator
     struct PositionEnumerator;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private UnityEngine.Vector3Int m_Position
     // Size: 0xC
     // Offset: 0x0
@@ -48,6 +60,7 @@ namespace UnityEngine {
     UnityEngine::Vector3Int m_Size;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3Int) == 0xC);
+    public:
     // Creating value type constructor for type: BoundsInt
     constexpr BoundsInt(UnityEngine::Vector3Int m_Position_ = {}, UnityEngine::Vector3Int m_Size_ = {}) noexcept : m_Position{m_Position_}, m_Size{m_Size_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -118,8 +131,7 @@ namespace UnityEngine {
     UnityEngine::BoundsInt::PositionEnumerator get_allPositionsWithin();
     // public System.Void .ctor(UnityEngine.Vector3Int position, UnityEngine.Vector3Int size)
     // Offset: 0x1D01F50
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    // ABORTED: conflicts with another method.  BoundsInt(UnityEngine::Vector3Int position, UnityEngine::Vector3Int size)
+    // ABORTED: conflicts with another method.  BoundsInt(UnityEngine::Vector3Int position, UnityEngine::Vector3Int size);
     // public System.Boolean Equals(UnityEngine.BoundsInt other)
     // Offset: 0x1D02138
     bool Equals(UnityEngine::BoundsInt other);
@@ -143,7 +155,6 @@ namespace UnityEngine {
   static check_size<sizeof(BoundsInt), 12 + sizeof(UnityEngine::Vector3Int)> __UnityEngine_BoundsIntSizeCheck;
   static_assert(sizeof(BoundsInt) == 0x18);
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::BoundsInt, "UnityEngine", "BoundsInt");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::BoundsInt::get_min
 // Il2CppName: get_min

@@ -19,6 +19,14 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: GUIContent
+  class GUIContent;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::GUIContent);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUIContent*, "UnityEngine", "GUIContent");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x28
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -28,6 +36,15 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: ED2724
   class GUIContent : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.String m_Text
     // Size: 0x8
     // Offset: 0x10
@@ -46,8 +63,7 @@ namespace UnityEngine {
     ::Il2CppString* m_Tooltip;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: GUIContent
-    GUIContent(::Il2CppString* m_Text_ = {}, UnityEngine::Texture* m_Image_ = {}, ::Il2CppString* m_Tooltip_ = {}) noexcept : m_Text{m_Text_}, m_Image{m_Image_}, m_Tooltip{m_Tooltip_} {}
+    public:
     // Get static field: static private readonly UnityEngine.GUIContent s_Text
     static UnityEngine::GUIContent* _get_s_Text();
     // Set static field: static private readonly UnityEngine.GUIContent s_Text
@@ -132,7 +148,6 @@ namespace UnityEngine {
   static check_size<sizeof(GUIContent), 32 + sizeof(::Il2CppString*)> __UnityEngine_GUIContentSizeCheck;
   static_assert(sizeof(GUIContent) == 0x28);
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUIContent*, "UnityEngine", "GUIContent");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::GUIContent::get_text
 // Il2CppName: get_text

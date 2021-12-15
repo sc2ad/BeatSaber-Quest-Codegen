@@ -17,7 +17,15 @@
 // Already included the same include: GlobalNamespace/OVRPlugin.hpp
 // Including type: OVRPlugin/TrackingConfidence
 // Already included the same include: GlobalNamespace/OVRPlugin.hpp
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: 
+namespace GlobalNamespace {
+  // Forward declaring type: HandState
+  struct HandState;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::HandState, "", "OVRPlugin/HandState");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x78
@@ -27,6 +35,15 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct OVRPlugin::HandState/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public OVRPlugin/HandStatus Status
     // Size: 0x4
     // Offset: 0x0
@@ -42,9 +59,9 @@ namespace GlobalNamespace {
     // public OVRPlugin/Quatf[] BoneRotations
     // Size: 0x8
     // Offset: 0x20
-    ::Array<GlobalNamespace::OVRPlugin::Quatf>* BoneRotations;
+    ::ArrayW<GlobalNamespace::OVRPlugin::Quatf> BoneRotations;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::OVRPlugin::Quatf>*) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::OVRPlugin::Quatf>) == 0x8);
     // public OVRPlugin/HandFingerPinch Pinches
     // Size: 0x4
     // Offset: 0x28
@@ -56,9 +73,9 @@ namespace GlobalNamespace {
     // public System.Single[] PinchStrength
     // Size: 0x8
     // Offset: 0x30
-    ::Array<float>* PinchStrength;
+    ::ArrayW<float> PinchStrength;
     // Field size check
-    static_assert(sizeof(::Array<float>*) == 0x8);
+    static_assert(sizeof(::ArrayW<float>) == 0x8);
     // public OVRPlugin/Posef PointerPose
     // Size: 0x1C
     // Offset: 0x38
@@ -82,9 +99,9 @@ namespace GlobalNamespace {
     // public OVRPlugin/TrackingConfidence[] FingerConfidences
     // Size: 0x8
     // Offset: 0x60
-    ::Array<GlobalNamespace::OVRPlugin::TrackingConfidence>* FingerConfidences;
+    ::ArrayW<GlobalNamespace::OVRPlugin::TrackingConfidence> FingerConfidences;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::OVRPlugin::TrackingConfidence>*) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::OVRPlugin::TrackingConfidence>) == 0x8);
     // public System.Double RequestedTimeStamp
     // Size: 0x8
     // Offset: 0x68
@@ -97,8 +114,9 @@ namespace GlobalNamespace {
     double SampleTimeStamp;
     // Field size check
     static_assert(sizeof(double) == 0x8);
+    public:
     // Creating value type constructor for type: HandState
-    constexpr HandState(GlobalNamespace::OVRPlugin::HandStatus Status_ = {}, GlobalNamespace::OVRPlugin::Posef RootPose_ = {}, ::Array<GlobalNamespace::OVRPlugin::Quatf>* BoneRotations_ = {}, GlobalNamespace::OVRPlugin::HandFingerPinch Pinches_ = {}, ::Array<float>* PinchStrength_ = {}, GlobalNamespace::OVRPlugin::Posef PointerPose_ = {}, float HandScale_ = {}, GlobalNamespace::OVRPlugin::TrackingConfidence HandConfidence_ = {}, ::Array<GlobalNamespace::OVRPlugin::TrackingConfidence>* FingerConfidences_ = {}, double RequestedTimeStamp_ = {}, double SampleTimeStamp_ = {}) noexcept : Status{Status_}, RootPose{RootPose_}, BoneRotations{BoneRotations_}, Pinches{Pinches_}, PinchStrength{PinchStrength_}, PointerPose{PointerPose_}, HandScale{HandScale_}, HandConfidence{HandConfidence_}, FingerConfidences{FingerConfidences_}, RequestedTimeStamp{RequestedTimeStamp_}, SampleTimeStamp{SampleTimeStamp_} {}
+    constexpr HandState(GlobalNamespace::OVRPlugin::HandStatus Status_ = {}, GlobalNamespace::OVRPlugin::Posef RootPose_ = {}, ::ArrayW<GlobalNamespace::OVRPlugin::Quatf> BoneRotations_ = ::ArrayW<GlobalNamespace::OVRPlugin::Quatf>(nullptr), GlobalNamespace::OVRPlugin::HandFingerPinch Pinches_ = {}, ::ArrayW<float> PinchStrength_ = ::ArrayW<float>(nullptr), GlobalNamespace::OVRPlugin::Posef PointerPose_ = {}, float HandScale_ = {}, GlobalNamespace::OVRPlugin::TrackingConfidence HandConfidence_ = {}, ::ArrayW<GlobalNamespace::OVRPlugin::TrackingConfidence> FingerConfidences_ = ::ArrayW<GlobalNamespace::OVRPlugin::TrackingConfidence>(nullptr), double RequestedTimeStamp_ = {}, double SampleTimeStamp_ = {}) noexcept : Status{Status_}, RootPose{RootPose_}, BoneRotations{BoneRotations_}, Pinches{Pinches_}, PinchStrength{PinchStrength_}, PointerPose{PointerPose_}, HandScale{HandScale_}, HandConfidence{HandConfidence_}, FingerConfidences{FingerConfidences_}, RequestedTimeStamp{RequestedTimeStamp_}, SampleTimeStamp{SampleTimeStamp_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -108,11 +126,11 @@ namespace GlobalNamespace {
     // Get instance field reference: public OVRPlugin/Posef RootPose
     GlobalNamespace::OVRPlugin::Posef& dyn_RootPose();
     // Get instance field reference: public OVRPlugin/Quatf[] BoneRotations
-    ::Array<GlobalNamespace::OVRPlugin::Quatf>*& dyn_BoneRotations();
+    ::ArrayW<GlobalNamespace::OVRPlugin::Quatf>& dyn_BoneRotations();
     // Get instance field reference: public OVRPlugin/HandFingerPinch Pinches
     GlobalNamespace::OVRPlugin::HandFingerPinch& dyn_Pinches();
     // Get instance field reference: public System.Single[] PinchStrength
-    ::Array<float>*& dyn_PinchStrength();
+    ::ArrayW<float>& dyn_PinchStrength();
     // Get instance field reference: public OVRPlugin/Posef PointerPose
     GlobalNamespace::OVRPlugin::Posef& dyn_PointerPose();
     // Get instance field reference: public System.Single HandScale
@@ -120,7 +138,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public OVRPlugin/TrackingConfidence HandConfidence
     GlobalNamespace::OVRPlugin::TrackingConfidence& dyn_HandConfidence();
     // Get instance field reference: public OVRPlugin/TrackingConfidence[] FingerConfidences
-    ::Array<GlobalNamespace::OVRPlugin::TrackingConfidence>*& dyn_FingerConfidences();
+    ::ArrayW<GlobalNamespace::OVRPlugin::TrackingConfidence>& dyn_FingerConfidences();
     // Get instance field reference: public System.Double RequestedTimeStamp
     double& dyn_RequestedTimeStamp();
     // Get instance field reference: public System.Double SampleTimeStamp
@@ -130,6 +148,4 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRPlugin::HandState), 112 + sizeof(double)> __GlobalNamespace_OVRPlugin_HandStateSizeCheck;
   static_assert(sizeof(OVRPlugin::HandState) == 0x78);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::HandState, "", "OVRPlugin/HandState");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

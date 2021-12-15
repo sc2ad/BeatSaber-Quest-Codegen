@@ -11,6 +11,13 @@
 // Completed includes
 // Type namespace: UnityEngine.PlayerLoop
 namespace UnityEngine::PlayerLoop {
+  // Forward declaring type: UpdatePreloading
+  struct UpdatePreloading;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PlayerLoop::EarlyUpdate::UpdatePreloading, "UnityEngine.PlayerLoop", "EarlyUpdate/UpdatePreloading");
+// Type namespace: UnityEngine.PlayerLoop
+namespace UnityEngine::PlayerLoop {
   // Size: 0x0
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -28,6 +35,4 @@ namespace UnityEngine::PlayerLoop {
   }; // UnityEngine.PlayerLoop.EarlyUpdate/UnityEngine.PlayerLoop.UpdatePreloading
   #pragma pack(pop)
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PlayerLoop::EarlyUpdate::UpdatePreloading, "UnityEngine.PlayerLoop", "EarlyUpdate/UpdatePreloading");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

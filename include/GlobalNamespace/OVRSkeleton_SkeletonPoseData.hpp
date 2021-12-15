@@ -11,7 +11,15 @@
 #include "System/ValueType.hpp"
 // Including type: OVRPlugin/Posef
 #include "GlobalNamespace/OVRPlugin.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: 
+namespace GlobalNamespace {
+  // Forward declaring type: SkeletonPoseData
+  struct SkeletonPoseData;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSkeleton::SkeletonPoseData, "", "OVRSkeleton/SkeletonPoseData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x30
@@ -21,6 +29,15 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct OVRSkeleton::SkeletonPoseData/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private OVRPlugin/Posef <RootPose>k__BackingField
     // Size: 0x1C
     // Offset: 0x0
@@ -36,9 +53,9 @@ namespace GlobalNamespace {
     // private OVRPlugin/Quatf[] <BoneRotations>k__BackingField
     // Size: 0x8
     // Offset: 0x20
-    ::Array<GlobalNamespace::OVRPlugin::Quatf>* BoneRotations;
+    ::ArrayW<GlobalNamespace::OVRPlugin::Quatf> BoneRotations;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::OVRPlugin::Quatf>*) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::OVRPlugin::Quatf>) == 0x8);
     // private System.Boolean <IsDataValid>k__BackingField
     // Size: 0x1
     // Offset: 0x28
@@ -59,8 +76,9 @@ namespace GlobalNamespace {
     int SkeletonChangedCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: SkeletonPoseData
-    constexpr SkeletonPoseData(GlobalNamespace::OVRPlugin::Posef RootPose_ = {}, float RootScale_ = {}, ::Array<GlobalNamespace::OVRPlugin::Quatf>* BoneRotations_ = {}, bool IsDataValid_ = {}, bool IsDataHighConfidence_ = {}, int SkeletonChangedCount_ = {}) noexcept : RootPose{RootPose_}, RootScale{RootScale_}, BoneRotations{BoneRotations_}, IsDataValid{IsDataValid_}, IsDataHighConfidence{IsDataHighConfidence_}, SkeletonChangedCount{SkeletonChangedCount_} {}
+    constexpr SkeletonPoseData(GlobalNamespace::OVRPlugin::Posef RootPose_ = {}, float RootScale_ = {}, ::ArrayW<GlobalNamespace::OVRPlugin::Quatf> BoneRotations_ = ::ArrayW<GlobalNamespace::OVRPlugin::Quatf>(nullptr), bool IsDataValid_ = {}, bool IsDataHighConfidence_ = {}, int SkeletonChangedCount_ = {}) noexcept : RootPose{RootPose_}, RootScale{RootScale_}, BoneRotations{BoneRotations_}, IsDataValid{IsDataValid_}, IsDataHighConfidence{IsDataHighConfidence_}, SkeletonChangedCount{SkeletonChangedCount_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -70,7 +88,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single <RootScale>k__BackingField
     float& dyn_$RootScale$k__BackingField();
     // Get instance field reference: private OVRPlugin/Quatf[] <BoneRotations>k__BackingField
-    ::Array<GlobalNamespace::OVRPlugin::Quatf>*& dyn_$BoneRotations$k__BackingField();
+    ::ArrayW<GlobalNamespace::OVRPlugin::Quatf>& dyn_$BoneRotations$k__BackingField();
     // Get instance field reference: private System.Boolean <IsDataValid>k__BackingField
     bool& dyn_$IsDataValid$k__BackingField();
     // Get instance field reference: private System.Boolean <IsDataHighConfidence>k__BackingField
@@ -91,10 +109,10 @@ namespace GlobalNamespace {
     void set_RootScale(float value);
     // public OVRPlugin/Quatf[] get_BoneRotations()
     // Offset: 0x2168A98
-    ::Array<GlobalNamespace::OVRPlugin::Quatf>* get_BoneRotations();
+    ::ArrayW<GlobalNamespace::OVRPlugin::Quatf> get_BoneRotations();
     // public System.Void set_BoneRotations(OVRPlugin/Quatf[] value)
     // Offset: 0x2168AA0
-    void set_BoneRotations(::Array<GlobalNamespace::OVRPlugin::Quatf>* value);
+    void set_BoneRotations(::ArrayW<GlobalNamespace::OVRPlugin::Quatf> value);
     // public System.Boolean get_IsDataValid()
     // Offset: 0x2168AA8
     bool get_IsDataValid();
@@ -118,8 +136,6 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRSkeleton::SkeletonPoseData), 44 + sizeof(int)> __GlobalNamespace_OVRSkeleton_SkeletonPoseDataSizeCheck;
   static_assert(sizeof(OVRSkeleton::SkeletonPoseData) == 0x30);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSkeleton::SkeletonPoseData, "", "OVRSkeleton/SkeletonPoseData");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRSkeleton::SkeletonPoseData::get_RootPose
 // Il2CppName: get_RootPose
@@ -158,7 +174,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::OVRSkeleton::SkeletonPoseData::get_BoneRotations
 // Il2CppName: get_BoneRotations
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::OVRPlugin::Quatf>* (GlobalNamespace::OVRSkeleton::SkeletonPoseData::*)()>(&GlobalNamespace::OVRSkeleton::SkeletonPoseData::get_BoneRotations)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<GlobalNamespace::OVRPlugin::Quatf> (GlobalNamespace::OVRSkeleton::SkeletonPoseData::*)()>(&GlobalNamespace::OVRSkeleton::SkeletonPoseData::get_BoneRotations)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRSkeleton::SkeletonPoseData), "get_BoneRotations", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -166,7 +182,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Glo
 // Writing MetadataGetter for method: GlobalNamespace::OVRSkeleton::SkeletonPoseData::set_BoneRotations
 // Il2CppName: set_BoneRotations
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRSkeleton::SkeletonPoseData::*)(::Array<GlobalNamespace::OVRPlugin::Quatf>*)>(&GlobalNamespace::OVRSkeleton::SkeletonPoseData::set_BoneRotations)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRSkeleton::SkeletonPoseData::*)(::ArrayW<GlobalNamespace::OVRPlugin::Quatf>)>(&GlobalNamespace::OVRSkeleton::SkeletonPoseData::set_BoneRotations)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "OVRPlugin/Quatf"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRSkeleton::SkeletonPoseData), "set_BoneRotations", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

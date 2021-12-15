@@ -8,10 +8,6 @@
 #include "System/ValueType.hpp"
 // Including type: System.IEquatable`1
 #include "System/IEquatable_1.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -26,6 +22,13 @@ struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: Color
+  struct Color;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Color, "UnityEngine", "Color");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -37,6 +40,15 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: EB3FF4
   struct Color/*, public System::ValueType, public System::IEquatable_1<UnityEngine::Color>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.Single r
     // Size: 0x4
     // Offset: 0x0
@@ -61,6 +73,7 @@ namespace UnityEngine {
     float a;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: Color
     constexpr Color(float r_ = {}, float g_ = {}, float b_ = {}, float a_ = {}) noexcept : r{r_}, g{g_}, b{b_}, a{a_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -126,16 +139,10 @@ namespace UnityEngine {
     void set_Item(int index, float value);
     // public System.Void .ctor(System.Single r, System.Single g, System.Single b, System.Single a)
     // Offset: 0x1D05604
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    // ABORTED: conflicts with another method.  Color(float r, float g, float b, float a)
+    // ABORTED: conflicts with another method.  Color(float r, float g, float b, float a);
     // public System.Void .ctor(System.Single r, System.Single g, System.Single b)
     // Offset: 0x1D05610
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    Color(float r, float g, float b) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Color::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(r), ::il2cpp_utils::ExtractType(g), ::il2cpp_utils::ExtractType(b)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, r, g, b);
-    }
+    Color(float r, float g, float b);
     // public System.String ToString(System.String format)
     // Offset: 0x1D057C8
     ::Il2CppString* ToString(::Il2CppString* format);
@@ -207,7 +214,6 @@ namespace UnityEngine {
   // Offset: 0x1D05D08
   bool operator !=(const UnityEngine::Color& lhs, const UnityEngine::Color& rhs);
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Color, "UnityEngine", "Color");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Color::get_red
 // Il2CppName: get_red

@@ -9,11 +9,14 @@
 #include "System/ValueType.hpp"
 // Including type: UnityEngine.Vector2
 #include "UnityEngine/Vector2.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
+// Type namespace: TMPro
+namespace TMPro {
+  // Forward declaring type: Extents
+  struct Extents;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::Extents, "TMPro", "Extents");
 // Type namespace: TMPro
 namespace TMPro {
   // Size: 0x10
@@ -23,6 +26,15 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Extents/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public UnityEngine.Vector2 min
     // Size: 0x8
     // Offset: 0x0
@@ -35,6 +47,7 @@ namespace TMPro {
     UnityEngine::Vector2 max;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector2) == 0x8);
+    public:
     // Creating value type constructor for type: Extents
     constexpr Extents(UnityEngine::Vector2 min_ = {}, UnityEngine::Vector2 max_ = {}) noexcept : min{min_}, max{max_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -47,8 +60,7 @@ namespace TMPro {
     UnityEngine::Vector2& dyn_max();
     // public System.Void .ctor(UnityEngine.Vector2 min, UnityEngine.Vector2 max)
     // Offset: 0x123DA34
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    // ABORTED: conflicts with another method.  Extents(UnityEngine::Vector2 min, UnityEngine::Vector2 max)
+    // ABORTED: conflicts with another method.  Extents(UnityEngine::Vector2 min, UnityEngine::Vector2 max);
     // public override System.String ToString()
     // Offset: 0x123DA40
     // Implemented from: System.ValueType
@@ -59,7 +71,6 @@ namespace TMPro {
   static check_size<sizeof(Extents), 8 + sizeof(UnityEngine::Vector2)> __TMPro_ExtentsSizeCheck;
   static_assert(sizeof(Extents) == 0x10);
 }
-DEFINE_IL2CPP_ARG_TYPE(TMPro::Extents, "TMPro", "Extents");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::Extents::Extents
 // Il2CppName: .ctor

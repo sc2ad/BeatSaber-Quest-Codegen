@@ -33,6 +33,14 @@ namespace System {
 // Completed forward declares
 // Type namespace: System.Runtime.Remoting.Proxies
 namespace System::Runtime::Remoting::Proxies {
+  // Forward declaring type: TransparentProxy
+  class TransparentProxy;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Runtime::Remoting::Proxies::TransparentProxy);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Proxies::TransparentProxy*, "System.Runtime.Remoting.Proxies", "TransparentProxy");
+// Type namespace: System.Runtime.Remoting.Proxies
+namespace System::Runtime::Remoting::Proxies {
   // Size: 0x21
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -40,6 +48,15 @@ namespace System::Runtime::Remoting::Proxies {
   // [TokenAttribute] Offset: FFFFFFFF
   class TransparentProxy : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.Runtime.Remoting.Proxies.RealProxy _rp
     // Size: 0x8
     // Offset: 0x10
@@ -58,8 +75,7 @@ namespace System::Runtime::Remoting::Proxies {
     bool custom_type_info;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: TransparentProxy
-    TransparentProxy(System::Runtime::Remoting::Proxies::RealProxy* rp_ = {}, Mono::RuntimeRemoteClassHandle _class_ = {}, bool custom_type_info_ = {}) noexcept : rp{rp_}, _class{_class_}, custom_type_info{custom_type_info_} {}
+    public:
     // Get instance field reference: public System.Runtime.Remoting.Proxies.RealProxy _rp
     System::Runtime::Remoting::Proxies::RealProxy*& dyn__rp();
     // Get instance field reference: private Mono.RuntimeRemoteClassHandle _class
@@ -98,7 +114,6 @@ namespace System::Runtime::Remoting::Proxies {
   static check_size<sizeof(TransparentProxy), 32 + sizeof(bool)> __System_Runtime_Remoting_Proxies_TransparentProxySizeCheck;
   static_assert(sizeof(TransparentProxy) == 0x21);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Proxies::TransparentProxy*, "System.Runtime.Remoting.Proxies", "TransparentProxy");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Proxies::TransparentProxy::get_IsContextBoundObject
 // Il2CppName: get_IsContextBoundObject

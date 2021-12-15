@@ -9,6 +9,7 @@
 #include "System/ValueType.hpp"
 // Including type: System.Reflection.EventAttributes
 #include "System/Reflection/EventAttributes.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -26,6 +27,13 @@ namespace System::Reflection {
 // Completed forward declares
 // Type namespace: System.Reflection
 namespace System::Reflection {
+  // Forward declaring type: MonoEventInfo
+  struct MonoEventInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoEventInfo, "System.Reflection", "MonoEventInfo");
+// Type namespace: System.Reflection
+namespace System::Reflection {
   // Size: 0x40
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -33,6 +41,15 @@ namespace System::Reflection {
   // [TokenAttribute] Offset: FFFFFFFF
   struct MonoEventInfo/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.Type declaring_type
     // Size: 0x8
     // Offset: 0x0
@@ -80,11 +97,12 @@ namespace System::Reflection {
     // public System.Reflection.MethodInfo[] other_methods
     // Size: 0x8
     // Offset: 0x38
-    ::Array<System::Reflection::MethodInfo*>* other_methods;
+    ::ArrayW<System::Reflection::MethodInfo*> other_methods;
     // Field size check
-    static_assert(sizeof(::Array<System::Reflection::MethodInfo*>*) == 0x8);
+    static_assert(sizeof(::ArrayW<System::Reflection::MethodInfo*>) == 0x8);
+    public:
     // Creating value type constructor for type: MonoEventInfo
-    constexpr MonoEventInfo(System::Type* declaring_type_ = {}, System::Type* reflected_type_ = {}, ::Il2CppString* name_ = {}, System::Reflection::MethodInfo* add_method_ = {}, System::Reflection::MethodInfo* remove_method_ = {}, System::Reflection::MethodInfo* raise_method_ = {}, System::Reflection::EventAttributes attrs_ = {}, ::Array<System::Reflection::MethodInfo*>* other_methods_ = {}) noexcept : declaring_type{declaring_type_}, reflected_type{reflected_type_}, name{name_}, add_method{add_method_}, remove_method{remove_method_}, raise_method{raise_method_}, attrs{attrs_}, other_methods{other_methods_} {}
+    constexpr MonoEventInfo(System::Type* declaring_type_ = {}, System::Type* reflected_type_ = {}, ::Il2CppString* name_ = {}, System::Reflection::MethodInfo* add_method_ = {}, System::Reflection::MethodInfo* remove_method_ = {}, System::Reflection::MethodInfo* raise_method_ = {}, System::Reflection::EventAttributes attrs_ = {}, ::ArrayW<System::Reflection::MethodInfo*> other_methods_ = ::ArrayW<System::Reflection::MethodInfo*>(nullptr)) noexcept : declaring_type{declaring_type_}, reflected_type{reflected_type_}, name{name_}, add_method{add_method_}, remove_method{remove_method_}, raise_method{raise_method_}, attrs{attrs_}, other_methods{other_methods_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -104,7 +122,7 @@ namespace System::Reflection {
     // Get instance field reference: public System.Reflection.EventAttributes attrs
     System::Reflection::EventAttributes& dyn_attrs();
     // Get instance field reference: public System.Reflection.MethodInfo[] other_methods
-    ::Array<System::Reflection::MethodInfo*>*& dyn_other_methods();
+    ::ArrayW<System::Reflection::MethodInfo*>& dyn_other_methods();
     // static private System.Void get_event_info(System.Reflection.MonoEvent ev, out System.Reflection.MonoEventInfo info)
     // Offset: 0x1E99630
     static void get_event_info(System::Reflection::MonoEvent* ev, ByRef<System::Reflection::MonoEventInfo> info);
@@ -113,11 +131,9 @@ namespace System::Reflection {
     static System::Reflection::MonoEventInfo GetEventInfo(System::Reflection::MonoEvent* ev);
   }; // System.Reflection.MonoEventInfo
   #pragma pack(pop)
-  static check_size<sizeof(MonoEventInfo), 56 + sizeof(::Array<System::Reflection::MethodInfo*>*)> __System_Reflection_MonoEventInfoSizeCheck;
+  static check_size<sizeof(MonoEventInfo), 56 + sizeof(::ArrayW<System::Reflection::MethodInfo*>)> __System_Reflection_MonoEventInfoSizeCheck;
   static_assert(sizeof(MonoEventInfo) == 0x40);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoEventInfo, "System.Reflection", "MonoEventInfo");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::MonoEventInfo::get_event_info
 // Il2CppName: get_event_info

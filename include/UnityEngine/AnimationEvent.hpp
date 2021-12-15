@@ -27,6 +27,14 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: AnimationEvent
+  class AnimationEvent;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::AnimationEvent);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimationEvent*, "UnityEngine", "AnimationEvent");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x74
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -35,6 +43,15 @@ namespace UnityEngine {
   // [RequiredByNativeCodeAttribute] Offset: ECE118
   class AnimationEvent : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // System.Single m_Time
     // Size: 0x4
     // Offset: 0x10
@@ -103,8 +120,7 @@ namespace UnityEngine {
     UnityEngine::AnimatorClipInfo m_AnimatorClipInfo;
     // Field size check
     static_assert(sizeof(UnityEngine::AnimatorClipInfo) == 0x8);
-    // Creating value type constructor for type: AnimationEvent
-    AnimationEvent(float m_Time_ = {}, ::Il2CppString* m_FunctionName_ = {}, ::Il2CppString* m_StringParameter_ = {}, UnityEngine::Object* m_ObjectReferenceParameter_ = {}, float m_FloatParameter_ = {}, int m_IntParameter_ = {}, int m_MessageOptions_ = {}, UnityEngine::AnimationEventSource m_Source_ = {}, UnityEngine::AnimationState* m_StateSender_ = {}, UnityEngine::AnimatorStateInfo m_AnimatorStateInfo_ = {}, UnityEngine::AnimatorClipInfo m_AnimatorClipInfo_ = {}) noexcept : m_Time{m_Time_}, m_FunctionName{m_FunctionName_}, m_StringParameter{m_StringParameter_}, m_ObjectReferenceParameter{m_ObjectReferenceParameter_}, m_FloatParameter{m_FloatParameter_}, m_IntParameter{m_IntParameter_}, m_MessageOptions{m_MessageOptions_}, m_Source{m_Source_}, m_StateSender{m_StateSender_}, m_AnimatorStateInfo{m_AnimatorStateInfo_}, m_AnimatorClipInfo{m_AnimatorClipInfo_} {}
+    public:
     // Get instance field reference: System.Single m_Time
     float& dyn_m_Time();
     // Get instance field reference: System.String m_FunctionName
@@ -141,7 +157,6 @@ namespace UnityEngine {
   static check_size<sizeof(AnimationEvent), 108 + sizeof(UnityEngine::AnimatorClipInfo)> __UnityEngine_AnimationEventSizeCheck;
   static_assert(sizeof(AnimationEvent) == 0x74);
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimationEvent*, "UnityEngine", "AnimationEvent");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AnimationEvent::New_ctor
 // Il2CppName: .ctor

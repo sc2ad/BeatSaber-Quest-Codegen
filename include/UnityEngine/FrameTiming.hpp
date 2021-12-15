@@ -10,6 +10,13 @@
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: FrameTiming
+  struct FrameTiming;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::FrameTiming, "UnityEngine", "FrameTiming");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x2C
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -18,6 +25,15 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: EB32E0
   struct FrameTiming/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // [NativeNameAttribute] Offset: 0xEB7CE4
     // public System.UInt64 cpuTimePresentCalled
     // Size: 0x8
@@ -67,6 +83,7 @@ namespace UnityEngine {
     uint syncInterval;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
+    public:
     // Creating value type constructor for type: FrameTiming
     constexpr FrameTiming(uint64_t cpuTimePresentCalled_ = {}, double cpuFrameTime_ = {}, uint64_t cpuTimeFrameComplete_ = {}, double gpuFrameTime_ = {}, float heightScale_ = {}, float widthScale_ = {}, uint syncInterval_ = {}) noexcept : cpuTimePresentCalled{cpuTimePresentCalled_}, cpuFrameTime{cpuFrameTime_}, cpuTimeFrameComplete{cpuTimeFrameComplete_}, gpuFrameTime{gpuFrameTime_}, heightScale{heightScale_}, widthScale{widthScale_}, syncInterval{syncInterval_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -92,6 +109,4 @@ namespace UnityEngine {
   static check_size<sizeof(FrameTiming), 40 + sizeof(uint)> __UnityEngine_FrameTimingSizeCheck;
   static_assert(sizeof(FrameTiming) == 0x2C);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::FrameTiming, "UnityEngine", "FrameTiming");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

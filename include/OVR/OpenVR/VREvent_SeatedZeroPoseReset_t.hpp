@@ -9,6 +9,13 @@
 // Completed includes
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
+  // Forward declaring type: VREvent_SeatedZeroPoseReset_t
+  struct VREvent_SeatedZeroPoseReset_t;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VREvent_SeatedZeroPoseReset_t, "OVR.OpenVR", "VREvent_SeatedZeroPoseReset_t");
+// Type namespace: OVR.OpenVR
+namespace OVR::OpenVR {
   // Size: 0x1
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -16,12 +23,22 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VREvent_SeatedZeroPoseReset_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.Boolean bResetBySystemMenu
     // Size: 0x1
     // Offset: 0x0
     bool bResetBySystemMenu;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating value type constructor for type: VREvent_SeatedZeroPoseReset_t
     constexpr VREvent_SeatedZeroPoseReset_t(bool bResetBySystemMenu_ = {}) noexcept : bResetBySystemMenu{bResetBySystemMenu_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -39,6 +56,4 @@ namespace OVR::OpenVR {
   static check_size<sizeof(VREvent_SeatedZeroPoseReset_t), 0 + sizeof(bool)> __OVR_OpenVR_VREvent_SeatedZeroPoseReset_tSizeCheck;
   static_assert(sizeof(VREvent_SeatedZeroPoseReset_t) == 0x1);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VREvent_SeatedZeroPoseReset_t, "OVR.OpenVR", "VREvent_SeatedZeroPoseReset_t");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

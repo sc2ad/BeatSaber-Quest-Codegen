@@ -11,7 +11,16 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: Mono.Net.Security
+namespace Mono::Net::Security {
+  // Forward declaring type: BufferOffsetSize2
+  class BufferOffsetSize2;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(Mono::Net::Security::BufferOffsetSize2);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::BufferOffsetSize2*, "Mono.Net.Security", "BufferOffsetSize2");
 // Type namespace: Mono.Net.Security
 namespace Mono::Net::Security {
   // Size: 0x2C
@@ -22,14 +31,22 @@ namespace Mono::Net::Security {
     public:
     // Writing base type padding for base size: 0x25 to desired offset: 0x28
     char ___base_padding[0x3] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public readonly System.Int32 InitialSize
     // Size: 0x4
     // Offset: 0x28
     int InitialSize;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: BufferOffsetSize2
-    BufferOffsetSize2(int InitialSize_ = {}) noexcept : InitialSize{InitialSize_} {}
+    public:
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return InitialSize;
@@ -51,13 +68,12 @@ namespace Mono::Net::Security {
     void MakeRoom(int size);
     // public System.Void AppendData(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
     // Offset: 0x182F4A0
-    void AppendData(::Array<uint8_t>* buffer, int offset, int size);
+    void AppendData(::ArrayW<uint8_t> buffer, int offset, int size);
   }; // Mono.Net.Security.BufferOffsetSize2
   #pragma pack(pop)
   static check_size<sizeof(BufferOffsetSize2), 40 + sizeof(int)> __Mono_Net_Security_BufferOffsetSize2SizeCheck;
   static_assert(sizeof(BufferOffsetSize2) == 0x2C);
 }
-DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::BufferOffsetSize2*, "Mono.Net.Security", "BufferOffsetSize2");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Net::Security::BufferOffsetSize2::New_ctor
 // Il2CppName: .ctor
@@ -83,7 +99,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Net::Security::BufferOffsetSize2::AppendData
 // Il2CppName: AppendData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Net::Security::BufferOffsetSize2::*)(::Array<uint8_t>*, int, int)>(&Mono::Net::Security::BufferOffsetSize2::AppendData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Net::Security::BufferOffsetSize2::*)(::ArrayW<uint8_t>, int, int)>(&Mono::Net::Security::BufferOffsetSize2::AppendData)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

@@ -22,6 +22,13 @@ struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: NetEase.Docker
 namespace NetEase::Docker {
+  // Forward declaring type: ReceivedHighscoreData
+  struct ReceivedHighscoreData;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::ReceivedHighscoreData, "NetEase.Docker", "ReceivedHighscoreData");
+// Type namespace: NetEase.Docker
+namespace NetEase::Docker {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -29,6 +36,15 @@ namespace NetEase::Docker {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ReceivedHighscoreData/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xF2E8A0
     // private System.Boolean <FetchingSuccessful>k__BackingField
     // Size: 0x1
@@ -59,6 +75,7 @@ namespace NetEase::Docker {
     System::Collections::Generic::List_1<NetEase::Docker::ScoreData>* Scores;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<NetEase::Docker::ScoreData>*) == 0x8);
+    public:
     // Creating value type constructor for type: ReceivedHighscoreData
     constexpr ReceivedHighscoreData(bool FetchingSuccessful_ = {}, int HighscoreCode_ = {}, ::Il2CppString* Track_ = {}, System::Collections::Generic::List_1<NetEase::Docker::ScoreData>* Scores_ = {}) noexcept : FetchingSuccessful{FetchingSuccessful_}, HighscoreCode{HighscoreCode_}, Track{Track_}, Scores{Scores_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -99,8 +116,6 @@ namespace NetEase::Docker {
   static check_size<sizeof(ReceivedHighscoreData), 16 + sizeof(System::Collections::Generic::List_1<NetEase::Docker::ScoreData>*)> __NetEase_Docker_ReceivedHighscoreDataSizeCheck;
   static_assert(sizeof(ReceivedHighscoreData) == 0x18);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::ReceivedHighscoreData, "NetEase.Docker", "ReceivedHighscoreData");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NetEase::Docker::ReceivedHighscoreData::get_FetchingSuccessful
 // Il2CppName: get_FetchingSuccessful

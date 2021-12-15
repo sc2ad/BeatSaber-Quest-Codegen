@@ -11,7 +11,16 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: System
+namespace System {
+  // Forward declaring type: Random
+  class Random;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Random);
+DEFINE_IL2CPP_ARG_TYPE(System::Random*, "System", "Random");
 // Type namespace: System
 namespace System {
   // Size: 0x20
@@ -21,6 +30,15 @@ namespace System {
   // [ComVisibleAttribute] Offset: E9DBD0
   class Random : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.Int32 inext
     // Size: 0x4
     // Offset: 0x10
@@ -36,11 +54,10 @@ namespace System {
     // private System.Int32[] SeedArray
     // Size: 0x8
     // Offset: 0x18
-    ::Array<int>* SeedArray;
+    ::ArrayW<int> SeedArray;
     // Field size check
-    static_assert(sizeof(::Array<int>*) == 0x8);
-    // Creating value type constructor for type: Random
-    Random(int inext_ = {}, int inextp_ = {}, ::Array<int>* SeedArray_ = {}) noexcept : inext{inext_}, inextp{inextp_}, SeedArray{SeedArray_} {}
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
+    public:
     // static field const value: static private System.Int32 MBIG
     static constexpr const int MBIG = 2147483647;
     // Get static field: static private System.Int32 MBIG
@@ -64,7 +81,7 @@ namespace System {
     // Get instance field reference: private System.Int32 inextp
     int& dyn_inextp();
     // Get instance field reference: private System.Int32[] SeedArray
-    ::Array<int>*& dyn_SeedArray();
+    ::ArrayW<int>& dyn_SeedArray();
     // public System.Void .ctor(System.Int32 Seed)
     // Offset: 0x1E8CFC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -95,7 +112,7 @@ namespace System {
     double NextDouble();
     // public System.Void NextBytes(System.Byte[] buffer)
     // Offset: 0x1E8D5E8
-    void NextBytes(::Array<uint8_t>* buffer);
+    void NextBytes(::ArrayW<uint8_t> buffer);
     // public System.Void .ctor()
     // Offset: 0x1E895B8
     // Implemented from: System.Object
@@ -107,10 +124,9 @@ namespace System {
     }
   }; // System.Random
   #pragma pack(pop)
-  static check_size<sizeof(Random), 24 + sizeof(::Array<int>*)> __System_RandomSizeCheck;
+  static check_size<sizeof(Random), 24 + sizeof(::ArrayW<int>)> __System_RandomSizeCheck;
   static_assert(sizeof(Random) == 0x20);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::Random*, "System", "Random");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Random::New_ctor
 // Il2CppName: .ctor
@@ -178,7 +194,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (Sys
 // Writing MetadataGetter for method: System::Random::NextBytes
 // Il2CppName: NextBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Random::*)(::Array<uint8_t>*)>(&System::Random::NextBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Random::*)(::ArrayW<uint8_t>)>(&System::Random::NextBytes)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Random*), "NextBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer});

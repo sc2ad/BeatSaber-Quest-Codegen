@@ -7,10 +7,13 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: RootMotion.FinalIK.OffsetModifier
 #include "RootMotion/FinalIK/OffsetModifier.hpp"
+// Including type: System.Enum
+#include "System/Enum.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: RootMotion::FinalIK
@@ -28,6 +31,14 @@ namespace UnityEngine {
   class Transform;
 }
 // Completed forward declares
+// Type namespace: RootMotion.FinalIK
+namespace RootMotion::FinalIK {
+  // Forward declaring type: Recoil
+  class Recoil;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(RootMotion::FinalIK::Recoil);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Recoil*, "RootMotion.FinalIK", "Recoil");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
   // Size: 0xF0
@@ -48,12 +59,22 @@ namespace RootMotion::FinalIK {
     // [TokenAttribute] Offset: FFFFFFFF
     struct Handedness/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      #ifdef CODEGEN_FIELD_ACCESSIBILITY
+      CODEGEN_FIELD_ACCESSIBILITY:
+      #else
+      protected:
+      #endif
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: Handedness
       constexpr Handedness(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -82,6 +103,15 @@ namespace RootMotion::FinalIK {
     #pragma pack(pop)
     static check_size<sizeof(Recoil::Handedness), 0 + sizeof(int)> __RootMotion_FinalIK_Recoil_HandednessSizeCheck;
     static_assert(sizeof(Recoil::Handedness) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // [TooltipAttribute] Offset: 0xF5FE68
     // public RootMotion.FinalIK.AimIK aimIK
     // Size: 0x8
@@ -154,9 +184,9 @@ namespace RootMotion::FinalIK {
     // public RootMotion.FinalIK.Recoil/RootMotion.FinalIK.RecoilOffset[] offsets
     // Size: 0x8
     // Offset: 0x70
-    ::Array<RootMotion::FinalIK::Recoil::RecoilOffset*>* offsets;
+    ::ArrayW<RootMotion::FinalIK::Recoil::RecoilOffset*> offsets;
     // Field size check
-    static_assert(sizeof(::Array<RootMotion::FinalIK::Recoil::RecoilOffset*>*) == 0x8);
+    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::Recoil::RecoilOffset*>) == 0x8);
     // public UnityEngine.Quaternion rotationOffset
     // Size: 0x10
     // Offset: 0x78
@@ -239,8 +269,7 @@ namespace RootMotion::FinalIK {
     UnityEngine::Vector3 aimIKAxis;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // Creating value type constructor for type: Recoil
-    Recoil(RootMotion::FinalIK::AimIK* aimIK_ = {}, bool aimIKSolvedLast_ = {}, RootMotion::FinalIK::Recoil::Handedness handedness_ = {}, bool twoHanded_ = {}, UnityEngine::AnimationCurve* recoilWeight_ = {}, float magnitudeRandom_ = {}, UnityEngine::Vector3 rotationRandom_ = {}, UnityEngine::Vector3 handRotationOffset_ = {}, float blendTime_ = {}, ::Array<RootMotion::FinalIK::Recoil::RecoilOffset*>* offsets_ = {}, UnityEngine::Quaternion rotationOffset_ = {}, float magnitudeMlp_ = {}, float endTime_ = {}, UnityEngine::Quaternion handRotation_ = {}, UnityEngine::Quaternion secondaryHandRelativeRotation_ = {}, UnityEngine::Quaternion randomRotation_ = {}, float length_ = {}, bool initiated_ = {}, float blendWeight_ = {}, float w_ = {}, UnityEngine::Quaternion primaryHandRotation_ = {}, bool handRotationsSet_ = {}, UnityEngine::Vector3 aimIKAxis_ = {}) noexcept : aimIK{aimIK_}, aimIKSolvedLast{aimIKSolvedLast_}, handedness{handedness_}, twoHanded{twoHanded_}, recoilWeight{recoilWeight_}, magnitudeRandom{magnitudeRandom_}, rotationRandom{rotationRandom_}, handRotationOffset{handRotationOffset_}, blendTime{blendTime_}, offsets{offsets_}, rotationOffset{rotationOffset_}, magnitudeMlp{magnitudeMlp_}, endTime{endTime_}, handRotation{handRotation_}, secondaryHandRelativeRotation{secondaryHandRelativeRotation_}, randomRotation{randomRotation_}, length{length_}, initiated{initiated_}, blendWeight{blendWeight_}, w{w_}, primaryHandRotation{primaryHandRotation_}, handRotationsSet{handRotationsSet_}, aimIKAxis{aimIKAxis_} {}
+    public:
     // Get instance field reference: public RootMotion.FinalIK.AimIK aimIK
     RootMotion::FinalIK::AimIK*& dyn_aimIK();
     // Get instance field reference: public System.Boolean aimIKSolvedLast
@@ -260,7 +289,7 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public System.Single blendTime
     float& dyn_blendTime();
     // Get instance field reference: public RootMotion.FinalIK.Recoil/RootMotion.FinalIK.RecoilOffset[] offsets
-    ::Array<RootMotion::FinalIK::Recoil::RecoilOffset*>*& dyn_offsets();
+    ::ArrayW<RootMotion::FinalIK::Recoil::RecoilOffset*>& dyn_offsets();
     // Get instance field reference: public UnityEngine.Quaternion rotationOffset
     UnityEngine::Quaternion& dyn_rotationOffset();
     // Get instance field reference: private System.Single magnitudeMlp
@@ -343,7 +372,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(Recoil), 228 + sizeof(UnityEngine::Vector3)> __RootMotion_FinalIK_RecoilSizeCheck;
   static_assert(sizeof(Recoil) == 0xF0);
 }
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Recoil*, "RootMotion.FinalIK", "Recoil");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Recoil::Handedness, "RootMotion.FinalIK", "Recoil/Handedness");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::Recoil::get_isFinished

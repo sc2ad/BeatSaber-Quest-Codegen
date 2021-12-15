@@ -3,7 +3,6 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
@@ -14,6 +13,13 @@
 // Including type: UnityEngine.Playables.PlayableHandle
 #include "UnityEngine/Playables/PlayableHandle.hpp"
 // Completed includes
+// Type namespace: UnityEngine.Experimental.Playables
+namespace UnityEngine::Experimental::Playables {
+  // Forward declaring type: MaterialEffectPlayable
+  struct MaterialEffectPlayable;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Playables::MaterialEffectPlayable, "UnityEngine.Experimental.Playables", "MaterialEffectPlayable");
 // Type namespace: UnityEngine.Experimental.Playables
 namespace UnityEngine::Experimental::Playables {
   // Size: 0xC
@@ -28,12 +34,22 @@ namespace UnityEngine::Experimental::Playables {
   // [NativeHeaderAttribute] Offset: EB7104
   struct MaterialEffectPlayable/*, public System::ValueType, public System::IEquatable_1<UnityEngine::Experimental::Playables::MaterialEffectPlayable>, public UnityEngine::Playables::IPlayable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private UnityEngine.Playables.PlayableHandle m_Handle
     // Size: 0xC
     // Offset: 0x0
     UnityEngine::Playables::PlayableHandle m_Handle;
     // Field size check
     static_assert(sizeof(UnityEngine::Playables::PlayableHandle) == 0xC);
+    public:
     // Creating value type constructor for type: MaterialEffectPlayable
     constexpr MaterialEffectPlayable(UnityEngine::Playables::PlayableHandle m_Handle_ = {}) noexcept : m_Handle{m_Handle_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -65,8 +81,6 @@ namespace UnityEngine::Experimental::Playables {
   static check_size<sizeof(MaterialEffectPlayable), 0 + sizeof(UnityEngine::Playables::PlayableHandle)> __UnityEngine_Experimental_Playables_MaterialEffectPlayableSizeCheck;
   static_assert(sizeof(MaterialEffectPlayable) == 0xC);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Playables::MaterialEffectPlayable, "UnityEngine.Experimental.Playables", "MaterialEffectPlayable");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Experimental::Playables::MaterialEffectPlayable::GetHandle
 // Il2CppName: GetHandle

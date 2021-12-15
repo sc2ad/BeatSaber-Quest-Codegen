@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: Valve.VR
 namespace Valve::VR {
+  // Forward declaring type: VREvent_DualAnalog_t
+  struct VREvent_DualAnalog_t;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VREvent_DualAnalog_t, "Valve.VR", "VREvent_DualAnalog_t");
+// Type namespace: Valve.VR
+namespace Valve::VR {
   // Size: 0x14
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -19,6 +26,15 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VREvent_DualAnalog_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.Single x
     // Size: 0x4
     // Offset: 0x0
@@ -49,6 +65,7 @@ namespace Valve::VR {
     Valve::VR::EDualAnalogWhich which;
     // Field size check
     static_assert(sizeof(Valve::VR::EDualAnalogWhich) == 0x4);
+    public:
     // Creating value type constructor for type: VREvent_DualAnalog_t
     constexpr VREvent_DualAnalog_t(float x_ = {}, float y_ = {}, float transformedX_ = {}, float transformedY_ = {}, Valve::VR::EDualAnalogWhich which_ = {}) noexcept : x{x_}, y{y_}, transformedX{transformedX_}, transformedY{transformedY_}, which{which_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -70,6 +87,4 @@ namespace Valve::VR {
   static check_size<sizeof(VREvent_DualAnalog_t), 16 + sizeof(Valve::VR::EDualAnalogWhich)> __Valve_VR_VREvent_DualAnalog_tSizeCheck;
   static_assert(sizeof(VREvent_DualAnalog_t) == 0x14);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VREvent_DualAnalog_t, "Valve.VR", "VREvent_DualAnalog_t");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -11,12 +11,21 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
 }
 // Completed forward declares
+// Type namespace: 
+namespace GlobalNamespace {
+  // Forward declaring type: KeyframeSerializable
+  class KeyframeSerializable;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(GlobalNamespace::VRTrackersRecorder::SavedData::KeyframeSerializable);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRTrackersRecorder::SavedData::KeyframeSerializable*, "", "VRTrackersRecorder/SavedData/KeyframeSerializable");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x1C
@@ -27,22 +36,30 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::VRTrackersRecorder::SavedData::KeyframeSerializable::TransformSerializable
     class TransformSerializable;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public VRTrackersRecorder/SavedData/KeyframeSerializable/TransformSerializable[] _transforms
     // Size: 0x8
     // Offset: 0x10
-    ::Array<GlobalNamespace::VRTrackersRecorder::SavedData::KeyframeSerializable::TransformSerializable*>* transforms;
+    ::ArrayW<GlobalNamespace::VRTrackersRecorder::SavedData::KeyframeSerializable::TransformSerializable*> transforms;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::VRTrackersRecorder::SavedData::KeyframeSerializable::TransformSerializable*>*) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::VRTrackersRecorder::SavedData::KeyframeSerializable::TransformSerializable*>) == 0x8);
     // public System.Single _time
     // Size: 0x4
     // Offset: 0x18
     float time;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: KeyframeSerializable
-    KeyframeSerializable(::Array<GlobalNamespace::VRTrackersRecorder::SavedData::KeyframeSerializable::TransformSerializable*>* transforms_ = {}, float time_ = {}) noexcept : transforms{transforms_}, time{time_} {}
+    public:
     // Get instance field reference: public VRTrackersRecorder/SavedData/KeyframeSerializable/TransformSerializable[] _transforms
-    ::Array<GlobalNamespace::VRTrackersRecorder::SavedData::KeyframeSerializable::TransformSerializable*>*& dyn__transforms();
+    ::ArrayW<GlobalNamespace::VRTrackersRecorder::SavedData::KeyframeSerializable::TransformSerializable*>& dyn__transforms();
     // Get instance field reference: public System.Single _time
     float& dyn__time();
     // public System.Void .ctor()
@@ -59,7 +76,6 @@ namespace GlobalNamespace {
   static check_size<sizeof(VRTrackersRecorder::SavedData::KeyframeSerializable), 24 + sizeof(float)> __GlobalNamespace_VRTrackersRecorder_SavedData_KeyframeSerializableSizeCheck;
   static_assert(sizeof(VRTrackersRecorder::SavedData::KeyframeSerializable) == 0x1C);
 }
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRTrackersRecorder::SavedData::KeyframeSerializable*, "", "VRTrackersRecorder/SavedData/KeyframeSerializable");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::VRTrackersRecorder::SavedData::KeyframeSerializable::New_ctor
 // Il2CppName: .ctor

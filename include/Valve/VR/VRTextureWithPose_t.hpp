@@ -11,6 +11,13 @@
 // Completed includes
 // Type namespace: Valve.VR
 namespace Valve::VR {
+  // Forward declaring type: VRTextureWithPose_t
+  struct VRTextureWithPose_t;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VRTextureWithPose_t, "Valve.VR", "VRTextureWithPose_t");
+// Type namespace: Valve.VR
+namespace Valve::VR {
   // Size: 0x30
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -18,12 +25,22 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VRTextureWithPose_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public Valve.VR.HmdMatrix34_t mDeviceToAbsoluteTracking
     // Size: 0x30
     // Offset: 0x0
     Valve::VR::HmdMatrix34_t mDeviceToAbsoluteTracking;
     // Field size check
     static_assert(sizeof(Valve::VR::HmdMatrix34_t) == 0x30);
+    public:
     // Creating value type constructor for type: VRTextureWithPose_t
     constexpr VRTextureWithPose_t(Valve::VR::HmdMatrix34_t mDeviceToAbsoluteTracking_ = {}) noexcept : mDeviceToAbsoluteTracking{mDeviceToAbsoluteTracking_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -41,6 +58,4 @@ namespace Valve::VR {
   static check_size<sizeof(VRTextureWithPose_t), 0 + sizeof(Valve::VR::HmdMatrix34_t)> __Valve_VR_VRTextureWithPose_tSizeCheck;
   static_assert(sizeof(VRTextureWithPose_t) == 0x30);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VRTextureWithPose_t, "Valve.VR", "VRTextureWithPose_t");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

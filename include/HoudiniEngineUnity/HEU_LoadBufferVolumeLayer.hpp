@@ -17,7 +17,16 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: HoudiniEngineUnity
+namespace HoudiniEngineUnity {
+  // Forward declaring type: HEU_LoadBufferVolumeLayer
+  class HEU_LoadBufferVolumeLayer;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(HoudiniEngineUnity::HEU_LoadBufferVolumeLayer);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_LoadBufferVolumeLayer*, "HoudiniEngineUnity", "HEU_LoadBufferVolumeLayer");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0xD8
@@ -26,6 +35,15 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_LoadBufferVolumeLayer : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.String _layerName
     // Size: 0x8
     // Offset: 0x10
@@ -129,9 +147,9 @@ namespace HoudiniEngineUnity {
     // public System.Single[] _normalizedHeights
     // Size: 0x8
     // Offset: 0x78
-    ::Array<float>* normalizedHeights;
+    ::ArrayW<float> normalizedHeights;
     // Field size check
-    static_assert(sizeof(::Array<float>*) == 0x8);
+    static_assert(sizeof(::ArrayW<float>) == 0x8);
     // public System.Single _minHeight
     // Size: 0x4
     // Offset: 0x80
@@ -208,8 +226,7 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HFLayerType layerType;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::HFLayerType) == 0x4);
-    // Creating value type constructor for type: HEU_LoadBufferVolumeLayer
-    HEU_LoadBufferVolumeLayer(::Il2CppString* layerName_ = {}, int partID_ = {}, int heightMapWidth_ = {}, int heightMapHeight_ = {}, float strength_ = {}, ::Il2CppString* diffuseTexturePath_ = {}, ::Il2CppString* maskTexturePath_ = {}, float metallic_ = {}, ::Il2CppString* normalTexturePath_ = {}, float normalScale_ = {}, float smoothness_ = {}, UnityEngine::Color specularColor_ = {}, UnityEngine::Vector2 tileSize_ = {}, UnityEngine::Vector2 tileOffset_ = {}, bool uiExpanded_ = {}, int tile_ = {}, ::Array<float>* normalizedHeights_ = {}, float minHeight_ = {}, float maxHeight_ = {}, float heightRange_ = {}, float terrainSizeX_ = {}, float terrainSizeY_ = {}, UnityEngine::Vector3 position_ = {}, UnityEngine::Vector3 minBounds_ = {}, UnityEngine::Vector3 maxBounds_ = {}, UnityEngine::Vector3 center_ = {}, ::Il2CppString* layerPath_ = {}, bool hasLayerAttributes_ = {}, HoudiniEngineUnity::HFLayerType layerType_ = {}) noexcept : layerName{layerName_}, partID{partID_}, heightMapWidth{heightMapWidth_}, heightMapHeight{heightMapHeight_}, strength{strength_}, diffuseTexturePath{diffuseTexturePath_}, maskTexturePath{maskTexturePath_}, metallic{metallic_}, normalTexturePath{normalTexturePath_}, normalScale{normalScale_}, smoothness{smoothness_}, specularColor{specularColor_}, tileSize{tileSize_}, tileOffset{tileOffset_}, uiExpanded{uiExpanded_}, tile{tile_}, normalizedHeights{normalizedHeights_}, minHeight{minHeight_}, maxHeight{maxHeight_}, heightRange{heightRange_}, terrainSizeX{terrainSizeX_}, terrainSizeY{terrainSizeY_}, position{position_}, minBounds{minBounds_}, maxBounds{maxBounds_}, center{center_}, layerPath{layerPath_}, hasLayerAttributes{hasLayerAttributes_}, layerType{layerType_} {}
+    public:
     // Get instance field reference: public System.String _layerName
     ::Il2CppString*& dyn__layerName();
     // Get instance field reference: public System.Int32 _partID
@@ -243,7 +260,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Int32 _tile
     int& dyn__tile();
     // Get instance field reference: public System.Single[] _normalizedHeights
-    ::Array<float>*& dyn__normalizedHeights();
+    ::ArrayW<float>& dyn__normalizedHeights();
     // Get instance field reference: public System.Single _minHeight
     float& dyn__minHeight();
     // Get instance field reference: public System.Single _maxHeight
@@ -282,7 +299,6 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_LoadBufferVolumeLayer), 212 + sizeof(HoudiniEngineUnity::HFLayerType)> __HoudiniEngineUnity_HEU_LoadBufferVolumeLayerSizeCheck;
   static_assert(sizeof(HEU_LoadBufferVolumeLayer) == 0xD8);
 }
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_LoadBufferVolumeLayer*, "HoudiniEngineUnity", "HEU_LoadBufferVolumeLayer");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_LoadBufferVolumeLayer::New_ctor
 // Il2CppName: .ctor

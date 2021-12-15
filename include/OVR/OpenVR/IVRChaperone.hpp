@@ -14,6 +14,13 @@ namespace OVR::OpenVR {
 // Completed forward declares
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
+  // Forward declaring type: IVRChaperone
+  struct IVRChaperone;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRChaperone, "OVR.OpenVR", "IVRChaperone");
+// Type namespace: OVR.OpenVR
+namespace OVR::OpenVR {
   // Size: 0x40
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -37,6 +44,15 @@ namespace OVR::OpenVR {
     class _AreBoundsVisible;
     // Nested type: OVR::OpenVR::IVRChaperone::_ForceBoundsVisible
     class _ForceBoundsVisible;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // OVR.OpenVR.IVRChaperone/OVR.OpenVR._GetCalibrationState GetCalibrationState
     // Size: 0x8
     // Offset: 0x0
@@ -85,6 +101,7 @@ namespace OVR::OpenVR {
     OVR::OpenVR::IVRChaperone::_ForceBoundsVisible* ForceBoundsVisible;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::IVRChaperone::_ForceBoundsVisible*) == 0x8);
+    public:
     // Creating value type constructor for type: IVRChaperone
     constexpr IVRChaperone(OVR::OpenVR::IVRChaperone::_GetCalibrationState* GetCalibrationState_ = {}, OVR::OpenVR::IVRChaperone::_GetPlayAreaSize* GetPlayAreaSize_ = {}, OVR::OpenVR::IVRChaperone::_GetPlayAreaRect* GetPlayAreaRect_ = {}, OVR::OpenVR::IVRChaperone::_ReloadInfo* ReloadInfo_ = {}, OVR::OpenVR::IVRChaperone::_SetSceneColor* SetSceneColor_ = {}, OVR::OpenVR::IVRChaperone::_GetBoundsColor* GetBoundsColor_ = {}, OVR::OpenVR::IVRChaperone::_AreBoundsVisible* AreBoundsVisible_ = {}, OVR::OpenVR::IVRChaperone::_ForceBoundsVisible* ForceBoundsVisible_ = {}) noexcept : GetCalibrationState{GetCalibrationState_}, GetPlayAreaSize{GetPlayAreaSize_}, GetPlayAreaRect{GetPlayAreaRect_}, ReloadInfo{ReloadInfo_}, SetSceneColor{SetSceneColor_}, GetBoundsColor{GetBoundsColor_}, AreBoundsVisible{AreBoundsVisible_}, ForceBoundsVisible{ForceBoundsVisible_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -112,6 +129,4 @@ namespace OVR::OpenVR {
   static check_size<sizeof(IVRChaperone), 56 + sizeof(OVR::OpenVR::IVRChaperone::_ForceBoundsVisible*)> __OVR_OpenVR_IVRChaperoneSizeCheck;
   static_assert(sizeof(IVRChaperone) == 0x40);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRChaperone, "OVR.OpenVR", "IVRChaperone");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

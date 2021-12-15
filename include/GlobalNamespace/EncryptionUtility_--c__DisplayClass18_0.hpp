@@ -11,7 +11,16 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: 
+namespace GlobalNamespace {
+  // Forward declaring type: <>c__DisplayClass18_0
+  class $$c__DisplayClass18_0;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(GlobalNamespace::EncryptionUtility::$$c__DisplayClass18_0);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EncryptionUtility::$$c__DisplayClass18_0*, "", "EncryptionUtility/<>c__DisplayClass18_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x29
@@ -21,38 +30,46 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class EncryptionUtility::$$c__DisplayClass18_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.Byte[] preMasterSecret
     // Size: 0x8
     // Offset: 0x10
-    ::Array<uint8_t>* preMasterSecret;
+    ::ArrayW<uint8_t> preMasterSecret;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // public System.Byte[] serverSeed
     // Size: 0x8
     // Offset: 0x18
-    ::Array<uint8_t>* serverSeed;
+    ::ArrayW<uint8_t> serverSeed;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // public System.Byte[] clientSeed
     // Size: 0x8
     // Offset: 0x20
-    ::Array<uint8_t>* clientSeed;
+    ::ArrayW<uint8_t> clientSeed;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // public System.Boolean isClient
     // Size: 0x1
     // Offset: 0x28
     bool isClient;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: $$c__DisplayClass18_0
-    $$c__DisplayClass18_0(::Array<uint8_t>* preMasterSecret_ = {}, ::Array<uint8_t>* serverSeed_ = {}, ::Array<uint8_t>* clientSeed_ = {}, bool isClient_ = {}) noexcept : preMasterSecret{preMasterSecret_}, serverSeed{serverSeed_}, clientSeed{clientSeed_}, isClient{isClient_} {}
+    public:
     // Get instance field reference: public System.Byte[] preMasterSecret
-    ::Array<uint8_t>*& dyn_preMasterSecret();
+    ::ArrayW<uint8_t>& dyn_preMasterSecret();
     // Get instance field reference: public System.Byte[] serverSeed
-    ::Array<uint8_t>*& dyn_serverSeed();
+    ::ArrayW<uint8_t>& dyn_serverSeed();
     // Get instance field reference: public System.Byte[] clientSeed
-    ::Array<uint8_t>*& dyn_clientSeed();
+    ::ArrayW<uint8_t>& dyn_clientSeed();
     // Get instance field reference: public System.Boolean isClient
     bool& dyn_isClient();
     // EncryptionUtility/IEncryptionState <CreateEncryptionStateAsync>b__0()
@@ -72,7 +89,6 @@ namespace GlobalNamespace {
   static check_size<sizeof(EncryptionUtility::$$c__DisplayClass18_0), 40 + sizeof(bool)> __GlobalNamespace_EncryptionUtility_$$c__DisplayClass18_0SizeCheck;
   static_assert(sizeof(EncryptionUtility::$$c__DisplayClass18_0) == 0x29);
 }
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EncryptionUtility::$$c__DisplayClass18_0*, "", "EncryptionUtility/<>c__DisplayClass18_0");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EncryptionUtility::$$c__DisplayClass18_0::$CreateEncryptionStateAsync$b__0
 // Il2CppName: <CreateEncryptionStateAsync>b__0

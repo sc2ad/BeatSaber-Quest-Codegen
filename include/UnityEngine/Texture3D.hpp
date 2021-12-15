@@ -21,7 +21,16 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: UnityEngine
+namespace UnityEngine {
+  // Forward declaring type: Texture3D
+  class Texture3D;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::Texture3D);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Texture3D*, "UnityEngine", "Texture3D");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18
@@ -32,8 +41,6 @@ namespace UnityEngine {
   // [ExcludeFromPresetAttribute] Offset: EB3DC4
   class Texture3D : public UnityEngine::Texture {
     public:
-    // Creating value type constructor for type: Texture3D
-    Texture3D() noexcept {}
     // public System.Void .ctor(System.Int32 width, System.Int32 height, System.Int32 depth, UnityEngine.Experimental.Rendering.DefaultFormat format, UnityEngine.Experimental.Rendering.TextureCreationFlags flags)
     // Offset: 0x2435BB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -80,10 +87,10 @@ namespace UnityEngine {
     void ApplyImpl(bool updateMipmaps, bool makeNoLongerReadable);
     // public System.Void SetPixels32(UnityEngine.Color32[] colors, System.Int32 miplevel)
     // Offset: 0x2435B04
-    void SetPixels32(::Array<UnityEngine::Color32>* colors, int miplevel);
+    void SetPixels32(::ArrayW<UnityEngine::Color32> colors, int miplevel);
     // public System.Void SetPixels32(UnityEngine.Color32[] colors)
     // Offset: 0x2435B5C
-    void SetPixels32(::Array<UnityEngine::Color32>* colors);
+    void SetPixels32(::ArrayW<UnityEngine::Color32> colors);
     // public System.Void Apply(System.Boolean updateMipmaps, System.Boolean makeNoLongerReadable)
     // Offset: 0x2435EF0
     void Apply(bool updateMipmaps, bool makeNoLongerReadable);
@@ -98,7 +105,6 @@ namespace UnityEngine {
   }; // UnityEngine.Texture3D
   #pragma pack(pop)
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Texture3D*, "UnityEngine", "Texture3D");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Texture3D::New_ctor
 // Il2CppName: .ctor
@@ -163,7 +169,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Texture3D::SetPixels32
 // Il2CppName: SetPixels32
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Texture3D::*)(::Array<UnityEngine::Color32>*, int)>(&UnityEngine::Texture3D::SetPixels32)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Texture3D::*)(::ArrayW<UnityEngine::Color32>, int)>(&UnityEngine::Texture3D::SetPixels32)> {
   static const MethodInfo* get() {
     static auto* colors = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Color32"), 1)->byval_arg;
     static auto* miplevel = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -173,7 +179,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Texture3D::SetPixels32
 // Il2CppName: SetPixels32
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Texture3D::*)(::Array<UnityEngine::Color32>*)>(&UnityEngine::Texture3D::SetPixels32)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Texture3D::*)(::ArrayW<UnityEngine::Color32>)>(&UnityEngine::Texture3D::SetPixels32)> {
   static const MethodInfo* get() {
     static auto* colors = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Color32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Texture3D*), "SetPixels32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{colors});

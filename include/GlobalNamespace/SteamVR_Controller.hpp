@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -20,6 +21,14 @@ namespace Valve::VR {
   struct ETrackedDeviceClass;
 }
 // Completed forward declares
+// Type namespace: 
+namespace GlobalNamespace {
+  // Forward declaring type: SteamVR_Controller
+  class SteamVR_Controller;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(GlobalNamespace::SteamVR_Controller);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Controller*, "", "SteamVR_Controller");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -34,12 +43,10 @@ namespace GlobalNamespace {
     class Device;
     // Nested type: GlobalNamespace::SteamVR_Controller::DeviceRelation
     struct DeviceRelation;
-    // Creating value type constructor for type: SteamVR_Controller
-    SteamVR_Controller() noexcept {}
     // Get static field: static private SteamVR_Controller/Device[] devices
-    static ::Array<GlobalNamespace::SteamVR_Controller::Device*>* _get_devices();
+    static ::ArrayW<GlobalNamespace::SteamVR_Controller::Device*> _get_devices();
     // Set static field: static private SteamVR_Controller/Device[] devices
-    static void _set_devices(::Array<GlobalNamespace::SteamVR_Controller::Device*>* value);
+    static void _set_devices(::ArrayW<GlobalNamespace::SteamVR_Controller::Device*> value);
     // static public SteamVR_Controller/Device Input(System.Int32 deviceIndex)
     // Offset: 0x15B73D8
     static GlobalNamespace::SteamVR_Controller::Device* Input(int deviceIndex);
@@ -61,7 +68,6 @@ namespace GlobalNamespace {
   }; // SteamVR_Controller
   #pragma pack(pop)
 }
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Controller*, "", "SteamVR_Controller");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Controller::Input
 // Il2CppName: Input

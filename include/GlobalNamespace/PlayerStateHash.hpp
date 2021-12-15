@@ -13,10 +13,7 @@
 #include "System/IEquatable_1.hpp"
 // Including type: BitMask128
 #include "GlobalNamespace/BitMask128.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -40,10 +37,15 @@ namespace LiteNetLib::Utils {
 // Completed forward declares
 // Begin il2cpp-utils forward declares
 struct Il2CppString;
-template<class T>
-struct Array;
 struct Il2CppObject;
 // Completed il2cpp-utils forward declares
+// Type namespace: 
+namespace GlobalNamespace {
+  // Forward declaring type: PlayerStateHash
+  struct PlayerStateHash;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerStateHash, "", "PlayerStateHash");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -54,12 +56,22 @@ namespace GlobalNamespace {
   // [IsReadOnlyAttribute] Offset: FFFFFFFF
   struct PlayerStateHash/*, public System::ValueType, public LiteNetLib::Utils::INetImmutableSerializable_1<GlobalNamespace::PlayerStateHash>, public System::IEquatable_1<GlobalNamespace::PlayerStateHash>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private readonly BitMask128 _bloomFilter
     // Size: 0x10
     // Offset: 0x0
     GlobalNamespace::BitMask128 bloomFilter;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BitMask128) == 0x10);
+    public:
     // Creating value type constructor for type: PlayerStateHash
     constexpr PlayerStateHash(GlobalNamespace::BitMask128 bloomFilter_ = {}) noexcept : bloomFilter{bloomFilter_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -94,24 +106,13 @@ namespace GlobalNamespace {
     GlobalNamespace::BitMask128& dyn__bloomFilter();
     // private System.Void .ctor(BitMask128 bloomFilter)
     // Offset: 0x180E4A8
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    // ABORTED: conflicts with another method.  PlayerStateHash(GlobalNamespace::BitMask128 bloomFilter)
+    // ABORTED: conflicts with another method.  PlayerStateHash(GlobalNamespace::BitMask128 bloomFilter);
     // public System.Void .ctor(System.String state)
     // Offset: 0x180E4B0
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    PlayerStateHash(::Il2CppString* state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayerStateHash::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(state)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, state);
-    }
+    PlayerStateHash(::Il2CppString* state);
     // public System.Void .ctor(System.Collections.Generic.HashSet`1<System.String> stateHashSet)
     // Offset: 0x180E51C
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    PlayerStateHash(System::Collections::Generic::HashSet_1<::Il2CppString*>* stateHashSet) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayerStateHash::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(stateHashSet)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, stateHashSet);
-    }
+    PlayerStateHash(System::Collections::Generic::HashSet_1<::Il2CppString*>* stateHashSet);
     // public System.Boolean Contains(System.String state)
     // Offset: 0x180E588
     bool Contains(::Il2CppString* state);
@@ -132,7 +133,7 @@ namespace GlobalNamespace {
     ::Il2CppString* ToShortString();
     // public System.Byte[] ToBytes()
     // Offset: 0x180E750
-    ::Array<uint8_t>* ToBytes();
+    ::ArrayW<uint8_t> ToBytes();
     // public System.Boolean Equals(PlayerStateHash other)
     // Offset: 0x180E7A8
     bool Equals(GlobalNamespace::PlayerStateHash other);
@@ -144,7 +145,7 @@ namespace GlobalNamespace {
     static GlobalNamespace::PlayerStateHash Parse(::Il2CppString* stringSerializedMask);
     // static public PlayerStateHash FromBytes(System.Byte[] bytes, System.Int32 offset)
     // Offset: 0x180EA30
-    static GlobalNamespace::PlayerStateHash FromBytes(::Array<uint8_t>* bytes, int offset);
+    static GlobalNamespace::PlayerStateHash FromBytes(::ArrayW<uint8_t> bytes, int offset);
     // public override System.String ToString()
     // Offset: 0x180E674
     // Implemented from: System.ValueType
@@ -165,7 +166,6 @@ namespace GlobalNamespace {
   static check_size<sizeof(PlayerStateHash), 0 + sizeof(GlobalNamespace::BitMask128)> __GlobalNamespace_PlayerStateHashSizeCheck;
   static_assert(sizeof(PlayerStateHash) == 0x10);
 }
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerStateHash, "", "PlayerStateHash");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayerStateHash::PlayerStateHash
 // Il2CppName: .ctor
@@ -235,7 +235,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::PlayerStateHash::ToBytes
 // Il2CppName: ToBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (GlobalNamespace::PlayerStateHash::*)()>(&GlobalNamespace::PlayerStateHash::ToBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (GlobalNamespace::PlayerStateHash::*)()>(&GlobalNamespace::PlayerStateHash::ToBytes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerStateHash), "ToBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -271,7 +271,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::PlayerStateHash::FromBytes
 // Il2CppName: FromBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerStateHash (*)(::Array<uint8_t>*, int)>(&GlobalNamespace::PlayerStateHash::FromBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerStateHash (*)(::ArrayW<uint8_t>, int)>(&GlobalNamespace::PlayerStateHash::FromBytes)> {
   static const MethodInfo* get() {
     static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

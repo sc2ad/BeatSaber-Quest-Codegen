@@ -11,7 +11,16 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: Org.BouncyCastle.Math.EC.Rfc8032
+namespace Org::BouncyCastle::Math::EC::Rfc8032 {
+  // Forward declaring type: PointExt
+  class PointExt;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointExt);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointExt*, "Org.BouncyCastle.Math.EC.Rfc8032", "Ed448/PointExt");
 // Type namespace: Org.BouncyCastle.Math.EC.Rfc8032
 namespace Org::BouncyCastle::Math::EC::Rfc8032 {
   // Size: 0x28
@@ -20,32 +29,40 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
   // [TokenAttribute] Offset: FFFFFFFF
   class Ed448::PointExt : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // System.UInt32[] x
     // Size: 0x8
     // Offset: 0x10
-    ::Array<uint>* x;
+    ::ArrayW<uint> x;
     // Field size check
-    static_assert(sizeof(::Array<uint>*) == 0x8);
+    static_assert(sizeof(::ArrayW<uint>) == 0x8);
     // System.UInt32[] y
     // Size: 0x8
     // Offset: 0x18
-    ::Array<uint>* y;
+    ::ArrayW<uint> y;
     // Field size check
-    static_assert(sizeof(::Array<uint>*) == 0x8);
+    static_assert(sizeof(::ArrayW<uint>) == 0x8);
     // System.UInt32[] z
     // Size: 0x8
     // Offset: 0x20
-    ::Array<uint>* z;
+    ::ArrayW<uint> z;
     // Field size check
-    static_assert(sizeof(::Array<uint>*) == 0x8);
-    // Creating value type constructor for type: PointExt
-    PointExt(::Array<uint>* x_ = {}, ::Array<uint>* y_ = {}, ::Array<uint>* z_ = {}) noexcept : x{x_}, y{y_}, z{z_} {}
+    static_assert(sizeof(::ArrayW<uint>) == 0x8);
+    public:
     // Get instance field reference: System.UInt32[] x
-    ::Array<uint>*& dyn_x();
+    ::ArrayW<uint>& dyn_x();
     // Get instance field reference: System.UInt32[] y
-    ::Array<uint>*& dyn_y();
+    ::ArrayW<uint>& dyn_y();
     // Get instance field reference: System.UInt32[] z
-    ::Array<uint>*& dyn_z();
+    ::ArrayW<uint>& dyn_z();
     // public System.Void .ctor()
     // Offset: 0x1F6D560
     // Implemented from: System.Object
@@ -57,10 +74,9 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
     }
   }; // Org.BouncyCastle.Math.EC.Rfc8032.Ed448/Org.BouncyCastle.Math.EC.Rfc8032.PointExt
   #pragma pack(pop)
-  static check_size<sizeof(Ed448::PointExt), 32 + sizeof(::Array<uint>*)> __Org_BouncyCastle_Math_EC_Rfc8032_Ed448_PointExtSizeCheck;
+  static check_size<sizeof(Ed448::PointExt), 32 + sizeof(::ArrayW<uint>)> __Org_BouncyCastle_Math_EC_Rfc8032_Ed448_PointExtSizeCheck;
   static_assert(sizeof(Ed448::PointExt) == 0x28);
 }
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointExt*, "Org.BouncyCastle.Math.EC.Rfc8032", "Ed448/PointExt");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointExt::New_ctor
 // Il2CppName: .ctor

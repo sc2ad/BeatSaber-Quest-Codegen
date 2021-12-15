@@ -14,7 +14,16 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: 
+namespace GlobalNamespace {
+  // Forward declaring type: NetLogger
+  class NetLogger;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(GlobalNamespace::BGNetDebug::NetLogger);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BGNetDebug::NetLogger*, "", "BGNetDebug/NetLogger");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -23,22 +32,13 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BGNetDebug::NetLogger : public ::Il2CppObject/*, public LiteNetLib::INetLogger*/ {
     public:
-    // Creating value type constructor for type: NetLogger
-    NetLogger() noexcept {}
     // Creating interface conversion operator: operator LiteNetLib::INetLogger
     operator LiteNetLib::INetLogger() noexcept {
       return *reinterpret_cast<LiteNetLib::INetLogger*>(this);
     }
     // public System.Void WriteNet(LiteNetLib.NetLogLevel level, System.String str, params System.Object[] args)
     // Offset: 0x155BF44
-    void WriteNet(LiteNetLib::NetLogLevel level, ::Il2CppString* str, ::Array<::Il2CppObject*>* args);
-    // Creating initializer_list -> params proxy for: System.Void WriteNet(LiteNetLib.NetLogLevel level, System.String str, params System.Object[] args)
-    void WriteNet(LiteNetLib::NetLogLevel level, ::Il2CppString* str, std::initializer_list<::Il2CppObject*> args);
-    // Creating TArgs -> initializer_list proxy for: System.Void WriteNet(LiteNetLib.NetLogLevel level, System.String str, params System.Object[] args)
-    template<class ...TParams>
-    void WriteNet(LiteNetLib::NetLogLevel level, ::Il2CppString* str, TParams&&... args) {
-      WriteNet(level, str, {args...});
-    }
+    void WriteNet(LiteNetLib::NetLogLevel level, ::Il2CppString* str, ::ArrayW<::Il2CppObject*> args);
     // public System.Void .ctor()
     // Offset: 0x155BC74
     // Implemented from: System.Object
@@ -51,12 +51,11 @@ namespace GlobalNamespace {
   }; // BGNetDebug/NetLogger
   #pragma pack(pop)
 }
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BGNetDebug::NetLogger*, "", "BGNetDebug/NetLogger");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BGNetDebug::NetLogger::WriteNet
 // Il2CppName: WriteNet
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BGNetDebug::NetLogger::*)(LiteNetLib::NetLogLevel, ::Il2CppString*, ::Array<::Il2CppObject*>*)>(&GlobalNamespace::BGNetDebug::NetLogger::WriteNet)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BGNetDebug::NetLogger::*)(LiteNetLib::NetLogLevel, ::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&GlobalNamespace::BGNetDebug::NetLogger::WriteNet)> {
   static const MethodInfo* get() {
     static auto* level = &::il2cpp_utils::GetClassFromName("LiteNetLib", "NetLogLevel")->byval_arg;
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

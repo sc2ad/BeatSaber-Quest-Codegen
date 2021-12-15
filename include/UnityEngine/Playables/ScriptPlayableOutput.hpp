@@ -3,7 +3,6 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
@@ -11,10 +10,6 @@
 #include "UnityEngine/Playables/IPlayableOutput.hpp"
 // Including type: UnityEngine.Playables.PlayableOutputHandle
 #include "UnityEngine/Playables/PlayableOutputHandle.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Playables
@@ -25,6 +20,16 @@ namespace UnityEngine::Playables {
   struct PlayableOutput;
 }
 // Completed forward declares
+// Begin il2cpp-utils forward declares
+struct Il2CppString;
+// Completed il2cpp-utils forward declares
+// Type namespace: UnityEngine.Playables
+namespace UnityEngine::Playables {
+  // Forward declaring type: ScriptPlayableOutput
+  struct ScriptPlayableOutput;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::ScriptPlayableOutput, "UnityEngine.Playables", "ScriptPlayableOutput");
 // Type namespace: UnityEngine.Playables
 namespace UnityEngine::Playables {
   // Size: 0xC
@@ -35,12 +40,22 @@ namespace UnityEngine::Playables {
   // [RequiredByNativeCodeAttribute] Offset: EB6F80
   struct ScriptPlayableOutput/*, public System::ValueType, public UnityEngine::Playables::IPlayableOutput*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private UnityEngine.Playables.PlayableOutputHandle m_Handle
     // Size: 0xC
     // Offset: 0x0
     UnityEngine::Playables::PlayableOutputHandle m_Handle;
     // Field size check
     static_assert(sizeof(UnityEngine::Playables::PlayableOutputHandle) == 0xC);
+    public:
     // Creating value type constructor for type: ScriptPlayableOutput
     constexpr ScriptPlayableOutput(UnityEngine::Playables::PlayableOutputHandle m_Handle_ = {}) noexcept : m_Handle{m_Handle_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -62,8 +77,7 @@ namespace UnityEngine::Playables {
     static UnityEngine::Playables::ScriptPlayableOutput get_Null();
     // System.Void .ctor(UnityEngine.Playables.PlayableOutputHandle handle)
     // Offset: 0x1DEE03C
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    // ABORTED: conflicts with another method.  ScriptPlayableOutput(UnityEngine::Playables::PlayableOutputHandle handle)
+    // ABORTED: conflicts with another method.  ScriptPlayableOutput(UnityEngine::Playables::PlayableOutputHandle handle);
     // static public UnityEngine.Playables.ScriptPlayableOutput Create(UnityEngine.Playables.PlayableGraph graph, System.String name)
     // Offset: 0x1DEDF58
     static UnityEngine::Playables::ScriptPlayableOutput Create(UnityEngine::Playables::PlayableGraph graph, ::Il2CppString* name);
@@ -75,7 +89,6 @@ namespace UnityEngine::Playables {
   static check_size<sizeof(ScriptPlayableOutput), 0 + sizeof(UnityEngine::Playables::PlayableOutputHandle)> __UnityEngine_Playables_ScriptPlayableOutputSizeCheck;
   static_assert(sizeof(ScriptPlayableOutput) == 0xC);
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::ScriptPlayableOutput, "UnityEngine.Playables", "ScriptPlayableOutput");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Playables::ScriptPlayableOutput::get_Null
 // Il2CppName: get_Null

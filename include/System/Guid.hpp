@@ -15,10 +15,7 @@
 #include "System/IComparable.hpp"
 // Including type: System.IFormattable
 #include "System/IFormattable.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -32,6 +29,13 @@ namespace System::Security::Cryptography {
   class RandomNumberGenerator;
 }
 // Completed forward declares
+// Type namespace: System
+namespace System {
+  // Forward declaring type: Guid
+  struct Guid;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Guid, "System", "Guid");
 // Type namespace: System
 namespace System {
   // Size: 0x10
@@ -50,6 +54,15 @@ namespace System {
     struct ParseFailureKind;
     // Nested type: System::Guid::GuidResult
     struct GuidResult;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.Int32 _a
     // Size: 0x4
     // Offset: 0x0
@@ -116,6 +129,7 @@ namespace System {
     uint8_t k;
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
+    public:
     // Creating value type constructor for type: Guid
     constexpr Guid(int a_ = {}, int16_t b_ = {}, int16_t c_ = {}, uint8_t d_ = {}, uint8_t e_ = {}, uint8_t f_ = {}, uint8_t g_ = {}, uint8_t h_ = {}, uint8_t i_ = {}, uint8_t j_ = {}, uint8_t k_ = {}) noexcept : a{a_}, b{b_}, c{c_}, d{d_}, e{e_}, f{f_}, g{g_}, h{h_}, i{i_}, j{j_}, k{k_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -178,32 +192,16 @@ namespace System {
     uint8_t& dyn__k();
     // public System.Void .ctor(System.Byte[] b)
     // Offset: 0x1C43024
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    Guid(::Array<uint8_t>* b) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Guid::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(b)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, b);
-    }
+    Guid(::ArrayW<uint8_t> b);
     // public System.Void .ctor(System.Int32 a, System.Int16 b, System.Int16 c, System.Byte[] d)
     // Offset: 0x1C4322C
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    Guid(int a, int16_t b, int16_t c, ::Array<uint8_t>* d) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Guid::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(a), ::il2cpp_utils::ExtractType(b), ::il2cpp_utils::ExtractType(c), ::il2cpp_utils::ExtractType(d)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, a, b, c, d);
-    }
+    Guid(int a, int16_t b, int16_t c, ::ArrayW<uint8_t> d);
     // public System.Void .ctor(System.Int32 a, System.Int16 b, System.Int16 c, System.Byte d, System.Byte e, System.Byte f, System.Byte g, System.Byte h, System.Byte i, System.Byte j, System.Byte k)
     // Offset: 0x1C43420
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    // ABORTED: conflicts with another method.  Guid(int a, int16_t b, int16_t c, uint8_t d, uint8_t e, uint8_t f, uint8_t g, uint8_t h, uint8_t i, uint8_t j, uint8_t k)
+    // ABORTED: conflicts with another method.  Guid(int a, int16_t b, int16_t c, uint8_t d, uint8_t e, uint8_t f, uint8_t g, uint8_t h, uint8_t i, uint8_t j, uint8_t k);
     // public System.Void .ctor(System.String g)
     // Offset: 0x1C43460
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    Guid(::Il2CppString* g) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Guid::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(g)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, g);
-    }
+    Guid(::Il2CppString* g);
     // static private System.Void .cctor()
     // Offset: 0x1C462EC
     static void _cctor();
@@ -254,7 +252,7 @@ namespace System {
     static bool IsHexPrefix(::Il2CppString* str, int i);
     // public System.Byte[] ToByteArray()
     // Offset: 0x1C45210
-    ::Array<uint8_t>* ToByteArray();
+    ::ArrayW<uint8_t> ToByteArray();
     // public System.Boolean Equals(System.Guid g)
     // Offset: 0x1C45A7C
     bool Equals(System::Guid g);
@@ -311,7 +309,6 @@ namespace System {
   // Offset: 0x1C45E80
   bool operator !=(const System::Guid& a, const System::Guid& b);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::Guid, "System", "Guid");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Guid::Guid
 // Il2CppName: .ctor
@@ -513,7 +510,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Guid::ToByteArray
 // Il2CppName: ToByteArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (System::Guid::*)()>(&System::Guid::ToByteArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::Guid::*)()>(&System::Guid::ToByteArray)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Guid), "ToByteArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

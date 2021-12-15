@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: RootMotion::FinalIK
@@ -24,6 +25,14 @@ namespace UnityEngine {
   struct RaycastHit;
 }
 // Completed forward declares
+// Type namespace: RootMotion.FinalIK
+namespace RootMotion::FinalIK {
+  // Forward declaring type: InteractionTrigger
+  class InteractionTrigger;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(RootMotion::FinalIK::InteractionTrigger);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionTrigger*, "RootMotion.FinalIK", "InteractionTrigger");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
   // Size: 0x20
@@ -40,19 +49,27 @@ namespace RootMotion::FinalIK {
     class CameraPosition;
     // Nested type: RootMotion::FinalIK::InteractionTrigger::Range
     class Range;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // [TooltipAttribute] Offset: 0xF5F04C
     // public RootMotion.FinalIK.InteractionTrigger/RootMotion.FinalIK.Range[] ranges
     // Size: 0x8
     // Offset: 0x18
-    ::Array<RootMotion::FinalIK::InteractionTrigger::Range*>* ranges;
+    ::ArrayW<RootMotion::FinalIK::InteractionTrigger::Range*> ranges;
     // Field size check
-    static_assert(sizeof(::Array<RootMotion::FinalIK::InteractionTrigger::Range*>*) == 0x8);
-    // Creating value type constructor for type: InteractionTrigger
-    InteractionTrigger(::Array<RootMotion::FinalIK::InteractionTrigger::Range*>* ranges_ = {}) noexcept : ranges{ranges_} {}
+    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::InteractionTrigger::Range*>) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public RootMotion.FinalIK.InteractionTrigger/RootMotion.FinalIK.Range[] ranges
-    ::Array<RootMotion::FinalIK::InteractionTrigger::Range*>*& dyn_ranges();
+    ::ArrayW<RootMotion::FinalIK::InteractionTrigger::Range*>& dyn_ranges();
     // private System.Void OpenUserManual()
     // Offset: 0x1C96388
     void OpenUserManual();
@@ -89,10 +106,9 @@ namespace RootMotion::FinalIK {
     }
   }; // RootMotion.FinalIK.InteractionTrigger
   #pragma pack(pop)
-  static check_size<sizeof(InteractionTrigger), 24 + sizeof(::Array<RootMotion::FinalIK::InteractionTrigger::Range*>*)> __RootMotion_FinalIK_InteractionTriggerSizeCheck;
+  static check_size<sizeof(InteractionTrigger), 24 + sizeof(::ArrayW<RootMotion::FinalIK::InteractionTrigger::Range*>)> __RootMotion_FinalIK_InteractionTriggerSizeCheck;
   static_assert(sizeof(InteractionTrigger) == 0x20);
 }
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionTrigger*, "RootMotion.FinalIK", "InteractionTrigger");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionTrigger::OpenUserManual
 // Il2CppName: OpenUserManual

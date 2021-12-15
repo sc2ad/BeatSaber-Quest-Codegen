@@ -25,6 +25,14 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: DetailPrototype
+  class DetailPrototype;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::DetailPrototype);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::DetailPrototype*, "UnityEngine", "DetailPrototype");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x60
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -33,6 +41,15 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: F0D470
   class DetailPrototype : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // UnityEngine.GameObject m_Prototype
     // Size: 0x8
     // Offset: 0x10
@@ -105,8 +122,7 @@ namespace UnityEngine {
     int m_UsePrototypeMesh;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: DetailPrototype
-    DetailPrototype(UnityEngine::GameObject* m_Prototype_ = {}, UnityEngine::Texture2D* m_PrototypeTexture_ = {}, UnityEngine::Color m_HealthyColor_ = {}, UnityEngine::Color m_DryColor_ = {}, float m_MinWidth_ = {}, float m_MaxWidth_ = {}, float m_MinHeight_ = {}, float m_MaxHeight_ = {}, float m_NoiseSpread_ = {}, float m_BendFactor_ = {}, int m_RenderMode_ = {}, int m_UsePrototypeMesh_ = {}) noexcept : m_Prototype{m_Prototype_}, m_PrototypeTexture{m_PrototypeTexture_}, m_HealthyColor{m_HealthyColor_}, m_DryColor{m_DryColor_}, m_MinWidth{m_MinWidth_}, m_MaxWidth{m_MaxWidth_}, m_MinHeight{m_MinHeight_}, m_MaxHeight{m_MaxHeight_}, m_NoiseSpread{m_NoiseSpread_}, m_BendFactor{m_BendFactor_}, m_RenderMode{m_RenderMode_}, m_UsePrototypeMesh{m_UsePrototypeMesh_} {}
+    public:
     // Get instance field reference: UnityEngine.GameObject m_Prototype
     UnityEngine::GameObject*& dyn_m_Prototype();
     // Get instance field reference: UnityEngine.Texture2D m_PrototypeTexture
@@ -221,7 +237,6 @@ namespace UnityEngine {
   static check_size<sizeof(DetailPrototype), 92 + sizeof(int)> __UnityEngine_DetailPrototypeSizeCheck;
   static_assert(sizeof(DetailPrototype) == 0x60);
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::DetailPrototype*, "UnityEngine", "DetailPrototype");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::DetailPrototype::set_prototype
 // Il2CppName: set_prototype

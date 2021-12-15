@@ -23,6 +23,14 @@ namespace UnityEngine::XR {
 // Completed forward declares
 // Type namespace: UnityEngine.XR
 namespace UnityEngine::XR {
+  // Forward declaring type: InputDevices
+  class InputDevices;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::XR::InputDevices);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::InputDevices*, "UnityEngine.XR", "InputDevices");
+// Type namespace: UnityEngine.XR
+namespace UnityEngine::XR {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -34,8 +42,6 @@ namespace UnityEngine::XR {
   // [NativeConditionalAttribute] Offset: EDB8DC
   class InputDevices : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: InputDevices
-    InputDevices() noexcept {}
     // [DebuggerBrowsableAttribute] Offset: 0xEDBF88
     // Get static field: static private System.Action`1<UnityEngine.XR.InputDevice> deviceConnected
     static System::Action_1<UnityEngine::XR::InputDevice>* _get_deviceConnected();
@@ -57,8 +63,6 @@ namespace UnityEngine::XR {
   }; // UnityEngine.XR.InputDevices
   #pragma pack(pop)
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::InputDevices*, "UnityEngine.XR", "InputDevices");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::XR::InputDevices::InvokeConnectionEvent
 // Il2CppName: InvokeConnectionEvent

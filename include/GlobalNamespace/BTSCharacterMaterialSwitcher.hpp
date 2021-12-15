@@ -11,12 +11,21 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
 }
 // Completed forward declares
+// Type namespace: 
+namespace GlobalNamespace {
+  // Forward declaring type: BTSCharacterMaterialSwitcher
+  class BTSCharacterMaterialSwitcher;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(GlobalNamespace::BTSCharacterMaterialSwitcher);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterMaterialSwitcher*, "", "BTSCharacterMaterialSwitcher");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -29,18 +38,26 @@ namespace GlobalNamespace {
     class RendererMaterialsPairs;
     // Nested type: GlobalNamespace::BTSCharacterMaterialSwitcher::MaterialPairs
     class MaterialPairs;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private BTSCharacterMaterialSwitcher/RendererMaterialsPairs[] _rendererMaterialsPairs
     // Size: 0x8
     // Offset: 0x18
-    ::Array<GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs*>* rendererMaterialsPairs;
+    ::ArrayW<GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs*> rendererMaterialsPairs;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs*>*) == 0x8);
-    // Creating value type constructor for type: BTSCharacterMaterialSwitcher
-    BTSCharacterMaterialSwitcher(::Array<GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs*>* rendererMaterialsPairs_ = {}) noexcept : rendererMaterialsPairs{rendererMaterialsPairs_} {}
+    static_assert(sizeof(::ArrayW<GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs*>) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BTSCharacterMaterialSwitcher/RendererMaterialsPairs[] _rendererMaterialsPairs
-    ::Array<GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs*>*& dyn__rendererMaterialsPairs();
+    ::ArrayW<GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs*>& dyn__rendererMaterialsPairs();
     // public System.Void SwapMaterials(System.Boolean alternative)
     // Offset: 0x131D974
     void SwapMaterials(bool alternative);
@@ -59,10 +76,9 @@ namespace GlobalNamespace {
     }
   }; // BTSCharacterMaterialSwitcher
   #pragma pack(pop)
-  static check_size<sizeof(BTSCharacterMaterialSwitcher), 24 + sizeof(::Array<GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs*>*)> __GlobalNamespace_BTSCharacterMaterialSwitcherSizeCheck;
+  static check_size<sizeof(BTSCharacterMaterialSwitcher), 24 + sizeof(::ArrayW<GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs*>)> __GlobalNamespace_BTSCharacterMaterialSwitcherSizeCheck;
   static_assert(sizeof(BTSCharacterMaterialSwitcher) == 0x20);
 }
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterMaterialSwitcher*, "", "BTSCharacterMaterialSwitcher");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacterMaterialSwitcher::SwapMaterials
 // Il2CppName: SwapMaterials

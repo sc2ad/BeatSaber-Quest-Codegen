@@ -21,6 +21,13 @@ namespace LiteNetLib {
 // Completed forward declares
 // Type namespace: LiteNetLib
 namespace LiteNetLib {
+  // Forward declaring type: DisconnectInfo
+  struct DisconnectInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::DisconnectInfo, "LiteNetLib", "DisconnectInfo");
+// Type namespace: LiteNetLib
+namespace LiteNetLib {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -28,6 +35,15 @@ namespace LiteNetLib {
   // [TokenAttribute] Offset: FFFFFFFF
   struct DisconnectInfo/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public LiteNetLib.DisconnectReason Reason
     // Size: 0x4
     // Offset: 0x0
@@ -46,6 +62,7 @@ namespace LiteNetLib {
     LiteNetLib::NetPacketReader* AdditionalData;
     // Field size check
     static_assert(sizeof(LiteNetLib::NetPacketReader*) == 0x8);
+    public:
     // Creating value type constructor for type: DisconnectInfo
     constexpr DisconnectInfo(LiteNetLib::DisconnectReason Reason_ = {}, System::Net::Sockets::SocketError SocketErrorCode_ = {}, LiteNetLib::NetPacketReader* AdditionalData_ = {}) noexcept : Reason{Reason_}, SocketErrorCode{SocketErrorCode_}, AdditionalData{AdditionalData_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -63,6 +80,4 @@ namespace LiteNetLib {
   static check_size<sizeof(DisconnectInfo), 8 + sizeof(LiteNetLib::NetPacketReader*)> __LiteNetLib_DisconnectInfoSizeCheck;
   static_assert(sizeof(DisconnectInfo) == 0x10);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::DisconnectInfo, "LiteNetLib", "DisconnectInfo");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -16,6 +16,13 @@ struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.XR
 namespace UnityEngine::XR {
+  // Forward declaring type: MeshId
+  struct MeshId;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::MeshId, "UnityEngine.XR", "MeshId");
+// Type namespace: UnityEngine.XR
+namespace UnityEngine::XR {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -25,6 +32,15 @@ namespace UnityEngine::XR {
   // [NativeHeaderAttribute] Offset: EDBC1C
   struct MeshId/*, public System::ValueType, public System::IEquatable_1<UnityEngine::XR::MeshId>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.UInt64 m_SubId1
     // Size: 0x8
     // Offset: 0x0
@@ -37,6 +53,7 @@ namespace UnityEngine::XR {
     uint64_t m_SubId2;
     // Field size check
     static_assert(sizeof(uint64_t) == 0x8);
+    public:
     // Creating value type constructor for type: MeshId
     constexpr MeshId(uint64_t m_SubId1_ = {}, uint64_t m_SubId2_ = {}) noexcept : m_SubId1{m_SubId1_}, m_SubId2{m_SubId2_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -81,8 +98,6 @@ namespace UnityEngine::XR {
   static check_size<sizeof(MeshId), 8 + sizeof(uint64_t)> __UnityEngine_XR_MeshIdSizeCheck;
   static_assert(sizeof(MeshId) == 0x10);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::MeshId, "UnityEngine.XR", "MeshId");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::XR::MeshId::_cctor
 // Il2CppName: .cctor

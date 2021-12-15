@@ -19,7 +19,16 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: UnityOpus
+namespace UnityOpus {
+  // Forward declaring type: Decoder
+  class Decoder;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityOpus::Decoder);
+DEFINE_IL2CPP_ARG_TYPE(UnityOpus::Decoder*, "UnityOpus", "Decoder");
 // Type namespace: UnityOpus
 namespace UnityOpus {
   // Size: 0x29
@@ -28,6 +37,15 @@ namespace UnityOpus {
   // [TokenAttribute] Offset: FFFFFFFF
   class Decoder : public ::Il2CppObject/*, public System::IDisposable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.IntPtr decoder
     // Size: 0x8
     // Offset: 0x10
@@ -45,17 +63,16 @@ namespace UnityOpus {
     // private readonly System.Single[] softclipMem
     // Size: 0x8
     // Offset: 0x20
-    ::Array<float>* softclipMem;
+    ::ArrayW<float> softclipMem;
     // Field size check
-    static_assert(sizeof(::Array<float>*) == 0x8);
+    static_assert(sizeof(::ArrayW<float>) == 0x8);
     // private System.Boolean disposedValue
     // Size: 0x1
     // Offset: 0x28
     bool disposedValue;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: Decoder
-    Decoder(System::IntPtr decoder_ = {}, UnityOpus::NumChannels channels_ = {}, ::Array<float>* softclipMem_ = {}, bool disposedValue_ = {}) noexcept : decoder{decoder_}, channels{channels_}, softclipMem{softclipMem_}, disposedValue{disposedValue_} {}
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
@@ -71,7 +88,7 @@ namespace UnityOpus {
     // Get instance field reference: private readonly UnityOpus.NumChannels channels
     UnityOpus::NumChannels& dyn_channels();
     // Get instance field reference: private readonly System.Single[] softclipMem
-    ::Array<float>*& dyn_softclipMem();
+    ::ArrayW<float>& dyn_softclipMem();
     // Get instance field reference: private System.Boolean disposedValue
     bool& dyn_disposedValue();
     // public System.Void .ctor(UnityOpus.SamplingFrequency samplingFrequency, UnityOpus.NumChannels channels)
@@ -83,7 +100,7 @@ namespace UnityOpus {
     }
     // public System.Int32 Decode(System.Byte[] data, System.Int32 dataLength, System.Single[] pcm, System.Int32 decodeFec)
     // Offset: 0x1BD6720
-    int Decode(::Array<uint8_t>* data, int dataLength, ::Array<float>* pcm, int decodeFec);
+    int Decode(::ArrayW<uint8_t> data, int dataLength, ::ArrayW<float> pcm, int decodeFec);
     // protected System.Void Dispose(System.Boolean disposing)
     // Offset: 0x1BD696C
     void Dispose(bool disposing);
@@ -100,7 +117,6 @@ namespace UnityOpus {
   static check_size<sizeof(Decoder), 40 + sizeof(bool)> __UnityOpus_DecoderSizeCheck;
   static_assert(sizeof(Decoder) == 0x29);
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityOpus::Decoder*, "UnityOpus", "Decoder");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityOpus::Decoder::New_ctor
 // Il2CppName: .ctor
@@ -109,7 +125,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityOpus::Decoder*, "UnityOpus", "Decoder");
 // Writing MetadataGetter for method: UnityOpus::Decoder::Decode
 // Il2CppName: Decode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityOpus::Decoder::*)(::Array<uint8_t>*, int, ::Array<float>*, int)>(&UnityOpus::Decoder::Decode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityOpus::Decoder::*)(::ArrayW<uint8_t>, int, ::ArrayW<float>, int)>(&UnityOpus::Decoder::Decode)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* dataLength = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

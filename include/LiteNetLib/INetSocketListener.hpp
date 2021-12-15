@@ -5,6 +5,7 @@
 // Begin includes
 #include <stdint.h>
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net::Sockets
@@ -18,10 +19,14 @@ namespace System::Net {
   class IPEndPoint;
 }
 // Completed forward declares
-// Begin il2cpp-utils forward declares
-template<class T>
-struct Array;
-// Completed il2cpp-utils forward declares
+// Type namespace: LiteNetLib
+namespace LiteNetLib {
+  // Forward declaring type: INetSocketListener
+  class INetSocketListener;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(LiteNetLib::INetSocketListener);
+DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::INetSocketListener*, "LiteNetLib", "INetSocketListener");
 // Type namespace: LiteNetLib
 namespace LiteNetLib {
   // Size: 0x10
@@ -30,21 +35,17 @@ namespace LiteNetLib {
   // [TokenAttribute] Offset: FFFFFFFF
   class INetSocketListener {
     public:
-    // Creating value type constructor for type: INetSocketListener
-    INetSocketListener() noexcept {}
     // public System.Void OnMessageReceived(System.Byte[] data, System.Int32 length, System.Net.Sockets.SocketError errorCode, System.Net.IPEndPoint remoteEndPoint)
     // Offset: 0xFFFFFFFF
-    void OnMessageReceived(::Array<uint8_t>* data, int length, System::Net::Sockets::SocketError errorCode, System::Net::IPEndPoint* remoteEndPoint);
+    void OnMessageReceived(::ArrayW<uint8_t> data, int length, System::Net::Sockets::SocketError errorCode, System::Net::IPEndPoint* remoteEndPoint);
   }; // LiteNetLib.INetSocketListener
   #pragma pack(pop)
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::INetSocketListener*, "LiteNetLib", "INetSocketListener");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::INetSocketListener::OnMessageReceived
 // Il2CppName: OnMessageReceived
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::INetSocketListener::*)(::Array<uint8_t>*, int, System::Net::Sockets::SocketError, System::Net::IPEndPoint*)>(&LiteNetLib::INetSocketListener::OnMessageReceived)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::INetSocketListener::*)(::ArrayW<uint8_t>, int, System::Net::Sockets::SocketError, System::Net::IPEndPoint*)>(&LiteNetLib::INetSocketListener::OnMessageReceived)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

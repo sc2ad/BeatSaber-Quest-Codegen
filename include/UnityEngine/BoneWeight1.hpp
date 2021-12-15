@@ -14,6 +14,13 @@ struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: BoneWeight1
+  struct BoneWeight1;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::BoneWeight1, "UnityEngine", "BoneWeight1");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -22,6 +29,15 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: EB3C78
   struct BoneWeight1/*, public System::ValueType, public System::IEquatable_1<UnityEngine::BoneWeight1>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // [SerializeField] Offset: 0xEB7F5C
     // private System.Single m_Weight
     // Size: 0x4
@@ -36,6 +52,7 @@ namespace UnityEngine {
     int m_BoneIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: BoneWeight1
     constexpr BoneWeight1(float m_Weight_ = {}, int m_BoneIndex_ = {}) noexcept : m_Weight{m_Weight_}, m_BoneIndex{m_BoneIndex_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -74,8 +91,6 @@ namespace UnityEngine {
   static check_size<sizeof(BoneWeight1), 4 + sizeof(int)> __UnityEngine_BoneWeight1SizeCheck;
   static_assert(sizeof(BoneWeight1) == 0x8);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::BoneWeight1, "UnityEngine", "BoneWeight1");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::BoneWeight1::get_weight
 // Il2CppName: get_weight

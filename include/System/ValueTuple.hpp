@@ -32,6 +32,13 @@ struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: System
 namespace System {
+  // Forward declaring type: ValueTuple
+  struct ValueTuple;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::ValueTuple, "System", "ValueTuple");
+// Type namespace: System
+namespace System {
   // Size: 0x0
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -104,8 +111,6 @@ namespace System {
   }; // System.ValueTuple
   #pragma pack(pop)
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::ValueTuple, "System", "ValueTuple");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ValueTuple::Equals
 // Il2CppName: Equals

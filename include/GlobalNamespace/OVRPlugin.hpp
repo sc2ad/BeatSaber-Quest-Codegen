@@ -13,6 +13,7 @@
 #include "System/Guid.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -45,6 +46,14 @@ namespace UnityEngine {
   struct Vector4;
 }
 // Completed forward declares
+// Type namespace: 
+namespace GlobalNamespace {
+  // Forward declaring type: OVRPlugin
+  class OVRPlugin;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(GlobalNamespace::OVRPlugin);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin*, "", "OVRPlugin");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -341,12 +350,22 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct XrApi/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      #ifdef CODEGEN_FIELD_ACCESSIBILITY
+      CODEGEN_FIELD_ACCESSIBILITY:
+      #else
+      protected:
+      #endif
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: XrApi
       constexpr XrApi(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -400,6 +419,15 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct Vector3f/*, public System::ValueType*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      #ifdef CODEGEN_FIELD_ACCESSIBILITY
+      CODEGEN_FIELD_ACCESSIBILITY:
+      #else
+      protected:
+      #endif
+      #endif
       // public System.Single x
       // Size: 0x4
       // Offset: 0x0
@@ -418,6 +446,7 @@ namespace GlobalNamespace {
       float z;
       // Field size check
       static_assert(sizeof(float) == 0x4);
+      public:
       // Creating value type constructor for type: Vector3f
       constexpr Vector3f(float x_ = {}, float y_ = {}, float z_ = {}) noexcept : x{x_}, y{y_}, z{z_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -453,6 +482,15 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct Quatf/*, public System::ValueType*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      #ifdef CODEGEN_FIELD_ACCESSIBILITY
+      CODEGEN_FIELD_ACCESSIBILITY:
+      #else
+      protected:
+      #endif
+      #endif
       // public System.Single x
       // Size: 0x4
       // Offset: 0x0
@@ -477,6 +515,7 @@ namespace GlobalNamespace {
       float w;
       // Field size check
       static_assert(sizeof(float) == 0x4);
+      public:
       // Creating value type constructor for type: Quatf
       constexpr Quatf(float x_ = {}, float y_ = {}, float z_ = {}, float w_ = {}) noexcept : x{x_}, y{y_}, z{z_}, w{w_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -514,6 +553,15 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct Posef/*, public System::ValueType*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      #ifdef CODEGEN_FIELD_ACCESSIBILITY
+      CODEGEN_FIELD_ACCESSIBILITY:
+      #else
+      protected:
+      #endif
+      #endif
       // public OVRPlugin/Quatf Orientation
       // Size: 0x10
       // Offset: 0x0
@@ -526,6 +574,7 @@ namespace GlobalNamespace {
       GlobalNamespace::OVRPlugin::Vector3f Position;
       // Field size check
       static_assert(sizeof(GlobalNamespace::OVRPlugin::Vector3f) == 0xC);
+      public:
       // Creating value type constructor for type: Posef
       constexpr Posef(GlobalNamespace::OVRPlugin::Quatf Orientation_ = {}, GlobalNamespace::OVRPlugin::Vector3f Position_ = {}) noexcept : Orientation{Orientation_}, Position{Position_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -558,12 +607,22 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct TrackingConfidence/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      #ifdef CODEGEN_FIELD_ACCESSIBILITY
+      CODEGEN_FIELD_ACCESSIBILITY:
+      #else
+      protected:
+      #endif
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: TrackingConfidence
       constexpr TrackingConfidence(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -599,12 +658,22 @@ namespace GlobalNamespace {
     // [FlagsAttribute] Offset: FFFFFFFF
     struct HandStatus/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      #ifdef CODEGEN_FIELD_ACCESSIBILITY
+      CODEGEN_FIELD_ACCESSIBILITY:
+      #else
+      protected:
+      #endif
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: HandStatus
       constexpr HandStatus(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -657,12 +726,22 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct BoneId/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      #ifdef CODEGEN_FIELD_ACCESSIBILITY
+      CODEGEN_FIELD_ACCESSIBILITY:
+      #else
+      protected:
+      #endif
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: BoneId
       constexpr BoneId(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -860,12 +939,22 @@ namespace GlobalNamespace {
     // [FlagsAttribute] Offset: FFFFFFFF
     struct HandFingerPinch/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      #ifdef CODEGEN_FIELD_ACCESSIBILITY
+      CODEGEN_FIELD_ACCESSIBILITY:
+      #else
+      protected:
+      #endif
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: HandFingerPinch
       constexpr HandFingerPinch(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -919,6 +1008,15 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct HandStateInternal/*, public System::ValueType*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      #ifdef CODEGEN_FIELD_ACCESSIBILITY
+      CODEGEN_FIELD_ACCESSIBILITY:
+      #else
+      protected:
+      #endif
+      #endif
       // public OVRPlugin/HandStatus Status
       // Size: 0x4
       // Offset: 0x0
@@ -1171,6 +1269,7 @@ namespace GlobalNamespace {
       double SampleTimeStamp;
       // Field size check
       static_assert(sizeof(double) == 0x8);
+      public:
       // Creating value type constructor for type: HandStateInternal
       constexpr HandStateInternal(GlobalNamespace::OVRPlugin::HandStatus Status_ = {}, GlobalNamespace::OVRPlugin::Posef RootPose_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_0_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_1_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_2_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_3_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_4_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_5_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_6_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_7_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_8_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_9_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_10_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_11_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_12_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_13_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_14_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_15_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_16_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_17_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_18_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_19_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_20_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_21_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_22_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_23_ = {}, GlobalNamespace::OVRPlugin::HandFingerPinch Pinches_ = {}, float PinchStrength_0_ = {}, float PinchStrength_1_ = {}, float PinchStrength_2_ = {}, float PinchStrength_3_ = {}, float PinchStrength_4_ = {}, GlobalNamespace::OVRPlugin::Posef PointerPose_ = {}, float HandScale_ = {}, GlobalNamespace::OVRPlugin::TrackingConfidence HandConfidence_ = {}, GlobalNamespace::OVRPlugin::TrackingConfidence FingerConfidences_0_ = {}, GlobalNamespace::OVRPlugin::TrackingConfidence FingerConfidences_1_ = {}, GlobalNamespace::OVRPlugin::TrackingConfidence FingerConfidences_2_ = {}, GlobalNamespace::OVRPlugin::TrackingConfidence FingerConfidences_3_ = {}, GlobalNamespace::OVRPlugin::TrackingConfidence FingerConfidences_4_ = {}, double RequestedTimeStamp_ = {}, double SampleTimeStamp_ = {}) noexcept : Status{Status_}, RootPose{RootPose_}, BoneRotations_0{BoneRotations_0_}, BoneRotations_1{BoneRotations_1_}, BoneRotations_2{BoneRotations_2_}, BoneRotations_3{BoneRotations_3_}, BoneRotations_4{BoneRotations_4_}, BoneRotations_5{BoneRotations_5_}, BoneRotations_6{BoneRotations_6_}, BoneRotations_7{BoneRotations_7_}, BoneRotations_8{BoneRotations_8_}, BoneRotations_9{BoneRotations_9_}, BoneRotations_10{BoneRotations_10_}, BoneRotations_11{BoneRotations_11_}, BoneRotations_12{BoneRotations_12_}, BoneRotations_13{BoneRotations_13_}, BoneRotations_14{BoneRotations_14_}, BoneRotations_15{BoneRotations_15_}, BoneRotations_16{BoneRotations_16_}, BoneRotations_17{BoneRotations_17_}, BoneRotations_18{BoneRotations_18_}, BoneRotations_19{BoneRotations_19_}, BoneRotations_20{BoneRotations_20_}, BoneRotations_21{BoneRotations_21_}, BoneRotations_22{BoneRotations_22_}, BoneRotations_23{BoneRotations_23_}, Pinches{Pinches_}, PinchStrength_0{PinchStrength_0_}, PinchStrength_1{PinchStrength_1_}, PinchStrength_2{PinchStrength_2_}, PinchStrength_3{PinchStrength_3_}, PinchStrength_4{PinchStrength_4_}, PointerPose{PointerPose_}, HandScale{HandScale_}, HandConfidence{HandConfidence_}, FingerConfidences_0{FingerConfidences_0_}, FingerConfidences_1{FingerConfidences_1_}, FingerConfidences_2{FingerConfidences_2_}, FingerConfidences_3{FingerConfidences_3_}, FingerConfidences_4{FingerConfidences_4_}, RequestedTimeStamp{RequestedTimeStamp_}, SampleTimeStamp{SampleTimeStamp_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -1272,6 +1371,15 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct BoneCapsule/*, public System::ValueType*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      #ifdef CODEGEN_FIELD_ACCESSIBILITY
+      CODEGEN_FIELD_ACCESSIBILITY:
+      #else
+      protected:
+      #endif
+      #endif
       // public System.Int16 BoneIndex
       // Size: 0x2
       // Offset: 0x0
@@ -1298,6 +1406,7 @@ namespace GlobalNamespace {
       float Radius;
       // Field size check
       static_assert(sizeof(float) == 0x4);
+      public:
       // Creating value type constructor for type: BoneCapsule
       constexpr BoneCapsule(int16_t BoneIndex_ = {}, GlobalNamespace::OVRPlugin::Vector3f StartPoint_ = {}, GlobalNamespace::OVRPlugin::Vector3f EndPoint_ = {}, float Radius_ = {}) noexcept : BoneIndex{BoneIndex_}, StartPoint{StartPoint_}, EndPoint{EndPoint_}, Radius{Radius_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -1323,6 +1432,15 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct Bone/*, public System::ValueType*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      #ifdef CODEGEN_FIELD_ACCESSIBILITY
+      CODEGEN_FIELD_ACCESSIBILITY:
+      #else
+      protected:
+      #endif
+      #endif
       // public OVRPlugin/BoneId Id
       // Size: 0x4
       // Offset: 0x0
@@ -1343,6 +1461,7 @@ namespace GlobalNamespace {
       GlobalNamespace::OVRPlugin::Posef Pose;
       // Field size check
       static_assert(sizeof(GlobalNamespace::OVRPlugin::Posef) == 0x1C);
+      public:
       // Creating value type constructor for type: Bone
       constexpr Bone(GlobalNamespace::OVRPlugin::BoneId Id_ = {}, int16_t ParentBoneIndex_ = {}, GlobalNamespace::OVRPlugin::Posef Pose_ = {}) noexcept : Id{Id_}, ParentBoneIndex{ParentBoneIndex_}, Pose{Pose_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -1365,12 +1484,22 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct SkeletonType/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      #ifdef CODEGEN_FIELD_ACCESSIBILITY
+      CODEGEN_FIELD_ACCESSIBILITY:
+      #else
+      protected:
+      #endif
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: SkeletonType
       constexpr SkeletonType(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -1412,6 +1541,15 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct Skeleton/*, public System::ValueType*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      #ifdef CODEGEN_FIELD_ACCESSIBILITY
+      CODEGEN_FIELD_ACCESSIBILITY:
+      #else
+      protected:
+      #endif
+      #endif
       // public OVRPlugin/SkeletonType Type
       // Size: 0x4
       // Offset: 0x0
@@ -1435,17 +1573,18 @@ namespace GlobalNamespace {
       // public OVRPlugin/Bone[] Bones
       // Size: 0x8
       // Offset: 0x10
-      ::Array<GlobalNamespace::OVRPlugin::Bone>* Bones;
+      ::ArrayW<GlobalNamespace::OVRPlugin::Bone> Bones;
       // Field size check
-      static_assert(sizeof(::Array<GlobalNamespace::OVRPlugin::Bone>*) == 0x8);
+      static_assert(sizeof(::ArrayW<GlobalNamespace::OVRPlugin::Bone>) == 0x8);
       // public OVRPlugin/BoneCapsule[] BoneCapsules
       // Size: 0x8
       // Offset: 0x18
-      ::Array<GlobalNamespace::OVRPlugin::BoneCapsule>* BoneCapsules;
+      ::ArrayW<GlobalNamespace::OVRPlugin::BoneCapsule> BoneCapsules;
       // Field size check
-      static_assert(sizeof(::Array<GlobalNamespace::OVRPlugin::BoneCapsule>*) == 0x8);
+      static_assert(sizeof(::ArrayW<GlobalNamespace::OVRPlugin::BoneCapsule>) == 0x8);
+      public:
       // Creating value type constructor for type: Skeleton
-      constexpr Skeleton(GlobalNamespace::OVRPlugin::SkeletonType Type_ = {}, uint NumBones_ = {}, uint NumBoneCapsules_ = {}, ::Array<GlobalNamespace::OVRPlugin::Bone>* Bones_ = {}, ::Array<GlobalNamespace::OVRPlugin::BoneCapsule>* BoneCapsules_ = {}) noexcept : Type{Type_}, NumBones{NumBones_}, NumBoneCapsules{NumBoneCapsules_}, Bones{Bones_}, BoneCapsules{BoneCapsules_} {}
+      constexpr Skeleton(GlobalNamespace::OVRPlugin::SkeletonType Type_ = {}, uint NumBones_ = {}, uint NumBoneCapsules_ = {}, ::ArrayW<GlobalNamespace::OVRPlugin::Bone> Bones_ = ::ArrayW<GlobalNamespace::OVRPlugin::Bone>(nullptr), ::ArrayW<GlobalNamespace::OVRPlugin::BoneCapsule> BoneCapsules_ = ::ArrayW<GlobalNamespace::OVRPlugin::BoneCapsule>(nullptr)) noexcept : Type{Type_}, NumBones{NumBones_}, NumBoneCapsules{NumBoneCapsules_}, Bones{Bones_}, BoneCapsules{BoneCapsules_} {}
       // Creating interface conversion operator: operator System::ValueType
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
@@ -1457,12 +1596,12 @@ namespace GlobalNamespace {
       // Get instance field reference: public System.UInt32 NumBoneCapsules
       uint& dyn_NumBoneCapsules();
       // Get instance field reference: public OVRPlugin/Bone[] Bones
-      ::Array<GlobalNamespace::OVRPlugin::Bone>*& dyn_Bones();
+      ::ArrayW<GlobalNamespace::OVRPlugin::Bone>& dyn_Bones();
       // Get instance field reference: public OVRPlugin/BoneCapsule[] BoneCapsules
-      ::Array<GlobalNamespace::OVRPlugin::BoneCapsule>*& dyn_BoneCapsules();
+      ::ArrayW<GlobalNamespace::OVRPlugin::BoneCapsule>& dyn_BoneCapsules();
     }; // OVRPlugin/Skeleton
     #pragma pack(pop)
-    static check_size<sizeof(OVRPlugin::Skeleton), 24 + sizeof(::Array<GlobalNamespace::OVRPlugin::BoneCapsule>*)> __GlobalNamespace_OVRPlugin_SkeletonSizeCheck;
+    static check_size<sizeof(OVRPlugin::Skeleton), 24 + sizeof(::ArrayW<GlobalNamespace::OVRPlugin::BoneCapsule>)> __GlobalNamespace_OVRPlugin_SkeletonSizeCheck;
     static_assert(sizeof(OVRPlugin::Skeleton) == 0x20);
     // Size: 0x974
     #pragma pack(push, 1)
@@ -1471,6 +1610,15 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct Skeleton2Internal/*, public System::ValueType*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      #ifdef CODEGEN_FIELD_ACCESSIBILITY
+      CODEGEN_FIELD_ACCESSIBILITY:
+      #else
+      protected:
+      #endif
+      #endif
       // public OVRPlugin/SkeletonType Type
       // Size: 0x4
       // Offset: 0x0
@@ -1903,6 +2051,7 @@ namespace GlobalNamespace {
       GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_18;
       // Field size check
       static_assert(sizeof(GlobalNamespace::OVRPlugin::BoneCapsule) == 0x20);
+      public:
       // Creating value type constructor for type: Skeleton2Internal
       constexpr Skeleton2Internal(GlobalNamespace::OVRPlugin::SkeletonType Type_ = {}, uint NumBones_ = {}, uint NumBoneCapsules_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_0_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_1_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_2_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_3_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_4_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_5_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_6_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_7_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_8_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_9_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_10_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_11_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_12_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_13_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_14_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_15_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_16_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_17_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_18_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_19_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_20_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_21_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_22_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_23_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_24_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_25_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_26_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_27_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_28_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_29_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_30_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_31_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_32_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_33_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_34_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_35_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_36_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_37_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_38_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_39_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_40_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_41_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_42_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_43_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_44_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_45_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_46_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_47_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_48_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_49_ = {}, GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_0_ = {}, GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_1_ = {}, GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_2_ = {}, GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_3_ = {}, GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_4_ = {}, GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_5_ = {}, GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_6_ = {}, GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_7_ = {}, GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_8_ = {}, GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_9_ = {}, GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_10_ = {}, GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_11_ = {}, GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_12_ = {}, GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_13_ = {}, GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_14_ = {}, GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_15_ = {}, GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_16_ = {}, GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_17_ = {}, GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_18_ = {}) noexcept : Type{Type_}, NumBones{NumBones_}, NumBoneCapsules{NumBoneCapsules_}, Bones_0{Bones_0_}, Bones_1{Bones_1_}, Bones_2{Bones_2_}, Bones_3{Bones_3_}, Bones_4{Bones_4_}, Bones_5{Bones_5_}, Bones_6{Bones_6_}, Bones_7{Bones_7_}, Bones_8{Bones_8_}, Bones_9{Bones_9_}, Bones_10{Bones_10_}, Bones_11{Bones_11_}, Bones_12{Bones_12_}, Bones_13{Bones_13_}, Bones_14{Bones_14_}, Bones_15{Bones_15_}, Bones_16{Bones_16_}, Bones_17{Bones_17_}, Bones_18{Bones_18_}, Bones_19{Bones_19_}, Bones_20{Bones_20_}, Bones_21{Bones_21_}, Bones_22{Bones_22_}, Bones_23{Bones_23_}, Bones_24{Bones_24_}, Bones_25{Bones_25_}, Bones_26{Bones_26_}, Bones_27{Bones_27_}, Bones_28{Bones_28_}, Bones_29{Bones_29_}, Bones_30{Bones_30_}, Bones_31{Bones_31_}, Bones_32{Bones_32_}, Bones_33{Bones_33_}, Bones_34{Bones_34_}, Bones_35{Bones_35_}, Bones_36{Bones_36_}, Bones_37{Bones_37_}, Bones_38{Bones_38_}, Bones_39{Bones_39_}, Bones_40{Bones_40_}, Bones_41{Bones_41_}, Bones_42{Bones_42_}, Bones_43{Bones_43_}, Bones_44{Bones_44_}, Bones_45{Bones_45_}, Bones_46{Bones_46_}, Bones_47{Bones_47_}, Bones_48{Bones_48_}, Bones_49{Bones_49_}, BoneCapsules_0{BoneCapsules_0_}, BoneCapsules_1{BoneCapsules_1_}, BoneCapsules_2{BoneCapsules_2_}, BoneCapsules_3{BoneCapsules_3_}, BoneCapsules_4{BoneCapsules_4_}, BoneCapsules_5{BoneCapsules_5_}, BoneCapsules_6{BoneCapsules_6_}, BoneCapsules_7{BoneCapsules_7_}, BoneCapsules_8{BoneCapsules_8_}, BoneCapsules_9{BoneCapsules_9_}, BoneCapsules_10{BoneCapsules_10_}, BoneCapsules_11{BoneCapsules_11_}, BoneCapsules_12{BoneCapsules_12_}, BoneCapsules_13{BoneCapsules_13_}, BoneCapsules_14{BoneCapsules_14_}, BoneCapsules_15{BoneCapsules_15_}, BoneCapsules_16{BoneCapsules_16_}, BoneCapsules_17{BoneCapsules_17_}, BoneCapsules_18{BoneCapsules_18_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -2057,8 +2206,6 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(OVRPlugin::Skeleton2Internal), 2388 + sizeof(GlobalNamespace::OVRPlugin::BoneCapsule)> __GlobalNamespace_OVRPlugin_Skeleton2InternalSizeCheck;
     static_assert(sizeof(OVRPlugin::Skeleton2Internal) == 0x974);
-    // Creating value type constructor for type: OVRPlugin
-    OVRPlugin() noexcept {}
     // static field const value: static public System.Boolean isSupportedPlatform
     static constexpr const bool isSupportedPlatform = true;
     // Get static field: static public System.Boolean isSupportedPlatform
@@ -2128,9 +2275,9 @@ namespace GlobalNamespace {
     // Set static field: static private OVRNativeBuffer _nativeSystemDisplayFrequenciesAvailable
     static void _set__nativeSystemDisplayFrequenciesAvailable(GlobalNamespace::OVRNativeBuffer* value);
     // Get static field: static private System.Single[] _cachedSystemDisplayFrequenciesAvailable
-    static ::Array<float>* _get__cachedSystemDisplayFrequenciesAvailable();
+    static ::ArrayW<float> _get__cachedSystemDisplayFrequenciesAvailable();
     // Set static field: static private System.Single[] _cachedSystemDisplayFrequenciesAvailable
-    static void _set__cachedSystemDisplayFrequenciesAvailable(::Array<float>* value);
+    static void _set__cachedSystemDisplayFrequenciesAvailable(::ArrayW<float> value);
     // Get static field: static private OVRPlugin/HandStateInternal cachedHandState
     static GlobalNamespace::OVRPlugin::HandStateInternal _get_cachedHandState();
     // Set static field: static private OVRPlugin/HandStateInternal cachedHandState
@@ -2329,7 +2476,7 @@ namespace GlobalNamespace {
     static float get_gpuUtilLevel();
     // static public System.Single[] get_systemDisplayFrequenciesAvailable()
     // Offset: 0x148F900
-    static ::Array<float>* get_systemDisplayFrequenciesAvailable();
+    static ::ArrayW<float> get_systemDisplayFrequenciesAvailable();
     // static public System.Single get_systemDisplayFrequency()
     // Offset: 0x148FC20
     static float get_systemDisplayFrequency();
@@ -2651,21 +2798,33 @@ namespace GlobalNamespace {
   }; // OVRPlugin
   #pragma pack(pop)
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin*, "", "OVRPlugin");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::XrApi, "", "OVRPlugin/XrApi");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Vector3f, "", "OVRPlugin/Vector3f");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Quatf, "", "OVRPlugin/Quatf");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Posef, "", "OVRPlugin/Posef");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::TrackingConfidence, "", "OVRPlugin/TrackingConfidence");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::HandStatus, "", "OVRPlugin/HandStatus");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::BoneId, "", "OVRPlugin/BoneId");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::HandFingerPinch, "", "OVRPlugin/HandFingerPinch");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::HandStateInternal, "", "OVRPlugin/HandStateInternal");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::BoneCapsule, "", "OVRPlugin/BoneCapsule");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Bone, "", "OVRPlugin/Bone");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::SkeletonType, "", "OVRPlugin/SkeletonType");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Skeleton, "", "OVRPlugin/Skeleton");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Skeleton2Internal, "", "OVRPlugin/Skeleton2Internal");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::get_version
@@ -3150,7 +3309,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)()
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::get_systemDisplayFrequenciesAvailable
 // Il2CppName: get_systemDisplayFrequenciesAvailable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<float>* (*)()>(&GlobalNamespace::OVRPlugin::get_systemDisplayFrequenciesAvailable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<float> (*)()>(&GlobalNamespace::OVRPlugin::get_systemDisplayFrequenciesAvailable)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin*), "get_systemDisplayFrequenciesAvailable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -11,7 +11,16 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: System
+namespace System {
+  // Forward declaring type: LowLevelStack
+  class LowLevelStack;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::ParameterizedStrings::LowLevelStack);
+DEFINE_IL2CPP_ARG_TYPE(System::ParameterizedStrings::LowLevelStack*, "System", "ParameterizedStrings/LowLevelStack");
 // Type namespace: System
 namespace System {
   // Size: 0x1C
@@ -20,22 +29,30 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class ParameterizedStrings::LowLevelStack : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.ParameterizedStrings/System.FormatParam[] _arr
     // Size: 0x8
     // Offset: 0x10
-    ::Array<System::ParameterizedStrings::FormatParam>* arr;
+    ::ArrayW<System::ParameterizedStrings::FormatParam> arr;
     // Field size check
-    static_assert(sizeof(::Array<System::ParameterizedStrings::FormatParam>*) == 0x8);
+    static_assert(sizeof(::ArrayW<System::ParameterizedStrings::FormatParam>) == 0x8);
     // private System.Int32 _count
     // Size: 0x4
     // Offset: 0x18
     int count;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: LowLevelStack
-    LowLevelStack(::Array<System::ParameterizedStrings::FormatParam>* arr_ = {}, int count_ = {}) noexcept : arr{arr_}, count{count_} {}
+    public:
     // Get instance field reference: private System.ParameterizedStrings/System.FormatParam[] _arr
-    ::Array<System::ParameterizedStrings::FormatParam>*& dyn__arr();
+    ::ArrayW<System::ParameterizedStrings::FormatParam>& dyn__arr();
     // Get instance field reference: private System.Int32 _count
     int& dyn__count();
     // public System.ParameterizedStrings/System.FormatParam Pop()
@@ -61,7 +78,6 @@ namespace System {
   static check_size<sizeof(ParameterizedStrings::LowLevelStack), 24 + sizeof(int)> __System_ParameterizedStrings_LowLevelStackSizeCheck;
   static_assert(sizeof(ParameterizedStrings::LowLevelStack) == 0x1C);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::ParameterizedStrings::LowLevelStack*, "System", "ParameterizedStrings/LowLevelStack");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ParameterizedStrings::LowLevelStack::Pop
 // Il2CppName: Pop

@@ -16,6 +16,13 @@
 // Completed includes
 // Type namespace: UnityEngine.Rendering
 namespace UnityEngine::Rendering {
+  // Forward declaring type: VertexAttributeDescriptor
+  struct VertexAttributeDescriptor;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::VertexAttributeDescriptor, "UnityEngine.Rendering", "VertexAttributeDescriptor");
+// Type namespace: UnityEngine.Rendering
+namespace UnityEngine::Rendering {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -24,6 +31,15 @@ namespace UnityEngine::Rendering {
   // [UsedByNativeCodeAttribute] Offset: EB6870
   struct VertexAttributeDescriptor/*, public System::ValueType, public System::IEquatable_1<UnityEngine::Rendering::VertexAttributeDescriptor>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xEB9624
     // private UnityEngine.Rendering.VertexAttribute <attribute>k__BackingField
     // Size: 0x4
@@ -52,6 +68,7 @@ namespace UnityEngine::Rendering {
     int stream;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: VertexAttributeDescriptor
     constexpr VertexAttributeDescriptor(UnityEngine::Rendering::VertexAttribute attribute_ = {}, UnityEngine::Rendering::VertexAttributeFormat format_ = {}, int dimension_ = {}, int stream_ = {}) noexcept : attribute{attribute_}, format{format_}, dimension{dimension_}, stream{stream_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -105,8 +122,6 @@ namespace UnityEngine::Rendering {
   static check_size<sizeof(VertexAttributeDescriptor), 12 + sizeof(int)> __UnityEngine_Rendering_VertexAttributeDescriptorSizeCheck;
   static_assert(sizeof(VertexAttributeDescriptor) == 0x10);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::VertexAttributeDescriptor, "UnityEngine.Rendering", "VertexAttributeDescriptor");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Rendering::VertexAttributeDescriptor::get_attribute
 // Il2CppName: get_attribute

@@ -3,7 +3,6 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Unity.Profiling.ProfilerMarker
 #include "Unity/Profiling/ProfilerMarker.hpp"
@@ -13,11 +12,14 @@
 #include "System/IDisposable.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
+// Type namespace: Unity.Profiling
+namespace Unity::Profiling {
+  // Forward declaring type: AutoScope
+  struct AutoScope;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Unity::Profiling::ProfilerMarker::AutoScope, "Unity.Profiling", "ProfilerMarker/AutoScope");
 // Type namespace: Unity.Profiling
 namespace Unity::Profiling {
   // Size: 0x8
@@ -28,6 +30,15 @@ namespace Unity::Profiling {
   // [UsedByNativeCodeAttribute] Offset: EB2014
   struct ProfilerMarker::AutoScope/*, public System::ValueType, public System::IDisposable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // [NativeDisableUnsafePtrRestrictionAttribute] Offset: 0xEB7480
     // readonly System.IntPtr m_Ptr
     // Size: 0x8
@@ -35,6 +46,7 @@ namespace Unity::Profiling {
     System::IntPtr m_Ptr;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
+    public:
     // Creating value type constructor for type: AutoScope
     constexpr AutoScope(System::IntPtr m_Ptr_ = {}) noexcept : m_Ptr{m_Ptr_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -53,8 +65,7 @@ namespace Unity::Profiling {
     System::IntPtr& dyn_m_Ptr();
     // System.Void .ctor(System.IntPtr markerPtr)
     // Offset: 0x1CFC4F8
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    // ABORTED: conflicts with another method.  AutoScope(System::IntPtr markerPtr)
+    // ABORTED: conflicts with another method.  AutoScope(System::IntPtr markerPtr);
     // public System.Void Dispose()
     // Offset: 0x1CFC53C
     void Dispose();
@@ -63,7 +74,6 @@ namespace Unity::Profiling {
   static check_size<sizeof(ProfilerMarker::AutoScope), 0 + sizeof(System::IntPtr)> __Unity_Profiling_ProfilerMarker_AutoScopeSizeCheck;
   static_assert(sizeof(ProfilerMarker::AutoScope) == 0x8);
 }
-DEFINE_IL2CPP_ARG_TYPE(Unity::Profiling::ProfilerMarker::AutoScope, "Unity.Profiling", "ProfilerMarker/AutoScope");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Unity::Profiling::ProfilerMarker::AutoScope::AutoScope
 // Il2CppName: .ctor

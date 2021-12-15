@@ -3,18 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.IEquatable`1
 #include "System/IEquatable_1.hpp"
-// Including type: UnityEngine.Vector4
-#include "UnityEngine/Vector4.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -23,8 +16,21 @@ namespace UnityEngine {
   struct Quaternion;
   // Forward declaring type: Vector3
   struct Vector3;
+  // Forward declaring type: Vector4
+  struct Vector4;
 }
 // Completed forward declares
+// Begin il2cpp-utils forward declares
+struct Il2CppObject;
+struct Il2CppString;
+// Completed il2cpp-utils forward declares
+// Type namespace: UnityEngine
+namespace UnityEngine {
+  // Forward declaring type: Matrix4x4
+  struct Matrix4x4;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Matrix4x4, "UnityEngine", "Matrix4x4");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x40
@@ -39,6 +45,15 @@ namespace UnityEngine {
   // [RequiredByNativeCodeAttribute] Offset: EB414C
   struct Matrix4x4/*, public System::ValueType, public System::IEquatable_1<UnityEngine::Matrix4x4>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // [NativeNameAttribute] Offset: 0xEB82BC
     // public System.Single m00
     // Size: 0x4
@@ -151,6 +166,7 @@ namespace UnityEngine {
     float m33;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: Matrix4x4
     constexpr Matrix4x4(float m00_ = {}, float m10_ = {}, float m20_ = {}, float m30_ = {}, float m01_ = {}, float m11_ = {}, float m21_ = {}, float m31_ = {}, float m02_ = {}, float m12_ = {}, float m22_ = {}, float m32_ = {}, float m03_ = {}, float m13_ = {}, float m23_ = {}, float m33_ = {}) noexcept : m00{m00_}, m10{m10_}, m20{m20_}, m30{m30_}, m01{m01_}, m11{m11_}, m21{m21_}, m31{m31_}, m02{m02_}, m12{m12_}, m22{m22_}, m32{m32_}, m03{m03_}, m13{m13_}, m23{m23_}, m33{m33_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -230,12 +246,7 @@ namespace UnityEngine {
     static UnityEngine::Matrix4x4 get_identity();
     // public System.Void .ctor(UnityEngine.Vector4 column0, UnityEngine.Vector4 column1, UnityEngine.Vector4 column2, UnityEngine.Vector4 column3)
     // Offset: 0x1D9D8F4
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    Matrix4x4(UnityEngine::Vector4 column0, UnityEngine::Vector4 column1, UnityEngine::Vector4 column2, UnityEngine::Vector4 column3) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Matrix4x4::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(column0), ::il2cpp_utils::ExtractType(column1), ::il2cpp_utils::ExtractType(column2), ::il2cpp_utils::ExtractType(column3)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, column0, column1, column2, column3);
-    }
+    Matrix4x4(UnityEngine::Vector4 column0, UnityEngine::Vector4 column1, UnityEngine::Vector4 column2, UnityEngine::Vector4 column3);
     // static private System.Void .cctor()
     // Offset: 0x1D9EA30
     static void _cctor();
@@ -331,7 +342,6 @@ namespace UnityEngine {
   // Offset: 0x1D9E218
   bool operator !=(const UnityEngine::Matrix4x4& lhs, const UnityEngine::Matrix4x4& rhs);
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Matrix4x4, "UnityEngine", "Matrix4x4");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Matrix4x4::get_rotation
 // Il2CppName: get_rotation

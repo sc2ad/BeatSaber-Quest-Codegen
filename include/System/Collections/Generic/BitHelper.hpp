@@ -9,7 +9,16 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: System.Collections.Generic
+namespace System::Collections::Generic {
+  // Forward declaring type: BitHelper
+  class BitHelper;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Collections::Generic::BitHelper);
+DEFINE_IL2CPP_ARG_TYPE(System::Collections::Generic::BitHelper*, "System.Collections.Generic", "BitHelper");
 // Type namespace: System.Collections.Generic
 namespace System::Collections::Generic {
   // Size: 0x29
@@ -18,6 +27,15 @@ namespace System::Collections::Generic {
   // [TokenAttribute] Offset: FFFFFFFF
   class BitHelper : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private readonly System.Int32 _length
     // Size: 0x4
     // Offset: 0x10
@@ -35,23 +53,22 @@ namespace System::Collections::Generic {
     // private readonly System.Int32[] _array
     // Size: 0x8
     // Offset: 0x20
-    ::Array<int>* array;
+    ::ArrayW<int> array;
     // Field size check
-    static_assert(sizeof(::Array<int>*) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // private readonly System.Boolean _useStackAlloc
     // Size: 0x1
     // Offset: 0x28
     bool useStackAlloc;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: BitHelper
-    BitHelper(int length_ = {}, int* arrayPtr_ = {}, ::Array<int>* array_ = {}, bool useStackAlloc_ = {}) noexcept : length{length_}, arrayPtr{arrayPtr_}, array{array_}, useStackAlloc{useStackAlloc_} {}
+    public:
     // Get instance field reference: private readonly System.Int32 _length
     int& dyn__length();
     // Get instance field reference: private readonly System.Int32* _arrayPtr
     int*& dyn__arrayPtr();
     // Get instance field reference: private readonly System.Int32[] _array
-    ::Array<int>*& dyn__array();
+    ::ArrayW<int>& dyn__array();
     // Get instance field reference: private readonly System.Boolean _useStackAlloc
     bool& dyn__useStackAlloc();
     // System.Void .ctor(System.Int32* bitArrayPtr, System.Int32 length)
@@ -64,7 +81,7 @@ namespace System::Collections::Generic {
     // System.Void .ctor(System.Int32[] bitArray, System.Int32 length)
     // Offset: 0x2669F94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BitHelper* New_ctor(::Array<int>* bitArray, int length) {
+    static BitHelper* New_ctor(::ArrayW<int> bitArray, int length) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::BitHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BitHelper*, creationType>(bitArray, length)));
     }
@@ -82,7 +99,6 @@ namespace System::Collections::Generic {
   static check_size<sizeof(BitHelper), 40 + sizeof(bool)> __System_Collections_Generic_BitHelperSizeCheck;
   static_assert(sizeof(BitHelper) == 0x29);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::Collections::Generic::BitHelper*, "System.Collections.Generic", "BitHelper");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::Generic::BitHelper::New_ctor
 // Il2CppName: .ctor

@@ -11,11 +11,14 @@
 #include "System/IEquatable_1.hpp"
 // Including type: UnityEngine.Vector2
 #include "UnityEngine/Vector2.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
+// Type namespace: UnityEngine.ProBuilder
+namespace UnityEngine::ProBuilder {
+  // Forward declaring type: IntVec2
+  struct IntVec2;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::IntVec2, "UnityEngine.ProBuilder", "IntVec2");
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {
   // Size: 0x8
@@ -25,12 +28,22 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   struct IntVec2/*, public System::ValueType, public System::IEquatable_1<UnityEngine::ProBuilder::IntVec2>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public UnityEngine.Vector2 value
     // Size: 0x8
     // Offset: 0x0
     UnityEngine::Vector2 value;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector2) == 0x8);
+    public:
     // Creating value type constructor for type: IntVec2
     constexpr IntVec2(UnityEngine::Vector2 value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -55,8 +68,7 @@ namespace UnityEngine::ProBuilder {
     float get_y();
     // public System.Void .ctor(UnityEngine.Vector2 vector)
     // Offset: 0x1CCC330
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    // ABORTED: conflicts with another method.  IntVec2(UnityEngine::Vector2 vector)
+    // ABORTED: conflicts with another method.  IntVec2(UnityEngine::Vector2 vector);
     // public System.Boolean Equals(UnityEngine.ProBuilder.IntVec2 p)
     // Offset: 0x1CCC404
     bool Equals(UnityEngine::ProBuilder::IntVec2 p);
@@ -92,7 +104,6 @@ namespace UnityEngine::ProBuilder {
   // Offset: 0x1CCC474
   bool operator !=(const UnityEngine::ProBuilder::IntVec2& a, const UnityEngine::ProBuilder::IntVec2& b);
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::IntVec2, "UnityEngine.ProBuilder", "IntVec2");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::IntVec2::get_x
 // Il2CppName: get_x

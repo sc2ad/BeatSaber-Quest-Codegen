@@ -9,11 +9,15 @@
 #include "System/IO/Stream.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
-// Begin il2cpp-utils forward declares
-template<class T>
-struct Array;
-// Completed il2cpp-utils forward declares
+// Type namespace: System.IO
+namespace System::IO {
+  // Forward declaring type: ReadWriteParameters
+  struct ReadWriteParameters;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::IO::Stream::ReadWriteParameters, "System.IO", "Stream/ReadWriteParameters");
 // Type namespace: System.IO
 namespace System::IO {
   // Size: 0x10
@@ -23,12 +27,21 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Stream::ReadWriteParameters/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // System.Byte[] Buffer
     // Size: 0x8
     // Offset: 0x0
-    ::Array<uint8_t>* Buffer;
+    ::ArrayW<uint8_t> Buffer;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // System.Int32 Offset
     // Size: 0x4
     // Offset: 0x8
@@ -41,14 +54,15 @@ namespace System::IO {
     int Count;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: ReadWriteParameters
-    constexpr ReadWriteParameters(::Array<uint8_t>* Buffer_ = {}, int Offset_ = {}, int Count_ = {}) noexcept : Buffer{Buffer_}, Offset{Offset_}, Count{Count_} {}
+    constexpr ReadWriteParameters(::ArrayW<uint8_t> Buffer_ = ::ArrayW<uint8_t>(nullptr), int Offset_ = {}, int Count_ = {}) noexcept : Buffer{Buffer_}, Offset{Offset_}, Count{Count_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // Get instance field reference: System.Byte[] Buffer
-    ::Array<uint8_t>*& dyn_Buffer();
+    ::ArrayW<uint8_t>& dyn_Buffer();
     // Get instance field reference: System.Int32 Offset
     int& dyn_Offset();
     // Get instance field reference: System.Int32 Count
@@ -58,6 +72,4 @@ namespace System::IO {
   static check_size<sizeof(Stream::ReadWriteParameters), 12 + sizeof(int)> __System_IO_Stream_ReadWriteParametersSizeCheck;
   static_assert(sizeof(Stream::ReadWriteParameters) == 0x10);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::IO::Stream::ReadWriteParameters, "System.IO", "Stream/ReadWriteParameters");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

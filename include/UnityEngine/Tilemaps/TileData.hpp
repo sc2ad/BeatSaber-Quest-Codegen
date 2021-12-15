@@ -27,6 +27,13 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine.Tilemaps
 namespace UnityEngine::Tilemaps {
+  // Forward declaring type: TileData
+  struct TileData;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Tilemaps::TileData, "UnityEngine.Tilemaps", "TileData");
+// Type namespace: UnityEngine.Tilemaps
+namespace UnityEngine::Tilemaps {
   // Size: 0x68
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -36,6 +43,15 @@ namespace UnityEngine::Tilemaps {
   // [RequiredByNativeCodeAttribute] Offset: F167E8
   struct TileData/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private UnityEngine.Sprite m_Sprite
     // Size: 0x8
     // Offset: 0x0
@@ -72,6 +88,7 @@ namespace UnityEngine::Tilemaps {
     UnityEngine::Tilemaps::Tile::ColliderType m_ColliderType;
     // Field size check
     static_assert(sizeof(UnityEngine::Tilemaps::Tile::ColliderType) == 0x4);
+    public:
     // Creating value type constructor for type: TileData
     constexpr TileData(UnityEngine::Sprite* m_Sprite_ = {}, UnityEngine::Color m_Color_ = {}, UnityEngine::Matrix4x4 m_Transform_ = {}, UnityEngine::GameObject* m_GameObject_ = {}, UnityEngine::Tilemaps::TileFlags m_Flags_ = {}, UnityEngine::Tilemaps::Tile::ColliderType m_ColliderType_ = {}) noexcept : m_Sprite{m_Sprite_}, m_Color{m_Color_}, m_Transform{m_Transform_}, m_GameObject{m_GameObject_}, m_Flags{m_Flags_}, m_ColliderType{m_ColliderType_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -113,8 +130,6 @@ namespace UnityEngine::Tilemaps {
   static check_size<sizeof(TileData), 100 + sizeof(UnityEngine::Tilemaps::Tile::ColliderType)> __UnityEngine_Tilemaps_TileDataSizeCheck;
   static_assert(sizeof(TileData) == 0x68);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Tilemaps::TileData, "UnityEngine.Tilemaps", "TileData");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Tilemaps::TileData::set_sprite
 // Il2CppName: set_sprite

@@ -16,6 +16,13 @@
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
+  // Forward declaring type: TextureRectMatrixf
+  struct TextureRectMatrixf;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::TextureRectMatrixf, "", "OVRPlugin/TextureRectMatrixf");
+// Type namespace: 
+namespace GlobalNamespace {
   // Size: 0x40
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -23,6 +30,15 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct OVRPlugin::TextureRectMatrixf/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public UnityEngine.Rect leftRect
     // Size: 0x10
     // Offset: 0x0
@@ -47,6 +63,7 @@ namespace GlobalNamespace {
     UnityEngine::Vector4 rightScaleBias;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector4) == 0x10);
+    public:
     // Creating value type constructor for type: TextureRectMatrixf
     constexpr TextureRectMatrixf(UnityEngine::Rect leftRect_ = {}, UnityEngine::Rect rightRect_ = {}, UnityEngine::Vector4 leftScaleBias_ = {}, UnityEngine::Vector4 rightScaleBias_ = {}) noexcept : leftRect{leftRect_}, rightRect{rightRect_}, leftScaleBias{leftScaleBias_}, rightScaleBias{rightScaleBias_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -78,8 +95,6 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRPlugin::TextureRectMatrixf), 48 + sizeof(UnityEngine::Vector4)> __GlobalNamespace_OVRPlugin_TextureRectMatrixfSizeCheck;
   static_assert(sizeof(OVRPlugin::TextureRectMatrixf) == 0x40);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::TextureRectMatrixf, "", "OVRPlugin/TextureRectMatrixf");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::TextureRectMatrixf::_cctor
 // Il2CppName: .cctor

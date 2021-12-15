@@ -18,6 +18,13 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine.UI
 namespace UnityEngine::UI {
+  // Forward declaring type: SpriteState
+  struct SpriteState;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::SpriteState, "UnityEngine.UI", "SpriteState");
+// Type namespace: UnityEngine.UI
+namespace UnityEngine::UI {
   // Size: 0x20
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -25,6 +32,15 @@ namespace UnityEngine::UI {
   // [TokenAttribute] Offset: FFFFFFFF
   struct SpriteState/*, public System::ValueType, public System::IEquatable_1<UnityEngine::UI::SpriteState>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private UnityEngine.Sprite m_HighlightedSprite
     // Size: 0x8
     // Offset: 0x0
@@ -50,6 +66,7 @@ namespace UnityEngine::UI {
     UnityEngine::Sprite* m_DisabledSprite;
     // Field size check
     static_assert(sizeof(UnityEngine::Sprite*) == 0x8);
+    public:
     // Creating value type constructor for type: SpriteState
     constexpr SpriteState(UnityEngine::Sprite* m_HighlightedSprite_ = {}, UnityEngine::Sprite* m_PressedSprite_ = {}, UnityEngine::Sprite* m_SelectedSprite_ = {}, UnityEngine::Sprite* m_DisabledSprite_ = {}) noexcept : m_HighlightedSprite{m_HighlightedSprite_}, m_PressedSprite{m_PressedSprite_}, m_SelectedSprite{m_SelectedSprite_}, m_DisabledSprite{m_DisabledSprite_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -100,8 +117,6 @@ namespace UnityEngine::UI {
   static check_size<sizeof(SpriteState), 24 + sizeof(UnityEngine::Sprite*)> __UnityEngine_UI_SpriteStateSizeCheck;
   static_assert(sizeof(SpriteState) == 0x20);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::SpriteState, "UnityEngine.UI", "SpriteState");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::SpriteState::get_highlightedSprite
 // Il2CppName: get_highlightedSprite

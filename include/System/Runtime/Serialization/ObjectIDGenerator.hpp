@@ -9,7 +9,16 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: System.Runtime.Serialization
+namespace System::Runtime::Serialization {
+  // Forward declaring type: ObjectIDGenerator
+  class ObjectIDGenerator;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Runtime::Serialization::ObjectIDGenerator);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::ObjectIDGenerator*, "System.Runtime.Serialization", "ObjectIDGenerator");
 // Type namespace: System.Runtime.Serialization
 namespace System::Runtime::Serialization {
   // Size: 0x28
@@ -19,6 +28,15 @@ namespace System::Runtime::Serialization {
   // [ComVisibleAttribute] Offset: EA0D78
   class ObjectIDGenerator : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // System.Int32 m_currentCount
     // Size: 0x4
     // Offset: 0x10
@@ -34,29 +52,28 @@ namespace System::Runtime::Serialization {
     // System.Int64[] m_ids
     // Size: 0x8
     // Offset: 0x18
-    ::Array<int64_t>* m_ids;
+    ::ArrayW<int64_t> m_ids;
     // Field size check
-    static_assert(sizeof(::Array<int64_t>*) == 0x8);
+    static_assert(sizeof(::ArrayW<int64_t>) == 0x8);
     // System.Object[] m_objs
     // Size: 0x8
     // Offset: 0x20
-    ::Array<::Il2CppObject*>* m_objs;
+    ::ArrayW<::Il2CppObject*> m_objs;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppObject*>*) == 0x8);
-    // Creating value type constructor for type: ObjectIDGenerator
-    ObjectIDGenerator(int m_currentCount_ = {}, int m_currentSize_ = {}, ::Array<int64_t>* m_ids_ = {}, ::Array<::Il2CppObject*>* m_objs_ = {}) noexcept : m_currentCount{m_currentCount_}, m_currentSize{m_currentSize_}, m_ids{m_ids_}, m_objs{m_objs_} {}
+    static_assert(sizeof(::ArrayW<::Il2CppObject*>) == 0x8);
+    public:
     // Get static field: static private readonly System.Int32[] sizes
-    static ::Array<int>* _get_sizes();
+    static ::ArrayW<int> _get_sizes();
     // Set static field: static private readonly System.Int32[] sizes
-    static void _set_sizes(::Array<int>* value);
+    static void _set_sizes(::ArrayW<int> value);
     // Get instance field reference: System.Int32 m_currentCount
     int& dyn_m_currentCount();
     // Get instance field reference: System.Int32 m_currentSize
     int& dyn_m_currentSize();
     // Get instance field reference: System.Int64[] m_ids
-    ::Array<int64_t>*& dyn_m_ids();
+    ::ArrayW<int64_t>& dyn_m_ids();
     // Get instance field reference: System.Object[] m_objs
-    ::Array<::Il2CppObject*>*& dyn_m_objs();
+    ::ArrayW<::Il2CppObject*>& dyn_m_objs();
     // static private System.Void .cctor()
     // Offset: 0x191D220
     static void _cctor();
@@ -83,10 +100,9 @@ namespace System::Runtime::Serialization {
     }
   }; // System.Runtime.Serialization.ObjectIDGenerator
   #pragma pack(pop)
-  static check_size<sizeof(ObjectIDGenerator), 32 + sizeof(::Array<::Il2CppObject*>*)> __System_Runtime_Serialization_ObjectIDGeneratorSizeCheck;
+  static check_size<sizeof(ObjectIDGenerator), 32 + sizeof(::ArrayW<::Il2CppObject*>)> __System_Runtime_Serialization_ObjectIDGeneratorSizeCheck;
   static_assert(sizeof(ObjectIDGenerator) == 0x28);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::ObjectIDGenerator*, "System.Runtime.Serialization", "ObjectIDGenerator");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::ObjectIDGenerator::_cctor
 // Il2CppName: .cctor

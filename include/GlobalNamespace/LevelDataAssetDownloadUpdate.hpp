@@ -9,11 +9,20 @@
 #include "System/ValueType.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
+// Begin forward declares
+// Forward declaring namespace: GlobalNamespace
+namespace GlobalNamespace {
+  // Skipping declaration: AssetDownloadingState because it is already included!
+}
+// Completed forward declares
+// Type namespace: 
+namespace GlobalNamespace {
+  // Forward declaring type: LevelDataAssetDownloadUpdate
+  struct LevelDataAssetDownloadUpdate;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelDataAssetDownloadUpdate, "", "LevelDataAssetDownloadUpdate");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x14
@@ -31,12 +40,22 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct AssetDownloadingState/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      #ifdef CODEGEN_FIELD_ACCESSIBILITY
+      CODEGEN_FIELD_ACCESSIBILITY:
+      #else
+      protected:
+      #endif
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: AssetDownloadingState
       constexpr AssetDownloadingState(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -71,6 +90,15 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(LevelDataAssetDownloadUpdate::AssetDownloadingState), 0 + sizeof(int)> __GlobalNamespace_LevelDataAssetDownloadUpdate_AssetDownloadingStateSizeCheck;
     static_assert(sizeof(LevelDataAssetDownloadUpdate::AssetDownloadingState) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public readonly System.String levelID
     // Size: 0x8
     // Offset: 0x0
@@ -95,6 +123,7 @@ namespace GlobalNamespace {
     GlobalNamespace::LevelDataAssetDownloadUpdate::AssetDownloadingState assetDownloadingState;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LevelDataAssetDownloadUpdate::AssetDownloadingState) == 0x4);
+    public:
     // Creating value type constructor for type: LevelDataAssetDownloadUpdate
     constexpr LevelDataAssetDownloadUpdate(::Il2CppString* levelID_ = {}, uint bytesTotal_ = {}, uint bytesTransferred_ = {}, GlobalNamespace::LevelDataAssetDownloadUpdate::AssetDownloadingState assetDownloadingState_ = {}) noexcept : levelID{levelID_}, bytesTotal{bytesTotal_}, bytesTransferred{bytesTransferred_}, assetDownloadingState{assetDownloadingState_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -111,14 +140,13 @@ namespace GlobalNamespace {
     GlobalNamespace::LevelDataAssetDownloadUpdate::AssetDownloadingState& dyn_assetDownloadingState();
     // public System.Void .ctor(System.String levelID, System.UInt32 bytesTotal, System.UInt32 bytesTransferred, LevelDataAssetDownloadUpdate/AssetDownloadingState assetDownloadingState)
     // Offset: 0x12F6B88
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    // ABORTED: conflicts with another method.  LevelDataAssetDownloadUpdate(::Il2CppString* levelID, uint bytesTotal, uint bytesTransferred, GlobalNamespace::LevelDataAssetDownloadUpdate::AssetDownloadingState assetDownloadingState)
+    // ABORTED: conflicts with another method.  LevelDataAssetDownloadUpdate(::Il2CppString* levelID, uint bytesTotal, uint bytesTransferred, GlobalNamespace::LevelDataAssetDownloadUpdate::AssetDownloadingState assetDownloadingState);
   }; // LevelDataAssetDownloadUpdate
   #pragma pack(pop)
   static check_size<sizeof(LevelDataAssetDownloadUpdate), 16 + sizeof(GlobalNamespace::LevelDataAssetDownloadUpdate::AssetDownloadingState)> __GlobalNamespace_LevelDataAssetDownloadUpdateSizeCheck;
   static_assert(sizeof(LevelDataAssetDownloadUpdate) == 0x14);
 }
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelDataAssetDownloadUpdate, "", "LevelDataAssetDownloadUpdate");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelDataAssetDownloadUpdate::AssetDownloadingState, "", "LevelDataAssetDownloadUpdate/AssetDownloadingState");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LevelDataAssetDownloadUpdate::LevelDataAssetDownloadUpdate

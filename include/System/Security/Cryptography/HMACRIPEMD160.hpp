@@ -11,7 +11,16 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: System.Security.Cryptography
+namespace System::Security::Cryptography {
+  // Forward declaring type: HMACRIPEMD160
+  class HMACRIPEMD160;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Security::Cryptography::HMACRIPEMD160);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::HMACRIPEMD160*, "System.Security.Cryptography", "HMACRIPEMD160");
 // Type namespace: System.Security.Cryptography
 namespace System::Security::Cryptography {
   // Size: 0x61
@@ -21,12 +30,10 @@ namespace System::Security::Cryptography {
   // [ComVisibleAttribute] Offset: EA08FC
   class HMACRIPEMD160 : public System::Security::Cryptography::HMAC {
     public:
-    // Creating value type constructor for type: HMACRIPEMD160
-    HMACRIPEMD160() noexcept {}
     // public System.Void .ctor(System.Byte[] key)
     // Offset: 0x1A98F90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static HMACRIPEMD160* New_ctor(::Array<uint8_t>* key) {
+    static HMACRIPEMD160* New_ctor(::ArrayW<uint8_t> key) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::HMACRIPEMD160::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HMACRIPEMD160*, creationType>(key)));
     }
@@ -45,7 +52,6 @@ namespace System::Security::Cryptography {
   }; // System.Security.Cryptography.HMACRIPEMD160
   #pragma pack(pop)
 }
-DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::HMACRIPEMD160*, "System.Security.Cryptography", "HMACRIPEMD160");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::HMACRIPEMD160::New_ctor
 // Il2CppName: .ctor

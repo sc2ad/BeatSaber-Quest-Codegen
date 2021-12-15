@@ -8,15 +8,18 @@
 #include "System/ValueType.hpp"
 // Including type: System.IEquatable`1
 #include "System/IEquatable_1.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct Il2CppString;
 struct Il2CppObject;
 // Completed il2cpp-utils forward declares
+// Type namespace: UnityEngine
+namespace UnityEngine {
+  // Forward declaring type: PropertyName
+  struct PropertyName;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PropertyName, "UnityEngine", "PropertyName");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x4
@@ -27,12 +30,22 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: EB48D4
   struct PropertyName/*, public System::ValueType, public System::IEquatable_1<UnityEngine::PropertyName>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // System.Int32 id
     // Size: 0x4
     // Offset: 0x0
     int id;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: PropertyName
     constexpr PropertyName(int id_ = {}) noexcept : id{id_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -51,16 +64,10 @@ namespace UnityEngine {
     int& dyn_id();
     // public System.Void .ctor(System.String name)
     // Offset: 0x1DEF8E0
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    PropertyName(::Il2CppString* name) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::PropertyName::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(name)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, name);
-    }
+    PropertyName(::Il2CppString* name);
     // public System.Void .ctor(UnityEngine.PropertyName other)
     // Offset: 0x1DEF998
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    // ABORTED: is copy constructor.  PropertyName(UnityEngine::PropertyName other)
+    // ABORTED: is copy constructor.  PropertyName(UnityEngine::PropertyName other);
     // public System.Boolean Equals(UnityEngine.PropertyName other)
     // Offset: 0x1DEFA3C
     bool Equals(UnityEngine::PropertyName other);
@@ -87,7 +94,6 @@ namespace UnityEngine {
   // Offset: 0x1DEF9A0
   bool operator ==(const UnityEngine::PropertyName& lhs, const UnityEngine::PropertyName& rhs);
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PropertyName, "UnityEngine", "PropertyName");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::PropertyName::PropertyName
 // Il2CppName: .ctor

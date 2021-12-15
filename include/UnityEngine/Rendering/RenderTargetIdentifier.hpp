@@ -15,10 +15,6 @@
 #include "System/IntPtr.hpp"
 // Including type: UnityEngine.CubemapFace
 #include "UnityEngine/CubemapFace.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -29,6 +25,13 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine.Rendering
 namespace UnityEngine::Rendering {
+  // Forward declaring type: RenderTargetIdentifier
+  struct RenderTargetIdentifier;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::RenderTargetIdentifier, "UnityEngine.Rendering", "RenderTargetIdentifier");
+// Type namespace: UnityEngine.Rendering
+namespace UnityEngine::Rendering {
   // Size: 0x24
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -36,6 +39,15 @@ namespace UnityEngine::Rendering {
   // [TokenAttribute] Offset: FFFFFFFF
   struct RenderTargetIdentifier/*, public System::ValueType, public System::IEquatable_1<UnityEngine::Rendering::RenderTargetIdentifier>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private UnityEngine.Rendering.BuiltinRenderTextureType m_Type
     // Size: 0x4
     // Offset: 0x0
@@ -80,6 +92,7 @@ namespace UnityEngine::Rendering {
     int m_DepthSlice;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: RenderTargetIdentifier
     constexpr RenderTargetIdentifier(UnityEngine::Rendering::BuiltinRenderTextureType m_Type_ = {}, int m_NameID_ = {}, int m_InstanceID_ = {}, System::IntPtr m_BufferPointer_ = {}, int m_MipLevel_ = {}, UnityEngine::CubemapFace m_CubeFace_ = {}, int m_DepthSlice_ = {}) noexcept : m_Type{m_Type_}, m_NameID{m_NameID_}, m_InstanceID{m_InstanceID_}, m_BufferPointer{m_BufferPointer_}, m_MipLevel{m_MipLevel_}, m_CubeFace{m_CubeFace_}, m_DepthSlice{m_DepthSlice_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -106,28 +119,13 @@ namespace UnityEngine::Rendering {
     int& dyn_m_DepthSlice();
     // public System.Void .ctor(UnityEngine.Rendering.BuiltinRenderTextureType type)
     // Offset: 0x1DFAB24
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    RenderTargetIdentifier(UnityEngine::Rendering::BuiltinRenderTextureType type) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Rendering::RenderTargetIdentifier::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(type)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, type);
-    }
+    RenderTargetIdentifier(UnityEngine::Rendering::BuiltinRenderTextureType type);
     // public System.Void .ctor(System.Int32 nameID)
     // Offset: 0x1DFAB8C
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    RenderTargetIdentifier(int nameID) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Rendering::RenderTargetIdentifier::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(nameID)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, nameID);
-    }
+    RenderTargetIdentifier(int nameID);
     // public System.Void .ctor(UnityEngine.Texture tex)
     // Offset: 0x1DFABF4
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    RenderTargetIdentifier(UnityEngine::Texture* tex) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Rendering::RenderTargetIdentifier::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(tex)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, tex);
-    }
+    RenderTargetIdentifier(UnityEngine::Texture* tex);
     // public System.Boolean Equals(UnityEngine.Rendering.RenderTargetIdentifier rhs)
     // Offset: 0x1DFB01C
     bool Equals(UnityEngine::Rendering::RenderTargetIdentifier rhs);
@@ -151,7 +149,6 @@ namespace UnityEngine::Rendering {
   static check_size<sizeof(RenderTargetIdentifier), 32 + sizeof(int)> __UnityEngine_Rendering_RenderTargetIdentifierSizeCheck;
   static_assert(sizeof(RenderTargetIdentifier) == 0x24);
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::RenderTargetIdentifier, "UnityEngine.Rendering", "RenderTargetIdentifier");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Rendering::RenderTargetIdentifier::RenderTargetIdentifier
 // Il2CppName: .ctor

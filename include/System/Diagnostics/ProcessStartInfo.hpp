@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Security
@@ -49,6 +50,14 @@ namespace System::Diagnostics {
 // Completed forward declares
 // Type namespace: System.Diagnostics
 namespace System::Diagnostics {
+  // Forward declaring type: ProcessStartInfo
+  class ProcessStartInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Diagnostics::ProcessStartInfo);
+DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::ProcessStartInfo*, "System.Diagnostics", "ProcessStartInfo");
+// Type namespace: System.Diagnostics
+namespace System::Diagnostics {
   // Size: 0xA0
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -57,6 +66,15 @@ namespace System::Diagnostics {
   // [TypeConverterAttribute] Offset: EAA87C
   class ProcessStartInfo : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.String fileName
     // Size: 0x8
     // Offset: 0x10
@@ -197,12 +215,11 @@ namespace System::Diagnostics {
     System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppString*>* environment;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppString*>*) == 0x8);
-    // Creating value type constructor for type: ProcessStartInfo
-    ProcessStartInfo(::Il2CppString* fileName_ = {}, ::Il2CppString* arguments_ = {}, ::Il2CppString* directory_ = {}, ::Il2CppString* verb_ = {}, System::Diagnostics::ProcessWindowStyle windowStyle_ = {}, bool errorDialog_ = {}, System::IntPtr errorDialogParentHandle_ = {}, bool useShellExecute_ = {}, ::Il2CppString* userName_ = {}, ::Il2CppString* domain_ = {}, System::Security::SecureString* password_ = {}, ::Il2CppString* passwordInClearText_ = {}, bool loadUserProfile_ = {}, bool redirectStandardInput_ = {}, bool redirectStandardOutput_ = {}, bool redirectStandardError_ = {}, System::Text::Encoding* standardOutputEncoding_ = {}, System::Text::Encoding* standardErrorEncoding_ = {}, bool createNoWindow_ = {}, System::WeakReference* weakParentProcess_ = {}, System::Collections::Specialized::StringDictionary* environmentVariables_ = {}, System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppString*>* environment_ = {}) noexcept : fileName{fileName_}, arguments{arguments_}, directory{directory_}, verb{verb_}, windowStyle{windowStyle_}, errorDialog{errorDialog_}, errorDialogParentHandle{errorDialogParentHandle_}, useShellExecute{useShellExecute_}, userName{userName_}, domain{domain_}, password{password_}, passwordInClearText{passwordInClearText_}, loadUserProfile{loadUserProfile_}, redirectStandardInput{redirectStandardInput_}, redirectStandardOutput{redirectStandardOutput_}, redirectStandardError{redirectStandardError_}, standardOutputEncoding{standardOutputEncoding_}, standardErrorEncoding{standardErrorEncoding_}, createNoWindow{createNoWindow_}, weakParentProcess{weakParentProcess_}, environmentVariables{environmentVariables_}, environment{environment_} {}
+    public:
     // Get static field: static private readonly System.String[] empty
-    static ::Array<::Il2CppString*>* _get_empty();
+    static ::ArrayW<::Il2CppString*> _get_empty();
     // Set static field: static private readonly System.String[] empty
-    static void _set_empty(::Array<::Il2CppString*>* value);
+    static void _set_empty(::ArrayW<::Il2CppString*> value);
     // Get instance field reference: private System.String fileName
     ::Il2CppString*& dyn_fileName();
     // Get instance field reference: private System.String arguments
@@ -313,7 +330,6 @@ namespace System::Diagnostics {
   static check_size<sizeof(ProcessStartInfo), 152 + sizeof(System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppString*>*)> __System_Diagnostics_ProcessStartInfoSizeCheck;
   static_assert(sizeof(ProcessStartInfo) == 0xA0);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::ProcessStartInfo*, "System.Diagnostics", "ProcessStartInfo");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Diagnostics::ProcessStartInfo::get_Arguments
 // Il2CppName: get_Arguments

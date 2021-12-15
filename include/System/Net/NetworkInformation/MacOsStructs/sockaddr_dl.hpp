@@ -7,6 +7,7 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -15,10 +16,13 @@ namespace System {
   struct IntPtr;
 }
 // Completed forward declares
-// Begin il2cpp-utils forward declares
-template<class T>
-struct Array;
-// Completed il2cpp-utils forward declares
+// Type namespace: System.Net.NetworkInformation.MacOsStructs
+namespace System::Net::NetworkInformation::MacOsStructs {
+  // Forward declaring type: sockaddr_dl
+  struct sockaddr_dl;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::MacOsStructs::sockaddr_dl, "System.Net.NetworkInformation.MacOsStructs", "sockaddr_dl");
 // Type namespace: System.Net.NetworkInformation.MacOsStructs
 namespace System::Net::NetworkInformation::MacOsStructs {
   // Size: 0x10
@@ -28,6 +32,15 @@ namespace System::Net::NetworkInformation::MacOsStructs {
   // [TokenAttribute] Offset: FFFFFFFF
   struct sockaddr_dl/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.Byte sdl_len
     // Size: 0x1
     // Offset: 0x0
@@ -73,11 +86,12 @@ namespace System::Net::NetworkInformation::MacOsStructs {
     // public System.Byte[] sdl_data
     // Size: 0x8
     // Offset: 0x8
-    ::Array<uint8_t>* sdl_data;
+    ::ArrayW<uint8_t> sdl_data;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
+    public:
     // Creating value type constructor for type: sockaddr_dl
-    constexpr sockaddr_dl(uint8_t sdl_len_ = {}, uint8_t sdl_family_ = {}, uint16_t sdl_index_ = {}, uint8_t sdl_type_ = {}, uint8_t sdl_nlen_ = {}, uint8_t sdl_alen_ = {}, uint8_t sdl_slen_ = {}, ::Array<uint8_t>* sdl_data_ = {}) noexcept : sdl_len{sdl_len_}, sdl_family{sdl_family_}, sdl_index{sdl_index_}, sdl_type{sdl_type_}, sdl_nlen{sdl_nlen_}, sdl_alen{sdl_alen_}, sdl_slen{sdl_slen_}, sdl_data{sdl_data_} {}
+    constexpr sockaddr_dl(uint8_t sdl_len_ = {}, uint8_t sdl_family_ = {}, uint16_t sdl_index_ = {}, uint8_t sdl_type_ = {}, uint8_t sdl_nlen_ = {}, uint8_t sdl_alen_ = {}, uint8_t sdl_slen_ = {}, ::ArrayW<uint8_t> sdl_data_ = ::ArrayW<uint8_t>(nullptr)) noexcept : sdl_len{sdl_len_}, sdl_family{sdl_family_}, sdl_index{sdl_index_}, sdl_type{sdl_type_}, sdl_nlen{sdl_nlen_}, sdl_alen{sdl_alen_}, sdl_slen{sdl_slen_}, sdl_data{sdl_data_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -97,17 +111,15 @@ namespace System::Net::NetworkInformation::MacOsStructs {
     // Get instance field reference: public System.Byte sdl_slen
     uint8_t& dyn_sdl_slen();
     // Get instance field reference: public System.Byte[] sdl_data
-    ::Array<uint8_t>*& dyn_sdl_data();
+    ::ArrayW<uint8_t>& dyn_sdl_data();
     // System.Void Read(System.IntPtr ptr)
     // Offset: 0x16A70F8
     void Read(System::IntPtr ptr);
   }; // System.Net.NetworkInformation.MacOsStructs.sockaddr_dl
   #pragma pack(pop)
-  static check_size<sizeof(sockaddr_dl), 8 + sizeof(::Array<uint8_t>*)> __System_Net_NetworkInformation_MacOsStructs_sockaddr_dlSizeCheck;
+  static check_size<sizeof(sockaddr_dl), 8 + sizeof(::ArrayW<uint8_t>)> __System_Net_NetworkInformation_MacOsStructs_sockaddr_dlSizeCheck;
   static_assert(sizeof(sockaddr_dl) == 0x10);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::MacOsStructs::sockaddr_dl, "System.Net.NetworkInformation.MacOsStructs", "sockaddr_dl");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::NetworkInformation::MacOsStructs::sockaddr_dl::Read
 // Il2CppName: Read

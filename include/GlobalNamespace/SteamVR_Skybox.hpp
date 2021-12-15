@@ -7,6 +7,8 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
+// Including type: System.Enum
+#include "System/Enum.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -19,6 +21,14 @@ namespace UnityEngine {
   class Texture;
 }
 // Completed forward declares
+// Type namespace: 
+namespace GlobalNamespace {
+  // Forward declaring type: SteamVR_Skybox
+  class SteamVR_Skybox;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(GlobalNamespace::SteamVR_Skybox);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Skybox*, "", "SteamVR_Skybox");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x50
@@ -35,12 +45,22 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct CellSize/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      #ifdef CODEGEN_FIELD_ACCESSIBILITY
+      CODEGEN_FIELD_ACCESSIBILITY:
+      #else
+      protected:
+      #endif
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: CellSize
       constexpr CellSize(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -87,6 +107,15 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(SteamVR_Skybox::CellSize), 0 + sizeof(int)> __GlobalNamespace_SteamVR_Skybox_CellSizeSizeCheck;
     static_assert(sizeof(SteamVR_Skybox::CellSize) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public UnityEngine.Texture front
     // Size: 0x8
     // Offset: 0x18
@@ -135,8 +164,7 @@ namespace GlobalNamespace {
     float StereoIpdMm;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: SteamVR_Skybox
-    SteamVR_Skybox(UnityEngine::Texture* front_ = {}, UnityEngine::Texture* back_ = {}, UnityEngine::Texture* left_ = {}, UnityEngine::Texture* right_ = {}, UnityEngine::Texture* top_ = {}, UnityEngine::Texture* bottom_ = {}, GlobalNamespace::SteamVR_Skybox::CellSize StereoCellSize_ = {}, float StereoIpdMm_ = {}) noexcept : front{front_}, back{back_}, left{left_}, right{right_}, top{top_}, bottom{bottom_}, StereoCellSize{StereoCellSize_}, StereoIpdMm{StereoIpdMm_} {}
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public UnityEngine.Texture front
@@ -191,7 +219,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SteamVR_Skybox), 76 + sizeof(float)> __GlobalNamespace_SteamVR_SkyboxSizeCheck;
   static_assert(sizeof(SteamVR_Skybox) == 0x50);
 }
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Skybox*, "", "SteamVR_Skybox");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Skybox::CellSize, "", "SteamVR_Skybox/CellSize");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Skybox::SetTextureByIndex

@@ -16,6 +16,13 @@
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: Touch
+  struct Touch;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Touch, "UnityEngine", "Touch");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x44
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -24,6 +31,15 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: ED6358
   struct Touch/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.Int32 m_FingerId
     // Size: 0x4
     // Offset: 0x0
@@ -108,6 +124,7 @@ namespace UnityEngine {
     float m_AzimuthAngle;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: Touch
     constexpr Touch(int m_FingerId_ = {}, UnityEngine::Vector2 m_Position_ = {}, UnityEngine::Vector2 m_RawPosition_ = {}, UnityEngine::Vector2 m_PositionDelta_ = {}, float m_TimeDelta_ = {}, int m_TapCount_ = {}, UnityEngine::TouchPhase m_Phase_ = {}, UnityEngine::TouchType m_Type_ = {}, float m_Pressure_ = {}, float m_maximumPossiblePressure_ = {}, float m_Radius_ = {}, float m_RadiusVariance_ = {}, float m_AltitudeAngle_ = {}, float m_AzimuthAngle_ = {}) noexcept : m_FingerId{m_FingerId_}, m_Position{m_Position_}, m_RawPosition{m_RawPosition_}, m_PositionDelta{m_PositionDelta_}, m_TimeDelta{m_TimeDelta_}, m_TapCount{m_TapCount_}, m_Phase{m_Phase_}, m_Type{m_Type_}, m_Pressure{m_Pressure_}, m_maximumPossiblePressure{m_maximumPossiblePressure_}, m_Radius{m_Radius_}, m_RadiusVariance{m_RadiusVariance_}, m_AltitudeAngle{m_AltitudeAngle_}, m_AzimuthAngle{m_AzimuthAngle_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -159,8 +176,6 @@ namespace UnityEngine {
   static check_size<sizeof(Touch), 64 + sizeof(float)> __UnityEngine_TouchSizeCheck;
   static_assert(sizeof(Touch) == 0x44);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Touch, "UnityEngine", "Touch");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Touch::get_fingerId
 // Il2CppName: get_fingerId

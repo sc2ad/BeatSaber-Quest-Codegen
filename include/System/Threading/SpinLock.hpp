@@ -6,16 +6,19 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Threading
 namespace System::Threading {
 }
 // Completed forward declares
+// Type namespace: System.Threading
+namespace System::Threading {
+  // Forward declaring type: SpinLock
+  struct SpinLock;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::SpinLock, "System.Threading", "SpinLock");
 // Type namespace: System.Threading
 namespace System::Threading {
   // Size: 0x4
@@ -30,12 +33,22 @@ namespace System::Threading {
     public:
     // Nested type: System::Threading::SpinLock::SystemThreading_SpinLockDebugView
     class SystemThreading_SpinLockDebugView;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.Int32 m_owner
     // Size: 0x4
     // Offset: 0x0
     int m_owner;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: SpinLock
     constexpr SpinLock(int m_owner_ = {}) noexcept : m_owner{m_owner_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -60,12 +73,7 @@ namespace System::Threading {
     bool get_IsThreadOwnerTrackingEnabled();
     // public System.Void .ctor(System.Boolean enableThreadOwnerTracking)
     // Offset: 0x1A636F8
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    SpinLock(bool enableThreadOwnerTracking) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::SpinLock::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(enableThreadOwnerTracking)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, enableThreadOwnerTracking);
-    }
+    SpinLock(bool enableThreadOwnerTracking);
     // static private System.Void .cctor()
     // Offset: 0x1A640BC
     static void _cctor();
@@ -95,7 +103,6 @@ namespace System::Threading {
   static check_size<sizeof(SpinLock), 0 + sizeof(int)> __System_Threading_SpinLockSizeCheck;
   static_assert(sizeof(SpinLock) == 0x4);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::SpinLock, "System.Threading", "SpinLock");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::SpinLock::get_IsHeldByCurrentThread
 // Il2CppName: get_IsHeldByCurrentThread

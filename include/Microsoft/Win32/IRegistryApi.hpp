@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Microsoft::Win32
@@ -22,9 +23,15 @@ namespace System {
 // Begin il2cpp-utils forward declares
 struct Il2CppString;
 struct Il2CppObject;
-template<class T>
-struct Array;
 // Completed il2cpp-utils forward declares
+// Type namespace: Microsoft.Win32
+namespace Microsoft::Win32 {
+  // Forward declaring type: IRegistryApi
+  class IRegistryApi;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(Microsoft::Win32::IRegistryApi);
+DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::IRegistryApi*, "Microsoft.Win32", "IRegistryApi");
 // Type namespace: Microsoft.Win32
 namespace Microsoft::Win32 {
   // Size: 0x10
@@ -33,8 +40,6 @@ namespace Microsoft::Win32 {
   // [TokenAttribute] Offset: FFFFFFFF
   class IRegistryApi {
     public:
-    // Creating value type constructor for type: IRegistryApi
-    IRegistryApi() noexcept {}
     // public Microsoft.Win32.RegistryKey OpenSubKey(Microsoft.Win32.RegistryKey rkey, System.String keyname, System.Boolean writtable)
     // Offset: 0xFFFFFFFF
     Microsoft::Win32::RegistryKey* OpenSubKey(Microsoft::Win32::RegistryKey* rkey, ::Il2CppString* keyname, bool writtable);
@@ -49,7 +54,7 @@ namespace Microsoft::Win32 {
     ::Il2CppObject* GetValue(Microsoft::Win32::RegistryKey* rkey, ::Il2CppString* name, ::Il2CppObject* default_value, Microsoft::Win32::RegistryValueOptions options);
     // public System.String[] GetSubKeyNames(Microsoft.Win32.RegistryKey rkey)
     // Offset: 0xFFFFFFFF
-    ::Array<::Il2CppString*>* GetSubKeyNames(Microsoft::Win32::RegistryKey* rkey);
+    ::ArrayW<::Il2CppString*> GetSubKeyNames(Microsoft::Win32::RegistryKey* rkey);
     // public System.String ToString(Microsoft.Win32.RegistryKey rkey)
     // Offset: 0xFFFFFFFF
     ::Il2CppString* ToString(Microsoft::Win32::RegistryKey* rkey);
@@ -59,8 +64,6 @@ namespace Microsoft::Win32 {
   }; // Microsoft.Win32.IRegistryApi
   #pragma pack(pop)
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::IRegistryApi*, "Microsoft.Win32", "IRegistryApi");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Microsoft::Win32::IRegistryApi::OpenSubKey
 // Il2CppName: OpenSubKey
@@ -106,7 +109,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: Microsoft::Win32::IRegistryApi::GetSubKeyNames
 // Il2CppName: GetSubKeyNames
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (Microsoft::Win32::IRegistryApi::*)(Microsoft::Win32::RegistryKey*)>(&Microsoft::Win32::IRegistryApi::GetSubKeyNames)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (Microsoft::Win32::IRegistryApi::*)(Microsoft::Win32::RegistryKey*)>(&Microsoft::Win32::IRegistryApi::GetSubKeyNames)> {
   static const MethodInfo* get() {
     static auto* rkey = &::il2cpp_utils::GetClassFromName("Microsoft.Win32", "RegistryKey")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::IRegistryApi*), "GetSubKeyNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rkey});

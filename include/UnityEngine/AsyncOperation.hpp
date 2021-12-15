@@ -24,6 +24,14 @@ namespace System {
 // Completed forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: AsyncOperation
+  class AsyncOperation;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::AsyncOperation);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AsyncOperation*, "UnityEngine", "AsyncOperation");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x20
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -34,6 +42,15 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: EB498C
   class AsyncOperation : public UnityEngine::YieldInstruction {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // System.IntPtr m_Ptr
     // Size: 0x8
     // Offset: 0x10
@@ -46,8 +63,7 @@ namespace UnityEngine {
     System::Action_1<UnityEngine::AsyncOperation*>* m_completeCallback;
     // Field size check
     static_assert(sizeof(System::Action_1<UnityEngine::AsyncOperation*>*) == 0x8);
-    // Creating value type constructor for type: AsyncOperation
-    AsyncOperation(System::IntPtr m_Ptr_ = {}, System::Action_1<UnityEngine::AsyncOperation*>* m_completeCallback_ = {}) noexcept : m_Ptr{m_Ptr_}, m_completeCallback{m_completeCallback_} {}
+    public:
     // Get instance field reference: System.IntPtr m_Ptr
     System::IntPtr& dyn_m_Ptr();
     // Get instance field reference: private System.Action`1<UnityEngine.AsyncOperation> m_completeCallback
@@ -99,7 +115,6 @@ namespace UnityEngine {
   static check_size<sizeof(AsyncOperation), 24 + sizeof(System::Action_1<UnityEngine::AsyncOperation*>*)> __UnityEngine_AsyncOperationSizeCheck;
   static_assert(sizeof(AsyncOperation) == 0x20);
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AsyncOperation*, "UnityEngine", "AsyncOperation");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AsyncOperation::get_isDone
 // Il2CppName: get_isDone

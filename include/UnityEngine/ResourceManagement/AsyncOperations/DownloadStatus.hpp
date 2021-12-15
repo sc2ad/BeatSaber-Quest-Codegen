@@ -10,6 +10,13 @@
 // Completed includes
 // Type namespace: UnityEngine.ResourceManagement.AsyncOperations
 namespace UnityEngine::ResourceManagement::AsyncOperations {
+  // Forward declaring type: DownloadStatus
+  struct DownloadStatus;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus, "UnityEngine.ResourceManagement.AsyncOperations", "DownloadStatus");
+// Type namespace: UnityEngine.ResourceManagement.AsyncOperations
+namespace UnityEngine::ResourceManagement::AsyncOperations {
   // Size: 0x11
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -17,6 +24,15 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
   // [TokenAttribute] Offset: FFFFFFFF
   struct DownloadStatus/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.Int64 TotalBytes
     // Size: 0x8
     // Offset: 0x0
@@ -35,6 +51,7 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     bool IsDone;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating value type constructor for type: DownloadStatus
     constexpr DownloadStatus(int64_t TotalBytes_ = {}, int64_t DownloadedBytes_ = {}, bool IsDone_ = {}) noexcept : TotalBytes{TotalBytes_}, DownloadedBytes{DownloadedBytes_}, IsDone{IsDone_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -55,8 +72,6 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
   static check_size<sizeof(DownloadStatus), 16 + sizeof(bool)> __UnityEngine_ResourceManagement_AsyncOperations_DownloadStatusSizeCheck;
   static_assert(sizeof(DownloadStatus) == 0x11);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus, "UnityEngine.ResourceManagement.AsyncOperations", "DownloadStatus");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus::get_Percent
 // Il2CppName: get_Percent

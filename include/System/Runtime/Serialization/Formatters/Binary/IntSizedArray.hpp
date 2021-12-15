@@ -11,7 +11,16 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: System.Runtime.Serialization.Formatters.Binary
+namespace System::Runtime::Serialization::Formatters::Binary {
+  // Forward declaring type: IntSizedArray
+  class IntSizedArray;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::IntSizedArray);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::IntSizedArray*, "System.Runtime.Serialization.Formatters.Binary", "IntSizedArray");
 // Type namespace: System.Runtime.Serialization.Formatters.Binary
 namespace System::Runtime::Serialization::Formatters::Binary {
   // Size: 0x20
@@ -21,28 +30,36 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   // [DefaultMemberAttribute] Offset: EA106C
   class IntSizedArray : public ::Il2CppObject/*, public System::ICloneable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // System.Int32[] objects
     // Size: 0x8
     // Offset: 0x10
-    ::Array<int>* objects;
+    ::ArrayW<int> objects;
     // Field size check
-    static_assert(sizeof(::Array<int>*) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // System.Int32[] negObjects
     // Size: 0x8
     // Offset: 0x18
-    ::Array<int>* negObjects;
+    ::ArrayW<int> negObjects;
     // Field size check
-    static_assert(sizeof(::Array<int>*) == 0x8);
-    // Creating value type constructor for type: IntSizedArray
-    IntSizedArray(::Array<int>* objects_ = {}, ::Array<int>* negObjects_ = {}) noexcept : objects{objects_}, negObjects{negObjects_} {}
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);
     }
     // Get instance field reference: System.Int32[] objects
-    ::Array<int>*& dyn_objects();
+    ::ArrayW<int>& dyn_objects();
     // Get instance field reference: System.Int32[] negObjects
-    ::Array<int>*& dyn_negObjects();
+    ::ArrayW<int>& dyn_negObjects();
     // System.Int32 get_Item(System.Int32 index)
     // Offset: 0x18603A8
     int get_Item(int index);
@@ -73,10 +90,9 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     }
   }; // System.Runtime.Serialization.Formatters.Binary.IntSizedArray
   #pragma pack(pop)
-  static check_size<sizeof(IntSizedArray), 24 + sizeof(::Array<int>*)> __System_Runtime_Serialization_Formatters_Binary_IntSizedArraySizeCheck;
+  static check_size<sizeof(IntSizedArray), 24 + sizeof(::ArrayW<int>)> __System_Runtime_Serialization_Formatters_Binary_IntSizedArraySizeCheck;
   static_assert(sizeof(IntSizedArray) == 0x20);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::IntSizedArray*, "System.Runtime.Serialization.Formatters.Binary", "IntSizedArray");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::IntSizedArray::get_Item
 // Il2CppName: get_Item

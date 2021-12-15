@@ -13,7 +13,16 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: System.Net.Http
+namespace System::Net::Http {
+  // Forward declaring type: FixedMemoryStream
+  class FixedMemoryStream;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Net::Http::HttpContent::FixedMemoryStream);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::HttpContent::FixedMemoryStream*, "System.Net.Http", "HttpContent/FixedMemoryStream");
 // Type namespace: System.Net.Http
 namespace System::Net::Http {
   // Size: 0x58
@@ -22,14 +31,22 @@ namespace System::Net::Http {
   // [TokenAttribute] Offset: FFFFFFFF
   class HttpContent::FixedMemoryStream : public System::IO::MemoryStream {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private readonly System.Int64 maxSize
     // Size: 0x8
     // Offset: 0x50
     int64_t maxSize;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
-    // Creating value type constructor for type: FixedMemoryStream
-    FixedMemoryStream(int64_t maxSize_ = {}) noexcept : maxSize{maxSize_} {}
+    public:
     // Get instance field reference: private readonly System.Int64 maxSize
     int64_t& dyn_maxSize();
     // public System.Void .ctor(System.Int64 maxSize)
@@ -51,13 +68,12 @@ namespace System::Net::Http {
     // Offset: 0x17CD79C
     // Implemented from: System.IO.MemoryStream
     // Base method: System.Void MemoryStream::Write(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    void Write(::Array<uint8_t>* buffer, int offset, int count);
+    void Write(::ArrayW<uint8_t> buffer, int offset, int count);
   }; // System.Net.Http.HttpContent/System.Net.Http.FixedMemoryStream
   #pragma pack(pop)
   static check_size<sizeof(HttpContent::FixedMemoryStream), 80 + sizeof(int64_t)> __System_Net_Http_HttpContent_FixedMemoryStreamSizeCheck;
   static_assert(sizeof(HttpContent::FixedMemoryStream) == 0x58);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::HttpContent::FixedMemoryStream*, "System.Net.Http", "HttpContent/FixedMemoryStream");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Http::HttpContent::FixedMemoryStream::New_ctor
 // Il2CppName: .ctor
@@ -84,7 +100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::Http::HttpContent::FixedMemoryStream::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::HttpContent::FixedMemoryStream::*)(::Array<uint8_t>*, int, int)>(&System::Net::Http::HttpContent::FixedMemoryStream::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::HttpContent::FixedMemoryStream::*)(::ArrayW<uint8_t>, int, int)>(&System::Net::Http::HttpContent::FixedMemoryStream::Write)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

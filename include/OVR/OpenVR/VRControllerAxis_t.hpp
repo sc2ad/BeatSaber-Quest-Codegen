@@ -9,6 +9,13 @@
 // Completed includes
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
+  // Forward declaring type: VRControllerAxis_t
+  struct VRControllerAxis_t;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VRControllerAxis_t, "OVR.OpenVR", "VRControllerAxis_t");
+// Type namespace: OVR.OpenVR
+namespace OVR::OpenVR {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -16,6 +23,15 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VRControllerAxis_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.Single x
     // Size: 0x4
     // Offset: 0x0
@@ -28,6 +44,7 @@ namespace OVR::OpenVR {
     float y;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: VRControllerAxis_t
     constexpr VRControllerAxis_t(float x_ = {}, float y_ = {}) noexcept : x{x_}, y{y_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -43,6 +60,4 @@ namespace OVR::OpenVR {
   static check_size<sizeof(VRControllerAxis_t), 4 + sizeof(float)> __OVR_OpenVR_VRControllerAxis_tSizeCheck;
   static_assert(sizeof(VRControllerAxis_t) == 0x8);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VRControllerAxis_t, "OVR.OpenVR", "VRControllerAxis_t");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

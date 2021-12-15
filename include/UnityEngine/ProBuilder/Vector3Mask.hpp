@@ -11,20 +11,23 @@
 #include "System/IEquatable_1.hpp"
 // Including type: System.Byte
 #include "System/Byte.hpp"
-// Including type: UnityEngine.Vector3
-#include "UnityEngine/Vector3.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: Vector3
+  struct Vector3;
   // Forward declaring type: Quaternion
   struct Quaternion;
 }
 // Completed forward declares
+// Type namespace: UnityEngine.ProBuilder
+namespace UnityEngine::ProBuilder {
+  // Forward declaring type: Vector3Mask
+  struct Vector3Mask;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Vector3Mask, "UnityEngine.ProBuilder", "Vector3Mask");
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {
   // Size: 0x1
@@ -35,12 +38,22 @@ namespace UnityEngine::ProBuilder {
   // [DefaultMemberAttribute] Offset: F680C4
   struct Vector3Mask/*, public System::ValueType, public System::IEquatable_1<UnityEngine::ProBuilder::Vector3Mask>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.Byte m_Mask
     // Size: 0x1
     // Offset: 0x0
     uint8_t m_Mask;
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
+    public:
     // Creating value type constructor for type: Vector3Mask
     constexpr Vector3Mask(uint8_t m_Mask_ = {}) noexcept : m_Mask{m_Mask_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -99,16 +112,10 @@ namespace UnityEngine::ProBuilder {
     void set_Item(int i, float value);
     // public System.Void .ctor(UnityEngine.Vector3 v, System.Single epsilon)
     // Offset: 0x2586194
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    Vector3Mask(UnityEngine::Vector3 v, float epsilon) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Vector3Mask::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(v), ::il2cpp_utils::ExtractType(epsilon)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, v, epsilon);
-    }
+    Vector3Mask(UnityEngine::Vector3 v, float epsilon);
     // public System.Void .ctor(System.Byte mask)
     // Offset: 0x2586290
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    // ABORTED: conflicts with another method.  Vector3Mask(uint8_t mask)
+    // ABORTED: conflicts with another method.  Vector3Mask(uint8_t mask);
     // static private System.Void .cctor()
     // Offset: 0x258693C
     static void _cctor();
@@ -162,7 +169,6 @@ namespace UnityEngine::ProBuilder {
   // Offset: 0x25866DC
   bool operator !=(const UnityEngine::ProBuilder::Vector3Mask& left, const UnityEngine::ProBuilder::Vector3Mask& right);
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Vector3Mask, "UnityEngine.ProBuilder", "Vector3Mask");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Vector3Mask::get_x
 // Il2CppName: get_x

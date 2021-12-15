@@ -19,6 +19,13 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: RaycastHit2D
+  struct RaycastHit2D;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RaycastHit2D, "UnityEngine", "RaycastHit2D");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x24
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -29,6 +36,15 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: ED7B0C
   struct RaycastHit2D/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // [NativeNameAttribute] Offset: 0xED81A0
     // private UnityEngine.Vector2 m_Centroid
     // Size: 0x8
@@ -71,6 +87,7 @@ namespace UnityEngine {
     int m_Collider;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: RaycastHit2D
     constexpr RaycastHit2D(UnityEngine::Vector2 m_Centroid_ = {}, UnityEngine::Vector2 m_Point_ = {}, UnityEngine::Vector2 m_Normal_ = {}, float m_Distance_ = {}, float m_Fraction_ = {}, int m_Collider_ = {}) noexcept : m_Centroid{m_Centroid_}, m_Point{m_Point_}, m_Normal{m_Normal_}, m_Distance{m_Distance_}, m_Fraction{m_Fraction_}, m_Collider{m_Collider_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -109,8 +126,6 @@ namespace UnityEngine {
   static check_size<sizeof(RaycastHit2D), 32 + sizeof(int)> __UnityEngine_RaycastHit2DSizeCheck;
   static_assert(sizeof(RaycastHit2D) == 0x24);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RaycastHit2D, "UnityEngine", "RaycastHit2D");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::RaycastHit2D::get_point
 // Il2CppName: get_point

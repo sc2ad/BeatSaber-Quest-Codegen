@@ -3,13 +3,22 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
 // Completed includes
+// Begin il2cpp-utils forward declares
+struct Il2CppString;
+// Completed il2cpp-utils forward declares
+// Type namespace: System.Net.NetworkInformation.MacOsStructs
+namespace System::Net::NetworkInformation::MacOsStructs {
+  // Forward declaring type: ifaddrs
+  struct ifaddrs;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::MacOsStructs::ifaddrs, "System.Net.NetworkInformation.MacOsStructs", "ifaddrs");
 // Type namespace: System.Net.NetworkInformation.MacOsStructs
 namespace System::Net::NetworkInformation::MacOsStructs {
   // Size: 0x38
@@ -19,6 +28,15 @@ namespace System::Net::NetworkInformation::MacOsStructs {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ifaddrs/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.IntPtr ifa_next
     // Size: 0x8
     // Offset: 0x0
@@ -63,6 +81,7 @@ namespace System::Net::NetworkInformation::MacOsStructs {
     System::IntPtr ifa_data;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
+    public:
     // Creating value type constructor for type: ifaddrs
     constexpr ifaddrs(System::IntPtr ifa_next_ = {}, ::Il2CppString* ifa_name_ = {}, uint ifa_flags_ = {}, System::IntPtr ifa_addr_ = {}, System::IntPtr ifa_netmask_ = {}, System::IntPtr ifa_dstaddr_ = {}, System::IntPtr ifa_data_ = {}) noexcept : ifa_next{ifa_next_}, ifa_name{ifa_name_}, ifa_flags{ifa_flags_}, ifa_addr{ifa_addr_}, ifa_netmask{ifa_netmask_}, ifa_dstaddr{ifa_dstaddr_}, ifa_data{ifa_data_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -88,6 +107,4 @@ namespace System::Net::NetworkInformation::MacOsStructs {
   static check_size<sizeof(ifaddrs), 48 + sizeof(System::IntPtr)> __System_Net_NetworkInformation_MacOsStructs_ifaddrsSizeCheck;
   static_assert(sizeof(ifaddrs) == 0x38);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::MacOsStructs::ifaddrs, "System.Net.NetworkInformation.MacOsStructs", "ifaddrs");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

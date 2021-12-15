@@ -3,26 +3,33 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include <stdint.h>
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.Runtime.Serialization.ISerializable
 #include "System/Runtime/Serialization/ISerializable.hpp"
-// Including type: System.Runtime.Serialization.StreamingContext
-#include "System/Runtime/Serialization/StreamingContext.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization
 namespace System::Runtime::Serialization {
   // Forward declaring type: SerializationInfo
   class SerializationInfo;
+  // Forward declaring type: StreamingContext
+  struct StreamingContext;
 }
 // Completed forward declares
+// Begin il2cpp-utils forward declares
+struct Il2CppString;
+struct Il2CppObject;
+// Completed il2cpp-utils forward declares
+// Type namespace: System
+namespace System {
+  // Forward declaring type: IntPtr
+  struct IntPtr;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::IntPtr, "System", "IntPtr");
 // Type namespace: System
 namespace System {
   // Size: 0x8
@@ -33,12 +40,22 @@ namespace System {
   // [ComVisibleAttribute] Offset: E9E27C
   struct IntPtr/*, public System::ValueType, public System::Runtime::Serialization::ISerializable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.Void* m_value
     // Size: 0x8
     // Offset: 0x0
     void* m_value;
     // Field size check
     static_assert(sizeof(void*) == 0x8);
+    public:
     // Creating value type constructor for type: IntPtr
     constexpr IntPtr(void* m_value_ = {}) noexcept : m_value{m_value_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -64,32 +81,16 @@ namespace System {
     static int get_Size();
     // public System.Void .ctor(System.Int32 value)
     // Offset: 0x1A11514
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    IntPtr(int value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::IntPtr::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
-    }
+    IntPtr(int value);
     // public System.Void .ctor(System.Int64 value)
     // Offset: 0x1A11520
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    IntPtr(int64_t value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::IntPtr::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
-    }
+    IntPtr(int64_t value);
     // public System.Void .ctor(System.Void* value)
     // Offset: 0x1A11528
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    // ABORTED: conflicts with another method.  IntPtr(void* value)
+    // ABORTED: conflicts with another method.  IntPtr(void* value);
     // private System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x1A11530
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    IntPtr(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::IntPtr::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(info), ::il2cpp_utils::ExtractType(context)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, info, context);
-    }
+    IntPtr(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x1A115A8
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
@@ -152,7 +153,6 @@ namespace System {
   // Offset: 0x1A11764
   bool operator !=(const System::IntPtr& value1, const System::IntPtr& value2);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::IntPtr, "System", "IntPtr");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IntPtr::get_Size
 // Il2CppName: get_Size

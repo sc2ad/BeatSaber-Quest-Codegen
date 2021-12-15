@@ -11,7 +11,16 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: UnityEngine
+namespace UnityEngine {
+  // Forward declaring type: UnityAPICompatibilityVersionAttribute
+  class UnityAPICompatibilityVersionAttribute;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::UnityAPICompatibilityVersionAttribute);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UnityAPICompatibilityVersionAttribute*, "UnityEngine", "UnityAPICompatibilityVersionAttribute");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x20
@@ -21,6 +30,15 @@ namespace UnityEngine {
   // [AttributeUsageAttribute] Offset: EB5184
   class UnityAPICompatibilityVersionAttribute : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.String _version
     // Size: 0x8
     // Offset: 0x10
@@ -30,28 +48,26 @@ namespace UnityEngine {
     // private System.String[] _configurationAssembliesHashes
     // Size: 0x8
     // Offset: 0x18
-    ::Array<::Il2CppString*>* configurationAssembliesHashes;
+    ::ArrayW<::Il2CppString*> configurationAssembliesHashes;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
-    // Creating value type constructor for type: UnityAPICompatibilityVersionAttribute
-    UnityAPICompatibilityVersionAttribute(::Il2CppString* version_ = {}, ::Array<::Il2CppString*>* configurationAssembliesHashes_ = {}) noexcept : version{version_}, configurationAssembliesHashes{configurationAssembliesHashes_} {}
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    public:
     // Get instance field reference: private System.String _version
     ::Il2CppString*& dyn__version();
     // Get instance field reference: private System.String[] _configurationAssembliesHashes
-    ::Array<::Il2CppString*>*& dyn__configurationAssembliesHashes();
+    ::ArrayW<::Il2CppString*>& dyn__configurationAssembliesHashes();
     // public System.Void .ctor(System.String version, System.String[] configurationAssembliesHashes)
     // Offset: 0x243A68C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static UnityAPICompatibilityVersionAttribute* New_ctor(::Il2CppString* version, ::Array<::Il2CppString*>* configurationAssembliesHashes) {
+    static UnityAPICompatibilityVersionAttribute* New_ctor(::Il2CppString* version, ::ArrayW<::Il2CppString*> configurationAssembliesHashes) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UnityAPICompatibilityVersionAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnityAPICompatibilityVersionAttribute*, creationType>(version, configurationAssembliesHashes)));
     }
   }; // UnityEngine.UnityAPICompatibilityVersionAttribute
   #pragma pack(pop)
-  static check_size<sizeof(UnityAPICompatibilityVersionAttribute), 24 + sizeof(::Array<::Il2CppString*>*)> __UnityEngine_UnityAPICompatibilityVersionAttributeSizeCheck;
+  static check_size<sizeof(UnityAPICompatibilityVersionAttribute), 24 + sizeof(::ArrayW<::Il2CppString*>)> __UnityEngine_UnityAPICompatibilityVersionAttributeSizeCheck;
   static_assert(sizeof(UnityAPICompatibilityVersionAttribute) == 0x20);
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UnityAPICompatibilityVersionAttribute*, "UnityEngine", "UnityAPICompatibilityVersionAttribute");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UnityAPICompatibilityVersionAttribute::New_ctor
 // Il2CppName: .ctor

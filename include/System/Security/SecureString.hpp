@@ -11,7 +11,16 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: System.Security
+namespace System::Security {
+  // Forward declaring type: SecureString
+  class SecureString;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Security::SecureString);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::SecureString*, "System.Security", "SecureString");
 // Type namespace: System.Security
 namespace System::Security {
   // Size: 0x20
@@ -21,6 +30,15 @@ namespace System::Security {
   // [MonoTODOAttribute] Offset: EA0500
   class SecureString : public ::Il2CppObject/*, public System::IDisposable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.Int32 length
     // Size: 0x4
     // Offset: 0x10
@@ -38,11 +56,10 @@ namespace System::Security {
     // private System.Byte[] data
     // Size: 0x8
     // Offset: 0x18
-    ::Array<uint8_t>* data;
+    ::ArrayW<uint8_t> data;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
-    // Creating value type constructor for type: SecureString
-    SecureString(int length_ = {}, bool disposed_ = {}, ::Array<uint8_t>* data_ = {}) noexcept : length{length_}, disposed{disposed_}, data{data_} {}
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
@@ -52,7 +69,7 @@ namespace System::Security {
     // Get instance field reference: private System.Boolean disposed
     bool& dyn_disposed();
     // Get instance field reference: private System.Byte[] data
-    ::Array<uint8_t>*& dyn_data();
+    ::ArrayW<uint8_t>& dyn_data();
     // public System.Int32 get_Length()
     // Offset: 0x1D24EF8
     int get_Length();
@@ -77,7 +94,7 @@ namespace System::Security {
     void Alloc(int length, bool realloc);
     // System.Byte[] GetBuffer()
     // Offset: 0x1D24FC8
-    ::Array<uint8_t>* GetBuffer();
+    ::ArrayW<uint8_t> GetBuffer();
     // public System.Void .ctor()
     // Offset: 0x1D24BF0
     // Implemented from: System.Object
@@ -89,10 +106,9 @@ namespace System::Security {
     }
   }; // System.Security.SecureString
   #pragma pack(pop)
-  static check_size<sizeof(SecureString), 24 + sizeof(::Array<uint8_t>*)> __System_Security_SecureStringSizeCheck;
+  static check_size<sizeof(SecureString), 24 + sizeof(::ArrayW<uint8_t>)> __System_Security_SecureStringSizeCheck;
   static_assert(sizeof(SecureString) == 0x20);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::Security::SecureString*, "System.Security", "SecureString");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::SecureString::get_Length
 // Il2CppName: get_Length
@@ -143,7 +159,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::SecureString::GetBuffer
 // Il2CppName: GetBuffer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (System::Security::SecureString::*)()>(&System::Security::SecureString::GetBuffer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::Security::SecureString::*)()>(&System::Security::SecureString::GetBuffer)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::SecureString*), "GetBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

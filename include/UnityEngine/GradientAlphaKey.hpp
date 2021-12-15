@@ -9,6 +9,13 @@
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: GradientAlphaKey
+  struct GradientAlphaKey;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GradientAlphaKey, "UnityEngine", "GradientAlphaKey");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -17,6 +24,15 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: EB40F0
   struct GradientAlphaKey/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.Single alpha
     // Size: 0x4
     // Offset: 0x0
@@ -29,6 +45,7 @@ namespace UnityEngine {
     float time;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: GradientAlphaKey
     constexpr GradientAlphaKey(float alpha_ = {}, float time_ = {}) noexcept : alpha{alpha_}, time{time_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -44,6 +61,4 @@ namespace UnityEngine {
   static check_size<sizeof(GradientAlphaKey), 4 + sizeof(float)> __UnityEngine_GradientAlphaKeySizeCheck;
   static_assert(sizeof(GradientAlphaKey) == 0x8);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GradientAlphaKey, "UnityEngine", "GradientAlphaKey");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

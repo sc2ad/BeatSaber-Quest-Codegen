@@ -9,6 +9,13 @@
 // Completed includes
 // Type namespace: System.Threading.Tasks
 namespace System::Threading::Tasks {
+  // Forward declaring type: VoidTaskResult
+  struct VoidTaskResult;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::VoidTaskResult, "System.Threading.Tasks", "VoidTaskResult");
+// Type namespace: System.Threading.Tasks
+namespace System::Threading::Tasks {
   // Size: 0x0
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -25,6 +32,4 @@ namespace System::Threading::Tasks {
   }; // System.Threading.Tasks.VoidTaskResult
   #pragma pack(pop)
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::VoidTaskResult, "System.Threading.Tasks", "VoidTaskResult");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

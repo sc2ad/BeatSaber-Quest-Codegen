@@ -3,7 +3,6 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
@@ -32,6 +31,16 @@ namespace UnityEngine {
   class IExposedPropertyTable;
 }
 // Completed forward declares
+// Begin il2cpp-utils forward declares
+struct Il2CppString;
+// Completed il2cpp-utils forward declares
+// Type namespace: UnityEngine.Playables
+namespace UnityEngine::Playables {
+  // Forward declaring type: PlayableGraph
+  struct PlayableGraph;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableGraph, "UnityEngine.Playables", "PlayableGraph");
 // Type namespace: UnityEngine.Playables
 namespace UnityEngine::Playables {
   // Size: 0xC
@@ -46,6 +55,15 @@ namespace UnityEngine::Playables {
   // [NativeHeaderAttribute] Offset: EB6D80
   struct PlayableGraph/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // System.IntPtr m_Handle
     // Size: 0x8
     // Offset: 0x0
@@ -58,6 +76,7 @@ namespace UnityEngine::Playables {
     uint m_Version;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
+    public:
     // Creating value type constructor for type: PlayableGraph
     constexpr PlayableGraph(System::IntPtr m_Handle_ = {}, uint m_Version_ = {}) noexcept : m_Handle{m_Handle_}, m_Version{m_Version_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -80,7 +99,7 @@ namespace UnityEngine::Playables {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::PlayableGraph::Connect");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "Connect", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<V>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(source), ::il2cpp_utils::ExtractType(sourceOutputPort), ::il2cpp_utils::ExtractType(destination), ::il2cpp_utils::ExtractType(destinationInputPort)})));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<V>::get()})));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(*this, ___generic__method, source, sourceOutputPort, destination, destinationInputPort);
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___generic__method, source, sourceOutputPort, destination, destinationInputPort);
     }
     // public System.Boolean IsValid()
     // Offset: 0x1DAAE4C
@@ -141,7 +160,6 @@ namespace UnityEngine::Playables {
   static check_size<sizeof(PlayableGraph), 8 + sizeof(uint)> __UnityEngine_Playables_PlayableGraphSizeCheck;
   static_assert(sizeof(PlayableGraph) == 0xC);
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableGraph, "UnityEngine.Playables", "PlayableGraph");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableGraph::GetRootPlayable
 // Il2CppName: GetRootPlayable

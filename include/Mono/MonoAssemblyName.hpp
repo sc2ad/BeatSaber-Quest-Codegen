@@ -3,13 +3,20 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include <stdint.h>
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
 // Completed includes
+// Type namespace: Mono
+namespace Mono {
+  // Forward declaring type: MonoAssemblyName
+  struct MonoAssemblyName;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Mono::MonoAssemblyName, "Mono", "MonoAssemblyName");
 // Type namespace: Mono
 namespace Mono {
   // Size: 0x4A
@@ -30,12 +37,22 @@ namespace Mono {
     // [UnsafeValueTypeAttribute] Offset: E9CD04
     struct $public_key_token$e__FixedBuffer/*, public System::ValueType*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      #ifdef CODEGEN_FIELD_ACCESSIBILITY
+      CODEGEN_FIELD_ACCESSIBILITY:
+      #else
+      protected:
+      #endif
+      #endif
       // public System.Byte FixedElementField
       // Size: 0x1
       // Offset: 0x0
       uint8_t FixedElementField;
       // Field size check
       static_assert(sizeof(uint8_t) == 0x1);
+      public:
       // Creating value type constructor for type: $public_key_token$e__FixedBuffer
       constexpr $public_key_token$e__FixedBuffer(uint8_t FixedElementField_ = {}) noexcept : FixedElementField{FixedElementField_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -52,6 +69,15 @@ namespace Mono {
     #pragma pack(pop)
     static check_size<sizeof(MonoAssemblyName::$public_key_token$e__FixedBuffer), 0 + sizeof(uint8_t)> __Mono_MonoAssemblyName_$public_key_token$e__FixedBufferSizeCheck;
     static_assert(sizeof(MonoAssemblyName::$public_key_token$e__FixedBuffer) == 0x1);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // System.IntPtr name
     // Size: 0x8
     // Offset: 0x0
@@ -133,6 +159,7 @@ namespace Mono {
     uint16_t arch;
     // Field size check
     static_assert(sizeof(uint16_t) == 0x2);
+    public:
     // Creating value type constructor for type: MonoAssemblyName
     constexpr MonoAssemblyName(System::IntPtr name_ = {}, System::IntPtr culture_ = {}, System::IntPtr hash_value_ = {}, System::IntPtr public_key_ = {}, Mono::MonoAssemblyName::$public_key_token$e__FixedBuffer public_key_token_ = {}, uint hash_alg_ = {}, uint hash_len_ = {}, uint flags_ = {}, uint16_t major_ = {}, uint16_t minor_ = {}, uint16_t build_ = {}, uint16_t revision_ = {}, uint16_t arch_ = {}) noexcept : name{name_}, culture{culture_}, hash_value{hash_value_}, public_key{public_key_}, public_key_token{public_key_token_}, hash_alg{hash_alg_}, hash_len{hash_len_}, flags{flags_}, major{major_}, minor{minor_}, build{build_}, revision{revision_}, arch{arch_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -170,7 +197,6 @@ namespace Mono {
   static check_size<sizeof(MonoAssemblyName), 72 + sizeof(uint16_t)> __Mono_MonoAssemblyNameSizeCheck;
   static_assert(sizeof(MonoAssemblyName) == 0x4A);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Mono::MonoAssemblyName, "Mono", "MonoAssemblyName");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::MonoAssemblyName::$public_key_token$e__FixedBuffer, "Mono", "MonoAssemblyName/<public_key_token>e__FixedBuffer");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

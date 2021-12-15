@@ -21,6 +21,14 @@ namespace System {
 // Completed forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: ScriptableObject
+  class ScriptableObject;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::ScriptableObject);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ScriptableObject*, "UnityEngine", "ScriptableObject");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -32,8 +40,6 @@ namespace UnityEngine {
   // [NativeClassAttribute] Offset: EB503C
   class ScriptableObject : public UnityEngine::Object {
     public:
-    // Creating value type constructor for type: ScriptableObject
-    ScriptableObject() noexcept {}
     // static public UnityEngine.ScriptableObject CreateInstance(System.Type type)
     // Offset: 0x1DFE7EC
     static UnityEngine::ScriptableObject* CreateInstance(System::Type* type);
@@ -45,7 +51,7 @@ namespace UnityEngine {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ScriptableObject::CreateInstance");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine", "ScriptableObject", "CreateInstance", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method);
+      return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method);
     }
     // static private System.Void CreateScriptableObject(UnityEngine.ScriptableObject self)
     // Offset: 0x1DFE7AC
@@ -66,7 +72,6 @@ namespace UnityEngine {
   }; // UnityEngine.ScriptableObject
   #pragma pack(pop)
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ScriptableObject*, "UnityEngine", "ScriptableObject");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ScriptableObject::CreateInstance
 // Il2CppName: CreateInstance

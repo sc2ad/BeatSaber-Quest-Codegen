@@ -25,6 +25,13 @@ namespace System::Globalization {
 // Completed forward declares
 // Type namespace: System
 namespace System {
+  // Forward declaring type: DateTimeResult
+  struct DateTimeResult;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::DateTimeResult, "System", "DateTimeResult");
+// Type namespace: System
+namespace System {
   // Size: 0x60
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -32,6 +39,15 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   struct DateTimeResult/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // System.Int32 Year
     // Size: 0x4
     // Offset: 0x0
@@ -130,6 +146,7 @@ namespace System {
     ::Il2CppString* failureArgumentName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Creating value type constructor for type: DateTimeResult
     constexpr DateTimeResult(int Year_ = {}, int Month_ = {}, int Day_ = {}, int Hour_ = {}, int Minute_ = {}, int Second_ = {}, double fraction_ = {}, int era_ = {}, System::ParseFlags flags_ = {}, System::TimeSpan timeZoneOffset_ = {}, System::Globalization::Calendar* calendar_ = {}, System::DateTime parsedDate_ = {}, System::ParseFailureKind failure_ = {}, ::Il2CppString* failureMessageID_ = {}, ::Il2CppObject* failureMessageFormatArgument_ = {}, ::Il2CppString* failureArgumentName_ = {}) noexcept : Year{Year_}, Month{Month_}, Day{Day_}, Hour{Hour_}, Minute{Minute_}, Second{Second_}, fraction{fraction_}, era{era_}, flags{flags_}, timeZoneOffset{timeZoneOffset_}, calendar{calendar_}, parsedDate{parsedDate_}, failure{failure_}, failureMessageID{failureMessageID_}, failureMessageFormatArgument{failureMessageFormatArgument_}, failureArgumentName{failureArgumentName_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -185,8 +202,6 @@ namespace System {
   static check_size<sizeof(DateTimeResult), 88 + sizeof(::Il2CppString*)> __System_DateTimeResultSizeCheck;
   static_assert(sizeof(DateTimeResult) == 0x60);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::DateTimeResult, "System", "DateTimeResult");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::DateTimeResult::Init
 // Il2CppName: Init

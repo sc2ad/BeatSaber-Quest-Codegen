@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -19,6 +20,14 @@ namespace UnityEngine {
   struct Vector3;
 }
 // Completed forward declares
+// Type namespace: UnityEngine
+namespace UnityEngine {
+  // Forward declaring type: Display
+  class Display;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::Display);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Display*, "UnityEngine", "Display");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18
@@ -31,22 +40,30 @@ namespace UnityEngine {
     public:
     // Nested type: UnityEngine::Display::DisplaysUpdatedDelegate
     class DisplaysUpdatedDelegate;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // System.IntPtr nativeDisplay
     // Size: 0x8
     // Offset: 0x10
     System::IntPtr nativeDisplay;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
-    // Creating value type constructor for type: Display
-    Display(System::IntPtr nativeDisplay_ = {}) noexcept : nativeDisplay{nativeDisplay_} {}
+    public:
     // Creating conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept {
       return nativeDisplay;
     }
     // Get static field: static public UnityEngine.Display[] displays
-    static ::Array<UnityEngine::Display*>* _get_displays();
+    static ::ArrayW<UnityEngine::Display*> _get_displays();
     // Set static field: static public UnityEngine.Display[] displays
-    static void _set_displays(::Array<UnityEngine::Display*>* value);
+    static void _set_displays(::ArrayW<UnityEngine::Display*> value);
     // Get static field: static private UnityEngine.Display _mainDisplay
     static UnityEngine::Display* _get__mainDisplay();
     // Set static field: static private UnityEngine.Display _mainDisplay
@@ -88,7 +105,7 @@ namespace UnityEngine {
     static UnityEngine::Vector3 RelativeMouseAt(UnityEngine::Vector3 inputMouseCoordinates);
     // static private System.Void RecreateDisplayList(System.IntPtr[] nativeDisplay)
     // Offset: 0x1D0AD90
-    static void RecreateDisplayList(::Array<System::IntPtr>* nativeDisplay);
+    static void RecreateDisplayList(::ArrayW<System::IntPtr> nativeDisplay);
     // static private System.Void FireDisplaysUpdated()
     // Offset: 0x1D0AF34
     static void FireDisplaysUpdated();
@@ -115,7 +132,6 @@ namespace UnityEngine {
   static check_size<sizeof(Display), 16 + sizeof(System::IntPtr)> __UnityEngine_DisplaySizeCheck;
   static_assert(sizeof(Display) == 0x18);
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Display*, "UnityEngine", "Display");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Display::get_renderingWidth
 // Il2CppName: get_renderingWidth
@@ -181,7 +197,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Display::RecreateDisplayList
 // Il2CppName: RecreateDisplayList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<System::IntPtr>*)>(&UnityEngine::Display::RecreateDisplayList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<System::IntPtr>)>(&UnityEngine::Display::RecreateDisplayList)> {
   static const MethodInfo* get() {
     static auto* nativeDisplay = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "IntPtr"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Display*), "RecreateDisplayList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nativeDisplay});

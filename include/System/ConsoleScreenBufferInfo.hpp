@@ -14,6 +14,13 @@
 // Completed includes
 // Type namespace: System
 namespace System {
+  // Forward declaring type: ConsoleScreenBufferInfo
+  struct ConsoleScreenBufferInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::ConsoleScreenBufferInfo, "System", "ConsoleScreenBufferInfo");
+// Type namespace: System
+namespace System {
   // Size: 0x16
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -21,6 +28,15 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ConsoleScreenBufferInfo/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.Coord Size
     // Size: 0x4
     // Offset: 0x0
@@ -51,6 +67,7 @@ namespace System {
     System::Coord MaxWindowSize;
     // Field size check
     static_assert(sizeof(System::Coord) == 0x4);
+    public:
     // Creating value type constructor for type: ConsoleScreenBufferInfo
     constexpr ConsoleScreenBufferInfo(System::Coord Size_ = {}, System::Coord CursorPosition_ = {}, int16_t Attribute_ = {}, System::SmallRect Window_ = {}, System::Coord MaxWindowSize_ = {}) noexcept : Size{Size_}, CursorPosition{CursorPosition_}, Attribute{Attribute_}, Window{Window_}, MaxWindowSize{MaxWindowSize_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -72,6 +89,4 @@ namespace System {
   static check_size<sizeof(ConsoleScreenBufferInfo), 18 + sizeof(System::Coord)> __System_ConsoleScreenBufferInfoSizeCheck;
   static_assert(sizeof(ConsoleScreenBufferInfo) == 0x16);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::ConsoleScreenBufferInfo, "System", "ConsoleScreenBufferInfo");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

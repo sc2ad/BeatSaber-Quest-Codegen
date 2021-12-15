@@ -9,6 +9,7 @@
 #include "System/Runtime/Remoting/Channels/CrossAppDomainSink.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Remoting::Messaging
@@ -19,6 +20,13 @@ namespace System::Runtime::Remoting::Messaging {
 // Completed forward declares
 // Type namespace: System.Runtime.Remoting.Channels
 namespace System::Runtime::Remoting::Channels {
+  // Forward declaring type: ProcessMessageRes
+  struct ProcessMessageRes;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Channels::CrossAppDomainSink::ProcessMessageRes, "System.Runtime.Remoting.Channels", "CrossAppDomainSink/ProcessMessageRes");
+// Type namespace: System.Runtime.Remoting.Channels
+namespace System::Runtime::Remoting::Channels {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -26,26 +34,36 @@ namespace System::Runtime::Remoting::Channels {
   // [TokenAttribute] Offset: FFFFFFFF
   struct CrossAppDomainSink::ProcessMessageRes/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.Byte[] arrResponse
     // Size: 0x8
     // Offset: 0x0
-    ::Array<uint8_t>* arrResponse;
+    ::ArrayW<uint8_t> arrResponse;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // public System.Runtime.Remoting.Messaging.CADMethodReturnMessage cadMrm
     // Size: 0x8
     // Offset: 0x8
     System::Runtime::Remoting::Messaging::CADMethodReturnMessage* cadMrm;
     // Field size check
     static_assert(sizeof(System::Runtime::Remoting::Messaging::CADMethodReturnMessage*) == 0x8);
+    public:
     // Creating value type constructor for type: ProcessMessageRes
-    constexpr ProcessMessageRes(::Array<uint8_t>* arrResponse_ = {}, System::Runtime::Remoting::Messaging::CADMethodReturnMessage* cadMrm_ = {}) noexcept : arrResponse{arrResponse_}, cadMrm{cadMrm_} {}
+    constexpr ProcessMessageRes(::ArrayW<uint8_t> arrResponse_ = ::ArrayW<uint8_t>(nullptr), System::Runtime::Remoting::Messaging::CADMethodReturnMessage* cadMrm_ = {}) noexcept : arrResponse{arrResponse_}, cadMrm{cadMrm_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // Get instance field reference: public System.Byte[] arrResponse
-    ::Array<uint8_t>*& dyn_arrResponse();
+    ::ArrayW<uint8_t>& dyn_arrResponse();
     // Get instance field reference: public System.Runtime.Remoting.Messaging.CADMethodReturnMessage cadMrm
     System::Runtime::Remoting::Messaging::CADMethodReturnMessage*& dyn_cadMrm();
   }; // System.Runtime.Remoting.Channels.CrossAppDomainSink/System.Runtime.Remoting.Channels.ProcessMessageRes
@@ -53,6 +71,4 @@ namespace System::Runtime::Remoting::Channels {
   static check_size<sizeof(CrossAppDomainSink::ProcessMessageRes), 8 + sizeof(System::Runtime::Remoting::Messaging::CADMethodReturnMessage*)> __System_Runtime_Remoting_Channels_CrossAppDomainSink_ProcessMessageResSizeCheck;
   static_assert(sizeof(CrossAppDomainSink::ProcessMessageRes) == 0x10);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Channels::CrossAppDomainSink::ProcessMessageRes, "System.Runtime.Remoting.Channels", "CrossAppDomainSink/ProcessMessageRes");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

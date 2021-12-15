@@ -11,7 +11,16 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: Org.BouncyCastle.Crypto.Parameters
+namespace Org::BouncyCastle::Crypto::Parameters {
+  // Forward declaring type: KdfParameters
+  class KdfParameters;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Parameters::KdfParameters);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::KdfParameters*, "Org.BouncyCastle.Crypto.Parameters", "KdfParameters");
 // Type namespace: Org.BouncyCastle.Crypto.Parameters
 namespace Org::BouncyCastle::Crypto::Parameters {
   // Size: 0x20
@@ -20,47 +29,54 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   // [TokenAttribute] Offset: FFFFFFFF
   class KdfParameters : public ::Il2CppObject/*, public Org::BouncyCastle::Crypto::IDerivationParameters*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.Byte[] iv
     // Size: 0x8
     // Offset: 0x10
-    ::Array<uint8_t>* iv;
+    ::ArrayW<uint8_t> iv;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Byte[] shared
     // Size: 0x8
     // Offset: 0x18
-    ::Array<uint8_t>* shared;
+    ::ArrayW<uint8_t> shared;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
-    // Creating value type constructor for type: KdfParameters
-    KdfParameters(::Array<uint8_t>* iv_ = {}, ::Array<uint8_t>* shared_ = {}) noexcept : iv{iv_}, shared{shared_} {}
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
+    public:
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IDerivationParameters
     operator Org::BouncyCastle::Crypto::IDerivationParameters() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IDerivationParameters*>(this);
     }
     // Get instance field reference: private System.Byte[] iv
-    ::Array<uint8_t>*& dyn_iv();
+    ::ArrayW<uint8_t>& dyn_iv();
     // Get instance field reference: private System.Byte[] shared
-    ::Array<uint8_t>*& dyn_shared();
+    ::ArrayW<uint8_t>& dyn_shared();
     // public System.Void .ctor(System.Byte[] shared, System.Byte[] iv)
     // Offset: 0x13BBA3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static KdfParameters* New_ctor(::Array<uint8_t>* shared, ::Array<uint8_t>* iv) {
+    static KdfParameters* New_ctor(::ArrayW<uint8_t> shared, ::ArrayW<uint8_t> iv) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::KdfParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KdfParameters*, creationType>(shared, iv)));
     }
     // public System.Byte[] GetSharedSecret()
     // Offset: 0x13BBA74
-    ::Array<uint8_t>* GetSharedSecret();
+    ::ArrayW<uint8_t> GetSharedSecret();
     // public System.Byte[] GetIV()
     // Offset: 0x13BBA7C
-    ::Array<uint8_t>* GetIV();
+    ::ArrayW<uint8_t> GetIV();
   }; // Org.BouncyCastle.Crypto.Parameters.KdfParameters
   #pragma pack(pop)
-  static check_size<sizeof(KdfParameters), 24 + sizeof(::Array<uint8_t>*)> __Org_BouncyCastle_Crypto_Parameters_KdfParametersSizeCheck;
+  static check_size<sizeof(KdfParameters), 24 + sizeof(::ArrayW<uint8_t>)> __Org_BouncyCastle_Crypto_Parameters_KdfParametersSizeCheck;
   static_assert(sizeof(KdfParameters) == 0x20);
 }
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::KdfParameters*, "Org.BouncyCastle.Crypto.Parameters", "KdfParameters");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::KdfParameters::New_ctor
 // Il2CppName: .ctor
@@ -69,7 +85,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::KdfParameters*, "O
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::KdfParameters::GetSharedSecret
 // Il2CppName: GetSharedSecret
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Org::BouncyCastle::Crypto::Parameters::KdfParameters::*)()>(&Org::BouncyCastle::Crypto::Parameters::KdfParameters::GetSharedSecret)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Org::BouncyCastle::Crypto::Parameters::KdfParameters::*)()>(&Org::BouncyCastle::Crypto::Parameters::KdfParameters::GetSharedSecret)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Parameters::KdfParameters*), "GetSharedSecret", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -77,7 +93,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::KdfParameters::GetIV
 // Il2CppName: GetIV
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Org::BouncyCastle::Crypto::Parameters::KdfParameters::*)()>(&Org::BouncyCastle::Crypto::Parameters::KdfParameters::GetIV)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Org::BouncyCastle::Crypto::Parameters::KdfParameters::*)()>(&Org::BouncyCastle::Crypto::Parameters::KdfParameters::GetIV)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Parameters::KdfParameters*), "GetIV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

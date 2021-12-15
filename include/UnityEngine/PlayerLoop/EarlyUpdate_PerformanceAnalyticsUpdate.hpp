@@ -11,6 +11,13 @@
 // Completed includes
 // Type namespace: UnityEngine.PlayerLoop
 namespace UnityEngine::PlayerLoop {
+  // Forward declaring type: PerformanceAnalyticsUpdate
+  struct PerformanceAnalyticsUpdate;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PlayerLoop::EarlyUpdate::PerformanceAnalyticsUpdate, "UnityEngine.PlayerLoop", "EarlyUpdate/PerformanceAnalyticsUpdate");
+// Type namespace: UnityEngine.PlayerLoop
+namespace UnityEngine::PlayerLoop {
   // Size: 0x0
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -28,6 +35,4 @@ namespace UnityEngine::PlayerLoop {
   }; // UnityEngine.PlayerLoop.EarlyUpdate/UnityEngine.PlayerLoop.PerformanceAnalyticsUpdate
   #pragma pack(pop)
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PlayerLoop::EarlyUpdate::PerformanceAnalyticsUpdate, "UnityEngine.PlayerLoop", "EarlyUpdate/PerformanceAnalyticsUpdate");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

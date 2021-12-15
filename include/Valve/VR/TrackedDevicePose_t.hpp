@@ -16,6 +16,13 @@
 // Completed includes
 // Type namespace: Valve.VR
 namespace Valve::VR {
+  // Forward declaring type: TrackedDevicePose_t
+  struct TrackedDevicePose_t;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::TrackedDevicePose_t, "Valve.VR", "TrackedDevicePose_t");
+// Type namespace: Valve.VR
+namespace Valve::VR {
   // Size: 0x4E
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -23,6 +30,15 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct TrackedDevicePose_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public Valve.VR.HmdMatrix34_t mDeviceToAbsoluteTracking
     // Size: 0x30
     // Offset: 0x0
@@ -59,6 +75,7 @@ namespace Valve::VR {
     bool bDeviceIsConnected;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating value type constructor for type: TrackedDevicePose_t
     constexpr TrackedDevicePose_t(Valve::VR::HmdMatrix34_t mDeviceToAbsoluteTracking_ = {}, Valve::VR::HmdVector3_t vVelocity_ = {}, Valve::VR::HmdVector3_t vAngularVelocity_ = {}, Valve::VR::ETrackingResult eTrackingResult_ = {}, bool bPoseIsValid_ = {}, bool bDeviceIsConnected_ = {}) noexcept : mDeviceToAbsoluteTracking{mDeviceToAbsoluteTracking_}, vVelocity{vVelocity_}, vAngularVelocity{vAngularVelocity_}, eTrackingResult{eTrackingResult_}, bPoseIsValid{bPoseIsValid_}, bDeviceIsConnected{bDeviceIsConnected_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -82,6 +99,4 @@ namespace Valve::VR {
   static check_size<sizeof(TrackedDevicePose_t), 77 + sizeof(bool)> __Valve_VR_TrackedDevicePose_tSizeCheck;
   static_assert(sizeof(TrackedDevicePose_t) == 0x4E);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::TrackedDevicePose_t, "Valve.VR", "TrackedDevicePose_t");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

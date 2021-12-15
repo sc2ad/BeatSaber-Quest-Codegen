@@ -19,6 +19,13 @@ namespace System::Threading {
 // Completed forward declares
 // Type namespace: System.Threading
 namespace System::Threading {
+  // Forward declaring type: ExecutionContextSwitcher
+  struct ExecutionContextSwitcher;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::ExecutionContextSwitcher, "System.Threading", "ExecutionContextSwitcher");
+// Type namespace: System.Threading
+namespace System::Threading {
   // Size: 0x20
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -26,6 +33,15 @@ namespace System::Threading {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ExecutionContextSwitcher/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // System.Threading.ExecutionContext/System.Threading.Reader outerEC
     // Size: 0x8
     // Offset: 0x0
@@ -52,6 +68,7 @@ namespace System::Threading {
     System::Threading::Thread* thread;
     // Field size check
     static_assert(sizeof(System::Threading::Thread*) == 0x8);
+    public:
     // Creating value type constructor for type: ExecutionContextSwitcher
     constexpr ExecutionContextSwitcher(System::Threading::ExecutionContext::Reader outerEC_ = {}, bool outerECBelongsToScope_ = {}, ::Il2CppObject* hecsw_ = {}, System::Threading::Thread* thread_ = {}) noexcept : outerEC{outerEC_}, outerECBelongsToScope{outerECBelongsToScope_}, hecsw{hecsw_}, thread{thread_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -77,8 +94,6 @@ namespace System::Threading {
   static check_size<sizeof(ExecutionContextSwitcher), 24 + sizeof(System::Threading::Thread*)> __System_Threading_ExecutionContextSwitcherSizeCheck;
   static_assert(sizeof(ExecutionContextSwitcher) == 0x20);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::ExecutionContextSwitcher, "System.Threading", "ExecutionContextSwitcher");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::ExecutionContextSwitcher::UndoNoThrow
 // Il2CppName: UndoNoThrow

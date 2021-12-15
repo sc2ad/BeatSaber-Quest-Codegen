@@ -15,10 +15,7 @@
 #include "GlobalNamespace/BitMask128.hpp"
 // Including type: System.Int32
 #include "System/Int32.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -42,6 +39,13 @@ namespace LiteNetLib::Utils {
 // Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
+  // Forward declaring type: SongPackMask
+  struct SongPackMask;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPackMask, "", "SongPackMask");
+// Type namespace: 
+namespace GlobalNamespace {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -50,12 +54,22 @@ namespace GlobalNamespace {
   // [IsReadOnlyAttribute] Offset: FFFFFFFF
   struct SongPackMask/*, public System::ValueType, public LiteNetLib::Utils::INetImmutableSerializable_1<GlobalNamespace::SongPackMask>, public System::IEquatable_1<GlobalNamespace::SongPackMask>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private readonly BitMask128 _bloomFilter
     // Size: 0x10
     // Offset: 0x0
     GlobalNamespace::BitMask128 bloomFilter;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BitMask128) == 0x10);
+    public:
     // Creating value type constructor for type: SongPackMask
     constexpr SongPackMask(GlobalNamespace::BitMask128 bloomFilter_ = {}) noexcept : bloomFilter{bloomFilter_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -105,24 +119,13 @@ namespace GlobalNamespace {
     static GlobalNamespace::SongPackMask get_all();
     // public System.Void .ctor(System.String packId)
     // Offset: 0x2625524
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    SongPackMask(::Il2CppString* packId) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SongPackMask::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(packId)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, packId);
-    }
+    SongPackMask(::Il2CppString* packId);
     // private System.Void .ctor(BitMask128 bloomFilter)
     // Offset: 0x2625590
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    // ABORTED: conflicts with another method.  SongPackMask(GlobalNamespace::BitMask128 bloomFilter)
+    // ABORTED: conflicts with another method.  SongPackMask(GlobalNamespace::BitMask128 bloomFilter);
     // public System.Void .ctor(System.Collections.Generic.IEnumerable`1<System.String> packs)
     // Offset: 0x2625598
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    SongPackMask(System::Collections::Generic::IEnumerable_1<::Il2CppString*>* packs) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SongPackMask::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(packs)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, packs);
-    }
+    SongPackMask(System::Collections::Generic::IEnumerable_1<::Il2CppString*>* packs);
     // public System.Boolean Contains(SongPackMask other)
     // Offset: 0x2625684
     bool Contains(GlobalNamespace::SongPackMask other);
@@ -143,7 +146,7 @@ namespace GlobalNamespace {
     ::Il2CppString* ToShortString();
     // public System.Byte[] ToBytes()
     // Offset: 0x26257F4
-    ::Array<uint8_t>* ToBytes();
+    ::ArrayW<uint8_t> ToBytes();
     // public System.Boolean Equals(SongPackMask other)
     // Offset: 0x2625898
     bool Equals(GlobalNamespace::SongPackMask other);
@@ -155,7 +158,7 @@ namespace GlobalNamespace {
     static GlobalNamespace::SongPackMask Parse(::Il2CppString* stringSerializedMask);
     // static public SongPackMask FromBytes(System.Byte[] bytes, System.Int32 offset)
     // Offset: 0x2625B10
-    static GlobalNamespace::SongPackMask FromBytes(::Array<uint8_t>* bytes, int offset);
+    static GlobalNamespace::SongPackMask FromBytes(::ArrayW<uint8_t> bytes, int offset);
     // public override System.String ToString()
     // Offset: 0x2625718
     // Implemented from: System.ValueType
@@ -188,7 +191,6 @@ namespace GlobalNamespace {
   // Offset: 0x2625640
   bool operator !=(const GlobalNamespace::SongPackMask& a, const GlobalNamespace::SongPackMask& b);
 }
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPackMask, "", "SongPackMask");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SongPackMask::get_all
 // Il2CppName: get_all
@@ -266,7 +268,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::SongPackMask::ToBytes
 // Il2CppName: ToBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (GlobalNamespace::SongPackMask::*)()>(&GlobalNamespace::SongPackMask::ToBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (GlobalNamespace::SongPackMask::*)()>(&GlobalNamespace::SongPackMask::ToBytes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPackMask), "ToBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -302,7 +304,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::SongPackMask::FromBytes
 // Il2CppName: FromBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SongPackMask (*)(::Array<uint8_t>*, int)>(&GlobalNamespace::SongPackMask::FromBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SongPackMask (*)(::ArrayW<uint8_t>, int)>(&GlobalNamespace::SongPackMask::FromBytes)> {
   static const MethodInfo* get() {
     static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

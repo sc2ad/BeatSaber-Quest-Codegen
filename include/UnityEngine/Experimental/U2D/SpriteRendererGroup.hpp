@@ -8,6 +8,14 @@
 // Completed includes
 // Type namespace: UnityEngine.Experimental.U2D
 namespace UnityEngine::Experimental::U2D {
+  // Forward declaring type: SpriteRendererGroup
+  class SpriteRendererGroup;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::Experimental::U2D::SpriteRendererGroup);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::U2D::SpriteRendererGroup*, "UnityEngine.Experimental.U2D", "SpriteRendererGroup");
+// Type namespace: UnityEngine.Experimental.U2D
+namespace UnityEngine::Experimental::U2D {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -17,11 +25,7 @@ namespace UnityEngine::Experimental::U2D {
   // [NativeHeaderAttribute] Offset: EB6FDC
   class SpriteRendererGroup : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: SpriteRendererGroup
-    SpriteRendererGroup() noexcept {}
   }; // UnityEngine.Experimental.U2D.SpriteRendererGroup
   #pragma pack(pop)
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::U2D::SpriteRendererGroup*, "UnityEngine.Experimental.U2D", "SpriteRendererGroup");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

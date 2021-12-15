@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection
@@ -31,9 +32,18 @@ namespace System {
 namespace System::Runtime::Serialization {
   // Forward declaring type: SerializationInfo
   class SerializationInfo;
-  // Skipping declaration: StreamingContext because it is already included!
+  // Forward declaring type: StreamingContext
+  struct StreamingContext;
 }
 // Completed forward declares
+// Type namespace: System.Reflection
+namespace System::Reflection {
+  // Forward declaring type: MonoModule
+  class MonoModule;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Reflection::MonoModule);
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoModule*, "System.Reflection", "MonoModule");
 // Type namespace: System.Reflection
 namespace System::Reflection {
   // Size: 0x40
@@ -45,8 +55,6 @@ namespace System::Reflection {
   // [ComDefaultInterfaceAttribute] Offset: E9F534
   class MonoModule : public System::Reflection::RuntimeModule {
     public:
-    // Creating value type constructor for type: MonoModule
-    MonoModule() noexcept {}
     // System.Reflection.RuntimeAssembly GetRuntimeAssembly()
     // Offset: 0x1E9AC58
     System::Reflection::RuntimeAssembly* GetRuntimeAssembly();
@@ -85,7 +93,7 @@ namespace System::Reflection {
     // Offset: 0x1E9AA9C
     // Implemented from: System.Reflection.Module
     // Base method: System.Object[] Module::GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
-    ::Array<::Il2CppObject*>* GetCustomAttributes(System::Type* attributeType, bool inherit);
+    ::ArrayW<::Il2CppObject*> GetCustomAttributes(System::Type* attributeType, bool inherit);
     // public override System.Boolean IsDefined(System.Type attributeType, System.Boolean inherit)
     // Offset: 0x1E9AB1C
     // Implemented from: System.Reflection.Module
@@ -99,7 +107,6 @@ namespace System::Reflection {
   }; // System.Reflection.MonoModule
   #pragma pack(pop)
 }
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoModule*, "System.Reflection", "MonoModule");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::MonoModule::GetRuntimeAssembly
 // Il2CppName: GetRuntimeAssembly
@@ -148,7 +155,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Reflection::MonoModule::GetCustomAttributes
 // Il2CppName: GetCustomAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (System::Reflection::MonoModule::*)(System::Type*, bool)>(&System::Reflection::MonoModule::GetCustomAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppObject*> (System::Reflection::MonoModule::*)(System::Type*, bool)>(&System::Reflection::MonoModule::GetCustomAttributes)> {
   static const MethodInfo* get() {
     static auto* attributeType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* inherit = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

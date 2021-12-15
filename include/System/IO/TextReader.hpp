@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO
@@ -25,6 +26,14 @@ namespace System {
   class Func_2;
 }
 // Completed forward declares
+// Type namespace: System.IO
+namespace System::IO {
+  // Forward declaring type: TextReader
+  class TextReader;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::IO::TextReader);
+DEFINE_IL2CPP_ARG_TYPE(System::IO::TextReader*, "System.IO", "TextReader");
 // Type namespace: System.IO
 namespace System::IO {
   // Size: 0x18
@@ -40,8 +49,6 @@ namespace System::IO {
     class SyncTextReader;
     // Nested type: System::IO::TextReader::$$c
     class $$c;
-    // Creating value type constructor for type: TextReader
-    TextReader() noexcept {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
@@ -78,7 +85,7 @@ namespace System::IO {
     int Read();
     // public System.Int32 Read(in System.Char[] buffer, System.Int32 index, System.Int32 count)
     // Offset: 0x1A09B00
-    int Read(ByRef<::Array<::Il2CppChar>*> buffer, int index, int count);
+    int Read(ByRef<::ArrayW<::Il2CppChar>> buffer, int index, int count);
     // public System.String ReadToEnd()
     // Offset: 0x1A09D04
     ::Il2CppString* ReadToEnd();
@@ -101,7 +108,6 @@ namespace System::IO {
   }; // System.IO.TextReader
   #pragma pack(pop)
 }
-DEFINE_IL2CPP_ARG_TYPE(System::IO::TextReader*, "System.IO", "TextReader");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::TextReader::_cctor
 // Il2CppName: .cctor
@@ -155,7 +161,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::IO::TextReader::Read
 // Il2CppName: Read
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::TextReader::*)(ByRef<::Array<::Il2CppChar>*>, int, int)>(&System::IO::TextReader::Read)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::TextReader::*)(ByRef<::ArrayW<::Il2CppChar>>, int, int)>(&System::IO::TextReader::Read)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->this_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

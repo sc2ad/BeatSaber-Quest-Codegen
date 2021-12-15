@@ -11,7 +11,16 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: System.Security.Cryptography
+namespace System::Security::Cryptography {
+  // Forward declaring type: SHA256Managed
+  class SHA256Managed;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Security::Cryptography::SHA256Managed);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::SHA256Managed*, "System.Security.Cryptography", "SHA256Managed");
 // Type namespace: System.Security.Cryptography
 namespace System::Security::Cryptography {
   // Size: 0x48
@@ -23,12 +32,21 @@ namespace System::Security::Cryptography {
     public:
     // Writing base type padding for base size: 0x25 to desired offset: 0x28
     char ___base_padding[0x3] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.Byte[] _buffer
     // Size: 0x8
     // Offset: 0x28
-    ::Array<uint8_t>* buffer;
+    ::ArrayW<uint8_t> buffer;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Int64 _count
     // Size: 0x8
     // Offset: 0x30
@@ -38,29 +56,28 @@ namespace System::Security::Cryptography {
     // private System.UInt32[] _stateSHA256
     // Size: 0x8
     // Offset: 0x38
-    ::Array<uint>* stateSHA256;
+    ::ArrayW<uint> stateSHA256;
     // Field size check
-    static_assert(sizeof(::Array<uint>*) == 0x8);
+    static_assert(sizeof(::ArrayW<uint>) == 0x8);
     // private System.UInt32[] _W
     // Size: 0x8
     // Offset: 0x40
-    ::Array<uint>* W;
+    ::ArrayW<uint> W;
     // Field size check
-    static_assert(sizeof(::Array<uint>*) == 0x8);
-    // Creating value type constructor for type: SHA256Managed
-    SHA256Managed(::Array<uint8_t>* buffer_ = {}, int64_t count_ = {}, ::Array<uint>* stateSHA256_ = {}, ::Array<uint>* W_ = {}) noexcept : buffer{buffer_}, count{count_}, stateSHA256{stateSHA256_}, W{W_} {}
+    static_assert(sizeof(::ArrayW<uint>) == 0x8);
+    public:
     // Get static field: static private readonly System.UInt32[] _K
-    static ::Array<uint>* _get__K();
+    static ::ArrayW<uint> _get__K();
     // Set static field: static private readonly System.UInt32[] _K
-    static void _set__K(::Array<uint>* value);
+    static void _set__K(::ArrayW<uint> value);
     // Get instance field reference: private System.Byte[] _buffer
-    ::Array<uint8_t>*& dyn__buffer();
+    ::ArrayW<uint8_t>& dyn__buffer();
     // Get instance field reference: private System.Int64 _count
     int64_t& dyn__count();
     // Get instance field reference: private System.UInt32[] _stateSHA256
-    ::Array<uint>*& dyn__stateSHA256();
+    ::ArrayW<uint>& dyn__stateSHA256();
     // Get instance field reference: private System.UInt32[] _W
-    ::Array<uint>*& dyn__W();
+    ::ArrayW<uint>& dyn__W();
     // static private System.Void .cctor()
     // Offset: 0x1D1CC90
     static void _cctor();
@@ -69,10 +86,10 @@ namespace System::Security::Cryptography {
     void InitializeState();
     // private System.Void _HashData(System.Byte[] partIn, System.Int32 ibStart, System.Int32 cbSize)
     // Offset: 0x1D1C044
-    void _HashData(::Array<uint8_t>* partIn, int ibStart, int cbSize);
+    void _HashData(::ArrayW<uint8_t> partIn, int ibStart, int cbSize);
     // private System.Byte[] _EndHash()
     // Offset: 0x1D1C260
-    ::Array<uint8_t>* _EndHash();
+    ::ArrayW<uint8_t> _EndHash();
     // static private System.Void SHATransform(System.UInt32* expandedBuffer, System.UInt32* state, System.Byte* block)
     // Offset: 0x1D1C41C
     static void SHATransform(uint* expandedBuffer, uint* state, uint8_t* block);
@@ -120,18 +137,17 @@ namespace System::Security::Cryptography {
     // Offset: 0x1D1C040
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Void HashAlgorithm::HashCore(System.Byte[] rgb, System.Int32 ibStart, System.Int32 cbSize)
-    void HashCore(::Array<uint8_t>* rgb, int ibStart, int cbSize);
+    void HashCore(::ArrayW<uint8_t> rgb, int ibStart, int cbSize);
     // protected override System.Byte[] HashFinal()
     // Offset: 0x1D1C25C
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Byte[] HashAlgorithm::HashFinal()
-    ::Array<uint8_t>* HashFinal();
+    ::ArrayW<uint8_t> HashFinal();
   }; // System.Security.Cryptography.SHA256Managed
   #pragma pack(pop)
-  static check_size<sizeof(SHA256Managed), 64 + sizeof(::Array<uint>*)> __System_Security_Cryptography_SHA256ManagedSizeCheck;
+  static check_size<sizeof(SHA256Managed), 64 + sizeof(::ArrayW<uint>)> __System_Security_Cryptography_SHA256ManagedSizeCheck;
   static_assert(sizeof(SHA256Managed) == 0x48);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::SHA256Managed*, "System.Security.Cryptography", "SHA256Managed");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::SHA256Managed::_cctor
 // Il2CppName: .cctor
@@ -152,7 +168,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::SHA256Managed::_HashData
 // Il2CppName: _HashData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::SHA256Managed::*)(::Array<uint8_t>*, int, int)>(&System::Security::Cryptography::SHA256Managed::_HashData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::SHA256Managed::*)(::ArrayW<uint8_t>, int, int)>(&System::Security::Cryptography::SHA256Managed::_HashData)> {
   static const MethodInfo* get() {
     static auto* partIn = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* ibStart = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -163,7 +179,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::SHA256Managed::_EndHash
 // Il2CppName: _EndHash
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (System::Security::Cryptography::SHA256Managed::*)()>(&System::Security::Cryptography::SHA256Managed::_EndHash)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::Security::Cryptography::SHA256Managed::*)()>(&System::Security::Cryptography::SHA256Managed::_EndHash)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SHA256Managed*), "_EndHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -271,7 +287,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::SHA256Managed::HashCore
 // Il2CppName: HashCore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::SHA256Managed::*)(::Array<uint8_t>*, int, int)>(&System::Security::Cryptography::SHA256Managed::HashCore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::SHA256Managed::*)(::ArrayW<uint8_t>, int, int)>(&System::Security::Cryptography::SHA256Managed::HashCore)> {
   static const MethodInfo* get() {
     static auto* rgb = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* ibStart = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -282,7 +298,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::SHA256Managed::HashFinal
 // Il2CppName: HashFinal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (System::Security::Cryptography::SHA256Managed::*)()>(&System::Security::Cryptography::SHA256Managed::HashFinal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::Security::Cryptography::SHA256Managed::*)()>(&System::Security::Cryptography::SHA256Managed::HashFinal)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SHA256Managed*), "HashFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -27,6 +27,13 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine.XR
 namespace UnityEngine::XR {
+  // Forward declaring type: MeshGenerationResult
+  struct MeshGenerationResult;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::MeshGenerationResult, "UnityEngine.XR", "MeshGenerationResult");
+// Type namespace: UnityEngine.XR
+namespace UnityEngine::XR {
   // Size: 0x28
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -36,6 +43,15 @@ namespace UnityEngine::XR {
   // [NativeHeaderAttribute] Offset: EDBCB4
   struct MeshGenerationResult/*, public System::ValueType, public System::IEquatable_1<UnityEngine::XR::MeshGenerationResult>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xEDC0F0
     // private readonly UnityEngine.XR.MeshId <MeshId>k__BackingField
     // Size: 0x10
@@ -71,6 +87,7 @@ namespace UnityEngine::XR {
     UnityEngine::XR::MeshVertexAttributes Attributes;
     // Field size check
     static_assert(sizeof(UnityEngine::XR::MeshVertexAttributes) == 0x4);
+    public:
     // Creating value type constructor for type: MeshGenerationResult
     constexpr MeshGenerationResult(UnityEngine::XR::MeshId MeshId_ = {}, UnityEngine::Mesh* Mesh_ = {}, UnityEngine::MeshCollider* MeshCollider_ = {}, UnityEngine::XR::MeshGenerationStatus Status_ = {}, UnityEngine::XR::MeshVertexAttributes Attributes_ = {}) noexcept : MeshId{MeshId_}, Mesh{Mesh_}, MeshCollider{MeshCollider_}, Status{Status_}, Attributes{Attributes_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -124,8 +141,6 @@ namespace UnityEngine::XR {
   static check_size<sizeof(MeshGenerationResult), 36 + sizeof(UnityEngine::XR::MeshVertexAttributes)> __UnityEngine_XR_MeshGenerationResultSizeCheck;
   static_assert(sizeof(MeshGenerationResult) == 0x28);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::MeshGenerationResult, "UnityEngine.XR", "MeshGenerationResult");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::XR::MeshGenerationResult::get_MeshId
 // Il2CppName: get_MeshId

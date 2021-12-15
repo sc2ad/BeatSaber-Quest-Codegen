@@ -9,6 +9,13 @@
 // Completed includes
 // Type namespace: Valve.VR
 namespace Valve::VR {
+  // Forward declaring type: DriverDirectMode_FrameTiming
+  struct DriverDirectMode_FrameTiming;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::DriverDirectMode_FrameTiming, "Valve.VR", "DriverDirectMode_FrameTiming");
+// Type namespace: Valve.VR
+namespace Valve::VR {
   // Size: 0x14
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -16,6 +23,15 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct DriverDirectMode_FrameTiming/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.UInt32 m_nSize
     // Size: 0x4
     // Offset: 0x0
@@ -46,6 +62,7 @@ namespace Valve::VR {
     uint m_nReprojectionFlags;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
+    public:
     // Creating value type constructor for type: DriverDirectMode_FrameTiming
     constexpr DriverDirectMode_FrameTiming(uint m_nSize_ = {}, uint m_nNumFramePresents_ = {}, uint m_nNumMisPresented_ = {}, uint m_nNumDroppedFrames_ = {}, uint m_nReprojectionFlags_ = {}) noexcept : m_nSize{m_nSize_}, m_nNumFramePresents{m_nNumFramePresents_}, m_nNumMisPresented{m_nNumMisPresented_}, m_nNumDroppedFrames{m_nNumDroppedFrames_}, m_nReprojectionFlags{m_nReprojectionFlags_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -67,6 +84,4 @@ namespace Valve::VR {
   static check_size<sizeof(DriverDirectMode_FrameTiming), 16 + sizeof(uint)> __Valve_VR_DriverDirectMode_FrameTimingSizeCheck;
   static_assert(sizeof(DriverDirectMode_FrameTiming) == 0x14);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::DriverDirectMode_FrameTiming, "Valve.VR", "DriverDirectMode_FrameTiming");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

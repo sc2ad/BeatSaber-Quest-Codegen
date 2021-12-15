@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -28,6 +29,14 @@ namespace System::Threading {
   struct CancellationToken;
 }
 // Completed forward declares
+// Type namespace: 
+namespace GlobalNamespace {
+  // Forward declaring type: TestPlatformAdditionalContentModel
+  class TestPlatformAdditionalContentModel;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(GlobalNamespace::TestPlatformAdditionalContentModel);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TestPlatformAdditionalContentModel*, "", "TestPlatformAdditionalContentModel");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x39
@@ -48,30 +57,38 @@ namespace GlobalNamespace {
     struct $OpenLevelProductStoreAsync$d__8;
     // Nested type: GlobalNamespace::TestPlatformAdditionalContentModel::$OpenLevelPackProductStoreAsync$d__10
     struct $OpenLevelPackProductStoreAsync$d__10;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private TestPlatformAdditionalContentModel/Entitlement[] _levelsEntitlements
     // Size: 0x8
     // Offset: 0x28
-    ::Array<GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*>* levelsEntitlements;
+    ::ArrayW<GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*> levelsEntitlements;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*>*) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*>) == 0x8);
     // private TestPlatformAdditionalContentModel/Entitlement[] _levelPacksEntitlements
     // Size: 0x8
     // Offset: 0x30
-    ::Array<GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*>* levelPacksEntitlements;
+    ::ArrayW<GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*> levelPacksEntitlements;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*>*) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*>) == 0x8);
     // private System.Boolean _packBetterBuyThanLevel
     // Size: 0x1
     // Offset: 0x38
     bool packBetterBuyThanLevel;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: TestPlatformAdditionalContentModel
-    TestPlatformAdditionalContentModel(::Array<GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*>* levelsEntitlements_ = {}, ::Array<GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*>* levelPacksEntitlements_ = {}, bool packBetterBuyThanLevel_ = {}) noexcept : levelsEntitlements{levelsEntitlements_}, levelPacksEntitlements{levelPacksEntitlements_}, packBetterBuyThanLevel{packBetterBuyThanLevel_} {}
+    public:
     // Get instance field reference: private TestPlatformAdditionalContentModel/Entitlement[] _levelsEntitlements
-    ::Array<GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*>*& dyn__levelsEntitlements();
+    ::ArrayW<GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*>& dyn__levelsEntitlements();
     // Get instance field reference: private TestPlatformAdditionalContentModel/Entitlement[] _levelPacksEntitlements
-    ::Array<GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*>*& dyn__levelPacksEntitlements();
+    ::ArrayW<GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*>& dyn__levelPacksEntitlements();
     // Get instance field reference: private System.Boolean _packBetterBuyThanLevel
     bool& dyn__packBetterBuyThanLevel();
     // private System.Void BuyLevel(System.String levelId)
@@ -126,7 +143,6 @@ namespace GlobalNamespace {
   static check_size<sizeof(TestPlatformAdditionalContentModel), 56 + sizeof(bool)> __GlobalNamespace_TestPlatformAdditionalContentModelSizeCheck;
   static_assert(sizeof(TestPlatformAdditionalContentModel) == 0x39);
 }
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TestPlatformAdditionalContentModel*, "", "TestPlatformAdditionalContentModel");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TestPlatformAdditionalContentModel::BuyLevel
 // Il2CppName: BuyLevel

@@ -7,16 +7,18 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
-template<class T>
-struct Array;
 struct Il2CppString;
 // Completed il2cpp-utils forward declares
+// Type namespace: System.Net
+namespace System::Net {
+  // Forward declaring type: IPv6AddressFormatter
+  struct IPv6AddressFormatter;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::IPv6AddressFormatter, "System.Net", "IPv6AddressFormatter");
 // Type namespace: System.Net
 namespace System::Net {
   // Size: 0x10
@@ -26,32 +28,41 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   struct IPv6AddressFormatter/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.UInt16[] address
     // Size: 0x8
     // Offset: 0x0
-    ::Array<uint16_t>* address;
+    ::ArrayW<uint16_t> address;
     // Field size check
-    static_assert(sizeof(::Array<uint16_t>*) == 0x8);
+    static_assert(sizeof(::ArrayW<uint16_t>) == 0x8);
     // private System.Int64 scopeId
     // Size: 0x8
     // Offset: 0x8
     int64_t scopeId;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
+    public:
     // Creating value type constructor for type: IPv6AddressFormatter
-    constexpr IPv6AddressFormatter(::Array<uint16_t>* address_ = {}, int64_t scopeId_ = {}) noexcept : address{address_}, scopeId{scopeId_} {}
+    constexpr IPv6AddressFormatter(::ArrayW<uint16_t> address_ = ::ArrayW<uint16_t>(nullptr), int64_t scopeId_ = {}) noexcept : address{address_}, scopeId{scopeId_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // Get instance field reference: private System.UInt16[] address
-    ::Array<uint16_t>*& dyn_address();
+    ::ArrayW<uint16_t>& dyn_address();
     // Get instance field reference: private System.Int64 scopeId
     int64_t& dyn_scopeId();
     // public System.Void .ctor(System.UInt16[] addr, System.Int64 scopeId)
     // Offset: 0x18B6FF4
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    // ABORTED: conflicts with another method.  IPv6AddressFormatter(::Array<uint16_t>* addr, int64_t scopeId)
+    // ABORTED: conflicts with another method.  IPv6AddressFormatter(::ArrayW<uint16_t> addr, int64_t scopeId);
     // static private System.UInt16 SwapUShort(System.UInt16 number)
     // Offset: 0x18B80C0
     static uint16_t SwapUShort(uint16_t number);
@@ -74,7 +85,6 @@ namespace System::Net {
   static check_size<sizeof(IPv6AddressFormatter), 8 + sizeof(int64_t)> __System_Net_IPv6AddressFormatterSizeCheck;
   static_assert(sizeof(IPv6AddressFormatter) == 0x10);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::Net::IPv6AddressFormatter, "System.Net", "IPv6AddressFormatter");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::IPv6AddressFormatter::IPv6AddressFormatter
 // Il2CppName: .ctor

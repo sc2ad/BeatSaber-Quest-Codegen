@@ -13,6 +13,7 @@
 #include "Valve/VR/EVREventType.hpp"
 // Including type: Valve.VR.VREvent_t
 #include "Valve/VR/VREvent_t.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -41,6 +42,14 @@ namespace UnityEngine::Events {
   class UnityAction;
 }
 // Completed forward declares
+// Type namespace: 
+namespace GlobalNamespace {
+  // Forward declaring type: SteamVR_Events
+  class SteamVR_Events;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(GlobalNamespace::SteamVR_Events);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Events*, "", "SteamVR_Events");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -73,8 +82,6 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::SteamVR_Events::Event_3<T0, T1, T2>
     template<typename T0, typename T1, typename T2>
     class Event_3;
-    // Creating value type constructor for type: SteamVR_Events
-    SteamVR_Events() noexcept {}
     // Get static field: static public SteamVR_Events/Event`1<System.Boolean> Calibrating
     static GlobalNamespace::SteamVR_Events::Event_1<bool>* _get_Calibrating();
     // Set static field: static public SteamVR_Events/Event`1<System.Boolean> Calibrating
@@ -116,9 +123,9 @@ namespace GlobalNamespace {
     // Set static field: static public SteamVR_Events/Event`1<System.Single> LoadingFadeOut
     static void _set_LoadingFadeOut(GlobalNamespace::SteamVR_Events::Event_1<float>* value);
     // Get static field: static public SteamVR_Events/Event`1<Valve.VR.TrackedDevicePose_t[]> NewPoses
-    static GlobalNamespace::SteamVR_Events::Event_1<::Array<Valve::VR::TrackedDevicePose_t>*>* _get_NewPoses();
+    static GlobalNamespace::SteamVR_Events::Event_1<::ArrayW<Valve::VR::TrackedDevicePose_t>>* _get_NewPoses();
     // Set static field: static public SteamVR_Events/Event`1<Valve.VR.TrackedDevicePose_t[]> NewPoses
-    static void _set_NewPoses(GlobalNamespace::SteamVR_Events::Event_1<::Array<Valve::VR::TrackedDevicePose_t>*>* value);
+    static void _set_NewPoses(GlobalNamespace::SteamVR_Events::Event_1<::ArrayW<Valve::VR::TrackedDevicePose_t>>* value);
     // Get static field: static public SteamVR_Events/Event NewPosesApplied
     static GlobalNamespace::SteamVR_Events::Event* _get_NewPosesApplied();
     // Set static field: static public SteamVR_Events/Event NewPosesApplied
@@ -170,7 +177,7 @@ namespace GlobalNamespace {
     static GlobalNamespace::SteamVR_Events::Action* LoadingFadeOutAction(UnityEngine::Events::UnityAction_1<float>* action);
     // static public SteamVR_Events/Action NewPosesAction(UnityEngine.Events.UnityAction`1<Valve.VR.TrackedDevicePose_t[]> action)
     // Offset: 0x15BA1E4
-    static GlobalNamespace::SteamVR_Events::Action* NewPosesAction(UnityEngine::Events::UnityAction_1<::Array<Valve::VR::TrackedDevicePose_t>*>* action);
+    static GlobalNamespace::SteamVR_Events::Action* NewPosesAction(UnityEngine::Events::UnityAction_1<::ArrayW<Valve::VR::TrackedDevicePose_t>>* action);
     // static public SteamVR_Events/Action NewPosesAppliedAction(UnityEngine.Events.UnityAction action)
     // Offset: 0x15BA288
     static GlobalNamespace::SteamVR_Events::Action* NewPosesAppliedAction(UnityEngine::Events::UnityAction* action);
@@ -189,8 +196,6 @@ namespace GlobalNamespace {
   }; // SteamVR_Events
   #pragma pack(pop)
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Events*, "", "SteamVR_Events");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Events::_cctor
 // Il2CppName: .cctor
@@ -293,7 +298,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Events::NewPosesAction
 // Il2CppName: NewPosesAction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_Events::Action* (*)(UnityEngine::Events::UnityAction_1<::Array<Valve::VR::TrackedDevicePose_t>*>*)>(&GlobalNamespace::SteamVR_Events::NewPosesAction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_Events::Action* (*)(UnityEngine::Events::UnityAction_1<::ArrayW<Valve::VR::TrackedDevicePose_t>>*)>(&GlobalNamespace::SteamVR_Events::NewPosesAction)> {
   static const MethodInfo* get() {
     static auto* action = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("UnityEngine.Events", "UnityAction`1"), ::std::vector<const Il2CppClass*>{il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Valve.VR", "TrackedDevicePose_t"), 1)})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Events*), "NewPosesAction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{action});

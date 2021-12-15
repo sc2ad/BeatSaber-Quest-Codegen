@@ -10,6 +10,13 @@
 // Completed includes
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {
+  // Forward declaring type: IntervalTreeNode
+  struct IntervalTreeNode;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::IntervalTreeNode, "UnityEngine.Timeline", "IntervalTreeNode");
+// Type namespace: UnityEngine.Timeline
+namespace UnityEngine::Timeline {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -17,6 +24,15 @@ namespace UnityEngine::Timeline {
   // [TokenAttribute] Offset: FFFFFFFF
   struct IntervalTreeNode/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.Int64 center
     // Size: 0x8
     // Offset: 0x0
@@ -47,6 +63,7 @@ namespace UnityEngine::Timeline {
     int right;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: IntervalTreeNode
     constexpr IntervalTreeNode(int64_t center_ = {}, int first_ = {}, int last_ = {}, int left_ = {}, int right_ = {}) noexcept : center{center_}, first{first_}, last{last_}, left{left_}, right{right_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -68,6 +85,4 @@ namespace UnityEngine::Timeline {
   static check_size<sizeof(IntervalTreeNode), 20 + sizeof(int)> __UnityEngine_Timeline_IntervalTreeNodeSizeCheck;
   static_assert(sizeof(IntervalTreeNode) == 0x18);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::IntervalTreeNode, "UnityEngine.Timeline", "IntervalTreeNode");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

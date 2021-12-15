@@ -44,6 +44,14 @@ namespace System::Runtime::Remoting::Messaging {
 // Completed forward declares
 // Type namespace: System.Runtime.Remoting.Messaging
 namespace System::Runtime::Remoting::Messaging {
+  // Forward declaring type: AsyncResult
+  class AsyncResult;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Runtime::Remoting::Messaging::AsyncResult);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::AsyncResult*, "System.Runtime.Remoting.Messaging", "AsyncResult");
+// Type namespace: System.Runtime.Remoting.Messaging
+namespace System::Runtime::Remoting::Messaging {
   // Size: 0x80
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -52,6 +60,15 @@ namespace System::Runtime::Remoting::Messaging {
   // [ComVisibleAttribute] Offset: EA1618
   class AsyncResult : public ::Il2CppObject/*, public System::IAsyncResult, public System::Threading::IThreadPoolWorkItem, public System::Runtime::Remoting::Messaging::IMessageSink*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.Object async_state
     // Size: 0x8
     // Offset: 0x10
@@ -150,8 +167,7 @@ namespace System::Runtime::Remoting::Messaging {
     System::Threading::WaitCallback* orig_cb;
     // Field size check
     static_assert(sizeof(System::Threading::WaitCallback*) == 0x8);
-    // Creating value type constructor for type: AsyncResult
-    AsyncResult(::Il2CppObject* async_state_ = {}, System::Threading::WaitHandle* handle_ = {}, ::Il2CppObject* async_delegate_ = {}, System::IntPtr data_ = {}, ::Il2CppObject* object_data_ = {}, bool sync_completed_ = {}, bool completed_ = {}, bool endinvoke_called_ = {}, ::Il2CppObject* async_callback_ = {}, System::Threading::ExecutionContext* current_ = {}, System::Threading::ExecutionContext* original_ = {}, int64_t add_time_ = {}, System::Runtime::Remoting::Messaging::MonoMethodMessage* call_message_ = {}, System::Runtime::Remoting::Messaging::IMessageCtrl* message_ctrl_ = {}, System::Runtime::Remoting::Messaging::IMessage* reply_message_ = {}, System::Threading::WaitCallback* orig_cb_ = {}) noexcept : async_state{async_state_}, handle{handle_}, async_delegate{async_delegate_}, data{data_}, object_data{object_data_}, sync_completed{sync_completed_}, completed{completed_}, endinvoke_called{endinvoke_called_}, async_callback{async_callback_}, current{current_}, original{original_}, add_time{add_time_}, call_message{call_message_}, message_ctrl{message_ctrl_}, reply_message{reply_message_}, orig_cb{orig_cb_} {}
+    public:
     // Creating interface conversion operator: operator System::IAsyncResult
     operator System::IAsyncResult() noexcept {
       return *reinterpret_cast<System::IAsyncResult*>(this);
@@ -287,7 +303,6 @@ namespace System::Runtime::Remoting::Messaging {
   static check_size<sizeof(AsyncResult), 120 + sizeof(System::Threading::WaitCallback*)> __System_Runtime_Remoting_Messaging_AsyncResultSizeCheck;
   static_assert(sizeof(AsyncResult) == 0x80);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::AsyncResult*, "System.Runtime.Remoting.Messaging", "AsyncResult");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::AsyncResult::get_AsyncState
 // Il2CppName: get_AsyncState

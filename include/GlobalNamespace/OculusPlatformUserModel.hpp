@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -33,6 +34,14 @@ namespace System::Collections::Generic {
   class IReadOnlyList_1;
 }
 // Completed forward declares
+// Type namespace: 
+namespace GlobalNamespace {
+  // Forward declaring type: OculusPlatformUserModel
+  class OculusPlatformUserModel;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(GlobalNamespace::OculusPlatformUserModel);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformUserModel*, "", "OculusPlatformUserModel");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -59,26 +68,34 @@ namespace GlobalNamespace {
     class $$c__DisplayClass5_1;
     // Nested type: GlobalNamespace::OculusPlatformUserModel::$GetUserNamesForUserIds$d__5
     struct $GetUserNamesForUserIds$d__5;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.String[] _friendsUserIds
     // Size: 0x8
     // Offset: 0x10
-    ::Array<::Il2CppString*>* friendsUserIds;
+    ::ArrayW<::Il2CppString*> friendsUserIds;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // private UserInfo _userInfo
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::UserInfo* userInfo;
     // Field size check
     static_assert(sizeof(GlobalNamespace::UserInfo*) == 0x8);
-    // Creating value type constructor for type: OculusPlatformUserModel
-    OculusPlatformUserModel(::Array<::Il2CppString*>* friendsUserIds_ = {}, GlobalNamespace::UserInfo* userInfo_ = {}) noexcept : friendsUserIds{friendsUserIds_}, userInfo{userInfo_} {}
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IPlatformUserModel
     operator GlobalNamespace::IPlatformUserModel() noexcept {
       return *reinterpret_cast<GlobalNamespace::IPlatformUserModel*>(this);
     }
     // Get instance field reference: private System.String[] _friendsUserIds
-    ::Array<::Il2CppString*>*& dyn__friendsUserIds();
+    ::ArrayW<::Il2CppString*>& dyn__friendsUserIds();
     // Get instance field reference: private UserInfo _userInfo
     GlobalNamespace::UserInfo*& dyn__userInfo();
     // public System.Threading.Tasks.Task`1<UserInfo> GetUserInfo()
@@ -107,7 +124,6 @@ namespace GlobalNamespace {
   static check_size<sizeof(OculusPlatformUserModel), 24 + sizeof(GlobalNamespace::UserInfo*)> __GlobalNamespace_OculusPlatformUserModelSizeCheck;
   static_assert(sizeof(OculusPlatformUserModel) == 0x20);
 }
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformUserModel*, "", "OculusPlatformUserModel");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OculusPlatformUserModel::GetUserInfo
 // Il2CppName: GetUserInfo

@@ -14,6 +14,13 @@ struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: RectInt
+  struct RectInt;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RectInt, "UnityEngine", "RectInt");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -22,6 +29,15 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: EB2F40
   struct RectInt/*, public System::ValueType, public System::IEquatable_1<UnityEngine::RectInt>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.Int32 m_XMin
     // Size: 0x4
     // Offset: 0x0
@@ -46,6 +62,7 @@ namespace UnityEngine {
     int m_Height;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: RectInt
     constexpr RectInt(int m_XMin_ = {}, int m_YMin_ = {}, int m_Width_ = {}, int m_Height_ = {}) noexcept : m_XMin{m_XMin_}, m_YMin{m_YMin_}, m_Width{m_Width_}, m_Height{m_Height_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -89,8 +106,6 @@ namespace UnityEngine {
   static check_size<sizeof(RectInt), 12 + sizeof(int)> __UnityEngine_RectIntSizeCheck;
   static_assert(sizeof(RectInt) == 0x10);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RectInt, "UnityEngine", "RectInt");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::RectInt::get_x
 // Il2CppName: get_x

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -14,9 +15,15 @@ namespace System {
 // Completed forward declares
 // Begin il2cpp-utils forward declares
 struct Il2CppObject;
-template<class T>
-struct Array;
 // Completed il2cpp-utils forward declares
+// Type namespace: System.Reflection
+namespace System::Reflection {
+  // Forward declaring type: ICustomAttributeProvider
+  class ICustomAttributeProvider;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Reflection::ICustomAttributeProvider);
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::ICustomAttributeProvider*, "System.Reflection", "ICustomAttributeProvider");
 // Type namespace: System.Reflection
 namespace System::Reflection {
   // Size: 0x10
@@ -26,24 +33,20 @@ namespace System::Reflection {
   // [ComVisibleAttribute] Offset: E9EC4C
   class ICustomAttributeProvider {
     public:
-    // Creating value type constructor for type: ICustomAttributeProvider
-    ICustomAttributeProvider() noexcept {}
     // public System.Object[] GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
     // Offset: 0xFFFFFFFF
-    ::Array<::Il2CppObject*>* GetCustomAttributes(System::Type* attributeType, bool inherit);
+    ::ArrayW<::Il2CppObject*> GetCustomAttributes(System::Type* attributeType, bool inherit);
     // public System.Boolean IsDefined(System.Type attributeType, System.Boolean inherit)
     // Offset: 0xFFFFFFFF
     bool IsDefined(System::Type* attributeType, bool inherit);
   }; // System.Reflection.ICustomAttributeProvider
   #pragma pack(pop)
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::ICustomAttributeProvider*, "System.Reflection", "ICustomAttributeProvider");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::ICustomAttributeProvider::GetCustomAttributes
 // Il2CppName: GetCustomAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (System::Reflection::ICustomAttributeProvider::*)(System::Type*, bool)>(&System::Reflection::ICustomAttributeProvider::GetCustomAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppObject*> (System::Reflection::ICustomAttributeProvider::*)(System::Type*, bool)>(&System::Reflection::ICustomAttributeProvider::GetCustomAttributes)> {
   static const MethodInfo* get() {
     static auto* attributeType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* inherit = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

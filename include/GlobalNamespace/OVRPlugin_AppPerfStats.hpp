@@ -13,7 +13,15 @@
 #include "GlobalNamespace/OVRPlugin_AppPerfFrameStats.hpp"
 // Including type: OVRPlugin/Bool
 #include "GlobalNamespace/OVRPlugin_Bool.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: 
+namespace GlobalNamespace {
+  // Forward declaring type: AppPerfStats
+  struct AppPerfStats;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::AppPerfStats, "", "OVRPlugin/AppPerfStats");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x14
@@ -23,12 +31,21 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct OVRPlugin::AppPerfStats/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public OVRPlugin/AppPerfFrameStats[] FrameStats
     // Size: 0x8
     // Offset: 0x0
-    ::Array<GlobalNamespace::OVRPlugin::AppPerfFrameStats>* FrameStats;
+    ::ArrayW<GlobalNamespace::OVRPlugin::AppPerfFrameStats> FrameStats;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::OVRPlugin::AppPerfFrameStats>*) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::OVRPlugin::AppPerfFrameStats>) == 0x8);
     // public System.Int32 FrameStatsCount
     // Size: 0x4
     // Offset: 0x8
@@ -47,14 +64,15 @@ namespace GlobalNamespace {
     float AdaptiveGpuPerformanceScale;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: AppPerfStats
-    constexpr AppPerfStats(::Array<GlobalNamespace::OVRPlugin::AppPerfFrameStats>* FrameStats_ = {}, int FrameStatsCount_ = {}, GlobalNamespace::OVRPlugin::Bool AnyFrameStatsDropped_ = {}, float AdaptiveGpuPerformanceScale_ = {}) noexcept : FrameStats{FrameStats_}, FrameStatsCount{FrameStatsCount_}, AnyFrameStatsDropped{AnyFrameStatsDropped_}, AdaptiveGpuPerformanceScale{AdaptiveGpuPerformanceScale_} {}
+    constexpr AppPerfStats(::ArrayW<GlobalNamespace::OVRPlugin::AppPerfFrameStats> FrameStats_ = ::ArrayW<GlobalNamespace::OVRPlugin::AppPerfFrameStats>(nullptr), int FrameStatsCount_ = {}, GlobalNamespace::OVRPlugin::Bool AnyFrameStatsDropped_ = {}, float AdaptiveGpuPerformanceScale_ = {}) noexcept : FrameStats{FrameStats_}, FrameStatsCount{FrameStatsCount_}, AnyFrameStatsDropped{AnyFrameStatsDropped_}, AdaptiveGpuPerformanceScale{AdaptiveGpuPerformanceScale_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // Get instance field reference: public OVRPlugin/AppPerfFrameStats[] FrameStats
-    ::Array<GlobalNamespace::OVRPlugin::AppPerfFrameStats>*& dyn_FrameStats();
+    ::ArrayW<GlobalNamespace::OVRPlugin::AppPerfFrameStats>& dyn_FrameStats();
     // Get instance field reference: public System.Int32 FrameStatsCount
     int& dyn_FrameStatsCount();
     // Get instance field reference: public OVRPlugin/Bool AnyFrameStatsDropped
@@ -66,6 +84,4 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRPlugin::AppPerfStats), 16 + sizeof(float)> __GlobalNamespace_OVRPlugin_AppPerfStatsSizeCheck;
   static_assert(sizeof(OVRPlugin::AppPerfStats) == 0x14);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::AppPerfStats, "", "OVRPlugin/AppPerfStats");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

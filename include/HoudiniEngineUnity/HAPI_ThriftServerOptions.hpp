@@ -9,6 +9,13 @@
 // Completed includes
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
+  // Forward declaring type: HAPI_ThriftServerOptions
+  struct HAPI_ThriftServerOptions;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_ThriftServerOptions, "HoudiniEngineUnity", "HAPI_ThriftServerOptions");
+// Type namespace: HoudiniEngineUnity
+namespace HoudiniEngineUnity {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -16,6 +23,15 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HAPI_ThriftServerOptions/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.Boolean autoClose
     // Size: 0x1
     // Offset: 0x0
@@ -30,6 +46,7 @@ namespace HoudiniEngineUnity {
     float timeoutMs;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: HAPI_ThriftServerOptions
     constexpr HAPI_ThriftServerOptions(bool autoClose_ = {}, float timeoutMs_ = {}) noexcept : autoClose{autoClose_}, timeoutMs{timeoutMs_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -45,6 +62,4 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HAPI_ThriftServerOptions), 4 + sizeof(float)> __HoudiniEngineUnity_HAPI_ThriftServerOptionsSizeCheck;
   static_assert(sizeof(HAPI_ThriftServerOptions) == 0x8);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_ThriftServerOptions, "HoudiniEngineUnity", "HAPI_ThriftServerOptions");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

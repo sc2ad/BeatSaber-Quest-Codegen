@@ -11,10 +11,6 @@
 #include "System/IEquatable_1.hpp"
 // Including type: System.Single
 #include "System/Single.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -23,6 +19,13 @@ namespace UnityEngine {
   struct Vector3;
 }
 // Completed forward declares
+// Type namespace: UnityEngine
+namespace UnityEngine {
+  // Forward declaring type: Vector2
+  struct Vector2;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Vector2, "UnityEngine", "Vector2");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x8
@@ -35,6 +38,15 @@ namespace UnityEngine {
   // [NativeClassAttribute] Offset: EB4448
   struct Vector2/*, public System::ValueType, public System::IEquatable_1<UnityEngine::Vector2>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.Single x
     // Size: 0x4
     // Offset: 0x0
@@ -47,6 +59,7 @@ namespace UnityEngine {
     float y;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: Vector2
     constexpr Vector2(float x_ = {}, float y_ = {}) noexcept : x{x_}, y{y_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -134,8 +147,7 @@ namespace UnityEngine {
     static UnityEngine::Vector2 get_right();
     // public System.Void .ctor(System.Single x, System.Single y)
     // Offset: 0x243B52C
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    // ABORTED: conflicts with another method.  Vector2(float x, float y)
+    // ABORTED: conflicts with another method.  Vector2(float x, float y);
     // static private System.Void .cctor()
     // Offset: 0x243C108
     static void _cctor();
@@ -222,7 +234,6 @@ namespace UnityEngine {
   // Offset: 0x243BF24
   bool operator !=(const UnityEngine::Vector2& lhs, const UnityEngine::Vector2& rhs);
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Vector2, "UnityEngine", "Vector2");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Vector2::get_Item
 // Il2CppName: get_Item

@@ -11,11 +11,14 @@
 #include "System/ValueType.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
+// Type namespace: TMPro
+namespace TMPro {
+  // Forward declaring type: LineSegment
+  struct LineSegment;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_TextUtilities::LineSegment, "TMPro", "TMP_TextUtilities/LineSegment");
 // Type namespace: TMPro
 namespace TMPro {
   // Size: 0x18
@@ -25,6 +28,15 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   struct TMP_TextUtilities::LineSegment/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public UnityEngine.Vector3 Point1
     // Size: 0xC
     // Offset: 0x0
@@ -37,6 +49,7 @@ namespace TMPro {
     UnityEngine::Vector3 Point2;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    public:
     // Creating value type constructor for type: LineSegment
     constexpr LineSegment(UnityEngine::Vector3 Point1_ = {}, UnityEngine::Vector3 Point2_ = {}) noexcept : Point1{Point1_}, Point2{Point2_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -49,14 +62,12 @@ namespace TMPro {
     UnityEngine::Vector3& dyn_Point2();
     // public System.Void .ctor(UnityEngine.Vector3 p1, UnityEngine.Vector3 p2)
     // Offset: 0x1636AD8
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    // ABORTED: conflicts with another method.  LineSegment(UnityEngine::Vector3 p1, UnityEngine::Vector3 p2)
+    // ABORTED: conflicts with another method.  LineSegment(UnityEngine::Vector3 p1, UnityEngine::Vector3 p2);
   }; // TMPro.TMP_TextUtilities/TMPro.LineSegment
   #pragma pack(pop)
   static check_size<sizeof(TMP_TextUtilities::LineSegment), 12 + sizeof(UnityEngine::Vector3)> __TMPro_TMP_TextUtilities_LineSegmentSizeCheck;
   static_assert(sizeof(TMP_TextUtilities::LineSegment) == 0x18);
 }
-DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_TextUtilities::LineSegment, "TMPro", "TMP_TextUtilities/LineSegment");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_TextUtilities::LineSegment::LineSegment
 // Il2CppName: .ctor

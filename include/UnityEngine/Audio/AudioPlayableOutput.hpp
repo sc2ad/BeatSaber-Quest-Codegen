@@ -3,7 +3,6 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
@@ -11,10 +10,6 @@
 #include "UnityEngine/Playables/IPlayableOutput.hpp"
 // Including type: UnityEngine.Playables.PlayableOutputHandle
 #include "UnityEngine/Playables/PlayableOutputHandle.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Playables
@@ -30,6 +25,16 @@ namespace UnityEngine {
   class AudioSource;
 }
 // Completed forward declares
+// Begin il2cpp-utils forward declares
+struct Il2CppString;
+// Completed il2cpp-utils forward declares
+// Type namespace: UnityEngine.Audio
+namespace UnityEngine::Audio {
+  // Forward declaring type: AudioPlayableOutput
+  struct AudioPlayableOutput;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Audio::AudioPlayableOutput, "UnityEngine.Audio", "AudioPlayableOutput");
 // Type namespace: UnityEngine.Audio
 namespace UnityEngine::Audio {
   // Size: 0xC
@@ -44,12 +49,22 @@ namespace UnityEngine::Audio {
   // [NativeHeaderAttribute] Offset: EE1734
   struct AudioPlayableOutput/*, public System::ValueType, public UnityEngine::Playables::IPlayableOutput*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private UnityEngine.Playables.PlayableOutputHandle m_Handle
     // Size: 0xC
     // Offset: 0x0
     UnityEngine::Playables::PlayableOutputHandle m_Handle;
     // Field size check
     static_assert(sizeof(UnityEngine::Playables::PlayableOutputHandle) == 0xC);
+    public:
     // Creating value type constructor for type: AudioPlayableOutput
     constexpr AudioPlayableOutput(UnityEngine::Playables::PlayableOutputHandle m_Handle_ = {}) noexcept : m_Handle{m_Handle_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -71,8 +86,7 @@ namespace UnityEngine::Audio {
     static UnityEngine::Audio::AudioPlayableOutput get_Null();
     // System.Void .ctor(UnityEngine.Playables.PlayableOutputHandle handle)
     // Offset: 0x26B09B8
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    // ABORTED: conflicts with another method.  AudioPlayableOutput(UnityEngine::Playables::PlayableOutputHandle handle)
+    // ABORTED: conflicts with another method.  AudioPlayableOutput(UnityEngine::Playables::PlayableOutputHandle handle);
     // static public UnityEngine.Audio.AudioPlayableOutput Create(UnityEngine.Playables.PlayableGraph graph, System.String name, UnityEngine.AudioSource target)
     // Offset: 0x26B07EC
     static UnityEngine::Audio::AudioPlayableOutput Create(UnityEngine::Playables::PlayableGraph graph, ::Il2CppString* name, UnityEngine::AudioSource* target);
@@ -99,7 +113,6 @@ namespace UnityEngine::Audio {
   static check_size<sizeof(AudioPlayableOutput), 0 + sizeof(UnityEngine::Playables::PlayableOutputHandle)> __UnityEngine_Audio_AudioPlayableOutputSizeCheck;
   static_assert(sizeof(AudioPlayableOutput) == 0xC);
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Audio::AudioPlayableOutput, "UnityEngine.Audio", "AudioPlayableOutput");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Audio::AudioPlayableOutput::get_Null
 // Il2CppName: get_Null

@@ -6,14 +6,17 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct Il2CppObject;
 // Completed il2cpp-utils forward declares
+// Type namespace: System.Collections
+namespace System::Collections {
+  // Forward declaring type: DictionaryEntry
+  struct DictionaryEntry;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Collections::DictionaryEntry, "System.Collections", "DictionaryEntry");
 // Type namespace: System.Collections
 namespace System::Collections {
   // Size: 0x10
@@ -23,6 +26,15 @@ namespace System::Collections {
   // [TokenAttribute] Offset: FFFFFFFF
   struct DictionaryEntry/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.Object _key
     // Size: 0x8
     // Offset: 0x0
@@ -35,6 +47,7 @@ namespace System::Collections {
     ::Il2CppObject* value;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
+    public:
     // Creating value type constructor for type: DictionaryEntry
     constexpr DictionaryEntry(::Il2CppObject* key_ = {}, ::Il2CppObject* value_ = {}) noexcept : key{key_}, value{value_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -53,14 +66,12 @@ namespace System::Collections {
     ::Il2CppObject* get_Value();
     // public System.Void .ctor(System.Object key, System.Object value)
     // Offset: 0x199E1B8
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    // ABORTED: conflicts with another method.  DictionaryEntry(::Il2CppObject* key, ::Il2CppObject* value)
+    // ABORTED: conflicts with another method.  DictionaryEntry(::Il2CppObject* key, ::Il2CppObject* value);
   }; // System.Collections.DictionaryEntry
   #pragma pack(pop)
   static check_size<sizeof(DictionaryEntry), 8 + sizeof(::Il2CppObject*)> __System_Collections_DictionaryEntrySizeCheck;
   static_assert(sizeof(DictionaryEntry) == 0x10);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::Collections::DictionaryEntry, "System.Collections", "DictionaryEntry");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::DictionaryEntry::get_Key
 // Il2CppName: get_Key

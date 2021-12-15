@@ -9,6 +9,13 @@
 // Completed includes
 // Type namespace: NetEase.Docker
 namespace NetEase::Docker {
+  // Forward declaring type: LogoutData
+  struct LogoutData;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::LogoutData, "NetEase.Docker", "LogoutData");
+// Type namespace: NetEase.Docker
+namespace NetEase::Docker {
   // Size: 0x4
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -16,6 +23,15 @@ namespace NetEase::Docker {
   // [TokenAttribute] Offset: FFFFFFFF
   struct LogoutData/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xF2E864
     // private System.Int32 <LogoutCode>k__BackingField
     // Size: 0x4
@@ -23,6 +39,7 @@ namespace NetEase::Docker {
     int LogoutCode;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: LogoutData
     constexpr LogoutData(int LogoutCode_ = {}) noexcept : LogoutCode{LogoutCode_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -43,8 +60,6 @@ namespace NetEase::Docker {
   static check_size<sizeof(LogoutData), 0 + sizeof(int)> __NetEase_Docker_LogoutDataSizeCheck;
   static_assert(sizeof(LogoutData) == 0x4);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::LogoutData, "NetEase.Docker", "LogoutData");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NetEase::Docker::LogoutData::set_LogoutCode
 // Il2CppName: set_LogoutCode

@@ -11,7 +11,16 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: HMUI
+namespace HMUI {
+  // Forward declaring type: ScrollViewItemForVisibilityController
+  class ScrollViewItemForVisibilityController;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(HMUI::ScrollViewItemForVisibilityController);
+DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollViewItemForVisibilityController*, "HMUI", "ScrollViewItemForVisibilityController");
 // Type namespace: HMUI
 namespace HMUI {
   // Size: 0x18
@@ -21,11 +30,9 @@ namespace HMUI {
   // [RequireComponent] Offset: F243BC
   class ScrollViewItemForVisibilityController : public UnityEngine::MonoBehaviour {
     public:
-    // Creating value type constructor for type: ScrollViewItemForVisibilityController
-    ScrollViewItemForVisibilityController() noexcept {}
     // public System.Void GetWorldCorners(UnityEngine.Vector3[] fourCornersArray)
     // Offset: 0x14CA2AC
-    void GetWorldCorners(::Array<UnityEngine::Vector3>* fourCornersArray);
+    void GetWorldCorners(::ArrayW<UnityEngine::Vector3> fourCornersArray);
     // public System.Void .ctor()
     // Offset: 0x14CA31C
     // Implemented from: UnityEngine.MonoBehaviour
@@ -42,12 +49,11 @@ namespace HMUI {
   }; // HMUI.ScrollViewItemForVisibilityController
   #pragma pack(pop)
 }
-DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollViewItemForVisibilityController*, "HMUI", "ScrollViewItemForVisibilityController");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::ScrollViewItemForVisibilityController::GetWorldCorners
 // Il2CppName: GetWorldCorners
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ScrollViewItemForVisibilityController::*)(::Array<UnityEngine::Vector3>*)>(&HMUI::ScrollViewItemForVisibilityController::GetWorldCorners)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ScrollViewItemForVisibilityController::*)(::ArrayW<UnityEngine::Vector3>)>(&HMUI::ScrollViewItemForVisibilityController::GetWorldCorners)> {
   static const MethodInfo* get() {
     static auto* fourCornersArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::ScrollViewItemForVisibilityController*), "GetWorldCorners", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fourCornersArray});

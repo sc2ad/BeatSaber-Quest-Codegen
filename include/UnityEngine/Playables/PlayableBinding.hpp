@@ -6,6 +6,7 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Playables
@@ -28,9 +29,14 @@ namespace System {
 // Completed forward declares
 // Begin il2cpp-utils forward declares
 struct Il2CppString;
-template<class T>
-struct Array;
 // Completed il2cpp-utils forward declares
+// Type namespace: UnityEngine.Playables
+namespace UnityEngine::Playables {
+  // Forward declaring type: PlayableBinding
+  struct PlayableBinding;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableBinding, "UnityEngine.Playables", "PlayableBinding");
 // Type namespace: UnityEngine.Playables
 namespace UnityEngine::Playables {
   // Size: 0x20
@@ -42,6 +48,15 @@ namespace UnityEngine::Playables {
     public:
     // Nested type: UnityEngine::Playables::PlayableBinding::CreateOutputMethod
     class CreateOutputMethod;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.String m_StreamName
     // Size: 0x8
     // Offset: 0x0
@@ -66,6 +81,7 @@ namespace UnityEngine::Playables {
     UnityEngine::Playables::PlayableBinding::CreateOutputMethod* m_CreateOutputMethod;
     // Field size check
     static_assert(sizeof(UnityEngine::Playables::PlayableBinding::CreateOutputMethod*) == 0x8);
+    public:
     // Creating value type constructor for type: PlayableBinding
     constexpr PlayableBinding(::Il2CppString* m_StreamName_ = {}, UnityEngine::Object* m_SourceObject_ = {}, System::Type* m_SourceBindingType_ = {}, UnityEngine::Playables::PlayableBinding::CreateOutputMethod* m_CreateOutputMethod_ = {}) noexcept : m_StreamName{m_StreamName_}, m_SourceObject{m_SourceObject_}, m_SourceBindingType{m_SourceBindingType_}, m_CreateOutputMethod{m_CreateOutputMethod_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -73,9 +89,9 @@ namespace UnityEngine::Playables {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // Get static field: static public readonly UnityEngine.Playables.PlayableBinding[] None
-    static ::Array<UnityEngine::Playables::PlayableBinding>* _get_None();
+    static ::ArrayW<UnityEngine::Playables::PlayableBinding> _get_None();
     // Set static field: static public readonly UnityEngine.Playables.PlayableBinding[] None
-    static void _set_None(::Array<UnityEngine::Playables::PlayableBinding>* value);
+    static void _set_None(::ArrayW<UnityEngine::Playables::PlayableBinding> value);
     // Get static field: static public readonly System.Double DefaultDuration
     static double _get_DefaultDuration();
     // Set static field: static public readonly System.Double DefaultDuration
@@ -108,8 +124,6 @@ namespace UnityEngine::Playables {
   static check_size<sizeof(PlayableBinding), 24 + sizeof(UnityEngine::Playables::PlayableBinding::CreateOutputMethod*)> __UnityEngine_Playables_PlayableBindingSizeCheck;
   static_assert(sizeof(PlayableBinding) == 0x20);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableBinding, "UnityEngine.Playables", "PlayableBinding");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableBinding::get_streamName
 // Il2CppName: get_streamName

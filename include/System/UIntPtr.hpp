@@ -9,10 +9,6 @@
 #include "System/ValueType.hpp"
 // Including type: System.Runtime.Serialization.ISerializable
 #include "System/Runtime/Serialization/ISerializable.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization
@@ -29,6 +25,13 @@ struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: System
 namespace System {
+  // Forward declaring type: UIntPtr
+  struct UIntPtr;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::UIntPtr, "System", "UIntPtr");
+// Type namespace: System
+namespace System {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -38,12 +41,22 @@ namespace System {
   // [CLSCompliantAttribute] Offset: E9E408
   struct UIntPtr/*, public System::ValueType, public System::Runtime::Serialization::ISerializable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.Void* _pointer
     // Size: 0x8
     // Offset: 0x0
     void* pointer;
     // Field size check
     static_assert(sizeof(void*) == 0x8);
+    public:
     // Creating value type constructor for type: UIntPtr
     constexpr UIntPtr(void* pointer_ = {}) noexcept : pointer{pointer_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -69,20 +82,10 @@ namespace System {
     static int get_Size();
     // public System.Void .ctor(System.UInt64 value)
     // Offset: 0x25D300C
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    UIntPtr(uint64_t value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::UIntPtr::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
-    }
+    UIntPtr(uint64_t value);
     // public System.Void .ctor(System.UInt32 value)
     // Offset: 0x25D308C
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    UIntPtr(uint value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::UIntPtr::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
-    }
+    UIntPtr(uint value);
     // static private System.Void .cctor()
     // Offset: 0x25D3288
     static void _cctor();
@@ -121,7 +124,6 @@ namespace System {
   // Offset: 0x25D3248
   bool operator ==(const System::UIntPtr& value1, const System::UIntPtr& value2);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::UIntPtr, "System", "UIntPtr");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::UIntPtr::get_Size
 // Il2CppName: get_Size

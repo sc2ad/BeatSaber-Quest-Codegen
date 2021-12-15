@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
+  // Forward declaring type: Compositor_FrameTiming
+  struct Compositor_FrameTiming;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::Compositor_FrameTiming, "OVR.OpenVR", "Compositor_FrameTiming");
+// Type namespace: OVR.OpenVR
+namespace OVR::OpenVR {
   // Size: 0xAE
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -19,6 +26,15 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Compositor_FrameTiming/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.UInt32 m_nSize
     // Size: 0x4
     // Offset: 0x0
@@ -163,6 +179,7 @@ namespace OVR::OpenVR {
     OVR::OpenVR::TrackedDevicePose_t m_HmdPose;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::TrackedDevicePose_t) == 0x4E);
+    public:
     // Creating value type constructor for type: Compositor_FrameTiming
     constexpr Compositor_FrameTiming(uint m_nSize_ = {}, uint m_nFrameIndex_ = {}, uint m_nNumFramePresents_ = {}, uint m_nNumMisPresented_ = {}, uint m_nNumDroppedFrames_ = {}, uint m_nReprojectionFlags_ = {}, double m_flSystemTimeInSeconds_ = {}, float m_flPreSubmitGpuMs_ = {}, float m_flPostSubmitGpuMs_ = {}, float m_flTotalRenderGpuMs_ = {}, float m_flCompositorRenderGpuMs_ = {}, float m_flCompositorRenderCpuMs_ = {}, float m_flCompositorIdleCpuMs_ = {}, float m_flClientFrameIntervalMs_ = {}, float m_flPresentCallCpuMs_ = {}, float m_flWaitForPresentCpuMs_ = {}, float m_flSubmitFrameMs_ = {}, float m_flWaitGetPosesCalledMs_ = {}, float m_flNewPosesReadyMs_ = {}, float m_flNewFrameReadyMs_ = {}, float m_flCompositorUpdateStartMs_ = {}, float m_flCompositorUpdateEndMs_ = {}, float m_flCompositorRenderStartMs_ = {}, OVR::OpenVR::TrackedDevicePose_t m_HmdPose_ = {}) noexcept : m_nSize{m_nSize_}, m_nFrameIndex{m_nFrameIndex_}, m_nNumFramePresents{m_nNumFramePresents_}, m_nNumMisPresented{m_nNumMisPresented_}, m_nNumDroppedFrames{m_nNumDroppedFrames_}, m_nReprojectionFlags{m_nReprojectionFlags_}, m_flSystemTimeInSeconds{m_flSystemTimeInSeconds_}, m_flPreSubmitGpuMs{m_flPreSubmitGpuMs_}, m_flPostSubmitGpuMs{m_flPostSubmitGpuMs_}, m_flTotalRenderGpuMs{m_flTotalRenderGpuMs_}, m_flCompositorRenderGpuMs{m_flCompositorRenderGpuMs_}, m_flCompositorRenderCpuMs{m_flCompositorRenderCpuMs_}, m_flCompositorIdleCpuMs{m_flCompositorIdleCpuMs_}, m_flClientFrameIntervalMs{m_flClientFrameIntervalMs_}, m_flPresentCallCpuMs{m_flPresentCallCpuMs_}, m_flWaitForPresentCpuMs{m_flWaitForPresentCpuMs_}, m_flSubmitFrameMs{m_flSubmitFrameMs_}, m_flWaitGetPosesCalledMs{m_flWaitGetPosesCalledMs_}, m_flNewPosesReadyMs{m_flNewPosesReadyMs_}, m_flNewFrameReadyMs{m_flNewFrameReadyMs_}, m_flCompositorUpdateStartMs{m_flCompositorUpdateStartMs_}, m_flCompositorUpdateEndMs{m_flCompositorUpdateEndMs_}, m_flCompositorRenderStartMs{m_flCompositorRenderStartMs_}, m_HmdPose{m_HmdPose_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -222,6 +239,4 @@ namespace OVR::OpenVR {
   static check_size<sizeof(Compositor_FrameTiming), 96 + sizeof(OVR::OpenVR::TrackedDevicePose_t)> __OVR_OpenVR_Compositor_FrameTimingSizeCheck;
   static_assert(sizeof(Compositor_FrameTiming) == 0xAE);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::Compositor_FrameTiming, "OVR.OpenVR", "Compositor_FrameTiming");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

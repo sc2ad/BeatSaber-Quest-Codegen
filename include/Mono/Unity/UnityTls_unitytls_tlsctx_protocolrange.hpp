@@ -14,6 +14,13 @@
 // Completed includes
 // Type namespace: Mono.Unity
 namespace Mono::Unity {
+  // Forward declaring type: unitytls_tlsctx_protocolrange
+  struct unitytls_tlsctx_protocolrange;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTls::unitytls_tlsctx_protocolrange, "Mono.Unity", "UnityTls/unitytls_tlsctx_protocolrange");
+// Type namespace: Mono.Unity
+namespace Mono::Unity {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -21,6 +28,15 @@ namespace Mono::Unity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct UnityTls::unitytls_tlsctx_protocolrange/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public Mono.Unity.UnityTls/Mono.Unity.unitytls_protocol min
     // Size: 0x4
     // Offset: 0x0
@@ -33,6 +49,7 @@ namespace Mono::Unity {
     Mono::Unity::UnityTls::unitytls_protocol max;
     // Field size check
     static_assert(sizeof(Mono::Unity::UnityTls::unitytls_protocol) == 0x4);
+    public:
     // Creating value type constructor for type: unitytls_tlsctx_protocolrange
     constexpr unitytls_tlsctx_protocolrange(Mono::Unity::UnityTls::unitytls_protocol min_ = {}, Mono::Unity::UnityTls::unitytls_protocol max_ = {}) noexcept : min{min_}, max{max_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -48,6 +65,4 @@ namespace Mono::Unity {
   static check_size<sizeof(UnityTls::unitytls_tlsctx_protocolrange), 4 + sizeof(Mono::Unity::UnityTls::unitytls_protocol)> __Mono_Unity_UnityTls_unitytls_tlsctx_protocolrangeSizeCheck;
   static_assert(sizeof(UnityTls::unitytls_tlsctx_protocolrange) == 0x8);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTls::unitytls_tlsctx_protocolrange, "Mono.Unity", "UnityTls/unitytls_tlsctx_protocolrange");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

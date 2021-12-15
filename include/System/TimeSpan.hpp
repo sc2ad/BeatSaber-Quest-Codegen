@@ -15,10 +15,6 @@
 #include "System/IComparable.hpp"
 // Including type: System.IFormattable
 #include "System/IFormattable.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -33,6 +29,13 @@ struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: System
 namespace System {
+  // Forward declaring type: TimeSpan
+  struct TimeSpan;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::TimeSpan, "System", "TimeSpan");
+// Type namespace: System
+namespace System {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -41,12 +44,22 @@ namespace System {
   // [ComVisibleAttribute] Offset: E9DE30
   struct TimeSpan/*, public System::ValueType, public System::IComparable_1<System::TimeSpan>, public System::IEquatable_1<System::TimeSpan>, public System::IComparable, public System::IFormattable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // System.Int64 _ticks
     // Size: 0x8
     // Offset: 0x0
     int64_t ticks;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
+    public:
     // Creating value type constructor for type: TimeSpan
     constexpr TimeSpan(int64_t ticks_ = {}) noexcept : ticks{ticks_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -124,24 +137,13 @@ namespace System {
     static bool get_LegacyMode();
     // public System.Void .ctor(System.Int64 ticks)
     // Offset: 0x19C7914
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    // ABORTED: conflicts with another method.  TimeSpan(int64_t ticks)
+    // ABORTED: conflicts with another method.  TimeSpan(int64_t ticks);
     // public System.Void .ctor(System.Int32 hours, System.Int32 minutes, System.Int32 seconds)
     // Offset: 0x19C791C
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    TimeSpan(int hours, int minutes, int seconds) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::TimeSpan::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(hours), ::il2cpp_utils::ExtractType(minutes), ::il2cpp_utils::ExtractType(seconds)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, hours, minutes, seconds);
-    }
+    TimeSpan(int hours, int minutes, int seconds);
     // public System.Void .ctor(System.Int32 days, System.Int32 hours, System.Int32 minutes, System.Int32 seconds, System.Int32 milliseconds)
     // Offset: 0x19C1B30
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    TimeSpan(int days, int hours, int minutes, int seconds, int milliseconds) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::TimeSpan::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(days), ::il2cpp_utils::ExtractType(hours), ::il2cpp_utils::ExtractType(minutes), ::il2cpp_utils::ExtractType(seconds), ::il2cpp_utils::ExtractType(milliseconds)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, days, hours, minutes, seconds, milliseconds);
-    }
+    TimeSpan(int days, int hours, int minutes, int seconds, int milliseconds);
     // static private System.Void .cctor()
     // Offset: 0x19C87D0
     static void _cctor();
@@ -243,7 +245,6 @@ namespace System {
   // Offset: 0x19C8774
   bool operator >=(const System::TimeSpan& t1, const System::TimeSpan& t2);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::TimeSpan, "System", "TimeSpan");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::TimeSpan::get_Ticks
 // Il2CppName: get_Ticks

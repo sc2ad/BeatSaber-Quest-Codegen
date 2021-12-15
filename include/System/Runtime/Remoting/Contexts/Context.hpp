@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Remoting::Messaging
@@ -62,6 +63,14 @@ namespace System::Runtime::Remoting::Activation {
 // Completed forward declares
 // Type namespace: System.Runtime.Remoting.Contexts
 namespace System::Runtime::Remoting::Contexts {
+  // Forward declaring type: Context
+  class Context;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Runtime::Remoting::Contexts::Context);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::Context*, "System.Runtime.Remoting.Contexts", "Context");
+// Type namespace: System.Runtime.Remoting.Contexts
+namespace System::Runtime::Remoting::Contexts {
   // Size: 0x58
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -70,6 +79,15 @@ namespace System::Runtime::Remoting::Contexts {
   // [ComVisibleAttribute] Offset: EA129C
   class Context : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.Int32 domain_id
     // Size: 0x4
     // Offset: 0x10
@@ -130,12 +148,11 @@ namespace System::Runtime::Remoting::Contexts {
     System::Runtime::Remoting::Contexts::ContextCallbackObject* callback_object;
     // Field size check
     static_assert(sizeof(System::Runtime::Remoting::Contexts::ContextCallbackObject*) == 0x8);
-    // Creating value type constructor for type: Context
-    Context(int domain_id_ = {}, int context_id_ = {}, System::UIntPtr static_data_ = {}, System::UIntPtr data_ = {}, System::Runtime::Remoting::Messaging::IMessageSink* server_context_sink_chain_ = {}, System::Runtime::Remoting::Messaging::IMessageSink* client_context_sink_chain_ = {}, System::Collections::Generic::List_1<System::Runtime::Remoting::Contexts::IContextProperty*>* context_properties_ = {}, System::LocalDataStoreHolder* localDataStore_ = {}, System::Runtime::Remoting::Contexts::DynamicPropertyCollection* context_dynamic_properties_ = {}, System::Runtime::Remoting::Contexts::ContextCallbackObject* callback_object_ = {}) noexcept : domain_id{domain_id_}, context_id{context_id_}, static_data{static_data_}, data{data_}, server_context_sink_chain{server_context_sink_chain_}, client_context_sink_chain{client_context_sink_chain_}, context_properties{context_properties_}, localDataStore{localDataStore_}, context_dynamic_properties{context_dynamic_properties_}, callback_object{callback_object_} {}
+    public:
     // Get static field: static private System.Object[] local_slots
-    static ::Array<::Il2CppObject*>* _get_local_slots();
+    static ::ArrayW<::Il2CppObject*> _get_local_slots();
     // Set static field: static private System.Object[] local_slots
-    static void _set_local_slots(::Array<::Il2CppObject*>* value);
+    static void _set_local_slots(::ArrayW<::Il2CppObject*> value);
     // Get static field: static private System.Runtime.Remoting.Messaging.IMessageSink default_server_context_sink
     static System::Runtime::Remoting::Messaging::IMessageSink* _get_default_server_context_sink();
     // Set static field: static private System.Runtime.Remoting.Messaging.IMessageSink default_server_context_sink
@@ -180,7 +197,7 @@ namespace System::Runtime::Remoting::Contexts {
     int get_ContextID();
     // public System.Runtime.Remoting.Contexts.IContextProperty[] get_ContextProperties()
     // Offset: 0x162FB70
-    ::Array<System::Runtime::Remoting::Contexts::IContextProperty*>* get_ContextProperties();
+    ::ArrayW<System::Runtime::Remoting::Contexts::IContextProperty*> get_ContextProperties();
     // System.Boolean get_IsDefaultContext()
     // Offset: 0x162FBE0
     bool get_IsDefaultContext();
@@ -295,7 +312,6 @@ namespace System::Runtime::Remoting::Contexts {
   static check_size<sizeof(Context), 80 + sizeof(System::Runtime::Remoting::Contexts::ContextCallbackObject*)> __System_Runtime_Remoting_Contexts_ContextSizeCheck;
   static_assert(sizeof(Context) == 0x58);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::Context*, "System.Runtime.Remoting.Contexts", "Context");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::Context::get_DefaultContext
 // Il2CppName: get_DefaultContext
@@ -316,7 +332,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::Context::get_ContextProperties
 // Il2CppName: get_ContextProperties
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Runtime::Remoting::Contexts::IContextProperty*>* (System::Runtime::Remoting::Contexts::Context::*)()>(&System::Runtime::Remoting::Contexts::Context::get_ContextProperties)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Runtime::Remoting::Contexts::IContextProperty*> (System::Runtime::Remoting::Contexts::Context::*)()>(&System::Runtime::Remoting::Contexts::Context::get_ContextProperties)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Contexts::Context*), "get_ContextProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

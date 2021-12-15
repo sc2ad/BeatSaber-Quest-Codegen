@@ -40,6 +40,13 @@ namespace System::Globalization {
 // Completed forward declares
 // Type namespace: System
 namespace System {
+  // Forward declaring type: Int64
+  struct Int64;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Int64, "System", "Int64");
+// Type namespace: System
+namespace System {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -48,12 +55,22 @@ namespace System {
   // [ComVisibleAttribute] Offset: E9D8F4
   struct Int64/*, public System::ValueType, public System::IComparable_1<int64_t>, public System::IEquatable_1<int64_t>, public System::IComparable, public System::IConvertible, public System::IFormattable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // System.Int64 m_value
     // Size: 0x8
     // Offset: 0x0
     int64_t m_value;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
+    public:
     // Creating value type constructor for type: Int64
     constexpr Int64(int64_t m_value_ = {}) noexcept : m_value{m_value_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -199,8 +216,6 @@ namespace System {
   static check_size<sizeof(Int64), 0 + sizeof(int64_t)> __System_Int64SizeCheck;
   static_assert(sizeof(Int64) == 0x8);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Int64, "System", "Int64");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Int64::CompareTo
 // Il2CppName: CompareTo

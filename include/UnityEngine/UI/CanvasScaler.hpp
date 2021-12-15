@@ -9,6 +9,8 @@
 #include "UnityEngine/EventSystems/UIBehaviour.hpp"
 // Including type: UnityEngine.Vector2
 #include "UnityEngine/Vector2.hpp"
+// Including type: System.Enum
+#include "System/Enum.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -27,6 +29,14 @@ namespace UnityEngine::UI {
   // Skipping declaration: Unit because it is already included!
 }
 // Completed forward declares
+// Type namespace: UnityEngine.UI
+namespace UnityEngine::UI {
+  // Forward declaring type: CanvasScaler
+  class CanvasScaler;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::UI::CanvasScaler);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CanvasScaler*, "UnityEngine.UI", "CanvasScaler");
 // Type namespace: UnityEngine.UI
 namespace UnityEngine::UI {
   // Size: 0x58
@@ -51,12 +61,22 @@ namespace UnityEngine::UI {
     // [TokenAttribute] Offset: FFFFFFFF
     struct ScaleMode/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      #ifdef CODEGEN_FIELD_ACCESSIBILITY
+      CODEGEN_FIELD_ACCESSIBILITY:
+      #else
+      protected:
+      #endif
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: ScaleMode
       constexpr ScaleMode(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -97,12 +117,22 @@ namespace UnityEngine::UI {
     // [TokenAttribute] Offset: FFFFFFFF
     struct ScreenMatchMode/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      #ifdef CODEGEN_FIELD_ACCESSIBILITY
+      CODEGEN_FIELD_ACCESSIBILITY:
+      #else
+      protected:
+      #endif
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: ScreenMatchMode
       constexpr ScreenMatchMode(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -143,12 +173,22 @@ namespace UnityEngine::UI {
     // [TokenAttribute] Offset: FFFFFFFF
     struct Unit/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      #ifdef CODEGEN_FIELD_ACCESSIBILITY
+      CODEGEN_FIELD_ACCESSIBILITY:
+      #else
+      protected:
+      #endif
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: Unit
       constexpr Unit(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -195,6 +235,15 @@ namespace UnityEngine::UI {
     #pragma pack(pop)
     static check_size<sizeof(CanvasScaler::Unit), 0 + sizeof(int)> __UnityEngine_UI_CanvasScaler_UnitSizeCheck;
     static_assert(sizeof(CanvasScaler::Unit) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // [TooltipAttribute] Offset: 0xEEC07C
     // private UnityEngine.UI.CanvasScaler/UnityEngine.UI.ScaleMode m_UiScaleMode
     // Size: 0x4
@@ -286,8 +335,7 @@ namespace UnityEngine::UI {
     float m_PrevReferencePixelsPerUnit;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: CanvasScaler
-    CanvasScaler(UnityEngine::UI::CanvasScaler::ScaleMode m_UiScaleMode_ = {}, float m_ReferencePixelsPerUnit_ = {}, float m_ScaleFactor_ = {}, UnityEngine::Vector2 m_ReferenceResolution_ = {}, UnityEngine::UI::CanvasScaler::ScreenMatchMode m_ScreenMatchMode_ = {}, float m_MatchWidthOrHeight_ = {}, UnityEngine::UI::CanvasScaler::Unit m_PhysicalUnit_ = {}, float m_FallbackScreenDPI_ = {}, float m_DefaultSpriteDPI_ = {}, float m_DynamicPixelsPerUnit_ = {}, UnityEngine::Canvas* m_Canvas_ = {}, float m_PrevScaleFactor_ = {}, float m_PrevReferencePixelsPerUnit_ = {}) noexcept : m_UiScaleMode{m_UiScaleMode_}, m_ReferencePixelsPerUnit{m_ReferencePixelsPerUnit_}, m_ScaleFactor{m_ScaleFactor_}, m_ReferenceResolution{m_ReferenceResolution_}, m_ScreenMatchMode{m_ScreenMatchMode_}, m_MatchWidthOrHeight{m_MatchWidthOrHeight_}, m_PhysicalUnit{m_PhysicalUnit_}, m_FallbackScreenDPI{m_FallbackScreenDPI_}, m_DefaultSpriteDPI{m_DefaultSpriteDPI_}, m_DynamicPixelsPerUnit{m_DynamicPixelsPerUnit_}, m_Canvas{m_Canvas_}, m_PrevScaleFactor{m_PrevScaleFactor_}, m_PrevReferencePixelsPerUnit{m_PrevReferencePixelsPerUnit_} {}
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Single kLogBase
@@ -435,9 +483,11 @@ namespace UnityEngine::UI {
   static check_size<sizeof(CanvasScaler), 84 + sizeof(float)> __UnityEngine_UI_CanvasScalerSizeCheck;
   static_assert(sizeof(CanvasScaler) == 0x58);
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CanvasScaler*, "UnityEngine.UI", "CanvasScaler");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CanvasScaler::ScaleMode, "UnityEngine.UI", "CanvasScaler/ScaleMode");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CanvasScaler::ScreenMatchMode, "UnityEngine.UI", "CanvasScaler/ScreenMatchMode");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CanvasScaler::Unit, "UnityEngine.UI", "CanvasScaler/Unit");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::CanvasScaler::get_uiScaleMode

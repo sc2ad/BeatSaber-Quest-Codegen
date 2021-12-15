@@ -9,6 +9,13 @@
 // Completed includes
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
+  // Forward declaring type: HAPI_TimelineOptions
+  struct HAPI_TimelineOptions;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_TimelineOptions, "HoudiniEngineUnity", "HAPI_TimelineOptions");
+// Type namespace: HoudiniEngineUnity
+namespace HoudiniEngineUnity {
   // Size: 0xC
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -16,6 +23,15 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HAPI_TimelineOptions/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.Single fps
     // Size: 0x4
     // Offset: 0x0
@@ -34,6 +50,7 @@ namespace HoudiniEngineUnity {
     float endTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: HAPI_TimelineOptions
     constexpr HAPI_TimelineOptions(float fps_ = {}, float startTime_ = {}, float endTime_ = {}) noexcept : fps{fps_}, startTime{startTime_}, endTime{endTime_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -51,6 +68,4 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HAPI_TimelineOptions), 8 + sizeof(float)> __HoudiniEngineUnity_HAPI_TimelineOptionsSizeCheck;
   static_assert(sizeof(HAPI_TimelineOptions) == 0xC);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_TimelineOptions, "HoudiniEngineUnity", "HAPI_TimelineOptions");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

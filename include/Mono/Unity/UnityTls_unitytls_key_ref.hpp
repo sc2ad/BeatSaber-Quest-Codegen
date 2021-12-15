@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: Mono.Unity
 namespace Mono::Unity {
+  // Forward declaring type: unitytls_key_ref
+  struct unitytls_key_ref;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTls::unitytls_key_ref, "Mono.Unity", "UnityTls/unitytls_key_ref");
+// Type namespace: Mono.Unity
+namespace Mono::Unity {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -19,12 +26,22 @@ namespace Mono::Unity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct UnityTls::unitytls_key_ref/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.UInt64 handle
     // Size: 0x8
     // Offset: 0x0
     uint64_t handle;
     // Field size check
     static_assert(sizeof(uint64_t) == 0x8);
+    public:
     // Creating value type constructor for type: unitytls_key_ref
     constexpr unitytls_key_ref(uint64_t handle_ = {}) noexcept : handle{handle_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -42,6 +59,4 @@ namespace Mono::Unity {
   static check_size<sizeof(UnityTls::unitytls_key_ref), 0 + sizeof(uint64_t)> __Mono_Unity_UnityTls_unitytls_key_refSizeCheck;
   static_assert(sizeof(UnityTls::unitytls_key_ref) == 0x8);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTls::unitytls_key_ref, "Mono.Unity", "UnityTls/unitytls_key_ref");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

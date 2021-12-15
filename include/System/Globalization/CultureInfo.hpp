@@ -15,6 +15,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Globalization
@@ -50,6 +51,14 @@ namespace System::Collections::Generic {
 // Completed forward declares
 // Type namespace: System.Globalization
 namespace System::Globalization {
+  // Forward declaring type: CultureInfo
+  class CultureInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Globalization::CultureInfo);
+DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CultureInfo*, "System.Globalization", "CultureInfo");
+// Type namespace: System.Globalization
+namespace System::Globalization {
   // Size: 0xC9
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -60,6 +69,15 @@ namespace System::Globalization {
     public:
     // Nested type: System::Globalization::CultureInfo::Data
     struct Data;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.Boolean m_isReadOnly
     // Size: 0x1
     // Offset: 0x10
@@ -169,9 +187,9 @@ namespace System::Globalization {
     // private System.String[] native_calendar_names
     // Size: 0x8
     // Offset: 0x80
-    ::Array<::Il2CppString*>* native_calendar_names;
+    ::ArrayW<::Il2CppString*> native_calendar_names;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // private System.Globalization.CompareInfo compareInfo
     // Size: 0x8
     // Offset: 0x88
@@ -215,9 +233,9 @@ namespace System::Globalization {
     // System.Byte[] cached_serialized_form
     // Size: 0x8
     // Offset: 0xB8
-    ::Array<uint8_t>* cached_serialized_form;
+    ::ArrayW<uint8_t> cached_serialized_form;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // System.Globalization.CultureData m_cultureData
     // Size: 0x8
     // Offset: 0xC0
@@ -230,8 +248,7 @@ namespace System::Globalization {
     bool m_isInherited;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: CultureInfo
-    CultureInfo(bool m_isReadOnly_ = {}, int cultureID_ = {}, int parent_lcid_ = {}, int datetime_index_ = {}, int number_index_ = {}, int default_calendar_type_ = {}, bool m_useUserOverride_ = {}, System::Globalization::NumberFormatInfo* numInfo_ = {}, System::Globalization::DateTimeFormatInfo* dateTimeInfo_ = {}, System::Globalization::TextInfo* textInfo_ = {}, ::Il2CppString* m_name_ = {}, ::Il2CppString* englishname_ = {}, ::Il2CppString* nativename_ = {}, ::Il2CppString* iso3lang_ = {}, ::Il2CppString* iso2lang_ = {}, ::Il2CppString* win3lang_ = {}, ::Il2CppString* territory_ = {}, ::Array<::Il2CppString*>* native_calendar_names_ = {}, System::Globalization::CompareInfo* compareInfo_ = {}, void* textinfo_data_ = {}, int m_dataItem_ = {}, System::Globalization::Calendar* calendar_ = {}, System::Globalization::CultureInfo* parent_culture_ = {}, bool constructed_ = {}, ::Array<uint8_t>* cached_serialized_form_ = {}, System::Globalization::CultureData* m_cultureData_ = {}, bool m_isInherited_ = {}) noexcept : m_isReadOnly{m_isReadOnly_}, cultureID{cultureID_}, parent_lcid{parent_lcid_}, datetime_index{datetime_index_}, number_index{number_index_}, default_calendar_type{default_calendar_type_}, m_useUserOverride{m_useUserOverride_}, numInfo{numInfo_}, dateTimeInfo{dateTimeInfo_}, textInfo{textInfo_}, m_name{m_name_}, englishname{englishname_}, nativename{nativename_}, iso3lang{iso3lang_}, iso2lang{iso2lang_}, win3lang{win3lang_}, territory{territory_}, native_calendar_names{native_calendar_names_}, compareInfo{compareInfo_}, textinfo_data{textinfo_data_}, m_dataItem{m_dataItem_}, calendar{calendar_}, parent_culture{parent_culture_}, constructed{constructed_}, cached_serialized_form{cached_serialized_form_}, m_cultureData{m_cultureData_}, m_isInherited{m_isInherited_} {}
+    public:
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);
@@ -325,7 +342,7 @@ namespace System::Globalization {
     // Get instance field reference: private System.String territory
     ::Il2CppString*& dyn_territory();
     // Get instance field reference: private System.String[] native_calendar_names
-    ::Array<::Il2CppString*>*& dyn_native_calendar_names();
+    ::ArrayW<::Il2CppString*>& dyn_native_calendar_names();
     // Get instance field reference: private System.Globalization.CompareInfo compareInfo
     System::Globalization::CompareInfo*& dyn_compareInfo();
     // Get instance field reference: private readonly System.Void* textinfo_data
@@ -339,7 +356,7 @@ namespace System::Globalization {
     // Get instance field reference: private System.Boolean constructed
     bool& dyn_constructed();
     // Get instance field reference: System.Byte[] cached_serialized_form
-    ::Array<uint8_t>*& dyn_cached_serialized_form();
+    ::ArrayW<uint8_t>& dyn_cached_serialized_form();
     // Get instance field reference: System.Globalization.CultureData m_cultureData
     System::Globalization::CultureData*& dyn_m_cultureData();
     // Get instance field reference: System.Boolean m_isInherited
@@ -553,7 +570,6 @@ namespace System::Globalization {
   static check_size<sizeof(CultureInfo), 200 + sizeof(bool)> __System_Globalization_CultureInfoSizeCheck;
   static_assert(sizeof(CultureInfo) == 0xC9);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CultureInfo*, "System.Globalization", "CultureInfo");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Globalization::CultureInfo::get_InvariantCulture
 // Il2CppName: get_InvariantCulture

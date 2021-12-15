@@ -13,6 +13,13 @@
 // Completed includes
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
+  // Forward declaring type: VROverlayIntersectionResults_t
+  struct VROverlayIntersectionResults_t;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VROverlayIntersectionResults_t, "OVR.OpenVR", "VROverlayIntersectionResults_t");
+// Type namespace: OVR.OpenVR
+namespace OVR::OpenVR {
   // Size: 0x24
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -20,6 +27,15 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VROverlayIntersectionResults_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public OVR.OpenVR.HmdVector3_t vPoint
     // Size: 0xC
     // Offset: 0x0
@@ -44,6 +60,7 @@ namespace OVR::OpenVR {
     float fDistance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: VROverlayIntersectionResults_t
     constexpr VROverlayIntersectionResults_t(OVR::OpenVR::HmdVector3_t vPoint_ = {}, OVR::OpenVR::HmdVector3_t vNormal_ = {}, OVR::OpenVR::HmdVector2_t vUVs_ = {}, float fDistance_ = {}) noexcept : vPoint{vPoint_}, vNormal{vNormal_}, vUVs{vUVs_}, fDistance{fDistance_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -63,6 +80,4 @@ namespace OVR::OpenVR {
   static check_size<sizeof(VROverlayIntersectionResults_t), 32 + sizeof(float)> __OVR_OpenVR_VROverlayIntersectionResults_tSizeCheck;
   static_assert(sizeof(VROverlayIntersectionResults_t) == 0x24);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VROverlayIntersectionResults_t, "OVR.OpenVR", "VROverlayIntersectionResults_t");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

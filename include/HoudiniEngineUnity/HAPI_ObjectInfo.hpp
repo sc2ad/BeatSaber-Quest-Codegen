@@ -9,6 +9,13 @@
 // Completed includes
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
+  // Forward declaring type: HAPI_ObjectInfo
+  struct HAPI_ObjectInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_ObjectInfo, "HoudiniEngineUnity", "HAPI_ObjectInfo");
+// Type namespace: HoudiniEngineUnity
+namespace HoudiniEngineUnity {
   // Size: 0x1C
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -16,6 +23,15 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HAPI_ObjectInfo/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.Int32 nameSH
     // Size: 0x4
     // Offset: 0x0
@@ -78,6 +94,7 @@ namespace HoudiniEngineUnity {
     int objectToInstanceId;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: HAPI_ObjectInfo
     constexpr HAPI_ObjectInfo(int nameSH_ = {}, int objectInstancePathSH_ = {}, bool hasTransformChanged_ = {}, bool haveGeosChanged_ = {}, bool isVisible_ = {}, bool isInstancer_ = {}, bool isInstanced_ = {}, int geoCount_ = {}, int nodeId_ = {}, int objectToInstanceId_ = {}) noexcept : nameSH{nameSH_}, objectInstancePathSH{objectInstancePathSH_}, hasTransformChanged{hasTransformChanged_}, haveGeosChanged{haveGeosChanged_}, isVisible{isVisible_}, isInstancer{isInstancer_}, isInstanced{isInstanced_}, geoCount{geoCount_}, nodeId{nodeId_}, objectToInstanceId{objectToInstanceId_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -109,6 +126,4 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HAPI_ObjectInfo), 24 + sizeof(int)> __HoudiniEngineUnity_HAPI_ObjectInfoSizeCheck;
   static_assert(sizeof(HAPI_ObjectInfo) == 0x1C);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_ObjectInfo, "HoudiniEngineUnity", "HAPI_ObjectInfo");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

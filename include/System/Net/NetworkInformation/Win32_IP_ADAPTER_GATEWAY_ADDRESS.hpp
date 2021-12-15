@@ -3,7 +3,6 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
@@ -16,6 +15,13 @@
 // Completed includes
 // Type namespace: System.Net.NetworkInformation
 namespace System::Net::NetworkInformation {
+  // Forward declaring type: Win32_IP_ADAPTER_GATEWAY_ADDRESS
+  struct Win32_IP_ADAPTER_GATEWAY_ADDRESS;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32_IP_ADAPTER_GATEWAY_ADDRESS, "System.Net.NetworkInformation", "Win32_IP_ADAPTER_GATEWAY_ADDRESS");
+// Type namespace: System.Net.NetworkInformation
+namespace System::Net::NetworkInformation {
   // Size: 0x1C
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -23,6 +29,15 @@ namespace System::Net::NetworkInformation {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Win32_IP_ADAPTER_GATEWAY_ADDRESS/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.Net.NetworkInformation.Win32LengthFlagsUnion LengthFlags
     // Size: 0x8
     // Offset: 0x0
@@ -41,6 +56,7 @@ namespace System::Net::NetworkInformation {
     System::Net::NetworkInformation::Win32_SOCKET_ADDRESS Address;
     // Field size check
     static_assert(sizeof(System::Net::NetworkInformation::Win32_SOCKET_ADDRESS) == 0xC);
+    public:
     // Creating value type constructor for type: Win32_IP_ADAPTER_GATEWAY_ADDRESS
     constexpr Win32_IP_ADAPTER_GATEWAY_ADDRESS(System::Net::NetworkInformation::Win32LengthFlagsUnion LengthFlags_ = {}, System::IntPtr Next_ = {}, System::Net::NetworkInformation::Win32_SOCKET_ADDRESS Address_ = {}) noexcept : LengthFlags{LengthFlags_}, Next{Next_}, Address{Address_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -58,6 +74,4 @@ namespace System::Net::NetworkInformation {
   static check_size<sizeof(Win32_IP_ADAPTER_GATEWAY_ADDRESS), 16 + sizeof(System::Net::NetworkInformation::Win32_SOCKET_ADDRESS)> __System_Net_NetworkInformation_Win32_IP_ADAPTER_GATEWAY_ADDRESSSizeCheck;
   static_assert(sizeof(Win32_IP_ADAPTER_GATEWAY_ADDRESS) == 0x1C);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32_IP_ADAPTER_GATEWAY_ADDRESS, "System.Net.NetworkInformation", "Win32_IP_ADAPTER_GATEWAY_ADDRESS");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

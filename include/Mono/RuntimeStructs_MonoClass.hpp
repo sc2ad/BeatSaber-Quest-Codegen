@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: Mono
 namespace Mono {
+  // Forward declaring type: MonoClass
+  struct MonoClass;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeStructs::MonoClass, "Mono", "RuntimeStructs/MonoClass");
+// Type namespace: Mono
+namespace Mono {
   // Size: 0x0
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -28,6 +35,4 @@ namespace Mono {
   }; // Mono.RuntimeStructs/Mono.MonoClass
   #pragma pack(pop)
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeStructs::MonoClass, "Mono", "RuntimeStructs/MonoClass");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

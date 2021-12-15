@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: System.IO
 namespace System::IO {
+  // Forward declaring type: WaitForChangedResult
+  struct WaitForChangedResult;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::IO::WaitForChangedResult, "System.IO", "WaitForChangedResult");
+// Type namespace: System.IO
+namespace System::IO {
   // Size: 0x19
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -19,6 +26,15 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   struct WaitForChangedResult/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.IO.WatcherChangeTypes changeType
     // Size: 0x4
     // Offset: 0x0
@@ -45,6 +61,7 @@ namespace System::IO {
     bool timedOut;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating value type constructor for type: WaitForChangedResult
     constexpr WaitForChangedResult(System::IO::WatcherChangeTypes changeType_ = {}, ::Il2CppString* name_ = {}, ::Il2CppString* oldName_ = {}, bool timedOut_ = {}) noexcept : changeType{changeType_}, name{name_}, oldName{oldName_}, timedOut{timedOut_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -73,8 +90,6 @@ namespace System::IO {
   static check_size<sizeof(WaitForChangedResult), 24 + sizeof(bool)> __System_IO_WaitForChangedResultSizeCheck;
   static_assert(sizeof(WaitForChangedResult) == 0x19);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::IO::WaitForChangedResult, "System.IO", "WaitForChangedResult");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::WaitForChangedResult::set_ChangeType
 // Il2CppName: set_ChangeType

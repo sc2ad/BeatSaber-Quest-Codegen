@@ -11,7 +11,16 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: System.Security.Cryptography
+namespace System::Security::Cryptography {
+  // Forward declaring type: MD5CryptoServiceProvider
+  class MD5CryptoServiceProvider;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Security::Cryptography::MD5CryptoServiceProvider);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::MD5CryptoServiceProvider*, "System.Security.Cryptography", "MD5CryptoServiceProvider");
 // Type namespace: System.Security.Cryptography
 namespace System::Security::Cryptography {
   // Size: 0x4C
@@ -23,18 +32,27 @@ namespace System::Security::Cryptography {
     public:
     // Writing base type padding for base size: 0x25 to desired offset: 0x28
     char ___base_padding[0x3] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.UInt32[] _H
     // Size: 0x8
     // Offset: 0x28
-    ::Array<uint>* H;
+    ::ArrayW<uint> H;
     // Field size check
-    static_assert(sizeof(::Array<uint>*) == 0x8);
+    static_assert(sizeof(::ArrayW<uint>) == 0x8);
     // private System.UInt32[] buff
     // Size: 0x8
     // Offset: 0x30
-    ::Array<uint>* buff;
+    ::ArrayW<uint> buff;
     // Field size check
-    static_assert(sizeof(::Array<uint>*) == 0x8);
+    static_assert(sizeof(::ArrayW<uint>) == 0x8);
     // private System.UInt64 count
     // Size: 0x8
     // Offset: 0x38
@@ -44,29 +62,28 @@ namespace System::Security::Cryptography {
     // private System.Byte[] _ProcessingBuffer
     // Size: 0x8
     // Offset: 0x40
-    ::Array<uint8_t>* ProcessingBuffer;
+    ::ArrayW<uint8_t> ProcessingBuffer;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Int32 _ProcessingBufferCount
     // Size: 0x4
     // Offset: 0x48
     int ProcessingBufferCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: MD5CryptoServiceProvider
-    MD5CryptoServiceProvider(::Array<uint>* H_ = {}, ::Array<uint>* buff_ = {}, uint64_t count_ = {}, ::Array<uint8_t>* ProcessingBuffer_ = {}, int ProcessingBufferCount_ = {}) noexcept : H{H_}, buff{buff_}, count{count_}, ProcessingBuffer{ProcessingBuffer_}, ProcessingBufferCount{ProcessingBufferCount_} {}
+    public:
     // Get static field: static private readonly System.UInt32[] K
-    static ::Array<uint>* _get_K();
+    static ::ArrayW<uint> _get_K();
     // Set static field: static private readonly System.UInt32[] K
-    static void _set_K(::Array<uint>* value);
+    static void _set_K(::ArrayW<uint> value);
     // Get instance field reference: private System.UInt32[] _H
-    ::Array<uint>*& dyn__H();
+    ::ArrayW<uint>& dyn__H();
     // Get instance field reference: private System.UInt32[] buff
-    ::Array<uint>*& dyn_buff();
+    ::ArrayW<uint>& dyn_buff();
     // Get instance field reference: private System.UInt64 count
     uint64_t& dyn_count();
     // Get instance field reference: private System.Byte[] _ProcessingBuffer
-    ::Array<uint8_t>*& dyn__ProcessingBuffer();
+    ::ArrayW<uint8_t>& dyn__ProcessingBuffer();
     // Get instance field reference: private System.Int32 _ProcessingBufferCount
     int& dyn__ProcessingBufferCount();
     // static private System.Void .cctor()
@@ -74,13 +91,13 @@ namespace System::Security::Cryptography {
     static void _cctor();
     // private System.Void ProcessBlock(System.Byte[] inputBuffer, System.Int32 inputOffset)
     // Offset: 0x1A9A2F4
-    void ProcessBlock(::Array<uint8_t>* inputBuffer, int inputOffset);
+    void ProcessBlock(::ArrayW<uint8_t> inputBuffer, int inputOffset);
     // private System.Void ProcessFinalBlock(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount)
     // Offset: 0x1A9B09C
-    void ProcessFinalBlock(::Array<uint8_t>* inputBuffer, int inputOffset, int inputCount);
+    void ProcessFinalBlock(::ArrayW<uint8_t> inputBuffer, int inputOffset, int inputCount);
     // System.Void AddLength(System.UInt64 length, System.Byte[] buffer, System.Int32 position)
     // Offset: 0x1A9B2F4
-    void AddLength(uint64_t length, ::Array<uint8_t>* buffer, int position);
+    void AddLength(uint64_t length, ::ArrayW<uint8_t> buffer, int position);
     // public System.Void .ctor()
     // Offset: 0x1A911B0
     // Implemented from: System.Security.Cryptography.MD5
@@ -106,12 +123,12 @@ namespace System::Security::Cryptography {
     // Offset: 0x1A9A1F0
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Void HashAlgorithm::HashCore(System.Byte[] rgb, System.Int32 ibStart, System.Int32 cbSize)
-    void HashCore(::Array<uint8_t>* rgb, int ibStart, int cbSize);
+    void HashCore(::ArrayW<uint8_t> rgb, int ibStart, int cbSize);
     // protected override System.Byte[] HashFinal()
     // Offset: 0x1A9AFAC
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Byte[] HashAlgorithm::HashFinal()
-    ::Array<uint8_t>* HashFinal();
+    ::ArrayW<uint8_t> HashFinal();
     // public override System.Void Initialize()
     // Offset: 0x1A9B250
     // Implemented from: System.Security.Cryptography.HashAlgorithm
@@ -122,7 +139,6 @@ namespace System::Security::Cryptography {
   static check_size<sizeof(MD5CryptoServiceProvider), 72 + sizeof(int)> __System_Security_Cryptography_MD5CryptoServiceProviderSizeCheck;
   static_assert(sizeof(MD5CryptoServiceProvider) == 0x4C);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::MD5CryptoServiceProvider*, "System.Security.Cryptography", "MD5CryptoServiceProvider");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::MD5CryptoServiceProvider::_cctor
 // Il2CppName: .cctor
@@ -135,7 +151,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Security::Cryptography::MD5CryptoServiceProvider::ProcessBlock
 // Il2CppName: ProcessBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::MD5CryptoServiceProvider::*)(::Array<uint8_t>*, int)>(&System::Security::Cryptography::MD5CryptoServiceProvider::ProcessBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::MD5CryptoServiceProvider::*)(::ArrayW<uint8_t>, int)>(&System::Security::Cryptography::MD5CryptoServiceProvider::ProcessBlock)> {
   static const MethodInfo* get() {
     static auto* inputBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* inputOffset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -145,7 +161,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::MD5CryptoServiceProvider::ProcessFinalBlock
 // Il2CppName: ProcessFinalBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::MD5CryptoServiceProvider::*)(::Array<uint8_t>*, int, int)>(&System::Security::Cryptography::MD5CryptoServiceProvider::ProcessFinalBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::MD5CryptoServiceProvider::*)(::ArrayW<uint8_t>, int, int)>(&System::Security::Cryptography::MD5CryptoServiceProvider::ProcessFinalBlock)> {
   static const MethodInfo* get() {
     static auto* inputBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* inputOffset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -156,7 +172,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::MD5CryptoServiceProvider::AddLength
 // Il2CppName: AddLength
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::MD5CryptoServiceProvider::*)(uint64_t, ::Array<uint8_t>*, int)>(&System::Security::Cryptography::MD5CryptoServiceProvider::AddLength)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::MD5CryptoServiceProvider::*)(uint64_t, ::ArrayW<uint8_t>, int)>(&System::Security::Cryptography::MD5CryptoServiceProvider::AddLength)> {
   static const MethodInfo* get() {
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -188,7 +204,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::MD5CryptoServiceProvider::HashCore
 // Il2CppName: HashCore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::MD5CryptoServiceProvider::*)(::Array<uint8_t>*, int, int)>(&System::Security::Cryptography::MD5CryptoServiceProvider::HashCore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::MD5CryptoServiceProvider::*)(::ArrayW<uint8_t>, int, int)>(&System::Security::Cryptography::MD5CryptoServiceProvider::HashCore)> {
   static const MethodInfo* get() {
     static auto* rgb = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* ibStart = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -199,7 +215,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::MD5CryptoServiceProvider::HashFinal
 // Il2CppName: HashFinal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (System::Security::Cryptography::MD5CryptoServiceProvider::*)()>(&System::Security::Cryptography::MD5CryptoServiceProvider::HashFinal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::Security::Cryptography::MD5CryptoServiceProvider::*)()>(&System::Security::Cryptography::MD5CryptoServiceProvider::HashFinal)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::MD5CryptoServiceProvider*), "HashFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

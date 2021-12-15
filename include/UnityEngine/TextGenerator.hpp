@@ -52,6 +52,14 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: TextGenerator
+  class TextGenerator;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::TextGenerator);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextGenerator*, "UnityEngine", "TextGenerator");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0xA3
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -61,6 +69,15 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: ECC314
   class TextGenerator : public ::Il2CppObject/*, public System::IDisposable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // System.IntPtr m_Ptr
     // Size: 0x8
     // Offset: 0x10
@@ -131,8 +148,7 @@ namespace UnityEngine {
     bool m_CachedLines;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: TextGenerator
-    TextGenerator(System::IntPtr m_Ptr_ = {}, ::Il2CppString* m_LastString_ = {}, UnityEngine::TextGenerationSettings m_LastSettings_ = {}, bool m_HasGenerated_ = {}, UnityEngine::TextGenerationError m_LastValid_ = {}, System::Collections::Generic::List_1<UnityEngine::UIVertex>* m_Verts_ = {}, System::Collections::Generic::List_1<UnityEngine::UICharInfo>* m_Characters_ = {}, System::Collections::Generic::List_1<UnityEngine::UILineInfo>* m_Lines_ = {}, bool m_CachedVerts_ = {}, bool m_CachedCharacters_ = {}, bool m_CachedLines_ = {}) noexcept : m_Ptr{m_Ptr_}, m_LastString{m_LastString_}, m_LastSettings{m_LastSettings_}, m_HasGenerated{m_HasGenerated_}, m_LastValid{m_LastValid_}, m_Verts{m_Verts_}, m_Characters{m_Characters_}, m_Lines{m_Lines_}, m_CachedVerts{m_CachedVerts_}, m_CachedCharacters{m_CachedCharacters_}, m_CachedLines{m_CachedLines_} {}
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
@@ -269,7 +285,6 @@ namespace UnityEngine {
   static check_size<sizeof(TextGenerator), 162 + sizeof(bool)> __UnityEngine_TextGeneratorSizeCheck;
   static_assert(sizeof(TextGenerator) == 0xA3);
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextGenerator*, "UnityEngine", "TextGenerator");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TextGenerator::get_characterCountVisible
 // Il2CppName: get_characterCountVisible

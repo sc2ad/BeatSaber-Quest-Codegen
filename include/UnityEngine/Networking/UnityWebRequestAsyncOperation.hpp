@@ -21,6 +21,14 @@ namespace UnityEngine::Networking {
 // Completed forward declares
 // Type namespace: UnityEngine.Networking
 namespace UnityEngine::Networking {
+  // Forward declaring type: UnityWebRequestAsyncOperation
+  class UnityWebRequestAsyncOperation;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::Networking::UnityWebRequestAsyncOperation);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::UnityWebRequestAsyncOperation*, "UnityEngine.Networking", "UnityWebRequestAsyncOperation");
+// Type namespace: UnityEngine.Networking
+namespace UnityEngine::Networking {
   // Size: 0x28
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -31,6 +39,15 @@ namespace UnityEngine::Networking {
   // [NativeHeaderAttribute] Offset: EFF34C
   class UnityWebRequestAsyncOperation : public UnityEngine::AsyncOperation {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xEFF50C
     // private UnityEngine.Networking.UnityWebRequest <webRequest>k__BackingField
     // Size: 0x8
@@ -38,8 +55,7 @@ namespace UnityEngine::Networking {
     UnityEngine::Networking::UnityWebRequest* webRequest;
     // Field size check
     static_assert(sizeof(UnityEngine::Networking::UnityWebRequest*) == 0x8);
-    // Creating value type constructor for type: UnityWebRequestAsyncOperation
-    UnityWebRequestAsyncOperation(UnityEngine::Networking::UnityWebRequest* webRequest_ = {}) noexcept : webRequest{webRequest_} {}
+    public:
     // Creating conversion operator: operator UnityEngine::Networking::UnityWebRequest*
     constexpr operator UnityEngine::Networking::UnityWebRequest*() const noexcept {
       return webRequest;
@@ -68,7 +84,6 @@ namespace UnityEngine::Networking {
   static check_size<sizeof(UnityWebRequestAsyncOperation), 32 + sizeof(UnityEngine::Networking::UnityWebRequest*)> __UnityEngine_Networking_UnityWebRequestAsyncOperationSizeCheck;
   static_assert(sizeof(UnityWebRequestAsyncOperation) == 0x28);
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::UnityWebRequestAsyncOperation*, "UnityEngine.Networking", "UnityWebRequestAsyncOperation");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequestAsyncOperation::get_webRequest
 // Il2CppName: get_webRequest

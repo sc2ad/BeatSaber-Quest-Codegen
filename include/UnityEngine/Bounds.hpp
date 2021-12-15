@@ -11,10 +11,6 @@
 #include "System/IEquatable_1.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -23,6 +19,13 @@ namespace UnityEngine {
   struct Ray;
 }
 // Completed forward declares
+// Type namespace: UnityEngine
+namespace UnityEngine {
+  // Forward declaring type: Bounds
+  struct Bounds;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bounds, "UnityEngine", "Bounds");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18
@@ -39,6 +42,15 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: EB2D70
   struct Bounds/*, public System::ValueType, public System::IEquatable_1<UnityEngine::Bounds>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private UnityEngine.Vector3 m_Center
     // Size: 0xC
     // Offset: 0x0
@@ -52,6 +64,7 @@ namespace UnityEngine {
     UnityEngine::Vector3 m_Extents;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    public:
     // Creating value type constructor for type: Bounds
     constexpr Bounds(UnityEngine::Vector3 m_Center_ = {}, UnityEngine::Vector3 m_Extents_ = {}) noexcept : m_Center{m_Center_}, m_Extents{m_Extents_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -92,8 +105,7 @@ namespace UnityEngine {
     UnityEngine::Vector3 get_max();
     // public System.Void .ctor(UnityEngine.Vector3 center, UnityEngine.Vector3 size)
     // Offset: 0x1D00B90
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    // ABORTED: conflicts with another method.  Bounds(UnityEngine::Vector3 center, UnityEngine::Vector3 size)
+    // ABORTED: conflicts with another method.  Bounds(UnityEngine::Vector3 center, UnityEngine::Vector3 size);
     // public System.Boolean Equals(UnityEngine.Bounds other)
     // Offset: 0x1D00D64
     bool Equals(UnityEngine::Bounds other);
@@ -147,7 +159,6 @@ namespace UnityEngine {
   // Offset: 0x1D01180
   bool operator !=(const UnityEngine::Bounds& lhs, const UnityEngine::Bounds& rhs);
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bounds, "UnityEngine", "Bounds");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Bounds::get_center
 // Il2CppName: get_center

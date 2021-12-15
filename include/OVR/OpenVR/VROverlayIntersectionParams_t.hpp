@@ -14,6 +14,13 @@
 // Completed includes
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
+  // Forward declaring type: VROverlayIntersectionParams_t
+  struct VROverlayIntersectionParams_t;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VROverlayIntersectionParams_t, "OVR.OpenVR", "VROverlayIntersectionParams_t");
+// Type namespace: OVR.OpenVR
+namespace OVR::OpenVR {
   // Size: 0x1C
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -21,6 +28,15 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VROverlayIntersectionParams_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public OVR.OpenVR.HmdVector3_t vSource
     // Size: 0xC
     // Offset: 0x0
@@ -39,6 +55,7 @@ namespace OVR::OpenVR {
     OVR::OpenVR::ETrackingUniverseOrigin eOrigin;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::ETrackingUniverseOrigin) == 0x4);
+    public:
     // Creating value type constructor for type: VROverlayIntersectionParams_t
     constexpr VROverlayIntersectionParams_t(OVR::OpenVR::HmdVector3_t vSource_ = {}, OVR::OpenVR::HmdVector3_t vDirection_ = {}, OVR::OpenVR::ETrackingUniverseOrigin eOrigin_ = {}) noexcept : vSource{vSource_}, vDirection{vDirection_}, eOrigin{eOrigin_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -56,6 +73,4 @@ namespace OVR::OpenVR {
   static check_size<sizeof(VROverlayIntersectionParams_t), 24 + sizeof(OVR::OpenVR::ETrackingUniverseOrigin)> __OVR_OpenVR_VROverlayIntersectionParams_tSizeCheck;
   static_assert(sizeof(VROverlayIntersectionParams_t) == 0x1C);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VROverlayIntersectionParams_t, "OVR.OpenVR", "VROverlayIntersectionParams_t");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

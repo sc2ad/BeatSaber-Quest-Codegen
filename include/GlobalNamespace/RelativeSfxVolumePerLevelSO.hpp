@@ -11,12 +11,21 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
 }
 // Completed forward declares
+// Type namespace: 
+namespace GlobalNamespace {
+  // Forward declaring type: RelativeSfxVolumePerLevelSO
+  class RelativeSfxVolumePerLevelSO;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(GlobalNamespace::RelativeSfxVolumePerLevelSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RelativeSfxVolumePerLevelSO*, "", "RelativeSfxVolumePerLevelSO");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -27,21 +36,29 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::RelativeSfxVolumePerLevelSO::RelativeSfxVolumePair
     class RelativeSfxVolumePair;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private RelativeSfxVolumePerLevelSO/RelativeSfxVolumePair[] _relativeSfxVolumePerLevel
     // Size: 0x8
     // Offset: 0x18
-    ::Array<GlobalNamespace::RelativeSfxVolumePerLevelSO::RelativeSfxVolumePair*>* relativeSfxVolumePerLevel;
+    ::ArrayW<GlobalNamespace::RelativeSfxVolumePerLevelSO::RelativeSfxVolumePair*> relativeSfxVolumePerLevel;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::RelativeSfxVolumePerLevelSO::RelativeSfxVolumePair*>*) == 0x8);
-    // Creating value type constructor for type: RelativeSfxVolumePerLevelSO
-    RelativeSfxVolumePerLevelSO(::Array<GlobalNamespace::RelativeSfxVolumePerLevelSO::RelativeSfxVolumePair*>* relativeSfxVolumePerLevel_ = {}) noexcept : relativeSfxVolumePerLevel{relativeSfxVolumePerLevel_} {}
+    static_assert(sizeof(::ArrayW<GlobalNamespace::RelativeSfxVolumePerLevelSO::RelativeSfxVolumePair*>) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private RelativeSfxVolumePerLevelSO/RelativeSfxVolumePair[] _relativeSfxVolumePerLevel
-    ::Array<GlobalNamespace::RelativeSfxVolumePerLevelSO::RelativeSfxVolumePair*>*& dyn__relativeSfxVolumePerLevel();
+    ::ArrayW<GlobalNamespace::RelativeSfxVolumePerLevelSO::RelativeSfxVolumePair*>& dyn__relativeSfxVolumePerLevel();
     // public RelativeSfxVolumePerLevelSO/RelativeSfxVolumePair[] get_relativeSfxVolumePerLevel()
     // Offset: 0x11B4938
-    ::Array<GlobalNamespace::RelativeSfxVolumePerLevelSO::RelativeSfxVolumePair*>* get_relativeSfxVolumePerLevel();
+    ::ArrayW<GlobalNamespace::RelativeSfxVolumePerLevelSO::RelativeSfxVolumePair*> get_relativeSfxVolumePerLevel();
     // public System.Void .ctor()
     // Offset: 0x11B4940
     // Implemented from: UnityEngine.ScriptableObject
@@ -55,15 +72,14 @@ namespace GlobalNamespace {
     }
   }; // RelativeSfxVolumePerLevelSO
   #pragma pack(pop)
-  static check_size<sizeof(RelativeSfxVolumePerLevelSO), 24 + sizeof(::Array<GlobalNamespace::RelativeSfxVolumePerLevelSO::RelativeSfxVolumePair*>*)> __GlobalNamespace_RelativeSfxVolumePerLevelSOSizeCheck;
+  static check_size<sizeof(RelativeSfxVolumePerLevelSO), 24 + sizeof(::ArrayW<GlobalNamespace::RelativeSfxVolumePerLevelSO::RelativeSfxVolumePair*>)> __GlobalNamespace_RelativeSfxVolumePerLevelSOSizeCheck;
   static_assert(sizeof(RelativeSfxVolumePerLevelSO) == 0x20);
 }
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RelativeSfxVolumePerLevelSO*, "", "RelativeSfxVolumePerLevelSO");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::RelativeSfxVolumePerLevelSO::get_relativeSfxVolumePerLevel
 // Il2CppName: get_relativeSfxVolumePerLevel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::RelativeSfxVolumePerLevelSO::RelativeSfxVolumePair*>* (GlobalNamespace::RelativeSfxVolumePerLevelSO::*)()>(&GlobalNamespace::RelativeSfxVolumePerLevelSO::get_relativeSfxVolumePerLevel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<GlobalNamespace::RelativeSfxVolumePerLevelSO::RelativeSfxVolumePair*> (GlobalNamespace::RelativeSfxVolumePerLevelSO::*)()>(&GlobalNamespace::RelativeSfxVolumePerLevelSO::get_relativeSfxVolumePerLevel)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RelativeSfxVolumePerLevelSO*), "get_relativeSfxVolumePerLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

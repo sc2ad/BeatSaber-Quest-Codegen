@@ -5,7 +5,16 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: System
+namespace System {
+  // Forward declaring type: KnownTerminals
+  class KnownTerminals;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::KnownTerminals);
+DEFINE_IL2CPP_ARG_TYPE(System::KnownTerminals*, "System", "KnownTerminals");
 // Type namespace: System
 namespace System {
   // Size: 0x10
@@ -14,27 +23,23 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class KnownTerminals : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: KnownTerminals
-    KnownTerminals() noexcept {}
     // static public System.Byte[] get_linux()
     // Offset: 0x1A11B70
-    static ::Array<uint8_t>* get_linux();
+    static ::ArrayW<uint8_t> get_linux();
     // static public System.Byte[] get_xterm()
     // Offset: 0x1A11BDC
-    static ::Array<uint8_t>* get_xterm();
+    static ::ArrayW<uint8_t> get_xterm();
     // static public System.Byte[] get_ansi()
     // Offset: 0x1A11C48
-    static ::Array<uint8_t>* get_ansi();
+    static ::ArrayW<uint8_t> get_ansi();
   }; // System.KnownTerminals
   #pragma pack(pop)
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::KnownTerminals*, "System", "KnownTerminals");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::KnownTerminals::get_linux
 // Il2CppName: get_linux
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)()>(&System::KnownTerminals::get_linux)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)()>(&System::KnownTerminals::get_linux)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::KnownTerminals*), "get_linux", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -42,7 +47,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Writing MetadataGetter for method: System::KnownTerminals::get_xterm
 // Il2CppName: get_xterm
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)()>(&System::KnownTerminals::get_xterm)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)()>(&System::KnownTerminals::get_xterm)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::KnownTerminals*), "get_xterm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -50,7 +55,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Writing MetadataGetter for method: System::KnownTerminals::get_ansi
 // Il2CppName: get_ansi
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)()>(&System::KnownTerminals::get_ansi)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)()>(&System::KnownTerminals::get_ansi)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::KnownTerminals*), "get_ansi", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -19,6 +19,14 @@ namespace System::Reflection {
 // Completed forward declares
 // Type namespace: System
 namespace System {
+  // Forward declaring type: MonoTypeInfo
+  class MonoTypeInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::MonoTypeInfo);
+DEFINE_IL2CPP_ARG_TYPE(System::MonoTypeInfo*, "System", "MonoTypeInfo");
+// Type namespace: System
+namespace System {
   // Size: 0x20
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -26,6 +34,15 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class MonoTypeInfo : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.String full_name
     // Size: 0x8
     // Offset: 0x10
@@ -38,8 +55,7 @@ namespace System {
     System::Reflection::MonoCMethod* default_ctor;
     // Field size check
     static_assert(sizeof(System::Reflection::MonoCMethod*) == 0x8);
-    // Creating value type constructor for type: MonoTypeInfo
-    MonoTypeInfo(::Il2CppString* full_name_ = {}, System::Reflection::MonoCMethod* default_ctor_ = {}) noexcept : full_name{full_name_}, default_ctor{default_ctor_} {}
+    public:
     // Get instance field reference: public System.String full_name
     ::Il2CppString*& dyn_full_name();
     // Get instance field reference: public System.Reflection.MonoCMethod default_ctor
@@ -58,7 +74,6 @@ namespace System {
   static check_size<sizeof(MonoTypeInfo), 24 + sizeof(System::Reflection::MonoCMethod*)> __System_MonoTypeInfoSizeCheck;
   static_assert(sizeof(MonoTypeInfo) == 0x20);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::MonoTypeInfo*, "System", "MonoTypeInfo");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::MonoTypeInfo::New_ctor
 // Il2CppName: .ctor

@@ -9,7 +9,16 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: System.Xml
+namespace System::Xml {
+  // Forward declaring type: BitStack
+  class BitStack;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Xml::BitStack);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::BitStack*, "System.Xml", "BitStack");
 // Type namespace: System.Xml
 namespace System::Xml {
   // Size: 0x20
@@ -18,12 +27,21 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class BitStack : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.UInt32[] bitStack
     // Size: 0x8
     // Offset: 0x10
-    ::Array<uint>* bitStack;
+    ::ArrayW<uint> bitStack;
     // Field size check
-    static_assert(sizeof(::Array<uint>*) == 0x8);
+    static_assert(sizeof(::ArrayW<uint>) == 0x8);
     // private System.Int32 stackPos
     // Size: 0x4
     // Offset: 0x18
@@ -36,10 +54,9 @@ namespace System::Xml {
     uint curr;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
-    // Creating value type constructor for type: BitStack
-    BitStack(::Array<uint>* bitStack_ = {}, int stackPos_ = {}, uint curr_ = {}) noexcept : bitStack{bitStack_}, stackPos{stackPos_}, curr{curr_} {}
+    public:
     // Get instance field reference: private System.UInt32[] bitStack
-    ::Array<uint>*& dyn_bitStack();
+    ::ArrayW<uint>& dyn_bitStack();
     // Get instance field reference: private System.Int32 stackPos
     int& dyn_stackPos();
     // Get instance field reference: private System.UInt32 curr
@@ -73,7 +90,6 @@ namespace System::Xml {
   static check_size<sizeof(BitStack), 28 + sizeof(uint)> __System_Xml_BitStackSizeCheck;
   static_assert(sizeof(BitStack) == 0x20);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::BitStack*, "System.Xml", "BitStack");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::BitStack::PushBit
 // Il2CppName: PushBit

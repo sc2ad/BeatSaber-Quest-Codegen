@@ -15,6 +15,13 @@ struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.XR
 namespace UnityEngine::XR {
+  // Forward declaring type: Eyes
+  struct Eyes;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::Eyes, "UnityEngine.XR", "Eyes");
+// Type namespace: UnityEngine.XR
+namespace UnityEngine::XR {
   // Size: 0xC
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -28,6 +35,15 @@ namespace UnityEngine::XR {
   // [NativeConditionalAttribute] Offset: EDB71C
   struct Eyes/*, public System::ValueType, public System::IEquatable_1<UnityEngine::XR::Eyes>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.UInt64 m_DeviceId
     // Size: 0x8
     // Offset: 0x0
@@ -40,6 +56,7 @@ namespace UnityEngine::XR {
     uint m_FeatureIndex;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
+    public:
     // Creating value type constructor for type: Eyes
     constexpr Eyes(uint64_t m_DeviceId_ = {}, uint m_FeatureIndex_ = {}) noexcept : m_DeviceId{m_DeviceId_}, m_FeatureIndex{m_FeatureIndex_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -78,8 +95,6 @@ namespace UnityEngine::XR {
   static check_size<sizeof(Eyes), 8 + sizeof(uint)> __UnityEngine_XR_EyesSizeCheck;
   static_assert(sizeof(Eyes) == 0xC);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::Eyes, "UnityEngine.XR", "Eyes");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::XR::Eyes::get_deviceId
 // Il2CppName: get_deviceId

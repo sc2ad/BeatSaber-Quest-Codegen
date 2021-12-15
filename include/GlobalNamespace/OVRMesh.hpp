@@ -7,6 +7,8 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
+// Including type: System.Enum
+#include "System/Enum.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -23,6 +25,14 @@ namespace UnityEngine {
   class Mesh;
 }
 // Completed forward declares
+// Type namespace: 
+namespace GlobalNamespace {
+  // Forward declaring type: OVRMesh
+  class OVRMesh;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(GlobalNamespace::OVRMesh);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMesh*, "", "OVRMesh");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x31
@@ -42,12 +52,22 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct MeshType/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      #ifdef CODEGEN_FIELD_ACCESSIBILITY
+      CODEGEN_FIELD_ACCESSIBILITY:
+      #else
+      protected:
+      #endif
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: MeshType
       constexpr MeshType(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -82,6 +102,15 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(OVRMesh::MeshType), 0 + sizeof(int)> __GlobalNamespace_OVRMesh_MeshTypeSizeCheck;
     static_assert(sizeof(OVRMesh::MeshType) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private OVRMesh/IOVRMeshDataProvider _dataProvider
     // Size: 0x8
     // Offset: 0x18
@@ -108,8 +137,7 @@ namespace GlobalNamespace {
     bool IsInitialized;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: OVRMesh
-    OVRMesh(GlobalNamespace::OVRMesh::IOVRMeshDataProvider* dataProvider_ = {}, GlobalNamespace::OVRMesh::MeshType meshType_ = {}, UnityEngine::Mesh* mesh_ = {}, bool IsInitialized_ = {}) noexcept : dataProvider{dataProvider_}, meshType{meshType_}, mesh{mesh_}, IsInitialized{IsInitialized_} {}
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private OVRMesh/IOVRMeshDataProvider _dataProvider
@@ -156,7 +184,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRMesh), 48 + sizeof(bool)> __GlobalNamespace_OVRMeshSizeCheck;
   static_assert(sizeof(OVRMesh) == 0x31);
 }
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMesh*, "", "OVRMesh");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMesh::MeshType, "", "OVRMesh/MeshType");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRMesh::get_IsInitialized

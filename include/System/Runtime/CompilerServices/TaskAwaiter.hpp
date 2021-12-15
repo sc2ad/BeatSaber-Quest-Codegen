@@ -8,10 +8,6 @@
 #include "System/ValueType.hpp"
 // Including type: System.Runtime.CompilerServices.ICriticalNotifyCompletion
 #include "System/Runtime/CompilerServices/ICriticalNotifyCompletion.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Threading::Tasks
@@ -27,6 +23,13 @@ namespace System {
 // Completed forward declares
 // Type namespace: System.Runtime.CompilerServices
 namespace System::Runtime::CompilerServices {
+  // Forward declaring type: TaskAwaiter
+  struct TaskAwaiter;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::TaskAwaiter, "System.Runtime.CompilerServices", "TaskAwaiter");
+// Type namespace: System.Runtime.CompilerServices
+namespace System::Runtime::CompilerServices {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -34,12 +37,22 @@ namespace System::Runtime::CompilerServices {
   // [TokenAttribute] Offset: FFFFFFFF
   struct TaskAwaiter/*, public System::ValueType, public System::Runtime::CompilerServices::ICriticalNotifyCompletion*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private readonly System.Threading.Tasks.Task m_task
     // Size: 0x8
     // Offset: 0x0
     System::Threading::Tasks::Task* m_task;
     // Field size check
     static_assert(sizeof(System::Threading::Tasks::Task*) == 0x8);
+    public:
     // Creating value type constructor for type: TaskAwaiter
     constexpr TaskAwaiter(System::Threading::Tasks::Task* m_task_ = {}) noexcept : m_task{m_task_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -61,8 +74,7 @@ namespace System::Runtime::CompilerServices {
     bool get_IsCompleted();
     // System.Void .ctor(System.Threading.Tasks.Task task)
     // Offset: 0x1621A0C
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    // ABORTED: conflicts with another method.  TaskAwaiter(System::Threading::Tasks::Task* task)
+    // ABORTED: conflicts with another method.  TaskAwaiter(System::Threading::Tasks::Task* task);
     // public System.Void OnCompleted(System.Action continuation)
     // Offset: 0x1621A30
     void OnCompleted(System::Action* continuation);
@@ -89,7 +101,6 @@ namespace System::Runtime::CompilerServices {
   static check_size<sizeof(TaskAwaiter), 0 + sizeof(System::Threading::Tasks::Task*)> __System_Runtime_CompilerServices_TaskAwaiterSizeCheck;
   static_assert(sizeof(TaskAwaiter) == 0x8);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::TaskAwaiter, "System.Runtime.CompilerServices", "TaskAwaiter");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::TaskAwaiter::get_IsCompleted
 // Il2CppName: get_IsCompleted

@@ -17,7 +17,16 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: System.Security.Cryptography
+namespace System::Security::Cryptography {
+  // Forward declaring type: RijndaelManagedTransform
+  class RijndaelManagedTransform;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Security::Cryptography::RijndaelManagedTransform);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RijndaelManagedTransform*, "System.Security.Cryptography", "RijndaelManagedTransform");
 // Type namespace: System.Security.Cryptography
 namespace System::Security::Cryptography {
   // Size: 0x80
@@ -27,6 +36,15 @@ namespace System::Security::Cryptography {
   // [ComVisibleAttribute] Offset: EA0A14
   class RijndaelManagedTransform : public ::Il2CppObject/*, public System::Security::Cryptography::ICryptoTransform*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.Security.Cryptography.CipherMode m_cipherMode
     // Size: 0x4
     // Offset: 0x10
@@ -74,15 +92,15 @@ namespace System::Security::Cryptography {
     // private System.Int32[] m_encryptKeyExpansion
     // Size: 0x8
     // Offset: 0x30
-    ::Array<int>* m_encryptKeyExpansion;
+    ::ArrayW<int> m_encryptKeyExpansion;
     // Field size check
-    static_assert(sizeof(::Array<int>*) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // private System.Int32[] m_decryptKeyExpansion
     // Size: 0x8
     // Offset: 0x38
-    ::Array<int>* m_decryptKeyExpansion;
+    ::ArrayW<int> m_decryptKeyExpansion;
     // Field size check
-    static_assert(sizeof(::Array<int>*) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // private System.Int32 m_Nr
     // Size: 0x4
     // Offset: 0x40
@@ -106,69 +124,68 @@ namespace System::Security::Cryptography {
     // private System.Int32[] m_encryptindex
     // Size: 0x8
     // Offset: 0x50
-    ::Array<int>* m_encryptindex;
+    ::ArrayW<int> m_encryptindex;
     // Field size check
-    static_assert(sizeof(::Array<int>*) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // private System.Int32[] m_decryptindex
     // Size: 0x8
     // Offset: 0x58
-    ::Array<int>* m_decryptindex;
+    ::ArrayW<int> m_decryptindex;
     // Field size check
-    static_assert(sizeof(::Array<int>*) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // private System.Int32[] m_IV
     // Size: 0x8
     // Offset: 0x60
-    ::Array<int>* m_IV;
+    ::ArrayW<int> m_IV;
     // Field size check
-    static_assert(sizeof(::Array<int>*) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // private System.Int32[] m_lastBlockBuffer
     // Size: 0x8
     // Offset: 0x68
-    ::Array<int>* m_lastBlockBuffer;
+    ::ArrayW<int> m_lastBlockBuffer;
     // Field size check
-    static_assert(sizeof(::Array<int>*) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // private System.Byte[] m_depadBuffer
     // Size: 0x8
     // Offset: 0x70
-    ::Array<uint8_t>* m_depadBuffer;
+    ::ArrayW<uint8_t> m_depadBuffer;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Byte[] m_shiftRegister
     // Size: 0x8
     // Offset: 0x78
-    ::Array<uint8_t>* m_shiftRegister;
+    ::ArrayW<uint8_t> m_shiftRegister;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
-    // Creating value type constructor for type: RijndaelManagedTransform
-    RijndaelManagedTransform(System::Security::Cryptography::CipherMode m_cipherMode_ = {}, System::Security::Cryptography::PaddingMode m_paddingValue_ = {}, System::Security::Cryptography::RijndaelManagedTransformMode m_transformMode_ = {}, int m_blockSizeBits_ = {}, int m_blockSizeBytes_ = {}, int m_inputBlockSize_ = {}, int m_outputBlockSize_ = {}, ::Array<int>* m_encryptKeyExpansion_ = {}, ::Array<int>* m_decryptKeyExpansion_ = {}, int m_Nr_ = {}, int m_Nb_ = {}, int m_Nk_ = {}, ::Array<int>* m_encryptindex_ = {}, ::Array<int>* m_decryptindex_ = {}, ::Array<int>* m_IV_ = {}, ::Array<int>* m_lastBlockBuffer_ = {}, ::Array<uint8_t>* m_depadBuffer_ = {}, ::Array<uint8_t>* m_shiftRegister_ = {}) noexcept : m_cipherMode{m_cipherMode_}, m_paddingValue{m_paddingValue_}, m_transformMode{m_transformMode_}, m_blockSizeBits{m_blockSizeBits_}, m_blockSizeBytes{m_blockSizeBytes_}, m_inputBlockSize{m_inputBlockSize_}, m_outputBlockSize{m_outputBlockSize_}, m_encryptKeyExpansion{m_encryptKeyExpansion_}, m_decryptKeyExpansion{m_decryptKeyExpansion_}, m_Nr{m_Nr_}, m_Nb{m_Nb_}, m_Nk{m_Nk_}, m_encryptindex{m_encryptindex_}, m_decryptindex{m_decryptindex_}, m_IV{m_IV_}, m_lastBlockBuffer{m_lastBlockBuffer_}, m_depadBuffer{m_depadBuffer_}, m_shiftRegister{m_shiftRegister_} {}
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Security::Cryptography::ICryptoTransform
     operator System::Security::Cryptography::ICryptoTransform() noexcept {
       return *reinterpret_cast<System::Security::Cryptography::ICryptoTransform*>(this);
     }
     // Get static field: static private readonly System.Byte[] s_Sbox
-    static ::Array<uint8_t>* _get_s_Sbox();
+    static ::ArrayW<uint8_t> _get_s_Sbox();
     // Set static field: static private readonly System.Byte[] s_Sbox
-    static void _set_s_Sbox(::Array<uint8_t>* value);
+    static void _set_s_Sbox(::ArrayW<uint8_t> value);
     // Get static field: static private readonly System.Int32[] s_Rcon
-    static ::Array<int>* _get_s_Rcon();
+    static ::ArrayW<int> _get_s_Rcon();
     // Set static field: static private readonly System.Int32[] s_Rcon
-    static void _set_s_Rcon(::Array<int>* value);
+    static void _set_s_Rcon(::ArrayW<int> value);
     // Get static field: static private readonly System.Int32[] s_T
-    static ::Array<int>* _get_s_T();
+    static ::ArrayW<int> _get_s_T();
     // Set static field: static private readonly System.Int32[] s_T
-    static void _set_s_T(::Array<int>* value);
+    static void _set_s_T(::ArrayW<int> value);
     // Get static field: static private readonly System.Int32[] s_TF
-    static ::Array<int>* _get_s_TF();
+    static ::ArrayW<int> _get_s_TF();
     // Set static field: static private readonly System.Int32[] s_TF
-    static void _set_s_TF(::Array<int>* value);
+    static void _set_s_TF(::ArrayW<int> value);
     // Get static field: static private readonly System.Int32[] s_iT
-    static ::Array<int>* _get_s_iT();
+    static ::ArrayW<int> _get_s_iT();
     // Set static field: static private readonly System.Int32[] s_iT
-    static void _set_s_iT(::Array<int>* value);
+    static void _set_s_iT(::ArrayW<int> value);
     // Get static field: static private readonly System.Int32[] s_iTF
-    static ::Array<int>* _get_s_iTF();
+    static ::ArrayW<int> _get_s_iTF();
     // Set static field: static private readonly System.Int32[] s_iTF
-    static void _set_s_iTF(::Array<int>* value);
+    static void _set_s_iTF(::ArrayW<int> value);
     // Get instance field reference: private System.Security.Cryptography.CipherMode m_cipherMode
     System::Security::Cryptography::CipherMode& dyn_m_cipherMode();
     // Get instance field reference: private System.Security.Cryptography.PaddingMode m_paddingValue
@@ -184,9 +201,9 @@ namespace System::Security::Cryptography {
     // Get instance field reference: private System.Int32 m_outputBlockSize
     int& dyn_m_outputBlockSize();
     // Get instance field reference: private System.Int32[] m_encryptKeyExpansion
-    ::Array<int>*& dyn_m_encryptKeyExpansion();
+    ::ArrayW<int>& dyn_m_encryptKeyExpansion();
     // Get instance field reference: private System.Int32[] m_decryptKeyExpansion
-    ::Array<int>*& dyn_m_decryptKeyExpansion();
+    ::ArrayW<int>& dyn_m_decryptKeyExpansion();
     // Get instance field reference: private System.Int32 m_Nr
     int& dyn_m_Nr();
     // Get instance field reference: private System.Int32 m_Nb
@@ -194,17 +211,17 @@ namespace System::Security::Cryptography {
     // Get instance field reference: private System.Int32 m_Nk
     int& dyn_m_Nk();
     // Get instance field reference: private System.Int32[] m_encryptindex
-    ::Array<int>*& dyn_m_encryptindex();
+    ::ArrayW<int>& dyn_m_encryptindex();
     // Get instance field reference: private System.Int32[] m_decryptindex
-    ::Array<int>*& dyn_m_decryptindex();
+    ::ArrayW<int>& dyn_m_decryptindex();
     // Get instance field reference: private System.Int32[] m_IV
-    ::Array<int>*& dyn_m_IV();
+    ::ArrayW<int>& dyn_m_IV();
     // Get instance field reference: private System.Int32[] m_lastBlockBuffer
-    ::Array<int>*& dyn_m_lastBlockBuffer();
+    ::ArrayW<int>& dyn_m_lastBlockBuffer();
     // Get instance field reference: private System.Byte[] m_depadBuffer
-    ::Array<uint8_t>*& dyn_m_depadBuffer();
+    ::ArrayW<uint8_t>& dyn_m_depadBuffer();
     // Get instance field reference: private System.Byte[] m_shiftRegister
-    ::Array<uint8_t>*& dyn_m_shiftRegister();
+    ::ArrayW<uint8_t>& dyn_m_shiftRegister();
     // public System.Int32 get_InputBlockSize()
     // Offset: 0x1D17A98
     int get_InputBlockSize();
@@ -217,7 +234,7 @@ namespace System::Security::Cryptography {
     // System.Void .ctor(System.Byte[] rgbKey, System.Security.Cryptography.CipherMode mode, System.Byte[] rgbIV, System.Int32 blockSize, System.Int32 feedbackSize, System.Security.Cryptography.PaddingMode PaddingValue, System.Security.Cryptography.RijndaelManagedTransformMode transformMode)
     // Offset: 0x1D16DF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static RijndaelManagedTransform* New_ctor(::Array<uint8_t>* rgbKey, System::Security::Cryptography::CipherMode mode, ::Array<uint8_t>* rgbIV, int blockSize, int feedbackSize, System::Security::Cryptography::PaddingMode PaddingValue, System::Security::Cryptography::RijndaelManagedTransformMode transformMode) {
+    static RijndaelManagedTransform* New_ctor(::ArrayW<uint8_t> rgbKey, System::Security::Cryptography::CipherMode mode, ::ArrayW<uint8_t> rgbIV, int blockSize, int feedbackSize, System::Security::Cryptography::PaddingMode PaddingValue, System::Security::Cryptography::RijndaelManagedTransformMode transformMode) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::RijndaelManagedTransform::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RijndaelManagedTransform*, creationType>(rgbKey, mode, rgbIV, blockSize, feedbackSize, PaddingValue, transformMode)));
     }
@@ -232,19 +249,19 @@ namespace System::Security::Cryptography {
     void Dispose(bool disposing);
     // public System.Int32 TransformBlock(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount, System.Byte[] outputBuffer, System.Int32 outputOffset)
     // Offset: 0x1D17AB0
-    int TransformBlock(::Array<uint8_t>* inputBuffer, int inputOffset, int inputCount, ::Array<uint8_t>* outputBuffer, int outputOffset);
+    int TransformBlock(::ArrayW<uint8_t> inputBuffer, int inputOffset, int inputCount, ::ArrayW<uint8_t> outputBuffer, int outputOffset);
     // public System.Byte[] TransformFinalBlock(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount)
     // Offset: 0x1D192E8
-    ::Array<uint8_t>* TransformFinalBlock(::Array<uint8_t>* inputBuffer, int inputOffset, int inputCount);
+    ::ArrayW<uint8_t> TransformFinalBlock(::ArrayW<uint8_t> inputBuffer, int inputOffset, int inputCount);
     // public System.Void Reset()
     // Offset: 0x1D195B4
     void Reset();
     // private System.Int32 EncryptData(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount, ref System.Byte[] outputBuffer, System.Int32 outputOffset, System.Security.Cryptography.PaddingMode paddingMode, System.Boolean fLast)
     // Offset: 0x1D17D6C
-    int EncryptData(::Array<uint8_t>* inputBuffer, int inputOffset, int inputCount, ByRef<::Array<uint8_t>*> outputBuffer, int outputOffset, System::Security::Cryptography::PaddingMode paddingMode, bool fLast);
+    int EncryptData(::ArrayW<uint8_t> inputBuffer, int inputOffset, int inputCount, ByRef<::ArrayW<uint8_t>> outputBuffer, int outputOffset, System::Security::Cryptography::PaddingMode paddingMode, bool fLast);
     // private System.Int32 DecryptData(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount, ref System.Byte[] outputBuffer, System.Int32 outputOffset, System.Security.Cryptography.PaddingMode paddingMode, System.Boolean fLast)
     // Offset: 0x1D1888C
-    int DecryptData(::Array<uint8_t>* inputBuffer, int inputOffset, int inputCount, ByRef<::Array<uint8_t>*> outputBuffer, int outputOffset, System::Security::Cryptography::PaddingMode paddingMode, bool fLast);
+    int DecryptData(::ArrayW<uint8_t> inputBuffer, int inputOffset, int inputCount, ByRef<::ArrayW<uint8_t>> outputBuffer, int outputOffset, System::Security::Cryptography::PaddingMode paddingMode, bool fLast);
     // private System.Void Enc(System.Int32* encryptindex, System.Int32* encryptKeyExpansion, System.Int32* T, System.Int32* TF, System.Int32* work, System.Int32* temp)
     // Offset: 0x1D196C0
     void Enc(int* encryptindex, int* encryptKeyExpansion, int* T, int* TF, int* work, int* temp);
@@ -253,7 +270,7 @@ namespace System::Security::Cryptography {
     void Dec(int* decryptindex, int* decryptKeyExpansion, int* iT, int* iTF, int* work, int* temp);
     // private System.Void GenerateKeyExpansion(System.Byte[] rgbKey)
     // Offset: 0x1D17414
-    void GenerateKeyExpansion(::Array<uint8_t>* rgbKey);
+    void GenerateKeyExpansion(::ArrayW<uint8_t> rgbKey);
     // static private System.Int32 rot1(System.Int32 val)
     // Offset: 0x1D19B5C
     static int rot1(int val);
@@ -271,10 +288,9 @@ namespace System::Security::Cryptography {
     static int MulX(int x);
   }; // System.Security.Cryptography.RijndaelManagedTransform
   #pragma pack(pop)
-  static check_size<sizeof(RijndaelManagedTransform), 120 + sizeof(::Array<uint8_t>*)> __System_Security_Cryptography_RijndaelManagedTransformSizeCheck;
+  static check_size<sizeof(RijndaelManagedTransform), 120 + sizeof(::ArrayW<uint8_t>)> __System_Security_Cryptography_RijndaelManagedTransformSizeCheck;
   static_assert(sizeof(RijndaelManagedTransform) == 0x80);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RijndaelManagedTransform*, "System.Security.Cryptography", "RijndaelManagedTransform");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::RijndaelManagedTransform::get_InputBlockSize
 // Il2CppName: get_InputBlockSize
@@ -332,7 +348,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::RijndaelManagedTransform::TransformBlock
 // Il2CppName: TransformBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Security::Cryptography::RijndaelManagedTransform::*)(::Array<uint8_t>*, int, int, ::Array<uint8_t>*, int)>(&System::Security::Cryptography::RijndaelManagedTransform::TransformBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Security::Cryptography::RijndaelManagedTransform::*)(::ArrayW<uint8_t>, int, int, ::ArrayW<uint8_t>, int)>(&System::Security::Cryptography::RijndaelManagedTransform::TransformBlock)> {
   static const MethodInfo* get() {
     static auto* inputBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* inputOffset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -345,7 +361,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Security::Cryptography::RijndaelManagedTransform::TransformFinalBlock
 // Il2CppName: TransformFinalBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (System::Security::Cryptography::RijndaelManagedTransform::*)(::Array<uint8_t>*, int, int)>(&System::Security::Cryptography::RijndaelManagedTransform::TransformFinalBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::Security::Cryptography::RijndaelManagedTransform::*)(::ArrayW<uint8_t>, int, int)>(&System::Security::Cryptography::RijndaelManagedTransform::TransformFinalBlock)> {
   static const MethodInfo* get() {
     static auto* inputBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* inputOffset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -364,7 +380,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::RijndaelManagedTransform::EncryptData
 // Il2CppName: EncryptData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Security::Cryptography::RijndaelManagedTransform::*)(::Array<uint8_t>*, int, int, ByRef<::Array<uint8_t>*>, int, System::Security::Cryptography::PaddingMode, bool)>(&System::Security::Cryptography::RijndaelManagedTransform::EncryptData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Security::Cryptography::RijndaelManagedTransform::*)(::ArrayW<uint8_t>, int, int, ByRef<::ArrayW<uint8_t>>, int, System::Security::Cryptography::PaddingMode, bool)>(&System::Security::Cryptography::RijndaelManagedTransform::EncryptData)> {
   static const MethodInfo* get() {
     static auto* inputBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* inputOffset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -379,7 +395,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Security::Cryptography::RijndaelManagedTransform::DecryptData
 // Il2CppName: DecryptData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Security::Cryptography::RijndaelManagedTransform::*)(::Array<uint8_t>*, int, int, ByRef<::Array<uint8_t>*>, int, System::Security::Cryptography::PaddingMode, bool)>(&System::Security::Cryptography::RijndaelManagedTransform::DecryptData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Security::Cryptography::RijndaelManagedTransform::*)(::ArrayW<uint8_t>, int, int, ByRef<::ArrayW<uint8_t>>, int, System::Security::Cryptography::PaddingMode, bool)>(&System::Security::Cryptography::RijndaelManagedTransform::DecryptData)> {
   static const MethodInfo* get() {
     static auto* inputBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* inputOffset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -422,7 +438,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::RijndaelManagedTransform::GenerateKeyExpansion
 // Il2CppName: GenerateKeyExpansion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::RijndaelManagedTransform::*)(::Array<uint8_t>*)>(&System::Security::Cryptography::RijndaelManagedTransform::GenerateKeyExpansion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::RijndaelManagedTransform::*)(::ArrayW<uint8_t>)>(&System::Security::Cryptography::RijndaelManagedTransform::GenerateKeyExpansion)> {
   static const MethodInfo* get() {
     static auto* rgbKey = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RijndaelManagedTransform*), "GenerateKeyExpansion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rgbKey});

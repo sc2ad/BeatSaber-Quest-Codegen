@@ -14,6 +14,13 @@ namespace Valve::VR {
 // Completed forward declares
 // Type namespace: Valve.VR
 namespace Valve::VR {
+  // Forward declaring type: IVRScreenshots
+  struct IVRScreenshots;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRScreenshots, "Valve.VR", "IVRScreenshots");
+// Type namespace: Valve.VR
+namespace Valve::VR {
   // Size: 0x38
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -35,6 +42,15 @@ namespace Valve::VR {
     class _TakeStereoScreenshot;
     // Nested type: Valve::VR::IVRScreenshots::_SubmitScreenshot
     class _SubmitScreenshot;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // Valve.VR.IVRScreenshots/Valve.VR._RequestScreenshot RequestScreenshot
     // Size: 0x8
     // Offset: 0x0
@@ -77,6 +93,7 @@ namespace Valve::VR {
     Valve::VR::IVRScreenshots::_SubmitScreenshot* SubmitScreenshot;
     // Field size check
     static_assert(sizeof(Valve::VR::IVRScreenshots::_SubmitScreenshot*) == 0x8);
+    public:
     // Creating value type constructor for type: IVRScreenshots
     constexpr IVRScreenshots(Valve::VR::IVRScreenshots::_RequestScreenshot* RequestScreenshot_ = {}, Valve::VR::IVRScreenshots::_HookScreenshot* HookScreenshot_ = {}, Valve::VR::IVRScreenshots::_GetScreenshotPropertyType* GetScreenshotPropertyType_ = {}, Valve::VR::IVRScreenshots::_GetScreenshotPropertyFilename* GetScreenshotPropertyFilename_ = {}, Valve::VR::IVRScreenshots::_UpdateScreenshotProgress* UpdateScreenshotProgress_ = {}, Valve::VR::IVRScreenshots::_TakeStereoScreenshot* TakeStereoScreenshot_ = {}, Valve::VR::IVRScreenshots::_SubmitScreenshot* SubmitScreenshot_ = {}) noexcept : RequestScreenshot{RequestScreenshot_}, HookScreenshot{HookScreenshot_}, GetScreenshotPropertyType{GetScreenshotPropertyType_}, GetScreenshotPropertyFilename{GetScreenshotPropertyFilename_}, UpdateScreenshotProgress{UpdateScreenshotProgress_}, TakeStereoScreenshot{TakeStereoScreenshot_}, SubmitScreenshot{SubmitScreenshot_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -102,6 +119,4 @@ namespace Valve::VR {
   static check_size<sizeof(IVRScreenshots), 48 + sizeof(Valve::VR::IVRScreenshots::_SubmitScreenshot*)> __Valve_VR_IVRScreenshotsSizeCheck;
   static_assert(sizeof(IVRScreenshots) == 0x38);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRScreenshots, "Valve.VR", "IVRScreenshots");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

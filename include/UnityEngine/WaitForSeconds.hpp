@@ -14,6 +14,14 @@
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: WaitForSeconds
+  class WaitForSeconds;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::WaitForSeconds);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::WaitForSeconds*, "UnityEngine", "WaitForSeconds");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x14
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -22,14 +30,22 @@ namespace UnityEngine {
   // [RequiredByNativeCodeAttribute] Offset: EB5288
   class WaitForSeconds : public UnityEngine::YieldInstruction {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // System.Single m_Seconds
     // Size: 0x4
     // Offset: 0x10
     float m_Seconds;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: WaitForSeconds
-    WaitForSeconds(float m_Seconds_ = {}) noexcept : m_Seconds{m_Seconds_} {}
+    public:
     // Creating conversion operator: operator float
     constexpr operator float() const noexcept {
       return m_Seconds;
@@ -48,7 +64,6 @@ namespace UnityEngine {
   static check_size<sizeof(WaitForSeconds), 16 + sizeof(float)> __UnityEngine_WaitForSecondsSizeCheck;
   static_assert(sizeof(WaitForSeconds) == 0x14);
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::WaitForSeconds*, "UnityEngine", "WaitForSeconds");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::WaitForSeconds::New_ctor
 // Il2CppName: .ctor

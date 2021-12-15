@@ -11,7 +11,16 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: Org.BouncyCastle.Crypto.Engines
+namespace Org::BouncyCastle::Crypto::Engines {
+  // Forward declaring type: VmpcKsa3Engine
+  class VmpcKsa3Engine;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Engines::VmpcKsa3Engine);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::VmpcKsa3Engine*, "Org.BouncyCastle.Crypto.Engines", "VmpcKsa3Engine");
 // Type namespace: Org.BouncyCastle.Crypto.Engines
 namespace Org::BouncyCastle::Crypto::Engines {
   // Size: 0x38
@@ -20,8 +29,6 @@ namespace Org::BouncyCastle::Crypto::Engines {
   // [TokenAttribute] Offset: FFFFFFFF
   class VmpcKsa3Engine : public Org::BouncyCastle::Crypto::Engines::VmpcEngine {
     public:
-    // Creating value type constructor for type: VmpcKsa3Engine
-    VmpcKsa3Engine() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x1AB8328
     // Implemented from: Org.BouncyCastle.Crypto.Engines.VmpcEngine
@@ -36,11 +43,10 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Offset: 0x1AB8044
     // Implemented from: Org.BouncyCastle.Crypto.Engines.VmpcEngine
     // Base method: System.Void VmpcEngine::InitKey(System.Byte[] keyBytes, System.Byte[] ivBytes)
-    void InitKey(::Array<uint8_t>* keyBytes, ::Array<uint8_t>* ivBytes);
+    void InitKey(::ArrayW<uint8_t> keyBytes, ::ArrayW<uint8_t> ivBytes);
   }; // Org.BouncyCastle.Crypto.Engines.VmpcKsa3Engine
   #pragma pack(pop)
 }
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::VmpcKsa3Engine*, "Org.BouncyCastle.Crypto.Engines", "VmpcKsa3Engine");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::VmpcKsa3Engine::New_ctor
 // Il2CppName: .ctor
@@ -49,7 +55,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::VmpcKsa3Engine*, "Org
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::VmpcKsa3Engine::InitKey
 // Il2CppName: InitKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Engines::VmpcKsa3Engine::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&Org::BouncyCastle::Crypto::Engines::VmpcKsa3Engine::InitKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Engines::VmpcKsa3Engine::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(&Org::BouncyCastle::Crypto::Engines::VmpcKsa3Engine::InitKey)> {
   static const MethodInfo* get() {
     static auto* keyBytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* ivBytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;

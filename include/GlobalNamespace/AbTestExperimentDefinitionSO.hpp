@@ -7,6 +7,8 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PersistentScriptableObject
 #include "GlobalNamespace/PersistentScriptableObject.hpp"
+// Including type: System.Enum
+#include "System/Enum.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -18,6 +20,14 @@ namespace GlobalNamespace {
   // Skipping declaration: Group because it is already included!
 }
 // Completed forward declares
+// Type namespace: 
+namespace GlobalNamespace {
+  // Forward declaring type: AbTestExperimentDefinitionSO
+  class AbTestExperimentDefinitionSO;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(GlobalNamespace::AbTestExperimentDefinitionSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AbTestExperimentDefinitionSO*, "", "AbTestExperimentDefinitionSO");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x3C
@@ -34,12 +44,22 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct Group/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      #ifdef CODEGEN_FIELD_ACCESSIBILITY
+      CODEGEN_FIELD_ACCESSIBILITY:
+      #else
+      protected:
+      #endif
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: Group
       constexpr Group(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -74,6 +94,15 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(AbTestExperimentDefinitionSO::Group), 0 + sizeof(int)> __GlobalNamespace_AbTestExperimentDefinitionSO_GroupSizeCheck;
     static_assert(sizeof(AbTestExperimentDefinitionSO::Group) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.String _experimentName
     // Size: 0x8
     // Offset: 0x18
@@ -112,8 +141,7 @@ namespace GlobalNamespace {
     GlobalNamespace::AbTestExperimentDefinitionSO::Group currentUserTreatmentGroup;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AbTestExperimentDefinitionSO::Group) == 0x4);
-    // Creating value type constructor for type: AbTestExperimentDefinitionSO
-    AbTestExperimentDefinitionSO(::Il2CppString* experimentName_ = {}, float test1GroupSize_ = {}, float test2GroupSize_ = {}, float controlGroupSize_ = {}, ::Il2CppString* salt_ = {}, GlobalNamespace::AbTestExperimentDefinitionSO::Group currentUserTreatmentGroup_ = {}) noexcept : experimentName{experimentName_}, test1GroupSize{test1GroupSize_}, test2GroupSize{test2GroupSize_}, controlGroupSize{controlGroupSize_}, salt{salt_}, currentUserTreatmentGroup{currentUserTreatmentGroup_} {}
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _experimentName
@@ -169,7 +197,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(AbTestExperimentDefinitionSO), 56 + sizeof(GlobalNamespace::AbTestExperimentDefinitionSO::Group)> __GlobalNamespace_AbTestExperimentDefinitionSOSizeCheck;
   static_assert(sizeof(AbTestExperimentDefinitionSO) == 0x3C);
 }
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AbTestExperimentDefinitionSO*, "", "AbTestExperimentDefinitionSO");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AbTestExperimentDefinitionSO::Group, "", "AbTestExperimentDefinitionSO/Group");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AbTestExperimentDefinitionSO::get_test1GroupSize

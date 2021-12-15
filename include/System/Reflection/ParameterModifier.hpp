@@ -6,11 +6,15 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
-// Begin il2cpp-utils forward declares
-template<class T>
-struct Array;
-// Completed il2cpp-utils forward declares
+// Type namespace: System.Reflection
+namespace System::Reflection {
+  // Forward declaring type: ParameterModifier
+  struct ParameterModifier;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::ParameterModifier, "System.Reflection", "ParameterModifier");
 // Type namespace: System.Reflection
 namespace System::Reflection {
   // Size: 0x8
@@ -22,29 +26,37 @@ namespace System::Reflection {
   // [ComVisibleAttribute] Offset: E9EF54
   struct ParameterModifier/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.Boolean[] _byRef
     // Size: 0x8
     // Offset: 0x0
-    ::Array<bool>* byRef;
+    ::ArrayW<bool> byRef;
     // Field size check
-    static_assert(sizeof(::Array<bool>*) == 0x8);
+    static_assert(sizeof(::ArrayW<bool>) == 0x8);
+    public:
     // Creating value type constructor for type: ParameterModifier
-    constexpr ParameterModifier(::Array<bool>* byRef_ = {}) noexcept : byRef{byRef_} {}
+    constexpr ParameterModifier(::ArrayW<bool> byRef_ = ::ArrayW<bool>(nullptr)) noexcept : byRef{byRef_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Creating conversion operator: operator ::Array<bool>*
-    constexpr operator ::Array<bool>*() const noexcept {
+    // Creating conversion operator: operator ::ArrayW<bool>
+    constexpr operator ::ArrayW<bool>() const noexcept {
       return byRef;
     }
     // Get instance field reference: private System.Boolean[] _byRef
-    ::Array<bool>*& dyn__byRef();
+    ::ArrayW<bool>& dyn__byRef();
   }; // System.Reflection.ParameterModifier
   #pragma pack(pop)
-  static check_size<sizeof(ParameterModifier), 0 + sizeof(::Array<bool>*)> __System_Reflection_ParameterModifierSizeCheck;
+  static check_size<sizeof(ParameterModifier), 0 + sizeof(::ArrayW<bool>)> __System_Reflection_ParameterModifierSizeCheck;
   static_assert(sizeof(ParameterModifier) == 0x8);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::ParameterModifier, "System.Reflection", "ParameterModifier");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

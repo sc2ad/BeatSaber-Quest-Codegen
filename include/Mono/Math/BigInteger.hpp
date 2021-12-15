@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Mono::Math
@@ -22,6 +23,14 @@ namespace System::Security::Cryptography {
   class RandomNumberGenerator;
 }
 // Completed forward declares
+// Type namespace: Mono.Math
+namespace Mono::Math {
+  // Forward declaring type: BigInteger
+  class BigInteger;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(Mono::Math::BigInteger);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Math::BigInteger*, "Mono.Math", "BigInteger");
 // Type namespace: Mono.Math
 namespace Mono::Math {
   // Size: 0x20
@@ -42,12 +51,22 @@ namespace Mono::Math {
     // [TokenAttribute] Offset: FFFFFFFF
     struct Sign/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      #ifdef CODEGEN_FIELD_ACCESSIBILITY
+      CODEGEN_FIELD_ACCESSIBILITY:
+      #else
+      protected:
+      #endif
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: Sign
       constexpr Sign(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -82,6 +101,15 @@ namespace Mono::Math {
     #pragma pack(pop)
     static check_size<sizeof(BigInteger::Sign), 0 + sizeof(int)> __Mono_Math_BigInteger_SignSizeCheck;
     static_assert(sizeof(BigInteger::Sign) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.UInt32 length
     // Size: 0x4
     // Offset: 0x10
@@ -93,15 +121,14 @@ namespace Mono::Math {
     // private System.UInt32[] data
     // Size: 0x8
     // Offset: 0x18
-    ::Array<uint>* data;
+    ::ArrayW<uint> data;
     // Field size check
-    static_assert(sizeof(::Array<uint>*) == 0x8);
-    // Creating value type constructor for type: BigInteger
-    BigInteger(uint length_ = {}, ::Array<uint>* data_ = {}) noexcept : length{length_}, data{data_} {}
+    static_assert(sizeof(::ArrayW<uint>) == 0x8);
+    public:
     // Get static field: static readonly System.UInt32[] smallPrimes
-    static ::Array<uint>* _get_smallPrimes();
+    static ::ArrayW<uint> _get_smallPrimes();
     // Set static field: static readonly System.UInt32[] smallPrimes
-    static void _set_smallPrimes(::Array<uint>* value);
+    static void _set_smallPrimes(::ArrayW<uint> value);
     // Get static field: static private System.Security.Cryptography.RandomNumberGenerator rng
     static System::Security::Cryptography::RandomNumberGenerator* _get_rng();
     // Set static field: static private System.Security.Cryptography.RandomNumberGenerator rng
@@ -109,7 +136,7 @@ namespace Mono::Math {
     // Get instance field reference: private System.UInt32 length
     uint& dyn_length();
     // Get instance field reference: private System.UInt32[] data
-    ::Array<uint>*& dyn_data();
+    ::ArrayW<uint>& dyn_data();
     // static private System.Security.Cryptography.RandomNumberGenerator get_Rng()
     // Offset: 0x1F89020
     static System::Security::Cryptography::RandomNumberGenerator* get_Rng();
@@ -137,7 +164,7 @@ namespace Mono::Math {
     // public System.Void .ctor(System.Byte[] inData)
     // Offset: 0x1F87A70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BigInteger* New_ctor(::Array<uint8_t>* inData) {
+    static BigInteger* New_ctor(::ArrayW<uint8_t> inData) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Math::BigInteger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BigInteger*, creationType>(inData)));
     }
@@ -174,7 +201,7 @@ namespace Mono::Math {
     int LowestSetBit();
     // public System.Byte[] GetBytes()
     // Offset: 0x1F89528
-    ::Array<uint8_t>* GetBytes();
+    ::ArrayW<uint8_t> GetBytes();
     // public System.String ToString(System.UInt32 radix)
     // Offset: 0x1F898E8
     ::Il2CppString* ToString(uint radix);
@@ -210,7 +237,7 @@ namespace Mono::Math {
     bool Equals(::Il2CppObject* o);
   }; // Mono.Math.BigInteger
   #pragma pack(pop)
-  static check_size<sizeof(BigInteger), 24 + sizeof(::Array<uint>*)> __Mono_Math_BigIntegerSizeCheck;
+  static check_size<sizeof(BigInteger), 24 + sizeof(::ArrayW<uint>)> __Mono_Math_BigIntegerSizeCheck;
   static_assert(sizeof(BigInteger) == 0x20);
   // static public Mono.Math.BigInteger op_Subtraction(Mono.Math.BigInteger bi1, Mono.Math.BigInteger bi2)
   // Offset: 0x1F87EFC
@@ -258,7 +285,7 @@ namespace Mono::Math {
   // Offset: 0x1F898CC
   bool operator <=(Mono::Math::BigInteger* bi1, Mono::Math::BigInteger& bi2);
 }
-DEFINE_IL2CPP_ARG_TYPE(Mono::Math::BigInteger*, "Mono.Math", "BigInteger");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Math::BigInteger::Sign, "Mono.Math", "BigInteger/Sign");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Math::BigInteger::get_Rng
@@ -363,7 +390,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 // Writing MetadataGetter for method: Mono::Math::BigInteger::GetBytes
 // Il2CppName: GetBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Mono::Math::BigInteger::*)()>(&Mono::Math::BigInteger::GetBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Mono::Math::BigInteger::*)()>(&Mono::Math::BigInteger::GetBytes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), "GetBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

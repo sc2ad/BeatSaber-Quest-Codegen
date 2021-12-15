@@ -3,7 +3,6 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
@@ -11,10 +10,6 @@
 #include "UnityEngine/Playables/IPlayableOutput.hpp"
 // Including type: UnityEngine.Playables.PlayableOutputHandle
 #include "UnityEngine/Playables/PlayableOutputHandle.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Playables
@@ -30,6 +25,16 @@ namespace UnityEngine {
   class Animator;
 }
 // Completed forward declares
+// Begin il2cpp-utils forward declares
+struct Il2CppString;
+// Completed il2cpp-utils forward declares
+// Type namespace: UnityEngine.Animations
+namespace UnityEngine::Animations {
+  // Forward declaring type: AnimationPlayableOutput
+  struct AnimationPlayableOutput;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationPlayableOutput, "UnityEngine.Animations", "AnimationPlayableOutput");
 // Type namespace: UnityEngine.Animations
 namespace UnityEngine::Animations {
   // Size: 0xC
@@ -46,12 +51,22 @@ namespace UnityEngine::Animations {
   // [NativeHeaderAttribute] Offset: ECE6F4
   struct AnimationPlayableOutput/*, public System::ValueType, public UnityEngine::Playables::IPlayableOutput*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private UnityEngine.Playables.PlayableOutputHandle m_Handle
     // Size: 0xC
     // Offset: 0x0
     UnityEngine::Playables::PlayableOutputHandle m_Handle;
     // Field size check
     static_assert(sizeof(UnityEngine::Playables::PlayableOutputHandle) == 0xC);
+    public:
     // Creating value type constructor for type: AnimationPlayableOutput
     constexpr AnimationPlayableOutput(UnityEngine::Playables::PlayableOutputHandle m_Handle_ = {}) noexcept : m_Handle{m_Handle_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -73,8 +88,7 @@ namespace UnityEngine::Animations {
     static UnityEngine::Animations::AnimationPlayableOutput get_Null();
     // System.Void .ctor(UnityEngine.Playables.PlayableOutputHandle handle)
     // Offset: 0x26364CC
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    // ABORTED: conflicts with another method.  AnimationPlayableOutput(UnityEngine::Playables::PlayableOutputHandle handle)
+    // ABORTED: conflicts with another method.  AnimationPlayableOutput(UnityEngine::Playables::PlayableOutputHandle handle);
     // static public UnityEngine.Animations.AnimationPlayableOutput Create(UnityEngine.Playables.PlayableGraph graph, System.String name, UnityEngine.Animator target)
     // Offset: 0x26362B0
     static UnityEngine::Animations::AnimationPlayableOutput Create(UnityEngine::Playables::PlayableGraph graph, ::Il2CppString* name, UnityEngine::Animator* target);
@@ -101,7 +115,6 @@ namespace UnityEngine::Animations {
   static check_size<sizeof(AnimationPlayableOutput), 0 + sizeof(UnityEngine::Playables::PlayableOutputHandle)> __UnityEngine_Animations_AnimationPlayableOutputSizeCheck;
   static_assert(sizeof(AnimationPlayableOutput) == 0xC);
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationPlayableOutput, "UnityEngine.Animations", "AnimationPlayableOutput");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Animations::AnimationPlayableOutput::get_Null
 // Il2CppName: get_Null

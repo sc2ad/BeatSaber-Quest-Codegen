@@ -15,6 +15,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -25,6 +26,14 @@ namespace GlobalNamespace {
   class IBeatmapObjectSpawnController;
 }
 // Completed forward declares
+// Type namespace: 
+namespace GlobalNamespace {
+  // Forward declaring type: BeatmapObjectAvoidanceYOffsetEvaluator
+  class BeatmapObjectAvoidanceYOffsetEvaluator;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator*, "", "BeatmapObjectAvoidanceYOffsetEvaluator");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x30
@@ -43,6 +52,15 @@ namespace GlobalNamespace {
     // [IsReadOnlyAttribute] Offset: FFFFFFFF
     struct BufferData/*, public System::ValueType*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      #ifdef CODEGEN_FIELD_ACCESSIBILITY
+      CODEGEN_FIELD_ACCESSIBILITY:
+      #else
+      protected:
+      #endif
+      #endif
       // public readonly System.Single songTime
       // Size: 0x4
       // Offset: 0x0
@@ -55,6 +73,7 @@ namespace GlobalNamespace {
       float yOffset;
       // Field size check
       static_assert(sizeof(float) == 0x4);
+      public:
       // Creating value type constructor for type: BufferData
       constexpr BufferData(float songTime_ = {}, float yOffset_ = {}) noexcept : songTime{songTime_}, yOffset{yOffset_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -67,12 +86,20 @@ namespace GlobalNamespace {
       float& dyn_yOffset();
       // public System.Void .ctor(System.Single songTime, System.Single yOffset)
       // Offset: 0x132842C
-      // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-      // ABORTED: conflicts with another method.  BufferData(float songTime, float yOffset)
+      // ABORTED: conflicts with another method.  BufferData(float songTime, float yOffset);
     }; // BeatmapObjectAvoidanceYOffsetEvaluator/BufferData
     #pragma pack(pop)
     static check_size<sizeof(BeatmapObjectAvoidanceYOffsetEvaluator::BufferData), 4 + sizeof(float)> __GlobalNamespace_BeatmapObjectAvoidanceYOffsetEvaluator_BufferDataSizeCheck;
     static_assert(sizeof(BeatmapObjectAvoidanceYOffsetEvaluator::BufferData) == 0x8);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.Int32 _currentYJumpOffsetBufferEndIndex
     // Size: 0x4
     // Offset: 0x10
@@ -88,9 +115,9 @@ namespace GlobalNamespace {
     // private readonly BeatmapObjectAvoidanceYOffsetEvaluator/BufferData[] _yJumpOffsetBuffer
     // Size: 0x8
     // Offset: 0x18
-    ::Array<GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::BufferData>* yJumpOffsetBuffer;
+    ::ArrayW<GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::BufferData> yJumpOffsetBuffer;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::BufferData>*) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::BufferData>) == 0x8);
     // private readonly IAudioTimeSource _audioTimeSource
     // Size: 0x8
     // Offset: 0x20
@@ -103,8 +130,7 @@ namespace GlobalNamespace {
     GlobalNamespace::IBeatmapObjectSpawnController* beatmapObjectSpawnController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IBeatmapObjectSpawnController*) == 0x8);
-    // Creating value type constructor for type: BeatmapObjectAvoidanceYOffsetEvaluator
-    BeatmapObjectAvoidanceYOffsetEvaluator(int currentYJumpOffsetBufferEndIndex_ = {}, float jumpDurationToDesiredZPosition_ = {}, ::Array<GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::BufferData>* yJumpOffsetBuffer_ = {}, GlobalNamespace::IAudioTimeSource* audioTimeSource_ = {}, GlobalNamespace::IBeatmapObjectSpawnController* beatmapObjectSpawnController_ = {}) noexcept : currentYJumpOffsetBufferEndIndex{currentYJumpOffsetBufferEndIndex_}, jumpDurationToDesiredZPosition{jumpDurationToDesiredZPosition_}, yJumpOffsetBuffer{yJumpOffsetBuffer_}, audioTimeSource{audioTimeSource_}, beatmapObjectSpawnController{beatmapObjectSpawnController_} {}
+    public:
     // static field const value: static private System.Int32 kYJumpOffsetBufferLength
     static constexpr const int kYJumpOffsetBufferLength = 2000;
     // Get static field: static private System.Int32 kYJumpOffsetBufferLength
@@ -122,7 +148,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Single _jumpDurationToDesiredZPosition
     float& dyn__jumpDurationToDesiredZPosition();
     // Get instance field reference: private readonly BeatmapObjectAvoidanceYOffsetEvaluator/BufferData[] _yJumpOffsetBuffer
-    ::Array<GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::BufferData>*& dyn__yJumpOffsetBuffer();
+    ::ArrayW<GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::BufferData>& dyn__yJumpOffsetBuffer();
     // Get instance field reference: private readonly IAudioTimeSource _audioTimeSource
     GlobalNamespace::IAudioTimeSource*& dyn__audioTimeSource();
     // Get instance field reference: private readonly IBeatmapObjectSpawnController _beatmapObjectSpawnController
@@ -145,7 +171,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BeatmapObjectAvoidanceYOffsetEvaluator), 40 + sizeof(GlobalNamespace::IBeatmapObjectSpawnController*)> __GlobalNamespace_BeatmapObjectAvoidanceYOffsetEvaluatorSizeCheck;
   static_assert(sizeof(BeatmapObjectAvoidanceYOffsetEvaluator) == 0x30);
 }
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator*, "", "BeatmapObjectAvoidanceYOffsetEvaluator");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::BufferData, "", "BeatmapObjectAvoidanceYOffsetEvaluator/BufferData");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::New_ctor

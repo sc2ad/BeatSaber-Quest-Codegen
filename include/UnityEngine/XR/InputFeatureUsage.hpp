@@ -14,6 +14,13 @@
 // Completed includes
 // Type namespace: UnityEngine.XR
 namespace UnityEngine::XR {
+  // Forward declaring type: InputFeatureUsage
+  struct InputFeatureUsage;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::InputFeatureUsage, "UnityEngine.XR", "InputFeatureUsage");
+// Type namespace: UnityEngine.XR
+namespace UnityEngine::XR {
   // Size: 0xC
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -24,6 +31,15 @@ namespace UnityEngine::XR {
   // [NativeConditionalAttribute] Offset: EDB580
   struct InputFeatureUsage/*, public System::ValueType, public System::IEquatable_1<UnityEngine::XR::InputFeatureUsage>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // System.String m_Name
     // Size: 0x8
     // Offset: 0x0
@@ -37,6 +53,7 @@ namespace UnityEngine::XR {
     UnityEngine::XR::InputFeatureType m_InternalType;
     // Field size check
     static_assert(sizeof(UnityEngine::XR::InputFeatureType) == 0x4);
+    public:
     // Creating value type constructor for type: InputFeatureUsage
     constexpr InputFeatureUsage(::Il2CppString* m_Name_ = {}, UnityEngine::XR::InputFeatureType m_InternalType_ = {}) noexcept : m_Name{m_Name_}, m_InternalType{m_InternalType_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -75,8 +92,6 @@ namespace UnityEngine::XR {
   static check_size<sizeof(InputFeatureUsage), 8 + sizeof(UnityEngine::XR::InputFeatureType)> __UnityEngine_XR_InputFeatureUsageSizeCheck;
   static_assert(sizeof(InputFeatureUsage) == 0xC);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::InputFeatureUsage, "UnityEngine.XR", "InputFeatureUsage");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::XR::InputFeatureUsage::get_name
 // Il2CppName: get_name

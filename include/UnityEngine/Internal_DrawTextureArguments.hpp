@@ -25,6 +25,13 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: Internal_DrawTextureArguments
+  struct Internal_DrawTextureArguments;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Internal_DrawTextureArguments, "UnityEngine", "Internal_DrawTextureArguments");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0xB8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -33,6 +40,15 @@ namespace UnityEngine {
   // [VisibleToOtherModulesAttribute] Offset: FFFFFFFF
   struct Internal_DrawTextureArguments/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public UnityEngine.Rect screenRect
     // Size: 0x10
     // Offset: 0x0
@@ -137,6 +153,7 @@ namespace UnityEngine {
     UnityEngine::Material* mat;
     // Field size check
     static_assert(sizeof(UnityEngine::Material*) == 0x8);
+    public:
     // Creating value type constructor for type: Internal_DrawTextureArguments
     constexpr Internal_DrawTextureArguments(UnityEngine::Rect screenRect_ = {}, UnityEngine::Rect sourceRect_ = {}, int leftBorder_ = {}, int rightBorder_ = {}, int topBorder_ = {}, int bottomBorder_ = {}, UnityEngine::Color leftBorderColor_ = {}, UnityEngine::Color rightBorderColor_ = {}, UnityEngine::Color topBorderColor_ = {}, UnityEngine::Color bottomBorderColor_ = {}, UnityEngine::Color color_ = {}, UnityEngine::Vector4 borderWidths_ = {}, UnityEngine::Vector4 cornerRadiuses_ = {}, bool smoothCorners_ = {}, int pass_ = {}, UnityEngine::Texture* texture_ = {}, UnityEngine::Material* mat_ = {}) noexcept : screenRect{screenRect_}, sourceRect{sourceRect_}, leftBorder{leftBorder_}, rightBorder{rightBorder_}, topBorder{topBorder_}, bottomBorder{bottomBorder_}, leftBorderColor{leftBorderColor_}, rightBorderColor{rightBorderColor_}, topBorderColor{topBorderColor_}, bottomBorderColor{bottomBorderColor_}, color{color_}, borderWidths{borderWidths_}, cornerRadiuses{cornerRadiuses_}, smoothCorners{smoothCorners_}, pass{pass_}, texture{texture_}, mat{mat_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -182,6 +199,4 @@ namespace UnityEngine {
   static check_size<sizeof(Internal_DrawTextureArguments), 176 + sizeof(UnityEngine::Material*)> __UnityEngine_Internal_DrawTextureArgumentsSizeCheck;
   static_assert(sizeof(Internal_DrawTextureArguments) == 0xB8);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Internal_DrawTextureArguments, "UnityEngine", "Internal_DrawTextureArguments");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

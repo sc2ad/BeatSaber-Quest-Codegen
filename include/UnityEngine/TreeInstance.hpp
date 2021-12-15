@@ -14,6 +14,13 @@
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: TreeInstance
+  struct TreeInstance;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TreeInstance, "UnityEngine", "TreeInstance");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x28
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -22,6 +29,15 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: F0D480
   struct TreeInstance/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public UnityEngine.Vector3 position
     // Size: 0xC
     // Offset: 0x0
@@ -70,6 +86,7 @@ namespace UnityEngine {
     float temporaryDistance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: TreeInstance
     constexpr TreeInstance(UnityEngine::Vector3 position_ = {}, float widthScale_ = {}, float heightScale_ = {}, float rotation_ = {}, UnityEngine::Color32 color_ = {}, UnityEngine::Color32 lightmapColor_ = {}, int prototypeIndex_ = {}, float temporaryDistance_ = {}) noexcept : position{position_}, widthScale{widthScale_}, heightScale{heightScale_}, rotation{rotation_}, color{color_}, lightmapColor{lightmapColor_}, prototypeIndex{prototypeIndex_}, temporaryDistance{temporaryDistance_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -97,6 +114,4 @@ namespace UnityEngine {
   static check_size<sizeof(TreeInstance), 36 + sizeof(float)> __UnityEngine_TreeInstanceSizeCheck;
   static_assert(sizeof(TreeInstance) == 0x28);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TreeInstance, "UnityEngine", "TreeInstance");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

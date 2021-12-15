@@ -14,6 +14,13 @@
 // Completed includes
 // Type namespace: UnityEngine.U2D
 namespace UnityEngine::U2D {
+  // Forward declaring type: SpriteBone
+  struct SpriteBone;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::U2D::SpriteBone, "UnityEngine.U2D", "SpriteBone");
+// Type namespace: UnityEngine.U2D
+namespace UnityEngine::U2D {
   // Size: 0x2C
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -26,6 +33,15 @@ namespace UnityEngine::U2D {
   // [MovedFromAttribute] Offset: EB5874
   struct SpriteBone/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // [NativeNameAttribute] Offset: 0xEB887C
     // private System.String m_Name
     // Size: 0x8
@@ -61,6 +77,7 @@ namespace UnityEngine::U2D {
     int m_ParentId;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: SpriteBone
     constexpr SpriteBone(::Il2CppString* m_Name_ = {}, UnityEngine::Vector3 m_Position_ = {}, UnityEngine::Quaternion m_Rotation_ = {}, float m_Length_ = {}, int m_ParentId_ = {}) noexcept : m_Name{m_Name_}, m_Position{m_Position_}, m_Rotation{m_Rotation_}, m_Length{m_Length_}, m_ParentId{m_ParentId_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -82,6 +99,4 @@ namespace UnityEngine::U2D {
   static check_size<sizeof(SpriteBone), 40 + sizeof(int)> __UnityEngine_U2D_SpriteBoneSizeCheck;
   static_assert(sizeof(SpriteBone) == 0x2C);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::U2D::SpriteBone, "UnityEngine.U2D", "SpriteBone");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

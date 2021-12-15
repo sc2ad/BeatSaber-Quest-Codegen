@@ -8,10 +8,6 @@
 #include "System/ValueType.hpp"
 // Including type: System.IEquatable`1
 #include "System/IEquatable_1.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -26,6 +22,13 @@ struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: Zenject
 namespace Zenject {
+  // Forward declaring type: BindingId
+  struct BindingId;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Zenject::BindingId, "Zenject", "BindingId");
+// Type namespace: Zenject
+namespace Zenject {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -34,6 +37,15 @@ namespace Zenject {
   // [DebuggerStepThroughAttribute] Offset: FFFFFFFF
   struct BindingId/*, public System::ValueType, public System::IEquatable_1<Zenject::BindingId>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.Type _type
     // Size: 0x8
     // Offset: 0x0
@@ -46,6 +58,7 @@ namespace Zenject {
     ::Il2CppObject* identifier;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
+    public:
     // Creating value type constructor for type: BindingId
     constexpr BindingId(System::Type* type_ = {}, ::Il2CppObject* identifier_ = {}) noexcept : type{type_}, identifier{identifier_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -74,8 +87,7 @@ namespace Zenject {
     void set_Identifier(::Il2CppObject* value);
     // public System.Void .ctor(System.Type type, System.Object identifier)
     // Offset: 0x14F6C38
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    // ABORTED: conflicts with another method.  BindingId(System::Type* type, ::Il2CppObject* identifier)
+    // ABORTED: conflicts with another method.  BindingId(System::Type* type, ::Il2CppObject* identifier);
     // public System.Boolean Equals(Zenject.BindingId that)
     // Offset: 0x14F6F2C
     bool Equals(Zenject::BindingId that);
@@ -105,7 +117,6 @@ namespace Zenject {
   // Offset: 0x14F6F44
   bool operator !=(const Zenject::BindingId& left, const Zenject::BindingId& right);
 }
-DEFINE_IL2CPP_ARG_TYPE(Zenject::BindingId, "Zenject", "BindingId");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::BindingId::get_Type
 // Il2CppName: get_Type

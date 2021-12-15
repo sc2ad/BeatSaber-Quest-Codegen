@@ -3,13 +3,19 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: Valve.VR.VRTextureDepthInfo_t
 #include "Valve/VR/VRTextureDepthInfo_t.hpp"
 // Completed includes
+// Type namespace: Valve.VR
+namespace Valve::VR {
+  // Forward declaring type: VRTextureWithDepth_t
+  struct VRTextureWithDepth_t;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VRTextureWithDepth_t, "Valve.VR", "VRTextureWithDepth_t");
 // Type namespace: Valve.VR
 namespace Valve::VR {
   // Size: 0x50
@@ -19,12 +25,22 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VRTextureWithDepth_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public Valve.VR.VRTextureDepthInfo_t depth
     // Size: 0x50
     // Offset: 0x0
     Valve::VR::VRTextureDepthInfo_t depth;
     // Field size check
     static_assert(sizeof(Valve::VR::VRTextureDepthInfo_t) == 0x50);
+    public:
     // Creating value type constructor for type: VRTextureWithDepth_t
     constexpr VRTextureWithDepth_t(Valve::VR::VRTextureDepthInfo_t depth_ = {}) noexcept : depth{depth_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -42,6 +58,4 @@ namespace Valve::VR {
   static check_size<sizeof(VRTextureWithDepth_t), 0 + sizeof(Valve::VR::VRTextureDepthInfo_t)> __Valve_VR_VRTextureWithDepth_tSizeCheck;
   static_assert(sizeof(VRTextureWithDepth_t) == 0x50);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VRTextureWithDepth_t, "Valve.VR", "VRTextureWithDepth_t");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

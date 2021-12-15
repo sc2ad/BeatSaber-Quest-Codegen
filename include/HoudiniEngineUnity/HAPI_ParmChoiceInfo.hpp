@@ -9,6 +9,13 @@
 // Completed includes
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
+  // Forward declaring type: HAPI_ParmChoiceInfo
+  struct HAPI_ParmChoiceInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_ParmChoiceInfo, "HoudiniEngineUnity", "HAPI_ParmChoiceInfo");
+// Type namespace: HoudiniEngineUnity
+namespace HoudiniEngineUnity {
   // Size: 0xC
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -16,6 +23,15 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HAPI_ParmChoiceInfo/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.Int32 parentParmId
     // Size: 0x4
     // Offset: 0x0
@@ -34,6 +50,7 @@ namespace HoudiniEngineUnity {
     int valueSH;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: HAPI_ParmChoiceInfo
     constexpr HAPI_ParmChoiceInfo(int parentParmId_ = {}, int labelSH_ = {}, int valueSH_ = {}) noexcept : parentParmId{parentParmId_}, labelSH{labelSH_}, valueSH{valueSH_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -51,6 +68,4 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HAPI_ParmChoiceInfo), 8 + sizeof(int)> __HoudiniEngineUnity_HAPI_ParmChoiceInfoSizeCheck;
   static_assert(sizeof(HAPI_ParmChoiceInfo) == 0xC);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_ParmChoiceInfo, "HoudiniEngineUnity", "HAPI_ParmChoiceInfo");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

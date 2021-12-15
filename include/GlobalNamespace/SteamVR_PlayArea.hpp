@@ -9,10 +9,13 @@
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.Color
 #include "UnityEngine/Color.hpp"
+// Including type: System.Enum
+#include "System/Enum.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -30,6 +33,14 @@ namespace System::Collections {
   class IEnumerator;
 }
 // Completed forward declares
+// Type namespace: 
+namespace GlobalNamespace {
+  // Forward declaring type: SteamVR_PlayArea
+  class SteamVR_PlayArea;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(GlobalNamespace::SteamVR_PlayArea);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_PlayArea*, "", "SteamVR_PlayArea");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x40
@@ -50,12 +61,22 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct Size/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      #ifdef CODEGEN_FIELD_ACCESSIBILITY
+      CODEGEN_FIELD_ACCESSIBILITY:
+      #else
+      protected:
+      #endif
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: Size
       constexpr Size(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -96,6 +117,15 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(SteamVR_PlayArea::Size), 0 + sizeof(int)> __GlobalNamespace_SteamVR_PlayArea_SizeSizeCheck;
     static_assert(sizeof(SteamVR_PlayArea::Size) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.Single borderThickness
     // Size: 0x4
     // Offset: 0x18
@@ -137,11 +167,10 @@ namespace GlobalNamespace {
     // public UnityEngine.Vector3[] vertices
     // Size: 0x8
     // Offset: 0x38
-    ::Array<UnityEngine::Vector3>* vertices;
+    ::ArrayW<UnityEngine::Vector3> vertices;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Vector3>*) == 0x8);
-    // Creating value type constructor for type: SteamVR_PlayArea
-    SteamVR_PlayArea(float borderThickness_ = {}, float wireframeHeight_ = {}, bool drawWireframeWhenSelectedOnly_ = {}, bool drawInGame_ = {}, GlobalNamespace::SteamVR_PlayArea::Size size_ = {}, UnityEngine::Color color_ = {}, ::Array<UnityEngine::Vector3>* vertices_ = {}) noexcept : borderThickness{borderThickness_}, wireframeHeight{wireframeHeight_}, drawWireframeWhenSelectedOnly{drawWireframeWhenSelectedOnly_}, drawInGame{drawInGame_}, size{size_}, color{color_}, vertices{vertices_} {}
+    static_assert(sizeof(::ArrayW<UnityEngine::Vector3>) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Single borderThickness
@@ -157,7 +186,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.Color color
     UnityEngine::Color& dyn_color();
     // Get instance field reference: public UnityEngine.Vector3[] vertices
-    ::Array<UnityEngine::Vector3>*& dyn_vertices();
+    ::ArrayW<UnityEngine::Vector3>& dyn_vertices();
     // static public System.Boolean GetBounds(SteamVR_PlayArea/Size size, ref Valve.VR.HmdQuad_t pRect)
     // Offset: 0x15C3A28
     static bool GetBounds(GlobalNamespace::SteamVR_PlayArea::Size size, ByRef<Valve::VR::HmdQuad_t> pRect);
@@ -194,10 +223,10 @@ namespace GlobalNamespace {
     }
   }; // SteamVR_PlayArea
   #pragma pack(pop)
-  static check_size<sizeof(SteamVR_PlayArea), 56 + sizeof(::Array<UnityEngine::Vector3>*)> __GlobalNamespace_SteamVR_PlayAreaSizeCheck;
+  static check_size<sizeof(SteamVR_PlayArea), 56 + sizeof(::ArrayW<UnityEngine::Vector3>)> __GlobalNamespace_SteamVR_PlayAreaSizeCheck;
   static_assert(sizeof(SteamVR_PlayArea) == 0x40);
 }
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_PlayArea*, "", "SteamVR_PlayArea");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_PlayArea::Size, "", "SteamVR_PlayArea/Size");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_PlayArea::GetBounds

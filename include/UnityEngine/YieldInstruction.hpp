@@ -12,6 +12,14 @@
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: YieldInstruction
+  class YieldInstruction;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::YieldInstruction);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::YieldInstruction*, "UnityEngine", "YieldInstruction");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -20,8 +28,6 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: EB5298
   class YieldInstruction : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: YieldInstruction
-    YieldInstruction() noexcept {}
     // public System.Void .ctor()
     // Offset: 0x243F854
     // Implemented from: System.Object
@@ -34,7 +40,6 @@ namespace UnityEngine {
   }; // UnityEngine.YieldInstruction
   #pragma pack(pop)
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::YieldInstruction*, "UnityEngine", "YieldInstruction");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::YieldInstruction::New_ctor
 // Il2CppName: .ctor

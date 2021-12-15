@@ -42,6 +42,13 @@ namespace System::Globalization {
 // Completed forward declares
 // Type namespace: System
 namespace System {
+  // Forward declaring type: SByte
+  struct SByte;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::SByte, "System", "SByte");
+// Type namespace: System
+namespace System {
   // Size: 0x1
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -51,12 +58,22 @@ namespace System {
   // [ComVisibleAttribute] Offset: E9DC30
   struct SByte/*, public System::ValueType, public System::IComparable_1<int8_t>, public System::IEquatable_1<int8_t>, public System::IComparable, public System::IConvertible, public System::IFormattable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.SByte m_value
     // Size: 0x1
     // Offset: 0x0
     int8_t m_value;
     // Field size check
     static_assert(sizeof(int8_t) == 0x1);
+    public:
     // Creating value type constructor for type: SByte
     constexpr SByte(int8_t m_value_ = {}) noexcept : m_value{m_value_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -196,8 +213,6 @@ namespace System {
   static check_size<sizeof(SByte), 0 + sizeof(int8_t)> __System_SByteSizeCheck;
   static_assert(sizeof(SByte) == 0x1);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::SByte, "System", "SByte");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::SByte::CompareTo
 // Il2CppName: CompareTo

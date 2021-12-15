@@ -42,6 +42,13 @@ namespace System::Globalization {
 // Completed forward declares
 // Type namespace: System
 namespace System {
+  // Forward declaring type: Double
+  struct Double;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Double, "System", "Double");
+// Type namespace: System
+namespace System {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -50,12 +57,22 @@ namespace System {
   // [ComVisibleAttribute] Offset: E9D5CC
   struct Double/*, public System::ValueType, public System::IComparable_1<double>, public System::IEquatable_1<double>, public System::IComparable, public System::IConvertible, public System::IFormattable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // System.Double m_value
     // Size: 0x8
     // Offset: 0x0
     double m_value;
     // Field size check
     static_assert(sizeof(double) == 0x8);
+    public:
     // Creating value type constructor for type: Double
     constexpr Double(double m_value_ = {}) noexcept : m_value{m_value_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -241,8 +258,6 @@ namespace System {
   static check_size<sizeof(Double), 0 + sizeof(double)> __System_DoubleSizeCheck;
   static_assert(sizeof(Double) == 0x8);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Double, "System", "Double");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Double::_cctor
 // Il2CppName: .cctor

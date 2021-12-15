@@ -8,10 +8,6 @@
 #include "System/ValueType.hpp"
 // Including type: System.Reflection.CustomAttributeTypedArgument
 #include "System/Reflection/CustomAttributeTypedArgument.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection
@@ -26,6 +22,13 @@ struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Reflection
 namespace System::Reflection {
+  // Forward declaring type: CustomAttributeNamedArgument
+  struct CustomAttributeNamedArgument;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::CustomAttributeNamedArgument, "System.Reflection", "CustomAttributeNamedArgument");
+// Type namespace: System.Reflection
+namespace System::Reflection {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -34,6 +37,15 @@ namespace System::Reflection {
   // [ComVisibleAttribute] Offset: E9F2A0
   struct CustomAttributeNamedArgument/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.Reflection.CustomAttributeTypedArgument typedArgument
     // Size: 0x10
     // Offset: 0x0
@@ -46,6 +58,7 @@ namespace System::Reflection {
     System::Reflection::MemberInfo* memberInfo;
     // Field size check
     static_assert(sizeof(System::Reflection::MemberInfo*) == 0x8);
+    public:
     // Creating value type constructor for type: CustomAttributeNamedArgument
     constexpr CustomAttributeNamedArgument(System::Reflection::CustomAttributeTypedArgument typedArgument_ = {}, System::Reflection::MemberInfo* memberInfo_ = {}) noexcept : typedArgument{typedArgument_}, memberInfo{memberInfo_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -58,12 +71,7 @@ namespace System::Reflection {
     System::Reflection::MemberInfo*& dyn_memberInfo();
     // public System.Void .ctor(System.Reflection.MemberInfo memberInfo, System.Object value)
     // Offset: 0x1E912B8
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    CustomAttributeNamedArgument(System::Reflection::MemberInfo* memberInfo, ::Il2CppObject* value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::CustomAttributeNamedArgument::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(memberInfo), ::il2cpp_utils::ExtractType(value)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, memberInfo, value);
-    }
+    CustomAttributeNamedArgument(System::Reflection::MemberInfo* memberInfo, ::Il2CppObject* value);
     // public override System.String ToString()
     // Offset: 0x1E905F0
     // Implemented from: System.ValueType
@@ -84,7 +92,6 @@ namespace System::Reflection {
   static check_size<sizeof(CustomAttributeNamedArgument), 16 + sizeof(System::Reflection::MemberInfo*)> __System_Reflection_CustomAttributeNamedArgumentSizeCheck;
   static_assert(sizeof(CustomAttributeNamedArgument) == 0x18);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::CustomAttributeNamedArgument, "System.Reflection", "CustomAttributeNamedArgument");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::CustomAttributeNamedArgument::CustomAttributeNamedArgument
 // Il2CppName: .ctor

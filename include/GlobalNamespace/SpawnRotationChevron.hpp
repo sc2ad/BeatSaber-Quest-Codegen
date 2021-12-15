@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -21,6 +22,14 @@ namespace GlobalNamespace {
   class TubeBloomPrePassLight;
 }
 // Completed forward declares
+// Type namespace: 
+namespace GlobalNamespace {
+  // Forward declaring type: SpawnRotationChevron
+  class SpawnRotationChevron;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(GlobalNamespace::SpawnRotationChevron);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SpawnRotationChevron*, "", "SpawnRotationChevron");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x4C
@@ -33,12 +42,21 @@ namespace GlobalNamespace {
     char ___base_padding[0x7] = {};
     // Nested type: GlobalNamespace::SpawnRotationChevron::Pool
     class Pool;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private TubeBloomPrePassLight[] _lights
     // Size: 0x8
     // Offset: 0x30
-    ::Array<GlobalNamespace::TubeBloomPrePassLight*>* lights;
+    ::ArrayW<GlobalNamespace::TubeBloomPrePassLight*> lights;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::TubeBloomPrePassLight*>*) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::TubeBloomPrePassLight*>) == 0x8);
     // private UnityEngine.Color _color
     // Size: 0x10
     // Offset: 0x38
@@ -51,10 +69,9 @@ namespace GlobalNamespace {
     float lightAmount;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: SpawnRotationChevron
-    SpawnRotationChevron(::Array<GlobalNamespace::TubeBloomPrePassLight*>* lights_ = {}, UnityEngine::Color color_ = {}, float lightAmount_ = {}) noexcept : lights{lights_}, color{color_}, lightAmount{lightAmount_} {}
+    public:
     // Get instance field reference: private TubeBloomPrePassLight[] _lights
-    ::Array<GlobalNamespace::TubeBloomPrePassLight*>*& dyn__lights();
+    ::ArrayW<GlobalNamespace::TubeBloomPrePassLight*>& dyn__lights();
     // Get instance field reference: private UnityEngine.Color _color
     UnityEngine::Color& dyn__color();
     // Get instance field reference: private System.Single _lightAmount
@@ -89,7 +106,6 @@ namespace GlobalNamespace {
   static check_size<sizeof(SpawnRotationChevron), 72 + sizeof(float)> __GlobalNamespace_SpawnRotationChevronSizeCheck;
   static_assert(sizeof(SpawnRotationChevron) == 0x4C);
 }
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SpawnRotationChevron*, "", "SpawnRotationChevron");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SpawnRotationChevron::SetLightAmount
 // Il2CppName: SetLightAmount

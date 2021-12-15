@@ -18,6 +18,13 @@
 // Completed includes
 // Type namespace: TMPro.SpriteAssetUtilities
 namespace TMPro::SpriteAssetUtilities {
+  // Forward declaring type: SpriteData
+  struct SpriteData;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::SpriteAssetUtilities::TexturePacker::SpriteData, "TMPro.SpriteAssetUtilities", "TexturePacker/SpriteData");
+// Type namespace: TMPro.SpriteAssetUtilities
+namespace TMPro::SpriteAssetUtilities {
   // Size: 0x3C
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -25,6 +32,15 @@ namespace TMPro::SpriteAssetUtilities {
   // [TokenAttribute] Offset: FFFFFFFF
   struct TexturePacker::SpriteData/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.String filename
     // Size: 0x8
     // Offset: 0x0
@@ -69,6 +85,7 @@ namespace TMPro::SpriteAssetUtilities {
     UnityEngine::Vector2 pivot;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector2) == 0x8);
+    public:
     // Creating value type constructor for type: SpriteData
     constexpr SpriteData(::Il2CppString* filename_ = {}, TMPro::SpriteAssetUtilities::TexturePacker::SpriteFrame frame_ = {}, bool rotated_ = {}, bool trimmed_ = {}, TMPro::SpriteAssetUtilities::TexturePacker::SpriteFrame spriteSourceSize_ = {}, TMPro::SpriteAssetUtilities::TexturePacker::SpriteSize sourceSize_ = {}, UnityEngine::Vector2 pivot_ = {}) noexcept : filename{filename_}, frame{frame_}, rotated{rotated_}, trimmed{trimmed_}, spriteSourceSize{spriteSourceSize_}, sourceSize{sourceSize_}, pivot{pivot_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -94,6 +111,4 @@ namespace TMPro::SpriteAssetUtilities {
   static check_size<sizeof(TexturePacker::SpriteData), 52 + sizeof(UnityEngine::Vector2)> __TMPro_SpriteAssetUtilities_TexturePacker_SpriteDataSizeCheck;
   static_assert(sizeof(TexturePacker::SpriteData) == 0x3C);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(TMPro::SpriteAssetUtilities::TexturePacker::SpriteData, "TMPro.SpriteAssetUtilities", "TexturePacker/SpriteData");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

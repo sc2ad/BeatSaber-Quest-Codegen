@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: UICharInfo
+  struct UICharInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UICharInfo, "UnityEngine", "UICharInfo");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0xC
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -20,6 +27,15 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: ECC428
   struct UICharInfo/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public UnityEngine.Vector2 cursorPos
     // Size: 0x8
     // Offset: 0x0
@@ -32,6 +48,7 @@ namespace UnityEngine {
     float charWidth;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: UICharInfo
     constexpr UICharInfo(UnityEngine::Vector2 cursorPos_ = {}, float charWidth_ = {}) noexcept : cursorPos{cursorPos_}, charWidth{charWidth_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -47,6 +64,4 @@ namespace UnityEngine {
   static check_size<sizeof(UICharInfo), 8 + sizeof(float)> __UnityEngine_UICharInfoSizeCheck;
   static_assert(sizeof(UICharInfo) == 0xC);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UICharInfo, "UnityEngine", "UICharInfo");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -27,6 +27,13 @@ namespace LiteNetLib::Utils {
 // Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
+  // Forward declaring type: StandardScoreSyncState
+  struct StandardScoreSyncState;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardScoreSyncState, "", "StandardScoreSyncState");
+// Type namespace: 
+namespace GlobalNamespace {
   // Size: 0x14
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -34,6 +41,15 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct StandardScoreSyncState/*, public System::ValueType, public LiteNetLib::Utils::INetSerializable, public GlobalNamespace::IStateTable_3<GlobalNamespace::StandardScoreSyncState, GlobalNamespace::StandardScoreSyncState_Score, int>, public GlobalNamespace::IEquatableByReference_1<GlobalNamespace::StandardScoreSyncState>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.Int32 _modifiedScore
     // Size: 0x4
     // Offset: 0x0
@@ -64,6 +80,7 @@ namespace GlobalNamespace {
     int multiplier;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: StandardScoreSyncState
     constexpr StandardScoreSyncState(int modifiedScore_ = {}, int rawScore_ = {}, int immediateMaxPossibleRawScore_ = {}, int combo_ = {}, int multiplier_ = {}) noexcept : modifiedScore{modifiedScore_}, rawScore{rawScore_}, immediateMaxPossibleRawScore{immediateMaxPossibleRawScore_}, combo{combo_}, multiplier{multiplier_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -130,8 +147,6 @@ namespace GlobalNamespace {
   static check_size<sizeof(StandardScoreSyncState), 16 + sizeof(int)> __GlobalNamespace_StandardScoreSyncStateSizeCheck;
   static_assert(sizeof(StandardScoreSyncState) == 0x14);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardScoreSyncState, "", "StandardScoreSyncState");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::StandardScoreSyncState::SetState
 // Il2CppName: SetState

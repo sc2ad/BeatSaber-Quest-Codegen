@@ -3,13 +3,19 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
 // Completed includes
+// Type namespace: UnityEngine.Animations
+namespace UnityEngine::Animations {
+  // Forward declaring type: AnimationStream
+  struct AnimationStream;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationStream, "UnityEngine.Animations", "AnimationStream");
 // Type namespace: UnityEngine.Animations
 namespace UnityEngine::Animations {
   // Size: 0x38
@@ -23,6 +29,15 @@ namespace UnityEngine::Animations {
   // [MovedFromAttribute] Offset: ECEA50
   struct AnimationStream/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.UInt32 m_AnimatorBindingsVersion
     // Size: 0x4
     // Offset: 0x0
@@ -67,6 +82,7 @@ namespace UnityEngine::Animations {
     System::IntPtr animationHandleBinder;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
+    public:
     // Creating value type constructor for type: AnimationStream
     constexpr AnimationStream(uint m_AnimatorBindingsVersion_ = {}, System::IntPtr constant_ = {}, System::IntPtr input_ = {}, System::IntPtr output_ = {}, System::IntPtr workspace_ = {}, System::IntPtr inputStreamAccessor_ = {}, System::IntPtr animationHandleBinder_ = {}) noexcept : m_AnimatorBindingsVersion{m_AnimatorBindingsVersion_}, constant{constant_}, input{input_}, output{output_}, workspace{workspace_}, inputStreamAccessor{inputStreamAccessor_}, animationHandleBinder{animationHandleBinder_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -92,6 +108,4 @@ namespace UnityEngine::Animations {
   static check_size<sizeof(AnimationStream), 48 + sizeof(System::IntPtr)> __UnityEngine_Animations_AnimationStreamSizeCheck;
   static_assert(sizeof(AnimationStream) == 0x38);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationStream, "UnityEngine.Animations", "AnimationStream");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

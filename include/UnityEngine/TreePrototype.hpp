@@ -19,6 +19,14 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: TreePrototype
+  class TreePrototype;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::TreePrototype);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TreePrototype*, "UnityEngine", "TreePrototype");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x1C
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -27,6 +35,15 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: F0D460
   class TreePrototype : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // UnityEngine.GameObject m_Prefab
     // Size: 0x8
     // Offset: 0x10
@@ -39,8 +56,7 @@ namespace UnityEngine {
     float m_BendFactor;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // Creating value type constructor for type: TreePrototype
-    TreePrototype(UnityEngine::GameObject* m_Prefab_ = {}, float m_BendFactor_ = {}) noexcept : m_Prefab{m_Prefab_}, m_BendFactor{m_BendFactor_} {}
+    public:
     // Get instance field reference: UnityEngine.GameObject m_Prefab
     UnityEngine::GameObject*& dyn_m_Prefab();
     // Get instance field reference: System.Single m_BendFactor
@@ -84,7 +100,6 @@ namespace UnityEngine {
   static check_size<sizeof(TreePrototype), 24 + sizeof(float)> __UnityEngine_TreePrototypeSizeCheck;
   static_assert(sizeof(TreePrototype) == 0x1C);
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TreePrototype*, "UnityEngine", "TreePrototype");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TreePrototype::get_prefab
 // Il2CppName: get_prefab

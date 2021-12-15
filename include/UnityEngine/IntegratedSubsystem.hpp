@@ -23,6 +23,14 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: IntegratedSubsystem
+  class IntegratedSubsystem;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::IntegratedSubsystem);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::IntegratedSubsystem*, "UnityEngine", "IntegratedSubsystem");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x20
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -32,6 +40,15 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: ECAE88
   class IntegratedSubsystem : public ::Il2CppObject/*, public UnityEngine::ISubsystem*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // System.IntPtr m_Ptr
     // Size: 0x8
     // Offset: 0x10
@@ -44,8 +61,7 @@ namespace UnityEngine {
     UnityEngine::ISubsystemDescriptor* m_subsystemDescriptor;
     // Field size check
     static_assert(sizeof(UnityEngine::ISubsystemDescriptor*) == 0x8);
-    // Creating value type constructor for type: IntegratedSubsystem
-    IntegratedSubsystem(System::IntPtr m_Ptr_ = {}, UnityEngine::ISubsystemDescriptor* m_subsystemDescriptor_ = {}) noexcept : m_Ptr{m_Ptr_}, m_subsystemDescriptor{m_subsystemDescriptor_} {}
+    public:
     // Creating interface conversion operator: operator UnityEngine::ISubsystem
     operator UnityEngine::ISubsystem() noexcept {
       return *reinterpret_cast<UnityEngine::ISubsystem*>(this);
@@ -71,7 +87,6 @@ namespace UnityEngine {
   static check_size<sizeof(IntegratedSubsystem), 24 + sizeof(UnityEngine::ISubsystemDescriptor*)> __UnityEngine_IntegratedSubsystemSizeCheck;
   static_assert(sizeof(IntegratedSubsystem) == 0x20);
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::IntegratedSubsystem*, "UnityEngine", "IntegratedSubsystem");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::IntegratedSubsystem::SetHandle
 // Il2CppName: SetHandle

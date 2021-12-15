@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
+  // Forward declaring type: HAPI_NodeInfo
+  struct HAPI_NodeInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_NodeInfo, "HoudiniEngineUnity", "HAPI_NodeInfo");
+// Type namespace: HoudiniEngineUnity
+namespace HoudiniEngineUnity {
   // Size: 0x42
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -19,6 +26,15 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HAPI_NodeInfo/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.Int32 id
     // Size: 0x4
     // Offset: 0x0
@@ -129,6 +145,7 @@ namespace HoudiniEngineUnity {
     bool isTimeDependent;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating value type constructor for type: HAPI_NodeInfo
     constexpr HAPI_NodeInfo(int id_ = {}, int parentId_ = {}, int nameSH_ = {}, HoudiniEngineUnity::HAPI_NodeType type_ = {}, bool isValid_ = {}, int totalCookCount_ = {}, int uniqueHoudiniNodeId_ = {}, int internalNodePathSH_ = {}, int parmCount_ = {}, int parmIntValueCount_ = {}, int parmFloatValueCount_ = {}, int parmStringValueCount_ = {}, int parmChoiceCount_ = {}, int childNodeCount_ = {}, int inputCount_ = {}, int outputCount_ = {}, bool createdPostAssetLoad_ = {}, bool isTimeDependent_ = {}) noexcept : id{id_}, parentId{parentId_}, nameSH{nameSH_}, type{type_}, isValid{isValid_}, totalCookCount{totalCookCount_}, uniqueHoudiniNodeId{uniqueHoudiniNodeId_}, internalNodePathSH{internalNodePathSH_}, parmCount{parmCount_}, parmIntValueCount{parmIntValueCount_}, parmFloatValueCount{parmFloatValueCount_}, parmStringValueCount{parmStringValueCount_}, parmChoiceCount{parmChoiceCount_}, childNodeCount{childNodeCount_}, inputCount{inputCount_}, outputCount{outputCount_}, createdPostAssetLoad{createdPostAssetLoad_}, isTimeDependent{isTimeDependent_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -176,6 +193,4 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HAPI_NodeInfo), 65 + sizeof(bool)> __HoudiniEngineUnity_HAPI_NodeInfoSizeCheck;
   static_assert(sizeof(HAPI_NodeInfo) == 0x42);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_NodeInfo, "HoudiniEngineUnity", "HAPI_NodeInfo");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

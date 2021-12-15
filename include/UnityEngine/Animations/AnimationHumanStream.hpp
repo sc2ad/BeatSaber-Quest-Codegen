@@ -3,13 +3,19 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
 // Completed includes
+// Type namespace: UnityEngine.Animations
+namespace UnityEngine::Animations {
+  // Forward declaring type: AnimationHumanStream
+  struct AnimationHumanStream;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationHumanStream, "UnityEngine.Animations", "AnimationHumanStream");
 // Type namespace: UnityEngine.Animations
 namespace UnityEngine::Animations {
   // Size: 0x8
@@ -23,12 +29,22 @@ namespace UnityEngine::Animations {
   // [MovedFromAttribute] Offset: ECE244
   struct AnimationHumanStream/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.IntPtr stream
     // Size: 0x8
     // Offset: 0x0
     System::IntPtr stream;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
+    public:
     // Creating value type constructor for type: AnimationHumanStream
     constexpr AnimationHumanStream(System::IntPtr stream_ = {}) noexcept : stream{stream_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -46,6 +62,4 @@ namespace UnityEngine::Animations {
   static check_size<sizeof(AnimationHumanStream), 0 + sizeof(System::IntPtr)> __UnityEngine_Animations_AnimationHumanStreamSizeCheck;
   static_assert(sizeof(AnimationHumanStream) == 0x8);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationHumanStream, "UnityEngine.Animations", "AnimationHumanStream");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

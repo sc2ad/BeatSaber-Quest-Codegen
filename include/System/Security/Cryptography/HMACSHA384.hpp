@@ -11,7 +11,16 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: System.Security.Cryptography
+namespace System::Security::Cryptography {
+  // Forward declaring type: HMACSHA384
+  class HMACSHA384;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Security::Cryptography::HMACSHA384);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::HMACSHA384*, "System.Security.Cryptography", "HMACSHA384");
 // Type namespace: System.Security.Cryptography
 namespace System::Security::Cryptography {
   // Size: 0x62
@@ -21,14 +30,22 @@ namespace System::Security::Cryptography {
   // [ComVisibleAttribute] Offset: EA0938
   class HMACSHA384 : public System::Security::Cryptography::HMAC {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.Boolean m_useLegacyBlockSize
     // Size: 0x1
     // Offset: 0x61
     bool m_useLegacyBlockSize;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: HMACSHA384
-    HMACSHA384(bool m_useLegacyBlockSize_ = {}) noexcept : m_useLegacyBlockSize{m_useLegacyBlockSize_} {}
+    public:
     // Get instance field reference: private System.Boolean m_useLegacyBlockSize
     bool& dyn_m_useLegacyBlockSize();
     // private System.Int32 get_BlockSize()
@@ -37,7 +54,7 @@ namespace System::Security::Cryptography {
     // public System.Void .ctor(System.Byte[] key)
     // Offset: 0x1A991B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static HMACSHA384* New_ctor(::Array<uint8_t>* key) {
+    static HMACSHA384* New_ctor(::ArrayW<uint8_t> key) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::HMACSHA384::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HMACSHA384*, creationType>(key)));
     }
@@ -58,7 +75,6 @@ namespace System::Security::Cryptography {
   static check_size<sizeof(HMACSHA384), 97 + sizeof(bool)> __System_Security_Cryptography_HMACSHA384SizeCheck;
   static_assert(sizeof(HMACSHA384) == 0x62);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::HMACSHA384*, "System.Security.Cryptography", "HMACSHA384");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::HMACSHA384::get_BlockSize
 // Il2CppName: get_BlockSize

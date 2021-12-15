@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: System
 namespace System {
+  // Forward declaring type: DTSubString
+  struct DTSubString;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::DTSubString, "System", "DTSubString");
+// Type namespace: System
+namespace System {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -20,6 +27,15 @@ namespace System {
   // [DefaultMemberAttribute] Offset: E9D780
   struct DTSubString/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // System.String s
     // Size: 0x8
     // Offset: 0x0
@@ -50,6 +66,7 @@ namespace System {
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: DTSubString
     constexpr DTSubString(::Il2CppString* s_ = {}, int index_ = {}, int length_ = {}, System::DTSubStringType type_ = {}, int value_ = {}) noexcept : s{s_}, index{index_}, length{length_}, type{type_}, value{value_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -74,8 +91,6 @@ namespace System {
   static check_size<sizeof(DTSubString), 20 + sizeof(int)> __System_DTSubStringSizeCheck;
   static_assert(sizeof(DTSubString) == 0x18);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::DTSubString, "System", "DTSubString");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::DTSubString::get_Item
 // Il2CppName: get_Item

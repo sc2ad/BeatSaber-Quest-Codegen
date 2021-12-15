@@ -3,13 +3,19 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
 // Completed includes
+// Type namespace: Valve.VR
+namespace Valve::VR {
+  // Forward declaring type: RenderModel_t
+  struct RenderModel_t;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::RenderModel_t, "Valve.VR", "RenderModel_t");
 // Type namespace: Valve.VR
 namespace Valve::VR {
   // Size: 0x20
@@ -19,6 +25,15 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct RenderModel_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.IntPtr rVertexData
     // Size: 0x8
     // Offset: 0x0
@@ -51,6 +66,7 @@ namespace Valve::VR {
     int diffuseTextureId;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: RenderModel_t
     constexpr RenderModel_t(System::IntPtr rVertexData_ = {}, uint unVertexCount_ = {}, System::IntPtr rIndexData_ = {}, uint unTriangleCount_ = {}, int diffuseTextureId_ = {}) noexcept : rVertexData{rVertexData_}, unVertexCount{unVertexCount_}, rIndexData{rIndexData_}, unTriangleCount{unTriangleCount_}, diffuseTextureId{diffuseTextureId_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -72,6 +88,4 @@ namespace Valve::VR {
   static check_size<sizeof(RenderModel_t), 28 + sizeof(int)> __Valve_VR_RenderModel_tSizeCheck;
   static_assert(sizeof(RenderModel_t) == 0x20);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::RenderModel_t, "Valve.VR", "RenderModel_t");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

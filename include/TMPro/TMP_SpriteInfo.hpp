@@ -9,6 +9,13 @@
 // Completed includes
 // Type namespace: TMPro
 namespace TMPro {
+  // Forward declaring type: TMP_SpriteInfo
+  struct TMP_SpriteInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_SpriteInfo, "TMPro", "TMP_SpriteInfo");
+// Type namespace: TMPro
+namespace TMPro {
   // Size: 0xC
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -16,6 +23,15 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   struct TMP_SpriteInfo/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.Int32 spriteIndex
     // Size: 0x4
     // Offset: 0x0
@@ -34,6 +50,7 @@ namespace TMPro {
     int vertexIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: TMP_SpriteInfo
     constexpr TMP_SpriteInfo(int spriteIndex_ = {}, int characterIndex_ = {}, int vertexIndex_ = {}) noexcept : spriteIndex{spriteIndex_}, characterIndex{characterIndex_}, vertexIndex{vertexIndex_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -51,6 +68,4 @@ namespace TMPro {
   static check_size<sizeof(TMP_SpriteInfo), 8 + sizeof(int)> __TMPro_TMP_SpriteInfoSizeCheck;
   static_assert(sizeof(TMP_SpriteInfo) == 0xC);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_SpriteInfo, "TMPro", "TMP_SpriteInfo");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

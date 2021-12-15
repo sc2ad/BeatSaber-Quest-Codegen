@@ -11,7 +11,16 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: System.Security.Cryptography
+namespace System::Security::Cryptography {
+  // Forward declaring type: HashAlgorithm
+  class HashAlgorithm;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Security::Cryptography::HashAlgorithm);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::HashAlgorithm*, "System.Security.Cryptography", "HashAlgorithm");
 // Type namespace: System.Security.Cryptography
 namespace System::Security::Cryptography {
   // Size: 0x25
@@ -21,6 +30,15 @@ namespace System::Security::Cryptography {
   // [ComVisibleAttribute] Offset: EA08C0
   class HashAlgorithm : public ::Il2CppObject/*, public System::Security::Cryptography::ICryptoTransform*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // protected System.Int32 HashSizeValue
     // Size: 0x4
     // Offset: 0x10
@@ -32,9 +50,9 @@ namespace System::Security::Cryptography {
     // protected internal System.Byte[] HashValue
     // Size: 0x8
     // Offset: 0x18
-    ::Array<uint8_t>* HashValue;
+    ::ArrayW<uint8_t> HashValue;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // protected System.Int32 State
     // Size: 0x4
     // Offset: 0x20
@@ -47,8 +65,7 @@ namespace System::Security::Cryptography {
     bool m_bDisposed;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: HashAlgorithm
-    HashAlgorithm(int HashSizeValue_ = {}, ::Array<uint8_t>* HashValue_ = {}, int State_ = {}, bool m_bDisposed_ = {}) noexcept : HashSizeValue{HashSizeValue_}, HashValue{HashValue_}, State{State_}, m_bDisposed{m_bDisposed_} {}
+    public:
     // Creating interface conversion operator: operator System::Security::Cryptography::ICryptoTransform
     operator System::Security::Cryptography::ICryptoTransform() noexcept {
       return *reinterpret_cast<System::Security::Cryptography::ICryptoTransform*>(this);
@@ -56,7 +73,7 @@ namespace System::Security::Cryptography {
     // Get instance field reference: protected System.Int32 HashSizeValue
     int& dyn_HashSizeValue();
     // Get instance field reference: protected internal System.Byte[] HashValue
-    ::Array<uint8_t>*& dyn_HashValue();
+    ::ArrayW<uint8_t>& dyn_HashValue();
     // Get instance field reference: protected System.Int32 State
     int& dyn_State();
     // Get instance field reference: private System.Boolean m_bDisposed
@@ -66,7 +83,7 @@ namespace System::Security::Cryptography {
     int get_HashSize();
     // public System.Byte[] get_Hash()
     // Offset: 0x1A993C0
-    ::Array<uint8_t>* get_Hash();
+    ::ArrayW<uint8_t> get_Hash();
     // public System.Int32 get_InputBlockSize()
     // Offset: 0x1A99770
     int get_InputBlockSize();
@@ -81,16 +98,16 @@ namespace System::Security::Cryptography {
     static System::Security::Cryptography::HashAlgorithm* Create(::Il2CppString* hashName);
     // public System.Byte[] ComputeHash(System.Byte[] buffer)
     // Offset: 0x1A983D4
-    ::Array<uint8_t>* ComputeHash(::Array<uint8_t>* buffer);
+    ::ArrayW<uint8_t> ComputeHash(::ArrayW<uint8_t> buffer);
     // public System.Byte[] ComputeHash(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
     // Offset: 0x1A99554
-    ::Array<uint8_t>* ComputeHash(::Array<uint8_t>* buffer, int offset, int count);
+    ::ArrayW<uint8_t> ComputeHash(::ArrayW<uint8_t> buffer, int offset, int count);
     // public System.Int32 TransformBlock(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount, System.Byte[] outputBuffer, System.Int32 outputOffset)
     // Offset: 0x1A9878C
-    int TransformBlock(::Array<uint8_t>* inputBuffer, int inputOffset, int inputCount, ::Array<uint8_t>* outputBuffer, int outputOffset);
+    int TransformBlock(::ArrayW<uint8_t> inputBuffer, int inputOffset, int inputCount, ::ArrayW<uint8_t> outputBuffer, int outputOffset);
     // public System.Byte[] TransformFinalBlock(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount)
     // Offset: 0x1A98ACC
-    ::Array<uint8_t>* TransformFinalBlock(::Array<uint8_t>* inputBuffer, int inputOffset, int inputCount);
+    ::ArrayW<uint8_t> TransformFinalBlock(::ArrayW<uint8_t> inputBuffer, int inputOffset, int inputCount);
     // public System.Void Dispose()
     // Offset: 0x1A99788
     void Dispose();
@@ -105,10 +122,10 @@ namespace System::Security::Cryptography {
     void Initialize();
     // protected System.Void HashCore(System.Byte[] array, System.Int32 ibStart, System.Int32 cbSize)
     // Offset: 0xFFFFFFFF
-    void HashCore(::Array<uint8_t>* array, int ibStart, int cbSize);
+    void HashCore(::ArrayW<uint8_t> array, int ibStart, int cbSize);
     // protected System.Byte[] HashFinal()
     // Offset: 0xFFFFFFFF
-    ::Array<uint8_t>* HashFinal();
+    ::ArrayW<uint8_t> HashFinal();
     // protected System.Void .ctor()
     // Offset: 0x1A993B0
     // Implemented from: System.Object
@@ -123,7 +140,6 @@ namespace System::Security::Cryptography {
   static check_size<sizeof(HashAlgorithm), 36 + sizeof(bool)> __System_Security_Cryptography_HashAlgorithmSizeCheck;
   static_assert(sizeof(HashAlgorithm) == 0x25);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::HashAlgorithm*, "System.Security.Cryptography", "HashAlgorithm");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::HashAlgorithm::get_HashSize
 // Il2CppName: get_HashSize
@@ -136,7 +152,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Security::Cryptography::HashAlgorithm::get_Hash
 // Il2CppName: get_Hash
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (System::Security::Cryptography::HashAlgorithm::*)()>(&System::Security::Cryptography::HashAlgorithm::get_Hash)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::Security::Cryptography::HashAlgorithm::*)()>(&System::Security::Cryptography::HashAlgorithm::get_Hash)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::HashAlgorithm*), "get_Hash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -177,7 +193,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 // Writing MetadataGetter for method: System::Security::Cryptography::HashAlgorithm::ComputeHash
 // Il2CppName: ComputeHash
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (System::Security::Cryptography::HashAlgorithm::*)(::Array<uint8_t>*)>(&System::Security::Cryptography::HashAlgorithm::ComputeHash)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::Security::Cryptography::HashAlgorithm::*)(::ArrayW<uint8_t>)>(&System::Security::Cryptography::HashAlgorithm::ComputeHash)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::HashAlgorithm*), "ComputeHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer});
@@ -186,7 +202,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Writing MetadataGetter for method: System::Security::Cryptography::HashAlgorithm::ComputeHash
 // Il2CppName: ComputeHash
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (System::Security::Cryptography::HashAlgorithm::*)(::Array<uint8_t>*, int, int)>(&System::Security::Cryptography::HashAlgorithm::ComputeHash)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::Security::Cryptography::HashAlgorithm::*)(::ArrayW<uint8_t>, int, int)>(&System::Security::Cryptography::HashAlgorithm::ComputeHash)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -197,7 +213,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Writing MetadataGetter for method: System::Security::Cryptography::HashAlgorithm::TransformBlock
 // Il2CppName: TransformBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Security::Cryptography::HashAlgorithm::*)(::Array<uint8_t>*, int, int, ::Array<uint8_t>*, int)>(&System::Security::Cryptography::HashAlgorithm::TransformBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Security::Cryptography::HashAlgorithm::*)(::ArrayW<uint8_t>, int, int, ::ArrayW<uint8_t>, int)>(&System::Security::Cryptography::HashAlgorithm::TransformBlock)> {
   static const MethodInfo* get() {
     static auto* inputBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* inputOffset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -210,7 +226,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Security::Cryptography::HashAlgorithm::TransformFinalBlock
 // Il2CppName: TransformFinalBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (System::Security::Cryptography::HashAlgorithm::*)(::Array<uint8_t>*, int, int)>(&System::Security::Cryptography::HashAlgorithm::TransformFinalBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::Security::Cryptography::HashAlgorithm::*)(::ArrayW<uint8_t>, int, int)>(&System::Security::Cryptography::HashAlgorithm::TransformFinalBlock)> {
   static const MethodInfo* get() {
     static auto* inputBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* inputOffset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -254,7 +270,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::HashAlgorithm::HashCore
 // Il2CppName: HashCore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::HashAlgorithm::*)(::Array<uint8_t>*, int, int)>(&System::Security::Cryptography::HashAlgorithm::HashCore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::HashAlgorithm::*)(::ArrayW<uint8_t>, int, int)>(&System::Security::Cryptography::HashAlgorithm::HashCore)> {
   static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* ibStart = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -265,7 +281,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::HashAlgorithm::HashFinal
 // Il2CppName: HashFinal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (System::Security::Cryptography::HashAlgorithm::*)()>(&System::Security::Cryptography::HashAlgorithm::HashFinal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::Security::Cryptography::HashAlgorithm::*)()>(&System::Security::Cryptography::HashAlgorithm::HashFinal)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::HashAlgorithm*), "HashFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

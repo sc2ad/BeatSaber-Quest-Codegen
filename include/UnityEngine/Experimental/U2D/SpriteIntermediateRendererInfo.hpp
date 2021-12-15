@@ -18,6 +18,13 @@
 // Completed includes
 // Type namespace: UnityEngine.Experimental.U2D
 namespace UnityEngine::Experimental::U2D {
+  // Forward declaring type: SpriteIntermediateRendererInfo
+  struct SpriteIntermediateRendererInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::U2D::SpriteIntermediateRendererInfo, "UnityEngine.Experimental.U2D", "SpriteIntermediateRendererInfo");
+// Type namespace: UnityEngine.Experimental.U2D
+namespace UnityEngine::Experimental::U2D {
   // Size: 0xA4
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -27,6 +34,15 @@ namespace UnityEngine::Experimental::U2D {
   // [NativeHeaderAttribute] Offset: EB6F90
   struct SpriteIntermediateRendererInfo/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.Int32 SpriteID
     // Size: 0x4
     // Offset: 0x0
@@ -117,6 +133,7 @@ namespace UnityEngine::Experimental::U2D {
     int ShaderChannelMask;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: SpriteIntermediateRendererInfo
     constexpr SpriteIntermediateRendererInfo(int SpriteID_ = {}, int TextureID_ = {}, int MaterialID_ = {}, UnityEngine::Color Color_ = {}, UnityEngine::Matrix4x4 Transform_ = {}, UnityEngine::Bounds Bounds_ = {}, int Layer_ = {}, int SortingLayer_ = {}, int SortingOrder_ = {}, uint64_t SceneCullingMask_ = {}, System::IntPtr IndexData_ = {}, System::IntPtr VertexData_ = {}, int IndexCount_ = {}, int VertexCount_ = {}, int ShaderChannelMask_ = {}) noexcept : SpriteID{SpriteID_}, TextureID{TextureID_}, MaterialID{MaterialID_}, Color{Color_}, Transform{Transform_}, Bounds{Bounds_}, Layer{Layer_}, SortingLayer{SortingLayer_}, SortingOrder{SortingOrder_}, SceneCullingMask{SceneCullingMask_}, IndexData{IndexData_}, VertexData{VertexData_}, IndexCount{IndexCount_}, VertexCount{VertexCount_}, ShaderChannelMask{ShaderChannelMask_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -158,6 +175,4 @@ namespace UnityEngine::Experimental::U2D {
   static check_size<sizeof(SpriteIntermediateRendererInfo), 160 + sizeof(int)> __UnityEngine_Experimental_U2D_SpriteIntermediateRendererInfoSizeCheck;
   static_assert(sizeof(SpriteIntermediateRendererInfo) == 0xA4);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::U2D::SpriteIntermediateRendererInfo, "UnityEngine.Experimental.U2D", "SpriteIntermediateRendererInfo");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

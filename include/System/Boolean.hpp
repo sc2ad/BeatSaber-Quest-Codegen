@@ -37,6 +37,13 @@ namespace System {
 // Completed forward declares
 // Type namespace: System
 namespace System {
+  // Forward declaring type: Boolean
+  struct Boolean;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Boolean, "System", "Boolean");
+// Type namespace: System
+namespace System {
   // Size: 0x1
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -45,12 +52,22 @@ namespace System {
   // [ComVisibleAttribute] Offset: E9D400
   struct Boolean/*, public System::ValueType, public System::IComparable_1<bool>, public System::IEquatable_1<bool>, public System::IComparable, public System::IConvertible*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.Boolean m_value
     // Size: 0x1
     // Offset: 0x0
     bool m_value;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating value type constructor for type: Boolean
     constexpr Boolean(bool m_value_ = {}) noexcept : m_value{m_value_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -203,8 +220,6 @@ namespace System {
   static check_size<sizeof(Boolean), 0 + sizeof(bool)> __System_BooleanSizeCheck;
   static_assert(sizeof(Boolean) == 0x1);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Boolean, "System", "Boolean");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Boolean::_cctor
 // Il2CppName: .cctor

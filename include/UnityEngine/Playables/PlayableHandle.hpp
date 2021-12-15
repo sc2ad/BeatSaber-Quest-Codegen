@@ -3,7 +3,6 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
@@ -38,6 +37,16 @@ namespace System {
   class Type;
 }
 // Completed forward declares
+// Begin il2cpp-utils forward declares
+struct Il2CppObject;
+// Completed il2cpp-utils forward declares
+// Type namespace: UnityEngine.Playables
+namespace UnityEngine::Playables {
+  // Forward declaring type: PlayableHandle
+  struct PlayableHandle;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableHandle, "UnityEngine.Playables", "PlayableHandle");
 // Type namespace: UnityEngine.Playables
 namespace UnityEngine::Playables {
   // Size: 0xC
@@ -51,6 +60,15 @@ namespace UnityEngine::Playables {
   // [UsedByNativeCodeAttribute] Offset: EB6E38
   struct PlayableHandle/*, public System::ValueType, public System::IEquatable_1<UnityEngine::Playables::PlayableHandle>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // System.IntPtr m_Handle
     // Size: 0x8
     // Offset: 0x0
@@ -63,6 +81,7 @@ namespace UnityEngine::Playables {
     uint m_Version;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
+    public:
     // Creating value type constructor for type: PlayableHandle
     constexpr PlayableHandle(System::IntPtr m_Handle_ = {}, uint m_Version_ = {}) noexcept : m_Handle{m_Handle_}, m_Version{m_Version_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -95,7 +114,7 @@ namespace UnityEngine::Playables {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::PlayableHandle::GetObject");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "GetObject", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<T, false>(*this, ___generic__method);
+      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___generic__method);
     }
     // System.Boolean IsPlayableOfType()
     // Offset: 0xFFFFFFFF
@@ -104,7 +123,7 @@ namespace UnityEngine::Playables {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::PlayableHandle::IsPlayableOfType");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "IsPlayableOfType", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(*this, ___generic__method);
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___generic__method);
     }
     // UnityEngine.Playables.Playable GetInput(System.Int32 inputPort)
     // Offset: 0x1DAB30C
@@ -295,7 +314,6 @@ namespace UnityEngine::Playables {
   // Offset: 0x1DAA5A8
   bool operator ==(const UnityEngine::Playables::PlayableHandle& x, const UnityEngine::Playables::PlayableHandle& y);
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableHandle, "UnityEngine.Playables", "PlayableHandle");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::get_Null
 // Il2CppName: get_Null

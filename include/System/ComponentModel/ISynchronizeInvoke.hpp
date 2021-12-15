@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -16,9 +17,15 @@ namespace System {
 // Completed forward declares
 // Begin il2cpp-utils forward declares
 struct Il2CppObject;
-template<class T>
-struct Array;
 // Completed il2cpp-utils forward declares
+// Type namespace: System.ComponentModel
+namespace System::ComponentModel {
+  // Forward declaring type: ISynchronizeInvoke
+  class ISynchronizeInvoke;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::ComponentModel::ISynchronizeInvoke);
+DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::ISynchronizeInvoke*, "System.ComponentModel", "ISynchronizeInvoke");
 // Type namespace: System.ComponentModel
 namespace System::ComponentModel {
   // Size: 0x10
@@ -27,19 +34,15 @@ namespace System::ComponentModel {
   // [TokenAttribute] Offset: FFFFFFFF
   class ISynchronizeInvoke {
     public:
-    // Creating value type constructor for type: ISynchronizeInvoke
-    ISynchronizeInvoke() noexcept {}
     // public System.Boolean get_InvokeRequired()
     // Offset: 0xFFFFFFFF
     bool get_InvokeRequired();
     // public System.IAsyncResult BeginInvoke(System.Delegate method, System.Object[] args)
     // Offset: 0xFFFFFFFF
-    System::IAsyncResult* BeginInvoke(System::Delegate* method, ::Array<::Il2CppObject*>* args);
+    System::IAsyncResult* BeginInvoke(System::Delegate* method, ::ArrayW<::Il2CppObject*> args);
   }; // System.ComponentModel.ISynchronizeInvoke
   #pragma pack(pop)
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::ISynchronizeInvoke*, "System.ComponentModel", "ISynchronizeInvoke");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ComponentModel::ISynchronizeInvoke::get_InvokeRequired
 // Il2CppName: get_InvokeRequired
@@ -52,7 +55,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::ComponentModel::ISynchronizeInvoke::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::ComponentModel::ISynchronizeInvoke::*)(System::Delegate*, ::Array<::Il2CppObject*>*)>(&System::ComponentModel::ISynchronizeInvoke::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::ComponentModel::ISynchronizeInvoke::*)(System::Delegate*, ::ArrayW<::Il2CppObject*>)>(&System::ComponentModel::ISynchronizeInvoke::BeginInvoke)> {
   static const MethodInfo* get() {
     static auto* method = &::il2cpp_utils::GetClassFromName("System", "Delegate")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;

@@ -9,7 +9,16 @@
 #include "UnityEngine/Component.hpp"
 // Including type: UnityEngine.LOD
 #include "UnityEngine/LOD.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: UnityEngine
+namespace UnityEngine {
+  // Forward declaring type: LODGroup
+  class LODGroup;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::LODGroup);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::LODGroup*, "UnityEngine", "LODGroup");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18
@@ -22,8 +31,6 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: EB3B70
   class LODGroup : public UnityEngine::Component {
     public:
-    // Creating value type constructor for type: LODGroup
-    LODGroup() noexcept {}
     // public System.Single get_size()
     // Offset: 0x1D957F0
     float get_size();
@@ -35,15 +42,13 @@ namespace UnityEngine {
     void RecalculateBounds();
     // public UnityEngine.LOD[] GetLODs()
     // Offset: 0x1D958B0
-    ::Array<UnityEngine::LOD>* GetLODs();
+    ::ArrayW<UnityEngine::LOD> GetLODs();
     // public System.Void SetLODs(UnityEngine.LOD[] lods)
     // Offset: 0x1D958F0
-    void SetLODs(::Array<UnityEngine::LOD>* lods);
+    void SetLODs(::ArrayW<UnityEngine::LOD> lods);
   }; // UnityEngine.LODGroup
   #pragma pack(pop)
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::LODGroup*, "UnityEngine", "LODGroup");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::LODGroup::get_size
 // Il2CppName: get_size
@@ -72,7 +77,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::LODGroup::GetLODs
 // Il2CppName: GetLODs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::LOD>* (UnityEngine::LODGroup::*)()>(&UnityEngine::LODGroup::GetLODs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::LOD> (UnityEngine::LODGroup::*)()>(&UnityEngine::LODGroup::GetLODs)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::LODGroup*), "GetLODs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -80,7 +85,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 // Writing MetadataGetter for method: UnityEngine::LODGroup::SetLODs
 // Il2CppName: SetLODs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::LODGroup::*)(::Array<UnityEngine::LOD>*)>(&UnityEngine::LODGroup::SetLODs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::LODGroup::*)(::ArrayW<UnityEngine::LOD>)>(&UnityEngine::LODGroup::SetLODs)> {
   static const MethodInfo* get() {
     static auto* lods = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "LOD"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::LODGroup*), "SetLODs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lods});

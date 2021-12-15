@@ -20,6 +20,14 @@
 // Completed includes
 // Type namespace: System.Runtime.InteropServices
 namespace System::Runtime::InteropServices {
+  // Forward declaring type: SafeHandle
+  class SafeHandle;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Runtime::InteropServices::SafeHandle);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::SafeHandle*, "System.Runtime.InteropServices", "SafeHandle");
+// Type namespace: System.Runtime.InteropServices
+namespace System::Runtime::InteropServices {
   // Size: 0x1E
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -27,6 +35,15 @@ namespace System::Runtime::InteropServices {
   // [TokenAttribute] Offset: FFFFFFFF
   class SafeHandle : public System::Runtime::ConstrainedExecution::CriticalFinalizerObject/*, public System::IDisposable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // protected System.IntPtr handle
     // Size: 0x8
     // Offset: 0x10
@@ -51,8 +68,7 @@ namespace System::Runtime::InteropServices {
     bool fullyInitialized;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: SafeHandle
-    SafeHandle(System::IntPtr handle_ = {}, int state_ = {}, bool ownsHandle_ = {}, bool fullyInitialized_ = {}) noexcept : handle{handle_}, state{state_}, ownsHandle{ownsHandle_}, fullyInitialized{fullyInitialized_} {}
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
@@ -136,7 +152,6 @@ namespace System::Runtime::InteropServices {
   static check_size<sizeof(SafeHandle), 29 + sizeof(bool)> __System_Runtime_InteropServices_SafeHandleSizeCheck;
   static_assert(sizeof(SafeHandle) == 0x1E);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::SafeHandle*, "System.Runtime.InteropServices", "SafeHandle");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::InteropServices::SafeHandle::get_IsClosed
 // Il2CppName: get_IsClosed

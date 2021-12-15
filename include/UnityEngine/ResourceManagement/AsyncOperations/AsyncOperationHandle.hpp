@@ -8,10 +8,6 @@
 #include "System/ValueType.hpp"
 // Including type: System.Collections.IEnumerator
 #include "System/Collections/IEnumerator.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::ResourceManagement::AsyncOperations
@@ -53,6 +49,13 @@ struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.ResourceManagement.AsyncOperations
 namespace UnityEngine::ResourceManagement::AsyncOperations {
+  // Forward declaring type: AsyncOperationHandle
+  struct AsyncOperationHandle;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, "UnityEngine.ResourceManagement.AsyncOperations", "AsyncOperationHandle");
+// Type namespace: UnityEngine.ResourceManagement.AsyncOperations
+namespace UnityEngine::ResourceManagement::AsyncOperations {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -60,6 +63,15 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
   // [TokenAttribute] Offset: FFFFFFFF
   struct AsyncOperationHandle/*, public System::ValueType, public System::Collections::IEnumerator*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation m_InternalOp
     // Size: 0x8
     // Offset: 0x0
@@ -80,6 +92,7 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     ::Il2CppString* m_LocationName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Creating value type constructor for type: AsyncOperationHandle
     constexpr AsyncOperationHandle(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* m_InternalOp_ = {}, int m_Version_ = {}, ::Il2CppString* m_LocationName_ = {}) noexcept : m_InternalOp{m_InternalOp_}, m_Version{m_Version_}, m_LocationName{m_LocationName_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -146,32 +159,16 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     void remove_Destroyed(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
     // System.Void .ctor(UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation op)
     // Offset: 0x1BE2068
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    AsyncOperationHandle(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* op) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(op)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, op);
-    }
+    AsyncOperationHandle(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* op);
     // System.Void .ctor(UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation op, System.Int32 version)
     // Offset: 0x1BE2144
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    AsyncOperationHandle(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* op, int version) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(op), ::il2cpp_utils::ExtractType(version)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, op, version);
-    }
+    AsyncOperationHandle(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* op, int version);
     // System.Void .ctor(UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation op, System.String locationName)
     // Offset: 0x1BE2154
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    AsyncOperationHandle(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* op, ::Il2CppString* locationName) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(op), ::il2cpp_utils::ExtractType(locationName)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, op, locationName);
-    }
+    AsyncOperationHandle(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* op, ::Il2CppString* locationName);
     // System.Void .ctor(UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation op, System.Int32 version, System.String locationName)
     // Offset: 0x1BE2234
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    // ABORTED: conflicts with another method.  AsyncOperationHandle(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* op, int version, ::Il2CppString* locationName)
+    // ABORTED: conflicts with another method.  AsyncOperationHandle(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* op, int version, ::Il2CppString* locationName);
     // UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle Acquire()
     // Offset: 0x1BE2244
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle Acquire();
@@ -212,7 +209,6 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
   static check_size<sizeof(AsyncOperationHandle), 16 + sizeof(::Il2CppString*)> __UnityEngine_ResourceManagement_AsyncOperations_AsyncOperationHandleSizeCheck;
   static_assert(sizeof(AsyncOperationHandle) == 0x18);
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, "UnityEngine.ResourceManagement.AsyncOperations", "AsyncOperationHandle");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle::get_LocationName
 // Il2CppName: get_LocationName

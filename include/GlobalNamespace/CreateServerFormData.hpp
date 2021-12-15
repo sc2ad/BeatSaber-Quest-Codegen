@@ -22,6 +22,13 @@
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
+  // Forward declaring type: CreateServerFormData
+  struct CreateServerFormData;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CreateServerFormData, "", "CreateServerFormData");
+// Type namespace: 
+namespace GlobalNamespace {
   // Size: 0x3C
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -29,6 +36,15 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct CreateServerFormData/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.Boolean usePassword
     // Size: 0x1
     // Offset: 0x0
@@ -101,6 +117,7 @@ namespace GlobalNamespace {
     GlobalNamespace::GameplayServerControlSettings gameplayServerControlSettings;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayServerControlSettings) == 0x4);
+    public:
     // Creating value type constructor for type: CreateServerFormData
     constexpr CreateServerFormData(bool usePassword_ = {}, ::Il2CppString* password_ = {}, int maxPlayers_ = {}, bool allowInviteOthers_ = {}, bool netDiscoverable_ = {}, GlobalNamespace::BeatmapDifficultyMask difficulties_ = {}, GlobalNamespace::GameplayModifierMask modifiers_ = {}, GlobalNamespace::SongPackMask songPacks_ = {}, GlobalNamespace::GameplayServerMode gameplayServerMode_ = {}, GlobalNamespace::SongSelectionMode songSelectionMode_ = {}, GlobalNamespace::GameplayServerControlSettings gameplayServerControlSettings_ = {}) noexcept : usePassword{usePassword_}, password{password_}, maxPlayers{maxPlayers_}, allowInviteOthers{allowInviteOthers_}, netDiscoverable{netDiscoverable_}, difficulties{difficulties_}, modifiers{modifiers_}, songPacks{songPacks_}, gameplayServerMode{gameplayServerMode_}, songSelectionMode{songSelectionMode_}, gameplayServerControlSettings{gameplayServerControlSettings_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -134,6 +151,4 @@ namespace GlobalNamespace {
   static check_size<sizeof(CreateServerFormData), 56 + sizeof(GlobalNamespace::GameplayServerControlSettings)> __GlobalNamespace_CreateServerFormDataSizeCheck;
   static_assert(sizeof(CreateServerFormData) == 0x3C);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CreateServerFormData, "", "CreateServerFormData");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

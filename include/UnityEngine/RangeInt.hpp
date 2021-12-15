@@ -6,11 +6,14 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
+// Type namespace: UnityEngine
+namespace UnityEngine {
+  // Forward declaring type: RangeInt
+  struct RangeInt;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RangeInt, "UnityEngine", "RangeInt");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x8
@@ -20,6 +23,15 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   struct RangeInt/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.Int32 start
     // Size: 0x4
     // Offset: 0x0
@@ -32,6 +44,7 @@ namespace UnityEngine {
     int length;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: RangeInt
     constexpr RangeInt(int start_ = {}, int length_ = {}) noexcept : start{start_}, length{length_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -47,14 +60,12 @@ namespace UnityEngine {
     int get_end();
     // public System.Void .ctor(System.Int32 start, System.Int32 length)
     // Offset: 0x1DF1B84
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    // ABORTED: conflicts with another method.  RangeInt(int start, int length)
+    // ABORTED: conflicts with another method.  RangeInt(int start, int length);
   }; // UnityEngine.RangeInt
   #pragma pack(pop)
   static check_size<sizeof(RangeInt), 4 + sizeof(int)> __UnityEngine_RangeIntSizeCheck;
   static_assert(sizeof(RangeInt) == 0x8);
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RangeInt, "UnityEngine", "RangeInt");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::RangeInt::get_end
 // Il2CppName: get_end

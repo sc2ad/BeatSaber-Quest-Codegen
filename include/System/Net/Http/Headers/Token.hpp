@@ -9,10 +9,6 @@
 #include "System/ValueType.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net::Http::Headers
@@ -20,6 +16,13 @@ namespace System::Net::Http::Headers {
   // Skipping declaration: Type because it is already included!
 }
 // Completed forward declares
+// Type namespace: System.Net.Http.Headers
+namespace System::Net::Http::Headers {
+  // Forward declaring type: Token
+  struct Token;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::Token, "System.Net.Http.Headers", "Token");
 // Type namespace: System.Net.Http.Headers
 namespace System::Net::Http::Headers {
   // Size: 0xC
@@ -37,12 +40,22 @@ namespace System::Net::Http::Headers {
     // [TokenAttribute] Offset: FFFFFFFF
     struct Type/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      #ifdef CODEGEN_FIELD_ACCESSIBILITY
+      CODEGEN_FIELD_ACCESSIBILITY:
+      #else
+      protected:
+      #endif
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: Type
       constexpr Type(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -119,6 +132,15 @@ namespace System::Net::Http::Headers {
     #pragma pack(pop)
     static check_size<sizeof(Token::Type), 0 + sizeof(int)> __System_Net_Http_Headers_Token_TypeSizeCheck;
     static_assert(sizeof(Token::Type) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private readonly System.Net.Http.Headers.Token/System.Net.Http.Headers.Type type
     // Size: 0x4
     // Offset: 0x0
@@ -137,6 +159,7 @@ namespace System::Net::Http::Headers {
     int EndPosition;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: Token
     constexpr Token(System::Net::Http::Headers::Token::Type type_ = {}, int StartPosition_ = {}, int EndPosition_ = {}) noexcept : type{type_}, StartPosition{StartPosition_}, EndPosition{EndPosition_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -170,8 +193,7 @@ namespace System::Net::Http::Headers {
     System::Net::Http::Headers::Token::Type get_Kind();
     // public System.Void .ctor(System.Net.Http.Headers.Token/System.Net.Http.Headers.Type type, System.Int32 startPosition, System.Int32 endPosition)
     // Offset: 0x17BADC0
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    // ABORTED: conflicts with another method.  Token(System::Net::Http::Headers::Token::Type type, int startPosition, int endPosition)
+    // ABORTED: conflicts with another method.  Token(System::Net::Http::Headers::Token::Type type, int startPosition, int endPosition);
     // static private System.Void .cctor()
     // Offset: 0x17C78E0
     static void _cctor();
@@ -185,7 +207,7 @@ namespace System::Net::Http::Headers {
   static check_size<sizeof(Token), 8 + sizeof(int)> __System_Net_Http_Headers_TokenSizeCheck;
   static_assert(sizeof(Token) == 0xC);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::Token, "System.Net.Http.Headers", "Token");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::Token::Type, "System.Net.Http.Headers", "Token/Type");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Http::Headers::Token::get_StartPosition

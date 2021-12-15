@@ -14,6 +14,13 @@ namespace OVR::OpenVR {
 // Completed forward declares
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
+  // Forward declaring type: IVRScreenshots
+  struct IVRScreenshots;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRScreenshots, "OVR.OpenVR", "IVRScreenshots");
+// Type namespace: OVR.OpenVR
+namespace OVR::OpenVR {
   // Size: 0x38
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -35,6 +42,15 @@ namespace OVR::OpenVR {
     class _TakeStereoScreenshot;
     // Nested type: OVR::OpenVR::IVRScreenshots::_SubmitScreenshot
     class _SubmitScreenshot;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // OVR.OpenVR.IVRScreenshots/OVR.OpenVR._RequestScreenshot RequestScreenshot
     // Size: 0x8
     // Offset: 0x0
@@ -77,6 +93,7 @@ namespace OVR::OpenVR {
     OVR::OpenVR::IVRScreenshots::_SubmitScreenshot* SubmitScreenshot;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::IVRScreenshots::_SubmitScreenshot*) == 0x8);
+    public:
     // Creating value type constructor for type: IVRScreenshots
     constexpr IVRScreenshots(OVR::OpenVR::IVRScreenshots::_RequestScreenshot* RequestScreenshot_ = {}, OVR::OpenVR::IVRScreenshots::_HookScreenshot* HookScreenshot_ = {}, OVR::OpenVR::IVRScreenshots::_GetScreenshotPropertyType* GetScreenshotPropertyType_ = {}, OVR::OpenVR::IVRScreenshots::_GetScreenshotPropertyFilename* GetScreenshotPropertyFilename_ = {}, OVR::OpenVR::IVRScreenshots::_UpdateScreenshotProgress* UpdateScreenshotProgress_ = {}, OVR::OpenVR::IVRScreenshots::_TakeStereoScreenshot* TakeStereoScreenshot_ = {}, OVR::OpenVR::IVRScreenshots::_SubmitScreenshot* SubmitScreenshot_ = {}) noexcept : RequestScreenshot{RequestScreenshot_}, HookScreenshot{HookScreenshot_}, GetScreenshotPropertyType{GetScreenshotPropertyType_}, GetScreenshotPropertyFilename{GetScreenshotPropertyFilename_}, UpdateScreenshotProgress{UpdateScreenshotProgress_}, TakeStereoScreenshot{TakeStereoScreenshot_}, SubmitScreenshot{SubmitScreenshot_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -102,6 +119,4 @@ namespace OVR::OpenVR {
   static check_size<sizeof(IVRScreenshots), 48 + sizeof(OVR::OpenVR::IVRScreenshots::_SubmitScreenshot*)> __OVR_OpenVR_IVRScreenshotsSizeCheck;
   static_assert(sizeof(IVRScreenshots) == 0x38);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRScreenshots, "OVR.OpenVR", "IVRScreenshots");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

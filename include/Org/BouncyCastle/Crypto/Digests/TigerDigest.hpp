@@ -13,7 +13,16 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: Org.BouncyCastle.Crypto.Digests
+namespace Org::BouncyCastle::Crypto::Digests {
+  // Forward declaring type: TigerDigest
+  class TigerDigest;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Digests::TigerDigest);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::TigerDigest*, "Org.BouncyCastle.Crypto.Digests", "TigerDigest");
 // Type namespace: Org.BouncyCastle.Crypto.Digests
 namespace Org::BouncyCastle::Crypto::Digests {
   // Size: 0x4C
@@ -22,6 +31,15 @@ namespace Org::BouncyCastle::Crypto::Digests {
   // [TokenAttribute] Offset: FFFFFFFF
   class TigerDigest : public ::Il2CppObject/*, public Org::BouncyCastle::Crypto::IDigest, public Org::BouncyCastle::Utilities::IMemoable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.Int64 a
     // Size: 0x8
     // Offset: 0x10
@@ -49,9 +67,9 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // private System.Byte[] Buffer
     // Size: 0x8
     // Offset: 0x30
-    ::Array<uint8_t>* Buffer;
+    ::ArrayW<uint8_t> Buffer;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Int32 bOff
     // Size: 0x4
     // Offset: 0x38
@@ -63,17 +81,16 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // private System.Int64[] x
     // Size: 0x8
     // Offset: 0x40
-    ::Array<int64_t>* x;
+    ::ArrayW<int64_t> x;
     // Field size check
-    static_assert(sizeof(::Array<int64_t>*) == 0x8);
+    static_assert(sizeof(::ArrayW<int64_t>) == 0x8);
     // private System.Int32 xOff
     // Size: 0x4
     // Offset: 0x48
     int xOff;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: TigerDigest
-    TigerDigest(int64_t a_ = {}, int64_t b_ = {}, int64_t c_ = {}, int64_t byteCount_ = {}, ::Array<uint8_t>* Buffer_ = {}, int bOff_ = {}, ::Array<int64_t>* x_ = {}, int xOff_ = {}) noexcept : a{a_}, b{b_}, c{c_}, byteCount{byteCount_}, Buffer{Buffer_}, bOff{bOff_}, x{x_}, xOff{xOff_} {}
+    public:
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IDigest
     operator Org::BouncyCastle::Crypto::IDigest() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IDigest*>(this);
@@ -83,21 +100,21 @@ namespace Org::BouncyCastle::Crypto::Digests {
       return *reinterpret_cast<Org::BouncyCastle::Utilities::IMemoable*>(this);
     }
     // Get static field: static private readonly System.Int64[] t1
-    static ::Array<int64_t>* _get_t1();
+    static ::ArrayW<int64_t> _get_t1();
     // Set static field: static private readonly System.Int64[] t1
-    static void _set_t1(::Array<int64_t>* value);
+    static void _set_t1(::ArrayW<int64_t> value);
     // Get static field: static private readonly System.Int64[] t2
-    static ::Array<int64_t>* _get_t2();
+    static ::ArrayW<int64_t> _get_t2();
     // Set static field: static private readonly System.Int64[] t2
-    static void _set_t2(::Array<int64_t>* value);
+    static void _set_t2(::ArrayW<int64_t> value);
     // Get static field: static private readonly System.Int64[] t3
-    static ::Array<int64_t>* _get_t3();
+    static ::ArrayW<int64_t> _get_t3();
     // Set static field: static private readonly System.Int64[] t3
-    static void _set_t3(::Array<int64_t>* value);
+    static void _set_t3(::ArrayW<int64_t> value);
     // Get static field: static private readonly System.Int64[] t4
-    static ::Array<int64_t>* _get_t4();
+    static ::ArrayW<int64_t> _get_t4();
     // Set static field: static private readonly System.Int64[] t4
-    static void _set_t4(::Array<int64_t>* value);
+    static void _set_t4(::ArrayW<int64_t> value);
     // Get instance field reference: private System.Int64 a
     int64_t& dyn_a();
     // Get instance field reference: private System.Int64 b
@@ -107,11 +124,11 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Get instance field reference: private System.Int64 byteCount
     int64_t& dyn_byteCount();
     // Get instance field reference: private System.Byte[] Buffer
-    ::Array<uint8_t>*& dyn_Buffer();
+    ::ArrayW<uint8_t>& dyn_Buffer();
     // Get instance field reference: private System.Int32 bOff
     int& dyn_bOff();
     // Get instance field reference: private System.Int64[] x
-    ::Array<int64_t>*& dyn_x();
+    ::ArrayW<int64_t>& dyn_x();
     // Get instance field reference: private System.Int32 xOff
     int& dyn_xOff();
     // public System.String get_AlgorithmName()
@@ -135,13 +152,13 @@ namespace Org::BouncyCastle::Crypto::Digests {
     int GetByteLength();
     // private System.Void ProcessWord(System.Byte[] b, System.Int32 off)
     // Offset: 0x1AE61F4
-    void ProcessWord(::Array<uint8_t>* b, int off);
+    void ProcessWord(::ArrayW<uint8_t> b, int off);
     // public System.Void Update(System.Byte input)
     // Offset: 0x1AE671C
     void Update(uint8_t input);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 length)
     // Offset: 0x1AE67A0
-    void BlockUpdate(::Array<uint8_t>* input, int inOff, int length);
+    void BlockUpdate(::ArrayW<uint8_t> input, int inOff, int length);
     // private System.Void RoundABC(System.Int64 x, System.Int64 mul)
     // Offset: 0x1AE68CC
     void RoundABC(int64_t x, int64_t mul);
@@ -159,7 +176,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
     void ProcessBlock();
     // private System.Void UnpackWord(System.Int64 r, System.Byte[] output, System.Int32 outOff)
     // Offset: 0x1AE70C4
-    void UnpackWord(int64_t r, ::Array<uint8_t>* output, int outOff);
+    void UnpackWord(int64_t r, ::ArrayW<uint8_t> output, int outOff);
     // private System.Void ProcessLength(System.Int64 bitLength)
     // Offset: 0x1AE71C0
     void ProcessLength(int64_t bitLength);
@@ -168,7 +185,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
     void Finish();
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
     // Offset: 0x1AE7248
-    int DoFinal(::Array<uint8_t>* output, int outOff);
+    int DoFinal(::ArrayW<uint8_t> output, int outOff);
     // public System.Void Reset()
     // Offset: 0x1AE5F5C
     void Reset();
@@ -192,7 +209,6 @@ namespace Org::BouncyCastle::Crypto::Digests {
   static check_size<sizeof(TigerDigest), 72 + sizeof(int)> __Org_BouncyCastle_Crypto_Digests_TigerDigestSizeCheck;
   static_assert(sizeof(TigerDigest) == 0x4C);
 }
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::TigerDigest*, "Org.BouncyCastle.Crypto.Digests", "TigerDigest");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::TigerDigest::get_AlgorithmName
 // Il2CppName: get_AlgorithmName
@@ -233,7 +249,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::TigerDigest::ProcessWord
 // Il2CppName: ProcessWord
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Digests::TigerDigest::*)(::Array<uint8_t>*, int)>(&Org::BouncyCastle::Crypto::Digests::TigerDigest::ProcessWord)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Digests::TigerDigest::*)(::ArrayW<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Digests::TigerDigest::ProcessWord)> {
   static const MethodInfo* get() {
     static auto* b = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* off = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -252,7 +268,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::TigerDigest::BlockUpdate
 // Il2CppName: BlockUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Digests::TigerDigest::*)(::Array<uint8_t>*, int, int)>(&Org::BouncyCastle::Crypto::Digests::TigerDigest::BlockUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Digests::TigerDigest::*)(::ArrayW<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::Digests::TigerDigest::BlockUpdate)> {
   static const MethodInfo* get() {
     static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* inOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -309,7 +325,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::TigerDigest::UnpackWord
 // Il2CppName: UnpackWord
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Digests::TigerDigest::*)(int64_t, ::Array<uint8_t>*, int)>(&Org::BouncyCastle::Crypto::Digests::TigerDigest::UnpackWord)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Digests::TigerDigest::*)(int64_t, ::ArrayW<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Digests::TigerDigest::UnpackWord)> {
   static const MethodInfo* get() {
     static auto* r = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     static auto* output = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -337,7 +353,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::TigerDigest::DoFinal
 // Il2CppName: DoFinal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Digests::TigerDigest::*)(::Array<uint8_t>*, int)>(&Org::BouncyCastle::Crypto::Digests::TigerDigest::DoFinal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Digests::TigerDigest::*)(::ArrayW<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Digests::TigerDigest::DoFinal)> {
   static const MethodInfo* get() {
     static auto* output = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* outOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

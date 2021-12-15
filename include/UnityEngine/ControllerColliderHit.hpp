@@ -19,6 +19,14 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: ControllerColliderHit
+  class ControllerColliderHit;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::ControllerColliderHit);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ControllerColliderHit*, "UnityEngine", "ControllerColliderHit");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x4C
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -27,6 +35,15 @@ namespace UnityEngine {
   // [RequiredByNativeCodeAttribute] Offset: EC7F08
   class ControllerColliderHit : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // UnityEngine.CharacterController m_Controller
     // Size: 0x8
     // Offset: 0x10
@@ -69,8 +86,7 @@ namespace UnityEngine {
     int m_Push;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: ControllerColliderHit
-    ControllerColliderHit(UnityEngine::CharacterController* m_Controller_ = {}, UnityEngine::Collider* m_Collider_ = {}, UnityEngine::Vector3 m_Point_ = {}, UnityEngine::Vector3 m_Normal_ = {}, UnityEngine::Vector3 m_MoveDirection_ = {}, float m_MoveLength_ = {}, int m_Push_ = {}) noexcept : m_Controller{m_Controller_}, m_Collider{m_Collider_}, m_Point{m_Point_}, m_Normal{m_Normal_}, m_MoveDirection{m_MoveDirection_}, m_MoveLength{m_MoveLength_}, m_Push{m_Push_} {}
+    public:
     // Get instance field reference: UnityEngine.CharacterController m_Controller
     UnityEngine::CharacterController*& dyn_m_Controller();
     // Get instance field reference: UnityEngine.Collider m_Collider
@@ -90,6 +106,4 @@ namespace UnityEngine {
   static check_size<sizeof(ControllerColliderHit), 72 + sizeof(int)> __UnityEngine_ControllerColliderHitSizeCheck;
   static_assert(sizeof(ControllerColliderHit) == 0x4C);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ControllerColliderHit*, "UnityEngine", "ControllerColliderHit");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -14,6 +14,13 @@ struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.TextCore.LowLevel
 namespace UnityEngine::TextCore::LowLevel {
+  // Forward declaring type: GlyphValueRecord
+  struct GlyphValueRecord;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::LowLevel::GlyphValueRecord, "UnityEngine.TextCore.LowLevel", "GlyphValueRecord");
+// Type namespace: UnityEngine.TextCore.LowLevel
+namespace UnityEngine::TextCore::LowLevel {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -22,6 +29,15 @@ namespace UnityEngine::TextCore::LowLevel {
   // [UsedByNativeCodeAttribute] Offset: EE7C28
   struct GlyphValueRecord/*, public System::ValueType, public System::IEquatable_1<UnityEngine::TextCore::LowLevel::GlyphValueRecord>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // [NativeNameAttribute] Offset: 0xEE874C
     // private System.Single m_XPlacement
     // Size: 0x4
@@ -50,6 +66,7 @@ namespace UnityEngine::TextCore::LowLevel {
     float m_YAdvance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: GlyphValueRecord
     constexpr GlyphValueRecord(float m_XPlacement_ = {}, float m_YPlacement_ = {}, float m_XAdvance_ = {}, float m_YAdvance_ = {}) noexcept : m_XPlacement{m_XPlacement_}, m_YPlacement{m_YPlacement_}, m_XAdvance{m_XAdvance_}, m_YAdvance{m_YAdvance_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -98,8 +115,6 @@ namespace UnityEngine::TextCore::LowLevel {
   static check_size<sizeof(GlyphValueRecord), 12 + sizeof(float)> __UnityEngine_TextCore_LowLevel_GlyphValueRecordSizeCheck;
   static_assert(sizeof(GlyphValueRecord) == 0x10);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::LowLevel::GlyphValueRecord, "UnityEngine.TextCore.LowLevel", "GlyphValueRecord");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TextCore::LowLevel::GlyphValueRecord::get_xPlacement
 // Il2CppName: get_xPlacement

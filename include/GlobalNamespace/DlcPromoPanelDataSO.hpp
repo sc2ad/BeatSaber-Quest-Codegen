@@ -11,12 +11,21 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
 }
 // Completed forward declares
+// Type namespace: 
+namespace GlobalNamespace {
+  // Forward declaring type: DlcPromoPanelDataSO
+  class DlcPromoPanelDataSO;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(GlobalNamespace::DlcPromoPanelDataSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DlcPromoPanelDataSO*, "", "DlcPromoPanelDataSO");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x30
@@ -27,6 +36,15 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo
     class MusicPackPromoInfo;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.Int32 _defaultMusicPackPromoIndex
     // Size: 0x4
     // Offset: 0x18
@@ -38,9 +56,9 @@ namespace GlobalNamespace {
     // private DlcPromoPanelDataSO/MusicPackPromoInfo[] _musicPackPromoInfos
     // Size: 0x8
     // Offset: 0x20
-    ::Array<GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo*>* musicPackPromoInfos;
+    ::ArrayW<GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo*> musicPackPromoInfos;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo*>*) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo*>) == 0x8);
     // private System.Int32 _cutOffTest
     // Size: 0x4
     // Offset: 0x28
@@ -53,14 +71,13 @@ namespace GlobalNamespace {
     int minNumberOfNotOwnedPacks;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: DlcPromoPanelDataSO
-    DlcPromoPanelDataSO(int defaultMusicPackPromoIndex_ = {}, ::Array<GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo*>* musicPackPromoInfos_ = {}, int cutOffTest_ = {}, int minNumberOfNotOwnedPacks_ = {}) noexcept : defaultMusicPackPromoIndex{defaultMusicPackPromoIndex_}, musicPackPromoInfos{musicPackPromoInfos_}, cutOffTest{cutOffTest_}, minNumberOfNotOwnedPacks{minNumberOfNotOwnedPacks_} {}
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Int32 _defaultMusicPackPromoIndex
     int& dyn__defaultMusicPackPromoIndex();
     // Get instance field reference: private DlcPromoPanelDataSO/MusicPackPromoInfo[] _musicPackPromoInfos
-    ::Array<GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo*>*& dyn__musicPackPromoInfos();
+    ::ArrayW<GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo*>& dyn__musicPackPromoInfos();
     // Get instance field reference: private System.Int32 _cutOffTest
     int& dyn__cutOffTest();
     // Get instance field reference: private System.Int32 _minNumberOfNotOwnedPacks
@@ -73,7 +90,7 @@ namespace GlobalNamespace {
     int get_minNumberOfNotOwnedPacks();
     // public DlcPromoPanelDataSO/MusicPackPromoInfo[] get_musicPackPromoInfos()
     // Offset: 0x11D5F7C
-    ::Array<GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo*>* get_musicPackPromoInfos();
+    ::ArrayW<GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo*> get_musicPackPromoInfos();
     // public DlcPromoPanelDataSO/MusicPackPromoInfo get_defaultMusicPackPromo()
     // Offset: 0x11D5F84
     GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo* get_defaultMusicPackPromo();
@@ -93,7 +110,6 @@ namespace GlobalNamespace {
   static check_size<sizeof(DlcPromoPanelDataSO), 44 + sizeof(int)> __GlobalNamespace_DlcPromoPanelDataSOSizeCheck;
   static_assert(sizeof(DlcPromoPanelDataSO) == 0x30);
 }
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DlcPromoPanelDataSO*, "", "DlcPromoPanelDataSO");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DlcPromoPanelDataSO::get_cutOffTest
 // Il2CppName: get_cutOffTest
@@ -114,7 +130,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Writing MetadataGetter for method: GlobalNamespace::DlcPromoPanelDataSO::get_musicPackPromoInfos
 // Il2CppName: get_musicPackPromoInfos
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo*>* (GlobalNamespace::DlcPromoPanelDataSO::*)()>(&GlobalNamespace::DlcPromoPanelDataSO::get_musicPackPromoInfos)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo*> (GlobalNamespace::DlcPromoPanelDataSO::*)()>(&GlobalNamespace::DlcPromoPanelDataSO::get_musicPackPromoInfos)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DlcPromoPanelDataSO*), "get_musicPackPromoInfos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

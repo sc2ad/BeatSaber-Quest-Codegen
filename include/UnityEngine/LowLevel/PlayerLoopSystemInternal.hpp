@@ -3,7 +3,6 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
@@ -19,6 +18,13 @@ namespace System {
 // Completed forward declares
 // Type namespace: UnityEngine.LowLevel
 namespace UnityEngine::LowLevel {
+  // Forward declaring type: PlayerLoopSystemInternal
+  struct PlayerLoopSystemInternal;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::LowLevel::PlayerLoopSystemInternal, "UnityEngine.LowLevel", "PlayerLoopSystemInternal");
+// Type namespace: UnityEngine.LowLevel
+namespace UnityEngine::LowLevel {
   // Size: 0x24
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -29,6 +35,15 @@ namespace UnityEngine::LowLevel {
   // [NativeTypeAttribute] Offset: EB5D48
   struct PlayerLoopSystemInternal/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.Type type
     // Size: 0x8
     // Offset: 0x0
@@ -59,6 +74,7 @@ namespace UnityEngine::LowLevel {
     int numSubSystems;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: PlayerLoopSystemInternal
     constexpr PlayerLoopSystemInternal(System::Type* type_ = {}, UnityEngine::LowLevel::PlayerLoopSystem::UpdateFunction* updateDelegate_ = {}, System::IntPtr updateFunction_ = {}, System::IntPtr loopConditionFunction_ = {}, int numSubSystems_ = {}) noexcept : type{type_}, updateDelegate{updateDelegate_}, updateFunction{updateFunction_}, loopConditionFunction{loopConditionFunction_}, numSubSystems{numSubSystems_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -80,6 +96,4 @@ namespace UnityEngine::LowLevel {
   static check_size<sizeof(PlayerLoopSystemInternal), 32 + sizeof(int)> __UnityEngine_LowLevel_PlayerLoopSystemInternalSizeCheck;
   static_assert(sizeof(PlayerLoopSystemInternal) == 0x24);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::LowLevel::PlayerLoopSystemInternal, "UnityEngine.LowLevel", "PlayerLoopSystemInternal");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

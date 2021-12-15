@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: System.IO
 namespace System::IO {
+  // Forward declaring type: MonoIOStat
+  struct MonoIOStat;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::IO::MonoIOStat, "System.IO", "MonoIOStat");
+// Type namespace: System.IO
+namespace System::IO {
   // Size: 0x28
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -19,6 +26,15 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   struct MonoIOStat/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.IO.FileAttributes fileAttributes
     // Size: 0x4
     // Offset: 0x0
@@ -51,6 +67,7 @@ namespace System::IO {
     int64_t LastWriteTime;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
+    public:
     // Creating value type constructor for type: MonoIOStat
     constexpr MonoIOStat(System::IO::FileAttributes fileAttributes_ = {}, int64_t Length_ = {}, int64_t CreationTime_ = {}, int64_t LastAccessTime_ = {}, int64_t LastWriteTime_ = {}) noexcept : fileAttributes{fileAttributes_}, Length{Length_}, CreationTime{CreationTime_}, LastAccessTime{LastAccessTime_}, LastWriteTime{LastWriteTime_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -72,6 +89,4 @@ namespace System::IO {
   static check_size<sizeof(MonoIOStat), 32 + sizeof(int64_t)> __System_IO_MonoIOStatSizeCheck;
   static_assert(sizeof(MonoIOStat) == 0x28);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::IO::MonoIOStat, "System.IO", "MonoIOStat");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

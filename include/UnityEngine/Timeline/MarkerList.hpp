@@ -8,10 +8,6 @@
 #include "System/ValueType.hpp"
 // Including type: UnityEngine.ISerializationCallbackReceiver
 #include "UnityEngine/ISerializationCallbackReceiver.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -50,6 +46,13 @@ namespace System {
 // Completed forward declares
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {
+  // Forward declaring type: MarkerList
+  struct MarkerList;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::MarkerList, "UnityEngine.Timeline", "MarkerList");
+// Type namespace: UnityEngine.Timeline
+namespace UnityEngine::Timeline {
   // Size: 0x12
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -58,6 +61,15 @@ namespace UnityEngine::Timeline {
   // [DefaultMemberAttribute] Offset: EFBB90
   struct MarkerList/*, public System::ValueType, public UnityEngine::ISerializationCallbackReceiver*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.Collections.Generic.List`1<UnityEngine.ScriptableObject> m_Objects
     // Size: 0x8
     // Offset: 0x0
@@ -82,6 +94,7 @@ namespace UnityEngine::Timeline {
     bool m_HasNotifications;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating value type constructor for type: MarkerList
     constexpr MarkerList(System::Collections::Generic::List_1<UnityEngine::ScriptableObject*>* m_Objects_ = {}, System::Collections::Generic::List_1<UnityEngine::Timeline::IMarker*>* m_Cache_ = {}, bool m_CacheDirty_ = {}, bool m_HasNotifications_ = {}) noexcept : m_Objects{m_Objects_}, m_Cache{m_Cache_}, m_CacheDirty{m_CacheDirty_}, m_HasNotifications{m_HasNotifications_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -111,12 +124,7 @@ namespace UnityEngine::Timeline {
     UnityEngine::Timeline::IMarker* get_Item(int idx);
     // public System.Void .ctor(System.Int32 capacity)
     // Offset: 0x19FED10
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    MarkerList(int capacity) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::MarkerList::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(capacity)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, capacity);
-    }
+    MarkerList(int capacity);
     // public System.Void Add(UnityEngine.ScriptableObject item)
     // Offset: 0x19FEDBC
     void Add(UnityEngine::ScriptableObject* item);
@@ -158,7 +166,6 @@ namespace UnityEngine::Timeline {
   static check_size<sizeof(MarkerList), 17 + sizeof(bool)> __UnityEngine_Timeline_MarkerListSizeCheck;
   static_assert(sizeof(MarkerList) == 0x12);
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::MarkerList, "UnityEngine.Timeline", "MarkerList");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::MarkerList::get_markers
 // Il2CppName: get_markers

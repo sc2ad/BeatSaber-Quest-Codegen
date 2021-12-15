@@ -3,13 +3,19 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
 // Completed includes
+// Type namespace: Mono.Net
+namespace Mono::Net {
+  // Forward declaring type: CFStreamClientContext
+  struct CFStreamClientContext;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFStreamClientContext, "Mono.Net", "CFStreamClientContext");
 // Type namespace: Mono.Net
 namespace Mono::Net {
   // Size: 0x28
@@ -19,6 +25,15 @@ namespace Mono::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   struct CFStreamClientContext/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.IntPtr Version
     // Size: 0x8
     // Offset: 0x0
@@ -49,6 +64,7 @@ namespace Mono::Net {
     System::IntPtr CopyDescription;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
+    public:
     // Creating value type constructor for type: CFStreamClientContext
     constexpr CFStreamClientContext(System::IntPtr Version_ = {}, System::IntPtr Info_ = {}, System::IntPtr Retain_ = {}, System::IntPtr Release_ = {}, System::IntPtr CopyDescription_ = {}) noexcept : Version{Version_}, Info{Info_}, Retain{Retain_}, Release{Release_}, CopyDescription{CopyDescription_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -70,6 +86,4 @@ namespace Mono::Net {
   static check_size<sizeof(CFStreamClientContext), 32 + sizeof(System::IntPtr)> __Mono_Net_CFStreamClientContextSizeCheck;
   static_assert(sizeof(CFStreamClientContext) == 0x28);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFStreamClientContext, "Mono.Net", "CFStreamClientContext");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

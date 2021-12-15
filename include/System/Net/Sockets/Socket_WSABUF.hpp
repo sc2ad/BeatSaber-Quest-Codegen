@@ -14,6 +14,13 @@
 // Completed includes
 // Type namespace: System.Net.Sockets
 namespace System::Net::Sockets {
+  // Forward declaring type: WSABUF
+  struct WSABUF;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::Socket::WSABUF, "System.Net.Sockets", "Socket/WSABUF");
+// Type namespace: System.Net.Sockets
+namespace System::Net::Sockets {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -21,6 +28,15 @@ namespace System::Net::Sockets {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Socket::WSABUF/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.Int32 len
     // Size: 0x4
     // Offset: 0x0
@@ -35,6 +51,7 @@ namespace System::Net::Sockets {
     System::IntPtr buf;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
+    public:
     // Creating value type constructor for type: WSABUF
     constexpr WSABUF(int len_ = {}, System::IntPtr buf_ = {}) noexcept : len{len_}, buf{buf_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -50,6 +67,4 @@ namespace System::Net::Sockets {
   static check_size<sizeof(Socket::WSABUF), 8 + sizeof(System::IntPtr)> __System_Net_Sockets_Socket_WSABUFSizeCheck;
   static_assert(sizeof(Socket::WSABUF) == 0x10);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::Socket::WSABUF, "System.Net.Sockets", "Socket/WSABUF");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -28,6 +28,14 @@ namespace System::Threading {
 // Completed forward declares
 // Type namespace: System
 namespace System {
+  // Forward declaring type: IOAsyncResult
+  class IOAsyncResult;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::IOAsyncResult);
+DEFINE_IL2CPP_ARG_TYPE(System::IOAsyncResult*, "System", "IOAsyncResult");
+// Type namespace: System
+namespace System {
   // Size: 0x2A
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -35,6 +43,15 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class IOAsyncResult : public ::Il2CppObject/*, public System::IAsyncResult*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.AsyncCallback async_callback
     // Size: 0x8
     // Offset: 0x10
@@ -65,8 +82,7 @@ namespace System {
     bool completed;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: IOAsyncResult
-    IOAsyncResult(System::AsyncCallback* async_callback_ = {}, ::Il2CppObject* async_state_ = {}, System::Threading::ManualResetEvent* wait_handle_ = {}, bool completed_synchronously_ = {}, bool completed_ = {}) noexcept : async_callback{async_callback_}, async_state{async_state_}, wait_handle{wait_handle_}, completed_synchronously{completed_synchronously_}, completed{completed_} {}
+    public:
     // Creating interface conversion operator: operator System::IAsyncResult
     operator System::IAsyncResult() noexcept {
       return *reinterpret_cast<System::IAsyncResult*>(this);
@@ -129,7 +145,6 @@ namespace System {
   static check_size<sizeof(IOAsyncResult), 41 + sizeof(bool)> __System_IOAsyncResultSizeCheck;
   static_assert(sizeof(IOAsyncResult) == 0x2A);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::IOAsyncResult*, "System", "IOAsyncResult");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IOAsyncResult::get_AsyncCallback
 // Il2CppName: get_AsyncCallback

@@ -32,9 +32,18 @@ namespace System::Reflection {
 namespace System::Runtime::Serialization {
   // Forward declaring type: SerializationInfo
   class SerializationInfo;
-  // Skipping declaration: StreamingContext because it is already included!
+  // Forward declaring type: StreamingContext
+  struct StreamingContext;
 }
 // Completed forward declares
+// Type namespace: System.Reflection
+namespace System::Reflection {
+  // Forward declaring type: RuntimeAssembly
+  class RuntimeAssembly;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Reflection::RuntimeAssembly);
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::RuntimeAssembly*, "System.Reflection", "RuntimeAssembly");
 // Type namespace: System.Reflection
 namespace System::Reflection {
   // Size: 0x60
@@ -43,8 +52,6 @@ namespace System::Reflection {
   // [TokenAttribute] Offset: FFFFFFFF
   class RuntimeAssembly : public System::Reflection::Assembly {
     public:
-    // Creating value type constructor for type: RuntimeAssembly
-    RuntimeAssembly() noexcept {}
     // static System.Reflection.RuntimeAssembly LoadWithPartialNameInternal(System.String partialName, System.Security.Policy.Evidence securityEvidence, ref System.Threading.StackCrawlMark stackMark)
     // Offset: 0x1E9DD24
     static System::Reflection::RuntimeAssembly* LoadWithPartialNameInternal(::Il2CppString* partialName, System::Security::Policy::Evidence* securityEvidence, ByRef<System::Threading::StackCrawlMark> stackMark);
@@ -74,7 +81,6 @@ namespace System::Reflection {
   }; // System.Reflection.RuntimeAssembly
   #pragma pack(pop)
 }
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::RuntimeAssembly*, "System.Reflection", "RuntimeAssembly");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::RuntimeAssembly::LoadWithPartialNameInternal
 // Il2CppName: LoadWithPartialNameInternal

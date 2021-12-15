@@ -11,11 +11,14 @@
 #include "System/IEquatable_1.hpp"
 // Including type: System.Single
 #include "System/Single.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
+// Type namespace: UnityEngine
+namespace UnityEngine {
+  // Forward declaring type: Vector3
+  struct Vector3;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Vector3, "UnityEngine", "Vector3");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0xC
@@ -31,6 +34,15 @@ namespace UnityEngine {
   // [NativeTypeAttribute] Offset: EB4214
   struct Vector3/*, public System::ValueType, public System::IEquatable_1<UnityEngine::Vector3>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.Single x
     // Size: 0x4
     // Offset: 0x0
@@ -49,6 +61,7 @@ namespace UnityEngine {
     float z;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: Vector3
     constexpr Vector3(float x_ = {}, float y_ = {}, float z_ = {}) noexcept : x{x_}, y{y_}, z{z_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -161,16 +174,10 @@ namespace UnityEngine {
     static UnityEngine::Vector3 get_positiveInfinity();
     // public System.Void .ctor(System.Single x, System.Single y, System.Single z)
     // Offset: 0x243879C
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    // ABORTED: conflicts with another method.  Vector3(float x, float y, float z)
+    // ABORTED: conflicts with another method.  Vector3(float x, float y, float z);
     // public System.Void .ctor(System.Single x, System.Single y)
     // Offset: 0x243CE20
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    Vector3(float x, float y) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Vector3::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x), ::il2cpp_utils::ExtractType(y)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, x, y);
-    }
+    Vector3(float x, float y);
     // static private System.Void .cctor()
     // Offset: 0x243E2A4
     static void _cctor();
@@ -302,7 +309,6 @@ namespace UnityEngine {
   // Offset: 0x243DEB0
   bool operator !=(const UnityEngine::Vector3& lhs, const UnityEngine::Vector3& rhs);
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Vector3, "UnityEngine", "Vector3");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Vector3::get_Item
 // Il2CppName: get_Item

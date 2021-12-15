@@ -6,15 +6,15 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
-// Begin il2cpp-utils forward declares
-template<class T>
-struct Array;
-// Completed il2cpp-utils forward declares
+// Type namespace: HoudiniEngineUnity
+namespace HoudiniEngineUnity {
+  // Forward declaring type: HAPI_BoxInfo
+  struct HAPI_BoxInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_BoxInfo, "HoudiniEngineUnity", "HAPI_BoxInfo");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x18
@@ -24,50 +24,54 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HAPI_BoxInfo/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.Single[] center
     // Size: 0x8
     // Offset: 0x0
-    ::Array<float>* center;
+    ::ArrayW<float> center;
     // Field size check
-    static_assert(sizeof(::Array<float>*) == 0x8);
+    static_assert(sizeof(::ArrayW<float>) == 0x8);
     // public System.Single[] size
     // Size: 0x8
     // Offset: 0x8
-    ::Array<float>* size;
+    ::ArrayW<float> size;
     // Field size check
-    static_assert(sizeof(::Array<float>*) == 0x8);
+    static_assert(sizeof(::ArrayW<float>) == 0x8);
     // public System.Single[] rotation
     // Size: 0x8
     // Offset: 0x10
-    ::Array<float>* rotation;
+    ::ArrayW<float> rotation;
     // Field size check
-    static_assert(sizeof(::Array<float>*) == 0x8);
+    static_assert(sizeof(::ArrayW<float>) == 0x8);
+    public:
     // Creating value type constructor for type: HAPI_BoxInfo
-    constexpr HAPI_BoxInfo(::Array<float>* center_ = {}, ::Array<float>* size_ = {}, ::Array<float>* rotation_ = {}) noexcept : center{center_}, size{size_}, rotation{rotation_} {}
+    constexpr HAPI_BoxInfo(::ArrayW<float> center_ = ::ArrayW<float>(nullptr), ::ArrayW<float> size_ = ::ArrayW<float>(nullptr), ::ArrayW<float> rotation_ = ::ArrayW<float>(nullptr)) noexcept : center{center_}, size{size_}, rotation{rotation_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // Get instance field reference: public System.Single[] center
-    ::Array<float>*& dyn_center();
+    ::ArrayW<float>& dyn_center();
     // Get instance field reference: public System.Single[] size
-    ::Array<float>*& dyn_size();
+    ::ArrayW<float>& dyn_size();
     // Get instance field reference: public System.Single[] rotation
-    ::Array<float>*& dyn_rotation();
+    ::ArrayW<float>& dyn_rotation();
     // public System.Void .ctor(System.Boolean initialize_fields)
     // Offset: 0x1462CC8
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    HAPI_BoxInfo(bool initialize_fields) {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HAPI_BoxInfo::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(initialize_fields)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, initialize_fields);
-    }
+    HAPI_BoxInfo(bool initialize_fields);
   }; // HoudiniEngineUnity.HAPI_BoxInfo
   #pragma pack(pop)
-  static check_size<sizeof(HAPI_BoxInfo), 16 + sizeof(::Array<float>*)> __HoudiniEngineUnity_HAPI_BoxInfoSizeCheck;
+  static check_size<sizeof(HAPI_BoxInfo), 16 + sizeof(::ArrayW<float>)> __HoudiniEngineUnity_HAPI_BoxInfoSizeCheck;
   static_assert(sizeof(HAPI_BoxInfo) == 0x18);
 }
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_BoxInfo, "HoudiniEngineUnity", "HAPI_BoxInfo");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HAPI_BoxInfo::HAPI_BoxInfo
 // Il2CppName: .ctor

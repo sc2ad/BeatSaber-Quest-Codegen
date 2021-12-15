@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -75,6 +76,14 @@ namespace System::Runtime::Remoting::Messaging {
 // Completed forward declares
 // Type namespace: System
 namespace System {
+  // Forward declaring type: AppDomain
+  class AppDomain;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::AppDomain);
+DEFINE_IL2CPP_ARG_TYPE(System::AppDomain*, "System", "AppDomain");
+// Type namespace: System
+namespace System {
   // Size: 0xA0
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -84,6 +93,15 @@ namespace System {
   // [ComVisibleAttribute] Offset: E9E148
   class AppDomain : public System::MarshalByRefObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.IntPtr _mono_app_domain
     // Size: 0x8
     // Offset: 0x18
@@ -197,8 +215,7 @@ namespace System {
     System::Collections::Generic::List_1<::Il2CppString*>* compatibility_switch;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<::Il2CppString*>*) == 0x8);
-    // Creating value type constructor for type: AppDomain
-    AppDomain(System::IntPtr mono_app_domain_ = {}, ::Il2CppObject* evidence_ = {}, ::Il2CppObject* granted_ = {}, int principalPolicy_ = {}, System::AssemblyLoadEventHandler* AssemblyLoad_ = {}, System::ResolveEventHandler* AssemblyResolve_ = {}, System::EventHandler* DomainUnload_ = {}, System::EventHandler* ProcessExit_ = {}, System::ResolveEventHandler* ResourceResolve_ = {}, System::ResolveEventHandler* TypeResolve_ = {}, System::UnhandledExceptionEventHandler* UnhandledException_ = {}, System::EventHandler_1<System::Runtime::ExceptionServices::FirstChanceExceptionEventArgs*>* FirstChanceException_ = {}, ::Il2CppObject* domain_manager_ = {}, System::ResolveEventHandler* ReflectionOnlyAssemblyResolve_ = {}, ::Il2CppObject* activation_ = {}, ::Il2CppObject* applicationIdentity_ = {}, System::Collections::Generic::List_1<::Il2CppString*>* compatibility_switch_ = {}) noexcept : mono_app_domain{mono_app_domain_}, evidence{evidence_}, granted{granted_}, principalPolicy{principalPolicy_}, AssemblyLoad{AssemblyLoad_}, AssemblyResolve{AssemblyResolve_}, DomainUnload{DomainUnload_}, ProcessExit{ProcessExit_}, ResourceResolve{ResourceResolve_}, TypeResolve{TypeResolve_}, UnhandledException{UnhandledException_}, FirstChanceException{FirstChanceException_}, domain_manager{domain_manager_}, ReflectionOnlyAssemblyResolve{ReflectionOnlyAssemblyResolve_}, activation{activation_}, applicationIdentity{applicationIdentity_}, compatibility_switch{compatibility_switch_} {}
+    public:
     // Deleting conversion operator: operator ::Il2CppObject*
     constexpr operator ::Il2CppObject*() const noexcept = delete;
     // Get static field: static private System.String _process_guid
@@ -288,10 +305,10 @@ namespace System {
     static System::AppDomain* getCurDomain();
     // private System.Reflection.Assembly[] GetAssemblies(System.Boolean refOnly)
     // Offset: 0x1989658
-    ::Array<System::Reflection::Assembly*>* GetAssemblies(bool refOnly);
+    ::ArrayW<System::Reflection::Assembly*> GetAssemblies(bool refOnly);
     // public System.Reflection.Assembly[] GetAssemblies()
     // Offset: 0x1989660
-    ::Array<System::Reflection::Assembly*>* GetAssemblies();
+    ::ArrayW<System::Reflection::Assembly*> GetAssemblies();
     // public System.Object GetData(System.String name)
     // Offset: 0x1989668
     ::Il2CppObject* GetData(::Il2CppString* name);
@@ -330,7 +347,7 @@ namespace System {
     static ::Il2CppString* InternalGetProcessGuid(::Il2CppString* newguid);
     // static System.Object InvokeInDomainByID(System.Int32 domain_id, System.Reflection.MethodInfo method, System.Object obj, System.Object[] args)
     // Offset: 0x19897D4
-    static ::Il2CppObject* InvokeInDomainByID(int domain_id, System::Reflection::MethodInfo* method, ::Il2CppObject* obj, ::Array<::Il2CppObject*>* args);
+    static ::Il2CppObject* InvokeInDomainByID(int domain_id, System::Reflection::MethodInfo* method, ::Il2CppObject* obj, ::ArrayW<::Il2CppObject*> args);
     // static System.String GetProcessGuid()
     // Offset: 0x1989930
     static ::Il2CppString* GetProcessGuid();
@@ -357,10 +374,10 @@ namespace System {
     void DoDomainUnload();
     // System.Byte[] GetMarshalledDomainObjRef()
     // Offset: 0x198A418
-    ::Array<uint8_t>* GetMarshalledDomainObjRef();
+    ::ArrayW<uint8_t> GetMarshalledDomainObjRef();
     // System.Void ProcessMessageInDomain(System.Byte[] arrRequest, System.Runtime.Remoting.Messaging.CADMethodCallMessage cadMsg, out System.Byte[] arrResponse, out System.Runtime.Remoting.Messaging.CADMethodReturnMessage cadMrm)
     // Offset: 0x198A4F0
-    void ProcessMessageInDomain(::Array<uint8_t>* arrRequest, System::Runtime::Remoting::Messaging::CADMethodCallMessage* cadMsg, ByRef<::Array<uint8_t>*> arrResponse, ByRef<System::Runtime::Remoting::Messaging::CADMethodReturnMessage*> cadMrm);
+    void ProcessMessageInDomain(::ArrayW<uint8_t> arrRequest, System::Runtime::Remoting::Messaging::CADMethodCallMessage* cadMsg, ByRef<::ArrayW<uint8_t>> arrResponse, ByRef<System::Runtime::Remoting::Messaging::CADMethodReturnMessage*> cadMrm);
     // private System.Void .ctor()
     // Offset: 0x19894C8
     // Implemented from: System.MarshalByRefObject
@@ -386,7 +403,6 @@ namespace System {
   static check_size<sizeof(AppDomain), 152 + sizeof(System::Collections::Generic::List_1<::Il2CppString*>*)> __System_AppDomainSizeCheck;
   static_assert(sizeof(AppDomain) == 0xA0);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::AppDomain*, "System", "AppDomain");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::AppDomain::get_FriendlyName
 // Il2CppName: get_FriendlyName
@@ -467,7 +483,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::App
 // Writing MetadataGetter for method: System::AppDomain::GetAssemblies
 // Il2CppName: GetAssemblies
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::Assembly*>* (System::AppDomain::*)(bool)>(&System::AppDomain::GetAssemblies)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Reflection::Assembly*> (System::AppDomain::*)(bool)>(&System::AppDomain::GetAssemblies)> {
   static const MethodInfo* get() {
     static auto* refOnly = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "GetAssemblies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{refOnly});
@@ -476,7 +492,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Sys
 // Writing MetadataGetter for method: System::AppDomain::GetAssemblies
 // Il2CppName: GetAssemblies
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::Assembly*>* (System::AppDomain::*)()>(&System::AppDomain::GetAssemblies)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Reflection::Assembly*> (System::AppDomain::*)()>(&System::AppDomain::GetAssemblies)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "GetAssemblies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -593,7 +609,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::AppDomain::InvokeInDomainByID
 // Il2CppName: InvokeInDomainByID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(int, System::Reflection::MethodInfo*, ::Il2CppObject*, ::Array<::Il2CppObject*>*)>(&System::AppDomain::InvokeInDomainByID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(int, System::Reflection::MethodInfo*, ::Il2CppObject*, ::ArrayW<::Il2CppObject*>)>(&System::AppDomain::InvokeInDomainByID)> {
   static const MethodInfo* get() {
     static auto* domain_id = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* method = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodInfo")->byval_arg;
@@ -675,7 +691,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::AppDomain::GetMarshalledDomainObjRef
 // Il2CppName: GetMarshalledDomainObjRef
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (System::AppDomain::*)()>(&System::AppDomain::GetMarshalledDomainObjRef)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::AppDomain::*)()>(&System::AppDomain::GetMarshalledDomainObjRef)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "GetMarshalledDomainObjRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -683,7 +699,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Writing MetadataGetter for method: System::AppDomain::ProcessMessageInDomain
 // Il2CppName: ProcessMessageInDomain
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::AppDomain::*)(::Array<uint8_t>*, System::Runtime::Remoting::Messaging::CADMethodCallMessage*, ByRef<::Array<uint8_t>*>, ByRef<System::Runtime::Remoting::Messaging::CADMethodReturnMessage*>)>(&System::AppDomain::ProcessMessageInDomain)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::AppDomain::*)(::ArrayW<uint8_t>, System::Runtime::Remoting::Messaging::CADMethodCallMessage*, ByRef<::ArrayW<uint8_t>>, ByRef<System::Runtime::Remoting::Messaging::CADMethodReturnMessage*>)>(&System::AppDomain::ProcessMessageInDomain)> {
   static const MethodInfo* get() {
     static auto* arrRequest = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* cadMsg = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Messaging", "CADMethodCallMessage")->byval_arg;

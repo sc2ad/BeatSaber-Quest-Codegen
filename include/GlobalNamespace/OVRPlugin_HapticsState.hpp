@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
+  // Forward declaring type: HapticsState
+  struct HapticsState;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::HapticsState, "", "OVRPlugin/HapticsState");
+// Type namespace: 
+namespace GlobalNamespace {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -19,6 +26,15 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct OVRPlugin::HapticsState/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.Int32 SamplesAvailable
     // Size: 0x4
     // Offset: 0x0
@@ -31,6 +47,7 @@ namespace GlobalNamespace {
     int SamplesQueued;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: HapticsState
     constexpr HapticsState(int SamplesAvailable_ = {}, int SamplesQueued_ = {}) noexcept : SamplesAvailable{SamplesAvailable_}, SamplesQueued{SamplesQueued_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -46,6 +63,4 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRPlugin::HapticsState), 4 + sizeof(int)> __GlobalNamespace_OVRPlugin_HapticsStateSizeCheck;
   static_assert(sizeof(OVRPlugin::HapticsState) == 0x8);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::HapticsState, "", "OVRPlugin/HapticsState");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -9,7 +9,16 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: 
+namespace GlobalNamespace {
+  // Forward declaring type: ArrayHelpers
+  class ArrayHelpers;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(GlobalNamespace::ArrayHelpers);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ArrayHelpers*, "", "ArrayHelpers");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -18,21 +27,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ArrayHelpers : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: ArrayHelpers
-    ArrayHelpers() noexcept {}
     // static public T[] CreateOrEnlargeArray(T[] array, System.Int32 minimumCapacity)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static ::Array<T>* CreateOrEnlargeArray(::Array<T>* array, int minimumCapacity) {
+    static ::ArrayW<T> CreateOrEnlargeArray(::ArrayW<T> array, int minimumCapacity) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ArrayHelpers::CreateOrEnlargeArray");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "ArrayHelpers", "CreateOrEnlargeArray", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(minimumCapacity)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<::Array<T>*, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, array, minimumCapacity);
+      return ::il2cpp_utils::RunMethodThrow<::ArrayW<T>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, array, minimumCapacity);
     }
   }; // ArrayHelpers
   #pragma pack(pop)
 }
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ArrayHelpers*, "", "ArrayHelpers");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ArrayHelpers::CreateOrEnlargeArray
 // Il2CppName: CreateOrEnlargeArray

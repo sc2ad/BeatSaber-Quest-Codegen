@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO::Compression
@@ -25,9 +26,18 @@ namespace System::IO {
 }
 // Forward declaring namespace: System
 namespace System {
-  // Skipping declaration: IntPtr because it is already included!
+  // Forward declaring type: IntPtr
+  struct IntPtr;
 }
 // Completed forward declares
+// Type namespace: System.IO.Compression
+namespace System::IO::Compression {
+  // Forward declaring type: DeflateStreamNative
+  class DeflateStreamNative;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::IO::Compression::DeflateStreamNative);
+DEFINE_IL2CPP_ARG_TYPE(System::IO::Compression::DeflateStreamNative*, "System.IO.Compression", "DeflateStreamNative");
 // Type namespace: System.IO.Compression
 namespace System::IO::Compression {
   // Size: 0x38
@@ -40,6 +50,15 @@ namespace System::IO::Compression {
     class UnmanagedReadOrWrite;
     // Nested type: System::IO::Compression::DeflateStreamNative::SafeDeflateStreamHandle
     class SafeDeflateStreamHandle;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.IO.Compression.DeflateStreamNative/System.IO.Compression.UnmanagedReadOrWrite feeder
     // Size: 0x8
     // Offset: 0x10
@@ -75,11 +94,10 @@ namespace System::IO::Compression {
     // private System.Byte[] io_buffer
     // Size: 0x8
     // Offset: 0x30
-    ::Array<uint8_t>* io_buffer;
+    ::ArrayW<uint8_t> io_buffer;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
-    // Creating value type constructor for type: DeflateStreamNative
-    DeflateStreamNative(System::IO::Compression::DeflateStreamNative::UnmanagedReadOrWrite* feeder_ = {}, System::IO::Stream* base_stream_ = {}, System::IO::Compression::DeflateStreamNative::SafeDeflateStreamHandle* z_stream_ = {}, System::Runtime::InteropServices::GCHandle data_ = {}, bool disposed_ = {}, ::Array<uint8_t>* io_buffer_ = {}) noexcept : feeder{feeder_}, base_stream{base_stream_}, z_stream{z_stream_}, data{data_}, disposed{disposed_}, io_buffer{io_buffer_} {}
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
+    public:
     // Get instance field reference: private System.IO.Compression.DeflateStreamNative/System.IO.Compression.UnmanagedReadOrWrite feeder
     System::IO::Compression::DeflateStreamNative::UnmanagedReadOrWrite*& dyn_feeder();
     // Get instance field reference: private System.IO.Stream base_stream
@@ -91,7 +109,7 @@ namespace System::IO::Compression {
     // Get instance field reference: private System.Boolean disposed
     bool& dyn_disposed();
     // Get instance field reference: private System.Byte[] io_buffer
-    ::Array<uint8_t>*& dyn_io_buffer();
+    ::ArrayW<uint8_t>& dyn_io_buffer();
     // static public System.IO.Compression.DeflateStreamNative Create(System.IO.Stream compressedStream, System.IO.Compression.CompressionMode mode, System.Boolean gzip)
     // Offset: 0x1A30B28
     static System::IO::Compression::DeflateStreamNative* Create(System::IO::Stream* compressedStream, System::IO::Compression::CompressionMode mode, bool gzip);
@@ -153,10 +171,9 @@ namespace System::IO::Compression {
     void Finalize();
   }; // System.IO.Compression.DeflateStreamNative
   #pragma pack(pop)
-  static check_size<sizeof(DeflateStreamNative), 48 + sizeof(::Array<uint8_t>*)> __System_IO_Compression_DeflateStreamNativeSizeCheck;
+  static check_size<sizeof(DeflateStreamNative), 48 + sizeof(::ArrayW<uint8_t>)> __System_IO_Compression_DeflateStreamNativeSizeCheck;
   static_assert(sizeof(DeflateStreamNative) == 0x38);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::IO::Compression::DeflateStreamNative*, "System.IO.Compression", "DeflateStreamNative");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::Compression::DeflateStreamNative::Create
 // Il2CppName: Create

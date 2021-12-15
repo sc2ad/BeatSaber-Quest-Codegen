@@ -9,6 +9,13 @@
 // Completed includes
 // Type namespace: UnityEngineInternal
 namespace UnityEngineInternal {
+  // Forward declaring type: MathfInternal
+  struct MathfInternal;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngineInternal::MathfInternal, "UnityEngineInternal", "MathfInternal");
+// Type namespace: UnityEngineInternal
+namespace UnityEngineInternal {
   // Size: 0x0
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -40,8 +47,6 @@ namespace UnityEngineInternal {
   }; // UnityEngineInternal.MathfInternal
   #pragma pack(pop)
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngineInternal::MathfInternal, "UnityEngineInternal", "MathfInternal");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngineInternal::MathfInternal::_cctor
 // Il2CppName: .cctor

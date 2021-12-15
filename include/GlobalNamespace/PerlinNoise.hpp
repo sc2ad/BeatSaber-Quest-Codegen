@@ -9,7 +9,16 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: 
+namespace GlobalNamespace {
+  // Forward declaring type: PerlinNoise
+  class PerlinNoise;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(GlobalNamespace::PerlinNoise);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PerlinNoise*, "", "PerlinNoise");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -18,18 +27,16 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PerlinNoise : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: PerlinNoise
-    PerlinNoise() noexcept {}
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF08F20
     // Get static field: static private readonly System.Int32[] permutation
-    static ::Array<int>* _get_permutation();
+    static ::ArrayW<int> _get_permutation();
     // Set static field: static private readonly System.Int32[] permutation
-    static void _set_permutation(::Array<int>* value);
+    static void _set_permutation(::ArrayW<int> value);
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF08F30
     // Get static field: static private readonly System.Int32[] p
-    static ::Array<int>* _get_p();
+    static ::ArrayW<int> _get_p();
     // Set static field: static private readonly System.Int32[] p
-    static void _set_p(::Array<int>* value);
+    static void _set_p(::ArrayW<int> value);
     // static private System.Void .cctor()
     // Offset: 0x13A1000
     static void _cctor();
@@ -63,7 +70,6 @@ namespace GlobalNamespace {
   }; // PerlinNoise
   #pragma pack(pop)
 }
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PerlinNoise*, "", "PerlinNoise");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PerlinNoise::_cctor
 // Il2CppName: .cctor

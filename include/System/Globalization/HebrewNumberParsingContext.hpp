@@ -9,11 +9,14 @@
 #include "System/ValueType.hpp"
 // Including type: System.Globalization.HebrewNumber/System.Globalization.HS
 #include "System/Globalization/HebrewNumber.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
+// Type namespace: System.Globalization
+namespace System::Globalization {
+  // Forward declaring type: HebrewNumberParsingContext
+  struct HebrewNumberParsingContext;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Globalization::HebrewNumberParsingContext, "System.Globalization", "HebrewNumberParsingContext");
 // Type namespace: System.Globalization
 namespace System::Globalization {
   // Size: 0x8
@@ -23,6 +26,15 @@ namespace System::Globalization {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HebrewNumberParsingContext/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // System.Globalization.HebrewNumber/System.Globalization.HS state
     // Size: 0x4
     // Offset: 0x0
@@ -35,6 +47,7 @@ namespace System::Globalization {
     int result;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: HebrewNumberParsingContext
     constexpr HebrewNumberParsingContext(System::Globalization::HebrewNumber::HS state_ = {}, int result_ = {}) noexcept : state{state_}, result{result_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -47,18 +60,12 @@ namespace System::Globalization {
     int& dyn_result();
     // public System.Void .ctor(System.Int32 result)
     // Offset: 0x1C3B688
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    HebrewNumberParsingContext(int result) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::HebrewNumberParsingContext::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, result);
-    }
+    HebrewNumberParsingContext(int result);
   }; // System.Globalization.HebrewNumberParsingContext
   #pragma pack(pop)
   static check_size<sizeof(HebrewNumberParsingContext), 4 + sizeof(int)> __System_Globalization_HebrewNumberParsingContextSizeCheck;
   static_assert(sizeof(HebrewNumberParsingContext) == 0x8);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::Globalization::HebrewNumberParsingContext, "System.Globalization", "HebrewNumberParsingContext");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Globalization::HebrewNumberParsingContext::HebrewNumberParsingContext
 // Il2CppName: .ctor

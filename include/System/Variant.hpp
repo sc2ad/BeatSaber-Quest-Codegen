@@ -3,7 +3,7 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include <stdint.h>
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
@@ -14,6 +14,13 @@
 // Completed includes
 // Type namespace: System
 namespace System {
+  // Forward declaring type: Variant
+  struct Variant;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Variant, "System", "Variant");
+// Type namespace: System
+namespace System {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Explicit may not be correctly taken into account!
@@ -21,6 +28,15 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Variant/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.Int16 vt
     // Size: 0x2
     // Offset: 0x0
@@ -144,6 +160,7 @@ namespace System {
       // Field size check
       static_assert(sizeof(System::BRECORD) == 0x10);
     };
+    public:
     // Creating value type constructor for type: Variant
     constexpr Variant(int16_t vt_ = {}, uint16_t wReserved1_ = {}, uint16_t wReserved2_ = {}, uint16_t wReserved3_ = {}, int64_t llVal_ = {}) noexcept : vt{vt_}, wReserved1{wReserved1_}, wReserved2{wReserved2_}, wReserved3{wReserved3_}, llVal{llVal_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -198,8 +215,6 @@ namespace System {
   static check_size<sizeof(Variant), 8 + sizeof(System::BRECORD)> __System_VariantSizeCheck;
   static_assert(sizeof(Variant) == 0x18);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Variant, "System", "Variant");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Variant::Clear
 // Il2CppName: Clear

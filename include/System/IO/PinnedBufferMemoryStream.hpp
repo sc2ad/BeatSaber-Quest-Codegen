@@ -13,7 +13,16 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: System.IO
+namespace System::IO {
+  // Forward declaring type: PinnedBufferMemoryStream
+  class PinnedBufferMemoryStream;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::IO::PinnedBufferMemoryStream);
+DEFINE_IL2CPP_ARG_TYPE(System::IO::PinnedBufferMemoryStream*, "System.IO", "PinnedBufferMemoryStream");
 // Type namespace: System.IO
 namespace System::IO {
   // Size: 0x74
@@ -22,28 +31,36 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   class PinnedBufferMemoryStream : public System::IO::UnmanagedMemoryStream {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.Byte[] _array
     // Size: 0x8
     // Offset: 0x68
-    ::Array<uint8_t>* array;
+    ::ArrayW<uint8_t> array;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Runtime.InteropServices.GCHandle _pinningHandle
     // Size: 0x4
     // Offset: 0x70
     System::Runtime::InteropServices::GCHandle pinningHandle;
     // Field size check
     static_assert(sizeof(System::Runtime::InteropServices::GCHandle) == 0x4);
-    // Creating value type constructor for type: PinnedBufferMemoryStream
-    PinnedBufferMemoryStream(::Array<uint8_t>* array_ = {}, System::Runtime::InteropServices::GCHandle pinningHandle_ = {}) noexcept : array{array_}, pinningHandle{pinningHandle_} {}
+    public:
     // Get instance field reference: private System.Byte[] _array
-    ::Array<uint8_t>*& dyn__array();
+    ::ArrayW<uint8_t>& dyn__array();
     // Get instance field reference: private System.Runtime.InteropServices.GCHandle _pinningHandle
     System::Runtime::InteropServices::GCHandle& dyn__pinningHandle();
     // System.Void .ctor(System.Byte[] array)
     // Offset: 0x1B07CB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PinnedBufferMemoryStream* New_ctor(::Array<uint8_t>* array) {
+    static PinnedBufferMemoryStream* New_ctor(::ArrayW<uint8_t> array) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::PinnedBufferMemoryStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PinnedBufferMemoryStream*, creationType>(array)));
     }
@@ -62,7 +79,6 @@ namespace System::IO {
   static check_size<sizeof(PinnedBufferMemoryStream), 112 + sizeof(System::Runtime::InteropServices::GCHandle)> __System_IO_PinnedBufferMemoryStreamSizeCheck;
   static_assert(sizeof(PinnedBufferMemoryStream) == 0x74);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::IO::PinnedBufferMemoryStream*, "System.IO", "PinnedBufferMemoryStream");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::PinnedBufferMemoryStream::New_ctor
 // Il2CppName: .ctor

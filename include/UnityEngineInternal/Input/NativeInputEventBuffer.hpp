@@ -9,6 +9,13 @@
 // Completed includes
 // Type namespace: UnityEngineInternal.Input
 namespace UnityEngineInternal::Input {
+  // Forward declaring type: NativeInputEventBuffer
+  struct NativeInputEventBuffer;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngineInternal::Input::NativeInputEventBuffer, "UnityEngineInternal.Input", "NativeInputEventBuffer");
+// Type namespace: UnityEngineInternal.Input
+namespace UnityEngineInternal::Input {
   // Size: 0x14
   #pragma pack(push, 1)
   // WARNING Layout: Explicit may not be correctly taken into account!
@@ -16,6 +23,15 @@ namespace UnityEngineInternal::Input {
   // [TokenAttribute] Offset: FFFFFFFF
   struct NativeInputEventBuffer/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.Void* eventBuffer
     // Size: 0x8
     // Offset: 0x0
@@ -40,6 +56,7 @@ namespace UnityEngineInternal::Input {
     int capacityInBytes;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: NativeInputEventBuffer
     constexpr NativeInputEventBuffer(void* eventBuffer_ = {}, int eventCount_ = {}, int sizeInBytes_ = {}, int capacityInBytes_ = {}) noexcept : eventBuffer{eventBuffer_}, eventCount{eventCount_}, sizeInBytes{sizeInBytes_}, capacityInBytes{capacityInBytes_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -59,6 +76,4 @@ namespace UnityEngineInternal::Input {
   static check_size<sizeof(NativeInputEventBuffer), 16 + sizeof(int)> __UnityEngineInternal_Input_NativeInputEventBufferSizeCheck;
   static_assert(sizeof(NativeInputEventBuffer) == 0x14);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngineInternal::Input::NativeInputEventBuffer, "UnityEngineInternal.Input", "NativeInputEventBuffer");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -11,10 +11,6 @@
 #include "System/IEquatable_1.hpp"
 // Including type: System.Single
 #include "System/Single.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -23,6 +19,13 @@ namespace UnityEngine {
   struct Vector3;
 }
 // Completed forward declares
+// Type namespace: UnityEngine
+namespace UnityEngine {
+  // Forward declaring type: Quaternion
+  struct Quaternion;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Quaternion, "UnityEngine", "Quaternion");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -36,6 +39,15 @@ namespace UnityEngine {
   // [NativeTypeAttribute] Offset: EB4308
   struct Quaternion/*, public System::ValueType, public System::IEquatable_1<UnityEngine::Quaternion>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.Single x
     // Size: 0x4
     // Offset: 0x0
@@ -60,6 +72,7 @@ namespace UnityEngine {
     float w;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: Quaternion
     constexpr Quaternion(float x_ = {}, float y_ = {}, float z_ = {}, float w_ = {}) noexcept : x{x_}, y{y_}, z{z_}, w{w_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -105,8 +118,7 @@ namespace UnityEngine {
     void set_eulerAngles(UnityEngine::Vector3 value);
     // public System.Void .ctor(System.Single x, System.Single y, System.Single z, System.Single w)
     // Offset: 0x1DF091C
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    // ABORTED: conflicts with another method.  Quaternion(float x, float y, float z, float w)
+    // ABORTED: conflicts with another method.  Quaternion(float x, float y, float z, float w);
     // static private System.Void .cctor()
     // Offset: 0x1DF1600
     static void _cctor();
@@ -244,7 +256,6 @@ namespace UnityEngine {
   // Offset: 0x1DF09D0
   bool operator !=(const UnityEngine::Quaternion& lhs, const UnityEngine::Quaternion& rhs);
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Quaternion, "UnityEngine", "Quaternion");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Quaternion::get_Item
 // Il2CppName: get_Item

@@ -6,10 +6,7 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -18,10 +15,13 @@ namespace UnityEngine {
   class Renderer;
 }
 // Completed forward declares
-// Begin il2cpp-utils forward declares
-template<class T>
-struct Array;
-// Completed il2cpp-utils forward declares
+// Type namespace: UnityEngine
+namespace UnityEngine {
+  // Forward declaring type: LOD
+  struct LOD;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::LOD, "UnityEngine", "LOD");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -32,6 +32,15 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: EB3B60
   struct LOD/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.Single screenRelativeTransitionHeight
     // Size: 0x4
     // Offset: 0x0
@@ -47,11 +56,12 @@ namespace UnityEngine {
     // public UnityEngine.Renderer[] renderers
     // Size: 0x8
     // Offset: 0x8
-    ::Array<UnityEngine::Renderer*>* renderers;
+    ::ArrayW<UnityEngine::Renderer*> renderers;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Renderer*>*) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Renderer*>) == 0x8);
+    public:
     // Creating value type constructor for type: LOD
-    constexpr LOD(float screenRelativeTransitionHeight_ = {}, float fadeTransitionWidth_ = {}, ::Array<UnityEngine::Renderer*>* renderers_ = {}) noexcept : screenRelativeTransitionHeight{screenRelativeTransitionHeight_}, fadeTransitionWidth{fadeTransitionWidth_}, renderers{renderers_} {}
+    constexpr LOD(float screenRelativeTransitionHeight_ = {}, float fadeTransitionWidth_ = {}, ::ArrayW<UnityEngine::Renderer*> renderers_ = ::ArrayW<UnityEngine::Renderer*>(nullptr)) noexcept : screenRelativeTransitionHeight{screenRelativeTransitionHeight_}, fadeTransitionWidth{fadeTransitionWidth_}, renderers{renderers_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -61,21 +71,15 @@ namespace UnityEngine {
     // Get instance field reference: public System.Single fadeTransitionWidth
     float& dyn_fadeTransitionWidth();
     // Get instance field reference: public UnityEngine.Renderer[] renderers
-    ::Array<UnityEngine::Renderer*>*& dyn_renderers();
+    ::ArrayW<UnityEngine::Renderer*>& dyn_renderers();
     // public System.Void .ctor(System.Single screenRelativeTransitionHeight, UnityEngine.Renderer[] renderers)
     // Offset: 0x1D957E0
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    LOD(float screenRelativeTransitionHeight, ::Array<UnityEngine::Renderer*>* renderers) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::LOD::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(screenRelativeTransitionHeight), ::il2cpp_utils::ExtractType(renderers)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, screenRelativeTransitionHeight, renderers);
-    }
+    LOD(float screenRelativeTransitionHeight, ::ArrayW<UnityEngine::Renderer*> renderers);
   }; // UnityEngine.LOD
   #pragma pack(pop)
-  static check_size<sizeof(LOD), 8 + sizeof(::Array<UnityEngine::Renderer*>*)> __UnityEngine_LODSizeCheck;
+  static check_size<sizeof(LOD), 8 + sizeof(::ArrayW<UnityEngine::Renderer*>)> __UnityEngine_LODSizeCheck;
   static_assert(sizeof(LOD) == 0x10);
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::LOD, "UnityEngine", "LOD");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::LOD::LOD
 // Il2CppName: .ctor

@@ -3,7 +3,6 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
@@ -12,6 +11,13 @@
 // Including type: UnityEngine.Playables.PlayableOutputHandle
 #include "UnityEngine/Playables/PlayableOutputHandle.hpp"
 // Completed includes
+// Type namespace: UnityEngine.Experimental.Playables
+namespace UnityEngine::Experimental::Playables {
+  // Forward declaring type: TexturePlayableOutput
+  struct TexturePlayableOutput;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Playables::TexturePlayableOutput, "UnityEngine.Experimental.Playables", "TexturePlayableOutput");
 // Type namespace: UnityEngine.Experimental.Playables
 namespace UnityEngine::Experimental::Playables {
   // Size: 0xC
@@ -26,12 +32,22 @@ namespace UnityEngine::Experimental::Playables {
   // [StaticAccessorAttribute] Offset: EB727C
   struct TexturePlayableOutput/*, public System::ValueType, public UnityEngine::Playables::IPlayableOutput*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private UnityEngine.Playables.PlayableOutputHandle m_Handle
     // Size: 0xC
     // Offset: 0x0
     UnityEngine::Playables::PlayableOutputHandle m_Handle;
     // Field size check
     static_assert(sizeof(UnityEngine::Playables::PlayableOutputHandle) == 0xC);
+    public:
     // Creating value type constructor for type: TexturePlayableOutput
     constexpr TexturePlayableOutput(UnityEngine::Playables::PlayableOutputHandle m_Handle_ = {}) noexcept : m_Handle{m_Handle_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -56,8 +72,6 @@ namespace UnityEngine::Experimental::Playables {
   static check_size<sizeof(TexturePlayableOutput), 0 + sizeof(UnityEngine::Playables::PlayableOutputHandle)> __UnityEngine_Experimental_Playables_TexturePlayableOutputSizeCheck;
   static_assert(sizeof(TexturePlayableOutput) == 0xC);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Playables::TexturePlayableOutput, "UnityEngine.Experimental.Playables", "TexturePlayableOutput");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Experimental::Playables::TexturePlayableOutput::GetHandle
 // Il2CppName: GetHandle

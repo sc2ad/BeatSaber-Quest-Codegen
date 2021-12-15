@@ -9,7 +9,16 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: System.Security.Cryptography
+namespace System::Security::Cryptography {
+  // Forward declaring type: KeySizes
+  class KeySizes;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Security::Cryptography::KeySizes);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::KeySizes*, "System.Security.Cryptography", "KeySizes");
 // Type namespace: System.Security.Cryptography
 namespace System::Security::Cryptography {
   // Size: 0x1C
@@ -19,6 +28,15 @@ namespace System::Security::Cryptography {
   // [ComVisibleAttribute] Offset: EA0774
   class KeySizes : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.Int32 m_minSize
     // Size: 0x4
     // Offset: 0x10
@@ -37,8 +55,7 @@ namespace System::Security::Cryptography {
     int m_skipSize;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: KeySizes
-    KeySizes(int m_minSize_ = {}, int m_maxSize_ = {}, int m_skipSize_ = {}) noexcept : m_minSize{m_minSize_}, m_maxSize{m_maxSize_}, m_skipSize{m_skipSize_} {}
+    public:
     // Get instance field reference: private System.Int32 m_minSize
     int& dyn_m_minSize();
     // Get instance field reference: private System.Int32 m_maxSize
@@ -66,13 +83,12 @@ namespace System::Security::Cryptography {
     bool IsLegal(int keySize);
     // static System.Boolean IsLegalKeySize(System.Security.Cryptography.KeySizes[] legalKeys, System.Int32 size)
     // Offset: 0x1A99ABC
-    static bool IsLegalKeySize(::Array<System::Security::Cryptography::KeySizes*>* legalKeys, int size);
+    static bool IsLegalKeySize(::ArrayW<System::Security::Cryptography::KeySizes*> legalKeys, int size);
   }; // System.Security.Cryptography.KeySizes
   #pragma pack(pop)
   static check_size<sizeof(KeySizes), 24 + sizeof(int)> __System_Security_Cryptography_KeySizesSizeCheck;
   static_assert(sizeof(KeySizes) == 0x1C);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::KeySizes*, "System.Security.Cryptography", "KeySizes");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::KeySizes::get_MinSize
 // Il2CppName: get_MinSize
@@ -114,7 +130,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::KeySizes::IsLegalKeySize
 // Il2CppName: IsLegalKeySize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<System::Security::Cryptography::KeySizes*>*, int)>(&System::Security::Cryptography::KeySizes::IsLegalKeySize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<System::Security::Cryptography::KeySizes*>, int)>(&System::Security::Cryptography::KeySizes::IsLegalKeySize)> {
   static const MethodInfo* get() {
     static auto* legalKeys = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Security.Cryptography", "KeySizes"), 1)->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

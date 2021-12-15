@@ -14,6 +14,13 @@ namespace OVR::OpenVR {
 // Completed forward declares
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
+  // Forward declaring type: IVRExtendedDisplay
+  struct IVRExtendedDisplay;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRExtendedDisplay, "OVR.OpenVR", "IVRExtendedDisplay");
+// Type namespace: OVR.OpenVR
+namespace OVR::OpenVR {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -27,6 +34,15 @@ namespace OVR::OpenVR {
     class _GetEyeOutputViewport;
     // Nested type: OVR::OpenVR::IVRExtendedDisplay::_GetDXGIOutputInfo
     class _GetDXGIOutputInfo;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // OVR.OpenVR.IVRExtendedDisplay/OVR.OpenVR._GetWindowBounds GetWindowBounds
     // Size: 0x8
     // Offset: 0x0
@@ -45,6 +61,7 @@ namespace OVR::OpenVR {
     OVR::OpenVR::IVRExtendedDisplay::_GetDXGIOutputInfo* GetDXGIOutputInfo;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::IVRExtendedDisplay::_GetDXGIOutputInfo*) == 0x8);
+    public:
     // Creating value type constructor for type: IVRExtendedDisplay
     constexpr IVRExtendedDisplay(OVR::OpenVR::IVRExtendedDisplay::_GetWindowBounds* GetWindowBounds_ = {}, OVR::OpenVR::IVRExtendedDisplay::_GetEyeOutputViewport* GetEyeOutputViewport_ = {}, OVR::OpenVR::IVRExtendedDisplay::_GetDXGIOutputInfo* GetDXGIOutputInfo_ = {}) noexcept : GetWindowBounds{GetWindowBounds_}, GetEyeOutputViewport{GetEyeOutputViewport_}, GetDXGIOutputInfo{GetDXGIOutputInfo_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -62,6 +79,4 @@ namespace OVR::OpenVR {
   static check_size<sizeof(IVRExtendedDisplay), 16 + sizeof(OVR::OpenVR::IVRExtendedDisplay::_GetDXGIOutputInfo*)> __OVR_OpenVR_IVRExtendedDisplaySizeCheck;
   static_assert(sizeof(IVRExtendedDisplay) == 0x18);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRExtendedDisplay, "OVR.OpenVR", "IVRExtendedDisplay");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

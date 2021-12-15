@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -12,10 +13,14 @@ namespace GlobalNamespace {
   class IBeatmapLevelPack;
 }
 // Completed forward declares
-// Begin il2cpp-utils forward declares
-template<class T>
-struct Array;
-// Completed il2cpp-utils forward declares
+// Type namespace: 
+namespace GlobalNamespace {
+  // Forward declaring type: IBeatmapLevelPackCollection
+  class IBeatmapLevelPackCollection;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(GlobalNamespace::IBeatmapLevelPackCollection);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IBeatmapLevelPackCollection*, "", "IBeatmapLevelPackCollection");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -24,21 +29,17 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IBeatmapLevelPackCollection {
     public:
-    // Creating value type constructor for type: IBeatmapLevelPackCollection
-    IBeatmapLevelPackCollection() noexcept {}
     // public IBeatmapLevelPack[] get_beatmapLevelPacks()
     // Offset: 0xFFFFFFFF
-    ::Array<GlobalNamespace::IBeatmapLevelPack*>* get_beatmapLevelPacks();
+    ::ArrayW<GlobalNamespace::IBeatmapLevelPack*> get_beatmapLevelPacks();
   }; // IBeatmapLevelPackCollection
   #pragma pack(pop)
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IBeatmapLevelPackCollection*, "", "IBeatmapLevelPackCollection");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::IBeatmapLevelPackCollection::get_beatmapLevelPacks
 // Il2CppName: get_beatmapLevelPacks
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::IBeatmapLevelPack*>* (GlobalNamespace::IBeatmapLevelPackCollection::*)()>(&GlobalNamespace::IBeatmapLevelPackCollection::get_beatmapLevelPacks)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<GlobalNamespace::IBeatmapLevelPack*> (GlobalNamespace::IBeatmapLevelPackCollection::*)()>(&GlobalNamespace::IBeatmapLevelPackCollection::get_beatmapLevelPacks)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IBeatmapLevelPackCollection*), "get_beatmapLevelPacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

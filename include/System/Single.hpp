@@ -42,6 +42,13 @@ namespace System::Globalization {
 // Completed forward declares
 // Type namespace: System
 namespace System {
+  // Forward declaring type: Single
+  struct Single;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Single, "System", "Single");
+// Type namespace: System
+namespace System {
   // Size: 0x4
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -50,12 +57,22 @@ namespace System {
   // [ComVisibleAttribute] Offset: E9DCB8
   struct Single/*, public System::ValueType, public System::IComparable_1<float>, public System::IEquatable_1<float>, public System::IComparable, public System::IConvertible, public System::IFormattable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // System.Single m_value
     // Size: 0x4
     // Offset: 0x0
     float m_value;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: Single
     constexpr Single(float m_value_ = {}) noexcept : m_value{m_value_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -237,8 +254,6 @@ namespace System {
   static check_size<sizeof(Single), 0 + sizeof(float)> __System_SingleSizeCheck;
   static_assert(sizeof(Single) == 0x4);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Single, "System", "Single");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Single::IsInfinity
 // Il2CppName: IsInfinity

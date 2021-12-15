@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: UnityEngine.AI
 namespace UnityEngine::AI {
+  // Forward declaring type: NavMeshHit
+  struct NavMeshHit;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AI::NavMeshHit, "UnityEngine.AI", "NavMeshHit");
+// Type namespace: UnityEngine.AI
+namespace UnityEngine::AI {
   // Size: 0x24
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -20,6 +27,15 @@ namespace UnityEngine::AI {
   // [MovedFromAttribute] Offset: F11634
   struct NavMeshHit/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private UnityEngine.Vector3 m_Position
     // Size: 0xC
     // Offset: 0x0
@@ -50,6 +66,7 @@ namespace UnityEngine::AI {
     int m_Hit;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: NavMeshHit
     constexpr NavMeshHit(UnityEngine::Vector3 m_Position_ = {}, UnityEngine::Vector3 m_Normal_ = {}, float m_Distance_ = {}, int m_Mask_ = {}, int m_Hit_ = {}) noexcept : m_Position{m_Position_}, m_Normal{m_Normal_}, m_Distance{m_Distance_}, m_Mask{m_Mask_}, m_Hit{m_Hit_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -74,8 +91,6 @@ namespace UnityEngine::AI {
   static check_size<sizeof(NavMeshHit), 32 + sizeof(int)> __UnityEngine_AI_NavMeshHitSizeCheck;
   static_assert(sizeof(NavMeshHit) == 0x24);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AI::NavMeshHit, "UnityEngine.AI", "NavMeshHit");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AI::NavMeshHit::get_position
 // Il2CppName: get_position

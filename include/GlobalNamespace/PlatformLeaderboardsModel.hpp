@@ -9,6 +9,8 @@
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: LeaderboardScoreUploader
 #include "GlobalNamespace/LeaderboardScoreUploader.hpp"
+// Including type: System.Enum
+#include "System/Enum.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -36,6 +38,14 @@ namespace System {
   class Action;
 }
 // Completed forward declares
+// Type namespace: 
+namespace GlobalNamespace {
+  // Forward declaring type: PlatformLeaderboardsModel
+  class PlatformLeaderboardsModel;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(GlobalNamespace::PlatformLeaderboardsModel);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformLeaderboardsModel*, "", "PlatformLeaderboardsModel");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x50
@@ -66,12 +76,22 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct State/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      #ifdef CODEGEN_FIELD_ACCESSIBILITY
+      CODEGEN_FIELD_ACCESSIBILITY:
+      #else
+      protected:
+      #endif
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: State
       constexpr State(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -106,6 +126,15 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(PlatformLeaderboardsModel::State), 0 + sizeof(int)> __GlobalNamespace_PlatformLeaderboardsModel_StateSizeCheck;
     static_assert(sizeof(PlatformLeaderboardsModel::State) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private GameplayModifiersModelSO _gameplayModifiersModel
     // Size: 0x8
     // Offset: 0x18
@@ -153,8 +182,7 @@ namespace GlobalNamespace {
     ::Il2CppString* playerId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: PlatformLeaderboardsModel
-    PlatformLeaderboardsModel(GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel_ = {}, GlobalNamespace::LeaderboardScoreUploader* leaderboardScoreUploader_ = {}, GlobalNamespace::IPlatformUserModel* platformUserModel_ = {}, GlobalNamespace::PlatformLeaderboardsHandler* platformLeaderboardsHandler_ = {}, System::Action* allScoresDidUploadEvent_ = {}, GlobalNamespace::PlatformLeaderboardsModel::State state_ = {}, ::Il2CppString* playerId_ = {}) noexcept : gameplayModifiersModel{gameplayModifiersModel_}, leaderboardScoreUploader{leaderboardScoreUploader_}, platformUserModel{platformUserModel_}, platformLeaderboardsHandler{platformLeaderboardsHandler_}, allScoresDidUploadEvent{allScoresDidUploadEvent_}, state{state_}, playerId{playerId_} {}
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private GameplayModifiersModelSO _gameplayModifiersModel
@@ -222,7 +250,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PlatformLeaderboardsModel), 72 + sizeof(::Il2CppString*)> __GlobalNamespace_PlatformLeaderboardsModelSizeCheck;
   static_assert(sizeof(PlatformLeaderboardsModel) == 0x50);
 }
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformLeaderboardsModel*, "", "PlatformLeaderboardsModel");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformLeaderboardsModel::State, "", "PlatformLeaderboardsModel/State");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlatformLeaderboardsModel::get_initialized

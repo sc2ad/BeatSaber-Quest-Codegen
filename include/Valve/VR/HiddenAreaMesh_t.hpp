@@ -3,13 +3,19 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
 // Completed includes
+// Type namespace: Valve.VR
+namespace Valve::VR {
+  // Forward declaring type: HiddenAreaMesh_t
+  struct HiddenAreaMesh_t;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::HiddenAreaMesh_t, "Valve.VR", "HiddenAreaMesh_t");
 // Type namespace: Valve.VR
 namespace Valve::VR {
   // Size: 0xC
@@ -19,6 +25,15 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HiddenAreaMesh_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.IntPtr pVertexData
     // Size: 0x8
     // Offset: 0x0
@@ -31,6 +46,7 @@ namespace Valve::VR {
     uint unTriangleCount;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
+    public:
     // Creating value type constructor for type: HiddenAreaMesh_t
     constexpr HiddenAreaMesh_t(System::IntPtr pVertexData_ = {}, uint unTriangleCount_ = {}) noexcept : pVertexData{pVertexData_}, unTriangleCount{unTriangleCount_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -46,6 +62,4 @@ namespace Valve::VR {
   static check_size<sizeof(HiddenAreaMesh_t), 8 + sizeof(uint)> __Valve_VR_HiddenAreaMesh_tSizeCheck;
   static_assert(sizeof(HiddenAreaMesh_t) == 0xC);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::HiddenAreaMesh_t, "Valve.VR", "HiddenAreaMesh_t");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

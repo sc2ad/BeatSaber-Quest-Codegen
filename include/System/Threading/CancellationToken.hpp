@@ -6,10 +6,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Threading
@@ -33,6 +29,13 @@ struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Threading
 namespace System::Threading {
+  // Forward declaring type: CancellationToken
+  struct CancellationToken;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::CancellationToken, "System.Threading", "CancellationToken");
+// Type namespace: System.Threading
+namespace System::Threading {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -42,12 +45,22 @@ namespace System::Threading {
   // [DebuggerDisplayAttribute] Offset: E9FD10
   struct CancellationToken/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.Threading.CancellationTokenSource m_source
     // Size: 0x8
     // Offset: 0x0
     System::Threading::CancellationTokenSource* m_source;
     // Field size check
     static_assert(sizeof(System::Threading::CancellationTokenSource*) == 0x8);
+    public:
     // Creating value type constructor for type: CancellationToken
     constexpr CancellationToken(System::Threading::CancellationTokenSource* m_source_ = {}) noexcept : m_source{m_source_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -75,8 +88,7 @@ namespace System::Threading {
     bool get_CanBeCanceled();
     // System.Void .ctor(System.Threading.CancellationTokenSource source)
     // Offset: 0x1A5A038
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    // ABORTED: conflicts with another method.  CancellationToken(System::Threading::CancellationTokenSource* source)
+    // ABORTED: conflicts with another method.  CancellationToken(System::Threading::CancellationTokenSource* source);
     // static private System.Void .cctor()
     // Offset: 0x1A5ACA8
     static void _cctor();
@@ -131,7 +143,6 @@ namespace System::Threading {
   // Offset: 0x1A5AAB8
   bool operator !=(const System::Threading::CancellationToken& left, const System::Threading::CancellationToken& right);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::CancellationToken, "System.Threading", "CancellationToken");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::CancellationToken::get_None
 // Il2CppName: get_None

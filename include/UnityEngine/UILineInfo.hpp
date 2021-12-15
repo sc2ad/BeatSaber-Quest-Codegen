@@ -9,6 +9,13 @@
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: UILineInfo
+  struct UILineInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UILineInfo, "UnityEngine", "UILineInfo");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -17,6 +24,15 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: ECC438
   struct UILineInfo/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.Int32 startCharIdx
     // Size: 0x4
     // Offset: 0x0
@@ -41,6 +57,7 @@ namespace UnityEngine {
     float leading;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: UILineInfo
     constexpr UILineInfo(int startCharIdx_ = {}, int height_ = {}, float topY_ = {}, float leading_ = {}) noexcept : startCharIdx{startCharIdx_}, height{height_}, topY{topY_}, leading{leading_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -60,6 +77,4 @@ namespace UnityEngine {
   static check_size<sizeof(UILineInfo), 12 + sizeof(float)> __UnityEngine_UILineInfoSizeCheck;
   static_assert(sizeof(UILineInfo) == 0x10);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UILineInfo, "UnityEngine", "UILineInfo");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

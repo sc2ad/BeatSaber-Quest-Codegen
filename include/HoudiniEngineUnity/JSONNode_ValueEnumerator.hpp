@@ -11,11 +11,14 @@
 #include "System/ValueType.hpp"
 // Including type: HoudiniEngineUnity.JSONNode/HoudiniEngineUnity.Enumerator
 #include "HoudiniEngineUnity/JSONNode_Enumerator.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
+// Type namespace: HoudiniEngineUnity
+namespace HoudiniEngineUnity {
+  // Forward declaring type: ValueEnumerator
+  struct ValueEnumerator;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::JSONNode::ValueEnumerator, "HoudiniEngineUnity", "JSONNode/ValueEnumerator");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // WARNING Size may be invalid!
@@ -24,10 +27,20 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct JSONNode::ValueEnumerator/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private HoudiniEngineUnity.JSONNode/HoudiniEngineUnity.Enumerator m_Enumerator
     // Size: 0xFFFFFFFF
     // Offset: 0x0
     HoudiniEngineUnity::JSONNode::Enumerator m_Enumerator;
+    public:
     // Creating value type constructor for type: ValueEnumerator
     constexpr ValueEnumerator(HoudiniEngineUnity::JSONNode::Enumerator m_Enumerator_ = {}) noexcept : m_Enumerator{m_Enumerator_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -45,24 +58,13 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::JSONNode* get_Current();
     // public System.Void .ctor(System.Collections.Generic.List`1/System.Collections.Generic.Enumerator<HoudiniEngineUnity.JSONNode> aArrayEnum)
     // Offset: 0x178D2B4
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    ValueEnumerator(typename System::Collections::Generic::List_1<HoudiniEngineUnity::JSONNode*>::Enumerator aArrayEnum) {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::JSONNode::ValueEnumerator::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(aArrayEnum)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, aArrayEnum);
-    }
+    ValueEnumerator(typename System::Collections::Generic::List_1<HoudiniEngineUnity::JSONNode*>::Enumerator aArrayEnum);
     // public System.Void .ctor(System.Collections.Generic.Dictionary`2/System.Collections.Generic.Enumerator<System.String,HoudiniEngineUnity.JSONNode> aDictEnum)
     // Offset: 0x178D2FC
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    ValueEnumerator(typename System::Collections::Generic::Dictionary_2<::Il2CppString*, HoudiniEngineUnity::JSONNode*>::Enumerator aDictEnum) {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::JSONNode::ValueEnumerator::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(aDictEnum)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, aDictEnum);
-    }
+    ValueEnumerator(typename System::Collections::Generic::Dictionary_2<::Il2CppString*, HoudiniEngineUnity::JSONNode*>::Enumerator aDictEnum);
     // public System.Void .ctor(HoudiniEngineUnity.JSONNode/HoudiniEngineUnity.Enumerator aEnumerator)
     // Offset: 0x178D348
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    // ABORTED: conflicts with another method.  ValueEnumerator(HoudiniEngineUnity::JSONNode::Enumerator aEnumerator)
+    // ABORTED: conflicts with another method.  ValueEnumerator(HoudiniEngineUnity::JSONNode::Enumerator aEnumerator);
     // public System.Boolean MoveNext()
     // Offset: 0x178D3AC
     bool MoveNext();
@@ -72,7 +74,6 @@ namespace HoudiniEngineUnity {
   }; // HoudiniEngineUnity.JSONNode/HoudiniEngineUnity.ValueEnumerator
   // WARNING Not writing size check since size may be invalid!
 }
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::JSONNode::ValueEnumerator, "HoudiniEngineUnity", "JSONNode/ValueEnumerator");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONNode::ValueEnumerator::get_Current
 // Il2CppName: get_Current

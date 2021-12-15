@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -26,6 +27,14 @@ namespace System {
   class Type;
 }
 // Completed forward declares
+// Type namespace: UnityEngine
+namespace UnityEngine {
+  // Forward declaring type: AssetBundle
+  class AssetBundle;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::AssetBundle);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AssetBundle*, "UnityEngine", "AssetBundle");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18
@@ -46,8 +55,6 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: EDF93C
   class AssetBundle : public UnityEngine::Object {
     public:
-    // Creating value type constructor for type: AssetBundle
-    AssetBundle() noexcept {}
     // static UnityEngine.AssetBundleCreateRequest LoadFromFileAsync_Internal(System.String path, System.UInt32 crc, System.UInt64 offset)
     // Offset: 0x26CECEC
     static UnityEngine::AssetBundleCreateRequest* LoadFromFileAsync_Internal(::Il2CppString* path, uint crc, uint64_t offset);
@@ -74,8 +81,7 @@ namespace UnityEngine {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AssetBundle::LoadAsset");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "LoadAsset", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(name)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<T, false>(___instance_arg, ___generic__method, name);
+      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___generic__method, name);
     }
     // public UnityEngine.Object LoadAsset(System.String name, System.Type type)
     // Offset: 0x26CEF10
@@ -90,8 +96,7 @@ namespace UnityEngine {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AssetBundle::LoadAssetAsync");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "LoadAssetAsync", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(name)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<UnityEngine::AssetBundleRequest*, false>(___instance_arg, ___generic__method, name);
+      return ::il2cpp_utils::RunMethodThrow<UnityEngine::AssetBundleRequest*, false>(this, ___generic__method, name);
     }
     // public UnityEngine.AssetBundleRequest LoadAssetAsync(System.String name, System.Type type)
     // Offset: 0x26CF078
@@ -106,8 +111,7 @@ namespace UnityEngine {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AssetBundle::LoadAllAssetsAsync");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "LoadAllAssetsAsync", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<UnityEngine::AssetBundleRequest*, false>(___instance_arg, ___generic__method);
+      return ::il2cpp_utils::RunMethodThrow<UnityEngine::AssetBundleRequest*, false>(this, ___generic__method);
     }
     // public UnityEngine.AssetBundleRequest LoadAllAssetsAsync(System.Type type)
     // Offset: 0x26CF348
@@ -120,10 +124,10 @@ namespace UnityEngine {
     void Unload(bool unloadAllLoadedObjects);
     // public System.String[] GetAllAssetNames()
     // Offset: 0x26CF45C
-    ::Array<::Il2CppString*>* GetAllAssetNames();
+    ::ArrayW<::Il2CppString*> GetAllAssetNames();
     // public System.String[] GetAllScenePaths()
     // Offset: 0x26CF49C
-    ::Array<::Il2CppString*>* GetAllScenePaths();
+    ::ArrayW<::Il2CppString*> GetAllScenePaths();
     // private UnityEngine.AssetBundleRequest LoadAssetWithSubAssetsAsync_Internal(System.String name, System.Type type)
     // Offset: 0x26CF2F0
     UnityEngine::AssetBundleRequest* LoadAssetWithSubAssetsAsync_Internal(::Il2CppString* name, System::Type* type);
@@ -140,7 +144,6 @@ namespace UnityEngine {
   }; // UnityEngine.AssetBundle
   #pragma pack(pop)
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AssetBundle*, "UnityEngine", "AssetBundle");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AssetBundle::LoadFromFileAsync_Internal
 // Il2CppName: LoadFromFileAsync_Internal
@@ -281,7 +284,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::AssetBundle::GetAllAssetNames
 // Il2CppName: GetAllAssetNames
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (UnityEngine::AssetBundle::*)()>(&UnityEngine::AssetBundle::GetAllAssetNames)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (UnityEngine::AssetBundle::*)()>(&UnityEngine::AssetBundle::GetAllAssetNames)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AssetBundle*), "GetAllAssetNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -289,7 +292,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Writing MetadataGetter for method: UnityEngine::AssetBundle::GetAllScenePaths
 // Il2CppName: GetAllScenePaths
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (UnityEngine::AssetBundle::*)()>(&UnityEngine::AssetBundle::GetAllScenePaths)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (UnityEngine::AssetBundle::*)()>(&UnityEngine::AssetBundle::GetAllScenePaths)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AssetBundle*), "GetAllScenePaths", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

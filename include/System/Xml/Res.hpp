@@ -6,7 +6,16 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include <initializer_list>
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: System.Xml
+namespace System::Xml {
+  // Forward declaring type: Res
+  class Res;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Xml::Res);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Res*, "System.Xml", "Res");
 // Type namespace: System.Xml
 namespace System::Xml {
   // Size: 0x10
@@ -15,26 +24,15 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class Res : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Res
-    Res() noexcept {}
     // static public System.String GetString(System.String name)
     // Offset: 0x1B5C208
     static ::Il2CppString* GetString(::Il2CppString* name);
     // static public System.String GetString(System.String name, params System.Object[] args)
     // Offset: 0x1B6173C
-    static ::Il2CppString* GetString(::Il2CppString* name, ::Array<::Il2CppObject*>* args);
-    // Creating initializer_list -> params proxy for: System.String GetString(System.String name, params System.Object[] args)
-    static ::Il2CppString* GetString(::Il2CppString* name, std::initializer_list<::Il2CppObject*> args);
-    // Creating TArgs -> initializer_list proxy for: System.String GetString(System.String name, params System.Object[] args)
-    template<class ...TParams>
-    static ::Il2CppString* GetString(::Il2CppString* name, TParams&&... args) {
-      return GetString(name, {args...});
-    }
+    static ::Il2CppString* GetString(::Il2CppString* name, ::ArrayW<::Il2CppObject*> args);
   }; // System.Xml.Res
   #pragma pack(pop)
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Res*, "System.Xml", "Res");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::Res::GetString
 // Il2CppName: GetString
@@ -48,7 +46,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Xml::Res::GetString
 // Il2CppName: GetString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&System::Xml::Res::GetString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&System::Xml::Res::GetString)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;

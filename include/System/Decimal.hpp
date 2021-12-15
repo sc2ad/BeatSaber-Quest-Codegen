@@ -23,10 +23,7 @@
 #include "System/Int32.hpp"
 // Including type: System.Byte
 #include "System/Byte.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization
@@ -53,6 +50,13 @@ namespace System::Globalization {
 // Completed forward declares
 // Type namespace: System
 namespace System {
+  // Forward declaring type: Decimal
+  struct Decimal;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Decimal, "System", "Decimal");
+// Type namespace: System
+namespace System {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -61,6 +65,15 @@ namespace System {
   // [ComVisibleAttribute] Offset: E9D580
   struct Decimal/*, public System::ValueType, public System::IComparable_1<System::Decimal>, public System::IEquatable_1<System::Decimal>, public System::IComparable, public System::IConvertible, public System::IFormattable, public System::Runtime::Serialization::IDeserializationCallback*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.Int32 flags
     // Size: 0x4
     // Offset: 0x0
@@ -85,6 +98,7 @@ namespace System {
     int mid;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: Decimal
     constexpr Decimal(int flags_ = {}, int hi_ = {}, int lo_ = {}, int mid_ = {}) noexcept : flags{flags_}, hi{hi_}, lo{lo_}, mid{mid_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -152,9 +166,9 @@ namespace System {
     // Set static field: static private System.Int32 MaxInt32Scale
     static void _set_MaxInt32Scale(int value);
     // Get static field: static private System.UInt32[] Powers10
-    static ::Array<uint>* _get_Powers10();
+    static ::ArrayW<uint> _get_Powers10();
     // Set static field: static private System.UInt32[] Powers10
-    static void _set_Powers10(::Array<uint>* value);
+    static void _set_Powers10(::ArrayW<uint> value);
     // [DecimalConstantAttribute] Offset: 0xEA3F8C
     // Get static field: static public readonly System.Decimal Zero
     static System::Decimal _get_Zero();
@@ -200,78 +214,37 @@ namespace System {
     int& dyn_mid();
     // public System.Void .ctor(System.Int32 value)
     // Offset: 0x1D49AE8
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    Decimal(int value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Decimal::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
-    }
+    Decimal(int value);
     // public System.Void .ctor(System.UInt32 value)
     // Offset: 0x1D49B0C
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    Decimal(uint value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Decimal::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
-    }
+    Decimal(uint value);
     // public System.Void .ctor(System.Int64 value)
     // Offset: 0x1D49B18
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    Decimal(int64_t value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Decimal::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
-    }
+    Decimal(int64_t value);
     // public System.Void .ctor(System.UInt64 value)
     // Offset: 0x1D49B40
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    Decimal(uint64_t value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Decimal::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
-    }
+    Decimal(uint64_t value);
     // public System.Void .ctor(System.Single value)
     // Offset: 0x1D49B50
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    Decimal(float value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Decimal::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
-    }
+    Decimal(float value);
     // public System.Void .ctor(System.Double value)
     // Offset: 0x1D49B54
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    Decimal(double value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Decimal::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
-    }
+    Decimal(double value);
     // public System.Void .ctor(System.Int32[] bits)
     // Offset: 0x1D49B58
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    Decimal(::Array<int>* bits) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Decimal::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(bits)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, bits);
-    }
+    Decimal(::ArrayW<int> bits);
     // public System.Void .ctor(System.Int32 lo, System.Int32 mid, System.Int32 hi, System.Boolean isNegative, System.Byte scale)
     // Offset: 0x1D49DD8
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    Decimal(int lo, int mid, int hi, bool isNegative, uint8_t scale) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Decimal::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(lo), ::il2cpp_utils::ExtractType(mid), ::il2cpp_utils::ExtractType(hi), ::il2cpp_utils::ExtractType(isNegative), ::il2cpp_utils::ExtractType(scale)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, lo, mid, hi, isNegative, scale);
-    }
+    Decimal(int lo, int mid, int hi, bool isNegative, uint8_t scale);
     // private System.Void .ctor(System.Int32 lo, System.Int32 mid, System.Int32 hi, System.Int32 flags)
     // Offset: 0x1D4A204
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    // ABORTED: conflicts with another method.  Decimal(int lo, int mid, int hi, int flags)
+    // ABORTED: conflicts with another method.  Decimal(int lo, int mid, int hi, int flags);
     // static private System.Void .cctor()
     // Offset: 0x1D4BE98
     static void _cctor();
     // private System.Void SetBits(System.Int32[] bits)
     // Offset: 0x1D49C98
-    void SetBits(::Array<int>* bits);
+    void SetBits(::ArrayW<int> bits);
     // private System.Void OnSerializing(System.Runtime.Serialization.StreamingContext ctx)
     // Offset: 0x1D49EC8
     void OnSerializing(System::Runtime::Serialization::StreamingContext ctx);
@@ -310,10 +283,10 @@ namespace System {
     static System::Decimal Parse(::Il2CppString* s, System::Globalization::NumberStyles style, System::IFormatProvider* provider);
     // static public System.Int32[] GetBits(System.Decimal d)
     // Offset: 0x1D4A010
-    static ::Array<int>* GetBits(System::Decimal d);
+    static ::ArrayW<int> GetBits(System::Decimal d);
     // static System.Decimal ToDecimal(System.Byte[] buffer)
     // Offset: 0x1D4A70C
-    static System::Decimal ToDecimal(::Array<uint8_t>* buffer);
+    static System::Decimal ToDecimal(::ArrayW<uint8_t> buffer);
     // static public System.Decimal Round(System.Decimal d, System.Int32 decimals)
     // Offset: 0x1D4A838
     static System::Decimal Round(System::Decimal d, int decimals);
@@ -451,7 +424,6 @@ namespace System {
   // Offset: 0x1D4B6A4
   bool operator >(const System::Decimal& d1, const System::Decimal& d2);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::Decimal, "System", "Decimal");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Decimal::Decimal
 // Il2CppName: .ctor
@@ -500,7 +472,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Decimal::SetBits
 // Il2CppName: SetBits
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Decimal::*)(::Array<int>*)>(&System::Decimal::SetBits)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Decimal::*)(::ArrayW<int>)>(&System::Decimal::SetBits)> {
   static const MethodInfo* get() {
     static auto* bits = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Decimal), "SetBits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bits});
@@ -624,7 +596,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dec
 // Writing MetadataGetter for method: System::Decimal::GetBits
 // Il2CppName: GetBits
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (*)(System::Decimal)>(&System::Decimal::GetBits)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int> (*)(System::Decimal)>(&System::Decimal::GetBits)> {
   static const MethodInfo* get() {
     static auto* d = &::il2cpp_utils::GetClassFromName("System", "Decimal")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Decimal), "GetBits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{d});
@@ -633,7 +605,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int
 // Writing MetadataGetter for method: System::Decimal::ToDecimal
 // Il2CppName: ToDecimal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(::Array<uint8_t>*)>(&System::Decimal::ToDecimal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(::ArrayW<uint8_t>)>(&System::Decimal::ToDecimal)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Decimal), "ToDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer});

@@ -9,7 +9,16 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: System.Globalization
+namespace System::Globalization {
+  // Forward declaring type: CodePageDataItem
+  class CodePageDataItem;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Globalization::CodePageDataItem);
+DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CodePageDataItem*, "System.Globalization", "CodePageDataItem");
 // Type namespace: System.Globalization
 namespace System::Globalization {
   // Size: 0x24
@@ -18,6 +27,15 @@ namespace System::Globalization {
   // [TokenAttribute] Offset: FFFFFFFF
   class CodePageDataItem : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // System.Int32 m_dataIndex
     // Size: 0x4
     // Offset: 0x10
@@ -42,12 +60,11 @@ namespace System::Globalization {
     uint m_flags;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
-    // Creating value type constructor for type: CodePageDataItem
-    CodePageDataItem(int m_dataIndex_ = {}, int m_uiFamilyCodePage_ = {}, ::Il2CppString* m_webName_ = {}, uint m_flags_ = {}) noexcept : m_dataIndex{m_dataIndex_}, m_uiFamilyCodePage{m_uiFamilyCodePage_}, m_webName{m_webName_}, m_flags{m_flags_} {}
+    public:
     // Get static field: static private readonly System.Char[] sep
-    static ::Array<::Il2CppChar>* _get_sep();
+    static ::ArrayW<::Il2CppChar> _get_sep();
     // Set static field: static private readonly System.Char[] sep
-    static void _set_sep(::Array<::Il2CppChar>* value);
+    static void _set_sep(::ArrayW<::Il2CppChar> value);
     // Get instance field reference: System.Int32 m_dataIndex
     int& dyn_m_dataIndex();
     // Get instance field reference: System.Int32 m_uiFamilyCodePage
@@ -77,7 +94,6 @@ namespace System::Globalization {
   static check_size<sizeof(CodePageDataItem), 32 + sizeof(uint)> __System_Globalization_CodePageDataItemSizeCheck;
   static_assert(sizeof(CodePageDataItem) == 0x24);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CodePageDataItem*, "System.Globalization", "CodePageDataItem");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Globalization::CodePageDataItem::get_WebName
 // Il2CppName: get_WebName

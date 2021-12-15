@@ -9,12 +9,21 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO
 namespace System::IO {
 }
 // Completed forward declares
+// Type namespace: System.IO
+namespace System::IO {
+  // Forward declaring type: SearchPattern2
+  class SearchPattern2;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::IO::SearchPattern2);
+DEFINE_IL2CPP_ARG_TYPE(System::IO::SearchPattern2*, "System.IO", "SearchPattern2");
 // Type namespace: System.IO
 namespace System::IO {
   // Size: 0x28
@@ -27,6 +36,15 @@ namespace System::IO {
     class Op;
     // Nested type: System::IO::SearchPattern2::OpCode
     struct OpCode;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.IO.SearchPattern2/System.IO.Op ops
     // Size: 0x8
     // Offset: 0x10
@@ -53,16 +71,15 @@ namespace System::IO {
     ::Il2CppString* pattern;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: SearchPattern2
-    SearchPattern2(System::IO::SearchPattern2::Op* ops_ = {}, bool ignore_ = {}, bool hasWildcard_ = {}, ::Il2CppString* pattern_ = {}) noexcept : ops{ops_}, ignore{ignore_}, hasWildcard{hasWildcard_}, pattern{pattern_} {}
+    public:
     // Get static field: static readonly System.Char[] WildcardChars
-    static ::Array<::Il2CppChar>* _get_WildcardChars();
+    static ::ArrayW<::Il2CppChar> _get_WildcardChars();
     // Set static field: static readonly System.Char[] WildcardChars
-    static void _set_WildcardChars(::Array<::Il2CppChar>* value);
+    static void _set_WildcardChars(::ArrayW<::Il2CppChar> value);
     // Get static field: static readonly System.Char[] InvalidChars
-    static ::Array<::Il2CppChar>* _get_InvalidChars();
+    static ::ArrayW<::Il2CppChar> _get_InvalidChars();
     // Set static field: static readonly System.Char[] InvalidChars
-    static void _set_InvalidChars(::Array<::Il2CppChar>* value);
+    static void _set_InvalidChars(::ArrayW<::Il2CppChar> value);
     // Get instance field reference: private System.IO.SearchPattern2/System.IO.Op ops
     System::IO::SearchPattern2::Op*& dyn_ops();
     // Get instance field reference: private System.Boolean ignore
@@ -99,7 +116,6 @@ namespace System::IO {
   static check_size<sizeof(SearchPattern2), 32 + sizeof(::Il2CppString*)> __System_IO_SearchPattern2SizeCheck;
   static_assert(sizeof(SearchPattern2) == 0x28);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::IO::SearchPattern2*, "System.IO", "SearchPattern2");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::SearchPattern2::get_HasWildcard
 // Il2CppName: get_HasWildcard

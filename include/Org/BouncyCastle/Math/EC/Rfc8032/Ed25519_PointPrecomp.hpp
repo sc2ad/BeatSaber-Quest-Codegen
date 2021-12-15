@@ -11,7 +11,16 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: Org.BouncyCastle.Math.EC.Rfc8032
+namespace Org::BouncyCastle::Math::EC::Rfc8032 {
+  // Forward declaring type: PointPrecomp
+  class PointPrecomp;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointPrecomp);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointPrecomp*, "Org.BouncyCastle.Math.EC.Rfc8032", "Ed25519/PointPrecomp");
 // Type namespace: Org.BouncyCastle.Math.EC.Rfc8032
 namespace Org::BouncyCastle::Math::EC::Rfc8032 {
   // Size: 0x28
@@ -20,32 +29,40 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
   // [TokenAttribute] Offset: FFFFFFFF
   class Ed25519::PointPrecomp : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // System.Int32[] ypx_h
     // Size: 0x8
     // Offset: 0x10
-    ::Array<int>* ypx_h;
+    ::ArrayW<int> ypx_h;
     // Field size check
-    static_assert(sizeof(::Array<int>*) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // System.Int32[] ymx_h
     // Size: 0x8
     // Offset: 0x18
-    ::Array<int>* ymx_h;
+    ::ArrayW<int> ymx_h;
     // Field size check
-    static_assert(sizeof(::Array<int>*) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // System.Int32[] xyd
     // Size: 0x8
     // Offset: 0x20
-    ::Array<int>* xyd;
+    ::ArrayW<int> xyd;
     // Field size check
-    static_assert(sizeof(::Array<int>*) == 0x8);
-    // Creating value type constructor for type: PointPrecomp
-    PointPrecomp(::Array<int>* ypx_h_ = {}, ::Array<int>* ymx_h_ = {}, ::Array<int>* xyd_ = {}) noexcept : ypx_h{ypx_h_}, ymx_h{ymx_h_}, xyd{xyd_} {}
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
+    public:
     // Get instance field reference: System.Int32[] ypx_h
-    ::Array<int>*& dyn_ypx_h();
+    ::ArrayW<int>& dyn_ypx_h();
     // Get instance field reference: System.Int32[] ymx_h
-    ::Array<int>*& dyn_ymx_h();
+    ::ArrayW<int>& dyn_ymx_h();
     // Get instance field reference: System.Int32[] xyd
-    ::Array<int>*& dyn_xyd();
+    ::ArrayW<int>& dyn_xyd();
     // public System.Void .ctor()
     // Offset: 0x1F6AB28
     // Implemented from: System.Object
@@ -57,10 +74,9 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
     }
   }; // Org.BouncyCastle.Math.EC.Rfc8032.Ed25519/Org.BouncyCastle.Math.EC.Rfc8032.PointPrecomp
   #pragma pack(pop)
-  static check_size<sizeof(Ed25519::PointPrecomp), 32 + sizeof(::Array<int>*)> __Org_BouncyCastle_Math_EC_Rfc8032_Ed25519_PointPrecompSizeCheck;
+  static check_size<sizeof(Ed25519::PointPrecomp), 32 + sizeof(::ArrayW<int>)> __Org_BouncyCastle_Math_EC_Rfc8032_Ed25519_PointPrecompSizeCheck;
   static_assert(sizeof(Ed25519::PointPrecomp) == 0x28);
 }
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointPrecomp*, "Org.BouncyCastle.Math.EC.Rfc8032", "Ed25519/PointPrecomp");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointPrecomp::New_ctor
 // Il2CppName: .ctor

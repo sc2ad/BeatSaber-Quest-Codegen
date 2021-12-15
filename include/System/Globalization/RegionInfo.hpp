@@ -19,6 +19,14 @@ namespace System::Globalization {
 // Completed forward declares
 // Type namespace: System.Globalization
 namespace System::Globalization {
+  // Forward declaring type: RegionInfo
+  class RegionInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Globalization::RegionInfo);
+DEFINE_IL2CPP_ARG_TYPE(System::Globalization::RegionInfo*, "System.Globalization", "RegionInfo");
+// Type namespace: System.Globalization
+namespace System::Globalization {
   // Size: 0x60
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -27,6 +35,15 @@ namespace System::Globalization {
   // [ComVisibleAttribute] Offset: E9FCFC
   class RegionInfo : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.Int32 regionId
     // Size: 0x4
     // Offset: 0x10
@@ -89,8 +106,7 @@ namespace System::Globalization {
     ::Il2CppString* currencyNativeName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: RegionInfo
-    RegionInfo(int regionId_ = {}, ::Il2CppString* iso2Name_ = {}, ::Il2CppString* iso3Name_ = {}, ::Il2CppString* win3Name_ = {}, ::Il2CppString* englishName_ = {}, ::Il2CppString* nativeName_ = {}, ::Il2CppString* currencySymbol_ = {}, ::Il2CppString* isoCurrencySymbol_ = {}, ::Il2CppString* currencyEnglishName_ = {}, ::Il2CppString* currencyNativeName_ = {}) noexcept : regionId{regionId_}, iso2Name{iso2Name_}, iso3Name{iso3Name_}, win3Name{win3Name_}, englishName{englishName_}, nativeName{nativeName_}, currencySymbol{currencySymbol_}, isoCurrencySymbol{isoCurrencySymbol_}, currencyEnglishName{currencyEnglishName_}, currencyNativeName{currencyNativeName_} {}
+    public:
     // Get static field: static private System.Globalization.RegionInfo currentRegion
     static System::Globalization::RegionInfo* _get_currentRegion();
     // Set static field: static private System.Globalization.RegionInfo currentRegion
@@ -207,7 +223,6 @@ namespace System::Globalization {
   static check_size<sizeof(RegionInfo), 88 + sizeof(::Il2CppString*)> __System_Globalization_RegionInfoSizeCheck;
   static_assert(sizeof(RegionInfo) == 0x60);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::Globalization::RegionInfo*, "System.Globalization", "RegionInfo");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Globalization::RegionInfo::get_CurrentRegion
 // Il2CppName: get_CurrentRegion

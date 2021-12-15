@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: MatchTargetWeightMask
+  struct MatchTargetWeightMask;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::MatchTargetWeightMask, "UnityEngine", "MatchTargetWeightMask");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -20,6 +27,15 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: ECDAC4
   struct MatchTargetWeightMask/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private UnityEngine.Vector3 m_PositionXYZWeight
     // Size: 0xC
     // Offset: 0x0
@@ -32,6 +48,7 @@ namespace UnityEngine {
     float m_RotationWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: MatchTargetWeightMask
     constexpr MatchTargetWeightMask(UnityEngine::Vector3 m_PositionXYZWeight_ = {}, float m_RotationWeight_ = {}) noexcept : m_PositionXYZWeight{m_PositionXYZWeight_}, m_RotationWeight{m_RotationWeight_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -47,6 +64,4 @@ namespace UnityEngine {
   static check_size<sizeof(MatchTargetWeightMask), 12 + sizeof(float)> __UnityEngine_MatchTargetWeightMaskSizeCheck;
   static_assert(sizeof(MatchTargetWeightMask) == 0x10);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::MatchTargetWeightMask, "UnityEngine", "MatchTargetWeightMask");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

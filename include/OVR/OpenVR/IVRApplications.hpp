@@ -14,6 +14,13 @@ namespace OVR::OpenVR {
 // Completed forward declares
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
+  // Forward declaring type: IVRApplications
+  struct IVRApplications;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRApplications, "OVR.OpenVR", "IVRApplications");
+// Type namespace: OVR.OpenVR
+namespace OVR::OpenVR {
   // Size: 0xF8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -83,6 +90,15 @@ namespace OVR::OpenVR {
     class _LaunchInternalProcess;
     // Nested type: OVR::OpenVR::IVRApplications::_GetCurrentSceneProcessId
     class _GetCurrentSceneProcessId;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // OVR.OpenVR.IVRApplications/OVR.OpenVR._AddApplicationManifest AddApplicationManifest
     // Size: 0x8
     // Offset: 0x0
@@ -269,6 +285,7 @@ namespace OVR::OpenVR {
     OVR::OpenVR::IVRApplications::_GetCurrentSceneProcessId* GetCurrentSceneProcessId;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::IVRApplications::_GetCurrentSceneProcessId*) == 0x8);
+    public:
     // Creating value type constructor for type: IVRApplications
     constexpr IVRApplications(OVR::OpenVR::IVRApplications::_AddApplicationManifest* AddApplicationManifest_ = {}, OVR::OpenVR::IVRApplications::_RemoveApplicationManifest* RemoveApplicationManifest_ = {}, OVR::OpenVR::IVRApplications::_IsApplicationInstalled* IsApplicationInstalled_ = {}, OVR::OpenVR::IVRApplications::_GetApplicationCount* GetApplicationCount_ = {}, OVR::OpenVR::IVRApplications::_GetApplicationKeyByIndex* GetApplicationKeyByIndex_ = {}, OVR::OpenVR::IVRApplications::_GetApplicationKeyByProcessId* GetApplicationKeyByProcessId_ = {}, OVR::OpenVR::IVRApplications::_LaunchApplication* LaunchApplication_ = {}, OVR::OpenVR::IVRApplications::_LaunchTemplateApplication* LaunchTemplateApplication_ = {}, OVR::OpenVR::IVRApplications::_LaunchApplicationFromMimeType* LaunchApplicationFromMimeType_ = {}, OVR::OpenVR::IVRApplications::_LaunchDashboardOverlay* LaunchDashboardOverlay_ = {}, OVR::OpenVR::IVRApplications::_CancelApplicationLaunch* CancelApplicationLaunch_ = {}, OVR::OpenVR::IVRApplications::_IdentifyApplication* IdentifyApplication_ = {}, OVR::OpenVR::IVRApplications::_GetApplicationProcessId* GetApplicationProcessId_ = {}, OVR::OpenVR::IVRApplications::_GetApplicationsErrorNameFromEnum* GetApplicationsErrorNameFromEnum_ = {}, OVR::OpenVR::IVRApplications::_GetApplicationPropertyString* GetApplicationPropertyString_ = {}, OVR::OpenVR::IVRApplications::_GetApplicationPropertyBool* GetApplicationPropertyBool_ = {}, OVR::OpenVR::IVRApplications::_GetApplicationPropertyUint64* GetApplicationPropertyUint64_ = {}, OVR::OpenVR::IVRApplications::_SetApplicationAutoLaunch* SetApplicationAutoLaunch_ = {}, OVR::OpenVR::IVRApplications::_GetApplicationAutoLaunch* GetApplicationAutoLaunch_ = {}, OVR::OpenVR::IVRApplications::_SetDefaultApplicationForMimeType* SetDefaultApplicationForMimeType_ = {}, OVR::OpenVR::IVRApplications::_GetDefaultApplicationForMimeType* GetDefaultApplicationForMimeType_ = {}, OVR::OpenVR::IVRApplications::_GetApplicationSupportedMimeTypes* GetApplicationSupportedMimeTypes_ = {}, OVR::OpenVR::IVRApplications::_GetApplicationsThatSupportMimeType* GetApplicationsThatSupportMimeType_ = {}, OVR::OpenVR::IVRApplications::_GetApplicationLaunchArguments* GetApplicationLaunchArguments_ = {}, OVR::OpenVR::IVRApplications::_GetStartingApplication* GetStartingApplication_ = {}, OVR::OpenVR::IVRApplications::_GetTransitionState* GetTransitionState_ = {}, OVR::OpenVR::IVRApplications::_PerformApplicationPrelaunchCheck* PerformApplicationPrelaunchCheck_ = {}, OVR::OpenVR::IVRApplications::_GetApplicationsTransitionStateNameFromEnum* GetApplicationsTransitionStateNameFromEnum_ = {}, OVR::OpenVR::IVRApplications::_IsQuitUserPromptRequested* IsQuitUserPromptRequested_ = {}, OVR::OpenVR::IVRApplications::_LaunchInternalProcess* LaunchInternalProcess_ = {}, OVR::OpenVR::IVRApplications::_GetCurrentSceneProcessId* GetCurrentSceneProcessId_ = {}) noexcept : AddApplicationManifest{AddApplicationManifest_}, RemoveApplicationManifest{RemoveApplicationManifest_}, IsApplicationInstalled{IsApplicationInstalled_}, GetApplicationCount{GetApplicationCount_}, GetApplicationKeyByIndex{GetApplicationKeyByIndex_}, GetApplicationKeyByProcessId{GetApplicationKeyByProcessId_}, LaunchApplication{LaunchApplication_}, LaunchTemplateApplication{LaunchTemplateApplication_}, LaunchApplicationFromMimeType{LaunchApplicationFromMimeType_}, LaunchDashboardOverlay{LaunchDashboardOverlay_}, CancelApplicationLaunch{CancelApplicationLaunch_}, IdentifyApplication{IdentifyApplication_}, GetApplicationProcessId{GetApplicationProcessId_}, GetApplicationsErrorNameFromEnum{GetApplicationsErrorNameFromEnum_}, GetApplicationPropertyString{GetApplicationPropertyString_}, GetApplicationPropertyBool{GetApplicationPropertyBool_}, GetApplicationPropertyUint64{GetApplicationPropertyUint64_}, SetApplicationAutoLaunch{SetApplicationAutoLaunch_}, GetApplicationAutoLaunch{GetApplicationAutoLaunch_}, SetDefaultApplicationForMimeType{SetDefaultApplicationForMimeType_}, GetDefaultApplicationForMimeType{GetDefaultApplicationForMimeType_}, GetApplicationSupportedMimeTypes{GetApplicationSupportedMimeTypes_}, GetApplicationsThatSupportMimeType{GetApplicationsThatSupportMimeType_}, GetApplicationLaunchArguments{GetApplicationLaunchArguments_}, GetStartingApplication{GetStartingApplication_}, GetTransitionState{GetTransitionState_}, PerformApplicationPrelaunchCheck{PerformApplicationPrelaunchCheck_}, GetApplicationsTransitionStateNameFromEnum{GetApplicationsTransitionStateNameFromEnum_}, IsQuitUserPromptRequested{IsQuitUserPromptRequested_}, LaunchInternalProcess{LaunchInternalProcess_}, GetCurrentSceneProcessId{GetCurrentSceneProcessId_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -342,6 +359,4 @@ namespace OVR::OpenVR {
   static check_size<sizeof(IVRApplications), 240 + sizeof(OVR::OpenVR::IVRApplications::_GetCurrentSceneProcessId*)> __OVR_OpenVR_IVRApplicationsSizeCheck;
   static_assert(sizeof(IVRApplications) == 0xF8);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRApplications, "OVR.OpenVR", "IVRApplications");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

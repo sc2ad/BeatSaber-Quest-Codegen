@@ -11,7 +11,16 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: 
+namespace GlobalNamespace {
+  // Forward declaring type: MultiplayerModeSettings
+  class MultiplayerModeSettings;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(GlobalNamespace::PlayerSaveData::MultiplayerModeSettings);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveData::MultiplayerModeSettings*, "", "PlayerSaveData/MultiplayerModeSettings");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x31
@@ -20,6 +29,15 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayerSaveData::MultiplayerModeSettings : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.Int32 createServerNumberOfPlayers
     // Size: 0x4
     // Offset: 0x10
@@ -37,9 +55,9 @@ namespace GlobalNamespace {
     // public System.Byte[] quickPlaySongPackMask
     // Size: 0x8
     // Offset: 0x20
-    ::Array<uint8_t>* quickPlaySongPackMask;
+    ::ArrayW<uint8_t> quickPlaySongPackMask;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // public System.String quickPlaySongPackMaskSerializedName
     // Size: 0x8
     // Offset: 0x28
@@ -52,14 +70,13 @@ namespace GlobalNamespace {
     bool quickPlayEnableLevelSelection;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: MultiplayerModeSettings
-    MultiplayerModeSettings(int createServerNumberOfPlayers_ = {}, ::Il2CppString* quickPlayDifficulty_ = {}, ::Array<uint8_t>* quickPlaySongPackMask_ = {}, ::Il2CppString* quickPlaySongPackMaskSerializedName_ = {}, bool quickPlayEnableLevelSelection_ = {}) noexcept : createServerNumberOfPlayers{createServerNumberOfPlayers_}, quickPlayDifficulty{quickPlayDifficulty_}, quickPlaySongPackMask{quickPlaySongPackMask_}, quickPlaySongPackMaskSerializedName{quickPlaySongPackMaskSerializedName_}, quickPlayEnableLevelSelection{quickPlayEnableLevelSelection_} {}
+    public:
     // Get instance field reference: public System.Int32 createServerNumberOfPlayers
     int& dyn_createServerNumberOfPlayers();
     // Get instance field reference: public System.String quickPlayDifficulty
     ::Il2CppString*& dyn_quickPlayDifficulty();
     // Get instance field reference: public System.Byte[] quickPlaySongPackMask
-    ::Array<uint8_t>*& dyn_quickPlaySongPackMask();
+    ::ArrayW<uint8_t>& dyn_quickPlaySongPackMask();
     // Get instance field reference: public System.String quickPlaySongPackMaskSerializedName
     ::Il2CppString*& dyn_quickPlaySongPackMaskSerializedName();
     // Get instance field reference: public System.Boolean quickPlayEnableLevelSelection
@@ -78,7 +95,6 @@ namespace GlobalNamespace {
   static check_size<sizeof(PlayerSaveData::MultiplayerModeSettings), 48 + sizeof(bool)> __GlobalNamespace_PlayerSaveData_MultiplayerModeSettingsSizeCheck;
   static_assert(sizeof(PlayerSaveData::MultiplayerModeSettings) == 0x31);
 }
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveData::MultiplayerModeSettings*, "", "PlayerSaveData/MultiplayerModeSettings");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSaveData::MultiplayerModeSettings::New_ctor
 // Il2CppName: .ctor

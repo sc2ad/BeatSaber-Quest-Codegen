@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: AudioConfiguration
+  struct AudioConfiguration;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AudioConfiguration, "UnityEngine", "AudioConfiguration");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x14
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -19,6 +26,15 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   struct AudioConfiguration/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public UnityEngine.AudioSpeakerMode speakerMode
     // Size: 0x4
     // Offset: 0x0
@@ -49,6 +65,7 @@ namespace UnityEngine {
     int numVirtualVoices;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: AudioConfiguration
     constexpr AudioConfiguration(UnityEngine::AudioSpeakerMode speakerMode_ = {}, int dspBufferSize_ = {}, int sampleRate_ = {}, int numRealVoices_ = {}, int numVirtualVoices_ = {}) noexcept : speakerMode{speakerMode_}, dspBufferSize{dspBufferSize_}, sampleRate{sampleRate_}, numRealVoices{numRealVoices_}, numVirtualVoices{numVirtualVoices_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -70,6 +87,4 @@ namespace UnityEngine {
   static check_size<sizeof(AudioConfiguration), 16 + sizeof(int)> __UnityEngine_AudioConfigurationSizeCheck;
   static_assert(sizeof(AudioConfiguration) == 0x14);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AudioConfiguration, "UnityEngine", "AudioConfiguration");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -11,6 +11,13 @@
 // Completed includes
 // Type namespace: UnityEngine.PlayerLoop
 namespace UnityEngine::PlayerLoop {
+  // Forward declaring type: PlayerUpdateTime
+  struct PlayerUpdateTime;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PlayerLoop::Initialization::PlayerUpdateTime, "UnityEngine.PlayerLoop", "Initialization/PlayerUpdateTime");
+// Type namespace: UnityEngine.PlayerLoop
+namespace UnityEngine::PlayerLoop {
   // Size: 0x0
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -28,6 +35,4 @@ namespace UnityEngine::PlayerLoop {
   }; // UnityEngine.PlayerLoop.Initialization/UnityEngine.PlayerLoop.PlayerUpdateTime
   #pragma pack(pop)
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PlayerLoop::Initialization::PlayerUpdateTime, "UnityEngine.PlayerLoop", "Initialization/PlayerUpdateTime");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

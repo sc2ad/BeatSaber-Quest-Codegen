@@ -15,10 +15,6 @@
 #include "GlobalNamespace/GameplayModifierMask.hpp"
 // Including type: SongPackMask
 #include "GlobalNamespace/SongPackMask.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: LiteNetLib::Utils
@@ -31,6 +27,13 @@ namespace LiteNetLib::Utils {
 // Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
+  // Forward declaring type: BeatmapLevelSelectionMask
+  struct BeatmapLevelSelectionMask;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelSelectionMask, "", "BeatmapLevelSelectionMask");
+// Type namespace: 
+namespace GlobalNamespace {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -39,6 +42,15 @@ namespace GlobalNamespace {
   // [IsReadOnlyAttribute] Offset: FFFFFFFF
   struct BeatmapLevelSelectionMask/*, public System::ValueType, public System::IEquatable_1<GlobalNamespace::BeatmapLevelSelectionMask>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public readonly BeatmapDifficultyMask difficulties
     // Size: 0x1
     // Offset: 0x0
@@ -61,6 +73,7 @@ namespace GlobalNamespace {
     GlobalNamespace::SongPackMask songPacks;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SongPackMask) == 0x10);
+    public:
     // Creating value type constructor for type: BeatmapLevelSelectionMask
     constexpr BeatmapLevelSelectionMask(GlobalNamespace::BeatmapDifficultyMask difficulties_ = {}, GlobalNamespace::GameplayModifierMask modifiers_ = {}, GlobalNamespace::SongPackMask songPacks_ = {}) noexcept : difficulties{difficulties_}, modifiers{modifiers_}, songPacks{songPacks_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -79,8 +92,7 @@ namespace GlobalNamespace {
     GlobalNamespace::SongPackMask& dyn_songPacks();
     // public System.Void .ctor(BeatmapDifficultyMask difficulties, GameplayModifierMask modifiers, SongPackMask songPacks)
     // Offset: 0x155C79C
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    // ABORTED: conflicts with another method.  BeatmapLevelSelectionMask(GlobalNamespace::BeatmapDifficultyMask difficulties, GlobalNamespace::GameplayModifierMask modifiers, GlobalNamespace::SongPackMask songPacks)
+    // ABORTED: conflicts with another method.  BeatmapLevelSelectionMask(GlobalNamespace::BeatmapDifficultyMask difficulties, GlobalNamespace::GameplayModifierMask modifiers, GlobalNamespace::SongPackMask songPacks);
     // public System.Boolean Equals(BeatmapLevelSelectionMask other)
     // Offset: 0x155C84C
     bool Equals(GlobalNamespace::BeatmapLevelSelectionMask other);
@@ -111,7 +123,6 @@ namespace GlobalNamespace {
   // Offset: 0x155CAB4
   bool operator !=(const GlobalNamespace::BeatmapLevelSelectionMask& l, const GlobalNamespace::BeatmapLevelSelectionMask& r);
 }
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelSelectionMask, "", "BeatmapLevelSelectionMask");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelSelectionMask::BeatmapLevelSelectionMask
 // Il2CppName: .ctor

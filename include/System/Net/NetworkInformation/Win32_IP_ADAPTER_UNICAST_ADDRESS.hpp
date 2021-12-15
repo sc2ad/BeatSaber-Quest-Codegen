@@ -22,6 +22,13 @@
 // Completed includes
 // Type namespace: System.Net.NetworkInformation
 namespace System::Net::NetworkInformation {
+  // Forward declaring type: Win32_IP_ADAPTER_UNICAST_ADDRESS
+  struct Win32_IP_ADAPTER_UNICAST_ADDRESS;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32_IP_ADAPTER_UNICAST_ADDRESS, "System.Net.NetworkInformation", "Win32_IP_ADAPTER_UNICAST_ADDRESS");
+// Type namespace: System.Net.NetworkInformation
+namespace System::Net::NetworkInformation {
   // Size: 0x39
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -29,6 +36,15 @@ namespace System::Net::NetworkInformation {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Win32_IP_ADAPTER_UNICAST_ADDRESS/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.Net.NetworkInformation.Win32LengthFlagsUnion LengthFlags
     // Size: 0x8
     // Offset: 0x0
@@ -91,6 +107,7 @@ namespace System::Net::NetworkInformation {
     uint8_t OnLinkPrefixLength;
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
+    public:
     // Creating value type constructor for type: Win32_IP_ADAPTER_UNICAST_ADDRESS
     constexpr Win32_IP_ADAPTER_UNICAST_ADDRESS(System::Net::NetworkInformation::Win32LengthFlagsUnion LengthFlags_ = {}, System::IntPtr Next_ = {}, System::Net::NetworkInformation::Win32_SOCKET_ADDRESS Address_ = {}, System::Net::NetworkInformation::PrefixOrigin PrefixOrigin_ = {}, System::Net::NetworkInformation::SuffixOrigin SuffixOrigin_ = {}, System::Net::NetworkInformation::DuplicateAddressDetectionState DadState_ = {}, uint ValidLifetime_ = {}, uint PreferredLifetime_ = {}, uint LeaseLifetime_ = {}, uint8_t OnLinkPrefixLength_ = {}) noexcept : LengthFlags{LengthFlags_}, Next{Next_}, Address{Address_}, PrefixOrigin{PrefixOrigin_}, SuffixOrigin{SuffixOrigin_}, DadState{DadState_}, ValidLifetime{ValidLifetime_}, PreferredLifetime{PreferredLifetime_}, LeaseLifetime{LeaseLifetime_}, OnLinkPrefixLength{OnLinkPrefixLength_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -122,6 +139,4 @@ namespace System::Net::NetworkInformation {
   static check_size<sizeof(Win32_IP_ADAPTER_UNICAST_ADDRESS), 56 + sizeof(uint8_t)> __System_Net_NetworkInformation_Win32_IP_ADAPTER_UNICAST_ADDRESSSizeCheck;
   static_assert(sizeof(Win32_IP_ADAPTER_UNICAST_ADDRESS) == 0x39);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32_IP_ADAPTER_UNICAST_ADDRESS, "System.Net.NetworkInformation", "Win32_IP_ADAPTER_UNICAST_ADDRESS");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

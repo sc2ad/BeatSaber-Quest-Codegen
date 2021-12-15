@@ -22,6 +22,13 @@ namespace UnityEngine::Events {
 // Completed forward declares
 // Type namespace: TMPro
 namespace TMPro {
+  // Forward declaring type: FloatTween
+  struct FloatTween;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::FloatTween, "TMPro", "FloatTween");
+// Type namespace: TMPro
+namespace TMPro {
   // Size: 0x15
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -31,6 +38,15 @@ namespace TMPro {
     public:
     // Nested type: TMPro::FloatTween::FloatTweenCallback
     class FloatTweenCallback;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private TMPro.FloatTween/TMPro.FloatTweenCallback m_Target
     // Size: 0x8
     // Offset: 0x0
@@ -61,6 +77,7 @@ namespace TMPro {
     bool m_IgnoreTimeScale;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating value type constructor for type: FloatTween
     constexpr FloatTween(TMPro::FloatTween::FloatTweenCallback* m_Target_ = {}, float m_StartValue_ = {}, float m_TargetValue_ = {}, float m_Duration_ = {}, bool m_IgnoreTimeScale_ = {}) noexcept : m_Target{m_Target_}, m_StartValue{m_StartValue_}, m_TargetValue{m_TargetValue_}, m_Duration{m_Duration_}, m_IgnoreTimeScale{m_IgnoreTimeScale_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -125,8 +142,6 @@ namespace TMPro {
   static check_size<sizeof(FloatTween), 20 + sizeof(bool)> __TMPro_FloatTweenSizeCheck;
   static_assert(sizeof(FloatTween) == 0x15);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(TMPro::FloatTween, "TMPro", "FloatTween");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::FloatTween::get_startValue
 // Il2CppName: get_startValue

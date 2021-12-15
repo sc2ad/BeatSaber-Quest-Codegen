@@ -17,6 +17,14 @@ namespace System::Reflection::Emit {
 // Completed forward declares
 // Type namespace: System.Reflection.Emit
 namespace System::Reflection::Emit {
+  // Forward declaring type: LocalBuilder
+  class LocalBuilder;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Reflection::Emit::LocalBuilder);
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Emit::LocalBuilder*, "System.Reflection.Emit", "LocalBuilder");
+// Type namespace: System.Reflection.Emit
+namespace System::Reflection::Emit {
   // Size: 0x38
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -28,6 +36,15 @@ namespace System::Reflection::Emit {
     public:
     // Writing base type padding for base size: 0x1C to desired offset: 0x20
     char ___base_padding[0x4] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.String name
     // Size: 0x8
     // Offset: 0x20
@@ -52,8 +69,7 @@ namespace System::Reflection::Emit {
     int endOffset;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: LocalBuilder
-    LocalBuilder(::Il2CppString* name_ = {}, System::Reflection::Emit::ILGenerator* ilgen_ = {}, int startOffset_ = {}, int endOffset_ = {}) noexcept : name{name_}, ilgen{ilgen_}, startOffset{startOffset_}, endOffset{endOffset_} {}
+    public:
     // Get instance field reference: private System.String name
     ::Il2CppString*& dyn_name();
     // Get instance field reference: System.Reflection.Emit.ILGenerator ilgen
@@ -67,6 +83,4 @@ namespace System::Reflection::Emit {
   static check_size<sizeof(LocalBuilder), 52 + sizeof(int)> __System_Reflection_Emit_LocalBuilderSizeCheck;
   static_assert(sizeof(LocalBuilder) == 0x38);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Emit::LocalBuilder*, "System.Reflection.Emit", "LocalBuilder");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

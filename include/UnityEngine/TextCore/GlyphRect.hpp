@@ -8,14 +8,17 @@
 #include "System/ValueType.hpp"
 // Including type: System.IEquatable`1
 #include "System/IEquatable_1.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct Il2CppObject;
 // Completed il2cpp-utils forward declares
+// Type namespace: UnityEngine.TextCore
+namespace UnityEngine::TextCore {
+  // Forward declaring type: GlyphRect
+  struct GlyphRect;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::GlyphRect, "UnityEngine.TextCore", "GlyphRect");
 // Type namespace: UnityEngine.TextCore
 namespace UnityEngine::TextCore {
   // Size: 0x10
@@ -26,6 +29,15 @@ namespace UnityEngine::TextCore {
   // [UsedByNativeCodeAttribute] Offset: EE7BE8
   struct GlyphRect/*, public System::ValueType, public System::IEquatable_1<UnityEngine::TextCore::GlyphRect>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // [NativeNameAttribute] Offset: 0xEE8324
     // private System.Int32 m_X
     // Size: 0x4
@@ -54,6 +66,7 @@ namespace UnityEngine::TextCore {
     int m_Height;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: GlyphRect
     constexpr GlyphRect(int m_X_ = {}, int m_Y_ = {}, int m_Width_ = {}, int m_Height_ = {}) noexcept : m_X{m_X_}, m_Y{m_Y_}, m_Width{m_Width_}, m_Height{m_Height_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -93,8 +106,7 @@ namespace UnityEngine::TextCore {
     static UnityEngine::TextCore::GlyphRect get_zero();
     // public System.Void .ctor(System.Int32 x, System.Int32 y, System.Int32 width, System.Int32 height)
     // Offset: 0x26A92A8
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    // ABORTED: conflicts with another method.  GlyphRect(int x, int y, int width, int height)
+    // ABORTED: conflicts with another method.  GlyphRect(int x, int y, int width, int height);
     // static private System.Void .cctor()
     // Offset: 0x26A9454
     static void _cctor();
@@ -116,7 +128,6 @@ namespace UnityEngine::TextCore {
   static check_size<sizeof(GlyphRect), 12 + sizeof(int)> __UnityEngine_TextCore_GlyphRectSizeCheck;
   static_assert(sizeof(GlyphRect) == 0x10);
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::GlyphRect, "UnityEngine.TextCore", "GlyphRect");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TextCore::GlyphRect::get_x
 // Il2CppName: get_x

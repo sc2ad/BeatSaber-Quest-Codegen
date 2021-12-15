@@ -11,7 +11,16 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: System.Net.NetworkInformation
+namespace System::Net::NetworkInformation {
+  // Forward declaring type: MibIPGlobalProperties
+  class MibIPGlobalProperties;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Net::NetworkInformation::MibIPGlobalProperties);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::MibIPGlobalProperties*, "System.Net.NetworkInformation", "MibIPGlobalProperties");
 // Type namespace: System.Net.NetworkInformation
 namespace System::Net::NetworkInformation {
   // Size: 0x40
@@ -20,6 +29,15 @@ namespace System::Net::NetworkInformation {
   // [TokenAttribute] Offset: FFFFFFFF
   class MibIPGlobalProperties : public System::Net::NetworkInformation::UnixIPGlobalProperties {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public readonly System.String StatisticsFile
     // Size: 0x8
     // Offset: 0x10
@@ -56,12 +74,11 @@ namespace System::Net::NetworkInformation {
     ::Il2CppString* Udp6File;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: MibIPGlobalProperties
-    MibIPGlobalProperties(::Il2CppString* StatisticsFile_ = {}, ::Il2CppString* StatisticsFileIPv6_ = {}, ::Il2CppString* TcpFile_ = {}, ::Il2CppString* Tcp6File_ = {}, ::Il2CppString* UdpFile_ = {}, ::Il2CppString* Udp6File_ = {}) noexcept : StatisticsFile{StatisticsFile_}, StatisticsFileIPv6{StatisticsFileIPv6_}, TcpFile{TcpFile_}, Tcp6File{Tcp6File_}, UdpFile{UdpFile_}, Udp6File{Udp6File_} {}
+    public:
     // Get static field: static private readonly System.Char[] wsChars
-    static ::Array<::Il2CppChar>* _get_wsChars();
+    static ::ArrayW<::Il2CppChar> _get_wsChars();
     // Set static field: static private readonly System.Char[] wsChars
-    static void _set_wsChars(::Array<::Il2CppChar>* value);
+    static void _set_wsChars(::ArrayW<::Il2CppChar> value);
     // Get instance field reference: public readonly System.String StatisticsFile
     ::Il2CppString*& dyn_StatisticsFile();
     // Get instance field reference: public readonly System.String StatisticsFileIPv6
@@ -89,7 +106,6 @@ namespace System::Net::NetworkInformation {
   static check_size<sizeof(MibIPGlobalProperties), 56 + sizeof(::Il2CppString*)> __System_Net_NetworkInformation_MibIPGlobalPropertiesSizeCheck;
   static_assert(sizeof(MibIPGlobalProperties) == 0x40);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::MibIPGlobalProperties*, "System.Net.NetworkInformation", "MibIPGlobalProperties");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::NetworkInformation::MibIPGlobalProperties::New_ctor
 // Il2CppName: .ctor

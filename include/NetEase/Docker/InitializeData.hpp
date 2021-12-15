@@ -9,6 +9,13 @@
 // Completed includes
 // Type namespace: NetEase.Docker
 namespace NetEase::Docker {
+  // Forward declaring type: InitializeData
+  struct InitializeData;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::InitializeData, "NetEase.Docker", "InitializeData");
+// Type namespace: NetEase.Docker
+namespace NetEase::Docker {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -16,6 +23,15 @@ namespace NetEase::Docker {
   // [TokenAttribute] Offset: FFFFFFFF
   struct InitializeData/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xF2E738
     // private System.Boolean <InitializeSuccessful>k__BackingField
     // Size: 0x1
@@ -32,6 +48,7 @@ namespace NetEase::Docker {
     int InitializeCode;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: InitializeData
     constexpr InitializeData(bool InitializeSuccessful_ = {}, int InitializeCode_ = {}) noexcept : InitializeSuccessful{InitializeSuccessful_}, InitializeCode{InitializeCode_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -56,8 +73,6 @@ namespace NetEase::Docker {
   static check_size<sizeof(InitializeData), 4 + sizeof(int)> __NetEase_Docker_InitializeDataSizeCheck;
   static_assert(sizeof(InitializeData) == 0x8);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::InitializeData, "NetEase.Docker", "InitializeData");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NetEase::Docker::InitializeData::get_InitializeSuccessful
 // Il2CppName: get_InitializeSuccessful

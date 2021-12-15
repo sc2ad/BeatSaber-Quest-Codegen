@@ -9,6 +9,13 @@
 // Completed includes
 // Type namespace: System.Threading
 namespace System::Threading {
+  // Forward declaring type: SpinWait
+  struct SpinWait;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::SpinWait, "System.Threading", "SpinWait");
+// Type namespace: System.Threading
+namespace System::Threading {
   // Size: 0x4
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -16,12 +23,22 @@ namespace System::Threading {
   // [TokenAttribute] Offset: FFFFFFFF
   struct SpinWait/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.Int32 m_count
     // Size: 0x4
     // Offset: 0x0
     int m_count;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: SpinWait
     constexpr SpinWait(int m_count_ = {}) noexcept : m_count{m_count_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -48,8 +65,6 @@ namespace System::Threading {
   static check_size<sizeof(SpinWait), 0 + sizeof(int)> __System_Threading_SpinWaitSizeCheck;
   static_assert(sizeof(SpinWait) == 0x4);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::SpinWait, "System.Threading", "SpinWait");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::SpinWait::get_NextSpinWillYield
 // Il2CppName: get_NextSpinWillYield

@@ -3,13 +3,22 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
 // Completed includes
+// Begin il2cpp-utils forward declares
+struct Il2CppObject;
+// Completed il2cpp-utils forward declares
+// Type namespace: System
+namespace System {
+  // Forward declaring type: ArgIterator
+  struct ArgIterator;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::ArgIterator, "System", "ArgIterator");
 // Type namespace: System
 namespace System {
   // Size: 0x18
@@ -18,6 +27,15 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ArgIterator/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.IntPtr sig
     // Size: 0x8
     // Offset: 0x0
@@ -42,6 +60,7 @@ namespace System {
     int num_args;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: ArgIterator
     constexpr ArgIterator(System::IntPtr sig_ = {}, System::IntPtr args_ = {}, int next_arg_ = {}, int num_args_ = {}) noexcept : sig{sig_}, args{args_}, next_arg{next_arg_}, num_args{num_args_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -71,8 +90,6 @@ namespace System {
   static check_size<sizeof(ArgIterator), 20 + sizeof(int)> __System_ArgIteratorSizeCheck;
   static_assert(sizeof(ArgIterator) == 0x18);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::ArgIterator, "System", "ArgIterator");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ArgIterator::Equals
 // Il2CppName: Equals

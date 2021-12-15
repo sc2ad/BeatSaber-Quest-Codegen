@@ -11,7 +11,16 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: System.Net.NetworkInformation
+namespace System::Net::NetworkInformation {
+  // Forward declaring type: CommonUnixIPGlobalProperties
+  class CommonUnixIPGlobalProperties;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Net::NetworkInformation::CommonUnixIPGlobalProperties);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::CommonUnixIPGlobalProperties*, "System.Net.NetworkInformation", "CommonUnixIPGlobalProperties");
 // Type namespace: System.Net.NetworkInformation
 namespace System::Net::NetworkInformation {
   // Size: 0x10
@@ -20,11 +29,9 @@ namespace System::Net::NetworkInformation {
   // [TokenAttribute] Offset: FFFFFFFF
   class CommonUnixIPGlobalProperties : public System::Net::NetworkInformation::IPGlobalProperties {
     public:
-    // Creating value type constructor for type: CommonUnixIPGlobalProperties
-    CommonUnixIPGlobalProperties() noexcept {}
     // static private System.Int32 getdomainname(System.Byte[] name, System.Int32 len)
     // Offset: 0x18BB5FC
-    static int getdomainname(::Array<uint8_t>* name, int len);
+    static int getdomainname(::ArrayW<uint8_t> name, int len);
     // public override System.String get_DomainName()
     // Offset: 0x18BB694
     // Implemented from: System.Net.NetworkInformation.IPGlobalProperties
@@ -43,12 +50,11 @@ namespace System::Net::NetworkInformation {
   }; // System.Net.NetworkInformation.CommonUnixIPGlobalProperties
   #pragma pack(pop)
 }
-DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::CommonUnixIPGlobalProperties*, "System.Net.NetworkInformation", "CommonUnixIPGlobalProperties");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::NetworkInformation::CommonUnixIPGlobalProperties::getdomainname
 // Il2CppName: getdomainname
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<uint8_t>*, int)>(&System::Net::NetworkInformation::CommonUnixIPGlobalProperties::getdomainname)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayW<uint8_t>, int)>(&System::Net::NetworkInformation::CommonUnixIPGlobalProperties::getdomainname)> {
   static const MethodInfo* get() {
     static auto* name = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* len = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

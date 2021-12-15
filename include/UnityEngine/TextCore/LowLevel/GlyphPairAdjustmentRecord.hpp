@@ -14,6 +14,13 @@
 // Completed includes
 // Type namespace: UnityEngine.TextCore.LowLevel
 namespace UnityEngine::TextCore::LowLevel {
+  // Forward declaring type: GlyphPairAdjustmentRecord
+  struct GlyphPairAdjustmentRecord;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord, "UnityEngine.TextCore.LowLevel", "GlyphPairAdjustmentRecord");
+// Type namespace: UnityEngine.TextCore.LowLevel
+namespace UnityEngine::TextCore::LowLevel {
   // Size: 0x2C
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -23,6 +30,15 @@ namespace UnityEngine::TextCore::LowLevel {
   // [UsedByNativeCodeAttribute] Offset: EE7C48
   struct GlyphPairAdjustmentRecord/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // [NativeNameAttribute] Offset: 0xEE8914
     // private UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord m_FirstAdjustmentRecord
     // Size: 0x14
@@ -43,6 +59,7 @@ namespace UnityEngine::TextCore::LowLevel {
     UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags m_FeatureLookupFlags;
     // Field size check
     static_assert(sizeof(UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags) == 0x4);
+    public:
     // Creating value type constructor for type: GlyphPairAdjustmentRecord
     constexpr GlyphPairAdjustmentRecord(UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord m_FirstAdjustmentRecord_ = {}, UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord m_SecondAdjustmentRecord_ = {}, UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags m_FeatureLookupFlags_ = {}) noexcept : m_FirstAdjustmentRecord{m_FirstAdjustmentRecord_}, m_SecondAdjustmentRecord{m_SecondAdjustmentRecord_}, m_FeatureLookupFlags{m_FeatureLookupFlags_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -66,8 +83,6 @@ namespace UnityEngine::TextCore::LowLevel {
   static check_size<sizeof(GlyphPairAdjustmentRecord), 40 + sizeof(UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags)> __UnityEngine_TextCore_LowLevel_GlyphPairAdjustmentRecordSizeCheck;
   static_assert(sizeof(GlyphPairAdjustmentRecord) == 0x2C);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord, "UnityEngine.TextCore.LowLevel", "GlyphPairAdjustmentRecord");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::get_firstAdjustmentRecord
 // Il2CppName: get_firstAdjustmentRecord

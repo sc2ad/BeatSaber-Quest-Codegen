@@ -23,6 +23,14 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: GUIStyleState
+  class GUIStyleState;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::GUIStyleState);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUIStyleState*, "UnityEngine", "GUIStyleState");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x20
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -31,6 +39,15 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: ED2908
   class GUIStyleState : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // System.IntPtr m_Ptr
     // Size: 0x8
     // Offset: 0x10
@@ -43,8 +60,7 @@ namespace UnityEngine {
     UnityEngine::GUIStyle* m_SourceStyle;
     // Field size check
     static_assert(sizeof(UnityEngine::GUIStyle*) == 0x8);
-    // Creating value type constructor for type: GUIStyleState
-    GUIStyleState(System::IntPtr m_Ptr_ = {}, UnityEngine::GUIStyle* m_SourceStyle_ = {}) noexcept : m_Ptr{m_Ptr_}, m_SourceStyle{m_SourceStyle_} {}
+    public:
     // Get instance field reference: System.IntPtr m_Ptr
     System::IntPtr& dyn_m_Ptr();
     // Get instance field reference: private readonly UnityEngine.GUIStyle m_SourceStyle
@@ -90,7 +106,6 @@ namespace UnityEngine {
   static check_size<sizeof(GUIStyleState), 24 + sizeof(UnityEngine::GUIStyle*)> __UnityEngine_GUIStyleStateSizeCheck;
   static_assert(sizeof(GUIStyleState) == 0x20);
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUIStyleState*, "UnityEngine", "GUIStyleState");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::GUIStyleState::set_textColor
 // Il2CppName: set_textColor

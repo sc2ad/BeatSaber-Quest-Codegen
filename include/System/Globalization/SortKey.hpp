@@ -11,7 +11,16 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: System.Globalization
+namespace System::Globalization {
+  // Forward declaring type: SortKey
+  class SortKey;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Globalization::SortKey);
+DEFINE_IL2CPP_ARG_TYPE(System::Globalization::SortKey*, "System.Globalization", "SortKey");
 // Type namespace: System.Globalization
 namespace System::Globalization {
   // Size: 0x28
@@ -22,6 +31,15 @@ namespace System::Globalization {
   // [ComVisibleAttribute] Offset: E9FCD4
   class SortKey : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private readonly System.String source
     // Size: 0x8
     // Offset: 0x10
@@ -31,9 +49,9 @@ namespace System::Globalization {
     // private readonly System.Byte[] key
     // Size: 0x8
     // Offset: 0x18
-    ::Array<uint8_t>* key;
+    ::ArrayW<uint8_t> key;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private readonly System.Globalization.CompareOptions options
     // Size: 0x4
     // Offset: 0x20
@@ -46,12 +64,11 @@ namespace System::Globalization {
     int lcid;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: SortKey
-    SortKey(::Il2CppString* source_ = {}, ::Array<uint8_t>* key_ = {}, System::Globalization::CompareOptions options_ = {}, int lcid_ = {}) noexcept : source{source_}, key{key_}, options{options_}, lcid{lcid_} {}
+    public:
     // Get instance field reference: private readonly System.String source
     ::Il2CppString*& dyn_source();
     // Get instance field reference: private readonly System.Byte[] key
-    ::Array<uint8_t>*& dyn_key();
+    ::ArrayW<uint8_t>& dyn_key();
     // Get instance field reference: private readonly System.Globalization.CompareOptions options
     System::Globalization::CompareOptions& dyn_options();
     // Get instance field reference: private readonly System.Int32 lcid
@@ -61,7 +78,7 @@ namespace System::Globalization {
     ::Il2CppString* get_OriginalString();
     // public System.Byte[] get_KeyData()
     // Offset: 0x1C3F088
-    ::Array<uint8_t>* get_KeyData();
+    ::ArrayW<uint8_t> get_KeyData();
     // System.Void .ctor(System.Int32 lcid, System.String source, System.Globalization.CompareOptions opt)
     // Offset: 0x1C3EFF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -72,7 +89,7 @@ namespace System::Globalization {
     // System.Void .ctor(System.Int32 lcid, System.String source, System.Byte[] buffer, System.Globalization.CompareOptions opt, System.Int32 lv1Length, System.Int32 lv2Length, System.Int32 lv3Length, System.Int32 kanaSmallLength, System.Int32 markTypeLength, System.Int32 katakanaLength, System.Int32 kanaWidthLength, System.Int32 identLength)
     // Offset: 0x1C3F034
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static SortKey* New_ctor(int lcid, ::Il2CppString* source, ::Array<uint8_t>* buffer, System::Globalization::CompareOptions opt, int lv1Length, int lv2Length, int lv3Length, int kanaSmallLength, int markTypeLength, int katakanaLength, int kanaWidthLength, int identLength) {
+    static SortKey* New_ctor(int lcid, ::Il2CppString* source, ::ArrayW<uint8_t> buffer, System::Globalization::CompareOptions opt, int lv1Length, int lv2Length, int lv3Length, int kanaSmallLength, int markTypeLength, int katakanaLength, int kanaWidthLength, int identLength) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::SortKey::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SortKey*, creationType>(lcid, source, buffer, opt, lv1Length, lv2Length, lv3Length, kanaSmallLength, markTypeLength, katakanaLength, kanaWidthLength, identLength)));
     }
@@ -108,7 +125,6 @@ namespace System::Globalization {
   static check_size<sizeof(SortKey), 36 + sizeof(int)> __System_Globalization_SortKeySizeCheck;
   static_assert(sizeof(SortKey) == 0x28);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::Globalization::SortKey*, "System.Globalization", "SortKey");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Globalization::SortKey::get_OriginalString
 // Il2CppName: get_OriginalString
@@ -121,7 +137,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Globalization::SortKey::get_KeyData
 // Il2CppName: get_KeyData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (System::Globalization::SortKey::*)()>(&System::Globalization::SortKey::get_KeyData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::Globalization::SortKey::*)()>(&System::Globalization::SortKey::get_KeyData)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::SortKey*), "get_KeyData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

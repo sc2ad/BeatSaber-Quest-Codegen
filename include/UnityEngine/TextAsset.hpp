@@ -7,7 +7,16 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Object
 #include "UnityEngine/Object.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: UnityEngine
+namespace UnityEngine {
+  // Forward declaring type: TextAsset
+  class TextAsset;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::TextAsset);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextAsset*, "UnityEngine", "TextAsset");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18
@@ -17,14 +26,12 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: EB50F4
   class TextAsset : public UnityEngine::Object {
     public:
-    // Creating value type constructor for type: TextAsset
-    TextAsset() noexcept {}
     // public System.String get_text()
     // Offset: 0x2431FBC
     ::Il2CppString* get_text();
     // public System.Byte[] get_bytes()
     // Offset: 0x2431FFC
-    ::Array<uint8_t>* get_bytes();
+    ::ArrayW<uint8_t> get_bytes();
     // public override System.String ToString()
     // Offset: 0x243203C
     // Implemented from: UnityEngine.Object
@@ -33,8 +40,6 @@ namespace UnityEngine {
   }; // UnityEngine.TextAsset
   #pragma pack(pop)
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextAsset*, "UnityEngine", "TextAsset");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TextAsset::get_text
 // Il2CppName: get_text
@@ -47,7 +52,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::TextAsset::get_bytes
 // Il2CppName: get_bytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (UnityEngine::TextAsset::*)()>(&UnityEngine::TextAsset::get_bytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (UnityEngine::TextAsset::*)()>(&UnityEngine::TextAsset::get_bytes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextAsset*), "get_bytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

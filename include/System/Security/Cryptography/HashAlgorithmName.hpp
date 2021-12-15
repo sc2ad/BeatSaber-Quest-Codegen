@@ -8,15 +8,18 @@
 #include "System/ValueType.hpp"
 // Including type: System.IEquatable`1
 #include "System/IEquatable_1.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct Il2CppString;
 struct Il2CppObject;
 // Completed il2cpp-utils forward declares
+// Type namespace: System.Security.Cryptography
+namespace System::Security::Cryptography {
+  // Forward declaring type: HashAlgorithmName
+  struct HashAlgorithmName;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::HashAlgorithmName, "System.Security.Cryptography", "HashAlgorithmName");
 // Type namespace: System.Security.Cryptography
 namespace System::Security::Cryptography {
   // Size: 0x8
@@ -26,12 +29,22 @@ namespace System::Security::Cryptography {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HashAlgorithmName/*, public System::ValueType, public System::IEquatable_1<System::Security::Cryptography::HashAlgorithmName>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private readonly System.String _name
     // Size: 0x8
     // Offset: 0x0
     ::Il2CppString* name;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Creating value type constructor for type: HashAlgorithmName
     constexpr HashAlgorithmName(::Il2CppString* name_ = {}) noexcept : name{name_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -56,8 +69,7 @@ namespace System::Security::Cryptography {
     ::Il2CppString* get_Name();
     // public System.Void .ctor(System.String name)
     // Offset: 0x1A99938
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    // ABORTED: conflicts with another method.  HashAlgorithmName(::Il2CppString* name)
+    // ABORTED: conflicts with another method.  HashAlgorithmName(::Il2CppString* name);
     // public System.Boolean Equals(System.Security.Cryptography.HashAlgorithmName other)
     // Offset: 0x1A99A34
     bool Equals(System::Security::Cryptography::HashAlgorithmName other);
@@ -81,7 +93,6 @@ namespace System::Security::Cryptography {
   static check_size<sizeof(HashAlgorithmName), 0 + sizeof(::Il2CppString*)> __System_Security_Cryptography_HashAlgorithmNameSizeCheck;
   static_assert(sizeof(HashAlgorithmName) == 0x8);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::HashAlgorithmName, "System.Security.Cryptography", "HashAlgorithmName");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::HashAlgorithmName::get_SHA256
 // Il2CppName: get_SHA256

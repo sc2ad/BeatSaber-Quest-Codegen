@@ -7,6 +7,7 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Globalization
@@ -17,6 +18,14 @@ namespace System::Globalization {
   struct HebrewNumberParsingContext;
 }
 // Completed forward declares
+// Type namespace: System.Globalization
+namespace System::Globalization {
+  // Forward declaring type: HebrewNumber
+  class HebrewNumber;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Globalization::HebrewNumber);
+DEFINE_IL2CPP_ARG_TYPE(System::Globalization::HebrewNumber*, "System.Globalization", "HebrewNumber");
 // Type namespace: System.Globalization
 namespace System::Globalization {
   // Size: 0x10
@@ -37,12 +46,22 @@ namespace System::Globalization {
     // [TokenAttribute] Offset: FFFFFFFF
     struct HS/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      #ifdef CODEGEN_FIELD_ACCESSIBILITY
+      CODEGEN_FIELD_ACCESSIBILITY:
+      #else
+      protected:
+      #endif
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: HS
       constexpr HS(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -173,20 +192,18 @@ namespace System::Globalization {
     #pragma pack(pop)
     static check_size<sizeof(HebrewNumber::HS), 0 + sizeof(int)> __System_Globalization_HebrewNumber_HSSizeCheck;
     static_assert(sizeof(HebrewNumber::HS) == 0x4);
-    // Creating value type constructor for type: HebrewNumber
-    HebrewNumber() noexcept {}
     // Get static field: static private System.Globalization.HebrewNumber/System.Globalization.HebrewValue[] HebrewValues
-    static ::Array<System::Globalization::HebrewNumber::HebrewValue*>* _get_HebrewValues();
+    static ::ArrayW<System::Globalization::HebrewNumber::HebrewValue*> _get_HebrewValues();
     // Set static field: static private System.Globalization.HebrewNumber/System.Globalization.HebrewValue[] HebrewValues
-    static void _set_HebrewValues(::Array<System::Globalization::HebrewNumber::HebrewValue*>* value);
+    static void _set_HebrewValues(::ArrayW<System::Globalization::HebrewNumber::HebrewValue*> value);
     // Get static field: static private System.Char maxHebrewNumberCh
     static ::Il2CppChar _get_maxHebrewNumberCh();
     // Set static field: static private System.Char maxHebrewNumberCh
     static void _set_maxHebrewNumberCh(::Il2CppChar value);
     // Get static field: static private readonly System.Globalization.HebrewNumber/System.Globalization.HS[][] NumberPasingState
-    static ::Array<::Array<System::Globalization::HebrewNumber::HS>*>* _get_NumberPasingState();
+    static ::ArrayW<::ArrayW<System::Globalization::HebrewNumber::HS>> _get_NumberPasingState();
     // Set static field: static private readonly System.Globalization.HebrewNumber/System.Globalization.HS[][] NumberPasingState
-    static void _set_NumberPasingState(::Array<::Array<System::Globalization::HebrewNumber::HS>*>* value);
+    static void _set_NumberPasingState(::ArrayW<::ArrayW<System::Globalization::HebrewNumber::HS>> value);
     // static private System.Void .cctor()
     // Offset: 0x1C3A8E4
     static void _cctor();
@@ -202,8 +219,7 @@ namespace System::Globalization {
   }; // System.Globalization.HebrewNumber
   #pragma pack(pop)
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Globalization::HebrewNumber*, "System.Globalization", "HebrewNumber");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::HebrewNumber::HS, "System.Globalization", "HebrewNumber/HS");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Globalization::HebrewNumber::_cctor

@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -18,6 +19,14 @@ namespace System {
   // Skipping declaration: IntPtr because it is already included!
 }
 // Completed forward declares
+// Type namespace: UnityEngine.Networking
+namespace UnityEngine::Networking {
+  // Forward declaring type: DownloadHandlerBuffer
+  class DownloadHandlerBuffer;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::Networking::DownloadHandlerBuffer);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::DownloadHandlerBuffer*, "UnityEngine.Networking", "DownloadHandlerBuffer");
 // Type namespace: UnityEngine.Networking
 namespace UnityEngine::Networking {
   // Size: 0x18
@@ -28,8 +37,6 @@ namespace UnityEngine::Networking {
   // [NativeHeaderAttribute] Offset: EFF464
   class DownloadHandlerBuffer : public UnityEngine::Networking::DownloadHandler {
     public:
-    // Creating value type constructor for type: DownloadHandlerBuffer
-    DownloadHandlerBuffer() noexcept {}
     // static private System.IntPtr Create(UnityEngine.Networking.DownloadHandlerBuffer obj)
     // Offset: 0x26A4668
     static System::IntPtr Create(UnityEngine::Networking::DownloadHandlerBuffer* obj);
@@ -38,7 +45,7 @@ namespace UnityEngine::Networking {
     void InternalCreateBuffer();
     // private System.Byte[] InternalGetData()
     // Offset: 0x26A4780
-    ::Array<uint8_t>* InternalGetData();
+    ::ArrayW<uint8_t> InternalGetData();
     // public System.Void .ctor()
     // Offset: 0x26A46F0
     // Implemented from: UnityEngine.Networking.DownloadHandler
@@ -53,11 +60,10 @@ namespace UnityEngine::Networking {
     // Offset: 0x26A4740
     // Implemented from: UnityEngine.Networking.DownloadHandler
     // Base method: System.Byte[] DownloadHandler::GetData()
-    ::Array<uint8_t>* GetData();
+    ::ArrayW<uint8_t> GetData();
   }; // UnityEngine.Networking.DownloadHandlerBuffer
   #pragma pack(pop)
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::DownloadHandlerBuffer*, "UnityEngine.Networking", "DownloadHandlerBuffer");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandlerBuffer::Create
 // Il2CppName: Create
@@ -79,7 +85,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandlerBuffer::InternalGetData
 // Il2CppName: InternalGetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (UnityEngine::Networking::DownloadHandlerBuffer::*)()>(&UnityEngine::Networking::DownloadHandlerBuffer::InternalGetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (UnityEngine::Networking::DownloadHandlerBuffer::*)()>(&UnityEngine::Networking::DownloadHandlerBuffer::InternalGetData)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::DownloadHandlerBuffer*), "InternalGetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -91,7 +97,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandlerBuffer::GetData
 // Il2CppName: GetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (UnityEngine::Networking::DownloadHandlerBuffer::*)()>(&UnityEngine::Networking::DownloadHandlerBuffer::GetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (UnityEngine::Networking::DownloadHandlerBuffer::*)()>(&UnityEngine::Networking::DownloadHandlerBuffer::GetData)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::DownloadHandlerBuffer*), "GetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

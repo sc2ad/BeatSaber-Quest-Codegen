@@ -3,13 +3,19 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
 // Completed includes
+// Type namespace: OVR.OpenVR
+namespace OVR::OpenVR {
+  // Forward declaring type: CVRSettingHelper
+  struct CVRSettingHelper;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRSettingHelper, "OVR.OpenVR", "CVRSettingHelper");
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
   // Size: 0x8
@@ -19,12 +25,22 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct CVRSettingHelper/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.IntPtr m_pSettings
     // Size: 0x8
     // Offset: 0x0
     System::IntPtr m_pSettings;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
+    public:
     // Creating value type constructor for type: CVRSettingHelper
     constexpr CVRSettingHelper(System::IntPtr m_pSettings_ = {}) noexcept : m_pSettings{m_pSettings_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -42,6 +58,4 @@ namespace OVR::OpenVR {
   static check_size<sizeof(CVRSettingHelper), 0 + sizeof(System::IntPtr)> __OVR_OpenVR_CVRSettingHelperSizeCheck;
   static_assert(sizeof(CVRSettingHelper) == 0x8);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRSettingHelper, "OVR.OpenVR", "CVRSettingHelper");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

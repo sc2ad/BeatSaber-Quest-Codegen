@@ -11,10 +11,6 @@
 #include "System/Runtime/Remoting/Messaging/LogicalCallContext.hpp"
 // Including type: System.Runtime.Remoting.Messaging.IllogicalCallContext
 #include "System/Runtime/Remoting/Messaging/IllogicalCallContext.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Threading
@@ -25,6 +21,13 @@ namespace System::Threading {
 // Completed forward declares
 // Type namespace: System.Threading
 namespace System::Threading {
+  // Forward declaring type: Reader
+  struct Reader;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::ExecutionContext::Reader, "System.Threading", "ExecutionContext/Reader");
+// Type namespace: System.Threading
+namespace System::Threading {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -32,12 +35,22 @@ namespace System::Threading {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ExecutionContext::Reader/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.Threading.ExecutionContext m_ec
     // Size: 0x8
     // Offset: 0x0
     System::Threading::ExecutionContext* m_ec;
     // Field size check
     static_assert(sizeof(System::Threading::ExecutionContext*) == 0x8);
+    public:
     // Creating value type constructor for type: Reader
     constexpr Reader(System::Threading::ExecutionContext* m_ec_ = {}) noexcept : m_ec{m_ec_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -70,8 +83,7 @@ namespace System::Threading {
     System::Runtime::Remoting::Messaging::IllogicalCallContext::Reader get_IllogicalCallContext();
     // public System.Void .ctor(System.Threading.ExecutionContext ec)
     // Offset: 0x1A5E2DC
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    // ABORTED: conflicts with another method.  Reader(System::Threading::ExecutionContext* ec)
+    // ABORTED: conflicts with another method.  Reader(System::Threading::ExecutionContext* ec);
     // public System.Threading.ExecutionContext DangerousGetRawExecutionContext()
     // Offset: 0x1A5E2E4
     System::Threading::ExecutionContext* DangerousGetRawExecutionContext();
@@ -86,7 +98,6 @@ namespace System::Threading {
   static check_size<sizeof(ExecutionContext::Reader), 0 + sizeof(System::Threading::ExecutionContext*)> __System_Threading_ExecutionContext_ReaderSizeCheck;
   static_assert(sizeof(ExecutionContext::Reader) == 0x8);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::ExecutionContext::Reader, "System.Threading", "ExecutionContext/Reader");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::ExecutionContext::Reader::get_IsNull
 // Il2CppName: get_IsNull

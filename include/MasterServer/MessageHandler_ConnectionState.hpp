@@ -17,7 +17,16 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: MasterServer
+namespace MasterServer {
+  // Forward declaring type: ConnectionState
+  class ConnectionState;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(MasterServer::MessageHandler::ConnectionState);
+DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::ConnectionState*, "MasterServer", "MessageHandler/ConnectionState");
 // Type namespace: MasterServer
 namespace MasterServer {
   // Size: 0x50
@@ -26,6 +35,15 @@ namespace MasterServer {
   // [TokenAttribute] Offset: FFFFFFFF
   class MessageHandler::ConnectionState : public ::Il2CppObject/*, public System::IDisposable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.String _userId
     // Size: 0x8
     // Offset: 0x10
@@ -81,9 +99,9 @@ namespace MasterServer {
     // private readonly System.Boolean[] _receivedRequest
     // Size: 0x8
     // Offset: 0x40
-    ::Array<bool>* receivedRequest;
+    ::ArrayW<bool> receivedRequest;
     // Field size check
-    static_assert(sizeof(::Array<bool>*) == 0x8);
+    static_assert(sizeof(::ArrayW<bool>) == 0x8);
     // private System.UInt32 _currentRequestId
     // Size: 0x4
     // Offset: 0x48
@@ -96,8 +114,7 @@ namespace MasterServer {
     uint currentEpoch;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
-    // Creating value type constructor for type: ConnectionState
-    ConnectionState(::Il2CppString* userId_ = {}, ::Il2CppString* userName_ = {}, uint protocolVersion_ = {}, bool hasIdentity_ = {}, GlobalNamespace::EncryptionUtility::IEncryptionState* encryptionState_ = {}, int lastReceivedRequestIndex_ = {}, uint lastReceivedRequestId_ = {}, int receivedRequestCount_ = {}, ::Array<bool>* receivedRequest_ = {}, uint currentRequestId_ = {}, uint currentEpoch_ = {}) noexcept : userId{userId_}, userName{userName_}, protocolVersion{protocolVersion_}, hasIdentity{hasIdentity_}, encryptionState{encryptionState_}, lastReceivedRequestIndex{lastReceivedRequestIndex_}, lastReceivedRequestId{lastReceivedRequestId_}, receivedRequestCount{receivedRequestCount_}, receivedRequest{receivedRequest_}, currentRequestId{currentRequestId_}, currentEpoch{currentEpoch_} {}
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
@@ -149,7 +166,7 @@ namespace MasterServer {
     // Get instance field reference: private System.Int32 _receivedRequestCount
     int& dyn__receivedRequestCount();
     // Get instance field reference: private readonly System.Boolean[] _receivedRequest
-    ::Array<bool>*& dyn__receivedRequest();
+    ::ArrayW<bool>& dyn__receivedRequest();
     // Get instance field reference: private System.UInt32 _currentRequestId
     uint& dyn__currentRequestId();
     // Get instance field reference: private System.UInt32 _currentEpoch
@@ -204,7 +221,6 @@ namespace MasterServer {
   static check_size<sizeof(MessageHandler::ConnectionState), 76 + sizeof(uint)> __MasterServer_MessageHandler_ConnectionStateSizeCheck;
   static_assert(sizeof(MessageHandler::ConnectionState) == 0x50);
 }
-DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::ConnectionState*, "MasterServer", "MessageHandler/ConnectionState");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: MasterServer::MessageHandler::ConnectionState::get_isEncrypted
 // Il2CppName: get_isEncrypted

@@ -15,6 +15,14 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: CullingGroup
+  class CullingGroup;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::CullingGroup);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CullingGroup*, "UnityEngine", "CullingGroup");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x20
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -25,6 +33,15 @@ namespace UnityEngine {
     public:
     // Nested type: UnityEngine::CullingGroup::StateChanged
     class StateChanged;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // System.IntPtr m_Ptr
     // Size: 0x8
     // Offset: 0x10
@@ -37,8 +54,7 @@ namespace UnityEngine {
     UnityEngine::CullingGroup::StateChanged* m_OnStateChanged;
     // Field size check
     static_assert(sizeof(UnityEngine::CullingGroup::StateChanged*) == 0x8);
-    // Creating value type constructor for type: CullingGroup
-    CullingGroup(System::IntPtr m_Ptr_ = {}, UnityEngine::CullingGroup::StateChanged* m_OnStateChanged_ = {}) noexcept : m_Ptr{m_Ptr_}, m_OnStateChanged{m_OnStateChanged_} {}
+    public:
     // Get instance field reference: System.IntPtr m_Ptr
     System::IntPtr& dyn_m_Ptr();
     // Get instance field reference: private UnityEngine.CullingGroup/UnityEngine.StateChanged m_OnStateChanged
@@ -51,8 +67,6 @@ namespace UnityEngine {
   static check_size<sizeof(CullingGroup), 24 + sizeof(UnityEngine::CullingGroup::StateChanged*)> __UnityEngine_CullingGroupSizeCheck;
   static_assert(sizeof(CullingGroup) == 0x20);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CullingGroup*, "UnityEngine", "CullingGroup");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::CullingGroup::SendEvents
 // Il2CppName: SendEvents

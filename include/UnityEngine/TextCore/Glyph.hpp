@@ -18,6 +18,14 @@
 // Completed includes
 // Type namespace: UnityEngine.TextCore
 namespace UnityEngine::TextCore {
+  // Forward declaring type: Glyph
+  class Glyph;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::TextCore::Glyph);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::Glyph*, "UnityEngine.TextCore", "Glyph");
+// Type namespace: UnityEngine.TextCore
+namespace UnityEngine::TextCore {
   // Size: 0x40
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -26,6 +34,15 @@ namespace UnityEngine::TextCore {
   // [UsedByNativeCodeAttribute] Offset: EE7C08
   class Glyph : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // [NativeNameAttribute] Offset: 0xEE85D0
     // private System.UInt32 m_Index
     // Size: 0x4
@@ -61,8 +78,7 @@ namespace UnityEngine::TextCore {
     int m_AtlasIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: Glyph
-    Glyph(uint m_Index_ = {}, UnityEngine::TextCore::GlyphMetrics m_Metrics_ = {}, UnityEngine::TextCore::GlyphRect m_GlyphRect_ = {}, float m_Scale_ = {}, int m_AtlasIndex_ = {}) noexcept : m_Index{m_Index_}, m_Metrics{m_Metrics_}, m_GlyphRect{m_GlyphRect_}, m_Scale{m_Scale_}, m_AtlasIndex{m_AtlasIndex_} {}
+    public:
     // Get instance field reference: private System.UInt32 m_Index
     uint& dyn_m_Index();
     // Get instance field reference: private UnityEngine.TextCore.GlyphMetrics m_Metrics
@@ -131,7 +147,6 @@ namespace UnityEngine::TextCore {
   static check_size<sizeof(Glyph), 60 + sizeof(int)> __UnityEngine_TextCore_GlyphSizeCheck;
   static_assert(sizeof(Glyph) == 0x40);
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::Glyph*, "UnityEngine.TextCore", "Glyph");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TextCore::Glyph::get_index
 // Il2CppName: get_index

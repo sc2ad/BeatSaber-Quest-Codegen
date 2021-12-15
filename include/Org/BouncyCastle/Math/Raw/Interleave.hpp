@@ -5,7 +5,16 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: Org.BouncyCastle.Math.Raw
+namespace Org::BouncyCastle::Math::Raw {
+  // Forward declaring type: Interleave
+  class Interleave;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(Org::BouncyCastle::Math::Raw::Interleave);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::Raw::Interleave*, "Org.BouncyCastle.Math.Raw", "Interleave");
 // Type namespace: Org.BouncyCastle.Math.Raw
 namespace Org::BouncyCastle::Math::Raw {
   // Size: 0x10
@@ -14,8 +23,6 @@ namespace Org::BouncyCastle::Math::Raw {
   // [TokenAttribute] Offset: FFFFFFFF
   class Interleave : public ::Il2CppObject {
     public:
-    // Creating value type constructor for type: Interleave
-    Interleave() noexcept {}
     // static System.UInt32 Expand8to16(System.UInt32 x)
     // Offset: 0x1F6F07C
     static uint Expand8to16(uint x);
@@ -24,7 +31,7 @@ namespace Org::BouncyCastle::Math::Raw {
     static uint64_t Expand32to64(uint x);
     // static System.Void Expand64To128(System.UInt64 x, System.UInt64[] z, System.Int32 zOff)
     // Offset: 0x1F6F0F4
-    static void Expand64To128(uint64_t x, ::Array<uint64_t>* z, int zOff);
+    static void Expand64To128(uint64_t x, ::ArrayW<uint64_t> z, int zOff);
     // static System.UInt32 Shuffle2(System.UInt32 x)
     // Offset: 0x1F6AE10
     static uint Shuffle2(uint x);
@@ -34,8 +41,6 @@ namespace Org::BouncyCastle::Math::Raw {
   }; // Org.BouncyCastle.Math.Raw.Interleave
   #pragma pack(pop)
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::Raw::Interleave*, "Org.BouncyCastle.Math.Raw", "Interleave");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::Raw::Interleave::Expand8to16
 // Il2CppName: Expand8to16
@@ -58,7 +63,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::Raw::Interleave::Expand64To128
 // Il2CppName: Expand64To128
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t, ::Array<uint64_t>*, int)>(&Org::BouncyCastle::Math::Raw::Interleave::Expand64To128)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t, ::ArrayW<uint64_t>, int)>(&Org::BouncyCastle::Math::Raw::Interleave::Expand64To128)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* z = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt64"), 1)->byval_arg;

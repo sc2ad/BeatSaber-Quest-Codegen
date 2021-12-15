@@ -11,7 +11,16 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: Mono.Security.Protocol.Ntlm
+namespace Mono::Security::Protocol::Ntlm {
+  // Forward declaring type: ChallengeResponse
+  class ChallengeResponse;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(Mono::Security::Protocol::Ntlm::ChallengeResponse);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Protocol::Ntlm::ChallengeResponse*, "Mono.Security.Protocol.Ntlm", "ChallengeResponse");
 // Type namespace: Mono.Security.Protocol.Ntlm
 namespace Mono::Security::Protocol::Ntlm {
   // Size: 0x30
@@ -21,6 +30,15 @@ namespace Mono::Security::Protocol::Ntlm {
   // [ObsoleteAttribute] Offset: EA9738
   class ChallengeResponse : public ::Il2CppObject/*, public System::IDisposable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.Boolean _disposed
     // Size: 0x1
     // Offset: 0x10
@@ -32,59 +50,58 @@ namespace Mono::Security::Protocol::Ntlm {
     // private System.Byte[] _challenge
     // Size: 0x8
     // Offset: 0x18
-    ::Array<uint8_t>* challenge;
+    ::ArrayW<uint8_t> challenge;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Byte[] _lmpwd
     // Size: 0x8
     // Offset: 0x20
-    ::Array<uint8_t>* lmpwd;
+    ::ArrayW<uint8_t> lmpwd;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Byte[] _ntpwd
     // Size: 0x8
     // Offset: 0x28
-    ::Array<uint8_t>* ntpwd;
+    ::ArrayW<uint8_t> ntpwd;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
-    // Creating value type constructor for type: ChallengeResponse
-    ChallengeResponse(bool disposed_ = {}, ::Array<uint8_t>* challenge_ = {}, ::Array<uint8_t>* lmpwd_ = {}, ::Array<uint8_t>* ntpwd_ = {}) noexcept : disposed{disposed_}, challenge{challenge_}, lmpwd{lmpwd_}, ntpwd{ntpwd_} {}
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
     // Get static field: static private System.Byte[] magic
-    static ::Array<uint8_t>* _get_magic();
+    static ::ArrayW<uint8_t> _get_magic();
     // Set static field: static private System.Byte[] magic
-    static void _set_magic(::Array<uint8_t>* value);
+    static void _set_magic(::ArrayW<uint8_t> value);
     // Get static field: static private System.Byte[] nullEncMagic
-    static ::Array<uint8_t>* _get_nullEncMagic();
+    static ::ArrayW<uint8_t> _get_nullEncMagic();
     // Set static field: static private System.Byte[] nullEncMagic
-    static void _set_nullEncMagic(::Array<uint8_t>* value);
+    static void _set_nullEncMagic(::ArrayW<uint8_t> value);
     // Get instance field reference: private System.Boolean _disposed
     bool& dyn__disposed();
     // Get instance field reference: private System.Byte[] _challenge
-    ::Array<uint8_t>*& dyn__challenge();
+    ::ArrayW<uint8_t>& dyn__challenge();
     // Get instance field reference: private System.Byte[] _lmpwd
-    ::Array<uint8_t>*& dyn__lmpwd();
+    ::ArrayW<uint8_t>& dyn__lmpwd();
     // Get instance field reference: private System.Byte[] _ntpwd
-    ::Array<uint8_t>*& dyn__ntpwd();
+    ::ArrayW<uint8_t>& dyn__ntpwd();
     // public System.Void set_Password(System.String value)
     // Offset: 0x1F95D68
     void set_Password(::Il2CppString* value);
     // public System.Void set_Challenge(System.Byte[] value)
     // Offset: 0x1F96194
-    void set_Challenge(::Array<uint8_t>* value);
+    void set_Challenge(::ArrayW<uint8_t> value);
     // public System.Byte[] get_LM()
     // Offset: 0x1F964C4
-    ::Array<uint8_t>* get_LM();
+    ::ArrayW<uint8_t> get_LM();
     // public System.Byte[] get_NT()
     // Offset: 0x1F96844
-    ::Array<uint8_t>* get_NT();
+    ::ArrayW<uint8_t> get_NT();
     // public System.Void .ctor(System.String password, System.Byte[] challenge)
     // Offset: 0x1F95D24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ChallengeResponse* New_ctor(::Il2CppString* password, ::Array<uint8_t>* challenge) {
+    static ChallengeResponse* New_ctor(::Il2CppString* password, ::ArrayW<uint8_t> challenge) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Protocol::Ntlm::ChallengeResponse::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ChallengeResponse*, creationType>(password, challenge)));
     }
@@ -99,13 +116,13 @@ namespace Mono::Security::Protocol::Ntlm {
     void Dispose(bool disposing);
     // private System.Byte[] GetResponse(System.Byte[] pwd)
     // Offset: 0x1F96550
-    ::Array<uint8_t>* GetResponse(::Array<uint8_t>* pwd);
+    ::ArrayW<uint8_t> GetResponse(::ArrayW<uint8_t> pwd);
     // private System.Byte[] PrepareDESKey(System.Byte[] key56bits, System.Int32 position)
     // Offset: 0x1F96948
-    ::Array<uint8_t>* PrepareDESKey(::Array<uint8_t>* key56bits, int position);
+    ::ArrayW<uint8_t> PrepareDESKey(::ArrayW<uint8_t> key56bits, int position);
     // private System.Byte[] PasswordToKey(System.String password, System.Int32 position)
     // Offset: 0x1F96378
-    ::Array<uint8_t>* PasswordToKey(::Il2CppString* password, int position);
+    ::ArrayW<uint8_t> PasswordToKey(::Il2CppString* password, int position);
     // public System.Void .ctor()
     // Offset: 0x1F95CAC
     // Implemented from: System.Object
@@ -122,10 +139,9 @@ namespace Mono::Security::Protocol::Ntlm {
     void Finalize();
   }; // Mono.Security.Protocol.Ntlm.ChallengeResponse
   #pragma pack(pop)
-  static check_size<sizeof(ChallengeResponse), 40 + sizeof(::Array<uint8_t>*)> __Mono_Security_Protocol_Ntlm_ChallengeResponseSizeCheck;
+  static check_size<sizeof(ChallengeResponse), 40 + sizeof(::ArrayW<uint8_t>)> __Mono_Security_Protocol_Ntlm_ChallengeResponseSizeCheck;
   static_assert(sizeof(ChallengeResponse) == 0x30);
 }
-DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Protocol::Ntlm::ChallengeResponse*, "Mono.Security.Protocol.Ntlm", "ChallengeResponse");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Security::Protocol::Ntlm::ChallengeResponse::set_Password
 // Il2CppName: set_Password
@@ -139,7 +155,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Security::Protocol::Ntlm::ChallengeResponse::set_Challenge
 // Il2CppName: set_Challenge
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Protocol::Ntlm::ChallengeResponse::*)(::Array<uint8_t>*)>(&Mono::Security::Protocol::Ntlm::ChallengeResponse::set_Challenge)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Protocol::Ntlm::ChallengeResponse::*)(::ArrayW<uint8_t>)>(&Mono::Security::Protocol::Ntlm::ChallengeResponse::set_Challenge)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Protocol::Ntlm::ChallengeResponse*), "set_Challenge", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -148,7 +164,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Security::Protocol::Ntlm::ChallengeResponse::get_LM
 // Il2CppName: get_LM
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Mono::Security::Protocol::Ntlm::ChallengeResponse::*)()>(&Mono::Security::Protocol::Ntlm::ChallengeResponse::get_LM)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Mono::Security::Protocol::Ntlm::ChallengeResponse::*)()>(&Mono::Security::Protocol::Ntlm::ChallengeResponse::get_LM)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Protocol::Ntlm::ChallengeResponse*), "get_LM", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -156,7 +172,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Writing MetadataGetter for method: Mono::Security::Protocol::Ntlm::ChallengeResponse::get_NT
 // Il2CppName: get_NT
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Mono::Security::Protocol::Ntlm::ChallengeResponse::*)()>(&Mono::Security::Protocol::Ntlm::ChallengeResponse::get_NT)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Mono::Security::Protocol::Ntlm::ChallengeResponse::*)()>(&Mono::Security::Protocol::Ntlm::ChallengeResponse::get_NT)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Protocol::Ntlm::ChallengeResponse*), "get_NT", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -193,7 +209,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Security::Protocol::Ntlm::ChallengeResponse::GetResponse
 // Il2CppName: GetResponse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Mono::Security::Protocol::Ntlm::ChallengeResponse::*)(::Array<uint8_t>*)>(&Mono::Security::Protocol::Ntlm::ChallengeResponse::GetResponse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Mono::Security::Protocol::Ntlm::ChallengeResponse::*)(::ArrayW<uint8_t>)>(&Mono::Security::Protocol::Ntlm::ChallengeResponse::GetResponse)> {
   static const MethodInfo* get() {
     static auto* pwd = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Protocol::Ntlm::ChallengeResponse*), "GetResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pwd});
@@ -202,7 +218,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Writing MetadataGetter for method: Mono::Security::Protocol::Ntlm::ChallengeResponse::PrepareDESKey
 // Il2CppName: PrepareDESKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Mono::Security::Protocol::Ntlm::ChallengeResponse::*)(::Array<uint8_t>*, int)>(&Mono::Security::Protocol::Ntlm::ChallengeResponse::PrepareDESKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Mono::Security::Protocol::Ntlm::ChallengeResponse::*)(::ArrayW<uint8_t>, int)>(&Mono::Security::Protocol::Ntlm::ChallengeResponse::PrepareDESKey)> {
   static const MethodInfo* get() {
     static auto* key56bits = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* position = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -212,7 +228,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Writing MetadataGetter for method: Mono::Security::Protocol::Ntlm::ChallengeResponse::PasswordToKey
 // Il2CppName: PasswordToKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Mono::Security::Protocol::Ntlm::ChallengeResponse::*)(::Il2CppString*, int)>(&Mono::Security::Protocol::Ntlm::ChallengeResponse::PasswordToKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Mono::Security::Protocol::Ntlm::ChallengeResponse::*)(::Il2CppString*, int)>(&Mono::Security::Protocol::Ntlm::ChallengeResponse::PasswordToKey)> {
   static const MethodInfo* get() {
     static auto* password = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* position = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

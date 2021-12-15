@@ -14,6 +14,13 @@
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: SkeletonBone
+  struct SkeletonBone;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SkeletonBone, "UnityEngine", "SkeletonBone");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x38
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -24,6 +31,15 @@ namespace UnityEngine {
   // [RequiredByNativeCodeAttribute] Offset: ECDD18
   struct SkeletonBone/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // [NativeNameAttribute] Offset: 0xECEDA8
     // public System.String name
     // Size: 0x8
@@ -59,6 +75,7 @@ namespace UnityEngine {
     UnityEngine::Vector3 scale;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    public:
     // Creating value type constructor for type: SkeletonBone
     constexpr SkeletonBone(::Il2CppString* name_ = {}, ::Il2CppString* parentName_ = {}, UnityEngine::Vector3 position_ = {}, UnityEngine::Quaternion rotation_ = {}, UnityEngine::Vector3 scale_ = {}) noexcept : name{name_}, parentName{parentName_}, position{position_}, rotation{rotation_}, scale{scale_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -80,6 +97,4 @@ namespace UnityEngine {
   static check_size<sizeof(SkeletonBone), 44 + sizeof(UnityEngine::Vector3)> __UnityEngine_SkeletonBoneSizeCheck;
   static_assert(sizeof(SkeletonBone) == 0x38);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SkeletonBone, "UnityEngine", "SkeletonBone");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

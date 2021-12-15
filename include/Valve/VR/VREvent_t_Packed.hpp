@@ -9,13 +9,21 @@
 #include "System/ValueType.hpp"
 // Including type: Valve.VR.VREvent_Data_t
 #include "Valve/VR/VREvent_Data_t.hpp"
-// Including type: Valve.VR.VREvent_t
-#include "Valve/VR/VREvent_t.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
+// Begin forward declares
+// Forward declaring namespace: Valve::VR
+namespace Valve::VR {
+  // Forward declaring type: VREvent_t
+  struct VREvent_t;
+}
+// Completed forward declares
+// Type namespace: Valve.VR
+namespace Valve::VR {
+  // Forward declaring type: VREvent_t_Packed
+  struct VREvent_t_Packed;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VREvent_t_Packed, "Valve.VR", "VREvent_t_Packed");
 // Type namespace: Valve.VR
 namespace Valve::VR {
   // WARNING Size may be invalid!
@@ -24,6 +32,15 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VREvent_t_Packed/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.UInt32 eventType
     // Size: 0x4
     // Offset: 0x0
@@ -46,6 +63,7 @@ namespace Valve::VR {
     // Size: 0xFFFFFFFF
     // Offset: 0xC
     Valve::VR::VREvent_Data_t data;
+    public:
     // Creating value type constructor for type: VREvent_t_Packed
     constexpr VREvent_t_Packed(uint eventType_ = {}, uint trackedDeviceIndex_ = {}, float eventAgeSeconds_ = {}, Valve::VR::VREvent_Data_t data_ = {}) noexcept : eventType{eventType_}, trackedDeviceIndex{trackedDeviceIndex_}, eventAgeSeconds{eventAgeSeconds_}, data{data_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -62,19 +80,13 @@ namespace Valve::VR {
     Valve::VR::VREvent_Data_t& dyn_data();
     // public System.Void .ctor(Valve.VR.VREvent_t unpacked)
     // Offset: 0x26846FC
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    VREvent_t_Packed(Valve::VR::VREvent_t unpacked) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::VREvent_t_Packed::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(unpacked)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, unpacked);
-    }
+    VREvent_t_Packed(Valve::VR::VREvent_t unpacked);
     // public System.Void Unpack(ref Valve.VR.VREvent_t unpacked)
     // Offset: 0x268473C
     void Unpack(ByRef<Valve::VR::VREvent_t> unpacked);
   }; // Valve.VR.VREvent_t_Packed
   // WARNING Not writing size check since size may be invalid!
 }
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VREvent_t_Packed, "Valve.VR", "VREvent_t_Packed");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::VREvent_t_Packed::VREvent_t_Packed
 // Il2CppName: .ctor

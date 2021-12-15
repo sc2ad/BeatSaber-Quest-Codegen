@@ -13,6 +13,13 @@
 // Completed includes
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
+  // Forward declaring type: VRBoneTransform_t
+  struct VRBoneTransform_t;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VRBoneTransform_t, "OVR.OpenVR", "VRBoneTransform_t");
+// Type namespace: OVR.OpenVR
+namespace OVR::OpenVR {
   // Size: 0x20
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -20,6 +27,15 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VRBoneTransform_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public OVR.OpenVR.HmdVector4_t position
     // Size: 0x10
     // Offset: 0x0
@@ -32,6 +48,7 @@ namespace OVR::OpenVR {
     OVR::OpenVR::HmdQuaternionf_t orientation;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::HmdQuaternionf_t) == 0x10);
+    public:
     // Creating value type constructor for type: VRBoneTransform_t
     constexpr VRBoneTransform_t(OVR::OpenVR::HmdVector4_t position_ = {}, OVR::OpenVR::HmdQuaternionf_t orientation_ = {}) noexcept : position{position_}, orientation{orientation_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -47,6 +64,4 @@ namespace OVR::OpenVR {
   static check_size<sizeof(VRBoneTransform_t), 16 + sizeof(OVR::OpenVR::HmdQuaternionf_t)> __OVR_OpenVR_VRBoneTransform_tSizeCheck;
   static_assert(sizeof(VRBoneTransform_t) == 0x20);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VRBoneTransform_t, "OVR.OpenVR", "VRBoneTransform_t");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

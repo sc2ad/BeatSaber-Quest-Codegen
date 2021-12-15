@@ -7,6 +7,7 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Transform
 #include "UnityEngine/Transform.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -17,6 +18,14 @@ namespace UnityEngine {
   struct Vector2;
 }
 // Completed forward declares
+// Type namespace: UnityEngine
+namespace UnityEngine {
+  // Forward declaring type: RectTransform
+  class RectTransform;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::RectTransform);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RectTransform*, "UnityEngine", "RectTransform");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18
@@ -31,8 +40,6 @@ namespace UnityEngine {
     struct Axis;
     // Nested type: UnityEngine::RectTransform::ReapplyDrivenProperties
     class ReapplyDrivenProperties;
-    // Creating value type constructor for type: RectTransform
-    RectTransform() noexcept {}
     // [DebuggerBrowsableAttribute] Offset: 0xEB8840
     // Get static field: static private UnityEngine.RectTransform/UnityEngine.ReapplyDrivenProperties reapplyDrivenProperties
     static UnityEngine::RectTransform::ReapplyDrivenProperties* _get_reapplyDrivenProperties();
@@ -88,10 +95,10 @@ namespace UnityEngine {
     static void remove_reapplyDrivenProperties(UnityEngine::RectTransform::ReapplyDrivenProperties* value);
     // public System.Void GetLocalCorners(UnityEngine.Vector3[] fourCornersArray)
     // Offset: 0x1DF3F0C
-    void GetLocalCorners(::Array<UnityEngine::Vector3>* fourCornersArray);
+    void GetLocalCorners(::ArrayW<UnityEngine::Vector3> fourCornersArray);
     // public System.Void GetWorldCorners(UnityEngine.Vector3[] fourCornersArray)
     // Offset: 0x1DF40DC
-    void GetWorldCorners(::Array<UnityEngine::Vector3>* fourCornersArray);
+    void GetWorldCorners(::ArrayW<UnityEngine::Vector3> fourCornersArray);
     // public System.Void SetSizeWithCurrentAnchors(UnityEngine.RectTransform/UnityEngine.Axis axis, System.Single size)
     // Offset: 0x1DF4218
     void SetSizeWithCurrentAnchors(UnityEngine::RectTransform::Axis axis, float size);
@@ -137,8 +144,6 @@ namespace UnityEngine {
   }; // UnityEngine.RectTransform
   #pragma pack(pop)
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RectTransform*, "UnityEngine", "RectTransform");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::RectTransform::get_rect
 // Il2CppName: get_rect
@@ -281,7 +286,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::RectTransform::GetLocalCorners
 // Il2CppName: GetLocalCorners
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::RectTransform::*)(::Array<UnityEngine::Vector3>*)>(&UnityEngine::RectTransform::GetLocalCorners)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::RectTransform::*)(::ArrayW<UnityEngine::Vector3>)>(&UnityEngine::RectTransform::GetLocalCorners)> {
   static const MethodInfo* get() {
     static auto* fourCornersArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RectTransform*), "GetLocalCorners", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fourCornersArray});
@@ -290,7 +295,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::RectTransform::GetWorldCorners
 // Il2CppName: GetWorldCorners
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::RectTransform::*)(::Array<UnityEngine::Vector3>*)>(&UnityEngine::RectTransform::GetWorldCorners)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::RectTransform::*)(::ArrayW<UnityEngine::Vector3>)>(&UnityEngine::RectTransform::GetWorldCorners)> {
   static const MethodInfo* get() {
     static auto* fourCornersArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RectTransform*), "GetWorldCorners", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fourCornersArray});

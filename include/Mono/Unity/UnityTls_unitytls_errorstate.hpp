@@ -14,6 +14,13 @@
 // Completed includes
 // Type namespace: Mono.Unity
 namespace Mono::Unity {
+  // Forward declaring type: unitytls_errorstate
+  struct unitytls_errorstate;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTls::unitytls_errorstate, "Mono.Unity", "UnityTls/unitytls_errorstate");
+// Type namespace: Mono.Unity
+namespace Mono::Unity {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -21,6 +28,15 @@ namespace Mono::Unity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct UnityTls::unitytls_errorstate/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.UInt32 magic
     // Size: 0x4
     // Offset: 0x0
@@ -39,6 +55,7 @@ namespace Mono::Unity {
     uint64_t reserved;
     // Field size check
     static_assert(sizeof(uint64_t) == 0x8);
+    public:
     // Creating value type constructor for type: unitytls_errorstate
     constexpr unitytls_errorstate(uint magic_ = {}, Mono::Unity::UnityTls::unitytls_error_code code_ = {}, uint64_t reserved_ = {}) noexcept : magic{magic_}, code{code_}, reserved{reserved_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -56,6 +73,4 @@ namespace Mono::Unity {
   static check_size<sizeof(UnityTls::unitytls_errorstate), 8 + sizeof(uint64_t)> __Mono_Unity_UnityTls_unitytls_errorstateSizeCheck;
   static_assert(sizeof(UnityTls::unitytls_errorstate) == 0x10);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTls::unitytls_errorstate, "Mono.Unity", "UnityTls/unitytls_errorstate");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

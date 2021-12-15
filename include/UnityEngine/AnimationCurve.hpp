@@ -16,7 +16,16 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: UnityEngine
+namespace UnityEngine {
+  // Forward declaring type: AnimationCurve
+  class AnimationCurve;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::AnimationCurve);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimationCurve*, "UnityEngine", "AnimationCurve");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18
@@ -29,14 +38,22 @@ namespace UnityEngine {
   // [RequiredByNativeCodeAttribute] Offset: EB26C4
   class AnimationCurve : public ::Il2CppObject/*, public System::IEquatable_1<UnityEngine::AnimationCurve*>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // System.IntPtr m_Ptr
     // Size: 0x8
     // Offset: 0x10
     System::IntPtr m_Ptr;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
-    // Creating value type constructor for type: AnimationCurve
-    AnimationCurve(System::IntPtr m_Ptr_ = {}) noexcept : m_Ptr{m_Ptr_} {}
+    public:
     // Creating interface conversion operator: operator System::IEquatable_1<UnityEngine::AnimationCurve*>
     operator System::IEquatable_1<UnityEngine::AnimationCurve*>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<UnityEngine::AnimationCurve*>*>(this);
@@ -49,36 +66,26 @@ namespace UnityEngine {
     System::IntPtr& dyn_m_Ptr();
     // public UnityEngine.Keyframe[] get_keys()
     // Offset: 0x1CFC7A4
-    ::Array<UnityEngine::Keyframe>* get_keys();
+    ::ArrayW<UnityEngine::Keyframe> get_keys();
     // public System.Void set_keys(UnityEngine.Keyframe[] value)
     // Offset: 0x1CFC824
-    void set_keys(::Array<UnityEngine::Keyframe>* value);
+    void set_keys(::ArrayW<UnityEngine::Keyframe> value);
     // public System.Int32 get_length()
     // Offset: 0x1CFC91C
     int get_length();
     // public System.Void .ctor(params UnityEngine.Keyframe[] keys)
     // Offset: 0x1CFCB50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static AnimationCurve* New_ctor(::Array<UnityEngine::Keyframe>* keys) {
+    static AnimationCurve* New_ctor(::ArrayW<UnityEngine::Keyframe> keys) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AnimationCurve::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AnimationCurve*, creationType>(keys)));
-    }
-    // Creating initializer_list -> params proxy for: System.Void .ctor(params UnityEngine.Keyframe[] keys)
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static AnimationCurve* New_ctor(std::initializer_list<UnityEngine::Keyframe> keys) {
-      return New_ctor<creationType>(::Array<UnityEngine::Keyframe>::New(keys));
-    }
-    // Creating TArgs -> initializer_list proxy for: System.Void .ctor(params UnityEngine.Keyframe[] keys)
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary, class ...TParams>
-    static AnimationCurve* New_ctor(TParams&&... keys) {
-      return New_ctor<creationType>({keys...});
     }
     // static private System.Void Internal_Destroy(System.IntPtr ptr)
     // Offset: 0x1CFC5E8
     static void Internal_Destroy(System::IntPtr ptr);
     // static private System.IntPtr Internal_Create(UnityEngine.Keyframe[] keys)
     // Offset: 0x1CFC628
-    static System::IntPtr Internal_Create(::Array<UnityEngine::Keyframe>* keys);
+    static System::IntPtr Internal_Create(::ArrayW<UnityEngine::Keyframe> keys);
     // private System.Boolean Internal_Equals(System.IntPtr other)
     // Offset: 0x1CFC668
     bool Internal_Equals(System::IntPtr other);
@@ -90,10 +97,10 @@ namespace UnityEngine {
     int AddKey(float time, float value);
     // private System.Void SetKeys(UnityEngine.Keyframe[] keys)
     // Offset: 0x1CFC874
-    void SetKeys(::Array<UnityEngine::Keyframe>* keys);
+    void SetKeys(::ArrayW<UnityEngine::Keyframe> keys);
     // private UnityEngine.Keyframe[] GetKeys()
     // Offset: 0x1CFC7E4
-    ::Array<UnityEngine::Keyframe>* GetKeys();
+    ::ArrayW<UnityEngine::Keyframe> GetKeys();
     // static public UnityEngine.AnimationCurve Linear(System.Single timeStart, System.Single valueStart, System.Single timeEnd, System.Single valueEnd)
     // Offset: 0x1CFC95C
     static UnityEngine::AnimationCurve* Linear(float timeStart, float valueStart, float timeEnd, float valueEnd);
@@ -132,12 +139,11 @@ namespace UnityEngine {
   static check_size<sizeof(AnimationCurve), 16 + sizeof(System::IntPtr)> __UnityEngine_AnimationCurveSizeCheck;
   static_assert(sizeof(AnimationCurve) == 0x18);
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimationCurve*, "UnityEngine", "AnimationCurve");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AnimationCurve::get_keys
 // Il2CppName: get_keys
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Keyframe>* (UnityEngine::AnimationCurve::*)()>(&UnityEngine::AnimationCurve::get_keys)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Keyframe> (UnityEngine::AnimationCurve::*)()>(&UnityEngine::AnimationCurve::get_keys)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimationCurve*), "get_keys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -145,7 +151,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 // Writing MetadataGetter for method: UnityEngine::AnimationCurve::set_keys
 // Il2CppName: set_keys
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AnimationCurve::*)(::Array<UnityEngine::Keyframe>*)>(&UnityEngine::AnimationCurve::set_keys)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AnimationCurve::*)(::ArrayW<UnityEngine::Keyframe>)>(&UnityEngine::AnimationCurve::set_keys)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Keyframe"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimationCurve*), "set_keys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -175,7 +181,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::AnimationCurve::Internal_Create
 // Il2CppName: Internal_Create
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::Array<UnityEngine::Keyframe>*)>(&UnityEngine::AnimationCurve::Internal_Create)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::ArrayW<UnityEngine::Keyframe>)>(&UnityEngine::AnimationCurve::Internal_Create)> {
   static const MethodInfo* get() {
     static auto* keys = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Keyframe"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimationCurve*), "Internal_Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{keys});
@@ -212,7 +218,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Writing MetadataGetter for method: UnityEngine::AnimationCurve::SetKeys
 // Il2CppName: SetKeys
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AnimationCurve::*)(::Array<UnityEngine::Keyframe>*)>(&UnityEngine::AnimationCurve::SetKeys)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AnimationCurve::*)(::ArrayW<UnityEngine::Keyframe>)>(&UnityEngine::AnimationCurve::SetKeys)> {
   static const MethodInfo* get() {
     static auto* keys = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Keyframe"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimationCurve*), "SetKeys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{keys});
@@ -221,7 +227,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::AnimationCurve::GetKeys
 // Il2CppName: GetKeys
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Keyframe>* (UnityEngine::AnimationCurve::*)()>(&UnityEngine::AnimationCurve::GetKeys)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Keyframe> (UnityEngine::AnimationCurve::*)()>(&UnityEngine::AnimationCurve::GetKeys)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimationCurve*), "GetKeys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

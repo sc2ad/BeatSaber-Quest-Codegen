@@ -21,6 +21,7 @@
 #include "System/Runtime/CompilerServices/ConfiguredTaskAwaitable.hpp"
 // Including type: System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter
 #include "System/Runtime/CompilerServices/ConfiguredTaskAwaitable_1.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Threading
@@ -29,10 +30,13 @@ namespace System::Threading {
   class SemaphoreSlim;
 }
 // Completed forward declares
-// Begin il2cpp-utils forward declares
-template<class T>
-struct Array;
-// Completed il2cpp-utils forward declares
+// Type namespace: System.Security.Cryptography
+namespace System::Security::Cryptography {
+  // Forward declaring type: <ReadAsyncInternal>d__34
+  struct $ReadAsyncInternal$d__34;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::CryptoStream::$ReadAsyncInternal$d__34, "System.Security.Cryptography", "CryptoStream/<ReadAsyncInternal>d__34");
 // Type namespace: System.Security.Cryptography
 namespace System::Security::Cryptography {
   // WARNING Size may be invalid!
@@ -41,6 +45,15 @@ namespace System::Security::Cryptography {
   // [CompilerGeneratedAttribute] Offset: EA0828
   struct CryptoStream::$ReadAsyncInternal$d__34/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0
@@ -72,9 +85,9 @@ namespace System::Security::Cryptography {
     // public System.Byte[] buffer
     // Size: 0x8
     // Offset: 0x30
-    ::Array<uint8_t>* buffer;
+    ::ArrayW<uint8_t> buffer;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // public System.Threading.CancellationToken cancellationToken
     // Size: 0x8
     // Offset: 0x38
@@ -84,9 +97,9 @@ namespace System::Security::Cryptography {
     // private System.Byte[] <tempInputBuffer>5__1
     // Size: 0x8
     // Offset: 0x40
-    ::Array<uint8_t>* $tempInputBuffer$5__1;
+    ::ArrayW<uint8_t> $tempInputBuffer$5__1;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Int32 <currentOutputIndex>5__2
     // Size: 0x4
     // Offset: 0x48
@@ -127,8 +140,9 @@ namespace System::Security::Cryptography {
     // Size: 0xFFFFFFFF
     // Offset: 0x78
     typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<int>::ConfiguredTaskAwaiter $$u__3;
+    public:
     // Creating value type constructor for type: $ReadAsyncInternal$d__34
-    constexpr $ReadAsyncInternal$d__34(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int> $$t__builder_ = {}, System::Security::Cryptography::CryptoStream* $$4__this_ = {}, int count_ = {}, int offset_ = {}, ::Array<uint8_t>* buffer_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, ::Array<uint8_t>* $tempInputBuffer$5__1_ = {}, int $currentOutputIndex$5__2_ = {}, int $bytesToDeliver$5__3_ = {}, System::Threading::SemaphoreSlim* $sem$5__4_ = {}, System::Security::Cryptography::CryptoStream::HopToThreadPoolAwaitable $$u__1_ = {}, System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter $$u__2_ = {}, int $$7__wrap1_ = {}, typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<int>::ConfiguredTaskAwaiter $$u__3_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, count{count_}, offset{offset_}, buffer{buffer_}, cancellationToken{cancellationToken_}, $tempInputBuffer$5__1{$tempInputBuffer$5__1_}, $currentOutputIndex$5__2{$currentOutputIndex$5__2_}, $bytesToDeliver$5__3{$bytesToDeliver$5__3_}, $sem$5__4{$sem$5__4_}, $$u__1{$$u__1_}, $$u__2{$$u__2_}, $$7__wrap1{$$7__wrap1_}, $$u__3{$$u__3_} {}
+    constexpr $ReadAsyncInternal$d__34(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int> $$t__builder_ = {}, System::Security::Cryptography::CryptoStream* $$4__this_ = {}, int count_ = {}, int offset_ = {}, ::ArrayW<uint8_t> buffer_ = ::ArrayW<uint8_t>(nullptr), System::Threading::CancellationToken cancellationToken_ = {}, ::ArrayW<uint8_t> $tempInputBuffer$5__1_ = ::ArrayW<uint8_t>(nullptr), int $currentOutputIndex$5__2_ = {}, int $bytesToDeliver$5__3_ = {}, System::Threading::SemaphoreSlim* $sem$5__4_ = {}, System::Security::Cryptography::CryptoStream::HopToThreadPoolAwaitable $$u__1_ = {}, System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter $$u__2_ = {}, int $$7__wrap1_ = {}, typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<int>::ConfiguredTaskAwaiter $$u__3_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, count{count_}, offset{offset_}, buffer{buffer_}, cancellationToken{cancellationToken_}, $tempInputBuffer$5__1{$tempInputBuffer$5__1_}, $currentOutputIndex$5__2{$currentOutputIndex$5__2_}, $bytesToDeliver$5__3{$bytesToDeliver$5__3_}, $sem$5__4{$sem$5__4_}, $$u__1{$$u__1_}, $$u__2{$$u__2_}, $$7__wrap1{$$7__wrap1_}, $$u__3{$$u__3_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -148,11 +162,11 @@ namespace System::Security::Cryptography {
     // Get instance field reference: public System.Int32 offset
     int& dyn_offset();
     // Get instance field reference: public System.Byte[] buffer
-    ::Array<uint8_t>*& dyn_buffer();
+    ::ArrayW<uint8_t>& dyn_buffer();
     // Get instance field reference: public System.Threading.CancellationToken cancellationToken
     System::Threading::CancellationToken& dyn_cancellationToken();
     // Get instance field reference: private System.Byte[] <tempInputBuffer>5__1
-    ::Array<uint8_t>*& dyn_$tempInputBuffer$5__1();
+    ::ArrayW<uint8_t>& dyn_$tempInputBuffer$5__1();
     // Get instance field reference: private System.Int32 <currentOutputIndex>5__2
     int& dyn_$currentOutputIndex$5__2();
     // Get instance field reference: private System.Int32 <bytesToDeliver>5__3
@@ -176,8 +190,6 @@ namespace System::Security::Cryptography {
   }; // System.Security.Cryptography.CryptoStream/System.Security.Cryptography.<ReadAsyncInternal>d__34
   // WARNING Not writing size check since size may be invalid!
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::CryptoStream::$ReadAsyncInternal$d__34, "System.Security.Cryptography", "CryptoStream/<ReadAsyncInternal>d__34");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::CryptoStream::$ReadAsyncInternal$d__34::MoveNext
 // Il2CppName: MoveNext

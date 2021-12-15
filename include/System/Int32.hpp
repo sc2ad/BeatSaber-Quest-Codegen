@@ -40,6 +40,13 @@ namespace System::Globalization {
 // Completed forward declares
 // Type namespace: System
 namespace System {
+  // Forward declaring type: Int32
+  struct Int32;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Int32, "System", "Int32");
+// Type namespace: System
+namespace System {
   // Size: 0x4
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -48,12 +55,22 @@ namespace System {
   // [ComVisibleAttribute] Offset: E9D8E0
   struct Int32/*, public System::ValueType, public System::IComparable_1<int>, public System::IEquatable_1<int>, public System::IComparable, public System::IConvertible, public System::IFormattable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // System.Int32 m_value
     // Size: 0x4
     // Offset: 0x0
     int m_value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: Int32
     constexpr Int32(int m_value_ = {}) noexcept : m_value{m_value_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -202,8 +219,6 @@ namespace System {
   static check_size<sizeof(Int32), 0 + sizeof(int)> __System_Int32SizeCheck;
   static_assert(sizeof(Int32) == 0x4);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Int32, "System", "Int32");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Int32::CompareTo
 // Il2CppName: CompareTo

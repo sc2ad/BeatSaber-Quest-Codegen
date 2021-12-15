@@ -7,10 +7,13 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
+// Including type: System.Enum
+#include "System/Enum.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: RootMotion::FinalIK
@@ -32,6 +35,14 @@ namespace UnityEngine {
   class AnimationCurve;
 }
 // Completed forward declares
+// Type namespace: RootMotion.FinalIK
+namespace RootMotion::FinalIK {
+  // Forward declaring type: InteractionObject
+  class InteractionObject;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(RootMotion::FinalIK::InteractionObject);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionObject*, "RootMotion.FinalIK", "InteractionObject");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
   // Size: 0x60
@@ -66,12 +77,22 @@ namespace RootMotion::FinalIK {
       // [TokenAttribute] Offset: FFFFFFFF
       struct Type/*, public System::Enum*/ {
         public:
+        #ifdef USE_CODEGEN_FIELDS
+        public:
+        #else
+        #ifdef CODEGEN_FIELD_ACCESSIBILITY
+        CODEGEN_FIELD_ACCESSIBILITY:
+        #else
+        protected:
+        #endif
+        #endif
         // public System.Int32 value__
         // Size: 0x4
         // Offset: 0x0
         int value;
         // Field size check
         static_assert(sizeof(int) == 0x4);
+        public:
         // Creating value type constructor for type: Type
         constexpr Type(int value_ = {}) noexcept : value{value_} {}
         // Creating interface conversion operator: operator System::Enum
@@ -160,6 +181,15 @@ namespace RootMotion::FinalIK {
       #pragma pack(pop)
       static check_size<sizeof(InteractionObject::WeightCurve::Type), 0 + sizeof(int)> __RootMotion_FinalIK_InteractionObject_WeightCurve_TypeSizeCheck;
       static_assert(sizeof(InteractionObject::WeightCurve::Type) == 0x4);
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      #ifdef CODEGEN_FIELD_ACCESSIBILITY
+      CODEGEN_FIELD_ACCESSIBILITY:
+      #else
+      protected:
+      #endif
+      #endif
       // [TooltipAttribute] Offset: 0xF61C4C
       // public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.WeightCurve/RootMotion.FinalIK.Type type
       // Size: 0x4
@@ -176,8 +206,7 @@ namespace RootMotion::FinalIK {
       UnityEngine::AnimationCurve* curve;
       // Field size check
       static_assert(sizeof(UnityEngine::AnimationCurve*) == 0x8);
-      // Creating value type constructor for type: WeightCurve
-      WeightCurve(RootMotion::FinalIK::InteractionObject::WeightCurve::Type type_ = {}, UnityEngine::AnimationCurve* curve_ = {}) noexcept : type{type_}, curve{curve_} {}
+      public:
       // Get instance field reference: public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.WeightCurve/RootMotion.FinalIK.Type type
       RootMotion::FinalIK::InteractionObject::WeightCurve::Type& dyn_type();
       // Get instance field reference: public UnityEngine.AnimationCurve curve
@@ -198,6 +227,15 @@ namespace RootMotion::FinalIK {
     #pragma pack(pop)
     static check_size<sizeof(InteractionObject::WeightCurve), 24 + sizeof(UnityEngine::AnimationCurve*)> __RootMotion_FinalIK_InteractionObject_WeightCurveSizeCheck;
     static_assert(sizeof(InteractionObject::WeightCurve) == 0x20);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // [TooltipAttribute] Offset: 0xF5EAE8
     // public UnityEngine.Transform otherLookAtTarget
     // Size: 0x8
@@ -222,21 +260,21 @@ namespace RootMotion::FinalIK {
     // public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.WeightCurve[] weightCurves
     // Size: 0x8
     // Offset: 0x30
-    ::Array<RootMotion::FinalIK::InteractionObject::WeightCurve*>* weightCurves;
+    ::ArrayW<RootMotion::FinalIK::InteractionObject::WeightCurve*> weightCurves;
     // Field size check
-    static_assert(sizeof(::Array<RootMotion::FinalIK::InteractionObject::WeightCurve*>*) == 0x8);
+    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::InteractionObject::WeightCurve*>) == 0x8);
     // public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.Multiplier[] multipliers
     // Size: 0x8
     // Offset: 0x38
-    ::Array<RootMotion::FinalIK::InteractionObject::Multiplier*>* multipliers;
+    ::ArrayW<RootMotion::FinalIK::InteractionObject::Multiplier*> multipliers;
     // Field size check
-    static_assert(sizeof(::Array<RootMotion::FinalIK::InteractionObject::Multiplier*>*) == 0x8);
+    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::InteractionObject::Multiplier*>) == 0x8);
     // public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.InteractionEvent[] events
     // Size: 0x8
     // Offset: 0x40
-    ::Array<RootMotion::FinalIK::InteractionObject::InteractionEvent*>* events;
+    ::ArrayW<RootMotion::FinalIK::InteractionObject::InteractionEvent*> events;
     // Field size check
-    static_assert(sizeof(::Array<RootMotion::FinalIK::InteractionObject::InteractionEvent*>*) == 0x8);
+    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::InteractionObject::InteractionEvent*>) == 0x8);
     // private System.Single <length>k__BackingField
     // Size: 0x4
     // Offset: 0x48
@@ -254,11 +292,10 @@ namespace RootMotion::FinalIK {
     // private RootMotion.FinalIK.InteractionTarget[] targets
     // Size: 0x8
     // Offset: 0x58
-    ::Array<RootMotion::FinalIK::InteractionTarget*>* targets;
+    ::ArrayW<RootMotion::FinalIK::InteractionTarget*> targets;
     // Field size check
-    static_assert(sizeof(::Array<RootMotion::FinalIK::InteractionTarget*>*) == 0x8);
-    // Creating value type constructor for type: InteractionObject
-    InteractionObject(UnityEngine::Transform* otherLookAtTarget_ = {}, UnityEngine::Transform* otherTargetsRoot_ = {}, UnityEngine::Transform* positionOffsetSpace_ = {}, ::Array<RootMotion::FinalIK::InteractionObject::WeightCurve*>* weightCurves_ = {}, ::Array<RootMotion::FinalIK::InteractionObject::Multiplier*>* multipliers_ = {}, ::Array<RootMotion::FinalIK::InteractionObject::InteractionEvent*>* events_ = {}, float length_ = {}, RootMotion::FinalIK::InteractionSystem* lastUsedInteractionSystem_ = {}, ::Array<RootMotion::FinalIK::InteractionTarget*>* targets_ = {}) noexcept : otherLookAtTarget{otherLookAtTarget_}, otherTargetsRoot{otherTargetsRoot_}, positionOffsetSpace{positionOffsetSpace_}, weightCurves{weightCurves_}, multipliers{multipliers_}, events{events_}, length{length_}, lastUsedInteractionSystem{lastUsedInteractionSystem_}, targets{targets_} {}
+    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::InteractionTarget*>) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public UnityEngine.Transform otherLookAtTarget
@@ -268,17 +305,17 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public UnityEngine.Transform positionOffsetSpace
     UnityEngine::Transform*& dyn_positionOffsetSpace();
     // Get instance field reference: public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.WeightCurve[] weightCurves
-    ::Array<RootMotion::FinalIK::InteractionObject::WeightCurve*>*& dyn_weightCurves();
+    ::ArrayW<RootMotion::FinalIK::InteractionObject::WeightCurve*>& dyn_weightCurves();
     // Get instance field reference: public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.Multiplier[] multipliers
-    ::Array<RootMotion::FinalIK::InteractionObject::Multiplier*>*& dyn_multipliers();
+    ::ArrayW<RootMotion::FinalIK::InteractionObject::Multiplier*>& dyn_multipliers();
     // Get instance field reference: public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.InteractionEvent[] events
-    ::Array<RootMotion::FinalIK::InteractionObject::InteractionEvent*>*& dyn_events();
+    ::ArrayW<RootMotion::FinalIK::InteractionObject::InteractionEvent*>& dyn_events();
     // Get instance field reference: private System.Single <length>k__BackingField
     float& dyn_$length$k__BackingField();
     // Get instance field reference: private RootMotion.FinalIK.InteractionSystem <lastUsedInteractionSystem>k__BackingField
     RootMotion::FinalIK::InteractionSystem*& dyn_$lastUsedInteractionSystem$k__BackingField();
     // Get instance field reference: private RootMotion.FinalIK.InteractionTarget[] targets
-    ::Array<RootMotion::FinalIK::InteractionTarget*>*& dyn_targets();
+    ::ArrayW<RootMotion::FinalIK::InteractionTarget*>& dyn_targets();
     // public System.Single get_length()
     // Offset: 0x1FF16D0
     float get_length();
@@ -332,7 +369,7 @@ namespace RootMotion::FinalIK {
     bool CurveUsed(RootMotion::FinalIK::InteractionObject::WeightCurve::Type type);
     // public RootMotion.FinalIK.InteractionTarget[] GetTargets()
     // Offset: 0x1FF1B18
-    ::Array<RootMotion::FinalIK::InteractionTarget*>* GetTargets();
+    ::ArrayW<RootMotion::FinalIK::InteractionTarget*> GetTargets();
     // public UnityEngine.Transform GetTarget(RootMotion.FinalIK.FullBodyBipedEffector effectorType, System.String tag)
     // Offset: 0x1FEED2C
     UnityEngine::Transform* GetTarget(RootMotion::FinalIK::FullBodyBipedEffector effectorType, ::Il2CppString* tag);
@@ -375,12 +412,12 @@ namespace RootMotion::FinalIK {
     }
   }; // RootMotion.FinalIK.InteractionObject
   #pragma pack(pop)
-  static check_size<sizeof(InteractionObject), 88 + sizeof(::Array<RootMotion::FinalIK::InteractionTarget*>*)> __RootMotion_FinalIK_InteractionObjectSizeCheck;
+  static check_size<sizeof(InteractionObject), 88 + sizeof(::ArrayW<RootMotion::FinalIK::InteractionTarget*>)> __RootMotion_FinalIK_InteractionObjectSizeCheck;
   static_assert(sizeof(InteractionObject) == 0x60);
 }
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionObject*, "RootMotion.FinalIK", "InteractionObject");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(RootMotion::FinalIK::InteractionObject::WeightCurve);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionObject::WeightCurve*, "RootMotion.FinalIK", "InteractionObject/WeightCurve");
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionObject::WeightCurve::Type, "RootMotion.FinalIK", "InteractionObject/WeightCurve/Type");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionObject::get_length
 // Il2CppName: get_length
@@ -526,7 +563,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionObject::GetTargets
 // Il2CppName: GetTargets
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<RootMotion::FinalIK::InteractionTarget*>* (RootMotion::FinalIK::InteractionObject::*)()>(&RootMotion::FinalIK::InteractionObject::GetTargets)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<RootMotion::FinalIK::InteractionTarget*> (RootMotion::FinalIK::InteractionObject::*)()>(&RootMotion::FinalIK::InteractionObject::GetTargets)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionObject*), "GetTargets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

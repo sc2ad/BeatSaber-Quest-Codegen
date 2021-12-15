@@ -11,7 +11,16 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: System.Globalization
+namespace System::Globalization {
+  // Forward declaring type: CalendarData
+  class CalendarData;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Globalization::CalendarData);
+DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CalendarData*, "System.Globalization", "CalendarData");
 // Type namespace: System.Globalization
 namespace System::Globalization {
   // Size: 0x99
@@ -21,6 +30,15 @@ namespace System::Globalization {
   // [TokenAttribute] Offset: FFFFFFFF
   class CalendarData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // System.String sNativeName
     // Size: 0x8
     // Offset: 0x10
@@ -30,21 +48,21 @@ namespace System::Globalization {
     // System.String[] saShortDates
     // Size: 0x8
     // Offset: 0x18
-    ::Array<::Il2CppString*>* saShortDates;
+    ::ArrayW<::Il2CppString*> saShortDates;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // System.String[] saYearMonths
     // Size: 0x8
     // Offset: 0x20
-    ::Array<::Il2CppString*>* saYearMonths;
+    ::ArrayW<::Il2CppString*> saYearMonths;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // System.String[] saLongDates
     // Size: 0x8
     // Offset: 0x28
-    ::Array<::Il2CppString*>* saLongDates;
+    ::ArrayW<::Il2CppString*> saLongDates;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // System.String sMonthDay
     // Size: 0x8
     // Offset: 0x30
@@ -54,69 +72,69 @@ namespace System::Globalization {
     // System.String[] saEraNames
     // Size: 0x8
     // Offset: 0x38
-    ::Array<::Il2CppString*>* saEraNames;
+    ::ArrayW<::Il2CppString*> saEraNames;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // System.String[] saAbbrevEraNames
     // Size: 0x8
     // Offset: 0x40
-    ::Array<::Il2CppString*>* saAbbrevEraNames;
+    ::ArrayW<::Il2CppString*> saAbbrevEraNames;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // System.String[] saAbbrevEnglishEraNames
     // Size: 0x8
     // Offset: 0x48
-    ::Array<::Il2CppString*>* saAbbrevEnglishEraNames;
+    ::ArrayW<::Il2CppString*> saAbbrevEnglishEraNames;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // System.String[] saDayNames
     // Size: 0x8
     // Offset: 0x50
-    ::Array<::Il2CppString*>* saDayNames;
+    ::ArrayW<::Il2CppString*> saDayNames;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // System.String[] saAbbrevDayNames
     // Size: 0x8
     // Offset: 0x58
-    ::Array<::Il2CppString*>* saAbbrevDayNames;
+    ::ArrayW<::Il2CppString*> saAbbrevDayNames;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // System.String[] saSuperShortDayNames
     // Size: 0x8
     // Offset: 0x60
-    ::Array<::Il2CppString*>* saSuperShortDayNames;
+    ::ArrayW<::Il2CppString*> saSuperShortDayNames;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // System.String[] saMonthNames
     // Size: 0x8
     // Offset: 0x68
-    ::Array<::Il2CppString*>* saMonthNames;
+    ::ArrayW<::Il2CppString*> saMonthNames;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // System.String[] saAbbrevMonthNames
     // Size: 0x8
     // Offset: 0x70
-    ::Array<::Il2CppString*>* saAbbrevMonthNames;
+    ::ArrayW<::Il2CppString*> saAbbrevMonthNames;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // System.String[] saMonthGenitiveNames
     // Size: 0x8
     // Offset: 0x78
-    ::Array<::Il2CppString*>* saMonthGenitiveNames;
+    ::ArrayW<::Il2CppString*> saMonthGenitiveNames;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // System.String[] saAbbrevMonthGenitiveNames
     // Size: 0x8
     // Offset: 0x80
-    ::Array<::Il2CppString*>* saAbbrevMonthGenitiveNames;
+    ::ArrayW<::Il2CppString*> saAbbrevMonthGenitiveNames;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // System.String[] saLeapYearMonthNames
     // Size: 0x8
     // Offset: 0x88
-    ::Array<::Il2CppString*>* saLeapYearMonthNames;
+    ::ArrayW<::Il2CppString*> saLeapYearMonthNames;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // System.Int32 iTwoDigitYearMax
     // Size: 0x4
     // Offset: 0x90
@@ -135,8 +153,7 @@ namespace System::Globalization {
     bool bUseUserOverrides;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: CalendarData
-    CalendarData(::Il2CppString* sNativeName_ = {}, ::Array<::Il2CppString*>* saShortDates_ = {}, ::Array<::Il2CppString*>* saYearMonths_ = {}, ::Array<::Il2CppString*>* saLongDates_ = {}, ::Il2CppString* sMonthDay_ = {}, ::Array<::Il2CppString*>* saEraNames_ = {}, ::Array<::Il2CppString*>* saAbbrevEraNames_ = {}, ::Array<::Il2CppString*>* saAbbrevEnglishEraNames_ = {}, ::Array<::Il2CppString*>* saDayNames_ = {}, ::Array<::Il2CppString*>* saAbbrevDayNames_ = {}, ::Array<::Il2CppString*>* saSuperShortDayNames_ = {}, ::Array<::Il2CppString*>* saMonthNames_ = {}, ::Array<::Il2CppString*>* saAbbrevMonthNames_ = {}, ::Array<::Il2CppString*>* saMonthGenitiveNames_ = {}, ::Array<::Il2CppString*>* saAbbrevMonthGenitiveNames_ = {}, ::Array<::Il2CppString*>* saLeapYearMonthNames_ = {}, int iTwoDigitYearMax_ = {}, int iCurrentEra_ = {}, bool bUseUserOverrides_ = {}) noexcept : sNativeName{sNativeName_}, saShortDates{saShortDates_}, saYearMonths{saYearMonths_}, saLongDates{saLongDates_}, sMonthDay{sMonthDay_}, saEraNames{saEraNames_}, saAbbrevEraNames{saAbbrevEraNames_}, saAbbrevEnglishEraNames{saAbbrevEnglishEraNames_}, saDayNames{saDayNames_}, saAbbrevDayNames{saAbbrevDayNames_}, saSuperShortDayNames{saSuperShortDayNames_}, saMonthNames{saMonthNames_}, saAbbrevMonthNames{saAbbrevMonthNames_}, saMonthGenitiveNames{saMonthGenitiveNames_}, saAbbrevMonthGenitiveNames{saAbbrevMonthGenitiveNames_}, saLeapYearMonthNames{saLeapYearMonthNames_}, iTwoDigitYearMax{iTwoDigitYearMax_}, iCurrentEra{iCurrentEra_}, bUseUserOverrides{bUseUserOverrides_} {}
+    public:
     // static field const value: static System.Int32 MAX_CALENDARS
     static constexpr const int MAX_CALENDARS = 23;
     // Get static field: static System.Int32 MAX_CALENDARS
@@ -150,35 +167,35 @@ namespace System::Globalization {
     // Get instance field reference: System.String sNativeName
     ::Il2CppString*& dyn_sNativeName();
     // Get instance field reference: System.String[] saShortDates
-    ::Array<::Il2CppString*>*& dyn_saShortDates();
+    ::ArrayW<::Il2CppString*>& dyn_saShortDates();
     // Get instance field reference: System.String[] saYearMonths
-    ::Array<::Il2CppString*>*& dyn_saYearMonths();
+    ::ArrayW<::Il2CppString*>& dyn_saYearMonths();
     // Get instance field reference: System.String[] saLongDates
-    ::Array<::Il2CppString*>*& dyn_saLongDates();
+    ::ArrayW<::Il2CppString*>& dyn_saLongDates();
     // Get instance field reference: System.String sMonthDay
     ::Il2CppString*& dyn_sMonthDay();
     // Get instance field reference: System.String[] saEraNames
-    ::Array<::Il2CppString*>*& dyn_saEraNames();
+    ::ArrayW<::Il2CppString*>& dyn_saEraNames();
     // Get instance field reference: System.String[] saAbbrevEraNames
-    ::Array<::Il2CppString*>*& dyn_saAbbrevEraNames();
+    ::ArrayW<::Il2CppString*>& dyn_saAbbrevEraNames();
     // Get instance field reference: System.String[] saAbbrevEnglishEraNames
-    ::Array<::Il2CppString*>*& dyn_saAbbrevEnglishEraNames();
+    ::ArrayW<::Il2CppString*>& dyn_saAbbrevEnglishEraNames();
     // Get instance field reference: System.String[] saDayNames
-    ::Array<::Il2CppString*>*& dyn_saDayNames();
+    ::ArrayW<::Il2CppString*>& dyn_saDayNames();
     // Get instance field reference: System.String[] saAbbrevDayNames
-    ::Array<::Il2CppString*>*& dyn_saAbbrevDayNames();
+    ::ArrayW<::Il2CppString*>& dyn_saAbbrevDayNames();
     // Get instance field reference: System.String[] saSuperShortDayNames
-    ::Array<::Il2CppString*>*& dyn_saSuperShortDayNames();
+    ::ArrayW<::Il2CppString*>& dyn_saSuperShortDayNames();
     // Get instance field reference: System.String[] saMonthNames
-    ::Array<::Il2CppString*>*& dyn_saMonthNames();
+    ::ArrayW<::Il2CppString*>& dyn_saMonthNames();
     // Get instance field reference: System.String[] saAbbrevMonthNames
-    ::Array<::Il2CppString*>*& dyn_saAbbrevMonthNames();
+    ::ArrayW<::Il2CppString*>& dyn_saAbbrevMonthNames();
     // Get instance field reference: System.String[] saMonthGenitiveNames
-    ::Array<::Il2CppString*>*& dyn_saMonthGenitiveNames();
+    ::ArrayW<::Il2CppString*>& dyn_saMonthGenitiveNames();
     // Get instance field reference: System.String[] saAbbrevMonthGenitiveNames
-    ::Array<::Il2CppString*>*& dyn_saAbbrevMonthGenitiveNames();
+    ::ArrayW<::Il2CppString*>& dyn_saAbbrevMonthGenitiveNames();
     // Get instance field reference: System.String[] saLeapYearMonthNames
-    ::Array<::Il2CppString*>*& dyn_saLeapYearMonthNames();
+    ::ArrayW<::Il2CppString*>& dyn_saLeapYearMonthNames();
     // Get instance field reference: System.Int32 iTwoDigitYearMax
     int& dyn_iTwoDigitYearMax();
     // Get instance field reference: System.Int32 iCurrentEra
@@ -230,7 +247,6 @@ namespace System::Globalization {
   static check_size<sizeof(CalendarData), 152 + sizeof(bool)> __System_Globalization_CalendarDataSizeCheck;
   static_assert(sizeof(CalendarData) == 0x99);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CalendarData*, "System.Globalization", "CalendarData");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Globalization::CalendarData::_cctor
 // Il2CppName: .cctor

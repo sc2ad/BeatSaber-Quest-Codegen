@@ -13,11 +13,14 @@
 #include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.Quaternion
 #include "UnityEngine/Quaternion.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
+// Type namespace: 
+namespace GlobalNamespace {
+  // Forward declaring type: Pose
+  struct Pose;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PosesRecordingData::Pose, "", "PosesRecordingData/Pose");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x1C
@@ -28,6 +31,15 @@ namespace GlobalNamespace {
   // [IsReadOnlyAttribute] Offset: FFFFFFFF
   struct PosesRecordingData::Pose/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public readonly UnityEngine.Vector3 pos
     // Size: 0xC
     // Offset: 0x0
@@ -40,6 +52,7 @@ namespace GlobalNamespace {
     UnityEngine::Quaternion rot;
     // Field size check
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
+    public:
     // Creating value type constructor for type: Pose
     constexpr Pose(UnityEngine::Vector3 pos_ = {}, UnityEngine::Quaternion rot_ = {}) noexcept : pos{pos_}, rot{rot_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -52,8 +65,7 @@ namespace GlobalNamespace {
     UnityEngine::Quaternion& dyn_rot();
     // public System.Void .ctor(UnityEngine.Vector3 pos, UnityEngine.Quaternion rot)
     // Offset: 0x11AE300
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    // ABORTED: conflicts with another method.  Pose(UnityEngine::Vector3 pos, UnityEngine::Quaternion rot)
+    // ABORTED: conflicts with another method.  Pose(UnityEngine::Vector3 pos, UnityEngine::Quaternion rot);
     // static public PosesRecordingData/Pose Lerp(PosesRecordingData/Pose a, PosesRecordingData/Pose b, System.Single t)
     // Offset: 0x11ADDC8
     static GlobalNamespace::PosesRecordingData::Pose Lerp(GlobalNamespace::PosesRecordingData::Pose a, GlobalNamespace::PosesRecordingData::Pose b, float t);
@@ -62,7 +74,6 @@ namespace GlobalNamespace {
   static check_size<sizeof(PosesRecordingData::Pose), 12 + sizeof(UnityEngine::Quaternion)> __GlobalNamespace_PosesRecordingData_PoseSizeCheck;
   static_assert(sizeof(PosesRecordingData::Pose) == 0x1C);
 }
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PosesRecordingData::Pose, "", "PosesRecordingData/Pose");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PosesRecordingData::Pose::Pose
 // Il2CppName: .ctor

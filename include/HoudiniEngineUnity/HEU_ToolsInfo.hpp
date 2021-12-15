@@ -11,11 +11,22 @@
 #include "HoudiniEngineUnity/IEquivable_1.hpp"
 // Including type: UnityEngine.Color
 #include "UnityEngine/Color.hpp"
+// Including type: System.Enum
+#include "System/Enum.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: HoudiniEngineUnity
+namespace HoudiniEngineUnity {
+  // Forward declaring type: HEU_ToolsInfo
+  class HEU_ToolsInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(HoudiniEngineUnity::HEU_ToolsInfo);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_ToolsInfo*, "HoudiniEngineUnity", "HEU_ToolsInfo");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0xA8
@@ -34,12 +45,22 @@ namespace HoudiniEngineUnity {
     // [TokenAttribute] Offset: FFFFFFFF
     struct PaintMergeMode/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      #ifdef CODEGEN_FIELD_ACCESSIBILITY
+      CODEGEN_FIELD_ACCESSIBILITY:
+      #else
+      protected:
+      #endif
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: PaintMergeMode
       constexpr PaintMergeMode(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -86,12 +107,22 @@ namespace HoudiniEngineUnity {
     // [TokenAttribute] Offset: FFFFFFFF
     struct PaintMeshVisibility/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      #ifdef CODEGEN_FIELD_ACCESSIBILITY
+      CODEGEN_FIELD_ACCESSIBILITY:
+      #else
+      protected:
+      #endif
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: PaintMeshVisibility
       constexpr PaintMeshVisibility(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -126,6 +157,15 @@ namespace HoudiniEngineUnity {
     #pragma pack(pop)
     static check_size<sizeof(HEU_ToolsInfo::PaintMeshVisibility), 0 + sizeof(int)> __HoudiniEngineUnity_HEU_ToolsInfo_PaintMeshVisibilitySizeCheck;
     static_assert(sizeof(HEU_ToolsInfo::PaintMeshVisibility) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.Single _paintBrushSize
     // Size: 0x4
     // Offset: 0x18
@@ -141,21 +181,21 @@ namespace HoudiniEngineUnity {
     // public System.Int32[] _paintIntValue
     // Size: 0x8
     // Offset: 0x20
-    ::Array<int>* paintIntValue;
+    ::ArrayW<int> paintIntValue;
     // Field size check
-    static_assert(sizeof(::Array<int>*) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // public System.Single[] _paintFloatValue
     // Size: 0x8
     // Offset: 0x28
-    ::Array<float>* paintFloatValue;
+    ::ArrayW<float> paintFloatValue;
     // Field size check
-    static_assert(sizeof(::Array<float>*) == 0x8);
+    static_assert(sizeof(::ArrayW<float>) == 0x8);
     // public System.String[] _paintStringValue
     // Size: 0x8
     // Offset: 0x30
-    ::Array<::Il2CppString*>* paintStringValue;
+    ::ArrayW<::Il2CppString*> paintStringValue;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // public System.Int32 _lastAttributesGeoID
     // Size: 0x4
     // Offset: 0x38
@@ -258,8 +298,7 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HEU_ToolsInfo::PaintMeshVisibility paintMeshVisiblity;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::HEU_ToolsInfo::PaintMeshVisibility) == 0x4);
-    // Creating value type constructor for type: HEU_ToolsInfo
-    HEU_ToolsInfo(float paintBrushSize_ = {}, float paintBrushOpacity_ = {}, ::Array<int>* paintIntValue_ = {}, ::Array<float>* paintFloatValue_ = {}, ::Array<::Il2CppString*>* paintStringValue_ = {}, int lastAttributesGeoID_ = {}, int lastAttributesPartID_ = {}, ::Il2CppString* lastAttributeNodeName_ = {}, ::Il2CppString* lastAttributeName_ = {}, UnityEngine::Color brushHandleColor_ = {}, UnityEngine::Color affectedAreaPaintColor_ = {}, bool liveUpdate_ = {}, bool isPainting_ = {}, float editPointBoxSize_ = {}, UnityEngine::Color editPointBoxUnselectedColor_ = {}, UnityEngine::Color editPointBoxSelectedColor_ = {}, bool recacheRequired_ = {}, HoudiniEngineUnity::HEU_ToolsInfo::PaintMergeMode paintMergeMode_ = {}, bool showOnlyEditGeometry_ = {}, bool alwaysCookUpstream_ = {}, HoudiniEngineUnity::HEU_ToolsInfo::PaintMeshVisibility paintMeshVisiblity_ = {}) noexcept : paintBrushSize{paintBrushSize_}, paintBrushOpacity{paintBrushOpacity_}, paintIntValue{paintIntValue_}, paintFloatValue{paintFloatValue_}, paintStringValue{paintStringValue_}, lastAttributesGeoID{lastAttributesGeoID_}, lastAttributesPartID{lastAttributesPartID_}, lastAttributeNodeName{lastAttributeNodeName_}, lastAttributeName{lastAttributeName_}, brushHandleColor{brushHandleColor_}, affectedAreaPaintColor{affectedAreaPaintColor_}, liveUpdate{liveUpdate_}, isPainting{isPainting_}, editPointBoxSize{editPointBoxSize_}, editPointBoxUnselectedColor{editPointBoxUnselectedColor_}, editPointBoxSelectedColor{editPointBoxSelectedColor_}, recacheRequired{recacheRequired_}, paintMergeMode{paintMergeMode_}, showOnlyEditGeometry{showOnlyEditGeometry_}, alwaysCookUpstream{alwaysCookUpstream_}, paintMeshVisiblity{paintMeshVisiblity_} {}
+    public:
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_ToolsInfo*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_ToolsInfo*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_ToolsInfo*>*>(this);
@@ -271,11 +310,11 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Single _paintBrushOpacity
     float& dyn__paintBrushOpacity();
     // Get instance field reference: public System.Int32[] _paintIntValue
-    ::Array<int>*& dyn__paintIntValue();
+    ::ArrayW<int>& dyn__paintIntValue();
     // Get instance field reference: public System.Single[] _paintFloatValue
-    ::Array<float>*& dyn__paintFloatValue();
+    ::ArrayW<float>& dyn__paintFloatValue();
     // Get instance field reference: public System.String[] _paintStringValue
-    ::Array<::Il2CppString*>*& dyn__paintStringValue();
+    ::ArrayW<::Il2CppString*>& dyn__paintStringValue();
     // Get instance field reference: public System.Int32 _lastAttributesGeoID
     int& dyn__lastAttributesGeoID();
     // Get instance field reference: public System.Int32 _lastAttributesPartID
@@ -327,8 +366,9 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_ToolsInfo), 164 + sizeof(HoudiniEngineUnity::HEU_ToolsInfo::PaintMeshVisibility)> __HoudiniEngineUnity_HEU_ToolsInfoSizeCheck;
   static_assert(sizeof(HEU_ToolsInfo) == 0xA8);
 }
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_ToolsInfo*, "HoudiniEngineUnity", "HEU_ToolsInfo");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_ToolsInfo::PaintMergeMode, "HoudiniEngineUnity", "HEU_ToolsInfo/PaintMergeMode");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_ToolsInfo::PaintMeshVisibility, "HoudiniEngineUnity", "HEU_ToolsInfo/PaintMeshVisibility");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ToolsInfo::IsEquivalentTo

@@ -11,7 +11,16 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: 
+namespace GlobalNamespace {
+  // Forward declaring type: StringListSO
+  class StringListSO;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(GlobalNamespace::StringListSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StringListSO*, "", "StringListSO");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -20,22 +29,30 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class StringListSO : public GlobalNamespace::PersistentScriptableObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // [ReorderableAttribute] Offset: 0xF098A8
     // private System.String[] _strings
     // Size: 0x8
     // Offset: 0x18
-    ::Array<::Il2CppString*>* strings;
+    ::ArrayW<::Il2CppString*> strings;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
-    // Creating value type constructor for type: StringListSO
-    StringListSO(::Array<::Il2CppString*>* strings_ = {}) noexcept : strings{strings_} {}
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String[] _strings
-    ::Array<::Il2CppString*>*& dyn__strings();
+    ::ArrayW<::Il2CppString*>& dyn__strings();
     // public System.String[] get_strings()
     // Offset: 0x2641304
-    ::Array<::Il2CppString*>* get_strings();
+    ::ArrayW<::Il2CppString*> get_strings();
     // public System.Void .ctor()
     // Offset: 0x264130C
     // Implemented from: PersistentScriptableObject
@@ -50,15 +67,14 @@ namespace GlobalNamespace {
     }
   }; // StringListSO
   #pragma pack(pop)
-  static check_size<sizeof(StringListSO), 24 + sizeof(::Array<::Il2CppString*>*)> __GlobalNamespace_StringListSOSizeCheck;
+  static check_size<sizeof(StringListSO), 24 + sizeof(::ArrayW<::Il2CppString*>)> __GlobalNamespace_StringListSOSizeCheck;
   static_assert(sizeof(StringListSO) == 0x20);
 }
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StringListSO*, "", "StringListSO");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::StringListSO::get_strings
 // Il2CppName: get_strings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (GlobalNamespace::StringListSO::*)()>(&GlobalNamespace::StringListSO::get_strings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (GlobalNamespace::StringListSO::*)()>(&GlobalNamespace::StringListSO::get_strings)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StringListSO*), "get_strings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

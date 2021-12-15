@@ -13,10 +13,6 @@
 #include "UnityEngine/ParticleSystemGradientMode.hpp"
 // Including type: UnityEngine.Color
 #include "UnityEngine/Color.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -27,6 +23,13 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: MinMaxGradient
+  struct MinMaxGradient;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::MinMaxGradient, "UnityEngine", "ParticleSystem/MinMaxGradient");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x38
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -35,6 +38,15 @@ namespace UnityEngine {
   // [NativeTypeAttribute] Offset: EE5E88
   struct ParticleSystem::MinMaxGradient/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private UnityEngine.ParticleSystemGradientMode m_Mode
     // Size: 0x4
     // Offset: 0x0
@@ -67,6 +79,7 @@ namespace UnityEngine {
     UnityEngine::Color m_ColorMax;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
+    public:
     // Creating value type constructor for type: MinMaxGradient
     constexpr MinMaxGradient(UnityEngine::ParticleSystemGradientMode m_Mode_ = {}, UnityEngine::Gradient* m_GradientMin_ = {}, UnityEngine::Gradient* m_GradientMax_ = {}, UnityEngine::Color m_ColorMin_ = {}, UnityEngine::Color m_ColorMax_ = {}) noexcept : m_Mode{m_Mode_}, m_GradientMin{m_GradientMin_}, m_GradientMax{m_GradientMax_}, m_ColorMin{m_ColorMin_}, m_ColorMax{m_ColorMax_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -88,18 +101,12 @@ namespace UnityEngine {
     UnityEngine::Color get_color();
     // public System.Void .ctor(UnityEngine.Color color)
     // Offset: 0x26C7ED8
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    MinMaxGradient(UnityEngine::Color color) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ParticleSystem::MinMaxGradient::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(color)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, color);
-    }
+    MinMaxGradient(UnityEngine::Color color);
   }; // UnityEngine.ParticleSystem/UnityEngine.MinMaxGradient
   #pragma pack(pop)
   static check_size<sizeof(ParticleSystem::MinMaxGradient), 40 + sizeof(UnityEngine::Color)> __UnityEngine_ParticleSystem_MinMaxGradientSizeCheck;
   static_assert(sizeof(ParticleSystem::MinMaxGradient) == 0x38);
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::MinMaxGradient, "UnityEngine", "ParticleSystem/MinMaxGradient");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::MinMaxGradient::get_color
 // Il2CppName: get_color

@@ -14,6 +14,13 @@
 // Completed includes
 // Type namespace: Valve.VR
 namespace Valve::VR {
+  // Forward declaring type: CameraVideoStreamFrameHeader_t
+  struct CameraVideoStreamFrameHeader_t;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CameraVideoStreamFrameHeader_t, "Valve.VR", "CameraVideoStreamFrameHeader_t");
+// Type namespace: Valve.VR
+namespace Valve::VR {
   // Size: 0x62
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -21,6 +28,15 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct CameraVideoStreamFrameHeader_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public Valve.VR.EVRTrackedCameraFrameType eFrameType
     // Size: 0x4
     // Offset: 0x0
@@ -57,6 +73,7 @@ namespace Valve::VR {
     Valve::VR::TrackedDevicePose_t standingTrackedDevicePose;
     // Field size check
     static_assert(sizeof(Valve::VR::TrackedDevicePose_t) == 0x4E);
+    public:
     // Creating value type constructor for type: CameraVideoStreamFrameHeader_t
     constexpr CameraVideoStreamFrameHeader_t(Valve::VR::EVRTrackedCameraFrameType eFrameType_ = {}, uint nWidth_ = {}, uint nHeight_ = {}, uint nBytesPerPixel_ = {}, uint nFrameSequence_ = {}, Valve::VR::TrackedDevicePose_t standingTrackedDevicePose_ = {}) noexcept : eFrameType{eFrameType_}, nWidth{nWidth_}, nHeight{nHeight_}, nBytesPerPixel{nBytesPerPixel_}, nFrameSequence{nFrameSequence_}, standingTrackedDevicePose{standingTrackedDevicePose_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -80,6 +97,4 @@ namespace Valve::VR {
   static check_size<sizeof(CameraVideoStreamFrameHeader_t), 20 + sizeof(Valve::VR::TrackedDevicePose_t)> __Valve_VR_CameraVideoStreamFrameHeader_tSizeCheck;
   static_assert(sizeof(CameraVideoStreamFrameHeader_t) == 0x62);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CameraVideoStreamFrameHeader_t, "Valve.VR", "CameraVideoStreamFrameHeader_t");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

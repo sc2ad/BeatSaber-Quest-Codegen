@@ -14,6 +14,13 @@ namespace OVR::OpenVR {
 // Completed forward declares
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
+  // Forward declaring type: IVRIOBuffer
+  struct IVRIOBuffer;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRIOBuffer, "OVR.OpenVR", "IVRIOBuffer");
+// Type namespace: OVR.OpenVR
+namespace OVR::OpenVR {
   // Size: 0x28
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -31,6 +38,15 @@ namespace OVR::OpenVR {
     class _Write;
     // Nested type: OVR::OpenVR::IVRIOBuffer::_PropertyContainer
     class _PropertyContainer;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // OVR.OpenVR.IVRIOBuffer/OVR.OpenVR._Open Open
     // Size: 0x8
     // Offset: 0x0
@@ -61,6 +77,7 @@ namespace OVR::OpenVR {
     OVR::OpenVR::IVRIOBuffer::_PropertyContainer* PropertyContainer;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::IVRIOBuffer::_PropertyContainer*) == 0x8);
+    public:
     // Creating value type constructor for type: IVRIOBuffer
     constexpr IVRIOBuffer(OVR::OpenVR::IVRIOBuffer::_Open* Open_ = {}, OVR::OpenVR::IVRIOBuffer::_Close* Close_ = {}, OVR::OpenVR::IVRIOBuffer::_Read* Read_ = {}, OVR::OpenVR::IVRIOBuffer::_Write* Write_ = {}, OVR::OpenVR::IVRIOBuffer::_PropertyContainer* PropertyContainer_ = {}) noexcept : Open{Open_}, Close{Close_}, Read{Read_}, Write{Write_}, PropertyContainer{PropertyContainer_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -82,6 +99,4 @@ namespace OVR::OpenVR {
   static check_size<sizeof(IVRIOBuffer), 32 + sizeof(OVR::OpenVR::IVRIOBuffer::_PropertyContainer*)> __OVR_OpenVR_IVRIOBufferSizeCheck;
   static_assert(sizeof(IVRIOBuffer) == 0x28);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRIOBuffer, "OVR.OpenVR", "IVRIOBuffer");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

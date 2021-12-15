@@ -11,7 +11,16 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: Org.BouncyCastle.Crypto.Parameters
+namespace Org::BouncyCastle::Crypto::Parameters {
+  // Forward declaring type: RC2Parameters
+  class RC2Parameters;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Parameters::RC2Parameters);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::RC2Parameters*, "Org.BouncyCastle.Crypto.Parameters", "RC2Parameters");
 // Type namespace: Org.BouncyCastle.Crypto.Parameters
 namespace Org::BouncyCastle::Crypto::Parameters {
   // Size: 0x1C
@@ -20,16 +29,24 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   // [TokenAttribute] Offset: FFFFFFFF
   class RC2Parameters : public Org::BouncyCastle::Crypto::Parameters::KeyParameter {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private readonly System.Int32 bits
     // Size: 0x4
     // Offset: 0x18
     int bits;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: RC2Parameters
-    RC2Parameters(int bits_ = {}) noexcept : bits{bits_} {}
-    // Deleting conversion operator: operator ::Array<uint8_t>*
-    constexpr operator ::Array<uint8_t>*() const noexcept = delete;
+    public:
+    // Deleting conversion operator: operator ::ArrayW<uint8_t>
+    constexpr operator ::ArrayW<uint8_t>() const noexcept = delete;
     // Get instance field reference: private readonly System.Int32 bits
     int& dyn_bits();
     // public System.Int32 get_EffectiveKeyBits()
@@ -38,7 +55,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // public System.Void .ctor(System.Byte[] key, System.Int32 keyOff, System.Int32 keyLen, System.Int32 bits)
     // Offset: 0x13BBCB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static RC2Parameters* New_ctor(::Array<uint8_t>* key, int keyOff, int keyLen, int bits) {
+    static RC2Parameters* New_ctor(::ArrayW<uint8_t> key, int keyOff, int keyLen, int bits) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::RC2Parameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RC2Parameters*, creationType>(key, keyOff, keyLen, bits)));
     }
@@ -47,7 +64,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Implemented from: Org.BouncyCastle.Crypto.Parameters.KeyParameter
     // Base method: System.Void KeyParameter::.ctor(System.Byte[] key, System.Int32 keyOff, System.Int32 keyLen)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static RC2Parameters* New_ctor(::Array<uint8_t>* key, int keyOff, int keyLen) {
+    static RC2Parameters* New_ctor(::ArrayW<uint8_t> key, int keyOff, int keyLen) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::RC2Parameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RC2Parameters*, creationType>(key, keyOff, keyLen)));
     }
@@ -56,7 +73,6 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   static check_size<sizeof(RC2Parameters), 24 + sizeof(int)> __Org_BouncyCastle_Crypto_Parameters_RC2ParametersSizeCheck;
   static_assert(sizeof(RC2Parameters) == 0x1C);
 }
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::RC2Parameters*, "Org.BouncyCastle.Crypto.Parameters", "RC2Parameters");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::RC2Parameters::get_EffectiveKeyBits
 // Il2CppName: get_EffectiveKeyBits

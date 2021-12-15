@@ -6,10 +6,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: LiteNetLib::Utils
@@ -25,6 +21,13 @@ struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: 
 namespace GlobalNamespace {
+  // Forward declaring type: PublicServerInfo
+  struct PublicServerInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PublicServerInfo, "", "PublicServerInfo");
+// Type namespace: 
+namespace GlobalNamespace {
   // Size: 0xC
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -33,6 +36,15 @@ namespace GlobalNamespace {
   // [IsReadOnlyAttribute] Offset: FFFFFFFF
   struct PublicServerInfo/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public readonly System.String code
     // Size: 0x8
     // Offset: 0x0
@@ -45,6 +57,7 @@ namespace GlobalNamespace {
     int currentPlayerCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: PublicServerInfo
     constexpr PublicServerInfo(::Il2CppString* code_ = {}, int currentPlayerCount_ = {}) noexcept : code{code_}, currentPlayerCount{currentPlayerCount_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -57,8 +70,7 @@ namespace GlobalNamespace {
     int& dyn_currentPlayerCount();
     // public System.Void .ctor(System.String code, System.Int32 currentPlayerCount)
     // Offset: 0x1810744
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    // ABORTED: conflicts with another method.  PublicServerInfo(::Il2CppString* code, int currentPlayerCount)
+    // ABORTED: conflicts with another method.  PublicServerInfo(::Il2CppString* code, int currentPlayerCount);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
     // Offset: 0x1810750
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -70,7 +82,6 @@ namespace GlobalNamespace {
   static check_size<sizeof(PublicServerInfo), 8 + sizeof(int)> __GlobalNamespace_PublicServerInfoSizeCheck;
   static_assert(sizeof(PublicServerInfo) == 0xC);
 }
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PublicServerInfo, "", "PublicServerInfo");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PublicServerInfo::PublicServerInfo
 // Il2CppName: .ctor

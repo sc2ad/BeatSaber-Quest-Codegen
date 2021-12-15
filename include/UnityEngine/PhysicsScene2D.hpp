@@ -11,6 +11,7 @@
 #include "System/IEquatable_1.hpp"
 // Including type: UnityEngine.RaycastHit2D
 #include "UnityEngine/RaycastHit2D.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -32,6 +33,13 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: PhysicsScene2D
+  struct PhysicsScene2D;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PhysicsScene2D, "UnityEngine", "PhysicsScene2D");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x4
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -40,12 +48,22 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: ED78DC
   struct PhysicsScene2D/*, public System::ValueType, public System::IEquatable_1<UnityEngine::PhysicsScene2D>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.Int32 m_Handle
     // Size: 0x4
     // Offset: 0x0
     int m_Handle;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: PhysicsScene2D
     constexpr PhysicsScene2D(int m_Handle_ = {}) noexcept : m_Handle{m_Handle_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -76,10 +94,10 @@ namespace UnityEngine {
     static UnityEngine::RaycastHit2D Raycast_Internal(UnityEngine::PhysicsScene2D physicsScene, UnityEngine::Vector2 origin, UnityEngine::Vector2 direction, float distance, UnityEngine::ContactFilter2D contactFilter);
     // public System.Int32 Raycast(UnityEngine.Vector2 origin, UnityEngine.Vector2 direction, System.Single distance, UnityEngine.ContactFilter2D contactFilter, UnityEngine.RaycastHit2D[] results)
     // Offset: 0x26C8C14
-    int Raycast(UnityEngine::Vector2 origin, UnityEngine::Vector2 direction, float distance, UnityEngine::ContactFilter2D contactFilter, ::Array<UnityEngine::RaycastHit2D>* results);
+    int Raycast(UnityEngine::Vector2 origin, UnityEngine::Vector2 direction, float distance, UnityEngine::ContactFilter2D contactFilter, ::ArrayW<UnityEngine::RaycastHit2D> results);
     // static private System.Int32 RaycastArray_Internal(UnityEngine.PhysicsScene2D physicsScene, UnityEngine.Vector2 origin, UnityEngine.Vector2 direction, System.Single distance, UnityEngine.ContactFilter2D contactFilter, UnityEngine.RaycastHit2D[] results)
     // Offset: 0x26C9748
-    static int RaycastArray_Internal(UnityEngine::PhysicsScene2D physicsScene, UnityEngine::Vector2 origin, UnityEngine::Vector2 direction, float distance, UnityEngine::ContactFilter2D contactFilter, ::Array<UnityEngine::RaycastHit2D>* results);
+    static int RaycastArray_Internal(UnityEngine::PhysicsScene2D physicsScene, UnityEngine::Vector2 origin, UnityEngine::Vector2 direction, float distance, UnityEngine::ContactFilter2D contactFilter, ::ArrayW<UnityEngine::RaycastHit2D> results);
     // public System.Int32 Raycast(UnityEngine.Vector2 origin, UnityEngine.Vector2 direction, System.Single distance, UnityEngine.ContactFilter2D contactFilter, System.Collections.Generic.List`1<UnityEngine.RaycastHit2D> results)
     // Offset: 0x26C8DF0
     int Raycast(UnityEngine::Vector2 origin, UnityEngine::Vector2 direction, float distance, UnityEngine::ContactFilter2D contactFilter, System::Collections::Generic::List_1<UnityEngine::RaycastHit2D>* results);
@@ -88,22 +106,22 @@ namespace UnityEngine {
     static int RaycastList_Internal(UnityEngine::PhysicsScene2D physicsScene, UnityEngine::Vector2 origin, UnityEngine::Vector2 direction, float distance, UnityEngine::ContactFilter2D contactFilter, System::Collections::Generic::List_1<UnityEngine::RaycastHit2D>* results);
     // public System.Int32 GetRayIntersection(UnityEngine.Ray ray, System.Single distance, UnityEngine.RaycastHit2D[] results, System.Int32 layerMask)
     // Offset: 0x26C9244
-    int GetRayIntersection(UnityEngine::Ray ray, float distance, ::Array<UnityEngine::RaycastHit2D>* results, int layerMask);
+    int GetRayIntersection(UnityEngine::Ray ray, float distance, ::ArrayW<UnityEngine::RaycastHit2D> results, int layerMask);
     // static private System.Int32 GetRayIntersectionArray_Internal(UnityEngine.PhysicsScene2D physicsScene, UnityEngine.Vector3 origin, UnityEngine.Vector3 direction, System.Single distance, System.Int32 layerMask, UnityEngine.RaycastHit2D[] results)
     // Offset: 0x26C9950
-    static int GetRayIntersectionArray_Internal(UnityEngine::PhysicsScene2D physicsScene, UnityEngine::Vector3 origin, UnityEngine::Vector3 direction, float distance, int layerMask, ::Array<UnityEngine::RaycastHit2D>* results);
+    static int GetRayIntersectionArray_Internal(UnityEngine::PhysicsScene2D physicsScene, UnityEngine::Vector3 origin, UnityEngine::Vector3 direction, float distance, int layerMask, ::ArrayW<UnityEngine::RaycastHit2D> results);
     // static private System.Void Raycast_Internal_Injected(ref UnityEngine.PhysicsScene2D physicsScene, ref UnityEngine.Vector2 origin, ref UnityEngine.Vector2 direction, System.Single distance, ref UnityEngine.ContactFilter2D contactFilter, out UnityEngine.RaycastHit2D ret)
     // Offset: 0x26C96C8
     static void Raycast_Internal_Injected(ByRef<UnityEngine::PhysicsScene2D> physicsScene, ByRef<UnityEngine::Vector2> origin, ByRef<UnityEngine::Vector2> direction, float distance, ByRef<UnityEngine::ContactFilter2D> contactFilter, ByRef<UnityEngine::RaycastHit2D> ret);
     // static private System.Int32 RaycastArray_Internal_Injected(ref UnityEngine.PhysicsScene2D physicsScene, ref UnityEngine.Vector2 origin, ref UnityEngine.Vector2 direction, System.Single distance, ref UnityEngine.ContactFilter2D contactFilter, UnityEngine.RaycastHit2D[] results)
     // Offset: 0x26C97CC
-    static int RaycastArray_Internal_Injected(ByRef<UnityEngine::PhysicsScene2D> physicsScene, ByRef<UnityEngine::Vector2> origin, ByRef<UnityEngine::Vector2> direction, float distance, ByRef<UnityEngine::ContactFilter2D> contactFilter, ::Array<UnityEngine::RaycastHit2D>* results);
+    static int RaycastArray_Internal_Injected(ByRef<UnityEngine::PhysicsScene2D> physicsScene, ByRef<UnityEngine::Vector2> origin, ByRef<UnityEngine::Vector2> direction, float distance, ByRef<UnityEngine::ContactFilter2D> contactFilter, ::ArrayW<UnityEngine::RaycastHit2D> results);
     // static private System.Int32 RaycastList_Internal_Injected(ref UnityEngine.PhysicsScene2D physicsScene, ref UnityEngine.Vector2 origin, ref UnityEngine.Vector2 direction, System.Single distance, ref UnityEngine.ContactFilter2D contactFilter, System.Collections.Generic.List`1<UnityEngine.RaycastHit2D> results)
     // Offset: 0x26C98D0
     static int RaycastList_Internal_Injected(ByRef<UnityEngine::PhysicsScene2D> physicsScene, ByRef<UnityEngine::Vector2> origin, ByRef<UnityEngine::Vector2> direction, float distance, ByRef<UnityEngine::ContactFilter2D> contactFilter, System::Collections::Generic::List_1<UnityEngine::RaycastHit2D>* results);
     // static private System.Int32 GetRayIntersectionArray_Internal_Injected(ref UnityEngine.PhysicsScene2D physicsScene, ref UnityEngine.Vector3 origin, ref UnityEngine.Vector3 direction, System.Single distance, System.Int32 layerMask, UnityEngine.RaycastHit2D[] results)
     // Offset: 0x26C99DC
-    static int GetRayIntersectionArray_Internal_Injected(ByRef<UnityEngine::PhysicsScene2D> physicsScene, ByRef<UnityEngine::Vector3> origin, ByRef<UnityEngine::Vector3> direction, float distance, int layerMask, ::Array<UnityEngine::RaycastHit2D>* results);
+    static int GetRayIntersectionArray_Internal_Injected(ByRef<UnityEngine::PhysicsScene2D> physicsScene, ByRef<UnityEngine::Vector3> origin, ByRef<UnityEngine::Vector3> direction, float distance, int layerMask, ::ArrayW<UnityEngine::RaycastHit2D> results);
     // public override System.String ToString()
     // Offset: 0x26C94AC
     // Implemented from: System.ValueType
@@ -124,8 +142,6 @@ namespace UnityEngine {
   static check_size<sizeof(PhysicsScene2D), 0 + sizeof(int)> __UnityEngine_PhysicsScene2DSizeCheck;
   static_assert(sizeof(PhysicsScene2D) == 0x4);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PhysicsScene2D, "UnityEngine", "PhysicsScene2D");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene2D::Equals
 // Il2CppName: Equals
@@ -176,7 +192,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene2D::Raycast
 // Il2CppName: Raycast
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::PhysicsScene2D::*)(UnityEngine::Vector2, UnityEngine::Vector2, float, UnityEngine::ContactFilter2D, ::Array<UnityEngine::RaycastHit2D>*)>(&UnityEngine::PhysicsScene2D::Raycast)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::PhysicsScene2D::*)(UnityEngine::Vector2, UnityEngine::Vector2, float, UnityEngine::ContactFilter2D, ::ArrayW<UnityEngine::RaycastHit2D>)>(&UnityEngine::PhysicsScene2D::Raycast)> {
   static const MethodInfo* get() {
     static auto* origin = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     static auto* direction = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
@@ -189,7 +205,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene2D::RaycastArray_Internal
 // Il2CppName: RaycastArray_Internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::PhysicsScene2D, UnityEngine::Vector2, UnityEngine::Vector2, float, UnityEngine::ContactFilter2D, ::Array<UnityEngine::RaycastHit2D>*)>(&UnityEngine::PhysicsScene2D::RaycastArray_Internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::PhysicsScene2D, UnityEngine::Vector2, UnityEngine::Vector2, float, UnityEngine::ContactFilter2D, ::ArrayW<UnityEngine::RaycastHit2D>)>(&UnityEngine::PhysicsScene2D::RaycastArray_Internal)> {
   static const MethodInfo* get() {
     static auto* physicsScene = &::il2cpp_utils::GetClassFromName("UnityEngine", "PhysicsScene2D")->byval_arg;
     static auto* origin = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
@@ -230,7 +246,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Uni
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene2D::GetRayIntersection
 // Il2CppName: GetRayIntersection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::PhysicsScene2D::*)(UnityEngine::Ray, float, ::Array<UnityEngine::RaycastHit2D>*, int)>(&UnityEngine::PhysicsScene2D::GetRayIntersection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::PhysicsScene2D::*)(UnityEngine::Ray, float, ::ArrayW<UnityEngine::RaycastHit2D>, int)>(&UnityEngine::PhysicsScene2D::GetRayIntersection)> {
   static const MethodInfo* get() {
     static auto* ray = &::il2cpp_utils::GetClassFromName("UnityEngine", "Ray")->byval_arg;
     static auto* distance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -242,7 +258,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene2D::GetRayIntersectionArray_Internal
 // Il2CppName: GetRayIntersectionArray_Internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::PhysicsScene2D, UnityEngine::Vector3, UnityEngine::Vector3, float, int, ::Array<UnityEngine::RaycastHit2D>*)>(&UnityEngine::PhysicsScene2D::GetRayIntersectionArray_Internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::PhysicsScene2D, UnityEngine::Vector3, UnityEngine::Vector3, float, int, ::ArrayW<UnityEngine::RaycastHit2D>)>(&UnityEngine::PhysicsScene2D::GetRayIntersectionArray_Internal)> {
   static const MethodInfo* get() {
     static auto* physicsScene = &::il2cpp_utils::GetClassFromName("UnityEngine", "PhysicsScene2D")->byval_arg;
     static auto* origin = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -270,7 +286,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(By
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene2D::RaycastArray_Internal_Injected
 // Il2CppName: RaycastArray_Internal_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(ByRef<UnityEngine::PhysicsScene2D>, ByRef<UnityEngine::Vector2>, ByRef<UnityEngine::Vector2>, float, ByRef<UnityEngine::ContactFilter2D>, ::Array<UnityEngine::RaycastHit2D>*)>(&UnityEngine::PhysicsScene2D::RaycastArray_Internal_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(ByRef<UnityEngine::PhysicsScene2D>, ByRef<UnityEngine::Vector2>, ByRef<UnityEngine::Vector2>, float, ByRef<UnityEngine::ContactFilter2D>, ::ArrayW<UnityEngine::RaycastHit2D>)>(&UnityEngine::PhysicsScene2D::RaycastArray_Internal_Injected)> {
   static const MethodInfo* get() {
     static auto* physicsScene = &::il2cpp_utils::GetClassFromName("UnityEngine", "PhysicsScene2D")->this_arg;
     static auto* origin = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->this_arg;
@@ -298,7 +314,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(ByR
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene2D::GetRayIntersectionArray_Internal_Injected
 // Il2CppName: GetRayIntersectionArray_Internal_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(ByRef<UnityEngine::PhysicsScene2D>, ByRef<UnityEngine::Vector3>, ByRef<UnityEngine::Vector3>, float, int, ::Array<UnityEngine::RaycastHit2D>*)>(&UnityEngine::PhysicsScene2D::GetRayIntersectionArray_Internal_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(ByRef<UnityEngine::PhysicsScene2D>, ByRef<UnityEngine::Vector3>, ByRef<UnityEngine::Vector3>, float, int, ::ArrayW<UnityEngine::RaycastHit2D>)>(&UnityEngine::PhysicsScene2D::GetRayIntersectionArray_Internal_Injected)> {
   static const MethodInfo* get() {
     static auto* physicsScene = &::il2cpp_utils::GetClassFromName("UnityEngine", "PhysicsScene2D")->this_arg;
     static auto* origin = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;

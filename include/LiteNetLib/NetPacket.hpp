@@ -11,7 +11,16 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: LiteNetLib
+namespace LiteNetLib {
+  // Forward declaring type: NetPacket
+  class NetPacket;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(LiteNetLib::NetPacket);
+DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetPacket*, "LiteNetLib", "NetPacket");
 // Type namespace: LiteNetLib
 namespace LiteNetLib {
   // Size: 0x28
@@ -20,12 +29,21 @@ namespace LiteNetLib {
   // [TokenAttribute] Offset: FFFFFFFF
   class NetPacket : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.Byte[] RawData
     // Size: 0x8
     // Offset: 0x10
-    ::Array<uint8_t>* RawData;
+    ::ArrayW<uint8_t> RawData;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // public System.Int32 Size
     // Size: 0x4
     // Offset: 0x18
@@ -40,14 +58,13 @@ namespace LiteNetLib {
     ::Il2CppObject* UserData;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    // Creating value type constructor for type: NetPacket
-    NetPacket(::Array<uint8_t>* RawData_ = {}, int Size_ = {}, ::Il2CppObject* UserData_ = {}) noexcept : RawData{RawData_}, Size{Size_}, UserData{UserData_} {}
+    public:
     // Get static field: static private readonly System.Int32 LastProperty
     static int _get_LastProperty();
     // Set static field: static private readonly System.Int32 LastProperty
     static void _set_LastProperty(int value);
     // Get instance field reference: public System.Byte[] RawData
-    ::Array<uint8_t>*& dyn_RawData();
+    ::ArrayW<uint8_t>& dyn_RawData();
     // Get instance field reference: public System.Int32 Size
     int& dyn_Size();
     // Get instance field reference: public System.Object UserData
@@ -125,13 +142,12 @@ namespace LiteNetLib {
     int GetHeaderSize();
     // public System.Boolean FromBytes(System.Byte[] data, System.Int32 start, System.Int32 packetSize)
     // Offset: 0x1DCA774
-    bool FromBytes(::Array<uint8_t>* data, int start, int packetSize);
+    bool FromBytes(::ArrayW<uint8_t> data, int start, int packetSize);
   }; // LiteNetLib.NetPacket
   #pragma pack(pop)
   static check_size<sizeof(NetPacket), 32 + sizeof(::Il2CppObject*)> __LiteNetLib_NetPacketSizeCheck;
   static_assert(sizeof(NetPacket) == 0x28);
 }
-DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetPacket*, "LiteNetLib", "NetPacket");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::NetPacket::get_Property
 // Il2CppName: get_Property
@@ -304,7 +320,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LiteNe
 // Writing MetadataGetter for method: LiteNetLib::NetPacket::FromBytes
 // Il2CppName: FromBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::NetPacket::*)(::Array<uint8_t>*, int, int)>(&LiteNetLib::NetPacket::FromBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::NetPacket::*)(::ArrayW<uint8_t>, int, int)>(&LiteNetLib::NetPacket::FromBytes)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

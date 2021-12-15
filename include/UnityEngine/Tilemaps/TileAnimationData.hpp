@@ -6,6 +6,7 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -14,10 +15,13 @@ namespace UnityEngine {
   class Sprite;
 }
 // Completed forward declares
-// Begin il2cpp-utils forward declares
-template<class T>
-struct Array;
-// Completed il2cpp-utils forward declares
+// Type namespace: UnityEngine.Tilemaps
+namespace UnityEngine::Tilemaps {
+  // Forward declaring type: TileAnimationData
+  struct TileAnimationData;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Tilemaps::TileAnimationData, "UnityEngine.Tilemaps", "TileAnimationData");
 // Type namespace: UnityEngine.Tilemaps
 namespace UnityEngine::Tilemaps {
   // Size: 0x10
@@ -29,12 +33,21 @@ namespace UnityEngine::Tilemaps {
   // [NativeTypeAttribute] Offset: F16834
   struct TileAnimationData/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private UnityEngine.Sprite[] m_AnimatedSprites
     // Size: 0x8
     // Offset: 0x0
-    ::Array<UnityEngine::Sprite*>* m_AnimatedSprites;
+    ::ArrayW<UnityEngine::Sprite*> m_AnimatedSprites;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Sprite*>*) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Sprite*>) == 0x8);
     // private System.Single m_AnimationSpeed
     // Size: 0x4
     // Offset: 0x8
@@ -47,14 +60,15 @@ namespace UnityEngine::Tilemaps {
     float m_AnimationStartTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: TileAnimationData
-    constexpr TileAnimationData(::Array<UnityEngine::Sprite*>* m_AnimatedSprites_ = {}, float m_AnimationSpeed_ = {}, float m_AnimationStartTime_ = {}) noexcept : m_AnimatedSprites{m_AnimatedSprites_}, m_AnimationSpeed{m_AnimationSpeed_}, m_AnimationStartTime{m_AnimationStartTime_} {}
+    constexpr TileAnimationData(::ArrayW<UnityEngine::Sprite*> m_AnimatedSprites_ = ::ArrayW<UnityEngine::Sprite*>(nullptr), float m_AnimationSpeed_ = {}, float m_AnimationStartTime_ = {}) noexcept : m_AnimatedSprites{m_AnimatedSprites_}, m_AnimationSpeed{m_AnimationSpeed_}, m_AnimationStartTime{m_AnimationStartTime_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // Get instance field reference: private UnityEngine.Sprite[] m_AnimatedSprites
-    ::Array<UnityEngine::Sprite*>*& dyn_m_AnimatedSprites();
+    ::ArrayW<UnityEngine::Sprite*>& dyn_m_AnimatedSprites();
     // Get instance field reference: private System.Single m_AnimationSpeed
     float& dyn_m_AnimationSpeed();
     // Get instance field reference: private System.Single m_AnimationStartTime
@@ -64,6 +78,4 @@ namespace UnityEngine::Tilemaps {
   static check_size<sizeof(TileAnimationData), 12 + sizeof(float)> __UnityEngine_Tilemaps_TileAnimationDataSizeCheck;
   static_assert(sizeof(TileAnimationData) == 0x10);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Tilemaps::TileAnimationData, "UnityEngine.Tilemaps", "TileAnimationData");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

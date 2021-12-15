@@ -9,6 +9,8 @@
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: BloomPrePassRenderDataSO
 #include "GlobalNamespace/BloomPrePassRenderDataSO.hpp"
+// Including type: System.Enum
+#include "System/Enum.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -24,6 +26,14 @@ namespace GlobalNamespace {
   // Skipping declaration: Mode because it is already included!
 }
 // Completed forward declares
+// Type namespace: 
+namespace GlobalNamespace {
+  // Forward declaring type: BloomPrePass
+  class BloomPrePass;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(GlobalNamespace::BloomPrePass);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePass*, "", "BloomPrePass");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x40
@@ -42,12 +52,22 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct Mode/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      #ifdef CODEGEN_FIELD_ACCESSIBILITY
+      CODEGEN_FIELD_ACCESSIBILITY:
+      #else
+      protected:
+      #endif
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: Mode
       constexpr Mode(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -76,6 +96,15 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(BloomPrePass::Mode), 0 + sizeof(int)> __GlobalNamespace_BloomPrePass_ModeSizeCheck;
     static_assert(sizeof(BloomPrePass::Mode) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private BloomPrePassRendererSO _bloomPrepassRenderer
     // Size: 0x8
     // Offset: 0x18
@@ -110,8 +139,7 @@ namespace GlobalNamespace {
     GlobalNamespace::BloomPrePassRenderDataSO::Data* renderData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BloomPrePassRenderDataSO::Data*) == 0x8);
-    // Creating value type constructor for type: BloomPrePass
-    BloomPrePass(GlobalNamespace::BloomPrePassRendererSO* bloomPrepassRenderer_ = {}, GlobalNamespace::BloomPrePassEffectContainerSO* bloomPrePassEffectContainer_ = {}, GlobalNamespace::BloomPrePassRenderDataSO* bloomPrePassRenderData_ = {}, GlobalNamespace::BloomPrePass::Mode mode_ = {}, GlobalNamespace::BloomPrePassRenderDataSO::Data* renderData_ = {}) noexcept : bloomPrepassRenderer{bloomPrepassRenderer_}, bloomPrePassEffectContainer{bloomPrePassEffectContainer_}, bloomPrePassRenderData{bloomPrePassRenderData_}, mode{mode_}, renderData{renderData_} {}
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BloomPrePassRendererSO _bloomPrepassRenderer
@@ -160,7 +188,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BloomPrePass), 56 + sizeof(GlobalNamespace::BloomPrePassRenderDataSO::Data*)> __GlobalNamespace_BloomPrePassSizeCheck;
   static_assert(sizeof(BloomPrePass) == 0x40);
 }
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePass*, "", "BloomPrePass");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePass::Mode, "", "BloomPrePass/Mode");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePass::Awake

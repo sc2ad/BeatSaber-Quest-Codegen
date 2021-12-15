@@ -9,20 +9,23 @@
 #include "System/ValueType.hpp"
 // Including type: Mono.RuntimeStructs
 #include "Mono/RuntimeStructs.hpp"
-// Including type: System.IntPtr
-#include "System/IntPtr.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
 namespace System {
+  // Forward declaring type: IntPtr
+  struct IntPtr;
   // Forward declaring type: RuntimeTypeHandle
   struct RuntimeTypeHandle;
 }
 // Completed forward declares
+// Type namespace: Mono
+namespace Mono {
+  // Forward declaring type: RuntimeClassHandle
+  struct RuntimeClassHandle;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeClassHandle, "Mono", "RuntimeClassHandle");
 // Type namespace: Mono
 namespace Mono {
   // Size: 0x8
@@ -32,12 +35,22 @@ namespace Mono {
   // [TokenAttribute] Offset: FFFFFFFF
   struct RuntimeClassHandle/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private Mono.RuntimeStructs/Mono.MonoClass* value
     // Size: 0x8
     // Offset: 0x0
     Mono::RuntimeStructs::MonoClass* value;
     // Field size check
     static_assert(sizeof(Mono::RuntimeStructs::MonoClass*) == 0x8);
+    public:
     // Creating value type constructor for type: RuntimeClassHandle
     constexpr RuntimeClassHandle(Mono::RuntimeStructs::MonoClass* value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -55,16 +68,10 @@ namespace Mono {
     Mono::RuntimeStructs::MonoClass* get_Value();
     // System.Void .ctor(Mono.RuntimeStructs/Mono.MonoClass* value)
     // Offset: 0x1C7B1A8
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    // ABORTED: conflicts with another method.  RuntimeClassHandle(Mono::RuntimeStructs::MonoClass* value)
+    // ABORTED: conflicts with another method.  RuntimeClassHandle(Mono::RuntimeStructs::MonoClass* value);
     // System.Void .ctor(System.IntPtr ptr)
     // Offset: 0x1C7B1B0
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    RuntimeClassHandle(System::IntPtr ptr) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Mono::RuntimeClassHandle::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(ptr)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, ptr);
-    }
+    RuntimeClassHandle(System::IntPtr ptr);
     // static System.IntPtr GetTypeFromClass(Mono.RuntimeStructs/Mono.MonoClass* klass)
     // Offset: 0x1C7B328
     static System::IntPtr GetTypeFromClass(Mono::RuntimeStructs::MonoClass* klass);
@@ -86,7 +93,6 @@ namespace Mono {
   static check_size<sizeof(RuntimeClassHandle), 0 + sizeof(Mono::RuntimeStructs::MonoClass*)> __Mono_RuntimeClassHandleSizeCheck;
   static_assert(sizeof(RuntimeClassHandle) == 0x8);
 }
-DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeClassHandle, "Mono", "RuntimeClassHandle");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::RuntimeClassHandle::get_Value
 // Il2CppName: get_Value

@@ -14,6 +14,13 @@
 // Completed includes
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
+  // Forward declaring type: HAPI_ImageInfo
+  struct HAPI_ImageInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_ImageInfo, "HoudiniEngineUnity", "HAPI_ImageInfo");
+// Type namespace: HoudiniEngineUnity
+namespace HoudiniEngineUnity {
   // Size: 0x20
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -21,6 +28,15 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HAPI_ImageInfo/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.Int32 imageFileFormatNameSH
     // Size: 0x4
     // Offset: 0x0
@@ -65,6 +81,7 @@ namespace HoudiniEngineUnity {
     double gamma;
     // Field size check
     static_assert(sizeof(double) == 0x8);
+    public:
     // Creating value type constructor for type: HAPI_ImageInfo
     constexpr HAPI_ImageInfo(int imageFileFormatNameSH_ = {}, int xRes_ = {}, int yRes_ = {}, HoudiniEngineUnity::HAPI_ImageDataFormat dataFormat_ = {}, bool interleaved_ = {}, HoudiniEngineUnity::HAPI_ImagePacking packing_ = {}, double gamma_ = {}) noexcept : imageFileFormatNameSH{imageFileFormatNameSH_}, xRes{xRes_}, yRes{yRes_}, dataFormat{dataFormat_}, interleaved{interleaved_}, packing{packing_}, gamma{gamma_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -90,6 +107,4 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HAPI_ImageInfo), 24 + sizeof(double)> __HoudiniEngineUnity_HAPI_ImageInfoSizeCheck;
   static_assert(sizeof(HAPI_ImageInfo) == 0x20);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_ImageInfo, "HoudiniEngineUnity", "HAPI_ImageInfo");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

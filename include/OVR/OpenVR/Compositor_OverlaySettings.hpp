@@ -11,6 +11,13 @@
 // Completed includes
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
+  // Forward declaring type: Compositor_OverlaySettings
+  struct Compositor_OverlaySettings;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::Compositor_OverlaySettings, "OVR.OpenVR", "Compositor_OverlaySettings");
+// Type namespace: OVR.OpenVR
+namespace OVR::OpenVR {
   // Size: 0x70
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -18,6 +25,15 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Compositor_OverlaySettings/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.UInt32 size
     // Size: 0x4
     // Offset: 0x0
@@ -104,6 +120,7 @@ namespace OVR::OpenVR {
     OVR::OpenVR::HmdMatrix44_t transform;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::HmdMatrix44_t) == 0x40);
+    public:
     // Creating value type constructor for type: Compositor_OverlaySettings
     constexpr Compositor_OverlaySettings(uint size_ = {}, bool curved_ = {}, bool antialias_ = {}, float scale_ = {}, float distance_ = {}, float alpha_ = {}, float uOffset_ = {}, float vOffset_ = {}, float uScale_ = {}, float vScale_ = {}, float gridDivs_ = {}, float gridWidth_ = {}, float gridScale_ = {}, OVR::OpenVR::HmdMatrix44_t transform_ = {}) noexcept : size{size_}, curved{curved_}, antialias{antialias_}, scale{scale_}, distance{distance_}, alpha{alpha_}, uOffset{uOffset_}, vOffset{vOffset_}, uScale{uScale_}, vScale{vScale_}, gridDivs{gridDivs_}, gridWidth{gridWidth_}, gridScale{gridScale_}, transform{transform_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -143,6 +160,4 @@ namespace OVR::OpenVR {
   static check_size<sizeof(Compositor_OverlaySettings), 48 + sizeof(OVR::OpenVR::HmdMatrix44_t)> __OVR_OpenVR_Compositor_OverlaySettingsSizeCheck;
   static_assert(sizeof(Compositor_OverlaySettings) == 0x70);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::Compositor_OverlaySettings, "OVR.OpenVR", "Compositor_OverlaySettings");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -12,10 +12,6 @@
 #include "System/IEquatable_1.hpp"
 // Including type: UnityEngine.Color
 #include "UnityEngine/Color.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: LiteNetLib::Utils
@@ -32,6 +28,13 @@ struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: 
 namespace GlobalNamespace {
+  // Forward declaring type: ColorSerializable
+  struct ColorSerializable;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSerializable, "", "ColorSerializable");
+// Type namespace: 
+namespace GlobalNamespace {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -39,12 +42,22 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ColorSerializable/*, public System::ValueType, public LiteNetLib::Utils::INetSerializable, public System::IEquatable_1<GlobalNamespace::ColorSerializable>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private UnityEngine.Color _color
     // Size: 0x10
     // Offset: 0x0
     UnityEngine::Color color;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
+    public:
     // Creating value type constructor for type: ColorSerializable
     constexpr ColorSerializable(UnityEngine::Color color_ = {}) noexcept : color{color_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -67,8 +80,7 @@ namespace GlobalNamespace {
     UnityEngine::Color& dyn__color();
     // public System.Void .ctor(UnityEngine.Color color)
     // Offset: 0x26209AC
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    // ABORTED: conflicts with another method.  ColorSerializable(UnityEngine::Color color)
+    // ABORTED: conflicts with another method.  ColorSerializable(UnityEngine::Color color);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
     // Offset: 0x26209B8
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -98,7 +110,6 @@ namespace GlobalNamespace {
   static check_size<sizeof(ColorSerializable), 0 + sizeof(UnityEngine::Color)> __GlobalNamespace_ColorSerializableSizeCheck;
   static_assert(sizeof(ColorSerializable) == 0x10);
 }
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSerializable, "", "ColorSerializable");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ColorSerializable::ColorSerializable
 // Il2CppName: .ctor

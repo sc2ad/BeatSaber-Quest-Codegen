@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -18,6 +19,14 @@ namespace System {
   // Skipping declaration: IntPtr because it is already included!
 }
 // Completed forward declares
+// Type namespace: UnityEngine.Networking
+namespace UnityEngine::Networking {
+  // Forward declaring type: UploadHandlerRaw
+  class UploadHandlerRaw;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::Networking::UploadHandlerRaw);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::UploadHandlerRaw*, "UnityEngine.Networking", "UploadHandlerRaw");
 // Type namespace: UnityEngine.Networking
 namespace UnityEngine::Networking {
   // Size: 0x18
@@ -28,22 +37,19 @@ namespace UnityEngine::Networking {
   // [NativeHeaderAttribute] Offset: EFF4D4
   class UploadHandlerRaw : public UnityEngine::Networking::UploadHandler {
     public:
-    // Creating value type constructor for type: UploadHandlerRaw
-    UploadHandlerRaw() noexcept {}
     // public System.Void .ctor(System.Byte[] data)
     // Offset: 0x26A6884
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static UploadHandlerRaw* New_ctor(::Array<uint8_t>* data) {
+    static UploadHandlerRaw* New_ctor(::ArrayW<uint8_t> data) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Networking::UploadHandlerRaw::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UploadHandlerRaw*, creationType>(data)));
     }
     // static private System.IntPtr Create(UnityEngine.Networking.UploadHandlerRaw self, System.Byte[] data)
     // Offset: 0x26A6834
-    static System::IntPtr Create(UnityEngine::Networking::UploadHandlerRaw* self, ::Array<uint8_t>* data);
+    static System::IntPtr Create(UnityEngine::Networking::UploadHandlerRaw* self, ::ArrayW<uint8_t> data);
   }; // UnityEngine.Networking.UploadHandlerRaw
   #pragma pack(pop)
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::UploadHandlerRaw*, "UnityEngine.Networking", "UploadHandlerRaw");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Networking::UploadHandlerRaw::New_ctor
 // Il2CppName: .ctor
@@ -52,7 +58,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::UploadHandlerRaw*, "UnityEngine.
 // Writing MetadataGetter for method: UnityEngine::Networking::UploadHandlerRaw::Create
 // Il2CppName: Create
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(UnityEngine::Networking::UploadHandlerRaw*, ::Array<uint8_t>*)>(&UnityEngine::Networking::UploadHandlerRaw::Create)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(UnityEngine::Networking::UploadHandlerRaw*, ::ArrayW<uint8_t>)>(&UnityEngine::Networking::UploadHandlerRaw::Create)> {
   static const MethodInfo* get() {
     static auto* self = &::il2cpp_utils::GetClassFromName("UnityEngine.Networking", "UploadHandlerRaw")->byval_arg;
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;

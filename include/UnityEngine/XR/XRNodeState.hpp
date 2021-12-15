@@ -18,6 +18,13 @@
 // Completed includes
 // Type namespace: UnityEngine.XR
 namespace UnityEngine::XR {
+  // Forward declaring type: XRNodeState
+  struct XRNodeState;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::XRNodeState, "UnityEngine.XR", "XRNodeState");
+// Type namespace: UnityEngine.XR
+namespace UnityEngine::XR {
   // Size: 0x60
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -26,6 +33,15 @@ namespace UnityEngine::XR {
   // [UsedByNativeCodeAttribute] Offset: EDB570
   struct XRNodeState/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private UnityEngine.XR.XRNode m_Type
     // Size: 0x4
     // Offset: 0x0
@@ -86,6 +102,7 @@ namespace UnityEngine::XR {
     uint64_t m_UniqueID;
     // Field size check
     static_assert(sizeof(uint64_t) == 0x8);
+    public:
     // Creating value type constructor for type: XRNodeState
     constexpr XRNodeState(UnityEngine::XR::XRNode m_Type_ = {}, UnityEngine::XR::AvailableTrackingData m_AvailableFields_ = {}, UnityEngine::Vector3 m_Position_ = {}, UnityEngine::Quaternion m_Rotation_ = {}, UnityEngine::Vector3 m_Velocity_ = {}, UnityEngine::Vector3 m_AngularVelocity_ = {}, UnityEngine::Vector3 m_Acceleration_ = {}, UnityEngine::Vector3 m_AngularAcceleration_ = {}, int m_Tracked_ = {}, uint64_t m_UniqueID_ = {}) noexcept : m_Type{m_Type_}, m_AvailableFields{m_AvailableFields_}, m_Position{m_Position_}, m_Rotation{m_Rotation_}, m_Velocity{m_Velocity_}, m_AngularVelocity{m_AngularVelocity_}, m_Acceleration{m_Acceleration_}, m_AngularAcceleration{m_AngularAcceleration_}, m_Tracked{m_Tracked_}, m_UniqueID{m_UniqueID_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -153,8 +170,6 @@ namespace UnityEngine::XR {
   static check_size<sizeof(XRNodeState), 88 + sizeof(uint64_t)> __UnityEngine_XR_XRNodeStateSizeCheck;
   static_assert(sizeof(XRNodeState) == 0x60);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::XRNodeState, "UnityEngine.XR", "XRNodeState");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::XR::XRNodeState::set_uniqueID
 // Il2CppName: set_uniqueID

@@ -13,14 +13,6 @@
 #include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.Quaternion
 #include "UnityEngine/Quaternion.hpp"
-// Including type: Valve.VR.HmdMatrix34_t
-#include "Valve/VR/HmdMatrix34_t.hpp"
-// Including type: Valve.VR.HmdMatrix44_t
-#include "Valve/VR/HmdMatrix44_t.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -28,7 +20,21 @@ namespace UnityEngine {
   // Forward declaring type: Transform
   class Transform;
 }
+// Forward declaring namespace: Valve::VR
+namespace Valve::VR {
+  // Forward declaring type: HmdMatrix34_t
+  struct HmdMatrix34_t;
+  // Forward declaring type: HmdMatrix44_t
+  struct HmdMatrix44_t;
+}
 // Completed forward declares
+// Type namespace: 
+namespace GlobalNamespace {
+  // Forward declaring type: RigidTransform
+  struct RigidTransform;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Utils::RigidTransform, "", "SteamVR_Utils/RigidTransform");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x1C
@@ -38,6 +44,15 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct SteamVR_Utils::RigidTransform/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public UnityEngine.Vector3 pos
     // Size: 0xC
     // Offset: 0x0
@@ -50,6 +65,7 @@ namespace GlobalNamespace {
     UnityEngine::Quaternion rot;
     // Field size check
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
+    public:
     // Creating value type constructor for type: RigidTransform
     constexpr RigidTransform(UnityEngine::Vector3 pos_ = {}, UnityEngine::Quaternion rot_ = {}) noexcept : pos{pos_}, rot{rot_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -65,40 +81,19 @@ namespace GlobalNamespace {
     static GlobalNamespace::SteamVR_Utils::RigidTransform get_identity();
     // public System.Void .ctor(UnityEngine.Vector3 pos, UnityEngine.Quaternion rot)
     // Offset: 0x18BFCDC
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    // ABORTED: conflicts with another method.  RigidTransform(UnityEngine::Vector3 pos, UnityEngine::Quaternion rot)
+    // ABORTED: conflicts with another method.  RigidTransform(UnityEngine::Vector3 pos, UnityEngine::Quaternion rot);
     // public System.Void .ctor(UnityEngine.Transform t)
     // Offset: 0x18BFD58
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    RigidTransform(UnityEngine::Transform* t) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SteamVR_Utils::RigidTransform::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(t)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, t);
-    }
+    RigidTransform(UnityEngine::Transform* t);
     // public System.Void .ctor(UnityEngine.Transform from, UnityEngine.Transform to)
     // Offset: 0x18BFDA8
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    RigidTransform(UnityEngine::Transform* from, UnityEngine::Transform* to) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SteamVR_Utils::RigidTransform::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(from), ::il2cpp_utils::ExtractType(to)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, from, to);
-    }
+    RigidTransform(UnityEngine::Transform* from, UnityEngine::Transform* to);
     // public System.Void .ctor(Valve.VR.HmdMatrix34_t pose)
     // Offset: 0x18BD340
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    RigidTransform(Valve::VR::HmdMatrix34_t pose) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SteamVR_Utils::RigidTransform::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(pose)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, pose);
-    }
+    RigidTransform(Valve::VR::HmdMatrix34_t pose);
     // public System.Void .ctor(Valve.VR.HmdMatrix44_t pose)
     // Offset: 0x18BFF68
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    RigidTransform(Valve::VR::HmdMatrix44_t pose) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SteamVR_Utils::RigidTransform::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(pose)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, pose);
-    }
+    RigidTransform(Valve::VR::HmdMatrix44_t pose);
     // static public SteamVR_Utils/RigidTransform FromLocal(UnityEngine.Transform t)
     // Offset: 0x18BFCF0
     static GlobalNamespace::SteamVR_Utils::RigidTransform FromLocal(UnityEngine::Transform* t);
@@ -156,7 +151,6 @@ namespace GlobalNamespace {
   // Offset: 0x18C1180
   UnityEngine::Vector3 operator*(const GlobalNamespace::SteamVR_Utils::RigidTransform& t, const UnityEngine::Vector3& v);
 }
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Utils::RigidTransform, "", "SteamVR_Utils/RigidTransform");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Utils::RigidTransform::get_identity
 // Il2CppName: get_identity

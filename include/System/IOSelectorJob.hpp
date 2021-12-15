@@ -30,6 +30,14 @@ namespace System::Threading {
 // Completed forward declares
 // Type namespace: System
 namespace System {
+  // Forward declaring type: IOSelectorJob
+  class IOSelectorJob;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::IOSelectorJob);
+DEFINE_IL2CPP_ARG_TYPE(System::IOSelectorJob*, "System", "IOSelectorJob");
+// Type namespace: System
+namespace System {
   // Size: 0x28
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -37,6 +45,15 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class IOSelectorJob : public ::Il2CppObject/*, public System::Threading::IThreadPoolWorkItem*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.IOOperation operation
     // Size: 0x4
     // Offset: 0x10
@@ -57,8 +74,7 @@ namespace System {
     System::IOAsyncResult* state;
     // Field size check
     static_assert(sizeof(System::IOAsyncResult*) == 0x8);
-    // Creating value type constructor for type: IOSelectorJob
-    IOSelectorJob(System::IOOperation operation_ = {}, System::IOAsyncCallback* callback_ = {}, System::IOAsyncResult* state_ = {}) noexcept : operation{operation_}, callback{callback_}, state{state_} {}
+    public:
     // Creating interface conversion operator: operator System::Threading::IThreadPoolWorkItem
     operator System::Threading::IThreadPoolWorkItem() noexcept {
       return *reinterpret_cast<System::Threading::IThreadPoolWorkItem*>(this);
@@ -90,7 +106,6 @@ namespace System {
   static check_size<sizeof(IOSelectorJob), 32 + sizeof(System::IOAsyncResult*)> __System_IOSelectorJobSizeCheck;
   static_assert(sizeof(IOSelectorJob) == 0x28);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::IOSelectorJob*, "System", "IOSelectorJob");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IOSelectorJob::New_ctor
 // Il2CppName: .ctor

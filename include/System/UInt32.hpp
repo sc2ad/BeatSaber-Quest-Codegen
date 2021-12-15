@@ -40,6 +40,13 @@ namespace System::Globalization {
 // Completed forward declares
 // Type namespace: System
 namespace System {
+  // Forward declaring type: UInt32
+  struct UInt32;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::UInt32, "System", "UInt32");
+// Type namespace: System
+namespace System {
   // Size: 0x4
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -49,12 +56,22 @@ namespace System {
   // [CLSCompliantAttribute] Offset: E9E078
   struct UInt32/*, public System::ValueType, public System::IComparable_1<uint>, public System::IEquatable_1<uint>, public System::IComparable, public System::IConvertible, public System::IFormattable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.UInt32 m_value
     // Size: 0x4
     // Offset: 0x0
     uint m_value;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
+    public:
     // Creating value type constructor for type: UInt32
     constexpr UInt32(uint m_value_ = {}) noexcept : m_value{m_value_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -194,8 +211,6 @@ namespace System {
   static check_size<sizeof(UInt32), 0 + sizeof(uint)> __System_UInt32SizeCheck;
   static_assert(sizeof(UInt32) == 0x4);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::UInt32, "System", "UInt32");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::UInt32::CompareTo
 // Il2CppName: CompareTo

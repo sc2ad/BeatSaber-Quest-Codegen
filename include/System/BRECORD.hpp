@@ -3,13 +3,19 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
 // Completed includes
+// Type namespace: System
+namespace System {
+  // Forward declaring type: BRECORD
+  struct BRECORD;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::BRECORD, "System", "BRECORD");
 // Type namespace: System
 namespace System {
   // Size: 0x10
@@ -19,6 +25,15 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   struct BRECORD/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.IntPtr pvRecord
     // Size: 0x8
     // Offset: 0x0
@@ -31,6 +46,7 @@ namespace System {
     System::IntPtr pRecInfo;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
+    public:
     // Creating value type constructor for type: BRECORD
     constexpr BRECORD(System::IntPtr pvRecord_ = {}, System::IntPtr pRecInfo_ = {}) noexcept : pvRecord{pvRecord_}, pRecInfo{pRecInfo_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -46,6 +62,4 @@ namespace System {
   static check_size<sizeof(BRECORD), 8 + sizeof(System::IntPtr)> __System_BRECORDSizeCheck;
   static_assert(sizeof(BRECORD) == 0x10);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::BRECORD, "System", "BRECORD");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -3,13 +3,19 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
 // Completed includes
+// Type namespace: UnityEngine
+namespace UnityEngine {
+  // Forward declaring type: RenderBuffer
+  struct RenderBuffer;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RenderBuffer, "UnityEngine", "RenderBuffer");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -20,6 +26,15 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: EB30E8
   struct RenderBuffer/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // System.Int32 m_RenderTextureInstanceID
     // Size: 0x4
     // Offset: 0x0
@@ -34,6 +49,7 @@ namespace UnityEngine {
     System::IntPtr m_BufferPtr;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
+    public:
     // Creating value type constructor for type: RenderBuffer
     constexpr RenderBuffer(int m_RenderTextureInstanceID_ = {}, System::IntPtr m_BufferPtr_ = {}) noexcept : m_RenderTextureInstanceID{m_RenderTextureInstanceID_}, m_BufferPtr{m_BufferPtr_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -49,6 +65,4 @@ namespace UnityEngine {
   static check_size<sizeof(RenderBuffer), 8 + sizeof(System::IntPtr)> __UnityEngine_RenderBufferSizeCheck;
   static_assert(sizeof(RenderBuffer) == 0x10);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RenderBuffer, "UnityEngine", "RenderBuffer");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

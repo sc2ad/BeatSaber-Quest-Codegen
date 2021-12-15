@@ -21,6 +21,14 @@ namespace System {
 // Completed forward declares
 // Type namespace: System.Reflection
 namespace System::Reflection {
+  // Forward declaring type: ExceptionHandlingClause
+  class ExceptionHandlingClause;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Reflection::ExceptionHandlingClause);
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::ExceptionHandlingClause*, "System.Reflection", "ExceptionHandlingClause");
+// Type namespace: System.Reflection
+namespace System::Reflection {
   // Size: 0x30
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -29,6 +37,15 @@ namespace System::Reflection {
   // [ComVisibleAttribute] Offset: E9F354
   class ExceptionHandlingClause : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // System.Type catch_type
     // Size: 0x8
     // Offset: 0x10
@@ -71,8 +88,7 @@ namespace System::Reflection {
     int handler_length;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: ExceptionHandlingClause
-    ExceptionHandlingClause(System::Type* catch_type_ = {}, int filter_offset_ = {}, System::Reflection::ExceptionHandlingClauseOptions flags_ = {}, int try_offset_ = {}, int try_length_ = {}, int handler_offset_ = {}, int handler_length_ = {}) noexcept : catch_type{catch_type_}, filter_offset{filter_offset_}, flags{flags_}, try_offset{try_offset_}, try_length{try_length_}, handler_offset{handler_offset_}, handler_length{handler_length_} {}
+    public:
     // Get instance field reference: System.Type catch_type
     System::Type*& dyn_catch_type();
     // Get instance field reference: System.Int32 filter_offset
@@ -106,7 +122,6 @@ namespace System::Reflection {
   static check_size<sizeof(ExceptionHandlingClause), 44 + sizeof(int)> __System_Reflection_ExceptionHandlingClauseSizeCheck;
   static_assert(sizeof(ExceptionHandlingClause) == 0x30);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::ExceptionHandlingClause*, "System.Reflection", "ExceptionHandlingClause");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::ExceptionHandlingClause::New_ctor
 // Il2CppName: .ctor

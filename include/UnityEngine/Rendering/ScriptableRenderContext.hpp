@@ -3,7 +3,6 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
@@ -11,10 +10,6 @@
 #include "System/IEquatable_1.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -23,6 +18,16 @@ namespace UnityEngine {
   class Camera;
 }
 // Completed forward declares
+// Begin il2cpp-utils forward declares
+struct Il2CppObject;
+// Completed il2cpp-utils forward declares
+// Type namespace: UnityEngine.Rendering
+namespace UnityEngine::Rendering {
+  // Forward declaring type: ScriptableRenderContext
+  struct ScriptableRenderContext;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::ScriptableRenderContext, "UnityEngine.Rendering", "ScriptableRenderContext");
 // Type namespace: UnityEngine.Rendering
 namespace UnityEngine::Rendering {
   // Size: 0x8
@@ -38,12 +43,22 @@ namespace UnityEngine::Rendering {
   // [NativeTypeAttribute] Offset: EB69E4
   struct ScriptableRenderContext/*, public System::ValueType, public System::IEquatable_1<UnityEngine::Rendering::ScriptableRenderContext>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.IntPtr m_Ptr
     // Size: 0x8
     // Offset: 0x0
     System::IntPtr m_Ptr;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
+    public:
     // Creating value type constructor for type: ScriptableRenderContext
     constexpr ScriptableRenderContext(System::IntPtr m_Ptr_ = {}) noexcept : m_Ptr{m_Ptr_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -62,8 +77,7 @@ namespace UnityEngine::Rendering {
     System::IntPtr& dyn_m_Ptr();
     // System.Void .ctor(System.IntPtr ptr)
     // Offset: 0x1DFAAB0
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    // ABORTED: conflicts with another method.  ScriptableRenderContext(System::IntPtr ptr)
+    // ABORTED: conflicts with another method.  ScriptableRenderContext(System::IntPtr ptr);
     // private System.Int32 GetNumberOfCameras_Internal()
     // Offset: 0x1DFB158
     int GetNumberOfCameras_Internal();
@@ -100,7 +114,6 @@ namespace UnityEngine::Rendering {
   static check_size<sizeof(ScriptableRenderContext), 0 + sizeof(System::IntPtr)> __UnityEngine_Rendering_ScriptableRenderContextSizeCheck;
   static_assert(sizeof(ScriptableRenderContext) == 0x8);
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::ScriptableRenderContext, "UnityEngine.Rendering", "ScriptableRenderContext");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Rendering::ScriptableRenderContext::ScriptableRenderContext
 // Il2CppName: .ctor

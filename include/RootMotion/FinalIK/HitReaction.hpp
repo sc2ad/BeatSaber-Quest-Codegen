@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: RootMotion::FinalIK
@@ -23,6 +24,14 @@ namespace UnityEngine {
   // Skipping declaration: Vector3 because it is already included!
 }
 // Completed forward declares
+// Type namespace: RootMotion.FinalIK
+namespace RootMotion::FinalIK {
+  // Forward declaring type: HitReaction
+  class HitReaction;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(RootMotion::FinalIK::HitReaction);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::HitReaction*, "RootMotion.FinalIK", "HitReaction");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
   // Size: 0x40
@@ -39,26 +48,34 @@ namespace RootMotion::FinalIK {
     class HitPointEffector;
     // Nested type: RootMotion::FinalIK::HitReaction::HitPointBone
     class HitPointBone;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // [TooltipAttribute] Offset: 0xF5F924
     // public RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPointEffector[] effectorHitPoints
     // Size: 0x8
     // Offset: 0x30
-    ::Array<RootMotion::FinalIK::HitReaction::HitPointEffector*>* effectorHitPoints;
+    ::ArrayW<RootMotion::FinalIK::HitReaction::HitPointEffector*> effectorHitPoints;
     // Field size check
-    static_assert(sizeof(::Array<RootMotion::FinalIK::HitReaction::HitPointEffector*>*) == 0x8);
+    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::HitReaction::HitPointEffector*>) == 0x8);
     // [TooltipAttribute] Offset: 0xF5F95C
     // public RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPointBone[] boneHitPoints
     // Size: 0x8
     // Offset: 0x38
-    ::Array<RootMotion::FinalIK::HitReaction::HitPointBone*>* boneHitPoints;
+    ::ArrayW<RootMotion::FinalIK::HitReaction::HitPointBone*> boneHitPoints;
     // Field size check
-    static_assert(sizeof(::Array<RootMotion::FinalIK::HitReaction::HitPointBone*>*) == 0x8);
-    // Creating value type constructor for type: HitReaction
-    HitReaction(::Array<RootMotion::FinalIK::HitReaction::HitPointEffector*>* effectorHitPoints_ = {}, ::Array<RootMotion::FinalIK::HitReaction::HitPointBone*>* boneHitPoints_ = {}) noexcept : effectorHitPoints{effectorHitPoints_}, boneHitPoints{boneHitPoints_} {}
+    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::HitReaction::HitPointBone*>) == 0x8);
+    public:
     // Get instance field reference: public RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPointEffector[] effectorHitPoints
-    ::Array<RootMotion::FinalIK::HitReaction::HitPointEffector*>*& dyn_effectorHitPoints();
+    ::ArrayW<RootMotion::FinalIK::HitReaction::HitPointEffector*>& dyn_effectorHitPoints();
     // Get instance field reference: public RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPointBone[] boneHitPoints
-    ::Array<RootMotion::FinalIK::HitReaction::HitPointBone*>*& dyn_boneHitPoints();
+    ::ArrayW<RootMotion::FinalIK::HitReaction::HitPointBone*>& dyn_boneHitPoints();
     // public System.Boolean get_inProgress()
     // Offset: 0x1E7D174
     bool get_inProgress();
@@ -86,10 +103,9 @@ namespace RootMotion::FinalIK {
     void OnModifyOffset();
   }; // RootMotion.FinalIK.HitReaction
   #pragma pack(pop)
-  static check_size<sizeof(HitReaction), 56 + sizeof(::Array<RootMotion::FinalIK::HitReaction::HitPointBone*>*)> __RootMotion_FinalIK_HitReactionSizeCheck;
+  static check_size<sizeof(HitReaction), 56 + sizeof(::ArrayW<RootMotion::FinalIK::HitReaction::HitPointBone*>)> __RootMotion_FinalIK_HitReactionSizeCheck;
   static_assert(sizeof(HitReaction) == 0x40);
 }
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::HitReaction*, "RootMotion.FinalIK", "HitReaction");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::HitReaction::get_inProgress
 // Il2CppName: get_inProgress

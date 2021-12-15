@@ -21,6 +21,13 @@ struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.ResourceManagement.ResourceProviders
 namespace UnityEngine::ResourceManagement::ResourceProviders {
+  // Forward declaring type: SceneInstance
+  struct SceneInstance;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::SceneInstance, "UnityEngine.ResourceManagement.ResourceProviders", "SceneInstance");
+// Type namespace: UnityEngine.ResourceManagement.ResourceProviders
+namespace UnityEngine::ResourceManagement::ResourceProviders {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -28,6 +35,15 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   // [TokenAttribute] Offset: FFFFFFFF
   struct SceneInstance/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private UnityEngine.SceneManagement.Scene m_Scene
     // Size: 0x4
     // Offset: 0x0
@@ -42,6 +58,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     UnityEngine::AsyncOperation* m_Operation;
     // Field size check
     static_assert(sizeof(UnityEngine::AsyncOperation*) == 0x8);
+    public:
     // Creating value type constructor for type: SceneInstance
     constexpr SceneInstance(UnityEngine::SceneManagement::Scene m_Scene_ = {}, UnityEngine::AsyncOperation* m_Operation_ = {}) noexcept : m_Scene{m_Scene_}, m_Operation{m_Operation_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -79,8 +96,6 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   static check_size<sizeof(SceneInstance), 8 + sizeof(UnityEngine::AsyncOperation*)> __UnityEngine_ResourceManagement_ResourceProviders_SceneInstanceSizeCheck;
   static_assert(sizeof(SceneInstance) == 0x10);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::SceneInstance, "UnityEngine.ResourceManagement.ResourceProviders", "SceneInstance");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::SceneInstance::get_Scene
 // Il2CppName: get_Scene

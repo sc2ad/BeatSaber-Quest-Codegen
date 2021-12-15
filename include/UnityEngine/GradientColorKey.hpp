@@ -11,6 +11,13 @@
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: GradientColorKey
+  struct GradientColorKey;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GradientColorKey, "UnityEngine", "GradientColorKey");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x14
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -19,6 +26,15 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: EB40E0
   struct GradientColorKey/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public UnityEngine.Color color
     // Size: 0x10
     // Offset: 0x0
@@ -31,6 +47,7 @@ namespace UnityEngine {
     float time;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: GradientColorKey
     constexpr GradientColorKey(UnityEngine::Color color_ = {}, float time_ = {}) noexcept : color{color_}, time{time_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -46,6 +63,4 @@ namespace UnityEngine {
   static check_size<sizeof(GradientColorKey), 16 + sizeof(float)> __UnityEngine_GradientColorKeySizeCheck;
   static_assert(sizeof(GradientColorKey) == 0x14);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GradientColorKey, "UnityEngine", "GradientColorKey");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

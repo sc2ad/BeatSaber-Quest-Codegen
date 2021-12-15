@@ -13,6 +13,13 @@ struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Globalization
 namespace System::Globalization {
+  // Forward declaring type: InternalCodePageDataItem
+  struct InternalCodePageDataItem;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Globalization::InternalCodePageDataItem, "System.Globalization", "InternalCodePageDataItem");
+// Type namespace: System.Globalization
+namespace System::Globalization {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -20,6 +27,15 @@ namespace System::Globalization {
   // [TokenAttribute] Offset: FFFFFFFF
   struct InternalCodePageDataItem/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // System.UInt16 codePage
     // Size: 0x2
     // Offset: 0x0
@@ -44,6 +60,7 @@ namespace System::Globalization {
     ::Il2CppString* Names;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Creating value type constructor for type: InternalCodePageDataItem
     constexpr InternalCodePageDataItem(uint16_t codePage_ = {}, uint16_t uiFamilyCodePage_ = {}, uint flags_ = {}, ::Il2CppString* Names_ = {}) noexcept : codePage{codePage_}, uiFamilyCodePage{uiFamilyCodePage_}, flags{flags_}, Names{Names_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -63,6 +80,4 @@ namespace System::Globalization {
   static check_size<sizeof(InternalCodePageDataItem), 8 + sizeof(::Il2CppString*)> __System_Globalization_InternalCodePageDataItemSizeCheck;
   static_assert(sizeof(InternalCodePageDataItem) == 0x10);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Globalization::InternalCodePageDataItem, "System.Globalization", "InternalCodePageDataItem");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

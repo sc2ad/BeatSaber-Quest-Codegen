@@ -19,6 +19,13 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: TMPro
 namespace TMPro {
+  // Forward declaring type: Resources
+  struct Resources;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_DefaultControls::Resources, "TMPro", "TMP_DefaultControls/Resources");
+// Type namespace: TMPro
+namespace TMPro {
   // Size: 0x38
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -26,6 +33,15 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   struct TMP_DefaultControls::Resources/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public UnityEngine.Sprite standard
     // Size: 0x8
     // Offset: 0x0
@@ -68,6 +84,7 @@ namespace TMPro {
     UnityEngine::Sprite* mask;
     // Field size check
     static_assert(sizeof(UnityEngine::Sprite*) == 0x8);
+    public:
     // Creating value type constructor for type: Resources
     constexpr Resources(UnityEngine::Sprite* standard_ = {}, UnityEngine::Sprite* background_ = {}, UnityEngine::Sprite* inputField_ = {}, UnityEngine::Sprite* knob_ = {}, UnityEngine::Sprite* checkmark_ = {}, UnityEngine::Sprite* dropdown_ = {}, UnityEngine::Sprite* mask_ = {}) noexcept : standard{standard_}, background{background_}, inputField{inputField_}, knob{knob_}, checkmark{checkmark_}, dropdown{dropdown_}, mask{mask_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -93,6 +110,4 @@ namespace TMPro {
   static check_size<sizeof(TMP_DefaultControls::Resources), 48 + sizeof(UnityEngine::Sprite*)> __TMPro_TMP_DefaultControls_ResourcesSizeCheck;
   static_assert(sizeof(TMP_DefaultControls::Resources) == 0x38);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_DefaultControls::Resources, "TMPro", "TMP_DefaultControls/Resources");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

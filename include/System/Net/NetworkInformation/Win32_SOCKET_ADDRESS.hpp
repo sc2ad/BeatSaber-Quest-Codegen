@@ -3,7 +3,6 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
@@ -19,6 +18,13 @@ namespace System::Net {
 // Completed forward declares
 // Type namespace: System.Net.NetworkInformation
 namespace System::Net::NetworkInformation {
+  // Forward declaring type: Win32_SOCKET_ADDRESS
+  struct Win32_SOCKET_ADDRESS;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32_SOCKET_ADDRESS, "System.Net.NetworkInformation", "Win32_SOCKET_ADDRESS");
+// Type namespace: System.Net.NetworkInformation
+namespace System::Net::NetworkInformation {
   // Size: 0xC
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -26,6 +32,15 @@ namespace System::Net::NetworkInformation {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Win32_SOCKET_ADDRESS/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.IntPtr Sockaddr
     // Size: 0x8
     // Offset: 0x0
@@ -38,6 +53,7 @@ namespace System::Net::NetworkInformation {
     int SockaddrLength;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: Win32_SOCKET_ADDRESS
     constexpr Win32_SOCKET_ADDRESS(System::IntPtr Sockaddr_ = {}, int SockaddrLength_ = {}) noexcept : Sockaddr{Sockaddr_}, SockaddrLength{SockaddrLength_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -56,8 +72,6 @@ namespace System::Net::NetworkInformation {
   static check_size<sizeof(Win32_SOCKET_ADDRESS), 8 + sizeof(int)> __System_Net_NetworkInformation_Win32_SOCKET_ADDRESSSizeCheck;
   static_assert(sizeof(Win32_SOCKET_ADDRESS) == 0xC);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32_SOCKET_ADDRESS, "System.Net.NetworkInformation", "Win32_SOCKET_ADDRESS");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::NetworkInformation::Win32_SOCKET_ADDRESS::GetIPAddress
 // Il2CppName: GetIPAddress

@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
+  // Forward declaring type: CameraDeviceIntrinsicsParameters
+  struct CameraDeviceIntrinsicsParameters;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::CameraDeviceIntrinsicsParameters, "", "OVRPlugin/CameraDeviceIntrinsicsParameters");
+// Type namespace: 
+namespace GlobalNamespace {
   // Size: 0x4C
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -19,6 +26,15 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct OVRPlugin::CameraDeviceIntrinsicsParameters/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.Single fx
     // Size: 0x4
     // Offset: 0x0
@@ -103,6 +119,7 @@ namespace GlobalNamespace {
     int h;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: CameraDeviceIntrinsicsParameters
     constexpr CameraDeviceIntrinsicsParameters(float fx_ = {}, float fy_ = {}, float cx_ = {}, float cy_ = {}, double disto0_ = {}, double disto1_ = {}, double disto2_ = {}, double disto3_ = {}, double disto4_ = {}, float v_fov_ = {}, float h_fov_ = {}, float d_fov_ = {}, int w_ = {}, int h_ = {}) noexcept : fx{fx_}, fy{fy_}, cx{cx_}, cy{cy_}, disto0{disto0_}, disto1{disto1_}, disto2{disto2_}, disto3{disto3_}, disto4{disto4_}, v_fov{v_fov_}, h_fov{h_fov_}, d_fov{d_fov_}, w{w_}, h{h_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -142,6 +159,4 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRPlugin::CameraDeviceIntrinsicsParameters), 72 + sizeof(int)> __GlobalNamespace_OVRPlugin_CameraDeviceIntrinsicsParametersSizeCheck;
   static_assert(sizeof(OVRPlugin::CameraDeviceIntrinsicsParameters) == 0x4C);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::CameraDeviceIntrinsicsParameters, "", "OVRPlugin/CameraDeviceIntrinsicsParameters");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -19,6 +19,14 @@ namespace System {
 // Completed forward declares
 // Type namespace: System.Reflection
 namespace System::Reflection {
+  // Forward declaring type: LocalVariableInfo
+  class LocalVariableInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Reflection::LocalVariableInfo);
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::LocalVariableInfo*, "System.Reflection", "LocalVariableInfo");
+// Type namespace: System.Reflection
+namespace System::Reflection {
   // Size: 0x1C
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -27,6 +35,15 @@ namespace System::Reflection {
   // [ComVisibleAttribute] Offset: E9F3F4
   class LocalVariableInfo : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // System.Type type
     // Size: 0x8
     // Offset: 0x10
@@ -47,8 +64,7 @@ namespace System::Reflection {
     uint16_t position;
     // Field size check
     static_assert(sizeof(uint16_t) == 0x2);
-    // Creating value type constructor for type: LocalVariableInfo
-    LocalVariableInfo(System::Type* type_ = {}, bool is_pinned_ = {}, uint16_t position_ = {}) noexcept : type{type_}, is_pinned{is_pinned_}, position{position_} {}
+    public:
     // Get instance field reference: System.Type type
     System::Type*& dyn_type();
     // Get instance field reference: System.Boolean is_pinned
@@ -74,7 +90,6 @@ namespace System::Reflection {
   static check_size<sizeof(LocalVariableInfo), 26 + sizeof(uint16_t)> __System_Reflection_LocalVariableInfoSizeCheck;
   static_assert(sizeof(LocalVariableInfo) == 0x1C);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::LocalVariableInfo*, "System.Reflection", "LocalVariableInfo");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::LocalVariableInfo::New_ctor
 // Il2CppName: .ctor

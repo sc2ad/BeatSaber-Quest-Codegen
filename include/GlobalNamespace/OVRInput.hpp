@@ -13,6 +13,7 @@
 #include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.Quaternion
 #include "UnityEngine/Quaternion.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -47,6 +48,14 @@ namespace OVR::OpenVR {
   struct ETrackedDeviceProperty;
 }
 // Completed forward declares
+// Type namespace: 
+namespace GlobalNamespace {
+  // Forward declaring type: OVRInput
+  class OVRInput;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(GlobalNamespace::OVRInput);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput*, "", "OVRInput");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -116,12 +125,22 @@ namespace GlobalNamespace {
     // [FlagsAttribute] Offset: FFFFFFFF
     struct Controller/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      #ifdef CODEGEN_FIELD_ACCESSIBILITY
+      CODEGEN_FIELD_ACCESSIBILITY:
+      #else
+      protected:
+      #endif
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: Controller
       constexpr Controller(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -211,12 +230,22 @@ namespace GlobalNamespace {
     // [FlagsAttribute] Offset: FFFFFFFF
     struct OpenVRController/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      #ifdef CODEGEN_FIELD_ACCESSIBILITY
+      CODEGEN_FIELD_ACCESSIBILITY:
+      #else
+      protected:
+      #endif
+      #endif
       // public System.UInt64 value__
       // Size: 0x8
       // Offset: 0x0
       uint64_t value;
       // Field size check
       static_assert(sizeof(uint64_t) == 0x8);
+      public:
       // Creating value type constructor for type: OpenVRController
       constexpr OpenVRController(uint64_t value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -264,6 +293,15 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct OpenVRControllerDetails/*, public System::ValueType*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      #ifdef CODEGEN_FIELD_ACCESSIBILITY
+      CODEGEN_FIELD_ACCESSIBILITY:
+      #else
+      protected:
+      #endif
+      #endif
       // public OVR.OpenVR.VRControllerState_t state
       // Size: 0x40
       // Offset: 0x0
@@ -294,6 +332,7 @@ namespace GlobalNamespace {
       UnityEngine::Quaternion localOrientation;
       // Field size check
       static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
+      public:
       // Creating value type constructor for type: OpenVRControllerDetails
       constexpr OpenVRControllerDetails(OVR::OpenVR::VRControllerState_t state_ = {}, GlobalNamespace::OVRInput::OpenVRController controllerType_ = {}, uint deviceID_ = {}, UnityEngine::Vector3 localPosition_ = {}, UnityEngine::Quaternion localOrientation_ = {}) noexcept : state{state_}, controllerType{controllerType_}, deviceID{deviceID_}, localPosition{localPosition_}, localOrientation{localOrientation_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -314,8 +353,6 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(OVRInput::OpenVRControllerDetails), 88 + sizeof(UnityEngine::Quaternion)> __GlobalNamespace_OVRInput_OpenVRControllerDetailsSizeCheck;
     static_assert(sizeof(OVRInput::OpenVRControllerDetails) == 0x68);
-    // Creating value type constructor for type: OVRInput
-    OVRInput() noexcept {}
     // Get static field: static private readonly System.Single AXIS_AS_BUTTON_THRESHOLD
     static float _get_AXIS_AS_BUTTON_THRESHOLD();
     // Set static field: static private readonly System.Single AXIS_AS_BUTTON_THRESHOLD
@@ -361,9 +398,9 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 NUM_HAPTIC_CHANNELS
     static void _set_NUM_HAPTIC_CHANNELS(int value);
     // Get static field: static private OVRInput/HapticInfo[] hapticInfos
-    static ::Array<GlobalNamespace::OVRInput::HapticInfo*>* _get_hapticInfos();
+    static ::ArrayW<GlobalNamespace::OVRInput::HapticInfo*> _get_hapticInfos();
     // Set static field: static private OVRInput/HapticInfo[] hapticInfos
-    static void _set_hapticInfos(::Array<GlobalNamespace::OVRInput::HapticInfo*>* value);
+    static void _set_hapticInfos(::ArrayW<GlobalNamespace::OVRInput::HapticInfo*> value);
     // Get static field: static private System.Single OPENVR_MAX_HAPTIC_AMPLITUDE
     static float _get_OPENVR_MAX_HAPTIC_AMPLITUDE();
     // Set static field: static private System.Single OPENVR_MAX_HAPTIC_AMPLITUDE
@@ -385,9 +422,9 @@ namespace GlobalNamespace {
     // Set static field: static private System.String OPENVR_WINDOWSMR_CONTROLLER_NAME
     static void _set_OPENVR_WINDOWSMR_CONTROLLER_NAME(::Il2CppString* value);
     // Get static field: static public OVRInput/OpenVRControllerDetails[] openVRControllerDetails
-    static ::Array<GlobalNamespace::OVRInput::OpenVRControllerDetails>* _get_openVRControllerDetails();
+    static ::ArrayW<GlobalNamespace::OVRInput::OpenVRControllerDetails> _get_openVRControllerDetails();
     // Set static field: static public OVRInput/OpenVRControllerDetails[] openVRControllerDetails
-    static void _set_openVRControllerDetails(::Array<GlobalNamespace::OVRInput::OpenVRControllerDetails>* value);
+    static void _set_openVRControllerDetails(::ArrayW<GlobalNamespace::OVRInput::OpenVRControllerDetails> value);
     // static private System.Boolean get_pluginSupportsActiveController()
     // Offset: 0x176ACA8
     static bool get_pluginSupportsActiveController();
@@ -589,10 +626,11 @@ namespace GlobalNamespace {
   }; // OVRInput
   #pragma pack(pop)
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput*, "", "OVRInput");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::Controller, "", "OVRInput/Controller");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OpenVRController, "", "OVRInput/OpenVRController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OpenVRControllerDetails, "", "OVRInput/OpenVRControllerDetails");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::get_pluginSupportsActiveController

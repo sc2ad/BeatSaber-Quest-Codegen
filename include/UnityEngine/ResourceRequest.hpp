@@ -26,6 +26,14 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: ResourceRequest
+  class ResourceRequest;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::ResourceRequest);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceRequest*, "UnityEngine", "ResourceRequest");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x30
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -34,6 +42,15 @@ namespace UnityEngine {
   // [RequiredByNativeCodeAttribute] Offset: EB491C
   class ResourceRequest : public UnityEngine::AsyncOperation {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // System.String m_Path
     // Size: 0x8
     // Offset: 0x20
@@ -46,8 +63,7 @@ namespace UnityEngine {
     System::Type* m_Type;
     // Field size check
     static_assert(sizeof(System::Type*) == 0x8);
-    // Creating value type constructor for type: ResourceRequest
-    ResourceRequest(::Il2CppString* m_Path_ = {}, System::Type* m_Type_ = {}) noexcept : m_Path{m_Path_}, m_Type{m_Type_} {}
+    public:
     // Get instance field reference: System.String m_Path
     ::Il2CppString*& dyn_m_Path();
     // Get instance field reference: System.Type m_Type
@@ -71,7 +87,6 @@ namespace UnityEngine {
   static check_size<sizeof(ResourceRequest), 40 + sizeof(System::Type*)> __UnityEngine_ResourceRequestSizeCheck;
   static_assert(sizeof(ResourceRequest) == 0x30);
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceRequest*, "UnityEngine", "ResourceRequest");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceRequest::get_asset
 // Il2CppName: get_asset

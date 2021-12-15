@@ -11,6 +11,13 @@
 // Completed includes
 // Type namespace: UnityEngine.PlayerLoop
 namespace UnityEngine::PlayerLoop {
+  // Forward declaring type: LegacyAnimationUpdate
+  struct LegacyAnimationUpdate;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PlayerLoop::PreLateUpdate::LegacyAnimationUpdate, "UnityEngine.PlayerLoop", "PreLateUpdate/LegacyAnimationUpdate");
+// Type namespace: UnityEngine.PlayerLoop
+namespace UnityEngine::PlayerLoop {
   // Size: 0x0
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -28,6 +35,4 @@ namespace UnityEngine::PlayerLoop {
   }; // UnityEngine.PlayerLoop.PreLateUpdate/UnityEngine.PlayerLoop.LegacyAnimationUpdate
   #pragma pack(pop)
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PlayerLoop::PreLateUpdate::LegacyAnimationUpdate, "UnityEngine.PlayerLoop", "PreLateUpdate/LegacyAnimationUpdate");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

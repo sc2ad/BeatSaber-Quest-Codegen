@@ -14,6 +14,13 @@
 // Completed includes
 // Type namespace: Mono
 namespace Mono {
+  // Forward declaring type: HandleStackMark
+  struct HandleStackMark;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeStructs::HandleStackMark, "Mono", "RuntimeStructs/HandleStackMark");
+// Type namespace: Mono
+namespace Mono {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -21,6 +28,15 @@ namespace Mono {
   // [TokenAttribute] Offset: FFFFFFFF
   struct RuntimeStructs::HandleStackMark/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.Int32 size
     // Size: 0x4
     // Offset: 0x0
@@ -39,6 +55,7 @@ namespace Mono {
     System::IntPtr chunk;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
+    public:
     // Creating value type constructor for type: HandleStackMark
     constexpr HandleStackMark(int size_ = {}, int interior_size_ = {}, System::IntPtr chunk_ = {}) noexcept : size{size_}, interior_size{interior_size_}, chunk{chunk_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -56,6 +73,4 @@ namespace Mono {
   static check_size<sizeof(RuntimeStructs::HandleStackMark), 8 + sizeof(System::IntPtr)> __Mono_RuntimeStructs_HandleStackMarkSizeCheck;
   static_assert(sizeof(RuntimeStructs::HandleStackMark) == 0x10);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeStructs::HandleStackMark, "Mono", "RuntimeStructs/HandleStackMark");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

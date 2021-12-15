@@ -19,6 +19,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection
@@ -41,9 +42,18 @@ namespace System {
 namespace System::Runtime::Serialization {
   // Forward declaring type: SerializationInfo
   class SerializationInfo;
-  // Skipping declaration: StreamingContext because it is already included!
+  // Forward declaring type: StreamingContext
+  struct StreamingContext;
 }
 // Completed forward declares
+// Type namespace: System.Reflection
+namespace System::Reflection {
+  // Forward declaring type: Module
+  class Module;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Reflection::Module);
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Module*, "System.Reflection", "Module");
 // Type namespace: System.Reflection
 namespace System::Reflection {
   // Size: 0x40
@@ -56,6 +66,15 @@ namespace System::Reflection {
   // [ComVisibleAttribute] Offset: E9F41C
   class Module : public ::Il2CppObject/*, public System::Runtime::Serialization::ISerializable, public System::Reflection::ICustomAttributeProvider, public System::Runtime::InteropServices::_Module*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // System.IntPtr _impl
     // Size: 0x8
     // Offset: 0x10
@@ -100,8 +119,7 @@ namespace System::Reflection {
     int token;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: Module
-    Module(System::IntPtr impl_ = {}, System::Reflection::Assembly* assembly_ = {}, ::Il2CppString* fqname_ = {}, ::Il2CppString* name_ = {}, ::Il2CppString* scopename_ = {}, bool is_resource_ = {}, int token_ = {}) noexcept : impl{impl_}, assembly{assembly_}, fqname{fqname_}, name{name_}, scopename{scopename_}, is_resource{is_resource_}, token{token_} {}
+    public:
     // Creating interface conversion operator: operator System::Runtime::Serialization::ISerializable
     operator System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);
@@ -177,7 +195,7 @@ namespace System::Reflection {
     bool IsResource();
     // public System.Object[] GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
     // Offset: 0x1E9801C
-    ::Array<::Il2CppObject*>* GetCustomAttributes(System::Type* attributeType, bool inherit);
+    ::ArrayW<::Il2CppObject*> GetCustomAttributes(System::Type* attributeType, bool inherit);
     // public System.Boolean IsDefined(System.Type attributeType, System.Boolean inherit)
     // Offset: 0x1E98080
     bool IsDefined(System::Type* attributeType, bool inherit);
@@ -213,7 +231,6 @@ namespace System::Reflection {
   // Offset: 0x1E97DD8
   bool operator ==(System::Reflection::Module* left, System::Reflection::Module& right);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Module*, "System.Reflection", "Module");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::Module::get_Assembly
 // Il2CppName: get_Assembly
@@ -312,7 +329,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Reflection::Module::GetCustomAttributes
 // Il2CppName: GetCustomAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (System::Reflection::Module::*)(System::Type*, bool)>(&System::Reflection::Module::GetCustomAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppObject*> (System::Reflection::Module::*)(System::Type*, bool)>(&System::Reflection::Module::GetCustomAttributes)> {
   static const MethodInfo* get() {
     static auto* attributeType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* inherit = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

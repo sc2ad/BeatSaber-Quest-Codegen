@@ -12,6 +12,13 @@ struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.Scripting.APIUpdating
 namespace UnityEngine::Scripting::APIUpdating {
+  // Forward declaring type: MovedFromAttributeData
+  struct MovedFromAttributeData;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Scripting::APIUpdating::MovedFromAttributeData, "UnityEngine.Scripting.APIUpdating", "MovedFromAttributeData");
+// Type namespace: UnityEngine.Scripting.APIUpdating
+namespace UnityEngine::Scripting::APIUpdating {
   // Size: 0x1C
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -19,6 +26,15 @@ namespace UnityEngine::Scripting::APIUpdating {
   // [TokenAttribute] Offset: FFFFFFFF
   struct MovedFromAttributeData/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.String className
     // Size: 0x8
     // Offset: 0x0
@@ -61,6 +77,7 @@ namespace UnityEngine::Scripting::APIUpdating {
     bool autoUdpateAPI;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating value type constructor for type: MovedFromAttributeData
     constexpr MovedFromAttributeData(::Il2CppString* className_ = {}, ::Il2CppString* nameSpace_ = {}, ::Il2CppString* assembly_ = {}, bool classHasChanged_ = {}, bool nameSpaceHasChanged_ = {}, bool assemblyHasChanged_ = {}, bool autoUdpateAPI_ = {}) noexcept : className{className_}, nameSpace{nameSpace_}, assembly{assembly_}, classHasChanged{classHasChanged_}, nameSpaceHasChanged{nameSpaceHasChanged_}, assemblyHasChanged{assemblyHasChanged_}, autoUdpateAPI{autoUdpateAPI_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -89,8 +106,6 @@ namespace UnityEngine::Scripting::APIUpdating {
   static check_size<sizeof(MovedFromAttributeData), 27 + sizeof(bool)> __UnityEngine_Scripting_APIUpdating_MovedFromAttributeDataSizeCheck;
   static_assert(sizeof(MovedFromAttributeData) == 0x1C);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Scripting::APIUpdating::MovedFromAttributeData, "UnityEngine.Scripting.APIUpdating", "MovedFromAttributeData");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Scripting::APIUpdating::MovedFromAttributeData::Set
 // Il2CppName: Set

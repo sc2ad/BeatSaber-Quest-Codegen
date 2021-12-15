@@ -17,6 +17,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net::Sockets
@@ -49,6 +50,14 @@ namespace System::Collections::Generic {
 // Completed forward declares
 // Type namespace: System.Net.Sockets
 namespace System::Net::Sockets {
+  // Forward declaring type: SocketAsyncResult
+  class SocketAsyncResult;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Net::Sockets::SocketAsyncResult);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::SocketAsyncResult*, "System.Net.Sockets", "SocketAsyncResult");
+// Type namespace: System.Net.Sockets
+namespace System::Net::Sockets {
   // Size: 0xA4
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -60,6 +69,15 @@ namespace System::Net::Sockets {
     char ___base_padding[0x6] = {};
     // Nested type: System::Net::Sockets::SocketAsyncResult::$$c
     class $$c;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.Net.Sockets.Socket socket
     // Size: 0x8
     // Offset: 0x30
@@ -89,9 +107,9 @@ namespace System::Net::Sockets {
     // public System.Byte[] Buffer
     // Size: 0x8
     // Offset: 0x50
-    ::Array<uint8_t>* Buffer;
+    ::ArrayW<uint8_t> Buffer;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // public System.Int32 Offset
     // Size: 0x4
     // Offset: 0x58
@@ -121,9 +139,9 @@ namespace System::Net::Sockets {
     // public System.Net.IPAddress[] Addresses
     // Size: 0x8
     // Offset: 0x70
-    ::Array<System::Net::IPAddress*>* Addresses;
+    ::ArrayW<System::Net::IPAddress*> Addresses;
     // Field size check
-    static_assert(sizeof(::Array<System::Net::IPAddress*>*) == 0x8);
+    static_assert(sizeof(::ArrayW<System::Net::IPAddress*>) == 0x8);
     // public System.Int32 Port
     // Size: 0x4
     // Offset: 0x78
@@ -176,8 +194,7 @@ namespace System::Net::Sockets {
     int EndCalled;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: SocketAsyncResult
-    SocketAsyncResult(System::Net::Sockets::Socket* socket_ = {}, System::Net::Sockets::SocketOperation operation_ = {}, System::Exception* DelayedException_ = {}, System::Net::EndPoint* EndPoint_ = {}, ::Array<uint8_t>* Buffer_ = {}, int Offset_ = {}, int Size_ = {}, System::Net::Sockets::SocketFlags SockFlags_ = {}, System::Net::Sockets::Socket* AcceptSocket_ = {}, ::Array<System::Net::IPAddress*>* Addresses_ = {}, int Port_ = {}, System::Collections::Generic::IList_1<System::ArraySegment_1<uint8_t>>* Buffers_ = {}, bool ReuseSocket_ = {}, int CurrentAddress_ = {}, System::Net::Sockets::Socket* AcceptedSocket_ = {}, int Total_ = {}, int error_ = {}, int EndCalled_ = {}) noexcept : socket{socket_}, operation{operation_}, DelayedException{DelayedException_}, EndPoint{EndPoint_}, Buffer{Buffer_}, Offset{Offset_}, Size{Size_}, SockFlags{SockFlags_}, AcceptSocket{AcceptSocket_}, Addresses{Addresses_}, Port{Port_}, Buffers{Buffers_}, ReuseSocket{ReuseSocket_}, CurrentAddress{CurrentAddress_}, AcceptedSocket{AcceptedSocket_}, Total{Total_}, error{error_}, EndCalled{EndCalled_} {}
+    public:
     // Get instance field reference: public System.Net.Sockets.Socket socket
     System::Net::Sockets::Socket*& dyn_socket();
     // Get instance field reference: public System.Net.Sockets.SocketOperation operation
@@ -187,7 +204,7 @@ namespace System::Net::Sockets {
     // Get instance field reference: public System.Net.EndPoint EndPoint
     System::Net::EndPoint*& dyn_EndPoint();
     // Get instance field reference: public System.Byte[] Buffer
-    ::Array<uint8_t>*& dyn_Buffer();
+    ::ArrayW<uint8_t>& dyn_Buffer();
     // Get instance field reference: public System.Int32 Offset
     int& dyn_Offset();
     // Get instance field reference: public System.Int32 Size
@@ -197,7 +214,7 @@ namespace System::Net::Sockets {
     // Get instance field reference: public System.Net.Sockets.Socket AcceptSocket
     System::Net::Sockets::Socket*& dyn_AcceptSocket();
     // Get instance field reference: public System.Net.IPAddress[] Addresses
-    ::Array<System::Net::IPAddress*>*& dyn_Addresses();
+    ::ArrayW<System::Net::IPAddress*>& dyn_Addresses();
     // Get instance field reference: public System.Int32 Port
     int& dyn_Port();
     // Get instance field reference: public System.Collections.Generic.IList`1<System.ArraySegment`1<System.Byte>> Buffers
@@ -274,7 +291,6 @@ namespace System::Net::Sockets {
   static check_size<sizeof(SocketAsyncResult), 160 + sizeof(int)> __System_Net_Sockets_SocketAsyncResultSizeCheck;
   static_assert(sizeof(SocketAsyncResult) == 0xA4);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::SocketAsyncResult*, "System.Net.Sockets", "SocketAsyncResult");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Sockets::SocketAsyncResult::get_Handle
 // Il2CppName: get_Handle

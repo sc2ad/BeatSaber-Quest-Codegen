@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -19,6 +20,14 @@ namespace UnityEngine {
   class Object;
 }
 // Completed forward declares
+// Type namespace: UnityEngine
+namespace UnityEngine {
+  // Forward declaring type: AssetBundleRequest
+  class AssetBundleRequest;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::AssetBundleRequest);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AssetBundleRequest*, "UnityEngine", "AssetBundleRequest");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x20
@@ -30,14 +39,12 @@ namespace UnityEngine {
   // [RequiredByNativeCodeAttribute] Offset: EDFB88
   class AssetBundleRequest : public UnityEngine::AsyncOperation {
     public:
-    // Creating value type constructor for type: AssetBundleRequest
-    AssetBundleRequest() noexcept {}
     // public UnityEngine.Object get_asset()
     // Offset: 0x26CF524
     UnityEngine::Object* get_asset();
     // public UnityEngine.Object[] get_allAssets()
     // Offset: 0x26CF564
-    ::Array<UnityEngine::Object*>* get_allAssets();
+    ::ArrayW<UnityEngine::Object*> get_allAssets();
     // public System.Void .ctor()
     // Offset: 0x26CF5A4
     // Implemented from: UnityEngine.AsyncOperation
@@ -52,7 +59,6 @@ namespace UnityEngine {
   }; // UnityEngine.AssetBundleRequest
   #pragma pack(pop)
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AssetBundleRequest*, "UnityEngine", "AssetBundleRequest");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AssetBundleRequest::get_asset
 // Il2CppName: get_asset
@@ -65,7 +71,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::AssetBundleRequest::get_allAssets
 // Il2CppName: get_allAssets
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Object*>* (UnityEngine::AssetBundleRequest::*)()>(&UnityEngine::AssetBundleRequest::get_allAssets)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Object*> (UnityEngine::AssetBundleRequest::*)()>(&UnityEngine::AssetBundleRequest::get_allAssets)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AssetBundleRequest*), "get_allAssets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

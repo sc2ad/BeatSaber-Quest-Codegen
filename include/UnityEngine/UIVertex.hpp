@@ -18,6 +18,13 @@
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: UIVertex
+  struct UIVertex;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIVertex, "UnityEngine", "UIVertex");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x4C
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -26,6 +33,15 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: ECC448
   struct UIVertex/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public UnityEngine.Vector3 position
     // Size: 0xC
     // Offset: 0x0
@@ -74,6 +90,7 @@ namespace UnityEngine {
     UnityEngine::Vector2 uv3;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector2) == 0x8);
+    public:
     // Creating value type constructor for type: UIVertex
     constexpr UIVertex(UnityEngine::Vector3 position_ = {}, UnityEngine::Vector3 normal_ = {}, UnityEngine::Vector4 tangent_ = {}, UnityEngine::Color32 color_ = {}, UnityEngine::Vector2 uv0_ = {}, UnityEngine::Vector2 uv1_ = {}, UnityEngine::Vector2 uv2_ = {}, UnityEngine::Vector2 uv3_ = {}) noexcept : position{position_}, normal{normal_}, tangent{tangent_}, color{color_}, uv0{uv0_}, uv1{uv1_}, uv2{uv2_}, uv3{uv3_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -116,8 +133,6 @@ namespace UnityEngine {
   static check_size<sizeof(UIVertex), 68 + sizeof(UnityEngine::Vector2)> __UnityEngine_UIVertexSizeCheck;
   static_assert(sizeof(UIVertex) == 0x4C);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIVertex, "UnityEngine", "UIVertex");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UIVertex::_cctor
 // Il2CppName: .cctor

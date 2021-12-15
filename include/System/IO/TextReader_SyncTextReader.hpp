@@ -11,7 +11,16 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: System.IO
+namespace System::IO {
+  // Forward declaring type: SyncTextReader
+  class SyncTextReader;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::IO::TextReader::SyncTextReader);
+DEFINE_IL2CPP_ARG_TYPE(System::IO::TextReader::SyncTextReader*, "System.IO", "TextReader/SyncTextReader");
 // Type namespace: System.IO
 namespace System::IO {
   // Size: 0x20
@@ -20,14 +29,22 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   class TextReader::SyncTextReader : public System::IO::TextReader {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // System.IO.TextReader _in
     // Size: 0x8
     // Offset: 0x18
     System::IO::TextReader* in;
     // Field size check
     static_assert(sizeof(System::IO::TextReader*) == 0x8);
-    // Creating value type constructor for type: SyncTextReader
-    SyncTextReader(System::IO::TextReader* in_ = {}) noexcept : in{in_} {}
+    public:
     // Deleting conversion operator: operator ::Il2CppObject*
     constexpr operator ::Il2CppObject*() const noexcept = delete;
     // Get instance field reference: System.IO.TextReader _in
@@ -63,7 +80,7 @@ namespace System::IO {
     // Offset: 0x1A0A4BC
     // Implemented from: System.IO.TextReader
     // Base method: System.Int32 TextReader::Read(in System.Char[] buffer, System.Int32 index, System.Int32 count)
-    int Read(ByRef<::Array<::Il2CppChar>*> buffer, int index, int count);
+    int Read(ByRef<::ArrayW<::Il2CppChar>> buffer, int index, int count);
     // public override System.String ReadLine()
     // Offset: 0x1A0A4DC
     // Implemented from: System.IO.TextReader
@@ -79,7 +96,6 @@ namespace System::IO {
   static check_size<sizeof(TextReader::SyncTextReader), 24 + sizeof(System::IO::TextReader*)> __System_IO_TextReader_SyncTextReaderSizeCheck;
   static_assert(sizeof(TextReader::SyncTextReader) == 0x20);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::IO::TextReader::SyncTextReader*, "System.IO", "TextReader/SyncTextReader");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::TextReader::SyncTextReader::New_ctor
 // Il2CppName: .ctor
@@ -121,7 +137,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::IO::TextReader::SyncTextReader::Read
 // Il2CppName: Read
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::TextReader::SyncTextReader::*)(ByRef<::Array<::Il2CppChar>*>, int, int)>(&System::IO::TextReader::SyncTextReader::Read)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::TextReader::SyncTextReader::*)(ByRef<::ArrayW<::Il2CppChar>>, int, int)>(&System::IO::TextReader::SyncTextReader::Read)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->this_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

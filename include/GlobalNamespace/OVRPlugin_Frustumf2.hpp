@@ -14,6 +14,13 @@
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
+  // Forward declaring type: Frustumf2
+  struct Frustumf2;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Frustumf2, "", "OVRPlugin/Frustumf2");
+// Type namespace: 
+namespace GlobalNamespace {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -21,6 +28,15 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct OVRPlugin::Frustumf2/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.Single zNear
     // Size: 0x4
     // Offset: 0x0
@@ -39,6 +55,7 @@ namespace GlobalNamespace {
     GlobalNamespace::OVRPlugin::Fovf Fov;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRPlugin::Fovf) == 0x10);
+    public:
     // Creating value type constructor for type: Frustumf2
     constexpr Frustumf2(float zNear_ = {}, float zFar_ = {}, GlobalNamespace::OVRPlugin::Fovf Fov_ = {}) noexcept : zNear{zNear_}, zFar{zFar_}, Fov{Fov_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -56,6 +73,4 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRPlugin::Frustumf2), 8 + sizeof(GlobalNamespace::OVRPlugin::Fovf)> __GlobalNamespace_OVRPlugin_Frustumf2SizeCheck;
   static_assert(sizeof(OVRPlugin::Frustumf2) == 0x18);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Frustumf2, "", "OVRPlugin/Frustumf2");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

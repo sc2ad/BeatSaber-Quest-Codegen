@@ -9,7 +9,16 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: Org.BouncyCastle.Crypto.Parameters
+namespace Org::BouncyCastle::Crypto::Parameters {
+  // Forward declaring type: DHValidationParameters
+  class DHValidationParameters;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Parameters::DHValidationParameters);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::DHValidationParameters*, "Org.BouncyCastle.Crypto.Parameters", "DHValidationParameters");
 // Type namespace: Org.BouncyCastle.Crypto.Parameters
 namespace Org::BouncyCastle::Crypto::Parameters {
   // Size: 0x1C
@@ -18,28 +27,36 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   // [TokenAttribute] Offset: FFFFFFFF
   class DHValidationParameters : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private readonly System.Byte[] seed
     // Size: 0x8
     // Offset: 0x10
-    ::Array<uint8_t>* seed;
+    ::ArrayW<uint8_t> seed;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private readonly System.Int32 counter
     // Size: 0x4
     // Offset: 0x18
     int counter;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: DHValidationParameters
-    DHValidationParameters(::Array<uint8_t>* seed_ = {}, int counter_ = {}) noexcept : seed{seed_}, counter{counter_} {}
+    public:
     // Get instance field reference: private readonly System.Byte[] seed
-    ::Array<uint8_t>*& dyn_seed();
+    ::ArrayW<uint8_t>& dyn_seed();
     // Get instance field reference: private readonly System.Int32 counter
     int& dyn_counter();
     // public System.Void .ctor(System.Byte[] seed, System.Int32 counter)
     // Offset: 0x13B7120
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DHValidationParameters* New_ctor(::Array<uint8_t>* seed, int counter) {
+    static DHValidationParameters* New_ctor(::ArrayW<uint8_t> seed, int counter) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::DHValidationParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DHValidationParameters*, creationType>(seed, counter)));
     }
@@ -61,7 +78,6 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   static check_size<sizeof(DHValidationParameters), 24 + sizeof(int)> __Org_BouncyCastle_Crypto_Parameters_DHValidationParametersSizeCheck;
   static_assert(sizeof(DHValidationParameters) == 0x1C);
 }
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::DHValidationParameters*, "Org.BouncyCastle.Crypto.Parameters", "DHValidationParameters");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::DHValidationParameters::New_ctor
 // Il2CppName: .ctor

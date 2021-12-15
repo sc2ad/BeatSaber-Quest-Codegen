@@ -9,6 +9,13 @@
 // Completed includes
 // Type namespace: Valve.VR
 namespace Valve::VR {
+  // Forward declaring type: VREvent_MessageOverlay_t
+  struct VREvent_MessageOverlay_t;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VREvent_MessageOverlay_t, "Valve.VR", "VREvent_MessageOverlay_t");
+// Type namespace: Valve.VR
+namespace Valve::VR {
   // Size: 0x4
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -16,12 +23,22 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VREvent_MessageOverlay_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.UInt32 unVRMessageOverlayResponse
     // Size: 0x4
     // Offset: 0x0
     uint unVRMessageOverlayResponse;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
+    public:
     // Creating value type constructor for type: VREvent_MessageOverlay_t
     constexpr VREvent_MessageOverlay_t(uint unVRMessageOverlayResponse_ = {}) noexcept : unVRMessageOverlayResponse{unVRMessageOverlayResponse_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -39,6 +56,4 @@ namespace Valve::VR {
   static check_size<sizeof(VREvent_MessageOverlay_t), 0 + sizeof(uint)> __Valve_VR_VREvent_MessageOverlay_tSizeCheck;
   static_assert(sizeof(VREvent_MessageOverlay_t) == 0x4);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VREvent_MessageOverlay_t, "Valve.VR", "VREvent_MessageOverlay_t");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

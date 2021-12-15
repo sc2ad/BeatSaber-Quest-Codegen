@@ -11,12 +11,21 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
 }
 // Completed forward declares
+// Type namespace: 
+namespace GlobalNamespace {
+  // Forward declaring type: PerceivedLoudnessPerLevelSO
+  class PerceivedLoudnessPerLevelSO;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(GlobalNamespace::PerceivedLoudnessPerLevelSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PerceivedLoudnessPerLevelSO*, "", "PerceivedLoudnessPerLevelSO");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -27,18 +36,26 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair
     class PerceivedLevelLoudnessPair;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public PerceivedLoudnessPerLevelSO/PerceivedLevelLoudnessPair[] perceivedLoudnessPerLevel
     // Size: 0x8
     // Offset: 0x18
-    ::Array<GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair*>* perceivedLoudnessPerLevel;
+    ::ArrayW<GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair*> perceivedLoudnessPerLevel;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair*>*) == 0x8);
-    // Creating value type constructor for type: PerceivedLoudnessPerLevelSO
-    PerceivedLoudnessPerLevelSO(::Array<GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair*>* perceivedLoudnessPerLevel_ = {}) noexcept : perceivedLoudnessPerLevel{perceivedLoudnessPerLevel_} {}
+    static_assert(sizeof(::ArrayW<GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair*>) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public PerceivedLoudnessPerLevelSO/PerceivedLevelLoudnessPair[] perceivedLoudnessPerLevel
-    ::Array<GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair*>*& dyn_perceivedLoudnessPerLevel();
+    ::ArrayW<GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair*>& dyn_perceivedLoudnessPerLevel();
     // public System.Void .ctor()
     // Offset: 0x114DA54
     // Implemented from: UnityEngine.ScriptableObject
@@ -52,10 +69,9 @@ namespace GlobalNamespace {
     }
   }; // PerceivedLoudnessPerLevelSO
   #pragma pack(pop)
-  static check_size<sizeof(PerceivedLoudnessPerLevelSO), 24 + sizeof(::Array<GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair*>*)> __GlobalNamespace_PerceivedLoudnessPerLevelSOSizeCheck;
+  static check_size<sizeof(PerceivedLoudnessPerLevelSO), 24 + sizeof(::ArrayW<GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair*>)> __GlobalNamespace_PerceivedLoudnessPerLevelSOSizeCheck;
   static_assert(sizeof(PerceivedLoudnessPerLevelSO) == 0x20);
 }
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PerceivedLoudnessPerLevelSO*, "", "PerceivedLoudnessPerLevelSO");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PerceivedLoudnessPerLevelSO::New_ctor
 // Il2CppName: .ctor

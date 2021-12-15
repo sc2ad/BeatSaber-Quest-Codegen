@@ -11,10 +11,6 @@
 #include "System/ValueType.hpp"
 // Including type: UnityEngine.ParticleSystemCurveMode
 #include "UnityEngine/ParticleSystemCurveMode.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -25,6 +21,13 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: MinMaxCurve
+  struct MinMaxCurve;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::MinMaxCurve, "UnityEngine", "ParticleSystem/MinMaxCurve");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x20
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -33,6 +36,15 @@ namespace UnityEngine {
   // [NativeTypeAttribute] Offset: EE5E38
   struct ParticleSystem::MinMaxCurve/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private UnityEngine.ParticleSystemCurveMode m_Mode
     // Size: 0x4
     // Offset: 0x0
@@ -69,6 +81,7 @@ namespace UnityEngine {
     float m_ConstantMax;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: MinMaxCurve
     constexpr MinMaxCurve(UnityEngine::ParticleSystemCurveMode m_Mode_ = {}, float m_CurveMultiplier_ = {}, UnityEngine::AnimationCurve* m_CurveMin_ = {}, UnityEngine::AnimationCurve* m_CurveMax_ = {}, float m_ConstantMin_ = {}, float m_ConstantMax_ = {}) noexcept : m_Mode{m_Mode_}, m_CurveMultiplier{m_CurveMultiplier_}, m_CurveMin{m_CurveMin_}, m_CurveMax{m_CurveMax_}, m_ConstantMin{m_ConstantMin_}, m_ConstantMax{m_ConstantMax_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -98,26 +111,15 @@ namespace UnityEngine {
     float get_constant();
     // public System.Void .ctor(System.Single constant)
     // Offset: 0x26C7E7C
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    MinMaxCurve(float constant) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ParticleSystem::MinMaxCurve::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(constant)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, constant);
-    }
+    MinMaxCurve(float constant);
     // public System.Void .ctor(System.Single min, System.Single max)
     // Offset: 0x26C7E90
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    MinMaxCurve(float min, float max) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ParticleSystem::MinMaxCurve::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(min), ::il2cpp_utils::ExtractType(max)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, min, max);
-    }
+    MinMaxCurve(float min, float max);
   }; // UnityEngine.ParticleSystem/UnityEngine.MinMaxCurve
   #pragma pack(pop)
   static check_size<sizeof(ParticleSystem::MinMaxCurve), 28 + sizeof(float)> __UnityEngine_ParticleSystem_MinMaxCurveSizeCheck;
   static_assert(sizeof(ParticleSystem::MinMaxCurve) == 0x20);
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::MinMaxCurve, "UnityEngine", "ParticleSystem/MinMaxCurve");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::MinMaxCurve::set_constantMax
 // Il2CppName: set_constantMax

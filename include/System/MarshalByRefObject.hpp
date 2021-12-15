@@ -26,6 +26,14 @@ namespace System {
 // Completed forward declares
 // Type namespace: System
 namespace System {
+  // Forward declaring type: MarshalByRefObject
+  class MarshalByRefObject;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::MarshalByRefObject);
+DEFINE_IL2CPP_ARG_TYPE(System::MarshalByRefObject*, "System", "MarshalByRefObject");
+// Type namespace: System
+namespace System {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -34,14 +42,22 @@ namespace System {
   // [ComVisibleAttribute] Offset: E9E290
   class MarshalByRefObject : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.Object _identity
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppObject* identity;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    // Creating value type constructor for type: MarshalByRefObject
-    MarshalByRefObject(::Il2CppObject* identity_ = {}) noexcept : identity{identity_} {}
+    public:
     // Creating conversion operator: operator ::Il2CppObject*
     constexpr operator ::Il2CppObject*() const noexcept {
       return identity;
@@ -74,7 +90,6 @@ namespace System {
   static check_size<sizeof(MarshalByRefObject), 16 + sizeof(::Il2CppObject*)> __System_MarshalByRefObjectSizeCheck;
   static_assert(sizeof(MarshalByRefObject) == 0x18);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::MarshalByRefObject*, "System", "MarshalByRefObject");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::MarshalByRefObject::get_ObjectIdentity
 // Il2CppName: get_ObjectIdentity

@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: Valve.VR
 namespace Valve::VR {
+  // Forward declaring type: RenderModel_TextureMap_t
+  struct RenderModel_TextureMap_t;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::RenderModel_TextureMap_t, "Valve.VR", "RenderModel_TextureMap_t");
+// Type namespace: Valve.VR
+namespace Valve::VR {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -19,6 +26,15 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct RenderModel_TextureMap_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.Char unWidth
     // Size: 0x2
     // Offset: 0x0
@@ -39,6 +55,7 @@ namespace Valve::VR {
     System::IntPtr rubTextureMapData;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
+    public:
     // Creating value type constructor for type: RenderModel_TextureMap_t
     constexpr RenderModel_TextureMap_t(::Il2CppChar unWidth_ = {}, ::Il2CppChar unHeight_ = {}, System::IntPtr rubTextureMapData_ = {}) noexcept : unWidth{unWidth_}, unHeight{unHeight_}, rubTextureMapData{rubTextureMapData_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -56,6 +73,4 @@ namespace Valve::VR {
   static check_size<sizeof(RenderModel_TextureMap_t), 8 + sizeof(System::IntPtr)> __Valve_VR_RenderModel_TextureMap_tSizeCheck;
   static_assert(sizeof(RenderModel_TextureMap_t) == 0x10);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::RenderModel_TextureMap_t, "Valve.VR", "RenderModel_TextureMap_t");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

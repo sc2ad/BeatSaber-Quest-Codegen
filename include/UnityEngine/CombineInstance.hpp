@@ -9,6 +9,8 @@
 #include "System/ValueType.hpp"
 // Including type: UnityEngine.Matrix4x4
 #include "UnityEngine/Matrix4x4.hpp"
+// Including type: UnityEngine.Vector4
+#include "UnityEngine/Vector4.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -19,6 +21,13 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: CombineInstance
+  struct CombineInstance;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CombineInstance, "UnityEngine", "CombineInstance");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x68
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -26,6 +35,15 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   struct CombineInstance/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.Int32 m_MeshInstanceID
     // Size: 0x4
     // Offset: 0x0
@@ -56,6 +74,7 @@ namespace UnityEngine {
     UnityEngine::Vector4 m_RealtimeLightmapScaleOffset;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector4) == 0x10);
+    public:
     // Creating value type constructor for type: CombineInstance
     constexpr CombineInstance(int m_MeshInstanceID_ = {}, int m_SubMeshIndex_ = {}, UnityEngine::Matrix4x4 m_Transform_ = {}, UnityEngine::Vector4 m_LightmapScaleOffset_ = {}, UnityEngine::Vector4 m_RealtimeLightmapScaleOffset_ = {}) noexcept : m_MeshInstanceID{m_MeshInstanceID_}, m_SubMeshIndex{m_SubMeshIndex_}, m_Transform{m_Transform_}, m_LightmapScaleOffset{m_LightmapScaleOffset_}, m_RealtimeLightmapScaleOffset{m_RealtimeLightmapScaleOffset_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -89,8 +108,6 @@ namespace UnityEngine {
   static check_size<sizeof(CombineInstance), 88 + sizeof(UnityEngine::Vector4)> __UnityEngine_CombineInstanceSizeCheck;
   static_assert(sizeof(CombineInstance) == 0x68);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CombineInstance, "UnityEngine", "CombineInstance");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::CombineInstance::get_mesh
 // Il2CppName: get_mesh

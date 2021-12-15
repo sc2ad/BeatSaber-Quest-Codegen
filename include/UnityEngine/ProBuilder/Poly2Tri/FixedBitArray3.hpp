@@ -27,6 +27,13 @@ namespace System::Collections {
 // Completed forward declares
 // Type namespace: UnityEngine.ProBuilder.Poly2Tri
 namespace UnityEngine::ProBuilder::Poly2Tri {
+  // Forward declaring type: FixedBitArray3
+  struct FixedBitArray3;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3, "UnityEngine.ProBuilder.Poly2Tri", "FixedBitArray3");
+// Type namespace: UnityEngine.ProBuilder.Poly2Tri
+namespace UnityEngine::ProBuilder::Poly2Tri {
   // Size: 0x3
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -37,6 +44,15 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     public:
     // Nested type: UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3::$Enumerate$d__10
     class $Enumerate$d__10;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.Boolean _0
     // Size: 0x1
     // Offset: 0x0
@@ -55,6 +71,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     bool _2;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating value type constructor for type: FixedBitArray3
     constexpr FixedBitArray3(bool _0_ = {}, bool _1_ = {}, bool _2_ = {}) noexcept : _0{_0_}, _1{_1_}, _2{_2_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -94,8 +111,6 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   static check_size<sizeof(FixedBitArray3), 2 + sizeof(bool)> __UnityEngine_ProBuilder_Poly2Tri_FixedBitArray3SizeCheck;
   static_assert(sizeof(FixedBitArray3) == 0x3);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3, "UnityEngine.ProBuilder.Poly2Tri", "FixedBitArray3");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3::get_Item
 // Il2CppName: get_Item

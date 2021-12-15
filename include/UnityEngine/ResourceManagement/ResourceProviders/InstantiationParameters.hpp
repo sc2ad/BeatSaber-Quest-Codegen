@@ -27,6 +27,13 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine.ResourceManagement.ResourceProviders
 namespace UnityEngine::ResourceManagement::ResourceProviders {
+  // Forward declaring type: InstantiationParameters
+  struct InstantiationParameters;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters, "UnityEngine.ResourceManagement.ResourceProviders", "InstantiationParameters");
+// Type namespace: UnityEngine.ResourceManagement.ResourceProviders
+namespace UnityEngine::ResourceManagement::ResourceProviders {
   // Size: 0x2A
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -34,6 +41,15 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   // [TokenAttribute] Offset: FFFFFFFF
   struct InstantiationParameters/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private UnityEngine.Vector3 m_Position
     // Size: 0xC
     // Offset: 0x0
@@ -66,6 +82,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     bool m_SetPositionRotation;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating value type constructor for type: InstantiationParameters
     constexpr InstantiationParameters(UnityEngine::Vector3 m_Position_ = {}, UnityEngine::Quaternion m_Rotation_ = {}, UnityEngine::Transform* m_Parent_ = {}, bool m_InstantiateInWorldPosition_ = {}, bool m_SetPositionRotation_ = {}) noexcept : m_Position{m_Position_}, m_Rotation{m_Rotation_}, m_Parent{m_Parent_}, m_InstantiateInWorldPosition{m_InstantiateInWorldPosition_}, m_SetPositionRotation{m_SetPositionRotation_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -99,20 +116,10 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     bool get_SetPositionRotation();
     // public System.Void .ctor(UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace)
     // Offset: 0x1BEDFAC
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    InstantiationParameters(UnityEngine::Transform* parent, bool instantiateInWorldSpace) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(parent), ::il2cpp_utils::ExtractType(instantiateInWorldSpace)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, parent, instantiateInWorldSpace);
-    }
+    InstantiationParameters(UnityEngine::Transform* parent, bool instantiateInWorldSpace);
     // public System.Void .ctor(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, UnityEngine.Transform parent)
     // Offset: 0x1BEE06C
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    InstantiationParameters(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation, UnityEngine::Transform* parent) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(position), ::il2cpp_utils::ExtractType(rotation), ::il2cpp_utils::ExtractType(parent)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, position, rotation, parent);
-    }
+    InstantiationParameters(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation, UnityEngine::Transform* parent);
     // public TObject Instantiate(TObject source)
     // Offset: 0xFFFFFFFF
     template<class TObject>
@@ -121,14 +128,13 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters::Instantiate");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "Instantiate", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(source)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<TObject, false>(*this, ___generic__method, source);
+      return ::il2cpp_utils::RunMethodThrow<TObject, false>(this, ___generic__method, source);
     }
   }; // UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters
   #pragma pack(pop)
   static check_size<sizeof(InstantiationParameters), 41 + sizeof(bool)> __UnityEngine_ResourceManagement_ResourceProviders_InstantiationParametersSizeCheck;
   static_assert(sizeof(InstantiationParameters) == 0x2A);
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters, "UnityEngine.ResourceManagement.ResourceProviders", "InstantiationParameters");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters::get_Position
 // Il2CppName: get_Position

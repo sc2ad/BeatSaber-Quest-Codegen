@@ -13,10 +13,6 @@
 #include "System/IEquatable_1.hpp"
 // Including type: System.Byte
 #include "System/Byte.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: LiteNetLib::Utils
@@ -29,6 +25,13 @@ namespace LiteNetLib::Utils {
 // Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
+  // Forward declaring type: SyncStateId
+  struct SyncStateId;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SyncStateId, "", "SyncStateId");
+// Type namespace: 
+namespace GlobalNamespace {
   // Size: 0x1
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -37,12 +40,22 @@ namespace GlobalNamespace {
   // [IsReadOnlyAttribute] Offset: FFFFFFFF
   struct SyncStateId/*, public System::ValueType, public LiteNetLib::Utils::INetImmutableSerializable_1<GlobalNamespace::SyncStateId>, public System::IEquatable_1<GlobalNamespace::SyncStateId>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private readonly System.Byte _id
     // Size: 0x1
     // Offset: 0x0
     uint8_t id;
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
+    public:
     // Creating value type constructor for type: SyncStateId
     constexpr SyncStateId(uint8_t id_ = {}) noexcept : id{id_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -71,8 +84,7 @@ namespace GlobalNamespace {
     uint8_t& dyn__id();
     // private System.Void .ctor(System.Byte id)
     // Offset: 0x268D990
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    // ABORTED: conflicts with another method.  SyncStateId(uint8_t id)
+    // ABORTED: conflicts with another method.  SyncStateId(uint8_t id);
     // public System.Boolean Equals(SyncStateId other)
     // Offset: 0x268D998
     bool Equals(GlobalNamespace::SyncStateId other);
@@ -123,7 +135,6 @@ namespace GlobalNamespace {
   // Offset: 0x268DA98
   bool operator !=(const GlobalNamespace::SyncStateId& a, const GlobalNamespace::SyncStateId& b);
 }
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SyncStateId, "", "SyncStateId");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SyncStateId::SyncStateId
 // Il2CppName: .ctor

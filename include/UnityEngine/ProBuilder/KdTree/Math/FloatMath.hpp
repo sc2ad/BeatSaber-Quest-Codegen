@@ -11,7 +11,16 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: UnityEngine.ProBuilder.KdTree.Math
+namespace UnityEngine::ProBuilder::KdTree::Math {
+  // Forward declaring type: FloatMath
+  class FloatMath;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::ProBuilder::KdTree::Math::FloatMath);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::KdTree::Math::FloatMath*, "UnityEngine.ProBuilder.KdTree.Math", "FloatMath");
 // Type namespace: UnityEngine.ProBuilder.KdTree.Math
 namespace UnityEngine::ProBuilder::KdTree::Math {
   // WARNING Size may be invalid!
@@ -19,8 +28,6 @@ namespace UnityEngine::ProBuilder::KdTree::Math {
   // [TokenAttribute] Offset: FFFFFFFF
   class FloatMath : public UnityEngine::ProBuilder::KdTree::Math::TypeMath_1<float> {
     public:
-    // Creating value type constructor for type: FloatMath
-    FloatMath() noexcept {}
     // public System.Single get_MinValue()
     // Offset: 0x26D4EF8
     float get_MinValue();
@@ -50,7 +57,7 @@ namespace UnityEngine::ProBuilder::KdTree::Math {
     float Multiply(float a, float b);
     // public System.Single DistanceSquaredBetweenPoints(System.Single[] a, System.Single[] b)
     // Offset: 0x26D4F3C
-    float DistanceSquaredBetweenPoints(::Array<float>* a, ::Array<float>* b);
+    float DistanceSquaredBetweenPoints(::ArrayW<float> a, ::ArrayW<float> b);
     // public System.Void .ctor()
     // Offset: 0x26D5050
     // Implemented from: UnityEngine.ProBuilder.KdTree.Math.TypeMath`1
@@ -63,7 +70,6 @@ namespace UnityEngine::ProBuilder::KdTree::Math {
     }
   }; // UnityEngine.ProBuilder.KdTree.Math.FloatMath
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::KdTree::Math::FloatMath*, "UnityEngine.ProBuilder.KdTree.Math", "FloatMath");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::KdTree::Math::FloatMath::get_MinValue
 // Il2CppName: get_MinValue
@@ -150,7 +156,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::KdTree::Math::FloatMath::DistanceSquaredBetweenPoints
 // Il2CppName: DistanceSquaredBetweenPoints
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::ProBuilder::KdTree::Math::FloatMath::*)(::Array<float>*, ::Array<float>*)>(&UnityEngine::ProBuilder::KdTree::Math::FloatMath::DistanceSquaredBetweenPoints)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::ProBuilder::KdTree::Math::FloatMath::*)(::ArrayW<float>, ::ArrayW<float>)>(&UnityEngine::ProBuilder::KdTree::Math::FloatMath::DistanceSquaredBetweenPoints)> {
   static const MethodInfo* get() {
     static auto* a = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     static auto* b = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;

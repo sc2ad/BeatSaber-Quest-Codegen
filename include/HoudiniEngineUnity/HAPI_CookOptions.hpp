@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
+  // Forward declaring type: HAPI_CookOptions
+  struct HAPI_CookOptions;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_CookOptions, "HoudiniEngineUnity", "HAPI_CookOptions");
+// Type namespace: HoudiniEngineUnity
+namespace HoudiniEngineUnity {
   // Size: 0x24
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -19,6 +26,15 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HAPI_CookOptions/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.Boolean splitGeosByGroup
     // Size: 0x1
     // Offset: 0x0
@@ -115,6 +131,7 @@ namespace HoudiniEngineUnity {
     int extraFlags;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: HAPI_CookOptions
     constexpr HAPI_CookOptions(bool splitGeosByGroup_ = {}, bool splitGeosByAttribute_ = {}, int splitAttrSH_ = {}, int maxVerticesPerPrimitive_ = {}, bool refineCurveToLinear_ = {}, float curveRefineLOD_ = {}, bool clearErrorsAndWarnings_ = {}, bool cookTemplatedGeos_ = {}, bool splitPointsByVertexAttributes_ = {}, HoudiniEngineUnity::HAPI_PackedPrimInstancingMode packedPrimInstancingMode_ = {}, bool handleBoxPartTypes_ = {}, bool handleSpherePartTypes_ = {}, bool checkPartChanges_ = {}, bool cacheMeshTopology_ = {}, int extraFlags_ = {}) noexcept : splitGeosByGroup{splitGeosByGroup_}, splitGeosByAttribute{splitGeosByAttribute_}, splitAttrSH{splitAttrSH_}, maxVerticesPerPrimitive{maxVerticesPerPrimitive_}, refineCurveToLinear{refineCurveToLinear_}, curveRefineLOD{curveRefineLOD_}, clearErrorsAndWarnings{clearErrorsAndWarnings_}, cookTemplatedGeos{cookTemplatedGeos_}, splitPointsByVertexAttributes{splitPointsByVertexAttributes_}, packedPrimInstancingMode{packedPrimInstancingMode_}, handleBoxPartTypes{handleBoxPartTypes_}, handleSpherePartTypes{handleSpherePartTypes_}, checkPartChanges{checkPartChanges_}, cacheMeshTopology{cacheMeshTopology_}, extraFlags{extraFlags_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -156,6 +173,4 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HAPI_CookOptions), 32 + sizeof(int)> __HoudiniEngineUnity_HAPI_CookOptionsSizeCheck;
   static_assert(sizeof(HAPI_CookOptions) == 0x24);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_CookOptions, "HoudiniEngineUnity", "HAPI_CookOptions");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

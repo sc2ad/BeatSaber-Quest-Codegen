@@ -9,6 +9,13 @@
 // Completed includes
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
+  // Forward declaring type: HEU_GenerateOptions
+  struct HEU_GenerateOptions;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_GenerateOptions, "HoudiniEngineUnity", "HEU_GenerateOptions");
+// Type namespace: HoudiniEngineUnity
+namespace HoudiniEngineUnity {
   // Size: 0x5
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -16,6 +23,15 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HEU_GenerateOptions/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.Boolean _generateUVs
     // Size: 0x1
     // Offset: 0x0
@@ -46,6 +62,7 @@ namespace HoudiniEngineUnity {
     bool splitPoints;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating value type constructor for type: HEU_GenerateOptions
     constexpr HEU_GenerateOptions(bool generateUVs_ = {}, bool generateTangents_ = {}, bool generateNormals_ = {}, bool useLODGroups_ = {}, bool splitPoints_ = {}) noexcept : generateUVs{generateUVs_}, generateTangents{generateTangents_}, generateNormals{generateNormals_}, useLODGroups{useLODGroups_}, splitPoints{splitPoints_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -67,6 +84,4 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_GenerateOptions), 4 + sizeof(bool)> __HoudiniEngineUnity_HEU_GenerateOptionsSizeCheck;
   static_assert(sizeof(HEU_GenerateOptions) == 0x5);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_GenerateOptions, "HoudiniEngineUnity", "HEU_GenerateOptions");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

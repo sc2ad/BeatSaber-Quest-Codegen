@@ -9,7 +9,16 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: TMPro
+namespace TMPro {
+  // Forward declaring type: TMP_Style
+  class TMP_Style;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(TMPro::TMP_Style);
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Style*, "TMPro", "TMP_Style");
 // Type namespace: TMPro
 namespace TMPro {
   // Size: 0x40
@@ -18,6 +27,15 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class TMP_Style : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.String m_Name
     // Size: 0x8
     // Offset: 0x10
@@ -47,17 +65,16 @@ namespace TMPro {
     // private System.Int32[] m_OpeningTagArray
     // Size: 0x8
     // Offset: 0x30
-    ::Array<int>* m_OpeningTagArray;
+    ::ArrayW<int> m_OpeningTagArray;
     // Field size check
-    static_assert(sizeof(::Array<int>*) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // private System.Int32[] m_ClosingTagArray
     // Size: 0x8
     // Offset: 0x38
-    ::Array<int>* m_ClosingTagArray;
+    ::ArrayW<int> m_ClosingTagArray;
     // Field size check
-    static_assert(sizeof(::Array<int>*) == 0x8);
-    // Creating value type constructor for type: TMP_Style
-    TMP_Style(::Il2CppString* m_Name_ = {}, int m_HashCode_ = {}, ::Il2CppString* m_OpeningDefinition_ = {}, ::Il2CppString* m_ClosingDefinition_ = {}, ::Array<int>* m_OpeningTagArray_ = {}, ::Array<int>* m_ClosingTagArray_ = {}) noexcept : m_Name{m_Name_}, m_HashCode{m_HashCode_}, m_OpeningDefinition{m_OpeningDefinition_}, m_ClosingDefinition{m_ClosingDefinition_}, m_OpeningTagArray{m_OpeningTagArray_}, m_ClosingTagArray{m_ClosingTagArray_} {}
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
+    public:
     // Get instance field reference: private System.String m_Name
     ::Il2CppString*& dyn_m_Name();
     // Get instance field reference: private System.Int32 m_HashCode
@@ -67,9 +84,9 @@ namespace TMPro {
     // Get instance field reference: private System.String m_ClosingDefinition
     ::Il2CppString*& dyn_m_ClosingDefinition();
     // Get instance field reference: private System.Int32[] m_OpeningTagArray
-    ::Array<int>*& dyn_m_OpeningTagArray();
+    ::ArrayW<int>& dyn_m_OpeningTagArray();
     // Get instance field reference: private System.Int32[] m_ClosingTagArray
-    ::Array<int>*& dyn_m_ClosingTagArray();
+    ::ArrayW<int>& dyn_m_ClosingTagArray();
     // public System.String get_name()
     // Offset: 0x1262F0C
     ::Il2CppString* get_name();
@@ -90,10 +107,10 @@ namespace TMPro {
     ::Il2CppString* get_styleClosingDefinition();
     // public System.Int32[] get_styleOpeningTagArray()
     // Offset: 0x1262F7C
-    ::Array<int>* get_styleOpeningTagArray();
+    ::ArrayW<int> get_styleOpeningTagArray();
     // public System.Int32[] get_styleClosingTagArray()
     // Offset: 0x1262F84
-    ::Array<int>* get_styleClosingTagArray();
+    ::ArrayW<int> get_styleClosingTagArray();
     // public System.Void RefreshStyle()
     // Offset: 0x1262F8C
     void RefreshStyle();
@@ -108,10 +125,9 @@ namespace TMPro {
     }
   }; // TMPro.TMP_Style
   #pragma pack(pop)
-  static check_size<sizeof(TMP_Style), 56 + sizeof(::Array<int>*)> __TMPro_TMP_StyleSizeCheck;
+  static check_size<sizeof(TMP_Style), 56 + sizeof(::ArrayW<int>)> __TMPro_TMP_StyleSizeCheck;
   static_assert(sizeof(TMP_Style) == 0x40);
 }
-DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Style*, "TMPro", "TMP_Style");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_Style::get_name
 // Il2CppName: get_name
@@ -166,7 +182,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: TMPro::TMP_Style::get_styleOpeningTagArray
 // Il2CppName: get_styleOpeningTagArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (TMPro::TMP_Style::*)()>(&TMPro::TMP_Style::get_styleOpeningTagArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int> (TMPro::TMP_Style::*)()>(&TMPro::TMP_Style::get_styleOpeningTagArray)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Style*), "get_styleOpeningTagArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -174,7 +190,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int
 // Writing MetadataGetter for method: TMPro::TMP_Style::get_styleClosingTagArray
 // Il2CppName: get_styleClosingTagArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (TMPro::TMP_Style::*)()>(&TMPro::TMP_Style::get_styleClosingTagArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int> (TMPro::TMP_Style::*)()>(&TMPro::TMP_Style::get_styleClosingTagArray)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Style*), "get_styleClosingTagArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

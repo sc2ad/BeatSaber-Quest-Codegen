@@ -7,11 +7,15 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
-// Begin il2cpp-utils forward declares
-template<class T>
-struct Array;
-// Completed il2cpp-utils forward declares
+// Type namespace: UnityEngine
+namespace UnityEngine {
+  // Forward declaring type: Mathf
+  struct Mathf;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Mathf, "UnityEngine", "Mathf");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x0
@@ -88,14 +92,7 @@ namespace UnityEngine {
     static float Max(float a, float b);
     // static public System.Single Max(params System.Single[] values)
     // Offset: 0x1D9C334
-    static float Max(::Array<float>* values);
-    // Creating initializer_list -> params proxy for: System.Single Max(params System.Single[] values)
-    static float Max(std::initializer_list<float> values);
-    // Creating TArgs -> initializer_list proxy for: System.Single Max(params System.Single[] values)
-    template<class ...TParams>
-    static float Max(TParams&&... values) {
-      return Max({values...});
-    }
+    static float Max(::ArrayW<float> values);
     // static public System.Int32 Max(System.Int32 a, System.Int32 b)
     // Offset: 0x1D9C388
     static int Max(int a, int b);
@@ -168,8 +165,6 @@ namespace UnityEngine {
   }; // UnityEngine.Mathf
   #pragma pack(pop)
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Mathf, "UnityEngine", "Mathf");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Mathf::_cctor
 // Il2CppName: .cctor
@@ -330,7 +325,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(f
 // Writing MetadataGetter for method: UnityEngine::Mathf::Max
 // Il2CppName: Max
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(::Array<float>*)>(&UnityEngine::Mathf::Max)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(::ArrayW<float>)>(&UnityEngine::Mathf::Max)> {
   static const MethodInfo* get() {
     static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mathf), "Max", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{values});

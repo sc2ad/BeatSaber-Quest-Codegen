@@ -19,6 +19,14 @@ namespace UnityEngine::Rendering {
 // Completed forward declares
 // Type namespace: UnityEngine.Rendering
 namespace UnityEngine::Rendering {
+  // Forward declaring type: BatchRendererGroup
+  class BatchRendererGroup;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::Rendering::BatchRendererGroup);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::BatchRendererGroup*, "UnityEngine.Rendering", "BatchRendererGroup");
+// Type namespace: UnityEngine.Rendering
+namespace UnityEngine::Rendering {
   // Size: 0x20
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -31,6 +39,15 @@ namespace UnityEngine::Rendering {
     public:
     // Nested type: UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling
     class OnPerformCulling;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.IntPtr m_GroupHandle
     // Size: 0x8
     // Offset: 0x10
@@ -43,8 +60,7 @@ namespace UnityEngine::Rendering {
     UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling* m_PerformCulling;
     // Field size check
     static_assert(sizeof(UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling*) == 0x8);
-    // Creating value type constructor for type: BatchRendererGroup
-    BatchRendererGroup(System::IntPtr m_GroupHandle_ = {}, UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling* m_PerformCulling_ = {}) noexcept : m_GroupHandle{m_GroupHandle_}, m_PerformCulling{m_PerformCulling_} {}
+    public:
     // Get instance field reference: private System.IntPtr m_GroupHandle
     System::IntPtr& dyn_m_GroupHandle();
     // Get instance field reference: private UnityEngine.Rendering.BatchRendererGroup/UnityEngine.Rendering.OnPerformCulling m_PerformCulling
@@ -57,8 +73,6 @@ namespace UnityEngine::Rendering {
   static check_size<sizeof(BatchRendererGroup), 24 + sizeof(UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling*)> __UnityEngine_Rendering_BatchRendererGroupSizeCheck;
   static_assert(sizeof(BatchRendererGroup) == 0x20);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::BatchRendererGroup*, "UnityEngine.Rendering", "BatchRendererGroup");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Rendering::BatchRendererGroup::InvokeOnPerformCulling
 // Il2CppName: InvokeOnPerformCulling

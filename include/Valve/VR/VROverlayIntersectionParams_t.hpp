@@ -14,6 +14,13 @@
 // Completed includes
 // Type namespace: Valve.VR
 namespace Valve::VR {
+  // Forward declaring type: VROverlayIntersectionParams_t
+  struct VROverlayIntersectionParams_t;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VROverlayIntersectionParams_t, "Valve.VR", "VROverlayIntersectionParams_t");
+// Type namespace: Valve.VR
+namespace Valve::VR {
   // Size: 0x1C
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -21,6 +28,15 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VROverlayIntersectionParams_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public Valve.VR.HmdVector3_t vSource
     // Size: 0xC
     // Offset: 0x0
@@ -39,6 +55,7 @@ namespace Valve::VR {
     Valve::VR::ETrackingUniverseOrigin eOrigin;
     // Field size check
     static_assert(sizeof(Valve::VR::ETrackingUniverseOrigin) == 0x4);
+    public:
     // Creating value type constructor for type: VROverlayIntersectionParams_t
     constexpr VROverlayIntersectionParams_t(Valve::VR::HmdVector3_t vSource_ = {}, Valve::VR::HmdVector3_t vDirection_ = {}, Valve::VR::ETrackingUniverseOrigin eOrigin_ = {}) noexcept : vSource{vSource_}, vDirection{vDirection_}, eOrigin{eOrigin_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -56,6 +73,4 @@ namespace Valve::VR {
   static check_size<sizeof(VROverlayIntersectionParams_t), 24 + sizeof(Valve::VR::ETrackingUniverseOrigin)> __Valve_VR_VROverlayIntersectionParams_tSizeCheck;
   static_assert(sizeof(VROverlayIntersectionParams_t) == 0x1C);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VROverlayIntersectionParams_t, "Valve.VR", "VROverlayIntersectionParams_t");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

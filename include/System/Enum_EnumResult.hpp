@@ -21,6 +21,13 @@ namespace System {
 // Completed forward declares
 // Type namespace: System
 namespace System {
+  // Forward declaring type: EnumResult
+  struct EnumResult;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Enum::EnumResult, "System", "Enum/EnumResult");
+// Type namespace: System
+namespace System {
   // Size: 0x30
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -28,6 +35,15 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Enum::EnumResult/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // System.Object parsedEnum
     // Size: 0x8
     // Offset: 0x0
@@ -72,6 +88,7 @@ namespace System {
     System::Exception* m_innerException;
     // Field size check
     static_assert(sizeof(System::Exception*) == 0x8);
+    public:
     // Creating value type constructor for type: EnumResult
     constexpr EnumResult(::Il2CppObject* parsedEnum_ = {}, bool canThrow_ = {}, System::Enum::ParseFailureKind m_failure_ = {}, ::Il2CppString* m_failureMessageID_ = {}, ::Il2CppString* m_failureParameter_ = {}, ::Il2CppObject* m_failureMessageFormatArgument_ = {}, System::Exception* m_innerException_ = {}) noexcept : parsedEnum{parsedEnum_}, canThrow{canThrow_}, m_failure{m_failure_}, m_failureMessageID{m_failureMessageID_}, m_failureParameter{m_failureParameter_}, m_failureMessageFormatArgument{m_failureMessageFormatArgument_}, m_innerException{m_innerException_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -112,8 +129,6 @@ namespace System {
   static check_size<sizeof(Enum::EnumResult), 40 + sizeof(System::Exception*)> __System_Enum_EnumResultSizeCheck;
   static_assert(sizeof(Enum::EnumResult) == 0x30);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Enum::EnumResult, "System", "Enum/EnumResult");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Enum::EnumResult::Init
 // Il2CppName: Init

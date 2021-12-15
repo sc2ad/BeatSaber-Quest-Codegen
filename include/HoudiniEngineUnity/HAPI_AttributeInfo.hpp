@@ -13,11 +13,14 @@
 #include "HoudiniEngineUnity/HAPI_StorageType.hpp"
 // Including type: HoudiniEngineUnity.HAPI_AttributeTypeInfo
 #include "HoudiniEngineUnity/HAPI_AttributeTypeInfo.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
+// Type namespace: HoudiniEngineUnity
+namespace HoudiniEngineUnity {
+  // Forward declaring type: HAPI_AttributeInfo
+  struct HAPI_AttributeInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_AttributeInfo, "HoudiniEngineUnity", "HAPI_AttributeInfo");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x24
@@ -27,6 +30,15 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HAPI_AttributeInfo/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.Boolean exists
     // Size: 0x1
     // Offset: 0x0
@@ -77,6 +89,7 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HAPI_AttributeTypeInfo typeInfo;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::HAPI_AttributeTypeInfo) == 0x4);
+    public:
     // Creating value type constructor for type: HAPI_AttributeInfo
     constexpr HAPI_AttributeInfo(bool exists_ = {}, HoudiniEngineUnity::HAPI_AttributeOwner owner_ = {}, HoudiniEngineUnity::HAPI_StorageType storage_ = {}, HoudiniEngineUnity::HAPI_AttributeOwner originalOwner_ = {}, int count_ = {}, int tupleSize_ = {}, int64_t totalArrayElements_ = {}, HoudiniEngineUnity::HAPI_AttributeTypeInfo typeInfo_ = {}) noexcept : exists{exists_}, owner{owner_}, storage{storage_}, originalOwner{originalOwner_}, count{count_}, tupleSize{tupleSize_}, totalArrayElements{totalArrayElements_}, typeInfo{typeInfo_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -101,18 +114,12 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HAPI_AttributeTypeInfo& dyn_typeInfo();
     // public System.Void .ctor(System.String ignored)
     // Offset: 0x1462CA8
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    HAPI_AttributeInfo(::Il2CppString* ignored) {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HAPI_AttributeInfo::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(ignored)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, ignored);
-    }
+    HAPI_AttributeInfo(::Il2CppString* ignored);
   }; // HoudiniEngineUnity.HAPI_AttributeInfo
   #pragma pack(pop)
   static check_size<sizeof(HAPI_AttributeInfo), 32 + sizeof(HoudiniEngineUnity::HAPI_AttributeTypeInfo)> __HoudiniEngineUnity_HAPI_AttributeInfoSizeCheck;
   static_assert(sizeof(HAPI_AttributeInfo) == 0x24);
 }
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_AttributeInfo, "HoudiniEngineUnity", "HAPI_AttributeInfo");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HAPI_AttributeInfo::HAPI_AttributeInfo
 // Il2CppName: .ctor

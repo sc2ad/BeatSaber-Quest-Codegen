@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: HumanBone
+  struct HumanBone;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::HumanBone, "UnityEngine", "HumanBone");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x3C
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -22,6 +29,15 @@ namespace UnityEngine {
   // [RequiredByNativeCodeAttribute] Offset: ECDE14
   struct HumanBone/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.String m_BoneName
     // Size: 0x8
     // Offset: 0x0
@@ -41,6 +57,7 @@ namespace UnityEngine {
     UnityEngine::HumanLimit limit;
     // Field size check
     static_assert(sizeof(UnityEngine::HumanLimit) == 0x2C);
+    public:
     // Creating value type constructor for type: HumanBone
     constexpr HumanBone(::Il2CppString* m_BoneName_ = {}, ::Il2CppString* m_HumanName_ = {}, UnityEngine::HumanLimit limit_ = {}) noexcept : m_BoneName{m_BoneName_}, m_HumanName{m_HumanName_}, limit{limit_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -58,6 +75,4 @@ namespace UnityEngine {
   static check_size<sizeof(HumanBone), 16 + sizeof(UnityEngine::HumanLimit)> __UnityEngine_HumanBoneSizeCheck;
   static_assert(sizeof(HumanBone) == 0x3C);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::HumanBone, "UnityEngine", "HumanBone");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

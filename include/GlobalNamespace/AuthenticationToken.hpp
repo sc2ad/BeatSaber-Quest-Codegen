@@ -11,12 +11,13 @@
 #include "LiteNetLib/Utils/INetImmutableSerializable_1.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
+// Forward declaring namespace: GlobalNamespace
+namespace GlobalNamespace {
+  // Skipping declaration: Platform because it is already included!
+}
 // Forward declaring namespace: LiteNetLib::Utils
 namespace LiteNetLib::Utils {
   // Forward declaring type: NetDataWriter
@@ -25,6 +26,13 @@ namespace LiteNetLib::Utils {
   class NetDataReader;
 }
 // Completed forward declares
+// Type namespace: 
+namespace GlobalNamespace {
+  // Forward declaring type: AuthenticationToken
+  struct AuthenticationToken;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AuthenticationToken, "", "AuthenticationToken");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -43,12 +51,22 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct Platform/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      #ifdef CODEGEN_FIELD_ACCESSIBILITY
+      CODEGEN_FIELD_ACCESSIBILITY:
+      #else
+      protected:
+      #endif
+      #endif
       // public System.Byte value__
       // Size: 0x1
       // Offset: 0x0
       uint8_t value;
       // Field size check
       static_assert(sizeof(uint8_t) == 0x1);
+      public:
       // Creating value type constructor for type: Platform
       constexpr Platform(uint8_t value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -113,6 +131,15 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(AuthenticationToken::Platform), 0 + sizeof(uint8_t)> __GlobalNamespace_AuthenticationToken_PlatformSizeCheck;
     static_assert(sizeof(AuthenticationToken::Platform) == 0x1);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public readonly AuthenticationToken/Platform platform
     // Size: 0x1
     // Offset: 0x0
@@ -136,11 +163,12 @@ namespace GlobalNamespace {
     // public readonly System.Byte[] sessionToken
     // Size: 0x8
     // Offset: 0x18
-    ::Array<uint8_t>* sessionToken;
+    ::ArrayW<uint8_t> sessionToken;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
+    public:
     // Creating value type constructor for type: AuthenticationToken
-    constexpr AuthenticationToken(GlobalNamespace::AuthenticationToken::Platform platform_ = {}, ::Il2CppString* userId_ = {}, ::Il2CppString* userName_ = {}, ::Array<uint8_t>* sessionToken_ = {}) noexcept : platform{platform_}, userId{userId_}, userName{userName_}, sessionToken{sessionToken_} {}
+    constexpr AuthenticationToken(GlobalNamespace::AuthenticationToken::Platform platform_ = {}, ::Il2CppString* userId_ = {}, ::Il2CppString* userName_ = {}, ::ArrayW<uint8_t> sessionToken_ = ::ArrayW<uint8_t>(nullptr)) noexcept : platform{platform_}, userId{userId_}, userName{userName_}, sessionToken{sessionToken_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -156,11 +184,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.String userName
     ::Il2CppString*& dyn_userName();
     // Get instance field reference: public readonly System.Byte[] sessionToken
-    ::Array<uint8_t>*& dyn_sessionToken();
+    ::ArrayW<uint8_t>& dyn_sessionToken();
     // public System.Void .ctor(AuthenticationToken/Platform platform, System.String userId, System.String userName, System.Byte[] sessionToken)
     // Offset: 0x155BA80
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    // ABORTED: conflicts with another method.  AuthenticationToken(GlobalNamespace::AuthenticationToken::Platform platform, ::Il2CppString* userId, ::Il2CppString* userName, ::Array<uint8_t>* sessionToken)
+    // ABORTED: conflicts with another method.  AuthenticationToken(GlobalNamespace::AuthenticationToken::Platform platform, ::Il2CppString* userId, ::Il2CppString* userName, ::ArrayW<uint8_t> sessionToken);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
     // Offset: 0x155BA90
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -172,10 +199,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::AuthenticationToken Deserialize(LiteNetLib::Utils::NetDataReader* reader);
   }; // AuthenticationToken
   #pragma pack(pop)
-  static check_size<sizeof(AuthenticationToken), 24 + sizeof(::Array<uint8_t>*)> __GlobalNamespace_AuthenticationTokenSizeCheck;
+  static check_size<sizeof(AuthenticationToken), 24 + sizeof(::ArrayW<uint8_t>)> __GlobalNamespace_AuthenticationTokenSizeCheck;
   static_assert(sizeof(AuthenticationToken) == 0x20);
 }
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AuthenticationToken, "", "AuthenticationToken");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AuthenticationToken::Platform, "", "AuthenticationToken/Platform");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AuthenticationToken::AuthenticationToken

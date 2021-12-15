@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -19,6 +20,14 @@ namespace UnityEngine {
   class AnimationClip;
 }
 // Completed forward declares
+// Type namespace: UnityEngine
+namespace UnityEngine {
+  // Forward declaring type: RuntimeAnimatorController
+  class RuntimeAnimatorController;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::RuntimeAnimatorController);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RuntimeAnimatorController*, "UnityEngine", "RuntimeAnimatorController");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18
@@ -30,11 +39,9 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: ECE0BC
   class RuntimeAnimatorController : public UnityEngine::Object {
     public:
-    // Creating value type constructor for type: RuntimeAnimatorController
-    RuntimeAnimatorController() noexcept {}
     // public UnityEngine.AnimationClip[] get_animationClips()
     // Offset: 0x263E6F0
-    ::Array<UnityEngine::AnimationClip*>* get_animationClips();
+    ::ArrayW<UnityEngine::AnimationClip*> get_animationClips();
     // protected System.Void .ctor()
     // Offset: 0x263CF24
     // Implemented from: UnityEngine.Object
@@ -48,12 +55,11 @@ namespace UnityEngine {
   }; // UnityEngine.RuntimeAnimatorController
   #pragma pack(pop)
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RuntimeAnimatorController*, "UnityEngine", "RuntimeAnimatorController");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::RuntimeAnimatorController::get_animationClips
 // Il2CppName: get_animationClips
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::AnimationClip*>* (UnityEngine::RuntimeAnimatorController::*)()>(&UnityEngine::RuntimeAnimatorController::get_animationClips)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::AnimationClip*> (UnityEngine::RuntimeAnimatorController::*)()>(&UnityEngine::RuntimeAnimatorController::get_animationClips)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RuntimeAnimatorController*), "get_animationClips", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

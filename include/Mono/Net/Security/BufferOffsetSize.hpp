@@ -9,7 +9,16 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: Mono.Net.Security
+namespace Mono::Net::Security {
+  // Forward declaring type: BufferOffsetSize
+  class BufferOffsetSize;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(Mono::Net::Security::BufferOffsetSize);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::BufferOffsetSize*, "Mono.Net.Security", "BufferOffsetSize");
 // Type namespace: Mono.Net.Security
 namespace Mono::Net::Security {
   // Size: 0x25
@@ -18,12 +27,21 @@ namespace Mono::Net::Security {
   // [TokenAttribute] Offset: FFFFFFFF
   class BufferOffsetSize : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.Byte[] Buffer
     // Size: 0x8
     // Offset: 0x10
-    ::Array<uint8_t>* Buffer;
+    ::ArrayW<uint8_t> Buffer;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // public System.Int32 Offset
     // Size: 0x4
     // Offset: 0x18
@@ -48,10 +66,9 @@ namespace Mono::Net::Security {
     bool Complete;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: BufferOffsetSize
-    BufferOffsetSize(::Array<uint8_t>* Buffer_ = {}, int Offset_ = {}, int Size_ = {}, int TotalBytes_ = {}, bool Complete_ = {}) noexcept : Buffer{Buffer_}, Offset{Offset_}, Size{Size_}, TotalBytes{TotalBytes_}, Complete{Complete_} {}
+    public:
     // Get instance field reference: public System.Byte[] Buffer
-    ::Array<uint8_t>*& dyn_Buffer();
+    ::ArrayW<uint8_t>& dyn_Buffer();
     // Get instance field reference: public System.Int32 Offset
     int& dyn_Offset();
     // Get instance field reference: public System.Int32 Size
@@ -69,7 +86,7 @@ namespace Mono::Net::Security {
     // public System.Void .ctor(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
     // Offset: 0x182ED94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BufferOffsetSize* New_ctor(::Array<uint8_t>* buffer, int offset, int size) {
+    static BufferOffsetSize* New_ctor(::ArrayW<uint8_t> buffer, int offset, int size) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Net::Security::BufferOffsetSize::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BufferOffsetSize*, creationType>(buffer, offset, size)));
     }
@@ -83,7 +100,6 @@ namespace Mono::Net::Security {
   static check_size<sizeof(BufferOffsetSize), 36 + sizeof(bool)> __Mono_Net_Security_BufferOffsetSizeSizeCheck;
   static_assert(sizeof(BufferOffsetSize) == 0x25);
 }
-DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::BufferOffsetSize*, "Mono.Net.Security", "BufferOffsetSize");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Net::Security::BufferOffsetSize::get_EndOffset
 // Il2CppName: get_EndOffset

@@ -21,6 +21,14 @@ namespace System {
 // Completed forward declares
 // Type namespace: System.Runtime.InteropServices
 namespace System::Runtime::InteropServices {
+  // Forward declaring type: MarshalAsAttribute
+  class MarshalAsAttribute;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Runtime::InteropServices::MarshalAsAttribute);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::MarshalAsAttribute*, "System.Runtime.InteropServices", "MarshalAsAttribute");
+// Type namespace: System.Runtime.InteropServices
+namespace System::Runtime::InteropServices {
   // Size: 0x46
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -30,6 +38,15 @@ namespace System::Runtime::InteropServices {
   // [ComVisibleAttribute] Offset: EA238C
   class MarshalAsAttribute : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.String MarshalCookie
     // Size: 0x8
     // Offset: 0x10
@@ -92,8 +109,7 @@ namespace System::Runtime::InteropServices {
     int16_t SizeParamIndex;
     // Field size check
     static_assert(sizeof(int16_t) == 0x2);
-    // Creating value type constructor for type: MarshalAsAttribute
-    MarshalAsAttribute(::Il2CppString* MarshalCookie_ = {}, ::Il2CppString* MarshalType_ = {}, System::Type* MarshalTypeRef_ = {}, System::Type* SafeArrayUserDefinedSubType_ = {}, System::Runtime::InteropServices::UnmanagedType utype_ = {}, System::Runtime::InteropServices::UnmanagedType ArraySubType_ = {}, System::Runtime::InteropServices::VarEnum SafeArraySubType_ = {}, int SizeConst_ = {}, int IidParameterIndex_ = {}, int16_t SizeParamIndex_ = {}) noexcept : MarshalCookie{MarshalCookie_}, MarshalType{MarshalType_}, MarshalTypeRef{MarshalTypeRef_}, SafeArrayUserDefinedSubType{SafeArrayUserDefinedSubType_}, utype{utype_}, ArraySubType{ArraySubType_}, SafeArraySubType{SafeArraySubType_}, SizeConst{SizeConst_}, IidParameterIndex{IidParameterIndex_}, SizeParamIndex{SizeParamIndex_} {}
+    public:
     // Get instance field reference: public System.String MarshalCookie
     ::Il2CppString*& dyn_MarshalCookie();
     // Get instance field reference: public System.String MarshalType
@@ -122,8 +138,6 @@ namespace System::Runtime::InteropServices {
   static check_size<sizeof(MarshalAsAttribute), 68 + sizeof(int16_t)> __System_Runtime_InteropServices_MarshalAsAttributeSizeCheck;
   static_assert(sizeof(MarshalAsAttribute) == 0x46);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::MarshalAsAttribute*, "System.Runtime.InteropServices", "MarshalAsAttribute");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::InteropServices::MarshalAsAttribute::Copy
 // Il2CppName: Copy

@@ -12,7 +12,16 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: UnityEngine.Bindings
+namespace UnityEngine::Bindings {
+  // Forward declaring type: VisibleToOtherModulesAttribute
+  class VisibleToOtherModulesAttribute;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::Bindings::VisibleToOtherModulesAttribute);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::VisibleToOtherModulesAttribute*, "UnityEngine.Bindings", "VisibleToOtherModulesAttribute");
 // Type namespace: UnityEngine.Bindings
 namespace UnityEngine::Bindings {
   // Size: 0x10
@@ -23,24 +32,12 @@ namespace UnityEngine::Bindings {
   // [AttributeUsageAttribute] Offset: EB0084
   class VisibleToOtherModulesAttribute : public System::Attribute {
     public:
-    // Creating value type constructor for type: VisibleToOtherModulesAttribute
-    VisibleToOtherModulesAttribute() noexcept {}
     // public System.Void .ctor(params System.String[] modules)
     // Offset: 0x26CA528
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static VisibleToOtherModulesAttribute* New_ctor(::Array<::Il2CppString*>* modules) {
+    static VisibleToOtherModulesAttribute* New_ctor(::ArrayW<::Il2CppString*> modules) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Bindings::VisibleToOtherModulesAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VisibleToOtherModulesAttribute*, creationType>(modules)));
-    }
-    // Creating initializer_list -> params proxy for: System.Void .ctor(params System.String[] modules)
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static VisibleToOtherModulesAttribute* New_ctor(std::initializer_list<::Il2CppString*> modules) {
-      return New_ctor<creationType>(::Array<::Il2CppString*>::New(modules));
-    }
-    // Creating TArgs -> initializer_list proxy for: System.Void .ctor(params System.String[] modules)
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary, class ...TParams>
-    static VisibleToOtherModulesAttribute* New_ctor(TParams&&... modules) {
-      return New_ctor<creationType>({modules...});
     }
     // public System.Void .ctor()
     // Offset: 0x26CA520
@@ -55,7 +52,6 @@ namespace UnityEngine::Bindings {
   }; // UnityEngine.Bindings.VisibleToOtherModulesAttribute
   #pragma pack(pop)
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::VisibleToOtherModulesAttribute*, "UnityEngine.Bindings", "VisibleToOtherModulesAttribute");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Bindings::VisibleToOtherModulesAttribute::New_ctor
 // Il2CppName: .ctor

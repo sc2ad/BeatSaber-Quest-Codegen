@@ -9,11 +9,14 @@
 #include "System/ValueType.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
+// Type namespace: UnityEngine
+namespace UnityEngine {
+  // Forward declaring type: Ray
+  struct Ray;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Ray, "UnityEngine", "Ray");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18
@@ -23,6 +26,15 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Ray/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private UnityEngine.Vector3 m_Origin
     // Size: 0xC
     // Offset: 0x0
@@ -35,6 +47,7 @@ namespace UnityEngine {
     UnityEngine::Vector3 m_Direction;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    public:
     // Creating value type constructor for type: Ray
     constexpr Ray(UnityEngine::Vector3 m_Origin_ = {}, UnityEngine::Vector3 m_Direction_ = {}) noexcept : m_Origin{m_Origin_}, m_Direction{m_Direction_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -59,8 +72,7 @@ namespace UnityEngine {
     void set_direction(UnityEngine::Vector3 value);
     // public System.Void .ctor(UnityEngine.Vector3 origin, UnityEngine.Vector3 direction)
     // Offset: 0x1DF1B8C
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    // ABORTED: conflicts with another method.  Ray(UnityEngine::Vector3 origin, UnityEngine::Vector3 direction)
+    // ABORTED: conflicts with another method.  Ray(UnityEngine::Vector3 origin, UnityEngine::Vector3 direction);
     // public UnityEngine.Vector3 GetPoint(System.Single distance)
     // Offset: 0x1DF1C38
     UnityEngine::Vector3 GetPoint(float distance);
@@ -74,7 +86,6 @@ namespace UnityEngine {
   static check_size<sizeof(Ray), 12 + sizeof(UnityEngine::Vector3)> __UnityEngine_RaySizeCheck;
   static_assert(sizeof(Ray) == 0x18);
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Ray, "UnityEngine", "Ray");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Ray::get_origin
 // Il2CppName: get_origin

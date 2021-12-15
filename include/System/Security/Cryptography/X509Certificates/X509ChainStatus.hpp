@@ -9,11 +9,14 @@
 #include "System/ValueType.hpp"
 // Including type: System.Security.Cryptography.X509Certificates.X509ChainStatusFlags
 #include "System/Security/Cryptography/X509Certificates/X509ChainStatusFlags.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
+// Type namespace: System.Security.Cryptography.X509Certificates
+namespace System::Security::Cryptography::X509Certificates {
+  // Forward declaring type: X509ChainStatus
+  struct X509ChainStatus;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509ChainStatus, "System.Security.Cryptography.X509Certificates", "X509ChainStatus");
 // Type namespace: System.Security.Cryptography.X509Certificates
 namespace System::Security::Cryptography::X509Certificates {
   // Size: 0x10
@@ -23,6 +26,15 @@ namespace System::Security::Cryptography::X509Certificates {
   // [TokenAttribute] Offset: FFFFFFFF
   struct X509ChainStatus/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.Security.Cryptography.X509Certificates.X509ChainStatusFlags status
     // Size: 0x4
     // Offset: 0x0
@@ -37,6 +49,7 @@ namespace System::Security::Cryptography::X509Certificates {
     ::Il2CppString* info;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Creating value type constructor for type: X509ChainStatus
     constexpr X509ChainStatus(System::Security::Cryptography::X509Certificates::X509ChainStatusFlags status_ = {}, ::Il2CppString* info_ = {}) noexcept : status{status_}, info{info_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -58,12 +71,7 @@ namespace System::Security::Cryptography::X509Certificates {
     void set_StatusInformation(::Il2CppString* value);
     // System.Void .ctor(System.Security.Cryptography.X509Certificates.X509ChainStatusFlags flag)
     // Offset: 0x19DE8D0
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    X509ChainStatus(System::Security::Cryptography::X509Certificates::X509ChainStatusFlags flag) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509ChainStatus::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(flag)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, flag);
-    }
+    X509ChainStatus(System::Security::Cryptography::X509Certificates::X509ChainStatusFlags flag);
     // static System.String GetInformation(System.Security.Cryptography.X509Certificates.X509ChainStatusFlags flags)
     // Offset: 0x19DD384
     static ::Il2CppString* GetInformation(System::Security::Cryptography::X509Certificates::X509ChainStatusFlags flags);
@@ -72,7 +80,6 @@ namespace System::Security::Cryptography::X509Certificates {
   static check_size<sizeof(X509ChainStatus), 8 + sizeof(::Il2CppString*)> __System_Security_Cryptography_X509Certificates_X509ChainStatusSizeCheck;
   static_assert(sizeof(X509ChainStatus) == 0x10);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509ChainStatus, "System.Security.Cryptography.X509Certificates", "X509ChainStatus");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509ChainStatus::get_Status
 // Il2CppName: get_Status

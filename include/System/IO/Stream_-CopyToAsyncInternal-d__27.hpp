@@ -19,11 +19,15 @@
 #include "System/Runtime/CompilerServices/ConfiguredTaskAwaitable.hpp"
 // Including type: System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter
 #include "System/Runtime/CompilerServices/ConfiguredTaskAwaitable_1.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
-// Begin il2cpp-utils forward declares
-template<class T>
-struct Array;
-// Completed il2cpp-utils forward declares
+// Type namespace: System.IO
+namespace System::IO {
+  // Forward declaring type: <CopyToAsyncInternal>d__27
+  struct $CopyToAsyncInternal$d__27;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::IO::Stream::$CopyToAsyncInternal$d__27, "System.IO", "Stream/<CopyToAsyncInternal>d__27");
 // Type namespace: System.IO
 namespace System::IO {
   // WARNING Size may be invalid!
@@ -32,6 +36,15 @@ namespace System::IO {
   // [CompilerGeneratedAttribute] Offset: E9F900
   struct Stream::$CopyToAsyncInternal$d__27/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0
@@ -57,9 +70,9 @@ namespace System::IO {
     // private System.Byte[] <buffer>5__1
     // Size: 0x8
     // Offset: 0x30
-    ::Array<uint8_t>* $buffer$5__1;
+    ::ArrayW<uint8_t> $buffer$5__1;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Int32 <bytesRead>5__2
     // Size: 0x4
     // Offset: 0x38
@@ -88,8 +101,9 @@ namespace System::IO {
     // Size: 0xFFFFFFFF
     // Offset: 0x60
     typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<int>::ConfiguredTaskAwaiter $$u__2;
+    public:
     // Creating value type constructor for type: $CopyToAsyncInternal$d__27
-    constexpr $CopyToAsyncInternal$d__27(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder $$t__builder_ = {}, int bufferSize_ = {}, System::IO::Stream* destination_ = {}, ::Array<uint8_t>* $buffer$5__1_ = {}, int $bytesRead$5__2_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, System::IO::Stream* $$4__this_ = {}, System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter $$u__1_ = {}, typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<int>::ConfiguredTaskAwaiter $$u__2_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, bufferSize{bufferSize_}, destination{destination_}, $buffer$5__1{$buffer$5__1_}, $bytesRead$5__2{$bytesRead$5__2_}, cancellationToken{cancellationToken_}, $$4__this{$$4__this_}, $$u__1{$$u__1_}, $$u__2{$$u__2_} {}
+    constexpr $CopyToAsyncInternal$d__27(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder $$t__builder_ = {}, int bufferSize_ = {}, System::IO::Stream* destination_ = {}, ::ArrayW<uint8_t> $buffer$5__1_ = ::ArrayW<uint8_t>(nullptr), int $bytesRead$5__2_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, System::IO::Stream* $$4__this_ = {}, System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter $$u__1_ = {}, typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<int>::ConfiguredTaskAwaiter $$u__2_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, bufferSize{bufferSize_}, destination{destination_}, $buffer$5__1{$buffer$5__1_}, $bytesRead$5__2{$bytesRead$5__2_}, cancellationToken{cancellationToken_}, $$4__this{$$4__this_}, $$u__1{$$u__1_}, $$u__2{$$u__2_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -107,7 +121,7 @@ namespace System::IO {
     // Get instance field reference: public System.IO.Stream destination
     System::IO::Stream*& dyn_destination();
     // Get instance field reference: private System.Byte[] <buffer>5__1
-    ::Array<uint8_t>*& dyn_$buffer$5__1();
+    ::ArrayW<uint8_t>& dyn_$buffer$5__1();
     // Get instance field reference: private System.Int32 <bytesRead>5__2
     int& dyn_$bytesRead$5__2();
     // Get instance field reference: public System.Threading.CancellationToken cancellationToken
@@ -127,8 +141,6 @@ namespace System::IO {
   }; // System.IO.Stream/System.IO.<CopyToAsyncInternal>d__27
   // WARNING Not writing size check since size may be invalid!
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::IO::Stream::$CopyToAsyncInternal$d__27, "System.IO", "Stream/<CopyToAsyncInternal>d__27");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::Stream::$CopyToAsyncInternal$d__27::MoveNext
 // Il2CppName: MoveNext

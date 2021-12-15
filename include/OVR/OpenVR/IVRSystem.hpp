@@ -14,6 +14,13 @@ namespace OVR::OpenVR {
 // Completed forward declares
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
+  // Forward declaring type: IVRSystem
+  struct IVRSystem;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRSystem, "OVR.OpenVR", "IVRSystem");
+// Type namespace: OVR.OpenVR
+namespace OVR::OpenVR {
   // Size: 0x178
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -115,6 +122,15 @@ namespace OVR::OpenVR {
     class _AcknowledgeQuit_Exiting;
     // Nested type: OVR::OpenVR::IVRSystem::_AcknowledgeQuit_UserPrompt
     class _AcknowledgeQuit_UserPrompt;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // OVR.OpenVR.IVRSystem/OVR.OpenVR._GetRecommendedRenderTargetSize GetRecommendedRenderTargetSize
     // Size: 0x8
     // Offset: 0x0
@@ -397,6 +413,7 @@ namespace OVR::OpenVR {
     OVR::OpenVR::IVRSystem::_AcknowledgeQuit_UserPrompt* AcknowledgeQuit_UserPrompt;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::IVRSystem::_AcknowledgeQuit_UserPrompt*) == 0x8);
+    public:
     // Creating value type constructor for type: IVRSystem
     constexpr IVRSystem(OVR::OpenVR::IVRSystem::_GetRecommendedRenderTargetSize* GetRecommendedRenderTargetSize_ = {}, OVR::OpenVR::IVRSystem::_GetProjectionMatrix* GetProjectionMatrix_ = {}, OVR::OpenVR::IVRSystem::_GetProjectionRaw* GetProjectionRaw_ = {}, OVR::OpenVR::IVRSystem::_ComputeDistortion* ComputeDistortion_ = {}, OVR::OpenVR::IVRSystem::_GetEyeToHeadTransform* GetEyeToHeadTransform_ = {}, OVR::OpenVR::IVRSystem::_GetTimeSinceLastVsync* GetTimeSinceLastVsync_ = {}, OVR::OpenVR::IVRSystem::_GetD3D9AdapterIndex* GetD3D9AdapterIndex_ = {}, OVR::OpenVR::IVRSystem::_GetDXGIOutputInfo* GetDXGIOutputInfo_ = {}, OVR::OpenVR::IVRSystem::_GetOutputDevice* GetOutputDevice_ = {}, OVR::OpenVR::IVRSystem::_IsDisplayOnDesktop* IsDisplayOnDesktop_ = {}, OVR::OpenVR::IVRSystem::_SetDisplayVisibility* SetDisplayVisibility_ = {}, OVR::OpenVR::IVRSystem::_GetDeviceToAbsoluteTrackingPose* GetDeviceToAbsoluteTrackingPose_ = {}, OVR::OpenVR::IVRSystem::_ResetSeatedZeroPose* ResetSeatedZeroPose_ = {}, OVR::OpenVR::IVRSystem::_GetSeatedZeroPoseToStandingAbsoluteTrackingPose* GetSeatedZeroPoseToStandingAbsoluteTrackingPose_ = {}, OVR::OpenVR::IVRSystem::_GetRawZeroPoseToStandingAbsoluteTrackingPose* GetRawZeroPoseToStandingAbsoluteTrackingPose_ = {}, OVR::OpenVR::IVRSystem::_GetSortedTrackedDeviceIndicesOfClass* GetSortedTrackedDeviceIndicesOfClass_ = {}, OVR::OpenVR::IVRSystem::_GetTrackedDeviceActivityLevel* GetTrackedDeviceActivityLevel_ = {}, OVR::OpenVR::IVRSystem::_ApplyTransform* ApplyTransform_ = {}, OVR::OpenVR::IVRSystem::_GetTrackedDeviceIndexForControllerRole* GetTrackedDeviceIndexForControllerRole_ = {}, OVR::OpenVR::IVRSystem::_GetControllerRoleForTrackedDeviceIndex* GetControllerRoleForTrackedDeviceIndex_ = {}, OVR::OpenVR::IVRSystem::_GetTrackedDeviceClass* GetTrackedDeviceClass_ = {}, OVR::OpenVR::IVRSystem::_IsTrackedDeviceConnected* IsTrackedDeviceConnected_ = {}, OVR::OpenVR::IVRSystem::_GetBoolTrackedDeviceProperty* GetBoolTrackedDeviceProperty_ = {}, OVR::OpenVR::IVRSystem::_GetFloatTrackedDeviceProperty* GetFloatTrackedDeviceProperty_ = {}, OVR::OpenVR::IVRSystem::_GetInt32TrackedDeviceProperty* GetInt32TrackedDeviceProperty_ = {}, OVR::OpenVR::IVRSystem::_GetUint64TrackedDeviceProperty* GetUint64TrackedDeviceProperty_ = {}, OVR::OpenVR::IVRSystem::_GetMatrix34TrackedDeviceProperty* GetMatrix34TrackedDeviceProperty_ = {}, OVR::OpenVR::IVRSystem::_GetArrayTrackedDeviceProperty* GetArrayTrackedDeviceProperty_ = {}, OVR::OpenVR::IVRSystem::_GetStringTrackedDeviceProperty* GetStringTrackedDeviceProperty_ = {}, OVR::OpenVR::IVRSystem::_GetPropErrorNameFromEnum* GetPropErrorNameFromEnum_ = {}, OVR::OpenVR::IVRSystem::_PollNextEvent* PollNextEvent_ = {}, OVR::OpenVR::IVRSystem::_PollNextEventWithPose* PollNextEventWithPose_ = {}, OVR::OpenVR::IVRSystem::_GetEventTypeNameFromEnum* GetEventTypeNameFromEnum_ = {}, OVR::OpenVR::IVRSystem::_GetHiddenAreaMesh* GetHiddenAreaMesh_ = {}, OVR::OpenVR::IVRSystem::_GetControllerState* GetControllerState_ = {}, OVR::OpenVR::IVRSystem::_GetControllerStateWithPose* GetControllerStateWithPose_ = {}, OVR::OpenVR::IVRSystem::_TriggerHapticPulse* TriggerHapticPulse_ = {}, OVR::OpenVR::IVRSystem::_GetButtonIdNameFromEnum* GetButtonIdNameFromEnum_ = {}, OVR::OpenVR::IVRSystem::_GetControllerAxisTypeNameFromEnum* GetControllerAxisTypeNameFromEnum_ = {}, OVR::OpenVR::IVRSystem::_IsInputAvailable* IsInputAvailable_ = {}, OVR::OpenVR::IVRSystem::_IsSteamVRDrawingControllers* IsSteamVRDrawingControllers_ = {}, OVR::OpenVR::IVRSystem::_ShouldApplicationPause* ShouldApplicationPause_ = {}, OVR::OpenVR::IVRSystem::_ShouldApplicationReduceRenderingWork* ShouldApplicationReduceRenderingWork_ = {}, OVR::OpenVR::IVRSystem::_DriverDebugRequest* DriverDebugRequest_ = {}, OVR::OpenVR::IVRSystem::_PerformFirmwareUpdate* PerformFirmwareUpdate_ = {}, OVR::OpenVR::IVRSystem::_AcknowledgeQuit_Exiting* AcknowledgeQuit_Exiting_ = {}, OVR::OpenVR::IVRSystem::_AcknowledgeQuit_UserPrompt* AcknowledgeQuit_UserPrompt_ = {}) noexcept : GetRecommendedRenderTargetSize{GetRecommendedRenderTargetSize_}, GetProjectionMatrix{GetProjectionMatrix_}, GetProjectionRaw{GetProjectionRaw_}, ComputeDistortion{ComputeDistortion_}, GetEyeToHeadTransform{GetEyeToHeadTransform_}, GetTimeSinceLastVsync{GetTimeSinceLastVsync_}, GetD3D9AdapterIndex{GetD3D9AdapterIndex_}, GetDXGIOutputInfo{GetDXGIOutputInfo_}, GetOutputDevice{GetOutputDevice_}, IsDisplayOnDesktop{IsDisplayOnDesktop_}, SetDisplayVisibility{SetDisplayVisibility_}, GetDeviceToAbsoluteTrackingPose{GetDeviceToAbsoluteTrackingPose_}, ResetSeatedZeroPose{ResetSeatedZeroPose_}, GetSeatedZeroPoseToStandingAbsoluteTrackingPose{GetSeatedZeroPoseToStandingAbsoluteTrackingPose_}, GetRawZeroPoseToStandingAbsoluteTrackingPose{GetRawZeroPoseToStandingAbsoluteTrackingPose_}, GetSortedTrackedDeviceIndicesOfClass{GetSortedTrackedDeviceIndicesOfClass_}, GetTrackedDeviceActivityLevel{GetTrackedDeviceActivityLevel_}, ApplyTransform{ApplyTransform_}, GetTrackedDeviceIndexForControllerRole{GetTrackedDeviceIndexForControllerRole_}, GetControllerRoleForTrackedDeviceIndex{GetControllerRoleForTrackedDeviceIndex_}, GetTrackedDeviceClass{GetTrackedDeviceClass_}, IsTrackedDeviceConnected{IsTrackedDeviceConnected_}, GetBoolTrackedDeviceProperty{GetBoolTrackedDeviceProperty_}, GetFloatTrackedDeviceProperty{GetFloatTrackedDeviceProperty_}, GetInt32TrackedDeviceProperty{GetInt32TrackedDeviceProperty_}, GetUint64TrackedDeviceProperty{GetUint64TrackedDeviceProperty_}, GetMatrix34TrackedDeviceProperty{GetMatrix34TrackedDeviceProperty_}, GetArrayTrackedDeviceProperty{GetArrayTrackedDeviceProperty_}, GetStringTrackedDeviceProperty{GetStringTrackedDeviceProperty_}, GetPropErrorNameFromEnum{GetPropErrorNameFromEnum_}, PollNextEvent{PollNextEvent_}, PollNextEventWithPose{PollNextEventWithPose_}, GetEventTypeNameFromEnum{GetEventTypeNameFromEnum_}, GetHiddenAreaMesh{GetHiddenAreaMesh_}, GetControllerState{GetControllerState_}, GetControllerStateWithPose{GetControllerStateWithPose_}, TriggerHapticPulse{TriggerHapticPulse_}, GetButtonIdNameFromEnum{GetButtonIdNameFromEnum_}, GetControllerAxisTypeNameFromEnum{GetControllerAxisTypeNameFromEnum_}, IsInputAvailable{IsInputAvailable_}, IsSteamVRDrawingControllers{IsSteamVRDrawingControllers_}, ShouldApplicationPause{ShouldApplicationPause_}, ShouldApplicationReduceRenderingWork{ShouldApplicationReduceRenderingWork_}, DriverDebugRequest{DriverDebugRequest_}, PerformFirmwareUpdate{PerformFirmwareUpdate_}, AcknowledgeQuit_Exiting{AcknowledgeQuit_Exiting_}, AcknowledgeQuit_UserPrompt{AcknowledgeQuit_UserPrompt_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -502,6 +519,4 @@ namespace OVR::OpenVR {
   static check_size<sizeof(IVRSystem), 368 + sizeof(OVR::OpenVR::IVRSystem::_AcknowledgeQuit_UserPrompt*)> __OVR_OpenVR_IVRSystemSizeCheck;
   static_assert(sizeof(IVRSystem) == 0x178);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRSystem, "OVR.OpenVR", "IVRSystem");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

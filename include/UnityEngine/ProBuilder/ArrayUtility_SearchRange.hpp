@@ -9,11 +9,14 @@
 #include "UnityEngine/ProBuilder/ArrayUtility.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
+// Type namespace: UnityEngine.ProBuilder
+namespace UnityEngine::ProBuilder {
+  // Forward declaring type: SearchRange
+  struct SearchRange;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ArrayUtility::SearchRange, "UnityEngine.ProBuilder", "ArrayUtility/SearchRange");
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {
   // Size: 0x8
@@ -23,6 +26,15 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ArrayUtility::SearchRange/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.Int32 begin
     // Size: 0x4
     // Offset: 0x0
@@ -35,6 +47,7 @@ namespace UnityEngine::ProBuilder {
     int end;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: SearchRange
     constexpr SearchRange(int begin_ = {}, int end_ = {}) noexcept : begin{begin_}, end{end_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -47,8 +60,7 @@ namespace UnityEngine::ProBuilder {
     int& dyn_end();
     // public System.Void .ctor(System.Int32 begin, System.Int32 end)
     // Offset: 0x21DD560
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    // ABORTED: conflicts with another method.  SearchRange(int begin, int end)
+    // ABORTED: conflicts with another method.  SearchRange(int begin, int end);
     // public System.Boolean Valid()
     // Offset: 0x21DD568
     bool Valid();
@@ -65,7 +77,6 @@ namespace UnityEngine::ProBuilder {
   static check_size<sizeof(ArrayUtility::SearchRange), 4 + sizeof(int)> __UnityEngine_ProBuilder_ArrayUtility_SearchRangeSizeCheck;
   static_assert(sizeof(ArrayUtility::SearchRange) == 0x8);
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ArrayUtility::SearchRange, "UnityEngine.ProBuilder", "ArrayUtility/SearchRange");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ArrayUtility::SearchRange::SearchRange
 // Il2CppName: .ctor

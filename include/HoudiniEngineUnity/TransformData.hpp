@@ -11,10 +11,6 @@
 #include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.Quaternion
 #include "UnityEngine/Quaternion.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -25,6 +21,13 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
+  // Forward declaring type: TransformData
+  struct TransformData;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::TransformData, "HoudiniEngineUnity", "TransformData");
+// Type namespace: HoudiniEngineUnity
+namespace HoudiniEngineUnity {
   // Size: 0x50
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -32,6 +35,15 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct TransformData/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public UnityEngine.Vector3 position
     // Size: 0xC
     // Offset: 0x0
@@ -70,6 +82,7 @@ namespace HoudiniEngineUnity {
     UnityEngine::Transform* parent;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    public:
     // Creating value type constructor for type: TransformData
     constexpr TransformData(UnityEngine::Vector3 position_ = {}, UnityEngine::Quaternion rotation_ = {}, UnityEngine::Vector3 localPosition_ = {}, UnityEngine::Vector3 localScale_ = {}, UnityEngine::Quaternion localRotation_ = {}, UnityEngine::Transform* parent_ = {}) noexcept : position{position_}, rotation{rotation_}, localPosition{localPosition_}, localScale{localScale_}, localRotation{localRotation_}, parent{parent_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -90,12 +103,7 @@ namespace HoudiniEngineUnity {
     UnityEngine::Transform*& dyn_parent();
     // public System.Void .ctor(UnityEngine.Transform other)
     // Offset: 0x267D8A0
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    TransformData(UnityEngine::Transform* other) {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::TransformData::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(other)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, other);
-    }
+    TransformData(UnityEngine::Transform* other);
     // public System.Void CopyTo(UnityEngine.Transform other, System.Boolean copyParent)
     // Offset: 0x267D93C
     void CopyTo(UnityEngine::Transform* other, bool copyParent);
@@ -107,7 +115,6 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(TransformData), 72 + sizeof(UnityEngine::Transform*)> __HoudiniEngineUnity_TransformDataSizeCheck;
   static_assert(sizeof(TransformData) == 0x50);
 }
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::TransformData, "HoudiniEngineUnity", "TransformData");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::TransformData::TransformData
 // Il2CppName: .ctor

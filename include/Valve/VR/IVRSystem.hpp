@@ -14,6 +14,13 @@ namespace Valve::VR {
 // Completed forward declares
 // Type namespace: Valve.VR
 namespace Valve::VR {
+  // Forward declaring type: IVRSystem
+  struct IVRSystem;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem, "Valve.VR", "IVRSystem");
+// Type namespace: Valve.VR
+namespace Valve::VR {
   // Size: 0x178
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -115,6 +122,15 @@ namespace Valve::VR {
     class _AcknowledgeQuit_Exiting;
     // Nested type: Valve::VR::IVRSystem::_AcknowledgeQuit_UserPrompt
     class _AcknowledgeQuit_UserPrompt;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // Valve.VR.IVRSystem/Valve.VR._GetRecommendedRenderTargetSize GetRecommendedRenderTargetSize
     // Size: 0x8
     // Offset: 0x0
@@ -397,6 +413,7 @@ namespace Valve::VR {
     Valve::VR::IVRSystem::_AcknowledgeQuit_UserPrompt* AcknowledgeQuit_UserPrompt;
     // Field size check
     static_assert(sizeof(Valve::VR::IVRSystem::_AcknowledgeQuit_UserPrompt*) == 0x8);
+    public:
     // Creating value type constructor for type: IVRSystem
     constexpr IVRSystem(Valve::VR::IVRSystem::_GetRecommendedRenderTargetSize* GetRecommendedRenderTargetSize_ = {}, Valve::VR::IVRSystem::_GetProjectionMatrix* GetProjectionMatrix_ = {}, Valve::VR::IVRSystem::_GetProjectionRaw* GetProjectionRaw_ = {}, Valve::VR::IVRSystem::_ComputeDistortion* ComputeDistortion_ = {}, Valve::VR::IVRSystem::_GetEyeToHeadTransform* GetEyeToHeadTransform_ = {}, Valve::VR::IVRSystem::_GetTimeSinceLastVsync* GetTimeSinceLastVsync_ = {}, Valve::VR::IVRSystem::_GetD3D9AdapterIndex* GetD3D9AdapterIndex_ = {}, Valve::VR::IVRSystem::_GetDXGIOutputInfo* GetDXGIOutputInfo_ = {}, Valve::VR::IVRSystem::_GetOutputDevice* GetOutputDevice_ = {}, Valve::VR::IVRSystem::_IsDisplayOnDesktop* IsDisplayOnDesktop_ = {}, Valve::VR::IVRSystem::_SetDisplayVisibility* SetDisplayVisibility_ = {}, Valve::VR::IVRSystem::_GetDeviceToAbsoluteTrackingPose* GetDeviceToAbsoluteTrackingPose_ = {}, Valve::VR::IVRSystem::_ResetSeatedZeroPose* ResetSeatedZeroPose_ = {}, Valve::VR::IVRSystem::_GetSeatedZeroPoseToStandingAbsoluteTrackingPose* GetSeatedZeroPoseToStandingAbsoluteTrackingPose_ = {}, Valve::VR::IVRSystem::_GetRawZeroPoseToStandingAbsoluteTrackingPose* GetRawZeroPoseToStandingAbsoluteTrackingPose_ = {}, Valve::VR::IVRSystem::_GetSortedTrackedDeviceIndicesOfClass* GetSortedTrackedDeviceIndicesOfClass_ = {}, Valve::VR::IVRSystem::_GetTrackedDeviceActivityLevel* GetTrackedDeviceActivityLevel_ = {}, Valve::VR::IVRSystem::_ApplyTransform* ApplyTransform_ = {}, Valve::VR::IVRSystem::_GetTrackedDeviceIndexForControllerRole* GetTrackedDeviceIndexForControllerRole_ = {}, Valve::VR::IVRSystem::_GetControllerRoleForTrackedDeviceIndex* GetControllerRoleForTrackedDeviceIndex_ = {}, Valve::VR::IVRSystem::_GetTrackedDeviceClass* GetTrackedDeviceClass_ = {}, Valve::VR::IVRSystem::_IsTrackedDeviceConnected* IsTrackedDeviceConnected_ = {}, Valve::VR::IVRSystem::_GetBoolTrackedDeviceProperty* GetBoolTrackedDeviceProperty_ = {}, Valve::VR::IVRSystem::_GetFloatTrackedDeviceProperty* GetFloatTrackedDeviceProperty_ = {}, Valve::VR::IVRSystem::_GetInt32TrackedDeviceProperty* GetInt32TrackedDeviceProperty_ = {}, Valve::VR::IVRSystem::_GetUint64TrackedDeviceProperty* GetUint64TrackedDeviceProperty_ = {}, Valve::VR::IVRSystem::_GetMatrix34TrackedDeviceProperty* GetMatrix34TrackedDeviceProperty_ = {}, Valve::VR::IVRSystem::_GetArrayTrackedDeviceProperty* GetArrayTrackedDeviceProperty_ = {}, Valve::VR::IVRSystem::_GetStringTrackedDeviceProperty* GetStringTrackedDeviceProperty_ = {}, Valve::VR::IVRSystem::_GetPropErrorNameFromEnum* GetPropErrorNameFromEnum_ = {}, Valve::VR::IVRSystem::_PollNextEvent* PollNextEvent_ = {}, Valve::VR::IVRSystem::_PollNextEventWithPose* PollNextEventWithPose_ = {}, Valve::VR::IVRSystem::_GetEventTypeNameFromEnum* GetEventTypeNameFromEnum_ = {}, Valve::VR::IVRSystem::_GetHiddenAreaMesh* GetHiddenAreaMesh_ = {}, Valve::VR::IVRSystem::_GetControllerState* GetControllerState_ = {}, Valve::VR::IVRSystem::_GetControllerStateWithPose* GetControllerStateWithPose_ = {}, Valve::VR::IVRSystem::_TriggerHapticPulse* TriggerHapticPulse_ = {}, Valve::VR::IVRSystem::_GetButtonIdNameFromEnum* GetButtonIdNameFromEnum_ = {}, Valve::VR::IVRSystem::_GetControllerAxisTypeNameFromEnum* GetControllerAxisTypeNameFromEnum_ = {}, Valve::VR::IVRSystem::_IsInputAvailable* IsInputAvailable_ = {}, Valve::VR::IVRSystem::_IsSteamVRDrawingControllers* IsSteamVRDrawingControllers_ = {}, Valve::VR::IVRSystem::_ShouldApplicationPause* ShouldApplicationPause_ = {}, Valve::VR::IVRSystem::_ShouldApplicationReduceRenderingWork* ShouldApplicationReduceRenderingWork_ = {}, Valve::VR::IVRSystem::_DriverDebugRequest* DriverDebugRequest_ = {}, Valve::VR::IVRSystem::_PerformFirmwareUpdate* PerformFirmwareUpdate_ = {}, Valve::VR::IVRSystem::_AcknowledgeQuit_Exiting* AcknowledgeQuit_Exiting_ = {}, Valve::VR::IVRSystem::_AcknowledgeQuit_UserPrompt* AcknowledgeQuit_UserPrompt_ = {}) noexcept : GetRecommendedRenderTargetSize{GetRecommendedRenderTargetSize_}, GetProjectionMatrix{GetProjectionMatrix_}, GetProjectionRaw{GetProjectionRaw_}, ComputeDistortion{ComputeDistortion_}, GetEyeToHeadTransform{GetEyeToHeadTransform_}, GetTimeSinceLastVsync{GetTimeSinceLastVsync_}, GetD3D9AdapterIndex{GetD3D9AdapterIndex_}, GetDXGIOutputInfo{GetDXGIOutputInfo_}, GetOutputDevice{GetOutputDevice_}, IsDisplayOnDesktop{IsDisplayOnDesktop_}, SetDisplayVisibility{SetDisplayVisibility_}, GetDeviceToAbsoluteTrackingPose{GetDeviceToAbsoluteTrackingPose_}, ResetSeatedZeroPose{ResetSeatedZeroPose_}, GetSeatedZeroPoseToStandingAbsoluteTrackingPose{GetSeatedZeroPoseToStandingAbsoluteTrackingPose_}, GetRawZeroPoseToStandingAbsoluteTrackingPose{GetRawZeroPoseToStandingAbsoluteTrackingPose_}, GetSortedTrackedDeviceIndicesOfClass{GetSortedTrackedDeviceIndicesOfClass_}, GetTrackedDeviceActivityLevel{GetTrackedDeviceActivityLevel_}, ApplyTransform{ApplyTransform_}, GetTrackedDeviceIndexForControllerRole{GetTrackedDeviceIndexForControllerRole_}, GetControllerRoleForTrackedDeviceIndex{GetControllerRoleForTrackedDeviceIndex_}, GetTrackedDeviceClass{GetTrackedDeviceClass_}, IsTrackedDeviceConnected{IsTrackedDeviceConnected_}, GetBoolTrackedDeviceProperty{GetBoolTrackedDeviceProperty_}, GetFloatTrackedDeviceProperty{GetFloatTrackedDeviceProperty_}, GetInt32TrackedDeviceProperty{GetInt32TrackedDeviceProperty_}, GetUint64TrackedDeviceProperty{GetUint64TrackedDeviceProperty_}, GetMatrix34TrackedDeviceProperty{GetMatrix34TrackedDeviceProperty_}, GetArrayTrackedDeviceProperty{GetArrayTrackedDeviceProperty_}, GetStringTrackedDeviceProperty{GetStringTrackedDeviceProperty_}, GetPropErrorNameFromEnum{GetPropErrorNameFromEnum_}, PollNextEvent{PollNextEvent_}, PollNextEventWithPose{PollNextEventWithPose_}, GetEventTypeNameFromEnum{GetEventTypeNameFromEnum_}, GetHiddenAreaMesh{GetHiddenAreaMesh_}, GetControllerState{GetControllerState_}, GetControllerStateWithPose{GetControllerStateWithPose_}, TriggerHapticPulse{TriggerHapticPulse_}, GetButtonIdNameFromEnum{GetButtonIdNameFromEnum_}, GetControllerAxisTypeNameFromEnum{GetControllerAxisTypeNameFromEnum_}, IsInputAvailable{IsInputAvailable_}, IsSteamVRDrawingControllers{IsSteamVRDrawingControllers_}, ShouldApplicationPause{ShouldApplicationPause_}, ShouldApplicationReduceRenderingWork{ShouldApplicationReduceRenderingWork_}, DriverDebugRequest{DriverDebugRequest_}, PerformFirmwareUpdate{PerformFirmwareUpdate_}, AcknowledgeQuit_Exiting{AcknowledgeQuit_Exiting_}, AcknowledgeQuit_UserPrompt{AcknowledgeQuit_UserPrompt_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -502,6 +519,4 @@ namespace Valve::VR {
   static check_size<sizeof(IVRSystem), 368 + sizeof(Valve::VR::IVRSystem::_AcknowledgeQuit_UserPrompt*)> __Valve_VR_IVRSystemSizeCheck;
   static_assert(sizeof(IVRSystem) == 0x178);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem, "Valve.VR", "IVRSystem");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

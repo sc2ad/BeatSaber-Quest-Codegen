@@ -11,7 +11,16 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: System.Security.Cryptography
+namespace System::Security::Cryptography {
+  // Forward declaring type: RandomNumberGenerator
+  class RandomNumberGenerator;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Security::Cryptography::RandomNumberGenerator);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RandomNumberGenerator*, "System.Security.Cryptography", "RandomNumberGenerator");
 // Type namespace: System.Security.Cryptography
 namespace System::Security::Cryptography {
   // Size: 0x10
@@ -21,8 +30,6 @@ namespace System::Security::Cryptography {
   // [ComVisibleAttribute] Offset: EA09B0
   class RandomNumberGenerator : public ::Il2CppObject/*, public System::IDisposable*/ {
     public:
-    // Creating value type constructor for type: RandomNumberGenerator
-    RandomNumberGenerator() noexcept {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
@@ -38,7 +45,7 @@ namespace System::Security::Cryptography {
     void Dispose(bool disposing);
     // public System.Void GetBytes(System.Byte[] data)
     // Offset: 0xFFFFFFFF
-    void GetBytes(::Array<uint8_t>* data);
+    void GetBytes(::ArrayW<uint8_t> data);
     // protected System.Void .ctor()
     // Offset: 0x1D13E40
     // Implemented from: System.Object
@@ -51,7 +58,6 @@ namespace System::Security::Cryptography {
   }; // System.Security.Cryptography.RandomNumberGenerator
   #pragma pack(pop)
 }
-DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RandomNumberGenerator*, "System.Security.Cryptography", "RandomNumberGenerator");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::RandomNumberGenerator::Create
 // Il2CppName: Create
@@ -81,7 +87,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::RandomNumberGenerator::GetBytes
 // Il2CppName: GetBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::RandomNumberGenerator::*)(::Array<uint8_t>*)>(&System::Security::Cryptography::RandomNumberGenerator::GetBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::RandomNumberGenerator::*)(::ArrayW<uint8_t>)>(&System::Security::Cryptography::RandomNumberGenerator::GetBytes)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RandomNumberGenerator*), "GetBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});

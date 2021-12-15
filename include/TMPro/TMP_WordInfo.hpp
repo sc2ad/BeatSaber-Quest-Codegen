@@ -19,6 +19,13 @@ struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: TMPro
 namespace TMPro {
+  // Forward declaring type: TMP_WordInfo
+  struct TMP_WordInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_WordInfo, "TMPro", "TMP_WordInfo");
+// Type namespace: TMPro
+namespace TMPro {
   // Size: 0x14
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -26,6 +33,15 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   struct TMP_WordInfo/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public TMPro.TMP_Text textComponent
     // Size: 0x8
     // Offset: 0x0
@@ -50,6 +66,7 @@ namespace TMPro {
     int characterCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: TMP_WordInfo
     constexpr TMP_WordInfo(TMPro::TMP_Text* textComponent_ = {}, int firstCharacterIndex_ = {}, int lastCharacterIndex_ = {}, int characterCount_ = {}) noexcept : textComponent{textComponent_}, firstCharacterIndex{firstCharacterIndex_}, lastCharacterIndex{lastCharacterIndex_}, characterCount{characterCount_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -72,8 +89,6 @@ namespace TMPro {
   static check_size<sizeof(TMP_WordInfo), 16 + sizeof(int)> __TMPro_TMP_WordInfoSizeCheck;
   static_assert(sizeof(TMP_WordInfo) == 0x14);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_WordInfo, "TMPro", "TMP_WordInfo");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_WordInfo::GetWord
 // Il2CppName: GetWord

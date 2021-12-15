@@ -9,18 +9,15 @@
 #include "System/ValueType.hpp"
 // Including type: Mono.RuntimeStructs
 #include "Mono/RuntimeStructs.hpp"
-// Including type: System.IntPtr
-#include "System/IntPtr.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Type
   class Type;
+  // Forward declaring type: IntPtr
+  struct IntPtr;
 }
 // Forward declaring namespace: System::Reflection
 namespace System::Reflection {
@@ -30,6 +27,13 @@ namespace System::Reflection {
 // Completed forward declares
 // Type namespace: Mono
 namespace Mono {
+  // Forward declaring type: RuntimeGenericParamInfoHandle
+  struct RuntimeGenericParamInfoHandle;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeGenericParamInfoHandle, "Mono", "RuntimeGenericParamInfoHandle");
+// Type namespace: Mono
+namespace Mono {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -37,12 +41,22 @@ namespace Mono {
   // [TokenAttribute] Offset: FFFFFFFF
   struct RuntimeGenericParamInfoHandle/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private Mono.RuntimeStructs/Mono.GenericParamInfo* value
     // Size: 0x8
     // Offset: 0x0
     Mono::RuntimeStructs::GenericParamInfo* value;
     // Field size check
     static_assert(sizeof(Mono::RuntimeStructs::GenericParamInfo*) == 0x8);
+    public:
     // Creating value type constructor for type: RuntimeGenericParamInfoHandle
     constexpr RuntimeGenericParamInfoHandle(Mono::RuntimeStructs::GenericParamInfo* value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -57,21 +71,16 @@ namespace Mono {
     Mono::RuntimeStructs::GenericParamInfo*& dyn_value();
     // System.Type[] get_Constraints()
     // Offset: 0x1C7B5A8
-    ::Array<System::Type*>* get_Constraints();
+    ::ArrayW<System::Type*> get_Constraints();
     // System.Reflection.GenericParameterAttributes get_Attributes()
     // Offset: 0x1C7B6EC
     System::Reflection::GenericParameterAttributes get_Attributes();
     // System.Void .ctor(System.IntPtr ptr)
     // Offset: 0x1C7B57C
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    RuntimeGenericParamInfoHandle(System::IntPtr ptr) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Mono::RuntimeGenericParamInfoHandle::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(ptr)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, ptr);
-    }
+    RuntimeGenericParamInfoHandle(System::IntPtr ptr);
     // private System.Type[] GetConstraints()
     // Offset: 0x1C7B5AC
-    ::Array<System::Type*>* GetConstraints();
+    ::ArrayW<System::Type*> GetConstraints();
     // private System.Int32 GetConstraintsCount()
     // Offset: 0x1C7B708
     int GetConstraintsCount();
@@ -80,12 +89,11 @@ namespace Mono {
   static check_size<sizeof(RuntimeGenericParamInfoHandle), 0 + sizeof(Mono::RuntimeStructs::GenericParamInfo*)> __Mono_RuntimeGenericParamInfoHandleSizeCheck;
   static_assert(sizeof(RuntimeGenericParamInfoHandle) == 0x8);
 }
-DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeGenericParamInfoHandle, "Mono", "RuntimeGenericParamInfoHandle");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::RuntimeGenericParamInfoHandle::get_Constraints
 // Il2CppName: get_Constraints
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Type*>* (Mono::RuntimeGenericParamInfoHandle::*)()>(&Mono::RuntimeGenericParamInfoHandle::get_Constraints)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Type*> (Mono::RuntimeGenericParamInfoHandle::*)()>(&Mono::RuntimeGenericParamInfoHandle::get_Constraints)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::RuntimeGenericParamInfoHandle), "get_Constraints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -105,7 +113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: Mono::RuntimeGenericParamInfoHandle::GetConstraints
 // Il2CppName: GetConstraints
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Type*>* (Mono::RuntimeGenericParamInfoHandle::*)()>(&Mono::RuntimeGenericParamInfoHandle::GetConstraints)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Type*> (Mono::RuntimeGenericParamInfoHandle::*)()>(&Mono::RuntimeGenericParamInfoHandle::GetConstraints)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::RuntimeGenericParamInfoHandle), "GetConstraints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

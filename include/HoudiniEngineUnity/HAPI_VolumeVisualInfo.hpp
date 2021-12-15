@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
+  // Forward declaring type: HAPI_VolumeVisualInfo
+  struct HAPI_VolumeVisualInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_VolumeVisualInfo, "HoudiniEngineUnity", "HAPI_VolumeVisualInfo");
+// Type namespace: HoudiniEngineUnity
+namespace HoudiniEngineUnity {
   // Size: 0xC
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -19,6 +26,15 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HAPI_VolumeVisualInfo/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public HoudiniEngineUnity.HAPI_VolumeVisualType type
     // Size: 0x4
     // Offset: 0x0
@@ -37,6 +53,7 @@ namespace HoudiniEngineUnity {
     float density;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: HAPI_VolumeVisualInfo
     constexpr HAPI_VolumeVisualInfo(HoudiniEngineUnity::HAPI_VolumeVisualType type_ = {}, float iso_ = {}, float density_ = {}) noexcept : type{type_}, iso{iso_}, density{density_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -54,6 +71,4 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HAPI_VolumeVisualInfo), 8 + sizeof(float)> __HoudiniEngineUnity_HAPI_VolumeVisualInfoSizeCheck;
   static_assert(sizeof(HAPI_VolumeVisualInfo) == 0xC);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_VolumeVisualInfo, "HoudiniEngineUnity", "HAPI_VolumeVisualInfo");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

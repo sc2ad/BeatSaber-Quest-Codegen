@@ -3,13 +3,19 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
 // Completed includes
+// Type namespace: Unity.Jobs
+namespace Unity::Jobs {
+  // Forward declaring type: JobHandle
+  struct JobHandle;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Unity::Jobs::JobHandle, "Unity.Jobs", "JobHandle");
 // Type namespace: Unity.Jobs
 namespace Unity::Jobs {
   // Size: 0xC
@@ -20,6 +26,15 @@ namespace Unity::Jobs {
   // [NativeTypeAttribute] Offset: EB2024
   struct JobHandle/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // System.IntPtr jobGroup
     // Size: 0x8
     // Offset: 0x0
@@ -32,6 +47,7 @@ namespace Unity::Jobs {
     int version;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: JobHandle
     constexpr JobHandle(System::IntPtr jobGroup_ = {}, int version_ = {}) noexcept : jobGroup{jobGroup_}, version{version_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -50,8 +66,6 @@ namespace Unity::Jobs {
   static check_size<sizeof(JobHandle), 8 + sizeof(int)> __Unity_Jobs_JobHandleSizeCheck;
   static_assert(sizeof(JobHandle) == 0xC);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Unity::Jobs::JobHandle, "Unity.Jobs", "JobHandle");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Unity::Jobs::JobHandle::ScheduleBatchedJobs
 // Il2CppName: ScheduleBatchedJobs

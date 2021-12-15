@@ -9,6 +9,7 @@
 #include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.ContactPoint
 #include "UnityEngine/ContactPoint.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -21,6 +22,14 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: Collision
+  class Collision;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::Collision);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Collision*, "UnityEngine", "Collision");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x50
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -29,6 +38,15 @@ namespace UnityEngine {
   // [RequiredByNativeCodeAttribute] Offset: EC7F18
   class Collision : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // UnityEngine.Vector3 m_Impulse
     // Size: 0xC
     // Offset: 0x10
@@ -64,17 +82,16 @@ namespace UnityEngine {
     // UnityEngine.ContactPoint[] m_ReusedContacts
     // Size: 0x8
     // Offset: 0x40
-    ::Array<UnityEngine::ContactPoint>* m_ReusedContacts;
+    ::ArrayW<UnityEngine::ContactPoint> m_ReusedContacts;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::ContactPoint>*) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::ContactPoint>) == 0x8);
     // UnityEngine.ContactPoint[] m_LegacyContacts
     // Size: 0x8
     // Offset: 0x48
-    ::Array<UnityEngine::ContactPoint>* m_LegacyContacts;
+    ::ArrayW<UnityEngine::ContactPoint> m_LegacyContacts;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::ContactPoint>*) == 0x8);
-    // Creating value type constructor for type: Collision
-    Collision(UnityEngine::Vector3 m_Impulse_ = {}, UnityEngine::Vector3 m_RelativeVelocity_ = {}, UnityEngine::Rigidbody* m_Rigidbody_ = {}, UnityEngine::Collider* m_Collider_ = {}, int m_ContactCount_ = {}, ::Array<UnityEngine::ContactPoint>* m_ReusedContacts_ = {}, ::Array<UnityEngine::ContactPoint>* m_LegacyContacts_ = {}) noexcept : m_Impulse{m_Impulse_}, m_RelativeVelocity{m_RelativeVelocity_}, m_Rigidbody{m_Rigidbody_}, m_Collider{m_Collider_}, m_ContactCount{m_ContactCount_}, m_ReusedContacts{m_ReusedContacts_}, m_LegacyContacts{m_LegacyContacts_} {}
+    static_assert(sizeof(::ArrayW<UnityEngine::ContactPoint>) == 0x8);
+    public:
     // Get instance field reference: UnityEngine.Vector3 m_Impulse
     UnityEngine::Vector3& dyn_m_Impulse();
     // Get instance field reference: UnityEngine.Vector3 m_RelativeVelocity
@@ -86,14 +103,12 @@ namespace UnityEngine {
     // Get instance field reference: System.Int32 m_ContactCount
     int& dyn_m_ContactCount();
     // Get instance field reference: UnityEngine.ContactPoint[] m_ReusedContacts
-    ::Array<UnityEngine::ContactPoint>*& dyn_m_ReusedContacts();
+    ::ArrayW<UnityEngine::ContactPoint>& dyn_m_ReusedContacts();
     // Get instance field reference: UnityEngine.ContactPoint[] m_LegacyContacts
-    ::Array<UnityEngine::ContactPoint>*& dyn_m_LegacyContacts();
+    ::ArrayW<UnityEngine::ContactPoint>& dyn_m_LegacyContacts();
   }; // UnityEngine.Collision
   #pragma pack(pop)
-  static check_size<sizeof(Collision), 72 + sizeof(::Array<UnityEngine::ContactPoint>*)> __UnityEngine_CollisionSizeCheck;
+  static check_size<sizeof(Collision), 72 + sizeof(::ArrayW<UnityEngine::ContactPoint>)> __UnityEngine_CollisionSizeCheck;
   static_assert(sizeof(Collision) == 0x50);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Collision*, "UnityEngine", "Collision");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

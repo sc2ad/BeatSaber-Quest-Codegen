@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -28,6 +29,14 @@ namespace System {
 // Completed forward declares
 // Type namespace: UnityEngine.Networking
 namespace UnityEngine::Networking {
+  // Forward declaring type: DownloadHandlerAssetBundle
+  class DownloadHandlerAssetBundle;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::Networking::DownloadHandlerAssetBundle);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::DownloadHandlerAssetBundle*, "UnityEngine.Networking", "DownloadHandlerAssetBundle");
+// Type namespace: UnityEngine.Networking
+namespace UnityEngine::Networking {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -36,8 +45,6 @@ namespace UnityEngine::Networking {
   // [NativeHeaderAttribute] Offset: F19398
   class DownloadHandlerAssetBundle : public UnityEngine::Networking::DownloadHandler {
     public:
-    // Creating value type constructor for type: DownloadHandlerAssetBundle
-    DownloadHandlerAssetBundle() noexcept {}
     // public UnityEngine.AssetBundle get_assetBundle()
     // Offset: 0x26D2034
     UnityEngine::AssetBundle* get_assetBundle();
@@ -74,7 +81,7 @@ namespace UnityEngine::Networking {
     // Offset: 0x26D1F5C
     // Implemented from: UnityEngine.Networking.DownloadHandler
     // Base method: System.Byte[] DownloadHandler::GetData()
-    ::Array<uint8_t>* GetData();
+    ::ArrayW<uint8_t> GetData();
     // protected override System.String GetText()
     // Offset: 0x26D1FC8
     // Implemented from: UnityEngine.Networking.DownloadHandler
@@ -83,7 +90,6 @@ namespace UnityEngine::Networking {
   }; // UnityEngine.Networking.DownloadHandlerAssetBundle
   #pragma pack(pop)
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::DownloadHandlerAssetBundle*, "UnityEngine.Networking", "DownloadHandlerAssetBundle");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandlerAssetBundle::get_assetBundle
 // Il2CppName: get_assetBundle
@@ -163,7 +169,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandlerAssetBundle::GetData
 // Il2CppName: GetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (UnityEngine::Networking::DownloadHandlerAssetBundle::*)()>(&UnityEngine::Networking::DownloadHandlerAssetBundle::GetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (UnityEngine::Networking::DownloadHandlerAssetBundle::*)()>(&UnityEngine::Networking::DownloadHandlerAssetBundle::GetData)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::DownloadHandlerAssetBundle*), "GetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

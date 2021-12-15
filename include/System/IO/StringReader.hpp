@@ -11,7 +11,16 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: System.IO
+namespace System::IO {
+  // Forward declaring type: StringReader
+  class StringReader;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::IO::StringReader);
+DEFINE_IL2CPP_ARG_TYPE(System::IO::StringReader*, "System.IO", "StringReader");
 // Type namespace: System.IO
 namespace System::IO {
   // Size: 0x28
@@ -21,6 +30,15 @@ namespace System::IO {
   // [ComVisibleAttribute] Offset: E9F938
   class StringReader : public System::IO::TextReader {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.String _s
     // Size: 0x8
     // Offset: 0x18
@@ -39,8 +57,7 @@ namespace System::IO {
     int length;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Creating value type constructor for type: StringReader
-    StringReader(::Il2CppString* s_ = {}, int pos_ = {}, int length_ = {}) noexcept : s{s_}, pos{pos_}, length{length_} {}
+    public:
     // Deleting conversion operator: operator ::Il2CppObject*
     constexpr operator ::Il2CppObject*() const noexcept = delete;
     // Get instance field reference: private System.String _s
@@ -80,7 +97,7 @@ namespace System::IO {
     // Offset: 0x1A08F2C
     // Implemented from: System.IO.TextReader
     // Base method: System.Int32 TextReader::Read(in System.Char[] buffer, System.Int32 index, System.Int32 count)
-    int Read(ByRef<::Array<::Il2CppChar>*> buffer, int index, int count);
+    int Read(ByRef<::ArrayW<::Il2CppChar>> buffer, int index, int count);
     // public override System.String ReadToEnd()
     // Offset: 0x1A0910C
     // Implemented from: System.IO.TextReader
@@ -96,7 +113,6 @@ namespace System::IO {
   static check_size<sizeof(StringReader), 36 + sizeof(int)> __System_IO_StringReaderSizeCheck;
   static_assert(sizeof(StringReader) == 0x28);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::IO::StringReader*, "System.IO", "StringReader");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::StringReader::New_ctor
 // Il2CppName: .ctor
@@ -138,7 +154,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::IO::StringReader::Read
 // Il2CppName: Read
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::StringReader::*)(ByRef<::Array<::Il2CppChar>*>, int, int)>(&System::IO::StringReader::Read)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::StringReader::*)(ByRef<::ArrayW<::Il2CppChar>>, int, int)>(&System::IO::StringReader::Read)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->this_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

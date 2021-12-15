@@ -11,7 +11,16 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: 
+namespace GlobalNamespace {
+  // Forward declaring type: <>c__DisplayClass12_0
+  class $$c__DisplayClass12_0;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(GlobalNamespace::SelectLevelCategoryViewController::$$c__DisplayClass12_0);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectLevelCategoryViewController::$$c__DisplayClass12_0*, "", "SelectLevelCategoryViewController/<>c__DisplayClass12_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x18
@@ -21,20 +30,28 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class SelectLevelCategoryViewController::$$c__DisplayClass12_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public SelectLevelCategoryViewController/LevelCategory[] enabledLevelCategories
     // Size: 0x8
     // Offset: 0x10
-    ::Array<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>* enabledLevelCategories;
+    ::ArrayW<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory> enabledLevelCategories;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>*) == 0x8);
-    // Creating value type constructor for type: $$c__DisplayClass12_0
-    $$c__DisplayClass12_0(::Array<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>* enabledLevelCategories_ = {}) noexcept : enabledLevelCategories{enabledLevelCategories_} {}
-    // Creating conversion operator: operator ::Array<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>*
-    constexpr operator ::Array<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>*() const noexcept {
+    static_assert(sizeof(::ArrayW<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>) == 0x8);
+    public:
+    // Creating conversion operator: operator ::ArrayW<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>
+    constexpr operator ::ArrayW<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>() const noexcept {
       return enabledLevelCategories;
     }
     // Get instance field reference: public SelectLevelCategoryViewController/LevelCategory[] enabledLevelCategories
-    ::Array<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>*& dyn_enabledLevelCategories();
+    ::ArrayW<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>& dyn_enabledLevelCategories();
     // System.Boolean <Setup>b__0(SelectLevelCategoryViewController/LevelCategoryInfo data)
     // Offset: 0x12342D0
     bool $Setup$b__0(GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo* data);
@@ -49,10 +66,9 @@ namespace GlobalNamespace {
     }
   }; // SelectLevelCategoryViewController/<>c__DisplayClass12_0
   #pragma pack(pop)
-  static check_size<sizeof(SelectLevelCategoryViewController::$$c__DisplayClass12_0), 16 + sizeof(::Array<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>*)> __GlobalNamespace_SelectLevelCategoryViewController_$$c__DisplayClass12_0SizeCheck;
+  static check_size<sizeof(SelectLevelCategoryViewController::$$c__DisplayClass12_0), 16 + sizeof(::ArrayW<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>)> __GlobalNamespace_SelectLevelCategoryViewController_$$c__DisplayClass12_0SizeCheck;
   static_assert(sizeof(SelectLevelCategoryViewController::$$c__DisplayClass12_0) == 0x18);
 }
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectLevelCategoryViewController::$$c__DisplayClass12_0*, "", "SelectLevelCategoryViewController/<>c__DisplayClass12_0");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SelectLevelCategoryViewController::$$c__DisplayClass12_0::$Setup$b__0
 // Il2CppName: <Setup>b__0

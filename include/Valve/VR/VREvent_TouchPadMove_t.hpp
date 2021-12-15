@@ -9,6 +9,13 @@
 // Completed includes
 // Type namespace: Valve.VR
 namespace Valve::VR {
+  // Forward declaring type: VREvent_TouchPadMove_t
+  struct VREvent_TouchPadMove_t;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VREvent_TouchPadMove_t, "Valve.VR", "VREvent_TouchPadMove_t");
+// Type namespace: Valve.VR
+namespace Valve::VR {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -16,6 +23,15 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VREvent_TouchPadMove_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.Boolean bFingerDown
     // Size: 0x1
     // Offset: 0x0
@@ -54,6 +70,7 @@ namespace Valve::VR {
     float fValueYRaw;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: VREvent_TouchPadMove_t
     constexpr VREvent_TouchPadMove_t(bool bFingerDown_ = {}, float flSecondsFingerDown_ = {}, float fValueXFirst_ = {}, float fValueYFirst_ = {}, float fValueXRaw_ = {}, float fValueYRaw_ = {}) noexcept : bFingerDown{bFingerDown_}, flSecondsFingerDown{flSecondsFingerDown_}, fValueXFirst{fValueXFirst_}, fValueYFirst{fValueYFirst_}, fValueXRaw{fValueXRaw_}, fValueYRaw{fValueYRaw_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -77,6 +94,4 @@ namespace Valve::VR {
   static check_size<sizeof(VREvent_TouchPadMove_t), 20 + sizeof(float)> __Valve_VR_VREvent_TouchPadMove_tSizeCheck;
   static_assert(sizeof(VREvent_TouchPadMove_t) == 0x18);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VREvent_TouchPadMove_t, "Valve.VR", "VREvent_TouchPadMove_t");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -10,6 +10,14 @@
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: AssetBundleRecompressOperation
+  class AssetBundleRecompressOperation;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::AssetBundleRecompressOperation);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AssetBundleRecompressOperation*, "UnityEngine", "AssetBundleRecompressOperation");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x20
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -19,11 +27,7 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: EDFB3C
   class AssetBundleRecompressOperation : public UnityEngine::AsyncOperation {
     public:
-    // Creating value type constructor for type: AssetBundleRecompressOperation
-    AssetBundleRecompressOperation() noexcept {}
   }; // UnityEngine.AssetBundleRecompressOperation
   #pragma pack(pop)
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AssetBundleRecompressOperation*, "UnityEngine", "AssetBundleRecompressOperation");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

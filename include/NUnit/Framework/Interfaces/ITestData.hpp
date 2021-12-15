@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Interfaces
@@ -16,9 +17,15 @@ namespace NUnit::Framework::Interfaces {
 // Completed forward declares
 // Begin il2cpp-utils forward declares
 struct Il2CppObject;
-template<class T>
-struct Array;
 // Completed il2cpp-utils forward declares
+// Type namespace: NUnit.Framework.Interfaces
+namespace NUnit::Framework::Interfaces {
+  // Forward declaring type: ITestData
+  class ITestData;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(NUnit::Framework::Interfaces::ITestData);
+DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::ITestData*, "NUnit.Framework.Interfaces", "ITestData");
 // Type namespace: NUnit.Framework.Interfaces
 namespace NUnit::Framework::Interfaces {
   // Size: 0x10
@@ -27,22 +34,18 @@ namespace NUnit::Framework::Interfaces {
   // [TokenAttribute] Offset: FFFFFFFF
   class ITestData {
     public:
-    // Creating value type constructor for type: ITestData
-    ITestData() noexcept {}
     // public NUnit.Framework.Interfaces.RunState get_RunState()
     // Offset: 0xFFFFFFFF
     NUnit::Framework::Interfaces::RunState get_RunState();
     // public System.Object[] get_Arguments()
     // Offset: 0xFFFFFFFF
-    ::Array<::Il2CppObject*>* get_Arguments();
+    ::ArrayW<::Il2CppObject*> get_Arguments();
     // public NUnit.Framework.Interfaces.IPropertyBag get_Properties()
     // Offset: 0xFFFFFFFF
     NUnit::Framework::Interfaces::IPropertyBag* get_Properties();
   }; // NUnit.Framework.Interfaces.ITestData
   #pragma pack(pop)
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::ITestData*, "NUnit.Framework.Interfaces", "ITestData");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::ITestData::get_RunState
 // Il2CppName: get_RunState
@@ -55,7 +58,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::ITestData::get_Arguments
 // Il2CppName: get_Arguments
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (NUnit::Framework::Interfaces::ITestData::*)()>(&NUnit::Framework::Interfaces::ITestData::get_Arguments)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppObject*> (NUnit::Framework::Interfaces::ITestData::*)()>(&NUnit::Framework::Interfaces::ITestData::get_Arguments)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::ITestData*), "get_Arguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

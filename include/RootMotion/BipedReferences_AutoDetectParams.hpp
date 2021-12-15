@@ -9,11 +9,14 @@
 #include "RootMotion/BipedReferences.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
+// Type namespace: RootMotion
+namespace RootMotion {
+  // Forward declaring type: AutoDetectParams
+  struct AutoDetectParams;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::BipedReferences::AutoDetectParams, "RootMotion", "BipedReferences/AutoDetectParams");
 // Type namespace: RootMotion
 namespace RootMotion {
   // Size: 0x2
@@ -23,6 +26,15 @@ namespace RootMotion {
   // [TokenAttribute] Offset: FFFFFFFF
   struct BipedReferences::AutoDetectParams/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.Boolean legsParentInSpine
     // Size: 0x1
     // Offset: 0x0
@@ -35,6 +47,7 @@ namespace RootMotion {
     bool includeEyes;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating value type constructor for type: AutoDetectParams
     constexpr AutoDetectParams(bool legsParentInSpine_ = {}, bool includeEyes_ = {}) noexcept : legsParentInSpine{legsParentInSpine_}, includeEyes{includeEyes_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -50,14 +63,12 @@ namespace RootMotion {
     static RootMotion::BipedReferences::AutoDetectParams get_Default();
     // public System.Void .ctor(System.Boolean legsParentInSpine, System.Boolean includeEyes)
     // Offset: 0x1EA9418
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    // ABORTED: conflicts with another method.  AutoDetectParams(bool legsParentInSpine, bool includeEyes)
+    // ABORTED: conflicts with another method.  AutoDetectParams(bool legsParentInSpine, bool includeEyes);
   }; // RootMotion.BipedReferences/RootMotion.AutoDetectParams
   #pragma pack(pop)
   static check_size<sizeof(BipedReferences::AutoDetectParams), 1 + sizeof(bool)> __RootMotion_BipedReferences_AutoDetectParamsSizeCheck;
   static_assert(sizeof(BipedReferences::AutoDetectParams) == 0x2);
 }
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::BipedReferences::AutoDetectParams, "RootMotion", "BipedReferences/AutoDetectParams");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::BipedReferences::AutoDetectParams::get_Default
 // Il2CppName: get_Default

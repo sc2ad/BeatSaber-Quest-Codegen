@@ -11,7 +11,16 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: System.Collections.Generic
+namespace System::Collections::Generic {
+  // Forward declaring type: ByteEqualityComparer
+  class ByteEqualityComparer;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Collections::Generic::ByteEqualityComparer);
+DEFINE_IL2CPP_ARG_TYPE(System::Collections::Generic::ByteEqualityComparer*, "System.Collections.Generic", "ByteEqualityComparer");
 // Type namespace: System.Collections.Generic
 namespace System::Collections::Generic {
   // WARNING Size may be invalid!
@@ -19,8 +28,6 @@ namespace System::Collections::Generic {
   // [TokenAttribute] Offset: FFFFFFFF
   class ByteEqualityComparer : public System::Collections::Generic::EqualityComparer_1<uint8_t> {
     public:
-    // Creating value type constructor for type: ByteEqualityComparer
-    ByteEqualityComparer() noexcept {}
     // public System.Boolean Equals(System.Byte x, System.Byte y)
     // Offset: 0x199EA94
     bool Equals(uint8_t x, uint8_t y);
@@ -29,10 +36,10 @@ namespace System::Collections::Generic {
     int GetHashCode(uint8_t b);
     // System.Int32 IndexOf(System.Byte[] array, System.Byte value, System.Int32 startIndex, System.Int32 count)
     // Offset: 0x199EAAC
-    int IndexOf(::Array<uint8_t>* array, uint8_t value, int startIndex, int count);
+    int IndexOf(::ArrayW<uint8_t> array, uint8_t value, int startIndex, int count);
     // System.Int32 LastIndexOf(System.Byte[] array, System.Byte value, System.Int32 startIndex, System.Int32 count)
     // Offset: 0x199EC5C
-    int LastIndexOf(::Array<uint8_t>* array, uint8_t value, int startIndex, int count);
+    int LastIndexOf(::ArrayW<uint8_t> array, uint8_t value, int startIndex, int count);
     // public System.Void .ctor()
     // Offset: 0x199ED78
     // Implemented from: System.Collections.Generic.EqualityComparer`1
@@ -55,7 +62,6 @@ namespace System::Collections::Generic {
     int GetHashCode();
   }; // System.Collections.Generic.ByteEqualityComparer
 }
-DEFINE_IL2CPP_ARG_TYPE(System::Collections::Generic::ByteEqualityComparer*, "System.Collections.Generic", "ByteEqualityComparer");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::Generic::ByteEqualityComparer::Equals
 // Il2CppName: Equals
@@ -79,7 +85,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Collections::Generic::ByteEqualityComparer::IndexOf
 // Il2CppName: IndexOf
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Collections::Generic::ByteEqualityComparer::*)(::Array<uint8_t>*, uint8_t, int, int)>(&System::Collections::Generic::ByteEqualityComparer::IndexOf)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Collections::Generic::ByteEqualityComparer::*)(::ArrayW<uint8_t>, uint8_t, int, int)>(&System::Collections::Generic::ByteEqualityComparer::IndexOf)> {
   static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
@@ -91,7 +97,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Collections::Generic::ByteEqualityComparer::LastIndexOf
 // Il2CppName: LastIndexOf
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Collections::Generic::ByteEqualityComparer::*)(::Array<uint8_t>*, uint8_t, int, int)>(&System::Collections::Generic::ByteEqualityComparer::LastIndexOf)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Collections::Generic::ByteEqualityComparer::*)(::ArrayW<uint8_t>, uint8_t, int, int)>(&System::Collections::Generic::ByteEqualityComparer::LastIndexOf)> {
   static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;

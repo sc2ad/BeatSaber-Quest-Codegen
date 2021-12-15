@@ -3,13 +3,19 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
 // Completed includes
+// Type namespace: Valve.VR
+namespace Valve::VR {
+  // Forward declaring type: D3D12TextureData_t
+  struct D3D12TextureData_t;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::D3D12TextureData_t, "Valve.VR", "D3D12TextureData_t");
 // Type namespace: Valve.VR
 namespace Valve::VR {
   // Size: 0x14
@@ -19,6 +25,15 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct D3D12TextureData_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.IntPtr m_pResource
     // Size: 0x8
     // Offset: 0x0
@@ -37,6 +52,7 @@ namespace Valve::VR {
     uint m_nNodeMask;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
+    public:
     // Creating value type constructor for type: D3D12TextureData_t
     constexpr D3D12TextureData_t(System::IntPtr m_pResource_ = {}, System::IntPtr m_pCommandQueue_ = {}, uint m_nNodeMask_ = {}) noexcept : m_pResource{m_pResource_}, m_pCommandQueue{m_pCommandQueue_}, m_nNodeMask{m_nNodeMask_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -54,6 +70,4 @@ namespace Valve::VR {
   static check_size<sizeof(D3D12TextureData_t), 16 + sizeof(uint)> __Valve_VR_D3D12TextureData_tSizeCheck;
   static_assert(sizeof(D3D12TextureData_t) == 0x14);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::D3D12TextureData_t, "Valve.VR", "D3D12TextureData_t");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

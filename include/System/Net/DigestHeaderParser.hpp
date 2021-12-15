@@ -9,7 +9,16 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: System.Net
+namespace System::Net {
+  // Forward declaring type: DigestHeaderParser
+  class DigestHeaderParser;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Net::DigestHeaderParser);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::DigestHeaderParser*, "System.Net", "DigestHeaderParser");
 // Type namespace: System.Net
 namespace System::Net {
   // Size: 0x28
@@ -18,6 +27,15 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class DigestHeaderParser : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.String header
     // Size: 0x8
     // Offset: 0x10
@@ -39,15 +57,14 @@ namespace System::Net {
     // private System.String[] values
     // Size: 0x8
     // Offset: 0x20
-    ::Array<::Il2CppString*>* values;
+    ::ArrayW<::Il2CppString*> values;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
-    // Creating value type constructor for type: DigestHeaderParser
-    DigestHeaderParser(::Il2CppString* header_ = {}, int length_ = {}, int pos_ = {}, ::Array<::Il2CppString*>* values_ = {}) noexcept : header{header_}, length{length_}, pos{pos_}, values{values_} {}
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    public:
     // Get static field: static private System.String[] keywords
-    static ::Array<::Il2CppString*>* _get_keywords();
+    static ::ArrayW<::Il2CppString*> _get_keywords();
     // Set static field: static private System.String[] keywords
-    static void _set_keywords(::Array<::Il2CppString*>* value);
+    static void _set_keywords(::ArrayW<::Il2CppString*> value);
     // Get instance field reference: private System.String header
     ::Il2CppString*& dyn_header();
     // Get instance field reference: private System.Int32 length
@@ -55,7 +72,7 @@ namespace System::Net {
     // Get instance field reference: private System.Int32 pos
     int& dyn_pos();
     // Get instance field reference: private System.String[] values
-    ::Array<::Il2CppString*>*& dyn_values();
+    ::ArrayW<::Il2CppString*>& dyn_values();
     // public System.String get_Realm()
     // Offset: 0x15ED060
     ::Il2CppString* get_Realm();
@@ -95,10 +112,9 @@ namespace System::Net {
     bool GetKeywordAndValue(ByRef<::Il2CppString*> key, ByRef<::Il2CppString*> value);
   }; // System.Net.DigestHeaderParser
   #pragma pack(pop)
-  static check_size<sizeof(DigestHeaderParser), 32 + sizeof(::Array<::Il2CppString*>*)> __System_Net_DigestHeaderParserSizeCheck;
+  static check_size<sizeof(DigestHeaderParser), 32 + sizeof(::ArrayW<::Il2CppString*>)> __System_Net_DigestHeaderParserSizeCheck;
   static_assert(sizeof(DigestHeaderParser) == 0x28);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::Net::DigestHeaderParser*, "System.Net", "DigestHeaderParser");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::DigestHeaderParser::get_Realm
 // Il2CppName: get_Realm

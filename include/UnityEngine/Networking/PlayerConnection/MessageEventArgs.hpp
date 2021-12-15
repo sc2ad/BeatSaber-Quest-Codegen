@@ -9,7 +9,16 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: UnityEngine.Networking.PlayerConnection
+namespace UnityEngine::Networking::PlayerConnection {
+  // Forward declaring type: MessageEventArgs
+  class MessageEventArgs;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::Networking::PlayerConnection::MessageEventArgs);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::PlayerConnection::MessageEventArgs*, "UnityEngine.Networking.PlayerConnection", "MessageEventArgs");
 // Type namespace: UnityEngine.Networking.PlayerConnection
 namespace UnityEngine::Networking::PlayerConnection {
   // Size: 0x20
@@ -18,6 +27,15 @@ namespace UnityEngine::Networking::PlayerConnection {
   // [TokenAttribute] Offset: FFFFFFFF
   class MessageEventArgs : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.Int32 playerId
     // Size: 0x4
     // Offset: 0x10
@@ -29,15 +47,14 @@ namespace UnityEngine::Networking::PlayerConnection {
     // public System.Byte[] data
     // Size: 0x8
     // Offset: 0x18
-    ::Array<uint8_t>* data;
+    ::ArrayW<uint8_t> data;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
-    // Creating value type constructor for type: MessageEventArgs
-    MessageEventArgs(int playerId_ = {}, ::Array<uint8_t>* data_ = {}) noexcept : playerId{playerId_}, data{data_} {}
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
+    public:
     // Get instance field reference: public System.Int32 playerId
     int& dyn_playerId();
     // Get instance field reference: public System.Byte[] data
-    ::Array<uint8_t>*& dyn_data();
+    ::ArrayW<uint8_t>& dyn_data();
     // public System.Void .ctor()
     // Offset: 0x1DA68C4
     // Implemented from: System.Object
@@ -49,10 +66,9 @@ namespace UnityEngine::Networking::PlayerConnection {
     }
   }; // UnityEngine.Networking.PlayerConnection.MessageEventArgs
   #pragma pack(pop)
-  static check_size<sizeof(MessageEventArgs), 24 + sizeof(::Array<uint8_t>*)> __UnityEngine_Networking_PlayerConnection_MessageEventArgsSizeCheck;
+  static check_size<sizeof(MessageEventArgs), 24 + sizeof(::ArrayW<uint8_t>)> __UnityEngine_Networking_PlayerConnection_MessageEventArgsSizeCheck;
   static_assert(sizeof(MessageEventArgs) == 0x20);
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::PlayerConnection::MessageEventArgs*, "UnityEngine.Networking.PlayerConnection", "MessageEventArgs");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Networking::PlayerConnection::MessageEventArgs::New_ctor
 // Il2CppName: .ctor

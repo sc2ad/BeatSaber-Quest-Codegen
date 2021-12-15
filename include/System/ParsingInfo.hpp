@@ -19,6 +19,13 @@ namespace System::Globalization {
 // Completed forward declares
 // Type namespace: System
 namespace System {
+  // Forward declaring type: ParsingInfo
+  struct ParsingInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::ParsingInfo, "System", "ParsingInfo");
+// Type namespace: System
+namespace System {
   // Size: 0x20
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -26,6 +33,15 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ParsingInfo/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // System.Globalization.Calendar calendar
     // Size: 0x8
     // Offset: 0x0
@@ -82,6 +98,7 @@ namespace System {
     System::DateTimeParse::MatchNumberDelegate* parseNumberDelegate;
     // Field size check
     static_assert(sizeof(System::DateTimeParse::MatchNumberDelegate*) == 0x8);
+    public:
     // Creating value type constructor for type: ParsingInfo
     constexpr ParsingInfo(System::Globalization::Calendar* calendar_ = {}, int dayOfWeek_ = {}, System::DateTimeParse::TM timeMark_ = {}, bool fUseHour12_ = {}, bool fUseTwoDigitYear_ = {}, bool fAllowInnerWhite_ = {}, bool fAllowTrailingWhite_ = {}, bool fCustomNumberParser_ = {}, System::DateTimeParse::MatchNumberDelegate* parseNumberDelegate_ = {}) noexcept : calendar{calendar_}, dayOfWeek{dayOfWeek_}, timeMark{timeMark_}, fUseHour12{fUseHour12_}, fUseTwoDigitYear{fUseTwoDigitYear_}, fAllowInnerWhite{fAllowInnerWhite_}, fAllowTrailingWhite{fAllowTrailingWhite_}, fCustomNumberParser{fCustomNumberParser_}, parseNumberDelegate{parseNumberDelegate_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -114,8 +131,6 @@ namespace System {
   static check_size<sizeof(ParsingInfo), 24 + sizeof(System::DateTimeParse::MatchNumberDelegate*)> __System_ParsingInfoSizeCheck;
   static_assert(sizeof(ParsingInfo) == 0x20);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::ParsingInfo, "System", "ParsingInfo");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ParsingInfo::Init
 // Il2CppName: Init

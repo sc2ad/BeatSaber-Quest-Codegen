@@ -9,13 +9,21 @@
 #include "System/ValueType.hpp"
 // Including type: Mono.RuntimeStructs
 #include "Mono/RuntimeStructs.hpp"
-// Including type: System.IntPtr
-#include "System/IntPtr.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
+// Begin forward declares
+// Forward declaring namespace: System
+namespace System {
+  // Forward declaring type: IntPtr
+  struct IntPtr;
+}
+// Completed forward declares
+// Type namespace: Mono
+namespace Mono {
+  // Forward declaring type: RuntimeGPtrArrayHandle
+  struct RuntimeGPtrArrayHandle;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeGPtrArrayHandle, "Mono", "RuntimeGPtrArrayHandle");
 // Type namespace: Mono
 namespace Mono {
   // Size: 0x8
@@ -26,12 +34,22 @@ namespace Mono {
   // [DefaultMemberAttribute] Offset: E9CCCC
   struct RuntimeGPtrArrayHandle/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private Mono.RuntimeStructs/Mono.GPtrArray* value
     // Size: 0x8
     // Offset: 0x0
     Mono::RuntimeStructs::GPtrArray* value;
     // Field size check
     static_assert(sizeof(Mono::RuntimeStructs::GPtrArray*) == 0x8);
+    public:
     // Creating value type constructor for type: RuntimeGPtrArrayHandle
     constexpr RuntimeGPtrArrayHandle(Mono::RuntimeStructs::GPtrArray* value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -52,12 +70,7 @@ namespace Mono {
     System::IntPtr get_Item(int i);
     // System.Void .ctor(System.IntPtr ptr)
     // Offset: 0x1C7B464
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    RuntimeGPtrArrayHandle(System::IntPtr ptr) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Mono::RuntimeGPtrArrayHandle::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(ptr)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, ptr);
-    }
+    RuntimeGPtrArrayHandle(System::IntPtr ptr);
     // System.IntPtr Lookup(System.Int32 i)
     // Offset: 0x1C7B4B0
     System::IntPtr Lookup(int i);
@@ -72,7 +85,6 @@ namespace Mono {
   static check_size<sizeof(RuntimeGPtrArrayHandle), 0 + sizeof(Mono::RuntimeStructs::GPtrArray*)> __Mono_RuntimeGPtrArrayHandleSizeCheck;
   static_assert(sizeof(RuntimeGPtrArrayHandle) == 0x8);
 }
-DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeGPtrArrayHandle, "Mono", "RuntimeGPtrArrayHandle");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::RuntimeGPtrArrayHandle::get_Length
 // Il2CppName: get_Length

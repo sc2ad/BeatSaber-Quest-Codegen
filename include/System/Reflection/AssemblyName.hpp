@@ -29,6 +29,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Globalization
@@ -63,6 +64,14 @@ namespace Mono {
 // Completed forward declares
 // Type namespace: System.Reflection
 namespace System::Reflection {
+  // Forward declaring type: AssemblyName
+  class AssemblyName;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Reflection::AssemblyName);
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::AssemblyName*, "System.Reflection", "AssemblyName");
+// Type namespace: System.Reflection
+namespace System::Reflection {
   // Size: 0x70
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -73,6 +82,15 @@ namespace System::Reflection {
   // [ClassInterfaceAttribute] Offset: E9F160
   class AssemblyName : public ::Il2CppObject/*, public System::ICloneable, public System::Runtime::Serialization::ISerializable, public System::Runtime::Serialization::IDeserializationCallback, public System::Runtime::InteropServices::_AssemblyName*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.String name
     // Size: 0x8
     // Offset: 0x10
@@ -136,15 +154,15 @@ namespace System::Reflection {
     // private System.Byte[] publicKey
     // Size: 0x8
     // Offset: 0x48
-    ::Array<uint8_t>* publicKey;
+    ::ArrayW<uint8_t> publicKey;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Byte[] keyToken
     // Size: 0x8
     // Offset: 0x50
-    ::Array<uint8_t>* keyToken;
+    ::ArrayW<uint8_t> keyToken;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Configuration.Assemblies.AssemblyVersionCompatibility versioncompat
     // Size: 0x4
     // Offset: 0x58
@@ -171,8 +189,7 @@ namespace System::Reflection {
     System::Reflection::AssemblyContentType contentType;
     // Field size check
     static_assert(sizeof(System::Reflection::AssemblyContentType) == 0x4);
-    // Creating value type constructor for type: AssemblyName
-    AssemblyName(::Il2CppString* name_ = {}, ::Il2CppString* codebase_ = {}, int major_ = {}, int minor_ = {}, int build_ = {}, int revision_ = {}, System::Globalization::CultureInfo* cultureinfo_ = {}, System::Reflection::AssemblyNameFlags flags_ = {}, System::Configuration::Assemblies::AssemblyHashAlgorithm hashalg_ = {}, System::Reflection::StrongNameKeyPair* keypair_ = {}, ::Array<uint8_t>* publicKey_ = {}, ::Array<uint8_t>* keyToken_ = {}, System::Configuration::Assemblies::AssemblyVersionCompatibility versioncompat_ = {}, System::Version* version_ = {}, System::Reflection::ProcessorArchitecture processor_architecture_ = {}, System::Reflection::AssemblyContentType contentType_ = {}) noexcept : name{name_}, codebase{codebase_}, major{major_}, minor{minor_}, build{build_}, revision{revision_}, cultureinfo{cultureinfo_}, flags{flags_}, hashalg{hashalg_}, keypair{keypair_}, publicKey{publicKey_}, keyToken{keyToken_}, versioncompat{versioncompat_}, version{version_}, processor_architecture{processor_architecture_}, contentType{contentType_} {}
+    public:
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);
@@ -210,9 +227,9 @@ namespace System::Reflection {
     // Get instance field reference: private System.Reflection.StrongNameKeyPair keypair
     System::Reflection::StrongNameKeyPair*& dyn_keypair();
     // Get instance field reference: private System.Byte[] publicKey
-    ::Array<uint8_t>*& dyn_publicKey();
+    ::ArrayW<uint8_t>& dyn_publicKey();
     // Get instance field reference: private System.Byte[] keyToken
-    ::Array<uint8_t>*& dyn_keyToken();
+    ::ArrayW<uint8_t>& dyn_keyToken();
     // Get instance field reference: private System.Configuration.Assemblies.AssemblyVersionCompatibility versioncompat
     System::Configuration::Assemblies::AssemblyVersionCompatibility& dyn_versioncompat();
     // Get instance field reference: private System.Version version
@@ -261,16 +278,16 @@ namespace System::Reflection {
     static bool ParseAssemblyName(System::IntPtr name, ByRef<Mono::MonoAssemblyName> aname, ByRef<bool> is_version_definited, ByRef<bool> is_token_defined);
     // public System.Byte[] GetPublicKeyToken()
     // Offset: 0x1E8F1C8
-    ::Array<uint8_t>* GetPublicKeyToken();
+    ::ArrayW<uint8_t> GetPublicKeyToken();
     // private System.Byte[] InternalGetPublicKeyToken()
     // Offset: 0x1E8EFF0
-    ::Array<uint8_t>* InternalGetPublicKeyToken();
+    ::ArrayW<uint8_t> InternalGetPublicKeyToken();
     // static private System.Void get_public_token(System.Byte* token, System.Byte* pubkey, System.Int32 len)
     // Offset: 0x1E8F3D4
     static void get_public_token(uint8_t* token, uint8_t* pubkey, int len);
     // private System.Byte[] ComputePublicKeyToken()
     // Offset: 0x1E8F340
-    ::Array<uint8_t>* ComputePublicKeyToken();
+    ::ArrayW<uint8_t> ComputePublicKeyToken();
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x1E8F3D8
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
@@ -308,7 +325,6 @@ namespace System::Reflection {
   static check_size<sizeof(AssemblyName), 108 + sizeof(System::Reflection::AssemblyContentType)> __System_Reflection_AssemblyNameSizeCheck;
   static_assert(sizeof(AssemblyName) == 0x70);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::AssemblyName*, "System.Reflection", "AssemblyName");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::AssemblyName::get_Name
 // Il2CppName: get_Name
@@ -390,7 +406,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Reflection::AssemblyName::GetPublicKeyToken
 // Il2CppName: GetPublicKeyToken
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (System::Reflection::AssemblyName::*)()>(&System::Reflection::AssemblyName::GetPublicKeyToken)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::Reflection::AssemblyName::*)()>(&System::Reflection::AssemblyName::GetPublicKeyToken)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::AssemblyName*), "GetPublicKeyToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -398,7 +414,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Writing MetadataGetter for method: System::Reflection::AssemblyName::InternalGetPublicKeyToken
 // Il2CppName: InternalGetPublicKeyToken
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (System::Reflection::AssemblyName::*)()>(&System::Reflection::AssemblyName::InternalGetPublicKeyToken)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::Reflection::AssemblyName::*)()>(&System::Reflection::AssemblyName::InternalGetPublicKeyToken)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::AssemblyName*), "InternalGetPublicKeyToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -417,7 +433,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ui
 // Writing MetadataGetter for method: System::Reflection::AssemblyName::ComputePublicKeyToken
 // Il2CppName: ComputePublicKeyToken
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (System::Reflection::AssemblyName::*)()>(&System::Reflection::AssemblyName::ComputePublicKeyToken)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::Reflection::AssemblyName::*)()>(&System::Reflection::AssemblyName::ComputePublicKeyToken)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::AssemblyName*), "ComputePublicKeyToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

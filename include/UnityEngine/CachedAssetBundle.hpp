@@ -8,14 +8,17 @@
 #include "System/ValueType.hpp"
 // Including type: UnityEngine.Hash128
 #include "UnityEngine/Hash128.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct Il2CppString;
 // Completed il2cpp-utils forward declares
+// Type namespace: UnityEngine
+namespace UnityEngine {
+  // Forward declaring type: CachedAssetBundle
+  struct CachedAssetBundle;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CachedAssetBundle, "UnityEngine", "CachedAssetBundle");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18
@@ -26,6 +29,15 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: EB2A0C
   struct CachedAssetBundle/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.String m_Name
     // Size: 0x8
     // Offset: 0x0
@@ -38,6 +50,7 @@ namespace UnityEngine {
     UnityEngine::Hash128 m_Hash;
     // Field size check
     static_assert(sizeof(UnityEngine::Hash128) == 0x10);
+    public:
     // Creating value type constructor for type: CachedAssetBundle
     constexpr CachedAssetBundle(::Il2CppString* m_Name_ = {}, UnityEngine::Hash128 m_Hash_ = {}) noexcept : m_Name{m_Name_}, m_Hash{m_Hash_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -56,14 +69,12 @@ namespace UnityEngine {
     UnityEngine::Hash128 get_hash();
     // public System.Void .ctor(System.String name, UnityEngine.Hash128 hash)
     // Offset: 0x1D02824
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    // ABORTED: conflicts with another method.  CachedAssetBundle(::Il2CppString* name, UnityEngine::Hash128 hash)
+    // ABORTED: conflicts with another method.  CachedAssetBundle(::Il2CppString* name, UnityEngine::Hash128 hash);
   }; // UnityEngine.CachedAssetBundle
   #pragma pack(pop)
   static check_size<sizeof(CachedAssetBundle), 8 + sizeof(UnityEngine::Hash128)> __UnityEngine_CachedAssetBundleSizeCheck;
   static_assert(sizeof(CachedAssetBundle) == 0x18);
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CachedAssetBundle, "UnityEngine", "CachedAssetBundle");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::CachedAssetBundle::get_name
 // Il2CppName: get_name

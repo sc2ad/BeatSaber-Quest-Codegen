@@ -20,6 +20,13 @@ struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Xml.Xsl.Runtime
 namespace System::Xml::Xsl::Runtime {
+  // Forward declaring type: StringConcat
+  struct StringConcat;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Xsl::Runtime::StringConcat, "System.Xml.Xsl.Runtime", "StringConcat");
+// Type namespace: System.Xml.Xsl.Runtime
+namespace System::Xml::Xsl::Runtime {
   // Size: 0x34
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -28,6 +35,15 @@ namespace System::Xml::Xsl::Runtime {
   // [EditorBrowsableAttribute] Offset: EA9E34
   struct StringConcat/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.String s1
     // Size: 0x8
     // Offset: 0x0
@@ -70,6 +86,7 @@ namespace System::Xml::Xsl::Runtime {
     int idxStr;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: StringConcat
     constexpr StringConcat(::Il2CppString* s1_ = {}, ::Il2CppString* s2_ = {}, ::Il2CppString* s3_ = {}, ::Il2CppString* s4_ = {}, ::Il2CppString* delimiter_ = {}, System::Collections::Generic::List_1<::Il2CppString*>* strList_ = {}, int idxStr_ = {}) noexcept : s1{s1_}, s2{s2_}, s3{s3_}, s4{s4_}, delimiter{delimiter_}, strList{strList_}, idxStr{idxStr_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -107,8 +124,6 @@ namespace System::Xml::Xsl::Runtime {
   static check_size<sizeof(StringConcat), 48 + sizeof(int)> __System_Xml_Xsl_Runtime_StringConcatSizeCheck;
   static_assert(sizeof(StringConcat) == 0x34);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Xsl::Runtime::StringConcat, "System.Xml.Xsl.Runtime", "StringConcat");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::Xsl::Runtime::StringConcat::get_Count
 // Il2CppName: get_Count

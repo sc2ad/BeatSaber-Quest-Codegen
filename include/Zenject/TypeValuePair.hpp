@@ -6,10 +6,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -23,6 +19,13 @@ struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: Zenject
 namespace Zenject {
+  // Forward declaring type: TypeValuePair
+  struct TypeValuePair;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Zenject::TypeValuePair, "Zenject", "TypeValuePair");
+// Type namespace: Zenject
+namespace Zenject {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -31,6 +34,15 @@ namespace Zenject {
   // [DebuggerStepThroughAttribute] Offset: FFFFFFFF
   struct TypeValuePair/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.Type Type
     // Size: 0x8
     // Offset: 0x0
@@ -43,6 +55,7 @@ namespace Zenject {
     ::Il2CppObject* Value;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
+    public:
     // Creating value type constructor for type: TypeValuePair
     constexpr TypeValuePair(System::Type* Type_ = {}, ::Il2CppObject* Value_ = {}) noexcept : Type{Type_}, Value{Value_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -55,14 +68,12 @@ namespace Zenject {
     ::Il2CppObject*& dyn_Value();
     // public System.Void .ctor(System.Type type, System.Object value)
     // Offset: 0x219BC2C
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    // ABORTED: conflicts with another method.  TypeValuePair(System::Type* type, ::Il2CppObject* value)
+    // ABORTED: conflicts with another method.  TypeValuePair(System::Type* type, ::Il2CppObject* value);
   }; // Zenject.TypeValuePair
   #pragma pack(pop)
   static check_size<sizeof(TypeValuePair), 8 + sizeof(::Il2CppObject*)> __Zenject_TypeValuePairSizeCheck;
   static_assert(sizeof(TypeValuePair) == 0x10);
 }
-DEFINE_IL2CPP_ARG_TYPE(Zenject::TypeValuePair, "Zenject", "TypeValuePair");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::TypeValuePair::TypeValuePair
 // Il2CppName: .ctor

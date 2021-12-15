@@ -14,6 +14,13 @@ namespace OVR::OpenVR {
 // Completed forward declares
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
+  // Forward declaring type: IVRNotifications
+  struct IVRNotifications;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRNotifications, "OVR.OpenVR", "IVRNotifications");
+// Type namespace: OVR.OpenVR
+namespace OVR::OpenVR {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -25,6 +32,15 @@ namespace OVR::OpenVR {
     class _CreateNotification;
     // Nested type: OVR::OpenVR::IVRNotifications::_RemoveNotification
     class _RemoveNotification;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // OVR.OpenVR.IVRNotifications/OVR.OpenVR._CreateNotification CreateNotification
     // Size: 0x8
     // Offset: 0x0
@@ -37,6 +53,7 @@ namespace OVR::OpenVR {
     OVR::OpenVR::IVRNotifications::_RemoveNotification* RemoveNotification;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::IVRNotifications::_RemoveNotification*) == 0x8);
+    public:
     // Creating value type constructor for type: IVRNotifications
     constexpr IVRNotifications(OVR::OpenVR::IVRNotifications::_CreateNotification* CreateNotification_ = {}, OVR::OpenVR::IVRNotifications::_RemoveNotification* RemoveNotification_ = {}) noexcept : CreateNotification{CreateNotification_}, RemoveNotification{RemoveNotification_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -52,6 +69,4 @@ namespace OVR::OpenVR {
   static check_size<sizeof(IVRNotifications), 8 + sizeof(OVR::OpenVR::IVRNotifications::_RemoveNotification*)> __OVR_OpenVR_IVRNotificationsSizeCheck;
   static_assert(sizeof(IVRNotifications) == 0x10);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRNotifications, "OVR.OpenVR", "IVRNotifications");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

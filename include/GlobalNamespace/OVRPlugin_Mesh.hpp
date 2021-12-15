@@ -21,7 +21,16 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: 
+namespace GlobalNamespace {
+  // Forward declaring type: Mesh
+  class Mesh;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(GlobalNamespace::OVRPlugin::Mesh);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Mesh*, "", "OVRPlugin/Mesh");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x50
@@ -31,6 +40,15 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRPlugin::Mesh : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public OVRPlugin/MeshType Type
     // Size: 0x4
     // Offset: 0x10
@@ -54,41 +72,40 @@ namespace GlobalNamespace {
     // public OVRPlugin/Vector3f[] VertexPositions
     // Size: 0x8
     // Offset: 0x20
-    ::Array<GlobalNamespace::OVRPlugin::Vector3f>* VertexPositions;
+    ::ArrayW<GlobalNamespace::OVRPlugin::Vector3f> VertexPositions;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::OVRPlugin::Vector3f>*) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::OVRPlugin::Vector3f>) == 0x8);
     // public System.Int16[] Indices
     // Size: 0x8
     // Offset: 0x28
-    ::Array<int16_t>* Indices;
+    ::ArrayW<int16_t> Indices;
     // Field size check
-    static_assert(sizeof(::Array<int16_t>*) == 0x8);
+    static_assert(sizeof(::ArrayW<int16_t>) == 0x8);
     // public OVRPlugin/Vector3f[] VertexNormals
     // Size: 0x8
     // Offset: 0x30
-    ::Array<GlobalNamespace::OVRPlugin::Vector3f>* VertexNormals;
+    ::ArrayW<GlobalNamespace::OVRPlugin::Vector3f> VertexNormals;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::OVRPlugin::Vector3f>*) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::OVRPlugin::Vector3f>) == 0x8);
     // public OVRPlugin/Vector2f[] VertexUV0
     // Size: 0x8
     // Offset: 0x38
-    ::Array<GlobalNamespace::OVRPlugin::Vector2f>* VertexUV0;
+    ::ArrayW<GlobalNamespace::OVRPlugin::Vector2f> VertexUV0;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::OVRPlugin::Vector2f>*) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::OVRPlugin::Vector2f>) == 0x8);
     // public OVRPlugin/Vector4s[] BlendIndices
     // Size: 0x8
     // Offset: 0x40
-    ::Array<GlobalNamespace::OVRPlugin::Vector4s>* BlendIndices;
+    ::ArrayW<GlobalNamespace::OVRPlugin::Vector4s> BlendIndices;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::OVRPlugin::Vector4s>*) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::OVRPlugin::Vector4s>) == 0x8);
     // public OVRPlugin/Vector4f[] BlendWeights
     // Size: 0x8
     // Offset: 0x48
-    ::Array<GlobalNamespace::OVRPlugin::Vector4f>* BlendWeights;
+    ::ArrayW<GlobalNamespace::OVRPlugin::Vector4f> BlendWeights;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::OVRPlugin::Vector4f>*) == 0x8);
-    // Creating value type constructor for type: Mesh
-    Mesh(GlobalNamespace::OVRPlugin::MeshType Type_ = {}, uint NumVertices_ = {}, uint NumIndices_ = {}, ::Array<GlobalNamespace::OVRPlugin::Vector3f>* VertexPositions_ = {}, ::Array<int16_t>* Indices_ = {}, ::Array<GlobalNamespace::OVRPlugin::Vector3f>* VertexNormals_ = {}, ::Array<GlobalNamespace::OVRPlugin::Vector2f>* VertexUV0_ = {}, ::Array<GlobalNamespace::OVRPlugin::Vector4s>* BlendIndices_ = {}, ::Array<GlobalNamespace::OVRPlugin::Vector4f>* BlendWeights_ = {}) noexcept : Type{Type_}, NumVertices{NumVertices_}, NumIndices{NumIndices_}, VertexPositions{VertexPositions_}, Indices{Indices_}, VertexNormals{VertexNormals_}, VertexUV0{VertexUV0_}, BlendIndices{BlendIndices_}, BlendWeights{BlendWeights_} {}
+    static_assert(sizeof(::ArrayW<GlobalNamespace::OVRPlugin::Vector4f>) == 0x8);
+    public:
     // Get instance field reference: public OVRPlugin/MeshType Type
     GlobalNamespace::OVRPlugin::MeshType& dyn_Type();
     // Get instance field reference: public System.UInt32 NumVertices
@@ -96,17 +113,17 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.UInt32 NumIndices
     uint& dyn_NumIndices();
     // Get instance field reference: public OVRPlugin/Vector3f[] VertexPositions
-    ::Array<GlobalNamespace::OVRPlugin::Vector3f>*& dyn_VertexPositions();
+    ::ArrayW<GlobalNamespace::OVRPlugin::Vector3f>& dyn_VertexPositions();
     // Get instance field reference: public System.Int16[] Indices
-    ::Array<int16_t>*& dyn_Indices();
+    ::ArrayW<int16_t>& dyn_Indices();
     // Get instance field reference: public OVRPlugin/Vector3f[] VertexNormals
-    ::Array<GlobalNamespace::OVRPlugin::Vector3f>*& dyn_VertexNormals();
+    ::ArrayW<GlobalNamespace::OVRPlugin::Vector3f>& dyn_VertexNormals();
     // Get instance field reference: public OVRPlugin/Vector2f[] VertexUV0
-    ::Array<GlobalNamespace::OVRPlugin::Vector2f>*& dyn_VertexUV0();
+    ::ArrayW<GlobalNamespace::OVRPlugin::Vector2f>& dyn_VertexUV0();
     // Get instance field reference: public OVRPlugin/Vector4s[] BlendIndices
-    ::Array<GlobalNamespace::OVRPlugin::Vector4s>*& dyn_BlendIndices();
+    ::ArrayW<GlobalNamespace::OVRPlugin::Vector4s>& dyn_BlendIndices();
     // Get instance field reference: public OVRPlugin/Vector4f[] BlendWeights
-    ::Array<GlobalNamespace::OVRPlugin::Vector4f>*& dyn_BlendWeights();
+    ::ArrayW<GlobalNamespace::OVRPlugin::Vector4f>& dyn_BlendWeights();
     // public System.Void .ctor()
     // Offset: 0x18728F8
     // Implemented from: System.Object
@@ -118,10 +135,9 @@ namespace GlobalNamespace {
     }
   }; // OVRPlugin/Mesh
   #pragma pack(pop)
-  static check_size<sizeof(OVRPlugin::Mesh), 72 + sizeof(::Array<GlobalNamespace::OVRPlugin::Vector4f>*)> __GlobalNamespace_OVRPlugin_MeshSizeCheck;
+  static check_size<sizeof(OVRPlugin::Mesh), 72 + sizeof(::ArrayW<GlobalNamespace::OVRPlugin::Vector4f>)> __GlobalNamespace_OVRPlugin_MeshSizeCheck;
   static_assert(sizeof(OVRPlugin::Mesh) == 0x50);
 }
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Mesh*, "", "OVRPlugin/Mesh");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::Mesh::New_ctor
 // Il2CppName: .ctor

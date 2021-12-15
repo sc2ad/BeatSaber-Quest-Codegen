@@ -16,6 +16,13 @@
 // Completed includes
 // Type namespace: Valve.VR
 namespace Valve::VR {
+  // Forward declaring type: Texture_t
+  struct Texture_t;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Valve::VR::Texture_t, "Valve.VR", "Texture_t");
+// Type namespace: Valve.VR
+namespace Valve::VR {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -23,6 +30,15 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Texture_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.IntPtr handle
     // Size: 0x8
     // Offset: 0x0
@@ -41,6 +57,7 @@ namespace Valve::VR {
     Valve::VR::EColorSpace eColorSpace;
     // Field size check
     static_assert(sizeof(Valve::VR::EColorSpace) == 0x4);
+    public:
     // Creating value type constructor for type: Texture_t
     constexpr Texture_t(System::IntPtr handle_ = {}, Valve::VR::ETextureType eType_ = {}, Valve::VR::EColorSpace eColorSpace_ = {}) noexcept : handle{handle_}, eType{eType_}, eColorSpace{eColorSpace_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -58,6 +75,4 @@ namespace Valve::VR {
   static check_size<sizeof(Texture_t), 12 + sizeof(Valve::VR::EColorSpace)> __Valve_VR_Texture_tSizeCheck;
   static_assert(sizeof(Texture_t) == 0x10);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::Texture_t, "Valve.VR", "Texture_t");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

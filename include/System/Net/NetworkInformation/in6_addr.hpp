@@ -7,11 +7,15 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
-// Begin il2cpp-utils forward declares
-template<class T>
-struct Array;
-// Completed il2cpp-utils forward declares
+// Type namespace: System.Net.NetworkInformation
+namespace System::Net::NetworkInformation {
+  // Forward declaring type: in6_addr
+  struct in6_addr;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::in6_addr, "System.Net.NetworkInformation", "in6_addr");
 // Type namespace: System.Net.NetworkInformation
 namespace System::Net::NetworkInformation {
   // Size: 0x8
@@ -21,29 +25,37 @@ namespace System::Net::NetworkInformation {
   // [TokenAttribute] Offset: FFFFFFFF
   struct in6_addr/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.Byte[] u6_addr8
     // Size: 0x8
     // Offset: 0x0
-    ::Array<uint8_t>* u6_addr8;
+    ::ArrayW<uint8_t> u6_addr8;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
+    public:
     // Creating value type constructor for type: in6_addr
-    constexpr in6_addr(::Array<uint8_t>* u6_addr8_ = {}) noexcept : u6_addr8{u6_addr8_} {}
+    constexpr in6_addr(::ArrayW<uint8_t> u6_addr8_ = ::ArrayW<uint8_t>(nullptr)) noexcept : u6_addr8{u6_addr8_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Creating conversion operator: operator ::Array<uint8_t>*
-    constexpr operator ::Array<uint8_t>*() const noexcept {
+    // Creating conversion operator: operator ::ArrayW<uint8_t>
+    constexpr operator ::ArrayW<uint8_t>() const noexcept {
       return u6_addr8;
     }
     // Get instance field reference: public System.Byte[] u6_addr8
-    ::Array<uint8_t>*& dyn_u6_addr8();
+    ::ArrayW<uint8_t>& dyn_u6_addr8();
   }; // System.Net.NetworkInformation.in6_addr
   #pragma pack(pop)
-  static check_size<sizeof(in6_addr), 0 + sizeof(::Array<uint8_t>*)> __System_Net_NetworkInformation_in6_addrSizeCheck;
+  static check_size<sizeof(in6_addr), 0 + sizeof(::ArrayW<uint8_t>)> __System_Net_NetworkInformation_in6_addrSizeCheck;
   static_assert(sizeof(in6_addr) == 0x8);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::in6_addr, "System.Net.NetworkInformation", "in6_addr");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

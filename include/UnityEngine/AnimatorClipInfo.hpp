@@ -9,6 +9,13 @@
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: AnimatorClipInfo
+  struct AnimatorClipInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimatorClipInfo, "UnityEngine", "AnimatorClipInfo");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x8
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -19,6 +26,15 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: ECD9BC
   struct AnimatorClipInfo/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.Int32 m_ClipInstanceID
     // Size: 0x4
     // Offset: 0x0
@@ -31,6 +47,7 @@ namespace UnityEngine {
     float m_Weight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: AnimatorClipInfo
     constexpr AnimatorClipInfo(int m_ClipInstanceID_ = {}, float m_Weight_ = {}) noexcept : m_ClipInstanceID{m_ClipInstanceID_}, m_Weight{m_Weight_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -46,6 +63,4 @@ namespace UnityEngine {
   static check_size<sizeof(AnimatorClipInfo), 4 + sizeof(float)> __UnityEngine_AnimatorClipInfoSizeCheck;
   static_assert(sizeof(AnimatorClipInfo) == 0x8);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimatorClipInfo, "UnityEngine", "AnimatorClipInfo");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

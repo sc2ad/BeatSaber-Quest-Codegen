@@ -17,6 +17,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -28,6 +29,14 @@ namespace UnityEngine {
 // Completed forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: Gradient
+  class Gradient;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::Gradient);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Gradient*, "UnityEngine", "Gradient");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -37,14 +46,22 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: EB4100
   class Gradient : public ::Il2CppObject/*, public System::IEquatable_1<UnityEngine::Gradient*>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // System.IntPtr m_Ptr
     // Size: 0x8
     // Offset: 0x10
     System::IntPtr m_Ptr;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
-    // Creating value type constructor for type: Gradient
-    Gradient(System::IntPtr m_Ptr_ = {}) noexcept : m_Ptr{m_Ptr_} {}
+    public:
     // Creating interface conversion operator: operator System::IEquatable_1<UnityEngine::Gradient*>
     operator System::IEquatable_1<UnityEngine::Gradient*>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<UnityEngine::Gradient*>*>(this);
@@ -57,13 +74,13 @@ namespace UnityEngine {
     System::IntPtr& dyn_m_Ptr();
     // public UnityEngine.GradientColorKey[] get_colorKeys()
     // Offset: 0x1D110A4
-    ::Array<UnityEngine::GradientColorKey>* get_colorKeys();
+    ::ArrayW<UnityEngine::GradientColorKey> get_colorKeys();
     // public System.Void set_colorKeys(UnityEngine.GradientColorKey[] value)
     // Offset: 0x1D110E4
-    void set_colorKeys(::Array<UnityEngine::GradientColorKey>* value);
+    void set_colorKeys(::ArrayW<UnityEngine::GradientColorKey> value);
     // public UnityEngine.GradientAlphaKey[] get_alphaKeys()
     // Offset: 0x1D11134
-    ::Array<UnityEngine::GradientAlphaKey>* get_alphaKeys();
+    ::ArrayW<UnityEngine::GradientAlphaKey> get_alphaKeys();
     // public System.Void set_mode(UnityEngine.GradientMode value)
     // Offset: 0x1D11174
     void set_mode(UnityEngine::GradientMode value);
@@ -81,7 +98,7 @@ namespace UnityEngine {
     UnityEngine::Color Evaluate(float time);
     // public System.Void SetKeys(UnityEngine.GradientColorKey[] colorKeys, UnityEngine.GradientAlphaKey[] alphaKeys)
     // Offset: 0x1D111C4
-    void SetKeys(::Array<UnityEngine::GradientColorKey>* colorKeys, ::Array<UnityEngine::GradientAlphaKey>* alphaKeys);
+    void SetKeys(::ArrayW<UnityEngine::GradientColorKey> colorKeys, ::ArrayW<UnityEngine::GradientAlphaKey> alphaKeys);
     // public System.Boolean Equals(UnityEngine.Gradient other)
     // Offset: 0x1D112F8
     bool Equals(UnityEngine::Gradient* other);
@@ -117,12 +134,11 @@ namespace UnityEngine {
   static check_size<sizeof(Gradient), 16 + sizeof(System::IntPtr)> __UnityEngine_GradientSizeCheck;
   static_assert(sizeof(Gradient) == 0x18);
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Gradient*, "UnityEngine", "Gradient");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Gradient::get_colorKeys
 // Il2CppName: get_colorKeys
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::GradientColorKey>* (UnityEngine::Gradient::*)()>(&UnityEngine::Gradient::get_colorKeys)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::GradientColorKey> (UnityEngine::Gradient::*)()>(&UnityEngine::Gradient::get_colorKeys)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Gradient*), "get_colorKeys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -130,7 +146,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 // Writing MetadataGetter for method: UnityEngine::Gradient::set_colorKeys
 // Il2CppName: set_colorKeys
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Gradient::*)(::Array<UnityEngine::GradientColorKey>*)>(&UnityEngine::Gradient::set_colorKeys)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Gradient::*)(::ArrayW<UnityEngine::GradientColorKey>)>(&UnityEngine::Gradient::set_colorKeys)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "GradientColorKey"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Gradient*), "set_colorKeys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -139,7 +155,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Gradient::get_alphaKeys
 // Il2CppName: get_alphaKeys
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::GradientAlphaKey>* (UnityEngine::Gradient::*)()>(&UnityEngine::Gradient::get_alphaKeys)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::GradientAlphaKey> (UnityEngine::Gradient::*)()>(&UnityEngine::Gradient::get_alphaKeys)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Gradient*), "get_alphaKeys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -190,7 +206,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Gradient::SetKeys
 // Il2CppName: SetKeys
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Gradient::*)(::Array<UnityEngine::GradientColorKey>*, ::Array<UnityEngine::GradientAlphaKey>*)>(&UnityEngine::Gradient::SetKeys)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Gradient::*)(::ArrayW<UnityEngine::GradientColorKey>, ::ArrayW<UnityEngine::GradientAlphaKey>)>(&UnityEngine::Gradient::SetKeys)> {
   static const MethodInfo* get() {
     static auto* colorKeys = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "GradientColorKey"), 1)->byval_arg;
     static auto* alphaKeys = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "GradientAlphaKey"), 1)->byval_arg;

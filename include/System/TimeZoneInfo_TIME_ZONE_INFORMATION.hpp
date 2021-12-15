@@ -14,6 +14,13 @@
 // Completed includes
 // Type namespace: System
 namespace System {
+  // Forward declaring type: TIME_ZONE_INFORMATION
+  struct TIME_ZONE_INFORMATION;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::TimeZoneInfo::TIME_ZONE_INFORMATION, "System", "TimeZoneInfo/TIME_ZONE_INFORMATION");
+// Type namespace: System
+namespace System {
   // Size: 0x44
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -21,6 +28,15 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   struct TimeZoneInfo::TIME_ZONE_INFORMATION/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // System.Int32 Bias
     // Size: 0x4
     // Offset: 0x0
@@ -67,6 +83,7 @@ namespace System {
     int DaylightBias;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: TIME_ZONE_INFORMATION
     constexpr TIME_ZONE_INFORMATION(int Bias_ = {}, ::Il2CppString* StandardName_ = {}, System::TimeZoneInfo::SYSTEMTIME StandardDate_ = {}, int StandardBias_ = {}, ::Il2CppString* DaylightName_ = {}, System::TimeZoneInfo::SYSTEMTIME DaylightDate_ = {}, int DaylightBias_ = {}) noexcept : Bias{Bias_}, StandardName{StandardName_}, StandardDate{StandardDate_}, StandardBias{StandardBias_}, DaylightName{DaylightName_}, DaylightDate{DaylightDate_}, DaylightBias{DaylightBias_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -92,6 +109,4 @@ namespace System {
   static check_size<sizeof(TimeZoneInfo::TIME_ZONE_INFORMATION), 64 + sizeof(int)> __System_TimeZoneInfo_TIME_ZONE_INFORMATIONSizeCheck;
   static_assert(sizeof(TimeZoneInfo::TIME_ZONE_INFORMATION) == 0x44);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::TimeZoneInfo::TIME_ZONE_INFORMATION, "System", "TimeZoneInfo/TIME_ZONE_INFORMATION");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

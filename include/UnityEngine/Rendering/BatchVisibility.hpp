@@ -9,6 +9,13 @@
 // Completed includes
 // Type namespace: UnityEngine.Rendering
 namespace UnityEngine::Rendering {
+  // Forward declaring type: BatchVisibility
+  struct BatchVisibility;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::BatchVisibility, "UnityEngine.Rendering", "BatchVisibility");
+// Type namespace: UnityEngine.Rendering
+namespace UnityEngine::Rendering {
   // Size: 0xC
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -16,6 +23,15 @@ namespace UnityEngine::Rendering {
   // [TokenAttribute] Offset: FFFFFFFF
   struct BatchVisibility/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public readonly System.Int32 offset
     // Size: 0x4
     // Offset: 0x0
@@ -34,6 +50,7 @@ namespace UnityEngine::Rendering {
     int visibleCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: BatchVisibility
     constexpr BatchVisibility(int offset_ = {}, int instancesCount_ = {}, int visibleCount_ = {}) noexcept : offset{offset_}, instancesCount{instancesCount_}, visibleCount{visibleCount_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -51,6 +68,4 @@ namespace UnityEngine::Rendering {
   static check_size<sizeof(BatchVisibility), 8 + sizeof(int)> __UnityEngine_Rendering_BatchVisibilitySizeCheck;
   static_assert(sizeof(BatchVisibility) == 0xC);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::BatchVisibility, "UnityEngine.Rendering", "BatchVisibility");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

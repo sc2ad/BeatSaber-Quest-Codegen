@@ -11,7 +11,16 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: 
+namespace GlobalNamespace {
+  // Forward declaring type: LevelPackProductData
+  class LevelPackProductData;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(GlobalNamespace::OculusLevelProductsModelSO::LevelPackProductData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusLevelProductsModelSO::LevelPackProductData*, "", "OculusLevelProductsModelSO/LevelPackProductData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x28
@@ -20,6 +29,15 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OculusLevelProductsModelSO::LevelPackProductData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.String _sku
     // Size: 0x8
     // Offset: 0x10
@@ -35,17 +53,16 @@ namespace GlobalNamespace {
     // private OculusLevelProductsModelSO/LevelProductData[] _levelProductsData
     // Size: 0x8
     // Offset: 0x20
-    ::Array<GlobalNamespace::OculusLevelProductsModelSO::LevelProductData*>* levelProductsData;
+    ::ArrayW<GlobalNamespace::OculusLevelProductsModelSO::LevelProductData*> levelProductsData;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::OculusLevelProductsModelSO::LevelProductData*>*) == 0x8);
-    // Creating value type constructor for type: LevelPackProductData
-    LevelPackProductData(::Il2CppString* sku_ = {}, ::Il2CppString* levelPackId_ = {}, ::Array<GlobalNamespace::OculusLevelProductsModelSO::LevelProductData*>* levelProductsData_ = {}) noexcept : sku{sku_}, levelPackId{levelPackId_}, levelProductsData{levelProductsData_} {}
+    static_assert(sizeof(::ArrayW<GlobalNamespace::OculusLevelProductsModelSO::LevelProductData*>) == 0x8);
+    public:
     // Get instance field reference: private System.String _sku
     ::Il2CppString*& dyn__sku();
     // Get instance field reference: private System.String _levelPackId
     ::Il2CppString*& dyn__levelPackId();
     // Get instance field reference: private OculusLevelProductsModelSO/LevelProductData[] _levelProductsData
-    ::Array<GlobalNamespace::OculusLevelProductsModelSO::LevelProductData*>*& dyn__levelProductsData();
+    ::ArrayW<GlobalNamespace::OculusLevelProductsModelSO::LevelProductData*>& dyn__levelProductsData();
     // public System.String get_sku()
     // Offset: 0x136859C
     ::Il2CppString* get_sku();
@@ -54,7 +71,7 @@ namespace GlobalNamespace {
     ::Il2CppString* get_levelPackId();
     // public OculusLevelProductsModelSO/LevelProductData[] get_levelProductsData()
     // Offset: 0x13685AC
-    ::Array<GlobalNamespace::OculusLevelProductsModelSO::LevelProductData*>* get_levelProductsData();
+    ::ArrayW<GlobalNamespace::OculusLevelProductsModelSO::LevelProductData*> get_levelProductsData();
     // public System.Void .ctor()
     // Offset: 0x13685B4
     // Implemented from: System.Object
@@ -66,10 +83,9 @@ namespace GlobalNamespace {
     }
   }; // OculusLevelProductsModelSO/LevelPackProductData
   #pragma pack(pop)
-  static check_size<sizeof(OculusLevelProductsModelSO::LevelPackProductData), 32 + sizeof(::Array<GlobalNamespace::OculusLevelProductsModelSO::LevelProductData*>*)> __GlobalNamespace_OculusLevelProductsModelSO_LevelPackProductDataSizeCheck;
+  static check_size<sizeof(OculusLevelProductsModelSO::LevelPackProductData), 32 + sizeof(::ArrayW<GlobalNamespace::OculusLevelProductsModelSO::LevelProductData*>)> __GlobalNamespace_OculusLevelProductsModelSO_LevelPackProductDataSizeCheck;
   static_assert(sizeof(OculusLevelProductsModelSO::LevelPackProductData) == 0x28);
 }
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusLevelProductsModelSO::LevelPackProductData*, "", "OculusLevelProductsModelSO/LevelPackProductData");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OculusLevelProductsModelSO::LevelPackProductData::get_sku
 // Il2CppName: get_sku
@@ -90,7 +106,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::OculusLevelProductsModelSO::LevelPackProductData::get_levelProductsData
 // Il2CppName: get_levelProductsData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::OculusLevelProductsModelSO::LevelProductData*>* (GlobalNamespace::OculusLevelProductsModelSO::LevelPackProductData::*)()>(&GlobalNamespace::OculusLevelProductsModelSO::LevelPackProductData::get_levelProductsData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<GlobalNamespace::OculusLevelProductsModelSO::LevelProductData*> (GlobalNamespace::OculusLevelProductsModelSO::LevelPackProductData::*)()>(&GlobalNamespace::OculusLevelProductsModelSO::LevelPackProductData::get_levelProductsData)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusLevelProductsModelSO::LevelPackProductData*), "get_levelProductsData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -12,6 +12,13 @@
 // Completed includes
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
+  // Forward declaring type: OculusInitParams
+  struct OculusInitParams;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CAPI::OculusInitParams, "Oculus.Platform", "CAPI/OculusInitParams");
+// Type namespace: Oculus.Platform
+namespace Oculus::Platform {
   // Size: 0x28
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -19,6 +26,15 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   struct CAPI::OculusInitParams/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.Int32 sType
     // Size: 0x4
     // Offset: 0x0
@@ -51,6 +67,7 @@ namespace Oculus::Platform {
     ::Il2CppString* uriPrefixOverride;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Creating value type constructor for type: OculusInitParams
     constexpr OculusInitParams(int sType_ = {}, ::Il2CppString* email_ = {}, ::Il2CppString* password_ = {}, uint64_t appId_ = {}, ::Il2CppString* uriPrefixOverride_ = {}) noexcept : sType{sType_}, email{email_}, password{password_}, appId{appId_}, uriPrefixOverride{uriPrefixOverride_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -72,6 +89,4 @@ namespace Oculus::Platform {
   static check_size<sizeof(CAPI::OculusInitParams), 32 + sizeof(::Il2CppString*)> __Oculus_Platform_CAPI_OculusInitParamsSizeCheck;
   static_assert(sizeof(CAPI::OculusInitParams) == 0x28);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CAPI::OculusInitParams, "Oculus.Platform", "CAPI/OculusInitParams");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

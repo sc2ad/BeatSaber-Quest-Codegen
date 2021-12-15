@@ -17,6 +17,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection
@@ -30,7 +31,8 @@ namespace System::Reflection {
 namespace System::Runtime::Serialization {
   // Forward declaring type: SerializationInfo
   class SerializationInfo;
-  // Skipping declaration: StreamingContext because it is already included!
+  // Forward declaring type: StreamingContext
+  struct StreamingContext;
 }
 // Forward declaring namespace: System
 namespace System {
@@ -47,6 +49,14 @@ namespace System::Security::Policy {
 // Completed forward declares
 // Type namespace: System.Reflection
 namespace System::Reflection {
+  // Forward declaring type: Assembly
+  class Assembly;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Reflection::Assembly);
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Assembly*, "System.Reflection", "Assembly");
+// Type namespace: System.Reflection
+namespace System::Reflection {
   // Size: 0x60
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -59,6 +69,15 @@ namespace System::Reflection {
     public:
     // Nested type: System::Reflection::Assembly::ResolveEventHolder
     class ResolveEventHolder;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // System.IntPtr _mono_assembly
     // Size: 0x8
     // Offset: 0x10
@@ -121,8 +140,7 @@ namespace System::Reflection {
     ::Il2CppString* assemblyName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: Assembly
-    Assembly(System::IntPtr mono_assembly_ = {}, System::Reflection::Assembly::ResolveEventHolder* resolve_event_holder_ = {}, ::Il2CppObject* evidence_ = {}, ::Il2CppObject* minimum_ = {}, ::Il2CppObject* optional_ = {}, ::Il2CppObject* refuse_ = {}, ::Il2CppObject* granted_ = {}, ::Il2CppObject* denied_ = {}, bool fromByteArray_ = {}, ::Il2CppString* assemblyName_ = {}) noexcept : mono_assembly{mono_assembly_}, resolve_event_holder{resolve_event_holder_}, evidence{evidence_}, minimum{minimum_}, optional{optional_}, refuse{refuse_}, granted{granted_}, denied{denied_}, fromByteArray{fromByteArray_}, assemblyName{assemblyName_} {}
+    public:
     // Creating interface conversion operator: operator System::Runtime::Serialization::ISerializable
     operator System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);
@@ -190,16 +208,16 @@ namespace System::Reflection {
     bool IsDefined(System::Type* attributeType, bool inherit);
     // public System.Object[] GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
     // Offset: 0x1E8D9E8
-    ::Array<::Il2CppObject*>* GetCustomAttributes(System::Type* attributeType, bool inherit);
+    ::ArrayW<::Il2CppObject*> GetCustomAttributes(System::Type* attributeType, bool inherit);
     // System.IntPtr GetManifestResourceInternal(System.String name, out System.Int32 size, out System.Reflection.Module module)
     // Offset: 0x1E8DA68
     System::IntPtr GetManifestResourceInternal(::Il2CppString* name, ByRef<int> size, ByRef<System::Reflection::Module*> module);
     // System.Type[] GetTypes(System.Boolean exportedOnly)
     // Offset: 0x1E8DA6C
-    ::Array<System::Type*>* GetTypes(bool exportedOnly);
+    ::ArrayW<System::Type*> GetTypes(bool exportedOnly);
     // public System.Type[] GetTypes()
     // Offset: 0x1E8DA74
-    ::Array<System::Type*>* GetTypes();
+    ::ArrayW<System::Type*> GetTypes();
     // public System.Type GetType(System.String name)
     // Offset: 0x1E8DA88
     System::Type* GetType(::Il2CppString* name);
@@ -229,7 +247,7 @@ namespace System::Reflection {
     static System::Reflection::Assembly* LoadWithPartialName(::Il2CppString* partialName, System::Security::Policy::Evidence* securityEvidence, bool oldBehavior);
     // System.Reflection.Module[] GetModulesInternal()
     // Offset: 0x1E8DD08
-    ::Array<System::Reflection::Module*>* GetModulesInternal();
+    ::ArrayW<System::Reflection::Module*> GetModulesInternal();
     // static public System.Reflection.Assembly GetExecutingAssembly()
     // Offset: 0x1E8DD0C
     static System::Reflection::Assembly* GetExecutingAssembly();
@@ -241,7 +259,7 @@ namespace System::Reflection {
     static System::IntPtr InternalGetReferencedAssemblies(System::Reflection::Assembly* module);
     // static System.Reflection.AssemblyName[] GetReferencedAssemblies(System.Reflection.Assembly module)
     // Offset: 0x1E8DD5C
-    static ::Array<System::Reflection::AssemblyName*>* GetReferencedAssemblies(System::Reflection::Assembly* module);
+    static ::ArrayW<System::Reflection::AssemblyName*> GetReferencedAssemblies(System::Reflection::Assembly* module);
     // static private System.Exception CreateNIE()
     // Offset: 0x1E8E2F4
     static System::Exception* CreateNIE();
@@ -253,10 +271,10 @@ namespace System::Reflection {
     System::Reflection::Module* GetModule(::Il2CppString* name);
     // public System.Reflection.AssemblyName[] GetReferencedAssemblies()
     // Offset: 0x1E8E3EC
-    ::Array<System::Reflection::AssemblyName*>* GetReferencedAssemblies();
+    ::ArrayW<System::Reflection::AssemblyName*> GetReferencedAssemblies();
     // public System.Reflection.Module[] GetModules(System.Boolean getResourceModules)
     // Offset: 0x1E8E430
-    ::Array<System::Reflection::Module*>* GetModules(bool getResourceModules);
+    ::ArrayW<System::Reflection::Module*> GetModules(bool getResourceModules);
     // protected System.Void .ctor()
     // Offset: 0x1E8D818
     // Implemented from: System.Object
@@ -292,7 +310,6 @@ namespace System::Reflection {
   // Offset: 0x1E8E4C0
   bool operator !=(System::Reflection::Assembly* left, System::Reflection::Assembly& right);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Assembly*, "System.Reflection", "Assembly");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::Assembly::get_CodeBase
 // Il2CppName: get_CodeBase
@@ -391,7 +408,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Reflection::Assembly::GetCustomAttributes
 // Il2CppName: GetCustomAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (System::Reflection::Assembly::*)(System::Type*, bool)>(&System::Reflection::Assembly::GetCustomAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppObject*> (System::Reflection::Assembly::*)(System::Type*, bool)>(&System::Reflection::Assembly::GetCustomAttributes)> {
   static const MethodInfo* get() {
     static auto* attributeType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* inherit = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -412,7 +429,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: System::Reflection::Assembly::GetTypes
 // Il2CppName: GetTypes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Type*>* (System::Reflection::Assembly::*)(bool)>(&System::Reflection::Assembly::GetTypes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Type*> (System::Reflection::Assembly::*)(bool)>(&System::Reflection::Assembly::GetTypes)> {
   static const MethodInfo* get() {
     static auto* exportedOnly = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::Assembly*), "GetTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{exportedOnly});
@@ -421,7 +438,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Sys
 // Writing MetadataGetter for method: System::Reflection::Assembly::GetTypes
 // Il2CppName: GetTypes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Type*>* (System::Reflection::Assembly::*)()>(&System::Reflection::Assembly::GetTypes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Type*> (System::Reflection::Assembly::*)()>(&System::Reflection::Assembly::GetTypes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::Assembly*), "GetTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -516,7 +533,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: System::Reflection::Assembly::GetModulesInternal
 // Il2CppName: GetModulesInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::Module*>* (System::Reflection::Assembly::*)()>(&System::Reflection::Assembly::GetModulesInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Reflection::Module*> (System::Reflection::Assembly::*)()>(&System::Reflection::Assembly::GetModulesInternal)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::Assembly*), "GetModulesInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -549,7 +566,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: System::Reflection::Assembly::GetReferencedAssemblies
 // Il2CppName: GetReferencedAssemblies
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::AssemblyName*>* (*)(System::Reflection::Assembly*)>(&System::Reflection::Assembly::GetReferencedAssemblies)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Reflection::AssemblyName*> (*)(System::Reflection::Assembly*)>(&System::Reflection::Assembly::GetReferencedAssemblies)> {
   static const MethodInfo* get() {
     static auto* module = &::il2cpp_utils::GetClassFromName("System.Reflection", "Assembly")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::Assembly*), "GetReferencedAssemblies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{module});
@@ -586,7 +603,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: System::Reflection::Assembly::GetReferencedAssemblies
 // Il2CppName: GetReferencedAssemblies
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::AssemblyName*>* (System::Reflection::Assembly::*)()>(&System::Reflection::Assembly::GetReferencedAssemblies)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Reflection::AssemblyName*> (System::Reflection::Assembly::*)()>(&System::Reflection::Assembly::GetReferencedAssemblies)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::Assembly*), "GetReferencedAssemblies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -594,7 +611,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Sys
 // Writing MetadataGetter for method: System::Reflection::Assembly::GetModules
 // Il2CppName: GetModules
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::Module*>* (System::Reflection::Assembly::*)(bool)>(&System::Reflection::Assembly::GetModules)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Reflection::Module*> (System::Reflection::Assembly::*)(bool)>(&System::Reflection::Assembly::GetModules)> {
   static const MethodInfo* get() {
     static auto* getResourceModules = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::Assembly*), "GetModules", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{getResourceModules});

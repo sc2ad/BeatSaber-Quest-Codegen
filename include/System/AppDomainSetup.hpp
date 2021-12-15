@@ -9,7 +9,16 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
+// Type namespace: System
+namespace System {
+  // Forward declaring type: AppDomainSetup
+  class AppDomainSetup;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::AppDomainSetup);
+DEFINE_IL2CPP_ARG_TYPE(System::AppDomainSetup*, "System", "AppDomainSetup");
 // Type namespace: System
 namespace System {
   // Size: 0xB0
@@ -21,6 +30,15 @@ namespace System {
   // [ComVisibleAttribute] Offset: E9E1C0
   class AppDomainSetup : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.String application_base
     // Size: 0x8
     // Offset: 0x10
@@ -136,9 +154,9 @@ namespace System {
     // private System.String[] domain_initializer_args
     // Size: 0x8
     // Offset: 0x88
-    ::Array<::Il2CppString*>* domain_initializer_args;
+    ::ArrayW<::Il2CppString*> domain_initializer_args;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // private System.Boolean disallow_appbase_probe
     // Size: 0x1
     // Offset: 0x90
@@ -150,15 +168,15 @@ namespace System {
     // private System.Byte[] configuration_bytes
     // Size: 0x8
     // Offset: 0x98
-    ::Array<uint8_t>* configuration_bytes;
+    ::ArrayW<uint8_t> configuration_bytes;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Byte[] serialized_non_primitives
     // Size: 0x8
     // Offset: 0xA0
-    ::Array<uint8_t>* serialized_non_primitives;
+    ::ArrayW<uint8_t> serialized_non_primitives;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // [CompilerGeneratedAttribute] Offset: 0xEA41B0
     // private System.String <TargetFrameworkName>k__BackingField
     // Size: 0x8
@@ -166,8 +184,7 @@ namespace System {
     ::Il2CppString* TargetFrameworkName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: AppDomainSetup
-    AppDomainSetup(::Il2CppString* application_base_ = {}, ::Il2CppString* application_name_ = {}, ::Il2CppString* cache_path_ = {}, ::Il2CppString* configuration_file_ = {}, ::Il2CppString* dynamic_base_ = {}, ::Il2CppString* license_file_ = {}, ::Il2CppString* private_bin_path_ = {}, ::Il2CppString* private_bin_path_probe_ = {}, ::Il2CppString* shadow_copy_directories_ = {}, ::Il2CppString* shadow_copy_files_ = {}, bool publisher_policy_ = {}, bool path_changed_ = {}, int loader_optimization_ = {}, bool disallow_binding_redirects_ = {}, bool disallow_code_downloads_ = {}, ::Il2CppObject* activationArguments_ = {}, ::Il2CppObject* domain_initializer_ = {}, ::Il2CppObject* application_trust_ = {}, ::Array<::Il2CppString*>* domain_initializer_args_ = {}, bool disallow_appbase_probe_ = {}, ::Array<uint8_t>* configuration_bytes_ = {}, ::Array<uint8_t>* serialized_non_primitives_ = {}, ::Il2CppString* TargetFrameworkName_ = {}) noexcept : application_base{application_base_}, application_name{application_name_}, cache_path{cache_path_}, configuration_file{configuration_file_}, dynamic_base{dynamic_base_}, license_file{license_file_}, private_bin_path{private_bin_path_}, private_bin_path_probe{private_bin_path_probe_}, shadow_copy_directories{shadow_copy_directories_}, shadow_copy_files{shadow_copy_files_}, publisher_policy{publisher_policy_}, path_changed{path_changed_}, loader_optimization{loader_optimization_}, disallow_binding_redirects{disallow_binding_redirects_}, disallow_code_downloads{disallow_code_downloads_}, activationArguments{activationArguments_}, domain_initializer{domain_initializer_}, application_trust{application_trust_}, domain_initializer_args{domain_initializer_args_}, disallow_appbase_probe{disallow_appbase_probe_}, configuration_bytes{configuration_bytes_}, serialized_non_primitives{serialized_non_primitives_}, TargetFrameworkName{TargetFrameworkName_} {}
+    public:
     // Get instance field reference: private System.String application_base
     ::Il2CppString*& dyn_application_base();
     // Get instance field reference: private System.String application_name
@@ -205,13 +222,13 @@ namespace System {
     // Get instance field reference: private System.Object application_trust
     ::Il2CppObject*& dyn_application_trust();
     // Get instance field reference: private System.String[] domain_initializer_args
-    ::Array<::Il2CppString*>*& dyn_domain_initializer_args();
+    ::ArrayW<::Il2CppString*>& dyn_domain_initializer_args();
     // Get instance field reference: private System.Boolean disallow_appbase_probe
     bool& dyn_disallow_appbase_probe();
     // Get instance field reference: private System.Byte[] configuration_bytes
-    ::Array<uint8_t>*& dyn_configuration_bytes();
+    ::ArrayW<uint8_t>& dyn_configuration_bytes();
     // Get instance field reference: private System.Byte[] serialized_non_primitives
-    ::Array<uint8_t>*& dyn_serialized_non_primitives();
+    ::ArrayW<uint8_t>& dyn_serialized_non_primitives();
     // Get instance field reference: private System.String <TargetFrameworkName>k__BackingField
     ::Il2CppString*& dyn_$TargetFrameworkName$k__BackingField();
     // public System.Void .ctor()
@@ -228,7 +245,6 @@ namespace System {
   static check_size<sizeof(AppDomainSetup), 168 + sizeof(::Il2CppString*)> __System_AppDomainSetupSizeCheck;
   static_assert(sizeof(AppDomainSetup) == 0xB0);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::AppDomainSetup*, "System", "AppDomainSetup");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::AppDomainSetup::New_ctor
 // Il2CppName: .ctor

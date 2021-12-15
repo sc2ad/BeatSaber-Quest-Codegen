@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -19,6 +20,14 @@ namespace GlobalNamespace {
   class BaseResultsEnvironmentController;
 }
 // Completed forward declares
+// Type namespace: 
+namespace GlobalNamespace {
+  // Forward declaring type: ResultsEnvironmentManager
+  class ResultsEnvironmentManager;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(GlobalNamespace::ResultsEnvironmentManager);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResultsEnvironmentManager*, "", "ResultsEnvironmentManager");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x28
@@ -31,24 +40,32 @@ namespace GlobalNamespace {
     class ResultEnvironmentControllerWithKeyword;
     // Nested type: GlobalNamespace::ResultsEnvironmentManager::$$c__DisplayClass3_0
     class $$c__DisplayClass3_0;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private ResultsEnvironmentManager/ResultEnvironmentControllerWithKeyword[] _resultEnvironmentControllersWithKeyword
     // Size: 0x8
     // Offset: 0x18
-    ::Array<GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword*>* resultEnvironmentControllersWithKeyword;
+    ::ArrayW<GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword*> resultEnvironmentControllersWithKeyword;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword*>*) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword*>) == 0x8);
     // private System.String _currentShownKeyword
     // Size: 0x8
     // Offset: 0x20
     ::Il2CppString* currentShownKeyword;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // Creating value type constructor for type: ResultsEnvironmentManager
-    ResultsEnvironmentManager(::Array<GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword*>* resultEnvironmentControllersWithKeyword_ = {}, ::Il2CppString* currentShownKeyword_ = {}) noexcept : resultEnvironmentControllersWithKeyword{resultEnvironmentControllersWithKeyword_}, currentShownKeyword{currentShownKeyword_} {}
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private ResultsEnvironmentManager/ResultEnvironmentControllerWithKeyword[] _resultEnvironmentControllersWithKeyword
-    ::Array<GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword*>*& dyn__resultEnvironmentControllersWithKeyword();
+    ::ArrayW<GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword*>& dyn__resultEnvironmentControllersWithKeyword();
     // Get instance field reference: private System.String _currentShownKeyword
     ::Il2CppString*& dyn__currentShownKeyword();
     // public BaseResultsEnvironmentController GetResultEnvironmentControllerForKeyword(System.String keyword)
@@ -78,7 +95,6 @@ namespace GlobalNamespace {
   static check_size<sizeof(ResultsEnvironmentManager), 32 + sizeof(::Il2CppString*)> __GlobalNamespace_ResultsEnvironmentManagerSizeCheck;
   static_assert(sizeof(ResultsEnvironmentManager) == 0x28);
 }
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResultsEnvironmentManager*, "", "ResultsEnvironmentManager");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ResultsEnvironmentManager::GetResultEnvironmentControllerForKeyword
 // Il2CppName: GetResultEnvironmentControllerForKeyword

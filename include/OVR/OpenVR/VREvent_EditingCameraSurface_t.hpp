@@ -10,6 +10,13 @@
 // Completed includes
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
+  // Forward declaring type: VREvent_EditingCameraSurface_t
+  struct VREvent_EditingCameraSurface_t;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VREvent_EditingCameraSurface_t, "OVR.OpenVR", "VREvent_EditingCameraSurface_t");
+// Type namespace: OVR.OpenVR
+namespace OVR::OpenVR {
   // Size: 0xC
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -17,6 +24,15 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VREvent_EditingCameraSurface_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.UInt64 overlayHandle
     // Size: 0x8
     // Offset: 0x0
@@ -29,6 +45,7 @@ namespace OVR::OpenVR {
     uint nVisualMode;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
+    public:
     // Creating value type constructor for type: VREvent_EditingCameraSurface_t
     constexpr VREvent_EditingCameraSurface_t(uint64_t overlayHandle_ = {}, uint nVisualMode_ = {}) noexcept : overlayHandle{overlayHandle_}, nVisualMode{nVisualMode_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -44,6 +61,4 @@ namespace OVR::OpenVR {
   static check_size<sizeof(VREvent_EditingCameraSurface_t), 8 + sizeof(uint)> __OVR_OpenVR_VREvent_EditingCameraSurface_tSizeCheck;
   static_assert(sizeof(VREvent_EditingCameraSurface_t) == 0xC);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VREvent_EditingCameraSurface_t, "OVR.OpenVR", "VREvent_EditingCameraSurface_t");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

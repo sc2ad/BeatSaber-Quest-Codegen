@@ -39,6 +39,14 @@ namespace System::Text {
 // Completed forward declares
 // Type namespace: UnityEngine.Networking
 namespace UnityEngine::Networking {
+  // Forward declaring type: UnityWebRequest
+  class UnityWebRequest;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::Networking::UnityWebRequest);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::UnityWebRequest*, "UnityEngine.Networking", "UnityWebRequest");
+// Type namespace: UnityEngine.Networking
+namespace UnityEngine::Networking {
   // Size: 0x3B
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -51,6 +59,15 @@ namespace UnityEngine::Networking {
     struct UnityWebRequestMethod;
     // Nested type: UnityEngine::Networking::UnityWebRequest::UnityWebRequestError
     struct UnityWebRequestError;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // System.IntPtr m_Ptr
     // Size: 0x8
     // Offset: 0x10
@@ -102,8 +119,7 @@ namespace UnityEngine::Networking {
     bool disposeUploadHandlerOnDispose;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: UnityWebRequest
-    UnityWebRequest(System::IntPtr m_Ptr_ = {}, UnityEngine::Networking::DownloadHandler* m_DownloadHandler_ = {}, UnityEngine::Networking::UploadHandler* m_UploadHandler_ = {}, UnityEngine::Networking::CertificateHandler* m_CertificateHandler_ = {}, System::Uri* m_Uri_ = {}, bool disposeCertificateHandlerOnDispose_ = {}, bool disposeDownloadHandlerOnDispose_ = {}, bool disposeUploadHandlerOnDispose_ = {}) noexcept : m_Ptr{m_Ptr_}, m_DownloadHandler{m_DownloadHandler_}, m_UploadHandler{m_UploadHandler_}, m_CertificateHandler{m_CertificateHandler_}, m_Uri{m_Uri_}, disposeCertificateHandlerOnDispose{disposeCertificateHandlerOnDispose_}, disposeDownloadHandlerOnDispose{disposeDownloadHandlerOnDispose_}, disposeUploadHandlerOnDispose{disposeUploadHandlerOnDispose_} {}
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
@@ -316,7 +332,6 @@ namespace UnityEngine::Networking {
   static check_size<sizeof(UnityWebRequest), 58 + sizeof(bool)> __UnityEngine_Networking_UnityWebRequestSizeCheck;
   static_assert(sizeof(UnityWebRequest) == 0x3B);
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::UnityWebRequest*, "UnityEngine.Networking", "UnityWebRequest");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::get_disposeCertificateHandlerOnDispose
 // Il2CppName: get_disposeCertificateHandlerOnDispose

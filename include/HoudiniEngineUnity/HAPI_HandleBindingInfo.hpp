@@ -9,6 +9,13 @@
 // Completed includes
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
+  // Forward declaring type: HAPI_HandleBindingInfo
+  struct HAPI_HandleBindingInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_HandleBindingInfo, "HoudiniEngineUnity", "HAPI_HandleBindingInfo");
+// Type namespace: HoudiniEngineUnity
+namespace HoudiniEngineUnity {
   // Size: 0x10
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -16,6 +23,15 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HAPI_HandleBindingInfo/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.Int32 handleParmNameSH
     // Size: 0x4
     // Offset: 0x0
@@ -40,6 +56,7 @@ namespace HoudiniEngineUnity {
     int assetParmIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: HAPI_HandleBindingInfo
     constexpr HAPI_HandleBindingInfo(int handleParmNameSH_ = {}, int assetParmNameSH_ = {}, int assetParmId_ = {}, int assetParmIndex_ = {}) noexcept : handleParmNameSH{handleParmNameSH_}, assetParmNameSH{assetParmNameSH_}, assetParmId{assetParmId_}, assetParmIndex{assetParmIndex_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -59,6 +76,4 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HAPI_HandleBindingInfo), 12 + sizeof(int)> __HoudiniEngineUnity_HAPI_HandleBindingInfoSizeCheck;
   static_assert(sizeof(HAPI_HandleBindingInfo) == 0x10);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_HandleBindingInfo, "HoudiniEngineUnity", "HAPI_HandleBindingInfo");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

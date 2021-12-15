@@ -4,12 +4,19 @@
 #pragma once
 // Begin includes
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct Il2CppObject;
-template<class T>
-struct Array;
 // Completed il2cpp-utils forward declares
+// Type namespace: System.Runtime.Remoting
+namespace System::Runtime::Remoting {
+  // Forward declaring type: IChannelInfo
+  class IChannelInfo;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(System::Runtime::Remoting::IChannelInfo);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::IChannelInfo*, "System.Runtime.Remoting", "IChannelInfo");
 // Type namespace: System.Runtime.Remoting
 namespace System::Runtime::Remoting {
   // Size: 0x10
@@ -19,21 +26,17 @@ namespace System::Runtime::Remoting {
   // [ComVisibleAttribute] Offset: EA10CC
   class IChannelInfo {
     public:
-    // Creating value type constructor for type: IChannelInfo
-    IChannelInfo() noexcept {}
     // public System.Object[] get_ChannelData()
     // Offset: 0xFFFFFFFF
-    ::Array<::Il2CppObject*>* get_ChannelData();
+    ::ArrayW<::Il2CppObject*> get_ChannelData();
   }; // System.Runtime.Remoting.IChannelInfo
   #pragma pack(pop)
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::IChannelInfo*, "System.Runtime.Remoting", "IChannelInfo");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::IChannelInfo::get_ChannelData
 // Il2CppName: get_ChannelData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (System::Runtime::Remoting::IChannelInfo::*)()>(&System::Runtime::Remoting::IChannelInfo::get_ChannelData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppObject*> (System::Runtime::Remoting::IChannelInfo::*)()>(&System::Runtime::Remoting::IChannelInfo::get_ChannelData)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::IChannelInfo*), "get_ChannelData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

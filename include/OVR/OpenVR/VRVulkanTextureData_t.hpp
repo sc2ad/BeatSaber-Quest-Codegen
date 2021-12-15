@@ -3,13 +3,20 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "beatsaber-hook/shared/utils/typedefs.h"
+#include <stdint.h>
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
 // Completed includes
+// Type namespace: OVR.OpenVR
+namespace OVR::OpenVR {
+  // Forward declaring type: VRVulkanTextureData_t
+  struct VRVulkanTextureData_t;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VRVulkanTextureData_t, "OVR.OpenVR", "VRVulkanTextureData_t");
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
   // Size: 0x3C
@@ -19,6 +26,15 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VRVulkanTextureData_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // public System.UInt64 m_nImage
     // Size: 0x8
     // Offset: 0x0
@@ -79,6 +95,7 @@ namespace OVR::OpenVR {
     uint m_nSampleCount;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
+    public:
     // Creating value type constructor for type: VRVulkanTextureData_t
     constexpr VRVulkanTextureData_t(uint64_t m_nImage_ = {}, System::IntPtr m_pDevice_ = {}, System::IntPtr m_pPhysicalDevice_ = {}, System::IntPtr m_pInstance_ = {}, System::IntPtr m_pQueue_ = {}, uint m_nQueueFamilyIndex_ = {}, uint m_nWidth_ = {}, uint m_nHeight_ = {}, uint m_nFormat_ = {}, uint m_nSampleCount_ = {}) noexcept : m_nImage{m_nImage_}, m_pDevice{m_pDevice_}, m_pPhysicalDevice{m_pPhysicalDevice_}, m_pInstance{m_pInstance_}, m_pQueue{m_pQueue_}, m_nQueueFamilyIndex{m_nQueueFamilyIndex_}, m_nWidth{m_nWidth_}, m_nHeight{m_nHeight_}, m_nFormat{m_nFormat_}, m_nSampleCount{m_nSampleCount_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -110,6 +127,4 @@ namespace OVR::OpenVR {
   static check_size<sizeof(VRVulkanTextureData_t), 56 + sizeof(uint)> __OVR_OpenVR_VRVulkanTextureData_tSizeCheck;
   static_assert(sizeof(VRVulkanTextureData_t) == 0x3C);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VRVulkanTextureData_t, "OVR.OpenVR", "VRVulkanTextureData_t");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

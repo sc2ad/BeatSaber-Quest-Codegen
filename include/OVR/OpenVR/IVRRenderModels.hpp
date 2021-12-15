@@ -14,6 +14,13 @@ namespace OVR::OpenVR {
 // Completed forward declares
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
+  // Forward declaring type: IVRRenderModels
+  struct IVRRenderModels;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRRenderModels, "OVR.OpenVR", "IVRRenderModels");
+// Type namespace: OVR.OpenVR
+namespace OVR::OpenVR {
   // Size: 0x98
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -59,6 +66,15 @@ namespace OVR::OpenVR {
     class _GetRenderModelOriginalPath;
     // Nested type: OVR::OpenVR::IVRRenderModels::_GetRenderModelErrorNameFromEnum
     class _GetRenderModelErrorNameFromEnum;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // OVR.OpenVR.IVRRenderModels/OVR.OpenVR._LoadRenderModel_Async LoadRenderModel_Async
     // Size: 0x8
     // Offset: 0x0
@@ -173,6 +189,7 @@ namespace OVR::OpenVR {
     OVR::OpenVR::IVRRenderModels::_GetRenderModelErrorNameFromEnum* GetRenderModelErrorNameFromEnum;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::IVRRenderModels::_GetRenderModelErrorNameFromEnum*) == 0x8);
+    public:
     // Creating value type constructor for type: IVRRenderModels
     constexpr IVRRenderModels(OVR::OpenVR::IVRRenderModels::_LoadRenderModel_Async* LoadRenderModel_Async_ = {}, OVR::OpenVR::IVRRenderModels::_FreeRenderModel* FreeRenderModel_ = {}, OVR::OpenVR::IVRRenderModels::_LoadTexture_Async* LoadTexture_Async_ = {}, OVR::OpenVR::IVRRenderModels::_FreeTexture* FreeTexture_ = {}, OVR::OpenVR::IVRRenderModels::_LoadTextureD3D11_Async* LoadTextureD3D11_Async_ = {}, OVR::OpenVR::IVRRenderModels::_LoadIntoTextureD3D11_Async* LoadIntoTextureD3D11_Async_ = {}, OVR::OpenVR::IVRRenderModels::_FreeTextureD3D11* FreeTextureD3D11_ = {}, OVR::OpenVR::IVRRenderModels::_GetRenderModelName* GetRenderModelName_ = {}, OVR::OpenVR::IVRRenderModels::_GetRenderModelCount* GetRenderModelCount_ = {}, OVR::OpenVR::IVRRenderModels::_GetComponentCount* GetComponentCount_ = {}, OVR::OpenVR::IVRRenderModels::_GetComponentName* GetComponentName_ = {}, OVR::OpenVR::IVRRenderModels::_GetComponentButtonMask* GetComponentButtonMask_ = {}, OVR::OpenVR::IVRRenderModels::_GetComponentRenderModelName* GetComponentRenderModelName_ = {}, OVR::OpenVR::IVRRenderModels::_GetComponentStateForDevicePath* GetComponentStateForDevicePath_ = {}, OVR::OpenVR::IVRRenderModels::_GetComponentState* GetComponentState_ = {}, OVR::OpenVR::IVRRenderModels::_RenderModelHasComponent* RenderModelHasComponent_ = {}, OVR::OpenVR::IVRRenderModels::_GetRenderModelThumbnailURL* GetRenderModelThumbnailURL_ = {}, OVR::OpenVR::IVRRenderModels::_GetRenderModelOriginalPath* GetRenderModelOriginalPath_ = {}, OVR::OpenVR::IVRRenderModels::_GetRenderModelErrorNameFromEnum* GetRenderModelErrorNameFromEnum_ = {}) noexcept : LoadRenderModel_Async{LoadRenderModel_Async_}, FreeRenderModel{FreeRenderModel_}, LoadTexture_Async{LoadTexture_Async_}, FreeTexture{FreeTexture_}, LoadTextureD3D11_Async{LoadTextureD3D11_Async_}, LoadIntoTextureD3D11_Async{LoadIntoTextureD3D11_Async_}, FreeTextureD3D11{FreeTextureD3D11_}, GetRenderModelName{GetRenderModelName_}, GetRenderModelCount{GetRenderModelCount_}, GetComponentCount{GetComponentCount_}, GetComponentName{GetComponentName_}, GetComponentButtonMask{GetComponentButtonMask_}, GetComponentRenderModelName{GetComponentRenderModelName_}, GetComponentStateForDevicePath{GetComponentStateForDevicePath_}, GetComponentState{GetComponentState_}, RenderModelHasComponent{RenderModelHasComponent_}, GetRenderModelThumbnailURL{GetRenderModelThumbnailURL_}, GetRenderModelOriginalPath{GetRenderModelOriginalPath_}, GetRenderModelErrorNameFromEnum{GetRenderModelErrorNameFromEnum_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -222,6 +239,4 @@ namespace OVR::OpenVR {
   static check_size<sizeof(IVRRenderModels), 144 + sizeof(OVR::OpenVR::IVRRenderModels::_GetRenderModelErrorNameFromEnum*)> __OVR_OpenVR_IVRRenderModelsSizeCheck;
   static_assert(sizeof(IVRRenderModels) == 0x98);
 }
-#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRRenderModels, "OVR.OpenVR", "IVRRenderModels");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

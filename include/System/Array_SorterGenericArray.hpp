@@ -9,10 +9,6 @@
 #include "System/Array.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections
@@ -23,6 +19,13 @@ namespace System::Collections {
 // Completed forward declares
 // Type namespace: System
 namespace System {
+  // Forward declaring type: SorterGenericArray
+  struct SorterGenericArray;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Array::SorterGenericArray, "System", "Array/SorterGenericArray");
+// Type namespace: System
+namespace System {
   // Size: 0x18
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -30,6 +33,15 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Array::SorterGenericArray/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private System.Array keys
     // Size: 0x8
     // Offset: 0x0
@@ -48,6 +60,7 @@ namespace System {
     System::Collections::IComparer* comparer;
     // Field size check
     static_assert(sizeof(System::Collections::IComparer*) == 0x8);
+    public:
     // Creating value type constructor for type: SorterGenericArray
     constexpr SorterGenericArray(System::Array* keys_ = {}, System::Array* items_ = {}, System::Collections::IComparer* comparer_ = {}) noexcept : keys{keys_}, items{items_}, comparer{comparer_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -62,8 +75,7 @@ namespace System {
     System::Collections::IComparer*& dyn_comparer();
     // System.Void .ctor(System.Array keys, System.Array items, System.Collections.IComparer comparer)
     // Offset: 0x198FB34
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    // ABORTED: conflicts with another method.  SorterGenericArray(System::Array* keys, System::Array* items, System::Collections::IComparer* comparer)
+    // ABORTED: conflicts with another method.  SorterGenericArray(System::Array* keys, System::Array* items, System::Collections::IComparer* comparer);
     // System.Void SwapIfGreaterWithItems(System.Int32 a, System.Int32 b)
     // Offset: 0x198FD28
     void SwapIfGreaterWithItems(int a, int b);
@@ -96,7 +108,6 @@ namespace System {
   static check_size<sizeof(Array::SorterGenericArray), 16 + sizeof(System::Collections::IComparer*)> __System_Array_SorterGenericArraySizeCheck;
   static_assert(sizeof(Array::SorterGenericArray) == 0x18);
 }
-DEFINE_IL2CPP_ARG_TYPE(System::Array::SorterGenericArray, "System", "Array/SorterGenericArray");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Array::SorterGenericArray::SorterGenericArray
 // Il2CppName: .ctor

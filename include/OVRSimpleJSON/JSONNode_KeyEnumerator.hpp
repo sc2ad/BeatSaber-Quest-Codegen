@@ -11,11 +11,14 @@
 #include "System/ValueType.hpp"
 // Including type: OVRSimpleJSON.JSONNode/OVRSimpleJSON.Enumerator
 #include "OVRSimpleJSON/JSONNode_Enumerator.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
+// Type namespace: OVRSimpleJSON
+namespace OVRSimpleJSON {
+  // Forward declaring type: KeyEnumerator
+  struct KeyEnumerator;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONNode::KeyEnumerator, "OVRSimpleJSON", "JSONNode/KeyEnumerator");
 // Type namespace: OVRSimpleJSON
 namespace OVRSimpleJSON {
   // WARNING Size may be invalid!
@@ -24,10 +27,20 @@ namespace OVRSimpleJSON {
   // [TokenAttribute] Offset: FFFFFFFF
   struct JSONNode::KeyEnumerator/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // private OVRSimpleJSON.JSONNode/OVRSimpleJSON.Enumerator m_Enumerator
     // Size: 0xFFFFFFFF
     // Offset: 0x0
     OVRSimpleJSON::JSONNode::Enumerator m_Enumerator;
+    public:
     // Creating value type constructor for type: KeyEnumerator
     constexpr KeyEnumerator(OVRSimpleJSON::JSONNode::Enumerator m_Enumerator_ = {}) noexcept : m_Enumerator{m_Enumerator_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -45,24 +58,13 @@ namespace OVRSimpleJSON {
     ::Il2CppString* get_Current();
     // public System.Void .ctor(System.Collections.Generic.List`1/System.Collections.Generic.Enumerator<OVRSimpleJSON.JSONNode> aArrayEnum)
     // Offset: 0x2164CFC
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    KeyEnumerator(typename System::Collections::Generic::List_1<OVRSimpleJSON::JSONNode*>::Enumerator aArrayEnum) {
-      static auto ___internal__logger = ::Logger::get().WithContext("OVRSimpleJSON::JSONNode::KeyEnumerator::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(aArrayEnum)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, aArrayEnum);
-    }
+    KeyEnumerator(typename System::Collections::Generic::List_1<OVRSimpleJSON::JSONNode*>::Enumerator aArrayEnum);
     // public System.Void .ctor(System.Collections.Generic.Dictionary`2/System.Collections.Generic.Enumerator<System.String,OVRSimpleJSON.JSONNode> aDictEnum)
     // Offset: 0x2164D44
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    KeyEnumerator(typename System::Collections::Generic::Dictionary_2<::Il2CppString*, OVRSimpleJSON::JSONNode*>::Enumerator aDictEnum) {
-      static auto ___internal__logger = ::Logger::get().WithContext("OVRSimpleJSON::JSONNode::KeyEnumerator::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(aDictEnum)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, aDictEnum);
-    }
+    KeyEnumerator(typename System::Collections::Generic::Dictionary_2<::Il2CppString*, OVRSimpleJSON::JSONNode*>::Enumerator aDictEnum);
     // public System.Void .ctor(OVRSimpleJSON.JSONNode/OVRSimpleJSON.Enumerator aEnumerator)
     // Offset: 0x2164D90
-    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    // ABORTED: conflicts with another method.  KeyEnumerator(OVRSimpleJSON::JSONNode::Enumerator aEnumerator)
+    // ABORTED: conflicts with another method.  KeyEnumerator(OVRSimpleJSON::JSONNode::Enumerator aEnumerator);
     // public System.Boolean MoveNext()
     // Offset: 0x2164DEC
     bool MoveNext();
@@ -72,7 +74,6 @@ namespace OVRSimpleJSON {
   }; // OVRSimpleJSON.JSONNode/OVRSimpleJSON.KeyEnumerator
   // WARNING Not writing size check since size may be invalid!
 }
-DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONNode::KeyEnumerator, "OVRSimpleJSON", "JSONNode/KeyEnumerator");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONNode::KeyEnumerator::get_Current
 // Il2CppName: get_Current

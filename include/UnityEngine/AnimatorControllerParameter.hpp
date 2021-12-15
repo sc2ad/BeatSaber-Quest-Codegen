@@ -14,6 +14,14 @@
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: AnimatorControllerParameter
+  class AnimatorControllerParameter;
+}
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+NEED_NO_BOX(UnityEngine::AnimatorControllerParameter);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimatorControllerParameter*, "UnityEngine", "AnimatorControllerParameter");
+// Type namespace: UnityEngine
+namespace UnityEngine {
   // Size: 0x25
   #pragma pack(push, 1)
   // WARNING Layout: Sequential may not be correctly taken into account!
@@ -26,6 +34,15 @@ namespace UnityEngine {
   // [NativeAsStructAttribute] Offset: FFFFFFFF
   class AnimatorControllerParameter : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    #ifdef CODEGEN_FIELD_ACCESSIBILITY
+    CODEGEN_FIELD_ACCESSIBILITY:
+    #else
+    protected:
+    #endif
+    #endif
     // System.String m_Name
     // Size: 0x8
     // Offset: 0x10
@@ -56,8 +73,7 @@ namespace UnityEngine {
     bool m_DefaultBool;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Creating value type constructor for type: AnimatorControllerParameter
-    AnimatorControllerParameter(::Il2CppString* m_Name_ = {}, UnityEngine::AnimatorControllerParameterType m_Type_ = {}, float m_DefaultFloat_ = {}, int m_DefaultInt_ = {}, bool m_DefaultBool_ = {}) noexcept : m_Name{m_Name_}, m_Type{m_Type_}, m_DefaultFloat{m_DefaultFloat_}, m_DefaultInt{m_DefaultInt_}, m_DefaultBool{m_DefaultBool_} {}
+    public:
     // Get instance field reference: System.String m_Name
     ::Il2CppString*& dyn_m_Name();
     // Get instance field reference: UnityEngine.AnimatorControllerParameterType m_Type
@@ -95,7 +111,6 @@ namespace UnityEngine {
   static check_size<sizeof(AnimatorControllerParameter), 36 + sizeof(bool)> __UnityEngine_AnimatorControllerParameterSizeCheck;
   static_assert(sizeof(AnimatorControllerParameter) == 0x25);
 }
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimatorControllerParameter*, "UnityEngine", "AnimatorControllerParameter");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AnimatorControllerParameter::get_name
 // Il2CppName: get_name
